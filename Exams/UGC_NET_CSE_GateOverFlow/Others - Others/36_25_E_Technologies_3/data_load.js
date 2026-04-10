@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Others - Others - E Technologies",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "E Technologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"67358\"></a><div itemprop=\"text\"><p>E-Choupal refers to</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2010 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Calling meeting of Surpanches electronically.</p>",
+            "<p>Conducting Panchayat meeting using latest electronic gadgets.</p>",
+            "<p>Providing window of information to villagers and farmers in NIC network.</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67358/ugc-net-cse-december-2010-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/67358/ugc-net-cse-december-2010-part-2-question-48</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"63069\"></a><div itemprop=\"text\"><p>BCC in the internet refers to</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2011 | Part 2 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Black carbon copy</p>",
+            "<p>Blind carbon copy</p>",
+            "<p>Blank carbon copy</p>",
+            "<p>Beautiful carbon copy</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63069/ugc-net-cse-december-2011-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/63069/ugc-net-cse-december-2011-part-2-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"65613\"></a><div itemprop=\"text\"><p>\"M-Commerce\"&nbsp;refers to</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2011 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A myth which does not exist in reality</p>",
+            "<p>The ability of business to reach potential customers wherever they are</p>",
+            "<p>The ability to have large capacity of memory storage dealing trade and commerce</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65613/ugc-net-cse-june-2011-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/65613/ugc-net-cse-june-2011-part-2-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

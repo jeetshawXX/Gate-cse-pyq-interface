@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Graph Connectivity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Connectivity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49362\"></a><div itemprop=\"text\">\n<p>Consider the following statements:</p>\n\n<ol style=\"list-style-type: upper-roman;\"><li>A graph in which there is a unique path between every pair of vertices is a tree.</li>\n\t<li>A connected graph with e=v-1 is a tree</li>\n\t<li>A connected graph with e=v-1 that has no circuit is a tree</li>\n</ol><p>Which one of the above statements is/are true?</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | September 2013 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and III</p>",
+            "<p>II and III</p>",
+            "<p>I and II</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49362/ugc-net-cse-september-2013-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/49362/ugc-net-cse-september-2013-part-2-question-20</a></p>"
+        }
+      ]
+    }
+  ]
+}

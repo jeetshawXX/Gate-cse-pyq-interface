@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Digital Image Processing - Discovolution",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Discovolution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62708\"></a><div itemprop=\"text\"><p>Blind image disconvolution is</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | December 2015 | Part 3 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Combination of blur identification and image restoration</p>",
+            "<p>Combination of segmentation and classification</p>",
+            "<p>Combination of blur and non-blur image</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62708/ugc-net-cse-december-2015-part-3-question-51\" target=\"_blank\">https://gateoverflow.in/62708/ugc-net-cse-december-2015-part-3-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

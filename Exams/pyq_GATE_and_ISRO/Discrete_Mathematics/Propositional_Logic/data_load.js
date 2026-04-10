@@ -1,0 +1,1047 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Propositional_Logic",
+  "duration": 191,
+  "sections": [
+    {
+      "name": "Propositional_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(P(x) \\) be an arbitrary predicate over the domain of natural numbers. Which ONE of the following statements is TRUE? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((P(0) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) \\)</p>",
+            "<b>B.</b> <p>\\((P(0) \\land (\\forall x [P(x) \\Rightarrow P(x-1)])) \\Rightarrow (\\forall x P(x)) \\)</p>",
+            "<b>C.</b> <p>\\((P(1000) \\land (\\forall x [P(x) \\Rightarrow P(x-1)])) \\Rightarrow (\\forall x P(x)) \\)</p>",
+            "<b>D.</b> <p>\\((P(1000) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((P(0) \\land (\\forall x [P(x) \\Rightarrow P(x+1)])) \\Rightarrow (\\forall x P(x)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460830/gate-cse-2025-set-2-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following predicate logic formulae/formula is/are CORRECT representation(s) of the statement: \"Everyone has exactly one mother\"?\n<br><br>The meanings of the predicates used are:\n<br>\n\\(mother(y,x): y\\) is the mother of \\( x \\)\n<br>\\(noteq(x,y): x\\) and  \\( y \\) are not equal <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\( \\forall x \\exists y \\exists z (mother(y, x) \\land \\neg mother(z, x)) \\)</p>",
+            "<b>B.</b> <p>\\( \\forall x \\exists y [mother(y, x) \\land \\forall z (noteq(z, y) \\to \\neg mother(z, x))] \\)</p>",
+            "<b>C.</b> <p>\\( \\forall x \\forall y [mother(y, x) \\to \\exists z (mother(z, x) \\land \\neg noteq(z, y))] \\)</p>",
+            "<b>D.</b> <p>\\( \\forall x \\exists y [mother(y, x) \\land \\neg \\exists z (noteq(z, y) \\land mother(z, x))] \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\( \\forall x \\exists y [mother(y, x) \\land \\forall z (noteq(z, y) \\to \\neg mother(z, x))] \\)</p>",
+            "<b>D.</b> <p>\\( \\forall x \\exists y [mother(y, x) \\land \\neg \\exists z (noteq(z, y) \\land mother(z, x))] \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460042/gate-cse-2025-set-1-question-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\( p \\) and \\( q \\) be the following propositions:<br><br>\n\\( p \\) : Fail grade can be given.<br>\n\\( q \\) : Student scores more than \\( 50 \\% \\) marks.\n<br><br>\nConsider the statement: \"Fail grade cannot be given when student scores more than \\( 50 \\% \\) marks.\"\n<br>\nWhich one of the following is the CORRECT representation of the above statement in propositional logic? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(  q \\rightarrow \\neg p \\)</p>",
+            "<b>B.</b> <p>\\(  q \\rightarrow p \\)</p>",
+            "<b>C.</b> <p>\\(  p \\rightarrow q \\)</p>",
+            "<b>D.</b> <p>\\( \\neg p \\rightarrow q \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(  q \\rightarrow \\neg p \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422895/gate-cse-2024-set-2-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Geetha has a conjecture about integers, which is of the form<br>\\(\\forall x\\left [P(x)\\Rightarrow \\exists yQ(x,y)  \\right ]  \\)<br>where \\(P\\) is a statement about integers, and \\(Q\\) is a statement about pairs of integers.\nWhich of the following (one or more) option(s) would imply Geetha's conjecture? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\exists  x\\left [P(x)\\wedge  \\forall yQ(x,y)  \\right ]  \\)</p>",
+            "<b>B.</b> <p>\\(\\forall x  \\forall y  Q(x,y)    \\)</p>",
+            "<b>C.</b> <p>\\(\\exists  y \\forall x \\left [P(x) \\Rightarrow   Q(x,y)  \\right ]  \\)</p>",
+            "<b>D.</b> <p>\\(\\exists   x \\left [P(x) \\wedge  \\exists y  Q(x,y)  \\right ]  \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(\\forall x  \\forall y  Q(x,y)    \\)</p>",
+            "<b>C.</b> <p>\\(\\exists  y \\forall x \\left [P(x) \\Rightarrow   Q(x,y)  \\right ]  \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399295/gate-cse-2023-question-16#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Choose the correct choice(s) regarding the following proportional logic assertion S:<br><br>\\(S: (( P \\wedge Q) \\rightarrow R) \\rightarrow (( P \\wedge Q) \\rightarrow (Q \\rightarrow R))\\) <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>S  is neither a tautology nor a contradiction</p>",
+            "<b>B.</b> <p>S  is a tautology</p>",
+            "<b>C.</b> <p>S  is a contradiction</p>",
+            "<b>D.</b> <p>The antecedent of S is logically equivalent to the consequent of S</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>S  is a tautology</p>",
+            "<b>D.</b> <p>The antecedent of S is logically equivalent to the consequent of S</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357525/gate-cse-2021-set-2-question-15#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let p and q be two propositions. Consider the following two formulae in propositional logic.<br>\n<br>\\(S1: (\\neg p\\wedge(p\\vee q))\\rightarrow q\\)<br>\\(S2: q\\rightarrow(\\neg p\\wedge(p\\vee q))\\)<br><br>Which one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are tautologies.</p>",
+            "<b>B.</b> <p>S1 is a tautology but S2 is not a tautology</p>",
+            "<b>C.</b> <p>S1 is not a tautology but S2 is a tautology</p>",
+            "<b>D.</b> <p>Niether S1 nor S2 is a tautology</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 is a tautology but S2 is not a tautology</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357445/gate-cse-2021-set-1-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given that<br>B(a)  means \"a is a bear\"<br>F(a)  means \"a is a fish\" and<br>E(a,b)  means \"a eats b\"<br>Then what is the best meaning of<br>\\(\\forall x[F(x) \\rightarrow \\forall y(E(y, x) \\rightarrow b(y))]\\) <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every fish is eaten by some bear</p>",
+            "<b>B.</b> <p>Bears eat only fish</p>",
+            "<b>C.</b> <p>Every bear eats fish</p>",
+            "<b>D.</b> <p>Only bears eat fish</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only bears eat fish</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331314/isro2020-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following predicate formulae is NOT logically valid?\n<br>\nNote that W is a predicate formula without any free occurrence of x. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(p(x)\\vee W)\\equiv \\forall xp(x)\\vee W\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x(p(x)\\wedge W)\\equiv \\exists xp(x)\\wedge W\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333192/gate2020-cs-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the first-order logic sentence <br> \\(\\varphi \\equiv \\exists s\\exists t\\exists u\\forall v\\forall w\\forall x\\forall y\\varphi (s,t,u,v,w,x,y)\\)<br>  where \\(\\varphi (s,t,u,v,w,x,y)\\) is a quantifier-free first-order logic formula using only predicate\nsymbols, and possibly equality, but no function symbols. Suppose \\(\\varphi \\) has a model with a universe containing 7 elements.\nWhich one of the following statements is necessarily true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exists at least one model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+            "<b>B.</b> <p>There exists no model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+            "<b>C.</b> <p>There exists no model of \\(\\varphi\\) with universe of size greater than 7.</p>",
+            "<b>D.</b> <p>Every model of \\(\\varphi\\) has a universe of size equal to 7.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exists at least one model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204102/gate2018-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a \\rightarrow b) \\wedge(b \\rightarrow c)) \\rightarrow(a \\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a \\wedge b \\wedge c) \\rightarrow(c \\vee a)\\)</p>",
+            "<b>D.</b> <p>\\(a \\rightarrow(b \\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128691/isro2017-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let p, q, r denote the statements \"It is raining ,\" It is cold\", and \" It is pleasant,\"\nrespectively. Then the statement \"It is not raining and it is pleasant, and it is not pleasant\nonly if it is raining and it is cold\" is represented by <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\neg p\\wedge r)\\wedge (\\neg r\\rightarrow (p\\wedge q))\\)</p>",
+            "<b>B.</b> <p>\\((\\neg p\\wedge r)\\wedge ((p\\wedge q)\\rightarrow \\neg r)\\)</p>",
+            "<b>C.</b> <p>\\((\\neg p\\wedge r)\\vee ((p\\wedge q)\\rightarrow \\neg r)\\)</p>",
+            "<b>D.</b> <p>\\((\\neg p\\wedge r)\\vee (r \\rightarrow (p\\wedge q))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\neg p\\wedge r)\\wedge (\\neg r\\rightarrow (p\\wedge q))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118151/gate2017-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let p, q, and r be propositions and the expression (p\\(\\rightarrow\\)q)\\(\\rightarrow\\)r be a contradiction. Then, the\nexpression (r\\(\\rightarrow\\)p)\\(\\rightarrow\\)q is <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a tautology</p>",
+            "<b>B.</b> <p>a tautology</p>",
+            "<b>C.</b> <p>always TRUE when p is FALSE</p>",
+            "<b>D.</b> <p>always TRUE when q is TRUE</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>always TRUE when q is TRUE</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118310/gate2017-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the first-order logic sentence \\(F:\\forall x(\\exists yR(x,y))\\). Assuming non-empty logical\ndomains, which of the sentences below are implied by F? <br>I. \\(\\exists y(\\exists xR(x,y))\\)<br> II. \\(\\exists y(\\forall xR(x,y)) \\)<br>III. \\(\\forall y(\\exists xR(x,y))\\)<br> IV. \\(\\neg \\exists x(\\forall y\\neg R(x,y))\\) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IV only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118701/gate2017-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The statement \\((\\neg p)\\Rightarrow (\\neg q)\\) is logically equivalent to which of the statements below? <br>I. \\( p\\Rightarrow q \\) <br>II. \\(q \\Rightarrow p \\)<br>III. \\((\\neg q)\\vee p\\) <br>IV. \\((\\neg p)\\vee q\\) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118698/gate2017-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following expressions:<br>\n(i) false <br>\n(ii) Q <br>\n(iii) true <br>\n(iv) \\(P\\vee Q\\) <br>\n(v) \\(\\neg Q \\vee P\\) <br>\nThe number of expressions given above that are logically implied by \\(P \\wedge (P \\Rightarrow Q)\\) is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39568/gate2016-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Let p,q, r, s represent the following propositions.<br><br>\np:  x\\(\\in\\){8,9,10,11,12} <br>\nq:  x is a composite number <br>\nr:  x is a perfect square <br>\ns:  x is a prime number <br><br>\nThe integer x\\(\\geq\\)2 which satisfies \\(\\neg((p\\Rightarrow q)\\wedge (\\neg r \\vee \\neg s))\\) is ________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39663/gate2016-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>In a room there are only two types of people, namely Type 1 and Type 2. Type 1 people always tell the truth and Type 2 people always lie. You give a fair coin to a person in that room, without knowing which type he is from and tell him to toss it and hide the result from you till you ask for it. Upon asking, the person replies the following <br><br> \"The result of the toss is head if and only if I am telling the truth.\" <br><br> Which of the following options is correct? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The result is head</p>",
+            "<b>B.</b> <p>The result is tail</p>",
+            "<b>C.</b> <p>If the person is of Type 2, then the result is tail</p>",
+            "<b>D.</b> <p>If the person is of Type 1, then the result is tail</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The result is head</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8427/gate2015-3-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which one of the following well formed formulae is a tautology? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x \\exists yR(x,y)\\leftrightarrow \\exists y\\forall xR(x,y)\\)</p>",
+            "<b>B.</b> <p>\\((\\forall x[\\exists yR(x,y)\\rightarrow S(x,y)])\\rightarrow \\forall x\\exists y S(x,y)\\)</p>",
+            "<b>C.</b> <p>\\([\\forall x\\exists yP(x,y)\\rightarrow R(x,y)]\\leftrightarrow [\\forall x\\exists y(\\neg P(x,y))\\vee R(x,y)]\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x \\forall y P(x,y) \\rightarrow \\forall x\\forall y P(y,x)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\([\\forall x\\exists yP(x,y)\\rightarrow R(x,y)]\\leftrightarrow [\\forall x\\exists y(\\neg P(x,y))\\vee R(x,y)]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8259/gate2015-2-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Consider the following two statements.<br><br>\nS1: If a candidate is known to be corrupt, then he will not be elected <br>\nS2: If a candidate is kind, he will be elected <br><br>\nWhich one of the following statements follows from S1 and S2 as per sound inference rules of logic? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>If a person is known to be corrupt, he is kind</p>",
+            "<b>B.</b> <p>If a person is not known to be corrupt, he is not kind</p>",
+            "<b>C.</b> <p>If a person is kind, he is not known to be corrupt</p>",
+            "<b>D.</b> <p>If a person is not kind, he is not known to be corrupt</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>If a person is kind, he is not known to be corrupt</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8049/gate2015-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>The binary operator \\(\\neq\\) is defined by the following truth table. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Propositional_Logic\\q30_38aeed9e.jpg\"><br> Which one of the following is true about the binary operator \\(\\neq\\)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both commutative and associative</p>",
+            "<b>B.</b> <p>Commutative but not associative</p>",
+            "<b>C.</b> <p>Not commutative but associative</p>",
+            "<b>D.</b> <p>Neither commutative nor associative</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both commutative and associative</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8226/gate2015-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Which one of the following is NOT equivalent to \\(p\\leftrightarrow q\\)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\neg p\\vee q)\\wedge (p\\vee \\neg q)\\)</p>",
+            "<b>B.</b> <p>\\((\\neg p\\vee q)\\wedge (q \\rightarrow p)\\)</p>",
+            "<b>C.</b> <p>\\((\\neg p \\wedge  q)\\vee (p \\wedge \\neg q)\\)</p>",
+            "<b>D.</b> <p>\\((\\neg p \\wedge \\neg q)\\vee (p \\wedge  q)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((\\neg p \\wedge  q)\\vee (p \\wedge \\neg q)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8209/gate2015-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>The CORECT formula for the sentence, \"not all rainy days are cold\" is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall d(Rainy(d)\\wedge \\sim Cold(d))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall d(\\sim Rainy(d)\\rightarrow  Cold(d))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists d(\\sim Rainy(d) \\rightarrow  Cold(d))\\)</p>",
+            "<b>D.</b> <p>\\(\\exists d(Rainy(d)\\wedge \\sim Cold(d))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\exists d(Rainy(d)\\wedge \\sim Cold(d))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2087/gate2014-3-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider the following statements:<br>\nP: Good mobile phones are not cheap <br>\nQ: Cheap mobile phones are not good <br> <br>\nL: P implies Q <br>\nM: Q implies P <br>\nN: P is equivalent to Q <br>\nWhich one of the following about L, M, and N is CORRECT? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only L is TRUE.</p>",
+            "<b>B.</b> <p>Only M is TRUE.</p>",
+            "<b>C.</b> <p>Only N is TRUE.</p>",
+            "<b>D.</b> <p>L, M and N are TRUE.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>L, M and N are TRUE.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2035/gate2014-3-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a\\rightarrow b)\\wedge (b\\rightarrow c))\\rightarrow (a\\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a\\wedge b\\wedge c)\\rightarrow (c\\wedge a)\\)</p>",
+            "<b>D.</b> <p>\\(a\\rightarrow (b\\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2020/gate2014-2-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Which one of the following propositional logic formulas is TRUE when exactly two of p, q,\nand r are TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((p\\leftrightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>B.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>C.</b> <p>\\(((p\\rightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>D.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\wedge (p\\wedge q\\wedge \\sim r)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1933/gate2014-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider the statement <br> \"Not all that glitters is gold\"<br> Predicate glitters(x)  is true if x glitters  and predicate gold(x) is true if x is gold. Which one of the following logical formulae represents the above statement? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x:glitters(x)\\Rightarrow \\neg gold(x)\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x:gold(x)\\Rightarrow glitters(x)\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x:gold(x)\\wedge \\neg glitters(x)\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x:glitters(x)\\wedge \\neg gold(x)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\exists x:glitters(x)\\wedge \\neg gold(x)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/769/gate2014-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Which one of the following is NOT logically equivalent to \\(\\neg \\exists x(\\forall y(\\alpha )\\wedge \\forall z(\\beta ))\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(\\exists z(\\neg \\beta )\\rightarrow \\forall y(\\alpha ))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x(\\forall z(\\beta )\\rightarrow \\exists z(\\neg \\alpha ))\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x(\\forall y(\\alpha )\\rightarrow \\exists z(\\neg \\beta ))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x (\\exists y(\\neg \\alpha )\\rightarrow \\exists z(\\neg \\beta ))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\forall x(\\exists z(\\neg \\beta )\\rightarrow \\forall y(\\alpha ))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "In GATE 2013 marks were given to all for this question<br><a href=\"https://gateoverflow.in/80/gate2013-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>What is the logical translation of the following statement? <br>\n\"None of my friends are perfect.\" <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\exists x(F(x)\\wedge \\neg P(x))\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x(\\neg F(x)\\wedge P(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x(\\neg F(x)\\wedge \\neg P(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\neg \\exists x( F(x) \\wedge P(x))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\neg \\exists x( F(x) \\wedge P(x))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1538/gate2013-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>What is the correct translation of the following statement into mathematical logic? <br>\n\"Some real numbers are rational\" <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\exists x (real(x) \\vee rational(x))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x (real(x) \\rightarrow  rational(x)) \\)</p>",
+            "<b>C.</b> <p>\\(\\exists x (real(x) \\wedge rational(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x (rational(x) \\rightarrow real(x))\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\exists x (real(x) \\wedge rational(x))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45/gate2012-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Consider the following logical inferences.<br<br>\nI1: If it rains then the cricket match will not be played. <br>\nThe cricket match was played. <br>\nInference: There was no rain. <br>\nI2: If it rains then the cricket match will not be played. <br>\nIt did not rain. <br>\nInference: The cricket match was played. <br><br>\nWhich of the following is TRUE?</br<br> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I1 and I2 are correct inferences</p>",
+            "<b>B.</b> <p>I1 is correct but I2 is not a correct inference</p>",
+            "<b>C.</b> <p>I1 is not correct but I2 is a correct inference</p>",
+            "<b>D.</b> <p>Both I1 and I2 are not correct inferences</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I1 is correct but I2 is not a correct inference</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/33/gate2012-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Which one of the following options is CORRECT given three positive integers x, y\nand z, and a predicate <br> \\(P(x)=\\neg (x=1)\\wedge \\forall y(\\exists z(x=y*z))\\Rightarrow (y=x)\\vee (y=1)\\) <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P(x) being true means that x is a prime number</p>",
+            "<b>B.</b> <p>P(x) being true means that x is a number other than 1</p>",
+            "<b>C.</b> <p>P(x) is always true irrespective of the value of x</p>",
+            "<b>D.</b> <p>P(x) being true means that x has exactly two factors other than 1 and x</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P(x) being true means that x is a prime number</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2132/gate2011-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Suppose the predicate F(x,y,t) is used to represent the statement that person x\ncan fool person y at time t. which one of the statements below expresses best\nthe meaning of the formula \\(\\forall x \\exists y \\exists t(\\neg F (x, y, t))\\)? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Everyone can fool some person at some time</p>",
+            "<b>B.</b> <p>No one can fool everyone all the time</p>",
+            "<b>C.</b> <p>Everyone cannot fool some person all the time</p>",
+            "<b>D.</b> <p>No one can fool some person at some time</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>No one can fool everyone all the time</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1156/gate2010-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the following well-formed formulae:<br> I. \\(\\neg \\forall x(P(x))\\) <br> II. \\(\\neg \\exists x(P(x))\\) <br>  III. \\(\\neg \\exists x(\\neg P(x))\\)  <br> IV. \\(\\exists x(\\neg P(x))\\)<br> Which of the above are equivalent? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and III</p>",
+            "<b>B.</b> <p>I and IV</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>II and IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/803/gate2009-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Which one of the following is the most appropriate logical formula to represent\nthe statement? <br><br>\"Gold and silver ornaments are precious\".\n<br><br> The following notations are used: <br><br>\nG(x): x is a gold ornament<br>\nS(x): x is a silver ornament<br>\nP(x): x is precious <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(P(x)\\rightarrow (G(x)\\wedge S(x)))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x((G(x) \\wedge S(x)) \\rightarrow P(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x((G(x) \\wedge S(x)) \\rightarrow P(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x((G(x) \\vee S(x)) \\rightarrow P(x))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x((G(x) \\vee S(x)) \\rightarrow P(x))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/800/gate2009-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Which of the following is the negation of \\([\\forall x, \\alpha \\rightarrow(\\exists y, \\beta \\rightarrow(\\forall u, \\exists v, y))]\\) <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\({[\\exists x, \\alpha \\rightarrow(\\forall y, \\beta \\rightarrow(\\exists u, \\forall v, y))]}\\)</p>",
+            "<b>B.</b> <p>\\({[\\exists x, \\alpha \\rightarrow(\\forall y, \\beta \\rightarrow(\\exists u, \\forall v, \\neg y))]}\\)</p>",
+            "<b>C.</b> <p>\\({[\\forall x, \\neg \\alpha \\rightarrow(\\exists y, \\neg \\beta \\rightarrow(\\forall u, \\exists v, \\neg y))]}\\)</p>",
+            "<b>D.</b> <p>\\({[\\exists x, \\alpha \\wedge(\\forall y, \\beta \\wedge(\\exists u, \\forall v, \\neg y))]}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\({[\\exists x, \\alpha \\wedge(\\forall y, \\beta \\wedge(\\exists u, \\forall v, \\neg y))]}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3283/gate2008-it-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Which of the following first order formulae is logically valid? <br>Here \\(\\alpha(x)\\) is a first order formula with x as a free variable, and \\(\\beta\\) is a first order formula with no free variable.<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\([\\beta \\rightarrow (\\exists x, \\alpha(x))] \\rightarrow [\\forall x, \\beta \\rightarrow \\alpha(x)]\\)</p>",
+            "<b>B.</b> <p>\\([\\exists x, \\beta \\rightarrow \\alpha(x)] \\rightarrow [\\beta \\rightarrow (\\forall x, \\alpha(x))]\\)</p>",
+            "<b>C.</b> <p>\\([(\\exists x, \\alpha(x)) \\rightarrow \\beta] \\rightarrow [\\forall x, \\alpha(x) \\rightarrow \\beta]\\)</p>",
+            "<b>D.</b> <p>\\([(\\forall x, \\alpha(x)) \\rightarrow \\beta] \\rightarrow [\\forall x, \\alpha(x) \\rightarrow \\beta]\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\([(\\exists x, \\alpha(x)) \\rightarrow \\beta] \\rightarrow [\\forall x, \\alpha(x) \\rightarrow \\beta]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3282/gate2008-it-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>P and Q are two propositions. Which of the following logical expressions are\nequivalent?<br>  I. \\(P\\vee \\sim Q \\)<br> II.\\(\\sim (\\sim  P \\wedge Q) \\)<br> III.\\((P \\wedge Q)\\vee (P\\wedge \\sim Q)\\vee (\\sim P\\wedge \\sim Q) \\)<br> IV. \\((P\\wedge Q)\\vee \\vee (P\\wedge \\sim Q)\\vee (\\sim P\\wedge Q)\\) <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I and II</p>",
+            "<b>B.</b> <p>Only I, II and III</p>",
+            "<b>C.</b> <p>Only I, II and IV</p>",
+            "<b>D.</b> <p>All of I, II III and IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only I, II and III</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/442/gate2008-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Let fsa and pda be two predicates such that fsa(x) means x is a finite state\nautomaton, and pda(y) means that y is a pushdown automaton. Let equivalent\nbe another predicate such that equivalent (a, b) means a and b are equivalent.\nWhich of the following first order logic statements represents the following:<br>\nEach finite state automaton has an equivalent pushdown automaton <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall x \\; fsa(x))\\Rightarrow (\\exists y \\;  pda(y)\\wedge equivalent (x,y))\\)</p>",
+            "<b>B.</b> <p>\\(~ \\forall y(\\exists x \\; fsa(x) \\Rightarrow pda(y)\\wedge equivalent(x,y))\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x\\; \\exists y(fsa(x)\\wedge pda(y)\\wedge equivalent(x,y))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x \\;  \\exists y(fsa(y)\\wedge pda(x)\\wedge equivalent(x,y))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\forall x \\; fsa(x))\\Rightarrow (\\exists y \\;  pda(y)\\wedge equivalent (x,y))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "None of these.<br><a href=\"https://gateoverflow.in/441/gate2008-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Identify the correct translation into logical notation of the following assertion.<br>\nSome boys in the class are taller than all the girls<br>\nNote: taller (x, y) is true if x is taller than y. <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>C.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+            "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1020/gate2004-23-isro2007-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Which one of these first-order logic formulae is valid? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x\\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right) \\implies \\left(\\forall xP\\left(x\\right)\\implies \\forall xQ\\left(x\\right)\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x\\left(P\\left(x\\right) \\vee Q\\left(x\\right)\\right)\\implies \\left(\\exists xP\\left(x\\right)\\implies \\exists xQ\\left(x\\right)\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x\\left(P\\left(x\\right) \\wedge Q\\left(x\\right)\\right) \\iff \\left(\\exists xP\\left(x\\right) \\wedge \\exists xQ\\left(x\\right)\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x \\exists y P\\left(x, y\\right)\\implies \\exists y \\forall x P\\left(x, y\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\forall x\\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right) \\implies \\left(\\forall xP\\left(x\\right)\\implies \\forall xQ\\left(x\\right)\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3454/gate2007-it-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Let Graph(x) be a predicate which denotes that x is a graph. Let Connected(x) be\na predicate which denotes that x is connected. Which of the following first order\nlogic sentences DOES NOT represent the statement: \"Not every graph is connected\"? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\neg \\forall x (Graph(x)\\Rightarrow Connected(x))\\)</p>",
+            "<b>B.</b> <p>\\(\\exists  x(Graph(x) \\Rightarrow \\neg Connected(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\neg \\forall  x(\\neg Graph(x) \\vee Connected(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x(Graph(x) \\Rightarrow \\neg Connected(x))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x(Graph(x) \\Rightarrow \\neg Connected(x))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1220/gate2007-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider the following first order logic formula in which R is a binary relation symbol.<br>\n\\(\\forall x \\forall y(R(x, y) \\Longrightarrow R(y, x))\\),<br>The formula is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>satisfiable and valid</p>",
+            "<b>B.</b> <p>satisfiable and so is its negation</p>",
+            "<b>C.</b> <p>unsatisfiable but its negation is valid</p>",
+            "<b>D.</b> <p>satisfiable but its negation is unsatisfiable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>satisfiable and so is its negation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3560/gate2006-it-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider the following propositional statements: <br> \\(P1:((A\\wedge B)\\rightarrow C)\\equiv (A\\rightarrow C)\\wedge (B\\rightarrow C)\\) <br> \\( P2:((A\\vee B)\\rightarrow C)\\equiv (A\\rightarrow C)\\vee (B\\rightarrow C) \\)<br> Which one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P1 is a tautology, but not P2</p>",
+            "<b>B.</b> <p>P2 is a tautology, but not P1</p>",
+            "<b>C.</b> <p>P1 and P2 are both tautologies</p>",
+            "<b>D.</b> <p>Both P1 and P2 are not tautologies</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both P1 and P2 are not tautologies</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/990/gate2006-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Which one of the first order predicate calculus statements given below correctly\nexpresses the following English statement? <br><br>Tigers and lions attack if they are hungry or threatened. <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\wedge lion(x))\\rightarrow \\) \\(\\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}]\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\(\\{(hungry(x)\\vee theatened(x))\\wedge attacks(x)\\}]\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x\\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\( \\{attacks (x)\\rightarrow (hungry(x)\\wedge theatened(x))\\}]\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\( \\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}]\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\( \\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}]\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/989/gate2006-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Let P(x) and Q(x) be arbitrary predicates. Which of the following statements is always TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\left(\\forall x \\left(P\\left(x\\right) \\vee Q\\left(x\\right)\\right)\\right)\\right) \\implies \\left(\\left(\\forall x P\\left(x\\right)\\right) \\vee \\left(\\forall xQ\\left(x\\right)\\right)\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\forall x \\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right)\\right) \\implies \\left(\\left(\\forall x P\\left(x\\right)\\right) \\implies \\left(\\forall xQ\\left(x\\right)\\right)\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\forall x\\left(P\\left(x\\right) \\right) \\implies \\forall x \\left( Q\\left(x\\right)\\right)\\right) \\implies \\left(\\forall x \\left( P\\left(x\\right) \\implies Q\\left(x\\right)\\right)\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\forall x \\left( P\\left(x\\right)\\right) \\Leftrightarrow \\left(\\forall x \\left( Q\\left(x\\right)\\right)\\right) \\right) \\implies \\left(\\forall x \\left (P\\left(x\\right) \\Leftrightarrow Q\\left(x\\right)\\right)\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\forall x \\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right)\\right) \\implies \\left(\\left(\\forall x P\\left(x\\right)\\right) \\implies \\left(\\forall xQ\\left(x\\right)\\right)\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3783/gate2005-it-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>What is the first order predicate calculus statement equivalent to the following? <br>\nEvery teacher is liked by some student <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\rightarrow likes(y,x)]]\\)</p>",
+            "<b>B.</b> <p>\\(\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\wedge likes(y,x)]]\\)</p>",
+            "<b>C.</b> <p>\\(\\exists (y) \\forall (x)[teacher(x)\\rightarrow [student(y)\\wedge likes(y,x)]]\\)</p>",
+            "<b>D.</b> <p>\\(\\forall (x)[teacher(x)\\wedge \\exists (y)[student(y)\\rightarrow likes(y,x)]]\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\wedge likes(y,x)]]\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1166/gate2005-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Let P, Q and R be tree atomic prepositional assertions. Let X denote (P \\(\\vee\\) Q) \\(\\rightarrow\\) R and Y denote (P \\(\\rightarrow\\) R) \\(\\vee\\) (Q \\(\\rightarrow\\) R). Which one of the following is a tautology? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X\\(\\equiv\\)Y</p>",
+            "<b>B.</b> <p>X\\(\\rightarrow\\)Y</p>",
+            "<b>C.</b> <p>Y\\(\\rightarrow\\)X</p>",
+            "<b>D.</b> <p>\\(\\neg\\)Y\\(\\rightarrow\\)X</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X\\(\\rightarrow\\)Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1165/gate2005-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Let p,q,r and s be four primitive statements. Consider the following arguments:<br><br>\\(\\begin{array}{l} P:[(\\neg p \\vee q) \\wedge(r \\rightarrow s) \\wedge(p \\vee r)] \\rightarrow(\\neg s \\rightarrow q) \\\\ Q:[(\\neg p \\wedge q) \\wedge[q \\rightarrow(p \\rightarrow r)]] \\rightarrow \\neg r \\\\ R:[[(q \\wedge r) \\rightarrow p] \\wedge(\\neg q \\vee p)] \\rightarrow r \\\\ S:[p \\wedge(p \\rightarrow r) \\wedge(q \\vee \\neg r)] \\rightarrow q \\end{array}\\)<br><br>Which of the above arguments are valid? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P and Q only</p>",
+            "<b>B.</b> <p>P and R only</p>",
+            "<b>C.</b> <p>P and S only</p>",
+            "<b>D.</b> <p>P,Q,R and S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P and S only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3674/gate2004-it-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Let a(x, y), b(x, y,) and c(x, y) be three statements with variables x and y chosen from some universe. Consider the following statement:<br>\n\\(\\qquad(\\exists x)(\\forall y)[(a(x, y) \\wedge b(x, y)) \\wedge \\neg c(x, y)]\\)<br>\nWhich one of the following is its equivalent? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall x)(\\exists y)[(a(x, y) \\vee b(x, y)) \\to c(x, y)]\\)</p>",
+            "<b>B.</b> <p>\\((\\exists x)(\\forall y)[(a(x, y) \\vee b(x, y)) \\wedge\\neg c(x, y)]\\)</p>",
+            "<b>C.</b> <p>\\(\\neg (\\forall x)(\\exists y)[(a(x, y) \\wedge b(x, y)) \\to c(x, y)]\\)</p>",
+            "<b>D.</b> <p>\\(\\neg (\\forall x)(\\exists y)[(a(x, y) \\vee b(x, y)) \\to c(x, y)]\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\neg (\\forall x)(\\exists y)[(a(x, y) \\wedge b(x, y)) \\to c(x, y)]\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3644/gate2004-it-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>The following propositional statement is \\((P\\rightarrow (Q\\vee R))\\rightarrow ((P\\vee Q)\\rightarrow R)\\) <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>satisfiable but not valid</p>",
+            "<b>B.</b> <p>valid</p>",
+            "<b>C.</b> <p>a contradiction</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>satisfiable but not valid</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1064/gate2004-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Identify the correct translation into logical notation of the following assertion. <br><br> Some boys in the class\nare taller than all the girls <br><br>\nNote: taller (x, y) is true if x is taller than y. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\exists x)(boy(x)\\rightarrow \\forall (y)(girl(y)\\wedge taller(x,y)))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists x)(boy(x)\\wedge \\forall (y)(girl(y)\\wedge taller(x,y)))\\)</p>",
+            "<b>C.</b> <p>\\((\\exists x)(boy(x)\\rightarrow \\forall (y)(girl(y)\\rightarrow taller(x,y)))\\)</p>",
+            "<b>D.</b> <p>\\((\\exists x)(boy(x)\\wedge \\forall (y)(girl(y)\\rightarrow taller(x,y)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((\\exists x)(boy(x)\\wedge \\forall (y)(girl(y)\\rightarrow taller(x,y)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1020/gate2004-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>the following resolution rule is used in logic programming: <br>\nDerive clause(P \\(\\vee\\) Q) from clauses (P \\(\\vee\\) R),(Q \\(\\vee \\neg\\) JR) <br>\nWhich of the following statements related to this rule is FASLE? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((P \\vee R) \\wedge (Q \\vee \\neg R)) \\Rightarrow (P \\vee Q)\\)\nis logically valid</p>",
+            "<b>B.</b> <p>\\((P \\vee Q) \\Rightarrow ((P \\vee R)\\wedge (Q \\vee \\neg R))\\)\nis logically valid</p>",
+            "<b>C.</b> <p>\\((P \\vee Q)\\) is satisfiable if and only if \\((P \\vee R)\\wedge (Q \\vee \\neg R)\\)\nis satisfiable</p>",
+            "<b>D.</b> <p>\\((P \\vee Q)\\Rightarrow\\) FALSE if and only if both P and Q are unsatisfiable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((P \\vee Q) \\Rightarrow ((P \\vee R)\\wedge (Q \\vee \\neg R))\\)\nis logically valid</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/959/gate2003-72#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider the following logic program P <br>\n\\(A(x)\\leftarrow B(x,y),C(y) \\leftarrow B(x,x)\\) <br>\nWhich of the following first order sentences is equivalent to P? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Propositional_Logic\\q71_1baeed35.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/958/gate2003-71#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider the following formula \\(\\alpha\\)\nand its two interpretations \\(I_{1} \\; and \\; I_{2}\\)  <br><br> \\(\\alpha :(\\forall x)[P_{x}\\leftrightarrow (\\forall y)[Q_{xy}\\leftrightarrow \\neg Q_{yy}]]\\rightarrow (\\forall x)[\\neg P_{x}]\\) <br><br>I1: Domain : the set of natural numbers<br>\n\\(P_{x}\\equiv x\\) is a prime number <br>\n\\(Q_{xy}\\equiv y\\)  divides x <br><br>\nI2; same as I1 except that \\(P_{x}\\equiv x\\) is a composite number. <br><br>\nWhich of the following statements is true? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I1 satisfies \\(\\alpha\\)\n, I2 does not</p>",
+            "<b>B.</b> <p>I2 satisfies \\(\\alpha\\)\n,I1 does not</p>",
+            "<b>C.</b> <p>Neither I2 nor I2 satisfies \\(\\alpha\\)</p>",
+            "<b>D.</b> <p>Both I1 and I2 satisfy \\(\\alpha\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both I1 and I2 satisfy \\(\\alpha\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/923/gate2003-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Which of the following is a valid first order formula?\n(Here \\(\\alpha \\)\nand \\(\\beta\\)\nare first order formulae with x as their only free variable)<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Propositional_Logic\\q32_3d05448c.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/922/gate2003-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Let (S,\\(\\leq\\)) be a partial order with two minimal elements a and b, and a maximum element c. <br> Let P:S \\(\\rightarrow\\)\n{True, False} be a predicate defined on S . Suppose that\nP(a) = True, P(b) =False and P(x) \\(\\Rightarrow\\) p(y) for all x,y \\(\\in\\) S satisfying x\\(\\leq\\)y, where \\(\\Rightarrow\\) stands for logical implication. Which of the following statements CANNOT be true? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P(x) =True for all x \\(\\in\\) S such that x  \\(\\neq\\) b</p>",
+            "<b>B.</b> <p>P(x) =False for all x \\(\\in\\) S such that x \\(\\neq\\) a and x \\(\\neq\\) c</p>",
+            "<b>C.</b> <p>P(x) =False for all x \\(\\in\\) S such that b \\(\\leq\\) x and x \\(\\neq\\) c</p>",
+            "<b>D.</b> <p>P(x) =False for all x \\(\\in\\) S such that a \\(\\leq\\) x and b \\(\\leq\\) x</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P(x) =False for all x \\(\\in\\) S such that a \\(\\leq\\) x and b \\(\\leq\\) x</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/921/gate2003-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>\"If X then Y unless Z\" is represented by which of the following formulas in prepositional logic? (\\(\"\\neg\"\\), is negation, \\(\"\\wedge \"\\)\nis conjunction, and \\(\"\\rightarrow \"\\)  is implication) <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((X\\wedge \\neg Z)\\rightarrow Y\\)</p>",
+            "<b>B.</b> <p>\\((X\\wedge Y)\\rightarrow \\neg Z\\)</p>",
+            "<b>C.</b> <p>\\(X\\rightarrow (Y \\wedge \\neg Z)\\)</p>",
+            "<b>D.</b> <p>\\((X\\rightarrow Y )\\wedge \\neg Z\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((X\\wedge \\neg Z)\\rightarrow Y\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/812/gate2002-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Let a, b, c, d be propositions. Assume that the equivalence \\(a \\Leftrightarrow ( b \\vee \\neg b) \\text{ and }b \\Leftrightarrow c\\) hold. Then the truth-value of the formula \\((a \\land b) \\rightarrow (a \\land c) \\lor d\\) is always <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TRUE</p>",
+            "<b>B.</b> <p>FALSE</p>",
+            "<b>C.</b> <p>Same as the truth-value of b</p>",
+            "<b>D.</b> <p>Same as the truth-value of d</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>TRUE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/654/gate2000-2-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>What is the converse of the following assertion?<br>\nI stay only if you go <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I stay if you go</p>",
+            "<b>B.</b> <p>If I stay then you go</p>",
+            "<b>C.</b> <p>If you do not go then I do not stay</p>",
+            "<b>D.</b> <p>If I do not stay then you go</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I stay if you go</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1642/gate1998-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>Which of the following propositions is a tautology? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((p \\vee q) \\rightarrow p\\)</p>",
+            "<b>B.</b> <p>\\(p \\vee (q \\rightarrow p)\\)</p>",
+            "<b>C.</b> <p>\\(p \\vee (p \\rightarrow q)\\)</p>",
+            "<b>D.</b> <p>\\(p \\rightarrow (p \\rightarrow q)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(p \\vee (p \\rightarrow q)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2233/gate1997-3-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>Which of the following is false? Read \\(\\wedge\\) as AND, \\(\\vee\\) as OR, \\(\\neg\\) as NOT,  \\(\\rightarrow\\) as one way implication and \\(\\leftrightarrow\\) as two way implication <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((x \\rightarrow y) \\wedge x) \\rightarrow y\\)</p>",
+            "<b>B.</b> <p>\\(((\\neg x \\rightarrow y) \\wedge (\\neg x \\rightarrow \\neg y)) \\rightarrow x\\)</p>",
+            "<b>C.</b> <p>\\((x \\rightarrow (x \\vee y))\\)</p>",
+            "<b>D.</b> <p>\\(((x \\vee y) \\leftrightarrow (\\neg x \\rightarrow \\neg y))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(((x \\vee y) \\leftrightarrow (\\neg x \\rightarrow \\neg y))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2732/gate1996-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>If the proposition \\(\\lnot p \\to q\\) is true, then the truth value of the proposition \\(\\lnot p \\lor \\left ( p \\to q \\right )\\), where \\(\\lnot\\) is negation, \\(\\lor\\) is inclusive OR and \\(\\to\\) is implication, is <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TRUE</p>",
+            "<b>B.</b> <p>Multiple Values</p>",
+            "<b>C.</b> <p>FALSE</p>",
+            "<b>D.</b> <p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Cannot be determined</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2631/gate1995-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>The proposition \\(p \\wedge (\\sim p \\vee q)\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a tautology</p>",
+            "<b>B.</b> <p>logically equivalent to \\(p \\wedge q\\)</p>",
+            "<b>C.</b> <p>logically equivalent to \\(p \\vee q\\)</p>",
+            "<b>D.</b> <p>a contradiction</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>logically equivalent to \\(p \\wedge q\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2300/gate1993-8-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Consider two well-formed formulas in prepositional logic. <br> \\(F1: \\; P\\Rightarrow \\neg P\\)<br> \\(F2: \\;( P\\Rightarrow \\neg P)\\vee ( \\neg P\\Rightarrow P)\\)\n<br>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>F1 is satisfiable, F2 is valid</p>",
+            "<b>B.</b> <p>F1 unsatisfiable, F2 is satisfiable</p>",
+            "<b>C.</b> <p>F1 is unsatisfiable, F2 is valid</p>",
+            "<b>D.</b> <p>F1 and F2 are both satisfiable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>F1 is satisfiable, F2 is valid</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/696/gate2001-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following is/are a tautology? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(a \\vee b \\to b \\wedge c\\)</p>",
+            "<b>B.</b> <p>\\(a \\wedge b \\to b \\vee c\\)</p>",
+            "<b>C.</b> <p>\\(a \\vee b \\to \\left(b \\to c \\right)\\)</p>",
+            "<b>D.</b> <p>\\(a \\to b \\to \\left(b \\to c \\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(a \\wedge b \\to b \\vee c\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/574/gate1992-02-xvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>Which of the following predicate calculus statements is/are valid? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall (x)) P(x) \\vee (\\forall(x))Q(x) \\implies (\\forall (x)) (P(x) \\vee Q(x))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists (x)) P(x) \\wedge (\\exists (x))Q(x) \\implies (\\exists (x)) (P(x) \\wedge Q(x))\\)</p>",
+            "<b>C.</b> <p>\\((\\forall (x)) (P(x) \\vee Q(x)) \\implies (\\forall (x)) P(x) \\vee (\\forall (x)) Q(x)\\)</p>",
+            "<b>D.</b> <p>\\((\\exists (x)) (P(x) \\vee Q(x)) \\implies \\sim (\\forall (x)) P(x) \\vee (\\exists (x)) Q(x)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\forall (x)) P(x) \\vee (\\forall(x))Q(x) \\implies (\\forall (x)) (P(x) \\vee Q(x))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/256/gate1992-92-xv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nIf \\(F_1\\), \\(F_2\\) and \\(F_3\\) are propositional formulae such that \\(F_1 \\land F_2 \\rightarrow F_3\\) and \\(F_1 \\land F_2 \\rightarrow \\sim F_3\\) are both tautologies, then which of the following is true: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both\\(F_1\\) and \\(F_2\\) are tautologies</p>",
+            "<b>B.</b> <p>The conjunction \\(F_1 \\land F_2\\) is not satisfiable</p>",
+            "<b>C.</b> <p>Neither is tautologous</p>",
+            "<b>D.</b> <p>Neither is satisfiable</p>",
+            "<b>E.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The conjunction \\(F_1 \\land F_2\\) is not satisfiable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/526/gate1991-03-xii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 68,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Indicate which of the following well-formed formulae are valid: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(P\\Rightarrow Q\\right) {\\wedge} \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(P \\Rightarrow R\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(P\\Rightarrow Q\\right) \\Rightarrow \\left( \\neg P \\Rightarrow \\neg Q\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(P{\\wedge} \\left(\\neg P \\vee \\neg Q\\right)\\right) \\Rightarrow Q\\)</p>",
+            "<b>D.</b> <p>\\(\\left(P \\Rightarrow R\\right) \\vee \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(\\left(P \\vee Q \\right) \\Rightarrow R\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\left(P\\Rightarrow Q\\right) {\\wedge} \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(P \\Rightarrow R\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84861/gate1990-3-x\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 69,
+          "question": "<p>Answer the following:<br>Which of the following well-formed formulas are equivalent? <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P \\rightarrow Q\\)</p>",
+            "<b>B.</b> <p>\\(\\neg Q \\rightarrow \\neg P\\)</p>",
+            "<b>C.</b> <p>\\(\\neg P \\vee Q\\)</p>",
+            "<b>D.</b> <p>\\(\\neg Q \\rightarrow P\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(P \\rightarrow Q\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87126/gate1989-3-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

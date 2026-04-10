@@ -1,0 +1,498 @@
+/* ============================================
+   BOOKMARKS PAGE STYLES
+   ============================================ */
+
+body {
+    background: #f0f2f5;
+    padding: 20px;
+    overflow: auto;
+}
+
+.bookmarks-container {
+    max-width: 950px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 30px;
+}
+
+.bookmarks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(90deg, #1abc9c, #3b5998, #e67e22) 1;
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.bk-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.bookmarks-header h1 {
+    color: #3b5998;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+.bk-count {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    background: #f0f2f5;
+    padding: 4px 12px;
+    border-radius: 12px;
+}
+
+.bk-header-right {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.btn-clear-all {
+    background: linear-gradient(135deg, #e74c3c, #c0392b) !important;
+    color: #fff !important;
+}
+
+/* Controls */
+.bk-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bk-search {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+    background: #fff;
+}
+
+.bk-search:focus {
+    outline: none;
+    border-color: #3b5998;
+    box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.1);
+}
+
+.bk-filter {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+    min-width: 130px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.bk-filter:focus {
+    outline: none;
+    border-color: #3b5998;
+}
+
+/* Empty State */
+.bk-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.bk-empty-icon {
+    font-size: 64px;
+    margin-bottom: 16px;
+    opacity: 0.6;
+}
+
+.bk-empty h2 {
+    color: #555;
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+
+.bk-empty p {
+    color: #888;
+    font-size: 15px;
+    max-width: 400px;
+}
+
+/* Exam Tag */
+.bk-exam-tag {
+    display: inline-block;
+    background: linear-gradient(135deg, #3b5998, #5b7ec2);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 6px;
+    letter-spacing: 0.2px;
+}
+
+/* Date Tag */
+.bk-date {
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+}
+
+/* Remove Button */
+.bk-remove-btn {
+    background: none;
+    border: 1px solid #ddd;
+    color: #999;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+
+.bk-remove-btn:hover {
+    background: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+    transform: scale(1.1);
+}
+
+/* No match message */
+.bk-no-match {
+    text-align: center;
+    padding: 40px 20px;
+    color: #888;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ============================================
+   DARK MODE — BOOKMARKS PAGE
+   ============================================ */
+[data-theme="dark"] .bookmarks-container {
+    background: #1a1a2e;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #2a2a3e;
+}
+
+[data-theme="dark"] .bookmarks-header {
+    border-image: linear-gradient(90deg, #0f8b72, #2a5098, #b85a18) 1;
+}
+
+[data-theme="dark"] .bookmarks-header h1 {
+    color: #7eb8ff;
+}
+
+[data-theme="dark"] .bk-count {
+    background: #12121f;
+    color: #8888a0;
+}
+
+[data-theme="dark"] .bk-search {
+    background: #161625;
+    border-color: #2a2a3e;
+    color: #d8d8e4;
+}
+
+[data-theme="dark"] .bk-search:focus {
+    border-color: #4a6eaa;
+    box-shadow: 0 0 0 3px rgba(59, 89, 152, 0.2);
+}
+
+[data-theme="dark"] .bk-filter {
+    background: #161625;
+    border-color: #2a2a3e;
+    color: #c0c0d8;
+}
+
+[data-theme="dark"] .bk-empty h2 {
+    color: #b0b0c8;
+}
+
+[data-theme="dark"] .bk-empty p {
+    color: #7070a0;
+}
+
+[data-theme="dark"] .bk-exam-tag {
+    background: linear-gradient(135deg, #2a5098, #3a6ab0);
+}
+
+[data-theme="dark"] .bk-date {
+    color: #6868a0;
+}
+
+[data-theme="dark"] .bk-remove-btn {
+    border-color: #3a3a5c;
+    color: #6868a0;
+}
+
+[data-theme="dark"] .bk-remove-btn:hover {
+    background: #c0392b;
+    border-color: #c0392b;
+    color: white;
+}
+
+[data-theme="dark"] .bk-no-match {
+    color: #6868a0;
+}
+
+/* ============================================
+   NOTES SECTION STYLES
+   ============================================ */
+.bk-notes-section {
+    margin-top: 15px;
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px dashed #ccc;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+[data-theme="dark"] .bk-notes-section {
+    background: #1e1e2d;
+    border-color: #33334d;
+}
+
+.bk-notes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+}
+
+[data-theme="dark"] .bk-notes-header {
+    color: #a0a0c0;
+}
+
+.bk-edit-note-btn {
+    background: rgba(52, 152, 219, 0.1);
+    border: 1px solid rgba(52, 152, 219, 0.3);
+    color: #3498db;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.bk-edit-note-btn:hover {
+    background: #3498db;
+    color: white;
+}
+
+.bk-notes-display {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    padding: 10px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+[data-theme="dark"] .bk-notes-display {
+    background: #161625;
+    color: #d8d8e4;
+    border-color: #2a2a3e;
+}
+
+.bk-notes-textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.1);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #fff;
+    color: #333;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.bk-notes-textarea:focus {
+    border-color: #2980b9;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+}
+
+[data-theme="dark"] .bk-notes-textarea {
+    background: #12121f;
+    color: #d8d8e4;
+    border-color: #4a6eaa;
+    box-shadow: 0 4px 10px rgba(74, 110, 170, 0.1);
+}
+
+[data-theme="dark"] .bk-notes-textarea:focus {
+    border-color: #7eb8ff;
+    box-shadow: 0 4px 15px rgba(126, 184, 255, 0.2);
+}
+
+.bk-notes-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.btn-cancel-note {
+    background: #f1f2f6 !important;
+    color: #576574 !important;
+    border: 1px solid #dfe4ea !important;
+}
+
+.btn-cancel-note:hover {
+    background: #dfe4ea !important;
+}
+
+[data-theme="dark"] .btn-cancel-note {
+    background: #2f3542 !important;
+    color: #ced6e0 !important;
+    border-color: #57606f !important;
+}
+
+[data-theme="dark"] .btn-cancel-note:hover {
+    background: #57606f !important;
+}
+
+.btn-save-note {
+    background: linear-gradient(135deg, #1abc9c, #16a085) !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 4px 10px rgba(26, 188, 156, 0.3) !important;
+}
+
+.btn-save-note:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(26, 188, 156, 0.4) !important;
+}
+
+/* ============================================
+   PAGINATION BAR STYLES
+   ============================================ */
+.pagination-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 24px;
+    padding: 14px 20px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap;
+}
+
+.pagination-bar .page-btn {
+    min-width: 36px;
+    height: 36px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    color: #555;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-bar .page-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #3b5998, #5b7ec2);
+    color: #fff;
+    border-color: transparent;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(59, 89, 152, 0.3);
+}
+
+.pagination-bar .page-btn.active {
+    background: linear-gradient(135deg, #3b5998, #5b7ec2);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 3px 10px rgba(59, 89, 152, 0.35);
+    pointer-events: none;
+}
+
+.pagination-bar .page-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.pagination-bar .page-ellipsis {
+    color: #999;
+    font-weight: bold;
+    padding: 0 4px;
+    user-select: none;
+}
+
+.pagination-bar .page-info {
+    font-size: 12px;
+    color: #888;
+    font-weight: 600;
+    margin-left: 12px;
+    white-space: nowrap;
+}
+
+/* Dark Mode Pagination */
+[data-theme="dark"] .pagination-bar {
+    background: rgba(26, 26, 46, 0.8);
+    border-color: #2a2a3e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .pagination-bar .page-btn {
+    background: #1e1e2d;
+    border-color: #3a3a5c;
+    color: #a0a0c0;
+}
+
+[data-theme="dark"] .pagination-bar .page-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #2a5098, #3a6ab0);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 3px 8px rgba(42, 80, 152, 0.4);
+}
+
+[data-theme="dark"] .pagination-bar .page-btn.active {
+    background: linear-gradient(135deg, #2a5098, #3a6ab0);
+    box-shadow: 0 3px 10px rgba(42, 80, 152, 0.5);
+}
+
+[data-theme="dark"] .pagination-bar .page-ellipsis {
+    color: #6868a0;
+}
+
+[data-theme="dark"] .pagination-bar .page-info {
+    color: #6868a0;
+}

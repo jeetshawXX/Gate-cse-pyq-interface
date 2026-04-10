@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Wifi",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Wifi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152944\"></a><div itemprop=\"text\">Another name of IEEE 802.11 a is ____________<br>\n<br>\n(A) Wi-Max<br>\n<br>\n(B) Fast Ethernet<br>\n<br>\n(C) Wi-Fi<br>\n<br>\n(D) 802.11 g</div><br><br><b>Computer Networks: UGC NET CSE | December 2009 | Part 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152944/ugc-net-cse-december-2009-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/152944/ugc-net-cse-december-2009-part-2-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,36 @@
+{
+  "title": "Operating System - Process Model",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Process Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155181\"></a><div itemprop=\"text\"><p>N processes are waiting for \\( I/O \\). A process spends a fraction \\( p \\) of its time in \\( I/O \\) wait state. The \\( CPU \\) utilization is given by :</p>\n\n<ol>\n\t<li>1-p-N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>1-pN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>pN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</li>\n\t<li>p-N</li>\n</ol></div><br><br><b>Operating System: UGC NET CSE | December 2008 | Part 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155181/ugc-net-cse-december-2008-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/155181/ugc-net-cse-december-2008-part-2-question-21</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"155182\"></a><div itemprop=\"text\"><p>If holes are half as large as processes, the fraction of memory wasted in holes is :</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2008 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2/3 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 1/2 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 1/3 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 1/5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155182/ugc-net-cse-december-2008-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/155182/ugc-net-cse-december-2008-part-2-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+}

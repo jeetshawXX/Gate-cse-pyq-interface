@@ -1,0 +1,86 @@
+{
+  "title": "Computer Networks - Stop and Wait",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Stop and Wait",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8363\"></a><div itemprop=\"text\">Suppose that the stop-and-wait protocol is used on a link with a bit rate of \\( 64 \\) \\( \\text{kilobits} \\) per second and \\( 20 \\) \\( \\text{milliseconds} \\) propagation delay. Assume that the transmission time for the acknowledgment and the processing time at nodes are negligible. Then the minimum frame size in bytes to achieve a link utilization of at least \\( 50 \\) \\( \\text{%} \\) is_________________.</div><br><br><b>GATE CSE 2015 Set 1 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "320",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8363/gate-cse-2015-set-1-question-53\" target=\"_blank\">https://gateoverflow.in/8363/gate-cse-2015-set-1-question-53</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39696\"></a><div itemprop=\"text\">A sender uses the Stop-and-Wait \\( \\text{ARQ} \\) protocol for reliable transmission of frames. Frames are of size \\( 1000 \\) bytes and the transmission rate at the sender is \\( 80\\;\\textsf{Kbps} (1\\textsf{Kbps} = 1000\\;\\text{ bits/second}). \\) &nbsp;Size of an acknowledgment is \\( 100 \\) bytes and the transmission rate at the receiver is \\( 8\\;\\textsf{Kbps.} \\) The one-way propagation delay is \\( 100 \\) milliseconds.<br>\n<br>\nAssuming no frame is lost, the sender throughput is ________ bytes/ second.</div><br><br><b>GATE CSE 2016 Set 1 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2500",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39696/gate-cse-2016-set-1-question-55\" target=\"_blank\">https://gateoverflow.in/39696/gate-cse-2016-set-1-question-55</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"118328\"></a><div itemprop=\"text\"><p>The values of parameters for the Stop-and-Wait ARQ protocol are as given below:</p>\n\n<ul>\n\t<li>Bit rate of the transmission channel \\( = 1 \\) Mbps.</li>\n\t<li>Propagation delay from sender to receiver \\( = 0.75 \\) ms.</li>\n\t<li>Time to process a frame \\( = 0.25 \\) ms.</li>\n\t<li>Number of bytes in the information frame \\( = 1980 \\).</li>\n\t<li>Number of bytes in the acknowledge frame \\( = 20 \\).</li>\n\t<li>Number of overhead bytes in the information frame \\( = 20 \\).</li>\n</ul>\n\n<p><br>\nAssume there are no transmission errors. Then, the transmission efficiency (expressed in percentage) of the Stop-and-Wait ARQ protocol for the above parameters is _____________ (correct to \\( 2 \\) decimal places).</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "86.5:89.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118328/gate-cse-2017-set-1-question-45\" target=\"_blank\">https://gateoverflow.in/118328/gate-cse-2017-set-1-question-45</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"399305\"></a><div itemprop=\"text\"><p>Suppose two hosts are connected by a point-to-point link and they are configured to use \\( \\textsf{Stop-and-Wait} \\) protocol for reliable data transfer. Identify in which one of the following scenarios, the utilization of the link is the lowest.</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Longer link length and lower transmission rate</p>",
+            "<p>Longer link length and higher transmission rate</p>",
+            "<p>Shorter link length and lower transmission rate</p>",
+            "<p>Shorter link length and higher transmission rate</p>"
+          ],
+          "correct_answer": "<p>Longer link length and higher transmission rate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399305/gate-cse-2023-question-7\" target=\"_blank\">https://gateoverflow.in/399305/gate-cse-2023-question-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3835\"></a><div itemprop=\"text\"><p>A channel has a bit rate of \\( 4 \\) \\( kbps \\) and one-way propagation delay of \\( 20 \\) \\( ms \\). The channel uses stop and wait protocol. The transmission time of the acknowledgment frame is negligible. To get a channel efficiency of at least $50$$\\text{%}$, the minimum frame size should be</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 80 \\) \\( \\text{bytes} \\)</p>",
+            "<p>\\( 80 \\) \\( \\text{bits} \\)</p>",
+            "<p>\\( 160 \\) \\( \\text{bytes} \\)</p>",
+            "<p>\\( 160 \\) \\( \\text{bits} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 160 \\) \\( \\text{bits} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3835/gate-it-2005-question-72\" target=\"_blank\">https://gateoverflow.in/3835/gate-it-2005-question-72</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3612\"></a><div itemprop=\"text\"><p>On a wireless link, the probability of packet error is \\( 0.2 \\). A stop-and-wait protocol is used to transfer data across the link. The channel condition is assumed to be independent of transmission to transmission. What is the average number of transmission attempts required to transfer \\( 100 \\) packets?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 125 \\)</p>",
+            "<p>\\( 150 \\)</p>",
+            "<p>\\( 200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 125 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3612/gate-it-2006-question-68\" target=\"_blank\">https://gateoverflow.in/3612/gate-it-2006-question-68</a></p>"
+        }
+      ]
+    }
+  ]
+}

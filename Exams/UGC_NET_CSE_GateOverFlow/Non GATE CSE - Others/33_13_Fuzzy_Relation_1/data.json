@@ -1,0 +1,21 @@
+{
+  "title": "Non GATE CSE - Others - Fuzzy Relation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Fuzzy Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64119\"></a><div itemprop=\"text\"><p>Let R and S be two fuzzy relations defined as</p>\n\n\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">R=</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp; &nbsp;\\( y_1 \\)</td>\n\t\t\t<td>&nbsp; &nbsp;\\( y_2 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_1 \\)</td>\n\t\t\t<td colspan=\"2\" rowspan=\"2\">\\( \\begin{bmatrix} 0.7 &amp; 0.5 \\\\ 0.8 &amp; 0.4 \\end{bmatrix} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_2 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>and</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">S=</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp; \\( z_1 \\)</td>\n\t\t\t<td>\\( z_2 \\)</td>\n\t\t\t<td>\\( z_3 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( y_1 \\)</td>\n\t\t\t<td colspan=\"3\" rowspan=\"2\">\\( \\begin{bmatrix} 0.9 &amp; 0.6 &amp; 0.2 \\\\ 0.1 &amp; 0.7 &amp; 0.5 \\end{bmatrix} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( y_2 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n\n\n<p>Then, the resulting relation T, which related elements of universe xto elements of universe z using max-min composition is given by</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">A.</td>\n\t\t\t<td rowspan=\"3\">T=</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp; &nbsp;\\( z_1 \\)</td>\n\t\t\t<td>\\( z_2 \\)</td>\n\t\t\t<td>\\( z_3 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_1 \\)</td>\n\t\t\t<td colspan=\"3\" rowspan=\"2\">\\( \\begin{bmatrix} .5 &amp; .7 &amp; .5 \\\\ .8 &amp; .8 &amp; .8 \\end{bmatrix} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_2 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">B.</td>\n\t\t\t<td rowspan=\"3\">T=</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp; &nbsp;\\( z_1 \\)</td>\n\t\t\t<td>\\( z_2 \\)</td>\n\t\t\t<td>&nbsp;\\( z_3 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_1 \\)</td>\n\t\t\t<td colspan=\"3\" rowspan=\"2\">\\( \\begin{bmatrix} .5 &amp; .7 &amp; .5 \\\\ .9 &amp; .6 &amp; .5 \\end{bmatrix} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_2 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">C.</td>\n\t\t\t<td rowspan=\"3\">T=</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp; &nbsp;\\( z_1 \\)</td>\n\t\t\t<td>&nbsp; &nbsp;\\( z_2 \\)</td>\n\t\t\t<td>&nbsp; \\( z_3 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_1 \\)</td>\n\t\t\t<td colspan=\"3\" rowspan=\"2\">\\( \\begin{bmatrix} 0.7 &amp; 0.6 &amp; 0.5 \\\\ 0.8 &amp; 0.6 &amp; 0.4 \\end{bmatrix} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_2 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n\n\n\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td rowspan=\"3\">D.</td>\n\t\t\t<td rowspan=\"3\">T=</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp; &nbsp;\\( z_1 \\)</td>\n\t\t\t<td>&nbsp; &nbsp;\\( z_2 \\)</td>\n\t\t\t<td>&nbsp; \\( z_3 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_1 \\)</td>\n\t\t\t<td colspan=\"3\" rowspan=\"2\">\\( \\begin{bmatrix} 0.7 &amp; 0.6 &amp; 0.5 \\\\ 0.8 &amp; 0.8 &amp; 0.8 \\end{bmatrix} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( x_2 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table></div><br><br><b>Others: UGC NET CSE | July 2016 | Part 3 | Question: 64</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64119/ugc-net-cse-july-2016-part-3-question-64\" target=\"_blank\">https://gateoverflow.in/64119/ugc-net-cse-july-2016-part-3-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+}

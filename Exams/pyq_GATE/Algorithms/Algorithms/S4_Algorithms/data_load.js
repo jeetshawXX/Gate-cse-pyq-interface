@@ -1,0 +1,211 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithms - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Match the algorithms with their time complexities: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q16_a76213c5.jpg\"> <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-(iii),Q-(iv), R-(i), S-(ii)</p>",
+            "<b>B.</b> <p>P-(iv),Q-(iii), R-(i), S-(ii)</p>",
+            "<b>C.</b> <p>P-(iii),Q-(iv), R-(ii), S-(i)</p>",
+            "<b>D.</b> <p>P-(iv),Q-(iii), R-(ii), S-(i)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-(iii),Q-(iv), R-(ii), S-(i)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118156/gate-cse-2017-set-2-question-03#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let G = (V, E) be any connected undirected edge-weighted graph. The weights of the edges in\nE are positive and distinct. Consider the following statements:<br><br>\n(I) Minimum spanning tree of G is always unique. <br>\n(II) Shortest path between any two vertices of G is always unique. <br><br>\nWhich of the above statements is/are necessarily true? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) only</p>",
+            "<b>B.</b> <p>(II) only</p>",
+            "<b>C.</b> <p>Both (I) and (II)</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(I) only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118306/gate2017-1-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following table: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q4_e0e30ec7.jpg\"> <br>Match the algorithms to the design paradigms they are based on. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-(ii), Q-(iii),R-(i)</p>",
+            "<b>B.</b> <p>P-(iii), Q-(i), R-(ii)</p>",
+            "<b>C.</b> <p>P-(ii), Q-(i), R-(iii)</p>",
+            "<b>D.</b> <p>P-(i), Q-(ii), R-(iii)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-(ii), Q-(i), R-(iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118707/gate2017-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following functions from positive integers to real numbers:<br> <br>\\(10,\\sqrt{n},n, log_{2}n,\\frac{100}{n}\\).<br><br> The CORRECT arrangement of the above functions in increasing order of asymptotic complexity is: <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(log_{2}n,\\frac{100}{n}, 10,\\sqrt{n},n \\)</p>",
+            "<b>B.</b> <p>\\(\\frac{100}{n}, 10,log_{2}n, \\sqrt{n}, n \\)</p>",
+            "<b>C.</b> <p>\\(10, \\frac{100}{n},  \\sqrt{n}, log_{2}n, n \\)</p>",
+            "<b>D.</b> <p>\\(\\frac{100}{n}, log_{2}n, 10,  \\sqrt{n}, n \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{100}{n}, 10,log_{2}n, \\sqrt{n}, n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118703/gate2017-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In an adjacency list representation of an undirected simple graph G = (V,E), each edge (u,v) has two adjacency list entries: [v] in the adjacency list of u, and [u] in the adjacency list of v. These are called twins of each other. A twin pointer is a pointer from an adjacency list entry to its twin. If |E|=m and |V|=n, and the memory size is not a constraint, what is the Asymptotic Notation of the most efficient algorithm to set the twin pointer in each entry in each adjacency list? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n+m)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (m^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{4})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (n+m)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39620/gate2016-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The given diagram shows the flowchart for a recursive function A(n). Assume that all statements, except for the recursive calls,have O(1) Asymptotic Notation. If the worst case Asymptotic Notation of this functionis \\(O(n^{\\alpha })\\), then the least possible value(accurate upto two decimal positions) of \\(\\alpha\\) is .<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q39_8d9d79a9.jpg\"> <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39581/gate2016-2-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let A1,A2,A3, and A4 be four matrices of dimensions 10x5, 5x20, 20x10, and 10x5, respectively. The minimum number of scalar multiplications required to find the product A1A2A3A4 using the basic matrix multiplication method is __________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1500",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39587/gate2016-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The Floyd-Warshall algorithm for all-pair shortest paths computation is based on <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Greedy paradigm</p>",
+            "<b>B.</b> <p>Divide-and-Conquerparadigm.</p>",
+            "<b>C.</b> <p>Dynamic Programing paradigm.</p>",
+            "<b>D.</b> <p>neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Dynamic Programing paradigm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39570/gate2016-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Assume that the algorithms considered here sort the input sequences in ascending order. If the input is already in ascending order, which of the following are TRUE? <br>\nI. Quicksort runs in \\(\\Theta (n^{2})\\) time  <br>\nII. Bubblesort runs in \\(\\Theta (n^{2})\\) time <br>\nIII. Merge sort runs in \\(\\Theta (n)\\) time <br>\nIV. Insertion sort runs in \\(\\Theta (n)\\) time <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II and IV only</p>",
+            "<b>D.</b> <p>I and IV only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39561/gate2016-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Breadth First Search(BFS) is started on a binary tree beginning from the root vertex. There is a vertex t at a distance four from the root. If t is the n-th vertex in this BFS traversal, then the maximum possible value of n is______ . <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "31",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39563/gate2016-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>G = (V,E) is an undirected simple graph in which each edge has a distinct weight,and e is a particular edgeof G. Which of the following statements about the minimum spanning trees (MSTs) of G is/are TRUE? <br>\nI. If e is the lightest edge of some cycle in G, then every MST of G includes e <br>\nII. If e is the heaviest edge of some cycle in G, then every MST of G excludes e <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>both I and II</p>",
+            "<b>D.</b> <p>neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39727/gate2016-1-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let G be a complete undirected graph on 4 vertices, having 6 edges  with weights being 1,2,3,4,5, and 6. The maximum possible weight that a minimum weight spanning tree of G can haveis . <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39725/gate2016-1-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the weighted undirected graph with 4 vertices,where the weigh to edge {i, j} is given by the entry Wij in the matrix W. <br> \\(W=\\begin{bmatrix} 0 &amp; 2&amp;8 &amp; 5\\\\ 2&amp; 0&amp; 5 &amp;8 \\\\ 8 &amp; 5 &amp; 0&amp; x\\\\ 5&amp;8 &amp; x&amp;0 \\end{bmatrix}\\) <br>The largest possible integer value of x, for which at least one shortest path between some pair\nof vertices will contain the edge with weight x is ____. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39731/gate2016-1-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a carry lookahead adder for adding two n-bit integers,built using gates of fan-in at most two. The time to perform addition using this adder is <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (1)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (log(n))\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta \\sqrt{n}\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (log(n))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39688/gate2016-1-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let G be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is increasedby the same value ,then which of the following statements is/are TRUE?<br>\nP: Minimum spanning tree of G does not change <br>\nQ: Shortest path between any pair of vertices does not change <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P only</p>",
+            "<b>B.</b> <p>Q only</p>",
+            "<b>C.</b> <p>Neither P nor Q</p>",
+            "<b>D.</b> <p>Both P and Q</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39673/gate2016-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

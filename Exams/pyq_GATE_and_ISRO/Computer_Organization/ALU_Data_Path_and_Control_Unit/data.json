@@ -1,0 +1,340 @@
+{
+  "title": "Computer_Organization - ALU_Data_Path_and_Control_Unit",
+  "duration": 61,
+  "sections": [
+    {
+      "name": "ALU_Data_Path_and_Control_Unit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A partial data path of a processor is given in the figure, where \\(RA\\), \\(RB\\), and \\(RZ\\) are 32-bit registers. Which option(s) is/are CORRECT related to arithmetic operations using the data path as shown? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q17_85b8e89d.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The data path can implement arithmetic operations involving two registers.</p>",
+            "<b>B.</b> <p>The data path can implement arithmetic operations involving one register and one immediate value.</p>",
+            "<b>C.</b> <p>The data path can implement arithmetic operations involving two immediate values.</p>",
+            "<b>D.</b> <p>The data path can only implement arithmetic operations involving one register and one immediate value.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The data path can implement arithmetic operations involving two registers.</p>",
+            "<b>B.</b> <p>The data path can implement arithmetic operations involving one register and one immediate value.</p>",
+            "<b>C.</b> <p>The data path can implement arithmetic operations involving two immediate values.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460063/gate-cse-2025-set-1-question-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a digital display system (DDS) shown in the figure that displays the contents of register X. A 16-bit code word is used to load a word in X, either from S or from R. S is a 1024-word memory segment and R is a 32-word register file. Based on the value of mode bit M, T selects an input word to load in X. P and Q interface with the corresponding bits in the code word to choose the addressed word. Which one of the following represents the functionality of P, Q, and T?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q30_7807d2ff.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P is 10:1 multiplexer; <br>Q is 5:1 multiplexer; <br>T is 2:1 multiplexer</p>",
+            "<b>B.</b> <p>P is \\(10:2^{10}\\) decoder; <br>Q is \\(5:2^{5}\\) decoder; <br>T is 2:1 encoder</p>",
+            "<b>C.</b> <p>P is \\(10:2^{10}\\) decoder; <br>Q is \\(5:2^{5}\\) decoder; <br>T is 2:1 multiplexer</p>",
+            "<b>D.</b> <p>P is 1:10 de-multiplexer;<br>Q is 1:5 de-multiplexer; <br>T is 2:1 multiplexer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P is \\(10:2^{10}\\) decoder; <br>Q is \\(5:2^{5}\\) decoder; <br>T is 2:1 multiplexer</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371906/Gate-cse-2022-question-30#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Micro program is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the name of a source program in micro computers</p>",
+            "<b>B.</b> <p>set of microinstructions that defines the individual operations in response to a machine-language instruction</p>",
+            "<b>C.</b> <p>a primitive form of macros used in assembly language programming</p>",
+            "<b>D.</b> <p>a very small segment of machine code</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>set of microinstructions that defines the individual operations in response to a machine-language instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213554/isro2018-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a main memory system that consists of 8 memory modules attached to the system\nbus, which is one word wide. When a write request is made, the bus is occupied for 100\nnanoseconds (ns) by the data, address, and control signals. During the same 100 ns, and for\n500 ns thereafter, the addressed memory module executes one cycle accepting and storing the data. The (internal) operation of different memory modules may overlap in time, but only one request can be on the bus at any time. The maximum number of stores (of one word each) that can be initiated in 1 millisecond is ____________ <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10000",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2022/gate2014-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Two control signals in microprocessor which are related to Direct Memory Access (DMA) are <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>INTR &amp; INTA</p>",
+            "<b>B.</b> <p>RD &amp; WR</p>",
+            "<b>C.</b> <p>S0 &amp; S1</p>",
+            "<b>D.</b> <p>HOLD &amp; HLDA</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>HOLD &amp; HLDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52487/isro2011-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The microinstructions stored in the control memory of a processor have a width of 26 bits. Each microinstruction is divided into three fields. a micro operation field of 13 bits, a next address field (X), and a MUX select field (Y). There are 8 status bits in the inputs of the MUX. How many bits are there in the X and Y fields, and what is the size of the control memory in number of words? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 3, 1024</p>",
+            "<b>B.</b> <p>8, 5, 256</p>",
+            "<b>C.</b> <p>5, 8, 2048</p>",
+            "<b>D.</b> <p>10, 3, 512</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10, 3, 1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48055/isro2009-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a CPU where all the instructions require 7 clock cycles to complete execution. There are 140 instructions in the instruction set. It is found that 125 control signals are needed to be generated by the control unit. While designing the horizontal microprogrammed control unit, single address field format is used for branch control logic. What is the minimum size of the control word and control address register? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125, 7</p>",
+            "<b>B.</b> <p>125, 10</p>",
+            "<b>C.</b> <p>135, 9</p>",
+            "<b>D.</b> <p>135, 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>135, 10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3349/gate2008-it-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The data path shown in the figure computes the number of 1s in the 32-bit input word corresponding to an unsigned even integer stored in the shift register. <br>\nThe unsigned counter, initially zero, is incremented if the most significant bit of the shift register is 1. <br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q41_0ce010b4.jpg\"><br>\nThe microprogram for the control is shown in the table below with missing control words for microinstructions \\(I_1, I_2, \\ldots I_n\\). <br>\n\\(\\begin{array}{|l|c|c|c|} \\hline \\textbf {Microinstruction} &amp; \\textbf{Reset Counter}&amp; \\textbf{Shift left} &amp; \\textbf{Load output} \\\\\\hline \\text{BEGIN} &amp; \\text{1} &amp; \\text{0} &amp; \\text{0} \\\\\\hline \\text{I1}&amp; \\text{$?$} &amp; \\text{$?$} &amp; \\text{$?$} \\\\\\hline \\text{:} &amp; \\text{:} &amp; \\text{:} &amp; \\text{:} \\\\\\hline \\text{In} &amp; \\text{$?$} &amp; \\text{$?$} &amp; \\text{$?$} \\\\\\hline \\text{END} &amp; \\text{0} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\end{array}\\)<br>\nThe counter width (k), the number of missing microinstructions (n), and the control word for microinstructions \\(I_1, I_2, \\ldots I_n\\) are, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32,5,010</p>",
+            "<b>B.</b> <p>5,32,010</p>",
+            "<b>C.</b> <p>5,31,011</p>",
+            "<b>D.</b> <p>5,31,010</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5,31,010</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3584/gate2006-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>An instruction set of a processor has 125 signals which can be divided into 5 groups of mutually exclusive signals as follows: <br>\nGroup 1 : 20 signals, Group 2 : 70 signals, Group 3 : 2 signals, Group 4 : 10 signals, Group 5 : 23 signals.<br>\nHow many bits of the control words can be saved by using vertical microprogramming over horizontal microprogramming? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>103</p>",
+            "<b>C.</b> <p>22</p>",
+            "<b>D.</b> <p>55</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>103</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3810/gate2005-it-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A hardwired CPU uses 10 control signals \\(S_1\\) to \\(S_{10}\\), in various time steps \\(T_1\\) to \\(T_5\\), to implement 4 instructions \\(I_1\\) to \\(I_4\\) as shown below: <br><br>\n\\(\\begin{array}{|c|c|c|c|c|c|}\\hline&amp;\\bf{T_1}&amp;\\bf{T_2}&amp;\\bf{T_3}&amp;\\bf{T_4}&amp;\\bf{T_5}\\\\\\hline\\bf{I_1}&amp;S_1,S_3,S_5&amp;S_2,S_4,S_6&amp;S_1,S_7&amp;S_{10}&amp;S_3,S_8\\\\\\hline\\bf{I_2}&amp;S_1,S_3,S_5&amp;S_8,S_9,S_{10}&amp;S_5,S_6S_7&amp;S_{6}&amp;S_{10}\\\\\\hline\\bf{I_3}&amp;S_1,S_3,S_5&amp;S_7,S_8,S_{10}&amp;S_2,S_6,S_{9}&amp;S_{10}&amp;S_1,S_3\\\\\\hline\\bf{I_4}&amp;S_1,S_3,S_5&amp;S_2,S_6,S_7&amp;S_5,S_{10}&amp;S_{6},S_9&amp;S_{10}\\\\\\hline\\end{array}\\) <br><br>\nWhich of the following pairs of expressions represent the circuit for generating control signals \\(S_5\\) and \\(S_{10}\\) respectively?<br><br>\n\\(((I_j + I_k)T_n\\) indicates that the control signal should be generated in time step \\(T_n\\) if the instruction being executed is \\(l_j\\) or \\(l_k\\)) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S_5 = T_1 + I_2 \\cdot T_3\\) and \\(S_{10} = (I_1 + I_3) \\cdot T_4 + (I_2 + I_4) \\cdot T_5\\)</p>",
+            "<b>B.</b> <p>\\(S_5 = T_1 + (I_2 + I_4) \\cdot T_3\\) and \\(S_{10} = (I_1 + I_3) \\cdot T_4 + (I_2 + I_4) \\cdot T_5\\)</p>",
+            "<b>C.</b> <p>\\(S_5 = T_1 + (I_2 + I_4) \\cdot T_3\\) and \\(S_{10} = (I_2 + I_3 + I_4) \\cdot T_2 + (I_1 + I_3) \\cdot T_4 + (I_2 + I_4) \\cdot T_5\\)</p>",
+            "<b>D.</b> <p>\\(S_5 = T_1 + (I_2 + I_4) \\cdot T_3\\) and \\(S_{10} = (I_2 + I_3) \\cdot T_2 + I_4 \\cdot T_3 + (I_1 + I_3) \\cdot T_4 + (I_2 + I_4) \\cdot T_5\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(S_5 = T_1 + (I_2 + I_4) \\cdot T_3\\) and \\(S_{10} = (I_2 + I_3) \\cdot T_2 + I_4 \\cdot T_3 + (I_1 + I_3) \\cdot T_4 + (I_2 + I_4) \\cdot T_5\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3806/gate2005-it-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following data path of a CPU.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q79_570ada15.jpg\"> <br> ALU, the bus and all the registers in the data path are of identical size. All operations including incrementation of the PC and the GPRs are to be carried out in the ALU. Two clock cycles are needed for memory read operation - the first one for loading address in the MAR and the next one for loading data from the memory bus into the MDR. <br><br> The instruction \"call Rn, sub\" is a two word instruction. Assuming that PC is incremented during the fetch cycle of the first word of the instruction, its register transfer interpretation is<pre><code> Rn &lt; = PC + 1;\nPC &lt; = M[PC];</code></pre>    The minimum number of CPU clock cycles needed during the execution cycle of this instruction is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43568/gate2005-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following data path of a CPU.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q79_570ada15.jpg\"> <br>ALU, the bus and all the registers in the data path are of identical size. All operations including incrementation of the PC and the GPRs are to be carried out in the ALU. Two clock cycles are needed for memory read operation - the first one for loading address in the MAR and the next one for loading data from the memory bus into the MDR. <br><br> The instruction \"add R0, R1\" has the register transfer interpretation R0&lt;=R0+R1. The minimum number of clock cycles needed for execution cycle of this instruction is. <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1402/gate2005-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a three word machine instruction<pre><code>ADD A[R0], @B </code></pre>\nThe first operand (destination) \"A[R0]\" uses indexed addressing mode with R0 as the index register.\nThe second operand (source) \"@B\" uses indirect addressing mode. A and B are memory addresses\nresiding at the second and the third words, respectively. The first word of the instruction specifies the\nopcode, the index register designation and the source and destination addressing modes.\nDuring execution of ADD instruction, the two operands are added and stored in the destination (first\noperand). <br>\nThe number of memory cycles needed during the execution cycle of the instruction is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1388/gate2005-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A CPU has only three instructions I1, I2 and I3, which use the following signals in time steps T1-T5:<br>\n<b>I1 :</b> <br>T1 : Ain, Bout, Cin<br>\nT2 : PCout, Bin<br>\nT3 : Zout, Ain<br>\nT4 : Bin, Cout<br>\nT5 : End<br><b>I2 :</b> <br>T1 : Cin, Bout, Din<br>\nT2 : Aout, Bin<br>\nT3 : Zout, Ain<br>\nT4 : Bin, Cout<br>\nT5 : End<br><b>I3 :</b> <br>T1 : Din, Aout<br>\nT2 : Ain, Bout<br>\nT3 : Zout, Ain<br>\nT4 : Dout, Ain<br>\nT5 : End<br><br>\nWhich of the following logic functions will generate the hardwired control for the signal Ain ? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T1.I1 + T2.I3 + T4.I3 + T3</p>",
+            "<b>B.</b> <p>(T1 + T2 + T3).I3 + T1.I1</p>",
+            "<b>C.</b> <p>(T1 + T2 ).I1 + (T2 + T4).I3 + T3</p>",
+            "<b>D.</b> <p>(T1 + T2 ).I2 + (T1 + T3).I1 + T3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T1.I1 + T2.I3 + T4.I3 + T3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3692/gate2004-it-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The microinstructions stored in the control memory of a processor have a width of 26 bits. Each microinstruction is divided into three fields: a micro-operation field of 13 bits, a next address field (X), and a MUX select field (Y). There are 8 status bits in the inputs of the MUX. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q67_759b6f1e.jpg\"> <br>\nHow many bits are there in the X and Y fields, and what\nis the size of the control memory in number of words? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10,3,1024</p>",
+            "<b>B.</b> <p>8,5,256</p>",
+            "<b>C.</b> <p>5,8,2048</p>",
+            "<b>D.</b> <p>10,3,512</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10,3,1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1061/gate2004-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Horizontal microprogramming <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Does not require use of signal decoders</p>",
+            "<b>B.</b> <p>Results in larger sized microinstructions than vertical microprogramming</p>",
+            "<b>C.</b> <p>Uses one bit for each control signal</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/837/gate2002-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Arrange the following configuration for CPU in decreasing order of operating speeds:<br>\nHard wired control, Vertical microprogramming, Horizontal microprogramming. <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hard wired control, Vertical microprogramming, Horizontal microprogramming.</p>",
+            "<b>B.</b> <p>Hard wired control, Horizontal microprogramming, Vertical microprogramming.</p>",
+            "<b>C.</b> <p>Horizontal microprogramming, Vertical microprogramming, Hard wired control.</p>",
+            "<b>D.</b> <p>Vertical microprogramming, Horizontal microprogramming, Hard wired control.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Hard wired control, Horizontal microprogramming, Vertical microprogramming.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1497/gate1999-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>A micro instruction is to be designed to specify:<br><br>\na. none or one of the three micro operations of one kind and<br>\nb. none or upto six micro operations of another kind<br><br>\nThe minimum number of bits in the micro-instruction is: <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2254/gate1997-5-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>A micro program control unit is required to generate a total of 25 control signals. Assume that during any micro instruction, at most two control signals are active. Minimum number of bits required in the control word to generate the required control signals will be: <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>2.5</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2754/gate1996-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider the following data path of a simple non-pilelined CPU. The registers\nA, B, A1, A2, MDR, the bus and the ALU are 8-bit wide. SP and MAR are 16-\nbit registers. The MUX is of size 8x(2:1) and the DEMUX is of size 8x(1:2). Each memory operation takes 2 CPU clock cycles and uses MAR (Memory\nAddress Register) and MDR (Memory Date Register). SP can be decremented\nlocally. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\ALU_Data_Path_and_Control_Unit\\q38_b8097889.jpg\"><br> The CPU instruction \"push r\", where = A or B, has the specification <br><br>\nM[SP]\\(\\rightarrow\\)r<br>\nSP \\(\\rightarrow\\) SP - 1<br><br>\nHow many CPU clock cycles are needed to execute the \"push r\" instruction ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/731/gate2001-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>A microprogrammed control unit <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is faster than a hard-wired control unit.</p>",
+            "<b>B.</b> <p>Facilitates easy implementation of new instruction.</p>",
+            "<b>C.</b> <p>Is useful when very small programs are to be run.</p>",
+            "<b>D.</b> <p>Usually refers to the control unit of a microprocessor.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Facilitates easy implementation of new instruction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80199/gate1987-1-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Microprogrammed control unit: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is faster than a hardwired control unit</p>",
+            "<b>B.</b> <p>facilitates easy implementation of new instructions</p>",
+            "<b>C.</b> <p>is useful when very small programs are to be run</p>",
+            "<b>D.</b> <p>usually refers to control unit of a microprocessor</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>facilitates easy implementation of new instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/166/gate1987-1-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

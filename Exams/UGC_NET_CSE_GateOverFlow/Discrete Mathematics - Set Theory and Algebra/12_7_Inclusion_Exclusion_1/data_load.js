@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Inclusion Exclusion",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Inclusion Exclusion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349672\"></a><div itemprop=\"text\"><p>The number of positive integers not exceeding \\( 100 \\) that are either odd or the square of an integer is _______</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | October 2020 | Part 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 63 \\)</p>",
+            "<p>\\( 59 \\)</p>",
+            "<p>\\( 55 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 55 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349672/ugc-net-cse-october-2020-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/349672/ugc-net-cse-october-2020-part-2-question-1</a></p>"
+        }
+      ]
+    }
+  ]
+});

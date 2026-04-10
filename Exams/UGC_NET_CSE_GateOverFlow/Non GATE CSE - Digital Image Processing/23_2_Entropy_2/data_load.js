@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Digital Image Processing - Entropy",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Entropy",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61511\"></a><div itemprop=\"text\"><p>Given a simple image of size \\( 10 \\times 10 \\) whose histogram models the symbol probabilities and is given by</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\\( P_{1} \\)</td>\n\t\t\t<td>\\( P_{2} \\)</td>\n\t\t\t<td>\\( P_{3} \\)</td>\n\t\t\t<td>\\( P_{4} \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>a</td>\n\t\t\t<td>b</td>\n\t\t\t<td>c</td>\n\t\t\t<td>d</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;The first order estimate of image entropy is maximum when&nbsp;</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | December 2014 | Part 3 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a = 0, b = 0, c = 0, d = 1 \\)</p>",
+            "<p>\\( a=\\frac{1}{2}, b=\\frac{1}{2}, c=0, d=0 \\)</p>",
+            "<p>\\( a=\\frac{1}{3}, b=\\frac{1}{3}, c=\\frac{1}{3}, d=0 \\)</p>",
+            "<p>\\( a=\\frac{1}{4}, b=\\frac{1}{4}, c=\\frac{1}{4}, d=\\frac{1}{4} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a=\\frac{1}{4}, b=\\frac{1}{4}, c=\\frac{1}{4}, d=\\frac{1}{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61511/ugc-net-cse-december-2014-part-3-question-65\" target=\"_blank\">https://gateoverflow.in/61511/ugc-net-cse-december-2014-part-3-question-65</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"62705\"></a><div itemprop=\"text\"><p>Consider the conditional entropy and mutual information for the binary symmetric channel. The input source has alphabet \\( X=\\{0,1\\} \\) and associated probabilities \\( {\\dfrac{1}{2}, \\dfrac{1}{2}} \\). The channel matrix is \\( \\begin{pmatrix} 1-p &amp; p \\\\ p &amp; 1-p \\end{pmatrix} \\) wgere p is the transition probability. Then the conditional entropy is given by:</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | December 2015 | Part 3 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( -p \\log(p)-(1-p) \\log(1-p) \\)</p>",
+            "<p>\\( 1+p \\log(p)+(1-p) \\log(1-p) \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62705/ugc-net-cse-december-2015-part-3-question-49\" target=\"_blank\">https://gateoverflow.in/62705/ugc-net-cse-december-2015-part-3-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,27 @@
+{
+  "title": "Engineering Mathematics - Calculus - Differential Equation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Differential Equation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25040\"></a><div itemprop=\"text\"><p>Consider the differential equation \\( dx/dt= \\left(1 - x\\right)\\left(2 - x\\right)\\left(3 - x\\right) \\). Which of its equilibria is unstable?</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2012 | Part A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x=0 \\)</p>",
+            "<p>\\( x=1 \\)</p>",
+            "<p>\\( x=2 \\)</p>",
+            "<p>\\( x=3 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( x=2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25040/tifr-cse-2012-part-a-question-15\" target=\"_blank\">https://gateoverflow.in/25040/tifr-cse-2012-part-a-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - Differentiation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Differentiation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"52827\"></a><div itemprop=\"text\"><p>\\( n \\)-th derivative of \\( x^n \\) is</p>\n\n</div><br><br><b>Calculus: ISRO CSE 2011 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( nx^{n-1} \\)</p>",
+            "<p>\\( n^n.n! \\)</p>",
+            "<p>\\( nx^n! \\)</p>",
+            "<p>\\( n! \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n! \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52827/isro-cse-2011-question-59\" target=\"_blank\">https://gateoverflow.in/52827/isro-cse-2011-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

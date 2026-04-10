@@ -1,0 +1,236 @@
+{
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following matrix \\(A=\\begin{bmatrix} 2 &amp; 3\\\\ X&amp;Y \\end{bmatrix}\\) <br> If the eigenvalues of A are 4 and 8, then <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 4, y = 10</p>",
+            "<b>B.</b> <p>x = 5, y = 8</p>",
+            "<b>C.</b> <p>x = -3,y = 9</p>",
+            "<b>D.</b> <p>x = -4, y = 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x = -4, y = 10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1155/gate2010-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the value of \\(\\lim_{n\\rightarrow \\infty }(1-\\frac{1}{n})^{2n}\\)? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(e^{-2}\\)</p>",
+            "<b>C.</b> <p>\\(e^{-1/2}\\)</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(e^{-2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1151/gate2010-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Newton-Raphson method is used to compute a root of the equation \\(x^{2} -13=0\\)\nwith 3.5 as the initial value. The approximation after one iteration is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3.575</p>",
+            "<b>B.</b> <p>3.676</p>",
+            "<b>C.</b> <p>3.667</p>",
+            "<b>D.</b> <p>3.607</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3.607</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1148/gate2010-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If the mean of a normal frequency distribution of 1000 items is 25 and its standard deviation is 2.5, then its maximum ordinate is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1000}{\\sqrt{2 \\pi} } e^{-25}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1000}{\\sqrt{2 \\pi} }\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1000}{\\sqrt{2 \\pi} } e^{-2.5}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{400}{\\sqrt{2 \\pi} }\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{400}{\\sqrt{2 \\pi} }\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50517/isro2009-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>\\(\\begin{vmatrix} 265 &amp;&amp; 240 &amp;&amp; 219 \\\\ 240 &amp;&amp; 225 &amp;&amp; 198 \\\\ 219 &amp;&amp; 198 &amp;&amp; 181 \\\\ \\end{vmatrix} =\\) <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>779</p>",
+            "<b>B.</b> <p>679</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>256</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48079/isro2009-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>If A, B, C are any three matrices, then A'+B'+C' is equal to <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a null matrix</p>",
+            "<b>B.</b> <p>A+B+C</p>",
+            "<b>C.</b> <p>(A+B+C)'</p>",
+            "<b>D.</b> <p>-(A+B+C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(A+B+C)'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50512/isro2009-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If \\(\\begin{vmatrix} 3 &amp;&amp; 3 \\\\ x &amp;&amp; 5 \\end{vmatrix} =3\\) then the value of \\(x\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50506/isro2009-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If two adjacent rows of a determinant are interchanged, the value of the determinant <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>becomes zero</p>",
+            "<b>B.</b> <p>remains unaltered</p>",
+            "<b>C.</b> <p>becomes infinitive</p>",
+            "<b>D.</b> <p>becomes negative of its original value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>becomes negative of its original value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50503/isro2009-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A square matrix A is called orthogonal if A'A= <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I</p>",
+            "<b>B.</b> <p>A</p>",
+            "<b>C.</b> <p>-A</p>",
+            "<b>D.</b> <p>-I</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50498/isro2009-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the polynomial \\(p(x) = a_0 + a_1x + a_2x^2 + a_3x^3\\) , where \\(a_i \\neq 0, \\forall i\\). The minimum number of multiplications needed to evaluate p on an input x is: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/792/gate2006-1-isro2009-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The formula \\(P_k = y_0 + k \\triangledown y_0+ \\frac{k(k+1)}{2} \\triangledown ^2 y_0 + \\dots + \\frac{k \\dots (k+n-1)}{n!} \\triangledown ^n y_0\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Newton's backward formula</p>",
+            "<b>B.</b> <p>Gauss forward formula</p>",
+            "<b>C.</b> <p>Gauss backward formula</p>",
+            "<b>D.</b> <p>Stirling's formula</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Newton's backward formula</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50482/isro2009-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The value of x at which y is minimum for \\(y=x^2 -3x +1\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-3/2</p>",
+            "<b>B.</b> <p>3/2</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>-5/4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50479/isro2009-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>\\(x=a \\cos(t), y=b \\sin(t)\\) is the parametric form of <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ellipse</p>",
+            "<b>B.</b> <p>Hyperbola</p>",
+            "<b>C.</b> <p>Circle</p>",
+            "<b>D.</b> <p>Parabola</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Ellipse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50478/isro2009-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The cubic polynomial y(x) which takes the following values: y(0)=1, y(1)=0, y(2)=1 and y(3)=10 is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x^3 +2x^2 +1\\)</p>",
+            "<b>B.</b> <p>\\(x^3 +3x^2 -1\\)</p>",
+            "<b>C.</b> <p>\\(x^3 +1\\)</p>",
+            "<b>D.</b> <p>\\(x^3 -2x^2 +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(x^3 -2x^2 +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50475/isro2009-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The formula \\(\\int\\limits_{x0}^{xa} y(n) dx \\simeq h/2 (y_0 + 2y_1 + \\dots +2y_{n-1} + y_n) - h/12 (\\triangledown y_n - \\triangle y_0)\\)<br>\n\\(- h/24 (\\triangledown ^2 y_n + \\triangle ^2 y_0) -19h/720 (\\triangledown ^3 y_n - \\triangle ^3 y_0) \\dots\\) is called <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Simpson rule</p>",
+            "<b>B.</b> <p>Trapezoidal rule</p>",
+            "<b>C.</b> <p>Romberg's rule</p>",
+            "<b>D.</b> <p>Gregory's formula</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Trapezoidal rule</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50474/isro2009-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

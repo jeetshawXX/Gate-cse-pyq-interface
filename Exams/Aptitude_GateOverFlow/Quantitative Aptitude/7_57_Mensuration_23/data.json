@@ -1,0 +1,338 @@
+{
+  "title": "Quantitative Aptitude - Mensuration",
+  "duration": 64,
+  "sections": [
+    {
+      "name": "Mensuration",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1233\"></a><div itemprop=\"text\"><p>Two full tanks, one shaped like a cylinder and the other like a cone, contain jet fuel. The cylindrical tank holds \\( 500 \\)&nbsp;litres more than the conical tank. After \\( 200 \\)&nbsp;litres of fuel has been pumped out from&nbsp;each tank the cylindrical tank contains twice the amount of fuel in the conical tank. How many litres of fuel did the cylindrical tank have when it was full?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 109</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 700 \\)</p>",
+            "<p>\\( 1000 \\)</p>",
+            "<p>\\( 1100 \\)</p>",
+            "<p>\\( 1200 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1233/cat-2000-question-109\" target=\"_blank\">https://aptitude.gateoverflow.in/1233/cat-2000-question-109</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1005\"></a><div itemprop=\"text\"><p>Let \\( \\text{A} \\) and \\( \\text{B} \\) two solid spheres such that the surface area of \\( \\text{B} \\) is \\( 300\\% \\) higher than the surface area of \\( \\text{A}. \\) The volume of \\( \\text{A} \\) is found to be \\( k\\% \\) lower than the volume of \\( \\text{B}. \\) The value of \\( k \\) must be ________</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 85.5 \\)</p>",
+            "<p>\\( 92.5 \\)</p>",
+            "<p>\\( 90.5 \\)</p>",
+            "<p>\\( 87.5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1005/cat-2003-question-1-107\" target=\"_blank\">https://aptitude.gateoverflow.in/1005/cat-2003-question-1-107</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1031\"></a><div itemprop=\"text\"><p>There are \\( 8436 \\) steel balls, each with a radius of \\( 1 \\) centimeter, stacked in a pile, with \\( 1 \\) ball on top, \\( 3 \\) balls in second layer, \\( 6 \\) in the third layer, \\( 10 \\) in the fourth, and so on. The number of horizontal layers in the pile is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 38 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 32 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1031/cat-2003-question-1-138\" target=\"_blank\">https://aptitude.gateoverflow.in/1031/cat-2003-question-1-138</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1988\"></a><div itemprop=\"text\"><p>Consider a cylinder of height h cms and radius \\( r=\\frac{2}{\\pi} \\) cms as shown in the figure (not drawn to scale). A string of a certain length, when wound on its cylindrical surface, starting at point A and ending at point B, gives a maximum of n turns (in other words, the string‟s length is the minimum length required to wind n turns.)<br>What is the vertical spacing in cms between two consecutive turns?&nbsp;</p><p><img alt=\"\" width=\"300\" height=\"452\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13198922053534263799\"></p><p>&nbsp;</p><ol style=\"list-style-type:upper-alpha\"></ol></div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{h}{n} \\)</p>",
+            "<p>\\( \\frac{h}{\\sqrt{n}} \\)</p>",
+            "<p>\\( \\frac{h}{n^2} \\)</p>",
+            "<p>Cannot be determined with given information</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1988/cat-2003-question-2-63\" target=\"_blank\">https://aptitude.gateoverflow.in/1988/cat-2003-question-2-63</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1988\"></a><div itemprop=\"text\"><p>Consider a cylinder of height h cms and radius \\( r=\\frac{2}{\\pi} \\) cms as shown in the figure (not drawn to scale). A string of a certain length, when wound on its cylindrical surface, starting at point A and ending at point B, gives a maximum of n turns (in other words, the string‟s length is the minimum length required to wind n turns.)<br>What is the vertical spacing in cms between two consecutive turns?&nbsp;</p><p><img alt=\"\" width=\"300\" height=\"452\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13198922053534263799\"></p><p>&nbsp;</p><ol style=\"list-style-type:upper-alpha\"></ol></div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{h}{n} \\)</p>",
+            "<p>\\( \\frac{h}{\\sqrt{n}} \\)</p>",
+            "<p>\\( \\frac{h}{n^2} \\)</p>",
+            "<p>Cannot be determined with given information</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8793/cat-2003-question-2-64\" target=\"_blank\">https://aptitude.gateoverflow.in/8793/cat-2003-question-2-64</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"8794\"></a><div itemprop=\"text\"><p>Consider a cylinder of height \\( h \\)&nbsp;cms and radius \\( r=\\frac{2}{\\pi} \\) cms as shown in the figure (not drawn to scale). A string of a certain length, when wound on its cylindrical surface, starting at point A and ending at point B, gives a maximum of \\( n \\) turns (in other words, the string‟s length is the minimum length required to wind \\( n \\) turns.)</p><p><img alt=\"\" width=\"300\" height=\"452\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13198922053534263799\"></p><p>The same string, when wound on the exterior four walls of a cube of side n cm, starting at point C and ending at point D, can give exactly one turn (see figure, not drawn to scale). The length of the string is</p><p><img alt=\"\" width=\"200\" height=\"202\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9618706653246417250\"></p></div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{2}n \\) \\( \\text{cm} \\)</p>",
+            "<p>\\( \\sqrt{17}n \\) \\( \\text{cm} \\)</p>",
+            "<p>\\( \\text{n cm} \\)</p>",
+            "<p>\\( \\sqrt{13}n \\) \\( \\text{cm} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{n cm} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8794/cat-2003-question-2-65\" target=\"_blank\">https://aptitude.gateoverflow.in/8794/cat-2003-question-2-65</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"882\"></a><div itemprop=\"text\"><p>If the lengths of diagonals DF, AG and CE of the cube shown in the adjoining figure are equal to the three sides of a triangle, then the radius of the circle circumscribing that triangle will be</p>\n\n<p><img alt=\"\" height=\"325\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14837793818621214475\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>equal to the sides of the cube</p>",
+            "<p>\\( \\sqrt{3} \\) times the sides of the cube</p>",
+            "<p>\\( \\frac{1} {\\sqrt{3} } \\) times the sides of the cube</p>",
+            "<p>impossible to find from the given information</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/882/cat-2004-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/882/cat-2004-question-72</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"726\"></a><div itemprop=\"text\"><p>The length, breadth and height of a room are in the ration \\( 3:2:1. \\) If the breadth and height are halved while the length is doubled, then the total area of the four walls of the room will</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>remain the same.</p>",
+            "<p>decrease by \\( 13.64\\% \\)</p>",
+            "<p>decrease by \\( 15\\% \\)</p>",
+            "<p>decrease by \\( 18.75\\% \\)</p>",
+            "<p>decrease by \\( 30\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/726/cat-2006-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/726/cat-2006-question-54</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"507\"></a><div itemprop=\"text\"><p>Consider a right circular cone of base radius \\( 4 \\) cm and height \\( 10 \\) cm. A cylinder is to be placed inside the cone with one of the flat surfaces resting on the base of the cone. Find the largest possible total surface area (in sq cm) of the cylinder.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 05</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{100 \\pi}{3} \\)</p>",
+            "<p>\\( \\frac{80 \\pi}{3} \\)</p>",
+            "<p>\\( \\frac{120 \\pi}{7} \\)</p>",
+            "<p>\\( \\frac{130 \\pi}{9} \\)</p>",
+            "<p>\\( \\frac{110 \\pi}{7} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/507/cat-2008-question-05\" target=\"_blank\">https://aptitude.gateoverflow.in/507/cat-2008-question-05</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"5082\"></a><div itemprop=\"text\"><p>A solid sphere of radius \\( 12 \\) inches and cast into a right circular cone whose base diameter is \\( \\sqrt{2} \\)times its slant height. If the radius of the sphere and the cone are the same, how many such cones can be made and how much material is left out?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\) and \\( 1 \\) cubic inch</p>",
+            "<p>\\( 3 \\) and \\( 12 \\) cubic inches</p>",
+            "<p>\\( 4 \\) and \\( 0 \\) cubic inch</p>",
+            "<p>\\( 3 \\) and \\( 6 \\) cubic inches</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5082/cat-2012-question-24\" target=\"_blank\">https://aptitude.gateoverflow.in/5082/cat-2012-question-24</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"5328\"></a><div itemprop=\"text\"><p>A cuboidal aquarium, of base dimensions \\( 100\\;\\text{cm}&nbsp;\\times 80\\;\\text{cm} \\) and height \\( 60\\;\\text{cm} \\), is filled with water to its brim. The aquarium is now tilted along one of the \\( 80\\;\\text{cm} \\) edges and the water begin to spill. The tilting is continued till the water surface touches a line on the base which is at a distance of one-third of the length from (and parallel to) the edge on which the aquarium is being tilted. Now the box is returned to its original position. By how many centimeters has the height of water reduced?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5328/cat-2013-question-14\" target=\"_blank\">https://aptitude.gateoverflow.in/5328/cat-2013-question-14</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"917\"></a><div itemprop=\"text\"><p>Three identical cones with base radius \\( r \\) are placed on their bases so that each is touching the other two. The radius of the circle drawn through their vertices is&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>smaller than \\( r \\).&nbsp;</li>\n\t<li>equal to \\( r \\).&nbsp;</li>\n\t<li>larger than \\( r \\).&nbsp;</li>\n\t<li>depends on the height of the cones.</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/917/cat-2014-question-26\" target=\"_blank\">https://aptitude.gateoverflow.in/917/cat-2014-question-26</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"924\"></a><div itemprop=\"text\"><p>A lead cuboid of \\( 8 \\) inches in length, \\( 11 \\) inches in breadth, and \\( 2 \\) inches thick was melted and resolidified into the form of a rod of \\( 8 \\) inches diameter. The length of such a rod, in inches, is nearest to</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 3 \\)</li>\n\t<li>\\( 3.5 \\)</li>\n\t<li>\\( 4 \\)</li>\n\t<li>\\( 4.5 \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/924/cat-2014-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/924/cat-2014-question-37</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"5578\"></a><div itemprop=\"text\"><p>A wooden box (open at the top) of thickness \\( 0.5 \\) cm, length&nbsp;\\( 21 \\) cm, width \\( 11 \\) cm and height \\( 6 \\) cm is painted on the inside. The expenses of painting are \\( \\text{Rs. 70} \\). What is the rate of painting per square centimeters?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{Re 0.7} \\)</p>",
+            "<p>\\( \\text{Re 0.5} \\)</p>",
+            "<p>\\( \\text{Re 0.1} \\)</p>",
+            "<p>\\( \\text{Re 0.2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5578/cat-2015-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/5578/cat-2015-question-74</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"5700\"></a><div itemprop=\"text\">A cube of side \\( 12\\; \\text{cm} \\) is painted red on all the faces and then cut into smaller cubes, each of side \\( 3 \\text{cm} \\). What is the total number of smaller cubes having none of their faces painted _________</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 68</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5700/cat-2016-question-68\" target=\"_blank\">https://aptitude.gateoverflow.in/5700/cat-2016-question-68</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"5696\"></a><div itemprop=\"text\"><p>A wooden box (open at the top) of thickness \\( 0.5\\:\\text{cm} \\), length \\( 21\\:\\text{cm} \\), width \\( 11\\:\\text{cm} \\) and height \\( 6\\:\\text{cm} \\) is painted on the inside. The expenses of painting are Rs. \\( 70 \\). What is the rate of painting per square centimetres?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{Re}\\;0.7 \\)</p>",
+            "<p>\\( \\text{Re}\\;0.5 \\)</p>",
+            "<p>\\( \\text{Re}\\;0.1 \\)</p>",
+            "<p>\\( \\text{Re}\\;0.2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5696/cat-2016-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/5696/cat-2016-question-72</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"5770\"></a><div itemprop=\"text\"><p>A solid metallic cube is melted to form five solid cubes whose volumes are in the ratio \\( 1: 1:8: 27: 27 \\). The percentage by which the sum of the surface areas of these five cubes exceeds the surface area of the original cube is nearest to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5770/cat-2017-set-1-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/5770/cat-2017-set-1-question-84</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"5769\"></a><div itemprop=\"text\"><p>A ball of diameter \\( 4 \\) cm is kept on top of a hollow cylinder standing vertically. The height of the cylinder is \\( 3 \\) cm, while its volume is&nbsp;\\( 9\\pi \\;\\text{cm}^{3} \\). Then the vertical distance, in cm, of the topmost point of the ball from the base of the cylinder is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5769/cat-2017-set-1-question-85\" target=\"_blank\">https://aptitude.gateoverflow.in/5769/cat-2017-set-1-question-85</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"6030\"></a><div itemprop=\"text\">A right circular cone, of height \\( 12 \\) ft, stands on its base which has diameter \\( 8 \\) ft. The tip of the cone is cut off with a plane which is parallel to the base and \\( 9 \\) ft from the base. With \\( \\pi = 22/7 \\), the volume, in cubic ft, of the remaining part of the cone is ________</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "198",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6030/cat-2018-set-1-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/6030/cat-2018-set-1-question-81</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"5417\"></a><div itemprop=\"text\"><p>If the rectangular faces of a brick have their diagonals in the ratio&nbsp;\\( 3:2\\sqrt{3}:\\sqrt{15} \\), then the ratio of the length of the shortest edge of the brick to that of its longest edge is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{3}:2 \\)</p>",
+            "<p>\\( 2:\\sqrt{5} \\)</p>",
+            "<p>\\( 1:\\sqrt{3} \\)</p>",
+            "<p>\\( \\sqrt{2}:\\sqrt{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1:\\sqrt{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5417/cat-2019-set-1-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/5417/cat-2019-set-1-question-94</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"6160\"></a><div itemprop=\"text\"><p>A man makes complete use of \\( 405 \\) cc of iron, \\( 783 \\) cc of aluminium, and \\( 351 \\) cc of copper to make a number of solid right circular cylinders of each type of metal. These cylinders have the same volume and each of these has radius \\( 3 \\) cm. If the total number of cylinders is to be kept at a minimum, then the total surface area of all these cylinders, in sq cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8464\\pi \\)</p>",
+            "<p>\\( 928\\pi \\)</p>",
+            "<p>\\( 1044(4+\\pi) \\)</p>",
+            "<p>\\( 1026(1+\\pi) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1026(1+\\pi) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6160/cat-2019-set-2-question-92\" target=\"_blank\">https://aptitude.gateoverflow.in/6160/cat-2019-set-2-question-92</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"6158\"></a><div itemprop=\"text\"><p>The base of a regular pyramid is a square and each of the other four sides is an equilateral triangle, length of each side being \\( 20 \\) cm. The vertical height of the pyramid, in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8\\sqrt{3} \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 5\\sqrt{5} \\)</p>",
+            "<p>\\( 10\\sqrt{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10\\sqrt{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6158/cat-2019-set-2-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/6158/cat-2019-set-2-question-94</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"7945\"></a><div itemprop=\"text\"><p>A solid right circular cone of height \\( 27 \\) cm is cut into two pieces along a&nbsp;plane parallel to its&nbsp;base&nbsp;at a height of \\( 18 \\) cm from the base. If the difference in&nbsp;volume of the two pieces is \\( 225 \\) cc,&nbsp; the&nbsp;volume,&nbsp;in cc, of the original cone is</p></div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 232 \\)</p>",
+            "<p>\\( 256 \\)</p>",
+            "<p>\\( 264 \\)&nbsp;</p>",
+            "<p>\\( 243 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 243 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7945/cat-2020-set-1-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/7945/cat-2020-set-1-question-76</a></p>"
+        }
+      ]
+    }
+  ]
+}

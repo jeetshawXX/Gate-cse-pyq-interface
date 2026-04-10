@@ -1,0 +1,201 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of permutations of the characters in LILAC so that no character appears in its original position, if the two L's are indistinguishable, is ______. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333189/gate2020-cs-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following predicate formulae is NOT logically valid?\n<br>\nNote that W is a predicate formula without any free occurrence of x. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(p(x)\\vee W)\\equiv \\forall xp(x)\\vee W\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x(p(x)\\wedge W)\\equiv \\exists xp(x)\\wedge W\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333192/gate2020-cs-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let G be a group of 35 elements. Then the largest possible size of a subgroup of G other than G itself is _______. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333213/gate2020-cs-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(R\\) be the set of all binary relations on the set {1,2,3}. Suppose a relation is chosen from \\(R\\) at random. The probability that the chosen relation is reflexive (round off to 3 decimal places) is ______. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.125",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333214/gate2020-cs-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Suppose Y is distributed uniformly in the open interval (1,6). The probability that the polynomial \\(3x^2+6xY+3Y+6\\) has only real roots is (rounded off to 1 decimal place) _________. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302801/gate2019-cs-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the first order predicate formula:<br> \\(\\forall x[\\forall z\\; z|x\\Rightarrow ((z=x)\\vee (z=1))\\Rightarrow\\)  \\(\\exists w(w&gt; x)\\wedge (\\forall z \\; z|w\\Rightarrow ((w=z)\\vee (z=1)))]\\)<br> Here 'a|b' denotes that 'a divides b', where a and b are integers. Consider the following sets:<br><br>\nS1: {1, 2, 3, ..., 100}<br>\nS2: Set of all positive integers<br>\nS3: Set of all integers<br>\nWhich of the above sets satisfy \\(\\varphi\\) ? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S3</p>",
+            "<b>C.</b> <p>S2 and S3</p>",
+            "<b>D.</b> <p>S1,S2 and S3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S2 and S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302813/gate2019-cs-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Two numbers are chosen independently and uniformly at random from the set {1, 2, ..., 13}. The probability (rounded off to 3 decimal places) that their 4-bit (unsigned) binary representations have the same most significant bit is ___________ <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.502",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302826/gate2019-cs-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let G be an undirected complete graph on n vertices, where n\\(\\gt\\)2. Then, the number of different Hamiltonian cycles in G is equal to <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n!</p>",
+            "<b>B.</b> <p>(n-1)!</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n-1)!}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{(n-1)!}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302836/gate2019-cs-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let G be an arbitrary group. Consider the following relations on G:<br><br>\nR1: \\(\\forall a,b \\in G, aR_1b\\) if and only if \\(\\exists g \\in G\\) such that \\(a=g^{-1}bg\\)<br>\nR2: \\(\\forall a,b \\in G, aR_2b\\) if and only if  \\(a=b^{-1}\\)<br><br>\nWhich of the above is/are equivalence relation/relations? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R1 and R2</p>",
+            "<b>B.</b> <p>R1 only</p>",
+            "<b>C.</b> <p>R2 only</p>",
+            "<b>D.</b> <p>Neither R1 nor R2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R1 only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302838/gate2019-cs-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let \\(U=\\{1,2,,...n\\}\\). Let \\(A=\\{(x,X)|x\\in X,X\\subseteq U\\}\\). Consider the following two statements on |A|. <br><br>I. \\(|A|=n2^{n-1}\\)<br>II. \\(|A|=\\sum_{k=1}^{n}k\\binom{n}{k}\\)<br><br>Which of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302843/gate2019-cs-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (G), medium (M) and low (L). Let P(\\(H_{G}\\)) denote the probability that Guwahati has high temperature. Similarly, P(\\(M_{G}\\)) and P(\\(L_{G}\\)\n) denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use P(\\(H_{D}\\)),P(\\(M_{D}\\)) and P(\\(L_{D}\\)) for Delhi. <br>\nThe following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q44_ddb859d5.jpg\"> <br>   Consider the first row in the table above. The first entry denotes that if Guwahati has high\ntemperature (\\(H_{G}\\)) then the probability of Delhi also having a high temperature (\\(H_{D}\\)) is 0.40;\ni.e., (\\(H_{D}\\)|\\(H_{G}\\)) = 0.40. Similarly, the next two entries are P(\\(M_{D}\\)| \\(H_{G}\\))= 0.48 and\nP(\\(L_{D}\\)|\\(H_{G}\\)) = 0.12. Similarly for the other rows.\nIf it is known that P(\\(H_{G}\\))= 0.2, P(\\(M_{G}\\))= 0.5, andP(\\(L_{G}\\))= 0.3, then the probability\n(correct to two decimal places) that Guwahati has high temperature given that Delhi has high\ntemperature is _______ <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204119/gate2018-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let G be a graph with 100! vertices, with each vertex labelled by a distinct permutation of the numbers 1,2,...,100. There is an edge between vertices u and v if and only if the label of u can be obtained by swapping two adjacent numbers in the label of v. Let y denote the degree of a vertex in G, and z denote the number of connected components in G. Then, y+ 10z = _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "109",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204117/gate2018-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let G be a simple undirected graph. Let TD be a depth first search tree of G. Let TB be a breadth first search tree of G. Consider the following statements. <br><br>\n(I) No edge of G is a cross edge with respect to TD. (A cross edge in G is between two\nnodes neither of which is an ancestor of the other in TD.) <br>\n(II) For every edge (u,v) of G, if u is at depth i and v is at depth j in TB, then |i-j|=1.<br><br>\nWhich of the statements above must necessarily be true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204104/gate2018-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the first-order logic sentence <br> \\(\\varphi \\equiv \\exists s\\exists t\\exists u\\forall v\\forall w\\forall x\\forall y\\varphi (s,t,u,v,w,x,y)\\)<br>  where \\(\\varphi (s,t,u,v,w,x,y)\\) is a quantifier-free first-order logic formula using only predicate\nsymbols, and possibly equality, but no function symbols. Suppose \\(\\varphi \\) has a model with a universe containing 7 elements.\nWhich one of the following statements is necessarily true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exists at least one model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+            "<b>B.</b> <p>There exists no model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+            "<b>C.</b> <p>There exists no model of \\(\\varphi\\) with universe of size greater than 7.</p>",
+            "<b>D.</b> <p>Every model of \\(\\varphi\\) has a universe of size equal to 7.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exists at least one model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204102/gate2018-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let N be the set of natural numbers. Consider the following sets. <br>\nP: Set of Rational numbers (positive and negative) <br>\nQ: Set of functions from {0, 1} to N <br>\nR: Set of functions from N to {0, 1}<br>\nS: Set of finite subsets of N. <br>\nWhich of the sets above are countable? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q and S only</p>",
+            "<b>B.</b> <p>P and S only</p>",
+            "<b>C.</b> <p>P and R only</p>",
+            "<b>D.</b> <p>P, Q and S only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P, Q and S only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204101/gate2018-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

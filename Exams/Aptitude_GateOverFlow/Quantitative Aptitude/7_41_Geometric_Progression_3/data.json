@@ -1,0 +1,56 @@
+{
+  "title": "Quantitative Aptitude - Geometric Progression",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Geometric Progression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"5063\"></a><div itemprop=\"text\"><p>If&nbsp;\\( (a^{2}+b^{2}),(b^{2}+c^{2}) \\) and&nbsp;\\( (a^{2}+c^{2}) \\) are in geometric progression, which of the following holds true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( b^{2}-c^{2}= \\dfrac{a^{4}-c^{4}}{b^{2}+a^{2}} \\\\ \\)</p>",
+            "<p>\\( b^{2}-a^{2}= \\dfrac{a^{4}-c^{4}}{b^{2}+c^{2}} \\\\ \\)</p>",
+            "<p>\\( b^{2}-c^{2}= \\dfrac{b^{4}-a^{4}}{b^{2}+a^{2}} \\\\ \\)</p>",
+            "<p>\\( b^{2}-a^{2}= \\dfrac{b^{4}-c^{4}}{b^{2}+a^{2}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( b^{2}-a^{2}= \\dfrac{a^{4}-c^{4}}{b^{2}+c^{2}} \\\\ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5063/cat-2012-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/5063/cat-2012-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6044\"></a><div itemprop=\"text\"><p>Let \\( x, y, z \\) be three positive real numbers in a geometric progression such that \\( x &lt; y &lt; z \\). If \\( 5x \\), \\( 16y \\),&nbsp;and \\( 12z \\) are in an arithmetic progression then the common ratio of the geometric progression is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3/6 \\)</p>",
+            "<p>\\( 3/2 \\)</p>",
+            "<p>\\( 5/2 \\)</p>",
+            "<p>\\( 1/6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6044/cat-2018-set-1-question-67\" target=\"_blank\">https://aptitude.gateoverflow.in/6044/cat-2018-set-1-question-67</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8045\"></a><div itemprop=\"text\"><p>Let the \\( \\text{m-th} \\) and \\( \\text{n-th} \\)&nbsp;terms&nbsp; of a geometric progression be \\( \\dfrac{3}{4} \\) and \\( 12, \\) respectively, where \\( \\text{m &lt; n}. \\) If the common ratio of the progression is an integer \\( \\textsf{r}, \\) then the smallest possible value of \\( \\textsf{r+n-m} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  - 2 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\(  –&nbsp;4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  - 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8045/cat-2020-set-2-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/8045/cat-2020-set-2-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

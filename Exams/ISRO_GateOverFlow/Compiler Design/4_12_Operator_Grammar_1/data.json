@@ -1,0 +1,26 @@
+{
+  "title": "Compiler Design - Operator Grammar",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operator Grammar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"51202\"></a><div itemprop=\"text\"><p>Which grammar rules violate the requirement of the operator grammar? \\( A, B, C \\) are variables and \\( a, b, c \\) are terminals</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( A \\rightarrow BC \\)</li>\n\t<li>\\( A \\rightarrow CcBb \\)</li>\n\t<li>\\( A \\rightarrow BaC \\)</li>\n\t<li>\\( A \\rightarrow \\epsilon \\)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Compiler Design: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) only&nbsp;</p>",
+            "<p>\\( (i) \\) and \\( (ii) \\)</p>",
+            "<p>\\( (i) \\) and \\( (iii) \\)</p>",
+            "<p>\\( (i) \\) and \\( (iv) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\) and \\( (iv) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51202/isro2015-26\" target=\"_blank\">https://gateoverflow.in/51202/isro2015-26</a></p>"
+        }
+      ]
+    }
+  ]
+}

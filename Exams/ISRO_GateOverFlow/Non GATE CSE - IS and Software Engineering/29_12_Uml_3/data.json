@@ -1,0 +1,56 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Uml",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Uml",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49633\"></a><div itemprop=\"text\">\n<p>Which of the following is not a UML DIAGRAM?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2007 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Use Case</p>",
+            "<p>Class Diagram</p>",
+            "<p>Analysis Diagram</p>",
+            "<p>Swimlane Diagram</p>"
+          ],
+          "correct_answer": "<p>Analysis Diagram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49633/isro-cse-2007-question-65\" target=\"_blank\">https://gateoverflow.in/49633/isro-cse-2007-question-65</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49649\"></a><div itemprop=\"text\">\n<p>In UML diagram of a class</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2007 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p>state of object cannot be represented</p>",
+            "<p>state is irrelevant</p>",
+            "<p>state is represented as an attribute</p>",
+            "<p>state is represented as a result of an operation</p>"
+          ],
+          "correct_answer": "<p>state is represented as an attribute</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49649/isro-cse-2007-question-78\" target=\"_blank\">https://gateoverflow.in/49649/isro-cse-2007-question-78</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"52476\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"700\" height=\"99\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7479383610851862727\"></p><p>The above figure represents which one of the following UML diagram for a single send session of an online chat system?</p></div><br><br><b>IS&Software Engineering: ISRO CSE 2011 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Package diagram</p>",
+            "<p>Activity&nbsp;<span style=\"line-height: 20.8px;\">diagram</span></p>",
+            "<p>Class&nbsp;<span style=\"line-height: 20.8px;\">diagram</span></p>",
+            "<p>Sequence&nbsp;<span style=\"line-height: 20.8px;\">diagram</span></p>"
+          ],
+          "correct_answer": "<p>Activity&nbsp;<span style=\"line-height: 20.8px;\">diagram</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52476/isro-cse-2011-question-28\" target=\"_blank\">https://gateoverflow.in/52476/isro-cse-2011-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+}

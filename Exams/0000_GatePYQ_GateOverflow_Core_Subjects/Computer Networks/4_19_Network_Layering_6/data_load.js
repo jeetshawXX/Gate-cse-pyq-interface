@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Network Layering",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Network Layering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"918\"></a><div itemprop=\"text\"><p>Which of the following functionality&nbsp;<em>must&nbsp;</em>be implemented by a transport protocol over and above the network protocol?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Recovery from packet losses</p>",
+            "<p>Detection of duplicate packets</p>",
+            "<p>Packet delivery in the correct order</p>",
+            "<p>End to end connectivity</p>"
+          ],
+          "correct_answer": "<p>End to end connectivity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/918/gate-cse-2003-question-28\" target=\"_blank\">https://gateoverflow.in/918/gate-cse-2003-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1012\"></a><div itemprop=\"text\"><p>Choose the best matching between \\( \\text{Group 1} \\) and \\( \\text{Group 2} \\)</p>\n\n<p>\\[ \\begin{array}{|l|l|}\\hline \\textbf{Group-1} &amp; \\textbf{Group-2} \\\\\\hline&nbsp; \\text{P. Data link layer} &amp; \\text{1. Ensures reliable transport of data over a physical point-}\\\\ &amp; \\text{to-point link} \\\\\\hline&nbsp;&nbsp; \\text{Q. Network layer} &amp; \\text{2. Encodes/decodes data for physical transmission} \\\\\\hline&nbsp; \\text{R. Transport layer} &amp; \\text{3. Allows end-to-end communication between two }\\\\ &amp; \\text{processes} \\\\\\hline \\text{} &amp; \\text{4. Routes data from one network node to the next} \\\\\\hline \\end{array} \\]</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P-1, Q-4, R-3} \\)</p>",
+            "<p>\\( \\text{P-2, Q-4, R-1} \\)</p>",
+            "<p>\\( \\text{P-2, Q-3, R-1} \\)</p>",
+            "<p>\\( \\text{P-1, Q-3, R-2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{P-1, Q-4, R-3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1012/gate-cse-2004-question-15\" target=\"_blank\">https://gateoverflow.in/1012/gate-cse-2004-question-15</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1268\"></a><div itemprop=\"text\"><p>Match the following:<br>\\[ \\begin{array}{|ll|ll|} \\hline \\text{(P)} &amp; \\text{SMTP} &amp;(1)&amp; \\text{Application layer} \\\\\\hline \\text{(Q)} &amp; \\text{BGP}&amp; (2) &amp; \\text{Transport layer} \\\\\\hline&nbsp; &nbsp;\\text{(R)} &amp; \\text{TCP}&amp; (3) &amp; \\text{Data link layer} \\\\\\hline&nbsp; \\text{(S)} &amp; \\text{PPP}&amp; (4) &amp; \\text{Network layer} \\\\\\hline &amp;&amp;(5) &amp; \\text{Physical layer}&nbsp; \\\\\\hline \\end{array} \\]</p></div><br><br><b>GATE CSE 2007 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P - 2, Q - 1, R - 3, S - 5} \\)</p>",
+            "<p>\\( \\text{P - 1, Q - 4, R - 2, S - 3} \\)</p>",
+            "<p>\\( \\text{P - 1, Q - 4, R - 2, S - 5} \\)</p>",
+            "<p>\\( \\text{P - 2, Q - 4, R - 1, S - 3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{P - 1, Q - 4, R - 2, S - 3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1268/gate-cse-2007-question-70\" target=\"_blank\">https://gateoverflow.in/1268/gate-cse-2007-question-70</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1436\"></a><div itemprop=\"text\"><p>Assume that source S and destination D are connected through two intermediate routers labeled R. Determine how many times each packet has to visit the network layer and the data link layer during a transmission from S to D.</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Network layer – \\( 4 \\) times and Data link layer – \\( 4 \\) times</p>",
+            "<p>Network layer – \\( 4 \\) times and Data link layer – \\( 3 \\) times</p>",
+            "<p>Network layer – \\( 4 \\) times and Data link layer – \\( 6 \\) times</p>",
+            "<p>Network layer – \\( 2 \\) times and Data link layer – \\( 6 \\) times</p>"
+          ],
+          "correct_answer": "<p>Network layer – \\( 4 \\) times and Data link layer – \\( 6 \\) times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1436/gate-cse-2013-question-14\" target=\"_blank\">https://gateoverflow.in/1436/gate-cse-2013-question-14</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2057\"></a><div itemprop=\"text\"><p>In the following pairs of OSI protocol layer/sub-layer and its functionality, the&nbsp;<strong>INCORRECT&nbsp;</strong>pair is&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Network layer and Routing</p>",
+            "<p>Data Link Layer and Bit synchronization</p>",
+            "<p>Transport layer and End-to-end process communication</p>",
+            "<p>Medium Access Control sub-layer and Channel sharing</p>"
+          ],
+          "correct_answer": "<p>Data Link Layer and Bit synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2057/gate-cse-2014-set-3-question-23\" target=\"_blank\">https://gateoverflow.in/2057/gate-cse-2014-set-3-question-23</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"204087\"></a><div itemprop=\"text\"><p>Match the following:<br>\\[ \\begin{array}{|l|l|}\\hline \\textbf{Field} &amp; \\textbf{Length in bits} \\\\\\hline&nbsp; \\text{P. UDP Header's Port Number} &amp; \\text{I.&nbsp;&nbsp; 48} \\\\ \\text{Q. Ethernet MAC Address} &amp; \\text{II.&nbsp; 8} \\\\&nbsp; \\text{R. IPv6 Next Header} &amp; \\text{III. 32}&nbsp; \\\\&nbsp; \\text{S. TCP Header's Sequence Number} &amp; \\text{IV. 16}&nbsp; \\\\\\hline \\end{array} \\]</p></div><br><br><b>GATE CSE 2018 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P-III, Q-IV, R-II, S-I} \\)</p>",
+            "<p>\\( \\text{P-II, Q-I, R-IV, S-III} \\)</p>",
+            "<p>\\( \\text{P-IV, Q-I, R-II, S-III} \\)</p>",
+            "<p>\\( \\text{P-IV, Q-I, R-III, S-II} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{P-IV, Q-I, R-II, S-III} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204087/gate-cse-2018-question-13\" target=\"_blank\">https://gateoverflow.in/204087/gate-cse-2018-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

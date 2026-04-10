@@ -1,0 +1,191 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Software Testing",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Software Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49636\"></a><div itemprop=\"text\">\n<p>To execute all loops at their boundaries and within their operational bounds is an example of</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2007 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Black Box Testing</p>",
+            "<p>Alpha Testing</p>",
+            "<p>Recovery Testing</p>",
+            "<p>White Box Testing</p>"
+          ],
+          "correct_answer": "<p>White Box Testing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49636/isro-cse-2007-question-67\" target=\"_blank\">https://gateoverflow.in/49636/isro-cse-2007-question-67</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50565\"></a><div itemprop=\"text\">\n<p>Activities which ensure that the software that has been built, is traceable to customer requirement is covered as part of</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2009 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Verification</p>",
+            "<p>Validation</p>",
+            "<p>Maintenance</p>",
+            "<p>Modeling</p>"
+          ],
+          "correct_answer": "<p>Validation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50565/isro-cse-2009-question-67\" target=\"_blank\">https://gateoverflow.in/50565/isro-cse-2009-question-67</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"47342\"></a><div itemprop=\"text\">\n<p>A testing method which is normally used as the acceptance test for a software system, is</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2009 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regression Testing</p>",
+            "<p>Integration&nbsp;<span style=\"line-height: 20.8px;\">Testing</span></p>",
+            "<p>Unit&nbsp;<span style=\"line-height: 20.8px;\">Testing</span></p>",
+            "<p>System&nbsp;<span style=\"line-height: 20.8px;\">Testing</span></p>"
+          ],
+          "correct_answer": "<p>System&nbsp;<span style=\"line-height: 20.8px;\">Testing</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47342/isro-cse-2009-question-68\" target=\"_blank\">https://gateoverflow.in/47342/isro-cse-2009-question-68</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"52481\"></a><div itemprop=\"text\">\n<p>Black Box Software Testing method focuses on the</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2011 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Boundary condition of the software</p>",
+            "<p>Control structure of the software</p>",
+            "<p>Functional requirement&nbsp;<span style=\"line-height: 20.8px;\">of the software</span></p>",
+            "<p>Independent paths&nbsp;<span style=\"line-height: 20.8px;\">of the software</span></p>"
+          ],
+          "correct_answer": "<p>Functional requirement&nbsp;<span style=\"line-height: 20.8px;\">of the software</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52481/isro-cse-2011-question-34\" target=\"_blank\">https://gateoverflow.in/52481/isro-cse-2011-question-34</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"48978\"></a><div itemprop=\"text\">\n<p>The test suite (set of test input) used to perform unit testing on a module could cover 70% of the code. What is the reliability of the module if the probability of success is 0.95 during testing?</p>\n\n<p><br>\n&nbsp;</p>\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2014 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0.665 to 0.95</p>",
+            "<p>At the most 0.665</p>",
+            "<p>At the most 0.95</p>",
+            "<p>At least 0.665</p>"
+          ],
+          "correct_answer": "<p>At the most 0.665</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48978/isro-cse-2014-question-23\" target=\"_blank\">https://gateoverflow.in/48978/isro-cse-2014-question-23</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"213540\"></a><div itemprop=\"text\">\n\n<p>In unit testing of a module, it is found that for a set of test data, at the maximum&nbsp;\\( 90 \\)% of the code alone were tested with the probability of success \\( 0.9 \\). The reliability of module is</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2018 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Greater than \\( 0.9 \\)</p>",
+            "<p>Equal to \\( 0.9 \\)</p>",
+            "<p>At most \\( 0.81 \\)</p>",
+            "<p>At least \\( 0.81 \\)</p>"
+          ],
+          "correct_answer": "<p>At most \\( 0.81 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213540/isro-cse-2018-question-48\" target=\"_blank\">https://gateoverflow.in/213540/isro-cse-2018-question-48</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"435357\"></a><div itemprop=\"text\"><p>The MCDC software testing technique stands for</p></div><br><br><b>IS&Software Engineering: ISRO CSE 2023 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Multiple Conditions Decision Coverage</p>",
+            "<p>Multiple coverage Decision conditions</p>",
+            "<p>Modified Condition Decision Coverage</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Modified Condition Decision Coverage</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435357/isro-cse-2023-question-39\" target=\"_blank\">https://gateoverflow.in/435357/isro-cse-2023-question-39</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"435356\"></a><div itemprop=\"text\"><p>Regression testing focuses on validating</p></div><br><br><b>IS&Software Engineering: ISRO CSE 2023 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>module structure</p>",
+            "<p>module interfaces</p>",
+            "<p>software changes</p>",
+            "<p>None of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>software changes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435356/isro-cse-2023-question-40\" target=\"_blank\">https://gateoverflow.in/435356/isro-cse-2023-question-40</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"45562\"></a><div itemprop=\"text\">\n<p>Which of the following testing methods uses fault simulation technique?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unit testing</p>",
+            "<p>Beta testing</p>",
+            "<p>Stress testing</p>",
+            "<p>Mutation testing</p>"
+          ],
+          "correct_answer": "<p>Mutation testing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45562/isro-2013-68\" target=\"_blank\">https://gateoverflow.in/45562/isro-2013-68</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"45563\"></a><div itemprop=\"text\">\n<p>If a program \\( P \\) calls two subprograms \\( P1 \\) and \\( P2 \\) and \\( P1 \\) can fail \\( 50 \\)% of the time and \\( P2 \\) can fail \\( 40 \\)% of the time, what is the failure rate of program \\( P \\)?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50 \\)%</p>",
+            "<p>\\( 60 \\)%</p>",
+            "<p>\\( 70 \\)%</p>",
+            "<p>\\( 10 \\)%</p>"
+          ],
+          "correct_answer": "<p>\\( 70 \\)%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45563/isro-2013-69-ugcnet-dec2012-iii-62\" target=\"_blank\">https://gateoverflow.in/45563/isro-2013-69-ugcnet-dec2012-iii-62</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"182127\"></a><div itemprop=\"text\"><p>Consider the following :<br>\n&nbsp;</p>\n\n<table border=\"2\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">A.</th>\n\t\t\t<td>Condition Coverage</td>\n\t\t\t<th>p.</th>\n\t\t\t<td>Black box testing&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">B.</th>\n\t\t\t<td>Equivalence Class partitioning</td>\n\t\t\t<th>q.</th>\n\t\t\t<td>System testing</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">C.</th>\n\t\t\t<td>Volume Testing</td>\n\t\t\t<th>r.</th>\n\t\t\t<td>White box testing</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">D.</th>\n\t\t\t<td>Beta Testing</td>\n\t\t\t<th>s.</th>\n\t\t\t<td>Performance testing</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Matching \\( A, B, C, D \\) in the same order gives,</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>r,p,s,q</p>",
+            "<p>p,r,q,s</p>",
+            "<p>s,r,q,p</p>",
+            "<p>q,r,s,p</p>"
+          ],
+          "correct_answer": "<p>r,p,s,q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182127/isro-dec2017-77\" target=\"_blank\">https://gateoverflow.in/182127/isro-dec2017-77</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"51991\"></a><div itemprop=\"text\">\n<p>Alpha and Beta testing are forms of</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Acceptance testing</p>",
+            "<p>Integration testing</p>",
+            "<p>System testing</p>",
+            "<p>Unit testing</p>"
+          ],
+          "correct_answer": "<p>System testing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51991/isro2015-59\" target=\"_blank\">https://gateoverflow.in/51991/isro2015-59</a></p>"
+        }
+      ]
+    }
+  ]
+}

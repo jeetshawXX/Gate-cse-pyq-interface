@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Digital Signal Processing - UGC NET CSE  December 2012  Part 3  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "UGC NET CSE  December 2012  Part 3  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57734\"></a><div itemprop=\"text\"><p>The transform which posses ‘multi-resolution’ property is</p></div><br><br><b>Digital Signal Processing: UGC NET CSE | December 2012 | Part 3 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Fourier transform</p>",
+            "<p>Short-time Fourier transform</p>",
+            "<p>Wavelet transform</p>",
+            "<p>Karhunen-Loere transform</p>"
+          ],
+          "correct_answer": "<p>Wavelet transform</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57734/ugc-net-cse-december-2012-part-3-question-60\" target=\"_blank\">https://gateoverflow.in/57734/ugc-net-cse-december-2012-part-3-question-60</a></p>"
+        }
+      ]
+    }
+  ]
+});

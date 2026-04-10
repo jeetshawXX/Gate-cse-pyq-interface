@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Unknown Category - Ethernet",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Ethernet",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166262\"></a><div itemprop=\"text\"><p>The number of bits used for addressing in Gigabit Ethernet is __________.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | November 2017 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 32 \\) bits</p>",
+            "<p>\\( 48 \\) bits</p>",
+            "<p>\\( 64 \\) bits</p>",
+            "<p>\\( 128 \\) bits</p>"
+          ],
+          "correct_answer": "<p>\\( 48 \\) bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166262/ugc-net-cse-november-2017-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/166262/ugc-net-cse-november-2017-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,536 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Identify Function",
+  "duration": 105,
+  "sections": [
+    {
+      "name": "Identify Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"89080\"></a><div itemprop=\"text\"><p>What is the output produced by the following program, when the input is \"HTGATE\"</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Function what (s:string): string;\nvar n:integer;\nbegin\n     n = s.length\n     if n &lt;= 1\n     then what := s\n     else what :=contact (what (substring (s, 2, n)), s.C [1])\nend;\n</pre>\n\n<p>Note</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>type string=record<br>\n\t&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; length:integer;<br>\n\t&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C:array[1..100] of char<br>\n\t&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; end</li>\n\t<li>Substring (s, i, j): this yields the string made up of the \\( i^{\\text{th}} \\) through \\( j^{\\text{th}} \\) characters in s; for appropriately defined in \\( i \\) and \\( j \\).</li>\n\t<li>Contact \\( (s_{1}, s_{2}) \\): this function yields a string of length \\( s_{1} \\) length + \\( s_{2} \\) - length obtained by concatenating \\( s_{1} \\) with \\( s_{2} \\) such that \\( s_{1} \\) precedes \\( s_{2} \\).</li>\n</ol></div><br><br><b>GATE CSE 1989 | Question: 8a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/89080/gate-cse-1989-question-8a\" target=\"_blank\">https://gateoverflow.in/89080/gate-cse-1989-question-8a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"85987\"></a><div itemprop=\"text\"><p>The following program computes values of a mathematical function \\( f(x) \\). Determine the form of \\( f(x) \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">main ()\n{\n    int m, n; float x, y, t;\n    scanf (\"%f%d\", &amp;x, &amp;n);\n    t = 1; y = 0; m = 1;\n    do\n    {\n        t *= (-x/m);\n        y += t;\n    } while (m++ &lt; n);\n    printf (\"The value of y is %f\", y);\n}</pre>\n\n</div><br><br><b>GATE CSE 1990 | Question: 11b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/85987/gate-cse-1990-question-11b\" target=\"_blank\">https://gateoverflow.in/85987/gate-cse-1990-question-11b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"523\"></a><div itemprop=\"text\"><p>Consider the following Pascal function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Function X(M:integer):integer;\nVar i:integer;\nBegin\n    i := 0;\n    while i*i &lt; M\n    do i:= i+1\n    X := i\n end\n\n</pre>\n\n<p>The function call \\( X(N) \\), if \\( N \\) is positive, will return</p>\n\n</div><br><br><b>GATE CSE 1991 | Question: 03-viii</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\lfloor\\sqrt N \\rfloor \\)</p>",
+            "<p>\\( \\lfloor\\sqrt N \\rfloor +1 \\)</p>",
+            "<p>\\( \\lceil \\sqrt N \\rceil \\)</p>",
+            "<p>\\( \\lceil \\sqrt N \\rceil +1 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\lceil \\sqrt N \\rceil \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/523/gate-cse-1991-question-03-viii\" target=\"_blank\">https://gateoverflow.in/523/gate-cse-1991-question-03-viii</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2292\"></a><div itemprop=\"text\"><p>What does the following code do?</p><pre class=\"prettyprint lang-c_cpp\">var a, b: integer;\nbegin\n    a:=a+b;\n    b:=a-b;\n    a:=a-b;\nend;</pre></div><br><br><b>GATE CSE 1993 | Question: 7.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>exchanges \\( a \\) and \\( b \\)</p>",
+            "<p>doubles \\( a \\) and stores in \\( b \\)</p>",
+            "<p>doubles \\( b \\) and stores in \\( a \\)</p>",
+            "<p>leaves \\( a \\) and \\( b \\) unchanged</p>",
+            "<p>none of the above<br>&nbsp;</p>"
+          ],
+          "correct_answer": "<p>exchanges \\( a \\) and \\( b \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2292/gate-cse-1993-question-7-4\" target=\"_blank\">https://gateoverflow.in/2292/gate-cse-1993-question-7-4</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2502\"></a><div itemprop=\"text\"><p>What function of \\( x \\), \\( n \\) is computed by this program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Function what(x, n:integer): integer:\nVar\n    value : integer\nbegin\n    value := 1\n    if n &gt; 0 then\n    begin\n        if n mod 2 =1 then\n            value := value * x;\n        value := value * what(x*x, n div 2);\n    end;\n    what := value;\nend;\n</pre></div><br><br><b>GATE CSE 1994 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2502/gate-cse-1994-question-6\" target=\"_blank\">https://gateoverflow.in/2502/gate-cse-1994-question-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2591\"></a><div itemprop=\"text\"><p>In the following Pascal program segment, what is the value of X after the execution of the program segment?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">X := -10; Y := 20;\nIf X &gt; Y then if X &lt; 0 then X := abs(X) else X := 2*X;</pre>\n\n\n\n</div><br><br><b>GATE CSE 1995 | Question: 1.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( -20 \\)</p>",
+            "<p>\\( -10 \\)</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "<p>\\( -10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2591/gate-cse-1995-question-1-4\" target=\"_blank\">https://gateoverflow.in/2591/gate-cse-1995-question-1-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2615\"></a><div itemprop=\"text\"><p>Assume that \\( X \\) and \\( Y \\) are non-zero positive integers. What does the following Pascal program segment do?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">while X &lt;&gt; Y do\nif  X &gt; Y then\n    X := X - Y\nelse\n    Y := Y - X;\nwrite(X);\n</pre>\n\n</div><br><br><b>GATE CSE 1995 | Question: 2.3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Computes the LCM of two numbers</p>",
+            "<p>Divides the larger number by the smaller number</p>",
+            "<p>Computes the GCD of two numbers</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Computes the GCD of two numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2615/gate-cse-1995-question-2-3\" target=\"_blank\">https://gateoverflow.in/2615/gate-cse-1995-question-2-3</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2640\"></a><div itemprop=\"text\"></div><br><br><b>GATE CSE 1995 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Consider the following Pascal function where \\( A \\) and \\( B \\) are non-zero positive integers. What is the value of \\( \\text{GET}(3, 2) \\)?\n\t<pre class=\"prettyprint lang-c_cpp\">function GET(A,B:integer): integer;\nbegin\n    if B=0 then\n        GET:= 1\n    else if A &lt; B then\n        GET:= 0\n    else\n        GET:= GET(A-1, B) + GET(A-1, B-1)\nend;</pre></p>",
+            "<p>The Pascal procedure given for computing the transpose of an \\( N \\times N, (N&gt;1) \\) matrix \\( A \\) of integers has an error. Find the error and correct it.&nbsp;Assume that the following declaration are made in the main program\n\t<pre class=\"prettyprint lang-c_cpp\">const\n    MAXSIZE=20;\ntype\n    INTARR=array [1..MAXSIZE,1..MAXSIZE] of integer;\nProcedure TRANSPOSE (var A: INTARR; N : integer);\nvar\n    I, J, TMP: integer;\nbegin\n    for I:=1 to N – 1 do\n    for J:=1 to N do\n    begin\n        TMP:= A[I, J];\n        A[I, J]:= A[J, I];\n        A[J, I]:= TMP\n    end\nend;\n</pre></p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2640/gate-cse-1995-question-4\" target=\"_blank\">https://gateoverflow.in/2640/gate-cse-1995-question-4</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1684\"></a><div itemprop=\"text\"><p>What value would the following function return for the input \\( x=95 \\)?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Function fun (x:integer):integer;\nBegin\n    If x &gt; 100 then fun = x – 10\n    Else fun = fun(fun (x+11))\nEnd;\n</pre>\n\n\n\n\n\n</div><br><br><b>GATE CSE 1998 | Question: 2.12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 89 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 91 \\)</p>",
+            "<p>\\( 92 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 91 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1684/gate-cse-1998-question-2-12\" target=\"_blank\">https://gateoverflow.in/1684/gate-cse-1998-question-2-12</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1501\"></a><div itemprop=\"text\"><p>Consider the following \\( C \\) function definition</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int Trial (int a, int b, int c)\n{\n    if ((a&gt;=b) &amp;&amp; (c&lt;b)) return b;\n    else if (a&gt;=b) return Trial(a, c, b);\n    else return Trial(b, a, c);\n}\n</pre>\n\n<p>The functional Trial:</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 2.24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Finds the maximum of \\( a \\), \\( b \\), and \\( c \\)</p>",
+            "<p>Finds the minimum of \\( a \\), \\( b \\), and \\( c \\)</p>",
+            "<p>Finds the middle number of \\( a \\), \\( b \\), \\( c \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1501/gate-cse-1999-question-2-24\" target=\"_blank\">https://gateoverflow.in/1501/gate-cse-1999-question-2-24</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"662\"></a><div itemprop=\"text\"><p>Suppose you are given an array \\( s[1....n] \\) and a procedure reverse \\( (s, i, j) \\) which reverses the order of elements in \\( s \\)&nbsp;between positions \\( i \\) and \\( j \\) (both inclusive). What does the following sequence do, where \\( 1&nbsp;\\leqslant&nbsp;k&nbsp;\\leqslant n \\):</p>\n\n<pre class=\"prettyprint lang-c_cpp\">           reverse (s, 1, k);\n           reverse (s, k+1, n);\n&nbsp;          reverse (s, 1, n);</pre>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rotates \\( s \\)&nbsp;left by \\( k \\)&nbsp;positions</p>",
+            "<p>Leaves \\( s \\)&nbsp;unchanged&nbsp;</p>",
+            "<p>Reverses all elements of&nbsp;\\( s \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Rotates \\( s \\)&nbsp;left by \\( k \\)&nbsp;positions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/662/gate-cse-2000-question-2-15\" target=\"_blank\">https://gateoverflow.in/662/gate-cse-2000-question-2-15</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"892\"></a><div itemprop=\"text\"><p>Consider the following \\( C \\) function.</p>\n\n<p>For large values of \\( y \\), the return value of the function \\( f \\) best approximates</p>\n\n<pre class=\"prettyprint lang-c_cpp\">float f,(float x, int y) {\n    float p, s; int i;\n    for (s=1,p=1,i=1; i&lt;y; i++) {\n        p *= x/i;\n        s += p;\n    }\n    return s;\n}\n\n</pre>\n\n</div><br><br><b>GATE CSE 2003 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x^y \\)</p>",
+            "<p>\\( e^x \\)</p>",
+            "<p>\\( \\text{ln} (1+x) \\)</p>",
+            "<p>\\( x^x \\)</p>"
+          ],
+          "correct_answer": "<p>\\( e^x \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/892/gate-cse-2003-question-1\" target=\"_blank\">https://gateoverflow.in/892/gate-cse-2003-question-1</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"971\"></a><div itemprop=\"text\"><p>In the following \\( C \\) program fragment, \\( j \\), \\( k \\), \\( n \\) and TwoLog_n are integer variables, and \\( A \\) is an array of integers. The variable \\( n \\) is initialized to an integer \\( \\geqslant&nbsp;3 \\), and TwoLog_n is initialized to the value of \\( 2^*\\lceil \\log_2(n) \\rceil \\)</p>\n\n<pre class=\"prettyprint lang-c_cpp\">for (k = 3;  k &lt;= n; k++)\n        A[k] = 0;\nfor (k = 2; k &lt;= TwoLog_n; k++)\n    for (j = k+1; j &lt;= n; j++)\n        A[j] = A[j] || (j%k);\nfor (j = 3; j &lt;= n; j++)\n    if (!A[j]) printf(\"%d\", j);\n</pre>\n\n<p>The set of numbers printed by this program fragment is</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left\\{m \\mid m \\leq n, (\\exists i)\\left[m=i!\\right]\\right\\} \\)</p>",
+            "<p>\\( \\left\\{m \\mid m \\leq n, (\\exists i) \\left[m=i^2\\right]\\right\\} \\)</p>",
+            "<p>\\( \\left\\{m \\mid m \\leq n, \\text{m is prime} \\right\\} \\)</p>",
+            "<p>{ }</p>"
+          ],
+          "correct_answer": "<p>{ }</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/971/gate-cse-2003-question-88\" target=\"_blank\">https://gateoverflow.in/971/gate-cse-2003-question-88</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1038\"></a><div itemprop=\"text\"><p>Consider the following C program</p>\n\n<pre class=\"prettyprint lang-c_cpp\">main()\n{ \n    int x, y, m, n;\n    scanf(\"%d %d\", &amp;x, &amp;y);\n    /* Assume x&gt;0 and y&gt;0*/\n    m = x; n = y;\n    while(m != n)\n        { \n            if (m &gt; n)\n                m = m-n;\n            else\n                n = n-m;\n        }\n    printf(\"%d\", n);\n}</pre>\n\n<p>The program computes</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x+y \\) using repeated subtraction</p>",
+            "<p>\\( x \\mod&nbsp;y \\) using repeated subtraction</p>",
+            "<p>the greatest common divisor of \\( x \\) and \\( y \\)</p>",
+            "<p>the least common multiple of \\( x \\) and \\( y \\)</p>"
+          ],
+          "correct_answer": "<p>the greatest common divisor of \\( x \\) and \\( y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1038/gate-cse-2004-question-41\" target=\"_blank\">https://gateoverflow.in/1038/gate-cse-2004-question-41</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1039\"></a><div itemprop=\"text\"><p>What does the following algorithm approximate? (Assume \\( m &gt; 1, \\epsilon&nbsp;&gt;0 \\)).</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">x = m;\ny = 1;\nWhile (x-y &gt; ϵ)\n{\n    x = (x+y)/2;\n    y = m/x;\n}\nprint(x);</pre>\n\n</div><br><br><b>GATE CSE 2004 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\log \\, m \\)</p>",
+            "<p>\\( m^2 \\)</p>",
+            "<p>\\( m^{\\frac{1}{2}} \\)</p>",
+            "<p>\\( m^{\\frac{1}{3}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( m^{\\frac{1}{2}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1039/gate-cse-2004-question-42\" target=\"_blank\">https://gateoverflow.in/1039/gate-cse-2004-question-42</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1367\"></a><div itemprop=\"text\"><p>Consider the following C-program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void foo (int n, int sum) {\n    int k = 0, j = 0;\n    if (n == 0) return;\n    k = n % 10; j = n/10;\n    sum = sum + k;\n    foo (j, sum);\n    printf (\"%d,\",k);\n}\n\nint main() {\n    int a = 2048, sum = 0;\n    foo(a, sum);\n    printf(\"%d\\n\", sum);\n}</pre>\n\n<p>What does the above program print?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{8, 4, 0, 2, 14} \\)</p>",
+            "<p>\\( \\text{8, 4, 0, 2, 0} \\)</p>",
+            "<p>\\( \\text{2, 0, 4, 8, 14} \\)</p>",
+            "<p>\\( \\text{2, 0, 4, 8, 0} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{2, 0, 4, 8, 0} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1367/gate-cse-2005-question-31\" target=\"_blank\">https://gateoverflow.in/1367/gate-cse-2005-question-31</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1828\"></a><div itemprop=\"text\"><p>A set \\( X \\) can be represented by an array \\( x[n] \\) as follows:&nbsp;</p><p>&nbsp;\\( x\\left [ i \\right ]=\\begin {cases} 1 &amp; \\text{if } i \\in X \\\\ 0 &amp; \\text{otherwise}&nbsp; \\end{cases} \\)</p><p>Consider the following algorithm in which \\( x \\), \\( y \\), and \\( z \\) are Boolean arrays of size \\( n \\):&nbsp;</p><pre class=\"prettyprint linenums lang-c_cpp\" style=\"line-height: 20.7999992370605px;\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">algorithm zzz(x[], y[], z[]) {\nint i;\n\nfor(i=0; i&lt;n; ++i)\nz[i] = (x[i] ∧ ~y[i]) ∨ (~x[i] ∧ y[i]);\n}</pre><p>The set \\( Z \\) computed by the algorithm is:&nbsp;</p></div><br><br><b>GATE CSE 2006 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (X\\cup Y) \\)</p>",
+            "<p>\\( (X\\cap Y) \\)</p>",
+            "<p>\\( (X-Y)\\cap (Y-X) \\)</p>",
+            "<p>\\( (X-Y)\\cup (Y-X) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (X-Y)\\cup (Y-X) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1828/gate-cse-2006-question-50\" target=\"_blank\">https://gateoverflow.in/1828/gate-cse-2006-question-50</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1831\"></a><div itemprop=\"text\"><p>Consider the following C-function in which \\( a[n] \\) and \\( b[m] \\) are two sorted integer&nbsp;arrays and \\( c[n+m] \\) be another integer array,</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void xyz(int a[], int b [], int c []){ \n    int i,j,k; \n    i=j=k=0; \n    while ((i&lt;n) &amp;&amp; (j&lt;m)) \n        if (a[i] &lt; b[j]) c[k++] = a[i++]; \n        else c[k++] = b[j++]; \n}</pre>\n\n<p>Which of the following condition(s) hold(s) after the termination of the while&nbsp;loop?</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( j&lt; m,k=n+j-1 \\)&nbsp;and \\( a[n-1]&lt; b[j] \\) if \\( i=n \\)</li>\n\t<li>\\( i&lt;n,k=m+i-1 \\)&nbsp;and \\( b[m-1]\\leq a[i] \\) if \\( j=m \\)</li>\n</ol>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2006 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only (i)&nbsp;</p>",
+            "<p>only (ii)&nbsp;</p>",
+            "<p>either (i) or (ii) but not both&nbsp;</p>",
+            "<p>neither (i) nor (ii)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>neither (i) nor (ii)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1831/gate-cse-2006-question-53\" target=\"_blank\">https://gateoverflow.in/1831/gate-cse-2006-question-53</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"1310\"></a><div itemprop=\"text\"><p>Consider the program below:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include &lt;stdio.h&gt;\nint fun(int n, int *f_p) {\n    int t, f;\n    if (n &lt;= 1) {\n        *f_p = 1;\n        return 1;\n    }\n    t = fun(n-1, f_p);\n    f = t + *f_p;\n    *f_p = t;\n    return f;\n}\n\nint main() {\n    int x = 15;\n    printf(\"%d/n\", fun(5, &amp;x));\n    return 0;\n}\n</pre>\n\n<p>The value printed is:</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 15 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1310/gate-cse-2009-question-18\" target=\"_blank\">https://gateoverflow.in/1310/gate-cse-2009-question-18</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"2336\"></a><div itemprop=\"text\"><p>What is the value printed by the following C program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\n\nint f(int *a, int n)\n{\n    if (n &lt;= 0) return 0;\n    else if (*a % 2 == 0) return *a+f(a+1, n-1);\n    else return *a - f(a+1, n-1);\n}\n\nint main()\n{\n    int a[] = {12, 7, 13, 4, 11, 6};\n    printf(\"%d\", f(a, 6));\n    return 0;\n}</pre>\n\n</div><br><br><b>GATE CSE 2010 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -9 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 19 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2336/gate-cse-2010-question-35\" target=\"_blank\">https://gateoverflow.in/2336/gate-cse-2010-question-35</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"2154\"></a><div itemprop=\"text\"><p>Consider the following recursive C function that takes two arguments.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">unsigned int foo(unsigned int n, unsigned int r) {\n    if (n&gt;0) return ((n%r) + foo(n/r, r));\n    else return 0;\n}\n</pre>\n\n<p>What is the return value of the function \\( \\text{foo} \\) when it is called as \\( \\text{foo(345, 10)} \\)?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 345 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2154/gate-cse-2011-question-48\" target=\"_blank\">https://gateoverflow.in/2154/gate-cse-2011-question-48</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"43324\"></a><div itemprop=\"text\"><p>Consider the following recursive C function that takes two arguments.</p>\n\n<pre class=\"prettyprint lang-\" style=\"line-height:15.6pt\">unsigned int foo(unsigned int n, unsigned int r) {\n    if (n&gt;0) return ((n%r) + foo(n/r, r));\n    else return 0;\n}\n</pre>\n\n<p>What is the return value of the function \\( \\text{foo} \\) when it is called as \\( \\text{foo(513, 2)} \\)?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43324/gate-cse-2011-question-49\" target=\"_blank\">https://gateoverflow.in/43324/gate-cse-2011-question-49</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"1542\"></a><div itemprop=\"text\"><p>Consider the following function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int unknown(int n){ \n\nint i, j, k=0; \nfor (i=n/2; i&lt;=n; i++) \n    for (j=2; j&lt;=n; j=j*2) \n        k = k + n/2; \n return (k); \n\n} </pre>\n\n<p>The return value of the function is</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n^2) \\) &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( \\Theta(n^2\\log n) \\) &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( \\Theta(n^3) \\) &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( \\Theta(n^3\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n^2\\log n) \\) &nbsp; &nbsp; &nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1542/gate-cse-2013-question-31\" target=\"_blank\">https://gateoverflow.in/1542/gate-cse-2013-question-31</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"1919\"></a><div itemprop=\"text\"><p>Consider the following C function in which&nbsp;<strong>size&nbsp;</strong>is the number of elements in the array&nbsp;<strong>E</strong>:&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int MyX(int *E, unsigned int size) \n{ \n   int Y = 0; \n   int Z; \n   int i, j, k; \n\n   for(i = 0; i&lt; size; i++) \n          Y = Y + E[i]; \n          \n    for(i=0; i &lt; size; i++) \n        for(j = i; j &lt; size; j++)\n        {\n            Z = 0; \n            for(k = i; k &lt;= j; k++) \n               Z = Z + E[k];\n            if(Z &gt; Y) \n               Y = Z; \n        } \n   return Y; \n} </pre>\n\n<p>The value returned by the function&nbsp;<strong>MyX&nbsp;</strong>is the</p>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>maximum possible sum of elements in any sub-array of array&nbsp;<strong>E</strong>.</p>",
+            "<p>maximum element in any sub-array of array&nbsp;<strong>E.</strong></p>",
+            "<p>sum of the maximum elements in all possible sub-arrays of array&nbsp;<strong>E</strong>.</p>",
+            "<p>the sum of all the elements in the array&nbsp;<strong>E.</strong></p>"
+          ],
+          "correct_answer": "<p>maximum possible sum of elements in any sub-array of array&nbsp;<strong>E</strong>.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1919/gate-cse-2014-set-1-question-41\" target=\"_blank\">https://gateoverflow.in/1919/gate-cse-2014-set-1-question-41</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"1964\"></a><div itemprop=\"text\"><p>Consider the function func shown below:&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int func(int num) { \n   int count = 0; \n   while (num) { \n     count++; \n     num&gt;&gt;= 1; \n   } \n   return (count); \n} </pre>\n\n<p>The value returned by func(\\( 435 \\)) is ________</p></div><br><br><b>GATE CSE 2014 Set 2 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1964/gate-cse-2014-set-2-question-10\" target=\"_blank\">https://gateoverflow.in/1964/gate-cse-2014-set-2-question-10</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"2044\"></a><div itemprop=\"text\"><p>Let \\( A \\) be the square matrix of size \\( n \\times n \\). Consider the following pseudocode. What is the expected output?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">C=100;\nfor i=1 to n do\n    for j=1 to n do\n    {\n        Temp = A[i][j]+C;\n        A[i][j] = A[j][i];\n        A[j][i] = Temp -C;\n    }\nfor i=1 to n do\n    for j=1 to n do \n        output (A[i][j]);</pre>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The matrix \\( A \\) itself</p>",
+            "<p>Transpose of the matrix&nbsp;\\( A \\)</p>",
+            "<p>Adding \\( 100 \\) to the upper diagonal elements and subtracting \\( 100 \\) from lower diagonal elements of \\( A \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>The matrix \\( A \\) itself</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2044/gate-cse-2014-set-3-question-10\" target=\"_blank\">https://gateoverflow.in/2044/gate-cse-2014-set-3-question-10</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"8263\"></a><div itemprop=\"text\"><p>Consider the following C function.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int fun1 (int n) { \n     int i, j, k, p, q = 0; \n     for (i = 1; i &lt; n; ++i) \n     {\n        p = 0; \n       for (j = n; j &gt; 1; j = j/2) \n           ++p;  \n       for (k = 1; k &lt; p; k = k * 2) \n           ++q;\n     } \n     return q;\n}</pre>\n\n<p>Which one of the following most closely approximates the return value of the function \\( \\text{fun1} \\)?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n^3 \\)</p>",
+            "<p>\\( n(\\log n)^2 \\)</p>",
+            "<p>\\( n \\log n \\)</p>",
+            "<p>\\( n \\log(\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n \\log(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8263/gate-cse-2015-set-1-question-31\" target=\"_blank\">https://gateoverflow.in/8263/gate-cse-2015-set-1-question-31</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"8060\"></a><div itemprop=\"text\"><p>Consider the following C function.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int fun(int n) {\n    int x=1, k;\n    if (n==1) return x;\n    for (k=1; k&lt;n; ++k)\n        x = x + fun(k) * fun (n-k);\n    return x;\n}</pre>\n\n<p>The return value of \\( fun(5) \\) is ______.</p></div><br><br><b>GATE CSE 2015 Set 2 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "51",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8060/gate-cse-2015-set-2-question-11\" target=\"_blank\">https://gateoverflow.in/8060/gate-cse-2015-set-2-question-11</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"8558\"></a><div itemprop=\"text\"><p>Suppose \\( c = \\langle c[0], \\dots, c[k-1]\\rangle \\) is an array of length \\( k \\),&nbsp;where all the entries are from the set \\( \\{0, 1\\} \\). For any positive integers \\( a \\text{ and } n \\), consider the following pseudocode.</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">DOSOMETHING (c, a, n)\n\nz ← 1\nfor i ← 0 to k-1\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;do z ← z² mod n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if c[i]=1\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then z ← (z × a) mod n\nreturn z</pre><p>If \\( k=4, c = \\langle 1, 0, 1, 1 \\rangle , a = 2, \\text{ and } n=8 \\), then the output of DOSOMETHING(<em>c, a, n)</em>&nbsp;is _______.</p></div><br><br><b>GATE CSE 2015 Set 3 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8558/gate-cse-2015-set-3-question-49\" target=\"_blank\">https://gateoverflow.in/8558/gate-cse-2015-set-3-question-49</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"302822\"></a><div itemprop=\"text\"><p>Consider the following C function.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void convert (int n ) {\n        if (n&lt;0)\n            printf{“%d”, n);\n        else {\n            convert(n/2);\n            printf(“%d”, n%2);\n        }\n}</pre>\n\n<p>Which one of the following will happen when the function <em>convert </em>is called with any positive integer \\( n \\) as argument?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It will print the binary representation of \\( n \\) and terminate</p>",
+            "<p>It will print the binary representation of \\( n \\) in the reverse order and terminate</p>",
+            "<p>It will print the binary representation of \\( n \\) but will not terminate</p>",
+            "<p>It will not print anything and will not terminate</p>"
+          ],
+          "correct_answer": "<p>It will not print anything and will not terminate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302822/gate-cse-2019-question-26\" target=\"_blank\">https://gateoverflow.in/302822/gate-cse-2019-question-26</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"333183\"></a><div itemprop=\"text\"><p>Consider the following C functions.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:100%\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"height:191px; width:329px\">\n\t\t\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int tob (int b, int* arr) {\n    int i;\n    for (i = 0; b&gt;0; i++)&nbsp; {\n        if (b%2)&nbsp; arr [i] = 1;\n &nbsp; &nbsp; &nbsp; &nbsp;else&nbsp; &nbsp; &nbsp; arr[i] = 0;\n &nbsp; &nbsp; &nbsp; &nbsp;b = b/2;\n  &nbsp; }\n    return (i);\n}</pre>\n\n\t\t\t<p>&nbsp;</p>\n\n\t\t\t<p>&nbsp;</p>\n\t\t\t</td>\n\t\t\t<td style=\"height:191px; width:328px\">\n\t\t\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int pp(int a, int b)&nbsp; {\n    int&nbsp; arr[20];\n    int i, tot = 1, ex, len;\n&nbsp; &nbsp; ex = a;\n&nbsp; &nbsp; len = tob(b, arr);\n&nbsp; &nbsp; for (i=0; i&lt;len ; i++) {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if (arr[i] ==1)\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tot = tot * ex;\n &nbsp; &nbsp; &nbsp; &nbsp; ex= ex*ex;\n&nbsp; &nbsp; }\nreturn (tot) ;\n}\n</pre>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The value returned by \\( pp(3,4) \\) is _______.</p></div><br><br><b>GATE CSE 2020 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "81",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333183/gate-cse-2020-question-48\" target=\"_blank\">https://gateoverflow.in/333183/gate-cse-2020-question-48</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"357403\"></a><div itemprop=\"text\"><p>Consider the following \\( \\text{ANSI C} \\) function:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int SimpleFunction(int Y[], int n, int x)\n{\n    int total = Y[0], loopIndex;\n    for (loopIndex=1; loopIndex&lt;=n-1; loopIndex++)\n        total=x*total +Y[loopIndex];\n    return total;\n}</pre>\n\n<p>Let \\( \\textsf{Z} \\) be an array of \\( 10 \\) elements with \\( \\textsf{Z}[i]=1 \\), for all \\( i \\) such that \\( 0 \\leq i \\leq 9 \\). The value returned by \\( \\textsf{SimpleFunction(Z},10,2) \\) is __________</p></div><br><br><b>GATE CSE 2021 Set 1 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1023:1023",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357403/gate-cse-2021-set-1-question-48\" target=\"_blank\">https://gateoverflow.in/357403/gate-cse-2021-set-1-question-48</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"357517\"></a><div itemprop=\"text\"><p>Consider the following \\( \\text{ANSI C} \\) function:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int SomeFunction (int x, int y)\n{\n    if ((x==1) || (y==1)) return 1;\n    if (x==y) return x;\n    if (x &gt; y) return SomeFunction(x-y, y);\n    if (y &gt; x) return SomeFunction (x, y-x);\n\n}</pre>\n\n<p>The value returned by \\( \\textrm{SomeFunction(15, 255)} \\) is __________</p></div><br><br><b>GATE CSE 2021 Set 2 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15:15",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357517/gate-cse-2021-set-2-question-23\" target=\"_blank\">https://gateoverflow.in/357517/gate-cse-2021-set-2-question-23</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"3814\"></a><div itemprop=\"text\"><p>The following\\(  C \\) function takes two ASCII strings and determines whether one is an anagram of the other. An anagram of a string s is a string obtained by permuting the letters in s.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int anagram (char *a, char *b) {\n    int count [128], j;\n    for (j = 0;  j &lt; 128; j++) count[j] = 0;\n    j = 0;\n    while (a[j] &amp;&amp; b[j]) {\n        A;\n        B;\n    }\n    for (j = 0; j &lt; 128; j++) if (count [j]) return 0;\n    return 1;\n}\n</pre>\n\n<p>Choose the correct alternative for statements \\( A \\) and \\( B \\).</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A: count [a[j]]++ and&nbsp;B: count[b[j]]--</p>",
+            "<p>A: count [a[j]]++ and&nbsp;B: count[b[j]]++</p>",
+            "<p>A: count [a[j++]]++ and B: count[b[j]]--</p>",
+            "<p>A: count [a[j]]++ and B: count[b[j++]]--</p>"
+          ],
+          "correct_answer": "<p>A: count [a[j]]++ and B: count[b[j++]]--</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3814/gate-it-2005-question-53\" target=\"_blank\">https://gateoverflow.in/3814/gate-it-2005-question-53</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"3818\"></a><div itemprop=\"text\"><p>What is the output printed by the following program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include &lt;stdio.h&gt;\n\nint f(int n, int k) {\n    if (n == 0) return 0;\n    else if (n % 2) return f(n/2, 2*k) + k;\n    else return f(n/2, 2*k) - k;\n}\n\nint main () {\n    printf(\"%d\", f(20, 1));\n    return 0;\n}\n</pre>\n\n</div><br><br><b>GATE IT 2005 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3818/gate-it-2005-question-57\" target=\"_blank\">https://gateoverflow.in/3818/gate-it-2005-question-57</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"3595\"></a><div itemprop=\"text\"><p>The following function computes the value of &nbsp;\\( \\binom{m}{n} \\)&nbsp;correctly for all legal values \\( m \\) and \\( n \\) (\\( m ≥1, n ≥ 0 \\) and \\( m &gt; n \\))</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int func(int m, int n)\n{\n    if (E) return 1;\n    else return(func(m -1, n) + func(m - 1, n - 1));\n}</pre>\n\n<p><br>\nIn the above function, which of the following is the correct expression for E?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (n = = 0) || (m = = 1) \\)</p>",
+            "<p>\\( (n = = 0) \\)&nbsp;&amp;&amp;&nbsp;\\( (m = = 1) \\)</p>",
+            "<p>\\( (n = = 0) || (m = = n) \\)</p>",
+            "<p>\\( (n = = 0) \\) &amp;&amp; \\( (m = = n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (n = = 0) || (m = = n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3595/gate-it-2006-question-52\" target=\"_blank\">https://gateoverflow.in/3595/gate-it-2006-question-52</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"3406\"></a><div itemprop=\"text\"><p>Consider the code fragment written in C below :</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void f (int n)\n{ \n  if (n &lt;=1)  {\n   printf (\"%d\", n);\n  }\n  else {\n   f (n/2);\n   printf (\"%d\", n%2);\n  }\n}</pre>\n\n<p>What does f(173) print?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 010110101 \\)</p>",
+            "<p>\\( 010101101 \\)</p>",
+            "<p>\\( 10110101 \\)</p>",
+            "<p>\\( 10101101 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10101101 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3406/gate-it-2008-question-82\" target=\"_blank\">https://gateoverflow.in/3406/gate-it-2008-question-82</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"3407\"></a><div itemprop=\"text\"><p>Consider the code fragment written in C below :<br>\n&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void f (int n)\n{ \n    if (n &lt;= 1)  {\n        printf (\"%d\", n);\n    }\n    else {\n        f (n/2);\n        printf (\"%d\", n%2);\n    }\n}</pre>\n\n<p>Which of the following implementations will produce the same output for \\( f(173) \\) as the above code?</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:90%\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">P1</th>\n\t\t\t<th scope=\"col\">P2</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<pre class=\"prettyprint lang-c_cpp\">void f (int n)\n{ \n    if (n/2)  {\n        f(n/2);\n    }\n    printf (\"%d\", n%2);\n}</pre>\n\t\t\t</td>\n\t\t\t<td>\n\t\t\t<pre class=\"prettyprint lang-c_cpp\">void f (int n)\n{ \n    if (n &lt;=1)  {\n        printf (\"%d\", n);\n    }\n    else {\n        printf (\"%d\", n%2);\n        f (n/2);\n    }\n}</pre>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n</div><br><br><b>GATE IT 2008 | Question: 83</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( P1 \\) and \\( P2 \\)</p>",
+            "<p>\\( P2 \\) only</p>",
+            "<p>\\( P1 \\) only</p>",
+            "<p>Neither \\( P1 \\) nor \\( P2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P1 \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3407/gate-it-2008-question-83\" target=\"_blank\">https://gateoverflow.in/3407/gate-it-2008-question-83</a></p>"
+        }
+      ]
+    }
+  ]
+});

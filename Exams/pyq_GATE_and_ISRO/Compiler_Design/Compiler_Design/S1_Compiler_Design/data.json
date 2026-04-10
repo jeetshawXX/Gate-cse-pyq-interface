@@ -1,0 +1,232 @@
+{
+  "title": "Compiler_Design - Compiler_Design - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Given the following syntax-directed translation rules:\n<br><br>\n\\( \\text{Rule 1: } R \\rightarrow AB \\{ B.i = R.i - 1; A.i = B.i; R.i = A.i + 1; \\} \\)<br>\n\\( \\text{Rule 2: } P \\rightarrow CD \\{ P.i = C.i + D.i; D.i = C.i + 2; \\} \\)<br>\n\\( \\text{Rule 3: } Q \\rightarrow EF \\{ Q.i = E.i + F.i; \\} \\)\n<br><br>\nWhich ONE is the CORRECT option among the following? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Rule 1 is S-attributed and L-attributed;  Rule 2 is S-attributed and not L-attributed;  Rule 3 is neither S-attributed nor L-attributed.</p>",
+            "<b>B.</b> <p>Rule 1 is neither S-attributed nor L-attributed;  Rule 2 is S-attributed and L-attributed;  Rule 3 is S-attributed and L-attributed.</p>",
+            "<b>C.</b> <p>Rule 1 is neither S-attributed nor L-attributed;  Rule 2 is not S-attributed and is L-attributed;  Rule 3 is S-attributed and L-attributed.</p>",
+            "<b>D.</b> <p>Rule 1 is S-attributed and not L-attributed;  Rule 2 is not S-attributed and is L-attributed;  Rule 3 is S-attributed and L-attributed.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Rule 1 is neither S-attributed nor L-attributed;  Rule 2 is not S-attributed and is L-attributed;  Rule 3 is S-attributed and L-attributed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460823/gate-cse-2025-set-2-question-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following statements about the use of backpatching in a compiler for intermediate code generation:\n<br><br>\n(I) Backpatching can be used to generate code for Boolean expression in one pass.\n<br>\n(II) Backpatching can be used to generate code for flow-of-control statements in one pass.\n<br><br>\nWhich ONE of the following options is CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (I) is correct.</p>",
+            "<b>B.</b> <p>Only (II) is correct.</p>",
+            "<b>C.</b> <p>Both (I) and (II) are correct.</p>",
+            "<b>D.</b> <p>Neither (I) nor (II) is correct.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (I) and (II) are correct.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460824/gate-cse-2025-set-2-question-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Refer to the given 3-address code sequence. This code sequence is split into basic blocks. The number of basic blocks is _________. (Answer in integer)\n<br><br>\n1001: i = 1<br>\n1002: j = 1<br>\n1003: t1 = 10*i<br>\n1004: t2 = t1+j<br>\n1005: t3 = 8*t2<br>\n1006: t4 = t3-88<br>\n1007: a[t4] = 0.0<br>\n1008: j = j+1<br>\n1009: if j &lt;= 10 goto 1003<br>\n1010: i = i+1<br>\n1011: if i &lt;= 10 goto 1002<br>\n1012: i = 1<br>\n1013: t5 = i-1<br>\n1014: t6 = 88*t5<br>\n1015: a[t6] = 1.0<br>\n1016: i = i+1<br>\n1017: if i &lt;= 10 goto 1013<br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460038/gate-cse-2025-set-1-question-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statement(s) is/are TRUE while computing \\(First\\) and \\(Follow\\) during top-down parsing by a compiler? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>For a production \\(A \\to \\epsilon ,  \\epsilon \\) will be added to \\(First(A) \\).</p>",
+            "<b>B.</b> <p>If there is any input right end marker, it will be added to\\( First(S) \\), where \\( S \\) is the start symbol.</p>",
+            "<b>C.</b> <p>For a production \\( A \\to \\epsilon,  \\epsilon \\) will be added to \\( Follow(A) \\).</p>",
+            "<b>D.</b> <p>If there is any input right end marker, it will be added to \\( Follow(S) \\), where \\( S \\) is the start symbol.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>For a production \\(A \\to \\epsilon ,  \\epsilon \\) will be added to \\(First(A) \\).</p>",
+            "<b>D.</b> <p>If there is any input right end marker, it will be added to \\( Follow(S) \\), where \\( S \\) is the start symbol.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460044/gate-cse-2025-set-1-question-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which ONE of the following techniques used in compiler code optimization uses live variable analysis? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Run-time function call management</p>",
+            "<b>B.</b> <p>Register assignment to variables</p>",
+            "<b>C.</b> <p>Strength reduction</p>",
+            "<b>D.</b> <p>Constant folding</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Register assignment to variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460077/gate-cse-2025-set-1-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which ONE of the following statements is FALSE regarding the symbol table? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Symbol table is responsible for keeping track of the scope of variables.</p>",
+            "<b>B.</b> <p>Symbol table can be implemented using a binary search tree.</p>",
+            "<b>C.</b> <p>Symbol table is not required after the parsing phase.</p>",
+            "<b>D.</b> <p>Symbol table is created during the lexical analysis phase.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Symbol table is not required after the parsing phase.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460079/gate-cse-2025-set-1-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following expression: \\( x[i]=(p+r) *-s[i]+u / w \\). The following sequence shows the list of triples representing the given expression, with entries missing for triples (1), (3), and (6).<br>\\(\n\\begin{array}{|c|c|c|c|}\n\\hline  (0)   &amp; + &amp;   p   &amp;   r   \\\\\n\\hline  (1)   &amp; &amp; &amp; \\\\\n\\hline  (2)   &amp; uminus &amp;   (1)   &amp; \\\\\n\\hline  (3)   &amp; &amp; &amp; \\\\\n\\hline  (4)   &amp;   /   &amp;   u   &amp;   w   \\\\\n\\hline  (5)   &amp; + &amp;   (3)   &amp;   (4)   \\\\\n\\hline  (6)   &amp; &amp; &amp; \\\\\n\\hline  (7)   &amp;   =   &amp;   (6)   &amp;   (5)   \\\\\n\\hline\n\\end{array}\\)\n<br>\nWhich one of the following options fills in the missing entries CORRECTLY? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1) \\(=[]  s  i \\) ,        (3) * (0) (2) ,        (6) \\([] =x i \\)</p>",
+            "<b>B.</b> <p>(1) \\([] =s i \\) ,        (3) - (0) (2) ,        (6) \\( =[] x (5) \\)</p>",
+            "<b>C.</b> <p>(1) \\( =[] s i \\) ,        (3) * (0) (2) ,        (6) \\([] =x (5) \\)</p>",
+            "<b>D.</b> <p>(1) \\( []=s i \\) ,        (3)-(0)(2) ,        (6) \\( =[] x i \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(1) \\(=[]  s  i \\) ,        (3) * (0) (2) ,        (6) \\([] =x i \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422864/gate-cse-2024-set-2-question-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following statements is/are FALSE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects</p>",
+            "<b>B.</b> <p>The attributes in a L-attributed definition cannot always be evaluated in a depth- first order</p>",
+            "<b>C.</b> <p>Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed</p>",
+            "<b>D.</b> <p>All  L-attributed  definitions  based  on  LR(1)  grammar  can  be  evaluated  using  a bottom-up parsing strategy</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The attributes in a L-attributed definition cannot always be evaluated in a depth- first order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422878/gate-cse-2024-set-2-question-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following two sets:<br>\n\\(\\begin{array}{ll}\n\\textbf{Set X}  &amp;      \\textbf{Set Y} \\\\\n\\text{P. Lexical Analyzer} &amp; \\text{1. Abstract Syntax Tree} \\\\\n\\text{Q. Syntax Analyzer} &amp; \\text{2. Token}\\\\\n\\text{R. Intermediate Code Generator } &amp; \\text{3. Parse Tree} \\\\\n\\text{S. Code Optimizer} &amp; \\text{4. Constant Folding }\n\\end{array}\\)\n<br>   Which one of the following options is the CORRECT match from Set X to Set Y ? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-4; Q-1; R-3; S-2</p>",
+            "<b>B.</b> <p>P-2; Q-3; R-1; S-4</p>",
+            "<b>C.</b> <p>P-2; Q-1; R-3; S-4</p>",
+            "<b>D.</b> <p>P-4; Q-3; R-2; S-1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P-2; Q-3; R-1; S-4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422886/gate-cse-2024-set-2-question-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following pseudo-code.<br>\\(\n\\begin{array}{ll}\nL 1: &amp; t 1=-1 \\\\\nL 2: &amp; t 2=0 \\\\\nL 3: &amp; t 3=0 \\\\\nL 4: &amp; t 4=4 * t 3 \\\\\nL 5: &amp; t 5=4 * t 2 \\\\\nL 6: &amp; t 6=t 5 * M \\\\\nL 7: &amp; t 7=t 4+t 6 \\\\\nL 8: &amp; t 8=a[t 7] \\\\\nL 9: &amp; if \\; t 8 \\lt = max  \\; goto  \\; L 11 \\\\\nL 10: &amp; t 1=t 8 \\\\\nL 11: &amp; t 3=t 3+1 \\\\\nL 12: &amp; if  \\; t 3 \\lt M  \\;  goto L 4 \\\\\nL 13: &amp; t 2=t 2+1 \\\\\nL 14: &amp; if  \\; t 2 \\lt N  \\; goto  \\; L 3 \\\\\nL 15: &amp; max =t 1\n\\end{array}\n\\)<br>\nWhich of of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 6</p>",
+            "<b>B.</b> <p>6 and 7</p>",
+            "<b>C.</b> <p>7 and 7</p>",
+            "<b>D.</b> <p>7 and 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>7 and 6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422813/gate-cse-2024-set-1-question-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following grammar \\(G \\), with \\(S \\) as the start symbol. The grammar \\(G \\) has three incomplete productions denoted by (1), (2), and (3).<br><br>\n\\(\n\\begin{aligned}\n&amp; S \\rightarrow d a T \\mid \\quad(1) \\\\\n&amp; T \\rightarrow a S|b T|(2) \\\\\n&amp; R \\rightarrow \\text { (3) } \\mid \\epsilon\n\\end{aligned}\n\\)\n<br><br>\nThe set of terminals is \\(\\{a, b, c, d, f\\} \\). The FIRST and FOLLOW sets of the different non-terminals are as follows.<br><br>\n\\(\n\\begin{aligned}\n&amp; \\operatorname{FIRST}(S)=\\{c, d, f\\}, \\operatorname{FIRST}(T)=\\{a, b, \\epsilon\\}, \\operatorname{FIRST}(R)=\\{c, \\epsilon\\} \\\\\n&amp; \\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c, f, \\$\\}, \\operatorname{FOLLOW}(R)=\\{f\\}\n\\end{aligned}\n\\)\n<br><br>\nWhich one of the following options CORRECTLY fills in the incomplete productions? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1) \\(S \\rightarrow R f \\)\n(2) \\(T \\rightarrow \\epsilon \\)\n(3) \\(R \\rightarrow c T R \\)</p>",
+            "<b>B.</b> <p>(1) \\(S \\rightarrow f R \\)\n(2) \\(T \\rightarrow \\epsilon \\)\n(3) \\(R \\rightarrow c T R \\)</p>",
+            "<b>C.</b> <p>(1) \\(S \\rightarrow f R \\)\n(2) \\(T \\rightarrow c T \\)\n(3) \\(R \\rightarrow c R \\)</p>",
+            "<b>D.</b> <p>(1) \\(S \\rightarrow R f \\)\n(2) \\(T \\rightarrow c T \\)\n(3) \\(R \\rightarrow c R \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(1) \\(S \\rightarrow R f \\)\n(2) \\(T \\rightarrow \\epsilon \\)\n(3) \\(R \\rightarrow c T R \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422814/gate-cse-2024-set-1-question-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following syntax-directed definition (SDD).<br><br>\\(\n\\begin{array}{|l|l|}\n\\hline S \\rightarrow  DHTU &amp; \\{ S.val = D.val + H.val + T.val + U.val; \\} \\\\\n\\hline D \\rightarrow \"M\"D_1 &amp;  \\{ D.val =5+D_1 . val; \\} \\\\\n\\hline D \\rightarrow \\epsilon  &amp; \\{ D.val =-5 ;\\} \\\\\n\\hline H \\rightarrow \"L\" H_1 &amp; \\{ H.val =5 * 10+H_1 . val; \\} \\\\\n\\hline H \\rightarrow \\epsilon  &amp;  \\{ H.val =-10 ;\\} \\\\\n\\hline T \\rightarrow  \"C\"  T_1  &amp;  \\{T . v a l=5 * 100+T_1 . val; \\} \\\\\n\\hline T \\rightarrow \\epsilon  &amp;  \\{T . v a l=-5 ;\\}  \\\\\n\\hline U \\rightarrow  \"K\" &amp;  \\{  U.val =5 ;\\}  \\\\\n\\hline\n\\end{array}\n\\)<br><br>\nGiven \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute S.val)? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>45</p>",
+            "<b>B.</b> <p>50</p>",
+            "<b>C.</b> <p>55</p>",
+            "<b>D.</b> <p>65</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>45</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422815/gate-cse-2024-set-1-question-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following is/are Bottom-Up Parser(s)? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Shift-reduce Parser</p>",
+            "<b>B.</b> <p>Predictive Parser</p>",
+            "<b>C.</b> <p>LL(1) Parser</p>",
+            "<b>D.</b> <p>LR Parser</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Shift-reduce Parser</p>",
+            "<b>D.</b> <p>LR Parser</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422826/gate-cse-2024-set-1-question-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the syntax directed translation given by the following grammar and semantic rules. Here \\(N, I, F \\; and \\; B\\) are non-terminals. \\(N\\) is the starting non-terminal,\nand \\(\\#,0 \\; and \\; 1\\) are lexical tokens corresponding to input letters \\(\"\\#\",\"0\" \\; and \\; \"1\"\\),\nrespectively. \\(X.val\\) denotes the synthesized attribute (a numeric value) associated\nwith a non-terminal \\(X\\). \\(I_1\\) and \\(F_1\\) denote occurrences of \\(I\\) and \\(F\\) on the right hand\nside of a production, respectively. For the tokens \\(0\\) and \\(1\\), \\(0.val=0\\) and \\(1.val=1\\).<br><br>The value computed by the translation scheme for the input string<br>\\(\\begin{aligned}\nN &amp; \\rightarrow I \\# F &amp; N.val=I.val+F.val \\\\\nI &amp;\\rightarrow I_1B &amp; I.val = (2 I1.val) + B.val\\\\\nI &amp;\\rightarrow B&amp;I.val = B.val\\\\\nF &amp;\\rightarrow BF_1&amp; F.val = \\frac{1}{2}(B.val + F1.val)\\\\\nF &amp;\\rightarrow B&amp;  F.val = \\frac{1}{2} B.val\\\\\nB&amp;\\rightarrow 0&amp; B.val = 0.val\\\\\nB &amp;\\rightarrow 1&amp;B.val = 1.val\n\\end{aligned} \\)  <br>\\(10\\# 011\\)<br><br>is ____ (Rounded off to three decimal places) <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.374",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399261/gate-cse-2023-question-50#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the control flow graph shown. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q27_d6e3a8a0.jpg\"><br>\nWhich one of the following choices correctly lists the set of live variables at the exit\npoint of each basic block? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B1: {}, B2: {a}, B3: {a}, B4: {a}</p>",
+            "<b>B.</b> <p>B1: {i, j}, B2: {a}, B3: {a}, B4: {i}</p>",
+            "<b>C.</b> <p>B1: {a, i, j}, B2: {a, i, j}, B3: {a, i}, B4: {a}</p>",
+            "<b>D.</b> <p>B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399284/gate-cse-2023-question-27#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

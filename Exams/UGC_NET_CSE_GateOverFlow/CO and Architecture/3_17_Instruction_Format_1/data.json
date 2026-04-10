@@ -1,0 +1,26 @@
+{
+  "title": "CO and Architecture - Instruction Format",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Instruction Format",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60731\"></a><div itemprop=\"text\"><p>Which of the following is a design criteria for instruction formats?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2013 | Part 3 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The size of instructions</p>",
+            "<p>The number of bits in the address fields</p>",
+            "<p>The sufficient space in the instruction format to express all the operands desired</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60731/ugc-net-cse-december-2013-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/60731/ugc-net-cse-december-2013-part-3-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+}

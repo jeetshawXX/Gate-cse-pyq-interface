@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Puzzle",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Puzzle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"410851\"></a><div itemprop=\"text\"><p>Directions: In questions <strong>(43-46)</strong>, rearrange the following five sentences \\( \\mathrm{P}, \\mathrm{Q}, \\mathrm{R}, \\mathrm{S} \\) and \\( \\mathrm{T} \\) in the proper sequence to form a meaningful paragraph; then answer the questions given below them.<br>\n<br>\n\\( \\mathrm{P} \\).&nbsp;With the death of Queen Anne in August \\( 1714 \\) and the accession of George I, the Tories were a ruined party, and Swift's career in England was at an end.<br>\n<br>\n\\( \\mathrm{Q} \\).&nbsp;A Tory ministry headed by Robert Harley (later earl of Oxford) and Henry St. John (later Viscount Bolingbroke) was replacing that of the Whigs.</p>\n\n<p>\\( \\mathrm{R} \\). The astute Harley made overtures to Swift and won him over to the Tories.</p>\n\n<p>\\( \\mathrm{S} \\).&nbsp;Swift quickly became the Tories' chief pamphleteer and political writer and, by the end of October \\( 1710 \\), had taken over the Tory journal, The Examiner, which he continued to edit until June \\( 14, 1711 \\).</p>\n\n<p>\\( \\mathrm{T} \\). A momentous period began for Swift when in \\( 1710 \\) he once again found himself in London.</p>\n\n<p>Which of the following should come second in the sequence?</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist D | Section B | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{S} \\)</p>",
+            "<p>\\( \\mathrm{T} \\)</p>",
+            "<p>\\( \\mathrm{P} \\)</p>",
+            "<p>\\( \\mathrm{Q} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{Q} \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410851/nielit-2023-feb-scientist-d-section-b-question-46\" target=\"_blank\">https://gateoverflow.in/410851/nielit-2023-feb-scientist-d-section-b-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

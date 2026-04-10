@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Amdahls Law",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Amdahls Law",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"418291\"></a><div itemprop=\"text\"><p>Amdahl's law states that the maximum speedup \\( \\text{S} \\) achievable by a parallel computer with ' \\( \\mathrm{p} \\) ' processors is given by :</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2008 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\mathrm{S} \\leq \\mathrm{f}+(1-\\mathrm{f}) / \\mathrm{p} \\)</p>",
+            "<p>\\( \\mathrm{S} \\leq \\mathrm{f} / \\mathrm{p}+(1-\\mathrm{f}) \\)</p>",
+            "<p>\\( \\mathrm{S} \\leq 1 /[\\mathrm{f}+(1-\\mathrm{f}) / \\mathrm{p}] \\)</p>",
+            "<p>\\( \\mathrm{S} \\leq 1 /[1-\\mathrm{f}+\\mathrm{f} / \\mathrm{p}] \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/418291/ugc-net-cse-june-2008-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/418291/ugc-net-cse-june-2008-part-2-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

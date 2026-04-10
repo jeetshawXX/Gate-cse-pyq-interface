@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Register",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Register",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366906\"></a><div itemprop=\"text\"><p>If the value of Register \\( \\text{A = 9B h} \\; \\&amp; \\; \\text{Carry} = 1. \\) What will be the value of Register \\( \\text{A} \\) after executing the \\( \\text{RORC} \\) instruction \\( 1 \\) time \\( ? \\)</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{AB h} \\)</p>",
+            "<p>\\( \\text{CD h} \\)</p>",
+            "<p>\\( \\text{EF h} \\)</p>",
+            "<p>\\( \\text{AC h} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{CD h} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366906/nielit-2021-dec-scientist-b-section-b-111\" target=\"_blank\">https://gateoverflow.in/366906/nielit-2021-dec-scientist-b-section-b-111</a></p>"
+        }
+      ]
+    }
+  ]
+});

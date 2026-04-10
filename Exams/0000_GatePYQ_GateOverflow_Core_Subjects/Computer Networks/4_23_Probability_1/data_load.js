@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Probability",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Probability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460034\"></a><div itemprop=\"text\">Suppose a \\( 5 \\)-bit message is transmitted from a source to a destination through a noisy channel. The probability that a bit of the message gets flipped during transmission is \\( 0.01 \\). Flipping of each bit is independent of one another. The probability that the message is delivered error-free to the destination is ___________ (rounded off to three decimal places)</div><br><br><b>GATE CSE 2025 | Set 1 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.949:0.952",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460034/gate-cse-2025-set-1-question-46\" target=\"_blank\">https://gateoverflow.in/460034/gate-cse-2025-set-1-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

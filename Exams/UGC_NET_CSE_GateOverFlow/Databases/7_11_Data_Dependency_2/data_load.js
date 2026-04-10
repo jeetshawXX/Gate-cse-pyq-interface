@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Databases - Data Dependency",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Data Dependency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335653\"></a><div itemprop=\"text\"><p>Which statement is false regarding data independence ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2006 | Part 2 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Hierarchical data model suffers from data independence</p>",
+            "<p>Network model suffers from data independence</p>",
+            "<p>Relational model suffers only from logical data independence</p>",
+            "<p>Relational model suffers only from physical data independence</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335653/ugc-net-cse-december-2006-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/335653/ugc-net-cse-december-2006-part-2-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"349659\"></a><div itemprop=\"text\"><p>Consider a relational schema \\( S=(U,V,W,X,Y,Z) \\) on which the following functional dependencies hold:</p>\n\n<p>\\( (U \\rightarrow V, VW \\rightarrow X, Y \\rightarrow&nbsp;W, X \\rightarrow U) \\)</p>\n\n<p>Which are the candidate keys among following options?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( UY, VY \\)</p>",
+            "<p>\\( UY, VY, XY \\)</p>",
+            "<p>\\( UYZ, VYZ, VWZ \\)</p>",
+            "<p>\\( UYZ, VYZ, XYZ \\)</p>"
+          ],
+          "correct_answer": "<p>\\( UYZ, VYZ, XYZ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349659/ugc-net-cse-october-2020-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/349659/ugc-net-cse-october-2020-part-2-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

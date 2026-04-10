@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Tree",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"418336\"></a><div itemprop=\"text\"><p>Which of the following does not define a tree?</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2008 | Part 2 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A tree is a connected acyclic graph.</p>",
+            "<p>A tree is a connected graph with \\( n-1 \\) edges where ' \\( n \\) ' is the number of vertices in the graph.</p>",
+            "<p>A tree is an acyclic graph with \\( n-1 \\) edges where ' \\( n \\) ' is the number of vertices in the graph.</p>",
+            "<p>A tree is a graph with no cycles.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/418336/ugc-net-cse-june-2008-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/418336/ugc-net-cse-june-2008-part-2-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"64573\"></a><div itemprop=\"text\"><p>The number of different trees with \\( 8 \\) nodes is</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | June 2011 | Part 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>256</p>",
+            "<p>255</p>",
+            "<p>248</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64573/ugc-net-cse-june-2011-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/64573/ugc-net-cse-june-2011-part-2-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

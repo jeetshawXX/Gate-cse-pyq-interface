@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Network topologies",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Network topologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128644\"></a><div itemprop=\"text\"><p>Physical topology of FDDI is?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bus</p>",
+            "<p>Ring</p>",
+            "<p>Star</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Ring</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128644/isro-cse-2017-question-27\" target=\"_blank\">https://gateoverflow.in/128644/isro-cse-2017-question-27</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128657\"></a><div itemprop=\"text\"><p>If there are \\( n \\) devices (nodes) in a network, what is the number of cable links required for a fully connected mesh and a star topology respectively</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n(n-1)/2 \\), \\( n-1 \\)</p>",
+            "<p>\\( n \\), \\( n-1 \\)</p>",
+            "<p>\\( n-1 \\), \\( n \\)</p>",
+            "<p>\\( n-1 \\), &nbsp;\\( n(n -1)/ 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n(n-1)/2 \\), \\( n-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128657/isro-cse-2017-question-30\" target=\"_blank\">https://gateoverflow.in/128657/isro-cse-2017-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

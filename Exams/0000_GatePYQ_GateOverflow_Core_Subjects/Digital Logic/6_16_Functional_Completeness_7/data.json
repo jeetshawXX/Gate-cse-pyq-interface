@@ -1,0 +1,107 @@
+{
+  "title": "Digital Logic - Functional Completeness",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Functional Completeness",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"87883\"></a><div itemprop=\"text\">Show that {NOR} is a functionally complete set of Boolean operations.</div><br><br><b>GATE CSE 1989 | Question: 4-iii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/87883/gate-cse-1989-question-4-iii\" target=\"_blank\">https://gateoverflow.in/87883/gate-cse-1989-question-4-iii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"556\"></a><div itemprop=\"text\"><p>All digital circuits can be realized using only</p>\n\n</div><br><br><b>GATE CSE 1992 | Question: 02-ii</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Ex-OR gates</p>",
+            "<p>Multiplexers</p>",
+            "<p>Half adders</p>",
+            "<p>OR gates</p>"
+          ],
+          "correct_answer": [
+            "<p>Multiplexers</p>",
+            "<p>Half adders</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/556/gate-cse-1992-question-02-ii\" target=\"_blank\">https://gateoverflow.in/556/gate-cse-1992-question-02-ii</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2306\"></a><div itemprop=\"text\">Assume that only half adders are available in your laboratory. Show that any binary function can be implemented using half adders only.</div><br><br><b>GATE CSE 1993 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2306/gate-cse-1993-question-9\" target=\"_blank\">https://gateoverflow.in/2306/gate-cse-1993-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1696\"></a><div itemprop=\"text\"><p>The implication gate, shown below has two inputs (\\( x \\text{ and }y) \\); the output is 1 except when \\( x =1 \\text{ and } y=0\\text{, realize }f=\\bar{x}y+x\\bar{y} \\) using only four implication gates.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___functional_completeness/003a87ab320f0b103c8bf53488113246.png\"></p>\n\n<p>Show that the implication gate is functionally complete.</p></div><br><br><b>GATE CSE 1998 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1696/gate-cse-1998-question-5\" target=\"_blank\">https://gateoverflow.in/1696/gate-cse-1998-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1487\"></a><div itemprop=\"text\"><p>Which of the following sets of component(s) is/are sufficient to implement any arbitrary Boolean function?</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 2.9</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>XOR gates, NOT gates</p>",
+            "<p>\\( 2 \\) to \\( 1 \\) multiplexers</p>",
+            "<p>AND gates, XOR gates</p>",
+            "<p>Three-input gates that output \\( (A.B) + C \\) for the inputs \\( A, B \\) and \\( C \\).</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( 2 \\) to \\( 1 \\) multiplexers</p>",
+            "<p>AND gates, XOR gates</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1487/gate-cse-1999-question-2-9\" target=\"_blank\">https://gateoverflow.in/1487/gate-cse-1999-question-2-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"8294\"></a><div itemprop=\"text\"><p>Consider the operations</p><p>\\( \\textit{f (X, Y, Z) = X'YZ + XY' + Y'Z'} \\) and \\( \\textit{g (X, Y, Z) = X'YZ + X'YZ' + XY} \\)</p><p>Which one of the following is correct?</p></div><br><br><b>GATE CSE 2015 Set 1 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\left\\{\\textit{f} \\right\\} \\) and &nbsp;\\( \\left\\{ \\textit{g}\\right\\} \\) are functionally complete</p>",
+            "<p>Only &nbsp;\\( \\left\\{ \\textit{f} \\right\\} \\) &nbsp;is functionally complete</p>",
+            "<p>Only &nbsp;\\( \\left\\{ \\textit{g}\\right\\} \\) &nbsp;is functionally complete&nbsp;</p>",
+            "<p>Neither \\( \\left\\{ \\textit{f}\\right\\} \\) &nbsp;nor &nbsp;\\( \\left\\{\\textit{g}\\right\\} \\) is functionally complete</p>"
+          ],
+          "correct_answer": "<p>Only &nbsp;\\( \\left\\{ \\textit{f} \\right\\} \\) &nbsp;is functionally complete</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8294/gate-cse-2015-set-1-question-39\" target=\"_blank\">https://gateoverflow.in/8294/gate-cse-2015-set-1-question-39</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3222\"></a><div itemprop=\"text\"><p>A set of Boolean connectives is functionally complete if all Boolean functions can be synthesized using those. Which of the following sets of connectives is NOT functionally complete?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>EX-NOR</p>",
+            "<p>implication, negation</p>",
+            "<p>OR, negation</p>",
+            "<p>NAND</p>"
+          ],
+          "correct_answer": "<p>EX-NOR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3222/gate-it-2008-question-1\" target=\"_blank\">https://gateoverflow.in/3222/gate-it-2008-question-1</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Unknown Category - Sorting",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"288347\"></a><div itemprop=\"text\"><p>The second smallest of \\( n \\) elements can be found with ____ comparisons in the worst case.</p></div><br><br><b>Algorithms: UGC NET CSE | December 2018 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( \\lg \\: n \\)</p>",
+            "<p>\\( n + \\lceil \\lg \\: n\\rceil-2 \\)</p>",
+            "<p>\\( \\frac{3n}{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288347/ugc-net-cse-december-2018-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/288347/ugc-net-cse-december-2018-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - System of Equations",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "System of Equations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369260\"></a><div itemprop=\"text\"><p>If the numerator of a fraction is increased by \\( 2 \\) and the denominator is decreased by \\( 1, \\) then it becomes \\( 2/3. \\) If the numerator is increased by \\( 1 \\) and the denominator is increased by \\( 2, \\) then it becomes \\( 1/3. \\) Find the fraction.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2/9 \\)</p>",
+            "<p>\\( 2/7 \\)</p>",
+            "<p>\\( 1/6 \\)</p>",
+            "<p>\\( 1/5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2/7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369260/nielit-2021-dec-scientist-a-section-a-33\" target=\"_blank\">https://gateoverflow.in/369260/nielit-2021-dec-scientist-a-section-a-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366826\"></a><div itemprop=\"text\"><p>If \\( x=p, y=q \\) then which of following are \\( p \\) and \\( q \\) respectively for pair of equations \\( 3x-7y+10=0 \\) and \\( y-2x-3=0 : \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  – 1, 1 \\)</p>",
+            "<p>\\( 1, 1 \\)</p>",
+            "<p>\\( 1, 0 \\)</p>",
+            "<p>\\( 0, 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  – 1, 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366826/nielit-2021-dec-scientist-b-section-a-29\" target=\"_blank\">https://gateoverflow.in/366826/nielit-2021-dec-scientist-b-section-a-29</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373683\"></a><div itemprop=\"text\"><p>Four years ago a man was \\( 6 \\) times as old as his son. After \\( 16 \\) years he will be twice as old as his son. What is the present age of man and his son?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 34, 9 \\)</p>",
+            "<p>\\( 33, 7 \\)</p>",
+            "<p>\\( 35, 5 \\)</p>",
+            "<p>\\( 36, 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 34, 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373683/nielit-2022-april-scientist-b-section-a-question-35\" target=\"_blank\">https://gateoverflow.in/373683/nielit-2022-april-scientist-b-section-a-question-35</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"373677\"></a><div itemprop=\"text\"><p>Sum of present age of Suresh and Dinesh is equal to the age of Hema six years back. Five years from now, the ratio&nbsp;of age of Suresh and Dinesh will be \\( 3:2. \\) Rajesh is \\( 5 \\) years older than Hema and his present age is four times the present age of Suresh. What is present age of the&nbsp;Dinesh&nbsp;?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) year</p>",
+            "<p>\\( 10 \\) years</p>",
+            "<p>\\( 2 \\) years</p>",
+            "<p>\\( 12 \\) years&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) year</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373677/nielit-2022-april-scientist-b-section-a-question-41\" target=\"_blank\">https://gateoverflow.in/373677/nielit-2022-april-scientist-b-section-a-question-41</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411955\"></a><div itemprop=\"text\"><p>The cost of four mangoes, six guavas and sixteen watermelons is ₹\\( 500 \\), while the cost of seven mangoes, nine guavas and nineteen watermelons is ₹\\( 620 \\). What is the cost of one mango, one guava and one watermelon?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 150 \\)</p>",
+            "<p>Cannot be determined\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 40 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411955/nielit-2023-feb-scientist-c-section-c-question-80\" target=\"_blank\">https://gateoverflow.in/411955/nielit-2023-feb-scientist-c-section-c-question-80</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411983\"></a><div itemprop=\"text\"><p>A boat covers \\( 32 \\mathrm{~km} \\) upstream and \\( 36 \\mathrm{~km} \\) downstream in \\( 7 \\mathrm{hrs} \\). Also, it covers \\( 40 \\mathrm{~km} \\) upstream and \\( 48 \\mathrm{~km} \\) downstream in \\( 9 \\mathrm{hrs} \\). Find the speed of the stream.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 112</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\mathrm{~km} / \\mathrm{hr} \\)</p>",
+            "<p>\\( 3 \\mathrm{~km} / \\mathrm{hr} \\)</p>",
+            "<p>\\( 1 \\mathrm{~km} / \\mathrm{hr} \\)</p>",
+            "<p>\\( 5 \\mathrm{~km} / \\mathrm{hr} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\mathrm{~km} / \\mathrm{hr} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411983/nielit-2023-feb-scientist-c-section-d-question-112\" target=\"_blank\">https://gateoverflow.in/411983/nielit-2023-feb-scientist-c-section-d-question-112</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"412004\"></a><div itemprop=\"text\"><p>One fourth of a herd of camels was seen in forest. Twice the square root of the herd had gone to mountains and remaining \\( 15 \\) camels were seen on the bank of a river. Find the total number of camels.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 91</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 42 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 36 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412004/nielit-2023-feb-scientist-c-section-d-question-91\" target=\"_blank\">https://gateoverflow.in/412004/nielit-2023-feb-scientist-c-section-d-question-91</a></p>"
+        }
+      ]
+    }
+  ]
+});

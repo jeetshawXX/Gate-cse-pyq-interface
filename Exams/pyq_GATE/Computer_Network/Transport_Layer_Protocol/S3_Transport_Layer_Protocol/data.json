@@ -1,0 +1,206 @@
+{
+  "title": "Transport_Layer_Protocol - Transport_Layer_Protocol - Slot 3",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Transport_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In the slow start phase of the TCP congestion control algorithm, the size of the\ncongestion window <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not increase</p>",
+            "<b>B.</b> <p>increases linearly</p>",
+            "<b>C.</b> <p>increases quadratically</p>",
+            "<b>D.</b> <p>increases exponentially</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>increases exponentially</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/479/gate2008-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the maximum size of data that the application layer can pass on to the\nTCP layer below? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any size</p>",
+            "<b>B.</b> <p>\\(2^{16}\\) bytes-size of TCP header</p>",
+            "<b>C.</b> <p>\\(2^{16}\\) bytes</p>",
+            "<b>D.</b> <p>1500 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Any size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/412/gate2008-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a TCP connection in a state where there are no outstanding ACKs. The sender sends two segments back to back. The sequence numbers of the first and second segments are 230 and 290 respectively. The first segment was lost, but the second segment was received correctly by the receiver. Let X be the amount of data carried in the first segment (in bytes), and Y be the ACK number sent by the receiver.\nThe values of X and Y (in that order) are <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>60 and 290</p>",
+            "<b>B.</b> <p>230 and 291</p>",
+            "<b>C.</b> <p>60 and 231</p>",
+            "<b>D.</b> <p>60 and 230</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>60 and 230</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3447/gate2007-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following statements about the timeout value used in TCP. <br>\ni.The timeout value is set to the RTT (Round Trip Time) measured during TCP connection establishment for the entire duration of the connection.<br>\nii.Appropriate RTT estimation algorithm is used to set the timeout value of a TCP connection.<br>\niii.Timeout value is set to twice the propagation delay from the sender to the receiver.<br>\nWhich of the following choices hold? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) is false, but (ii) and (iii) are true</p>",
+            "<b>B.</b> <p>(i) and (iii) are false, but (ii) is true</p>",
+            "<b>C.</b> <p>(i) and (ii) are false, but (iii) is true</p>",
+            "<b>D.</b> <p>(i), (ii) and (iii) are false</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(i) and (iii) are false, but (ii) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3446/gate2007-it-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which one of the following uses UDP as the transport protocol? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP</p>",
+            "<b>B.</b> <p>Telnet</p>",
+            "<b>C.</b> <p>DNS</p>",
+            "<b>D.</b> <p>SMTP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1218/gate2007-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A program on machine X attempts to open a UDP connection to port 5376 on a machine Y, and a TCP connection to port 8632 on machine Z. However, there are no applications listening at the corresponding ports on Y and Z. An ICMP Port Unreachable error will be generated by <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Y but not Z</p>",
+            "<b>B.</b> <p>Z but not Y</p>",
+            "<b>C.</b> <p>Neither Y nor Z</p>",
+            "<b>D.</b> <p>Both Y and Z</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both Y and Z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3613/gate2006-it-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>On a TCP connection, current congestion window size is Congestion Window = 4 KB. The window size advertised by the receiver is Advertise Window = 6 KB. The last byte sent by the sender is LastByteSent = 10240 and the last byte acknowledged by the receiver is LastByteAcked = 8192. The current window size at the sender is: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2048 bytes</p>",
+            "<b>B.</b> <p>4096 bytes</p>",
+            "<b>C.</b> <p>6144 bytes</p>",
+            "<b>D.</b> <p>8192 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4096 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3836/gate2005-it-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Packets of the same session may be routed through different paths in: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP, but not UDP</p>",
+            "<b>B.</b> <p>TCP and UDP</p>",
+            "<b>C.</b> <p>UDP, but not TCP</p>",
+            "<b>D.</b> <p>Neither TCP nor UDP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP and UDP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1359/gate2005-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Suppose that the maximum transmit window size for a TCP connection is 12000 bytes. Each packet consists of 2000 bytes. At some point in time, the connection is in slow-start phase with a current transmit window of 4000 bytes. Subsequently, the transmitter receives two acknowledgments. Assume that no packets are lost and there are no time-outs. What is the maximum possible value of the current transmit window? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4000 bytes</p>",
+            "<b>B.</b> <p>8000 bytes</p>",
+            "<b>C.</b> <p>10000 bytes</p>",
+            "<b>D.</b> <p>12000 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8000 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3732/gate2004-it-88\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A TCP message consisting of 2100  bytes is passed to IP for delivery across two networks. The first network can carry a maximum payload of 1200 bytes per frame and the second network can carry a maximum payload of 400 bytes per frame, excluding network overhead. Assume that IP overhead per packet is 20 bytes. What is the total IP overhead in the second network for this transmission? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>40 bytes</p>",
+            "<b>B.</b> <p>80 bytes</p>",
+            "<b>C.</b> <p>120 bytes</p>",
+            "<b>D.</b> <p>160 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>120 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3731/gate2004-it-87\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In TCP, a unique sequence number is assigned to each <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>byte</p>",
+            "<b>B.</b> <p>word</p>",
+            "<b>C.</b> <p>segment</p>",
+            "<b>D.</b> <p>message</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>byte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3669/gate2004-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following statements is FALSE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP guarantees a minimum communication rate</p>",
+            "<b>B.</b> <p>TCP ensures in-order delivery</p>",
+            "<b>C.</b> <p>TCP reacts to congestion by reducing sender window size</p>",
+            "<b>D.</b> <p>TCP employs retransmission to compensate for packet loss</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>TCP guarantees a minimum communication rate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3664/gate2004-it-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following functionalities must be implemented by a transport\nprotocol over and above the network protocol ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recovery from packet losses</p>",
+            "<b>B.</b> <p>Detection of duplicate packets</p>",
+            "<b>C.</b> <p>Packet delivery in the correct order</p>",
+            "<b>D.</b> <p>End to end connectivity</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>End to end connectivity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/918/gate2003-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Fuzzy Set",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Fuzzy Set",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60552\"></a><div itemprop=\"text\">\n<p>If A and B are two fuzzy sets with membership functions</p>\n\n<p>\\( \\mu_A(x)=\\{0.2, 0.5, 0.6, 0.1, 0.9\\} \\)</p>\n\n<p>\\( \\mu_B(x)=\\{0.1, 0.5, 0.2, 0.7, 0.8\\} \\)</p>\n\n<p>Then the value of \\( \\mu_{A \\cap B} \\) will be</p>\n\n\n</div><br><br><b>Others: UGC NET CSE | December 2013 | Part 3 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{0.2, 0.5, 0.6, 0.7, 0.9\\} \\)</p>",
+            "<p>\\( \\{0.2, 0.5, 0.2, 0.1, 0.8\\} \\)</p>",
+            "<p>\\( \\{0.1, 0.5, 0.6, 0.1, 0.8\\} \\)</p>",
+            "<p>\\( \\{0.1, 0.5, 0.2, 0.1, 0.8\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{0.1, 0.5, 0.2, 0.1, 0.8\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60552/ugc-net-cse-december-2013-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/60552/ugc-net-cse-december-2013-part-3-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60553\"></a><div itemprop=\"text\"><p>The height h(A) of a fuzzy set A is defined as</p>\n\n<p>h(A) = sup A(x)</p>\n\n<p>\\( \\quad \\quad \\) x \\( \\in \\) A</p>\n\n<p>The fuzzy set A is called normal when</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2013 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>h(A)=0</p>",
+            "<p>h(A)&lt;0</p>",
+            "<p>h(A)=1</p>",
+            "<p>h(A)&lt;0</p>"
+          ],
+          "correct_answer": "<p>h(A)=1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60553/ugc-net-cse-december-2013-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/60553/ugc-net-cse-december-2013-part-3-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

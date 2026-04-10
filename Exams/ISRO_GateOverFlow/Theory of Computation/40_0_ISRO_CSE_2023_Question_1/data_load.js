@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - ISRO CSE 2023  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "ISRO CSE 2023  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435395\"></a><div itemprop=\"text\"><p>Consider the context-free grammar \\( G \\) below for arithmetic expressions :<br>\\[<br>\\begin{array}{l}<br>E \\rightarrow E+E|E \\times E| \\text { id }<br>\\end{array}<br>\\]<br><br>Which of the following statements is TRUE:</p></div><br><br><b>Theory of Computation: ISRO CSE 2023 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The string \\( \"\\mathrm{id} \\) \\( +\\mathrm{id} \\times \\mathrm{id} \\) \" has no parse tree according to \\( G \\)</p>",
+            "<p>The string \\( \"\\mathrm{id} \\) \\( +\\mathrm{id} \\times \\) \\( \\mathrm{id} \\)\" has only one parse tree according to \\( G \\)</p>",
+            "<p>The string \\( \"\\mathrm{id} \\) \\( +\\mathrm{id} \\times \\mathrm{id} \\) \" has exactly two parse trees according to \\( G \\)</p>",
+            "<p>The string \\( \"\\mathrm{id} \\) \\( +\\mathrm{id} \\times \\mathrm{id} \\) \" has more than two parse trees according to \\( G \\)</p>"
+          ],
+          "correct_answer": "<p>The string \\( \"\\mathrm{id} \\) \\( +\\mathrm{id} \\times \\mathrm{id} \\) \" has exactly two parse trees according to \\( G \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435395/isro-cse-2023-question-1\" target=\"_blank\">https://gateoverflow.in/435395/isro-cse-2023-question-1</a></p>"
+        }
+      ]
+    }
+  ]
+});

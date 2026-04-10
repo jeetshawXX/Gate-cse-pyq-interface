@@ -1,0 +1,876 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2014_SET-2",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "questions": [
+        {
+          "id": 56,
+          "question": "<p>Choose the most appropriate phrase from the options given below to complete the following sentence.\n<br><br>\nIndia is a post-colonial country because</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it was a former British colony</p>",
+            "<b>B.</b> <p>Indian Information Technology professionals have colonized the world</p>",
+            "<b>C.</b> <p>India does not follow any colonial practices</p>",
+            "<b>D.</b> <p>India has helped other countries gain freedom</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>it was a former British colony</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1938/gate-cse-2014-set-2-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Who ___________ was coming to see us this evening?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>you said</p>",
+            "<b>B.</b> <p>did you say</p>",
+            "<b>C.</b> <p>did you say that</p>",
+            "<b>D.</b> <p>had you said</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>did you say</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1939/gate-cse-2014-set-2-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Match the columns.\n<br><br>\\(\\begin{array}{ll|ll}\\hline &amp;\\textbf{Column 1} &amp; &amp; \\textbf{Column 2 } \\\\\\hline 1.&amp; \\text{eradicate} &amp;P. &amp;\\text{misrepresent}\\\\\\hline 2.&amp;\\text{distort} &amp;Q.&amp; \\text{soak completely}\\\\\\hline 3.&amp;\\text{saturate} &amp;R.&amp; \\text{use}\\\\\\hline 4.&amp;\\text{utilize} &amp;S.&amp; \\text{destroy utterly}\\\\\\hline \\end{array}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1:S, 2:P, 3:Q, 4:R</p>",
+            "<b>B.</b> <p>1:P, 2:Q, 3:R, 4:S</p>",
+            "<b>C.</b> <p>1:Q, 2:R, 3:S, 4:P</p>",
+            "<b>D.</b> <p>1:S, 2:P, 3:R, 4:Q</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1:S, 2:P, 3:Q, 4:R</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1940/gate-cse-2014-set-2-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>What is the average of all multiples of 10 from 2 to 198?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>90</p>",
+            "<b>B.</b> <p>100</p>",
+            "<b>C.</b> <p>110</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>100</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1941/gate-cse-2014-set-2-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>The value of \\(\\sqrt{12+\\sqrt{12+\\sqrt{12+\\dots}}}\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3.464</p>",
+            "<b>B.</b> <p>3.932</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>4.444</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1942/gate-cse-2014-set-2-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>The old city of Koenigsberg, which had a German majority population before World War 2, is now called Kaliningrad. After the events of the war, Kaliningrad is now a Russian territory and has a predominantly Russian population. It is bordered by the Baltic Sea on the north and the countries of Poland to the south and west and Lithuania to the east respectively. Which of the statements below can be inferred from this passage?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Kaliningrad was historically Russian in its ethnic make up</p>",
+            "<b>B.</b> <p>Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia</p>",
+            "<b>C.</b> <p>Koenigsberg was renamed Kaliningrad, as that was its original Russian name</p>",
+            "<b>D.</b> <p>Poland and Lithuania are on the route from Kaliningrad to the rest of Russia</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1943/gate-cse-2014-set-2-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>Number of people diagnosed with dengue fever (contracted from the bite of a mosquito) in North India is twice the number diagnosed last year. Municipal authorities have concluded that measures to control the mosquito population have failed in this region.\n<br><br>\nWhich one of the following statements, if true, does not contradict this conclusion?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A high proportion of the affected population has returned from neighbouring countries where dengue is prevalent</p>",
+            "<b>B.</b> <p>More cases of dengue are now reported because of an increase in the Municipal Office's administrative efficiency</p>",
+            "<b>C.</b> <p>Many more cases of dengue are being diagnosed this year since the introduction of a new and effective diagnostic test</p>",
+            "<b>D.</b> <p>The number of people with malarial fever (also contracted from mosquito bites) has increased this year</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The number of people with malarial fever (also contracted from mosquito bites) has increased this year</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1944/gate-cse-2014-set-2-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>If \\(x\\) is real and \\(|x^2-2x+3|=11\\), then possible values of \\(|-x^3+x^2-x|\\) include</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2, 4</p>",
+            "<b>B.</b> <p>2, 14</p>",
+            "<b>C.</b> <p>4, 52</p>",
+            "<b>D.</b> <p>14, 52</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>14, 52</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1950/gate-cse-2014-set-2-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students doubled in 2009, by what percent did the number of male students increase in 2009?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q64_8c72f13a.jpg\"><br></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "140",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1951/gate-cse-2014-set-2-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>At what time between 6 a. m. and 7 a. m. will the minute hand and hour hand of a clock make an angle closest to \\(60^{\\circ}\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6: 22 a.m.</p>",
+            "<b>B.</b> <p>6: 27 a.m.</p>",
+            "<b>C.</b> <p>6: 38 a.m.</p>",
+            "<b>D.</b> <p>6: 45 a.m.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6: 22 a.m.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1952/gate-cse-2014-set-2-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    },
+    {
+      "name": "Computer Science Engineer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The security system at an IT office is composed of 10 computers of which exactly four are\nworking. To check whether the system is functional, the officials inspect four of the\ncomputers picked at random (without replacement). The system is deemed functional if at\nleast three of the four computers inspected are working. Let the probability that the system is deemed functional be denoted by p.  Then 100p= _____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11.85",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1953/gate2014-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Each of the nine words in the sentence \"The quick brown fox jumps over the lazy dog\" is\nwritten on a separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random from the box. The expected length of the word drawn is\n_____________. (The answer should be rounded to one decimal place)</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3.8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1954/gate2014-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The maximum number of edges in a bipartite graph on 12 vertices is _____.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "36",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1955/gate2014-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If the matrix A is such that  <br>\\(\\begin{bmatrix} 2\\\\ -4\\\\ 7 \\end{bmatrix}\\begin{bmatrix} 1 &amp;9 &amp;5 \\end{bmatrix}\\) <br> Then the determinant of A is equal to ________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1956/gate2014-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A non-zero polynomial f(x) of degree 3 has roots at x = 1,x = 2 and x = 3. Which one of the following must be TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(0)f(4) \\lt 0\\)</p>",
+            "<b>B.</b> <p>\\(f(0)f(4) \\gt 0\\)</p>",
+            "<b>C.</b> <p>\\(f(0)+f(4) \\gt 0\\)</p>",
+            "<b>D.</b> <p>\\(f(0)+f(4) \\lt 0\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(0)f(4) \\lt 0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1957/gate2014-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The dual of a Boolean function \\(F(x_{1},x_{2},...,x_{n}, +, \\cdot , ' ) \\) , written as \\(F^{D}\\), is the same expression as that of F with + and  \\(\\cdot\\)  swapped. F is said to be self-dual if \\(F=F^{D}\\).  The number of self-dual functions with n Boolean variables is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n-1}\\)</p>",
+            "<b>C.</b> <p>\\(2^{2^{n}}\\)</p>",
+            "<b>D.</b> <p>\\(2^{2^{n-1}}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{2^{n-1}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1958/gate2014-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let  \\(k = 2^{n}\\) . A circuit is built by giving the output of an n-bit binary counter as input to an n-to-\\(2^{n}\\) bit decoder. This circuit is equivalent to a</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k-bit binary up counter</p>",
+            "<b>B.</b> <p>k-bit binary down counter.</p>",
+            "<b>C.</b> <p>k-bit ring counter.</p>",
+            "<b>D.</b> <p>k-bit Johnson counter</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-bit ring counter.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1959/gate2014-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the equation \\((123)_{5}=(x8)_{y}\\)  with x and y as unknown. The number of possible\nsolutions is _____ .</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1961/gate2014-2-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A 4-way set-associative cache memory unit with a capacity of 16 KB is built using a block\nsize of 8 words. The word length is 32 bits. The size of the physical address space is 4 GB.\nThe number of bits for the TAG field is _____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "20",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1963/gate2014-2-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the function func shown below:<pre><code> int func(int num) {\nint count = 0;\nwhile (num) {\n    count++;\n    num &gt;&gt; = 1;\n}\nreturn (count);\n} </code></pre>\nThe value returned by func(435)is __________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1964/gate2014-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Suppose n and p are unsigned int variables in a C program. We wish to set p to \\(^nC_3\\). If n is large, which one of the following statements is most likely to set p correctly?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = n * (n - 1) * (n-2) / 6;</p>",
+            "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+            "<b>C.</b> <p>p = n * (n - 1) / 3 * (n-2) / 2;</p>",
+            "<b>D.</b> <p>p = n * (n - 1) / 2 * (n-2) / 6.0;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1965/gate2014-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A priority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order\ntraversal of the heap is: 10, 8, 5, 3, 2. Two new elements 1 and 7 are inserted into the heap in\nthat order. The level-order traversal of the heap after the insertion of the elements is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 8, 7, 3, 2, 1, 5</p>",
+            "<b>B.</b> <p>10, 8, 7, 2, 3, 1, 5</p>",
+            "<b>C.</b> <p>10, 8, 7, 2, 3, 1, 5</p>",
+            "<b>D.</b> <p>10, 8, 7, 5, 3, 2, 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10, 8, 7, 3, 2, 1, 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1967/gate2014-2-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which one of the following correctly determines the solution of the recurrence relation with\nT(1) = 1? <br> \\(T(n)=2T(\\frac{n}{2})+logn\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\theta (n logn)\\)</p>",
+            "<b>C.</b> <p>\\(\\theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\theta (log n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1968/gate2014-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the tree arcs of a BFS traversal from a source node W in an unweighted, connected,\nundirected graph. The tree T formed by the tree arcs is a data structure for computing</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the shortest path between every pair of vertices</p>",
+            "<b>B.</b> <p>the shortest path from W to every vertex in the graph.</p>",
+            "<b>C.</b> <p>the shortest paths from W to only those nodes that are leaves of T.</p>",
+            "<b>D.</b> <p>the longest path in the graph.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the shortest path from W to every vertex in the graph.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1969/gate2014-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>If \\(L_{1}=\\{a^{n}|n\\geq 0\\}\\) and \\(L_{2}=\\{b^{n}|n\\geq 0 \\}\\), Consider <br>(I) \\(  L_{1}\\cdot L_{2}\\)  is a regular language <br> (II) \\( L_{1} \\cdot L_{2}= \\{a^{n}b^{n}|n \\geq 0\\}\\)<br> Which one of the following is CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (I)</p>",
+            "<b>B.</b> <p>Only (II)</p>",
+            "<b>C.</b> <p>Both (I) and (II)</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only (I)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1971/gate2014-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Let \\(A \\leq _{m}B\\) denotes that language A is mapping reducible (also known as many-to-one reducible) to language B. Which one of the following is FALSE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>If \\(A\\leq _{m}B\\) and B is recursive then A is recursive</p>",
+            "<b>B.</b> <p>If \\(A\\leq _{m}B\\) and A is undecidable then B is undecidable</p>",
+            "<b>C.</b> <p>If \\(A\\leq _{m}B\\) and B is recursively enumerable then A is recursively enumerable.</p>",
+            "<b>D.</b> <p>If \\(A\\leq _{m}B\\) and B is not recursively enumerable then A is not recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>If \\(A\\leq _{m}B\\) and B is not recursively enumerable then A is not recursively enumerable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1972/gate2014-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Consider the grammar defined by the following production rules, with two operators * and + <br>\nS \\(\\rightarrow\\)T *P <br>\nT \\(\\rightarrow\\)U| T*U <br>\nP \\(\\rightarrow\\) Q +P |Q <br>\nQ \\(\\rightarrow\\) Id <br>\nU \\(\\rightarrow\\) Id <br>\nWhich one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(+\\) is left associative, while * is right associative</p>",
+            "<b>B.</b> <p>\\(+\\) is right associative, while * is left associative</p>",
+            "<b>C.</b> <p>Both + and * are right associative</p>",
+            "<b>D.</b> <p>Both + and * are left associative</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(+\\) is right associative, while * is left associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1973/gate2014-2-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which one of the following is NOT performed during compilation?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic memory allocation</p>",
+            "<b>B.</b> <p>Type checking</p>",
+            "<b>C.</b> <p>Symbol table management</p>",
+            "<b>D.</b> <p>Inline expansion</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1975/gate2014-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Which one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The requirements document also describes how the requirements that are listed in the document are implemented efficiently.</p>",
+            "<b>B.</b> <p>Consistency and completeness of functional requirements are always achieved in\npractice.</p>",
+            "<b>C.</b> <p>Prototyping is a method of requirements validation</p>",
+            "<b>D.</b> <p>Requirements review is carried out to find the errors in system design</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Prototyping is a method of requirements validation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1976/gate2014-2-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>A FAT (file allocation table) based file system is being used and the total overhead of each\nentry in the FAT is 4 bytes in size. Given a 100x\\(10^{6}\\) bytes disk on which the file system is\nstored and data block size is \\(10^{3}\\) bytes, the maximum size of a file that can be stored on this\ndisk in units of \\(10^{6}\\) bytes is _______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "99.55",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1977/gate2014-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The maximum number of super keys for the relation schema R (E, F, G, H) with E as the key\nis __________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1978/gate2014-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Given an instance of the STUDENTS relation as shown below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q22_4febd6f8.jpg\"><br> For (StudentName, StudentAge) to be a key for this instance, the value x should NOT be\nequal to_______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1980/gate2014-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Which one of the following is TRUE about the interior gateway routing protocols - Routing\nInformation Protocol (RIP) and Open Shortest Path First (OSPF)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RIP uses distance vector routing and OSPF uses link state routing</p>",
+            "<b>B.</b> <p>OSPF uses distance vector routing and RIP uses link state routing</p>",
+            "<b>C.</b> <p>Both RIP and OSPF use link state routing</p>",
+            "<b>D.</b> <p>Both RIP and OSPF use distance vector routing</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RIP uses distance vector routing and OSPF uses link state routing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1981/gate2014-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Which one of the following socket API functions converts an unconnected active TCP socket\ninto a passive socket?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>connect</p>",
+            "<b>B.</b> <p>bind</p>",
+            "<b>C.</b> <p>listen</p>",
+            "<b>D.</b> <p>accept</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>listen</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1982/gate2014-2-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>In the diagram shown below, L1 is an Ethernet LAN and L2 is a Token-Ring LAN. An IP\npacket originates from sender S and traverses to R, as shown. The links within each ISP and\nacross the two ISPs, are all point-to-point' optical links. The initial value of the TTL field is\n32. The maximum possible value of the TTL field when R receives the datagram is\n____________. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q25_4b42d41a.jpg\"></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "26",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1983/gate2014-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider the store and forward packet switched network given below. Assume that the\nbandwidth of each link is \\(10^{6}\\) bytes / sec. A user on host A sends a file of size \\(10^{3}\\) bytes to\nhost B through routers R1 and R2 in three different ways. In the first case a single packet\ncontaining the complete file is transmitted from A to B. In the second case, the file is split\ninto 10 equal parts, and these packets are transmitted from A to B. In the third case, the file is split into 20 equal parts and these packets are sent from A to B. Each packet contains 100\nbytes of header information along with the user data. Consider only transmission time and\nignore processing, queuing and propagation delays. Also assume that there are no errors\nduring transmission. Let T1, T2 and T3 be the times taken to transmit the file in the first,\nsecond and third case respectively. Which one of the following is CORRECT?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q26_e2bbe577.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T1 \\lt T2 \\lt T3\\)</p>",
+            "<b>B.</b> <p>\\(T1 \\gt T2 \\gt T3\\)</p>",
+            "<b>C.</b> <p>\\(T2=T3, T3 \\lt T1\\)</p>",
+            "<b>D.</b> <p>\\(T1=T3, T3 \\gt T2\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(T1=T3, T3 \\gt T2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1985/gate2014-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>An IP machine Q has a path to another IP machine H via three IP routers R1, R2, and R3. <br>\nQ---R1---R2---R3---H  <br>\nH acts as an HTTP server, and Q connects to H via HTTP and downloads a file. Session layer\nencryption is used, with DES as the shared key encryption protocol. Consider the following\nfour pieces of information: <br>\n[I1] The URL of the file downloaded by Q <br>\n[I2] The TCP port numbers at Q and H <br>\n[I3] The IP addresses of Q and H <br>\n[I4] The link layer addresses of Q and H <br>\nWhich of I1, I2, I3, and I4 can an intruder learn through sniffing at R2 alone?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I1 and I2</p>",
+            "<b>B.</b> <p>Only I1</p>",
+            "<b>C.</b> <p>Only I2 and I3</p>",
+            "<b>D.</b> <p>Only I3 and I4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only I2 and I3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1986/gate2014-2-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>A graphical HTML browser resident at a network client machine Q accesses a static HTML\nwebpage from a HTTP server S. The static HTML page has exactly one static embedded\nimage which is also at S. Assuming no caching, which one of the following is correct about\nthe HTML webpage loading (including the embedded image)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q needs to send at least 2 HTTP requests to S, each necessarily in a separate TCP\nconnection to server S</p>",
+            "<b>B.</b> <p>Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient</p>",
+            "<b>C.</b> <p>A single HTTP request from Q to S is sufficient, and a single TCP connection between Q and S is necessary for this</p>",
+            "<b>D.</b> <p>A single HTTP request from Q to S is sufficient, and this is possible without any TCP connection between Q and S</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1987/gate2014-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following schedule S of transactions T1, T2, T3, T4: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q29_87119e6e.jpg\"> <br> Which one of the following statements is CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S is conflict-serializable but not recoverable</p>",
+            "<b>B.</b> <p>S is not conflict-serializable but is recoverable</p>",
+            "<b>C.</b> <p>S is both conflict-serializable and recoverable</p>",
+            "<b>D.</b> <p>S is neither conflict-serializable nor is it recoverable</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S is both conflict-serializable and recoverable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1988/gate2014-2-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Consider a join (relation algebra) between relations r(R)and s(S) using the nested loop\nmethod. There are 3 buffers each of size equal to disk block size, out of which one buffer is\nreserved for intermediate results. Assuming size(r(R))\\(\\lt\\)size(s(S)), the join will have fewer\nnumber of disk block accesses if</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>relation r(R) is in the outer loop.</p>",
+            "<b>B.</b> <p>relation s(S) is in the outer loop</p>",
+            "<b>C.</b> <p>join selection factor between r(R) and s(S) is more than 0.5.</p>",
+            "<b>D.</b> <p>join selection factor between r(R) and s(S) is less than 0.5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>relation r(R) is in the outer loop.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1989/gate2014-2-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Consider the procedure below for the Producer-Consumer problem which uses semaphores:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q31_5009409f.jpg\"><br>\nWhich one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The producer will be able to add an item to the buffer, but the consumer can never consume it.</p>",
+            "<b>B.</b> <p>The consumer will remove no more than one item from the buffer.</p>",
+            "<b>C.</b> <p>Deadlock occurs if the consumer succeeds in acquiring semaphore s when the buffer is empty</p>",
+            "<b>D.</b> <p>The starting value for the semaphore n must be 1 and not 0 for deadlock-free operation.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Deadlock occurs if the consumer succeeds in acquiring semaphore s when the buffer is empty</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1990/gate2014-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Three processes A, B and C each execute a loop of 100 iterations. In each iteration of the\nloop, a process performs a single computation that requires \\(t_{c}\\) CPU milliseconds and then\ninitiates a single I/O operation that lasts for \\(t_{io}\\) milliseconds. It is assumed that the computer\nwhere the processes execute has sufficient number of I/O devices and the OS of the computer assigns different I/O devices to each process. Also, the scheduling overhead of the OS is negligible. The processes have the following characteristics: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q32_00c28216.jpg\"> <br> The processes A, B, and C are started at times 0, 5 and 10 milliseconds respectively, in a pure\ntime sharing system (round robin scheduling) that uses a time slice of 50 milliseconds. The\ntime in milliseconds at which process C would complete its first I/O operation is\n___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1000",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1991/gate2014-2-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>A computer has twenty physical page frames which contain pages numbered 101 through\n120. Now a program accesses the pages numbered 1, 2, ..., 100 in that order, and repeats the\naccess sequence THRICE. Which one of the following page replacement policies experiences\nthe same number of page faults as the optimal page replacement policy for this program?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Least-recently-used</p>",
+            "<b>B.</b> <p>First-in-first-out</p>",
+            "<b>C.</b> <p>Last-in-first-out</p>",
+            "<b>D.</b> <p>Most-recently-used</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Most-recently-used</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1992/gate2014-2-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>For a C program accessing x[i][j][k], the following intermediate code is generated by a\ncompiler. Assume that the size of an integer is 32 bits and the size of a character is 8 bits. <br>\nt0 = i * 1024 <br>\nt1 = j * 32 <br>\nt2 = k * 4 <br>\nt3 = t1 + t0 <br>\nt4 = t3 + t2 <br>\nt5 = x[t4]<br>\nWhich one of the following statements about the source code for the C program is\nCORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x is declared as \"int x[32] [32] [8]\".</p>",
+            "<b>B.</b> <p>x is declared as \"int x[4] [1024] [32]\".</p>",
+            "<b>C.</b> <p>x is declared as \"char x[4] [32] [8]\".</p>",
+            "<b>D.</b> <p>x is declared as \"char x[32] [16] [2]\".</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>x is declared as \"int x[32] [32] [8]\".</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1993/gate2014-2-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Let \\(\\lt M \\gt\\) be the encoding of a Turing machine as a string over \\(\\Sigma\\)={0,1}. <br>Let L = { \\(\\lt M \\gt\\) |M is a Turning machine that accepts a string of length 2014}. <br>Then, L is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>decidable and recursively enumerable</p>",
+            "<b>B.</b> <p>undecidable but recursively enumerable</p>",
+            "<b>C.</b> <p>undecidable and not recursively enumerable</p>",
+            "<b>D.</b> <p>decidable but not recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>undecidable but recursively enumerable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1994/gate2014-2-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Let \\(L_{1}=\\{w \\in \\{0,1\\}*|w\\) has at least as many occurrences of (110)'s as (011)'s}. <br>Let \\(L_{2}=\\{w \\in \\{0,1\\}*|w\\) has at least as many occurrence of (000)'s as (111)'s}. <br><br>Which one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 is regular but not L2</p>",
+            "<b>B.</b> <p>L2 is regular but not L1</p>",
+            "<b>C.</b> <p>Both L1 and L2 are regular</p>",
+            "<b>D.</b> <p>Neither L1 nor L2 are regular</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L1 is regular but not L2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1995/gate2014-2-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider two strings A=\"qpqrr\" and B=\"pqprqrp\". Let x be the length of the longest\ncommon subsequence (not necessarily contiguous) between A and B and let y be the number\nof such longest common subsequences between A and B. Then x + 10y = ___.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1996/gate2014-2-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively.\nThey are to be merged into a single sequence by merging together two sequences at a time.\nThe number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "358",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1997/gate2014-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider the expression tree shown. Each leaf represents a numerical value, which can either\nbe 0 or 1. Over all possible choices of the values at the leaves, the maximum possible value\nof the expression represented by the tree is ___. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q39_dedc3211.jpg\"></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1999/gate2014-2-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Consider the following function<pre><code> double f (double x) {\nif ( abs (x*x - 3) &lt; 0. 01) return x;\nelse return f (x / 2 + 1.5/x);\n} </code></pre>\nGive a value q (to 2 decimals) such that f(q) will return q:______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.72",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2000/gate2014-2-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Suppose a stack implementation supports an instruction REVERSE, which reverses the order\nof elements on the stack, in addition to the PUSH and POP instructions. Which one of the\nfollowing statements is TRUE with respect to this modified stack?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A queue cannot be implemented using this stack.</p>",
+            "<b>B.</b> <p>A queue can be implemented where ENQUEUE takes a single instruction and\nDEQUEUE takes a sequence of two instructions.</p>",
+            "<b>C.</b> <p>A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction</p>",
+            "<b>D.</b> <p>A queue can be implemented where both ENQUEUE and DEQUEUE take a single\ninstruction each.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2007/gate2014-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider the C function given below<pre><code> int f(int j)\n{\nstatic int i = 50;\nint k;\nif (i == j)\n{\nprintf(\"something\");\nk = f(i);\nreturn 0;\n}\nelse return 0;\n} </code></pre>\nWhich one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The function returns 0 for all values of j.</p>",
+            "<b>B.</b> <p>The function prints the string something for all values of j.</p>",
+            "<b>C.</b> <p>The function returns 0 when j = 50.</p>",
+            "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2008/gate2014-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>In designing a computer's cache system, the cache block (or cache line) size is an important\nParameter. Which one of the following statements is correct in this context?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A smaller block size implies better spatial locality</p>",
+            "<b>B.</b> <p>A smaller block size implies a smaller cache tag and hence lower cache tag overhead</p>",
+            "<b>C.</b> <p>A smaller block size implies a larger cache tag and hence lower cache hit time</p>",
+            "<b>D.</b> <p>A smaller block size incurs a lower cache miss penalty</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A smaller block size incurs a lower cache miss penalty</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2009/gate2014-2-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>If the associativity of a processor cache is doubled while keeping the capacity and block size\nunchanged, which one of the following is guaranteed to be NOT affected?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Width of tag comparator</p>",
+            "<b>B.</b> <p>Width of set index decoder</p>",
+            "<b>C.</b> <p>Width of way selection multiplexor</p>",
+            "<b>D.</b> <p>Width of processor to main memory data bus</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Width of processor to main memory data bus</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2010/gate2014-2-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The value of a float type variable is represented using the single-precision 32-bit floating\npoint format of IEEE-754 standard that uses 1 bit for sign, 8 bits for biased exponent and 23\nbits for mantissa. A float type variable x is assigned the decimal value of -14.25. The\nrepresentation of x in hexadecimal notation is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>C1640000H</p>",
+            "<b>B.</b> <p>416C0000H</p>",
+            "<b>C.</b> <p>41640000H</p>",
+            "<b>D.</b> <p>C16C0000H</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>C1640000H</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2011/gate2014-2-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>In the Newton-Raphson method, an initial guess of \\(x_{0}=2\\) is made and the sequence\n\\(x_{0},x_{1},x_{2}...\\) is obtained for the function <br> \\(0.75x^{3}-2x^{2}-2x+4=0\\)<br> Consider the statements <br>\n(I) \\(x_{3}\\)=0. <br>\n(II) The method converges to a solution in a finite number of iterations. <br>\nWhich of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only I</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2012/gate2014-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>The product of the non-zero eigenvalues of the matrix <br>\\(\\begin{bmatrix} 1 &amp; 0&amp;0 &amp; 0&amp;1 \\\\ 0&amp; 1&amp; 1 &amp; 1 &amp; 0\\\\ 0&amp; 1&amp; 1&amp; 1&amp;0 \\\\ 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\\\ 1&amp;0 &amp; 0&amp;0 &amp; 1 \\end{bmatrix}\\) <br> is_______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2013/gate2014-2-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT\ndivisible by 2, 3 or 5 is ______ .</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.259",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2014/gate2014-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>The number of distinct positive integral factors of 2014 is ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2015/gate2014-2-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Consider the following relation on subsets of the set S of integers between 1 and 2014. For\ntwo distinct subsets U and V of S we say U\\(\\lt\\)V if the minimum element in the symmetric\ndifference of the two sets is in U. <br>\nConsider the following two statements: <br>\nS1: There is a subset of S that is larger than every other subset. <br>\nS2: There is a subset of S that is smaller than every other subset. <br>\nWhich one of the following is CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are true</p>",
+            "<b>B.</b> <p>S1 is true and S2 is false</p>",
+            "<b>C.</b> <p>S2 is true and S1 is false</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both S1 and S2 are true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2016/gate2014-2-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>A cycle on n vertices is isomorphic to its complement. The value of n is _____.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2018/gate2014-2-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>The number of distinct minimum spanning trees for the weighted graph below is  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2014_SET-2\\q52_d03ffa26.jpg\"></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2019/gate2014-2-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a\\rightarrow b)\\wedge (b\\rightarrow c))\\rightarrow (a\\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a\\wedge b\\wedge c)\\rightarrow (c\\wedge a)\\)</p>",
+            "<b>D.</b> <p>\\(a\\rightarrow (b\\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2020/gate2014-2-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>SQL allows duplicate tuples in relations, and correspondingly defines the multiplicity of\ntuples in the result of joins. Which one of the following queries always gives the same answer\nas the nested query shown below: <br>\nSelect * from R where a in (select S. a from S)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Select R. * from R, S where R. a=S. a</p>",
+            "<b>B.</b> <p>Select distinct R. * from R,S where R. a=S. a</p>",
+            "<b>C.</b> <p>Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a</p>",
+            "<b>D.</b> <p>Select R. * from R, S where R.a = S. a and is unique R</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2021/gate2014-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider a main memory system that consists of 8 memory modules attached to the system\nbus, which is one word wide. When a write request is made, the bus is occupied for 100\nnanoseconds (ns) by the data, address, and control signals. During the same 100 ns, and for\n500 ns thereafter, the addressed memory module executes one cycle accepting and storing the data. The (internal) operation of different memory modules may overlap in time, but only one request can be on the bus at any time. The maximum number of stores (of one word each) that can be initiated in 1 millisecond is ____________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10000",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2022/gate2014-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

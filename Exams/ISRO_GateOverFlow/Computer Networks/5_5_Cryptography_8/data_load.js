@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Cryptography",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Cryptography",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"47820\"></a><div itemprop=\"text\">\n<p>Advanced Encryption Standard (AES) is based on</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2009 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Asymmetric key algorithm</p>",
+            "<p>Symmetric key algorithm</p>",
+            "<p>Public key algorithm</p>",
+            "<p>Key exchange</p>"
+          ],
+          "correct_answer": "<p>Symmetric key algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47820/isro-cse-2009-question-7\" target=\"_blank\">https://gateoverflow.in/47820/isro-cse-2009-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128663\"></a><div itemprop=\"text\"><p>\\( \\text{MD5} \\) is a widely used hash function for producing hash value of</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 64 \\) bits</p>",
+            "<p>\\( 128 \\) bits</p>",
+            "<p>\\( 512 \\) bits</p>",
+            "<p>\\( 1024 \\) bits</p>"
+          ],
+          "correct_answer": "<p>\\( 128 \\) bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128663/isro-cse-2017-question-35\" target=\"_blank\">https://gateoverflow.in/128663/isro-cse-2017-question-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"213510\"></a><div itemprop=\"text\">\n\n<p>Which one of the following algorithm is not used in asymmetric key cryptography?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2018 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p>RSA Algorithm</p>",
+            "<p>Gillie-Hellman Algorithm</p>",
+            "<p>Electronic Code Book Algorithm</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Electronic Code Book Algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213510/isro-cse-2018-question-78\" target=\"_blank\">https://gateoverflow.in/213510/isro-cse-2018-question-78</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"331415\"></a><div itemprop=\"text\"><p>In a columnar transportation cipher, the plain text is “the tomato is a plant in the night shade family”, keyword is “\\( \\text{TOMATO} \\)”. The cipher text is</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2020 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{”TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX”} \\)</p>",
+            "<p>\\( \\text{”TINESAX / EOAHTFX / MAIIAIX / HTLTHEY / TAPNGDL / OSTNHMX”} \\)</p>",
+            "<p>\\( \\text{”TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / OSTNHMX / TAPNGDL”} \\)</p>",
+            "<p>\\( \\text{”EOAHTFX / TINESAX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX”} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{”TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX”} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331415/isro-cse-2020-question-44\" target=\"_blank\">https://gateoverflow.in/331415/isro-cse-2020-question-44</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"331416\"></a><div itemprop=\"text\"><p>Avalanche effect in cryptography refers</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2020 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Large changes in cipher text when the keyword is changed minimally</p>",
+            "<p>Large changes in cipher text when the plain text is changed</p>",
+            "<p>Large Impact of keyword change to length of the cipher text</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Large changes in cipher text when the plain text is changed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331416/isro-cse-2020-question-45\" target=\"_blank\">https://gateoverflow.in/331416/isro-cse-2020-question-45</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"43843\"></a><div itemprop=\"text\">\n<p>What will be the cipher text produced by the following cipher function for the plain text ISRO with key \\( k=7 \\). [ Consider \\( 'A'=0, 'B'=1,....'Z'=25 \\)]</p>\n\n<p>\\( C_{k} (M) = (kM + 13) \\mod 26 \\)</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>RJCH</p>",
+            "<p>QIBG</p>",
+            "<p>GQPM</p>",
+            "<p>XPIN</p>"
+          ],
+          "correct_answer": "<p>RJCH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43843/isro-2013-21\" target=\"_blank\">https://gateoverflow.in/43843/isro-2013-21</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"44152\"></a><div itemprop=\"text\">\n<p>Which of the following encryption algorithms is based on the Feistal structure?</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Advanced Encryption Standard</p>",
+            "<p>RSA public key cryptographic algorithm</p>",
+            "<p>Data Encryption standard</p>",
+            "<p>RC4</p>"
+          ],
+          "correct_answer": "<p>Data Encryption standard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44152/isro-2013-46\" target=\"_blank\">https://gateoverflow.in/44152/isro-2013-46</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"182079\"></a><div itemprop=\"text\"><p>Using public key cryptography, \\( X \\) adds a digital signature \\( \\sigma \\) to a message \\( M, \\) encrypts&nbsp;\\( \\langle M,\\sigma \\rangle \\) and sends it to \\( Y, \\) where it is decrypted. Which one of the following sequence of keys is used for operations ?</p>\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Encryption: \\( {X}'s \\) private key followed by \\( {Y}'s \\) private key; Decryption:\\( {X}'s \\) public key followed by \\( {Y}'s \\) public key.&nbsp;&nbsp;</p>",
+            "<p>Encryption: \\( {X}'s \\) private key followed by \\( {Y}'s \\) public key; Decryption:\\( {X}'s \\) public key followed by \\( {Y}'s \\) private key.&nbsp;</p>",
+            "<p>Encryption: \\( {X}'s \\) private key followed by \\( {Y}'s \\) public key; Decryption:\\( {Y}'s \\) private key followed by \\( {X}'s \\) public key.&nbsp;&nbsp;</p>",
+            "<p>Encryption: \\( {X}'s \\) public key followed by \\( {Y}'s \\) private key; Decryption:\\( {Y}'s \\) public key followed by \\( {X}'s \\) private key.</p>"
+          ],
+          "correct_answer": "<p>Encryption: \\( {X}'s \\) private key followed by \\( {Y}'s \\) public key; Decryption:\\( {Y}'s \\) private key followed by \\( {X}'s \\) public key.&nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182079/isro-dec2017-29\" target=\"_blank\">https://gateoverflow.in/182079/isro-dec2017-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

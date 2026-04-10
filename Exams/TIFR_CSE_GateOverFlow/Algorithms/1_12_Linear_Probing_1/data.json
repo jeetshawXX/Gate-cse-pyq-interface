@@ -1,0 +1,27 @@
+{
+  "title": "Algorithms - Linear Probing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linear Probing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"473087\"></a><div itemprop=\"text\"><p>Suppose \\( 3 \\) elements are hashed independently and uniformly at random one by one to slots in a hash table of size \\( 6 \\) (assume that in case of a collision, the element is hashed to the first free slot). What is the expected number of elements that \\( \\text{DO NOT} \\) collide with an existing element in the table?</p></div><br><br><b>Algorithms: TIFR CSE 2025 | Part B | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 25 / 18 \\)</p>",
+            "<p>\\( 3 / 2 \\)</p>",
+            "<p>\\( 59 / 36 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 / 2 \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473087/tifr-cse-2025-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/473087/tifr-cse-2025-part-b-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

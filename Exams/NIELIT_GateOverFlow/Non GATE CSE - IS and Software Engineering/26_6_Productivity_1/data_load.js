@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Productivity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Productivity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351589\"></a><div itemprop=\"text\"><p>\\( \\text{58000&nbsp;LOC} \\) gaming software is developed with effort of \\( 3 \\) person-year. What is the productivity of person-month?</p></div><br><br><b>IS&Software Engineering: NIELIT Scientist B 2020 November: 93</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{1.9 KLOC} \\)</p>",
+            "<p>\\( \\text{1.6 KLOC} \\)</p>",
+            "<p>\\( \\text{4.8 KLOC} \\)</p>",
+            "<p>\\( \\text{4.2 KLOC} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1.6 KLOC} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351589/nielit-scientist-b-2020-november-93\" target=\"_blank\">https://gateoverflow.in/351589/nielit-scientist-b-2020-november-93</a></p>"
+        }
+      ]
+    }
+  ]
+});

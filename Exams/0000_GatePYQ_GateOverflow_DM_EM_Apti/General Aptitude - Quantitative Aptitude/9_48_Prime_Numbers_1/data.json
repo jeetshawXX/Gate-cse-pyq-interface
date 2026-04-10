@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Prime Numbers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Prime Numbers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460446\"></a><div itemprop=\"text\"><p>​​​​​Let \\( p_1 \\) and \\( p_2 \\) denote two arbitrary prime numbers. Which one of the following statemetns is correct for all values of \\( p_1 \\) and \\( p_2 \\)?</p><p>&nbsp;</p></div><br><br><b>GATE CSE 2025 | Set 2 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p_1 +p_2 \\) not a prime number</p>",
+            "<p>\\( p_1p_2 \\) is not a prime number</p>",
+            "<p>\\( p_1+p_2+1 \\) is a prime number</p>",
+            "<p>\\( p_1p_2+1 \\) is a prime number</p>"
+          ],
+          "correct_answer": "<p>\\( p_1p_2 \\) is not a prime number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460446/gate-cse-2025-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/460446/gate-cse-2025-set-2-ga-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

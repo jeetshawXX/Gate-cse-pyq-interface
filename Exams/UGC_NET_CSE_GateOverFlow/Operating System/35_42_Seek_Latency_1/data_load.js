@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Seek Latency",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Seek Latency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316263\"></a><div itemprop=\"text\"><p>For a magnetic disk with concentric circular tracks, the seek latency is not linearly proportional to the seek distance due to</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2019 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>non-uniform distribution of&nbsp;requests</p>",
+            "<p>arm starting or stopping inertia</p>",
+            "<p>higher capacity of tracks on the periphery of the platter</p>",
+            "<p>use of uniform arm scheduling policies</p>"
+          ],
+          "correct_answer": "<p>arm starting or stopping inertia</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316263/ugc-net-cse-june-2019-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/316263/ugc-net-cse-june-2019-part-2-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+});

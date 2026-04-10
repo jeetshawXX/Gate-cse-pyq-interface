@@ -1,0 +1,891 @@
+{
+  "title": "Computer_Organization - Machine_Instruction",
+  "duration": 172,
+  "sections": [
+    {
+      "name": "Machine_Instruction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An application executes \\(6.4 \\times 10^8\\) number of instructions in 6.3 seconds. There are four types of instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is _________. (rounded off to one decimal place)\\( \\begin{array}{|c|c|c|}\n\\hline\n\\text{Instruction type} &amp; \\text{Clock cycles required per instruction (CPI)} &amp; \\text{Number of instructions executed} \\\\\n\\hline\n\\text{Branch} &amp; 2 &amp; 2.25 \\times 10^8 \\\\\n\\text{Load} &amp; 5 &amp; 1.20 \\times 10^8 \\\\\n\\text{Store} &amp; 4 &amp; 1.65 \\times 10^8 \\\\\n\\text{Arithmetic} &amp; 3 &amp; 1.30 \\times 10^8 \\\\\n\\hline\n\\end{array} \\) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460842/gate-cse-2025-set-2-question-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following is/are part of an Instruction Set Architecture of a processor? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The size of the cache memory</p>",
+            "<b>B.</b> <p>The clock frequency of the processor</p>",
+            "<b>C.</b> <p>The number of cache memory levels</p>",
+            "<b>D.</b> <p>The total number of registers</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The total number of registers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A processor has 64 general-purpose registers and 50 distinct instruction types. An instruction is encoded in 32-bits. What is the maximum number of bits that can be used to store the immediate operand for the given instruction?\n<br><br>\nADD  R1, #25       // R1 = R1 + 25 <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>22</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460053/gate-cse-2025-set-1-question-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A processor uses a 32-bit instruction format and supports byte-addressable memory\naccess. The ISA of the processor has 150 distinct instructions. The instructions are\nequally divided into two types, namely R-type and I-type, whose formats are shown\nbelow.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q51_81cf05b3.webp\"><br>\nIn the OPCODE, 1 bit is used to distinguish between I-type and R-type instructions\nand the remaining bits indicate the operation. The processor has 50 architectural\nregisters, and all register fields in the instructions are of equal size.<br>\nLet X be the number of bits used to encode the UNUSED field, Y be the number\nof bits used to encode the OPCODE field, and Z be the number of bits used to\nencode the immediate value/address field. The value of X + 2Y + Z is ______ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422846/gate-cse-2024-set-2-question-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A processor with 16 general purpose registers uses a 32-bit instruction format. The\ninstruction format consists of an opcode field, an addressing mode field, two register\noperand fields, and a 16-bit scalar field. If 8 addressing modes are to be supported,\nthe maximum number of unique opcodes possible for every addressing mode\nis _________ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the given C-code and its corresponding assembly code, with a few\noperands U1-U4 being unknown. Some useful information as well as the semantics\nof each unique assembly instruction is annotated as inline comments in the code.\nThe memory is byte-addressable.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q31_991991da.jpg\"><br>Which one of the following options is a CORRECT replacement for operands in\nthe position (U1, U2, U3, U4) in the above assembly code? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(8, 4, 1, Lo2)</p>",
+            "<b>B.</b> <p>(3, 4, 4, Lo1)</p>",
+            "<b>C.</b> <p>(8, 1, 1, Lo2)</p>",
+            "<b>D.</b> <p>(3, 1, 1, Lo1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(3, 4, 4, Lo1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399280/gate-cse-2023-question-31#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following instruction sequence where registers \\(R_1,R_2 \\text{ and }R_3\\) are general purpose and \\(MEMORY[X]\\) denotes the content at the memory location \\(X\\).<br><br>\\(\\begin{array}{llc} \\textbf{Instruction} &amp; \\textbf{Semantics} &amp; \\textbf{Instruction Size} \\text{ (bytes)} \\\\ \\hline \\text{MOV } R1, (5000) &amp; R1 \\leftarrow \\text{MEMORY}[5000] &amp; 4 \\\\ \\hline \\text{MOV } R2, (R3) &amp; R2 \\leftarrow \\text{MEMORY}[R3] &amp; 4 \\\\ \\hline \\text{ADD} R2, R1 &amp; R2 \\leftarrow R1 + R2 &amp; 2 \\\\ \\hline \\text{MOV } (R3), R2 &amp; \\text{MEMORY}[R3] \\leftarrow R2 &amp; 4 \\\\ \\hline \\text{INC } R3 &amp; R3 \\leftarrow R3+1 &amp; 2 \\\\ \\hline \\text{DEC } R1 &amp; R1 \\leftarrow R1-1 &amp; 2 \\\\ \\hline \\text{BNZ } 1004 &amp; \\text{Branch if not zero to the} &amp; 2 \\\\ &amp; \\text{given absolute address} \\\\ \\hline \\text{HALT} &amp; \\text{Stop} &amp; 1 \\\\ \\hline \\end{array}\\)<br><br>\nAssume that the content of the memory location 5000 is 10, and the content of the register \\(R_3\\) is 3000. The content of each of the memory locations from 3000 to 3020 is 50. The instruction sequence starts from the memory location 1000. All the numbers are in decimal format. Assume that the memory is byte addressable.\n<br>\nAfter the execution of the program, the content of memory location 3010 is ____________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357397/gate-cse-2021-set-1-question-55#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A computer which issues instructions in order, has only 2 registers and 3 opcodes ADD, SUB and MOV. Consider 2 different implementations of the following basic block :<br>\\(\\begin{array}{l|l} \\text { Case } 1 &amp; \\text { Case } 2 \\\\ \\hline t 1=a+b ; &amp; t 2=c+d \\\\ t 2=c+d ; &amp; t 3=e-t 2 \\\\ t 3=e-t 2 ; &amp; t 1=a+b \\\\ t 4=t 1-t 2 ; &amp; t 4=t 1-t 2 \\end{array}\\)<br>Assume that all operands are initially in memory. Final value of computation also has to reside in memory. Which one is better in terms of memory accesses and by how many MOV instructions? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Case 2, 2</p>",
+            "<b>B.</b> <p>Case 2, 3</p>",
+            "<b>C.</b> <p>Case 1, 2</p>",
+            "<b>D.</b> <p>Case 1, 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Case 2, 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331470/isro2020-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a 32- bit processor which supports 70 instructions. Each instruction is 32 bit long and has 4 fields namely opcode, two register identifiers and an immediate operand of unsigned integer type. Maximum value of the immediate operand that can be supported by the processor is 8191. How many registers the processor has? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32</p>",
+            "<b>B.</b> <p>64</p>",
+            "<b>C.</b> <p>128</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331291/isro2020-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A non-pipelined CPU has 12 general purpose registers?(R0,R1,R2,...,R12). Following operations are supported<br><br>ADD Ra, Rb, Rr      Add Ra to Rb and store the result in Rr<br>MUL Ra, Rb, Rr      Multiply Ra to Rb and store the result in Rr<br><br>MUL  operation takes two clock cycles, ADD takes one clock cycle.<br><br>Calculate minimum number of clock cycles required to compute the value of the expression XY+XYZ+YZ. The variable X,Y,Z are initially available in registers R0,R1 and R2 and contents of these registers must not be modified. <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331437/isro2020-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Statements associated with registers of a CPU are given. Identify the false statement. <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The program counter holds the memory address of the instruction in execution</p>",
+            "<b>B.</b> <p>Only opcode is transferred to the control unit</p>",
+            "<b>C.</b> <p>An instruction in the instruction register consists of the opcode and the operand</p>",
+            "<b>D.</b> <p>The value of the program counter is incremented by 1 once its value has been read to the memory address register</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The program counter holds the memory address of the instruction in execution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331334/isro2020-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A processor has 64 registers and uses 16-bit instruction format. It has two types of instructions: I-type and R-type. Each I-type instruction contains an opcode, a register name, and a 4-bit immediate value. Each R-type instruction contains an opcode and two register names. If there are 8 distinct I-type opcodes, then the maximum number of distinct R-type opcodes is _______. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333187/gate2020-cs-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following data path diagram. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q4_f58f93bb.jpg\"><br> Consider an instruction: \\(R0\\leftarrow R1+R2\\). The following steps are used to execute it over the given data path. Assume that PC is incremented appropriately. The subscripts r and w indicate read and write operations, respectively. <br><br>\n\\(1. \\; R2_r,TEMP1_r,ALU_{add},TEMP2_w\\)  <br>  \\(2. \\; R1_r,TEMP1_w\\) <br> \\(3. \\; PC_r,MAR_w,MEM_r\\)  <br>\\(4. \\; TEMP2_r,R0_w\\) <br> \\(5. \\; MDR_r,IR_w\\)<br><br>\nWhich one of the following is the correct order of execution of the above steps? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,1,4,5,3</p>",
+            "<b>B.</b> <p>1,2,4,3,5</p>",
+            "<b>C.</b> <p>3,5,2,1,4</p>",
+            "<b>D.</b> <p>3,5,1,2,4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3,5,2,1,4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333227/gate2020-cs-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A byte addressable computer has a memory capacity of \\(2^{m} K B(k \\text { bytes })\\) and can perform \\(2^{n}\\) operations. An instruction involving 3 operands and one operator needs maximum of: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3m bits</p>",
+            "<b>B.</b> <p>3m+n bits</p>",
+            "<b>C.</b> <p>m+n bits</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213557/isro2018-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A data driven machine is one that executes an instruction if the needed data is available. The physical ordering of the code listing does not dictate the course of execution. Consider the following pseudo-code:<br><br>A. Multiply E by 0.5 to get F<br>B. Add A and B to get E<br>\nC. Add B with 0.5 to get D<br>\nD. Add E and F to get G<br>\nE. Add A with 10.5 to get C<br><br>Assume A,B,C are already assigned values and the desired output is G. Which of the following sequence of execution is valid? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B, C, D, A, E</p>",
+            "<b>B.</b> <p>C, B, E, A, D</p>",
+            "<b>C.</b> <p>A, B, C, D, E</p>",
+            "<b>D.</b> <p>E, D, C, B, A</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>C, B, E, A, D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213582/isro2018-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>A processor has 16 integer registers (R0, R1,...,R15) and 64 floating point registers (F0, F1,...,F63). It uses a 2-byte instruction format. There are four categories of instructions: Type-1, Type-2, Type-3, and Type-4. Type-1 category consists of four instructions, each with 3 integer register operands (3Rs). Type-2 category consists of eight instructions, each with 2 floating point register operands (2Fs). Type-3 category consists of fourteen instructions, each with one integer register operand and one floating point register operand (1R+1F). Type-4 category consists of N instructions, each with a floating point register operand (1F). <br>\nThe maximum value of N is __________. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204126/gate2018-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Consider the following processor design characteristics.<br> I. Register-to-register arithmetic operations only<br>\nII. Fixed-length instruction format <br>\nIII. Hardwired control unit <br>Which of the characteristics above are used in the design of a RISC processor? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204079/gate2018-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider a processor with 64 registers  and an instruction set of size twelve. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and a twelve-bit immediate value. Each instruction must be stored in memory in  byte-aligned fashion. If a program has 100 instructions, the amount of memory(in bytes) consumed by the program text is _____ . <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "500",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39601/gate2016-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>A processor has 40 distinct instructions and 24 general purpose registers. A 32-bit instruction word has an opcode, two register operands and an immediate operand. The number of bits available for the immediate operand field is _______ . <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39547/gate2016-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>In X=(M+NxO)/(PxQ), how many one-address instructions are required to evaluate it? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/37956/isro2015-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The contents of the flag register after execution of the following program by 8085 microprocessor will be<br><br>Program<br> SUB A<br>\nMVI B,(01)H<br>\nDCR B<br>\nHLT<br> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((54)_{H}\\)</p>",
+            "<b>B.</b> <p>\\((00)_{H}\\)</p>",
+            "<b>C.</b> <p>\\((01)_{H}\\)</p>",
+            "<b>D.</b> <p>\\((45)_{H}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((54)_{H}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46026/isro2015-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider a processor with byte-addressable memory. Assume that all registers, including Program Counter (PC) and Program Status Word (PSW), are of size 2 bytes. A stack in the main memory is implemented from memory location \\((0100)_{16}\\) and it grows upward. The stack pointer (SP) points to the top element of the stack. The current value of SP is \\((016E)_{16}\\). The CALL instruction is of two words, the first word is the op-code and the second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented as follows: <br><br>\nStore the current value of PC in the stack <br>\nStore the value of PSW register in the stack <br>\nLoad the starting address of the subroutine in PC <br><br>\nThe content of PC just before the fetch of a CALL instruction is \\((5FA0)_{16}\\).  After execution of the CALL instruction, the value of the stack pointer is <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((016A)_{16}\\)</p>",
+            "<b>B.</b> <p>\\((016C)_{16}\\)</p>",
+            "<b>C.</b> <p>\\((0170)_{16}\\)</p>",
+            "<b>D.</b> <p>\\((0172)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((0172)_{16}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8215/gate2015-2-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Assume that 16-bit CPU is trying to access a double word stating at an odd address. How many memory operations are required to access the data? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52438/isro2014-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider two processors P1 and P2 executing the same instruction set. Assume that under\nidentical conditions, for the same input, a program running on P2 takes 25% less time but\nincurs 20% more CPI (clock cycles per instruction) as compared to the program running on\nP1. If the clock frequency of P1 is 1GHz, then the clock frequency of P2 (in GHz) is _________. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1935/gate2014-1-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>A machine has a 32-bit architecture, with 1-word long instructions. It has 64 registers, each of  which is 32 bits long. It needs to support 45 instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ____________. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16383",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1767/gate2014-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>How many number of times the instruction sequence below will loop before coming out of the loop?<br>\nMOV AL, 00H<br>\nA1:  INC AL<br>\nJNZ A1 <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>255</p>",
+            "<b>C.</b> <p>256</p>",
+            "<b>D.</b> <p>Will not come out of the loop.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>256</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43970/isro-2013-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>In 8086, the jump condition for the instruction JNBE is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CF = 0 or ZF = 0</p>",
+            "<b>B.</b> <p>ZF = 0 and SF = 1</p>",
+            "<b>C.</b> <p>CF = 0 and ZF = 0</p>",
+            "<b>D.</b> <p>CF = 0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>CF = 0 and ZF = 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43969/isro-2013-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the following sequence of micro-operations. <br>\nMBR \\(\\leftarrow\\) PC <br>\nMAR \\(\\leftarrow\\) X <br>\nPC \\(\\leftarrow\\) Y <br>\nMemory \\(\\leftarrow\\) MBR  <br>\nWhich one of the following is a possible operation performed by this sequence? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Instruction fetch</p>",
+            "<b>B.</b> <p>Operand fetch</p>",
+            "<b>C.</b> <p>Conditional branch</p>",
+            "<b>D.</b> <p>Initiation of interrupt service</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Initiation of interrupt service</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1539/gate2013-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Find the memory address of the next instruction executed by the microprocessor (8086), when operated in real mode for CS=1000 and IP=E000 <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10E00</p>",
+            "<b>B.</b> <p>1E000</p>",
+            "<b>C.</b> <p>F000</p>",
+            "<b>D.</b> <p>1000E</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1E000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52485/isro2011-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Compared to CISC processors,RISC processors contain <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>More register and smaller instruction set</p>",
+            "<b>B.</b> <p>larger instruction set</p>",
+            "<b>C.</b> <p>less registers and smaller instruction set</p>",
+            "<b>D.</b> <p>more transistor elements</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>More register and smaller instruction set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18580/isro2009-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>A processor that has carry, overflow and sign flag bits as part of its program status word (PSW) performs addition of the following two 2's complement numbers 01001101 and 11101001. After the execution of this addition operation, the status of the carry, overflow and sign flags, respectively will be <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 1, 0</p>",
+            "<b>B.</b> <p>1, 0, 0</p>",
+            "<b>C.</b> <p>0, 1, 0</p>",
+            "<b>D.</b> <p>1, 0, 1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1, 0, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48064/isro2009-39-gate2008-it_15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>The use of multiple register windows with overlap causes a reduction in the number of memory accesses for:<br>\nI.   Function locals and parameters<br>\nII.  Register saves and restores<br>\nIII. Instruction fetches <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/448/gate2008-37-isro2009-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>A CPU has 24-bit instructions. A program starts at address 300 (in decimal). Which one of the following is a legal program counter (all values in decimal)? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>400</p>",
+            "<b>B.</b> <p>500</p>",
+            "<b>C.</b> <p>600</p>",
+            "<b>D.</b> <p>700</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>600</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/888/gate2006-09-isro2009-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>The Memory Address Register <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is a hardware memory device which denotes the location of the current instruction being executed.</p>",
+            "<b>B.</b> <p>is a group of electrical ckt, that performs the intent of instructions fetched from memory</p>",
+            "<b>C.</b> <p>contains the address of the memory location that is to be read from or stored into</p>",
+            "<b>D.</b> <p>contains a copy of the designated memory location specified by the MAR after a \"read\" or the new contents of the memory prior to a \"write\"</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>contains the address of the memory location that is to be read from or stored into</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49998/isro2008-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Which of the following architecture is/are not suitable for realising SIMD? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Vector processor</p>",
+            "<b>B.</b> <p>Array processor</p>",
+            "<b>C.</b> <p>Von Neumann</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Von Neumann</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49969/isro2008-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider the following Assembly language program<br>\nMVIA\t30 H<br>\nACI\t30 H<br>\nXRA\tA<br>\nPOP\tH<br>\nAfter the execution of the above program, the contents of the accumulator will be <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30 H</p>",
+            "<b>B.</b> <p>60 H</p>",
+            "<b>C.</b> <p>00 H</p>",
+            "<b>D.</b> <p>contents of stack</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>00 H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49921/isro2008-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Assume that EA = (X)+ is the effective address equal to the contents of location X, with X incremented by one word length after the effective address is calculated; EA = -(X) is the effective address equal to the contents of location X, with X decremented by one word length before the effective address is calculated; EA = (X)- is the effective address equal to the contents of location X, with X decremented by one word length after the effective address is calculated. The format of the instruction is (opcode, source, destination), which means (destination \\(\\longleftarrow\\) source op destination). Using X as a stack pointer, which of the following instructions can pop the top two elements from the stack, perform the addition operation and push the result back to the stack. <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ADD (X)-, (X)</p>",
+            "<b>B.</b> <p>ADD (X), (X)-</p>",
+            "<b>C.</b> <p>ADD -(X), (X)+</p>",
+            "<b>D.</b> <p>ADD -(X), (X)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>ADD (X)-, (X)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3348/gate2008-it-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>A processor that has the carry, overflow and sign flag bits as part of its program status word (PSW) performs addition of the following two 2's complement numbers 01001101 and 11101001. After the execution of this addition operation, the status of the carry, overflow and sign flags, respectively will be: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 1, 0</p>",
+            "<b>B.</b> <p>1, 0, 0</p>",
+            "<b>C.</b> <p>0, 1, 0</p>",
+            "<b>D.</b> <p>1, 0, 1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1, 0, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3275/gate2008-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>In an instruction execution pipeline, the earliest that the data TLB (Translation\nLookaside Buffer) can be accessed is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Before effective address calculation has started</p>",
+            "<b>B.</b> <p>During effective address calculation</p>",
+            "<b>C.</b> <p>After effective address calculation has completed</p>",
+            "<b>D.</b> <p>After data cache lookup has completed</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>After effective address calculation has completed</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/449/gate2008-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>The use of multiple register windows with overlap causes a reduction in the\nnumber of memory accesses for<br><br>\nI. Function locals and parameters<br>\nII. Register saves and restores<br>\nIII. Instruction fetches <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/448/gate2008-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Which of the following must be true for the RFE (Return From Exception)\ninstruction on a general purpose processor? <br><br>\nI. It must be a trap instruction<br>\nII. It must be a privileged instruction<br>\nIII. An exception cannot be allowed to occur during execution of an RFE instruction <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>I and II only</p>",
+            "<b>D.</b> <p>I, II and III only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/445/gate2008-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Following table indicates the latencies of operations between the instruction producing the result and instruction using the result.<br>\n\\(\\begin{array}{|l|l|c|} \\hline \\textbf {Instruction producing the result} &amp; \\textbf{Instruction using the result }&amp; \\textbf{Latency} \\\\\\hline \\text{ALU Operation} &amp; \\text{ALU Operation} &amp; 2 \\\\\\hline \\text{ALU Operation} &amp; \\text{Store} &amp; \\text{2}\\\\\\hline \\text{Load} &amp; \\text{ALU Operation} &amp; \\text{1}\\\\\\hline \\text{Load} &amp; \\text{Store} &amp; \\text{0} \\\\\\hline \\end{array}\\)<br>\nConsider the following code segment:<br><pre><code>Load R1, Loc 1; Load R1 from memory location Loc1\n Load R2, Loc 2; Load R2 from memory location Loc 2\n Add R1, R2, R1; Add R1 and R2 and save result in R1\n Dec R2;         Decrement R2\n Dec R1;         Decrement R1\n Mpy R1, R2, R3; Multiply R1 and R2 and save result in R3\n Store R3, Loc 3; Store R3 in memory location Loc 3 </code></pre> <br>\nWhat is the number of cycles needed to execute the above code segment assuming each instruction takes one cycle to execute? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3476/gate2007-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider the following program segment. Here R1, R2 and R3 are the general purpose registers. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q71_d5243e81.jpg\"><br>  Assume that the content of memory location 3000 is 10 and the content of the register R3 is 2000. The content of each of the memory locations from 2000 to 2010 is 100. The program is loaded from the memory location 1000. All the numbers are in decimal. <br><br>Assume that the memory is byte addressable and the word size is 32 bits. If an interrupt occurs during the execution of the instruction \"INC R3\", what return address will be pushed on to the stack? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1005</p>",
+            "<b>B.</b> <p>1020</p>",
+            "<b>C.</b> <p>1024</p>",
+            "<b>D.</b> <p>1040</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43516/gate2007-73#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Consider the following program segment. Here R1, R2 and R3 are the general purpose registers. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q71_d5243e81.jpg\"><br>  Assume that the content of memory location 3000 is 10 and the content of the register R3 is 2000. The content of each of the memory locations from 2000 to 2010 is 100. The program is loaded from the memory location 1000. All the numbers are in decimal. <br><br> Assume that the memory is word addressable. After the execution of this\nprogram, the content of memory location 2010 is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100</p>",
+            "<b>B.</b> <p>101</p>",
+            "<b>C.</b> <p>102</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>100</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43515/gate2007-72#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Consider the following program segment. Here R1, R2 and R3 are the general purpose registers. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q71_d5243e81.jpg\"><br>  Assume that the content of memory location 3000 is 10 and the content of the register R3 is 2000. The content of each of the memory locations from 2000 to 2010 is 100. The program is loaded from the memory location 1000. All the numbers are in decimal. <br><br>Assume that the memory is word addressable. The number of memory references for accessing the data in executing the program completely is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>11</p>",
+            "<b>C.</b> <p>20</p>",
+            "<b>D.</b> <p>21</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>21</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1269/gate2007-71#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>The memory locations 1000,1001 and 1020 have data values 18,1 and 16 respectively before the following program is executed.<br><br>\n\\(\\begin{array}{llll} \\text{MOVI} &amp; \\text{$R_s, 1$} &amp;&amp; \\text{; Move immediate} \\\\ \\text{LOAD} &amp; \\text{$R_d, 1000(R_s)$} &amp;&amp; \\text{; Load from memory}\\\\ \\text{ADDI} &amp; \\text{$ R_d, 1000$} &amp;&amp; \\text{; Add immediate}\\\\ \\text{STOREI} &amp; \\text{$0(R_d), 20$} &amp;&amp; \\text{; Store immediate} \\end{array}\\)<br><br>\nWhich of the statements below is TRUE after the program is executed ? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Memory location 1000 has value 20</p>",
+            "<b>B.</b> <p>Memory location 1020 has value 20</p>",
+            "<b>C.</b> <p>Memory location 1021 has value 20</p>",
+            "<b>D.</b> <p>Memory location 1001 has value 20</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Memory location 1001 has value 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3581/gate2006-it-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Consider these two functions and two statements S1 and S2 about them. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q55_f6311440.jpg\"><br>  S1 : The transformation from work 1 to work 2 is valid, i.e., for any program state\nand input arguments, work 2 will compute the same output and have the same\neffect on program state as work 1 <br>\nS2 : All the transformations applied to work 1 to get work 2 will always improve\nthe performance (i.e. reduce CPU time) of work 2 compared to work 1 <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is false and S2 is false</p>",
+            "<b>B.</b> <p>S1 is false and S2 is true</p>",
+            "<b>C.</b> <p>S1 is true and S2 is false</p>",
+            "<b>D.</b> <p>S1 is true and S2 is true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1 is false and S2 is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1833/gate2006-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Consider a new instruction named branch-on-bit-set (mnemonic bbs). The\ninstruction \"bbs reg, pos, labbel\" jumps to label if bit in position pos of register\noperand reg is one. a register is 32 bits wide and the bits are numbered 0 to 31,\nbit in position 0 being the least significant. Consider the following emulation of\nthis instruction on a processor that does not have bbs implemented. <br><br>\ntemp\\(\\leftarrow\\)reg &amp; mask <br>\nBranch to label if temp is non-zero<br><br>\nThe variable temp is a temporary register. For correct emulation the variable\nmask must be generated by <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>mask \\(\\leftarrow 0 \\times 1 \\lt \\lt pos\\)</p>",
+            "<b>B.</b> <p>musk \\(\\leftarrow 0 \\times ffffffff \\gt \\gt  pos\\)</p>",
+            "<b>C.</b> <p>mask \\(\\leftarrow\\) pos</p>",
+            "<b>D.</b> <p>msdk \\(\\leftarrow 0 \\times f\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>mask \\(\\leftarrow 0 \\times 1 \\lt \\lt pos\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1819/gate2006-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>A CPU has 24-bit instructions. A program starts at address 300 (in decimal). Which one of the following is a legal program counter (all values in decimal)? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>400</p>",
+            "<b>B.</b> <p>500</p>",
+            "<b>C.</b> <p>600</p>",
+            "<b>D.</b> <p>700</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>600</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/888/gate2006-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>If we use internal data forwarding to speed up the performance of a CPU (R1, R2 and R3 are registers and M[100] is a memory reference), then the sequence of operations<br>\nR1 \\(\\rightarrow\\) M[100]<br>\nM[100] \\(\\rightarrow\\) R2<br>\nM[100] \\(\\rightarrow\\) R3<br>\ncan be replaced by <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R1 \\(\\rightarrow\\) R3\nR2 \\(\\rightarrow\\) M[100]</p>",
+            "<b>B.</b> <p>M[100] \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R3</p>",
+            "<b>C.</b> <p>R1 \\(\\rightarrow\\) M[100]\nR2 \\(\\rightarrow\\) R3</p>",
+            "<b>D.</b> <p>R1 \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R3\nR1 \\(\\rightarrow\\) M[100]</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>R1 \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R3\nR1 \\(\\rightarrow\\) M[100]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3689/gate2004-it-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers R1, R2 and R3.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q63_df1a4f4b.jpg\"> <br>  Let the clock cycles required fro various operations be as follows:<br><br>\nRegister to/from memory transfer : 3 clock cycles<br>\nADD with both operands in register : 1 clock cycle<br>\nInstruction fetch and decode : 2 clock cycles per word<br><br>\nThe total number of clock cycles required to execute the program is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>29</p>",
+            "<b>B.</b> <p>24</p>",
+            "<b>C.</b> <p>23</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43570/gate2004-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers R1, R2 and R3. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q63_df1a4f4b.jpg\"> <br> Consider that the memory is byte addressable with size 32 bits, and the program has been loaded starting from memory location 1000 (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1007</p>",
+            "<b>B.</b> <p>1020</p>",
+            "<b>C.</b> <p>1024</p>",
+            "<b>D.</b> <p>1028</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1028</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1058/gate2004-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q48_464367e7.jpg\"> <br> Which of the following instructions when inserted at location X will ensure that\nthe value of register A after program execution is the same as its initial value? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RRC A,# 1</p>",
+            "<b>B.</b> <p>NOP ; no operation</p>",
+            "<b>C.</b> <p>LRC A, # 1 ; left rotate A through carry flag by one bit</p>",
+            "<b>D.</b> <p>ADD A, # 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RRC A,# 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43577/gate2003-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q48_464367e7.jpg\"> <br> If the initial value of register A is A0 the value of register B after the program\nexecution will be <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the number of 0 bits in A0</p>",
+            "<b>B.</b> <p>the number of 1 bits in A0</p>",
+            "<b>C.</b> <p>A0</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the number of 1 bits in A0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/938/gate2003-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>What are the states of the Auxiliary Carry (AC) and Carry Flag (CY) after\nexecuting the following 8085 program ? <br><br>\nMIV H, 5DH <br>\nMIV L, 6BH <br>\nMOV A, H <br>\nADD L <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AC = 0 and CY = 0</p>",
+            "<b>B.</b> <p>AC = 1 and CY = 1</p>",
+            "<b>C.</b> <p>AC = 1 and CY = 0</p>",
+            "<b>D.</b> <p>AC = 0 and CY = 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>AC = 1 and CY = 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/834/gate2002-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>In 8085 which of the following modifies the program counter ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only PCHL instruction</p>",
+            "<b>B.</b> <p>Only ADD instructions</p>",
+            "<b>C.</b> <p>Only JMP and CALL instructions</p>",
+            "<b>D.</b> <p>All instructions</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/814/gate2002-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>To put the 8085 microprocessor in the wait state <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower the HOLD input</p>",
+            "<b>B.</b> <p>lower the READY input</p>",
+            "<b>C.</b> <p>raise the HOLD input</p>",
+            "<b>D.</b> <p>raise the READY input</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>lower the READY input</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/630/gate2000-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically:<br>\na) has fewer instructions<br>\nb) has fewer addressing modes<br>\nc) has more registers<br>\nd) is easier to implement using hardwired control logic <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a and b</p>",
+            "<b>B.</b> <p>b and c</p>",
+            "<b>C.</b> <p>a and d</p>",
+            "<b>D.</b> <p>a, b, c and d</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c and d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1499/gate1999-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Contents of A register after the execution of the following 8085 microprocessor program is <br><pre><code>MVIA, 55 H\nMVI C, 25 H\nADDC\nDAA</code></pre> <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7AH</p>",
+            "<b>B.</b> <p>80H</p>",
+            "<b>C.</b> <p>50H</p>",
+            "<b>D.</b> <p>22H</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>80H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2253/gate1997-5-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>Number of machine cycles required for RET instruction in 8085 microprocessor is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2726/gate1996-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>Suppose a processor does not have any stack pointer register. Which of the\nfollowing statements is true ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It cannot have subroutine call instruction</p>",
+            "<b>B.</b> <p>It can have subroutine call instruction, but no nested subroutine calls.</p>",
+            "<b>C.</b> <p>Nested subroutine calls are possible, but interrupts are not.</p>",
+            "<b>D.</b> <p>All sequences of subroutine calls and also interrupts are possible</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It can have subroutine call instruction, but no nested subroutine calls.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/703/gate2001-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>The most relevant addressing mode to write position-independent codes is: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Direct mode</p>",
+            "<b>B.</b> <p>Indirect mode</p>",
+            "<b>C.</b> <p>Relative mode</p>",
+            "<b>D.</b> <p>Indexed mode</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relative mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80194/gate1987-1-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

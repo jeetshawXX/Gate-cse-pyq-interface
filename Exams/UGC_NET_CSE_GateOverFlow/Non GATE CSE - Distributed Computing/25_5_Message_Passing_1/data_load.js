@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Distributed Computing - Message Passing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Message Passing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61092\"></a><div itemprop=\"text\"><p>Which of the following is not valid with reference to Message Passing Interface(MPI)?</p>\n\n</div><br><br><b>Distributed Computing: UGC NET CSE | Junet 2015 | Part 2 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>MPI can run on any hardware platform</p>",
+            "<p>The programming model is a distributed memory model</p>",
+            "<p>All parallelism is implicit</p>",
+            "<p>MPI- Comm - Size returns the total number of MPI processes in specified communication</p>"
+          ],
+          "correct_answer": "<p>All parallelism is implicit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61092/ugc-net-cse-junet-2015-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/61092/ugc-net-cse-junet-2015-part-2-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

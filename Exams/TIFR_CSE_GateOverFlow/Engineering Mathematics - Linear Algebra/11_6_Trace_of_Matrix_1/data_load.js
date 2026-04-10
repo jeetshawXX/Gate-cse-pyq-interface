@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Trace of Matrix",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Trace of Matrix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"473105\"></a><div itemprop=\"text\"><p>Consider the collection \\( \\mathcal{C} \\) of all possible \\( n \\times n \\) matrices with entries in \\( \\{1, \\ldots, n\\} \\) that obey the following property:</p><ul><li>&nbsp;every row of \\( M \\) is a permutation of \\( \\{1,2, \\ldots, n\\} \\) and every column of \\( M \\) is a permutation of \\( \\{1,2, \\ldots, n\\} \\).</li></ul><p>An example of such a matrix for \\( n=3 \\) is the following.</p><p>\\[<br>M=\\left[\\begin{array}{lll}<br>3 &amp; 2 &amp; 1 \\\\<br>1 &amp; 3 &amp; 2 \\\\<br>2 &amp; 1 &amp; 3<br>\\end{array}\\right]<br>\\]<br>Suppose we choose a matrix \\( X \\) from \\( \\mathcal{C} \\) uniformly at random. What is the expected value of \\( \\textsf{trace}(X)? \\) Recall that the trace of a matrix is the sum of its diagonal entries.</p></div><br><br><b>Linear Algebra: TIFR CSE 2025 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\)</p>",
+            "<p>\\( n^{2} / 2 \\)</p>",
+            "<p>\\( n(n+1) / 2 \\)</p>",
+            "<p>\\( (n+1)^{2} / 2 \\)</p>",
+            "<p>\\( n^{2} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( n(n+1) / 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473105/tifr-cse-2025-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/473105/tifr-cse-2025-part-a-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

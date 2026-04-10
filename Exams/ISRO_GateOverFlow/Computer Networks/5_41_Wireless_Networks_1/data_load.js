@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Wireless Networks",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Wireless Networks",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49645\"></a><div itemprop=\"text\"><p>\\( \\textsf{IEEE 802.11} \\) is standard for</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2007 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ethernet</p>",
+            "<p>Bluetooth</p>",
+            "<p>Broadband Wireless</p>",
+            "<p>Wireless LANs</p>"
+          ],
+          "correct_answer": "<p>Wireless LANs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49645/isro-cse-2007-question-74\" target=\"_blank\">https://gateoverflow.in/49645/isro-cse-2007-question-74</a></p>"
+        }
+      ]
+    }
+  ]
+});

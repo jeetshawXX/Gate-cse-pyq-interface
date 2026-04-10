@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Cryptography",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cryptography",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335139\"></a><div itemprop=\"text\"><p>If \\( h \\) is chosen from a universal collection of hash functions and is used to hash \\( n \\) keys into a table of size \\( m \\), where \\( n \\leq m \\), the expected number of collisions involving a particular key \\( x \\) is less than __________.</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | January 2017 | Part 2 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1/n \\)</p>",
+            "<p>\\( 1/m \\)</p>",
+            "<p>\\( n/m \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335139/ugc-net-cse-january-2017-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/335139/ugc-net-cse-january-2017-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

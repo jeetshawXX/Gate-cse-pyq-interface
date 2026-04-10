@@ -1,0 +1,236 @@
+{
+  "title": "Algorithms - Algorithms - Slot 14",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(G\\) be a directed graph whose vertex set is the set of numbers from 1 to 100. There is an edge from a vertex \\(i\\) to a vertex \\(j\\) iff either \\(j = i + 1\\) or \\(j = 3i\\). The minimum number of edges in a path in G from vertex 1 to vertex 100 is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>23</p>",
+            "<b>D.</b> <p>99</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3817/gate2005-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let G be a weighted undirected graph and e be an edge with maximum weight in G. Suppose there is a minimum weight spanning tree in G containing the edge e. Which of the following statements is always TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exists a cutset in G having all edges of maximum weight.</p>",
+            "<b>B.</b> <p>There exists a cycle in G having all edges of maximum weight.</p>",
+            "<b>C.</b> <p>Edge e cannot be contained in a cycle.</p>",
+            "<b>D.</b> <p>All edges in G have the same weight</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exists a cutset in G having all edges of maximum weight.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3813/gate2005-it-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let T(n) be a function defined by the recurrence <br>\n\\(T(n) = 2T(n/2) + \\sqrt n \\text{   for }n \\geq 2\\) and <br>\n\\(T(1) = 1\\)<br>\nWhich of the following statements is TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n) = \\Theta(\\log n)\\)</p>",
+            "<b>B.</b> <p>\\(T(n) = \\Theta(\\sqrt n)\\)</p>",
+            "<b>C.</b> <p>\\(T(n) = \\Theta(n)\\)</p>",
+            "<b>D.</b> <p>\\(T(n) = \\Theta(n \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(T(n) = \\Theta(n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3812/gate2005-it-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In the following table, the left column contains the names of standard graph algorithms and the right column contains the time complexities of the algorithms. Match each algorithm with its time complexity.<br>\n\\(\\begin{array}{|ll|ll|}\\hline \\text{1.} &amp; \\text{Bellman-Ford algorithm} &amp; \\text{A:} &amp; \\text{$O(m\\log n)$} \\\\\\hline \\text{2.} &amp; \\text{Kruskal's algorithm} &amp; \\text{B:}&amp; \\text{$O(n^3)$} \\\\\\hline \\text{3.}&amp; \\text{Floyd-Warshall algorithm} &amp; \\text{C:} &amp; \\text{$O(nm)$} \\\\\\hline \\text{4.} &amp; \\text{Topological sorting} &amp;\\text{D:} &amp; \\text{$O(n+m)$} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1\\(\\rightarrow\\) C, 2 \\(\\rightarrow\\) A, 3 \\(\\rightarrow\\) B, 4 \\(\\rightarrow\\) D</p>",
+            "<b>B.</b> <p>1\\(\\rightarrow\\) B, 2 \\(\\rightarrow\\) D, 3 \\(\\rightarrow\\) C, 4 \\(\\rightarrow\\) A</p>",
+            "<b>C.</b> <p>1\\(\\rightarrow\\) C, 2 \\(\\rightarrow\\) D, 3 \\(\\rightarrow\\) A, 4 \\(\\rightarrow\\) B</p>",
+            "<b>D.</b> <p>1\\(\\rightarrow\\) B, 2 \\(\\rightarrow\\) A, 3 \\(\\rightarrow\\) C, 4 \\(\\rightarrow\\) D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1\\(\\rightarrow\\) C, 2 \\(\\rightarrow\\) A, 3 \\(\\rightarrow\\) B, 4 \\(\\rightarrow\\) D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3760/gate2005-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In a depth-first traversal of a graph G with n vertices, k edges are marked as tree edges. The number of connected components in G is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k</p>",
+            "<b>B.</b> <p>k+1</p>",
+            "<b>C.</b> <p>n-k-1</p>",
+            "<b>D.</b> <p>n-k</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3759/gate2005-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>We are given 9 tasks T1, T2... T9. The execution of each task requires one unit of time. We can execute one task at a time. Each task Ti has a profit Pi and a deadline di Profit Pi is earned if the task is completed before the end of the dith unit of time.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q87_3ccdd455.jpg\"> <br> What is the maximum profit earned? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>147</p>",
+            "<b>B.</b> <p>165</p>",
+            "<b>C.</b> <p>167</p>",
+            "<b>D.</b> <p>175</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>147</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82514/gate2005-88#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>We are given 9 tasks T1, T2... T9. The execution of each task requires one unit of time. We can execute one task at a time. Each task Ti has a profit Pi and a deadline di Profit Pi is earned if the task is completed before the end of the dith unit of time.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q87_3ccdd455.jpg\"> <br> Are all tasks completed in the schedule that gives maximum profit? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All tasks are completed</p>",
+            "<b>B.</b> <p>T1 and T6 are left out</p>",
+            "<b>C.</b> <p>T1 and T8 are left out</p>",
+            "<b>D.</b> <p>T4 and T6 are left out</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>T4 and T6 are left out</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1406/gate2005-87#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let s and t be two vertices in a undirected graph G=(V, E) having distinct positive edge weights. Let [X, Y] be a partition of V such that s\\(\\in\\)X and t\\(\\in\\)Y. Consider the edge e having the minimum weight amongst all those edges that have one vertex in X and one vertex in Y. <br><br> Let the weight of an edge e denote the congestion on that edge. The congestion on a path is defined to be the maximum of the congestions on the edges of the path. We wish to find the path from s to t having minimum congestion. Which one of the following paths is always such a path of minimum congestion? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a path from s to t in the minimum weighted spanning tree</p>",
+            "<b>B.</b> <p>a weighted shortest path from s to t</p>",
+            "<b>C.</b> <p>an Euler walk from s to t</p>",
+            "<b>D.</b> <p>a Hamiltonian path from s to t</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a path from s to t in the minimum weighted spanning tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82129/gate2005-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let s and t be two vertices in a undirected graph G=(V, E) having distinct positive edge weights. Let [X, Y] be a partition of V such that s\\(\\in\\)X and t\\(\\in\\)Y. Consider the edge e having the minimum weight amongst all those edges that have one vertex in X and one vertex in Y. <br><br> The edge e must definitely belong to: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the minimum weighted spanning tree of G</p>",
+            "<b>B.</b> <p>the weighted shortest path from s to t</p>",
+            "<b>C.</b> <p>each path from s to t</p>",
+            "<b>D.</b> <p>the weighted longest path from s to t</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>the minimum weighted spanning tree of G</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1404/gate2005-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C-function:<pre><code> double foo (int n)\n{\n    int i;\n    double sum;\n    if (n = = 0) return 1.0;\n    else\n    {\n        sum = 0.0;\n        for (i = 0; i &lt; n; i++)\n            sum += foo (i);\n        return sum;\n    }\n} </code></pre>Suppose we modify the above function foo() and store the values of foo (i), \\(0\\leq i \\lt n\\), as and when they are computed. With this modification, the time complexity for function foo() is significantly reduced.  The space complexity of the modified function would be: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(1)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>O(n!)</p>",
+            "<b>D.</b> <p>O(\\(n^{n}\\))</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82146/gate2005-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following C-function:<pre><code> double foo (int n)\n{\n    int i;\n    double sum;\n    if (n = = 0) return 1.0;\n    else\n    {\n        sum = 0.0;\n        for (i = 0; i &lt; n; i++)\n            sum += foo (i);\n        return sum;\n    }\n} </code></pre>  The Asymptotic Notation of space complexity of the above function is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(1)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>O(n!)</p>",
+            "<b>D.</b> <p>O(\\(n^{n}\\))</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1403/gate2005-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following two problems on undirected graphs: <br><br>\n\\(\\alpha\\) : Given G(V,E), does G have an independent set of size |V|-4? <br>\n\\(\\beta\\) : Given G(V,E), does G have an independent set of size 5?<br><br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\alpha\\) is in P and \\(\\beta\\) is NP-complete</p>",
+            "<b>B.</b> <p>\\(\\alpha\\) is NP-complete and \\(\\beta\\) is in P</p>",
+            "<b>C.</b> <p>Both \\(\\alpha\\) and \\(\\beta\\) are NP-complete</p>",
+            "<b>D.</b> <p>Both \\(\\alpha\\) and \\(\\beta\\) are in P</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both \\(\\alpha\\) and \\(\\beta\\) are NP-complete</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1381/gate2005-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let G(V,E) be an undirected graph with positive edge weights. Dijkstra's single source shortest path algorithm can be implemented using the binary heap data structure with time complexity: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(\\(|V|^{2}\\))</p>",
+            "<b>B.</b> <p>O(|E| + |V|log|V|)</p>",
+            "<b>C.</b> <p>O(|V|log|V|)</p>",
+            "<b>D.</b> <p>O((|E| + |V|) log |V|)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>O((|E| + |V|) log |V|)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1374/gate2005-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Suppose \\(T (n) = 2T(n/2) + n, \\) T(0)=T(1)=1  <br>\nWhich one of the following is FALSE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=O(\\(n^{2}\\))</p>",
+            "<b>B.</b> <p>T(n)=\\(\\Theta\\)(n log n)</p>",
+            "<b>C.</b> <p>T(n)=\\(\\Omega (n^{2}\\))</p>",
+            "<b>D.</b> <p>T(n)=O(n log n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>T(n)=\\(\\Omega (n^{2}\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1373/gate2005-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The Asymptotic Notation of computing the transitive closure of a binary relation on a set of n elements is known to be: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>O(n log n)</p>",
+            "<b>C.</b> <p>O(\\(n^{3/2}\\))</p>",
+            "<b>D.</b> <p>O(\\(n^{3}\\))</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>O(\\(n^{3}\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1349/gate2005-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

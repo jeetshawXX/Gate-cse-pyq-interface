@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Computer Knowledge - Hardware",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Hardware",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"180\"></a><div itemprop=\"text\"><p>Which of the following is part of the System Unit?</p><p>&nbsp;</p><ol><li>Monitor</li><li>CPU</li><li>CD-ROM</li><li>Floppy Disk</li><li>Printer</li></ol><p>&nbsp;</p></div><br><br><b>Computer Knowledge: Which of the following is part of the System Unit?</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/180/which-of-the-following-is-part-of-the-system-unit\" target=\"_blank\">https://aptitude.gateoverflow.in/180/which-of-the-following-is-part-of-the-system-unit</a></p>"
+        }
+      ]
+    }
+  ]
+});

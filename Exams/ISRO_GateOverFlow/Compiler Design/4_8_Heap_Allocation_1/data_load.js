@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Heap Allocation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Heap Allocation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182116\"></a><div itemprop=\"text\"><p>Which languages necessarily need heap allocation in the runtime environment?</p>\n\n</div><br><br><b>Compiler Design: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Those that support recursion</p>",
+            "<p>Those that use dynamic scoping&nbsp;</p>",
+            "<p>Those that use global variables</p>",
+            "<p>Those that allow dynamic data structures</p>"
+          ],
+          "correct_answer": "<p>Those that allow dynamic data structures</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182116/isro-dec2017-66\" target=\"_blank\">https://gateoverflow.in/182116/isro-dec2017-66</a></p>"
+        }
+      ]
+    }
+  ]
+});

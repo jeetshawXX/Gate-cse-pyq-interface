@@ -1,0 +1,21 @@
+{
+  "title": "Computer Networks - GATE CSE 2024  Set 1  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "GATE CSE 2024  Set 1  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"422787\"></a><div itemprop=\"text\">Consider sending an \\( \\text{IP} \\) datagram of size \\( 1420 \\) bytes (including \\( 20 \\) bytes of \\( \\text{IP} \\) header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an \\( \\text{MTU} \\) (Maximum Transmission Unit) size of \\( 542 \\) bytes, while the second link (router to receiver) has an \\( \\text{MTU} \\) size of \\( 360 \\) bytes. The number of fragments that would be delivered at the receiver is ____________.</div><br><br><b>GATE CSE 2024 | Set 1 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55\" target=\"_blank\">https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

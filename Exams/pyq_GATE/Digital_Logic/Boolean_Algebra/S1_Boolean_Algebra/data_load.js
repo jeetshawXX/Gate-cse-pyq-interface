@@ -1,0 +1,238 @@
+window.__examLoadCallback({
+  "title": "Boolean_Algebra - Boolean_Algebra - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Boolean_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following Boolean algebraic equation(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{A} B C + A \\bar{B} \\bar{C} + \\bar{A} \\bar{B} \\bar{C} + A \\bar{B} C + ABC = B C + \\bar{B} \\bar{C} + \\bar{A} \\bar{B} \\)</p>",
+            "<b>B.</b> <p>\\(A B + \\bar{A} C + B C = A B + \\bar{A} C \\)</p>",
+            "<b>C.</b> <p>\\((A + C)(\\bar{A} + B) = A B + \\bar{A} C \\)</p>",
+            "<b>D.</b> <p>\\( \\overline{(A + \\bar{B} + \\bar{D})(C + D)(\\bar{A} + C + D)(A + B + \\bar{D})} = \\bar{A} D + \\bar{C} \\bar{D} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(A B + \\bar{A} C + B C = A B + \\bar{A} C \\)</p>",
+            "<b>C.</b> <p>\\((A + C)(\\bar{A} + B) = A B + \\bar{A} C \\)</p>",
+            "<b>D.</b> <p>\\( \\overline{(A + \\bar{B} + \\bar{D})(C + D)(\\bar{A} + C + D)(A + B + \\bar{D})} = \\bar{A} D + \\bar{C} \\bar{D} \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460795/gate-cse-2025-set-2-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Given the following Karnaugh Map for a Boolean function \\(F(w, x, y, z) \\):   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q33_f20ca4cf.webp\"><br>\nWhich one or more of the following Boolean expression(s) represent(s) \\(F \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y\\bar{z} + w \\bar{x} y \\bar{z}  + xz \\)</p>",
+            "<b>B.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y \\bar{z} + w \\bar{x} yz + xz \\)</p>",
+            "<b>C.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x}\\bar{y} \\bar{z} + w \\bar{x} \\bar{y}z +xz \\)</p>",
+            "<b>D.</b> <p>\\(\\bar{x}\\bar{z} + xz \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y\\bar{z} + w \\bar{x} y \\bar{z}  + xz \\)</p>",
+            "<b>D.</b> <p>\\(\\bar{x}\\bar{z} + xz \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460802/gate-cse-2025-set-2-question-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following four-variable Boolean function in sum-of-product form<br><br> \\(F(b_3, b_2, b_1, b_0) = \\sum(0, 2, 4, 8, 10, 11, 12)\\).\n<br><br>\nWhere the value of the function is computed by considering \\(b_3b_2b_1b_0\\) as a 4-bit binary number, where \\(b_3\\) denotes the most significant bit and \\(b_0\\) denotes the least significant bit. Note that there are no don't care terms. Which ONE of the following options is the CORRECT minimized Boolean expression for \\(F\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} + b_1 \\bar{b_2} b_3 \\)</p>",
+            "<b>B.</b> <p>\\( \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} \\)</p>",
+            "<b>C.</b> <p>\\( \\bar{b_2} \\bar{b_0} + b_1 b_2 b_3 \\)</p>",
+            "<b>D.</b> <p>\\( \\bar{b_0} \\bar{b_2} + \\bar{b_3} \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\( \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} + b_1 \\bar{b_2} b_3 \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460048/gate-cse-2025-set-1-question-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(X\\) be a 3-variable Boolean function that produces output as '1' when at least two of the input variables are '1'. Which of the following statement(s) is/are CORRECT, where \\(a, b, c, d, e\\) are Boolean variables? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(X(a, b, X(c, d, e)) = X(X(a, b, c), d, e)\\)</p>",
+            "<b>B.</b> <p>\\(X(a, b, X(a, b, c)) = X(a, b, c)\\)</p>",
+            "<b>C.</b> <p>\\(X(a, b, X(a, c, d)) = (X(a, b, a) \\text{ AND } X(c, d, c))\\)</p>",
+            "<b>D.</b> <p>\\(X(a, b, c) = X(a, X(a, b, c), X(a, c, c))\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(X(a, b, X(a, b, c)) = X(a, b, c)\\)</p>",
+            "<b>D.</b> <p>\\(X(a, b, c) = X(a, X(a, b, c), X(a, c, c))\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460066/gate-cse-2025-set-1-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>For a Boolean variable \\(x\\), which of the following statements is/are FALSE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x.1 = x\\)</p>",
+            "<b>B.</b> <p>\\(x+1 = x\\)</p>",
+            "<b>C.</b> <p>\\(x.x= 0\\)</p>",
+            "<b>D.</b> <p>\\(x+\\bar{x}= 1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x+1 = x\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422877/gate-cse-2024-set-2-question-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a Boolean expression given by \\( F(X, Y, Z)=\\Sigma(3,5,6,7) \\).<br>\nWhich of the following statements is/are CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(F(X, Y, Z)=\\Pi(0,1,2,4)\\)</p>",
+            "<b>B.</b> <p>\\(F(X, Y, Z)=X Y+Y Z+X Z\\)</p>",
+            "<b>C.</b> <p>\\( F(X, Y, Z) \\) is independent of input \\( Y \\)</p>",
+            "<b>D.</b> <p>\\( F(X, Y, Z) \\) is independent of input \\( X \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(F(X, Y, Z)=\\Pi(0,1,2,4)\\)</p>",
+            "<b>B.</b> <p>\\(F(X, Y, Z)=X Y+Y Z+X Z\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422805/gate-cse-2024-set-1-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a Boolean function \\(f(w,x,y,z) \\) such that  <br><br>\\(\\begin{array}{lll} f(w,0,0,z) &amp; = &amp; 1 \\\\ f(1,x,1,z) &amp; =&amp; x+z \\\\ f(w,1,y,z) &amp; = &amp; wz +y \\end{array}\\)<br><br>\nThe number of literals in the minimal sum-of-products expression of  \\(f \\) is ________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357485/gate-cse-2021-set-2-question-52#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following Boolean expression.\n<br><br>\n\\(F=(X+Y+Z)(\\overline X +Y)(\\overline Y +Z)\\)<br><br>\nWhich of the following Boolean expressions is/are equivalent to \\(\\overline F\\) (complement of \\(F\\))? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\((\\overline X +\\overline Y +\\overline Z)(X+\\overline Y)(Y+\\overline Z)\\)</p>",
+            "<b>B.</b> <p>\\(X\\overline Y + \\overline Z\\)</p>",
+            "<b>C.</b> <p>\\((X+\\overline Z)(\\overline Y +\\overline Z)\\)</p>",
+            "<b>D.</b> <p>\\(X\\overline Y +Y\\overline Z + \\bar  X \\bar Y \\bar Z\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(X\\overline Y + \\overline Z\\)</p>",
+            "<b>C.</b> <p>\\((X+\\overline Z)(\\overline Y +\\overline Z)\\)</p>",
+            "<b>D.</b> <p>\\(X\\overline Y +Y\\overline Z + \\bar  X \\bar Y \\bar Z\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357409/gate-cse-2021-set-1-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the Boolean function \\(z(a,b,c)\\). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q28_487c809f.jpg\"><br>Which one of the following minterm lists represents the circuit given above? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(z=\\Sigma (0,1,3,7)\\)</p>",
+            "<b>B.</b> <p>\\(z=\\Sigma (1,4,5,6,7)\\)</p>",
+            "<b>C.</b> <p>\\(z=\\Sigma (2,4,5,6,7)\\)</p>",
+            "<b>D.</b> <p>\\(z=\\Sigma (2,3,5)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(z=\\Sigma (1,4,5,6,7)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333203/gate2020-cs-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>What is the minimum number of 2-input NOR gates required to implement 4-variable function expressed in sum-of-minterms from as \\(f = \\Sigma (0, 2, 5, 7, 8, 10, 13, 15)\\)? Assume that all the inputs and their complements are available. Answer ________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302798/gate2019-cs-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider three 4-variable functions \\(f_1,f_2 \\; and \\; f_3\\), which are expressed in sum-of-minterms<br><br>\n\\(f_1=\\Sigma (0,2,5,8,14)\\)<br>\n\\(f_2=\\Sigma (2,3,6,8,14,15)\\)<br>\n\\(f_3=\\Sigma (2,7,11,14)\\) <br><br>\nFor the following circuit with one AND gate and one XOR gate, the output function f can be expressed as: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q30_614af789.jpg\"> <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Sigma (7,8,11)\\)</p>",
+            "<b>B.</b> <p>\\(\\Sigma (2,7,8,11,14)\\)</p>",
+            "<b>C.</b> <p>\\(\\Sigma (2,14)\\)</p>",
+            "<b>D.</b> <p>\\(\\Sigma (0,2,3,5,6,7,8,11,14,15)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Sigma (7,8,11)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302818/gate2019-cs-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following is NOT a valid identity? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((x\\oplus y)\\oplus z=x\\oplus (y\\oplus z)\\)</p>",
+            "<b>B.</b> <p>\\((x+ y)\\oplus z=x\\oplus (y+z)\\)</p>",
+            "<b>C.</b> <p>\\(x\\oplus y=x+y, \\; if \\; xy=0\\)</p>",
+            "<b>D.</b> <p>\\(x\\oplus y=(xy+x'y')'\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((x+ y)\\oplus z=x\\oplus (y+z)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302842/gate2019-cs-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the minterm list form of a Boolean function F given below. <br>\\(F(P,Q,R,S)=\\sum m(0,2,5,7,9,11)+d(3,8,10,12,14)\\) <br> Here, m denotes a minterm and d denotes a don't care term. The number of essential prime\nimplicants of the function F  is ______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204124/gate2018-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let \\(\\bigoplus\\) and \\(\\bigodot\\) denote the Exclusive OR and Exclusive NOR operations, respectively. Which one of the following is NOT CORRECT? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{P \\bigoplus Q}=P\\bigodot Q\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{P} \\bigoplus Q=P\\bigodot Q\\)</p>",
+            "<b>C.</b> <p>\\(\\overline{P} \\bigoplus \\overline{Q}=P\\bigoplus Q\\)</p>",
+            "<b>D.</b> <p>\\((P \\bigoplus \\overline{P})\\bigoplus  Q=(P\\bigodot\\overline{P})\\bigodot  \\overline{Q}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((P \\bigoplus \\overline{P})\\bigoplus  Q=(P\\bigodot\\overline{P})\\bigodot  \\overline{Q}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204078/gate2018-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Given f(w,x,y,z) = \\(\\sum_{m}\\)\n(0,1,2,3,7,8,10) + \\(\\sum_{d}\\)\n(5,6,11,15), where d represents the don't care\ncondition in Karnaugh maps. Which of the following is a minimum product-of-sums (POS)\nform of f(w,x,y,z) ? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f=\\((\\bar{w}+\\bar{z})(\\bar{x}+z)\\)</p>",
+            "<b>B.</b> <p>f=\\((\\bar{w}+z)(x+z)\\)</p>",
+            "<b>C.</b> <p>f=\\((w+z)(\\bar{x}+z)\\)</p>",
+            "<b>D.</b> <p>f=\\((w+\\bar{z})(\\bar{x}+z)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>f=\\((\\bar{w}+\\bar{z})(\\bar{x}+z)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118370/gate2017-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

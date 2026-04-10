@@ -1,0 +1,207 @@
+{
+  "title": "Analytical Aptitude - Logical Reasoning - Statements Conclusions",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Statements Conclusions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1374\"></a><div itemprop=\"text\"><p><strong>Answer below questions based on the following information:</strong><br>\nElle is three times older than Yogesh. Zaheer is half the age of Wahida. Yogesh is older than Zaheer.</p>\n\n<p>Which of the following can be inferred?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2001 | Question: 135</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Yogesh is older than Wahida.</p>",
+            "<p>Elle is older than Wahida.</p>",
+            "<p>Elle may be younger than Wahida.</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1374/cat-2001-question-135\" target=\"_blank\">https://aptitude.gateoverflow.in/1374/cat-2001-question-135</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1435\"></a><div itemprop=\"text\"><p><strong>Answer below questions based on the following information:</strong><br>\nElle is three times older than Yogesh. Zaheer is half the age of Wahida. Yogesh is older than Zaheer.</p>\n\n<p>Which of the following information will be sufficient to estimate Elle's age?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2001 | Question: 136</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Zaheer is \\( 10 \\) years old.</p>",
+            "<p>Both Yogesh and Wahida are older than Zaheer by the same number of years.</p>",
+            "<p>Both A&nbsp;and B&nbsp;above</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1435/cat-2001-question-136\" target=\"_blank\">https://aptitude.gateoverflow.in/1435/cat-2001-question-136</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6048\"></a><div itemprop=\"text\"><p>Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. The following facts are also known about the committees:</p>\n\n<ol>\n\t<li>The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is \\( 75\\% \\) of the number of bureaucrats in the administration committee.</li>\n\t<li>The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.</li>\n\t<li>\\( 60\\% \\) of the politicians are in the administration committee, and \\( 20\\% \\) are in the teaching committee.</li>\n</ol>\n\n<p>Based on the given information, which of the following statements MUST be FALSE?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The size of the research committee is less than the size of the administration committee.</p>",
+            "<p>In the teaching committee the number of educationalists is equal to the number of politicians.</p>",
+            "<p>In the administration committee the number of bureaucrats is equal to the number of educationalists.</p>",
+            "<p>The size of the research committee is less than the size of the teaching committee.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6048/cat-2018-set-1-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/6048/cat-2018-set-1-question-63</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6047\"></a><div itemprop=\"text\"><p>Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. The following facts are also known about the committees:</p>\n\n<ol>\n\t<li>The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is \\( 75\\% \\) of the number of bureaucrats in the administration committee.</li>\n\t<li>The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.</li>\n\t<li>\\( 60\\% \\) of the politicians are in the administration committee, and \\( 20\\% \\) are in the teaching committee.</li>\n</ol>\n\n<p>What is the number of bureaucrats in the administration committee?</p></div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6047/cat-2018-set-1-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/6047/cat-2018-set-1-question-64</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6046\"></a><div itemprop=\"text\"><p>Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. The following facts are also known about the committees:</p>\n\n<ol>\n\t<li>The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is \\( 75\\% \\) of the number of bureaucrats in the administration committee.</li>\n\t<li>The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.</li>\n\t<li>\\( 60\\% \\) of the politicians are in the administration committee, and \\( 20\\% \\) are in the teaching committee.</li>\n</ol>\n\n<p>What is the number of educationalists in the research committee?</p></div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6046/cat-2018-set-1-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/6046/cat-2018-set-1-question-65</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"6045\"></a><div itemprop=\"text\"><p>Twenty four people are part of three committees which are to look at research, teaching, and administration respectively. No two committees have any member in common. No two committees are of the same size. Each committee has three types of people: bureaucrats, educationalists, and politicians, with at least one from each of the three types in each committee. The following facts are also known about the committees:</p>\n\n<ol>\n\t<li>The numbers of bureaucrats in the research and teaching committees are equal, while the number of bureaucrats in the research committee is \\( 75\\% \\) of the number of bureaucrats in the administration committee.</li>\n\t<li>The number of educationalists in the teaching committee is less than the number of educationalists in the research committee. The number of educationalists in the research committee is the average of the numbers of educationalists in the other two committees.</li>\n\t<li>\\( 60\\% \\) of the politicians are in the administration committee, and \\( 20\\% \\) are in the teaching committee.</li>\n</ol>\n\n<p>Which of the following CANNOT be determined uniquely based on the given information?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The total number of educationalists in the three committees.</p>",
+            "<p>The total number of bureaucrats in the three committees.</p>",
+            "<p>The size of the research committee.</p>",
+            "<p>The size of the teaching committee.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6045/cat-2018-set-1-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/6045/cat-2018-set-1-question-66</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2619\"></a><div itemprop=\"text\"><p><strong>Statements:</strong></p>\n\n<ul>\n\t<li>Some birds are goats.</li>\n\t<li>Some goats are horses.</li>\n\t<li>Some horses are lions.</li>\n\t<li>Some lions are tigers.</li>\n</ul>\n\n<p><strong>Conclusions:</strong></p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Some tigers are goats.</li>\n\t<li>No tiger is goat.</li>\n\t<li>Some lions are birds.</li>\n\t<li>No lion is bird.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Logical Reasoning: How many conclusions are followed</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only either I or II follows</p>",
+            "<p>Only either III or IV follows</p>",
+            "<p>Only either I or II and either III or IV follow</p>",
+            "<p>Only I&nbsp;and III follow</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2619/how-many-conclusions-are-followed\" target=\"_blank\">https://aptitude.gateoverflow.in/2619/how-many-conclusions-are-followed</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"6925\"></a><div itemprop=\"text\"><p>Saurabh: Airlines have made it possible for anyone to travel around the world in much less time than was formerly possible.</p>\n\n<p>Monica: That is not true. Many flights are too expensive for all but the rich.</p>\n\n<p>Monica’s response shows that she interprets Saurabh’s statement to imply that</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2016 MAR Scientist D: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>everyone has an equal right to experience world travel</p>",
+            "<p>world travel is only possible via routes serviced by airlines</p>",
+            "<p>most forms of world travel are not affordable for most people</p>",
+            "<p>anyone can afford to travel long distances by air</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6925/nielit-2016-mar-scientist-d-58\" target=\"_blank\">https://aptitude.gateoverflow.in/6925/nielit-2016-mar-scientist-d-58</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"6924\"></a><div itemprop=\"text\"><p>Nutritionists have recommended that people eat more fiber. Advertisements for a new fiber-supplement pill state only that it contains “\\( 44 \\) percent fiber.”</p>\n\n<p>The advertising claim is misleading in its selection of information on which to focus if which one of the following is true?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2016 MAR Scientist D: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Nutritionists base their recommendation on medical findings that dietary fiber protects against some kinds of cancer.</p>",
+            "<p>It is possible to become addicted to some kinds of advertised pills, such as sleeping pills and painkillers.</p>",
+            "<p>The label of the advertised product recommends taking \\( 3 \\) pills every day.</p>",
+            "<p>The recommended daily intake of fiber is \\( 20 \\) to \\( 30 \\) grams, and the pill contains one-third gram.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6924/nielit-2016-mar-scientist-d-59\" target=\"_blank\">https://aptitude.gateoverflow.in/6924/nielit-2016-mar-scientist-d-59</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"27\"></a><div itemprop=\"text\"><p>Each of the questions below consists of a question and two statements numbered I and II given below it. You have to decide whether the data provided in the statements are sufficient to answer the question. Read both the statements and<br>\nGive answer \\( (1): \\) if the data in statement I alone are sufficient to answer the question, while the data in statement II alone are not sufficient to answer the question.<br>\nGive answer \\( (2): \\) if the data statement II alone are sufficient to answer the question, while the data in statement I alone are not sufficient to answer the equation.<br>\nGive answer \\( (3): \\) if the data either in statement I alone or in statement II alone are sufficient to answer the question.<br>\nGive answer \\( (4): \\) if the data given in both the statements I &amp; II together are not sufficient to answer the question<br>\nGive answer \\( (5): \\) if the data in both the statements I &amp; II together are necessary to answer the question.<br>\n<br>\n1. Village P is towards which direction of village R?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Village R is to the South-East of village T and T is to the North of village?</li>\n\t<li>Village Q is to the South of village P and to the South-West of village R.</li>\n</ol></div><br><br><b>Logical Reasoning: Read the statements and answer the questions</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/27/read-the-statements-and-answer-the-questions\" target=\"_blank\">https://aptitude.gateoverflow.in/27/read-the-statements-and-answer-the-questions</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"26\"></a><div itemprop=\"text\"><ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>In the following questions, the symbols ©, δ , \\\\( , * and % are used with the following meaning as illustrated below:<br>\n\t‘P δ Q’ means ‘P is not greater than Q’.<br>\n\t‘P % Q’ means ‘P is not smaller than Q’.<br>\n\t‘P © Q’ means ‘P is neither greater than nor smaller than Q.<br>\n\t‘P * Q’ means ‘P is smaller than Q’.<br>\n\t<br>\n\tNow in each of the following questions assuming the given statements to be true, find which of the two conclusions I and II given below them is/are definitely true?<br>\n\t<br>\n\tGive answer  \\)(1)\\(  if only Conclusion I is true.<br>\n\tGive answer  \\)(2)\\(  is if only Conclusion II is true.<br>\n\tGive answer  \\)(3)\\(  is either Conclusion I or II is true.<br>\n\tGive answer  \\)(4)\\(  if neither Conclusion I nor II is true.<br>\n\tGive answer  \\)(5)\\(  if both Conclusions I and II are true.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>Statements :</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>R \\ \\) J</li>\n\t<li>J % M,</li>\n\t<li>M © K</li>\n</ol>\n\n<p>Conclusions :</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>K © J</li>\n\t<li>K * J</li>\n</ol></div><br><br><b>Logical Reasoning: Read the statements of symbols and their meanings</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/26/read-the-statements-of-symbols-and-their-meanings\" target=\"_blank\">https://aptitude.gateoverflow.in/26/read-the-statements-of-symbols-and-their-meanings</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"2600\"></a><div itemprop=\"text\"><p>Statements : 1. All chairs laugh.<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Some birds Laugh<br>\n<br>\nConclusions : 1. All Chairs are birds<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Some birds are chairs<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Those who do not laugh are not chairs<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Some birds do not laugh</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>2 follows</li>\n\t<li>1 follows</li>\n\t<li>2,4 follows</li>\n\t<li>4 follows</li>\n\t<li>none follows</li>\n</ol></div><br><br><b>Logical Reasoning: how many conclusions are followed</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2600/how-many-conclusions-are-followed\" target=\"_blank\">https://aptitude.gateoverflow.in/2600/how-many-conclusions-are-followed</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"28\"></a><div itemprop=\"text\">Following are the conditions for selecting Accounts Officer in an organization:<br>\n<br>\nThe candidate must—<br>\n(i) be at least 21 years and not more than 26 years as on 1.11.2011.<br>\n(ii) be a commerce graduate (B.Com.) with at least 55% aggregate marks.<br>\n(iii) have work experience of at least 2 years in theAccounts department of an organization<br>\n(iv) have secured at least 50% marks in the selection process.<br>\n<br>\nIn the case of a candidate who fulfils all the conditions except—<br>\n<br>\n(a) at (i) above but at least 21 years old and not more than 28 years old and has work experience of five as Accounts Assistant in an organization, his/her case is to be referred to GM-Account.<br>\n(b) at (ii) above, but has secured at least 59% aggregate marks in graduation and has secured at least 55% marks in the selection process, his/her case is to be referred to VP-Accounts.<br>\n<br>\nIn each question below, details of one candidate are provided. You have to take one of the following courses of action based on the conditions given above theinformation provided in each question and mark the number of the course of action as your answer.<br>\nYou are not to assume anything otherthan the information provided in each question. All these cases are given to you as on 1.11.2011<br>\n<br>\nMark answer (1) if the case is to be referred to GMAccounts<br>\nMark answer (2) if the case is to be referred to VPAccounts<br>\nMark answer (3) if the candidate is to be selected.<br>\nMark answer (4) if the candidate is not to be selected.<br>\nMark answer (5) if the data provided are inadequate to take a decision.<br>\n<br>\n&nbsp;<br>\n<br>\n1. Umesh Choksi was born on 25th November 1989. He has secured 60% aggregate marks in B.Com. and 65% marks in the Selection Process. He has been working in the Accounts department of an organization for the past three years.<br>\n<br>\n2. Pratibha Kale was born of 6th June 1988. She has secured 60% aggregate marks in B.Com. and 49% marks in the Selection Process. She has been working in the AccountsDepartment of an organization for the past three years.<br>\n<br>\n3. Arun Patil has secured 55% aggregate marks in graduation. He has been working for past four years in the Accounts department of organization. He has secured 50% marks in the Selection process/ he was born on 12th July 1988.<br>\n<br>\n4. Prabha Dixit was born on 18th April 1985. She has been working as Accounts Assistant in an organization for the past five years. She has secured 60% aggregate marks in B.Com. and 55% marks in the Selection Process.<br>\n&nbsp;<br>\n<br>\n5. Amul Verma has secured 50% aggregate marks in B.Com. and 50% marks in the Selection process. He has been working in the Accounts department of an organization for past four years. He was born on 2nd January 1987.</div><br><br><b>Logical Reasoning: read provided information and make decision</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/28/read-provided-information-and-make-decision\" target=\"_blank\">https://aptitude.gateoverflow.in/28/read-provided-information-and-make-decision</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"30\"></a><div itemprop=\"text\">In each question below are two statements followed by two conclusions numbered I and II. You have to take the two given statements to be true even if they seem to be at variance from known facts and then decide which of the given conclusions logically commonly follows from the given statements disregarding commonly known facts.<br>\n<br>\nGive answer(1) if only conclusion I follows.<br>\nGive answer(2) if only conclusion II follows.<br>\nGive answer (3) if either conclusion I or II follows.<br>\nGive answer (4) if neither conclusion I nor II follows.<br>\nGive answer (5) if both conclusions I and II follows.<br>\n<br>\n1. Statements :<br>\nSome gears are wheels. All wheels are brakes.<br>\n<br>\nConclusions :<br>\nI. No brake is gear<br>\nII. Atleast some gears are brakes.<br>\n<br>\n2. Statements :<br>\nNo month is a year. No year is a second.<br>\n<br>\nConclusions :<br>\nI. All months are seconds.<br>\nII. No second is month.<br>\n<br>\n3. Statements :<br>\nNo plane is hill. Some hills are towns.<br>\n<br>\nConclusions :<br>\nI. No town is plane.<br>\nII. Some towns are plane.<br>\n<br>\n4. Statements :<br>\nAll metals are liquids. All liquids are gases.<br>\n<br>\nConclusions :<br>\nI. All metals are gases.<br>\nII. Atleast some gases are liquids.<br>\n<br>\n5. Statements :<br>\nSome cities are towns. Some villages are cities.<br>\n<br>\nConclusions :<br>\nI. Atleast some villages are towns.<br>\nII. No village is a town</div><br><br><b>Logical Reasoning: statements and conclusions</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/30/statements-and-conclusions\" target=\"_blank\">https://aptitude.gateoverflow.in/30/statements-and-conclusions</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"2569\"></a><div itemprop=\"text\"><p>Statements :</p>\n\n<p>1. All bottles are marbles</p>\n\n<p>2. All glasses are marbles</p>\n\n<p>Conclusions:</p>\n\n<p>1. All glasses are bottles</p>\n\n<p>2. Some marbles are not glasses</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>Only Conclusion 1 follows</li>\n\t<li>Only Conclusion 2 follows</li>\n\t<li>Either &nbsp;Conclusion 1 or 2 follows</li>\n\t<li>Niether 1 or 2 follows</li>\n</ol></div><br><br><b>Logical Reasoning: statements and conclusions</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2569/statements-and-conclusions\" target=\"_blank\">https://aptitude.gateoverflow.in/2569/statements-and-conclusions</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"2595\"></a><div itemprop=\"text\">Statements : 1. Most clocks are fans<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Some fans are walls<br>\n<br>\nConclusions: 1. Some walls are fans<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Some clocks are walls</div><br><br><b>Logical Reasoning: statements</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2595/statements-conclusions\" target=\"_blank\">https://aptitude.gateoverflow.in/2595/statements-conclusions</a></p>"
+        }
+      ]
+    }
+  ]
+}

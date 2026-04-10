@@ -1,0 +1,221 @@
+{
+  "title": "Database_Management_System - Database_Management_System - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following tables T1 and T2.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q11_05594a74.jpg\"> <br> In table T1, P is the primary key and Q is the foreign key referencing R in table T2 with ondelete\ncascade and on-update cascade. In table T2, R is the primary key and S is the foreign\nkey referencing P in table T1 on-delete set NULL and on-update cascade. In order to delete\nrecord (3,8) from table T1, the number of additional records that need to be deleted from\ntable T1 is _____. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118236/gate2017-2-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>An ER model of a database consists of entity types A and B. These are connected by a\nrelationship R which does not have its own attribute. Under which one of the following\nconditions, can the relational table for R be merged with that of A? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Relationship R is one-to-many and the participation of A in R is total</p>",
+            "<b>B.</b> <p>Relationship R is one-to-many and the participation of A in R is partial</p>",
+            "<b>C.</b> <p>Relationship R is many-to one and the participation of A in R is total</p>",
+            "<b>D.</b> <p>Relationship R is many-to one and the participation of A in R is partial</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relationship R is many-to one and the participation of A in R is total</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118157/gate2017-2-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a database that has the relation schema CR (StudentName, CourseName). An\ninstance of the schema CR is as given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q53_8cbe5db4.jpg\"><br> The following query is made on the database <br><br>\\(T1\\leftarrow \\pi _{CourseName}(\\sigma _{StudentName='SA'}(CR))\\)<br>\\( T2\\leftarrow CR\\div T1\\) <br><br>The number of rows in T2 is ____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118329/gate2017-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a database system, unique time stamps are assigned to each transaction using Lamport's\nlogical clock . Let TS(\\(T_{1}\\)) and TS(\\(T_{2}\\)) be the timestamps of transactions \\(T_{1}\\) and \\(T_{2}\\) respectively. Besides, \\(T_{1}\\) holds a lock on the resource R, and \\(T_{2}\\) has requested a conflicting lock on the same resource R. The following algorithm is used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same timestamp.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q42_afa2fbc5.jpg\">  <br>Assume any transactions that is not killed terminates eventually. Which of the following is TRUE about the database system that uses the above algorithm to prevent deadlocks? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The database system is both deadlock-free and starvation- free.</p>",
+            "<b>B.</b> <p>The database system is deadlock- free, but not starvation-free.</p>",
+            "<b>C.</b> <p>The database system is starvation-free but not deadlock- free.</p>",
+            "<b>D.</b> <p>The database system is neither deadlock- free nor starvation-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The database system is both deadlock-free and starvation- free.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118325/gate2017-1-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a database that has the relation schemas EMP(EmpId, EmpName, DepId) and\nDEPT(DeptName, DeptId). Note that the DeptId can be permitted to be NULL in the relation\nEMP. Consider the following queries on the database expressed in tuple relational calculus.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q35_fb6f6bf4.jpg\"><br>\nWhich of the above queries are safe? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) and (II) only</p>",
+            "<b>B.</b> <p>(I) and (III) only</p>",
+            "<b>C.</b> <p>(II) and (III) only</p>",
+            "<b>D.</b> <p>(I), (II) and (III)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(I), (II) and (III)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118324/gate2017-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a database that has the relation schema EMP (EmpId, EmpName, and DeptName).\nAn instance of the schema EMP and a SQL query on it are given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q20_fff46230.jpg\"> The output of executing the SQL query is _____. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118303/gate2017-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The following functional dependencies hold true for the relational schema R{V,W,X,Y,Z}: <br>\nV \\(\\rightarrow\\)W <br>\nVW \\(\\rightarrow\\)X <br>\nY\\(\\rightarrow\\) VX <br>\nY \\(\\rightarrow\\)Z <br> Which of the following is irreducible equivalent for this set of functional dependencies ? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>V \\(\\rightarrow\\)W   <br>       V\\(\\rightarrow\\)X <br>\nY \\(\\rightarrow\\)V     <br>       Y \\(\\rightarrow\\)Z</p>",
+            "<b>B.</b> <p>V \\(\\rightarrow\\)W  <br>       W \\(\\rightarrow\\)X<br>\nY\\(\\rightarrow\\) V    <br>       Y\\(\\rightarrow\\) Z</p>",
+            "<b>C.</b> <p>V \\(\\rightarrow\\)W   <br>     V\\(\\rightarrow\\) X<br>\nY\\(\\rightarrow\\) V    <br>     Y \\(\\rightarrow\\)X<br>\nY \\(\\rightarrow\\)Z</p>",
+            "<b>D.</b> <p>V \\(\\rightarrow\\)W  <br>      W\\(\\rightarrow\\) X<br>\nY\\(\\rightarrow\\) V   <br>      Y \\(\\rightarrow\\)X<br>\nY \\(\\rightarrow\\)Z</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>V \\(\\rightarrow\\)W   <br>       V\\(\\rightarrow\\)X <br>\nY \\(\\rightarrow\\)V     <br>       Y \\(\\rightarrow\\)Z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118296/gate2017-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A clustering index is defined on the fields which are of type <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-key and ordering</p>",
+            "<b>B.</b> <p>non-key and non-ordering</p>",
+            "<b>C.</b> <p>key and ordering</p>",
+            "<b>D.</b> <p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/414/gate2008-16-isro2016-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The order of a leaf node in a \\(B^+\\) - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is 1K bytes, data record pointer is 7 bytes long, the value field is 9 bytes long and a block pointer is 6 bytes long, what is the order of the leaf node? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63</p>",
+            "<b>B.</b> <p>64</p>",
+            "<b>C.</b> <p>67</p>",
+            "<b>D.</b> <p>68</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>63</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1261/gate2007-63-isro2016-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Trigger is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statement that enables to start any DBMS</p>",
+            "<b>B.</b> <p>Statement that is executed by the user when debugging an application program</p>",
+            "<b>C.</b> <p>The condition that the system tests for the validity of the database user</p>",
+            "<b>D.</b> <p>Statement that is executed automatically by the system as a side effect of a modification of the database</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Statement that is executed automatically by the system as a side effect of a modification of the database</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56041/isro2016-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Given the relations<br>employee (name, salary, dept-no), and<br>\ndepartment (dept-no, dept-name,address),<br>\nWhich of the following queries cannot be expressed using the basic relational algebra operations \\(\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)\\)? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Department address of every employee</p>",
+            "<b>B.</b> <p>Employees whose name is the same as their department name</p>",
+            "<b>C.</b> <p>The sum of all employees' salaries</p>",
+            "<b>D.</b> <p>All employees of a given department</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The sum of all employees' salaries</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/647/gate2000-1-23-isro2016-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Goals for the design of the logical scheme include <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>avoiding data inconsistency</p>",
+            "<b>B.</b> <p>being able to construct query easily</p>",
+            "<b>C.</b> <p>being able to access data efficiently</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56039/isro2016-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The relation book (title,price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?<br><pre><code> select title\nfrom book as B\nwhere (select count(*)\n    from book as T\n    where T.price&gt;B.price) &lt; 5</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Titles of the four most expensive books</p>",
+            "<b>B.</b> <p>Title of the fifth most inexpensive book</p>",
+            "<b>C.</b> <p>Title of the fifth most expensive book</p>",
+            "<b>D.</b> <p>Titles of the five most expensive books</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Titles of the five most expensive books</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1400/gate2005-77-isro2016-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let R(a,b,c) and S(d,e,f) be two relations in which d is the foreign key of S that refers to the primary key of R. Consider the following four operations R and S<br><br>\nI.   Insert into R<br>\nII.  Insert into S<br>\nIII. Delete from R<br>\nIV.  Delete from S<br><br>\nWhich of the following can cause violation of the referential integrity constraint above? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Both II and III</p>",
+            "<b>C.</b> <p>All of these</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2266/gate1997-6-10-isro2016-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the join of a relation R with a relation S. If R has m tuples and S has n tuples then the maximum and minimum sizes of the join respectively are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m+n and 0</p>",
+            "<b>B.</b> <p>mn and 0</p>",
+            "<b>C.</b> <p>m+n and |m-n|</p>",
+            "<b>D.</b> <p>mn and m+n</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mn and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1471/gate1999-1-18-isro2016-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

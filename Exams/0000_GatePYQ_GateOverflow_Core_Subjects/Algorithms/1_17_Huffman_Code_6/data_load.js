@@ -1,0 +1,91 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Huffman Code",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Huffman Code",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"93172\"></a><div itemprop=\"text\">A language uses an alphabet of six letters, \\( \\left\\{a, b, c, d, e, f\\right\\} \\). The relative frequency of use of each letter of the alphabet in the language is as given below: \\[ \\begin{array}{|ll|ll|}\\hline &amp; \\text{LETTER} &nbsp;&amp; \\text{RELATIVE FREQUENCY OF USE}\\\\\\hline &amp;\\ a &amp;\\ 0.19 &nbsp;\\\\ &amp;\\ b &amp;\\ 0.05 &nbsp;\\\\ &amp;\\ c &amp;\\ 0.17 &nbsp;\\\\ &amp;\\ d &amp;\\ 0.08 &nbsp;\\\\&amp;\\ e &amp;\\ 0.40 \\\\ &amp;\\ f &amp;\\ 0.11 &nbsp;\\\\\\hline \\end{array} \\]Design a prefix binary code for the language which would minimize the average length of the encoded words of the language.</div><br><br><b>GATE CSE 1989 | Question: 13a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.33",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/93172/gate-cse-1989-question-13a\" target=\"_blank\">https://gateoverflow.in/93172/gate-cse-1989-question-13a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1271\"></a><div itemprop=\"text\"><p>Suppose the letters \\( a, \\,b, \\,c, \\,d, \\,e, \\,f \\) have probabilities \\( \\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\frac{1}{16}, \\frac{1}{32}, \\frac{1}{32} \\), respectively.&nbsp;</p>\n\n<p>Which of the following is the Huffman code for the letter \\( a, \\,b, \\,c, \\,d, \\,e, \\,f \\)?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\), \\( 10 \\), \\( 110 \\), \\( 1110 \\), \\( 11110 \\), \\( 11111 \\)</p>",
+            "<p>\\( 11 \\), \\( 10 \\), \\( 011 \\), \\( 010 \\), \\( 001 \\), \\( 000 \\)</p>",
+            "<p>\\( 11 \\), \\( 10 \\), \\( 01 \\), \\( 001 \\), \\( 0001 \\), \\( 0000 \\)</p>",
+            "<p>\\( 110 \\), \\( 100 \\), \\( 010 \\), \\( 000 \\), \\( 001 \\), \\( 111 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\), \\( 10 \\), \\( 110 \\), \\( 1110 \\), \\( 11110 \\), \\( 11111 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1271/gate-cse-2007-question-76\" target=\"_blank\">https://gateoverflow.in/1271/gate-cse-2007-question-76</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"43513\"></a><div itemprop=\"text\"><p>Suppose the letters \\( a, \\,b, \\,c, \\,d, \\,e, \\,f \\) have probabilities \\( \\dfrac{1}{2}, \\dfrac{1}{4}, \\dfrac{1}{8}, \\dfrac{1}{16}, \\dfrac{1}{32}, \\dfrac{1}{32} \\), respectively.&nbsp;</p>\n\n<p>What is the average length of the Huffman code for the letters&nbsp;\\( a, \\,b, \\,c, \\,d, \\,e, \\,f \\)?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2.1875 \\)</p>",
+            "<p>\\( 2.25 \\)</p>",
+            "<p>\\( 1.9375 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1.9375 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43513/gate-cse-2007-question-77\" target=\"_blank\">https://gateoverflow.in/43513/gate-cse-2007-question-77</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"118395\"></a><div itemprop=\"text\">A message is made up entirely of characters from the set \\( X=\\{P, Q, R, S, T\\} \\). The table of probabilities for each of the characters is shown below:\\[ \\begin{array}{|c|c|}\\hline \\textbf{Character} &nbsp;&amp; &nbsp;\\textbf{Probability } \\\\\\hline &nbsp;\\text{\\( P \\)} &amp; \\text{\\( 0.22 \\)} \\\\ &nbsp;\\text{\\( Q \\)} &amp; \\text{\\( 0.34 \\)} \\\\ &nbsp;\\text{\\( R \\)} &amp; \\text{\\( 0.17 \\)} \\\\ \\text{\\( S \\)} &amp; \\text{\\( 0.19 \\)} \\\\ &nbsp;\\text{\\( T \\)} &amp; \\text{\\( 0.08 \\)} \\\\ \\hline\\text{Total} &amp; \\text{\\( 1.00 \\)} \\\\\\hline &nbsp;\\end{array} \\]If a message of \\( 100 \\) characters over \\( X \\) is encoded using Huffman coding, then the expected length of the encoded message in bits is ______.</div><br><br><b>GATE CSE 2017 Set 2 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "225",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118395/gate-cse-2017-set-2-question-50\" target=\"_blank\">https://gateoverflow.in/118395/gate-cse-2017-set-2-question-50</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"357514\"></a><div itemprop=\"text\"><p>Consider the string \\( \\textrm{abbccddeee} \\). Each letter in the string must be assigned a binary code satisfying the following properties:</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>For any two letters, the code assigned to one letter must not be a prefix of the code assigned to the other letter.</li>\n\t<li>For any two letters of the same frequency, the letter which occurs earlier in the dictionary order is assigned a code whose length is at most the length of the code assigned to the other letter.</li>\n</ol>\n\n<p>Among the set of all binary code assignments which satisfy the above two properties, what is the minimum length of the encoded string?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 23 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357514/gate-cse-2021-set-2-question-26\" target=\"_blank\">https://gateoverflow.in/357514/gate-cse-2021-set-2-question-26</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3591\"></a><div itemprop=\"text\"><p>The characters \\( a \\) to \\( h \\) have the set of frequencies based on the first \\( 8 \\) Fibonacci numbers as follows</p>\n\n<p>\\( a : 1 \\), \\( b : 1 \\), \\( c : 2 \\), \\( d : 3 \\), \\( e : 5 \\), \\( f : 8 \\), \\( g : 13 \\), \\( h : 21 \\)</p>\n\n<p>A Huffman code is used to represent the characters. What is the sequence of characters corresponding to the following code?</p>\n\n<p>\\( 110111100111010 \\)</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( fdheg \\)</p>",
+            "<p>\\( ecgdf \\)</p>",
+            "<p>\\( dchfg \\)</p>",
+            "<p>\\( fehdg \\)</p>"
+          ],
+          "correct_answer": "<p>\\( fdheg \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3591/gate-it-2006-question-48\" target=\"_blank\">https://gateoverflow.in/3591/gate-it-2006-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

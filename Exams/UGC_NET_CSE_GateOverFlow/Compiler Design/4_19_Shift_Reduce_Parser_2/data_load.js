@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Shift Reduce Parser",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Shift Reduce Parser",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59632\"></a><div itemprop=\"text\"><p>Shift-Reduce parsers perform the following :&nbsp;</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | December 2014 | Part 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Shift step that advances in the input stream by \\( K(K &gt; 1) \\) symbols and Reduce step that applies a completed grammar rule to some recent parse trees, joining them together as one tree with a new root symbol.&nbsp;</p>",
+            "<p>Shift step that advances in the input stream by one symbol and Reduce step that applies a completed grammar rule to some recent parse trees, joining them together as one tree with a new root symbol.&nbsp;</p>",
+            "<p>Shift step that advances in the input stream by \\( K(K = 2) \\) symbols and Reduce step that applies a completed grammar rule to form a single tree.&nbsp;</p>",
+            "<p>Shift step that does not advance in the input stream and Reduce step that applies a completed grammar rule to form a single tree.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Shift step that advances in the input stream by one symbol and Reduce step that applies a completed grammar rule to some recent parse trees, joining them together as one tree with a new root symbol.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59632/ugc-net-cse-december-2014-part-2-question-31\" target=\"_blank\">https://gateoverflow.in/59632/ugc-net-cse-december-2014-part-2-question-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"316205\"></a><div itemprop=\"text\"><p>Shift-reduce parser consists of</p><ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\"><li>input buffer</li><li>stack</li><li>parse table</li></ol><p>Choose the correct option from those given below:</p></div><br><br><b>Compiler Design: UGC NET CSE | June 2019 | Part 2 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a and b only</p>",
+            "<p>a and c only</p>",
+            "<p>c only</p>",
+            "<p>a, b and c</p>"
+          ],
+          "correct_answer": "<p>a, b and c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316205/ugc-net-cse-june-2019-part-2-question-74\" target=\"_blank\">https://gateoverflow.in/316205/ugc-net-cse-june-2019-part-2-question-74</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,2541 @@
+{
+  "title": "Quantitative Aptitude - Geometry",
+  "duration": 482,
+  "sections": [
+    {
+      "name": "Geometry",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4281\"></a><div itemprop=\"text\"><p>Choose the best alternative</p>\n\n<p>A right circular cone, a right circular cylinder and a hemisphere, all have the same radius, and the heights of the cone and cylinder equal their diameters. Then their volumes are proportional, respectively to:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1:3:1&nbsp;</p>",
+            "<p>2:1:3</p>",
+            "<p>3:2:1&nbsp;</p>",
+            "<p>1:2:3</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4281/cat-1994-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/4281/cat-1994-question-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4284\"></a><div itemprop=\"text\"><p>Choose the best alternative:</p>\n\n<p>A right circular cone of height h’ is cut by a plane parallel to the base and at a distance h/3 from the vertex, then the volumes of the resulting cone and frustum are in the ratio:</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1 : 3</p>",
+            "<p>8 : 19</p>",
+            "<p>1 : 4</p>",
+            "<p>1 : 7</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4284/cat-1994-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/4284/cat-1994-question-59</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4026\"></a><div itemprop=\"text\"><p>The length of a ladder is exactly equal to the height of the wall it is resting against. If lower end of the ladder is kept on a stool of height \\( 3 \\) m and the stool is kept \\( 9 \\) m away from the wall, the upper end of the ladder coincides with the top of the wall. Then, the height of the wall is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 84</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12 \\)m</p>",
+            "<p>\\( 15 \\)m</p>",
+            "<p>\\( 18 \\)m</p>",
+            "<p>\\( 11 \\)m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4026/cat-1995-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/4026/cat-1995-question-84</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3779\"></a><div itemprop=\"text\"><p>A closed wooden box of thickness \\( 0.5 \\) cm and length \\( 21 \\) cm, width \\( 11 \\) cm, and height \\( 6 \\) cm, is panted on the inside. The cost of painting is Rs \\( 70 \\). What is the rate of painting in rupees per sq. cm?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 109</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0.7 \\)&nbsp;</p>",
+            "<p>\\( 0.5 \\)&nbsp;</p>",
+            "<p>\\( 0.1 \\)&nbsp;</p>",
+            "<p>\\( 0.2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3779/cat-1996-question-109\" target=\"_blank\">https://aptitude.gateoverflow.in/3779/cat-1996-question-109</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1225\"></a><div itemprop=\"text\"><p>If \\( a, b, c \\) are the sides of a triangle, and \\( a^2 + b^2 + c^2 = bc + ca + ab \\), then the triangle is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 101</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>equilateral&nbsp;</p>",
+            "<p>isosceles</p>",
+            "<p>right angled&nbsp;</p>",
+            "<p>obtuse angled</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1225/cat-2000-question-101\" target=\"_blank\">https://aptitude.gateoverflow.in/1225/cat-2000-question-101</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1226\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6046905287583556520\"></p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9959427887670346436\" width=\"300\"></p>\n\n<p>In the figure above, \\( \\text{AB = BC = CD = DE = EF = FG = GA}. \\) Then \\( \\measuredangle \\text{DAE} \\) is approximately</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 102</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15^{\\circ} \\)&nbsp;</p>",
+            "<p>\\( 20^{\\circ} \\)</p>",
+            "<p>\\( 30^{\\circ} \\)</p>",
+            "<p>\\( 25^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1226/cat-2000-question-102\" target=\"_blank\">https://aptitude.gateoverflow.in/1226/cat-2000-question-102</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1230\"></a><div itemprop=\"text\"><p>ABCDEFGH is a regular octagon. A and E are opposite vertices of the octagon. A frog starts jumping from vertex to vertex, beginning from A. From any vertex of the octagon except E, it may jump to either of the two adjacent vertices. When&nbsp;it reaches E, the frog stops and stays there. Let an be the number of distinct paths of exactly n jumps ending in E. Then what is the value of \\( a_{2n – 1} \\)?&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 106</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Zero&nbsp;</p>",
+            "<p>Four</p>",
+            "<p>\\( 2n – 1  \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1230/cat-2000-question-106\" target=\"_blank\">https://aptitude.gateoverflow.in/1230/cat-2000-question-106</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1234\"></a><div itemprop=\"text\"><p>A farmer has decided to build a wire fence along one straight side of his property. For this, he planned to place several fence-posts at six metre intervals, with posts fixed at both ends of the&nbsp;side. After he bought the posts and wire, he found that the number of posts he had bought was five less than required. However, he discovered that the number of posts he had bought would be just&nbsp;sufficient if he spaced them eight metres apart. What is the length of the side of his property and how many posts did he buy?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 110</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100 \\)&nbsp;metres, \\( 15 \\)</p>",
+            "<p>\\( 100 \\)&nbsp;metres, \\( 16 \\)</p>",
+            "<p>\\( 120 \\)&nbsp;metres, \\( 15 \\)</p>",
+            "<p>\\( 120 \\)&nbsp;metres, \\( 16 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1234/cat-2000-question-110\" target=\"_blank\">https://aptitude.gateoverflow.in/1234/cat-2000-question-110</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1220\"></a><div itemprop=\"text\"><p>\\( \\text{ABCD} \\) is a rhombus with the diagonals \\( \\text{AC} \\) and \\( \\text{BD} \\) intersecting at the origin on the \\( x-y \\) plane. The equation of the straight line \\( \\text{AD} \\) is \\( x + y = 1. \\) What is the equation of \\( \\text{BC}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 96</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( x + y = –1 \\)</p>",
+            "<p>\\( x – y = –1 \\)</p>",
+            "<p>\\( x + y = 1 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1220/cat-2000-question-96\" target=\"_blank\">https://aptitude.gateoverflow.in/1220/cat-2000-question-96</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1221\"></a><div itemprop=\"text\"><p>Consider a circle with unit radius. There are \\( 7 \\) adjacent sectors, \\( \\text{S}_1, \\text{S}_2, \\text{S}_3,\\dots, \\text{S}_7 \\) in the circle such that their total area is \\( (1/8) \\)th of the area of the circle. Further, the area of the \\( j \\)-th sector is twice that of the \\( (j –1) \\)-th sector, for \\( j = 2, \\dots, 7. \\) What the angle, in radians, subtended by the arc of \\( \\text{S}_1 \\) at the centre of the circle?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 97</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{\\pi}{508} \\)</p>",
+            "<p>\\( \\frac{\\pi}{2040} \\)</p>",
+            "<p>\\( \\frac{\\pi}{1016} \\)</p>",
+            "<p>\\( \\frac{\\pi}{1524} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1221/cat-2000-question-97\" target=\"_blank\">https://aptitude.gateoverflow.in/1221/cat-2000-question-97</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1268\"></a><div itemprop=\"text\"><p>A square, whose side is \\( 2 \\)&nbsp;metres, has its corners cut away so as to form an octagon with all sides equal. Then the length of each side of the octagon, in metres is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{\\sqrt{2}}{\\sqrt{2}+1} \\)</p>",
+            "<p>\\( \\frac{2}{\\sqrt{2}+1} \\)</p>",
+            "<p>\\( \\frac{2}{\\sqrt{2} - 1} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{2}}{\\sqrt{2}-1} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1268/cat-2001-question-2\" target=\"_blank\">https://aptitude.gateoverflow.in/1268/cat-2001-question-2</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1290\"></a><div itemprop=\"text\"><p>Two sides of a plot measure \\( 32 \\)&nbsp;metres and \\( 24 \\)&nbsp;metres and the angle between them is a perfect right angle. The other two sides measure \\( 25 \\)&nbsp;metres each and the other three are not right angles.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13870094253681128254\"></p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4477619579151601852\" width=\"300\"></p>\n\n<p>What is the area of the plot?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 768 \\)</p>",
+            "<p>\\( 534 \\)</p>",
+            "<p>\\( 696.5 \\)</p>",
+            "<p>\\( 684 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1290/cat-2001-question-23\" target=\"_blank\">https://aptitude.gateoverflow.in/1290/cat-2001-question-23</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1297\"></a><div itemprop=\"text\"><p>Euclid has a triangle in mind, Its longest side has length \\( 20 \\) and another of its sides has length \\( 10. \\) Its area is \\( 80. \\) What is the exact length of its third side?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\sqrt{260} \\)</p>",
+            "<p>\\( \\sqrt{250} \\)</p>",
+            "<p>\\( \\sqrt{240} \\)</p>",
+            "<p>\\( \\sqrt{270} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1297/cat-2001-question-29\" target=\"_blank\">https://aptitude.gateoverflow.in/1297/cat-2001-question-29</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1302\"></a><div itemprop=\"text\"><p>In \\( \\triangle \\text{DEF} \\) shown below, points \\( \\text{A, B,} \\) and \\( \\text{C} \\) are taken on \\( \\text{DE, DF} \\) and \\( \\text{EF} \\) respectively such that \\( \\text{EC = AC} \\) and \\( \\text{CF = BC}. \\) If \\( \\measuredangle \\text{D} = 40^{\\circ} \\), then what is \\( \\measuredangle \\text{ACB} \\) in degrees?</p>\n\n<p><img alt=\"\" height=\"263\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6665550268222335746\" width=\"338\"></p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15569463442472083375\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 140 \\)</p>",
+            "<p>\\( 70 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1302/cat-2001-question-34\" target=\"_blank\">https://aptitude.gateoverflow.in/1302/cat-2001-question-34</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1309\"></a><div itemprop=\"text\"><p>Based on the figure below, what is the value of \\( x, \\) if&nbsp;\\( y = 10? \\)</p>\n\n<p><img alt=\"\" height=\"298\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11862182698915537907\" width=\"315\"></p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16452849203053018010\" width=\"300\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1309/cat-2001-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/1309/cat-2001-question-40</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1310\"></a><div itemprop=\"text\"><p>A rectangular pool \\( 20 \\)&nbsp;metres wide and \\( 60 \\)&nbsp;metres long is surrounded by a walkway of uniform width. If the total area of the walkway is \\( 516 \\) square metres, how wide, in metres, is the walkway?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 43 \\) m</p>",
+            "<p>\\( 4.3 \\) m</p>",
+            "<p>\\( 3 \\) m</p>",
+            "<p>\\( 3.5 \\) m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1310/cat-2001-question-41\" target=\"_blank\">https://aptitude.gateoverflow.in/1310/cat-2001-question-41</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1274\"></a><div itemprop=\"text\"><p>A certain city has a circular wall around it, and this wall has four gates pointing north, south, east and west. A house stands outside the city, three km north of the north gate, and it can just be seen from a point nine km east of the south gate. What is the diameter of the wall what surrounds the city?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6 \\) km</p>",
+            "<p>\\( 9 \\) km</p>",
+            "<p>\\( 12 \\) km</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1274/cat-2001-question-7\" target=\"_blank\">https://aptitude.gateoverflow.in/1274/cat-2001-question-7</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1275\"></a><div itemprop=\"text\"><p>In the above diagram, \\( \\text{ABCD} \\) is a rectangle with \\( \\text{AE = EF = FB}. \\) What is the ratio of the area of the triangle \\( \\text{CEF} \\) and that of the rectangle?</p>\n\n<p><img alt=\"\" height=\"224\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11941553501679066200\" width=\"335\"></p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9012125306539735874\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{6} \\)</p>",
+            "<p>\\( \\frac{1}{8} \\)</p>",
+            "<p>\\( \\frac{1}{9} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1275/cat-2001-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/1275/cat-2001-question-8</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"1073\"></a><div itemprop=\"text\"><p>In the following figure, the area of the isosceles right triangle \\( \\text{ABE} \\) is \\( 7 \\) sq.cm. If \\( \\text{EC = 3BE}, \\) then the area of rectangle \\( \\text{ABCD} \\) id (insq.cm.)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13721459038715582085\" width=\"350\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 82 \\)</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 56 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1073/cat-2002-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/1073/cat-2002-question-58</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"1079\"></a><div itemprop=\"text\"><p>In order to cover less distance, a boy – rather than going along the longer and the shorter lengths of the rectangular path, goes by the diagonal. The boy finds that he saved a distance equal to half the longer side. The ration of the length and breadth is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 2/3 \\)</p>",
+            "<p>\\( 3/4 \\)</p>",
+            "<p>\\( 7/15 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1079/cat-2002-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/1079/cat-2002-question-64</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"1085\"></a><div itemprop=\"text\"><p>The internal bisector of an angle \\( \\text{A} \\) in a triangle \\( \\text{ABC} \\) meets the side \\( \\text{BC} \\) at point \\( \\text{D. AB = 4, AC =&nbsp;3} \\) and angle \\( \\text{A} = 60^{\\circ} \\). Then what is the length of the bisector \\( \\text{AD}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{12 \\sqrt{3}}{7} \\)</p>",
+            "<p>\\( \\frac{12 \\sqrt{13}}{7} \\)</p>",
+            "<p>\\( \\frac{4 \\sqrt{13}}{7} \\)</p>",
+            "<p>\\( \\frac{4 \\sqrt{3}}{7} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1085/cat-2002-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/1085/cat-2002-question-70</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"1086\"></a><div itemprop=\"text\"><p>In the figure given below, find the distance \\( \\text{PQ}. \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17467920063756745138\" width=\"350\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7 \\) m</p>",
+            "<p>\\( 4.5 \\) m</p>",
+            "<p>\\( 10.5 \\) m</p>",
+            "<p>\\( 6 \\) m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1086/cat-2002-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/1086/cat-2002-question-71</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"1089\"></a><div itemprop=\"text\"><p>There is a common chord of \\( 2 \\) circles with radius \\( 15 \\) and \\( 20. \\) The distance between the two centres is \\( 25. \\) The length of the chord is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 28 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1089/cat-2002-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/1089/cat-2002-question-74</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"1096\"></a><div itemprop=\"text\"><p>The area of the triangle with the vertices \\( (a,a), (a+1, a) \\) and \\( (a, a+2) \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 81</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( a^3 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1096/cat-2002-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/1096/cat-2002-question-81</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"1103\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the diagram</strong></p>\n\n<p>In the diagram below Angle \\( \\text{ABC} = 90^{\\circ}&nbsp;=&nbsp;&nbsp;\\text{Angle DCH = Angle DOE = Angle EHK = Angle FKL = Angle GLM = Angle LMN,} \\)</p>\n\n<p>\\( \\text{AB = BC = 2CH = 2CD = EH = FK = 2HK = 4KL = 2LM = MN} \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16741505125449625430\" width=\"350\"></p>\n\n<p>The magnitude of Angle \\( \\text{FGO =} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 88</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30^{\\circ} \\)</p>",
+            "<p>\\( 45^{\\circ} \\)</p>",
+            "<p>\\( 60^{\\circ} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1103/cat-2002-question-88\" target=\"_blank\">https://aptitude.gateoverflow.in/1103/cat-2002-question-88</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"1809\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the diagram</strong></p>\n\n<p>In the diagram below Angle \\( \\text{ABC} = 90^{\\circ}&nbsp;=&nbsp;&nbsp;\\text{Angle DCH = Angle DOE = Angle EHK = Angle FKL = Angle GLM = Angle LMN,} \\)</p>\n\n<p>\\( \\text{AB = BC = 2CH = 2CD = EH = FK = 2HK = 4KL = 2LM = MN} \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16741505125449625430\" width=\"500\"></p>\n\n<p>The ratio of the areas of the two quadrangles \\( \\text{ABCD} \\) and \\( \\text{DEFG} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 89</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>​\\( 1:2 \\)</p>",
+            "<p>\\( 2:1 \\)</p>",
+            "<p>\\( 12:7 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1809/cat-2002-question-89\" target=\"_blank\">https://aptitude.gateoverflow.in/1809/cat-2002-question-89</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"1843\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\)&nbsp;if the question can be answered by one of the statements alone but not by the other.</p>\n\n<p>Choose \\( 2 \\) if the question can be answered by using either statement alone.</p>\n\n<p>Choose \\( 3 \\) if the question can be answered by using both the statements together, but cannot be answered by using either statement alone.</p>\n\n<p>Choose \\( 4 \\) if the question cannot be answered even by using both the statements together.</p>\n\n<p>AB is a chord of a circle. AB \\( =5 \\) cm, A tangent parallel to AB touches the minor arc AB at E. What is the radius of the circle?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>AB is not a diameter of the circle.</p>",
+            "<p>The distance between AB and the tangent at E is \\( 5 \\) cm.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1843/cat-2003-question-1-123\" target=\"_blank\">https://aptitude.gateoverflow.in/1843/cat-2003-question-1-123</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"1845\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\)&nbsp;if the question can be answered by one of the statements alone but not by the other.</p>\n\n<p>Choose \\( 2 \\) if the question can be answered by using either statement alone.</p>\n\n<p>Choose \\( 3 \\) if the question can be answered by using both the statements together, but cannot be answered by using either statement alone.</p>\n\n<p>Choose \\( 4 \\) if the question cannot be answered even by using both the statements together.</p>\n\n<p>D, E, F are the mid-points of the sides AB, BC and CA of triangle ABC respectively. What is the area of the DEF in square centimeter?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>AD \\( =1 \\) cm, DF \\( =1 \\) cm and perimeter of DEF \\( =3 \\) cm</p>",
+            "<p>Perimeter of ABC \\( =6 \\) cm, AB \\( =2 \\) cm, and AC \\( =2 \\) cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1845/cat-2003-question-1-125\" target=\"_blank\">https://aptitude.gateoverflow.in/1845/cat-2003-question-1-125</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"1020\"></a><div itemprop=\"text\"><p>Each side of a given polygon is parallel to either the X or the Y axis. A corner of such a polygon is said to be convex if the internal angle is \\( 90^{\\circ} \\) or concanve if the internal angle is \\( 270^{\\circ} \\). If the number of convex corners in such a polygon is \\( 25, \\) the number of concave corners must be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1020/cat-2003-question-1-127\" target=\"_blank\">https://aptitude.gateoverflow.in/1020/cat-2003-question-1-127</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"1023\"></a><div itemprop=\"text\"><p>There are two concentric circles such that the area of the outer circle is four times of the area of inner circle. Let A, B and C be the three distinct points on the perimeter of the outer circle such that AB and AC are tangents to the inner circle. If the area of the outer circle is \\( 12 \\) square centimeters then the area of the triangle ABC (in square centimeter) would be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\pi \\sqrt{12} \\)</p>",
+            "<p>\\( \\frac{9}{\\pi} \\)</p>",
+            "<p>\\( \\frac{9 \\sqrt{3} }{\\pi} \\)</p>",
+            "<p>\\( \\frac{6 \\sqrt{3} }{\\pi} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1023/cat-2003-question-1-130\" target=\"_blank\">https://aptitude.gateoverflow.in/1023/cat-2003-question-1-130</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"1025\"></a><div itemprop=\"text\"><p>Three horses are grazing within a semi-circular field. In the diagram given below, AB is the diameter of the semi-circular field with center at O. Horses are tied up at P, R and S such that PO and RO are the radii of semi-circles with centres at P and R respectively, and S is the centre of the circle touching the two semicircles with diameter AO and OB. The horses tied at P and R can graze within the respective semi-circles and the horse tied at S can graze within the circles centered at S. The percentage of the area of the semi-circle with diameter AB that cannot be grazed by the horses is nearest to</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5955561832811707091\" width=\"350\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1025/cat-2003-question-1-132\" target=\"_blank\">https://aptitude.gateoverflow.in/1025/cat-2003-question-1-132</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"1026\"></a><div itemprop=\"text\"><p>In the figure below, \\( \\text{ABCDEF} \\) is a rectangular hexagon and \\( \\measuredangle&nbsp;\\text{AOF} = 90^{\\circ} \\) is parallel to \\( \\text{ED}. \\) What is the ratio of the area of the triangle \\( \\text{AOF} \\) to that of the hexagon \\( \\text{ABCDEF}? \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=957467850462443204\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{12} \\)</p>",
+            "<p>\\( \\frac{1}{6} \\)</p>",
+            "<p>\\( \\frac{1}{24} \\)</p>",
+            "<p>\\( \\frac{1}{18} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1026/cat-2003-question-1-133\" target=\"_blank\">https://aptitude.gateoverflow.in/1026/cat-2003-question-1-133</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"1030\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{ABC, AB= 6, BC= 8} \\) and \\( \\text{AC=10}. \\) A perpendicular dropped from \\( \\text{B} \\), meets the side \\( \\text{AC} \\) at \\( \\text{D}. \\) A circles of radius \\( \\text{BD} \\) (with centre&nbsp;\\( \\text{B}) \\) is drawn. If the circle cuts \\( \\text{AB} \\) and \\( \\text{BC} \\) at \\( \\text{P} \\) and \\( \\text{Q} \\) respectively, then \\( \\text{AP : QC} \\) is equal to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:1 \\)</p>",
+            "<p>\\( 3:2 \\)</p>",
+            "<p>\\( 4:1 \\)</p>",
+            "<p>\\( 3:8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1030/cat-2003-question-1-136\" target=\"_blank\">https://aptitude.gateoverflow.in/1030/cat-2003-question-1-136</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"1028\"></a><div itemprop=\"text\"><p>In the diagram given below, \\( \\measuredangle&nbsp;\\text{ABD} = \\measuredangle&nbsp;\\text{CDB} = \\measuredangle&nbsp;\\text{PQD} = 90^{\\circ} \\). If \\( \\text{AB : CD} =&nbsp; 3:1, \\) the ratio of \\( \\text{CD : PQ} \\) is</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2113198991303367371\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:0.69 \\)</p>",
+            "<p>\\( 1:0.75 \\)</p>",
+            "<p>\\( 1:0.72 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1028/cat-2003-question-1-137\" target=\"_blank\">https://aptitude.gateoverflow.in/1028/cat-2003-question-1-137</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"1034\"></a><div itemprop=\"text\"><p>In the figure given below, \\( \\text{AB} \\) is the chord of a circle with centre&nbsp;\\( \\text{O. AB} \\) is extended to \\( \\text{C} \\) such that \\( \\text{BC = OB}. \\) The straight line \\( \\text{CO} \\) is produced to meet the circle at \\( \\text{D}. \\) If \\( \\measuredangle&nbsp;\\text{ACD} = y^{\\circ} \\text{ and } \\measuredangle&nbsp;\\text{AOD} = x^{\\circ} \\) such that \\( x=ky, \\) then the value of \\( k \\) is</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11417705307121789865\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1034/cat-2003-question-1-141\" target=\"_blank\">https://aptitude.gateoverflow.in/1034/cat-2003-question-1-141</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"1035\"></a><div itemprop=\"text\"><p>In the figure below, the rectangle at the corner measures \\( 10\\;\\text{cm} \\times&nbsp;20\\;\\text{cm}. \\) The corner A also the rectangle is also a point on the circumference of the circle. What is the radius of the circle in cm?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2157973936614905289\" width=\"200\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10\\;\\text{cm} \\)</p>",
+            "<p>\\( 40\\;\\text{cm} \\)</p>",
+            "<p>\\( 50\\;\\text{cm} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1035/cat-2003-question-1-142\" target=\"_blank\">https://aptitude.gateoverflow.in/1035/cat-2003-question-1-142</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"1975\"></a><div itemprop=\"text\"><p>A piece of paper is in the shape of a right angled triangle and is cut along a line that is parallel to the hypotenuse, leaving a smaller triangle. There was a \\( 35\\% \\) reduction in the length of the hypotenuse of the triangle. If the area of the original triangle was \\( 34 \\) square inches before the cut, what is the area (in square inches) of the smaller triangle?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 16.665 \\)</p>",
+            "<p>\\( 16.565 \\)</p>",
+            "<p>\\( 15.465 \\)</p>",
+            "<p>\\( 14.365 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1975/cat-2003-question-2-51\" target=\"_blank\">https://aptitude.gateoverflow.in/1975/cat-2003-question-2-51</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"1979\"></a><div itemprop=\"text\"><p>A square tin sheet of side \\( 12 \\) inches is converted into a box with open top in the following steps – The sheet is placed horizontally. Then, equal sized squares, each of side x inches, are cut from the four corners of the sheet. Finally, the four resulting sides are bent vertically upwards in the shape of a box. If \\( x \\) is an integer, then what value of \\( x \\) maximizes the volume of the box?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1979/cat-2003-question-2-55\" target=\"_blank\">https://aptitude.gateoverflow.in/1979/cat-2003-question-2-55</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"1991\"></a><div itemprop=\"text\"><p>Answer the question on the basis on the basis of the information given below.<br>\nConsider three circular parks of equal size with centres at \\( A_1,\\:\\: A_2,\\:\\: \\) and \\( A_3 \\) respectively. The parks touch each other at the edge as shown in the figure (not drawn to scale). There are three paths formed by the triangles \\( A_1, \\: A_2, \\: A_3,\\: B_1, \\: B_2, \\: B_3 \\), and \\( C_1, \\: C_2, \\: C_3, \\) as shown. Three sprinters A, B, and C begin running from points \\( A_1,\\: B_1 \\) and \\( C_1 \\) respectively. Each sprinter traverses her respective triangular path clockwise and returns to her starting point.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8597235875588983941\" width=\"350\"></p>\n\n<p>Let the radius of each circular park be \\( r, \\) and the distances to be traversed by the sprinters A, B and C be \\( a, b \\) and \\( c, \\) respectively. Which of the following is true?&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( b-a = c-b = 3 \\sqrt{3} r \\)</p>",
+            "<p>\\( b-a = c-b = \\sqrt{3} r \\)</p>",
+            "<p>\\( b= \\frac{a+c}{2}=2(1+\\sqrt{3})r \\)</p>",
+            "<p>\\( c=2b-a=(2+\\sqrt{3}r \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1991/cat-2003-question-2-66\" target=\"_blank\">https://aptitude.gateoverflow.in/1991/cat-2003-question-2-66</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"2005\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis on the basis of the information given below.</strong><br>Consider three circular parks of equal size with centres at \\( A_1,\\:\\: A_2,\\:\\: \\) and \\( A_3 \\) respectively. The parks touch each other at the edge as shown in the figure (not drawn to scale). There are three paths formed by the triangles \\( A_1, \\: A_2, \\: A_3,\\: B_1, \\: B_2, \\: B_3 \\), and \\( C_1, \\: C_2, \\: C_3, \\) as shown. Three sprinters A, B, and C begin running from points \\( A_1,\\: B_1 \\) and \\( C_1 \\) respectively. Each sprinter traverses her respective triangular path clockwise and returns to her starting point.</p><p><img alt=\"\" width=\"350\" height=\"366\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8597235875588983941\"><br>Sprinter A traverses distances \\( A_1 A_2, A_2 A_3, \\) and \\( A_3 A_1 \\) at average speeds of 20, 30 and 15, respectively. B traverses her entire path at a uniform speed of \\( (10 \\sqrt{3} + 20) \\). C traverses distances \\( C_1 C_2, C_2 C_3 \\), and \\( C_3 C_1 \\) at average speeds of \\( \\frac{40}{3} (\\sqrt{3} +1) \\), \\( \\frac{40}{3} (\\sqrt{3} +1) \\), and 120 respectively. All speeds are in the same unit. Where would B and C be respectively when A finishes her sprint?</p></div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( B_1, \\: C_1 \\)</p>",
+            "<p>\\( B_3, \\: C_3 \\)</p>",
+            "<p>\\( B_1, \\: C_3 \\)</p>",
+            "<p>\\( B_1 \\), Somewhere between \\( C_3 \\) and \\( C_11 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2005/cat-2003-question-2-67\" target=\"_blank\">https://aptitude.gateoverflow.in/2005/cat-2003-question-2-67</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"2006\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis on the basis of the information given below.</strong><br>Consider three circular parks of equal size with centres at \\( A_1,\\:\\: A_2,\\:\\: \\) and \\( A_3 \\) respectively. The parks touch each other at the edge as shown in the figure (not drawn to scale). There are three paths formed by the triangles \\( A_1, \\: A_2, \\: A_3,\\: B_1, \\: B_2, \\: B_3 \\), and \\( C_1, \\: C_2, \\: C_3, \\) as shown. Three sprinters A, B, and C begin running from points \\( A_1,\\: B_1 \\) and \\( C_1 \\) respectively. Each sprinter traverses her respective triangular path clockwise and returns to her starting point.</p><p><br><img alt=\"\" width=\"350\" height=\"366\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8597235875588983941\"></p><p>Sprinters A, B and C traverse their respective paths at uniform speeds u, v and w respectively. It is known that \\( u^2.v^2.w^2 \\) is equal to Area A: Area B: Area C, where Area A, Area B and Area C are the areas of triangles \\( A_1 \\: A_2 \\: A_3, B_1 B_2 B_3 \\), and \\( C_1\\: &nbsp;C_2 \\: C_3 \\), respectively. Where would A and C be when B reaches point \\( B_3 \\)?</p></div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( A_2, \\: C_3 \\)</p>",
+            "<p>\\( A_3, \\: C_3 \\)</p>",
+            "<p>\\( A_3, \\: C_2 \\)</p>",
+            "<p>Somewhere between \\( A_2 \\) and \\( A_3 \\), Somewhere between \\( C_3 \\) and \\( C_1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2006/cat-2003-question-2-68\" target=\"_blank\">https://aptitude.gateoverflow.in/2006/cat-2003-question-2-68</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"2009\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABCDEF} \\) be a regular hexagon. What is the ratio of the area of the triangle \\( \\text{ACE} \\) to that of the hexagon \\( \\text{ABCDEF}? \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8850874565749058445\" width=\"350\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( \\frac{2}{3} \\)</p>",
+            "<p>\\( \\frac{5}{6} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2009/cat-2003-question-2-71\" target=\"_blank\">https://aptitude.gateoverflow.in/2009/cat-2003-question-2-71</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"2014\"></a><div itemprop=\"text\"><p>The length of the circumference of a circle equals the perimeter of a triangle of equal sides, and also the perimeter of a square. The areas covered by the circle, triangle, and square are \\( c, t, \\) and \\( s, \\) respectively. Then,</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( s &gt; t &gt; c \\)</p>",
+            "<p>\\( c &gt; t &gt; s \\)</p>",
+            "<p>\\( c &gt; s &gt; t \\)</p>",
+            "<p>\\( s &gt; c &gt; t \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2014/cat-2003-question-2-76\" target=\"_blank\">https://aptitude.gateoverflow.in/2014/cat-2003-question-2-76</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"2030\"></a><div itemprop=\"text\"><p>In the figure (not drawn to scale) given below, \\( \\text{P} \\) is a point on \\( \\text{AB} \\) such that \\( \\text{AP : PB}&nbsp;= 4:3. \\;\\text{PQ} \\) is parallel to \\( \\text{AC} \\) and \\( \\text{QD} \\) is parallel to \\( \\text{CP.} \\) In \\( \\triangle&nbsp;\\text{ARC},\\measuredangle \\text{ARC}&nbsp;= 90^{\\circ} \\), and in \\( \\triangle&nbsp;\\text{PQS}, \\measuredangle \\text{PSQ} = 90^{\\circ} \\). The length of \\( \\text{QS} \\) is \\( 6 \\) cms. What is ratio \\( \\text{AP : PD}? \\)&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7582969250499673810\" width=\"350\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10:3 \\)</p>",
+            "<p>\\( 2:1 \\)</p>",
+            "<p>\\( 7:3 \\)</p>",
+            "<p>\\( 8:3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2030/cat-2003-question-2-85\" target=\"_blank\">https://aptitude.gateoverflow.in/2030/cat-2003-question-2-85</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"2032\"></a><div itemprop=\"text\"><p>In the figure (not drawn to scale) given below, if \\( \\text{AD = CD = BC}, \\) and \\( \\measuredangle \\text{BCE} = 96^{\\circ} \\), how much is \\( \\measuredangle&nbsp; \\text{DBC}? \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13095888184568236611\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 32^{\\circ} \\)</p>",
+            "<p>\\( 84^{\\circ} \\)</p>",
+            "<p>\\( 64^{\\circ} \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2032/cat-2003-question-2-87\" target=\"_blank\">https://aptitude.gateoverflow.in/2032/cat-2003-question-2-87</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"2036\"></a><div itemprop=\"text\"><p>Consider two different cloth-cutting processes. In the first one, \\( n \\) circular cloth pieces are cut from a square cloth piece of side \\( a \\)&nbsp;in the following steps: the original square of side \\( a \\) is divided into \\( n \\) smaller squares, not necessarily of the same size; then a circle of maximum possible area is cut from each of the smaller squares. In the second process, only one circle of maximum possible area is cut from the square of side a and the process ends there. The cloth pieces remaining after cutting the circles are scrapped in both the processes. The ratio of the total area of scrap cloth generated in the former to that in the latter is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:1 \\)</p>",
+            "<p>\\( \\sqrt{2} : 1 \\)</p>",
+            "<p>\\( \\frac{n(4-\\pi)}{4n-\\pi} \\)</p>",
+            "<p>\\( \\frac{4n-\\pi}{n(4-\\pi)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2036/cat-2003-question-2-91\" target=\"_blank\">https://aptitude.gateoverflow.in/2036/cat-2003-question-2-91</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"2037\"></a><div itemprop=\"text\"><p>In the figure below (not drawn to scale), rectangle \\( \\text{ABCD} \\) is inscribed in the circle with centre at \\( \\text{O}. \\) The length of side \\( \\text{AB} \\) is greater than that of side \\( \\text{BC}. \\) The ratio of the area of the circle to the area of the rectangle \\( \\text{ABCD} \\) is \\( \\pi: 3. \\)&nbsp;The line segment \\( \\text{DE} \\) intersects \\( \\text{AB} \\) at \\( \\text{E} \\) such that \\( \\measuredangle \\text{ODC} = \\measuredangle \\text{ADE}. \\) What is the ratio \\( \\text{AE : AD}? \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16635669474165574833\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:\\sqrt{3} \\)</p>",
+            "<p>\\( 1:\\sqrt{2} \\)</p>",
+            "<p>\\( 1:2\\sqrt{3} \\)</p>",
+            "<p>\\( 1:2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2037/cat-2003-question-2-92\" target=\"_blank\">https://aptitude.gateoverflow.in/2037/cat-2003-question-2-92</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"2040\"></a><div itemprop=\"text\"><p>In the figure given below (not drawn to scale), \\( \\text{A, B} \\) and \\( \\text{C} \\) are three points on a circle with centre \\( \\text{O}. \\) The chord \\( \\text{BA} \\) is extended to a point \\( \\text{T} \\) such that \\( \\text{CT} \\) becomes a tangent to the circle at point \\( \\text{C}. \\) If \\( \\measuredangle \\text{ATC} = 30^{\\circ} \\) and \\( \\measuredangle \\text{ACT} = 50^{\\circ} \\), then the angle \\( \\measuredangle \\text{BOA} \\) is</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1497830796136430075\" width=\"350\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100^{\\circ} \\)</p>",
+            "<p>\\( 150^{\\circ} \\)</p>",
+            "<p>\\( 80^{\\circ} \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2040/cat-2003-question-2-95\" target=\"_blank\">https://aptitude.gateoverflow.in/2040/cat-2003-question-2-95</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"2042\"></a><div itemprop=\"text\"><p>Let \\( S_1 \\) be a square of side a. Another square \\( S_2 \\) is formed by joining the mid-points of the sides of \\( S_1 \\). The same process is applied to \\( S_2 \\) to form yet another square \\( S_3 \\), and so on. If \\( A_1, A_2, A_3, \\dots \\) be the areas and \\( P_1, P_2, P_3, \\dots. \\) be the perimeters of \\( S_1, S_2, S_3, \\dots. \\), respectively, then the ratio \\( \\frac{P_1 + P_2 + P_3 + \\dots}{A_1+ A_2+ A_3 + \\dots} \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{2(1+\\sqrt{2})}{a} \\)</p>",
+            "<p>\\( \\frac{2(2-\\sqrt{2})}{a} \\)</p>",
+            "<p>\\( \\frac{2(2+\\sqrt{2})}{a} \\)</p>",
+            "<p>\\( \\frac{2(1+2\\sqrt{2})}{a} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2042/cat-2003-question-2-97\" target=\"_blank\">https://aptitude.gateoverflow.in/2042/cat-2003-question-2-97</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"864\"></a><div itemprop=\"text\"><p>A rectangular sheet of paper, when halved by folding it at mid-point of its longer side, results in a rectangle, whose longer and shorter sides are in same proportion as the longer and shorter sides of the original rectangle. If the shorter side of the original rectangle is \\( 2, \\) what is the area of the smaller rectangle?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\sqrt{2} \\)</p>",
+            "<p>\\( 2 \\sqrt{2} \\)</p>",
+            "<p>\\(  \\sqrt{2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/864/cat-2004-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/864/cat-2004-question-55</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"865\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p>\n\n<p>In the adjoining figure, I and II are circles with centres P and Q respectively. The two circles touch each other and have a common tangent that touches them at points R and S respectively. This common tangent meets the line P and Q at O. The diameters of I and II are in the ration \\( 4:3. \\) It is also known that the length of PO is \\( 28 \\) cm.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13983073417622505904\" width=\"350\"></p>\n\n<p>What is the ration of the length of PQ to that of QO?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:4 \\)</p>",
+            "<p>\\( 1:3 \\)</p>",
+            "<p>\\( 3:8 \\)</p>",
+            "<p>\\( 3:4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/865/cat-2004-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/865/cat-2004-question-56</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"1866\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>In the adjoining figure, I and II are circles with centres P and Q respectively. The two circles touch each other and have a common tangent that touches them at points R and S respectively. This common tangent meets the line P and Q at O. The diameters of I and II are in the ration \\( 4:3. \\) It is also known that the length of PO is \\( 28 \\) cm.</p><p><img alt=\"\" width=\"350\" height=\"188\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13983073417622505904\"></p><p>What is the radius of the circle II?</p></div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2 cm</p>",
+            "<p>3 cm</p>",
+            "<p>4 cm</p>",
+            "<p>5 cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1866/cat-2004-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/1866/cat-2004-question-57</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"1867\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>In the adjoining figure, I and II are circles with centres P and Q respectively. The two circles touch each other and have a common tangent that touches them at points R and S respectively. This common tangent meets the line P and Q at O. The diameters of I and II are in the ratio \\( 4:3. \\) It is also known that the length of PO is \\( 28 \\) cm.</p><p><img alt=\"\" width=\"350\" height=\"188\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13983073417622505904\"></p><p>The length of SO is</p></div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\sqrt{3} \\) cm</p>",
+            "<p>\\( 10 \\sqrt{3} \\) cm</p>",
+            "<p>\\( 12 \\sqrt{3} \\) cm</p>",
+            "<p>\\( 14 \\sqrt{3} \\) cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1867/cat-2004-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/1867/cat-2004-question-58</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"866\"></a><div itemprop=\"text\"><p>In the adjoining figure, chord \\( \\text{ED} \\) is parallel to the diameter \\( \\text{AC} \\) of the circle. If \\( \\angle&nbsp;\\text{CBE} = 65^{\\circ} \\) then what is the value of \\( \\angle&nbsp;\\text{DEC}? \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17220699188796243694\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 35^{\\circ} \\)</p>",
+            "<p>\\( 55^{\\circ} \\)</p>",
+            "<p>\\( 45^{\\circ} \\)</p>",
+            "<p>\\( 25^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/866/cat-2004-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/866/cat-2004-question-59</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"867\"></a><div itemprop=\"text\"><p>On a semicircle with diameter AD; chord BC is parallel to the diameter. Further, each of the chords AB and CD has length \\( 2, \\) while has length \\( 8. \\) What is the length of BC?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17255771784557765969\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 60</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7.5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 7.75 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/867/cat-2004-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/867/cat-2004-question-60</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"879\"></a><div itemprop=\"text\"><p>Let \\( \\text{C} \\) be a circle with centre \\( \\text{P}_0 \\) and \\( \\text{AB} \\) be a diameter of \\( \\text{C}. \\) suppose \\( \\text{P}_1 \\) is the mid-point of the line segment \\( \\text{P}_0\\text{B}, \\text{P}_2 \\) is the mid-point of the line segment \\( \\text{P}_1\\text{B} \\) and so on. Let \\( \\text{C}_1 \\), \\( \\text{C}_2, \\text{C}_3, \\dots  \\)&nbsp;be the circles with diameters \\( \\text{P}_0&nbsp;\\text{P}_1, \\text{P}_1&nbsp;\\text{P}_2, \\text{P}_2&nbsp;\\text{P}_3 ,\\dots  \\)&nbsp;respectively. Suppose the circles are all shaded. The ratio of the area of the unshaded portion of \\( \\text{C} \\) to that of the original circle \\( \\text{C} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8:9 \\)</p>",
+            "<p>\\( 9:10 \\)</p>",
+            "<p>\\( 10:11 \\)</p>",
+            "<p>\\( 11:12 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/879/cat-2004-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/879/cat-2004-question-69</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"883\"></a><div itemprop=\"text\"><p>A circle with radius \\( 2 \\) is placed against a right angle. Another small circle is also placed as shown in the adjoining figure. What is the radius of the smaller circle?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14202209333424816759\" width=\"200\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3-2 \\sqrt{2} \\)</p>",
+            "<p>\\( 4-2 \\sqrt{2} \\)</p>",
+            "<p>\\( 7-4 \\sqrt{2} \\)</p>",
+            "<p>\\( 6-4 \\sqrt{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/883/cat-2004-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/883/cat-2004-question-73</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"749\"></a><div itemprop=\"text\"><p>Two identical circles intersect so that their centres, and the points at which they intersect, form a square of side \\( 1 \\)&nbsp;cm. The area in sq. cm of the portion that is common to the two circles is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 03</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\pi / 4 \\)</p>",
+            "<p>\\( \\frac{\\pi}{2} – 1 \\)</p>",
+            "<p>\\( \\frac{\\pi}{5} \\)</p>",
+            "<p>\\( \\sqrt{2} – 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/749/cat-2005-question-03\" target=\"_blank\">https://aptitude.gateoverflow.in/749/cat-2005-question-03</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"754\"></a><div itemprop=\"text\"><p>What is the distance in cm between two parallel chords of length \\( 32 \\) cm and \\( 24 \\)&nbsp;cm in a circle of radius \\( 20 \\) cm?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 09</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\) or \\( 7 \\)</p>",
+            "<p>\\( 2 \\) or \\( 14 \\)</p>",
+            "<p>\\( 3 \\) or \\( 21 \\)</p>",
+            "<p>\\( 4 \\) or \\( 28 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/754/cat-2005-question-09\" target=\"_blank\">https://aptitude.gateoverflow.in/754/cat-2005-question-09</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"763\"></a><div itemprop=\"text\"><p>Four points \\( \\text{A, B, C} \\) and \\( \\text{D} \\) lie on the straight line in \\( \\text{X-Y} \\) plane, such that \\( \\text{AB = BC = CD} \\) and the length of \\( \\text{AB} \\) is \\( 1 \\) meter. An ant at \\( \\text{A} \\)&nbsp;wants to reach a sugar particle at \\( \\text{D}. \\) But there are insect repellents kept at points \\( \\text{B} \\) and \\( \\text{C}. \\) The ant would not go within any insect repellent. The minimum distance in meters the ant must traverse to reach the sugar particle is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3\\sqrt{2} \\)</p>",
+            "<p>\\( 1 + \\pi \\)</p>",
+            "<p>\\( \\frac{4 \\pi}{3} \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/763/cat-2005-question-17\" target=\"_blank\">https://aptitude.gateoverflow.in/763/cat-2005-question-17</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"767\"></a><div itemprop=\"text\"><p>Rectangular tiles each of size \\( 70 \\) cm by \\( 30 \\) cm must be laid horizontally on a rectangular floor of size \\( 110 \\) cm by \\( 130 \\)&nbsp;cm, such that the tiles do not overlap. A tile can be placed in any orientation so long as its edges are parallel to the edges on the floor. No tile should overshoot any edge of the floor. The maximum number of tiles that can be accommodated on the floor is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/767/cat-2005-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/767/cat-2005-question-20</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"769\"></a><div itemprop=\"text\"><p>In the following figure, the diameter of the circle is \\( 3 \\) cm. \\( \\text{AB} \\) and \\( \\text{MN} \\) are two diameters such that \\( \\text{MN} \\) is perpendicular to \\( \\text{AB.} \\) In addition, \\( \\text{CG} \\) is perpendicular to \\( \\text{AB} \\) such that \\( \\text{AE : EB} = 1 : 2, \\) and \\( \\text{DF} \\) is perpendicular to \\( \\text{MN} \\) such that \\( \\text{NL : LM}&nbsp;= 1:2. \\) The length of \\( \\text{DH} \\) in cm is</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2017438263505846156\" width=\"400\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2\\sqrt{2} -1 \\)</p>",
+            "<p>\\( ((2\\sqrt{2} -1 ))/2 \\)</p>",
+            "<p>\\( ((3\\sqrt{2} -1 ))/2 \\)</p>",
+            "<p>\\( ((2\\sqrt{2} -1 ))/3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/769/cat-2005-question-22\" target=\"_blank\">https://aptitude.gateoverflow.in/769/cat-2005-question-22</a></p>"
+        },
+        {
+          "id": 63,
+          "question": "<p><a name=\"770\"></a><div itemprop=\"text\"><p>Consider the triangle \\( \\text{ABC} \\) shown in the following figure where \\( \\text{BC = 12 cm, DB =9 cm, CD=6 cm,} \\) and \\( \\angle \\text{BCD} = \\angle \\text{BAC}. \\) What is the ratio of the perimeter of the triangle \\( \\text{ADC} \\) to that of the triangle \\( \\text{BDC}? \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15163459528750804774\" width=\"350\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7/9 \\)</p>",
+            "<p>\\( 8/9 \\)</p>",
+            "<p>\\( 6/9 \\)</p>",
+            "<p>\\( 5/9 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/770/cat-2005-question-23\" target=\"_blank\">https://aptitude.gateoverflow.in/770/cat-2005-question-23</a></p>"
+        },
+        {
+          "id": 64,
+          "question": "<p><a name=\"771\"></a><div itemprop=\"text\"><p>\\( \\text{P, Q, S} \\) and \\( \\text{R} \\) are points on the circumference of a circle of radius \\( r, \\) such that \\( \\text{PQR} \\)&nbsp;is an equilateral triangle and \\( \\text{PS} \\) is a diameter of the circle. What is the perimeter of the quadrilateral \\( \\text{PQSR}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2r(1+\\sqrt{3}) \\)</p>",
+            "<p>\\( 2r(2+\\sqrt{3}) \\)</p>",
+            "<p>\\( r(1+\\sqrt{5}) \\)</p>",
+            "<p>\\( 2r +\\sqrt{3} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/771/cat-2005-question-24\" target=\"_blank\">https://aptitude.gateoverflow.in/771/cat-2005-question-24</a></p>"
+        },
+        {
+          "id": 65,
+          "question": "<p><a name=\"777\"></a><div itemprop=\"text\"><p>A rectangular floor is fully covered with square tiles of identical size. The tiles on the edges are white and the tiles in the interior are red. The number of white tiles is the same as the number of red tiles. A possible value of the number of tiles along one edge of the floor is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/777/cat-2005-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/777/cat-2005-question-30</a></p>"
+        },
+        {
+          "id": 66,
+          "question": "<p><a name=\"735\"></a><div itemprop=\"text\"><p><strong>Below question is on the basis of information given below:</strong></p>\n\n<p>A punching machine is used to punch a circular hole of diameter \\( 2 \\) units from a square sheet of aluminium of width \\( 2 \\) units, as shown below. The hole is punched such that circular hole touches one corner P of the square sheet and the diameter of the hole originating at P is in line with a diagonal of the square.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16803070437006783365\" width=\"325\"></p>\n\n<p>The proportion of the sheet area that remains after punching is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\pi + 2) / 8 \\)</p>",
+            "<p>\\( (6- \\pi) /8 \\)</p>",
+            "<p>\\( (4- \\pi) /4 \\)</p>",
+            "<p>\\( (\\pi – 2) /4 \\)</p>",
+            "<p>\\( (14-3 \\pi) /6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/735/cat-2006-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/735/cat-2006-question-63</a></p>"
+        },
+        {
+          "id": 67,
+          "question": "<p><a name=\"1888\"></a><div itemprop=\"text\"><p><strong>Below question is on the basis of information given below:</strong></p>\n\n<p>A punching machine is used to punch a circular hole of diameter \\( 2 \\) units from a square sheet of aluminium of width \\( 2 \\) units, as shown below. The hole is punched such that circular hole touches one corner P of the square sheet and the diameter of the hole originating at P is in line with a diagonal of the square.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=922397100210903065\"></p>\n\n<p>Find the area of the part of the circle (round punch)falling outside the square sheet</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\pi /4 \\)</p>",
+            "<p>\\( (\\pi – 1) /2 \\)</p>",
+            "<p>\\( (\\pi – 1) /4 \\)</p>",
+            "<p>\\( (\\pi – 2) /2 \\)</p>",
+            "<p>\\( (\\pi – 2) /4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1888/cat-2006-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/1888/cat-2006-question-64</a></p>"
+        },
+        {
+          "id": 68,
+          "question": "<p><a name=\"741\"></a><div itemprop=\"text\"><p>A semi-circle is drawn with \\( \\text{AB} \\) as its diameter. From \\( \\text{C} \\), a point on \\( \\text{AB,} \\) a line perpendicular to \\( \\text{AB} \\) is drawn meeting the circumference of the semi-circle at \\( \\text{D.} \\) Given that \\( \\text{AC = 2 cm} \\) and \\( \\text{CD = 6 cm} \\) the area of the semi-circle (in sq. cm) will be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 32 \\pi \\)</p>",
+            "<p>\\( 50 \\pi \\)</p>",
+            "<p>\\( 40.5 \\pi \\)</p>",
+            "<p>\\( 81 \\pi \\)</p>",
+            "<p>undeterminable</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/741/cat-2006-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/741/cat-2006-question-71</a></p>"
+        },
+        {
+          "id": 69,
+          "question": "<p><a name=\"746\"></a><div itemprop=\"text\"><p>An equilateral triangle \\( \\text{BP} \\) is drawn inside a square \\( \\text{ABCD}. \\) What is the value of the angle \\( \\text{APD} \\) in degrees?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 75</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 75 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 135 \\)</p>",
+            "<p>\\( 150 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/746/cat-2006-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/746/cat-2006-question-75</a></p>"
+        },
+        {
+          "id": 70,
+          "question": "<p><a name=\"576\"></a><div itemprop=\"text\"><p>Two circles with centres&nbsp;\\( \\text{P} \\) and \\( \\text{Q} \\) cut each other at two distinct points \\( \\text{A} \\) and \\( \\text{B}. \\) The circles have the same radii and neither \\( \\text{P} \\) nor \\( \\text{Q} \\) falls within the intersection of the circles. What is the smallest range that includes all possible values of the angle \\( \\text{AQP} \\) in degrees?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 03</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Between \\( 0 \\) and \\( 90 \\)</p>",
+            "<p>Between \\( 0 \\) and \\( 30 \\)</p>",
+            "<p>Between \\( 0 \\) and \\( 60 \\)</p>",
+            "<p>Between \\( 0 \\) and \\( 75 \\)</p>",
+            "<p>Between \\( 0 \\) and \\( 45 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/576/cat-2007-question-03\" target=\"_blank\">https://aptitude.gateoverflow.in/576/cat-2007-question-03</a></p>"
+        },
+        {
+          "id": 71,
+          "question": "<p><a name=\"508\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{ABC} \\), the lengths of the sides \\( \\text{AB} \\) and \\( \\text{AC} \\) equal \\( 17.5 \\) cm and \\( 9 \\) cm respectively. Let \\( \\text{D} \\) be a point on the line segment \\( \\text{BC} \\) such that \\( \\text{AD} \\) is perpendicular to \\( \\text{BC}. \\) If \\( \\text{AD} = 3 \\) cm, then what is the radius (in cm) of the circle circumscribing the triangle \\( \\text{ABC}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 07</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 17.05 \\)</p>",
+            "<p>\\( 27.85 \\)</p>",
+            "<p>\\( 22.45 \\)</p>",
+            "<p>\\( 32.25 \\)</p>",
+            "<p>\\( 26.25 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/508/cat-2008-question-07\" target=\"_blank\">https://aptitude.gateoverflow.in/508/cat-2008-question-07</a></p>"
+        },
+        {
+          "id": 72,
+          "question": "<p><a name=\"518\"></a><div itemprop=\"text\"><p>Consider a square \\( \\text{ABCD} \\) with midpoints \\( \\text{E, F, G, H} \\) of \\( \\text{AB, BC, CD} \\) and \\( \\text{DA} \\) respectively. Let \\( \\text{L} \\) denote the line passing through \\( \\text{F} \\) and \\( \\text{H}. \\)&nbsp;Consider points \\( \\text{P} \\) and \\( \\text{Q}, \\) on \\( \\text{L} \\) and inside \\( \\text{ABCD}, \\) such that the angles \\( \\text{APD} \\) and \\( \\text{BQC} \\) both equal \\( 120^{\\circ} \\). What is the ratio of the area of \\( \\text{ABQCDP} \\) to the remaining area inside \\( \\text{ABCD}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{4 \\sqrt{2} } {3} \\)</p>",
+            "<p>\\( 2 + \\sqrt{3} \\)</p>",
+            "<p>\\( \\frac{10-3 \\sqrt{3} } {9}  \\)</p>",
+            "<p>\\( 1+ \\frac{1}{\\sqrt{3} } \\)</p>",
+            "<p>\\( 2 \\sqrt{3} -1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/518/cat-2008-question-18\" target=\"_blank\">https://aptitude.gateoverflow.in/518/cat-2008-question-18</a></p>"
+        },
+        {
+          "id": 73,
+          "question": "<p><a name=\"519\"></a><div itemprop=\"text\"><p>Consider obtuse-angled triangles with sides \\( 8 \\) cm, \\( 15 \\) cm and \\( x \\) cm. If x is an integer, then how many such triangles exist?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/519/cat-2008-question-19\" target=\"_blank\">https://aptitude.gateoverflow.in/519/cat-2008-question-19</a></p>"
+        },
+        {
+          "id": 74,
+          "question": "<p><a name=\"533\"></a><div itemprop=\"text\"><p>Two circles, both of radii \\( 1 \\)&nbsp;cm, intersect such that the circumference of each one passes through the centre of the other. What is the area (in sq cm) of the intersecting region?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{\\pi}{3} - \\frac{\\sqrt{3}} {4}  \\)</p>",
+            "<p>\\( \\frac{2 \\pi}{3} + \\frac{\\sqrt{3}} {2}  \\)</p>",
+            "<p>\\( \\frac{4 \\pi}{3} - \\frac{\\sqrt{3}} {2}  \\)</p>",
+            "<p>\\( \\frac{4 \\pi}{3} + \\frac{\\sqrt{3}} {2}  \\)</p>",
+            "<p>\\( \\frac{2 \\pi}{3} - \\frac{\\sqrt{3}} {2}  \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/533/cat-2008-question-23\" target=\"_blank\">https://aptitude.gateoverflow.in/533/cat-2008-question-23</a></p>"
+        },
+        {
+          "id": 75,
+          "question": "<p><a name=\"800\"></a><div itemprop=\"text\"><p>M is the center of the circle. \\( l(\\text{QS})=10 \\sqrt{2},l (\\text{PR}) = l(\\text{RS}) \\) and \\( \\text{PR} \\| \\text{QS} \\). Find the area of the shaded region. (use \\( \\pi=3 \\))</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2548509494214846038\" width=\"200\"></p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 100 \\) sq. units</li>\n\t<li>\\( 114 \\) sq. units</li>\n\t<li>\\( 50 \\) sq. units</li>\n\t<li>\\( 200 \\) sq. units</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2009 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/800/cat-2009-question-18\" target=\"_blank\">https://aptitude.gateoverflow.in/800/cat-2009-question-18</a></p>"
+        },
+        {
+          "id": 76,
+          "question": "<p><a name=\"5023\"></a><div itemprop=\"text\"><p>\\( \\text{ABCD} \\) is a rectangle. The points \\( \\text{P} \\) and \\( \\text{Q} \\) lie on \\( \\text{AD} \\) and \\( \\text{AB} \\) respectively. If the triangle \\( \\text{PAQ, QBC} \\) and \\( \\text{PCD} \\) all have the same areas and \\( \\text{BQ} = 2 \\), then \\( \\text{AQ} =  \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1+\\sqrt{5} \\)</p>",
+            "<p>\\( 1-\\sqrt{5} \\)</p>",
+            "<p>\\( \\sqrt{7} \\)</p>",
+            "<p>\\( 2\\sqrt{7} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5023/cat-2010-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/5023/cat-2010-question-11</a></p>"
+        },
+        {
+          "id": 77,
+          "question": "<p><a name=\"5030\"></a><div itemprop=\"text\"><p>Consider the following statements :</p>\n\n<p>When two straight lines intersect, then :</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>adjacent angles are complementary</li>\n\t<li>adjacent angles are supplementary</li>\n\t<li>opposite angles are equal</li>\n\t<li>opposite angles are supplementary</li>\n</ol>\n\n<p>Of these statements:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>(I)&nbsp;and (III)&nbsp;are correct</p>",
+            "<p>(II)&nbsp;and (III)&nbsp;are correct</p>",
+            "<p>(I)&nbsp;and (IV)&nbsp;are correct</p>",
+            "<p>(II)&nbsp;and (IV)&nbsp;are correct</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5030/cat-2010-question-4\" target=\"_blank\">https://aptitude.gateoverflow.in/5030/cat-2010-question-4</a></p>"
+        },
+        {
+          "id": 78,
+          "question": "<p><a name=\"5029\"></a><div itemprop=\"text\"><p>A pole has to be erected on the boundary of a circular park of diameter \\( 13 \\) meters in such a way that the difference of its&nbsp;distances from two diametrically opposite fixed gates \\( \\text{A} \\) and \\( \\text{B} \\) on the boundary is \\( 7 \\) meters. The distance of the pole from one of the gates is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\) metres</p>",
+            "<p>\\( 8.25 \\) metres</p>",
+            "<p>\\( 5 \\) metres</p>",
+            "<p>None these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5029/cat-2010-question-5\" target=\"_blank\">https://aptitude.gateoverflow.in/5029/cat-2010-question-5</a></p>"
+        },
+        {
+          "id": 79,
+          "question": "<p><a name=\"5028\"></a><div itemprop=\"text\"><p>From a square piece of card-board measuring \\( 2a \\) on each side of a box with no top is to be formed by cutting&nbsp;out from each corner a square with sides \\( b \\) and bending up the flaps. The value of \\( b \\) for which the box has the greatest volume is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( b= \\frac{a}{5} \\)</p>",
+            "<p>\\( b= \\frac{a}{4} \\)</p>",
+            "<p>\\( b= \\frac{2a}{3} \\)</p>",
+            "<p>\\( b= \\frac{a}{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5028/cat-2010-question-6\" target=\"_blank\">https://aptitude.gateoverflow.in/5028/cat-2010-question-6</a></p>"
+        },
+        {
+          "id": 80,
+          "question": "<p><a name=\"5027\"></a><div itemprop=\"text\"><p>The sum of the areas of two circles which touch each other externally is&nbsp;\\( 153\\pi \\). If the sum of their radii is \\( 15 \\), find the ratio of the larger to the smaller radius</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5027/cat-2010-question-7\" target=\"_blank\">https://aptitude.gateoverflow.in/5027/cat-2010-question-7</a></p>"
+        },
+        {
+          "id": 81,
+          "question": "<p><a name=\"5541\"></a><div itemprop=\"text\"><p>In the figure alongside, \\( \\triangle \\text{ABC} \\) is equilateral with area \\( \\text{S. M} \\) is&nbsp;the mid-point of \\( \\text{BC and P} \\) is a point on&nbsp;\\( \\text{AM} \\) extended such that \\( \\text{MP = BM} \\). If the semi-circle on \\( \\text{AP intersects CB} \\) extended at \\( \\text{Q} \\) and the area of a square with \\( \\text{MQ} \\)&nbsp;as a side is \\( \\text{T} \\), which of the following is true?&nbsp;</p>\n\n<p>&nbsp; &nbsp;&nbsp;<img alt=\"\" height=\"300\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=121195126166938801\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{T} = \\sqrt{2}\\; \\text{S} \\)</p>",
+            "<p>\\( \\text{T = S} \\)</p>",
+            "<p>\\( T = \\sqrt{3}\\; \\text{S} \\)</p>",
+            "<p>\\( \\text{T = 2S} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5541/cat-2011-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/5541/cat-2011-question-10</a></p>"
+        },
+        {
+          "id": 82,
+          "question": "<p><a name=\"5537\"></a><div itemprop=\"text\"><p>In the figure alongside, \\( \\text{O} \\) is the centre of the circle and \\( \\text{AC} \\) is the diameter. The line \\( \\text{FEG} \\) is tangent to the circle at \\( \\text{E} \\). If \\( \\angle \\text{GEC}= 52^{\\circ} \\), find the value of \\( \\angle e+\\angle&nbsp;c. \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7837486049464479416\" width=\"400\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 154^{\\circ} \\)</p>",
+            "<p>\\( 156^{\\circ} \\)</p>",
+            "<p>\\( 166^{\\circ} \\)</p>",
+            "<p>\\( 180^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5537/cat-2011-question-14\" target=\"_blank\">https://aptitude.gateoverflow.in/5537/cat-2011-question-14</a></p>"
+        },
+        {
+          "id": 83,
+          "question": "<p><a name=\"5536\"></a><div itemprop=\"text\"><p>Rekha drew a circle of radius \\( 2\\;\\text{cm} \\) on a graph paper of grid \\( 1\\;\\text{cm}\\times1\\;\\text{cm} \\). She then calculated the area of the circle by adding up only the number of full unit-squares that fell within the perimeter of the circle. If the value that Rekha obtained was \\( d\\:\\text{sq cm} \\). less than the correct value, then find the maximum possible value of \\( d? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6.28 \\)</p>",
+            "<p>\\( 7.28 \\)</p>",
+            "<p>\\( 7.56 \\)</p>",
+            "<p>\\( 8.56 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5536/cat-2011-question-15\" target=\"_blank\">https://aptitude.gateoverflow.in/5536/cat-2011-question-15</a></p>"
+        },
+        {
+          "id": 84,
+          "question": "<p><a name=\"5535\"></a><div itemprop=\"text\"><p>Rekha drew a circle of radius \\( 2\\;\\text{cm} \\) on a graph paper of grid \\( 1\\;\\text{cm}\\times1\\;\\text{cm} \\). She then calculated the area of the circle by adding up only the number of full unit-squares that fell within the perimeter of the circle. If the value that Rekha obtained was \\( d\\;\\text{sq cm} \\). less than the correct value,&nbsp;</p>\n\n<p>In the above question what is the minimum possible value of \\( d? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4.56 \\)</p>",
+            "<p>\\( 5.56 \\)</p>",
+            "<p>\\( 6.56 \\)</p>",
+            "<p>\\( 3.56 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5535/cat-2011-question-16\" target=\"_blank\">https://aptitude.gateoverflow.in/5535/cat-2011-question-16</a></p>"
+        },
+        {
+          "id": 85,
+          "question": "<p><a name=\"5546\"></a><div itemprop=\"text\"><p>On a plate in the shape of an equilateral triangle \\( \\text{ABC} \\) with area \\( 16\\sqrt 3\\;\\text{sq cm} \\), a rod \\( \\text{GD} \\), of height \\( 8\\:\\text{cm} \\), is fixed vertically at the centre of the triangle. \\( \\text{G} \\) is a point on the plate. If the areas of the triangles \\( \\text{AGD} \\:\\text{and}\\:\\text{BGD} \\) are both equal to \\( 4\\sqrt19;\\text{sq cm} \\), find the area of the triangle \\( \\text{CGD}\\:\\text{(in sq cm)} \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\sqrt&nbsp;{19} \\)</p>",
+            "<p>\\( 4 \\sqrt&nbsp;{19} \\)</p>",
+            "<p>\\( 12 \\sqrt&nbsp;{3} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5546/cat-2011-question-5\" target=\"_blank\">https://aptitude.gateoverflow.in/5546/cat-2011-question-5</a></p>"
+        },
+        {
+          "id": 86,
+          "question": "<p><a name=\"5066\"></a><div itemprop=\"text\"><p>A rectangle is drawn such that none of its sides has length greater than \\( ‘a\\text{’} \\). All lengths less than \\( ‘a\\text{’} \\) are equally likely. The chance that the rectangle has its diagonal greater than \\( ‘a\\text{’} \\) is (in terms of \\( \\%) \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 29.3 \\% \\)</p>",
+            "<p>\\( 21.5\\% \\)</p>",
+            "<p>\\( 66.66\\% \\)</p>",
+            "<p>\\( 33.33\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5066/cat-2012-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/5066/cat-2012-question-11</a></p>"
+        },
+        {
+          "id": 87,
+          "question": "<p><a name=\"5085\"></a><div itemprop=\"text\"><p>The side of an equilateral triangle is \\( 10 \\) cm long. By drawing parallels to all its sides, the distance between any two parallel lines being the same. The triangle is divided into smaller equilateral triangle, each of which has sides of length \\( 1 \\) cm. How many such small triangles are formed?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5085/cat-2012-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/5085/cat-2012-question-30</a></p>"
+        },
+        {
+          "id": 88,
+          "question": "<p><a name=\"5062\"></a><div itemprop=\"text\"><p>In the figure below,&nbsp;\\( \\angle \\text{MON} = \\angle \\text{MPO} = \\angle \\text{NQO} = 90^{\\circ} \\) and \\( \\text{OQ} \\) is the bisector of&nbsp;&nbsp;\\( \\angle \\text{MON} \\) and&nbsp;\\( \\text{QN} = 10, \\text{OR} = 40/7 \\). Find \\( \\text{OP} \\).</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10745118244191734100\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4.8 \\)</p>",
+            "<p>\\( 4.5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5062/cat-2012-question-7\" target=\"_blank\">https://aptitude.gateoverflow.in/5062/cat-2012-question-7</a></p>"
+        },
+        {
+          "id": 89,
+          "question": "<p><a name=\"5332\"></a><div itemprop=\"text\"><p>\\( a,b \\) and \\( c \\) are the lengths of the triangle \\( \\text{ABC} \\) and \\( d,e \\) and \\( f \\) are the lengths of the sides of the triangle \\( \\text{DEF} \\). If the following equations hold true:</p>\n\n<ul>\n\t<li>\\( a(a+b+c)=d^2 \\)</li>\n\t<li>\\( b(a+b+c)=e^2 \\)</li>\n\t<li>\\( c(a+b+c)=f^2 \\)</li>\n</ul>\n\n<p>then which of the following is always true of triangle \\( \\text{DEF}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>It is an acute-angled triangle</p>",
+            "<p>It is an right-angled triangle</p>",
+            "<p>It is an obtuse-angled triangle</p>",
+            "<p>None&nbsp;of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5332/cat-2013-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/5332/cat-2013-question-10</a></p>"
+        },
+        {
+          "id": 90,
+          "question": "<p><a name=\"5326\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{PQR, PQ} = 12 \\) cm and \\( \\text{PR} = 9 \\) cm and \\( \\angle \\text{Q} +\\angle \\text{R} = 120^{\\circ} \\). Find the length of \\( \\text{QR} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{15}{\\sqrt2} \\) cm</p>",
+            "<p>\\( 3\\sqrt13 \\) cm</p>",
+            "<p>\\( 5\\sqrt5 \\) cm</p>",
+            "<p>\\( 5\\sqrt17 \\) cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5326/cat-2013-question-16\" target=\"_blank\">https://aptitude.gateoverflow.in/5326/cat-2013-question-16</a></p>"
+        },
+        {
+          "id": 91,
+          "question": "<p><a name=\"5325\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{PQR, PQ} = 12 \\) cm and \\( \\text{PR} = 9 \\) cm and \\( \\angle \\text{Q} +\\angle \\text{R}=120^{\\circ} \\).&nbsp;If the angle bisector of \\( \\angle \\text{P} \\) meets \\( \\text{QR} \\) at \\( \\text{M} \\), find the length of \\( \\text{PM} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{28\\sqrt5}{9} \\) cm</p>",
+            "<p>\\( \\dfrac{42\\sqrt5}{11} \\) cm</p>",
+            "<p>\\( \\dfrac{36\\sqrt3}{7} \\) cm</p>",
+            "<p>\\( 4\\sqrt3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5325/cat-2013-question-17\" target=\"_blank\">https://aptitude.gateoverflow.in/5325/cat-2013-question-17</a></p>"
+        },
+        {
+          "id": 92,
+          "question": "<p><a name=\"5315\"></a><div itemprop=\"text\"><p>Each side of a polygon is either parallel to the \\( x \\)-axis or parallel to the \\( y \\)-axis. A corner of the polygon is known as convex if the corresponding internal angle is \\( 90^\\circ \\)&nbsp;and as concave if the corresponding internal angle is \\( 270^\\circ \\). If the polygon has \\( 26 \\) convex corners, the number of its concave corners is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 24 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5315/cat-2013-question-27\" target=\"_blank\">https://aptitude.gateoverflow.in/5315/cat-2013-question-27</a></p>"
+        },
+        {
+          "id": 93,
+          "question": "<p><a name=\"874\"></a><div itemprop=\"text\"><p>If \\( \\text{ABCD} \\) is a square and \\( \\text{BCE} \\) is an equilateral triangle, what is the measure of angle \\( \\angle \\text{DEC}? \\)&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=3249100170446555110\" width=\"300\"></p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 15^{\\circ} \\)</li>\n\t<li>\\( 30^{\\circ} \\)</li>\n\t<li>\\( 20^{\\circ} \\)</li>\n\t<li>\\( 45^{\\circ} \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/874/cat-2014-question-1\" target=\"_blank\">https://aptitude.gateoverflow.in/874/cat-2014-question-1</a></p>"
+        },
+        {
+          "id": 94,
+          "question": "<p><a name=\"909\"></a><div itemprop=\"text\"><p>A circle is inscribed in a given square and another circle is circumscribed about the square. What is the ratio of the area of the&nbsp;inscribed circle to that of the circumscribed circle?&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 2 : 3 \\)&nbsp;</li>\n\t<li>\\( 3 : 4 \\)&nbsp;</li>\n\t<li>\\( 1 : 4 \\)&nbsp;</li>\n\t<li>\\( 1 : 2 \\)&nbsp;</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/909/cat-2014-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/909/cat-2014-question-10</a></p>"
+        },
+        {
+          "id": 95,
+          "question": "<p><a name=\"918\"></a><div itemprop=\"text\"><p>The line \\( \\text{AB} \\) is \\( 6 \\) metres in length and is tangent to the inner one of the two concentric circles at point \\( \\text{C}. \\) It is known that the radii of the two circles are integers. The radius of the outer circle is&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2284103003535299275\" width=\"250\"></p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 5 \\) metres&nbsp;</li>\n\t<li>\\( 4 \\) metres&nbsp;</li>\n\t<li>\\( 6 \\) metres&nbsp;</li>\n\t<li>\\( 3 \\) metres&nbsp;</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/918/cat-2014-question-27\" target=\"_blank\">https://aptitude.gateoverflow.in/918/cat-2014-question-27</a></p>"
+        },
+        {
+          "id": 96,
+          "question": "<p><a name=\"876\"></a><div itemprop=\"text\"><p>From a circular sheet of paper with a radius \\( 20 \\) cm, four circles of radius \\( 5 \\) cm each are cut out. What is the ratio of the uncut to the cut portion?&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 1:3 \\)</li>\n\t<li>\\( 4:1 \\)</li>\n\t<li>\\( 3:1 \\)</li>\n\t<li>\\( 4:3 \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/876/cat-2014-question-3\" target=\"_blank\">https://aptitude.gateoverflow.in/876/cat-2014-question-3</a></p>"
+        },
+        {
+          "id": 97,
+          "question": "<p><a name=\"937\"></a><div itemprop=\"text\"><p>Two circles with centres \\( \\text{P} \\) and \\( \\text{Q} \\) cut each other at two distinct points \\( \\text{A} \\) and \\( \\text{B} \\). The circles have the same radii and neither \\( \\text{P} \\) nor \\( \\text{Q} \\) falls within the intersection of the circles. What is the smallest range that includes all possible values of the angle \\( \\text{AQP} \\) in degrees?&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>Between \\( 0 \\) and \\( 90 \\)</li>\n\t<li>Between \\( 0 \\) and \\( 30 \\)&nbsp;</li>\n\t<li>Between \\( 0 \\) and \\( 60 \\)</li>\n\t<li>Between \\( 0 \\) and \\( 75 \\)&nbsp;</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/937/cat-2014-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/937/cat-2014-question-49</a></p>"
+        },
+        {
+          "id": 98,
+          "question": "<p><a name=\"5581\"></a><div itemprop=\"text\"><p>\\( \\text{ABCD} \\) is a square of area \\( 4 \\) with diagonals \\( \\text{AC} \\) and \\( \\text{BD} \\), dividing square into \\( 4 \\) congruent triangles. Figure looks like four non-over lapping triangles. Then the sum of the perimeters of the triangles is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8\\left ( 2+\\sqrt{2} \\right ) \\)</p>",
+            "<p>\\( 8\\left ( 1+\\sqrt{2} \\right ) \\)</p>",
+            "<p>\\( 4\\left ( 1+\\sqrt{2} \\right ) \\)</p>",
+            "<p>\\( 4\\left ( 2+\\sqrt{2} \\right ) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5581/cat-2015-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/5581/cat-2015-question-71</a></p>"
+        },
+        {
+          "id": 99,
+          "question": "<p><a name=\"5580\"></a><div itemprop=\"text\"><p>\\( \\text{PQRS} \\) is a square. \\( \\text{SR} \\) is a tangent (at point \\( \\text{S}) \\) to the circle with centre \\( \\text{O} \\) and \\( \\text{TR = OS} \\). Then the ratio of area of the circle to the area of the square is&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4421405294283127574\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\pi /3 \\)</p>",
+            "<p>\\( 11/7 \\)</p>",
+            "<p>\\( 3&nbsp;/\\pi \\)</p>",
+            "<p>\\( 7/11 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5580/cat-2015-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/5580/cat-2015-question-72</a></p>"
+        },
+        {
+          "id": 100,
+          "question": "<p><a name=\"5579\"></a><div itemprop=\"text\"><p>From a circular sheet of paper with a radius \\( 20 \\) cm, four circles of radius \\( 5 \\) each are cut out. What is the ratio of the uncut to the cut portion?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1: 3 \\)</p>",
+            "<p>\\( 4: 1 \\)</p>",
+            "<p>\\( 3: 1 \\)</p>",
+            "<p>\\( 4: 3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5579/cat-2015-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/5579/cat-2015-question-73</a></p>"
+        },
+        {
+          "id": 101,
+          "question": "<p><a name=\"5576\"></a><div itemprop=\"text\"><p>The figure shows the rectangle \\( \\text{ABCD} \\) with a semicircle and a circle inscribed inside in it as shown. What is the ratio of the area of the circle to that of the semicircle?&nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5311086078777169257\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 76</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left ( \\sqrt{2}-1&nbsp;\\right )^{2}:1 \\)</p>",
+            "<p>\\( 2\\left ( \\sqrt{2}-1&nbsp;\\right )^{2}:1 \\)</p>",
+            "<p>\\( \\left ( \\sqrt{2}-1&nbsp;\\right )^{2}:2 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5576/cat-2015-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/5576/cat-2015-question-76</a></p>"
+        },
+        {
+          "id": 102,
+          "question": "<p><a name=\"5572\"></a><div itemprop=\"text\"><p>\\( \\text{ABCD} \\) is a rhombus with the diagonals \\( \\text{AC} \\) and \\( \\text{BD} \\) intersecting at the origin on the \\( x\\text{-}y \\) plane. The equation of the straight line \\( \\text{AD} \\) is \\( x + y = 1 \\). What is the equation of \\( \\text{BC}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 80</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( x + y = -1 \\)</p>",
+            "<p>\\( x -&nbsp;y = -1 \\)</p>",
+            "<p>\\( x + y = 1 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5572/cat-2015-question-80\" target=\"_blank\">https://aptitude.gateoverflow.in/5572/cat-2015-question-80</a></p>"
+        },
+        {
+          "id": 103,
+          "question": "<p><a name=\"5569\"></a><div itemprop=\"text\"><p>In the figure above,&nbsp;\\( \\text{AB = BC = CD = DE = EF = FG = GA} \\). Then&nbsp;\\( \\angle \\text{DAE} \\) is approximately</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16286358410429760489\" width=\"350\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15^{\\circ} \\)</p>",
+            "<p>\\( 20^{\\circ} \\)</p>",
+            "<p>\\( 30^{\\circ} \\)</p>",
+            "<p>\\( 25^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5569/cat-2015-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/5569/cat-2015-question-83</a></p>"
+        },
+        {
+          "id": 104,
+          "question": "<p><a name=\"5701\"></a><div itemprop=\"text\"><p>Direction for questions: Answer the questions based on the following information.</p>\n\n<p>In a locality, there are five small cities: \\( \\text{A, B, C, D} \\) and \\( \\text{E} \\). The distances of these cities from each other are as follows. \\( \\text{AB} = 2 &nbsp;\\text{ km; AC} = 2&nbsp;\\text{ km; &nbsp;AD} &gt; 2 \\text{ km; &nbsp;AE} &gt; 3 \\text{ km; &nbsp;BC} = 2 \\text{ km; &nbsp;BD} = 4 \\text{ km; &nbsp;BE} = 3 \\text{ km; CD} = 2 \\text{ km; CE} = 3 \\text{ km;&nbsp; DE} &gt; 3 \\text{ km}. \\)&nbsp;</p>\n\n<p>If a ration shop is to be set up within \\( 3 \\text{ km&nbsp;} \\) of each city, how many ration shops will be required?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 67</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5701/cat-2016-question-67\" target=\"_blank\">https://aptitude.gateoverflow.in/5701/cat-2016-question-67</a></p>"
+        },
+        {
+          "id": 105,
+          "question": "<p><a name=\"5699\"></a><div itemprop=\"text\"><p>If \\( \\text{ABCD} \\) is a square and \\( \\text{BCE} \\) is an equilateral triangle, what is the measure of \\( \\angle \\text{DEC}? \\)</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"260\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5654726053872657733\"></p></div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15^{\\circ} \\)</p>",
+            "<p>\\( 30^{\\circ} \\)</p>",
+            "<p>\\( 20^{\\circ} \\)</p>",
+            "<p>\\( 45^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15^{\\circ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5699/cat-2016-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/5699/cat-2016-question-69</a></p>"
+        },
+        {
+          "id": 106,
+          "question": "<p><a name=\"5697\"></a><div itemprop=\"text\"><p>From a circular sheet of paper with a radius \\( 20\\:\\text{cm} \\), four circles of radius \\( 5\\:\\text{cm} \\) each are cut out. What is the ratio of the uncut to the cut portion?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1:3 \\)</p>",
+            "<p>\\( 4:1 \\)</p>",
+            "<p>\\( 3:1 \\)</p>",
+            "<p>\\( 4:3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3:1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5697/cat-2016-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/5697/cat-2016-question-71</a></p>"
+        },
+        {
+          "id": 107,
+          "question": "<p><a name=\"5692\"></a><div itemprop=\"text\"><p>The figure shows a circle&nbsp;of diameter \\( \\text{AB} \\) and radius \\( 6.5 \\) cm.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4093688427734896849\" width=\"200\"></p>\n\n<p>If chord \\( \\text{CA} \\) is \\( 5 \\) cm long, find the area of \\( \\triangle \\text{ABC} \\)&nbsp;__________</p></div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 76</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "30",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5692/cat-2016-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/5692/cat-2016-question-76</a></p>"
+        },
+        {
+          "id": 108,
+          "question": "<p><a name=\"5689\"></a><div itemprop=\"text\"><p>In \\( \\triangle \\text{ABC},\\:\\angle \\text{B} \\) is a right angle, \\( \\text{AC} = 6 \\) cm, and \\( \\text{D} \\) is the mid-point of \\( \\text{AC} \\). The length of \\( \\text{BD} \\) is&nbsp;___________</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6913915069792068753\" width=\"200\"></p>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 79</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5689/cat-2016-question-79\" target=\"_blank\">https://aptitude.gateoverflow.in/5689/cat-2016-question-79</a></p>"
+        },
+        {
+          "id": 109,
+          "question": "<p><a name=\"5772\"></a><div itemprop=\"text\"><p>From a triangle \\( \\text{ABC} \\) with sides of lengths \\( 40 \\) ft, \\( 25 \\) ft and \\( 35 \\) ft, a triangular portion \\( \\text{GBC} \\) is cut off where \\( \\text{G} \\) is the centroid of \\( \\text{ABC} \\). The area, in sq ft, of the remaining portion of triangle \\( \\text{ABC} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 225 \\sqrt{3} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{500}{&nbsp;\\sqrt{3}} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{275 }{\\sqrt{3}} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{250 }{\\sqrt{3}}  \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5772/cat-2017-set-1-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/5772/cat-2017-set-1-question-82</a></p>"
+        },
+        {
+          "id": 110,
+          "question": "<p><a name=\"5771\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABC} \\) be a right-angled isosceles triangle with hypotenuse \\( \\text{BC} \\). Let \\( \\text{BQC} \\)&nbsp;be a semi-circle, away from A, with diameter \\( \\text{BC} \\). Let \\( \\text{BPC} \\) be an arc of a circle centered at \\( \\text{A} \\) and lying between \\( \\text{BC} \\) and \\( \\text{BQC} \\). If \\( \\text{AB} \\) has length&nbsp;\\( 6 \\) cm then the area, in sq cm, of the region enclosed by \\( \\text{BPC} \\) and \\( \\text{BQC} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\pi-18 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 9\\pi \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5771/cat-2017-set-1-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/5771/cat-2017-set-1-question-83</a></p>"
+        },
+        {
+          "id": 111,
+          "question": "<p><a name=\"5768\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABC} \\) be a right-angled triangle with \\( \\text{BC} \\) as the hypotenuse. Lengths of&nbsp;\\( \\text{AB} \\) and \\( \\text{AC} \\) are \\( 15 \\) km and \\( 20 \\)&nbsp;km, respectively. The minimum possible time, in minutes, required to reach the hypotenuse from \\( \\text{A} \\) at a speed of \\( 30 \\) km per hour is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>None of these</p>",
+            "<p>\\( 24 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 24 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5768/cat-2017-set-1-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/5768/cat-2017-set-1-question-86</a></p>"
+        },
+        {
+          "id": 112,
+          "question": "<p><a name=\"5759\"></a><div itemprop=\"text\"><p>Let \\( \\text{AB, CD, EF, GH} \\), and \\( \\text{JK} \\) be five diameters of a circle with center at \\( \\text{O} \\). In how many ways can three points be chosen out of \\( \\text{A, B, C, D, E, F, G, H, J, K,}  \\) and \\( \\text{O} \\) so as to form a triangle?&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 160 \\)</p>",
+            "<p>\\( 159 \\)</p>",
+            "<p>\\( 169 \\)</p>",
+            "<p>\\( 150 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 160 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5759/cat-2017-set-1-question-95\" target=\"_blank\">https://aptitude.gateoverflow.in/5759/cat-2017-set-1-question-95</a></p>"
+        },
+        {
+          "id": 113,
+          "question": "<p><a name=\"5860\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABCDEF} \\) be a regular hexagon with each side of length \\( 1 \\) cm. The area (in sq cm) of a square with \\( \\text{AC} \\) as one side is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3\\sqrt{2} \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( \\sqrt{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5860/cat-2017-set-2-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/5860/cat-2017-set-2-question-81</a></p>"
+        },
+        {
+          "id": 114,
+          "question": "<p><a name=\"5859\"></a><div itemprop=\"text\"><p>The base of a vertical pillar with uniform cross section is a trapezium whose parallel sides are of lengths \\( 10 \\) cm and \\( 20 \\) cm while the other two sides are of equal length. The perpendicular distance between the parallel sides of the trapezium is \\( 12 \\) cm. If the height of the pillar is \\( 20 \\) cm, then the total area, in sq&nbsp;cm, of all six surfaces of the pillar is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1300 \\)</p>",
+            "<p>\\( 1340 \\)</p>",
+            "<p>\\( 1480 \\)</p>",
+            "<p>\\( 1520 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1480 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5859/cat-2017-set-2-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/5859/cat-2017-set-2-question-82</a></p>"
+        },
+        {
+          "id": 115,
+          "question": "<p><a name=\"5857\"></a><div itemprop=\"text\"><p>\\( \\text{ABCD} \\) is a quadrilateral inscribed in a circle with centre \\( \\text{O} \\). If&nbsp;\\( \\angle \\text{COD} =120 \\) degrees and&nbsp;\\( \\angle \\text{BAC} = 30 \\) degrees, then the value of&nbsp;\\( \\angle \\text{BCD} \\) (in degrees) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 89 \\)</p>",
+            "<p>\\( 87 \\)</p>",
+            "<p>\\( 86 \\)</p>",
+            "<p>\\( 90 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 90 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5857/cat-2017-set-2-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/5857/cat-2017-set-2-question-84</a></p>"
+        },
+        {
+          "id": 116,
+          "question": "<p><a name=\"5856\"></a><div itemprop=\"text\"><p>If three sides of a rectangular park have&nbsp;a total length \\( 400 \\) ft, then the area of the park is maximum when the length (in ft) of its longer side is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 299 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 201 \\)</p>",
+            "<p>\\( 399 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 200 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5856/cat-2017-set-2-question-85\" target=\"_blank\">https://aptitude.gateoverflow.in/5856/cat-2017-set-2-question-85</a></p>"
+        },
+        {
+          "id": 117,
+          "question": "<p><a name=\"5855\"></a><div itemprop=\"text\"><p>Let \\( \\text{P} \\) be an interior point of a right-angled isosceles triangle \\( \\text{ABC} \\) with hypotenuse \\( \\text{AB} \\). If the perpendicular distance of \\( \\text{P} \\) from each of \\( \\text{AB, BC}, \\)&nbsp;and \\( \\text{CA} \\) is&nbsp;\\( 4\\left ( \\sqrt{2} -1\\right ) \\)cm, then the area, in sq&nbsp;cm, of the triangle \\( \\text{ABC} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5855/cat-2017-set-2-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/5855/cat-2017-set-2-question-86</a></p>"
+        },
+        {
+          "id": 118,
+          "question": "<p><a name=\"6038\"></a><div itemprop=\"text\"><p>In a circle, two parallel chords on the same side of a diameter have lengths \\( 4 \\) cm and \\( 6 \\) cm. If the distance between these chords is \\( 1 \\) cm, then the radius of the circle, in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{12} \\)</p>",
+            "<p>\\( \\sqrt{14} \\)</p>",
+            "<p>\\( \\sqrt{13} \\)</p>",
+            "<p>\\( \\sqrt{11} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{13} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6038/cat-2018-set-1-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/6038/cat-2018-set-1-question-73</a></p>"
+        },
+        {
+          "id": 119,
+          "question": "<p><a name=\"6035\"></a><div itemprop=\"text\"><p>Given an equilateral triangle \\( \\text{T1} \\) with side \\( 24 \\) cm, a second triangle \\( \\text{T2} \\) is formed by joining the midpoints of the sides of \\( \\text{T1} \\). Then a third triangle \\( \\text{T3} \\) is formed by joining the midpoints of the sides of \\( \\text{T2} \\). If this process of forming triangles is continued, the sum of the areas, in sq cm, of infinitely many such triangles \\( \\text{T1, T2, T3},&nbsp;\\dots \\)&nbsp; will be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 164\\sqrt 3 \\)</p>",
+            "<p>\\( 188\\sqrt 3 \\)</p>",
+            "<p>\\( 248\\sqrt 3 \\)</p>",
+            "<p>\\( 192\\sqrt 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 192\\sqrt 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6035/cat-2018-set-1-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/6035/cat-2018-set-1-question-76</a></p>"
+        },
+        {
+          "id": 120,
+          "question": "<p><a name=\"6031\"></a><div itemprop=\"text\"><p>Points \\( \\text{E, F, G, H} \\) lie on the sides \\( \\text{AB, BC, CD} \\), and \\( \\text{DA} \\), respectively, of a square \\( \\text{ABCD} \\). If \\( \\text{EFGH} \\) is also a square whose area is \\( 62.5\\% \\) of that of \\( \\text{ABCD} \\) and \\( \\text{CG} \\) is longer than \\( \\text{EB} \\), then the ratio of length of \\( \\text{EB} \\) to that of \\( \\text{CG} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2:5 \\)</p>",
+            "<p>\\( 4:9 \\)</p>",
+            "<p>\\( 3:8 \\)</p>",
+            "<p>\\( 1:3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1:3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6031/cat-2018-set-1-question-80\" target=\"_blank\">https://aptitude.gateoverflow.in/6031/cat-2018-set-1-question-80</a></p>"
+        },
+        {
+          "id": 121,
+          "question": "<p><a name=\"6023\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABCD} \\) be a rectangle inscribed in a circle of radius \\( 13 \\) cm. Which one of the following pairs can represent, in cm, the possible length and breadth of \\( \\text{ABCD}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24,10 \\)</p>",
+            "<p>\\( 25,9 \\)</p>",
+            "<p>\\( 24,12 \\)</p>",
+            "<p>\\( 25,10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 24,10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6023/cat-2018-set-1-question-88\" target=\"_blank\">https://aptitude.gateoverflow.in/6023/cat-2018-set-1-question-88</a></p>"
+        },
+        {
+          "id": 122,
+          "question": "<p><a name=\"6022\"></a><div itemprop=\"text\"><p>In a parallelogram \\( \\text{ABCD} \\) of area \\( 72 \\) sq cm, the sides \\( \\text{CD} \\) and \\( \\text{AD} \\) have lengths \\( 9 \\) cm and \\( 16 \\) cm, respectively. Let \\( \\text{P} \\) be a point on \\( \\text{CD} \\) such that \\( \\text{AP} \\) is perpendicular to \\( \\text{CD} \\). Then the area, in sq cm, of triangle \\( \\text{APD} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18\\sqrt 3 \\)</p>",
+            "<p>\\( 24\\sqrt 3 \\)</p>",
+            "<p>\\( 32\\sqrt 3 \\)</p>",
+            "<p>\\( 12\\sqrt 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 32\\sqrt 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6022/cat-2018-set-1-question-89\" target=\"_blank\">https://aptitude.gateoverflow.in/6022/cat-2018-set-1-question-89</a></p>"
+        },
+        {
+          "id": 123,
+          "question": "<p><a name=\"6021\"></a><div itemprop=\"text\"><p>In a circle with center \\( \\text{O} \\) and radius \\( 1 \\) cm, an arc \\( \\text{AB} \\) makes an angle \\( 60 \\) degrees at \\( \\text{O} \\). Let \\( \\text{R} \\) be the region bounded by the radii \\( \\text{OA, OB} \\) and the arc \\( \\text{AB} \\). If \\( \\text{C} \\) and \\( \\text{D} \\) are two points on \\( \\text{OA} \\) and \\( \\text{OB} \\), respectively, such that \\( \\text{OC = OD} \\) and the area of triangle \\( \\text{OCD} \\)&nbsp;is half that of \\( \\text{R} \\), then the length of \\( \\text{OC} \\), in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bigg(\\dfrac{\\pi}{3\\sqrt 3} \\bigg)^\\frac{1}{2} \\\\ \\)</p>",
+            "<p>\\( \\bigg(\\dfrac{\\pi}{4} \\bigg)^\\frac{1}{2} \\\\ \\)</p>",
+            "<p>\\( \\bigg(\\dfrac{\\pi}{6} \\bigg)^\\frac{1}{2} \\\\ \\)</p>",
+            "<p>\\( \\bigg(\\dfrac{\\pi}{4\\sqrt 3} \\bigg)^\\frac{1}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\bigg(\\dfrac{\\pi}{3\\sqrt 3} \\bigg)^\\frac{1}{2} \\\\ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6021/cat-2018-set-1-question-90\" target=\"_blank\">https://aptitude.gateoverflow.in/6021/cat-2018-set-1-question-90</a></p>"
+        },
+        {
+          "id": 124,
+          "question": "<p><a name=\"6145\"></a><div itemprop=\"text\">On a triangle \\( \\text{ABC} \\), a circle with diameter \\( \\text{BC} \\) is drawn, intersecting \\( \\text{AB} \\) and \\( \\text{AC} \\) at points \\( \\text{P} \\) and \\( \\text{Q} \\), respectively. If the lengths of \\( \\text{AB, AC} \\), and \\( \\text{CP} \\) are \\( 30 \\) cm, \\( 25 \\) cm, and \\( 20 \\) cm respectively, then the length of \\( \\text{BQ} \\), in cm, is __________</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "24",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6145/cat-2018-set-2-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/6145/cat-2018-set-2-question-72</a></p>"
+        },
+        {
+          "id": 125,
+          "question": "<p><a name=\"6144\"></a><div itemprop=\"text\"><p>A chord of length \\( 5 \\) cm subtends an angle of \\( 60^\\circ \\) at the centre of a circle. The length, in cm, of a chord that subtends an angle of \\( 120^\\circ \\) at the centre of the same circle is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 6\\sqrt2 \\)</p>",
+            "<p>\\( 5\\sqrt3 \\)</p>",
+            "<p>\\( 2\\pi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5\\sqrt3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6144/cat-2018-set-2-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/6144/cat-2018-set-2-question-73</a></p>"
+        },
+        {
+          "id": 126,
+          "question": "<p><a name=\"6131\"></a><div itemprop=\"text\"><p>A parallelogram \\( \\text{ABCD} \\) has area \\( 48 \\) sqcm. If the length of \\( \\text{CD} \\) is \\( 8 \\) cm and that of \\( \\text{AD} \\) is \\( s \\) cm, then which one of the following is necessarily true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( s\\geq6 \\)</p>",
+            "<p>\\( s\\neq6 \\)</p>",
+            "<p>\\( s\\leq6 \\)</p>",
+            "<p>\\( 5\\leq s\\leq7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( s\\geq6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6131/cat-2018-set-2-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/6131/cat-2018-set-2-question-86</a></p>"
+        },
+        {
+          "id": 127,
+          "question": "<p><a name=\"6123\"></a><div itemprop=\"text\"><p>The area of a rectangle and the square of its perimeter are in the ratio \\( 1:25 \\). Then the lengths of the shorter and longer sides of the rectangle are in the ratio</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1:4 \\)</p>",
+            "<p>\\( 2:9 \\)</p>",
+            "<p>\\( 1:3 \\)</p>",
+            "<p>\\( 3:8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1:4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6123/cat-2018-set-2-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/6123/cat-2018-set-2-question-94</a></p>"
+        },
+        {
+          "id": 128,
+          "question": "<p><a name=\"6121\"></a><div itemprop=\"text\"><p>From a rectangle \\( \\text{ABCD} \\) of area \\( 768 \\) sq cm, a semicircular part with diameter \\( \\text{AB} \\) and area \\( 72\\pi \\) sq cm is removed. The perimeter of the leftover portion, in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 80 + 16\\pi \\)</p>",
+            "<p>\\( 86+8\\pi \\)</p>",
+            "<p>\\( 82+24\\pi \\)</p>",
+            "<p>\\( 88+12\\pi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 88+12\\pi \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6121/cat-2018-set-2-question-96\" target=\"_blank\">https://aptitude.gateoverflow.in/6121/cat-2018-set-2-question-96</a></p>"
+        },
+        {
+          "id": 129,
+          "question": "<p><a name=\"6120\"></a><div itemprop=\"text\"><p>A triangle \\( \\text{ABC} \\) has area \\( 32 \\) sq units and its side \\( \\text{BC} \\), of length \\( 8 \\) units, lies on the line \\( x =4 \\). Then the shortest possible distance between \\( \\text{A} \\) and the point \\( (0,0) \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\) units</p>",
+            "<p>\\( 8 \\) units</p>",
+            "<p>\\( 4\\sqrt2 \\) units</p>",
+            "<p>\\(  2\\sqrt2 \\) units</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\) units</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6120/cat-2018-set-2-question-97\" target=\"_blank\">https://aptitude.gateoverflow.in/6120/cat-2018-set-2-question-97</a></p>"
+        },
+        {
+          "id": 130,
+          "question": "<p><a name=\"5440\"></a><div itemprop=\"text\"><p>Corners are cut off from an equilateral triangle T to produce a regular hexagon H. Then, the ratio of the area of H to the area of T is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5:6 \\)</p>",
+            "<p>\\( 4:5 \\)</p>",
+            "<p>\\( 3:4 \\)</p>",
+            "<p>\\( 2:3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2:3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5440/cat-2019-set-1-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/5440/cat-2019-set-1-question-71</a></p>"
+        },
+        {
+          "id": 131,
+          "question": "<p><a name=\"5435\"></a><div itemprop=\"text\"><p>In a circle of radius \\( 11 \\) cm, CD is a diameter and AB is a chord of length \\( 20.5 \\) cm. If AB and CD intersect at a point E inside the circle and CE has length \\( 7 \\) cm, then the difference of the lengths of BE and AE, in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2.5 \\)</p>",
+            "<p>\\( 3.5 \\)</p>",
+            "<p>\\( 0.5 \\)</p>",
+            "<p>\\( 1.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5435/cat-2019-set-1-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/5435/cat-2019-set-1-question-76</a></p>"
+        },
+        {
+          "id": 132,
+          "question": "<p><a name=\"5425\"></a><div itemprop=\"text\"><p>\\( \\text{AB} \\) is a diameter of a circle of radius \\( 5 \\) cm. Let \\( \\text{P} \\) and \\( \\text{Q} \\) be two points on the circle so that the length of \\( \\text{PB} \\) is \\( 6 \\) cm, and the length of \\( \\text{AP} \\) is twice that of \\( \\text{AQ} \\). Then the length, in cm, of \\( \\text{QB} \\) is nearest to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7.8 \\)</p>",
+            "<p>\\( 8.5 \\)</p>",
+            "<p>\\( 9.1 \\)</p>",
+            "<p>\\( 9.3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9.1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5425/cat-2019-set-1-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/5425/cat-2019-set-1-question-86</a></p>"
+        },
+        {
+          "id": 133,
+          "question": "<p><a name=\"6180\"></a><div itemprop=\"text\"><p>Two circles, each of radius \\( 4 \\) cm, touch externally. Each of these two circles is touched externally by a third circle. If these three circles have a common tangent, then the radius of the third circle, in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>\\( \\frac{\\pi }{3} \\)</p>",
+            "<p>\\( \\frac{1}{\\sqrt{2}} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6180/cat-2019-set-2-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/6180/cat-2019-set-2-question-72</a></p>"
+        },
+        {
+          "id": 134,
+          "question": "<p><a name=\"6170\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{ABC} \\), medians \\( \\text{AD} \\) and \\( \\text{BE} \\) are perpendicular to each other, and have lengths \\( 12 \\) cm and \\( 9 \\) cm, respectively. Then, the area of triangle \\( \\text{ABC} \\), in sq cm.&nbsp;is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 68 \\)</p>",
+            "<p>\\( 72 \\)</p>",
+            "<p>\\( 78 \\)</p>",
+            "<p>\\( 80 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 72 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6170/cat-2019-set-2-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/6170/cat-2019-set-2-question-82</a></p>"
+        },
+        {
+          "id": 135,
+          "question": "<p><a name=\"6159\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABC} \\) be a right-angled triangle with hypotenuse \\( \\text{BC} \\) of length \\( 20 \\) cm. If \\( \\text{AP} \\) is perpendicular on \\( \\text{BC} \\), then the maximum possible length of \\( \\text{AP} \\), in cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 6\\sqrt{2} \\)</p>",
+            "<p>\\( 8\\sqrt{2} \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6159/cat-2019-set-2-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/6159/cat-2019-set-2-question-93</a></p>"
+        },
+        {
+          "id": 136,
+          "question": "<p><a name=\"6154\"></a><div itemprop=\"text\">Let \\( \\text{A} \\) and \\( \\text{B} \\) be two regular polygons having \\( \\text{A} \\) and \\( \\text{B} \\) sides, respectively. If \\( b= 2a \\) and each interior angle of \\( \\text{B} \\) is \\( 3/2 \\) times each interior angle of &nbsp;\\( \\text{A} \\), then each interior angle, in degrees, of a regular polygon with \\( a + b \\) sides is ________</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "150",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6154/cat-2019-set-2-question-98\" target=\"_blank\">https://aptitude.gateoverflow.in/6154/cat-2019-set-2-question-98</a></p>"
+        },
+        {
+          "id": 137,
+          "question": "<p><a name=\"7967\"></a><div itemprop=\"text\"><p>On a rectangular metal sheet of area \\( 135 \\) sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5\\sqrt{\\pi }\\left ( 3+\\frac{9}{\\pi} \\right ) \\)</p>",
+            "<p>\\( 3\\sqrt{\\pi }\\left ( \\frac{5}{2}+\\frac{6}{\\pi} \\right ) \\)</p>",
+            "<p>\\( 3\\sqrt{\\pi }\\left ( 5+\\frac{12}{\\pi} \\right ) \\)</p>",
+            "<p>\\( 4\\sqrt{\\pi }\\left ( 3+\\frac{9}{\\pi} \\right ) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3\\sqrt{\\pi }\\left ( 5+\\frac{12}{\\pi} \\right ) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7967/cat-2020-set-1-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/7967/cat-2020-set-1-question-54</a></p>"
+        },
+        {
+          "id": 138,
+          "question": "<p><a name=\"7950\"></a><div itemprop=\"text\"><p>A circle is inscribed in a rhombus with diagonals \\( 12 \\) cm and \\( 16 \\) cm. The ratio of the area of circle to the area of rhombus is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( \\frac{5\\pi }{18} \\)</p>",
+            "<p>&nbsp;\\( \\frac{6\\pi }{25} \\)</p>",
+            "<p>&nbsp;\\( \\frac{3\\pi }{25} \\)</p>",
+            "<p>&nbsp;\\( \\frac{2\\pi }{15} \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( \\frac{6\\pi }{25} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7950/cat-2020-set-1-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/7950/cat-2020-set-1-question-71</a></p>"
+        },
+        {
+          "id": 139,
+          "question": "<p><a name=\"8049\"></a><div itemprop=\"text\"><p>​​​​​​​​​​​​​​​​​​​​​​​​​​​​The sum of the perimeters of an equilateral triangle and a rectangle is \\( 90 \\; \\text{cm}. \\) The area, \\( \\text{T}, \\) of the triangle and the area, \\( \\text{R}, \\) of the rectangle, both in \\( \\text{sq cm}, \\) satisfy the relationship \\( \\text{R = T}^{2}. \\) If the sides of the rectangle are in the ratio \\( 1:3, \\) then the length, in cm, of the longer side of the rectangle, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24 \\)&nbsp; &nbsp;</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 27 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8049/cat-2020-set-2-question-51\" target=\"_blank\">https://aptitude.gateoverflow.in/8049/cat-2020-set-2-question-51</a></p>"
+        },
+        {
+          "id": 140,
+          "question": "<p><a name=\"8030\"></a><div itemprop=\"text\"><p>Let \\( \\text{C} \\) be a circle of radius \\( 5 \\; \\text{meters} \\) having center at \\( \\text{O}. \\) Let \\( \\text{PQ} \\) be a chord of \\( \\text{C} \\) that passes through points \\( \\text{A} \\) and \\( \\text{B} \\) where \\( \\text{A} \\) is located \\( 4 \\; \\text{meters} \\) north of \\( \\text{O} \\) and \\( \\text{B} \\) is located \\( 3 \\; \\text{meters} \\) east of \\( \\text{O}. \\) Then, the length of \\( \\text{PQ} \\), in meters, is nearest to&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7.2 \\)</p>",
+            "<p>\\( 7.8 \\)</p>",
+            "<p>\\( 6.6 \\)</p>",
+            "<p>\\( 8.8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8.8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8030/cat-2020-set-2-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/8030/cat-2020-set-2-question-70</a></p>"
+        },
+        {
+          "id": 141,
+          "question": "<p><a name=\"8027\"></a><div itemprop=\"text\">Let \\( \\text{C}1 \\) and \\( \\text{C}2 \\) be concentric circles such that the diameter of \\( \\text{C}1 \\) is \\( 2 \\; \\text{cm} \\) longer than that of \\( \\text{C}2. \\) If a chord of \\( \\text{C}1 \\) has length \\( 6 \\; \\text{cm} \\) and is a tangent to \\( \\text{C}2, \\) then the diameter, in \\( \\text{cm}, \\) of \\( \\text{C}1 \\) is</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8027/cat-2020-set-2-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/8027/cat-2020-set-2-question-73</a></p>"
+        },
+        {
+          "id": 142,
+          "question": "<p><a name=\"8026\"></a><div itemprop=\"text\"><p>From an interior point of an equilateral triangle, perpendiculars are drawn on all three sides. The sum of the lengths of the three perpendiculars&nbsp;is \\( s. \\) Then the area of the triangle is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{\\sqrt{3}s^{2}}{2} \\)</p>",
+            "<p>\\( \\frac{s^{2}}{\\sqrt{3}} \\)</p>",
+            "<p>\\( \\frac{2s^{2}}{\\sqrt{3}} \\)</p>",
+            "<p>\\( \\frac{s^{2}}{2 \\sqrt{3}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{s^{2}}{\\sqrt{3}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8026/cat-2020-set-2-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/8026/cat-2020-set-2-question-74</a></p>"
+        },
+        {
+          "id": 143,
+          "question": "<p><a name=\"8108\"></a><div itemprop=\"text\">In a trapezium \\( \\text{ABCD},\\; \\text{AB} \\) is parallel to \\( \\text{DC}, \\; \\text{BC} \\) is perpendicular to \\( \\text{DC} \\) and \\( \\angle \\text{BAD} = 45^{\\circ}. \\) If \\( \\text{DC} = 5 \\; \\text{cm}, \\; \\text{BC} = 4 \\; \\text{cm}, \\) the area of the trapezium in \\( \\text{sq. cm} \\) is</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8108/cat-2020-set-3-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/8108/cat-2020-set-3-question-70</a></p>"
+        },
+        {
+          "id": 144,
+          "question": "<p><a name=\"8369\"></a><div itemprop=\"text\"><p>Suppose the length of each side of a regular hexagon \\( \\text{ABCDEF} \\) is \\( 2 \\; \\text{cm}. \\) It \\( \\text{T} \\) is the mid point of \\( \\text{CD}, \\) then the length of \\( \\text{AT, in cm}, \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{15} \\)</p>",
+            "<p>\\( \\sqrt{13} \\)</p>",
+            "<p>\\( \\sqrt{12} \\)</p>",
+            "<p>\\( \\sqrt{14} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{13} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8369/cat-2021-set-1-quantitative-aptitude-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/8369/cat-2021-set-1-quantitative-aptitude-question-12</a></p>"
+        },
+        {
+          "id": 145,
+          "question": "<p><a name=\"8361\"></a><div itemprop=\"text\">A circle of diameter \\( 8 \\; \\text{inches} \\) is inscribed in a triangle \\( \\text{ABC} \\) where \\( \\angle \\text{ABC} = 90^{\\circ}. \\) If \\( \\text{BC} = 10 \\; \\text{inches} \\) then the area of the triangle in \\( \\text{square inches} \\) is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "120",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8361/cat-2021-set-1-quantitative-aptitude-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/8361/cat-2021-set-1-quantitative-aptitude-question-20</a></p>"
+        },
+        {
+          "id": 146,
+          "question": "<p><a name=\"8374\"></a><div itemprop=\"text\"><p>If the area of a regular hexagon is equal to the area of an equilateral triangle of side \\( 12 \\; \\text{cm}, \\) then the length, in cm, of each side of the hexagon is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\sqrt{6} \\)</p>",
+            "<p>\\( 2 \\sqrt{6} \\)</p>",
+            "<p>\\( 4 \\sqrt{6} \\)</p>",
+            "<p>\\( \\sqrt{6} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\sqrt{6} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8374/cat-2021-set-1-quantitative-aptitude-question-7\" target=\"_blank\">https://aptitude.gateoverflow.in/8374/cat-2021-set-1-quantitative-aptitude-question-7</a></p>"
+        },
+        {
+          "id": 147,
+          "question": "<p><a name=\"8439\"></a><div itemprop=\"text\">Let \\( \\text{D} \\) and \\( \\text{E} \\) be points on sides \\( \\text{AB} \\) and \\( \\text{AC}, \\) respectively, of a triangle &nbsp;\\( \\text{ABC}, \\) such that \\( \\text{AD} \\) : \\( \\text{BD} = 2 : 1 \\) and \\( \\text{AE} \\) : \\( \\text{CE} = 2 : 3. \\) If the area of the triangle \\( \\text{ADE} \\) is \\( 8 \\; \\text{sq cm}, \\) then the area of the triangle \\( \\text{ABC, in sq cm}, \\) is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "30",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8439/cat-2021-set-2-quantitative-aptitude-question-14\" target=\"_blank\">https://aptitude.gateoverflow.in/8439/cat-2021-set-2-quantitative-aptitude-question-14</a></p>"
+        },
+        {
+          "id": 148,
+          "question": "<p><a name=\"8450\"></a><div itemprop=\"text\"><p>If a rhombus has area \\( 12 \\; \\text{sq cm} \\) and side length \\( 5 \\; \\text{cm}, \\) then the length, \\( \\text{in cm}, \\) of its longer diagonal is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{13} + \\sqrt{12} \\)</p>",
+            "<p>\\( \\sqrt{37} + \\sqrt{13} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{37} + \\sqrt{13}}{2} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{13} + \\sqrt{12}}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{37} + \\sqrt{13} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8450/cat-2021-set-2-quantitative-aptitude-question-3\" target=\"_blank\">https://aptitude.gateoverflow.in/8450/cat-2021-set-2-quantitative-aptitude-question-3</a></p>"
+        },
+        {
+          "id": 149,
+          "question": "<p><a name=\"8445\"></a><div itemprop=\"text\"><p>The sides \\( \\text{AB} \\) and \\( \\text{CD} \\) of a trapezium \\( \\text{ABCD} \\) are parallel, with \\( \\text{AB} \\) being the smaller side. \\( \\text{P} \\) is the midpoint of \\( \\text{CD} \\) and \\( \\text{ABPD} \\) is a parallelogram. If the difference between the areas of the parallelogram \\( \\text{ABPD} \\) and the triangle \\( \\text{BPC} \\) is \\( 10 \\; \\text{sq cm}, \\) then the area, \\( \\text{in sq cm}, \\) of the trapezium \\( \\text{ABCD} \\)&nbsp; is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8445/cat-2021-set-2-quantitative-aptitude-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/8445/cat-2021-set-2-quantitative-aptitude-question-8</a></p>"
+        },
+        {
+          "id": 150,
+          "question": "<p><a name=\"8508\"></a><div itemprop=\"text\"><p>The cost of fencing a rectangular plot is \\(  \\text{₹} \\; 200 \\; \\text{per ft} \\) along one side, and&nbsp;\\(  \\text{₹} \\; 100 \\; \\text{per ft} \\) along the three other sides. If the area of the rectangular plot is \\( 60000 \\; \\text{sq. ft}, \\) then the lowest possible cost of fencing all four sides, in \\( \\text{INR}, \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 160000 \\)</p>",
+            "<p>\\( 100000 \\)</p>",
+            "<p>\\( 120000 \\)</p>",
+            "<p>\\( 90000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 120000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8508/cat-2021-set-3-quantitative-aptitude-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/8508/cat-2021-set-3-quantitative-aptitude-question-11</a></p>"
+        },
+        {
+          "id": 151,
+          "question": "<p><a name=\"8503\"></a><div itemprop=\"text\">A park is shaped like a rhombus and has area \\( 96 \\; \\text{sq m}. \\) If \\( 40 \\; \\text{m} \\) of fencing is needed to enclose the park, the cost, in \\( \\text{INR}, \\) of laying electric wires along its two diagonals, at the rate of \\(  \\text{₹} \\; 125 \\; \\text{per m}, \\) is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3500",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8503/cat-2021-set-3-quantitative-aptitude-question-16\" target=\"_blank\">https://aptitude.gateoverflow.in/8503/cat-2021-set-3-quantitative-aptitude-question-16</a></p>"
+        },
+        {
+          "id": 152,
+          "question": "<p><a name=\"8515\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{ABC}, \\angle \\text{BCA} = 50^{\\circ}. \\text{D} \\) and \\( \\text{E} \\) are points on \\( \\text{AB} \\) and \\( \\text{AC}, \\) respectively, such that&nbsp;\\( \\text{AD&nbsp;= DE}. \\) If \\( \\text{F} \\) is a point on \\( \\text{BC} \\)&nbsp;such that \\( \\text{BD = DF}, \\) then \\( \\angle \\text{FDE, in degrees}, \\) is equal to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 96 \\)</p>",
+            "<p>\\( 72 \\)</p>",
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 100 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 80 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8515/cat-2021-set-3-quantitative-aptitude-question-4\" target=\"_blank\">https://aptitude.gateoverflow.in/8515/cat-2021-set-3-quantitative-aptitude-question-4</a></p>"
+        },
+        {
+          "id": 153,
+          "question": "<p><a name=\"8513\"></a><div itemprop=\"text\"><p>Let \\( \\text{ABCD} \\) be a parallelogram. The lengths of the side \\( \\text{AD} \\) and the diagonal \\( \\text{AC} \\) are \\( 10 \\; \\text{cm} \\) and&nbsp;\\( 20 \\; \\text{cm}, \\) respectively. If the angle \\( \\angle \\text{ADC} \\) is equal&nbsp;to \\( 30^{\\circ} \\) then the area of the parallelogram, in sq. cm, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{25(\\sqrt{5} + \\sqrt{15})}{2} \\)</p>",
+            "<p>\\( 25 (\\sqrt{5} + \\sqrt{15}) \\)</p>",
+            "<p>\\( \\frac{25 (\\sqrt{3} + \\sqrt{15})}{2} \\)</p>",
+            "<p>\\( 25 (\\sqrt{3} + \\sqrt{15}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 25 (\\sqrt{3} + \\sqrt{15}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8513/cat-2021-set-3-quantitative-aptitude-question-6\" target=\"_blank\">https://aptitude.gateoverflow.in/8513/cat-2021-set-3-quantitative-aptitude-question-6</a></p>"
+        },
+        {
+          "id": 154,
+          "question": "<p><a name=\"4821\"></a><div itemprop=\"text\">A car is approaching a light houise at uniform speed.The angle of elevation of car at the top of the light house changes from 45 to 60(IN DEGREES) in10 min.The time (in &nbsp;min) in which the car reach the base of the tower ?</div><br><br><b>Quantitative Aptitude: GEOMETRY</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4821/geometry\" target=\"_blank\">https://aptitude.gateoverflow.in/4821/geometry</a></p>"
+        },
+        {
+          "id": 155,
+          "question": "<p><a name=\"6920\"></a><div itemprop=\"text\"><p>A circular garden twenty feet in diameter is surrounded by a path three feet wide. What is the area of the path?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 51 \\pi \\) square feet</p>",
+            "<p>\\( 60 \\pi \\) square feet</p>",
+            "<p>\\( 69 \\pi \\) square feet</p>",
+            "<p>\\( 90 \\pi \\) square feet</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6920/nielit-2016-mar-scientist-d-63\" target=\"_blank\">https://aptitude.gateoverflow.in/6920/nielit-2016-mar-scientist-d-63</a></p>"
+        },
+        {
+          "id": 156,
+          "question": "<p><a name=\"6919\"></a><div itemprop=\"text\"><p>What is the area of a semicircle with a diameter of \\( 16 \\) inches?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 32 \\pi \\) square inches</p>",
+            "<p>\\( 64&nbsp;\\pi \\) square inches</p>",
+            "<p>\\( 128&nbsp;\\pi \\) square inches</p>",
+            "<p>\\( 256&nbsp;\\pi \\) square inches</p>"
+          ],
+          "correct_answer": "<p>\\( 32 \\pi \\) square inches</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6919/nielit-2016-mar-scientist-d-64\" target=\"_blank\">https://aptitude.gateoverflow.in/6919/nielit-2016-mar-scientist-d-64</a></p>"
+        },
+        {
+          "id": 157,
+          "question": "<p><a name=\"6918\"></a><div itemprop=\"text\"><p>Which of the following figures has the largest perimeter \\( (1 \\text{ foot} = 12 \\text{ inches}) \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a square with a diagonal of \\( 5 \\) feet</p>",
+            "<p>a rectangle with sides of \\( 3 \\) feet and \\( 4 \\) feet</p>",
+            "<p>an equilateral triangle with a side equal to \\( 48 \\) inches</p>",
+            "<p>a regular hexagon whose longest diagonal is \\( 6 \\) feet</p>"
+          ],
+          "correct_answer": "<p>a regular hexagon whose longest diagonal is \\( 6 \\) feet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6918/nielit-2016-mar-scientist-d-65\" target=\"_blank\">https://aptitude.gateoverflow.in/6918/nielit-2016-mar-scientist-d-65</a></p>"
+        },
+        {
+          "id": 158,
+          "question": "<p><a name=\"6910\"></a><div itemprop=\"text\"><p>The perimeter of a parallelogram is \\( 50 \\) cm. The length of the parallelogram is \\( 5 \\) cm more than the width. Find the length of the parallelogram.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15 \\) cm</p>",
+            "<p>\\( 11 \\) cm</p>",
+            "<p>\\( 5 \\) cm</p>",
+            "<p>\\( 10 \\) cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6910/nielit-2016-mar-scientist-d-73\" target=\"_blank\">https://aptitude.gateoverflow.in/6910/nielit-2016-mar-scientist-d-73</a></p>"
+        },
+        {
+          "id": 159,
+          "question": "<p><a name=\"6259\"></a><div itemprop=\"text\"><p>The length of a rope, to which a cow is tied, is increased from \\( 19 \\) m to \\( 30 \\) m. How much additional ground will it be able to graze ? Assume that the cow is able to move on all sides with equal ease. Use \\( \\pi&nbsp;= \\frac{22}{7} \\) in your calculations.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1696 \\) sq m</p>",
+            "<p>\\( 1694 \\) sq m</p>",
+            "<p>\\( 1594 \\) sq m</p>",
+            "<p>\\( 1756 \\) sq m</p>"
+          ],
+          "correct_answer": "<p>\\( 1694 \\) sq m</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6259/nielit-2017-dec-scientist-b-section-a-53\" target=\"_blank\">https://aptitude.gateoverflow.in/6259/nielit-2017-dec-scientist-b-section-a-53</a></p>"
+        },
+        {
+          "id": 160,
+          "question": "<p><a name=\"6365\"></a><div itemprop=\"text\"><p>A rectangular field is to be fenced on three sides leaving a side of \\( 20 \\) feet uncovered. If the area of the field is \\( 680 \\) sq feet, how many feet of fencing will be required?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 68 \\)</p>",
+            "<p>\\( 88 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 88 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6365/nielit-2017-july-scientist-b-section-a-7\" target=\"_blank\">https://aptitude.gateoverflow.in/6365/nielit-2017-july-scientist-b-section-a-7</a></p>"
+        },
+        {
+          "id": 161,
+          "question": "<p><a name=\"6645\"></a><div itemprop=\"text\"><p>For a sphere of radius \\( 10 \\) cm, the numerical value of the surface area is how many percent of the numerical value of its volume?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 26.5\\% \\)</p>",
+            "<p>\\( 24\\% \\)</p>",
+            "<p>\\( 30\\% \\)</p>",
+            "<p>\\( 45\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6645/nielit-2019-feb-scientist-c-section-c-11\" target=\"_blank\">https://aptitude.gateoverflow.in/6645/nielit-2019-feb-scientist-c-section-c-11</a></p>"
+        },
+        {
+          "id": 162,
+          "question": "<p><a name=\"6674\"></a><div itemprop=\"text\"><p>A conical tent is to accommodate \\( 10 \\) persons. Each&nbsp;person must have&nbsp;\\( 6m^{2} \\) space to sit and \\( 30m^{3} \\) of air to breath. What will be height of cone?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 37.5 \\) m</p>",
+            "<p>\\( 150 \\) m</p>",
+            "<p>\\( 75 \\) m</p>",
+            "<p>\\( 15 \\) m</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\) m</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6674/nielit-2019-feb-scientist-c-section-d-12\" target=\"_blank\">https://aptitude.gateoverflow.in/6674/nielit-2019-feb-scientist-c-section-d-12</a></p>"
+        },
+        {
+          "id": 163,
+          "question": "<p><a name=\"6662\"></a><div itemprop=\"text\"><p>A cylindrical box of radius \\( 5 \\) cm contains \\( 10 \\) solid spherical balls each of radius \\( 5 \\) cm. If the topmost ball touches the upper cover of the box, then the volume of the empty space in the box is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{2500\\pi}{3} \\) cubic cm</p>",
+            "<p>\\( 500\\pi \\) cubic cm</p>",
+            "<p>\\( 2500\\pi \\) cubic cm</p>",
+            "<p>\\( \\dfrac{5000\\pi}{3} \\) cubic cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6662/nielit-2019-feb-scientist-c-section-d-24\" target=\"_blank\">https://aptitude.gateoverflow.in/6662/nielit-2019-feb-scientist-c-section-d-24</a></p>"
+        },
+        {
+          "id": 164,
+          "question": "<p><a name=\"6660\"></a><div itemprop=\"text\"><p>\\( A,B,C \\) are three towns forming a triangle. A man has to walk from one town to next town, then ride to the next town then&nbsp; again drive towards his starting point. He can walk,ride,drive a km in \\( a,b,c \\) minutes respectively. If he starts from \\( B \\), he takes \\( a-b+c \\) hrs, if he starts from \\( C \\) he takes \\( b+a-c \\) and if he starts from \\( A \\) he takes \\( c+b-a \\) hrs. The length of the triangle is: (assume the motion in anticlockwise direction)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60a \\)</p>",
+            "<p>\\( 50a \\)</p>",
+            "<p>\\( 40a \\)</p>",
+            "<p>\\( 65a \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6660/nielit-2019-feb-scientist-c-section-d-26\" target=\"_blank\">https://aptitude.gateoverflow.in/6660/nielit-2019-feb-scientist-c-section-d-26</a></p>"
+        },
+        {
+          "id": 165,
+          "question": "<p><a name=\"6659\"></a><div itemprop=\"text\"><p>In a bangle shop. If the shopkeeper displays the bangles in the form of a square then he is left with \\( 38 \\) bangles. If he wanted to increase the size of square by one bangle each side of the square he found that \\( 25 \\) bangles fall short of in completing the square. The actual number of bangles which he had with him the shop was_________.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1690 \\)</p>",
+            "<p>\\( 999 \\)</p>",
+            "<p>\\( 538 \\)</p>",
+            "<p>\\( 1000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6659/nielit-2019-feb-scientist-c-section-d-27\" target=\"_blank\">https://aptitude.gateoverflow.in/6659/nielit-2019-feb-scientist-c-section-d-27</a></p>"
+        },
+        {
+          "id": 166,
+          "question": "<p><a name=\"6657\"></a><div itemprop=\"text\"><p>If \\( (-4,0),(1,-1) \\) are two vertices of a triangle whose area is \\( 4 \\) Sq units then its third vertex lies on:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( y=x \\)</p>",
+            "<p>\\( 5x+y+12=0 \\)</p>",
+            "<p>\\( x+5y-4=0 \\)</p>",
+            "<p>\\( x-5y+4=0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6657/nielit-2019-feb-scientist-c-section-d-29\" target=\"_blank\">https://aptitude.gateoverflow.in/6657/nielit-2019-feb-scientist-c-section-d-29</a></p>"
+        },
+        {
+          "id": 167,
+          "question": "<p><a name=\"6680\"></a><div itemprop=\"text\"><p>In a triangle \\( XYZ \\), \\( P \\) and \\( Q \\) are points on \\( {XY,XZ} \\) respectively such that \\( XP=2PY \\), \\( XQ=2QZ \\), then the ratio, of area of&nbsp;\\( \\triangle&nbsp;XPQ \\) and area of&nbsp;\\( \\triangle&nbsp;XYZ \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4:9 \\)</p>",
+            "<p>\\( 2:3 \\)</p>",
+            "<p>\\( 3:2 \\)</p>",
+            "<p>\\( 9:4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6680/nielit-2019-feb-scientist-c-section-d-6\" target=\"_blank\">https://aptitude.gateoverflow.in/6680/nielit-2019-feb-scientist-c-section-d-6</a></p>"
+        },
+        {
+          "id": 168,
+          "question": "<p><a name=\"6852\"></a><div itemprop=\"text\"><p>In a swimming-pool \\( 90 \\) m by \\( 40 \\) m, \\( 150 \\) men take a dip. If the average displacement of water by a man is \\( 8 \\) cubic metres, what will be rise in water level ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\) cm</p>",
+            "<p>\\( 33.33 \\) cm</p>",
+            "<p>\\( 20.33 \\) cm</p>",
+            "<p>\\( 25 \\) cm</p>"
+          ],
+          "correct_answer": "<p>\\( 33.33 \\) cm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6852/nielit-2019-feb-scientist-d-section-d-1\" target=\"_blank\">https://aptitude.gateoverflow.in/6852/nielit-2019-feb-scientist-d-section-d-1</a></p>"
+        },
+        {
+          "id": 169,
+          "question": "<p><a name=\"6843\"></a><div itemprop=\"text\"><p>In an acute angled triangle \\( ABC \\), if \\( \\tan \\left(A+B-C \\right)=1 \\) and&nbsp; \\( \\sec&nbsp;\\left(B+C-A&nbsp;\\right)=2 \\), Find angle \\( A \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60^\\circ \\)</p>",
+            "<p>\\( 45^\\circ \\)</p>",
+            "<p>\\( 30^\\circ \\)</p>",
+            "<p>\\( 90^\\circ \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6843/nielit-2019-feb-scientist-d-section-d-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6843/nielit-2019-feb-scientist-d-section-d-10</a></p>"
+        },
+        {
+          "id": 170,
+          "question": "<p><a name=\"6842\"></a><div itemprop=\"text\"><p>What will be area of the rhombus with equations of sides \\( ax \\pm \\) \\( by \\pm c \\) = \\( 1 \\) ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{3c^{2}}{ab} \\)sq. units</p>",
+            "<p>\\( \\frac{4c^{2}}{ab} \\)sq. units</p>",
+            "<p>\\( \\frac{2c^{2}}{ab} \\)sq. units</p>",
+            "<p>\\( \\frac{c^{2}}{ab} \\)sq. units</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6842/nielit-2019-feb-scientist-d-section-d-11\" target=\"_blank\">https://aptitude.gateoverflow.in/6842/nielit-2019-feb-scientist-d-section-d-11</a></p>"
+        },
+        {
+          "id": 171,
+          "question": "<p><a name=\"6851\"></a><div itemprop=\"text\"><p>A conical tent is to accommodate \\( 10 \\) persons. Each person must have \\( 6\\;m^{2} \\) space to sit and \\( 30\\;m^{3} \\) of air to breath. What will be height of cone ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 37.5\\;m \\)</p>",
+            "<p>\\( 150\\;m \\)</p>",
+            "<p>\\( 75\\;m \\)</p>",
+            "<p>\\( 15\\;m \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6851/nielit-2019-feb-scientist-d-section-d-2\" target=\"_blank\">https://aptitude.gateoverflow.in/6851/nielit-2019-feb-scientist-d-section-d-2</a></p>"
+        },
+        {
+          "id": 172,
+          "question": "<p><a name=\"6833\"></a><div itemprop=\"text\"><p>If \\( \\left (-4, 0 \\right), \\left(1, -1 \\right) \\) are two vertices of a triangle whose area is \\( 4 \\) Sq units then its third vertex lies on :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( y=x \\)</p>",
+            "<p>\\( 5x+y+12=0 \\)</p>",
+            "<p>\\( x+5y-4=0 \\)</p>",
+            "<p>\\( x-5y+4=0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6833/nielit-2019-feb-scientist-d-section-d-20\" target=\"_blank\">https://aptitude.gateoverflow.in/6833/nielit-2019-feb-scientist-d-section-d-20</a></p>"
+        },
+        {
+          "id": 173,
+          "question": "<p><a name=\"6845\"></a><div itemprop=\"text\"><p>If \\( A \\) be the area of a right angled triangle and \\( b \\) be one of the sides containing the right angle, then the length of altitude on the hypotenuse is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{2Ab}{\\sqrt{4b^{4}+A^{2}}} \\)</p>",
+            "<p>\\( \\frac{Ab}{\\sqrt{b^{4}+4A^{2}}} \\)</p>",
+            "<p>\\( \\frac{2Ab}{\\sqrt{b^{4}+4A^{2}}} \\)</p>",
+            "<p>\\( \\frac{Ab}{\\sqrt{4b^{4}+A^{2}}} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6845/nielit-2019-feb-scientist-d-section-d-8\" target=\"_blank\">https://aptitude.gateoverflow.in/6845/nielit-2019-feb-scientist-d-section-d-8</a></p>"
+        },
+        {
+          "id": 174,
+          "question": "<p><a name=\"4310\"></a><div itemprop=\"text\">a hollow iron pipe is 21cm long and its external diameter is 8cm. if the thickness of the pipe is 1 cm and iron weigth is 8 g/cm3 then the weigth of the pipe is?</div><br><br><b>Quantitative Aptitude: volume and surface area</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4310/volume-and-surface-area\" target=\"_blank\">https://aptitude.gateoverflow.in/4310/volume-and-surface-area</a></p>"
+        }
+      ]
+    }
+  ]
+}

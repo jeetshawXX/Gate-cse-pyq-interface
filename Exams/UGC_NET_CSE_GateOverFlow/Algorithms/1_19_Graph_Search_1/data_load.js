@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Graph Search",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56303\"></a><div itemprop=\"text\"><p>The strategy used to reduce the number of tree branches and the number of static evaluations applied in case of a game tree is</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | June 2012 | Part 3 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Minmax strategy</p>",
+            "<p>Alpha-beta pruning strategy</p>",
+            "<p>Constraint satisfaction strategy</p>",
+            "<p>Static max strategy</p>"
+          ],
+          "correct_answer": "<p>Alpha-beta pruning strategy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56303/ugc-net-cse-june-2012-part-3-question-51\" target=\"_blank\">https://gateoverflow.in/56303/ugc-net-cse-june-2012-part-3-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

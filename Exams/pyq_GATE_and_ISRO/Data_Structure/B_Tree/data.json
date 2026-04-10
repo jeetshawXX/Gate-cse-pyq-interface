@@ -1,0 +1,71 @@
+{
+  "title": "Data_Structure - B_Tree",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "B_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If a node has \\(K\\) children in B tree, then the node contains exactly _____ keys. <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(K^{2}\\)</p>",
+            "<b>B.</b> <p>\\(K-1\\)</p>",
+            "<b>C.</b> <p>\\(K+1\\)</p>",
+            "<b>D.</b> <p>\\(\\sqrt{K}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(K-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51699/isro2015-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A B-tree of order 4 is built from scratch by 10 successive insertions. What is the\nmaximum number of node splitting operations that may take place? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/453/gate2008-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following 2-3-4 tree (i.e., B-tree with a minimum degree of two) in\nwhich each data item is a letter. The usual alphabetical ordering of letters is used\nin constructing the tree <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B_Tree\\q65_691d0854.jpg\"><br>What is the result of inserting G in the above tree ? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B_Tree\\q65a_306f9651.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/952/gate2003-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br><br>\nA 2-3 tree is such that<br>\na. All internal nodes have either 2 or 3 children<br>\nb. All paths from root to the leaves have the same length.<br><br>The number of internal nodes of a 2-3 tree having 9 leaves could be <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/562/gate1992-02-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "English Language - Sentence Correction",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Sentence Correction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"843\"></a><div itemprop=\"text\"><p>Each question consists of four sentences on a topic. Some sentences are grammatically incorrect or inappropriate. Select the option that indicates the grammatically correct and appropriate sentence(s)</p>\n\n<p>A. Last Sunday, Archana had nothing to do.</p>\n\n<p>B. After waking up, she lay on the bed thinking of what to do.</p>\n\n<p>C. At \\( 11 \\) o'clock she took shower and got ready.</p>\n\n<p>D. She spent most of the day shopping.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>B and C.</li>\n\t<li>C</li>\n\t<li>A and B.</li>\n\t<li>B, C and D</li>\n</ol></div><br><br><b>English Language: CAT 2009 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/843/cat-2009-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/843/cat-2009-question-59</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"844\"></a><div itemprop=\"text\"><p>Each question consists of four sentences on a topic. Some sentences are grammatically incorrect or inappropriate. Select the option that indicates the grammatically correct and appropriate sentence(s)</p>\n\n<p>A. Large reductions in the ozone layer, which sits about \\( 15-30 \\) km above the Earth, take place each winter over the polar regions, especially the Antarctic, as low temperatures allow the formation of stratospheric clouds that assist chemical reactions breaking down zone.</p>\n\n<p>B. Industrial chemicals containing chlorine and bromine have-been blamed for thinning the layer because they attack the ozone molecules, making them to break apart.</p>\n\n<p>C. Many an offending chemicals have now been banned.</p>\n\n<p>D. It will still take several decades before these substances have disappeared from the atmosphere.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>D</li>\n\t<li>B and D</li>\n\t<li>A and D</li>\n\t<li>A and C</li>\n</ol></div><br><br><b>English Language: CAT 2009 | Question: 60</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/844/cat-2009-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/844/cat-2009-question-60</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5002\"></a><div itemprop=\"text\"><p>Choose the option that point out sentence(s) with grammatical error(s).</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>I love the man dancing on the table.</li>\n\t<li>I love the man’s dancing on the table.</li>\n\t<li>In \\( 1986 \\) Elie Wiesel was named the Nobel Peace Prize recipient, an honour established by Alfred Nobel.</li>\n\t<li>Neither of teh recommendations works as well as thought they would.</li>\n\t<li>Either the Minister or the Minister’s wife will have to excuse themselves from the reception to speak to the caterer</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>English Language: CAT 2010 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>III and V</p>",
+            "<p>I and IV</p>",
+            "<p>II and V</p>",
+            "<p>III and IV</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5002/cat-2010-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/5002/cat-2010-question-32</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"5303\"></a><div itemprop=\"text\"><p>There are five sentences or parts of sentences that form a paragraph. Identity the sentence(s) or part(s) of sentence(s) that is/are correct in terms of grammar and usage. Then&nbsp;choose the most appropriate option</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>Leonardo da Vinci wed a self-taught man and began teaching himself Latin at the early age.</li>\n\t<li>He became a great engineer and was the first to discover that blood circulated through the body.</li>\n\t<li>He believed that coarse people of bad habits and shallow judgments did not deserve so beautiful an instrument and such a complex anatomical equipment than the human body.</li>\n\t<li>They should merely have a sack for taking in food and letting it out again, for they are nothing but the alimentary canal.</li>\n\t<li>Very fond of animals, he was himself a vegetarian and had the habit of buying caged birds from the market end setting them free immediately.</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2013 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>a&nbsp;and c.</p>",
+            "<p>b&nbsp;and d.</p>",
+            "<p>only a.</p>",
+            "<p>only e.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5303/cat-2013-question-39\" target=\"_blank\">https://aptitude.gateoverflow.in/5303/cat-2013-question-39</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6320\"></a><div itemprop=\"text\"><p>Find the best correction for the underlined sentence from the four options give below:</p>\n\n<p>Under a provision of the Constitution that&nbsp;<u>was never applied, Congress has been required to call a convention for considering possible amendments to the document&nbsp;when formally asked to do it</u>&nbsp;by the legislatures of two-thirds of the states.</p>\n\n</div><br><br><b>English Language: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>was never applied, Congress has been required to call a convention for considering possible amendments to the&nbsp;document when formally asked to do it.</p>",
+            "<p>was never applied, there has been a requirement that Congress call a convention for consideration of possible&nbsp;amendments to the document when asked to do it formally.</p>",
+            "<p>has never applied, whereby Congress is required to call a convention to consider possible amendments to the&nbsp;document when formally asked to do so.</p>",
+            "<p>has never been applied, Congress is required to call a convention to consider possible amendments to the&nbsp;document when formally asked to do so.</p>"
+          ],
+          "correct_answer": "<p>has never been applied, Congress is required to call a convention to consider possible amendments to the&nbsp;document when formally asked to do so.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6320/nielit-2017-july-scientist-b-section-a-52\" target=\"_blank\">https://aptitude.gateoverflow.in/6320/nielit-2017-july-scientist-b-section-a-52</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"6314\"></a><div itemprop=\"text\"><p>Correct the underlined part of the sentence by choosing the correct option.</p>\n\n<p>Bombast&nbsp;<u>is when high sounding words for effect, not suitability, are used</u>.</p>\n\n</div><br><br><b>English Language: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is when high sounding words for effect, not suitability, are used.</p>",
+            "<p>is the use of high-sounding words for effect rather than for suitability.</p>",
+            "<p>is where high-sounding words are used for effect not suitability.</p>",
+            "<p>is the using of high-sounding words for effect only.</p>"
+          ],
+          "correct_answer": "<p>is the use of high-sounding words for effect rather than for suitability.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6314/nielit-2017-july-scientist-b-section-a-58\" target=\"_blank\">https://aptitude.gateoverflow.in/6314/nielit-2017-july-scientist-b-section-a-58</a></p>"
+        }
+      ]
+    }
+  ]
+}

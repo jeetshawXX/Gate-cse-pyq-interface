@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Computer Peripherals - Computer Peripherals",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Computer Peripherals",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60784\"></a><div itemprop=\"text\"><p>Which of the following is not true with respect to to a trackball and/or spaceball?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>A trackball is a two dimensional positioning device while as a spaceball provides six degrees of freedom</li>\n\t<li>Unlike the trackball a spaceball does not actually move</li>\n\t<li>A trackball is a three dimensional positioning device while as a spaceball provides six degrees of freedom\n\t\n\t</li>\n</ol></div><br><br><b>Computer Peripherals: UGC NET CSE | December 2013 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II</p>",
+            "<p>II and III</p>",
+            "<p>II only</p>",
+            "<p>III only</p>"
+          ],
+          "correct_answer": "<p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60784/ugc-net-cse-december-2013-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/60784/ugc-net-cse-december-2013-part-3-question-61</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Computer Peripherals - Disk",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Disk",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373770\"></a><div itemprop=\"text\"><p>Consider a disk pack with a seek time of \\( 4 \\; \\text{milliseconds} \\) and rotational speed of \\( 10000 \\) rotations per minute \\( \\text{(RPM)}. \\) It has \\( 600 \\) sectors per track and each sector can store \\( 512 \\; \\text{bytes} \\) of data. Consider a file stored in the disk. The file contains \\( 2000 \\) sectors. Assume that every sector access necessitates a seek, and the average rotational latency for accessing each sector is half of the time for one complete rotation. The total time \\( \\text{(in milliseconds)} \\) needed to read the entire file is __________</p>\n\n</div><br><br><b>Computer Peripherals: NIELIT 2022 April Scientist B | Section B | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14020 \\)</p>",
+            "<p>\\( 14000 \\)</p>",
+            "<p>\\( 25030 \\)</p>",
+            "<p>\\( 15000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14020 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373770/nielit-2022-april-scientist-b-section-b-question-68\" target=\"_blank\">https://gateoverflow.in/373770/nielit-2022-april-scientist-b-section-b-question-68</a></p>"
+        }
+      ]
+    }
+  ]
+}

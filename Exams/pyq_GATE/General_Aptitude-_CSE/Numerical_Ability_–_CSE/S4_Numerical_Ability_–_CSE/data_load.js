@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Numerical_Ability_–_CSE - Numerical_Ability_–_CSE - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Ability_–_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>We have 2 rectangular sheets of paper, M and N, of dimensions 6 cm x 1 cm each. Sheet M is rolled to form an open cylinder by bringing the short edges of the sheet together. Sheet N is cut into equal square patches and assembled to form the largest possible closed cube. Assuming the ends of the cylinder are closed, the ratio of the volume of the cylinder to that of the cube is _________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{\\pi}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3}{\\pi}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{9}{\\pi}\\)</p>",
+            "<b>D.</b> <p>\\(3 \\pi \\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{9}{\\pi}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357471/gate-cse-2021-set-1-ga-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q59a_0564cc1c.jpg\"><br>A circular sheet of paper is folded along the lines in the direction shown. The paper, after being punched in the final folded state as shown and unfolded in the reverse order of folding, will look like _______.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q59b_c0d59300.jpg\"> <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357473/gate-cse-2021-set-1-ga-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A polygon is convex if, for every pair of points, P and Q belonging to the polygon, the line segment PQ lies completely inside or on the polygon.\n<br>\nWhich one of the following is NOT a convex polygon?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q57_ba3aa658.jpg\"> <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357475/gate-cse-2021-set-1-ga-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The ratio of boys to girls in a class is 7 to 3.<br><br>Among the options below, an acceptable value for the total number of students in the class is: <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21</p>",
+            "<b>B.</b> <p>37</p>",
+            "<b>C.</b> <p>50</p>",
+            "<b>D.</b> <p>73</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>50</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The total revenue of a company during 2014 - 2018 is shown in the bar graph. If the total expenditure of the company in each year is 500 million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during 2014 - 2018 is ___________.<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q65_9dd6e5f8.jpg\"><br> <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16.67%  profit</p>",
+            "<b>B.</b> <p>16.67%  loss</p>",
+            "<b>C.</b> <p>20%  profit</p>",
+            "<b>D.</b> <p>20%  loss</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>20%  profit</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333231/gate-cse-2020-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Two straight lines are drawn perpendicular to each other in X-Y plane. If \\(\\alpha\\) and \\(\\beta\\) are the acute angles the straight lines make with the X-axis, then \\(\\alpha +\\beta\\) is ________. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(60^{\\circ}\\)</p>",
+            "<b>B.</b> <p>\\(90^{\\circ}\\)</p>",
+            "<b>C.</b> <p>\\(120^{\\circ}\\)</p>",
+            "<b>D.</b> <p>\\(180^{\\circ}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(90^{\\circ}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333232/gate-cse-2020-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The figure below shows an annular ring with outer and inner as b and a, respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum n number of circles can be painted, then the unpainted area available in annular space is _____.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q63_8037d24a.jpg\"><br> <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]\\)</p>",
+            "<b>B.</b> <p>\\(\\pi [(b^{2}-a^{2})-n(b-a)^{2}]\\)</p>",
+            "<b>C.</b> <p>\\(\\pi [(b^{2}-a^{2})+\\frac{n}{4}(b-a)^{2}]\\)</p>",
+            "<b>D.</b> <p>\\(\\pi [(b^{2}-a^{2})+n(b-a)^{2}]\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333233/gate-cse-2020-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If P=3, R=27, T=243, then Q + S = ________ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>40</p>",
+            "<b>B.</b> <p>80</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>90</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333234/gate-cse-2020-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>There are multiple routes to reach from node 1 to node 2, as shown in the network.   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q60_6c5cda18.jpg\"><br>\nThe cost of travel on an edge between two nodes is given in rupees. Nodes 'a', 'b', 'c', 'd', 'e', and 'f' are toll booths. The toll price at toll booths marked 'a' and 'e' is Rs. 200, and is Rs. 100 for the other toll booths. Which is the cheapest route from node 1 to node 2? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 - a - c - 2</p>",
+            "<b>B.</b> <p>1 - f - b - 2</p>",
+            "<b>C.</b> <p>1 - b - 2</p>",
+            "<b>D.</b> <p>1 - f - e - 2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 - f - b - 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333236/gate-cse-2020-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Three of the five students are allocated to a hostel put in special requests to the warden, Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.<br><br>Request by X: Due to pollen allergy, I want to avoid a wing next to the garden.\n<br>\nRequest by Y: I want to live as far from the washrooms as possible, since I am very mich sensitive to smell.\n<br>\nRequest by Z: I believe in Vaastu and so I want to stay in South-West wing.\n<br><br>\nThe shaded rooms are already occupied. WR is washroom<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q65_5e93267b.jpg\"><br> <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302863/gate-cse-2019-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a college, there are three student clubs, 60 students are only in the Drama club, 80 students are only in the Dance club, 30 students are only in Maths club, 40 students are in both Drama and Dance clubs, 12 students are in both Dance and Maths clubs, 7 students are in both Drama and Maths clubs, and 2 students are in all clubs. If 75% of the students in the college are not in any of these clubs, then the total number of students in the college is _____. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1000</p>",
+            "<b>B.</b> <p>975</p>",
+            "<b>C.</b> <p>900</p>",
+            "<b>D.</b> <p>225</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>900</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302864/gate-cse-2019-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In the given diagram, teachers are represented in the triangle, researchers in the circle and administrators in the rectangle. Out of the total number of the people, the percentage of administrators shall be in the range of _______<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q62_3cbfda58.jpg\"><br> <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 to 15</p>",
+            "<b>B.</b> <p>16 to  30</p>",
+            "<b>C.</b> <p>31 to 45</p>",
+            "<b>D.</b> <p>46 to 60</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>31 to 45</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302866/gate-cse-2019-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The police arrested four criminals - P, Q, R and S. The criminals knew each other. They made the following statements:\n<br>\n<br>\nP says \"Q committed the crime.\"\n<br>\nQ says \"S committed the crime.\"\n<br>\nR says \" I did not do it.\"\n<br>S says \"What Q said about me is false\".\n<br>\n<br>\nAssume only one of the arrested four committed the crime and only one of the statements made above is true. Who committed the crime? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P</p>",
+            "<b>B.</b> <p>R</p>",
+            "<b>C.</b> <p>S</p>",
+            "<b>D.</b> <p>Q</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302867/gate-cse-2019-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Ten friends planned to share equally the cost of buying a gift for their teacher. When two of them decided not to contribute, each of the other friends had to pay Rs. 150 more. The cost of the gift was Rs. ___ <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>666</p>",
+            "<b>B.</b> <p>3000</p>",
+            "<b>C.</b> <p>6000</p>",
+            "<b>D.</b> <p>12000</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302869/gate-cse-2019-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Two cars at the same time from the same location and go in the same direction. The speed of the first car is 50 km/h and the speed of the second car is 60 km/h. The number of hours it takes for the distance between the two cars to be 20 km is _____. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302870/gate-cse-2019-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

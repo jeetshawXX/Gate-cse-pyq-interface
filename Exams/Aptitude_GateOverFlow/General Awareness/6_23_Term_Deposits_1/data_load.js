@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "General Awareness - Term Deposits",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Term Deposits",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"105\"></a><div itemprop=\"text\"><p>On domestic term deposits, bank in our country generally offer additional rate of interest on term deposit from ___</p><p>&nbsp;</p><ol><li>Minors</li><li>Married women</li><li>Govt. employees</li><li>Rural residents</li><li>Senior citizens</li></ol><p>&nbsp;</p></div><br><br><b>General Awareness: On domestic term deposits, bank in our country generally offer additional rate of interest on term deposit from</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/105/domestic-deposits-generally-additional-interest-deposit\" target=\"_blank\">https://aptitude.gateoverflow.in/105/domestic-deposits-generally-additional-interest-deposit</a></p>"
+        }
+      ]
+    }
+  ]
+});

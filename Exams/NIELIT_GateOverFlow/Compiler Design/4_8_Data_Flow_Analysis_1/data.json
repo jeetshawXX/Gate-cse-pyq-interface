@@ -1,0 +1,26 @@
+{
+  "title": "Compiler Design - Data Flow Analysis",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Flow Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366900\"></a><div itemprop=\"text\"><p>A variable \\( \\text{p} \\) is said to be line at point \\( \\text{m} \\) if and only if \\( : \\)</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{p} \\) is assigned at point \\( \\text{m} \\)</p>",
+            "<p>\\( \\text{p} \\) is not assigned at point \\( \\text{m} \\)</p>",
+            "<p>Value of \\( \\text{p} \\) at \\( \\text{m} \\) would be used along some path in the flow graph starting at point \\( \\text{m} \\)</p>",
+            "<p>Value of \\( \\text{p} \\) at \\( \\text{m} \\) would be used along some path in the flow graph ending at point \\( \\text{m} \\)</p>"
+          ],
+          "correct_answer": "<p>Value of \\( \\text{p} \\) at \\( \\text{m} \\) would be used along some path in the flow graph starting at point \\( \\text{m} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366900/nielit-2021-dec-scientist-b-section-b-117\" target=\"_blank\">https://gateoverflow.in/366900/nielit-2021-dec-scientist-b-section-b-117</a></p>"
+        }
+      ]
+    }
+  ]
+}

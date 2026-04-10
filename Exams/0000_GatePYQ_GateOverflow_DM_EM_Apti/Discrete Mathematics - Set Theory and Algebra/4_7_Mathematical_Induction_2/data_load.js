@@ -1,0 +1,31 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Mathematical Induction",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Mathematical Induction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2661\"></a><div itemprop=\"text\">Prove using mathematical induction for \\( n \\geq 5, 2^n &gt; n^2 \\)</div><br><br><b>GATE CSE 1995 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2661/gate-cse-1995-question-23\" target=\"_blank\">https://gateoverflow.in/2661/gate-cse-1995-question-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"674\"></a><div itemprop=\"text\">Consider the following sequence:<br>\n<br>\n\\( s_1 = s_2 = 1 \\) and \\( s_i = 1 + \\min &nbsp;\\left({s_{i-1}, s_{i-2}}\\right) \\text{ for } i &gt; 2 \\).<br>\n<br>\nProve by induction on \\( n \\) that \\( s_n=⌈\\frac{n}{2}⌉ \\).</div><br><br><b>GATE CSE 2000 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/674/gate-cse-2000-question-3\" target=\"_blank\">https://gateoverflow.in/674/gate-cse-2000-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

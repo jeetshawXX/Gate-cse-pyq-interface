@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Databases - Rdbms",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Rdbms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49530\"></a><div itemprop=\"text\"><p>A view of database that appears to an application program is known as</p>\n\n</div><br><br><b>Databases: ISRO CSE 2007 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Schema</p>",
+            "<p>Subschema</p>",
+            "<p>Virtual table</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Subschema</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49530/isro-cse-2007-question-50\" target=\"_blank\">https://gateoverflow.in/49530/isro-cse-2007-question-50</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50618\"></a><div itemprop=\"text\"><p>Which type of DBMS provides support for maintaining several versions of the same entity?</p>\n\n</div><br><br><b>Databases: ISRO CSE 2011 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Relational Database Management System</p>",
+            "<p>Hierarchical</p>",
+            "<p>Object Oriented Database Management System</p>",
+            "<p>Network</p>"
+          ],
+          "correct_answer": "<p>Object Oriented Database Management System</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50618/isro-cse-2011-question-21\" target=\"_blank\">https://gateoverflow.in/50618/isro-cse-2011-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

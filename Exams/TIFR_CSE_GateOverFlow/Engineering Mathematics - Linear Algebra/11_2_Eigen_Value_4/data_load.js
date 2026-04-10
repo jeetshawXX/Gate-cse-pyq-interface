@@ -1,0 +1,75 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Eigen Value",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Eigen Value",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"96901\"></a><div itemprop=\"text\"><p>Which of the following statements about the eigen values of \\( I_n \\), the \\( n \\times n \\) identity matrix (over complex numbers), is true?</p>\n\n</div><br><br><b>Linear Algebra: TIFR CSE 2016 | Part A | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The eigen values are \\( 1, \\omega, \\omega^2, \\dots , \\omega^{n-1} \\), where \\( \\omega \\) is a primitive \\( n \\)-th root of unity</p>",
+            "<p>The only eigen value is \\( -1 \\)</p>",
+            "<p>Both \\( 0 \\) and \\( 1 \\) are eigen values, but there are no other eigen values</p>",
+            "<p>The eigen values are&nbsp;\\( 1, 1/2, 1/3, \\dots , 1/n \\)</p>",
+            "<p>The only eigen value is \\( 1 \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/96901/tifr-cse-2016-part-a-question-6\" target=\"_blank\">https://gateoverflow.in/96901/tifr-cse-2016-part-a-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"280507\"></a><div itemprop=\"text\"><p>\\( A \\) is \\( n \\times n \\) square matrix for which the entries in every row sum to \\( 1 \\). Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n<li>The column vector \\( [1,1,\\ldots,1]^T \\) is an eigen vector of \\( A. \\)</li>\n<li>\\(  \\text{det}(A-I) = 0. \\)</li>\n<li>\\( \\text{det}(A) = 0. \\)</li>\n</ol>\n\n<p>Which of the above statements must be <strong>TRUE</strong>?</p>\n\n</div><br><br><b>Linear Algebra: TIFR CSE 2019 | Part A | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( (i) \\)</p>",
+            "<p>Only \\( (ii) \\)</p>",
+            "<p>Only \\( (i) \\) and \\( (ii) \\)</p>",
+            "<p>Only \\( (i) \\) and \\( (iii) \\)</p>",
+            "<p>\\( (i),(ii) \\text{ and }(iii) \\)</p>"
+          ],
+          "correct_answer": "<p>Only \\( (i) \\) and \\( (ii) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280507/tifr-cse-2019-part-a-question-3\" target=\"_blank\">https://gateoverflow.in/280507/tifr-cse-2019-part-a-question-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"473107\"></a><div itemprop=\"text\"><p>Consider the following matrix:<br>\\[<br>A=\\left[\\begin{array}{lll}<br>3 &amp; 0 &amp; 1 \\\\<br>0 &amp; 2 &amp; 0 \\\\<br>x &amp; 0 &amp; 1<br>\\end{array}\\right]<br>\\]<br>If all eigenvalues of the matrix are the same, what is the value of \\( x \\) ?</p></div><br><br><b>Linear Algebra: TIFR CSE 2025 | Part A | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( -2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 0 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( -1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473107/tifr-cse-2025-part-a-question-6\" target=\"_blank\">https://gateoverflow.in/473107/tifr-cse-2025-part-a-question-6</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"473085\"></a><div itemprop=\"text\"><p>Let \\( m, n \\) be positive integers such that \\( 10 \\leq m \\leq n \\). Let \\( A \\) be an \\( m \\times n \\) matrix with real entries. Let \\( v \\) be a unit vector in \\( \\mathbb{R}^{n} \\) with the maximum possible value of \\( \\|A v\\|_{2} \\). Define \\( \\ell:=\\|A v\\|_{2}^{2} \\) and let \\( \\lambda \\) be an eigenvalue of \\( A^{T} A \\) with the largest absolute value. Which of the following is \\( \\text{TRUE}? \\) (Here, for a vect or \\( u,\\|u\\|_{2} \\) represents its Euclidean length.)</p></div><br><br><b>Linear Algebra: TIFR CSE 2025 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( v \\) may not exist.</p>",
+            "<p>\\( v \\) always exists, but \\( \\lambda \\) may not be real.</p>",
+            "<p>\\( v \\) always exists, \\( \\lambda \\) is real, and \\( \\lambda=\\ell  \\)</p>",
+            "<p>\\( v \\) always exists, \\( \\lambda \\) is real, \\( \\lambda \\leq \\ell \\), and \\( \\lambda \\neq \\ell \\) is possible.</p>",
+            "<p>\\( v \\) always exists, \\( \\lambda \\) is real, \\( \\lambda \\geq \\ell \\), and \\( \\lambda \\neq \\ell \\) is possible.<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( v \\) always exists, \\( \\lambda \\) is real, and \\( \\lambda=\\ell  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473085/tifr-cse-2025-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/473085/tifr-cse-2025-part-b-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

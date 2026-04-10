@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - UGC NET CSE  July 2016  Part 2  Question",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "UGC NET CSE  July 2016  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63098\"></a><div itemprop=\"text\"><p>How many difference equivalence relations with exactly three different equivalence classes are there on a set with five elements?</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | July 2016 | Part 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>10</p>",
+            "<p>15</p>",
+            "<p>25</p>",
+            "<p>30</p>"
+          ],
+          "correct_answer": "<p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63098/ugc-net-cse-july-2016-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/63098/ugc-net-cse-july-2016-part-2-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"316270\"></a><div itemprop=\"text\"><p>Find the zero-one matrix of the transitive closure of the relation given by the matrix \\( A \\)&nbsp;:</p>\n\n<p>\\[ A =\\begin{bmatrix} 1 &amp; 0&amp; 1\\\\ 0 &amp; 1 &amp; 0\\\\ 1&amp; 1&amp; 0 \\end{bmatrix} \\]</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | June 2019 | Part 2 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{bmatrix} 1 &amp; 1&amp; 1\\\\ 0 &amp; 1 &amp; 0\\\\ 1&amp; 1&amp; 1 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 1 &amp; 0&amp; 1\\\\ 0 &amp; 1 &amp; 0\\\\ 1&amp; 1&amp; 0 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 1 &amp; 0&amp; 1\\\\ 0 &amp; 1 &amp; 0\\\\ 1&amp; 0&amp; 1 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 1 &amp; 1&amp; 1\\\\ 0 &amp; 1 &amp; 0\\\\ 1&amp; 0&amp; 1 \\end{bmatrix} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{bmatrix} 1 &amp; 1&amp; 1\\\\ 0 &amp; 1 &amp; 0\\\\ 1&amp; 1&amp; 1 \\end{bmatrix} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316270/ugc-net-cse-june-2019-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/316270/ugc-net-cse-june-2019-part-2-question-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335395\"></a><div itemprop=\"text\"><p>If \\( f (x)=x+1\\:\\text{and}\\:g(x)=x+3 \\)&nbsp;then \\( f&nbsp;0 f 0&nbsp;f 0 f \\) &nbsp;is :</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | December 2004 | Part 2 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( g \\)</p>",
+            "<p>\\( g+1 \\)</p>",
+            "<p>\\( g^4 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335395/ugc-net-cse-december-2004-part-2-question-2\" target=\"_blank\">https://gateoverflow.in/335395/ugc-net-cse-december-2004-part-2-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

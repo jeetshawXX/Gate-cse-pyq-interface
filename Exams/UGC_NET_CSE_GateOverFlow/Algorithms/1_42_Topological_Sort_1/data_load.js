@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Topological Sort",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Topological Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335485\"></a><div itemprop=\"text\"><p>Consider the graph, which of the following is a valid topological sorting?</p><p style=\"text-align:center\"><img alt=\"Graph\" width=\"250\" height=\"250\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=9700922895004382648\"></p></div><br><br><b>Algorithms: UGC NET CSE | December 2005 | Part 2 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{ABCD} \\)</p>",
+            "<p>\\( \\text{BACD} \\)</p>",
+            "<p>\\( \\text{BADC} \\)</p>",
+            "<p>\\( \\text{ABDC} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335485/ugc-net-cse-december-2005-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/335485/ugc-net-cse-december-2005-part-2-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+});

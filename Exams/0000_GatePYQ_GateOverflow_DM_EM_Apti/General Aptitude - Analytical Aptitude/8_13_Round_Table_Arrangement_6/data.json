@@ -1,0 +1,101 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Round Table Arrangement",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Round Table Arrangement",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411716\"></a><div itemprop=\"text\"><p>Six persons \\( \\text{P, Q, R, S, T and U} \\) are sitting around a circular table facing the center not necessarily in the same order. Consider the following statements:</p>\n\n<ul>\n\t<li>\\( \\text{P} \\) sits next to \\( \\text{S} \\) and \\( \\text{T} \\).</li>\n\t<li>\\( \\text{Q} \\) sits diametrically opposite to \\( \\text{P} \\).</li>\n\t<li>The shortest distance between \\( \\text{S} \\) and \\( \\text{R} \\) is equal to the shortest distance between \\( \\text{T} \\) and \\( \\text{U} \\).</li>\n</ul>\n\n<p>Based on the above statements, \\( \\text{Q} \\) is a neighbor of</p>\n\n</div><br><br><b>GATE CH 2022 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{U} \\) and \\( \\text{S} \\)</p>",
+            "<p>\\( \\text{R} \\) and \\( \\text{T} \\)</p>",
+            "<p>\\( \\text{R} \\) and \\( \\text{U} \\)</p>",
+            "<p>\\( \\text{P} \\) and \\( \\text{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{R} \\) and \\( \\text{U} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411716/gate-ch-2022-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411716/gate-ch-2022-ga-question-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"118410\"></a><div itemprop=\"text\"><p>Six people are seated around a circular table. There are at least two men and two women. There are at least three right-handed persons. Every woman has a left-handed person to her immediate right. None of the women are right-handed. The number of women at the table is</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7\" target=\"_blank\">https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359814\"></a><div itemprop=\"text\"><p>\\( P,Q,R,S,T,U,V, \\) and \\( W \\) are seated around a circular table.</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( S \\) is seated opposite to \\( W \\)</li>\n\t<li>\\( U \\) is seated at the second place to the right of \\( R \\)</li>\n\t<li>\\( T \\) is&nbsp;seated at the third place to the left of \\( R \\)</li>\n\t<li>\\( V \\) is a neighbour of \\( S \\)</li>\n</ol>\n\n<p>Which of the following must be true?</p>\n\n</div><br><br><b>GATE Chemical 2020 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\) is a neighbour&nbsp;of \\( R \\)</p>",
+            "<p>\\( Q \\) is a neighbour&nbsp;of \\( R \\)</p>",
+            "<p>\\( P \\) is not seated opposite to \\( Q \\)</p>",
+            "<p>\\( R \\) is the left neighbour of \\( S \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P \\) is not seated opposite to \\( Q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359814/gate-chemical-2020-ga-question-7\" target=\"_blank\">https://gateoverflow.in/359814/gate-chemical-2020-ga-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411913\"></a><div itemprop=\"text\"><p>Three husband-wife pairs are to be seated at a circular table that has six identical chairs. Seating arrangements are defined only by the relative position of the people.&nbsp; How many seating arrangements are possible such that every husband sits next to his wife?&nbsp;</p>\n\n</div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 720 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411913/gate-civil-2023-set-2-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411913/gate-civil-2023-set-2-ga-question-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"313417\"></a><div itemprop=\"text\"><p>\\( P, Q, R, S, T \\), and \\( U \\) are seated around a circular table . \\( R \\) is seated two places to the right of \\( Q.&nbsp;\\: P \\) is seated three places to the left of \\( R.&nbsp;\\: S \\) is seated opposite \\( U. \\) If \\( P \\) and \\( U \\) now switch seats, which of the following must necessarily&nbsp;be true?</p></div><br><br><b>GATE2017 CE-2: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\) is immediately to the right of \\( R \\)</p>",
+            "<p>\\( T \\) is immediately to the left&nbsp;of \\( P \\)</p>",
+            "<p>\\( T \\) is immediately to the left&nbsp;of \\( P \\) or \\( P \\) is immediately to the right of \\( Q \\)</p>",
+            "<p>\\( U \\) is immediately to the right of \\( R \\) or \\( P \\) is immediately to the left&nbsp;of \\( T \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T \\) is immediately to the left&nbsp;of \\( P \\) or \\( P \\) is immediately to the right of \\( Q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313417/gate2017-ce-2-ga-8\" target=\"_blank\">https://gateoverflow.in/313417/gate2017-ce-2-ga-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"313521\"></a><div itemprop=\"text\"><p>\\( S, T, U, V, W, X, Y \\) and \\( Z \\) are seated around a circular table. \\( T’s \\) neighbors are \\( Y \\) and \\( V. \\)&nbsp; \\( Z \\) is seated third to the left of \\( T \\) and second to the right of \\( S. \\) \\( U’s \\) neighbors are \\( S \\) and \\( Y; \\) and \\( T \\) and \\( W \\) are not seated opposite each other. Who is third to the left of \\( V? \\)</p>\n\n</div><br><br><b>GATE2017 EC-1: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X \\)</p>",
+            "<p>\\( W \\)</p>",
+            "<p>\\( U \\)</p>",
+            "<p>\\( T \\)</p>"
+          ],
+          "correct_answer": "<p>\\( X \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313521/gate2017-ec-1-ga-7\" target=\"_blank\">https://gateoverflow.in/313521/gate2017-ec-1-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+}

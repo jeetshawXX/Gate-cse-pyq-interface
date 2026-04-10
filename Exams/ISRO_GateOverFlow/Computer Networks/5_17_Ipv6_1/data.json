@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Ipv6",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Ipv6",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43982\"></a><div itemprop=\"text\">\n<p><strong>IPv6</strong> does not support which of the following addressing modes?</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unicast addressing</p>",
+            "<p>Multicast addressing</p>",
+            "<p>Broadcast addressing</p>",
+            "<p>Anycast addressing</p>"
+          ],
+          "correct_answer": "<p>Broadcast addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43982/isro-2013-42\" target=\"_blank\">https://gateoverflow.in/43982/isro-2013-42</a></p>"
+        }
+      ]
+    }
+  ]
+}

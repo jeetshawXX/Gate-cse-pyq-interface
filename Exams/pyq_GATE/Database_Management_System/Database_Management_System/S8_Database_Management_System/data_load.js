@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every relation in 3NF is also in BCNF</p>",
+            "<b>B.</b> <p>A relation R is in 3NF if every non-prime attribute of R is fully functionally dependent on every key of R</p>",
+            "<b>C.</b> <p>Every relation in BCNF is also in 3NF</p>",
+            "<b>D.</b> <p>No relation can be in both BCNF and 3NF</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Every relation in BCNF is also in 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/34/gate2012-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Database table by name Loan_Records is given below.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q36_8949872d.jpg\"> <br>\nWhat is the output of the following SQL query?<pre><code> \nSELECT count(*)\nFROM(\n(SELECT Borrower, Bank_Manager FROM Loan_Records) AS S\nNATURAL JOIN\n(SELECT Bank_Manager, Loan_Amount FROM Loan_Records) AS T); </code></pre> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2148/gate2011-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a relational table r with sufficient number of records, having attributes\n\\(A_{1}, A_{2},..., A_{n}\\) and let \\(1\\leq p\\leq n\\)\n. Two queries Q1 and Q2 are given below. <br><br>\\(Q1:\\pi _{A_{1}....A_{n}}(\\sigma _{A_{p}=c}(r)) \\) where c is a constant <br> \\(Q2:\\pi _{A1....A_{n}}(\\sigma _{c_{1}\\leq A_{p}\\leq c_{2}}(r)) \\) where \\(c_{1}\\) and \\(c_{2}\\) are constants <br><br> The database can be configured to do ordered indexing on \\(A_{p}\\) or hashing on  \\(A_{p}\\).<br><br>\nWhich of the following statements is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ordered indexing will always outperform hashing for both queries</p>",
+            "<b>B.</b> <p>Hashing will always outperform ordered indexing for both queries</p>",
+            "<b>C.</b> <p>Hashing will outperform ordered indexing on Q1, but not on Q2</p>",
+            "<b>D.</b> <p>Hashing will outperform ordered indexing on Q2, but not on Q1.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Hashing will outperform ordered indexing on Q1, but not on Q2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2141/gate2011-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a database table T containing two columns X and Y each of type integer.\nAfter the creation of the table, one record (X=1,Y=1) is inserted in the table. <br><br>\nLet MX and MY denote the respective maximum values of X and Y among all\nrecords in the table at any point in time. Using MX and MY, new records are\ninserted in the table 128 times with X and Y values being MX+1, 2*MY+1\nrespectively. It may be noted that each time after the insertion, values of MX and\nMY change. <br><br>\nWhat will be the output of the following SQL query after the steps mentioned\nabove are carried out? <br><br>\nSELECT Y FROM T WHERE X=7; <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>127</p>",
+            "<b>B.</b> <p>255</p>",
+            "<b>C.</b> <p>129</p>",
+            "<b>D.</b> <p>257</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>127</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2134/gate2011-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a relational table with a single record for each registered student with\nthe following attributes. <br><br>\n1. Registration_Number: Unique registration number for each registered student <br>\n2. UID: Unique Identity number, unique at the national level for each citizen <br>\n3. BankAccount_Number: Unique account number at the bank. A student can\nhave multiple accounts or joint accounts. This attributes stores the primary\naccount number <br>\n4. Name: Name of the Student <br>\n5. Hostel_Room: Room number of the hostel <br><br>\nWhich of the following options is INCORRECT? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BankAccount_Number is a candidate key</p>",
+            "<b>B.</b> <p>Registration_Number can be a primary key</p>",
+            "<b>C.</b> <p>UID is a candidate key if all students are from the same country</p>",
+            "<b>D.</b> <p>If \\(S\\) is a superkey such that \\(\\text{S}\\cap \\text{UID}\\) is NULL then \\(\\text{S}\\cup \\text{UID}\\) is also a superkey</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BankAccount_Number is a candidate key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2114/gate2011-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The following functional dependencies hold for relations R(A, B, C) and S(B, D, E) <br> <br>\nB \\(\\rightarrow\\)A, <br>\nA \\(\\rightarrow\\)C<br> <br>\nThe relation R contains 200tuples and the relation S contains 100tuples. What is\nthe maximum number of tuples possible in the natural join R\\(\\Join\\) S? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100</p>",
+            "<b>B.</b> <p>200</p>",
+            "<b>C.</b> <p>300</p>",
+            "<b>D.</b> <p>2000</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>100</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2344/gate2010-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following schedule for transactions T1, T2 and T3:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q42_ec75b74c.jpg\"><br>\nWhich one of the schedules below is the correct serialization of the above? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T1 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T2</p>",
+            "<b>B.</b> <p>T2 \\(\\rightarrow\\) T1 \\(\\rightarrow\\) T3</p>",
+            "<b>C.</b> <p>T2 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T1</p>",
+            "<b>D.</b> <p>T3 \\(\\rightarrow\\) T1 \\(\\rightarrow\\) T2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T1 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2343/gate2010-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following concurrency control protocols ensure both conflict\nserializability and freedom from deadlock?<br>\nI. 2-phase locking <br>\nII. Time-stamp ordering <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2196/gate2010-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A relational schema for a train reservation database is given below\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q19_f503c6ab.jpg\"> <br> What pids are returned by the following SQL query for the above instance of the\ntables?<pre><code> SELECT pid\nFROM Re servation\nWHERE class = 'AC' AND\n     EXISTS (SELECT *\n                      FROM Passenger\n                      WHERE age &gt; 65 AND\n                      Passenger.pid = Reservation.pid) </code></pre> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,0</p>",
+            "<b>B.</b> <p>1,2</p>",
+            "<b>C.</b> <p>1,3</p>",
+            "<b>D.</b> <p>1,5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2194/gate2010-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following relational schema:<pre><code>\nSuppliers(sid:integer, sname:string, city:string, street:string)\nParts(pid:integer, pname:string, color:string)\nCatalog(sid:integer, pid:integer, cost:real)</code></pre> Assume that, in the suppliers relation above, each supplier and each street within\na city has a unique name, and (sname, city) forms a candidate key. No other\nfunctional dependencies are implied other than those implied by primary and\ncandidate keys. Which one of the following is TRUE about the above schema? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The schema is in BCNF</p>",
+            "<b>B.</b> <p>The schema is in 3NF but not in BCNF</p>",
+            "<b>C.</b> <p>The schema is in 2NF but not in 3NF</p>",
+            "<b>D.</b> <p>The schema is not in 2NF</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The schema is in BCNF</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43474/gate2009-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following relational schema:<pre><code>\nSuppliers(sid:integer, sname:string, city:string, street:string)\nParts(pid:integer, pname:string, color:string)\nCatalog(sid:integer, pid:integer, cost:real)</code></pre> Consider the following relational query on the above database:<pre><code>\nSELECT S.sname\nFROM Suppliers S\nWHERE S.sid NOT IN (SELECT C.sid\nFROM Catalog C\nWHERE C.pid NOT (SELECT P.pid\nFROM Parts P\nWHERE P.color&lt;&gt; 'blue')) </code></pre> Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Find the names of all suppliers who have supplied a non-blue part.</p>",
+            "<b>B.</b> <p>Find the names of all suppliers who have not supplied a non-blue part.</p>",
+            "<b>C.</b> <p>Find the names of all suppliers who have supplied only blue parts.</p>",
+            "<b>D.</b> <p>Find the names of all suppliers who have not supplied only blue parts.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Find the names of all suppliers who have supplied a non-blue part.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1339/gate2009-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let R and S be relational schemes such that R={a,b,c} and S={c}. Now consider\nthe following queries on the database: <br> \\(I.\\pi _{R-S}(r)-\\pi_{R-S}(\\pi_{R-S}(r) \\times  S -\\pi_{R-S,S}(r))\\)  <br>  \\( II.\\{t|t\\in \\pi _{R-S}(r)\\wedge \\forall u \\in s (\\exists v \\in  r(u=v[s]\\wedge t=v[R-S]))\\} \\)  <br>  \\( III.\\{t|t\\in \\pi _{R-S}(r)\\wedge \\forall v\\in r(\\exists u\\in s(u=v[s]\\wedge t=v[R-S]))\\}\\)  <br> IV. Select R.a, R.b\nFrom R,S\nWhere R.c=S.c <br><br>\nWhich of the above queries are equivalent? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>I and III</p>",
+            "<b>C.</b> <p>II and IV</p>",
+            "<b>D.</b> <p>III and IV</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1331/gate2009-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider two transactions T1 and T2, and four schedules S1, S2, S3, S4 of T1 and T2\nas given below: <br><br> \\(T_{1}:R_{1}[x]W_{1}[x]W_{1}[y] \\)<br>  \\(T_{2}:R_{2}[x]R_{2}[x]W_{1}[y] \\)<br> \\(S_{1}:R_{1}[x]R_{2}[x]R_{2}[y]W_{1}[x]W_{1}[y]W_{2}[y] \\)<br> \\(S_{2}:R_{1}[x]R_{2}[x]R_{2}[y]W_{1}[x]W_{2}[y]W_{1}[y] \\)<br> \\(S_{3}:R_{1}[x]W_{1}[x]R_{2}[x]W_{1}[y]R_{2}[y]W_{2}[y] \\)<br> \\(S_{4}:R_{2}[x]R_{2}[y]R_{1}[x]W_{1}[x]W_{1}[y]W_{2}[y]\\)<br><br>\nWhich of the above schedules are conflict-serializable? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S2 and S3</p>",
+            "<b>C.</b> <p>S3 only</p>",
+            "<b>D.</b> <p>S4 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S2 and S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1329/gate2009-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following relational schema:<pre><code>Student(school-id,sch-roll-no,sname,saddress)\nSchool(school-id,sch-name,sch-address,sch-phone)\nEnrolment(school-id,sch-roll-no,erollno,examname)\nExamResult(erollno,examname,marks) </code></pre> <br>Consider the following tuple relational calculus query. <br> \\(\\begin{array}{l} \\{t \\mid \\exists E \\in \\text { Enrolment } t=E \\text { .school-id } \\\\ \\wedge \\mid\\{x \\mid x \\in \\text { Enrolment } \\wedge x . \\text { school-id }=t \\wedge(\\exists B \\in \\text { ExamResult } B . \\text { erollno }=x . \\text { erollno } \\wedge B \\\\ \\text { examname }=x . \\text { examname } \\wedge B . \\text { marks }&gt;35)\\}|\\div|\\{x \\mid x \\in \\text { Enrolment } \\wedge x . \\text { school-id }=t\\} \\mid \\\\ * 100&gt;35\\} \\end{array}\\)<br><br>If a student needs to score more than 35 marks to pass an exam, what does the query return? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The empty set</p>",
+            "<b>B.</b> <p>schools with more than 35% of its students enrolled in some exam or the other</p>",
+            "<b>C.</b> <p>schools with a pass percentage above 35% over all exams taken together</p>",
+            "<b>D.</b> <p>schools with a pass percentage above 35% over each exam</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>schools with a pass percentage above 35% over all exams taken together</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3389/gate2008-it-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following relational schema:<pre><code>Student(school-id,sch-roll-no,sname,saddress)\nSchool(school-id,sch-name,sch-address,sch-phone)\nEnrolment(school-id,sch-roll-no,erollno,examname)\nExamResult(erollno,examname,marks) </code></pre> <br>What does the following SQL query output?<pre><code>SELECT\tsch-name, COUNT (*)\nFROM\tSchool C, Enrolment E, ExamResult R\nWHERE\tE.school-id = C.school-id\nAND\nE.examname = R.examname AND E.erollno = R.erollno\nAND\nR.marks = 100 AND S.school-id IN (SELECT school-id\n                                FROM student\n                                GROUP BY school-id\n                                 HAVING COUNT (*) &gt; 200)\nGROUP By school-id</code></pre> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>for each school with more than 200 students appearing in exams, the name of the school and the number of 100's scored by its students</p>",
+            "<b>B.</b> <p>for each school with more than 200 students in it, the name of the school and the number of 100's scored by its students</p>",
+            "<b>C.</b> <p>for each school with more than 200 students in it, the name of the school and the number of its students scoring 100 in at least one exam</p>",
+            "<b>D.</b> <p>nothing; the query has a syntax error</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>nothing; the query has a syntax error</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3388/gate2008-it-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

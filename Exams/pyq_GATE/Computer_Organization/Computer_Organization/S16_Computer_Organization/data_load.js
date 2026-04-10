@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - Computer_Organization - Slot 16",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is true? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unless enabled, a CPU will not be able to process interrupts.</p>",
+            "<b>B.</b> <p>Loop instructions cannot be interrupted till they complete.</p>",
+            "<b>C.</b> <p>A processor checks for interrupts before executing a new instruction.</p>",
+            "<b>D.</b> <p>Only level triggered interrupts are possible on microprocessors.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Unless enabled, a CPU will not be able to process interrupts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1657/gate1998-1-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following addressing modes permits relocation without any change whatsoever in the code? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Indirect addressing</p>",
+            "<b>B.</b> <p>Indexed addressing</p>",
+            "<b>C.</b> <p>Base register addressing</p>",
+            "<b>D.</b> <p>PC relative addressing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>PC relative addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1656/gate1998-1-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following devices should get higher priority in assigning interrupts? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hard disk</p>",
+            "<b>B.</b> <p>Printer</p>",
+            "<b>C.</b> <p>Keyboard</p>",
+            "<b>D.</b> <p>Floppy disk</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Hard disk</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1655/gate1998-1-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A micro instruction is to be designed to specify:<br><br>\na. none or one of the three micro operations of one kind and<br>\nb. none or upto six micro operations of another kind<br><br>\nThe minimum number of bits in the micro-instruction is: <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2254/gate1997-5-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Contents of A register after the execution of the following 8085 microprocessor program is <br><pre><code>MVIA, 55 H\nMVI C, 25 H\nADDC\nDAA</code></pre> <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7AH</p>",
+            "<b>B.</b> <p>80H</p>",
+            "<b>C.</b> <p>50H</p>",
+            "<b>D.</b> <p>22H</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>80H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2253/gate1997-5-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The correct matching for the following pairs is:<br>\\(\\begin{array}{ll} \\text{(A) DMA I/O} &amp; \\text{(1) High speed RAM} \\\\ \\text{(B) Cache} &amp; \\text{(2) Disk} \\\\ \\text{(C) Interrupt I/O} &amp; \\text{(3) Printer} \\\\ \\text{(D) Condition Code Register} &amp; \\text{(4) ALU} \\\\ \\end{array}\\) <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A-4 B-3 C-1 D-2</p>",
+            "<b>B.</b> <p>A-2 B-1 C-3 D-4</p>",
+            "<b>C.</b> <p>A-4 B-3 C-2 D-1</p>",
+            "<b>D.</b> <p>A-2 B-3 C-4 D-1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A-2 B-1 C-3 D-4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2230/gate1997-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>RST 7.5 interrupt in 8085 microprocessor executes the interrupt service routing from interrupt vector location <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0000H</p>",
+            "<b>B.</b> <p>0075H</p>",
+            "<b>C.</b> <p>003CH</p>",
+            "<b>D.</b> <p>0034H</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>003CH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2228/gate1997-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A micro program control unit is required to generate a total of 25 control signals. Assume that during any micro instruction, at most two control signals are active. Minimum number of bits required in the control word to generate the required control signals will be: <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>2.5</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2754/gate1996-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>For the daisy chain scheme of connecting I/O devices, which of the following statements is true? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It gives non-uniform priority to various devices</p>",
+            "<b>B.</b> <p>It gives uniform priority to all devices</p>",
+            "<b>C.</b> <p>It is only useful for connecting slow devices to a processor device</p>",
+            "<b>D.</b> <p>It requires a separate interrupt pin on the processor for each device</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It gives non-uniform priority to various devices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2728/gate1996-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Number of machine cycles required for RET instruction in 8085 microprocessor is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2726/gate1996-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A ROM is used to store the table for multiplication of two 8-bit unsigned integers. The size of ROM required is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(256 \\times 16\\)</p>",
+            "<b>B.</b> <p>\\(64 K \\times 8\\)</p>",
+            "<b>C.</b> <p>\\(4 K \\times 16\\)</p>",
+            "<b>D.</b> <p>\\(64 K \\times 16\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(64 K \\times 16\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2725/gate1996-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Relative mode of addressing is most relevant to writing: <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Co - routines</p>",
+            "<b>B.</b> <p>Position - independent code</p>",
+            "<b>C.</b> <p>Shareable code</p>",
+            "<b>D.</b> <p>Interrupt Handlers</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Position - independent code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2720/gate1996-1-16-isro2016-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A computer system has a 4 K word cache organized in block-set-associative manner with 4 blocks per set, 64 words per block. The number of bits in the SET and WORD fields of the main memory address format is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15,40</p>",
+            "<b>B.</b> <p>6,4</p>",
+            "<b>C.</b> <p>7,2</p>",
+            "<b>D.</b> <p>4,6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4,6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2638/gate1995-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The capacity of a memory unit is defined by the number of words multiplied by the number of bits/word. How many separate address and data lines are needed for a memory of \\(4K \\times 16\\)? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 address, 16 data lines</p>",
+            "<b>B.</b> <p>11 address, 8 data lines</p>",
+            "<b>C.</b> <p>12 address, 16 data lines</p>",
+            "<b>D.</b> <p>12 address, 12 data lines</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>12 address, 16 data lines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2614/gate1995-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A sequence of two instructions that multiplies the contents of the DE register pair by 2 and stores the result in the HL register pair (in 8085 assembly language) is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>XCHG and DAD B</p>",
+            "<b>B.</b> <p>XTHL and DAD H</p>",
+            "<b>C.</b> <p>PCHL and DAD D</p>",
+            "<b>D.</b> <p>XCHG and DAD H</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>XCHG and DAD H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2613/gate1995-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

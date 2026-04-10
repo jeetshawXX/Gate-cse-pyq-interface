@@ -1,0 +1,26 @@
+{
+  "title": "Artificial Intelligence - Sigmoid Function",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Sigmoid Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316180\"></a><div itemprop=\"text\"><p>The value of the derivative of Sigmoid function given by \\( f(x)=\\dfrac{1}{1+e^{-2x}} \\)&nbsp; at \\( x=0 \\) is</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | June 2019 | Part 2 | Question: 99</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( \\frac{1}{4} \\)</p>",
+            "<p>\\( \\infty \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316180/ugc-net-cse-june-2019-part-2-question-99\" target=\"_blank\">https://gateoverflow.in/316180/ugc-net-cse-june-2019-part-2-question-99</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "title": "General_Aptitude-_CSE - General_Aptitude-_CSE - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "General_Aptitude-_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The diagram below shows a river system consisting of 7 segments, marked P, Q, R, S, T, U, and V. It splits the land into 5 zones, marked Z1, Z2, Z3, Z4, and Z5. We need to connect these zones using the least number of bridges. Out of the following options, which one is correct? <br>Note: The figure shown is representative. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q65_9c4479d6.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bridges on P, Q, and T</p>",
+            "<b>B.</b> <p>Bridges on P, Q, S, and T</p>",
+            "<b>C.</b> <p>Bridges on Q, R, T, and V</p>",
+            "<b>D.</b> <p>Bridges on P, Q, S, U, and V</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Bridges on Q, R, T, and V</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460441/gate-cse-2025-set-2-ga-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square.<br> <br>What is the area (in \\(cm^{2} \\)) of the rectangle PLMN?<br><br>Note: The figure shown is representative. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q64_c1510185.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2 \\sqrt{2} \\)</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460442/gate-cse-2025-set-2-ga-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following options is correct for the given data in the table?\n<br>\n\\( \\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Iteration} (i) &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\\n\\hline\n\\text{Input} (I) &amp; 20 &amp; -4 &amp; 10 &amp; 15 \\\\\n\\hline\n\\text{Output} (X) &amp; 20 &amp; 16 &amp; 26 &amp; 41 \\\\\n\\hline\n\\text{Output} (Y) &amp; 20 &amp; -80 &amp; -800 &amp; -12000 \\\\\n\\hline\n\\end{array} \\) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X(i) = X(i - 1) + I(i);  \\quad Y(i) = Y(i - 1) I(i);   \\quad i &gt; 0 \\)</p>",
+            "<b>B.</b> <p>\\(X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) + I(i); \\quad i &gt; 0 \\)</p>",
+            "<b>C.</b> <p>\\(X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) I(i); \\quad i &gt; 0 \\)</p>",
+            "<b>D.</b> <p>\\(X(i) = X(i - 1) + I(i); \\quad Y(i) = Y(i - 1) I(i ? 1); \\quad i &gt; 0 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X(i) = X(i - 1) + I(i);  \\quad Y(i) = Y(i - 1) I(i);   \\quad i &gt; 0 \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460443/gate-cse-2025-set-2-ga-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given options is the most appropriate code for BEACH? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CEADP</p>",
+            "<b>B.</b> <p>IDBFC</p>",
+            "<b>C.</b> <p>JGIBC</p>",
+            "<b>D.</b> <p>IBCEC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IDBFC</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460444/gate-cse-2025-set-2-ga-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Based only on the conversation below, identify the logically correct inference:  <br><br>\n\"Even if I had known that you were in the hospital, I would not have gone there to see you\", Ramya told Josephine. <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ramya knew that Josephine was in the hospital.</p>",
+            "<b>B.</b> <p>Ramya did not know that Josephine was in the hospital.</p>",
+            "<b>C.</b> <p>Ramya and Josephine were once close friends; but now, they are not.</p>",
+            "<b>D.</b> <p>Josephine was in the hospital due to an injury to her leg.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Ramya did not know that Josephine was in the hospital.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460445/gate-cse-2025-set-2-ga-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(p_1 \\) and \\(p_2 \\) denote two arbitrary prime numbers. Which one of the following statements is correct for all values of \\(p_1 \\) and \\(p_2 \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(p_1 + p_2 \\) is not a prime number.</p>",
+            "<b>B.</b> <p>\\(p_1 p_2 \\) is not a prime number.</p>",
+            "<b>C.</b> <p>\\(p_1 + p_2 + 1 \\) is a prime number.</p>",
+            "<b>D.</b> <p>\\(p_1 p_2 + 1 \\) is a prime number.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(p_1 p_2 \\) is not a prime number.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460446/gate-cse-2025-set-2-ga-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube?<br>Note: The figures shown are representative.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q59a_bbf0880b.webp\"><br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q59b_37c3fe6d.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460447/gate-cse-2025-set-2-ga-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If \\(Pe^{x} = Q e^{-x} \\) for all real values of \\(x \\), which one of the following statements is true? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P = Q = 0 \\)</p>",
+            "<b>B.</b> <p>\\(P = Q = 1 \\)</p>",
+            "<b>C.</b> <p>\\(P = 1 \\);  \\(Q = -1 \\)</p>",
+            "<b>D.</b> <p>\\(\\frac{P}{Q} = 0 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(P = Q = 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460448/gate-cse-2025-set-2-ga-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Bird : Nest :: Bee : __________   <br> Select the correct option to complete the analogy. <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Kennel</p>",
+            "<b>B.</b> <p>Hammock</p>",
+            "<b>C.</b> <p>Hive</p>",
+            "<b>D.</b> <p>Lair</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Hive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460449/gate-cse-2025-set-2-ga-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Despite his initial hesitation, Rehman's __________ to contribute to the success of the project never wavered. <br>Select the most appropriate option to complete the above sentence. <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ambivalence</p>",
+            "<b>B.</b> <p>satisfaction</p>",
+            "<b>C.</b> <p>resolve</p>",
+            "<b>D.</b> <p>revolve</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>resolve</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460450/gate-cse-2025-set-2-ga-question-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops of any flavor. The order in which the scoops are purchased is inconsequential.\nIf one wants to purchase 3 scoops of ice-cream, in how many ways can one make that purchase? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>48</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460091/gate-cse-2025-set-1-ga-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A square paper, shown in figure (I), is folded along the dotted lines as shown in the figures (II) and (III). Then a few cuts are made as shown in figure (IV). Which one of the following patterns will be obtained when the paper is unfolded?\n<br>Note: The figures shown are representative.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q64a_4c00fbae.webp\"><br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q64b_b423886b.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460092/gate-cse-2025-set-1-ga-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A fair six-faced dice, with the faces labelled '1', '2', '3', '4', '5', and '6', is rolled thrice. What is the probability of rolling '6' exactly once? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{75}{216}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{18}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{25}{216}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{75}{216}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460093/gate-cse-2025-set-1-ga-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the triangle PST to the area of the trapezium SQRT?\n<br>Note: The figure shown is representative.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q62_858ed1aa.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{3}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{4}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{2}{5}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{3}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>\"I put the brown paper in my pocket along with the chalks, and possibly other things. I suppose everyone must have reflected how primeval and how poetical are the things that one carries in one's pocket: the pocket-knife, for instance the type of all human tools, the infant of the sword. Once I planned to write a book of poems entirely about the things in my pocket. But I found it would be too long: and the age of the great epics is past.\"  <br><br>\n(From G.K. Chesterton's \"A Piece of Chalk\")  <br><br>\nBased only on the information provided in the above passage, which one of the following statements is true? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The author of the passage carries a mirror in his pocket to reflect upon things.</p>",
+            "<b>B.</b> <p>The author of the passage had decided to write a poem on epics.</p>",
+            "<b>C.</b> <p>The pocket-knife is described as the infant of the sword.</p>",
+            "<b>D.</b> <p>Epics are described as too inconvenient to write.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The pocket-knife is described as the infant of the sword.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460095/gate-cse-2025-set-1-ga-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

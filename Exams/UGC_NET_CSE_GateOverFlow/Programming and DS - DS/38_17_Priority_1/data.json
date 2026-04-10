@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Priority",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Priority",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50691\"></a><div itemprop=\"text\">\n<p>Consider the following statements for priority queue:</p>\n\n<p>S1: It is a data structure in which the intrinsic ordering of the elements does determine the result of its basic operations.</p>\n\n<p>S2: The elements of a priority queue may be complex structures that are ordered on one or several fields</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2013 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both S1 and S2 are incorrect</p>",
+            "<p>S1 is correct and S2 is incorrect</p>",
+            "<p>S1 is incorrect and S2 is correct</p>",
+            "<p>Both S1 and S2 are correct</p>"
+          ],
+          "correct_answer": "<p>Both S1 and S2 are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50691/ugc-net-cse-june-2013-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/50691/ugc-net-cse-june-2013-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+}

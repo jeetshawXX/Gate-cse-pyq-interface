@@ -1,0 +1,161 @@
+{
+  "title": "Programming and DS - Data Structures - Queue",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Queue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336654\"></a><div itemprop=\"text\"><p>A ________&nbsp;is a linear list in which insertions and deletions are made to from either end of the structure.</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Circular queue.</p>",
+            "<p>Priority queue.</p>",
+            "<p>Stack.</p>",
+            "<p>Dequeue.</p>"
+          ],
+          "correct_answer": "<p>Dequeue.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336654/nielit-2016-dec-scientist-b-it-section-b-15\" target=\"_blank\">https://gateoverflow.in/336654/nielit-2016-dec-scientist-b-it-section-b-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336365\"></a><div itemprop=\"text\"><p>A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed efficiently. Which one of the following statements is CORRECT(\\( n \\) refers to the number of items in the queue)?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both operations can be performed in \\( O(1) \\) time.</p>",
+            "<p>At most one operation can be performed in \\( O(1) \\) time but the worst case time for the other operation will be \\( \\Omega(n) \\).</p>",
+            "<p>The worst case time complexity for both operations will be \\( \\Omega(n) \\).</p>",
+            "<p>Worst case time complexity for both operations will be \\( \\Omega(\\log n) \\).</p>"
+          ],
+          "correct_answer": "<p>Both operations can be performed in \\( O(1) \\) time.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336365/nielit-2017-july-scientist-b-cs-section-b-10\" target=\"_blank\">https://gateoverflow.in/336365/nielit-2017-july-scientist-b-cs-section-b-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336973\"></a><div itemprop=\"text\"><p>If queue is implemented using arrays, what would be the worst run time complexity of queue and dequeue&nbsp;operations?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n),O(n) \\)</p>",
+            "<p>\\( O(n),O(1) \\)</p>",
+            "<p>\\( O(1),O(n) \\)</p>",
+            "<p>\\( O(1),O(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(1),O(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336973/nielit-2017-oct-scientific-assistant-a-it-section-b-12\" target=\"_blank\">https://gateoverflow.in/336973/nielit-2017-oct-scientific-assistant-a-it-section-b-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336979\"></a><div itemprop=\"text\"><p>Which of the following is useful in traversing a given graph by breadth first search?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack</p>",
+            "<p>Set</p>",
+            "<p>List</p>",
+            "<p>Queue</p>"
+          ],
+          "correct_answer": "<p>Queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336979/nielit-2017-oct-scientific-assistant-a-it-section-b-6\" target=\"_blank\">https://gateoverflow.in/336979/nielit-2017-oct-scientific-assistant-a-it-section-b-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"275495\"></a><div itemprop=\"text\"><p>____ number of queues are needed to implement a stack</p>\n\n</div><br><br><b>Data Structures: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275495/nielit-2018-69\" target=\"_blank\">https://gateoverflow.in/275495/nielit-2018-69</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"378744\"></a><div itemprop=\"text\"><p>In which types of following data structure, an element is inserted at one end called Rear and deleted at other end called Front?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack</p>",
+            "<p>Queue</p>",
+            "<p>Height balanced Avl tree</p>",
+            "<p>Binary tree</p>"
+          ],
+          "correct_answer": "<p>Queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378744/nielit-2021-dec-scientist-b-section-b-19\" target=\"_blank\">https://gateoverflow.in/378744/nielit-2021-dec-scientist-b-section-b-19</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"373748\"></a><div itemprop=\"text\"><p>A queue is implemented&nbsp;using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let \\( n \\) denote the number of nodes in the queue. Let 'enqueue' be implemented by inserting a new node at the head, and 'dequeue' be implemented by deletion of a node from the tail.</p>\n\n<p><img alt=\"\" height=\"152\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10018169325324656089\" width=\"600\"></p>\n\n<p>Which one of the following is the time complexity of the most time-efficient implementation of 'enqueue' and 'dequeue, respectively, for this data structure?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2022 April Scientist B | Section B | Question: 90</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(1), \\Theta(1) \\)</p>",
+            "<p>\\( \\Theta(1), \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n), \\Theta(1) \\)</p>",
+            "<p>\\( \\Theta(n), \\Theta(n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(1), \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373748/nielit-2022-april-scientist-b-section-b-question-90\" target=\"_blank\">https://gateoverflow.in/373748/nielit-2022-april-scientist-b-section-b-question-90</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"351346\"></a><div itemprop=\"text\"><p>Priority queue is implemented by :</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientific Assistant A 2020 November: 114</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Doubly link list</p>",
+            "<p>Graph</p>",
+            "<p>Heap</p>",
+            "<p>Stack</p>"
+          ],
+          "correct_answer": "<p>Heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351346/nielit-scientific-assistant-a-2020-november-114\" target=\"_blank\">https://gateoverflow.in/351346/nielit-scientific-assistant-a-2020-november-114</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"351403\"></a><div itemprop=\"text\"><p>A stack can be implemented using queue, but then we need to use atleast :</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientific Assistant A 2020 November: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\) queues</p>",
+            "<p>\\( 2 \\) queues</p>",
+            "<p>only one queue is sufficient</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) queues</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351403/nielit-scientific-assistant-a-2020-november-58\" target=\"_blank\">https://gateoverflow.in/351403/nielit-scientific-assistant-a-2020-november-58</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"351624\"></a><div itemprop=\"text\"><p>Typical time requirement for operations on queues is :</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientist B 2020 November: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(logn) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351624/nielit-scientist-b-2020-november-58\" target=\"_blank\">https://gateoverflow.in/351624/nielit-scientist-b-2020-november-58</a></p>"
+        }
+      ]
+    }
+  ]
+}

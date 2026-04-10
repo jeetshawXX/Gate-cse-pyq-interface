@@ -1,0 +1,101 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - UGC NET CSE  June 2013  Part 3  Question",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "UGC NET CSE  June 2013  Part 3  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58898\"></a><div itemprop=\"text\"><p>Given two jugs of capacities 5 litres and 3 litres with no measuring marks on them. Then the minimum number of states to measure 4 litres of water will be</p>\n\n</div><br><br><b>Verbal Aptitude: UGC NET CSE | June 2013 | Part 3 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>",
+            "<p>7</p>"
+          ],
+          "correct_answer": "<p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58898/ugc-net-cse-june-2013-part-3-question-70\" target=\"_blank\">https://gateoverflow.in/58898/ugc-net-cse-june-2013-part-3-question-70</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"225807\"></a><div itemprop=\"text\"><p>A knowledge base contains just one sentence, \\( \\exists x \\text{ AsHighAs&nbsp;} (x, \\text{Everest}) \\). Consider the following two sentences obtained after applying existential instantiation.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>AsHighAs&nbsp;(Everest, Everest)</li>\n\t<li>AsHighAs&nbsp;(Kilimanjaro, Everest)</li>\n</ol>\n\n<p>Which of the following is correct with respect to the above sentences?</p>\n\n</div><br><br><b>Verbal Aptitude: UGC NET CSE | July 2018 | Part 2 | Question: 79</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both sentence a and sentence b are sound conclusions</p>",
+            "<p>Both sentence a and sentence b are unsound conclusions</p>",
+            "<p>Sentence a is sound but sentence b is unsound</p>",
+            "<p>Sentence a is unsound but sentence b is sound</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225807/ugc-net-cse-july-2018-part-2-question-79\" target=\"_blank\">https://gateoverflow.in/225807/ugc-net-cse-july-2018-part-2-question-79</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"316151\"></a><div itemprop=\"text\"><p>‘All republics are grateful’ and ‘Some republics are not grateful’ cannot both be true, and they cannot both be false. This is called as</p>\n\n</div><br><br><b>Verbal Aptitude: UGC NET CSE | June 2019 | Part 1 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>contraries</p>",
+            "<p>contradictories</p>",
+            "<p>subaltern</p>",
+            "<p>super altern</p>"
+          ],
+          "correct_answer": "<p>contradictories</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316151/ugc-net-cse-june-2019-part-1-question-28\" target=\"_blank\">https://gateoverflow.in/316151/ugc-net-cse-june-2019-part-1-question-28</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"316153\"></a><div itemprop=\"text\"><p>If the proposition ‘Houses are not bricks’ is taken to be False then which of the following propositions can be True?</p><ol start=\"1\" style=\"list-style-type:lower-alpha\"><li>All houses are bricks</li><li>No house is brick</li><li>Some houses are bricks</li><li>Some houses are not bricks</li></ol><p>Select the correct answer from the options given below:</p></div><br><br><b>Verbal Aptitude: UGC NET CSE | June 2019 | Part 1 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>b and c</p>",
+            "<p>a and d</p>",
+            "<p>b only</p>",
+            "<p>c only</p>"
+          ],
+          "correct_answer": "<p>c only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316153/ugc-net-cse-june-2019-part-1-question-26\" target=\"_blank\">https://gateoverflow.in/316153/ugc-net-cse-june-2019-part-1-question-26</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"316158\"></a><div itemprop=\"text\"><p>Oar is to rowboat as foot is to</p>\n\n</div><br><br><b>Verbal Aptitude: UGC NET CSE | June 2019 | Part 1 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>running</p>",
+            "<p>sneaker</p>",
+            "<p>skateboard</p>",
+            "<p>jumping</p>"
+          ],
+          "correct_answer": "<p>skateboard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316158/ugc-net-cse-june-2019-part-1-question-21\" target=\"_blank\">https://gateoverflow.in/316158/ugc-net-cse-june-2019-part-1-question-21</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"349593\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Given below are two statements:</p>\n\n<p>Statement \\( I \\): \\( 5 \\) divides \\( n^5-n \\) wherever \\( n \\) is a nonnegative integer</p>\n\n<p>Statement \\( II \\): \\( 6 \\) divides \\( n^3-n \\) whenever \\( n \\) is a nonnegative integer</p>\n\n<p>In the light of the above statements, choose the correct answer from the options given below</p>\n\n</div><br><br><b>Verbal Aptitude: UGC NET CSE | October 2020 | Part 2 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are correct</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are incorrect</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is incorrect</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is correct</p>"
+          ],
+          "correct_answer": "<p>Both Statement \\( I \\) and Statement \\( II \\) are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349593/ugc-net-cse-october-2020-part-2-question-80\" target=\"_blank\">https://gateoverflow.in/349593/ugc-net-cse-october-2020-part-2-question-80</a></p>"
+        }
+      ]
+    }
+  ]
+}

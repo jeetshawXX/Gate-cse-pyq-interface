@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Injective",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Injective",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182059\"></a><div itemprop=\"text\"><p>The function&nbsp;\\( f:[0,3]\\rightarrow [1,29] \\) defined by&nbsp;\\( f(x)=2x^{3}-15x^{2}+36x+1 \\) is</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>injective and surjective</p>",
+            "<p>surjective&nbsp;but not injective</p>",
+            "<p>injective&nbsp;but not surjective</p>",
+            "<p>neither injective&nbsp;nor surjective</p>"
+          ],
+          "correct_answer": "<p>surjective&nbsp;but not injective</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182059/isro-dec2017-9\" target=\"_blank\">https://gateoverflow.in/182059/isro-dec2017-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

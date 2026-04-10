@@ -1,0 +1,236 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 25",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>m identical balls are to be placed in n distinct bags. You are given that m \\(\\geq\\)kn,\nwhere k is a natural number \\(\\geq\\)1. In how many ways can the balls be placed in\nthe bags if each bag must contain at least k balls? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q34_5ebdef8e.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/924/gate2003-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following formula \\(\\alpha\\)\nand its two interpretations \\(I_{1} \\; and \\; I_{2}\\)  <br><br> \\(\\alpha :(\\forall x)[P_{x}\\leftrightarrow (\\forall y)[Q_{xy}\\leftrightarrow \\neg Q_{yy}]]\\rightarrow (\\forall x)[\\neg P_{x}]\\) <br><br>I1: Domain : the set of natural numbers<br>\n\\(P_{x}\\equiv x\\) is a prime number <br>\n\\(Q_{xy}\\equiv y\\)  divides x <br><br>\nI2; same as I1 except that \\(P_{x}\\equiv x\\) is a composite number. <br><br>\nWhich of the following statements is true? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I1 satisfies \\(\\alpha\\)\n, I2 does not</p>",
+            "<b>B.</b> <p>I2 satisfies \\(\\alpha\\)\n,I1 does not</p>",
+            "<b>C.</b> <p>Neither I2 nor I2 satisfies \\(\\alpha\\)</p>",
+            "<b>D.</b> <p>Both I1 and I2 satisfy \\(\\alpha\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both I1 and I2 satisfy \\(\\alpha\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/923/gate2003-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is a valid first order formula?\n(Here \\(\\alpha \\)\nand \\(\\beta\\)\nare first order formulae with x as their only free variable)<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q32_3d05448c.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/922/gate2003-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let (S,\\(\\leq\\)) be a partial order with two minimal elements a and b, and a maximum element c. <br> Let P:S \\(\\rightarrow\\)\n{True, False} be a predicate defined on S . Suppose that\nP(a) = True, P(b) =False and P(x) \\(\\Rightarrow\\) p(y) for all x,y \\(\\in\\) S satisfying x\\(\\leq\\)y, where \\(\\Rightarrow\\) stands for logical implication. Which of the following statements CANNOT be true? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P(x) =True for all x \\(\\in\\) S such that x  \\(\\neq\\) b</p>",
+            "<b>B.</b> <p>P(x) =False for all x \\(\\in\\) S such that x \\(\\neq\\) a and x \\(\\neq\\) c</p>",
+            "<b>C.</b> <p>P(x) =False for all x \\(\\in\\) S such that b \\(\\leq\\) x and x \\(\\neq\\) c</p>",
+            "<b>D.</b> <p>P(x) =False for all x \\(\\in\\) S such that a \\(\\leq\\) x and b \\(\\leq\\) x</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P(x) =False for all x \\(\\in\\) S such that a \\(\\leq\\) x and b \\(\\leq\\) x</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/921/gate2003-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following graph <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q21_0bd25948.jpg\"> <br> Among the following sequences <br> (I) a b e g h f <br>\n(II) a b f e h g <br>\n(III) a b f h g e  <br>\n(IV) a f g h b e  <br>\nWhich are depth first traversals of the above graph? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and IV only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II, III and IV only</p>",
+            "<b>D.</b> <p>I, III and IV only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, III and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/911/gate2003-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let G be an arbitrary graph with n nodes and k components. If a vertex is\nremoved from G, the number of components in the resultant graph must necessarily\nlie between. <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k and n</p>",
+            "<b>B.</b> <p>k-1 and k+1</p>",
+            "<b>C.</b> <p>k-1 and n-1</p>",
+            "<b>D.</b> <p>k+1 and n-k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-1 and n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the set \\(\\Sigma ^{*}\\) of all strings over the alphabet \\(\\Sigma \\)={0,1}. \\(\\Sigma ^{*}\\) with the\nconcatenation operator for strings <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not form a group</p>",
+            "<b>B.</b> <p>forms a non-commutative group</p>",
+            "<b>C.</b> <p>does not have a right identity element</p>",
+            "<b>D.</b> <p>forms a group if the empty string is removed from \\(\\Sigma ^{*}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>does not form a group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/898/gate2003-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>n couples are invited to a party with the condition that every husband should be accompanied by his wife. However, a wife need not be accompanied by her husband. The number of different gatherings possible at the party is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\binom{2n}{n}*2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(3^{n}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{(2n)!}{2^{n}}\\)</p>",
+            "<b>D.</b> <p>\\(\\binom{2n}{n}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(3^{n}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/896/gate2003-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let A be a sequence of 8 distinct integers sorted in ascending order. How many distinct pairs of sequences, B and C are there such that <br>(i) each is sorted in ascending order, <br>(ii) B has 5 and C has 3 elements, and <br>(iii) the result of merging B and C gives A? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>30</p>",
+            "<b>C.</b> <p>56</p>",
+            "<b>D.</b> <p>256</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>56</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/895/gate2003-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let P(E) denote the probability of the event E. Given P(A) = 1, P(B) = 1/2, the values of P(A|B) and P(B|A) respectively are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1/4,1/2</p>",
+            "<b>B.</b> <p>1/2, 1/14</p>",
+            "<b>C.</b> <p>1/2, 1</p>",
+            "<b>D.</b> <p>1, 1/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1, 1/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/894/gate2003-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The binary relation?S = \\(\\phi\\) (empty set) on set A = {1,2,3} is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Neither reflexive nor symmetric</p>",
+            "<b>B.</b> <p>Symmetric and reflexive</p>",
+            "<b>C.</b> <p>Transitive and reflexive</p>",
+            "<b>D.</b> <p>Transitive and symmetric</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Transitive and symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/847/gate2002-2-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/16\\)</p>",
+            "<b>B.</b> <p>\\(1/8\\)</p>",
+            "<b>C.</b> <p>\\(7/8\\)</p>",
+            "<b>D.</b> <p>\\(15/16\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(7/8\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/846/gate2002-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\({n}^{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>(n-1)</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>\"If X then Y unless Z\" is represented by which of the following formulas in prepositional logic? (\\(\"\\neg\"\\), is negation, \\(\"\\wedge \"\\)\nis conjunction, and \\(\"\\rightarrow \"\\)  is implication) <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((X\\wedge \\neg Z)\\rightarrow Y\\)</p>",
+            "<b>B.</b> <p>\\((X\\wedge Y)\\rightarrow \\neg Z\\)</p>",
+            "<b>C.</b> <p>\\(X\\rightarrow (Y \\wedge \\neg Z)\\)</p>",
+            "<b>D.</b> <p>\\((X\\rightarrow Y )\\wedge \\neg Z\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((X\\wedge \\neg Z)\\rightarrow Y\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/812/gate2002-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following is true? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The set of all rational negative numbers forms a group under multiplication.</p>",
+            "<b>B.</b> <p>The set of all non-singular matrices forms a group under multiplication.</p>",
+            "<b>C.</b> <p>The set of all matrices forms a group under multiplication.</p>",
+            "<b>D.</b> <p>Both B and C are true.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The set of all non-singular matrices forms a group under multiplication.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/810/gate2002-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Transactions",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Transactions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let us assume that transaction T1 has arrived before transaction T2. Consider the schedule s=r1(A);r2(B):w2(A);w1(B)<br>Which of the following is true? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Allowed under basic timestamp protocol.</p>",
+            "<b>B.</b> <p>Not allowed under basic timestamp protocols because T1 is rolled back.</p>",
+            "<b>C.</b> <p>Not allowed under basic timestamp protocols because T2 is rolled back.</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Not allowed under basic timestamp protocols because T1 is rolled back.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213533/isro2018-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>ACID properties of a transactions are <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Atomicity, consistency, isolation, database</p>",
+            "<b>B.</b> <p>Atomicity, consistency, isolation, durability</p>",
+            "<b>C.</b> <p>Atomicity, consistency, integrity, durability</p>",
+            "<b>D.</b> <p>Atomicity, consistency, integrity, database</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Atomicity, consistency, isolation, durability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128601/isro2017-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following concurrency control protocol ensures both conflict and free from deadlock? , <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Time stamp ordering</p>",
+            "<b>B.</b> <p>2 Phase locking</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Time stamp ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128600/isro-2017-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Trigger is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statement that enables to start any DBMS</p>",
+            "<b>B.</b> <p>Statement that is executed by the user when debugging an application program</p>",
+            "<b>C.</b> <p>The condition that the system tests for the validity of the database user</p>",
+            "<b>D.</b> <p>Statement that is executed automatically by the system as a side effect of a modification of the database</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Statement that is executed automatically by the system as a side effect of a modification of the database</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56041/isro2016-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following log sequence of two transactions on a bank account, with initial balance 12000, that transfer 2000 to a mortgage payment and then apply a 5% interest.<br>1.T1 start <br>2.T1 B old =1200 new =10000<br>3.T1 M old =0 new =2000<br>4.T1 commit<br>5.T2 start<br>6.T2 B old =10000 new =10500<br>7.T2 commit<br>Suppose the database system crashes just before log record 7 is written. When  the system is restarted, which one statement is true of the recovery procedure? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>We must redo log record 6 to set B to 10500</p>",
+            "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2  and 3</p>",
+            "<b>C.</b> <p>We need not redo log records 2 and 3 because transaction T1 has committed</p>",
+            "<b>D.</b> <p>We can apply redo and undo operations in arbitrary order because they are idempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2  and 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/981/gate2006-20-isro2015-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following is the highest isolation level in transaction management? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Serializable</p>",
+            "<b>B.</b> <p>Repeated Read</p>",
+            "<b>C.</b> <p>Committed Read</p>",
+            "<b>D.</b> <p>Uncommitted Read</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Serializable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43855/isro-2013-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the equivalent serial schedule for the following transactions? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transactions\\q15_d25b3ef5.jpg\"><br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T_1 - T_2 - T_3\\)</p>",
+            "<b>B.</b> <p>\\(T_3 - T_1 - T_2\\)</p>",
+            "<b>C.</b> <p>\\(T_2 - T_1 - T_3\\)</p>",
+            "<b>D.</b> <p>\\(T_1 - T_3 - T_2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T_3 - T_1 - T_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52269/isro2011-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following scenarios may lead to an irrecoverable error in a database system? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A transaction writes a data item after it is read by an uncommitted transaction</p>",
+            "<b>B.</b> <p>A transaction reads a data item after it is read by an uncommitted transaction</p>",
+            "<b>C.</b> <p>A transaction reads a data item after it is written by a committed transaction</p>",
+            "<b>D.</b> <p>A transaction reads a data item after it is written by an uncommitted transaction</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A transaction reads a data item after it is written by an uncommitted transaction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/919/gate2003-29-isro2009-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following contains complete record of all activity that affected the contents of a database during a certain period of time? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Transaction log</p>",
+            "<b>B.</b> <p>Query language</p>",
+            "<b>C.</b> <p>Report writer</p>",
+            "<b>D.</b> <p>Data manipulation language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Transaction log</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50569/isro2009-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following is correct with respect to Two phase commit protocol? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ensures serializability</p>",
+            "<b>B.</b> <p>Prevents Deadlock</p>",
+            "<b>C.</b> <p>Detects Deadlock</p>",
+            "<b>D.</b> <p>Recover from Deadlock</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Ensures serializability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49627/isro2007-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

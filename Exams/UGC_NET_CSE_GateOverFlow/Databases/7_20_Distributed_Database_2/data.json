@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Distributed Database",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Distributed Database",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70761\"></a><div itemprop=\"text\"><p>The Global conceptual Schema in a distributed database contains information about global relations. The condition that all the data of the global relation must be mapped into the fragments, that is, it must not happen that a data item which belongs to a global relation does not belong to any fragment, is called :</p>\n\n</div><br><br><b>Databases: UGC NET CSE | August 2016 | Part 3 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Disjointness condition</p>",
+            "<p>Completeness condition</p>",
+            "<p>Reconstruction condition</p>",
+            "<p>Aggregation condition</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70761/ugc-net-cse-august-2016-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/70761/ugc-net-cse-august-2016-part-3-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"57132\"></a><div itemprop=\"text\"><p>In distributed databases, location transparency allows for database users, programmers and administratirs to treat the data as if it is at one location, A SQL query with location transparency needs to specify</p>\n\n</div><br><br><b>Databases: UGC NET CSE | July 2016 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inheritances</p>",
+            "<p>Fragments</p>",
+            "<p>Locations</p>",
+            "<p>Local formats</p>"
+          ],
+          "correct_answer": "<p>Fragments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57132/ugc-net-cse-july-2016-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/57132/ugc-net-cse-july-2016-part-3-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

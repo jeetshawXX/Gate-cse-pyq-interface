@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Databases - Referential Integrity",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Referential Integrity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275515\"></a><div itemprop=\"text\"><p>The following table has two attributes \\( X \\) and \\( Y \\) where \\( X \\) is the primary key and \\( Y \\) is the foreign key referencing \\( X \\) with on-delete cascade.</p>\n\n<p>\\( \\begin{array}{|c|c|} \\hline X &amp; Y \\\\ \\hline 2 &amp; 4 \\\\ \\hline 3 &amp; 4 \\\\ \\hline 4 &amp; 3 \\\\ \\hline 5 &amp; 2&nbsp; \\\\ \\hline 7 &amp; 2 \\\\ \\hline 9 &amp; 5 \\\\ \\hline 6 &amp; 4 \\\\ \\hline\\end{array} \\)</p>\n\n<p>The set of all tuples that must be additionally deleted to preserve referential integrity when the tuple \\( (3,4) \\) is deleted is</p>\n\n</div><br><br><b>Databases: NIELIT 2018</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (4,3) \\) and \\( (6,4) \\)</p>",
+            "<p>\\( (2,4) \\) and \\( (7,2) \\)</p>",
+            "<p>\\( (3,2) \\) and \\( (9,5) \\)</p>",
+            "<p>\\( (3,4), (4,5) \\) and \\( (6,4) \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275515/nielit-2018-49\" target=\"_blank\">https://gateoverflow.in/275515/nielit-2018-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"378753\"></a><div itemprop=\"text\"><p>Mention which of the following is a special type of integrity constraint that relates two relations &amp; maintains consistency across the relations.</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Entity Integrity Constraints.</p>",
+            "<p>Referential Integrity Constraints</p>",
+            "<p>Domain Integrity Constraints</p>",
+            "<p>Domain Constraints</p>"
+          ],
+          "correct_answer": "<p>Referential Integrity Constraints</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378753/nielit-2021-dec-scientist-b-section-b-10\" target=\"_blank\">https://gateoverflow.in/378753/nielit-2021-dec-scientist-b-section-b-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351363\"></a><div itemprop=\"text\"><p>Domain constraints, functional dependency and referential integrity are special forms of _______</p>\n\n</div><br><br><b>Databases: NIELIT Scientific Assistant A 2020 November: 97</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Foreign key</p>",
+            "<p>Primary key</p>",
+            "<p>Assertion</p>",
+            "<p>Referential constraint</p>"
+          ],
+          "correct_answer": "<p>Assertion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351363/nielit-scientific-assistant-a-2020-november-97\" target=\"_blank\">https://gateoverflow.in/351363/nielit-scientific-assistant-a-2020-november-97</a></p>"
+        }
+      ]
+    }
+  ]
+});

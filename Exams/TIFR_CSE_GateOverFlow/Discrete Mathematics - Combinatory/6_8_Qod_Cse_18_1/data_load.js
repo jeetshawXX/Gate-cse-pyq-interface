@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Qod Cse 18",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Qod Cse 18",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"473108\"></a><div itemprop=\"text\"><p>There are three boxes. One box contains ten red socks, another contains ten blue socks, and the third contains a mix five red and five blue socks. The three boxes are labelled R (for red), B (for blue), or M (for mixed), but the labels are permuted so that for EACH drawer the label attached to it does NOT match its contents.</p><p>How many total socks do you have to look at from the drawers, in order to correctly identify each drawer? (You are not allowed to look inside the drawers. You can only pick socks one at a time and observe its colour.)</p></div><br><br><b>Combinatory: TIFR CSE 2025 | Part A | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One sock.</p>",
+            "<p>Two socks.</p>",
+            "<p>Three socks.</p>",
+            "<p>Four socks.</p>",
+            "<p>Six socks.<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>One sock.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473108/tifr-cse-2025-part-a-question-5\" target=\"_blank\">https://gateoverflow.in/473108/tifr-cse-2025-part-a-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

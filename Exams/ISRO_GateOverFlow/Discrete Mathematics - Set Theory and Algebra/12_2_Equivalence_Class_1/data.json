@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Equivalence Class",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Equivalence Class",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49502\"></a><div itemprop=\"text\">\n<p>The set of all Equivalence Classes of a set A of Cardinality C</p>\n\n\n</div><br><br><b>Set Theory & Algebra: ISRO CSE 2007 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is of cardinality \\( 2^c \\)</p>",
+            "<p>have the same cardinality as A</p>",
+            "<p>forms a partition of A</p>",
+            "<p>is of cardinality \\( C^2 \\)</p>"
+          ],
+          "correct_answer": "<p>forms a partition of A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49502/isro-cse-2007-question-29\" target=\"_blank\">https://gateoverflow.in/49502/isro-cse-2007-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+}

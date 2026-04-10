@@ -1,0 +1,101 @@
+{
+  "title": "CO and Architecture - 8085 Microprocessor",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "8085 Microprocessor",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59956\"></a><div itemprop=\"text\"><p>Match the following \\( 8085 \\) instructions with the flags \\( : \\)</p>\n\n<p>\\( \\begin{array}{} &nbsp;{} &amp; {\\textbf{List&nbsp;– I}}&nbsp; &amp; {} &amp; {\\textbf{List&nbsp;– II}} \\\\ &nbsp;\\text{a.} &amp;&nbsp; \\text{XCHG} &amp; \\text{i.} &amp;&nbsp; \\text{Only carry flag is affected&nbsp;}\\\\ &nbsp;\\text{b.} &amp; \\text{SUB} &amp; \\text{ii.} &amp; \\text{No flags are affected}\\\\&nbsp;&nbsp;\\text{c.} &amp; \\text{STC}&nbsp;&amp; \\text{iii.} &amp; \\text{All flags other than carry are affected} \\\\ &nbsp;\\text{d.} &amp; \\text{DCR} &amp; \\text{iv.} &amp; \\text{All flags are affected}\\\\&nbsp;&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2014 | Part 3 | Question: 04</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iv, b-i, c-iii, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-ii, c-i, d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iii, c-i, d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iv, c-i, d-iii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-ii, b-iv, c-i, d-iii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59956/ugc-net-cse-december-2014-part-3-question-04\" target=\"_blank\">https://gateoverflow.in/59956/ugc-net-cse-december-2014-part-3-question-04</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59958\"></a><div itemprop=\"text\"><p>How many times will the following loop be executed ?</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;LXI B, 0007&nbsp;H</p>\n\n<p>LOP : DCX B</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;MOV A, B</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;ORA C</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;JNZ LOP&nbsp;</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2014 | Part 3 | Question: 05</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 05 \\)&nbsp;</p>",
+            "<p>\\( 07 \\)&nbsp;</p>",
+            "<p>\\( 09 \\)</p>",
+            "<p>\\( 00 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 07 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59958/ugc-net-cse-december-2014-part-3-question-05\" target=\"_blank\">https://gateoverflow.in/59958/ugc-net-cse-december-2014-part-3-question-05</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"59960\"></a><div itemprop=\"text\"><p>Specify the contents of the accumulator and the status of the \\( S, Z \\) and \\( CY \\) flags when \\( 8085 \\) microprocessor performs addition of \\( 87 H \\) and \\( 79 H \\).&nbsp;</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2014 | Part 3 | Question: 06</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11, 1, 1, 1 \\)</p>",
+            "<p>\\( 10, 0, 1, 0 \\)</p>",
+            "<p>\\( 01, 1, 0, 0 \\)</p>",
+            "<p>\\( 00, 0, 1, 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 00, 0, 1, 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59960/ugc-net-cse-december-2014-part-3-question-06\" target=\"_blank\">https://gateoverflow.in/59960/ugc-net-cse-december-2014-part-3-question-06</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"57087\"></a><div itemprop=\"text\"><p>Which of the &nbsp;following in 8085 microprocessor &nbsp;performs&nbsp;HL=HL+DE ?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | July 2016 | Part 3 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>DAD D</p>",
+            "<p>DAD H</p>",
+            "<p>DAD &nbsp;B</p>",
+            "<p>DAD SP</p>"
+          ],
+          "correct_answer": "<p>DAD D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57087/ugc-net-cse-july-2016-part-3-question-3\" target=\"_blank\">https://gateoverflow.in/57087/ugc-net-cse-july-2016-part-3-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"166265\"></a><div itemprop=\"text\"><p>Consider the following program fragment in assembly language:</p>\n\n<pre class=\"prettyprint linenums lang-text\" data-pbcklang=\"text\" data-pbcktabsize=\"4\">        mov ax, 0h\n        mov cx, 0A h\ndo loop:\n        dec ax\n        loop doloop</pre>\n\n<p>What is the value of \\( ax \\) and \\( cx \\) registers after the completion of the doloop ?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | November 2017 | Part 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ax= FFF5 \\: h \\) and \\( cx=0 \\:h \\)</p>",
+            "<p>\\( ax= FFF6&nbsp;\\: h \\) and \\( cx=0 \\: h \\)</p>",
+            "<p>\\( ax= FFF7 \\: h \\) and \\( cx=0A \\:h \\)</p>",
+            "<p>\\( ax=FFF5 \\: h \\) and \\( cx=0A \\: h \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ax= FFF6&nbsp;\\: h \\) and \\( cx=0 \\: h \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166265/ugc-net-cse-november-2017-part-2-question-31\" target=\"_blank\">https://gateoverflow.in/166265/ugc-net-cse-november-2017-part-2-question-31</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"166266\"></a><div itemprop=\"text\"><p>Consider the following assembly program fragment:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">stc\nmov al, 11010110b\nmov cl,2\nrcl al,3\nrol al, 4\nshr al, cl\nmul cl</pre>\n\n<p>The contents of the destination register \\( ax \\) (in hexadecimal ) and the status of Carry Flag (CF) after the execution of above instructions, are:</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | November 2017 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ax =003CH; \\: CF=0 \\)</p>",
+            "<p>\\( ax=001EH; \\: CF=0 \\)</p>",
+            "<p>\\( ax=007BH; \\: CF=1 \\)</p>",
+            "<p>\\( ax=00B7H; \\: CF=1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ax =003CH; \\: CF=0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166266/ugc-net-cse-november-2017-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/166266/ugc-net-cse-november-2017-part-2-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+}

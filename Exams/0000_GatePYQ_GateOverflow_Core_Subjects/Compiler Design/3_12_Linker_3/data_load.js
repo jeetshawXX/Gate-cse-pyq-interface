@@ -1,0 +1,57 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Linker",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Linker",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"519\"></a><div itemprop=\"text\"><p>A “link editor” is a program that:</p>\n\n</div><br><br><b>GATE CSE 1991 | Question: 03,ix</b></p>",
+          "type": "single",
+          "options": [
+            "<p>matches the parameters of the macro-definition with locations of the parameters of the macro call</p>",
+            "<p>matches external names of one program with their location in other programs</p>",
+            "<p>matches the parameters of subroutine definition with the location of parameters of subroutine call.</p>",
+            "<p>acts as a link between text editor and the user</p>",
+            "<p>acts as a link between compiler and the user program</p>"
+          ],
+          "correct_answer": "<p>matches external names of one program with their location in other programs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/519/gate-cse-1991-question-03-ix\" target=\"_blank\">https://gateoverflow.in/519/gate-cse-1991-question-03-ix</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"962\"></a><div itemprop=\"text\"><p>Which of the following is NOT an advantage of using shared, dynamically linked libraries as opposed to using statistically linked libraries?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Smaller sizes of executable files</p>",
+            "<p>Lesser overall page fault rate in the system</p>",
+            "<p>Faster program startup</p>",
+            "<p>Existing programs need not be re-linked to take advantage of newer versions of libraries</p>"
+          ],
+          "correct_answer": "<p>Faster program startup</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/962/gate-cse-2003-question-76\" target=\"_blank\">https://gateoverflow.in/962/gate-cse-2003-question-76</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1006\"></a><div itemprop=\"text\"><p>Consider a program \\( P \\) that consists of two source modules \\( M_1 \\) and \\( M_2 \\) contained in two different files. If \\( M_1 \\) contains a reference to a function defined in \\( M_2 \\) the reference will be resolved at&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Edit time</p>",
+            "<p>Compile time</p>",
+            "<p>Link time</p>",
+            "<p>Load time</p>"
+          ],
+          "correct_answer": "<p>Link time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1006/gate-cse-2004-question-9\" target=\"_blank\">https://gateoverflow.in/1006/gate-cse-2004-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,27 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Alligation Mixture",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Alligation Mixture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"280501\"></a><div itemprop=\"text\"><p>Let \\( A \\) and \\( B \\)&nbsp; be two&nbsp; containers. Container \\( A \\) contains \\( 50 \\)&nbsp;litres&nbsp;of liquid \\( X \\)&nbsp;and container \\( B \\) contains \\( 100 \\) litres&nbsp;of liquid \\( Y \\). Liquids \\( X \\) and \\( Y \\) are soluble in each other.</p>\n\n<p>We now take \\( 30 \\) ml of liquid \\( X \\) from container \\( A \\) and put it into container \\( B \\). The mixture in container \\( B \\) is then thoroughly mixed and \\( 20 \\) ml of the resulting mixture&nbsp;is put back into container \\( A \\).At the end of this process let \\( V_{AY} \\) be the volume of liquid \\( Y \\) and \\( V_{BX} \\) be the volume of liquid \\( X \\) in container \\( B \\). Which of the following must be TRUE ?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2019 | Part A | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( V_{AY} &lt; V_{BX} \\)</p>",
+            "<p>\\( V_{AY} &gt; V_{BX} \\)</p>",
+            "<p>\\( V_{AY} = V_{BX} \\)</p>",
+            "<p>\\( V_{AY} +&nbsp;V_{BX}=30 \\)</p>",
+            "<p>\\( V_{AY} + V_{BX}=20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( V_{AY} &lt; V_{BX} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280501/tifr-cse-2019-part-a-question-9\" target=\"_blank\">https://gateoverflow.in/280501/tifr-cse-2019-part-a-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

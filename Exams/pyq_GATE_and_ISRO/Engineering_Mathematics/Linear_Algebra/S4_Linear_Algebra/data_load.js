@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Linear_Algebra - Linear_Algebra - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Linear_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The value of the dot product of the eigenvectors corresponding to any pair of different eigenvalues of a 4-by-4 symmetric positive definite matrix is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1760/gate2014-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following system of equations: <br>     3x + 2y = 1 <br>\n4x + 7z = 1 <br>\nx + y + z = 3 <br>\nx - 2y + 7z = 0 <br>\nThe number of solutions for this system is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1757/gate2014-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the matrix transformation which takes the independent vectors \\(\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\text{ and }\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}\\) and transforms them to \\(\\begin{pmatrix} 1\\\\ 1 \\end{pmatrix} \\text{ and }\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}\\) respectively? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix} 1&amp;-1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{pmatrix} 0&amp;0 \\\\ 0.5&amp; 0.5 \\end{pmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix} -1&amp;0 \\\\ 1&amp; 1 \\end{pmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix} -1&amp;1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{pmatrix} -1&amp;1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43968/isro-2013-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following does NOT equal  <br> \\(\\begin{bmatrix} 1 &amp; x&amp;x^{2} \\\\ 1&amp; y &amp; y^{2}\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{bmatrix} 1 &amp; (x+1)&amp;x^{2}+1 \\\\ 1&amp; (y+1) &amp; y^{2}+1\\\\ 1&amp; (z+1) &amp; z^{2}+1 \\end{bmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{bmatrix} 0&amp; x-y &amp; x^{2}-y^2 \\\\ 0&amp; y-z &amp; y^{2}- z^2 \\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{bmatrix} 2&amp; x+y &amp;x^{2}+y^2 \\\\ 2&amp; y+z &amp; y^{2}+z^2\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1412/gate2013-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let A be the 2x2 matrix with elements \\(a_{11}=a_{12}=a_{21}=+1\\) and \\(a_{22}=-1\\). Then the eigenvalues of\nthe matrix \\(A^{19}\\) are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1024 and -1024</p>",
+            "<b>B.</b> <p>1024\\(\\sqrt{2}\\) and -1024\\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>4\\(\\sqrt{2}\\) and -4\\(\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43/gate2012-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the matrix that represents rotation of an object by \\(\\theta^0\\) about the origin in 2D? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\cos \\theta \\;\\; -\\sin \\theta\\\\ \\sin \\theta \\;\\;  \\cos \\theta\\)</p>",
+            "<b>B.</b> <p>\\(\\sin \\theta \\;\\; - \\cos \\theta\\\\ \\cos \\theta \\;\\; \\sin \\theta\\)</p>",
+            "<b>C.</b> <p>\\(\\cos \\theta \\;\\; - \\sin \\theta \\\\ \\cos \\theta \\;\\; \\sin \\theta\\)</p>",
+            "<b>D.</b> <p>\\(\\sin \\theta \\;\\; - \\cos \\theta \\\\ \\cos \\theta \\;\\;  \\sin \\theta\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\cos \\theta \\;\\; -\\sin \\theta\\\\ \\sin \\theta \\;\\;  \\cos \\theta\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51518/isro2011-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If \\(A\\) and \\(B\\) are square matrices with same order and \\(A\\) is symmetric, then \\(B^TAB\\) is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Skew symmetric</p>",
+            "<b>B.</b> <p>Symmetric</p>",
+            "<b>C.</b> <p>Orthogonal</p>",
+            "<b>D.</b> <p>Idempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52483/isro2011-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the matrix as given below. <br>\\(\\begin{bmatrix} 1 &amp; 2&amp;3 \\\\ 0&amp; 4 &amp; 7\\\\ 0&amp;0 &amp; 3 \\end{bmatrix}\\) <br> Which one of the following provides the CORRECT values of eigenvalues of the matrix? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,4,3</p>",
+            "<b>B.</b> <p>3,7,3</p>",
+            "<b>C.</b> <p>7,3,2</p>",
+            "<b>D.</b> <p>1,2,3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1,4,3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2142/gate2011-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following matrix \\(A=\\begin{bmatrix} 2 &amp; 3\\\\ X&amp;Y \\end{bmatrix}\\) <br> If the eigenvalues of A are 4 and 8, then <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 4, y = 10</p>",
+            "<b>B.</b> <p>x = 5, y = 8</p>",
+            "<b>C.</b> <p>x = -3,y = 9</p>",
+            "<b>D.</b> <p>x = -4, y = 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x = -4, y = 10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1155/gate2010-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>\\(\\begin{vmatrix} 265 &amp;&amp; 240 &amp;&amp; 219 \\\\ 240 &amp;&amp; 225 &amp;&amp; 198 \\\\ 219 &amp;&amp; 198 &amp;&amp; 181 \\\\ \\end{vmatrix} =\\) <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>779</p>",
+            "<b>B.</b> <p>679</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>256</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48079/isro2009-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>If A, B, C are any three matrices, then A'+B'+C' is equal to <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a null matrix</p>",
+            "<b>B.</b> <p>A+B+C</p>",
+            "<b>C.</b> <p>(A+B+C)'</p>",
+            "<b>D.</b> <p>-(A+B+C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(A+B+C)'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50512/isro2009-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If \\(\\begin{vmatrix} 3 &amp;&amp; 3 \\\\ x &amp;&amp; 5 \\end{vmatrix} =3\\) then the value of \\(x\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50506/isro2009-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If two adjacent rows of a determinant are interchanged, the value of the determinant <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>becomes zero</p>",
+            "<b>B.</b> <p>remains unaltered</p>",
+            "<b>C.</b> <p>becomes infinitive</p>",
+            "<b>D.</b> <p>becomes negative of its original value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>becomes negative of its original value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50503/isro2009-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A square matrix A is called orthogonal if A'A= <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I</p>",
+            "<b>B.</b> <p>A</p>",
+            "<b>C.</b> <p>-A</p>",
+            "<b>D.</b> <p>-I</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50498/isro2009-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The cubic polynomial y(x) which takes the following values: y(0)=1, y(1)=0, y(2)=1 and y(3)=10 is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x^3 +2x^2 +1\\)</p>",
+            "<b>B.</b> <p>\\(x^3 +3x^2 -1\\)</p>",
+            "<b>C.</b> <p>\\(x^3 +1\\)</p>",
+            "<b>D.</b> <p>\\(x^3 -2x^2 +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(x^3 -2x^2 +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50475/isro2009-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

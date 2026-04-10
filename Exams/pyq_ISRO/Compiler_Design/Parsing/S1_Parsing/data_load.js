@@ -1,0 +1,251 @@
+window.__examLoadCallback({
+  "title": "Parsing - Parsing - Slot 1",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Parsing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A grammar is defined as<br>\\(A \\rightarrow B C\\)<br>\\(B \\rightarrow x \\mid B x\\)<br>\\(C \\rightarrow B \\mid D\\)<br>\\(D \\rightarrow y \\mid Ey\\)<br>\\(E \\rightarrow z\\)<br>The non terminal alphabet of the grammar is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{A, B, C, D, E\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{B, C, D, E\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{A, B, C, D, E,x,y,z\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{x,y,z\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{A, B, C, D, E\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331302/isro2020-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A given grammar is called ambiguous if <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>two or more productions have the same non-terminal on the left hand side</p>",
+            "<b>B.</b> <p>a derivation tree has more than one associated sentence</p>",
+            "<b>C.</b> <p>there is a sentence with more than one derivation tree corresponding to it</p>",
+            "<b>D.</b> <p>brackets are not present in the grammar</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>there is a sentence with more than one derivation tree corresponding to it</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331462/isro2020-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Given the grammar<br>\\(s \\rightarrow T^{*} S \\mid T\\)<br>\\(T \\rightarrow U+T \\mid U\\)<br>\\(U \\rightarrow a \\mid b\\)<br>Which of the following statements is wrong? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Grammar is not ambiguous</p>",
+            "<b>B.</b> <p>Priority of + over * is ensured</p>",
+            "<b>C.</b> <p>Right to left evaluation of * and + happens</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331360/isro2020-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A top-down parser generates <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Rightmost Derivation</p>",
+            "<b>B.</b> <p>Rightmost derivation in reverse</p>",
+            "<b>C.</b> <p>Leftmost derivation</p>",
+            "<b>D.</b> <p>Leftmost derivation in reverse</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Leftmost derivation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55922/isro2016-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Recursive descent parsing is an example of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Top-down parsers</p>",
+            "<b>B.</b> <p>Bottom-up parsers</p>",
+            "<b>C.</b> <p>Predictive parsers</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Top-down parsers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56036/isro2016-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which statement is true? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LALR parser is more powerful and costly as compare to other parsers</p>",
+            "<b>B.</b> <p>All CFG's are LP and not all grammars are uniquely defined</p>",
+            "<b>C.</b> <p>Every SLR grammar is unambiguous but not every unambiguous grammar is SLR</p>",
+            "<b>D.</b> <p>LR(K) is the most general back tracking shift reduce parsing method</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Every SLR grammar is unambiguous but not every unambiguous grammar is SLR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51210/isro2015-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following is a top-down parser? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recursive descent parser</p>",
+            "<b>B.</b> <p>Shift left associative parser</p>",
+            "<b>C.</b> <p>SLR(k) parser</p>",
+            "<b>D.</b> <p>LR(k) parser</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Recursive descent parser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51207/isro2015-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which grammar rules violate the requirement of the operator grammar? A, B, C are variables and a, b, c are terminals<br>1. \\(A \\rightarrow B C\\)<br>2. \\(A \\rightarrow C c B b\\)<br>3. \\(A \\rightarrow  B a C\\)<br>4. \\(A \\rightarrow \\epsilon\\) <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 only</p>",
+            "<b>B.</b> <p>1 and 2</p>",
+            "<b>C.</b> <p>1 and 3</p>",
+            "<b>D.</b> <p>1 and 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51202/isro2015-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given the following expression grammar:<br>\\(E \\rightarrow E * F|F+E| F\\)<br>\\(F \\rightarrow F-F \\mid i d\\)<br>Which of the following is true? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>* has higher precedence than +</p>",
+            "<b>B.</b> <p>\\(-\\) has higher precedence than *</p>",
+            "<b>C.</b> <p>+ and \\(-\\) have same precedence</p>",
+            "<b>D.</b> <p>+ has higher precedence than \\(-\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(-\\) has higher precedence than *</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/668/gate2000-2-21-isro2015-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following grammar.<br>\\(\\mathrm{S} \\rightarrow \\mathrm{AB}\\)<br>\\(\\mathrm{A} \\rightarrow \\mathrm{a}\\)<br>\\(\\mathrm{A} \\rightarrow \\mathrm{BaB}\\)<br>\\(\\mathrm{B} \\rightarrow \\mathrm{bbA}\\)<br>Which of the following statements is FALSE? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The length of every string produced by this grammar is even</p>",
+            "<b>B.</b> <p>No string produced by this grammar has three consecutive a's</p>",
+            "<b>C.</b> <p>The length of substring produced by B is always odd</p>",
+            "<b>D.</b> <p>No string produced by this grammar has four consecutive b's</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>No string produced by this grammar has four consecutive b's</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54994/isro2014-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the number of steps required to derive the string ((() ()) ()) for the following grammar?\n<br>\\(S \\rightarrow S S\\)<br>\\(S \\rightarrow(S)\\)<br>\\(S \\rightarrow \\varepsilon\\) <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17222/isro2014-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following productions eliminate left recursion in the productions given below:<br>\n\\(S \\rightarrow Aa \\mid b\\)<br>\n\\(A \\rightarrow Ac \\mid Sd \\mid \\epsilon\\) <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow bdA', \\;\\; A' \\rightarrow A'c \\mid A'ba \\mid A \\mid \\epsilon\\)</p>",
+            "<b>B.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow A' \\mid bdA', \\;\\; A' \\rightarrow cA' \\mid adA' \\mid \\epsilon\\)</p>",
+            "<b>C.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow A'c \\mid A'd ,\\;\\;  A' \\rightarrow bdA' \\mid cA \\mid \\epsilon\\)</p>",
+            "<b>D.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow cA' \\mid adA' \\mid bdA',\\;\\;  A' \\rightarrow A \\mid \\epsilon\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow A' \\mid bdA', \\;\\; A' \\rightarrow cA' \\mid adA' \\mid \\epsilon\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43760/isro-2013-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Shift reduce parsing belongs to a class of <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bottom up parsing.</p>",
+            "<b>B.</b> <p>Top down parsing.</p>",
+            "<b>C.</b> <p>Recursive parsing.</p>",
+            "<b>D.</b> <p>Predictive parsing.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Bottom up parsing.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43755/isro-2013-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following sentences can be generated by <br>\n\\(S -&gt; aS \\mid bA\\)<br>\n\\(A -&gt; d \\mid cA\\) <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>bccdd</p>",
+            "<b>B.</b> <p>abbcca</p>",
+            "<b>C.</b> <p>abcabc</p>",
+            "<b>D.</b> <p>abcd</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>abcd</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52864/isro2011-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which variable does not drive a terminal string in grammar?<br>\nS -&gt; AB<br>\nA -&gt; a<br>\nB -&gt; b<br>\nB -&gt; C<br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51695/isro2011-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Consider the grammar<br>\n\\(S \\rightarrow ABCc \\mid bc\\)<br>\n\\(BA \\rightarrow AB\\)<br>\n\\(Bb \\rightarrow bb\\)<br>\n\\(Ab \\rightarrow ab\\)<br>\n\\(Aa \\rightarrow aa\\)<br>\nWhich of the following sentences can be derived by this grammar? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>abc</p>",
+            "<b>B.</b> <p>aab</p>",
+            "<b>C.</b> <p>abcc</p>",
+            "<b>D.</b> <p>abbc</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>abc</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49668/isro2008-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

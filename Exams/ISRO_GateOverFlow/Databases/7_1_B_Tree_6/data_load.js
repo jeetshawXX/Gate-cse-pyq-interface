@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Databases - B Tree",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "B Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1261\"></a><div itemprop=\"text\"><p>The order of a leaf node in a \\( B^+ \\) - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that&nbsp;the block size is \\( 1K\\;\\text{bytes} \\), data record pointer is \\( 7\\;\\text{bytes} \\) long, the value field is \\( 9\\;\\text{bytes} \\) long and a block pointer is \\( 6 \\;\\text{bytes} \\) long, what is the order of the leaf node?</p>\n\n</div><br><br><b>Databases: GATE CSE 2007 | Question: 63, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 63 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 67 \\)</p>",
+            "<p>\\( 68 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 63 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59\" target=\"_blank\">https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3768\"></a><div itemprop=\"text\"><p>A B-Tree used as an index for a large database table has four levels including the root node. If a new key is inserted in this index, then the maximum number of nodes that could be newly created in the process are</p>\n\n</div><br><br><b>Databases: GATE IT 2005 | Question: 23, ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3768/gate-it-2005-question-23-isro2017-67\" target=\"_blank\">https://gateoverflow.in/3768/gate-it-2005-question-23-isro2017-67</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"213539\"></a><div itemprop=\"text\">\n\n<p>in a file which contains \\( 1 \\) million records and the order of the tree is \\( 100 \\), then what is the maximum number of nodes to be accessed if \\( B \\)+&nbsp;tree index is used?</p>\n\n</div><br><br><b>Databases: ISRO CSE 2018 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213539/isro-cse-2018-question-49\" target=\"_blank\">https://gateoverflow.in/213539/isro-cse-2018-question-49</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"43933\"></a><div itemprop=\"text\">\n<p>Calculate the order of leaf (\\( P_{leaf} \\)) and non leaf (P) nodes of a \\( B^{+} \\) tree based on the information given below.</p>\n\n<p>Search key field = \\( 12 \\) field</p>\n\n<p>Record pointer = \\( 10 \\) bytes</p>\n\n<p>Block pointer = \\( 8 \\) bytes</p>\n\n<p>Block size = \\( 1 \\)KB</p>\n\n\n</div><br><br><b>Databases: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P_{leaf} \\) = 51 &amp; p = 46</p>",
+            "<p>\\( P_{leaf} \\) = 47 &amp; p = 52</p>",
+            "<p>\\( P_{leaf} \\) = 46 &amp; p = 51</p>",
+            "<p>\\( P_{leaf} \\) = 52 &amp; p = 47</p>"
+          ],
+          "correct_answer": "<p>\\( P_{leaf} \\) = 46 &amp; p = 51</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43933/isro-2013-26\" target=\"_blank\">https://gateoverflow.in/43933/isro-2013-26</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"43938\"></a><div itemprop=\"text\">\n<p>The physical location of a record determined by a formula that transforms a file key into a record location is</p>\n\n\n</div><br><br><b>Databases: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Hashed file</p>",
+            "<p>\\( B \\)-Tree file</p>",
+            "<p>Indexed file</p>",
+            "<p>Sequential file</p>"
+          ],
+          "correct_answer": "<p>Hashed file</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43938/isro-2013-27\" target=\"_blank\">https://gateoverflow.in/43938/isro-2013-27</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"51699\"></a><div itemprop=\"text\">\n<p>If a node has \\( K \\) children in \\( B \\) tree, then the node contains exactly _____ keys.</p>\n\n\n</div><br><br><b>Databases: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( K^2 \\)</p>",
+            "<p>\\( K-1 \\)</p>",
+            "<p>\\( K+1 \\)</p>",
+            "<p>\\( \\sqrt{K} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( K-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51699/isro2015-39\" target=\"_blank\">https://gateoverflow.in/51699/isro2015-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

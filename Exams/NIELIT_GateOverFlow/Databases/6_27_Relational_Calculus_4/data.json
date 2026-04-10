@@ -1,0 +1,71 @@
+{
+  "title": "Databases - Relational Calculus",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Relational Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336699\"></a><div itemprop=\"text\"><p>The relational algebra expression equivalent to the tuple calculus expression</p>\n\n<p>\\( \\{t\\mid&nbsp;t ​ \\in&nbsp;​ r \\land&nbsp;(t[A]=10 \\land&nbsp;t[B]=20)\\} \\) is</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sigma_{(A=10\\:\\lor\\:B=20)}(r) \\)</p>",
+            "<p>\\( \\sigma_{(A=10)}(r)\\cup\\sigma_{(B=20)}(r) \\)</p>",
+            "<p>\\( \\sigma_{(A=10)}(r)\\cap\\sigma_{(B=20)}(r) \\)</p>",
+            "<p>\\( \\sigma_{(A=10)}(r)-\\sigma_{(B=20)}(r) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sigma_{(A=10)}(r)\\cap\\sigma_{(B=20)}(r) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336699/nielit-2016-mar-scientist-b-section-c-42\" target=\"_blank\">https://gateoverflow.in/336699/nielit-2016-mar-scientist-b-section-c-42</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336416\"></a><div itemprop=\"text\"><p>If \\( R \\) is a relation in Relational Data Model and \\( A_1,A_2,\\dots&nbsp;A_n \\) are the attributes of relation \\( R \\), what is the cardinality of \\( R \\) expressed in terms of domain of attributes?</p>\n\n</div><br><br><b>Databases: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mid&nbsp;R\\mid\\leq\\mid \\text{ dom }(A_1) \\times \\text{ dom }(A_2)\\dots&nbsp;\\text{ dom }(A_n)\\mid \\)</p>",
+            "<p>\\( \\mid&nbsp;R\\mid\\geq\\mid&nbsp;\\text{ dom }​​​​​​​(A_1)\\times \\text{ dom }​​​​​​​(A_2)\\dots&nbsp;\\text{ dom }​​​​​​​(A_n)\\mid \\)</p>",
+            "<p>\\( \\mid R \\mid = \\text{ max } ( \\mid \\text{dom}(A_1 ) \\mid, \\mid \\text{ dom }(A_2) \\mid , \\dots \\mid \\text{ dom } (A_n) \\mid)  \\)</p>",
+            "<p>\\( \\mid R \\mid = \\text{ min } ( \\mid \\text{dom}(A_1 ) \\mid, \\mid \\text{ dom }(A_2) \\mid , \\dots \\mid \\text{ dom } (A_n) \\mid) \\)​​​​​​​</p>"
+          ],
+          "correct_answer": "<p>\\( \\mid&nbsp;R\\mid\\leq\\mid \\text{ dom }(A_1) \\times \\text{ dom }(A_2)\\dots&nbsp;\\text{ dom }(A_n)\\mid \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336416/nielit-2017-july-scientist-b-it-section-b-19\" target=\"_blank\">https://gateoverflow.in/336416/nielit-2017-july-scientist-b-it-section-b-19</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373755\"></a><div itemprop=\"text\"><p>Which of the following relational calculus expressions is not safe ?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( \\left\\{t \\mid \\exists u \\in R_1\\left(t[A] = u[A]\\right) \\land \\neg \\exists s \\in R_2 \\left(t[A] = s[A]\\right)\\right\\} \\)</li>\n\t<li>\\( \\left\\{ t \\mid \\forall u \\in R_1\\left(u[A]= \"x\" \\Rightarrow \\exists s \\in R_2\\left(t[A] = s[A] \\land s[A] = u[A]\\right)\\right) \\right\\}  \\)</li>\n\t<li>\\( \\left\\{t \\mid \\neg (t \\in R_1)\\right\\}  \\)</li>\n\t<li>\\( \\left\\{t \\mid \\exists u \\in R_1\\left(t[A]=u[A]\\right) \\land \\exists s \\in R_2 \\left(t[A] = s[A]\\right)\\right\\} \\)</li>\n</ol>\n\n</div><br><br><b>Databases: NIELIT 2022 April Scientist B | Section B | Question: 83</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i)</p>",
+            "<p>(ii)</p>",
+            "<p>(iii)</p>",
+            "<p>(iv)</p>"
+          ],
+          "correct_answer": "<p>(iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373755/nielit-2022-april-scientist-b-section-b-question-83\" target=\"_blank\">https://gateoverflow.in/373755/nielit-2022-april-scientist-b-section-b-question-83</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351571\"></a><div itemprop=\"text\"><p>An expression in the domain relational calculus is of the form:</p>\n\n</div><br><br><b>Databases: NIELIT Scientist B 2020 November: 111</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{ P(x_1,x_2,\\dots ,x_n)|&lt; x_1,x_2,\\dots ,x_n&gt; \\} \\)</p>",
+            "<p>\\( \\{ x_1,x_2,\\dots ,x_n |&lt;&nbsp; x_1,x_2,\\dots ,x_n&gt; \\} \\)</p>",
+            "<p>\\( \\{ x_1,x_2,\\dots ,x_n |&nbsp;x_1,x_2,\\dots ,x_n&nbsp;\\} \\)</p>",
+            "<p>\\( \\{ &lt; x_1,x_2,\\dots ,x_n&gt;| P(x_1,x_2,\\dots ,x_n)&nbsp;\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{ &lt; x_1,x_2,\\dots ,x_n&gt;| P(x_1,x_2,\\dots ,x_n)&nbsp;\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351571/nielit-scientist-b-2020-november-111\" target=\"_blank\">https://gateoverflow.in/351571/nielit-scientist-b-2020-november-111</a></p>"
+        }
+      ]
+    }
+  ]
+}

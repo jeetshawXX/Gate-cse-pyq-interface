@@ -1,0 +1,186 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Direction Sense",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Direction Sense",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8036\"></a><div itemprop=\"text\"><p>Four branches of a company are located at&nbsp;\\( \\text{M, N, O} \\) and \\( \\text{P.&nbsp; M} \\) is north of \\( \\text{N} \\) at a distance of \\( 4\\;\\text{km; P} \\) is south of \\( \\text{O} \\) at a distance of \\( 2\\;\\text{km; N} \\) is southeast of \\( \\text{O} \\) by \\( 1\\;\\text{km} \\). What is the distance between \\( \\text{M} \\) and \\( \\text{P} \\) in \\( \\text{km} \\)?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5.34 \\)</p>",
+            "<p>\\( 6.74 \\)</p>",
+            "<p>\\( 28.5 \\)</p>",
+            "<p>\\( 45.49 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5.34 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7\" target=\"_blank\">https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"118417\"></a><div itemprop=\"text\"><p>There are five buildings called \\( V \\), \\( W \\), \\( X \\), \\( Y \\) and \\( Z \\) in a row (not necessarily in that order). \\( V \\) is to the West of \\( W \\). \\( Z \\) is to the East of \\( X \\) and the West of \\( V \\). \\( W \\) is to the West of \\( Y \\). Which is the building in the middle?</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( V \\)</p>",
+            "<p>\\( W \\)</p>",
+            "<p>\\( X \\)</p>",
+            "<p>\\( Y \\)</p>"
+          ],
+          "correct_answer": "<p>\\( V \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118417/gate-cse-2017-set-2-question-ga-3\" target=\"_blank\">https://gateoverflow.in/118417/gate-cse-2017-set-2-question-ga-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"302863\"></a><div itemprop=\"text\"><p>Three of the five students are allocated to a hostel put in special requests to the warden, Given the floor plan of the vacant rooms, select the allocation plan that will accommodate all their requests.</p><p>Request by X: Due to pollen allergy, I want to avoid a wing next to the garden.</p><p>Request by Y: I want to live as far from the washrooms as possible, since I am very much sensitive to smell.</p><p>Request by Z: I believe in Vaastu and so I want to stay in South-West wing.</p><p>The shaded rooms are already occupied. WR is washroom</p></div><br><br><b>GATE CSE 2019 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/0b3ef111deb454686d8d37d57623192f.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/549f8123e394d6e0d6e45a90e8579743.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/eaed0b1e21d4b4231736124402a696e9.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/6580bae505284f445991d5baff6d9a20.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/6580bae505284f445991d5baff6d9a20.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302863/gate-cse-2019-question-ga-10\" target=\"_blank\">https://gateoverflow.in/302863/gate-cse-2019-question-ga-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"460096\"></a><div itemprop=\"text\"><p>According to the map shown in the figure, which one of the following statements is correct?</p><div><p>Note: The figure shown is representative.</p><p style=\"text-align:center\"><img class=\"tikz\" alt=\"\" width=\"600\" height=\"563\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/392d32abbaff9aabf2ab69530b295500.png\"></p><p>&nbsp;</p></div></div><br><br><b>GATE CSE 2025 | Set 1 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The library is located to the northwest of the canteen.</p>",
+            "<p>The hospital is located to the east of the chemistry lab.</p>",
+            "<p>The chemistry lab is to the southeast of physics lab.</p>",
+            "<p>The classrooms and canteen are next to each other.</p>"
+          ],
+          "correct_answer": "<p>The chemistry lab is to the southeast of physics lab.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460096/gate-cse-2025-set-1-ga-question-5\" target=\"_blank\">https://gateoverflow.in/460096/gate-cse-2025-set-1-ga-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359899\"></a><div itemprop=\"text\"><p>On a planar field, you travelled \\( 3 \\) units East from a point \\( O \\). Next you travelled \\( 4 \\) units South to arrive at point \\( P \\). Then you travelled from \\( P \\) in the North-East direction such that you arrive at a point that is \\( 6 \\) units East of point \\( O \\). Next, you travelled in the North-West direction, so that you arrive at point \\( Q \\) that is \\( 8 \\) units North of point \\( P \\).<br>\nThe distance of point \\( Q \\) to point \\( O \\), in the same units, should be ______________</p>\n\n</div><br><br><b>GATE Civil 2021 Set 2 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359899/gate-civil-2021-set-2-ga-question-6\" target=\"_blank\">https://gateoverflow.in/359899/gate-civil-2021-set-2-ga-question-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411745\"></a><div itemprop=\"text\"><p>An ant walks in a straight line on a plane leaving behind a trace of its movement. The initial position of the ant is at point \\( \\text{P} \\) facing east.</p>\n\n<p>The ant first turns \\( 72^{\\circ}&nbsp; \\) anticlockwise at \\( \\text{P}, \\) and then does the following two steps in sequence exactly FIVE times before halting.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/b0417eedfd72d8a27ace4c9b3571afae.png\" width=\"200\"></p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>moves forward for \\( 10 \\; \\text{cm.} \\)</li>\n\t<li>turns \\( 144^{\\circ} \\) clockwise.</li>\n</ol>\n\n<p>The pattern made by the trace left behind by the ant is</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;A.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/83a0aa11cc13f1f0009616a2056d9708.png\" width=\"400\">&nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;B.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/6556306a0f8481f2cbb684a2afcd9d78.png\" width=\"400\"></p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;C.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/c6c857253c69f907359460a21a7ae263.png\" width=\"400\"></p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;D.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___direction_sense/00fdbd6e6549132b9574f6a30fda2d74.png\" width=\"400\"></p></div><br><br><b>GATE Civil 2022 Set 2 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411745/gate-civil-2022-set-2-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411745/gate-civil-2022-set-2-ga-question-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359486\"></a><div itemprop=\"text\"><p>Ms. \\( X \\) came out of a building through its front door to find her shadow due to the morning sun failing to her right side with the building to her back. From this, it can be inferred that building is facing _________</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 1 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>North</p>",
+            "<p>East</p>",
+            "<p>West</p>",
+            "<p>South</p>"
+          ],
+          "correct_answer": "<p>South</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359486/gate-mechanical-2021-set-1-ga-question-2\" target=\"_blank\">https://gateoverflow.in/359486/gate-mechanical-2021-set-1-ga-question-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"359503\"></a><div itemprop=\"text\"><p>The front door of \\( \\text{Mr. X's} \\) house faces East. \\( \\text{Mr. X} \\) leaves the house, walking \\( \\text{50 m} \\) straight from the back door that is situated directly opposite to the front door. He then turns to his right, walks for another \\( \\text{50 m} \\) and stops. The direction of the point \\( \\text{Mr. X} \\) is now located at with respect to the starting point is ____</p></div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>South-East</p>",
+            "<p>North-East</p>",
+            "<p>West</p>",
+            "<p>North-West</p>"
+          ],
+          "correct_answer": "<p>North-West</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359503/gate-mechanical-2021-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/359503/gate-mechanical-2021-set-2-ga-question-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"41673\"></a><div itemprop=\"text\">\n<p>\\( X \\) is \\( 1 \\) km northeast of \\( Y \\). \\( Y \\) is \\( 1 \\) km southeast of \\( Z \\). \\( W \\) is \\( 1 \\) km west of \\( Z \\). \\( P \\) is \\( 1 \\) km south of \\( W \\). \\( Q \\) is \\( 1 \\) km east of \\( P \\). What is the distance between \\( X \\) and \\( Q \\) in km?</p>\n\n\n</div><br><br><b>GATE2014 AG: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)&nbsp;</p>",
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>\\( \\sqrt{3} \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41673/gate2014-ag-ga-9\" target=\"_blank\">https://gateoverflow.in/41673/gate2014-ag-ga-9</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"40179\"></a><div itemprop=\"text\"><p>Mr. Vivek walks \\( 6 \\) meters North-east, then turns and walks \\( 6 \\) meters South-east, both at 60 degrees to east. He further moves \\( 2 \\) meters South and \\( 4 \\) meters West. What is the straight distance in meters between the point he started from and the point he finally reached?</p>\n\n</div><br><br><b>GATE2015 CE-2: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2\\sqrt 2 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\sqrt 2 \\)</p>",
+            "<p>\\( 1/\\sqrt2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2\\sqrt 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40179/gate2015-ce-2-ga-4\" target=\"_blank\">https://gateoverflow.in/40179/gate2015-ce-2-ga-4</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"108726\"></a><div itemprop=\"text\"><p>\\( M \\) and \\( N \\) start from the same location. \\( M \\) travels \\( 10 \\) km East and then \\( 10 \\) km North-East. \\( N \\) travels \\( 5 \\) km South and then \\( 4 \\) km South-East. What is the shortest distance (in km) between \\( M \\) and \\( N \\) at the end of their travel?</p>\n\n</div><br><br><b>GATE2016 EC-2: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18.60 \\)</p>",
+            "<p>\\( 22.50 \\)</p>",
+            "<p>\\( 20.61 \\)</p>",
+            "<p>\\( 25.00 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20.61 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108726/gate2016-ec-2-ga-9\" target=\"_blank\">https://gateoverflow.in/108726/gate2016-ec-2-ga-9</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"313508\"></a><div itemprop=\"text\"><p>Fatima starts from point \\( P \\), goes North for \\( 3 \\) km, and then East for \\( 4 \\) km to reach point \\( Q \\). She then turns to face point \\( P \\) and goes \\( 15 \\) km in that direction. She then goes North for \\( 6 \\) km. How far is she from point \\( P \\), and in which direction should she go to reach point \\( P \\)?</p>\n\n</div><br><br><b>GATE2017 EC-2: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{8 km, East} \\)</p>",
+            "<p>\\( \\text{12 km, North} \\)</p>",
+            "<p>\\( \\text{6k m, East} \\)</p>",
+            "<p>\\( \\text{10 km, North} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{8 km, East} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313508/gate2017-ec-2-ga-4\" target=\"_blank\">https://gateoverflow.in/313508/gate2017-ec-2-ga-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Probability",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Probability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411973\"></a><div itemprop=\"text\"><p>A candidate takes a test and attempts all the \\( 100 \\) questions in it. While any correct answer fetches \\( 1 \\) mark, wrong answers are penalized as follows; one-tenth of the questions carry \\( 1 / 10 \\) negative mark each, one-fifth of the questions carry \\( 1 / 5 \\) negative marks each and the rest of the questions carry \\( 1 / 2 \\) negative mark each. Un-attempted questions carry no marks. What is the difference between the maximum and the minimum marks that he can score?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 140 \\)</p>",
+            "<p>None of these\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 100 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411973/nielit-2023-feb-scientist-c-section-c-question-62\" target=\"_blank\">https://gateoverflow.in/411973/nielit-2023-feb-scientist-c-section-c-question-62</a></p>"
+        }
+      ]
+    }
+  ]
+});

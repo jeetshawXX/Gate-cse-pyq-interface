@@ -1,0 +1,21 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Singular Value Decomposition",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Singular Value Decomposition",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"422911\"></a><div itemprop=\"text\">Let \\( \\text{u}=\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 3 \\\\ 4 \\\\ 5\\end{array}\\right] \\), and let \\( \\sigma_{1}, \\sigma_{2}, \\sigma_{3}, \\sigma_{4}, \\sigma_{5} \\) be the singular values of the matrix \\( \\text{M}=\\text{u} \\text{u}^{\\text{T}} \\) (where \\( \\text{u}^{\\text{T}} \\) is the transpose of \\( \\text{u} \\) ). The value of \\( \\sum_{i=1}^{5} \\sigma_{i} \\) is \\( \\_\\_\\_\\_\\_\\_\\_\\_\\_ \\)</div><br><br><b>GATE DS&AI 2024 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "55",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422911/gate-ds&ai-2024-question-51\" target=\"_blank\">https://gateoverflow.in/422911/gate-ds&ai-2024-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+}

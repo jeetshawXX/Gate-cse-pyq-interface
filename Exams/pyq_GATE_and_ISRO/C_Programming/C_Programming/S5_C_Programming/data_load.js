@@ -1,0 +1,211 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the output of the C++ program?<br><pre><code> #include &lt; iostream &gt;\nusing namespace std;\n\nvoid square(int *x){\n    *x = (*x)++ * (*x);\n}\n\nvoid square(int *x, int *y){\n    *x = (*x) * --(*y);\n}\n\nint main()\n{\n  int number = 30;\n  square(&amp;number, &amp;number);\n  cout &lt; &lt; number;\n  return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>910</p>",
+            "<b>B.</b> <p>920</p>",
+            "<b>C.</b> <p>870</p>",
+            "<b>D.</b> <p>900</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>870</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128615/isro2017-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following C Program.<pre><code> #include &lt; stdio.h &gt;\n#include &lt; string.h &gt;\n#int main ( ) {\nchar* c = \"GATECSIT2017\";\nchar* p = c;\nprintf(\"%d\", (int) strlen (c+2[p]-6[p]-1));\nreturn 0;\n}\n</code></pre>The output of the program is _______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118335/gate2017-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\nint main ( ) {\n    int m = 10;\n    int n, n1;\n    n = ++m;\n    n1 = m++;\n    n--;\n    --n1;\n    n-=n1;\nprintf (\"%d\", n) ;\nreturn 0;\n}</code></pre>\nThe output of the program is ______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118272/gate2017-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following snippet of a C program. Assume that swap (&amp;x, &amp;y) exchanges the\ncontents of x and y.<pre><code>\nint main ( ) {\nint array[]={3,5,1,4,6,2};\nint done =0 ;\nint i ;\nwhile (done = = 0) {\n   done = 1;\n   for (i = 0; i &lt;=4; i ++) {\n   if (array [i] &lt; array [i +1]) {\n       swap (&amp; array [i], &amp;array [i+1]);\n       done = 0;\n    }\n}\nfor (i = 5 ; i &gt; =1; i --) {\nif (array [i] &gt; array [ i-1]) {\n    swap ( &amp; array [i] , &amp;array [i-1]);\n     done = 0;\n  }\n} }\nprintf ( \" %d \" , array [3] );\n}</code></pre>\nThe output of the program is ____________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118388/gate2017-2-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the C program fragment below which is meant to divide x by y using repeated\nsubtractions. The variables x, y, q and r are all unsigned int.<pre><code>while (r &gt;= y) {\nr = r - y;\nq = q +1;\n}</code></pre>\nWhich of the following conditions on the variables x, y, q and r before the execution of the\nfragment will ensure that the loop terminates in a state satisfying the condition x==(y*q+r)? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(q==r) &amp;&amp; (r==0)</p>",
+            "<b>B.</b> <p>(x \\(\\gt\\) 0) &amp;&amp; (r==x) &amp;&amp; (y \\(\\gt\\) 0)</p>",
+            "<b>C.</b> <p>(q==0) &amp;&amp; (r==x) &amp;&amp; (y \\(\\gt\\) 0)</p>",
+            "<b>D.</b> <p>(q==0) &amp;&amp; (y \\(\\gt\\) 0)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(q==0) &amp;&amp; (r==x) &amp;&amp; (y \\(\\gt\\) 0)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118381/gate2017-2-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following function implemented in C:<pre><code>void printxy (int x, int y) {\nint *ptr ;\nx = 0;\nptr = &amp;x;\ny = * ptr;\n* ptr = l;\nprint f (\"%d, %d,\" x, y);\n}</code></pre>\nThe output of invoking printxy (1,1) is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0,0</p>",
+            "<b>B.</b> <p>0,1</p>",
+            "<b>C.</b> <p>1,0</p>",
+            "<b>D.</b> <p>1,1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118245/gate2017-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Match the following:  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\C_Programming\\q3_42abd6c6.jpg\"> <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-(ii), Q-(iv), R-(i), S-(iii)</p>",
+            "<b>B.</b> <p>P-(ii), Q-(i), R-(iv), S-(iii)</p>",
+            "<b>C.</b> <p>P-(ii), Q-(iv), R-(iii), S-(i)</p>",
+            "<b>D.</b> <p>P-(iii), Q-(iv), R-(i), S-(ii)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P-(ii), Q-(iv), R-(i), S-(iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118171/gate2017-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The output of executing the following C program is ________.<pre><code> # include <stdio.h>\nint total (int v) {\nwhile (v) {\n    static int count + = v &amp; 1;\n    v&gt;&gt; = 1;\n }\n    return count;\n }\nvoid main ( ) {\nstatic int x = 0;\nint i = 5;\nfor (; i&gt; 0; i--) {\nx=x + total (i) ; \n}\nprintf (\"%d\\n\", x) ; } </stdio.h></code></pre> <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "23",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118442/gate2017-1-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\n#include &lt; string.h &gt;\nvoid printlength (char *s, char *t) {\n unsigned int c = 0;\n int len = ((strlen(s) - strlen (t)) &gt; c) ? strlen(s): strlen(t);\n printf (\"%d\\n\", len);\n}\nvoid main ( ) {\n char *x = \"abc\";\n char *y =\"defgh\"; \n printlength (x,y); </code></pre>\nRecall that strlen is defined in string.h as returning a value of type size_t, which is an\nunsigned int. The output of the program is _____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118473/gate2017-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the C functions foo and bar given below:<pre><code>int foo (int val ) {\n    int x = 0;\n    while (val &gt; 0) {\n    x = x + foo(val--);\n}\n   return val ;\n}\nint bar (int val ) {\nint x = 0;\nwhile (val &gt; 0) {\n    x = x + bar(val-1);}\n    return val ;\n}</code></pre>\nInvocations of foo(3) and bar(3) will result in: <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Return of 6 and 6 respectively.</p>",
+            "<b>B.</b> <p>Infinite loop and abnormal termination respectively.</p>",
+            "<b>C.</b> <p>Abnormal termination and infinite loop respectively.</p>",
+            "<b>D.</b> <p>Both terminating abnormally</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Abnormal termination and infinite loop respectively.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118319/gate2017-1-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following two functions.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\C_Programming\\q52_7b87d5d2.jpg\">\nThe output printed when fun1(5) is called is <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(53423122233445\\)</p>",
+            "<b>B.</b> <p>\\(53423120112233\\)</p>",
+            "<b>C.</b> <p>\\(53423122132435\\)</p>",
+            "<b>D.</b> <p>\\(53423120213243\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(53423122233445\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118317/gate2017-1-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following C code:<pre><code># include lt stdio.h &gt;\nint * assignval (int *x, int val) {\n      *x = val;\n      return x;\n}\nvoid main ( ) {\n    int * x= malloc (sizeof (int));\n    if (NULL = = x) return;\n    x = assignval (x,0);\n    if(x) { \n    x=(int *) malloc (sizeof (int));\n    if (NULL = = x) return;\n    x = assignval (x, 10);\n}\nprintf(\"%d\\n\", *x);\nfree (x);\n}</code></pre>\nThe code suffers from which one of the following problems: <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>compiler error as the return of malloc is not typecast appropriately.</p>",
+            "<b>B.</b> <p>compiler error because the comparison should be made as x==NULL and not as shown.</p>",
+            "<b>C.</b> <p>compiles successfully but execution may result in dangling pointer.</p>",
+            "<b>D.</b> <p>compiles successfully but execution may result in memory leak.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>compiles successfully but execution may result in memory leak.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118293/gate2017-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which one of the following is correct about the statements given below?<br>I.  All function calls are resolved at compile time in C lang<br>\nII. All function calls are resolved at compile time in C++ lang <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only II is correct</p>",
+            "<b>B.</b> <p>Both I and II are correct</p>",
+            "<b>C.</b> <p>Only I is correct</p>",
+            "<b>D.</b> <p>Both I and II are incorrect</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both I and II are incorrect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55534/isro2016-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following segment of C-code:<br><pre><code>int j, n;\nj = 1;\nwhile (j &lt;= n)\n    j = j * 2;</code></pre>The number of comparisons made in the execution of the loop for any n&gt;0 is: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\lceil \\log_2n \\rceil +1\\)</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>\\(\\lceil \\log_2n \\rceil\\)</p>",
+            "<b>D.</b> <p>\\(\\lfloor \\log_2n \\rfloor +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\lfloor \\log_2n \\rfloor +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56129/gate2007-15-isro2016-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What will be output of the following program? Assume that you are running this program in little-endian processor.<br><pre><code> #include &lt; stdio.h &gt;\nint main()\n{\n    short a=320;\n    char *ptr;\n    ptr=(char *)&amp;a;\n    printf(\"%d\",*ptr);\n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>320</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55481/isro2016-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

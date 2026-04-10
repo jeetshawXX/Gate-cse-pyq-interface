@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - LAN Technologies",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "LAN Technologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"66898\"></a><div itemprop=\"text\"><p>The baud rate is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Always equal to the bit transfer rate</p>",
+            "<p>Equal to twice the bandwidth of an ideal channel</p>",
+            "<p>Not equal to the signalling rate</p>",
+            "<p>Equal to half of the bandwidth of an ideal channel</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66898/ugc-net-cse-december-2010-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/66898/ugc-net-cse-december-2010-part-2-question-27</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"113805\"></a><div itemprop=\"text\"><p>Suppose there are N stations in a slotted LAN. Each station attempts to transmit with a probability P in each time slot. The probability that only one station transmits in a given slot is____</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | January 2017 | Part 3 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( nP(1-P)^{n-1} \\)</p>",
+            "<p>\\( nP \\)</p>",
+            "<p>\\( P(1-P)^{n-1} \\)</p>",
+            "<p>\\( n^P (1-P)^{n-1} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( nP(1-P)^{n-1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/113805/ugc-net-cse-january-2017-part-3-question-25\" target=\"_blank\">https://gateoverflow.in/113805/ugc-net-cse-january-2017-part-3-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

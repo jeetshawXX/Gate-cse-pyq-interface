@@ -1,0 +1,236 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 24",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(R_1\\) and \\(R_1\\) be two equivalence relations on a set. Consider the following assertions:<br>\nI.  \\(R_1 \\cup R_2\\) is an equivalence relation<br>\nII. \\(R_1 \\cap R_2\\) is an equivalence relation<br>\nWhich of the following is correct? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both assertions are true</p>",
+            "<b>B.</b> <p>Assertions (i) is true but assertions (ii) is not true</p>",
+            "<b>C.</b> <p>Assertions (ii) is true but assertions (i) is not true</p>",
+            "<b>D.</b> <p>Neither (i) nor (ii) is true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Assertions (ii) is true but assertions (i) is not true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1644/gate1998-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose A is a finite set with n elements. The number of elements in the largest equivalence relation of A is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>\\(n^2\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>n+1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(n^2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1643/gate1998-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the converse of the following assertion?<br>\nI stay only if you go <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I stay if you go</p>",
+            "<b>B.</b> <p>If I stay then you go</p>",
+            "<b>C.</b> <p>If you do not go then I do not stay</p>",
+            "<b>D.</b> <p>If I do not stay then you go</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I stay if you go</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1642/gate1998-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the function y=|x| in the interval [-1, 1]. In this interval, the function is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>continuous and differentiable</p>",
+            "<b>B.</b> <p>continuous but not differentiable</p>",
+            "<b>C.</b> <p>differentiable but not continuous</p>",
+            "<b>D.</b> <p>neither continuous nor differentiable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>continuous but not differentiable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1641/gate1998-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A die is rolled three times. The probability that exactly one odd number turns up among the three outcomes is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{1}{6}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{3}{8}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{1}{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\dfrac{3}{8}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1638/gate1998-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The number of equivalence relations of the set {1,2,3,4} is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>16</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2259/gate1997-6-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let G be the graph with 100 vertices numbered 1 to 100.  Two vertices i and j are adjacent  if \\(\\vert i-j \\vert =8\\) or \\(\\vert i-j \\vert=12\\). The number of connected components in G is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>25</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2258/gate1997-6-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A partial order \\(\\leq\\) is defined on the set \\(S=\\left \\{ x, a_1, a_2, \\ldots, a_n, y \\right \\} \\text{ as }x \\leq _{i} a_{i}\\) for all \\(i\\) and \\(a_{i}\\leq y\\) for all i, where \\(n \\geq 1\\). The number of total orders on the set S which contain the partial order \\(\\leq\\) is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n!</p>",
+            "<b>B.</b> <p>n+2</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n!</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2257/gate1997-6-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given \\(\\Sigma=\\{a,b\\}\\), which one of the following sets is not countable? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Set of all strings over \\(\\Sigma\\)</p>",
+            "<b>B.</b> <p>Set of all languages over \\(\\Sigma\\)</p>",
+            "<b>C.</b> <p>Set of all regular languages over \\(\\Sigma\\)</p>",
+            "<b>D.</b> <p>Set of all languages over \\(\\Sigma\\) accepted by Turing machines</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Set of all languages over \\(\\Sigma\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2235/gate1997-3-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In the lattice defined by the Hasse diagram given in following figure, how many complements does the element 'e' have?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"../wp-content/uploads/GATE/CS/19971/q3.3.jpg\"><br> <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2234/gate1997-3-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following propositions is a tautology? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((p \\vee q) \\rightarrow p\\)</p>",
+            "<b>B.</b> <p>\\(p \\vee (q \\rightarrow p)\\)</p>",
+            "<b>C.</b> <p>\\(p \\vee (p \\rightarrow q)\\)</p>",
+            "<b>D.</b> <p>\\(p \\rightarrow (p \\rightarrow q)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(p \\vee (p \\rightarrow q)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2233/gate1997-3-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let \\(\\left(Z, *\\right)\\) be an algebraic structure where Z is the set of integers and the operation * is defined by \\(n*m = \\max(n,m)\\). Which of the following statements is true for \\(\\left(Z, *\\right)\\)? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(Z, *\\right)\\) is a monoid</p>",
+            "<b>B.</b> <p>\\(\\left(Z, *\\right)\\) is an Abelian group</p>",
+            "<b>C.</b> <p>\\(\\left(Z, *\\right)\\) is a group</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2232/gate1997-3-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The probability that it will rain today is 0.5. The probability that it will rain tomorrow is 0.6. The probability that it will rain either today or tomorrow is 0.7. What is the probability that it will rain today and tomorrow? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.3</p>",
+            "<b>B.</b> <p>0.25</p>",
+            "<b>C.</b> <p>0.35</p>",
+            "<b>D.</b> <p>0.4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0.4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2217/gate1997-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The probability that top and bottom cards of a randomly shuffled deck are both aces is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{4}{52} \\times \\frac{4}{52}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{4}{52} \\times \\frac{3}{52}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{4}{52} \\times \\frac{3}{51}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{4}{52} \\times \\frac{4}{51}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{4}{52} \\times \\frac{3}{51}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2736/gate1996-2-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following is false? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The set of all bijective functions on a finite set forms a group under function composition.</p>",
+            "<b>B.</b> <p>The set \\(\\{1, 2, \\dots p-1\\}\\) forms a group under multiplication mod p, where p is a prime number.</p>",
+            "<b>C.</b> <p>The set of all strings over a finite alphabet forms a group under concatenation.</p>",
+            "<b>D.</b> <p>A subset \\(S \\neq \\emptyset\\) of G is a subgroup of the group \\(\\langle G, * \\rangle\\)  if and only if for any pair of elements \\(a, b \\in S, a * b^{-1} \\in S\\).</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The set of all strings over a finite alphabet forms a group under concatenation.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2733/gate1996-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "General Aptitude - Spatial Aptitude - Assembling Pieces",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Assembling Pieces",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411704\"></a><div itemprop=\"text\"><p>Which one of the following sets of pieces can be assembled to form a square with a single round hole near the center? Pieces cannot overlap.</p>\n\n</div><br><br><b>GATE CH 2022 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/35652ed680ca133205250b50cdf4cc88.png\" width=\"400\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/01bcddc119319bc200e3c35589e1505b.png\" width=\"400\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/e2fe492958c765c0a9a71d500d7f405e.png\" width=\"400\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/6e42e9a77d2d56665d7d9771f64fd9c1.png\" width=\"400\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/e2fe492958c765c0a9a71d500d7f405e.png\" width=\"400\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411704/gate-ch-2022-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411704/gate-ch-2022-ga-question-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"357543\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"293\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/678d80e724c49b0c83192be8ec48763a.png\" width=\"184\"></p>\n\n<p>A jigsaw puzzle has \\( 2 \\) pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble&nbsp;with the above piece.</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"202\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/4d5207d51b113fe70fe2cfda8f919d53.png\" width=\"268\"></p>",
+            "<p><img alt=\"\" height=\"210\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/4b1771b89ff47fa745349db359499c19.png\" width=\"279\"></p>",
+            "<p><img alt=\"\" height=\"203\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/5097abd054578edeef51e059e53719ef.png\" width=\"270\"></p>",
+            "<p><img alt=\"\" height=\"202\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/d67d1fa709d6b79960ea71bd70961508.png\" width=\"267\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"202\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/4d5207d51b113fe70fe2cfda8f919d53.png\" width=\"268\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7\" target=\"_blank\">https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359476\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"179\" width=\"111\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/5f9ec93bdf882a3724a002c80e9c145b.png\"></p><p>A jigsaw puzzle has \\( 2 \\) pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble with the above piece.​​​​​​</p></div><br><br><b>GATE Mechanical 2021 Set 1 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"130\" width=\"179\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/60d55f82366cab87358bf3c753548f51.png\"></p>",
+            "<p><img alt=\"\" height=\"126\" width=\"181\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/c9bac6b717792b0ba424236be5ede2d6.png\"></p>",
+            "<p><img alt=\"\" height=\"127\" width=\"182\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/840ae98cb58645269544b01e11c6eac8.png\"></p>",
+            "<p><img alt=\"\" height=\"134\" width=\"184\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/2b028df1bfe847db891afddea63e49f4.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"130\" width=\"179\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/60d55f82366cab87358bf3c753548f51.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359476/gate-mechanical-2021-set-1-ga-question-7\" target=\"_blank\">https://gateoverflow.in/359476/gate-mechanical-2021-set-1-ga-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411797\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/c42229563ef7e1534f0eb41e9e6eead3.png\"></p><p>Which one of the groups given below can be assembled to get the shape that is shown above using each piece only once without overlapping with each other? (rotation and translation operations may be used).</p></div><br><br><b>GATE Mechanical 2022 Set 2 | GA Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p><img alt=\"\" width=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/e0cd288116af912947041dfdbc10ae60.png\"></p>",
+            "<p><img alt=\"\" width=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/a2c5de3fe97b05dc9854b2e91e651ac0.png\"></p>",
+            "<p><img alt=\"\" width=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/5f00466309785fb55851b704e2e56b65.png\"></p>",
+            "<p><img alt=\"\" width=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___assembling_pieces/3f6197cd950d1e6d7e8595ca76166015.png\"></p>"
+          ],
+          "correct_answer": "B,C",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411797/gate-mechanical-2022-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/411797/gate-mechanical-2022-set-2-ga-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

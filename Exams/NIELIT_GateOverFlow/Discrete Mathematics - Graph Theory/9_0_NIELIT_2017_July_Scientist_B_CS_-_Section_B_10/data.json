@@ -1,0 +1,161 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - NIELIT 2017 July Scientist B CS - Section B",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "NIELIT 2017 July Scientist B CS - Section B",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336362\"></a><div itemprop=\"text\"><p>For the graph shown, which of the following paths is a Hamilton circuit?</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7897387299055338585\" width=\"480\"></p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ABCDCFDEFAEA \\)</p>",
+            "<p>\\( AEDCBAF \\)</p>",
+            "<p>\\( AEFDCBA \\)</p>",
+            "<p>\\( AFCDEBA \\)</p>"
+          ],
+          "correct_answer": "<p>\\( AEFDCBA \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336362/nielit-2017-july-scientist-b-cs-section-b-13\" target=\"_blank\">https://gateoverflow.in/336362/nielit-2017-july-scientist-b-cs-section-b-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336420\"></a><div itemprop=\"text\"><p>The number of diagonals that can be drawn by joining the vertices of an octagon is</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>None of the option</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336420/nielit-2017-july-scientist-b-it-section-b-15\" target=\"_blank\">https://gateoverflow.in/336420/nielit-2017-july-scientist-b-it-section-b-15</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336432\"></a><div itemprop=\"text\"><p>A path in graph \\( G \\), which contains every vertex of \\( G \\) and only once?</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Euler circuit</p>",
+            "<p>Hamiltonian path</p>",
+            "<p>Euler Path</p>",
+            "<p>Hamiltonian Circuit</p>"
+          ],
+          "correct_answer": "<p>Hamiltonian path</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336432/nielit-2017-july-scientist-b-it-section-b-3\" target=\"_blank\">https://gateoverflow.in/336432/nielit-2017-july-scientist-b-it-section-b-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336433\"></a><div itemprop=\"text\"><p>Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph?</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In adjacency list representation, space is saved for sparse graphs.</p>",
+            "<p>Deleting a vertex in adjacency list representation is easier than adjacency matrix representation.</p>",
+            "<p>Adding a vertex in adjacency list representation is easier than adjacency matrix representation.</p>",
+            "<p>All of the option.</p>"
+          ],
+          "correct_answer": "<p>All of the option.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336433/nielit-2017-july-scientist-b-it-section-b-2\" target=\"_blank\">https://gateoverflow.in/336433/nielit-2017-july-scientist-b-it-section-b-2</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336685\"></a><div itemprop=\"text\"><p>The number of ways to cut a six sided convex polygon whose vertices are labeled into four triangles using diagonal lines that do not cross is</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 11 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336685/nielit-2016-mar-scientist-b-section-b-1\" target=\"_blank\">https://gateoverflow.in/336685/nielit-2016-mar-scientist-b-section-b-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336826\"></a><div itemprop=\"text\"><p>Total number of simple graphs that can be drawn using six vertices are:</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{15} \\)</p>",
+            "<p>\\( 2^{14} \\)</p>",
+            "<p>\\( 2^{13} \\)</p>",
+            "<p>\\( 2^{12} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{15} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336826/nielit-2017-dec-scientific-assistant-a-section-b-20\" target=\"_blank\">https://gateoverflow.in/336826/nielit-2017-dec-scientific-assistant-a-section-b-20</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"337180\"></a><div itemprop=\"text\"><p>Degree of each vertex in&nbsp;\\( K_n \\) is&nbsp;</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\)</p>",
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( n-2 \\)</p>",
+            "<p>\\( 2n-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337180/nielit-2016-mar-scientist-c-section-b-20\" target=\"_blank\">https://gateoverflow.in/337180/nielit-2016-mar-scientist-c-section-b-20</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"369353\"></a><div itemprop=\"text\"><p>If \\( \\text{R} \\) and \\( \\text{D} \\) are the radius and diameter of the graph \\( \\text{K}_{4,7} \\), then the ordered pair \\( \\text{(R, D)} \\) is equal to :</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (2,2) \\)</p>",
+            "<p>\\( (1,2) \\)</p>",
+            "<p>\\( (2,4) \\)</p>",
+            "<p>\\( (1,3) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (2,2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369353/nielit-2021-dec-scientist-a-section-b-60\" target=\"_blank\">https://gateoverflow.in/369353/nielit-2021-dec-scientist-a-section-b-60</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"369360\"></a><div itemprop=\"text\"><p>The largest number of faces in a simple connected maximal planar graph with \\( 100 \\) vertices is :</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 198 \\)</p>",
+            "<p>\\( 196 \\)</p>",
+            "<p>\\( 96 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 196 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369360/nielit-2021-dec-scientist-a-section-b-53\" target=\"_blank\">https://gateoverflow.in/369360/nielit-2021-dec-scientist-a-section-b-53</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"373734\"></a><div itemprop=\"text\"><p>A connected planar graph having \\( 6 \\) vertices, \\( 7 \\) edges contains ___________ regions.</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2022 April Scientist B | Section B | Question: 104</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373734/nielit-2022-april-scientist-b-section-b-question-104\" target=\"_blank\">https://gateoverflow.in/373734/nielit-2022-april-scientist-b-section-b-question-104</a></p>"
+        }
+      ]
+    }
+  ]
+}

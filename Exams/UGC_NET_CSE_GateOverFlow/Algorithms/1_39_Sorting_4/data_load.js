@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Sorting",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60570\"></a><div itemprop=\"text\"><p>Assuming there are n keys and each key is in the range [0, m-1]. The run time of bucket sort is</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2013 | Part 3 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>O(n)</p>",
+            "<p>O(n lgn)</p>",
+            "<p>O(n lgm)</p>",
+            "<p>O(n+m)</p>"
+          ],
+          "correct_answer": "<p>O(n+m)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60570/ugc-net-cse-december-2013-part-3-question-38\" target=\"_blank\">https://gateoverflow.in/60570/ugc-net-cse-december-2013-part-3-question-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59405\"></a><div itemprop=\"text\"><p>You have to sort a list \\( L \\), consisting of a sorted list followed by a few ‘random’ elements. Which of the following sorting method would be most suitable for such a task ?</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2014 | Part 2 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bubble sort</p>",
+            "<p>Selection sort</p>",
+            "<p>Quick sort</p>",
+            "<p>Insertion sort&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Insertion sort&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59405/ugc-net-cse-december-2014-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/59405/ugc-net-cse-december-2014-part-2-question-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"62470\"></a><div itemprop=\"text\"><p>If there are n integers to sort, each integer had d digits and each digit is in the set \\( \\{1, 2, \\dots, k\\} \\), radix sort can sort the numbers in</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2015 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(d \\: n \\: k) \\)</p>",
+            "<p>\\( O(d n^k) \\)</p>",
+            "<p>\\( O(d+n)k) \\)</p>",
+            "<p>\\( O(d(n+k)) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(d(n+k)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62470/ugc-net-cse-december-2015-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/62470/ugc-net-cse-december-2015-part-3-question-18</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"316215\"></a><div itemprop=\"text\"><p>Which of the following is best running time to sort \\( n \\) integers in the range \\( 0 \\) to \\( n^2-1 \\)?</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | June 2019 | Part 2 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\text{lg } n) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n\\text { lg }n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316215/ugc-net-cse-june-2019-part-2-question-64\" target=\"_blank\">https://gateoverflow.in/316215/ugc-net-cse-june-2019-part-2-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+});

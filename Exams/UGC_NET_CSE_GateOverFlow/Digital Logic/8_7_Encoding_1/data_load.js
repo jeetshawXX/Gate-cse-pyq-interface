@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Encoding",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Encoding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"54599\"></a><div itemprop=\"text\"><p>A text is made up of the characters \\( \\alpha, \\beta, \\gamma, \\delta \\)&nbsp;and \\( \\sigma \\) with the probability \\( 0.12, 0.40, 0.15, 0.08 \\) and \\( 0.25 \\) respectively. The optimal coding technique will have the average length of&nbsp;</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2014 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1.7 \\)</p>",
+            "<p>\\( 2.15 \\)&nbsp;</p>",
+            "<p>\\( 3.4 \\)</p>",
+            "<p>\\( 3.8 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 2.15 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54599/ugc-net-cse-june-2014-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/54599/ugc-net-cse-june-2014-part-2-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Number System",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Number System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335502\"></a><div itemprop=\"text\"><p>Which of the following is divisible by \\( 4 \\)?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | December 2005 | Part 2 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100101100 \\)</p>",
+            "<p>\\( 1110001110001 \\)</p>",
+            "<p>\\( 11110011 \\)</p>",
+            "<p>\\( 10101010101010 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335502/ugc-net-cse-december-2005-part-2-question-6\" target=\"_blank\">https://gateoverflow.in/335502/ugc-net-cse-december-2005-part-2-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335665\"></a><div itemprop=\"text\"><p>The hexadecimal equivalent of \\( (10111)_2\\times(1110)_2 \\) is :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | December 2006 | Part 2 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 150 \\)</p>",
+            "<p>\\( 241 \\)</p>",
+            "<p>\\( 142 \\)</p>",
+            "<p>\\( 101011110 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335665/ugc-net-cse-december-2006-part-2-question-6\" target=\"_blank\">https://gateoverflow.in/335665/ugc-net-cse-december-2006-part-2-question-6</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"60220\"></a><div itemprop=\"text\"><p>Given that \\( (292)_{10} = (1204)_x \\) in some number system \\( x \\). The base \\( x \\) of that number system is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | December 2013 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2</p>",
+            "<p>8</p>",
+            "<p>10</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60220/ugc-net-cse-december-2013-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/60220/ugc-net-cse-december-2013-part-2-question-32</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335153\"></a><div itemprop=\"text\"><p>The hexadecimal equivalent of the octal number \\( 2357 \\) is :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | January 2017 | Part 2 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2EE \\)</p>",
+            "<p>\\( 2FF \\)</p>",
+            "<p>\\( 4EF \\)</p>",
+            "<p>\\( 4FE \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4EF \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335153/ugc-net-cse-january-2017-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/335153/ugc-net-cse-january-2017-part-2-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"335148\"></a><div itemprop=\"text\"><p>If \\( X \\) is a binary number which is power of \\( 2 \\), then the value of \\( X&nbsp;\\&amp; (X-1) \\) is :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | January 2017 | Part 2 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11\\dots11 \\)</p>",
+            "<p>\\( 00\\dots00 \\)</p>",
+            "<p>\\( 100\\dots0 \\)</p>",
+            "<p>\\( 000\\dots1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 00\\dots00 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335148/ugc-net-cse-january-2017-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/335148/ugc-net-cse-january-2017-part-2-question-15</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"335154\"></a><div itemprop=\"text\"><p>Convert the octal number \\( 0.4051 \\) into its equivalent decimal number.</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | January 2017 | Part 2 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.5100098 \\)</p>",
+            "<p>\\( 0.2096 \\)</p>",
+            "<p>\\( 0.52 \\)</p>",
+            "<p>\\( 0.4192 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5100098 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335154/ugc-net-cse-january-2017-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/335154/ugc-net-cse-january-2017-part-2-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"154272\"></a><div itemprop=\"text\"><p>The octal equivalent of hexadecimal \\( \\text{(A.B)}_{16} \\) is :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2009 | Part 2 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 47.21 \\)</p>",
+            "<p>\\( 12.74 \\)</p>",
+            "<p>\\( 12.71 \\)&nbsp;</p>",
+            "<p>\\( 17.21 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154272/ugc-net-cse-june-2009-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/154272/ugc-net-cse-june-2009-part-2-question-13</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"316261\"></a><div itemprop=\"text\"><p>Consider the equation \\( (146)_b +(313)_{b-2} = (246)_8 \\). Which of the following is the value of \\( b \\)?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2019 | Part 2 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316261/ugc-net-cse-june-2019-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/316261/ugc-net-cse-june-2019-part-2-question-18</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"61142\"></a><div itemprop=\"text\"><p>The equivalent hexadecimal notation for octal number 2550276 is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | Junet 2015 | Part 3 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>FADED</p>",
+            "<p>AEOBE</p>",
+            "<p>ADOBE</p>",
+            "<p>ACABE</p>"
+          ],
+          "correct_answer": "<p>ADOBE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61142/ugc-net-cse-junet-2015-part-3-question-4\" target=\"_blank\">https://gateoverflow.in/61142/ugc-net-cse-junet-2015-part-3-question-4</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"166241\"></a><div itemprop=\"text\"><p>The octal equivalent of the binary number \\( 1011101011 \\) is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | November 2017 | Part 2 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7353 \\)</p>",
+            "<p>\\( 1353 \\)</p>",
+            "<p>\\( 5651 \\)</p>",
+            "<p>\\( 5657 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1353 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166241/ugc-net-cse-november-2017-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/166241/ugc-net-cse-november-2017-part-2-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

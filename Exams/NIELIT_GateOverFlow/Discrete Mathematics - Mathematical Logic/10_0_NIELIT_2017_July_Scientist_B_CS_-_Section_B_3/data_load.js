@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Mathematical Logic - NIELIT 2017 July Scientist B CS - Section B",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "NIELIT 2017 July Scientist B CS - Section B",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336359\"></a><div itemprop=\"text\"><p>Which of the following propositions is tautology?</p>\n\n</div><br><br><b>Mathematical Logic: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (p\\lor q)\\to q \\)</p>",
+            "<p>\\( p\\lor (q\\to p) \\)</p>",
+            "<p>\\( p\\lor (p\\to q) \\)</p>",
+            "<p>Both (B) and (C)</p>"
+          ],
+          "correct_answer": "<p>\\( p\\lor (p\\to q) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336359/nielit-2017-july-scientist-b-cs-section-b-16\" target=\"_blank\">https://gateoverflow.in/336359/nielit-2017-july-scientist-b-cs-section-b-16</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337200\"></a><div itemprop=\"text\"><p>In propositional logic, which of the following is equivalent to \\( p \\rightarrow q \\)?</p>\n\n</div><br><br><b>Mathematical Logic: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sim p\\rightarrow q \\)</p>",
+            "<p>\\(  \\sim p \\vee &nbsp;q \\)</p>",
+            "<p>\\(  \\sim p&nbsp; \\vee&nbsp;\\sim &nbsp;q \\)</p>",
+            "<p>\\( p\\rightarrow \\sim q \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  \\sim p \\vee &nbsp;q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337200/nielit-2016-mar-scientist-c-section-c-65\" target=\"_blank\">https://gateoverflow.in/337200/nielit-2016-mar-scientist-c-section-c-65</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337240\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Which of the following is FALSE?</p>\n\n<p>\\( Read\\ \\wedge as\\ AND, \\vee\\ as\\ OR, \\sim as\\ NOT, \\rightarrow \\) as one way implication and&nbsp;\\( \\leftrightarrow \\) as two way implication?</p>\n\n</div><br><br><b>Mathematical Logic: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ((x\\rightarrow y)\\wedge x)\\rightarrow y \\)&nbsp;</p>",
+            "<p>\\( ((\\sim x\\rightarrow y)\\wedge (\\sim x\\wedge \\sim y))\\rightarrow x \\)</p>",
+            "<p>\\( (x\\rightarrow (x\\vee y)) \\)</p>",
+            "<p>\\( ((x\\vee y)\\leftrightarrow (\\sim x\\vee \\sim y)) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ((x\\vee y)\\leftrightarrow (\\sim x\\vee \\sim y)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337240/nielit-2016-mar-scientist-c-section-c-25\" target=\"_blank\">https://gateoverflow.in/337240/nielit-2016-mar-scientist-c-section-c-25</a></p>"
+        }
+      ]
+    }
+  ]
+});

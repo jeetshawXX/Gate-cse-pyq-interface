@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Assembly",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Assembly",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378713\"></a><div itemprop=\"text\"><p>Assembly language ______________.</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>uses mnemonics or alphabetic codes in place of binary numbers used in machine language</p>",
+            "<p>is the easiest language to write programs</p>",
+            "<p>need not be translated into machine language</p>",
+            "<p>is high level language.</p>"
+          ],
+          "correct_answer": "<p>uses mnemonics or alphabetic codes in place of binary numbers used in machine language</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378713/nielit-2021-dec-scientist-b-section-b-50\" target=\"_blank\">https://gateoverflow.in/378713/nielit-2021-dec-scientist-b-section-b-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

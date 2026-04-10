@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - General",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "General",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411960\"></a><div itemprop=\"text\"><p>Which of the following is a characteristic of qualitative research?</p></div><br><br><b>Others: NIELIT 2023 Feb Scientist C | Section C | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Design flexibility</p>",
+            "<p>Inductive analysis</p>",
+            "<p>Context sensitivity</p>",
+            "<p>All of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>All of the above<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411960/nielit-2023-feb-scientist-c-section-c-question-75\" target=\"_blank\">https://gateoverflow.in/411960/nielit-2023-feb-scientist-c-section-c-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+}

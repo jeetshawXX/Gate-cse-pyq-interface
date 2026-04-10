@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Discrete Mathematics - Set Theory",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Set Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69376\"></a><div itemprop=\"text\"><p>Let \\( A \\) and \\( B \\) be sets in a finite universal set \\( U \\). Given the following : \\( |A -&nbsp;B|, |A \\bigoplus&nbsp;&nbsp;B|, |A| + |B| \\) and \\( |A \\cup&nbsp;B| \\) Which of the following is in order of increasing size ?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | August 2016 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( |A -&nbsp;B| &lt; |A \\bigoplus&nbsp;&nbsp;B| &lt; |A| + |B| &lt; |A \\cup&nbsp;B| \\)&nbsp;</p>",
+            "<p>\\( |A \\bigoplus&nbsp;B| &lt; |A -&nbsp;B| &lt; |A \\cup&nbsp;B| &lt; |A| + |B| \\)</p>",
+            "<p>\\( |A \\bigoplus&nbsp;B| &lt; |A| + |B| &lt; |A -&nbsp;B| &lt; |A \\cup&nbsp;B| \\)&nbsp;</p>",
+            "<p>\\( |A -&nbsp;B| &lt; |A \\bigoplus&nbsp;B| &lt; |A \\cup&nbsp;B| &lt; |A| + |B| \\)</p>"
+          ],
+          "correct_answer": "<p>\\( |A -&nbsp;B| &lt; |A \\bigoplus&nbsp;B| &lt; |A \\cup&nbsp;B| &lt; |A| + |B| \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69376/ugc-net-cse-august-2016-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/69376/ugc-net-cse-august-2016-part-2-question-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"57465\"></a><div itemprop=\"text\"><p>The power set of AUB, where A={2, 3, 5, 7} and B={2, 5, 8, 9}is</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | December 2012 | Part 3 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>256</p>",
+            "<p>64</p>",
+            "<p>16</p>",
+            "<p>4</p>"
+          ],
+          "correct_answer": "<p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57465/ugc-net-cse-december-2012-part-3-question-34\" target=\"_blank\">https://gateoverflow.in/57465/ugc-net-cse-december-2012-part-3-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

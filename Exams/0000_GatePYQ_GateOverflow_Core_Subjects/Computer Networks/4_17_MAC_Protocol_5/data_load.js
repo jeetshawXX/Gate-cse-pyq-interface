@@ -1,0 +1,76 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - MAC Protocol",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "MAC Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1397\"></a><div itemprop=\"text\"><p>Suppose the round trip propagation delay for a \\( 10\\text{ Mbps} \\) Ethernet having \\( 48\\text{-bit} \\) jamming signal is \\( 46.4\\ \\mu s \\). The minimum frame size is:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 94 \\)</p>",
+            "<p>\\( 416 \\)</p>",
+            "<p>\\( 464 \\)</p>",
+            "<p>\\( 512 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 512 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1397/gate-cse-2005-question-74\" target=\"_blank\">https://gateoverflow.in/1397/gate-cse-2005-question-74</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8056\"></a><div itemprop=\"text\">A link has transmission speed of \\( 10^6 \\) bits/sec. It uses data packets of size \\( 1000 \\) \\( \\text{bytes} \\) each. Assume that the acknowledgment has negligible transmission delay and that its propagation delay is the same as the data propagation delay. Also, assume that the processing delays at nodes are negligible. The efficiency of the stop-and-wait protocol in this setup is exactly $25$$\\text{%}$. The value of the one way propagation delay (in milliseconds) is_____.</div><br><br><b>GATE CSE 2015 Set 2 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8056/gate-cse-2015-set-2-question-8\" target=\"_blank\">https://gateoverflow.in/8056/gate-cse-2015-set-2-question-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"357483\"></a><div itemprop=\"text\">Consider a network using the pure \\( \\text{ALOHA} \\) medium access control protocol, where each frame is of length \\( 1,000 \\) bits. The channel transmission rate is \\( 1 \\) Mbps (\\( =10^6 \\) bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of \\( 1,000 \\) frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________</div><br><br><b>GATE CSE 2021 Set 2 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "130:140",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54\" target=\"_blank\">https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3729\"></a><div itemprop=\"text\"><p>Consider a simplified time slotted MAC protocol, where each host always has data to send and transmits with probability \\( p \\) = \\( 0.2 \\) in every slot. There is no backoff and one frame can be transmitted in one slot. If more than one host transmits in the same slot, then the transmissions are unsuccessful due to collision. What is the maximum number of hosts which this protocol can support if each host has to be provided a minimum throughput of \\( 0.16 \\) frames per time slot?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3729/gate-it-2004-question-85\" target=\"_blank\">https://gateoverflow.in/3729/gate-it-2004-question-85</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3838\"></a><div itemprop=\"text\"><div style=\"text-align: justify;\">In a TDM medium access control bus LAN, each station is assigned one time slot per cycle for transmission. Assume that the length of each time slot is the time to transmit \\( 100 \\) \\( \\text{bits} \\) plus the end-to-end propagation delay. Assume a propagation speed of \\( 2 \\times 10^8 m/sec \\). The length of the LAN is \\( 1 \\) \\( \\text{km} \\) with a bandwidth of \\( 10 \\) \\( \\text{Mbps} \\). The maximum number of stations that can be allowed in the LAN so that the throughput of each station can be \\( 2/3 \\) \\( \\text{Mbps} \\)&nbsp;is</div>\n\n<div style=\"text-align: justify;\">&nbsp;</div>\n\n</div><br><br><b>GATE IT 2005 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3838/gate-it-2005-question-75\" target=\"_blank\">https://gateoverflow.in/3838/gate-it-2005-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+});

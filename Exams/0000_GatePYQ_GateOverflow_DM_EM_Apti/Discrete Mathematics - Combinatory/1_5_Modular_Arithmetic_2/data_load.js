@@ -1,0 +1,31 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Modular Arithmetic",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Modular Arithmetic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"39588\"></a><div itemprop=\"text\">The value of the expression \\( 13^{99}\\pmod{17} \\) in the range \\( 0 \\) to \\( 16 \\), is ________.</div><br><br><b>GATE CSE 2016 Set 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39588/gate-cse-2016-set-2-question-29\" target=\"_blank\">https://gateoverflow.in/39588/gate-cse-2016-set-2-question-29</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"302827\"></a><div itemprop=\"text\">The value of \\( 3^{51} \\text{ mod } 5 \\) is _____</div><br><br><b>GATE CSE 2019 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302827/gate-cse-2019-question-21\" target=\"_blank\">https://gateoverflow.in/302827/gate-cse-2019-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

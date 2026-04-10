@@ -1,0 +1,44 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Combinational Circuit",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Combinational Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"371906\"></a><div itemprop=\"text\"><p>Consider a digital display system \\( \\text{(DDS)} \\) shown in the figure that displays the contents&nbsp; of register \\( \\text{X}. \\) A \\( 16 – \\text{bit} \\) code word is used to load a word in \\( \\text{X}, \\) either from \\( \\text{S} \\) or from \\( \\text{R}. \\) \\( \\text{S} \\) is a \\( 1024- \\)word memory segment and \\( \\text{R} \\) is a \\( 32- \\)word register file. Based on the value of mode bit&nbsp; \\( \\text{M, T} \\) selects an input word to load in&nbsp;\\( \\text{X. P} \\) and&nbsp;\\( \\text{Q} \\) interface with the corresponding bits in the code word to choose the addressed word. Which one of the following represents the functionality of&nbsp;&nbsp;\\( \\text{P, Q,} \\) and&nbsp;\\( \\text{T}? \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"432\" src=\"images/gateOverflow_pyq_images/digital_logic___combinational_circuit/3234c0564999e42eb7395403aaede936.png\" width=\"444\"></p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P} \\) is \\( 10:1 \\) multiplexer\\( ; \\qquad \\; \\;\\text{Q} \\) is \\( 5:1 \\) multiplexer\\( ; \\qquad&nbsp;\\; \\text{T} \\) is \\( 2:1 \\) multiplexer</p>",
+            "<p>\\( \\text{P} \\) is \\( 10:2^{10} \\) decoder\\( ; \\qquad \\quad \\text{Q} \\) is \\( 5:2^{5} \\) decoder\\( ; \\qquad \\quad \\text{T} \\) is \\( 2:1 \\) encoder</p>",
+            "<p>\\( \\text{P} \\) is \\( 10:2^{10} \\) decoder\\( ; \\qquad \\quad \\text{Q} \\) is \\( 5:2^{5} \\) decoder\\( ; \\qquad \\quad \\text{T} \\) is \\( 2:1 \\) multiplexer</p>",
+            "<p>\\( \\text{P} \\) is \\( 1:10 \\) de-multiplexer\\( ; \\quad \\; \\;\\text{Q} \\) is \\( 1:5 \\) de-multiplexer\\( ; \\quad \\text{T} \\) is \\( 2:1 \\) multiplexer</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{P} \\) is \\( 10:2^{10} \\) decoder\\( ; \\qquad \\quad \\text{Q} \\) is \\( 5:2^{5} \\) decoder\\( ; \\qquad \\quad \\text{T} \\) is \\( 2:1 \\) multiplexer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371906/gate-cse-2022-question-30\" target=\"_blank\">https://gateoverflow.in/371906/gate-cse-2022-question-30</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"422824\"></a><div itemprop=\"text\"><p>​​Consider the circuit shown below where the gates may have propagation delays. Assume that all signal transitions occur instantaneously and that wires have no delays. Which of the following statements about the circuit is/are CORRECT?</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___combinational_circuit/2c5044242afb0eeaf1a1a683293ca8d8.png\" width=\"400\"></p>\n\n</div><br><br><b>GATE CSE 2024 | Set 1 | Question: 18</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>With no propagation delays, the output \\( Y \\) is always logic Zero</p>",
+            "<p>With no propagation delays, the output \\( Y \\) is always logic One</p>",
+            "<p>With propagation delays, the output \\( Y \\) can have a transient logic One after \\( X \\) transitions from logic Zero to logic One</p>",
+            "<p>With propagation delays, the output \\( Y \\) can have a transient logic Zero after \\( X \\) transitions from logic One to logic Zero&nbsp;</p>"
+          ],
+          "correct_answer": [
+            "<p>With no propagation delays, the output \\( Y \\) is always logic Zero</p>",
+            "<p>With propagation delays, the output \\( Y \\) can have a transient logic One after \\( X \\) transitions from logic Zero to logic One</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422824/gate-cse-2024-set-1-question-18\" target=\"_blank\">https://gateoverflow.in/422824/gate-cse-2024-set-1-question-18</a></p>"
+        }
+      ]
+    }
+  ]
+});

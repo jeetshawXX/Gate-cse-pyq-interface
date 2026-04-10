@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Pla",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Pla",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43964\"></a><div itemprop=\"text\">\n<p>How many programmable fuses are required in a PLA which takes \\( 16 \\) inputs and gives \\( 8 \\) outputs? It has to use \\( 8 \\) OR gates and \\( 32 \\) AND gates.</p>\n\n\n</div><br><br><b>Digital Logic: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1032 \\)</p>",
+            "<p>\\( 776 \\)</p>",
+            "<p>\\( 1284 \\)</p>",
+            "<p>\\( 1536 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1284 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43964/isro-2013-29\" target=\"_blank\">https://gateoverflow.in/43964/isro-2013-29</a></p>"
+        }
+      ]
+    }
+  ]
+}

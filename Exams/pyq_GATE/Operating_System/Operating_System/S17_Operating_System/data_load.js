@@ -1,0 +1,239 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 17",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The sequence __________ is an optimal non-preemptive scheduling sequence for the following jobs which leaves the CPU idle for ________ unit(s) of time.<br>\n\\(\\begin{array}{|c|c|c|} \\hline \\textbf{Job} &amp; \\textbf{Arrival Time} &amp; \\textbf{Burst Time} \\\\\\hline 1 &amp; 0.0 &amp; 9 \\\\\\hline 2 &amp; 0.6 &amp; 5 \\\\\\hline 3 &amp; 1.0 &amp; 1 \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{3,2,1}, 1</p>",
+            "<b>B.</b> <p>{2,1,3}, 0</p>",
+            "<b>C.</b> <p>{3,2,1}, 0</p>",
+            "<b>D.</b> <p>{1,2,3}, 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>{3,2,1}, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2618/gate1995-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which scheduling policy is most suitable for a time shared operating system? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Shortest Job First</p>",
+            "<b>B.</b> <p>Round Robin</p>",
+            "<b>C.</b> <p>First Come First Serve</p>",
+            "<b>D.</b> <p>Elevator</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Round Robin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2602/gate1995-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following page replacement algorithms suffers from Belady's anamoly? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Optimal replacement</p>",
+            "<b>B.</b> <p>LRU</p>",
+            "<b>C.</b> <p>FIFO</p>",
+            "<b>D.</b> <p>Both (A) and (C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2595/gate1995-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a paged segmented scheme of memory management, the segment table itself must have a page table because <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The segment table is often too large to fit in one page</p>",
+            "<b>B.</b> <p>Each segment is spread over a number of pages</p>",
+            "<b>C.</b> <p>Segment tables point to page tables and not to the physical locations of the segment</p>",
+            "<b>D.</b> <p>The processor's description base register points to a page table</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The segment table is often too large to fit in one page</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2594/gate1995-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following heap (figure) in which blank regions are not in use and hatched region are in use.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q1.24_c629eb08.jpg\"><br>The sequence of requests for blocks of sizes 300, 25, 125, 50 can be satisfied if we use <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>either first fit or best fit policy (any one)</p>",
+            "<b>B.</b> <p>first fit but not best fit policy</p>",
+            "<b>C.</b> <p>best fit but not first fit policy</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>first fit but not best fit policy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2467/gate1994-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following statements is true? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Macro definitions cannot appear within other macro definitions in assembly language programs</p>",
+            "<b>B.</b> <p>Overlaying is used to run a program which is longer than the address space of a computer</p>",
+            "<b>C.</b> <p>Virtual memory can be used to accommodate a program which is longer than the address space of a computer</p>",
+            "<b>D.</b> <p>It is not possible to write interrupt service routines in a high level language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Macro definitions cannot appear within other macro definitions in assembly language programs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2464/gate1994-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A memory page containing a heavily used variable that was initialized very early and is in constant use is removed then <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LRU page replacement algorithm is used</p>",
+            "<b>B.</b> <p>FIFO page replacement algorithm is used</p>",
+            "<b>C.</b> <p>LFU page replacement algorithm is used</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>FIFO page replacement algorithm is used</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2454/gate1994-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Assume that  the following jobs are to be executed on a single processor system <br>\\(\\begin{array}{|c|c|} \\hline \\textbf{Job Id} &amp; \\textbf{CPU Burst Time} \\\\\\hline \\text{p} &amp; 4 \\\\\\hline \\text{q} &amp; 1 \\\\\\hline \\text{r} &amp; 8 \\\\\\hline \\text{s} &amp; 1 \\\\\\hline \\text{t} &amp; 2 \\\\\\hline \\end{array}\\)<br>\nThe jobs are assumed to have arrived at time \\(0^+\\) and in the order p,q,r,s,t. Calculate the departure time (completion time) for job p if scheduling is round robin with time slice 1 <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2298/gate1993-7-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a system having m resources of the same type. These resources are shared by 3 processes A,B, and C which have peak demands of 3, 4 and 6 respectively.  For what value of m deadlock will not occur? <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>13</p>",
+            "<b>E.</b> <p>15</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2297/gate1993-7-9-ugcnet-dec2012-iii-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The root directory of a disk should be placed <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>at a fixed address in main memory</p>",
+            "<b>B.</b> <p>at a fixed location on the disk</p>",
+            "<b>C.</b> <p>anywhere on the disk</p>",
+            "<b>D.</b> <p>at a fixed location on the system disk</p>",
+            "<b>E.</b> <p>anywhere on the system disk</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>at a fixed location on the disk</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2296/gate1993-7-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider Peterson's algorithm for mutual exclusion between two concurrent\nprocesses i and j . The program executed by process is shown below.<pre><code> repeat   \n      flag [i] = true; \n      turn = j; \n      while ( P ) do no-op; \n      Enter critical section, perform actions, then exit critical \n      section \n      flag [ i ] = false; \n      Perform other non-critical section actions. \n   until false; </code></pre>\nFor the program to guarantee mutual exclusion, the predicate P in the while loop\nshould be <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>flag [j]= true and turn =i</p>",
+            "<b>B.</b> <p>flag [j]=true and turn =j</p>",
+            "<b>C.</b> <p>flag [i]=true and turn=j</p>",
+            "<b>D.</b> <p>flag [i]=true and turn=i</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>flag [j]=true and turn =j</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/740/gate2001-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a machine with 64 MB physical memory and a 32-bit virtual address\nspace. If the page size is 4 KB, what is the approximate size of the page table ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16MB</p>",
+            "<b>B.</b> <p>8MB</p>",
+            "<b>C.</b> <p>2MB</p>",
+            "<b>D.</b> <p>24MB</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2MB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/739/gate2001-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following does not interrupt a running process ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A device</p>",
+            "<b>B.</b> <p>Power failure</p>",
+            "<b>C.</b> <p>Timer</p>",
+            "<b>D.</b> <p>Scheduler process</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Scheduler process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/738/gate2001-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following requires a device driver ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Register</p>",
+            "<b>B.</b> <p>Cache</p>",
+            "<b>C.</b> <p>Main memory</p>",
+            "<b>D.</b> <p>Disk</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Disk</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/715/gate2001-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a virtual memory system with FIFO page replacement policy. For an\narbitrary page access pattern, increasing the number of page frames in main\nmemory will. <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Always decrease the number of page faults</p>",
+            "<b>B.</b> <p>Always increase the number of page faults</p>",
+            "<b>C.</b> <p>Sometimes increase the number of page faults</p>",
+            "<b>D.</b> <p>Never affect the number of page faults</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Sometimes increase the number of page faults</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/714/gate2001-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

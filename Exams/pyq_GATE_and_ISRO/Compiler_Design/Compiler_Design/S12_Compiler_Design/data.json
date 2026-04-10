@@ -1,0 +1,236 @@
+{
+  "title": "Compiler_Design - Compiler_Design - Slot 12",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Faster access to non-local variables is achieved using an array of pointers to activation records called a <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>stack</p>",
+            "<b>B.</b> <p>heap</p>",
+            "<b>C.</b> <p>display</p>",
+            "<b>D.</b> <p>activation tree</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>display</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1687/gate1998-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A linker reads four modules whose lengths are 200, 800, 600 and 500 words, respectively. If they are loaded in that order, what are the relocation constants? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0, 200, 500, 600\\)</p>",
+            "<b>B.</b> <p>\\(0, 200, 1000, 1600\\)</p>",
+            "<b>C.</b> <p>\\(200, 500, 600, 800\\)</p>",
+            "<b>D.</b> <p>\\(200, 700, 1300, 2100\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(0, 200, 1000, 1600\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1665/gate1998-1-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Type checking is normally done during <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lexical analysis</p>",
+            "<b>B.</b> <p>syntax analysis</p>",
+            "<b>C.</b> <p>syntax directed translation</p>",
+            "<b>D.</b> <p>code optimization</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>syntax directed translation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1664/gate1998-1-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statements is true? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SLR parser is more powerful than LALR</p>",
+            "<b>B.</b> <p>LALR parser is more powerful than Canonical LR parser</p>",
+            "<b>C.</b> <p>Canonical LR parser is more powerful than LALR parser</p>",
+            "<b>D.</b> <p>The parsers SLR, Canonical CR, and LALR have the same power</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Canonical LR parser is more powerful than LALR parser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1663/gate1998-1-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In a resident-OS computer, which of the following systems must reside in the main memory under all situations? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Assembler</p>",
+            "<b>B.</b> <p>Linker</p>",
+            "<b>C.</b> <p>Loader</p>",
+            "<b>D.</b> <p>Compiler</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1662/gate1998-1-25-isro2008-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The expression \\(( a * b) * c \\; op \\dots\\)<br>\nwhere 'op' is one of '+', '*' and '\\(\\uparrow\\)' (exponentiation) can be evaluated on a CPU with single register without  storing the value of (a * b) if <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>op' is '+' or '*'</p>",
+            "<b>B.</b> <p>op' is '\\(\\uparrow\\)' or '*'</p>",
+            "<b>C.</b> <p>op' is '\\(\\uparrow\\)' or '+'</p>",
+            "<b>D.</b> <p>not possible to evaluate without storing</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>op' is '+' or '*'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2250/gate1997-4-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Heap allocation is required for languages. <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>that support recursion</p>",
+            "<b>B.</b> <p>that support dynamic data structure</p>",
+            "<b>C.</b> <p>that use dynamic scope rules</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>that support dynamic data structure</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2226/gate1997-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A language L allows declaration of arrays whose sizes are not known during compilation. It is required to make efficient use of memory. Which one of the following is true? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A compiler using static memory allocation can be written for L</p>",
+            "<b>B.</b> <p>A compiler cannot be written for L; an interpreter must be used</p>",
+            "<b>C.</b> <p>A compiler using dynamic memory allocation can be written for L</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A compiler using dynamic memory allocation can be written for L</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2224/gate1997-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In the following grammar<br>\n\\(\\begin{aligned} X &amp;::= X \\oplus Y \\mid Y \\\\ Y&amp;::= Z * Y \\mid Z\\\\ Z&amp;::= id \\end{aligned}\\)<br>\nWhich of the following is true? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>'\\(\\oplus\\)' is left associative while '*' is right associative</p>",
+            "<b>B.</b> <p>Both '\\(\\oplus\\)' and '*' are left associative</p>",
+            "<b>C.</b> <p>'\\(\\oplus\\)' is right associative while '*' is left associative</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>'\\(\\oplus\\)' is left associative while '*' is right associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2222/gate1997-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The correct matching for the following pairs is<br><br> \\(\\begin{array}{ll|ll} \\text{(A)}&amp;\\text{Activation record} &amp; \\text{(1)} &amp;\\text{Linking loader} \\\\ \\text{(B)} &amp;\\text{Location counter} &amp; \\text{(2)} &amp;\\text{Garbage collection} \\\\ \\text{(C)}&amp; \\text{Reference counts} &amp; \\text{(3)} &amp;\\text{Subroutine call} \\\\ \\text{(D)}&amp; \\text{Address relocation} &amp; \\text{(4)}&amp; \\text{Assembler} \\\\ \\end{array}\\) <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A-3 B-4 C-1 D-2</p>",
+            "<b>B.</b> <p>A-4 B-3 C-1 D-2</p>",
+            "<b>C.</b> <p>A-4 B-3 C-2 D-1</p>",
+            "<b>D.</b> <p>A-3 B-4 C-2 D-1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A-3 B-4 C-2 D-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2746/gate1996-2-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The grammar whose productions are<br>\n\\(\\langle\\text{stmt}\\rangle \\to\\text{ if id then } \\langle\\text{stmt}\\rangle\\)<br>\n\\(\\langle\\text{stmt}\\rangle\\to\\text{ if id then } \\langle\\text{stmt}\\rangle\\text{ else } \\langle \\text{stmt}\\rangle\\)<br>\n\\(\\langle\\text{stmt}\\rangle \\to\\text{ id }:=\\text{ id}\\)<br>\nis ambiguous because <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the sentence<br>\\(\\text{\nif a then if b then c:= d } \\)<br>\nhas more than two parse trees</p>",
+            "<b>B.</b> <p>the left most and right most derivations of the sentence<br>\\(\\text{\nif a then if b then c:= d } \\)<br>\ngive rise to different parse trees</p>",
+            "<b>C.</b> <p>the sentence <br>\\(\\text{\nif a then if b then c:= d else c:= f} \\)<br>\nhas more than two parse trees</p>",
+            "<b>D.</b> <p>the sentence<br>\\(\\text{\nif a then if b then c:= d else c:= f} \\)<br>\nhas two parse trees</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the sentence<br>\\(\\text{\nif a then if b then c:= d else c:= f} \\)<br>\nhas two parse trees</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2739/gate1996-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The pass numbers for each of the following activities<br>\ni.   object code generation<br>\nii.  literals added to literal table<br>\niii. listing printed<br>\niv.  address resolution of local symbols that occur in a two pass assembler<br>\nrespectively are <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2, 1, 2</p>",
+            "<b>B.</b> <p>2, 1, 2, 1</p>",
+            "<b>C.</b> <p>2, 1, 1, 2</p>",
+            "<b>D.</b> <p>1, 2, 2, 2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2, 1, 2, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2721/gate1996-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A shift reduce parser carries out the actions specified within braces immediately after reducing with the corresponding rule of grammar <br>\n\\(S \\rightarrow xxW \\;\\text{{print \"1\"}}\\)<br>\n\\(S \\rightarrow y \\;\\text{{print \"2\"}}\\)<br>\n\\(W \\rightarrow Sz\\; \\text{{print \"3\"}}\\)<br>\nWhat is the translation of \\(xxxxyzz\\) using the syntax directed translation scheme described by the above rules? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>23131</p>",
+            "<b>B.</b> <p>11233</p>",
+            "<b>C.</b> <p>11231</p>",
+            "<b>D.</b> <p>33211</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>23131</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2622/gate1995-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A linker is given object modules for a set of programs that were compiled separately. What information need to be included in an object module? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Object code</p>",
+            "<b>B.</b> <p>Relocation bits</p>",
+            "<b>C.</b> <p>Names and locations of all external symbols defined in the object module</p>",
+            "<b>D.</b> <p>Absolute addresses of internal symbols</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Names and locations of all external symbols defined in the object module</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2601/gate1995-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Generation of intermediate code based on an abstract machine model is useful in compilers because <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it makes implementation of lexical analysis and syntax analysis easier</p>",
+            "<b>B.</b> <p>syntax-directed translations can be written for intermediate code generation</p>",
+            "<b>C.</b> <p>it enhances the portability of the front end of the compiler</p>",
+            "<b>D.</b> <p>it is not possible to generate code for real machines directly from high level language programs</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>it enhances the portability of the front end of the compiler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2453/gate1994-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

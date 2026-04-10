@@ -1,0 +1,281 @@
+{
+  "title": "Computer Networks - Network Security",
+  "duration": 50,
+  "sections": [
+    {
+      "name": "Network Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70367\"></a><div itemprop=\"text\"><p>An attacker sits between the sender and receiver and captures the information and retransmits to the receiver after some time without altering the information. This attack is called as _____.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | August 2016 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Denial of service attack</p>",
+            "<p>Masquarade attack</p>",
+            "<p>Simple attack</p>",
+            "<p>Complex attack</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70367/ugc-net-cse-august-2016-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/70367/ugc-net-cse-august-2016-part-2-question-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"66818\"></a><div itemprop=\"text\"><p>Which of the following is the process by which a user’s access to physical data in the application is limited, based on his privileges?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Authorization</p>",
+            "<p>Authentication</p>",
+            "<p>Access Control</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66818/ugc-net-cse-december-2010-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/66818/ugc-net-cse-december-2010-part-2-question-20</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"45257\"></a><div itemprop=\"text\"><p>AES is a round cipher based on the Rijndal Algorithm that uses a 128 – bit block of data. AES has three different configurations. ______ rounds with a key size of 128-bits, ______ rounds with a key size of 192 bits and ______ rounds with a key size of 256 –bits</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>5, 7, 15</p>",
+            "<p>10, 12, 14</p>",
+            "<p>5, 6, 7</p>",
+            "<p>20, 12, 14</p>"
+          ],
+          "correct_answer": "<p>10, 12, 14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45257/ugc-net-cse-december-2012-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/45257/ugc-net-cse-december-2012-part-2-question-37</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"57832\"></a><div itemprop=\"text\"><p>A cryptarithmetic problem of the type</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=15865650925449644611\"></p>\n\n<p>Can be solved efficiently using</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 3 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>depth first technique</p>",
+            "<p>breadth first technique</p>",
+            "<p>constraint satisfaction technique</p>",
+            "<p>bidirectional technique</p>"
+          ],
+          "correct_answer": "<p>constraint satisfaction technique</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57832/ugc-net-cse-december-2012-part-3-question-72\" target=\"_blank\">https://gateoverflow.in/57832/ugc-net-cse-december-2012-part-3-question-72</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"57365\"></a><div itemprop=\"text\"><p>Using RSA algorithm, what is the value of cipher text C, if the plain text M=5 and p=3, q=11 and d=7?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>33</p>",
+            "<p>5</p>",
+            "<p>25</p>",
+            "<p>26</p>"
+          ],
+          "correct_answer": "<p>26</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57365/ugc-net-cse-december-2012-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/57365/ugc-net-cse-december-2012-part-3-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"62263\"></a><div itemprop=\"text\"><p>Using p=3, q=13, d=7 and e=3 in the RSA algorithm, what is the value of ciphertext for a plain text 5?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 2 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>13</p>",
+            "<p>21</p>",
+            "<p>26</p>",
+            "<p>33</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62263/ugc-net-cse-december-2015-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/62263/ugc-net-cse-december-2015-part-2-question-25</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"288311\"></a><div itemprop=\"text\"><p>Which of the following statement/s is/are <em><strong>true</strong></em>?</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Firewalls can screen traffic going into or out of an organization.</li>\n\t<li>Virtual private networks can stimulate an old leased network to provide certain desirable&nbsp;properties.</li>\n</ol>\n\n<p>Choose the correct answer from the code given below:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2018 | Part 2 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>(i) only</p>",
+            "<p>(ii) only</p>",
+            "<p>Both (i) and (ii)</p>",
+            "<p>Neither (i) nor (ii)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288311/ugc-net-cse-december-2018-part-2-question-66\" target=\"_blank\">https://gateoverflow.in/288311/ugc-net-cse-december-2018-part-2-question-66</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"288287\"></a><div itemprop=\"text\"><p>Suppose that everyone in a group of \\( N \\) people wants to communicate secretly with \\( (N-1) \\) other people using symmetric key cryptographic system. The communication between any two persons should not be decodable by the others in the group. The number of keys required in the system as a whole to satisfy the confidentiality requirement is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2018 | Part 2 | Question: 90</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( N(N-1) \\)</p>",
+            "<p>\\( N(N-1)/2 \\)</p>",
+            "<p>\\( 2N \\)</p>",
+            "<p>\\( (N-1)^2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288287/ugc-net-cse-december-2018-part-2-question-90\" target=\"_blank\">https://gateoverflow.in/288287/ugc-net-cse-december-2018-part-2-question-90</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"63437\"></a><div itemprop=\"text\"><p>If there are \\( N \\) people in the world and are using secret key encryption and decryption for privacy purpose, then the number of secret keys required will be</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 2 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( N \\)</p>",
+            "<p>\\( (N-1) \\)</p>",
+            "<p>\\( \\frac{N(N-1)}{2} \\)</p>",
+            "<p>\\( \\frac{N(N+1)}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{N(N-1)}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63437/ugc-net-cse-july-2016-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/63437/ugc-net-cse-july-2016-part-2-question-29</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"58159\"></a><div itemprop=\"text\"><p>An attacker sits between customer and banker &nbsp;and captures the information from the customer and retransmits &nbsp;to the banker by altering the information . This attack is called as</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 2 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Masquerade &nbsp;attack</p>",
+            "<p>Replay attack</p>",
+            "<p>Passive attack</p>",
+            "<p>Denial of service attack</p>"
+          ],
+          "correct_answer": "<p>Replay attack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58159/ugc-net-cse-july-2016-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/58159/ugc-net-cse-july-2016-part-2-question-46</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"63951\"></a><div itemprop=\"text\"><p>Encrypt the plain text message \\( ``\\text{EXTRANET}\" \\) using Transposition cipher technique with the following key :&nbsp;</p>\n\n<p>\\( \\begin{array} {|l|l|l|l|l|} \\hline \\text{3} &amp; \\text{5}&nbsp;&amp; \\text{2} &amp; \\text{1} &amp; \\text{4} &amp; \\text{(Cipher text)} \\\\ \\hline&nbsp;\\text{1} &amp; \\text{2}&nbsp;&amp; \\text{3} &amp; \\text{4} &amp; \\text{5} &amp; \\text{(Plain&nbsp;text)} \\\\ \\hline&nbsp;&nbsp;&nbsp;\\end{array} \\)</p>\n\n<p>Using \\( `\\text{Z'} \\) as bogus character.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 3 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{TAXERTZENZ} \\)</p>",
+            "<p>\\( \\text{EXTRANETZZ} \\)</p>",
+            "<p>\\( \\text{EZXZTRZANZET} \\)</p>",
+            "<p>\\( \\text{EXTZRANZETZ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{TAXERTZENZ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63951/ugc-net-cse-july-2016-part-3-question-30\" target=\"_blank\">https://gateoverflow.in/63951/ugc-net-cse-july-2016-part-3-question-30</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"154828\"></a><div itemprop=\"text\"><p>After sending a message, the sender should not be able to, at a later date, deny having sent the message, is referred to as :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Authenticity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>Non-Repudiability&nbsp; &nbsp;&nbsp;</p>",
+            "<p>Auditability&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>Repudiability</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154828/ugc-net-cse-june-2009-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/154828/ugc-net-cse-june-2009-part-2-question-48</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"67749\"></a><div itemprop=\"text\"><p>For your ATM debit card, you have a \\( 4 \\)-decimal-digit personal secret code. In the absence of any clue, a brute-force attack takes time-\\( 't' \\) to crack the code on an ATM terminal. Therefore \\( 't' \\) is the secure-time for a customer to report in case the card is misplaced. Your Bank has decided to facilitate an increased secure-time. Out of the following, which option should provide the largest rise in the value of \\( 't' \\)?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2010 | Part 2 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Instead of 4-decimal-digits, maintain the personal secret code in 4-hexadecimal-digits.</p>",
+            "<p>Instead of 4-decimal digits, maintain a 5-decimal-digit personal secret code.</p>",
+            "<p>Reduce the processing speed of the ATM terminals to the half of their current speed.</p>",
+            "<p>None of the above provides any improvement.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67749/ugc-net-cse-june-2010-part-2-question-5\" target=\"_blank\">https://gateoverflow.in/67749/ugc-net-cse-june-2010-part-2-question-5</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"54072\"></a><div itemprop=\"text\">\n<p>SET, an open encryption and security specification model that is designed for protecting credit card transactions on the internet, stands for</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Secure Electronic Transaction</p>",
+            "<p>Secular Enterprise for Transaction</p>",
+            "<p>Security Electronic Transmission</p>",
+            "<p>Secured Electronic Termination</p>"
+          ],
+          "correct_answer": "<p>Secure Electronic Transaction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54072/ugc-net-cse-june-2014-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/54072/ugc-net-cse-june-2014-part-2-question-30</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"316190\"></a><div itemprop=\"text\"><p>The ability to inject packets into the Internet with a false source address is known as</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2019 | Part 2 | Question: 89</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Man-in-the-middle attack</p>",
+            "<p>IP phishing</p>",
+            "<p>IP sniffing</p>",
+            "<p>IP spoofing</p>"
+          ],
+          "correct_answer": "<p>IP spoofing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316190/ugc-net-cse-june-2019-part-2-question-89\" target=\"_blank\">https://gateoverflow.in/316190/ugc-net-cse-june-2019-part-2-question-89</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"61240\"></a><div itemprop=\"text\">\n<p>Which are two modes of IP security?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 3 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Transport and certificate</p>",
+            "<p><span style=\"line-height: 20.8px;\">Transport and&nbsp;</span>tunnel</p>",
+            "<p>Certificate and tunnel</p>",
+            "<p>Preshared and transport</p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 20.8px;\">Transport and&nbsp;</span>tunnel</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61240/ugc-net-cse-junet-2015-part-3-question-27\" target=\"_blank\">https://gateoverflow.in/61240/ugc-net-cse-junet-2015-part-3-question-27</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"61242\"></a><div itemprop=\"text\">\n<p>A message \"COMPUTERNETWORK\" encrypted (ignore quotes) using columnar transposition cipher with a key \"LAYER\". The encrypted message is</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 3 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>CTTOEWMROPNRUEK</p>",
+            "<p>MROUEKCTTPNROEW</p>",
+            "<p>OEWPNRCTTUEKMRO</p>",
+            "<p>UEKPNRMROOEQCTT</p>"
+          ],
+          "correct_answer": "<p>OEWPNRCTTUEKMRO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61242/ugc-net-cse-junet-2015-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/61242/ugc-net-cse-junet-2015-part-3-question-28</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"349584\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Given below are two statements:</p>\n\n<p>Statement \\( I \\): In Ceasar Cipher each letter of Plain text is replaced by another letter for encryption</p>\n\n<p>Statement \\( II \\): Diffie-Hellman algorithm is used for exchange of secret key</p>\n\n<p>In&nbsp;the light of the above statements, choose the correct answer from the options given below</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 89</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349584/ugc-net-cse-october-2020-part-2-question-89\" target=\"_blank\">https://gateoverflow.in/349584/ugc-net-cse-october-2020-part-2-question-89</a></p>"
+        }
+      ]
+    }
+  ]
+}

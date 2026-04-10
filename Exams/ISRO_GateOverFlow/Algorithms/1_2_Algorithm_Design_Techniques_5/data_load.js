@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithm Design Techniques",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Algorithm Design Techniques",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2462\"></a><div itemprop=\"text\"><p>Algorithm design technique used in quicksort algorithm is?</p>\n\n</div><br><br><b>Algorithms: GATE CSE 1994 | Question: 1.19, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dynamic programming</p>",
+            "<p>Backtracking</p>",
+            "<p>Divide and conquer</p>",
+            "<p>Greedy method</p>"
+          ],
+          "correct_answer": "<p>Divide and conquer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2462/gate-cse-1994-question-1-19-isro2016-31\" target=\"_blank\">https://gateoverflow.in/2462/gate-cse-1994-question-1-19-isro2016-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1658\"></a><div itemprop=\"text\"><p>Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph?</p>\n\n</div><br><br><b>Algorithms: GATE CSE 1998 | Question: 1.21, ISRO2008</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dynamic programming</p>",
+            "<p>Backtracking</p>",
+            "<p>Greedy</p>",
+            "<p>Divide and Conquer</p>"
+          ],
+          "correct_answer": "<p>Dynamic programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1658/gate-cse-1998-question-1-21-isro2008-16\" target=\"_blank\">https://gateoverflow.in/1658/gate-cse-1998-question-1-21-isro2008-16</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"49537\"></a><div itemprop=\"text\"><p>Selection sort algorithm design technique is an example of</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2007 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Greedy method</p>",
+            "<p>Divide-and-conquer</p>",
+            "<p>Dynamic Programming</p>",
+            "<p>Backtracking</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49537/isro-cse-2007-question-55\" target=\"_blank\">https://gateoverflow.in/49537/isro-cse-2007-question-55</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"52859\"></a><div itemprop=\"text\"><p>Which of the following algorithm design technique is used in merge sort?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2011 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Greedy method</p>",
+            "<p>Backtracking</p>",
+            "<p>Dynamic programming</p>",
+            "<p>Divide and Conquer</p>"
+          ],
+          "correct_answer": "<p>Divide and Conquer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52859/isro-cse-2011-question-66\" target=\"_blank\">https://gateoverflow.in/52859/isro-cse-2011-question-66</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"213572\"></a><div itemprop=\"text\"><p>The following paradigm can be used to find the solution of the problem in minimum time:</p>\n\n<p>Given a set of&nbsp;non-negative integer&nbsp;and a value \\( K \\), determine if there is a subset of the given set with sum equal to \\( K \\):</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Divide and Conquer</p>",
+            "<p>Dynamic Programming</p>",
+            "<p>Greedy Algorithm</p>",
+            "<p>Branch and Bound</p>"
+          ],
+          "correct_answer": "<p>Dynamic Programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213572/isro-cse-2018-question-16\" target=\"_blank\">https://gateoverflow.in/213572/isro-cse-2018-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+});

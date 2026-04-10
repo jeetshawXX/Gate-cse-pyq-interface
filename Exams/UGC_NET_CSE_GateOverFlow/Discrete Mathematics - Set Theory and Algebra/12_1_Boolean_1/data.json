@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Boolean",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Boolean",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316266\"></a><div itemprop=\"text\"><p>How many different Boolean functions of degree \\( n \\) are the</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | June 2019 | Part 2 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{2^n} \\)</p>",
+            "<p>\\( (2^2)^n \\)</p>",
+            "<p>\\( 2^{2^n} -1 \\)</p>",
+            "<p>\\( 2^n \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{2^n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316266/ugc-net-cse-june-2019-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/316266/ugc-net-cse-june-2019-part-2-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Issoftware Engineering",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Issoftware Engineering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"412014\"></a><div itemprop=\"text\"><p>Who is a visionary leader?</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 141</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One who has medium term perspective</p>",
+            "<p>One who has short term perspective</p>",
+            "<p>One who has long term perspective</p>",
+            "<p>One who takes initiative for need satisfaction\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>One who has long term perspective</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412014/nielit-2023-feb-scientist-c-section-e-question-141\" target=\"_blank\">https://gateoverflow.in/412014/nielit-2023-feb-scientist-c-section-e-question-141</a></p>"
+        }
+      ]
+    }
+  ]
+});

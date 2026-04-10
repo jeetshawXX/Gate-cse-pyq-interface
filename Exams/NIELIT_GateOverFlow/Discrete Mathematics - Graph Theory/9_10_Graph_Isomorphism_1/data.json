@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Graph Isomorphism",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Isomorphism",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366934\"></a><div itemprop=\"text\"><p>The number of un-labeled non-isomorphic graphs with four vertices is \\( : \\)</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366934/nielit-2021-dec-scientist-b-section-b-83\" target=\"_blank\">https://gateoverflow.in/366934/nielit-2021-dec-scientist-b-section-b-83</a></p>"
+        }
+      ]
+    }
+  ]
+}

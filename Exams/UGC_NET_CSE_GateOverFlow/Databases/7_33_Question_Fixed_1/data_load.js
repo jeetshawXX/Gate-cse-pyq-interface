@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Question Fixed",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Question Fixed",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"407949\"></a><div itemprop=\"text\"><p>Let \\( \\text{R (A,B,C,D,E,F)} \\) be a relational schema with following functional dependencies:<br>\n\\( \\mathrm{C} \\rightarrow \\mathrm{F}, \\mathrm{E} \\rightarrow \\mathrm{A}, \\mathrm{EC} \\rightarrow \\mathrm{D}, \\mathrm{A} \\rightarrow \\mathrm{B} \\). Which of the following is a key for \\( \\mathrm{R} \\) ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2023 | Part 2: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{CD} \\)</p>",
+            "<p>\\( \\text{EC} \\)</p>",
+            "<p>\\( \\mathrm{AE} \\)</p>",
+            "<p>\\( \\mathrm{AC} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/407949/ugc-net-cse-june-2023-part-2-19\" target=\"_blank\">https://gateoverflow.in/407949/ugc-net-cse-june-2023-part-2-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

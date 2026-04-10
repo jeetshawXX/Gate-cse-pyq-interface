@@ -1,0 +1,96 @@
+window.__examLoadCallback({
+  "title": "CO & Architecture - IO Handling",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "IO Handling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80572\"></a><div itemprop=\"text\">State whether the following statements are TRUE or FALSE<br>\n<br>\nIn a microprocessor-based system, if a bus (DMA) request and an interrupt request arrive sumultaneously, the microprocessor attends first to the bus request.</div><br><br><b>GATE CSE 1987 | Question: 2a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "True",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80572/gate-cse-1987-question-2a\" target=\"_blank\">https://gateoverflow.in/80572/gate-cse-1987-question-2a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"80576\"></a><div itemprop=\"text\">State whether the following statements are TRUE or FALSE:<br>\n<br>\nData transfer between a microprocessor and an I/O device is usually faster in memory-mapped-I/O scheme than in I/O-mapped -I/O scheme.</div><br><br><b>GATE CSE 1987 | Question: 2b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "True",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80576/gate-cse-1987-question-2b\" target=\"_blank\">https://gateoverflow.in/80576/gate-cse-1987-question-2b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"85390\"></a><div itemprop=\"text\">State whether the following statements are TRUE or FALSE with reason:<br>\n<br>\nThe data transfer between memory and I/O devices using programmed I/O is faster than interrupt-driven I/O.</div><br><br><b>GATE CSE 1990 | Question: 4-ii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "False",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/85390/gate-cse-1990-question-4-ii\" target=\"_blank\">https://gateoverflow.in/85390/gate-cse-1990-question-4-ii</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2728\"></a><div itemprop=\"text\">\n<p>For the daisy chain scheme of connecting I/O devices, which of the following statements is true?</p>\n\n\n</div><br><br><b>GATE CSE 1996 | Question: 1.24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It gives non-uniform priority to various devices</p>",
+            "<p>It gives uniform priority to all devices</p>",
+            "<p>It is only useful for connecting slow devices to a processor device</p>",
+            "<p>It requires a separate interrupt pin on the processor for each device</p>"
+          ],
+          "correct_answer": "<p>It gives non-uniform priority to various devices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2728/gate-cse-1996-question-1-24\" target=\"_blank\">https://gateoverflow.in/2728/gate-cse-1996-question-1-24</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2777\"></a><div itemprop=\"text\">A hard disk is connected to a \\( 50 \\) MHz processor through a DMA controller. &nbsp;Assume that the initial set-up of a DMA transfer takes \\( 1000 \\) clock cycles for the processor, and assume that the handling of the interrupt at DMA completion requires \\( 500 \\) clock cycles for the processor. The hard disk has a transfer rate of \\( 2000 \\) Kbytes/sec and average block transferred is \\( 4 \\) K bytes. &nbsp;What fraction of the processor time is consumed by the disk, if the disk is actively transferring \\( 100\\% \\) of the time?</div><br><br><b>GATE CSE 1996 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.4:1.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2777/gate-cse-1996-question-25\" target=\"_blank\">https://gateoverflow.in/2777/gate-cse-1996-question-25</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2230\"></a><div itemprop=\"text\"><p>The correct matching for the following pairs is:</p>\n\n<p>\\[ \\begin{array}{ll}&nbsp;\\text{(A) DMA I/O} &amp; \\text{(1) High speed RAM} \\\\<br>\n&nbsp; \\text{(B) Cache} &amp; \\text{(2) Disk} \\\\<br>\n&nbsp; &nbsp;\\text{(C) Interrupt I/O} &amp; \\text{(3) Printer} \\\\<br>\n&nbsp; \\text{(D) Condition Code Register} &amp; \\text{(4) ALU}&nbsp; \\\\<br>\n&nbsp;\\end{array} \\]</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 2.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A-4\\quad B-3\\quad C-1\\quad D-2 \\)</p>",
+            "<p>\\( A-2\\quad B-1\\quad C-3\\quad D-4 \\)</p>",
+            "<p>\\( A-4\\quad B-3\\quad C-2\\quad D-1 \\)</p>",
+            "<p>\\( A-2\\quad B-3\\quad C-4\\quad D-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A-2\\quad B-1\\quad C-3\\quad D-4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2230/gate-cse-1997-question-2-4\" target=\"_blank\">https://gateoverflow.in/2230/gate-cse-1997-question-2-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"487\"></a><div itemprop=\"text\"><p>Which of the following statements about synchronous and asynchronous I/O is NOT true?</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 64, ISRO2009-13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O</p>",
+            "<p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>",
+            "<p>A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous&nbsp;I/O call does not wait for completion of the I/O</p>",
+            "<p>In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O</p>"
+          ],
+          "correct_answer": "<p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/487/gate-cse-2008-question-64-isro2009-13\" target=\"_blank\">https://gateoverflow.in/487/gate-cse-2008-question-64-isro2009-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

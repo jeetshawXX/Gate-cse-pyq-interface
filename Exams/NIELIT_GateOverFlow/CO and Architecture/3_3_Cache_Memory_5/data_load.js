@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Cache Memory",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Cache Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336309\"></a><div itemprop=\"text\"><p>In a cache memory if total number of sets are ‘\\( s \\)’, then the set offset is:</p></div><br><br><b>CO & Architecture: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^8 \\)</p>",
+            "<p>\\( \\log_2s \\)</p>",
+            "<p>\\( s^2 \\)</p>",
+            "<p>\\( s \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\log_2s \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336309/nielit-2017-dec-scientist-b-section-b-4\" target=\"_blank\">https://gateoverflow.in/336309/nielit-2017-dec-scientist-b-section-b-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336963\"></a><div itemprop=\"text\"><p>In time division switches if each memory access takes \\( 100\\;ns  \\) and one frame period is \\( 125\\;\\mu s, \\) then the maximum number of lines that can be supported is</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 625 \\) lines</p>",
+            "<p>\\( 1250 \\) lines</p>",
+            "<p>\\( 2300 \\) lines</p>",
+            "<p>\\( 318 \\) lines</p>"
+          ],
+          "correct_answer": "<p>\\( 625 \\) lines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336963/nielit-2017-oct-scientific-assistant-a-it-section-b-22\" target=\"_blank\">https://gateoverflow.in/336963/nielit-2017-oct-scientific-assistant-a-it-section-b-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369368\"></a><div itemprop=\"text\"><p>More than one word is put in one cache block to:</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>exploit the temporal locality of reference in a program</p>",
+            "<p>exploit the spatial locality of reference in a program</p>",
+            "<p>reduce the miss penalty</p>",
+            "<p>none of the option</p>"
+          ],
+          "correct_answer": "<p>exploit the spatial locality of reference in a program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369368/nielit-2021-dec-scientist-a-section-b-45\" target=\"_blank\">https://gateoverflow.in/369368/nielit-2021-dec-scientist-a-section-b-45</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"378748\"></a><div itemprop=\"text\"><p>The size of the physical address space of a processor is \\( 2^{\\text{P}} \\) bytes. The word length is \\( 2^{\\text{W}} \\) bytes. The capacity of cache memory is \\( 2^{\\text{N}} \\) bytes. The size of each cache block \\( 2^{\\text{M}} \\) words. For a \\( \\text {K-Way} \\) set associative cache memory, the length (in number of bits) of the tag fields is:</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\text {P- N- M- W +} \\log \\text{K} \\)</p>",
+            "<p>\\(  \\text {P- N- M- W&nbsp;} -&nbsp;\\log_{2} \\text{K} \\)</p>",
+            "<p>\\( \\text {P- N} +&nbsp;\\log_{2}&nbsp;\\text{K} \\)</p>",
+            "<p>\\( \\text {P- N} -&nbsp;\\log_{2}&nbsp;\\text{K} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text {P- N} +&nbsp;\\log_{2}&nbsp;\\text{K} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378748/nielit-2021-dec-scientist-b-section-b-15\" target=\"_blank\">https://gateoverflow.in/378748/nielit-2021-dec-scientist-b-section-b-15</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"351613\"></a><div itemprop=\"text\"><p>A direct mapped cache is of size \\( \\text{32 KB} \\) and has block size \\( 32 \\) Bytes. CPU also generates \\( 32 \\) bit address. Number of bits needed for indexing the cache:</p></div><br><br><b>CO & Architecture: NIELIT Scientist B 2020 November: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 17 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351613/nielit-scientist-b-2020-november-69\" target=\"_blank\">https://gateoverflow.in/351613/nielit-scientist-b-2020-november-69</a></p>"
+        }
+      ]
+    }
+  ]
+});

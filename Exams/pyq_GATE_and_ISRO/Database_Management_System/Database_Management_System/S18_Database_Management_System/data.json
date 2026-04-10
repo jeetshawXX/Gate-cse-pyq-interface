@@ -1,0 +1,236 @@
+{
+  "title": "Database_Management_System - Database_Management_System - Slot 18",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Relation R is decomposed using a set of functional dependencies, F ,and relation S\nis decomposed using another set of functional dependencies, G. One decomposition\nis definitely BCNF , the other is definitely. 3NF , but it is not known which is\nwhich. To make a guaranteed identification, which one of the following tests\nshould be used on the decompositions ? (Assume that the closures of F and G\nare available). <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dependency-preservation</p>",
+            "<b>B.</b> <p>Lossless-join</p>",
+            "<b>C.</b> <p>BCNF definition</p>",
+            "<b>D.</b> <p>3NF definition</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>BCNF definition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/854/gate2002-2-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A B+-tree index is to be built on the Name attribute of the relation STUDENT. Assume that all student names are of length 8 bytes, disk blocks are of size 512\nbytes, and index pointers are of size 4 bytes. Given this scenario, what would be\nthe best choice of the degree (i.e. the number of pointers per node) of the B+-tree <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16</p>",
+            "<b>B.</b> <p>42</p>",
+            "<b>C.</b> <p>43</p>",
+            "<b>D.</b> <p>44</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>43</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/853/gate2002-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In the index allocation scheme of blocks to a file, the maximum possible size of\nthe file depends on <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The size of the blocks, and the size of the address of the blocks</p>",
+            "<b>B.</b> <p>The number of blocks used for the index, and the size of the blocks.</p>",
+            "<b>C.</b> <p>The size of the blocks, the number of blocks used for the index, and the size\nof the address of the blocks.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The size of the blocks, the number of blocks used for the index, and the size\nof the address of the blocks.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/852/gate2002-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>With regard to the expressive power of the formal relational query languages,\nwhich of the following statements is true ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Relational algebra is more powerful than relational calculus.</p>",
+            "<b>B.</b> <p>Relational algebra has the same power as relational calculus.</p>",
+            "<b>C.</b> <p>Relational algebra has the same power as safe relational calculus.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relational algebra has the same power as safe relational calculus.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/825/gate2002-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Relation R with an associated set of functional dependencies, F , is decomposed\ninto BCNF. The redundancy (arising out of functional dependencies) in the\nresulting set of relations is. <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Zero</p>",
+            "<b>B.</b> <p>More than zero but less than that of an equivalent 3NF decomposition</p>",
+            "<b>C.</b> <p>Proportional to the size of F+</p>",
+            "<b>D.</b> <p>Indetermine.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Zero</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/824/gate2002-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In SQL, relations can contain null values, and comparisons with null values are treated as unknown. Suppose all comparisons with a null value are treated as false. Which of the following pairs is not equivalent? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x=5\\; not(not(x=5)) \\)</p>",
+            "<b>B.</b> <p>\\(x=5 \\; x \\gt 4 \\text{ and }x\\lt6 \\), where  \\(x \\) is an integer</p>",
+            "<b>C.</b> <p>\\(x \\neq 5\\) not(x=5)</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(x \\neq 5\\) not(x=5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/673/gate2000-2-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given relations r(w, x) and s(y, z) the result of <br><pre><code> select distinct w, x from r, s </code></pre>\nis guaranteed to be same as r, provided. <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>r has no duplicates and s is non-empty</p>",
+            "<b>B.</b> <p>r and s have no duplicates</p>",
+            "<b>C.</b> <p>s has no duplicates and r is non-empty</p>",
+            "<b>D.</b> <p>r and s have the same number of tuples</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>r has no duplicates and s is non-empty</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/672/gate2000-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Given the following relation instance.<br>\n\\(\\begin{array}{|l|l|l|}\\hline \\text{X} &amp; \\text{Y} &amp; \\text{Z} \\\\\\hline \\text{1} &amp; \\text{4} &amp; \\text{2} \\\\ \\text{1} &amp; \\text{5} &amp; \\text{3} \\\\ \\text{1} &amp; \\text{6} &amp; \\text{3} \\\\ \\text{3} &amp; \\text{2} &amp; \\text{2} \\\\\\hline \\end{array}\\)<br>Which of the following functional dependencies are satisfied by the instance? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(XY \\rightarrow Z \\text{ and } Z \\rightarrow Y\\)</p>",
+            "<b>B.</b> <p>\\(YZ \\rightarrow X \\text{ and } Y \\rightarrow Z\\)</p>",
+            "<b>C.</b> <p>\\(YZ \\rightarrow X \\text{ and } X \\rightarrow Z\\)</p>",
+            "<b>D.</b> <p>\\(XZ \\rightarrow Y \\text{ and }Y \\rightarrow X\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(YZ \\rightarrow X \\text{ and } Y \\rightarrow Z\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/671/gate2000-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given the relations <br>\nemployee (name, salary, dept-no), and<br>\ndepartment (dept-no, dept-name,address),<br>\nWhich of the following queries cannot be expressed using the basic relational algebra operations \\(\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)\\)? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Department address of every employee</p>",
+            "<b>B.</b> <p>Employees whose name is the same as their department name</p>",
+            "<b>C.</b> <p>The sum of all employees' salaries</p>",
+            "<b>D.</b> <p>All employees of a given department</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The sum of all employees' salaries</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/647/gate2000-1-23-isro2016-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>\\(B^{+}\\)-trees are preferred to binary trees in databases because <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Disk capacities are greater than memory capacities</p>",
+            "<b>B.</b> <p>Disk access is much slower than memory access</p>",
+            "<b>C.</b> <p>Disk data transfer rates are much less than memory data transfer rates</p>",
+            "<b>D.</b> <p>Disks are more reliable than memory</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Disk access is much slower than memory access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/646/gate2000-1-22-ugcnet-june2012-ii-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following is/are correct? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An SQL query automatically eliminates duplicates</p>",
+            "<b>B.</b> <p>An SQL query will not work if there are no indexes on the relations</p>",
+            "<b>C.</b> <p>SQL permits attribute names to be repeated in the same relation</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1502/gate1999-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the schema \\(R=(S,T, U, V)\\) and the dependencies \\(S \\rightarrow T, T \\rightarrow U, U \\rightarrow V\\) and \\(V \\rightarrow S\\). Let \\(R = (R1\\text{ and } R2)\\) be a decomposition such that \\(R1 \\cap R2 \\neq \\phi\\). The decomposition is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>not in 2NF</p>",
+            "<b>B.</b> <p>in 2NF but not 3NF</p>",
+            "<b>C.</b> <p>in 3NF but not in 2NF</p>",
+            "<b>D.</b> <p>in both 2NF and 3NF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>in both 2NF and 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1485/gate1999-2-7-ugcnet-june2014-iii-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For the schedule given below, which of the following is correct:<br>\\(\\begin{array}{lll} \\text{1} &amp; \\text{Read A} &amp; \\text{} \\\\ \\text{2} &amp; \\text{} &amp; \\text{Read B} \\\\ \\text{3} &amp; \\text{Write A} &amp; \\text{} \\\\ \\text{4} &amp; \\text{} &amp; \\text{Read A} \\\\ \\text{5} &amp; \\text{} &amp; \\text{Write A} \\\\ \\text{6} &amp; \\text{} &amp; \\text{Write B} \\\\ \\text{7} &amp; \\text{Read B} &amp; \\text{} \\\\ \\text{8} &amp; \\text{Write B} &amp; \\text{} \\\\\\end{array}\\) <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>This schedule is serializable and can occur in a scheme using 2PL protocol</p>",
+            "<b>B.</b> <p>This schedule is serializable but cannot occur in a scheme using 2PL protocol</p>",
+            "<b>C.</b> <p>This schedule is not serializable but can occur in a scheme using 2PL protocol</p>",
+            "<b>D.</b> <p>This schedule is not serializable and cannot occur in a scheme using 2PL protocol</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>This schedule is not serializable and cannot occur in a scheme using 2PL protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1484/gate1999-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let R = (A, B, C, D, E, F) be a relation scheme with the following dependencies \\(C \\rightarrow F, E \\rightarrow A, EC \\rightarrow D, A \\rightarrow B\\). Which one of the following is a key for R? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CD</p>",
+            "<b>B.</b> <p>EC</p>",
+            "<b>C.</b> <p>AE</p>",
+            "<b>D.</b> <p>AC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EC</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1477/gate1999-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The relational algebra expression equivalent to the following tuple calculus expression: <br>\n\\(\\left\\{t \\mid t \\in r \\land \\left(t[A] = 10 \\land t[B]=20\\right)\\right\\}\\) is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sigma_{(A=10 \\lor B=20)} (r)\\)</p>",
+            "<b>B.</b> <p>\\(\\sigma_{(A=10)} (r) \\cup \\sigma_{(B=20)} (r)\\)</p>",
+            "<b>C.</b> <p>\\(\\sigma_{(A=10)} (r) \\cap \\sigma_{(B=20)} (r)\\)</p>",
+            "<b>D.</b> <p>\\(\\sigma_{(A=10)} (r) - \\sigma_{(B=20)} (r)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\sigma_{(A=10)} (r) \\cap \\sigma_{(B=20)} (r)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1472/gate1999-1-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

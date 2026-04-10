@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "General_Aptitude-_CSE - General_Aptitude-_CSE - Slot 11",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "General_Aptitude-_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The exports and imports (in crores of Rs.) of a country from the year 2000 to 2007 are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q65_44ca4c19.jpg\"><br> <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2006",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his problem, success at the highest level will continue to elude him. <br>Which of the statement(s) below is/are logically valid and can be inferred from the above passage?\n<br><br>i.   He was already a successful batsman at the highest level.\n<br>ii.  He was to improve his temperament in order to become a great batsman.\n<br>iii. He failed to make many of his good starts count.\n<br>iv.  Improving his technical skills will guarantee success. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>iii and iv</p>",
+            "<b>B.</b> <p>ii and iii</p>",
+            "<b>C.</b> <p>i, ii and iii</p>",
+            "<b>D.</b> <p>ii only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ii and iii</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"#a_list\" target=\"_blank&quot;\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Choose the most appropriate equation for the function drawn as thick line, in the plot below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q63_b888cfee.jpg\"><br> <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x=y - |y|</p>",
+            "<b>B.</b> <p>x= -(y -|y|)</p>",
+            "<b>C.</b> <p>x=y + |y|</p>",
+            "<b>D.</b> <p>x= -(y + |y|)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>x= -(y -|y|)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The head of newly formed government desires to appoint five of the six selected members P, Q, R, S, T and U to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if S gets one of the five. R wants either Home or Finance or no portfolio. Q says that if S gets Power or Telecom, then she must get the other one. T insists on a portfolio if P gets one.\n<br><br>\nWhich is the valid distribution of portfolios? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-Home, Q-Power, R-Defense, S-Telecom, T-Finance</p>",
+            "<b>B.</b> <p>R-Home, S-Power, P-Defense, Q-Telecom, T-Finance</p>",
+            "<b>C.</b> <p>P-Home, Q-Power, T-Defense, S-Telecom, U-Finance</p>",
+            "<b>D.</b> <p>Q-Home, U-Power, T-Defense, R-Telecom, P-Finance</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R-Home, S-Power, P-Defense, Q-Telecom, T-Finance</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Alexander turned his attention towards India, since he had conquered Persia.\n<br><br>\nWhich one of the statements below is logically valid and can be inferred from the above sentence? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Alexander would not have turned his attention towards India had he not conquered Persia.</p>",
+            "<b>B.</b> <p>Alexander was not ready to rest on his laurels, and wanted to march to India.</p>",
+            "<b>C.</b> <p>Alexander was not completely in control of his army and could command it to move towards India.</p>",
+            "<b>D.</b> <p>Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Alexander would not have turned his attention towards India had he not conquered Persia.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A function f(x) is linear and has a value of 29 at x= -2 and 39 at x=3. Find its value at x=5. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>59</p>",
+            "<b>B.</b> <p>45</p>",
+            "<b>C.</b> <p>43</p>",
+            "<b>D.</b> <p>35</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>43</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Select the pair of best expresses a relationship similar to that expressed in the pair:\n<br><br>\nChildren : Pediatrician <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Adult : Orthopaedist</p>",
+            "<b>B.</b> <p>Females : Gynaecologist</p>",
+            "<b>C.</b> <p>Kidney : Nephrologist</p>",
+            "<b>D.</b> <p>Skin : Dermatologist</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Females : Gynaecologist</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>related</p>",
+            "<b>B.</b> <p>extraneous</p>",
+            "<b>C.</b> <p>outside</p>",
+            "<b>D.</b> <p>useful</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>extraneous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The Tamil version of __________ John Abraham-starrer Madras Cafe __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mr., was, found, on</p>",
+            "<b>B.</b> <p>a, was, found, at</p>",
+            "<b>C.</b> <p>the, was, found, on</p>",
+            "<b>D.</b> <p>a, being, find at</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the, was, found, on</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>If ROAD is written as URDG, then SWANshould be written as: <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>VXDQ</p>",
+            "<b>B.</b> <p>VZDQ</p>",
+            "<b>C.</b> <p>VZDP</p>",
+            "<b>D.</b> <p>UXDQ</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>VZDQ</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Out of the following 4 sentences, select the most suitable sentence with respect to grammar and usage: <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Since the report lacked needed information, it was of no use to them.</p>",
+            "<b>B.</b> <p>The report was useless to them because there were no needed information in it.</p>",
+            "<b>C.</b> <p>Since the report did not contain the needed information, it was not real useful to them.</p>",
+            "<b>D.</b> <p>Since the report lacked needed information, it would not had been useful to them.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Since the report lacked needed information, it was of no use to them.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If p, q, r, s are distinct integers such that:\\(f(p,q,r,s)= max (p,q,r,s)\\)  <br> \\(g(p,q,r,s)= min (p,q,r,s)\n\\)<br>\\(h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) \\gt (r \\times s)\\)<br>\\(\\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) \\gt (p \\times q)\\)<br><br>Also a function \\(fgh(p,q,r,s)=f(p,q,r,s) \\times g(p,q,r,s) \\times h(p,q,r,s)\\)<br>\nAlso the same operations are valid with two variable functions of the form \\(f(p,q)\\)<br>\nWhat is the value of \\(fg(h(2,5,7,3),4,6,8)\\)? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In a triangle \\(PQR, \\; PS\\) is the angle bisector of \\(\\angle QPR \\text{ and } \\angle QPS =60^\\circ\\). What is the length of \\(PS\\) ?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q63_c367ae7b.jpg\"><br> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{(q+r)} {qr}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\frac{qr} {q+r}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\sqrt {(q^2 + r^2)}\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\frac{(q+r)^2} {qr}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\frac{qr} {q+r}\\right)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Four branches of a company are located at M, N, O and P. M is north of N at a distance of 4km; P is south of O at a distance of 2 km; N is southeast of O by 1km. What is the distance between M and P in km? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5.34</p>",
+            "<b>B.</b> <p>6.74</p>",
+            "<b>C.</b> <p>25.5</p>",
+            "<b>D.</b> <p>45.49</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5.34</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8036/gate-cse-2015-set-2-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>If the list of letters \\(P, R, S, T, U\\) is an arithmetic sequence, which of the following are also in arithmetic sequence?  <br>I.    \\(2P,2R,2S,2T,2U\\)\n<br>II.  \\(P-3,R-3,S-3,T-3,U-3\\)\n<br>III. \\(P^2, R^2, S^2, T^2, U^2\\) <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and II</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>I and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8035/gate-cse-2015-set-2-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

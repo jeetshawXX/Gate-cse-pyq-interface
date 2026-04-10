@@ -1,0 +1,201 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C program: <br><pre><code>#include &lt; stdio.h &gt;\nint main( )\n{\n    int i, j, k = 0;\n    j = 2 * 3 / 4 + 2.0 / 5 + 8 / 5;\n    k -=  --j;\n    for(i = 0; i &lt; 5; i++)\n    {\n         switch(i + k)\n        {\n          case 1:\n          case 2: printf(\"\\n%d\", i+k);\n          case 3: printf(\"\\n%d\", i+k);\n          default: printf(\"\\n%d\", i+k);\n        }\n   }\nreturn 0;\n}</code></pre> The number of times printf statement is executed is ________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8557/gate2015-3-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\nint main( )\n{\nstatic int a[ ] = {10, 20, 30, 40, 50};\nstatic int *p[ ] = {a, a+3, a+4, a+1, a+2};\nint **ptr = p;\nptr++;\nprintf(\"%d%d\", ptr-p,**ptr);\n}</code></pre>The output of the program is ______________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "140",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8478/gate2015-3-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\nint f1(void);\nint f2(void);\nint f3(void);\nint x = 10;\nint main( )\n{\n   int x = 1;\n   x += f1( ) + f2( ) + f3( ) + f2( );\n   printf(\"%d\", x);\n   return 0;\n}\nint f1() { int x = 25; x++; return x;}\nint f2() { static int x = 50; x++; return x;}\nint f3() { x *= 10; return x};</code></pre> The output of the program is ________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "230",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8563/gate2015-3-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following recursive C function.<pre><code> void get(int n)\n{\nif (n&lt;1) return;\nget(n-1);\nget(n-3);\nprintf(\"%d\", n);\n}</code></pre> If get(6) function is being called in main()then how many times will the get()function be invoked before returning to the main()? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>35</p>",
+            "<b>D.</b> <p>45</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8498/gate2015-3-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following C program segment.<pre><code> #include &lt; stdio.h &gt;\nint main()\n{\nchar s1[7] = \"1234\", *p;\np = s1 + 2;\n*p = '0';\nprintf(\"%s\", s1);\n} </code></pre>  What will be printed by the program? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>120400</p>",
+            "<b>C.</b> <p>1204</p>",
+            "<b>D.</b> <p>1034</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1204</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8401/gate2015-3-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the C program below.<pre><code>\n#include &lt; stdio.h &gt;\nint *A, stkTop;\nint stkFunc(int opcode, int val)\n{\n    static int size=0, stkTop=0;\n    switch (opcode) {\n        case -1: size = val; break;\n        case 0: if (stkTop &lt; size) A[stkTop++] = val; break;\n        default: if (stkTop) return A[--stkTop];\n        }\n       return -1;\n}\nint main()\n{\n    int B[20]; A = B; stkTop = -1;\n    stkFunc (-1, 10);\n    stkFunc ( 0, 5);\n    stkFunc ( 0, 10);\n    printf (\"%d\\n\", stkFunc(1, 0) + stkFunc(1, 0));\n}</code></pre> The value printed by the above program is __________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8164/gate2015-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C function.<pre><code>int fun(int n){\n   int x=1,k;\n   if (n==1) return x;\n   for (k=1; k &lt; n; ++k)\n       x = x + fun(k) * fun(n-k);\n   return x;\n}</code></pre> The return value of fun(5) is ________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "51",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8060/gate2015-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following function written in the C programming language.<pre><code>   void foo(char *a){\n     if ( *a &amp;&amp; *a != '  '){\n          foo(a+1);\n          putchar(*a);\n       }\n} </code></pre> The output of the above function on input \\(\"ABCD \\;  \\; EFGH\"\\) is <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ABCD EFGH</p>",
+            "<b>B.</b> <p>ABCD</p>",
+            "<b>C.</b> <p>HGFE DCBA</p>",
+            "<b>D.</b> <p>DCBA</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>DCBA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8086/gate2015-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following pseudo code, where x and y are positive integers.<pre><code> begin\n   q := 0\n    r := x \n    while r &gt;= y  do\n         begin\n               r := r - y\n              q := q + 1\n        end\nend </code></pre> The post condition that needs to be satisfied after the program terminates is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(r=qx+y \\; \\wedge \\; r \\lt y\\)}</p>",
+            "<b>B.</b> <p>{\\(x=qy+r \\; \\wedge \\; r \\lt y\\)}</p>",
+            "<b>C.</b> <p>{\\(y=qx+r  \\; \\wedge \\; 0 \\lt r \\lt y\\)}</p>",
+            "<b>D.</b> <p>{\\( q+1 \\lt r-y \\; \\wedge  \\; y \\gt 0\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\(x=qy+r \\; \\wedge \\; r \\lt y\\)}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8276/gate2015-1-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>What is the output of the following C code? Assume that the address of x is 2000 (in decimal) and an integer requires four bytes of memory.<pre><code>int main () {\nunsigned int x[4][3] ={{1,2,3},{4,5,6},{7,8,9},{10,11,12}};\nprintf(\"%u, %u, %u\", x+3, *(x+3), *(x+2)+3);\n}</code></pre> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2036, 2036, 2036</p>",
+            "<b>B.</b> <p>2012, 4, 2204</p>",
+            "<b>C.</b> <p>2036, 10, 10</p>",
+            "<b>D.</b> <p>2012, 4, 6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2036, 2036, 2036</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8283/gate2015-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The output of the following C program is__________.<pre><code>  void f1(int a, int b) {\n    int c;\n    c=a; a=b; b=c;\n}\nvoid f2(int *a, int *b) {\n    int c;\n    c=*a; *a=*b; *b=c;\n}\nint main(){\n    int a=4, b=5, c=6;\n    f1(a,b);\n    f2(&amp;b, &amp;c);\n     printf(\"%d\",c-a-b);\n}</code></pre> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8185/gate2015-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the C function given below. Assume that the array listA contains n (&gt; 0) elements,\nsorted in ascending order.<pre><code>int ProcessArray(int *listA, int x, int n)\n{\n   int i, j, k;\n   i = 0;\n   j = n-1;\n   do {\n          k = (i+j)/2;\n          if (x &lt;= listA[k])\n               j = k-1;\n          if (listA[k] &lt;= x)\n              i = k+1;\n       }while (i &lt;= j);\nif (listA[k] == x)\n     return(k);\nelse\n    return -1;\n} </code></pre>\nWhich one of the following statements about the function ProcessArray is CORRECT? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It will run into an infinite loop when x is not in listA</p>",
+            "<b>B.</b> <p>It is an implementation of binary search</p>",
+            "<b>C.</b> <p>It will always find the maximum element in listA.</p>",
+            "<b>D.</b> <p>It will return ? 1 even when x is present in listA.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It is an implementation of binary search</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2076/gate2014-3-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the C function given below<pre><code> int f(int j)\n{\nstatic int i = 50;\nint k;\nif (i == j)\n{\nprintf(\"something\");\nk = f(i);\nreturn 0;\n}\nelse return 0;\n} </code></pre>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The function returns 0 for all values of j.</p>",
+            "<b>B.</b> <p>The function prints the string something for all values of j.</p>",
+            "<b>C.</b> <p>The function returns 0 when j = 50.</p>",
+            "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2008/gate2014-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following function<pre><code> double f (double x) {\nif ( abs (x*x - 3) &lt; 0. 01) return x;\nelse return f (x / 2 + 1.5/x);\n} </code></pre>\nGive a value q (to 2 decimals) such that f(q) will return q:______ <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.72",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2000/gate2014-2-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose n and p are unsigned int variables in a C program. We wish to set p to \\(^nC_3\\). If n is large, which one of the following statements is most likely to set p correctly? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = n * (n - 1) * (n-2) / 6;</p>",
+            "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+            "<b>C.</b> <p>p = n * (n - 1) / 3 * (n-2) / 2;</p>",
+            "<b>D.</b> <p>p = n * (n - 1) / 2 * (n-2) / 6.0;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1965/gate2014-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

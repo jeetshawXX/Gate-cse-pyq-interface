@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Internet Security",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Internet Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225839\"></a><div itemprop=\"text\"><p>In Challenge-Response authentication the claimant ____</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Proves that she knows the secret without revealing it</p>",
+            "<p>Proves that she does not know the secret</p>",
+            "<p>Reveals the secret</p>",
+            "<p>Gives a challenge</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225839/ugc-net-cse-july-2018-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/225839/ugc-net-cse-july-2018-part-2-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Probability - Combinatory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Combinatory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182053\"></a><div itemprop=\"text\"><p>&nbsp;A bag contains \\( 19 \\) red balls and \\( 19 \\) black balls.Two balls are removed at a time repeatedly and discarded if they are of the same&nbsp;colour, but if they are different, black ball is discarded and red ball is returned to the bag ,The probability that this process will terminate with one red ball is&nbsp;</p>\n\n</div><br><br><b>Probability: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\dfrac{1}{21} \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( 0 \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( 0.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)<br>\n\t&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182053/isro-dec2017-3\" target=\"_blank\">https://gateoverflow.in/182053/isro-dec2017-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

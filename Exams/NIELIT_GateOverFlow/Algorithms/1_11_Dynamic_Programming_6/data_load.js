@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Dynamic Programming",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Dynamic Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336336\"></a><div itemprop=\"text\"><p>Which of the following standard algorithms is not Dynamic Programming based?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bellman-Ford Algorithm for single source shortest path</p>",
+            "<p>Floyd Warshall Algorithm for all pairs shortest paths</p>",
+            "<p>\\( 0-1 \\) Knapsack problem</p>",
+            "<p>Prim’s Minimum Spanning Tree</p>"
+          ],
+          "correct_answer": "<p>Prim’s Minimum Spanning Tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336336/nielit-2017-july-scientist-b-cs-section-b-39\" target=\"_blank\">https://gateoverflow.in/336336/nielit-2017-july-scientist-b-cs-section-b-39</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369345\"></a><div itemprop=\"text\"><p>Given the following characteristics :</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Optimal substructure</li>\n\t<li>Overlapping subproblems</li>\n\t<li>Memorization</li>\n\t<li>Decrease and conquer</li>\n</ol>\n\n<p>Dynamic programming has the following characteristics :</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i), (ii), (iv)} \\)</p>",
+            "<p>\\( \\text{(i), (ii), (iii)} \\)</p>",
+            "<p>\\( \\text{(ii), (iii), (iv)} \\)</p>",
+            "<p>\\( \\text{(i), (iii), (iv)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i), (ii), (iii)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369345/nielit-2021-dec-scientist-a-section-b-68\" target=\"_blank\">https://gateoverflow.in/369345/nielit-2021-dec-scientist-a-section-b-68</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369318\"></a><div itemprop=\"text\"><p>The time complexity of solving the Longest Common Subsequence problem using Dynamic Programming is : (\\( m \\) and \\( n \\) are lengths of subsequences)</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{O(m.n)} \\)</p>",
+            "<p>\\( \\text{O(m+n)} \\)</p>",
+            "<p>\\( \\text{O(log m.n)} \\)</p>",
+            "<p>\\( \\text{O(m/n)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{O(m.n)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369318/nielit-2021-dec-scientist-a-section-b-95\" target=\"_blank\">https://gateoverflow.in/369318/nielit-2021-dec-scientist-a-section-b-95</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"378751\"></a><div itemprop=\"text\"><p>Which of the following methods can be used to solve the Knapsack problem?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Brute force algorithm&nbsp;</p>",
+            "<p>Recursion</p>",
+            "<p>Dynamic programming</p>",
+            "<p>Brute force, Recursion, and Dynamic Programming</p>"
+          ],
+          "correct_answer": "<p>Brute force, Recursion, and Dynamic Programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378751/nielit-2021-dec-scientist-b-section-b-12\" target=\"_blank\">https://gateoverflow.in/378751/nielit-2021-dec-scientist-b-section-b-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"378747\"></a><div itemprop=\"text\"><p>In dynamic programming approach the optimum solution is calculated in the following way:</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Divide and conquer</p>",
+            "<p>Top up fashion</p>",
+            "<p>Bottom-up approach</p>",
+            "<p>Mixed approach</p>"
+          ],
+          "correct_answer": "<p>Bottom-up approach</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378747/nielit-2021-dec-scientist-b-section-b-16\" target=\"_blank\">https://gateoverflow.in/378747/nielit-2021-dec-scientist-b-section-b-16</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"351355\"></a><div itemprop=\"text\"><p>Assembly line scheduling and Longest Common Subsequence problems are an example of _______.</p></div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 105</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dynamic Programming</p>",
+            "<p>Greedy Algorithms</p>",
+            "<p>Greedy Algorithms and Dynamic Programming respectively</p>",
+            "<p>Dynamic Programming and Branch and Bound respectively</p>"
+          ],
+          "correct_answer": "<p>Dynamic Programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351355/nielit-scientific-assistant-a-2020-november-105\" target=\"_blank\">https://gateoverflow.in/351355/nielit-scientific-assistant-a-2020-november-105</a></p>"
+        }
+      ]
+    }
+  ]
+});

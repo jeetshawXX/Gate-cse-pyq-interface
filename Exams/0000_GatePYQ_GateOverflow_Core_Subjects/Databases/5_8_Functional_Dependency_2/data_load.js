@@ -1,0 +1,47 @@
+window.__examLoadCallback({
+  "title": "Databases - Functional Dependency",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Functional Dependency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460043\"></a><div itemprop=\"text\"><p>Consider a relational schema team \\( \\text{(name,city,owner)} \\), with functional dependencies \\( \\{\\text{name} \\rightarrow \\text{city}, \\text{name} \\rightarrow \\text{owner} \\} \\).<br><br>The relation team is decomposed into two relations, \\( \\text{t1(name,city)} \\) and \\( \\text{t2(name, owner)} \\). Which of the following statement(s) is/are TRUE?</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 37</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The relation team is NOT in BCNF .</p>",
+            "<p>The relations \\( t 1 \\) and \\( t 2 \\) are in BCNF.</p>",
+            "<p>The decomposition constitutes a lossless join.</p>",
+            "<p>The relation team is NOT in \\( 3 \\) NF .</p>"
+          ],
+          "correct_answer": [
+            "<p>The relations \\( t 1 \\) and \\( t 2 \\) are in BCNF.</p>",
+            "<p>The decomposition constitutes a lossless join.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460043/gate-cse-2025-set-1-question-37\" target=\"_blank\">https://gateoverflow.in/460043/gate-cse-2025-set-1-question-37</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"460975\"></a><div itemprop=\"text\"><p>​​Consider a database relation \\( \\text{R} \\) with attributes \\( \\text{ABCDEFG} \\), and having the following functional dependencies:</p><p>\\[<br>\\mathrm{A} \\rightarrow \\mathrm{BCEF} \\quad \\mathrm{E} \\rightarrow \\mathrm{DG} \\quad \\mathrm{BC} \\rightarrow \\mathrm{~A}<br>\\]<br>Which of the following statements is/are correct?</p></div><br><br><b>GATE DA 2025 | Question: 47</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\mathrm{A} \\)&nbsp;&nbsp;is the only candidate key of&nbsp;\\( \\mathrm{R} \\)&nbsp;</p>",
+            "<p>\\( \\mathrm{A}, \\mathrm{BC} \\) are the candidate keys of&nbsp;\\( \\mathrm{R} \\)&nbsp;</p>",
+            "<p>\\( \\mathrm{A}, \\mathrm{BC}, \\mathrm{E} \\) are the candidate keys of&nbsp;\\( \\mathrm{R} \\)&nbsp;</p>",
+            "<p>Relation \\( \\mathrm{R} \\)&nbsp;is not in Boyce-Codd Normal Form \\( \\text{(BCNF)} \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\mathrm{A}, \\mathrm{BC} \\) are the candidate keys of&nbsp;\\( \\mathrm{R} \\)&nbsp;</p>",
+            "<p>Relation \\( \\mathrm{R} \\)&nbsp;is not in Boyce-Codd Normal Form \\( \\text{(BCNF)} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460975/gate-da-2025-question-47\" target=\"_blank\">https://gateoverflow.in/460975/gate-da-2025-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+});

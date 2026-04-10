@@ -1,0 +1,27 @@
+{
+  "title": "Programming and DS - Data Structures - Infix Prefix",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Infix Prefix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"358950\"></a><div itemprop=\"text\"><p>What is the prefix expression corresponding to the expression:</p>\n\n<p>\\( \\left ( \\left ( 9+8 \\right ) \\ast 7+\\left ( 6\\ast \\left ( 5+4 \\right ) \\right )\\ast 3\\right )+2? \\)</p>\n\n<p>You may assume that \\( \\ast \\) has precedence over \\( + \\)?</p>\n\n</div><br><br><b>Data Structures: TIFR CSE 2021 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\ast + +\\: 987 \\ast \\ast \\: 6 + + \\:5432 \\)</p>",
+            "<p>\\( \\ast + + +\\: 987 \\ast \\ast \\: 6 + \\:5432 \\)</p>",
+            "<p>\\( + \\ast + +\\: 987 \\ast \\ast \\: 6 + \\:5432 \\)</p>",
+            "<p>\\( + + \\ast +\\: 987 \\ast \\ast \\: 6 + \\:5432 \\)</p>",
+            "<p>\\( + \\ast + \\ast \\: 987+ + \\: 6 \\ast \\:5432 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( + + \\ast +\\: 987 \\ast \\ast \\: 6 + \\:5432 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358950/tifr-cse-2021-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/358950/tifr-cse-2021-part-b-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

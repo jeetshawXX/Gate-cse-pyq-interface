@@ -1,0 +1,26 @@
+{
+  "title": "Artificial Intelligence - Blocks World Problem",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Blocks World Problem",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59505\"></a><div itemprop=\"text\"><p>The Blocks World Problem in Artificial Intelligence is normally discussed to explain a</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | September 2013 | Part 3 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Search technique</p>",
+            "<p>Planning system</p>",
+            "<p>Constraint satisfaction system</p>",
+            "<p>Knowledge base system</p>"
+          ],
+          "correct_answer": "<p>Planning system</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59505/ugc-net-cse-september-2013-part-3-question-5\" target=\"_blank\">https://gateoverflow.in/59505/ugc-net-cse-september-2013-part-3-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

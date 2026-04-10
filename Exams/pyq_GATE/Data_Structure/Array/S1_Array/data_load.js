@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Array - Array - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Array",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An array \\(A \\) of length \\(n \\) with distinct elements is said to be bitonic if there is an index \\(1 \\leq i \\leq n \\) such that \\(A[1..i] \\) is sorted in the non-decreasing order and \\(A[i+1..n] \\) is sorted in the non-increasing order.  <br>\nWhich ONE of the following represents the best possible asymptotic bound for the worst-case number of comparisons by an algorithm that searches for an element in a bitonic array \\(A \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta(n) \\)</p>",
+            "<b>B.</b> <p>\\(\\Theta(1) \\)</p>",
+            "<b>C.</b> <p>\\(\\Theta(\\log ^2 n) \\)</p>",
+            "<b>D.</b> <p>\\(\\Theta(\\log n) \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta(\\log n) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460804/gate-cse-2025-set-2-question-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\( A \\) be an array containing integer values. The distance of \\( A \\) is defined as the minimum number of elements in \\( A \\) that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array \\( [2,5,3,1,4,2,6] \\) is _____ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422872/gate-cse-2024-set-2-question-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the worst-case number of arithmetic operations performed by recursive binary search on a sorted array of size n? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (\\sqrt{n})\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta ( \\log _2 (n))\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta ( n^2)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta ( n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta ( \\log _2 (n))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357532/gate-cse-2021-set-2-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let P be an array containing n integers. Let t be the lowest upper bound on the number of comparisons of the array elements, required to find the minimum and maximum values in an arbitrary array of n elements. Which one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(t \\gt 2n-2\\)</p>",
+            "<b>B.</b> <p>\\(t \\gt 3\\lceil \\frac{n}{2}\\rceil \\text{ and } t\\leq 2n-2\\)</p>",
+            "<b>C.</b> <p>\\(t \\gt n \\text{ and } t\\leq 3\\lceil \\frac{n}{2}\\rceil\\)</p>",
+            "<b>D.</b> <p>\\(t \\gt \\lceil \\log_2(n)\\rceil \\text{ and } t\\leq n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(t \\gt n \\text{ and } t\\leq 3\\lceil \\frac{n}{2}\\rceil\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357450/gate-cse-2021-set-1-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let A be an array of 31 numbers consisting of sequence of 0's followed by a sequence of 1's.\nThe problem is to find the smallest index i that A[i] is 1 by probing the minimum numbers of\nlocations in A. The worst case number of probes performed by an optimal algorithm is\n_____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118331/gate2017-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following two C code segments. Y and X are one and two dimensional arrays of size n and nxn respectively, where \\(2\\leq n\\leq 10\\). Assume that in both code segments, elements of Y are initialized to 0 and each element X[i][j] of array X is initialized to i+j. Further assume that when stored in main memory all elements of X are in same main memory page frame.   <br> Code segment 1:<pre><code>//initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i &lt; n; i++)\nY[i] += X[0][i]; </code></pre>  Code Segment 2:<pre><code>//initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i &lt; n; i++)\nY[i] += X[i][0];</code></pre> Which of the following statements is/are correct?  <br>S1: Final contents of array Y will be same in both code segments <br> S2: Elements of array X accessed inside the for loop shown in code segment 1 are contiguous in main memory <br> S3: Elements of array X accessed inside the for loop shown in code segment 2 are contiguous in main memory <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S2 is correct</p>",
+            "<b>B.</b> <p>Only S3 is correct</p>",
+            "<b>C.</b> <p>Only S1 and S2 are correct</p>",
+            "<b>D.</b> <p>Only S1 and S3 are correct</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only S1 and S2 are correct</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8486/gate2015-3-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The minimum number of comparisons required to determine if an integer appears\nmore than n/2 times in a sorted array of n integers is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta\\)(n)</p>",
+            "<b>B.</b> <p>\\(\\Theta\\)(logn)</p>",
+            "<b>C.</b> <p>\\(\\Theta\\)(log*n)</p>",
+            "<b>D.</b> <p>\\(\\Theta\\)(1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta\\)(logn)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/452/gate2008-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>An array of n numbers is given, where n is an even number. The maximum as well as the minimum of these n numbers needs to be determined. Which of the following is TRUE about the number of comparisons needed? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At least 2n - c comparisons, for some constant c, are needed.</p>",
+            "<b>B.</b> <p>At most 1.5n - 2 comparisons are needed.</p>",
+            "<b>C.</b> <p>At least 2 nlog n comparisons are needed.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At most 1.5n - 2 comparisons are needed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1248/gate2007-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given two arrays of numbers \\(a_{1},...,a_{n}\\) and \\(b_{1},...,b_{n}\\) where each number is 0 or 1,\nthe fastest algorithm to find the largest span(i,j) such that \\(a_{i}+a_{i+1}+...+a_{j}=b_{i}+b_{i+1}+.....+b_{j}\\) , or report that there is no such span, <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Takes \\(O(3^{n})\\) and \\(\\Omega (2^{n})\\) time if hashing is permitted</p>",
+            "<b>B.</b> <p>Takes \\(O(n^{3})\\) and \\(\\Omega (n^{2.5})\\) time in the key comparison model</p>",
+            "<b>C.</b> <p>Takes \\(\\Theta (n)\\) time and space</p>",
+            "<b>D.</b> <p>Takes \\(O(\\sqrt{n})\\) time only if the sum of the 2n elements is an even number</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Takes \\(\\Theta (n)\\) time and space</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1832/gate2006-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>An element in an array X is called a leader if it is grater than all elements to the\nright of it in X. The best algorithm to find all leaders in an array. <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Solves it in linear time using a left to right pass of the array</p>",
+            "<b>B.</b> <p>Solves in linear time using a right to left pass of the array</p>",
+            "<b>C.</b> <p>Solves it is using divide and conquer in time \\(\\Theta\\)(nlogn)</p>",
+            "<b>D.</b> <p>Solves it in time \\(\\Theta (n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Solves in linear time using a right to left pass of the array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/978/gate2006-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let a and b be two sorted arrays containing n integers each, in non-decreasing order. Let c be a sorted array containing 2n integers obtained by merging the two arrays a and b. Assuming the arrays are indexed starting from 0, consider the following four statements<br><br>\nI. \\(a[i] \\geq b [i] \\Rightarrow c[2i] \\geq a [i]\\)<br>\nII. \\(a[i] \\geq b [i] \\Rightarrow c[2i] \\geq b [i]\\)<br>\nIII. \\(a[i] \\geq b [i] \\Rightarrow c[2i] \\leq a [i]\\)<br>\nIV. \\(a[i] \\geq b [i] \\Rightarrow c[2i] \\leq b [i]\\)<br><br>\nWhich of the following is TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only I and II</p>",
+            "<b>B.</b> <p>only I and IV</p>",
+            "<b>C.</b> <p>only II and III</p>",
+            "<b>D.</b> <p>only III and IV</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>only II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3820/gate2005-it-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A program P reads in 500 integers in the range [0,100] representing the scores of 500 students. It then prints the frequency of each score above 50. What would be the best way for P to store the frequencies? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An array of 50 numbers</p>",
+            "<b>B.</b> <p>An array of 100 numbers</p>",
+            "<b>C.</b> <p>An array of 500 numbers</p>",
+            "<b>D.</b> <p>A dynamically allocated array of 550 numbers</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>An array of 50 numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1347/gate2005-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Two matrices M1 and M2 are to be stored in arrays A and B respectively. Each array can be stored\neither in row-major or column-major order in contiguous memory locations. The time complexity of\nan algorithm to compute M1 x M2 will be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>best if A is in row-major, and B is in column major order</p>",
+            "<b>B.</b> <p>best if both are in row-major order</p>",
+            "<b>C.</b> <p>best if both are in column-major order</p>",
+            "<b>D.</b> <p>independent of the storage scheme</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>independent of the storage scheme</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1036/gate2004-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following algorithm for searching for a given number x in an unsorted\narray A[1.....n] having n distinct values : <br><br>\n(1) Choose an i uniformly at random from [1....n]<br>\n(2) If A[i] = x then stop else Goto 1; <br><br>\nAssuming that x is present A, What is the expected number of comparisons made\nby the algorithm before it terminates? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>n-1</p>",
+            "<b>C.</b> <p>2n</p>",
+            "<b>D.</b> <p>n/2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/840/gate2002-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following declaration of a two-dimensional array in C : <br><br>\nChar a[100][100]<br>\nAssuming that the main memory is byte-addressable and that array is stored\nstarting form memory address 0, the address of a [40] [50] is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4040</p>",
+            "<b>B.</b> <p>4050</p>",
+            "<b>C.</b> <p>5040</p>",
+            "<b>D.</b> <p>5040</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4050</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/838/gate2002-2-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

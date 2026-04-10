@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 17",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following suffices to convert an arbitrary CFG to an LL(1) grammar? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Removing left recursion alone</p>",
+            "<b>B.</b> <p>Factoring the grammar alone</p>",
+            "<b>C.</b> <p>Removing left recursion and factoring the grammar</p>",
+            "<b>D.</b> <p>None of this</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of this</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/906/gate2003-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>If the strings of a language L can be effectively enumerated in lexicographic (i.e.\nalphabetic) order, which of the following statements is true? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is necessarily finite</p>",
+            "<b>B.</b> <p>L is regular but not necessarily finite</p>",
+            "<b>C.</b> <p>L is context free but not necessarily regular</p>",
+            "<b>D.</b> <p>L is recursive but not necessarily context free</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>L is recursive but not necessarily context free</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/120/gate2003-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The regular expression 0*(10*)* denotes the same set as <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1*0)*1*</p>",
+            "<b>B.</b> <p>0 + (0 + 10) *</p>",
+            "<b>C.</b> <p>(0 + 1)* 10(0 + 1)*</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(1*0)*1*</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/905/gate2003-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Nobody knows yet if P = NP. Consider the language L defined as follows : \\(L=\\left\\{\\begin{matrix} (0+1)^{*}\\; \\; \\; if P=NP\\\\ \\Phi \\; \\; otherwise \\end{matrix}\\right.\\)\n<br> Which of the following statements is true ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is recursive</p>",
+            "<b>B.</b> <p>L is recursively enumerable but not recursive</p>",
+            "<b>C.</b> <p>L is not recursively enumerable</p>",
+            "<b>D.</b> <p>Whether L is recursive or not will be known after we find out if P = NP</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L is recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/904/gate2003-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The C language is : <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A context free language</p>",
+            "<b>B.</b> <p>A context sensitive language</p>",
+            "<b>C.</b> <p>A regular language</p>",
+            "<b>D.</b> <p>Parsable fully only by a Turing machine</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A context sensitive language</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/848/gate2002-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following is true ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The complement of a recursive language is recursive.</p>",
+            "<b>B.</b> <p>The complement of a recursively enumerable language is recursively\nenumerable.</p>",
+            "<b>C.</b> <p>The complement of a recursive language is either recursive or recursively\nenumerable.</p>",
+            "<b>D.</b> <p>The complement of a context-free language is context-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The complement of a recursive language is recursive.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/844/gate2002-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The smallest finite automaton which accepts the language {x length of x is\ndivisible by 3} has <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 states</p>",
+            "<b>B.</b> <p>3 states</p>",
+            "<b>C.</b> <p>4 states</p>",
+            "<b>D.</b> <p>5 states</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3 states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/843/gate2002-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The finite state machine described by the following state diagram with A as\nstarting state, where an arc label is x/y and x stands for 1-bit input and y stands\nfor 2-bit output. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q30_efb2d498.jpg\"> <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Outputs the sum of the present and the previous bits of the input.</p>",
+            "<b>B.</b> <p>(Outputs 01 whenever the input sequence contains 11</p>",
+            "<b>C.</b> <p>Outputs 00 whenever the input sequence contains 10</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Outputs the sum of the present and the previous bits of the input.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/835/gate2002-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The language accepted by a Pushdown Automaton in which the stack is limited\nto 10 items is best described as <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Context free</p>",
+            "<b>B.</b> <p>Regular</p>",
+            "<b>C.</b> <p>Deterministic context</p>",
+            "<b>D.</b> <p>Recursive</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/811/gate2002-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following decision problems:\n<br><br>\n(P1): Does a given finite state machine accept a given string?<br>(P2): Does a given context free grammar generate an infinite number of strings?<br><br>Which of the following statements is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both(P1) and (P2) are decidable</p>",
+            "<b>B.</b> <p>Neither (P1) nor (P2) is decidable</p>",
+            "<b>C.</b> <p>Only (P1) is decidable</p>",
+            "<b>D.</b> <p>Only (P2) is decidable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both(P1) and (P2) are decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/656/gate2000-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What can be said about a regular language L over {a} whose minimal finite state automaton has two states? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L must be \\(\\{a^n \\mid n \\ \\text{ is odd}\\}\\)</p>",
+            "<b>B.</b> <p>L must be \\(\\{a^n \\mid n \\ \\text{ is even}\\}\\)</p>",
+            "<b>C.</b> <p>L must be \\(\\{a^n \\mid n \\geq 0\\}\\)</p>",
+            "<b>D.</b> <p>Either L must be\\(\\{a^n \\mid n \\text{ is odd}\\}\\), or L must be \\(\\{a^n \\mid n \\text{ is even}\\}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Either L must be\\(\\{a^n \\mid n \\text{ is odd}\\}\\), or L must be \\(\\{a^n \\mid n \\text{ is even}\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/655/gate2000-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let L denote the languages generated by the grammar \\(S \\to 0S0 \\mid 00\\).\nWhich of the following is TRUE? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L = 0^+\\)</p>",
+            "<b>B.</b> <p>L is regular but not \\(0^+\\)</p>",
+            "<b>C.</b> <p>L is context free but not regular</p>",
+            "<b>D.</b> <p>L is not context free</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L is regular but not \\(0^+\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/628/gate2000-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let S and T be languages over \\(\\Sigma=\\{a.b\\}\\) represented by the regular expressions \\((a+b^*)^* \\text{ and } (a+b)^*\\), respectively. Which of the following is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S \\subset T\\)</p>",
+            "<b>B.</b> <p>\\(T \\subset S\\)</p>",
+            "<b>C.</b> <p>S = T</p>",
+            "<b>D.</b> <p>\\(S \\cap T = \\phi\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S = T</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/627/gate2000-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>If L1 is context free language and L2 is a regular language which of the following is/are false? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1-L2 is not context free</p>",
+            "<b>B.</b> <p>\\(L1 \\cap L2\\) is context free</p>",
+            "<b>C.</b> <p>\\(\\sim L1\\) is context free</p>",
+            "<b>D.</b> <p>\\(\\sim L2\\) is regular</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L1-L2 is not context free</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1482/gate1999-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\(L_1\\) be the set of all languages accepted by a PDA by final state and \\(L_2\\) the set of all languages accepted by empty stack. Which of the following is true? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1 = L_2\\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\supset L_2\\)</p>",
+            "<b>C.</b> <p>\\(L_1 \\subset L_2\\)</p>",
+            "<b>D.</b> <p>None</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L_1 = L_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/377/gate1999-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

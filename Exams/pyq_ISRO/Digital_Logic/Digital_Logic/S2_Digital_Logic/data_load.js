@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>When two n-bit binary numbers are added the sum will contain at the most <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n  bits</p>",
+            "<b>B.</b> <p>n+2 bits</p>",
+            "<b>C.</b> <p>n+3 bits</p>",
+            "<b>D.</b> <p>n+1 bits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n+1 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128641/isro2017-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the minimum number of two-input NAND gates used to perform the function of two-input OR gate? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One</p>",
+            "<b>B.</b> <p>Two</p>",
+            "<b>C.</b> <p>Three</p>",
+            "<b>D.</b> <p>Four</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Three</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/129118/isro2017-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The functional difference between SR flip-flop and J-K flip-flop is that : <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>J -K flip-flop is faster than SR flip-flop</p>",
+            "<b>B.</b> <p>J-K flip-flop has a feedback path</p>",
+            "<b>C.</b> <p>J-K flip-flop accepts both inputs 1</p>",
+            "<b>D.</b> <p>None of them</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>J-K flip-flop accepts both inputs 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55462/isro2016-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following binary number is the same as its 2's complement ? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1010</p>",
+            "<b>B.</b> <p>\\(0101\\)</p>",
+            "<b>C.</b> <p>1000</p>",
+            "<b>D.</b> <p>1001</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55458/isro2016-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The simplified SOP (Sum of Product) from the Boolean expression<br>\\((P + \\bar{Q} + \\bar{R}) . (P + {Q} + R) . (P + Q +\\bar{R})\\)<br>is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\bar{P}.Q+\\bar{R})\\)</p>",
+            "<b>B.</b> <p>\\((P+{Q}.\\bar{R})\\)</p>",
+            "<b>C.</b> <p>\\(({P}.\\bar{Q}+R)\\)</p>",
+            "<b>D.</b> <p>\\((P.Q+R)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((P+{Q}.\\bar{R})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55660/isro2016-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The Excess-3 code is also called <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Cyclic Redundancy Code</p>",
+            "<b>B.</b> <p>Weighted Code</p>",
+            "<b>C.</b> <p>Self-Complementing Code</p>",
+            "<b>D.</b> <p>Algebraic Code</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Self-Complementing Code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56034/isro2016-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If \\((12A7C)_{16} = (X)_8\\) then the value of X is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>224174</p>",
+            "<b>B.</b> <p>425174</p>",
+            "<b>C.</b> <p>6173</p>",
+            "<b>D.</b> <p>225174</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>225174</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56071/isro2016-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The circuit given in the figure below is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q13_3e8c97a6.jpg\"><br> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An oscillating circuit and its output is square wave</p>",
+            "<b>B.</b> <p>The one whose output remains stable in '1' state</p>",
+            "<b>C.</b> <p>The one having output remains stable in '0' state</p>",
+            "<b>D.</b> <p>has a single pulse of three times propagation delay</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>An oscillating circuit and its output is square wave</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55965/isro2016-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The logic circuit given below converts a binary code y1, y2, y3 into<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q12_4469eeb2.jpg\"><br> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Excess-3 code</p>",
+            "<b>B.</b> <p>Gray code</p>",
+            "<b>C.</b> <p>BCD code</p>",
+            "<b>D.</b> <p>Hamming code</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Gray code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56070/isro2016-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following gate network<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q10_1f8baeab.jpg\"><br>Which one of the following gates is redundant? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Gate No. 1</p>",
+            "<b>B.</b> <p>Gate No. 2</p>",
+            "<b>C.</b> <p>Gate No. 3</p>",
+            "<b>D.</b> <p>Gate No. 4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Gate No. 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55959/isro2016-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>For a binary half-subtractor having two inputs A and B, the correct set of logical outputs D(=A minus B) and X(=borrow) are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(D=AB+\\bar{A}B, X=\\bar{A}B\\)</p>",
+            "<b>B.</b> <p>\\(D=\\bar{A}B+A\\bar{B}, X=A\\bar{B}\\)</p>",
+            "<b>C.</b> <p>\\(D=\\bar{A}B+A\\bar{B}, X=\\bar{A} B\\)</p>",
+            "<b>D.</b> <p>\\(D=AB+\\bar{A}B, X=A\\bar{B}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(D=\\bar{A}B+A\\bar{B}, X=\\bar{A} B\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55958/isro2016-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The minimum Boolean expression for the following circuit is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q8_ae4ca5cf.jpg\"><br> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AB+AC+BC</p>",
+            "<b>B.</b> <p>A+BC</p>",
+            "<b>C.</b> <p>A+B</p>",
+            "<b>D.</b> <p>A+B+C</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>AB+AC+BC</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55951/isro2016-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The minimum number of \\(\\text{NAND}\\) gates required to implement the Boolean function \\(A + A\\bar{B} + A\\bar{B}C\\) is equal to <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 (Zero)</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0 (Zero)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/41842/isro2016-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The decimal number has 64 digits. The number of bits needed for its equivalent binary representation is? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>200</p>",
+            "<b>B.</b> <p>213</p>",
+            "<b>C.</b> <p>246</p>",
+            "<b>D.</b> <p>277</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>213</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50363/isro2015-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The boolean expression \\(A B+A B^{\\prime}+A^{\\prime} C+A C\\) is independent of the boolean variable <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51074/isro2015-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,107 @@
+{
+  "title": "Algorithms - P NP NPC NPH",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "P NP NPC NPH",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18754\"></a><div itemprop=\"text\"><p>Suppose a language \\( L \\) is \\( \\mathbf{NP} \\) complete. Then which of the following is FALSE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2010 | Part B | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( L \\in \\mathbf{NP} \\)</p>",
+            "<p>Every problem in \\( \\mathbf{P} \\) is polynomial time reducible to \\( L \\).</p>",
+            "<p>Every problem in \\( \\mathbf{NP} \\) is polynomial time reducible to \\( L \\).</p>",
+            "<p>The Hamilton cycle problem is polynomial time reducible to \\( L \\).</p>",
+            "<p>\\( \\mathbf{P} \\neq \\mathbf{NP} \\) and \\( L \\in \\mathbf{P} \\).</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18754/tifr-cse-2010-part-b-question-39\" target=\"_blank\">https://gateoverflow.in/18754/tifr-cse-2010-part-b-question-39</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"20922\"></a><div itemprop=\"text\"><p>Given an integer \\( n\\geq 3 \\), consider the problem of determining if there exist integers \\( a,b\\geq 2 \\) such that \\( n=a^{b} \\). Call this the forward problem. The reverse problem is: given \\( a \\) and \\( b \\), compute \\( a^{b} \\) (mod b). Note that the input length for the forward problem is \\( \\lfloor\\log n\\rfloor + 1 \\), while the input length for the reverse problem is \\( \\lfloor\\log a\\rfloor + \\lfloor\\log b\\rfloor + 2 \\). Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2011 | Part B | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both the forward and reverse problems can be solved in time polynomial in the lengths of their respective inputs.</p>",
+            "<p>The forward problem can be solved in polynomial time, however the reverse problem is \\( NP \\)-hard.</p>",
+            "<p>The reverse problem can be solved in polynomial time, however the forward problem is \\( NP \\)-hard.</p>",
+            "<p>Both the forward and reverse problem are \\( NP \\)-hard.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>Both the forward and reverse problems can be solved in time polynomial in the lengths of their respective inputs.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20922/tifr-cse-2011-part-b-question-37\" target=\"_blank\">https://gateoverflow.in/20922/tifr-cse-2011-part-b-question-37</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"25668\"></a><div itemprop=\"text\"><p>Which of the following is not implied by \\( P=NP \\)?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)SAT can be solved in polynomial time.</p>",
+            "<p>Halting problem can be solved in polynomial time.</p>",
+            "<p>Factoring can be solved in polynomial time.</p>",
+            "<p>Graph isomorphism can be solved in polynomial time.</p>",
+            "<p>Travelling salesman problem can be solved in polynomial time.</p>"
+          ],
+          "correct_answer": "<p>Halting problem can be solved in polynomial time.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25668/tifr-cse-2013-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/25668/tifr-cse-2013-part-b-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"95828\"></a><div itemprop=\"text\"><p>A multivariate polynomial in \\( n \\) variables with integer coefficients has a binary root if it is possible to assign each variable either 0 or 1, so that the polynomial evaluates to 0. For example, the multivariate polynomial \\( -2x_1^3 -x_1x_2+2 \\) has the binary root \\( (x_1=1, x_2=0) \\). Then determining whether a multivariate polynomial, given as the sum of monimials, has a binary root:</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2017 | Part B | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>is trivial: every polynomial has a binary root</p>",
+            "<p>can be done in polynomial time</p>",
+            "<p>is NP-hard, but not in NP</p>",
+            "<p>is in NP, but not in P and not NP-hard</p>",
+            "<p>is both in NP and NP-hard</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95828/tifr-cse-2017-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/95828/tifr-cse-2017-part-b-question-15</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"95673\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>Checking if a given \\( undirected \\) graph has a cycle is in \\( \\mathsf{P} \\)</li>\n\t<li>Checking if a given \\( undirected \\) graph has a cycle is in \\( \\mathsf{NP} \\)</li>\n\t<li>Checking if a given \\( directed \\) graph has a cycle is in \\( \\mathsf{P} \\)</li>\n\t<li>Checking if a given \\( directed \\) graph has a cycle is in \\( \\mathsf{NP} \\)</li>\n</ol>\n\n<p>Which of the above statements is/are TRUE? Choose from the following options.</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2017 | Part B | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only i and ii</p>",
+            "<p>Only ii and iv</p>",
+            "<p>Only ii, iii, and iv</p>",
+            "<p>Only i, ii and iv</p>",
+            "<p>All of them</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95673/tifr-cse-2017-part-b-question-2\" target=\"_blank\">https://gateoverflow.in/95673/tifr-cse-2017-part-b-question-2</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"381999\"></a><div itemprop=\"text\"><p>Consider the assertions</p>\n\n<p>\\( \\text{(A1)} \\) Given a directed graph \\( G \\) with positive weights on the edges, two special vertices \\( s \\) and \\( t \\), and an integer \\( k \\) - it is \\( \\text{NP} \\)-complete to determine if \\( G \\) has an \\( s- t \\) path of length at most \\( k \\).</p>\n\n<p>\\( \\text{(A2)} \\) \\( \\mathrm{P}=\\mathrm{NP} \\)</p>\n\n<p>Then, which of the following is true?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2022 | Part B | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A1} \\) implies \\( \\text{A2} \\) and \\( \\text{A2} \\) implies \\( \\text{A1} \\)</p>",
+            "<p>\\( \\text{A1} \\) implies \\( \\text{A2} \\) and \\( \\text{A2} \\) does not imply \\( \\text{A1} \\)</p>",
+            "<p>\\( \\text{A1} \\) does not imply \\( \\text{A2} \\) and \\( \\text{A2} \\) implies \\( \\text{A1} \\)</p>",
+            "<p>\\( \\text{A1} \\) does not imply \\( \\text{A2} \\) and \\( \\text{A2} \\) does not imply \\( \\text{A1} \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A1} \\) implies \\( \\text{A2} \\) and \\( \\text{A2} \\) implies \\( \\text{A1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381999/tifr-cse-2022-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/381999/tifr-cse-2022-part-b-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Inequality",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Inequality",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411708\"></a><div itemprop=\"text\"><p>​​​​​​​Consider the following inequalities.</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( 3p \\:– q &lt; 4 \\)</li>\n\t<li>\\( 3q \\:– p &lt; 12 \\)</li>\n</ol>\n\n<p>Which one of the following expressions below satisfies the above two inequalities?</p>\n\n</div><br><br><b>GATE CH 2022 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p + q &lt; 8 \\)</p>",
+            "<p>\\( p + q = 8 \\)</p>",
+            "<p>\\( 8 \\leq p + q &lt; 16 \\)</p>",
+            "<p>\\( p + q \\geq 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( p + q &lt; 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411708/gate-ch-2022-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411708/gate-ch-2022-ga-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411690\"></a><div itemprop=\"text\"><p>Consider the following inequalities.</p>\n\n\n\n<p>Which one of the following expressions below satisfies the above two inequalities?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>\\( x \\leq – 4 \\)</li>\n\t<li>\\(  – 4 &lt; x \\leq 4 \\)</li>\n\t<li>\\( 4 &lt; x &lt; 5 \\)</li>\n\t<li>\\( x \\geq 5 \\)</li>\n</ol></div><br><br><b>GATE ECE 2022 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2x – 1 &gt; 7 \\)</p>",
+            "<p>\\( 2x – 9 &lt; 1 \\)</p>"
+          ],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411690/gate-ece-2022-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411690/gate-ece-2022-ga-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"411803\"></a><div itemprop=\"text\"><p>Which one of the following is a representation (not to scale and in bold) of all values of \\( x \\) satisfying the inequality \\( 2 - 5x \\leq - \\dfrac{6x - 5}{3} \\) on the real number line?</p>\n\n<p>&nbsp; &nbsp; &nbsp; A.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___inequality/8197db67120aa97bb3cd061d1c4b45c3.png\" width=\"300\">&nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; B.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___inequality/499d3bcf5ab8cccadefc86441ee360c7.png\" width=\"300\"></p>\n\n<p>&nbsp; &nbsp; &nbsp; C.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___inequality/5dabfff95d36d88b722dbc76ddac95a7.png\" width=\"300\">&nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; D.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___inequality/5da8d1cb6ef3ab28f3d44c0ed7eeb39f.png\" width=\"300\"></p></div><br><br><b>GATE Mechanical 2022 Set 2 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411803/gate-mechanical-2022-set-2-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411803/gate-mechanical-2022-set-2-ga-question-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411813\"></a><div itemprop=\"text\"><p>Consider the following inequalities<br>\n\\[ <br>\n\\begin{aligned}<br>\n&amp; p^2-4 q&lt;4 \\\\<br>\n&amp; 3 p+2 q&lt;6<br>\n\\end{aligned}<br>\n \\]<br>\nwhere \\( p \\) and \\( q \\) are positive integers.</p>\n\n<p>The value of \\( (p+q) \\) is __________.</p>\n\n</div><br><br><b>GATE Mechanical 2023 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411813/gate-mechanical-2023-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411813/gate-mechanical-2023-ga-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

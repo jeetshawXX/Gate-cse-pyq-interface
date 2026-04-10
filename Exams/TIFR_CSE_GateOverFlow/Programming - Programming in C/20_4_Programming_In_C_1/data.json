@@ -1,0 +1,27 @@
+{
+  "title": "Programming - Programming in C - Programming In C",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Programming In C",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"280489\"></a><div itemprop=\"text\"><p>Given the following pseudocode&nbsp;for function \\( \\text{printx()} \\) below, how many times is \\( x \\) printed if we execute \\( \\text{printx(5)}? \\)</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">void printx(int n)&nbsp; {\n    if(n==0){\n        printf(“x”);\n}\nfor(int i=0;i&lt;=n-1;++i){\n    printx(n-1);\n}\n}</pre>\n\n\n\n\n</div><br><br><b>Programming in C: TIFR CSE 2019 | Part B | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 625 \\)</p>",
+            "<p>\\( 256 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 120 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280489/tifr-cse-2019-part-b-question-6\" target=\"_blank\">https://gateoverflow.in/280489/tifr-cse-2019-part-b-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

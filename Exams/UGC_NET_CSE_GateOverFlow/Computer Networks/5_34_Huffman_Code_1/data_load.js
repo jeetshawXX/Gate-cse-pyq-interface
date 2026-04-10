@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Huffman Code",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Huffman Code",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58279\"></a><div itemprop=\"text\"><p>A data file of \\( 1,00,000 \\) characters contains only the characters \\( \\text{g-1}, \\) with the frequencies as indicated in table:</p>\n\n<p>\\( \\begin{array}{|l|l|l|l|l|l|l|} \\hline &amp; \\text{g} &amp; \\text{h} &amp; \\text{i} &amp; \\text{j} &amp; \\text{k} &amp; \\text{l} \\\\ \\hline&nbsp; \\textbf{Frequency} &amp; \\text{45} &amp; \\text{13} &amp; \\text{12} &amp; \\text{16} &amp; \\text{9} &amp; \\text{5}&nbsp;\\\\&nbsp;\\textbf{in thousand} \\\\ \\hline \\end{array} \\)</p>\n\n<p>using the variable-length code by Huffman codes, the file can be encoded with</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2,52,000 \\) bits</p>",
+            "<p>\\( 2,64,000 \\) bits</p>",
+            "<p>\\( 2,46,000 \\) bits</p>",
+            "<p>\\( 2,24,000 \\) bits</p>"
+          ],
+          "correct_answer": "<p>\\( 2,24,000 \\) bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58279/ugc-net-cse-june-2013-part-3-question-14\" target=\"_blank\">https://gateoverflow.in/58279/ugc-net-cse-june-2013-part-3-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

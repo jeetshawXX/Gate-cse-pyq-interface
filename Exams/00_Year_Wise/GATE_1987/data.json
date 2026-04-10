@@ -1,0 +1,446 @@
+{
+  "title": "Year_Wise - GATE_1987",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_1987",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The Boolean expression \\(A \\oplus B \\oplus A\\) is equivalent to</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AB + \\bar {A}\\bar B\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{A}B+A\\bar{B}\\)</p>",
+            "<b>C.</b> <p>B</p>",
+            "<b>D.</b> <p>\\(\\bar{A}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82556/gate1987-12-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The below figure shows four D-type flip-flops connected as a shift register using a XOR gate. The initial state and three subsequent states for three clock pulses are also given.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q13-a_8cd52ef1.jpg\"><br><br>\\(\\begin{array}{|c|c|c|c|c|} \\hline \\text{State} &amp; Q_{A} &amp; Q_{B} &amp; Q_{C} &amp; Q_{D} \\\\\\hline \\text{Initial} &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\\\\\hline \\text{After the first clock} &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\\\\\hline \\text{After the second clock} &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\\\\\hline \\text{After the third clock} &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\\\\\hline \\end{array}\\)<br><br>The state \\(Q_{A} Q_{B} Q_{C} Q_{D}\\) after the fourth clock pulse is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0000</p>",
+            "<b>B.</b> <p>1111</p>",
+            "<b>C.</b> <p>1001</p>",
+            "<b>D.</b> <p>1000</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82607/gate1987-13-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q15a_90d927be.jpg\"><br>The frequency of oscillation is given by \\(f= 1/2 \\pi\\) CR. To have the system oscillate the ratio \\(R_{2}/R_{1}\\) should be</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5</p>",
+            "<b>B.</b> <p>29</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>Any value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Any value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82656/gate1987-15a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A Boolean function f is to be realized only by NOR gates. Its K-map is given below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q16-aa_bdb90011.jpg\"><br>The realization is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q16-ab_e8a19bd8.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82698/gate1987-16-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The refreshing rate of dynamic RAMs is in the range of</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 microseconds</p>",
+            "<b>B.</b> <p>2 milliseconds.</p>",
+            "<b>C.</b> <p>50 milli seconds</p>",
+            "<b>D.</b> <p>500 milliseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 milliseconds.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80278/gate1987-1-ix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The data transfer rate of a double-density floppy disk system is about:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5K bits/sec</p>",
+            "<b>B.</b> <p>50K bits/sec</p>",
+            "<b>C.</b> <p>500K bits/sec</p>",
+            "<b>D.</b> <p>5000K bits/sec</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>500K bits/sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80281/gate1987-1-x\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In a compiler the module that checks every character of the source text is called:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The code generator.</p>",
+            "<b>B.</b> <p>The code optimiser.</p>",
+            "<b>C.</b> <p>The lexical analyser.</p>",
+            "<b>D.</b> <p>The syntax analyser.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The lexical analyser.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A context-free grammar is ambiguous if:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The grammar contains useless non-terminals.</p>",
+            "<b>B.</b> <p>It produces more than one parse tree for some sentence.</p>",
+            "<b>C.</b> <p>Some production has two non terminals side by side on the right-hand side.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It produces more than one parse tree for some sentence.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80291/gate1987-1-xii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>FORTRAN is a:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Regular language.</p>",
+            "<b>B.</b> <p>Context-free language.</p>",
+            "<b>C.</b> <p>Context-senstive language.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Context-senstive language.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80293/gate1987-1-xiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>An operator precedence parser is a</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bottom-up parser.</p>",
+            "<b>B.</b> <p>Top-down parser.</p>",
+            "<b>C.</b> <p>Back tracking parser.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Bottom-up parser.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80295/gate1987-1-xiv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a circular linked list oraganisation, insertion of a record involves modification of</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One pointer.</p>",
+            "<b>B.</b> <p>Two pointers.</p>",
+            "<b>C.</b> <p>Multiple pointers.</p>",
+            "<b>D.</b> <p>No pointer.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Two pointers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80298/gate1987-1-xv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A critical region is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One which is enclosed by a pair of P and V operations on semaphores.</p>",
+            "<b>B.</b> <p>A program segment that has not been proved bug-free.</p>",
+            "<b>C.</b> <p>A program segment that often causes unexpected system crashes.</p>",
+            "<b>D.</b> <p>A program segment where shared resources are accessed.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A program segment where shared resources are accessed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80362/gate1987-1-xvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let P be a quicksort program to sort numbers in ascending order. Let \\(t_{1}\\) and \\(t_{2}\\) be the time taken by the program for the inputs \\(\\left[1 \\ 2 \\ 3 \\ 4\\right]\\) and \\(\\left[5 \\ 4 \\ 3 \\ 2 \\ 1\\right]\\), respectively. Which of the following holds?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(t_{1} = t_{2}\\)</p>",
+            "<b>B.</b> <p>\\(t_{1} \\gt t_{2}\\)</p>",
+            "<b>C.</b> <p>\\(t_{1} \\lt t_{2}\\)</p>",
+            "<b>D.</b> <p>\\(t_{1}=t_{2}+5 \\log 5\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(t_{1} \\lt t_{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80366/gate1987-1-xviii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Study the following program written in a block-structured language:<br><pre><code> Var x, y:interger; \nprocedure P(n:interger);\nbegin\n     x:=(n+2)/(n-3);\nend;\n\nprocedure Q \nVar x, y:interger;\nbegin   \n    x:=3;\n    y:=4; \n    P(y);\n    Write(x)          __(1)\nend;\n \nbegin\n    x:=7;\n    y:=8;\n    Q; \nWrite(x);             __(2) \nend.</code></pre> <br>\nWhat will be printed by the write statements marked (1) and (2) in the program if the variables are statically scoped?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3, 6</p>",
+            "<b>B.</b> <p>6, 7</p>",
+            "<b>C.</b> <p>3, 7</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3, 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80373/gate1987-1-xix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>For the program given below what will be printed by the write statements marked (1) and (2) in the program if the variables are dynamically scoped?<br><pre><code> Var x, y:interger; \nprocedure P(n:interger);\nbegin\n     x := (n+2)/(n-3);\nend;\n\nprocedure Q \nVar x, y:interger;\nbegin   \n    x:=3;\n    y:=4; \n    P(y);\n    Write(x);           __(1)\nend;\n \nbegin\n    x:=7;\n    y:=8;\n    Q; \n    Write(x);           __(2)\nend.</code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3, 6</p>",
+            "<b>B.</b> <p>6, 7</p>",
+            "<b>C.</b> <p>3, 7</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6, 7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80374/gate1987-1-xx\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>If a, b, and c are constants, which of the following is a linear inequality?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(ax+bcy=0\\)</p>",
+            "<b>B.</b> <p>\\(ax^{2}+cy^{2}=21\\)</p>",
+            "<b>C.</b> <p>\\(abx+a^{2}y \\geq 15\\)</p>",
+            "<b>D.</b> <p>\\(xy+ax \\geq 20\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(abx+a^{2}y \\geq 15\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80377/gate1987-1-xxi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>The equation<br>\\(7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0 \\) has</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All complex roots</p>",
+            "<b>B.</b> <p>At least one real root</p>",
+            "<b>C.</b> <p>Four pairs of imaginary roots</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At least one real root</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80379/gate1987-1-xxii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>A square matrix is singular whenever</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The rows are linearly independent</p>",
+            "<b>B.</b> <p>The columns are linearly independent</p>",
+            "<b>C.</b> <p>The row are linearly dependent</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The row are linearly dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80380/gate1987-1-xxiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>The simplex method is so named because</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is simple.</p>",
+            "<b>B.</b> <p>It is based on the theory of algebraic complexes.</p>",
+            "<b>C.</b> <p>The simple pendulum works on this method.</p>",
+            "<b>D.</b> <p>No one thought of a better name.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It is based on the theory of algebraic complexes.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80559/gate1987-1-xxiv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Which of the following statements is true in respect of the convergence of the Newton-Rephson procedure?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It converges always under all circumstances.</p>",
+            "<b>B.</b> <p>It does not converge to a tool where the second differential coefficient changes sign.</p>",
+            "<b>C.</b> <p>It does not converge to a root where the second differential coefficient vanishes.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80562/gate1987-1-xxv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>If \\(f(x_{i}).f(x_{i+1}) \\lt 0\\) then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There must be a root of f(x) between \\(x_i\\) and \\(x_{i+1}\\)</p>",
+            "<b>B.</b> <p>There need not be a root of f(x) between \\(x_{i}\\) and \\(x_{i+1}\\).</p>",
+            "<b>C.</b> <p>There fourth derivative of f(x) with respect to x vanishes at \\(x_{i}\\).</p>",
+            "<b>D.</b> <p>The fourth derivative of f(x) with respect to x vanishes at \\(x_{i+1}\\).</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There must be a root of f(x) between \\(x_i\\) and \\(x_{i+1}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80571/gate1987-1-xxvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Microprogrammed control unit:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is faster than a hardwired control unit</p>",
+            "<b>B.</b> <p>facilitates easy implementation of new instructions</p>",
+            "<b>C.</b> <p>is useful when very small programs are to be run</p>",
+            "<b>D.</b> <p>usually refers to control unit of a microprocessor</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>facilitates easy implementation of new instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/166/gate1987-1-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>The total number of Boolean functions which can be realised with four variables is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>17</p>",
+            "<b>C.</b> <p>256</p>",
+            "<b>D.</b> <p>65, 536</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>65, 536</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80032/gate1987-1-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q1-IIIa_c5e723c0.jpg\"><br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q1-IIIb_b72e4b1f.jpg\"><br>The above circuit produces the output sequence:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111       1111       0000       0000</p>",
+            "<b>B.</b> <p>1111       0000      1111        000</p>",
+            "<b>C.</b> <p>1111       0001      0011       010</p>",
+            "<b>D.</b> <p>1010      1010      1010       1010</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1111       0001      0011       010</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80034/gate1987-1-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>The output F of the below multiplexer circuit can be represented by <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1987\\q1-IV_325ec5d5.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}\\)</p>",
+            "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+            "<b>C.</b> <p>\\(A \\oplus B\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80193/gate1987-1-iv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>The most relevant addressing mode to write position-independent codes is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Direct mode</p>",
+            "<b>B.</b> <p>Indirect mode</p>",
+            "<b>C.</b> <p>Relative mode</p>",
+            "<b>D.</b> <p>Indexed mode</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relative mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80194/gate1987-1-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>A microprogrammed control unit</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is faster than a hard-wired control unit.</p>",
+            "<b>B.</b> <p>Facilitates easy implementation of new instruction.</p>",
+            "<b>C.</b> <p>Is useful when very small programs are to be run.</p>",
+            "<b>D.</b> <p>Usually refers to the control unit of a microprocessor.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Facilitates easy implementation of new instruction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80199/gate1987-1-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>The exponent of a floating-point number is represented in excess-N code so that:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The dynamic range is large.</p>",
+            "<b>B.</b> <p>The precision is high.</p>",
+            "<b>C.</b> <p>The smallest number is represented by all zeros.</p>",
+            "<b>D.</b> <p>Overflow is avoided.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The smallest number is represented by all zeros.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80201/gate1987-1-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>On receiving an interrupt from a I/O device the CPU:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Halts for a predetermined time.</p>",
+            "<b>B.</b> <p>Hands over control of address bus and data bus to the interrupting device.</p>",
+            "<b>C.</b> <p>Branches off to the interrupt service routine immediately.</p>",
+            "<b>D.</b> <p>Branches off to the interrupt service routine after completion of the current instruction.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Branches off to the interrupt service routine after completion of the current instruction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80274/gate1987-1-viii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

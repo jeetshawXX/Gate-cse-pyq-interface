@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "General Awareness - Game Player",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Game Player",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"100\"></a><div itemprop=\"text\"><p>Lasith Malinga is a famous player associated with the game of __</p><p>&nbsp;</p><ol><li>Hockey</li><li>Badminton</li><li>Lawn Tennis</li><li>Cricket</li><li>Football</li></ol><p>&nbsp;</p></div><br><br><b>General Awareness: Lasith Malinga is a famous player associated with the game of</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/100/lasith-malinga-is-famous-player-associated-with-the-game-of\" target=\"_blank\">https://aptitude.gateoverflow.in/100/lasith-malinga-is-famous-player-associated-with-the-game-of</a></p>"
+        }
+      ]
+    }
+  ]
+});

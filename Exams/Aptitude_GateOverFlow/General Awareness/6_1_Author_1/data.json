@@ -1,0 +1,21 @@
+{
+  "title": "General Awareness - Author",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Author",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"126\"></a><div itemprop=\"text\"><p>Who among the following is NOT a well-known author of Indian origin</p><p>&nbsp;</p><ol><li>Kiran Desai</li><li>Shobha De</li><li>Gagan Narang</li><li>Chetan Bhagat</li><li>Vikram Chandra</li></ol><p>&nbsp;</p></div><br><br><b>General Awareness: Who among the following is NOT a well</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/126/who-among-the-following-not-well-known-author-indian-origin\" target=\"_blank\">https://aptitude.gateoverflow.in/126/who-among-the-following-not-well-known-author-indian-origin</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "title": "Non GATE CSE - Object Oriented Programming - Object Oriented Programming",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Object Oriented Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336508\"></a><div itemprop=\"text\"><p>The IOS class member function used for formatting IO is</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>width(), precision(), read()</p>",
+            "<p>width(), precision(), setf()</p>",
+            "<p>getch(), width(), Io()</p>",
+            "<p>unsetf() ,setf(), write()</p>"
+          ],
+          "correct_answer": "<p>width(), precision(), setf()</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336508/nielit-2016-dec-scientist-b-cs-section-b-30\" target=\"_blank\">https://gateoverflow.in/336508/nielit-2016-dec-scientist-b-cs-section-b-30</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336668\"></a><div itemprop=\"text\"><p>Given a class named student, which of the following is a valid constructor declaration for the class?</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">Student student(){}</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Private final student(){}\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Student(student s){}\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Void student(){}\n</pre></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Student(student s){}\n</pre></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336668/nielit-2016-dec-scientist-b-it-section-b-1\" target=\"_blank\">https://gateoverflow.in/336668/nielit-2016-dec-scientist-b-it-section-b-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336645\"></a><div itemprop=\"text\"><p>An operation can be described as:</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Object behavior</p>",
+            "<p>Functions</p>",
+            "<p>Class behavior</p>",
+            "<p>(A),(B)</p>"
+          ],
+          "correct_answer": "<p>(A),(B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336645/nielit-2016-dec-scientist-b-it-section-b-24\" target=\"_blank\">https://gateoverflow.in/336645/nielit-2016-dec-scientist-b-it-section-b-24</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336666\"></a><div itemprop=\"text\"><p>An object can have which of the following multiplicities?</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Zero</p>",
+            "<p>More than one</p>",
+            "<p>One</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336666/nielit-2016-dec-scientist-b-it-section-b-3\" target=\"_blank\">https://gateoverflow.in/336666/nielit-2016-dec-scientist-b-it-section-b-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336623\"></a><div itemprop=\"text\"><p>Object oriented inheritance models:</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\"is a kind of\" relationship.</p>",
+            "<p>\"has a\" relationship.</p>",
+            "<p>\"want to be\" relationship.</p>",
+            "<p>\"contains\" of relationship.</p>"
+          ],
+          "correct_answer": "<p>\"is a kind of\" relationship.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336623/nielit-2016-dec-scientist-b-it-section-b-46\" target=\"_blank\">https://gateoverflow.in/336623/nielit-2016-dec-scientist-b-it-section-b-46</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336396\"></a><div itemprop=\"text\"><p>Give the output&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;iostream&gt;\nusing namespace std;\nclass Base\n{\npublic:\n    int x,y;\npublic:\n    Base(int i, int j){x=i;y=j;}\n};\nclass Derived:public Base\n{\npublic:\n    Derived(int i,int j):x(i),y(j){}\n    void print(){cout&lt;&lt; x &lt;&lt; \"\"&lt;&lt;y ;}\n};\nint main(void)\n{\n    Derived q(10,10);\n    q.print();\n    return 0;\n}</pre>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10\\:10 \\)</p>",
+            "<p>Compiler Error</p>",
+            "<p>\\( 0\\:0 \\)</p>",
+            "<p>None of the option</p>"
+          ],
+          "correct_answer": "<p>Compiler Error</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336396/nielit-2017-july-scientist-b-it-section-b-39\" target=\"_blank\">https://gateoverflow.in/336396/nielit-2017-july-scientist-b-it-section-b-39</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336395\"></a><div itemprop=\"text\"><p>Give the output&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;iostream&gt;\nusing namespace std;\nclass Base1{\npublic:\n~Base1() {cout&lt;&lt;\"Base1's destructor\"&lt;&lt;endl;}\n};\nclass Base2\n{\npublic:\n~Base2(){cout&lt;&lt;\"Base2's destructor\"&lt;&lt;endl;}\n};\nclass Derived : public Base1,public Base2{\npublic:\n~Derived(){cout&lt;&lt;\"Derived's destructor\"&lt;&lt;endl; }\n};\nint main()\n{\nDerived d;\nreturn 0;\n}</pre>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Base\\( 1 \\)'s&nbsp;destructor<br>\n\tBase\\( 2 \\)'s&nbsp;destructor<br>\n\tDerived’s Destructor</p>",
+            "<p>Derived’s Destructor<br>\n\tBase\\( 2 \\)'s&nbsp;destructor<br>\n\tBase\\( 1 \\)'s&nbsp;destructor</p>",
+            "<p>Derived’s Destructor</p>",
+            "<p>Compiler Dependent</p>"
+          ],
+          "correct_answer": "<p>Derived’s Destructor<br>\n\tBase\\( 2 \\)'s&nbsp;destructor<br>\n\tBase\\( 1 \\)'s&nbsp;destructor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336395/nielit-2017-july-scientist-b-it-section-b-40\" target=\"_blank\">https://gateoverflow.in/336395/nielit-2017-july-scientist-b-it-section-b-40</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"336957\"></a><div itemprop=\"text\"><p>What is ‘Basis of Encapsulation’?</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>object</p>",
+            "<p>class</p>",
+            "<p>method</p>",
+            "<p>all of the mentioned</p>"
+          ],
+          "correct_answer": "<p>all of the mentioned</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336957/nielit-2017-oct-scientific-assistant-a-it-section-b-28\" target=\"_blank\">https://gateoverflow.in/336957/nielit-2017-oct-scientific-assistant-a-it-section-b-28</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"336981\"></a><div itemprop=\"text\"><p>If the objects focus on the problem domain, then we are concerned with</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Object Oriented Analysis</p>",
+            "<p>Object Oriented Design</p>",
+            "<p>Object Oriented Analysis and Design</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Object Oriented Analysis</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336981/nielit-2017-oct-scientific-assistant-a-it-section-b-4\" target=\"_blank\">https://gateoverflow.in/336981/nielit-2017-oct-scientific-assistant-a-it-section-b-4</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"378746\"></a><div itemprop=\"text\"><p>Which is indicating use of virtual functions?</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Overloading</p>",
+            "<p>Overriding</p>",
+            "<p>Static binding</p>",
+            "<p>Dynamic binding</p>"
+          ],
+          "correct_answer": "<p>Dynamic binding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378746/nielit-2021-dec-scientist-b-section-b-17\" target=\"_blank\">https://gateoverflow.in/378746/nielit-2021-dec-scientist-b-section-b-17</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"378727\"></a><div itemprop=\"text\"><p>Match the following in from <strong>List-1</strong> and <strong>List-2</strong> :</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"height:15px; width:323px\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>List-1</strong></td>\n\t\t\t<td style=\"height:15px; width:163px\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>List-2</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:323px\">(a) Create new classes from existing class</td>\n\t\t\t<td style=\"width:163px\">(i) Polymorphism</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:323px\">(b) Using similar operations to do similar things</td>\n\t\t\t<td style=\"width:163px\">(ii) Abstraction</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:323px\">(c)&nbsp; Hiding implementation details</td>\n\t\t\t<td style=\"width:163px\">(iii) Inheritance</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:323px\">(d) Wrapping both operator and attributes with operations for model object</td>\n\t\t\t<td style=\"width:163px\">(iv) Encapsulation</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:323px\">&nbsp;</td>\n\t\t\t<td style=\"width:163px\">(v) Performance</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>\\( \\begin{matrix}<br>\n&nbsp; &amp;\\text{(a)} &amp; \\text{(b)} &amp;\\text{(c)}&nbsp; &amp; \\text{(d)}\\\\&nbsp;<br>\n&nbsp;\\text{(A)}&amp;\\text{(iii)}&amp;\\text{(i)}&amp; \\text{(ii)}&nbsp;&amp;\\text{(iv)} \\\\&nbsp;<br>\n\\text{(B)}&amp;\\text{(v)} &amp; \\text{(i)} &amp; \\text{(iii)} &amp;\\text{(ii)} \\\\&nbsp;<br>\n&nbsp;\\text{(C)}&amp;\\text{(ii)}&amp;\\text{(v)}&nbsp; &amp; \\text{(iv)} &amp; \\text{(iii)}\\\\&nbsp;<br>\n&nbsp;\\text{(D)}&amp;\\text{(i)}&amp;\\text{(ii)}&nbsp; &amp; \\text{(iii)} &amp; \\text{(iv)}<br>\n\\end{matrix} \\)</p></div><br><br><b>Object Oriented Programming: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378727/nielit-2021-dec-scientist-b-section-b-36\" target=\"_blank\">https://gateoverflow.in/378727/nielit-2021-dec-scientist-b-section-b-36</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"366954\"></a><div itemprop=\"text\"><p>In Software Modeling \\( \\text{‘IS A’} \\)&nbsp;represents ______________ relationship.</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Aggregation&nbsp;</p>",
+            "<p>Over loading&nbsp;</p>",
+            "<p>Inheritance&nbsp;</p>",
+            "<p>Design Patterns</p>"
+          ],
+          "correct_answer": "<p>Inheritance&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366954/nielit-2021-dec-scientist-b-section-b-63\" target=\"_blank\">https://gateoverflow.in/366954/nielit-2021-dec-scientist-b-section-b-63</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"351412\"></a><div itemprop=\"text\"><p>During exception handling, which of the following statements hold true?</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT Scientific Assistant A 2020 November: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Single try can have multiple associated catch with it</p>",
+            "<p>A single Catch can have multiple try associated with it</p>",
+            "<p>Finally block execute only when the class is inherited</p>",
+            "<p>For a given exception, multiple catch can execute</p>"
+          ],
+          "correct_answer": "<p>Single try can have multiple associated catch with it</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351412/nielit-scientific-assistant-a-2020-november-49\" target=\"_blank\">https://gateoverflow.in/351412/nielit-scientific-assistant-a-2020-november-49</a></p>"
+        }
+      ]
+    }
+  ]
+}

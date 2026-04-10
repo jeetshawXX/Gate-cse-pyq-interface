@@ -1,0 +1,36 @@
+{
+  "title": "Computer Networks - Fragmentation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Fragmentation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460033\"></a><div itemprop=\"text\"><p>Suppose a message of size \\( 15000 \\) bytes is transmitted from a source to a destination using IPv4 protocol via two routers as shown in the figure. Each router has a defined maximum transmission unit (MTU) as shown in the figure, including IP header. The number of fragments that will be delivered to the destination is _________. (Answer in integer)</p><p style=\"text-align:center\"><img alt=\"Network Diagram\" width=\"1000\" height=\"361\" src=\"images/gateOverflow_pyq_images/computer_networks___fragmentation/30b719c964be8aaa2780130bb16b5ee1.png\"></p><p>&nbsp;</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7:7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460033/gate-cse-2025-set-1-question-47\" target=\"_blank\">https://gateoverflow.in/460033/gate-cse-2025-set-1-question-47</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"460822\"></a><div itemprop=\"text\"><p>​​​​​Consider a network that uses Ethernet and \\( IPv4 \\). Assume that \\( IPv4 \\) headers do not use any options field. Each Ethernet frame can carry a maximum of \\( 1500 \\) bytes in its data field. A UDP segment is transmitted. The payload (data) in the UDPO segment is \\( 7488 \\) bytes.</p><div>Which ONE of the following choices has the CORRECT total number of fragments transmitted and the sixe of the last fragment including \\( IPv4 \\) header?</div></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\) fragments \\( 1488 \\) bytes</p>",
+            "<p>\\( 6 \\) fragments \\( 88 \\) bytes</p>",
+            "<p>\\( 6 \\) fragments \\( 108 \\) bytes</p>",
+            "<p>\\( 6 \\) fragments \\( 116 \\) bytes</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\) fragments \\( 116 \\) bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460822/gate-cse-2025-set-2-question-13\" target=\"_blank\">https://gateoverflow.in/460822/gate-cse-2025-set-2-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

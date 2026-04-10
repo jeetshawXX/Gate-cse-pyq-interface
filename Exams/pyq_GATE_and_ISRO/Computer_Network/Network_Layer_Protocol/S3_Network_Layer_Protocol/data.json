@@ -1,0 +1,231 @@
+{
+  "title": "Network_Layer_Protocol - Network_Layer_Protocol - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Network_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which one of the following protocols is NOT used to resolve one form of address to another one? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DNS</p>",
+            "<b>B.</b> <p>ARP</p>",
+            "<b>C.</b> <p>DHCP</p>",
+            "<b>D.</b> <p>RARP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DHCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39639/gate2016-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which layers of the OSI reference model are host-to-host layers? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Transport, session, presentation, application</p>",
+            "<b>B.</b> <p>Session, presentation, application</p>",
+            "<b>C.</b> <p>Datalink, transport, presentation, application</p>",
+            "<b>D.</b> <p>Physical, datalink, network, transport</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Transport, session, presentation, application</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51988/isro2015-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A router uses the following routing table:<br>\\(\\begin{array}{|l|l|l|} \\hline \\text { Destination } &amp; \\text { Mask } &amp; \\text { Interface } \\\\ \\hline 144.16 .0 .0 &amp; 255.255 .0 .0 &amp; \\text { eth0 } \\\\ \\hline 144.16 .64 .0 &amp; 255.255 .224 .0 &amp; \\text { eth1 } \\\\ \\hline 144.16 .68 .0 &amp; 255.255 .255 .0 &amp; \\text { eth2 } \\\\ \\hline 144.16 .68 .64 &amp; 255.255 .255 .224 &amp; \\text { eth3 } \\\\ \\hline \\end{array}\\)<br>Packet bearing a destination address 144.16.68.117 arrives at the router. On which interface will it be forwarded? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>eth0</p>",
+            "<b>B.</b> <p>eth1</p>",
+            "<b>C.</b> <p>eth2</p>",
+            "<b>D.</b> <p>eth3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>eth2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3607/gate2006-it-63-isro2015-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a class B subnet, we know the IP address of one host and the mask as given below:<br>IP address: 125.134.112.66<br>Mask: 255.255.224.0<br>What is the first address(Network address)? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125.134.96.0</p>",
+            "<b>B.</b> <p>125.134.112.0</p>",
+            "<b>C.</b> <p>125.134.112.66</p>",
+            "<b>D.</b> <p>125.134.0.0</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>125.134.96.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51717/isro2015-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communication with the host? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16 bits</p>",
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>48 bits</p>",
+            "<b>D.</b> <p>64 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>32 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51712/isro2015-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In the network 200.10.11.144/27, the fourth octet (in decimal) of the last IP address of the network which can be assigned to a host is ____________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "158",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8497/gate2015-3-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following routing table at an IP router: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q26_96507893.jpg\"><br> For each IP address in Group I identify the correct choice of the next hop from Group II using the entries from the routing table above.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q26a_e40289ea.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i-a, ii-c, iii-e, iv-d</p>",
+            "<b>B.</b> <p>i-a, ii-d, iii-b, iv-e</p>",
+            "<b>C.</b> <p>i-b, ii-c, iii-d, iv-e</p>",
+            "<b>D.</b> <p>i-b, ii-c, iii-e, iv-d</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>i-a, ii-c, iii-e, iv-d</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8213/gate2015-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following fields of an IP header is NOT modified by a typical IP router? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Checksum</p>",
+            "<b>B.</b> <p>Source address</p>",
+            "<b>C.</b> <p>Time to Live (TTL)</p>",
+            "<b>D.</b> <p>Length</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Source address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8220/gate2015-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>An organization is granted the block 130.34.12.64/26. It needs to have 4 subnets. Which of the following is not an address of this organization? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>130.34.12.124</p>",
+            "<b>B.</b> <p>130.34.12.89</p>",
+            "<b>C.</b> <p>130.34.12.70</p>",
+            "<b>D.</b> <p>130.34.12.132</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>130.34.12.132</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17446/isro2014-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Assume the following information.<br>Original timestamp value = 46<br>Receive  timestamp value = 59<br>Transmit timestamp value = 60<br>Timestamp at arrival of packet = 69<br>Which of the following statements is correct? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Receive clock should go back by 3 milliseconds</p>",
+            "<b>B.</b> <p>Transmit and Receive clocks are synchronized</p>",
+            "<b>C.</b> <p>Transmit clock should go back by 3 milliseconds</p>",
+            "<b>D.</b> <p>Receive clock should go ahead by 1 milliseconds</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Receive clock should go back by 3 milliseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17439/isro2014-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A supernet has a first address of 205.16.32.0 and a supernet mask of 255.255.248.0. A router receives 4 packets with the following destination addresses.which packet belongs to this supernet? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>205.16.42.56</p>",
+            "<b>B.</b> <p>205.17.32.76</p>",
+            "<b>C.</b> <p>205.16.31.10</p>",
+            "<b>D.</b> <p>205.16.39.44</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>205.16.39.44</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17443/isro2014-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>An IP packet has arrived with the first 8 bits as 0100 0010. Which of the following is correct? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The number of hops this packet can travel is 2.</p>",
+            "<b>B.</b> <p>The total number of bytes in header is 16 bytes</p>",
+            "<b>C.</b> <p>The upper layer protocol is ICMP</p>",
+            "<b>D.</b> <p>The receiver rejects the packet</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The receiver rejects the packet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54125/isro2014-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A IP packet has arrived in which the fragmentation offset value is 100,the value of HLEN is 5 and the value of total length field is 200. What is the number of the last byte? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>194</p>",
+            "<b>B.</b> <p>394</p>",
+            "<b>C.</b> <p>979</p>",
+            "<b>D.</b> <p>1179</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>979</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17422/isro2014-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What is routing algorithm used by OSPF routing protocol? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Distance vector</p>",
+            "<b>B.</b> <p>Flooding</p>",
+            "<b>C.</b> <p>Path vector</p>",
+            "<b>D.</b> <p>Link state</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Link state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53136/isro2014-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The process of modifying IP address information in IP packet headers while in transit across a traffic routing device is called <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port address translation (PAT)</p>",
+            "<b>B.</b> <p>Network address translation (NAT)</p>",
+            "<b>C.</b> <p>Address mapping</p>",
+            "<b>D.</b> <p>Port mapping</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Network address translation (NAT)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54140/isro2014-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

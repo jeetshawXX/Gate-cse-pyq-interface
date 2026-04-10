@@ -1,0 +1,251 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Dynamic_Programming",
+  "duration": 47,
+  "sections": [
+    {
+      "name": "Dynamic_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider product of three matrices \\(M_{1}\\),\\(M_{2}\\) and \\(M_{3}\\) having w rows and x columns, x rows and y columns, and y rows and z columns. Under what condition will it take less time to compute the product as \\(\\left(M_{1} M_{2}\\right) M_{3}\\) than to compute \\(M_{1}\\left(M_{2} M_{3}\\right)\\) ? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Always take the same time</p>",
+            "<b>B.</b> <p>\\((1 / x+1 / z) \\lt (1 / w+1 / y)\\)</p>",
+            "<b>C.</b> <p>\\(x \\gt y\\)</p>",
+            "<b>D.</b> <p>\\((w+x) \\gt (y+z)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((1 / x+1 / z) \\lt (1 / w+1 / y)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331382/isro2020-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Assume that multiplying a matrix G1 of dimension pxq with another matrix G2 of\ndimension pxq requires pqr scalar multiplications. Computing the product of n  matrices G1G2G3...Gn can be done by parenthesizing in different ways. Define Gi Gi+1 as an explicitly computed pair for a given paranthesization if they are directly multiplied. For example, in the matrix multiplication chain G1G2G3G4G5G6 using parenthesization (G1(G2G3))(G4(G5G6)), G2G3 and G5G6 are the only explicitly computed pairs. Consider a matrix multiplication chain F1F2F3F4F5, where matrices F1, F2, F3, F4 and F5 are of dimensions 2x25, 25x3, 3x16, 16x1 and 1x1000, respectively. In the parenthesization of F1F2F3F4F5 that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>F1F2 and F3F4 only</p>",
+            "<b>B.</b> <p>F2F3 only</p>",
+            "<b>C.</b> <p>F3F4 only</p>",
+            "<b>D.</b> <p>F1F2 and F4F5 only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>F3F4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204105/gate2018-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following algorithms solves the all pair shortest path problem? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Prim's algorithm</p>",
+            "<b>B.</b> <p>Dijkstra's algorithm</p>",
+            "<b>C.</b> <p>Bellman ford algorithm</p>",
+            "<b>D.</b> <p>Floyd warshalls algorithm</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Floyd warshalls algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128494/isro2017-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let A1,A2,A3, and A4 be four matrices of dimensions 10x5, 5x20, 20x10, and 10x5, respectively. The minimum number of scalar multiplications required to find the product A1A2A3A4 using the basic matrix multiplication method is __________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1500",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39587/gate2016-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The Floyd-Warshall algorithm for all-pair shortest paths computation is based on <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Greedy paradigm</p>",
+            "<b>B.</b> <p>Divide-and-Conquerparadigm.</p>",
+            "<b>C.</b> <p>Dynamic Programing paradigm.</p>",
+            "<b>D.</b> <p>neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Dynamic Programing paradigm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39570/gate2016-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A Young tableau is a 2D array of integers increasing from left to right and from top to bottom. Any unfilled entries are marked with \\(\\infty\\), and hence there cannot be any entry to the right of, or below a \\(\\infty\\). The following Young tableau consists of unique entries.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Dynamic_Programming\\q38_a55a5118.jpg\"><br> When an element is removed from a Young tableau, other elements should be moved into its place so that the resulting table is still a Young tableau (unfilled entries may be filled in with a \\(\\infty\\)). The minimum number of entries (other than 1) to be shifted, to remove 1 from the given Young tableau is _______. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8148/gate2015-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider two strings A=\"qpqrr\" and B=\"pqprqrp\". Let x be the length of the longest\ncommon subsequence (not necessarily contiguous) between A and B and let y be the number\nof such longest common subsequences between A and B. Then x + 10y = ___. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1996/gate2014-2-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Four matrices M1, M2, M3 and M4 are dimensions p x q, q x r, r x s and s x t\nrespectively can be multiplied in several ways with different number of total\nscalar multiplications. For example When multiplied as \\(((M_{1} \\times  M_{2})\\times (M_{3}\\times M_{4})\\) the total number of scalar multiplications is pqr+rst+prt. When multiplied as \\((((M_{1}\\times M_{2})\\times M_{3})\\times M_{4})\\) , the total number of scalar multiplications is pqr+prs+pst.\nIf p=10, q=100, r=20, s=5 and t=80, then the minimum number of scalar\nmultiplications needed is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>248000</p>",
+            "<b>B.</b> <p>44000</p>",
+            "<b>C.</b> <p>19000</p>",
+            "<b>D.</b> <p>25000</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>19000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2140/gate2011-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array A[0 :n-1] is given below. <br>\nLet Li denote the length of the longest monotonically increasing sequence starting at index i in the array <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Dynamic_Programming\\q12_7de407b3.jpg\"> <br>Which of the following statements is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The algorithm uses dynamic programming paradigm</p>",
+            "<b>B.</b> <p>The algorithm has a linear complexity and uses branch and bound paradigm</p>",
+            "<b>C.</b> <p>The algorithm has a non-linear polynomial complexity and uses branch and\nbound paradigm</p>",
+            "<b>D.</b> <p>The algorithm uses divide and conquer paradigm.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The algorithm uses dynamic programming paradigm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2127/gate2011-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A sub-sequence of a given sequence is just the given sequence with some\nelements (possibly none or all) left out. We are given two sequences X[m] and\nY[n] of lengths m and n, respectively, with indexes of X and Y starting from 0. <br><br>We wish to find the length of the longest common sub-sequence (LCS) of x[m] and Y[n] as l(m,n), where an incomplete recursive definition for the function l(i,j) to compute the length of the LCS of x[m] and Y[n] is given below:<br><pre><code>l(i, j) = 0, if either i=0 or j=0\nl(i, j) = expr1, if i,j&gt;0 and x [i-1] = Y [j -1]\nl(i, j) = expr2, if i,j&gt;0 and x [i-1] != Y [j -1]</code></pre>The values of l(i,j) could be obtained by dynamic programming based on the\ncorrect recursive definition of l(i,j) of the form given above, using an array\nL[M,N], where M = m+1 and N=n+1, such that L[i,j] = l(i,j). <br><br>\nWhich one of the following statements would be TRUE regarding the dynamic\nprogramming solution for the recursive definition of l(i,j)? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All elements L should be initialized to 0 for the values of l(i,j) to be properly computed.</p>",
+            "<b>B.</b> <p>The values of l(i,j) may be computed in a row major order or column major order of L(M,N).</p>",
+            "<b>C.</b> <p>The values of l(i,j) cannot be computed in either row major order or column\nmajor order of L(M,N).</p>",
+            "<b>D.</b> <p>L[p,q] needs to be computed before L[r,s] if either p<r or=\"\" q<s.<=\"\" div=\"\"></r></p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The values of l(i,j) may be computed in a row major order or column major order of L(M,N).</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43476/gate2009-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A sub-sequence of a given sequence is just the given sequence with some\nelements (possibly none or all) left out. We are given two sequences X[m] and\nY[n] of lengths m and n, respectively, with indexes of X and Y starting from 0. <br><br>We wish to find the length of the longest common sub-sequence (LCS) of x[m] and Y[n] as l(m,n), where an incomplete recursive definition for the function l(i,j) to compute the length of the LCS of x[m] and Y[n] is given below:<pre><code> l(i, j) 0, if either i=0 or j=0\n= expr1, if i,j&gt;0 and x [i-1] Y [j -1]\n= expr2, if i,j&gt;0 and x [i-1] Y [j -1]</code></pre>\nWhich one of the following options is correct? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>expr1 = l(i-1, j) + 1</p>",
+            "<b>B.</b> <p>expr1 = l(i, j-1)</p>",
+            "<b>C.</b> <p>expr2 = max (l(i-1, j), l(i,j-1))</p>",
+            "<b>D.</b> <p>expr2 = max(l(i-1, j-1), l(i,j))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>expr2 = max (l(i-1, j), l(i,j-1))</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1338/gate2009-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic programming</p>",
+            "<b>B.</b> <p>Backtracking</p>",
+            "<b>C.</b> <p>Greedy</p>",
+            "<b>D.</b> <p>Divide and Conquer</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1658/gate1998-1-21-isro2008-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The subset-sum problem is defined as follows. Given a set of n positive integers,\nS={\\(a_{1},a_{2},...,a_{n}\\)} and positive integer W, is there a subset of S whose\nelements sum to W? A dynamic program for solving this problem uses a\n2-dimensional Boolean array, X, with n rows and W+1 columns.  X[i,j], \\(1\\leq i\\leq n\\), \\(0\\leq j \\leq W\\), is TRUE if and only if there is a subset of {\\(a_{1},a_{2},...,a_{i} \\)}whose elements sum to j.  <br> <br> Which entry of the array X, if TRUE, implies that there is a subset whose\nelements sum to W? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X[1,W]</p>",
+            "<b>B.</b> <p>X[n,0]</p>",
+            "<b>C.</b> <p>X[n,W]</p>",
+            "<b>D.</b> <p>X[n-1,n]</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X[n,W]</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43484/gate2008-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The subset-sum problem is defined as follows. Given a set of n positive integers,\nS={\\(a_{1},a_{2},...,a_{n}\\)} and positive integer W, is there a subset of S whose\nelements sum to W? A dynamic program for solving this problem uses a\n2-dimensional Boolean array, X, with n rows and W+1 columns.  X[i,j], \\(1\\leq i\\leq n\\), \\(0\\leq j \\leq W\\), is TRUE if and only if there is a subset of {\\(a_{1},a_{2},...,a_{i} \\)}whose elements sum to j. <br> <br> Which of the following is valid for \\(2\\leq i\\leq n\\) and \\(a_{i} \\leq j \\leq W\\)? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X[i,j]=X[i-1,j]\\vee X[i,j-a_{i}]\\)</p>",
+            "<b>B.</b> <p>\\(X[i,j]=X[i-1,j]\\vee X[i-1,j-a_{i}]\\)</p>",
+            "<b>C.</b> <p>\\(X[i,j]=X[i-1,j]\\wedge X[i,j-a_{i}]\\)</p>",
+            "<b>D.</b> <p>\\(X[i,j]=X[i-1,j]\\wedge X[i-1,j-a_{i}]\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(X[i,j]=X[i-1,j]\\vee X[i-1,j-a_{i}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/498/gate2008-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up or one unit right, i.e., if it is at (i,j) then it can move to either (i+1,j) or (i,j+1).  <br> <br> Suppose that the robot is not allowed to traverse the line segment from (4,4) to\n(5,4). With this constraint, how many distinct paths are there for the robot to\nreach (10,10) starting from (0,0)? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{9}\\)</p>",
+            "<b>B.</b> <p>\\(2^{19}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}-\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}-\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43509/gate2007-85#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up or one unit right, i.e., if it is at (i,j) then it can move to either (i+1,j) or (i,j+1).  <br> <br> How many distinct paths are there for the robot to reach the point (10,10)\nstarting from the initial position (0,0)? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(2^{20}\\)</p>",
+            "<b>C.</b> <p>\\(2^{10}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1275/gate2007-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Which one of the following algorithm design techniques is used in finding all pairs of shortest distances in a graph? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic programming</p>",
+            "<b>B.</b> <p>Backtracking</p>",
+            "<b>C.</b> <p>Greedy</p>",
+            "<b>D.</b> <p>Divide and Conquer</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1658/gate1998-1-21-isro2008-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

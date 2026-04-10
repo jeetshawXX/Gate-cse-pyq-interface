@@ -1,0 +1,231 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following database table named water_schemes : <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q52_3b8c0d21.jpg\"><br> The number of tuples returned by the following SQL query is __________.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q52a_85159664.jpg\"> <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39604/gate2016-2-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following databases chedule with two transactions, T1 and T2.<br>\n\\(S=r_{2}(X);r_{1}(X);r_{2}(Y);w_{1}(X);r_{1}(Y);w_{2}(X);a_{1};a_{2}\\)<br>\nwhere \\(r_{i}(Z)\\) denotes a read operation by transaction \\(T_{i}\\) on avariable Z, \\(w_{i}(Z)\\)\ndenotes a write operation by \\(T_{i}\\) on avariable Z and \\(a_{i}\\) denotes an abort by transaction \\(T_{i}\\).<br>\nWhich one of the following statements about the above schedule is TRUE? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S is non-recoverable</p>",
+            "<b>B.</b> <p>S is recoverable,but has a cascading abort</p>",
+            "<b>C.</b> <p>S does not have a cascading abort</p>",
+            "<b>D.</b> <p>S is strict</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S does not have a cascading abort</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39590/gate2016-2-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Suppose  a database schedule S involves transactions T1,...,Tn. Construct the precedence graph of S with vertices representing the transactions and edges representing the conflicts. If S is serializable, which one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Topological order</p>",
+            "<b>B.</b> <p>Depth-first order</p>",
+            "<b>C.</b> <p>Breadth-first order</p>",
+            "<b>D.</b> <p>Ascending orderoftransactionindices</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Topological order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39550/gate2016-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following two phase locking protocol. Suppose a transaction T accesses (for read or write operations), a certain set of objects {O1,... ,Ok}. This is done in the following manner: <br>\nStep 1. T acquires exclusive locks to O1,...,Ok in increasing order of their addresses. <br>\nStep 2. The required operations are performed.<br>\nStep 3. All locks are released. <br>\nThis protocol will <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>guarantee serializability and deadlock-freedom</p>",
+            "<b>B.</b> <p>guarantee neither serializability nor deadlock-freedom</p>",
+            "<b>C.</b> <p>guarantee serializability but not deadlock-freedom</p>",
+            "<b>D.</b> <p>guarantee deadlock-freedom but not serializability</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>guarantee serializability and deadlock-freedom</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39703/gate2016-1-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A database of resear charticles in a journal uses the following schema.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q23_1293001f.jpg\"> <br>\nWhich is the weakest normal form that the new database satisfies,but the old one does not? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1NF</p>",
+            "<b>B.</b> <p>2NF</p>",
+            "<b>C.</b> <p>3NF</p>",
+            "<b>D.</b> <p>BCNF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39646/gate2016-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following is NOT a part of the ACID properties of database transactions? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Atomicity</p>",
+            "<b>B.</b> <p>Consistency</p>",
+            "<b>C.</b> <p>Isolation</p>",
+            "<b>D.</b> <p>Deadlock-freedom</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Deadlock-freedom</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39644/gate2016-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following is NOT a superkey in a relational schema with attributes\nV,W, X, Y, Z and primary key V Y? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>VXYZ</p>",
+            "<b>B.</b> <p>VWXZ</p>",
+            "<b>C.</b> <p>VWXY</p>",
+            "<b>D.</b> <p>VWXYZ</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>VWXZ</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39637/gate2016-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following schema:<br>Emp (Empcode, Name, Sex, Salary, Deptt)<br>A simple SQL query is executed as follows:<br><pre><code> SELECT Deptt FROM Emp\nwhere sex = 'Male'\nGROUP by Dept\nHaving avg (Salary) &gt; {select avg (Salary) from Emp}</code></pre>The output will be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Average salary of male employee is the average salary of the organization</p>",
+            "<b>B.</b> <p>Average salary of male employee is less than the average salary of the organization</p>",
+            "<b>C.</b> <p>Average salary of male employee is equal to the average salary of the organization</p>",
+            "<b>D.</b> <p>Average salary of male employee is more than the average salary of the organization</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Average salary of male employee is more than the average salary of the organization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51196/isro2015-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following relational query on the above database:<br><pre><code> SELECT S.name FROM Suppliers S \nWhere S.sid NOT IN (SELECT C.sid FROM Catalog C\nWHERE C.pid NOT IN (SELECT P.pid FROM Parts P WHERE P.color &lt;&gt;'blue'))</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Find the names of all suppliers who have supplied non-blue part.</p>",
+            "<b>B.</b> <p>Find the names of all suppliers who have not supplied non-blue part.</p>",
+            "<b>C.</b> <p>Find the names of all suppliers who have supplied only non-blue parts</p>",
+            "<b>D.</b> <p>Find the names of all suppliers who have not supplied only non-blue part.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Find the names of all suppliers who have supplied non-blue part.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "As per the ISRO Answer key option A and C are correct, but None of these are correct. See the detail Solution. <a href=\"https://gateoverflow.in/1339/gate-cse-2009-question-55#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>If \\(D_1,D_2,...D_n\\) are domains in a relational model, then the relation is a table, which is a subset of <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(D_{1} \\oplus D_{2} \\oplus \\cdots \\oplus D_{n}\\)</p>",
+            "<b>B.</b> <p>\\(D_{1} \\times D_{2} \\times \\cdots \\times D_{n}\\)</p>",
+            "<b>C.</b> <p>\\(D_{1} \\cup D_{2} \\cup \\cdots \\cup D_{n}\\)</p>",
+            "<b>D.</b> <p>\\(D_{1} \\cap D_{2} \\cap \\cdots \\cap D_{n}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(D_{1} \\times D_{2} \\times \\cdots \\times D_{n}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/11982/isro2015-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let R=(A,B,C,D,E,F) be a relation scheme with the following dependencies \\(C \\rightarrow F\\), \\(E \\rightarrow A\\), \\(EC \\rightarrow D\\), \\(A \\rightarrow B\\). Which of the following is a key of R? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CD</p>",
+            "<b>B.</b> <p>EC</p>",
+            "<b>C.</b> <p>AE</p>",
+            "<b>D.</b> <p>AC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EC</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51174/isro2015-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The maximum length of an attribute of type text is <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>127</p>",
+            "<b>B.</b> <p>255</p>",
+            "<b>C.</b> <p>256</p>",
+            "<b>D.</b> <p>It is variable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It is variable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51170/isro2015-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Given a block can hold either 3 records or 10 key pointers. A database contains n records, then how many blocks do we need to hold the data file and the dense index <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13n/30</p>",
+            "<b>B.</b> <p>n/3</p>",
+            "<b>C.</b> <p>n/10</p>",
+            "<b>D.</b> <p>n/30</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>13n/30</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19400/isro2015-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following log sequence of two transactions on a bank account, with initial balance 12000, that transfer 2000 to a mortgage payment and then apply a 5% interest.<br>1.T1 start <br>2.T1 B old =1200 new =10000<br>3.T1 M old =0 new =2000<br>4.T1 commit<br>5.T2 start<br>6.T2 B old =10000 new =10500<br>7.T2 commit<br>Suppose the database system crashes just before log record 7 is written. When  the system is restarted, which one statement is true of the recovery procedure? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>We must redo log record 6 to set B to 10500</p>",
+            "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2  and 3</p>",
+            "<b>C.</b> <p>We need not redo log records 2 and 3 because transaction T1 has committed</p>",
+            "<b>D.</b> <p>We can apply redo and undo operations in arbitrary order because they are idempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2  and 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/981/gate2006-20-isro2015-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following Relationship Entity Diagram(ERP)<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q16_77f487d5.jpg\"><br>Which of the following possible relations will not hold if the above ERD is mapped into a relation model? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Person (NID, Name)</p>",
+            "<b>B.</b> <p>Qualification (NID, ExamID, QualifiedDate)</p>",
+            "<b>C.</b> <p>Exam (ExamID, NID, ExamName)</p>",
+            "<b>D.</b> <p>Exam (ExamID, ExamName)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Exam (ExamID, NID, ExamName)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51167/isro2015-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

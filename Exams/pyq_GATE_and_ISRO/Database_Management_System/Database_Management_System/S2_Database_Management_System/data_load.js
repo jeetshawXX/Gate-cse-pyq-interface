@@ -1,0 +1,225 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The symbol \\( \\rightarrow \\) indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\( (X, Y) \\rightarrow(Z, W) \\text { implies } X \\rightarrow(Z, W)  \\)</p>",
+            "<b>B.</b> <p>\\( (X, Y) \\rightarrow(Z, W) \\text { implies }(X, Y) \\rightarrow Z  \\)</p>",
+            "<b>C.</b> <p>\\( ((X, Y) \\rightarrow Z \\text { and } W \\rightarrow Y) \\text { implies }(X, W) \\rightarrow Z  \\)</p>",
+            "<b>D.</b> <p>\\( (X \\rightarrow Y \\text { and } Y \\rightarrow Z) \\text { implies } X \\rightarrow Z \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\( (X, Y) \\rightarrow(Z, W) \\text { implies }(X, Y) \\rightarrow Z  \\)</p>",
+            "<b>C.</b> <p>\\( ((X, Y) \\rightarrow Z \\text { and } W \\rightarrow Y) \\text { implies }(X, W) \\rightarrow Z  \\)</p>",
+            "<b>D.</b> <p>\\( (X \\rightarrow Y \\text { and } Y \\rightarrow Z) \\text { implies } X \\rightarrow Z \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422808/gate-cse-2024-set-1-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following two relations, \\(R(A, B) \\) and \\(S(A, C) \\) :<br>\\(\\boldsymbol{R}\n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  &amp; \\boldsymbol{B}  \\\\\n\\hline 10 &amp; 20 \\\\\n\\hline 20 &amp; 30 \\\\\n\\hline 30 &amp; 40 \\\\\n\\hline 30 &amp; 50 \\\\\n\\hline 50 &amp; 95 \\\\\n\\hline\n\\end{array}\\)<br><br> <br>\\(\\boldsymbol{S}\n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  &amp; \\boldsymbol{C}  \\\\\n\\hline 10 &amp; 90 \\\\\n\\hline 30 &amp; 45 \\\\\n\\hline 40 &amp; 80 \\\\\n\\hline\n\\end{array}\n\\)<br>\nThe total number of tuples obtained by evaluating the following expression \\( \\sigma_{B \\lt C}\\left(R \\bowtie_{R . A=S . A} S\\right) \\)\nis ____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422817/gate-cse-2024-set-1-question-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following statements about a relation R in first normal form (1NF)\nis/are TRUE ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>R can have a multi-attribute key</p>",
+            "<b>B.</b> <p>R cannot have a foreign key</p>",
+            "<b>C.</b> <p>R cannot have a composite attribute</p>",
+            "<b>D.</b> <p>R cannot have more than one candidate key</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>R can have a multi-attribute key</p>",
+            "<b>C.</b> <p>R cannot have a composite attribute</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422830/gate-cse-2024-set-1-question-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let S be the specification: \"Instructors teach courses. Students register for courses.\nCourses are allocated classrooms. Instructors guide students.\" Which one of the\nfollowing ER diagrams CORRECTLY represents S? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q10_4a9e0516.webp\"><br> <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i)</p>",
+            "<b>B.</b> <p>(ii)</p>",
+            "<b>C.</b> <p>(iii)</p>",
+            "<b>D.</b> <p>(iv)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422832/gate-cse-2024-set-1-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a database of fixed-length records, stored as an ordered file. The database\nhas 25,000 records, with each record being 100 bytes, of which the primary key\noccupies 15 bytes. The data file is block-aligned in that each data record is fully\ncontained within a block. The database is indexed by a primary index file, which\nis also stored as a block-aligned ordered file. The figure below depicts this indexing\nscheme.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q52_44be1c2f.jpg\"><br>Suppose the block size of the file system is 1024 bytes, and a pointer to a block\noccupies 5 bytes. The system uses binary search on the index file to search for a\nrecord with a given key. You may assume that a binary search on an index file of\n\\(b\\) blocks takes  \\(\\left \\lceil \\log_2 b \\right \\rceil \\)  block accesses in the worst case.<br>\nGiven a key, the number of block accesses required to identify the block in the data\nfile that may contain a record with the key, in the worst case, is _____ <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399259/gate-cse-2023-question-52#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following table named Student in a relational database. The primary\nkey of this table is rollNum.<br>\\(\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nrollNum&amp;name&amp;gender&amp;marks \\\\ \\hline\n1&amp;Naman&amp;M&amp;62\\\\ \\hline\n2&amp;Aliya&amp;F&amp;70 \\\\ \\hline\n3&amp;Aliya &amp;F&amp;80 \\\\ \\hline\n4&amp;James&amp;M&amp;82\\\\ \\hline\n5&amp;Swati&amp;F&amp;65\\\\ \\hline\n\\end{array} \\)  <br>The SQL query below is executed on this database.<br><pre><code>\nSELECT *\nFROM Student\nWHERE gender = 'F' AND\n marks &gt; 65;\n</code></pre><br>The number of rows returned by the query is ______ <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399260/gate-cse-2023-question-51#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the options given below refers to the degree (or arity) of a relation in\nrelational database systems? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Number of attributes of its relation schema.</p>",
+            "<b>B.</b> <p>Number of tuples stored in the relation.</p>",
+            "<b>C.</b> <p>Number of entries in the relation.</p>",
+            "<b>D.</b> <p>Number of distinct domains of its relation schema.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Number of attributes of its relation schema.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399306/gate-cse-2023-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the relational database with the following four schemas and their respective instances.<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q46_acaeb162.jpg\"><br>The number of rows returned by the above SQL query is ___ <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371890/Gate-cse-2022-question-46#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let \\(R_i(z)\\) and \\(W_i(z)\\) denote read and write operations on a data element \\(z\\) by a transaction \\(T_i\\), respectively. Consider the schedule \\(S\\) with four transactions.<br><br>S: \\(R_4(x)R_2(x)R_3(x)R_1(y)W_1(y)W_2 (x)W_3 (y)R_4(y)\\) <br><br>Which one of the following serial schedules is conflict equivalent to \\(S\\)? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T_1\\rightarrow T_3\\rightarrow T_4\\rightarrow T_2\\)</p>",
+            "<b>B.</b> <p>\\(T_1\\rightarrow T_4\\rightarrow T_3\\rightarrow T_2\\)</p>",
+            "<b>C.</b> <p>\\(T_4\\rightarrow T_1\\rightarrow T_3\\rightarrow T_2\\)</p>",
+            "<b>D.</b> <p>\\(T_3\\rightarrow T_1\\rightarrow T_4\\rightarrow T_2\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(T_1\\rightarrow T_3\\rightarrow T_4\\rightarrow T_2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371907/Gate-cse-2022-question-29#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a relation \\(R( A, B, C, D, E )\\) with the following three functional dependencies.<br>\\(AB \\rightarrow C;BC  \\rightarrow D; C \\rightarrow E;\\)<br>\nThe number of superkeys in the relation \\(R\\) is . <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371915/Gate-cse-2022-question-21#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following three relations in a relational database.<br>\\(Employee(eId, Name), Brand (bId, bName), Own(eId ,bId)\\)<br>Which of the following relational algebra expressions return the set of \\(eIds\\) who own all the brands? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(  \\Pi _{eId}(\\Pi _{eId,bId}(Own)/\\Pi _{bId}(Brand))\\)</p>",
+            "<b>B.</b> <p>\\(  \\Pi _{eId}(Own)-\\Pi _{eId}\\left ((\\Pi _{eId}(Own) \\times \\Pi _{bId}(Brand) )-\\Pi _{eId,bId}(Own)  \\right )\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi _{eId}(\\Pi _{eId,bId}(Own)/\\Pi _{bId}(Own))  \\)</p>",
+            "<b>D.</b> <p>\\( \\Pi _{eId}\\left ((\\Pi _{eId}(Own) \\times \\Pi _{bId}(Own) )/\\Pi _{bId}(Brand)  \\right ) \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(  \\Pi _{eId}(\\Pi _{eId,bId}(Own)/\\Pi _{bId}(Brand))\\)</p>",
+            "<b>B.</b> <p>\\(  \\Pi _{eId}(Own)-\\Pi _{eId}\\left ((\\Pi _{eId}(Own) \\times \\Pi _{bId}(Brand) )-\\Pi _{eId,bId}(Own)  \\right )\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371921/Gate-cse-2022-question-15#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a relational data model, which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A relation with only two attributes is always in BCNF.</p>",
+            "<b>B.</b> <p>If all attributes of a relation are prime attributes, then the relation is in BCNF.</p>",
+            "<b>C.</b> <p>Every relation has at least one non-prime attribute.</p>",
+            "<b>D.</b> <p>BCNF decompositions preserve functional dependencies.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A relation with only two attributes is always in BCNF.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371932/Gate-cse-2022-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Suppose the following functional dependencies hold on a relation U with attributes \\(P, Q, R, S, \\text{ and } T\\):\n<br><br>\\(P \\rightarrow QR \\\\ RS \\rightarrow T\\)<br><br>\nWhich of the following functional dependencies can be inferred from the above functional dependencies? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(PS \\rightarrow T\\)</p>",
+            "<b>B.</b> <p>\\(R \\rightarrow T\\)</p>",
+            "<b>C.</b> <p>\\(P \\rightarrow R\\)</p>",
+            "<b>D.</b> <p>\\(PS \\rightarrow Q\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(PS \\rightarrow T\\)</p>",
+            "<b>C.</b> <p>\\(P \\rightarrow R\\)</p>",
+            "<b>D.</b> <p>\\(PS \\rightarrow Q\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357500/gate-cse-2021-set-2-question-40#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let S be the following schedule of operations of three transactions \\(T_1, T_2 \\text{ and }T_3\\) in a relational database system:<br><br>\n\\(R_2(Y), R_1(X), R_3(Z), R_1(Y)W_1(X), R_2(Z), W_2(Y), R_3(X), W_3(Z)\\)<br><br>\nConsider the statements P and Q below:<br><br>\nP: S is conflict-serializable.<br>\nQ: If \\(T_3\\) commits before \\(T_1\\) finishes, then S is recoverable.<br><br>\nWhich one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both P and Q are true</p>",
+            "<b>B.</b> <p>P is true and Q is false</p>",
+            "<b>C.</b> <p>P is false and Q is true</p>",
+            "<b>D.</b> <p>Both P and Q are false</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P is true and Q is false</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357508/gate-cse-2021-set-2-question-32#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The relation scheme given below is used to store information about the employees of a company, where empId is the key and deptId indicates the department to which the employee is assigned. Each employee is assigned to exactly one department.<br><br>\n\\(\\textsf{emp($\\underline{\\textsf{empId}}$, name, gender, salary, deptId)}\\)<br><br>\nConsider the following SQL query:<pre><code> select deptId, count(*)\nfrom emp\nwhere gender = \"female\" and salary &gt; (select avg(salary)from emp)\ngroup by deptId;</code></pre>The above query gives, for each department in the company, the number of female employees whose salary is greater than the average salary of <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>employees in the department</p>",
+            "<b>B.</b> <p>employees in the company</p>",
+            "<b>C.</b> <p>female employees in the department</p>",
+            "<b>D.</b> <p>female employees in the company</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>employees in the company</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357509/gate-cse-2021-set-2-question-31#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

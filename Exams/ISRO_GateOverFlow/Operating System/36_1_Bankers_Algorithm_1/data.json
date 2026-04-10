@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Bankers Algorithm",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bankers Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128692\"></a><div itemprop=\"text\"><p>What problem is solved by Dijikstra banker' algorithm?</p></div><br><br><b>Operating System: ISRO CSE 2017 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mutual exclusion</p>",
+            "<p>Deadlock recovery</p>",
+            "<p>Deadlock avoidance</p>",
+            "<p>Cache coherence</p>"
+          ],
+          "correct_answer": "<p>Deadlock avoidance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128692/isro-cse-2017-question-48\" target=\"_blank\">https://gateoverflow.in/128692/isro-cse-2017-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+}

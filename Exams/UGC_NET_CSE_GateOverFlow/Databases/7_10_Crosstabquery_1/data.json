@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Crosstabquery",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Crosstabquery",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59252\"></a><div itemprop=\"text\">\n<p>Cross_tab displays permit users to view ____ of multidimensional data at a time.</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | September 2013 | Part 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One dimension</p>",
+            "<p>Two dimensions</p>",
+            "<p>Three dimensions</p>",
+            "<p>Multidimensions</p>"
+          ],
+          "correct_answer": "<p>Two dimensions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59252/ugc-net-cse-september-2013-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/59252/ugc-net-cse-september-2013-part-2-question-41</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Pipelining",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Pipelining",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"360824\"></a><div itemprop=\"text\"><p>A non-pipelined system takes \\( \\text{30ns} \\) to process a task. The same task can be processed in a four-segment pipeline with a clock cycle of \\( \\text{10ns} \\). Determine the speed up of the pipeline for \\( 100 \\) tasks.</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2019 | Part 2 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3.91 \\)</p>",
+            "<p>\\( 2.91 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/360824/ugc-net-cse-december-2019-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/360824/ugc-net-cse-december-2019-part-2-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

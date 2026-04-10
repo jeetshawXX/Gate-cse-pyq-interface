@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Bridges",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bridges",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155360\"></a><div itemprop=\"text\"><p>A conventional \\( LAN \\) bridge specifies only the functions of \\( OSI \\) :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2008 | Part 2 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>layers 1 and 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>layers 1 through 3&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>all layers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155360/ugc-net-cse-december-2008-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/155360/ugc-net-cse-december-2008-part-2-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+});

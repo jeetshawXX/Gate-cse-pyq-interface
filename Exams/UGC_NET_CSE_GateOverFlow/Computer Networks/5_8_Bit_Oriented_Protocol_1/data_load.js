@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Bit Oriented Protocol",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bit Oriented Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60512\"></a><div itemprop=\"text\"><p>________ is a bit-oriented protocol for communication over point-to-point and multipoint links.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2014 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stop-and-wait</p>",
+            "<p>HDLC&nbsp;</p>",
+            "<p>Sliding window</p>",
+            "<p>Go-back-N&nbsp;</p>"
+          ],
+          "correct_answer": "<p>HDLC&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60512/ugc-net-cse-december-2014-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/60512/ugc-net-cse-december-2014-part-3-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

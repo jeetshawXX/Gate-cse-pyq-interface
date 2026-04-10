@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - ISRO CSE 2009  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "ISRO CSE 2009  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50478\"></a><div itemprop=\"text\">\n<p>\\( x=a \\cos(t), y=b \\sin(t) \\) is the parametric form of</p>\n\n\n</div><br><br><b>Calculus: ISRO CSE 2009 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ellipse</p>",
+            "<p>Hyperbola</p>",
+            "<p>Circle</p>",
+            "<p>Parabola</p>"
+          ],
+          "correct_answer": "<p>Ellipse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50478/isro-cse-2009-question-49\" target=\"_blank\">https://gateoverflow.in/50478/isro-cse-2009-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

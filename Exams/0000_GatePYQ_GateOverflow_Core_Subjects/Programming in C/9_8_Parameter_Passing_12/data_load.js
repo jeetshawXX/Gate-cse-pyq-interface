@@ -1,0 +1,171 @@
+window.__examLoadCallback({
+  "title": "Programming in C - Parameter Passing",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Parameter Passing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43584\"></a><div itemprop=\"text\"><p>Show the activation records and the display structure just after the&nbsp;procedures called at lines marked \\( x \\) and \\( y \\) have started their execution. Be&nbsp;sure to indicate which of the two procedures named \\( A \\) you are referring to.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Program Test;\n    Procedure A;\n        Procedure B;\n            Procedure A;\n            begin\n            ……\n            end A;\n        begin\n            y: A;\n        end B;\n    begin\n        B;\n    end A;\n\nbegin\n    x: A;\nend Test</pre></div><br><br><b>GATE CSE 1992 | Question: 10b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43584/gate-cse-1992-question-10b\" target=\"_blank\">https://gateoverflow.in/43584/gate-cse-1992-question-10b</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"305\"></a><div itemprop=\"text\"><p>In which of the following cases is it possible to obtain different results for call-by-reference and call-by-name parameter passing methods?</p>\n\n</div><br><br><b>GATE CSE 1994 | Question: 1.20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Passing a constant value as a parameter</p>",
+            "<p>Passing the address of an array as a parameter</p>",
+            "<p>Passing an array element as a parameter</p>",
+            "<p>Passing an array</p>"
+          ],
+          "correct_answer": "<p>Passing an array element as a parameter</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/305/gate-cse-1994-question-1-20\" target=\"_blank\">https://gateoverflow.in/305/gate-cse-1994-question-1-20</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"735\"></a><div itemprop=\"text\"><p>What is printed by the print statements in the program \\( P1 \\) assuming call by reference parameter passing?</p>\n\n<pre class=\"prettyprint lang-c_cpp\" style=\"text-align: justify;\">Program P1()\n{\n    x = 10;\n    y = 3;\n    func1(y,x,x);\n    print x;\n    print y;\n}\n\nfunc1(x,y,z)\n{\n    y = y + 4;\n    z = x + y + z\n}</pre>\n\n</div><br><br><b>GATE CSE 2001 | Question: 2.17 | UGCNET-AUG2016-III: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{10, 3} \\)</p>",
+            "<p>\\( \\text{31, 3} \\)</p>",
+            "<p>\\( \\text{27, 7} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{31, 3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/735/gate-cse-2001-question-2-17-ugcnet-aug2016-iii-21\" target=\"_blank\">https://gateoverflow.in/735/gate-cse-2001-question-2-17-ugcnet-aug2016-iii-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"960\"></a><div itemprop=\"text\"><p>The following program fragment is written in a programming language that allows global variables and does not allow nested declarations of functions.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">global int i=100, j=5;\nvoid P(x) {\n\tint i=10;\n    print(x+10);\n    i=200;\n    j=20;\n    print (x);\n}\nmain() {P(i+j);}\n</pre>\n\n<p>If the programming language uses static scoping and call by need parameter passing mechanism, the values printed by the above program are:</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 115, 220 \\)</p>",
+            "<p>\\( 25, 220 \\)</p>",
+            "<p>\\( 25, 15 \\)</p>",
+            "<p>\\( 115, 105 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 115, 105 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/960/gate-cse-2003-question-73\" target=\"_blank\">https://gateoverflow.in/960/gate-cse-2003-question-73</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"483\"></a><div itemprop=\"text\"><p>What is printed by the following C program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f(int x, int *py, int **ppz)\t\t\t\n{\t\t\t\t\t\t                    \t\n    int y, z;\t\t\t\t\t                \t\t\n    **ppz += 1; <strong>z = **ppz</strong>;\t\t // corrected <strong>z = *ppz</strong>; to <strong>z = **ppz</strong>;                \n    *py += 2; y = *py;\t\t\t\t\t                \t\n    x += 3;\t\t\t\t\t                    \t\n    return x+y+z;\n}\n\nvoid main()\n{\n    int c, *b, **a;\n    c = 4; b = &amp;c; a = &amp;b;\n    printf(\"%d\", f(c, b, a));\n    \t\n}</pre>\n\n</div><br><br><b>GATE CSE 2008 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/483/gate-cse-2008-question-60\" target=\"_blank\">https://gateoverflow.in/483/gate-cse-2008-question-60</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2184\"></a><div itemprop=\"text\"><p>What does the following program print?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\n\nvoid f(int *p, int *q) {\n    p=q;\n    *p=2;\n}\n\nint i=0, j=1;\n\nint main() {\n    f(&amp;i, &amp;j);\n    printf(\"%d %d\\n\", i,j);\n    return 0;\n}</pre>\n\n</div><br><br><b>GATE CSE 2010 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\ 2 \\)</p>",
+            "<p>\\( 2 \\ 1 \\)</p>",
+            "<p>\\( 0 \\ 1 \\)</p>",
+            "<p>\\( 0 \\ 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\ 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2184/gate-cse-2010-question-11\" target=\"_blank\">https://gateoverflow.in/2184/gate-cse-2010-question-11</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"60\"></a><div itemprop=\"text\"><p>What is the return value of \\( f(p,p) \\), if the value of \\( p \\) is initialized to \\( 5 \\) before the call? Note that the first parameter is passed by reference, whereas the second parameter is passed by value.<br>\n&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f (int &amp;x, int c) {\n       c = c - 1;\n       if (c==0) return 1;\n       x = x + 1;\n       return f(x,c) * x;\n}</pre></div><br><br><b>GATE CSE 2013 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6561",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60/gate-cse-2013-question-42\" target=\"_blank\">https://gateoverflow.in/60/gate-cse-2013-question-42</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"39642\"></a><div itemprop=\"text\"><p>Consider the following C program.</p>\n\n<pre class=\"prettyprint lang-c_cpp\"># include &lt;stdio.h&gt;\nvoid mystery (int *ptra, int *ptrb) {  \n&nbsp;    int *temp; \n&nbsp;    temp = ptrb;  \n&nbsp;    ptrb =ptra; \n&nbsp;    ptra = temp; \n} \nint main () { \n&nbsp;   int a = 2016, b=0, c= 4, d = 42; \n&nbsp;   mystery (&amp;a, &amp;b);\n&nbsp;   if (a &lt; c) \n&nbsp;         mystery (&amp;c, &amp;a); \n&nbsp;   mystery (&amp;a, &amp;d); \n&nbsp;   printf(\"%d\\n\", a); \n}</pre>\n\n<p>The output of the program is _________.</p></div><br><br><b>GATE CSE 2016 Set 1 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2016",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39642/gate-cse-2016-set-1-question-15\" target=\"_blank\">https://gateoverflow.in/39642/gate-cse-2016-set-1-question-15</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"39565\"></a><div itemprop=\"text\"><p>The value printed by the following program is _______.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">      void f (int * p, int m) { \n&nbsp;          m = m + 5; \n&nbsp;         *p = *p + m; \n&nbsp;          return; \n      }  \n   &nbsp;  void main () { \n&nbsp;      int i=5, j=10; \n\n&nbsp;      f (&amp;i, j); \n&nbsp;      printf (\"%d\", i+j); \n&nbsp;    }</pre></div><br><br><b>GATE CSE 2016 Set 2 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "30",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39565/gate-cse-2016-set-2-question-12\" target=\"_blank\">https://gateoverflow.in/39565/gate-cse-2016-set-2-question-12</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"204103\"></a><div itemprop=\"text\"><pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nvoid fun1(char* s1, char* s2){\n    char* temp;\n    temp = s1;\n    s1 = s2;\n    s2 = temp;\n}\nvoid fun2(char** s1, char** s2){\n    char* temp;\n    temp = *s1;\n    *s1 = *s2;\n    *s2 = temp;\n}\nint main(){\n    char *str1=\"Hi\", *str2 = \"Bye\";\n    fun1(str1, str2); printf(\"%s %s\", str1, str2);\n    fun2(&amp;str1, &amp;str2); printf(\"%s %s\", str1, str2);\n    return 0;\n}</pre>\n\n<p>The output of the program above is:</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Hi Bye Bye Hi} \\)</p>",
+            "<p>\\( \\text{Hi Bye Hi Bye} \\)</p>",
+            "<p>\\( \\text{Bye Hi Hi Bye} \\)</p>",
+            "<p>\\( \\text{Bye Hi Bye Hi} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Hi Bye Bye Hi} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204103/gate-cse-2018-question-29\" target=\"_blank\">https://gateoverflow.in/204103/gate-cse-2018-question-29</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3593\"></a><div itemprop=\"text\"><p>Which one of the choices given below would be printed when the following program is executed?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include &lt;stdio.h&gt;\nvoid swap (int *x, int *y)\n{\n    static int *temp;\n    temp = x;\n    x = y;\n    y = temp;\n}\nvoid printab ()\n{\n    static int i, a = -3, b = -6;\n    i = 0;\n    while (i &lt;= 4)\n    {\n        if ((i++)%2 == 1) continue;\n        a = a + i;\n        b = b + i;\n    }\n    swap (&amp;a, &amp;b);\n    printf(\"a =  %d, b = %d\\n\", a, b);\n}\nmain()\n{\n    printab();\n    printab();\n}</pre>\n\n</div><br><br><b>GATE IT 2006 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a = 0, b = 3 \\)<br>\n\t\\( a = 0, b = 3 \\)</p>",
+            "<p>\\( a = 3, b = 0 \\)<br>\n\t\\( a = 12, b = 9 \\)</p>",
+            "<p>\\( a = 3, b = 6 \\)<br>\n\t\\( a = 3, b = 6 \\)</p>",
+            "<p>\\( a = 6, b = 3 \\)<br>\n\t\\( a = 15, b = 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a = 6, b = 3 \\)<br>\n\t\\( a = 15, b = 12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3593/gate-it-2006-question-50\" target=\"_blank\">https://gateoverflow.in/3593/gate-it-2006-question-50</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"3360\"></a><div itemprop=\"text\"><p>Consider the C program below. What does it print?</p><pre class=\"prettyprint lang-c_cpp\"># include &lt;stdio.h&gt;\n# define swap1 (a, b) tmp = a; a = b; b = tmp\nvoid swap2 ( int a, int b)\n{\n        int tmp;\n        tmp = a; a = b; b = tmp;\n }\nvoid swap3 (int*a, int*b)\n{\n        int tmp;\n        tmp = *a; *a = *b; *b = tmp;\n}\nint main ()\n{\n        int num1 = 5, num2 = 4, tmp;\n        if (num1 &lt; num2) {swap1 (num1, num2);}\n        if (num1 &lt; num2) {swap2 (num1 + 1, num2);}\n        if (num1 &gt; = num2) {swap3 (&amp;num1, &amp;num2);}\n        printf (\"%d, %d\", num1, num2);\n}\n</pre></div><br><br><b>GATE IT 2008 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5, 5 \\)</p>",
+            "<p>\\( 5, 4 \\)</p>",
+            "<p>\\( 4, 5 \\)</p>",
+            "<p>\\( 4, 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4, 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3360/gate-it-2008-question-50\" target=\"_blank\">https://gateoverflow.in/3360/gate-it-2008-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,203 @@
+{
+  "title": "Algorithms - Sorting",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18623\"></a><div itemprop=\"text\"><p>Suppose you are given \\( n \\) numbers and you sort them in descending order as follows:</p>\n\n<p>First find the maximum. Remove this element from the list and find the maximum of the remaining elements, remove this element, and so on, until all elements are exhausted. How many comparisons does this method require in the worst case?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2010 | Part B | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Linear in \\( n \\).</p>",
+            "<p>\\( O\\left ( n^2 \\right ) \\) but not better.</p>",
+            "<p>\\( O\\left (n \\log n \\right ) \\)</p>",
+            "<p>Same as heap sort.</p>",
+            "<p>\\( O\\left ( n^{1.5} \\right ) \\) but not better.</p>"
+          ],
+          "correct_answer": "<p>\\( O\\left ( n^2 \\right ) \\) but not better.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18623/tifr-cse-2010-part-b-question-23\" target=\"_blank\">https://gateoverflow.in/18623/tifr-cse-2010-part-b-question-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"19036\"></a><div itemprop=\"text\"><p>Consider the Insertion Sort procedure given below, which sorts an array \\( L \\) of size \\( n\\left ( \\geq 2 \\right ) \\) in ascending order:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">begin     \n    for xindex:= 2 to n do        \n        x := L [xindex];\n        j:= xindex - 1;\n        while j &gt; 0 and L[j] &gt; x do\n            L[j + 1]:= L[j];\n            j:= j - 1;\n        end {while}\n        L [j + 1]:=X;\n    end{for}   \nend</pre>\n\n<p>It is known that insertion sort makes at most \\( n (n - 1) / 2 \\) comparisons. Which of the following is true?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2010 | Part B | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There is no input on which insertion Sort makes \\( n (n - 1) / 2  \\) comparisons.</p>",
+            "<p>Insertion Sort makes \\( n (n - 1) / 2 \\) comparisons when the input is already sorted in ascending order.</p>",
+            "<p>Insertion Sort makes \\( n (n - 1) / 2 \\) comparisons only when the input is sorted in descending order.</p>",
+            "<p>There are more than one input orderings where insertion sort makes \\( n (n - 1) / 2  \\) comparisons.</p>",
+            "<p>Insertion Sort makes \\( n (n - 1) / 2 \\) comparisons whenever all the elements of \\( L \\) are not distinct.</p>"
+          ],
+          "correct_answer": "<p>There are more than one input orderings where insertion sort makes \\( n (n - 1) / 2  \\) comparisons.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19036/tifr-cse-2010-part-b-question-27\" target=\"_blank\">https://gateoverflow.in/19036/tifr-cse-2010-part-b-question-27</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"20324\"></a><div itemprop=\"text\"><p>Let \\( S=\\left \\{ x_{1},....,x_{n} \\right \\} \\) be a set of \\( n \\) numbers. Consider the problem of storing the elements of \\( S \\) in an array \\( A\\left [ 1...n \\right ] \\) such that the following min-heap property is maintained for all \\( 2\\leq i\\leq n: A [\\lfloor i/2\\rfloor]\\leq A[i] \\). (Note that \\( \\lfloor x\\rfloor \\) is the largest integer that is at most \\( x \\)). Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2011 | Part B | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>This problem can be solved in \\( O(\\log n) \\) time.</p>",
+            "<p>This problem can be solved in \\( O (n) \\) time but not in \\( O(\\log n) \\) time.</p>",
+            "<p>This problem can be solved in \\( O(n\\log n) \\) time but not in \\( O (n) \\) time.</p>",
+            "<p>This problem can be solved in \\( O \\left ( n^{2} \\right ) \\) time but not in \\( O(n\\log n) \\) time.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>This problem can be solved in \\( O (n) \\) time but not in \\( O(\\log n) \\) time.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20324/tifr-cse-2011-part-b-question-21\" target=\"_blank\">https://gateoverflow.in/20324/tifr-cse-2011-part-b-question-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"20617\"></a><div itemprop=\"text\"><p>Given a set of \\( n=2^{k} \\) distinct numbers, we would like to determine the smallest and the second smallest using comparisons. Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2011 | Part B | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both these elements can be determined using \\( 2k \\) comparisons.</p>",
+            "<p>Both these elements can be determined using \\( n - 2 \\) comparisons.</p>",
+            "<p>Both these elements can be determined using \\( n + k - 2 \\) comparisons.</p>",
+            "<p>\\( 2n - 3 \\) comparisons are necessary to determine these two elements.</p>",
+            "<p>\\( nk \\) comparisons are necessary to determine these two elements.</p>"
+          ],
+          "correct_answer": "<p>Both these elements can be determined using \\( n + k - 2 \\) comparisons.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20617/tifr-cse-2011-part-b-question-31\" target=\"_blank\">https://gateoverflow.in/20617/tifr-cse-2011-part-b-question-31</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"20935\"></a><div itemprop=\"text\"><p>The first \\( n \\) cells of an array \\( L \\) contain positive integers sorted in decreasing order, and the remaining \\( m - n \\) cells all contain 0. Then, given an integer \\( x \\), in how many comparisons can one find the position of \\( x \\) in \\( L \\)?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2011 | Part B | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>At least \\( n \\) comparisons are necessary in the worst case.</p>",
+            "<p>At least \\( \\log m \\) comparisons are necessary in the worst case.</p>",
+            "<p>\\( O (\\log (m - n)) \\) comparisons suffice.</p>",
+            "<p>\\( O (\\log n) \\) comparisons suffice.</p>",
+            "<p>\\( O (\\log (m / n)) \\) comparisons suffice.</p>"
+          ],
+          "correct_answer": "<p>\\( O (\\log n) \\) comparisons suffice.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20935/tifr-cse-2011-part-b-question-39\" target=\"_blank\">https://gateoverflow.in/20935/tifr-cse-2011-part-b-question-39</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"25207\"></a><div itemprop=\"text\"><p>An array \\( A \\) contains \\( n \\) integers. We wish to sort \\( A \\) in ascending order. We are told that initially no element of \\( A \\) is more than a distance \\( k \\) away from its final position in the sorted list. Assume that \\( n \\) and \\( k \\) are large and \\( k \\) is much smaller than \\( n \\). Which of the following is true for the worst case complexity of sorting \\( A \\)?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2012 | Part B | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\) can be sorted with constant \\( \\cdot kn \\) comparison but not with fewer comparisons.</p>",
+            "<p>\\( A \\) cannot be sorted with less than constant \\( \\cdot n \\log n \\) comparisons.</p>",
+            "<p>\\( A \\) can be sorted with constant \\( \\cdot n \\) comparisons.</p>",
+            "<p>\\( A \\) can be sorted with constant \\( \\cdot n \\log k \\) comparisons but not with fewer comparisons.</p>",
+            "<p>\\( A \\) can be sorted with constant \\( \\cdot k^{2}n \\) comparisons but not fewer.</p>"
+          ],
+          "correct_answer": "<p>\\( A \\) can be sorted with constant \\( \\cdot n \\log k \\) comparisons but not with fewer comparisons.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25207/tifr-cse-2012-part-b-question-13\" target=\"_blank\">https://gateoverflow.in/25207/tifr-cse-2012-part-b-question-13</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"25774\"></a><div itemprop=\"text\"><p>It takes \\( O(n) \\) time to find the median in a list of \\( n \\) elements, which are not necessarily in sorted order&nbsp;while it takes only \\( O(1) \\) time to find the median in a list of \\( n \\) sorted elements. How much time does it take&nbsp;to find the median of \\( 2n \\) elements which are given as two lists of \\( n \\) sorted elements each?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (1) \\)</p>",
+            "<p>\\( O&nbsp;\\left(\\log n\\right) \\) but not \\( O (1) \\)</p>",
+            "<p>\\( O (\\sqrt{n}) \\)&nbsp;but not \\( O&nbsp;\\left(\\log n\\right) \\)</p>",
+            "<p>\\( O (n) \\) but not \\( O (\\sqrt{n}) \\)</p>",
+            "<p>\\( O&nbsp;\\left(n \\log n\\right) \\) but not \\( O (n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O&nbsp;\\left(\\log n\\right) \\) but not \\( O (1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25774/tifr-cse-2013-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/25774/tifr-cse-2013-part-b-question-12</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"25878\"></a><div itemprop=\"text\"><p>Suppose \\( n \\) processors are connected in a linear array as shown below. Each processor has a number.&nbsp;The processors need to exchange numbers so that the numbers eventually appear in ascending order (the&nbsp;processor \\( \\rm P1 \\) should have the minimum value and the the processor \\( \\rm Pn \\) should have the maximum value).</p>\n\n<p><img alt=\"\" height=\"49\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3718674314406348016\" width=\"515\"></p>\n\n<p>The algorithm to be employed is the following. Odd numbered processors and even numbered processors&nbsp;are activated alternate steps; assume that in the first step all the even numbered processors are activated.&nbsp;When a processor is activated, the number it holds is compared with the number held by its right-hand&nbsp;neighbour (if one exists) and the smaller of the two numbers is retained by the activated processor and the&nbsp;bigger stored in its right hand neighbour.<br>\nHow long does it take for the processors to sort the values?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\log n \\) steps</p>",
+            "<p>\\( n^2 \\)&nbsp;steps</p>",
+            "<p>\\( n \\) steps</p>",
+            "<p>\\( n^{1.5} \\) steps</p>",
+            "<p>The algorithm is not guaranteed to sort</p>"
+          ],
+          "correct_answer": "<p>\\( n \\) steps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25878/tifr-cse-2013-part-b-question-20\" target=\"_blank\">https://gateoverflow.in/25878/tifr-cse-2013-part-b-question-20</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"95699\"></a><div itemprop=\"text\"><p>An array of \\( n \\) distinct elements is said to be un-sorted if for every index \\( i \\) such that \\(  2 \\leq i \\leq n-1 \\), either \\( A[i] &gt; \\text{max} \\{A [i-1], A[i+1]\\} \\), or \\( A[i] &lt; \\text{min} \\{A[i-1], A[i+1]\\} \\). What is the time-complexity of the fastest algorithm that takes as input a sorted array \\( A \\) with \\( n \\) distinct elements, and un-sorts \\( A \\)?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2017 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n \\: \\log \\: n) \\) but not \\( O(n) \\)</p>",
+            "<p>\\( O(n) \\) but not \\( O(\\sqrt{n}) \\)</p>",
+            "<p>\\( O(\\sqrt{n}) \\) but not \\( O(\\log n) \\)</p>",
+            "<p>\\( O(\\log n) \\) but not \\( O(1) \\)</p>",
+            "<p>\\( O(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\) but not \\( O(\\sqrt{n}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95699/tifr-cse-2017-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/95699/tifr-cse-2017-part-b-question-7</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"358938\"></a><div itemprop=\"text\"><p>Let \\( A\\left [ i \\right ] : i=0, 1, 2, \\dots , n-1 \\) be an array of \\( n \\) distinct integers. We wish to sort \\( A \\) in ascending order. We are given that each element in the array is at a position that is at most \\( k \\) away from its position in the sorted array, that is, we are given that \\( A[i] \\) will move to a position in \\( \\left \\{ i-k,i-k+1,\\dots,i,\\dots ,i+k-1,i+k \\right \\} \\) after the array is sorted in ascending order. Suppose insertion sort is used to sort this array: that is, in the&nbsp;\\( i \\) th&nbsp;iteration,&nbsp;\\( A[i] \\) is compared with the elements in positions \\( A[i-1], A[i-2], \\dots \\) until one that is smaller is found and \\( A[i] \\) is inserted after that element. Note that elements can be moved back when later insertions are made before them. Let \\( t(n) \\) be the worst-case number of comparisons made by insertion sort for such inputs. Then,</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2021 | Part B | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( t\\left ( n \\right ) = \\Theta \\left ( n^{2} \\right ) \\)</p>",
+            "<p>\\( t\\left ( n \\right ) = \\Theta \\left ( n\\: \\log_{2}\\:n \\right ) \\)</p>",
+            "<p>\\( t\\left ( n \\right ) = \\Theta \\left ( nk\\:\\log\\:k \\right ) \\)</p>",
+            "<p>\\( t\\left ( n \\right ) = \\Theta \\left ( n\\:\\log_{2}\\:k \\right ) \\)</p>",
+            "<p>\\( t\\left ( n \\right ) = \\Theta \\left ( nk \\right ) \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358938/tifr-cse-2021-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/358938/tifr-cse-2021-part-b-question-15</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"381998\"></a><div itemprop=\"text\"><p>Consider the following function \\( \\textsf{count}, \\) that takes as input \\( a, \\)&nbsp;an array of integers, and \\( \\textsf{N} \\), the size of the array.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int count(int a[], int N) {\n    int i, j, count_FN; \n    count_FN = 0;\n    for (i=1 ; i&lt;N ; i++) { \n        j=i-1 ;\n            while (a[j]&gt;a[i]) {\n                count_FN++; \n                j--; \n            } \n        }\n    return count_FN;\n}</pre>\n\n<p>Further, let \\( \\textsf{count_IS} \\) be the number of comparisons made by the insertion sort algorithm on the array \\( a \\).</p>\n\n<p>Which of the following statements is TRUE for some constant \\( c? \\)&nbsp;</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2022 | Part B | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>For all \\( \\textsf{N}&nbsp;\\geq c \\), there exists an array of size \\( \\textsf{N} \\) for which \\( \\textsf{count_IS}&nbsp;\\geq \\textsf{N}^2 / c \\), while \\( \\textsf{count_FN} \\leq c \\textsf{N} \\)</p>",
+            "<p>For all \\( \\textsf{N} \\geq c \\), there exists an array of size \\( \\textsf{N} \\) for which \\( \\textsf{count_FN} \\geq \\textsf{N}^2 / c \\), while \\( \\textsf{count_IS}\\leq c \\textsf{N} \\)</p>",
+            "<p>For all \\( \\textsf{N} \\geq c \\), for all arrays of size \\( \\textsf{N, count_FN} \\leq \\textsf{count_IS} \\leq c \\times&nbsp;\\textsf{count_FN} \\)</p>",
+            "<p>For all \\( \\textsf{N} \\geq c \\), for all arrays of size \\( \\textsf{N, count_FN} \\geq \\textsf{N}^2 / c \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>For all \\( \\textsf{N}&nbsp;\\geq c \\), there exists an array of size \\( \\textsf{N} \\) for which \\( \\textsf{count_IS}&nbsp;\\geq \\textsf{N}^2 / c \\), while \\( \\textsf{count_FN} \\leq c \\textsf{N} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381998/tifr-cse-2022-part-b-question-11\" target=\"_blank\">https://gateoverflow.in/381998/tifr-cse-2022-part-b-question-11</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"382006\"></a><div itemprop=\"text\"><p>Consider the problem of sorting \\( n \\) single digit integers (base \\( 10 \\)). This problem can be solved in time</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2022 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n \\log n) \\) but not \\( O(n \\log \\log n) \\)</p>",
+            "<p>\\( O(n \\log \\log n) \\) but not \\( O(n) \\)</p>",
+            "<p>\\( O(n) \\) but not \\( O(n / \\log \\log n) \\)</p>",
+            "<p>\\( O(n / \\log \\log n) \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\) but not \\( O(n / \\log \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/382006/tifr-cse-2022-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/382006/tifr-cse-2022-part-b-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+window.__examLoadCallback({
+  "title": "Databases - Transaction and Concurrency",
+  "duration": 83,
+  "sections": [
+    {
+      "name": "Transaction and Concurrency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1484\"></a><div itemprop=\"text\"><p>For the schedule given below, which of the following is correct:</p>\n\n<p>\\[ \\begin{array}{ll} \\text{1} &amp; \\text{Read A} &amp; \\text{} \\\\&nbsp; \\text{2} &amp; \\text{} &amp; \\text{Read B} \\\\&nbsp; &nbsp;\\text{3} &amp; \\text{Write A} &amp; \\text{} \\\\&nbsp; \\text{4} &amp; \\text{} &amp; \\text{Read A} \\\\ \\text{5} &amp; \\text{} &amp; \\text{Write A} \\\\ \\text{6} &amp; \\text{} &amp; \\text{Write B} \\\\ \\text{7} &amp; \\text{Read B} &amp; \\text{} \\\\ \\text{8} &amp; \\text{Write B} &amp; \\text{} \\\\\\end{array} \\]</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 2.6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>This schedule is serializable and can occur in a scheme using 2PL protocol</p>",
+            "<p>This schedule is serializable but cannot occur in a scheme using 2PL protocol</p>",
+            "<p>This schedule is not serializable but can occur in a scheme using 2PL protocol</p>",
+            "<p>This schedule is not serializable and cannot occur in a scheme using 2PL protocol</p>"
+          ],
+          "correct_answer": "<p>This schedule is not serializable and cannot occur in a scheme using 2PL protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1484/gate-cse-1999-question-2-6\" target=\"_blank\">https://gateoverflow.in/1484/gate-cse-1999-question-2-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"919\"></a><div itemprop=\"text\">\n<p>Which of the following scenarios may lead to an irrecoverable error in a database system?</p>\n\n\n</div><br><br><b>GATE CSE 2003 | Question: 29, ISRO2009-73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A transaction writes a data item after it is read by an uncommitted transaction</p>",
+            "<p>A transaction reads a data item after it is read by an uncommitted transaction</p>",
+            "<p>A transaction reads a data item after it is written by a&nbsp;committed transaction</p>",
+            "<p>A transaction reads a data item after it is written by an uncommitted transaction</p>"
+          ],
+          "correct_answer": "<p>A transaction reads a data item after it is written by an uncommitted transaction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73\" target=\"_blank\">https://gateoverflow.in/919/gate-cse-2003-question-29-isro2009-73</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"970\"></a><div itemprop=\"text\"><p>Consider three data items \\( D1, D2, \\) and \\( D3, \\) and the following execution schedule of transactions \\( T1, T2, \\) and \\( T3. \\) In the diagram, \\( R(D) \\) and \\( W(D) \\) denote the actions reading and writing the data item \\( D \\) respectively.<br>\n\\[ &nbsp;\\begin{array}{|l|l|l|}\\hline \\textbf{T1}&nbsp; &amp;&nbsp; \\textbf{T2} &amp; \\textbf{T3}&nbsp; \\\\\\hline \\text{} &amp; \\text{R(D3);} &amp; \\text{}\\\\ \\text{} &amp; \\text{R(D2);} &amp; \\text{} \\\\ \\text{} &amp; \\text{W(D2);} &amp; \\text{} \\\\ \\text{} &amp; \\text{} &amp; \\text{R(D2);} \\\\ \\text{} &amp; \\text{} &amp; \\text{R(D3);} \\\\ \\text{R(D1);} &amp; \\text{} &amp; \\text{} \\\\ \\text{W(D1);} &amp; \\text{} &amp; \\text{} \\\\ \\text{} &amp; \\text{} &amp; \\text{W(D2);} \\\\ \\text{} &amp; \\text{} &amp; \\text{W(D3);} \\\\ \\text{} &amp; \\text{R(D1);} &amp; \\text{} \\\\ \\text{R(D2);} &amp; \\text{} &amp; \\text{} &nbsp; \\\\ \\text{W(D2);} &amp; \\text{} &amp; \\text{} \\\\ \\text{} &amp; \\text{W(D1);} &amp; \\text{}\\\\\\hline \\end{array} \\]Which of the following statements is correct?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The schedule is serializable as \\( T2; T3; T1 \\)</p>",
+            "<p>The schedule is serializable as \\( T2; T1; T3 \\)</p>",
+            "<p>The schedule is serializable as \\( T3; T2; T1 \\)</p>",
+            "<p>The schedule is not serializable</p>"
+          ],
+          "correct_answer": "<p>The schedule is not serializable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/970/gate-cse-2003-question-87\" target=\"_blank\">https://gateoverflow.in/970/gate-cse-2003-question-87</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"981\"></a><div itemprop=\"text\"><p>Consider the following log sequence of two transactions on a bank account, with&nbsp;initial balance \\( 12000, \\) that transfer \\( 2000 \\) to a mortgage payment and then apply&nbsp;a \\( 5\\% \\) interest.&nbsp;</p>\n\n<ol>\n\t<li>T1 start&nbsp;</li>\n\t<li>T1 B old \\( =12000 \\) new \\( =10000 \\)</li>\n\t<li>T1 M old \\( =0 \\) new \\( =2000 \\)</li>\n\t<li>T1 commit</li>\n\t<li>T2 start</li>\n\t<li>T2 B old \\( =10000 \\) new \\( =10500 \\)</li>\n\t<li>T2 commit</li>\n</ol>\n\n<p>Suppose the database system crashes just before log record \\( 7 \\) is written. When&nbsp;&nbsp;the system is restarted, which one statement is true of the recovery procedure?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 20, ISRO2015-17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>We must redo log record \\( 6 \\) to set B to \\( 10500 \\)&nbsp;</p>",
+            "<p>We must undo log record \\( 6 \\) to set B to \\( 10000 \\) and then redo log records \\( 2 \\)&nbsp; and \\( 3 \\)</p>",
+            "<p>We need not redo log records \\( 2 \\) and \\( 3 \\) because transaction T1 has committed&nbsp;</p>",
+            "<p>We can apply redo and undo operations in arbitrary order because they are&nbsp;idempotent</p>"
+          ],
+          "correct_answer": "<p>We must undo log record \\( 6 \\) to set B to \\( 10000 \\) and then redo log records \\( 2 \\)&nbsp; and \\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17\" target=\"_blank\">https://gateoverflow.in/981/gate-cse-2006-question-20-isro2015-17</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1262\"></a><div itemprop=\"text\"><p>Consider the following schedules involving two transactions. Which one of the following statements is <strong>TRUE</strong>?</p><ul><li>\\( S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X) \\)</li><li>\\( S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X) \\)</li></ul></div><br><br><b>GATE CSE 2007 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are conflict serializable.</p>",
+            "<p>\\( S_1 \\) is conflict serializable and \\( S_2 \\) is not conflict serializable.</p>",
+            "<p>\\( S_1 \\) is not conflict serializable and \\( S_2 \\) is conflict serializable.</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not conflict serializable.</p>"
+          ],
+          "correct_answer": "<p>\\( S_1 \\) is not conflict serializable and \\( S_2 \\) is conflict serializable.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1262/gate-cse-2007-question-64\" target=\"_blank\">https://gateoverflow.in/1262/gate-cse-2007-question-64</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1329\"></a><div itemprop=\"text\"><p>Consider two transactions \\( T_1 \\) and \\( T_2 \\), and four schedules \\( S_1, S_2, S_3, S_4 \\), &nbsp;of &nbsp;\\( T_1 \\) &nbsp;and &nbsp;\\( T_2 \\) as given below:</p><p>\\( T_1: R_1[x]W_1[x]W_1[y] \\)</p><p>\\( T_2: R_2[x]R_2[y]W_2[y] \\)</p><p>\\( S_1: R_1[x]R_2[x]R_2[y] W_1[x] W_1[y] W_2[y] \\)</p><p>\\( S_2: R_1[x]R_2[x]R_2[y] W_1[x] W_2[y] W_1[y] \\)</p><p>\\( S_3: R_1[x]W_1[x]R_2[x] W_1[y] R_2[y] W_2[y] \\)</p><p>\\( S_4: R_2[x]R_2[y]R_1[x] W_1[x] W_1[y] W_2[y] \\)</p><p>Which of the above schedules are conflict-serializable?</p></div><br><br><b>GATE CSE 2009 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S_1 \\text{ and } S_2 \\)</p>",
+            "<p>\\( S_2 \\text{ and } S_3 \\)</p>",
+            "<p>\\( S_3 \\) only</p>",
+            "<p>\\( S_4 \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( S_2 \\text{ and } S_3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1329/gate-cse-2009-question-43\" target=\"_blank\">https://gateoverflow.in/1329/gate-cse-2009-question-43</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2196\"></a><div itemprop=\"text\"><p>Which of the following concurrency control protocols ensure both conflict serializability and freedom from deadlock?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\\( 2 \\)-phase locking</li>\n\t<li>Time-stamp ordering\n\t\n\t</li>\n</ol></div><br><br><b>GATE CSE 2010 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>Both I and II</p>",
+            "<p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2196/gate-cse-2010-question-20\" target=\"_blank\">https://gateoverflow.in/2196/gate-cse-2010-question-20</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2343\"></a><div itemprop=\"text\"><p>Consider the following schedule for transactions \\( T1, T2 \\) and \\( T3: \\)</p><p>\\[ \\begin{array}{|c|c|c|}\\hline \\textbf{T1} &amp; \\textbf{T2} &amp; \\textbf{T3} \\\\\\hline&nbsp; \\text{Read(X)} &amp; \\text{} &amp; \\text{} \\\\\\hline&nbsp;&nbsp; \\text{} &amp; \\text{Read(Y)} &amp; \\text{} \\\\\\hline&nbsp; \\text{} &amp; \\text{} &amp; \\text{Read(Y)} \\\\\\hline&nbsp;\\text{} &amp; \\text{Write(Y)} &amp; \\text{} \\\\\\hline&nbsp;&nbsp;\\text{Write(X)} &amp; \\text{} &amp; \\text{} \\\\\\hline &nbsp;\\text{} &amp; \\text{} &amp; \\text{Write(X)} \\\\\\hline &nbsp;\\text{} &amp; \\text{Read(X)} &amp; \\text{} \\\\\\hline&nbsp;\\text{} &amp; \\text{Write(X)} &amp; \\text{} \\\\\\hline\\end{array} \\]<br>Which one of the schedules below is the correct serialization of the above?</p></div><br><br><b>GATE CSE 2010 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T1 \\to T3 \\to T2 \\)</p>",
+            "<p>\\( T2 \\to T1 \\to T3 \\)</p>",
+            "<p>\\( T2 \\to T3 \\to T1 \\)</p>",
+            "<p>\\( T3 \\to T1 \\to T2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T1 \\to T3 \\to T2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2343/gate-cse-2010-question-42\" target=\"_blank\">https://gateoverflow.in/2343/gate-cse-2010-question-42</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1612\"></a><div itemprop=\"text\"><p>Consider the following transactions with data items \\( P \\) and \\( Q \\) initialized to zero:<br>\n\\[ {\\begin{array}{|c|l|r|c|}\\hline<br>\n&nbsp; &nbsp;\\textbf{\\( T_1 \\)}&amp;&nbsp; &nbsp; \\text{read (P);}\\\\ &amp; \\text{read (Q);} \\\\ &amp; \\text{if P&nbsp;= 0 then Q&nbsp;:= Q + 1; }\\\\ &amp;&nbsp; &nbsp; &nbsp; \\text{write (Q)}&nbsp; \\\\ \\hline&nbsp; &nbsp;<br>\n\\textbf{\\( T_2 \\)}&amp; \\text{read (Q);}\\\\&amp; \\text{read (P);} \\\\ &amp; \\text{if Q = 0 then P := P + 1;}&nbsp; &nbsp;\\\\ &amp; \\text{write (P)}&nbsp;\\\\&nbsp; &nbsp; &nbsp;\\hline<br>\n\\end{array}} \\]</p>\n\n<p>Any non-serial interleaving of <strong>T1</strong> and <strong>T2</strong> for concurrent execution leads to</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a serializable schedule</p>",
+            "<p>a schedule that is not conflict serializable</p>",
+            "<p>a conflict serializable schedule</p>",
+            "<p>a schedule for which a precedence graph cannot be drawn</p>"
+          ],
+          "correct_answer": "<p>a schedule that is not conflict serializable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1612/gate-cse-2012-question-27\" target=\"_blank\">https://gateoverflow.in/1612/gate-cse-2012-question-27</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"8047\"></a><div itemprop=\"text\"><p>Consider the following transaction involving two bank accounts \\( x \\) and \\( y \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">  read(x); x:=x-50; write (x); read(y); y:=y+50; write(y)</pre>\n\n<p>The constraint that the sum of the accounts \\( x \\) and \\( y \\) should remain constant is that of&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Atomicity</p>",
+            "<p>Consistency</p>",
+            "<p>Isolation</p>",
+            "<p>Durability</p>"
+          ],
+          "correct_answer": "<p>Consistency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8047/gate-cse-2015-set-2-question-1\" target=\"_blank\">https://gateoverflow.in/8047/gate-cse-2015-set-2-question-1</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"8246\"></a><div itemprop=\"text\"><p>Consider a simple checkpointing protocol and the following set of operations in the log.</p>\n\n<p>(start, T4); (write, T4, y, 2, 3); (start, T1); (commit, T4); (write, T1, z, 5, 7);</p>\n\n<p>(checkpoint);</p>\n\n<p>(start, T2); (write, T2, x, 1, 9); (commit, T2); (start, T3);&nbsp;(write, T3, z, 7, 2);&nbsp;</p>\n\n<p>If a crash happens now and the system tries to recover using both undo and redo operations, what are the contents of the undo list and the redo list?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Undo: T3, T1; Redo: T2</p>",
+            "<p>Undo: T3, T1; Redo: T2, T4</p>",
+            "<p>Undo: none; Redo: T2, T4, T3, T1</p>",
+            "<p>Undo: T3, T1, T4; Redo: T2</p>"
+          ],
+          "correct_answer": "<p>Undo: T3, T1; Redo: T2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46\" target=\"_blank\">https://gateoverflow.in/8246/gate-cse-2015-set-2-question-46</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"8482\"></a><div itemprop=\"text\"><p>Consider the partial Schedule \\( S \\) involving two transactions \\( T1 \\) and \\( T2 \\). Only the \\( \\textit{read} \\) and the&nbsp;\\( \\textit{write} \\) operations have been shown. The&nbsp;\\( \\textit{read} \\) operation on data item \\( P \\) is denoted by&nbsp;\\( \\textit{read(P)} \\) and&nbsp;\\( \\textit{write} \\) operation on data item \\( P \\) is denoted by&nbsp;\\( \\textit{write(P)} \\).<br>\n\\[ \\overset{\\large{\\text{Schedule S}}}{\\begin{array}{c|ll}<br>\n\\textbf{Time Instance}&amp;&nbsp; &nbsp; \\rlap{\\text{Transaction ID}}\\\\&amp;\\textbf{T1}&amp;&nbsp; \\textbf{T2} \\\\\\hline<br>\n1&amp;&nbsp; &nbsp; &nbsp;\\text{read(A)}&nbsp; \\\\&nbsp;<br>\n2&amp; &nbsp; &nbsp; \\text{write(A)}\\\\&nbsp; &nbsp;<br>\n3&amp;&nbsp; &nbsp; &nbsp;&amp;&nbsp;\\text{read(C)}&nbsp; &nbsp; &nbsp;\\\\<br>\n4&amp; &nbsp; &nbsp; &amp; \\text{write(C)}&nbsp; &nbsp; &nbsp;\\\\<br>\n5&amp; &nbsp; &nbsp; &amp;&nbsp;\\text{read(B)}&nbsp; \\\\<br>\n6&amp; &nbsp; &nbsp; &amp; \\text{write(B)}&nbsp; &nbsp; &nbsp;\\\\&nbsp;&nbsp;<br>\n7&amp; &nbsp; &nbsp; &amp; \\text{read(A)}&nbsp; &nbsp; &nbsp;\\\\<br>\n8&amp; &nbsp; &nbsp; &amp; \\text{commit}&nbsp; &nbsp; &nbsp; &nbsp;\\\\<br>\n9&amp;&nbsp; &nbsp; &nbsp;\\text{read(B)}&nbsp;\\\\<br>\n\\end{array}} \\]</p>\n\n<p>Suppose that the transaction \\( T1 \\) fails immediately after time instance 9. Which of the following statements is correct?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T2 \\) must be aborted and then both \\( T1 \\) and \\( T2 \\) must be re-started to ensure transaction atomicity</p>",
+            "<p>Schedule \\( S \\) is non-recoverable and cannot ensure transaction atomicity</p>",
+            "<p>Only \\( T2 \\) must be aborted and then&nbsp;re-started to ensure transaction atomicity</p>",
+            "<p>Schedule \\( S \\) is recoverable and can ensure transaction atomicity and nothing else needs to be done</p>"
+          ],
+          "correct_answer": "<p>Schedule \\( S \\) is non-recoverable and cannot ensure transaction atomicity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8482/gate-cse-2015-set-3-question-29\" target=\"_blank\">https://gateoverflow.in/8482/gate-cse-2015-set-3-question-29</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"39644\"></a><div itemprop=\"text\">\n<p>Which one of the following is NOT a part of the ACID properties of database transactions?</p>\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Atomicity</p>",
+            "<p>Consistency</p>",
+            "<p>Isolation</p>",
+            "<p>Deadlock-freedom</p>"
+          ],
+          "correct_answer": "<p>Deadlock-freedom</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39644/gate-cse-2016-set-1-question-22\" target=\"_blank\">https://gateoverflow.in/39644/gate-cse-2016-set-1-question-22</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"39703\"></a><div itemprop=\"text\"><p>Consider the following two phase locking protocol. Suppose a transaction \\( T \\) accesses (for read or write operations), a certain set of objects \\( \\{O_1,\\ldots,O_k \\} \\). This is done in the following manner:</p>\n\n<ul>\n\t<li>\\( \\text{Step 1} \\). \\( T \\) acquires exclusive locks to \\( O_1,\\ldots,O_k \\) in increasing order of their addresses.</li>\n\t<li>\\( \\text{Step 2} \\). The required operations are performed .</li>\n\t<li>\\( \\text{Step 3} \\). All locks are released</li>\n</ul>\n\n<p>This protocol will</p>\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;guarantee serializability and &nbsp;deadlock-freedom&nbsp;</p>",
+            "<p>&nbsp;guarantee neither serializability nor deadlock-freedom&nbsp;</p>",
+            "<p>&nbsp;guarantee serializability but not deadlock-freedom &nbsp;</p>",
+            "<p>&nbsp;guarantee deadlock-freedom but not serializability.</p>"
+          ],
+          "correct_answer": "<p>&nbsp;guarantee serializability and &nbsp;deadlock-freedom&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51\" target=\"_blank\">https://gateoverflow.in/39703/gate-cse-2016-set-1-question-51</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"39550\"></a><div itemprop=\"text\"><p>Suppose a database schedule \\( S \\) involves transactions \\( T_1,\\ldots,T_n \\) . Construct the precedence graph of \\( S \\) &nbsp;with vertices representing the transactions and edges representing the conflicts. If \\( S \\) is serializable, which one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule?</p>\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Topological order</p>",
+            "<p>Depth-first order</p>",
+            "<p>Breadth-first order</p>",
+            "<p>Ascending order of the transaction indices</p>"
+          ],
+          "correct_answer": "<p>Topological order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39550/gate-cse-2016-set-2-question-22\" target=\"_blank\">https://gateoverflow.in/39550/gate-cse-2016-set-2-question-22</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"39590\"></a><div itemprop=\"text\"><p>Consider the following database schedule with two transactions \\( T_{1} \\) and \\( T_{2} \\).</p>\n\n<p>\\( S= r_{2}\\left(X\\right); r_{1}\\left(X\\right); r_{2} \\left(Y\\right); w_{1} \\left(X\\right); r_{1} \\left(Y\\right); w_{2} \\left(X\\right); a_{1}; a_{2} \\)</p>\n\n<p>Where \\( r_{i} (Z) \\) denotes a read operation by transaction \\( T_{i} \\) on a variable \\( Z \\), \\( w_{i}(Z) \\) denotes a write operation by \\( T_{i} \\) on a variable \\( Z \\) and \\( a_{i} \\) denotes an abort by transaction \\( T_{i} \\).</p>\n\n<p>Which one of the following statements about the above schedule is <strong>TRUE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S \\) is non-recoverable.</p>",
+            "<p>\\( S \\) is recoverable, but has a cascading abort.</p>",
+            "<p>\\( S \\) does not have a cascading abort.</p>",
+            "<p>\\( S \\) is strict.</p>"
+          ],
+          "correct_answer": "<p>\\( S \\) does not have a cascading abort.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39590/gate-cse-2016-set-2-question-51\" target=\"_blank\">https://gateoverflow.in/39590/gate-cse-2016-set-2-question-51</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"118325\"></a><div itemprop=\"text\"><p>In a database system, unique timestamps are assigned to each transaction using Lamport's logical clock. Let \\( TS(T_{1}) \\) and \\( TS(T_{2}) \\) be the timestamps of transactions \\( T_{1} \\) and \\( T_{2} \\) respectively. Besides, \\( T_{1} \\) holds a lock on the resource \\( R, \\) and \\( T_{2} \\) has requested a conflicting lock on the same resource \\( R. \\) The following algorithm is used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same timestamp.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if \\( TS(T_{2})&lt;TS(T_{1}) \\) then<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( T_{1} \\) is killed<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else \\( T_{2} \\) waits.<br><br>Assume any transaction that is not killed terminates eventually. Which of the following is TRUE about the database system that uses the above algorithm to prevent deadlocks?</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The database system is both deadlock-free and starvation-free.</p>",
+            "<p>The database system is deadlock-free, but not starvation-free.</p>",
+            "<p>The database system is starvation-free, but not deadlock-free.</p>",
+            "<p>The database system is neither deadlock-free nor starvation-free.</p>"
+          ],
+          "correct_answer": "<p>The database system is both deadlock-free and starvation-free.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118325/gate-cse-2017-set-1-question-42\" target=\"_blank\">https://gateoverflow.in/118325/gate-cse-2017-set-1-question-42</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"302837\"></a><div itemprop=\"text\"><p>Consider the following two statements about database transaction schedules:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Strict two-phase locking protocol generates conflict serializable&nbsp;schedules that are also recoverable.</li>\n\t<li>Timestamp-ordering concurrency control protocol with Thomas’ Write Rule can generate view serializable&nbsp;schedules that are not conflict serializable</li>\n</ol>\n\n<p>Which of the above statements is/are TRUE?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>Both I and II</p>",
+            "<p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302837/gate-cse-2019-question-11\" target=\"_blank\">https://gateoverflow.in/302837/gate-cse-2019-question-11</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"333194\"></a><div itemprop=\"text\"><p>Consider a schedule of transactions \\( T_1 \\) and \\( T_2 \\):</p><p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline T_1 &amp; RA &amp; &amp; &amp; RC &amp; &amp; WD &amp; &amp; WB &amp; \\text{Commit} &amp;&nbsp; \\\\ \\hline&nbsp;T_2&nbsp; &amp; &amp; RB &amp; WB &amp; &amp; RD &amp; &amp; &nbsp;WC &amp; &amp; &amp;&nbsp;\\text{Commit} \\\\ \\hline \\end{array} \\)</p><p>Here, RX stands for “Read(X)” and WX stands for “Write(X)”. Which one of the following schedules is conflict equivalent to the above schedule?</p></div><br><br><b>GATE CSE 2020 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline T_1 &amp;&nbsp; &amp; &amp; &amp; RA &amp; RC &amp; WD &amp; WB &amp; &amp; \\text{Commit} &amp;&nbsp; \\\\ \\hline&nbsp;T_2&nbsp; &amp; RB &amp; WB &amp; RD &amp; &amp;&nbsp;&amp; &amp; &amp; WC &amp; &nbsp;&amp;&nbsp;\\text{Commit} \\\\ \\hline \\end{array} \\\\ \\)</p>",
+            "<p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline T_1 &amp; RA &amp; RC &amp;WD &amp;WB &amp;&nbsp;&amp;&nbsp;&nbsp;&amp; &nbsp;&amp; &amp; \\text{Commit} &amp;&nbsp; \\\\ \\hline&nbsp;T_2&nbsp; &amp;&nbsp;&amp; &nbsp;&amp;&nbsp;&amp; &amp;RB &amp; WB &amp; RD&amp; WC &amp; &nbsp;&amp;&nbsp;\\text{Commit} \\\\ \\hline \\end{array} \\\\ \\)</p>",
+            "<p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline T_1 &amp;&nbsp; RA &amp; RC&nbsp;&amp; WD &amp; &nbsp;&amp; &nbsp;&amp;&nbsp;&nbsp;&amp; WB &amp; &amp; \\text{Commit} &amp;&nbsp; \\\\ \\hline&nbsp;T_2&nbsp; &amp; &nbsp;&amp; &nbsp;&amp; &amp; RB &amp; WB&nbsp; &amp; RD &amp;&nbsp;&amp; WC &amp; &nbsp;&amp;&nbsp;\\text{Commit} \\\\ \\hline \\end{array} \\\\ \\)</p>",
+            "<p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline T_1 &amp;&nbsp; &amp; &amp; &amp; &nbsp;&amp; RA &amp; RC &amp; WD &amp; WB &amp; \\text{Commit} &amp;&nbsp; \\\\ \\hline&nbsp;T_2&nbsp; &amp; RB &amp; WB &amp; RD &amp; WC &amp;&nbsp;&amp; &amp; &amp; &nbsp;&amp; &nbsp;&amp;&nbsp;\\text{Commit} \\\\ \\hline \\end{array} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|} \\hline T_1 &amp;&nbsp; &amp; &amp; &amp; RA &amp; RC &amp; WD &amp; WB &amp; &amp; \\text{Commit} &amp;&nbsp; \\\\ \\hline&nbsp;T_2&nbsp; &amp; RB &amp; WB &amp; RD &amp; &amp;&nbsp;&amp; &amp; &amp; WC &amp; &nbsp;&amp;&nbsp;\\text{Commit} \\\\ \\hline \\end{array} \\\\ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333194/gate-cse-2020-question-37\" target=\"_blank\">https://gateoverflow.in/333194/gate-cse-2020-question-37</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"357439\"></a><div itemprop=\"text\"><p>Suppose a database system crashes again while recovering from a previous crash. Assume checkpointing is not done by the database either during the transactions or during recovery.</p>\n\n<p>Which of the following statements is/are correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The same undo and redo list will be used while recovering again&nbsp;</p>",
+            "<p>The system cannot recover any further</p>",
+            "<p>All the transactions that are already undone and redone will not be recovered again&nbsp;</p>",
+            "<p>The database will become inconsistent</p>"
+          ],
+          "correct_answer": "<p>The same undo and redo list will be used while recovering again&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13\" target=\"_blank\">https://gateoverflow.in/357439/gate-cse-2021-set-1-question-13</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"422880\"></a><div itemprop=\"text\"><p>​​​​Which of the following statements about the Two Phase Locking (\\( 2 \\mathrm{PL} \\)) protocol is/are TRUE?</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 17</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( 2 \\mathrm{PL} \\) permits only serializable schedules</p>",
+            "<p>With \\( 2 \\mathrm{PL} \\), a transaction always locks the data item being read or written just before every operation and always releases the lock just after the operation</p>",
+            "<p>With \\( 2 \\mathrm{PL} \\), once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction</p>",
+            "<p>A deadlock is possible with \\( 2 \\mathrm{PL} \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( 2 \\mathrm{PL} \\) permits only serializable schedules</p>",
+            "<p>With \\( 2 \\mathrm{PL} \\), once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction</p>",
+            "<p>A deadlock is possible with \\( 2 \\mathrm{PL} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422880/gate-cse-2024-set-2-question-17\" target=\"_blank\">https://gateoverflow.in/422880/gate-cse-2024-set-2-question-17</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"422888\"></a><div itemprop=\"text\"><p>​​​​​Once the \\( \\text{DBMS} \\) informs the user that a transaction has been successfully completed, its effect should persist even if the system crashes before all its changes are reflected on disk. This property is called</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>durability</p>",
+            "<p>atomicity</p>",
+            "<p>consistency</p>",
+            "<p>isolation</p>"
+          ],
+          "correct_answer": "<p>durability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422888/gate-cse-2024-set-2-question-9\" target=\"_blank\">https://gateoverflow.in/422888/gate-cse-2024-set-2-question-9</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"460075\"></a><div itemprop=\"text\"><p>A schedule of three database transactions \\( T_{1}, T_{2} \\), and \\( T_{3} \\) is shown. \\( R_{i}(A) \\) and \\( W_{i}(A) \\) denote read and write of data item \\( A \\) by transaction \\( T_{i}, i=1,2,3 \\). The transaction \\( T_{1} \\) aborts at the end. Which other transaction(s) will be required to be rolled back?<br>\\[  R_{1}(X) W_{1}(Y) R_{2}(X) R_{2}(Y) R_{3}(Y) \\operatorname{ABORT}\\left(T_{1}\\right)  \\]</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( T_{2} \\)</p>",
+            "<p>Only \\( T_{3} \\)</p>",
+            "<p>Both \\( T_{2} \\) and \\( T_{3} \\)</p>",
+            "<p>Neither \\( T_{2} \\) nor \\( T_{3} \\)</p>"
+          ],
+          "correct_answer": "<p>Both \\( T_{2} \\) and \\( T_{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460075/gate-cse-2025-set-1-question-5\" target=\"_blank\">https://gateoverflow.in/460075/gate-cse-2025-set-1-question-5</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"460818\"></a><div itemprop=\"text\"><p>​​​​An audit of a banking transactions system has found that on an earlier occasion, two joint holders of account \\( A \\) attempted simultaneous transfers of Rs. \\( 10000 \\) each from account \\( A \\) to account \\( B \\). Both transactions read the same value, Rs.\\( 11000 \\), as the initial balance in \\( A \\) and were allowed to go through. \\( B \\) was credited Rs.\\( 10000 \\) twice. \\( A \\) was debited only once and ended up with a balance of Rs. \\( 1000 \\).<br><br>Which of the following properties is/are certain to have been violated by the system?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 17</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Atomicity</p>",
+            "<p>Consistency</p>",
+            "<p>Isolation</p>",
+            "<p>Durability</p>"
+          ],
+          "correct_answer": [
+            "<p>Consistency</p>",
+            "<p>Isolation</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460818/gate-cse-2025-set-2-question-17\" target=\"_blank\">https://gateoverflow.in/460818/gate-cse-2025-set-2-question-17</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"3662\"></a><div itemprop=\"text\"><p>Which level of locking provides the highest degree of concurrency in a relational database ?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Page</p>",
+            "<p>Table</p>",
+            "<p>Row</p>",
+            "<p>Page, table and row level locking allow the same degree of concurrency</p>"
+          ],
+          "correct_answer": "<p>Row</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3662/gate-it-2004-question-21\" target=\"_blank\">https://gateoverflow.in/3662/gate-it-2004-question-21</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"3721\"></a><div itemprop=\"text\"><p>Consider the following schedule \\( S \\) of transactions \\( T1 \\) and \\( T2: \\)</p>\n\n<p>\\[ {\\begin{array}{l|l}<br>\n\\textbf{T1}&amp;&nbsp; &nbsp; \\textbf{T2} \\\\\\hline<br>\n\\text{Read(A)} \\\\<br>\n\\text{A = A – 10}\\\\<br>\n&amp;&nbsp; &nbsp;\\text{Read(A) }\\\\ &nbsp;<br>\n&amp;&nbsp; \\text{Temp = 0.2*A} \\\\<br>\n&amp; \\text{Write(A)}&nbsp;\\\\<br>\n&amp; \\text{Read(B)} \\\\&nbsp; &nbsp;&nbsp;<br>\n\\text{Write(A)}\\\\<br>\n&nbsp;\\text{Read(B)}\\\\<br>\n\\text{B = B + 10}\\\\<br>\n\\text{Write(B)} \\\\<br>\n&amp;&nbsp;\\text{B = B + Temp}&nbsp; \\\\ &nbsp;<br>\n&amp;&nbsp;\\text{Write(B)}\\\\&nbsp;<br>\n\\end{array}} \\]</p>\n\n<p>Which of the following is TRUE about the schedule \\( S \\) ?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( S \\) is serializable only as \\( T1, T2 \\)</p>",
+            "<p>\\( S \\) is serializable only as \\( T2, T1 \\)</p>",
+            "<p>\\( S \\) is serializable both as \\( T1, T2 \\) and \\( T2, T1 \\)</p>",
+            "<p>\\( S \\) is not serializable either as \\( T1,T2 \\) or as \\( T2,T1 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3721/gate-it-2004-question-77\" target=\"_blank\">https://gateoverflow.in/3721/gate-it-2004-question-77</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"3769\"></a><div itemprop=\"text\"><p>Amongst the ACID properties of a transaction, the 'Durability' property requires that the changes made to the database by a successful transaction persist</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Except in case of an Operating System crash</p>",
+            "<p>Except in case of a Disk crash</p>",
+            "<p>Except in case of a power failure</p>",
+            "<p>Always, even if there is a failure of any kind</p>"
+          ],
+          "correct_answer": "<p>Always, even if there is a failure of any kind</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3769/gate-it-2005-question-24\" target=\"_blank\">https://gateoverflow.in/3769/gate-it-2005-question-24</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"3830\"></a><div itemprop=\"text\"><p>A company maintains records of sales made by its salespersons and pays them commission based on each individual's total sales made in a year. This data is maintained in a table with following schema:</p>\n\n<p>salesinfo = (salespersonid, totalsales, commission)</p>\n\n<p>In a certain year, due to better business results, the company decides to further reward its salespersons by enhancing the commission paid to them as per the following formula:</p>\n\n<p>If commission \\( \\leq&nbsp;50000, \\) enhance it by \\( 2\\% \\)<br>\nIf \\( 50000 &lt; \\) commission \\( \\leq&nbsp;100000, \\) enhance it by \\( 4\\% \\)<br>\nIf commission \\( &gt; 100000, \\) enhance it by \\( 6\\% \\)</p>\n\n<p>The IT staff has written three different SQL scripts to calculate enhancement for each slab, each of these scripts is to run as a separate transaction as follows:</p>\n\n<table border=\"0\" cellpadding=\"0\" style=\"height:145px; width:441px; border-spacing: 0px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;T1<br>\n\t\t\t<br>\n\t\t\t&nbsp;</td>\n\t\t\t<td>\n\t\t\t<pre class=\"prettyprint lang-c_cpp\">Update salesinfo\nSet commission = commission * 1.02\nWhere commission &lt; = 50000;\n</pre>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;T2<br>\n\t\t\t<br>\n\t\t\t&nbsp;</td>\n\t\t\t<td>\n\t\t\t<pre class=\"prettyprint lang-sql\">Update salesinfo\nSet commission = commission * 1.04\nWhere commission &gt; 50000 and commission is &lt; = 100000;\n</pre>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;T3<br>\n\t\t\t<br>\n\t\t\t&nbsp;</td>\n\t\t\t<td>\n\t\t\t<pre class=\"prettyprint lang-sql\">Update salesinfo\nSet commission = commission * 1.06\nWhere commission &gt; 100000;\n</pre>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Which of the following options of running these transactions will update the commission of all salespersons correctly</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Execute T1 followed by T2 followed by T3</p>",
+            "<p>Execute T2, followed by T3; T1 running concurrently throughout</p>",
+            "<p>Execute T3 followed by T2; T1 running concurrently throughout</p>",
+            "<p>Execute T3 followed by T2 followed by T1</p>"
+          ],
+          "correct_answer": "<p>Execute T3 followed by T2 followed by T1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3830/gate-it-2005-question-67\" target=\"_blank\">https://gateoverflow.in/3830/gate-it-2005-question-67</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"3511\"></a><div itemprop=\"text\"><p>Consider the following two transactions\\( : T1 \\) and \\( T2. \\)</p><p>\\( \\begin{array}{clcl} T1: &amp; \\text{read (A);} &amp; T2: &amp; \\text{read (B);} \\\\ &amp; \\text{read (B);} &amp; &amp; \\text{read (A);} \\\\&nbsp; &amp; \\text{If}\\;A = 0\\; \\text{then}\\; B \\leftarrow B + 1;&nbsp; &amp; &amp;&nbsp; \\text{If}\\;B \\neq 0\\;\\text{then}\\;A \\leftarrow A&nbsp; –&nbsp;1; \\\\ &amp; \\text{write (B);} &amp; &amp; \\text{write (A);}\\\\\\hline\\end{array} \\)</p><p>Which of the following schemes, using shared and exclusive locks, satisfy the requirements for strict two phase locking for the above transactions?</p></div><br><br><b>GATE IT 2007 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{array} {c l&nbsp;c l} &nbsp;S1: &amp; \\text{lock S(A);} &amp; S2: &amp; \\text{lock S(B);} \\\\&nbsp;&amp; \\text{read (A);} &amp;&nbsp; &amp; \\text{read (B);} \\\\&nbsp;&amp; \\text{lock S(B);} &amp; &amp; \\text{lock S(A);}&nbsp; \\\\ &amp; \\text{read (B);} &amp;&nbsp; &amp; \\text{read (A);}&nbsp;\\\\&nbsp;&amp; \\text{If}\\; A = 0 &amp; &amp; \\text{If}\\; B \\neq 0 \\\\&nbsp; &amp; \\text{then}\\; B \\leftarrow B + 1; &amp; &amp;&nbsp;\\text{then}\\; A&nbsp;\\leftarrow&nbsp;A&nbsp;-&nbsp;1; \\\\ &amp; \\text{write (B);} &amp; &amp; \\text{write (A);} \\\\&nbsp; &amp; \\text{commit;} &amp; &amp; \\text{commit;} \\\\ &amp; \\text{unlock (A);} &amp; &amp; \\text{unlock (B);} \\\\&nbsp;&amp; \\text{unlock (B);} &amp; &amp; \\text{unlock (A);} \\\\ \\hline\\end{array} \\)</p>",
+            "<p>\\( \\begin{array} {c l&nbsp;c l} &nbsp;S1: &amp; \\text{lock X(A);} &amp; S2: &amp; \\text{lock X(B);} \\\\&nbsp;&amp; \\text{read (A);} &amp;&nbsp; &amp; \\text{read (B);} \\\\&nbsp;&amp; \\text{lock X(B);} &amp; &amp; \\text{lock X(A);}&nbsp; \\\\ &amp; \\text{read (B);} &amp;&nbsp; &amp; \\text{read (A);}&nbsp;\\\\&nbsp;&amp; \\text{If}\\; A = 0 &amp; &amp; \\text{If}\\; B \\neq 0 \\\\&nbsp; &amp; \\text{then}\\; B \\leftarrow B + 1; &amp; &amp;&nbsp;\\text{then}\\; A&nbsp;\\leftarrow&nbsp;A&nbsp;-&nbsp;1; \\\\ &amp; \\text{write (B);} &amp; &amp; \\text{write (A);} \\\\ &amp; \\text{unlock (A);} &amp; &amp; \\text{unlock (A);}&nbsp;\\\\&nbsp; &amp; \\text{commit;} &amp; &amp; \\text{commit;} \\\\&nbsp;&amp; \\text{unlock (B);} &amp; &amp; \\text{unlock (A);} \\\\&nbsp;\\hline\\end{array} \\)</p>",
+            "<p>\\( \\begin{array} {c l&nbsp;c l} S1: &amp; \\text{lock S(A);} &amp; S2: &amp; \\text{lock S(B);} \\\\&nbsp;&amp; \\text{read (A);} &amp;&nbsp; &amp; \\text{read (B);} \\\\&nbsp;&amp; \\text{lock X(B);} &amp; &amp; \\text{lock X(A);}&nbsp; \\\\ &amp; \\text{read (B);} &amp;&nbsp; &amp; \\text{read (A);}&nbsp;\\\\&nbsp;&amp; \\text{If}\\; A = 0 &amp; &amp; \\text{If}\\; B \\neq 0 \\\\&nbsp; &amp; \\text{then}\\; B \\leftarrow B + 1; &amp; &amp;&nbsp;\\text{then}\\; A&nbsp;\\leftarrow&nbsp;A&nbsp;-&nbsp;1; \\\\ &amp; \\text{write (B);} &amp; &amp; \\text{write (A);} \\\\ &amp; \\text{unlock (A);} &amp; &amp; \\text{unlock (B);}&nbsp;\\\\&nbsp; &amp; \\text{commit;} &amp; &amp; \\text{commit;} \\\\&nbsp;&amp; \\text{unlock (B);} &amp; &amp; \\text{unlock (A);} \\\\\\hline&nbsp;\\end{array} \\)</p>",
+            "<p>\\( \\begin{array} {c l&nbsp;c l} S1: &amp; \\text{lock S(A);} &amp; S2: &amp; \\text{lock S(B);} \\\\&nbsp;&amp; \\text{read (A);} &amp;&nbsp; &amp; \\text{read (B);} \\\\&nbsp;&amp; \\text{lock X(B);} &amp; &amp; \\text{lock X(A);}&nbsp; \\\\ &amp; \\text{read (B);} &amp;&nbsp; &amp; \\text{read (A);}&nbsp;\\\\&nbsp;&amp; \\text{If}\\; A = 0 &amp; &amp; \\text{If}\\; B \\neq 0 \\\\&nbsp; &amp; \\text{then}\\; B \\leftarrow B + 1; &amp; &amp;&nbsp;\\text{then}\\; A&nbsp;\\leftarrow&nbsp;A&nbsp;-&nbsp;1; \\\\ &amp; \\text{write (B);} &amp; &amp; \\text{write (A);} \\\\ &amp; \\text{unlock (A);} &amp; &amp; \\text{unlock (A);}&nbsp; \\\\&nbsp;&amp; \\text{unlock (B);} &amp; &amp; \\text{unlock (A);}&nbsp;\\\\&nbsp; &amp; \\text{commit;} &amp; &amp; \\text{commit;} \\\\&nbsp;\\hline\\end{array} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{array} {c l&nbsp;c l} S1: &amp; \\text{lock S(A);} &amp; S2: &amp; \\text{lock S(B);} \\\\&nbsp;&amp; \\text{read (A);} &amp;&nbsp; &amp; \\text{read (B);} \\\\&nbsp;&amp; \\text{lock X(B);} &amp; &amp; \\text{lock X(A);}&nbsp; \\\\ &amp; \\text{read (B);} &amp;&nbsp; &amp; \\text{read (A);}&nbsp;\\\\&nbsp;&amp; \\text{If}\\; A = 0 &amp; &amp; \\text{If}\\; B \\neq 0 \\\\&nbsp; &amp; \\text{then}\\; B \\leftarrow B + 1; &amp; &amp;&nbsp;\\text{then}\\; A&nbsp;\\leftarrow&nbsp;A&nbsp;-&nbsp;1; \\\\ &amp; \\text{write (B);} &amp; &amp; \\text{write (A);} \\\\ &amp; \\text{unlock (A);} &amp; &amp; \\text{unlock (B);}&nbsp;\\\\&nbsp; &amp; \\text{commit;} &amp; &amp; \\text{commit;} \\\\&nbsp;&amp; \\text{unlock (B);} &amp; &amp; \\text{unlock (A);} \\\\\\hline&nbsp;\\end{array} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3511/gate-it-2007-question-66\" target=\"_blank\">https://gateoverflow.in/3511/gate-it-2007-question-66</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"3374\"></a><div itemprop=\"text\"><p>Consider the following three schedules of transactions T1, T2 and T3. [Notation: In the following NYO represents the action Y (R for read, W for write) performed by transaction&nbsp;N on object O.]\\[ \\begin{array}{llll}\\hline (S1)&nbsp;&amp; 2RA &amp; 2WA&nbsp;&amp; 3RC &amp; 2WB &amp; 3WA &amp; 3WC &amp; 1RA &amp; 1RB &amp;&nbsp;1WA &amp; 1WB&nbsp;&nbsp;\\\\\\hline&nbsp;(S2)&nbsp;&amp; 3RC&nbsp;&amp; 2RA&nbsp;&amp; 2WA&nbsp;&amp; 2WB &amp; 3WA &amp; 1RA&nbsp;&amp; 1RB &amp; 1WA &amp; 1WB &amp; 3WC&nbsp; \\\\\\hline&nbsp;(S3)&nbsp;&amp; 2RA&nbsp;&amp; 3RC&nbsp;&amp; 3WA&nbsp;&amp; 2WA &amp; 2WB&nbsp;&amp; 3WC&nbsp;&amp; 1RA &amp; 1RB&nbsp;&amp; 1WA &amp; 1WB&nbsp; \\\\\\hline \\end{array} \\]Which of the following statements is TRUE?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>S1, S2 and S3 are all conflict equivalent to each other</p>",
+            "<p>No two of S1, S2 and S3 are conflict equivalent to each other</p>",
+            "<p>S2 is conflict equivalent to S3, but not to S1</p>",
+            "<p>S1 is conflict equivalent to S2, but not to S3</p>"
+          ],
+          "correct_answer": "<p>S1 is conflict equivalent to S2, but not to S3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3374/gate-it-2008-question-63\" target=\"_blank\">https://gateoverflow.in/3374/gate-it-2008-question-63</a></p>"
+        }
+      ]
+    }
+  ]
+});

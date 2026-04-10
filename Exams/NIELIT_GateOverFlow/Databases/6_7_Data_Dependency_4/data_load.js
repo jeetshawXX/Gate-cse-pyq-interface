@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Databases - Data Dependency",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Data Dependency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337231\"></a><div itemprop=\"text\"><p>Given the following relation instance:</p>\n\n<p>\\( \\begin{array}{ccc} X &amp; Y &amp; Z \\\\ \\hline 1 &amp; 4 &amp; 2 \\\\ 1 &amp; 5 &amp; 3 \\\\ 1 &amp; 6 &amp; 3 \\\\ 3 &amp; 2 &amp; 2 \\end{array} \\)</p>\n\n<p>Which of the following functional dependencies are satisfied by the instance?</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( XY \\rightarrow Z \\text{ and } Z \\rightarrow Y \\)</p>",
+            "<p>\\( YZ&nbsp;\\rightarrow&nbsp;X&nbsp;\\text{ and } Y&nbsp;\\rightarrow&nbsp;Z \\)</p>",
+            "<p>\\( YZ&nbsp;\\rightarrow&nbsp;X&nbsp;\\text{ and } X&nbsp;\\rightarrow&nbsp;Z \\)</p>",
+            "<p>\\( XZ&nbsp;\\rightarrow&nbsp;Y&nbsp;\\text{ and } Y&nbsp;\\rightarrow&nbsp;X \\)</p>"
+          ],
+          "correct_answer": "<p>\\( YZ&nbsp;\\rightarrow&nbsp;X&nbsp;\\text{ and } Y&nbsp;\\rightarrow&nbsp;Z \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337231/nielit-2016-mar-scientist-c-section-c-34\" target=\"_blank\">https://gateoverflow.in/337231/nielit-2016-mar-scientist-c-section-c-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337230\"></a><div itemprop=\"text\"><p>Consider the schema \\( R=(\\text{S T U V}) \\) and the dependencies \\(  S \\rightarrow T, T&nbsp;\\rightarrow U, U&nbsp;\\rightarrow V \\), and&nbsp; \\( V&nbsp;\\rightarrow S. \\) If \\( R=(R1 \\text{ and } R2) \\) be a decomposition such that \\( R1 \\cap R2= \\phi \\)&nbsp;then decomposition is</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>not in \\( \\text{2 NF} \\)</p>",
+            "<p>in \\( \\text{2 NF} \\) but not in \\( \\text{3 NF} \\)</p>",
+            "<p>in \\( \\text{3&nbsp;NF} \\) but not in \\( \\text{2&nbsp;NF} \\)</p>",
+            "<p>in&nbsp; both \\( \\text{2 NF} \\) and&nbsp;\\( \\text{3 NF} \\)</p>"
+          ],
+          "correct_answer": "<p>in&nbsp; both \\( \\text{2 NF} \\) and&nbsp;\\( \\text{3 NF} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337230/nielit-2016-mar-scientist-c-section-c-35\" target=\"_blank\">https://gateoverflow.in/337230/nielit-2016-mar-scientist-c-section-c-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337261\"></a><div itemprop=\"text\"><p>A functional dependency of the form \\( x\\to&nbsp;y \\) is trivial if</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( y\\subseteq x \\)</p>",
+            "<p>\\( y\\subset x \\)</p>",
+            "<p>\\( x\\subseteq y \\)</p>",
+            "<p>\\( x\\subset y\\:\\text{and}\\:y\\subset x \\)</p>"
+          ],
+          "correct_answer": "<p>\\( y\\subseteq x \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337261/nielit-2016-mar-scientist-c-section-c-4\" target=\"_blank\">https://gateoverflow.in/337261/nielit-2016-mar-scientist-c-section-c-4</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"275506\"></a><div itemprop=\"text\"><p>Consider the following functional dependencies in a database:</p>\n\n<p>\\( A \\rightarrow B \\)</p>\n\n<p>\\( B&nbsp;\\rightarrow C \\)</p>\n\n<p>\\( D&nbsp;\\rightarrow E \\)</p>\n\n<p>\\( E&nbsp;\\rightarrow D \\)</p>\n\n<p>\\( F&nbsp;\\rightarrow G \\)</p>\n\n<p>\\( F&nbsp;\\rightarrow H \\)</p>\n\n<p>\\( (E,F)&nbsp;\\rightarrow&nbsp;I \\)</p>\n\n<p>The relation \\( (E,D,A,B) \\) is</p>\n\n</div><br><br><b>Databases: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) NF</p>",
+            "<p>\\( 3 \\) NF</p>",
+            "<p>BCNF</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275506/nielit-2018-58\" target=\"_blank\">https://gateoverflow.in/275506/nielit-2018-58</a></p>"
+        }
+      ]
+    }
+  ]
+});

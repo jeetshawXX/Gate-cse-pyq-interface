@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Output",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Output",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378729\"></a><div itemprop=\"text\"><p>Output of following code</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">main(){printf (\"\\n%%%%\");}</pre>\n\n</div><br><br><b>Programming and DS: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Error message</p>",
+            "<p>\\( \\% \\% \\)</p>",
+            "<p>\\( 00 \\)</p>",
+            "<p>\\( \\&amp;\\&amp;\\&amp;\\&amp; \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\% \\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378729/nielit-2021-dec-scientist-b-section-b-34\" target=\"_blank\">https://gateoverflow.in/378729/nielit-2021-dec-scientist-b-section-b-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

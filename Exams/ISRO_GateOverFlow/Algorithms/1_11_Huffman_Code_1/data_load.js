@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Huffman Code",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Huffman Code",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"331358\"></a><div itemprop=\"text\"><p>Huffman tree is constructed for the following data :\\( \\{A,B,C,D,E\\} \\) with frequency \\( \\{0.17,0.11,0.24,0.33\\ \\text{and} \\ 0.15 \\} \\) respectively. \\( 100\\ 00\\ 01101 \\) is decoded as</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2020 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( BACE \\)</p>",
+            "<p>\\( CADE \\)</p>",
+            "<p>\\( BAD \\)</p>",
+            "<p>\\( CADD \\)</p>"
+          ],
+          "correct_answer": "<p>\\( BACE \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331358/isro-cse-2020-question-34\" target=\"_blank\">https://gateoverflow.in/331358/isro-cse-2020-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

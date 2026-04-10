@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Communication",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373764\"></a><div itemprop=\"text\"><p>In&nbsp;context of analog &amp; digital communication, as the length of a long-wire antenna is increased, ____________</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2022 April Scientist B | Section B | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the number of lobes also increase</p>",
+            "<p>the number of lobes&nbsp;decrease</p>",
+            "<p>efficiency increase</p>",
+            "<p>the number of nodes&nbsp;decreases</p>"
+          ],
+          "correct_answer": "<p>the number of lobes also increase</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373764/nielit-2022-april-scientist-b-section-b-question-74\" target=\"_blank\">https://gateoverflow.in/373764/nielit-2022-april-scientist-b-section-b-question-74</a></p>"
+        }
+      ]
+    }
+  ]
+});

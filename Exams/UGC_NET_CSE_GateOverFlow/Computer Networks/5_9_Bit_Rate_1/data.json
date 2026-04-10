@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Bit Rate",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bit Rate",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59417\"></a><div itemprop=\"text\"><p>An analog signal has a bit rate of \\( 6000 \\) bps and a baud rate of \\( 2000 \\) baud. How many data elements are carried by each signal element</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2014 | Part 2 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.336 \\) bits/baud</p>",
+            "<p>\\( 3 \\) bits/baud</p>",
+            "<p>\\( 120,00,000 \\) bits/baud</p>",
+            "<p>None of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\) bits/baud</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59417/ugc-net-cse-december-2014-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/59417/ugc-net-cse-december-2014-part-2-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+}

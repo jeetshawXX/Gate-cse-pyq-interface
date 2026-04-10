@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In multi-programmed systems, it is advantageous if some programs such as editors and compilers can be\nshared by several users.<br>\nWhich of the following must be true of multi-programmed systems in order that a single copy of a program can be shared by several\nusers?<br><br>\nI.   The program is a macro<br>\nII.  The program is recursive<br>\nIII. The program is reentrant<br> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213520/isro2018-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Procedures P1 and P2 have a producer-consumer relationship, communicating by the use of a set of shared buffers.<br><br>P1 : <br>       repeat<br>Obtain an empty buffer<br>Fill it<br>Return a full buffer<br>forever<br><br>P2:<br> repeat<br>Obtain a full buffer<br>Empty it<br>Return an empty buffer<br>forever<br><br>Increasing the number of buffers is likely to do which of the following?<br><br>I. Increase the rate at which requests are satisfied (throughput)<br>\nII. Decrease the likelihood of deadlock<br>\nIII. Increase the ease of achieving a correct implementation <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>III only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>I only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213521/isro2018-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The Operating System of a computer may periodically collect all the free memory space to form contiguous block of free space. This is called: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Concatenation</p>",
+            "<b>B.</b> <p>Garbage Collection</p>",
+            "<b>C.</b> <p>Collision</p>",
+            "<b>D.</b> <p>Dynamic Memory Allocation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Garbage Collection</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213527/isro2018-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Disk requests come to a disk driver for cylinders in the order 10, 22, 20, 2, 40, 6 and 38 at a time when the disk drive is reading from cylinder 20. The seek time is 6 ms/cylinder. The total seek time, if the disk arm scheduling algorithms is first-come-first-served is <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>360</p>",
+            "<b>B.</b> <p>850</p>",
+            "<b>C.</b> <p>900</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213565/isro2018-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A computer has 1000K of main memory. The jobs arrive and finish in the following sequence.<br> Job 1 requiring 200 K arrives <br>Job 2 requiring 350 K arrives <br>Job 3 requiring 300 K arrives<br>Job 1 finishes<br>Job 4 requiring 120 K arrives<br>Job 5 requiring 150 K arrives<br>Job 6 requiring 80 K arrives<br>Among best fit and first fit, which performs better for this sequence? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First fit</p>",
+            "<b>B.</b> <p>Best fit</p>",
+            "<b>C.</b> <p>Both perform the same</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>First fit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213566/isro2018-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a system having m resources of the same type. These resources are shared by 3 processes A,B,C, which have peak time demands of 3,4,6 respectively. The minimum value of m that ensures that deadlock will never occur is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213567/isro2018-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Determine the number of page faults when references to pages occur in the order 1,2,4,5,2,1,2,4. Assume that the main memory can accommodate 3 pages and the main memory already has the pages 1 and 2, with page 1 brought earlier than page 2. (assume LRU i.e., Least-Recently-Used algorithm is applied) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213426/isro2018-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The difference between a named pipe and a regular file in Unix is that <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unlike a regular file, named pipe is a special file</p>",
+            "<b>B.</b> <p>The data in a pipe is transient, unlike the content of a regular file</p>",
+            "<b>C.</b> <p>Pipes forbid random accessing, while regular files do allow this.</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213575/isro2018-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The following C program:<br><pre><code> {\n    fork(); fork(); printf(\"yes\");\n    \n}</code></pre>If we execute this core segment, how many times the string yes will be printed? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only once</p>",
+            "<b>B.</b> <p>2 times</p>",
+            "<b>C.</b> <p>4 times</p>",
+            "<b>D.</b> <p>8 times</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213584/isro2018-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a storage disk with 4 platters (numbered as 0, 1, 2 and 3), 200 cylinders (numbered as 0, 1, ... , 199), and 256 sectors per track (numbered as 0, 1, ... , 255). The following 6 disk requests of the form [sector number, cylinder number, platter number] are received by the disk controller at the same time:<br><br>\n[120, 72, 2] , [180, 134, 1] , [60, 20, 0] , [212, 86, 3] , [56, 116, 2] , [118, 16, 1]<br><br>\nCurrently the head is positioned at sector number 100 of cylinder 80, and is moving towards higher cylinder numbers. The average power dissipation in moving the head over 100 cylinders is 20 milliwatts and for reversing the direction of the head movement once is 15 milliwatts. Power dissipation associated with rotational latency and switching of head between different platters is negligible. <br><br>\nThe total power consumption in milliwatts to satisfy all of the above disk requests using the Shortest Seek Time First disk scheduling algorithm is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "85",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204128/gate2018-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following solution to the producer-consumer synchronization problem. The shared buffer size is N. Three semaphores <i>empty, full</i> and <i>mutex</i> are defined with respective initial values of 0, N and 1. Semaphore <i>empty</i>  denotes the number of available slots in the buffer, for the consumer to read from. Semaphore <i>full</i> denotes the number of available slots in the buffer, for the producer to write to. The placeholder variables, denoted by P, Q, R, and S, in the code below can be assigned either <i>empty or full</i>. The valid semaphore operations are: <i>wait() and signal()</i>. <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q40_0aede1be.jpg\"> <br>  Which one of the following assignments to P, Q, R and S will yield the correct solution? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P: full, Q: full, R: empty, S: empty</p>",
+            "<b>B.</b> <p>P: empty, Q: empty, R: full, S: full</p>",
+            "<b>C.</b> <p>P: full, Q: empty, R: empty, S: full</p>",
+            "<b>D.</b> <p>P: empty, Q: full, R: full, S: empty</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P: full, Q: empty, R: empty, S: full</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204114/gate2018-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a system, there are three types of resources: E, F and G. Four processes \\(P_0,P_1,P_2 \\; and \\; P_3\\) execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. For example, Max[\\(P_2\\),F] is the maximum number of instances of F that \\(P_2\\) would require. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation. <br>\nConsider a state of the system with the Allocation matrix as shown below, and in which 3 instances of E and 3 instances of F are the only resources available. <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q39_f1f4e800.jpg\"> <br> From the perspective of deadlock avoidance, which one of the following is true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The system is in safe state.</p>",
+            "<b>B.</b> <p>The system is not in safe state, but would be safe if one more instance of E were available</p>",
+            "<b>C.</b> <p>The system is not in safe state, but would be safe if one more instance of F were available</p>",
+            "<b>D.</b> <p>The system is not in safe state, but would be safe if one more instance of G were available</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The system is in safe state.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204113/gate2018-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a system with 3 processes that share 4 instances of the same resource type. Each process can request a maximum of K instances. Resource instances can be requested and released only one at a time. The largest value of K that will always avoid deadlock is ____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204098/gate2018-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a process executing on an operating system that uses demand paging. The average time for a memory access in the system is M units if the corresponding memory page is available in memory, and D units if the memory access causes a page fault. It has been experimentally measured that the average time taken for a memory access in the process is X units. <br> Which one of the following is the correct expression for the page fault rate experienced by the process? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(D - M) / (X - M)</p>",
+            "<b>B.</b> <p>(X - M) / (D - M)</p>",
+            "<b>C.</b> <p>(D - X) / (D - M)</p>",
+            "<b>D.</b> <p>(X - M) / (D - X)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(X - M) / (D - M)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204084/gate2018-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following statement is true? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hard real time OS has less jitter than soft real time OS</p>",
+            "<b>B.</b> <p>Hard real time OS has more jitter than soft real time OS</p>",
+            "<b>C.</b> <p>Hard real time OS has equal jitter as soft real time OS</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Hard real time OS has less jitter than soft real time OS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128776/isro2017-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

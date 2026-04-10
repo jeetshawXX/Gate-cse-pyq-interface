@@ -1,0 +1,176 @@
+{
+  "title": "Computer Networks - Network Protocols",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Network Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49631\"></a><div itemprop=\"text\"><p>Which of these is not a feature of \\( \\textsf{WAP 2.0} \\)</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2007 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Push and Pull Model</p>",
+            "<p>Interface to a storage device</p>",
+            "<p>Multimedia messaging</p>",
+            "<p>Hashing</p>"
+          ],
+          "correct_answer": "<p>Hashing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49631/isro-cse-2007-question-63\" target=\"_blank\">https://gateoverflow.in/49631/isro-cse-2007-question-63</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49672\"></a><div itemprop=\"text\"><p>Which Project \\( 802 \\) standard provides for a collision-free protocol?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2008 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 802.2 \\)</p>",
+            "<p>\\( 802.3 \\)</p>",
+            "<p>\\( 802.5 \\)</p>",
+            "<p>\\( 802.6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 802.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49672/isro-cse-2008-question-10\" target=\"_blank\">https://gateoverflow.in/49672/isro-cse-2008-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"48027\"></a><div itemprop=\"text\">\n<p>The address resolution protocol (ARP) is used for</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2009 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Finding the IP address from the DNS</p>",
+            "<p><span style=\"line-height: 20.8px;\">Finding the IP address&nbsp;</span>of the default gateway</p>",
+            "<p><span style=\"line-height: 20.8px;\">Finding the IP address&nbsp;</span>that corresponds to a MAC address</p>",
+            "<p><span style=\"line-height: 20.8px;\">Finding the MAC address that corresponds to an IP address</span></p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 20.8px;\">Finding the MAC address that corresponds to an IP address</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48027/isro-cse-2009-question-3\" target=\"_blank\">https://gateoverflow.in/48027/isro-cse-2009-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"52262\"></a><div itemprop=\"text\">\n<p>The network protocol which is used to get MAC address of a node by providing IP address is</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2011 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SMTP</p>",
+            "<p>ARP</p>",
+            "<p>RIP</p>",
+            "<p>BOOTP</p>"
+          ],
+          "correct_answer": "<p>ARP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52262/isro-cse-2011-question-12\" target=\"_blank\">https://gateoverflow.in/52262/isro-cse-2011-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"18149\"></a><div itemprop=\"text\">\n<p>Lightweight Directory Access protocol is used for</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2011 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Routing the packets</p>",
+            "<p>Authentication</p>",
+            "<p>obtaining IP address</p>",
+            "<p>domain name resolving</p>"
+          ],
+          "correct_answer": "<p>Authentication</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18149/isro-cse-2011-question-69\" target=\"_blank\">https://gateoverflow.in/18149/isro-cse-2011-question-69</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"55521\"></a><div itemprop=\"text\">\n<p>Which network protocol allows hosts to dynamically get a unique IP number on each bootup</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2016 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>DHCP</p>",
+            "<p>BOOTP</p>",
+            "<p>RARP</p>",
+            "<p>ARP</p>"
+          ],
+          "correct_answer": "<p>DHCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55521/isro-cse-2016-question-70\" target=\"_blank\">https://gateoverflow.in/55521/isro-cse-2016-question-70</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"128659\"></a><div itemprop=\"text\"><p>Which of the following protocol is used for transferring electronic mail messages from one machine to another?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>TELNET</p>",
+            "<p>FTP</p>",
+            "<p>SNMP</p>",
+            "<p>SMTP</p>"
+          ],
+          "correct_answer": "<p>SMTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128659/isro-cse-2017-question-31\" target=\"_blank\">https://gateoverflow.in/128659/isro-cse-2017-question-31</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"44154\"></a><div itemprop=\"text\">\n<p>The protocol data unit for the transport layer in the internet stack is</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Segment</p>",
+            "<p>Message</p>",
+            "<p>Datagram</p>",
+            "<p>Frame</p>"
+          ],
+          "correct_answer": "<p>Segment</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44154/isro-2013-47\" target=\"_blank\">https://gateoverflow.in/44154/isro-2013-47</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"182080\"></a><div itemprop=\"text\"><p>Which of the following are used to generate a message digest by the network security protocols?<br>\n&nbsp;</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:300px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">(P)</th>\n\t\t\t<td>SHA-256</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">(Q)</th>\n\t\t\t<td>AES</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">(R)</th>\n\t\t\t<td>DES</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">(S)</th>\n\t\t\t<td>MD5</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P and S only</p>",
+            "<p>P and Q only&nbsp;</p>",
+            "<p>R and S only</p>",
+            "<p>P and R only</p>"
+          ],
+          "correct_answer": "<p>P and S only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182080/isro-dec2017-30\" target=\"_blank\">https://gateoverflow.in/182080/isro-dec2017-30</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"182085\"></a><div itemprop=\"text\"><p>Consider the set of activities related to e-mail<br>\n&nbsp;</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">A:</th>\n\t\t\t<td>Send an e-mail from a mail client to mail server.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">B:</th>\n\t\t\t<td>Download e-mail headers from mailbox and retrieve mails from server to cache</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">C:</th>\n\t\t\t<td>Checking e-mail through a web browser&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The application level protocol used for each activity in the same sequence is</p>\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SMTP,HTTPS,IMAP<br>\n\t&nbsp;</p>",
+            "<p>SMTP,POP,IMAP<br>\n\t&nbsp;</p>",
+            "<p>SMTP,IMAP,HTTPS<br>\n\t&nbsp;</p>",
+            "<p>SMTP,IMAP,POP</p>"
+          ],
+          "correct_answer": "<p>SMTP,IMAP,HTTPS<br>\n\t&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182085/isro-dec2017-35\" target=\"_blank\">https://gateoverflow.in/182085/isro-dec2017-35</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"51980\"></a><div itemprop=\"text\"><p>Which statement is false?</p>\n\n</div><br><br><b>Computer Networks: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>PING is a TCP/IP application that sends datagrams once every second in the hope of an echo response from the machine being PINGED</p>",
+            "<p>If the machine is connected and running a TCP/IP protocol stack, it should respond to the PING datagram with a datagram of its own</p>",
+            "<p>If PING encounters an error condition, an ICMP message is not returned</p>",
+            "<p>PING display the time of the return response in milliseconds or one of several error message</p>"
+          ],
+          "correct_answer": "<p>If PING encounters an error condition, an ICMP message is not returned</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51980/isro2015-56\" target=\"_blank\">https://gateoverflow.in/51980/isro2015-56</a></p>"
+        }
+      ]
+    }
+  ]
+}

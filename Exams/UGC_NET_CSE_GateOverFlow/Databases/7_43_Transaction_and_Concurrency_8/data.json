@@ -1,0 +1,131 @@
+{
+  "title": "Databases - Transaction and Concurrency",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Transaction and Concurrency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"66815\"></a><div itemprop=\"text\"><p>Which of the following is an optimistic concurrency control method ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2010 | Part 2 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Validation based</p>",
+            "<p>Time stamp ordering</p>",
+            "<p>Lock-based</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66815/ugc-net-cse-december-2010-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/66815/ugc-net-cse-december-2010-part-2-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60008\"></a><div itemprop=\"text\"><p>Which of the following is correct ?</p>\n\n<p>I. Two phase locking is an optimistic protocol.</p>\n\n<p>II. Two phase locking is pessimistic protocol</p>\n\n<p>III. Time stamping is an optimistic protocol.</p>\n\n<p>IV. Time stamping is pessimistic protocol.&nbsp;</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 3 | Question: 08</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\) and \\( III \\)</p>",
+            "<p>\\( II \\) and \\( IV \\)</p>",
+            "<p>\\( I \\) and \\( IV \\)&nbsp;</p>",
+            "<p>\\( II \\) and \\( III \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( II \\) and \\( III \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60008/ugc-net-cse-december-2014-part-3-question-08\" target=\"_blank\">https://gateoverflow.in/60008/ugc-net-cse-december-2014-part-3-question-08</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335231\"></a><div itemprop=\"text\"><p>Consider following schedules involving two transactions:</p>\n\n<p>\\( S_{1}: \\: r_{1}(X);r_{1}(Y);r_{2}(X);r_{2}(Y);w_{2}(Y);w_{1}(X) \\)</p>\n\n<p>\\( S_{2}: \\: r_{1}(X);r_{2}(X);r_{2}(Y);w_{2}(Y);r_{1}(Y);w_{1}(X) \\)</p>\n\n<p>Which of the following statement&nbsp;is true?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 3 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are conflict serializable.</p>",
+            "<p>\\( S_1 \\) is conflict serializable and \\( S_2 \\) is not conflict serializable</p>",
+            "<p>\\( S_1 \\) is not conflict serializable and \\( S_2 \\) is conflict serializable</p>",
+            "<p>Both \\( S_1 \\)&nbsp; and \\( S_2 \\) are not conflict serializable</p>"
+          ],
+          "correct_answer": "<p>\\( S_1 \\) is not conflict serializable and \\( S_2 \\) is conflict serializable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335231/ugc-net-cse-january-2017-part-3-question-7\" target=\"_blank\">https://gateoverflow.in/335231/ugc-net-cse-january-2017-part-3-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55616\"></a><div itemprop=\"text\">\n<p>A Transaction Manager is which of the following?</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | June 2012 | Part 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Maintains a log of transactions</p>",
+            "<p>Maintains before and after database images</p>",
+            "<p>Maintains appropriate concurrent control</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55616/ugc-net-cse-june-2012-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/55616/ugc-net-cse-june-2012-part-2-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"166383\"></a><div itemprop=\"text\"><p>Consider the following four schedules due to three transactions (indicated by the subscript) using read and write on a data item \\( X \\), denoted by \\( r(X) \\) and \\( w(X) \\) respectively. Which one of them is conflict serializable?</p>\n\n<p>\\( S1 \\): \\( r1(X); r2(X); w1(X); r3(X); w2(X) \\)</p>\n\n<p>\\( S2 \\) : \\( r2(X); r1(X); w2(X); r3(X); w1(X) \\)</p>\n\n<p>\\( S3 \\) : \\( r3(X); r2(X); r1(X); w2(X); w1(X) \\)</p>\n\n<p>\\( S4 \\) : \\( r2(X); w2(X); r3(X); r1(X); w1(X) \\)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | November 2017 | Part 3 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S1 \\)</p>",
+            "<p>\\( S2 \\)</p>",
+            "<p>\\( S3 \\)</p>",
+            "<p>\\( S4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( S4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166383/ugc-net-cse-november-2017-part-3-question-7\" target=\"_blank\">https://gateoverflow.in/166383/ugc-net-cse-november-2017-part-3-question-7</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"166384\"></a><div itemprop=\"text\"><p>Suppose a database schedule S involves transactions \\( T1, T2,&nbsp; \\dots,Tn \\). Consider the precedence graph of \\( S \\) with vertices representing the transactions and edges representing the conflicts. If \\( S \\) is serializable, which one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | November 2017 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Topological order</p>",
+            "<p>Depth – first order</p>",
+            "<p>Breadth – first order</p>",
+            "<p>Ascending order of transactions indices</p>"
+          ],
+          "correct_answer": "<p>Topological order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166384/ugc-net-cse-november-2017-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/166384/ugc-net-cse-november-2017-part-3-question-8</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"59245\"></a><div itemprop=\"text\">\n<p>Usage of Preemption and Transaction Rollback prevents _____.</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | September 2013 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unauthorized usage of data file</p>",
+            "<p>Deadlock situation</p>",
+            "<p>Data manipulation</p>",
+            "<p>File pre-emption</p>"
+          ],
+          "correct_answer": "<p>Deadlock situation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59245/ugc-net-cse-september-2013-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/59245/ugc-net-cse-september-2013-part-2-question-37</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"59257\"></a><div itemprop=\"text\">\n<p>Thoma’s-write rule is</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | September 2013 | Part 2 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Two phase locking protocol</p>",
+            "<p>Timestamp ordering protocol</p>",
+            "<p>One phase locking protocol</p>",
+            "<p>Sliding window protocol</p>"
+          ],
+          "correct_answer": "<p>Timestamp ordering protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59257/ugc-net-cse-september-2013-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/59257/ugc-net-cse-september-2013-part-2-question-43</a></p>"
+        }
+      ]
+    }
+  ]
+}

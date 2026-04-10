@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Network_Layer_Protocol - Network_Layer_Protocol - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Network_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nWhich IP address should X configure its gateway as? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192.168.1.67</p>",
+            "<b>B.</b> <p>192.168.1.110</p>",
+            "<b>C.</b> <p>192.168.1.135</p>",
+            "<b>D.</b> <p>192.168.1.155</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>192.168.1.110</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3409/gate2008-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nGiven the information above, how many distinct subnets are guaranteed to already exist in the network? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3408/gate2008-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Two popular routing algorithms are Distance Vector(DV) and Link State (LS) routing. Which of the following are true?<br>\n(S1):  Count to infinity is a problem only with DV and not LS routing<br>\n(S2):  In LS, the shortest path algorithm is run only at one node<br>\n(S3):  In DV, the shortest path algorithm is run only at one node<br>\n(S4):  DV requires lesser number of network messages than LS<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S4 only</p>",
+            "<b>B.</b> <p>S1, S3 and S4 only</p>",
+            "<b>C.</b> <p>S2 and S3 only</p>",
+            "<b>D.</b> <p>S1 and S4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 and S4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3381/gate2008-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If a class B network on the Internet has a subnet mask of 255.255.248.0, what is\nthe maximum number of hosts per subnet? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1022</p>",
+            "<b>B.</b> <p>1023</p>",
+            "<b>C.</b> <p>2046</p>",
+            "<b>D.</b> <p>2047</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2046</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/480/gate2008-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A group of 15 routers is interconnected in a centralized complete binary tree with a router at each tree node. Router i communicates with router j by sending a message to the root of the tree. The root then sends the message back down to router j. The mean number of hops per message, assuming all possible router pairs are equally likely is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4.26</p>",
+            "<b>C.</b> <p>4.53</p>",
+            "<b>D.</b> <p>5.26</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4.53</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3508/gate2007-it-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For the network given in the figure below, the routing tables of the four nodes A, E, D and G are shown. Suppose that F has estimated its delay to its neighbors, A, E, D and G as 8, 10, 12 and 6 msecs respectively and updates its routing table using distance vector routing technique.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q60_1d5695fa.jpg\"><br>\\(\\overset{\\textbf{Routing Table of A}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;0\\\\ \\hline \\text{B}&amp;40\\\\ \\hline \\text{C}&amp;14\\\\ \\hline \\text{D}&amp;17\\\\ \\hline \\text{E}&amp;21\\\\ \\hline \\text{F}&amp;9\\\\ \\hline \\text{G}&amp;24\\\\ \\hline \\end{array}}\\qquad \\overset{\\textbf{Routing Table of D}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;20\\\\ \\hline \\text{B}&amp;8\\\\ \\hline \\text{C}&amp;30\\\\ \\hline \\text{D}&amp;0\\\\ \\hline \\text{E}&amp;14\\\\ \\hline \\text{F}&amp;7\\\\ \\hline \\text{G}&amp;22\\\\ \\hline \\end{array}} \\qquad \\overset{\\textbf{Routing Table of E}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;24\\\\ \\hline \\text{B}&amp;27\\\\ \\hline \\text{C}&amp;7\\\\ \\hline \\text{D}&amp;20\\\\ \\hline \\text{E}&amp;0\\\\ \\hline \\text{F}&amp;11\\\\ \\hline \\text{G}&amp;22\\\\ \\hline \\end{array}}\\qquad \\overset{\\textbf{Routing Table of G}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;21\\\\ \\hline \\text{B}&amp;24\\\\ \\hline \\text{C}&amp;22\\\\ \\hline \\text{D}&amp;19\\\\ \\hline \\text{E}&amp;22\\\\ \\hline \\text{F}&amp;10\\\\ \\hline \\text{G}&amp;0\\\\ \\hline \\end{array}}\\)<br>Which one of the following option represents the updated routing table of F? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{20} \\\\\\hline \\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{0} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{21} \\\\\\hline \\text {B} &amp; \\text{8} \\\\\\hline \\text{C} &amp; \\text{7} \\\\\\hline \\text{D} &amp; \\text{19} \\\\\\hline \\text {E} &amp; \\text{14} \\\\\\hline \\text {F} &amp; \\text{0 } \\\\\\hline \\text{G} &amp; \\text{22} \\\\\\hline \\end{array}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{20} \\\\\\hline \\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{16} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{8} \\\\\\hline \\text{C} &amp; \\text{7} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{0} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{20} \\\\\\hline \\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{0} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3504/gate2007-it-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>62 subnets and 262142 hosts</p>",
+            "<b>B.</b> <p>64 subnets and 262142 hosts</p>",
+            "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+            "<b>D.</b> <p>64 subnets and 1024 hosts.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1265/gate2007-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A subnetted Class B network has the following broadcast address: 144.16.95.255 <br>\nIts subnet mask <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is necessarily 255.255.224.0</p>",
+            "<b>B.</b> <p>is necessarily 255.255.240.0</p>",
+            "<b>C.</b> <p>is necessarily 255.255.248.0</p>",
+            "<b>D.</b> <p>could be any one of 255.255.224.0, 255.255.240.0,255.255.248.0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>could be any one of 255.255.224.0, 255.255.240.0,255.255.248.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3614/gate2006-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A router uses the following routing table:<br>\n\\(\\begin{array}{|l|l|l|} \\hline \\textbf {Destination} &amp; \\textbf { Mask} &amp; \\textbf{Interface} \\\\\\hline \\text {144.16.0.0} &amp; \\text{255.255.0.0} &amp; \\text{eth$0$} \\\\\\hline\\text {144.16.64.0} &amp; \\text{255.255.224.0} &amp; \\text{eth$1$} \\\\\\hline\\text {144.16.68.0} &amp; \\text{255.255.255.0} &amp; \\text{eth$2$}\\\\\\hline \\text {144.16.68.64} &amp; \\text{255.255.255.224} &amp; \\text{eth$3$}\\\\\\hline\\end{array}\\)<br>\nPacket bearing a destination address 144.16.68.117 arrives at the router. On which interface will it be forwarded? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>eth0</p>",
+            "<b>B.</b> <p>eth1</p>",
+            "<b>C.</b> <p>eth2</p>",
+            "<b>D.</b> <p>eth3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>eth2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3607/gate2006-it-63-isro2015-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Two computers C1 and C2 are configured as follows. C1 has IP address 203.\n197.2.53 and netmask 255.255. 128.0. C2 has IP address 203.197.75.201 and\nnetmask 255.255.192.0. Which one of the following statements is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>C1 and C2 both assume they are on the same network</p>",
+            "<b>B.</b> <p>C2 assumes C1 is on same network, but C1 assumes C2 is on a different\nnetwork</p>",
+            "<b>C.</b> <p>C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork</p>",
+            "<b>D.</b> <p>C1 and C2 both assume they are on different networks</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1821/gate2006-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>For which one of the following reason does Internet Protocol (IP) use the timeto-live (TTL) field in the IP datagram header? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ensure packets reach destination within that time</p>",
+            "<b>B.</b> <p>Discard packets that reach later than that time</p>",
+            "<b>C.</b> <p>Prevent packets from looping indefinitely</p>",
+            "<b>D.</b> <p>Limit the time for which a packet gets queued in intermediate routers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Prevent packets from looping indefinitely</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/884/gate2006-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated interval, three tasks are performed.<br><br>\ni. A node determines whether its neighbors in the graph are accessible. If so, it sets the tentative cost to each accessible neighbor as 1. Otherwise, the cost is set to \\(\\infty\\).<br>\nii. From each accessible neighbor, it gets the costs to relay to other nodes via that neighbor (as the next hop).<br>\niii. Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost. <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q85a_667c0628.jpg\"><br>\nContinuing from the earlier problem, suppose at some time t, when the costs have stabilized, node A goes down. The cost from node F to node A at time (t+100) is : <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>&gt;100 but finite</p>",
+            "<b>B.</b> <p>\\(\\infty\\)</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>&gt;3 and \\(\\leq 100\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>&gt;100 but finite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3859/gate2005-it-85b\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated interval, three tasks are performed.<br><br>\ni. A node determines whether its neighbors in the graph are accessible. If so, it sets the tentative cost to each accessible neighbor as 1. Otherwise, the cost is set to \\(\\infty\\).<br>\nii. From each accessible neighbor, it gets the costs to relay to other nodes via that neighbor (as the next hop).<br>\niii. Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost. <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q85a_667c0628.jpg\"><br>\nFor the graph given above, possible routing tables for various nodes after they have stabilized, are shown in the following options. Identify the correct table. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overset{\\text{Table for node A}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{-} &amp;\\text{-} \\\\\\hline \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{B} &amp; \\text{3} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{3} \\\\\\hline \\text{F}&amp; \\text{C} &amp; \\text{4} \\\\\\hline \\end{array}}\\)</p>",
+            "<b>B.</b> <p>\\(\\overset{\\text{Table for node C}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{E} &amp; \\text{1} \\\\\\hline \\text{F}&amp; \\text{E} &amp; \\text{3} \\\\\\hline \\end{array}}\\)</p>",
+            "<b>C.</b> <p>\\(\\overset{\\text{Table for node B}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline \\text{B}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{2} \\\\\\hline \\text{F}&amp; \\text{D} &amp; \\text{2} \\\\\\hline \\end{array}}\\)</p>",
+            "<b>D.</b> <p>\\(\\overset{\\text{Table for node D}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{B} &amp;\\text{3} \\\\\\hline \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{E}&amp; \\text{E} &amp; \\text{1} \\\\\\hline \\text{F}&amp; \\text{F} &amp; \\text{1} \\\\\\hline \\end{array}}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\overset{\\text{Table for node B}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline \\text{B}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{2} \\\\\\hline \\text{F}&amp; \\text{D} &amp; \\text{2} \\\\\\hline \\end{array}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3858/gate2005-it-85a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Assume that \"host1.mydomain.dom\" has an IP address of 145.128.16.8. Which of the following options would be most appropriate as a subsequence of steps in performing the reverse lookup of 145.128.16.8 ? In the following options \"NS\" is an abbreviation of \"nameserver\". <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Query a NS for the root domain and then NS for the \"dom\" domains</p>",
+            "<b>B.</b> <p>Directly query a NS for \"dom\" and then a NS for \"mydomain.dom\" domains</p>",
+            "<b>C.</b> <p>Query a NS for in-addr.arpa and then a NS for 128.145.in-addr.arpa domains</p>",
+            "<b>D.</b> <p>Directly query a NS for 145.in-addr.arpa and then a NS for 128.145.in-addr.arpa domains</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Query a NS for in-addr.arpa and then a NS for 128.145.in-addr.arpa domains</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3840/gate2005-it-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A company has a class C network address of 204.204.204.0. It wishes to have three subnets, one with 100 hosts and two with 50 hosts each. Which one of the following options represents a feasible set of subnet address/subnet mask pairs? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>204.204.204.128/255.255.255.192<br>\n204.204.204.0/255.255.255.128<br>\n204.204.204.64/255.255.255.128</p>",
+            "<b>B.</b> <p>204.204.204.0/255.255.255.192 <br>\n204.204.204.192/255.255.255.128<br>\n204.204.204.64/255.255.255.128</p>",
+            "<b>C.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.192/255.255.255.192<br>\n204.204.204.224/255.255.255.192</p>",
+            "<b>D.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.64/255.255.255.192<br>\n204.204.204.0/255.255.255.192</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.64/255.255.255.192<br>\n204.204.204.0/255.255.255.192</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3839/gate2005-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

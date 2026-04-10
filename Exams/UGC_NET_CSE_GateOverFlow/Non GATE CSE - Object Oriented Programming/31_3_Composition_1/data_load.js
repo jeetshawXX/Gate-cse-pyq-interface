@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Composition",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Composition",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70967\"></a><div itemprop=\"text\"><p>Which of the following is a correct statement ?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | August 2016 | Part 3 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Composition is a strong type of association between two classes with full ownership.</p>",
+            "<p>Composition is a strong type of association between two classes with partial ownership.</p>",
+            "<p>Composition is a weak type of association between two classes with partial ownership.</p>",
+            "<p>Composition is a weak type of association between two classes with strong ownership.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70967/ugc-net-cse-august-2016-part-3-question-39\" target=\"_blank\">https://gateoverflow.in/70967/ugc-net-cse-august-2016-part-3-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

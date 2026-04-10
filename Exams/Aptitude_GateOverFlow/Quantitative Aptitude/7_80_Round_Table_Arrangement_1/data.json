@@ -1,0 +1,26 @@
+{
+  "title": "Quantitative Aptitude - Round Table Arrangement",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Round Table Arrangement",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1069\"></a><div itemprop=\"text\"><p>There are six persons sitting around a round table. Pankaj is sitting left of Dayanand who is facing Kundan. Ranjan is sitting right to Dayanand. Yash is sitting left of Pankaj and Abhishek is sitting right of Ranjan. If Pankaj and Ranjan swap their position and Yash and Abhishek also swap their position, then who will be to left of Abhishek?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Kundan</p>",
+            "<p>Yash</p>",
+            "<p>Dayanand</p>",
+            "<p>Pankaj</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1069/cat-2002-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/1069/cat-2002-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+}

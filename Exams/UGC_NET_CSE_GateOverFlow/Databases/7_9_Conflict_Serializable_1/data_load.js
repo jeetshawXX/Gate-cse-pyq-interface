@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Conflict Serializable",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Conflict Serializable",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225821\"></a><div itemprop=\"text\"><p>Consider the following schedules involving two transactions.</p>\n\n<p>\\( S_1 : r_1(X) ; r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X) \\)</p>\n\n<p>\\( S_2&nbsp;: r_1(X) ; r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X) \\)</p>\n\n<p>Which one of the following statements is correct with respect to above?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | July 2018 | Part 2 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are conflict serializable</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not conflict serializable</p>",
+            "<p>​​​​​​​\\( S_1 \\) is&nbsp;conflict serializable&nbsp;and \\( S_2 \\) is not&nbsp;conflict serializable​​​​​​​</p>",
+            "<p>​​​​​​​\\( S_1 \\) is not conflict serializable&nbsp;and \\( S_2 \\) is conflict serializable​​​​​​​​​​​​​​</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225821/ugc-net-cse-july-2018-part-2-question-65\" target=\"_blank\">https://gateoverflow.in/225821/ugc-net-cse-july-2018-part-2-question-65</a></p>"
+        }
+      ]
+    }
+  ]
+});

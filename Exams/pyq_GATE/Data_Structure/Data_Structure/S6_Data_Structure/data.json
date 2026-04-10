@@ -1,0 +1,221 @@
+{
+  "title": "Data_Structure - Data_Structure - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is/are correct inorder traversal sequence(s) of binary search tree(s)?<br>\nI. 3, 5, 7, 8, 15, 19, 25 <br>\nII. 5, 8, 9, 12, 10, 15, 25 <br>\nIII. 2, 7, 10, 8, 14, 16, 20 <br>\nIV. 4, 6, 7, 9 18, 20, 25 <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>II and IV only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8129/gate2015-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The height of a tree is the length of the longest root-to-leaf path in it. The maximum and minimum number of nodes in a binary tree of height 5 are <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63 and 6, respectively</p>",
+            "<b>B.</b> <p>64 and 5, respectively</p>",
+            "<b>C.</b> <p>32 and 6, respectively</p>",
+            "<b>D.</b> <p>31 and 5, respectively</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>63 and 6, respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8223/gate2015-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the pseudocode given below. The function Dosomething () takes as argument a pointer to the root of an arbitrary tree represented by the leftMostChild-rightSibling representation. Each node of the tree is of type treeNode.<pre><code>  typedef struct treeNode*  treeptr;\nstruct treeNode\n{\n        treeptr leftMostChild, rightSibling;\n};\nint DoSomething (treeptr tree)\n{\n     int value=0;\n     if (tree != NULL) {\n          if (tree-&gt;leftMostChild == NULL)\n               value = 1;\n          else\n               value = DoSomething(tree-&gt;leftMostChild);\n         value = value + DoSomething(tree-&gt;rightSibling);\n     }\n     return(value);\n}</code></pre>\nWhen the pointer to the root of a tree is passed as the argument to DoSomething, the value returned by the function corresponds to the <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>number of internal nodes in the tree</p>",
+            "<b>B.</b> <p>height of the tree</p>",
+            "<b>C.</b> <p>number of nodes without a right sibling in the tree.</p>",
+            "<b>D.</b> <p>number of leaf nodes in the tree.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>number of leaf nodes in the tree.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2075/gate2014-3-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming\nsimple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(97 x 97 x 97)/\\(100^{3}\\)</p>",
+            "<b>B.</b> <p>(99 x 98 x 97)/\\(100^{3}\\)</p>",
+            "<b>C.</b> <p>(97 x 96 x 95)/\\(100^{3}\\)</p>",
+            "<b>D.</b> <p>(97 x 96 x 95)/(3! x \\(100^{3}\\))</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(97 x 97 x 97)/\\(100^{3}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2074/gate2014-3-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Suppose we have a balanced binary search tree T holding n numbers. We are given two numbers L and H and wish to sum up all the numbers in T that lie between L and H. Suppose there are m such numbers in T. If the tightest upper bound on the time to compute the sum is \\(O(n^{a}log^{b}n+m^{c}log^{d}n)\\), the value of a + 10b + 100c + 1000d is _______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "110",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2073/gate2014-3-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following rooted tree with the vertex labelled P as the root <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q12_da47bc58.jpg\"><br> The order in which the nodes are visited during an in-order traversal of the tree is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SQPTRWUV</p>",
+            "<b>B.</b> <p>SQPTUWRV</p>",
+            "<b>C.</b> <p>SQPTWUVR</p>",
+            "<b>D.</b> <p>SQPTRUWV</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>SQPTRWUV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2046/gate2014-3-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Suppose a stack implementation supports an instruction REVERSE, which reverses the order\nof elements on the stack, in addition to the PUSH and POP instructions. Which one of the\nfollowing statements is TRUE with respect to this modified stack? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A queue cannot be implemented using this stack.</p>",
+            "<b>B.</b> <p>A queue can be implemented where ENQUEUE takes a single instruction and\nDEQUEUE takes a sequence of two instructions.</p>",
+            "<b>C.</b> <p>A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction</p>",
+            "<b>D.</b> <p>A queue can be implemented where both ENQUEUE and DEQUEUE take a single\ninstruction each.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2007/gate2014-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the expression tree shown. Each leaf represents a numerical value, which can either\nbe 0 or 1. Over all possible choices of the values at the leaves, the maximum possible value\nof the expression represented by the tree is ___. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q39_dedc3211.jpg\"> <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1999/gate2014-2-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A priority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order\ntraversal of the heap is: 10, 8, 5, 3, 2. Two new elements 1 and 7 are inserted into the heap in\nthat order. The level-order traversal of the heap after the insertion of the elements is: <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 8, 7, 3, 2, 1, 5</p>",
+            "<b>B.</b> <p>10, 8, 7, 2, 3, 1, 5</p>",
+            "<b>C.</b> <p>10, 8, 7, 2, 3, 1, 5</p>",
+            "<b>D.</b> <p>10, 8, 7, 5, 3, 2, 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10, 8, 7, 3, 2, 1, 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1967/gate2014-2-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a hash table with 9 slots. The hash function is h(k)=k mod 9.  The collisions are\nresolved by chaining. The following 9 keys are inserted in the order: 5, 28, 19, 15, 20, 33, 12,\n17, 10. The maximum, minimum, and average chain lengths in the hash table, respectively, are <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3, 0, and 1</p>",
+            "<b>B.</b> <p>3, 3, and 3</p>",
+            "<b>C.</b> <p>4, 0, and 1</p>",
+            "<b>D.</b> <p>3, 0, and 2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3, 0, and 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1918/gate2014-1-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider rooted n node binary tree represented using pointers. The best upper bound on the\ntime required to determine the number of sub trees having exactly 4 nodes is \\(O(n^{a}lob^{b}n)\\) .\nThen the value of a+10b is_______ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1776/gate2014-1-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following operation along with Enqueue and Dequeue operations on queues, where\nk is a global parameter. <br><pre><code> MultiDequeue(Q){\nm = k\nwhile (Q is not empty) and (m &gt; 0) {\n   Dequeue(Q)\n   m = m - 1\n   }\n} </code></pre>\nWhat is the worst case time complexity of a sequence of n queue operations on an initially empty\nqueue? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n+k)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (nk)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/61/gate2013-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The preorder traversal sequence of a binary search tree is 30, 20, 10, 15, 25, 23, 39, 35, 42. Which\none of the following is the postorder traversal sequence of the same tree? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 20, 15, 23, 25, 35, 42, 39, 30</p>",
+            "<b>B.</b> <p>15, 10, 25, 23, 20, 42, 35, 39, 30</p>",
+            "<b>C.</b> <p>15, 20, 10, 23, 25, 42, 35, 39, 30</p>",
+            "<b>D.</b> <p>15, 10, 23, 25, 20, 35, 42, 39, 30</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>15, 10, 23, 25, 20, 35, 42, 39, 30</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1554/gate2013-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which one of the following is the tightest upper bound that represents the time complexity of inserting an object into a binary search tree of n nodes? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(1)</p>",
+            "<b>B.</b> <p>O( log n)</p>",
+            "<b>C.</b> <p>O(n)</p>",
+            "<b>D.</b> <p>O(n log n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1416/gate2013-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The height of a tree is defined as the number of edges on the longest path in the tree. The function\nshown in the pseudocode below is invoked as height(root) to compute the height of a binary\ntree rooted at the tree pointer root.<pre><code> int height (treeptr n)\n{ if (n == NULL) return -1;\n   if (n -&gt; left == NULL)\n            if (n -&gt; right == NULL) return 0;\n            else return    <b>B1</b>;\n   else { h1 = height (n -&gt; left);\n   if (n -&gt; right == NULL) return (1+h1);\n   else { h2 = height (n -&gt; right);\n   return   <b>B2</b>; \n    }\n  }   \n} </code></pre>\nThe appropriate expressions for the two boxes B1 and B2 are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B1: (1+height(n \\(\\rightarrow\\) right)) <br>\nB2: (1+max(h1, h2))</p>",
+            "<b>B.</b> <p>B1: (height(n \\(\\rightarrow\\) right))<br>\nB2: (1+max(h1,h2))</p>",
+            "<b>C.</b> <p>B1: height(n \\(\\rightarrow\\) right)<br>\nB2: max(h1, h2)</p>",
+            "<b>D.</b> <p>B1: (1+ height(n \\(\\rightarrow\\) right))<br>\nB2: max(h1, h2)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>B1: (1+height(n \\(\\rightarrow\\) right)) <br>\nB2: (1+max(h1, h2))</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2163/gate2012-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

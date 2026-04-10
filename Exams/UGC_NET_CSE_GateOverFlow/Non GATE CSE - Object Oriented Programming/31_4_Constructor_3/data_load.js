@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Constructor",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Constructor",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70963\"></a><div itemprop=\"text\"><p>Constructors have _____ return type.</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | August 2016 | Part 3 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>void</p>",
+            "<p>char</p>",
+            "<p>int</p>",
+            "<p>no</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70963/ugc-net-cse-august-2016-part-3-question-37\" target=\"_blank\">https://gateoverflow.in/70963/ugc-net-cse-august-2016-part-3-question-37</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"155188\"></a><div itemprop=\"text\"><p>A copy constructor is invoked when :</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2008 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>a function returns by value&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>an argument is passed by value</p>",
+            "<p>a function returns by reference&nbsp;</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155188/ugc-net-cse-december-2008-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/155188/ugc-net-cse-december-2008-part-2-question-27</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"155190\"></a><div itemprop=\"text\"><p>How many constructors can a class have ?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2008 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>zero&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>any number</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155190/ugc-net-cse-december-2008-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/155190/ugc-net-cse-december-2008-part-2-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

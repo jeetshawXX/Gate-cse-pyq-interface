@@ -1,0 +1,41 @@
+{
+  "title": "Artificial Intelligence - Prolog",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Prolog",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58893\"></a><div itemprop=\"text\">\n<p>Which one of the following is the correct implementation of the meta-predicate “not” in PROLOG (Here G represents a goal)?</p>\n\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | June 2013 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>not(G):- !, call(G), fail. not(G).</p>",
+            "<p>not(G):- call(G), !, fail. not(G).</p>",
+            "<p>not(G):- call(G), fail, !, not(G).</p>",
+            "<p>not(G):- call(G), !, fail.not(G):- !.</p>"
+          ],
+          "correct_answer": "<p>not(G):- call(G), !, fail. not(G).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58893/ugc-net-cse-june-2013-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/58893/ugc-net-cse-june-2013-part-3-question-67</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"101050\"></a><div itemprop=\"text\"><p>Which one of the following describes the syntax of prolog program?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Rules and facts are terminated by full stop(.)</li>\n\t<li>Rules and facts are terminated by semi colon(;)</li>\n\t<li>Variables names must start with upper case alphabets.</li>\n\t<li>Variables names must start with lower case alphabets.</li>\n</ol>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | June 2014 | Part 3 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I, II</p>",
+            "<p>III, IV</p>",
+            "<p>I, III</p>",
+            "<p>II, IV</p>"
+          ],
+          "correct_answer": "<p>I, III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/101050/ugc-net-cse-june-2014-part-3-question-14\" target=\"_blank\">https://gateoverflow.in/101050/ugc-net-cse-june-2014-part-3-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

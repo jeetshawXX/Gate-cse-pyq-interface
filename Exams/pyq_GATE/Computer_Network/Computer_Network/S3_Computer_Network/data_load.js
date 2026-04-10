@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the resolution of the domain name \\(www.gate.org.in\\) by a DNS resolver. Assume that no resource records are cached anywhere across the DNS servers and that iterative query mechanism is used in the resolution. The number of DNS query-response pairs involved in completely resolving the domain name is . <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371911/Gate-cse-2022-question-25#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider an enterprise network with two Ethernet segments, a web server and a firewall, connected via three routers as shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q12_fbd5cfe3.jpg\"><br>What is the number of subnets inside the enterprise network? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371924/Gate-cse-2022-question-12#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a network using the pure ALOHA medium access control protocol, where each frame is of length 1,000 bits. The channel transmission rate is 1 Mbps (=\\(10^6\\) bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of 1,000 frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "130",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357483/gate-cse-2021-set-2-question-54#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a computer network using the distance vector routing algorithm in its network layer. The partial topology of the network is shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q45_3824beb8.jpg\"><br>\nThe objective is to find the shortest-cost path from the router R to routers P and Q. Assume that R does not initially know the shortest routes to P and Q. Assume that R has three neighboring routers denoted as X, Y and Z. During one iteration, R measures its distance to its neighbors X, Y, and Z as 3, 2 and 5, respectively. Router R gets routing vectors from its neighbors that indicate that the distance to router P from routers X, Y and Z are 7, 6 and 5, respectively. The routing vector also indicates that the distance to router Q from routers X, Y and Z are 4, 6 and 8 respectively. Which of the following statement(s) is/are correct with respect to the new routing table o R, after updation during this iteration? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The distance from R to P will be stored as 10</p>",
+            "<b>B.</b> <p>The distance from R to Q will be stored as 7</p>",
+            "<b>C.</b> <p>The next hop router for a packet from R to P is Y</p>",
+            "<b>D.</b> <p>The next hop router for a packet from R to Q is Z</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>The distance from R to Q will be stored as 7</p>",
+            "<b>C.</b> <p>The next hop router for a packet from R to P is Y</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the cyclic redundancy check (CRC) based error detecting scheme having the generator polynomial \\(X^3+X+1\\). Suppose the message \\(m_4m_3m_2m_1m_0=11000\\) is to be transmitted. Check bits \\(c_2c_1c_0\\) are appended at the end of the message by the transmitter using the above CRC scheme. The transmitted bit string is denoted by \\(m_4m_3m_2m_1m_0c_2c_1c_0\\). The value of the checkbit sequence \\(c_2c_1c_0\\) is <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>101</p>",
+            "<b>B.</b> <p>110</p>",
+            "<b>C.</b> <p>100</p>",
+            "<b>D.</b> <p>111</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>100</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357506/gate-cse-2021-set-2-question-34#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the three-way handshake mechanism followed during TCP connection establishment between hosts P and Q. Let X and Y be two random 32-bit starting sequence numbers chosen by P and Q respectively. Suppose P sends a TCP connection request message to Q with a TCP segment having SYN bit =1, SEQ number =X, and ACK bit =0. Suppose Q accepts the connection request. Which one of the following choices represents the information present in the TCP segment header that is sent by Q to P? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SYN  bit =1, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =0</p>",
+            "<b>B.</b> <p>SYN  bit =0, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =1</p>",
+            "<b>C.</b> <p>SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0</p>",
+            "<b>D.</b> <p>SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X, FIN bit =0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the sliding window flow-control protocol operating between a sender and a receiver over a full-duplex error-free link. Assume the following:<br><br>The time taken for processing the data frame by the receiver is negligible.<br>\nThe time taken for processing the acknowledgement frame by the sender is negligible.<br>\nThe sender has infinite number of frames available for transmission.<br>\nThe size of the data frame is 2,000 bits and the size of the acknowledgement frame is 10 bits.<br>\nThe link data rate in each direction is 1 Mbps (\\(= 10^6\\) bits per second).<br>\nOne way propagation delay of the link is 100 milliseconds.<br><br>\nThe minimum value of the sender's window size in terms of the number of frames, (rounded to the nearest  integer)  needed  to achieve a link utilization of 50% is _____________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357402/gate-cse-2021-set-1-question-49#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider two hosts P and Q connected through a router R. The maximum transfer unit (MTU) value of the link between P and R is 1500 bytes, and between R and Q is 820 bytes.\n<br>\nA TCP segment of size 1400 bytes was transferred from P to Q through R, with IP identification value as 0x1234. Assume that the IP header size is 20 bytes. Further, the packet is allowed to be fragmented, i.e., Don't Fragment (DF) flag in the IP header is not set by P.\n<br>\nWhich of the following statements is/are correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.</p>",
+            "<b>B.</b> <p>If the second fragment is lost, R will resend the fragment with the IP identification value 0x1234.</p>",
+            "<b>C.</b> <p>If the second fragment is lost, P is required to resend the whole TCP segment.</p>",
+            "<b>D.</b> <p>TCP destination port can be determined by analysing only the second fragment.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.</p>",
+            "<b>C.</b> <p>If the second fragment is lost, P is required to resend the whole TCP segment.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357406/gate-cse-2021-set-1-question-45#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A TCP server application is programmed to listen on port number P on host S. A TCP client is connected to the TCP server over the network.\n<br>\nConsider that while the TCP connection was active, the server machine S crashed and rebooted. Assume that the client does not use the TCP keepalive timer. Which of the following behaviors is/are possible? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>If the client was waiting to receive a packet, it may wait indefinitely.</p>",
+            "<b>B.</b> <p>The TCP server application on S can listen on P after reboot.</p>",
+            "<b>C.</b> <p>If the client sends a packet after the server reboot, it will receive a RST segment.</p>",
+            "<b>D.</b> <p>If the client sends a packet after the server reboot, it will receive a FIN segment.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>If the client was waiting to receive a packet, it may wait indefinitely.</p>",
+            "<b>B.</b> <p>The TCP server application on S can listen on P after reboot.</p>",
+            "<b>C.</b> <p>If the client sends a packet after the server reboot, it will receive a RST segment.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357407/gate-cse-2021-set-1-question-44#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Assume that a 12-bit Hamming codeword consisting of 8-bit data and 4 check bits is \\(d_8d_7d_6d_5c_8d_4d_4d_3d_2c_4d_1c_2c_1\\), where the data bits and the check bits are given in the following tables:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q29_b9ace977.jpg\"><br>\nWhich one of the following choices gives the correct values of x and y? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x is 0 and y is 0</p>",
+            "<b>B.</b> <p>x is 0 and y is 1</p>",
+            "<b>C.</b> <p>x is 1 and y is 0</p>",
+            "<b>D.</b> <p>x is 1 and y is 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>x is 0 and y is 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357422/gate-cse-2021-set-1-question-29#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following two statements.\n<br><br>\nS1: Destination MAC address of an ARP reply is a broadcast address.<br>\nS2: Destination MAC address of an ARP request is a broadcast address.<br><br>\nWhich one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are true</p>",
+            "<b>B.</b> <p>S1 is true and S2 is false</p>",
+            "<b>C.</b> <p>S1 is false and S2 is true</p>",
+            "<b>D.</b> <p>Both S1 and S2 are false</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S1 is false and S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357444/gate-cse-2021-set-1-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a TCP connection between a client and a server with the following specifications; the round trip time is 6 ms, the size of the receiver advertised window is 50 KB, slow-start threshold at the client is 32 KB, and the maximum segment size is 2 KB. The connection is established at time t=0. Assume that there are no timeouts and errors during transmission. Then the size of the congestion window (in KB) at time t+60 ms after all acknowledgements are processed is _______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "44",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333176/gate2020-cs-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization? <br><br>I.  202.61.84.0/21<br>II.  202.61.104.0/21<br>III. 202.61.64.0/21<br>IV.  202.61.144.0/21 <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>III and IV only</p>",
+            "<b>D.</b> <p>I and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333193/gate2020-cs-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Assume that you have made a request for a web page through your web browser to a web server. Initially the browser cache is empty. Further, the browser is configured to send HTTP requests in non-persistent mode. The web page contains text and five very small images.The minimum number of TCP connections required to display the web page completely in your browser is__________. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333206/gate2020-cs-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following statements about the functionality of an IP based router.<br><br>\nI.    A router does not modify the IP packets during forwarding.<br>\nII.   It is not necessary for a router to implement any routing protocol.<br>\nIII.  A router should reassemble IP fragments if the MTU of the outgoing link is larger than the size of the incoming IP packet.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333216/gate2020-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

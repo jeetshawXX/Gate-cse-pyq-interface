@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Binary Semaphore",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Semaphore",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"68034\"></a><div itemprop=\"text\"><p>In order to allow only one process to enter its critical section, binary semaphore are initialized to</p></div><br><br><b>Operating System: UGC NET CSE | June 2010 | Part 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68034/ugc-net-cse-june-2010-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/68034/ugc-net-cse-june-2010-part-2-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Integrity_Constraints",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Integrity_Constraints",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following tables T1 and T2.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Integrity_Constraints\\q11_05594a74.jpg\"> <br> In table T1, P is the primary key and Q is the foreign key referencing R in table T2 with ondelete\ncascade and on-update cascade. In table T2, R is the primary key and S is the foreign\nkey referencing P in table T1 on-delete set NULL and on-update cascade. In order to delete\nrecord (3,8) from table T1, the number of additional records that need to be deleted from\ntable T1 is _____. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118236/gate2017-2-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let R(a,b,c) and S(d,e,f) be two relations in which d is the foreign key of S that refers to the primary key of R. Consider the following four operations R and S<br><br>\nI.   Insert into R<br>\nII.  Insert into S<br>\nIII. Delete from R<br>\nIV.  Delete from S<br><br>\nWhich of the following can cause violation of the referential integrity constraint above? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Both II and III</p>",
+            "<b>C.</b> <p>All of these</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2266/gate1997-6-10-isro2016-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A locked database file can be <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Accessed by only one user</p>",
+            "<b>B.</b> <p>Modified by users with the correct password</p>",
+            "<b>C.</b> <p>Used to hide sensitive information</p>",
+            "<b>D.</b> <p>Updated by more than one user</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Accessed by only one user</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48081/isro2009-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The following table has two attributes A and C where A is the primary key and C is the foreign key referencing A with on-delete cascade. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Integrity_Constraints\\q76_054b99cf.jpg\"> <br>The set of all tuples that must be additionally deleted to preserve referential integrity when the tuple (2,4) is deleted is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(3,4) and (6,4)</p>",
+            "<b>B.</b> <p>(5,2) and (7,2)</p>",
+            "<b>C.</b> <p>(5,2), (7,2) and (9,5)</p>",
+            "<b>D.</b> <p>(3,4), (4,3) and (6,4)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(5,2), (7,2) and (9,5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1399/gate2005-76#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let R(a, b, c) and S(d, e, f) be two relations in which d is the foreign key of S that refers to the primary key of R. Consider the following four operations R and S<br><br>\nI.   Insert into R<br>\nII.  Insert into S<br>\nIII. Delete from R<br>\nIV.  Delete from S<br><br>\nWhich of the following can cause violation of the referential integrity constraint above? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Both II and III</p>",
+            "<b>C.</b> <p>All of these</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2266/gate1997-6-10-isro2016-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

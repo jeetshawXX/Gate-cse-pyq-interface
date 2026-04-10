@@ -1,0 +1,201 @@
+window.__examLoadCallback({
+  "title": "Graph_Theory - Graph_Theory - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Graph_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G be an undirected complete graph on n vertices, where n\\(\\gt\\)2. Then, the number of different Hamiltonian cycles in G is equal to <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n!</p>",
+            "<b>B.</b> <p>(n-1)!</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n-1)!}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{(n-1)!}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302836/gate2019-cs-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The number of edges in a regular graph of degree: d and n vertices is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>maximum of n and d</p>",
+            "<b>B.</b> <p>n+d</p>",
+            "<b>C.</b> <p>nd</p>",
+            "<b>D.</b> <p>nd/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>nd/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213550/isro2018-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is application of Breath First Search on the graph? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding diameter of the graph</p>",
+            "<b>B.</b> <p>Finding bipartite graph</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213555/isro2018-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let G be a graph with 100! vertices, with each vertex labelled by a distinct permutation of the numbers 1,2,...,100. There is an edge between vertices u and v if and only if the label of u can be obtained by swapping two adjacent numbers in the label of v. Let y denote the degree of a vertex in G, and z denote the number of connected components in G. Then, y+ 10z = _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "109",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204117/gate2018-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let G be a simple undirected graph. Let TD be a depth first search tree of G. Let TB be a breadth first search tree of G. Consider the following statements. <br><br>\n(I) No edge of G is a cross edge with respect to TD. (A cross edge in G is between two\nnodes neither of which is an ancestor of the other in TD.) <br>\n(II) For every edge (u,v) of G, if u is at depth i and v is at depth j in TB, then |i-j|=1.<br><br>\nWhich of the statements above must necessarily be true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204104/gate2018-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The chromatic number of the following graph is _______.  <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q18_14abf0c5.jpg\"> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204092/gate2018-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>G is undirected graph with n vertices and 25 edges such that each vertex of G has degree at\nleast 3. Then the maximum possible value of n is ___________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118594/gate2017-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The Breadth First Search (BFS) algorithm has been implemented using the queue data\nstructure. Which one of the following is a possible order of visiting the nodes in the graph\nbelow? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q7_689784b4.jpg\"> <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>MNOPQR</p>",
+            "<b>B.</b> <p>NQMPOR</p>",
+            "<b>C.</b> <p>QMNROP</p>",
+            "<b>D.</b> <p>POQNMR</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>POQNMR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118196/gate2017-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let T be a tree with 10 vertices. The sum of the degrees of all the vertices in T is _________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "18",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118300/gate2017-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25-isro2008-30-isro2016-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A given connected graph G is a Euler Graph if and only if all vertices of G are of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>same degree</p>",
+            "<b>B.</b> <p>even degree</p>",
+            "<b>C.</b> <p>odd degree</p>",
+            "<b>D.</b> <p>different  degree</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>even degree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55688/isro2016-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Breadth First Search(BFS) is started on a binary tree beginning from the root vertex. There is a vertex t at a distance four from the root. If t is the n-th vertex in this BFS traversal, then the maximum possible value of n is______ . <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "31",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39563/gate2016-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The minimum number of colours that is sufficient to vertex-colour any planar graph is _________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39553/gate2016-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following directed graph: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q11_81240da5.jpg\"> <br>\nThe number of different topological orderings of the vertices of the graph is <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39669/gate2016-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>In a connected graph, a bridge is an edge whose removal disconnects a graph. Which one of the following statements is true? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A tree has no bridges</p>",
+            "<b>B.</b> <p>A bridge cannot be part of a simple cycle</p>",
+            "<b>C.</b> <p>Every edge of a clique with size \\(\\geq\\) 3 is a bridge (A clique is any complete subgraph of a graph)</p>",
+            "<b>D.</b> <p>A graph with bridges cannot have a cycle</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A bridge cannot be part of a simple cycle</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8252/gate2015-2-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

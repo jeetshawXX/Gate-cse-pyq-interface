@@ -1,0 +1,236 @@
+{
+  "title": "Boolean_Algebra - Boolean_Algebra - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Boolean_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following expressions is equivalent to \\((A \\oplus B) \\oplus C\\) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A + B + C) (\\bar A +\\bar B +\\bar C)\\)</p>",
+            "<b>B.</b> <p>\\((A + B + C) (\\bar A +\\bar B + C)\\)</p>",
+            "<b>C.</b> <p>\\(ABC + \\bar A (B \\oplus C) + \\bar B(A \\oplus C)\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(ABC + \\bar A (B \\oplus C) + \\bar B(A \\oplus C)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3752/gate2005-it-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The switching expression corresponding to f(A,B,C,D)= \\(\\Sigma\\) (1,4,5,9,11,12) is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+            "<b>B.</b> <p>ABC' + ACD + B'C'D</p>",
+            "<b>C.</b> <p>ACD' + A'BC' + AC'D'</p>",
+            "<b>D.</b> <p>A'BD + ACD' + BCD'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1354/gate2005-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following circuit. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q15_fcc4baa0.jpg\"> Which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f is independent of X</p>",
+            "<b>B.</b> <p>f is independent of Y</p>",
+            "<b>C.</b> <p>f is independent of Z</p>",
+            "<b>D.</b> <p>None of X, Y, Z is redundant</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>f is independent of X</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1351/gate2005-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The function \\(A \\bar B C + \\bar A B C + AB \\bar C+ \\bar A \\bar B C+ A \\bar B \\bar C\\) is equivalent to <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A \\bar C + AB+ \\bar A C\\)</p>",
+            "<b>B.</b> <p>\\(A \\bar B+ A \\bar C+ \\bar A C\\)</p>",
+            "<b>C.</b> <p>\\(\\bar A B+ A \\bar C+ A \\bar B\\)</p>",
+            "<b>D.</b> <p>\\(\\bar AB+ AC+ A \\bar B\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A \\bar B+ A \\bar C+ \\bar A C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3687/gate2004-it-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is the minimum number of NAND gates required to implement a 2-input EXCLUSIVE-OR function without using any other logic gate? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3649/gate2004-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which are the essential prime implicants of the following Boolean function? <br><br>\nf(a, b, c) = a'c + ac' + b'c <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a'c and ac'</p>",
+            "<b>B.</b> <p>a'c and b'c</p>",
+            "<b>C.</b> <p>a'c only</p>",
+            "<b>D.</b> <p>ac' and bc'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a'c and ac'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1054/gate2004-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A Boolean function x'y' + xy + x'y is equivalent <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x'+y'</p>",
+            "<b>B.</b> <p>x+y</p>",
+            "<b>C.</b> <p>x+y'</p>",
+            "<b>D.</b> <p>x'+y</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x'+y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1014/gate2004-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The literal count of a Boolean Algebra is the sum of the number of times each\nliteral appears in the expression. <br>For example, the literal count of (xy + xz) is 4. <br>\nWhat are the minimum possible literal counts of the product-of-sum and sum-of product\nrepresentations respectively of the function given by the following\nkarnaugh map?\nHere, X denotes \"don't care\" <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q45_99ce3d1d.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(11,9)</p>",
+            "<b>B.</b> <p>(9,13)</p>",
+            "<b>C.</b> <p>(9,10)</p>",
+            "<b>D.</b> <p>(11,11)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(9,10)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/936/gate2003-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let f(A,B) = A' + B. Simplified expression for function f(f(x+y,y),z) is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x' + z</p>",
+            "<b>B.</b> <p>xyz</p>",
+            "<b>C.</b> <p>xy' + z</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>xy' + z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/833/gate2002-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following logic circuit whose inputs are functions f1, f2, f3 and output\nis f <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q26_d435cff8.jpg\"> <br> Given that\n<br><br>\nf1(x, y, z) = \\(\\Sigma\\)(0, 1, 3, 5), <br>\nf2(x, y, z) = \\(\\Sigma\\)(6, 7) and <br>\nf(x, y, z) = \\(\\Sigma\\)(1, 4, 5),<br>\n<br><br>\nf3 is : <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Sigma\\) (1,4,5)</p>",
+            "<b>B.</b> <p>\\(\\Sigma\\) (6,7)</p>",
+            "<b>C.</b> <p>\\(\\Sigma\\) (0,1,3,5)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Sigma\\) (1,4,5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/831/gate2002-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Minimum sum of product expression for f (w,x,y,z) shown in Karnaugh-map\nbelow is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q12_63e58d40.jpg\"> <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>xz + y'z</p>",
+            "<b>B.</b> <p>xz'+zx'</p>",
+            "<b>C.</b> <p>x'y+zx'</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>xz'+zx'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/816/gate2002-1-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which functions does NOT implement the Karnaugh map given below?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q2.11_00e62539.jpg\"><br> <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(w + x) y</p>",
+            "<b>B.</b> <p>xy + yw</p>",
+            "<b>C.</b> <p>\\((w + x) (\\bar{w} + y) (\\bar{x} + y)\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/658/gate2000-2-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The simultaneous equations on the Boolean variables x, y, z and w,<br>\nx + y + z = 1<br>\nxy = 0<br>\nxz + w = 1<br>\n\\(xy + \\bar{z}\\bar{w} = 0\\)<br>\nhave the following solution for x, y, z and w, respectively: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 1 0 0</p>",
+            "<b>B.</b> <p>1 1 0 1</p>",
+            "<b>C.</b> <p>1 0 1 1</p>",
+            "<b>D.</b> <p>1 0 0 0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 0 1 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/657/gate2000-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following sets of component(s) is/are sufficient to implement any arbitrary Boolean function? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>XOR gates, NOT gates</p>",
+            "<b>B.</b> <p>2 to 1 multiplexers</p>",
+            "<b>C.</b> <p>AND gates, XOR gates</p>",
+            "<b>D.</b> <p>Three-input gates that output (A.B)+C for the inputs A,B and C.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 to 1 multiplexers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1487/gate1999-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the circuit shown below. In a certain steady state, the line Y is at '1'. What are the possible values of A, B and C in this state?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q2.12_bf1b9247.jpg\"><br> <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A=0,B=0,C=1</p>",
+            "<b>B.</b> <p>A=0,B=1,C=1</p>",
+            "<b>C.</b> <p>A=1,B=0,C=1</p>",
+            "<b>D.</b> <p>A=1,B=1,C=1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A=0,B=1,C=1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1486/gate1999-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

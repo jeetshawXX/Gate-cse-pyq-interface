@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Software Intergrity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Intergrity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316223\"></a><div itemprop=\"text\"><p>A Web application and its support environment has not been fully fortified against attack. Web engineers estimate that the likelihood of repelling an attack is only \\( 30 \\) percent. The application does not contain sensitive or controversial information, so the threat probability is \\( 25 \\) percent. What is the integrity of the web application?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2019 | Part 2 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.625 \\)</p>",
+            "<p>\\( 0.725 \\)</p>",
+            "<p>\\( 0.775 \\)</p>",
+            "<p>\\( 0.825 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.825 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316223/ugc-net-cse-june-2019-part-2-question-56\" target=\"_blank\">https://gateoverflow.in/316223/ugc-net-cse-june-2019-part-2-question-56</a></p>"
+        }
+      ]
+    }
+  ]
+}

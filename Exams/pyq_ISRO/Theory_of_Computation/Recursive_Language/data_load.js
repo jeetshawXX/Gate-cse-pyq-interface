@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Recursive_Language",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Recursive_Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If L and P are two recursively enumerable languages then they are not closed under <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Kleene star \\(L^{*}\\) of L</p>",
+            "<b>B.</b> <p>Intersection \\(L \\cap P\\)</p>",
+            "<b>C.</b> <p>Union \\(L \\cup P\\)</p>",
+            "<b>D.</b> <p>Set difference</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Set difference</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128779/isro2017-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Given the following statements<br>S1 : Every context-sensitive language L is recursive<br>S2 : There exists a recursive language that is not context-sensitive<br>Which statements are true? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are not correct</p>",
+            "<b>D.</b> <p>Both S1 and S2 are correct</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both S1 and S2 are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128535/isro2017-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If \\(L\\) and \\(\\bar L\\) are recursively enumerable then \\(L\\) is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular</p>",
+            "<b>B.</b> <p>context-free</p>",
+            "<b>C.</b> <p>context-sensitive</p>",
+            "<b>D.</b> <p>recursive</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/411/gate2008-13-isro2016-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A problem whose language is recursion is called? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unified problem</p>",
+            "<b>B.</b> <p>Boolean function</p>",
+            "<b>C.</b> <p>Recursive problem</p>",
+            "<b>D.</b> <p>Decidable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53154/isro2011-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

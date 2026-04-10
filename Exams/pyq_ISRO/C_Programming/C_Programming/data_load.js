@@ -1,0 +1,896 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming",
+  "duration": 163,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In the following procedure<br><pre><code> Integer procedure P(X,Y);\nInteger X,Y;\nvalue x;\nbegin\n      K=5;\n      L=8;\n      P=x+y;\nend</code></pre>X  is called by value and Y is called by name. If the procedure were invoked by the following program fragment<br><pre><code> K=0;\nL=0;\nZ=P(K,L);</code></pre>then the value of Z will be set equal to <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331379/isro2020-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Following declaration of an array of struct, assumes size of byte, short, int and long are 1,2,3 and 4 respectively. Alignment rule stipulates that n byte field must be located at an address divisible by n, the fields in the struct are not rearranged, padding is used to ensure alignment. All elements of array should be of same size.<br><pre><code> Struct complx\n       Short s\n       Byte b\n       Long l\n       Int i\nEnd Complx\nComplx C[10]</code></pre>Assuming C is located at an address divisble by 8, what is the total size of C, in bytes? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>150</p>",
+            "<b>B.</b> <p>160</p>",
+            "<b>C.</b> <p>200</p>",
+            "<b>D.</b> <p>240</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>160</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: This question is Excluded\nfor\nevaluation. <br><a href=\"https://gateoverflow.in/331318/isro2020-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the output in a 32 bit machine with 32 bit compiler?<br><pre><code> #include &lt; stdio.h &gt;\nrer(int **ptr2, int **ptr1)\n{\n    int *ii;\n    ii=*ptr2;\n    *ptr2=*ptr1;\n    *ptr1=ii;\n    **ptr1*=**ptr2;\n    **ptr2+=**ptr1;\n}\nvoid main(){\n    int var1=5, var2=10;\n    int *ptr1=&amp;var1,*ptr2=&amp;var2;\n    rer(&amp;ptr1,&amp;ptr2);\n    printf(\"%d %d\",var2,var1);\n}</code></pre> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>60,70</p>",
+            "<b>B.</b> <p>50,50</p>",
+            "<b>C.</b> <p>50,60</p>",
+            "<b>D.</b> <p>60,50</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>60,50</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331226/isro2020-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is output of the following 'C' code assuming it runs on a byte addressed little endian machine?<br><pre><code> #include &lt; stdio.h &gt;\nint main()\n{\n    int x;\n    char *ptr;\n    x=622,100,101;\n    printf(\"%d\",(*(char *)&amp;x)*(x%3));\n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>622</p>",
+            "<b>B.</b> <p>311</p>",
+            "<b>C.</b> <p>22</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>110</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331225/isro2020-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is the output of the code given below?<br><pre><code> #include &lt; stdio.h &gt;\nint main()\n{\n    char name[]=\"satellites\";\n    int len;\n    int size;\n    len= strlen(name);\n    size = sizeof(name);\n    printf(\"%d\",len*size);\n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100</p>",
+            "<b>B.</b> <p>110</p>",
+            "<b>C.</b> <p>40</p>",
+            "<b>D.</b> <p>44</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>110</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331463/isro2020-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following recursive C function that takes two arguments<br><pre><code> unsigned int rer(unsigned int n, unsigned int r){\n    if(n&gt;0)return(n%r + rer(n/r,r));\n    else retturn 0;\n}</code></pre>What is the return value of the function rer when it is called as rer(513,2)? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331460/isro2020-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C code segment<br><pre><code> int f(int x)\n{\n    if(x&lt;1) return 1;\n    else return (f(x-1) + g(x));\n}\nint g(int x)\n{\n    if(x&lt;2) return 2;\n    else return (f(x-1) + g(x/2));\n}</code></pre>Of the following, which best describes the growth of f(x) as a function of x ? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Linear</p>",
+            "<b>B.</b> <p>Exponential</p>",
+            "<b>C.</b> <p>Quadratic</p>",
+            "<b>D.</b> <p>Cubic</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Exponential</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213516/isro2018-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C program:<br><pre><code> main()\n{\nfloat sum= 0.0, j=1.0,i=2.0;\nwhile(i/j&gt;0.001){\n    j=j+1;\n    sum=sum+i/j;\n    printf(\"%f/n\", sum);\n  }\n}</code></pre> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0  - 9 lines of output</p>",
+            "<b>B.</b> <p>10 - 19 lines out output</p>",
+            "<b>C.</b> <p>20  - 29 lines of output</p>",
+            "<b>D.</b> <p>More than 29 lines of output</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>More than 29 lines of output</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213518/isro2018-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What is the output of tho following program?<br><pre><code> main(){\n    int x=2, y=5;\n    if(x &lt; y) return (x=x+y);\n    else printf(\"z1\");\n    printf(\"z2\");\n}</code></pre> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>z2</p>",
+            "<b>B.</b> <p>z1z2</p>",
+            "<b>C.</b> <p>Compilation error</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213528/isro2018-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C++ program<br><pre><code> int a (int m)\n{return ++m;}\nint b(int&amp;m)\n{return ++m;}\nint{char &amp;m}\n{return ++m;}\nvoid main()\n{             \n       int p = 0, q=0, r = 0;\n       p += a(b(p)) ;\n       q+= b(a(q);)\n       r+=a(c(r));\n       cout &lt;&lt; p &lt;&lt; q &lt;&lt; r;\n}</code></pre> Assuming the required header first are already included, the above program <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>results in compilation error</p>",
+            "<b>B.</b> <p>print 123</p>",
+            "<b>C.</b> <p>print 111</p>",
+            "<b>D.</b> <p>print 322</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>results in compilation error</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213545/isro2018-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following C code segment:<br><pre><code> #include &lt; stdio.h &gt;\nmain()\n{\n    int i, j, x;\n    scanf(\"%d\", &amp;x);\n    i=1; j=1;\n    while (i&lt;10) {\n            j =j*i;\n            i= i+1;\n            if(i==x) break;\n        }\n}</code></pre>For the program fragment above, which of the following statements about the variables i and j must be true after execution of this program? [ !(exclamation) sign denotes factorial in the answer] <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((j=(x-1) !) \\wedge(i \\geq x)\\)</p>",
+            "<b>B.</b> <p>\\((j=9 !) \\wedge(j=10)\\)</p>",
+            "<b>C.</b> <p>\\(((j=10 !) \\wedge(i=10)) \\vee((j=(x-1) !) \\wedge(i=x))\\)</p>",
+            "<b>D.</b> <p>\\((j=9 !) \\wedge(i \\geqslant 10)) \\vee((j=(x-1) !) \\wedge(i=x))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((j=9 !) \\wedge(i \\geqslant 10)) \\vee((j=(x-1) !) \\wedge(i=x))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213570/isro2018-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A language with string manipulation facilities uses the following operations.<br><br>\nhead(s)- returns the first character of the string s<br>tails(s)- returns all but the first character of the string s<br>concat(s1,s2)- concatenates string s1 with s2.<br>\n<br>The output of concat(head(s), head(tail(tail(s)))), where s is acbc is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ab</p>",
+            "<b>B.</b> <p>ba</p>",
+            "<b>C.</b> <p>ac</p>",
+            "<b>D.</b> <p>aa</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>ab</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213580/isro2018-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Assume A and B are non-zero positive integers. The following code segment:<br><pre><code> while(A!=B){\n    if(A&gt; B)\n    A -= B;\n    else\n    B -= A;\n}\ncout &lt;&lt; A; // printing the value of A</code></pre> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Computes the LCM of two numbers</p>",
+            "<b>B.</b> <p>Divides the larger number by the smaller number</p>",
+            "<b>C.</b> <p>Computes the GCD of two numbers</p>",
+            "<b>D.</b> <p>Finds the smaller of two numbers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Computes the GCD of two numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213581/isro2018-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following declaration :<br><pre><code> structaddr {\n    char city[10];\n    char street[30];\n    int pin;\n};\nstruct {\n    char name[30];\n    int gender;\n    struct addr locate;\n} person, *kd = &amp;person;</code></pre>Then \\(^{\\star}(k d-&gt;\\text { name }+2)\\) can be used instead of: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>person.name+2</p>",
+            "<b>B.</b> <p>\\(k d-&gt;(\\text { name }+2)\\)</p>",
+            "<b>C.</b> <p>\\(*((* k d) . \\text { name }+2)\\)</p>",
+            "<b>D.</b> <p>either (A) or(B), not (C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(*((* k d) . \\text { name }+2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213586/isro2018-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following program<pre><code>{\n    int x=1;\n    printf(\"%d\",(*char(char*)&amp;x));\n} </code></pre>Assuming required header files are included and if the machine in which this program is executed is little endian, then the output will be <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>99999999</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>unpredictable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>unpredictable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213587/isro2018-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>We use malloc and calloc for: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic memory allocation</p>",
+            "<b>B.</b> <p>Static memory allocation</p>",
+            "<b>C.</b> <p>Both dynamic memory allocation and static memory allocation</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128772/isro2017-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>What is the output of the following program?<br><pre><code> #include &lt; stdio.h &gt;\nint tmp=20;\nmain()\n{\n  printf(\"%d\", tmp);\n  func();\n  printf(\"%d\", tmp);\n\n}\nfunc()\n{\n static int tmp=10;\n printf(\"%d\", tmp);\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20 10 10</p>",
+            "<b>B.</b> <p>20 10 20</p>",
+            "<b>C.</b> <p>20 20 20</p>",
+            "<b>D.</b> <p>10 10 10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20 10 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128754/isro2017-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>What does the following program do when the input is unsigned 16 bit integer?<br><pre><code> #include &lt; stdio.h &gt;\nmain(){\n  unsigned int num;\n  int i;\n  scanf(\"%u\", &amp;num);\n  for(i=0;i&lt;16;i++){\n    printf(\"%d\", (num &lt; &lt; i&amp;1 &lt; &lt; 15)?1:0);\n  }\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It prints all even bits from num</p>",
+            "<b>B.</b> <p>It prints all odd bits from num</p>",
+            "<b>C.</b> <p>It prints binary equivalent of num</p>",
+            "<b>D.</b> <p>None of above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>It prints binary equivalent of num</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128753/isro2017-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>What will be the output of the following C code?<br><pre><code> #include &lt; stdio.h &gt;\nmain()\n{\n    int i;\n    for(i=0;i&lt;5;i++)\n    {\n        int i=10;\n        printf(\"%d\" , i);\n        i++;\n    }\n    return 0;\n}</code></pre><br> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 11 12 13 14</p>",
+            "<b>B.</b> <p>10 10 10 10 10</p>",
+            "<b>C.</b> <p>0 1 2 3 4</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 10 10 10 10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128751/isro2017-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>What does the following C-statement declare?<br><pre><code> int (*f) (int * );</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>B.</b> <p>A function that takes an integer as argument and returns an integer pointer</p>",
+            "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>D.</b> <p>A function that takes an integer pointer as argument and returns a function pointer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1343/gate2005-1-isro2017-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Consider the following function<br><pre><code> void swap(int a, int b)  \n{       \n    int temp;\n    temp = a;\n    a = b;\n    b = temp;  \n}  </code></pre>In order to exchange the values of two variables x and y. <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>call swap(x,y)</p>",
+            "<b>B.</b> <p>call swap(&amp;x,&amp;y)</p>",
+            "<b>C.</b> <p>swap(x,y)  cannot be used as it does not return any value</p>",
+            "<b>D.</b> <p>swap(x,y)  cannot be used as the parameters are passed by value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>swap(x,y)  cannot be used as the parameters are passed by value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/999/gate2004-2-isro2017-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>What is the output of the C++ program?<br><pre><code> #include &lt; iostream &gt;\nusing namespace std;\n\nvoid square(int *x){\n    *x = (*x)++ * (*x);\n}\n\nvoid square(int *x, int *y){\n    *x = (*x) * --(*y);\n}\n\nint main()\n{\n  int number = 30;\n  square(&amp;number, &amp;number);\n  cout &lt; &lt; number;\n  return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>910</p>",
+            "<b>B.</b> <p>920</p>",
+            "<b>C.</b> <p>870</p>",
+            "<b>D.</b> <p>900</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>870</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128615/isro2017-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Which one of the following is correct about the statements given below?<br>I.  All function calls are resolved at compile time in C lang<br>\nII. All function calls are resolved at compile time in C++ lang <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only II is correct</p>",
+            "<b>B.</b> <p>Both I and II are correct</p>",
+            "<b>C.</b> <p>Only I is correct</p>",
+            "<b>D.</b> <p>Both I and II are incorrect</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both I and II are incorrect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55534/isro2016-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider the following segment of C-code:<br><pre><code>int j, n;\nj = 1;\nwhile (j &lt;= n)\n    j = j * 2;</code></pre>The number of comparisons made in the execution of the loop for any n&gt;0 is: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\lceil \\log_2n \\rceil +1\\)</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>\\(\\lceil \\log_2n \\rceil\\)</p>",
+            "<b>D.</b> <p>\\(\\lfloor \\log_2n \\rfloor +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\lfloor \\log_2n \\rfloor +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56129/gate2007-15-isro2016-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>What will be output of the following program? Assume that you are running this program in little-endian processor.<br><pre><code> #include &lt; stdio.h &gt;\nint main()\n{\n    short a=320;\n    char *ptr;\n    ptr=(char *)&amp;a;\n    printf(\"%d\",*ptr);\n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>320</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55481/isro2016-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>What is the output of this C  code?<br><pre><code> #include &lt; stdio.h &gt;\nvoid main()\n{\n    int k=5;\n    int *p=&amp;k;\n    int **m=&amp;p;\n    printf(\"%d %d %d\",k,*p,**m);\n    \n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 5 5</p>",
+            "<b>B.</b> <p>5 5 junk</p>",
+            "<b>C.</b> <p>5 junk junk</p>",
+            "<b>D.</b> <p>compile time error</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5 5 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55468/isro2016-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Consider the following code fragment<br><pre><code> void foo(int x, int y)\n{\n    x+=y;\n    y+=x;\n}\nmain()\n{\n    int x=5.5;\n    foo(x,x);\n}</code></pre>What is the final value of x in both call by value and call by reference, respectively? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 and 16</p>",
+            "<b>B.</b> <p>5 and 12</p>",
+            "<b>C.</b> <p>5 and 20</p>",
+            "<b>D.</b> <p>12 and 20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5 and 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52145/isro2015-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the following C declaration:<br><pre><code> struct ( \n    short x[5];  \n    union { \n        float y; \n        long z; \n    } u;\n )t;</code></pre>Assume that the objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment consideration, is: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22  bytes</p>",
+            "<b>B.</b> <p>14 bytes</p>",
+            "<b>C.</b> <p>18 bytes</p>",
+            "<b>D.</b> <p>10 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>18 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/640/gate2000-1-17-isro2015-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following statements<br><pre><code> #define hypotenuse (a, b) sqrt (a*a+b*b);</code></pre>The macro call hypotenuse(a+2,b+3); <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finds the hypotenuse of a triangle with sides a+2 and b+3</p>",
+            "<b>B.</b> <p>Finds the square root of \\((a+2)^{2}\\) and \\((b+3)^{2}\\)</p>",
+            "<b>C.</b> <p>Is invalid</p>",
+            "<b>D.</b> <p>Find the square root of 3*a+4*b+5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Find the square root of 3*a+4*b+5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/37955/isro2015-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>The for loop<br><pre><code> for (i=0; i&lt;10; ++i)\nprintf(\"%d\", i&amp;1);</code></pre>prints <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0101010101\\)</p>",
+            "<b>B.</b> <p>\\(0111111111\\)</p>",
+            "<b>C.</b> <p>\\(0000000000\\)</p>",
+            "<b>D.</b> <p>\\(1111111111\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(0101010101\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52141/isro2015-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Which of the following has the compilation error in C? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>int n = 17;</p>",
+            "<b>B.</b> <p>char c = 99;</p>",
+            "<b>C.</b> <p>float f = (float)99.32;</p>",
+            "<b>D.</b> <p>#include &lt; stdio.h &gt;</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>#include &lt; stdio.h &gt;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19791/isro2015-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>The output of the following program is<br><pre><code> main()\n{\n    static int x[] = {1,2,3,4,5,6,7,8}\n    int i;\n    for (i=2; i&lt;6; ++i)\n    x[x[i]]=x[i];\n    for (i=0; i&lt;8; ++i)\n    printf(\"%d\", x[i]);\n}</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 2 3 3 5 5 7 8</p>",
+            "<b>B.</b> <p>1 2 3 4 5 6 7 8</p>",
+            "<b>C.</b> <p>8 7 6 5 4 3 2 1</p>",
+            "<b>D.</b> <p>1 2 3 5 4 6 7 8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1 2 3 3 5 5 7 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52137/isro2015-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the following declaration:<pre><code> int a, *b=&amp;a, **c=&amp;b;</code></pre>The following program fragment<pre><code> a=4;    **c=5;</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not change the value of a</p>",
+            "<b>B.</b> <p>assigns address of c to a</p>",
+            "<b>C.</b> <p>assigns the value of b to a</p>",
+            "<b>D.</b> <p>assigns 5 to a</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>assigns 5 to a</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19444/isro2015-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Consider the following program fragment<br><pre><code> i=6720; j=4;\nwhile (i%j)==0\n{\n    i=i/j;\n    j=j+1;\n}</code></pre>On termination j will have the value <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>6720</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52135/isro2015-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>The following program<br><pre><code> main()\n{\n    inc(); inc(); inc();\n}\ninc()\n{\n    static int x;\n    printf(\"%d\", ++x);\n}</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>prints 012</p>",
+            "<b>B.</b> <p>prints 123</p>",
+            "<b>C.</b> <p>prints 3 consecutive, but unpredictable numbers</p>",
+            "<b>D.</b> <p>prints 111</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>prints 123</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52131/isro2015-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>If n has  3, then the statement a[++n]=n++; <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>assigns 3 to a[5]</p>",
+            "<b>B.</b> <p>assigns 4 to a[5]</p>",
+            "<b>C.</b> <p>assigns 4 to a[4]</p>",
+            "<b>D.</b> <p>what is assigned is compiler dependent</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>what is assigned is compiler dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50408/isro2015-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the following program fragment<br><pre><code> if(a &gt; b)  if(b &gt; c)     s1;  else s2;</code></pre>s2 will be executed if <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a &lt;= b</p>",
+            "<b>B.</b> <p>b &gt; c</p>",
+            "<b>C.</b> <p>b &gt;= c and a &lt;= b</p>",
+            "<b>D.</b> <p>a &gt; b and b &lt;= c</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a &gt; b and b &lt;= c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19445/isro2015-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>What is the time complexity for the following C module? Assume that \\(n \\gt 0\\).<br><pre><code>\nint module(int n)\n{\n    if (n == 1)\n        return 1;\n    else\n        return (n + module(n-1));\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{2}\\right)\\)</p>",
+            "<b>D.</b> <p>O(n!)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55082/isro2014-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>The following three 'C' language statements is equivalent to which single statement?<br><pre><code>y=y+1;\nz=x+y;\nx=x+1</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>z = x + y + 2;</p>",
+            "<b>B.</b> <p>z = (x++) + (++y);</p>",
+            "<b>C.</b> <p>z = (x++) + (y++);</p>",
+            "<b>D.</b> <p>z = (x++) + (++y) + 1;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>z = (x++) + (++y);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53362/isro2014-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>How many lines of output does the following C code produce?<br><pre><code> #include &lt; stdio.h &gt;\nfloat i=2.0;\nfloat j=1.0;\nfloat sum = 0.0;\nmain()\n{\n    while (i/j &gt; 0.001)\n    {\n        j+=j;\n        sum=sum+(i/j);\n        printf(\"%f\\n\", sum);\n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52437/isro2014-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>What is the output of the following C program?<br><pre><code> #include &lt; stdio.h &gt;    \nvoid main(void){\n    int shifty;\n    shifty=0570;\n    shifty=shifty&gt;&gt;4;\n    shifty=shifty&lt;&lt;6;\n    printf(\"The value  of shifty is %o \\n\",shifty);  \n}</code></pre><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The value of shifty is 15c0</p>",
+            "<b>B.</b> <p>The value of shifty is 4300</p>",
+            "<b>C.</b> <p>The value of shifty is 5700</p>",
+            "<b>D.</b> <p>The value of shifty is 2700</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The value of shifty is 2700</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15906/isro2014-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Which of the following is true with respect to Reference? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A reference can never be NULL</p>",
+            "<b>B.</b> <p>A reference needs an explicit dereferencing mechanism</p>",
+            "<b>C.</b> <p>A reference can be reassigned after it is established</p>",
+            "<b>D.</b> <p>A reference and pointer are synonymous</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A reference can never be NULL</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17420/isro2014-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>What is the output of the following C program? <br><pre><code> #include &lt; stdio.h &gt;\n#define SQR(x) (x*x)  \n\nint main()\n{\n    int a;\n    int b=4;\n    a=SQR(b+2);\n    printf(\"%d\\n\",a); \n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>36</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52570/isro2014-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>What is the output of the following program?<br><pre><code> Class Test\n{ \n    public static void main (String [] args) \n    {  \n        int x = 0; \n        int y = 0 \n        for (int z = 0; z &lt; 5; z++)\n        { \n            if((++x &gt;2)||(++y  &gt; 2)) \n            {\n                x++;\n            }\n        }\n    System.out.printIn (x+ \"\" + y); \n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 2</p>",
+            "<b>B.</b> <p>8 5</p>",
+            "<b>C.</b> <p>8 3</p>",
+            "<b>D.</b> <p>5 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44842/isro-2013-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Consider the following C code.<br><pre><code> #include &lt; stdio.h &gt; \n#include &lt; math.h &gt; \nvoid main ()  \n{  \n      double pi = 3.1415926535;   \n      int a = 1;  \n      int i;    \n      for (i=0; i &lt; 3; i++) \n            if (a = cos(pi * i/2)) \n                  printf(\"% d\", 1);  \n            else printf(\"%d\", 0); \n}</code></pre> <br>\nWhat would the program print? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>000</p>",
+            "<b>B.</b> <p>010</p>",
+            "<b>C.</b> <p>101</p>",
+            "<b>D.</b> <p>111</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>101</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44833/isro-2013-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Consider the following psuedocode:<br><pre><code>x: integer := 1  \ny: integer := 2   \nprocedure add  \n    x:= x + y    \nprocedure second (P: Procedure)  \n    x: integer := 2      \n    p()   \nprocedure first  \n    y: integer := 3\n    second (add) \nfirst () \nwrite_integer(x) </code></pre> What does it print if the language uses dynamic scoping with deep binding? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43764/isro-2013-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Find the output of the following Java code line <br><pre><code>System.out.printIn(math.floor(-7.4)) </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-7</p>",
+            "<b>B.</b> <p>-8</p>",
+            "<b>C.</b> <p>-7.4</p>",
+            "<b>D.</b> <p>-7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>-8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52870/isro2011-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>What is the output of the following C code?<br><pre><code>#include &lt; stdio.h &gt;\nint main()\n{\n    int index;\n    for(index=1; index&lt;=5; index++)\n    {\n        printf(\"%d\", index);\n        if (index==3)\n            continue;\n    }\n}\n </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1245</p>",
+            "<b>B.</b> <p>12345</p>",
+            "<b>C.</b> <p>12245</p>",
+            "<b>D.</b> <p>12354</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12345</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52841/isro2011-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>In Java, after executing the following code what are the values of x, y and z?<br>\nint x, y=10; z=12;<br>\nx=y++ + z++;<br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x=22, y=10, z=12</p>",
+            "<b>B.</b> <p>x=24, y=10, z=12</p>",
+            "<b>C.</b> <p>x=24, y=11, z=13</p>",
+            "<b>D.</b> <p>x=22, y=11, z=13</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x=22, y=11, z=13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52501/isro2011-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Consider the following pseudocode<br><pre><code>x:=1;\ni:=1;\nwhile (x \\leq 500)\nbegin\nx:=2^x;\ni:=i+1;\nend\n</code></pre> <br>What is the value of i at the end of the pseudocode? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52489/isro2011-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider the following code written in a pass-by-reference language like FORTRAN and these statements about the code. <br><pre><code> subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </code></pre><br>S1: The compiler will  generate code to allocate a temporary nameless cell, initialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2 <br>\nS4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement(s) is correct: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S3</p>",
+            "<b>D.</b> <p>S1 and S5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56-isro2009-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>In C, what is the effect of a negative number in a field width specifier? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the values are displayed right justified</p>",
+            "<b>B.</b> <p>the values are displayed centered</p>",
+            "<b>C.</b> <p>the values are displayed left justified</p>",
+            "<b>D.</b> <p>the values are displayed as negative numbers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the values are displayed left justified</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50148/isro2008-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>What is the value of F(4) using the following procedure:<br><pre><code>function F(K : integer)\ninteger;\nbegin\nif (k&lt;3) then F:=k else F:=F(k-1)*F(k-2)+F(k-3)\nend; </code></pre> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50136/isro2008-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider the following code segment:<br><pre><code> for (int k=0; k&lt;20; k=k+2)\n{\n    if (k % 3 == 1)\n        system.out.print(k+ \" \");\n}</code></pre>\nWhat is printed as a result of executing the code segment? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 16</p>",
+            "<b>B.</b> <p>4 10 16</p>",
+            "<b>C.</b> <p>0 6 12 18</p>",
+            "<b>D.</b> <p>1 4 7 10 13 16 19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4 10 16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49973/isro2008-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider the following C function:<br><pre><code> int f(int n)\n{\n    static int i = 1;\n    if(n &gt;= 5) return n;\n    n = n+i;\n    i++;\n    return f(n);\n}</code></pre> <br>\nThe value returned by f(1) is: <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1028/gate2004-31-isro2008-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Which of the following is an illegal array definition? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Type COLONGE : (LIME, PINE, MUSK, MENTHOL); <br> var a : array [COLONGE] of REAL;</p>",
+            "<b>B.</b> <p>var a : array [REAL] of REAL;</p>",
+            "<b>C.</b> <p>var a : array ['A'..'Z'] of REAL;</p>",
+            "<b>D.</b> <p>var a : array [BOOLEAN] of REAL;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>var a : array [REAL] of REAL;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18461/isro2008-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Which of the following programming language(s) provides garbage collection automatically <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Lisp</p>",
+            "<b>B.</b> <p>C++</p>",
+            "<b>C.</b> <p>Fortan</p>",
+            "<b>D.</b> <p>C</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Lisp</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49623/isro2007-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Study the following program<br><pre><code>//precondition: x&gt;=0\npublic void demo(int x)\n{\n    System.out.print(x % 10); \n    if (x % 10 != 0)\n    {\n        demo(x/10);\n    }\n    System.out.print(x%10);\n} </code></pre> <br>\nWhich of the following is printed as a result of the call demo (1234)? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1441</p>",
+            "<b>B.</b> <p>3443</p>",
+            "<b>C.</b> <p>12344321</p>",
+            "<b>D.</b> <p>43211234</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>43211234</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49496/isro2007-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Consider the following pseudo-code<br><pre><code>x:=1;\ni:=1;\nwhile (x &lt;= 1000)\nbegin\n    x:=2^x;\n    i:=i+1;\nend; </code></pre> <br>\nWhat is the value of i at the end of the pseudo-code? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49486/isro2007-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

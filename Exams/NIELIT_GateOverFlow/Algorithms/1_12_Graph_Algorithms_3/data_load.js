@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Graph Algorithms",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Graph Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336333\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a graph with \\( n \\) vertices and \\( m \\) edges.What is the tightest upper bound on the running time of Depth First Search of&nbsp;\\( G \\), when \\( G \\) is represented using adjacency matrix?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(m+n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( O(mn) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336333/nielit-2017-july-scientist-b-cs-section-b-42\" target=\"_blank\">https://gateoverflow.in/336333/nielit-2017-july-scientist-b-cs-section-b-42</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336891\"></a><div itemprop=\"text\"><p>Which of the following algorithm solve the all-pair shortest path problem?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dijakstra’s algorithm</p>",
+            "<p>Floyd’s algorithm</p>",
+            "<p>Prim’s algorithm</p>",
+            "<p>Warshall’s algorithm</p>"
+          ],
+          "correct_answer": "<p>Warshall’s algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336891/nielit-2017-oct-scientific-assistant-a-cs-section-b-29\" target=\"_blank\">https://gateoverflow.in/336891/nielit-2017-oct-scientific-assistant-a-cs-section-b-29</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351381\"></a><div itemprop=\"text\"><p>Which of the following algorithms can be used to most efficiently find whether a cycle is present in a given graph?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Prim’s Minimum Spanning Tree Algorithm</p>",
+            "<p>Breadth First Search</p>",
+            "<p>Depth First Search</p>",
+            "<p>Kruskal’s Minimum Spanning Tree Algorithm</p>"
+          ],
+          "correct_answer": "<p>Depth First Search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351381/nielit-scientific-assistant-a-2020-november-79\" target=\"_blank\">https://gateoverflow.in/351381/nielit-scientific-assistant-a-2020-november-79</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Asymptotic Notations",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Asymptotic Notations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182068\"></a><div itemprop=\"text\"><p>Consider the recurrence equation</p>\n\n<p>\\( T(n) =\\begin{cases}<br>\n2T(n-1), &amp; \\text{if }n&gt;0 \\\\<br>\n1, &amp; \\text{otherwise}<br>\n\\end{cases} \\)</p>\n\n<p>Then \\( T(n) \\) is (in \\( big\\, O \\) order)</p>\n\n</div><br><br><b>Algorithms: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(2^n) \\)</p>",
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(2^n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182068/isro-dec2017-18\" target=\"_blank\">https://gateoverflow.in/182068/isro-dec2017-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182069\"></a><div itemprop=\"text\"><pre class=\"prettyprint lang-c_cpp\">//Consider the program\nvoid function(int n)\n{\n    int i,j,count=0;\n    for(i=n/2;i&lt;=n;i++)\n       for(j=1;j&lt;=n;j=j*2)\n          count++;\n}</pre>\n\n<p>The complexity of the program is</p>\n\n</div><br><br><b>Algorithms: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( O(n^2 \\log n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182069/isro-dec2017-19\" target=\"_blank\">https://gateoverflow.in/182069/isro-dec2017-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

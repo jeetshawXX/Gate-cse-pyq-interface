@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Minimization",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Minimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336493\"></a><div itemprop=\"text\"><p><img alt=\"\" height=\"141\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7315599817192046143\" width=\"257\"></p>\n\n<p>What will be the equation of the given K-map?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A’B’D’+C’D+AB’C’ \\)</p>",
+            "<p>\\( B’CD’+AB’C’+A’C’ \\)</p>",
+            "<p>\\( B’D’+C’D \\)</p>",
+            "<p>\\( C’D+B’CD’ \\)</p>"
+          ],
+          "correct_answer": "<p>\\( B’D’+C’D \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336493/nielit-2016-dec-scientist-b-cs-section-b-45\" target=\"_blank\">https://gateoverflow.in/336493/nielit-2016-dec-scientist-b-cs-section-b-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Digital Signal Processing - Frequency Spectrum",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Frequency Spectrum",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373729\"></a><div itemprop=\"text\"><p>A \\( 1 \\; \\text{MHz} \\) sinusoidal carrier is amplitude modulated by a symmetrical square wave of period \\( 100 \\; \\mu \\text{sec}. \\) Which of the following frequencies will not be present in the modulated signal ?</p>\n\n</div><br><br><b>Digital Signal Processing: NIELIT 2022 April Scientist B | Section B | Question: 109</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 990 \\; \\text{MHz} \\)</p>",
+            "<p>\\( 1010 \\; \\text{MHz} \\)</p>",
+            "<p>\\( 1020 \\; \\text{MHz} \\)</p>",
+            "<p>\\( 1030 \\; \\text{MHz} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1020 \\; \\text{MHz} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373729/nielit-2022-april-scientist-b-section-b-question-109\" target=\"_blank\">https://gateoverflow.in/373729/nielit-2022-april-scientist-b-section-b-question-109</a></p>"
+        }
+      ]
+    }
+  ]
+}

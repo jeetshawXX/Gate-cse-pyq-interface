@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - Convergence",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Convergence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"26402\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol>\n\t<li>\\( b_{1}= \\sqrt{2} \\), series with each \\( b_{i}= \\sqrt{b_{i-1}+ \\sqrt{2}}, i \\geq 2 \\), converges.</li>\n\t<li>\\( \\sum ^{\\infty}&nbsp;_{i=1}&nbsp;\\frac{\\cos (i)}{i^{2}} \\) converges.</li>\n\t<li>\\( \\sum ^{\\infty}&nbsp;_{i=0}&nbsp;b_{i} \\) converges if \\( \\lim_{i \\rightarrow \\infty} \\frac{|b_{i+1|}}{|b_{i}|} &lt; 1 \\)</li>\n</ol>\n\n<p><br>\nWhich of the following is TRUE?</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2014 | Part A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statements \\( (1) \\) and \\( (2) \\) but not \\( (3) \\).</p>",
+            "<p>Statements \\( (2) \\) and \\( (3) \\) but not \\( (1) \\).</p>",
+            "<p>Statements \\( (1) \\) and \\( (3) \\) but not \\( (2) \\).</p>",
+            "<p>All the three statements.</p>",
+            "<p>None of the three statements.</p>"
+          ],
+          "correct_answer": "<p>All the three statements.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/26402/tifr-cse-2014-part-a-question-15\" target=\"_blank\">https://gateoverflow.in/26402/tifr-cse-2014-part-a-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

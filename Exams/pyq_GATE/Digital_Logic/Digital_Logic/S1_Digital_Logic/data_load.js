@@ -1,0 +1,237 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following Boolean algebraic equation(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{A} B C + A \\bar{B} \\bar{C} + \\bar{A} \\bar{B} \\bar{C} + A \\bar{B} C + ABC = B C + \\bar{B} \\bar{C} + \\bar{A} \\bar{B} \\)</p>",
+            "<b>B.</b> <p>\\(A B + \\bar{A} C + B C = A B + \\bar{A} C \\)</p>",
+            "<b>C.</b> <p>\\((A + C)(\\bar{A} + B) = A B + \\bar{A} C \\)</p>",
+            "<b>D.</b> <p>\\( \\overline{(A + \\bar{B} + \\bar{D})(C + D)(\\bar{A} + C + D)(A + B + \\bar{D})} = \\bar{A} D + \\bar{C} \\bar{D} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(A B + \\bar{A} C + B C = A B + \\bar{A} C \\)</p>",
+            "<b>C.</b> <p>\\((A + C)(\\bar{A} + B) = A B + \\bar{A} C \\)</p>",
+            "<b>D.</b> <p>\\( \\overline{(A + \\bar{B} + \\bar{D})(C + D)(\\bar{A} + C + D)(A + B + \\bar{D})} = \\bar{A} D + \\bar{C} \\bar{D} \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460795/gate-cse-2025-set-2-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Three floating point numbers \\(X, Y, Z \\) are stored in three registers \\(RX, RY, RZ \\), respectively in IEEE 754 single precision format as given below in hexadecimal:  <br><br>\n\\( RX = 0\\times C1100000, \\quad RY = 0\\times 40C00000, \\quad RZ = 0 \\times 41400000 \\)<br><br>\nWhich of the following option(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(4(X + Y) + Z = 0 \\)</p>",
+            "<b>B.</b> <p>\\(2Y - Z = 0 \\)</p>",
+            "<b>C.</b> <p>\\(4X + 3Z = 0 \\)</p>",
+            "<b>D.</b> <p>\\(X + Y + Z = 0 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(4(X + Y) + Z = 0 \\)</p>",
+            "<b>B.</b> <p>\\(2Y - Z = 0 \\)</p>",
+            "<b>C.</b> <p>\\(4X + 3Z = 0 \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460796/gate-cse-2025-set-2-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Given the following Karnaugh Map for a Boolean function \\(F(w, x, y, z) \\):   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q33_f20ca4cf.webp\"><br>\nWhich one or more of the following Boolean expression(s) represent(s) \\(F \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y\\bar{z} + w \\bar{x} y \\bar{z}  + xz \\)</p>",
+            "<b>B.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y \\bar{z} + w \\bar{x} yz + xz \\)</p>",
+            "<b>C.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x}\\bar{y} \\bar{z} + w \\bar{x} \\bar{y}z +xz \\)</p>",
+            "<b>D.</b> <p>\\(\\bar{x}\\bar{z} + xz \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\bar{w} \\bar{x} \\bar{y} \\bar{z} + w \\bar{x} \\bar{y} \\bar{z} + \\bar{w} \\bar{x} y\\bar{z} + w \\bar{x} y \\bar{z}  + xz \\)</p>",
+            "<b>D.</b> <p>\\(\\bar{x}\\bar{z} + xz \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460802/gate-cse-2025-set-2-question-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64 microseconds, then the frequency of the ripple counter in kHz is ________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "250",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460811/gate-cse-2025-set-2-question-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following two signed 2's complement numbers (multiplicand \\(M \\) and multiplier \\(Q \\)) are being multiplied using Booth's algorithm:\n<br><br>\\(\nM: 1100 \\, 1101 \\, 1110 \\, 1101 \\quad \\text{and} \\quad Q: 1010 \\, 0100 \\, 1010 \\, 1010\n\\)<br><br>\nThe total number of addition and subtraction operations to be performed is ________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460813/gate-cse-2025-set-2-question-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following logic circuit diagram.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q21_b743d471.webp\"><br>\nWhich is/are the CORRECT option(s) for the output function \\(F \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{XY} \\)</p>",
+            "<b>B.</b> <p>\\(\\overline{X} + \\overline{Y} + X \\overline{Y} \\)</p>",
+            "<b>C.</b> <p>\\(\\overline{XY} + \\overline{X} + X \\overline{Y} \\)</p>",
+            "<b>D.</b> <p>\\(X + \\overline{Y} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\overline{XY} \\)</p>",
+            "<b>B.</b> <p>\\(\\overline{X} + \\overline{Y} + X \\overline{Y} \\)</p>",
+            "<b>C.</b> <p>\\(\\overline{XY} + \\overline{X} + X \\overline{Y} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460814/gate-cse-2025-set-2-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the given sequential circuit designed using D-Flip-flops. The circuit is initialized with some value (initial state). The number of distinct states the circuit will go through before returning back to the initial state is _________. (Answer in integer)<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q50_6d9fa3b1.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460030/gate-cse-2025-set-1-question-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following four-variable Boolean function in sum-of-product form<br><br> \\(F(b_3, b_2, b_1, b_0) = \\sum(0, 2, 4, 8, 10, 11, 12)\\).\n<br><br>\nWhere the value of the function is computed by considering \\(b_3b_2b_1b_0\\) as a 4-bit binary number, where \\(b_3\\) denotes the most significant bit and \\(b_0\\) denotes the least significant bit. Note that there are no don't care terms. Which ONE of the following options is the CORRECT minimized Boolean expression for \\(F\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} + b_1 \\bar{b_2} b_3 \\)</p>",
+            "<b>B.</b> <p>\\( \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} \\)</p>",
+            "<b>C.</b> <p>\\( \\bar{b_2} \\bar{b_0} + b_1 b_2 b_3 \\)</p>",
+            "<b>D.</b> <p>\\( \\bar{b_0} \\bar{b_2} + \\bar{b_3} \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\( \\bar{b_1} \\bar{b_0} + \\bar{b_2} \\bar{b_0} + b_1 \\bar{b_2} b_3 \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460048/gate-cse-2025-set-1-question-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The number \\(-6\\) can be represented as 1010 in 4-bit 2's complement representation. Which of the following is/are CORRECT 2's complement representation(s) of \\(-6\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>1000 1010 in 8-bits</p>",
+            "<b>B.</b> <p>1111 1010 in 8-bits</p>",
+            "<b>C.</b> <p>1000 0000 0000 1010 in 16-bits</p>",
+            "<b>D.</b> <p>1111 1111 1111 1010 in 16-bits</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>1111 1010 in 8-bits</p>",
+            "<b>D.</b> <p>1111 1111 1111 1010 in 16-bits</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460065/gate-cse-2025-set-1-question-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let \\(X\\) be a 3-variable Boolean function that produces output as '1' when at least two of the input variables are '1'. Which of the following statement(s) is/are CORRECT, where \\(a, b, c, d, e\\) are Boolean variables? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(X(a, b, X(c, d, e)) = X(X(a, b, c), d, e)\\)</p>",
+            "<b>B.</b> <p>\\(X(a, b, X(a, b, c)) = X(a, b, c)\\)</p>",
+            "<b>C.</b> <p>\\(X(a, b, X(a, c, d)) = (X(a, b, a) \\text{ AND } X(c, d, c))\\)</p>",
+            "<b>D.</b> <p>\\(X(a, b, c) = X(a, X(a, b, c), X(a, c, c))\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(X(a, b, X(a, b, c)) = X(a, b, c)\\)</p>",
+            "<b>D.</b> <p>\\(X(a, b, c) = X(a, X(a, b, c), X(a, c, c))\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460066/gate-cse-2025-set-1-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider 4-variable functions \\( f 1, f 2, f 3, f 4 \\) expressed in sum-of-minterms form as given below.\n<br> \\(\n\\begin{aligned}\n&amp; f 1=\\sum(0,2,3,5,7,8,11,13) \\\\\n&amp; f 2=\\sum(1,3,5,7,11,13,15) \\\\\n&amp; f 3=\\sum(0,1,4,11) \\\\\n&amp; f 4=\\sum(0,2,6,13)\n\\end{aligned}\n\\) <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q40_e603cd6e.webp\"><br>\nWith respect to the circuit given above, which of the following options is/are CORRECT? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\boldsymbol{Y}=\\sum(0,1,2,11,13)\\)</p>",
+            "<b>B.</b> <p>\\(\\boldsymbol{Y}=\\Pi(3,4,5,6,7,8,9,10,12,14,15)\\)</p>",
+            "<b>C.</b> <p>\\(\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)\\)</p>",
+            "<b>D.</b> <p>\\(\\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422857/gate-cse-2024-set-2-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 in radix-10</p>",
+            "<b>B.</b> <p>100 in radix-8</p>",
+            "<b>C.</b> <p>50 in radix-16</p>",
+            "<b>D.</b> <p>121 in radix-7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>64 in radix-10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422858/gate-cse-2024-set-2-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For a Boolean variable \\(x\\), which of the following statements is/are FALSE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x.1 = x\\)</p>",
+            "<b>B.</b> <p>\\(x+1 = x\\)</p>",
+            "<b>C.</b> <p>\\(x.x= 0\\)</p>",
+            "<b>D.</b> <p>\\(x+\\bar{x}= 1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x+1 = x\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422877/gate-cse-2024-set-2-question-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The format of a single-precision floating-point number as per the\nIEEE 754 standard is:    <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q4_f68c322e.webp\"><br>Choose the largest floating-point number among the following options.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q4a_b11456d2.webp\"><br> <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422893/gate-cse-2024-set-2-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. \\( X 1 \\) and \\( X 2 \\) are inputs of \\( M 1 \\). \\( X 3 \\) and \\( X 4 \\) are inputs of \\( M 2 \\). \\( A, B \\), and \\( C \\) are select lines of \\( M 1, M 2 \\), and \\( M 3 \\), respectively.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q54_e1cd6ee8.webp\"><br>For an instance of inputs \\( X \\mathbf{X l}=\\mathbf{X} \\mathbf{2}=\\mathbf{1}, \\mathrm{X} 3=\\mathbf{0} \\), and \\( \\mathrm{X} 4=\\mathbf{0} \\), the number of combinations of \\( A, B, C \\) that give the output \\( Y=1 \\) is _____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422788/gate-cse-2024-set-1-question-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

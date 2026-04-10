@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Distance Vector Routing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Distance Vector Routing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128665\"></a><div itemprop=\"text\"><p>Match with the suitable one :</p>\n\n<p>\\( \\begin{array} {clcl}&nbsp;&amp; \\textbf{List-1} &amp; &amp; \\textbf{List-2} \\\\ &nbsp;\\text{(A)} &amp; \\text{Multicast group membership&nbsp;}&amp; \\text{1.} &amp; \\text{Distance Vector routing} \\\\ &nbsp; \\text{(B)} &amp; \\text{Interior gateway protocol}&amp; \\text{2.} &amp; \\text{IGMP} \\\\ &nbsp; \\text{(C)} &amp; \\text{Exterior gateway protocol}&amp; \\text{3.} &amp; \\text{OSPF} \\\\ &nbsp;\\text{(D)} &amp; \\text{RIP}&amp; \\text{4.} &amp; \\text{BGP} \\\\ &nbsp; \\end{array} \\)</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A-2, B-3, C-4, D-1} \\)</p>",
+            "<p>\\( \\text{A-2, B-4, C-3, D-1} \\)</p>",
+            "<p>\\( \\text{A-3, B-4, C-1, D-2} \\)</p>",
+            "<p>\\( \\text{A-3, B-1, C-4, D-2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A-2, B-3, C-4, D-1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128665/isro-cse-2017-question-34\" target=\"_blank\">https://gateoverflow.in/128665/isro-cse-2017-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

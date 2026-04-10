@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - K Map",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "K Map",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48039\"></a><div itemprop=\"text\"><p>The switching expression corresponding to \\( f(\\text{A, B, C, D}) = \\Sigma(1, 4, 5, 9, 11, 12) \\) is</p></div><br><br><b>Digital Logic: ISRO CSE 2009 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>BC'D' + A'C'D + AB'D</p>",
+            "<p>ABC' + ACD + B'C'D</p>",
+            "<p>ACD' + A'BC' + AC'D'</p>",
+            "<p>A'BD + ACD' + BCD'</p>"
+          ],
+          "correct_answer": "<p>BC'D' + A'C'D + AB'D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48039/isro-cse-2009-question-19\" target=\"_blank\">https://gateoverflow.in/48039/isro-cse-2009-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

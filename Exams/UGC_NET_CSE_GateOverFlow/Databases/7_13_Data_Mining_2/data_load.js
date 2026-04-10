@@ -1,0 +1,36 @@
+window.__examLoadCallback({
+  "title": "Databases - Data Mining",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Data Mining",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152942\"></a><div itemprop=\"text\">Analysis of large database to retrieve information is called<br>\n<br>\n(A) OLTP<br>\n<br>\n(B) OLAP<br>\n<br>\n(C) OLDP<br>\n<br>\n(D) OLPP</div><br><br><b>Databases: UGC NET CSE | December 2009 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152942/ugc-net-cse-december-2009-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/152942/ugc-net-cse-december-2009-part-2-question-47</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335116\"></a><div itemprop=\"text\"><p>__________ refers loosely to the process of semi-automatically analyzing large databases to find useful patterns.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 2 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Datamining</p>",
+            "<p>Data warehousing</p>",
+            "<p>DBMS</p>",
+            "<p>Data mirroring</p>"
+          ],
+          "correct_answer": "<p>Datamining</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335116/ugc-net-cse-january-2017-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/335116/ugc-net-cse-january-2017-part-2-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+});

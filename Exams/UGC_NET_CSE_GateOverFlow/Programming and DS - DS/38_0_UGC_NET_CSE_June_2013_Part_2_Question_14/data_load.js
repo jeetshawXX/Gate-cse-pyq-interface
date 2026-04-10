@@ -1,0 +1,216 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - DS - UGC NET CSE  June 2013  Part 2  Question",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "UGC NET CSE  June 2013  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50690\"></a><div itemprop=\"text\">\n<p>The time complexity to build a heap with a list of n numbers is</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2013 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>O(log n)</p>",
+            "<p>O(n)</p>",
+            "<p>O(n logn)</p>",
+            "<p>O(n\\( ^2 \\))</p>"
+          ],
+          "correct_answer": "<p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50690/ugc-net-cse-june-2013-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/50690/ugc-net-cse-june-2013-part-2-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"154132\"></a><div itemprop=\"text\"><p>A binary tree is said to have heap property if the elements along any path :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2009 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>from leaf to root are non-increasing&nbsp; &nbsp;&nbsp;</p>",
+            "<p>from leaf to root are non-decreasing&nbsp; &nbsp;&nbsp;</p>",
+            "<p>from root to leaf are non-decreasing&nbsp;&nbsp;&nbsp;</p>",
+            "<p>from root to leaf are non-increasing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154132/ugc-net-cse-june-2009-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/154132/ugc-net-cse-june-2009-part-2-question-28</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"154365\"></a><div itemprop=\"text\"><p>In a B tree of order m with p nodes the average number of splits is at most :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2009 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1/(⌈m/2⌉−1)&nbsp; &nbsp; &nbsp;</p>",
+            "<p>⌈m/2⌉−1&nbsp; &nbsp; &nbsp;</p>",
+            "<p>1/(m/2)&nbsp; &nbsp; &nbsp;</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154365/ugc-net-cse-june-2009-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/154365/ugc-net-cse-june-2009-part-2-question-24</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335373\"></a><div itemprop=\"text\"><p>What operation is supported in constant time by the doubly linked list, but not by the singly linked list ?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2004 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Advance</p>",
+            "<p>Backup</p>",
+            "<p>First</p>",
+            "<p>Retrieve</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335373/ugc-net-cse-december-2004-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/335373/ugc-net-cse-december-2004-part-2-question-24</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"335375\"></a><div itemprop=\"text\"><p>Suppose we are implementing quadratic probing with a Hash function, Hash \\( (y)=X \\) mode \\( 100 \\). If an element with key \\( 4594 \\) is inserted and the first three locations attempted are already occupied, then the next cell that will be tried is :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2004 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 97 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335375/ugc-net-cse-december-2004-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/335375/ugc-net-cse-december-2004-part-2-question-22</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"335376\"></a><div itemprop=\"text\"><p>What item is at the root after the following sequence of insertions into an empty splay tree :</p>\n\n<p>\\( 1, 11, 3, 10, 8, 4, 6, 5, 7, 9, 2, ? \\)</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2004 | Part 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335376/ugc-net-cse-december-2004-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/335376/ugc-net-cse-december-2004-part-2-question-21</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"335596\"></a><div itemprop=\"text\"><p>Which of the following is not collision resolution technique?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2004 | Part 2 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Hash addressing</p>",
+            "<p>Chaining</p>",
+            "<p>Both (A) and (B)</p>",
+            "<p>Indexing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335596/ugc-net-cse-december-2004-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/335596/ugc-net-cse-december-2004-part-2-question-32</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"335646\"></a><div itemprop=\"text\"><p>Which one of the following is a physical data structure ?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2006 | Part 2 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Array</p>",
+            "<p>Linked lists</p>",
+            "<p>Stacks</p>",
+            "<p>Tables</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335646/ugc-net-cse-december-2006-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/335646/ugc-net-cse-december-2006-part-2-question-25</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"335647\"></a><div itemprop=\"text\"><p>The equivalent postfix expression for \\( d{\\large /}(e+f)+b*c \\) :</p>\n\n<ol>\n\t<li>\\( defbc/++* \\)</li>\n\t<li>\\( def+/bc+* \\)</li>\n\t<li>\\( def+/bc*+ \\)</li>\n\t<li>None of these</li>\n</ol></div><br><br><b>Data Structures: UGC NET CSE | December 2006 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335647/ugc-net-cse-december-2006-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/335647/ugc-net-cse-december-2006-part-2-question-24</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"335660\"></a><div itemprop=\"text\"><p>When a function is recursively called, all automatic variables :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2006 | Part 2 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>are initialized during each execution of the function</p>",
+            "<p>are retained from the last execution</p>",
+            "<p>are maintained in a stack</p>",
+            "<p>are ignored</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335660/ugc-net-cse-december-2006-part-2-question-11\" target=\"_blank\">https://gateoverflow.in/335660/ugc-net-cse-december-2006-part-2-question-11</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"335761\"></a><div itemprop=\"text\"><p>The height of a binary tree with \\( n \\) nodes, in the worst case is :</p></div><br><br><b>Data Structures: UGC NET CSE | December 2007 | Part 2 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( O(log n) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( \\Omega(n\\log&nbsp;n) \\)</p>",
+            "<p>\\( \\Omega(n^2) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335761/ugc-net-cse-december-2007-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/335761/ugc-net-cse-december-2007-part-2-question-23</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"335762\"></a><div itemprop=\"text\"><p>Which of the following data structure is used to implement recursion ?</p></div><br><br><b>Data Structures: UGC NET CSE | December 2007 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Arrays</p>",
+            "<p>Stacks</p>",
+            "<p>Queues</p>",
+            "<p>Linked lists</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335762/ugc-net-cse-december-2007-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/335762/ugc-net-cse-december-2007-part-2-question-22</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"335763\"></a><div itemprop=\"text\"><p>Consider a rooted tree in which every node has at least three children. What is the minimum number of nodes at level i (i &gt; \\( 0 \\)) of the tree ? Assume that the root is at level \\( 0 \\):</p></div><br><br><b>Data Structures: UGC NET CSE | December 2007 | Part 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3^i \\)</p>",
+            "<p>\\( 3i \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 3i+1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335763/ugc-net-cse-december-2007-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/335763/ugc-net-cse-december-2007-part-2-question-21</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"335772\"></a><div itemprop=\"text\"><p>Consider the following linked list :</p><p><img alt=\"\" width=\"500\" height=\"198\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7601162448939616119\"></p><p>Which of the following piece of code will insert the node pointed to by \\( q \\) at the end of the list ?</p></div><br><br><b>Data Structures: UGC NET CSE | December 2007 | Part 2 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{for (p=list; p !=NULL; p=p → next);}\\\\&nbsp;p=q; \\)</p>",
+            "<p>\\( \\text{for (p=list; p !=NULL; p=p → next);}\\\\ \\text{p→next=q;} \\)</p>",
+            "<p>\\( \\text{for (p=list; p→next !=NULL; p=p → next);}\\\\&nbsp;p=q; \\)</p>",
+            "<p>\\( \\text{for (p=list; p→next !=NULL; p=p → next);}\\\\&nbsp;p→next=q; \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335772/ugc-net-cse-december-2007-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/335772/ugc-net-cse-december-2007-part-2-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

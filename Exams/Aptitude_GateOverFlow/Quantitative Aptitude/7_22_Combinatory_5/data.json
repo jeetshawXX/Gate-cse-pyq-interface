@@ -1,0 +1,66 @@
+{
+  "title": "Quantitative Aptitude - Combinatory",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Combinatory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4374\"></a><div itemprop=\"text\">\\( N \\) is a \\( 4 \\) digit number If the left most digit is removed the resulting number is \\(  \\frac{1}{9}{th} \\ of \\ N \\) How many such numbers are possible?</div><br><br><b>Quantitative Aptitude: Number System</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4374/number-system\" target=\"_blank\">https://aptitude.gateoverflow.in/4374/number-system</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4512\"></a><div itemprop=\"text\">Find the number of ways of inviting atleast one among 6 people to a party?</div><br><br><b>Quantitative Aptitude: Number of ways of inviting atleast one people</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4512/number-of-ways-of-inviting-atleast-one-people\" target=\"_blank\">https://aptitude.gateoverflow.in/4512/number-of-ways-of-inviting-atleast-one-people</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2511\"></a><div itemprop=\"text\"><p>Out of 100 students, 10 students used to drink milk(M), coffee(C) and Tea(T); 20M and C; 30C and T; 25M and T; 12M only; 5C only and 8T only. The number of students who did not drink any of this is</p>\n\n</div><br><br><b>Quantitative Aptitude: Out of 100 students, 10 students used to drink milk(M), coffee(C) and Tea(T); 20M and C; 30C and T; 25M and T; 12M only; 5C only and 8T only. The number of students who did not drink any of this is</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>18</p>",
+            "<p>24</p>",
+            "<p>20</p>",
+            "<p>16</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2511/students-students-drink-coffee-number-students-drink-this\" target=\"_blank\">https://aptitude.gateoverflow.in/2511/students-students-drink-coffee-number-students-drink-this</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4513\"></a><div itemprop=\"text\">The number of rectangles that can be formed on a 8x8 chessboard</div><br><br><b>Quantitative Aptitude: number of rectangles</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4513/number-of-rectangles\" target=\"_blank\">https://aptitude.gateoverflow.in/4513/number-of-rectangles</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4518\"></a><div itemprop=\"text\">The number of squares that can be formed from 8x8 chess board</div><br><br><b>Quantitative Aptitude: number of squares</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4518/number-of-squares\" target=\"_blank\">https://aptitude.gateoverflow.in/4518/number-of-squares</a></p>"
+        }
+      ]
+    }
+  ]
+}

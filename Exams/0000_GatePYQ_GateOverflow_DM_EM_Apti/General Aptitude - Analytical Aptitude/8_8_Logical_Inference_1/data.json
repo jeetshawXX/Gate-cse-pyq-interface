@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Logical Inference",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Logical Inference",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460445\"></a><div itemprop=\"text\"><p>​​​​​Based only on the conversation below, identify the logically correct inference:<br>\"Even if I had known that you were in the hospital, I would not have gone there to see you\", Ramya told Josephine.</p></div><br><br><b>GATE CSE 2025 | Set 2 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ramya knew that Josephine was in the hospital.</p>",
+            "<p>Ramya did not know that Josephine was in the hospital.</p>",
+            "<p>Ramya and Josephine were once close friends; but now, they are not.</p>",
+            "<p>Josephine was in the hospital due to an injury to her leg.</p>"
+          ],
+          "correct_answer": "<p>Ramya did not know that Josephine was in the hospital.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460445/gate-cse-2025-set-2-ga-question-6\" target=\"_blank\">https://gateoverflow.in/460445/gate-cse-2025-set-2-ga-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Operating System - Resource Allocation",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Resource Allocation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336482\"></a><div itemprop=\"text\"><p>Consider a system with \\( m \\) resources of same type being shared by \\( n \\) processes. Resources can be requested and released by processes only one at a time. The system is deadlock free if and only if</p>\n\n</div><br><br><b>Operating System: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The sum of all max needs is \\( &lt; m+n \\)</p>",
+            "<p>The sum of all max needs is \\( &gt;m+n \\)</p>",
+            "<p>Both of above</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "<p>The sum of all max needs is \\( &lt; m+n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336482/nielit-2016-dec-scientist-b-cs-section-b-56\" target=\"_blank\">https://gateoverflow.in/336482/nielit-2016-dec-scientist-b-cs-section-b-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336292\"></a><div itemprop=\"text\"><p>A system has \\( 3 \\) processes sharing \\( 4 \\) resources. If each process needs a maximum of \\( 2 \\) units then, deadlock</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Can never occur</p>",
+            "<p>Has to occur</p>",
+            "<p>May occur</p>",
+            "<p>None of the options&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Can never occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336292/nielit-2017-dec-scientist-b-section-b-21\" target=\"_blank\">https://gateoverflow.in/336292/nielit-2017-dec-scientist-b-section-b-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336339\"></a><div itemprop=\"text\"><p>Consider the following snapshot of a system running \\( n \\) processes. Process \\( i \\) is&nbsp;&nbsp;holding \\( X_i \\)&nbsp;instances of a resource \\( R \\),&nbsp;\\(  1\\leq&nbsp;i\\leq n \\). Currently, all instances of \\( R \\) are occupied. Further, for all \\( i \\), process \\( i \\) has placed a request for an additional \\( Y_i \\)&nbsp;instances while holding the \\( X_i \\)&nbsp;instances it already has. There are exactly two processes \\( p \\) and \\( q \\) and such that \\( Y_p=Y_q=0 \\).&nbsp;Which one of the following can serve as&nbsp;a necessary condition to guarantee that the system is not approaching a deadlock?</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\min(X_{p},X_{q})&lt;\\max(Y_i)\\:\\text{where}\\:i!=p\\:\\text{and}\\:i!=q \\)</p>",
+            "<p>\\(  X_{p}+X_{q}\\geq \\min(Y_i)\\:\\text{where}\\:i!=p\\:\\text{and}\\:i!=q \\)</p>",
+            "<p>\\(  \\max(X_{p},X_{q})&gt;1 \\)</p>",
+            "<p>\\(  \\min(X_{p},X_{q})&gt;1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  X_{p}+X_{q}\\geq \\min(Y_i)\\:\\text{where}\\:i!=p\\:\\text{and}\\:i!=q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336339/nielit-2017-july-scientist-b-cs-section-b-36\" target=\"_blank\">https://gateoverflow.in/336339/nielit-2017-july-scientist-b-cs-section-b-36</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336338\"></a><div itemprop=\"text\"><p>A system has \\( n \\) resources \\( R_0, \\dots,R_{n-1} \\), and \\( k \\) processes \\( P_0, \\dots, P_{k-1} \\). The implementation of the resource&nbsp;request logic of each process \\( P_i \\) is as follows:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">if(i%2==0){\n    if(i&lt;n) request Ri;\n    if(i+2&lt;n) request Ri+2;\n}\nelse{\n    if(i&lt;n) request Rn−i;\n    if(i+2&lt;n) request Rn−i−2;\n}</pre>\n\n<p>In which of the following situations is a deadlock possible?</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n=40,\\: k=26 \\)</p>",
+            "<p>\\( n=21,\\:k=12 \\)</p>",
+            "<p>\\( n=20,\\:k=10 \\)</p>",
+            "<p>\\( n=41,\\:k=19 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n=21,\\:k=12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336338/nielit-2017-july-scientist-b-cs-section-b-37\" target=\"_blank\">https://gateoverflow.in/336338/nielit-2017-july-scientist-b-cs-section-b-37</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336337\"></a><div itemprop=\"text\"><p>A system contains three programs and each requires three tape units for its operation. The minimum number of tape units which the system must have such that deadlocks never arise is _________.</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336337/nielit-2017-july-scientist-b-cs-section-b-38\" target=\"_blank\">https://gateoverflow.in/336337/nielit-2017-july-scientist-b-cs-section-b-38</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336970\"></a><div itemprop=\"text\"><p>Consider a system having \\( ’m’ \\) resources of the same type. These resources are shared by \\( 3 \\) processes \\( A,B,C; \\) which have peak time demands of \\( 3,4,6 \\) respectively. The minimum value of \\( ’m’ \\) that ensures that deadlock will never occur is</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336970/nielit-2017-oct-scientific-assistant-a-it-section-b-15\" target=\"_blank\">https://gateoverflow.in/336970/nielit-2017-oct-scientific-assistant-a-it-section-b-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

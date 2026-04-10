@@ -1,0 +1,56 @@
+{
+  "title": "Theory of Computation - Closure Property",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Closure Property",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57671\"></a><div itemprop=\"text\"><p>Which is not the correct statement?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | December 2012 | Part 3 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The class of regular sets is closed under homomorphisms</p>",
+            "<p>The class of regular sets is not closed under inverse homomorphisms</p>",
+            "<p>The class of regular sets is closed under quotient</p>",
+            "<p>The class of regular sets is closed under substitution</p>"
+          ],
+          "correct_answer": "<p>The class of regular sets is not closed under inverse homomorphisms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57671/ugc-net-cse-december-2012-part-3-question-38\" target=\"_blank\">https://gateoverflow.in/57671/ugc-net-cse-december-2012-part-3-question-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335217\"></a><div itemprop=\"text\"><p>Given the following statements:</p><ol start=\"1\" style=\"list-style-type:lower-roman\"><li>A class of languages that is closed under union and complementation has to be closed under intersection</li><li>A class of languages that is closed under union and intersection has to be closed under complementation</li></ol><p>Which of the following options is correct?</p></div><br><br><b>Theory of Computation: UGC NET CSE | January 2017 | Part 3 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both (i) and (ii) are&nbsp; false</p>",
+            "<p>Both (i) and (ii) are true</p>",
+            "<p>(i) is true, (ii) is false</p>",
+            "<p>(i) is false, (ii) is true</p>"
+          ],
+          "correct_answer": "<p>(i) is true, (ii) is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335217/ugc-net-cse-january-2017-part-3-question-21\" target=\"_blank\">https://gateoverflow.in/335217/ugc-net-cse-january-2017-part-3-question-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55885\"></a><div itemprop=\"text\">\n<p>&nbsp;Consider the following statements:</p>\n\n<ol style=\"list-style-type: upper-roman;\"><li>Recursive languages are closed under complementation</li>\n\t<li>Recursively enumerable languages are closed under union</li>\n\t<li>Recursively enumerable languages are closed under complementation</li>\n</ol><p>Which of the above statements are true?</p>\n\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | June 2012 | Part 2 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>I and II</p>",
+            "<p>I and III</p>",
+            "<p>II and III</p>"
+          ],
+          "correct_answer": "<p>I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55885/ugc-net-cse-june-2012-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/55885/ugc-net-cse-june-2012-part-2-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+}

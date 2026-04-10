@@ -1,0 +1,41 @@
+{
+  "title": "Algorithms - Algorithm Design",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Algorithm Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435349\"></a><div itemprop=\"text\"><p>The asymptotic complexity of 4 functions \\( f_{1}, f_{2}, f_{3}, f_{4} \\) are</p><ol><li>\\( f_{1}(n)=2^{n} \\)</li><li>\\( f_{2}(n)=n^{(3 / 2)} \\)</li><li>\\( f_{3}(n)=n \\log n \\)</li><li>\\( f_{4}(n)=n^{(\\log n)} \\)</li></ol><p><br>Arrange them in increasing order of,&nbsp; complexity</p></div><br><br><b>Algorithms: ISRO CSE 2023 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f_{2}, f_{3}, f_{4}, f_{1} \\)</p>",
+            "<p>\\( f_{1}, f_{2}, f_{3}, f_{4} \\)</p>",
+            "<p>\\( f_{3}, f_{2}, f_{4}, f_{1} \\)</p>",
+            "<p>\\( f_{3}, f_{1}, f_{2}, f_{4} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f_{3}, f_{2}, f_{4}, f_{1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435349/isro-cse-2023-question-47\" target=\"_blank\">https://gateoverflow.in/435349/isro-cse-2023-question-47</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182094\"></a><div itemprop=\"text\"><p>A sorting technique is called stable if</p>\n\n</div><br><br><b>Algorithms: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If it takes \\( O(n\\log n) \\) time.</p>",
+            "<p>It uses divide and conquer technique.</p>",
+            "<p>Relative order of occurrence of non-distinct elements is maintained.</p>",
+            "<p>It takes \\( O(n) \\) space.</p>"
+          ],
+          "correct_answer": "<p>Relative order of occurrence of non-distinct elements is maintained.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182094/isro-dec2017-44\" target=\"_blank\">https://gateoverflow.in/182094/isro-dec2017-44</a></p>"
+        }
+      ]
+    }
+  ]
+}

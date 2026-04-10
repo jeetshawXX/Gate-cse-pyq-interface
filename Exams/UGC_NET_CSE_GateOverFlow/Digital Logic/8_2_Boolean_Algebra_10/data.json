@@ -1,0 +1,156 @@
+{
+  "title": "Digital Logic - Boolean Algebra",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Boolean Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152695\"></a><div itemprop=\"text\">The simplified form of the Boolean expression (X + Y + XY) (X + Z) is<br>\n<br>\n(A) X + Y + ZX + Y<br>\n<br>\n(B) XY – YZ<br>\n<br>\n(C) X + YZ<br>\n<br>\n(D) XZ + Y</div><br><br><b>Digital Logic: UGC NET CSE | December 2009 | Part 2 | Question: 06</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152695/ugc-net-cse-december-2009-part-2-question-06\" target=\"_blank\">https://gateoverflow.in/152695/ugc-net-cse-december-2009-part-2-question-06</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"288370\"></a><div itemprop=\"text\"><p>The boolean expression \\( \\overline{A} \\cdot B + A \\cdot \\overline{B}+ A \\cdot B \\) is equivalenet to</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | December 2018 | Part 2 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\overline{A} \\cdot B \\)</p>",
+            "<p>\\( \\overline{A+B} \\)</p>",
+            "<p>\\( A \\cdot B \\)</p>",
+            "<p>\\( A+B \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288370/ugc-net-cse-december-2018-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/288370/ugc-net-cse-december-2018-part-2-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"63107\"></a><div itemprop=\"text\"><p>The simplified form of the Boolean equation \\( (A\\bar{B}+A\\bar{B}+AC)(\\bar{A}\\bar{C}+\\bar{B}) \\) is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | July 2016 | Part 2 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A\\bar{B} \\)</p>",
+            "<p>\\( A\\bar{B}C \\)</p>",
+            "<p>\\( \\bar{A}B \\)</p>",
+            "<p>\\( ABC \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A\\bar{B} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63107/ugc-net-cse-july-2016-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/63107/ugc-net-cse-july-2016-part-2-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335456\"></a><div itemprop=\"text\"><p>The logic expression&nbsp;\\( \\overline{x}y\\overline{z}+\\overline{x}yz+xy\\overline{z}+xyz \\) reduces to :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2005 | Part 2 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\overline{x}z \\)</p>",
+            "<p>\\( xyz \\)</p>",
+            "<p>\\( y \\)</p>",
+            "<p>\\( yz \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335456/ugc-net-cse-june-2005-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/335456/ugc-net-cse-june-2005-part-2-question-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"154138\"></a><div itemprop=\"text\"><p>The Boolean expression&nbsp;\\( \\bar{x}\\bar{y}z+yz+xz \\) is equivalent to :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2009 | Part 2 | Question: 03</b></p>",
+          "type": "single",
+          "options": [
+            "<p>x</p>",
+            "<p>y</p>",
+            "<p>z</p>",
+            "<p>\\( x+y+z \\)</p>"
+          ],
+          "correct_answer": "<p>z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154138/ugc-net-cse-june-2009-part-2-question-03\" target=\"_blank\">https://gateoverflow.in/154138/ugc-net-cse-june-2009-part-2-question-03</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"64339\"></a><div itemprop=\"text\"><p>The absorption law in Boolean algebra say that</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2011 | Part 2 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X + X = X \\)</p>",
+            "<p>\\( X .&nbsp;X = X \\)</p>",
+            "<p>\\( X + X . Y = X \\)&nbsp;</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( X + X . Y = X \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64339/ugc-net-cse-june-2011-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/64339/ugc-net-cse-june-2011-part-2-question-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"58043\"></a><div itemprop=\"text\">\n<p>How many different Boolean functions of degree 4 are there?</p>\n\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2013 | Part 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^4 \\)</p>",
+            "<p>\\( 2^8 \\)</p>",
+            "<p>\\( 2^{12} \\)</p>",
+            "<p>\\( 2^{16} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{16} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58043/ugc-net-cse-june-2013-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/58043/ugc-net-cse-june-2013-part-2-question-41</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"53490\"></a><div itemprop=\"text\">\n<p>How many different truth tables of the compound propositions are there that involve the propositions \\( p \\) &amp; \\( q \\) ?&nbsp;</p>\n\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2014 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 8 \\)&nbsp;</p>",
+            "<p>\\( 16 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53490/ugc-net-cse-june-2014-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/53490/ugc-net-cse-june-2014-part-2-question-16</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"53491\"></a><div itemprop=\"text\">\n<p>A Boolean function \\( F \\) is called self dual if and only if \\( F(x_{1}, x_{2},.....x_{n}) = F(\\bar{x}_{1}, \\bar{x}_{2},....\\bar{x}_{n}) \\). How many Boolean functions of degree \\( n \\) are self-dual ?&nbsp;</p>\n\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2014 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{n} \\)</p>",
+            "<p>\\( (2)^{2^{n}} \\)</p>",
+            "<p>\\( (2)^{n^{2}} \\)</p>",
+            "<p>\\( (2)^{2^{n-1}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (2)^{2^{n-1}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53491/ugc-net-cse-june-2014-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/53491/ugc-net-cse-june-2014-part-2-question-17</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"60905\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Boolean expressions and logic gates networks correspond to labelled acyclic digraphs</li>\n\t<li>Optimal boolean expressions may not correspond to simplest networks.</li>\n\t<li>Choosing essential blocks first in a Karnaugh map and then greedily choosing the largest remaining blocks to cover may not give an optimal expression</li>\n</ol>\n\n<p>Which of these statement(s) is/are correct?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | Junet 2015 | Part 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i only</p>",
+            "<p>ii only</p>",
+            "<p>i and ii</p>",
+            "<p>i, ii, and iii</p>"
+          ],
+          "correct_answer": "<p>i, ii, and iii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60905/ugc-net-cse-junet-2015-part-2-question-6\" target=\"_blank\">https://gateoverflow.in/60905/ugc-net-cse-junet-2015-part-2-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "title": "Relational_Algebra - Relational_Algebra - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Relational_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The relation schema, Person(pid,city), describes the city of residence for\nevery person uniquely identified by pid. The following relational algebra operators\nare available: selection, projection, cross product, and rename.<br><br>\nTo find the list of cities where at least 3 persons reside, using the above operators,\nthe minimum number of cross product operations that must be used is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422862/gate-cse-2024-set-2-question-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following three relations in a relational database.<br>\\(Employee(eId, Name), Brand (bId, bName), Own(eId ,bId)\\)<br>Which of the following relational algebra expressions return the set of \\(eIds\\) who own all the brands? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(  \\Pi _{eId}(\\Pi _{eId,bId}(Own)/\\Pi _{bId}(Brand))\\)</p>",
+            "<b>B.</b> <p>\\(  \\Pi _{eId}(Own)-\\Pi _{eId}\\left ((\\Pi _{eId}(Own) \\times \\Pi _{bId}(Brand) )-\\Pi _{eId,bId}(Own)  \\right )\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi _{eId}(\\Pi _{eId,bId}(Own)/\\Pi _{bId}(Own))  \\)</p>",
+            "<b>D.</b> <p>\\( \\Pi _{eId}\\left ((\\Pi _{eId}(Own) \\times \\Pi _{bId}(Own) )/\\Pi _{bId}(Brand)  \\right ) \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(  \\Pi _{eId}(\\Pi _{eId,bId}(Own)/\\Pi _{bId}(Brand))\\)</p>",
+            "<b>B.</b> <p>\\(  \\Pi _{eId}(Own)-\\Pi _{eId}\\left ((\\Pi _{eId}(Own) \\times \\Pi _{bId}(Brand) )-\\Pi _{eId,bId}(Own)  \\right )\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371921/Gate-cse-2022-question-15#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following relation records the age of 500 employees of a company, where empNo ( indicating the employee number) is the key:\n<br><br>\n\\(empAge(\\underline{empNo},age)\\)<br><br>\nConsider the following relational algebra expression:\n<br><br>\n\\(\\Pi_{empNo}(empAge \\Join_{(age &gt; age1)} \\rho_{empNo1,age1}(empAge))\\)<br><br>\nWhat does the above expression generate? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Employee numbers of only those employees whose age is the maximum</p>",
+            "<b>B.</b> <p>Employee numbers of only those employees whose age is more than the age of exactly one other employee</p>",
+            "<b>C.</b> <p>Employee numbers of all employees whose age is not the minimum</p>",
+            "<b>D.</b> <p>Employee numbers of all employees whose age is the minimum</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Employee numbers of all employees whose age is not the minimum</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357424/gate-cse-2021-set-1-question-27#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following relation P(X, Y, Z), Q(X, Y, T) and R(Y, V):\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q55_cdc2944f.jpg\"><br>How many tuples will be returned by the following relational algebra query?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q55a_38366a3a.jpg\"><br>Answer:______ <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302793/gate2019-cs-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the relations r(A, B) and s(B, C), where s.B is a primary key and r.B is a foreign key referencing s.B. Consider the query<br> \\(Q:r \\Join (\\sigma _{B\\lt 5}(s))\\) <br> Let LOJ denote the natural left outer-join operation. Assume that r and s contain no null values. <br>\nWhich one of the following queries is NOT equivalent to Q? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sigma _{B \\lt 5}(r\\Join s)\\)</p>",
+            "<b>B.</b> <p>\\(\\sigma _{B\\lt 5}(r LOJ s)\\)</p>",
+            "<b>C.</b> <p>\\(r LOJ(\\sigma _{B\\lt 5}(s))\\)</p>",
+            "<b>D.</b> <p>\\(\\sigma _{B\\lt 5}(r) LOJ s\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(r LOJ(\\sigma _{B\\lt 5}(s))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204115/gate2018-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a database that has the relation schema CR (StudentName, CourseName). An\ninstance of the schema CR is as given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q53_8cbe5db4.jpg\"><br> The following query is made on the database <br><br>\\(T1\\leftarrow \\pi _{CourseName}(\\sigma _{StudentName='SA'}(CR))\\)<br>\\( T2\\leftarrow CR\\div T1\\) <br><br>The number of rows in T2 is ____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118329/gate2017-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given the relations<br>employee (name, salary, dept-no), and<br>\ndepartment (dept-no, dept-name,address),<br>\nWhich of the following queries cannot be expressed using the basic relational algebra operations \\(\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)\\)? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Department address of every employee</p>",
+            "<b>B.</b> <p>Employees whose name is the same as their department name</p>",
+            "<b>C.</b> <p>The sum of all employees' salaries</p>",
+            "<b>D.</b> <p>All employees of a given department</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The sum of all employees' salaries</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/647/gate2000-1-23-isro2016-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the join of a relation R with a relation S. If R has m tuples and S has n tuples then the maximum and minimum sizes of the join respectively are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m+n and 0</p>",
+            "<b>B.</b> <p>mn and 0</p>",
+            "<b>C.</b> <p>m+n and |m-n|</p>",
+            "<b>D.</b> <p>mn and m+n</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mn and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1471/gate1999-1-18-isro2016-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider two relations R1(A,B) with the tuples (1,5), (3,7) and R2(A,C) = (1,7), (4,9). Assume that R(A,B,C) is the full natural outer join of R1 and R2. Consider the following tuples of the form (A,B,C): a = (1,5,null), b = (1,null,7), c = (3, null, 9), d = (4,7,null), e = (1,5,7), f = (3,7,null), g = (4,null,9). Which one of the following statements is correct? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R contains a, b, e, f, g but not c, d.</p>",
+            "<b>B.</b> <p>R contains all of a, b, c, d, e, f, g.</p>",
+            "<b>C.</b> <p>R contains e, f, g but not a, b.</p>",
+            "<b>D.</b> <p>R contains e but not f, g.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>R contains e, f, g but not a, b.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8151/gate2015-2-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the relational schema given below, where eId of the relation dependentis a foreign key referring to empId of the relation employee. Assume that every employee has at least one associated dependent in the dependent relation. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q30_1c9e79a8.jpg\">  <br>\nThe above query evaluates to the set of empIds of employees whose age is greater than that of <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>some dependent</p>",
+            "<b>B.</b> <p>all dependents</p>",
+            "<b>C.</b> <p>some of his/her dependents</p>",
+            "<b>D.</b> <p>all of his/her dependents</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>all of his/her dependents</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2064/gate2014-3-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the optimized version of the relation algebra expression  \\(\\pi _{A1}(\\pi _{A2}(\\sigma _{F1}(\\sigma_{F2}(r))))\\) , where A1, A2 are sets of attributes in r with \\(A_{1}\\subset A_{2}\\) and F1, F2 are Boolean expressions based on the attributes in r? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\pi _{A1}(\\sigma_{(F1 \\wedge F2)}(r))\\)</p>",
+            "<b>B.</b> <p>\\(\\pi _{A1}(\\sigma_{(F1\\vee F2)}(r))\\)</p>",
+            "<b>C.</b> <p>\\(\\pi _{A2}(\\sigma_{(F1\\wedge F2)}(r))\\)</p>",
+            "<b>D.</b> <p>\\(\\pi _{A2}(\\sigma_{(F1 \\vee F2)}(r))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\pi _{A1}(\\sigma_{(F1 \\wedge F2)}(r))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2055/gate2014-3-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a join (relation algebra) between relations r(R)and s(S) using the nested loop\nmethod. There are 3 buffers each of size equal to disk block size, out of which one buffer is\nreserved for intermediate results. Assuming size(r(R))\\(\\lt\\)size(s(S)), the join will have fewer\nnumber of disk block accesses if <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>relation r(R) is in the outer loop.</p>",
+            "<b>B.</b> <p>relation s(S) is in the outer loop</p>",
+            "<b>C.</b> <p>join selection factor between r(R) and s(S) is more than 0.5.</p>",
+            "<b>D.</b> <p>join selection factor between r(R) and s(S) is less than 0.5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>relation r(R) is in the outer loop.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1989/gate2014-2-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following relations A, B and C:   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q50_b1b0feea.jpg\"> <br>How many tuples does the result of the following relational algebra expression contain? Assume\nthat the schema of A\\(\\cup\\)B is the same as that of A. <br>\\((A\\cup B)\\bowtie _{A.Id \\gt 40 \\vee C.Id \\lt 15}C\\) <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>7</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2180/gate2012-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Suppose R1(A, B) and R2(C, D) are two relation schemas. Let r1 and r2 be the corresponding\nrelation instances. B is a foreign key that refers to C in R2. If data in r1 and r2 satisfy referential\nintegrity constraints, which of the following is ALWAYS TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) =\\phi\\)</p>",
+            "<b>B.</b> <p>\\(\\Pi_{C}(r_{1})- \\Pi_{B}(r_{2}) =\\phi\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi_{B}(r_{1})= \\Pi_{C}(r_{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) \\neq \\phi\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) =\\phi\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2151/gate2012-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a relational table r with sufficient number of records, having attributes\n\\(A_{1}, A_{2},..., A_{n}\\) and let \\(1\\leq p\\leq n\\)\n. Two queries Q1 and Q2 are given below. <br><br>\\(Q1:\\pi _{A_{1}....A_{n}}(\\sigma _{A_{p}=c}(r)) \\) where c is a constant <br> \\(Q2:\\pi _{A1....A_{n}}(\\sigma _{c_{1}\\leq A_{p}\\leq c_{2}}(r)) \\) where \\(c_{1}\\) and \\(c_{2}\\) are constants <br><br> The database can be configured to do ordered indexing on \\(A_{p}\\) or hashing on  \\(A_{p}\\).<br><br>\nWhich of the following statements is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ordered indexing will always outperform hashing for both queries</p>",
+            "<b>B.</b> <p>Hashing will always outperform ordered indexing for both queries</p>",
+            "<b>C.</b> <p>Hashing will outperform ordered indexing on Q1, but not on Q2</p>",
+            "<b>D.</b> <p>Hashing will outperform ordered indexing on Q2, but not on Q1.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Hashing will outperform ordered indexing on Q1, but not on Q2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2141/gate2011-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Spatial Aptitude - Figure Folding",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Figure Folding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6327\"></a><div itemprop=\"text\"><p>Choose a figure which would most closely resemble the unfolded form of Figure (Z).</p><p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6924475939914358977\"></p><p style=\"text-align:center\"><img alt=\"Pattern diagram\" width=\"700\" height=\"453\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6379463331429472896\"></p></div><br><br><b>Spatial Aptitude: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6327/nielit-2017-july-scientist-b-section-a-45\" target=\"_blank\">https://aptitude.gateoverflow.in/6327/nielit-2017-july-scientist-b-section-a-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

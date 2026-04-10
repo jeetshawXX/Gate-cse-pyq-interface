@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Polynomials",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Polynomials",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6797\"></a><div itemprop=\"text\"><p>If \\( a^{x}=b \\), \\( b^{y}=c \\) and \\( c^{z}=a \\), then the value of \\( xyz \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6797/nielit-2019-feb-scientist-d-section-c-26\" target=\"_blank\">https://aptitude.gateoverflow.in/6797/nielit-2019-feb-scientist-d-section-c-26</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6820\"></a><div itemprop=\"text\"><p>If \\( t^{2}-4t+1=0 \\), then the value of \\( \\left[t^{3}+1/t^{3} \\right] \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 44 \\)</p>",
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 52 \\)</p>",
+            "<p>\\( 64 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6820/nielit-2019-feb-scientist-d-section-c-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6820/nielit-2019-feb-scientist-d-section-c-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6838\"></a><div itemprop=\"text\"><p>The roots of the equation&nbsp;\\( x^{2/3}+x^{1/3}-2=0 \\) are :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1, -8 \\)</p>",
+            "<p>\\( -1, -2 \\)</p>",
+            "<p>\\( \\frac{2}{3}, \\frac{1}{3} \\)</p>",
+            "<p>\\( -2, -7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6838/nielit-2019-feb-scientist-d-section-d-15\" target=\"_blank\">https://aptitude.gateoverflow.in/6838/nielit-2019-feb-scientist-d-section-d-15</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6835\"></a><div itemprop=\"text\"><p>If \\(  x^{a}=y^{b}=z^{c}  \\) and \\(  y^{2}=zx  \\) then the value of \\(  \\frac{1}{a} + \\frac{1}{c} \\) is&nbsp; :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\(  \\frac{b}{2} \\)</p>",
+            "<p>\\(  \\frac{c}{2} \\)</p>",
+            "<p>\\(  \\frac{2}{b} \\)</p>",
+            "<p>\\(  \\frac{2}{a} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6835/nielit-2019-feb-scientist-d-section-d-18\" target=\"_blank\">https://aptitude.gateoverflow.in/6835/nielit-2019-feb-scientist-d-section-d-18</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6825\"></a><div itemprop=\"text\"><p>\\( \\left [\\frac{1}{1-x}+\\frac{1}{1+x}+\\frac{2}{1+x^{2}}+\\frac{4}{1+x^{4}}+\\frac{8}{1+x^{8}} \\right ] \\) equal to :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\frac{8}{1-x^{8}} \\)</p>",
+            "<p>\\( \\frac{16}{1-x^{16}} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6825/nielit-2019-feb-scientist-d-section-d-28\" target=\"_blank\">https://aptitude.gateoverflow.in/6825/nielit-2019-feb-scientist-d-section-d-28</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"6846\"></a><div itemprop=\"text\"><p>Find all the polynomials with real coefficients \\( P\\left(x \\right) \\) such that \\( P\\left(x^{2}+x+1 \\right) \\) divides \\( P\\left(x^{3}-1 \\right) \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( ax^{n} \\)</p>",
+            "<p>\\( ax^{n+2} \\)</p>",
+            "<p>\\( ax \\)</p>",
+            "<p>\\( 2ax \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6846/nielit-2019-feb-scientist-d-section-d-7\" target=\"_blank\">https://aptitude.gateoverflow.in/6846/nielit-2019-feb-scientist-d-section-d-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

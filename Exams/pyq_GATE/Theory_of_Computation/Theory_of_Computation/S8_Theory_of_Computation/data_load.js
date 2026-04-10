@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(\\lt M \\gt\\) be the encoding of a Turing machine as a string over \\(\\Sigma\\)={0,1}. <br>Let L = { \\(\\lt M \\gt\\) |M is a Turning machine that accepts a string of length 2014}. <br>Then, L is <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>decidable and recursively enumerable</p>",
+            "<b>B.</b> <p>undecidable but recursively enumerable</p>",
+            "<b>C.</b> <p>undecidable and not recursively enumerable</p>",
+            "<b>D.</b> <p>decidable but not recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>undecidable but recursively enumerable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1994/gate2014-2-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(A \\leq _{m}B\\) denotes that language A is mapping reducible (also known as many-to-one reducible) to language B. Which one of the following is FALSE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>If \\(A\\leq _{m}B\\) and B is recursive then A is recursive</p>",
+            "<b>B.</b> <p>If \\(A\\leq _{m}B\\) and A is undecidable then B is undecidable</p>",
+            "<b>C.</b> <p>If \\(A\\leq _{m}B\\) and B is recursively enumerable then A is recursively enumerable.</p>",
+            "<b>D.</b> <p>If \\(A\\leq _{m}B\\) and B is not recursively enumerable then A is not recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>If \\(A\\leq _{m}B\\) and B is not recursively enumerable then A is not recursively enumerable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1972/gate2014-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If \\(L_{1}=\\{a^{n}|n\\geq 0\\}\\) and \\(L_{2}=\\{b^{n}|n\\geq 0 \\}\\), Consider <br>(I) \\(  L_{1}\\cdot L_{2}\\)  is a regular language <br> (II) \\( L_{1} \\cdot L_{2}= \\{a^{n}b^{n}|n \\geq 0\\}\\)<br> Which one of the following is CORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (I)</p>",
+            "<b>B.</b> <p>Only (II)</p>",
+            "<b>C.</b> <p>Both (I) and (II)</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only (I)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1971/gate2014-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the regular expressions given below represent the following DFA? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q36_eb254c40.jpg\">   <br>                                                 I) 0*1(1+00*1)* <br>\nII) 0*1*1+11*0*1 <br>\nIII) (0+1)*1 <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I, II, and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1914/gate2014-1-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let L be a language and \\(\\bar{L}\\) be its complement. Which of the following is NOT a viable possibility? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Neither L nor \\(\\bar{L}\\) is recursively enumerable (r.e.).</p>",
+            "<b>B.</b> <p>One of L and \\(\\bar{L}\\) is r.e. but not recursive; the other is not r.e.</p>",
+            "<b>C.</b> <p>Both L and \\(\\bar{L}\\) are r.e. but not recursive</p>",
+            "<b>D.</b> <p>Both L and \\(\\bar{L}\\) are recursive.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both L and \\(\\bar{L}\\) are r.e. but not recursive</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1810/gate2014-1-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the finite automaton in the following figure. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q16_6458e73d.jpg\"> <br> What is the set of reachable states for the input string 0011? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{q_{0},q_{1},q_{2}\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{q_{0},q_{1}\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{q_{0},q_{1},q_{2},q_{3}\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{q_{3}\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{q_{0},q_{1},q_{2}\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1782/gate2014-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The language L = {\\(a^{n}b^{n}\\geq 0\\)} is regular</p>",
+            "<b>B.</b> <p>The language L = {\\(a^{n}\\)| n is prime} is regular</p>",
+            "<b>C.</b> <p>The language L={ w | w has 3k +1    b's for some k \\(\\in\\) N with \\(\\Sigma\\) = {a,b} } is regular.</p>",
+            "<b>D.</b> <p>The language L = { ww| w\\(\\in \\Sigma^{*}\\) with \\(\\Sigma\\)={0,1}} is regular.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The language L={ w | w has 3k +1    b's for some k \\(\\in\\) N with \\(\\Sigma\\) = {a,b} } is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1781/gate2014-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following is/are undecidable? <br>\n1. G is a CFG. Is L(G) = \\(\\Phi\\)? <br>\n2. G is a CFG. Is L(G) = \\(\\Sigma ^{*}\\) ? <br>\n3. M is a Turing machine. Is L(M) regular? <br>\n4. A is a DFA and N is an NFA. Is L(A) = L(N)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 only</p>",
+            "<b>B.</b> <p>3 and 4 only</p>",
+            "<b>C.</b> <p>1, 2 and 3 only</p>",
+            "<b>D.</b> <p>2 and 3 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 and 3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1553/gate2013-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the DFA A given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q33_77a7d1ad.jpg\"> <br> Which of the following are FALSE? <br>\n1. Complement of L(A) is context-free. <br>\n2. L(A) = L((11*0+0) (0+1)*0*1*) <br>\n3. For the language accepted by A, A is the minimal DFA. <br>\n4. A accepts all strings over {0, 1} of length at least 2. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 3 only</p>",
+            "<b>B.</b> <p>2 and 4 only</p>",
+            "<b>C.</b> <p>2 and 3 only</p>",
+            "<b>D.</b> <p>3 and 4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3 and 4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1544/gate2013-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following languages. \\(L_{1}=\\{0^{p}1^{q}0^{r}|p,q,r\\geq 0\\}\\) <br> \\( L_{2}=\\{0^{p}1^{q}0^{r} | p,q,r \\geq  0, p \\neq  r \\}\\)<br> Which one of the following statements is FALSE? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L2 is context-free</p>",
+            "<b>B.</b> <p>L1 \\(\\cap\\) L2 is context-free</p>",
+            "<b>C.</b> <p>Complement of L2 is recursive.</p>",
+            "<b>D.</b> <p>Complement of L1 is context-free but not regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Complement of L1 is context-free but not regular</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1543/gate2013-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following statements is/are FALSE? <br>\n1. For every non-deterministic Turing machine, there exists an equivalent deterministic\nTuring machine. <br>\n2. Turing recognizable languages are closed under union and complementation. <br>\n3. Turing decidable languages are closed under intersection and complementation. <br>\n4. Turing recognizable languages are closed under union and intersection. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 4 only</p>",
+            "<b>B.</b> <p>1 and 3 only</p>",
+            "<b>C.</b> <p>2 only</p>",
+            "<b>D.</b> <p>3 only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2 only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1439/gate2013-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the languages \\(L_{1}=\\phi \\) abd \\(L_{2}=\\{a\\}\\). Which one of the following represents \\(L_{1} L_{2}^{*} \\cup L_{1}^{*}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ \\epsilon \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\phi\\)</p>",
+            "<b>C.</b> <p>\\(a^{*}\\)</p>",
+            "<b>D.</b> <p>\\(\\{ \\epsilon ,a \\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{ \\epsilon \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1417/gate2013-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the set of strings on {0,1} in which, every substring of 3 symbols has at most two zeros.\nFor example, 001110 and 011001 are in the language, but 100010 is not. All strings of length less\nthan 3 are also in the language. A partially completed DFA that accepts this language is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q46_bca893f8.jpg\"> <br> The missing arcs in the DFA are <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q46a_ce7a32ca.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2159/gate2012-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Given the language L = {ab, aa, baa}, which of the following strings are in L*? <br>\n1) abaabaaabaa <br>\n2) aaaabaaaa <br>\n3) baaaaabaaaab <br>\n4) baaaaabaa <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2 and 3</p>",
+            "<b>B.</b> <p>2, 3 and 4</p>",
+            "<b>C.</b> <p>1, 3 and 4</p>",
+            "<b>D.</b> <p>1, 2 and 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1, 2 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1609/gate2012-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following problems are decidable?<br>\n1) Does a given program ever produce an output? <br>\n2) If L is a context-free language, then, is \\(\\bar{L}\\) also context-free?<br>\n3) If L is a regular language, then, is \\(\\bar{L}\\) also regular? <br>\n4) If L is a recursive language, then, is \\(\\bar{L}\\) also recursive? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2, 3, 4</p>",
+            "<b>B.</b> <p>1,2</p>",
+            "<b>C.</b> <p>2,3,4</p>",
+            "<b>D.</b> <p>3,4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3,4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1608/gate2012-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Bit Mapped Index",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bit Mapped Index",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182062\"></a><div itemprop=\"text\"><p>Consider a table that describes the customers:</p>\n\n<p>\\( \\text{Customers(custid, name, gender, rating)} \\)</p>\n\n<p>The rating value is an integer in the range \\( 1 \\) to \\( 5 \\) and only two values \\( \\text{(male and female)} \\)<br>\nare recorded for \\( gender. \\) Consider the query \\( \\text{\"how many male customers have a rating of 5\" ?} \\)<br>\nThe best indexing mechanism appropriate for the query is</p>\n\n</div><br><br><b>Databases: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Linear hashing</p>",
+            "<p>Extendible hashing&nbsp;</p>",
+            "<p>B+ tree</p>",
+            "<p>Bit-mapped index</p>"
+          ],
+          "correct_answer": "<p>Bit-mapped index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182062/isro-dec2017-12\" target=\"_blank\">https://gateoverflow.in/182062/isro-dec2017-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

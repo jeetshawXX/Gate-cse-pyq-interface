@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Linear_Algebra - Linear_Algebra - Slot 6",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Linear_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The determinant of the matrix \\(\\begin{bmatrix} 6 &amp; -8 &amp; 1 &amp; 1 \\\\ 0 &amp; 2 &amp; 4 &amp; 6 \\\\ 0 &amp; 0 &amp; 4 &amp; 8 \\\\ 0 &amp; 0 &amp; 0 &amp; -1 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>-48</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>-24</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>-48</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2219/gate1997-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The matrices \\(\\begin{bmatrix} \\cos\\theta &amp;&amp; -\\sin\\theta \\\\ \\sin\\theta &amp;&amp; \\cos\\theta \\end{bmatrix}\\) and \\(\\begin{bmatrix} a &amp;&amp; 0\\\\ 0&amp;&amp; b \\end{bmatrix}\\) commute under multiplication <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>if \\(a=b \\text{ or } \\theta = n\\pi\\), n is an integer</p>",
+            "<b>B.</b> <p>always</p>",
+            "<b>C.</b> <p>never</p>",
+            "<b>D.</b> <p>if \\(a \\cos\\theta = b \\sin\\theta\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>if \\(a=b \\text{ or } \\theta = n\\pi\\), n is an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2735/gate1996-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let AX = b be a system of linear equations where A is an \\(m \\times n\\) matrix and b is a \\(m \\times 1\\) column vector and X is an \\(n \\times 1\\) column vector of unknowns. Which of the following is false? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The system has a solution if and only if, both A and the augmented matrix [Ab] have the same rank.</p>",
+            "<b>B.</b> <p>If m &lt; n and b is the zero vector, then the system has infinitely many solutions.</p>",
+            "<b>C.</b> <p>If m=n and b is a non-zero vector, then the system has a unique solution.</p>",
+            "<b>D.</b> <p>The system will have only a trivial solution when m=n, b is the zero vector and rank (A) =n.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>If m=n and b is a non-zero vector, then the system has a unique solution.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2711/gate1996-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A unit vector perpendicular to both the vectors a=2i-3j+k and b=i+j-2k is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{3} (i+j-k)\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{3} (i-j-k)\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j-k)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2625/gate1995-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>If the cube roots of unity are \\(1, \\omega\\) and \\(\\omega^2\\), then the roots of the following equation are <br>\n\\((x-1)^3 +8 =0\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1, 1 + 2\\omega, 1 + 2\\omega^2\\)</p>",
+            "<b>B.</b> <p>\\(1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>D.</b> <p>\\(-1, 1 + 2\\omega, -1 + 2\\omega^2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2620/gate1995-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The rank of the following \\((n+1) \\times (n+1)\\) matrix, where a is a real number is <br>\n\\(\\begin{bmatrix} 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>Depends on the value of a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2611/gate1995-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The rank of matrix \\(\\begin{bmatrix} 0 &amp; 0 &amp; -3 \\\\ 9 &amp; 3 &amp; 5 \\\\ 3 &amp; 1 &amp; 1 \\end{bmatrix}\\)is: <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2446/gate1994-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let A and B be real symmetric matrices of size \\(n \\times n\\). Then which one of the following is true? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AA'=I\\)</p>",
+            "<b>B.</b> <p>\\(A=A^{-1}\\)</p>",
+            "<b>C.</b> <p>\\(AB=BA\\)</p>",
+            "<b>D.</b> <p>\\((AB)'=BA\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((AB)'=BA\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2438/gate1994-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>For the below question, one or more OPTIONS are correct<br>\nThe eigen vector(s) of the matrix <br>\n\\(\\begin{bmatrix} 0 &amp;0 &amp;\\alpha\\\\ 0 &amp;0 &amp;0\\\\ 0 &amp;0 &amp;0 \\end{bmatrix},\\alpha \\neq 0\\)<br>is (are) <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((0,0,\\alpha)\\)</p>",
+            "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+            "<b>C.</b> <p>(0,0,1)</p>",
+            "<b>D.</b> <p>\\((0,\\alpha,0)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/596/gate1993-01-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following statements:\n<br><br>\nS1: The sum of two singular nxn matrices may be non-singular<br>\nS2: The sum of two nxn non-singular matrices may be singular.  <br>\n<br><br>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2 are both true</p>",
+            "<b>B.</b> <p>S1 is true, S2 is false</p>",
+            "<b>C.</b> <p>S1 is false, S2 is true</p>",
+            "<b>D.</b> <p>S1 and S2 are both false</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1 and S2 are both true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/694/gate2001-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A square matrix is singular whenever <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The rows are linearly independent</p>",
+            "<b>B.</b> <p>The columns are linearly independent</p>",
+            "<b>C.</b> <p>The row are linearly dependent</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The row are linearly dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80380/gate1987-1-xxiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The equation<br>\\(7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0 \\) has <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All complex roots</p>",
+            "<b>B.</b> <p>At least one real root</p>",
+            "<b>C.</b> <p>Four pairs of imaginary roots</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At least one real root</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80379/gate1987-1-xxii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If a, b, and c are constants, which of the following is a linear inequality? <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(ax+bcy=0\\)</p>",
+            "<b>B.</b> <p>\\(ax^{2}+cy^{2}=21\\)</p>",
+            "<b>C.</b> <p>\\(abx+a^{2}y \\geq 15\\)</p>",
+            "<b>D.</b> <p>\\(xy+ax \\geq 20\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(abx+a^{2}y \\geq 15\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80377/gate1987-1-xxi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

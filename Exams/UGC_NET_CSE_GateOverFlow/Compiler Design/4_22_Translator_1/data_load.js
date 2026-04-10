@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Translator",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Translator",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61066\"></a><div itemprop=\"text\"><p>The translator which performs macro calls expansion is called</p></div><br><br><b>Compiler Design: UGC NET CSE | Junet 2015 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Macro processor</p>",
+            "<p>Micro pre-processor</p>",
+            "<p>Macro pre-processor</p>",
+            "<p>Dynamic linker</p>"
+          ],
+          "correct_answer": "<p>Macro pre-processor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61066/ugc-net-cse-junet-2015-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/61066/ugc-net-cse-junet-2015-part-2-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+});

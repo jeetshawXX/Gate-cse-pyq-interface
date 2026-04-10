@@ -1,0 +1,341 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Time And Distance",
+  "duration": 66,
+  "sections": [
+    {
+      "name": "Time And Distance",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4302\"></a><div itemprop=\"text\"><p>Shyam went from Delhi to Simla via Chandigarh by car. The distance from Delhi to Chandigarh is 3/4 times the distance from Chandigarh to Simla. The average speed from Delhi to Chandigarh was half as much again as that from Chandigarh to Simla. If the average speed for the entire journey was 49 kmph, what was the average speed from Chandigarh to Simla?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>39.2 kmph&nbsp;</p>",
+            "<p>63 kmph&nbsp;</p>",
+            "<p>42 kmph&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4302/cat-1994-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/4302/cat-1994-question-66</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4308\"></a><div itemprop=\"text\"><p>Four friends start from four towns, which are at the four corners of an imaginary rectangle. They meet at a point which falls inside the rectangle, after travelling distances of4O, 50, and 60 metres. The maximum distance that the fourth could have travelled is (approximately):</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>67 metres</p>",
+            "<p>52 metres</p>",
+            "<p>22.5 metres</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4308/cat-1994-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/4308/cat-1994-question-72</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4309\"></a><div itemprop=\"text\"><p>A and B walk from X to Y, a distance of 27 km at 5 kmph and 7 kmph respectively. B reaches Y and immediately turns back meeting A at Z. What is the distance from X to Z?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>25 km&nbsp;</p>",
+            "<p>22.5 km&nbsp;</p>",
+            "<p>24 km&nbsp;</p>",
+            "<p>20 km</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4309/cat-1994-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/4309/cat-1994-question-73</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4016\"></a><div itemprop=\"text\"><p>Choose the correct option:</p>\n\n<p>In a race of \\( 200 \\) meters, A beats S by \\( 20 \\)&nbsp;metres and N by \\( 40 \\)&nbsp;metres. If S and N are running a race of 100 metres with exactly the&nbsp;same speed as before, then by how many metres will S beat N?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 11.11 \\)&nbsp;metres</p>",
+            "<p>\\( 10 \\)&nbsp;metres</p>",
+            "<p>\\( 12 \\)&nbsp;metres</p>",
+            "<p>\\( 25 \\)&nbsp;metres</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4016/cat-1995-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/4016/cat-1995-question-74</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3790\"></a><div itemprop=\"text\"><p>\\( A, S, M \\) and \\( D \\) are functions of \\( x \\) and \\( y \\), and they are defined as follows:</p>\n\n<ul>\n\t<li>\\( A(x, y) = x + y \\)&nbsp;</li>\n\t<li>\\( S(x, y) = x - y \\)</li>\n\t<li>\\( M(x, y) = xy \\)&nbsp;</li>\n\t<li>\\( D(x, y) = x/y \\),</li>\n</ul>\n\n<p>where \\( y \\neq 0 \\).</p>\n\n<p>A man travels three-fifths of distance \\( AB \\) at a speed of \\( 3a \\), and the remaining at a speed of \\( 2b \\). If he goes from \\( B \\) to \\( A \\) and back at a speed of \\( 5c \\) in the same time, then:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 120</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1/a+1/b=1/c \\)</p>",
+            "<p>\\( a+b=c \\)&nbsp;</p>",
+            "<p>\\( 1/a + 1/b=2/c \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3790/cat-1996-question-120\" target=\"_blank\">https://aptitude.gateoverflow.in/3790/cat-1996-question-120</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3799\"></a><div itemprop=\"text\"><p>X, Y and Z wish to go from place A to place B, which are separated by a distance of \\( 70 \\) km. All the three persons start off together form A, with X and Y going by Luna at a speed of \\( 20 \\)&nbsp;kmph. X drops V somewhere along the way and returns to pick up Z who has already started walking towards B at a speed of 5 kmph. V. after being dropped by X, starts walking towards B at a speed of \\( 5 \\)&nbsp;kmph. In this manner, all three of them reach B at the same time.</p>\n\n<p>How much distance is covered by Z on foot?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 129</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 25 \\) km</p>",
+            "<p>\\( 10 \\) km</p>",
+            "<p>\\( 20 \\) km</p>",
+            "<p>\\( 15 \\) km</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3799/cat-1996-question-129\" target=\"_blank\">https://aptitude.gateoverflow.in/3799/cat-1996-question-129</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3800\"></a><div itemprop=\"text\"><p>X, Y and Z wish to go from place A to place B, which are separated by a distance of \\( 70 \\) km. All the three persons start off together form A, with X and Y going by Luna at a speed of \\( 20 \\)&nbsp;kmph. X drops V somewhere along the way and returns to pick up Z who has already started walkig towards B at a speed of 5 kmph. V. after being dropped by X, starts walking towards B at a speed of \\( 5 \\)&nbsp;kmph. In this manner, all three of them reach B at the same time.</p>\n\n<p>What is the total distance travelled by X?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 130</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 130 \\) km</p>",
+            "<p>\\( 140 \\) km</p>",
+            "<p>\\( 110 \\) km</p>",
+            "<p>\\( 90 \\) km</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3800/cat-1996-question-130\" target=\"_blank\">https://aptitude.gateoverflow.in/3800/cat-1996-question-130</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3801\"></a><div itemprop=\"text\"><p>X, Y and Z wish to go from place A to place B, which are separated by a distance of \\( 70 \\) km. All the three persons start off together form A, with X and Y going by Luna at a speed of \\( 20 \\)&nbsp;kmph. X drops V somewhere along the way and returns to pick up Z who has already started walkig towards B at a speed of 5 kmph. V. after being dropped by X, starts walking towards B at a speed of \\( 5 \\)&nbsp;kmph. In this manner, all three of them reach B at the same time.</p>\n\n<p>How long does it take them to go from A to B?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 131</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6.0 \\) hours</p>",
+            "<p>\\( 6.5 \\) hours</p>",
+            "<p>\\( 7.0 \\) hours</p>",
+            "<p>\\( 14.0 \\) hours</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3801/cat-1996-question-131\" target=\"_blank\">https://aptitude.gateoverflow.in/3801/cat-1996-question-131</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3802\"></a><div itemprop=\"text\"><p>X, Y and Z wish to go from place A to place B, which are separated by a distance of \\( 70 \\) km. All the three persons start off together form A, with X and Y going by Luna at a speed of \\( 20 \\)&nbsp;kmph. X drops V somewhere along the way and returns to pick up Z who has already started walkig towards B at a speed of 5 kmph. V. after being dropped by X, starts walking towards B at a speed of \\( 5 \\)&nbsp;kmph. In this manner, all three of them reach B at the same time.</p>\n\n<p>After how much time is Y dropped on the way by X?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 132</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2.0 \\) hours</p>",
+            "<p>\\( 3.0 \\) hours</p>",
+            "<p>\\( 2.5 \\) hours</p>",
+            "<p>\\( 1.5 \\) hours</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3802/cat-1996-question-132\" target=\"_blank\">https://aptitude.gateoverflow.in/3802/cat-1996-question-132</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3803\"></a><div itemprop=\"text\"><p>X, Y and Z wish to go from place A to place B, which are separated by a distance of \\( 70 \\) km. All the three persons start off together form A, with X and Y going by Luna at a speed of \\( 20 \\)&nbsp;kmph. X drops V somewhere along the way and returns to pick up Z who has already started walkig towards B at a speed of 5 kmph. V. after being dropped by X, starts walking towards B at a speed of \\( 5 \\)&nbsp;kmph. In this manner, all three of them reach B at the same time.</p>\n\n<p>For how long does X travel alone over the entire journey?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 133</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2.5 \\) hours</p>",
+            "<p>\\( 1.0 \\) hour</p>",
+            "<p>\\( 2.0 \\) hours</p>",
+            "<p>\\( 1.5 \\) hours.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3803/cat-1996-question-133\" target=\"_blank\">https://aptitude.gateoverflow.in/3803/cat-1996-question-133</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3811\"></a><div itemprop=\"text\"><p>A man travels form A to B at a speed of x kmph. He then rests at B or x hours. He then travels from B to C at a speed of \\( 2x \\)&nbsp;kmph and rests at C for \\( 2x \\) hours. He moves further to D at a speed twice as that between B and C. He thus reaches D in 16 hours. If distances A-B, B-C, C-D are all equal to \\( 12 \\) km. the time for which he rested at B could be:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 141</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\) hours</p>",
+            "<p>\\( 6 \\) hours</p>",
+            "<p>\\( 2 \\) hours</p>",
+            "<p>\\( 4 \\) hours</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3811/cat-1996-question-141\" target=\"_blank\">https://aptitude.gateoverflow.in/3811/cat-1996-question-141</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"3815\"></a><div itemprop=\"text\"><p>In a mile race Akshay can be given a start of 128 meters by Balram. If Balram can give&nbsp;Chetan a start of \\( 4 \\) metres in a \\( 100 \\) metres dash, then who out of Akshay and Chetan will win a race of one and halfmile, and what will be the final lead given by the winner to the loser? (One mile is. \\( 1600 \\)&nbsp;metres).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 145</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Akshay, \\( 1/12 \\) miles</p>",
+            "<p>Chetan, \\( 1/32 \\) miles</p>",
+            "<p>Akshay,&nbsp;\\( 1/24 \\) miles</p>",
+            "<p>Chetan, \\( 1/16 \\) miles</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3815/cat-1996-question-145\" target=\"_blank\">https://aptitude.gateoverflow.in/3815/cat-1996-question-145</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"3508\"></a><div itemprop=\"text\"><p>An express train moving at the rate of \\( 80 \\) km per hour overtakes completely a good train twice as long and moving on a parallel line in the same direction at the rate of \\( 40 \\) km per hour in \\( 54 \\) seconds. How long will the express train take to completely pass through a station \\( 4000 \\) meters in length?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 114</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 54 \\) seconds</p>",
+            "<p>\\( 27 \\) seconds</p>",
+            "<p>\\( 18 \\) seconds</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3508/cat-1997-question-114\" target=\"_blank\">https://aptitude.gateoverflow.in/3508/cat-1997-question-114</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"3272\"></a><div itemprop=\"text\"><p>I started climbing up the hill at 6 a.m. and reached the temple at the top at 6 p.m. Next day I started coming down at \\( 6 \\) a.m. and reached the foothill at \\( 6 \\) p.m. I walked on the same road. The road is so short that only one person can walk on it. Although I varied my pace on my way, I never stopped on my way. Then which of the following must be true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 91</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>My average speed downhill was greater than that uphill.</p>",
+            "<p>At noon, I was at the same spot on both the days.</p>",
+            "<p>There must be a point where I reached at the same time on both the days.</p>",
+            "<p>There cannot be a spot where I reached at the same time on both the days.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3272/cat-1998-question-91\" target=\"_blank\">https://aptitude.gateoverflow.in/3272/cat-1998-question-91</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1097\"></a><div itemprop=\"text\"><p>On a \\( 20 \\) km tunnel connecting two cities A and B there are three gutters. The distance between gutter \\( 1 \\) and \\( 2 \\) is half the distance between gutter and \\( 2 \\) and \\( 3. \\) The distance from city A to its nearest gutter, gutter \\( 1 \\) is equal to the distance of city B from gutter \\( 3. \\) On a particular day the hospital in city A receives information that an accident has happened at the third gutter. The victim can be saved only if an operation is started within \\( 40 \\) minutes. An ambulance started from city A at \\( 30 \\) km/hr and crossed the first gutter after \\( 5 \\) minutes. If the driver had doubled the speed after that, what is the maximum amount of time the doctor would get to attend the patient at the hospital? Assume \\( 1 \\) minutes is elapsed for taking the patient into and out of the ambulance.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 82</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\) minutes</p>",
+            "<p>\\( 2.5 \\) minutes</p>",
+            "<p>\\( 1.5 \\) minutes</p>",
+            "<p>Patient died before reaching the hospital</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1097/cat-2002-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/1097/cat-2002-question-82</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1098\"></a><div itemprop=\"text\"><p>Neeraj has a rectangular field of size \\( 20 \\times&nbsp;40 \\) sq.mt. He has to mow the field with a moving machine of width \\( 1 \\) mt. If he mows the field from the extremes to the centre, then the number of rounds taken by him to mow half of the field will be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3.5 \\)</p>",
+            "<p>\\( 3.8 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1098/cat-2002-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/1098/cat-2002-question-83</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1099\"></a><div itemprop=\"text\"><p>On the corners of a square field of side \\( 14 \\)&nbsp;metres, \\( 4 \\) horses are tethered in such a way the adjacent horses just reach to each other. There is a circular pond of area \\( 20 \\) sq. mt. in the centre of the square. What is the are left ungrazed?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 84</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 154 \\) sq. m</p>",
+            "<p>\\( 22 \\) sq m</p>",
+            "<p>\\( 120 \\) sq. m</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1099/cat-2002-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/1099/cat-2002-question-84</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"304\"></a><div itemprop=\"text\"><p>Rohan and Sohan start simultaneously from a point A on a circular track and run in the same direction. The speed of Rohan is nine times the speed of Sohan. How many times are they diametrically opposite to each other by the time Sohan completes three complete rounds on the track?</p>\n\n</div><br><br><b>Quantitative Aptitude: Rohan and Sohan start simultaneously from a point A on a circular track and run in the same direction.</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>27</p>",
+            "<p>23</p>",
+            "<p>48</p>",
+            "<p>24</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/304/rohan-sohan-simultaneously-point-circular-track-direction\" target=\"_blank\">https://aptitude.gateoverflow.in/304/rohan-sohan-simultaneously-point-circular-track-direction</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"4359\"></a><div itemprop=\"text\"><p>Two trains A and B start simultaneously in the <strong>opposite direction</strong> from two points A and B and arrive at their destination 9 and 4 hrs respectively after their meeting each other. At what rate does the second train B travel if the fist travel at 80 kmph.</p>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: Time Distance</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4359/time-distance\" target=\"_blank\">https://aptitude.gateoverflow.in/4359/time-distance</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"2827\"></a><div itemprop=\"text\">A train takes 4/3 hours less for a journey of 528km . If its speed is increased by 11/2 km/hour from its usual speed . The usual speed of the train is ( in km/hour )<br>\na. 44<br>\nb. 48<br>\nc. 52<br>\nd. 55</div><br><br><b>Quantitative Aptitude: Time Distance Speed</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2827/time-distance-speed\" target=\"_blank\">https://aptitude.gateoverflow.in/2827/time-distance-speed</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"4542\"></a><div itemprop=\"text\">Car &nbsp;A left from X for Y at 9:00 a.m.Car B left from Y to X at 10:00 a.m.XY=180 km.<br>\n<br>\nSpeed of A and B are 30 and 20 kmph respectively.Find their meeting time</div><br><br><b>Quantitative Aptitude: Time and distance</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4542/time-and-distance\" target=\"_blank\">https://aptitude.gateoverflow.in/4542/time-and-distance</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"657\"></a><div itemprop=\"text\">A B C participate in race around circular track.A and B run in same direction while C in opposite direction.if speed of A B C are 10m/s 20m/s and 30 m/s respectively and length of track is 1000 m then &nbsp;after how much time they will meet for first time?</div><br><br><b>Quantitative Aptitude: circular track</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/657/circular-track\" target=\"_blank\">https://aptitude.gateoverflow.in/657/circular-track</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"4714\"></a><div itemprop=\"text\"><p>A plane left half an hour than the scheduled time and in order to reach its destination \\( 1500 \\hspace{0.1cm} km \\) away in time, it had to increase its speed by \\( 33.33\\% \\) over its usual speed. find its increased speed?</p>\n\n<ol start=\"1\" style=\"list-style-type: lower-alpha;\">\n\t<li>\\( 250 \\hspace{0.1cm} &nbsp;kmph \\)</li>\n\t<li>\\( 500 \\hspace{0.1cm} kmph \\)</li>\n\t<li>\\( 750 \\hspace{0.1cm} kmph \\)</li>\n\t<li>none</li>\n</ol>\n\n<p><br>\nthe answer given is \\( 750&nbsp;\\hspace{0.1cm}&nbsp;kmph \\) but i m getting \\( 250 \\) which is correct??</p></div><br><br><b>Quantitative Aptitude: madeeasy work book</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4714/madeeasy-work-book\" target=\"_blank\">https://aptitude.gateoverflow.in/4714/madeeasy-work-book</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"670\"></a><div itemprop=\"text\">If a person increases his speed by 1 km/hr he reaches his office in 3/4th of the time he normally takes and if he decreases his speed by 1 km/hr, he reaches his office 2 hrs late. What distance dose the person travels to his office?<br>\n<br>\n(a) 10 kms &nbsp;(b) 8 kms<br>\n<br>\n(b) 12 kms &nbsp;(d) 9 kms</div><br><br><b>Quantitative Aptitude: speeed distance time</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/670/speeed-distance-time\" target=\"_blank\">https://aptitude.gateoverflow.in/670/speeed-distance-time</a></p>"
+        }
+      ]
+    }
+  ]
+});

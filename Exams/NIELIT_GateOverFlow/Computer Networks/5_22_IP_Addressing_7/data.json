@@ -1,0 +1,116 @@
+{
+  "title": "Computer Networks - IP Addressing",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "IP Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336650\"></a><div itemprop=\"text\"><p>Which protocol finds the MAC address from IP address?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SMTP</p>",
+            "<p>ICMP</p>",
+            "<p>ARP</p>",
+            "<p>RARP</p>"
+          ],
+          "correct_answer": "<p>ARP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336650/nielit-2016-dec-scientist-b-it-section-b-19\" target=\"_blank\">https://gateoverflow.in/336650/nielit-2016-dec-scientist-b-it-section-b-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336834\"></a><div itemprop=\"text\"><p>In classless addressing, there are no classes but addresses are still granted in :&nbsp;</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Codes</p>",
+            "<p>Blocks</p>",
+            "<p>IPs</p>",
+            "<p>Sizes</p>"
+          ],
+          "correct_answer": "<p>Blocks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336834/nielit-2017-dec-scientific-assistant-a-section-b-12\" target=\"_blank\">https://gateoverflow.in/336834/nielit-2017-dec-scientific-assistant-a-section-b-12</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336822\"></a><div itemprop=\"text\"><p>A subnet mask in class \\( C \\) can have _____________ \\( 1 \\)’s&nbsp;with the remaining bits \\( 0 \\)’s.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 24 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336822/nielit-2017-dec-scientific-assistant-a-section-b-24\" target=\"_blank\">https://gateoverflow.in/336822/nielit-2017-dec-scientific-assistant-a-section-b-24</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336801\"></a><div itemprop=\"text\"><p>In \\( IPv4 \\) Addresses, classfull addressing is replaced with :</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Classless Addressing</p>",
+            "<p>Classfull Addressing</p>",
+            "<p>Subnet Advertising</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Classless Addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336801/nielit-2017-dec-scientific-assistant-a-section-b-45\" target=\"_blank\">https://gateoverflow.in/336801/nielit-2017-dec-scientific-assistant-a-section-b-45</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"275496\"></a><div itemprop=\"text\"><p>_____ IP address can be used in WAN</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 256.0.0.1 \\)</p>",
+            "<p>\\( 172.16.0.10 \\)</p>",
+            "<p>\\( 15.1.5.6 \\)</p>",
+            "<p>\\( 127.256.0.1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15.1.5.6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275496/nielit-2018-68\" target=\"_blank\">https://gateoverflow.in/275496/nielit-2018-68</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"373722\"></a><div itemprop=\"text\"><p>The routing table of a router &nbsp;is shown below:<br>\n\\[ \\begin{array}{|l|l|l|} \\hline \\textbf {Destination} &amp; \\textbf {Subnet Mask} &amp; \\textbf{Interface}&nbsp; \\\\\\hline \\text {128.75.43.0} &amp; &nbsp;\\text{255.255.255.0} &amp; \\text{Eth0}&nbsp;\\\\\\hline\\text {128.75.43.0} &amp; &nbsp;\\text{255.255.255.128} &amp; \\text{Eth1} \\\\\\hline\\text {192.12.17.5} &amp; &nbsp;\\text{255.255.255.255} &amp; \\text{Eth3}\\\\\\hline \\text {default} &amp; &nbsp;\\text{Eth2} &amp; \\\\\\hline\\end{array} \\]</p>\n\n<p><br>\nOn which interfaces will the router forward packets addressed to destinations \\( 128.75.43.16 \\) and \\( 192.12.17.10 \\) respectively?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2022 April Scientist B | Section B | Question: 116</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Eth\\( 1 \\) and Eth\\( 2 \\)</p>",
+            "<p>Eth\\( 0 \\) and Eth\\( 2 \\)</p>",
+            "<p>Eth\\( 0 \\) and Eth\\( 3 \\)</p>",
+            "<p>Eth\\( 1 \\) and Eth\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>Eth\\( 1 \\) and Eth\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373722/nielit-2022-april-scientist-b-section-b-question-116\" target=\"_blank\">https://gateoverflow.in/373722/nielit-2022-april-scientist-b-section-b-question-116</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351565\"></a><div itemprop=\"text\"><p>You are working with a network that is \\( 172.16.0.0 \\) and would like to support \\( 600 \\) hosts per subnet. What subnet mask should you use?</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 117</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 255.255.192.0 \\)</p>",
+            "<p>\\( 255.255.224.0 \\)</p>",
+            "<p>\\( 255.255.252.0 \\)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>\\( 255.255.252.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351565/nielit-scientist-b-2020-november-117\" target=\"_blank\">https://gateoverflow.in/351565/nielit-scientist-b-2020-november-117</a></p>"
+        }
+      ]
+    }
+  ]
+}

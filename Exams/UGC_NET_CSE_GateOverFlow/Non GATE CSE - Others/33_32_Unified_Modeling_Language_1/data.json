@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - Unified Modeling Language",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Unified Modeling Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56294\"></a><div itemprop=\"text\"><p>Which diagram provides a formal graphic notation for modelling objects, classes and their relationships to one another?</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2012 | Part 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Object diagram</p>",
+            "<p>Class diagram</p>",
+            "<p>Instance diagram</p>",
+            "<p>Analysis diagram</p>"
+          ],
+          "correct_answer": "<p>Object diagram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56294/ugc-net-cse-june-2012-part-3-question-44\" target=\"_blank\">https://gateoverflow.in/56294/ugc-net-cse-june-2012-part-3-question-44</a></p>"
+        }
+      ]
+    }
+  ]
+}

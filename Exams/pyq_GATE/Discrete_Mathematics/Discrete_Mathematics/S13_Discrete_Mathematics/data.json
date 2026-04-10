@@ -1,0 +1,236 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 13",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a company that assembles computers. The probability of a faulty assembly of any computer is p. The company therefore subjects each computer to a testing process. This testing process gives the correct result for any computer with a probability of q. What is the probability of a computer being declared faulty? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>pq + (1 - p) (1 - q)</p>",
+            "<b>B.</b> <p>(1 - q)p</p>",
+            "<b>C.</b> <p>(1 - p) q</p>",
+            "<b>D.</b> <p>pq</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>pq + (1 - p) (1 - q)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1152/gate2010-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the set S = {1, \\(\\omega ,\\omega ^{2}\\)}, where \\(\\omega\\) and \\(\\omega ^{2}\\) are cube roots of unity. If * denotes the multiplication operation, the structure (S, *) forms <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A group</p>",
+            "<b>B.</b> <p>A ring</p>",
+            "<b>C.</b> <p>An integral domain</p>",
+            "<b>D.</b> <p>A field</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1150/gate2010-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the possible number of reflexive relations on a set of 5 elements? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{10}\\)</p>",
+            "<b>B.</b> <p>\\(2^{15}\\)</p>",
+            "<b>C.</b> <p>\\(2^{20}\\)</p>",
+            "<b>D.</b> <p>\\(2^{25}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{20}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1149/gate2010-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let G=(V, E) be a graph. Define \\(\\xi (G)=\\sum_{d}i_{d}*d\\) , where \\(i_{d}\\) is the number of\nvertices of degree d in G. If S and T are two different trees with \\(\\xi (S)=\\xi (T)\\) , then <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>|S|= 2|T|</p>",
+            "<b>B.</b> <p>|S|=|T|-1</p>",
+            "<b>C.</b> <p>|S|=|T|</p>",
+            "<b>D.</b> <p>|S|=|T|+1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>|S|=|T|</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1147/gate2010-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following well-formed formulae:<br> I. \\(\\neg \\forall x(P(x))\\) <br> II. \\(\\neg \\exists x(P(x))\\) <br>  III. \\(\\neg \\exists x(\\neg P(x))\\)  <br> IV. \\(\\exists x(\\neg P(x))\\)<br> Which of the above are equivalent? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and III</p>",
+            "<b>B.</b> <p>I and IV</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>II and IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/803/gate2009-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following is the most appropriate logical formula to represent\nthe statement? <br><br>\"Gold and silver ornaments are precious\".\n<br><br> The following notations are used: <br><br>\nG(x): x is a gold ornament<br>\nS(x): x is a silver ornament<br>\nP(x): x is precious <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(P(x)\\rightarrow (G(x)\\wedge S(x)))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x((G(x) \\wedge S(x)) \\rightarrow P(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x((G(x) \\wedge S(x)) \\rightarrow P(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x((G(x) \\vee S(x)) \\rightarrow P(x))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x((G(x) \\vee S(x)) \\rightarrow P(x))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/800/gate2009-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>For the composition table of a cyclic group shown below  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q22_d0235942.jpg\"> <br>Which one of the following choices is correct? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a, b are generators</p>",
+            "<b>B.</b> <p>b, c are generators</p>",
+            "<b>C.</b> <p>c, d are generators</p>",
+            "<b>D.</b> <p>d, a are generators</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>c, d are generators</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/799/gate2009-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>An unbalanced dice (with 6 faces, numbered from 1 to 6) is thrown. The\nprobability that the face value is odd is 90% of the probability that the face value\nis even. The probability of getting any even numbered face is the same. <br>\nIf the probability that the face is even given that it is greater than 3 is 0.75,\nwhich one of the following options is closest to the probability that the face value exceeds 3? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.453</p>",
+            "<b>B.</b> <p>0.468</p>",
+            "<b>C.</b> <p>0.485</p>",
+            "<b>D.</b> <p>0.492</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0.468</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/798/gate2009-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the binary relation R = {(x,y), (x,z), (z,x), (z,y)} on the set {x,y,z}.\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R is symmetric but NOT antisymmetric</p>",
+            "<b>B.</b> <p>R is NOT symmetric but antisymmetric</p>",
+            "<b>C.</b> <p>R is both symmetric and antisymmetric</p>",
+            "<b>D.</b> <p>R is neither symmetric nor antisymmetric</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>R is neither symmetric nor antisymmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/797/gate2009-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following is TRUE for any simple connected undirected graph\nwith more than 2 vertices? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>No two vertices have the same degree.</p>",
+            "<b>B.</b> <p>At least two vertices have the same degree.</p>",
+            "<b>C.</b> <p>At least three vertices have the same degree.</p>",
+            "<b>D.</b> <p>All vertices have the same degree.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At least two vertices have the same degree.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/804/gate2009-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the chromatic number of an n-vertex simple connected graph which does\nnot contain any odd length cycle? Assume n\\(\\geq\\)2. <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/796/gate2009-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following in NOT necessarily a property of a Group? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Commutativity</p>",
+            "<b>B.</b> <p>Associativity</p>",
+            "<b>C.</b> <p>Existence of inverse for every element</p>",
+            "<b>D.</b> <p>Existence of identity</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Commutativity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/795/gate2009-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following sequence of nodes for the undirected graph given below:<br>\n1.a b e f d g c<br>\n2.a b e f c g d<br>\n3.a d g e b c f<br>\n4.a d b c g e f<br>\nA Depth First Search (DFS) is started at node a. The nodes are listed in the order they are first visited. Which of the above is/are possible output(s)?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q47_3d5ab5a5.jpg\"><br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 3 only</p>",
+            "<b>B.</b> <p>2 and 3 only</p>",
+            "<b>C.</b> <p>2, 3 and 4 only</p>",
+            "<b>D.</b> <p>1, 2 and 3 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 and 3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3357/gate2008-it-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following Hasse diagrams.<br>i.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q28a_08279c24.jpg\"><br>ii.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q28b_c4039267.jpg\"><br>iii.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q28c_758411ea.jpg\"><br>iv.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q28d_7c96af31.jpg\"><br>Which all of the above represent a lattice? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (iv) only</p>",
+            "<b>B.</b> <p>(ii) and (iii) only</p>",
+            "<b>C.</b> <p>(iii) only</p>",
+            "<b>D.</b> <p>(i), (ii) and (iv) only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(i) and (iv) only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3318/gate2008-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>G is a simple undirected graph. Some vertices of G are of odd degree. Add a node v to G and make it adjacent to each odd degree vertex of G. The resultant graph is sure to be <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular</p>",
+            "<b>B.</b> <p>complete</p>",
+            "<b>C.</b> <p>Hamiltonian</p>",
+            "<b>D.</b> <p>Euler</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Euler</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3317/gate2008-it-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

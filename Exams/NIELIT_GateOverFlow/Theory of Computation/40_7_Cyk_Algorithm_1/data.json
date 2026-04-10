@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Cyk Algorithm",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cyk Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336263\"></a><div itemprop=\"text\"><p>Let \\( n \\) is the length of string to test for membership, then the number of table entry in CYK algorithm is</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n(n+1) \\)</p>",
+            "<p>\\( n^2+1 \\)</p>",
+            "<p>\\( n^2-1 \\)</p>",
+            "<p>\\( n(n+1)/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n(n+1)/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336263/nielit-2017-dec-scientist-b-section-b-50\" target=\"_blank\">https://gateoverflow.in/336263/nielit-2017-dec-scientist-b-section-b-50</a></p>"
+        }
+      ]
+    }
+  ]
+}

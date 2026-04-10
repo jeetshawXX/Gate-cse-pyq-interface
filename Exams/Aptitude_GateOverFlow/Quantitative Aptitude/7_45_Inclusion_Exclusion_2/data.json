@@ -1,0 +1,41 @@
+{
+  "title": "Quantitative Aptitude - Inclusion Exclusion",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Inclusion Exclusion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6266\"></a><div itemprop=\"text\"><p>Deepika had four papers in her matriculation exam- English, Hindi, Social Studies and Science each carrying a maximum of \\( 100 \\) marks. Her uncle offered her a Paulo Coelho book as a present if she got \\( 60\\% \\) or more in both English and Social Studies, provided she got an aggregate of at least \\( 200 \\). He also offered her a Harry Potter book as a present if she got \\( 60\\% \\) or more in both Hindi and Social Studies provided she got an aggregate of at least \\( 200 \\) (Deepika was eligible for both the presents). As it turned out, Deepika got the Paulo Coelho book &nbsp;but not the Harry Potter book. If she scored \\( 64 \\) in both English and Social Studies, the minimum that she got in Science was.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 56 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6266/nielit-2017-dec-scientist-b-section-a-46\" target=\"_blank\">https://aptitude.gateoverflow.in/6266/nielit-2017-dec-scientist-b-section-a-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6258\"></a><div itemprop=\"text\"><p>There is a class of \\( 120 \\) students in St. Pauľs College. All the students are numbered \\( 1 \\) to \\( 120 \\), where in all even numbered students opt for History, those numbers are divisible by \\( 5 \\) opt for Geography and those whose numbers are divisible by \\( 7 \\) opt for Political Science. How many opt for none of the three subjects ?&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 41 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 57 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 41 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6258/nielit-2017-dec-scientist-b-section-a-54\" target=\"_blank\">https://aptitude.gateoverflow.in/6258/nielit-2017-dec-scientist-b-section-a-54</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - Array of Pointers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Array of Pointers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435327\"></a><div itemprop=\"text\"><p>Pointer \\( p \\) to an array of integers (of size \\( 2 \\) Bytes) is initialised to \\( 200 \\). What is the value of \\( \\mathrm{p}+3 \\) ?</p></div><br><br><b>Programming in C: ISRO CSE 2023 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 206 \\)</p>",
+            "<p>\\( 203 \\)</p>",
+            "<p>\\( 212 \\)</p>",
+            "<p>\\( 204 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 206 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435327/isro-cse-2023-question-68\" target=\"_blank\">https://gateoverflow.in/435327/isro-cse-2023-question-68</a></p>"
+        }
+      ]
+    }
+  ]
+}

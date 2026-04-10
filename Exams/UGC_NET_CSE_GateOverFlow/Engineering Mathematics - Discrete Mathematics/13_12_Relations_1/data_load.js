@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Discrete Mathematics - Relations",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Relations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225798\"></a><div itemprop=\"text\"><p>Which of the relations on {0, 1, 2, 3} is an equivalence relation?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | July 2018 | Part 2 | Question: 88</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>{ (0, 0) (0, 2) (2, 0) (2, 2) (2, 3) (3, 2) (3, 3) }</p>",
+            "<p>{ (0, 0) (1, 2) (2, 2) (3, 3) }</p>",
+            "<p>{ (0, 0) (0, 1) (0, 2) (1, 0) (1, 1) (1, 2) (2, 0) }</p>",
+            "<p>{ (0, 0) (0, 2) (2, 3) (1, 1) (2, 2)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225798/ugc-net-cse-july-2018-part-2-question-88\" target=\"_blank\">https://gateoverflow.in/225798/ugc-net-cse-july-2018-part-2-question-88</a></p>"
+        }
+      ]
+    }
+  ]
+});

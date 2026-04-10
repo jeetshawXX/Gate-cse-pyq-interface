@@ -1,0 +1,319 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Subnetting",
+  "duration": 58,
+  "sections": [
+    {
+      "name": "Subnetting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"965\"></a><div itemprop=\"text\"><p>The subnet mask for a particular network is \\( 255.255.31.0. \\) Which of the following pairs of \\( \\text{IP} \\) addresses could belong to this network?</p>\n\n\n\n</div><br><br><b>GATE CSE 2003 | Question: 82, ISRO2009-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 172.57.88.62 \\) and \\( 172.56.87.23 \\)</p>",
+            "<p>\\( 10.35.28.2 \\) and \\( 10.35.29.4 \\)</p>",
+            "<p>\\( 191.203.31.87 \\) and \\( 191.234.31.88 \\)</p>",
+            "<p>\\( 128.8.129.43 \\) and \\( 128.8.161.55 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 128.8.129.43 \\) and \\( 128.8.161.55 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/965/gate-cse-2003-question-82-isro2009-1\" target=\"_blank\">https://gateoverflow.in/965/gate-cse-2003-question-82-isro2009-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1051\"></a><div itemprop=\"text\"><p>The routing table of a router &nbsp;is shown below:<br>\n\\[ \\begin{array}{|l|l|l|} \\hline \\textbf {Destination} &amp; \\textbf {Subnet Mask} &amp; \\textbf{Interface}&nbsp; \\\\\\hline \\text {128.75.43.0} &amp; &nbsp;\\text{255.255.255.0} &amp; \\text{Eth\\( 0 \\)}&nbsp;\\\\\\hline\\text {128.75.43.0} &amp; &nbsp;\\text{255.255.255.128} &amp; \\text{Eth\\( 1 \\)} \\\\\\hline\\text {192.12.17.5} &amp; &nbsp;\\text{255.255.255.255} &amp; \\text{Eth\\( 3 \\)}\\\\\\hline \\text {Default} &amp; &nbsp;\\text{} &amp; \\text{Eth\\( 2 \\)}\\\\\\hline\\end{array} \\]<br>\nOn which interface will the router forward packets addressed to destinations \\( 128.75.43.16 \\) and \\( 192.12.17.10 \\) respectively?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Eth\\( 1 \\) and Eth\\( 2 \\)</p>",
+            "<p>Eth\\( 0 \\) and Eth\\( 2 \\)</p>",
+            "<p>Eth\\( 0 \\) and Eth\\( 3 \\)</p>",
+            "<p>Eth\\( 1 \\) and Eth\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>Eth\\( 1 \\) and Eth\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1051/gate-cse-2004-question-55\" target=\"_blank\">https://gateoverflow.in/1051/gate-cse-2004-question-55</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1363\"></a><div itemprop=\"text\"><p>An organization has a class \\( B \\) network and wishes to form subnets for \\( 64 \\) departments. The subnet mask would be:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 255.255.0.0 \\)</p>",
+            "<p>\\( 255.255.64.0 \\)</p>",
+            "<p>\\( 255.255.128.0 \\)</p>",
+            "<p>\\( 255.255.252.0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 255.255.252.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1363/gate-cse-2005-question-27\" target=\"_blank\">https://gateoverflow.in/1363/gate-cse-2005-question-27</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1821\"></a><div itemprop=\"text\"><p>Two computers \\( C1 \\) and \\( C2 \\) are configured as follows. \\( C1 \\) has IP address \\( 203.197.2.53 \\) and netmask&nbsp;\\( 255.255.128.0 \\). \\( C2 \\) has IP address \\( 203.197.75.201 \\) and netmask&nbsp;\\( 255.255.192.0 \\). Which one of the following statements is true?</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( C1 \\) and \\( C2 \\) both assume they are on the same network</p>",
+            "<p>\\( C2 \\) assumes \\( C1 \\) is on same network, but \\( C1 \\) assumes \\( C2 \\) is on a different network</p>",
+            "<p>\\( C1 \\) assumes \\( C2 \\) is on same network, but \\( C2 \\) assumes \\( C1 \\) is on a different network</p>",
+            "<p>\\( C1 \\) and \\( C2 \\) both assume they are on different networks.</p>"
+          ],
+          "correct_answer": "<p>\\( C1 \\) assumes \\( C2 \\) is on same network, but \\( C2 \\) assumes \\( C1 \\) is on a different network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1821/gate-cse-2006-question-45\" target=\"_blank\">https://gateoverflow.in/1821/gate-cse-2006-question-45</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1265\"></a><div itemprop=\"text\"><p>The address of a class&nbsp;\\( \\text{B} \\) host is to be split into subnets with a \\( 6\\;\\text{-bit} \\) subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 67, ISRO2016-72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 62 \\) subnets and \\( 262142 \\) hosts.</p>",
+            "<p>\\( 64 \\) subnets and \\( 262142 \\) hosts.</p>",
+            "<p>\\( 62 \\)&nbsp;subnets and \\( 1022 \\) hosts.</p>",
+            "<p>\\( 64 \\)&nbsp;subnets and \\( 1024 \\) hosts.</p>"
+          ],
+          "correct_answer": "<p>\\( 62 \\)&nbsp;subnets and \\( 1022 \\) hosts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1265/gate-cse-2007-question-67-isro2016-72\" target=\"_blank\">https://gateoverflow.in/1265/gate-cse-2007-question-67-isro2016-72</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"480\"></a><div itemprop=\"text\"><p>If a class \\( B \\) network on the Internet has a subnet mask of \\( 255.255.248.0 \\), what is the maximum number of hosts per subnet?</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1022 \\)</p>",
+            "<p>\\( 1023 \\)</p>",
+            "<p>\\( 2046 \\)</p>",
+            "<p>\\( 2047 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2046 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/480/gate-cse-2008-question-57\" target=\"_blank\">https://gateoverflow.in/480/gate-cse-2008-question-57</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2349\"></a><div itemprop=\"text\"><p>Suppose computers \\( A \\) and \\( B \\) have \\( IP \\) addresses \\( 10.105.1.113 \\) and \\( 10.105.1.91 \\) respectively and they both use same netmask&nbsp;\\( N \\).&nbsp;Which of the values of \\( N \\) given below should not be used if \\( A \\) and \\( B \\) should belong to the same network?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 255.255.255.0 \\)</p>",
+            "<p>\\( 255.255.255.128 \\)</p>",
+            "<p>\\( 255.255.255.192 \\)</p>",
+            "<p>\\( 255.255.255.224 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 255.255.255.224 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2349/gate-cse-2010-question-47\" target=\"_blank\">https://gateoverflow.in/2349/gate-cse-2010-question-47</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1752\"></a><div itemprop=\"text\"><p>An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available with it: \\( 245.248.128.0/20 \\). The ISP wants to give half of this chunk of addresses to Organization \\( A \\), and a quarter to Organization \\( B \\), while retaining the remaining with itself. Which of the following is a valid allocation of addresses to \\( A \\) and \\( B \\)?</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 34, ISRO-DEC2017-32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 245.248.136.0/21 \\text{ and } 245.248.128.0/22 \\)</p>",
+            "<p>\\( 245.248.128.0/21 \\text{ and } &nbsp;245.248.128.0/22 \\)</p>",
+            "<p>\\( 245.248.132.0/22 \\text{ and } &nbsp;245.248.132.0/21 \\)</p>",
+            "<p>\\( 245.248.136.0/24 \\text{ and } &nbsp;245.248.132.0/21 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 245.248.136.0/21 \\text{ and } 245.248.128.0/22 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1752/gate-cse-2012-question-34-isro-dec2017-32\" target=\"_blank\">https://gateoverflow.in/1752/gate-cse-2012-question-34-isro-dec2017-32</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"8213\"></a><div itemprop=\"text\"><p>Consider the following routing table at an IP router:<br>\\[ \\begin{array}{|l|l|l|} \\hline \\textbf {Network No} &amp; \\textbf {Net Mask} &amp; \\textbf{Next Hop}&nbsp; \\\\\\hline \\text {128.96.170.0} &amp; &nbsp;\\text{255.255.254.0} &amp; \\text{Interface \\( 0 \\)}&nbsp;\\\\\\hline\\text {128.96.168.0} &amp; &nbsp;\\text{255.255.254.0} &amp; \\text{Interface \\( 1 \\)} \\\\\\hline\\text {128.96.166.0} &amp; &nbsp;\\text{255.255.254.0} &amp; \\text{R\\( 2 \\)}\\\\\\hline \\text {128.96.164.0} &amp; &nbsp;\\text{255.255.252.0} &amp; \\text{R\\( 3 \\)}\\\\\\hline \\text {0.0.0.0} &amp; &nbsp;\\text{Default} &amp; \\text{R\\( 4 \\)}\\\\\\hline \\end{array} \\]<br>For each IP&nbsp;address in Group I Identify the correct choice of the next hop from Group II using the entries from the routing table above.<br>\\[ \\begin{array}{|ll|ll|} \\hline &amp; \\textbf {Group I} &amp;&nbsp; \\textbf {Group II}&nbsp; \\\\\\hline<br>&amp;\\text{i)&nbsp; &nbsp;128.96.171.92} &amp; &nbsp;\\text{a) Interface 0}&nbsp;\\\\ \\hline<br>&amp;\\text{ii)&nbsp; 128.96.167.151} &amp; &nbsp;\\text{b) Interface 1} \\\\\\hline<br>&amp;\\text{iii) 128.96.163.151} &amp; \\text{c) R\\( 2 \\)}\\\\ \\hline<br>&amp;\\text{iv) 128.96.164.121} &amp; \\text{d) R\\( 3 \\)}\\\\&nbsp;\\hline<br>&amp;\\text {} &amp; \\text{e) R\\( 4 \\)}\\\\\\hline \\end{array} \\]</p></div><br><br><b>GATE CSE 2015 Set 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i-a, ii-c, iii-e, iv-d} \\)</p>",
+            "<p>\\( \\text{i-a, ii-d, iii-b, iv-e} \\)</p>",
+            "<p>\\( \\text{i-b, ii-c, iii-d, iv-e} \\)</p>",
+            "<p>\\( \\text{i-b, ii-c, iii-e, iv-d} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i-a, ii-c, iii-e, iv-d} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8213/gate-cse-2015-set-2-question-41\" target=\"_blank\">https://gateoverflow.in/8213/gate-cse-2015-set-2-question-41</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"8497\"></a><div itemprop=\"text\">In the network \\( 200.10.11.144/27 \\), the \\( \\text{fourth} \\) octet (in decimal) of the last \\( \\text{IP} \\) address of the network which can be assigned to a host is _______.</div><br><br><b>GATE CSE 2015 Set 3 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "158",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8497/gate-cse-2015-set-3-question-38\" target=\"_blank\">https://gateoverflow.in/8497/gate-cse-2015-set-3-question-38</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"302820\"></a><div itemprop=\"text\"><p>Consider three machines M, N, and P with IP addresses \\( 100.10.5.2, \\: 100.10.5.5 \\), and \\( 100.10.5.6 \\) respectively. The subnet mask is set to \\( 255.255.255.252 \\) for all the three machines. Which one of the following is true?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>M, N, and P all belong to the same subnet</p>",
+            "<p>Only M and N belong to the same subnet</p>",
+            "<p>Only N and P belong to the same subnet</p>",
+            "<p>M, N, and P belong to three different subnets</p>"
+          ],
+          "correct_answer": "<p>Only N and P belong to the same subnet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302820/gate-cse-2019-question-28\" target=\"_blank\">https://gateoverflow.in/302820/gate-cse-2019-question-28</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"333193\"></a><div itemprop=\"text\"><p>An organization requires a range of IP address to assign one to each of its \\( 1500 \\) computers. The organization has approached&nbsp;an Internet Service Provider (ISP) for this task. The ISP uses CIDR&nbsp;and serves the requests from the available IP address space \\( 202.61.0.0/17 \\). The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP’s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization?</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( 202.61.84.0/21 \\)</li>\n\t<li>\\( 202.61.104.0/21 \\)</li>\n\t<li>\\( 202.61.64.0/21 \\)</li>\n\t<li>\\( 202.61.144.0/21 \\)</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2020 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{I} \\) and \\( \\text{II} \\) only</p>",
+            "<p>\\( \\text{II} \\) and \\( \\text{III} \\)&nbsp; only</p>",
+            "<p>\\( \\text{III} \\) and \\( \\text{IV} \\) only</p>",
+            "<p>\\( \\text{I} \\) and \\( \\text{IV} \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{II} \\) and \\( \\text{III} \\)&nbsp; only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333193/gate-cse-2020-question-38\" target=\"_blank\">https://gateoverflow.in/333193/gate-cse-2020-question-38</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"371891\"></a><div itemprop=\"text\"><p>Consider routing table of an organization’s router shown below:</p>\n\n<p>\\[ \\begin{array} {|l|l|l|} \\hline \\text{Subnet Number} &amp; \\text{Subnet Mask} &amp; \\text{Next Hop} \\\\\\hline 12.20.164.0 &amp; 255.255.252.0 &amp; \\text{R1} \\\\\\hline&nbsp; 12.20.170.0 &amp; 255.255.254.0 &amp; \\text{R2} \\\\\\hline 12.20.168.0 &amp; 255.255.254.0 &amp; \\text{Interface 0} \\\\\\hline 12.20.166.0 &amp; 255.255.254.0 &amp; \\text{Interface 1} \\\\\\hline \\text{default} &amp; &amp; \\text{R3} \\\\\\hline \\end{array} \\]</p>\n\n<p>Which of the following prefixes in \\( \\text{CIDR} \\) notation can be collectively used to correctly aggregate all of the subnets in the routing table?</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 45</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( 12.20.164.0/20 \\)</p>",
+            "<p>\\( 12.20.164.0/22 \\)</p>",
+            "<p>\\( 12.20.164.0/21 \\)</p>",
+            "<p>\\( 12.20.168.0/22 \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( 12.20.164.0/22 \\)</p>",
+            "<p>\\( 12.20.168.0/22 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371891/gate-cse-2022-question-45\" target=\"_blank\">https://gateoverflow.in/371891/gate-cse-2022-question-45</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"399256\"></a><div itemprop=\"text\">The forwarding table of a router is shown below.<br>\n\\[ \\begin{array}{|l|l|c|}<br>\n\\hline \\textbf{Subnet Number} &amp; \\textbf{Subnet Mask} &amp; \\textbf{Interface ID} \\\\<br>\n\\hline 200.150 .0 .0 &amp; 255.255 .0 .0 &amp; 1 \\\\<br>\n\\hline 200.150 .64 .0 &amp; 255.255 .224 .0 &amp; 2 \\\\<br>\n\\hline 200.150 .68 .0 &amp; 255.255 .255 .0 &amp; 3 \\\\<br>\n\\hline 200.150 .68 .64 &amp; 255.255 .255 .224 &amp; 4 \\\\<br>\n\\hline \\text{Default} &amp; &amp; 0 \\\\<br>\n\\hline<br>\n\\end{array} \\]<br>\nA packet addressed to a destination address \\( 200.150 .68 .118 \\) arrives at the router. It will be forwarded to the interface with \\( \\text{ID} \\) __________.</div><br><br><b>GATE CSE 2023 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399256/gate-cse-2023-question-55\" target=\"_blank\">https://gateoverflow.in/399256/gate-cse-2023-question-55</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"460050\"></a><div itemprop=\"text\"><p>A packet with the destination \\( \\text{IP} \\) address \\( 145.36 .109 .70 \\) arrives at a router whose routing table is shown. Which interface will the packet be forwarded to?</p><p>\\[ \\begin{array}{|l|l|l|} \\hline \\textbf{Subnet Address} &amp; \\textbf{Subnet Mask ( in CIDR notation)} &amp; \\textbf{Interface} \\\\ \\hline 145.36.0.0 &amp; /16 &amp; E1 \\\\ \\hline 145.36.128.0 &amp; /17 &amp; E2 \\\\ \\hline 145.36.64.0 &amp; /18 &amp; E3 \\\\ \\hline 145.36.255.0 &amp; /24 &amp; E4 \\\\ \\hline \\text{Default} &amp; - &amp; E5 \\\\ \\hline \\end{array} \\]</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{E3} \\)</p>",
+            "<p>\\( \\text{E1} \\)</p>",
+            "<p>\\( \\text{E2} \\)</p>",
+            "<p>\\( \\text{E5} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{E3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460050/gate-cse-2025-set-1-question-30\" target=\"_blank\">https://gateoverflow.in/460050/gate-cse-2025-set-1-question-30</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"3667\"></a><div itemprop=\"text\"><p>A subnet has been assigned a subnet mask of \\( 255.255.255.192 \\). What is the maximum number of hosts that can belong to this subnet?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 62 \\)</p>",
+            "<p>\\( 126 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 62 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3667/gate-it-2004-question-26\" target=\"_blank\">https://gateoverflow.in/3667/gate-it-2004-question-26</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"3839\"></a><div itemprop=\"text\"><p>A company has a class \\( C \\) network address of \\( 204.204.204.0 \\). It wishes to have three subnets, one with \\( 100 \\) hosts and two with \\( 50 \\) hosts each. Which one of the following options represents a feasible set of subnet address/subnet mask pairs?</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 204.204.204.128/255.255.255.192 \\)<br>\n\t\\( 204.204.204.0/255.255.255.128 \\)<br>\n\t\\( 204.204.204.64/255.255.255.128 \\)</p>",
+            "<p>\\( 204.204.204.0/255.255.255.192 \\)<br>\n\t\\( 204.204.204.192/255.255.255.128 \\)<br>\n\t\\( 204.204.204.64/255.255.255.128 \\)</p>",
+            "<p>\\( 204.204.204.128/255.255.255.128 \\)<br>\n\t\\( 204.204.204.192/255.255.255.192 \\)<br>\n\t\\( 204.204.204.224/255.255.255.192 \\)</p>",
+            "<p>\\( 204.204.204.128/255.255.255.128 \\)<br>\n\t\\( 204.204.204.64/255.255.255.192 \\)<br>\n\t\\( 204.204.204.0/255.255.255.192 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 204.204.204.128/255.255.255.128 \\)<br>\n\t\\( 204.204.204.64/255.255.255.192 \\)<br>\n\t\\( 204.204.204.0/255.255.255.192 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3839/gate-it-2005-question-76\" target=\"_blank\">https://gateoverflow.in/3839/gate-it-2005-question-76</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"3607\"></a><div itemprop=\"text\"><p>A router uses the following routing table:</p>\n\n<p>\\begin{array}{|l|l|l|} \\hline \\textbf {Destination} &amp; \\textbf {&nbsp;Mask} &amp; \\textbf{Interface}&nbsp; \\\\\\hline \\text {144.16.0.0} &amp; &nbsp;\\text{255.255.0.0} &amp; \\text{eth\\( 0 \\)}&nbsp;\\\\\\hline\\text {144.16.64.0} &amp; &nbsp;\\text{255.255.224.0} &amp; \\text{eth\\( 1 \\)} \\\\\\hline\\text {144.16.68.0} &amp; &nbsp;\\text{255.255.255.0} &amp; \\text{eth\\( 2 \\)}\\\\\\hline \\text {144.16.68.64} &amp; &nbsp;\\text{255.255.255.224} &amp; \\text{eth\\( 3 \\)}\\\\\\hline\\end{array}</p>\n\n<p>&nbsp;Packet bearing a destination address \\( 144.16.68.117 \\) arrives at the router. On which interface will it be forwarded?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 63, ISRO2015-57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>eth\\( 0 \\)</p>",
+            "<p>eth\\( 1 \\)</p>",
+            "<p>eth\\( 2 \\)</p>",
+            "<p>eth\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>eth\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3607/gate-it-2006-question-63-isro2015-57\" target=\"_blank\">https://gateoverflow.in/3607/gate-it-2006-question-63-isro2015-57</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"3614\"></a><div itemprop=\"text\"><p>A subnetted Class \\( B \\) network has the following broadcast address: \\( 144.16.95.255 \\)</p>\n\n<p>Its subnet mask</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is necessarily \\( 255.255.224.0 \\)</p>",
+            "<p>is necessarily \\( 255.255.240.0 \\)</p>",
+            "<p>is necessarily \\( 255.255.248.0 \\)</p>",
+            "<p>could be any one of \\( 255.255.224.0 \\), \\( 255.255.240.0 \\),\\( 255.255.248.0 \\)</p>"
+          ],
+          "correct_answer": "<p>could be any one of \\( 255.255.224.0 \\), \\( 255.255.240.0 \\),\\( 255.255.248.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3614/gate-it-2006-question-70\" target=\"_blank\">https://gateoverflow.in/3614/gate-it-2006-question-70</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"3408\"></a><div itemprop=\"text\"><p>Host \\( X \\) has IP address \\( 192.168.1.97 \\) and is connected through two routers \\( R1 \\) and \\( R2 \\) to an­other host \\( Y \\) with IP address \\( 192.168.1.80 \\). Router \\( R1 \\) has IP addresses \\( 192.168.1.135 \\) and \\( 192.168.1.110 \\). \\( R2 \\) has IP addresses \\( 192.168.1.67 \\) and \\( 192.168.1.155 \\). The netmask used in the network is \\( 255.255.255.224 \\).</p>\n\n<p>Given the information above, how many distinct subnets are guaranteed to already exist in the network?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 84</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3408/gate-it-2008-question-84\" target=\"_blank\">https://gateoverflow.in/3408/gate-it-2008-question-84</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"3409\"></a><div itemprop=\"text\"><p>Host \\( X \\) has \\( IP \\) address \\( 192.168.1.97 \\) and is connected through two routers \\( R1 \\) and \\( R2 \\) to an­other host \\( Y \\) with \\( IP \\) address \\( 192.168.1.80 \\). Router \\( R1 \\) has \\( IP \\) addresses \\( 192.168.1.135 \\) and \\( 192.168.1.110 \\). \\( R2 \\) has \\( IP \\) addresses \\( 192.168.1.67 \\) and \\( 192.168.1.155 \\). The netmask used in the network is \\( 255.255.255.224 \\).</p>\n\n<p>Which \\( IP \\) address should \\( X \\)&nbsp;configure its gateway as?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 192.168.1.67 \\)</p>",
+            "<p>\\( 192.168.1.110 \\)</p>",
+            "<p>\\( 192.168.1.135 \\)</p>",
+            "<p>\\( 192.168.1.155 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 192.168.1.110 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3409/gate-it-2008-question-85\" target=\"_blank\">https://gateoverflow.in/3409/gate-it-2008-question-85</a></p>"
+        }
+      ]
+    }
+  ]
+});

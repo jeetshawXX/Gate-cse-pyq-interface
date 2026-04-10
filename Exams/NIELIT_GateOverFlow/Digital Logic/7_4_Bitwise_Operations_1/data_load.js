@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Bitwise Operations",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bitwise Operations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369300\"></a><div itemprop=\"text\"><p>What happens when a bit string is \\( \\text{XORed} \\) with itself \\( \\text{n} \\) times as shown below ?</p>\n\n<p>\\(  [ \\text{B}\\oplus (&nbsp; \\text{B}\\oplus (&nbsp; \\text{B}\\oplus (&nbsp; \\text{B}\\dots\\dots&nbsp;\\text{n&nbsp; times} ]  \\)</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Complements when \\( \\text{n} \\) is even</p>",
+            "<p>Complements when \\( \\text{n} \\) is odd</p>",
+            "<p>Divides by \\( 2^{n} \\) always</p>",
+            "<p>Remains unchanged when \\( \\text{n} \\) is even</p>"
+          ],
+          "correct_answer": "<p>Remains unchanged when \\( \\text{n} \\) is even</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369300/nielit-2021-dec-scientist-a-section-b-113\" target=\"_blank\">https://gateoverflow.in/369300/nielit-2021-dec-scientist-a-section-b-113</a></p>"
+        }
+      ]
+    }
+  ]
+});

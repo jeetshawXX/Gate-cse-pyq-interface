@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Integration",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Integration",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275548\"></a><div itemprop=\"text\"><p>The value of \\( \\int_c \\frac{2x^2-5}{(x+2)^2 (x^2+4)x^2}dx \\), (where \\( c \\) is the square with vertices \\( 1+i, 2+i, 2+2i, i+2i \\))&nbsp;is:</p>\n\n</div><br><br><b>Others: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\pi i \\)</p>",
+            "<p>\\( 2 \\pi i \\)</p>",
+            "<p>\\( 4 \\pi i \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275548/nielit-2018-16\" target=\"_blank\">https://gateoverflow.in/275548/nielit-2018-16</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275535\"></a><div itemprop=\"text\"><p>Using Green’s theorem in plane, evaluate \\( \\int_c (2x-y) dx + (x+y)dy \\), where \\( c \\) is the circle \\( x^2+y^2=4 \\) in the plane:</p>\n\n</div><br><br><b>Others: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\pi \\)</p>",
+            "<p>\\( 4 \\pi \\)</p>",
+            "<p>\\( -4 \\pi \\)</p>",
+            "<p>\\( 8 \\pi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\pi \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275535/nielit-2018-29\" target=\"_blank\">https://gateoverflow.in/275535/nielit-2018-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

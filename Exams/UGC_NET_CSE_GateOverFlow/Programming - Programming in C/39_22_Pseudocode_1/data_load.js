@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Pseudocode",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Pseudocode",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316258\"></a><div itemprop=\"text\"><p>Consider the following pseudo-code fragment in which an invariant for the loop is “ \\( m ^*x^k=p^n \\) and \\( k \\geq 0 \\) ” (here, \\( p \\) and \\( n \\) are integer variable that have been initialized):</p>\n\n<p>/* Pre-conditions : \\( p \\geq 1 \\wedge n \\geq 0 \\) */</p>\n\n<p>/* Assume that overflow never occurs */</p>\n\n<p>int \\( x=p \\); int \\( k=n \\); int \\( m=1 \\);</p>\n\n<p>while \\( (k &lt; &gt;0) \\) {</p>\n\n<p>if (k is odd) then \\( m=m^*x \\);</p>\n\n<p>\\( x=x^*x \\);</p>\n\n<p>\\( k=\\lfloor k/2 \\rfloor \\);&nbsp; &nbsp; &nbsp; &nbsp;/* floor\\( (k/2) \\) */</p>\n\n<p>}</p>\n\n<p>Which of the following must be true ar the end of the while loop?</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | June 2019 | Part 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x=p^n \\)</p>",
+            "<p>\\( m=p^n \\)</p>",
+            "<p>\\( p=x^n \\)</p>",
+            "<p>\\( p=m^n \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( m=p^n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316258/ugc-net-cse-june-2019-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/316258/ugc-net-cse-june-2019-part-2-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

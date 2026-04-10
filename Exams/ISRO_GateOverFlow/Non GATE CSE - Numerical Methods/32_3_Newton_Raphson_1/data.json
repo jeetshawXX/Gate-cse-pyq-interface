@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Numerical Methods - Newton Raphson",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Newton Raphson",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128599\"></a><div itemprop=\"text\"><p>Using Newton-Raphson method, a root correct to 3 decimal places of &nbsp;\\( x^3 - 3x -5 = 0 \\)</p>\n\n</div><br><br><b>Numerical Methods: ISRO CSE 2017 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2.222</p>",
+            "<p>2.275</p>",
+            "<p>2.279</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>2.279</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128599/isro-cse-2017-question-3\" target=\"_blank\">https://gateoverflow.in/128599/isro-cse-2017-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

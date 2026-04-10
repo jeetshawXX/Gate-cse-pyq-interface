@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Graph_Theory - Graph_Theory - Slot 2",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Graph_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G be an arbitrary graph with n nodes and k components. If a vertex is removed from G, the number of components in the resultant graph must necessarily lie down between <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k and n</p>",
+            "<b>B.</b> <p>k-1 and k+1</p>",
+            "<b>C.</b> <p>k-1 and n-1</p>",
+            "<b>D.</b> <p>k+1 and n-k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-1 and n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8-isro2009-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>If G is a graph with e edges and n vertices the sum of the degrees of all vertices in G is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>e</p>",
+            "<b>B.</b> <p>\\(e/2\\)</p>",
+            "<b>C.</b> <p>\\(e^2\\)</p>",
+            "<b>D.</b> <p>2 e</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 e</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50485/isro2009-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the graph shown in the figure below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q78_b62ea598.jpg\"><br>  Which of the following is a valid strong component? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a, c, d</p>",
+            "<b>B.</b> <p>a, b, d</p>",
+            "<b>C.</b> <p>b, c, d</p>",
+            "<b>D.</b> <p>a, b, c</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50146/isro2008-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25-isro2008-30-isro2016-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The number of distinct simple graphs with up to three nodes is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let X be the adjacency matrix of a graph G with no self loops. The entries along the principal diagonal of X are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>all zeros</p>",
+            "<b>B.</b> <p>all ones</p>",
+            "<b>C.</b> <p>both zeros and ones</p>",
+            "<b>D.</b> <p>different</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>all zeros</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49630/isro2007-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If a graph requires k different colours for its proper colouring, then the chromatic number of the graph is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>k</p>",
+            "<b>C.</b> <p>k-1</p>",
+            "<b>D.</b> <p>k/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49477/isro2007-07\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A graph with n vertices and n-1 edges that is not a tree, is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Connected</p>",
+            "<b>B.</b> <p>Disconnected</p>",
+            "<b>C.</b> <p>Euler</p>",
+            "<b>D.</b> <p>A circuit</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Disconnected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49476/isro2007-06\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

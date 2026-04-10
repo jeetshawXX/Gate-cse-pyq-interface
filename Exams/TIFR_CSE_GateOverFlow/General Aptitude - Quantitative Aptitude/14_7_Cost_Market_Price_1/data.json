@@ -1,0 +1,27 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Cost Market Price",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cost Market Price",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"21002\"></a><div itemprop=\"text\"><p>A certain pair of used shoes can be repaired for \\( Rs.1250 \\) and will last for \\( 1 \\) year. A pair of the same kind of shoes can be purchased new for \\( Rs.2800 \\) and will last for \\( 2 \\) years. The average cost per year of the new shoes is what percent greater than the cost of repairing the used shoes?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2012 | Part A | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5% \\)</p>",
+            "<p>\\( 12% \\)</p>",
+            "<p>\\( 15% \\)</p>",
+            "<p>\\( 3% \\)</p>",
+            "<p>\\( 24% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/21002/tifr-cse-2012-part-a-question-6\" target=\"_blank\">https://gateoverflow.in/21002/tifr-cse-2012-part-a-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

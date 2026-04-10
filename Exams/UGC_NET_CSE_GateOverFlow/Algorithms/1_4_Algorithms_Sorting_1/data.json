@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Algorithms Sorting",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Algorithms Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61090\"></a><div itemprop=\"text\"><p>Which of the following algorithms sort \\( n \\) integers, having the range \\( 0 \\) to \\( (n^2 -1) \\), in ascending order in \\( O(n) \\) time?</p></div><br><br><b>Algorithms: UGC NET CSE | Junet 2015 | Part 2 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Selection sort</p>",
+            "<p>Bubble&nbsp;sort</p>",
+            "<p>Radix&nbsp;sort</p>",
+            "<p>Insertion&nbsp;sort</p>"
+          ],
+          "correct_answer": "<p>Radix&nbsp;sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61090/ugc-net-cse-junet-2015-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/61090/ugc-net-cse-junet-2015-part-2-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+window.__examLoadCallback({
+  "title": "Sorting - Sorting - Slot 3",
+  "duration": 47,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Selection sort algorithm design technique is an example of <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Greedy method</p>",
+            "<b>B.</b> <p>Divide-and-conquer</p>",
+            "<b>C.</b> <p>Dynamic Programming</p>",
+            "<b>D.</b> <p>Backtracking</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Greedy method</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49537/isro2007-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following sorting algorithms has the lowest worst-case complexity? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Merge sort</p>",
+            "<b>B.</b> <p>Bubble sort</p>",
+            "<b>C.</b> <p>Quick sort</p>",
+            "<b>D.</b> <p>Selection sort</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Merge sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1212/gate2007-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The median of n elements can be found in O(n) time. Which one of the following\nis correct about the complexity of quick sort, in which median is selected as pivot? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\theta\\)(n)</p>",
+            "<b>B.</b> <p>\\(\\theta\\)(nlogn)</p>",
+            "<b>C.</b> <p>\\(\\theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\theta (n^{3})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\theta\\)(nlogn)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1830/gate2006-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one the following in place sorting algorithms needs the minimum number\nof swaps? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Quick-sort</p>",
+            "<b>B.</b> <p>Insertion sort</p>",
+            "<b>C.</b> <p>Selection sort</p>",
+            "<b>D.</b> <p>Heap sort</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Selection sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/975/gate2006-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The tightest lower bound on the number of comparisons, in the worst case, for comparison-based\nsorting is of the order of <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>nlogn</p>",
+            "<b>D.</b> <p>\\(nlog^{2}n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>nlogn</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1026/gate2004-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a permutation \\(a_1.....a_n\\) of n distinct integers, an inversion is a pair  \\((a_i, a_j) \\) such that \\(i \\lt j\\) and \\(a_i \\gt a_j\\). <br><br> What would be the worst case time complexity of the insertion Sort algorithm, if\nthe inputs are restricted to permutations of 1....n with at most n inversions? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (nlogn)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{1.5})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43576/gate2003-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The usual \\(\\Theta (n^{2})\\)  implementation of Insertion Sort to sort ab array uses linear\nsearch to identify the position where an element is to be inserted into the already\nsorted part of the array. If, instead, we use binary search to identify the position,\nthe worst case running time will <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>remain \\(\\Theta (n^{2})\\)</p>",
+            "<b>B.</b> <p>become \\(\\Theta (n(logn)^{2})\\)</p>",
+            "<b>C.</b> <p>become\\(\\Theta\\)(nogn)</p>",
+            "<b>D.</b> <p>become\\(\\Theta\\)(n)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>remain \\(\\Theta (n^{2})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/912/gate2003-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If one uses straight two-way merge sort algorithm to sort the following elements in ascending order:<br>\n20, 47, 15, 8, 9, 4, 40, 30, 12, 17<br>\nthen the order of these elements after second pass of the algorithm is: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, 9, 15, 20, 47, 4, 12, 17, 30, 40</p>",
+            "<b>B.</b> <p>8, 15, 20, 47, 4, 9, 30, 40, 12, 17</p>",
+            "<b>C.</b> <p>15, 20, 47, 4, 8, 9, 12, 30, 40, 17</p>",
+            "<b>D.</b> <p>4, 8, 9, 15, 20, 47, 12, 17, 30, 40</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8, 15, 20, 47, 4, 9, 30, 40, 12, 17</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1467/gate1999-1-14-isro2015-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A sorting technique is called stable if <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it takes \\(O (n \\log n)\\) time</p>",
+            "<b>B.</b> <p>it maintains the relative order of occurrence of non-distinct elements</p>",
+            "<b>C.</b> <p>it uses divide and conquer paradigm</p>",
+            "<b>D.</b> <p>it takes O(n) space</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>it maintains the relative order of occurrence of non-distinct elements</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1465/gate1999-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Give the correct matching for the following pairs: <br>\\(\\begin{array}{ll|ll}\\hline \\text{(A)} &amp; \\text{$O (\\log n)$} &amp; \\text{(P)} &amp; \\text{Selection sort} \\\\\\hline \\text{(B)} &amp; \\text{$O (n)$} &amp; \\text{(Q)}&amp; \\text{Insertion sort} \\\\\\hline \\text{(C)}&amp; \\text{$O (n \\log n)$} &amp; \\text{(R)} &amp; \\text{Binary search} \\\\\\hline \\text{(D)} &amp; \\text{$O (n^2)$} &amp;\\text{(S)} &amp; \\text{Merge sort} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A-R  B-P  C-Q  D-S</p>",
+            "<b>B.</b> <p>A-R  B-P  C-S  D-Q</p>",
+            "<b>C.</b> <p>A-P  B-R  C-S  D-Q</p>",
+            "<b>D.</b> <p>A-P  B-S  C-R  D-Q</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A-R  B-P  C-S  D-Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1659/gate1998-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Quick-sort is run on two inputs shown below to sort in ascending order taking first element as pivot <br>\n(i).  \\(1, 2, 3, \\dots n\\)<br>\n(ii). \\(n, n-1, n-2, \\dots, 2, 1\\)<br>\nLet \\(C_1\\) and \\(C_2\\) be the number of comparisons made for the inputs (i) and (ii) respectively. Then, <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(C_1 \\lt C_2\\)</p>",
+            "<b>B.</b> <p>\\(C_1 = C_2\\)</p>",
+            "<b>C.</b> <p>\\(C_1 \\gt C_2\\)</p>",
+            "<b>D.</b> <p>we cannot say anything for arbitrary n</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(C_1 = C_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2744/gate1996-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Merge sort uses: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Divide and conquer strategy</p>",
+            "<b>B.</b> <p>Backtracking approach</p>",
+            "<b>C.</b> <p>Heuristic search</p>",
+            "<b>D.</b> <p>Greedy approach</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Divide and conquer strategy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2592/gate1995-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Algorithm design technique used in quicksort algorithm is? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic programming</p>",
+            "<b>B.</b> <p>Backtracking</p>",
+            "<b>C.</b> <p>Divide and conquer</p>",
+            "<b>D.</b> <p>Greedy method</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Divide and conquer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2462/gate1994-1-19-isro2016-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Randomized quicksort is an extension of quicksort where the pivot is chosen\nrandomly. What is the worst case complexity of sorting n numbers using\nrandomized quicksort ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>O(nlogn)</p>",
+            "<b>C.</b> <p>O(\\(n^{2}\\)\n)</p>",
+            "<b>D.</b> <p>O(n!)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>O(\\(n^{2}\\)\n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/707/gate2001-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: <br>\nFollowing algorithm(s) can be used to sort n in the range \\([1\\ldots n^3]\\) in O(n) time <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Heap sort</p>",
+            "<b>B.</b> <p>Quick sort</p>",
+            "<b>C.</b> <p>Merge sort</p>",
+            "<b>D.</b> <p>Radix sort</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Radix sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/559/gate1992-02-ix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>The complexity of comparision based sorting algorithms is: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n \\log n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta \\left(n^2\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n\\sqrt n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Theta (n \\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84830/gate1990-3-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Let P be a quicksort program to sort numbers in ascending order. Let \\(t_{1}\\) and \\(t_{2}\\) be the time taken by the program for the inputs \\(\\left[1 \\ 2 \\ 3 \\ 4\\right]\\) and \\(\\left[5 \\ 4 \\ 3 \\ 2 \\ 1\\right]\\), respectively. Which of the following holds? <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(t_{1} = t_{2}\\)</p>",
+            "<b>B.</b> <p>\\(t_{1} \\gt t_{2}\\)</p>",
+            "<b>C.</b> <p>\\(t_{1} \\lt t_{2}\\)</p>",
+            "<b>D.</b> <p>\\(t_{1}=t_{2}+5 \\log 5\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(t_{1} \\lt t_{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80366/gate1987-1-xviii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

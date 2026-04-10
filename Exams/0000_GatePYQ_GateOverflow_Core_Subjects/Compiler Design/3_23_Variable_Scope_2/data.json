@@ -1,0 +1,41 @@
+{
+  "title": "Compiler Design - Variable Scope",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Variable Scope",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80373\"></a><div itemprop=\"text\"><p>Study the following program written in a block-structured language:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Var x, y:interger; \nprocedure P(n:interger);\nbegin\n     x:=(n+2)/(n-3);\nend;\n\nprocedure Q \nVar x, y:interger;\nbegin   \n    x:=3;\n    y:=4; \n    P(y);\n    Write(x)                                __(1)\nend;\n \nbegin\n    x:=7;\n    y:=8;\n    Q; \nWrite(x);                                   __(2) \nend.\n</pre>\n\n<p>What will be printed by the write statements marked \\( (1) \\) and \\( (2) \\) in the program if the variables are statically scoped?</p>\n\n</div><br><br><b>GATE CSE 1987 | Question: 1-xix</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3, 6 \\)</p>",
+            "<p>\\( 6, 7 \\)</p>",
+            "<p>\\( 3, 7 \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( 3, 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80373/gate-cse-1987-question-1-xix\" target=\"_blank\">https://gateoverflow.in/80373/gate-cse-1987-question-1-xix</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"80374\"></a><div itemprop=\"text\"><p>For the program given below what will be printed by the write statements marked \\( (1) \\) and \\( (2) \\) in the program if the variables are dynamically scoped?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Var x, y:interger; \nprocedure P(n:interger);\nbegin\n     x := (n+2)/(n-3);\nend;\n\nprocedure Q \nVar x, y:interger;\nbegin   \n    x:=3;\n    y:=4; \n    P(y);\n    Write(x);                                __(1)\nend;\n \nbegin\n    x:=7;\n    y:=8;\n    Q; \n    Write(x);                                   __(2)\nend.</pre>\n\n</div><br><br><b>GATE CSE 1987 | Question: 1-xx</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3, 6 \\)</p>",
+            "<p>\\( 6, 7 \\)</p>",
+            "<p>\\( 3, 7 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 6, 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80374/gate-cse-1987-question-1-xx\" target=\"_blank\">https://gateoverflow.in/80374/gate-cse-1987-question-1-xx</a></p>"
+        }
+      ]
+    }
+  ]
+}

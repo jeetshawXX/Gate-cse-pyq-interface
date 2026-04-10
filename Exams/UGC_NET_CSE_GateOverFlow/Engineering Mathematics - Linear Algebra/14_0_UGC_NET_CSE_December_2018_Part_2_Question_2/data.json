@@ -1,0 +1,41 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - UGC NET CSE  December 2018  Part 2  Question",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "UGC NET CSE  December 2018  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"288335\"></a><div itemprop=\"text\"><p>Which homogeneous \\( 2D \\) matrix transforms the figure (a) on the left side to figure (b) on the right?</p><p style=\"text-align:center\"><img alt=\"Diagram\" width=\"600\" height=\"281\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10675340547522951117\"></p><p>&nbsp;</p></div><br><br><b>Linear Algebra: UGC NET CSE | December 2018 | Part 2 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\begin{pmatrix} 0 &amp; 2 &amp; -6 \\\\ 2 &amp; 0 &amp; 1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\)</p>",
+            "<p>\\( \\begin{pmatrix} 0 &amp; -2 &amp; 6 \\\\ 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\)</p>",
+            "<p>\\( \\begin{pmatrix} 1&nbsp;&amp; -2 &amp; 6 \\\\ 1 &amp; 0 &amp; 2 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\)</p>",
+            "<p>\\( \\begin{pmatrix} 0 &amp; 2 &amp; 6 \\\\ 1 &amp; 0 &amp; 1 \\\\ 0 &amp; 0 &amp; 1 \\end{pmatrix} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288335/ugc-net-cse-december-2018-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/288335/ugc-net-cse-december-2018-part-2-question-42</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335396\"></a><div itemprop=\"text\"><p>\\( AVA=A \\) is called :</p>\n\n</div><br><br><b>Linear Algebra: UGC NET CSE | December 2004 | Part 2 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Identity law</p>",
+            "<p>De Morgan’s law</p>",
+            "<p>Idempotent law</p>",
+            "<p>Complement law</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335396/ugc-net-cse-december-2004-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/335396/ugc-net-cse-december-2004-part-2-question-1</a></p>"
+        }
+      ]
+    }
+  ]
+}

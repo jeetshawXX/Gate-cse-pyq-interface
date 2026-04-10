@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Combinatory - Counting",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Counting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"15898\"></a><div itemprop=\"text\"><p>The number of bit strings of length \\( 8 \\) that will either start with \\( 1 \\) or end with \\( 00 \\) is?</p>\n\n</div><br><br><b>Combinatory: ISRO CSE 2014 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 32 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 128 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 160 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 192 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 160 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/15898/isro-cse-2014-question-19\" target=\"_blank\">https://gateoverflow.in/15898/isro-cse-2014-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

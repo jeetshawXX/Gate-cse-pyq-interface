@@ -1,0 +1,191 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G be a finite group on 84 elements. The size of a largest possible proper subgroup of G is ________. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "42",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204093/gate2018-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The chromatic number of the following graph is _______.  <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q18_14abf0c5.jpg\"> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204092/gate2018-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to 3 decimal places) that one of them wins on the third trial is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.021",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204089/gate2018-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If the ordinary generating function of a sequence \\(\\{a_{n}\\}_{n=0}^{\\infty} \\;  is \\;  \\frac{1+z}{(1-z)^{3}}\\) then \\(a_{3}-a_{0}\\) is equal to ______. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118392/gate2017-2-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>For any discrete random variable X, with probability mass function <br>\\(P(X=j)=p_{j}, p_{j}\\geq 0, j \\in \\{0,....N\\}\\) and \\( \\sum_{j=0}^{N}p_{j}=1\\), define the polynomial function \\(g_{x}(z)=\\sum_{j=0}^{N}p_{j}z^{j}\\). For a certain discrete random variable Y, there exists a scalar \\(\\beta \\in \\)[0,1] such that \\(g_{Y}(z)=(1-\\beta +\\beta  z)^{N}\\). The expectation of Y is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(N\\beta (1-\\beta )\\)</p>",
+            "<b>B.</b> <p>\\(N\\beta\\)</p>",
+            "<b>C.</b> <p>\\(N(1-\\beta )\\)</p>",
+            "<b>D.</b> <p>Not expressible in terms of N and \\(\\beta\\) alone</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(N\\beta\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118373/gate2017-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>P and Q are considering to apply for a job. The probability that P applies for the job is 1/4.\nThe probability that P applies for the job given that Q applies for the job is 1/2\n, and the probability that Q applies for the job given that P applies for the job 1/3.\nThen the probability that P does not apply for the job given that Q does not apply for the job is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{4}{5}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{5}{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{7}{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{11}{12}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{4}{5}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118368/gate2017-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>G is undirected graph with n vertices and 25 edges such that each vertex of G has degree at\nleast 3. Then the maximum possible value of n is ___________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118594/gate2017-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the set X={a, b,c,d,e} under the partial ordering\nR={(a,a),(a,b),(a,c),(a,d),(a,e),(b,b),(b,c),(b,e),(c,c),(c,e),(d,d),(d,e),(e,e)}. <br>\nThe Hasse diagram of the partial order (X, R) is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q1_8fc65f77.jpg\"> <br> The minimum number of ordered pairs that need to be added to R to make (X, R) a lattice is\n_____. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-0.01",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118278/gate2017-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The Breadth First Search (BFS) algorithm has been implemented using the queue data\nstructure. Which one of the following is a possible order of visiting the nodes in the graph\nbelow? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q7_689784b4.jpg\"> <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>MNOPQR</p>",
+            "<b>B.</b> <p>NQMPOR</p>",
+            "<b>C.</b> <p>QMNROP</p>",
+            "<b>D.</b> <p>POQNMR</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>POQNMR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118196/gate2017-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let p, q, r denote the statements \"It is raining ,\" It is cold\", and \" It is pleasant,\"\nrespectively. Then the statement \"It is not raining and it is pleasant, and it is not pleasant\nonly if it is raining and it is cold\" is represented by <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\neg p\\wedge r)\\wedge (\\neg r\\rightarrow (p\\wedge q))\\)</p>",
+            "<b>B.</b> <p>\\((\\neg p\\wedge r)\\wedge ((p\\wedge q)\\rightarrow \\neg r)\\)</p>",
+            "<b>C.</b> <p>\\((\\neg p\\wedge r)\\vee ((p\\wedge q)\\rightarrow \\neg r)\\)</p>",
+            "<b>D.</b> <p>\\((\\neg p\\wedge r)\\vee (r \\rightarrow (p\\wedge q))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\neg p\\wedge r)\\wedge (\\neg r\\rightarrow (p\\wedge q))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118151/gate2017-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The number of integers between 1 and 500 (both inclusive) that are divisible by 3 or 5 or 7 is\n______________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "271",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118330/gate2017-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let p, q, and r be propositions and the expression (p\\(\\rightarrow\\)q)\\(\\rightarrow\\)r be a contradiction. Then, the\nexpression (r\\(\\rightarrow\\)p)\\(\\rightarrow\\)q is <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a tautology</p>",
+            "<b>B.</b> <p>a tautology</p>",
+            "<b>C.</b> <p>always TRUE when p is FALSE</p>",
+            "<b>D.</b> <p>always TRUE when q is TRUE</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>always TRUE when q is TRUE</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118310/gate2017-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let T be a tree with 10 vertices. The sum of the degrees of all the vertices in T is _________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "18",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118300/gate2017-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let X be a Gaussian random variable mean 0 and variance \\(\\sigma ^{2}\\)\n. Let Y=max(X, 0) where max\n(a,b) is the maximum of a and b. The median of Y is ____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118299/gate2017-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the first-order logic sentence \\(F:\\forall x(\\exists yR(x,y))\\). Assuming non-empty logical\ndomains, which of the sentences below are implied by F? <br>I. \\(\\exists y(\\exists xR(x,y))\\)<br> II. \\(\\exists y(\\forall xR(x,y)) \\)<br>III. \\(\\forall y(\\exists xR(x,y))\\)<br> IV. \\(\\neg \\exists x(\\forall y\\neg R(x,y))\\) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IV only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118701/gate2017-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

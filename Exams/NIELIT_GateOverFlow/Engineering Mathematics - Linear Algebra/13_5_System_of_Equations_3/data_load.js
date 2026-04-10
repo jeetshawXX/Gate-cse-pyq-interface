@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - System of Equations",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "System of Equations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336680\"></a><div itemprop=\"text\"><p>The system of simultaneous equations</p>\n\n<p>\\( x+2y+z=6\\\\2x+y+2z=6\\\\x+y+z=5 \\)</p>\n\n<p>has</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>unique solution.</p>",
+            "<p>infinite number of solutions.</p>",
+            "<p>no solution.</p>",
+            "<p>exactly two solutions.</p>"
+          ],
+          "correct_answer": "<p>no solution.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336680/nielit-2016-mar-scientist-b-section-b-6\" target=\"_blank\">https://gateoverflow.in/336680/nielit-2016-mar-scientist-b-section-b-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"373758\"></a><div itemprop=\"text\"><p>The upper triangular matrix \\( \\text{U} \\) in the&nbsp;\\( \\text{LU-} \\) decomposition of the matrix given below :</p><p>\\( \\begin{bmatrix} 1 &amp; -2 &amp; 3 \\\\&nbsp; 2 &amp; -5 &nbsp;&amp; 8 \\\\&nbsp; 1 &amp; 2 &amp; -10 \\end{bmatrix} = \\begin{bmatrix} 1 &amp; 0&nbsp;&amp; 0&nbsp;\\\\&nbsp; l_{21}&nbsp;&amp; 1&nbsp; &amp; 0&nbsp;\\\\&nbsp; l_{31}&nbsp;&amp; l_{32}&nbsp;&amp; 1&nbsp;\\end{bmatrix} \\begin{bmatrix} u_{11}&nbsp;&amp; u_{12} &amp; u_{13}&nbsp;\\\\&nbsp; 0&nbsp;&amp; u_{22}&nbsp; &amp; u_{23}&nbsp;\\\\&nbsp; 0&nbsp;&amp; 0&nbsp;&amp; u_{33}&nbsp;\\end{bmatrix} \\) is :</p></div><br><br><b>Linear Algebra: NIELIT 2022 April Scientist B | Section B | Question: 80</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\begin{bmatrix} 1 &amp; 0&nbsp;&amp; 0&nbsp;\\\\&nbsp; 2 &amp; 1&nbsp; &amp; 0&nbsp;\\\\&nbsp; 1 &amp; -4&nbsp;&amp; 1&nbsp;\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 1 &amp; -2&nbsp;&amp; 3&nbsp;\\\\&nbsp; 0&nbsp;&amp; 1&nbsp; &amp; -6&nbsp;\\\\&nbsp; 0&nbsp;&amp; 0&nbsp;&amp; 1&nbsp;\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 1 &amp; -2&nbsp;&amp; 3&nbsp;\\\\&nbsp; 0&nbsp;&amp; -1&nbsp; &amp; 6&nbsp;\\\\&nbsp;&nbsp;0&nbsp;&amp; 0&nbsp;&amp; 11 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 1 &amp; -2&nbsp;&amp; 3&nbsp;\\\\&nbsp; 0&nbsp;&amp; -1&nbsp; &amp; 6&nbsp;\\\\&nbsp; 0&nbsp;&amp; 0&nbsp;&amp; 10 \\end{bmatrix} \\)</p>"
+          ],
+          "correct_answer": "TBA",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373758/nielit-2022-april-scientist-b-section-b-question-80\" target=\"_blank\">https://gateoverflow.in/373758/nielit-2022-april-scientist-b-section-b-question-80</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351655\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>What is the value of \\( k \\) for which the following system of equations has no solution:</p>\n\n<p>\\( \\text{2x-8y=3 and kx+4y=10} \\)</p>\n\n</div><br><br><b>Linear Algebra: NIELIT Scientist B 2020 November: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351655/nielit-scientist-b-2020-november-27\" target=\"_blank\">https://gateoverflow.in/351655/nielit-scientist-b-2020-november-27</a></p>"
+        }
+      ]
+    }
+  ]
+});

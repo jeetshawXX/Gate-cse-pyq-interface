@@ -1,0 +1,513 @@
+{
+  "title": "Digital Logic - Boolean Algebra",
+  "duration": 94,
+  "sections": [
+    {
+      "name": "Boolean Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80032\"></a><div itemprop=\"text\"><p>The total number of Boolean functions which can be realised with four variables is:</p>\n\n</div><br><br><b>GATE CSE 1987 | Question: 1-II</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 256 \\)</p>",
+            "<p>\\( 65, 536 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 65, 536 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80032/gate-cse-1987-question-1-ii\" target=\"_blank\">https://gateoverflow.in/80032/gate-cse-1987-question-1-ii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"82556\"></a><div itemprop=\"text\"><p>The Boolean expression \\( A \\oplus B \\oplus A \\) is equivalent to</p>\n\n</div><br><br><b>GATE CSE 1987 | Question: 12-a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( AB + \\overline&nbsp;{A}\\;\\;\\overline&nbsp;B \\)</p>",
+            "<p>\\( \\overline{A}\\;B+A\\;\\overline{B} \\)</p>",
+            "<p>\\( B \\)</p>",
+            "<p>\\( \\overline{A} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( B \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82556/gate-cse-1987-question-12-a\" target=\"_blank\">https://gateoverflow.in/82556/gate-cse-1987-question-12-a</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"91679\"></a><div itemprop=\"text\">Let \\( * \\) be defined as a Boolean operation given as \\( x*y = \\overline{x}\\;\\;\\overline{y}+xy \\) and let \\( C=A*B \\). If \\( C=1 \\) then prove that \\( A=B \\).</div><br><br><b>GATE CSE 1988 | Question: 2-iii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/91679/gate-cse-1988-question-2-iii\" target=\"_blank\">https://gateoverflow.in/91679/gate-cse-1988-question-2-iii</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"88166\"></a><div itemprop=\"text\">A switching function is said to be neutral if the number of input combinations for which its value is \\( 1 \\) is equal to the number of input combinations for which its value is \\( 0. \\) Compute the number of neutral switching functions of \\( n \\) variables (for a given \\( n \\)).</div><br><br><b>GATE CSE 1989 | Question: 4-x</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/88166/gate-cse-1989-question-4-x\" target=\"_blank\">https://gateoverflow.in/88166/gate-cse-1989-question-4-x</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"88230\"></a><div itemprop=\"text\"><p>Find values of Boolean variables \\( A, B, C \\) which satisfy the following equations:</p>\n\n<ul>\n\t<li>A+ B = 1</li>\n\t<li>AC = BC</li>\n\t<li>A + C = 1</li>\n\t<li>AB = 0</li>\n</ul></div><br><br><b>GATE CSE 1989 | Question: 5-a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/88230/gate-cse-1989-question-5-a\" target=\"_blank\">https://gateoverflow.in/88230/gate-cse-1989-question-5-a</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"555\"></a><div itemprop=\"text\"><p>The operation which is commutative but not associative is:</p>\n\n</div><br><br><b>GATE CSE 1992 | Question: 02-i</b></p>",
+          "type": "single",
+          "options": [
+            "<p>AND</p>",
+            "<p>OR</p>",
+            "<p>EX-OR</p>",
+            "<p>NAND</p>"
+          ],
+          "correct_answer": "<p>NAND</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/555/gate-cse-1992-question-02-i\" target=\"_blank\">https://gateoverflow.in/555/gate-cse-1992-question-02-i</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2500\"></a><div itemprop=\"text\"></div><br><br><b>GATE CSE 1994 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Let \\( \\ast \\) be a Boolean operation defined as \\( A\\ast B = AB + \\overline{A}\\;\\overline{B} \\). If \\( C=A\\ast B \\) then evaluate and fill in the blanks:\n\t<ol style=\"list-style-type:lower-roman\">\n\t\t<li>\\( A\\ast A= \\)______</li>\n\t\t<li>\\( C\\ast A= \\)______</li>\n\t</ol></p>",
+            "<p>Solve the following boolean equations for the values of \\( A, B \\) and \\( C: \\)<br>\n\t\\( AB+\\overline{A}C=1 \\)<br>\n\t\\( AC+B=0 \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2500/gate-cse-1994-question-4\" target=\"_blank\">https://gateoverflow.in/2500/gate-cse-1994-question-4</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2617\"></a><div itemprop=\"text\"><p>What values of \\( A, B, C \\) and \\( D \\) satisfy the following simultaneous Boolean equations?</p>\n\n<p>\\( \\overline{A} + AB =0, AB=AC, AB+A\\overline{C}+CD=\\overline{C}D \\)</p>\n\n</div><br><br><b>GATE CSE 1995 | Question: 2.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A=1, B=0, C=0, D=1 \\)</p>",
+            "<p>\\( A=1, B=1, C=0, D=0 \\)</p>",
+            "<p>\\( A=1, B=0, C=1, D=1 \\)</p>",
+            "<p>\\( A=1, B=0, C=0, D=0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A=1, B=0, C=0, D=1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2617/gate-cse-1995-question-2-5\" target=\"_blank\">https://gateoverflow.in/2617/gate-cse-1995-question-2-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"2227\"></a><div itemprop=\"text\"><p>Let \\( * \\) be defined as \\( x * y = \\bar{x} + y \\). Let \\( z = x * y \\). Value of \\( z * x \\) is&nbsp;</p>\n\n\n\n</div><br><br><b>GATE CSE 1997 | Question: 2-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bar{x} + y \\)</p>",
+            "<p>\\( x \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2227/gate-cse-1997-question-2-1\" target=\"_blank\">https://gateoverflow.in/2227/gate-cse-1997-question-2-1</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1650\"></a><div itemprop=\"text\"><p>What happens when a bit-string is XORed with itself \\( n \\)-times as shown:</p>\n\n<p>\\( \\left[B \\oplus (B \\oplus ( B \\oplus (B \\dots n \\text{ times}\\right] \\)</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>complements when \\( n \\) is even</p>",
+            "<p>complements when \\( n \\) is odd</p>",
+            "<p>divides by \\( 2^n \\) always</p>",
+            "<p>remains unchanged when \\( n \\) is even</p>"
+          ],
+          "correct_answer": "<p>remains unchanged when \\( n \\) is even</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1650/gate-cse-1998-question-1-13\" target=\"_blank\">https://gateoverflow.in/1650/gate-cse-1998-question-1-13</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1680\"></a><div itemprop=\"text\"><p>Which of the following operations is commutative but not associative?</p>\n\n\n\n</div><br><br><b>GATE CSE 1998 | Question: 2.8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>AND</p>",
+            "<p>OR</p>",
+            "<p>NAND</p>",
+            "<p>EXOR</p>"
+          ],
+          "correct_answer": "<p>NAND</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1680/gate-cse-1998-question-2-8\" target=\"_blank\">https://gateoverflow.in/1680/gate-cse-1998-question-2-8</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1460\"></a><div itemprop=\"text\"><p>Which of the following expressions is not equivalent to \\( \\bar{x} \\)?</p>\n\n\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x \\text{ NAND } x \\)</p>",
+            "<p>\\( x \\text{ NOR } x \\)</p>",
+            "<p>\\( x \\text{ NAND } 1 \\)</p>",
+            "<p>\\( x \\text{ NOR } 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x \\text{ NOR } 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1460/gate-cse-1999-question-1-7\" target=\"_blank\">https://gateoverflow.in/1460/gate-cse-1999-question-1-7</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"657\"></a><div itemprop=\"text\"><p>The simultaneous equations on the&nbsp;Boolean&nbsp;variables \\( x, y, z \\) and \\( w \\),</p>\n\n<ul>\n<li>\\( x + y + z = 1  \\)</li>\n<li>\\( xy = 0 \\)</li>\n<li>\\( xz + w = 1 \\)</li>\n<li>\\( xy + \\bar{z}\\bar{w} = 0 \\)</li>\n</ul>\n\n<p>have the following solution for \\( x, y, z \\) and \\( w, \\) respectively:</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\ 1 \\ 0 \\ 0 \\)</p>",
+            "<p>\\( 1 \\ 1 \\ 0 \\ 1 \\)</p>",
+            "<p>\\( 1 \\ 0 \\ 1 \\ 1 \\)</p>",
+            "<p>\\( 1 \\ 0 \\ 0 \\ 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\ 0 \\ 1 \\ 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/657/gate-cse-2000-question-2-10\" target=\"_blank\">https://gateoverflow.in/657/gate-cse-2000-question-2-10</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"833\"></a><div itemprop=\"text\"><p>Let \\( f(A,B) = A'+B \\). Simplified expression for function \\( f(f(x+y, y), z) \\) is</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x' + z \\)</p>",
+            "<p>\\( xyz \\)</p>",
+            "<p>\\( xy' + z \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( xy' + z \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/833/gate-cse-2002-question-2-3\" target=\"_blank\">https://gateoverflow.in/833/gate-cse-2002-question-2-3</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1014\"></a><div itemprop=\"text\"><p>A Boolean function \\( x’y’ + xy + x’y \\) is equivalent to</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x' + y' \\)</p>",
+            "<p>\\( x + y \\)</p>",
+            "<p>\\( x + y' \\)</p>",
+            "<p>\\( x' + y \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x' + y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1014/gate-cse-2004-question-17\" target=\"_blank\">https://gateoverflow.in/1014/gate-cse-2004-question-17</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1230\"></a><div itemprop=\"text\"><p>Let \\( f(w, x, y, z) = \\sum {\\left(0,4,5,7,8,9,13,15\\right)} \\). Which of the following expressions are NOT equivalent to \\( f \\)?</p>\n\n<p><strong>P:</strong>&nbsp;\\( x'y'z' + w'xy' + wy'z + xz \\)</p>\n\n<p><strong>Q:</strong> \\( w'y'z' + wx'y' + xz \\)</p>\n\n<p><strong>R:</strong>&nbsp;\\( w'y'z' + wx'y' + xyz+xy'z \\)</p>\n\n<p><strong>S:</strong> \\( x'y'z' + wx'y'+ w'y \\)</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P only</p>",
+            "<p>Q and S</p>",
+            "<p>R and S</p>",
+            "<p>S only</p>"
+          ],
+          "correct_answer": "<p>S only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1230/gate-cse-2007-question-32\" target=\"_blank\">https://gateoverflow.in/1230/gate-cse-2007-question-32</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1231\"></a><div itemprop=\"text\"><p>Define the connective \\( * \\) for the Boolean variables \\( X \\) and \\( Y \\) as: \\[ X * Y = XY + X'Y'. \\] Let \\( Z = X * Y \\). Consider the following expressions \\( P \\), \\( Q \\) and \\( R \\).<br>\n\\[ P : X = Y * Z, \\\\ Q :Y = X * Z, \\\\ R : X *Y * Z = 1 \\]<br>\nWhich of the following is <strong>TRUE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( P \\) and \\( Q \\) are valid.</p>",
+            "<p>Only \\( Q \\) and \\( R \\) are valid.</p>",
+            "<p>Only \\( P \\) and \\( R \\) are valid.</p>",
+            "<p>All \\( P \\), \\( Q \\), \\( R \\) are valid.</p>"
+          ],
+          "correct_answer": "<p>All \\( P \\), \\( Q \\), \\( R \\) are valid.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1231/gate-cse-2007-question-33\" target=\"_blank\">https://gateoverflow.in/1231/gate-cse-2007-question-33</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"424\"></a><div itemprop=\"text\"><p>If \\( P, Q, R \\) are Boolean variables, then</p>\n\n<p>\\( (P + \\bar{Q}) (P.\\bar{Q} + P.R) (\\bar{P}.\\bar{R} + \\bar{Q}) \\)&nbsp;simplifies to</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P.\\bar{Q} \\)</p>",
+            "<p>\\( P.\\bar{R} \\)</p>",
+            "<p>\\( P.\\bar{Q} + R \\)</p>",
+            "<p>\\( P.\\bar{R} + Q \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P.\\bar{Q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/424/gate-cse-2008-question-26\" target=\"_blank\">https://gateoverflow.in/424/gate-cse-2008-question-26</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"38\"></a><div itemprop=\"text\"><p>The truth table \\( {\\begin{array}{|c|c|c|}\\hline<br>\n\\textbf{X}&amp;&nbsp; &nbsp; \\textbf{Y}&amp;&nbsp; \\textbf{(X,Y)}&nbsp;\\\\\\hline<br>\n0&amp;&nbsp; &nbsp; 0&amp; &nbsp; 0 \\\\ \\hline&nbsp; &nbsp;<br>\n0&amp;&nbsp; &nbsp; &nbsp;1&amp;0\\\\&nbsp; &nbsp; &nbsp;\\hline<br>\n1&amp; &nbsp; 0&amp;&nbsp; 1&nbsp; &nbsp; &nbsp;\\\\\\hline<br>\n1&amp;&nbsp; &nbsp; 1&amp; 1 &nbsp; &nbsp; \\\\\\hline<br>\n\\end{array}} \\) represents the Boolean function</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X \\)</p>",
+            "<p>\\( X + Y \\)</p>",
+            "<p>\\( X \\oplus Y \\)</p>",
+            "<p>\\( Y \\)</p>"
+          ],
+          "correct_answer": "<p>\\( X \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/38/gate-cse-2012-question-6\" target=\"_blank\">https://gateoverflow.in/38/gate-cse-2012-question-6</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"1532\"></a><div itemprop=\"text\"><p>Which one of the following expressions does <strong>NOT</strong> represent exclusive NOR of \\( x \\) and \\( y \\)?</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( xy + x′ y′ \\)</p>",
+            "<p>\\( x\\oplus y′ \\)</p>",
+            "<p>\\( x′\\oplus y \\)</p>",
+            "<p>\\( x′\\oplus y′ \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x′\\oplus y′ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1532/gate-cse-2013-question-21\" target=\"_blank\">https://gateoverflow.in/1532/gate-cse-2013-question-21</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"1958\"></a><div itemprop=\"text\"><p>The dual of a Boolean function \\( F(x_1,x_2,\\dots,x_n,+, .,') \\), written as \\( F^D \\) is the same expression as that of \\( F \\) with \\( + \\) and \\( ⋅ \\) swapped. \\( F \\) is said to be self-dual if \\( F = F^D \\). The number of self-dual functions with \\( n \\) Boolean variables is</p></div><br><br><b>GATE CSE 2014 Set 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^n \\)</p>",
+            "<p>\\( 2^{n-1} \\)</p>",
+            "<p>\\( 2^{2^{n}} \\)</p>",
+            "<p>\\( 2^{2^{n-1}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{2^{n-1}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1958/gate-cse-2014-set-2-question-6\" target=\"_blank\">https://gateoverflow.in/1958/gate-cse-2014-set-2-question-6</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"2090\"></a><div itemprop=\"text\"><p>Let \\( \\oplus \\) denote the exclusive OR (XOR) operation. Let '\\( 1 \\)' and '\\( 0 \\)' denote the binary constants. Consider the following Boolean expression for \\( F \\) over two variables \\( P \\) and \\( Q \\):</p>\n\n<p>\\[ F(P,Q)=\\left( \\left(1 \\oplus P \\right) \\oplus \\left( P \\oplus Q \\right )\\right ) \\oplus \\left(\\left(P \\oplus Q\\right) \\oplus \\left(Q \\oplus 0\\right)\\right) \\]</p>\n\n<p>The equivalent expression for \\( F \\) is</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P+Q \\)</p>",
+            "<p>\\( \\overline{P+Q} \\)</p>",
+            "<p>\\( P \\oplus Q \\)</p>",
+            "<p>\\( \\overline {P \\oplus Q} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\overline {P \\oplus Q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2090/gate-cse-2014-set-3-question-55\" target=\"_blank\">https://gateoverflow.in/2090/gate-cse-2014-set-3-question-55</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"8162\"></a><div itemprop=\"text\">The number of min-terms after minimizing the following Boolean expression is _______.<br>\n<br>\n\\( [D'+AB'+A'C+AC'D+A'C'D]' \\)</div><br><br><b>GATE CSE 2015 Set 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8162/gate-cse-2015-set-2-question-37\" target=\"_blank\">https://gateoverflow.in/8162/gate-cse-2015-set-2-question-37</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"39629\"></a><div itemprop=\"text\"><p>Consider the Boolean operator # with the following properties :</p>\n\n<p>\\( x \\# 0 = x, x \\# 1=\\overline{x}, x \\# x = 0 \\) and \\( x \\# \\overline{x} = 1. \\) Then \\( x\\#y \\) is equivalent to&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 06</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x\\overline{y}+\\overline{x}y \\)</p>",
+            "<p>\\( x\\overline{y}+ \\overline{x} \\; \\overline{y} \\)</p>",
+            "<p>\\( \\overline{x}y+xy \\)</p>",
+            "<p>\\( xy+\\overline{x} \\; \\overline{y} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x\\overline{y}+\\overline{x}y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39629/gate-cse-2016-set-1-question-06\" target=\"_blank\">https://gateoverflow.in/39629/gate-cse-2016-set-1-question-06</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"39540\"></a><div itemprop=\"text\"><p>Let, \\( x_{1}&nbsp;⊕ x_{2}&nbsp;⊕ x_{3}&nbsp;⊕ x_{4}= 0 \\) where \\( x_{1}, x_{2}, x_{3}, x_{4} \\) are Boolean variables, and \\( ⊕ \\) is the XOR operator.</p>\n\n<p>Which one of the following must always be <strong>TRUE</strong>?</p>\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 08</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x_{1}x_{2}x_{3}x_{4} = 0 \\)</p>",
+            "<p>\\( x_{1}x_{3} + x_{2} = 0 \\)</p>",
+            "<p>\\( \\bar{x}_{1}&nbsp;⊕&nbsp;\\bar{x}_{3} =&nbsp;\\bar{x}_{2}&nbsp;⊕&nbsp;\\bar{x}_{4} \\)</p>",
+            "<p>\\( x_{1} + x_{2} + x_{3} + x_{4} = 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\bar{x}_{1}&nbsp;⊕&nbsp;\\bar{x}_{3} =&nbsp;\\bar{x}_{2}&nbsp;⊕&nbsp;\\bar{x}_{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39540/gate-cse-2016-set-2-question-08\" target=\"_blank\">https://gateoverflow.in/39540/gate-cse-2016-set-2-question-08</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"118494\"></a><div itemprop=\"text\"><p>If \\( w, x, y, z \\) are Boolean variables, then which one of the following is INCORRECT?</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( wx+w(x+y)+x(x +y) = x+wy \\)</p>",
+            "<p>\\( \\overline{w \\bar{x}(y+\\bar{z})} + \\bar{w}x = \\bar{w} + x + \\bar{y}z \\)</p>",
+            "<p>\\( (w \\bar{x}(y+x\\bar{z}) + \\bar{w} \\bar{x}) y = x \\bar{y} \\)</p>",
+            "<p>\\( (w+y)(wxy+wyz) = wxy+wyz \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (w \\bar{x}(y+x\\bar{z}) + \\bar{w} \\bar{x}) y = x \\bar{y} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118494/gate-cse-2017-set-2-question-27\" target=\"_blank\">https://gateoverflow.in/118494/gate-cse-2017-set-2-question-27</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"204078\"></a><div itemprop=\"text\"><p>Let \\( \\oplus \\) and \\( \\odot \\) denote the Exclusive OR and Exclusive NOR operations, respectively. Which one of the following is NOT CORRECT?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\overline{P \\oplus&nbsp;Q} = P \\odot&nbsp;Q \\)</p>",
+            "<p>\\( \\overline{P} \\oplus Q = P \\odot&nbsp;Q \\)</p>",
+            "<p>\\( \\overline{P} \\oplus&nbsp;\\overline{Q} = P \\oplus&nbsp;Q \\)</p>",
+            "<p>\\( P \\oplus&nbsp;\\overline{P} \\oplus&nbsp;Q = ( P \\odot&nbsp;\\overline{P} \\odot&nbsp;\\overline{Q}) \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( P \\oplus&nbsp;\\overline{P} \\oplus&nbsp;Q = ( P \\odot&nbsp;\\overline{P} \\odot&nbsp;\\overline{Q}) \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204078/gate-cse-2018-question-4\" target=\"_blank\">https://gateoverflow.in/204078/gate-cse-2018-question-4</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"302842\"></a><div itemprop=\"text\"><p>Which one of the following is NOT a valid identity?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (x \\oplus y) \\oplus z = x \\oplus (y \\oplus z) \\)</p>",
+            "<p>\\( (x + y) \\oplus z = x \\oplus (y+z) \\)</p>",
+            "<p>\\( x \\oplus y = x+y, \\text{ if } xy=0 \\)</p>",
+            "<p>\\( x \\oplus y = (xy+x’y’)’ \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (x + y) \\oplus z = x \\oplus (y+z) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302842/gate-cse-2019-question-6\" target=\"_blank\">https://gateoverflow.in/302842/gate-cse-2019-question-6</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"357409\"></a><div itemprop=\"text\"><p>Consider the following Boolean expression.</p>\n\n<p>\\( F=(X+Y+Z)(\\overline X +Y)(\\overline Y +Z) \\)</p>\n\n<p>Which of the following Boolean expressions is/are equivalent to \\( \\overline F \\) (complement of \\( F \\))?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 42</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( (\\overline X +\\overline Y +\\overline Z)(X+\\overline Y)(Y+\\overline Z) \\)</p>",
+            "<p>\\( X\\overline Y + \\overline Z \\)</p>",
+            "<p>\\( (X+\\overline Z)(\\overline Y +\\overline Z) \\)</p>",
+            "<p>\\( X\\overline Y +Y\\overline Z + \\overline X\\; \\overline Y \\;\\overline Z \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( X\\overline Y + \\overline Z \\)</p>",
+            "<p>\\( (X+\\overline Z)(\\overline Y +\\overline Z) \\)</p>",
+            "<p>\\( X\\overline Y +Y\\overline Z + \\overline X\\; \\overline Y \\;\\overline Z \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357409/gate-cse-2021-set-1-question-42\" target=\"_blank\">https://gateoverflow.in/357409/gate-cse-2021-set-1-question-42</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"422877\"></a><div itemprop=\"text\"><p>​​​​For a Boolean variable \\( x \\), which of the following statements is/are FALSE?</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 20</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( x .1=x \\)</p>",
+            "<p>\\( x+1=x \\)</p>",
+            "<p>\\( x \\cdot x=0 \\)</p>",
+            "<p>\\( x+\\bar{x}=1 \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( x+1=x \\)</p>",
+            "<p>\\( x \\cdot x=0 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422877/gate-cse-2024-set-2-question-20\" target=\"_blank\">https://gateoverflow.in/422877/gate-cse-2024-set-2-question-20</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"460066\"></a><div itemprop=\"text\"><p>Let \\( X \\) be a \\( 3 \\)-variable Boolean function that produces output as \\( '1' \\) when at least two of the input variables are \\( '1' \\). Which of the following statement(s) is/are CORRECT, where \\( a, b, c, d, e \\) are Boolean variables?</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 14</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( X(a, b, X(c, d, e))=X(X(a, b, c), d, e) \\)</p>",
+            "<p>\\( X(a, b, X(a, b, c))=X(a, b, c) \\)</p>",
+            "<p>\\( X(a, b, X(a, c, d))=(X(a, b, a) \\) AND \\( X(c, d, c)) \\)</p>",
+            "<p>\\( X(a, b, c)=X(a, X(a, b, c), X(a, c, c)) \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( X(a, b, X(a, b, c))=X(a, b, c) \\)</p>",
+            "<p>\\( X(a, b, c)=X(a, X(a, b, c), X(a, c, c)) \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460066/gate-cse-2025-set-1-question-14\" target=\"_blank\">https://gateoverflow.in/460066/gate-cse-2025-set-1-question-14</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"460795\"></a><div itemprop=\"text\"><p>Which of the following Boolean algebraic equation(s) is/are CORRECT?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 40</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\bar{A} B C+A \\bar{B} \\bar{C}+\\bar{A} \\bar{B} \\bar{C}+A \\bar{B} C+A B C=B C+\\bar{B} \\bar{C}+\\bar{A} \\bar{B} \\)</p>",
+            "<p>\\( A B+\\bar{A} C+B C=A B+\\bar{A} C \\)</p>",
+            "<p>\\( (A+C)(\\bar{A}+B)=A B+\\bar{A} C \\)</p>",
+            "<p>\\( \\overline{(A+\\bar{B}+\\bar{D})(C+D)(\\bar{A}+C+D)(A+B+\\bar{D})}=\\bar{A} D+\\bar{C} \\bar{D} \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( A B+\\bar{A} C+B C=A B+\\bar{A} C \\)</p>",
+            "<p>\\( (A+C)(\\bar{A}+B)=A B+\\bar{A} C \\)</p>",
+            "<p>\\( \\overline{(A+\\bar{B}+\\bar{D})(C+D)(\\bar{A}+C+D)(A+B+\\bar{D})}=\\bar{A} D+\\bar{C} \\bar{D} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460795/gate-cse-2025-set-2-question-40\" target=\"_blank\">https://gateoverflow.in/460795/gate-cse-2025-set-2-question-40</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"3687\"></a><div itemprop=\"text\"><p>The function \\( A \\bar B C + \\bar A B C + AB \\bar C+ \\bar A \\bar B C+ A \\bar B \\bar C \\) is equivalent to</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\bar C + AB+ \\bar A C \\)</p>",
+            "<p>\\( A \\bar B+ A \\bar C+ \\bar A C \\)</p>",
+            "<p>\\( \\bar A B+ A \\bar C+ A \\bar B \\)</p>",
+            "<p>\\( \\bar AB+ AC+ A \\bar B \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A \\bar B+ A \\bar C+ \\bar A C \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3687/gate-it-2004-question-44\" target=\"_blank\">https://gateoverflow.in/3687/gate-it-2004-question-44</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"3752\"></a><div itemprop=\"text\"><p>Which of the following expressions is equivalent to \\( (A \\oplus&nbsp;B) \\oplus&nbsp;C \\)</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (A + B + C) (\\bar A +\\bar B +\\bar C) \\)</p>",
+            "<p>\\( (A + B + C) (\\bar A +\\bar B + C) \\)</p>",
+            "<p>\\( ABC + \\bar A (B \\oplus&nbsp;C) + \\bar B(A \\oplus&nbsp;C) \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( ABC + \\bar A (B \\oplus&nbsp;C) + \\bar B(A \\oplus&nbsp;C) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3752/gate-it-2005-question-7\" target=\"_blank\">https://gateoverflow.in/3752/gate-it-2005-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+}

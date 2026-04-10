@@ -1,0 +1,146 @@
+{
+  "title": "Theory of Computation - Recursive and Recursively Enumerable Languages",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Recursive and Recursively Enumerable Languages",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336294\"></a><div itemprop=\"text\"><p>Recursive enumerable languages are not closed under&nbsp;_________.</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Set difference</p>",
+            "<p>Complement</p>",
+            "<p>Both (A) and (B)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336294/nielit-2017-dec-scientist-b-section-b-19\" target=\"_blank\">https://gateoverflow.in/336294/nielit-2017-dec-scientist-b-section-b-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336286\"></a><div itemprop=\"text\"><p>If any string of a language \\( L \\) can be effectively enumerated by an enumerator in a lexicographic order then language \\( L \\) is&nbsp;_______.</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regular</p>",
+            "<p>Context free but not necessarily regular</p>",
+            "<p>Recursive but not necessarily context free</p>",
+            "<p>Recursively enumerable but not necessarily recursive</p>"
+          ],
+          "correct_answer": "<p>Recursive but not necessarily context free</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336286/nielit-2017-dec-scientist-b-section-b-27\" target=\"_blank\">https://gateoverflow.in/336286/nielit-2017-dec-scientist-b-section-b-27</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336281\"></a><div itemprop=\"text\"><p>The collection of Turing recognizable languages are closed under:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Union</li>\n\t<li>Intersection</li>\n\t<li>Complement</li>\n\t<li>Concatenation</li>\n\t<li>Star Closure</li>\n</ol>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) Only</p>",
+            "<p>Both (i),(iv)</p>",
+            "<p>(i),(ii),(iv)and(v)</p>",
+            "<p>All of the options</p>"
+          ],
+          "correct_answer": "<p>(i),(ii),(iv)and(v)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336281/nielit-2017-dec-scientist-b-section-b-32\" target=\"_blank\">https://gateoverflow.in/336281/nielit-2017-dec-scientist-b-section-b-32</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336316\"></a><div itemprop=\"text\"><p>Let \\( L \\) be a language and \\( L’ \\) be its complement. Which one of the following is NOT a viable possibility?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Neither \\( L \\) nor \\( L’ \\) is RE.</p>",
+            "<p>One of the&nbsp;\\( L \\) and&nbsp;\\( L’ \\) is RE but not recursive;the other is not RE.</p>",
+            "<p>Both \\( L \\) and&nbsp;\\( L’ \\) are&nbsp;RE but not recursive.</p>",
+            "<p>Both \\( L \\) and&nbsp;\\( L’ \\) are&nbsp;recursive.</p>"
+          ],
+          "correct_answer": "<p>Both \\( L \\) and&nbsp;\\( L’ \\) are&nbsp;RE but not recursive.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336316/nielit-2017-july-scientist-b-cs-section-b-59\" target=\"_blank\">https://gateoverflow.in/336316/nielit-2017-july-scientist-b-cs-section-b-59</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336315\"></a><div itemprop=\"text\"><p>Let \\( L1 \\) be a recursive language, and let&nbsp;\\( L2 \\) be a recursively enumerable but not&nbsp;recursive language. Which one of the following is TRUE?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L1’ \\) is recursive and \\( L2’ \\)is recursively enumerable.</p>",
+            "<p>\\( L1’ \\) is recursive and \\( L2’ \\)is not recursively enumerable.</p>",
+            "<p>\\( L1’ \\) and \\( L2’ \\)is recursively enumerable.</p>",
+            "<p>\\( L1’ \\) is recursively enumerable&nbsp;and \\( L2’ \\)is recursive.</p>"
+          ],
+          "correct_answer": "<p>\\( L1’ \\) is recursive and \\( L2’ \\)is not recursively enumerable.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336315/nielit-2017-july-scientist-b-cs-section-b-60\" target=\"_blank\">https://gateoverflow.in/336315/nielit-2017-july-scientist-b-cs-section-b-60</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336911\"></a><div itemprop=\"text\"><p>A language \\( L \\) for which there exists a \\( TM\\;\\;’T’, \\) that accepts every word in \\( L \\) and either rejects or loops for every word that is not in \\( L, \\) is said to be</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Recursive</p>",
+            "<p>Recursively enumerable</p>",
+            "<p>NP-HARD</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Recursively enumerable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336911/nielit-2017-oct-scientific-assistant-a-cs-section-b-9\" target=\"_blank\">https://gateoverflow.in/336911/nielit-2017-oct-scientific-assistant-a-cs-section-b-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"275483\"></a><div itemprop=\"text\"><p>Identify the true statement from the given statements:</p>\n\n<ol style=\"list-style-type:decimal\">\n\t<li>A recursive formal language is a recursive subset in the set of all possible words over the alphabet of the&nbsp;language.</li>\n\t<li>The complement of a recursive languages is recursive</li>\n\t<li>The complement of a context-free language is context-free</li>\n</ol>\n\n</div><br><br><b>Theory of Computation: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( 1 \\)</p>",
+            "<p>\\( 1 \\) and \\( 2 \\)</p>",
+            "<p>\\( 1 \\), \\( 2 \\) and \\( 3 \\)</p>",
+            "<p>\\( 2 \\) and \\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275483/nielit-2018-81\" target=\"_blank\">https://gateoverflow.in/275483/nielit-2018-81</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"366965\"></a><div itemprop=\"text\"><p>A language \\( \\text{L} \\) is recognizable by a turing machine \\( \\text{M} \\) if and only if \\( \\text{L} \\) is a _____________ language.</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Type \\( 0 \\)</p>",
+            "<p>Type \\( 1 \\)</p>",
+            "<p>Type \\( 2 \\)</p>",
+            "<p>Type \\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>Type \\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366965/nielit-2021-dec-scientist-b-section-b-52\" target=\"_blank\">https://gateoverflow.in/366965/nielit-2021-dec-scientist-b-section-b-52</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"373795\"></a><div itemprop=\"text\"><p>Consider the following types of languages:</p>\n\n<p>\\( \\text{L1}: \\) Regular,</p>\n\n<p>\\( \\text{L2}: \\) Context-free,</p>\n\n<p>\\( \\text{L3}: \\) Recursive,</p>\n\n<p>\\( \\text{L4}: \\) Recursively enumerable.</p>\n\n<p>Which of the following is/are \\( \\text{TRUE} \\) ?</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\text{L3}’ \\cup&nbsp;\\text{L4} \\) is recursively enumerable</li>\n\t<li>\\( \\text{L2} \\cup&nbsp;\\text{L3} \\) is recursive</li>\n\t<li>\\( \\text{L1}^{\\ast}&nbsp;\\cup&nbsp;\\text{L2} \\) is context-free</li>\n\t<li>\\( \\text{L1} \\cup&nbsp;\\text{L2}’ \\) is context-free</li>\n</ol>\n\n</div><br><br><b>Theory of Computation: NIELIT 2022 April Scientist B | Section B | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{I} \\) only</p>",
+            "<p>\\( \\text{I} \\) and&nbsp;\\( \\text{III} \\) only</p>",
+            "<p>\\( \\text{I} \\) and&nbsp;\\( \\text{IV} \\) only</p>",
+            "<p>\\( \\text{I, II} \\) and&nbsp;\\( \\text{III} \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{I, II} \\) and&nbsp;\\( \\text{III} \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373795/nielit-2022-april-scientist-b-section-b-question-43\" target=\"_blank\">https://gateoverflow.in/373795/nielit-2022-april-scientist-b-section-b-question-43</a></p>"
+        }
+      ]
+    }
+  ]
+}

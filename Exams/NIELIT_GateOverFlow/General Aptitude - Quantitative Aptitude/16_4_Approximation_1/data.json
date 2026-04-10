@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Approximation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Approximation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"410923\"></a><div itemprop=\"text\"><p>Which is the closest approximation of \\( 0.3333 \\times 0.25 \\times 0.499 \\times 0.125 \\times 24 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 101</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{8} \\)</p>",
+            "<p>\\( \\frac{3}{4} \\)</p>",
+            "<p>\\( \\frac{3}{8} \\)</p>",
+            "<p>\\( \\frac{2}{5} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{8} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410923/nielit-2023-feb-scientist-d-section-d-question-101\" target=\"_blank\">https://gateoverflow.in/410923/nielit-2023-feb-scientist-d-section-d-question-101</a></p>"
+        }
+      ]
+    }
+  ]
+}

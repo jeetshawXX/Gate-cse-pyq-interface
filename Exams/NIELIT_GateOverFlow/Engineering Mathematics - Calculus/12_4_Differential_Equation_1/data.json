@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Calculus - Differential Equation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Differential Equation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336671\"></a><div itemprop=\"text\"><p>Differential equation, \\( \\dfrac{d^2x}{dt^2}+10\\dfrac{dx}{dt}+25x=0 \\) will have a solution of the form&nbsp;</p>\n\n\n\n<p>where \\( C_1 \\) and \\( C_2 \\) are constants.</p></div><br><br><b>Calculus: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (C_1+C_2t)e^{-5t} \\)</p>",
+            "<p>\\( C_1e^{-2t} \\)</p>",
+            "<p>\\( C_1e^{-5t}+C_2e^{5t} \\)</p>",
+            "<p>\\( C_1e^{-5t}+C_2e^{2t} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (C_1+C_2t)e^{-5t} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336671/nielit-2016-mar-scientist-b-section-b-15\" target=\"_blank\">https://gateoverflow.in/336671/nielit-2016-mar-scientist-b-section-b-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

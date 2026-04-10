@@ -1,0 +1,236 @@
+{
+  "title": "CPU_Scheduling - CPU_Scheduling - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "CPU_Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Four jobs to be executed on a single processor system arrive at time 0 in the order A,B,C,D. Their burst CPU time requirements are 4,1,8,1 time units respectively. The completion time of A under round robin scheduling with time slice of one time unit is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2749/gate1996-2-20-isro2008-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>If the time-slice used in the round-robin scheduling policy is more than the maximum time required to execute any process, then the policy will <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>degenerate to hortest job first</p>",
+            "<b>B.</b> <p>degenerate to priority scheduling</p>",
+            "<b>C.</b> <p>degenerate to first come first serve</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>degenerate to first come first serve</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3365/gate2008-it-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Feedback queues <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>are very simple to implement</p>",
+            "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+            "<b>C.</b> <p>are used to favour real time tasks</p>",
+            "<b>D.</b> <p>require manual intervention to implement properly</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49632/isro2007-64-isro2008-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>On a system using non-preemptive scheduling, processes with expected run times of 5, 18, 9 and 12 are in the ready queue. In what order should they be run to minimize wait time? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5, 12, 9, 18</p>",
+            "<b>B.</b> <p>5, 9, 12, 18</p>",
+            "<b>C.</b> <p>12, 18, 9, 5</p>",
+            "<b>D.</b> <p>9, 12, 18, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5, 9, 12, 18</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49520/isro2007-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Round Robin schedule is essentially the pre-emptive version of <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FIFO</p>",
+            "<b>B.</b> <p>Shortest job first</p>",
+            "<b>C.</b> <p>Shortest remaining time</p>",
+            "<b>D.</b> <p>Longest remaining time</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49488/isro2007-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a set of n tasks with known runtimes \\(r_1, r_2, \\dots r_n\\) to be run on a uniprocessor machine. Which of the following processor scheduling algorithms will result in the maximum throughput? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Round Robin</p>",
+            "<b>B.</b> <p>Shortest job first</p>",
+            "<b>C.</b> <p>Highest response ratio next</p>",
+            "<b>D.</b> <p>first come first served</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Shortest job first</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49481/isro2007-11-gate2001-1-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The term 'aging' refers to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>booting up the priority of the process in multi-level of queue without feedback.</p>",
+            "<b>B.</b> <p>gradually increasing the priority of jobs that wait in the system for a long time to remedy infinite blocking</p>",
+            "<b>C.</b> <p>keeping track of the following a page has been in memory for the purpose of LRU replacement</p>",
+            "<b>D.</b> <p>letting job reside in memory for a certain amount of time so that the number of pages required can be estimated accurately.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>gradually increasing the priority of jobs that wait in the system for a long time to remedy infinite blocking</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49480/isro2007-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>An operating system uses Shortest Remaining Time first (SRT) process\nscheduling algorithm. Consider the arrival times and execution times for the\nfollowing processes:<pre><code> Process  Execution time  Arrival time\nP1             20            0\nP2             25            15\nP3             10            30\nP4             15            45</code></pre>\nWhat is the total waiting time for process P2? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>40</p>",
+            "<b>D.</b> <p>55</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1253/gate2007-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Group 1 contains some CPU scheduling algorithms and Group 2 contains some\napplications. Match entries in Group 1 to entries in Group 2. Group I Group II\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\CPU_Scheduling\\q16_f9f2d561.jpg\"> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P - 3 Q - 2 R - 1</p>",
+            "<b>B.</b> <p>P - 1 Q - 2 R - 3</p>",
+            "<b>C.</b> <p>P - 2 Q - 3 R - 1</p>",
+            "<b>D.</b> <p>P - 1 Q - 3 R - 2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P - 3 Q - 2 R - 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1214/gate2007-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The arrival time, priority, and duration of the CPU and I/O bursts for each of three processes \\(P_1, P_2\\) and \\(P_3\\) are given in the table below. Each process has a CPU burst followed by an I/O burst followed by another CPU burst. Assume that each process has its own I/O resource.<br>\n\\(\\begin{array}{|c|c|c|c|c|c|} \\hline \\textbf{Process} &amp; \\textbf{Arrival} &amp; \\textbf{Priority}&amp; \\textbf{Burst duration} &amp; \\textbf{Burst duration} &amp; \\textbf{Burst duration) }\\\\&amp; \\textbf{Time} &amp; &amp; \\textbf{(CPU)} &amp; \\textbf{(I/O)} &amp; \\textbf{(CPU) } \\\\\\hline \\text{$P_1$} &amp; 0 &amp; 2 &amp; 1 &amp; 5 &amp;3 \\\\\\hline \\text{$P_2$} &amp; 2 &amp; \\text{3 (lowest)}&amp; 3 &amp; 3 &amp; 1 \\\\\\hline \\text{$P_3$} &amp; 3 &amp; \\text{1 (highest)}&amp; 2 &amp; 3 &amp; 1 \\\\\\hline \\end{array}\\)<br> The multi-programmed operating system uses preemptive priority scheduling. What are the finish times of the processes \\(P_1, P_2\\) and \\(P_3\\)? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11, 15, 9</p>",
+            "<b>B.</b> <p>10, 15, 9</p>",
+            "<b>C.</b> <p>11, 16, 10</p>",
+            "<b>D.</b> <p>12, 17, 11</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10, 15, 9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3597/gate2006-it-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider three processes, all arriving at time zero, with total execution time of\n10, 20 and 30 units, respectively. Each process spends the first 20% of execution\ntime doing I/O, the next 70% of time doing computation, and the last 10% of\ntime doing I/O again. The operating system uses a shortest remaining compute\ntime first scheduling algorithm and schedules a new process either when the\nrunning process get blocked on I/O or when the running process finishes its\ncompute burst. Assume that all I/O operations can be overlapped as much as\npossible. For what percentage of time does the CPU remain idle? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0%</p>",
+            "<b>B.</b> <p>10.60%</p>",
+            "<b>C.</b> <p>30%</p>",
+            "<b>D.</b> <p>89.40%</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10.60%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1843/gate2006-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider three processes (process id 0,1,2, respectively) with compute time bursts\n2,4, and 8 time units. All processes arrive at time zero. Consider the longest remaining time first (LRTF) scheduling algorithm. In LRTF ties are broken by giving priority to the process with the lowest process id . The average turn around time is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13units</p>",
+            "<b>B.</b> <p>14units</p>",
+            "<b>C.</b> <p>15units</p>",
+            "<b>D.</b> <p>16units</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>13units</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1842/gate2006-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider three CPU-intensive processes, which require 10,20 and 30 time units\nand arrive at times 0,2, and 6, respectively. How many context switches are needed\nif the operating system implements a shortes remaining time first scheduling\nalgorithm? Do not count the context switches at time zero and at the end <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/885/gate2006-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>We wish to schedule three processes P1, P2 and P3 on a uniprocessor system. The priorities, CPU time requirements and arrival times of the processes are as shown below.<br>\n\\(\\begin{array}{|c|c|c|c|} \\hline \\textbf{Process} &amp; \\textbf{Priority} &amp; \\textbf{CPU time} &amp; \\textbf{Arrival time}\\\\ &amp; &amp; \\textbf{required} &amp; \\textbf{(hh:mm:ss)} \\\\\\hline \\text{P1} &amp; \\text{10 (highest)} &amp; 20\\text{ sec} &amp; 00:00:05 \\\\\\hline \\text{P2} &amp; 9 &amp; 10 \\text{ sec}&amp; 00:00:03 \\\\\\hline \\text{P3} &amp; \\text{8 (lowest)} &amp; 15 \\text{ sec}&amp; 00:00:00 \\\\\\hline \\end{array}\\)<br>\nWe have a choice of preemptive or non-preemptive scheduling. In preemptive scheduling, a late-arriving higher priority process can preempt a currently running process with lower priority. In non-preemptive scheduling, a late-arriving higher priority process must wait for the currently executing process to complete before it can be scheduled on the processor.<br>\nWhat are the turnaround times (time from arrival till completion) of P2 using preemptive and non-preemptive scheduling respectively? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30 sec, 30 sec</p>",
+            "<b>B.</b> <p>30 sec, 10 sec</p>",
+            "<b>C.</b> <p>42 sec, 42 sec</p>",
+            "<b>D.</b> <p>30 sec, 42 sec</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>30 sec, 42 sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3821/gate2005-it-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following set of processes, with the arrival times and the CPU-burst times given in\nmilliseconds.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\CPU_Scheduling\\q46_0eee0bd6.jpg\"><br>\nWhat is the average turnaround time for these processes with the preemptive shortest remaining\nprocessing time first (SRPT) algorithm? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5.5</p>",
+            "<b>B.</b> <p>5.75</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>6.25</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5.5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1043/gate2004-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

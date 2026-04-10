@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Set Theory",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Set Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373712\"></a><div itemprop=\"text\"><p>The following question is based on the information given below:</p>\n\n<p>Data of&nbsp;\\( 450 \\) candidates, who took part in an examination in social sciences, Mathematics and Science is given as below :</p>\n\n<p>Number of Students who :</p>\n\n<ul>\n\t<li>passed in all subjects are \\( 167 \\)</li>\n\t<li>failed in science \\( = 191 \\)&nbsp;</li>\n\t<li>failed in Mathematics \\( = 199 \\)&nbsp;</li>\n\t<li>failed in Social sciences&nbsp;\\( = 175 \\)&nbsp;</li>\n\t<li>failed in all subjects \\( = 60 \\)&nbsp;</li>\n\t<li>passed in Science only \\( = 52 \\)</li>\n\t<li>passed in Mathematics only \\( = 48 \\)</li>\n\t<li>passed in Social sciences only \\( = 62. \\)</li>\n</ul>\n\n<p>How many failed in two subjects only?</p>\n\n\n\n<ul>\n</ul></div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 162 \\)</p>",
+            "<p>\\( 152 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 52 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 162 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373712/nielit-2022-april-scientist-b-section-a-question-6\" target=\"_blank\">https://gateoverflow.in/373712/nielit-2022-april-scientist-b-section-a-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"410901\"></a><div itemprop=\"text\"><p>In an examination, \\( 30 \\% \\) and \\( 35 \\% \\) students respectively failed in history and geography while \\( 27 \\% \\) students failed in both the subjects. If the number of students passing the examination is \\( 248 \\), find the total number of students who appeared in the examination.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 425 \\)</p>",
+            "<p>\\( 380 \\)</p>",
+            "<p>\\( 400 \\)</p>",
+            "<p>None of these\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 400 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410901/nielit-2023-feb-scientist-d-section-c-question-63\" target=\"_blank\">https://gateoverflow.in/410901/nielit-2023-feb-scientist-d-section-c-question-63</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351650\"></a><div itemprop=\"text\"><p>In a class there are 40 students who play at least one game out of Football, Cricket and Badminton.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6154555693855785931\" width=\"350\"></p>\n\n<p>What percentage of students play only one game?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50\\% \\)</p>",
+            "<p>\\( 60\\% \\)</p>",
+            "<p>\\( 65\\% \\)</p>",
+            "<p>\\( 70\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 60\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351650/nielit-scientist-b-2020-november-32\" target=\"_blank\">https://gateoverflow.in/351650/nielit-scientist-b-2020-november-32</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351649\"></a><div itemprop=\"text\"><p>In a class there are 40 students who play at least one game out of Football, Cricket and Badminton.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=14012326386009701089\" width=\"350\"></p>\n\n<p>What percentage of students play all the three games?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4\\% \\)</p>",
+            "<p>\\( 5\\% \\)</p>",
+            "<p>\\( 8\\% \\)</p>",
+            "<p>\\( 10\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351649/nielit-scientist-b-2020-november-33\" target=\"_blank\">https://gateoverflow.in/351649/nielit-scientist-b-2020-november-33</a></p>"
+        }
+      ]
+    }
+  ]
+});

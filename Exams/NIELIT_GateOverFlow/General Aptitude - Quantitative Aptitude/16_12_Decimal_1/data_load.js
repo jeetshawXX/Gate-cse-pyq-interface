@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Decimal",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Decimal",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"410917\"></a><div itemprop=\"text\"><p>How many digits will be there to the right of the decimal point in the product of \\( 95.75 \\) \\( \\&amp; \\) \\( 0.02554 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 107</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410917/nielit-2023-feb-scientist-d-section-d-question-107\" target=\"_blank\">https://gateoverflow.in/410917/nielit-2023-feb-scientist-d-section-d-question-107</a></p>"
+        }
+      ]
+    }
+  ]
+});

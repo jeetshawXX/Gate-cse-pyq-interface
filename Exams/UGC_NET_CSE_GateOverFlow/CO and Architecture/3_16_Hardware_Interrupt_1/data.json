@@ -1,0 +1,26 @@
+{
+  "title": "CO and Architecture - Hardware Interrupt",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Hardware Interrupt",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57084\"></a><div itemprop=\"text\"><p>8085 microprocessor has ___ hardware interrupt</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | July 2016 | Part 3 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2</p>",
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>"
+          ],
+          "correct_answer": "<p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57084/ugc-net-cse-july-2016-part-3-question-2\" target=\"_blank\">https://gateoverflow.in/57084/ugc-net-cse-july-2016-part-3-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

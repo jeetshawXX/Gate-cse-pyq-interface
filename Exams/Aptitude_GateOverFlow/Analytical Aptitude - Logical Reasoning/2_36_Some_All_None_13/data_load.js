@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Some All None",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Some All None",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4265\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. All vegetarians eat meat.</p>\n\n<p>B. All those who eat meat are not vegetarians.</p>\n\n<p>C. All those who eat meat are herbivorous.</p>\n\n<p>D. All vegetarians are carnivorous.</p>\n\n<p>E. All those who eat meat are carnivorous.</p>\n\n<p>F. Vegetarians are herbivorous.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BCE&nbsp;</p>",
+            "<p>ABE</p>",
+            "<p>ACD&nbsp;</p>",
+            "<p>ACF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4265/cat-1994-question-41\" target=\"_blank\">https://aptitude.gateoverflow.in/4265/cat-1994-question-41</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4266\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. All roses have thorns.</p>\n\n<p>B. All roses have nectar.</p>\n\n<p>C. All plants with nectar have thorns.</p>\n\n<p>D. All shrubs have roses.</p>\n\n<p>E. All shrubs have nectar.</p>\n\n<p>F. Some roses have thorns.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BEF</p>",
+            "<p>BCF</p>",
+            "<p>BDE</p>",
+            "<p>ACF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4266/cat-1994-question-42\" target=\"_blank\">https://aptitude.gateoverflow.in/4266/cat-1994-question-42</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4267\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. No spring is a season.</p>\n\n<p>B. Some seasons are springs.</p>\n\n<p>C. Some seasons are autumns.</p>\n\n<p>D. No seasons are autumns.</p>\n\n<p>E. Some springs are not autumns.</p>\n\n<p>F. All springs are autumns.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DFA</p>",
+            "<p>BEF</p>",
+            "<p>CEB</p>",
+            "<p>DEB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4267/cat-1994-question-43\" target=\"_blank\">https://aptitude.gateoverflow.in/4267/cat-1994-question-43</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4268\"></a><div itemprop=\"text\"><p>&nbsp;Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. All falcons fly high.</p>\n\n<p>B. All falcons are blind.</p>\n\n<p>C. All falcons are birds.</p>\n\n<p>D. All birds are yellow.</p>\n\n<p>E. All birds are thirsty.</p>\n\n<p>F. All falcons are yellow.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ABC</p>",
+            "<p>CDF</p>",
+            "<p>DEF</p>",
+            "<p>BCA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4268/cat-1994-question-44\" target=\"_blank\">https://aptitude.gateoverflow.in/4268/cat-1994-question-44</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4269\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. No wires are hooks.</p>\n\n<p>B. Some spring are hooks</p>\n\n<p>C. All springs are wires.</p>\n\n<p>D. Some hooks are not wires.</p>\n\n<p>E. No hook is a spring.</p>\n\n<p>F. All wires are springs.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>AEF</p>",
+            "<p>BCF</p>",
+            "<p>BEF</p>",
+            "<p>ACE</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4269/cat-1994-question-45\" target=\"_blank\">https://aptitude.gateoverflow.in/4269/cat-1994-question-45</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4271\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. No plane is a chain.</p>\n\n<p>B. All manes are chains.</p>\n\n<p>C. No mane is a plane.</p>\n\n<p>D. Some manes are not planes.</p>\n\n<p>E. Some planes are manes</p>\n\n<p>F. Some chains are not planes.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ACD</p>",
+            "<p>ADF</p>",
+            "<p>ABC</p>",
+            "<p>CDF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4271/cat-1994-question-47\" target=\"_blank\">https://aptitude.gateoverflow.in/4271/cat-1994-question-47</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"4272\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three</p>\n\n<p>Choose the set in which the combinations are logically related.</p>\n\n<p>A. All dolls are nice.</p>\n\n<p>B. All toys are nice.</p>\n\n<p>C. All toys are dolls.</p>\n\n<p>D. Some toys are nice.</p>\n\n<p>E. Some nice things are dolls.</p>\n\n<p>F. No doll is nice.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CDE</p>",
+            "<p>CEF</p>",
+            "<p>ACD</p>",
+            "<p>BEF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4272/cat-1994-question-48\" target=\"_blank\">https://aptitude.gateoverflow.in/4272/cat-1994-question-48</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3976\"></a><div itemprop=\"text\"><p>Each of the following questions contains six statements followed by four sets of combinations of three. You have to choose that set in which the statements are logically related.</p>\n\n<p>A. All men are good.</p>\n\n<p>B. Some men are not good.</p>\n\n<p>C. A few men do not believe in God.</p>\n\n<p>D. No good man believes in God.</p>\n\n<p>E. No man who does not believe in God is good.</p>\n\n<p>F. Some men do not believe in God.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1995 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ABD&nbsp;</p>",
+            "<p>ACB</p>",
+            "<p>ECB</p>",
+            "<p>BED</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3976/cat-1995-question-41\" target=\"_blank\">https://aptitude.gateoverflow.in/3976/cat-1995-question-41</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3977\"></a><div itemprop=\"text\"><p>Each of the following questions contains six statements followed by four sets of combinations of three. You have to choose that set in which the statements are logically related.</p>\n\n<p>A. Rajender is an industrialist.</p>\n\n<p>B. Ramkumar is Rajender’s brother.</p>\n\n<p>C. Some men are cruel</p>\n\n<p>D. No industrialist is honest.</p>\n\n<p>E. Rajender is not honest</p>\n\n<p>F. Rajender is not cruel.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1995 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ACF</p>",
+            "<p>ABE</p>",
+            "<p>DCE</p>",
+            "<p>ADE</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3977/cat-1995-question-42\" target=\"_blank\">https://aptitude.gateoverflow.in/3977/cat-1995-question-42</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3978\"></a><div itemprop=\"text\"><p>Each of the following questions contains six statements followed by four sets of combinations of three. You have to choose that set in which the statements are logically related.</p>\n\n<p>A. All dogs are honest.</p>\n\n<p>B. Dogs are characterized by honesty</p>\n\n<p>C. Xerox is a dog.</p>\n\n<p>D. Jeet’s pet is a dog.</p>\n\n<p>E. All honest animals are dogs.</p>\n\n<p>F. Xerox is honest.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1995 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BDF</p>",
+            "<p>ACF</p>",
+            "<p>ADE</p>",
+            "<p>CEF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3978/cat-1995-question-43\" target=\"_blank\">https://aptitude.gateoverflow.in/3978/cat-1995-question-43</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3979\"></a><div itemprop=\"text\"><p>Each of the following questions contains six statements followed by four sets of combinations of three. You have to choose that set in which the statements are logically related.</p>\n\n<p>A. Some Asians are Indians.</p>\n\n<p>B. Some Asians are hardworking.</p>\n\n<p>C. All Indians are Asians.</p>\n\n<p>D. Some Indians are Asians.</p>\n\n<p>E. Some Indians are hardworking.</p>\n\n<p>F. No Indian is hardworking.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1995 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BDE</p>",
+            "<p>CEB</p>",
+            "<p>CDF</p>",
+            "<p>BDF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3979/cat-1995-question-44\" target=\"_blank\">https://aptitude.gateoverflow.in/3979/cat-1995-question-44</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"3980\"></a><div itemprop=\"text\"><p>Each of the following questions contains six statements followed by four sets of combinations of three. You have to choose that set in which the statements are logically related.</p>\n\n<p>A. Some books are funny.</p>\n\n<p>B. Some books are not funny.</p>\n\n<p>C. All funny books are best-sellers.</p>\n\n<p>D. Some bestsellers are not funny.</p>\n\n<p>E. Some books are not best-sellers.</p>\n\n<p>F. Some books are best-sellers.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1995 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BDE</p>",
+            "<p>CDF</p>",
+            "<p>ACF</p>",
+            "<p>BDF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3980/cat-1995-question-45\" target=\"_blank\">https://aptitude.gateoverflow.in/3980/cat-1995-question-45</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"4270\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. Some abra are dabra.</p>\n\n<p>B. All abra are cabra.</p>\n\n<p>C. All dabra are abra.</p>\n\n<p>D. All dabra are abra.</p>\n\n<p>E. Some cabra are abra</p>\n\n<p>F. Some cabra are dabra.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1995 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>AEF</p>",
+            "<p>BCF</p>",
+            "<p>ABD</p>",
+            "<p>BCE</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4270/cat-1995-question-46\" target=\"_blank\">https://aptitude.gateoverflow.in/4270/cat-1995-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Fact Judgemeant Inference",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Fact Judgemeant Inference",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4245\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. If India has embarked on the liberalisation route, she cannot afford to go back.</p>\n\n<p>B. Under these circumstances, being an active supporter of WTO policies will be a good idea.</p>\n\n<p>C. The WTO is a truly global organisation aiming at freer trade.</p>\n\n<p>D. Many member countries have already drafted plans to simplify tariff structures.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>FJFI&nbsp;</p>",
+            "<p>IFJF</p>",
+            "<p>IJFF&nbsp;</p>",
+            "<p>IFIF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4245/cat-1994-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/4245/cat-1994-question-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4246\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. The Minister definitely took the wrong step.</p>\n\n<p>B. Under the circumstances, he had many other alternatives.</p>\n\n<p>C. The Prime Minister is embarrassed due to the Minister’s decision</p>\n\n<p>D. If he has put the government in jeopardy, the Minister must resign.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>JFFI&nbsp;</p>",
+            "<p>IFJI</p>",
+            "<p>FFJI&nbsp;</p>",
+            "<p>IFIJ</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4246/cat-1994-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/4246/cat-1994-question-32</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4247\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts.</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. The ideal solution will be to advertise aggressively.</p>\n\n<p>B. One brand is already popular amongst the youth.</p>\n\n<p>C. Reducing prices will mean trouble as our revenues are already dwindling.</p>\n\n<p>D. The correct solution will be to consolidate by aggressive marketing.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>JFIJ&nbsp;</p>",
+            "<p>FJJI</p>",
+            "<p>IJFF&nbsp;</p>",
+            "<p>JJIF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4247/cat-1994-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/4247/cat-1994-question-33</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4248\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. If democracy is to survive, the people must develop a sense of consumerism.</p>\n\n<p>B. Consumerism has helped improve the quality of goods in certain countries.</p>\n\n<p>C. The protected environment in our country is helping local manufacturers.</p>\n\n<p>D. The quality of goods suffers if the manufacturers take undue advantage of this.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>IJFJ&nbsp;</p>",
+            "<p>JFJI</p>",
+            "<p>IJJF&nbsp;</p>",
+            "<p>IFJJ</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4248/cat-1994-question-34\" target=\"_blank\">https://aptitude.gateoverflow.in/4248/cat-1994-question-34</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4249\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts.</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. Unless the banks agree to a deferment of the interest, we cannot show profits this year.</p>\n\n<p>B. This would not have happened had we adopted a stricter credit scheme.</p>\n\n<p>C. The revenues so far cover only the cost and salaries.</p>\n\n<p>D. Let us learn a lesson: we cannot make profits without complete control over credit.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>IIJF&nbsp;</p>",
+            "<p>IJFI</p>",
+            "<p>FJIF</p>",
+            "<p>FJFI</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4249/cat-1994-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/4249/cat-1994-question-35</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4250\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. Qualities cannot be injected into one’s personality.&nbsp;</p>\n\n<p>B. They are completely dependent on the genetic configuration that one inherits.</p>\n\n<p>C. Hence changing our inherent traits is impossible as the genes are unalterable</p>\n\n<p>D. The least one can do is to try and subdue the “bad qualities”.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>FIJI</p>",
+            "<p>JFFI</p>",
+            "<p>JFIJ</p>",
+            "<p>JIFI</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4250/cat-1994-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/4250/cat-1994-question-36</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"4251\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts.</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. Everything is purposeless.</p>\n\n<p>B. Nothing before and after the existence of the universe is known with certainty.</p>\n\n<p>C. Man is a part of the purposeless universe, hence man is also purposeless.</p>\n\n<p>D. There is only one way of adding purpose to this universe: Union with Him.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>JFIJ</p>",
+            "<p>FJJI</p>",
+            "<p>FFI</p>",
+            "<p>IJFJ</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4251/cat-1994-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/4251/cat-1994-question-37</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"4252\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts.</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. Everyday social life is impossible without interpersonal relationships.</p>\n\n<p>B. The root of many misunderstandings has been cited in poor relations among individuals.</p>\n\n<p>C. Assuming the above to the true, social life will be much better if people understand the importance of good interpersonal relations.</p>\n\n<p>D. A study reveals that interpersonal relations and hence life in general can be improved with a little effort on the art of individuals.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>FJIJ</p>",
+            "<p>JFIF</p>",
+            "<p>FIFJ</p>",
+            "<p>IFFJ</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4252/cat-1994-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/4252/cat-1994-question-38</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"4253\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts.</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. The prices of electronic goods are falling.</p>\n\n<p>B. Since we have substantial reductions in import duties, this is obvious.</p>\n\n<p>C. The trend is bound to continue in the near future.</p>\n\n<p>D. But the turnover of the electronic industry is still rising, because consumers are increasing at a rapid rate.</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Logical Reasoning: CAT 1994 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>IFJF</p>",
+            "<p>FJII</p>",
+            "<p>FIJF</p>",
+            "<p>JIFF</p>"
+          ],
+          "correct_answer": "<p>FIJF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4253/cat-1994-question-39\" target=\"_blank\">https://aptitude.gateoverflow.in/4253/cat-1994-question-39</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"4254\"></a><div itemprop=\"text\"><p>F:&nbsp; Fact: If it relates to a known matter of direct observation, or an existing reality or something known to be true,</p>\n\n<p>J:&nbsp; Judgment: If it is an opinion or estimate or anticipation of common sense or intention,</p>\n\n<p>I:&nbsp; Inference: If it is a logical conclusion or deduction about something, based on the knowledge of facts</p>\n\n<p>From the alternatives, choose the one which correctly classifies the four sentences as a</p>\n\n<p>A. In the past, it appears, wealth distribution, and not wealth creation has dominated economic policy.</p>\n\n<p>B. Clearly, the government has not bothered to eradicate poverty.</p>\n\n<p>C. Today’s liberalisation is far from the hitherto Nehruvian socialism.</p>\n\n<p>D. Results are evident in the form of a boom in the manufacturing sector output and turnover of all industries.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>FJIF</p>",
+            "<p>FIFJ</p>",
+            "<p>IJIF</p>",
+            "<p>JIFF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4254/cat-1994-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/4254/cat-1994-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+});

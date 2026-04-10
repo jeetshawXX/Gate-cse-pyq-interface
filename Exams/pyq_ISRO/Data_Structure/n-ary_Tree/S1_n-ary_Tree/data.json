@@ -1,0 +1,26 @@
+{
+  "title": "n-ary_Tree - n-ary_Tree - Slot 1",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "n-ary_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Of the following, which best approximates the ratio of the number of nonterminal nodes in the total number of nodes in a complete K-ary tree of depth N ? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1/N</p>",
+            "<b>B.</b> <p>N-1/N</p>",
+            "<b>C.</b> <p>1/K</p>",
+            "<b>D.</b> <p>K-1/K</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1/K</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331348/isro2020-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

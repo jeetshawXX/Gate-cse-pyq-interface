@@ -1,0 +1,243 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following relational schema:<br><br>\n\\(\n\\text{Students} (\\text{\\underline{rollno: integer,} name: string, age: integer, cgpa: real})\n\\)<br>\n\\(\n\\text{Courses} (\\text{\\underline{courseno: integer,} cname: string, credits: integer})\n\\)<br>\n\\(\n\\text{Enrolled} (\\text{ \\underline{rollno: integer,} \\underline{courseno: integer,} grade: string})\n\\)<br><br>\nWhich of the following options is/are correct SQL query/queries to retrieve the names of the students enrolled in course number (i.e. courseno) 1470? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>SELECT S.name FROM Students S WHERE EXISTS (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>B.</b> <p>SELECT S.name FROM Students S WHERE SIZEOF (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno) &gt; 0</p>",
+            "<b>C.</b> <p>SELECT S.name FROM Students S WHERE 0 &lt; (SELECT COUNT(*) FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>D.</b> <p>SELECT S.name FROM Students S NATURAL JOIN Enrolled E WHERE E.courseno = 1470</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>SELECT S.name FROM Students S WHERE EXISTS (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>C.</b> <p>SELECT S.name FROM Students S WHERE 0 &lt; (SELECT COUNT(*) FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>D.</b> <p>SELECT S.name FROM Students S NATURAL JOIN Enrolled E WHERE E.courseno = 1470</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460849/gate-cse-2025-set-2-question-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the database transactions \\(T1 \\) and \\(T2 \\), and data items \\(X \\) and \\(Y \\). Which of the schedule(s) is/are conflict serializable?\n<br><br>\n\\( \\begin{array}{|l|}\n\\hline\n\\textbf{Transaction T1} \\\\ \\hline\nR1(X) \\\\ \\hline\nW1(Y) \\\\ \\hline\nR1(X) \\\\ \\hline\nW1(X) \\\\ \\hline\n\\text{COMMIT(T1)} \\\\ \\hline\n\\end{array}\n\\)\n<br><br>\n\\( \\begin{array}{|l|}\n\\hline\n\\textbf{Transaction T2} \\\\ \\hline\nW2(X) \\\\ \\hline\nW2(Y) \\\\ \\hline\n\\text{COMMIT(T2)} \\\\ \\hline\n\\end{array}\n\\) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(R1(X), W2(X), W1(Y), W2(Y), R1(X), W1(X), \\text{COMMIT}(T2), \\text{COMMIT}(T1) \\)</p>",
+            "<b>B.</b> <p>\\(W2(X), R1(X), W2(Y), W1(Y), R1(X), \\text{COMMIT}(T2), W1(X), \\text{COMMIT}(T1) \\)</p>",
+            "<b>C.</b> <p>\\(R1(X), W1(Y), W2(X), W2(Y), R1(X), W1(X), \\text{COMMIT}(T1), \\text{COMMIT}(T2) \\)</p>",
+            "<b>D.</b> <p>\\(W2(X), R1(X), W1(Y), W2(Y), R1(X), \\text{COMMIT}(T2), W1(X), \\text{COMMIT}(T1) \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(W2(X), R1(X), W2(Y), W1(Y), R1(X), \\text{COMMIT}(T2), W1(X), \\text{COMMIT}(T1) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460850/gate-cse-2025-set-2-question-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following relational schema along with all the functional dependencies that hold on them.  <br><br>\n\\(\nR1(A, B, C, D, E): \\{ D \\to E, EA \\to B, EB \\to C \\}\n\\)<br>\n\\(\nR2(A, B, C, D): \\{ A \\to D, A \\to B, C \\to A \\}\n\\)<br><br>\nWhich of the following statement(s) is/are TRUE? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(R1 \\) is in 3NF</p>",
+            "<b>B.</b> <p>\\(R2 \\) is in 3NF</p>",
+            "<b>C.</b> <p>\\(R1 \\) is NOT in 3NF</p>",
+            "<b>D.</b> <p>\\(R2 \\) is NOT in 3NF</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>\\(R1 \\) is NOT in 3NF</p>",
+            "<b>D.</b> <p>\\(R2 \\) is NOT in 3NF</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460799/gate-cse-2025-set-2-question-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>An audit of a banking transactions system has found that on an earlier occasion, two joint holders of account \\(A \\) attempted simultaneous transfers of Rs. 10000 each from account \\(A \\) to account \\(B \\). Both transactions read the same value, Rs. 11000, as the initial balance in \\(A \\) and were allowed to go through. \\(B \\) was credited Rs. 10000 twice. \\(A \\) was debited only once and ended up with a balance of Rs. 1000.\n<br>\nWhich of the following properties is/are certain to have been violated by the system? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Atomicity</p>",
+            "<b>B.</b> <p>Consistency</p>",
+            "<b>C.</b> <p>Isolation</p>",
+            "<b>D.</b> <p>Durability</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>Consistency</p>",
+            "<b>C.</b> <p>Isolation</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460818/gate-cse-2025-set-2-question-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following database tables of a sports league.\n<br><br>\nplayer(pid,pname,age)\n<br>coach(cid,cname)\n<br>team(tid,tname,city,cid)\n<br>members(pid,tid)\n<br><br>\nAn instance of the table and an SQL query are given.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q45_06d1065f.webp\"><br>\nThe value returned by the given SQL query is _________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "26",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460035/gate-cse-2025-set-1-question-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a relational schema \\( team(name, city, owner) \\), with functional dependencies  \\(\\{ name \\to city \\), \\( name \\to owner \\} \\) .\n<br><br>\nThe relation \\( team \\) is decomposed into two relations, \\( t_1(name, city) \\) and \\( t_2(name, owner) \\). Which of the following statement(s) is/are TRUE? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The relation \\( team \\) is NOT in BCNF.</p>",
+            "<b>B.</b> <p>The relations \\( t_1 \\) and \\( t_2 \\) are in BCNF.</p>",
+            "<b>C.</b> <p>The decomposition constitutes a lossless join.</p>",
+            "<b>D.</b> <p>The relation \\(team \\)is NOT in 3NF.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>The relations \\( t_1 \\) and \\( t_2 \\) are in BCNF.</p>",
+            "<b>C.</b> <p>The decomposition constitutes a lossless join.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460043/gate-cse-2025-set-1-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider two relations describing teams and players in a sports league:\n<br><br>\n\\(teams(tid, tname):tid, tname \\) are team-id and team-name, respectively\n<br>    \\(players(pid, pname, tid):pid,pname,tid\\) denote player-id, player-name and the team-id of the player, respectively\n<br><br>\nWhich ONE of the following tuple relational calculus queries returns the name of the players who play for the team having name as 'MI'? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\{ p.pname \\mid p \\in players \\wedge \\exists t ( t \\in teams \\wedge p.tid = t.tid \\wedge t.tname = 'MI' ) \\} \\)</p>",
+            "<b>B.</b> <p>\\( \\{ p.pname \\mid p \\in teams \\wedge \\exists t ( t \\in players \\wedge p.tid = t.tid \\wedge t.tname = 'MI' ) \\} \\)</p>",
+            "<b>C.</b> <p>\\( \\{ p.pname \\mid p \\in players \\wedge \\exists t ( t \\in teams \\wedge t.tname = 'MI' ) \\} \\)</p>",
+            "<b>D.</b> <p>\\( \\{ p.pname \\mid p \\in teams \\wedge \\exists t ( t \\in players \\wedge t.tname = 'MI' ) \\} \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\( \\{ p.pname \\mid p \\in players \\wedge \\exists t ( t \\in teams \\wedge p.tid = t.tid \\wedge t.tname = 'MI' ) \\} \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460051/gate-cse-2025-set-1-question-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A schedule of three database transactions \\(T_1\\), \\(T_2\\), and \\(T_3\\) is shown. \\(R_i(A)\\) and \\(W_i(A)\\) denote read and write of data item \\(A\\) by transaction \\(T_i\\), \\(i = 1, 2, 3\\). The transaction \\(T_1\\) aborts at the end. Which other transaction(s) will be required to be rolled back?\n<br><br> \\( R_1(X) \\quad W_1(Y) \\quad R_2(X) \\quad R_2(Y) \\quad R_3(Y) \\quad ABORT(T_1)\\) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only \\(T_2\\)</p>",
+            "<b>B.</b> <p>Only \\(T_3\\)</p>",
+            "<b>C.</b> <p>Both \\(T_2\\) and \\(T_3\\)</p>",
+            "<b>D.</b> <p>Neither \\(T_2\\) nor \\(T_3\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both \\(T_2\\) and \\(T_3\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460075/gate-cse-2025-set-1-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A functional dependency \\(F:X \\rightarrow Y\\) is termed as a useful functional dependency if\nand only if it satisfies all the following three conditions:<br><br>\n\\(X\\) is not the empty set.\n\\(Y\\) is not the empty set.\nIntersection of \\(X\\) and \\(Y\\) is the empty set.<br><br>\nFor a relation \\(R\\) with 4 attributes, the total number of possible useful functional\ndependencies is ______ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422851/gate-cse-2024-set-2-question-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The relation schema, Person(pid,city), describes the city of residence for\nevery person uniquely identified by pid. The following relational algebra operators\nare available: selection, projection, cross product, and rename.<br><br>\nTo find the list of cities where at least 3 persons reside, using the above operators,\nthe minimum number of cross product operations that must be used is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422862/gate-cse-2024-set-2-question-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following statements about the Two Phase Locking (2PL) protocol is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2PL permits only serializable schedules</p>",
+            "<b>B.</b> <p>With 2PL, a transaction always locks the data item being read or written just before every operation and always releases the lock just after the operation</p>",
+            "<b>C.</b> <p>With 2PL, once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction</p>",
+            "<b>D.</b> <p>A deadlock is possible with 2PL</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2PL permits only serializable schedules</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422880/gate-cse-2024-set-2-question-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following file organizations is/are I/O efficient for the scan operation in DBMS? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sorted</p>",
+            "<b>B.</b> <p>Heap</p>",
+            "<b>C.</b> <p>Unclustered tree index</p>",
+            "<b>D.</b> <p>Unclustered hash index</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sorted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422881/gate-cse-2024-set-2-question-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the context of owner and weak entity sets in the ER (Entity-Relationship) data model, which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The weak entity set MUST have total participation in the identifying relationship</p>",
+            "<b>B.</b> <p>The owner entity set MUST have total participation in the identifying relationship</p>",
+            "<b>C.</b> <p>Both weak and owner entity sets MUST have total participation in the identifying relationship</p>",
+            "<b>D.</b> <p>Neither weak entity set nor owner entity set MUST have total participation in the identifying relationship</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The weak entity set MUST have total participation in the identifying relationship</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422887/gate-cse-2024-set-2-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Once the DBMS informs the user that a transaction has been successfully\ncompleted, its effect should persist even if the system crashes before all its changes\nare reflected on disk. This property is called <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>durability</p>",
+            "<b>B.</b> <p>atomicity</p>",
+            "<b>C.</b> <p>consistency</p>",
+            "<b>D.</b> <p>isolation</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>durability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422888/gate-cse-2024-set-2-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following read-write schedule \\( S \\) over three transactions \\( T_1, T_2 \\), and \\( T_3 \\), where the subscripts in the schedule indicate transaction IDs:\n<br> <br>\\(\nS: r_1(z) ; w_1(z) ; r_2(x) ; r_3(y) ; w_3(y) ; r_2(y) ; w_2(x) ; w_2(y) ;\n\\) <br><br>Which of the following transaction schedules is/are conflict equivalent to \\( S \\) ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\( T_1 T_2 T_3 \\)</p>",
+            "<b>B.</b> <p>\\( T_1 T_3 T_2 \\)</p>",
+            "<b>C.</b> <p>\\( T_3 T_2 T_1 \\)</p>",
+            "<b>D.</b> <p>\\( T_3 T_1 T_2 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\( T_1 T_3 T_2 \\)</p>",
+            "<b>C.</b> <p>\\( T_3 T_2 T_1 \\)</p>",
+            "<b>D.</b> <p>\\( T_3 T_1 T_2 \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422806/gate-cse-2024-set-1-question-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Calculus - Vector Calculus",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Vector Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48070\"></a><div itemprop=\"text\"><p>Which of the following statement is correct</p>\n\n</div><br><br><b>Calculus: ISRO CSE 2009 | Question:  45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\triangle (U_k V_k) = U_k \\triangle V_k + V_k \\triangle U_k \\)</p>",
+            "<p>\\( \\triangle (U_k V_k) = U_{k+1} &nbsp;\\triangle V_k + V_{k+1} \\triangle U_k \\)</p>",
+            "<p>\\( \\triangle (U_k V_k) = V_{k+1} \\triangle U_k + U_k \\triangle V_k \\)</p>",
+            "<p>\\( \\triangle (U_k V_k) = U_{k+1} \\triangle V_k + V_k \\triangle U_k \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\triangle (U_k V_k) = U_{k+1} &nbsp;\\triangle V_k + V_{k+1} \\triangle U_k \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48070/isro-cse-2009-question-45\" target=\"_blank\">https://gateoverflow.in/48070/isro-cse-2009-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

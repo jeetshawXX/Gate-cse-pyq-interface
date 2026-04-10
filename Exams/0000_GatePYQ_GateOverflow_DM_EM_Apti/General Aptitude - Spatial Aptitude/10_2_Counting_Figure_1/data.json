@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Spatial Aptitude - Counting Figure",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Counting Figure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411696\"></a><div itemprop=\"text\"><p>The figure shows a grid formed by a collection of unit squares. The unshaded unit square in the grid represents a hole.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___counting_figure/c0e6d36477053280b59725003176ade3.png\" width=\"275\"></p>\n\n<p>What is the maximum number of squares without a “hole in the interior” that can be formed within the \\( 4 \\times 4 \\) grid using the unit squares as building blocks?</p>\n\n</div><br><br><b>GATE ECE 2022 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 26 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411696/gate-ece-2022-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411696/gate-ece-2022-ga-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - Computer_Organization - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The minimum time delay between the initiation of two independent memory operations is called <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Access time</p>",
+            "<b>B.</b> <p>Cycle time</p>",
+            "<b>C.</b> <p>Rotational time</p>",
+            "<b>D.</b> <p>Latency time</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Cycle time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19446/isro2015-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The contents of the flag register after execution of the following program by 8085 microprocessor will be<br><br>Program<br> SUB A<br>\nMVI B,(01)H<br>\nDCR B<br>\nHLT<br> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((54)_{H}\\)</p>",
+            "<b>B.</b> <p>\\((00)_{H}\\)</p>",
+            "<b>C.</b> <p>\\((01)_{H}\\)</p>",
+            "<b>D.</b> <p>\\((45)_{H}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((54)_{H}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46026/isro2015-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A hard disk system has the following parameters :<br>Number of tracks =500<br>Number of sectors/track =100<br>Number of bytes /sector =500<br>Time taken by the head to move from one track to adjacent track =1 ms<br>Rotation speed =600 rpm.<br>What is the average time taken for transferring 250 bytes from the disk ? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>300.5 ms</p>",
+            "<b>B.</b> <p>255.5 ms</p>",
+            "<b>C.</b> <p>255 ms</p>",
+            "<b>D.</b> <p>300 ms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>300 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3479/gate2007-it-44-isro2015-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Six files F1, F2, F3, F4, F5 and F6 have 100, 200, 50, 80, 120, 150 records respectively. In what order should they be stored so as to optimize act. Assume each file is accessed with the same frequency <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>F3, F4, F1, F5, F6, F2</p>",
+            "<b>B.</b> <p>F2, F6, F5, F1, F4, F3</p>",
+            "<b>C.</b> <p>F1, F2, F3, F4, F5, F6</p>",
+            "<b>D.</b> <p>Ordering is immaterial as all files are accessed with the same frequency.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>F3, F4, F1, F5, F6, F2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/37207/isro2015-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>How many 32K x 1 RAM chips are needed to provide a memory capacity of 256K-bytes? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>32</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>128</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1299/gate2009-7-isro2015-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following code sequence having five instructions I1 to I5. Each of these instructions has the following format. <br><br>OP Ri, Rj, Rk <br><br>where operation OP is performed on contents of registers Rj and Rk and the result is stored in register Ri. <br><br>\nI1: ADD R1, R2, R3  <br>\nI2: MUL R7, R1, R3 <br>\nI3: SUB R4, R1, R5 <br>\nI4: ADD R3, R2, R4 <br>\nI5: MUL R7, R8, R9 <br><br> Consider the following three statements. <br>\nS1: There is an anti-dependence between instructions l2 and l5 <br>\nS2: There is an anti-dependence between instructions l2 and l4  <br>                              S3: Within an instruction pipeline an anti-dependence always creates one or more stalls <br><br> Which one of above statements is/are correct? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Only S1 and S3 are true</p>",
+            "<b>D.</b> <p>Only S2 and S3 are true</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only S2 is true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8556/gate2015-3-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following reservation table for a pipeline having three stages S1,S2 and S3.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q38_2b8ca31a.jpg\"><br> The minimum average latency (MAL) is ________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8560/gate2015-3-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a machine with a byte addressable main memory of \\(2^{20}\\)  bytes, block size of 16 bytes and a direct mapped cache having \\(2^{12}\\) cache lines. Let the addresses of two consecutive bytes in main memory be \\((E201F)_{16}\\) and \\((E2020)_{16}\\). What are the tag and cache line address (in hex) for main memory address \\((E201F)_{16}\\)? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>E, 201</p>",
+            "<b>B.</b> <p>F, 201</p>",
+            "<b>C.</b> <p>E, E20</p>",
+            "<b>D.</b> <p>2, 01F</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>E, 201</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8410/gate2015-3-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a processor with byte-addressable memory. Assume that all registers, including Program Counter (PC) and Program Status Word (PSW), are of size 2 bytes. A stack in the main memory is implemented from memory location \\((0100)_{16}\\) and it grows upward. The stack pointer (SP) points to the top element of the stack. The current value of SP is \\((016E)_{16}\\). The CALL instruction is of two words, the first word is the op-code and the second word is the starting address of the subroutine (one word = 2 bytes). The CALL instruction is implemented as follows: <br><br>\nStore the current value of PC in the stack <br>\nStore the value of PSW register in the stack <br>\nLoad the starting address of the subroutine in PC <br><br>\nThe content of PC just before the fetch of a CALL instruction is \\((5FA0)_{16}\\).  After execution of the CALL instruction, the value of the stack pointer is <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((016A)_{16}\\)</p>",
+            "<b>B.</b> <p>\\((016C)_{16}\\)</p>",
+            "<b>C.</b> <p>\\((0170)_{16}\\)</p>",
+            "<b>D.</b> <p>\\((0172)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((0172)_{16}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8215/gate2015-2-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the sequence of machine instructions given below:<br>\nMUL R5, R0, R1  <br>\nDIV R6, R2, R3 <br>\nADD R7, R5, R6 <br>\nSUB R8, R7, R4 <br>\nIn the above sequence, R0 to R8 are general purpose registers. In the instructions shown, the first register stores the result of the operation performed on the second and the third registers. This sequence of instructions is to be executed in a pipelined instruction processor with the following 4 stages: (1) Instruction Fetch and Decode (IF), (2) Operand Fetch (OF), (3) Perform Operation (PO) and (4) Write back the result (WB). The IF, OF and WB stages take 1 clock cycle each for any instruction. The PO stage takes 1 clock cycle for ADD or SUB instruction, 3 clock cycles for MUL instruction and 5 clock cycles for DIV instruction. The pipelined processor uses operand forwarding from the PO stage to the OF stage. <br><br>The number of clock cycles taken for the execution of the above sequence of instructions is ___________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8218/gate2015-2-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a typical disk that rotates at 15000 rotations per minute (RPM) and has a transfer rate of 50x\\(10^{6}\\)  bytes/sec. If the average seek time of the disk is twice the average rotational delay and the controller's transfer time is 10 times the disk transfer time, the average time (in milliseconds) to read or write a 512-byte sector of the disk is ______. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6.1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8251/gate2015-2-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Assume that for a certain processor, a read request takes 50 nanoseconds on a cache miss and 5 nanoseconds on a cache hit. Suppose while running a program, it was observed that 80% of the processor's read requests result in a cache hit. The average read access time in nanoseconds is __________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8119/gate2015-2-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a non-pipelined processor with a clock rate of 2.5 gigahertz and average cycles per instruction of four. The same processor is upgraded to a pipelined processor with five stages; but due to the internal pipeline delay, the clock speed is reduced to 2 gigahertz. Assume that there are no stalls in the pipeline. The speed up achieved in this pipelined processor is_________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3.2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8288/gate2015-1-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a disk pack with a seek time of 4 milliseconds and rotational speed of 10000 rotations per minute (RPM). It has 600 sectors per track and each sector can store 512 bytes of data. Consider a file stored in the disk. The file contains 2000 sectors. Assume that every sector access necessitates a seek, and the average rotational latency for accessing each sector is half of the time for one complete rotation. The total time (in milliseconds) needed to read the entire file is ____________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14020",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8354/gate2015-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>For computers based on three-address instruction formats, each address field can be used to specify which of the following: <br>(S1) A memory operand <br>(S2) A processor register <br>(S3) An implied accumulator register <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Either S1 or S2</p>",
+            "<b>B.</b> <p>Either S2 or S3</p>",
+            "<b>C.</b> <p>Only S2 and S3</p>",
+            "<b>D.</b> <p>All of S1, S2 and S3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Either S1 or S2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8096/gate2015-1-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

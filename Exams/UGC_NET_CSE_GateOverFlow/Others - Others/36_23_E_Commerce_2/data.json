@@ -1,0 +1,41 @@
+{
+  "title": "Others - Others - E Commerce",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "E Commerce",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70374\"></a><div itemprop=\"text\"><p>Discovery of cross sales opportunities is called as _____.</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Association</p>",
+            "<p>Visualization</p>",
+            "<p>Correlation</p>",
+            "<p>Segmentation</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70374/ugc-net-cse-august-2016-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/70374/ugc-net-cse-august-2016-part-2-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"65619\"></a><div itemprop=\"text\"><p>Which is the most valuable electronic commerce to the individual customer in long run ?</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2011 | Part 2 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Business to Customer</p>",
+            "<p>Business to Business</p>",
+            "<p>Customer to Customer</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65619/ugc-net-cse-june-2011-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/65619/ugc-net-cse-june-2011-part-2-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+}

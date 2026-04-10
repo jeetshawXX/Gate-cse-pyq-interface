@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Binary Search",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Binary Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49626\"></a><div itemprop=\"text\"><p>The time taken by binary search algorithm to search a key in a sorted array of \\( n \\) elements is</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2007 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O\\: (\\log_2 \\: n) \\)</p>",
+            "<p>\\( O \\:&nbsp; (n) \\)</p>",
+            "<p>\\( O \\: (n \\: \\log_2 \\: n) \\)</p>",
+            "<p>\\( O \\:&nbsp; (n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O\\: (\\log_2 \\: n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49626/isro-cse-2007-question-59\" target=\"_blank\">https://gateoverflow.in/49626/isro-cse-2007-question-59</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"16124\"></a><div itemprop=\"text\"><p>Suppose there are \\( 11 \\) items in sorted order in an array. How many searches are required on the average, if binary search is employed and all searches are successful in finding the item?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2014 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3.00 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 3.46 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 2.81 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 3.33 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3.00 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/16124/isro-cse-2014-question-28\" target=\"_blank\">https://gateoverflow.in/16124/isro-cse-2014-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

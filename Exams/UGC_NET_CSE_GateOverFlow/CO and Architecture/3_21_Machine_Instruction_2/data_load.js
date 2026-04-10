@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Machine Instruction",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Machine Instruction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335131\"></a><div itemprop=\"text\"><p>Consider the following assembly language instructions:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">mov al, 15\nmov ah, 15\nxor al, al\nmov cl, 3\nshr ax, cl\nadd al, 90H\nadd ah, 0</pre>\n\n<p>What is the value in \\( ax \\) register after execution of above instructions?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | January 2017 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0270H \\)</p>",
+            "<p>\\( 0170H \\)</p>",
+            "<p>\\( 01E0H \\)</p>",
+            "<p>\\( 0370H \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0270H \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335131/ugc-net-cse-january-2017-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/335131/ugc-net-cse-january-2017-part-2-question-32</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"349598\"></a><div itemprop=\"text\"><p>Arrange the following types of machine in descending order of complexity.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>SISD</li>\n\t<li>MIMD</li>\n\t<li>SIMD</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | October 2020 | Part 2 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a,b,c \\)</p>",
+            "<p>\\( c,b,a \\)</p>",
+            "<p>\\( b.c.a \\)</p>",
+            "<p>\\( c,a,b \\)</p>"
+          ],
+          "correct_answer": "<p>\\( b.c.a \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349598/ugc-net-cse-october-2020-part-2-question-75\" target=\"_blank\">https://gateoverflow.in/349598/ugc-net-cse-october-2020-part-2-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+});

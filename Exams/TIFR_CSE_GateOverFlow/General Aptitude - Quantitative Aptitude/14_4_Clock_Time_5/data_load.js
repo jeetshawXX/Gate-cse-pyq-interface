@@ -1,0 +1,91 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Clock Time",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Clock Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18206\"></a><div itemprop=\"text\"><p>The hour hand and the minute hands of a clock meet at noon and again at mid-night. In between they meet \\( N \\) times, where \\( N \\) is.:</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2010 | Part A | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18206/tifr-cse-2010-part-a-question-2\" target=\"_blank\">https://gateoverflow.in/18206/tifr-cse-2010-part-a-question-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25502\"></a><div itemprop=\"text\"><p>Consider a well functioning clock where the hour, minute and the seconds needles are exactly at zero.&nbsp;How much time later will the minutes needle be exactly one minute ahead (\\( 1/60 \\) th of the circumference) of&nbsp;the hours needle and the seconds needle again exactly at zero?</p>\n\n<p>Hint: When the desired event happens both the hour needle and the minute needle have moved an integer multiple of \\( 1/60 \\) th of the circumference.</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2013 | Part A | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 144 \\) minutes</p>",
+            "<p>\\( 66 \\) minutes</p>",
+            "<p>\\( 96 \\) minutes</p>",
+            "<p>\\( 72 \\) minutes</p>",
+            "<p>\\( 132 \\) minutes&nbsp;</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25502/tifr-cse-2013-part-a-question-20\" target=\"_blank\">https://gateoverflow.in/25502/tifr-cse-2013-part-a-question-20</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"25998\"></a><div itemprop=\"text\"><p>A person went out between \\( 4 \\)pm and \\( 5 \\)pm to chat with her friend and returned between \\( 5 \\)pm and \\( 6 \\)pm.&nbsp;On her return, she found that the hour-hand and the minute-hand of her (well-functioning) clock had just&nbsp;exchanged their positions with respect to their earlier positions at the time of her leaving. The person must&nbsp;have gone out to chat at</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2014 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Twenty five minutes past \\( 4 \\)pm.</p>",
+            "<p>Twenty six and \\( \\dfrac{122}{143} \\) minutes past \\( 4 \\)pm.</p>",
+            "<p>Twenty seven and \\( \\dfrac{1}{3} \\) minutes past \\( 4 \\)pm.</p>",
+            "<p>Twenty eight minutes past \\( 4 \\)pm.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>Twenty six and \\( \\dfrac{122}{143} \\) minutes past \\( 4 \\)pm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25998/tifr-cse-2014-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/25998/tifr-cse-2014-part-a-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"333114\"></a><div itemprop=\"text\"><p>The hour needle of a clock is malfunctioning and travels in the anti-clockwise direction, i.e., opposite to the usual direction, at the same speed it would have if it was working correctly. The minute needle is working correctly. Suppose the two needles show the correct time at \\( 12 \\) noon, thus both needles are together at the \\( 12 \\) mark. After how much time do the two needles meet again?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2020 | Part A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{10}{11} \\) hour</p>",
+            "<p>\\( \\dfrac{11}{12} \\) hour</p>",
+            "<p>\\( \\dfrac{12}{13} \\) hour</p>",
+            "<p>\\( \\dfrac{19}{22} \\) hour</p>",
+            "<p>One hour</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{12}{13} \\) hour</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333114/tifr-cse-2020-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/333114/tifr-cse-2020-part-a-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"473103\"></a><div itemprop=\"text\"><p>A clock shows \\( 3:00 \\).&nbsp; After \\( 10^{1024} \\) minutes, what minute does the minute hand point to?</p></div><br><br><b>Quantitative Aptitude: TIFR CSE 2025 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 10 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 40 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473103/tifr-cse-2025-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/473103/tifr-cse-2025-part-a-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Logical Reasoning",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Logical Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"410981\"></a><div itemprop=\"text\"><p>Groups created by managerial decision in order to accomplish stated goals of the organization are called ___________.</p>\n\n</div><br><br><b>Others: NIELIT 2023 Feb Scientist D | Section E | Question: 144</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Formal groups</p>",
+            "<p>Informal groups</p>",
+            "<p>Task groups</p>",
+            "<p>Interest groups\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Formal groups</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410981/nielit-2023-feb-scientist-d-section-e-question-144\" target=\"_blank\">https://gateoverflow.in/410981/nielit-2023-feb-scientist-d-section-e-question-144</a></p>"
+        }
+      ]
+    }
+  ]
+});

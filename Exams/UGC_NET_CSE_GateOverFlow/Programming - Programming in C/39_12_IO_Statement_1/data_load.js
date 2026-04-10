@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - IO Statement",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "IO Statement",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155187\"></a><div itemprop=\"text\"><p>The output of the program code</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">main()\n{\nint x=0;\nwhile (x&lt;=10)\nfor(;;)\nif(++x%10==0)\nbreak;\nprintf(“x=%d”,x);\n}</pre>\n\n<p>is :</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | December 2008 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>x=1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>compilation error</p>",
+            "<p>x=20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155187/ugc-net-cse-december-2008-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/155187/ugc-net-cse-december-2008-part-2-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

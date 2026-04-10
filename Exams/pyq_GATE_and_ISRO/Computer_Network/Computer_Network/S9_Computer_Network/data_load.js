@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In CRC if the data unit is 100111001 and the divisor is 1011 then what is dividend at the receiver? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(100111001101\\)</p>",
+            "<b>B.</b> <p>\\(100111001011\\)</p>",
+            "<b>C.</b> <p>\\(100111001\\)</p>",
+            "<b>D.</b> <p>\\(100111001110\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(100111001011\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51715/isro2015-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>How many characters per sec (7 bits + 1 parity) can be transmitted over a 2400 bps line if the transfer is synchronous ( 1 start and 1 stop bit)? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>300</p>",
+            "<b>B.</b> <p>240</p>",
+            "<b>C.</b> <p>250</p>",
+            "<b>D.</b> <p>275</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>300</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51713/isro2015-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communication with the host? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16 bits</p>",
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>48 bits</p>",
+            "<b>D.</b> <p>64 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>32 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51712/isro2015-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What frequency range is used for microwave communications, satellite and radar? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Low frequency: 30 kHz to 300 kHz</p>",
+            "<b>B.</b> <p>Medium frequency: 300 kHz to 3 MHz</p>",
+            "<b>C.</b> <p>Super high frequency: 3000 MHz to 30000 MHz</p>",
+            "<b>D.</b> <p>Extremely high frequency: 30000 kHz</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Extremely high frequency: 30000 kHz</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51711/isro2015-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A T-switch is used to <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Control how messages are passed between computers</p>",
+            "<b>B.</b> <p>Echo every character that is received</p>",
+            "<b>C.</b> <p>Transmit characters one at a time</p>",
+            "<b>D.</b> <p>Rearrange the connections between computing equipments</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Rearrange the connections between computing equipments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51709/isro2015-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The DNS maps the IP address to <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A binary address as strings</p>",
+            "<b>B.</b> <p>A n alphanumeric address</p>",
+            "<b>C.</b> <p>A hierarchy of domain names</p>",
+            "<b>D.</b> <p>A hexadecimal address</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A hierarchy of domain names</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46736/isro2015-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Two hosts are connected via a packet switch with \\(10^{7}\\) bits per second links. Each link has a propagation delay of 20 microseconds. The switch begins forwarding a packet 35 microseconds after it receives the same. If 10000 bits of data are to be transmitted between the two hosts using a packet size of 5000 bits, the time elapsed between the transmission of the first bit of data and the reception of the last bit of the data in microseconds is____________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1575",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8495/gate2015-3-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a network connecting two systems located 8000 kilometers apart. The bandwidth of the network is 500x\\(10^{6}\\) bits per second. The propagation speed of the media is 4x\\(10^{6}\\) meters per second. It is needed to design a Go-Back-N sliding window protocol for this network. The average packet size is \\(10^{7}\\) bits. The network is to be used to its full capacity. Assume that processing delays at nodes are negligible. Then, the minimum size in bits of the sequence number field has to be ___________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8481/gate2015-3-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In the network 200.10.11.144/27, the fourth octet (in decimal) of the last IP address of the network which can be assigned to a host is ____________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "158",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8497/gate2015-3-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a CSMA/CD network that transmits data at a rate of 100 Mbps (\\(10^{8}\\) bits per second) over a 1 km (kilometer) cable with no repeaters. If the minimum frame size required for this network is 1250 bytes, what is the signal speed (km/sec) in the cable? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8000</p>",
+            "<b>B.</b> <p>10000</p>",
+            "<b>C.</b> <p>16000</p>",
+            "<b>D.</b> <p>20000</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>20000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8400/gate2015-3-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following statements.<br>\nI. TCP connections are full duplex <br>\nII. TCP has no option for selective acknowledgement <br>\nIII. TCP connections are message streams <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I is correct</p>",
+            "<b>B.</b> <p>Only I and III are correct</p>",
+            "<b>C.</b> <p>Only II and III are correct</p>",
+            "<b>D.</b> <p>All of I, II and III are correct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only I is correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8425/gate2015-3-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Assume that the bandwidth for a TCP connection is 1048560 bits/sec. Let \\(\\alpha\\) be the value of RTT in milliseconds (rounded off to the nearest integer) after which the TCP window scale option is needed. Let \\(\\beta\\) be the maximum possible window size with window scale option. Then the values of \\(\\alpha\\) and \\(\\beta\\) are <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63 milliseconds, 65535 x \\(2^{14}\\)</p>",
+            "<b>B.</b> <p>63 milliseconds, 65535 x \\(2^{16}\\)</p>",
+            "<b>C.</b> <p>500 milliseconds, 65535 x \\(2^{14}\\)</p>",
+            "<b>D.</b> <p>500 milliseconds, 65535 x \\(2^{16}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>500 milliseconds, 65535 x \\(2^{14}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8154/gate2015-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Host A sends a UDP datagram containing 8880 bytes of user data to host B over an Ethernet LAN. Ethernet frames may carry data up to 1500 bytes (i.e. MTU=1500 bytes). Size of UDP header is 8 bytes and size of IP header is 20 bytes. There is no option field in IP header. How many total number of IP fragments will be transmitted and what will be the contents of offset field in the last fragment? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 925</p>",
+            "<b>B.</b> <p>6 and 7400</p>",
+            "<b>C.</b> <p>7 and 1110</p>",
+            "<b>D.</b> <p>7 and 8880</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7 and 1110</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8255/gate2015-2-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following routing table at an IP router: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q26_96507893.jpg\"><br> For each IP address in Group I identify the correct choice of the next hop from Group II using the entries from the routing table above.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q26a_e40289ea.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i-a, ii-c, iii-e, iv-d</p>",
+            "<b>B.</b> <p>i-a, ii-d, iii-b, iv-e</p>",
+            "<b>C.</b> <p>i-b, ii-c, iii-d, iv-e</p>",
+            "<b>D.</b> <p>i-b, ii-c, iii-e, iv-d</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>i-a, ii-c, iii-e, iv-d</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8213/gate2015-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following statements is NOT correct about HTTP cookies? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A cookie is a piece of code that has the potential to compromise the security of an Internet user</p>",
+            "<b>B.</b> <p>A cookie gains entry to the user's work area through an HTTP header</p>",
+            "<b>C.</b> <p>A cookie has an expiry date and time</p>",
+            "<b>D.</b> <p>Cookies can be used to track the browsing pattern of a user at a particular site</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A cookie is a piece of code that has the potential to compromise the security of an Internet user</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8063/gate2015-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

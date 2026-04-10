@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Boolean_Algebra - Boolean_Algebra - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Boolean_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The most simplified form of the Boolean function<br>\n\\(x (A, B, C, D) = \\sum (7, 8, 9, 10, 11, 12, 13, 14, 15)\\)<br>\n(expressed in sum of minterms) is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A + A'BCD</p>",
+            "<b>B.</b> <p>AB + CD</p>",
+            "<b>C.</b> <p>A + BCD</p>",
+            "<b>D.</b> <p>ABC + D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A + BCD</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43963/isro-2013-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Any set of Boolean operators that is sufficient to represent all Boolean expressions is said to be complete. Which of the following is not complete ? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{NOT, OR}</p>",
+            "<b>B.</b> <p>{NOR}</p>",
+            "<b>C.</b> <p>{AND, OR}</p>",
+            "<b>D.</b> <p>{AND, NOT}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>{AND, OR}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43845/isro-2013-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following expressions does NOT represent exclusive NOR of x and y? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>xy + x' y'</p>",
+            "<b>B.</b> <p>x \\(\\bigoplus\\) y'</p>",
+            "<b>C.</b> <p>x' \\(\\bigoplus\\) y</p>",
+            "<b>D.</b> <p>x' \\(\\bigoplus\\) y'</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x' \\(\\bigoplus\\) y'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1532/gate2013-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the minimal form of the Karnaugh map shown below? Assume that X denotes a don't care\nterm.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q30_537e8815.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{b}\\bar{d}\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{b}\\bar{d}+\\bar{b}\\bar{c}\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{b}\\bar{d}+a\\bar{b}\\bar{c}d\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{b}\\bar{d}+\\bar{b}\\bar{c}+\\bar{c}\\bar{d}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\bar{b}\\bar{d}+\\bar{b}\\bar{c}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1615/gate2012-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The truth table <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q6_b26b0b55.jpg\"> represents the Boolean function <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X</p>",
+            "<b>B.</b> <p>X + Y</p>",
+            "<b>C.</b> <p>X \\(\\bigoplus\\) Y</p>",
+            "<b>D.</b> <p>Y</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>X</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/38/gate2012-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The output expression of the following gate network is <br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q47_ff3adc84.jpg\"><br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X.Y + \\bar{X} . \\bar{Y}\\)</p>",
+            "<b>B.</b> <p>X.Y + X.Y</p>",
+            "<b>C.</b> <p>X.Y</p>",
+            "<b>D.</b> <p>X+Y</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X.Y + \\bar{X} . \\bar{Y}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52572/isro2011-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In Boolean algebra, rule \\(\\left ( X+Y \\right )\\left ( X+Z \\right ) =\\) <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Y+XZ</p>",
+            "<b>B.</b> <p>X+YZ</p>",
+            "<b>C.</b> <p>XY+Z</p>",
+            "<b>D.</b> <p>XZ+Y</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X+YZ</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52477/isro2011-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Evaluate (X xor Y) xor Y? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All 1's</p>",
+            "<b>B.</b> <p>All 0's</p>",
+            "<b>C.</b> <p>X</p>",
+            "<b>D.</b> <p>Y</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19328/isro2011-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The simplified SOP (Sum of Product) form of the Boolean Algebra \\((P+\\bar{Q}+\\bar{R})\\cdot (P+\\bar{Q}+R)\\cdot (P+Q+\\bar{R})\\) is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\bar{P}Q+\\bar{R})\\)</p>",
+            "<b>B.</b> <p>\\((P+\\bar{Q}\\bar{R})\\)</p>",
+            "<b>C.</b> <p>\\((\\bar{P}Q+R)\\)</p>",
+            "<b>D.</b> <p>(PQ+R)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((P+\\bar{Q}\\bar{R})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2116/gate2011-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following circuits is NOT equivalent to a 2-input XNOR\n(exclusive NOR) gate? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q2_aea01d42.jpg\"> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2115/gate2011-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the Boolean Algebra for the output f of the combinational logic circuit\nof NOR gates given below? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q31_95d89936.jpg\"> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{Q+R}\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{P+Q}\\)</p>",
+            "<b>C.</b> <p>\\(\\overline{P+R}\\)</p>",
+            "<b>D.</b> <p>\\(\\overline{P+Q+R}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\overline{Q+R}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2205/gate2010-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The minterm expansion of f(P,Q,R)=PQ+QR'+PR' is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m_{2}+m_{4}+m_{6}+m_{7}\\)</p>",
+            "<b>B.</b> <p>\\(m_{0}+m_{1}+m_{3}+m_{5}\\)</p>",
+            "<b>C.</b> <p>\\(m_{0}+m_{1}+m_{6}+m_{7}\\)</p>",
+            "<b>D.</b> <p>\\(m_{2}+m_{3}+m_{4}+m_{5}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(m_{2}+m_{4}+m_{6}+m_{7}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2177/gate2010-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following boolean function of four variables \\(f(w,x,y,z) = \\Sigma(1,3,4,6,9,11,12,14)\\), the function is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Independent of one variable</p>",
+            "<b>B.</b> <p>Independent of two variables</p>",
+            "<b>C.</b> <p>Independent of three variables</p>",
+            "<b>D.</b> <p>Dependent on all variables</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Independent of two variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50345/isro2009-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The switching expression corresponding to \\(f(A, B, C, D) = \\Sigma(1, 4, 5, 9, 11, 12)\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+            "<b>B.</b> <p>ABC' + ACD + B'C'D</p>",
+            "<b>C.</b> <p>ACD' + A'BC' + AC'D'</p>",
+            "<b>D.</b> <p>A'BD + ACD' + BCD'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48039/isro2009-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The binary operation \\(\\square\\) is defined as follows <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q24_d4377443.jpg\"> <br> Which one of the following is equivalent to \\(P\\vee Q\\)? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\neg Q\\square \\neg P\\)</p>",
+            "<b>B.</b> <p>\\(P  \\square \\neg Q\\)</p>",
+            "<b>C.</b> <p>\\(\\neg P\\square Q\\)</p>",
+            "<b>D.</b> <p>\\(\\neg P\\square \\neg Q\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(P  \\square \\neg Q\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/801/gate2009-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,101 @@
+{
+  "title": "Non GATE CSE - Numerical Methods - Numerical Methods",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Numerical Methods",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336679\"></a><div itemprop=\"text\"><p>In which of the following methods proper choice of initial value is very important?</p>\n\n</div><br><br><b>Numerical Methods: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bisection method</p>",
+            "<p>False position</p>",
+            "<p>Newton-Raphson</p>",
+            "<p>Bairsto method</p>"
+          ],
+          "correct_answer": "<p>Newton-Raphson</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336679/nielit-2016-mar-scientist-b-section-b-7\" target=\"_blank\">https://gateoverflow.in/336679/nielit-2016-mar-scientist-b-section-b-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337199\"></a><div itemprop=\"text\"><p>Choose the most appropriate option.</p>\n\n<p>The Newton-Raphson iteration&nbsp;\\( x_{n+1}=\\dfrac{x_{n}}{2}+\\dfrac{3}{2x_{n}} \\) can be used to solve the equation</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Numerical Methods: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x^{2}=3 \\)</p>",
+            "<p>\\( x^{3}=3 \\)</p>",
+            "<p>\\( x^{2}=2 \\)</p>",
+            "<p>\\( x^{3}=2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x^{2}=3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337199/nielit-2016-mar-scientist-c-section-b-1\" target=\"_blank\">https://gateoverflow.in/337199/nielit-2016-mar-scientist-c-section-b-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336310\"></a><div itemprop=\"text\"><p>Using bisection method, one root of \\( x^4-x-1 \\) lies between \\( 1 \\) and \\( 2 \\). After second iteration the root may lie in interval:</p>\n\n</div><br><br><b>Numerical Methods: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (1.25,1.5) \\)</p>",
+            "<p>\\( (1,1.25) \\)</p>",
+            "<p>\\( (1,1.5) \\)</p>",
+            "<p>None of the options.</p>"
+          ],
+          "correct_answer": "<p>\\( (1,1.25) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336310/nielit-2017-dec-scientist-b-section-b-3\" target=\"_blank\">https://gateoverflow.in/336310/nielit-2017-dec-scientist-b-section-b-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336925\"></a><div itemprop=\"text\"><p>The convergence of the bisection method is</p>\n\n</div><br><br><b>Numerical Methods: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cubic</p>",
+            "<p>Quadratic</p>",
+            "<p>Linear</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "<p>Linear</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336925/nielit-2017-oct-scientific-assistant-a-cs-section-c-7\" target=\"_blank\">https://gateoverflow.in/336925/nielit-2017-oct-scientific-assistant-a-cs-section-c-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"369324\"></a><div itemprop=\"text\"><p>The real root of the equation \\( x^{3} – x – 5 = 0 \\) lying between \\( 1 \\) and \\( 2 \\) after first iteration by Netwon-Raphson method is ___________, if initial approximation is taken as \\( x_{0} = 2\\in[1, 2]  \\) :</p>\n\n</div><br><br><b>Numerical Methods: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1.909 \\)</p>",
+            "<p>\\( 1.904 \\)</p>",
+            "<p>\\( 1.921 \\)</p>",
+            "<p>\\( 1.940 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1.909 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369324/nielit-2021-dec-scientist-a-section-b-89\" target=\"_blank\">https://gateoverflow.in/369324/nielit-2021-dec-scientist-a-section-b-89</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"378703\"></a><div itemprop=\"text\"><p>One root of \\( x^{3} –&nbsp;x –&nbsp;4 = 0 \\) lies in \\( (1, 2). \\) In bisection method, after first iteration the root lies in the interval ___________ .</p>\n\n</div><br><br><b>Numerical Methods: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (1, 1.5) \\)</p>",
+            "<p>\\( (1.5, 2) \\)</p>",
+            "<p>\\( (1.25, 1.75) \\)</p>",
+            "<p>\\( (1.75, 2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (1.5, 2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378703/nielit-2021-dec-scientist-b-section-b-60\" target=\"_blank\">https://gateoverflow.in/378703/nielit-2021-dec-scientist-b-section-b-60</a></p>"
+        }
+      ]
+    }
+  ]
+}

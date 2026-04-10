@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - IO_Interface",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "IO_Interface",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Of the following, which best characterizes computers that use memory-mapped I/O? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The computer provides special instructions for manipulating I/O ports</p>",
+            "<b>B.</b> <p>I/O ports are placed at addresses on the bus and are accessed just like other memory locations</p>",
+            "<b>C.</b> <p>To perform I/O operations. it is sufficient to place the data in an address register and call channel to perform the operation</p>",
+            "<b>D.</b> <p>I/O can be performed only when memory management hardware is turned on</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I/O ports are placed at addresses on the bus and are accessed just like other memory locations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213523/isro2018-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A processor is fetching instructions at the rate of 1 MIPS. A DMA module is used to transfer characters to RAM from a device transmitting at 9600 bps. How much time will the processor be slowed down due to DMA activity? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9.6ms</p>",
+            "<b>B.</b> <p>4.8ms</p>",
+            "<b>C.</b> <p>2.4ms</p>",
+            "<b>D.</b> <p>1.2ms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.2ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43805/isro-2013-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In DMA transfer scheme, the transfer scheme other than burst mode is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cycle technique</p>",
+            "<b>B.</b> <p>stealing technique</p>",
+            "<b>C.</b> <p>cycle stealing technique</p>",
+            "<b>D.</b> <p>cycle bypass technique</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>cycle stealing technique</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52824/isro2011-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following is an example of spooled device? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A line printer used to print the output of a number of jobs</p>",
+            "<b>B.</b> <p>A terminal used to enter input data to a running program</p>",
+            "<b>C.</b> <p>A secondary storage device in a virtual memory system</p>",
+            "<b>D.</b> <p>A graphic display device</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A line printer used to print the output of a number of jobs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2724/gate1996-1-20-isro2008-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The device which is used to connect a peripheral to bus is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>control register</p>",
+            "<b>B.</b> <p>interface</p>",
+            "<b>C.</b> <p>communication protocol</p>",
+            "<b>D.</b> <p>none of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>interface</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49974/isro2008-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The ability to temporarily halt the CPU and use this time to send information on buses is called <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>direct memory access</p>",
+            "<b>B.</b> <p>vectoring the interrupt</p>",
+            "<b>C.</b> <p>polling</p>",
+            "<b>D.</b> <p>cycle stealing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>cycle stealing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49919/isro2008-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A read bit can be read <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>and written by CPU</p>",
+            "<b>B.</b> <p>and written by peripheral</p>",
+            "<b>C.</b> <p>by peripheral and written by CPU</p>",
+            "<b>D.</b> <p>by CPU and written by the peripheral</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>by CPU and written by the peripheral</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49478/isro2007-08\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

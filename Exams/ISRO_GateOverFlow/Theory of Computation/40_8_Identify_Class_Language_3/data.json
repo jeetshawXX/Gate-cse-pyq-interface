@@ -1,0 +1,56 @@
+{
+  "title": "Theory of Computation - Identify Class Language",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Identify Class Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"55683\"></a><div itemprop=\"text\"><p>What is the highest type number that can be assigned to the following grammar?</p>\n\n<p>\\[ S\\to Aa,A\\to Ba,B \\to abc \\]</p>\n\n</div><br><br><b>Theory of Computation: ISRO CSE 2016 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Type 0</p>",
+            "<p>Type 1</p>",
+            "<p>Type 2</p>",
+            "<p>Type 3</p>"
+          ],
+          "correct_answer": "<p>Type 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55683/isro-cse-2016-question-38\" target=\"_blank\">https://gateoverflow.in/55683/isro-cse-2016-question-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"331449\"></a><div itemprop=\"text\"><p>Which of the following classes of languages can validate an \\( \\text{IPv4} \\) address in dotted decimal format? It is to be ensured that the decimal values lie between \\( 0 \\) and \\( 255 \\).</p>\n\n</div><br><br><b>Theory of Computation: ISRO CSE 2020 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>RE and higher</p>",
+            "<p>CFG and higher</p>",
+            "<p>CSG and higher</p>",
+            "<p>Recursively enumerable language</p>"
+          ],
+          "correct_answer": "<p>RE and higher</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331449/isro-cse-2020-question-40\" target=\"_blank\">https://gateoverflow.in/331449/isro-cse-2020-question-40</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"435363\"></a><div itemprop=\"text\"><p>Consider the&nbsp;Nondeterministic Finite State Automaton (NFA) below. State with a small incoming arrow are initial states while a double circle state denotes a final state.</p><p style=\"text-align:center\"><img alt=\"DFA\" width=\"450\" height=\"125\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=836537524322722422\"></p><p>The number of states in the <strong>MINIMAL</strong> Deterministic Finite-State Automaton (DFA) for this language is:</p></div><br><br><b>Theory of Computation: ISRO CSE 2023 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435363/isro-cse-2023-question-33\" target=\"_blank\">https://gateoverflow.in/435363/isro-cse-2023-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+}

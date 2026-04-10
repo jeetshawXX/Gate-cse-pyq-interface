@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - General Awareness",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "General Awareness",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378687\"></a><div itemprop=\"text\"><p>\\( \\text{SPAM} \\) usually ___________.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Contains no valuable content.</p>",
+            "<p>Contains valuable content.</p>",
+            "<p>Contains content about website and is an operating system.</p>",
+            "<p>Is a module of operating system that handles scheduling of a process.</p>"
+          ],
+          "correct_answer": "<p>Contains no valuable content.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378687/nielit-2021-dec-scientist-b-section-b-76\" target=\"_blank\">https://gateoverflow.in/378687/nielit-2021-dec-scientist-b-section-b-76</a></p>"
+        }
+      ]
+    }
+  ]
+});

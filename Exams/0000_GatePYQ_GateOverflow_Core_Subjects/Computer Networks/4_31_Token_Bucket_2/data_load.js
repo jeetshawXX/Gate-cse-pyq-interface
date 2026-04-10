@@ -1,0 +1,36 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Token Bucket",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Token Bucket",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"481\"></a><div itemprop=\"text\"><p>A computer on a \\( 10\\text{Mbps} \\) network is regulated by a token bucket. The token bucket is filled at a rate of \\( 2\\text{Mbps} \\). It is initially filled to capacity with \\( 16\\text{Megabits} \\). What is the maximum duration for which the computer can transmit at the full \\( 10\\text{Mbps} \\)?</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1.6 \\) seconds</p>",
+            "<p>\\( 2 \\) seconds</p>",
+            "<p>\\( 5 \\) seconds</p>",
+            "<p>\\( 8 \\) seconds</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) seconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/481/gate-cse-2008-question-58\" target=\"_blank\">https://gateoverflow.in/481/gate-cse-2008-question-58</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39720\"></a><div itemprop=\"text\">For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of \\( 1 \\) \\( \\text{megabyte} \\) and the maximum output rate is \\( 20 \\) \\( \\text{megabytes} \\) per \\( \\text{second} \\). Tokens arrive at a rate to sustain output at a rate of \\( 10 \\) \\( \\text{megabytes} \\) per \\( \\text{second} \\). The token bucket is currently full and the machine needs to send \\( 12 \\) \\( \\text{megabytes} \\) of data. The minimum time required to transmit the data is _____________ \\( \\text{seconds} \\).</div><br><br><b>GATE CSE 2016 Set 1 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.10:1.19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39720/gate-cse-2016-set-1-question-54\" target=\"_blank\">https://gateoverflow.in/39720/gate-cse-2016-set-1-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

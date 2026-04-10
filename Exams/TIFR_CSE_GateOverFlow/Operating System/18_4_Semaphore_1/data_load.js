@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Operating System - Semaphore",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Semaphore",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25110\"></a><div itemprop=\"text\"><p>Consider the blocked-set semaphore where the signaling process awakens any one of the suspended process; i.e.,</p>\n\n<p><strong>Wait (S):&nbsp;</strong>If \\( S&gt;0 \\) then \\( S\\leftarrow S - 1 \\), else suspend the execution of this process.</p>\n\n<p><strong>Signal (S):&nbsp;</strong>If there are processes that have been suspended on semaphore \\( S \\), then wake any one of them, else \\( S\\leftarrow S + 1 \\)</p>\n\n<p>Consider the following solution of mutual exclusion problem using blocked-set semaphores.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">s := 1;\ncobegin \nP(1)   ||    P(2)     ||    .....   ||     P(N) \ncoend</pre>\n\n<p>Where the task body P(i) is</p>\n\n<pre class=\"prettyprint lang-c_cpp\">begin \nwhile true do \nbegin \n &lt; non critical section &gt;  \n Wait (S) \n&lt;critical section&gt;  \n Signal (S) \nend  \nend</pre>\n\n<p>Here \\( N \\) is the number of concurrent processors. Which of the following is true?</p>\n\n</div><br><br><b>Operating System: TIFR CSE 2012 | Part B | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The program fails to achieve mutual exclusion of critical regions.</p>",
+            "<p>The program achieves mutual exclusion, but starvation freedom is ensured only for \\( N\\leq 2 \\)</p>",
+            "<p>The program does not ensure mutual exclusion if \\( N\\geq 3 \\)</p>",
+            "<p>The program achieves mutual exclusion, but allows starvation for any \\( N\\geq 2 \\)</p>",
+            "<p>The program achieves mutual exclusion and starvation freedom for any \\( N\\geq 1 \\)</p>"
+          ],
+          "correct_answer": "<p>The program achieves mutual exclusion, but starvation freedom is ensured only for \\( N\\leq 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25110/tifr-cse-2012-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/25110/tifr-cse-2012-part-b-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

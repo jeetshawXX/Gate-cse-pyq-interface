@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Function - Function - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following function written in the C programming language.<pre><code>   void foo(char *a){\n     if ( *a &amp;&amp; *a != '  '){\n          foo(a+1);\n          putchar(*a);\n       }\n} </code></pre> The output of the above function on input \\(\"ABCD \\;  \\; EFGH\"\\) is <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ABCD EFGH</p>",
+            "<b>B.</b> <p>ABCD</p>",
+            "<b>C.</b> <p>HGFE DCBA</p>",
+            "<b>D.</b> <p>DCBA</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>DCBA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8086/gate2015-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The output of the following C program is__________.<pre><code>  void f1(int a, int b) {\n    int c;\n    c=a; a=b; b=c;\n}\nvoid f2(int *a, int *b) {\n    int c;\n    c=*a; *a=*b; *b=c;\n}\nint main(){\n    int a=4, b=5, c=6;\n    f1(a,b);\n    f2(&amp;b, &amp;c);\n     printf(\"%d\",c-a-b);\n}</code></pre> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8185/gate2015-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the C function given below<pre><code> int f(int j)\n{\nstatic int i = 50;\nint k;\nif (i == j)\n{\nprintf(\"something\");\nk = f(i);\nreturn 0;\n}\nelse return 0;\n} </code></pre>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The function returns 0 for all values of j.</p>",
+            "<b>B.</b> <p>The function prints the string something for all values of j.</p>",
+            "<b>C.</b> <p>The function returns 0 when j = 50.</p>",
+            "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2008/gate2014-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following function<pre><code> double f (double x) {\nif ( abs (x*x - 3) &lt; 0. 01) return x;\nelse return f (x / 2 + 1.5/x);\n} </code></pre>\nGive a value q (to 2 decimals) such that f(q) will return q:______ <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.72",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2000/gate2014-2-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the function func shown below:<pre><code> int func(int num) {\nint count = 0;\nwhile (num) {\n    count++;\n    num &gt;&gt; = 1;\n}\nreturn (count);\n} </code></pre>\nThe value returned by func(435)is __________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1964/gate2014-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the return value of f(p,p), if the value of p is initialized to 5 before the call? Note that\nthe first parameter is passed by reference, whereas the second parameter is passed by value.<pre><code> int f (int &amp;x, int c) {\n  c = c - 1;\n  if (c==0) return 1;\n   x = x + 1;\nreturn f(x,c) * x;\n} </code></pre> <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3024</p>",
+            "<b>B.</b> <p>6561</p>",
+            "<b>C.</b> <p>55440</p>",
+            "<b>D.</b> <p>161051</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6561</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/60/gate2013-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C code segment.<pre><code>\nint a, b, c = 0;\nvoid prtFun(void);\nmain( )\n{ static int a = 1; /* Line 1 */\n   prtFun( );\n   a += 1;\n   prtFun( );\n   printf(\" \\n %d %d \", a, b);\n}\nvoid prtFun(void)\n{ static int a = 2; /* Line 2 */\n   int b = 1;\n   a += ++b;\n   printf(\" \\n %d %d \", a, b);\n}</code></pre>What output will be generated by the given code segment if: <br><br>\nLine 1 is replaced by auto int a = 1; <br>\nLine 2 is replaced by register int a = 2; <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 1 <br>\n4 1 <br>\n4 2</p>",
+            "<b>B.</b> <p>4 2 <br>\n6 1<br>\n6 1</p>",
+            "<b>C.</b> <p>4 2<br>\n6 2<br>\n2 0</p>",
+            "<b>D.</b> <p>4 2<br>\n4 2<br>\n2 0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4 2<br>\n4 2<br>\n2 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43314/gate2012-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C code segment.<pre><code>\nint a, b, c = 0;\nvoid prtFun(void);\nmain( )\n{ static int a = 1; /* Line 1 */\n   prtFun( );\n   a += 1;\n   prtFun( );\n   printf(\" \\n %d %d \", a, b);\n}\nvoid prtFun(void)\n{ static int a = 2; /* Line 2 */\n   int b = 1;\n   a += ++b;\n   printf(\" \\n %d %d \", a, b);\n}</code></pre>What output will be generated by the given code segment? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 1<br>\n4 1 <br>\n4 2</p>",
+            "<b>B.</b> <p>4 2<br>\n6 1 <br>\n6 1</p>",
+            "<b>C.</b> <p>4 2 <br>\n6 2 <br>\n2 0</p>",
+            "<b>D.</b> <p>3 1 <br>\n5 2 <br>\n5 2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 2 <br>\n6 2 <br>\n2 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2176/gate2012-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following recursive C function that takes two arguments<pre><code> unsigned int foo(unsigned int n, unsigned int r) {\n  if (n  &gt; 0) return (n%r +  foo (n/r, r ));\n  else return 0;\n}</code></pre>What is the return value of the function foo when it is called as foo (513, 2)? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43324/gate2011-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following recursive C function that takes two arguments<pre><code> unsigned int foo(unsigned int n, unsigned int r) {\n  if (n  &gt; 0) return (n%r +  foo (n/r, r ));\n  else return 0;\n}</code></pre>   <br>What is the return value of the function foo when it is called as foo (345, 10) ? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>345</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2154/gate2011-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the value printed by the following C program?<pre><code> #include &lt; stdio.h &gt;\nint f(int * a, int n)\n{\n    if(n&lt;=0)return 0;\n    else if(*a% 2 ==0) return *a+f(a+1,n-1);\n    else return *a-f(a+1,n-1);\n}\nint main ( )\n{\n    int a[ ] {12, 7, 13, 4, 11, 6};\n    printf (\"%d\", f(a,6));\n    return 0;\n} </code></pre> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-9</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2336/gate2010-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What does the following program print?<pre><code> #include &lt; stdio.h &gt;\nvoid f (int *p, int * q) {\n       p=q;\n       *p=2;\n}\nint i= 0, j= 1;\nint main ( ){\n     f(&amp;i, &amp; j);\n     printf( \"%d%d \\ n\", i,j);\n     return 0;\n} </code></pre> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 2</p>",
+            "<b>B.</b> <p>2 1</p>",
+            "<b>C.</b> <p>0 1</p>",
+            "<b>D.</b> <p>0 2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2184/gate2010-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the program below:<pre><code> # include &lt; stdio.h &gt;\nint fun(int n, int * f_p) {\n   int t, f;\n   if (n &lt;=1) {\n         *f_p =1;\n          return 1;\n   }\n   t = fun (n-1, f_p);\n   f = t+*f_p;\n   *f_p = t;\n   return f;\n}\nint main() {\n    int x = 15;\n    printf (\"%d\\ n\", fun(5,&amp; x));\n    return 0;\n} </code></pre>\nThe value printed is <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>15</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1310/gate2009-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the code fragment written in C below :<br><pre><code>void f (int n)\n{ \n    if (n &lt;= 1)  {\n        printf (\"%d\", n);\n    }\n    else {\n        f (n/2);\n        printf (\"%d\", n%2);\n    }\n}</code></pre> Which of the following implementations will produce the same output for f(173) as the above code?<br>P1<br><pre><code>void f (int n)\n{ \n    if (n/2)  {\n        f(n/2);\n    }\n    printf (\"%d\", n%2);\n}</code></pre> <br>P2<br><pre><code> void f (int n)\n{ \n    if (n &lt;=1)  {\n        printf (\"%d\", n);\n    }\n    else {\n        printf (\"%d\", n%2);\n        f (n/2);\n    }\n}</code></pre> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both P1 and P2</p>",
+            "<b>B.</b> <p>P2 only</p>",
+            "<b>C.</b> <p>P1 only</p>",
+            "<b>D.</b> <p>Neither P1 nor P2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P1 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3407/gate2008-it-83\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the code fragment written in C below :<pre><code> void f (int n)\n{ \n  if (n &lt;=1)  {\n   printf (\"%d\", n);\n  }\n  else {\n   f (n/2);\n   printf (\"%d\", n%2);\n  }\n}</code></pre> <br>What does f(173) print? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10110101</p>",
+            "<b>B.</b> <p>010101101</p>",
+            "<b>C.</b> <p>010110101</p>",
+            "<b>D.</b> <p>10101101</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10101101</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3406/gate2008-it-82\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

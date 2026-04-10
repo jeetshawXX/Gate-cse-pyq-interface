@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Process_Synchronization - Process_Synchronization - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Process_Synchronization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A certain computation generates two arrays a and b such that a[i]=f(i)for \\(o\\leq i \\lt n\\)  and b[i] = g (a[i] )for \\(o\\leq i \\lt n\\). Suppose this computation is decomposed into two concurrent processes\nX and Y such that X computes the array a and Y computes the array b. The processes employ two\nbinary semaphores R and S, both initialized to zero. The array a is shared by the two processes. The\nstructures of the processes are shown below.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q39_4478bc8b.jpg\">  <br>\nWhich one of the following represents the CORRECT implementations of ExitX and EntryY? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ExitX(R, S) {\nP(R);\nV(S);\n}\nEntryY(R, S) {\nP(S);\nV(R);\n}</p>",
+            "<b>B.</b> <p>ExitX(R, S) {\nV(R);\nV(S);\n}\nEntryY(R, S) {\nP(R);\nP(S);\n}</p>",
+            "<b>C.</b> <p>ExitX(R, S) {\nP(S);\nV(R);\n}\nEntryY(R, S) {\nV(S);\nP(R);\n}</p>",
+            "<b>D.</b> <p>ExitX(R, S) {\nV(R);\nP(S);\n}\nEntryY(R, S) {\nV(S);\nP(R);\n}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>ExitX(R, S) {\nP(S);\nV(R);\n}\nEntryY(R, S) {\nV(S);\nP(R);\n}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1550/gate2013-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A shared variable x, initialized to zero, is operated on by four concurrent processes W, X, Y, Z as\nfollows. Each of the processes W and X reads x from memory, increments by one, stores it to\nmemory, and then terminates. Each of the processes Y and Z reads x from memory, decrements by\ntwo, stores it to memory, and then terminates. Each process before reading x invokes the P\noperation (i.e., wait) on a counting semaphore S and invokes the V operation (i.e., signal) on the\nsemaphore S after storing x to memory. Semaphore S is initialized to two. What is the maximum\npossible value of x after all processes complete execution? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-2</p>",
+            "<b>B.</b> <p>-1</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1545/gate2013-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Three concurrent processes X, Y, and Z execute three different code segments that access and\nupdate certain shared variables. Process X executes the P operation (i.e., wait) on semaphores\na, b and c; process Y executes the P operation on semaphores b, c and d; process Z executes the\nP operation on semaphores c, d, and a before entering the respective code segments. After\ncompleting the execution of its code segment, each process invokes the V operation (i.e., signal) on\nits three semaphores. All semaphores are binary semaphores initialized to one. Which one of the\nfollowing represents a deadlock-free order of invoking the P operations by the processes? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X: P(a)P(b)P(c) Y: P(b)P(c)P(d) Z: P(c)P(d)P(a)</p>",
+            "<b>B.</b> <p>X: P(b)P(a)P(c) Y: P(b)P(c)P(d) Z: P(a)P(c)P(d)</p>",
+            "<b>C.</b> <p>X: P(b)P(a)P(c) Y: P(c)P(b)P(d) Z: P(a)P(c)P(d)</p>",
+            "<b>D.</b> <p>X: P(a)P(b)P(c) Y: P(c)P(b)P(d) Z: P(c)P(d)P(a)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X: P(b)P(a)P(c) Y: P(b)P(c)P(d) Z: P(a)P(c)P(d)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1438/gate2013-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Fetch_And_Add(X,i) is an atomic Read-Modify-Write instruction that reads the value of\nmemory location X, increments it by the value i, and returns the old value of X. It is used in the\npseudocode shown below to implement a busy-wait lock. L is an unsigned integer shared variable\ninitialized to 0. The value of 0 corresponds to lock being available, while any non-zero value\ncorresponds to the lock being not available.<pre><code> AcquireLock(L){\n   while (Fetch_And_Add(L,1))\n        L = 1;\n}\nReleaseLock(L){\n     L = 0;\n} </code></pre>\nThis implementation <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>fails as L can overflow</p>",
+            "<b>B.</b> <p>fails as L can take on a non-zero value when the lock is actually available</p>",
+            "<b>C.</b> <p>works correctly but may starve some processes</p>",
+            "<b>D.</b> <p>works correctly without starvation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>fails as L can take on a non-zero value when the lock is actually available</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1750/gate2012-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following program consists of 3 concurrent processes and 3 binary\nsemaphores. The semaphores are initialized as S0=1, S1=0, S2=0. How many times will process P0 print '0'? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q45_03507a62.jpg\"><br> How many times will process P0 print '0'? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At least twice</p>",
+            "<b>B.</b> <p>Exactly twice</p>",
+            "<b>C.</b> <p>Exactly thrice</p>",
+            "<b>D.</b> <p>Exactly once</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>At least twice</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2347/gate2010-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the methods used by processes P1 and P2 for accessing their critical\nsections whenever needed, as given below. The initial values of shared boolean\nvariables S1 and S2 are randomly assigned. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q23_0dd65df2.jpg\"> <br> Which one of the following statements describes the properties achieved? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion but not progress</p>",
+            "<b>B.</b> <p>Progress but not mutual exclusion</p>",
+            "<b>C.</b> <p>Neither mutual exclusion nor progress</p>",
+            "<b>D.</b> <p>Both mutual exclusion and progress</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Mutual exclusion but not progress</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2202/gate2010-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The enter_CS() and leave_CS() functions to implement critical section of a\nprocess are realized using test-and-set instruction as follows:<pre><code> void enter_CS(x)\n{\n                while test-and-set(x) ;\n}\nvoid leave_CS(x)\n{\n              x=0;\n} </code></pre>\nIn the above solution, x is a memory location associated with the CS and is nitialized to 0.<br> Now consider the following statements: <br><br>\nI. The above solution to CS problem is deadlock-free <br>\nII. The solution is starvation free.       <br>                                                                    III. The processes enter CS in FIFO order.<br>\nIV More than one process can enter CS at the same time.<br><br>\nWhich of the above statements is TRUE? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and II</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1319/gate2009-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The following is a code with two threads, producer and consumer, that can run in parallel. Further, S and Q are binary semaphores quipped with the standard P and V operations.<br><pre><code> semaphore S = 1, Q = 0; \ninteger x;\n\nproducer:                   consumer:\nwhile (true) do             while (true) do\n    P(S);                       P(Q);\n    x = produce ();             consume (x);\n    V(Q);                       V(S);\ndone                        done</code></pre> <br>Which of the following is TRUE about the program above? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The process can deadlock</p>",
+            "<b>B.</b> <p>One of the threads can starve</p>",
+            "<b>C.</b> <p>Some of the items produced by the producer may be lost</p>",
+            "<b>D.</b> <p>Values generated and stored in 'x' by the producer will always be consumed before the producer can generate a new value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Values generated and stored in 'x' by the producer will always be consumed before the producer can generate a new value</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3363/gate2008-it-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The P and V operations on counting semaphores, where s is a counting\nsemaphore, are defined as follows:<pre><code>P(s) : s =  s - 1;\n     if (s  &lt; 0) then wait;\nV(s) : s = s + 1;\n     if (s &lt;= 0) then wakeup a process waiting on s; </code></pre>\nAssume that \\(P_{b}\\) and \\(V_{b}\\) the wait and signal operations on binary semaphores are\nprovided. Two binary semaphores \\(x_{b}\\) and \\(y_{b}\\) are used to implement the\nsemaphore operations P(s) and V(s) as follows:<pre><code>P(s) : Pb(xb);\n  s = s - 1;\n  if (s &lt; 0) {\n   Vb(xb) ;\n   Pb(Yb) ;\n  }\n  else Vb(xb); \n\nV(s) : Pb(xb) ;\n  s = s + 1;\n  if (s &lt;= 0) Vb(Yb) ;\n  Vb(xb) ;</code></pre>\nThe initial values of xb and yb are respectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 and 0</p>",
+            "<b>B.</b> <p>0 and 1</p>",
+            "<b>C.</b> <p>1 and 0</p>",
+            "<b>D.</b> <p>1 and 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 and 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/486/gate2008-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Synchronization in the classical readers and writers problem can be achieved through use of semaphores. In the following incomplete code for readers-writers problem, two binary semaphores mutex and wrt are used to obtain synchronization <br><pre><code>wait (wrt)\nwriting is performed\nsignal (wrt)\nwait (mutex)  \nreadcount = readcount + 1\nif readcount = 1 then S1\nS2\nreading is performed\nS3\nreadcount = readcount - 1\nif readcount = 0 then S4 \nsignal (mutex) </code></pre> <br>The values of S1, S2, S3, S4, (in that order) are <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>signal (mutex), wait (wrt), signal (wrt), wait (mutex)</p>",
+            "<b>B.</b> <p>signal (wrt), signal (mutex), wait (mutex), wait (wrt)</p>",
+            "<b>C.</b> <p>wait (wrt), signal (mutex), wait (mutex), signal (wrt)</p>",
+            "<b>D.</b> <p>signal (mutex), wait (mutex), signal (mutex), wait (mutex)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>wait (wrt), signal (mutex), wait (mutex), signal (wrt)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3498/gate2007-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Processes P1 and P2 use critical_flag in the following routine to achieve mutual exclusion. Assume that critical_flag is initialized to FALSE in the main program.<br><pre><code> get_exclusive_access ( )\n{\n    if (critical _flag == FALSE) {\n        critical_flag = TRUE ;\n        critical_region () ;\n        critical_flag = FALSE;\n    }\n}</code></pre> <br>\nConsider the following statements.<br><br>\ni.It is possible for both P1 and P2 to access critical_region concurrently.<br>\nii.This may lead to a deadlock.<br><br>\nWhich of the following holds? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) is false (ii) is true</p>",
+            "<b>B.</b> <p>Both (i) and (ii) are false</p>",
+            "<b>C.</b> <p>(i) is true (ii) is false</p>",
+            "<b>D.</b> <p>Both (i) and (ii) are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(i) is true (ii) is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3443/gate2007-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Two processes, P1 and P2, need to access a critical section of code. Consider the\nfollowing synchronization construct used by the processes: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q58_1fce4bcb.jpg\"><br> Here, wants1 and wants2 are shared variables, which are initialized to false. Which one of the following statements is TRUE about the above construct? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It does not ensure mutual exclusion.</p>",
+            "<b>B.</b> <p>It does not ensure bounded waiting.</p>",
+            "<b>C.</b> <p>It requires that processes enter the critical section in strict alternation.</p>",
+            "<b>D.</b> <p>It does not prevent deadlocks, but ensures mutual exclusion.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It does not prevent deadlocks, but ensures mutual exclusion.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1256/gate2007-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The wait and signal operations of a monitor are implemented using semaphores as follows. In the following,<br>\nx is a condition variable,<br>\nmutex is a semaphore initialized to 1,<br>\nx_sem is a semaphore initialized to 0,<br>\nx_count is the number of processes waiting on semaphore x_sem, initially 0,<br>\nnext is a semaphore initialized to 0,<br>\nnext_count is the number of processes waiting on semaphore next, initially 0.<br>\nThe body of each procedure that is visible outside the monitor is replaced with the following:<br><pre><code> P(mutex);\n...\nbody of procedure\n...\nif (next_count &gt; 0)\n    V(next);\nelse\n    V(mutex);</code></pre> <br>\nEach occurrence of x.wait is replaced with the following:<br><pre><code> x_count = x_count + 1;\nif (next_count &gt; 0)\n    V(next);\nelse\n    V(mutex);\n------------------------------------------------------------ E1;\nx_count = x_count - 1;\n</code></pre> <br>Each occurrence of x.signal is replaced with the following:<br><pre><code>if (x_count &gt; 0)\n{\n    next_count = next_count + 1;\n    ------------------- E2;\n    P(next);\n    next_count = next_count - 1;\n} </code></pre> <br>\nFor correct implementation of the monitor, statements E1 and E2 are, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P(x\\_sem), V(next)\\)</p>",
+            "<b>B.</b> <p>\\(V(next), P(x\\_sem)\\)</p>",
+            "<b>C.</b> <p>\\(P(next), V(x\\_sem)\\)</p>",
+            "<b>D.</b> <p>\\(P(x\\_sem), V(x\\_sem)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P(x\\_sem), V(x\\_sem)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3601/gate2006-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the solution to the bounded buffer producer/consumer problem by using general semaphores S, F, and E. The semaphore S is the mutual exclusion semaphore initialized to 1. The semaphore F corresponds to the number of free slots in the buffer and is initialized to N. The semaphore E corresponds to the number of elements in the buffer and is initialized to 0. <br>\n\\(\\begin{array}{|l|l|}\\hline \\textbf{Producer Process} &amp; \\textbf{Consumer Process} \\\\\\hline \\text{Produce an item;} &amp; \\text{Wait(E);} \\\\ \\text{Wait(F);} &amp; \\text{Wait(S);} \\\\ \\text{Wait(S);} &amp; \\text{Remove an item from the buffer;} \\\\\\text{Append the item to the buffer;} &amp; \\text{Signal(S);} \\\\ \\text{Signal(S);} &amp; \\text{Signal(F);} \\\\ \\text{Signal(E);} &amp; \\text{Consume the item;} \\\\\\hline \\end{array}\\)<br><br>\nWhich of the following interchange operations may result in a deadlock?<br><br>\nI.  Interchanging Wait (F) and Wait (S) in the Producer process <br>\nII. Interchanging Signal (S) and Signal (F) in the Consumer process <br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) only</p>",
+            "<b>B.</b> <p>(II) only</p>",
+            "<b>C.</b> <p>Neither (I) nor (II)</p>",
+            "<b>D.</b> <p>Both (I) and (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(I) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3598/gate2006-it-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left.<pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</code></pre>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br>Which one of the following rectifies the problem in the implementation? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lines 6 to 10 are simply replaced by process_arrived</p>",
+            "<b>B.</b> <p>At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)</p>",
+            "<b>C.</b> <p>Context switch is disabled at the beginning of the barrier and re-enabled at\nthe end.</p>",
+            "<b>D.</b> <p>The variable process_left is made private instead of shared</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43564/gate2006-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

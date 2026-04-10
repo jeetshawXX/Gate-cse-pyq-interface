@@ -1,0 +1,132 @@
+window.__examLoadCallback({
+  "title": "Arithmetic_Operation - Arithmetic_Operation - Slot 2",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Arithmetic_Operation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the output of the following C program? <br><pre><code> #include &lt; stdio.h &gt;\n#define SQR(x) (x*x)  \n\nint main()\n{\n    int a;\n    int b=4;\n    a=SQR(b+2);\n    printf(\"%d\\n\",a); \n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>36</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52570/isro2014-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose n and p are unsigned int variables in a C program. We wish to set p to \\(^nC_3\\). If n is large, which one of the following statements is most likely to set p correctly? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = n * (n - 1) * (n-2) / 6;</p>",
+            "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+            "<b>C.</b> <p>p = n * (n - 1) / 3 * (n-2) / 2;</p>",
+            "<b>D.</b> <p>p = n * (n - 1) / 2 * (n-2) / 6.0;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1965/gate2014-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the output of the following program?<br><pre><code> Class Test\n{ \n    public static void main (String [] args) \n    {  \n        int x = 0; \n        int y = 0 \n        for (int z = 0; z &lt; 5; z++)\n        { \n            if((++x &gt;2)||(++y  &gt; 2)) \n            {\n                x++;\n            }\n        }\n    System.out.printIn (x+ \"\" + y); \n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 2</p>",
+            "<b>B.</b> <p>8 5</p>",
+            "<b>C.</b> <p>8 3</p>",
+            "<b>D.</b> <p>5 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44842/isro-2013-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following C code.<br><pre><code> #include &lt; stdio.h &gt; \n#include &lt; math.h &gt; \nvoid main ()  \n{  \n      double pi = 3.1415926535;   \n      int a = 1;  \n      int i;    \n      for (i=0; i &lt; 3; i++) \n            if (a = cos(pi * i/2)) \n                  printf(\"% d\", 1);  \n            else printf(\"%d\", 0); \n}</code></pre> <br>\nWhat would the program print? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>000</p>",
+            "<b>B.</b> <p>010</p>",
+            "<b>C.</b> <p>101</p>",
+            "<b>D.</b> <p>111</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>101</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44833/isro-2013-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Find the output of the following Java code line <br><pre><code>System.out.printIn(math.floor(-7.4)) </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-7</p>",
+            "<b>B.</b> <p>-8</p>",
+            "<b>C.</b> <p>-7.4</p>",
+            "<b>D.</b> <p>-7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>-8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52870/isro2011-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In Java, after executing the following code what are the values of x, y and z?<br>\nint x, y=10; z=12;<br>\nx=y++ + z++;<br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x=22, y=10, z=12</p>",
+            "<b>B.</b> <p>x=24, y=10, z=12</p>",
+            "<b>C.</b> <p>x=24, y=11, z=13</p>",
+            "<b>D.</b> <p>x=22, y=11, z=13</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x=22, y=11, z=13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52501/isro2011-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which combination of the integer variables x, y and z makes the variable a get\nthe value 4 in the following expression?<pre><code>a = (x &gt; y) ? ((x &gt; z) ? x : z) : ((y &gt; z) ? y : z) </code></pre> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 3,y = 4, z = 2</p>",
+            "<b>B.</b> <p>x = 6,y = 5,z = 3</p>",
+            "<b>C.</b> <p>x = 6,y = 3,z = 5</p>",
+            "<b>D.</b> <p>x = 5, y = 4,z = 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>x = 3,y = 4, z = 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/416/gate2008-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What does the following code do?<br><pre><code> var a, b: integer;\nbegin\n    a:=a+b;\n    b:=a-b;\n    a:=a-b;\nend;</code></pre> <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>exchanges a and b</p>",
+            "<b>B.</b> <p>doubles a and stores in b</p>",
+            "<b>C.</b> <p>doubles b and stores in a</p>",
+            "<b>D.</b> <p>leaves a and b unchanged</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>exchanges a and b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2292/gate1993-7-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

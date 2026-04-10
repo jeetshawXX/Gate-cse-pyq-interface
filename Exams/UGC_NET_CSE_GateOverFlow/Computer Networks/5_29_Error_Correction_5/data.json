@@ -1,0 +1,81 @@
+{
+  "title": "Computer Networks - Error Correction",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Error Correction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152692\"></a><div itemprop=\"text\"><p>If in an error detection and correction code a message M : “You are good students” is stored as M' : Youare areyou aregood goodare goodstudents studentsgood. What is the space required to store M' in general ? (assume that ‘n’ is the length of M)</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2009 | Part 2 | Question: 03</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2n</p>",
+            "<p>3n</p>",
+            "<p>4n</p>",
+            "<p>less than 4n</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152692/ugc-net-cse-december-2009-part-2-question-03\" target=\"_blank\">https://gateoverflow.in/152692/ugc-net-cse-december-2009-part-2-question-03</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"63076\"></a><div itemprop=\"text\"><p>Start and stop bits are used in serial communications for</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Error detection</p>",
+            "<p>Error correction</p>",
+            "<p>Synchronization</p>",
+            "<p>Slowing down the communication</p>"
+          ],
+          "correct_answer": "<p>Synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63076/ugc-net-cse-december-2011-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/63076/ugc-net-cse-december-2011-part-2-question-12</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"225837\"></a><div itemprop=\"text\"><p>To guarantee correction of upto&nbsp;\\( t \\) errors, the minimum Hamming distance \\( d_{min} \\) in a block code must be ______</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( t+1 \\)</p>",
+            "<p>\\( t-2 \\)</p>",
+            "<p>\\( 2t-1 \\)</p>",
+            "<p>\\( 2t+1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225837/ugc-net-cse-july-2018-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/225837/ugc-net-cse-july-2018-part-2-question-49</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"154130\"></a><div itemprop=\"text\"><p>In order that a code is &nbsp;error correcting, the minimum Hamming distance should be :</p>\n\n<ol>\n\t<li>\\( t \\)&nbsp; &nbsp;&nbsp;</li>\n\t<li>\\( 2t - 1 \\)&nbsp; &nbsp;&nbsp;</li>\n\t<li>\\( 2t \\)&nbsp; &nbsp;&nbsp;</li>\n\t<li>\\( 2t +&nbsp;1 \\)</li>\n</ol></div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 02</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154130/ugc-net-cse-june-2009-part-2-question-02\" target=\"_blank\">https://gateoverflow.in/154130/ugc-net-cse-june-2009-part-2-question-02</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"59926\"></a><div itemprop=\"text\">\n<p>If the data unit is 111111 and the divisor is 1010. In CRC method, what is the dividend at the transmission before division?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 3 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>1111110000</p>",
+            "<p>1111111010</p>",
+            "<p>111111000</p>",
+            "<p>111111</p>"
+          ],
+          "correct_answer": "<p>111111000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59926/ugc-net-cse-september-2013-part-3-question-56\" target=\"_blank\">https://gateoverflow.in/59926/ugc-net-cse-september-2013-part-3-question-56</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Factors",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Factors",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335159\"></a><div itemprop=\"text\"><p>How many multiples of \\( 6 \\) are there between the following pairs of numbers?<br><br>\\( 0 \\) and \\( 100 \\) and \\( -6 \\) and \\( 34 \\)</p></div><br><br><b>Set Theory & Algebra: UGC NET CSE | January 2017 | Part 2 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) and \\( 6 \\)</p>",
+            "<p>\\( 17 \\) and \\( 6 \\)</p>",
+            "<p>\\( 17 \\) and \\( 7 \\)</p>",
+            "<p>\\( 16 \\) and \\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 17 \\) and \\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335159/ugc-net-cse-january-2017-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/335159/ugc-net-cse-january-2017-part-2-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

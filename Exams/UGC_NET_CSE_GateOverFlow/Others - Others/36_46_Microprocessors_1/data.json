@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Microprocessors",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Microprocessors",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57022\"></a><div itemprop=\"text\">\n<p>One of the main features that distinguish microprocessor from micro-computers is&nbsp;</p>\n\n\n</div><br><br><b>Others: UGC NET CSE | June 2014 | Part 3 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Words are usually larger in microprocessors.&nbsp;</p>",
+            "<p>Words are shorter in microprocessors.&nbsp;</p>",
+            "<p>Microprocessor does not contain \\( I/O \\) devices.&nbsp;</p>",
+            "<p>None of the above. &nbsp;</p>"
+          ],
+          "correct_answer": "<p>Microprocessor does not contain \\( I/O \\) devices.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57022/ugc-net-cse-june-2014-part-3-question-45\" target=\"_blank\">https://gateoverflow.in/57022/ugc-net-cse-june-2014-part-3-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

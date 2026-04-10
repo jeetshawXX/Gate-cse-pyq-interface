@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Btrees",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Btrees",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275530\"></a><div itemprop=\"text\"><p>Identify the true statement from the given statements:</p>\n\n<ol>\n\t<li>Number of child pointers in a B/B+ tree node is always equal to number of keys in it plus one</li>\n\t<li>B/B+ tree is defined by a term minimum degree. And minimum degree depends on hard disk block size, key and address size</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Databases: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(1)</p>",
+            "<p>(1) and (2)</p>",
+            "<p>(2)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>(1) and (2)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275530/nielit-2018-34\" target=\"_blank\">https://gateoverflow.in/275530/nielit-2018-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

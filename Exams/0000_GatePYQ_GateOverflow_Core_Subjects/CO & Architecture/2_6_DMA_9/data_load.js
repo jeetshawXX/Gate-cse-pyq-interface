@@ -1,0 +1,136 @@
+window.__examLoadCallback({
+  "title": "CO & Architecture - DMA",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "DMA",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1062\"></a><div itemprop=\"text\"><p>A hard disk with a transfer rate of \\( 10 \\)&nbsp;Mbytes/second is constantly transferring data to memory using DMA. The processor runs at \\( 600 \\) MHz, and takes \\( 300 \\) and \\( 900 \\) clock cycles to initiate and complete DMA transfer respectively. If the size of the transfer is \\( 20 \\) Kbytes, what is the percentage of processor time consumed for the transfer operation?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5.0 \\% \\)</p>",
+            "<p>\\( 1.0\\% \\)</p>",
+            "<p>\\( 0.5\\% \\)</p>",
+            "<p>\\( 0.1\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.1\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1062/gate-cse-2004-question-68\" target=\"_blank\">https://gateoverflow.in/1062/gate-cse-2004-question-68</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1393\"></a><div itemprop=\"text\"><p>Consider a disk drive with the following specifications:</p>\n\n<p>\\( 16 \\) surfaces, \\( 512 \\) tracks/surface, \\( 512 \\) sectors/track, \\( 1 \\) KB/sector, rotation speed \\( 3000 \\) rpm. The disk is operated in cycle stealing mode whereby whenever one \\( 4 \\) byte word is ready it is sent to memory; similarly, for writing, the disk interface reads a \\( 4 \\) byte word from the memory in each DMA cycle. Memory cycle time is \\( 40 \\)&nbsp;nsec. The maximum percentage of time that the CPU gets blocked during DMA operation is:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 25 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1393/gate-cse-2005-question-70\" target=\"_blank\">https://gateoverflow.in/1393/gate-cse-2005-question-70</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2130\"></a><div itemprop=\"text\"><p>On a non-pipelined sequential processor, a program segment, which is the part of the interrupt service routine, is given to transfer \\( 500 \\) bytes from an I/O device to memory.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">        Initialize the address register\n        Initialize the count to 500\nLOOP:   Load a byte from device              \n        Store in memory at address given by address register\n        Increment the address register\n        Decrement the count\n        If count !=0 go to LOOP</pre>\n\n<p>Assume that each statement in this program is equivalent to a machine instruction which takes one clock cycle to execute if it is a non-load/store instruction. The load-store instructions take two clock cycles to execute.</p>\n\n<p>The designer of the system also has an alternate approach of using the DMA controller to implement the same transfer. The DMA controller requires \\( 20 \\) clock cycles for initialization and other overheads. Each DMA transfer cycle takes two clock cycles to transfer one byte of data from the device to the memory.</p>\n\n<p>What is the approximate speed up when the DMA controller based design is used in a place of the interrupt driven program based input-output?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3.4 \\)</p>",
+            "<p>\\( 4.4 \\)</p>",
+            "<p>\\( 5.1 \\)</p>",
+            "<p>\\( 6.7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3.4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2130/gate-cse-2011-question-28\" target=\"_blank\">https://gateoverflow.in/2130/gate-cse-2011-question-28</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"39698\"></a><div itemprop=\"text\">The size of the data count register of a \\( \\text{DMA} \\) controller is \\( 16\\;\\text{bits} \\). The processor needs to transfer a file of \\( 29,154 \\) kilobytes from disk to main memory. The memory is byte addressable. The minimum number of times the \\( \\text{DMA} \\) controller needs to get the control of the system bus from the processor to transfer the file from the disk to main memory is _________.</div><br><br><b>GATE CSE 2016 Set 1 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "456",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39698/gate-cse-2016-set-1-question-31\" target=\"_blank\">https://gateoverflow.in/39698/gate-cse-2016-set-1-question-31</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"357520\"></a><div itemprop=\"text\"><p>Consider a computer system with \\( \\text{DMA} \\) support. The \\( \\text{DMA} \\) module is transferring one \\( 8 \\)-bit character in one \\( \\text{CPU} \\) cycle from a device to memory through&nbsp;<em>cycle stealing</em>&nbsp;at regular intervals. Consider a \\( \\text{2&nbsp;MHz} \\) processor. If \\( 0.5 \\% \\) processor cycles are used for \\( \\text{DMA} \\), the data transfer rate of the device is __________ bits per second.</p></div><br><br><b>GATE CSE 2021 Set 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "80000:80000",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357520/gate-cse-2021-set-2-question-20\" target=\"_blank\">https://gateoverflow.in/357520/gate-cse-2021-set-2-question-20</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"371929\"></a><div itemprop=\"text\"><p>Which one of the following facilitates transfer of bulk data from hard disk to main memory with the highest throughput?</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{DMA} \\) based \\( \\text{I/O} \\) transfer</p>",
+            "<p>Interrupt driven \\( \\text{I/O} \\) transfer</p>",
+            "<p>Polling based \\( \\text{I/O} \\) transfer</p>",
+            "<p>Programmed \\( \\text{I/O} \\) transfer</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{DMA} \\) based \\( \\text{I/O} \\) transfer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371929/gate-cse-2022-question-7\" target=\"_blank\">https://gateoverflow.in/371929/gate-cse-2022-question-7</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"422837\"></a><div itemprop=\"text\"><p>​​​​Which one of the following statements is FALSE?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle</p>",
+            "<p>For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode</p>",
+            "<p>Programmed I/O mechanism has a better CPU utilization than the interrupt driven&nbsp;I/O mechanism</p>",
+            "<p>The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Programmed I/O mechanism has a better CPU utilization than the interrupt driven&nbsp;I/O mechanism</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422837/gate-cse-2024-set-1-question-5\" target=\"_blank\">https://gateoverflow.in/422837/gate-cse-2024-set-1-question-5</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"422896\"></a><div itemprop=\"text\"><p>​​​Consider a computer with a \\( 4 \\mathrm{MHz} \\) processor. Its \\( \\text{DMA} \\) controller can transfer \\( 8 \\) bytes in \\( 1 \\) cycle from a device to main memory through cycle stealing at regular intervals. Which one of the following is the data transfer rate <em>(in bits per second)</em> of the \\( \\text{DMA} \\) controller if \\( 1 \\% \\) of the processor cycles are used for \\( \\text{DMA} \\)?</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2,56,000 \\)</p>",
+            "<p>\\( 3,200 \\)</p>",
+            "<p>\\( 25,60,000 \\)</p>",
+            "<p>\\( 32,000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 25,60,000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422896/gate-cse-2024-set-2-question-1\" target=\"_blank\">https://gateoverflow.in/422896/gate-cse-2024-set-2-question-1</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3694\"></a><div itemprop=\"text\"><p>The storage area of a disk has the innermost diameter of \\( 10 \\) cm and outermost diameter of \\( 20 \\) cm. The maximum storage density of the disk is \\( 1400 \\) bits/cm. The disk rotates at a speed of&nbsp;\\( 4200 \\) RPM. The main memory of a computer has \\( 64 \\)-bit word length and \\( 1 \\)µs cycle time. If cycle stealing is used for data transfer from the disk, the percentage of memory cycles stolen for transferring one word is</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.5 \\% \\)</p>",
+            "<p>\\( 1 \\% \\)</p>",
+            "<p>\\( 5\\% \\)</p>",
+            "<p>\\( 10\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3694/gate-it-2004-question-51\" target=\"_blank\">https://gateoverflow.in/3694/gate-it-2004-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

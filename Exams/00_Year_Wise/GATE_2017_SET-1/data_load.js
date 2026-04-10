@@ -1,0 +1,891 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2017_SET-1",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "questions": [
+        {
+          "id": 56,
+          "question": "<p>After Rajendra Chola returned from his voyage to Indonesia, he ________ to visit the temple in Thanjavur.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>was wishing</p>",
+            "<b>B.</b> <p>is wishing</p>",
+            "<b>C.</b> <p>wished</p>",
+            "<b>D.</b> <p>had wished</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>wished</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118403/gate-cse-2017-set-1-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Research in the workplace reveals that people work for many reasons _______________ .</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>money beside</p>",
+            "<b>B.</b> <p>beside money</p>",
+            "<b>C.</b> <p>money besides</p>",
+            "<b>D.</b> <p>besides money</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>besides money</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali. Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Rahul and Murali</p>",
+            "<b>B.</b> <p>Srinivas and Arul</p>",
+            "<b>C.</b> <p>Srinvas and Murali</p>",
+            "<b>D.</b> <p>Srinivas and Rahul</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Srinvas and Murali</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Find the smallest number \\(y\\) such that \\(y  \\times 162\\) is a perfect cube.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>24</p>",
+            "<b>B.</b> <p>27</p>",
+            "<b>C.</b> <p>32</p>",
+            "<b>D.</b> <p>36</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>36</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118407/gate-cse-2017-set-1-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>The probability that a k-digit number does NOT contain the digits 0, 5, or 9 is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0.3^k\\)</p>",
+            "<b>B.</b> <p>\\(0.6^k\\)</p>",
+            "<b>C.</b> <p>\\(0.7^k\\)</p>",
+            "<b>D.</b> <p>\\(0.9^k\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(0.7^k\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>\"The hold of the nationalist imagination on our colonial past is such that anything inadequately or improperly nationalist is just not history.\"<br><br>\nWhich of the following statements best reflects the author's opinion?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Nationalists are highly imaginative.</p>",
+            "<b>B.</b> <p>History is viewed through the filter of nationalism.</p>",
+            "<b>C.</b> <p>Our colonial past never happened.</p>",
+            "<b>D.</b> <p>Nationalism has to be both adequately and properly imagined.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>History is viewed through the filter of nationalism.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118409/gate-cse-2017-set-1-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>Six people are seated around a circular table. There are at least two men and two women. There are at least three right-handed persons. Every woman has a left-handed person to her immediate right. None of the women are right-handed. The number of women at the table is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>The expression  \\(\\frac{(x+y) - |x-y|}{2}\\)   is equal to :</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The maximum of x and y</p>",
+            "<b>B.</b> <p>The minimum of x and y</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The minimum of x and y</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118411/gate-cse-2017-set-1-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Arun, Gulab, Neel and Shweta must choose one shirt each from a pile of four shirts coloured red, pink, blue and white respectively. Arun dislikes the colour red and Shweta dislikes the colour white. Gulab and Neel like all the colours. In how many different ways can they choose the shirts so that no one has a shirt with a colour he or she dislikes?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21</p>",
+            "<b>B.</b> <p>18</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>14</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118412/gate-cse-2017-set-1-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>A contour line joins locations having the same height above the mean sea level. The following is a contour plot of a geographical region. Contour lines are shown at 25 m intervals in this plot. If in a flood, the water level rises to 525 m, which of the villages P, Q, R, S, T get submerged? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q65_ba47e62e.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P, Q</p>",
+            "<b>B.</b> <p>P, Q, T</p>",
+            "<b>C.</b> <p>R, S, T</p>",
+            "<b>D.</b> <p>Q, R, S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>R, S, T</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118413/gate-cse-2017-set-1-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    },
+    {
+      "name": "Computer Science Engineer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The statement \\((\\neg p)\\Rightarrow (\\neg q)\\) is logically equivalent to which of the statements below? <br>I. \\( p\\Rightarrow q \\) <br>II. \\(q \\Rightarrow p \\)<br>III. \\((\\neg q)\\vee p\\) <br>IV. \\((\\neg p)\\vee q\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118698/gate2017-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the first-order logic sentence \\(F:\\forall x(\\exists yR(x,y))\\). Assuming non-empty logical\ndomains, which of the sentences below are implied by F? <br>I. \\(\\exists y(\\exists xR(x,y))\\)<br> II. \\(\\exists y(\\forall xR(x,y)) \\)<br>III. \\(\\forall y(\\exists xR(x,y))\\)<br> IV. \\(\\neg \\exists x(\\forall y\\neg R(x,y))\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IV only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118701/gate2017-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\(c_{1}....c_{n}\\)  be scalars, not all zero, such that \\(\\sum_{i=1}^{n}c_{i}a_{i}=0\\)<br> where \\(a_{i}\\) are column vectors in \\(R^{n}\\). Consider the set of linear equations Ax = b <br>\nwhere A=\\(a_{1}....a_{n}\\) and b=\\(\\sum_{i=1}^{n}a_{i}\\). The set of equations has</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a unique solution at  \\(x=J_{n}\\) where \\(J_{n}\\) denotes a n-dimensional vector of all 1</p>",
+            "<b>B.</b> <p>no solution</p>",
+            "<b>C.</b> <p>infinitely many solutions</p>",
+            "<b>D.</b> <p>finitely many solutions</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>infinitely many solutions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118282/gate2017-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following functions from positive integers to real numbers:<br> <br>\\(10,\\sqrt{n},n, log_{2}n,\\frac{100}{n}\\).<br><br> The CORRECT arrangement of the above functions in increasing order of asymptotic complexity is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(log_{2}n,\\frac{100}{n}, 10,\\sqrt{n},n \\)</p>",
+            "<b>B.</b> <p>\\(\\frac{100}{n}, 10,log_{2}n, \\sqrt{n}, n \\)</p>",
+            "<b>C.</b> <p>\\(10, \\frac{100}{n},  \\sqrt{n}, log_{2}n, n \\)</p>",
+            "<b>D.</b> <p>\\(\\frac{100}{n}, log_{2}n, 10,  \\sqrt{n}, n \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{100}{n}, 10,log_{2}n, \\sqrt{n}, n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118703/gate2017-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following table: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q4_e0e30ec7.jpg\"> <br>Match the algorithms to the design paradigms they are based on.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-(ii), Q-(iii),R-(i)</p>",
+            "<b>B.</b> <p>P-(iii), Q-(i), R-(ii)</p>",
+            "<b>C.</b> <p>P-(ii), Q-(i), R-(iii)</p>",
+            "<b>D.</b> <p>P-(i), Q-(ii), R-(iii)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-(ii), Q-(i), R-(iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118707/gate2017-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let T be a binary search tree with 15 nodes. The minimum and maximum possible heights of T are : <br>\nNote: The height of a tree with a single node is 0.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 and 15 respectively</p>",
+            "<b>B.</b> <p>3 and 14 respectively</p>",
+            "<b>C.</b> <p>4 and 14 respectively</p>",
+            "<b>D.</b> <p>3 and 15 respectively</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3 and 14 respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118286/gate2017-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The n-bit fixed-point representation of an unsigned real number real X uses f bits for the\nfraction part. Let i=n-f. The range of decimal values for X in this representation is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{-f} \\; to \\;  2^{i}\\)</p>",
+            "<b>B.</b> <p>\\(2^{-f} \\; to \\; (2^{i}-2^{-f})\\)</p>",
+            "<b>C.</b> <p>\\(0 \\; to \\;  2^{i}\\)</p>",
+            "<b>D.</b> <p>\\(0 \\; to \\;  (2^{i}-2^{-f})\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(0 \\; to \\;  (2^{i}-2^{-f})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118287/gate2017-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the C code fragment given below.<pre><code>\ntypedef struct node {\nint data;\nnode* next ;\n} node;\nvoid join (node* m, node* n) {\nnode* p=n ;\nwhile (p-&gt;next ! =NULL){\np = p -&gt; next ;\n}\np-&gt; next = m;\n}</code></pre>\nAssuming that m and n point to valid NULL- terminated linked lists, invocation of join will</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>append list m to the end of list n for all inputs.</p>",
+            "<b>B.</b> <p>either cause a null pointer dereference or append list m to the end of list n.</p>",
+            "<b>C.</b> <p>cause a null pointer dereference for all inputs.</p>",
+            "<b>D.</b> <p>append list n to the end of list m for all inputs.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>either cause a null pointer dereference or append list m to the end of list n.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118711/gate2017-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>When two 8-bit numbers \\(A_{7}....A_{0}\\) and \\(B_{7}....B_{0}\\) in 2's complement representation (with \\(A_{0}\\)\nand \\(B_{0}\\) as the least significant bits ) are added using a ripple-carry Combinational Circuit, the sum bits\nobtained are  \\(S_{7}....S_{0}\\) and the carry bits are  \\(C_{7}....C_{0}\\). An overflow is said to have occurred if</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the carry bit \\(C_{7}\\) is 1</p>",
+            "<b>B.</b> <p>all the carry bits (\\(C_{7}....C_{0}\\)) are 1</p>",
+            "<b>C.</b> <p>\\((A_{7}B_{7}\\bar{S_{7}}+\\bar{A_{7}}\\bar{B_{7}}S_{7})\\)  is 1</p>",
+            "<b>D.</b> <p>\\((A_{0}B_{0}\\bar{S_{0}}+\\bar{A_{0}}\\bar{B_{0}}S_{0})\\)\nis 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((A_{7}B_{7}\\bar{S_{7}}+\\bar{A_{7}}\\bar{B_{7}}S_{7})\\)  is 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118289/gate2017-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following context-free grammar over the alphabet  \\(\\sum\\) = {a,b,c} with S as the start\nsymbol. <br><br>\nS\\(\\rightarrow\\)abScT|abcT <br>\nT\\(\\rightarrow\\)bT|b<br><br>\nWhich one of the following represents the language generated by the above grammar ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\((ab)^{n}(cb)^{n}|n\\geq 1\\)}</p>",
+            "<b>B.</b> <p>{\\((ab)^{n}cb^{m_{1}}cb^{m_{2}}...cb^{m_{n}}|n,m_{1},m_{2},...,m_{n}\\geq 1\\)}</p>",
+            "<b>C.</b> <p>\\((ab)^{n}(cb^{m})^{n}|n,m\\geq 1\\)</p>",
+            "<b>D.</b> <p>\\((ab)^{n}(cb^{n})^{m}|n,m\\geq 1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\((ab)^{n}cb^{m_{1}}cb^{m_{2}}...cb^{m_{n}}|n,m_{1},m_{2},...,m_{n}\\geq 1\\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118290/gate2017-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the C struct defined below:<pre><code>struct data {\nint marks [100] ;\nchar grade;\nint cnumber;\n};\nstruct data student;</code></pre>The base address of student is available in register R1. The field student.grade can be\naccessed efficiently using</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Post-increment addressing mode. (R1)+</p>",
+            "<b>B.</b> <p>Pre-decrement addressing mode, -(R1)</p>",
+            "<b>C.</b> <p>Register direct addressing mode, R1</p>",
+            "<b>D.</b> <p>Index addressing mode, X(R1), where X is an offset represented in 2's complement 16-bit representation</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Index addressing mode, X(R1), where X is an offset represented in 2's complement 16-bit representation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118291/gate2017-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following intermediate program in three address code<br>\np= a -b <br>\nq= p *c <br>\np= u * v <br>\nq= p + q <br>\nWhich one of the following corresponds to a static single assignment form of the above code?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(p_{1}=a-b\\)<br>\\( q_{1}=p_{1}*c \\)<br>\\(p_{1}=u*v \\)<br>\\(q_{1}=p_{1}+q_{1}\\)</p>",
+            "<b>B.</b> <p>\\(p_{3}=a-b \\)<br>\\(q_{4}=p_{3}*c \\)<br>\\(p_{4}=u*v \\)<br>\\(q_{3}=p_{4}+q_{4}\\)</p>",
+            "<b>C.</b> <p>\\(p_{1}=a-b \\)<br>\\(q_{1}=p_{2}*c \\)<br>\\(p_{3}=u*v \\)<br>\\(q_{2}=p_{4}+q_{3}\\)</p>",
+            "<b>D.</b> <p>\\(p_{1}=a-b \\)<br>\\(q_{1}=p_{1}*c \\)<br>\\(p_{2}=u*v \\)<br>\\(q_{2}=p+q\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(p_{3}=a-b \\)<br>\\(q_{4}=p_{3}*c \\)<br>\\(p_{4}=u*v \\)<br>\\(q_{3}=p_{4}+q_{4}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118292/gate2017-1-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following C code:<pre><code># include lt stdio.h &gt;\nint * assignval (int *x, int val) {\n      *x = val;\n      return x;\n}\nvoid main ( ) {\n    int * x= malloc (sizeof (int));\n    if (NULL = = x) return;\n    x = assignval (x,0);\n    if(x) { \n    x=(int *) malloc (sizeof (int));\n    if (NULL = = x) return;\n    x = assignval (x, 10);\n}\nprintf(\"%d\\n\", *x);\nfree (x);\n}</code></pre>\nThe code suffers from which one of the following problems:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>compiler error as the return of malloc is not typecast appropriately.</p>",
+            "<b>B.</b> <p>compiler error because the comparison should be made as x==NULL and not as shown.</p>",
+            "<b>C.</b> <p>compiles successfully but execution may result in dangling pointer.</p>",
+            "<b>D.</b> <p>compiles successfully but execution may result in memory leak.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>compiles successfully but execution may result in memory leak.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118293/gate2017-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a TCP client and a TCP server running on two different machines. After completing\ndata transfer, the TCP client calls close to terminate the connectional and a FIN segment is\nsent to the TCP server. Server-side TCP responds by sending an ACK which is received by\nthe client-side TCP. As per the TCP connections state diagram (RFC 793), in which state does\nthe client-side TCP connection wait for the FIN from the sever-side TCP?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LAST-ACK</p>",
+            "<b>B.</b> <p>TIME-WAIT</p>",
+            "<b>C.</b> <p>FIN-WAIT-1</p>",
+            "<b>D.</b> <p>FIN-WAIT-2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>FIN-WAIT-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118194/gate2017-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A sender S sends a message m to receiver R, which is digitally signed by S with its\nprivate key. In this scenario, one or more of the following security violations can take place. <br><br>\nI. S can launch a birthday attack to replace m with a fraudulent message.<br>\nII. A third party attacker can launch a birthday attack to replace m with a fraudulent message  <br>  III. R can launch a birthday attack to replace m with a fraudulent message.<br><br>\nWhich of the following are possible security violations?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118295/gate2017-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The following functional dependencies hold true for the relational schema R{V,W,X,Y,Z}: <br>\nV \\(\\rightarrow\\)W <br>\nVW \\(\\rightarrow\\)X <br>\nY\\(\\rightarrow\\) VX <br>\nY \\(\\rightarrow\\)Z <br> Which of the following is irreducible equivalent for this set of functional dependencies ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>V \\(\\rightarrow\\)W   <br>       V\\(\\rightarrow\\)X <br>\nY \\(\\rightarrow\\)V     <br>       Y \\(\\rightarrow\\)Z</p>",
+            "<b>B.</b> <p>V \\(\\rightarrow\\)W  <br>       W \\(\\rightarrow\\)X<br>\nY\\(\\rightarrow\\) V    <br>       Y\\(\\rightarrow\\) Z</p>",
+            "<b>C.</b> <p>V \\(\\rightarrow\\)W   <br>     V\\(\\rightarrow\\) X<br>\nY\\(\\rightarrow\\) V    <br>     Y \\(\\rightarrow\\)X<br>\nY \\(\\rightarrow\\)Z</p>",
+            "<b>D.</b> <p>V \\(\\rightarrow\\)W  <br>      W\\(\\rightarrow\\) X<br>\nY\\(\\rightarrow\\) V   <br>      Y \\(\\rightarrow\\)X<br>\nY \\(\\rightarrow\\)Z</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>V \\(\\rightarrow\\)W   <br>       V\\(\\rightarrow\\)X <br>\nY \\(\\rightarrow\\)V     <br>       Y \\(\\rightarrow\\)Z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118296/gate2017-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Consider the following grammar.<br><br>\nP\\(\\rightarrow\\)xQRS <br>\nQ\\(\\rightarrow\\)yz|z<br>R\\(\\rightarrow\\)w|\\(\\varepsilon\\) <br>S\\(\\rightarrow\\)y<br><br>What is FOLLOW (Q) ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{R}</p>",
+            "<b>B.</b> <p>{w}</p>",
+            "<b>C.</b> <p>{w, y}</p>",
+            "<b>D.</b> <p>{w, $}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>{w, y}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118297/gate2017-1-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Threads of a process share</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>global variable but not heap.</p>",
+            "<b>B.</b> <p>heap but not global variables.</p>",
+            "<b>C.</b> <p>neither global variables nor heap.</p>",
+            "<b>D.</b> <p>Both heap and global variables.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both heap and global variables.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118298/gate2017-1-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Let X be a Gaussian random variable mean 0 and variance \\(\\sigma ^{2}\\)\n. Let Y=max(X, 0) where max\n(a,b) is the maximum of a and b. The median of Y is ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118299/gate2017-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Let T be a tree with 10 vertices. The sum of the degrees of all the vertices in T is _________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "18",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118300/gate2017-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Consider the Karnaugh map given below, where x represents \"don't care\" and blank\nrepresents 0.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q2_5c33715e.jpg\"><br> Assume for all inputs (a, b, c, d) the respective complements \\((\\bar{a},\\bar{b},\\bar{c},\\bar{d})\\) are also available. The\nabove logic is implemented 2-input NOR gates only. The minimum number of gates required\nis ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118301/gate2017-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider the language L given by the regular expression (a+b )* b (a+b )  over the alphabet {a, b}. The smallest number of states needed in a deterministic finite-state automation (DFA) accepting L is ___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118302/gate2017-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider a database that has the relation schema EMP (EmpId, EmpName, and DeptName).\nAn instance of the schema EMP and a SQL query on it are given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q20_fff46230.jpg\"> The output of executing the SQL query is _____.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118303/gate2017-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider the following CPU processes with arrival times (in milliseconds) and length of CPU\nburst (in milliseconds) as given below:  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q9_b12a8e72.jpg\"><br> If the pre-emptive shortest remaining time first scheduling algorithm is used to schedule the processes., then the average waiting time across all processes is ________ milliseconds.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118304/gate2017-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Consider a two-level cache hierarchy with L1 and L2 caches. An application incurs 1.4\nmemory accesses per instruction on average. For this application, the miss rate of L1 cache 0.1, the L2 cache experiences, on average, 7 misses per 1000 instructions. The miss rate of L2 expressed correct to two decimal places is ___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.05",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118305/gate2017-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Let G = (V, E) be any connected undirected edge-weighted graph. The weights of the edges in\nE are positive and distinct. Consider the following statements:<br><br>\n(I) Minimum spanning tree of G is always unique. <br>\n(II) Shortest path between any two vertices of G is always unique. <br><br>\nWhich of the above statements is/are necessarily true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) only</p>",
+            "<b>B.</b> <p>(II) only</p>",
+            "<b>C.</b> <p>Both (I) and (II)</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(I) only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118306/gate2017-1-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>A multithreaded program P executes with x number of threads and uses y number of locks for\nensuring mutual exclusion while operating on shared memory locations. All locks in the\nprogram are non-reentrant, i.e., if a thread holds a lock l, then it cannot re-acquire lock l\nwithout releasing it. If a thread is unable to acquire a lock, it blocks until the lock becomes\navailable. The minimum value of x and the minimum value of y together for which execution\nof P can result in a deadlock are:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 1, y = 2</p>",
+            "<b>B.</b> <p>x =2, y=1</p>",
+            "<b>C.</b> <p>x = 2,y=2</p>",
+            "<b>D.</b> <p>x = 1, y = 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x = 1, y = 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118307/gate2017-1-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow 1}\\frac{x^{7}-2x^{5}+1}{x^{3}-3x^{2}+2}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is 0</p>",
+            "<b>B.</b> <p>is -1</p>",
+            "<b>C.</b> <p>is 1</p>",
+            "<b>D.</b> <p>does not exist</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>is 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118309/gate2017-1-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Let p, q, and r be propositions and the expression (p\\(\\rightarrow\\)q)\\(\\rightarrow\\)r be a contradiction. Then, the\nexpression (r\\(\\rightarrow\\)p)\\(\\rightarrow\\)q is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a tautology</p>",
+            "<b>B.</b> <p>a tautology</p>",
+            "<b>C.</b> <p>always TRUE when p is FALSE</p>",
+            "<b>D.</b> <p>always TRUE when q is TRUE</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>always TRUE when q is TRUE</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118310/gate2017-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Let u and v be two vectors in \\(R^{2}\\) whose Euclidean norms satisfy ||u||=2|| v|| . What is the value of \\(\\alpha\\) such that w=u+\\(\\alpha\\)v bisects the angle between u and v ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>\\(1/2\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(-1/2\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118311/gate2017-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Let A be nxn real valued square symmetric matrix of rank 2 with \\(\\sum_{i=1}^{n}\\sum_{j=1}^{n}A^{2}_{ij}=50\\). Consider\nthe following statements. <br> <br>(I) One eigen value must be in [-5, 5]   <br>      (II) The eigen value with the largest magnitude must be strictly greater than 5. <br> <br>\nWhich of the above statements about eigen values of A is/are necessarily CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both (I) and (II)</p>",
+            "<b>B.</b> <p>(I) only</p>",
+            "<b>C.</b> <p>(II) only</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(I) only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118312/gate2017-1-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>A computer network uses polynomials over GF(2) for error checking with 8 bits as\ninformation bits and uses \\(x^{3}+x+1\\) as the generator polynomial to generate the check bits. In\nthis network, the message 01011011 is transmitted as</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>01011011010</p>",
+            "<b>B.</b> <p>01011011011</p>",
+            "<b>C.</b> <p>01011011101</p>",
+            "<b>D.</b> <p>01011011100</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>01011011101</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118313/gate2017-1-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider a combination of T and D flip-flops connected as shown below. The output of the D flip-flop is connected to the input of the T flip-flop and the output of the T flip-flop is connected to the input of the D flip-flop <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q26_653272d6.jpg\"><br> Initailly, both \\(Q_{0}\\) and \\(Q_{1}\\)  are set to 1 (before the 1st clock cycle). The outputs</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 11 and after the 4th cycle are 00 respectively</p>",
+            "<b>B.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 11 and after the 4th cycle are 01 respectively</p>",
+            "<b>C.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 00 and after the 4th cycle are 11 respectively</p>",
+            "<b>D.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 01 and after the 4th cycle are 01 respectively</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 11 and after the 4th cycle are 01 respectively</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118315/gate2017-1-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>If G is grammar with productions <br>\n\\(S\\rightarrow SaS|aSb|bSa|SS|\\epsilon\\)<br>\nwhere S is the start variable, then which one of the following is not generated by G?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>abab</p>",
+            "<b>B.</b> <p>aaab</p>",
+            "<b>C.</b> <p>abbaa</p>",
+            "<b>D.</b> <p>babba</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>babba</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118316/gate2017-1-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Consider the following two functions.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q52_7b87d5d2.jpg\">\nThe output printed when fun1(5) is called is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(53423122233445\\)</p>",
+            "<b>B.</b> <p>\\(53423120112233\\)</p>",
+            "<b>C.</b> <p>\\(53423122132435\\)</p>",
+            "<b>D.</b> <p>\\(53423120213243\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(53423122233445\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118317/gate2017-1-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider the C functions foo and bar given below:<pre><code>int foo (int val ) {\n    int x = 0;\n    while (val &gt; 0) {\n    x = x + foo(val--);\n}\n   return val ;\n}\nint bar (int val ) {\nint x = 0;\nwhile (val &gt; 0) {\n    x = x + bar(val-1);}\n    return val ;\n}</code></pre>\nInvocations of foo(3) and bar(3) will result in:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Return of 6 and 6 respectively.</p>",
+            "<b>B.</b> <p>Infinite loop and abnormal termination respectively.</p>",
+            "<b>C.</b> <p>Abnormal termination and infinite loop respectively.</p>",
+            "<b>D.</b> <p>Both terminating abnormally</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Abnormal termination and infinite loop respectively.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118319/gate2017-1-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the context-free grammars over the alphabet {a,b,c} given below. S and T are non-terminals <br><br>\\(G_{1}:S\\rightarrow aSb|T, T\\rightarrow cT|\\epsilon\\) \\(G_{2}:S\\rightarrow bSa|T,T\\rightarrow cT|\\epsilon\\) <br><br>The language \\(L(G_{1})\\cap L(G_{2})\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finite.</p>",
+            "<b>B.</b> <p>Not finite but regular.</p>",
+            "<b>C.</b> <p>Context-free but not regular.</p>",
+            "<b>D.</b> <p>Recursive but not context-free.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Not finite but regular.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118320/gate2017-1-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the following languages over the alphabet \\(\\Sigma = \\{a, b,c\\}\\). <br>Let \\(L_{1}=\\{a^{n}b^{n}c^{m}|m,n\\geq 0\\}\\) and \\(L_{2}=\\{a^{m}b^{n}c^{n}|m,n\\geq 0\\}\\)<br><br> Which of the following are context-free languages ?  <br>   I. \\(L_{1}\\cup L_{2}\\)  <br>       II. \\(L_{1}\\cap L_{2}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118321/gate2017-1-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Let A and B be infinite alphabets and let # be a symbol outside both A and B. Let f be a total\nfunctional from A* to B*. We say f is computable if there exists a Turning machine M which\ngiven an input x in A*, always halts with f(x) on its tape. Let \\(L_{f}\\) denote the language\n{x#f(x)|x\\(\\in\\)A*}. Which of the following statements is true:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f is computable if and only if  \\(L_{f}\\)  is recursive.</p>",
+            "<b>B.</b> <p>f is computable if and only  \\(L_{f}\\)  recursively enumerable.</p>",
+            "<b>C.</b> <p>If f is computable then  \\(L_{f}\\)  is recursive, but not conversely.</p>",
+            "<b>D.</b> <p>If f is computable then  \\(L_{f}\\)  is recursively enumerable, but not conversely.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>f is computable if and only if  \\(L_{f}\\)  is recursive.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118322/gate2017-1-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Recall that Belady's anomaly is that the pages-fault rate may increase as the number of\nallocated frames increases. Now consider the following statements: <br><br>\nS1: Random page replacement algorithm (where a page chosen at random is replaced)\nsuffers from Belady's anomaly <br>\nS2: LRU page replacement algorithm suffers from Belady's anomaly <br><br>\nWhich of the following is CORRECT ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is true, S2 is true</p>",
+            "<b>B.</b> <p>S1 is true, S2 is false</p>",
+            "<b>C.</b> <p>S1 is false , S2 is true</p>",
+            "<b>D.</b> <p>S1 is false, S2 is false</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 is true, S2 is false</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118323/gate-cse-2017-set-1-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Consider a database that has the relation schemas EMP(EmpId, EmpName, DepId) and\nDEPT(DeptName, DeptId). Note that the DeptId can be permitted to be NULL in the relation\nEMP. Consider the following queries on the database expressed in tuple relational calculus.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q35_fb6f6bf4.jpg\"><br>\nWhich of the above queries are safe?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) and (II) only</p>",
+            "<b>B.</b> <p>(I) and (III) only</p>",
+            "<b>C.</b> <p>(II) and (III) only</p>",
+            "<b>D.</b> <p>(I), (II) and (III)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(I), (II) and (III)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118324/gate2017-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>In a database system, unique time stamps are assigned to each transaction using Lamport's\nlogical clock . Let TS(\\(T_{1}\\)) and TS(\\(T_{2}\\)) be the timestamps of transactions \\(T_{1}\\) and \\(T_{2}\\) respectively. Besides, \\(T_{1}\\) holds a lock on the resource R, and \\(T_{2}\\) has requested a conflicting lock on the same resource R. The following algorithm is used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same timestamp.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q42_afa2fbc5.jpg\">  <br>Assume any transactions that is not killed terminates eventually. Which of the following is TRUE about the database system that uses the above algorithm to prevent deadlocks?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The database system is both deadlock-free and starvation- free.</p>",
+            "<b>B.</b> <p>The database system is deadlock- free, but not starvation-free.</p>",
+            "<b>C.</b> <p>The database system is starvation-free but not deadlock- free.</p>",
+            "<b>D.</b> <p>The database system is neither deadlock- free nor starvation-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The database system is both deadlock-free and starvation- free.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118325/gate2017-1-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider the following grammar:<br><br>\nstmt\\(\\rightarrow\\) if expr then expr else expr; stmt| \\(\\dot{O}\\)<br>\nexpr\\(\\rightarrow\\)term relop term|term<br>\nterm\\(\\rightarrow\\) id|number <br>\nif\\(\\rightarrow\\)a|b|c <br>\nnumber\\(\\rightarrow\\) [0-9] <br><br>\nwhere <b>relop</b> is a relational operate (e.g \\(\\lt ,\\gt\\),...), \\(\\dot{O}\\) refers to the empty statement, and if\n,then, else are terminals. <br><br>\nConsider a program P following the above grammar containing ten if terminals. The number\nof control flows paths in P is ____________. For example the program <br><br>\nif \\(e_1\\) then \\(e_2\\) else \\(e_3\\)<br><br>\nhas 2 controls flow paths  \\(e_{1} \\rightarrow e_{2}\\) and  \\(e_{1} \\rightarrow e_{3}\\).</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1024",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118326/gate2017-1-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>In a RSA cryptosystem a participant A uses two prime numbers p=13 and q=17 to generate\nher public and private keys. If the public key of A is 35. Then the private key of A is\n__________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118327/gate2017-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The values of parameters for the Stop-and-Wait ARQ protocol are as given below:<br><br>\nBit rate of the transmission channel = 1Mbps <br>\nPropagation delay from sender to receiver = 0.75 ms <br>\nTime to process a frame = 0.25ms <br>\nNumber of bytes in the information frame =1980 <br>\nNumber of bytes in the acknowledge frame = 20          <br>                               Number of overhead bytes in the information frame = 20 <br><br>\nAssume that there are no transmission errors. Then the transmission efficiency ( expressed in\npercentage) of the Stop-and - Wait ARQ protocol for the above parameters is _________(\ncorrect to 2 decimal places)</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "86.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118328/gate2017-1-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Consider a database that has the relation schema CR (StudentName, CourseName). An\ninstance of the schema CR is as given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q53_8cbe5db4.jpg\"><br> The following query is made on the database <br><br>\\(T1\\leftarrow \\pi _{CourseName}(\\sigma _{StudentName='SA'}(CR))\\)<br>\\( T2\\leftarrow CR\\div T1\\) <br><br>The number of rows in T2 is ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118329/gate2017-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>The number of integers between 1 and 500 (both inclusive) that are divisible by 3 or 5 or 7 is\n______________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "271",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118330/gate2017-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Let A be an array of 31 numbers consisting of sequence of 0's followed by a sequence of 1's.\nThe problem is to find the smallest index i that A[i] is 1 by probing the minimum numbers of\nlocations in A. The worst case number of probes performed by an optimal algorithm is\n_____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118331/gate2017-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Consider a RISC machine where each instruction is exactly 4 bytes long. Conditional and\nunconditional branch instructions use PC- relative addressing mode with Offset specified in\nbytes to the target location of the branch instruction. Further the Offset is always with respect\nto the address of the next instruction in the program sequence. Consider the following\ninstruction sequence.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2017_SET-1\\q28_d9c8664a.jpg\"><br>\nIf the target of the branch instruction is i, then the decimal value of the Offset is __________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-16",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118332/gate2017-1-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Instructions execution in a processor is divided into 5 stages. Instruction Fetch (IF),\nInstruction Decode (ID) , Operand Fetch (OF), Execute (EX), and Write Back (WB), These\nstages take 5,4,20, 10 and 3 nanoseconds (ns) respectively. A pipelined implementation of\nthe processor requires buffering between each pair of consecutive stages with a delay of 2ns. <br>\nTwo pipelined implementations of the processor are contemplated.<br><br>\n(i) a naive pipeline implementation (NP) with 5 stages and <br>\n(ii) an efficient pipeline (EP) where the OF stage id divided into stages OF1 and OF2\nwith execution times of 12 ns and 8 ns respectively. <br><br>\nThe speedup (correct to two decimals places) achieved by EP over NP in executing 20\nindependent instructions with no hazards is ________________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.49",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118719/gate2017-1-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider a 2-way set associative cache with 256 blocks and uses LRU replacement, Initially\nthe cache is empty. Conflict misses are those misses which occur due the contention of\nmultiple blocks for the same cache set. Compulsory misses occur due to first time access to\nthe block. The following sequence of accesses to memory blocks. <br><br>\n(0,128,256,128,0,128,256,128,1,129,257,129,1,129,257,129)<br><br>\nis repeated 10 times. The number of conflict misses experienced by the cache is ___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "76",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118745/gate2017-1-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Consider the expression ( a-1)* (((b + c) / 3) + d)) . Let X be the minimum number of\nregisters required by an optimal code generation (without any register spill) algorithm for a\nload/store architecture in which (i) only loads and store instructions can have memory\noperands and (ii) arithmetic instructions can have only register or immediate operands. The\nvalue of X is _________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118746/gate2017-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\n#include &lt; string.h &gt;\nvoid printlength (char *s, char *t) {\n unsigned int c = 0;\n int len = ((strlen(s) - strlen (t)) &gt; c) ? strlen(s): strlen(t);\n printf (\"%d\\n\", len);\n}\nvoid main ( ) {\n char *x = \"abc\";\n char *y =\"defgh\"; \n printlength (x,y); </code></pre>\nRecall that strlen is defined in string.h as returning a value of type size_t, which is an\nunsigned int. The output of the program is _____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118473/gate2017-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>A cache memory unit with capacity of N words and block size of B words is to be designed.\nIf it is designed as a direct mapped cache, the length of the TAG field is 10 bits. If the cache\nunit is now designed as a 16-way set-associative cache, the length of the TAG field is\n______bits.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118748/gate2017-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>The output of executing the following C program is ________.<pre><code> # include <stdio.h>\nint total (int v) {\nwhile (v) {\n    static int count + = v &amp; 1;\n    v&gt;&gt; = 1;\n }\n    return count;\n }\nvoid main ( ) {\nstatic int x = 0;\nint i = 5;\nfor (; i&gt; 0; i--) {\nx=x + total (i) ; \n}\nprintf (\"%d\\n\", x) ; } </stdio.h></code></pre></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "23",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118442/gate2017-1-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

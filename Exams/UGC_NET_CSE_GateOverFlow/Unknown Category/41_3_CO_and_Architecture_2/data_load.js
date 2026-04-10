@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Unknown Category - CO and Architecture",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "CO and Architecture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166280\"></a><div itemprop=\"text\"><p>Which of the following &nbsp;Super Computers is the fastest Super Computer?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | November 2017 | Part 2 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sun-way TaihuLight</p>",
+            "<p>Titan</p>",
+            "<p>Piz Daint</p>",
+            "<p>Sequoia</p>"
+          ],
+          "correct_answer": "<p>Sun-way TaihuLight</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166280/ugc-net-cse-november-2017-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/166280/ugc-net-cse-november-2017-part-2-question-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"166284\"></a><div itemprop=\"text\"><p>Which speed up could be achieved according to Amdahl's Law for infinte number of processes if \\( 5\\% \\) of a program is sequential and the remaining part is ideally parallel?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | November 2017 | Part 2 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Infinite</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166284/ugc-net-cse-november-2017-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/166284/ugc-net-cse-november-2017-part-2-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

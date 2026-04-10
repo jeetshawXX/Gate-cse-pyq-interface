@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Binary Tree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166407\"></a><div itemprop=\"text\"><p>Consider a full binary tree with \\( n \\) internal nodes, internal path length \\( I \\), and external path length \\( e \\). the internal length of a full binary tree is the sum, taken over all nodes of the tree, of the depth of each node. Similarly, the external path length is the sum, taken over all leaves of the tree, of the depth of each leaf.</p>\n\n<p>Which of the following is <strong>correct </strong>for the full binary tree?</p>\n\n</div><br><br><b>Graph Theory: UGC NET CSE | November 2017 | Part 3 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( e=i+n \\)</p>",
+            "<p>\\( e=i+2n \\)</p>",
+            "<p>\\( e=2i+n \\)</p>",
+            "<p>\\( e=2n+i \\)</p>"
+          ],
+          "correct_answer": "<p>\\( e=i+2n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166407/ugc-net-cse-november-2017-part-3-question-31\" target=\"_blank\">https://gateoverflow.in/166407/ugc-net-cse-november-2017-part-3-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,235 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Set Theory",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Set Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18394\"></a><div itemprop=\"text\"><p>Let \\( A, B \\) be sets. Let&nbsp;\\( \\bar{A} \\) denote the complement of set \\( A \\) (with respect to some fixed universe), and \\( ( A - B) \\) denote the set of elements in \\( A \\) which are not in \\( B \\). Set \\( (A - (A - B)) \\) is equal to:</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2010 | Part A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B \\)</p>",
+            "<p>\\( A\\cap \\bar{B} \\)</p>",
+            "<p>\\( A - B \\)</p>",
+            "<p>\\( A\\cap B \\)</p>",
+            "<p>\\( \\bar{B} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A\\cap B \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18394/tifr-cse-2010-part-a-question-15\" target=\"_blank\">https://gateoverflow.in/18394/tifr-cse-2010-part-a-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"18496\"></a><div itemprop=\"text\"><p>Let \\( X \\) be a set of size \\( n \\). How many pairs of sets (A, B) are there that satisfy the condition \\( A\\subseteq B \\subseteq X \\) ?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2010 | Part A | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{n+1} \\)</p>",
+            "<p>\\( 2^{2n} \\)</p>",
+            "<p>\\( 3^{n} \\)</p>",
+            "<p>\\( 2^{n} + 1 \\)</p>",
+            "<p>\\( 3^{n + 1} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3^{n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18496/tifr-cse-2010-part-a-question-18\" target=\"_blank\">https://gateoverflow.in/18496/tifr-cse-2010-part-a-question-18</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"20039\"></a><div itemprop=\"text\"><p>Let \\( m \\), \\( n \\) denote two integers from the set \\( \\{1, 2,\\dots,10\\} \\). The number of ordered pairs \\( \\left ( m, n \\right ) \\) such that \\( 2^{m}+2^{n} \\) is divisible by \\( 5 \\) is.</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2011 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 24 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20039/tifr-cse-2011-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/20039/tifr-cse-2011-part-a-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"20400\"></a><div itemprop=\"text\"><p>Suppose \\( (S_{1}, S_{2},\\ldots,S_{m}) \\) is a finite collection of non-empty subsets of a universe \\( U. \\) Note that the sets in this collection need not&nbsp;be distinct. Consider the following basic step to be performed on this sequence. While there exist sets \\( S_{i} \\) and \\( S_{j} \\) in the sequence, neither of which is a subset of the other, delete them from the sequence, and&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>If \\( S_{i}\\cap S_{j}\\neq \\emptyset  \\), then add the sets \\( S_{i}\\cup S_{j} \\) and \\( S_{i}\\cap S_{j} \\) to the sequence;</li>\n\t<li>If \\( S_{i}\\cap S_{j} = \\emptyset \\), then add only the set \\( S_{i}\\cup S_{j} \\) to the sequence.</li>\n</ol>\n\n<p>In each step we delete two sets from the sequence and add at most two sets to the sequence. Also, note that empty sets are never added to the sequence. Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2011 | Part B | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The size of the smallest set in the sequence decreases in every step</p>",
+            "<p>The size of the largest set in the sequence increases in every step</p>",
+            "<p>The process always terminates</p>",
+            "<p>The process terminates if \\( U \\) is finite but might not if \\( U \\) is infinite</p>",
+            "<p>There is a finite collection of subsets of a finite universe \\( U \\) and a choice of \\( S_{i} \\) and \\( S_{j} \\) in each step such that the process does not terminate</p>"
+          ],
+          "correct_answer": "<p>The process always terminates</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20400/tifr-cse-2011-part-b-question-23\" target=\"_blank\">https://gateoverflow.in/20400/tifr-cse-2011-part-b-question-23</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"21007\"></a><div itemprop=\"text\"><p>How many pairs of sets \\( (A, B) \\) are there that satisfy the condition \\( A, B \\subseteq \\left\\{1, 2,...,5\\right\\}, A \\cap B = \\{\\}? \\)</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2012 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 125 \\)</p>",
+            "<p>\\( 127 \\)</p>",
+            "<p>\\( 130 \\)</p>",
+            "<p>\\( 243 \\)</p>",
+            "<p>\\( 257 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 243 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/21007/tifr-cse-2012-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/21007/tifr-cse-2012-part-a-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"97234\"></a><div itemprop=\"text\"><p>Let \\( A \\) and \\( B \\) be finite sets such that \\( A \\subseteq B \\). Then, what is the value of the expression:</p>\n\n<p>\\[  \\sum&nbsp;\\limits_{C:A \\subseteq C \\subseteq B} (-1)^{\\mid C \\setminus&nbsp;A \\mid,} \\]</p>\n\n<p>Where \\( C \\setminus A=\\{x \\in C : x \\notin A \\} \\)?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2016 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Always \\( 0 \\)</p>",
+            "<p>Always \\( 1 \\)</p>",
+            "<p>\\( 0 \\) if \\( A=B \\) and \\( 1 \\) otherwise</p>",
+            "<p>\\( 1 \\) if \\( A=B \\) and \\( 0 \\) otherwise</p>",
+            "<p>Depends on the size of the universe</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) if \\( A=B \\) and \\( 0 \\) otherwise</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/97234/tifr-cse-2016-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/97234/tifr-cse-2016-part-a-question-8</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"98014\"></a><div itemprop=\"text\"><p>Consider a family \\( \\mathcal{F} \\) of subsets of \\( \\{1, 2, \\dots , n\\} \\) such that for any two distinct sets \\( A \\) and \\( B \\) in \\( \\mathcal{F} \\) we have: \\( A \\subset B \\) or \\(  B \\subset A \\) or \\( A \\cap B = \\emptyset \\). Which of the following statements is TRUE? (Hint: what does the Venn diagram of this family look like?)</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2016 | Part B | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mid \\mathcal{F} \\mid \\leq 2n \\) and there exists a family \\( \\mathcal{F} \\) such that \\( \\mid&nbsp;\\mathcal{F} \\mid =2n \\)</p>",
+            "<p>\\( \\mid \\mathcal{F} \\mid \\leq n^2 \\)&nbsp;and there exists a family \\( \\mathcal{F} \\) such that \\( \\mid&nbsp;\\mathcal{F} \\mid =n^2 \\)</p>",
+            "<p>\\( \\mid \\mathcal{F} \\mid \\leq 2n^2 \\)&nbsp;and there exists a family \\( \\mathcal{F} \\) such that \\( \\mid&nbsp;\\mathcal{F} \\mid =2n^2 \\)</p>",
+            "<p>\\( \\mid \\mathcal{F} \\mid \\leq 2^{n-1} \\)&nbsp;and there exists a family \\( \\mathcal{F} \\) such that \\( \\mid&nbsp;\\mathcal{F} \\mid =2^{n-1} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\mid \\mathcal{F} \\mid \\leq 2n \\) and there exists a family \\( \\mathcal{F} \\) such that \\( \\mid&nbsp;\\mathcal{F} \\mid =2n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/98014/tifr-cse-2016-part-b-question-14\" target=\"_blank\">https://gateoverflow.in/98014/tifr-cse-2016-part-b-question-14</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"280509\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( X \\) be a set with \\( n \\) elements. How many subsets of \\( X \\) have odd cardinality?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2019 | Part A | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 2^n \\)</p>",
+            "<p>\\( 2^{n/2} \\)</p>",
+            "<p>\\( 2^{n-1} \\)</p>",
+            "<p>Can not be determined without knowing whether \\( n \\) is odd or even</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{n-1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280509/tifr-cse-2019-part-a-question-1\" target=\"_blank\">https://gateoverflow.in/280509/tifr-cse-2019-part-a-question-1</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"358959\"></a><div itemprop=\"text\"><p>Fix \\( n\\geq 6 \\). Consider the set \\( \\mathcal{C} \\) of binary strings \\( x_{1}, x_{2} \\dots x_{n} \\) of length \\( n \\) such that the bits satisfy the following set of equalities, all modulo \\( 2 \\): \\( x_{i}+x_{i+1}+x_{i+2}=0 \\) for all \\( 1\\leq i\\leq n-2, x_{n-1}+x_{n}+x_{1}=0, \\) and \\( x_{n}+x_{1}+x_{2}=0. \\) What is the size of the set \\( \\mathcal{C} \\)?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2021 | Part A | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\) for all \\( n\\geq 6 \\)</p>",
+            "<p>\\( 4 \\) for all \\( n\\geq 6 \\)</p>",
+            "<p>\\( 0 \\) for all \\( n\\geq 6 \\)</p>",
+            "<p>&nbsp;If \\( n\\geq 6 \\) is divisible by \\( 3 \\left |&nbsp;\\mathcal{C} \\right |=1 \\). If \\( n\\geq 6 \\) is \\( \\textit{not} \\) divisible by \\( 3 \\) then \\( \\left | \\mathcal{C} \\right |=4 \\).</p>",
+            "<p>If \\( n\\geq 6 \\) is divisible by \\( 3 \\) \\( \\left | \\mathcal{C} \\right |=4 \\). If \\( n\\geq 6 \\) is not divisible by \\( 3 \\) then \\( \\left | \\mathcal{C} \\right |=1 \\).</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358959/tifr-cse-2021-part-a-question-9\" target=\"_blank\">https://gateoverflow.in/358959/tifr-cse-2021-part-a-question-9</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"381941\"></a><div itemprop=\"text\"><p>Let \\( X \\) be a finite set. A family \\( \\mathcal{F} \\) of subsets of \\( X \\) is said to be <em>upward closed</em> if the following holds for all sets \\( A, B \\subseteq X \\) :</p>\n\n<p>\\[  A \\in \\mathcal{F} \\text { and } A \\subseteq B \\Rightarrow B \\in \\mathcal{F}. \\]</p>\n\n<p>For families \\( \\mathcal{F} \\) and \\( \\mathcal{G} \\) of subsets of \\( X \\), let</p>\n\n<p>\\[  \\mathcal{F} \\sqcup \\mathcal{G}=\\{A \\cup B: A \\in \\mathcal{F} \\text { and } B \\in \\mathcal{G}\\}. \\]</p>\n\n<p>Suppose \\( \\mathcal{F} \\) and \\( \\mathcal{G} \\) are upward closed families. Then which of the following is true?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2022 | Part A | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathcal{F} \\sqcup \\mathcal{G}=\\mathcal{F} \\cap \\mathcal{G} \\)</p>",
+            "<p>\\( \\mathcal{F} \\sqcup \\mathcal{G}=\\mathcal{F} \\cup \\mathcal{G} \\)</p>",
+            "<p>\\( \\mathcal{F} \\sqcup \\mathcal{G}=\\mathcal{F} \\backslash \\mathcal{G} \\)</p>",
+            "<p>\\( \\mathcal{F} \\sqcup \\mathcal{G}=\\mathcal{G} \\backslash \\mathcal{F} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathcal{F} \\sqcup \\mathcal{G}=\\mathcal{F} \\cap \\mathcal{G} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381941/tifr-cse-2022-part-a-question-11\" target=\"_blank\">https://gateoverflow.in/381941/tifr-cse-2022-part-a-question-11</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"381943\"></a><div itemprop=\"text\"><p>You are given the following properties of sets \\( A, B, X \\), and \\( Y \\). For notation, \\( |A| \\) denotes the cardinality of set \\( A \\) (i.e., the number of elements in \\( A \\) ), and \\( A \\backslash B \\) denotes the set of elements that are in \\( A \\) but not in \\( B \\).</p>\n\n<ol>\n\t<li>\\( A \\cup B=X \\cup Y \\)</li>\n\t<li>\\( A \\cap B=X \\cap Y=\\emptyset \\)</li>\n\t<li>\\( |Y \\backslash A|=2 \\)</li>\n\t<li>\\( |A \\backslash X|=4 \\)</li>\n</ol>\n\n<p>Which of the following statements \\( \\text{MUST} \\) then be \\( \\text{FALSE?} \\)</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2022 | Part A | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( |X|=5 \\)</p>",
+            "<p>\\( |Y|=5 \\)</p>",
+            "<p>\\( |A \\cup X|=|B \\cup Y| \\)</p>",
+            "<p>\\( |A \\cap X|=|B \\cap Y| \\)</p>",
+            "<p>\\( |A|=|B| \\)</p>"
+          ],
+          "correct_answer": "<p>\\( |Y|=5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381943/tifr-cse-2022-part-a-question-9\" target=\"_blank\">https://gateoverflow.in/381943/tifr-cse-2022-part-a-question-9</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"400133\"></a><div itemprop=\"text\"><p>Let \\( Q \\) be a set with \\( n \\) elements. Consider a system with states of the form \\( (S, R) \\) where \\( S \\subseteq Q \\) and \\( R \\subseteq Q \\), with the further restriction that \\( R \\subseteq S \\). Note that \\( (\\emptyset, \\emptyset) \\) is also a valid state of the system (here \\( \\emptyset \\) denotes the empty set). How many possible states does the system have?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2023 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3^{n} \\)</p>",
+            "<p>\\( 2^{n} \\)</p>",
+            "<p>\\( 4^{n} \\)</p>",
+            "<p>\\( n^{3} \\)</p>",
+            "<p>\\( \\left(\\begin{array}{l}n \\\\ 3\\end{array}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3^{n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400133/tifr-cse-2023-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/400133/tifr-cse-2023-part-a-question-10</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"400132\"></a><div itemprop=\"text\"><p>We are given a set \\( S=\\left\\{x_{1}, \\ldots, x_{n}\\right\\} \\) of distinct positive integers such that \\( \\operatorname{gcd}\\left(x_{i}, x_{j}\\right)= 1 \\) for any \\( i, j \\in\\{1, \\ldots, n\\} \\) where \\( i \\neq j \\). What is the total number of invertible \\( 2 \\times 2 \\) matrices whose entries are distinct elements from the set \\( S \\) ?</p>\n\n<p>\\( \\textbf{(Note:} \\) For positive integers \\( a \\) and \\( b, \\operatorname{gcd}(a, b) \\) denotes the greatest common divisor of \\( a \\) and \\( b) \\).</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2023 | Part A | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n^{4} \\)</p>",
+            "<p>\\( (n-1)^{4} \\)</p>",
+            "<p>\\( n^{2}(n-1)^{2} / 4 \\)</p>",
+            "<p>\\( n(n-1)(n-2)(n-3) \\)</p>",
+            "<p>\\( n(n-1)(n-2)(n-3) / 4 \\) !\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( n(n-1)(n-2)(n-3) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400132/tifr-cse-2023-part-a-question-11\" target=\"_blank\">https://gateoverflow.in/400132/tifr-cse-2023-part-a-question-11</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"473098\"></a><div itemprop=\"text\"><p>How many subsets of \\( \\{1,2, \\ldots, 2 n\\} \\) do not contain two numbers with sum \\( 2 n+1? \\)</p></div><br><br><b>Set Theory & Algebra: TIFR CSE 2025 | Part A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3^{n}+\\binom{2 n}{2} \\)</p>",
+            "<p>\\( 3^{n} \\)</p>",
+            "<p>\\( 4^{n}-\\binom{2 n}{2} \\)</p>",
+            "<p>\\( 2^{n} \\)</p>",
+            "<p>None of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 3^{n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473098/tifr-cse-2025-part-a-question-15\" target=\"_blank\">https://gateoverflow.in/473098/tifr-cse-2025-part-a-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

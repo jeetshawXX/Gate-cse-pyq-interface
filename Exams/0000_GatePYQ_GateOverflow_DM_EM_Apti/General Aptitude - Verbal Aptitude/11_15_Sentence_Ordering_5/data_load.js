@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Sentence Ordering",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Sentence Ordering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"399248\"></a><div itemprop=\"text\"><p>Which one of the following sentence sequences creates a coherent narrative?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Once on the terrace, on her way to her small room in the corner, she notices the man right away.</li>\n\t<li>She begins to pant by the time she has climbed all the stairs.</li>\n\t<li>Mina has bought vegetables and rice at the market, so her bags are heavy.</li>\n\t<li>He was leaning against the parapet, watching the traffic below.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i), (ii), (iv), (iii)</p>",
+            "<p>(ii), (iii), (i), (iv)</p>",
+            "<p>(iv), (ii), (i), (iii)</p>",
+            "<p>(iii), (ii), (i), (iv)</p>"
+          ],
+          "correct_answer": "<p>(iii), (ii), (i), (iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399248/gate-cse-2023-ga-question-8\" target=\"_blank\">https://gateoverflow.in/399248/gate-cse-2023-ga-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"422901\"></a><div itemprop=\"text\"><p>​​​​​Sequence the following sentences in a coherent passage.</p><p><br>\\( \\text{P} \\): This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of \\( 4 \\mathrm{~km} \\) across the contact zone.<br><br>\\( \\text{Q} \\): Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature.</p><p>\\( \\mathrm{R} \\) : The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth's atmosphere and making it better suited for life.<br><br>\\( \\text{S} \\): Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate.</p></div><br><br><b>GATE CSE 2024 | Set 2 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{QPSR} \\)</p>",
+            "<p>\\( \\text{QSPR} \\)</p>",
+            "<p>\\( \\text{SPRQ} \\)</p>",
+            "<p>\\( \\text{SRPQ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{SPRQ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422901/gate-cse-2024-set-2-ga-question-6\" target=\"_blank\">https://gateoverflow.in/422901/gate-cse-2024-set-2-ga-question-6</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"426529\"></a><div itemprop=\"text\"><p>​Sequence the following sentences \\( (\\mathrm{P}, \\mathrm{Q}, \\mathrm{R}, \\mathrm{S}) \\) in a coherent passage:<br><br>\\( \\text{P} \\): Shifu's student exclaimed, \"Why do you run since the bull is an illusion?\"<br><br>\\( \\text{Q} \\): Shifu said, \"Surely my running away from the bull is also an illusion.\"</p><p>\\( \\mathrm{R} \\) : Shifu once proclaimed that all life is illusion.<br><br>\\( \\text{S} \\): One day, when a bull gave him chase, Shifu began running for his life.</p><p>&nbsp;</p></div><br><br><b>GATE ECE 2024 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{SPRQ} \\)</p>",
+            "<p>\\( \\text{SRPQ} \\)</p>",
+            "<p>\\( \\text{RSPQ} \\)</p>",
+            "<p>\\( \\text{RPQS} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{RSPQ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426529/gate-ece-2024-ga-question-6\" target=\"_blank\">https://gateoverflow.in/426529/gate-ece-2024-ga-question-6</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411812\"></a><div itemprop=\"text\"><p>Which one of the sentence sequences in the given options creates a coherent narrative?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>I could not bring myself to knock.</li>\n\t<li>There was a murmur of unfamiliar voices coming from the big drawing room and the door was firmly shut.</li>\n\t<li>The passage was dark for a bit, but then it suddenly opened into a bright kitchen.</li>\n\t<li>I decided I would rather wander down the passage.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE Mechanical 2023 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(iv), (i), (iii), (ii)} \\)</p>",
+            "<p>\\( \\text{(iii), (i), (ii), (iv)} \\)</p>",
+            "<p>\\( \\text{(ii), (i), (iv), (iii)} \\)</p>",
+            "<p>\\( \\text{(i), (iii), (ii), (iv)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(ii), (i), (iv), (iii)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411812/gate-mechanical-2023-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411812/gate-mechanical-2023-ga-question-8</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"39520\"></a><div itemprop=\"text\"><p>In the following question, the first and the last sentence of the passage are in order and numbered 1 and 6. The rest of the passage is split into 4 parts and numbered as 2, 3, 4, and 5. These 4 parts are not arranged in proper order. Read the sentences and arrange them in a logical sequence to make a passage and choose the correct sequence from the given options.</p>\n\n<ol>\n\t<li>On Diwali, the family rises early in the morning.</li>\n\t<li>The whole family, including the young and the old enjoy doing this.</li>\n\t<li>Children let off fireworks later in the night with their friends.</li>\n\t<li>At sunset, the lamps are lit and the family performs various rituals.</li>\n\t<li>Father, mother, and children visit relatives and exchange gifts and sweets.</li>\n\t<li>Houses look so pretty with lighted lamps all around.</li>\n</ol>\n\n</div><br><br><b>GATE2015 EC-3: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2,5,3,4 \\)</p>",
+            "<p>\\( 5,2,4,3 \\)</p>",
+            "<p>\\( 3,5,4,2 \\)</p>",
+            "<p>\\( 4,5,2,3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5,2,4,3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39520/gate2015-ec-3-ga-7\" target=\"_blank\">https://gateoverflow.in/39520/gate2015-ec-3-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

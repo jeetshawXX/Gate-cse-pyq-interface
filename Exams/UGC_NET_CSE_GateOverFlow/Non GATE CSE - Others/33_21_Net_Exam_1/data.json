@@ -1,0 +1,21 @@
+{
+  "title": "Non GATE CSE - Others - Net Exam",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Net Exam",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"120523\"></a><div itemprop=\"text\">Can someone please tell what's the use of giving UGC NET in computer science after doing MTech and have given GATE in CSE?<br>\n<br>\nWhat benefits will NET give when applying for Phd or as an assistant professor?<br>\n<br>\nWhat is the requirement of NET? I am currently in 1st year MTech, AFAIK we are eligible only if we are in final year MTECH(ie 2nd year) is this right?</div><br><br><b>Others: Information regarding UGC NET</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/120523/information-regarding-ugc-net\" target=\"_blank\">https://gateoverflow.in/120523/information-regarding-ugc-net</a></p>"
+        }
+      ]
+    }
+  ]
+}

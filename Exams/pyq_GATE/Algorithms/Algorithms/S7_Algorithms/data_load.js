@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithms - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of elements that can be sorted in \\(\\Theta (log n)\\) time using heap sort is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (1)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (\\sqrt{logn})\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (\\frac{log n}{log log n})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (\\frac{log n}{log log n})\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1541/gate2013-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete\ngraph of n vertices? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n^{2} log n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{3})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{3} log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (n^{3})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1441/gate2013-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following statements are TRUE? <br>\n1. The problem of determining whether there exists a cycle in an undirected graph is in P. <br>\n2. The problem of determining whether there exists a cycle in an undirected graph is in NP. <br>\n3. If a problem A is NP-Complete, there exists a non-deterministic polynomial time algorithm\nto solve A. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2 and 3</p>",
+            "<b>B.</b> <p>1 and 2 only</p>",
+            "<b>C.</b> <p>2 and 3 only</p>",
+            "<b>D.</b> <p>1 and 3 only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1, 2 and 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1440/gate2013-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following is the tightest upper bound that represents the number of swaps\nrequired to sort n numbers using selection sort? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(log n)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>O(n log n)</p>",
+            "<b>D.</b> <p>\\(O(n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1415/gate2013-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the directed graph shown in the figure below. There are multiple shortest paths between\nvertices S and T. Which one will be reported by Dijkstra's shortest path algorithm? Assume that, in\nany iteration, the shortest path to a vertex v is updated only when a strictly shorter path to v is\ndiscovered <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q40_17a15b5c.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SDT</p>",
+            "<b>B.</b> <p>SBDT</p>",
+            "<b>C.</b> <p>SACDT</p>",
+            "<b>D.</b> <p>SACET</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>SACET</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1765/gate2012-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A list of n strings, each of length n, is sorted into lexicographic order using the merge-sort\nalgorithm. The worst case running time of this computation is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O (n log n)</p>",
+            "<b>B.</b> <p>O (\\(n^{2} log n\\))</p>",
+            "<b>C.</b> <p>O (\\(n^{2}+ log n\\))</p>",
+            "<b>D.</b> <p>O (\\(n^{2}\\))</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O (\\(n^{2} log n\\))</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1762/gate2012-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let G be a weighted graph with edge weights greater than one and G' be the graph constructed by\nsquaring the weights of edges in G. Let T and T' be the minimum spanning trees of G and G',\nrespectively, with total weights t and t'. Which of the following statements is TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T' = T with total weight  \\(t' = t^{2}\\)</p>",
+            "<b>B.</b> <p>T' = T with total weight  \\(t' \\lt  t^{2}\\)</p>",
+            "<b>C.</b> <p>T' \\(\\neq\\) T but total weight  \\(t' = t^{2}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/786/gate2012-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let W(n) and A(n) denote respectively, the worst case and average case running time of an\nalgorithm executed on an input of size n. Which of the following is ALWAYS TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A(n)=\\(\\Omega\\)(W(n))</p>",
+            "<b>B.</b> <p>A(n) =\\(\\Theta\\)(W(n))</p>",
+            "<b>C.</b> <p>A(n) =O(W(n))</p>",
+            "<b>D.</b> <p>A(n) = o(W(n))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A(n) =O(W(n))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50/gate2012-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The recurrence relation capturing the optimal execution time of the Towers of Hanoi problem with n discs is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n) = 2T(n - 2) + 2</p>",
+            "<b>B.</b> <p>T(n) = 2T(n - 1) + n</p>",
+            "<b>C.</b> <p>T(n) = 2T(n/2) + 1</p>",
+            "<b>D.</b> <p>T(n) = 2T(n - 1) + 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>T(n) = 2T(n - 1) + 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48/gate2012-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Assuming P \\(\\neq\\) NP, which of the following is TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>NP-complete = NP</p>",
+            "<b>B.</b> <p>NP-complete \\(\\cap\\) P = \\(\\phi\\)</p>",
+            "<b>C.</b> <p>NP-hard = NP</p>",
+            "<b>D.</b> <p>P = NP-complete</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>NP-complete \\(\\cap\\) P = \\(\\phi\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/36/gate2012-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>An undirected graph G(V, E) contains n (n\\(&gt;\\)2) nodes named v1 , v2 ,...,vn. Two nodes vi , vj are connected if and only if 0\\(\\lt \\)|i-j|\\(\\leq\\)2.  Each edge (vi,vj ) is assigned a weight i+j. A sample graph with n=4 is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q52_bdf780ad.jpg\"> <br>The length of the path from v5 to v6 in the MST of previous question with n = 10 is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>31</p>",
+            "<b>D.</b> <p>41</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>31</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43325/gate2011-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>An undirected graph G(V, E) contains n (n\\(&gt;\\)2) nodes named v1 , v2 ,...,vn. Two nodes vi , vj are connected if and only if 0\\(\\lt \\)|i-j|\\(\\leq\\)2.  Each edge (vi,vj ) is assigned a weight i+j. A sample graph with n=4 is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q52_bdf780ad.jpg\"> <br> What will be the cost of the minimum spanning tree (MST) of such a graph with n nodes? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{12}(11n^{2}-5n)\\)</p>",
+            "<b>B.</b> <p>\\(n^{2}-n+1\\)</p>",
+            "<b>C.</b> <p>6n-11</p>",
+            "<b>D.</b> <p>2n+1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(n^{2}-n+1\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2162/gate2011-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Four matrices M1, M2, M3 and M4 are dimensions p x q, q x r, r x s and s x t\nrespectively can be multiplied in several ways with different number of total\nscalar multiplications. For example When multiplied as \\(((M_{1} \\times  M_{2})\\times (M_{3}\\times M_{4})\\) the total number of scalar multiplications is pqr+rst+prt. When multiplied as \\((((M_{1}\\times M_{2})\\times M_{3})\\times M_{4})\\) , the total number of scalar multiplications is pqr+prs+pst.\nIf p=10, q=100, r=20, s=5 and t=80, then the minimum number of scalar\nmultiplications needed is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>248000</p>",
+            "<b>B.</b> <p>44000</p>",
+            "<b>C.</b> <p>19000</p>",
+            "<b>D.</b> <p>25000</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>19000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2140/gate2011-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the given options provides the increasing order of asymptotic\ncomplexityoffunctions f1, f2, f3 and f4?<br><br> \\(f_{1}(n)=2^{n};\\) <br> \\(f_{2}(n)=n^{3/2}; \\) <br> \\( f_{3}(n)=nlog_{2}n; \\) <br> \\( f_{4}(n)=n^{log_{2}n}\\) <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f_3, f_2, f_4, f_1\\)</p>",
+            "<b>B.</b> <p>\\(f_3, f_2, f_1, f_4\\)</p>",
+            "<b>C.</b> <p>\\(f_2, f_3, f_1, f_4\\)</p>",
+            "<b>D.</b> <p>\\(f_2, f_3, f_4, f_1\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f_3, f_2, f_4, f_1\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2139/gate2011-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array A[0 :n-1] is given below. <br>\nLet Li denote the length of the longest monotonically increasing sequence starting at index i in the array <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q12_7de407b3.jpg\"> <br>Which of the following statements is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The algorithm uses dynamic programming paradigm</p>",
+            "<b>B.</b> <p>The algorithm has a linear complexity and uses branch and bound paradigm</p>",
+            "<b>C.</b> <p>The algorithm has a non-linear polynomial complexity and uses branch and\nbound paradigm</p>",
+            "<b>D.</b> <p>The algorithm uses divide and conquer paradigm.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The algorithm uses dynamic programming paradigm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2127/gate2011-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

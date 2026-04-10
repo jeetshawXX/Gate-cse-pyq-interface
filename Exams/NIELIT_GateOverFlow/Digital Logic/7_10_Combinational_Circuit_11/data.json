@@ -1,0 +1,176 @@
+{
+  "title": "Digital Logic - Combinational Circuit",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Combinational Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336534\"></a><div itemprop=\"text\"><p><img alt=\"\" height=\"160\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10893634375200457630\" width=\"489\"></p>\n\n<p>The Circuit is equivalent to:</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( OR \\) Gate</p>",
+            "<p>\\( NOR \\) Gate</p>",
+            "<p>\\( AND \\) Gate</p>",
+            "<p>\\( EX-OR \\) Gate</p>"
+          ],
+          "correct_answer": "<p>\\( NOR \\) Gate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336534/nielit-2016-dec-scientist-b-cs-section-b-4\" target=\"_blank\">https://gateoverflow.in/336534/nielit-2016-dec-scientist-b-cs-section-b-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336665\"></a><div itemprop=\"text\"><p><img alt=\"\" height=\"141\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=9059631705401909164\" width=\"429\"></p>\n\n<p>The Circuit is equivalent to:</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>EX-OR Gate</p>",
+            "<p>NAND Gate</p>",
+            "<p>OR Gate</p>",
+            "<p>AND Gate</p>"
+          ],
+          "correct_answer": "<p>NAND Gate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336665/nielit-2016-dec-scientist-b-it-section-b-4\" target=\"_blank\">https://gateoverflow.in/336665/nielit-2016-dec-scientist-b-it-section-b-4</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336731\"></a><div itemprop=\"text\"><p>Disadvantage of dynamic RAM over static RAM is</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>higher power consumption.</p>",
+            "<p>variable speed.</p>",
+            "<p>need to refresh the capacitor charge every once in two milliseconds.</p>",
+            "<p>higher bit density.</p>"
+          ],
+          "correct_answer": "<p>variable speed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336731/nielit-2016-mar-scientist-b-section-c-10\" target=\"_blank\">https://gateoverflow.in/336731/nielit-2016-mar-scientist-b-section-c-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336734\"></a><div itemprop=\"text\"><p>How many RAM chips of size \\( (256K&nbsp;\\times&nbsp;1 \\text{ bit}) \\) are required to build \\( 1 \\)M Byte&nbsp;memory?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 32 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 32 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336734/nielit-2016-mar-scientist-b-section-c-7\" target=\"_blank\">https://gateoverflow.in/336734/nielit-2016-mar-scientist-b-section-c-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336356\"></a><div itemprop=\"text\"><p>To make the following circuit a tautology ‘?’ marked box should be</p>\n\n<p><img alt=\"\" height=\"117\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=2227758516754702751\" width=\"392\"></p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>OR gate</p>",
+            "<p>AND gate</p>",
+            "<p>NAND gate</p>",
+            "<p>EX-OR gate</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336356/nielit-2017-july-scientist-b-cs-section-b-19\" target=\"_blank\">https://gateoverflow.in/336356/nielit-2017-july-scientist-b-cs-section-b-19</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336355\"></a><div itemprop=\"text\"><p>In&nbsp;the following gate network which gate is redundant?</p><p><img alt=\"\" width=\"500\" height=\"243\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17568303553170949365\"></p></div><br><br><b>Digital Logic: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Gate no.\\( 1 \\)</p>",
+            "<p>Gate no.\\( 2 \\)</p>",
+            "<p>Gate no.\\( 3 \\)</p>",
+            "<p>Gate no.\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>Gate no.\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336355/nielit-2017-july-scientist-b-cs-section-b-20\" target=\"_blank\">https://gateoverflow.in/336355/nielit-2017-july-scientist-b-cs-section-b-20</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336354\"></a><div itemprop=\"text\"><p>The combinational circuit given below is implemented with two NAND gates. To which of the following individual gates is its equivalent?</p><p><img alt=\"\" height=\"65\" width=\"465\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17979848868518559823\"></p></div><br><br><b>Digital Logic: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>NOT</p>",
+            "<p>OR</p>",
+            "<p>AND</p>",
+            "<p>XOR</p>"
+          ],
+          "correct_answer": "<p>AND</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336354/nielit-2017-july-scientist-b-cs-section-b-21\" target=\"_blank\">https://gateoverflow.in/336354/nielit-2017-july-scientist-b-cs-section-b-21</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"336386\"></a><div itemprop=\"text\"><p>Which one of the following is true?</p></div><br><br><b>Digital Logic: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>NAND gate and AND gate both are universal gates</p>",
+            "<p>NOR gate and OR gate both are universal gates</p>",
+            "<p>NAND gate and OR gate both are universal gates</p>",
+            "<p>NAND gate and NOR gate both are universal gates</p>"
+          ],
+          "correct_answer": "<p>NAND gate and NOR gate both are universal gates</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336386/nielit-2017-july-scientist-b-it-section-b-49\" target=\"_blank\">https://gateoverflow.in/336386/nielit-2017-july-scientist-b-it-section-b-49</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"275491\"></a><div itemprop=\"text\"><p>Minimum ____ full adders and ____ half adders are required by the BCD adder to add two decimal digits.</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3,2 \\)</p>",
+            "<p>\\( 9,4 \\)</p>",
+            "<p>\\( 6,5 \\)</p>",
+            "<p>\\( 5,2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5,2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275491/nielit-2018-73\" target=\"_blank\">https://gateoverflow.in/275491/nielit-2018-73</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"351349\"></a><div itemprop=\"text\"><p>Encodes are made by three ___________ gates.</p>\n\n</div><br><br><b>Digital Logic: NIELIT Scientific Assistant A 2020 November: 111</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{AND} \\)</p>",
+            "<p>\\( \\text{OR} \\)</p>",
+            "<p>\\( \\text{NAND} \\)</p>",
+            "<p>\\( \\text{XOR} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{OR} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351349/nielit-scientific-assistant-a-2020-november-111\" target=\"_blank\">https://gateoverflow.in/351349/nielit-scientific-assistant-a-2020-november-111</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"351407\"></a><div itemprop=\"text\"><p>How many \\( \\text{AND, OR} \\) and \\( \\text{XOR} \\) gates are required for implementation of full adder?</p>\n\n</div><br><br><b>Digital Logic: NIELIT Scientific Assistant A 2020 November: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,2,2 \\)</p>",
+            "<p>\\( 2,2,1 \\)</p>",
+            "<p>\\( 3,2,2 \\)</p>",
+            "<p>\\( 3,0,1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3,2,2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351407/nielit-scientific-assistant-a-2020-november-54\" target=\"_blank\">https://gateoverflow.in/351407/nielit-scientific-assistant-a-2020-november-54</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Software Testing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Testing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378716\"></a><div itemprop=\"text\"><p>Maintenance testing is performed using which methodology?</p>\n\n</div><br><br><b>Others: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Breadth test and depth test</p>",
+            "<p>Sanity testing</p>",
+            "<p>Retesting</p>",
+            "<p>Confirmation testing</p>"
+          ],
+          "correct_answer": "<p>Breadth test and depth test</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378716/nielit-2021-dec-scientist-b-section-b-47\" target=\"_blank\">https://gateoverflow.in/378716/nielit-2021-dec-scientist-b-section-b-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

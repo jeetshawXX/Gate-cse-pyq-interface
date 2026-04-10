@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Natural Language Processing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Natural Language Processing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56785\"></a><div itemprop=\"text\">\n<p>STRIPS addresses the problem of efficiently representing and implementation of a planner. It is not related to which one of the following?&nbsp;</p>\n\n\n</div><br><br><b>Others: UGC NET CSE | June 2014 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SHAKEY&nbsp;</p>",
+            "<p>SRI</p>",
+            "<p>NLP</p>",
+            "<p>None of these&nbsp;</p>"
+          ],
+          "correct_answer": "<p>NLP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56785/ugc-net-cse-june-2014-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/56785/ugc-net-cse-june-2014-part-3-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

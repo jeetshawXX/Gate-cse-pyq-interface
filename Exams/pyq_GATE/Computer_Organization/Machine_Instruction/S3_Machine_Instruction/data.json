@@ -1,0 +1,206 @@
+{
+  "title": "Machine_Instruction - Machine_Instruction - Slot 3",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Machine_Instruction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If we use internal data forwarding to speed up the performance of a CPU (R1, R2 and R3 are registers and M[100] is a memory reference), then the sequence of operations<br>\nR1 \\(\\rightarrow\\) M[100]<br>\nM[100] \\(\\rightarrow\\) R2<br>\nM[100] \\(\\rightarrow\\) R3<br>\ncan be replaced by <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R1 \\(\\rightarrow\\) R3\nR2 \\(\\rightarrow\\) M[100]</p>",
+            "<b>B.</b> <p>M[100] \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R3</p>",
+            "<b>C.</b> <p>R1 \\(\\rightarrow\\) M[100]\nR2 \\(\\rightarrow\\) R3</p>",
+            "<b>D.</b> <p>R1 \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R3\nR1 \\(\\rightarrow\\) M[100]</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>R1 \\(\\rightarrow\\) R2\nR1 \\(\\rightarrow\\) R3\nR1 \\(\\rightarrow\\) M[100]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3689/gate2004-it-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers R1, R2 and R3.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q63_df1a4f4b.jpg\"> <br>  Let the clock cycles required fro various operations be as follows:<br><br>\nRegister to/from memory transfer : 3 clock cycles<br>\nADD with both operands in register : 1 clock cycle<br>\nInstruction fetch and decode : 2 clock cycles per word<br><br>\nThe total number of clock cycles required to execute the program is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>29</p>",
+            "<b>B.</b> <p>24</p>",
+            "<b>C.</b> <p>23</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43570/gate2004-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers R1, R2 and R3. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q63_df1a4f4b.jpg\"> <br> Consider that the memory is byte addressable with size 32 bits, and the program has been loaded starting from memory location 1000 (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1007</p>",
+            "<b>B.</b> <p>1020</p>",
+            "<b>C.</b> <p>1024</p>",
+            "<b>D.</b> <p>1028</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1028</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1058/gate2004-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q48_464367e7.jpg\"> <br> Which of the following instructions when inserted at location X will ensure that\nthe value of register A after program execution is the same as its initial value? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RRC A,# 1</p>",
+            "<b>B.</b> <p>NOP ; no operation</p>",
+            "<b>C.</b> <p>LRC A, # 1 ; left rotate A through carry flag by one bit</p>",
+            "<b>D.</b> <p>ADD A, # 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RRC A,# 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43577/gate2003-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Machine_Instruction\\q48_464367e7.jpg\"> <br> If the initial value of register A is A0 the value of register B after the program\nexecution will be <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the number of 0 bits in A0</p>",
+            "<b>B.</b> <p>the number of 1 bits in A0</p>",
+            "<b>C.</b> <p>A0</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the number of 1 bits in A0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/938/gate2003-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What are the states of the Auxiliary Carry (AC) and Carry Flag (CY) after\nexecuting the following 8085 program ? <br><br>\nMIV H, 5DH <br>\nMIV L, 6BH <br>\nMOV A, H <br>\nADD L <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AC = 0 and CY = 0</p>",
+            "<b>B.</b> <p>AC = 1 and CY = 1</p>",
+            "<b>C.</b> <p>AC = 1 and CY = 0</p>",
+            "<b>D.</b> <p>AC = 0 and CY = 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>AC = 1 and CY = 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/834/gate2002-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In 8085 which of the following modifies the program counter ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only PCHL instruction</p>",
+            "<b>B.</b> <p>Only ADD instructions</p>",
+            "<b>C.</b> <p>Only JMP and CALL instructions</p>",
+            "<b>D.</b> <p>All instructions</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/814/gate2002-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>To put the 8085 microprocessor in the wait state <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower the HOLD input</p>",
+            "<b>B.</b> <p>lower the READY input</p>",
+            "<b>C.</b> <p>raise the HOLD input</p>",
+            "<b>D.</b> <p>raise the READY input</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>lower the READY input</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/630/gate2000-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically:<br>\na) has fewer instructions<br>\nb) has fewer addressing modes<br>\nc) has more registers<br>\nd) is easier to implement using hardwired control logic <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a and b</p>",
+            "<b>B.</b> <p>b and c</p>",
+            "<b>C.</b> <p>a and d</p>",
+            "<b>D.</b> <p>a, b, c and d</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c and d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1499/gate1999-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Contents of A register after the execution of the following 8085 microprocessor program is <br><pre><code>MVIA, 55 H\nMVI C, 25 H\nADDC\nDAA</code></pre> <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7AH</p>",
+            "<b>B.</b> <p>80H</p>",
+            "<b>C.</b> <p>50H</p>",
+            "<b>D.</b> <p>22H</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>80H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2253/gate1997-5-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Number of machine cycles required for RET instruction in 8085 microprocessor is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2726/gate1996-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose a processor does not have any stack pointer register. Which of the\nfollowing statements is true ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It cannot have subroutine call instruction</p>",
+            "<b>B.</b> <p>It can have subroutine call instruction, but no nested subroutine calls.</p>",
+            "<b>C.</b> <p>Nested subroutine calls are possible, but interrupts are not.</p>",
+            "<b>D.</b> <p>All sequences of subroutine calls and also interrupts are possible</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It can have subroutine call instruction, but no nested subroutine calls.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/703/gate2001-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The most relevant addressing mode to write position-independent codes is: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Direct mode</p>",
+            "<b>B.</b> <p>Indirect mode</p>",
+            "<b>C.</b> <p>Relative mode</p>",
+            "<b>D.</b> <p>Indexed mode</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relative mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80194/gate1987-1-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

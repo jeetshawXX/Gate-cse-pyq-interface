@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Html",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Html",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3279\"></a><div itemprop=\"text\"><p>Which of the following is TRUE only of XML but NOT HTML?</p>\n\n</div><br><br><b>Web Technologies: GATE IT 2008 | Question: 19, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is derived from SGML</p>",
+            "<p>It describes content and layout</p>",
+            "<p>It allows user defined tags</p>",
+            "<p>It is restricted only to be used with web browsers<br>\n\t&nbsp;</p>"
+          ],
+          "correct_answer": "<p>It allows user defined tags</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3279/gate-it-2008-question-19-isro2016-76\" target=\"_blank\">https://gateoverflow.in/3279/gate-it-2008-question-19-isro2016-76</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"52875\"></a><div itemprop=\"text\">\n<p>In HTML, which of the following can be considered a container?</p>\n\n\n</div><br><br><b>Web Technologies: ISRO CSE 2011 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&lt;SELECT&gt;</p>",
+            "<p>&lt;Value&gt;</p>",
+            "<p>&lt;INPUT&gt;</p>",
+            "<p>&lt;BODY&gt;</p>"
+          ],
+          "correct_answer": "<p>&lt;BODY&gt;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52875/isro-cse-2011-question-75\" target=\"_blank\">https://gateoverflow.in/52875/isro-cse-2011-question-75</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"128492\"></a><div itemprop=\"text\"><p>Choose the most appropriate HTML tag in the following to create a numbered list</p>\n\n</div><br><br><b>Web Technologies: ISRO CSE 2017 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&lt;dl&gt;</p>",
+            "<p>&lt;list&gt;</p>",
+            "<p>&lt;ul&gt;</p>",
+            "<p>&lt;ol&gt;</p>"
+          ],
+          "correct_answer": "<p>&lt;ol&gt;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128492/isro-cse-2017-question-75\" target=\"_blank\">https://gateoverflow.in/128492/isro-cse-2017-question-75</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"51707\"></a><div itemprop=\"text\">\n<p>To add a background color for all &lt;h1&gt; elements, which of the following HTML syntax is used</p>\n\n\n</div><br><br><b>Web Technologies: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>h1 { background-color :#FFFFFF}</p>",
+            "<p>{ background-color :#FFFFFF} . h1</p>",
+            "<p>h1 { background-color :#FFFFFF} . h1(all)</p>",
+            "<p>h1. all{bgcolor= #FFFFFF}</p>"
+          ],
+          "correct_answer": "<p>h1 { background-color :#FFFFFF}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51707/isro2015-45\" target=\"_blank\">https://gateoverflow.in/51707/isro2015-45</a></p>"
+        }
+      ]
+    }
+  ]
+});

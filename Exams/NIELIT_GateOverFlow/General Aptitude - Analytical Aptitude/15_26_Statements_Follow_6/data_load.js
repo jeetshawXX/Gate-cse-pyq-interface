@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Statements Follow",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Statements Follow",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373676\"></a><div itemprop=\"text\"><p>It is \\( 8.00 \\; \\text{p.m.,} \\) when can Hemant get next bus for Ramnagar from Dhanpur ?</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>Buses for Ramnagar leave after every \\( 30 \\) minutes, till \\( 10 \\; \\text{p.m.} \\)</li>\n\t<li>Fifteen minutes ago, one bus has left for Ramnagar.</li>\n</ol>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If the data in statement \\( \\text{I} \\) alone are sufficient to answer the question.</p>",
+            "<p>If the data in statement \\( \\text{II} \\) alone are sufficient to answer the question.</p>",
+            "<p>If the data either in&nbsp;\\( \\text{I} \\) or&nbsp;\\( \\text{II} \\) alone are sufficient to answer the question.</p>",
+            "<p>If the data in both the statements together are needed.</p>"
+          ],
+          "correct_answer": "<p>If the data in both the statements together are needed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373676/nielit-2022-april-scientist-b-section-a-question-42\" target=\"_blank\">https://gateoverflow.in/373676/nielit-2022-april-scientist-b-section-a-question-42</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351146\"></a><div itemprop=\"text\"><p>Two statements followed by four conclusions numbered from (I) to (IV) are given. You have to take the two statements to be true even if these seem to be at variance from the commonly known facts. Read all the conclusions and decide which of the given conclusions logically follow from the two given statements disregarding commonly known facts.</p>\n\n<ul>\n\t<li>\\( \\text{All Shoes are Socks} \\).</li>\n\t<li>\\( \\text{Some Socks are Gloves} \\).</li>\n</ul>\n\n<p>\\( \\text{Conclusions:} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Some Shoes are Gloves</li>\n\t<li>Some Socks are Shoes</li>\n\t<li>All Gloves are Shoes</li>\n\t<li>No Shoes are Gloves</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only (I) follows</p>",
+            "<p>Only (II) follows</p>",
+            "<p>Only (III) follows</p>",
+            "<p>Only (IV) follows</p>"
+          ],
+          "correct_answer": "<p>Only (II) follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351146/nielit-scientific-assistant-a-2020-november-5\" target=\"_blank\">https://gateoverflow.in/351146/nielit-scientific-assistant-a-2020-november-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351145\"></a><div itemprop=\"text\"><p>Two statements followed by four conclusions numbered from (I) to (IV) are given. You have to take the two statements to be true even if these seem to be at variance from the commonly known facts. Read all the conclusions and decide which of the given conclusions logically follow from the two given statements disregarding commonly known facts.</p>\n\n<ul>\n\t<li>\\( \\text{All Boys are Girls.} \\)</li>\n\t<li>\\( \\text{No Girl is a Man.} \\)</li>\n</ul>\n\n<p>\\( \\text{Conclusions:} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>No Boy is a Man</li>\n\t<li>Some Boys are Man</li>\n\t<li>All Girls are Boys</li>\n\t<li>Some Man are Boys</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only (III) follows</p>",
+            "<p>Only (I) follows</p>",
+            "<p>All follows</p>",
+            "<p>None follows</p>"
+          ],
+          "correct_answer": "<p>Only (I) follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351145/nielit-scientific-assistant-a-2020-november-6\" target=\"_blank\">https://gateoverflow.in/351145/nielit-scientific-assistant-a-2020-november-6</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351144\"></a><div itemprop=\"text\"><p>Two statements followed by four conclusions numbered from (I) to (IV) are given. You have to take the two statements to be true even if these seem to be at variance from the commonly known facts. Read all the conclusions and decide which of the given conclusions logically follow from the two given statements disregarding commonly known facts.</p>\n\n<ul>\n\t<li>\\( \\text{All Sentences are Words} \\)</li>\n\t<li>\\( \\text{All Words are Alphabets} \\)</li>\n</ul>\n\n<p>\\( \\text{Conclusions:} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>All Words are sentences</li>\n\t<li>All Sentences are alphabets</li>\n\t<li>All alphabets are words</li>\n\t<li>Some alphabets are words</li>\n</ol>\n\n<p>&nbsp;</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only (I)&nbsp; and (III) follows</p>",
+            "<p>Only (II) , (III) and (IV) follows</p>",
+            "<p>Only (II) and (IV) follows</p>",
+            "<p>All follows</p>"
+          ],
+          "correct_answer": "<p>Only (II) and (IV) follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351144/nielit-scientific-assistant-a-2020-november-7\" target=\"_blank\">https://gateoverflow.in/351144/nielit-scientific-assistant-a-2020-november-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"351142\"></a><div itemprop=\"text\"><p>Refer the statement and solve the question according to the conclusions.</p>\n\n<p>\\( \\text{Statement:} \\)</p>\n\n<ul>\n\t<li>\\( \\text{Some Pigeons are Bird;} \\)</li>\n\t<li>\\( \\text{Some Birds are Alive} \\)</li>\n</ul>\n\n<p>\\( \\text{Conclusion:} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Some Pigeons are Alive</li>\n\t<li>Some Birds are Pigeons</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only (I) follows</p>",
+            "<p>Only (II) follows</p>",
+            "<p>Both (I) &amp; (II) follows</p>",
+            "<p>None follows</p>"
+          ],
+          "correct_answer": "<p>Only (II) follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351142/nielit-scientific-assistant-a-2020-november-9\" target=\"_blank\">https://gateoverflow.in/351142/nielit-scientific-assistant-a-2020-november-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"351259\"></a><div itemprop=\"text\"><p>In the following question below are given three statements followed by three conclusions numbered \\( \\text{I,II and III} \\)</p>\n\n<p>You have to take the two statements to be true even if they seem to be at variance from the commonly known facts. Read all the conclusions and then decide which of the given conclusions logically follow from the two given statements, disregarding commonly known facts.</p>\n\n<p>\\( \\text{Statements:} \\)</p>\n\n<p>Some pigeons are eagles.</p>\n\n<p>All eagles are sparrows.</p>\n\n<p>Some sparrows are not pigeons.</p>\n\n<p>\\( \\text{Conclusions:} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Some sparrows are pigeons.</li>\n\t<li>All pigeons are sparrows.</li>\n\t<li>All eagles are pigeons.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( I \\) follows</p>",
+            "<p>Only \\( II \\) follows</p>",
+            "<p>Only \\( III \\) follows&nbsp;</p>",
+            "<p>Both \\( I \\) and \\( III \\) follows</p>"
+          ],
+          "correct_answer": "<p>Only \\( I \\) follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351259/nielit-scientist-b-2020-november-12\" target=\"_blank\">https://gateoverflow.in/351259/nielit-scientist-b-2020-november-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

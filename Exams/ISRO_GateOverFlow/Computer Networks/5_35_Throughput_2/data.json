@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Throughput",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Throughput",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435352\"></a><div itemprop=\"text\"><p>A host in one org other organisation using another host with \\( 25 \\) m sec RTT. Network \\( 1 \\) Gbps link of this network tuned the administrator \\( 1000 \\) bytes to transfer large packet size to files optimally ovel utilisation \\( &gt;96 \\% \\), how big to have chann (in terms of packets) should window size (assuming ACK packets have no be (assuming ACK pals impact)?</p></div><br><br><b>Computer Networks: ISRO CSE 2023 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2000 \\) packets</p>",
+            "<p>\\( 2400 \\) packets</p>",
+            "<p>\\( 3000 \\) packets</p>",
+            "<p>\\( 4000 \\) packets<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 3000 \\) packets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435352/isro-cse-2023-question-44\" target=\"_blank\">https://gateoverflow.in/435352/isro-cse-2023-question-44</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182086\"></a><div itemprop=\"text\"><p>Station \\( A \\) uses \\( 32-byte \\) packets to transmit messages to Station \\( B \\) using a sliding window protocol.<br>\nThe round trip time delay between \\( A \\) and \\( B \\) is \\( 40\\,ms \\) and the bottleneck bandwidth on the path<br>\n\\( A \\) and \\( B \\) is \\( 64\\, kbps. \\)What is the optimal window size that \\( A \\) should use?</p>\n\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 80 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182086/isro-dec2017-36\" target=\"_blank\">https://gateoverflow.in/182086/isro-dec2017-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

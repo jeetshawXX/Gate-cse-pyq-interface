@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Rsa Public Key",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Rsa Public Key",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60031\"></a><div itemprop=\"text\">\n<p>Using the RSA public key crypto system, if p=13, q=31 and d=7, then the value of e is</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2013 | Part 2 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>101</p>",
+            "<p>103</p>",
+            "<p>105</p>",
+            "<p>107</p>"
+          ],
+          "correct_answer": "<p>103</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60031/ugc-net-cse-december-2013-part-2-question-5\" target=\"_blank\">https://gateoverflow.in/60031/ugc-net-cse-december-2013-part-2-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

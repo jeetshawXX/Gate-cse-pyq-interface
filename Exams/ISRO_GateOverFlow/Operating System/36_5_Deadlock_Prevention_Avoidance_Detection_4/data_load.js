@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Operating System - Deadlock Prevention Avoidance Detection",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Deadlock Prevention Avoidance Detection",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18583\"></a><div itemprop=\"text\"><p>When a process is rolled back as a result of deadlock the difficulty which arises is</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2009 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Starvation</p>",
+            "<p>System throughput</p>",
+            "<p>Low device utilization</p>",
+            "<p>Cycle stealing</p>"
+          ],
+          "correct_answer": "<p>Starvation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18583/isro-cse-2009-question-77\" target=\"_blank\">https://gateoverflow.in/18583/isro-cse-2009-question-77</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"213567\"></a><div itemprop=\"text\">\n\n<p>Consider a system having \\( m \\) resources of the same type. These resources are shared by \\( 3 \\) processes \\( A, B, C, \\) which have peak time demands of \\( 3, 4, 6 \\) respectively. The minimum value of \\( m \\) that ensures that deadlock will never occur is:</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213567/isro-cse-2018-question-21\" target=\"_blank\">https://gateoverflow.in/213567/isro-cse-2018-question-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"331251\"></a><div itemprop=\"text\"><p>An aid to determine the deadlock occurrence is</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2020 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>resource allocation graph</p>",
+            "<p>starvation graph</p>",
+            "<p>inversion graph</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "<p>resource allocation graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331251/isro-cse-2020-question-29\" target=\"_blank\">https://gateoverflow.in/331251/isro-cse-2020-question-29</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"182114\"></a><div itemprop=\"text\"><p>Which of the following is not true with respect to deadlock prevention and deadlock avoidance schemes?</p>\n\n</div><br><br><b>Operating System: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In deadlock prevention, the request for resources is always granted if resulting state is safe.</p>",
+            "<p>In deadlock avoidance, the request for resources is always granted. if the resulting state is safe.</p>",
+            "<p>Deadlock avoidance requires knowledge of resource requirements a priori.</p>",
+            "<p>Deadlock prevention is more restrictive than deadlock avoidance.</p>"
+          ],
+          "correct_answer": "<p>In deadlock prevention, the request for resources is always granted if resulting state is safe.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182114/isro-dec2017-64\" target=\"_blank\">https://gateoverflow.in/182114/isro-dec2017-64</a></p>"
+        }
+      ]
+    }
+  ]
+});

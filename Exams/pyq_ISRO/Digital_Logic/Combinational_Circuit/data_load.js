@@ -1,0 +1,191 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Combinational_Circuit",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Combinational_Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following circuit<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q77_a8d99d4d.jpg\"><br>  The function by the network above is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{A B} E+E F+\\overline{C D} F\\)</p>",
+            "<b>B.</b> <p>\\((\\bar{E}+A B \\bar{F})(C+D+\\bar{F})\\)</p>",
+            "<b>C.</b> <p>\\((\\overline{A B}+E)(\\bar{E}+\\bar{F})(C+D+\\bar{F})\\)</p>",
+            "<b>D.</b> <p>\\((A+B) \\bar{E}+\\overline{E F}+C D \\bar{F}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\bar{E}+A B \\bar{F})(C+D+\\bar{F})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331309/isro2020-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Following Multiplexer circuit is equivalent to<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q10_9ef75cf4.jpg\"><br> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sum equation of full adder</p>",
+            "<b>B.</b> <p>Carry equation of full adder</p>",
+            "<b>C.</b> <p>Borrow equation for full subtractor</p>",
+            "<b>D.</b> <p>Difference equation of a full subtractor</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sum equation of full adder</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331299/isro2020-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In a 8-bit ripple carry adder using identical full adders, each full adder takes 34 ns for computing sum. If the time taken for 8-bit addition is 90 ns, find time taken by each full adder to find carry. <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6  ns</p>",
+            "<b>B.</b> <p>7 ns</p>",
+            "<b>C.</b> <p>10 ns</p>",
+            "<b>D.</b> <p>8 ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>8 ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331294/isro2020-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The circuit given in the figure below is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q13_3e8c97a6.jpg\"><br> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An oscillating circuit and its output is square wave</p>",
+            "<b>B.</b> <p>The one whose output remains stable in '1' state</p>",
+            "<b>C.</b> <p>The one having output remains stable in '0' state</p>",
+            "<b>D.</b> <p>has a single pulse of three times propagation delay</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>An oscillating circuit and its output is square wave</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55965/isro2016-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The logic circuit given below converts a binary code y1, y2, y3 into<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q12_4469eeb2.jpg\"><br> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Excess-3 code</p>",
+            "<b>B.</b> <p>Gray code</p>",
+            "<b>C.</b> <p>BCD code</p>",
+            "<b>D.</b> <p>Hamming code</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Gray code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56070/isro2016-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For a binary half-subtractor having two inputs A and B, the correct set of logical outputs D(=A minus B) and X(=borrow) are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(D=AB+\\bar{A}B, X=\\bar{A}B\\)</p>",
+            "<b>B.</b> <p>\\(D=\\bar{A}B+A\\bar{B}, X=A\\bar{B}\\)</p>",
+            "<b>C.</b> <p>\\(D=\\bar{A}B+A\\bar{B}, X=\\bar{A} B\\)</p>",
+            "<b>D.</b> <p>\\(D=AB+\\bar{A}B, X=A\\bar{B}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(D=\\bar{A}B+A\\bar{B}, X=\\bar{A} B\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55958/isro2016-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Minimum number of 2x1 multiplexers required to realize the following function, \\(f=\\bar{A} \\bar{B} C+\\bar{A} \\bar{B} \\bar{C}\\)<br>Assume that inputs are available only in true form and Boolean a constant 1 and 0 are available. <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50782/isro2015-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If half adders and full adders are implements using gates, then for the addition of two 17 bit numbers (using minimum gates) the number of half adders and full adders required will be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0,17</p>",
+            "<b>B.</b> <p>16,1</p>",
+            "<b>C.</b> <p>1,16</p>",
+            "<b>D.</b> <p>8,8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19462/isro2015-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>How many programmable fuses are required in a PLA which takes 16 inputs and gives 8 outputs? It has to use 8 OR gates and 32 AND gates. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1032</p>",
+            "<b>B.</b> <p>776</p>",
+            "<b>C.</b> <p>1284</p>",
+            "<b>D.</b> <p>1536</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1284</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43964/isro-2013-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>How many 3-to-8 line decoders with an enable input are needed to construct a 6-to-64 line decoder without using any other logic gates? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1206/gate2007-8-isro2011-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The logic operations of two combinational circuits in Figure-I and Figure -II are<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q26_7e078718.jpg\"><br> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>entirely different</p>",
+            "<b>B.</b> <p>identical</p>",
+            "<b>C.</b> <p>complementary</p>",
+            "<b>D.</b> <p>dual</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>entirely different</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49903/isro2008-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>How many 2-input multiplexers are required to construct a \\(2^{10}\\)-input multiplexer? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1023</p>",
+            "<b>B.</b> <p>31</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>127</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1023</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49891/isro2008-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

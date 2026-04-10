@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Data Mart",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Mart",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"67045\"></a><div itemprop=\"text\"><p>A data mart may contain</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2010 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Summarised data</p>",
+            "<p>De-normalized data</p>",
+            "<p>Aggregate departmental data</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67045/ugc-net-cse-december-2010-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/67045/ugc-net-cse-december-2010-part-2-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+}

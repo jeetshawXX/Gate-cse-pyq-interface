@@ -1,0 +1,216 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Avalanche effect in cryptography refers <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Large changes in cipher text when the keyword is changed minimally</p>",
+            "<b>B.</b> <p>Large changes in cipher text when the plain text is changed</p>",
+            "<b>C.</b> <p>Large Impact of keyword change to length of the cipher text</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Large changes in cipher text when the keyword is changed minimally</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331416/isro2020-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a columnar transportation cipher, the plain text is \"the tomato is a plant in the night shade family\", keyword is \"TOMATO\". The cipher text is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>",
+            "<b>B.</b> <p>\"TINESAX / EOAHTFX / MAIIAIX / HTLTHEY / TAPNGDL / OSTNHMX\"</p>",
+            "<b>C.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / OSTNHMX / TAPNGDL\"</p>",
+            "<b>D.</b> <p>\"EOAHTFX / TINESAX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331415/isro2020-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following classes of languages can validate an IPv4 address in dotted decimal format?<br> It is to be ensured that the decimal values lie between 0 and 255. <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RE and higher</p>",
+            "<b>B.</b> <p>CFG and higher</p>",
+            "<b>C.</b> <p>CSG and higher</p>",
+            "<b>D.</b> <p>Recursively enumerable language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RE and higher</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331449/isro2020-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a TCP connection between a client and a server with the following specifications; the round trip time is 6 ms, the size of the receiver advertised window is 50 KB, slow-start threshold at the client is 32 KB, and the maximum segment size is 2 KB. The connection is established at time t=0. Assume that there are no timeouts and errors during transmission. Then the size of the congestion window (in KB) at time t+60 ms after all acknowledgements are processed is _______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "44",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333176/gate2020-cs-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization? <br><br>I.  202.61.84.0/21<br>II.  202.61.104.0/21<br>III. 202.61.64.0/21<br>IV.  202.61.144.0/21 <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>III and IV only</p>",
+            "<b>D.</b> <p>I and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333193/gate2020-cs-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Assume that you have made a request for a web page through your web browser to a web server. Initially the browser cache is empty. Further, the browser is configured to send HTTP requests in non-persistent mode. The web page contains text and five very small images.The minimum number of TCP connections required to display the web page completely in your browser is__________. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333206/gate2020-cs-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following statements about the functionality of an IP based router.<br><br>\nI.    A router does not modify the IP packets during forwarding.<br>\nII.   It is not necessary for a router to implement any routing protocol.<br>\nIII.  A router should reassemble IP fragments if the MTU of the outgoing link is larger than the size of the incoming IP packet.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333216/gate2020-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In an RSA cryptosystem, the value of the public modulus parameter n is 3007. If it is also is known that \\(\\phi(n)=2880\\), where \\(\\phi()\\) denotes Euler's Totient Function, then the prime factors of n which is greater than 50 is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "97",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302794/gate2019-cs-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider that 15 machines need to be connected in a LAN using 8-port Ethernet switches. Assume that these switches do not have any separate up link ports. The minimum number of switches needed is ___________. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302799/gate2019-cs-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose that in an IP-over-Ethernet network, a machine X wishes to find the MAC address of another machine Y in its subnet. Which one of the following techniques can be used for this? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X sends an ARP request packet to the local gateway's IP address which then finds the  MAC address of Y and sends to X</p>",
+            "<b>B.</b> <p>X sends an ARP request packet to the local gateway's MAC address which then finds the MAC address of Y and sends to X</p>",
+            "<b>C.</b> <p>X sends an ARP request packet with broadcast MAC address in its local subnet</p>",
+            "<b>D.</b> <p>X sends an ARP request packet with broadcast IP address in its local subnet</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X sends an ARP request packet with broadcast MAC address in its local subnet</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302819/gate2019-cs-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider three machines M, N and P with IP addresses 100.10.5.2, 100.10.5.5 and 100.10.5.6 respectively. The subnet mask is set to 255.255.255.252 for all the three machines. Which one of the following is true? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>M, N and P all belong to the same subnet</p>",
+            "<b>B.</b> <p>Only M and N belong to the same subnet</p>",
+            "<b>C.</b> <p>Only N and P belong to the same subnet</p>",
+            "<b>D.</b> <p>M, N, and P belong to three different subnets</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only N and P belong to the same subnet</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302820/gate2019-cs-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following protocol pairs can be used to send and retrieve e-mails (in that order)? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IMAP POP3</p>",
+            "<b>B.</b> <p>SMTP, POP3</p>",
+            "<b>C.</b> <p>SMTP, MIME</p>",
+            "<b>D.</b> <p>IMAP, SMTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>SMTP, POP3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302832/gate2019-cs-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which one of the following algorithm is not used in asymmetric key cryptography? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RSA Algorithm</p>",
+            "<b>B.</b> <p>Gillie-Hellman Algorithm</p>",
+            "<b>C.</b> <p>Electronic Code Book Algorithm</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Electronic Code Book Algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213510/isro2018-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What is one advantage of setting up a DMZ (Demilitarized Zone) with two firewalls? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>You can control where traffic goes in the three networks</p>",
+            "<b>B.</b> <p>You can do statefull packet filtering</p>",
+            "<b>C.</b> <p>You can do load balancing</p>",
+            "<b>D.</b> <p>Improve network performance</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>You can control where traffic goes in the three networks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213511/isro2018-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Avalanche effect in cryptography <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is desirable property of cryptographic algorithm</p>",
+            "<b>B.</b> <p>Is undesirable property of cryptographic algorithm</p>",
+            "<b>C.</b> <p>Has no effect on encryption algorithm</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Is desirable property of cryptographic algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213514/isro2018-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

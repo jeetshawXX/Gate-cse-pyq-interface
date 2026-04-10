@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Binary Heap",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Heap",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57723\"></a><div itemprop=\"text\"><p>Suppose there are \\( \\log_n \\) sorted lists of \\( n \\log_n \\) element each. The time complexity of producing a sorted list&nbsp; of all these elements is (use heap data structure)</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2012 | Part 3 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (n \\log \\log_n) \\)</p>",
+            "<p>\\( \\theta (n \\log_n) \\)</p>",
+            "<p>\\( \\Omega (n \\log_n) \\)</p>",
+            "<p>\\( \\Omega (n^{3/2}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O (n \\log \\log_n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57723/ugc-net-cse-december-2012-part-3-question-51\" target=\"_blank\">https://gateoverflow.in/57723/ugc-net-cse-december-2012-part-3-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+}

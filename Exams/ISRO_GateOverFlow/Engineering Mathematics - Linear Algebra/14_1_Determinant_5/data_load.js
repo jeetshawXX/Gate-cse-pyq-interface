@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Determinant",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Determinant",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"47590\"></a><div itemprop=\"text\"><p>If the two matrices&nbsp;\\( \\begin{bmatrix} 1 &amp;0 &amp;x \\\\ 0 &amp; x&amp; 1\\\\ 0 &amp; 1 &amp; x \\end{bmatrix} \\) and&nbsp;\\( \\begin{bmatrix} x &amp;1 &amp;0 \\\\ x &amp; 0&amp; 1\\\\ 0 &amp; x &amp; 1 \\end{bmatrix} \\) have the same determinant, then the value of \\( x \\) is &nbsp;</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2008 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( \\sqrt2 \\)</p>",
+            "<p>\\( \\pm&nbsp;\\frac{1}{2} \\)</p>",
+            "<p>\\( \\pm \\frac{1}{\\sqrt2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47590/isro-cse-2008-question-31\" target=\"_blank\">https://gateoverflow.in/47590/isro-cse-2008-question-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50503\"></a><div itemprop=\"text\"><p>If two adjacent rows of a determinant are interchanged, the value of the determinant</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2009 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>becomes zero</p>",
+            "<p>remains unaltered</p>",
+            "<p>becomes infinitive</p>",
+            "<p>becomes negative of its original value</p>"
+          ],
+          "correct_answer": "<p>becomes negative of its original value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50503/isro-cse-2009-question-60\" target=\"_blank\">https://gateoverflow.in/50503/isro-cse-2009-question-60</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"50506\"></a><div itemprop=\"text\"><p>If \\( \\begin{vmatrix} 3 &amp;&amp; 3 \\\\ x &amp;&amp; 5 \\end{vmatrix} =3 \\) then the value of \\( x \\) is</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2009 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50506/isro-cse-2009-question-61\" target=\"_blank\">https://gateoverflow.in/50506/isro-cse-2009-question-61</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"48079\"></a><div itemprop=\"text\"><p>\\( \\begin{vmatrix} 265 &amp;&amp; 240 &amp;&amp; 219 \\\\ 240 &amp;&amp; 225 &amp;&amp; 198 \\\\ 219 &amp;&amp; 198 &amp;&amp; 181 \\\\ \\end{vmatrix}&nbsp;=  \\)</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2009 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 779 \\)</p>",
+            "<p>\\( 679 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 256 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48079/isro-cse-2009-question-63\" target=\"_blank\">https://gateoverflow.in/48079/isro-cse-2009-question-63</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"435366\"></a><div itemprop=\"text\"><p>Given \\( P \\) is a matrix \\( =\\left(\\begin{array}{llll}3 &amp; 2 &amp; 1 &amp; 4 \\\\ 4 &amp; 0 &amp; 3 &amp; 1 \\\\ 6 &amp; 4 &amp; 2 &amp; 8 \\\\ 2 &amp; 5 &amp; 1 &amp; 3\\end{array}\\right) \\)<br><br>If \\( \\operatorname{det}|\\mathrm{P}| \\) denotes the determinant of matrix \\( P \\), then which of the following is true:</p></div><br><br><b>Linear Algebra: ISRO CSE 2023 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\operatorname{det}|\\mathrm{P}| \\) is indeterminate</p>",
+            "<p>\\( \\operatorname{det}|\\mathrm{P}| \\) is negative</p>",
+            "<p>\\( \\operatorname{det}|\\mathrm{P}|=0 \\)</p>",
+            "<p>None of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435366/isro-cse-2023-question-30\" target=\"_blank\">https://gateoverflow.in/435366/isro-cse-2023-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

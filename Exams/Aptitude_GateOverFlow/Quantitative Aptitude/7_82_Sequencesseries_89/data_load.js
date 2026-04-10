@@ -1,0 +1,1071 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Sequencesseries",
+  "duration": 246,
+  "sections": [
+    {
+      "name": "Sequencesseries",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4303\"></a><div itemprop=\"text\"><p>The fourth term of an arithmetic progression is 8. What is the sum of the first 7 terms of the arithmetic progression?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 67</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>7</p>",
+            "<p>64</p>",
+            "<p>56</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4303/cat-1994-question-67\" target=\"_blank\">https://aptitude.gateoverflow.in/4303/cat-1994-question-67</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1195\"></a><div itemprop=\"text\"><p>If \\( a_1 = 1 \\) and \\( a_{n+1} = 2a_{n + 5}, n = 1, 2, \\dots , \\) then \\( a_{100} \\) is equal to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (5 × 2^99 – 6) \\)</p>",
+            "<p>\\( (5 × 2^99 + 6) \\)</p>",
+            "<p>\\( (6 × 2^99 + 5) \\)</p>",
+            "<p>\\( (6 × 2^99 – 5) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1195/cat-2000-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/1195/cat-2000-question-58</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1196\"></a><div itemprop=\"text\"><p>What is the value of the following expression?</p>\n\n<p>\\( \\frac{1}{2^2 -1} + \\frac{1}{4^2 -1} + \\frac{1}{6^2 -1} + \\dots + \\frac{1}{20^2 -1} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{9}{19} \\)</p>",
+            "<p>\\( \\frac{10}{19} \\)</p>",
+            "<p>\\( \\frac{10}{21} \\)</p>",
+            "<p>\\( \\frac{11}{21} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1196/cat-2000-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/1196/cat-2000-question-59</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1298\"></a><div itemprop=\"text\"><p>For a Fibonacci sequence, from the third term onwards, each term in the sequence is the sum of the previous two terms in that sequence. If the difference in squares of seventh and sixth terms of this sequence is \\( 517, \\) what is the tenth term of this sequence?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 147 \\)</p>",
+            "<p>\\( 76 \\)</p>",
+            "<p>\\( 123 \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1298/cat-2001-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/1298/cat-2001-question-30</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1092\"></a><div itemprop=\"text\"><p>A student finds the sum \\( 1 + 2 +&nbsp;3 + \\dots  \\) as his patience runs out. He found the sum as \\( 575. \\) When the teacher declared the result wrong, the student realized that he missed a number. What was the number the student missed?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1092/cat-2002-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/1092/cat-2002-question-77</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1021\"></a><div itemprop=\"text\"><p>The \\( 288 \\)-th term of the series \\( a,b,b,c,c,c,d,d,d,d,e,e,e,e,e,f,f,f,f,f,f, \\dots \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( u \\)</p>",
+            "<p>\\( v \\)</p>",
+            "<p>\\( w \\)</p>",
+            "<p>\\( x \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1021/cat-2003-question-1-128\" target=\"_blank\">https://aptitude.gateoverflow.in/1021/cat-2003-question-1-128</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2008\"></a><div itemprop=\"text\"><p>Consider the sets \\( T_n = \\{n, n + 1, n + 2, n + 3, n + 4\\} \\), where \\( n = 1, 2, 3,\\dots,&nbsp;96. \\) How many of these sets contain \\( 6 \\) or any integral multiple thereof (i.e., any one of the numbers \\( 6, 12, 18, \\dots)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 81 \\)</p>",
+            "<p>\\( 82 \\)</p>",
+            "<p>\\( 83 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2008/cat-2003-question-2-70\" target=\"_blank\">https://aptitude.gateoverflow.in/2008/cat-2003-question-2-70</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"871\"></a><div itemprop=\"text\"><p>Consider the sequence of the numbers \\( a_1, a_2, a_3, \\dots \\) to infinity where \\( a_1 = 81.33 \\) and \\( a_2 = -19 \\), and \\( a_j = a_{j-1} - a_{j-2} \\) for \\( j \\geq 3 \\). What is the sum of the first \\( 6002 \\) terms of this sequence?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( -100.33 \\)</p>",
+            "<p>\\( -30.00 \\)</p>",
+            "<p>\\( 62.33 \\)</p>",
+            "<p>\\( 119.33 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/871/cat-2004-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/871/cat-2004-question-66</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"760\"></a><div itemprop=\"text\"><p>If \\( a_1 =1 \\) and \\( a_{n+1}-3a_n +2 = 4n \\) for every positive integer n then \\( a_{100} \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3^{99} - 200 \\)</p>",
+            "<p>\\( 3^{99} + 200 \\)</p>",
+            "<p>\\( 3^{100} - 200 \\)</p>",
+            "<p>\\( 3^{100} + 200 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/760/cat-2005-question-14\" target=\"_blank\">https://aptitude.gateoverflow.in/760/cat-2005-question-14</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"727\"></a><div itemprop=\"text\"><p>Consider the sequence where the \\( n^{\\text{th}} \\) term \\( t_n = \\frac{n}{n+2}, n=1, 2, \\dots. \\) The value of \\( t_3 \\times t_4 \\times t_5 \\times \\dots \\times t_{53} \\) equals:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2/495 \\)</p>",
+            "<p>\\( 2/477 \\)</p>",
+            "<p>\\( 12/55 \\)</p>",
+            "<p>\\( 1/1485 \\)</p>",
+            "<p>\\( 1/2970 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/727/cat-2006-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/727/cat-2006-question-55</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"577\"></a><div itemprop=\"text\"><p><strong>Directions for the below question:</strong></p>\n\n<p>Let \\( S \\) be the set of all pairs \\( (i, j) \\) where \\(  1 \\leq i \\leq j &lt; n \\) and \\( n \\geq 4 \\). Any two distinct number of \\( S \\) are called ‘friends’ if they have one constituent of the pairs in common and ‘enemies’ otherwise. For example, if \\( n=4 \\), then \\( S=\\{ (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4) \\} \\). Here, \\( (1, 2) \\) and \\( (1, 3) \\) are friends, \\( (1, 2), (2, 3) \\) are also friends, but \\( (1, 4) \\) and \\( (2, 3) \\)&nbsp;are enemies.</p>\n\n<p>For general, \\( n \\) how many enemies will each member of \\( S \\) have?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 04</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( n-3 \\)</p>",
+            "<p>\\( \\frac{1}{2} (n^2 – 3n -2) \\)</p>",
+            "<p>\\( 2n-7 \\)</p>",
+            "<p>\\( \\frac{1}{2} (n^2 – 5n +6) \\)</p>",
+            "<p>\\( \\frac{1}{2} (n^2 – 7n + 14) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/577/cat-2007-question-04\" target=\"_blank\">https://aptitude.gateoverflow.in/577/cat-2007-question-04</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1921\"></a><div itemprop=\"text\"><p><strong>Directions for the below question:</strong></p>\n\n<p>Let \\( S \\) be the set of all pairs \\( (i, j) \\) where \\(  1 \\leq i \\leq j &lt; n \\) and \\( n \\geq 4 \\). Any two distinct number of \\( S \\) are called ‘friends’ if they have one constituent of the pairs in common and ‘enemies’ otherwise. For example, if \\( n=4 \\), then \\( S=\\{ (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4) \\} \\). Here, \\( (1, 2) \\) and \\( (1, 3) \\) are friends, \\( (1, 2), (2, 3) \\) are also friends, but \\( (1, 4) \\) and \\( (2, 3) \\) are enemies.</p>\n\n<p>For general \\( n \\), consider any two members of \\( S \\) that are friends. How many other members of \\( S \\) will be common friends of both these members?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 05</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{2} (n^2 – 5n +8) \\)</p>",
+            "<p>\\( 2n-6 \\)</p>",
+            "<p>\\( \\frac{1}{2} n(n – 3) \\)</p>",
+            "<p>\\( n-2 \\)</p>",
+            "<p>\\( \\frac{1}{2} (n^2 – 7n + 16) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1921/cat-2007-question-05\" target=\"_blank\">https://aptitude.gateoverflow.in/1921/cat-2007-question-05</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"509\"></a><div itemprop=\"text\"><p>Find the sum \\( \\sqrt{1+ \\frac{1}{1^2} + \\frac{1}{2^2} } + \\sqrt{1+ \\frac{1}{2^2} + \\frac{1}{3^2} } + \\dots &nbsp;+ \\sqrt{1+ \\frac{1}{2007^2} + \\frac{1}{2008^2} } \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 08</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2008 - \\frac{1}{2008} \\)</p>",
+            "<p>\\( 2007 - \\frac{1}{2007} \\)</p>",
+            "<p>\\( 2007 - \\frac{1}{2008} \\)</p>",
+            "<p>\\( 2008 - \\frac{1}{2007} \\)</p>",
+            "<p>\\( 2008 - \\frac{1}{2009} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/509/cat-2008-question-08\" target=\"_blank\">https://aptitude.gateoverflow.in/509/cat-2008-question-08</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"512\"></a><div itemprop=\"text\"><p>The number of common terms in the two sequences \\( 17, 21, 25,\\dots,417 \\) and \\( 16, 21 26,\\dots,466 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 78 \\)</p>",
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/512/cat-2008-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/512/cat-2008-question-12</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"5542\"></a><div itemprop=\"text\"><p>Let \\( \\text{S}_n \\) denote the sum of the squares of the first \\( n \\) odd natural numbers. If \\( \\text{S}_n=533n, \\) find the value of \\( n \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 30 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5542/cat-2011-question-9\" target=\"_blank\">https://aptitude.gateoverflow.in/5542/cat-2011-question-9</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"5056\"></a><div itemprop=\"text\"><p>Consider a sequence \\( \\text{S} \\) whose \\( n \\)th term&nbsp;\\( T_{n} \\) is defined as&nbsp;\\( 1+\\frac{3}{n} \\), where&nbsp;\\( n=1,2, \\dots \\). Find the product of all the consecutive terms of \\( \\text{S} \\) starting from the \\( 4 \\)th&nbsp;term to the \\( 60 \\)th&nbsp;term.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1980.50 \\)</p>",
+            "<p>\\( 1985.55 \\)</p>",
+            "<p>\\( 1990.55 \\)</p>",
+            "<p>\\( 1975.55 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5056/cat-2012-question-1\" target=\"_blank\">https://aptitude.gateoverflow.in/5056/cat-2012-question-1</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"929\"></a><div itemprop=\"text\"><p>Let \\( a_{n+1}= 2 a_{n}+1 ({n}=0, 1, 2,\\dots) \\) and \\( a_{0}=0 \\). Then \\( a_{10} \\) nearest to.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1023 \\)</p>",
+            "<p>\\( 2047 \\)</p>",
+            "<p>\\( 4095 \\)</p>",
+            "<p>\\( 8195 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/929/cat-2014-question-45\" target=\"_blank\">https://aptitude.gateoverflow.in/929/cat-2014-question-45</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"965\"></a><div itemprop=\"text\"><p>Direction for questions: Answer the questions based on the following information. A series \\( S_{1} \\) of five positive integers is such that the third term is half the first term and the fifth term is \\( 20 \\) more than the first term. In series \\( S_{2} \\), the \\( n \\)th term defined as the difference between the \\( (n+1) \\) term and the \\( n^{th} \\) term of series \\( S_{1} \\), is an arithmetic progression with a common difference of \\( 30 \\).&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>First term of \\( S_{1} \\)&nbsp;is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 80 \\)&nbsp;</p>",
+            "<p>\\( 90 \\)&nbsp;</p>",
+            "<p>\\( 100 \\)&nbsp;</p>",
+            "<p>\\( 120 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/965/cat-2014-question-47-48-49-50\" target=\"_blank\">https://aptitude.gateoverflow.in/965/cat-2014-question-47-48-49-50</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"5685\"></a><div itemprop=\"text\"><p>If \\( a_1=1 \\) and \\( a_{n+1}-3a_n+2=4n \\) for every positive integer \\( n \\), then \\( a_{100} \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3^{99}-200 \\)</p>",
+            "<p>\\( 3^{99}+200 \\)</p>",
+            "<p>\\( 3^{100}-200 \\)</p>",
+            "<p>\\( 3^{100}+200 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5685/cat-2016-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/5685/cat-2016-question-83</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"5422\"></a><div itemprop=\"text\">If \\( a_{1}+a_{2}+a_{3}+\\dots+a_{n}=3(2^{n+1}-2) \\), for every \\( n\\geq 1 \\), then \\( a_{11} \\) equals ______</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6144",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5422/cat-2019-set-1-question-89\" target=\"_blank\">https://aptitude.gateoverflow.in/5422/cat-2019-set-1-question-89</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"6172\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( a_{1},a_{2}\\dots \\) be integers such that&nbsp;\\( a_{1}-a_{2}+a_{3}-a_{4}+\\dots+(-1)^{n-1}a_{n}=n \\), for all&nbsp;\\( n\\geq 1 \\) Then&nbsp;\\( a_{51}+a_{52}+\\dots+a_{1023} \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6172/cat-2019-set-2-question-80\" target=\"_blank\">https://aptitude.gateoverflow.in/6172/cat-2019-set-2-question-80</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"8367\"></a><div itemprop=\"text\"><p>If \\( x_{0} = 1, x_{1} = 2 \\) and \\( x_{n+2} = \\dfrac{1 + x_{n+1}}{x_{n}}, n = 0, 1, 2, 3, \\dots , \\) then \\( x_{2021} \\) is equal to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8367/cat-2021-set-1-quantitative-aptitude-question-14\" target=\"_blank\">https://aptitude.gateoverflow.in/8367/cat-2021-set-1-quantitative-aptitude-question-14</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"8448\"></a><div itemprop=\"text\"><p>For a sequence of real numbers \\( x_{1}, x_{2}, \\dots , x_{n}, \\) if \\( x_{1} – x_{2} + x_{3} – \\dots + (-1)^{n+1} x_{n} = n^{2} + 2n \\) for all natural numbers \\( n, \\) then the sum \\( x_{49} + x_{50} \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( -2 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( -200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8448/cat-2021-set-2-quantitative-aptitude-question-5\" target=\"_blank\">https://aptitude.gateoverflow.in/8448/cat-2021-set-2-quantitative-aptitude-question-5</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"8518\"></a><div itemprop=\"text\"><p>Consider a sequence of real numbers \\( x_{1}, x_{2}, x_{3}, \\dots&nbsp;&nbsp; \\) such that \\( x_{n+1} = x_{n} + n –&nbsp;1 \\) for all \\( n&nbsp;\\geq&nbsp;1. \\) If \\( x_{1} = -1 \\) then \\( x_{100} \\) is equal to&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4950 \\)</p>",
+            "<p>\\( 4850 \\)</p>",
+            "<p>\\( 4849 \\)</p>",
+            "<p>\\( 4949 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4850 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8518/cat-2021-set-3-quantitative-aptitude-question-1\" target=\"_blank\">https://aptitude.gateoverflow.in/8518/cat-2021-set-3-quantitative-aptitude-question-1</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"3418\"></a><div itemprop=\"text\"><p>\\( 22^{22} * 33^{33} * 44^{44} * 55^{55} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: Find the last digit of the product</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>3</p>",
+            "<p>2</p>",
+            "<p>1</p>",
+            "<p>0</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3418/find-the-last-digit-of-the-product\" target=\"_blank\">https://aptitude.gateoverflow.in/3418/find-the-last-digit-of-the-product</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"2503\"></a><div itemprop=\"text\">The series S is in G.P with common ratio r. A new series is formed whose nth term is sum of (n+1)th term and nth term of series S . what is common ratio of the new series ?<br>\n<br>\n1) r-1<br>\n<br>\n2)r+1<br>\n<br>\n3)r<br>\n<br>\n4) The new series is not in G.P.<br>\n<br>\nhere G.P Is geometric progression</div><br><br><b>Quantitative Aptitude: Geometric progression</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2503/geometric-progression\" target=\"_blank\">https://aptitude.gateoverflow.in/2503/geometric-progression</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"6339\"></a><div itemprop=\"text\"><p>Which number pair comes next in the series?</p>\n\n<p>\\( 4\\:7\\:26\\:10\\:13\\:20\\:16 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14\\:4 \\)</p>",
+            "<p>\\( 14\\:17 \\)</p>",
+            "<p>\\( 18\\:14 \\)</p>",
+            "<p>\\( 19\\:14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19\\:14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6339/nielit-2017-july-scientist-b-section-a-33\" target=\"_blank\">https://aptitude.gateoverflow.in/6339/nielit-2017-july-scientist-b-section-a-33</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"6672\"></a><div itemprop=\"text\"><p>The sum of the squares of the fifth and the eleventh term of an AP is \\( 3 \\) and the product of the second and fourteenth term is equal to \\( x \\). Find the product of the first and fifteenth term of an AP.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{(58x-39)}{45} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{(98x-39)}{72} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{(116x-39)}{90} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{(98x-39)}{90} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6672/nielit-2019-feb-scientist-c-section-d-14\" target=\"_blank\">https://aptitude.gateoverflow.in/6672/nielit-2019-feb-scientist-c-section-d-14</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"6664\"></a><div itemprop=\"text\"><p>If&nbsp;\\( S_1,S_2,S_3,\\dots\\dots,S_m \\) are the sum of first \\( n \\) terms of \\( m \\) arithmetic progressions, whose first terms&nbsp; are \\( 1,4,9,16,\\dots,m^{2} \\) and common differences are&nbsp;\\( 1,2,3,4,\\dots m \\) respectively, then the value of&nbsp;\\( S_1+S_2+S_3+\\dots \\dots +S_m \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{mn(m+1)}{2} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{mn(2m+1)}{3} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{mn[3(m+1)+1]}{6} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{mn(m+1)(4m+3n-1)}{12} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6664/nielit-2019-feb-scientist-c-section-d-22\" target=\"_blank\">https://aptitude.gateoverflow.in/6664/nielit-2019-feb-scientist-c-section-d-22</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"6681\"></a><div itemprop=\"text\"><p>The value of&nbsp;\\( \\dfrac{1}{6}+\\dfrac{1}{12}+\\dfrac{1}{20}+ \\dots \\dots \\dots+\\dfrac{1}{90} \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{5}\\\\ \\)</p>",
+            "<p>\\( \\dfrac{2}{5} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{3}{5} \\\\ \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{2}{5} \\\\ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6681/nielit-2019-feb-scientist-c-section-d-5\" target=\"_blank\">https://aptitude.gateoverflow.in/6681/nielit-2019-feb-scientist-c-section-d-5</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"6794\"></a><div itemprop=\"text\"><p>Of the three numbers, the sum of the first two is \\( 45 \\); the sum of the second and third is \\( 55 \\) and the sum of the third and thrice the first is \\( 90 \\). The third number is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 35 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6794/nielit-2019-feb-scientist-d-section-c-29\" target=\"_blank\">https://aptitude.gateoverflow.in/6794/nielit-2019-feb-scientist-d-section-c-29</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"6814\"></a><div itemprop=\"text\"><p>The greatest number of four digits which is divisible by each one of the numbers \\( 12 \\), \\( 18 \\), \\( 21 \\) &amp; \\( 28 \\), is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 9848 \\)</p>",
+            "<p>\\( 9864 \\)</p>",
+            "<p>\\( 9828 \\)</p>",
+            "<p>\\( 9636 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6814/nielit-2019-feb-scientist-d-section-c-9\" target=\"_blank\">https://aptitude.gateoverflow.in/6814/nielit-2019-feb-scientist-d-section-c-9</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"6841\"></a><div itemprop=\"text\"><p>The value of the following expression :</p>\n\n<p>\\( \\left [ \\frac{1}{2^{2}-1} \\right ]+\\left [ \\frac{1}{4^{2}-1} \\right ]+\\left [ \\frac{1}{6^{2}-1} \\right ]+\\dots\\dots+\\left [ \\frac{1}{20^{2}-1} \\right ] \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{10}{21} \\)</p>",
+            "<p>\\( \\frac{13}{27} \\)</p>",
+            "<p>\\( \\frac{15}{22} \\)</p>",
+            "<p>\\( \\frac{22}{15} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6841/nielit-2019-feb-scientist-d-section-d-12\" target=\"_blank\">https://aptitude.gateoverflow.in/6841/nielit-2019-feb-scientist-d-section-d-12</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"6840\"></a><div itemprop=\"text\"><p>Find the value of the expression \\( 1-6+2-7+3-8+\\dots\\dots \\) to \\( 100 \\) terms.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( -250 \\)</p>",
+            "<p>\\( -500 \\)</p>",
+            "<p>\\( -450 \\)</p>",
+            "<p>\\( -300 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6840/nielit-2019-feb-scientist-d-section-d-13\" target=\"_blank\">https://aptitude.gateoverflow.in/6840/nielit-2019-feb-scientist-d-section-d-13</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"6837\"></a><div itemprop=\"text\"><p>The sum of first \\( n \\) terms of an \\( A.P \\). whose first term is \\( \\pi \\) is zero. The sum of next \\( m \\) terms is :</p>\n\n\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n</ol></div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{ \\pi m \\left(m+n \\right)}{n-1} \\)</p>",
+            "<p>\\( \\frac{ \\pi n&nbsp;\\left(m+n \\right)}{1-n} \\)</p>",
+            "<p>\\( \\frac{ \\pi m \\left(m+n \\right)}{1-n} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6837/nielit-2019-feb-scientist-d-section-d-16\" target=\"_blank\">https://aptitude.gateoverflow.in/6837/nielit-2019-feb-scientist-d-section-d-16</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"2946\"></a><div itemprop=\"text\"><p>What is the value of \\( \\frac{77!*(77!-2*54!)^{3}}{(77!+54!)^{3}}+\\frac{54!*(2*77!-54!)^{3}}{(77!+54!)^3} \\)<br>\na. 77! - 54!<br>\nb. 77! + 54!<br>\nc. 77!<sup>2</sup> - 54!<sup>2</sup><br>\nd. 77!</p></div><br><br><b>Quantitative Aptitude: arun sharma pdf</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2946/arun-sharma-pdf\" target=\"_blank\">https://aptitude.gateoverflow.in/2946/arun-sharma-pdf</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"3004\"></a><div itemprop=\"text\">Complete the numerical sequence by replacing the question mark with the correct numbers.<br>\n<br>\n5+3+2 = 151022<br>\n9+2+4 = 183652<br>\n8+6+3 = 482466<br>\n5+4+5 = 202541<br>\n9+5+5 = ??????</div><br><br><b>Quantitative Aptitude: missing number</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3004/missing-number\" target=\"_blank\">https://aptitude.gateoverflow.in/3004/missing-number</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"3028\"></a><div itemprop=\"text\">What are some easy ways to understand and approach number series</div><br><br><b>Quantitative Aptitude: number series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3028/number-series\" target=\"_blank\">https://aptitude.gateoverflow.in/3028/number-series</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"2983\"></a><div itemprop=\"text\">30, 34, 43, 59, 84, 120,?<br>\n(1) 169<br>\n(2) 148<br>\n(3) 153<br>\n(4) 176<br>\n(5) None of these</div><br><br><b>Quantitative Aptitude: number series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2983/number-series\" target=\"_blank\">https://aptitude.gateoverflow.in/2983/number-series</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"2998\"></a><div itemprop=\"text\">What number comes next in this sequence:<br>\n7 8 5 5 3 4 4 ?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2998/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2998/series</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"2999\"></a><div itemprop=\"text\">Complete the series: 11, 31, 69, 131, 223, ?<br>\n<br>\na) 257 b) 351 c) 349 d) 231</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2999/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2999/series</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"3038\"></a><div itemprop=\"text\">6, 12, 21, ? , 48<br>\nA. &nbsp;33<br>\nB. &nbsp;39<br>\nC. &nbsp;36<br>\nD. &nbsp;31<br>\nE. &nbsp;None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3038/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3038/series</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"2997\"></a><div itemprop=\"text\">Find the next number in the series ?<br>\n1 10 24 43 67 ?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2997/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2997/series</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"3021\"></a><div itemprop=\"text\">Look at this series: 7, 10, 8, 11, 9, 12... What number should come next?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3021/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3021/series</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"3012\"></a><div itemprop=\"text\">18 14 12 4 2 ?<br>\n(a) 0<br>\n(b) 10<br>\n(c) 4<br>\n(d) –10<br>\n(e) –5</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3012/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3012/series</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"3022\"></a><div itemprop=\"text\">Find out the wrong number in the series: 3, 8, 15, 24,34,48,63.</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3022/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3022/series</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"3026\"></a><div itemprop=\"text\">Look at this series: VI, 10, V, 11, __, 12, III, ... What number should fill the blank?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3026/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3026/series</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"3025\"></a><div itemprop=\"text\">Look at this series: F2, __, D8, C16, B32, ... What number should fill the blank?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3025/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3025/series</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"3024\"></a><div itemprop=\"text\">Find out the wrong one in the series 7, 8,18,57,228,1165,6996.</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3024/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3024/series</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"3027\"></a><div itemprop=\"text\">589245773, 89245773, 8924577, 924577, ?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3027/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3027/series</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"3039\"></a><div itemprop=\"text\">18, 22, 30, ? ,78, 142<br>\nA. &nbsp;44<br>\nB. &nbsp;35<br>\nC. &nbsp;46<br>\nD. &nbsp;48<br>\nE. &nbsp;None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3039/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3039/series</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"3030\"></a><div itemprop=\"text\">C, G, K, 0, S, ? one term is missing.Select one alternative<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nA.W<br>\nB.X<br>\nC.Y<br>\nD.U</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3030/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3030/series</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"3015\"></a><div itemprop=\"text\">13 14 16 21 31 ?<br>\n(a) 45<br>\n(b) 49<br>\n(c) 48<br>\n(d) 50<br>\n(e) 44</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3015/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3015/series</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"3036\"></a><div itemprop=\"text\">0, 6, 24, 60, 120, 210, ?<br>\nA. &nbsp;336 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nB. &nbsp;349<br>\nC. &nbsp;312<br>\nD. &nbsp;337<br>\nE. &nbsp;None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3036/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3036/series</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"3037\"></a><div itemprop=\"text\">11, 14, 19, 22, 27, 30, ?<br>\nA. &nbsp;39<br>\nB. &nbsp;34<br>\nC. &nbsp;36<br>\nD. &nbsp;35<br>\nE. &nbsp;None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3037/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3037/series</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"3035\"></a><div itemprop=\"text\">11, 24, 50, 102, 206, ?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3035/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3035/series</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"3034\"></a><div itemprop=\"text\">6, 9, 17, 23,———-</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3034/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3034/series</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"3023\"></a><div itemprop=\"text\">Complete the series: 2, 5, 9, 19, 37…</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3023/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3023/series</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"3032\"></a><div itemprop=\"text\">441, 484, 529, 576?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3032/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3032/series</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"3040\"></a><div itemprop=\"text\">25, 100, ?, 1600, 6400<br>\nA. &nbsp;400<br>\nB. &nbsp;300<br>\nC. &nbsp;360<br>\nD. &nbsp;420<br>\nE. &nbsp;None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3040/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3040/series</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"3029\"></a><div itemprop=\"text\">1, 9, 25, 49, ?, 121. What will come at the place of question mark ?<br>\nA.100<br>\nB. 91<br>\nC. 64<br>\nD.81</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3029/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3029/series</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"3033\"></a><div itemprop=\"text\">3, 9, 18, 35, 58,——</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3033/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3033/series</a></p>"
+        },
+        {
+          "id": 63,
+          "question": "<p><a name=\"3019\"></a><div itemprop=\"text\">Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3019/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3019/series</a></p>"
+        },
+        {
+          "id": 64,
+          "question": "<p><a name=\"3014\"></a><div itemprop=\"text\">9 8 21 100 693 ?<br>\n(a) 6200<br>\n(b) 6330<br>\n(c) 6228<br>\n(d) 6230<br>\n(e) 6100</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3014/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3014/series</a></p>"
+        },
+        {
+          "id": 65,
+          "question": "<p><a name=\"3013\"></a><div itemprop=\"text\">10 12 30 102 428 ?<br>\n(a) 4280<br>\n(b) 2170<br>\n(c) 1420<br>\n(d) 2000<br>\n(e) 3230</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3013/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3013/series</a></p>"
+        },
+        {
+          "id": 66,
+          "question": "<p><a name=\"3016\"></a><div itemprop=\"text\">12 24 60 140 290 ?<br>\n(a) 540<br>\n(b) 542<br>\n(c) 530<br>\n(d) 522<br>\n(e) 532</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3016/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3016/series</a></p>"
+        },
+        {
+          "id": 67,
+          "question": "<p><a name=\"2991\"></a><div itemprop=\"text\">157.5 45 15 6 3 2 1<br>\n(1) 1<br>\n(2) 2<br>\n(3) 6<br>\n(4) 157.5<br>\n(5) 45</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2991/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2991/series</a></p>"
+        },
+        {
+          "id": 68,
+          "question": "<p><a name=\"2988\"></a><div itemprop=\"text\">6 7 9 13 26 37 69<br>\n(1) 7<br>\n(2) 26<br>\n(3) 69<br>\n(4) 37<br>\n(5) 9</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2988/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2988/series</a></p>"
+        },
+        {
+          "id": 69,
+          "question": "<p><a name=\"2986\"></a><div itemprop=\"text\">1, 9, 125, 49, 729, 121, 2147<br>\n(1) 2147<br>\n(2) 729<br>\n(3) 125<br>\n(4) 1<br>\n(5) None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2986/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2986/series</a></p>"
+        },
+        {
+          "id": 70,
+          "question": "<p><a name=\"2985\"></a><div itemprop=\"text\">0, 1,3,8,18,35,264<br>\n(1) 62<br>\n(2) 35<br>\n(3) 18<br>\n(4) 8<br>\n(5) None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2985/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2985/series</a></p>"
+        },
+        {
+          "id": 71,
+          "question": "<p><a name=\"2984\"></a><div itemprop=\"text\">40, 54, 82, ?, 180 ,250<br>\n(1) 142<br>\n(2) 124<br>\n(3) 136<br>\n(4) 163<br>\n(5) None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2984/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2984/series</a></p>"
+        },
+        {
+          "id": 72,
+          "question": "<p><a name=\"2987\"></a><div itemprop=\"text\">5531 5506 5425 5304 5135 4910 4621<br>\n(1) 5531<br>\n(2) 5425<br>\n(3) 4621<br>\n(4) 5135<br>\n(5) 5506</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2987/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2987/series</a></p>"
+        },
+        {
+          "id": 73,
+          "question": "<p><a name=\"2996\"></a><div itemprop=\"text\">Analyze the series below and find out the next number.<br>\n5, 25, 325, 4325, __?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2996/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2996/series</a></p>"
+        },
+        {
+          "id": 74,
+          "question": "<p><a name=\"2989\"></a><div itemprop=\"text\">1 3 10 36 152 760 4632<br>\n(1) 3<br>\n(2) 36<br>\n(3) 4632<br>\n(4) 760<br>\n(5) 152</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2989/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2989/series</a></p>"
+        },
+        {
+          "id": 75,
+          "question": "<p><a name=\"2995\"></a><div itemprop=\"text\">what is next number in pattern below<br>\n<br>\n131 517 192 123 ?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2995/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2995/series</a></p>"
+        },
+        {
+          "id": 76,
+          "question": "<p><a name=\"2994\"></a><div itemprop=\"text\">Find the next number in the series <br>\n<br>\n12, 20, 40, 72, 116, 172 ?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2994/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2994/series</a></p>"
+        },
+        {
+          "id": 77,
+          "question": "<p><a name=\"2992\"></a><div itemprop=\"text\">Find The Missing Number In the Sequence ?<br>\n6 25 64 ? 32 1</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2992/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2992/series</a></p>"
+        },
+        {
+          "id": 78,
+          "question": "<p><a name=\"2993\"></a><div itemprop=\"text\">Find the missing number in the sequecne<br>\n<br>\n8 27 ? 343 1331</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2993/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2993/series</a></p>"
+        },
+        {
+          "id": 79,
+          "question": "<p><a name=\"2990\"></a><div itemprop=\"text\">4 3 9 34 96 219 435<br>\n(1) 4<br>\n(2) 9<br>\n(3) 34<br>\n(4) 435<br>\n(5) 219</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2990/series\" target=\"_blank\">https://aptitude.gateoverflow.in/2990/series</a></p>"
+        },
+        {
+          "id": 80,
+          "question": "<p><a name=\"3010\"></a><div itemprop=\"text\">990 981 997 972<br>\n1008 ?<br>\n(a) 110<br>\n(b) 1020<br>\n(c) 900<br>\n(d) 959<br>\n(e) 725</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3010/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3010/series</a></p>"
+        },
+        {
+          "id": 81,
+          "question": "<p><a name=\"3017\"></a><div itemprop=\"text\">9 11 28 96 404 ?<br>\n(a) 2000<br>\n(b) 2020<br>\n(c) 2030<br>\n(d) 2040<br>\n(e) 2050</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3017/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3017/series</a></p>"
+        },
+        {
+          "id": 82,
+          "question": "<p><a name=\"3018\"></a><div itemprop=\"text\">10 18 51 200 995<br>\n?<br>\n(a) 4954<br>\n(b) 5964<br>\n(c) 5900<br>\n(d) 5960<br>\n(e) 4964</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3018/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3018/series</a></p>"
+        },
+        {
+          "id": 83,
+          "question": "<p><a name=\"3020\"></a><div itemprop=\"text\">Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3020/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3020/series</a></p>"
+        },
+        {
+          "id": 84,
+          "question": "<p><a name=\"3008\"></a><div itemprop=\"text\">If CALPFTNEM is the code for PLACEMENT how will CONFIDENT be written in that code?<br>\n<br>\na) FNOCITNED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) FNCOITNED<br>\n<br>\nc) FNOCKTNED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d) None of these</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3008/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3008/series</a></p>"
+        },
+        {
+          "id": 85,
+          "question": "<p><a name=\"3009\"></a><div itemprop=\"text\">1170 1001 880 799<br>\n750 ?<br>\n<br>\n(a) 710<br>\n(b) 699<br>\n(c) 725<br>\n(d) 650<br>\n(e) 600</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3009/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3009/series</a></p>"
+        },
+        {
+          "id": 86,
+          "question": "<p><a name=\"3011\"></a><div itemprop=\"text\">12 32 273 1602<br>\n8035 ?<br>\n(a) 10101<br>\n(b) 32643<br>\n(c) 19256<br>\n(d) 32124<br>\n(e) 40135</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3011/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3011/series</a></p>"
+        },
+        {
+          "id": 87,
+          "question": "<p><a name=\"3002\"></a><div itemprop=\"text\">Complete the series: 12, 15, 20, 27, 36, ?<br>\n<br>\na) 47 b) 59 c) 43 d) 49</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3002/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3002/series</a></p>"
+        },
+        {
+          "id": 88,
+          "question": "<p><a name=\"3003\"></a><div itemprop=\"text\">Can you find the missing number in the series below<br>\n<br>\n1 5 9 2 6 10 3 ? 11 4 8 12</div><br><br><b>Quantitative Aptitude: series</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3003/series\" target=\"_blank\">https://aptitude.gateoverflow.in/3003/series</a></p>"
+        },
+        {
+          "id": 89,
+          "question": "<p><a name=\"3000\"></a><div itemprop=\"text\">Complete the series: -4, 8, -24, 96, -480, ?<br>\n<br>\na) 2570 b) 3524 c) 2880 d) -928</div><br><br><b>Quantitative Aptitude: seriess</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3000/seriess\" target=\"_blank\">https://aptitude.gateoverflow.in/3000/seriess</a></p>"
+        }
+      ]
+    }
+  ]
+});

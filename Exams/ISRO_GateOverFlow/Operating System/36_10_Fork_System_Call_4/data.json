@@ -1,0 +1,71 @@
+{
+  "title": "Operating System - Fork System Call",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Fork System Call",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50002\"></a><div itemprop=\"text\"><p>Fork is</p></div><br><br><b>Operating System: ISRO CSE 2008 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the creation of a new job</p>",
+            "<p>the dispatching of a task</p>",
+            "<p>increasing the priority of a task</p>",
+            "<p>the creation of a new process</p>"
+          ],
+          "correct_answer": "<p>the creation of a new process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50002/isro-cse-2008-question-63\" target=\"_blank\">https://gateoverflow.in/50002/isro-cse-2008-question-63</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128699\"></a><div itemprop=\"text\"><p>Wha is the output of the following program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">main()\n{\n    int a = 10;\n    if(fork()) == 0))\n        a++;\n    printf(\"%d\\n\",a);  \n}\n</pre>\n\n</div><br><br><b>Operating System: ISRO CSE 2017 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>10 and 11</p>",
+            "<p>10</p>",
+            "<p>11</p>",
+            "<p>11 and 11</p>"
+          ],
+          "correct_answer": "<p>10 and 11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128699/isro-cse-2017-question-51\" target=\"_blank\">https://gateoverflow.in/128699/isro-cse-2017-question-51</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"213584\"></a><div itemprop=\"text\"><p>The following \\( C \\)&nbsp;program:</p><pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">{\n    fork(); fork(); printf(\"yes\");\n    \n}\n</pre><p>If we execute this core segment, how many times the string yes will be printed?</p></div><br><br><b>Operating System: ISRO CSE 2018 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only once</p>",
+            "<p>2 times</p>",
+            "<p>4 times</p>",
+            "<p>8 times</p>"
+          ],
+          "correct_answer": "<p>4 times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213584/isro-cse-2018-question-4\" target=\"_blank\">https://gateoverflow.in/213584/isro-cse-2018-question-4</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"51698\"></a><div itemprop=\"text\"><p>Consider the following program.</p><pre class=\"prettyprint lang-c_cpp\">main()\n{\n    fork();\n    fork();\n    fork();\n}</pre><p>How many new processes will be created?</p></div><br><br><b>Operating System: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>8</p>",
+            "<p>6</p>",
+            "<p>7</p>",
+            "<p>5</p>"
+          ],
+          "correct_answer": "<p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51698/isro2015-37\" target=\"_blank\">https://gateoverflow.in/51698/isro2015-37</a></p>"
+        }
+      ]
+    }
+  ]
+}

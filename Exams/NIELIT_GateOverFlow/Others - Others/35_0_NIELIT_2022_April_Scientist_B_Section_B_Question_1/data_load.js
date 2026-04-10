@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - NIELIT 2022 April Scientist B  Section B  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "NIELIT 2022 April Scientist B  Section B  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373721\"></a><div itemprop=\"text\"><p>Consider sinusoidal modulation in an \\( \\text{AM} \\) system. Assuming no over modulation, the modulation index (\\( \\mu \\)) when the maximum and minimum values of the envelope, respectively, are \\( 3 \\; \\text{V} \\) and \\( 1 \\; \\text{V} \\) is ___________.</p>\n\n</div><br><br><b>Others: NIELIT 2022 April Scientist B | Section B | Question: 117</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 0.3 \\)</p>",
+            "<p>\\( 0.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373721/nielit-2022-april-scientist-b-section-b-question-117\" target=\"_blank\">https://gateoverflow.in/373721/nielit-2022-april-scientist-b-section-b-question-117</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,21 @@
+{
+  "title": "Others - Others - Acid Properties",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Acid Properties",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152940\"></a><div itemprop=\"text\">The name of the transaction file shall be provided by the operator and the file that contains the edited transactions ready for execution shall be called<br>\n<br>\n(A) Batch. Exe<br>\n<br>\n(B) Trans. Exe<br>\n<br>\n(C) Opt. Exe<br>\n<br>\n(D) Edit.Exe</div><br><br><b>Others: UGC NET CSE | December 2009 | Part 2 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152940/ugc-net-cse-december-2009-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/152940/ugc-net-cse-december-2009-part-2-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

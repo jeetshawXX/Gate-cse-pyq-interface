@@ -1,0 +1,1227 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Probability_Theory",
+  "duration": 246,
+  "sections": [
+    {
+      "name": "Probability_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The unit interval \\((0, 1)\\) is divided at a point chosen uniformly distributed over \\((0,1)\\) in \\(\\mathbb{R}\\) into two disjoint subintervals. <br><br>The expected length of the subinterval that contains 0.4 is ___________. (rounded off to two decimal places) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460838/gate-cse-2025-set-2-question-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A quadratic polynomial \\((x - \\alpha)(x - \\beta)\\) over complex numbers is said to be square invariant if \\((x - \\alpha)(x - \\beta) = (x - \\alpha^2)(x - \\beta^2)\\). Suppose from the set of all square invariant quadratic polynomials we choose one at random. <br><br>The probability that the roots of the chosen polynomial are equal is ______. (rounded off to one decimal place) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460839/gate-cse-2025-set-2-question-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a probability distribution given by the density function \\( P(x) \\).\n<br><br>\n\\( P(x) =\n\\begin{cases}\nCx^2, &amp;\\text{for   } 1 \\leq x \\leq 4 \\\\\n0, &amp;   \\text{for   }x &lt; 1 \\text{ or } x &gt; 4\n\\end{cases}\\)\n<br><br>\nThe probability that \\( x \\) lies between 2 and 3, i.e., \\( P(2 \\leq x \\leq 3) \\) is _________. (rounded off to three decimal places) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460032/gate-cse-2025-set-1-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose a 5-bit message is transmitted from a source to a destination through a noisy channel. The probability that a bit of the message gets flipped during transmission is 0.01. Flipping of each bit is independent of one another. The probability that the message is delivered error-free to the destination is _________. (rounded off to three decimal places) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.949",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460034/gate-cse-2025-set-1-question-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A box contains 5 coins: 4 regular coins and 1 fake coin. When a regular coin is tossed, the probability \\(P(\\text{head}) = 0.5\\) and for a fake coin, \\(P(\\text{head}) = 1\\). You pick a coin at random and toss it twice, and get two heads. The probability that the coin you have chosen is the fake coin is _______. (rounded off to two decimal places) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.49",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460058/gate-cse-2025-set-1-question-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>When six unbiased dice are rolled simultaneously, the probability of getting all\ndistinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{324}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{5}{324}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{7}{324}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{11}{324}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{5}{324}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422889/gate-cse-2024-set-2-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.37",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(A \\) and \\(B \\) be two events in a probability space with \\(P(A)=0.3, P(B)=0.5 \\), and \\(P(A \\cap B)=0.1 \\). Which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The two events \\(A \\) and \\(B \\) are independent</p>",
+            "<b>B.</b> <p>\\(P(A \\cup B)=0.7\\)</p>",
+            "<b>C.</b> <p>\\(P\\left(A \\cap B^c\\right)=0.2 \\), where \\(B^c \\) is the complement of the event \\(B \\)</p>",
+            "<b>D.</b> <p>\\(P\\left(A^c \\cap B^c\\right)=0.4 \\), where \\(A^c \\) and \\(B^c \\) are the complements of the events \\(A \\) and \\(B \\), respectively</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(P(A \\cup B)=0.7\\)</p>",
+            "<b>C.</b> <p>\\(P\\left(A \\cap B^c\\right)=0.2 \\), where \\(B^c \\) is the complement of the event \\(B \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422825/gate-cse-2024-set-1-question-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a permutation sampled uniformly at random from the set of all permutations of \\(\\{1,2,3, \\cdots, n\\} \\) for some \\(n \\geq 4 \\). Let \\(X \\) be the event that 1 occurs before 2 in the permutation, and \\(Y \\) the event that 3 occurs before 4 . Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The events \\(X \\) and \\(Y \\) are mutually exclusive</p>",
+            "<b>B.</b> <p>The events \\(X \\) and \\(Y \\) are independent</p>",
+            "<b>C.</b> <p>Either event \\(X \\) or \\(Y \\) must occur</p>",
+            "<b>D.</b> <p>Event \\(X \\) is more likely than event \\(Y \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The events \\(X \\) and \\(Y \\) are independent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a random experiment where two fair coins are tossed. Let A be the event\nthat denotes HEAD on both the throws, B be the event that denotes HEAD on\nthe first throw, and C be the event that denotes HEAD on the second throw.\nWhich of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>A and B are independent.</p>",
+            "<b>B.</b> <p>A and C are independent.</p>",
+            "<b>C.</b> <p>B and C are independent.</p>",
+            "<b>D.</b> <p>Prob(B|C) = Prob(B)</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>B and C are independent.</p>",
+            "<b>D.</b> <p>Prob(B|C) = Prob(B)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399268/gate-cse-2023-question-43#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A bag has \\(r\\) red balls and \\(b\\) black balls. All balls are identical except for their colours. In a trial, a ball is randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the fourth trial? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{r}{r+b}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{r}{r+b+3}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{r+3}{r+b+3}\\)</p>",
+            "<b>D.</b> <p>\\(\\left( \\dfrac{r}{r+b} \\right) \\left ( \\dfrac{r+1}{r+b+1} \\right) \\left( \\dfrac{r+2}{r+b+2} \\right) \\left( \\dfrac{r+3}{r+b+3} \\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\dfrac{r}{r+b}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357507/gate-cse-2021-set-2-question-33#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In an examination, a student can choose the order in which two questions (QuesA and QuesB) must be attempted.<br><br>If the first question is answered wrong, the student gets zero marks.<br>\nIf the first question is answered correctly and the second question is not answered correctly, the student gets the marks only for the first question.<br>\nIf both the questions are answered correctly, the student gets the sum of the marks of the two questions.<br><br>\nThe following table shows the probability of correctly answering a question and the marks of the question respectively.\n<br><br>\\(\\begin{array}{c|c|c} \\text{question} &amp; \\text{probabiloty of answering correctly} &amp; \\text{marks} \\\\ \\hline \\textsf{QuesA} &amp; 0.8 &amp; 10 \\\\ \\textsf{QuesB} &amp; 0.5 &amp; 20 \\end{array}\\)\n<br><br>\nAssuming that the student always wants to maximize her expected marks in the examination, in which order should she attempt  the questions and what is the expected marks for that order (assume that the questions are independent)? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First QuesA and then QuesB. Expected marks 14.</p>",
+            "<b>B.</b> <p>First QuesB and then QuesA. Expected marks 14.</p>",
+            "<b>C.</b> <p>First QuesB and then QuesA. Expected marks 22.</p>",
+            "<b>D.</b> <p>First QuesA and then QuesB. Expected marks 16.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>First QuesA and then QuesB. Expected marks 16.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For a given biased coin, the probability that the outcome of a toss is a head is 0.4. This coin is tossed 1,000 times. Let X denote the random variable whose value is the number of times that head appeared in these 1,000 tosses. The standard deviation of X (rounded to 2 decimal place) is ________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357518/gate-cse-2021-set-2-question-22#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A sender (S) transmits a signal, which can be one of the two kinds: H and L with probabilities 0.1 and 0.9 respectively, to a receiver (R)<br>\nIn the graph below, the weight of edge \\((u,v)\\) is the probability of receiving \\(v\\) when \\(u\\) is transmitted, where \\(u,v\\in\\{H,L\\}\\). For example, the probability that the received signal is \\(L\\) given the transmitted signal was \\(H\\), is 0.7.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Probability_Theory\\q54_a8c051f9.jpg\"><br>\nIf the received signal is \\(H\\), the probability that the transmitted signal was \\(H\\) (rounded to 2 decimal places) is __________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.04",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357396/gate-cse-2021-set-1-question-54#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the two statements.\n<br><br>\nS1: There exist random variables \\(X\\) and \\(Y\\) such that \\(\\left(\\mathbb E[(X-\\mathbb E(X))(Y-\\mathbb E(Y))]\\right)^2 &gt; \\textsf{Var}[X]\\textsf{Var}[Y]\\)<br>\nS2: For all random variables \\(X\\) and \\(Y\\), \\(\\textsf{Cov}[X,Y]=\\mathbb E \\left[|X-\\mathbb E[X]||Y-\\mathbb E[Y]|\\right ]\\)<br><br>\nWhich one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are true.</p>",
+            "<b>B.</b> <p>S1 is true, but S2 is false.</p>",
+            "<b>C.</b> <p>S1 is false, but S2 is true.</p>",
+            "<b>D.</b> <p>Both S1 and S2 are false.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both S1 and S2 are false.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357416/gate-cse-2021-set-1-question-35#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter 2. For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) is _________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.35",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>For the distributions given below :<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Probability_Theory\\q56_52f2f910.jpg\"><br>Which of the following is correct for the above distributions? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Standard deviation of A is significantly lower than standard deviation of B</p>",
+            "<b>B.</b> <p>Standard deviation of A is slightly lower than standard deviation of B</p>",
+            "<b>C.</b> <p>Standard deviation of A is same as standard deviation of B</p>",
+            "<b>D.</b> <p>Standard deviation of A is significantly higher than standard deviation of B</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Standard deviation of A is same as standard deviation of B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331489/isro2020-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>For n\\(\\gt\\)2, let \\(a \\in \\{0,1\\}^n\\) be a non-zero vector. Suppose that x is chosen uniformly at random from \\(\\{0,1\\}^n\\). Then, the probability that \\(\\sum_{i=1}^{n}a_ix_i\\) is an odd number is______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333186/gate2020-cs-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Suppose Y is distributed uniformly in the open interval (1,6). The probability that the polynomial \\(3x^2+6xY+3Y+6\\) has only real roots is (rounded off to 1 decimal place) _________. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302801/gate2019-cs-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Two numbers are chosen independently and uniformly at random from the set {1, 2, ..., 13}. The probability (rounded off to 3 decimal places) that their 4-bit (unsigned) binary representations have the same most significant bit is ___________ <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.502",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302826/gate2019-cs-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>A class of 30 students occupy a classroom containing 5 rows of seats, with 8 seats in each row. If the students seat themselves at random, the probability that sixth seat in the fifth row will be empty is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/5\\)</p>",
+            "<b>B.</b> <p>\\(1/3\\)</p>",
+            "<b>C.</b> <p>\\(1/4\\)</p>",
+            "<b>D.</b> <p>\\(2/5\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(1/4\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213574/isro2018-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (G), medium (M) and low (L). Let P(\\(H_{G}\\)) denote the probability that Guwahati has high temperature. Similarly, P(\\(M_{G}\\)) and P(\\(L_{G}\\)\n) denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use P(\\(H_{D}\\)),P(\\(M_{D}\\)) and P(\\(L_{D}\\)) for Delhi. <br>\nThe following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Probability_Theory\\q44_ddb859d5.jpg\"> <br>   Consider the first row in the table above. The first entry denotes that if Guwahati has high\ntemperature (\\(H_{G}\\)) then the probability of Delhi also having a high temperature (\\(H_{D}\\)) is 0.40;\ni.e., (\\(H_{D}\\)|\\(H_{G}\\)) = 0.40. Similarly, the next two entries are P(\\(M_{D}\\)| \\(H_{G}\\))= 0.48 and\nP(\\(L_{D}\\)|\\(H_{G}\\)) = 0.12. Similarly for the other rows.\nIf it is known that P(\\(H_{G}\\))= 0.2, P(\\(M_{G}\\))= 0.5, andP(\\(L_{G}\\))= 0.3, then the probability\n(correct to two decimal places) that Guwahati has high temperature given that Delhi has high\ntemperature is _______ <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204119/gate2018-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to 3 decimal places) that one of them wins on the third trial is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.021",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204089/gate2018-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Let \\(A\\) and \\(B\\) be any two arbitrary events, then, which one of the following is TRUE? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P(A \\cap B)=P(A) P(B)\\)</p>",
+            "<b>B.</b> <p>\\(P(A \\cup B)=P(A)+P(B)\\)</p>",
+            "<b>C.</b> <p>\\(P(A \\mid B)=P(A \\cap B) P(B)\\)</p>",
+            "<b>D.</b> <p>\\(P(A \\cup B) \\leq P(A)+P(B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P(A \\cup B) \\leq P(A)+P(B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>For any discrete random variable X, with probability mass function <br>\\(P(X=j)=p_{j}, p_{j}\\geq 0, j \\in \\{0,....N\\}\\) and \\( \\sum_{j=0}^{N}p_{j}=1\\), define the polynomial function \\(g_{x}(z)=\\sum_{j=0}^{N}p_{j}z^{j}\\). For a certain discrete random variable Y, there exists a scalar \\(\\beta \\in \\)[0,1] such that \\(g_{Y}(z)=(1-\\beta +\\beta  z)^{N}\\). The expectation of Y is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(N\\beta (1-\\beta )\\)</p>",
+            "<b>B.</b> <p>\\(N\\beta\\)</p>",
+            "<b>C.</b> <p>\\(N(1-\\beta )\\)</p>",
+            "<b>D.</b> <p>Not expressible in terms of N and \\(\\beta\\) alone</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(N\\beta\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118373/gate2017-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>P and Q are considering to apply for a job. The probability that P applies for the job is 1/4.\nThe probability that P applies for the job given that Q applies for the job is 1/2\n, and the probability that Q applies for the job given that P applies for the job 1/3.\nThen the probability that P does not apply for the job given that Q does not apply for the job is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{4}{5}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{5}{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{7}{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{11}{12}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{4}{5}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118368/gate2017-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Let X be a Gaussian random variable mean 0 and variance \\(\\sigma ^{2}\\)\n. Let Y=max(X, 0) where max\n(a,b) is the maximum of a and b. The median of Y is ____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118299/gate2017-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Suppose that a shop has an equal number of LED bulbs of two different types. The probability of an LED bulb lasting more than 100 hours given that it is of Type 1 is 0.7, and given that it is of Type 2 is 0.4. The probability that an LED bulb chosen uniformly at random lasts more than 100 hours is _________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.55",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39541/gate2016-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following experiment. <br>\nStep 1. Flip a fair coin twice. <br>\nStep 2. If the outcomes are(TAILS, HEADS) then output Y and stop. <br>\nStep 3. If the outcomes are either(HEADS, HEADS) or(HEADS, TAILS), then output N and stop. <br>\nStep 4. If the out comes are(TAILS, TAILS), then go to Step1. <br>\nThe probability that the output of the experiment is Y is (up to two decimal places)_____. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.33",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39709/gate2016-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>A probability density function on the interval [a,1] is given by 1/\\(x^{2}\\)\nand outside this interval the value of the function is zero.The value of a is __________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39661/gate2016-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Suppose \\(X_{i}\\) for i =1,2,3 are independent and identically distributed random variables whose probability mass functions are \\(Pr[X_{i}=0]=Pr[X_{i}=1]=1/2\\) for i=1,2,3. Define another random variable \\(Y=X_{1}X_{2}\\oplus X_{3}, \\; where \\; \\oplus\\) denotes XOR. Then<br>\n\\(Pr[Y=0|X_{3}=0]=\\)_______________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.75",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8496/gate2015-3-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>The probability that two friends are born in the same month is ____ ? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/6\\)</p>",
+            "<b>B.</b> <p>\\(1/12\\)</p>",
+            "<b>C.</b> <p>1/144</p>",
+            "<b>D.</b> <p>\\(1/24\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(1/12\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15032/isro2014-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Let S be a sample space and two mutually exclusive events A and B be such that A\\(\\cup\\)B = S. If P(.) denotes the probability of the event, the maximum value of P(A)P(B) is ______ <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.25",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2082/gate2014-3-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT\ndivisible by 2, 3 or 5 is ______ . <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.259",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2014/gate2014-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Each of the nine words in the sentence \"The quick brown fox jumps over the lazy dog\" is\nwritten on a separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random from the box. The expected length of the word drawn is\n_____________. (The answer should be rounded to one decimal place) <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3.8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1954/gate2014-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>The security system at an IT office is composed of 10 computers of which exactly four are\nworking. To check whether the system is functional, the officials inspect four of the\ncomputers picked at random (without replacement). The system is deemed functional if at\nleast three of the four computers inspected are working. Let the probability that the system is deemed functional be denoted by p.  Then 100p= _____________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11.85",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1953/gate2014-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Four fair six-sided dice are rolled. The probability that the sum of the results being 22 is \\(\\frac{X}{1296}\\). The value of X is _________ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1927/gate2014-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of the shorter stick is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.24",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1717/gate2014-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Let P(E) denote the probability of the occurrence of event E. If P(A)= 0.5 and P(B)=1 then the values of P(A|B) and P(B|A) respectively are <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5, 0.25</p>",
+            "<b>B.</b> <p>0.25, 0.5</p>",
+            "<b>C.</b> <p>0.5, 1</p>",
+            "<b>D.</b> <p>1, 0.5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.5, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45660/isro-2013-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Suppose p is the number of cars per minute passing through a certain road junction between 5 PM\nand 6 PM, and p has a Poisson distribution with mean 3. What is the probability of observing fewer\nthan 3 cars during any given minute in this interval? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(8/(2e^{3})\\)</p>",
+            "<b>B.</b> <p>\\(9/(2e^{3})\\)</p>",
+            "<b>C.</b> <p>\\(17/(2e^{3})\\)</p>",
+            "<b>D.</b> <p>\\(26/(2e^{3})\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(17/(2e^{3})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/62/gate2013-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Suppose a fair six-sided die is rolled once. If the value on the die is 1, 2, or 3, the die is rolled a\nsecond time. What is the probability that the sum total of values that turn up is at least 6? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(10/20\\)</p>",
+            "<b>B.</b> <p>\\(5/12\\)</p>",
+            "<b>C.</b> <p>\\(2/3\\)</p>",
+            "<b>D.</b> <p>\\(1/6\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(5/12\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1751/gate2012-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider a random variable X that takes values +1 and -1 with probability 0.5 each. The values of\nthe cumulative distribution function F(x) at x = -1 and +1 are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 and 0.5</p>",
+            "<b>B.</b> <p>0 and 1</p>",
+            "<b>C.</b> <p>0.5 and 1</p>",
+            "<b>D.</b> <p>0.25 and 0.75</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.5 and 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1577/gate2012-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Three coins are tossed simultaneously. The probability that they will fall two heads and one tail is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5/8</p>",
+            "<b>B.</b> <p>1/8</p>",
+            "<b>C.</b> <p>2/3</p>",
+            "<b>D.</b> <p>3/8</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3/8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52837/isro2011-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>A deck of 5 cards (each carrying a distinct number from 1 to 5) is shuffled\nthoroughly. Two cards are then removed one at a time from the deck. What is\nthe probability that the two cards are selected with the number on the first card\nbeing one higher than the number on the second card? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/5\\)</p>",
+            "<b>B.</b> <p>\\(4/25\\)</p>",
+            "<b>C.</b> <p>\\(1/45\\)</p>",
+            "<b>D.</b> <p>\\(2/5\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(1/5\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2136/gate2011-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Consider a finite sequence of random values \\(X=[x_{1},x_{2},...,x_{n}]\\). Let \\(\\mu _{x}\\)\nbe the mean\nand  \\(\\sigma _{x}\\)\nbe the standard deviation of X .Let another finite sequence Y of equal\nlength be derived from this as \\(y_{i}=a*x_{i}+b\\), where a and b are positive\nconstants. Let Let \\(\\mu _{y}\\)  be the mean and \\(\\sigma _{y}\\) be the standard deviation of this\nsequence. Which one of the following statements is INCORRECT? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Index position of mode of X in X is the same as the index position of mode of Y\nin Y.</p>",
+            "<b>B.</b> <p>Index position of median of X in X is the same as the index position of median\nof Y in Y.</p>",
+            "<b>C.</b> <p>\\(\\mu _{y}=a\\mu _{x}+b\\)</p>",
+            "<b>D.</b> <p>\\(\\sigma _{y }=a\\sigma _{x}+b\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\sigma _{y }=a\\sigma _{x}+b\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2135/gate2011-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>If the difference between the expectation of the square of random variable \\((E[X^{2}])\\)  and the square of the expectation of the random variable \\((E[X^{2}])\\) is denoted by R then <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R=0</p>",
+            "<b>B.</b> <p>R\\(\\lt\\)0</p>",
+            "<b>C.</b> <p>R\\( \\gt \\)0</p>",
+            "<b>D.</b> <p>R\\(\\gt=\\)0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>R\\(\\gt=\\)0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2120/gate2011-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>If two fair coins are flipped and at least one of the outcomes is known to be a\nhead, what is the probability that both outcomes are heads? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/3\\)</p>",
+            "<b>B.</b> <p>\\(1/4\\)</p>",
+            "<b>C.</b> <p>\\(1/2\\)</p>",
+            "<b>D.</b> <p>\\(2/3\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(1/3\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2105/gate2011-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>What is the probability that divisor of \\(10^{99}\\) is a multiple of \\(10^{96}\\)? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/625\\)</p>",
+            "<b>B.</b> <p>\\(4/625\\)</p>",
+            "<b>C.</b> <p>\\(12/625\\)</p>",
+            "<b>D.</b> <p>\\(16/625\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(1/625\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1153/gate2010-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Consider a company that assembles computers. The probability of a faulty assembly of any computer is p. The company therefore subjects each computer to a testing process. This testing process gives the correct result for any computer with a probability of q. What is the probability of a computer being declared faulty? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>pq + (1 - p) (1 - q)</p>",
+            "<b>B.</b> <p>(1 - q)p</p>",
+            "<b>C.</b> <p>(1 - p) q</p>",
+            "<b>D.</b> <p>pq</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>pq + (1 - p) (1 - q)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1152/gate2010-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>If the pdf of a Poisson distribution is given by \\(f(x) = \\frac{e^{-2} 2^x}{x!}\\)then its mean is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^x\\)</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>-2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50563/isro2009-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Let \\(f(x)\\) be the continuous probability density function of a random variable \\(x\\), the probability that \\(a \\lt x \\leq b\\), is : <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(b-a)\\)</p>",
+            "<b>B.</b> <p>\\(f(b) - f(a)\\)</p>",
+            "<b>C.</b> <p>\\(\\int\\limits_a^b f(x) dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int\\limits_a^b xf (x)dx\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int\\limits_a^b f(x) dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1162/gate2005-12-isro2009-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>An unbalanced dice (with 6 faces, numbered from 1 to 6) is thrown. The\nprobability that the face value is odd is 90% of the probability that the face value\nis even. The probability of getting any even numbered face is the same. <br>\nIf the probability that the face is even given that it is greater than 3 is 0.75,\nwhich one of the following options is closest to the probability that the face value exceeds 3? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.453</p>",
+            "<b>B.</b> <p>0.468</p>",
+            "<b>C.</b> <p>0.485</p>",
+            "<b>D.</b> <p>0.492</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0.468</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/798/gate2009-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>What is the probability that in a randomly chosen group of \\(r\\) people at least three people have the same birthday? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1-\\dfrac{365-364 \\dots (365-r+1)}{365^{r}}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{365 \\cdot 364 \\dots (365-r+1)}{365^r}+ ^{r}C_{1}\\cdot 365 \\cdot \\dfrac{364.363 \\dots (364-(r-2)+1)}{364^{r+2} }\\)</p>",
+            "<b>C.</b> <p>\\(1- \\dfrac{365 \\cdot 364 \\dots (365-r+1)}{365^{r}} - ^{r}C_{2} \\cdot 365 \\cdot \\dfrac{ 364 \\cdot 363 \\dots (364-(r-2)+1)}{364^{r-2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{365 \\cdot 364 \\dots (365-r+1)}{365^{r}}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(1- \\dfrac{365 \\cdot 364 \\dots (365-r+1)}{365^{r}} - ^{r}C_{2} \\cdot 365 \\cdot \\dfrac{ 364 \\cdot 363 \\dots (364-(r-2)+1)}{364^{r-2}}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3284/gate2008-it-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>A sample space has two events A and B such that probabilities <br> \\(P(A\\cap B) = \\dfrac{1}{2}, P(A') = \\dfrac{1}{3}, P(B') =\\dfrac{1}{3}\\). <br> What is \\(P(A\\cup B)\\) ? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{11}{12}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{10}{12}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{9}{12}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\dfrac{8}{12}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\dfrac{10}{12}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3224/gate2008-it-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Aishwarya studies either computer science or mathematics everyday. If she\nstudies computer science on a day, then the probability that the studies\nmathematics the next day is 0.6. If she studies mathematics on a day, then the\nprobability that the studies computer science the next day is 0.4. Given that\nAishwarya studies computer science on Monday, what is the probability that she\nstudies computer science on Wednesday? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.24</p>",
+            "<b>B.</b> <p>0.36</p>",
+            "<b>C.</b> <p>0.4</p>",
+            "<b>D.</b> <p>0.6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/425/gate2008-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>A program consists of two modules executed sequentially. Let \\(f_1(t)\\) and \\(f_2(t)\\) respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f_1(t)+f_2(t)\\)</p>",
+            "<b>B.</b> <p>\\(\\int_0^t f_1(x)f_2(x)dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int_0^t f_1(x)f_2(t-x)dx\\)</p>",
+            "<b>D.</b> <p>\\(\\max\\{f_1(t),f_2(t)\\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int_0^t f_1(x)f_2(t-x)dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/948/gate2003-60-isro2007-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Company X shipped 5 computer chips, 1 of which was defective. and company Y shipped 4 computer chips, 2 of which were defective. One computer chip is to be chosen uniformly at a random from the 9 chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from the company Y? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2/9</p>",
+            "<b>B.</b> <p>4/9</p>",
+            "<b>C.</b> <p>2/3</p>",
+            "<b>D.</b> <p>1/2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2/3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49507/isro2007-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>In a multi-user operating system on an average, 20 requests are made to use a particular resource per hour. The arrival of requests follows a Poisson distribution. The probability that either one, three or five requests are made in 45 minutes is given by : <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(6.9 \\times 10^6 \\times e^{-20}\\)</p>",
+            "<b>B.</b> <p>\\(1.02 \\times 10^6 \\times e^{-20}\\)</p>",
+            "<b>C.</b> <p>\\(6.9 \\times 10^3 \\times e^{-20}\\)</p>",
+            "<b>D.</b> <p>\\(1.02 \\times 10^3 \\times e^{-20}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(1.02 \\times 10^6 \\times e^{-20}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3499/gate2007-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Suppose there are two coins. The first coin gives heads with probability \\(\\dfrac{5}{8}\\) when tossed, while the second coin gives heads with probability \\(\\dfrac{1}{4}\\). One of the two coins is picked up at random with equal probability and tossed. What is the probability of obtaining heads ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{7}{8}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{1}{2}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{7}{16}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\dfrac{5}{32}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left(\\dfrac{7}{16}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3432/gate2007-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>Suppose we uniformly and randomly select a permutation from the 20!\nPermutations of 1, 2,3 ,...,20. What is the probability that 2 appears at an\nearlier position than any other even number in the selected permutation? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{10}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{9!}{20!}\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{10}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1222/gate2007-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>When a coin is tossed, the probability of getting a Head is p, 0 &lt; p &lt; 1. Let N be the random variable denoting the number of tosses till the first Head appears, including the toss where the Head appears. Assuming that successive tosses are independent, the expected value of N is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{1}{p}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{1}{(1 - p)}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{1}{p^{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{1}{(1 - p^{2})}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\dfrac{1}{p}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3561/gate2006-it-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>In a certain town, the probability that it will rain in the afternoon is known to be 0.6. Moreover, meteorological data indicates that if the temperature at noon is less than or equal to \\(25^{\\circ}C\\), the probability that it will rain in the afternoon is 0.4. The temperature at noon is equally likely to be above \\(25^{\\circ}C\\), or at/below \\(25^{\\circ}C\\). What is the probability that it will rain in the afternoon on a day when the temperature at noon is above \\(25^{\\circ}C\\)? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.4</p>",
+            "<b>B.</b> <p>0.6</p>",
+            "<b>C.</b> <p>0.8</p>",
+            "<b>D.</b> <p>0.9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3538/gate2006-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>For each element in set of size 2n, an unbiased coin is tossed. The 2n coin tossed\nare independent. An element is chosen if the corresponding coin toss were head.\nThe probability that exactly n elements are chosen is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{\\binom{2n}{n}}{4^{n}}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{\\binom{2n}{n}}{2^{n}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{\\binom{2n}{n}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{\\binom{2n}{n}}{4^{n}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/982/gate2006-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>In a communication network, a packet of length L bits takes link \\(L_1\\) with a probability of \\(p_1\\) or link \\(L_2\\) with a probability of \\(p_2\\). Link \\(L_1\\) and \\(L_2\\) have bit error probability of \\(b_1\\) and \\(b_2\\) respectively. The probability that the packet will be received without error via either \\(L_1\\) or \\(L_2\\) is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((1 - b_1)^Lp_1 + (1 - b_2)^Lp_2\\)</p>",
+            "<b>B.</b> <p>\\([1 - (b_1 + b_2)^L]p_1p_2\\)</p>",
+            "<b>C.</b> <p>\\((1 - b_1)^L (1 - b_2)^Lp_1p_2\\)</p>",
+            "<b>D.</b> <p>\\(1 - (b_1^Lp_1 + b_2^Lp_2)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((1 - b_1)^Lp_1 + (1 - b_2)^Lp_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3837/gate2005-it-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>An unbiased coin is tossed repeatedly until the outcome of two successive tosses is the same. Assuming that the trials are independent, the expected number of tosses is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3778/gate2005-it-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>A bag contains 10 blue marbles, 20 green marbles and 30 red marbles. A marble is drawn from the bag, its colour recorded and it is put back in the bag. This process is repeated 3 times. The probability that no two of the marbles drawn have the same colour is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{1}{36}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{1}{6}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{1}{4}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\dfrac{1}{3}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\dfrac{1}{6}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3745/gate2005-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>A random bit string of length n is constructed by tossing a fair coin n times and setting a bit to 0 or 1\ndepending on outcomes head and tail, respectively. The probability that two such randomly\ngenerated strings are not identical is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/2^{n}\\)</p>",
+            "<b>B.</b> <p>1-1/n</p>",
+            "<b>C.</b> <p>1/n!</p>",
+            "<b>D.</b> <p>\\(1-(1/2^{n})\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(1-(1/2^{n})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1177/gate2005-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 68,
+          "question": "<p>Box P has 2 red balls and 3 blue balls and box Q has 3 balls and 1 blue ball. A ball is selected as\nfollows: (i) select a box (ii) choose a ball from the selected box such that each ball in the box is\nequally likely to be chosen. The probabilities of selecting boxes P and Q are 1/3 and 2/3 respectively.\nGiven that a ball selected in the above process is a red ball, the probability that it came from the box\nP is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(4/19\\)</p>",
+            "<b>B.</b> <p>\\(5/19\\)</p>",
+            "<b>C.</b> <p>\\(2/9\\)</p>",
+            "<b>D.</b> <p>\\(19/30\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(4/19\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1176/gate2005-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 69,
+          "question": "<p>Let f(x) be the continuous probability density function of a random variable X.\nThe probability that \\(a \\lt X \\leq b\\), is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f(b-a)</p>",
+            "<b>B.</b> <p>f(b)-f(a)</p>",
+            "<b>C.</b> <p>\\(\\int_{a}^{b}f(x)dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int_{a}^{b}xf(x)dx\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int_{a}^{b}f(x)dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1162/gate2005-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 70,
+          "question": "<p>Let \\(X\\) and \\(Y\\) be two exponentially distributed and independent random variables with mean \\(\\alpha \\text{ and }\\beta\\), respectively. If \\(Z=min(X,Y)\\), then the mean of \\(Z\\) is given by <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{1}{\\alpha + \\beta}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\min (\\alpha, \\beta)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{\\alpha\\beta}{\\alpha + \\beta}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\alpha + \\beta\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left(\\dfrac{\\alpha\\beta}{\\alpha + \\beta}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3676/gate2004-it-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 71,
+          "question": "<p>In a population of N families, 50% of the families have three children, 30% of the families have two children and the remaining families have one child. What is the probability that a randomly picked child belongs to a family with two children? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{3}{23}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{6}{23}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{3}{10}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\dfrac{3}{5}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\dfrac{6}{23}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3642/gate2004-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 72,
+          "question": "<p>Two n bit binary strings, S1 and S2, are chosen randomly with uniform probability. The probability that the Hamming distance between these strings (the number of bit positions where the two strings differ) is equal to d is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(^nC_d/2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(^nC_d/2^{d}\\)</p>",
+            "<b>C.</b> <p>\\(d/2^{n}\\)</p>",
+            "<b>D.</b> <p>\\(1/2^{d}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(^nC_d/2^{n}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1072/gate2004-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 73,
+          "question": "<p>An examination paper has 150 multiple choice questions of one mark each, with each question having\nfour choices. Each incorrect answer fetches -0.25 marks. Suppose 1000 students choose all their\nanswers randomly with uniform probability. The sum total of the expected marks obtained by all\nthese students is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2550</p>",
+            "<b>C.</b> <p>7525</p>",
+            "<b>D.</b> <p>9375</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9375</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1068/gate2004-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 74,
+          "question": "<p>If a fair coin is tossed four times. What is the probability that two heads and two tails will result? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3/8</p>",
+            "<b>B.</b> <p>1/2</p>",
+            "<b>C.</b> <p>5/8</p>",
+            "<b>D.</b> <p>2/4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3/8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1022/gate2004-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 75,
+          "question": "<p>A program consists of two modules executed sequentially. Let f1(t) and f2(t)\nrespectively denote the probability density functions of time taken to execute the\ntwo modules. The probability density function of the overall time taken to execute\nthe program is given by <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f_{1}(t)+f_{2}(t)\\)</p>",
+            "<b>B.</b> <p>\\(\\int_{0}^{t}f_{1}(x)f_{2}(x)dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int_{0}^{t}f_{1}(x)f_{2}(t-x)dx\\)</p>",
+            "<b>D.</b> <p>max{\\(f_{1}(t),f_{2}(t)\\)\n}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int_{0}^{t}f_{1}(x)f_{2}(t-x)dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/948/gate2003-60#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 76,
+          "question": "<p>Let P(E) denote the probability of the event E. Given P(A) = 1, P(B) = 1/2, the values of P(A|B) and P(B|A) respectively are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1/4,1/2</p>",
+            "<b>B.</b> <p>1/2, 1/14</p>",
+            "<b>C.</b> <p>1/2, 1</p>",
+            "<b>D.</b> <p>1, 1/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1, 1/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/894/gate2003-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 77,
+          "question": "<p>Four fair coins are tossed simultaneously. The probability that at least one head and one tail turn up is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/16\\)</p>",
+            "<b>B.</b> <p>\\(1/8\\)</p>",
+            "<b>C.</b> <p>\\(7/8\\)</p>",
+            "<b>D.</b> <p>\\(15/16\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(7/8\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/846/gate2002-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 78,
+          "question": "<p>\\(E_{1}\\) and \\(E_{2}\\)  are events in a probability space satisfying the following constraints:<br>\n\\(Pr\\left ( E_{1} \\right ) = Pr\\left ( E_{2} \\right )\\)<br>\n\\(Pr\\left ( E_{1}\\cup E_{2} \\right ) = 1\\)<br>\n\\(E_{1}\\) and \\(E_{2}\\) are independent\nThe value of Pr\\left ( E_{1} \\right ), the probability of the event E_{1},  is <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\dfrac{1}{4}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{1}{2}\\)</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/649/gate2000-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 79,
+          "question": "<p>Consider two events \\(E_1\\) and \\(E_0\\) such that probability of \\(E_1, P_r[E_1]=\\frac{1}{2}\\), probability of \\(E_2, P_r[E_{2}]=\\frac{1}{3}\\), and probability of \\(E_1\\), and \\(E_2, P_r[E_1 \\:\\text{and}\\: E_2] = \\frac{1}{5}\\). Which of the following statements is/are true? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P_r[E_1\\: \\text{or} \\:E_2] \\text{ is } \\frac{2}{3}\\)</p>",
+            "<b>B.</b> <p>Events \\(E_1\\) and \\(E_2\\) are independent</p>",
+            "<b>C.</b> <p>Events \\(E_1\\) and \\(E_2\\) are not independent</p>",
+            "<b>D.</b> <p>\\(P_r \\left[{E_1}\\mid{E_2} \\right] = \\frac{4}{5}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Events \\(E_1\\) and \\(E_2\\) are not independent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1479/gate1999-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 80,
+          "question": "<p>Suppose that the expectation of a random variable X is 5. Which of the following statements is true? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is a sample point at which X has the value 5.</p>",
+            "<b>B.</b> <p>There is a sample point at which X has value greater than 5.</p>",
+            "<b>C.</b> <p>There is a sample point at which X has a value greater than equal to 5.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>There is a sample point at which X has a value greater than equal to 5.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1455/gate1999-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 81,
+          "question": "<p>A die is rolled three times. The probability that exactly one odd number turns up among the three outcomes is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{1}{6}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{3}{8}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{1}{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\dfrac{3}{8}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1638/gate1998-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 82,
+          "question": "<p>The probability that it will rain today is 0.5. The probability that it will rain tomorrow is 0.6. The probability that it will rain either today or tomorrow is 0.7. What is the probability that it will rain today and tomorrow? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.3</p>",
+            "<b>B.</b> <p>0.25</p>",
+            "<b>C.</b> <p>0.35</p>",
+            "<b>D.</b> <p>0.4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0.4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2217/gate1997-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 83,
+          "question": "<p>The probability that top and bottom cards of a randomly shuffled deck are both aces is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{4}{52} \\times \\frac{4}{52}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{4}{52} \\times \\frac{3}{52}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{4}{52} \\times \\frac{3}{51}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{4}{52} \\times \\frac{4}{51}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{4}{52} \\times \\frac{3}{51}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2736/gate1996-2-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 84,
+          "question": "<p>Two dice are thrown simultaneously. The probability that at least one of them will have 6 facing up is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{36}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{3}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{25}{36}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{11}{36}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{11}{36}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2709/gate1996-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 85,
+          "question": "<p>A bag contains 10 white balls and 15 black balls. Two balls are drawn in succession. The probability that one of them is black and the other is white is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{2}{3}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{4}{5}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{3}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{1}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2626/gate1995-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 86,
+          "question": "<p>The probability that a number selected at random between 100 and 999 (both inclusive) will not contain the digit 7 is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{16}{25}\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{9}{10}\\right)^{3}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{27}{75}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{18}{25}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\dfrac{18}{25}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/780/gate1995-1-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 87,
+          "question": "<p>Let A and B be any two arbitrary events, then, which one of the following is TRUE? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P (A \\cap B) = P(A)P(B)\\)</p>",
+            "<b>B.</b> <p>\\(P (A \\cup B) = P(A)+P(B)\\)</p>",
+            "<b>C.</b> <p>\\(P (A \\mid B) = P(A \\cap B)P(B)\\)</p>",
+            "<b>D.</b> <p>\\(P (A \\cup B) \\leq P(A) + P(B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P (A \\cup B) \\leq P(A) + P(B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 88,
+          "question": "<p>Seven (distinct) car accidents occurred in a week. What is the probability that they all occurred on the same day? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{7^{7}}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{7^{6}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{2^{7}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{7}{2^{7}}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{7^{6}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/722/gate2001-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 89,
+          "question": "<p>Answer the following:<br>Which of the following statements are FALSE? <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For poisson distribution, the mean is twice the variance.</p>",
+            "<b>B.</b> <p>In queuing theory, if arrivals occur according to poisson distribution, then the inter-arrival time is exponentially distributed.</p>",
+            "<b>C.</b> <p>The distribution of waiting time is independent of the service discipline used in selecting the waiting customers for service.</p>",
+            "<b>D.</b> <p>If the time between successive arrivals is exponential, then the time between the occurences of every third arrival is also exponential.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>For poisson distribution, the mean is twice the variance.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87141/gate1989-3-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

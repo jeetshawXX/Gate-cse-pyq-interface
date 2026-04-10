@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Data Interpretation - Graphical Data",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Graphical Data",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6197\"></a><div itemprop=\"text\"><p>To compare the rainfall data, India Meteorological Department (IMD) calculated the Long Period Average (LPA) of rainfall during period June-August for each of the \\( 16 \\) states. The figure given below shows the actual rainfall (measured in mm) during June-August, \\( 2019 \\) and the percentage deviations from LPA of respective states in \\( 2018 \\). Each state along with its actual rainfall is presented in the figure.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15201829834423425944\"></p>\n\n<p>If a ‘Heavy Monsoon State’ is defined as a state with actual rainfall from June-August, \\( 2019 \\) of \\( 900 \\) mm or more, then approximately what percentage of ‘Heavy Monsoon States’ have a negative deviation from respective LPAs in \\( 2019 \\)?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 14.29 \\)</p>",
+            "<p>\\( 57.14 \\)</p>",
+            "<p>&nbsp;\\( 42.86 \\)</p>",
+            "<p>&nbsp;\\( 75.00 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6197/cat-2019-set-2-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/6197/cat-2019-set-2-question-55</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6196\"></a><div itemprop=\"text\"><p>To compare the rainfall data, India Meteorological Department (IMD) calculated the Long Period Average (LPA) of rainfall during period June-August for each of the \\( 16 \\) states. The figure given below shows the actual rainfall (measured in mm) during June-August, \\( 2019 \\) and the percentage deviations from LPA of respective states in \\( 2018 \\). Each state along with its actual rainfall is presented in the figure.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15201829834423425944\"></p>\n\n<p>If a ‘Low Monsoon State’ is defined as a state with actual rainfall from June- August,\\( 2019 \\) of \\( 750 \\) mm or less, then what is the median ‘deviation from LPA’ (as defined in the Y-axis of the figure) of ‘Low Monsoon States’?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( -10\\% \\)</p>",
+            "<p>\\( -30\\% \\)</p>",
+            "<p>\\( -20\\% \\)</p>",
+            "<p>\\( 10\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6196/cat-2019-set-2-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/6196/cat-2019-set-2-question-56</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6195\"></a><div itemprop=\"text\"><p>To compare the rainfall data, India Meteorological Department (IMD) calculated the Long Period Average (LPA) of rainfall during period June-August for each of the \\( 16 \\) states. The figure given below shows the actual rainfall (measured in mm) during June-August, \\( 2019 \\) and the percentage deviations from LPA of respective states in \\( 2018 \\). Each state along with its actual rainfall is presented in the figure.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15201829834423425944\"></p>\n\n<p>What is the average rainfall of all states that have actual rainfall of \\( 600 \\) mm or less in \\( 2019 \\) and have a negative deviation from LPA?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 500 \\) mm</p>",
+            "<p>\\( 460 \\) mm</p>",
+            "<p>\\( 367 \\) mm</p>",
+            "<p>\\( 450 \\) mm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6195/cat-2019-set-2-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/6195/cat-2019-set-2-question-57</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6194\"></a><div itemprop=\"text\"><p>To compare the rainfall data, India Meteorological Department (IMD) calculated the Long Period Average (LPA) of rainfall during period June-August for each of the \\( 16 \\) states. The figure given below shows the actual rainfall (measured in mm) during June-August, \\( 2019 \\) and the percentage deviations from LPA of respective states in \\( 2018 \\). Each state along with its actual rainfall is presented in the figure.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15201829834423425944\"></p>\n\n<p>The LPA of a state for a year is defined as the average rainfall in the preceding \\( 10 \\) years considering the period of June-August. For example, LPA in \\( 2018 \\) is the average rainfall during \\( 2009-2018 \\) and LPA in \\( 2019 \\) is the average rainfall during \\( 2010-2019 \\). It is also observed that the actual rainfall in Gujarat in \\( 2019 \\) is \\( 20\\% \\) more than the rainfall in \\( 2009 \\). The LPA of Gujarat in \\( 2019 \\) is closest to</p>\n\n</div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 525 \\)mm</p>",
+            "<p>\\( 490 \\)mm</p>",
+            "<p>\\( 475 \\)mm</p>",
+            "<p>\\( 505 \\)mm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6194/cat-2019-set-2-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/6194/cat-2019-set-2-question-58</a></p>"
+        }
+      ]
+    }
+  ]
+});

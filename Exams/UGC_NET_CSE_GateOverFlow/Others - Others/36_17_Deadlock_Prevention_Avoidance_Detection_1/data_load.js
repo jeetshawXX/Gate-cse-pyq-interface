@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Deadlock Prevention Avoidance Detection",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Deadlock Prevention Avoidance Detection",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"418297\"></a><div itemprop=\"text\"><p>A computer has \\( 6 \\) tape drives with ' \\( n \\) ' processes competing for them. Each process may need two drives. For which values of ' \\( n \\) ' is the system deadlock free?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2008 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 6 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/418297/ugc-net-cse-june-2008-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/418297/ugc-net-cse-june-2008-part-2-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+});

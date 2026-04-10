@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Bcd",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bcd",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43801\"></a><div itemprop=\"text\"><p>When two \\( \\text{BCD} \\) numbers \\( 0\\times14 \\) and \\( 0\\times08 \\) are added what is the binary representation of the resultant number ?</p>\n\n</div><br><br><b>Digital Logic: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0\\times22 \\)</p>",
+            "<p>\\( 0\\times1c \\)</p>",
+            "<p>\\( 0\\times16 \\)</p>",
+            "<p>results in overflow</p>"
+          ],
+          "correct_answer": "<p>\\( 0\\times22 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43801/isro-2013-11\" target=\"_blank\">https://gateoverflow.in/43801/isro-2013-11</a></p>"
+        }
+      ]
+    }
+  ]
+}

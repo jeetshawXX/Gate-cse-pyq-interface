@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Wireless Communication",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Wireless Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"45089\"></a><div itemprop=\"text\"><p>Mobile IP provides two basic functions</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Route discovery and registration</p>",
+            "<p>Agent discovery and registration</p>",
+            "<p>IP binding and registration</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Agent discovery and registration</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45089/ugc-net-cse-june-2012-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/45089/ugc-net-cse-june-2012-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

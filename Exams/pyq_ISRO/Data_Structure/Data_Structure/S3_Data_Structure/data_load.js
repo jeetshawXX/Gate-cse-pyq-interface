@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - Data_Structure - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>How many different trees are there with four nodes A,B,C and D? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30</p>",
+            "<b>B.</b> <p>60</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>120</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17447/isro2014-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a 13 element hash table for which f(key)=key mod 13 is used with integer keys. Assuming linear probing is used for collision resolution, at which location would the key 103 be inserted, if the keys 661, 182, 24 and 103 are inserted in that order? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55021/isro2014-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a single linked list where F and L are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q49_5ae2437e.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Delete the first element of the list</p>",
+            "<b>B.</b> <p>Interchange the first two elements of the list</p>",
+            "<b>C.</b> <p>Delete the last element of the list</p>",
+            "<b>D.</b> <p>Add an element at the end of the list</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Delete the last element of the list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54985/isro2014-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A frame buffer array is addressed in row major order for a monitor with pixel locations starting from (0,0) and ending with (100,100). What is address of the pixel(6,10)? Assume one bit storage per pixel and starting pixel location is at 0. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1016</p>",
+            "<b>B.</b> <p>1006</p>",
+            "<b>C.</b> <p>610</p>",
+            "<b>D.</b> <p>616</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1016</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53819/isro2014-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following binary search tree T given below: Which node contains the fourth smallest element in T?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q41_3fc8ff9b.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q</p>",
+            "<b>B.</b> <p>V</p>",
+            "<b>C.</b> <p>W</p>",
+            "<b>D.</b> <p>X</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>W</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54963/isro2014-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a standard Circular Queue implementation (which has the same condition for Queue Full and Queue Empty) whose size is 11 and the elements of the queue are q[0],q[1],... q[10].<br>The front and rear pointers are initialized to point at q[2]. In which position will the ninth element be added? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>q[0]</p>",
+            "<b>B.</b> <p>q[1]</p>",
+            "<b>C.</b> <p>q[9]</p>",
+            "<b>D.</b> <p>q[10]</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>q[0]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17423/isro2014-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose there are 11 items in sorted order in an array. How many searches are required on the average, if binary search is employed and all searches are successful in finding the item? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(3.00\\)</p>",
+            "<b>B.</b> <p>3.46</p>",
+            "<b>C.</b> <p>2.81</p>",
+            "<b>D.</b> <p>3.33</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(3.00\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16124/isro2014-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following number of nodes can form a full binary tree? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43967/isro-2013-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In an array of 2N elements that is both 2-ordered and 3-ordered, what is the maximum number of positions that an element can be from its position if the array were 1-ordered? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>N/2</p>",
+            "<b>D.</b> <p>2N-1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43767/isro-2013-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The following steps in a linked list<br><pre><code>p = getnode() \ninfo(p) = 10 \nnext (p) = list \nlist = p</code></pre>\nresult in which type of operation? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Pop operation in stack</p>",
+            "<b>B.</b> <p>Removal of a node</p>",
+            "<b>C.</b> <p>Inserting a node</p>",
+            "<b>D.</b> <p>Modifying an existing node</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Inserting a node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43754/isro-2013-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The number of rotations required to insert a sequence of elements 9, 6, 5, 8, 7, 10 into an empty AVL tree is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43752/isro-2013-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let A(1:8, -5:5, -10:5) be a three dimensional array. How many elements are there in the array A? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1200</p>",
+            "<b>B.</b> <p>1408</p>",
+            "<b>C.</b> <p>33</p>",
+            "<b>D.</b> <p>1050</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1408</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43751/isro-2013-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The average depth of a binary search tree is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n^{0.5})\\)</p>",
+            "<b>B.</b> <p>\\(O(n)\\)</p>",
+            "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>D.</b> <p>\\(O(n \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52839/isro2011-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FGBDECA</p>",
+            "<b>B.</b> <p>ABFGCDE</p>",
+            "<b>C.</b> <p>BFGCDEA</p>",
+            "<b>D.</b> <p>AFGBDEC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ABFGCDE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50619/isro2011-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

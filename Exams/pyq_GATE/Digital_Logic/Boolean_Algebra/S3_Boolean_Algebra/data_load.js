@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Boolean_Algebra - Boolean_Algebra - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Boolean_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The truth table <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q6_b26b0b55.jpg\"> represents the Boolean function <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X</p>",
+            "<b>B.</b> <p>X + Y</p>",
+            "<b>C.</b> <p>X \\(\\bigoplus\\) Y</p>",
+            "<b>D.</b> <p>Y</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>X</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/38/gate2012-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The simplified SOP (Sum of Product) form of the Boolean Algebra \\((P+\\bar{Q}+\\bar{R})\\cdot (P+\\bar{Q}+R)\\cdot (P+Q+\\bar{R})\\) is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\bar{P}Q+\\bar{R})\\)</p>",
+            "<b>B.</b> <p>\\((P+\\bar{Q}\\bar{R})\\)</p>",
+            "<b>C.</b> <p>\\((\\bar{P}Q+R)\\)</p>",
+            "<b>D.</b> <p>(PQ+R)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((P+\\bar{Q}\\bar{R})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2116/gate2011-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following circuits is NOT equivalent to a 2-input XNOR\n(exclusive NOR) gate? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q2_aea01d42.jpg\"> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2115/gate2011-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the Boolean Algebra for the output f of the combinational logic circuit\nof NOR gates given below? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q31_95d89936.jpg\"> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{Q+R}\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{P+Q}\\)</p>",
+            "<b>C.</b> <p>\\(\\overline{P+R}\\)</p>",
+            "<b>D.</b> <p>\\(\\overline{P+Q+R}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\overline{Q+R}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2205/gate2010-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The minterm expansion of f(P,Q,R)=PQ+QR'+PR' is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m_{2}+m_{4}+m_{6}+m_{7}\\)</p>",
+            "<b>B.</b> <p>\\(m_{0}+m_{1}+m_{3}+m_{5}\\)</p>",
+            "<b>C.</b> <p>\\(m_{0}+m_{1}+m_{6}+m_{7}\\)</p>",
+            "<b>D.</b> <p>\\(m_{2}+m_{3}+m_{4}+m_{5}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(m_{2}+m_{4}+m_{6}+m_{7}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2177/gate2010-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The binary operation \\(\\square\\) is defined as follows <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q24_d4377443.jpg\"> <br> Which one of the following is equivalent to \\(P\\vee Q\\)? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\neg Q\\square \\neg P\\)</p>",
+            "<b>B.</b> <p>\\(P  \\square \\neg Q\\)</p>",
+            "<b>C.</b> <p>\\(\\neg P\\square Q\\)</p>",
+            "<b>D.</b> <p>\\(\\neg P\\square \\neg Q\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(P  \\square \\neg Q\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/801/gate2009-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the minimum number of gates required to implement the Boolean\nfunction (AB+C) if we have to use only 2-input NOR gates? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1298/gate2009-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following Boolean function of four variables<br>\n\\(f(A, B, C, D) = \\sum(2, 3, 6, 7, 8, 9, 10, 11, 12, 13)\\)<br>\nThe function is <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>independent of one variable</p>",
+            "<b>B.</b> <p>independent of two variables</p>",
+            "<b>C.</b> <p>independent of three variable</p>",
+            "<b>D.</b> <p>dependent on all the variables</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>independent of one variable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3268/gate2008-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A set of Boolean connectives is functionally complete if all Boolean functions can be synthesized using those. Which of the following sets of connectives is NOT functionally complete? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>EX-NOR</p>",
+            "<b>B.</b> <p>implication, negation</p>",
+            "<b>C.</b> <p>OR, negation</p>",
+            "<b>D.</b> <p>NAND</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>EX-NOR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3222/gate2008-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>If P, Q, R are Boolean variables, then <br> \\((P+\\bar{Q})(P.\\bar{Q}+P.R)(\\bar{P}.\\bar{R}+\\bar{Q})\\) simplifies to <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P.\\bar{Q}\\)</p>",
+            "<b>B.</b> <p>\\(P.\\bar{R}\\)</p>",
+            "<b>C.</b> <p>\\(P.\\bar{Q}+R\\)</p>",
+            "<b>D.</b> <p>\\(P.\\bar{R}+Q\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(P.\\bar{Q}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/424/gate2008-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Given f1, f3 and f in canonical sum of products form (in decimal) for the circuit <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q8_8c7da917.jpg\"><br>  \\(f_{1}=\\sum m(4,5,6,7,8) \\) <br> \\( f_{3}=\\sum m(1,6,15) \\) <br> \\( f=\\sum m(1,6,8,15)\\) <br><br> then \\(f_{2}\\) is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sum\\)m(4,6)</p>",
+            "<b>B.</b> <p>\\(\\sum\\)m(4,8)</p>",
+            "<b>C.</b> <p>\\(\\sum\\)m(6,8)</p>",
+            "<b>D.</b> <p>\\(\\sum\\)m(4,6,8)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\sum\\)m(6,8)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/406/gate2008-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In the Karnaugh map shown below, x denotes a don't care term. What is the\nminimal form of the function represented by the Karnaugh map? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q5_98fd479f.jpg\"> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{b}\\cdot \\bar{d}+\\bar{a}\\cdot \\bar{d}\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{a}\\bar{b}+\\bar{b}\\cdot \\bar{d}+\\bar{a}b\\cdot \\bar{d}\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{b}\\cdot \\bar{d}+\\bar{a}b\\cdot \\bar{d}\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{a}\\bar{b}+\\bar{b}\\cdot \\bar{d}+\\bar{a}\\cdot \\bar{d}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\bar{b}\\cdot \\bar{d}+\\bar{a}\\cdot \\bar{d}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/403/gate2008-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following expression<br>\n\\(a\\bar{ d} + \\bar {a }\\bar {c} + b\\bar {c} d\\) <br>\nWhich of the following expressions does not correspond to the Karnaugh Map obtained for the given expression? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar c \\bar d+ a\\bar d + ab\\bar c + \\bar a \\bar cd\\)</p>",
+            "<b>B.</b> <p>\\(\\bar a\\bar c + \\bar c\\bar d + a\\bar d + ab\\bar cd\\)</p>",
+            "<b>C.</b> <p>\\(\\bar a\\bar c + a\\bar d + ab\\bar c + \\bar cd\\)</p>",
+            "<b>D.</b> <p>\\(\\bar b\\bar c \\bar d + ac\\bar d + \\bar a \\bar c + ab\\bar c\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\bar a\\bar c + a\\bar d + ab\\bar c + \\bar cd\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3531/gate2007-it-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following expression<br>\n\\(a\\bar d + \\bar a\\bar c + b\\bar cd\\) <br>\nWhich of the following Karnaugh Maps correctly represents the expression?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q78_f8e449ef.jpg\"><br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3530/gate2007-it-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The line T in the following figure is permanently connected to the ground.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q45_cb361b69.jpg\"><br>Which of the following inputs \\((X_1 X_2 X_3 X_4)\\) will detect the fault ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>111</p>",
+            "<b>C.</b> <p>1111</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3480/gate2007-it-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

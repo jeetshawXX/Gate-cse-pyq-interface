@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Numerical Methods - Guass Seidal Iterative Method",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Guass Seidal Iterative Method",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"44158\"></a><div itemprop=\"text\">\n<p>The Guass-Seidal iterative method can be used to solve which of the following sets?</p>\n\n\n</div><br><br><b>Numerical Methods: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Linear algebraic equations</p>",
+            "<p>Linear and non-linear algebraic equations</p>",
+            "<p>Linear differential equations</p>",
+            "<p>Linear and non-linear differential equations</p>"
+          ],
+          "correct_answer": "<p>Linear algebraic equations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44158/isro-2013-48\" target=\"_blank\">https://gateoverflow.in/44158/isro-2013-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Network Switching",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Network Switching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65513\"></a><div itemprop=\"text\"><p>Which of the following switching techniques is most suitable for interactive traffic ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2011 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Circuit switching</p>",
+            "<p>Message switching</p>",
+            "<p>Packet switching</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Packet switching</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65513/ugc-net-cse-june-2011-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/65513/ugc-net-cse-june-2011-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 6",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If \\(N^2 = (7601)_8\\) where N is a positive integer, then the value of N is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((241)_5\\)</p>",
+            "<b>B.</b> <p>\\((143)_6\\)</p>",
+            "<b>C.</b> <p>\\((165)_7\\)</p>",
+            "<b>D.</b> <p>\\((39)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((143)_6\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49802/isro2008-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the given network of AND and OR gates f can be written as<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q12_9957c677.jpg\"><br> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X_0X_1X_2 \\dots X_n + X_1X_2 \\dots X_n + X_2X_3 \\dots X_n + \\dots + X_n\\)</p>",
+            "<b>B.</b> <p>\\(X_0X_1 + X_2X_3+ \\dots X_{n-1}X_n\\)</p>",
+            "<b>C.</b> <p>\\(X_0+X_1 + X_2+ \\dots +X_n\\)</p>",
+            "<b>D.</b> <p>\\(X_0X_1 + X_3 \\dots X_{n-1}+ X_2X_3 + X_5 \\dots X_{n-1} + \\dots +X_{n-2} X_{n-1} +X_n\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X_0X_1X_2 \\dots X_n + X_1X_2 \\dots X_n + X_2X_3 \\dots X_n + \\dots + X_n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49796/isro2008-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The Boolean theorem \\(AB+\\bar{A}C +BC = AB + \\bar{A}C\\) corresponds to <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A+B) \\bullet (\\bar{A} +C) \\bullet (B+C) = (A+B) \\bullet (\\bar{A} +C)\\)</p>",
+            "<b>B.</b> <p>\\(AB+\\bar{A}C +BC =AB+BC\\)</p>",
+            "<b>C.</b> <p>\\(AB+\\bar{A}C +BC =(A+B) \\bullet (\\bar{A} +C) \\bullet (B+C)\\)</p>",
+            "<b>D.</b> <p>\\((A+B) \\bullet (\\bar{A} +C) \\bullet (B+C) = AB + \\bar{A}C\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((A+B) \\bullet (\\bar{A} +C) \\bullet (B+C) = (A+B) \\bullet (\\bar{A} +C)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49677/isro2008-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as \"true,\" \"false,\" and \"unknown.\" If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49529/isro2007-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The Hexadecimal equivalent of 01111100110111100011 is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CD73E</p>",
+            "<b>B.</b> <p>ABD3F</p>",
+            "<b>C.</b> <p>7CDE3</p>",
+            "<b>D.</b> <p>FA4CD</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7CDE3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49513/isro2007-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a computer system that stores a floating-point numbers with 16-bit mantissa and an 8-bit exponent, each in two's complement. The smallest and largest positive values which can be stored are : <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1 \\times 10^{-128} \\text{ and } 2^{15} \\times 10^{128}\\)</p>",
+            "<b>B.</b> <p>\\(1 \\times 10^{-256} \\text{ and } 2^{15} \\times 10^{255}\\)</p>",
+            "<b>C.</b> <p>\\(1 \\times 10^{-128} \\text{ and } 2^{15} \\times 10^{127}\\)</p>",
+            "<b>D.</b> <p>\\(1 \\times 10^{-128} \\text{ and } (2^{15}-1) \\times 10^{127}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(1 \\times 10^{-128} \\text{ and } (2^{15}-1) \\times 10^{127}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49511/isro2007-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The output 0 and 1 level for TTL Logic family is approximately <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.1 and 5V</p>",
+            "<b>B.</b> <p>0.6 and 3.5 V</p>",
+            "<b>C.</b> <p>0.9 and 1.75 V</p>",
+            "<b>D.</b> <p>-1.75 and 0.9 V</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0.6 and 3.5 V</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49510/isro2007-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Ring counter is analogous to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Toggle Switch</p>",
+            "<b>B.</b> <p>Latch</p>",
+            "<b>C.</b> <p>Stepping Switch</p>",
+            "<b>D.</b> <p>S-R flip flop</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Stepping Switch</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49508/isro2007-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In an SR latch made by cross-coupling two NAND gates, if both S and R inputs are set to 0, then it will result in <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q = 0, Q' = 1</p>",
+            "<b>B.</b> <p>Q = 1, Q' = 0</p>",
+            "<b>C.</b> <p>Q = 1, Q' = 1</p>",
+            "<b>D.</b> <p>Indeterminate states</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Q = 1, Q' = 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1015/gate2004-18-isro2007-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>0.75 decimal system is equivalent to ____ in octal system <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.6</p>",
+            "<b>B.</b> <p>0.52</p>",
+            "<b>C.</b> <p>0.54</p>",
+            "<b>D.</b> <p>0.5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49504/isro2007-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The number of digit 1 present in the binary representation of <br>\n\\(3 \\times 512 + 7 \\times 64 + 5 \\times 8 + 3\\) is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49490/isro2007-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The characteristic equation of an SR flip-flop is given by : <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Q_{n+1}=S+RQ_n\\)</p>",
+            "<b>B.</b> <p>\\(Q_{n+1}=R\\bar{Q}_n + \\bar{S}Q_n\\)</p>",
+            "<b>C.</b> <p>\\(Q_{n+1}=\\bar{S}+RQ_n\\)</p>",
+            "<b>D.</b> <p>\\(Q_{n+1}=S+\\bar{R}Q_n\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(Q_{n+1}=S+\\bar{R}Q_n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49475/isro2007-05\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>When two numbers are added in excess-3 code and the sum is less than 9, then in order to get the correct answer it is necessary to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>subtract 0011 from the sum</p>",
+            "<b>B.</b> <p>add 0011 to the sum</p>",
+            "<b>C.</b> <p>subtract 0110 from the sum</p>",
+            "<b>D.</b> <p>add 0110 to the sum</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>subtract 0011 from the sum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49474/isro2007-04\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The circuit shown in the given figure is a <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q3_2cdef408.jpg\"><br> <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>full adder</p>",
+            "<b>B.</b> <p>full subtracter</p>",
+            "<b>C.</b> <p>shift register</p>",
+            "<b>D.</b> <p>decade counter</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>full subtracter</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48451/isro2007-03\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The circuit shown in the following figure realizes the function. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q2_6dcd75de.jpg\"><br> <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\overline{A+B}+C)(\\bar{D}\\bar{E})\\)</p>",
+            "<b>B.</b> <p>\\((\\overline{A+B}+C)(D\\bar{E})\\)</p>",
+            "<b>C.</b> <p>\\((A+ \\overline{B+C})(\\bar{D}E)\\)</p>",
+            "<b>D.</b> <p>\\((A+ B+\\bar{C})(\\bar{D} \\bar{E})\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\overline{A+B}+C)(\\bar{D}\\bar{E})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48446/isro2007-02\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The Boolean expression \\(Y=(A+\\bar{B}+\\bar{A}B)\\bar{C}\\) is given by <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A\\bar{C}\\)</p>",
+            "<b>B.</b> <p>\\(B\\bar{C}\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{C}\\)</p>",
+            "<b>D.</b> <p>AB</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\bar{C}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48443/isro2007-01\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

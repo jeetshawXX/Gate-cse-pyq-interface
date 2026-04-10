@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Distributed Computing - Computing Models",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Computing Models",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61536\"></a><div itemprop=\"text\"><p>Which of the following computing models is not an example of distributed computing environment ?</p>\n\n</div><br><br><b>Distributed Computing: UGC NET CSE | December 2014 | Part 3 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cloud computing</p>",
+            "<p>Parallel computing&nbsp;</p>",
+            "<p>Cluster computing&nbsp;</p>",
+            "<p>Peer-to-peer computing&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Parallel computing&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61536/ugc-net-cse-december-2014-part-3-question-75\" target=\"_blank\">https://gateoverflow.in/61536/ugc-net-cse-december-2014-part-3-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+}

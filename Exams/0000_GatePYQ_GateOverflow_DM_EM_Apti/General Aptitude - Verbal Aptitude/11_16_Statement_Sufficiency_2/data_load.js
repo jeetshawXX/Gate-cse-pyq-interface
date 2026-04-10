@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Statement Sufficiency",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Statement Sufficiency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8006\"></a><div itemprop=\"text\"><p>Based on the given statements, select the most appropriate option to solve the given question.</p>\n\n<p>If two floors in a certain building are \\( 9 \\) feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?</p>\n\n<p>Statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Each step is \\( 3/4 \\) foot high.</li>\n\t<li>Each step is \\( 1 \\) foot wide.&nbsp;</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statements I alone is sufficient, but statement II alone is not sufficient.</p>",
+            "<p>Statements II alone is sufficient, but statement I alone is not sufficient.</p>",
+            "<p>Both statements together are sufficient, but neither statement alone is sufficient.</p>",
+            "<p>Statements I and II together are not sufficient.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Statements I alone is sufficient, but statement II alone is not sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4\" target=\"_blank\">https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8033\"></a><div itemprop=\"text\"><p>Based on the given statements, select the most appropriate option to solve the given question.</p>\n\n<p>What will be the total weight of \\( 10 \\) poles each of same weight?</p>\n\n<p>Statements:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>One fourth of the weight of the pole is \\( 5\\;\\text{Kg} \\).</li>\n\t<li>The total weight of these poles is \\( 160\\;\\text{Kg} \\) more than the total weight of two poles.</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statement I alone is not sufficient.</p>",
+            "<p>Statement II alone is not sufficient.</p>",
+            "<p>Either I or II alone is sufficient.</p>",
+            "<p>Both statements I and II together are not sufficient.</p>"
+          ],
+          "correct_answer": "<p>Either I or II alone is sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8033/gate-cse-2015-set-2-question-ga-5\" target=\"_blank\">https://gateoverflow.in/8033/gate-cse-2015-set-2-question-ga-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

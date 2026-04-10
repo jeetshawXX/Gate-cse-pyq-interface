@@ -1,0 +1,26 @@
+{
+  "title": "CO and Architecture - Byte Addressable",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Byte Addressable",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57019\"></a><div itemprop=\"text\">\n<p>A byte addressable computer has a memory capacity of \\( 2^{m} \\) Kbytes and can perform \\( 2^{n} \\) operations. An instruction involving \\( 3 \\) operands and one operator needs a maximum of&nbsp;</p>\n\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2014 | Part 3 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3m \\) bits</p>",
+            "<p>\\( m + n \\) bits</p>",
+            "<p>\\( 3m + n \\) bits</p>",
+            "<p>\\( 3m + n + 30 \\) bits&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 3m + n + 30 \\) bits&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57019/ugc-net-cse-june-2014-part-3-question-43\" target=\"_blank\">https://gateoverflow.in/57019/ugc-net-cse-june-2014-part-3-question-43</a></p>"
+        }
+      ]
+    }
+  ]
+}

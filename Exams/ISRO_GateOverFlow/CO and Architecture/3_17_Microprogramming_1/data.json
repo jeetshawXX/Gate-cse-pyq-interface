@@ -1,0 +1,26 @@
+{
+  "title": "CO and Architecture - Microprogramming",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Microprogramming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213554\"></a><div itemprop=\"text\">\n\n<p>Micro program is:</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2018 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the name of a source program in micro computers</p>",
+            "<p>set of microinstructions that defines the individual operations in response to a machine-language instruction</p>",
+            "<p>a primitive form of macros used in assembly language programming</p>",
+            "<p>a very small segment of machine code</p>"
+          ],
+          "correct_answer": "<p>set of microinstructions that defines the individual operations in response to a machine-language instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213554/isro-cse-2018-question-34\" target=\"_blank\">https://gateoverflow.in/213554/isro-cse-2018-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

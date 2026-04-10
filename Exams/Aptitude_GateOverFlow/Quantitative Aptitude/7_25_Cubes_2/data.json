@@ -1,0 +1,31 @@
+{
+  "title": "Quantitative Aptitude - Cubes",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Cubes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2932\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16495871443853515178\"></p>\n\n<p><strong>A Cube of side 4 cm is cut into 64 equal parts which are numbered from 1 to 64 in such a manner.The cube is single Diagonal cut.</strong></p>\n\n<p><em>Now find the sum of the elements of the cubes which are cut by the single diagonal cut.</em></p></div><br><br><b>Quantitative Aptitude: This is a popular question from Cubes chapter of Quantitative Aptitude Mathematics</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2932/popular-question-chapter-quantitative-aptitude-mathematics\" target=\"_blank\">https://aptitude.gateoverflow.in/2932/popular-question-chapter-quantitative-aptitude-mathematics</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"683\"></a><div itemprop=\"text\">1)if six cuts are made to cube what isax no of pieces obtained?<br>\n<br>\n2)if 10 cuts are made on cube what is max no of pieces obtained?<br>\n<br>\n3)what is min no of cuts to obtain 216 identical pieces?<br>\n<br>\n4)what is min no of cuts required to cut cube in 24 pieces?<br>\n<br>\n5)27 identical cubes are aranged to form larger cube.How many such cubes are required to completely cover larger cube so that figure obtained is also cube?<br>\n<br>\n1)125 2)98 3)80 4)64</div><br><br><b>Quantitative Aptitude: cubes</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/683/cubes\" target=\"_blank\">https://aptitude.gateoverflow.in/683/cubes</a></p>"
+        }
+      ]
+    }
+  ]
+}

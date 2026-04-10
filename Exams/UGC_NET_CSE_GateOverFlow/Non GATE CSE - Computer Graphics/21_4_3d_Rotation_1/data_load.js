@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - 3d Rotation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "3d Rotation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59937\"></a><div itemprop=\"text\"><p>Consider the following transformation matrix for rotation(clockwise):</p>\n\n<p>\\( [T] = \\begin{bmatrix} \\cos\\theta &amp; \\sin\\theta &amp; 0 &amp; 0 \\\\ -\\sin\\theta &amp; \\cos\\theta &amp; 0 &amp; 0 \\\\ 0&nbsp;&amp; 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 0 &amp; 1 \\end{bmatrix} \\)</p>\n\n<p>This matrix rotates an object by an angle \\( \\theta \\) about:</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | September 2013 | Part 3 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>X-axis</p>",
+            "<p>Y-axis</p>",
+            "<p>Z-axis</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Z-axis</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59937/ugc-net-cse-september-2013-part-3-question-64\" target=\"_blank\">https://gateoverflow.in/59937/ugc-net-cse-september-2013-part-3-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+});

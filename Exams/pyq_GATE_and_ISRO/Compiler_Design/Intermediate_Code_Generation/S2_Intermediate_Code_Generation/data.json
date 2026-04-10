@@ -1,0 +1,226 @@
+{
+  "title": "Intermediate_Code_Generation - Intermediate_Code_Generation - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Intermediate_Code_Generation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the intermediate code given below.<br>\n(1) i = 1 <br>\n(2) j = 1 <br>\n(3) t1 = 5 * i  <br>\n(4) t2 = t1 + j  <br>\n(5) t3 = 4 * t2 <br>\n(6) t4 = t3 <br>\n(7) a[t4] = -1 <br>\n(8) j = j + 1 <br>\n(9) if j\\(\\leq \\)5 goto (3) <br>\n(10) i=i+1 <br>\n(11) if i\\(\\lt \\)5 goto (2) <br>\nThe number of nodes and edges in the control-flow-graph constructed for the above code, respectively, are <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 and 7</p>",
+            "<b>B.</b> <p>6 and 7</p>",
+            "<b>C.</b> <p>5 and 5</p>",
+            "<b>D.</b> <p>7 and 8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6 and 7</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8139/gate2015-2-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the context of abstract-syntax-tree (AST) and control-flow-graph (CFG), which one of the following is TRUE? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In both AST and CFG, let node N2 be the successor of node N1. In the input program, the code corresponding to N2 is present after the code corresponding to N1</p>",
+            "<b>B.</b> <p>For any input program, neither AST nor CFG will contain a cycle</p>",
+            "<b>C.</b> <p>The maximum number of successors of a node in an AST and a CFG depends on the input program</p>",
+            "<b>D.</b> <p>Each node in AST and CFG corresponds to at most one statement in the input program</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The maximum number of successors of a node in an AST and a CFG depends on the input program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8084/gate2015-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The least number of temporary variables required to create a three-address code in static single assignment form for the expression q + r / 3 + s - t * 5 + u * v /w is _______________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8365/gate2015-1-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A variable x is said to be live at a statement \\(S_{i}\\) in a program if the following three conditions hold simultaneously: <br>\ni. There exists a statement \\(S_{j}\\) that uses x <br>\nii. There is a path from \\(S_{i}\\) to \\(S_{j}\\) in the flow graph corresponding to the program <br>\niii. The path has no intervening assignment to x including at \\(S_{i}\\) and \\(S_{j}\\) <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Intermediate_Code_Generation\\q36_5e8cdf73.jpg\"><br> The variables which are live both at the statement in basic block 2 and at the statement in basic block 3 of the above control flow graph are <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p, s, u</p>",
+            "<b>B.</b> <p>r, s, u</p>",
+            "<b>C.</b> <p>r,u</p>",
+            "<b>D.</b> <p>q,v</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>r,u</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8356/gate2015-1-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the basic block given below.<br>\na= b + c <br>\nc =a + d <br>\nd =b + c <br>\ne =d - b <br>\na =e + b <br>\nThe minimum number of nodes and edges present in the DAG representation of the above basic block respectively are <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 6</p>",
+            "<b>B.</b> <p>8 and 10</p>",
+            "<b>C.</b> <p>9 and 12</p>",
+            "<b>D.</b> <p>4 and 4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6 and 6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2068/gate2014-3-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>One of the purposes of using intermediate code in compilers is to <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>make parsing and semantic analysis simpler</p>",
+            "<b>B.</b> <p>improve error recovery and error reporting</p>",
+            "<b>C.</b> <p>increase the chances of reusing the machine-independent code optimizer in other compliers.</p>",
+            "<b>D.</b> <p>improve the register allocation</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>increase the chances of reusing the machine-independent code optimizer in other compliers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2051/gate2014-3-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The minimum number of arithmetic operations required to evaluate the polynomial\n\\(P(x)=x^{5}+4x^{3}+6x+5\\) for a given value of x, using only one temporary variable is _____. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2045/gate2014-3-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>For a C program accessing x[i][j][k], the following intermediate code is generated by a\ncompiler. Assume that the size of an integer is 32 bits and the size of a character is 8 bits. <br>\nt0 = i * 1024 <br>\nt1 = j * 32 <br>\nt2 = k * 4 <br>\nt3 = t1 + t0 <br>\nt4 = t3 + t2 <br>\nt5 = x[t4]<br>\nWhich one of the following statements about the source code for the C program is\nCORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x is declared as \"int x[32] [32] [8]\".</p>",
+            "<b>B.</b> <p>x is declared as \"int x[4] [1024] [32]\".</p>",
+            "<b>C.</b> <p>x is declared as \"char x[4] [32] [8]\".</p>",
+            "<b>D.</b> <p>x is declared as \"char x[32] [16] [2]\".</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>x is declared as \"int x[32] [32] [8]\".</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1993/gate2014-2-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which one of the following is FALSE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A basic block is a sequence of instructions where control enters the sequence at the\nbeginning and exits at the end.</p>",
+            "<b>B.</b> <p>Available expression analysis can be used for common subexpression elimination.</p>",
+            "<b>C.</b> <p>Live variable analysis can be used for dead code elimination</p>",
+            "<b>D.</b> <p>x=4*5 \\(\\Rightarrow\\)x=20 is an example of common subexpression elimination</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x=4*5 \\(\\Rightarrow\\)x=20 is an example of common subexpression elimination</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1784/gate2014-1-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The following code segment is executed on a processor which allows only register operands in its\ninstructions. Each instruction can have atmost two source operands and one destination operand. Assume\nthat all variables are dead after this code segment.<pre><code>c = a + b;\nd = c * a;\ne = c + a;\nx = c * c;\nif (x &gt; a) {\n   y = a * a;\n}\nelse {\n   d = d * d;\n   e = e * e;\n} </code></pre> What is the minimum number of registers needed in the instruction set architecture of the processor\nto compile this code segment without any spill to memory? Do not apply any optimization other\nthan optimizing register allocation <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43293/gate2013-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The following code segment is executed on a processor which allows only register operands in its\ninstructions. Each instruction can have atmost two source operands and one destination operand. Assume\nthat all variables are dead after this code segment.<pre><code>c = a + b;\nd = c * a;\ne = c + a;\nx = c * c;\nif (x &gt; a) {\n   y = a * a;\n}\nelse {\n   d = d * d;\n   e = e * e;\n} </code></pre>  Suppose the instruction set architecture of the processor has only two registers. The only allowed\ncompiler optimization is code motion, which moves statements from one place to another while\npreserving correctness. What is the minimum number of spills to memory in the compiled code? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1556/gate2013-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following statements about peephole optimization is False? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is applied to a small part of the code</p>",
+            "<b>B.</b> <p>It can be used to optimize intermediate code</p>",
+            "<b>C.</b> <p>To get the best out of this, it has to be applied repeatedly</p>",
+            "<b>D.</b> <p>It can be applied to the portion of the code that is not contiguous</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It can be applied to the portion of the code that is not contiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52264/isro2011-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider evaluating the following expression tree on a machine with load-store\narchitecture in which memory can be accessed only through load and store\ninstructions. The variables a, b, c, d and e are initially stored in memory. The\nbinary operators used in this expression tree can be evaluated by the machine\nonly when the operands are in registers. The instructions produce result only in a\nregister. If no intermediate results can be stored in memory, what is the\nminimum number of registers needed to evaluate this expression?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Intermediate_Code_Generation\\q47_a8b512f3.jpg\"> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2138/gate2011-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The program below uses six temporary variables a, b, c, d, e, f. <br><br>\na =1 <br>\nb= 10<br>\nc =20<br>\nd= a +b<br>\ne= c +d<br>\nf =c +e<br>\nb= c+ e<br>\ne =b +f<br>\nd =5 +e<br>\nreturn d +f<br><br>\nAssuming that all operations take their operands from registers, what is the\nminimum number of registers needed to execute this program without spilling? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2338/gate2010-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Some code optimizations are carried out on the intermediate code because <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>They enhance the portability of the compiler to other target processors</p>",
+            "<b>B.</b> <p>Program analysis is more accurate on intermediate code than on machine code</p>",
+            "<b>C.</b> <p>The information from dataflow analysis cannot otherwise be used for optimization</p>",
+            "<b>D.</b> <p>The information from the front end cannot otherwise be used for optimization</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>They enhance the portability of the compiler to other target processors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/410/gate2008-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

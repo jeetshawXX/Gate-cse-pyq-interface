@@ -1,0 +1,116 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Number Series",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Number Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275553\"></a><div itemprop=\"text\"><p>Look at this series: \\( 5000, 1001, 201, 41, \\dots \\) What number should come next?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 42 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275553/nielit-2018-11\" target=\"_blank\">https://gateoverflow.in/275553/nielit-2018-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275555\"></a><div itemprop=\"text\"><p>Look at this series: \\( 25, 25, 37, 37, \\dots , 51, …. \\). What number should fill the blank?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 51 \\)</p>",
+            "<p>\\( 39 \\)</p>",
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 51 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275555/nielit-2018-9\" target=\"_blank\">https://gateoverflow.in/275555/nielit-2018-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369261\"></a><div itemprop=\"text\"><p>Find the wrong term in the series \\( 5, 11, 29, 83, 245, 765, 2189, 6563 : \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 245 \\)</p>",
+            "<p>\\( 765 \\)</p>",
+            "<p>\\( 2189 \\)</p>",
+            "<p>\\( 6563 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 765 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369261/nielit-2021-dec-scientist-a-section-a-32\" target=\"_blank\">https://gateoverflow.in/369261/nielit-2021-dec-scientist-a-section-a-32</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"369286\"></a><div itemprop=\"text\"><p>What value should come in place of the question mark \\( (?) \\) in the series given below ?</p>\n\n<p>\\( \\text{BEAG, DGCI, FIEK, ?} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{HMIE} \\)</p>",
+            "<p>\\( \\text{HKGM} \\)</p>",
+            "<p>\\( \\text{HGKJ} \\)</p>",
+            "<p>\\( \\text{HKLJ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{HKGM} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369286/nielit-2021-dec-scientist-a-section-a-7\" target=\"_blank\">https://gateoverflow.in/369286/nielit-2021-dec-scientist-a-section-a-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"366852\"></a><div itemprop=\"text\"><p>Directions \\( (3-5)&nbsp;: \\) In each of the following questions, one number&nbsp;is wrong in the series. Find out the wrong number.</p>\n\n<p>\\( 3, 5, 12, 39, 154, 772, 4634&nbsp;: \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 39 \\)</p>",
+            "<p>\\( 154 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 39 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366852/nielit-2021-dec-scientist-b-section-a-3\" target=\"_blank\">https://gateoverflow.in/366852/nielit-2021-dec-scientist-b-section-a-3</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"410591\"></a><div itemprop=\"text\"><p>In the following number series, only one number is wrong. Find out the wrong number.</p>\n\n<p>\\( 9050,5675,3478,2147,1418,1077,950 \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3478 \\)</p>",
+            "<p>\\( 1418 \\)</p>",
+            "<p>\\( 5675 \\)</p>",
+            "<p>\\( 1077 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 3478 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410591/nielit-2023-feb-scientist-d-section-a-question-12\" target=\"_blank\">https://gateoverflow.in/410591/nielit-2023-feb-scientist-d-section-a-question-12</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351643\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>What is the next number \\( 16, 30, 54, 88, 132,\\dots \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 186 \\)</p>",
+            "<p>\\( 188 \\)</p>",
+            "<p>\\( 190 \\)</p>",
+            "<p>\\( 206 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 186 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351643/nielit-scientist-b-2020-november-39\" target=\"_blank\">https://gateoverflow.in/351643/nielit-scientist-b-2020-november-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "File_Systems - File_Systems - Slot 1",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "File_Systems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Using a larger block size in a fixed block size file system leads to <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>better disk throughput but poorer disk space utilization</p>",
+            "<b>B.</b> <p>better disk throughput and better disk space utilization</p>",
+            "<b>C.</b> <p>poorer disk throughput but better disk space utilization</p>",
+            "<b>D.</b> <p>poorer disk throughput and poorer disk space utilization</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>better disk throughput but poorer disk space utilization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/915/gate2003-25-isro2009-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

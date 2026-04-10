@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Linear Search",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linear Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60976\"></a><div itemprop=\"text\"><p>The average case occurs in Linear Search Algorithm when</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | Junet 2015 | Part 2 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The item to be searched is in some where middle of the Array</p>",
+            "<p>The item to be searched is not in the array</p>",
+            "<p>The item to be searched is in the last of t he array</p>",
+            "<p>The item to be searched is either in the last or not in the array</p>"
+          ],
+          "correct_answer": "<p>The item to be searched is in some where middle of the Array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60976/ugc-net-cse-junet-2015-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/60976/ugc-net-cse-junet-2015-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

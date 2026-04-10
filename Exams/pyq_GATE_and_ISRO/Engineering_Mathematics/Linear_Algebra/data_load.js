@@ -1,0 +1,1469 @@
+window.__examLoadCallback({
+  "title": "Engineering_Mathematics - Linear_Algebra",
+  "duration": 285,
+  "sections": [
+    {
+      "name": "Linear_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a system of linear equations \\(P X = Q \\) where \\(P \\in \\mathbb{R}^{3 \\times 3} \\) and \\(Q \\in \\mathbb{R}^{3 \\times 1} \\).\nSuppose \\(P \\) has an \\(LU \\) decomposition, \\(P = LU \\), where<br><br>\n\\( L = \\begin{bmatrix} 1 &amp; 0 &amp; 0 \\\\ l_{21} &amp; 1 &amp; 0 \\\\ l_{31} &amp; l_{32} &amp; 1 \\end{bmatrix} \\quad \\text{and} \\quad U = \\begin{bmatrix} u_{11} &amp; u_{12} &amp; u_{13} \\\\ 0 &amp; u_{22} &amp; u_{23} \\\\ 0 &amp; 0 &amp; u_{33} \\end{bmatrix} \\)<br><br>\nWhich of the following statement(s) is/are TRUE? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The system \\(P X = Q \\) can be solved by first solving \\(L Y = Q \\) and then \\(U X = Y \\).</p>",
+            "<b>B.</b> <p>If \\(P \\) is invertible, then both \\(L \\) and \\(U \\) are invertible.</p>",
+            "<b>C.</b> <p>If \\(P \\) is singular, then at least one of the diagonal elements of \\(U \\) is zero.</p>",
+            "<b>D.</b> <p>If \\(P \\) is symmetric, then both \\(L \\) and \\(U \\) are symmetric.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The system \\(P X = Q \\) can be solved by first solving \\(L Y = Q \\) and then \\(U X = Y \\).</p>",
+            "<b>B.</b> <p>If \\(P \\) is invertible, then both \\(L \\) and \\(U \\) are invertible.</p>",
+            "<b>C.</b> <p>If \\(P \\) is singular, then at least one of the diagonal elements of \\(U \\) is zero.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460801/gate-cse-2025-set-2-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(L \\), \\(M \\), and \\(N \\) be non-singular matrices of order 3 satisfying the equations <br><br>\n\\( L^2 = L^{-1}, \\quad M = L^8, \\quad N = L^2. \\)<br><br>\nWhich ONE of the following is the value of the determinant of \\((M - N) \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460831/gate-cse-2025-set-2-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>\\( A = \\begin{pmatrix} 1 &amp; 2 \\\\ 2 &amp; -1 \\end{pmatrix}, \\)\nthen which ONE of the following is \\(A^8 \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix} 25 &amp; 0 \\\\ 0 &amp; 25 \\end{pmatrix} \\)</p>",
+            "<b>B.</b> <p>\\(\\begin{pmatrix} 125 &amp; 0 \\\\ 0 &amp; 125 \\end{pmatrix} \\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix} 625 &amp; 0 \\\\ 0 &amp; 625 \\end{pmatrix} \\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix} 3125 &amp; 0 \\\\ 0 &amp; 3125 \\end{pmatrix} \\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\begin{pmatrix} 625 &amp; 0 \\\\ 0 &amp; 625 \\end{pmatrix} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460834/gate-cse-2025-set-2-question-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(A\\) be a 2x2 matrix as given:\n<br>\n\\(A = \\left[\\begin{array}{cc} 1 &amp; 1 \\\\ 1 &amp; -1 \\end{array}\\right]\\)\n<br>\nWhat are the eigenvalues of the matrix \\(A^{13}\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1,-1\\)</p>",
+            "<b>B.</b> <p>\\(2\\sqrt{2}, -2\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>\\(4\\sqrt{2}, -4\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>\\(64\\sqrt{2}, -64\\sqrt{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(64\\sqrt{2}, -64\\sqrt{2}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460049/gate-cse-2025-set-1-question-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(A\\)  be an \\( n \\times n\\)  matrix over the set of all real numbers \\(R\\). Let \\(B\\)  be a matrix obtained from \\(A\\) by swapping two rows. Which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The determinant of \\(B\\) is the negative of the determinant of \\(A\\)</p>",
+            "<b>B.</b> <p>If \\(A\\) is invertible, then \\(B\\) is also invertible</p>",
+            "<b>C.</b> <p>If \\(A\\) is symmetric, then \\(B\\) is also symmetric</p>",
+            "<b>D.</b> <p>If the trace of \\(A\\) is zero, then the trace of \\(B\\) is also zero</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The determinant of \\(B\\) is the negative of the determinant of \\(A\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\( x \\) and \\( y \\) be random variables, not necessarily independent, that take real values in the interval \\( [0,1] \\). Let \\( z=x y \\) and let the mean values of \\( x, y, z \\) be \\( \\bar{x}, \\bar{y}, \\bar{z} \\), respectively. Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\bar{z}=\\bar{x} \\bar{y} \\)</p>",
+            "<b>B.</b> <p>\\(  \\bar{z} \\leq \\bar{x} \\bar{y} \\)</p>",
+            "<b>C.</b> <p>\\( \\bar{z} \\geq \\bar{x} \\bar{y} \\)</p>",
+            "<b>D.</b> <p>\\( \\bar{z} \\leq \\bar{x} \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\( \\bar{z} \\leq \\bar{x} \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422863/gate-cse-2024-set-2-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let \\( A \\) be any \\( n \\times m \\) matrix, where \\( m &gt; n \\). Which of the following statements is/are TRUE about the system of linear equations \\( A x=0 \\) ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exist at least \\( m-n \\) linearly independent solutions to this system</p>",
+            "<b>B.</b> <p>There exist \\( m-n \\) linearly independent vectors such that every solution is a linear combination of these vectors</p>",
+            "<b>C.</b> <p>There exists a non-zero solution in which at least \\( m-n \\) variables are 0</p>",
+            "<b>D.</b> <p>There exists a solution in which at least \\( n \\) variables are non-zero</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exist at least \\( m-n \\) linearly independent solutions to this system</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The product of all eigenvalues of the matrix \\(\\begin{bmatrix}\n1 &amp; 2 &amp; 3\\\\\n4 &amp; 5 &amp;6 \\\\\n7 &amp;8  &amp; 9\n\\end{bmatrix}\\) is <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1\\)</p>",
+            "<b>B.</b> <p>\\(0\\)</p>",
+            "<b>C.</b> <p>\\(1\\)</p>",
+            "<b>D.</b> <p>\\(2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let A be the adjacency matrix of the graph with vertices {1, 2, 3, 4, 5}.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Linear_Algebra\\q20_146e1864.jpg\"><br>Let \\(\\lambda _1,\\lambda _2,\\lambda _3,\\lambda _4,\\; and \\; \\lambda _5\\) be the five eigenvalues of A. Note that these eigenvalues\nneed not be distinct.<br>The value of \\(\\lambda _1+\\lambda _2+\\lambda _3+ \\lambda _4+  \\lambda _5\n=\\) _____ <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399291/gate-cse-2023-question-20#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let \\( A=\\begin{bmatrix}\n1 &amp; 2 &amp; 3 &amp;4 \\\\\n4&amp;  1&amp; 2 &amp;3 \\\\\n3&amp; 4 &amp; 1 &amp;2 \\\\\n2 &amp;3  &amp;4  &amp;1\n\\end{bmatrix}\\) and \\( B=\\begin{bmatrix}\n3&amp; 4 &amp; 1 &amp;2 \\\\\n4&amp;  1&amp; 2 &amp;3 \\\\\n1 &amp; 2 &amp; 3 &amp;4 \\\\\n2 &amp;3  &amp;4  &amp;1\n\\end{bmatrix}\\)<br>Let det(A) and det(B) denote the determinants of the matrices A and B,\nrespectively.<br>\nWhich one of the options given below is TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>det(A) = det(B)</p>",
+            "<b>B.</b> <p>det(B) = - det(A)</p>",
+            "<b>C.</b> <p>det(A)=0</p>",
+            "<b>D.</b> <p>det(AB) = det(A) + det(B)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>det(B) = - det(A)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399304/gate-cse-2023-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following is/are the eigenvector(s) for the matrix given below?<br>\\( \\begin{pmatrix}\n-9 &amp;-6  &amp;-2  &amp;-4  \\\\\n-8&amp; -6 &amp; -3 &amp; -1 \\\\\n20 &amp; 15 &amp; 8 &amp; 5 \\\\\n32&amp;  21&amp;  7&amp;12\n\\end{pmatrix}\\) <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix}\n-1\\\\\n1\\\\\n0\\\\\n1\n\\end{pmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{pmatrix}\n1\\\\\n0\\\\\n-1\\\\\n0\n\\end{pmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix}\n-1\\\\\n0\\\\\n2\\\\\n2\n\\end{pmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix}\n0\\\\\n1\\\\\n-3\\\\\n0\n\\end{pmatrix}\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix}\n-1\\\\\n1\\\\\n0\\\\\n1\n\\end{pmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix}\n-1\\\\\n0\\\\\n2\\\\\n2\n\\end{pmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix}\n0\\\\\n1\\\\\n-3\\\\\n0\n\\end{pmatrix}\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371893/Gate-cse-2022-question-43#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider solving the following system of simultaneous equations using LU decomposition.<br>\\( \\begin{aligned}\nx_1+x_2-2x_3&amp;=4 \\\\\nx_1+3x_2-x_3&amp;=7 \\\\\n2x_1+x_2-5x_3&amp;=7\n\\end{aligned}\\)<br>where L and U are denoted as<br>\\(L= \\begin{bmatrix}\nL_{11} &amp; 0 &amp; 0 \\\\\nL_{21}&amp; L_{22} &amp; 0 \\\\\nL_{31} &amp; L_{32} &amp; L_{33}\n\\end{bmatrix}, U= \\begin{bmatrix}\nU_{11} &amp; U_{12} &amp; U_{13} \\\\\n0&amp; U_{22} &amp; U_{23} \\\\\n0 &amp; 0 &amp; U_{33}\n\\end{bmatrix}\\)<br>Which one of the following is the correct combination of values for \\(L32, U33,\\) and \\(x_1\\)? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_{32}=2,U_{33}=-\\frac{1}{2},x_1=-1\\)</p>",
+            "<b>B.</b> <p>\\(L_{32}=2,U_{33}=2,x_1=-1\\)</p>",
+            "<b>C.</b> <p>\\(L_{32}=-\\frac{1}{2},U_{33}=2,x_1=0\\)</p>",
+            "<b>D.</b> <p>\\(L_{32}=-\\frac{1}{2},U_{33}=-\\frac{1}{2},x_1=0\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(L_{32}=-\\frac{1}{2},U_{33}=-\\frac{1}{2},x_1=0\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371901/Gate-cse-2022-question-35#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following two statements with respect to the matrices \\(A_{m  \\times n},B_{n  \\times m},C_{n  \\times n}  \\text{ and }D_{n  \\times n},\\)<br><br> Statement 1: \\(tr(AB) = tr(BA)\\)  <br> Statement 2: \\(tr(CD) = tr(DC)\\)  <br><br>where\\(tr()\\) represents the trace of a matrix. Which one of the following holds? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statement 1 is correct and Statement 2 is wrong.</p>",
+            "<b>B.</b> <p>Statement 1 is wrong and Statement 2 is correct.</p>",
+            "<b>C.</b> <p>Both Statement 1 and Statement 2 are correct.</p>",
+            "<b>D.</b> <p>Both Statement 1 and Statement 2 are wrong.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both Statement 1 and Statement 2 are correct.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371926/Gate-cse-2022-question-10#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Suppose that P is a 4x5 matrix such that every solution of the equation Px=0 is a scalar multiple of \\(\\begin{bmatrix} 2 &amp; 5 &amp; 4 &amp;3 &amp; 1 \\end{bmatrix}^T\\). The rank of P is _______ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357516/gate-cse-2021-set-2-question-24#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following matrix.<br>\\(\\begin{pmatrix} 0 &amp; 1 &amp; 1 &amp; 1\\\\ 1&amp; 0&amp; 1 &amp; 1\\\\ 1&amp; 1 &amp; 0 &amp; 1 \\\\1 &amp; 1 &amp; 1 &amp; 0 \\end{pmatrix}\\)<br>The largest eigenvalue of the above matrix is __________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357399/gate-cse-2021-set-1-question-52#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>If \\(x+2 y=30\\),then \\(\\left(\\frac{2 y}{5}+\\frac{x}{3}\\right)+\\left(\\frac{x}{5}+\\frac{2 y}{3}\\right)\\) will be equal to <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>16</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331481/isro2020-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Let A and B be two nxn matrices over real numbers. Let rank(M) and det(M) denote the rank and determinant of a matrix M, respectively. Consider the following statements. <br><br>\nI.    rank(AB)=rank (A)rank (B)<br>\nII.  det(AB)=det(A)det(B)<br>\nIII. rank(A+B) \\(\\leq\\) rank (A) + rank (B)<br>\nIV. det(A+B) \\(\\leq\\) det(A) + det(B)<br><br>\nWhich of the above statements are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>III and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333204/gate2020-cs-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider the following matrix:  <br>\\(\\begin{bmatrix} 1 &amp; 2 &amp; 4 &amp; 8\\\\ 1&amp; 3 &amp; 9 &amp;27 \\\\ 1 &amp; 4 &amp; 16 &amp;64 \\\\ 1 &amp; 5 &amp; 25 &amp;125 \\end{bmatrix}\\)<br> The absolute value of the product of Eigenvalues of R is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302804/gate2019-cs-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Let X be a square matrix. Consider the following two statements on X.<br><br>\nI. X is invertible<br>\nII. Determinant of X is non-zero <br><br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I implies II; II does not imply I</p>",
+            "<b>B.</b> <p>II implies I; I does not imply II</p>",
+            "<b>C.</b> <p>I does not imply II; II does not imply I</p>",
+            "<b>D.</b> <p>I and II are equivalent statements</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I and II are equivalent statements</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302839/gate2019-cs-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider a matrix P whose only eigenvectors are the multiples of \\(\\begin{bmatrix} 1\\\\ 4 \\end{bmatrix}\\). <br>\nConsider the following statements. <br>\n(I) P does not have an inverse <br>\n(II) P has a repeated eigenvalue <br>\n(III) P cannot be diagonalized <br>\nWhich one of the following options is correct? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I and III are necessarily true</p>",
+            "<b>B.</b> <p>Only II is necessarily true</p>",
+            "<b>C.</b> <p>Only I and II are necessarily true</p>",
+            "<b>D.</b> <p>Only II and III are necessarily true</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only II and III are necessarily true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204100/gate2018-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Consider a matrix \\(A=uv^{T}\\; where \\; u=\\begin{bmatrix} 1\\\\ 2 \\end{bmatrix},v=\\begin{bmatrix} 1\\\\ 1 \\end{bmatrix}\\)  Note that \\(v^{T}\\)  denotes the transpose of v. The largest eigenvalue of A is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204091/gate2018-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>If A is a skew symmetric matrix then \\(A^{t}\\)  is <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Diagonal matrix</p>",
+            "<b>B.</b> <p>A</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>-A</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>-A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128505/isro2017-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>If the characteristics polynomial of 3x3 matrix M over R ( the set of real numbers) is\n\\(\\lambda ^{3}-4\\lambda ^{2}+a\\lambda +30,a\\in R\\), and one eigenvalue of M is 2, then the largest among the absolute values of the eigenvalues of M is ________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118618/gate2017-2-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider a quadratic equation \\(x^{2} -13x +36 = 0\\) with coefficients in a base b. The solutions of this equation in the same base b are x = 5 and x = 6. Then b = ___________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118185/gate2017-2-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Let \\(P=\\begin{bmatrix} 1 &amp; 1&amp;-1 \\\\ 2&amp;-3 &amp; 4\\\\ 3 &amp;-2 &amp; 3 \\end{bmatrix} \\) and \\( Q=\\begin{bmatrix} -1 &amp; -2&amp;-1 \\\\ 6 &amp; 12&amp; 6\\\\ 5&amp;10 &amp; 5 \\end{bmatrix}\\) be two matrices.\nThen the rank of P +Q is _____________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118363/gate2017-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Let A be nxn real valued square symmetric matrix of rank 2 with \\(\\sum_{i=1}^{n}\\sum_{j=1}^{n}A^{2}_{ij}=50\\). Consider\nthe following statements. <br> <br>(I) One eigen value must be in [-5, 5]   <br>      (II) The eigen value with the largest magnitude must be strictly greater than 5. <br> <br>\nWhich of the above statements about eigen values of A is/are necessarily CORRECT? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both (I) and (II)</p>",
+            "<b>B.</b> <p>(I) only</p>",
+            "<b>C.</b> <p>(II) only</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(I) only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118312/gate2017-1-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Let \\(c_{1}....c_{n}\\)  be scalars, not all zero, such that \\(\\sum_{i=1}^{n}c_{i}a_{i}=0\\)<br> where \\(a_{i}\\) are column vectors in \\(R^{n}\\). Consider the set of linear equations Ax = b <br>\nwhere A=\\(a_{1}....a_{n}\\) and b=\\(\\sum_{i=1}^{n}a_{i}\\). The set of equations has <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a unique solution at  \\(x=J_{n}\\) where \\(J_{n}\\) denotes a n-dimensional vector of all 1</p>",
+            "<b>B.</b> <p>no solution</p>",
+            "<b>C.</b> <p>infinitely many solutions</p>",
+            "<b>D.</b> <p>finitely many solutions</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>infinitely many solutions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118282/gate2017-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Suppose that the eigen values of matrix A are 1, 2, 4. The determinant of \\((A^{-1})^{T}\\) is _________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.124",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39549/gate2016-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the systems,each consisting of m linear equations in n variables.<br>\nI. If m \\(\\lt\\) n, then all such systems have a solution <br>\nII. If m \\(\\gt\\) n, then none of these systems has a solution <br>\nIII. If m = n, then there exists a system which has a solution <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and III are true</p>",
+            "<b>B.</b> <p>Only II and III are true</p>",
+            "<b>C.</b> <p>Only III is true</p>",
+            "<b>D.</b> <p>None of them is true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only III is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39554/gate2016-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>The coefficient of \\(x^{12}\\) in \\((x^{3}+x^{4}+x^{5}+x^{6}+. . .)^{3}\\) is ______. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39693/gate2016-1-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Two eigen values of a 3x3 real matrix P are (2+\\(\\sqrt{-1}\\)) and 3.The determinantof P is __________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39634/gate2016-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>If the following system has non-trivial solution,<br> px+qy+rz=0 <br> qx+ry+pz=0 <br> rx+py+qz=0,<br> then which one of the following options is TRUE? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p-q+r=0 or p=q=-r</p>",
+            "<b>B.</b> <p>p+q-r=0 or p=-q=r</p>",
+            "<b>C.</b> <p>p+q+r=0 or p=q=r</p>",
+            "<b>D.</b> <p>p-q+r=0 or p=-q=-r</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>p+q+r=0 or p=q=r</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8490/gate2015-3-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>In the given matrix \\(\\begin{bmatrix} 1 &amp; -1&amp;2 \\\\ 0&amp; 1 &amp; 0\\\\ 1&amp;2 &amp; 1 \\end{bmatrix}\\), one of the eigenvalues is 1. The eigenvectors corresponding to the eigenvalue 1 are <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(\\alpha (4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>B.</b> <p>{\\(\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>C.</b> <p>{\\(\\alpha (\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>D.</b> <p>{\\(\\alpha (-\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\(\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8411/gate2015-3-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Perform the following operations on the matrix \\(\\begin{bmatrix} 3 &amp; 4&amp;45 \\\\ 7&amp; 9&amp; 105\\\\ 13&amp;2 &amp; 195 \\end{bmatrix}\\). <br> (i) Add the third row to the second row <br>(ii) Subtract the third column from the first column. <br>The determinant of the resultant matrix is___________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8131/gate2015-2-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>The larger of the two eigenvalues of the matrix \\(\\begin{bmatrix} 4 &amp; 5\\\\ 2&amp;1 \\end{bmatrix}\\) is _______. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8051/gate2015-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider the following 2x2 matrix A where two elements are unknown and are marked by a and b. The eigenvalues of this matrix are -1 and 7. What are the values of a and b? <br>\\(A=\\begin{pmatrix} 1 &amp; 4\\\\ b&amp;a \\end{pmatrix}\\). <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a = 6, b = 4</p>",
+            "<b>B.</b> <p>a = 4, b = 6</p>",
+            "<b>C.</b> <p>a = 3, b = 5</p>",
+            "<b>D.</b> <p>a = 5, b =3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a = 5, b =3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8285/gate2015-1-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>In the LU decomposition of the matrix \\(\\begin{bmatrix} 2 &amp; 2\\\\ 4&amp;9 \\end{bmatrix}\\), if the diagonal elements of U are both 1, then the lower diagonal entry \\(l_{22}\\) of L is________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8241/gate2015-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>The rank of the matrix \\(A=\\left(\\begin{array}{cccc} 1 &amp; 2 &amp; 1 &amp; -1 \\\\ 9 &amp; 5 &amp; 2 &amp; 2 \\\\ 7 &amp; 1 &amp; 0 &amp; 4 \\end{array}\\right)\\)  is ____ . <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52799/isro2014-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Let A be a square matrix size n x n. Consider the following pseudocode. What is the\nexpected output?<pre><code> C = 100;\nfor i = 1 to n do\n   for j = 1 to n do\n   {\n      Temp = A[ i ] [ j ] + C ;\n      A [ i ] [ j ] = A [ j ] [ i ] ;\n      A [ j ] [ i ] = Temp - C ;\n   }\nfor i = 1 to n do\n    for j = 1 to n do\n         output (A[ i ] [ j ]); </code></pre> <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The matrix A itself</p>",
+            "<b>B.</b> <p>Transpose of the matrix A</p>",
+            "<b>C.</b> <p>Adding 100 to the upper diagonal elements and subtracting 100 from lower diagonal elements of A</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The matrix A itself</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2044/gate2014-3-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>If V1 and V2 are 4-dimensional subspaces of a 6-dimensional vector space V, then the smallest possible dimension of  V1\\(\\cap\\)V2 is _______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2039/gate2014-3-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Which one of the following statements is TRUE about every n x n matrix with only real\neigenvalues? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>If the trace of the matrix is positive and the determinant of the matrix is negative, at least one of its eigenvalues is negative.</p>",
+            "<b>B.</b> <p>If the trace of the matrix is positive, all its eigenvalues are positive.</p>",
+            "<b>C.</b> <p>If the determinant of the matrix is positive, all its eigenvalues are positive.</p>",
+            "<b>D.</b> <p>If the product of the trace and determinant of the matrix is positive, all its eigenvalues are positive.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>If the trace of the matrix is positive and the determinant of the matrix is negative, at least one of its eigenvalues is negative.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2038/gate2014-3-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>The product of the non-zero eigenvalues of the matrix <br>\\(\\begin{bmatrix} 1 &amp; 0&amp;0 &amp; 0&amp;1 \\\\ 0&amp; 1&amp; 1 &amp; 1 &amp; 0\\\\ 0&amp; 1&amp; 1&amp; 1&amp;0 \\\\ 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0\\\\ 1&amp;0 &amp; 0&amp;0 &amp; 1 \\end{bmatrix}\\) <br> is_______. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2013/gate2014-2-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>A non-zero polynomial f(x) of degree 3 has roots at x = 1,x = 2 and x = 3. Which one of the following must be TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(0)f(4) \\lt 0\\)</p>",
+            "<b>B.</b> <p>\\(f(0)f(4) \\gt 0\\)</p>",
+            "<b>C.</b> <p>\\(f(0)+f(4) \\gt 0\\)</p>",
+            "<b>D.</b> <p>\\(f(0)+f(4) \\lt 0\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(0)f(4) \\lt 0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1957/gate2014-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>If the matrix A is such that  <br>\\(\\begin{bmatrix} 2\\\\ -4\\\\ 7 \\end{bmatrix}\\begin{bmatrix} 1 &amp;9 &amp;5 \\end{bmatrix}\\) <br> Then the determinant of A is equal to ________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1956/gate2014-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>A function f(x) is continuous in the interval [0,2]. It is known that f(0)=f(2)=-1 and f(1)=1.\nWhich one of the following statements must be true? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exists a y in the interval (0,1) such that f(y)=f(y+1)</p>",
+            "<b>B.</b> <p>For every y in the interval (0,1), f(y)=f(2-y)</p>",
+            "<b>C.</b> <p>The maximum value of the function in the interval (0.2) is 1</p>",
+            "<b>D.</b> <p>There exists a y in the interval (0,1) such that f(y)=-f(2-y)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exists a y in the interval (0,1) such that f(y)=f(y+1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1925/gate2014-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>The value of the dot product of the eigenvectors corresponding to any pair of different eigenvalues of a 4-by-4 symmetric positive definite matrix is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1760/gate2014-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Consider the following system of equations: <br>     3x + 2y = 1 <br>\n4x + 7z = 1 <br>\nx + y + z = 3 <br>\nx - 2y + 7z = 0 <br>\nThe number of solutions for this system is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1757/gate2014-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>What is the matrix transformation which takes the independent vectors \\(\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\text{ and }\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}\\) and transforms them to \\(\\begin{pmatrix} 1\\\\ 1 \\end{pmatrix} \\text{ and }\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}\\) respectively? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix} 1&amp;-1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{pmatrix} 0&amp;0 \\\\ 0.5&amp; 0.5 \\end{pmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix} -1&amp;0 \\\\ 1&amp; 1 \\end{pmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix} -1&amp;1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{pmatrix} -1&amp;1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43968/isro-2013-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Which one of the following does NOT equal  <br> \\(\\begin{bmatrix} 1 &amp; x&amp;x^{2} \\\\ 1&amp; y &amp; y^{2}\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{bmatrix} 1 &amp; (x+1)&amp;x^{2}+1 \\\\ 1&amp; (y+1) &amp; y^{2}+1\\\\ 1&amp; (z+1) &amp; z^{2}+1 \\end{bmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{bmatrix} 0&amp; x-y &amp; x^{2}-y^2 \\\\ 0&amp; y-z &amp; y^{2}- z^2 \\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{bmatrix} 2&amp; x+y &amp;x^{2}+y^2 \\\\ 2&amp; y+z &amp; y^{2}+z^2\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1412/gate2013-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Let A be the 2x2 matrix with elements \\(a_{11}=a_{12}=a_{21}=+1\\) and \\(a_{22}=-1\\). Then the eigenvalues of\nthe matrix \\(A^{19}\\) are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1024 and -1024</p>",
+            "<b>B.</b> <p>1024\\(\\sqrt{2}\\) and -1024\\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>4\\(\\sqrt{2}\\) and -4\\(\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43/gate2012-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>What is the matrix that represents rotation of an object by \\(\\theta^0\\) about the origin in 2D? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\cos \\theta \\;\\; -\\sin \\theta\\\\ \\sin \\theta \\;\\;  \\cos \\theta\\)</p>",
+            "<b>B.</b> <p>\\(\\sin \\theta \\;\\; - \\cos \\theta\\\\ \\cos \\theta \\;\\; \\sin \\theta\\)</p>",
+            "<b>C.</b> <p>\\(\\cos \\theta \\;\\; - \\sin \\theta \\\\ \\cos \\theta \\;\\; \\sin \\theta\\)</p>",
+            "<b>D.</b> <p>\\(\\sin \\theta \\;\\; - \\cos \\theta \\\\ \\cos \\theta \\;\\;  \\sin \\theta\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\cos \\theta \\;\\; -\\sin \\theta\\\\ \\sin \\theta \\;\\;  \\cos \\theta\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51518/isro2011-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>If \\(A\\) and \\(B\\) are square matrices with same order and \\(A\\) is symmetric, then \\(B^TAB\\) is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Skew symmetric</p>",
+            "<b>B.</b> <p>Symmetric</p>",
+            "<b>C.</b> <p>Orthogonal</p>",
+            "<b>D.</b> <p>Idempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52483/isro2011-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider the matrix as given below. <br>\\(\\begin{bmatrix} 1 &amp; 2&amp;3 \\\\ 0&amp; 4 &amp; 7\\\\ 0&amp;0 &amp; 3 \\end{bmatrix}\\) <br> Which one of the following provides the CORRECT values of eigenvalues of the matrix? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,4,3</p>",
+            "<b>B.</b> <p>3,7,3</p>",
+            "<b>C.</b> <p>7,3,2</p>",
+            "<b>D.</b> <p>1,2,3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1,4,3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2142/gate2011-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider the following matrix \\(A=\\begin{bmatrix} 2 &amp; 3\\\\ X&amp;Y \\end{bmatrix}\\) <br> If the eigenvalues of A are 4 and 8, then <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 4, y = 10</p>",
+            "<b>B.</b> <p>x = 5, y = 8</p>",
+            "<b>C.</b> <p>x = -3,y = 9</p>",
+            "<b>D.</b> <p>x = -4, y = 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x = -4, y = 10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1155/gate2010-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>\\(\\begin{vmatrix} 265 &amp;&amp; 240 &amp;&amp; 219 \\\\ 240 &amp;&amp; 225 &amp;&amp; 198 \\\\ 219 &amp;&amp; 198 &amp;&amp; 181 \\\\ \\end{vmatrix} =\\) <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>779</p>",
+            "<b>B.</b> <p>679</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>256</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48079/isro2009-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>If A, B, C are any three matrices, then A'+B'+C' is equal to <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a null matrix</p>",
+            "<b>B.</b> <p>A+B+C</p>",
+            "<b>C.</b> <p>(A+B+C)'</p>",
+            "<b>D.</b> <p>-(A+B+C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(A+B+C)'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50512/isro2009-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>If \\(\\begin{vmatrix} 3 &amp;&amp; 3 \\\\ x &amp;&amp; 5 \\end{vmatrix} =3\\) then the value of \\(x\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50506/isro2009-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>If two adjacent rows of a determinant are interchanged, the value of the determinant <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>becomes zero</p>",
+            "<b>B.</b> <p>remains unaltered</p>",
+            "<b>C.</b> <p>becomes infinitive</p>",
+            "<b>D.</b> <p>becomes negative of its original value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>becomes negative of its original value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50503/isro2009-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>A square matrix A is called orthogonal if A'A= <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I</p>",
+            "<b>B.</b> <p>A</p>",
+            "<b>C.</b> <p>-A</p>",
+            "<b>D.</b> <p>-I</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50498/isro2009-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>The cubic polynomial y(x) which takes the following values: y(0)=1, y(1)=0, y(2)=1 and y(3)=10 is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x^3 +2x^2 +1\\)</p>",
+            "<b>B.</b> <p>\\(x^3 +3x^2 -1\\)</p>",
+            "<b>C.</b> <p>\\(x^3 +1\\)</p>",
+            "<b>D.</b> <p>\\(x^3 -2x^2 +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(x^3 -2x^2 +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50475/isro2009-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>If a square matrix \\(A\\) satisfies \\(A^TA=I\\), then the matrix \\(A\\) is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Idempotent</p>",
+            "<b>B.</b> <p>Symmetric</p>",
+            "<b>C.</b> <p>Orthogonal</p>",
+            "<b>D.</b> <p>Hermitian</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Orthogonal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49916/isro2008-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>If the two matrices \\(\\begin{bmatrix} 1 &amp;0 &amp;x \\\\ 0 &amp; x&amp; 1\\\\ 0 &amp; 1 &amp; x \\end{bmatrix} \\text{and }\\begin{bmatrix} x &amp;1 &amp;0 \\\\ x &amp; 0&amp; 1\\\\ 0 &amp; x &amp; 1 \\end{bmatrix}\\) have the same determinant, then the value of  \\(x \\) is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\sqrt2\\)</p>",
+            "<b>C.</b> <p>\\(\\pm \\frac{1}{2}\\)</p>",
+            "<b>D.</b> <p>\\(\\pm \\frac{1}{\\sqrt2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47590/isro2008-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>If M is a square matrix with a zero determinant, which of the following assertion (s) is (are) correct?<br>\nS1: Each row of M can be represented as a linear combination of the other rows<br>\nS2: Each column of M can be represented as a linear combination of the other columns<br>\nS3: M X=0 has a nontrivial solution<br>\nS4: M has an inverse<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S3 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S1 and S3</p>",
+            "<b>D.</b> <p>S1, S2 and S3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1, S2 and S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3319/gate2008-it-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>How many of the following matrices have an eigenvalue 1? <br>  \\(\\begin{bmatrix} 1 &amp; 0\\\\ 0&amp;0 \\end{bmatrix}\\begin{bmatrix} 0 &amp; 1\\\\ 0&amp;0 \\end{bmatrix}\\begin{bmatrix} 1 &amp; -1\\\\ 1&amp;1 \\end{bmatrix}\\) and \\( \\begin{bmatrix} -1 &amp;0 \\\\ 1&amp;-1 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>one</p>",
+            "<b>B.</b> <p>two</p>",
+            "<b>C.</b> <p>three</p>",
+            "<b>D.</b> <p>four</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>one</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/426/gate2008-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>The following system of equations       <br>                                                                                      \\(x_{1}+x_{2}+2x_{3}=1 \\) <br> \\( x_{1}+2x_{2}+3x_{3}=2 \\) <br> \\(x_{1}+4x_{2}+\\alpha x_{3}=4\\)<br>\nhas a unique solution. The only possible value(s) for \\(\\alpha\\)  is/are <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>either 0 or 1</p>",
+            "<b>C.</b> <p>one of 0, 1 or -1</p>",
+            "<b>D.</b> <p>any real number other than 5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>any real number other than 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/401/gate2008-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>Eigen vectors of \\(\\begin{bmatrix} 1 &amp;&amp; \\cos \\theta \\\\ \\cos \\theta &amp;&amp; 1 \\end{bmatrix}\\) are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{bmatrix} a^n &amp;&amp; 1 \\\\ 0 &amp;&amp; a^n \\end{bmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{bmatrix} a^n &amp;&amp; n \\\\ 0 &amp;&amp; a^n \\end{bmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{bmatrix} a^n &amp;&amp; na^{n-1} \\\\ 0 &amp;&amp; a^n \\end{bmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{bmatrix} a^n &amp;&amp; na^{n-1} \\\\ -n &amp;&amp; a^n \\end{bmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{bmatrix} a^n &amp;&amp; na^{n-1} \\\\ -n &amp;&amp; a^n \\end{bmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49479/isro2007-09\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>Let A be the matrix \\(\\begin{bmatrix}3 &amp;1 \\\\ 1&amp;2\\end{bmatrix}\\). What is the maximum value of \\(x^TAx\\) where the maximum is taken over all x that are the unit eigenvectors of A? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>\\(\\frac{(5 + \\sqrt{5})}{2}\\)</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>\\(\\frac{(5 - \\sqrt{5})}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{(5 + \\sqrt{5})}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3433/gate2007-it-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 68,
+          "question": "<p>Let A be a 4 x 4 matrix with eigenvalues -5, -2, 1, 4. Which of the following is an\neigenvalue of <br>\\(\\begin{bmatrix} A &amp; I\\\\ I&amp;A \\end{bmatrix}\\)<br>  where I is the 4 x 4 identity matrix? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-5</p>",
+            "<b>B.</b> <p>-7</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1223/gate2007-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 69,
+          "question": "<p>What are the eigenvalues of the matrix P given below <br>\\(P= \\begin{pmatrix} a &amp;1 &amp;0 \\\\ 1&amp; a&amp; 1\\\\ 0&amp;1 &amp;a \\end{pmatrix}\\) <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(a, a -\\sqrt2, a + \\sqrt2\\)</p>",
+            "<b>B.</b> <p>a, a, a</p>",
+            "<b>C.</b> <p>0, a, 2a</p>",
+            "<b>D.</b> <p>-a, 2a, 2a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(a, a -\\sqrt2, a + \\sqrt2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3565/gate2006-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 70,
+          "question": "<p>F is an nxn real matrix. b is an nx1 real vector. Suppose there are two nx1\nvectors, u and v such that u\\(\\neq\\)v , and Fu=b, Fv=b.\nWhich one of the following statements is false? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Determinant of F is zero</p>",
+            "<b>B.</b> <p>There are an infinite number of solutions to Fx = b</p>",
+            "<b>C.</b> <p>There is an x\\(\\neq\\)0 such that Fx = 0</p>",
+            "<b>D.</b> <p>F must have two identical rows</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>F must have two identical rows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/984/gate2006-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 71,
+          "question": "<p>Consider the polynomial \\(p(x)=a_{0}+a_{1}x+a_{2}x^{2} + a_{3}x^{3}\\), where \\(a_{i}\\neq 0,\\forall i\\). The minimum number of multiplications needed to evaluate p on an input x is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/792/gate2006-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 72,
+          "question": "<p>The determinant of the matrix given below is<br>\n\\(\\begin{bmatrix} 0 &amp;1 &amp;0 &amp;2 \\\\ -1&amp; 1&amp; 1&amp; 3\\\\ 0&amp;0 &amp;0 &amp; 1\\\\ 1&amp; -2&amp; 0&amp; 1 \\end{bmatrix}\\) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-1</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3747/gate2005-it-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 73,
+          "question": "<p>What are the eigen values of the following 2 x 2 matrix? <br> \\(\\begin{bmatrix} 2 &amp;-1 \\\\ -4 &amp; 5 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and -1</p>",
+            "<b>B.</b> <p>1 and 6</p>",
+            "<b>C.</b> <p>2 and 5</p>",
+            "<b>D.</b> <p>4 and -1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 and 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1174/gate2005-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 74,
+          "question": "<p>Consider the following system of equations in three real variables \\(x_1, x_2 \\; and \\; x_3 \\) : <br><br>\n\\(2x_1 - x_2 + 3x_3 = 1\\)<br>\n\\(3x_1 + 2x_2 + 5x_3 = 2\\) <br>\n\\(-x_1 + 4x_2 + x_3 = 3\\)<br><br>\nThe system of equations has <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no solution</p>",
+            "<b>B.</b> <p>a unique solution</p>",
+            "<b>C.</b> <p>more than one but a finite number of solutions</p>",
+            "<b>D.</b> <p>an infinite number of solutions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a unique solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1173/gate2005-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 75,
+          "question": "<p>If matrix \\(X = \\begin{bmatrix} a &amp; 1 \\\\ -a^2+a-1 &amp; 1-a \\end{bmatrix}\\)  and \\(X^2 - X + I = O\\) (\\(I\\) is the identity matrix and \\(O\\) is the zero matrix), then the inverse of \\(X\\) is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{bmatrix} 1-a &amp;-1 \\\\ a^2&amp; a \\end{bmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{bmatrix} 1-a &amp;-1 \\\\ a^2-a+1&amp; a \\end{bmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{bmatrix} -a &amp;1 \\\\ -a^2+a-1&amp; 1-a \\end{bmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{bmatrix} a^2-a+1 &amp;a \\\\ 1&amp; 1-a \\end{bmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\begin{bmatrix} 1-a &amp;-1 \\\\ a^2-a+1&amp; a \\end{bmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3679/gate2004-it-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 76,
+          "question": "<p>Let A be an \\(n \\times n\\) matrix of the following form.<br>\n\\(A = \\begin{bmatrix}3&amp;1&amp;0&amp;0&amp;0&amp;\\ldots&amp;0&amp;0&amp;0\\\\ 1&amp;3&amp;1&amp;0&amp;0&amp;\\ldots&amp;0&amp;0&amp;0\\\\ 0&amp;1&amp;3&amp;1&amp;0&amp;\\ldots&amp;0&amp;0&amp;0\\\\ 0&amp;0&amp;1&amp;3&amp;1&amp;\\ldots&amp;0&amp;0&amp;0\\\\ \\ldots\\\\ \\ldots \\\\ 0&amp;0&amp;0&amp;0&amp;0&amp;\\ldots&amp;1&amp;3&amp;1\\\\ 0&amp;0&amp;0&amp;0&amp;0&amp;\\ldots&amp;0&amp;1&amp;3\\\\ \\end{bmatrix}_{n\\times n}\\)<br>\nWhat is the value of the determinant of A? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\frac{5+\\sqrt3}{2}\\right)^{n-1} \\left(\\frac{5\\sqrt3 + 7}{2 \\sqrt 3}\\right) +\\left(\\frac{5-\\sqrt3}{2}\\right)^{n-1} \\left(\\frac{5\\sqrt3 - 7}{2 \\sqrt 3}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\frac{7+\\sqrt5}{2}\\right)^{n-1} \\left(\\frac{7\\sqrt5 + 3}{2 \\sqrt 5}\\right) +\\left(\\frac{7-\\sqrt5}{2}\\right)^{n-1} \\left(\\frac{7\\sqrt5 - 3}{2 \\sqrt 5}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\frac{3+\\sqrt7}{2}\\right)^{n-1} \\left(\\frac{3\\sqrt7 + 5}{2 \\sqrt 7}\\right) +\\left(\\frac{3-\\sqrt7}{2}\\right)^{n-1} \\left(\\frac{3\\sqrt7 - 5}{2 \\sqrt 7}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\frac{3+\\sqrt5}{2}\\right)^{n-1} \\left(\\frac{3\\sqrt5 + 7}{2 \\sqrt 5}\\right) + \\left(\\frac{3-\\sqrt5}{2}\\right)^{n-1} \\left(\\frac{3\\sqrt5 - 7}{2 \\sqrt 5}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\left(\\frac{3+\\sqrt5}{2}\\right)^{n-1} \\left(\\frac{3\\sqrt5 + 7}{2 \\sqrt 5}\\right) + \\left(\\frac{3-\\sqrt5}{2}\\right)^{n-1} \\left(\\frac{3\\sqrt5 - 7}{2 \\sqrt 5}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3675/gate2004-it-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 77,
+          "question": "<p>What values of x, y and z satisfy the following system of linear equations?<br>\n\\(\\begin{bmatrix} 1 &amp;2 &amp;3 \\\\ 1&amp; 3 &amp;4 \\\\ 2&amp; 2 &amp;3 \\end{bmatrix} \\begin{bmatrix} x\\\\y \\\\ z \\end{bmatrix} = \\begin{bmatrix} 6\\\\8 \\\\ 12 \\end{bmatrix}\\) <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 6, y = 3, z = 2</p>",
+            "<b>B.</b> <p>x = 12, y = 3, z = - 4</p>",
+            "<b>C.</b> <p>x = 6, y = 6, z = - 4</p>",
+            "<b>D.</b> <p>x = 12, y = - 3, z = 0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>x = 6, y = 6, z = - 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3647/gate2004-it-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 78,
+          "question": "<p>In an M x N matrix such that all non-zero entries are covered in a rows and b columns. Then the\nmaximum number of non-zero entries, such that no two are on the same row or column, is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\leq\\) a+b</p>",
+            "<b>B.</b> <p>\\(\\leq\\) max{a,b}</p>",
+            "<b>C.</b> <p>\\(\\leq\\) min{M-a,N-b}</p>",
+            "<b>D.</b> <p>\\(\\leq\\) min{a,b}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\leq\\) min{a,b}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1070/gate2004-76#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 79,
+          "question": "<p>How many solutions does the following system of linear equations have?<br><br>\n-x + 5y = -1 <br>\nx - y = 2 <br>\nx + 3y = 3 <br> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>infinitely many</p>",
+            "<b>B.</b> <p>two distinct solutions</p>",
+            "<b>C.</b> <p>unique</p>",
+            "<b>D.</b> <p>none</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>unique</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1065/gate2004-71#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 80,
+          "question": "<p>Let A,B,C,D be n x n matrices, each with non-zero determinant. If ABCD=I, then \\(B^{-1}\\) is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(D^{-1}C^{-1}A^{-1}\\)</p>",
+            "<b>B.</b> <p>CDA</p>",
+            "<b>C.</b> <p>ADC</p>",
+            "<b>D.</b> <p>Does not necessarily exist</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>CDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1024/gate2004-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 81,
+          "question": "<p>The number of different n x n symmetric matrices with each element being either 0 or 1 is : (Note:\npower (2,x) is same as \\(2^{x}\\)) <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>power (2,n)</p>",
+            "<b>B.</b> <p>power (2,\\(n^{2}\\))</p>",
+            "<b>C.</b> <p>power (2,\\((n^{2}+n)/2\\))</p>",
+            "<b>D.</b> <p>power (2,\\((n^{2}-n)/2\\))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>power (2,\\((n^{2}+n)/2\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1023/gate2004-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 82,
+          "question": "<p>Consider the following system of linear equations <br>  \\(\\begin{bmatrix} 2 &amp; 1 &amp; -4\\\\ 4 &amp; 3 &amp; -12\\\\ 1 &amp; 2 &amp; -8 \\end{bmatrix}\\begin{bmatrix} x\\\\ y\\\\ z \\end{bmatrix}\\begin{bmatrix} \\alpha \\\\ 5\\\\ 7 \\end{bmatrix}\\) <br>  Notice that the second and the third columns of the coefficient matrix are linearly\ndependent. For how many values of \\(\\alpha\\), does this system of equations have\ninfinitely many solutions? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>infinitely many</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/932/gate2003-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 83,
+          "question": "<p>The rank of the matrix \\(\\begin{bmatrix} 1 &amp; 1\\\\ 0&amp; 0 \\end{bmatrix}\\) is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/805/gate2002-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 84,
+          "question": "<p>A polynomial p(x) satisfies the following:<br>\np(1) = p(3) = p(5) = 1 <br>\np(2) = p(4) = -1<br>\nThe minimum degree of such a polynomial is <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/651/gate2000-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 85,
+          "question": "<p>The determinant of the matrix<br>\\(\\begin{bmatrix}2 &amp;0 &amp;0 &amp;0 \\\\ 8&amp; 1&amp; 7&amp; 2\\\\ 2&amp; 0&amp;2 &amp;0 \\\\ 9&amp;0 &amp; 6 &amp; 1 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/626/gate2000-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 86,
+          "question": "<p>Consider the following determinant \\(\\Delta = \\begin{vmatrix} 1 &amp; a &amp; bc \\\\ 1 &amp; b &amp; ca \\\\ 1 &amp; c &amp; ab \\end{vmatrix}\\)<br>\nWhich of the following is a factor of \\(\\Delta\\)? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a+b</p>",
+            "<b>B.</b> <p>a-b</p>",
+            "<b>C.</b> <p>a+b+c</p>",
+            "<b>D.</b> <p>abc</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a-b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1674/gate1998-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 87,
+          "question": "<p>The rank of the matrix given below is:<br>\n\\(\\begin{bmatrix} 1 &amp;4 &amp;8 &amp;7\\\\ 0 &amp;0&amp; 3 &amp;0\\\\ 4 &amp;2&amp; 3 &amp;1\\\\ 3 &amp;12 &amp;24 &amp;21 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1673/gate1998-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 88,
+          "question": "<p>Consider the following set of equations<br>\n\\(x+2y=5\\\\ 4x+8y=12\\\\ 3x+6y+3z=15\\)<br>\nThis set <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>has unique solution</p>",
+            "<b>B.</b> <p>has no solution</p>",
+            "<b>C.</b> <p>has finite number of solutions</p>",
+            "<b>D.</b> <p>has infinite number of solutions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>has no solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1639/gate1998-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 89,
+          "question": "<p>A polynomial p(x) is such that p(0)=5,p(1)=4,p(2)=9 and p(3)=20. The minimum degree it should have is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2245/gate1997-4-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 90,
+          "question": "<p>Let \\(A=(a_{ij})\\) be an n-rowed square matrix and \\(I_{12}\\) be the matrix obtained by interchanging the first and second rows of the n-rowed Identity matrix. Then \\(AI_{12}\\) is such that its first <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Row is the same as its second row</p>",
+            "<b>B.</b> <p>Row is the same as the second row of A</p>",
+            "<b>C.</b> <p>Column is the same as the second column of A</p>",
+            "<b>D.</b> <p>Row is all zero</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Column is the same as the second column of A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2243/gate1997-4-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 91,
+          "question": "<p>The determinant of the matrix \\(\\begin{bmatrix} 6 &amp; -8 &amp; 1 &amp; 1 \\\\ 0 &amp; 2 &amp; 4 &amp; 6 \\\\ 0 &amp; 0 &amp; 4 &amp; 8 \\\\ 0 &amp; 0 &amp; 0 &amp; -1 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>-48</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>-24</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>-48</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2219/gate1997-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 92,
+          "question": "<p>The matrices \\(\\begin{bmatrix} \\cos\\theta &amp;&amp; -\\sin\\theta \\\\ \\sin\\theta &amp;&amp; \\cos\\theta \\end{bmatrix}\\) and \\(\\begin{bmatrix} a &amp;&amp; 0\\\\ 0&amp;&amp; b \\end{bmatrix}\\) commute under multiplication <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>if \\(a=b \\text{ or } \\theta = n\\pi\\), n is an integer</p>",
+            "<b>B.</b> <p>always</p>",
+            "<b>C.</b> <p>never</p>",
+            "<b>D.</b> <p>if \\(a \\cos\\theta = b \\sin\\theta\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>if \\(a=b \\text{ or } \\theta = n\\pi\\), n is an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2735/gate1996-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 93,
+          "question": "<p>Let AX = b be a system of linear equations where A is an \\(m \\times n\\) matrix and b is a \\(m \\times 1\\) column vector and X is an \\(n \\times 1\\) column vector of unknowns. Which of the following is false? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The system has a solution if and only if, both A and the augmented matrix [Ab] have the same rank.</p>",
+            "<b>B.</b> <p>If m &lt; n and b is the zero vector, then the system has infinitely many solutions.</p>",
+            "<b>C.</b> <p>If m=n and b is a non-zero vector, then the system has a unique solution.</p>",
+            "<b>D.</b> <p>The system will have only a trivial solution when m=n, b is the zero vector and rank (A) =n.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>If m=n and b is a non-zero vector, then the system has a unique solution.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2711/gate1996-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 94,
+          "question": "<p>A unit vector perpendicular to both the vectors a=2i-3j+k and b=i+j-2k is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{3} (i+j-k)\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{3} (i-j-k)\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j-k)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2625/gate1995-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 95,
+          "question": "<p>If the cube roots of unity are \\(1, \\omega\\) and \\(\\omega^2\\), then the roots of the following equation are <br>\n\\((x-1)^3 +8 =0\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1, 1 + 2\\omega, 1 + 2\\omega^2\\)</p>",
+            "<b>B.</b> <p>\\(1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>D.</b> <p>\\(-1, 1 + 2\\omega, -1 + 2\\omega^2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2620/gate1995-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 96,
+          "question": "<p>The rank of the following \\((n+1) \\times (n+1)\\) matrix, where a is a real number is <br>\n\\(\\begin{bmatrix} 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>Depends on the value of a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2611/gate1995-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 97,
+          "question": "<p>The rank of matrix \\(\\begin{bmatrix} 0 &amp; 0 &amp; -3 \\\\ 9 &amp; 3 &amp; 5 \\\\ 3 &amp; 1 &amp; 1 \\end{bmatrix}\\)is: <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2446/gate1994-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 98,
+          "question": "<p>Let A and B be real symmetric matrices of size \\(n \\times n\\). Then which one of the following is true? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AA'=I\\)</p>",
+            "<b>B.</b> <p>\\(A=A^{-1}\\)</p>",
+            "<b>C.</b> <p>\\(AB=BA\\)</p>",
+            "<b>D.</b> <p>\\((AB)'=BA\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((AB)'=BA\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2438/gate1994-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 99,
+          "question": "<p>For the below question, one or more OPTIONS are correct<br>\nThe eigen vector(s) of the matrix <br>\n\\(\\begin{bmatrix} 0 &amp;0 &amp;\\alpha\\\\ 0 &amp;0 &amp;0\\\\ 0 &amp;0 &amp;0 \\end{bmatrix},\\alpha \\neq 0\\)<br>is (are) <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((0,0,\\alpha)\\)</p>",
+            "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+            "<b>C.</b> <p>(0,0,1)</p>",
+            "<b>D.</b> <p>\\((0,\\alpha,0)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/596/gate1993-01-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 100,
+          "question": "<p>Consider the following statements:\n<br><br>\nS1: The sum of two singular nxn matrices may be non-singular<br>\nS2: The sum of two nxn non-singular matrices may be singular.  <br>\n<br><br>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2 are both true</p>",
+            "<b>B.</b> <p>S1 is true, S2 is false</p>",
+            "<b>C.</b> <p>S1 is false, S2 is true</p>",
+            "<b>D.</b> <p>S1 and S2 are both false</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1 and S2 are both true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/694/gate2001-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 101,
+          "question": "<p>A square matrix is singular whenever <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The rows are linearly independent</p>",
+            "<b>B.</b> <p>The columns are linearly independent</p>",
+            "<b>C.</b> <p>The row are linearly dependent</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The row are linearly dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80380/gate1987-1-xxiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 102,
+          "question": "<p>The equation<br>\\(7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0 \\) has <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All complex roots</p>",
+            "<b>B.</b> <p>At least one real root</p>",
+            "<b>C.</b> <p>Four pairs of imaginary roots</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At least one real root</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80379/gate1987-1-xxii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 103,
+          "question": "<p>If a, b, and c are constants, which of the following is a linear inequality? <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(ax+bcy=0\\)</p>",
+            "<b>B.</b> <p>\\(ax^{2}+cy^{2}=21\\)</p>",
+            "<b>C.</b> <p>\\(abx+a^{2}y \\geq 15\\)</p>",
+            "<b>D.</b> <p>\\(xy+ax \\geq 20\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(abx+a^{2}y \\geq 15\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80377/gate1987-1-xxi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

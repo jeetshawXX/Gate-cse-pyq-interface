@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a TCP client and a TCP server running on two different machines. After completing\ndata transfer, the TCP client calls close to terminate the connectional and a FIN segment is\nsent to the TCP server. Server-side TCP responds by sending an ACK which is received by\nthe client-side TCP. As per the TCP connections state diagram (RFC 793), in which state does\nthe client-side TCP connection wait for the FIN from the sever-side TCP? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LAST-ACK</p>",
+            "<b>B.</b> <p>TIME-WAIT</p>",
+            "<b>C.</b> <p>FIN-WAIT-1</p>",
+            "<b>D.</b> <p>FIN-WAIT-2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>FIN-WAIT-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118194/gate2017-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DNS lookup</p>",
+            "<b>B.</b> <p>DNS hijacking</p>",
+            "<b>C.</b> <p>DNS spoofing</p>",
+            "<b>D.</b> <p>None of the mentioned</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS spoofing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55536/isro2016-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If a class C is derived from class B, which is derived form class A, all through public inheritance, then a class C member function can access <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only protected and public data of C and B</p>",
+            "<b>B.</b> <p>Only protected and public data of C</p>",
+            "<b>C.</b> <p>all data of C and private data of A and B</p>",
+            "<b>D.</b> <p>public and protected data of A and B and all data of C</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>public and protected data of A and B and all data of C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55530/isro2016-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^6\\) bps duplex link between two hosts. The propagation time is 25 ms. Frames are to be transmitted into this link to maximally pack them in transit (within the link).<br>What is the minimum number of bits (I) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames. <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I=2</p>",
+            "<b>B.</b> <p>I=3</p>",
+            "<b>C.</b> <p>I=4</p>",
+            "<b>D.</b> <p>I=5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I=5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1340/gate2009-57-isro2016-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is the maximum size of data that the application layer can pass on to the TCP layer below? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any size</p>",
+            "<b>B.</b> <p>\\(2^{16} \\text { bytes - size of TCP header }\\)</p>",
+            "<b>C.</b> <p>\\(2^{16} \\text { bytes }\\)</p>",
+            "<b>D.</b> <p>1500 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Any size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/412/gate2008-14-isro2016-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The message 11001001 is to be transmitted using the CRC polynomial \\(x^3 +1\\) to protect it from errors. The message that should be transmitted is: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(11001001000\\)</p>",
+            "<b>B.</b> <p>\\(11001001011\\)</p>",
+            "<b>C.</b> <p>\\(11001010\\)</p>",
+            "<b>D.</b> <p>\\(110010010011\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(11001001011\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1266/gate2007-68-isro2016-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>62 subnets and 262142 hosts.</p>",
+            "<b>B.</b> <p>64 subnets and 262142 hosts.</p>",
+            "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+            "<b>D.</b> <p>64 subnets and 1024 hosts.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1265/gate2007-67-isro2016-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In a token ring network the transmission speed is \\(10^7\\) bps and the propagation speed is 200 meters/\\(\\mu s\\). The 1-bit delay in this network is equivalent to: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>500 meters of cable.</p>",
+            "<b>B.</b> <p>200 meters of cable.</p>",
+            "<b>C.</b> <p>20 meters of cable.</p>",
+            "<b>D.</b> <p>50 meters of cable.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>20 meters of cable.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1264/gate2007-66-isro2016-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which network protocol allows hosts to dynamically get a unique IP number on each bootup <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DHCP</p>",
+            "<b>B.</b> <p>BOOTP</p>",
+            "<b>C.</b> <p>RARP</p>",
+            "<b>D.</b> <p>ARP</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>DHCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55521/isro2016-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In Ethernet CSMA/CD, the special bit sequence transmitted by media access management to handle collision is called <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preamble</p>",
+            "<b>B.</b> <p>Postamble</p>",
+            "<b>C.</b> <p>Jam</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Jam</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55519/isro2016-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Dynamic routing protocol enable routers to <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamically discover and maintain routes</p>",
+            "<b>B.</b> <p>Distribute routing updates to other routers</p>",
+            "<b>C.</b> <p>Reach agreement with other routers about the network topology</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55518/isro2016-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Bit stuffing refers to <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>inserting a 0 in user stream to differentiate it with a flag</p>",
+            "<b>B.</b> <p>inserting a 0 in flag stream to avoid ambiguity</p>",
+            "<b>C.</b> <p>appending a nipple to the flag sequence</p>",
+            "<b>D.</b> <p>appending a nipple to the use data stream</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>inserting a 0 in user stream to differentiate it with a flag</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49497/isro2007-24-isro2016-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a \\(128 \\times 10^{3}\\) bits/second satellite communication link with one way propagation delay of 150 milliseconds. Selective retransmission(repeat) protocol is used on this link to send data with a frame size of 1 kilobyte. Neglect the transmission time of acknowledgement. The minimum number of bits required for the sequence number field to achieve 100% utilization is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39577/gate2016-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>For the IEEE802.11 MAC protocol for wireless communication,which of the following\nstatements is/are TRUE?<br>\nI. At least three non-overlapping channels are available for transmissions.<br>\nII. The RTS-CTS mechan is misused for collision detection.<br>\nIII. Unicast frames are ACKed. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All I,II,andIII</p>",
+            "<b>B.</b> <p>I andIIIonly</p>",
+            "<b>C.</b> <p>II andIIIonly</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I andIIIonly</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39593/gate2016-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A network has a data transmission bandwidth of \\(20 \\times 10^{6}\\) bits per second. It uses CSMA/CD in the MAClayer. The maximum signal propagation time from one node to another node is 40 microseconds. The minimum size of a frame in the network is  ______ bytes. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "200",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39589/gate2016-2-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

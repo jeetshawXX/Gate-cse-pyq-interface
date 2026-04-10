@@ -1,0 +1,225 @@
+{
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(\\Sigma = \\{1, 2, 3, 4\\}\\). For \\(x \\in \\Sigma^*\\), let \\(\\text{prod}(x)\\) be the product of symbols in \\(x\\) modulo 7. We take \\(\\text{prod}(\\epsilon) = 1\\), where \\(\\epsilon\\) is the null string. <br><br>For example, \\(\\text{prod}(124) = (1 \\times 2 \\times 4) \\mod 7 = 1\\). <br><br>Define\n\\( L = \\{x \\in \\Sigma^* \\mid \\text{prod}(x) = 2\\}. \\)<br><br>\nThe number of states in a minimum state DFA for \\(L\\) is ___________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460843/gate-cse-2025-set-2-question-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(\\Sigma = \\{a, b, c\\} \\). For \\(x \\in \\Sigma^* \\), and \\(\\alpha \\in \\Sigma \\), let \\(\\# _\\alpha (x) \\) denote the number of occurrences of \\(\\alpha \\) in \\(x \\).  <br><br>\nWhich one or more of the following option(s) define(s) regular language(s)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ a^m b^n \\mid m, n \\geq 0 \\} \\)</p>",
+            "<b>B.</b> <p>\\(\\{ a, b \\}^* \\cap \\{ a^m b^n c^{m-n} \\mid m \\geq n \\geq 0 \\} \\)</p>",
+            "<b>C.</b> <p>\\(\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_b(w) \\equiv 3 \\ (\\text{mod}\\ 9) \\} \\)</p>",
+            "<b>D.</b> <p>\\(\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_a(w) = \\#_b(w) \\} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\{ a^m b^n \\mid m, n \\geq 0 \\} \\)</p>",
+            "<b>C.</b> <p>\\(\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_b(w) \\equiv 3 \\ (\\text{mod}\\ 9) \\} \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460851/gate-cse-2025-set-2-question-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider two grammars \\(G1 \\) and \\(G2 \\) with the production rules given below:<br><br>\n\\(\nG1: S \\to \\text{if} E \\text{ then } S \\mid \\text{if} E \\text{ then } S \\text{ else } S \\mid a\n\\)<br>\n\\(\nE \\to b\n\\)<br><br>\n\\(\nG2: S \\to \\text{if} E \\text{ then } S \\mid M\n\\)<br>\n\\(\nM \\to \\text{if} E \\text{ then } M \\text{ else } S \\mid c\n\\)<br>\n\\(\nE \\to b\n\\)<br><br>where \\( if,then,else,a,b,c\\) are the terminals. <br><br>\nWhich of the following option(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(G1 \\) is not LL(1) and \\(G2 \\) is LL(1).</p>",
+            "<b>B.</b> <p>\\(G1 \\) is LL(1) and \\(G2 \\) is not LL(1).</p>",
+            "<b>C.</b> <p>\\(G1 \\) and \\(G2 \\) are not LL(1).</p>",
+            "<b>D.</b> <p>\\(G1 \\) and \\(G2 \\) are ambiguous.</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>\\(G1 \\) and \\(G2 \\) are not LL(1).</p>",
+            "<b>D.</b> <p>\\(G1 \\) and \\(G2 \\) are ambiguous.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460852/gate-cse-2025-set-2-question-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Given a Context-Free Grammar \\(G \\) as follows:<br><br>\n\\(\nS \\to A a \\mid b A c \\mid d c \\mid b d a\n\\)<br>\n\\(\nA \\to d\n\\)<br><br>\nWhich ONE of the following statements is TRUE? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(G \\) is neither LALR(1) nor SLR(1)</p>",
+            "<b>B.</b> <p>\\(G \\) is CLR(1), not LALR(1)</p>",
+            "<b>C.</b> <p>\\(G \\) is LALR(1), not SLR(1)</p>",
+            "<b>D.</b> <p>\\(G \\) is LALR(1), also SLR(1)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(G \\) is LALR(1), not SLR(1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460805/gate-cse-2025-set-2-question-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the two lists List I and List II given below:<br>\\(\n\\begin{array}{|c l|c l|}\n\\hline\n\\textbf{List I} &amp; &amp; \\textbf{List II} &amp; \\\\\n\\hline\n\\text{(i)} &amp; \\text{Context free languages} &amp; \\text{(a)} &amp; \\text{Closed under union} \\\\\n\\hline\n\\text{(ii)} &amp; \\text{Recursive languages} &amp; \\text{(b)} &amp; \\text{Not closed under complementation} \\\\\n\\hline\n\\text{(iii)} &amp; \\text{Regular languages} &amp; \\text{(c)} &amp; \\text{Closed under intersection} \\\\\n\\hline\n\\end{array}\\)<br>\nFor matching of items in List I with those in List II, which of the following option(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>(i) - (a), (ii) - (b), and (iii) - (c)</p>",
+            "<b>B.</b> <p>(i) - (b), (ii) - (a), and (iii) - (c)</p>",
+            "<b>C.</b> <p>(i) - (b), (ii) - (c), and (iii) - (a)</p>",
+            "<b>D.</b> <p>(i) - (a), (ii) - (c), and (iii) - (b)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>(i) - (b), (ii) - (a), and (iii) - (c)</p>",
+            "<b>C.</b> <p>(i) - (b), (ii) - (c), and (iii) - (a)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460815/gate-cse-2025-set-2-question-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(G_1, G_2 \\) be Context-Free Grammars (CFGs) and \\(R \\) be a regular expression. For a grammar \\(G \\), let \\(L(G) \\) denote the language generated by \\(G \\).\n<br>\nWhich ONE among the following questions is decidable? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is \\(L(G_1) = L(G_2) \\)?</p>",
+            "<b>B.</b> <p>Is \\(L(G_1) \\cap L(G_2) = \\emptyset \\)?</p>",
+            "<b>C.</b> <p>Is \\(L(G_1) = L(R) \\)?</p>",
+            "<b>D.</b> <p>Is \\(L(G_1) = \\emptyset \\)?</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Is \\(L(G_1) = \\emptyset \\)?</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460820/gate-cse-2025-set-2-question-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which ONE of the following languages is accepted by a deterministic pushdown automaton? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any regular language.</p>",
+            "<b>B.</b> <p>Any context-free language.</p>",
+            "<b>C.</b> <p>Any language accepted by a non-deterministic pushdown automaton.</p>",
+            "<b>D.</b> <p>Any decidable language.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Any regular language.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460821/gate-cse-2025-set-2-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a finite state machine (FSM) with one input \\( X \\) and one output \\( f \\), represented by the given state transition table. The minimum number of states required to realize this FSM is _________. (Answer in integer)\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q49_cb7ac266.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460031/gate-cse-2025-set-1-question-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following deterministic finite automaton (DFA) defined over the alphabet, \\( \\Sigma = \\{ a, b \\} \\). Identify which of the following language(s) is/are accepted by the given DFA. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q40_3b7ca53e.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The set of all strings containing an even number of \\( b \\)'s.</p>",
+            "<b>B.</b> <p>The set of all strings containing the pattern \\( bab \\).</p>",
+            "<b>C.</b> <p>The set of all strings ending with the pattern \\( bab \\).</p>",
+            "<b>D.</b> <p>The set of all strings not containing the pattern \\( aba \\).</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The set of all strings ending with the pattern \\( bab \\).</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460040/gate-cse-2025-set-1-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following two languages over the alphabet \\(\\{a, b, c\\}\\), where \\(m\\) and \\(n\\) are natural numbers:\n<br><br>\n\\(L_1 = \\{ a^m b^m c^{m+n} \\mid m, n \\geq 1 \\}\\)<br>\n\\(L_2 = \\{ a^m b^n c^{m+n} \\mid m, n \\geq 1 \\}\\)\n<br><br>\nWhich ONE of the following statements is CORRECT? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both \\(L_1\\) and \\(L_2\\) are context-free languages.</p>",
+            "<b>B.</b> <p>\\(L_1\\) is a context-free language but \\(L_2\\) is not a context-free language.</p>",
+            "<b>C.</b> <p>\\(L_1\\) is not a context-free language but \\(L_2\\) is a context-free language.</p>",
+            "<b>D.</b> <p>Neither \\(L_1\\) nor \\(L_2\\) are context-free languages.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L_1\\) is not a context-free language but \\(L_2\\) is a context-free language.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460045/gate-cse-2025-set-1-question-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following two languages over the alphabet \\(\\{a, b\\}\\):\n<br><br>\n\\(L_1 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a, b\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}\\)<br>\n\\(L_2 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}\\)\n<br><br>\nWhich ONE of the following statements is CORRECT? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both \\(L_1\\) and \\(L_2\\) are regular languages.</p>",
+            "<b>B.</b> <p>\\(L_1\\) is a regular language but \\(L_2\\) is not a regular language.</p>",
+            "<b>C.</b> <p>\\(L_1\\) is not a regular language but \\(L_2\\) is a regular language.</p>",
+            "<b>D.</b> <p>Neither \\(L_1\\) nor \\(L_2\\) is a regular language.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L_1\\) is not a regular language but \\(L_2\\) is a regular language.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460046/gate-cse-2025-set-1-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A regular language \\(L\\) is accepted by a non-deterministic finite automaton (NFA) with \\(n\\) states. Which of the following statement(s) is/are FALSE? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L\\) may have an accepting NFA with &lt; \\(n\\) states.</p>",
+            "<b>B.</b> <p>\\(L\\) may have an accepting DFA with &lt; \\(n\\) states.</p>",
+            "<b>C.</b> <p>There exists a DFA with \\(\\leq 2^n\\) states that accepts \\(L\\).</p>",
+            "<b>D.</b> <p>Every DFA that accepts \\(L\\) has \\(&gt; 2^n\\) states.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Every DFA that accepts \\(L\\) has \\(&gt; 2^n\\) states.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460062/gate-cse-2025-set-1-question-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following context-free grammar \\(G\\), where \\(S\\), \\(A\\), and \\(B\\) are the variables (non-terminals), \\(a\\) and \\(b\\) are the terminal symbols, \\(S\\) is the start variable, and the rules of \\(G\\) are described as:\n<br><br>\n\\(S \\to aaB \\mid Abb\\)<br>\n\\(A \\to a \\mid aA\\)<br>\n\\(B \\to b \\mid bB\\)\n<br><br>\nWhich ONE of the languages \\(L(G)\\) is accepted by \\(G\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L(G) = \\{ a^2b^n \\mid n \\geq 1 \\} \\cup \\{ a^n b^2 \\mid n \\geq 1 \\}\\)</p>",
+            "<b>B.</b> <p>\\(L(G) = \\{ a^n b^{2n} \\mid n \\geq 1 \\} \\cup \\{ a^{2n} b^n \\mid n \\geq 1 \\}\\)</p>",
+            "<b>C.</b> <p>\\(L(G) = \\{ a^n b^n \\mid n \\geq 1 \\}\\)</p>",
+            "<b>D.</b> <p>\\(L(G) = \\{ a^{2n} b^{2n} \\mid n \\geq 1 \\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L(G) = \\{ a^2b^n \\mid n \\geq 1 \\} \\cup \\{ a^n b^2 \\mid n \\geq 1 \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460071/gate-cse-2025-set-1-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following augmented grammar, which is to be parsed with a SLR parser. The set of terminals is \\( \\{a, b, c, d, \\#, @\\} \\)\n<br> \\(\n\\begin{aligned}\n&amp; S^{\\prime} \\rightarrow S \\\\\n&amp; S \\rightarrow S S|A a| b A c|B c| b B a \\\\\n&amp; A \\rightarrow d \\# \\\\\n&amp; B \\rightarrow @\n\\end{aligned}\n\\) <br>\nLet \\( I_0=\\operatorname{CLOSURE}\\left(\\left\\{S^{\\prime} \\rightarrow \\bullet S\\right\\}\\right) \\). The number of items in the set \\( \\operatorname{GOTO}\\left(I_0, S\\right) \\) is ____ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422842/gate-cse-2024-set-2-question-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\( L_1 \\) be the language represented by the regular expression \\( b^* a b^*\\left(a b^* a b^*\\right)^* \\) and \\( L_2=\\left\\{w \\in(a+b)^*|| w \\mid \\leq 4\\right\\} \\), where \\( |w| \\) denotes the length of string \\( w \\). The number of strings in \\( L_2 \\) which are also in \\( L_1 \\) is ___ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422845/gate-cse-2024-set-2-question-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

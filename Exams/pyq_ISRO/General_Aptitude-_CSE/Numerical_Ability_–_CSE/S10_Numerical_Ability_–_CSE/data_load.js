@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General_Aptitude-_CSE - Numerical_Ability_–_CSE — Slot 10 (8 Questions)",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Numerical_Ability_–_CSE — Slot 10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The Fibonacci sequence is the sequence of integers <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 3, 5, 7, 9, 11, 13</p>",
+            "<b>B.</b> <p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34</p>",
+            "<b>C.</b> <p>0, 1, 3, 4, 7, 11, 18, 29, 47</p>",
+            "<b>D.</b> <p>0, 1, 3, 7, 15</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49629/isro2007-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

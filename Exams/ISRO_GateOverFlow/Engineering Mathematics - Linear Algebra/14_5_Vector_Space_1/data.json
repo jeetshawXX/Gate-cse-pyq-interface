@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Vector Space",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Vector Space",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182060\"></a><div itemprop=\"text\"><p>If vectors&nbsp;\\( \\vec{a}=2\\hat{i}+\\lambda \\hat{j}+\\hat{k} \\) and&nbsp;\\( \\vec{b}=\\hat{i}-2\\hat{j}+3\\hat{k} \\) are perpendicular to each other, then value of&nbsp;\\( \\lambda \\) is</p>\n\n</div><br><br><b>Linear Algebra: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{2}{5} \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( 2 \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( 3 \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\dfrac{5}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{5}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182060/isro-dec2017-10\" target=\"_blank\">https://gateoverflow.in/182060/isro-dec2017-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

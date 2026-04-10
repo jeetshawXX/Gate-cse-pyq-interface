@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Routers Bridge Hubs Switches",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Routers Bridge Hubs Switches",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"154829\"></a><div itemprop=\"text\"><p>The device which connects dissimilar \\( LANs \\) of different topologies using different sets of communication protocols so that information can flow from one to another is called :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Router&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>Bridge&nbsp; &nbsp; &nbsp;</p>",
+            "<p>Gateway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>Switch</p>"
+          ],
+          "correct_answer": "<p>Gateway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154829/ugc-net-cse-june-2009-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/154829/ugc-net-cse-june-2009-part-2-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48595\"></a><div itemprop=\"text\">\n<p>A bridge has access to ________ address in the same network.</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 2 | Question: 02</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Physical</p>",
+            "<p>Network&nbsp;</p>",
+            "<p>Datalink&nbsp;</p>",
+            "<p>Application&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Physical</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48595/ugc-net-cse-june-2014-part-2-question-02\" target=\"_blank\">https://gateoverflow.in/48595/ugc-net-cse-june-2014-part-2-question-02</a></p>"
+        }
+      ]
+    }
+  ]
+});

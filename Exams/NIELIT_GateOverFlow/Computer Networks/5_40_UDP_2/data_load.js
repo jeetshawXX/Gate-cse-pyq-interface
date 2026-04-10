@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - UDP",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "UDP",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336845\"></a><div itemprop=\"text\"><p>Correct expression tor UDP&nbsp;user datagram length is</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>length of UDP = length of IP- length of IP header's</p>",
+            "<p>length of UDP= length of UDP-length of UDP header's</p>",
+            "<p>length of UDP = length of IP+length of IP header's</p>",
+            "<p>length of UDP = length of UDP+length of UDP header's</p>"
+          ],
+          "correct_answer": "<p>length of UDP = length of IP- length of IP header's</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336845/nielit-2017-dec-scientific-assistant-a-section-b-1\" target=\"_blank\">https://gateoverflow.in/336845/nielit-2017-dec-scientific-assistant-a-section-b-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"373775\"></a><div itemprop=\"text\"><p>Host \\( \\text{A} \\) sends a \\( \\text{UDP} \\)&nbsp;datagram containing \\( 8880 \\; \\text{bytes} \\) of user data to host \\( \\text{ B} \\) over an Ethernet \\( \\text{LAN}. \\) Ethernet frames may carry data up to \\( 1500 \\; \\text{bytes (i.e. MTU = 1500 bytes)}. \\) Size of \\( \\text{UDP} \\) header is \\( 8 \\; \\text{bytes} \\) and size of \\( \\text{IP} \\) header is \\( 20 \\; \\text{bytes}. \\) There is no option field in \\( \\text{IP} \\) header. How many total number of \\( \\text{IP} \\) fragments will be transmitted and what will be the contents of offset field in the last fragment?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2022 April Scientist B | Section B | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\) and \\( 925 \\)</p>",
+            "<p>\\( 6 \\) and \\( 7400 \\)</p>",
+            "<p>\\( 7 \\) and \\( 1110 \\)</p>",
+            "<p>\\( 7 \\) and \\( 8880 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\) and \\( 1110 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373775/nielit-2022-april-scientist-b-section-b-question-63\" target=\"_blank\">https://gateoverflow.in/373775/nielit-2022-april-scientist-b-section-b-question-63</a></p>"
+        }
+      ]
+    }
+  ]
+});

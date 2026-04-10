@@ -1,0 +1,116 @@
+{
+  "title": "Interrupt - Interrupt - Slot 1",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Interrupt",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which interrupt in 8085 Microprocessor is unmaskable? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RST 5.5</p>",
+            "<b>B.</b> <p>RST 7.5</p>",
+            "<b>C.</b> <p>TRAP</p>",
+            "<b>D.</b> <p>Both (A) and (B)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>TRAP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128631/isro2017-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In 8085 microprocessor, the ISR for handling trap interrupt is at which location? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3CH</p>",
+            "<b>B.</b> <p>34H</p>",
+            "<b>C.</b> <p>74H</p>",
+            "<b>D.</b> <p>24H</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>24H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43971/isro-2013-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>On receiving an interrupt from an I/O device,the CPU <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Halts for a predetermined time</p>",
+            "<b>B.</b> <p>Branches off to the interrupt service routine after completion of the current instruction</p>",
+            "<b>C.</b> <p>Branches off to the interrupt service routine immediately</p>",
+            "<b>D.</b> <p>Hands over control of address bus and data bus to the interrupting device</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Branches off to the interrupt service routine after completion of the current instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18581/isro2009-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A certain microprocessor requires 4.5 microseconds to respond to an interrupt. Assuming that the three interrupts\\(I_1\\), \\(I_2\\) and \\(I_3\\) require the following execution time after the interrupt is recognized:<br>\nI.   \\(I_1\\) requires 25 microseconds<br>\nII.  \\(I_2\\) requires 35 microseconds<br>\nIII. \\(I_3\\) requires 20 microseconds<br>\n\\(I_1\\) has the highest priority and \\(I_3\\) has the lowest. What is the possible range of time for \\(I_3\\) to be executed assuming that it may or may not occur simultaneously with other interrupts? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>24.5 microseconds to 39.5 microseconds</p>",
+            "<b>B.</b> <p>24.5 microseconds to 93.5 microseconds</p>",
+            "<b>C.</b> <p>4.5 microseconds to 24.5 microseconds</p>",
+            "<b>D.</b> <p>29.5 microseconds 93.5 microseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>24.5 microseconds to 93.5 microseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48044/isro2009-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following statements about synchronous and asynchronous I/O is NOT true? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O</p>",
+            "<b>B.</b> <p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>",
+            "<b>C.</b> <p>A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O call does not wait for completion of the I/O</p>",
+            "<b>D.</b> <p>In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/487/gate2008-64-isro2009-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The TRAP is one of the interrupts available in INTEL 8085. Which one of the following statements is true of TRAP ? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it is level triggered</p>",
+            "<b>B.</b> <p>it is negative edge triggered</p>",
+            "<b>C.</b> <p>it is +ve edge triggered</p>",
+            "<b>D.</b> <p>it is both +ve and -ve edges triggered</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>it is both +ve and -ve edges triggered</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47657/isro2008-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>An interrupt in which the external device supplies its address as well as the interrupt requests is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>vectored interrupt</p>",
+            "<b>B.</b> <p>maskable interrupt</p>",
+            "<b>C.</b> <p>non maskable interrupt</p>",
+            "<b>D.</b> <p>designated interrupt</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>vectored interrupt</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49917/isro2008-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

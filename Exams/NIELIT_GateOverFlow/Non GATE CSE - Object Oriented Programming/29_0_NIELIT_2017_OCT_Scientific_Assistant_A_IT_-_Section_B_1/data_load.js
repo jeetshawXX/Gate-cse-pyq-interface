@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - NIELIT 2017 OCT Scientific Assistant A IT - Section B",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "NIELIT 2017 OCT Scientific Assistant A IT - Section B",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336961\"></a><div itemprop=\"text\"><p>Which of the following object types are generally autonomous, meaning that they can exhibit some behavior without being operated upon by another object.</p>\n\n</div><br><br><b>Object Oriented Programming: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Passive</p>",
+            "<p>Active</p>",
+            "<p>Both (A) and (B)</p>",
+            "<p>None of the mentioned</p>"
+          ],
+          "correct_answer": "<p>Active</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336961/nielit-2017-oct-scientific-assistant-a-it-section-b-24\" target=\"_blank\">https://gateoverflow.in/336961/nielit-2017-oct-scientific-assistant-a-it-section-b-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

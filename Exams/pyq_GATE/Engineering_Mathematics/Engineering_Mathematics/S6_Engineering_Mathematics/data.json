@@ -1,0 +1,216 @@
+{
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If the matrix A is such that  <br>\\(\\begin{bmatrix} 2\\\\ -4\\\\ 7 \\end{bmatrix}\\begin{bmatrix} 1 &amp;9 &amp;5 \\end{bmatrix}\\) <br> Then the determinant of A is equal to ________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1956/gate2014-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A function f(x) is continuous in the interval [0,2]. It is known that f(0)=f(2)=-1 and f(1)=1.\nWhich one of the following statements must be true? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exists a y in the interval (0,1) such that f(y)=f(y+1)</p>",
+            "<b>B.</b> <p>For every y in the interval (0,1), f(y)=f(2-y)</p>",
+            "<b>C.</b> <p>The maximum value of the function in the interval (0.2) is 1</p>",
+            "<b>D.</b> <p>There exists a y in the interval (0,1) such that f(y)=-f(2-y)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exists a y in the interval (0,1) such that f(y)=f(y+1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1925/gate2014-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The function \\(f(x)=x sin x\\) satisfies the following equation: \\(f''(x)+f(x)+tcos x=0\\). The value of t is______. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1924/gate2014-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let the function <br> \\(f(\\theta)=\\begin{vmatrix} sin\\theta &amp; cos\\theta &amp; tan\\theta \\\\ sin(\\frac{\\pi}{6}) &amp; cos(\\frac{\\pi}{6}) &amp; tan(\\frac{\\pi}{6})\\\\ sin(\\frac{\\pi}{3})&amp; cos(\\frac{\\pi}{3}) &amp; tan(\\frac{\\pi}{3}) \\end{vmatrix}\\) <br>  where \\(\\theta \\in [\\frac{\\pi}{6},\\frac{\\pi}{3}]\\) and \\(f'(\\theta )\\) denote the derivative of  f with respect to \\(\\theta\\) . Which of the following\nstatements is/are TRUE? <br>(I) There existrs \\(\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})\\) such that \\(f'(\\theta )=0\\) <br> (I) There existrs \\(\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})\\) such that \\(f'(\\theta )\\neq 0\\) <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1763/gate2014-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The value of the dot product of the eigenvectors corresponding to any pair of different eigenvalues of a 4-by-4 symmetric positive definite matrix is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1760/gate2014-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following system of equations: <br>     3x + 2y = 1 <br>\n4x + 7z = 1 <br>\nx + y + z = 3 <br>\nx - 2y + 7z = 0 <br>\nThe number of solutions for this system is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1757/gate2014-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Function f is known at the following points: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Engineering_Mathematics\\q23_ec5c245a.jpg\"> <br> The value of \\(\\int_{0}^{3}f(x)dx\\) computed using the trapezoidal rule is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8.983</p>",
+            "<b>B.</b> <p>9.003</p>",
+            "<b>C.</b> <p>9.017</p>",
+            "<b>D.</b> <p>9.045</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9.045</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1534/gate2013-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following functions is continuous at x = 3? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 2, &amp; if \\; x=3\\\\ x-1,&amp; if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&amp;if \\; x \\lt 3 \\end{matrix}\\right.\\)</p>",
+            "<b>B.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 4, &amp; if \\; x=3\\\\ 8-x&amp;if \\;  x\\neq 3 \\end{matrix}\\right.\\)</p>",
+            "<b>C.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} x+3, &amp; if  \\; x\\leq 3\\\\ x-4&amp;if \\; x \\gt  3 \\end{matrix}\\right.\\)</p>",
+            "<b>D.</b> <p>\\(f(x)=\\frac{1}{x^{3}-27}, if \\; x\\neq 3\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 2, &amp; if \\; x=3\\\\ x-1,&amp; if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&amp;if \\; x \\lt 3 \\end{matrix}\\right.\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1533/gate2013-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which one of the following does NOT equal  <br> \\(\\begin{bmatrix} 1 &amp; x&amp;x^{2} \\\\ 1&amp; y &amp; y^{2}\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{bmatrix} 1 &amp; (x+1)&amp;x^{2}+1 \\\\ 1&amp; (y+1) &amp; y^{2}+1\\\\ 1&amp; (z+1) &amp; z^{2}+1 \\end{bmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{bmatrix} 0&amp; x-y &amp; x^{2}-y^2 \\\\ 0&amp; y-z &amp; y^{2}- z^2 \\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{bmatrix} 2&amp; x+y &amp;x^{2}+y^2 \\\\ 2&amp; y+z &amp; y^{2}+z^2\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1412/gate2013-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The bisection method is applied to compute a zero of the function  \\(f(x) = x^{4}-x^{3}-x^{2}-4\\) in the interval [1,9]. The method converges to a solution after _____iterations. <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1614/gate2012-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let A be the 2x2 matrix with elements \\(a_{11}=a_{12}=a_{21}=+1\\) and \\(a_{22}=-1\\). Then the eigenvalues of\nthe matrix \\(A^{19}\\) are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1024 and -1024</p>",
+            "<b>B.</b> <p>1024\\(\\sqrt{2}\\) and -1024\\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>4\\(\\sqrt{2}\\) and -4\\(\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43/gate2012-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the function f(x)=sin(x) in the interval x \\(\\in [\\pi/4, 7\\pi/4]\\). The number and location(s) of the local minima of this function are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One, at \\(\\pi\\)/2</p>",
+            "<b>B.</b> <p>One, at 3\\(\\pi\\)/2</p>",
+            "<b>C.</b> <p>Two, at \\(\\pi\\)/2 and 3\\(\\pi\\)/2</p>",
+            "<b>D.</b> <p>Two, at \\(\\pi\\)/4 and 3\\(\\pi\\)/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Two, at \\(\\pi\\)/4 and 3\\(\\pi\\)/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/41/gate2012-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the matrix as given below. <br>\\(\\begin{bmatrix} 1 &amp; 2&amp;3 \\\\ 0&amp; 4 &amp; 7\\\\ 0&amp;0 &amp; 3 \\end{bmatrix}\\) <br> Which one of the following provides the CORRECT values of eigenvalues of the matrix? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,4,3</p>",
+            "<b>B.</b> <p>3,7,3</p>",
+            "<b>C.</b> <p>7,3,2</p>",
+            "<b>D.</b> <p>1,2,3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1,4,3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2142/gate2011-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Given \\(i=\\sqrt{-1}\\), what will be the evaluation of the definite integral \\(\\int_{0}^{\\pi /2}\\frac{cosx + i sinx}{cosx -i sinx} dx\\)? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>i</p>",
+            "<b>D.</b> <p>\\(-i\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>i</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2133/gate2011-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The weight of a sequence \\(a_{0},a_{1},...,a_{n-1}\\) of real numbers is defined as \\(a_{0}+a_{1}/2+...+a_{n-1}/2^{n-1}\\) A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements\nthe same. Let X denote the maximum possible weight of a subsequence of\n\\(a_{0},a_{1},...,a_{n-1}\\) and Y the maximum possible weight of a subsequence of \\(a_{0},a_{1},...,a_{n-1}\\). Then X is equal to <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(Y,\\(a_{0}\\)+Y)</p>",
+            "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+            "<b>C.</b> <p>max(Y,\\(a_{0}\\)+2Y)</p>",
+            "<b>D.</b> <p>\\(a_{0}\\)+Y/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2208/gate2010-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

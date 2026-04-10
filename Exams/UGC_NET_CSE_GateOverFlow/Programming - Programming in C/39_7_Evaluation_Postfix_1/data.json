@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - Evaluation Postfix",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Evaluation Postfix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60077\"></a><div itemprop=\"text\"><p>What is the value of the postfix expression a b c d + - * (where a=8, b=4, c=2 and d=5)</p></div><br><br><b>Programming in C: UGC NET CSE | December 2013 | Part 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -\\frac{3}{8} \\)</p>",
+            "<p>\\( -\\frac{8}{3} \\)</p>",
+            "<p>24</p>",
+            "<p>-24</p>"
+          ],
+          "correct_answer": "<p>-24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60077/ugc-net-cse-december-2013-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/60077/ugc-net-cse-december-2013-part-2-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+}

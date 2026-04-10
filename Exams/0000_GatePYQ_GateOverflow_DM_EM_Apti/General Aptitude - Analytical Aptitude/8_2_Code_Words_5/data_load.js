@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Code Words",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Code Words",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8298\"></a><div itemprop=\"text\"><p>If \\( \\text{ROAD} \\) is written as \\( \\text{URDG} \\), then \\( \\text{SWAN} \\)should be written as:</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{VXDQ} \\)</p>",
+            "<p>\\( \\text{VZDQ} \\)</p>",
+            "<p>\\( \\text{VZDP} \\)</p>",
+            "<p>\\( \\text{UXDQ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{VZDQ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1\" target=\"_blank\">https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39609\"></a><div itemprop=\"text\"><p>If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'?</p>\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: GA04</b></p>",
+          "type": "single",
+          "options": [
+            "<p>zentaga</p>",
+            "<p>tagafer.</p>",
+            "<p>tagazen.</p>",
+            "<p>relffer.</p>"
+          ],
+          "correct_answer": "<p>tagazen.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04\" target=\"_blank\">https://gateoverflow.in/39609/gate-cse-2016-set-1-question-ga04</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"41469\"></a><div itemprop=\"text\"><p>If \\( \\text{‘KCLFTSB’} \\) stands for ‘best of luck’ and \\( \\text{‘SHSWDG’} \\) stands for 'good wishes', which of the following indicates 'ace the exam'?&nbsp;</p>\n\n</div><br><br><b>GATE2014 EC-4: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{MCHTX} \\)&nbsp;</p>",
+            "<p>\\( \\text{MXHTC} \\)&nbsp;</p>",
+            "<p>\\( \\text{XMHCT} \\)&nbsp;</p>",
+            "<p>\\( \\text{XMHTC} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{MXHTC} \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41469/gate2014-ec-4-ga-7\" target=\"_blank\">https://gateoverflow.in/41469/gate2014-ec-4-ga-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"205187\"></a><div itemprop=\"text\"><p>In a certain code, \\( AMCF \\) is written as \\( EQGJ \\) and \\( NKUF \\) is written as \\( ROYJ \\). How will \\( DHLP \\) be written in that code?</p>\n\n</div><br><br><b>GATE2018 EE: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( RSTN \\)</p>",
+            "<p>\\( TLPH \\)</p>",
+            "<p>\\( HLPT \\)</p>",
+            "<p>\\( XSVR \\)</p>"
+          ],
+          "correct_answer": "<p>\\( HLPT \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205187/gate2018-ee-ga-7\" target=\"_blank\">https://gateoverflow.in/205187/gate2018-ee-ga-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"313439\"></a><div itemprop=\"text\"><p>If \\( E=10,J=20,O=30, \\) and \\( T=40, \\) what will be \\( P+E+S+T? \\)</p>\n\n</div><br><br><b>GATE2019 CE-1: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 51 \\)</p>",
+            "<p>\\( 82 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 164 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 120 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313439/gate2019-ce-1-ga-4\" target=\"_blank\">https://gateoverflow.in/313439/gate2019-ce-1-ga-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

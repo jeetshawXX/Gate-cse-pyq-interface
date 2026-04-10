@@ -1,0 +1,236 @@
+{
+  "title": "Algorithms - Algorithms - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let W(n) and A(n) denote respectively, the worst case and average case running time of an\nalgorithm executed on an input of size n. Which of the following is ALWAYS TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A(n)=\\(\\Omega\\)(W(n))</p>",
+            "<b>B.</b> <p>A(n) =\\(\\Theta\\)(W(n))</p>",
+            "<b>C.</b> <p>A(n) =O(W(n))</p>",
+            "<b>D.</b> <p>A(n) = o(W(n))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A(n) =O(W(n))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50/gate2012-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The recurrence relation capturing the optimal execution time of the Towers of Hanoi problem with n discs is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n) = 2T(n - 2) + 2</p>",
+            "<b>B.</b> <p>T(n) = 2T(n - 1) + n</p>",
+            "<b>C.</b> <p>T(n) = 2T(n/2) + 1</p>",
+            "<b>D.</b> <p>T(n) = 2T(n - 1) + 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>T(n) = 2T(n - 1) + 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48/gate2012-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Assuming P \\(\\neq\\) NP, which of the following is TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>NP-complete = NP</p>",
+            "<b>B.</b> <p>NP-complete \\(\\cap\\) P = \\(\\phi\\)</p>",
+            "<b>C.</b> <p>NP-hard = NP</p>",
+            "<b>D.</b> <p>P = NP-complete</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>NP-complete \\(\\cap\\) P = \\(\\phi\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/36/gate2012-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following algorithm design technique is used in merge sort? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Greedy method</p>",
+            "<b>B.</b> <p>Backtracking</p>",
+            "<b>C.</b> <p>Dynamic programming</p>",
+            "<b>D.</b> <p>Divide and Conquer</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Divide and Conquer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52859/isro2011-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(T(n)\\) be defined by \\(T(1)=10\\) and \\(T(n+1)=2n+T(n)\\) for all integers \\(n \\geq 1\\). Which of the following  represents the order of growth of \\(T(n)\\) as a function of n? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n)\\)</p>",
+            "<b>B.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O(n^2)\\)</p>",
+            "<b>D.</b> <p>\\(O(n^3)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(n^2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47492/isro2011-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following in place sorting algorithms needs the minimum number of swaps? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Quick sort</p>",
+            "<b>B.</b> <p>Insertion sort</p>",
+            "<b>C.</b> <p>Selection sort</p>",
+            "<b>D.</b> <p>Heap sort</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Selection sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/975/gate2006-14-isro2011-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>An undirected graph G(V, E) contains n (n\\(&gt;\\)2) nodes named v1 , v2 ,...,vn. Two nodes vi , vj are connected if and only if 0\\(\\lt \\)|i-j|\\(\\leq\\)2.  Each edge (vi,vj ) is assigned a weight i+j. A sample graph with n=4 is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q52_bdf780ad.jpg\"> <br>The length of the path from v5 to v6 in the MST of previous question with n = 10 is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>31</p>",
+            "<b>D.</b> <p>41</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>31</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43325/gate2011-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>An undirected graph G(V, E) contains n (n\\(&gt;\\)2) nodes named v1 , v2 ,...,vn. Two nodes vi , vj are connected if and only if 0\\(\\lt \\)|i-j|\\(\\leq\\)2.  Each edge (vi,vj ) is assigned a weight i+j. A sample graph with n=4 is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q52_bdf780ad.jpg\"> <br> What will be the cost of the minimum spanning tree (MST) of such a graph with n nodes? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{12}(11n^{2}-5n)\\)</p>",
+            "<b>B.</b> <p>\\(n^{2}-n+1\\)</p>",
+            "<b>C.</b> <p>6n-11</p>",
+            "<b>D.</b> <p>2n+1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(n^{2}-n+1\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2162/gate2011-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Four matrices M1, M2, M3 and M4 are dimensions p x q, q x r, r x s and s x t\nrespectively can be multiplied in several ways with different number of total\nscalar multiplications. For example When multiplied as \\(((M_{1} \\times  M_{2})\\times (M_{3}\\times M_{4})\\) the total number of scalar multiplications is pqr+rst+prt. When multiplied as \\((((M_{1}\\times M_{2})\\times M_{3})\\times M_{4})\\) , the total number of scalar multiplications is pqr+prs+pst.\nIf p=10, q=100, r=20, s=5 and t=80, then the minimum number of scalar\nmultiplications needed is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>248000</p>",
+            "<b>B.</b> <p>44000</p>",
+            "<b>C.</b> <p>19000</p>",
+            "<b>D.</b> <p>25000</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>19000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2140/gate2011-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the given options provides the increasing order of asymptotic\ncomplexityoffunctions f1, f2, f3 and f4?<br><br> \\(f_{1}(n)=2^{n};\\) <br> \\(f_{2}(n)=n^{3/2}; \\) <br> \\( f_{3}(n)=nlog_{2}n; \\) <br> \\( f_{4}(n)=n^{log_{2}n}\\) <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f_3, f_2, f_4, f_1\\)</p>",
+            "<b>B.</b> <p>\\(f_3, f_2, f_1, f_4\\)</p>",
+            "<b>C.</b> <p>\\(f_2, f_3, f_1, f_4\\)</p>",
+            "<b>D.</b> <p>\\(f_2, f_3, f_4, f_1\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f_3, f_2, f_4, f_1\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2139/gate2011-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array A[0 :n-1] is given below. <br>\nLet Li denote the length of the longest monotonically increasing sequence starting at index i in the array <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q12_7de407b3.jpg\"> <br>Which of the following statements is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The algorithm uses dynamic programming paradigm</p>",
+            "<b>B.</b> <p>The algorithm has a linear complexity and uses branch and bound paradigm</p>",
+            "<b>C.</b> <p>The algorithm has a non-linear polynomial complexity and uses branch and\nbound paradigm</p>",
+            "<b>D.</b> <p>The algorithm uses divide and conquer paradigm.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The algorithm uses dynamic programming paradigm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2127/gate2011-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry \\(W_{ij}\\) in\nthe matrix W below is the weight of the edge {i, j}. <br><br>\\(\\begin{pmatrix} 0&amp;1 &amp; 8 &amp; 1 &amp;4 \\\\ 1&amp; 0 &amp; 12 &amp; 4 &amp; 9\\\\ 8 &amp; 12 &amp; 0 &amp; 7 &amp; 3\\\\ 1&amp; 4&amp; 7 &amp; 0 &amp;2 \\\\ 4&amp; 9 &amp; 3&amp; 2 &amp;0 \\end{pmatrix}\\)<br><br>What is the minimum possible weight of a path P from vertex 1 to vertex 2 in this\ngraph such that P contains at most 3 edges? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43328/gate2010-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry \\(W_{ij}\\) in\nthe matrix W below is the weight of the edge {i, j}. <br><br>\\(\\begin{pmatrix} 0&amp;1 &amp; 8 &amp; 1 &amp;4 \\\\ 1&amp; 0 &amp; 12 &amp; 4 &amp; 9\\\\ 8 &amp; 12 &amp; 0 &amp; 7 &amp; 3\\\\ 1&amp; 4&amp; 7 &amp; 0 &amp;2 \\\\ 4&amp; 9 &amp; 3&amp; 2 &amp;0 \\end{pmatrix}\\)<br><br>What is the minimum possible weight of a spanning tree T in this graph such that\nvertex 0 is a leaf node in the tree T? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2355/gate2010-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Two alternative packages A and B are available for processing a database having\n\\(10^{k}\\) records. Package A requires 0.0001\\(n^{2}\\) time units and package B requires\n\\(10n \\log _{{10}} n\\) time units to process n records. What is the smallest value of k for\nwhich package B will be preferred over A? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2185/gate2010-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A sub-sequence of a given sequence is just the given sequence with some\nelements (possibly none or all) left out. We are given two sequences X[m] and\nY[n] of lengths m and n, respectively, with indexes of X and Y starting from 0. <br><br>We wish to find the length of the longest common sub-sequence (LCS) of x[m] and Y[n] as l(m,n), where an incomplete recursive definition for the function l(i,j) to compute the length of the LCS of x[m] and Y[n] is given below:<br><pre><code>l(i, j) = 0, if either i=0 or j=0\nl(i, j) = expr1, if i,j&gt;0 and x [i-1] = Y [j -1]\nl(i, j) = expr2, if i,j&gt;0 and x [i-1] != Y [j -1]</code></pre>The values of l(i,j) could be obtained by dynamic programming based on the\ncorrect recursive definition of l(i,j) of the form given above, using an array\nL[M,N], where M = m+1 and N=n+1, such that L[i,j] = l(i,j). <br><br>\nWhich one of the following statements would be TRUE regarding the dynamic\nprogramming solution for the recursive definition of l(i,j)? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All elements L should be initialized to 0 for the values of l(i,j) to be properly computed.</p>",
+            "<b>B.</b> <p>The values of l(i,j) may be computed in a row major order or column major order of L(M,N).</p>",
+            "<b>C.</b> <p>The values of l(i,j) cannot be computed in either row major order or column\nmajor order of L(M,N).</p>",
+            "<b>D.</b> <p>L[p,q] needs to be computed before L[r,s] if either p<r or=\"\" q<s.<=\"\" div=\"\"></r></p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The values of l(i,j) may be computed in a row major order or column major order of L(M,N).</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43476/gate2009-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

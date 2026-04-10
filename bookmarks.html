@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_iit_madras_without_background.png" type="image/x-icon">
+    <title>Bookmarked Questions</title>
+    <link rel="stylesheet" href="css/exam_style.css">
+    <link rel="stylesheet" href="css/result_style.css">
+    <link rel="stylesheet" href="css/bookmarks_style.css">
+    <link rel="stylesheet" href="css/auth.css?v=1">
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+            options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+
+<body>
+    <div class="bookmarks-container">
+        <div class="bookmarks-header">
+            <div class="bk-header-left">
+                <h1>📌 Bookmarked Questions</h1>
+                <span class="bk-count" id="bookmarkCount">0 questions</span>
+            </div>
+            <div class="bk-header-right">
+                <button id="exportJsonBtn" class="btn-pill btn-export">📥 Export as JSON</button>
+                <a href="index.html" class="btn-pill btn-new-exam">🏠 Home</a>
+                <button id="clearAllBtn" class="btn-pill btn-clear-all">🗑️ Clear All</button>
+            </div>
+        </div>
+
+        <div class="bk-controls">
+            <input type="text" id="searchInput" placeholder="Search by question text or exam title..."
+                class="bk-search">
+            <select id="filterExam" class="bk-filter">
+                <option value="all">All Exams</option>
+            </select>
+            <select id="filterSubject" class="bk-filter">
+                <option value="all">All Subjects</option>
+            </select>
+            <select id="filterStatus" class="bk-filter">
+                <option value="all">All Status</option>
+                <option value="correct">✔ Correct</option>
+                <option value="incorrect">✘ Incorrect</option>
+                <option value="unanswered">— Unanswered</option>
+            </select>
+            <select id="filterType" class="bk-filter">
+                <option value="all">All Types</option>
+                <option value="single">MCQ</option>
+                <option value="multiple">MSQ</option>
+                <option value="nat">NAT</option>
+            </select>
+        </div>
+
+        <div class="bk-empty" id="emptyState" style="display:none;">
+            <div class="bk-empty-icon">📭</div>
+            <h2>No Bookmarked Questions</h2>
+            <p>Bookmark questions from your exam results to review them here later.</p>
+            <a href="index.html" class="btn-pill btn-new-exam" style="margin-top:15px;">Take an Exam</a>
+        </div>
+
+        <div class="questions-list" id="bookmarksList">
+            <!-- Bookmarked questions will be loaded here -->
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="pagination-bar" id="paginationBar" style="display:none;"></div>
+    </div>
+
+    <script src="js/subject_detector.js"></script>
+    <script src="js/db.js"></script>
+    <script type="module" src="js/gate_auth.js"></script>
+    <script>
+        let allBookmarks = [];
+        let currentPage = 1;
+        const ITEMS_PER_PAGE = 50;
+        let _searchDebounceTimer = null;
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                await initDB();
+                allBookmarks = await getAllBookmarks();
+            } catch (e) {
+                console.warn('Could not load bookmarks:', e);
+                allBookmarks = [];
+            }
+
+            populateExamFilter();
+            populateSubjectFilter();
+            renderBookmarks();
+
+            // Debounced search (300ms)
+            document.getElementById('searchInput').addEventListener('input', () => {
+                clearTimeout(_searchDebounceTimer);
+                _searchDebounceTimer = setTimeout(() => { currentPage = 1; renderBookmarks(); }, 300);
+            });
+
+            // Filters reset to page 1
+            document.getElementById('filterExam').addEventListener('change', () => { currentPage = 1; renderBookmarks(); });
+            document.getElementById('filterSubject').addEventListener('change', () => { currentPage = 1; renderBookmarks(); });
+            document.getElementById('filterStatus').addEventListener('change', () => { currentPage = 1; renderBookmarks(); });
+            document.getElementById('filterType').addEventListener('change', () => { currentPage = 1; renderBookmarks(); });
+
+            // Clear All
+            document.getElementById('clearAllBtn').addEventListener('click', async () => {
+                if (!confirm('Remove all bookmarked questions? This cannot be undone.')) return;
+                try {
+                    await clearAllBookmarks();
+                    allBookmarks = [];
+                    currentPage = 1;
+                    renderBookmarks();
+                } catch (e) {
+                    console.warn('Could not clear bookmarks:', e);
+                }
+            });
+
+            // Export as JSON
+            document.getElementById('exportJsonBtn').addEventListener('click', () => {
+                exportAsJson(getFilteredBookmarks());
+            });
+        });
+
+        function populateExamFilter() {
+            const select = document.getElementById('filterExam');
+            const exams = [...new Set(allBookmarks.map(b => b.examTitle))];
+            exams.forEach(title => {
+                const opt = document.createElement('option');
+                opt.value = title;
+                opt.textContent = title;
+                select.appendChild(opt);
+            });
+        }
+
+        function populateSubjectFilter() {
+            const select = document.getElementById('filterSubject');
+            GATE_SUBJECTS.forEach(sub => {
+                const opt = document.createElement('option');
+                opt.value = sub.id;
+                opt.textContent = sub.icon + ' ' + sub.name;
+                select.appendChild(opt);
+            });
+        }
+
+        function formatTime(seconds) {
+            if (!seconds && seconds !== 0) return '—';
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            if (mins > 0) return `${mins}m ${secs}s`;
+            return `${secs}s`;
+        }
+
+        function getFilteredBookmarks() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const examFilter = document.getElementById('filterExam').value;
+            const subjectFilter = document.getElementById('filterSubject').value;
+            const statusFilter = document.getElementById('filterStatus').value;
+            const typeFilter = document.getElementById('filterType').value;
+
+            let filtered = allBookmarks;
+
+            if (searchTerm) {
+                filtered = filtered.filter(b =>
+                    (b.questionText || '').toLowerCase().includes(searchTerm) ||
+                    (b.examTitle || '').toLowerCase().includes(searchTerm)
+                );
+            }
+            if (examFilter !== 'all') filtered = filtered.filter(b => b.examTitle === examFilter);
+            if (subjectFilter !== 'all') {
+                filtered = filtered.filter(b => {
+                    const subjectMatch = detectSubject(b.examTitle);
+                    return subjectMatch && subjectMatch.id === subjectFilter;
+                });
+            }
+            if (statusFilter !== 'all') filtered = filtered.filter(b => b.status === statusFilter);
+            if (typeFilter !== 'all') {
+                if (typeFilter === 'nat') {
+                    filtered = filtered.filter(b => b.type === 'nat' || b.type === 'numerical' || b.type === 'numeric');
+                } else {
+                    filtered = filtered.filter(b => b.type === typeFilter);
+                }
+            }
+
+            return filtered;
+        }
+
+        function renderBookmarks() {
+            const list = document.getElementById('bookmarksList');
+            const emptyState = document.getElementById('emptyState');
+            const countEl = document.getElementById('bookmarkCount');
+            const paginationBar = document.getElementById('paginationBar');
+
+            const filtered = getFilteredBookmarks();
+            const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
+
+            // Clamp currentPage
+            if (currentPage > totalPages) currentPage = totalPages;
+            if (currentPage < 1) currentPage = 1;
+
+            const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+            const endIdx = Math.min(startIdx + ITEMS_PER_PAGE, filtered.length);
+            const pageItems = filtered.slice(startIdx, endIdx);
+
+            // Update count display
+            if (filtered.length === allBookmarks.length) {
+                countEl.textContent = `${allBookmarks.length} bookmarked`;
+            } else {
+                countEl.textContent = `${filtered.length} of ${allBookmarks.length} bookmarked`;
+            }
+
+            if (allBookmarks.length === 0) {
+                emptyState.style.display = 'flex';
+                list.style.display = 'none';
+                paginationBar.style.display = 'none';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+            list.style.display = 'flex';
+
+            if (filtered.length === 0) {
+                list.innerHTML = '<div class="bk-no-match">No matching bookmarks found for current filters.</div>';
+                paginationBar.style.display = 'none';
+                return;
+            }
+
+            // Render only the current page items
+            list.innerHTML = pageItems.map(b => {
+                const statusClass = `status-${b.status}`;
+                const isNAT = (t) => t === 'nat' || t === 'numerical' || t === 'numeric';
+                const typeLabel = b.type === 'multiple' ? 'MSQ' : (isNAT(b.type) ? 'NAT' : 'MCQ');
+
+                // Build options HTML
+                let optionsHTML = '';
+                if (b.options && b.options.length > 0) {
+                    optionsHTML = '<div class="rq-options">';
+                    b.options.forEach((opt, index) => {
+                        let optClass = '';
+                        const isCorrect = Array.isArray(b.correctAnswer)
+                            ? b.correctAnswer.includes(opt)
+                            : b.correctAnswer === opt;
+                        const isUserChoice = Array.isArray(b.userAnswer)
+                            ? b.userAnswer.includes(index)
+                            : b.userAnswer === index;
+
+                        if (isCorrect) optClass = 'correct-opt';
+                        if (isUserChoice && !isCorrect) optClass = 'wrong-opt';
+
+                        const icon = isCorrect ? '✔' : (isUserChoice ? '✘' : '○');
+                        optionsHTML += `<div class="rq-option ${optClass}"><span>${icon}</span> <span>${opt}</span></div>`;
+                    });
+                    optionsHTML += '</div>';
+                }
+
+                const date = b.dateBookmarked ? new Date(b.dateBookmarked).toLocaleDateString('en-IN', {
+                    day: '2-digit', month: 'short', year: 'numeric'
+                }) : '';
+
+                return `
+                    <div class="result-question-card ${b.status}">
+                        <div class="rq-header">
+                            <span>
+                                <span class="bk-exam-tag">${b.examTitle}</span>
+                                Q${b.questionId} (${typeLabel})
+                            </span>
+                            <div class="rq-header-right">
+                                <span class="bk-date">${date}</span>
+                                <span class="rq-marks ${b.marksObtained > 0 ? 'marks-positive' : (b.marksObtained < 0 ? 'marks-negative' : 'marks-neutral')}">
+                                    ${b.marksObtained > 0 ? '+' : ''}${parseFloat(b.marksObtained || 0).toFixed(2)} Marks
+                                </span>
+                                <span class="rq-status ${statusClass}">${b.status}</span>
+                                <button class="bk-remove-btn" data-hash="${b.questionHash}" title="Remove bookmark">✕</button>
+                            </div>
+                        </div>
+                        <div class="rq-text">${b.questionText}</div>
+                        ${optionsHTML}
+                        <div class="rq-answer-info">
+                            <span class="ans-label">Your Answer: <span class="${b.status === 'correct' ? 'ans-correct' : 'ans-wrong'}">${b.userAnswerDisplay || 'Not Attempted'}</span></span>
+                            <span class="ans-label">Correct Answer: <span class="ans-correct">${b.correctAnswerDisplay}</span></span>
+                        </div>
+                        ${b.explanation ? `
+                        <details class="rq-explanation">
+                            <summary>📖 View Explanation</summary>
+                        <div class="rq-explanation-content">${b.explanation}</div>
+                        </details>
+                        ` : ''}
+                        
+                        <!-- Notes Section -->
+                        <div class="bk-notes-section">
+                            <div class="bk-notes-header">
+                                <span>📝 My Notes / Why I made this mistake:</span>
+                                <button class="bk-edit-note-btn" onclick="editNote('${b.questionHash}', this)">✏️ Edit</button>
+                            </div>
+                            <div class="bk-notes-display" id="note-display-${b.questionHash}">
+                                ${b.notes ? b.notes.replace(/\n/g, '<br>') : '<em style="color:#999;font-size:13px;">No notes added yet...</em>'}
+                            </div>
+                            <div class="bk-notes-edit" id="note-edit-container-${b.questionHash}" style="display:none;">
+                                <textarea id="note-input-${b.questionHash}" class="bk-notes-textarea" placeholder="Why did I make this mistake? (e.g., misread the question, forgot formula...)" rows="3"></textarea>
+                                <div class="bk-notes-actions">
+                                    <button class="btn-pill btn-cancel-note" onclick="cancelNoteEdit('${b.questionHash}')">Cancel</button>
+                                    <button class="btn-pill btn-save-note" onclick="saveNote('${b.questionHash}')">Save Note</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Typeset MathJax (scoped to current page only)
+            if (window.MathJax && MathJax.typesetPromise) {
+                if (MathJax.typesetClear) MathJax.typesetClear([list]);
+                MathJax.typesetPromise([list]).catch(err => console.warn('MathJax error:', err));
+            }
+
+            // Attach remove handlers
+            list.querySelectorAll('.bk-remove-btn').forEach(btn => {
+                btn.addEventListener('click', async function (e) {
+                    e.stopPropagation();
+                    const hash = this.dataset.hash;
+                    try {
+                        await removeBookmarkFromDB(hash);
+                        allBookmarks = allBookmarks.filter(b => b.questionHash !== hash);
+                        renderBookmarks();
+                    } catch (err) {
+                        console.warn('Remove bookmark error:', err);
+                    }
+                });
+            });
+
+            // Render pagination controls
+            renderPagination(paginationBar, filtered.length, totalPages, startIdx, endIdx);
+        }
+
+        function renderPagination(container, totalItems, totalPages, startIdx, endIdx) {
+            if (totalPages <= 1) {
+                container.style.display = 'none';
+                return;
+            }
+
+            container.style.display = 'flex';
+            let html = '';
+
+            // Prev button
+            html += `<button class="page-btn" onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>◀ Prev</button>`;
+
+            // Page numbers with ellipsis
+            const pages = getPageNumbers(currentPage, totalPages);
+            pages.forEach(p => {
+                if (p === '...') {
+                    html += `<span class="page-ellipsis">…</span>`;
+                } else {
+                    html += `<button class="page-btn ${p === currentPage ? 'active' : ''}" onclick="goToPage(${p})">${p}</button>`;
+                }
+            });
+
+            // Next button
+            html += `<button class="page-btn" onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>Next ▶</button>`;
+
+            // Page info
+            html += `<span class="page-info">Showing ${startIdx + 1}–${endIdx} of ${totalItems}</span>`;
+
+            container.innerHTML = html;
+        }
+
+        function getPageNumbers(current, total) {
+            if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+
+            const pages = [];
+            pages.push(1);
+
+            if (current > 3) pages.push('...');
+
+            const start = Math.max(2, current - 1);
+            const end = Math.min(total - 1, current + 1);
+            for (let i = start; i <= end; i++) pages.push(i);
+
+            if (current < total - 2) pages.push('...');
+
+            pages.push(total);
+            return pages;
+        }
+
+        function goToPage(page) {
+            const filtered = getFilteredBookmarks();
+            const totalPages = Math.max(1, Math.ceil(filtered.length / ITEMS_PER_PAGE));
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+            renderBookmarks();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // =====================================================
+        // Notes Functions
+        // =====================================================
+        function editNote(hash, btnElement) {
+            const displayDiv = document.getElementById(`note-display-${hash}`);
+            const editContainer = document.getElementById(`note-edit-container-${hash}`);
+            const textarea = document.getElementById(`note-input-${hash}`);
+
+            // Get original note from data array
+            const item = allBookmarks.find(s => s.questionHash === hash);
+            textarea.value = item && item.notes ? item.notes : '';
+
+            displayDiv.style.display = 'none';
+            editContainer.style.display = 'block';
+            textarea.focus();
+
+            // Hide edit button while editing
+            btnElement.style.display = 'none';
+        }
+
+        function cancelNoteEdit(hash) {
+            const displayDiv = document.getElementById(`note-display-${hash}`);
+            const editContainer = document.getElementById(`note-edit-container-${hash}`);
+
+            displayDiv.style.display = 'block';
+            editContainer.style.display = 'none';
+
+            // Find the edit button by traversing from the notes section parent
+            const notesSection = displayDiv.closest('.bk-notes-section');
+            if (notesSection) {
+                const editBtn = notesSection.querySelector('.bk-edit-note-btn');
+                if (editBtn) editBtn.style.display = 'inline-block';
+            }
+        }
+
+        async function saveNote(hash) {
+            const textarea = document.getElementById(`note-input-${hash}`);
+            const newNote = textarea.value.trim();
+            const editContainer = document.getElementById(`note-edit-container-${hash}`);
+            const saveBtn = editContainer ? editContainer.querySelector('.btn-save-note') : null;
+
+            if (saveBtn) {
+                var originalText = saveBtn.textContent;
+                saveBtn.textContent = 'Saving...';
+                saveBtn.disabled = true;
+            }
+
+            try {
+                // Save to DB
+                await updateBookmarkNoteInDB(hash, newNote);
+
+                // Update local array
+                const item = allBookmarks.find(s => s.questionHash === hash);
+                if (item) item.notes = newNote;
+
+                // Update UI without full re-render
+                const displayDiv = document.getElementById(`note-display-${hash}`);
+                displayDiv.innerHTML = newNote ? newNote.replace(/\n/g, '<br>') : '<em style="color:#999;font-size:13px;">No notes added yet...</em>';
+
+                cancelNoteEdit(hash);
+
+            } catch (err) {
+                console.error("Failed to save note:", err);
+                alert("Failed to save note. Please try again.");
+            } finally {
+                if (saveBtn) {
+                    saveBtn.textContent = originalText;
+                    saveBtn.disabled = false;
+                }
+            }
+        }
+
+        // =====================================================
+        // Export as JSON — Exam format for revision
+        // =====================================================
+        function exportAsJson(items) {
+            if (items.length === 0) {
+                alert('No bookmarks to export!');
+                return;
+            }
+
+            const examJson = {
+                title: `Bookmarks Revision (${items.length} Qs)`,
+                duration: Math.max(30, Math.ceil(items.length * 3)),
+                sections: [{
+                    name: 'Bookmarked Questions',
+                    questions: items.map((b, index) => ({
+                        id: index + 1,
+                        question: b.questionText,
+                        type: b.type || 'single',
+                        options: b.options || [],
+                        correct_answer: b.correctAnswer,
+                        marks: b.maxMarks || 1,
+                        negative_marks: b.negativeMarks || 0,
+                        explanation: b.explanation || ''
+                    }))
+                }]
+            };
+
+            const jsonStr = JSON.stringify(examJson, null, 2);
+            const blob = new Blob([jsonStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `bookmarks_revision.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <span class="icon-moon">🌙</span>
+        <span class="icon-sun">☀️</span>
+    </button>
+    <script src="js/dark_mode.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" title="Go to top">
+        &#8679;
+    </button>
+    <script>
+        // Scroll to Top Button Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+            if (scrollToTopBtn) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 200) {
+                        scrollToTopBtn.style.display = 'flex';
+                    } else {
+                        scrollToTopBtn.style.display = 'none';
+                    }
+                });
+                scrollToTopBtn.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

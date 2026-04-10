@@ -1,0 +1,116 @@
+{
+  "title": "Algorithms - Sorting",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336657\"></a><div itemprop=\"text\"><p>Which of the following sorting procedures is the slowest?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Quick Sort</p>",
+            "<p>Merge Sort</p>",
+            "<p>Shell Sort</p>",
+            "<p>Bubble Sort</p>"
+          ],
+          "correct_answer": "<p>Bubble Sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336657/nielit-2016-dec-scientist-b-it-section-b-12\" target=\"_blank\">https://gateoverflow.in/336657/nielit-2016-dec-scientist-b-it-section-b-12</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336661\"></a><div itemprop=\"text\"><p>Selection sort, quick sort is a stable sorting method</p>\n\n</div><br><br><b>Algorithms: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>True,True</p>",
+            "<p>False,False</p>",
+            "<p>True,False</p>",
+            "<p>False,True</p>"
+          ],
+          "correct_answer": "<p>False,False</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336661/nielit-2016-dec-scientist-b-it-section-b-8\" target=\"_blank\">https://gateoverflow.in/336661/nielit-2016-dec-scientist-b-it-section-b-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336729\"></a><div itemprop=\"text\"><p>Which of the following sorting algorithms does not have a worst case running time of \\( O(n​^2​) \\)?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort.</p>",
+            "<p>Merge sort.</p>",
+            "<p>Quick sort.</p>",
+            "<p>Bubble sort.</p>"
+          ],
+          "correct_answer": "<p>Merge sort.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336729/nielit-2016-mar-scientist-b-section-c-12\" target=\"_blank\">https://gateoverflow.in/336729/nielit-2016-mar-scientist-b-section-c-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336366\"></a><div itemprop=\"text\"><p>The worst case running times of Insertion sort, Merge sort and Quick sort, respectively, are</p></div><br><br><b>Algorithms: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n \\log n),\\Theta(n \\log n) \\text{ and } \\Theta(n^2) \\)</p>",
+            "<p>\\( \\Theta(n^2),\\Theta(n^2)\\text{ and } \\Theta(n \\log n) \\)</p>",
+            "<p>\\( \\Theta(n^2), \\Theta(n \\log n)\\text{ and } \\Theta(n \\log n) \\)</p>",
+            "<p>\\( \\Theta(n^2),\\Theta(n\\log n) \\text{ and } \\Theta(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n^2),\\Theta(n\\log n) \\text{ and } \\Theta(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336366/nielit-2017-july-scientist-b-cs-section-b-9\" target=\"_blank\">https://gateoverflow.in/336366/nielit-2017-july-scientist-b-cs-section-b-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"275517\"></a><div itemprop=\"text\"><p>______ sorting algorithms has the lowest worst-case complexity.</p>\n\n</div><br><br><b>Algorithms: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Selection Sort</p>",
+            "<p>Bubble&nbsp;Sort</p>",
+            "<p>Merge&nbsp;Sort</p>",
+            "<p>Quick&nbsp;Sort</p>"
+          ],
+          "correct_answer": "<p>Merge&nbsp;Sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275517/nielit-2018-47\" target=\"_blank\">https://gateoverflow.in/275517/nielit-2018-47</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"369327\"></a><div itemprop=\"text\"><p>Which of the following is not a stable sorting algorithm?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort</p>",
+            "<p>Selection sort</p>",
+            "<p>Bubble sort</p>",
+            "<p>Merge sort</p>"
+          ],
+          "correct_answer": "<p>Selection sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369327/nielit-2021-dec-scientist-a-section-b-86\" target=\"_blank\">https://gateoverflow.in/369327/nielit-2021-dec-scientist-a-section-b-86</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351372\"></a><div itemprop=\"text\"><p>The given array is \\( \\text{arr={1, 2, 4, 3}} \\). Bubble sort is used to sort the array elements. How many passes will be done to sort the array?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351372/nielit-scientific-assistant-a-2020-november-88\" target=\"_blank\">https://gateoverflow.in/351372/nielit-scientific-assistant-a-2020-november-88</a></p>"
+        }
+      ]
+    }
+  ]
+}

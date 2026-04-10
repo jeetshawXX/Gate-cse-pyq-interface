@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Bitonic Array",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bitonic Array",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460804\"></a><div itemprop=\"text\"><p>​​An array \\( A \\) of length \\( n \\) with distinct elements is said to be bitonic if there is an index \\( 1 \\leq i \\leq n \\) such that \\( A[1 . . i] \\) is sorted in the non-decreasing order and \\( A[i+1 \\ldots n] \\) is sorted in the non-increasing order.<br><br>Which ONE of the following represents the best possible asymptotic bound for the worst-case number of comparisons by an algorithm that searches for an element in a bitonic array \\( A \\) ?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(1) \\)</p>",
+            "<p>\\( \\Theta\\left(\\log ^{2} n\\right) \\)</p>",
+            "<p>\\( \\Theta(\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460804/gate-cse-2025-set-2-question-31\" target=\"_blank\">https://gateoverflow.in/460804/gate-cse-2025-set-2-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Recursively Enumerable Languages",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Recursively Enumerable Languages",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182074\"></a><div itemprop=\"text\"><p>Let \\( L_1 \\) be regular language, \\( L_2 \\) be a deterministic context free language and \\( L_3 \\)<br>\na<strong> recursively enumerable language</strong>, but not recursive. Which one of the follewing statements is false ?</p>\n\n</div><br><br><b>Theory of Computation: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_3\\cap L_1 \\) is recursive</p>",
+            "<p>\\( L_1\\cap L_2\\cap L_3 \\) is recursively enumerable</p>",
+            "<p>\\( L_1\\cup L_2 \\) is context free</p>",
+            "<p>\\( L_1\\cap L_2 \\) is context free</p>"
+          ],
+          "correct_answer": "<p>\\( L_3\\cap L_1 \\) is recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182074/isro-dec2017-24\" target=\"_blank\">https://gateoverflow.in/182074/isro-dec2017-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

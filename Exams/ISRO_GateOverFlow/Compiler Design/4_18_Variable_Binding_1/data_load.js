@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Variable Binding",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Variable Binding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43764\"></a><div itemprop=\"text\">\n<p>Consider the following psuedocode:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">x: integer := 1  \ny: integer := 2   \nprocedure add  \n    x:= x + y    \nprocedure second (P: Procedure)  \n    x: integer := 2      \n    p()   \nprocedure first  \n    y: integer := 3\n    second (add) \nfirst () \nwrite_integer(x)</pre>\n\n<p>What does it print if the language uses dynamic scoping with deep binding?</p>\n\n\n</div><br><br><b>Compiler Design: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43764/isro-2013-7\" target=\"_blank\">https://gateoverflow.in/43764/isro-2013-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

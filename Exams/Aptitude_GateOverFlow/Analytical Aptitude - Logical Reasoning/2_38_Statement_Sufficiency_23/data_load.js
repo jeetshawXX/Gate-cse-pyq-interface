@@ -1,0 +1,330 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Statement Sufficiency",
+  "duration": 64,
+  "sections": [
+    {
+      "name": "Statement Sufficiency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1252\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>Consider three real numbers, X, Y and Z. Is Z the smallest of these numbers?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 131</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>X is greater than at least one of Y and Z.</p>",
+            "<p>Y is greater than at least one of X and Z.\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1252/cat-2000-question-131\" target=\"_blank\">https://aptitude.gateoverflow.in/1252/cat-2000-question-131</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1253\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>Let X be a real number. Is the modulus of \\( \\text{X} \\) necessarily less than \\( 3? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 132</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{X(X} + 3) &lt; 0 \\)</p>",
+            "<p>\\( \\text{X(X} – 3) &gt; 0 \\)&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1253/cat-2000-question-132\" target=\"_blank\">https://aptitude.gateoverflow.in/1253/cat-2000-question-132</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1254\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>How many people are watching TV programme P?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 133</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Number of people watching TV programme Q is \\( 1000 \\) and number of people watching both the programmes, P and Q, is \\( 100. \\)</p>",
+            "<p>Number of people watching either P or Q or both is \\( 1500. \\)&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1254/cat-2000-question-133\" target=\"_blank\">https://aptitude.gateoverflow.in/1254/cat-2000-question-133</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1255\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>Triangle PQR has angle PRQ equal to 90 degrees. What is the value of PR + RQ?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 134</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Diameter of the inscribed circle of the triangle PQR is equal to \\( 10 \\) cm.</p>",
+            "<p>Diameter of the circumscribed circle of the triangle PQR is equal to \\( 18 \\) cm&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1255/cat-2000-question-134\" target=\"_blank\">https://aptitude.gateoverflow.in/1255/cat-2000-question-134</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1256\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>Harshad bought shares of a company on a certain day, and sold them the next day. While buying and selling he had to pay to the broker one percent of the transaction value of the shares as brokerage. What was the profit earned by him per rupee spent on buying the shares?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 135</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The sales price per share was \\( 1.05 \\) times that of its purchase price.</p>",
+            "<p>The number of shares purchased was&nbsp;\\( 100. \\)&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1256/cat-2000-question-135\" target=\"_blank\">https://aptitude.gateoverflow.in/1256/cat-2000-question-135</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1257\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>For any two real numbers,</p>\n\n<p>\\( a \\oplus b =&nbsp; \\left\\{\\begin{matrix} 1\\; \\text{if both}\\; a \\;\\text{and}\\; b \\;\\text{are positive or both}\\; a \\;\\text{and}\\; b \\;\\text{are negative.} \\\\ –1 \\;\\text{if one of the two numbers}\\; a\\; \\text{and}\\; b\\;\\text{is positive and the other negative.} \\end{matrix}\\right. \\)</p>\n\n<p>What is \\( (2 \\oplus&nbsp;0) \\oplus&nbsp;(–5 \\oplus&nbsp;–6)? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 136</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( a \\oplus&nbsp;b \\) is zero if a is zero.</p>",
+            "<p>\\( a \\oplus&nbsp;b = b \\oplus&nbsp;a \\)&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1257/cat-2000-question-136\" target=\"_blank\">https://aptitude.gateoverflow.in/1257/cat-2000-question-136</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1258\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>There are two straight lines in the \\( x-y \\) plane with equations \\( ax + by = c, dx + ey = f. \\) Do the two straight lines intersect?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 137</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( a, b, c, d, e \\) and \\( f \\) are distinct real numbers.</p>",
+            "<p>\\( c \\) and \\( f \\) are non-zero\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1258/cat-2000-question-137\" target=\"_blank\">https://aptitude.gateoverflow.in/1258/cat-2000-question-137</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1259\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>\\( \\text{O} \\) is the centre of two concentric circles. \\( ae \\) is a chord of the outer circle and it intersects the inner circle at point; \\( b \\) and \\( d. c \\) is a point on the chord in between&nbsp;\\( b \\) and \\( d. \\) What is the value of \\( ac/ce? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 138</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( bc/cd = 1 \\)</p>",
+            "<p>A third circle intersects the inner circle at \\( b \\) and \\( d \\) and the point \\( c \\) is on the line joining the centres of the third circle and the inner circle.&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1259/cat-2000-question-138\" target=\"_blank\">https://aptitude.gateoverflow.in/1259/cat-2000-question-138</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1260\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>Ghosh Babu has decided to take a non-stop flight from Mumbai to No-man’s-land in South America. He is scheduled to leave Mumbai at \\( 5 \\) am, Indian Standard Time on December \\( 10, 2000. \\) What is the local time at No-man’s-land when he reaches there?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 139</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The average speed of the plane is&nbsp;\\( 700 \\)&nbsp;kilometres per hour.</p>",
+            "<p>The flight distance is \\( 10,500 \\)&nbsp;kilometres.&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1260/cat-2000-question-139\" target=\"_blank\">https://aptitude.gateoverflow.in/1260/cat-2000-question-139</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1261\"></a><div itemprop=\"text\"><p>Each question is followed by two statements, I and II. Answer each question using the following instructions.</p>\n\n<p><strong>Mark the answer as</strong></p>\n\n<ul>\n\t<li>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.</li>\n\t<li>Choose \\( 2 \\) if the question can be answered by using either statement alone.</li>\n\t<li>Choose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.</li>\n\t<li>Choose \\( 4 \\) if the question cannot be answered even by using both statements together.</li>\n</ul>\n\n<p>What are the ages of two individuals, X and Y?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2000 | Question: 140</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The age difference between them is \\( 6 \\) years.</p>",
+            "<p>The product of their ages is divisible by \\( 6 \\)&nbsp;\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1261/cat-2000-question-140\" target=\"_blank\">https://aptitude.gateoverflow.in/1261/cat-2000-question-140</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1358\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p>What are the values of \\( m \\) and \\( n? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2001 | Question: 121</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( n \\) is an even integer, \\( m \\) is an odd integer, and \\( m \\) is greater than \\( n. \\)</p>",
+            "<p>Product of \\( m \\) and \\( n \\) is \\( 30 \\)\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1358/cat-2001-question-121\" target=\"_blank\">https://aptitude.gateoverflow.in/1358/cat-2001-question-121</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1363\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p>Is Country X's GDP higher than country Y's GDP?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2001 | Question: 122</b></p>",
+          "type": "single",
+          "options": [
+            "<p>GDPs of the countries X and Y have grown over the past five years at compounded annual rate of \\( 5\\% \\) and \\( 6\\% \\) respectively.</p>",
+            "<p>Five years ago, GDP of country X was higher than that of country Y.\n\t<ol style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "<p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1363/cat-2001-question-122\" target=\"_blank\">https://aptitude.gateoverflow.in/1363/cat-2001-question-122</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1364\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p><br>\nWhat is the value of X?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>X and Y are unequal even integers, less than \\( 10, \\) and X/Y is an odd integer.</li>\n\t<li>X and Y are even integers, each less than \\( 10, \\) and product of X and Y is \\( 12. \\)\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2001 | Question: 123</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1364/cat-2001-question-123\" target=\"_blank\">https://aptitude.gateoverflow.in/1364/cat-2001-question-123</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1365\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p>On a given day a boat ferried \\( 1500 \\) passengers across the river in twelve hours. How many round trips did it make?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>The boat can carry two hundred passengers at any time.</li>\n\t<li>It takes \\( 40 \\) minutes each way and \\( 20 \\) minutes of waiting time at each terminal.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2001 | Question: 124</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1365/cat-2001-question-124\" target=\"_blank\">https://aptitude.gateoverflow.in/1365/cat-2001-question-124</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1366\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p>What will be the time for downloading software?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2001 | Question: 125</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Transfer rate is \\( 6 \\) Kilobytes per second.</p>",
+            "<p>The size of the software is \\( 4.5 \\) megabytes.\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>\\( 1 \\)</li>\n\t\t<li>\\( 2 \\)</li>\n\t\t<li>\\( 3 \\)</li>\n\t\t<li>\\( 4 \\)</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1366/cat-2001-question-125\" target=\"_blank\">https://aptitude.gateoverflow.in/1366/cat-2001-question-125</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1367\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p>A square is inscribed in a circle. What is the difference between the area of the circle and that of the square?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>The diameter of the circle is \\( 25\\sqrt{2} \\) cm.</li>\n\t<li>The side of the square is \\( 25 \\) cm.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2001 | Question: 126</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1367/cat-2001-question-126\" target=\"_blank\">https://aptitude.gateoverflow.in/1367/cat-2001-question-126</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1368\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\) if the question can be answered by using one of the statements alone, but cannot be answered using the other statement alone.<br>\nChoose \\( 2 \\) if the question can be answered by using either statement alone.<br>\nChoose \\( 3 \\) if the question can be answered by using both statements together, but cannot be answered using either statement alone.<br>\nChoose \\( 4 \\) if the question cannot be answered even by using both statements together.</p>\n\n<p>Two friends, Ram and Gopal, bought apples from a wholesale dealer. How many apples did they buy?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Ram bought one-half the number of apples that Gopal bought.</li>\n\t<li>The wholesale dealer had a stock of \\( 500 \\) apples.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2001 | Question: 127</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1368/cat-2001-question-127\" target=\"_blank\">https://aptitude.gateoverflow.in/1368/cat-2001-question-127</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"823\"></a><div itemprop=\"text\"><p>Each of the following problems consists of a question and the statements labelled&nbsp;\\( (1) \\) and \\( (2). \\) You must decide whether the data given for the statements are sufficient to answer the questions.</p>\n\n<p>If both \\( \\text{ABDC} \\) and \\( \\text{CDFE} \\) are parallelograms. what is \\( q + r ? \\)</p>\n\n<ol>\n\t<li>\\( r = 70 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>\n\t<li>\\( p = 110 \\)</li>\n</ol>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16524682725199156960\" width=\"400\"></p>\n\n</div><br><br><b>Logical Reasoning: CAT 2009 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statement \\( (1) \\) ALONE is sufficient, but statement \\( (2) \\) alone is not sufficient.</p>",
+            "<p>Statement \\( (2) \\) ALONE is sufficient, but statement \\( (1) \\) alone is not sufficient.</p>",
+            "<p>BOTH statements TOGETHER are sufficient, but NEITHER statement alone is sufficient.</p>",
+            "<p>EACH statement ALONE is sufficient.</p>"
+          ],
+          "correct_answer": "<p>EACH statement ALONE is sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/823/cat-2009-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/823/cat-2009-question-36</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"825\"></a><div itemprop=\"text\"><p>Each of the following problems consists of a question and the statements labelled&nbsp;\\( (1) \\) and \\( (2). \\) You must decide whether the data given for the statements are sufficient to answer the questions.</p>\n\n<p>A certain stadium is currently full to \\( \\frac{13}{16} \\) of its maximum seating capacity. What is the maximum seating capacity of the stadium?</p>\n\n<ol>\n\t<li>If \\( 1,250 \\) people were to enter the stadium, the stadium would be full to \\( \\frac{15}{16} \\) of its maximum seating capacity.</li>\n\t<li>If \\( 2,500 \\) people were to leave the stadium, the stadium would be full to \\( \\frac{9}{16} \\) of its maximum seating capacity.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2009 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statement \\( (1) \\) ALONE is sufficient, but statement \\( (2) \\) alone is not sufficient.</p>",
+            "<p>Statement \\( (2) \\) ALONE is sufficient, but statement \\( (1) \\) alone is not sufficient.</p>",
+            "<p>BOTH statements TOGETHER are sufficient, but NEITHER statement alone is sufficient.</p>",
+            "<p>EACH statement ALONE is sufficient.</p>"
+          ],
+          "correct_answer": "<p>EACH statement ALONE is sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/825/cat-2009-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/825/cat-2009-question-37</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"826\"></a><div itemprop=\"text\"><p>Each of the following problems consists of a question and the statements labelled \\( (1) \\) and \\( (2) \\). You must decide whether the data given for the statements are sufficient to answer the questions.</p>\n\n<p>If \\( n \\) is an integer, is \\( n \\) even?</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>\\( 2n \\) is an even integer.</li>\n\t<li>\\( n - 1 \\) is an odd integer.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2009 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statement \\( (1) \\) ALONE is sufficient, but statement \\( (2) \\) alone is not sufficient.</p>",
+            "<p>Statement \\( (2) \\) ALONE is sufficient, but statement \\( (1) \\) alone is not sufficient.</p>",
+            "<p>BOTH statements TOGETHER are sufficient, but NEITHER statement alone is sufficient.</p>",
+            "<p>EACH statement ALONE is sufficient.</p>"
+          ],
+          "correct_answer": "<p>Statement \\( (2) \\) ALONE is sufficient, but statement \\( (1) \\) alone is not sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/826/cat-2009-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/826/cat-2009-question-38</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"827\"></a><div itemprop=\"text\"><p>Each of the following problems consists of a question and the statements labelled \\( (1) \\) and \\( (2) \\). You must decide whether the data given for the statements are sufficient to answer the questions.</p>\n\n<p>What is the value of \\( x \\)?</p>\n\n<ol>\n\t<li>\\( x^{2}-5x+4=0 \\)</li>\n\t<li>\\( x \\) is not prime.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2009 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( (1) \\) ALONE is sufficient, but statement \\( (2) \\) alone is not sufficient.</p>",
+            "<p>Statement \\( (2) \\) ALONE is sufficient, but statement \\( (1) \\) alone is not sufficient.</p>",
+            "<p>BOTH statements TOGETHER are sufficient, but NEITHER statement alone is sufficient.</p>",
+            "<p>Statement \\( (1) \\) and \\( (2) \\) TOGETHER are NOT sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/827/cat-2009-question-39\" target=\"_blank\">https://aptitude.gateoverflow.in/827/cat-2009-question-39</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"828\"></a><div itemprop=\"text\"><p>Each of the following problems consists of a question and the statements labelled \\( (1) \\) and \\( (2) \\). You must decide whether the data given for the statements are sufficient to answer the questions.</p>\n\n<p>A fish tanks contains a number of fish, including \\( 5 \\) Fantails. If two fish are selected from the tank at random, what is the probability that both will be Fantails?</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>The probability that the first fish chosen will be Fantail is \\( \\frac{1}{2} \\).</li>\n\t<li>The probability that the second fish chosen will be Fantail is \\( \\frac{4}{9} \\).</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2009 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( (1) \\) ALONE is sufficient, but statement \\( (2) \\) alone is not sufficient.</p>",
+            "<p>Statement \\( (2) \\) ALONE is sufficient, but statement \\( (1) \\) alone is not sufficient.</p>",
+            "<p>BOTH statements TOGETHER are sufficient, but NEITHER statement alone is sufficient.</p>",
+            "<p>EACH statement ALONE is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/828/cat-2009-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/828/cat-2009-question-40</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"5702\"></a><div itemprop=\"text\"><p>The table below presents the revenue (in million rupees) of four firms in three states. These firms, Honest Ltd., Aggressive Ltd., Truthful Ltd. and Profitable Ltd. are disguised in the table as A, B, C and D, in no particular order.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|}\\hline \\text{States}&amp;\\text{Firm A}&amp;\\text{Firm B}&amp;\\text{Firm C}&amp;\\text{Firm D}\\\\\\hline \\text{UP}&amp;49&amp;82&amp;80&amp;55\\\\\\hline &nbsp;\\text{Bihar}&amp;69&amp;72&amp;70&amp;65\\\\\\hline&nbsp;\\text{MP}&amp;72&amp;63&amp;72&amp;65\\\\\\hline\\end{array} \\]</p>\n\n<p>Further, it is known that: In the state of MP, Truthful Ltd. has the highest market share. Aggressive Ltd.’s aggregate revenue differs from Honest Ltd.’s by Rs. \\( 5 \\) million.</p>\n\n<p>If Profitable Ltd.’s lowest revenue is from UP, then which of the following is true?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2016 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Truthful Ltd.’s lowest revenues are from MP.</p>",
+            "<p>Truthful Ltd.’s lowest revenues are from Bihar.</p>",
+            "<p>Truthful Ltd.’s lowest revenues are from UP.</p>",
+            "<p>No definite conclusion is possible.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5702/cat-2016-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/5702/cat-2016-question-66</a></p>"
+        }
+      ]
+    }
+  ]
+});

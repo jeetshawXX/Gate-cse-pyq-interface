@@ -1,0 +1,239 @@
+{
+  "title": "Algorithms - Greedy_Technique",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Greedy_Technique",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the string abbccddeee. Each letter in the string must be assigned a binary code satisfying the following properties:\n<br><br>\nFor any two letters, the code assigned to one letter must not be a prefix of the code assigned to the other letter.<br>\nFor any two letters of the same frequency, the letter which occurs earlier in the dictionary order is assigned a code whose length is at most the length of the code assigned to the other letter.<br><br>\nAmong the set of all binary code assignments which satisfy the above two properties, what is the minimum length of the encoded string? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21</p>",
+            "<b>B.</b> <p>23</p>",
+            "<b>C.</b> <p>25</p>",
+            "<b>D.</b> <p>30</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>23</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357514/gate-cse-2021-set-2-question-26#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Define \\(R_n\\) to be the maximum amount earned by cutting a rod of length n meters into one or more pieces of integer length and selling them. For \\(i &gt; 0\\), let \\(p[i]\\) denote the selling price of a rod whose length is \\(i\\) meters. Consider the array of prices:\n<br><br>\n\\(\\text{p}[1]=1,\\text{p}[2]=5,\\text{p}[3]=8,\\text{p}[4]=9,\\text{p}[5]=10,\\text{p}[6]=17,\\text{p}[7]=18\\)<br><br>\nwhich of the following statements is/are correct about \\(R_7\\)? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(R_7=18\\)</p>",
+            "<b>B.</b> <p>\\(R_7=19\\)</p>",
+            "<b>C.</b> <p>\\(R_7\\) is achieved by three different solutions.</p>",
+            "<b>D.</b> <p>\\(R_7\\) cannot be achieved by a solution consisting of three pieces.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(R_7=18\\)</p>",
+            "<b>C.</b> <p>\\(R_7\\) is achieved by three different solutions.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357411/gate-cse-2021-set-1-question-40#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Huffman tree is constructed for the following data :{A,B,C,D,E} with frequency {0.17, 0.11, 0.24, 0.33 and 0.15} respectively. 100 00 01101 is decoded as <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BACE</p>",
+            "<b>B.</b> <p>CADE</p>",
+            "<b>C.</b> <p>BAD</p>",
+            "<b>D.</b> <p>CADD</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BACE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331358/isro2020-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the weights and values of items listed below. Note that there is only one unit of each item. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Greedy_Technique\\q48_ac42f524.jpg\"> <br>  The task is to pick a subset of these items such that their total weight is no more than 11 Kgs\nand their total value is maximized. Moreover, no item may be split. The total value of items picked by an optimal algorithm is denoted by  \\(V_{opt}\\). A greedy algorithm sorts the items by their value-to-weight ratios in descending order and packs them greedily, starting from the first item in the ordered list. The total value of items picked by the greedy algorithm is denoted by \\(V_{greedy}\\).<br>\nThe value of \\(V_{opt}\\)-\\(V_{greedy}\\) is ____________. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204123/gate2018-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A message is made up entirely of characters from the set X= {P,Q,R,S,T}. The table of\nprobabilities for each of the characters is shown below: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Greedy_Technique\\q41_1d66a9cf.jpg\"> <br>If a message of 100 characters over X is encoded using Huffman coding, then the expected\nlength of the encoded message in bits is_____ <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "225",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118395/gate2017-2-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following table: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Greedy_Technique\\q4_e0e30ec7.jpg\"> <br>Match the algorithms to the design paradigms they are based on. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-(ii), Q-(iii),R-(i)</p>",
+            "<b>B.</b> <p>P-(iii), Q-(i), R-(ii)</p>",
+            "<b>C.</b> <p>P-(ii), Q-(i), R-(iii)</p>",
+            "<b>D.</b> <p>P-(i), Q-(ii), R-(iii)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-(ii), Q-(i), R-(iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118707/gate2017-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively.\nThey are to be merged into a single sequence by merging together two sequences at a time.\nThe number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "358",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1997/gate2014-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a job scheduling problem with 4 jobs \\(J_1, J_2, J_3\\) and \\(J_4\\) with corresponding deadlines: \\((d_1, d_2, d_3, d_4) = (4, 2, 4, 2)\\). Which of the following is not a feasible schedule without violating any job schedule? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(J_2, J_4, J_1, J_3\\)</p>",
+            "<b>B.</b> <p>\\(J_4, J_1, J_2, J_3\\)</p>",
+            "<b>C.</b> <p>\\(J_4, J_2, J_1, J_3\\)</p>",
+            "<b>D.</b> <p>\\(J_4, J_2, J_3, J_1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(J_4, J_1, J_2, J_3\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49483/isro2007-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider n jobs \\(J_1, J_2 \\dots J_n\\) such that job \\(J_i\\) has execution time \\(t_i\\) and a non-negative integer weight \\(w_i\\). The weighted mean completion time of the jobs is defined to be \\(\\frac{\\sum_{i=1}^{n}w_iT_i}{\\sum_{i=1}^{n}w_i}\\), where \\(T_i\\) is the completion time of job \\(J_i\\). Assuming that there is only one processor available, in what order must the jobs be executed in order to minimize the weighted mean completion time of the jobs? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Non-decreasing order of \\(t_i\\)</p>",
+            "<b>B.</b> <p>Non-increasing order of \\(w_i\\)</p>",
+            "<b>C.</b> <p>Non-increasing order of \\(w_it_i\\)</p>",
+            "<b>D.</b> <p>Non-increasing order of \\(w_i/t_i\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Non-increasing order of \\(w_i/t_i\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3459/gate2007-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively.  <br><br>What is the average length of  the Huffman code for the letters a,b,c,d,e,f? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>2.1875</p>",
+            "<b>C.</b> <p>2.25</p>",
+            "<b>D.</b> <p>1.9375</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.9375</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43513/gate2007-77#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively. <br><br>Which of the following is the Huffman code for the letter a, b, c, d, e, f? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, 10, 110, 1110, 11110, 11111</p>",
+            "<b>B.</b> <p>11, 10, 011, 010, 001, 000</p>",
+            "<b>C.</b> <p>11, 10, 01, 001, 0001, 0000</p>",
+            "<b>D.</b> <p>110, 100, 010, 000, 001, 111</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0, 10, 110, 1110, 11110, 11111</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1271/gate2007-76#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The characters a to h have the set of frequencies based on the first 8 Fibonacci numbers as follows <br>\na:1, b:1, c:2, d:3, e:5, f:8, g:13, h:21<br>\nA Huffman code is used to represent the characters. What is the sequence of characters corresponding to the following code?<br>\n110111100111010 <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>fdheg</p>",
+            "<b>B.</b> <p>ecgdf</p>",
+            "<b>C.</b> <p>dchfg</p>",
+            "<b>D.</b> <p>fehdg</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>fdheg</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3591/gate2006-it-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the following table, the left column contains the names of standard graph algorithms and the right column contains the time complexities of the algorithms. Match each algorithm with its time complexity.<br>\n\\(\\begin{array}{|ll|ll|}\\hline \\text{1.} &amp; \\text{Bellman-Ford algorithm} &amp; \\text{A:} &amp; \\text{$O(m\\log n)$} \\\\\\hline \\text{2.} &amp; \\text{Kruskal's algorithm} &amp; \\text{B:}&amp; \\text{$O(n^3)$} \\\\\\hline \\text{3.}&amp; \\text{Floyd-Warshall algorithm} &amp; \\text{C:} &amp; \\text{$O(nm)$} \\\\\\hline \\text{4.} &amp; \\text{Topological sorting} &amp;\\text{D:} &amp; \\text{$O(n+m)$} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1\\(\\rightarrow\\) C, 2 \\(\\rightarrow\\) A, 3 \\(\\rightarrow\\) B, 4 \\(\\rightarrow\\) D</p>",
+            "<b>B.</b> <p>1\\(\\rightarrow\\) B, 2 \\(\\rightarrow\\) D, 3 \\(\\rightarrow\\) C, 4 \\(\\rightarrow\\) A</p>",
+            "<b>C.</b> <p>1\\(\\rightarrow\\) C, 2 \\(\\rightarrow\\) D, 3 \\(\\rightarrow\\) A, 4 \\(\\rightarrow\\) B</p>",
+            "<b>D.</b> <p>1\\(\\rightarrow\\) B, 2 \\(\\rightarrow\\) A, 3 \\(\\rightarrow\\) C, 4 \\(\\rightarrow\\) D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1\\(\\rightarrow\\) C, 2 \\(\\rightarrow\\) A, 3 \\(\\rightarrow\\) B, 4 \\(\\rightarrow\\) D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3760/gate2005-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>We are given 9 tasks T1, T2... T9. The execution of each task requires one unit of time. We can execute one task at a time. Each task Ti has a profit Pi and a deadline di Profit Pi is earned if the task is completed before the end of the dith unit of time.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Greedy_Technique\\q87_3ccdd455.jpg\"> <br> What is the maximum profit earned? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>147</p>",
+            "<b>B.</b> <p>165</p>",
+            "<b>C.</b> <p>167</p>",
+            "<b>D.</b> <p>175</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>147</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82514/gate2005-88#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>We are given 9 tasks T1, T2... T9. The execution of each task requires one unit of time. We can execute one task at a time. Each task Ti has a profit Pi and a deadline di Profit Pi is earned if the task is completed before the end of the dith unit of time.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Greedy_Technique\\q87_3ccdd455.jpg\"> <br> Are all tasks completed in the schedule that gives maximum profit? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All tasks are completed</p>",
+            "<b>B.</b> <p>T1 and T6 are left out</p>",
+            "<b>C.</b> <p>T1 and T8 are left out</p>",
+            "<b>D.</b> <p>T4 and T6 are left out</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>T4 and T6 are left out</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1406/gate2005-87#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The minimum number of record movements required to merge five files A (with 10 records), B (with 20 records), C (with 15 records), D (with 5 records) and E (with 25 records) is: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>165</p>",
+            "<b>B.</b> <p>90</p>",
+            "<b>C.</b> <p>75</p>",
+            "<b>D.</b> <p>65</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>165</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/466/gate1999-2-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Normal Distribution",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Normal Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50517\"></a><div itemprop=\"text\"><p>If the mean of a normal frequency distribution of \\( 1000 \\) items is \\( 25 \\) and its standard deviation is \\( 2.5, \\) then its maximum ordinate is</p>\n\n</div><br><br><b>Probability: ISRO CSE 2009 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1000}{\\sqrt{2 \\pi} } e^{-25} \\)</p>",
+            "<p>\\( \\frac{1000}{\\sqrt{2 \\pi} } \\)</p>",
+            "<p>\\( \\frac{1000}{\\sqrt{2 \\pi} } e^{-2.5} \\)</p>",
+            "<p>\\( \\frac{400}{\\sqrt{2 \\pi} } \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{400}{\\sqrt{2 \\pi} } \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50517/isro-cse-2009-question-65\" target=\"_blank\">https://gateoverflow.in/50517/isro-cse-2009-question-65</a></p>"
+        }
+      ]
+    }
+  ]
+});

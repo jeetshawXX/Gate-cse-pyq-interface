@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Ethernet",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Ethernet",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49494\"></a><div itemprop=\"text\">\n<p>An Ethernet hub</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2007 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>functions as a repeater</p>",
+            "<p>connects to a digital PBX</p>",
+            "<p>connects to a token-ring network</p>",
+            "<p>functions as a gateway</p>"
+          ],
+          "correct_answer": "<p>functions as a repeater</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49494/isro-cse-2007-question-21\" target=\"_blank\">https://gateoverflow.in/49494/isro-cse-2007-question-21</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49666\"></a><div itemprop=\"text\">\n<p>In Ethernet, the source address field in the MAC frame is the _______ address.</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2008 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>original sender's physical</p>",
+            "<p>previous station's physical</p>",
+            "<p>next destination's physical</p>",
+            "<p>original sender's service port</p>"
+          ],
+          "correct_answer": "<p>previous station's physical</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49666/isro-cse-2008-question-5\" target=\"_blank\">https://gateoverflow.in/49666/isro-cse-2008-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55011\"></a><div itemprop=\"text\">\n<p>A mechanism or technology used in Ethernet by which two connected devices choose common transmission parameters such as speed, duplex mode and flow control is called</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2014 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Autosense</p>",
+            "<p>Synchronization</p>",
+            "<p>Pinging</p>",
+            "<p>Auto negotiation</p>"
+          ],
+          "correct_answer": "<p>Auto negotiation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55011/isro-cse-2014-question-61\" target=\"_blank\">https://gateoverflow.in/55011/isro-cse-2014-question-61</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"128662\"></a><div itemprop=\"text\"><p>An Ethernet frame that is &nbsp;less than the \\( \\textsf{IEEE 802.3} \\) minimum length of \\( 64 \\) octets is called</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Short frame</p>",
+            "<p>Small frame</p>",
+            "<p>Mini frame</p>",
+            "<p>Runt frame</p>"
+          ],
+          "correct_answer": "<p>Runt frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128662/isro-cse-2017-question-33\" target=\"_blank\">https://gateoverflow.in/128662/isro-cse-2017-question-33</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"43976\"></a><div itemprop=\"text\">\n<p>In the Ethernet, which field is actually added at the physical layer and is not part of the frame.</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Preamble</p>",
+            "<p>CRC</p>",
+            "<p>Address</p>",
+            "<p>Location</p>"
+          ],
+          "correct_answer": "<p>Preamble</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43976/isro-2013-38\" target=\"_blank\">https://gateoverflow.in/43976/isro-2013-38</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"43978\"></a><div itemprop=\"text\">\n<p>Ethernet layer- \\( 2 \\) switch is a network element type which gives.</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Different collision domain and same broadcast domain.</p>",
+            "<p>Different collision domain and different broadcast domain.</p>",
+            "<p>Same collision domain and same broadcast domain.</p>",
+            "<p>Same collision domain and different broadcast domain.</p>"
+          ],
+          "correct_answer": "<p>Different collision domain and same broadcast domain.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43978/isro-2013-39\" target=\"_blank\">https://gateoverflow.in/43978/isro-2013-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

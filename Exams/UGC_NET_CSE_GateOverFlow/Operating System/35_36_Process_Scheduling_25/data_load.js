@@ -1,0 +1,381 @@
+window.__examLoadCallback({
+  "title": "Operating System - Process Scheduling",
+  "duration": 69,
+  "sections": [
+    {
+      "name": "Process Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70313\"></a><div itemprop=\"text\"><p>Five jobs \\( A, B, C, D \\) and \\( E \\) are waiting in Ready Queue. Their expected runtimes are \\( 9, 6, 3, 5 \\) and \\( x \\) respectively. All jobs entered in Ready queue at time zero. They must run in _____ order to minimize average response time if \\( 3 &lt; x &lt; 5 \\).</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | August 2016 | Part 2 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( B, A, D, E, C \\)&nbsp;</p>",
+            "<p>\\( C, E, D, B, A \\)</p>",
+            "<p>\\( E, D, C, B, A \\)</p>",
+            "<p>\\( C, B, A, E, D \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70313/ugc-net-cse-august-2016-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/70313/ugc-net-cse-august-2016-part-2-question-39</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"70315\"></a><div itemprop=\"text\"><p>Consider three CPU intensive processes \\( P1, P2, P3 \\) which require \\( 20, 10 \\) and \\( 30 \\) units of time, arrive at times \\( 1, 3 \\) and \\( 7 \\) respectively. Suppose operating system is implementing Shortest Remaining Time first (preemptive scheduling) algorithm, then _____ context switches are required (suppose context switch at the beginning of Ready queue and at the end of Ready queue are not counted).</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | August 2016 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70315/ugc-net-cse-august-2016-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/70315/ugc-net-cse-august-2016-part-2-question-40</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335634\"></a><div itemprop=\"text\"><p>____________ is one of pre-emptive scheduling algorithm.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2006 | Part 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Shortest-Job-first</p>",
+            "<p>Round-robin</p>",
+            "<p>Priority based</p>",
+            "<p>Shortest-Job-next</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335634/ugc-net-cse-december-2006-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/335634/ugc-net-cse-december-2006-part-2-question-37</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335633\"></a><div itemprop=\"text\"><p>A software to create a Job Queue is called ____________ .</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2006 | Part 2 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Linkage editor</p>",
+            "<p>Interpreter</p>",
+            "<p>Driver</p>",
+            "<p>Spooler</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335633/ugc-net-cse-december-2006-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/335633/ugc-net-cse-december-2006-part-2-question-38</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"152914\"></a><div itemprop=\"text\">In the process management Round-robin method is essentially the pre-emptive version of _________<br>\n<br>\n(A) FILO<br>\n<br>\n(B) FIFO<br>\n<br>\n(C) SSF<br>\n<br>\n(D) Longest time first</div><br><br><b>Operating System: UGC NET CSE | December 2009 | Part 2 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152914/ugc-net-cse-december-2009-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/152914/ugc-net-cse-december-2009-part-2-question-36</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"56525\"></a><div itemprop=\"text\">\n<p>The problem of indefinite blockage of low-priority jobs in general priority scheduling algorithm can be solved using:</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2012 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Parity bit</p>",
+            "<p>Aging</p>",
+            "<p>Compaction</p>",
+            "<p>Timer</p>"
+          ],
+          "correct_answer": "<p>Aging</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56525/ugc-net-cse-december-2012-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/56525/ugc-net-cse-december-2012-part-2-question-20</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"60271\"></a><div itemprop=\"text\"><p>Consider a preemptive priority based scheduling algorithm based on dynamically changing priority. Larger priority number implies higher priority. When the process is waiting for CPU in the ready queue (but not yet started execution), its priority changes at a rate a=2. When it starts running, its priority changes at a rate b=1. All the processes are assigned priority value 0 when they enter ready queue. Assume that the following processes want to execute:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:245px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:70px\">Process ID</td>\n\t\t\t<td style=\"text-align:center; width:77px\">Arrival Time</td>\n\t\t\t<td style=\"text-align:center; width:80px\">Service Time</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:70px\">P1</td>\n\t\t\t<td style=\"text-align:center; width:77px\">0</td>\n\t\t\t<td style=\"text-align:center; width:80px\">4</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:70px\">P2</td>\n\t\t\t<td style=\"text-align:center; width:77px\">1</td>\n\t\t\t<td style=\"text-align:center; width:80px\">1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:70px\">P3</td>\n\t\t\t<td style=\"text-align:center; width:77px\">2</td>\n\t\t\t<td style=\"text-align:center; width:80px\">2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align:center; width:70px\">P4</td>\n\t\t\t<td style=\"text-align:center; width:77px\">3</td>\n\t\t\t<td style=\"text-align:center; width:80px\">1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The time quantum q=1. When two processes want to join ready queue simultaneously, the process which has not executed recently is given priority. The finish time of processes P1, P2, P3 and P4 will respectively be</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 2 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>4, 5, 7 and 8</p>",
+            "<p>8, 2, 7 and 5</p>",
+            "<p>2, 5, 7 and 8</p>",
+            "<p>8, 2, 5 and 7</p>"
+          ],
+          "correct_answer": "<p>8, 2, 7 and 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60271/ugc-net-cse-december-2013-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/60271/ugc-net-cse-december-2013-part-2-question-46</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"59641\"></a><div itemprop=\"text\"><p>Consider the following justifications for commonly using the two-level \\( CPU \\) scheduling:</p>\n\n<p>I. It is used when memory is too small to hold all the ready processes.</p>\n\n<p>II. Because its performance is same as that of the \\( FIFO \\).</p>\n\n<p>III. Because it facilitates putting some set of processes into memory and a choice is made from that.</p>\n\n<p>IV. Because it does not allow to adjust the set of in-core processes.</p>\n\n<p>Which of the following is true ?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2014 | Part 2 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I, III \\) and \\( IV \\)</p>",
+            "<p>\\( I \\) and \\( II \\)&nbsp;</p>",
+            "<p>\\( III \\) and \\( IV \\)</p>",
+            "<p>\\( I \\) and \\( III \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( I \\) and \\( III \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59641/ugc-net-cse-december-2014-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/59641/ugc-net-cse-december-2014-part-2-question-36</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"288304\"></a><div itemprop=\"text\"><p>​​​​​​​Consider the following set of processes and the length of CPU burst time given in milliseconds :</p>\n\n<p>\\( \\begin{array}{|c|c|} &nbsp;\\hline \\text{Process} &amp; \\text{CPU Burst time (ms)}&nbsp;\\\\ \\hline P_1 &amp; 5 \\\\ \\hline P_2 &amp; 7 \\\\ \\hline P_3 &amp; 6 \\\\ \\hline P_4 &amp; 4 \\\\ \\hline \\end{array} \\)</p>\n\n<p>Assume that processes being scheduled with Round-Robin Scheduling Algorithm with time quantum \\( 4 \\) ms. Then the waiting time for \\( P_4 \\) is ______ ms</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2018 | Part 2 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288304/ugc-net-cse-december-2018-part-2-question-73\" target=\"_blank\">https://gateoverflow.in/288304/ugc-net-cse-december-2018-part-2-question-73</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"335186\"></a><div itemprop=\"text\"><p>Some of the criteria for calculation of priority of a process are:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Processor utilization by an individual process.</li>\n\t<li>Weight assigned to a user or group of users</li>\n\t<li>Processor utilization by a user or group of processes</li>\n</ol>\n\n<p>In fair scheduler, priority is calculated based on:</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | January 2017 | Part 3 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only (i) and (ii)</p>",
+            "<p>only (i) and (iii)</p>",
+            "<p>(i) ,(ii)&nbsp; and (iii)</p>",
+            "<p>only (ii) and (iii)</p>"
+          ],
+          "correct_answer": "<p>(i) ,(ii)&nbsp; and (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335186/ugc-net-cse-january-2017-part-3-question-52\" target=\"_blank\">https://gateoverflow.in/335186/ugc-net-cse-january-2017-part-3-question-52</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"63482\"></a><div itemprop=\"text\"><p>A scheduling Algorithm assigns priority proportional to the waiting time of a process. Every process starts with priority zero (lowest priority). The scheduler reevaluates the process priority for every 'T' time units and declares next process to be scheduled. If teh process have no I/O operations and all arrive at time zero, then the schduler implements ___ criteria</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | July 2016 | Part 2 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Priority scheduling</p>",
+            "<p>Rond Robin Scheduling</p>",
+            "<p>Shortest Job First</p>",
+            "<p>FCFS</p>"
+          ],
+          "correct_answer": "<p>Rond Robin Scheduling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63482/ugc-net-cse-july-2016-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/63482/ugc-net-cse-july-2016-part-2-question-40</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"225826\"></a><div itemprop=\"text\"><p>In which of the following scheduling criteria, context switching will never take place?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | July 2018 | Part 2 | Question: 60</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ROUND ROBIN</p>",
+            "<p>Preemptive SJF</p>",
+            "<p>Non-preemptive SJF</p>",
+            "<p>Preemptive priority</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225826/ugc-net-cse-july-2018-part-2-question-60\" target=\"_blank\">https://gateoverflow.in/225826/ugc-net-cse-july-2018-part-2-question-60</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"335424\"></a><div itemprop=\"text\"><p>Which is the correct definition of a valid process transition in an operating system ?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2005 | Part 2 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Wake up : Ready \\( \\rightarrow \\) Running</p>",
+            "<p>Dispatch: Ready \\( \\rightarrow \\) Running</p>",
+            "<p>Block : Ready \\( \\rightarrow \\) Running</p>",
+            "<p>Timer run out: Ready \\( \\rightarrow \\) Blocked</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335424/ugc-net-cse-june-2005-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/335424/ugc-net-cse-june-2005-part-2-question-39</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"68032\"></a><div itemprop=\"text\"><p>_______ is one of pre-emptive scheduling algorithm.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2010 | Part 2 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( RR \\)</p>",
+            "<p>\\( SSN \\)</p>",
+            "<p>\\( SSF \\)</p>",
+            "<p>Priority based</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68032/ugc-net-cse-june-2010-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/68032/ugc-net-cse-june-2010-part-2-question-38</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"55863\"></a><div itemprop=\"text\">\n<p>Pre-emptive scheduling is the strategy of temporarily suspending a running process</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2012 | Part 2 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>before the CPU time slice expires</p>",
+            "<p>to allow starving processes to run</p>",
+            "<p>when it requires I/O</p>",
+            "<p>to avoid collision</p>"
+          ],
+          "correct_answer": "<p>before the CPU time slice expires</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55863/ugc-net-cse-june-2012-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/55863/ugc-net-cse-june-2012-part-2-question-29</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"46841\"></a><div itemprop=\"text\">\n<p style=\"line-height: 20.8px;\">In round robin CPU scheduling as time quantum is increased the average turn around time</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2012 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>increases</p>",
+            "<p>decreases</p>",
+            "<p>remains constant</p>",
+            "<p>varies irregularly</p>"
+          ],
+          "correct_answer": "<p>varies irregularly</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/46841/ugc-net-cse-june-2012-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/46841/ugc-net-cse-june-2012-part-2-question-30</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"58831\"></a><div itemprop=\"text\">\n<p>Consider the following processes with time slice of 4 milliseconds (I/O requests are ignored):</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width: 219px; border-spacing: 1px;\"><tbody><tr><td style=\"width: 96px;\">Process</td>\n\t\t\t<td style=\"width: 28px;\">A</td>\n\t\t\t<td style=\"width: 23px;\">B</td>\n\t\t\t<td style=\"width: 21px;\">C</td>\n\t\t\t<td style=\"width: 23px;\">D</td>\n\t\t</tr><tr><td style=\"width: 96px;\">Arrival time</td>\n\t\t\t<td style=\"width: 28px;\">0</td>\n\t\t\t<td style=\"width: 23px;\">1</td>\n\t\t\t<td style=\"width: 21px;\">2</td>\n\t\t\t<td style=\"width: 23px;\">3</td>\n\t\t</tr><tr><td style=\"width: 96px;\">CPU Cycle</td>\n\t\t\t<td style=\"width: 28px;\">8</td>\n\t\t\t<td style=\"width: 23px;\">4</td>\n\t\t\t<td style=\"width: 21px;\">9</td>\n\t\t\t<td style=\"width: 23px;\">5</td>\n\t\t</tr></tbody></table><p><span style=\"line-height: 1.6;\">The average turnaround time of these processes will be</span></p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2013 | Part 3 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>19.25 milliseconds</p>",
+            "<p>18.25 milliseconds</p>",
+            "<p>19.5 milliseconds</p>",
+            "<p>18.5 milliseconds</p>"
+          ],
+          "correct_answer": "<p>18.25 milliseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58831/ugc-net-cse-june-2013-part-3-question-58\" target=\"_blank\">https://gateoverflow.in/58831/ugc-net-cse-june-2013-part-3-question-58</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"54518\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List – I} &amp;&amp; \\textbf{List – II} \\\\&nbsp;\\text{a}. &amp; \\text{Multilevel feedback queue} &amp; \\text{i.} &amp; \\text{Time-slicing} \\\\&nbsp;\\text{b.} &amp; \\text{FCFS} &amp; \\text{ii.} &amp; \\text{Criteria to move processes} \\\\ &amp;&amp;&amp; \\text{between queues} \\\\&nbsp;\\text{c.} &amp; \\text{Shortest Process next} &amp; \\text{iii.} &amp; \\text{Batch Processing} \\\\&nbsp;\\text{d.} &amp; \\text{Round robin scheduling} &amp; \\text{iv.} &amp; \\text{Exponential smoothening} \\\\ \\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2014 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-i; b-iii; c-ii; d-iv} \\)</p>",
+            "<p>\\( \\text{a-iv; b-iii; c-ii; d-i} \\)</p>",
+            "<p>\\( \\text{a-iii; b-i; c-iv; d-i} \\)</p>",
+            "<p>\\( \\text{a-ii; b-iii; c-iv; d-i} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-ii; b-iii; c-iv; d-i} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54518/ugc-net-cse-june-2014-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/54518/ugc-net-cse-june-2014-part-2-question-32</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"56795\"></a><div itemprop=\"text\"><p>Consider a uniprocessor system where new processes arrive at an average of five processes per minute and each process needs an average of \\( 6 \\) seconds of service time. What will be the CPU utilization ?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2014 | Part 3 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 80 \\) %</p>",
+            "<p>\\( 50 \\) %</p>",
+            "<p>\\( 60 \\) %</p>",
+            "<p>\\( 30 \\) %&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\) %</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56795/ugc-net-cse-june-2014-part-3-question-34\" target=\"_blank\">https://gateoverflow.in/56795/ugc-net-cse-june-2014-part-3-question-34</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"57009\"></a><div itemprop=\"text\">\n<p>Which of the following statements is not true about disk-arm scheduling algorithms ?&nbsp;</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2014 | Part 3 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SSTF (shortest seek time first) algorithm increases performance of FCFS.</p>",
+            "<p>The number of requests for disk service are not influenced by file allocation method.</p>",
+            "<p>Caching the directories and index blocks in main memory can also help in reducing disk arm movements.</p>",
+            "<p>SCAN and C-SCAN algorithms are less likely to have a starvation problem.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>The number of requests for disk service are not influenced by file allocation method.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57009/ugc-net-cse-june-2014-part-3-question-36\" target=\"_blank\">https://gateoverflow.in/57009/ugc-net-cse-june-2014-part-3-question-36</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"316234\"></a><div itemprop=\"text\"><p>Consider three CPU intensive processes, which require \\( 10 \\), \\( 20 \\) and \\( 30 \\) units of time and arrive at times \\( 0 \\), \\( 2 \\) and \\( 6 \\) respectively. How many context switches are needed if the operating system implements a shortest remaining time first scheduling algorithm? Do not count the context switches at time zero and at the end.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2019 | Part 2 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316234/ugc-net-cse-june-2019-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/316234/ugc-net-cse-june-2019-part-2-question-45</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"407946\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Consider the following table of arrival time and burst time for three processes \\( \\text{P0,P1 P2} \\):</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Process</td>\n\t\t\t<td>arrival time</td>\n\t\t\t<td>Burst time</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( \\text{P0} \\)</td>\n\t\t\t<td>\\( 0 \\mathrm{~ms} \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( \\text{P1} \\)</td>\n\t\t\t<td>\\( 1 \\mathrm{~ms} \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( \\text{P2} \\)</td>\n\t\t\t<td>\\( 2 \\mathrm{~ms} \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>The pre-emptive shortest job first scheduling algorithm is used. Scheduling is carried out only at arrival or completion of a process. What is the average waiting time for the three processes?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2023 | Part 2: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\mathrm{~ms} \\)</p>",
+            "<p>\\( 3.67 \\mathrm{~ms} \\)</p>",
+            "<p>\\( 4.47 \\mathrm{~ms} \\)</p>",
+            "<p>\\( 4 \\mathrm{~ms} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/407946/ugc-net-cse-june-2023-part-2-22\" target=\"_blank\">https://gateoverflow.in/407946/ugc-net-cse-june-2023-part-2-22</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"61320\"></a><div itemprop=\"text\">\n<p>Which of the following statements is not true for Multi Level Feedback Queue processor scheduling algorithm?</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 3 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Queues have different priorities</p>",
+            "<p>Each queue may have different scheduling algorithm</p>",
+            "<p>Processes are permanently assigned to a queue</p>",
+            "<p>This algorithm can be configured to match a specific system under design</p>"
+          ],
+          "correct_answer": "<p>Processes are permanently assigned to a queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61320/ugc-net-cse-junet-2015-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/61320/ugc-net-cse-junet-2015-part-3-question-50</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"59265\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)</p>\n\n<p>\\( \\begin{array}{}&nbsp; &amp;&nbsp; \\textbf{List – I} &amp;&amp; \\textbf{List – II} \\\\ &amp; \\textbf{Process state} &amp;&amp; \\textbf{Reason for transition}\\\\ &amp; \\textbf{transition} \\\\&nbsp;\\text{(a.)} &amp; \\text{Ready  \\)\\rightarrow\\(  Running} &amp; \\text{(i.)} &amp; \\text{Request made by the process is satisfied or} \\\\ &amp;&amp;&amp;&nbsp; \\text{an event for which it was waiting to occurs} \\\\&nbsp;\\text{(b.)} &amp; \\text{Blocked  \\)\\rightarrow\\(  Ready } &amp; \\text{(ii.)} &amp; \\text{Process wishes to wait for some action by}&nbsp; \\\\ &amp;&amp;&amp; \\text{another process} \\\\&nbsp;\\text{(c.)} &amp; \\text{Running&nbsp;  \\)\\rightarrow\\(  Blocked} &amp; \\text{(iii.)} &amp; \\text{The process is dispatched} \\\\&nbsp;\\text{(d.)} &amp;&nbsp; \\text{Running  \\)\\rightarrow\\(  Ready}&amp;&nbsp; \\text{(iv.)}&amp; \\text{The Process is preempted}&nbsp; \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | September 2013 | Part 2 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iii, b-i, c-ii, d-iv} \\)</p>",
+            "<p>\\( \\text{a-iv, b-i, c-iii, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-i, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-iv, c-ii, d-i} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iii, b-i, c-ii, d-iv} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59265/ugc-net-cse-september-2013-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/59265/ugc-net-cse-september-2013-part-2-question-44</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"59945\"></a><div itemprop=\"text\"><p>Consider the following set of processes with the length of CPU burst time in milliseconds (ms) \\( : \\)</p>\n\n<p>\\( \\begin{array}{|l|l|l|l|l|l|l|} \\hline&nbsp; \\textbf{Process} &amp; \\text{A} &amp; \\text{B} &amp; \\text{C} &amp; \\text{D} &amp; \\text{E} \\\\\\hline \\textbf{Burst time} &amp; \\text{6} &amp;\\text{1} &amp; \\text{2} &amp; \\text{1} &amp; \\text{5} \\\\\\hline \\textbf{Priority} &amp; \\text{3} &amp; \\text{1} &amp; \\text{3} &amp; \\text{4} &amp; \\text{2}&nbsp;\\\\\\hline&nbsp; \\end{array} \\)</p>\n\n<p>Assume that processes are stored in ready queue in following order \\( : \\)</p>\n\n<p>\\( \\text{A – B – C – D – E} \\)</p>\n\n<p>Using round robin scheduling with time slice of \\( 1 \\) ms, the average turn around time is</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | September 2013 | Part 3 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8.4 \\) ms</p>",
+            "<p>\\( 12.4 \\) ms</p>",
+            "<p>\\( 9.2 \\) ms</p>",
+            "<p>\\( 9.4 \\) ms</p>"
+          ],
+          "correct_answer": "<p>\\( 8.4 \\) ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59945/ugc-net-cse-september-2013-part-3-question-70\" target=\"_blank\">https://gateoverflow.in/59945/ugc-net-cse-september-2013-part-3-question-70</a></p>"
+        }
+      ]
+    }
+  ]
+});

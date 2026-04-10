@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 16",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The subnet mask for a particular network is 255.255.31.0. Which of the following pairs of IP addresses could belong to this network? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.57.88.62 and 172.56.87.23</p>",
+            "<b>B.</b> <p>10.35.28.2 and 10.35.29.4</p>",
+            "<b>C.</b> <p>191.203.31.87 and 191.234.31.88</p>",
+            "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/965/gate2003-82-isro2009-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^{6}\\) bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br> Suppose that the sliding window protocol is used with the sender window size of\n\\(2^{I}\\), where l is the number of bits identified in the earlier part and\nacknowledgements are always piggy backed. After sending \\(2^{I}\\) frames, what is the\nminimum time the sender will have to wait before starting transmission of the\nnext frame? (Identify the closest choice ignoring the frame processing time.) <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16ms</p>",
+            "<b>B.</b> <p>18ms</p>",
+            "<b>C.</b> <p>20ms</p>",
+            "<b>D.</b> <p>22ms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>20ms</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43470/gate2009-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^{6}\\) bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br>  What is the minimum number of bits (l) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames. <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>l=2</p>",
+            "<b>B.</b> <p>l=3</p>",
+            "<b>C.</b> <p>l=4</p>",
+            "<b>D.</b> <p>l=5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>l=5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1340/gate2009-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let G(x) be the generator polynomial used for CRC checking. What is the\ncondition that should be satisfied by G(x) to detect odd number of bits in error? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G(x) contains more than two terms</p>",
+            "<b>B.</b> <p>G(x) does not divide \\(1+x^{k}\\), for any k not exceeding the frame length</p>",
+            "<b>C.</b> <p>1+x is a factor of G(x)</p>",
+            "<b>D.</b> <p>G(x) has an odd number of terms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1+x is a factor of G(x)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1334/gate2009-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>While opening a TCP connection, the initial sequence number is to be derived using a time-of-day (ToD) clock that keeps running even when the host is down. The low order 32 bits of the counter of the ToD clock is to be used for the initial sequence numbers. The clock counter increments once per millisecond. The maximum packet lifetime is given to be 64s. <br>\nWhich one of the choices given below is closest to the minimum permissible rate\nat which sequence numbers used for packets of a connection can increase? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.015/s</p>",
+            "<b>B.</b> <p>0.064/s</p>",
+            "<b>C.</b> <p>0.135/s</p>",
+            "<b>D.</b> <p>0.327/s</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.015/s</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1333/gate2009-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In the RSA public key cryptosystem, the private and public keys are (e,n) and\n(d,n) respectively, where n=p*q and p and q are large primes. Besides, n is\npublic and p and q are private. Let M be an integer such that \\(0 \\lt M \\lt n\\) and\n\\(\\phi (n)= (p-1)(q-1)\\). Now consider the following equations. <br><br>  I.   \\( M'=M^{e} mod \\; n\\) <br> \\(M=(M')^{d}mod  \\;  n \\) <br><br> II. ed=1 mod n  <br><br> III. ed=1 mod \\(\\phi (n)\\) <br> <br>IV. \\(M'=M^{e}mod  \\;  \\phi (n)\\)<br> \\(M=(M')^{d}mod  \\;  \\phi (n)\\) <br><br>Which of the above equations correctly represent RSA cryptosystem? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>I and III</p>",
+            "<b>C.</b> <p>II and IV</p>",
+            "<b>D.</b> <p>III and IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1332/gate2009-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A public key encryption system <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>allows anyone to decode the transmissions</p>",
+            "<b>B.</b> <p>allows only the correct sender to decode the data</p>",
+            "<b>C.</b> <p>allows only the correct receiver to decode the data</p>",
+            "<b>D.</b> <p>does not encode the data before transmitting it</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>allows only the correct receiver to decode the data</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50001/isro2008-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The network 198.78.41.0 is a <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A network</p>",
+            "<b>B.</b> <p>Class B network</p>",
+            "<b>C.</b> <p>Class C network</p>",
+            "<b>D.</b> <p>Class D network</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Class C network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49913/isro2008-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an asynchronous serial line at 2400 baud rate, and with two stop bits is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>109</p>",
+            "<b>B.</b> <p>216</p>",
+            "<b>C.</b> <p>218</p>",
+            "<b>D.</b> <p>219</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>218</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2287/gate1993-6-4-isro2008-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which Project 802 standard provides for a collision-free protocol? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>802.2</p>",
+            "<b>B.</b> <p>802.3</p>",
+            "<b>C.</b> <p>802.5</p>",
+            "<b>D.</b> <p>802.6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>802.5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49672/isro2008-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the bandwidth of the signal that ranges from 40 kHz to 4 MHz? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>36 MHz</p>",
+            "<b>B.</b> <p>360 kHz</p>",
+            "<b>C.</b> <p>3.96 MHz</p>",
+            "<b>D.</b> <p>396 kHz</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3.96 MHz</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49671/isro2008-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The TCP sliding window <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>can be used to control the flow of information</p>",
+            "<b>B.</b> <p>always occurs when the field value is 0</p>",
+            "<b>C.</b> <p>always occurs when the field value is 1</p>",
+            "<b>D.</b> <p>occurs horizontally</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>can be used to control the flow of information</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49669/isro2008-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following transmission media is not readily suitable to CSMA operation? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Radio</p>",
+            "<b>B.</b> <p>Optical fibers</p>",
+            "<b>C.</b> <p>Coaxial cable</p>",
+            "<b>D.</b> <p>Twisted pair</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Radio</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17272/isro2008-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In Ethernet, the source address field in the MAC frame is the _______ address. <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>original sender's physical</p>",
+            "<b>B.</b> <p>previous station's physical</p>",
+            "<b>C.</b> <p>next destination's physical</p>",
+            "<b>D.</b> <p>original sender's service port</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>previous station's physical</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49666/isro2008-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>On a LAN ,where are IP datagrams transported? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In the LAN header</p>",
+            "<b>B.</b> <p>In the application field</p>",
+            "<b>C.</b> <p>In the information field of the LAN frame</p>",
+            "<b>D.</b> <p>After the TCP header</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>In the information field of the LAN frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17270/isro2008-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

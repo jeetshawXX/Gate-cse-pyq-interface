@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Object Oriented Programming - Template Vs Macro",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Template Vs Macro",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60958\"></a><div itemprop=\"text\"><p>Which of the following is incorrect in C++?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | Junet 2015 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>when we write overloaded function we must code the function for each usage</p>",
+            "<p>when we write function template we code the function only once</p>",
+            "<p>it is difficult to debug macros</p>",
+            "<p>templates are more efficient than macros</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60958/ugc-net-cse-junet-2015-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/60958/ugc-net-cse-junet-2015-part-2-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Fragmentation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Fragmentation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213566\"></a><div itemprop=\"text\"><p>A computer has \\( 1000K \\)&nbsp;of main memory. The jobs arrive and finish in the following sequence.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>Job \\( 1 \\) requiring \\( 200 \\) \\( K \\) arrives&nbsp;</p>\n\n<p>Job \\( 2 \\) requiring \\( 350 \\) \\( K \\) arrives&nbsp; &nbsp;</p>\n\n<p>Job \\( 3 \\) requiring \\( 300 \\) \\( K \\) arrives&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>Job \\( 1 \\) finishes&nbsp; &nbsp; &nbsp;</p>\n\n<p>Job \\( 4 \\) requiring \\( 120 \\) \\( K \\) arrives&nbsp; &nbsp;</p>\n\n<p>Job \\( 5 \\) requiring \\( 150 \\) \\( K \\) arrives&nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p>Job \\( 6 \\) requiring \\( 80 \\) \\( K \\)&nbsp; &nbsp;arrives</p>\n\n<p>Among best fit and first fit, which performs better for this sequence?</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First fit</p>",
+            "<p>Best fit</p>",
+            "<p>Both perform the same</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>First fit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213566/isro-cse-2018-question-22\" target=\"_blank\">https://gateoverflow.in/213566/isro-cse-2018-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+}

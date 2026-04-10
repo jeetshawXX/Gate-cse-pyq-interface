@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Binomial Theorem",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binomial Theorem",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"501\"></a><div itemprop=\"text\"><p>What is the number of distinct terms in the expansion of \\( (a + b + c)^{20}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 02</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 231 \\)</p>",
+            "<p>\\( 253 \\)</p>",
+            "<p>\\( 242 \\)</p>",
+            "<p>\\( 210 \\)</p>",
+            "<p>\\( 228 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/501/cat-2008-question-02\" target=\"_blank\">https://aptitude.gateoverflow.in/501/cat-2008-question-02</a></p>"
+        }
+      ]
+    }
+  ]
+});

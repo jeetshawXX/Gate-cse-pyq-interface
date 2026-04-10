@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Tree Traversal",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Tree Traversal",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60897\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Depth-first search is used to traverse a rooted tree</li>\n\t<li>Pre-order, Post-order and Inorder are used to list the vertices of an ordered rooted tree.</li>\n\t<li>Huffman's algorithm is used to find an optimal binary tree with given weights</li>\n\t<li>Topological sorting provides a labelling such that the parents have larger labels than their children</li>\n</ol>\n\n<p>Which one of the above statements is true?</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | Junet 2015 | Part 2 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i&nbsp;and ii} \\)</p>",
+            "<p>\\( \\text{iii&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i, ii, and iii} \\)</p>",
+            "<p>\\( \\text{i, ii, iii, and iv} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i, ii, iii, and iv} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60897/ugc-net-cse-junet-2015-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/60897/ugc-net-cse-junet-2015-part-2-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

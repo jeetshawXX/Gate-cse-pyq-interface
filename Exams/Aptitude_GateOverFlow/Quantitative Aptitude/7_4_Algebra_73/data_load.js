@@ -1,0 +1,1083 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Algebra",
+  "duration": 202,
+  "sections": [
+    {
+      "name": "Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1194\"></a><div itemprop=\"text\"><p>\\( \\begin{array}{|c|c|c|c|c|c|c|c|} \\hline x &amp; 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 \\\\\\hline y &amp; 4 &amp; 8 &amp; 14 &amp; 22 &amp; 32 &amp; 44 \\\\\\hline \\end{array} \\)</p>\n\n<p>In the above table, for suitably chosen constants \\( a, b \\) and \\( c, \\) which one of the following best describes the relation between \\( y \\) and \\( x? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( y = a + bx \\)</p>",
+            "<p>\\( y = a + bx + cx^2 \\)</p>",
+            "<p>\\( y = e^{a + bx} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1194/cat-2000-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/1194/cat-2000-question-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1202\"></a><div itemprop=\"text\"><p>Let \\( x, y \\) and \\( z \\) be distinct integers, that are odd and positive. Which one of the following statements cannot be true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( xyz^2 \\) is odd.</p>",
+            "<p>\\( (x − y)^2 z \\) is even.</p>",
+            "<p>\\( (x + y − z)^2 (x + y) \\) is even.</p>",
+            "<p>\\( (x − y) (y + z) (x + y − z) \\) is odd</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1202/cat-2000-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/1202/cat-2000-question-65</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1207\"></a><div itemprop=\"text\"><p>Each of the numbers \\( x_1, x_2,\\dots, x_n, n &gt; 4, \\) is equal to \\( 1 \\) or \\( –1. \\) Suppose, \\( x_1x_2x_3x_4 + x_2x_3x_4x_5 + x_3x_4x_5x_6 + \\dots + x_{n–3}x_{n–2}x_{n–1}x_n + x_{n–2}x_{n–1}x_nx_1+ x_{n–1}x_nx_1x_2 + x_nx_1x_2x_3= 0 \\), then,</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( n \\) is even.</p>",
+            "<p>\\( n \\) is odd.</p>",
+            "<p>\\( n \\) is an odd multiple of \\( 3. \\)</p>",
+            "<p>\\( n \\) is prime</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1207/cat-2000-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/1207/cat-2000-question-70</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1210\"></a><div itemprop=\"text\"><p>\\( \\text{A, B, C} \\) are three numbers.&nbsp;<br>\nLet \\( @ \\text{(A, B)} = \\) average of \\( \\text{A} \\) and \\( \\text{B} \\), &nbsp;<br>\n\\( / \\text{(A, B)} =  \\) product of \\( \\text{A} \\) and \\( \\text{B} \\), and&nbsp;<br>\n\\( \\text{X(A, B)} =  \\) the result of dividing \\( \\text{A} \\) by \\( \\text{B} \\)&nbsp;</p>\n\n<p>The sum of \\( \\text{A} \\) and \\( \\text{B} \\) is given by</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( /(@\\text{(A, B)}, 2) \\)</p>",
+            "<p>\\( X(@\\text{(A, B)}, 2) \\)</p>",
+            "<p>\\( @(/\\text{(A, B)}, 2) \\)</p>",
+            "<p>\\( @(X\\text{(A, B)}, 2) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1210/cat-2000-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/1210/cat-2000-question-73</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1756\"></a><div itemprop=\"text\"><p>\\( \\text{A, B, C} \\) are three numbers.&nbsp;<br>\nLet \\( @ \\text{(A, B)} = \\) average of \\( \\text{A} \\) and \\( \\text{B} \\), &nbsp;<br>\n\\( / \\text{(A, B)} =  \\) product of \\( \\text{A} \\) and \\( \\text{B} \\), and&nbsp;<br>\n\\( \\text{X(A, B)} =  \\) the result of dividing \\( \\text{A} \\) by \\( \\text{B} \\)&nbsp;</p>\n\n<p>Average of \\( \\text{A, B} \\) and \\( \\text{C} \\) is given by</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( @(/(@(/\\text{(B, A)}, 2), \\text{C)}, 3) \\)</p>",
+            "<p>\\( \\text{X(}@(/(@\\text{(B, A)}, 3), \\text{C)}, 2) \\)</p>",
+            "<p>\\( /(@(\\text{X(}@\\text{(B, A)}, 2), \\text{C)}, 3) \\)</p>",
+            "<p>\\( /(\\text{X(}@(/(@\\text{(B, A)}, 2), \\text{C)}, 3), 2) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1756/cat-2000-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/1756/cat-2000-question-74</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1282\"></a><div itemprop=\"text\"><p>\\( m \\) is the smallest positive integer such that for any integer \\( n &gt; m, \\) the quantity \\( n^3 – 7n^2 + 11n – 5 \\) is positive. What is the value of \\( m? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1282/cat-2001-question-15\" target=\"_blank\">https://aptitude.gateoverflow.in/1282/cat-2001-question-15</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1295\"></a><div itemprop=\"text\"><p>If \\( a, b, c \\) and \\( d \\) are four positive real numbers such that \\( abcd = 1, \\) what is the minimum value of \\( (1 + a)(1 + b)(1 + c)(1 + d)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1295/cat-2001-question-27\" target=\"_blank\">https://aptitude.gateoverflow.in/1295/cat-2001-question-27</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1269\"></a><div itemprop=\"text\"><p>Let \\( x, y \\) and \\( z \\) be distinct integers,&nbsp;\\( x \\) and \\( y \\) are odd and positive, and \\( z \\) is even and positive. Which one of the following statements cannot be true?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (x − z)^2y \\) is even</p>",
+            "<p>\\( (x − z)^2y \\) is odd</p>",
+            "<p>\\( (x − y)y \\) is odd</p>",
+            "<p>\\( (x − y)^2z \\) is even</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1269/cat-2001-question-3\" target=\"_blank\">https://aptitude.gateoverflow.in/1269/cat-2001-question-3</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1305\"></a><div itemprop=\"text\"><p>Let \\( x, y \\) be two positive numbers such that \\( x + y =1. \\) Then, the minimum value of \\( \\left(x+ \\frac{1}{x} \\right)^2 + \\left(y + \\frac{1}{y}\\right)^2 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 12.5 \\)</p>",
+            "<p>\\( 13.3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1305/cat-2001-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/1305/cat-2001-question-37</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1311\"></a><div itemprop=\"text\"><p>Let \\( b \\) be a positive integer and \\( a = b^2 – b \\). If b \\( \\geq \\) 4, then \\( a^2 – 2a \\) is divisible by</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1311/cat-2001-question-42\" target=\"_blank\">https://aptitude.gateoverflow.in/1311/cat-2001-question-42</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1068\"></a><div itemprop=\"text\"><p>For three integers \\( x, y \\) and \\( z, x+y+z=15, \\) and \\( xy+yz+xz=3. \\) What is the largest value which \\( x \\) can take?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\sqrt{13} \\)</p>",
+            "<p>\\( \\sqrt{19} \\)</p>",
+            "<p>\\( 13 /3 \\)</p>",
+            "<p>\\( \\sqrt{15} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1068/cat-2002-question-53\" target=\"_blank\">https://aptitude.gateoverflow.in/1068/cat-2002-question-53</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1072\"></a><div itemprop=\"text\"><p>If \\( x^2 + 5y^2 + z^2 = 2y(2x+z) \\), then which of the following statements are necessarily true?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\\( x=2y \\)</li>\n\t<li>\\( x=2z \\)</li>\n\t<li>\\( 2x=z \\)\n\t\n\t</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only I</p>",
+            "<p>Only II</p>",
+            "<p>Only III</p>",
+            "<p>Only I and II</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1072/cat-2002-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/1072/cat-2002-question-57</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1108\"></a><div itemprop=\"text\"><p>If \\( pqr=1 \\) then \\( \\frac{1}{1+p+r^{-1}} + \\frac{1}{1+q+r^{-1}} + \\frac{1}{1+r+p^{-1}}  \\) is equivalent to</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 96</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( p+q+r \\)</p>",
+            "<p>\\( \\frac{1}{p+q+r} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( p^{-1}+q^{-1}+r^{-1} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1108/cat-2002-question-96\" target=\"_blank\">https://aptitude.gateoverflow.in/1108/cat-2002-question-96</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1003\"></a><div itemprop=\"text\"><p>The number of non-negative real roots of \\( 2^x - x - 1 =0 \\) equals _______</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1003/cat-2003-question-1-105\" target=\"_blank\">https://aptitude.gateoverflow.in/1003/cat-2003-question-1-105</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1017\"></a><div itemprop=\"text\"><p>Choose \\( 1 \\)&nbsp;if the question can be answered by one of the statements alone but not by the other.</p>\n\n<p>Choose \\( 2 \\) if the question can be answered by using either statement alone.</p>\n\n<p>Choose \\( 3 \\) if the question can be answered by using both the statements together, but cannot be answered by using either statement alone.</p>\n\n<p>Choose \\( 4 \\) if the question cannot be answered even by using both the statements together.</p>\n\n<p>Is \\( a^{44} &lt; b^{11} \\), given that \\( a=2 \\) and \\( b \\) is an integer?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( b \\) is even</p>",
+            "<p>\\( b \\) is greater than \\( 16 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1017/cat-2003-question-1-121\" target=\"_blank\">https://aptitude.gateoverflow.in/1017/cat-2003-question-1-121</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1024\"></a><div itemprop=\"text\"><p>Let \\( a, b, c, d \\) be the four integers such that \\( a +b+c+d =4m+1 \\) where m is a positive integer. Given \\( m, \\) which one of the following is necessarily true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The minimum possible value of \\( a^2 + b^2 + c^2 + d^2 \\) is \\( 4m^2 – 2m + 1 \\)</p>",
+            "<p>The minimum possible value of \\( a^2 + b^2 + c^2 + d^2 \\) is \\( 4m^2 + 2m + 1 \\)</p>",
+            "<p>The maximum possible value of \\( a^2 + b^2 + c^2 + d^2 \\) is \\( 4m^2 – 2m + 1 \\)</p>",
+            "<p>The maximum possible value of \\( a^2 + b^2 + c^2 + d^2 \\) is \\( 4m^2 + 2m + 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1024/cat-2003-question-1-131\" target=\"_blank\">https://aptitude.gateoverflow.in/1024/cat-2003-question-1-131</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1040\"></a><div itemprop=\"text\"><p>if \\( x,y,z \\) are distinct positive real numbers then \\( \\frac{x^2(y+z) + y^2(x+z) + z^2(x+y)}{xyz} \\) would be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>greater than \\( 4 \\)</p>",
+            "<p>greater than \\( 5 \\)</p>",
+            "<p>greater than \\( 6 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1040/cat-2003-question-1-147\" target=\"_blank\">https://aptitude.gateoverflow.in/1040/cat-2003-question-1-147</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1977\"></a><div itemprop=\"text\"><p>Let \\( a, b, c, d \\) and \\( e \\) be integers such that \\( a = 6b = 12c, \\) and \\( 2b = 9d = 12e. \\) Then which of the following pairs contains a number that is not an integer?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left[ \\frac{a}{27}, \\frac{b}{e} \\right]  \\)</p>",
+            "<p>\\( \\left[ \\frac{a}{36}, \\frac{c}{e} \\right]  \\)</p>",
+            "<p>\\( \\left[ \\frac{a}{12}, \\frac{bd}{18} \\right]  \\)</p>",
+            "<p>\\( \\left[ \\frac{a}{6}, \\frac{c}{d} \\right]  \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1977/cat-2003-question-2-53\" target=\"_blank\">https://aptitude.gateoverflow.in/1977/cat-2003-question-2-53</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"1978\"></a><div itemprop=\"text\"><p>If \\( a, a + 2 \\) and \\( a + 4 \\) are prime numbers, then the number of possible solutions for \\( a \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>one</p>",
+            "<p>two</p>",
+            "<p>three</p>",
+            "<p>more than three&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1978/cat-2003-question-2-54\" target=\"_blank\">https://aptitude.gateoverflow.in/1978/cat-2003-question-2-54</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"1981\"></a><div itemprop=\"text\"><p>Let \\( x \\) and \\( y \\) be positive integers such that \\( x \\) is prime and \\( y \\) is composite. Then,</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( y – x \\) cannot be an even integer</p>",
+            "<p>\\( xy \\) cannot be an even integer.</p>",
+            "<p>\\( \\frac{x+y}{x} \\) cannot be an even integer</p>",
+            "<p>None of these.&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1981/cat-2003-question-2-57\" target=\"_blank\">https://aptitude.gateoverflow.in/1981/cat-2003-question-2-57</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"2023\"></a><div itemprop=\"text\"><p>Two binary operations \\( \\oplus \\) and \\( ^\\ast \\) are defined over the set \\( \\{a, e, f, g, h\\} \\) as per the following tables</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:195px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\\( \\oplus \\)</td>\n\t\t\t<td style=\"width:26px\">a</td>\n\t\t\t<td style=\"width:25px\">e</td>\n\t\t\t<td style=\"width:16px\">f</td>\n\t\t\t<td style=\"width:20px\">g</td>\n\t\t\t<td style=\"width:20px\">h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">a</td>\n\t\t\t<td style=\"width:26px\">a</td>\n\t\t\t<td style=\"width:25px\">e</td>\n\t\t\t<td style=\"width:16px\">f</td>\n\t\t\t<td style=\"width:20px\">g</td>\n\t\t\t<td style=\"width:20px\">h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">e</td>\n\t\t\t<td style=\"width:26px\">e</td>\n\t\t\t<td style=\"width:25px\">f</td>\n\t\t\t<td style=\"width:16px\">g</td>\n\t\t\t<td style=\"width:20px\">h</td>\n\t\t\t<td style=\"width:20px\">a</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">f</td>\n\t\t\t<td style=\"width:26px\">f</td>\n\t\t\t<td style=\"width:25px\">g</td>\n\t\t\t<td style=\"width:16px\">h</td>\n\t\t\t<td style=\"width:20px\">a</td>\n\t\t\t<td style=\"width:20px\">e</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">g</td>\n\t\t\t<td style=\"width:26px\">g</td>\n\t\t\t<td style=\"width:25px\">h</td>\n\t\t\t<td style=\"width:16px\">a</td>\n\t\t\t<td style=\"width:20px\">e</td>\n\t\t\t<td style=\"width:20px\">f</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">h</td>\n\t\t\t<td style=\"width:26px\">h</td>\n\t\t\t<td style=\"width:25px\">a</td>\n\t\t\t<td style=\"width:16px\">e</td>\n\t\t\t<td style=\"width:20px\">f</td>\n\t\t\t<td style=\"width:20px\">g</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:176px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\\( ^\\ast \\)</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:24px\">e</td>\n\t\t\t<td style=\"width:22px\">f</td>\n\t\t\t<td style=\"width:19px\">g</td>\n\t\t\t<td style=\"width:21px\">h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">a</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:22px\">a</td>\n\t\t\t<td style=\"width:19px\">a</td>\n\t\t\t<td style=\"width:21px\">a</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">e</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:24px\">e</td>\n\t\t\t<td style=\"width:22px\">f</td>\n\t\t\t<td style=\"width:19px\">g</td>\n\t\t\t<td style=\"width:21px\">h</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">f</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:24px\">f</td>\n\t\t\t<td style=\"width:22px\">h</td>\n\t\t\t<td style=\"width:19px\">e</td>\n\t\t\t<td style=\"width:21px\">g</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">g</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:24px\">g</td>\n\t\t\t<td style=\"width:22px\">e</td>\n\t\t\t<td style=\"width:19px\">h</td>\n\t\t\t<td style=\"width:21px\">f</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">h</td>\n\t\t\t<td style=\"width:24px\">a</td>\n\t\t\t<td style=\"width:24px\">h</td>\n\t\t\t<td style=\"width:22px\">g</td>\n\t\t\t<td style=\"width:19px\">f</td>\n\t\t\t<td style=\"width:21px\">e</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Thus, according to the first table \\( f \\oplus g = a \\), while according to the second table \\( g \\ast&nbsp;h = f \\), and so on. Also, let \\( f^2 = f\\ast&nbsp;f, \\: g^3 = g \\ast g \\ast&nbsp;g \\), and so on.</p>\n\n<p>What is the smallest positive integer n such that \\( g^n = e? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2023/cat-2003-question-2-79\" target=\"_blank\">https://aptitude.gateoverflow.in/2023/cat-2003-question-2-79</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"2024\"></a><div itemprop=\"text\"><p>Two binary operations \\( \\oplus \\) and \\( ^ \\ast  \\) are defined over the set \\( \\{a, e, f, g, h\\} \\) as per the following tables</p>\n\n<table border=\"1\" cellpadding=\"0\" style=\"width:195px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>\\( \\oplus \\)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"0\" style=\"width:176px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>\\( \\ast \\)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Thus, according to the first table \\( f \\oplus g = a \\), while according to the second table \\( g \\ast h=f \\), and so on. Also, let \\( f^2 = f \\ast f, \\: g^3 = g \\ast g \\ast g \\), and so on.</p>\n\n<p>Upon simplification, \\(  f \\oplus \\left[f \\ast \\{ f \\oplus (f \\ast f )\\} \\right] \\) equal</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( e \\)</p>",
+            "<p>\\( f \\)</p>",
+            "<p>\\( g \\)</p>",
+            "<p>\\( h \\)</p>"
+          ],
+          "correct_answer": "<p>\\( h \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2024/cat-2003-question-2-80\" target=\"_blank\">https://aptitude.gateoverflow.in/2024/cat-2003-question-2-80</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"2026\"></a><div itemprop=\"text\"><p>Two binary operations \\( \\oplus \\) and \\( * \\) are defined over the set \\( \\{a, e, f, g, h\\} \\) as per the following tables</p>\n\n<table border=\"1\" cellpadding=\"0\" style=\"width:195px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>\\( \\oplus \\)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:55px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:26px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:25px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:16px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:20px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"0\" style=\"width:176px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>\\( \\ast \\)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"width:33px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>a</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:24px\">\n\t\t\t<p>h</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:22px\">\n\t\t\t<p>g</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:19px\">\n\t\t\t<p>f</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:21px\">\n\t\t\t<p>e</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Thus, according to the first table \\( f \\oplus g = a \\), while according to the second table \\( g \\ast h=f \\), and so on. Also, let \\( f^2 = f \\ast f, \\: g^3 = g \\ast g \\ast g \\), and so on.</p>\n\n<p>Upon simplification, \\( \\{ a10 \\ast (f10 \\oplus g9)\\} \\oplus e^8 \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( e \\)</p>",
+            "<p>\\( f \\)</p>",
+            "<p>\\( g \\)</p>",
+            "<p>\\( h \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2026/cat-2003-question-2-81\" target=\"_blank\">https://aptitude.gateoverflow.in/2026/cat-2003-question-2-81</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"2034\"></a><div itemprop=\"text\"><p>If three positive real numbers \\( x, y, z \\) satisfy \\( y – x = z – y \\)&nbsp;and \\( x y z = 4, \\) then what is the minimum possible value of \\( y? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{\\frac{1}{3}} \\)</p>",
+            "<p>\\( 2^{\\frac{2}{3}} \\)</p>",
+            "<p>\\( 2^{\\frac{1}{4}} \\)</p>",
+            "<p>\\( 2^{\\frac{3}{4}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{\\frac{2}{3}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2034/cat-2003-question-2-89\" target=\"_blank\">https://aptitude.gateoverflow.in/2034/cat-2003-question-2-89</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"855\"></a><div itemprop=\"text\"><p>The total number of integer pairs \\( (x,y) \\) satisfying the equation \\( x+y=xy \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/855/cat-2004-question-46\" target=\"_blank\">https://aptitude.gateoverflow.in/855/cat-2004-question-46</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"858\"></a><div itemprop=\"text\"><p>If \\( \\frac{a}{a+b} = \\frac{b}{c+a} = \\frac{c}{a+b} = r \\), then \\( r \\) cannot take any value except</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 1/2 \\) or \\( -1 \\)</p>",
+            "<p>-\\( 1/2 \\) or \\( -1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/858/cat-2004-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/858/cat-2004-question-49</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"859\"></a><div itemprop=\"text\"><p>Let \\( y=\\dfrac{1}{2+ \\dfrac{1}{3+ \\dfrac{1}{2+ \\dfrac{1}{3+ \\dots } } } } \\) what is the value of \\( y? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{\\sqrt{13} +3} {2} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{13} -3} {2} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{15} +3} {2} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{15} -3} {2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/859/cat-2004-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/859/cat-2004-question-50</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"753\"></a><div itemprop=\"text\"><p>If \\( \\text{R} = \\dfrac{30^{65} – 29^{65}}{30^{64} + 29^{64}} \\) then</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 08</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 &lt; \\text{R} \\leq 0.1 \\)</p>",
+            "<p>\\( 0.1 &lt; \\text{R} \\leq 0.5 \\)</p>",
+            "<p>\\( 0.5 &lt; \\text{R} \\leq 1.0 \\)</p>",
+            "<p>\\( \\text{R} &gt; 1.0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/753/cat-2005-question-08\" target=\"_blank\">https://aptitude.gateoverflow.in/753/cat-2005-question-08</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"773\"></a><div itemprop=\"text\"><p>Let \\( x=\\sqrt{4+\\sqrt{4-\\sqrt{4+\\sqrt{4-}}}} \\dots \\) to infinity. Then \\( x \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( \\frac{\\sqrt{13} -1}{2} \\)</p>",
+            "<p>\\( \\frac{\\sqrt{13} +1}{2} \\)</p>",
+            "<p>\\( \\sqrt{13} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/773/cat-2005-question-26\" target=\"_blank\">https://aptitude.gateoverflow.in/773/cat-2005-question-26</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"725\"></a><div itemprop=\"text\"><p>If \\( a/b=1/3, b/c=2, c/d=1/2, d/e=3 \\) and \\( e/f=1/4 \\) then what is the value of \\( abc/def? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3/8 \\)</p>",
+            "<p>\\( 27/8 \\)</p>",
+            "<p>\\( 3/4 \\)</p>",
+            "<p>\\( 27/4 \\)</p>",
+            "<p>\\( 1/4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/725/cat-2006-question-53\" target=\"_blank\">https://aptitude.gateoverflow.in/725/cat-2006-question-53</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"729\"></a><div itemprop=\"text\"><p>What are the values of \\( x \\) and \\( y \\) that satisfy both the equations?</p>\n\n<ul>\n\t<li>\\( 2^{0.7x} \\cdot 3^{-1.25y} = 8\\sqrt{6} / 27 \\)</li>\n\t<li>\\( 4^{0.3x} \\cdot 9^{0.2y} = 8.(81)^{\\frac{1}{5}} \\)</li>\n</ul>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( x=2, y=5 \\)</p>",
+            "<p>\\( x=2.5, y=6 \\)</p>",
+            "<p>\\( x=3, y=5 \\)</p>",
+            "<p>\\( x=3, y=4 \\)</p>",
+            "<p>\\( x=5, y=2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/729/cat-2006-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/729/cat-2006-question-57</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"730\"></a><div itemprop=\"text\"><p>The number of solutions of the equation \\( 2x+y=40 \\) where both \\( x \\) and \\( y \\) are positive integers and \\( x \\leq&nbsp;y \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/730/cat-2006-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/730/cat-2006-question-58</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"598\"></a><div itemprop=\"text\"><p>How many pairs of positive integers, \\( m, n \\) satisfy \\( 1/m +4/n=1/12 \\) where \\( n \\) is an odd integer less than \\( 60? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/598/cat-2007-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/598/cat-2007-question-21</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"798\"></a><div itemprop=\"text\"><p>If \\( x=1+2a+3a^{2}+4a^{2}+\\dots(-1 &lt; a &lt; 1) \\) and</p>\n\n<p>\\( y=1+3b+6b^{2}+10b^{3}+\\dots(-1 &lt; b &lt; 1), \\)</p>\n\n<p>then find \\( 1+ab+(ab)^{2}+(ab)^{3}+\\dots \\) in terms of \\( x \\) and \\( y \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2009 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{x^{1/2} y^{1/3}}{x^{1/2}+y^{1/3}-1} \\)</p>",
+            "<p>\\( \\frac{xy}{x+y-1} \\)</p>",
+            "<p>\\( \\frac{x^{1/3}y^{2/3}}{x^{1/3}+y^{1/2}-1} \\)</p>",
+            "<p>None of these.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/798/cat-2009-question-16\" target=\"_blank\">https://aptitude.gateoverflow.in/798/cat-2009-question-16</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"5033\"></a><div itemprop=\"text\"><p>&nbsp;If \\( r, s \\) and \\( t \\) are consecutive odd integers with \\( r &lt; s &lt; t \\), which of the following must be true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( rs = t \\)</p>",
+            "<p>\\( r + t = 2t –&nbsp;s \\)</p>",
+            "<p>\\( r + s = t –&nbsp;2 \\)</p>",
+            "<p>\\( r + t = 2s \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5033/cat-2010-question-1\" target=\"_blank\">https://aptitude.gateoverflow.in/5033/cat-2010-question-1</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"5026\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>If \\( a^{x}=b,b^{y}=c,c^{z}=a, \\) then \\( xyz=1 \\)</li>\n\t<li>If \\( p=a^{x},q=a^{y},\\left ( p^{y}q^{y} \\right )^{z}=a^{2}, \\) then \\( xyz=1 \\)</li>\n\t<li>If \\( x^{a}=y^{b}=z^{c} \\) and \\( ab+bc+ca=0 \\) then \\( xyz=1 \\)</li>\n</ol>\n\n<p>Of these statements:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I&nbsp;and II&nbsp;are correct</p>",
+            "<p>II&nbsp;and III&nbsp;are correct</p>",
+            "<p>Only I&nbsp;is correct</p>",
+            "<p>All I, II&nbsp;and III&nbsp;are correct</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5026/cat-2010-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/5026/cat-2010-question-8</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"5069\"></a><div itemprop=\"text\"><p>If&nbsp;\\( a= \\dfrac{x}{y+z},b= \\dfrac{y}{z+y},c= \\dfrac{z}{x+y} \\), then which of the following statements is/are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>\\( \\dfrac{b+c-1}{yz}+\\dfrac{a+c-1}{xz}+\\dfrac{a+b-1}{yx}=1 \\\\ \\)</li>\n\t<li>\\( \\dfrac{x^{2}}{a(1-bc)}= \\dfrac{y^{2}}{b(1-ca)}= \\dfrac{z^{2}}{c(1-ab)} \\\\ \\)</li>\n\t<li>\\( (a+b)c+(b+c)a+(a+c)b= \\dfrac{2(x+y+z)(xy+xz+yz)-6xyz}{(x+y)(y+z)(z+x)} \\)</li>\n</ol>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I and&nbsp;II</p>",
+            "<p>I and&nbsp;III</p>",
+            "<p>II and&nbsp;III</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5069/cat-2012-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/5069/cat-2012-question-13</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"5560\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( x&lt;0,\\:0&lt;y&lt;1,\\:z&gt;1 \\). Which of the following may be false?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 92</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left (x ^{2} -z^{2}\\right ) \\) has to be positive.</p>",
+            "<p>\\( yz \\) can be less than one.</p>",
+            "<p>\\( xy \\) can never be zero.</p>",
+            "<p>\\( \\left (y ^{2} -z^{2}\\right ) \\) is always negative.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5560/cat-2015-question-92\" target=\"_blank\">https://aptitude.gateoverflow.in/5560/cat-2015-question-92</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"5668\"></a><div itemprop=\"text\"><p>If&nbsp;three positive real numbers \\( x,y,z \\)&nbsp;satisfy \\( y–x=z–y \\) and \\( xyz = 4 \\), then what is the minimum possible value of \\( y \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 100</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{(1/3)} \\)</p>",
+            "<p>\\( 2^{(2/3)} \\)</p>",
+            "<p>\\( 2^{(1/4)} \\)</p>",
+            "<p>\\( 2^{(3/4)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{(2/3)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5668/cat-2016-question-100\" target=\"_blank\">https://aptitude.gateoverflow.in/5668/cat-2016-question-100</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"5766\"></a><div itemprop=\"text\"><p>If&nbsp;\\( x+1= x^{2} \\) and&nbsp;\\( x&gt; 0 \\), then&nbsp;\\( 2x^{4} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6+4\\sqrt{5} \\)</p>",
+            "<p>\\( 3+5\\sqrt{5} \\)</p>",
+            "<p>\\( 5+3\\sqrt{5} \\)</p>",
+            "<p>\\( 7+3\\sqrt{5} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7+3\\sqrt{5} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5766/cat-2017-set-1-question-88\" target=\"_blank\">https://aptitude.gateoverflow.in/5766/cat-2017-set-1-question-88</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"5764\"></a><div itemprop=\"text\"><p>If&nbsp;\\( 9^{2x-1}-81^{x-1}= 1944 \\) then \\( x \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 9/4 \\)</p>",
+            "<p>\\( 4/9 \\)</p>",
+            "<p>\\( 1/3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9/4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5764/cat-2017-set-1-question-90\" target=\"_blank\">https://aptitude.gateoverflow.in/5764/cat-2017-set-1-question-90</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"5760\"></a><div itemprop=\"text\"><p>If \\( a, b, c \\) and \\( d \\) are integers such that&nbsp;\\( a+b+c+d=30 \\) , then the minimum possible value of&nbsp;\\( ( a-b )^{2}+( a-c )^{2}+( a-d)^{2} \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5760/cat-2017-set-1-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/5760/cat-2017-set-1-question-94</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"5850\"></a><div itemprop=\"text\"><p>If&nbsp;\\( 9^{\\left ( x-1/2 \\right )}-2^{\\left ( 2x-2 \\right )}=4^{x}-3^{\\left (2x-3 \\right )} \\), then \\( x \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3/2 \\)</p>",
+            "<p>\\( 2/5 \\)</p>",
+            "<p>\\( 3/4 \\)</p>",
+            "<p>\\( 4/9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5850/cat-2017-set-2-question-91\" target=\"_blank\">https://aptitude.gateoverflow.in/5850/cat-2017-set-2-question-91</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"5847\"></a><div itemprop=\"text\"><p>How many different pairs \\( (a,b) \\) of positive integers are there such that&nbsp;\\( a\\leq b \\) and&nbsp;\\( 1/a+1/b=1/9 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>None of these</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5847/cat-2017-set-2-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/5847/cat-2017-set-2-question-94</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"6042\"></a><div itemprop=\"text\"><p>Given that \\( x^{2018}y^{2017}=1/2 \\)&nbsp;and \\( x^{2016}y^{2019}=8 \\), the value of \\( x^2+y^3 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 35/4 \\)</p>",
+            "<p>\\( 37/4 \\)</p>",
+            "<p>\\( 31/4 \\)</p>",
+            "<p>\\( 33/4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 33/4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6042/cat-2018-set-1-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/6042/cat-2018-set-1-question-69</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"6034\"></a><div itemprop=\"text\"><p>If \\( u^2+(u-2v-1)^2=-4v(u+v) \\), then what is the value of \\( u+3v \\) ?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( -1/4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -1/4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6034/cat-2018-set-1-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/6034/cat-2018-set-1-question-77</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"5428\"></a><div itemprop=\"text\"><p>If&nbsp;\\( (5.55)^{x}=(0.555)^{y}=1000 \\), then the value of&nbsp;\\( \\frac{1}{x}-\\frac{1}{y} \\) is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( \\frac{2}{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5428/cat-2019-set-1-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/5428/cat-2019-set-1-question-83</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"6166\"></a><div itemprop=\"text\"><p>What is the largest positive integer \\( n \\) such that&nbsp;\\( \\frac{n^{2}+7n+12}{n^{2}-n-12} \\) is also a positive integer?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6166/cat-2019-set-2-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/6166/cat-2019-set-2-question-86</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"6155\"></a><div itemprop=\"text\">If \\( 5^{x}-3^{y}=13438 \\) and \\( 5^{x-1}+3^{y+1}=9686 \\), then &nbsp;\\( x+y \\) equals _______</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6155/cat-2019-set-2-question-97\" target=\"_blank\">https://aptitude.gateoverflow.in/6155/cat-2019-set-2-question-97</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"7964\"></a><div itemprop=\"text\"><p>The number of real\\( - \\)valued of the equation&nbsp;&nbsp;\\( 2^{x}+2^{-x}=2-(x-2)^{2} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>infinite</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7964/cat-2020-set-1-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/7964/cat-2020-set-1-question-57</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"7962\"></a><div itemprop=\"text\"><p>How many distinct positive integer-valued solutions exist to the equation&nbsp;\\( \\left ( x^{2}-7x+11 \\right )^{(x^{2}-13x+42)} =1 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7962/cat-2020-set-1-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/7962/cat-2020-set-1-question-59</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"7954\"></a><div itemprop=\"text\"><p>If&nbsp;\\( x=\\left ( 4096 \\right )^{7+4\\sqrt{3}} \\), then which of the following equals \\( 64 \\)?</p></div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{x^{7}}{x^{2\\sqrt{3}}} \\)</p>",
+            "<p>\\( \\frac{x^{7}}{x^{4\\sqrt{3}}} \\)</p>",
+            "<p>\\( \\frac{x^\\frac{7}{2}}{x^\\frac{4}{\\sqrt{3}}} \\)</p>",
+            "<p>\\( \\frac{x^\\frac{7}{2}}{x^{2\\sqrt{3}}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{x^\\frac{7}{2}}{x^{2\\sqrt{3}}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7954/cat-2020-set-1-question-67\" target=\"_blank\">https://aptitude.gateoverflow.in/7954/cat-2020-set-1-question-67</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"7952\"></a><div itemprop=\"text\"><p>If \\( a, b \\) and \\( c \\) are positive integers such that \\( ab=432, bc=96 \\) and \\( c&lt;9, \\) then the smallest possible value of \\( a+b+c \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 56 \\)</p>",
+            "<p>\\( 59 \\)</p>",
+            "<p>\\( 49 \\)</p>",
+            "<p>\\( 46 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 46 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7952/cat-2020-set-1-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/7952/cat-2020-set-1-question-69</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"7949\"></a><div itemprop=\"text\">A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of \\( 5 \\) children. How many toffees were there in his stock initially?</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "62",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7949/cat-2020-set-1-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/7949/cat-2020-set-1-question-72</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"7946\"></a><div itemprop=\"text\">The number of distinct real roots of the equation \\( \\left ( x+\\frac{1}{x}\\right )^{2}-3\\left ( x+\\frac{1}{x} \\right )+2= 0 \\) equals</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7946/cat-2020-set-1-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/7946/cat-2020-set-1-question-75</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"8044\"></a><div itemprop=\"text\">If \\( \\textsf{x} \\) and \\( \\textsf{y} \\) are positive real numbers satisfying \\( \\textsf{x+y = 102}, \\) then the minimum possible value of \\( \\textsf{2601} \\left( 1 + \\frac{1}{\\textsf{x}} \\right) \\left( 1 + \\frac{1}{\\textsf{y}} \\right) \\) is</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2704",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8044/cat-2020-set-2-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/8044/cat-2020-set-2-question-56</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"8040\"></a><div itemprop=\"text\"><p>For real \\( \\textsf{x} \\) , the maximum possible value of \\(  \\frac{x}{\\sqrt{1+x^{4}}} \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\frac{1}{\\sqrt{3}} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\frac{1}{\\sqrt{2}} \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{\\sqrt{2}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8040/cat-2020-set-2-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/8040/cat-2020-set-2-question-60</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"8029\"></a><div itemprop=\"text\"><p>The number of integers that satisfy the equality \\( \\left( x^{2} –&nbsp;5x + 7 \\right)^{x+1} = 1 \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8029/cat-2020-set-2-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/8029/cat-2020-set-2-question-71</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"8123\"></a><div itemprop=\"text\"><p>If \\( x_{1} = \\;–&nbsp;1 \\) and \\( x_{m} = x_{m+1} + (m + 1) \\) for every positive integer \\( m,  \\) then \\( x_{100} \\) equals&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  –&nbsp;5151&nbsp; \\)</p>",
+            "<p>\\(  –&nbsp;5150  \\)</p>",
+            "<p>\\(  –&nbsp;5051  \\)</p>",
+            "<p>\\(  –&nbsp;5050  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  –&nbsp;5050  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8123/cat-2020-set-3-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/8123/cat-2020-set-3-question-55</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"8119\"></a><div itemprop=\"text\">If \\( \\text{a,b,c} \\) are non-zero and \\( 14^{a} = 36^{b} = 84^{c}, \\) then \\( 6b \\left( \\frac{1}{c} \\;– \\frac{1}{a} \\right) \\) is equal to</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8119/cat-2020-set-3-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/8119/cat-2020-set-3-question-59</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"8109\"></a><div itemprop=\"text\"><p>How many pairs \\( (a,b) \\) of positive integers are there such that&nbsp; \\( a \\leq&nbsp;b \\) and \\( ab = 4^{2017} \\; ? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2017 \\)</p>",
+            "<p>\\( 2019 \\)</p>",
+            "<p>\\( 2020 \\)</p>",
+            "<p>\\( 2018 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8109/cat-2020-set-3-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/8109/cat-2020-set-3-question-69</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"6716\"></a><div itemprop=\"text\"><p>The value of \\( \\large\\frac{(0.96)^3-(0.1)^3}{(0.96)^2+0.096+(0.1)^2} \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0.86 \\)</p>",
+            "<p>\\( 0.95 \\)</p>",
+            "<p>\\( 0.97 \\)</p>",
+            "<p>\\( 1.06 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6716/nielit-2016-mar-scientist-c-section-a-15\" target=\"_blank\">https://aptitude.gateoverflow.in/6716/nielit-2016-mar-scientist-c-section-a-15</a></p>"
+        },
+        {
+          "id": 63,
+          "question": "<p><a name=\"6914\"></a><div itemprop=\"text\"><p>The sum of a number and its double is \\( 69 \\). What is the number?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 46.6 \\)</p>",
+            "<p>\\( 34.5 \\)</p>",
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6914/nielit-2016-mar-scientist-d-69\" target=\"_blank\">https://aptitude.gateoverflow.in/6914/nielit-2016-mar-scientist-d-69</a></p>"
+        },
+        {
+          "id": 64,
+          "question": "<p><a name=\"6913\"></a><div itemprop=\"text\"><p>Twelve less than \\( 4 \\) times a number is \\( 20 \\). What is the number?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6913/nielit-2016-mar-scientist-d-70\" target=\"_blank\">https://aptitude.gateoverflow.in/6913/nielit-2016-mar-scientist-d-70</a></p>"
+        },
+        {
+          "id": 65,
+          "question": "<p><a name=\"6912\"></a><div itemprop=\"text\"><p>A certain number when added to \\( 50\\% \\) of itself is \\( 27 \\). What is the number?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist D: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6912/nielit-2016-mar-scientist-d-71\" target=\"_blank\">https://aptitude.gateoverflow.in/6912/nielit-2016-mar-scientist-d-71</a></p>"
+        },
+        {
+          "id": 66,
+          "question": "<p><a name=\"6637\"></a><div itemprop=\"text\"><p>If&nbsp;\\( a^{x}=b, b^{y}=c \\) and&nbsp;\\( c^{z}=a \\), then \\( xyz \\) equals:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( abc \\)</p>",
+            "<p>\\( \\dfrac{1}{abc} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6637/nielit-2019-feb-scientist-c-section-c-19\" target=\"_blank\">https://aptitude.gateoverflow.in/6637/nielit-2019-feb-scientist-c-section-c-19</a></p>"
+        },
+        {
+          "id": 67,
+          "question": "<p><a name=\"6653\"></a><div itemprop=\"text\"><p>The factors of&nbsp;\\( (x^{2}+4y^{2}+4y-4xy-2x-8) \\) are:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (x-2y-4)(x-2y+2) \\)</p>",
+            "<p>\\( (x-y+2)(x-4y-4) \\)</p>",
+            "<p>\\( (x+2y-4)(x+2y+2) \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6653/nielit-2019-feb-scientist-c-section-c-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6653/nielit-2019-feb-scientist-c-section-c-3</a></p>"
+        },
+        {
+          "id": 68,
+          "question": "<p><a name=\"6671\"></a><div itemprop=\"text\"><p>The simplified form of&nbsp;\\( \\left[ \\left&nbsp;( \\left( \\dfrac{a+1}{a-1}\\right)^2+3 \\right)\\div \\left( \\left( \\dfrac{a-1}{a+1}\\right)^2+3\\right) \\right] \\div \\left [\\left( \\dfrac{a^{3}+1}{a^{3}-1}\\right)-\\dfrac{2a}{a-1}&nbsp;\\right] \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( a-1 \\)</p>",
+            "<p>\\( 1-a \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6671/nielit-2019-feb-scientist-c-section-d-15\" target=\"_blank\">https://aptitude.gateoverflow.in/6671/nielit-2019-feb-scientist-c-section-d-15</a></p>"
+        },
+        {
+          "id": 69,
+          "question": "<p><a name=\"6663\"></a><div itemprop=\"text\"><p>Rs.\\( 6500 \\) were divided among a certain number of persons. If there had been \\( 15 \\) more persons, each would have got \\( Rs.30 \\) less. Find the original number of persons.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 55 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6663/nielit-2019-feb-scientist-c-section-d-23\" target=\"_blank\">https://aptitude.gateoverflow.in/6663/nielit-2019-feb-scientist-c-section-d-23</a></p>"
+        },
+        {
+          "id": 70,
+          "question": "<p><a name=\"6656\"></a><div itemprop=\"text\"><p>A charitable trust donates \\( 28 \\) different books of Maths, \\( 16 \\) different books of science and \\( 12 \\) different books of social science to poor students. Each student is given maximum number of books of only one subject of their interest and each student got equal number of books. Find the total number of students who got books.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 15 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6656/nielit-2019-feb-scientist-c-section-d-30\" target=\"_blank\">https://aptitude.gateoverflow.in/6656/nielit-2019-feb-scientist-c-section-d-30</a></p>"
+        },
+        {
+          "id": 71,
+          "question": "<p><a name=\"6827\"></a><div itemprop=\"text\"><p>A dog at point \\( A \\) goes in pursuit of a fox \\( 30 \\) \\( m \\) away. The dog makes \\( 2 \\) \\( m \\) and the fox, \\( 1 \\) m long leaps. If the dog makes two leaps to the fox’s three, at what distance from \\( A \\) will the dog catch up with the fox ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100 \\) \\( m \\)</p>",
+            "<p>\\( 110 \\) \\( m \\)</p>",
+            "<p>\\( 105 \\) \\( m \\)</p>",
+            "<p>\\( 120 \\) \\( m \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6827/nielit-2019-feb-scientist-d-section-d-26\" target=\"_blank\">https://aptitude.gateoverflow.in/6827/nielit-2019-feb-scientist-d-section-d-26</a></p>"
+        },
+        {
+          "id": 72,
+          "question": "<p><a name=\"6826\"></a><div itemprop=\"text\"><p>If \\( 5 \\) spiders can catch \\( 5 \\) files in \\( 5 \\) minutes. How many files can \\( 100 \\) spiders catch in \\( 100 \\) minutes :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 1000 \\)</p>",
+            "<p>\\( 500 \\)</p>",
+            "<p>\\( 2000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6826/nielit-2019-feb-scientist-d-section-d-27\" target=\"_blank\">https://aptitude.gateoverflow.in/6826/nielit-2019-feb-scientist-d-section-d-27</a></p>"
+        },
+        {
+          "id": 73,
+          "question": "<p><a name=\"6850\"></a><div itemprop=\"text\"><p>A school has \\( 378 \\) girls and \\( 675 \\) boys. All the students divided into strictly boys and strictly girls students sections. All the sections in the school has same number of students. What is the number of sections in the school?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 39 \\)</p>",
+            "<p>\\( 23 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6850/nielit-2019-feb-scientist-d-section-d-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6850/nielit-2019-feb-scientist-d-section-d-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

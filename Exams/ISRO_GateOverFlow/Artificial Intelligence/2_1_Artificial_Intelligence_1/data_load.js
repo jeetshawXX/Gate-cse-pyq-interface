@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - Artificial Intelligence",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Artificial Intelligence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435317\"></a><div itemprop=\"text\"><p>Which of the following is not a connective of First Order Logic with reference to AI (Artificial Intelligence)?</p></div><br><br><b>Artificial Intelligence: ISRO CSE 2023 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\wedge \\)</p>",
+            "<p>\\( \\vee \\)</p>",
+            "<p>\\( &lt;&gt; \\)</p>",
+            "<p>ᄀ</p>"
+          ],
+          "correct_answer": "<p>\\( &lt;&gt; \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435317/isro-cse-2023-question-78\" target=\"_blank\">https://gateoverflow.in/435317/isro-cse-2023-question-78</a></p>"
+        }
+      ]
+    }
+  ]
+});

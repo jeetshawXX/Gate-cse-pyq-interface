@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HB7GVQT6TR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HB7GVQT6TR');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_iit_madras_without_background.png" type="image/x-icon">
+    <title>Support — GATE Exam Interface</title>
+    <link rel="stylesheet" href="css/exam_style.css">
+    <link rel="stylesheet" href="css/auth.css?v=1">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--bg-color, #0f111a); /* Inheriting dark mode by default if possible, else standard dark */
+        }
+
+        .support-card {
+            background-color: #1a1d24;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+            max-width: 450px;
+            width: 90%;
+            font-family: inherit;
+        }
+
+        .support-title {
+            color: #f39c12;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .support-subtitle {
+            color: #b3b9c5;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        .qr-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        .qr-text {
+            color: #333333;
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .qr-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            /* Placeholder dimension logic */
+            background: url('images/qr_placeholder.png') center/cover no-repeat;
+            aspect-ratio: 1/1;
+            display: block;
+        }
+    </style>
+</head>
+<body data-theme="dark">
+    <!-- Quick Nav back -->
+    <div style="position: absolute; top: 20px; left: 20px;">
+        <a href="index.html" class="nav-analytics" style="text-decoration: none; color: #b3b9c5; padding: 8px 12px; background: rgba(255,255,255,0.1); border-radius: 6px;">← Back to Home</a>
+    </div>
+
+    <div class="support-card">
+        <div class="support-title">☕ Buy me a coffee</div>
+        <div class="support-subtitle">
+            
+            Thank You :)
+        </div>
+        
+        <div class="qr-box">
+            <div class="qr-text">Scan and Pay using any UPI </div>
+            <!-- Once user uploads their actual QR code, replace the src here -->
+            <img src="images/js_upi.png" alt="UPI QR Code" class="qr-image" onerror="this.src=''; this.style.backgroundColor='#f0f0f0'; this.style.border='2px dashed #ccc'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.alt='Place your QR Code at images/qr_placeholder.png';">
+        </div>
+    </div>
+    <script src="js/db.js"></script>
+    <script type="module" src="js/gate_auth.js"></script>
+</body>
+</html>

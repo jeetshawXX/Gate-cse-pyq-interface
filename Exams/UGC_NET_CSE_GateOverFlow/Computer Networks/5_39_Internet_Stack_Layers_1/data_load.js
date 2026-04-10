@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Internet Stack Layers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Internet Stack Layers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316192\"></a><div itemprop=\"text\"><p>Which of the following statements is/are true with regard to various layers in the Internet stack?</p>\n\n<p>P: At the link layer, a packet of transmitted information is called a frame.</p>\n\n<p>Q: At the network layer, a packet of transmitted information is called a segment.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2019 | Part 2 | Question: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P only</p>",
+            "<p>Q only</p>",
+            "<p>P and Q</p>",
+            "<p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "<p>P only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316192/ugc-net-cse-june-2019-part-2-question-87\" target=\"_blank\">https://gateoverflow.in/316192/ugc-net-cse-june-2019-part-2-question-87</a></p>"
+        }
+      ]
+    }
+  ]
+});

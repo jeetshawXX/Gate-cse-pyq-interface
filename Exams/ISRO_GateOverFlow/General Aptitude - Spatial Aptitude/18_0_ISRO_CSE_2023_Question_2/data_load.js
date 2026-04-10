@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Spatial Aptitude - ISRO CSE 2023  Question",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "ISRO CSE 2023  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435300\"></a><div itemprop=\"text\"><p>Which option replaces the question mark</p><p style=\"text-align:center\"><img alt=\"Pattern\" width=\"600\" height=\"115\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10224917528223620094\"></p></div><br><br><b>Spatial Aptitude: ISRO CSE 2023 | Question: 95</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" width=\"150\" height=\"125\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=11406840555642679109\"></p>",
+            "<p><img alt=\"\" width=\"150\" height=\"125\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=11020540598115324193\"></p>",
+            "<p><img alt=\"\" width=\"150\" height=\"125\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=9101843644955293247\"></p>",
+            "<p><img alt=\"\" width=\"150\" height=\"125\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=13555915151394666014\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" width=\"150\" height=\"125\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=11406840555642679109\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435300/isro-cse-2023-question-95\" target=\"_blank\">https://gateoverflow.in/435300/isro-cse-2023-question-95</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435304\"></a><div itemprop=\"text\"><p>Which option replaces the question mark?</p><p style=\"text-align:center\"><img alt=\"Diagram 1\" width=\"650\" height=\"436\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17870808801936917830\"></p><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"Diagram 2\" width=\"600\" height=\"152\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=14078919876882605024\"></p><p>&nbsp;</p></div><br><br><b>Spatial Aptitude: ISRO CSE 2023 | Question: 91</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"Option A\" width=\"180\" height=\"173\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4294898959611518218\"></p>",
+            "<p><img alt=\"option B\" width=\"180\" height=\"173\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=14071218611905777230\"></p>",
+            "<p>&nbsp;<img alt=\"option d\" width=\"175\" height=\"163\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=16492812511025723304\">&nbsp;</p>",
+            "<p>&nbsp;<img alt=\"option c\" width=\"175\" height=\"173\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7969735194350474375\"></p>"
+          ],
+          "correct_answer": "<p>&nbsp;<img alt=\"option d\" width=\"175\" height=\"163\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=16492812511025723304\">&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435304/isro-cse-2023-question-91\" target=\"_blank\">https://gateoverflow.in/435304/isro-cse-2023-question-91</a></p>"
+        }
+      ]
+    }
+  ]
+});

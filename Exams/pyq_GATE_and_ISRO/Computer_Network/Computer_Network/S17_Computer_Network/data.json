@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 17",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The subnet mask 255.255.255.192 <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>extends the network portion to 16 bits</p>",
+            "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+            "<b>C.</b> <p>extends the network portion to 36 bits</p>",
+            "<b>D.</b> <p>has no effect on the network portion of an IP address</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49665/isro2008-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nWhich IP address should X configure its gateway as? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192.168.1.67</p>",
+            "<b>B.</b> <p>192.168.1.110</p>",
+            "<b>C.</b> <p>192.168.1.135</p>",
+            "<b>D.</b> <p>192.168.1.155</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>192.168.1.110</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3409/gate2008-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nGiven the information above, how many distinct subnets are guaranteed to already exist in the network? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3408/gate2008-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The total number of keys required for a set of n individuals to be able to communicate with each other using secret key and public key cryptosystems, respectively are: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n(n-1) \\text { and } 2 n\\)</p>",
+            "<b>B.</b> <p>\\(2 n \\text { and } \\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } 2 n\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } 2 n\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3384/gate2008-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The three way handshake for TCP connection establishment is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q69_d0b045bf.jpg\"><br>\nWhich of the following statements are TRUE?<br>\nS1:  Loss of SYN + ACK from the server will not establish a connection <br>\nS2:  Loss of ACK from the client cannot establish the connection<br>\nS3: The server moves \\(LISTEN \\to SYN\\_RCVD \\to SYN\\_SENT \\to ESTABLISHED\\) in the state machine on no packet loss <br>\nS4: The server moves \\(LISTEN \\to SYN\\_RCVD \\to ESTABLISHED\\) in the state machine on no packet loss <br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S2 and S3 only</p>",
+            "<b>B.</b> <p>S1 and S4 only</p>",
+            "<b>C.</b> <p>S1 and S3 only</p>",
+            "<b>D.</b> <p>S2 and S4 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3383/gate2008-it-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following statements are TRUE? <br>S1:  TCP handles both congestion and flow control<br>\nS2:  UDP handles congestion but not flow control<br>\nS3:  Fast retransmit deals with congestion but not flow control<br>\nS4:  Slow start mechanism deals with both congestion and flow control<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S3 only</p>",
+            "<b>B.</b> <p>S1 and S3 only</p>",
+            "<b>C.</b> <p>S3 and S4 only</p>",
+            "<b>D.</b> <p>S1, S3 and S4 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3382/gate2008-it-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Two popular routing algorithms are Distance Vector(DV) and Link State (LS) routing. Which of the following are true?<br>\n(S1):  Count to infinity is a problem only with DV and not LS routing<br>\n(S2):  In LS, the shortest path algorithm is run only at one node<br>\n(S3):  In DV, the shortest path algorithm is run only at one node<br>\n(S4):  DV requires lesser number of network messages than LS<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S4 only</p>",
+            "<b>B.</b> <p>S1, S3 and S4 only</p>",
+            "<b>C.</b> <p>S2 and S3 only</p>",
+            "<b>D.</b> <p>S1 and S4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 and S4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3381/gate2008-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Data transmitted on a link uses the following 2D parity scheme for error detection:\nEach sequence of 28 bits is arranged in a \\(4\\times 7\\) matrix (rows \\(r_{0}\\) through \\(r_{3}\\), and columns \\(d_{7}\\)  through \\(d_{1}\\)) and is padded with a column \\(d_{0}\\) and row \\(r_{4}\\) of parity bits computed using the Even parity scheme. Each bit of column \\(d_{0}\\) (respectively, row \\(r_{4}\\)) gives the parity of the corresponding row (respectively, column). These 40 bits are transmitted over the data link.<br><br>\\(\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline &amp; \\mathbf{d}_{\\mathbf{7}} &amp; \\mathbf{d}_{\\mathbf{6}} &amp; \\mathbf{d}_{\\mathbf{5}} &amp; \\mathbf{d}_{\\mathbf{4}} &amp; \\mathbf{d}_{\\mathbf{3}} &amp; \\mathbf{d}_{\\mathbf{2}} &amp; \\mathbf{d}_{\\mathbf{1}} &amp; \\mathbf{d}_{\\mathbf{0}} \\\\ \\hline \\mathbf{r}_{\\mathbf{0}} &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; \\mathbf{1} \\\\ \\hline \\mathbf{r}_{\\mathbf{1}} &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{2}} &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{3}} &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{4}} &amp; \\mathbf{1} &amp; \\mathbf{1} &amp; \\mathbf{0} &amp; \\mathbf{0} &amp; \\mathbf{0} &amp; \\mathbf{1} &amp; \\mathbf{1} &amp; \\mathbf{0} \\\\ \\hline \\end{array}\\)<br><br>The table shows data received by a receiver and has n corrupted bits. What is the minimum possible value of n? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3380/gate2008-it-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The minimum frame size required for a CSMA/CD based computer network running at 1Gbps on a 200m cable with a link speed of \\(2\\times 10^{8} m / sec\\) is: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125bytes</p>",
+            "<b>B.</b> <p>250bytes</p>",
+            "<b>C.</b> <p>500bytes</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>250bytes</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3376/gate2008-it-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A 1 Mbps satellite link connects two ground stations. The altitude of the satellite is 36,504 km and speed of the signal is \\(3 \\times 10^8\\)m/s. What should be the packet size for a channel utilization of 25% for a satellite link using go-back-127 sliding window protocol?<br> Assume that the acknowledgment packets are negligible in size and that there are no errors during communication. <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>120 bytes</p>",
+            "<b>B.</b> <p>60 bytes</p>",
+            "<b>C.</b> <p>240 bytes</p>",
+            "<b>D.</b> <p>90 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>120 bytes</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3375/gate2008-it-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>How many bytes of data can be sent in 15 seconds over a serial link with baud rate of 9600 in asynchronous mode with odd parity and two stop bits in the frame? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10,000 bytes</p>",
+            "<b>B.</b> <p>12,000 bytes</p>",
+            "<b>C.</b> <p>15,000 bytes</p>",
+            "<b>D.</b> <p>27,000 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12,000 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3278/gate2008-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A computer on a 10Mbps network is regulated by a token bucket. The token\nbucket is filled at a rate of 2Mbps. It is initially filled to capacity with 16Megabits.\nWhat is the maximum duration for which the computer can transmit at the full 10Mbps? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.6 seconds</p>",
+            "<b>B.</b> <p>2 seconds</p>",
+            "<b>C.</b> <p>5 seconds</p>",
+            "<b>D.</b> <p>8 seconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 seconds</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/481/gate2008-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If a class B network on the Internet has a subnet mask of 255.255.248.0, what is\nthe maximum number of hosts per subnet? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1022</p>",
+            "<b>B.</b> <p>1023</p>",
+            "<b>C.</b> <p>2046</p>",
+            "<b>D.</b> <p>2047</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2046</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/480/gate2008-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In the slow start phase of the TCP congestion control algorithm, the size of the\ncongestion window <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not increase</p>",
+            "<b>B.</b> <p>increases linearly</p>",
+            "<b>C.</b> <p>increases quadratically</p>",
+            "<b>D.</b> <p>increases exponentially</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>increases exponentially</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/479/gate2008-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is the maximum size of data that the application layer can pass on to the\nTCP layer below? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any size</p>",
+            "<b>B.</b> <p>\\(2^{16}\\) bytes-size of TCP header</p>",
+            "<b>C.</b> <p>\\(2^{16}\\) bytes</p>",
+            "<b>D.</b> <p>1500 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Any size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/412/gate2008-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

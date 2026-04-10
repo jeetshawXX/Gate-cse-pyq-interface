@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Databases - Dependency Preserving",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Dependency Preserving",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337262\"></a><div itemprop=\"text\"><p>Every Boyce-Codd Normal Form (BCNF) decomposition is</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>dependency preserving</p>",
+            "<p>not dependency preserving</p>",
+            "<p>need be dependency preserving</p>",
+            "<p>none of these</p>"
+          ],
+          "correct_answer": "<p>none of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337262/nielit-2016-mar-scientist-c-section-c-3\" target=\"_blank\">https://gateoverflow.in/337262/nielit-2016-mar-scientist-c-section-c-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275501\"></a><div itemprop=\"text\"><p>Identify the true statement from the given statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>Lossless, dependency-preserving Decompositoin into \\( 3 \\) NF is always possible</li>\n\t<li>Any relation with two attributes is BCNF</li>\n</ol>\n\n</div><br><br><b>Databases: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\) and \\( 2 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275501/nielit-2018-63\" target=\"_blank\">https://gateoverflow.in/275501/nielit-2018-63</a></p>"
+        }
+      ]
+    }
+  ]
+});

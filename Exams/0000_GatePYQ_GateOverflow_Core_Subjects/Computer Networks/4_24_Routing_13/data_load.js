@@ -1,0 +1,199 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Routing",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Routing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1362\"></a><div itemprop=\"text\"><p>In a network of LANs connected by bridges, packets are sent from one LAN to another through intermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the <em>spanning tree algorithm</em> used for bridge-routing?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>For shortest path routing between LANs</p>",
+            "<p>For avoiding loops in the routing paths</p>",
+            "<p>For fault tolerance</p>",
+            "<p>For minimizing collisions</p>"
+          ],
+          "correct_answer": "<p>For avoiding loops in the routing paths</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1362/gate-cse-2005-question-26\" target=\"_blank\">https://gateoverflow.in/1362/gate-cse-2005-question-26</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1790\"></a><div itemprop=\"text\"><p>Consider the following three statements about link state and distance vector routing protocols, for a large network with \\( 500 \\) network nodes and \\( 4000 \\) links.&nbsp;</p><p>[S1]:&nbsp;The computational overhead in link state protocols is higher than in distance vector protocols.&nbsp;</p><p>[S2]: A distance vector protocol (with split horizon) avoids persistent routing loops, but not a link state protocol.&nbsp;</p><p>[S3]: After a topology change, a link state protocol will converge faster than a distance vector protocol.&nbsp;</p><p>Which one of the following is correct about \\( S1 \\), \\( S2 \\), and \\( S3 \\)?</p></div><br><br><b>GATE CSE 2014 Set 1 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S1 \\), \\( S2 \\), and \\( S3 \\) are all true.</p>",
+            "<p>\\( S1 \\), \\( S2 \\), and \\( S3 \\) are all false.&nbsp;</p>",
+            "<p>\\( S1 \\) and \\( S2 \\) are true, but \\( S3 \\) is false.</p>",
+            "<p>\\( S1 \\) and \\( S3 \\) are true, but \\( S2 \\) is false.</p>"
+          ],
+          "correct_answer": "<p>\\( S1 \\) and \\( S3 \\) are true, but \\( S2 \\) is false.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1790/gate-cse-2014-set-1-question-23\" target=\"_blank\">https://gateoverflow.in/1790/gate-cse-2014-set-1-question-23</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1981\"></a><div itemprop=\"text\"><p>Which of the following is TRUE about the interior gateway routing protocols \\( - \\) Routing Information Protocol \\( (RIP) \\) and Open Shortest Path First \\( (OSPF) \\)</p></div><br><br><b>GATE CSE 2014 Set 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>RIP uses distance vector routing and OSPF uses link state routing</p>",
+            "<p>OSPF uses distance vector routing and RIP uses link state routing</p>",
+            "<p>Both RIP and OSPF use link state routing</p>",
+            "<p>Both RIP and OSPF use distance vector routing</p>"
+          ],
+          "correct_answer": "<p>RIP uses distance vector routing and OSPF uses link state routing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1981/gate-cse-2014-set-2-question-23\" target=\"_blank\">https://gateoverflow.in/1981/gate-cse-2014-set-2-question-23</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2060\"></a><div itemprop=\"text\">An IP router implementing Classless Inter-domain Routing (CIDR) receives a packet with address \\( 131.23.151.76 \\). The router's routing table has the following entries:<br>\n\\[ \\begin{array}{|c|c|c|} \\hline \\textbf {Prefix} &amp; \\textbf {Outer Interface Identifier} \\\\\\hline \\text {131.16.0.0/12} &amp; &nbsp;\\text{3 } \\\\\\hline \\text{131.28.0.0/14} &amp; \\text{5} \\\\\\hline \\text{131.19.0.0/16} &amp; \\text{2} \\\\\\hline \\text{131.22.0.0/15} &amp; \\text{1} \\\\\\hline \\end{array} \\]<br>\nThe identifier of the output interface on which this packet will be forwarded is ______.</div><br><br><b>GATE CSE 2014 Set 3 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2060/gate-cse-2014-set-3-question-26\" target=\"_blank\">https://gateoverflow.in/2060/gate-cse-2014-set-3-question-26</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"118338\"></a><div itemprop=\"text\"><p>Consider the following statements about the routing protocols. Routing Information Protocol (RIP) and Open Shortest Path First (OSPF) in an \\( \\textsf{IPv4} \\) network.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>RIP uses distance vector routing</li>\n\t<li>RIP packets are sent using UDP</li>\n\t<li>OSPF packets are sent using TCP</li>\n\t<li>OSPF operation is based on link-state routing</li>\n</ol>\n\n<p>Which of the above statements are CORRECT?</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 09</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and IV only</p>",
+            "<p>I, II and III only</p>",
+            "<p>I, II and IV only</p>",
+            "<p>II, III and IV only</p>"
+          ],
+          "correct_answer": "<p>I, II and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118338/gate-cse-2017-set-2-question-09\" target=\"_blank\">https://gateoverflow.in/118338/gate-cse-2017-set-2-question-09</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"333216\"></a><div itemprop=\"text\"><p>Consider the following statements about the functionality of an \\( \\textsf{IP} \\) based router.</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>A router does not modify the \\( \\textsf{IP} \\) packets during forwarding.</li>\n\t<li>It is not necessary for a router to implement any routing protocol.</li>\n\t<li>A router should reassemble \\( \\textsf{IP} \\) fragments if the \\( \\textsf{MTU} \\) of the outgoing link is larger than the size of the incoming \\( \\text{IP} \\) packet.</li>\n</ol>\n\n<p>&nbsp; Which of the above statements is/are TRUE?</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and&nbsp;II only</p>",
+            "<p>I only</p>",
+            "<p>II and&nbsp;III only</p>",
+            "<p>II only</p>"
+          ],
+          "correct_answer": "<p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333216/gate-cse-2020-question-15\" target=\"_blank\">https://gateoverflow.in/333216/gate-cse-2020-question-15</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"399297\"></a><div itemprop=\"text\"><p>Which of the following statements is/are \\( \\text{INCORRECT} \\) about the \\( \\textsf{OSPF (Open Shortest Path First)} \\) routing protocol used in the Internet?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 15</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\textsf{OSPF} \\) implements Bellman-Ford algorithm to find shortest paths.</p>",
+            "<p>\\( \\textsf{OSPF} \\) uses Dijkstra's shortest path algorithm to implement least-cost path routing.</p>",
+            "<p>\\( \\textsf{OSPF} \\) is used as an inter-domain routing protocol.</p>",
+            "<p>\\( \\textsf{OSPF} \\) implements hierarchical routing.</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\textsf{OSPF} \\) implements Bellman-Ford algorithm to find shortest paths.</p>",
+            "<p>\\( \\textsf{OSPF} \\) is used as an inter-domain routing protocol.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399297/gate-cse-2023-question-15\" target=\"_blank\">https://gateoverflow.in/399297/gate-cse-2023-question-15</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"422816\"></a><div itemprop=\"text\"><p>Consider a network path \\( \\mathrm{P}-\\mathrm{Q}-\\mathrm{R} \\) between nodes \\( \\mathrm{P} \\) and \\( \\mathrm{R} \\) via router \\( \\mathrm{Q} \\). Node \\( \\mathrm{P} \\) sends a file of size \\( 10^6 \\) bytes to \\( \\text{R} \\) via this path by splitting the file into chunks of \\( 10^3 \\) bytes each. Node \\( \\text{P} \\) sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the \\( \\text{MTU} \\).</p><p>Each of the links \\( \\mathrm{P}-\\mathrm{Q} \\) and \\( \\mathrm{Q}-\\mathrm{R} \\) has a bandwidth of \\( 10^6 \\mathrm{bits} / \\mathrm{sec} \\), and negligible propagation latency. Router \\( \\text{Q} \\) immediately transmits every packet it receives from \\( \\text{P} \\) to \\( \\text{R} \\), with negligible processing and queueing delays. Router \\( \\text{Q} \\) can simultaneously receive on \\( \\operatorname{link} \\mathrm{P}-\\mathrm{Q} \\) and transmit on \\( \\operatorname{link} \\mathrm{Q}-\\mathrm{R} \\).</p><p>Assume \\( \\text{P} \\) starts transmitting the chunks at time \\( t=0 \\).</p><p>Which one of the following options gives the time (<em>in seconds, rounded off to \\( 3 \\) decimal places</em>) at which \\( \\mathrm{R} \\) receives all the chunks of the file?</p><p></p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8.000 \\)</p>",
+            "<p>\\( 8.008 \\)</p>",
+            "<p>\\( 15.992 \\)</p>",
+            "<p>\\( 16.000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8.008 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26\" target=\"_blank\">https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"422794\"></a><div itemprop=\"text\">Consider the entries shown below in the forwarding table of an \\( \\text{IP} \\) router. Each entry consists of an \\( \\text{IP} \\) prefix and the corresponding next hop router for packets whose destination \\( \\text{IP} \\) address matches the prefix. The notation \" /\\( \\mathrm{N} \\) \" in a prefix indicates a subnet mask with the most significant \\( \\mathrm{N} \\) bits set to \\( 1 \\).\\[ \\begin{array}{|ll|ll|} \\hline \\textbf{Prefix} &amp;&amp; \\textbf{Next hop router} \\\\\\hline \\text{10.1.1.0 / 24} &amp;&amp; \\text{R1} \\\\\\hline \\text{10.1.1.128 / 25}&amp;&amp; \\text{R2} \\\\\\hline &nbsp;&nbsp;\\text{10.1.1.64 / 26}&amp;&amp; \\text{R3} \\\\\\hline &nbsp;\\text{10.1.1.192 / 26}&amp;&amp; \\text{R4} \\\\\\hline \\end{array} \\]<br>\nThis router forwards \\( 20 \\) packets each to \\( 5 \\) hosts. The \\( \\text{IP} \\) addresses of the hosts are \\( 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, \\) and \\( 10.1.1.205 \\). The number of packets forwarded via the next hop router \\( \\mathrm{R} 2 \\) is __________.</div><br><br><b>GATE CSE 2024 | Set 1 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "40",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48\" target=\"_blank\">https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3858\"></a><div itemprop=\"text\"><p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated&nbsp;interval, three tasks are performed.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>A node determines whether its neighbours in the graph are accessible. If so, it sets the tentative cost to each accessible neighbour as \\( 1 \\). Otherwise, the cost is set to \\( ∞ \\).</li>\n\t<li>From each accessible neighbour, it gets the costs to relay to other nodes via that neighbour (as the next hop).</li>\n\t<li>Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost.</li>\n</ol>\n\n<p><img alt=\"GATE2005-IT_85a\" src=\"images/gateOverflow_pyq_images/computer_networks___routing/8c60b63458aedb6731f577fba286e56d.png\" width=\"450\"></p>\n\n<p>For the graph given above, possible routing tables for various nodes after they have stabilized, are shown in the following options. Identify the correct table.</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 85a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\overset{\\text{Table for node A}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{-} &amp;\\text{-} \\\\\\hline&nbsp;&nbsp;&nbsp; \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{B} &amp; \\text{3} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{3} \\\\\\hline&nbsp; \\text{F}&amp; \\text{C} &amp; \\text{4} \\\\\\hline \\end{array}} \\)</p>",
+            "<p>\\( \\overset{\\text{Table for node C}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline&nbsp;&nbsp;&nbsp; \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{E} &amp; \\text{1} \\\\\\hline&nbsp; \\text{F}&amp; \\text{E} &amp; \\text{3} \\\\\\hline \\end{array}} \\)</p>",
+            "<p>\\( \\overset{\\text{Table for node B}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline&nbsp;&nbsp;&nbsp; \\text{B}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{2} \\\\\\hline&nbsp; \\text{F}&amp; \\text{D} &amp; \\text{2} \\\\\\hline \\end{array}} \\)</p>",
+            "<p>\\( \\overset{\\text{Table for node D}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{B} &amp;\\text{3} \\\\\\hline&nbsp;&nbsp;&nbsp; \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{E}&amp; \\text{E} &amp; \\text{1} \\\\\\hline&nbsp; \\text{F}&amp; \\text{F} &amp; \\text{1} \\\\\\hline \\end{array}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\overset{\\text{Table for node B}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline&nbsp;&nbsp;&nbsp; \\text{B}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{2} \\\\\\hline&nbsp; \\text{F}&amp; \\text{D} &amp; \\text{2} \\\\\\hline \\end{array}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3858/gate-it-2005-question-85a\" target=\"_blank\">https://gateoverflow.in/3858/gate-it-2005-question-85a</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3859\"></a><div itemprop=\"text\"><p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated interval, three tasks are performed.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>A node determines whether its neighbors in the graph are accessible. If so, it sets the tentative cost to each accessible neighbor as \\( 1 \\). Otherwise, the cost is set to \\( ∞ \\).</li>\n\t<li>From each accessible neighbor, it gets the costs to relay to other nodes via that neighbor (as the next hop).</li>\n\t<li>Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost.</li>\n</ol>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/computer_networks___routing/eab67025725b0e0427a39c2f2687f099.png\" width=\"450\"></p>\n\n<p>Continuing from the earlier problem, suppose at some time \\( t \\), when the costs have stabilized, node \\( A \\) goes down. The cost from node \\( F \\) to node \\( A \\) at time&nbsp;\\( (t + 100) \\) is :</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 85b</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( &gt;100 \\) but finite</p>",
+            "<p>\\( \\infty \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( &gt;3 \\) and \\( \\leq 100 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( &gt;100 \\) but finite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3859/gate-it-2005-question-85b\" target=\"_blank\">https://gateoverflow.in/3859/gate-it-2005-question-85b</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"3508\"></a><div itemprop=\"text\"><p>A group of \\( 15 \\) routers is interconnected in a centralized complete binary tree with a router at each tree node. Router \\( i \\) communicates with router \\( j \\) by sending a message to the root of the tree. The root then sends the message back down to router \\( j \\). The mean number of hops per message, assuming all possible router pairs are equally likely is</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4.26 \\)</p>",
+            "<p>\\( 4.53 \\)</p>",
+            "<p>\\( 5.26 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4.53 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3508/gate-it-2007-question-63\" target=\"_blank\">https://gateoverflow.in/3508/gate-it-2007-question-63</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"3381\"></a><div itemprop=\"text\"><p>Two popular routing algorithms are Distance Vector(DV) and Link State (LS) routing. Which of the following are true?</p>\n\n<p><strong>(S1):</strong> &nbsp;Count to infinity is a problem only with DV and not LS routing<br>\n<strong>(S2):</strong> &nbsp;In LS, the shortest path algorithm is run only at one node<br>\n<strong>(S3):</strong> &nbsp;In DV, the shortest path algorithm is run only at one node<br>\n<strong>(S4):</strong> &nbsp;DV requires lesser number of network messages than LS</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>S1, S2 and S4 only</p>",
+            "<p>S1, S3 and S4 only</p>",
+            "<p>S2 and S3 only</p>",
+            "<p>S1 and S4 only</p>"
+          ],
+          "correct_answer": "<p>S1 and S4 only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3381/gate-it-2008-question-67\" target=\"_blank\">https://gateoverflow.in/3381/gate-it-2008-question-67</a></p>"
+        }
+      ]
+    }
+  ]
+});

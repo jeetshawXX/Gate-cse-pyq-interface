@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Queue",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Queue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64711\"></a><div itemprop=\"text\"><p>When the priority queue is represented by max heap, the insertion and deletion of an element can be performed in (queue containing \\( n \\) elements)</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2011 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\theta(n) \\) and \\( \\theta(1) \\) respectively</p>",
+            "<p>\\( \\theta(n) \\) and&nbsp;\\( \\theta(n) \\) respectively</p>",
+            "<p>\\( \\theta(1) \\) and \\( \\theta(1) \\) respectively</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64711/ugc-net-cse-june-2011-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/64711/ugc-net-cse-june-2011-part-2-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+});

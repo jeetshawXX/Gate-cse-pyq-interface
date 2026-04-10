@@ -1,0 +1,91 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - P NP NPC NPH",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "P NP NPC NPH",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"97996\"></a><div itemprop=\"text\"><p>Consider the following language</p>\n\n<p>\\[ \\mathsf{PRIMES} = \\Biggl\\{ \\underbrace{111 \\dots 11}_{p \\: \\text{ times} } : \\: p \\: \\text{ is prime }&nbsp;\\Biggl\\} \\]</p>\n\n<p>Then, which of the following is TRUE?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2016 | Part B | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathsf{PRIMES} \\) is regular</p>",
+            "<p>\\( \\mathsf{PRIMES} \\) is undecidable</p>",
+            "<p>\\( \\mathsf{PRIMES} \\) is decidable in polynomial time</p>",
+            "<p>\\( \\mathsf{PRIMES} \\) is context free but not regular</p>",
+            "<p>\\( \\mathsf{PRIMES} \\) is NP-complete and P \\( \\neq \\) NP</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathsf{PRIMES} \\) is decidable in polynomial time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/97996/tifr-cse-2016-part-b-question-8\" target=\"_blank\">https://gateoverflow.in/97996/tifr-cse-2016-part-b-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"280488\"></a><div itemprop=\"text\"><p>A formula is said to be a \\( 3 \\)-CF-formula if it is a conjunction (i.e., an AND) of clauses, and each clause has at most \\( 3 \\) literals. Analogously, a formula is said to be a \\( 3 \\)-DF-formula if it is a disjunction (i.e., an OR) of clauses of at most \\( 3 \\) literals each.</p>\n\n<p>Define the languages \\( 3 \\)-CF-SAT and \\( 3 \\)-DF-SAT as follows:</p>\n\n<p>\\[ 3 \\text{-CF-SAT}=\\{ \\Phi&nbsp;\\mid \\Phi&nbsp;\\text{ is a } \\textit{ satisfiable } 3\\text{-CF formula} \\} \\]</p>\n\n<p>\\[ 3\\text{-DF-SAT}=\\{ \\Phi \\mid&nbsp; \\Phi&nbsp;\\text{ is a } \\textit{satisfiable } 3\\text{-DF formula} \\} \\]</p>\n\n<p>Which of the following best represents our current knowledge of these languages ?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2019 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{3-CF-SAT} \\) and \\( \\text{3-DF-SAT} \\) are in NP but only \\( \\text{3-CF-SAT} \\) is NP-complete</p>",
+            "<p>Both \\( \\text{3-CF-SAT} \\) and \\( \\text{3-DF-SAT} \\) are in NP-complete</p>",
+            "<p>Both \\( \\text{3-CF-SAT} \\) and \\( \\text{3-DF-SAT} \\) are in P</p>",
+            "<p>Both \\( \\text{3-CF-SAT} \\) and \\( \\text{3-DF-SAT} \\) are in NP but only \\( \\text{3-DF-SAT} \\) is NP-complete</p>",
+            "<p>Neither \\( \\text{3-CF-SAT} \\) nor \\( \\text{3-DF-SAT} \\) are in P</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{3-CF-SAT} \\) and \\( \\text{3-DF-SAT} \\) are in NP but only \\( \\text{3-CF-SAT} \\) is NP-complete</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280488/tifr-cse-2019-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/280488/tifr-cse-2019-part-b-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"358949\"></a><div itemprop=\"text\"><p>Consider the following two languages.</p>\n\n<p>\\( \\begin{array}{rcl} \\text{PRIME}&nbsp;&amp;&nbsp; = &amp; \\{&nbsp;1^{n} \\mid n&nbsp;\\text{ is a prime number} \\}, \\\\&nbsp;\\text{FACTOR} &amp;&nbsp;&nbsp;= &amp; \\{ 1^{n}0 1^{a} 01^{b} \\mid n&nbsp;\\text{ has a factor in the range }[a,b] \\} \\end{array} \\).</p>\n\n<p>What can you say about the languages \\( \\text{PRIME} \\) and \\( \\text{FACTOR} \\)?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2021 | Part B | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{PRIME} \\) is in \\( \\text{P} \\), but \\( \\text{FACTOR} \\) is not in \\( \\text{P} \\).</p>",
+            "<p>Neither \\( \\text{PRIME} \\) nor \\( \\text{FACTOR} \\) are in&nbsp;\\( \\text{P} \\).</p>",
+            "<p>Both \\( \\text{PRIME} \\) and \\( \\text{FACTOR} \\) are in \\( \\text{P} \\).</p>",
+            "<p>\\( \\text{PRIME} \\) is not in \\( \\text{P} \\), but \\( \\text{FACTOR} \\) is in \\( \\text{P} \\).</p>",
+            "<p>None of the above since we can answer this question only if we resolve the status of the \\( \\text{NP} \\) vs. \\( \\text{P} \\) question.</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{PRIME} \\) and \\( \\text{FACTOR} \\) are in \\( \\text{P} \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358949/tifr-cse-2021-part-b-question-4\" target=\"_blank\">https://gateoverflow.in/358949/tifr-cse-2021-part-b-question-4</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"400144\"></a><div itemprop=\"text\"><p>A <em>\\( k \\)-term</em> \\( T=\\ell_{1} \\wedge \\ell_{2} \\wedge \\cdots \\wedge \\ell_{r} \\) is defined to be a conjunction of at most \\( k \\) literals, where each literal \\( \\ell_{i} \\) is a Boolean variable or its negation and \\( r \\leq k \\). A formula \\( \\Phi \\) is said to be a \\( k \\)-\\( \\text{DNF} \\)&nbsp;if it is of the form \\( T_{1} \\vee T_{2} \\vee \\ldots \\cdots \\vee T_{m} \\) where each \\( T_{i} \\) is a \\( k \\)-term. An assignment of \\( \\text{TRUE/FALSE} \\) values to the variables appearing in a formula \\( \\Phi \\) is said to be a <em>satisfying</em> assignment for \\( \\Phi \\) if, under the assignment, \\( \\Phi \\) evaluates to \\( \\text{TRUE} \\). Otherwise, the assignment is said to be a <em>violating</em> assignment for \\( \\Phi \\). Consider the following statements</p>\n\n<p>\\( \\text{(S1)} \\)&nbsp;Given a \\( \\text{2-DNF} \\) \\( \\Phi \\), one can find a violating assignment for \\( \\Phi \\) in polynomial time.<br>\n\\( \\text{(S2)} \\)&nbsp;It is \\( \\text{NP} \\)-hard to find a violating assignment for a given \\( \\text{3-DNF} \\)&nbsp;\\( \\Phi \\).<br>\n\\( \\text{(S3)} \\)&nbsp;Given a \\( \\text{3-DNF} \\) \\( \\Phi \\), one can find a satisfying assignment for \\( \\Phi \\) in polynomial time.</p>\n\n<p>Which of the following statements are correct?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2023 | Part B | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statements \\( \\text{(S1), (S2)} \\), and \\( \\text{(S3)} \\) are all true.</p>",
+            "<p>Statements \\( \\text{(S1)} \\)&nbsp;and \\( \\text{(S2)} \\)&nbsp;are true, but statement \\( \\text{(S3)} \\)&nbsp;is not known to be true.</p>",
+            "<p>Statements \\( \\text{(S2)} \\)&nbsp;is true, but statements \\( \\text{(S1)} \\)&nbsp;and \\( \\text{(S3)} \\)&nbsp;are not known to be true.</p>",
+            "<p>Statements \\( \\text{(S1), (S2)} \\), and \\( \\text{(S3)} \\)&nbsp;are false.</p>",
+            "<p>Statements \\( \\text{(S1)} \\)&nbsp;and \\( \\text{(S3)} \\)&nbsp;are true, but \\( \\text{(S2)} \\)&nbsp;is not known to be true.</p>"
+          ],
+          "correct_answer": "<p>Statements \\( \\text{(S1), (S2)} \\), and \\( \\text{(S3)} \\) are all true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400144/tifr-cse-2023-part-b-question-14\" target=\"_blank\">https://gateoverflow.in/400144/tifr-cse-2023-part-b-question-14</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"473091\"></a><div itemprop=\"text\"><p>The complexity class \\( \\textsf{NP} \\) corresponds to the class of languages which can be accepted by some nondeterministic Turing machine in polynomial time.</p><p>The complexity class \\( \\textsf{coNP} \\) consists of all languages whose complement language is in the class \\( \\textsf{NP} \\).</p><p>A complexity class \\( \\mathcal{C} \\) is said to be closed under union if for any two languages \\( L_{1} \\) and \\( L_{2} \\) in \\( \\mathcal{C} \\), we also have that \\( L_{1} \\cup L_{2} \\in \\mathcal{C} \\). Similarly, we also say that a complexity class \\( \\mathcal{C} \\) is \\( closed\\;under\\;intersection \\)<em>&nbsp;</em>if for any two languages \\( L_{1} \\) and \\( L_{2} \\) in \\( \\mathcal{C} \\), we also have that \\( L_{1} \\cap L_{2} \\in \\mathcal{C} \\).</p><p>Consider the following statements.</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>The class \\( \\textsf{NP} \\) is closed under union.</li><li>The class \\( \\textsf{coNP} \\) is closed under union.</li><li>The class \\( \\textsf{NP} \\) is closed under intersection.</li><li>The class \\( \\textsf{coNP} \\) is closed under intersection.</li></ol><p>Which of the above statements are \\( \\text{TRUE}? \\)</p></div><br><br><b>Theory of Computation: TIFR CSE 2025 | Part B | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( \\text{(i)} \\) and \\( \\text{(iv)} \\)</p>",
+            "<p>Only \\( \\text{(ii)} \\) and \\( \\text{(iii)} \\)</p>",
+            "<p>Only \\( \\text{(i)} \\) and \\( \\text{(iii)} \\)</p>",
+            "<p>Only \\( \\text{(ii)} \\) and \\( \\text{(iv)} \\)</p>",
+            "<p>All of \\( \\text{(i), (ii), (iii)} \\), and \\( \\text{(iv)} \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473091/tifr-cse-2025-part-b-question-6\" target=\"_blank\">https://gateoverflow.in/473091/tifr-cse-2025-part-b-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

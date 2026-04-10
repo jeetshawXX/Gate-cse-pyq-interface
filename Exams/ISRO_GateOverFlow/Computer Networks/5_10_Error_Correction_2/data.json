@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Error Correction",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Error Correction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50634\"></a><div itemprop=\"text\"><p>The hamming distance between the octets of \\( \\textsf{0xAA} \\) and \\( \\textsf{0x55} \\) is</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2011 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50634/isro-cse-2011-question-48\" target=\"_blank\">https://gateoverflow.in/50634/isro-cse-2011-question-48</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435393\"></a><div itemprop=\"text\"><p>Which of the following is true?</p></div><br><br><b>Computer Networks: ISRO CSE 2023 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Parity and Cyclic Redundancy Check are error correcting codes</p>",
+            "<p>Both Parity and Low Density Parity Check Code are error correcting codes</p>",
+            "<p>Both Reed-Solomon code and Low Density Parity Check Code are error correcting codes</p>",
+            "<p>Both Cyclic Redundancy Check and Low Density Parity Check Code are error correcting codes<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Both Reed-Solomon code and Low Density Parity Check Code are error correcting codes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435393/isro-cse-2023-question-3\" target=\"_blank\">https://gateoverflow.in/435393/isro-cse-2023-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

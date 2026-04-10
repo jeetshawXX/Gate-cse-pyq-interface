@@ -1,0 +1,26 @@
+{
+  "title": "CO and Architecture - Compilation Phases",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Compilation Phases",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"154485\"></a><div itemprop=\"text\"><p>A compiler that runs on one machine and produces code for a different machine is called :</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2009 | Part 2 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Cross compilation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>One pass compilation&nbsp;&nbsp;&nbsp;</p>",
+            "<p>Two pass compilation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154485/ugc-net-cse-june-2009-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/154485/ugc-net-cse-june-2009-part-2-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

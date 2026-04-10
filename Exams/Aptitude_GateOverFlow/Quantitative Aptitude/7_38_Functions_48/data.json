@@ -1,0 +1,693 @@
+{
+  "title": "Quantitative Aptitude - Functions",
+  "duration": 133,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1229\"></a><div itemprop=\"text\"><p>The set of all positive integers is the union of two disjoint subsets \\( \\{f(1), f(2),\\dots ,f(n),\\dots\\} \\) and \\( \\{g(1), g(2),\\dots,g(n),\\dots\\}, \\) where \\( f(1) &lt; f(2) &lt;\\dots &lt; f(n) &lt; \\dots, \\) and \\( g(1) &lt; g(2) &lt;\\dots&lt; g(n) &lt; \\dots, \\) and \\( g(n) = f(f(n)) + 1 \\) for all \\( n \\geq&nbsp;1. \\) What is the value of \\( g(1)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 105</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Zero&nbsp;</p>",
+            "<p>Two</p>",
+            "<p>One&nbsp;</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1229/cat-2000-question-105\" target=\"_blank\">https://aptitude.gateoverflow.in/1229/cat-2000-question-105</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1231\"></a><div itemprop=\"text\"><p>For all non-negative integers \\( x \\) and \\( y, f(x, y) \\) is defined as below</p>\n\n<ul>\n\t<li>\\( f(0, y) = y + 1 \\)</li>\n\t<li>\\( f(x + 1, 0) = f(x, 1) \\)</li>\n\t<li>\\( f(x + 1,y + 1) = f(x, f(x + 1, y)) \\)</li>\n</ul>\n\n<p>Then, what is the value of&nbsp;\\( f(1, 2)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 107</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Two</p>",
+            "<p>Four</p>",
+            "<p>Three</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1231/cat-2000-question-107\" target=\"_blank\">https://aptitude.gateoverflow.in/1231/cat-2000-question-107</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1211\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nFor real numbers \\( x, y, \\) let</p>\n\n<p>\\( f(x, y) =&nbsp;\\left\\{\\begin{matrix} \\text{Positive square-root of}\\; (x + y),\\;\\text{if}\\; (x + y)^{0.5}\\;\\text{is real} \\\\&nbsp; (x + y)^2,\\;\\text{otherwise} \\end{matrix}\\right. \\)<br>\n\\( g(x, y) = \\left\\{\\begin{matrix}&nbsp;(x + y)^2,\\;\\text{if}\\; (x + y)^{0.5}\\;\\text{is real} \\\\&nbsp; –(x + y),\\;\\text{otherwise} \\end{matrix}\\right. \\)</p>\n\n<p>Which of the following expressions yields a positive value for every pair of non-zero real number \\( (x, y)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 75</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( f(x, y) – g(x, y) \\)</p>",
+            "<p>\\( f(x, y) – (g(x, y))^2 \\)</p>",
+            "<p>\\( g(x, y) – (f(x, y))^2 \\)</p>",
+            "<p>\\( f(x, y) + g(x, y) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1211/cat-2000-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/1211/cat-2000-question-75</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1755\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nFor real numbers \\( x, y, \\) let</p>\n\n<p>\\( f(x, y) =&nbsp;\\left\\{\\begin{matrix} \\text{Positive square-root of}\\; (x + y),\\;\\text{if}\\; (x + y)^{0.5}\\;\\text{is real} \\\\&nbsp; (x + y)^2,\\;\\text{otherwise} \\end{matrix}\\right. \\)<br>\n\\( g(x, y) = \\left\\{\\begin{matrix}&nbsp;(x + y)^2,\\;\\text{if}\\; (x + y)^{0.5}\\;\\text{is real} \\\\&nbsp; –(x + y),\\;\\text{otherwise} \\end{matrix}\\right. \\)</p>\n\n<p>Under which of the following conditions is \\( f(x, y) \\) necessarily greater than \\( g(x, y)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 76</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( x \\) and \\( y \\) are less than \\( –1 \\)</p>",
+            "<p>Both \\( x \\) and \\( y \\) are positive</p>",
+            "<p>Both \\( x \\) and \\( y \\) are negative</p>",
+            "<p>\\( y &gt; x \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1755/cat-2000-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/1755/cat-2000-question-76</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1212\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nFor three distinct real numbers \\( x, y \\) and \\( z, \\) let</p>\n\n<ul>\n\t<li>\\( f(x, y, z) = \\min(\\max(x, y), \\max(y, z), \\max(z, x)) \\)</li>\n\t<li>\\( g(x, y, z) = \\max(\\min(x, y), \\min(y, z), \\min(z, x)) \\)</li>\n\t<li>\\( h(x, y, z) = \\max(\\max(x, y), \\max(y, z), \\max(z, x)) \\)</li>\n\t<li>\\( j(x, y, z) = \\min(\\min(x, y), \\min(y, z), \\min(z, x)) \\)</li>\n\t<li>\\( m(x, y, z) = \\max(x, y, z) \\)</li>\n\t<li>\\( n(x, y, z) = \\min(x, y, z) \\)</li>\n</ul>\n\n<p>Which of the following is necessarily greater than \\( 1? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (h(x, y, z) – f(x, y, z))/j(x, y, z) \\)</p>",
+            "<p>\\( j(x, y, z)/h(x, y, z) \\)</p>",
+            "<p>\\( f(x, y, z)/g(x, y, z) \\)</p>",
+            "<p>\\( (f(x, y, z) + h(x, y, z) – g(x, y, z))/j(x, y, z) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1212/cat-2000-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/1212/cat-2000-question-77</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1753\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nFor three distinct real numbers \\( x, y \\) and \\( z, \\) let</p>\n\n<ul>\n\t<li>\\( f(x, y, z) = \\min(\\max(x, y), \\max(y, z), \\max(z, x)) \\)</li>\n\t<li>\\( g(x, y, z) = \\max(\\min(x, y), \\min(y, z), \\min(z, x)) \\)</li>\n\t<li>\\( h(x, y, z) = \\max(\\max(x, y), \\max(y, z), \\max(z, x)) \\)</li>\n\t<li>\\( j(x, y, z) = \\min(\\min(x, y), \\min(y, z), \\min(z, x)) \\)</li>\n\t<li>\\( m(x, y, z) = \\max(x, y, z) \\)</li>\n\t<li>\\( n(x, y, z) = \\min(x, y, z) \\)</li>\n</ul>\n\n<p>Which of the following expressions is necessarily equal to \\( 1? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 78</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (f(x, y, z) – m(x, y, z))/(g(x, y, z) – h(x, y, z)) \\)</p>",
+            "<p>\\( (m(x, y, z) – f(x, y, z))/(g(x, y, z) – n(x, y, z)) \\)</p>",
+            "<p>\\( (j(x, y, z) – g(x, y, z))/h(x, y, z) \\)</p>",
+            "<p>\\( (f(x, y, z) – h(x, y, z))/f(x, y, z) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1753/cat-2000-question-78\" target=\"_blank\">https://aptitude.gateoverflow.in/1753/cat-2000-question-78</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1754\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nFor three distinct real numbers \\( x, y \\) and \\( z, \\) let</p>\n\n<ul>\n\t<li>\\( f(x, y, z) = \\min(\\max(x, y), \\max(y, z), \\max(z, x)) \\)</li>\n\t<li>\\( g(x, y, z) = \\max(\\min(x, y), \\min(y, z), \\min(z, x)) \\)</li>\n\t<li>\\( h(x, y, z) = \\max(\\max(x, y), \\max(y, z), \\max(z, x)) \\)</li>\n\t<li>\\( j(x, y, z) = \\min(\\min(x, y), \\min(y, z), \\min(z, x)) \\)</li>\n\t<li>\\( m(x, y, z) = \\max(x, y, z) \\)</li>\n\t<li>\\( n(x, y, z) = \\min(x, y, z) \\)</li>\n</ul>\n\n<p>Which of the following expressions is indeterminate?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 79</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (f(x, y, z) – h(x, y, z))/(g(x, y, z) – j(x, y, z)) \\)</p>",
+            "<p>\\( (f(x, y, z) + h(x, y, z) + g(x, y, z) + j(x, y, z))/ (j(x, y, z) + h(x, y, z) – m(x, y, z) – n(x, y, z)) \\)</p>",
+            "<p>\\( (g(x, y, z) – j(x, y, z))/(f(x, y, z) – h(x, y, z)) \\)</p>",
+            "<p>\\( (h(x, y, z) – f(x, y, z))/(n(x, y, z) – g(x, y, z)) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1754/cat-2000-question-79\" target=\"_blank\">https://aptitude.gateoverflow.in/1754/cat-2000-question-79</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1214\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nGiven below is a graph made up of straight-line segments shown as thick lines. Choose the answer as</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>if \\( f(x) = 3 f(–x); \\)</li>\n\t<li>if \\( f(x) = –f(–x); \\)</li>\n\t<li>if \\( f(x) = f(–x); \\) and</li>\n\t<li>if \\( 3 f(x) = 6 f(–x), \\) for \\( x\\geq 0. \\)</li>\n</ol>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17821245940742905658\" width=\"300\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 82</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1214/cat-2000-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/1214/cat-2000-question-82</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1480\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>Given below is a graph made up of straight-line segments shown as thick lines. Choose the answer as</p><ol start=\"1\" style=\"list-style-type:lower-alpha\"><li>if \\( f(x) = 3 f(–x); \\)</li><li>if \\( f(x) = –f(–x); \\)</li><li>if \\( f(x) = f(–x); \\) and</li><li>if \\( 3 f(x) = 6 f(–x), \\) for \\( x\\geq 0. \\)</li></ol><p><img alt=\"\" width=\"350\" height=\"297\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8522471976373539177\"></p></div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1480/cat-2000-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/1480/cat-2000-question-83</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1481\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong><br>\nGiven below is a graph made up of straight-line segments shown as thick lines. Choose the answer as</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>if \\( f(x) = 3 f(–x); \\)</li>\n\t<li>if \\( f(x) = –f(–x); \\)</li>\n\t<li>if \\( f(x) = f(–x); \\) and</li>\n\t<li>if \\( 3 f(x) = 6 f(–x), \\) for \\( x\\geq 0. \\)</li>\n</ol>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5487772171254757388\" width=\"550\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 84</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1481/cat-2000-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/1481/cat-2000-question-84</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1216\"></a><div itemprop=\"text\"><p>Answer the following question based on the information given below.<br>\nFor a real number \\( x \\), let</p>\n\n<table border=\"0\" cellpadding=\"0\" style=\"width:355px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>f(x)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:165px\">\n\t\t\t<p>= 1/(1 + x),</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:121px\">\n\t\t\t<p>if x is non-negative</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td style=\"width:165px\">\n\t\t\t<p>= 1+ x,</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:121px\">\n\t\t\t<p>if x is negative</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>f\\( ^n \\)(x)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:165px\">\n\t\t\t<p>= f(f\\( ^{n – 1} \\)(x)), n = 2, 3, ....</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:121px\">&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What is the value of the product, \\( f(2)f^2(2)f^3(2)f^4(2)f^5(2) \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 87</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( \\frac{1}{18} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1216/cat-2000-question-87\" target=\"_blank\">https://aptitude.gateoverflow.in/1216/cat-2000-question-87</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1490\"></a><div itemprop=\"text\"><p>Answer the following question based on the information given below.<br>\nFor a real number \\( x, \\) let</p>\n\n<table border=\"1\" cellpadding=\"0\" style=\"width:355px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>f(x)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:165px\">\n\t\t\t<p>= 1/(1 + x),</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:121px\">\n\t\t\t<p>if x is non-negative</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td style=\"width:165px\">\n\t\t\t<p>= 1+ x,</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:121px\">\n\t\t\t<p>if x is negative</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p>f\\( ^n \\)(x)</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:165px\">\n\t\t\t<p>= f(f\\( ^{n – 1} \\)(x)), n = 2, 3, ....</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:121px\">&nbsp;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>\\( r \\) is an integer \\( \\geq 2. \\) Then what is the value of \\( f^{r-1}(-r) + f^r(-r)+f^{r+1}(-r) \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2000 | Question: 88</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1490/cat-2000-question-88\" target=\"_blank\">https://aptitude.gateoverflow.in/1490/cat-2000-question-88</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1083\"></a><div itemprop=\"text\"><p>If \\( f(x) = \\log(1+x)/(1-x)) \\), then \\( f(x)+f(y)= \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 68</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( f(x+y) \\)</p>",
+            "<p>\\( f(1+xy) \\)</p>",
+            "<p>\\( (x+y) \\: f(1+xy) \\)</p>",
+            "<p>\\( f (\\frac{x+y}{1+xy}) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1083/cat-2002-question-68\" target=\"_blank\">https://aptitude.gateoverflow.in/1083/cat-2002-question-68</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1013\"></a><div itemprop=\"text\"><p>The function \\( f(x) = |x-2| + |2.5-x| + |3.6-x| \\), where \\( x \\) is a real number, attains a minimum at</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( x=2.3 \\)</p>",
+            "<p>\\( x=2.5 \\)</p>",
+            "<p>\\( x=2.7 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1013/cat-2003-question-1-117\" target=\"_blank\">https://aptitude.gateoverflow.in/1013/cat-2003-question-1-117</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"856\"></a><div itemprop=\"text\"><p>If \\( f(x) = x^3 - 4x + p \\), and \\( f(0) \\) and \\( f(1) \\) are of opposite signs, then which of the following is necessarily true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( -1 &lt; p &lt; 2 \\)</p>",
+            "<p>\\( 0 &lt; p &lt; 3 \\)</p>",
+            "<p>\\( -2 &lt; p &lt; 1 \\)</p>",
+            "<p>\\( -3 &lt; p &lt; 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/856/cat-2004-question-47\" target=\"_blank\">https://aptitude.gateoverflow.in/856/cat-2004-question-47</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"868\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below:</p>\n\n<ul>\n\t<li>\\( f_{1}(x) = \\left\\{\\begin{matrix} x &amp;&nbsp;0 \\leq x \\leq 1 \\\\&nbsp; 1 &amp; x \\geq 1 \\\\&nbsp;0 &amp; \\text{otherwise}&nbsp;\\end{matrix}\\right. \\)&nbsp;&nbsp;</li>\n\t<li>\\( f_{2}(x) =&nbsp;&nbsp;f_{1}(-x) \\;\\;&nbsp;\\text{for all} \\; x  \\)</li>\n\t<li>\\( f_{3}(x) =&nbsp; -f_{2}(-x) \\;\\;&nbsp;\\text{for all} \\; x  \\)</li>\n\t<li>\\( f_{4}(x) =&nbsp;&nbsp;f_{3}(-x) \\;\\;&nbsp;\\text{for all} \\; x  \\)</li>\n</ul>\n\n<p>&nbsp;How many of the following products are necessarily zero for every&nbsp;\\( x: f_1(x)f_2(x), \\: f_2(x)f_3(x), \\: f_2(x)f_4(x) \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 61</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/868/cat-2004-question-61\" target=\"_blank\">https://aptitude.gateoverflow.in/868/cat-2004-question-61</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"8766\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below:</p>\n\n<ul>\n\t<li>\\( f_{1}(x) = \\left\\{\\begin{matrix} x &amp;&nbsp;0 \\leq x \\leq 1 \\\\&nbsp; 1 &amp; x \\geq 1 \\\\&nbsp;0 &amp; \\text{otherwise}&nbsp;\\end{matrix}\\right. \\)&nbsp;&nbsp;</li>\n\t<li>\\( f_{2}(x) =&nbsp;&nbsp;f_{1}(-x) \\;\\;&nbsp;\\text{for all} \\; x  \\)</li>\n\t<li>\\( f_{3}(x) =&nbsp; -f_{2}(-x) \\;\\;&nbsp;\\text{for all} \\; x  \\)</li>\n\t<li>\\( f_{4}(x) =&nbsp;&nbsp;f_{3}(-x) \\;\\;&nbsp;\\text{for all} \\; x  \\)</li>\n</ul>\n\n<p>&nbsp;Which of the following is necessarily true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 62</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( f_4(x) = f_1(x) \\: \\text{for all }\\;x \\)</p>",
+            "<p>\\( f_1(x) = f_3(-x) \\: \\text{for all }\\;x \\)</p>",
+            "<p>\\( f_2(-x) = f_4(x) \\: \\text{for all }\\;x \\)</p>",
+            "<p>\\( f_1(x) + f_3(x) = 0 \\: \\text{for all }\\;x \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8766/cat-2004-question-62\" target=\"_blank\">https://aptitude.gateoverflow.in/8766/cat-2004-question-62</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"774\"></a><div itemprop=\"text\"><p>Let \\( g(x) \\) be a function such that \\( g(x+1) +g(x-1) = g(x) \\) for every real \\( x. \\) Then for what value of \\( p \\) is the relation \\( g(x+p)=g(x) \\) necessarily true for every real \\( x? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/774/cat-2005-question-27\" target=\"_blank\">https://aptitude.gateoverflow.in/774/cat-2005-question-27</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"602\"></a><div itemprop=\"text\"><p>A function \\( f(x)  \\) satisfies \\( f(1)=3600 \\) and \\( f(1)+f(2)+ \\dots + f(n) = n^2 f(n) \\), for all positive integers \\( n&gt;1. \\)&nbsp;What is the value of \\( f(9)? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 240 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 120 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/602/cat-2007-question-25\" target=\"_blank\">https://aptitude.gateoverflow.in/602/cat-2007-question-25</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"513\"></a><div itemprop=\"text\"><p>Let \\( f(x)  \\) be a function satisfying \\( f(x) f(y) =f(xy) \\) for all real \\( x, y \\). If \\( f(2)=4 \\), then what is the value of \\( f\\left(\\frac{1}{2}\\right) \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\frac{1}{4} \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/513/cat-2008-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/513/cat-2008-question-13</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"5018\"></a><div itemprop=\"text\"><p>Let \\( f \\) be an injective map with domain&nbsp;\\( \\left \\{ x, y, z \\right \\} \\) and the range&nbsp;\\( \\left \\{ 1, 2, 3 \\right \\} \\) such that exactly one of the following statements is correct and the remaining are false.&nbsp;\\( f\\left \\{x \\right \\}=1,f\\left ( y \\right )\\neq 1,f\\left ( z \\right )\\neq 2. \\) The value of&nbsp;\\( f^{-1}\\left ( 1 \\right ) \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( x \\)</p>",
+            "<p>\\( y \\)</p>",
+            "<p>\\( z \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5018/cat-2010-question-16\" target=\"_blank\">https://aptitude.gateoverflow.in/5018/cat-2010-question-16</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"5534\"></a><div itemprop=\"text\"><p>The graphs given alongside represent two functions \\( f(x)\\:\\text{and}\\:g(x) \\) respectively. Which of the following is true?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10005802559550351549\" width=\"300\">&nbsp; &nbsp; &nbsp;&nbsp;<img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16328217665669191595\" width=\"300\">&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( g(x)=[f(x)] \\)</p>",
+            "<p>\\( g(x)=f(-x) \\)</p>",
+            "<p>\\( g(x)=-f(x) \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5534/cat-2011-question-17\" target=\"_blank\">https://aptitude.gateoverflow.in/5534/cat-2011-question-17</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"5530\"></a><div itemprop=\"text\"><p>Consider the function given by \\( f(x) =\\mid&nbsp;x-1\\mid-x \\)</p>\n\n<p>Which of the following is not true about the graph of \\( f(x) \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A portion of the graph is parallel to the line \\( y = 25 \\).</p>",
+            "<p>A portion of graph is in 2nd&nbsp;quadrant.</p>",
+            "<p>Some portion of graph lies in 1st&nbsp;quadrant.</p>",
+            "<p>Some portion of graph lies in 3rd&nbsp;quadrant.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5530/cat-2011-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/5530/cat-2011-question-21</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"5547\"></a><div itemprop=\"text\"><p>\\( \\begin{array}{}Let\\;f_{n+1}(x)&amp;=f_n(x)+1\\;\\text{if  \\)n\\(  is a multiple of 3}\\\\ &amp;=f_n(x)-1\\;\\text{otherwise.}\\end{array} \\)</p>\n\n<p>If \\( f_1(1)=0 \\), then what is \\( f_{50}(1) \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( -18 \\)</p>",
+            "<p>\\( -16 \\)</p>",
+            "<p>\\( -17 \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5547/cat-2011-question-4\" target=\"_blank\">https://aptitude.gateoverflow.in/5547/cat-2011-question-4</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"5319\"></a><div itemprop=\"text\"><p>If \\( g(x)=p\\mid&nbsp;x&nbsp;\\mid-qx^2 \\), where \\( p \\) and \\( q \\) are constants, then at \\( x=0, g(x) \\) will be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>maximum when \\( p&gt;0,q&gt;0 \\)</p>",
+            "<p>minimum when \\( p&lt;0,q&lt;0 \\)</p>",
+            "<p>minimum when \\( p&gt;0,q&lt;0 \\)</p>",
+            "<p>maximum when \\( p&gt;0,q&lt;0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5319/cat-2013-question-23\" target=\"_blank\">https://aptitude.gateoverflow.in/5319/cat-2013-question-23</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"5313\"></a><div itemprop=\"text\"><p>Let \\( f(x)= \\dfrac{1}{1+x^2} \\) and \\( g(x)=\\dfrac{e^{−x}}{1+[x]} \\), where \\( [x] \\) is the greatest integer less than or equal to \\( x \\). Then which of the following domain is true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>domain of \\( (f+g)=R-(-2,-1] \\)</li>\n\t<li>domain of \\( (f+g)=R-[-1,0) \\)</li>\n\t<li>\\( [\\text{range of f}] \\cap [\\text{range of g}]=\\bigg[-2, \\dfrac{1}{2} \\bigg] \\)</li>\n\t<li>\\( [\\text{range of f}] \\cap [\\text{range of g}]= \\bigg[- \\dfrac{1}{2},\\dfrac{1}{2} \\bigg]-\\{0\\} \\)</li>\n</ol>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both II and IV</p>",
+            "<p>Both I and III</p>",
+            "<p>Both&nbsp;I and IV</p>",
+            "<p>Both II and III</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5313/cat-2013-question-29\" target=\"_blank\">https://aptitude.gateoverflow.in/5313/cat-2013-question-29</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"910\"></a><div itemprop=\"text\"><p>If \\( y = f(x) \\) and \\( f(x) = (1 - x) / (1 + x) \\), which of the following is true?&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( f(2x) = f(x) – 1 \\)&nbsp;</li>\n\t<li>\\( x = f(2y) - 1 \\)&nbsp;</li>\n\t<li>\\( f(1/x) = f(x) \\)&nbsp;</li>\n\t<li>\\( x = f(y) \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/910/cat-2014-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/910/cat-2014-question-11</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"920\"></a><div itemprop=\"text\"><p>Use the following information for next two questions: A function \\( f(x) \\) is said to be even if \\( f(-x) = f(x) \\), and odd if \\( f(-x) = -f(x) \\). Thus, for example, the function given by \\( f(x)=x^{2} \\) is even, while the function given by \\( f(x)=x^{3} \\) is odd. Using this definition, answer the following questions.</p>\n\n<p>The function given by \\( f(x) = |x|^{3} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>even&nbsp;</p>",
+            "<p>odd&nbsp;</p>",
+            "<p>neither&nbsp;</p>",
+            "<p>both</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/920/cat-2014-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/920/cat-2014-question-32</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"1558\"></a><div itemprop=\"text\"><p><strong>Use the following information for next two questions:</strong></p>\n\n<p>&nbsp;A function \\( f(x) \\) is said to be even if \\( f(-x) = f(x) \\), and odd if \\( f(-x) = -f(x) \\). Thus, for example, the function given by \\( f(x)=x^{2} \\) is even, while the function given by \\( f(x)=x^{3} \\) is odd. Using this definition, answer the following questions.</p>\n\n<p>The sum of two odd functions&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>is always an even function</p>",
+            "<p>is always an odd function&nbsp;</p>",
+            "<p>is sometimes odd and sometimes even</p>",
+            "<p>may be neither odd nor even</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1558/cat-2014-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/1558/cat-2014-question-33</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"938\"></a><div itemprop=\"text\"><p>A quadratic function \\( ƒ(x) \\) attains a maximum of \\( 3 \\) at \\( x = 1 \\). The value of the function at \\( x = 0 \\) is \\( 1 \\). What is the value \\( ƒ(x) \\) at \\( x = 10 \\)?&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( –119 \\)&nbsp;</li>\n\t<li>\\( –159 \\)&nbsp;</li>\n\t<li>\\( –110 \\)&nbsp;</li>\n\t<li>\\( –180 \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/938/cat-2014-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/938/cat-2014-question-50</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"5571\"></a><div itemprop=\"text\"><p>The set of all positive integers is the union of two disjoint subsets\\( :\\left \\{ f\\left ( 1 \\right ),f\\left ( 2 \\right ), \\dots, f\\left ( n \\right ), \\dots \\right \\} \\) and&nbsp;\\( \\left \\{ g\\left ( 1 \\right ),g\\left ( 2 \\right ), \\dots, g\\left ( n \\right ), \\dots \\right \\} \\), where&nbsp;\\( f\\left ( 1 \\right )&lt; f\\left ( 2 \\right )&lt; \\dots &lt; f \\left ( n \\right )&nbsp;\\dots, \\) and&nbsp;\\( g\\left ( 1 \\right )&lt; g \\left ( 2 \\right )&lt; \\dots &lt; g\\left ( n \\right )&nbsp;\\dots, \\) and\\( g\\left ( n \\right )= f\\left ( f\\left ( n \\right ) \\right )+1 \\) for all&nbsp;\\( n \\geq 1 \\). What is the value of&nbsp;\\( g\\left ( 1 \\right )? \\)&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 81</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5571/cat-2015-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/5571/cat-2015-question-81</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"5570\"></a><div itemprop=\"text\"><p>For all non-negative integers \\( x \\) and \\( y \\), \\( f(x,y) \\)&nbsp;is defined as below.</p>\n\n<ul>\n\t<li>\\( f( 0,y) = y+1 \\)</li>\n\t<li>\\( f(x+1,0) = f( x, 1) \\)</li>\n\t<li>\\( f( x+1, y+1) = f\\left( x,f( x+1,y) \\right) \\)</li>\n</ul>\n\n<p>Then what is the value of \\( f(1,2) \\) ________</p></div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 82</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5570/cat-2015-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/5570/cat-2015-question-82</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"5695\"></a><div itemprop=\"text\"><p>\\( A, S, M \\) and \\( D \\) are functions of \\( x \\) and \\( y \\), and they are defined as follows.</p>\n\n<ul style=\"list-style-type:square\">\n\t<li>\\( A(x, y) = x + y \\)</li>\n\t<li>\\( M(x, y) = xy \\)</li>\n\t<li>\\( S(x,y)= x-y \\)</li>\n\t<li>\\( D(x,y)= x/y, y\\neq 0 \\)</li>\n</ul>\n\n<p>What is the value of \\( M(M(A(M(x, y), S(y, x)), x), A(y, x)) \\) for \\( x = 2, y = 3 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 140 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 70 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 70 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5695/cat-2016-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/5695/cat-2016-question-73</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"5755\"></a><div itemprop=\"text\"><p>If&nbsp;\\( f( x)=\\dfrac{5x+2}{&nbsp;3x-5} \\)&nbsp;and&nbsp;\\( g( x )=x^{2}-2x-1, \\) then the value of&nbsp;\\( g( f( f( 3 ) ) ) \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1/3 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 2/3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5755/cat-2017-set-1-question-99\" target=\"_blank\">https://aptitude.gateoverflow.in/5755/cat-2017-set-1-question-99</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"5852\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( f\\left ( x \\right )=x^{2} \\) and&nbsp;\\( g\\left ( x \\right )=2^{x} \\), for all real \\( x \\). Then the value of&nbsp;\\( &nbsp;&nbsp;f \\left ( f\\left ( g\\left ( x \\right ) \\right )+g\\left( f\\left ( x \\right ) \\right ) \\right) \\) &nbsp;at \\( x=1 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 36 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5852/cat-2017-set-2-question-89\" target=\"_blank\">https://aptitude.gateoverflow.in/5852/cat-2017-set-2-question-89</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"5844\"></a><div itemprop=\"text\"><p>If&nbsp;\\( f\\left ( ab \\right )=f\\left ( a \\right )f\\left ( b \\right ) \\) for all positive integers \\( a \\) and \\( b \\), then the largest possible value of \\( f\\left (1\\right ) \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5844/cat-2017-set-2-question-97\" target=\"_blank\">https://aptitude.gateoverflow.in/5844/cat-2017-set-2-question-97</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"5843\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( f\\left ( x \\right )=2x-5 \\) and&nbsp;\\( g\\left ( x \\right )=7-2x. \\) Then&nbsp;\\( &nbsp;\\mid f\\left ( x \\right ) + g\\left ( x \\right ) \\mid=\\mid f(x) \\mid + \\mid g\\left ( x \\right ) \\mid \\) if and only if&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5/2&lt;x&lt;7/2 \\)</p>",
+            "<p>\\( x\\leq 5/2 \\) or \\( x\\geq 7/2 \\)</p>",
+            "<p>\\( x&lt; 5/2 \\) or \\( x\\geq 7/2 \\)</p>",
+            "<p>\\( 5/2\\leq x\\leq 7/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5/2\\leq x\\leq 7/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5843/cat-2017-set-2-question-98\" target=\"_blank\">https://aptitude.gateoverflow.in/5843/cat-2017-set-2-question-98</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"6018\"></a><div itemprop=\"text\">If \\( f(x+2)=f(x)+f(x+1) \\) for all positive integers \\( x \\), and \\( f(11)=91,f(15)=617 \\), then \\( f(10) \\) equals ________</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "54",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6018/cat-2018-set-1-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/6018/cat-2018-set-1-question-93</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"5424\"></a><div itemprop=\"text\">For any positive integer \\( n \\), let \\( f(n)=n(n+1) \\) if n is even, and \\( f(n)=n+3 \\) if n is odd. &nbsp;if \\( m \\) is a positive integer such that \\( 8f(m+1)-f(m)=2 \\), then \\( m \\) equals _______</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5424/cat-2019-set-1-question-87\" target=\"_blank\">https://aptitude.gateoverflow.in/5424/cat-2019-set-1-question-87</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"5421\"></a><div itemprop=\"text\">Consider a function \\( f \\) satisfying \\( f(x+y)=f(x)f(y) \\) where \\( x,y \\) are positive integers, and \\( f(1)=2 \\). If \\( f(a+1)+f(a+2)+\\ldots +f(a+n)=16(2^{n}-1) \\) then \\( a \\) is equal to ______</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5421/cat-2019-set-1-question-90\" target=\"_blank\">https://aptitude.gateoverflow.in/5421/cat-2019-set-1-question-90</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"6157\"></a><div itemprop=\"text\">Let \\( f \\) be a function such that \\( f (mn) = f (m) f (n) \\) for every positive integers \\( m \\)<br>\nand \\( n \\). If \\( f (1), f (2) \\) and \\( f (3) \\) are positive integers, \\( f (1) &lt; f (2), \\) and \\( f (24) = 54 \\), then \\( f<br>\n(18) \\) equals _______</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6157/cat-2019-set-2-question-95\" target=\"_blank\">https://aptitude.gateoverflow.in/6157/cat-2019-set-2-question-95</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"7953\"></a><div itemprop=\"text\"><p>If&nbsp;\\( f\\left ( 5+x \\right )= f\\left ( 5-x \\right ) \\) for every real \\( x, \\) and&nbsp;\\( f\\left ( x \\right )=0 \\) has four distinct real roots, then the sum of these roots is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7953/cat-2020-set-1-question-68\" target=\"_blank\">https://aptitude.gateoverflow.in/7953/cat-2020-set-1-question-68</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"8028\"></a><div itemprop=\"text\"><p>Let \\( f(x) = x^{2} + ax + b  \\) and \\( g(x) = f(x+1) –&nbsp;f(x-1). \\) If \\(  f(x)&nbsp;\\geq 0  \\) for all real \\( x, \\) and \\(  g(20) = 72, \\) then the smallest possible value of \\( b \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8028/cat-2020-set-2-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/8028/cat-2020-set-2-question-72</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"8120\"></a><div itemprop=\"text\"><p>If \\(  f(x+y) = f(x) f(y)  \\) and \\(  f(5) = 4, \\) then \\(  f(10) –&nbsp;f(-10)  \\) is equal to&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 15.9375 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 14.0625 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15.9375 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8120/cat-2020-set-3-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/8120/cat-2020-set-3-question-58</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"8373\"></a><div itemprop=\"text\"><p>\\( f(x) = \\dfrac{x^{2} + 2x – 15}{x^{2} – 7x – 18} \\) is negative if and only if</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  – 2 &lt; x &lt; 3 \\; \\text{or} \\; x &gt; 9  \\)</p>",
+            "<p>\\(  x &lt; – 5 \\; \\text{or} \\; 3 &lt; x &lt; 9  \\)</p>",
+            "<p>\\(  – 5 &lt; x &lt; – 2 \\; \\text{or} \\; 3 &lt; x &lt; 9  \\)</p>",
+            "<p>\\(  x &lt; – 5 \\; \\text{or} \\; – 2 &lt; x &lt; 3  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  – 5 &lt; x &lt; – 2 \\; \\text{or} \\; 3 &lt; x &lt; 9  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8373/cat-2021-set-1-quantitative-aptitude-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/8373/cat-2021-set-1-quantitative-aptitude-question-8</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"8438\"></a><div itemprop=\"text\"><p>For all real values of \\( x, \\) the range of the function \\( f(x) = \\dfrac{x^{2} + 2x + 4}{2x^{2} + 4x + 9} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\left(\\frac{3}{7}, \\frac{1}{2} \\right) \\)</p>",
+            "<p>\\(  \\left[\\frac{3}{7}, \\frac{1}{2} \\right) \\)</p>",
+            "<p>\\(  \\left[\\frac{3}{7}, \\frac{8}{9} \\right) \\)</p>",
+            "<p>\\(  \\left[\\frac{4}{9}, \\frac{8}{9} \\right] \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  \\left[\\frac{3}{7}, \\frac{1}{2} \\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8438/cat-2021-set-2-quantitative-aptitude-question-15\" target=\"_blank\">https://aptitude.gateoverflow.in/8438/cat-2021-set-2-quantitative-aptitude-question-15</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"8507\"></a><div itemprop=\"text\"><p>If \\( f(x) = x^{2} –&nbsp;7x \\) and \\( g(x) = x + 3, \\) then the minimum value of \\( f(g(x)) –&nbsp;3x \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  -16 \\)</p>",
+            "<p>\\(  -15 \\)</p>",
+            "<p>\\(  -20 \\)</p>",
+            "<p>\\(  -12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  -16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8507/cat-2021-set-3-quantitative-aptitude-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/8507/cat-2021-set-3-quantitative-aptitude-question-12</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"300\"></a><div itemprop=\"text\"><p>If f (x) = minimum of (3x + 5, 10 - 2x), what is the maximum possible value of f (x)?</p><ol><li>1</li><li>3</li><li>6</li><li>8</li></ol></div><br><br><b>Quantitative Aptitude: If f(x) = minimum of (3x + 5, 10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/300/if-f-minimum-of-3x-5-10-2x-what-is-the-maximum-possible-value-of\" target=\"_blank\">https://aptitude.gateoverflow.in/300/if-f-minimum-of-3x-5-10-2x-what-is-the-maximum-possible-value-of</a></p>"
+        }
+      ]
+    }
+  ]
+}

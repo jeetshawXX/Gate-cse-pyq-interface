@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Application_Layer_Protocols - Application_Layer_Protocols - Slot 2",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Application_Layer_Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In one of the pairs of protocols given below, both the protocols can use multiple TCP connections between the same client and the server. Which one is that? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP, FTP</p>",
+            "<b>B.</b> <p>HTTP, TELNET</p>",
+            "<b>C.</b> <p>FTP, SMTP</p>",
+            "<b>D.</b> <p>HTTP, SMTP</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>HTTP, FTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8214/gate2015-1-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose you are browsing the world wide web using a web browser and trying to access the web servers. What is the underlying protocol and port number that are being used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>UDP, 80</p>",
+            "<b>B.</b> <p>TCP, 80</p>",
+            "<b>C.</b> <p>TCP, 25</p>",
+            "<b>D.</b> <p>UDP, 25</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP, 80</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55009/isro2014-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A graphical HTML browser resident at a network client machine Q accesses a static HTML\nwebpage from a HTTP server S. The static HTML page has exactly one static embedded\nimage which is also at S. Assuming no caching, which one of the following is correct about\nthe HTML webpage loading (including the embedded image)? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q needs to send at least 2 HTTP requests to S, each necessarily in a separate TCP\nconnection to server S</p>",
+            "<b>B.</b> <p>Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient</p>",
+            "<b>C.</b> <p>A single HTTP request from Q to S is sufficient, and a single TCP connection between Q and S is necessary for this</p>",
+            "<b>D.</b> <p>A single HTTP request from Q to S is sufficient, and this is possible without any TCP connection between Q and S</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1987/gate2014-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Identify the correct order in which the following actions take place in an interaction between\na web browser and a web server. <br>\n1. The web browser requests a webpage using HTTP. <br>\n2. The web browser establishes a TCP connection with the web server. <br>\n3. The web server sends the requested webpage using HTTP.<br>\n4. The web browser resolves the domain name using DNS. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4,2,1,3</p>",
+            "<b>B.</b> <p>1,2,3,4</p>",
+            "<b>C.</b> <p>4,1,2,3</p>",
+            "<b>D.</b> <p>2,4,1,3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4,2,1,3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1792/gate2014-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A packet filtering firewall can <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deny certain users from accessing a service</p>",
+            "<b>B.</b> <p>Block worms and viruses from entering the network</p>",
+            "<b>C.</b> <p>Disallow some files from being accessed through FTP</p>",
+            "<b>D.</b> <p>Block some hosts from accessing the network</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Block some hosts from accessing the network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43986/isro-2013-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The protocol data unit (PDU) for the application layer in the Internet stack is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Segment</p>",
+            "<b>B.</b> <p>Datagram</p>",
+            "<b>C.</b> <p>Message</p>",
+            "<b>D.</b> <p>Frame</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Message</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/42/gate2012-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>HTML (Hyper Text Markup Language) has language elements which permit\ncertain actions other than describing the structure of the web document. Which\none of the following actions is NOT supported by pure HTML (without any server\nor client side scripting) pages? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Embed web objects from different sites into the same page</p>",
+            "<b>B.</b> <p>Refresh the page automatically after a specified interval</p>",
+            "<b>C.</b> <p>Automatically redirect to another page upon download</p>",
+            "<b>D.</b> <p>Display the client time as part of the page</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Display the client time as part of the page</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2111/gate2011-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider different activities related to email. <br><br>\nm1: Send an email from a mail client to a mail server <br>\nm2: Download an email from mailbox server to a mail client <br>\nm3: Checking email in a web browser <br><br>\nWhich is the application level protocol used in each activity? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m1:HTTP m2:SMTP m3:POP</p>",
+            "<b>B.</b> <p>m1:SMTP m2:FTP m3:HTTP</p>",
+            "<b>C.</b> <p>m1: SMTP m2: POP m3: HTTP</p>",
+            "<b>D.</b> <p>m1: POP m2: SMTP m3:IMAP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>m1: SMTP m2: POP m3: HTTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2106/gate2011-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which one of the following is not a client server application? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Internet chat</p>",
+            "<b>B.</b> <p>Web browsing</p>",
+            "<b>C.</b> <p>E-mail</p>",
+            "<b>D.</b> <p>Ping</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Ping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2189/gate2010-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of these is not a feature of WAP 2.0 <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Push and Pull Model</p>",
+            "<b>B.</b> <p>Interface to a storage device</p>",
+            "<b>C.</b> <p>Multimedia messaging</p>",
+            "<b>D.</b> <p>Hashing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Hashing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49631/isro2007-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>HELO and PORT, respectively, are commands from the protocols: <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FTP and HTTP</p>",
+            "<b>B.</b> <p>TELNET and POP3</p>",
+            "<b>C.</b> <p>HTTP and TELNET</p>",
+            "<b>D.</b> <p>SMTP and FTP</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>SMTP and FTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3557/gate2006-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Traceroute reports a possible route that is taken by packets moving from some host A to some other host B. Which of the following options represents the technique used by traceroute to identify these hosts: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router</p>",
+            "<b>B.</b> <p>By requiring each router to append the address to the ICMP packet as it is forwarded to B. The list of all routers en-route to B is returned by B in an ICMP reply packet</p>",
+            "<b>C.</b> <p>By ensuring that an ICMP reply packet is returned to A by each router en-route to B, in the ascending order of their hop distance from A</p>",
+            "<b>D.</b> <p>By locally computing the shortest path from A to B</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3772/gate2005-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the three commands : PROMPT, HEAD and RCPT.\nWhich of the following options indicate a correct association of these commands with protocols where these are used? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP, SMTP, FTP</p>",
+            "<b>B.</b> <p>FTP, HTTP, SMTP</p>",
+            "<b>C.</b> <p>HTTP, FTP, SMTP</p>",
+            "<b>D.</b> <p>SMTP, HTTP, FTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>FTP, HTTP, SMTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3770/gate2005-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following statements:<br><br>\nI. telnet, ftp and http are application layer protocols.<br>\nII. EJB (Enterprise Java Beans) components can be deployed in a J2EE (Java2 Enterprise Edition) application server.<br>\nIII. If two languages conform to the Common Language Specification (CLS) of the Microsoft.NET frame work, then a class defined in any one of them may be inherited in the other.<br><br>\nWhich statements are true? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3673/gate2004-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

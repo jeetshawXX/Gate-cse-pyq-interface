@@ -1,0 +1,262 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Bars Charts",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Bars Charts",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3817\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16269874631863053291\" width=\"500\"></p>\n\n<p>Which year showed the greatest percentage increase in profit as compared to the previous year?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 146</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1993 \\)&nbsp;</p>",
+            "<p>\\( 1994 \\)&nbsp;</p>",
+            "<p>\\( 1990 \\)&nbsp;</p>",
+            "<p>\\( 1992 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3817/cat-1996-question-146\" target=\"_blank\">https://aptitude.gateoverflow.in/3817/cat-1996-question-146</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3818\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" height=\"363\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16269874631863053291\"></p><p>The average revenue collected in the given seven years is approximately:</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 147</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 164 \\)&nbsp;lakh</p>",
+            "<p>Rs. \\( 168 \\)&nbsp;lakh&nbsp;</p>",
+            "<p>Rs. \\( 171 \\)&nbsp;lakh</p>",
+            "<p>Rs. \\( 175 \\)&nbsp;lakh</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3818/cat-1996-question-147\" target=\"_blank\">https://aptitude.gateoverflow.in/3818/cat-1996-question-147</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3819\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" height=\"363\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16269874631863053291\"></p><p>In which year was the growth in expenditure greatest as compared to the previous year?</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 148</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1993 \\)&nbsp;</p>",
+            "<p>\\( 1995 \\)&nbsp;</p>",
+            "<p>\\( 1991 \\)&nbsp;</p>",
+            "<p>\\( 1992 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3819/cat-1996-question-148\" target=\"_blank\">https://aptitude.gateoverflow.in/3819/cat-1996-question-148</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3820\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" height=\"363\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16269874631863053291\"></p><p>The expenditure for the seven years together forms what percent of the revenues during the same period?</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 149</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 75 \\)%</p>",
+            "<p>\\( 67 \\)%</p>",
+            "<p>\\( 62 \\)%</p>",
+            "<p>\\( 83 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3820/cat-1996-question-149\" target=\"_blank\">https://aptitude.gateoverflow.in/3820/cat-1996-question-149</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3821\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"500\" height=\"363\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16269874631863053291\"></p><p>If the profit in 1996 shows the same annual rate of growth as it had shown in 1995 over the previous year, then what approximately will be the profit in 1996?</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 150</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. 72 lakh</p>",
+            "<p>Rs. 86 lakh</p>",
+            "<p>Rs. 93 lakh</p>",
+            "<p>Rs. 78 lakh</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3821/cat-1996-question-150\" target=\"_blank\">https://aptitude.gateoverflow.in/3821/cat-1996-question-150</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3607\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the following graph.</strong><br>The graph given below gives the yearly details of money invested in producing a certain product over the years 1991 to 1995. It also gives the profit (in ‘000 rupees).</p><p><img alt=\"\" width=\"700\" height=\"324\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15727311465742456641\"></p><p>The maximum decrease in profit occurred between the years.</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 167</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1991–92</p>",
+            "<p>1993–94</p>",
+            "<p>1992–93</p>",
+            "<p>1994–95</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3607/cat-1997-question-167\" target=\"_blank\">https://aptitude.gateoverflow.in/3607/cat-1997-question-167</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3608\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the following graph.</strong><br>The graph given below gives the yearly details of money invested in producing a certain product over the years 1991 to 1995. It also gives the profit (in ‘000 rupees).</p><p style=\"text-align:center\"><img alt=\"\" width=\"700\" height=\"324\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15727311465742456641\"></p><p>The difference between the amount spent on raw material and wages was the least in</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 168</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1991</p>",
+            "<p>1992</p>",
+            "<p>1993</p>",
+            "<p>1995</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3608/cat-1997-question-168\" target=\"_blank\">https://aptitude.gateoverflow.in/3608/cat-1997-question-168</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3609\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the following graph.</strong><br>The graph given below gives the yearly details of money invested in producing a certain product over the years 1991 to 1995. It also gives the profit (in ‘000 rupees).</p><p style=\"text-align:center\"><img alt=\"\" width=\"700\" height=\"324\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15727311465742456641\"></p><p>The average profit, in lakhs of rupees, over the five-year period was approximately</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 169</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>10</p>",
+            "<p>19</p>",
+            "<p>13</p>",
+            "<p>28</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3609/cat-1997-question-169\" target=\"_blank\">https://aptitude.gateoverflow.in/3609/cat-1997-question-169</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3610\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the following graph.</strong><br>The graph given below gives the yearly details of money invested in producing a certain product over the years 1991 to 1995. It also gives the profit (in ‘000 rupees).</p><p><img alt=\"\" width=\"700\" height=\"324\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15727311465742456641\"></p><p>In which year was the amount spent on raw material per unit wage cost the maximum?</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 170</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1992</p>",
+            "<p>1993</p>",
+            "<p>1995</p>",
+            "<p>1994</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3610/cat-1997-question-170\" target=\"_blank\">https://aptitude.gateoverflow.in/3610/cat-1997-question-170</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3611\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the following graph.</strong><br>The graph given below gives the yearly details of money invested in producing a certain product over the years 1991 to 1995. It also gives the profit (in ‘000 rupees).</p><p><img alt=\"\" width=\"700\" height=\"324\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15727311465742456641\"></p><p>The maximum percentage increase in sales revenue between any two successive years was:</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 171</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>27</p>",
+            "<p>45</p>",
+            "<p>34</p>",
+            "<p>60</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3611/cat-1997-question-171\" target=\"_blank\">https://aptitude.gateoverflow.in/3611/cat-1997-question-171</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3612\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the following graph.</strong><br>The graph given below gives the yearly details of money invested in producing a certain product over the years 1991 to 1995. It also gives the profit (in ‘000 rupees).</p><p style=\"text-align:center\"><img alt=\"\" width=\"700\" height=\"324\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15727311465742456641\"></p><p>Which cost component has remained relatively stable over the five years?</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 172</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Raw material</p>",
+            "<p>Interest</p>",
+            "<p>Wages</p>",
+            "<p>Overheads</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3612/cat-1997-question-172\" target=\"_blank\">https://aptitude.gateoverflow.in/3612/cat-1997-question-172</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1716\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p>\n\n<p>The bar chart shows the revenue received, in million US Dollars (USD), from subscribers to a particular Internet service. The data covers the period \\( 2003-2007 \\) for the Unites States (US) and Europe. The bar chart also shows the estimated revenues from subscription to this service for the period \\( 2008 – 2010. \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=18342886898148410517\" width=\"600\"></p>\n\n<p>The difference between the estimated subscription in Europe in \\( 2008 \\) and what it would have been if it were computed using the percentage growth rate of \\( 2007\\;&nbsp;( \\)over \\( 2006), \\) is closest to:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2008 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1716/cat-2008-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/1716/cat-2008-question-37</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"219\"></a><div itemprop=\"text\"><p>A student walks to the bus stop to catch a bus to the university. He then walks from the bus stop at the university to the students union arriving there at \\( 8:35 \\; \\text{am.} \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17735349966318895445\" width=\"350\"></p>\n\n<p>&nbsp;</p>\n\n<p>How far does the student walk in total?</p>\n\n<ol>\n\t<li>\\( 1 \\; \\text{Km} \\)</li>\n\t<li>\\( 2 \\; \\text{Km} \\)</li>\n\t<li>\\( 3 \\; \\text{Km} \\)</li>\n\t<li>\\( 4 \\; \\text{Km} \\)</li>\n\t<li>\\( 5 \\; \\text{Km} \\)</li>\n</ol>\n\n<p>How far is he from university student's union at \\( 8:20 \\; \\text{am}? \\)</p>\n\n<ol>\n\t<li>\\( 1 \\; \\text{Km} \\)</li>\n\t<li>\\( 2 \\; \\text{Km} \\)</li>\n\t<li>\\( 3 \\; \\text{Km} \\)</li>\n\t<li>\\( 4 \\; \\text{Km} \\)</li>\n\t<li>\\( 5 \\; \\text{Km} \\)</li>\n</ol>\n\n<p>What is the average speed of the bus?</p>\n\n<ol>\n\t<li>\\( 14 \\; \\text{Kmph} \\)</li>\n\t<li>\\( 24 \\; \\text{Kmph} \\)</li>\n\t<li>\\( 40 \\; \\text{Kmph} \\)</li>\n\t<li>\\( 48 \\; \\text{Kmph} \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: How far does the student walk in total?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/219/how-far-does-the-student-walk-in-total\" target=\"_blank\">https://aptitude.gateoverflow.in/219/how-far-does-the-student-walk-in-total</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"244\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1168810835075020744\" style=\"width: 600px; height: 164px;\"></p>\n\n<p>If between 1987 and 2007 the trend for fashion ties had been the same as for cravats, how many fashion ties would have been sold in 2007?</p>\n\n<ol>\n\t<li>72600</li>\n\t<li>72100</li>\n\t<li>71300</li>\n\t<li>70500</li>\n\t<li>69200</li>\n</ol>\n\n<p>For all types of tie together, what is the percentage decline between 2002 and 2007? (to nearest five percent. Clip ons and Cravats are types of tie)</p>\n\n<ol>\n\t<li>15%</li>\n\t<li>20%</li>\n\t<li>25%</li>\n\t<li>30%</li>\n\t<li>35%</li>\n</ol>\n\n<p>What is the approximate absolute change in percentage market share for fashion tie between 1987 and 2007?</p>\n\n<ol>\n\t<li>15%</li>\n\t<li>20%</li>\n\t<li>25%</li>\n\t<li>30%</li>\n\t<li>35%</li>\n</ol>\n\n<p>If the average retail price for silk ties in 2002 was&nbsp;£ 17.50 plus value added Tax at 17.5% what was the total value of silk Ties sold in 2002? ( to nearest&nbsp;£1000)</p>\n\n<ol>\n\t<li>£372,000</li>\n\t<li>£382,000</li>\n\t<li>£392,000</li>\n\t<li>£402,000</li>\n\t<li>£412.000</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: If between 1987 and 2007 the trend for fashion ties had been the same as for cravats, how many fashion ties would have been sold in 2007?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/244/between-trend-fashion-cravats-fashion-would-been-sold-2007\" target=\"_blank\">https://aptitude.gateoverflow.in/244/between-trend-fashion-cravats-fashion-would-been-sold-2007</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"236\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"600\" height=\"208\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7982796399735896754\"></p><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"Table and Pie chart diagram\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10794678768706656155\"></p><p>What was the largest number of students in any year that went on to further study?</p><ol><li>561</li><li>576</li><li>585</li><li>592</li><li>Can't Say&nbsp;</li></ol><p>What was the decrease in the number of graduates in employment between 2002 and 2004?</p><ol><li>125</li><li>135</li><li>140</li><li>180</li><li>Can't Say</li></ol><p>In 2004 how many social science students were in employment after graduating?</p><ol><li>260</li><li>272</li><li>284</li><li>290</li><li>Can't Say</li></ol></div><br><br><b>Quantitative Aptitude: What was the largest number of students in any year that went on to further study?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/236/what-was-largest-number-students-year-that-went-further-study\" target=\"_blank\">https://aptitude.gateoverflow.in/236/what-was-largest-number-students-year-that-went-further-study</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"243\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1863757958973206580\" style=\"width: 562px; height: 181px;\"></p>\n\n<p>What was the population of Botsibia (millions) in 2006?</p>\n\n<ol>\n\t<li>14.5</li>\n\t<li>15.5</li>\n\t<li>16.5</li>\n\t<li>17.5</li>\n\t<li>18.5</li>\n</ol>\n\n<p>How many million cars were there in Korgolia in 2001?</p>\n\n<ol>\n\t<li>9.2</li>\n\t<li>9.7</li>\n\t<li>10.2</li>\n\t<li>10.7</li>\n\t<li>11.2</li>\n</ol>\n\n<p>Which country had the greatest percentage change in the numbers of cars per person between 2001 and 2006?</p>\n\n<ol>\n\t<li>Normark</li>\n\t<li>Serbistan</li>\n\t<li>Botsibia</li>\n\t<li>Velumbia</li>\n\t<li>Korgolia</li>\n</ol>\n\n<p>If in 2001 the ratio of cars per person in Velumbia had been the same as that of Normark, how many cars would there be in Velumbia?</p>\n\n<ol>\n\t<li>6.65M</li>\n\t<li>6.75M</li>\n\t<li>6.85M</li>\n\t<li>6.95M</li>\n\t<li>7.05M</li>\n</ol></div><br><br><b>Quantitative Aptitude: What was the population of Botsibia (millions) in 2006 ?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/243/what-was-the-population-of-botsibia-millions-in-2006\" target=\"_blank\">https://aptitude.gateoverflow.in/243/what-was-the-population-of-botsibia-millions-in-2006</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"249\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6943791326033378383\" width=\"600\"></p>\n\n<p>Which company had the widest range of share prices over the 5&nbsp;years?</p>\n\n<ol>\n\t<li>Pilemin Airlines</li>\n\t<li>RentaBanga</li>\n\t<li>Rupt Bank</li>\n\t<li>Cash Casinos</li>\n\t<li>Stackem Supermarts</li>\n</ol>\n\n<div>Which year had the widest range of Share prices?</div>\n\n<ol>\n\t<li>2002</li>\n\t<li>2003</li>\n\t<li>2004</li>\n\t<li>2005</li>\n\t<li>2006</li>\n</ol>\n\n<div>Between 2002 and 2006 what was the approximate total change in share prices for all companies?</div>\n\n<ol>\n\t<li>-15%</li>\n\t<li>-5%</li>\n\t<li>5%</li>\n\t<li>+15%</li>\n\t<li>+25%</li>\n</ol>\n\n<div>If the proportional change in share price for pilemin Airlines had been the same as that for Rupt bank between 2002 and 2006 what would have been the value of Pilemin Airlines shares in 2006?</div>\n\n<ol>\n\t<li>3.31</li>\n\t<li>3.81</li>\n\t<li>4.31</li>\n\t<li>4.81</li>\n\t<li>5.31</li>\n</ol>\n\n<div>If in 2006-07, the average share price changes by the same percentage as the percentage of average share price increase between 2002 and 2003 for all these companies, what will be the change in average share price for all these companies between 2006 &amp; 2007?</div>\n\n<ol>\n\t<li>11 p</li>\n\t<li>15 p</li>\n\t<li>19 p</li>\n\t<li>23 p</li>\n\t<li>27 p</li>\n</ol>\n\n<div>&nbsp;</div>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: Which company had the widest range of share prices over the 5 years?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/249/which-company-had-the-widest-range-share-prices-over-the-years\" target=\"_blank\">https://aptitude.gateoverflow.in/249/which-company-had-the-widest-range-share-prices-over-the-years</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"218\"></a><div itemprop=\"text\"><p><img alt=\"\" width=\"600\" height=\"295\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16112850868906664388\"></p><p>Which company's sales were most consistent throughout the year?&nbsp;</p><ol><li>Hole in Roof</li><li>Hot House</li><li>Stone's Throw</li><li>Leaky Windows</li><li>Frying Tonight</li></ol><p>In which month did the sales of Hole in Roof and Stones' Throw differ the most?</p><ol><li>January</li><li>March</li><li>July</li><li>August</li><li>October</li></ol><p>Which month gave the largest number of sales for all the companies combined?</p><ol><li>April</li><li>May</li><li>June</li><li>July</li><li>August</li></ol><p>What was the percentage increase in sales for Hot House between July and August?</p><ol><li>20</li><li>30</li><li>40</li><li>50</li><li>60</li></ol></div><br><br><b>Quantitative Aptitude: Which company's sales were most consistent throughout the year?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/218/which-companys-sales-were-most-consistent-throughout-year\" target=\"_blank\">https://aptitude.gateoverflow.in/218/which-companys-sales-were-most-consistent-throughout-year</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"242\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5393897482719777512\" width=\"600\"></p>\n\n<p>The graph above gives the number of computers sold each month (in thousands) by three different computer Manufacturer \\( 1 \\) (in red), Manufacturer \\( 2 \\) (in blue) and Manufacturer \\( 3 \\) (in yellow).</p>\n\n<p>Which month showed the largest total decrease in PC sales over the previous month?</p>\n\n<ol>\n\t<li>March</li>\n\t<li>April</li>\n\t<li>May&nbsp;</li>\n\t<li>June&nbsp;</li>\n\t<li>July</li>\n</ol>\n\n<p>What percentage of manufacturer 2' s sales were made in April ( to the nearest percent)</p>\n\n<ol>\n\t<li>16</li>\n\t<li>22</li>\n\t<li>27</li>\n\t<li>33</li>\n\t<li>38</li>\n</ol>\n\n<p>If the average profit made on each PC sold by manufacturer 3 over all 5 months was 78 pounds what was the total profit in pounds on all sales in this period by that manufacturer?</p>\n\n<ol>\n\t<li>650,400</li>\n\t<li>820,700</li>\n\t<li>980,300</li>\n\t<li>1,095,600</li>\n\t<li>1,177,800</li>\n</ol></div><br><br><b>Quantitative Aptitude: Which month showed the largest total decrease in PC sales over the previous month?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/242/which-month-showed-largest-total-decrease-sales-previous-month\" target=\"_blank\">https://aptitude.gateoverflow.in/242/which-month-showed-largest-total-decrease-sales-previous-month</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - Alpha Cut",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Alpha Cut",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316184\"></a><div itemprop=\"text\"><p>Let \\( A_{\\alpha_0} \\) denotes the \\( \\alpha \\)-cut of a fuzzy set \\( A \\) at \\( \\alpha_0 \\). If \\( \\alpha_1 &lt; \\alpha_2 \\), then</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2019 | Part 2 | Question: 95</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A_{\\alpha_1} \\supseteq A_{\\alpha_2} \\)</p>",
+            "<p>\\( A_{\\alpha_1} \\supset&nbsp;A_{\\alpha_2} \\)</p>",
+            "<p>\\( A_{\\alpha_1} \\subseteq A_{\\alpha_2} \\)</p>",
+            "<p>\\( A_{\\alpha_1} \\subset&nbsp;A_{\\alpha_2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A_{\\alpha_1} \\supseteq A_{\\alpha_2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316184/ugc-net-cse-june-2019-part-2-question-95\" target=\"_blank\">https://gateoverflow.in/316184/ugc-net-cse-june-2019-part-2-question-95</a></p>"
+        }
+      ]
+    }
+  ]
+}

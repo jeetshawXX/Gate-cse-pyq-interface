@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Effective Memory Access",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Effective Memory Access",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"99957\"></a><div itemprop=\"text\"><p>Suppose it takes \\( 100 \\) ns to access a page table and \\( 20 \\) ns to access associative memory with a \\( 90 \\)%&nbsp;hit rate, the average access time equals :</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2009 | Part 2 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 28 \\)&nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 20 \\)&nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 90 \\)&nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 100 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/99957/ugc-net-cse-june-2009-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/99957/ugc-net-cse-june-2009-part-2-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

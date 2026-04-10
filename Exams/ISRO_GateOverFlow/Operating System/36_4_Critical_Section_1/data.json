@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Critical Section",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Critical Section",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128764\"></a><div itemprop=\"text\"><p>A critical region</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2017 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is a piece of code which only one process executes at a time</p>",
+            "<p>is a region prone to deadlock</p>",
+            "<p>is a piece of code which only a finite number of processes execute</p>",
+            "<p>is found only in windows NT operating system</p>"
+          ],
+          "correct_answer": "<p>is a piece of code which only one process executes at a time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128764/isro-cse-2017-question-68\" target=\"_blank\">https://gateoverflow.in/128764/isro-cse-2017-question-68</a></p>"
+        }
+      ]
+    }
+  ]
+}

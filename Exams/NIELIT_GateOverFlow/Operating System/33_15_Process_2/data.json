@@ -1,0 +1,41 @@
+{
+  "title": "Operating System - Process",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Process",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373777\"></a><div itemprop=\"text\"><p>Consider three processes, all arriving at time zero, with total execution time of \\( 10, 20 \\) and \\( 30\\; \\text{units,} \\) respectively. Each process spends the first \\( 20 \\% \\) of execution time doing \\( \\text{I/O}, \\) the next \\( 70 \\% \\) of time doing computation, and the last \\( 10 \\% \\) of time doing \\( \\text{I/O} \\) again. The operating system uses a shortest remaining compute time first scheduling algorithm and schedules a new process either when the running process gets blocked on \\( \\text{I/O} \\) or when the running process finishes its compute burst. Assume that all \\( \\text{I/O} \\) operations can be overlapped as much as possible. For what percentage of time does the \\( \\text{CPU} \\) remain idle?</p>\n\n</div><br><br><b>Operating System: NIELIT 2022 April Scientist B | Section B | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\% \\)</p>",
+            "<p>\\( 10.6 \\% \\)</p>",
+            "<p>\\( 30.0 \\% \\)</p>",
+            "<p>\\( 89.4 \\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10.6 \\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373777/nielit-2022-april-scientist-b-section-b-question-61\" target=\"_blank\">https://gateoverflow.in/373777/nielit-2022-april-scientist-b-section-b-question-61</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351596\"></a><div itemprop=\"text\"><p>In an operating system, processes that are terminated but, for some reason must have its task structure in the process table are referred as __________.</p>\n\n</div><br><br><b>Operating System: NIELIT Scientist B 2020 November: 86</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Zombies</p>",
+            "<p>Orphans</p>",
+            "<p>Parent Process</p>",
+            "<p>Child Process</p>"
+          ],
+          "correct_answer": "<p>Zombies</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351596/nielit-scientist-b-2020-november-86\" target=\"_blank\">https://gateoverflow.in/351596/nielit-scientist-b-2020-november-86</a></p>"
+        }
+      ]
+    }
+  ]
+}

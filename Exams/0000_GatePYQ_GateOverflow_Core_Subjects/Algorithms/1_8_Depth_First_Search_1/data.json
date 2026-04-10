@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Depth First Search",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Depth First Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"422928\"></a><div itemprop=\"text\"><p>​​​​​Consider a state space where the start state is number \\( 1 \\). The successor function for the state numbered \\( n \\) returns two states numbered \\( n+1 \\) and \\( n+2 \\). Assume that the states in the unexpanded state list are expanded in the ascending order of numbers and the previously expanded states are not added to the unexpanded state list.<br><br>Which ONE of the following statements about breadth-first search (BFS) and depth-first search (DFS) is true, when reaching the goal state number \\( 6 \\)?</p><p>&nbsp;</p></div><br><br><b>GATE DS&AI 2024 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>BFS expands more states than DFS.</p>",
+            "<p>DFS expands more states than BFS.</p>",
+            "<p>Both BFS and DFS expand equal number of states.</p>",
+            "<p>Both BFS and DFS do not reach the goal state number \\( 6 \\).</p>"
+          ],
+          "correct_answer": "<p>Both BFS and DFS expand equal number of states.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422928/gate-ds&ai-2024-question-34\" target=\"_blank\">https://gateoverflow.in/422928/gate-ds&ai-2024-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

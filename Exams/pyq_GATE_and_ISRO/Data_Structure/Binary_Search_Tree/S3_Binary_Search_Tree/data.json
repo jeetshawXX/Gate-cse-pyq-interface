@@ -1,0 +1,116 @@
+{
+  "title": "Binary_Search_Tree - Binary_Search_Tree - Slot 3",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Binary_Search_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>How many distinct binary search trees can be created out of 4 distinct keys? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>42</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1371/gate2005-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Postorder traversal of a given binary search tree, T produces the following sequence of keys <br><br>\n10, 9, 23, 22, 27, 25, 15, 50, 95, 60, 40, 29 <br><br>\nWhich one of the following sequences of keys can be the result of an in-order traversal of the tree T? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9, 10, 15, 22, 23, 25, 27, 29, 40, 50, 60, 95</p>",
+            "<b>B.</b> <p>9, 10, 15, 22, 40, 50, 60, 95, 23, 25, 27, 29</p>",
+            "<b>C.</b> <p>29, 15, 9, 10, 25, 22, 23, 27, 40, 60, 50, 95</p>",
+            "<b>D.</b> <p>95, 50, 60, 40, 27, 23, 22, 25, 10, 9, 15, 29</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>9, 10, 15, 22, 23, 25, 27, 29, 40, 50, 60, 95</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1369/gate2005-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5,\n15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf\nnode from the root)? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1001/gate2004-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an\ninitially empty binary search tree. The binary search tree uses the usual ordering\non natural numbers. What is the inorder transversal sequence of the resultant tree ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7 5 1 0 3 2 4 6 8 9</p>",
+            "<b>B.</b> <p>0 2 4 3 1 6 5 9 8 7</p>",
+            "<b>C.</b> <p>0 1 2 3 4 5 6 7 8 9</p>",
+            "<b>D.</b> <p>9 8 6 4 2 3 0 1 5 7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0 1 2 3 4 5 6 7 8 9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/909/gate2003-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let T(n) be the number of different binary search trees on n distinct elements. <br>Then \\(T(n)=\\sum_{k=1}^{n}T(k-1)T(x)\\),\n<br>where \\(x\\) is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-k+1</p>",
+            "<b>B.</b> <p>n-k</p>",
+            "<b>C.</b> <p>n-k-1</p>",
+            "<b>D.</b> <p>n-k-2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/897/gate2003-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A binary search tree contains the value 1,2,3,4,5,6,7,8. The tree is traversed in pre-order and the values are printed out. Which of the following sequences is a valid output? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 3 1 2 4 7 8 6</p>",
+            "<b>B.</b> <p>5 3 1 2 6 4 8 7</p>",
+            "<b>C.</b> <p>5 3 2 4 1 6 7 8</p>",
+            "<b>D.</b> <p>5 3 1 2 4 7 6 8</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5 3 1 2 4 7 6 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2246/gate1997-4-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A binary search tree is generated by inserting in order the following integers: <br>\n50,15,62,5,20,58,91,3,8,37,60,24<br>\nThe number of nodes in the left subtree and right subtree of the root respectively is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(4,7)</p>",
+            "<b>B.</b> <p>(7,4)</p>",
+            "<b>C.</b> <p>(8,3)</p>",
+            "<b>D.</b> <p>(3,8)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(7,4)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2743/gate1996-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

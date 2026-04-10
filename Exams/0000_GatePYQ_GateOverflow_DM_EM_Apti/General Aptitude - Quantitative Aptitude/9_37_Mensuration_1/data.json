@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Mensuration",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Mensuration",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"461028\"></a><div itemprop=\"text\"><p>​​​A rectangle has a length \\( L \\) and a width \\( W, \\)&nbsp; where \\( \\mathrm{L}&gt;\\mathrm{W} \\). If the width, \\( W, \\) is increased by \\( 10 \\% \\), which one of the following statements is correct for all values of \\( L \\) and \\( W? \\)</p></div><br><br><b>GATE DA 2025 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Perimeter increases by \\( 10 \\% \\).</p>",
+            "<p>Length of the diagonals increases by \\( 10 \\% \\).</p>",
+            "<p>Area increases by \\( 10 \\% \\).</p>",
+            "<p>The rectangle becomes a square.</p>"
+          ],
+          "correct_answer": "<p>Area increases by \\( 10 \\% \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461028/gate-da-2025-ga-question-5\" target=\"_blank\">https://gateoverflow.in/461028/gate-da-2025-ga-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

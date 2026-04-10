@@ -1,0 +1,432 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Time Complexity",
+  "duration": 80,
+  "sections": [
+    {
+      "name": "Time Complexity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"94363\"></a><div itemprop=\"text\"><p>Given below is the sketch of a program that represents the path in a two-person game tree by the sequence of active procedure calls at any time. The program assumes that the payoffs are real number in a limited range; that the constant INF is larger than any positive payoff and its negation is smaller than any negative payoff and that there is a function “payoff” and that computes the payoff for any board that is a leaf. The type “boardtype” has been suitably declared to represent board positions. It is player-\\( 1 \\)’s move if mode = MAX and player-\\( 2 \\)’s move if mode=MIN. The type modetype = (MAX, MIN). The functions “min” and “max” find the minimum and maximum of two real numbers.</p><pre class=\"prettyprint lang-c_cpp\">function search(B: boardtype; mode: modetype): real;\n    var\n        C:boardtype; {a child of board B}\n        value:real;\n    begin\n        if B is a leaf then\n            return (payoff(B))\n        else\n            begin\n            if mode = MAX then value :=-INF\n            else\n                value:INF;\n            for each child C of board B do\n            if mode = MAX then\n                value:=max (value, search (C, MIN))\n            else\n                value:=min(value, search(C, MAX))\n            return(value)\n            end\n    end; (search)</pre><p>Comment on the working principle of the above program. Suggest a possible mechanism for reducing the amount of search.</p></div><br><br><b>GATE CSE 1988 | Question: 6i</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94363/gate-cse-1988-question-6i\" target=\"_blank\">https://gateoverflow.in/94363/gate-cse-1988-question-6i</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"87080\"></a><div itemprop=\"text\">Match the pairs in the following:\\[ \\begin{array}{|ll|ll|}\\hline \\text{(A)} &amp; \\text{\\( O (\\log n) \\)} &amp; \\text{(p)} &amp; \\text{Heapsort} \\\\\\hline &nbsp;\\text{(B)} &amp; \\text{\\( O (n) \\)} &amp; \\text{(q)}&amp; \\text{Depth-first search} \\\\\\hline &nbsp;&nbsp;\\text{(C)}&amp; \\text{\\( O (n \\log n) \\)} &amp; \\text{(r)} &nbsp;&amp; \\text{Binary search} \\\\\\hline &nbsp;\\text{(D)} &amp; \\text{\\( O (n^2) \\)} &amp;\\text{(s)} &nbsp;&amp; \\text{Selection of the \\( k^{th} \\) smallest element} \\\\&amp; \\text{} &amp; &amp; \\text{in a set of n elements} &nbsp;&nbsp;&nbsp;\\\\\\hline \\end{array} \\]</div><br><br><b>GATE CSE 1989 | Question: 2-iii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/87080/gate-cse-1989-question-2-iii\" target=\"_blank\">https://gateoverflow.in/87080/gate-cse-1989-question-2-iii</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2305\"></a><div itemprop=\"text\"><p>\\( \\displaystyle \\sum_{1\\leq k\\leq n} O(n) \\), where \\( O(n) \\) stands for order \\( n \\) is:</p>\n\n</div><br><br><b>GATE CSE 1993 | Question: 8.7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( O(n^3) \\)</p>",
+            "<p>\\( O(3n^2) \\)</p>",
+            "<p>\\( O(1.5n^2) \\)</p>"
+          ],
+          "correct_answer": "B;C;D;E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2305/gate-cse-1993-question-8-7\" target=\"_blank\">https://gateoverflow.in/2305/gate-cse-1993-question-8-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1466\"></a><div itemprop=\"text\"><p>Suppose we want to arrange the \\( n \\) numbers stored in any array such that all negative values occur before all positive ones. Minimum number of exchanges required in the worst case is</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>\\( n+1 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1466/gate-cse-1999-question-1-13\" target=\"_blank\">https://gateoverflow.in/1466/gate-cse-1999-question-1-13</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1469\"></a><div itemprop=\"text\"><p>If \\( n \\) is a power of \\( 2 \\), then the minimum number of multiplications needed to compute \\( a^n \\) is</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\log_2 n \\)</p>",
+            "<p>\\( \\sqrt n \\)</p>",
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\log_2 n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1469/gate-cse-1999-question-1-16\" target=\"_blank\">https://gateoverflow.in/1469/gate-cse-1999-question-1-16</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1510\"></a><div itemprop=\"text\"><p>Consider the following algorithms. Assume, procedure \\( A \\) and procedure \\( B \\) take \\( O (1) \\) and \\( O(1/n) \\) unit of time respectively. Derive the time complexity of the algorithm in \\( O \\)-notation.</p>\n\n<pre class=\"prettyprint lang-c_cpp\" style=\"line-height: 20.7999992370605px;\">algorithm what (n)      \nbegin \n    if n = 1 then call A \n    else \n        begin\n            what (n-1);\n            call B(n)\n        end\nend.</pre></div><br><br><b>GATE CSE 1999 | Question: 11a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1510/gate-cse-1999-question-11a\" target=\"_blank\">https://gateoverflow.in/1510/gate-cse-1999-question-11a</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"638\"></a><div itemprop=\"text\"><p>Let \\( S \\) be a sorted array of \\( n \\) integers. Let \\( T(n) \\) denote the time taken for the most efficient algorithm to determined if there are two elements with sum less than \\( 1000 \\) in \\( S \\). Which of the following statement is true?</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 1.15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T (n) \\) is \\( O(1) \\)</p>",
+            "<p>\\( n \\leq &nbsp;T(n) \\leq n \\log_2 n \\)</p>",
+            "<p>\\( n \\log_2 n&nbsp;≤ T(n)&nbsp;&lt; \\frac{n}{2} \\)</p>",
+            "<p>\\( T(n) = \\left (\\frac{n}{2} \\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T (n) \\) is \\( O(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/638/gate-cse-2000-question-1-15\" target=\"_blank\">https://gateoverflow.in/638/gate-cse-2000-question-1-15</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"258\"></a><div itemprop=\"text\"><p>The cube root of a natural number \\( n \\) is defined as the largest natural number \\( m \\) such that \\( (m^3 \\leq n) \\) . The complexity of computing the cube root of \\( n \\) (\\( n \\) is represented by binary notation) is&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\) but not \\( O(n^{0.5}) \\)</p>",
+            "<p>\\( O(n^{0.5}) \\) but not \\( O((\\log n)^k) \\) for any constant \\( k&gt;0 \\)</p>",
+            "<p>\\( O((\\log n)^k) \\) for some constant \\( k&gt;0 \\), but not \\( O( (\\log \\log n)^m) \\) for any constant \\( m&gt;0 \\)</p>",
+            "<p>\\( O( (\\log \\log n)^k ) \\) for some constant \\( k &gt; 0.5 \\), but not \\( O( (\\log \\log n)^{0.5} ) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O((\\log n)^k) \\) for some constant \\( k&gt;0 \\), but not \\( O( (\\log \\log n)^m) \\) for any constant \\( m&gt;0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/258/gate-cse-2003-question-66\" target=\"_blank\">https://gateoverflow.in/258/gate-cse-2003-question-66</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1036\"></a><div itemprop=\"text\"><p>Two matrices \\( M_1 \\) and \\( M_2 \\) are to be stored in arrays \\( A \\) and \\( B \\) respectively. Each array can be stored either in row-major or column-major order in contiguous memory locations. The time complexity of an algorithm to compute \\( M_1 \\times M_2 \\) will be</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>best if \\( A \\) is in row-major, and \\( B \\) is in column-major order</p>",
+            "<p>best if both are in row-major order</p>",
+            "<p>best if both are in column-major order</p>",
+            "<p>independent of the storage scheme</p>"
+          ],
+          "correct_answer": "<p>independent of the storage scheme</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1036/gate-cse-2004-question-39\" target=\"_blank\">https://gateoverflow.in/1036/gate-cse-2004-question-39</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1076\"></a><div itemprop=\"text\"><p>Let \\( A[1,\\ldots,n] \\) be an array storing a bit (\\( 1 \\) or \\( 0 \\)) at each location, and \\( f(m) \\) is a function whose time complexity is \\( \\Theta(m) \\). Consider the following program fragment written in a C like language:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">counter = 0;\nfor (i=1; i&lt;=n; i++)\n{ \n    if (a[i] == 1) counter++;\n    else {f (counter); counter = 0;}\n}</pre>\n\n<p>The complexity of this program fragment is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Omega(n^2) \\)</p>",
+            "<p>\\( \\Omega (n\\log n) \\text{ and } O(n^2) \\)</p>",
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( o(n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1076/gate-cse-2004-question-82\" target=\"_blank\">https://gateoverflow.in/1076/gate-cse-2004-question-82</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"976\"></a><div itemprop=\"text\"><p>Consider the following C-program fragment in which&nbsp;\\( i \\), \\( j \\) and \\( n \\) are integer&nbsp;variables.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\"> for( i = n, j = 0; i &gt; 0; i /= 2, j +=i );</pre>\n\n<p>Let \\( val(j) \\) denote the value stored in the variable \\( j \\) after termination of the&nbsp;for loop. Which one of the following is true?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( val(j)=\\Theta(\\log n) \\)</p>",
+            "<p>\\( val(j)=\\Theta (\\sqrt{n}) \\)</p>",
+            "<p>\\( val(j)=\\Theta( n) \\)</p>",
+            "<p>\\( val(j)=\\Theta (n\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( val(j)=\\Theta( n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/976/gate-cse-2006-question-15\" target=\"_blank\">https://gateoverflow.in/976/gate-cse-2006-question-15</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"56129\"></a><div itemprop=\"text\"><p>Consider the following segment of C-code:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int j, n;\nj = 1;\nwhile (j &lt;= n)\n    j = j * 2;</pre>\n\n<p>The number of comparisons made in the execution of the loop for any \\( n &gt; 0 \\) is:</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 15, ISRO2016-26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\lceil \\log_2n \\rceil +1 \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>\\( \\lceil \\log_2n \\rceil \\)</p>",
+            "<p>\\( \\lfloor \\log_2n \\rfloor +1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\lfloor \\log_2n \\rfloor +1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56129/gate-cse-2007-question-15-isro2016-26\" target=\"_blank\">https://gateoverflow.in/56129/gate-cse-2007-question-15-isro2016-26</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1243\"></a><div itemprop=\"text\"><p>What is the \\( \\text{time complexity} \\) of the following recursive function?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int  DoSomething (int n) {\n    if (n &lt;= 2)\n        return 1;\n    else \n        return (DoSomething (floor (sqrt(n))) + n);\n}\n</pre>\n\n</div><br><br><b>GATE CSE 2007 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n^2) \\)</p>",
+            "<p>\\( \\Theta(n \\log_2n) \\)</p>",
+            "<p>\\( \\Theta(\\log_2n) \\)</p>",
+            "<p>\\( \\Theta(\\log_2\\log_2n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(\\log_2\\log_2n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1243/gate-cse-2007-question-45\" target=\"_blank\">https://gateoverflow.in/1243/gate-cse-2007-question-45</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1248\"></a><div itemprop=\"text\"><p>An array of \\( n \\) numbers is given, where \\( n \\) is an even number. The maximum as well as the minimum of these \\( n \\) numbers needs to be determined. Which of the following is <strong>TRUE</strong> about the number of comparisons needed?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>At least \\( 2n-c \\) comparisons, for some constant&nbsp;\\( c \\)&nbsp;are needed.</p>",
+            "<p>At most&nbsp;\\( 1.5n-2 \\) comparisons are needed.</p>",
+            "<p>At least \\( n\\log_2 n \\) comparisons are needed</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>At most&nbsp;\\( 1.5n-2 \\) comparisons are needed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1248/gate-cse-2007-question-50\" target=\"_blank\">https://gateoverflow.in/1248/gate-cse-2007-question-50</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1249\"></a><div itemprop=\"text\"><p>Consider the following C program segment:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int IsPrime (n)\n    {\n        int i, n;\n        for (i=2; i&lt;=sqrt(n);i++)\n            if(n%i == 0)\n                {printf(\"Not Prime \\n\"); return 0;}\n        return 1;\n    }\n</pre>\n\n<p>Let \\( T(n) \\) denote number of times the \\( for \\) loop is executed by the program on input \\( n \\). Which of the following is TRUE?<br>\n&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T(n) = O(\\sqrt{n}) \\: \\text{ and } T(n) = \\Omega(\\sqrt{n}) \\)</p>",
+            "<p>\\( T(n) = O(\\sqrt{n}) \\: \\text{ and } T(n) = \\Omega(1) \\)</p>",
+            "<p>\\( T(n) = O(n) \\: \\text{ and } T(n) = \\Omega(\\sqrt{n}) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( T(n) = O(\\sqrt{n}) \\: \\text{ and } T(n) = \\Omega(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1249/gate-cse-2007-question-51\" target=\"_blank\">https://gateoverflow.in/1249/gate-cse-2007-question-51</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"452\"></a><div itemprop=\"text\"><p>The minimum number of comparisons required to determine if an integer appears more than \\( \\frac{n}{2} \\) times in a sorted array of \\( n \\) integers is</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(\\log n) \\)</p>",
+            "<p>\\( \\Theta(\\log^*n) \\)</p>",
+            "<p>\\( \\Theta(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/452/gate-cse-2008-question-40\" target=\"_blank\">https://gateoverflow.in/452/gate-cse-2008-question-40</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"459\"></a><div itemprop=\"text\"><p>We have a binary heap on \\( n \\) elements and wish to insert \\( n \\) more elements (not necessarily one after another) into this heap. The total time required for this is</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(\\log n) \\)</p>",
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n\\log n) \\)</p>",
+            "<p>\\( \\Theta(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/459/gate-cse-2008-question-47\" target=\"_blank\">https://gateoverflow.in/459/gate-cse-2008-question-47</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"495\"></a><div itemprop=\"text\"><p>Consider the following C functions:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f1 (int n)\n{\n    if(n == 0 || n == 1)\n        return n;\n    else\n        return (2 * f1(n-1) + 3 * f1(n-2));\n}\nint f2(int n)\n{\n    int i;\n    int X[N], Y[N], Z[N];\n    X[0] = Y[0] = Z[0] = 0;\n    X[1] = 1; Y[1] = 2; Z[1] = 3;\n    for(i = 2; i &lt;= n; i++){\n        X[i] = Y[i-1] + Z[i-2];\n        Y[i] = 2 * X[i];\n        Z[i] = 3 * X[i];\n    }\n    return X[n];\n}</pre>\n\n<p>The running time of \\( f1(n) \\) and \\( f2(n) \\) are</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n) \\) and&nbsp;\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(2^n) \\)&nbsp;and&nbsp;\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n) \\) and&nbsp;\\( \\Theta(2^n) \\)</p>",
+            "<p>\\( \\Theta(2^n) \\) and&nbsp;\\( \\Theta(2^n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(2^n) \\)&nbsp;and&nbsp;\\( \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/495/gate-cse-2008-question-74\" target=\"_blank\">https://gateoverflow.in/495/gate-cse-2008-question-74</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"43489\"></a><div itemprop=\"text\"><p>Consider the following C functions:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f1 (int n)\n{\n    if(n == 0 || n == 1)\n        return n;\n    else\n        return (2 * f1(n-1) + 3 * f1(n-2));\n}\nint f2(int n)\n{\n    int i;\n    int X[N], Y[N], Z[N];\n    X[0] = Y[0] = Z[0] = 0;\n    X[1] = 1; Y[1] = 2; Z[1] = 3;\n    for(i = 2; i &lt;= n; i++){\n        X[i] = Y[i-1] + Z[i-2];\n        Y[i] = 2 * X[i];\n        Z[i] = 3 * X[i];\n    }\n    return X[n];\n}</pre>\n\n<p>\\( f1(8) \\) and \\( f2(8) \\) return the values</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1661 \\) and \\( 1640 \\)</p>",
+            "<p>\\( 59 \\) and \\( 59 \\)</p>",
+            "<p>\\( 1640 \\)&nbsp;and \\( 1640 \\)</p>",
+            "<p>\\( 1640 \\) and \\( 1661 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1640 \\)&nbsp;and \\( 1640 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43489/gate-cse-2008-question-75\" target=\"_blank\">https://gateoverflow.in/43489/gate-cse-2008-question-75</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"2185\"></a><div itemprop=\"text\"><p>Two alternative packages \\( A \\) and \\( B \\) are available for processing a database having \\( 10^k \\) records. Package \\( A \\) requires \\( 0.0001 n^2 \\) time units and package \\( B \\) requires \\( 10n\\log_{10} n \\) time units to process \\( n \\) records. What is the smallest value of \\( k \\) for which package \\( B \\) will be preferred over \\( A \\)?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2185/gate-cse-2010-question-12\" target=\"_blank\">https://gateoverflow.in/2185/gate-cse-2010-question-12</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"1920\"></a><div itemprop=\"text\"><p>Consider the following pseudo code. What is the total number of multiplications to be performed?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">D = 2    \nfor i = 1 to n do\n    for j = i to n do\n        for k = j + 1 to n do\n            D = D * 3 </pre>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Half of the product of the \\( 3 \\) consecutive integers.</p>",
+            "<p>One-third of the product of the \\( 3 \\) consecutive integers.</p>",
+            "<p>One-sixth of the product of the \\( 3 \\) consecutive integers.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>One-sixth of the product of the \\( 3 \\) consecutive integers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1920/gate-cse-2014-set-1-question-42\" target=\"_blank\">https://gateoverflow.in/1920/gate-cse-2014-set-1-question-42</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"8299\"></a><div itemprop=\"text\"><p>An algorithm performs \\( (\\log N)^{\\frac{1}{2}} \\)&nbsp;find operations , \\( N \\) insert operations, \\( (\\log N)^{\\frac{1}{2}} \\) delete operations, and \\( (\\log N)^{\\frac{1}{2}} \\) decrease-key operations on a set of data items with keys drawn from a linearly ordered set . For a delete operation, a pointer is provided to the record that must be deleted . For the decrease-key operation, a pointer is provided to the record that has its key decreased. Which one of the following data structures is the most suited for the algorithm to use, if the goal is to achieve the best total asymptotic complexity considering all the operations?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unsorted array</p>",
+            "<p>Min - heap</p>",
+            "<p>Sorted array</p>",
+            "<p>Sorted doubly linked list</p>"
+          ],
+          "correct_answer": "<p>Unsorted array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8299/gate-cse-2015-set-1-question-40\" target=\"_blank\">https://gateoverflow.in/8299/gate-cse-2015-set-1-question-40</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"8113\"></a><div itemprop=\"text\"><p>An unordered list contains \\( n \\) distinct elements. The number of comparisons to find an element in this list that is neither maximum nor minimum is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n \\log n) \\)</p>",
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(\\log n) \\)</p>",
+            "<p>\\( \\Theta(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8113/gate-cse-2015-set-2-question-22\" target=\"_blank\">https://gateoverflow.in/8113/gate-cse-2015-set-2-question-22</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"118156\"></a><div itemprop=\"text\"><p>Match the algorithms with their time complexities:</p>\n\n<p>\\[ \\begin{array}{|l|l|}\\hline \\textbf{Algorithms}&nbsp; &amp;&nbsp; \\textbf{Time Complexity} \\\\\\hline&nbsp; \\text{P. Tower of Hanoi with \\( n \\) disks} &amp; \\text{i. \\( \\Theta&nbsp;(n^2) \\)} \\\\\\hline&nbsp; \\text{Q. Binary Search given \\( n \\) sorted numbers} &amp; \\text{ii. \\( \\Theta (n \\log n) \\)} \\\\\\hline \\text{R. Heap sort given \\( n \\) numbers at the worst case} &amp; \\text{iii. \\( \\Theta (2^n) \\)} \\\\\\hline \\text{S. Addition of two \\( n\\times n \\) matrices} &amp; \\text{iv. \\( \\Theta (\\log n) \\)} \\\\\\hline \\end{array} \\]</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 03</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P\\rightarrow (iii) \\quad&nbsp; Q \\rightarrow(iv) \\quad r \\rightarrow(i)&nbsp; &nbsp;\\quad S \\rightarrow(ii) \\)</p>",
+            "<p>\\( P\\rightarrow&nbsp;(iv)&nbsp;\\quad &nbsp;Q \\rightarrow(iii)&nbsp;\\quad &nbsp;r \\rightarrow(i)&nbsp;\\quad &nbsp;S\\rightarrow(ii) \\)</p>",
+            "<p>\\( P\\rightarrow&nbsp;(iii)&nbsp;\\quad &nbsp;Q \\rightarrow(iv)&nbsp;\\quad r \\rightarrow(ii)&nbsp;\\quad S\\rightarrow(i) \\)</p>",
+            "<p>\\( P\\rightarrow&nbsp;(iv)&nbsp;\\quad &nbsp;Q \\rightarrow(iii)\\quad&nbsp; r \\rightarrow(ii)&nbsp;\\quad &nbsp;S\\rightarrow(i) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P\\rightarrow&nbsp;(iii)&nbsp;\\quad &nbsp;Q \\rightarrow(iv)&nbsp;\\quad r \\rightarrow(ii)&nbsp;\\quad S\\rightarrow(i) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118156/gate-cse-2017-set-2-question-03\" target=\"_blank\">https://gateoverflow.in/118156/gate-cse-2017-set-2-question-03</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"118283\"></a><div itemprop=\"text\"><p>Consider the following C function</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int fun(int n) {\n    int i, j;\n    for(i=1; i&lt;=n; i++) {\n        for (j=1; j&lt;n; j+=i) {\n            printf(\"%d %d\", i, j);\n        }\n    }\n}</pre>\n\n<p>Time complexity of \\( fun \\) in terms of \\( \\Theta \\) notation is</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n \\sqrt{n}) \\)</p>",
+            "<p>\\( \\Theta(n^2) \\)</p>",
+            "<p>\\( \\Theta(n \\: \\log n) \\)</p>",
+            "<p>\\( \\Theta(n^2 \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n \\: \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118283/gate-cse-2017-set-2-question-38\" target=\"_blank\">https://gateoverflow.in/118283/gate-cse-2017-set-2-question-38</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"302811\"></a><div itemprop=\"text\"><p>There are \\( n \\) unsorted arrays: \\( A_1, A_2, \\dots, A_n \\). Assume that \\( n \\) is odd.Each of \\( A_1, A_2, \\dots, A_n \\) contains \\( n \\) distinct elements. There are no common elements between any two arrays. The worst-case time complexity of computing the median of the medians of \\( A_1, A_2, \\dots , A_n \\) is</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\: \\log \\: n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( \\Omega&nbsp;(n^2 \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302811/gate-cse-2019-question-37\" target=\"_blank\">https://gateoverflow.in/302811/gate-cse-2019-question-37</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"422835\"></a><div itemprop=\"text\"><p>Given an integer array of size \\( N \\), we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>both \\( \\mathrm{O}(N) \\) and \\( \\Omega(N) \\)</p>",
+            "<p>\\( \\mathrm{O}(N) \\) but \\( \\operatorname{not} \\Omega(N) \\)</p>",
+            "<p>\\( \\Omega(N) \\) but not \\( \\mathrm{O}(N) \\)&nbsp;</p>",
+            "<p>neither \\( \\mathrm{O}(N) \\) nor \\( \\Omega(N) \\)</p>"
+          ],
+          "correct_answer": "<p>both \\( \\mathrm{O}(N) \\) and \\( \\Omega(N) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422835/gate-cse-2024-set-1-question-7\" target=\"_blank\">https://gateoverflow.in/422835/gate-cse-2024-set-1-question-7</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"3450\"></a><div itemprop=\"text\"><p>Exponentiation is a heavily used operation in public key cryptography. Which of the following options is the tightest upper bound on the number of multiplications required to compute \\( b^n \\bmod{m}, 0 \\leq b, n \\leq m \\) ?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O(\\sqrt n) \\)</p>",
+            "<p>\\( O\\Biggl (\\frac{n}{\\log n} \\Biggr ) \\)</p>",
+            "<p>\\( O(n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3450/gate-it-2007-question-17\" target=\"_blank\">https://gateoverflow.in/3450/gate-it-2007-question-17</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"3533\"></a><div itemprop=\"text\"><p>Let \\( P_1, P_2,\\dots , P_n&nbsp; \\)be \\( n \\) points in the \\( xy \\)-plane such that no three of them are collinear. For every pair of points \\( P_i \\) and \\( P_j \\), let \\( L_{ij} \\) be the line passing through them. Let \\( L_{ab} \\) be the line with the steepest gradient among all \\( n(n -1)/2 \\) lines.</p>\n\n<p>The time complexity of the best algorithm for finding \\( P_a \\) and \\( P_b \\) is</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 81</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta\\left(n\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(n\\log n\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(n\\log^2&nbsp;n\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(n^2\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta\\left(n\\log n\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3533/gate-it-2007-question-81\" target=\"_blank\">https://gateoverflow.in/3533/gate-it-2007-question-81</a></p>"
+        }
+      ]
+    }
+  ]
+});

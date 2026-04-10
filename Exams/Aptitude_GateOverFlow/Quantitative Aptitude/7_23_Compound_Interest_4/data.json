@@ -1,0 +1,66 @@
+{
+  "title": "Quantitative Aptitude - Compound Interest",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Compound Interest",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6460\"></a><div itemprop=\"text\"><p>Anand invested \\( ₹8,000 \\) as a fixed deposit scheme for \\( 2 \\) years at compound interest rate \\( 5\\% \\) p.a. How much amount will Anand get on maturity of the fixed deposit?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ₹8,600 \\)</p>",
+            "<p>\\( ₹8,620 \\)</p>",
+            "<p>\\( ₹8,820 \\)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>\\( ₹8,820 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6460/nielit-2017-dec-scientific-assistant-a-section-a-45\" target=\"_blank\">https://aptitude.gateoverflow.in/6460/nielit-2017-dec-scientific-assistant-a-section-a-45</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6564\"></a><div itemprop=\"text\"><p>The difference between the compound interest and the simple interest earned at the end of \\( 3^{rd} \\) year on a sum of money at a rate of \\( 10\\% \\) per annum is Rs. \\( 77.5. \\) What is the sum?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rs. \\( 3,500 \\)</p>",
+            "<p>Rs. \\( 2,500 \\)</p>",
+            "<p>Rs. \\( 3,000 \\)</p>",
+            "<p>Rs. \\( 2,000 \\)</p>"
+          ],
+          "correct_answer": "<p>Rs. \\( 2,500 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6564/nielit-2017-oct-scientific-assistant-a-section-a-1\" target=\"_blank\">https://aptitude.gateoverflow.in/6564/nielit-2017-oct-scientific-assistant-a-section-a-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6646\"></a><div itemprop=\"text\"><p>A sum of money amounts to \\( ₹6,690 \\) after \\( 3 \\) years and to&nbsp;\\( ₹10,035 \\) after \\( 6 \\) years on compound interest. The sum is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( ₹4,400 \\)</p>",
+            "<p>\\( ₹4,460 \\)</p>",
+            "<p>\\( ₹4,520 \\)</p>",
+            "<p>\\( ₹4,445 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6646/nielit-2019-feb-scientist-c-section-c-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6646/nielit-2019-feb-scientist-c-section-c-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6983\"></a><div itemprop=\"text\">Sourabh borrows rs 25,00,000 at 12% compound interest from a bank and invests in shares. The investment gives him a return of 20% per annum and he repays rs 5,00,000 at the end &nbsp;of first year. How much does he make for himself after paying all the outstanding amount at the end of the second year?<br>\n<br>\na 424000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b 356241.50<br>\n<br>\nc 525000 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d 484241.80</div><br><br><b>Quantitative Aptitude: TIme Compound Interest question no. 18</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6983/time-compound-interest-question-no-18\" target=\"_blank\">https://aptitude.gateoverflow.in/6983/time-compound-interest-question-no-18</a></p>"
+        }
+      ]
+    }
+  ]
+}

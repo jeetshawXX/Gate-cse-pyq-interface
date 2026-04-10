@@ -1,0 +1,206 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In an RSA cryptosystem, the value of the public modulus parameter n is 3007. If it is also is known that \\(\\phi(n)=2880\\), where \\(\\phi()\\) denotes Euler's Totient Function, then the prime factors of n which is greater than 50 is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "97",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302794/gate2019-cs-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider that 15 machines need to be connected in a LAN using 8-port Ethernet switches. Assume that these switches do not have any separate up link ports. The minimum number of switches needed is ___________. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302799/gate2019-cs-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Suppose that in an IP-over-Ethernet network, a machine X wishes to find the MAC address of another machine Y in its subnet. Which one of the following techniques can be used for this? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X sends an ARP request packet to the local gateway's IP address which then finds the  MAC address of Y and sends to X</p>",
+            "<b>B.</b> <p>X sends an ARP request packet to the local gateway's MAC address which then finds the MAC address of Y and sends to X</p>",
+            "<b>C.</b> <p>X sends an ARP request packet with broadcast MAC address in its local subnet</p>",
+            "<b>D.</b> <p>X sends an ARP request packet with broadcast IP address in its local subnet</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X sends an ARP request packet with broadcast MAC address in its local subnet</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302819/gate2019-cs-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider three machines M, N and P with IP addresses 100.10.5.2, 100.10.5.5 and 100.10.5.6 respectively. The subnet mask is set to 255.255.255.252 for all the three machines. Which one of the following is true? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>M, N and P all belong to the same subnet</p>",
+            "<b>B.</b> <p>Only M and N belong to the same subnet</p>",
+            "<b>C.</b> <p>Only N and P belong to the same subnet</p>",
+            "<b>D.</b> <p>M, N, and P belong to three different subnets</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only N and P belong to the same subnet</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302820/gate2019-cs-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following protocol pairs can be used to send and retrieve e-mails (in that order)? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IMAP POP3</p>",
+            "<b>B.</b> <p>SMTP, POP3</p>",
+            "<b>C.</b> <p>SMTP, MIME</p>",
+            "<b>D.</b> <p>IMAP, SMTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>SMTP, POP3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302832/gate2019-cs-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for 5 units of time. If the node does not detect any other transmission in this duration, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters per unit time in the medium. <br>Assume that the system has two nodes P and Q, located at a distance d meters from each other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium. <br>The maximum distance d (in meters, rounded to the closest integer) that allows Q to\nsuccessfully avoid a collision between its proposed transmission and P's ongoing\ntransmission is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204130/gate2018-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0. <br>\nThe fragmentation offset value stored in the third fragment is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "144",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204129/gate2018-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a long-lived TCP session with an end-to-end bandwidth of 1 Gbps (= \\(10^{9} \\) bits-per-second). The session starts with a sequence number of 1234. The minimum time (in seconds, rounded to the closest integer) before this sequence number can be used again is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204099/gate2018-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following statements regarding the slow start phase of the TCP congestion control algorithm. Note that \\(cwnd\\) stands for the TCP congestion window and MSS denotes the Maximum Segment Size. <br><br> (i) The cwnd increases by 2 MSS on every successful acknowledgment. <br>\n(ii) The cwnd approximately doubles on every successful acknowledgement.  <br>\n(iii) The cwnd increases by 1 MSS every round trip time. <br>\n(iv) The cwnd approximately doubles every round trip time. <br><br>\nWhich one of the following is correct? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (ii) and (iii) are true</p>",
+            "<b>B.</b> <p>Only (i) and (iii) are true</p>",
+            "<b>C.</b> <p>Only (iv) is true</p>",
+            "<b>D.</b> <p>Only (i) and (iv) are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only (iv) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204088/gate2018-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Match the following: <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q13_4a5b162b.jpg\"> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-III, Q-IV, R-II, S-I</p>",
+            "<b>B.</b> <p>P-II, Q-I, R-IV, S-III</p>",
+            "<b>C.</b> <p>P-IV, Q-I, R-II, S-III</p>",
+            "<b>D.</b> <p>P-IV, Q-I, R-III, S-II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-IV, Q-I, R-II, S-III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204087/gate2018-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider two hosts X and Y, connected by a single direct link of rate \\(10^{6}\\) bits/sec . The\ndistance between the two hosts is 10,000 km and the propagation speed along the link is\n2x\\(10^{8}\\) m/sec . Host X sends a file of 50,000 bytes as one large message to host Y\ncontinuously. Let the transmission and propagation delays be p milliseconds and q\nmilliseconds, respectively . Then the values of p and q are <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = 50 and q = 100</p>",
+            "<b>B.</b> <p>p = 50 and q = 400</p>",
+            "<b>C.</b> <p>p = 100 and q = 50</p>",
+            "<b>D.</b> <p>p = 400 and q = 50</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>p = 400 and q = 50</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118537/gate2017-2-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a binary code that consists of only four valid code words as given below:<br>\n00000,01011,10101,11110<br>\nLet the minimum Hamming distance of the code be p and the maximum number of erroneous\nbits that can be corrected by the code be q. Then the values of p and q are <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = 3 and q = 1</p>",
+            "<b>B.</b> <p>p = 3 and q = 2</p>",
+            "<b>C.</b> <p>p = 4 and q = 2</p>",
+            "<b>D.</b> <p>p = 4 and q = 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>p = 3 and q = 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118376/gate2017-2-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The maximum number of IPv4 router addresses that can be listed in the record route (RR)\noption field of an IPv4 header is _________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118427/gate2017-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider socket API on a Linux machine that supports connected UDP sockets. A connected\nUDP socket is a UDP socket on which connect function has already been called. Which of the\nfollowing statements is/are CORRECT ?<br>\nI. A connected UDP socket can be used to communicate with multiple peers\nsimultaneously.<br>\nII. A process can successfully call connect function again for an already connected UDP\nsocket. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118209/gate2017-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following statements about the routing protocols, Routing Information Protocol\n(RIP) and Open Shortest Path First (OSPF) in an IPv4 network. <br><br>\nI. RIP uses distance vector routing  <br>\nII. RIP packets are sent using UDP  <br>\nIII. OSPF packets are sent using TCP <br>\nIV. OSPF operation is based on link-state routing <br><br>\nWhich of the statements above are CORRECT? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>I, II and III only</p>",
+            "<b>C.</b> <p>I, II and IV only</p>",
+            "<b>D.</b> <p>II, III and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I, II and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118338/gate2017-2-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Transactions - Transactions - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Transactions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Suppose  a database schedule S involves transactions T1,...,Tn. Construct the precedence graph of S with vertices representing the transactions and edges representing the conflicts. If S is serializable, which one of the following orderings of the vertices of the precedence graph is guaranteed to yield a serial schedule? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Topological order</p>",
+            "<b>B.</b> <p>Depth-first order</p>",
+            "<b>C.</b> <p>Breadth-first order</p>",
+            "<b>D.</b> <p>Ascending orderoftransactionindices</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Topological order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39550/gate2016-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following two phase locking protocol. Suppose a transaction T accesses (for read or write operations), a certain set of objects {O1,... ,Ok}. This is done in the following manner: <br>\nStep 1. T acquires exclusive locks to O1,...,Ok in increasing order of their addresses. <br>\nStep 2. The required operations are performed.<br>\nStep 3. All locks are released. <br>\nThis protocol will <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>guarantee serializability and deadlock-freedom</p>",
+            "<b>B.</b> <p>guarantee neither serializability nor deadlock-freedom</p>",
+            "<b>C.</b> <p>guarantee serializability but not deadlock-freedom</p>",
+            "<b>D.</b> <p>guarantee deadlock-freedom but not serializability</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>guarantee serializability and deadlock-freedom</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39703/gate2016-1-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following is NOT a part of the ACID properties of database transactions? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Atomicity</p>",
+            "<b>B.</b> <p>Consistency</p>",
+            "<b>C.</b> <p>Isolation</p>",
+            "<b>D.</b> <p>Deadlock-freedom</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Deadlock-freedom</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39644/gate2016-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following partial Schedule S involving two transactions T1 and T2. Only the read and the write operations have been shown. The read operation on data item P is denoted by read(P) and the write operation on data item P is denoted by write(P). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transactions\\q41_17720076.jpg\"> <br> Suppose that the transaction T1 fails immediately after time instance 9. Which one of the following statements is correct? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T2 must be aborted and then both T1 and T2 must be re-started to ensure transaction atomicity</p>",
+            "<b>B.</b> <p>Schedule S is non-recoverable and cannot ensure transaction atomicity</p>",
+            "<b>C.</b> <p>Only T2 must be aborted and then re-started to ensure transaction atomicity</p>",
+            "<b>D.</b> <p>Schedule S is recoverable and can ensure atomicity and nothing else needs to be done</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Schedule S is non-recoverable and cannot ensure transaction atomicity</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8482/gate2015-3-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a simple checkpointing protocol and the following set of operations in the log. <br> (start, T4); (write, T4, y, 2, 3); (start, T1); (commit, T4); (write, T1, z, 5, 7); <br>(checkpoint);<br> (start, T2); (write, T2, x, 1, 9); (commit, T2); (start, T3), (write, T3, z, 7, 2); <br> If a crash happens now and the system tries to recover using both undo and redo operations, what are the contents of the undo list and the redo list? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Undo: T3, T1; Redo: T2</p>",
+            "<b>B.</b> <p>Undo: T3, T1; Redo: T2, T4</p>",
+            "<b>C.</b> <p>Undo: none; Redo: T2, T4, T3, T1</p>",
+            "<b>D.</b> <p>Undo: T3, T1, T4; Redo: T2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Undo: T3, T1; Redo: T2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8246/gate2015-2-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following transaction involving two bank accounts x and y. <br><br> read(x);    x:=x-50;  write(x);    read(y);    y:=y+50; write(y) <br><br> The constraint that the sum of the accounts x and y should remain constant is that of <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Atomicity</p>",
+            "<b>B.</b> <p>Consistency</p>",
+            "<b>C.</b> <p>Isolation</p>",
+            "<b>D.</b> <p>Durability</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Consistency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8047/gate2015-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the transactions T1, T2, and T3 and the schedules S1 and S2 given below. <br>\nT1 : r1(x); r1(Z) ; w1(x); w1(Z) <br>\nT2 : r2(x); r2(Z); w2(Z) <br>\nT3 : r3(x); r3(x); w3(Y)<br> <br>\nS1: r1(x); r3(Y); r3(x); r2(Y); r2(Z); w3(Y); w2(Z); r1(Z); w1(x); w1(Z) <br>\nS2: r1(x); r3(Y); r2(Y); r3(x); r1(Z); r2(Z); w3(Y); w1(x); w2(Z); w1(Z) <br>\nWhich one of the following statements about the schedules is TRUE? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is conflict-serializable</p>",
+            "<b>B.</b> <p>Only S2 is conflict-serializable.</p>",
+            "<b>C.</b> <p>Both S1 and S2 are conflict-serializable</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is conflict-serializable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only S1 is conflict-serializable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2063/gate2014-3-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following schedule S of transactions T1, T2, T3, T4: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transactions\\q29_87119e6e.jpg\"> <br> Which one of the following statements is CORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S is conflict-serializable but not recoverable</p>",
+            "<b>B.</b> <p>S is not conflict-serializable but is recoverable</p>",
+            "<b>C.</b> <p>S is both conflict-serializable and recoverable</p>",
+            "<b>D.</b> <p>S is neither conflict-serializable nor is it recoverable</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S is both conflict-serializable and recoverable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1988/gate2014-2-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following four schedules due to three transactions (indicted by the subscript)\nusing read and write on a data item x, denoted by  r(x) and w(x) respectively. Which one of\nthem is conflict serializable? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>r1(x); r2(x); w1(x); r3(x);  w2(x)</p>",
+            "<b>B.</b> <p>r2(x);  r1(x);  w2(x);  r3(x);  w1(x)</p>",
+            "<b>C.</b> <p>r3(x); r2(x); r1(x); w2(x);  w1(x)</p>",
+            "<b>D.</b> <p>r2(x); w2(x); r3(x); r1(x); w1(x)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>r2(x); w2(x); r3(x); r1(x); w1(x)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1796/gate2014-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following transactions with data items P and Q initialized to zero:<pre><code>\nT1 :read (P);\n       read (Q);\n       if P = 0 then Q := Q + 1 ; \n       write (Q).\nT2 : read (Q);\n        read (P);\n        if Q = 0 then P := P + 1 ;\n        write (P). </code></pre>\nAny non-serial interleaving of T1 and T2 for concurrent execution leads to <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a serializable schedule</p>",
+            "<b>B.</b> <p>a schedule that is not conflict serializable</p>",
+            "<b>C.</b> <p>a conflict serializable schedule</p>",
+            "<b>D.</b> <p>a schedule for which a precedence graph cannot be drawn</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a schedule that is not conflict serializable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1612/gate2012-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following schedule for transactions T1, T2 and T3:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transactions\\q42_ec75b74c.jpg\"><br>\nWhich one of the schedules below is the correct serialization of the above? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T1 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T2</p>",
+            "<b>B.</b> <p>T2 \\(\\rightarrow\\) T1 \\(\\rightarrow\\) T3</p>",
+            "<b>C.</b> <p>T2 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T1</p>",
+            "<b>D.</b> <p>T3 \\(\\rightarrow\\) T1 \\(\\rightarrow\\) T2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T1 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2343/gate2010-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following concurrency control protocols ensure both conflict\nserializability and freedom from deadlock?<br>\nI. 2-phase locking <br>\nII. Time-stamp ordering <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2196/gate2010-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider two transactions T1 and T2, and four schedules S1, S2, S3, S4 of T1 and T2\nas given below: <br><br> \\(T_{1}:R_{1}[x]W_{1}[x]W_{1}[y] \\)<br>  \\(T_{2}:R_{2}[x]R_{2}[x]W_{1}[y] \\)<br> \\(S_{1}:R_{1}[x]R_{2}[x]R_{2}[y]W_{1}[x]W_{1}[y]W_{2}[y] \\)<br> \\(S_{2}:R_{1}[x]R_{2}[x]R_{2}[y]W_{1}[x]W_{2}[y]W_{1}[y] \\)<br> \\(S_{3}:R_{1}[x]W_{1}[x]R_{2}[x]W_{1}[y]R_{2}[y]W_{2}[y] \\)<br> \\(S_{4}:R_{2}[x]R_{2}[y]R_{1}[x]W_{1}[x]W_{1}[y]W_{2}[y]\\)<br><br>\nWhich of the above schedules are conflict-serializable? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S2 and S3</p>",
+            "<b>C.</b> <p>S3 only</p>",
+            "<b>D.</b> <p>S4 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S2 and S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1329/gate2009-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following three schedules of transactions T1, T2 and T3. <br>[Notation: In the following NYO represents the action Y (R for read, W for write) performed by transaction N on object O.]<br><br>\\(\\begin{array}{lllllllllll} \\hline(S 1) &amp; 2 R A &amp; 2 W A &amp; 3 R C &amp; 2 W B &amp; 3 W A &amp; 3 W C &amp; 1 R A &amp; 1 R B &amp; 1 W A &amp; 1 W B \\\\ \\hline(S 2) &amp; 3 R C &amp; 2 R A &amp; 2 W A &amp; 2 W B &amp; 3 W A &amp; 1 R A &amp; 1 R B &amp; 1 W A &amp; 1 W B &amp; 3 W C \\\\ \\hline(S 3) &amp; 2 R A &amp; 3 R C &amp; 3 W A &amp; 2 W A &amp; 2 W B &amp; 3 W C &amp; 1 R A &amp; 1 R B &amp; 1 W A &amp; 1 W B \\\\ \\hline \\end{array}\\)<br><br>Which of the following statements is TRUE? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S3 are all conflict equivalent to each other</p>",
+            "<b>B.</b> <p>No two of S1, S2 and S3 are conflict equivalent to each other</p>",
+            "<b>C.</b> <p>S2 is conflict equivalent to S3, but not to S1</p>",
+            "<b>D.</b> <p>S1 is conflict equivalent to S2, but not to S3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 is conflict equivalent to S2, but not to S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3374/gate2008-it-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following two transactions : T1 and T2. <br>\nT1:read (A);<br>\nread (B);<br>\nif A = 0 then B \\(\\leftarrow \\) B + 1;<br>\nwrite (B);<br><br>\nT2 :\tread (B);<br>\nread (A);<br>\nif B \\(\\neq\\) 0 then A \\(\\leftarrow \\) A - 1;<br>\nwrite (A);<br><br>\nWhich of the following schemes, using shared and exclusive locks, satisfy the requirements for strict two phase locking for the above transactions?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transactions\\q66_94480cd3.jpg\"><br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3511/gate2007-it-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

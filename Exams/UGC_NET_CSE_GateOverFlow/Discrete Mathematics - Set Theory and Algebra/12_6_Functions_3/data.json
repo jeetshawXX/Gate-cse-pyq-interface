@@ -1,0 +1,56 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Functions",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58783\"></a><div itemprop=\"text\"><p>If we define the functions \\( f \\), \\( g \\) and \\( h \\) that map \\( R \\) into \\( R \\) by :&nbsp;</p>\n\n<p>\\( f(x)=x^{4}, g(x)= \\sqrt{x^{2}+1}, h(x)=x^{2}+72 \\), then the value of the composite functions \\( ho(gof) \\) and \\( (hog)of \\) are given as</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | December 2014 | Part 2 | Question: 05</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x^{8}-71 \\) and \\( x^{8}-71 \\)</p>",
+            "<p>\\( x^{8}-73 \\)&nbsp;and \\( x^{8}-73 \\)</p>",
+            "<p>\\( x^{8}+71 \\) and \\( x^{8}+71 \\)</p>",
+            "<p>\\( x^{8}+73 \\)&nbsp;and \\( x^{8}+73 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x^{8}+73 \\)&nbsp;and \\( x^{8}+73 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58783/ugc-net-cse-december-2014-part-2-question-05\" target=\"_blank\">https://gateoverflow.in/58783/ugc-net-cse-december-2014-part-2-question-05</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335160\"></a><div itemprop=\"text\"><p>The functions mapping \\( R \\) into \\( R \\) are defined as :</p>\n\n<p>\\( f\\left(x \\right)=x^{3} - 4x, g\\left(x \\right)=\\frac{1}{x^{2}+1} \\) and \\( h\\left(x \\right)=x^{4}. \\)</p>\n\n<p>Then find the value of the following composite functions :</p>\n\n<p>\\( h_{o}g\\left(x \\right) \\) and \\( h_{o}g_{o}f\\left(x \\right) \\)</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | January 2017 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left ( x^{2}+1 \\right )^{4} \\) and \\( \\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{4} \\)</p>",
+            "<p>\\( \\left ( x^{2}+1 \\right )^{4} \\) and \\( \\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{-4} \\)</p>",
+            "<p>\\( \\left ( x^{2}+1 \\right )^{-4} \\) and \\( \\left [ \\left ( x^{2}-4x \\right )^{2}+1 \\right ]^{4} \\)</p>",
+            "<p>\\( \\left ( x^{2}+1 \\right )^{-4} \\) and \\( \\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{-4} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left ( x^{2}+1 \\right )^{-4} \\) and \\( \\left [ \\left ( x^{3}-4x \\right )^{2}+1 \\right ]^{-4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335160/ugc-net-cse-january-2017-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/335160/ugc-net-cse-january-2017-part-2-question-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"41920\"></a><div itemprop=\"text\">\n<p>If F and G are Boolean functions of degree n. Then, which of the following is true?</p>\n\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | September 2013 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>F \\( \\leq \\) F + G and F G \\( \\leq \\) F</p>",
+            "<p>G \\( \\leq \\) F + G and F G \\( \\geq \\) G</p>",
+            "<p>F \\( \\geq \\) F + G and F G \\( \\leq \\) F</p>",
+            "<p>G \\( \\geq \\) F + G and F G \\( \\leq \\) F</p>"
+          ],
+          "correct_answer": "<p>F \\( \\leq \\) F + G and F G \\( \\leq \\) F</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41920/ugc-net-cse-september-2013-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/41920/ugc-net-cse-september-2013-part-2-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

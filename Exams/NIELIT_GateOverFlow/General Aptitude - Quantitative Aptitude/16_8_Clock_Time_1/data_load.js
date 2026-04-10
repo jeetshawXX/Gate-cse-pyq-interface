@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Clock Time",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Clock Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373696\"></a><div itemprop=\"text\"><p>A clock is set at \\( 4 \\; \\text{am.} \\) It loses \\( 16 \\) minutes in \\( 24 \\) hours. What will be the correct time when the clock indicates \\( 9 \\; \\text{pm } \\) on the \\( 4^{th} \\) day ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\; \\text{pm} \\)</p>",
+            "<p>\\( 7 \\; \\text{pm} \\)</p>",
+            "<p>\\( 10 \\; \\text{pm} \\)</p>",
+            "<p>\\( 11 \\; \\text{pm} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\; \\text{pm} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373696/nielit-2022-april-scientist-b-section-a-question-22\" target=\"_blank\">https://gateoverflow.in/373696/nielit-2022-april-scientist-b-section-a-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+});

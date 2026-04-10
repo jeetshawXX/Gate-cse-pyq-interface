@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Databases - Relational Model",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Relational Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"54244\"></a><div itemprop=\"text\"><p>An aggregation association is drawn using which symbol?</p>\n\n</div><br><br><b>Databases: ISRO CSE 2014 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A line which loops back on to the same table</p>",
+            "<p>A small open diamond at the end of a line connecting two tables</p>",
+            "<p>A small closed diamond at the end of a line connecting two tables</p>",
+            "<p>A small closed triangle at the end of a line connecting two tables</p>"
+          ],
+          "correct_answer": "<p>A small open diamond at the end of a line connecting two tables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54244/isro-cse-2014-question-11\" target=\"_blank\">https://gateoverflow.in/54244/isro-cse-2014-question-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"11982\"></a><div itemprop=\"text\"><p>If \\( \\text{D}_1,\\text{D}_2, \\dots \\text{D}_n \\) are domains in a relational model, then the relation is a table, which is a subset of</p>\n\n</div><br><br><b>Databases: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{D}_1 \\oplus \\text{D}_2 \\oplus \\dots \\oplus \\text{D}_n \\)</p>",
+            "<p>\\( \\text{D}_1 \\times \\text{D}_2 \\times \\dots \\times \\text{D}_n \\)</p>",
+            "<p>\\( \\text{D}_1 \\cup \\text{D}_2 \\cup \\dots \\cup \\text{D}_n \\)</p>",
+            "<p>\\( \\text{D}_1 \\cap \\text{D}_2 \\cap \\dots \\cap \\text{D}_n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{D}_1 \\times \\text{D}_2 \\times \\dots \\times \\text{D}_n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/11982/isro2015-21\" target=\"_blank\">https://gateoverflow.in/11982/isro2015-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

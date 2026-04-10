@@ -1,0 +1,41 @@
+{
+  "title": "Programming - Programming in C - Object Oriented Programming",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Object Oriented Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152706\"></a><div itemprop=\"text\">Encapsulation is<br>\n<br>\n(A) Dynamic binding<br>\n<br>\n(B) A mechanism to associate the code and data.<br>\n<br>\n(C) Data abstraction<br>\n<br>\n(D) Creating new class</div><br><br><b>Programming in C: UGC NET CSE | December 2009 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152706/ugc-net-cse-december-2009-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/152706/ugc-net-cse-december-2009-part-2-question-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"152705\"></a><div itemprop=\"text\">A __________ is a special method used to initialize the instance variable of a class.<br>\n<br>\n(A) Member function<br>\n<br>\n(B) Destructor<br>\n<br>\n(C) Constructor<br>\n<br>\n(D) Structure</div><br><br><b>Programming in C: UGC NET CSE | December 2009 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152705/ugc-net-cse-december-2009-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/152705/ugc-net-cse-december-2009-part-2-question-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"152831\"></a><div itemprop=\"text\">Which of the statements are true ?<br>\nI. Function overloading is done at compile time.<br>\nII. Protected members are accessible to the member of derived class.<br>\nIII. A derived class inherits constructors and destructors.<br>\nIV. A friend function can be called like a normal function.<br>\nV. Nested class is a derived class.<br>\n<br>\n(A) I, II, III<br>\n<br>\n(B) II, III, V<br>\n<br>\n(C) III, IV, V<br>\n<br>\n(D) I, II, IV</div><br><br><b>Programming in C: UGC NET CSE | December 2009 | Part 2 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152831/ugc-net-cse-december-2009-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/152831/ugc-net-cse-december-2009-part-2-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

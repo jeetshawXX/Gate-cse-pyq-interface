@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Counting",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Counting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351265\"></a><div itemprop=\"text\"><p>A solid cube of each side \\( 8\\;cm \\), has been painted red, blue and black on pairs of opposite faces. It is then cut into cubical blocks of each side \\( 2\\:cm \\). How many cubes have no face painted?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351265/nielit-scientist-b-2020-november-6\" target=\"_blank\">https://gateoverflow.in/351265/nielit-scientist-b-2020-november-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

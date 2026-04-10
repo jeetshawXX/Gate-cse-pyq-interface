@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Btree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Btree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335143\"></a><div itemprop=\"text\"><p>The order of a leaf node in a \\( B^{+} \\) tree is the maximum number of children it can have. Suppose that block size is \\( 1 \\) kilobytes, the child pointer takes \\( 7 \\) bytes long and search field value takes \\( 14 \\) bytes long. The order of the leaf node is _________.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 63 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 65 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335143/ugc-net-cse-january-2017-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/335143/ugc-net-cse-january-2017-part-2-question-20</a></p>"
+        }
+      ]
+    }
+  ]
+}

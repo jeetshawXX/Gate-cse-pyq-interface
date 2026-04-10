@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Linked List",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Linked List",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50139\"></a><div itemprop=\"text\"><p>The time required to search an element in a linked list of length n is</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2008 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\log_2 n) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50139/isro-cse-2008-question-71\" target=\"_blank\">https://gateoverflow.in/50139/isro-cse-2008-question-71</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50141\"></a><div itemprop=\"text\">\n<p>Which of the following operations is performed more efficiently by doubly linked list than by linear linked list?</p>\n\n\n</div><br><br><b>Data Structures: ISRO CSE 2008 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Deleting a node whose location is given</p>",
+            "<p>Searching an unsorted list for a given item</p>",
+            "<p>Inserting a node after the node with a given location</p>",
+            "<p>Traversing the list to process each node</p>"
+          ],
+          "correct_answer": "<p>Deleting a node whose location is given</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50141/isro-cse-2008-question-72\" target=\"_blank\">https://gateoverflow.in/50141/isro-cse-2008-question-72</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"17245\"></a><div itemprop=\"text\">\n<p>The minimum number of fields with each node of doubly linked list is</p>\n\n\n</div><br><br><b>Data Structures: ISRO CSE 2008 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>1</p>",
+            "<p>2</p>",
+            "<p>3</p>",
+            "<p>4</p>"
+          ],
+          "correct_answer": "<p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17245/isro-cse-2008-question-76\" target=\"_blank\">https://gateoverflow.in/17245/isro-cse-2008-question-76</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"54985\"></a><div itemprop=\"text\"><p>Consider a single linked list where \\( F \\) and \\( L \\) are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list?</p><p><img alt=\"\" width=\"600\" height=\"108\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7601888104119519818\"></p></div><br><br><b>Data Structures: ISRO CSE 2014 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Delete the first element of the list</p>",
+            "<p>Interchange the first two elements of the list</p>",
+            "<p>Delete the last element of the list</p>",
+            "<p>Add an element at the end of the list</p>"
+          ],
+          "correct_answer": "<p>Delete the last element of the list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54985/isro-cse-2014-question-49\" target=\"_blank\">https://gateoverflow.in/54985/isro-cse-2014-question-49</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"128489\"></a><div itemprop=\"text\"><p>Given two statements</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Insertion of an element should be done at the last node of the circular list</li>\n\t<li>Deletion of an element should be done at the last node of the circular list</li>\n</ol>\n\n\n\n</div><br><br><b>Data Structures: ISRO CSE 2017 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both are true</p>",
+            "<p>Both are false</p>",
+            "<p>First is false and second is true</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Both are false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128489/isro-cse-2017-question-16\" target=\"_blank\">https://gateoverflow.in/128489/isro-cse-2017-question-16</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"128485\"></a><div itemprop=\"text\"><p>In a doubly linked list the number of pointers affected for an insertion operation will be</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2017 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>4</p>",
+            "<p>0</p>",
+            "<p>1</p>",
+            "<p>Depends on the nodes of doubly linked list</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128485/isro-cse-2017-question-53\" target=\"_blank\">https://gateoverflow.in/128485/isro-cse-2017-question-53</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"213525\"></a><div itemprop=\"text\"><p>Consider a singly linked list of the form where \\( F \\) is a pointer to the first element in the linked list and \\( L \\) is the pointer to the last element in the list. The time of which of the following operations depends on the length of the list?</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=2952339625853521583\" width=\"350\"></p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2018 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Delete the last element of the list</p>",
+            "<p>Delete the first element of the list</p>",
+            "<p>Add an element after the last element of the list</p>",
+            "<p>Interchange the first two elements of the list</p>"
+          ],
+          "correct_answer": "<p>Delete the last element of the list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213525/isro-cse-2018-question-63\" target=\"_blank\">https://gateoverflow.in/213525/isro-cse-2018-question-63</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"213509\"></a><div itemprop=\"text\"><p>A doubly linked list is declared as:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct Node {\n    int Value;\n    struct Node *Fwd;\n    struct Node *Bwd;\n};\n</pre>\n\n<p>Where Fwd and Bwd represent forward and backward link to the adjacent elements of the list. Which of the following segment of code deletes the node pointed to by \\( X \\)&nbsp;from the doubly linked list, if it is assumed that \\( X \\) points to neither the first nor the last node of the list?</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2018 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>X\\( \\rightarrow \\)Bwd\\( \\rightarrow \\)Fwd = X\\( \\rightarrow \\)Fwd;&nbsp;X\\( \\rightarrow \\)Fwd\\( \\rightarrow \\)Bwd =&nbsp;X\\( \\rightarrow \\)Bwd;</p>",
+            "<p>X\\( \\rightarrow \\)Bwd.Fwd&nbsp;= X\\( \\rightarrow \\)Fwd; X.Fwd\\( \\rightarrow \\)Bwd = X\\( \\rightarrow \\)Bwd;</p>",
+            "<p>X.Bwd\\( \\rightarrow \\)Fwd = X.Bwd; x\\( \\rightarrow \\)Fwd.Bwd = X.Bwd;</p>",
+            "<p>X\\( \\rightarrow \\)Bwd\\( \\rightarrow \\)Fwd = X\\( \\rightarrow \\)Bwd; X\\( \\rightarrow \\)Fwd\\( \\rightarrow \\)Bwd&nbsp;= X\\( \\rightarrow \\)Fwd;</p>"
+          ],
+          "correct_answer": "<p>X\\( \\rightarrow \\)Bwd\\( \\rightarrow \\)Fwd = X\\( \\rightarrow \\)Fwd;&nbsp;X\\( \\rightarrow \\)Fwd\\( \\rightarrow \\)Bwd =&nbsp;X\\( \\rightarrow \\)Bwd;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213509/isro-cse-2018-question-79\" target=\"_blank\">https://gateoverflow.in/213509/isro-cse-2018-question-79</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"43754\"></a><div itemprop=\"text\"><p>The following steps in a linked list</p>\n\n<pre class=\"prettyprint lang-c_cpp\">p = getnode() \ninfo(p) = 10 \nnext (p) = list \nlist = p</pre>\n\n<p>result in which type of operation?</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Pop operation in stack</p>",
+            "<p>Removal of a node</p>",
+            "<p>Inserting a node</p>",
+            "<p>Modifying an existing node</p>"
+          ],
+          "correct_answer": "<p>Inserting a node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43754/isro-2013-4\" target=\"_blank\">https://gateoverflow.in/43754/isro-2013-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

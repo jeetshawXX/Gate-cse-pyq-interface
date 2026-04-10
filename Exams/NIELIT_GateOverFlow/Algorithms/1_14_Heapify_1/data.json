@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Heapify",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Heapify",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373742\"></a><div itemprop=\"text\"><p>Suppose we are sorting an array of eight integers using heapsort, and we have just finished some heapify (either maxheapify or minheapify) operations. The array now looks like this:<br>\n\\( 16 \\;&nbsp;14&nbsp;\\; 15&nbsp;\\; 10&nbsp;\\; 12&nbsp;\\; 27&nbsp;\\; 28 \\)<br>\nHow many heapify operations have been performed on root of heap ?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2022 April Scientist B | Section B | Question: 96</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\) or \\( 4 \\)</p>",
+            "<p>\\( 5 \\) or \\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\) or \\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373742/nielit-2022-april-scientist-b-section-b-question-96\" target=\"_blank\">https://gateoverflow.in/373742/nielit-2022-april-scientist-b-section-b-question-96</a></p>"
+        }
+      ]
+    }
+  ]
+}

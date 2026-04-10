@@ -1,0 +1,68 @@
+window.__examLoadCallback({
+  "title": "Operating System - Scheduling",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155183\"></a><div itemprop=\"text\"><p>An example of a non pre-emptive scheduling algorithm is :</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2008 | Part 2 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Round Robin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>Priority Scheduling</p>",
+            "<p>Shortest job first&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>2 level scheduling</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155183/ugc-net-cse-december-2008-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/155183/ugc-net-cse-december-2008-part-2-question-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"67021\"></a><div itemprop=\"text\"><p>WINDOWS is a _________ operating.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2010 | Part 2 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Real time</p>",
+            "<p>Multi-user</p>",
+            "<p>Preemptive</p>",
+            "<p>Non-preemptive</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67021/ugc-net-cse-december-2010-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/67021/ugc-net-cse-december-2010-part-2-question-38</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335124\"></a><div itemprop=\"text\"><p>Which of the following scheduling algorithms may cause starvation ?</p>\n\n\n\n<ol start=\"2\" style=\"list-style-type:lower-alpha\" type=\"a\">\n\t<li>Round Robin</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Priority</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Shortest process next</li>\n</ol>\n\n<ol start=\"5\" style=\"list-style-type:lower-alpha\" type=\"a\">\n\t<li>Shortest remaining time first&nbsp;</li>\n</ol>\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>a, c&nbsp;and e</li>\n\t<li>c, d&nbsp;and e</li>\n\t<li>b, d&nbsp;and e</li>\n\t<li>b, c&nbsp;and d</li>\n</ol></div><br><br><b>Operating System: UGC NET CSE | January 2017 | Part 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First-come-first-served</p>"
+          ],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335124/ugc-net-cse-january-2017-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/335124/ugc-net-cse-january-2017-part-2-question-39</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"225827\"></a><div itemprop=\"text\"><p>Consider the following three processes with the arrival time and CPU burst time given in miliseconds:</p><table border=\"0\" cellpadding=\"1\" style=\"width:300px; border-spacing: 1px;\"><tbody><tr><td>Process</td><td>Arrival Time</td><td>Burst Time</td></tr><tr><td>\\( P_1 \\)</td><td>0</td><td>7</td></tr><tr><td>\\( P_2 \\)</td><td>1</td><td>4</td></tr><tr><td>\\( P_3 \\)</td><td>2</td><td>8</td></tr></tbody></table><p>The Gantt Chart for preemptive SJF scheduling&nbsp;algorithm is _______</p><p>&nbsp;</p></div><br><br><b>Operating System: UGC NET CSE | July 2018 | Part 2 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>&nbsp;<img alt=\"gantt chart option A\" width=\"400\" height=\"60\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4945316690670325275\"></p>",
+            "<p><img alt=\"Gantt chart option B\" width=\"450\" height=\"54\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6227702991909127684\"></p>",
+            "<p><img alt=\"Gantt chart option C\" width=\"450\" height=\"54\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=5366456324877032250\"></p>",
+            "<p><img alt=\"Gantt chart option D\" width=\"450\" height=\"54\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=13532560481366519300\"></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225827/ugc-net-cse-july-2018-part-2-question-59\" target=\"_blank\">https://gateoverflow.in/225827/ugc-net-cse-july-2018-part-2-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

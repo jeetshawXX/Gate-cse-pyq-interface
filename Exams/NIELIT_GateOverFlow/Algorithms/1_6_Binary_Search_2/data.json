@@ -1,0 +1,41 @@
+{
+  "title": "Algorithms - Binary Search",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Binary Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369325\"></a><div itemprop=\"text\"><p>The recurrence relation for binary search algorithm is :</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{T(n) = 2T (n/2) + O (1)} \\)</p>",
+            "<p>\\( \\text{T(n) = 2T (n/2) + O (n)} \\)</p>",
+            "<p>\\( \\text{T(n) = T (n/2) + O (1)} \\)</p>",
+            "<p>\\( \\text{T(n) = T (n/2) + O (n)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{T(n) = T (n/2) + O (1)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369325/nielit-2021-dec-scientist-a-section-b-88\" target=\"_blank\">https://gateoverflow.in/369325/nielit-2021-dec-scientist-a-section-b-88</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351581\"></a><div itemprop=\"text\"><p>The program written for binary search, calculates the midpoint of the span as \\( \\text{mid : =(Low+High)/2} \\). The program works well if the number of elements in the list is small (about \\( 32,000 \\)) but it behaves abnormally when the number of elements is large. This can be avoided by performing the calculation as:</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 101</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{mid :=(High-Low)/2+Low} \\)</p>",
+            "<p>\\( \\text{mid :=(High-Low+1)/2} \\)</p>",
+            "<p>\\( \\text{mid :=(High-Low)/2} \\)</p>",
+            "<p>\\( \\text{mid :=(High+Low)/2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{mid :=(High-Low)/2+Low} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351581/nielit-scientist-b-2020-november-101\" target=\"_blank\">https://gateoverflow.in/351581/nielit-scientist-b-2020-november-101</a></p>"
+        }
+      ]
+    }
+  ]
+}

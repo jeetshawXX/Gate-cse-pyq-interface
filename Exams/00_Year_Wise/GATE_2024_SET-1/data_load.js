@@ -1,0 +1,965 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2024_SET-1",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "questions": [
+        {
+          "id": 56,
+          "question": "<p>If '\\( \\rightarrow \\)' denotes increasing order of intensity, then the meaning of the words\n[dry \\( \\rightarrow \\) arid \\( \\rightarrow \\) parched] is analogous to [diet \\( \\rightarrow \\) fast \\( \\rightarrow \\) _____].\n<br>\nWhich one of the given options is appropriate to fill the blank?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>starve</p>",
+            "<b>B.</b> <p>reject</p>",
+            "<b>C.</b> <p>feast</p>",
+            "<b>D.</b> <p>deny</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>starve</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422786/gate-cse-2024-set-1-ga-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>If two distinct non-zero real variables \\( x \\) and \\( y \\) are such that \\( (x+y) \\) is proportional to \\( (x-y) \\) then the value of \\( \\frac{x}{y} \\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>depends on \\( x y \\)</p>",
+            "<b>B.</b> <p>depends only on \\( x \\) and not on \\( y \\)</p>",
+            "<b>C.</b> <p>depends only on \\( y \\) and not on \\( x \\)</p>",
+            "<b>D.</b> <p>is a constant</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>is a constant</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422785/gate-cse-2024-set-1-ga-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Consider the following sample of numbers:<br><br>\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13<br><br>\nThe median of the sample is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13.5</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>18.7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>13.5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422784/gate-cse-2024-set-1-ga-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>The number of coins of Rs. 1, Rs. 5, and Rs. 10 denominations that a person has are in the\nratio 5:3:13. Of the total amount, the percentage of money in Rs. 5 coins is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( 21\\%\\)</p>",
+            "<b>B.</b> <p>\\(14 \\frac{2}{7} \\% \\)</p>",
+            "<b>C.</b> <p>\\( 10\\%\\)</p>",
+            "<b>D.</b> <p>\\( 30\\%\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\( 10\\%\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422783/gate-cse-2024-set-1-ga-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>For positive non-zero real variables \\( p \\) and \\( q \\), if\n<br> \\(\n\\log \\left(p^2+q^2\\right)=\\log p+\\log q+2 \\log 3 \\text {, }\n\\) <br>\nthen, the value of \\( \\frac{p^4+q^4}{p^2 q^2} \\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>79</p>",
+            "<b>B.</b> <p>81</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>83</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>79</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422782/gate-cse-2024-set-1-ga-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>In the given text, the blanks are numbered (i)-(iv). Select the best match for all the\nblanks.  <br>\nSteve was advised to keep his head ___(i)___ before heading __(ii)__ to bat;\nfor, while he had a head __(iii)__ batting, he could only do so with a cool head\ns __(iv)__ his shoulders</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) down (ii) down (iii) on (iv) for</p>",
+            "<b>B.</b> <p>(i) on (ii) down (iii) for (iv) on</p>",
+            "<b>C.</b> <p>(i) down (ii) out (iii) for (iv) on</p>",
+            "<b>D.</b> <p>(i) on (ii) out (iii) on (iv) for</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(i) down (ii) out (iii) for (iv) on</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422781/gate-cse-2024-set-1-ga-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>A rectangular paper sheet of dimensions 54cm x 4cm is taken. The two longer\nedges of the sheet are joined together to create a cylindrical tube. A cube whose\nsurface area is equal to the area of the sheet is also taken.<br>\nThen, the ratio of the volume of the cylindrical tube to the volume of the cube is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/\\pi\\)</p>",
+            "<b>B.</b> <p>\\(2/\\pi\\)</p>",
+            "<b>C.</b> <p>\\(3/\\pi\\)</p>",
+            "<b>D.</b> <p>\\(4/\\pi\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(1/\\pi\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422780/gate-cse-2024-set-1-ga-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>The pie chart presents the percentage contribution of different macronutrients to a\ntypical 2,000 kcal diet of a person.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2024_SET-1\\q63_def58119.webp\"><br>\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n<br>\\(\n\\begin{array}{|l|c|}\n\\hline Macronutrient &amp; Energy density (kcal/g) \\\\\n\\hline Carbohydrates &amp;4\\\\\n\\hline Proteins &amp;4 \\\\\n\\hline Unsaturated fat &amp;9 \\\\\n\\hline Saturated fat &amp;9 \\\\\n\\hline Trans fat &amp;9 \\\\\n\\hline\n\\end{array}\\)<br>The total fat (all three types), in grams, this person consumes is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>44.4</p>",
+            "<b>B.</b> <p>77.8</p>",
+            "<b>C.</b> <p>100</p>",
+            "<b>D.</b> <p>3600</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>100</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422779/gate-cse-2024-set-1-ga-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>A rectangular paper of 20cm x 8cm is folded 3 times. Each fold is made along the\nline of symmetry, which is perpendicular to its long edge. The perimeter of the final\nfolded sheet (in cm) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>18</p>",
+            "<b>B.</b> <p>24</p>",
+            "<b>C.</b> <p>20</p>",
+            "<b>D.</b> <p>21</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>18</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422778/gate-cse-2024-set-1-ga-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>The least number of squares to be added in the figure to make AB a line of\nsymmetry is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2024_SET-1\\q65_37b86276.webp\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422777/gate-cse-2024-set-1-ga-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    },
+    {
+      "name": "Computer Science Engineer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(f: \\mathbb{R} \\rightarrow \\mathbb{R} \\) be a function such that \\(f(x)=\\max \\left\\{x, x^3\\right\\}, x \\in \\mathbb{R} \\), where \\(\\mathbb{R} \\) is the set of all real numbers. The set of all points where \\(f(x) \\) is NOT differentiable is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1,1,2 \\)</p>",
+            "<b>B.</b> <p>\\(-2,-1,1 \\)</p>",
+            "<b>C.</b> <p>\\(0,1 \\)</p>",
+            "<b>D.</b> <p>\\(-1,0,1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(-1,0,1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422841/gate-cse-2024-set-1-question-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The product of all eigenvalues of the matrix \\(\\begin{bmatrix}\n1 &amp; 2 &amp; 3\\\\\n4 &amp; 5 &amp;6 \\\\\n7 &amp;8  &amp; 9\n\\end{bmatrix}\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1\\)</p>",
+            "<b>B.</b> <p>\\(0\\)</p>",
+            "<b>C.</b> <p>\\(1\\)</p>",
+            "<b>D.</b> <p>\\(2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a system that uses 5 bits for representing signed integers in 2's complement format. In this system, two integers \\(A \\) and \\(B \\) are represented as \\(A=01010 \\) and \\(B=11010 \\). Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A+B \\)</p>",
+            "<b>B.</b> <p>\\(A-B \\)</p>",
+            "<b>C.</b> <p>\\(B-A \\)</p>",
+            "<b>D.</b> <p>\\(2 * B \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A-B \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422839/gate-cse-2024-set-1-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a permutation sampled uniformly at random from the set of all permutations of \\(\\{1,2,3, \\cdots, n\\} \\) for some \\(n \\geq 4 \\). Let \\(X \\) be the event that 1 occurs before 2 in the permutation, and \\(Y \\) the event that 3 occurs before 4 . Which one of the following statements is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The events \\(X \\) and \\(Y \\) are mutually exclusive</p>",
+            "<b>B.</b> <p>The events \\(X \\) and \\(Y \\) are independent</p>",
+            "<b>C.</b> <p>Either event \\(X \\) or \\(Y \\) must occur</p>",
+            "<b>D.</b> <p>Event \\(X \\) is more likely than event \\(Y \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The events \\(X \\) and \\(Y \\) are independent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which one of the following statements is FALSE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In the cycle stealing mode of DMA, one word of data is transferred between an I/O\ndevice and main memory in a stolen cycle</p>",
+            "<b>B.</b> <p>For bulk data transfer, the burst mode of DMA has a higher throughput than the\ncycle stealing mode</p>",
+            "<b>C.</b> <p>Programmed I/O mechanism has a better CPU utilization than the interrupt driven\nI/O mechanism</p>",
+            "<b>D.</b> <p>The CPU can start executing an interrupt service routine faster with vectored\ninterrupts than with non-vectored interrupts</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Programmed I/O mechanism has a better CPU utilization than the interrupt driven\nI/O mechanism</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422837/gate-cse-2024-set-1-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A user starts browsing a webpage hosted at a remote server. The browser opens a\nsingle TCP connection to fetch the entire webpage from the server. The webpage\nconsists of a top-level index page with multiple embedded image objects. Assume\nthat all caches (e.g., DNS cache, browser cache) are all initially empty. The\nfollowing packets leave the user's computer in some order.<br><br>\n(i) HTTP GET request for the index page<br>\n(ii) DNS request to resolve the web server's name to its IP address<br>\n(iii) HTTP GET request for an image object<br>\n(iv) TCP SYN to open a connection to the web server<br><br>\nWhich one of the following is the CORRECT chronological order (earliest in time\nto latest) of the packets leaving the computer ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(iv), (ii), (iii), (i)</p>",
+            "<b>B.</b> <p>(ii), (iv), (iii), (i)</p>",
+            "<b>C.</b> <p>(ii), (iv), (i), (iii)</p>",
+            "<b>D.</b> <p>(iv), (ii), (i), (iii)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(ii), (iv), (i), (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422836/gate-cse-2024-set-1-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given an integer array of size \\(N\\), we want to check if the array is sorted (in either\nascending or descending order). An algorithm solves this problem by making a\nsingle pass through the array and comparing each element of the array only with its\nadjacent elements. The worst-case time complexity of this algorithm is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>both \\(\\mathrm{O}(N) \\) and \\(\\Omega(N) \\)</p>",
+            "<b>B.</b> <p>\\(\\mathrm{O}(N) \\) but not \\(\\Omega(N) \\)</p>",
+            "<b>C.</b> <p>\\(\\Omega(N) \\) but not \\(\\mathrm{O}(N) \\)</p>",
+            "<b>D.</b> <p>neither \\(\\mathrm{O}(N) \\) nor \\(\\Omega(N) \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>both \\(\\mathrm{O}(N) \\) and \\(\\Omega(N) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422835/gate-cse-2024-set-1-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nint main(){\nint a = 6;\nint b = 0;\nwhile(a &lt; 10) {\na = a / 12 + 1;\na += b;}\nprintf(\"%d\", a);\nreturn 0;}\n</code></pre>Which one of the following statements is CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The program prints 9 as output</p>",
+            "<b>B.</b> <p>The program prints 10 as output</p>",
+            "<b>C.</b> <p>The program gets stuck in an infinite loop</p>",
+            "<b>D.</b> <p>The program prints 6 as output</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The program gets stuck in an infinite loop</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422834/gate-cse-2024-set-1-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nvoid fX();\nint main(){\nfX();\nreturn 0;}\n\nvoid fX(){\nchar a;\nif((a=getchar()) != '\\n')\nfX();\nif(a != '\\n')\nputchar(a);}</code></pre>\nAssume that the input to the program from the command line is 1234 followed by\na newline character. Which one of the following statements is CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The program will not terminate</p>",
+            "<b>B.</b> <p>The program will terminate with no outpu</p>",
+            "<b>C.</b> <p>The program will terminate with 4321 as output</p>",
+            "<b>D.</b> <p>The program will terminate with 1234 as output</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The program will terminate with 4321 as output</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422833/gate-cse-2024-set-1-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let S be the specification: \"Instructors teach courses. Students register for courses.\nCourses are allocated classrooms. Instructors guide students.\" Which one of the\nfollowing ER diagrams CORRECTLY represents S? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2024_SET-1\\q10_4a9e0516.webp\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i)</p>",
+            "<b>B.</b> <p>(ii)</p>",
+            "<b>C.</b> <p>(iii)</p>",
+            "<b>D.</b> <p>(iv)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422832/gate-cse-2024-set-1-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed\nfor which one of the following cases?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only the root node</p>",
+            "<b>B.</b> <p>All leaf nodes</p>",
+            "<b>C.</b> <p>All internal nodes</p>",
+            "<b>D.</b> <p>Only the leftmost leaf node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only the root node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422831/gate-cse-2024-set-1-question-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following statements about a relation R in first normal form (1NF)\nis/are TRUE ?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>R can have a multi-attribute key</p>",
+            "<b>B.</b> <p>R cannot have a foreign key</p>",
+            "<b>C.</b> <p>R cannot have a composite attribute</p>",
+            "<b>D.</b> <p>R cannot have more than one candidate key</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>R can have a multi-attribute key</p>",
+            "<b>C.</b> <p>R cannot have a composite attribute</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422830/gate-cse-2024-set-1-question-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let \\(L_1, L_2 \\) be two regular languages and \\(L_3 \\) a language which is not regular. Which of the following statements is/are always TRUE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(L_1=L_2 \\) if and only if \\(L_1 \\cap \\overline{L_2}=\\phi \\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\cup L_3 \\) is not regular</p>",
+            "<b>C.</b> <p>\\(\\overline{L_3} \\) is not regular</p>",
+            "<b>D.</b> <p>\\(\\overline{L_1} \\cup \\overline{L_2} \\) is regular</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>\\(\\overline{L_3} \\) is not regular</p>",
+            "<b>D.</b> <p>\\(\\overline{L_1} \\cup \\overline{L_2} \\) is regular</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422829/gate-cse-2024-set-1-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following statements about threads is/are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Threads can only be implemented in kernel space</p>",
+            "<b>B.</b> <p>Each thread has its own file descriptor table for open files</p>",
+            "<b>C.</b> <p>All the threads belonging to a process share a common stack</p>",
+            "<b>D.</b> <p>Threads belonging to a process are by default not protected from each other</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Threads belonging to a process are by default not protected from each other</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422828/gate-cse-2024-set-1-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following process state transitions is/are NOT possible?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Running to Ready</p>",
+            "<b>B.</b> <p>Waiting to Running</p>",
+            "<b>C.</b> <p>Ready to Waiting</p>",
+            "<b>D.</b> <p>Running to Terminated</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>Waiting to Running</p>",
+            "<b>C.</b> <p>Ready to Waiting</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422827/gate-cse-2024-set-1-question-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Which of the following is/are Bottom-Up Parser(s)?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Shift-reduce Parser</p>",
+            "<b>B.</b> <p>Predictive Parser</p>",
+            "<b>C.</b> <p>LL(1) Parser</p>",
+            "<b>D.</b> <p>LR Parser</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Shift-reduce Parser</p>",
+            "<b>D.</b> <p>LR Parser</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422826/gate-cse-2024-set-1-question-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Let \\(A \\) and \\(B \\) be two events in a probability space with \\(P(A)=0.3, P(B)=0.5 \\), and \\(P(A \\cap B)=0.1 \\). Which of the following statements is/are TRUE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The two events \\(A \\) and \\(B \\) are independent</p>",
+            "<b>B.</b> <p>\\(P(A \\cup B)=0.7\\)</p>",
+            "<b>C.</b> <p>\\(P\\left(A \\cap B^c\\right)=0.2 \\), where \\(B^c \\) is the complement of the event \\(B \\)</p>",
+            "<b>D.</b> <p>\\(P\\left(A^c \\cap B^c\\right)=0.4 \\), where \\(A^c \\) and \\(B^c \\) are the complements of the events \\(A \\) and \\(B \\), respectively</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(P(A \\cup B)=0.7\\)</p>",
+            "<b>C.</b> <p>\\(P\\left(A \\cap B^c\\right)=0.2 \\), where \\(B^c \\) is the complement of the event \\(B \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422825/gate-cse-2024-set-1-question-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider the circuit shown below where the gates may have propagation delays.\nAssume that all signal transitions occur instantaneously and that wires have no\ndelays. Which of the following statements about the circuit is/are CORRECT?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2024_SET-1\\q18_c69f200a.webp\"><br></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>With no propagation delays, the output Y is always logic Zero</p>",
+            "<b>B.</b> <p>With no propagation delays, the output Y is always logic One</p>",
+            "<b>C.</b> <p>With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One</p>",
+            "<b>D.</b> <p>With propagation delays, the output Y can have a transient logic Zero after X\ntransitions from logic One to logic Zero</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>With no propagation delays, the output Y is always logic Zero</p>",
+            "<b>C.</b> <p>With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422824/gate-cse-2024-set-1-question-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>TCP client P successfully establishes a connection to TCP server \\(\\mathrm{Q} \\). Let \\(N_P \\) denote the sequence number in the SYN sent from \\(\\mathrm{P} \\) to \\(\\mathrm{Q} \\). Let \\(N_Q \\) denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The sequence number \\(N_P \\) is chosen randomly by \\(\\mathrm{P} \\)</p>",
+            "<b>B.</b> <p>The sequence number \\(N_P \\) is always 0 for a new connection</p>",
+            "<b>C.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P \\)</p>",
+            "<b>D.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P+1 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The sequence number \\(N_P \\) is chosen randomly by \\(\\mathrm{P} \\)</p>",
+            "<b>D.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P+1 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422823/gate-cse-2024-set-1-question-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>In a pipelined execution, forwarding means the result from a source stage of an\nearlier instruction is passed on to the destination stage of a later instruction</p>",
+            "<b>B.</b> <p>In forwarding, data from the output of the MEM stage can be passed on to the\ninput of the EX stage of the next instruction</p>",
+            "<b>C.</b> <p>Forwarding cannot prevent all pipeline stalls</p>",
+            "<b>D.</b> <p>Forwarding does not require any extra hardware to retrieve the data from the\npipeline stages</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>In a pipelined execution, forwarding means the result from a source stage of an\nearlier instruction is passed on to the destination stage of a later instruction</p>",
+            "<b>B.</b> <p>In forwarding, data from the output of the MEM stage can be passed on to the\ninput of the EX stage of the next instruction</p>",
+            "<b>C.</b> <p>Forwarding cannot prevent all pipeline stalls</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422822/gate-cse-2024-set-1-question-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Which of the following fields is/are modified in the IP header of a packet going out\nof a network address translation (NAT) device from an internal network to an\nexternal network?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Source IP</p>",
+            "<b>B.</b> <p>Destination IP</p>",
+            "<b>C.</b> <p>Header Checksum</p>",
+            "<b>D.</b> <p>Total Length</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Source IP</p>",
+            "<b>C.</b> <p>Header Checksum</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422821/gate-cse-2024-set-1-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Let \\(A \\) and \\(B \\) be non-empty finite sets such that there exist one-to-one and onto functions (i) from \\(A \\) to \\(B \\) and (ii) from \\(A \\times A \\) to \\(A \\cup B \\). The number of possible values of \\(|A| \\) is ___</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422820/gate-cse-2024-set-1-question-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below.<br>\n\\(\\begin{array}{|c|l|l|}\n\\hline Operator &amp; Precedence &amp; Associativity \\\\\n\\hline+ &amp; Highest &amp; Left \\\\\n\\hline- &amp; High &amp; Right \\\\\n\\hline* &amp; Medium &amp; Right \\\\\n\\hline  /  &amp; Low &amp; Right \\\\\n\\hline\n\\end{array}\n\\)<br>\nThe value of the expression \\(3+1+5 * 2 / 7+2-4-7-6 / 2 \\) as per the above rules is _____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422819/gate-cse-2024-set-1-question-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>The number of spanning trees in a complete graph of 4 vertices labelled A, B, C,\nand D is _________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422818/gate-cse-2024-set-1-question-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Consider the following two relations, \\(R(A, B) \\) and \\(S(A, C) \\) :<br>\\(\\boldsymbol{R}\n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  &amp; \\boldsymbol{B}  \\\\\n\\hline 10 &amp; 20 \\\\\n\\hline 20 &amp; 30 \\\\\n\\hline 30 &amp; 40 \\\\\n\\hline 30 &amp; 50 \\\\\n\\hline 50 &amp; 95 \\\\\n\\hline\n\\end{array}\\)<br><br> <br>\\(\\boldsymbol{S}\n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  &amp; \\boldsymbol{C}  \\\\\n\\hline 10 &amp; 90 \\\\\n\\hline 30 &amp; 45 \\\\\n\\hline 40 &amp; 80 \\\\\n\\hline\n\\end{array}\n\\)<br>\nThe total number of tuples obtained by evaluating the following expression \\( \\sigma_{B \\lt C}\\left(R \\bowtie_{R . A=S . A} S\\right) \\)\nis ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422817/gate-cse-2024-set-1-question-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider a network path \\(\\mathrm{P}-\\mathrm{Q}-\\mathrm{R} \\) between nodes \\(\\mathrm{P} \\) and \\(\\mathrm{R} \\) via router \\(\\mathrm{Q} \\). Node \\(\\mathrm{P} \\) sends a file of size \\(10^6 \\) bytes to \\(R \\) via this path by splitting the file into chunks of \\(10^3 \\) bytes each. Node \\(P \\) sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n<br>\nEach of the links \\(\\mathrm{P}-\\mathrm{Q} \\) and \\(\\mathrm{Q}-\\mathrm{R} \\) has a bandwidth of \\(10^6 \\mathrm{bits} / \\mathrm{sec} \\), and negligible propagation latency. Router \\(Q \\) immediately transmits every packet it receives from \\(P \\) to \\(R \\), with negligible processing and queueing delays. Router \\(Q \\) can simultaneously receive on link \\(P-Q \\) and transmit on \\(\\operatorname{link} Q-R \\).\n<br>\nAssume P starts transmitting the chunks at time \\(t=0 \\).\nWhich one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which \\(\\mathrm{R} \\) receives all the chunks of the file?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>8.008</p>",
+            "<b>C.</b> <p>15.992</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8.008</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Consider the following syntax-directed definition (SDD).<br><br>\\(\n\\begin{array}{|l|l|}\n\\hline S \\rightarrow  DHTU &amp; \\{ S.val = D.val + H.val + T.val + U.val; \\} \\\\\n\\hline D \\rightarrow \"M\"D_1 &amp;  \\{ D.val =5+D_1 . val; \\} \\\\\n\\hline D \\rightarrow \\epsilon  &amp; \\{ D.val =-5 ;\\} \\\\\n\\hline H \\rightarrow \"L\" H_1 &amp; \\{ H.val =5 * 10+H_1 . val; \\} \\\\\n\\hline H \\rightarrow \\epsilon  &amp;  \\{ H.val =-10 ;\\} \\\\\n\\hline T \\rightarrow  \"C\"  T_1  &amp;  \\{T . v a l=5 * 100+T_1 . val; \\} \\\\\n\\hline T \\rightarrow \\epsilon  &amp;  \\{T . v a l=-5 ;\\}  \\\\\n\\hline U \\rightarrow  \"K\" &amp;  \\{  U.val =5 ;\\}  \\\\\n\\hline\n\\end{array}\n\\)<br><br>\nGiven \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute S.val)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>45</p>",
+            "<b>B.</b> <p>50</p>",
+            "<b>C.</b> <p>55</p>",
+            "<b>D.</b> <p>65</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>45</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422815/gate-cse-2024-set-1-question-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the following grammar \\(G \\), with \\(S \\) as the start symbol. The grammar \\(G \\) has three incomplete productions denoted by (1), (2), and (3).<br><br>\n\\(\n\\begin{aligned}\n&amp; S \\rightarrow d a T \\mid \\quad(1) \\\\\n&amp; T \\rightarrow a S|b T|(2) \\\\\n&amp; R \\rightarrow \\text { (3) } \\mid \\epsilon\n\\end{aligned}\n\\)\n<br><br>\nThe set of terminals is \\(\\{a, b, c, d, f\\} \\). The FIRST and FOLLOW sets of the different non-terminals are as follows.<br><br>\n\\(\n\\begin{aligned}\n&amp; \\operatorname{FIRST}(S)=\\{c, d, f\\}, \\operatorname{FIRST}(T)=\\{a, b, \\epsilon\\}, \\operatorname{FIRST}(R)=\\{c, \\epsilon\\} \\\\\n&amp; \\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c, f, \\$\\}, \\operatorname{FOLLOW}(R)=\\{f\\}\n\\end{aligned}\n\\)\n<br><br>\nWhich one of the following options CORRECTLY fills in the incomplete productions?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1) \\(S \\rightarrow R f \\)\n(2) \\(T \\rightarrow \\epsilon \\)\n(3) \\(R \\rightarrow c T R \\)</p>",
+            "<b>B.</b> <p>(1) \\(S \\rightarrow f R \\)\n(2) \\(T \\rightarrow \\epsilon \\)\n(3) \\(R \\rightarrow c T R \\)</p>",
+            "<b>C.</b> <p>(1) \\(S \\rightarrow f R \\)\n(2) \\(T \\rightarrow c T \\)\n(3) \\(R \\rightarrow c R \\)</p>",
+            "<b>D.</b> <p>(1) \\(S \\rightarrow R f \\)\n(2) \\(T \\rightarrow c T \\)\n(3) \\(R \\rightarrow c R \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(1) \\(S \\rightarrow R f \\)\n(2) \\(T \\rightarrow \\epsilon \\)\n(3) \\(R \\rightarrow c T R \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422814/gate-cse-2024-set-1-question-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following pseudo-code.<br>\\(\n\\begin{array}{ll}\nL 1: &amp; t 1=-1 \\\\\nL 2: &amp; t 2=0 \\\\\nL 3: &amp; t 3=0 \\\\\nL 4: &amp; t 4=4 * t 3 \\\\\nL 5: &amp; t 5=4 * t 2 \\\\\nL 6: &amp; t 6=t 5 * M \\\\\nL 7: &amp; t 7=t 4+t 6 \\\\\nL 8: &amp; t 8=a[t 7] \\\\\nL 9: &amp; if \\; t 8 \\lt = max  \\; goto  \\; L 11 \\\\\nL 10: &amp; t 1=t 8 \\\\\nL 11: &amp; t 3=t 3+1 \\\\\nL 12: &amp; if  \\; t 3 \\lt M  \\;  goto L 4 \\\\\nL 13: &amp; t 2=t 2+1 \\\\\nL 14: &amp; if  \\; t 2 \\lt N  \\; goto  \\; L 3 \\\\\nL 15: &amp; max =t 1\n\\end{array}\n\\)<br>\nWhich of of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 6</p>",
+            "<b>B.</b> <p>6 and 7</p>",
+            "<b>C.</b> <p>7 and 7</p>",
+            "<b>D.</b> <p>7 and 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>7 and 6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422813/gate-cse-2024-set-1-question-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Consider the following two threads \\(\\mathrm{T} 1 \\) and \\(\\mathrm{T} 2 \\) that update two shared variables \\(\\mathrm{a} \\) and \\(\\mathrm{b} \\). Assume that initially \\(\\mathrm{a}=\\mathrm{b}=1 \\). Though context switching between threads can happen at any time, each statement of \\(\\mathrm{T} 1 \\) or \\(\\mathrm{T} 2 \\) is executed atomically without interruption.<br><br>\n\\(\n\\begin{array}{cc}\n\\mathrm{T} 1 &amp; \\mathrm{~T} 2 \\\\\n\\mathrm{a}=\\mathrm{a}+1 ; &amp; \\mathrm{b}=2*\\mathrm{b} ; \\\\\n\\mathrm{b}=\\mathrm{b}+1 ; &amp; \\mathrm{a}=2*\\mathrm{a} ;\n\\end{array}\n\\)\n<br><br>\nWhich one of the following options lists all the possible combinations of values of \\(\\mathrm{a} \\) and \\(\\mathrm{b} \\) after both \\(\\mathrm{T} 1 \\) and \\(\\mathrm{T} 2 \\) finish execution?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(a=4, b=4) ;(a=3, b=3) ;(a=4, b=3)</p>",
+            "<b>B.</b> <p>(a=3, b=4) ;(a=4, b=3) ;(a=3, b=3)</p>",
+            "<b>C.</b> <p>(a=4, b=4) ;(a=4, b=3) ;(a=3, b=4)</p>",
+            "<b>D.</b> <p>(a=2, b=2) ;(a=2, b=3) ;(a=3, b=4)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(a=4, b=4) ;(a=3, b=3) ;(a=4, b=3)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422812/gate-cse-2024-set-1-question-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>An array \\([82,101,90,11,111,75,33,131,44,93] \\) is heapified. Which one of the following options represents the first three elements in the heapified array?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(82,90,101 \\)</p>",
+            "<b>B.</b> <p>\\(82,11,93 \\)</p>",
+            "<b>C.</b> <p>\\(131,11,93 \\)</p>",
+            "<b>D.</b> <p>\\(131,111,90 \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(131,111,90 \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422811/gate-cse-2024-set-1-question-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider the following recurrence relation:\n<br> \\(\nT(n)=\\left\\{\\begin{array}{c}\n\\sqrt{n} T(\\sqrt{n})+n \\text { for } n \\geq 1, \\\\\n1 \\quad \\text { for } n=1 .\n\\end{array}\\right.\n\\) <br>Which one of the following options is CORRECT?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=\\Theta(n \\log \\log n)</p>",
+            "<b>B.</b> <p>T(n)=\\Theta(n \\log n)</p>",
+            "<b>C.</b> <p>T(n)=\\Theta\\left(n^2 \\log n\\right)</p>",
+            "<b>D.</b> <p>T(n)=\\Theta\\left(n^2 \\log \\log n\\right)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T(n)=\\Theta(n \\log \\log n)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422810/gate-cse-2024-set-1-question-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider a binary min-heap containing 105 distinct elements. Let \\(k\\)  be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of \\(k\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>53</p>",
+            "<b>B.</b> <p>52</p>",
+            "<b>C.</b> <p>27</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>53</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422809/gate-cse-2024-set-1-question-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>The symbol \\( \\rightarrow \\) indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\( (X, Y) \\rightarrow(Z, W) \\text { implies } X \\rightarrow(Z, W)  \\)</p>",
+            "<b>B.</b> <p>\\( (X, Y) \\rightarrow(Z, W) \\text { implies }(X, Y) \\rightarrow Z  \\)</p>",
+            "<b>C.</b> <p>\\( ((X, Y) \\rightarrow Z \\text { and } W \\rightarrow Y) \\text { implies }(X, W) \\rightarrow Z  \\)</p>",
+            "<b>D.</b> <p>\\( (X \\rightarrow Y \\text { and } Y \\rightarrow Z) \\text { implies } X \\rightarrow Z \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\( (X, Y) \\rightarrow(Z, W) \\text { implies }(X, Y) \\rightarrow Z  \\)</p>",
+            "<b>C.</b> <p>\\( ((X, Y) \\rightarrow Z \\text { and } W \\rightarrow Y) \\text { implies }(X, W) \\rightarrow Z  \\)</p>",
+            "<b>D.</b> <p>\\( (X \\rightarrow Y \\text { and } Y \\rightarrow Z) \\text { implies } X \\rightarrow Z \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422808/gate-cse-2024-set-1-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Let \\( G \\) be a directed graph and \\( T \\) a depth first search (DFS) spanning tree in \\( G \\) that is rooted at a vertex \\( v \\). Suppose \\( T \\) is also a breadth first search (BFS) tree in \\( G \\), rooted at \\( v \\). Which of the following statements is/are TRUE for every such graph \\( G \\) and tree \\( T \\) ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There are no back-edges in \\( G \\) with respect to the tree \\( T \\)</p>",
+            "<b>B.</b> <p>There are no cross-edges in \\( G \\) with respect to the tree \\( T \\)</p>",
+            "<b>C.</b> <p>There are no forward-edges in \\( G \\) with respect to the tree \\( T \\)</p>",
+            "<b>D.</b> <p>The only edges in \\( G \\) are the edges in \\( T \\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>There are no forward-edges in \\( G \\) with respect to the tree \\( T \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422807/gate-cse-2024-set-1-question-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider the following read-write schedule \\( S \\) over three transactions \\( T_1, T_2 \\), and \\( T_3 \\), where the subscripts in the schedule indicate transaction IDs:\n<br> <br>\\(\nS: r_1(z) ; w_1(z) ; r_2(x) ; r_3(y) ; w_3(y) ; r_2(y) ; w_2(x) ; w_2(y) ;\n\\) <br><br>Which of the following transaction schedules is/are conflict equivalent to \\( S \\) ?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\( T_1 T_2 T_3 \\)</p>",
+            "<b>B.</b> <p>\\( T_1 T_3 T_2 \\)</p>",
+            "<b>C.</b> <p>\\( T_3 T_2 T_1 \\)</p>",
+            "<b>D.</b> <p>\\( T_3 T_1 T_2 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\( T_1 T_3 T_2 \\)</p>",
+            "<b>C.</b> <p>\\( T_3 T_2 T_1 \\)</p>",
+            "<b>D.</b> <p>\\( T_3 T_1 T_2 \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422806/gate-cse-2024-set-1-question-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider a Boolean expression given by \\( F(X, Y, Z)=\\Sigma(3,5,6,7) \\).<br>\nWhich of the following statements is/are CORRECT?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(F(X, Y, Z)=\\Pi(0,1,2,4)\\)</p>",
+            "<b>B.</b> <p>\\(F(X, Y, Z)=X Y+Y Z+X Z\\)</p>",
+            "<b>C.</b> <p>\\( F(X, Y, Z) \\) is independent of input \\( Y \\)</p>",
+            "<b>D.</b> <p>\\( F(X, Y, Z) \\) is independent of input \\( X \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(F(X, Y, Z)=\\Pi(0,1,2,4)\\)</p>",
+            "<b>B.</b> <p>\\(F(X, Y, Z)=X Y+Y Z+X Z\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422805/gate-cse-2024-set-1-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the following C function definition.<pre><code>\nint f(int x, int y) {\nfor (int i=0; i &lt; y; i++) {\nx=x+x+y;\n}\nreturn x;\n}</code></pre>\nWhich of the following statements is/are TRUE about the above function?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>If the inputs are \\( x=20, y=10 \\), then the return value is greater than \\( 2^{20} \\)</p>",
+            "<b>B.</b> <p>If the inputs are \\( x=20, y=20 \\), then the return value is greater than \\( 2^{20} \\)</p>",
+            "<b>C.</b> <p>If the inputs are \\( x=20, y=10 \\), then the return value is less than \\( 2^{10} \\)</p>",
+            "<b>D.</b> <p>If the inputs are \\( x=10, y=20 \\), then the return value is greater than \\( 2^{20} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>If the inputs are \\( x=20, y=20 \\), then the return value is greater than \\( 2^{20} \\)</p>",
+            "<b>D.</b> <p>If the inputs are \\( x=10, y=20 \\), then the return value is greater than \\( 2^{20} \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422804/gate-cse-2024-set-1-question-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Let \\( A \\) be any \\( n \\times m \\) matrix, where \\( m &gt; n \\). Which of the following statements is/are TRUE about the system of linear equations \\( A x=0 \\) ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exist at least \\( m-n \\) linearly independent solutions to this system</p>",
+            "<b>B.</b> <p>There exist \\( m-n \\) linearly independent vectors such that every solution is a linear combination of these vectors</p>",
+            "<b>C.</b> <p>There exists a non-zero solution in which at least \\( m-n \\) variables are 0</p>",
+            "<b>D.</b> <p>There exists a solution in which at least \\( n \\) variables are non-zero</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exist at least \\( m-n \\) linearly independent solutions to this system</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Consider the 5 -state DFA \\( M \\) accepting the language \\( L(M) \\subset(0+1)^* \\) shown below. For any string \\( w \\in(0+1)^* \\) let \\( n_0(w) \\) be the number of \\( 0^{\\prime} s \\) in \\( w \\) and \\( n_1(w) \\) be the number of 1 's in \\( w \\).\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2024_SET-1\\q40_978712f8.webp\"><br>\nWhich of the following statements is/are FALSE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>States 2 and 4 are distinguishable in \\( M \\)</p>",
+            "<b>B.</b> <p>States 3 and 4 are distinguishable in \\( M \\)</p>",
+            "<b>C.</b> <p>States 2 and 5 are distinguishable in \\( M \\)</p>",
+            "<b>D.</b> <p>Any string \\( w \\) with \\( n_0(w)=n_1(w) \\) is in \\( L(M) \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>States 3 and 4 are distinguishable in \\( M \\)</p>",
+            "<b>C.</b> <p>States 2 and 5 are distinguishable in \\( M \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422802/gate-cse-2024-set-1-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let \\( G \\) be any graph with \\( n \\) vertices and chromatic number \\( k \\). Which of the following statements is/are always TRUE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(G\\) contains a complete subgraph with \\(k\\) vertices</p>",
+            "<b>B.</b> <p>\\(G\\) contains an independent set of size at least \\(n/k\\)</p>",
+            "<b>C.</b> <p>\\(G\\) contains at least \\(k(k - 1)/2\\) edges</p>",
+            "<b>D.</b> <p>\\(G\\) contains a vertex of degree at least \\(k\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(G\\) contains an independent set of size at least \\(n/k\\)</p>",
+            "<b>C.</b> <p>\\(G\\) contains at least \\(k(k - 1)/2\\) edges</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422801/gate-cse-2024-set-1-question-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider the operators \\( \\diamond \\) and \\( \\square \\) defined by \\( a \\diamond b=a+2 b, a \\square b=a b \\), for positive integers. Which of the following statements is/are TRUE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Operator \\( \\diamond \\) obeys the associative law</p>",
+            "<b>B.</b> <p>Operator \\( \\square \\) obeys the associative law</p>",
+            "<b>C.</b> <p>Operator \\( \\diamond \\) over the operator \\( \\square \\) obeys the distributive law</p>",
+            "<b>D.</b> <p>Operator \\( \\square \\) over the operator \\( \\diamond \\) obeys the distributive law</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>Operator \\( \\square \\) obeys the associative law</p>",
+            "<b>D.</b> <p>Operator \\( \\square \\) over the operator \\( \\diamond \\) obeys the distributive law</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider two set-associative cache memory architectures: WBC, which uses the\nwrite back policy, and WTC, which uses the write through policy. Both of them use\nthe LRU (Least Recently Used) block replacement policy. The cache memory is\nconnected to the main memory. Which of the following statements is/are TRUE?</p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>A read miss in WBC never evicts a dirty block</p>",
+            "<b>B.</b> <p>A read miss in WTC never triggers a write back operation of a cache block to\nmain memory</p>",
+            "<b>C.</b> <p>A write hit in WBC can modify the value of the dirty bit of a cache block</p>",
+            "<b>D.</b> <p>A write miss in WTC always writes the victim cache block to main memory\nbefore loading the missed block to the cache</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>A read miss in WTC never triggers a write back operation of a cache block to\nmain memory</p>",
+            "<b>C.</b> <p>A write hit in WBC can modify the value of the dirty bit of a cache block</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422799/gate-cse-2024-set-1-question-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per\ntrack and each sector holds 1024 bytes of data. The number of cylinders in the hard\ndisk is ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4096",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422798/gate-cse-2024-set-1-question-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The baseline execution time of a program on a 2 GHz single core machine is\n100 nanoseconds (ns). The code corresponding to 90% of the execution time can be\nfully parallelized. The overhead for using an additional core is 10 ns when running\non a multicore system. Assume that all cores in the multicore system run their share\nof the parallelized code for an equal amount of time.<br>\nThe number of cores that minimize the execution time of the program is _______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422797/gate-cse-2024-set-1-question-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per\ninstruction) without any memory stalls is 2. The program exhibits 2% miss rate on\ninstruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles.\nThe speedup (rounded off to two decimal places) achieved with a perfect cache (i.e.,\nwith NO data or instruction cache misses) is _________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422796/gate-cse-2024-set-1-question-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Consider the following code snippet using the fork() and wait() system calls.\nAssume that the code compiles and runs correctly, and that the system calls run\nsuccessfully without any errors.<pre><code>\nint x = 3;\nwhile(x &gt; 0) {\nfork();\nprintf(\"hello\");\nwait(NULL);\nx--;\n}</code></pre>\nThe total number of times the printf statement is executed is ___</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422795/gate-cse-2024-set-1-question-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Consider the entries shown below in the forwarding table of an \\( \\mathbb{P} \\) router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \"\\( \\mathrm{/N} \\)\" in a prefix indicates a subnet mask with the most significant \\( \\mathrm{N} \\) bits set to 1. <br><br> \\(\n\\begin{array}{|l|c|}\n\\hline Prefix &amp; Next\\;  hop \\; router \\\\\n\\hline  10.1 .1 .0 / 24  &amp; R1 \\\\\n\\hline 10.1 .1 .128 / 25  &amp; R2 \\\\\n\\hline  10.1 .1 .64 / 26 &amp; R3 \\\\\n\\hline 10.1 .1 .192 / 26  &amp; R4 \\\\\n\\hline\n\\end{array}\\)\n<br><br>\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router \\( R 2 \\) is</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "40",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Let \\( G=(V, \\Sigma, S, P) \\) be a context-free grammar in Chomsky Normal Form with \\( \\Sigma=\\{a, b, c\\} \\) and \\( V \\) containing 10 variable symbols including the start symbol \\( S \\). The string \\( w=a^{30} b^{30} c^{30} \\) is derivable from \\( S \\). The number of steps (application of rules) in the derivation \\( S \\rightarrow^* w \\) is _____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "179",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422793/gate-cse-2024-set-1-question-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>The number of edges present in the forest generated by the DFS traversal of an undirected graph \\( G \\) with 100 vertices is 40 . The number of connected components in \\( G \\) is ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "60",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422792/gate-cse-2024-set-1-question-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider the following two regular expressions over the alphabet \\( \\{0,1\\} \\) :<br><br>\n\\(\n\\begin{aligned}\n&amp; r=0^*+1^* \\\\\n&amp; s=01^*+10^*\n\\end{aligned}\n\\)\n<br><br>\nThe total number of strings of length less than or equal to 5 , which are neither in \\( r \\) nor in \\( s \\), is ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "44",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Consider a memory management system that uses a page size of \\( 2 \\mathrm{~KB} \\). Assume that both the physical and virtual addresses start from 0. Assume that the pages \\( 0,1,2 \\), and \\(3\\) are stored in the page frames \\( 1,3,2 \\), and \\(0\\), respectively. The physical address (in decimal format) corresponding to the virtual address \\(2500\\) (in decimal format) is ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6596",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422790/gate-cse-2024-set-1-question-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.37",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. \\( X 1 \\) and \\( X 2 \\) are inputs of \\( M 1 \\). \\( X 3 \\) and \\( X 4 \\) are inputs of \\( M 2 \\). \\( A, B \\), and \\( C \\) are select lines of \\( M 1, M 2 \\), and \\( M 3 \\), respectively.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2024_SET-1\\q54_e1cd6ee8.webp\"><br>For an instance of inputs \\( X \\mathbf{X l}=\\mathbf{X} \\mathbf{2}=\\mathbf{1}, \\mathrm{X} 3=\\mathbf{0} \\), and \\( \\mathrm{X} 4=\\mathbf{0} \\), the number of combinations of \\( A, B, C \\) that give the output \\( Y=1 \\) is _____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422788/gate-cse-2024-set-1-question-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

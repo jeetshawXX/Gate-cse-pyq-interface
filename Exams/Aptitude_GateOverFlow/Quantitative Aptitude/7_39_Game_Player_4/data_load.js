@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Game Player",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Game Player",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4008\"></a><div itemprop=\"text\"><p>Four sisters Suvarna, Tara, Uma, and Vibha are playing a game such that the loser doubles the money of each of the other players from her share. They played four games and each sister lost one game in the alphabetical order. At the end of fourth game each sister had Rs. 32.</p>\n\n<p>Who started with the lowest amount?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Suvarna</p>",
+            "<p>Tara.</p>",
+            "<p>Uma</p>",
+            "<p>Vibha</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4008/cat-1995-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/4008/cat-1995-question-69</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4009\"></a><div itemprop=\"text\"><p>Four sisters Suvarna, Tara, Uma, and Vibha are playing a game such that the loser doubles the money of each of the other players from her share. They played four games and each sister lost one game in the alphabetical order. At the end of fourth game each sister had Rs. 32.</p>\n\n<p>Who started with the highest amount?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Suvarna</p>",
+            "<p>Tara</p>",
+            "<p>Uma</p>",
+            "<p>Vibha</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4009/cat-1995-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/4009/cat-1995-question-70</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4010\"></a><div itemprop=\"text\"><p>Four sisters Suvarna, Tara, Uma, and Vibha are playing a game such that the loser doubles the money of each of the other players from her share. They played four games and each sister lost one game in the alphabetical order. At the end of fourth game each sister had Rs. 32.</p>\n\n<p>What was the amount with Uma at the end of the second round?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>36</p>",
+            "<p>72</p>",
+            "<p>16</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4010/cat-1995-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/4010/cat-1995-question-71</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4011\"></a><div itemprop=\"text\"><p>Four sisters Suvarna, Tara, Uma, and Vibha are playing a game such that the loser doubles the money of each of the other players from her share. They played four games and each sister lost one game in the alphabetical order. At the end of fourth game each sister had Rs. 32.</p>\n\n<p>How many rupees did Suvarna start with?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>60</p>",
+            "<p>34</p>",
+            "<p>66</p>",
+            "<p>28</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4011/cat-1995-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/4011/cat-1995-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+});

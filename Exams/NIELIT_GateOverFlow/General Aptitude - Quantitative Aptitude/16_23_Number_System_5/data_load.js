@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Number System",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Number System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275562\"></a><div itemprop=\"text\"><p>Divide \\( 88 \\) into four parts such as first part known as \\( a, \\) second part \\( b, \\) third part \\( c, \\) and fourth part is \\( d, \\) when \\( 5 \\) is added to the first part, \\( 5 \\) is subtracted from the second part, \\( 3 \\) is multiplied by the third part and the fourth part is divided by \\( 5, \\) then all results value are equal. Find the value of \\( a, b, c \\) and \\( d \\) respectively.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7, 17, 4, 60 \\)</p>",
+            "<p>\\( 8, 25, 5, 50 \\)</p>",
+            "<p>\\( 10, 30, 3, 45 \\)</p>",
+            "<p>\\( 17, 7, 4, 60 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7, 17, 4, 60 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275562/nielit-2018-2\" target=\"_blank\">https://gateoverflow.in/275562/nielit-2018-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369267\"></a><div itemprop=\"text\"><p>The \\( \\text{LCM} \\) of two numbers is \\( 45 \\; \\text{times} \\) their \\( \\text{HCF}. \\) One number is \\( 125 \\) and the sum of their \\( \\text{HCF} \\) and \\( \\text{LCM} \\) is \\( 1150. \\) Find the other number.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 275 \\)</p>",
+            "<p>\\( 215 \\)</p>",
+            "<p>\\( 230 \\)</p>",
+            "<p>\\( 225 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 215 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369267/nielit-2021-dec-scientist-a-section-a-26\" target=\"_blank\">https://gateoverflow.in/369267/nielit-2021-dec-scientist-a-section-a-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373702\"></a><div itemprop=\"text\"><p>The total number of digits used in numbering the pages of a book having \\( 366 \\) pages is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 730 \\)</p>",
+            "<p>\\( 792 \\)</p>",
+            "<p>\\( 990 \\)</p>",
+            "<p>\\( 1098 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 990 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373702/nielit-2022-april-scientist-b-section-a-question-16\" target=\"_blank\">https://gateoverflow.in/373702/nielit-2022-april-scientist-b-section-a-question-16</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"373679\"></a><div itemprop=\"text\"><p>If the number \\( 467\\text{X}4 \\) is divisible by \\( 9, \\) find the value of the digit marked as \\( \\text{X}. \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373679/nielit-2022-april-scientist-b-section-a-question-39\" target=\"_blank\">https://gateoverflow.in/373679/nielit-2022-april-scientist-b-section-a-question-39</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411952\"></a><div itemprop=\"text\"><p>Find the two-digit number the quotient of whose division by the product of its digits is equal to \\( 8 / 3 \\), and the difference between the required number and the number consisting of the digits written in the reverse order is \\( 18 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 83</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 86 \\)</p>",
+            "<p>\\( 42 \\)</p>",
+            "<p>\\( 75 \\)</p>",
+            "<p>None of these\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>None of these\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411952/nielit-2023-feb-scientist-c-section-c-question-83\" target=\"_blank\">https://gateoverflow.in/411952/nielit-2023-feb-scientist-c-section-c-question-83</a></p>"
+        }
+      ]
+    }
+  ]
+});

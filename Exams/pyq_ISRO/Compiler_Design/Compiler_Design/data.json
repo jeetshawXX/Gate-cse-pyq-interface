@@ -1,0 +1,596 @@
+{
+  "title": "Compiler_Design - Compiler_Design",
+  "duration": 108,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A grammar is defined as<br>\\(A \\rightarrow B C\\)<br>\\(B \\rightarrow x \\mid B x\\)<br>\\(C \\rightarrow B \\mid D\\)<br>\\(D \\rightarrow y \\mid Ey\\)<br>\\(E \\rightarrow z\\)<br>The non terminal alphabet of the grammar is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{A, B, C, D, E\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{B, C, D, E\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{A, B, C, D, E,x,y,z\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{x,y,z\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{A, B, C, D, E\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331302/isro2020-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A given grammar is called ambiguous if <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>two or more productions have the same non-terminal on the left hand side</p>",
+            "<b>B.</b> <p>a derivation tree has more than one associated sentence</p>",
+            "<b>C.</b> <p>there is a sentence with more than one derivation tree corresponding to it</p>",
+            "<b>D.</b> <p>brackets are not present in the grammar</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>there is a sentence with more than one derivation tree corresponding to it</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331462/isro2020-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is a type of a out-of-order execution, with the reordering done by a compiler <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>loop unrolling</p>",
+            "<b>B.</b> <p>dead code elimination</p>",
+            "<b>C.</b> <p>strength reduction</p>",
+            "<b>D.</b> <p>software pipelining</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>software pipelining</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331453/isro2020-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Given the grammar<br>\\(s \\rightarrow T^{*} S \\mid T\\)<br>\\(T \\rightarrow U+T \\mid U\\)<br>\\(U \\rightarrow a \\mid b\\)<br>Which of the following statements is wrong? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Grammar is not ambiguous</p>",
+            "<b>B.</b> <p>Priority of + over * is ensured</p>",
+            "<b>C.</b> <p>Right to left evaluation of * and + happens</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331360/isro2020-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which one indicates a technique of building cross compilers? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Beta cross</p>",
+            "<b>B.</b> <p>Canadian cross</p>",
+            "<b>C.</b> <p>Mexican cross</p>",
+            "<b>D.</b> <p>X-cross</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Canadian cross</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331473/isro2020-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a two-pass assembler, resolution of subroutine calls and inclusion of labels in the symbol table is done during <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Second pass</p>",
+            "<b>B.</b> <p>first pass and second pass respectively</p>",
+            "<b>C.</b> <p>second pass and first pass respectively</p>",
+            "<b>D.</b> <p>first pass</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>first pass</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331377/isro2020-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The number of tokens in the following C code segment is<br><pre><code> switch(inputvalue)\n{\n    case 1 : b =c*d; break;\n    default : b =b++; break;\n}</code></pre> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>27</p>",
+            "<b>B.</b> <p>29</p>",
+            "<b>C.</b> <p>26</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>26</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331374/isro2020-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A particular BNF definition for a \"word is given by the following rules.<br>&lt; word &gt;      :: =&lt; letter &gt; I &lt; letter &gt; &lt; charpair &gt; I &lt; letter &gt;&lt; intpair &gt;<br>&lt; charpair &gt; :: =&lt; letter &gt;&lt; letter &gt; I &lt; charpair &gt;&lt; letter &gt;&lt; letter &gt;<br>&lt; intpair &gt;    :: = &lt; integer &gt;&lt; integer &gt; I &lt; intpair &gt;&lt; integer &gt;&lt; integer &gt;<br>&lt; letter &gt;      :: = a I b I c I ......I Y I Z<br>&lt; integer &gt;   :: = 0 I 1 I 2 I ......I 9<br>Which of the following lexical entries can be derived from &lt; word &gt;?<br>I.   pick<br>\nII.  picks<br>\nIII. c44<br> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and III</p>",
+            "<b>B.</b> <p>I and II only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213524/isro2018-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following comment about peep-hole optimization is true? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is applied to small part of the code and applied repeatedly</p>",
+            "<b>B.</b> <p>It can be used to optimize intermediate code</p>",
+            "<b>C.</b> <p>It can be applied to a portion of the code that is not contiguous</p>",
+            "<b>D.</b> <p>It is applied in symbol table to optimize the memory requirements.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It is applied to small part of the code and applied repeatedly</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213558/isro2018-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>DU-chains(Definition-Use) in compiler design: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>consist of a definition of a variable and all its uses, reachable from that definition</p>",
+            "<b>B.</b> <p>are created using a form static code analysis</p>",
+            "<b>C.</b> <p>are prerequisite for many compiler optimization including constant propagation and common sub-expression elimination</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213559/isro2018-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Incremental-Compiler is a compiler: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>which is written in a language that is different from the source language</p>",
+            "<b>B.</b> <p>compiles the whole source code to generate object code afresh</p>",
+            "<b>C.</b> <p>compiles only those portion of source code that have been modified</p>",
+            "<b>D.</b> <p>that runs on one machine but produces object code for another machine</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>compiles only those portion of source code that have been modified</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213560/isro2018-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following comparisons between static and dynamic type checking incorrect? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic type checking slows down the execution</p>",
+            "<b>B.</b> <p>Dynamic type checking offers more flexibility to the programmers</p>",
+            "<b>C.</b> <p>In contrast to Static type checking, dynamic type checking may cause failure in runtime due to type errors</p>",
+            "<b>D.</b> <p>Unlike static type checking dynamic type checking is done during compilation</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Unlike static type checking dynamic type checking is done during compilation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213578/isro2018-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The output of  a lexical analyzer is <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A parse tree</p>",
+            "<b>B.</b> <p>Intermediate code</p>",
+            "<b>C.</b> <p>Machine code</p>",
+            "<b>D.</b> <p>A stream of tokens</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A stream of tokens</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128493/isro-2017-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Peephole optimization is form of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Loop optimization</p>",
+            "<b>B.</b> <p>Local optimization</p>",
+            "<b>C.</b> <p>Constant folding</p>",
+            "<b>D.</b> <p>Data flow analysis</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Local optimization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55598/isro2016-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>simple two-pass assembler does which of the following in the first pass: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Checks to see if the instructions are legal in the current assembly mode</p>",
+            "<b>B.</b> <p>It allocates space for the literals.</p>",
+            "<b>C.</b> <p>It builds the symbol table for the symbols and their values.</p>",
+            "<b>D.</b> <p>All of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56088/isro2016-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>A top-down parser generates <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Rightmost Derivation</p>",
+            "<b>B.</b> <p>Rightmost derivation in reverse</p>",
+            "<b>C.</b> <p>Leftmost derivation</p>",
+            "<b>D.</b> <p>Leftmost derivation in reverse</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Leftmost derivation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55922/isro2016-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Recursive descent parsing is an example of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Top-down parsers</p>",
+            "<b>B.</b> <p>Bottom-up parsers</p>",
+            "<b>C.</b> <p>Predictive parsers</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Top-down parsers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56036/isro2016-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which statement is true? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LALR parser is more powerful and costly as compare to other parsers</p>",
+            "<b>B.</b> <p>All CFG's are LP and not all grammars are uniquely defined</p>",
+            "<b>C.</b> <p>Every SLR grammar is unambiguous but not every unambiguous grammar is SLR</p>",
+            "<b>D.</b> <p>LR(K) is the most general back tracking shift reduce parsing method</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Every SLR grammar is unambiguous but not every unambiguous grammar is SLR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51210/isro2015-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Yacc stands for <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>yet accept compiler constructs</p>",
+            "<b>B.</b> <p>yet accept compiler compiler</p>",
+            "<b>C.</b> <p>yet another compiler constructs</p>",
+            "<b>D.</b> <p>yet another compiler compiler</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>yet another compiler compiler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51209/isro2015-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Which one of the following is a top-down parser? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recursive descent parser</p>",
+            "<b>B.</b> <p>Shift left associative parser</p>",
+            "<b>C.</b> <p>SLR(k) parser</p>",
+            "<b>D.</b> <p>LR(k) parser</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Recursive descent parser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51207/isro2015-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Which grammar rules violate the requirement of the operator grammar? A, B, C are variables and a, b, c are terminals<br>1. \\(A \\rightarrow B C\\)<br>2. \\(A \\rightarrow C c B b\\)<br>3. \\(A \\rightarrow  B a C\\)<br>4. \\(A \\rightarrow \\epsilon\\) <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 only</p>",
+            "<b>B.</b> <p>1 and 2</p>",
+            "<b>C.</b> <p>1 and 3</p>",
+            "<b>D.</b> <p>1 and 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51202/isro2015-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>The number of tokens in the following C statement is<br><pre><code> printf(\"i=%d, &amp;i=%x\", i, &amp;i);</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>26</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>21</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/641/gate2000-1-18-isro2015-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Given the following expression grammar:<br>\\(E \\rightarrow E * F|F+E| F\\)<br>\\(F \\rightarrow F-F \\mid i d\\)<br>Which of the following is true? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>* has higher precedence than +</p>",
+            "<b>B.</b> <p>\\(-\\) has higher precedence than *</p>",
+            "<b>C.</b> <p>+ and \\(-\\) have same precedence</p>",
+            "<b>D.</b> <p>+ has higher precedence than \\(-\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(-\\) has higher precedence than *</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/668/gate2000-2-21-isro2015-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider the following grammar.<br>\\(\\mathrm{S} \\rightarrow \\mathrm{AB}\\)<br>\\(\\mathrm{A} \\rightarrow \\mathrm{a}\\)<br>\\(\\mathrm{A} \\rightarrow \\mathrm{BaB}\\)<br>\\(\\mathrm{B} \\rightarrow \\mathrm{bbA}\\)<br>Which of the following statements is FALSE? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The length of every string produced by this grammar is even</p>",
+            "<b>B.</b> <p>No string produced by this grammar has three consecutive a's</p>",
+            "<b>C.</b> <p>The length of substring produced by B is always odd</p>",
+            "<b>D.</b> <p>No string produced by this grammar has four consecutive b's</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>No string produced by this grammar has four consecutive b's</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54994/isro2014-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Which of the following is NOT represented in a subroutine's activation record frame for a stack-based programming language? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Values of local variables</p>",
+            "<b>B.</b> <p>Return address</p>",
+            "<b>C.</b> <p>Heap area</p>",
+            "<b>D.</b> <p>Information needed to access non local variables</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Heap area</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17221/isro2014-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider the following Java code fragment:<br><pre><code> public class While\n{\n    public void loop()\n    {\n        int x = 0;\n        while(1)\n        {\n            System.out.println(\"x plus one is\" +(x+1));\n        }\n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is syntax error in line no. 1</p>",
+            "<b>B.</b> <p>There is syntax errors in line nos. 1 &amp; 6</p>",
+            "<b>C.</b> <p>There is syntax error in line no. 8</p>",
+            "<b>D.</b> <p>There is syntax error in line no. 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There is syntax error in line no. 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54121/isro2014-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>What is the number of steps required to derive the string ((() ()) ()) for the following grammar?\n<br>\\(S \\rightarrow S S\\)<br>\\(S \\rightarrow(S)\\)<br>\\(S \\rightarrow \\varepsilon\\) <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17222/isro2014-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Which of the following productions eliminate left recursion in the productions given below:<br>\n\\(S \\rightarrow Aa \\mid b\\)<br>\n\\(A \\rightarrow Ac \\mid Sd \\mid \\epsilon\\) <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow bdA', \\;\\; A' \\rightarrow A'c \\mid A'ba \\mid A \\mid \\epsilon\\)</p>",
+            "<b>B.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow A' \\mid bdA', \\;\\; A' \\rightarrow cA' \\mid adA' \\mid \\epsilon\\)</p>",
+            "<b>C.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow A'c \\mid A'd ,\\;\\;  A' \\rightarrow bdA' \\mid cA \\mid \\epsilon\\)</p>",
+            "<b>D.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow cA' \\mid adA' \\mid bdA',\\;\\;  A' \\rightarrow A \\mid \\epsilon\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(S \\rightarrow Aa \\mid b, \\;\\; A \\rightarrow A' \\mid bdA', \\;\\; A' \\rightarrow cA' \\mid adA' \\mid \\epsilon\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43760/isro-2013-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Shift reduce parsing belongs to a class of <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bottom up parsing.</p>",
+            "<b>B.</b> <p>Top down parsing.</p>",
+            "<b>C.</b> <p>Recursive parsing.</p>",
+            "<b>D.</b> <p>Predictive parsing.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Bottom up parsing.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43755/isro-2013-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>A symbol table of length 152 is processing 25 entries at any instant. What is occupation density? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.164</p>",
+            "<b>B.</b> <p>127</p>",
+            "<b>C.</b> <p>8.06</p>",
+            "<b>D.</b> <p>6.08</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.164</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53152/isro2011-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Number of comparisons required for an unsuccessful search of an element in a sequential search organized, fixed length, symbol table of length L is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L</p>",
+            "<b>B.</b> <p>L/2</p>",
+            "<b>C.</b> <p>(L+1)/2</p>",
+            "<b>D.</b> <p>2L</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18148/isro2011-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Which of the following sentences can be generated by <br>\n\\(S -&gt; aS \\mid bA\\)<br>\n\\(A -&gt; d \\mid cA\\) <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>bccdd</p>",
+            "<b>B.</b> <p>abbcca</p>",
+            "<b>C.</b> <p>abcabc</p>",
+            "<b>D.</b> <p>abcd</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>abcd</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52864/isro2011-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Which variable does not drive a terminal string in grammar?<br>\nS -&gt; AB<br>\nA -&gt; a<br>\nB -&gt; b<br>\nB -&gt; C<br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51695/isro2011-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Which of the following statements about peephole optimization is False? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is applied to a small part of the code</p>",
+            "<b>B.</b> <p>It can be used to optimize intermediate code</p>",
+            "<b>C.</b> <p>To get the best out of this, it has to be applied repeatedly</p>",
+            "<b>D.</b> <p>It can be applied to the portion of the code that is not contiguous</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It can be applied to the portion of the code that is not contiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52264/isro2011-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>In compiler terminology reduction in strength means <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Replacing run time computation by compile time computation</p>",
+            "<b>B.</b> <p>Removing loop invariant computation</p>",
+            "<b>C.</b> <p>Removing common subexpressions</p>",
+            "<b>D.</b> <p>replacing a costly operation by a relatively cheaper one</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>replacing a costly operation by a relatively cheaper one</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50567/isro2011-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Which of the following class of statement usually produces no executable code when compiled? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>declaration</p>",
+            "<b>B.</b> <p>assignment statements</p>",
+            "<b>C.</b> <p>input and output statements</p>",
+            "<b>D.</b> <p>structural statements</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>structural statements</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17249/isro2008-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>In a resident - OS computer, which of the following systems must reside in the main memory under all situations? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Assembler</p>",
+            "<b>B.</b> <p>Linker</p>",
+            "<b>C.</b> <p>Loader</p>",
+            "<b>D.</b> <p>Compiler</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1662/gate1998-1-25-isro2008-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Relative to the program translated by a compiler, the same program when interpreted runs <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Faster</p>",
+            "<b>B.</b> <p>Slower</p>",
+            "<b>C.</b> <p>At the same speed</p>",
+            "<b>D.</b> <p>May be faster or slower</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Slower</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18495/isro2008-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider the grammar<br>\n\\(S \\rightarrow ABCc \\mid bc\\)<br>\n\\(BA \\rightarrow AB\\)<br>\n\\(Bb \\rightarrow bb\\)<br>\n\\(Ab \\rightarrow ab\\)<br>\n\\(Aa \\rightarrow aa\\)<br>\nWhich of the following sentences can be derived by this grammar? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>abc</p>",
+            "<b>B.</b> <p>aab</p>",
+            "<b>C.</b> <p>abcc</p>",
+            "<b>D.</b> <p>abbc</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>abc</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49668/isro2008-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

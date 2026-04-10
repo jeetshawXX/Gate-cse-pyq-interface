@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Determinant",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Determinant",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336517\"></a><div itemprop=\"text\"><p>Let \\( A,B,C,D \\) be \\( n\\times&nbsp;n \\) matrices, each with non-zero determinant. If \\( ABCD=1 \\), then \\( B^{-1} \\)&nbsp;is:</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( D^{-1}C^{-1}A^{-1} \\)</p>",
+            "<p>\\( CDA \\)</p>",
+            "<p>\\( ADC \\)</p>",
+            "<p>Does not necessarily exist.</p>"
+          ],
+          "correct_answer": "<p>\\( CDA \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336517/nielit-2016-dec-scientist-b-cs-section-b-21\" target=\"_blank\">https://gateoverflow.in/336517/nielit-2016-dec-scientist-b-cs-section-b-21</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336643\"></a><div itemprop=\"text\"><p>Two eigenvalues of a \\( 3\\times3 \\) real matrix \\( P \\) are \\( (2+​ \\sqrt-1) \\) and \\( 3 \\). The determinant of \\( P \\) is&nbsp;________.</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( -1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336643/nielit-2016-dec-scientist-b-it-section-b-26\" target=\"_blank\">https://gateoverflow.in/336643/nielit-2016-dec-scientist-b-it-section-b-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336674\"></a><div itemprop=\"text\"><p>If \\( A \\) and \\( B \\) are square matrices of size \\( n\\times n \\), then which of the following statements is not true?</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\det(AB)=\\det(A) \\det(B) \\)</p>",
+            "<p>\\( \\det(kA)=k^n \\det(A) \\)</p>",
+            "<p>\\( \\det(A+B)=\\det(A)+\\det(B) \\)</p>",
+            "<p>\\( \\det(A^T)=1/\\det(A^{-1}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\det(A+B)=\\det(A)+\\det(B) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336674/nielit-2016-mar-scientist-b-section-b-12\" target=\"_blank\">https://gateoverflow.in/336674/nielit-2016-mar-scientist-b-section-b-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336682\"></a><div itemprop=\"text\"><p>What is the determinant of the matrix&nbsp;</p>\n\n<p>\\( \\begin{bmatrix}5&amp;3&amp;2\\\\1&amp;2&amp;6\\\\3&amp;5&amp;10\\end{bmatrix} \\)</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -76 \\)</p>",
+            "<p>\\( -28 \\)</p>",
+            "<p>\\( +28 \\)</p>",
+            "<p>\\( +72 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -28 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336682/nielit-2016-mar-scientist-b-section-b-4\" target=\"_blank\">https://gateoverflow.in/336682/nielit-2016-mar-scientist-b-section-b-4</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336923\"></a><div itemprop=\"text\"><p>\\( M \\) is a square matrix of order \\( ’n’ \\) and its determinant value is \\( 5. \\) If all the elements of \\( M \\) are multiple by \\( 2, \\) its determinant value becomes \\( 40. \\) The value of \\( ’n’ \\) is</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336923/nielit-2017-oct-scientific-assistant-a-cs-section-c-9\" target=\"_blank\">https://gateoverflow.in/336923/nielit-2017-oct-scientific-assistant-a-cs-section-c-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336978\"></a><div itemprop=\"text\"><p>\\( M \\) is a square matrix of order \\( ’n’ \\) and its determinant value is \\( 5. \\) If all the elements of \\( M \\) are multiplied by \\( 2, \\) its determinant value becomes \\( 40. \\) The value of \\( ’n’ \\) is</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336978/nielit-2017-oct-scientific-assistant-a-it-section-b-7\" target=\"_blank\">https://gateoverflow.in/336978/nielit-2017-oct-scientific-assistant-a-it-section-b-7</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"378745\"></a><div itemprop=\"text\"><p>The determinant of matrix \\( \\begin{bmatrix}<br>\n0 &amp; p-q &nbsp;&amp; p-r \\\\&nbsp;<br>\nq-p &amp;0 &nbsp;&amp; q-r\\\\&nbsp;<br>\nr-p &amp;r-q &nbsp;&amp;0&nbsp;<br>\n\\end{bmatrix} \\) is ____________.</p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( (p -&nbsp;q) (q -&nbsp;r) (r -&nbsp;p) \\)</p>",
+            "<p>\\( pqr \\)</p>",
+            "<p>\\( 3pqr \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378745/nielit-2021-dec-scientist-b-section-b-18\" target=\"_blank\">https://gateoverflow.in/378745/nielit-2021-dec-scientist-b-section-b-18</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"366959\"></a><div itemprop=\"text\"><p>The determinant&nbsp;of matrix \\( \\begin{bmatrix} 0&amp;p-q &amp;p-r \\\\ q-p&amp;0 &amp;q-r \\\\ r-p&amp;r-q&nbsp;&amp;0 \\end{bmatrix} \\) is ____________ .</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( (p-q)(q-r)(r-p) \\)</p>",
+            "<p>\\( pqr \\)</p>",
+            "<p>\\( 3pqr \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366959/nielit-2021-dec-scientist-b-section-b-58\" target=\"_blank\">https://gateoverflow.in/366959/nielit-2021-dec-scientist-b-section-b-58</a></p>"
+        }
+      ]
+    }
+  ]
+});

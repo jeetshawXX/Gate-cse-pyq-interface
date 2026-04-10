@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Image Compression",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Image Compression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71615\"></a><div itemprop=\"text\"><p>Which of the following is not used in standard JPEG image compression ?</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 3 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Huffman coding</p>",
+            "<p>Runlength encoding</p>",
+            "<p>Zig-zag scan</p>",
+            "<p>K-L Transform</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71615/ugc-net-cse-august-2016-part-3-question-58\" target=\"_blank\">https://gateoverflow.in/71615/ugc-net-cse-august-2016-part-3-question-58</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+{
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The language L = {\\(a^{n}b^{n}\\geq 0\\)} is regular</p>",
+            "<b>B.</b> <p>The language L = {\\(a^{n}\\)| n is prime} is regular</p>",
+            "<b>C.</b> <p>The language L={ w | w has 3k +1    b's for some k \\(\\in\\) N with \\(\\Sigma\\) = {a,b} } is regular.</p>",
+            "<b>D.</b> <p>The language L = { ww| w\\(\\in \\Sigma^{*}\\) with \\(\\Sigma\\)={0,1}} is regular.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The language L={ w | w has 3k +1    b's for some k \\(\\in\\) N with \\(\\Sigma\\) = {a,b} } is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1781/gate2014-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What are the final states of the DFA generated from the following NFA?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q73_a73a9f88.jpg\"><br> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(q_{0}, q_{1}, q_{2}\\)</p>",
+            "<b>B.</b> <p>\\([q_{0}, q_{1}], [q_{0}, q_{2}], [ ]\\)</p>",
+            "<b>C.</b> <p>\\(q_{0}, [q_{1}, q_{2}]\\)</p>",
+            "<b>D.</b> <p>\\([q_{0}, q_{1}], q_{2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(q_{0}, q_{1}, q_{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45665/isro-2013-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is/are undecidable? <br>\n1. G is a CFG. Is L(G) = \\(\\Phi\\)? <br>\n2. G is a CFG. Is L(G) = \\(\\Sigma ^{*}\\) ? <br>\n3. M is a Turing machine. Is L(M) regular? <br>\n4. A is a DFA and N is an NFA. Is L(A) = L(N)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 only</p>",
+            "<b>B.</b> <p>3 and 4 only</p>",
+            "<b>C.</b> <p>1, 2 and 3 only</p>",
+            "<b>D.</b> <p>2 and 3 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 and 3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1553/gate2013-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the DFA A given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q33_77a7d1ad.jpg\"> <br> Which of the following are FALSE? <br>\n1. Complement of L(A) is context-free. <br>\n2. L(A) = L((11*0+0) (0+1)*0*1*) <br>\n3. For the language accepted by A, A is the minimal DFA. <br>\n4. A accepts all strings over {0, 1} of length at least 2. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 3 only</p>",
+            "<b>B.</b> <p>2 and 4 only</p>",
+            "<b>C.</b> <p>2 and 3 only</p>",
+            "<b>D.</b> <p>3 and 4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3 and 4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1544/gate2013-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following languages. \\(L_{1}=\\{0^{p}1^{q}0^{r}|p,q,r\\geq 0\\}\\) <br> \\( L_{2}=\\{0^{p}1^{q}0^{r} | p,q,r \\geq  0, p \\neq  r \\}\\)<br> Which one of the following statements is FALSE? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L2 is context-free</p>",
+            "<b>B.</b> <p>L1 \\(\\cap\\) L2 is context-free</p>",
+            "<b>C.</b> <p>Complement of L2 is recursive.</p>",
+            "<b>D.</b> <p>Complement of L1 is context-free but not regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Complement of L1 is context-free but not regular</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1543/gate2013-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following statements is/are FALSE? <br>\n1. For every non-deterministic Turing machine, there exists an equivalent deterministic\nTuring machine. <br>\n2. Turing recognizable languages are closed under union and complementation. <br>\n3. Turing decidable languages are closed under intersection and complementation. <br>\n4. Turing recognizable languages are closed under union and intersection. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 4 only</p>",
+            "<b>B.</b> <p>1 and 3 only</p>",
+            "<b>C.</b> <p>2 only</p>",
+            "<b>D.</b> <p>3 only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2 only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1439/gate2013-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the languages \\(L_{1}=\\phi \\) abd \\(L_{2}=\\{a\\}\\). Which one of the following represents \\(L_{1} L_{2}^{*} \\cup L_{1}^{*}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ \\epsilon \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\phi\\)</p>",
+            "<b>C.</b> <p>\\(a^{*}\\)</p>",
+            "<b>D.</b> <p>\\(\\{ \\epsilon ,a \\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{ \\epsilon \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1417/gate2013-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the set of strings on {0,1} in which, every substring of 3 symbols has at most two zeros.\nFor example, 001110 and 011001 are in the language, but 100010 is not. All strings of length less\nthan 3 are also in the language. A partially completed DFA that accepts this language is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q46_bca893f8.jpg\"> <br> The missing arcs in the DFA are <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q46a_ce7a32ca.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2159/gate2012-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given the language L = {ab, aa, baa}, which of the following strings are in L*? <br>\n1) abaabaaabaa <br>\n2) aaaabaaaa <br>\n3) baaaaabaaaab <br>\n4) baaaaabaa <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2 and 3</p>",
+            "<b>B.</b> <p>2, 3 and 4</p>",
+            "<b>C.</b> <p>1, 3 and 4</p>",
+            "<b>D.</b> <p>1, 2 and 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1, 2 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1609/gate2012-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following problems are decidable?<br>\n1) Does a given program ever produce an output? <br>\n2) If L is a context-free language, then, is \\(\\bar{L}\\) also context-free?<br>\n3) If L is a regular language, then, is \\(\\bar{L}\\) also regular? <br>\n4) If L is a recursive language, then, is \\(\\bar{L}\\) also recursive? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2, 3, 4</p>",
+            "<b>B.</b> <p>1,2</p>",
+            "<b>C.</b> <p>2,3,4</p>",
+            "<b>D.</b> <p>3,4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3,4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1608/gate2012-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the complement of the language accepted by the NFA shown below?\nAssume \\(\\sum\\)={a} and \\(\\varepsilon\\) is the empty string. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q12_32353a34.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\phi\\)</p>",
+            "<b>B.</b> <p>\\(\\{\\varepsilon \\}\\)</p>",
+            "<b>C.</b> <p>\\(a^{*}\\)</p>",
+            "<b>D.</b> <p>\\(\\{a, \\varepsilon \\}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{\\varepsilon \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44/gate2012-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A problem whose language is recursion is called? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unified problem</p>",
+            "<b>B.</b> <p>Boolean function</p>",
+            "<b>C.</b> <p>Recursive problem</p>",
+            "<b>D.</b> <p>Decidable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53154/isro2011-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A deterministic finite automation (DFA)D with alphabet  \\(\\Sigma\\)= {a,b} is given below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q34_72f0673b.jpg\"> <br>Which of the following finite state machines is a valid minimal DFA which accepts the same language as D? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q34a_dea49aa5.jpg\"> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2147/gate2011-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Definition of a language L with alphabet {a} is given as following\nL={\\(a^{nk}\\) |k &gt; 0, and n is a positive integer constant} <br>\nWhat is the minimum number of states needed in a DFA to recognize L? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k+1</p>",
+            "<b>B.</b> <p>n+1</p>",
+            "<b>C.</b> <p>\\(2^{n+1}\\)</p>",
+            "<b>D.</b> <p>\\(2^{k+1}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2144/gate2011-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the languages L1, L2 and L3 as given below <br>\n\\(L1=\\{0^{p}1^{q}|p,q\\in N\\}\\) <br> \\( L2=\\{0^{p}1^{q}|p,q\\in N and p=q\\} \\) and<br> \\(L3=\\{0^{p}1^{q}0^{r}|p,q,r\\in N \\; and \\; p=q=r\\}\\) <br>Which of the following statements is NOT TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Push Down Automata (PDA) can be used to recognize L1 and L2</p>",
+            "<b>B.</b> <p>L1 is a regular language</p>",
+            "<b>C.</b> <p>All the three languages are context free</p>",
+            "<b>D.</b> <p>Turing machines can be used to recognize all the languages</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>All the three languages are context free</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2128/gate2011-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

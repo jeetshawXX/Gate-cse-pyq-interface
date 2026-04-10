@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Relational Model",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Relational Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316247\"></a><div itemprop=\"text\"><p>Which of the following features is supported in the rational database model?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2019 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Complex data-types</p>",
+            "<p>Multivalued attributes</p>",
+            "<p>Associations with multiplicities</p>",
+            "<p>Generalization relationships</p>"
+          ],
+          "correct_answer": "<p>Associations with multiplicities</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316247/ugc-net-cse-june-2019-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/316247/ugc-net-cse-june-2019-part-2-question-32</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"349606\"></a><div itemprop=\"text\"><p>Match \\( \\text{List I} \\) with \\( \\text{List II} \\)</p><p style=\"text-align:center\"><img alt=\"Match the following Figure\" width=\"700\" height=\"425\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=2551137988724538556\"></p><p>Choose the correct answer from the options given below:</p></div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A-II, B-IV, C-III, D-I \\)</p>",
+            "<p>\\( A-IV, B-I, C-II, D-III \\)</p>",
+            "<p>\\( A-II, B-I, C-IV, D-III \\)</p>",
+            "<p>\\( A-III, B-IV, C-I, D-II \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A-II, B-I, C-IV, D-III \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349606/ugc-net-cse-october-2020-part-2-question-67\" target=\"_blank\">https://gateoverflow.in/349606/ugc-net-cse-october-2020-part-2-question-67</a></p>"
+        }
+      ]
+    }
+  ]
+}

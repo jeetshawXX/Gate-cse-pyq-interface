@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Lexical Analysis",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Lexical Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336481\"></a><div itemprop=\"text\"><p>The output of lexical analyzer is:</p></div><br><br><b>Compiler Design: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A set of regular expressions</p>",
+            "<p>Strings of character</p>",
+            "<p>Syntax tree</p>",
+            "<p>Set of tokens</p>"
+          ],
+          "correct_answer": "<p>Set of tokens</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336481/nielit-2016-dec-scientist-b-cs-section-b-57\" target=\"_blank\">https://gateoverflow.in/336481/nielit-2016-dec-scientist-b-cs-section-b-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336326\"></a><div itemprop=\"text\"><p>In a compiler, keywords of a language are recognized during</p></div><br><br><b>Compiler Design: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>parsing of the program</p>",
+            "<p>the code generation</p>",
+            "<p>the lexical analysis of the program</p>",
+            "<p>dataflow analysis</p>"
+          ],
+          "correct_answer": "<p>the lexical analysis of the program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336326/nielit-2017-july-scientist-b-cs-section-b-49\" target=\"_blank\">https://gateoverflow.in/336326/nielit-2017-july-scientist-b-cs-section-b-49</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"366918\"></a><div itemprop=\"text\"><p>Two Important lexical categories are _____________ .</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>White Space</p>",
+            "<p>Comments</p>",
+            "<p>White Space \\( \\&amp; \\) Comments</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>White Space \\( \\&amp; \\) Comments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366918/nielit-2021-dec-scientist-b-section-b-99\" target=\"_blank\">https://gateoverflow.in/366918/nielit-2021-dec-scientist-b-section-b-99</a></p>"
+        }
+      ]
+    }
+  ]
+});

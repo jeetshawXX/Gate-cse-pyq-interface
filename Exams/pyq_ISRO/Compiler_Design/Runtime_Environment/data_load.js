@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Compiler_Design - Runtime_Environment",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Runtime_Environment",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following comparisons between static and dynamic type checking incorrect? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic type checking slows down the execution</p>",
+            "<b>B.</b> <p>Dynamic type checking offers more flexibility to the programmers</p>",
+            "<b>C.</b> <p>In contrast to Static type checking, dynamic type checking may cause failure in runtime due to type errors</p>",
+            "<b>D.</b> <p>Unlike static type checking dynamic type checking is done during compilation</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Unlike static type checking dynamic type checking is done during compilation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213578/isro2018-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>simple two-pass assembler does which of the following in the first pass: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Checks to see if the instructions are legal in the current assembly mode</p>",
+            "<b>B.</b> <p>It allocates space for the literals.</p>",
+            "<b>C.</b> <p>It builds the symbol table for the symbols and their values.</p>",
+            "<b>D.</b> <p>All of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56088/isro2016-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is NOT represented in a subroutine's activation record frame for a stack-based programming language? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Values of local variables</p>",
+            "<b>B.</b> <p>Return address</p>",
+            "<b>C.</b> <p>Heap area</p>",
+            "<b>D.</b> <p>Information needed to access non local variables</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Heap area</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17221/isro2014-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In compiler terminology reduction in strength means <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Replacing run time computation by compile time computation</p>",
+            "<b>B.</b> <p>Removing loop invariant computation</p>",
+            "<b>C.</b> <p>Removing common subexpressions</p>",
+            "<b>D.</b> <p>replacing a costly operation by a relatively cheaper one</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>replacing a costly operation by a relatively cheaper one</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50567/isro2011-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following class of statement usually produces no executable code when compiled? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>declaration</p>",
+            "<b>B.</b> <p>assignment statements</p>",
+            "<b>C.</b> <p>input and output statements</p>",
+            "<b>D.</b> <p>structural statements</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>structural statements</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17249/isro2008-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a resident - OS computer, which of the following systems must reside in the main memory under all situations? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Assembler</p>",
+            "<b>B.</b> <p>Linker</p>",
+            "<b>C.</b> <p>Loader</p>",
+            "<b>D.</b> <p>Compiler</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1662/gate1998-1-25-isro2008-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Relative to the program translated by a compiler, the same program when interpreted runs <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Faster</p>",
+            "<b>B.</b> <p>Slower</p>",
+            "<b>C.</b> <p>At the same speed</p>",
+            "<b>D.</b> <p>May be faster or slower</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Slower</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18495/isro2008-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

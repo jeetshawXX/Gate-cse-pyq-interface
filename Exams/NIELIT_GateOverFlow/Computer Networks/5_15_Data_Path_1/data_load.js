@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Data Path",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Path",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336622\"></a><div itemprop=\"text\"><p>The&nbsp;________&nbsp;is the physical path over which a message travels.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Path</p>",
+            "<p>Protocol</p>",
+            "<p>Route</p>",
+            "<p>Medium</p>"
+          ],
+          "correct_answer": "<p>Medium</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336622/nielit-2016-dec-scientist-b-it-section-b-47\" target=\"_blank\">https://gateoverflow.in/336622/nielit-2016-dec-scientist-b-it-section-b-47</a></p>"
+        }
+      ]
+    }
+  ]
+});

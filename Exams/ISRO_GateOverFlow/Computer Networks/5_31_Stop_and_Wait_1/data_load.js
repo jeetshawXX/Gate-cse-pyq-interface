@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Stop and Wait",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Stop and Wait",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43981\"></a><div itemprop=\"text\">\n<p>What will be the efficiency of a Stop and Wait protocol, if the transmission time for a frame is \\( 20 \\)ns and the propagation time is \\( 30 \\)ns?</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)%</p>",
+            "<p>\\( 25 \\)%</p>",
+            "<p>\\( 40 \\)%</p>",
+            "<p>\\( 66 \\)%</p>"
+          ],
+          "correct_answer": "<p>\\( 25 \\)%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43981/isro-2013-41\" target=\"_blank\">https://gateoverflow.in/43981/isro-2013-41</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Grammar",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Grammar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70300\"></a><div itemprop=\"text\"><p>Which of the following is FALSE ?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | August 2016 | Part 2 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The grammar \\( S \\rightarrow&nbsp;aS|aSbS|\\in \\), where \\( S \\) is the only non-terminal symbol, and \\( \\in \\)&nbsp;is the null string, is ambiguous.</p>",
+            "<p>An unambiguous grammar has same left most and right most derivation.</p>",
+            "<p>An ambiguous grammar can never be \\( LR(k) \\) for any \\( k \\).</p>",
+            "<p>Recursive descent parser is a top-down parser.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70300/ugc-net-cse-august-2016-part-2-question-35\" target=\"_blank\">https://gateoverflow.in/70300/ugc-net-cse-august-2016-part-2-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"57674\"></a><div itemprop=\"text\"><p>The grammar ‘GI’ \\( S \\rightarrow OSO \\mid ISI \\mid 0 \\mid 1 \\mid \\in \\) and the grammar G2 is \\(  S \\rightarrow as \\mid asb \\mid X, X \\rightarrow Xa \\mid a \\).</p>\n\n<p>Which is the correct statement?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | December 2012 | Part 3 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>G1 is ambiguous, G2 is unambiguous</p>",
+            "<p>G1 is unambiguous, G2 is ambiguous</p>",
+            "<p>Both G1 and G2 are ambiguous</p>",
+            "<p>Both G1 and G2 are unambiguous</p>"
+          ],
+          "correct_answer": "<p>G1 is unambiguous, G2 is ambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57674/ugc-net-cse-december-2012-part-3-question-42\" target=\"_blank\">https://gateoverflow.in/57674/ugc-net-cse-december-2012-part-3-question-42</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"61365\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)&nbsp;</p>\n\n<p>\\( \\begin{array} {clcl}&nbsp;&amp; \\textbf{List – I} &amp;&amp; \\textbf{List – II} \\\\ \\text{a.}&amp; \\text{Context free grammar} &amp; \\text{i.} &amp; \\text{Linear bounded&nbsp;automaton} \\\\ &nbsp;\\text{b.}&amp; \\text{Regular&nbsp;grammar} &amp;&nbsp;\\text{ii.} &amp; \\text{Pushdown automaton} \\\\ &nbsp;\\text{c.}&amp; \\text{Context sensitive&nbsp; grammar} &amp; \\text{iii.} &amp; \\text{Turing machine} \\\\&nbsp; \\text{d.}&amp; \\text{Unrestricted grammar} &amp; \\text{iv.} &amp; \\text{Deterministic finite&nbsp;automaton} \\\\&nbsp; \\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | December 2014 | Part 3 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-ii, b-iv, c-iii, d-i} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iv, c-i, d-iii} \\)</p>",
+            "<p>\\( \\text{a-iv, b-i, c-ii, d-iii} \\)</p>",
+            "<p>\\( \\text{a-i, b-iv, c-iii, d-ii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-ii, b-iv, c-i, d-iii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61365/ugc-net-cse-december-2014-part-3-question-62\" target=\"_blank\">https://gateoverflow.in/61365/ugc-net-cse-december-2014-part-3-question-62</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"225850\"></a><div itemprop=\"text\"><p>Consider the following two Grammars:</p>\n\n<p>\\( G_1 \\: : \\: S \\rightarrow SbS \\mid a \\)</p>\n\n<p>\\( G_2 : S \\rightarrow aB \\mid ab, \\: A \\rightarrow GAB \\mid a, \\: B \\rightarrow ABb \\mid b \\)</p>\n\n<p>Which one of the folloeing options is correct?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | July 2018 | Part 2 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( G_1 \\) is ambiguous</p>",
+            "<p>Only \\( G_2 \\) is ambiguous</p>",
+            "<p>Both \\( G_1 \\) and \\( G_2 \\) are ambiguous</p>",
+            "<p>Both \\( G_1 \\) and \\( G_2 \\) are not ambiguous</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225850/ugc-net-cse-july-2018-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/225850/ugc-net-cse-july-2018-part-2-question-36</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"225848\"></a><div itemprop=\"text\"><p>The set \\( A = \\{ 0^n \\: 1^n \\: 2^n \\mid n=1, 2, 3, \\dots \\} \\) is an example of a grammar that is</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | July 2018 | Part 2 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Context sensitive</p>",
+            "<p>Context free</p>",
+            "<p>Regular</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225848/ugc-net-cse-july-2018-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/225848/ugc-net-cse-july-2018-part-2-question-38</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"56264\"></a><div itemprop=\"text\">\n<p>The equivalent grammar corresponding to the grammar \\( G:S \\rightarrow aA, A \\rightarrow BB, B \\rightarrow aBb \\mid \\varepsilon \\) is</p>\n\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | June 2012 | Part 3 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S \\rightarrow aA, A \\rightarrow BB, B \\rightarrow aBb \\)</p>",
+            "<p>\\( S \\rightarrow a \\mid aA, A \\rightarrow BB, B \\rightarrow aBb \\mid ab \\)</p>",
+            "<p>\\( S \\rightarrow a \\mid aA, A \\rightarrow BB \\mid B, B \\rightarrow aBb \\)</p>",
+            "<p>\\( S \\rightarrow a \\mid aA, A \\rightarrow BB \\mid B , B \\rightarrow aBb \\mid ab \\)</p>"
+          ],
+          "correct_answer": "<p>\\( S \\rightarrow a \\mid aA, A \\rightarrow BB \\mid B , B \\rightarrow aBb \\mid ab \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56264/ugc-net-cse-june-2012-part-3-question-32\" target=\"_blank\">https://gateoverflow.in/56264/ugc-net-cse-june-2012-part-3-question-32</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"58494\"></a><div itemprop=\"text\">\n<p>Which of the following is/are the fundamental semantic model(s) of parameter passing?</p>\n\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | June 2013 | Part 3 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>in mode</p>",
+            "<p>out mode</p>",
+            "<p>in-out mode</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "<p>all of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58494/ugc-net-cse-june-2013-part-3-question-35\" target=\"_blank\">https://gateoverflow.in/58494/ugc-net-cse-june-2013-part-3-question-35</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"58190\"></a><div itemprop=\"text\"><p>Given the following two grammars :</p><p>\\( G_{1} : S \\rightarrow AB | aaB \\)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\(  A \\rightarrow a | Aa \\)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\( B \\rightarrow b \\)&nbsp;</p><p>\\( G_{2} : S \\rightarrow a S b S | b S a S | \\lambda \\)</p><p>Which statement is correct ?</p></div><br><br><b>Theory of Computation: UGC NET CSE | June 2014 | Part 3 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( G_{1} \\) is unambiguous and \\( G_{2} \\) is unambiguous.</p>",
+            "<p>\\( G_{1} \\) is unambiguous and \\( G_{2} \\) is ambiguous.&nbsp;</p>",
+            "<p>\\( G_{1} \\) is ambiguous and \\( G_{2} \\) is unambiguous.</p>",
+            "<p>\\( G_{1} \\) is ambiguous and \\( G_{2} \\) is ambiguous.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( G_{1} \\) is ambiguous and \\( G_{2} \\) is ambiguous.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58190/ugc-net-cse-june-2014-part-3-question-73\" target=\"_blank\">https://gateoverflow.in/58190/ugc-net-cse-june-2014-part-3-question-73</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"58195\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)</p><p>\\( \\begin{array}{clcl}&nbsp;&amp;&nbsp;&nbsp;\\textbf{List – I} &amp; &amp; \\textbf{List – II} &nbsp;\\\\ &nbsp; \\text{a.} &amp; \\text{Chomsky Normal form} &amp; \\text{i.} &amp; S \\rightarrow b S S \\mid&nbsp;a S \\mid&nbsp;c&nbsp;\\\\ &nbsp; \\text{b.} &amp; \\text{Greibach Normal form} &amp; \\text{ii.} &amp; S \\rightarrow a S b \\mid&nbsp;ab&nbsp;\\\\ &nbsp;\\text{c.} &amp; \\text{S-grammar} &amp; \\text{iii.} &amp; S \\rightarrow AS \\mid&nbsp;a&nbsp; \\\\&nbsp; &amp; &amp;&nbsp; &amp; A \\rightarrow SA \\mid&nbsp;b&nbsp;\\\\ &nbsp; \\text{d.} &amp; \\text{LL grammar} &amp; \\text{iv.} &amp; S \\rightarrow a B S B&nbsp; \\\\&nbsp; &amp; &amp; &amp; B \\rightarrow b&nbsp;\\\\&nbsp;\\end{array} \\)</p><p>\\( \\textbf{Codes :} \\)</p></div><br><br><b>Theory of Computation: UGC NET CSE | June 2014 | Part 3 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iv, b-iii, c-i, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-ii, d-i} \\)</p>",
+            "<p>\\( \\text{a-iii, b-iv, c-i, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-iv, c-ii, d-i} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iii, b-iv, c-i, d-ii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58195/ugc-net-cse-june-2014-part-3-question-74\" target=\"_blank\">https://gateoverflow.in/58195/ugc-net-cse-june-2014-part-3-question-74</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"61067\"></a><div itemprop=\"text\"><p>If all the production rules have single non-terminal symbol on the left side, the grammar defined is:</p></div><br><br><b>Theory of Computation: UGC NET CSE | Junet 2015 | Part 2 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Context free grammar</p>",
+            "<p>Context sensitive grammar</p>",
+            "<p>Unrestricted&nbsp;grammar</p>",
+            "<p>Phase&nbsp;grammar</p>"
+          ],
+          "correct_answer": "<p>Context free grammar</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61067/ugc-net-cse-junet-2015-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/61067/ugc-net-cse-junet-2015-part-2-question-33</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"166268\"></a><div itemprop=\"text\"><p>Which of the following statements is/are TRUE?</p><ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\"><li>The grammar \\( S \\rightarrow SS \\mid a \\) &nbsp;is ambiguous. (Where \\( S \\) is the start symbol)</li><li>The grammar \\( S \\rightarrow 0S1 \\mid 01S \\mid \\epsilon \\) &nbsp;is ambiguous. (The special symbol \\( \\epsilon \\) represents the empty string) &nbsp;(Where \\( S \\) is the start symbol)</li><li>The grammar (Where \\( S \\) is the start symbol)<pre class=\"prettyprint linenums lang-text\" data-pbcklang=\"text\" data-pbcktabsize=\"4\">S -&gt; T/U\\( \nT -&gt; x S y | xy | ϵ\nU -&gt; yT</pre> generates a language consisting of the string  \\)yxxyy$.</li></ol></div><br><br><b>Theory of Computation: UGC NET CSE | November 2017 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only (i) and (ii) are TRUE.</p>",
+            "<p>Only (i) and (iii) are TRUE.</p>",
+            "<p>Only (ii) and (iii) are TRUE.</p>",
+            "<p>All of (i), (ii) and (iii) are TRUE.</p>"
+          ],
+          "correct_answer": "<p>All of (i), (ii) and (iii) are TRUE.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166268/ugc-net-cse-november-2017-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/166268/ugc-net-cse-november-2017-part-2-question-34</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"349616\"></a><div itemprop=\"text\"><p>Which of the following grammars is(are) ambiguous?</p><ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\"><li>\\( s \\rightarrow ss \\mid asb \\mid bsa \\mid \\lambda \\)</li><li>\\( s \\rightarrow asbs \\mid bsas \\mid \\lambda \\)</li><li>\\( s \\rightarrow aAB \\\\ A \\rightarrow bBb \\\\ B \\rightarrow A \\mid \\lambda \\text{ where } \\lambda \\text{ denotes empty string} \\)</li></ol><p>Choose the correct answer from the options given below:</p></div><br><br><b>Theory of Computation: UGC NET CSE | October 2020 | Part 2 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (ii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349616/ugc-net-cse-october-2020-part-2-question-57\" target=\"_blank\">https://gateoverflow.in/349616/ugc-net-cse-october-2020-part-2-question-57</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"59069\"></a><div itemprop=\"text\"><p>LL grammar for the language \\( L = \\{a^n b^m c^{n+m} \\mid m \\geq 0, n \\geq 0\\} \\) is</p></div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  S \\rightarrow aSc \\mid S_1 ; S_1 \\rightarrow bS_1c \\mid \\lambda \\)</p>",
+            "<p>\\(  S \\rightarrow aSc \\mid S_1 \\lambda \\mid S_1 \\mid \\lambda ; S_1 \\rightarrow bS_1c  \\)</p>",
+            "<p>\\(  S \\rightarrow aSc \\mid S_1 \\lambda \\mid S_1 \\mid \\lambda ; S_1 \\rightarrow bS_1c \\mid \\lambda \\)</p>",
+            "<p>\\(  S \\rightarrow aSc \\mid S_1 \\lambda ; S_1 \\rightarrow bS_1c \\mid \\lambda \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  S \\rightarrow aSc \\mid S_1 \\lambda \\mid S_1 \\mid \\lambda ; S_1 \\rightarrow bS_1c \\mid \\lambda \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59069/ugc-net-cse-september-2013-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/59069/ugc-net-cse-september-2013-part-2-question-16</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"59071\"></a><div itemprop=\"text\"><p>Assume the statements \\( S_1 \\) and \\( S_2 \\) given as:</p><p>\\( S_1 \\): Given a context free grammar G, there exists an algorithm for determining whether L(G) is infinite.</p><p>\\( S_2 \\): There exists an algorithm to determine whether two context free grammars generate the same language.</p><p>Which one of the following is true?</p></div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S_1 \\) is correct and \\( S_2 \\) is not correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not correct</p>",
+            "<p>\\( S_1 \\) is not correct and \\( S_2 \\) is correct</p>"
+          ],
+          "correct_answer": "<p>\\( S_1 \\) is correct and \\( S_2 \\) is not correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59071/ugc-net-cse-september-2013-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/59071/ugc-net-cse-september-2013-part-2-question-17</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"59520\"></a><div itemprop=\"text\"><p>Given the following production of a grammar:</p><p>\\( S \\rightarrow aA \\mid aBB \\);</p><p>\\( A \\rightarrow aaA \\mid \\lambda \\);</p><p>\\( B \\rightarrow bB \\mid bbC \\);</p><p>\\( C \\rightarrow B \\)</p><p>Which of the following is true?</p></div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The language corresponding to the given grammar is a set of even number of a’s</p>",
+            "<p>The language corresponding to the given grammar is a set of odd number of a’s</p>",
+            "<p>The language corresponding to the given grammar is a set of even number of a’s followed by odd number of b’s</p>",
+            "<p>The language corresponding to the given grammar is a set of odd number of a’s followed by even number of b’s</p>"
+          ],
+          "correct_answer": "<p>The language corresponding to the given grammar is a set of odd number of a’s</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59520/ugc-net-cse-september-2013-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/59520/ugc-net-cse-september-2013-part-3-question-18</a></p>"
+        }
+      ]
+    }
+  ]
+});

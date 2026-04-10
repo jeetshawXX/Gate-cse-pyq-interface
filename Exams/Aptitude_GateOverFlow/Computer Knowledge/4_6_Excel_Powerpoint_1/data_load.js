@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Computer Knowledge - Excel Powerpoint",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Excel Powerpoint",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"148\"></a><div itemprop=\"text\"><p>If an Excel Worksheet is to be linked for use in PowerPoint presentation, the following should be clicked</p><p>&nbsp;</p><ol><li>Edit, Paste Special</li><li>Edit, Paste</li><li>Edit, Copy</li><li>File, Copy</li><li>None of these</li></ol><p>&nbsp;</p></div><br><br><b>Computer Knowledge: Linking excel worksheet to powerpoint</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/148/linking-excel-worksheet-to-powerpoint\" target=\"_blank\">https://aptitude.gateoverflow.in/148/linking-excel-worksheet-to-powerpoint</a></p>"
+        }
+      ]
+    }
+  ]
+});

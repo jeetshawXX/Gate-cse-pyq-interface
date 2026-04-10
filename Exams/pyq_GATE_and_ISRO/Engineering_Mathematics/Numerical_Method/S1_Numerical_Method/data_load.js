@@ -1,0 +1,231 @@
+window.__examLoadCallback({
+  "title": "Numerical_Method - Numerical_Method - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Method",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Using Newton-Raphson method, a root correct to 3 decimal places of  \\(x^{3}-3 x-5=0\\) <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.222</p>",
+            "<b>B.</b> <p>2.275</p>",
+            "<b>C.</b> <p>2.279</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2.279</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128599/isro2017-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the sum to infinity of the series,<br>\\(3+6 x^{2}+9 x^{4}+12 x^{6}+\\ldots \\text { given }|x| \\lt 1\\) <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{3}{(1+x^{2})}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3}{(1+x^{2})^{2}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{3}{(1-x^{2})^{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{3}{(1-x^{2})}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{3}{(1-x^{2})^{2}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55594/isro2016-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The velocity v (in kilometer/minute) of a motorbike which starts from rest, is given at fixed intervals of time t (in minutes) as follows: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Method\\q26_5ff1a22d.jpg\"> <br> The approximate distance (in kilometers) rounded to two places of decimals covered in 20 minutes using Simpson's \\(1/3^{rd}\\) rule is _______________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "308",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8559/gate2015-3-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The secant method is used to find the root of an equation f(x)=0. It is started from two distinct estimates \\(x_{a}\\) and \\(x_{b}\\) for the root. It is an iterative procedure involving linear interpolation to a root. The iteration stops if \\(f(x_{b})\\) is very small and then \\(x_{b}\\) is the solution. The procedure is given below. Observe that there is an expression which is missing and is marked by ?. Which is the suitable expression that is to be put in place of ? so that it follows all steps of the secant method?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Method\\q41_af915979.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{b}-(f_{b}-f(x_{a}))f_{b}/(x_{b}-x_{a})\\)</p>",
+            "<b>B.</b> <p>\\(x_{a}-(f_{b}-f(x_{a}))f_{a}/(x_{b}-x_{a})\\)</p>",
+            "<b>C.</b> <p>\\(x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))\\)</p>",
+            "<b>D.</b> <p>\\(x_{a}-(x_{b}-x_{a})f_{a}/(f_{b}-f(x_{a}))\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8210/gate2015-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>With respect to the numerical evaluation of the definite integral,\\(K=\\int_{a}^{b}x^{2}dx\\) , where a and b are given, which of the following statements is/are TRUE? <br>\n(I) The value of K obtained using the trapezoidal rule is always greater than or equal to the\nexact value of the definite integral. <br>\n(II) The value of K obtained using the Simpson's rule is always equal to the exact value of\nthe definite integral. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2080/gate2014-3-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In the Newton-Raphson method, an initial guess of \\(x_{0}=2\\) is made and the sequence\n\\(x_{0},x_{1},x_{2}...\\) is obtained for the function <br> \\(0.75x^{3}-2x^{2}-2x+4=0\\)<br> Consider the statements <br>\n(I) \\(x_{3}\\)=0. <br>\n(II) The method converges to a solution in a finite number of iterations. <br>\nWhich of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only I</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2012/gate2014-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The Guass-Seidal iterative method can be used to solve which of the following sets? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Linear algebraic equations</p>",
+            "<b>B.</b> <p>Linear and non-linear algebraic equations</p>",
+            "<b>C.</b> <p>Linear differential equations</p>",
+            "<b>D.</b> <p>Linear and non-linear differential equations</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Linear algebraic equations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44158/isro-2013-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Function f is known at the following points: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Method\\q23_ec5c245a.jpg\"> <br> The value of \\(\\int_{0}^{3}f(x)dx\\) computed using the trapezoidal rule is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8.983</p>",
+            "<b>B.</b> <p>9.003</p>",
+            "<b>C.</b> <p>9.017</p>",
+            "<b>D.</b> <p>9.045</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9.045</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1534/gate2013-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The bisection method is applied to compute a zero of the function  \\(f(x) = x^{4}-x^{3}-x^{2}-4\\) in the interval [1,9]. The method converges to a solution after _____iterations. <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1614/gate2012-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Given <br>\nX:\t0\t10\t16<br>\nY:\t6\t16\t28<br>\nThe interpolated value X=4 using piecewise linear interpolation is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>22</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52809/isro2011-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Newton-Raphson method is used to compute a root of the equation \\(x^{2} -13=0\\)\nwith 3.5 as the initial value. The approximation after one iteration is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3.575</p>",
+            "<b>B.</b> <p>3.676</p>",
+            "<b>C.</b> <p>3.667</p>",
+            "<b>D.</b> <p>3.607</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3.607</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1148/gate2010-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the polynomial \\(p(x) = a_0 + a_1x + a_2x^2 + a_3x^3\\) , where \\(a_i \\neq 0, \\forall i\\). The minimum number of multiplications needed to evaluate p on an input x is: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/792/gate2006-1-isro2009-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The formula \\(P_k = y_0 + k \\triangledown y_0+ \\frac{k(k+1)}{2} \\triangledown ^2 y_0 + \\dots + \\frac{k \\dots (k+n-1)}{n!} \\triangledown ^n y_0\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Newton's backward formula</p>",
+            "<b>B.</b> <p>Gauss forward formula</p>",
+            "<b>C.</b> <p>Gauss backward formula</p>",
+            "<b>D.</b> <p>Stirling's formula</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Newton's backward formula</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50482/isro2009-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A root \\(\\alpha\\) of equation \\(f(x)=0\\) can be computed to any degree of accuracy if a 'good' initial approximation \\(x_0\\) is chosen for which <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(x_0) \\gt 0\\)</p>",
+            "<b>B.</b> <p>\\(f (x_0) f''(x_0) \\gt 0\\)</p>",
+            "<b>C.</b> <p>\\(f(x_0) f'' (x_0) \\lt 0\\)</p>",
+            "<b>D.</b> <p>\\(f''(x_0) \\gt 0\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(x_0) \\gt 0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48069/isro2009-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the function \\(f(x) = x^{2} - 2x - 1\\). Suppose an execution of the Newton-Raphson method to find a zero of \\(f(x)\\) starts with an approximation \\(x_{0} = 2\\) of \\(x\\). What is the value of \\(x_{2}\\), the approximation of \\(x\\) that algorithm produces after two iterations, rounded to three decimal places? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.417</p>",
+            "<b>B.</b> <p>2.419</p>",
+            "<b>C.</b> <p>2.423</p>",
+            "<b>D.</b> <p>2.425</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2.417</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3320/gate2008-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

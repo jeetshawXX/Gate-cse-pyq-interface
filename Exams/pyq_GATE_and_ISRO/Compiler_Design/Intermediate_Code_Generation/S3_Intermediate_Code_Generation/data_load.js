@@ -1,0 +1,102 @@
+window.__examLoadCallback({
+  "title": "Intermediate_Code_Generation - Intermediate_Code_Generation - Slot 3",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Intermediate_Code_Generation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In a simplified computer the instructions are:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Intermediate_Code_Generation\\q54a_496f1284.jpg\"> <br>\nThe computer has only two registers, and OP is either ADD or SUB. Consider the\nfollowing basic block:   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Intermediate_Code_Generation\\q54b_a712a573.jpg\"> <br>\nAssume that all operands are initially in memory. The final value of the\ncomputation should be in memory. What is the minimum number of MOV\ninstructions in the code generated for this basic block? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1252/gate2007-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following C code segment.<pre><code>\nfor (i = 0, &lt; i  n; i++) \n{ \n    for (j=0; j&lt; n; j++) \n    { \n        if (i%2) \n        { \n            x += (4*j + 5*i); \n            y += (7 + 4*j); \n        } \n    } \n} \n</code></pre>\nWhich one to the following false? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The code contains loop-in variant computation</p>",
+            "<b>B.</b> <p>There is scope of common sub-expression elimination in this code</p>",
+            "<b>C.</b> <p>There is scope strength reduction in this code</p>",
+            "<b>D.</b> <p>There is scope of dead code elimination in this code</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There is scope of dead code elimination in this code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1838/gate2006-60#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The expression \\(( a * b) * c \\; op \\dots\\)<br>\nwhere 'op' is one of '+', '*' and '\\(\\uparrow\\)' (exponentiation) can be evaluated on a CPU with single register without  storing the value of (a * b) if <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>op' is '+' or '*'</p>",
+            "<b>B.</b> <p>op' is '\\(\\uparrow\\)' or '*'</p>",
+            "<b>C.</b> <p>op' is '\\(\\uparrow\\)' or '+'</p>",
+            "<b>D.</b> <p>not possible to evaluate without storing</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>op' is '+' or '*'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2250/gate1997-4-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Generation of intermediate code based on an abstract machine model is useful in compilers because <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it makes implementation of lexical analysis and syntax analysis easier</p>",
+            "<b>B.</b> <p>syntax-directed translations can be written for intermediate code generation</p>",
+            "<b>C.</b> <p>it enhances the portability of the front end of the compiler</p>",
+            "<b>D.</b> <p>it is not possible to generate code for real machines directly from high level language programs</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>it enhances the portability of the front end of the compiler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2453/gate1994-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Mention the pass number for each of the following activities that occur in a two pass assembler:\n<br><br>A. object code generation\n<br>B. literals added to literal table\n<br>C. listing printed\n<br>D. address resolution of local symbols <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 1 2 1</p>",
+            "<b>B.</b> <p>1 1 1 2</p>",
+            "<b>C.</b> <p>1 2 2 2</p>",
+            "<b>D.</b> <p>1 2 1 2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2 1 2 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/579/gate1992-03-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Indicate all the true statements from the following: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recursive descent parsing cannot be used for grammar with left recursion.</p>",
+            "<b>B.</b> <p>The intermediate form for representing expressions which is best suited for code optimization is the postfix form.</p>",
+            "<b>C.</b> <p>A programming language not supporting either recursion or pointer type does not need the support of dynamic memory allocation.</p>",
+            "<b>D.</b> <p>Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C</p>",
+            "<b>E.</b> <p>No feature of Pascal typing violates strong typing in Pascal.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Recursive descent parsing cannot be used for grammar with left recursion.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/524/gate1991-03-x\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

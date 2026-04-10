@@ -1,0 +1,281 @@
+{
+  "title": "Link_List - Link_List - Slot 2",
+  "duration": 50,
+  "sections": [
+    {
+      "name": "Link_List",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The following steps in a linked list<br><pre><code>p = getnode() \ninfo(p) = 10 \nnext (p) = list \nlist = p</code></pre>\nresult in which type of operation? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Pop operation in stack</p>",
+            "<b>B.</b> <p>Removal of a node</p>",
+            "<b>C.</b> <p>Inserting a node</p>",
+            "<b>D.</b> <p>Modifying an existing node</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Inserting a node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43754/isro-2013-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The following C function takes a simply-linked list as input argument. It modifies\nthe list by moving the last element to the front of the list and returns the\nmodified list. Some part of the code is left blank.<pre><code> typedef struct node {\n     int value;\n     struct node *next;\n} Node;\nNode *move_to_front(Node *head) { \n       Node *p, *q;\n       if ((head = = NULL: || (head-&gt;next = = NULL)) return head;\n       q = NULL; p = head;\n       while (p-&gt; next !=NULL) {\n                         q=P; \n                         p=p-&gt;next;\n}\n_______________________________\nreturn head;\n} </code></pre>\nChoose the correct alternative to replace the blank line. <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>q = NULL; p\\(\\rightarrow\\)next = head; head = p;</p>",
+            "<b>B.</b> <p>q\\(\\rightarrow\\)next = NULL; head = p; p\\(\\rightarrow\\)next = head;</p>",
+            "<b>C.</b> <p>head = p; p\\(\\rightarrow\\)next = q; q\\(\\rightarrow\\)next = NULL;</p>",
+            "<b>D.</b> <p>q\\(\\rightarrow\\)next = NULL; p\\(\\rightarrow\\)next = head; head = p;</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>q\\(\\rightarrow\\)next = NULL; p\\(\\rightarrow\\)next = head; head = p;</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2337/gate2010-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The minimum number of fields with each node of doubly linked list is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17245/isro2008-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following operations is performed more efficiently by doubly linked list than by linear linked list? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deleting a node whose location is given</p>",
+            "<b>B.</b> <p>Searching an unsorted list for a given item</p>",
+            "<b>C.</b> <p>Inserting a node after the node with a given location</p>",
+            "<b>D.</b> <p>Traversing the list to process each node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Deleting a node whose location is given</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50141/isro2008-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The time required to search an element in a linked list of length n is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(\\log_2 n)\\)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>O(1)</p>",
+            "<b>D.</b> <p>\\(O(n^2)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50139/isro2008-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The following C function takes a single-linked list of integers as a parameter and\nrearranges the elements of the list. The function is called with the list containing\nthe integers 1,2,3,4,5,6,7 in the given order. What will be the contents of the list\nafter the function completes execution?<pre><code> struct node {\n   int value;\n   struct node *next;\n};\nVoid rearrange(struct node *list) {\n   struct node *p, * q;\n   int temp;\n   if(!list|| !list-&gt; next) return;\n   p=list; q=list-&gt;next;\n   while(q)\n  {\n     temp = p-&gt;value;\n     p-&gt;value = q-&gt;value;\n     q-&gt;value = temp;\n     p = q-&gt;next;\n     q = p?p-&gt;next:0;\n  }\n}  </code></pre> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,2,3,4,5,6,7</p>",
+            "<b>B.</b> <p>2,1,4,3,6,5,7</p>",
+            "<b>C.</b> <p>1,3,2,5,4,7,6</p>",
+            "<b>D.</b> <p>2,3,4,5,6,7,1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2,1,4,3,6,5,7</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/485/gate2008-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The following C function takes a singly-linked list of integers as a parameter and rearranges the elements of the list. The list is represented as pointer to a structure. The function is called with the list containing the integers 1,2,3,4,5,6,7 in the given order. What will be the contents of the list after the function completes execution? <br><pre><code> struct node {int value; struct node *next;);\nvoid rearrange (struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while (q) {\n        temp = p -&gt; value;\n        p -&gt; value = q -&gt; value;\n        q -&gt; value = temp;\n        p = q -&gt; next;\n        q = p ? p -&gt; next : 0;\n      }\n}</code></pre> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,2,3,4,5,6,7</p>",
+            "<b>B.</b> <p>2,1,4,3,6,5,7</p>",
+            "<b>C.</b> <p>1,3,2,5,4,7,6</p>",
+            "<b>D.</b> <p>2,3,4,5,6,7,1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2,1,4,3,6,5,7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3815/gate2005-it-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose there are \\(\\left \\lceil log n \\right \\rceil\\) sorted lists of \\(\\left \\lfloor n/log n \\right \\rfloor\\) elements each. The time complexity of producing a\nsorted list of all these elements is: (Hint: Use a heap data structure) <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n log log n)</p>",
+            "<b>B.</b> <p>\\(\\theta\\) (n log n)</p>",
+            "<b>C.</b> <p>\\(\\Omega\\) (n log n)</p>",
+            "<b>D.</b> <p>\\(\\Omega (n^{\\frac{3}{2}})\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>O(n log log n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/784/gate2005-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let P be a singly linked list. Let Q be the pointer to an intermediate node x in the list. What is the worst-case time complexity of the best-known algorithm to delete the node x from the list ? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n)\\)</p>",
+            "<b>B.</b> <p>\\(O(\\log^2 n)\\)</p>",
+            "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>D.</b> <p>\\(O(1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(O(n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3654/gate2004-it-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose each set is represented as a linked list with elements in arbitray order. Which of the\noperations among union, intersection, membership, cardinality will be the slowest? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>union only</p>",
+            "<b>B.</b> <p>intersection, membership</p>",
+            "<b>C.</b> <p>membership, cardinality</p>",
+            "<b>D.</b> <p>union, intersection</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>union, intersection</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1037/gate2004-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A circularly linked list is used to represent a Queue. A single variable p is used to access the Queue.\nTo which node should p point such that both the operations enQueue and deQueue can be performed\nin constant time? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Link_List\\q36_67f03162.jpg\"> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>rear node</p>",
+            "<b>B.</b> <p>not possible with a single pointer</p>",
+            "<b>C.</b> <p>front node</p>",
+            "<b>D.</b> <p>node next to front</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>rear node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1033/gate2004-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the function f defined below.<pre><code>\nstruct item\n{\n    int data;\n    struct item * next;\n};\nint f(struct item *p)\n{\n    return ((p == NULL) || (p-&gt;next == NULL) ||\n            ((P-&gt;data &lt;= p-&gt;next-&gt;data) &amp;&amp;\n            f(p-&gt;next)));\n}</code></pre>\nFor a given linked list p, the function f returns 1 if and only if <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the list is empty or has exactly one element</p>",
+            "<b>B.</b> <p>the elements in the list are sorted in non-decreasing order of data value</p>",
+            "<b>C.</b> <p>the elements in the list are sorted in non-increasing order of data value</p>",
+            "<b>D.</b> <p>not all elements in the list have the same data value</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the elements in the list are sorted in non-decreasing order of data value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/973/gate2003-90#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the worst case, the number of comparisons needed to search a single linked list\nof length n for a given element is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>log n</p>",
+            "<b>B.</b> <p>n/2</p>",
+            "<b>C.</b> <p>\\(log_{2}^{n}-1\\)</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/809/gate2002-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The concatenation of two lists is to be performed on O(1) time. Which of the following implementations of a list should be used? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Singly linked list</p>",
+            "<b>B.</b> <p>Doubly linked list</p>",
+            "<b>C.</b> <p>Circular doubly linked list</p>",
+            "<b>D.</b> <p>Array implementation of list</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Circular doubly linked list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2220/gate1997-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following statements is true?<br>\nI. As the number of entries in a hash table increases, the number of collisions increases.<br>\nII. Recursive programs are efficient<br>\nIII. The worst case complexity for Quicksort is \\(O(n^2)\\)<br>\nIV. Binary search using a linear linked list is efficient<br> <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>II and III</p>",
+            "<b>C.</b> <p>I and IV</p>",
+            "<b>D.</b> <p>I and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2634/gate1995-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>For merging two sorted lists of sizes \\(m\\) and \\(n\\) into a sorted list of size \\(m+n\\), we require comparisons of <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(m)\\)</p>",
+            "<b>B.</b> <p>\\(O(n)\\)</p>",
+            "<b>C.</b> <p>\\(O(m+n)\\)</p>",
+            "<b>D.</b> <p>\\(O(\\log m + \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(m+n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2603/gate1995-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Linked lists are not suitable data structures for which one of the following problems? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Insertion sort</p>",
+            "<b>B.</b> <p>Binary search</p>",
+            "<b>C.</b> <p>Radix sort</p>",
+            "<b>D.</b> <p>Polynomial manipulation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Binary search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2460/gate1994-1-17-ugcnet-sep2013-ii-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>In a circular linked list oraganisation, insertion of a record involves modification of <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One pointer.</p>",
+            "<b>B.</b> <p>Two pointers.</p>",
+            "<b>C.</b> <p>Multiple pointers.</p>",
+            "<b>D.</b> <p>No pointer.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Two pointers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80298/gate1987-1-xv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

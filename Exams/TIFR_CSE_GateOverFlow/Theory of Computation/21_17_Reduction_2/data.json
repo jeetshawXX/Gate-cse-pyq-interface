@@ -1,0 +1,43 @@
+{
+  "title": "Theory of Computation - Reduction",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Reduction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"97629\"></a><div itemprop=\"text\"><p>Assume \\( P \\neq NP \\). Which of the following is not TRUE?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2016 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)-SAT in NP</p>",
+            "<p>\\( 2 \\)-SAT in coNP</p>",
+            "<p>\\( 3 \\)-SAT is polynmial-time reducible to \\( 2 \\)-SAT</p>",
+            "<p>4-SAT is polynmial-time reducible to \\( 3 \\)-SAT</p>",
+            "<p>\\( 2 \\)-SAT in P</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)-SAT is polynmial-time reducible to \\( 2 \\)-SAT</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/97629/tifr-cse-2016-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/97629/tifr-cse-2016-part-b-question-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"179299\"></a><div itemprop=\"text\"><p>\\( G \\)&nbsp;respresents&nbsp;an undirected graph and a cycle refers to a simple cycle (no repeated edges or vertices).<br>\n&nbsp;Define the following two languages.</p>\n\n<p>\\( \\text{SCYCLE}=\\{(G,k)\\mid G \\text{ contains a cycle of length at most k}\\} \\)<br>\n&nbsp; &nbsp; &nbsp; &nbsp; and<br>\n\\( \\text{LCYCLE}=\\{(G,k)\\mid G \\text{ contains a cycle of length at least k}\\} \\)</p>\n\n<p>Which of the following is NOT known to be TRUE (to the best of our current knowledge) ?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2018 | Part B | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{SCYCLE}&nbsp;\\in P \\)</p>",
+            "<p>\\( \\text{LCYCLE}&nbsp;\\in NP. \\)</p>",
+            "<p>\\( \\text{LCYCLE}&nbsp;\\leq_{p} \\text{SCYCLE} \\) (i.e, there is a polynomial time many-to -one&nbsp;reduction<br>\n\t&nbsp;from \\( \\text{LCYCLE} \\) to \\( \\text{SCYCLE} \\)).</p>",
+            "<p>\\( \\text{LCYCLE} \\) is NP-complete.</p>",
+            "<p>\\( \\text{SCYCLE}&nbsp;\\leq_{p} \\text{LCYCLE} \\) (i.e, there is a polynomial time many-to-one reduction<br>\n\tfrom \\( \\text{SCYCLE} \\) to \\( \\text{LCYCLE} \\)).</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{LCYCLE}&nbsp;\\leq_{p} \\text{SCYCLE} \\) (i.e, there is a polynomial time many-to -one&nbsp;reduction<br>\n\t&nbsp;from \\( \\text{LCYCLE} \\) to \\( \\text{SCYCLE} \\)).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179299/tifr-cse-2018-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/179299/tifr-cse-2018-part-b-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

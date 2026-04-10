@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Optimization - Linear Programming",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linear Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349669\"></a><div itemprop=\"text\"><p>Consider the following linear programming (LP):</p>\n\n<p>\\( \\begin{array}{ll} \\text{Max.} &amp; z=2x_1+3x_2 \\\\ \\text{Such that} &amp; 2x_1+x_2 \\leq 4 \\\\ &amp; x_1 + 2x_2 \\leq 5 \\\\ &amp; x_1, x_2 \\geq 0 \\end{array} \\)</p>\n\n<p>The optimum value of the LP is</p>\n\n</div><br><br><b>Optimization: UGC NET CSE | October 2020 | Part 2 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 9.5 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349669/ugc-net-cse-october-2020-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/349669/ugc-net-cse-october-2020-part-2-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

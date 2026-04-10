@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - Planning",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Planning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225808\"></a><div itemprop=\"text\"><p>Consider the following two sentences:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>The planning graph data structure can be used to give a better heuristic for a planning problem</li>\n\t<li>Dropping negative effects from every action schema in a planning problem results in a relaxed problem</li>\n</ol>\n\n<p>Which of the following is correct with respect to the above sentences?</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | July 2018 | Part 2 | Question: 78</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both sentence a and sentence b are false</p>",
+            "<p>Both sentence a and sentence b are true</p>",
+            "<p>Sentence a is true but sentence b is false</p>",
+            "<p>Sentence a is false but sentence b is true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225808/ugc-net-cse-july-2018-part-2-question-78\" target=\"_blank\">https://gateoverflow.in/225808/ugc-net-cse-july-2018-part-2-question-78</a></p>"
+        }
+      ]
+    }
+  ]
+});

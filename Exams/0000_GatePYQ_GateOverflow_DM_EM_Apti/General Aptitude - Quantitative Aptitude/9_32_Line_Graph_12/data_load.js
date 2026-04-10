@@ -1,0 +1,186 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Line Graph",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Line Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1951\"></a><div itemprop=\"text\"><p>The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students doubled in \\( 2009 \\), by what percent did the number of male students increase in \\( 2009 \\)?</p><p style=\"text-align:center\"><img alt=\"\" height=\"223\" width=\"351\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/d2fba2d59a525f7804a3203132c8a554.png\"></p></div><br><br><b>GATE CSE 2014 Set 2 | Question: GA-9</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "140",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1951/gate-cse-2014-set-2-question-ga-9\" target=\"_blank\">https://gateoverflow.in/1951/gate-cse-2014-set-2-question-ga-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2033\"></a><div itemprop=\"text\"><p>The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students in \\( 2011 \\) and \\( 2012 \\) is equal, what is the ratio of male students in \\( 2012 \\) to male students in \\( 2011 \\)?</p><p style=\"text-align:center\"><img alt=\"\" height=\"242\" width=\"390\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/6c607713a3eed1637a71dafaecf5fa7a.png\"></p></div><br><br><b>GATE CSE 2014 Set 3 | Question: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1:1 \\)</p>",
+            "<p>\\( 2:1 \\)</p>",
+            "<p>\\( 1.5:1 \\)</p>",
+            "<p>\\( 2.5:1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1.5:1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2033/gate-cse-2014-set-3-question-ga-9\" target=\"_blank\">https://gateoverflow.in/2033/gate-cse-2014-set-3-question-ga-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"39535\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"251\" width=\"393\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/91b9ae584ea3856b8cac7d49750238d8.png\"></p></div><br><br><b>GATE CSE 2016 Set 2 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f(x) = 1 - |x - 1| \\)</p>",
+            "<p>\\( f(x) =1 + |x - 1| \\)</p>",
+            "<p>\\( f(x) = 2 - |x - 1| \\)</p>",
+            "<p>\\( f(x) = 2 + |x - 1| \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f(x) = 2 - |x - 1| \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10\" target=\"_blank\">https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"426488\"></a><div itemprop=\"text\"><p>The plot below shows the relationship between the mortality risk of cardiovascular disease and the number of steps a person walks per day. Based on the data, which one of the following options is true?</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"339\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/7c4c85793fc33effcaa08546a7c8a5df.png\" width=\"600\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>GATE Civil 2024 Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The risk reduction on increasing the steps/day from \\( 0 \\) to \\( 10000 \\) is less than the risk reduction on increasing the steps/day from \\( 10000 \\) to \\( 20000 \\).</p>",
+            "<p>The risk reduction on increasing the steps/day from \\( 0 \\) to \\( 5000 \\) is less than the risk reduction on increasing the steps/day from \\( 15000 \\) to \\( 20000 \\).</p>",
+            "<p>For any \\( 5000 \\) increment in steps/day the largest risk reduction occurs on going from \\( 0 \\) to \\( 5000 \\).</p>",
+            "<p>For any \\( 5000 \\) increment in steps/day the largest risk reduction occurs on going from \\( 15000 \\) to \\( 20000 \\).</p>"
+          ],
+          "correct_answer": "<p>For any \\( 5000 \\) increment in steps/day the largest risk reduction occurs on going from \\( 0 \\) to \\( 5000 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426488/gate-civil-2024-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/426488/gate-civil-2024-set-2-ga-question-8</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"312131\"></a><div itemprop=\"text\"><p>The fuel consumed by a motorcycle during a journey while traveling at various speeds is indicated in the graph below.</p><p style=\"text-align:center\"><img alt=\"\" height=\"313\" width=\"351\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/9d740bd8b63e5141e8a69574859c6d12.png\"></p><p>The distances covered during four laps of the journey are listed in the table below</p><p>\\[ \\small \\begin{array}{|c|c|}\\hline \\textbf{Lap}&nbsp; &amp;&nbsp; \\textbf{Distance} &amp; \\textbf{Average Speed}\\\\ &amp; \\textbf{(kilometres)} &amp; \\textbf{(kilometres per hour)} \\\\\\hline \\textbf{P} &amp; 15 &amp; 15 \\\\\\hline \\textbf{Q} &amp; 75 &amp; 45 \\\\\\hline \\textbf{R} &amp; 40 &amp; 75 \\\\ \\hline \\textbf{S} &amp; 10 &amp; 10 \\\\ \\hline&nbsp; \\end{array} \\]</p><p>From the given data, we can conclude that the fuel consumed per kilometre was least during the lap</p></div><br><br><b>GATE2011 AG: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\)</p>",
+            "<p>\\( Q \\)</p>",
+            "<p>\\( R \\)</p>",
+            "<p>\\( S \\)</p>"
+          ],
+          "correct_answer": "<p>\\( Q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312131/gate2011-ag-ga-9\" target=\"_blank\">https://gateoverflow.in/312131/gate2011-ag-ga-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"40310\"></a><div itemprop=\"text\"><p>The monthly rainfall chart based on \\( 50 \\) years of rainfall in Agra is shown in the following figure.</p><p style=\"text-align:center\"><img alt=\"\" height=\"369\" width=\"600\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/00a821964da4feb302f60ba823de0a63.png\"></p><p>Which of the following are true? (k percentile is the value such that k percent of the data fall below that value)</p><ol style=\"list-style-type:lower-roman\"><li>On average, it rains more in July than in December</li><li>Every year, the amount of rainfall in August is more than that in January</li><li>July rainfall can be estimated with better confidence than February rainfall</li><li>In August, there is at least \\( 500 \\) mm of rainfall</li></ol></div><br><br><b>GATE2014 AE: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (ii)</p>",
+            "<p>(i) and (iii)</p>",
+            "<p>(ii) and (iii)</p>",
+            "<p>(iii) and (iv)</p>"
+          ],
+          "correct_answer": "<p>(i) and (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40310/gate2014-ae-ga-10\" target=\"_blank\">https://gateoverflow.in/40310/gate2014-ae-ga-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"110905\"></a><div itemprop=\"text\"><p>Two finance companies, \\( P \\) and \\( Q \\), declared fixed annual rates of interest on the amounts invested with them. The rates of interest offered by these companies may differ from year to year. Year-wise annual rates of interest offered by these companies are shown by the line graph provided below.</p><p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/b893bae0dc0e19e850bdac37ef83b17b.png\"></p><p>If the amounts invested in the companies, \\( P \\) and \\( Q \\), in \\( 2006 \\) are in the ratio \\( 8:9 \\), then the amounts received after one year as interests from companies \\( P \\) and \\( Q \\) would be in the ratio:</p></div><br><br><b>GATE2016 CE-2: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2:3 \\)</p>",
+            "<p>\\( 3:4 \\)</p>",
+            "<p>\\( 6:7 \\)</p>",
+            "<p>\\( 4:3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4:3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110905/gate2016-ce-2-ga-6\" target=\"_blank\">https://gateoverflow.in/110905/gate2016-ce-2-ga-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"313662\"></a><div itemprop=\"text\"><p>The growth of bacteria (lactobacillus) in milk leads to curd formation. A minimum bacterial population density of \\( 0.8 \\) (in suitable units) is needed to form curd. In the graph below, the population density of lactobacillus in \\( 1 \\) litre&nbsp;of milk is plotted as a function of time, at two different temperatures, \\( 25^{\\circ} \\)C and \\( 37^{\\circ} \\)C.</p><p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/45e6e30aaeae66f2c633529853fb0cc0.png\"></p><p>Consider the following statements based on the data shown above:</p><ol style=\"list-style-type:lower-roman\"><li>The growth in bacterial population stops earlier at \\( 37^{\\circ} \\)C as compared to \\( 25^{\\circ} \\)C</li><li>The time taken&nbsp;for curd formation at \\( 25^{\\circ} \\)C is twice the time taken at \\( 37^{\\circ} \\)C</li></ol><p>Which one of the following options is correct?</p></div><br><br><b>GATE2017 ME-1: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only i</p>",
+            "<p>Only ii</p>",
+            "<p>Both i&nbsp;and ii</p>",
+            "<p>Neither i nor ii</p>"
+          ],
+          "correct_answer": "<p>Only i</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313662/gate2017-me-1-ga-10\" target=\"_blank\">https://gateoverflow.in/313662/gate2017-me-1-ga-10</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"313674\"></a><div itemprop=\"text\"><p>In the graph below, the concentration of a particular pollutant in a lake is plotted over (alternate) days of a month in winter (average temperature \\( 10^{\\circ} C \\)) and a month in summer (average temperature \\( 30^{\\circ} C \\)).</p><p style=\"text-align:center\"><img alt=\"\" height=\"328\" width=\"522\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/aae698936618b4b32b2a6f8657a603e9.png\"></p><p>Consider the following statements based on the data shown above:</p><ol start=\"1\" style=\"list-style-type:lower-roman\"><li>Over the given months, the difference between the maximum and the minimum pollutant concentrations is the same in both winter and summer</li><li>There are at least four days in the summer month such that the pollutant concentrations on those days are within \\( 1 \\) ppm of the pollutant concentrations on the corresponding days in the winter month.</li></ol><p>Which one of the following options is correct?</p></div><br><br><b>GATE2017 ME-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only i</p>",
+            "<p>Only ii</p>",
+            "<p>Both i and ii</p>",
+            "<p>Neither i nor ii</p>"
+          ],
+          "correct_answer": "<p>Only ii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313674/gate2017-me-2-ga-10\" target=\"_blank\">https://gateoverflow.in/313674/gate2017-me-2-ga-10</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"313251\"></a><div itemprop=\"text\"><p>Which of the following function(s) is an accurate description of the graph for the range(s) indicated?</p><p><img alt=\"\" height=\"311\" width=\"328\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/3a3568a65f84bc0bfd2eadd00c0f669a.png\"></p><ol style=\"list-style-type:lower-roman\"><li>\\( y=2x+4 \\text{ for } -3 \\leq x \\leq -1 \\)</li><li>\\( y= \\mid x-1 \\mid \\text{ for } -1 \\leq x \\leq 2 \\)</li><li>\\( y= \\mid\\mid x \\mid -1 \\mid \\text{ for } -1 \\leq x \\leq 2 \\)</li><li>\\( y=1 \\text{ for } 2 \\leq x \\leq 3 \\)</li></ol></div><br><br><b>GATE2018 CE-1: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i, ii and iii only</p>",
+            "<p>i, ii and iv&nbsp;only</p>",
+            "<p>i and iv only</p>",
+            "<p>ii and iv only</p>"
+          ],
+          "correct_answer": "<p>i, ii and iv&nbsp;only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313251/gate2018-ce-1-ga-8\" target=\"_blank\">https://gateoverflow.in/313251/gate2018-ce-1-ga-8</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"313386\"></a><div itemprop=\"text\"><p>The annual average rainfall in a tropical city is \\( 1000 \\) mm. On a particular rainy day (\\( 24 \\)-hour period), the cumulative rainfall experienced by the city is shown in the graph. Over the \\( 24 \\)-hour period, \\( 50 \\)% of the rainfall falling on a rooftop, which had an obstruction-free area of \\( 50 \\) \\( m^2 \\), was harvested into a tank. What is the total volume of water collected in the tank liters?</p><p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/3c2b1b827de7f50aa1ad4f22e759664f.png\"></p></div><br><br><b>GATE2018 CE-2: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25,000 \\)</p>",
+            "<p>\\( 18, 750 \\)</p>",
+            "<p>\\( 7,500 \\)</p>",
+            "<p>\\( 3.125 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7,500 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313386/gate2018-ce-2-ga-8\" target=\"_blank\">https://gateoverflow.in/313386/gate2018-ce-2-ga-8</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"205091\"></a><div itemprop=\"text\"><p>In a detailed study of annual crow births in India, it was found that there was relatively no growth during the period \\( 2002 \\) to \\( 2004 \\) and a sudden spike from \\( 2004 \\) to \\( 2005 \\). In another unrelated study, it was found that the revenue from cracker sales in India which remained fairly flat from \\( 2002 \\) to \\( 2004 \\), saw a sudden spike in \\( 2005 \\) before declining again in \\( 2006 \\). The solid line in the graph below refers to annual sale of crackers and the dashed line refers to the annual crow births in India. Choose the most appropriate inference from the above data.</p><p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___line_graph/47546d27313ce088b5f631f2839508f4.png\"></p></div><br><br><b>GATE2018 CH: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There is a strong correlation between crow birth and cracker sales.</p>",
+            "<p>Cracker usage increases crow birth rate.</p>",
+            "<p>If cracker sale declines, crow birth will decline.</p>",
+            "<p>Increased birth rate of crows will cause an increase in the sale of crackers.</p>"
+          ],
+          "correct_answer": "<p>There is a strong correlation between crow birth and cracker sales.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205091/gate2018-ch-ga-10\" target=\"_blank\">https://gateoverflow.in/205091/gate2018-ch-ga-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+{
+  "title": "Non GATE CSE - Cloud Computing - Cloud Computing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Cloud Computing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351580\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>_____________ has a feature of remote access through which a customer can access the data from anywhere and at any time with the help of internet connection.</p>\n\n</div><br><br><b>Cloud Computing: NIELIT Scientist B 2020 November: 102</b></p>",
+          "type": "single",
+          "options": [
+            "<p>IaaS</p>",
+            "<p>PaaS</p>",
+            "<p>NaaS</p>",
+            "<p>SaaS</p>"
+          ],
+          "correct_answer": "<p>NaaS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351580/nielit-scientist-b-2020-november-102\" target=\"_blank\">https://gateoverflow.in/351580/nielit-scientist-b-2020-november-102</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351617\"></a><div itemprop=\"text\"><p>Identify the odd one out.</p>\n\n</div><br><br><b>Cloud Computing: NIELIT Scientist B 2020 November: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Amazon web service</p>",
+            "<p>Microsoft Azure</p>",
+            "<p>Google cloud Platform</p>",
+            "<p>Twitter Platform</p>"
+          ],
+          "correct_answer": "<p>Twitter Platform</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351617/nielit-scientist-b-2020-november-65\" target=\"_blank\">https://gateoverflow.in/351617/nielit-scientist-b-2020-november-65</a></p>"
+        }
+      ]
+    }
+  ]
+}

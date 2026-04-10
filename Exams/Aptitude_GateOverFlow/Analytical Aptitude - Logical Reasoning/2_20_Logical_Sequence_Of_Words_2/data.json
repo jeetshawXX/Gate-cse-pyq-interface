@@ -1,0 +1,41 @@
+{
+  "title": "Analytical Aptitude - Logical Reasoning - Logical Sequence Of Words",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Logical Sequence Of Words",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"7784\"></a><div itemprop=\"text\"><p>Arrange the words given below in a meaningful sequence.</p>\n\n<p>1. Puberty&nbsp;&nbsp;&nbsp; 2. Adulthood&nbsp;&nbsp;&nbsp; 3. Childhood&nbsp;&nbsp;</p>\n\n<p>4. Infancy&nbsp;&nbsp;&nbsp; 5. Senescence&nbsp;&nbsp;&nbsp; 6. Adolescence</p>\n\n</div><br><br><b>Logical Reasoning: Logical Sequence of words</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2, 4, 6, 3, 1, 5 \\)</p>",
+            "<p>\\( 4, 3, 1, 6, 2, 5 \\)</p>",
+            "<p>\\( 4, 3, 6, 2, 1, 5 \\)</p>",
+            "<p>\\( 5, 6, 2, 3, 4, 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7784/logical-sequence-of-words\" target=\"_blank\">https://aptitude.gateoverflow.in/7784/logical-sequence-of-words</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"7783\"></a><div itemprop=\"text\"><p>Arrange the words given below in a meaningful sequence.</p>\n\n<p>1. District&nbsp;&nbsp;&nbsp; 2. Village&nbsp;&nbsp;&nbsp; 3. State&nbsp;&nbsp;&nbsp; 4. Town&nbsp;&nbsp;&nbsp; 5. City</p>\n\n</div><br><br><b>Logical Reasoning: Logical Sequence of words</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2, 4, 1, 5, 3 \\)</p>",
+            "<p>\\( 2, 1, 4, 5, 3 \\)</p>",
+            "<p>\\( 5, 3, 2, 1, 4 \\)</p>",
+            "<p>\\( 2, 5, 3, 4, 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7783/logical-sequence-of-words\" target=\"_blank\">https://aptitude.gateoverflow.in/7783/logical-sequence-of-words</a></p>"
+        }
+      ]
+    }
+  ]
+}

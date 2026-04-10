@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Generalization",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Generalization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"67842\"></a><div itemprop=\"text\"><p>Generalization is _______ process.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2010 | Part 2 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Top-down</p>",
+            "<p>Bottom up</p>",
+            "<p>Both (A) &amp; (B)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67842/ugc-net-cse-june-2010-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/67842/ugc-net-cse-june-2010-part-2-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Programming in C - Programming Paradigms",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Programming Paradigms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"998\"></a><div itemprop=\"text\"><p>The goal of structured programming is to:</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>have well indented programs</p>",
+            "<p>be able to infer the flow of control from the compiled code</p>",
+            "<p>be able to infer the flow of control from the program text</p>",
+            "<p>avoid the use of GOTO statements</p>"
+          ],
+          "correct_answer": "<p>be able to infer the flow of control from the program text</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/998/gate-cse-2004-question-1\" target=\"_blank\">https://gateoverflow.in/998/gate-cse-2004-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1084\"></a><div itemprop=\"text\"><p>Choose the best matching between the programming styles in Group 1 and their characteristics in Group 2.\\[ \\begin{array}{|ll|ll|}\\hline \\rlap{\\textbf{Group 1}}&nbsp;&amp; &nbsp;&amp; \\rlap{\\textbf{Group 2}} \\\\\\hline P. &amp; \\text{Functional} &amp; 1. &amp; \\text{Common-based, procedural} \\\\ Q. &amp; \\text{Logic} &amp; 2. &amp; \\text{Imperative, abstract data types} \\\\ R. &amp; \\text{Object-oriented} &amp; 3. &amp; \\text{Side-effect free, declarative, expression evaluations} \\\\ S. &amp; \\text{Imperative} &amp; 4. &amp; \\text{Declarative, clausal representation, theorem proving} \\\\\\hline&nbsp;\\end{array} \\]</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 90</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P-2\\quad&nbsp; Q-3\\quad R-4\\quad S-1 \\)</p>",
+            "<p>\\( P-4\\quad Q-3 \\quad R-2\\quad S-1 \\)</p>",
+            "<p>\\( P-3\\quad Q-4&nbsp;\\quad R-1\\quad&nbsp;S-2 \\)</p>",
+            "<p>\\( P-3\\quad&nbsp;Q-4\\quad&nbsp;R-2\\quad S-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P-3\\quad&nbsp;Q-4\\quad&nbsp;R-2\\quad S-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1084/gate-cse-2004-question-90\" target=\"_blank\">https://gateoverflow.in/1084/gate-cse-2004-question-90</a></p>"
+        }
+      ]
+    }
+  ]
+});

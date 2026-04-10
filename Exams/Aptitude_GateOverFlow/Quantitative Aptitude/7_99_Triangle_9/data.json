@@ -1,0 +1,141 @@
+{
+  "title": "Quantitative Aptitude - Triangle",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Triangle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4044\"></a><div itemprop=\"text\"><p>What is the area of the triangle?</p>\n\n<p>I. Two sides are 41 cm each</p>\n\n<p>II. The altitude to the third side is 9 cm long.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 100</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>",
+            "<p>if the question can not be answered even with the help of both the statements.</p>",
+            "<p>if the question can be answered with the help \\( 0 \\) statement \\( II \\) alone</p>",
+            "<p>if the question can be answered with the help of statement \\( I \\) alone</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4044/cat-1995-question-100\" target=\"_blank\">https://aptitude.gateoverflow.in/4044/cat-1995-question-100</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3993\"></a><div itemprop=\"text\"><p>ABCD is a square of area 4, which is divided into four non-overlapping triangles as shown in the figure. The sum of the perimeters of the triangles is:</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=3250927093361064413\" width=\"200\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8(1+\\sqrt{2}) \\)</p>",
+            "<p>\\( 8(2+\\sqrt{2}) \\)</p>",
+            "<p>\\( 4(2+\\sqrt{2}) \\)</p>",
+            "<p>\\( 4(1+\\sqrt{2}) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3993/cat-1995-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/3993/cat-1995-question-54</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3998\"></a><div itemprop=\"text\"><p>The sides of a triangle are \\( 5, 12 \\) and \\( 13 \\) units respectively. A rectangle is constructed which is equal in area to the triangle and has a width of 10 units. Then the perimeter of the rectangle is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30 \\)&nbsp;</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 13 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3998/cat-1995-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/3998/cat-1995-question-59</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3999\"></a><div itemprop=\"text\"><p>Which one of the following cannot be the ratio of angles in a right-angled triangle?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 60</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:2:3 \\)&nbsp;</p>",
+            "<p>\\( 1:1:2 \\)&nbsp;</p>",
+            "<p>\\( 1 :3:6 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3999/cat-1995-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/3999/cat-1995-question-60</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4023\"></a><div itemprop=\"text\"><p>Choose the correct option:</p>\n\n<p>AB is perpendicular to BC and BD is perpendicular to AC. CE bisects the angle C; \\( \\angle A=30^{\\circ} \\)&nbsp;Then, what is \\( \\angle CED \\)?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2244003354333546757\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 81</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30^{\\circ} \\)</p>",
+            "<p>\\( 60^{\\circ} \\)</p>",
+            "<p>\\( 45^{\\circ} \\)</p>",
+            "<p>\\( 65^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4023/cat-1995-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/4023/cat-1995-question-81</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4040\"></a><div itemprop=\"text\"><p>What is the length of the rectangle ABCD?</p>\n\n<p>I. Area of the rectangle is 48 square units</p>\n\n<p>II. Length of the diagonal is 10 units</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 96</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>If the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>",
+            "<p>If the question can not be answered even with the help of both the statements.</p>",
+            "<p>If the question can be answered with the help \\( 0 \\) statement \\( II \\) alone</p>",
+            "<p>If the question can be answered with the help of statement \\( I \\) alone</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4040/cat-1995-question-96\" target=\"_blank\">https://aptitude.gateoverflow.in/4040/cat-1995-question-96</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"308\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=12152551313316056880\" width=\"300\"></p>\n\n<p>In the given figure, \\( ∠BAC = 120º \\) &nbsp;and \\( AD \\) is the bisector of<strong>&nbsp;</strong>\\( ∠BAC \\). If \\( \\frac{(AD)(AB)}{BD} = \\frac{AE}{EC}( AE + EC ) \\) and \\( ∠EDC =&nbsp;∠ECD \\), what is the ratio of \\( ∠B \\) and \\( ∠C \\)?</p>\n\n<ol>\n\t<li>1 : 1</li>\n\t<li>1 : 2</li>\n\t<li>2 : 3</li>\n\t<li>5 : 6</li>\n</ol></div><br><br><b>Quantitative Aptitude: In the given figure, ∠BAC = 120° and AD is the bisector of ∠BAC.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/308/in-the-given-figure-%E2%88%A0bac-120%C2%B0-and-ad-is-the-bisector-of-%E2%88%A0bac\" target=\"_blank\">https://aptitude.gateoverflow.in/308/in-the-given-figure-%E2%88%A0bac-120%C2%B0-and-ad-is-the-bisector-of-%E2%88%A0bac</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"6265\"></a><div itemprop=\"text\"><p>If \\( 10 \\), \\( 12 \\) and '\\( x \\)' are sides of an acute angled triangle, how many integer values of '\\( x \\)' are possible?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6265/nielit-2017-dec-scientist-b-section-a-47\" target=\"_blank\">https://aptitude.gateoverflow.in/6265/nielit-2017-dec-scientist-b-section-a-47</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"6328\"></a><div itemprop=\"text\"><p>Find the number of triangles in the given figure</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14062183478848345636\" width=\"300\"></p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6328/nielit-2017-july-scientist-b-section-a-44\" target=\"_blank\">https://aptitude.gateoverflow.in/6328/nielit-2017-july-scientist-b-section-a-44</a></p>"
+        }
+      ]
+    }
+  ]
+}

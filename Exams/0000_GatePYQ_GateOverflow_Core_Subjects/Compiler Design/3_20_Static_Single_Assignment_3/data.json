@@ -1,0 +1,46 @@
+{
+  "title": "Compiler Design - Static Single Assignment",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Static Single Assignment",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8365\"></a><div itemprop=\"text\">The least number of temporary variables required to create a three-address code in static single assignment form for the expression \\( q &nbsp;+ r / 3 + s - t * 5 + u * v/w \\) is__________________.</div><br><br><b>GATE CSE 2015 Set 1 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8365/gate-cse-2015-set-1-question-55\" target=\"_blank\">https://gateoverflow.in/8365/gate-cse-2015-set-1-question-55</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39675\"></a><div itemprop=\"text\">\n<p>Consider the following code segment.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">x = u - t;\ny = x * v; \nx = y + w;\ny = t - z; \ny = x * y;</pre>\n\n<p>The minimum number of <em>total</em> variables required to convert the above code segment to <em>static single assignment</em> form is __________.</p>\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39675/gate-cse-2016-set-1-question-19\" target=\"_blank\">https://gateoverflow.in/39675/gate-cse-2016-set-1-question-19</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"118292\"></a><div itemprop=\"text\"><p>Consider the following intermediate program in three address code</p>\n\n<pre class=\"prettyprint lang-c_cpp\">p = a - b\nq = p * c\np = u * v\nq = p + q</pre>\n\n<p>Which one of the following corresponds to a&nbsp;<em>static single assignment&nbsp;</em>form of the above code?</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint lang-c_cpp\">p1 = a  - b\nq1 = p1 * c\np1 = u  * v\nq1 = p1 + q1</pre></p>",
+            "<p><pre class=\"prettyprint lang-c_cpp\">p3 = a  - b\nq4 = p3 * c\np4 = u  * v\nq5 = p4 + q4</pre></p>",
+            "<p><pre class=\"prettyprint lang-c_cpp\">p1 = a  - b\nq1 = p2 * c\np3 = u  * v\nq2 = p4 + q3</pre></p>",
+            "<p><pre class=\"prettyprint lang-c_cpp\">p1 = a - b\nq1 = p * c\np2 = u * v\nq2 = p + q\n</pre></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint lang-c_cpp\">p3 = a  - b\nq4 = p3 * c\np4 = u  * v\nq5 = p4 + q4</pre></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118292/gate-cse-2017-set-1-question-12\" target=\"_blank\">https://gateoverflow.in/118292/gate-cse-2017-set-1-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

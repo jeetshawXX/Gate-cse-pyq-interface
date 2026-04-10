@@ -1,0 +1,191 @@
+{
+  "title": "Process - Process - Slot 2",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Process",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following need not necessarily be saved on a Context Switch between processes? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>Stack pointer</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50003/isro2008-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Checkpointing a job <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>allows it to be completed successfully</p>",
+            "<b>B.</b> <p>allows it to continue executing later</p>",
+            "<b>C.</b> <p>prepares it for finishing</p>",
+            "<b>D.</b> <p>occurs only when there is an error in it</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>allows it to continue executing later</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50000/isro2008-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following need not necessarily be saved on a context switch between processes? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/644/gate2000-1-20-isro2008-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A task in a blocked state <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is executable</p>",
+            "<b>B.</b> <p>is running</p>",
+            "<b>C.</b> <p>must still be placed in the run queues</p>",
+            "<b>D.</b> <p>is waiting for some temporarily unavailable resources</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>is waiting for some temporarily unavailable resources</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49516/isro2007-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is the name of the technique in which the operating system of a computer executes several programs concurrently by switching back and forth between them? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Partitioning</p>",
+            "<b>B.</b> <p>Multi-tasking</p>",
+            "<b>C.</b> <p>Windowing</p>",
+            "<b>D.</b> <p>Paging</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Multi-tasking</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49498/isro2007-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The process state transition diagram of an operating system is as given below.\nWhich of the following must be FALSE about the above operating system?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process\\q13_276c7f2d.jpg\"><br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is a multiprogrammed operating system</p>",
+            "<b>B.</b> <p>It uses preemptive scheduling</p>",
+            "<b>C.</b> <p>It uses non-preemptive scheduling</p>",
+            "<b>D.</b> <p>It is a multi-user operating system</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It uses preemptive scheduling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3552/gate2006-it-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the swap space in the disk used for? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Saving temporary html pages</p>",
+            "<b>B.</b> <p>Saving process data</p>",
+            "<b>C.</b> <p>Storing the super-block</p>",
+            "<b>D.</b> <p>Storing device drivers</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Saving process data</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1357/gate2005-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following need not necessarily be saved on a context switch between processes? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/644/gate2000-1-20-isro2008-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following actions is/are typically not performed by the operating system when switching context from process A to process B? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Saving current register values and restoring saved register values for process B.</p>",
+            "<b>B.</b> <p>Changing address translation tables.</p>",
+            "<b>C.</b> <p>Swapping out the memory image of process A to the disk.</p>",
+            "<b>D.</b> <p>Invalidating the translation look-aside buffer.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Swapping out the memory image of process A to the disk.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1490/gate1999-2-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The process state transition diagram in the below figure is representative of<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process\\q1.18_bfc4940d.jpg\"><br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a batch operating system</p>",
+            "<b>B.</b> <p>an operating system with a preemptive scheduler</p>",
+            "<b>C.</b> <p>an operating system with a non-preemptive scheduler</p>",
+            "<b>D.</b> <p>a uni-programmed operating system</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>an operating system with a preemptive scheduler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2722/gate1996-1-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following does not interrupt a running process ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A device</p>",
+            "<b>B.</b> <p>Power failure</p>",
+            "<b>C.</b> <p>Timer</p>",
+            "<b>D.</b> <p>Scheduler process</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Scheduler process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/738/gate2001-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Where does the swap space reside ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RAM</p>",
+            "<b>B.</b> <p>Disk</p>",
+            "<b>C.</b> <p>ROM</p>",
+            "<b>D.</b> <p>On-chip cache</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Disk</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/713/gate2001-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

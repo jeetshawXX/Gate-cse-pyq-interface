@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Routers Bridge Hubs Switches",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Routers Bridge Hubs Switches",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"52868\"></a><div itemprop=\"text\"><p>One SAN switch has \\( 24 \\) ports. All \\( 24 \\) supports \\( 8 \\)&nbsp;Gbps Fiber Channel technology. What is the aggregate bandwidth of that SAN switch?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2011 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 96 \\) Gbps</p>",
+            "<p>\\( 192 \\) Mbps</p>",
+            "<p>\\( 512 \\)&nbsp;Gbps</p>",
+            "<p>\\( 192 \\)&nbsp;Gbps</p>"
+          ],
+          "correct_answer": "<p>\\( 192 \\) Mbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52868/isro-cse-2011-question-71\" target=\"_blank\">https://gateoverflow.in/52868/isro-cse-2011-question-71</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"51709\"></a><div itemprop=\"text\">\n<p>A T-switch is used to</p>\n\n\n</div><br><br><b>Computer Networks: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Control how messages are passed between computers</p>",
+            "<p>Echo every character that is received</p>",
+            "<p>Transmit characters one at a time</p>",
+            "<p>Rearrange the connections between computing equipments</p>"
+          ],
+          "correct_answer": "<p>Rearrange the connections between computing equipments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51709/isro2015-48\" target=\"_blank\">https://gateoverflow.in/51709/isro2015-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

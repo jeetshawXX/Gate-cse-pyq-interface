@@ -1,0 +1,56 @@
+{
+  "title": "Theory of Computation - Recursive and Recursively Enumerable Languages",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Recursive and Recursively Enumerable Languages",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"114286\"></a><div itemprop=\"text\"><p>Which of the following statements is false?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | January 2017 | Part 3 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Every context-sensitive language is recursive</p>",
+            "<p>The set of all languages that are not recursively enumerable is countable</p>",
+            "<p>The family of recursively enumerable language is closed under union</p>",
+            "<p>The families of recursively enumerable and recursive languages are closed under reversal</p>"
+          ],
+          "correct_answer": "<p>The set of all languages that are not recursively enumerable is countable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/114286/ugc-net-cse-january-2017-part-3-question-63\" target=\"_blank\">https://gateoverflow.in/114286/ugc-net-cse-january-2017-part-3-question-63</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"61426\"></a><div itemprop=\"text\"><p>Given the following two statements:</p>\n\n<p>\\( S_1 \\): If \\( L_1 \\) and \\( L_2 \\) are recursively enumerable languages over \\( \\Sigma^* \\), then \\( L_1 \\cup L_2 \\) and \\( L_1 \\cap L_2 \\) are also recursively enumerable.</p>\n\n<p>\\( S_2 \\): The set of recursively enumerable languages is countable.</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | Junet 2015 | Part 3 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S_1 \\) is correct and \\( S_2 \\) is not correct</p>",
+            "<p>\\( S_1 \\) is not correct and \\( S_2 \\) is correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>"
+          ],
+          "correct_answer": "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61426/ugc-net-cse-junet-2015-part-3-question-62\" target=\"_blank\">https://gateoverflow.in/61426/ugc-net-cse-junet-2015-part-3-question-62</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"349646\"></a><div itemprop=\"text\"><p>Consider \\( L=L_1 \\cap L_2 \\) where</p>\n\n<p>\\( L_1 = \\{ 0^m 1^m 20^n 1^n \\mid m,n \\geq 0 \\} \\)</p>\n\n<p>\\( L_2 = \\{0^m1^n2^k \\mid m,n,k \\geq 0 \\} \\)</p>\n\n<p>Then, the language \\( L \\) is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Theory of Computation: UGC NET CSE | October 2020 | Part 2 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Recursively enumerable but not context free</p>",
+            "<p>Regular</p>",
+            "<p>Context free but not regular</p>",
+            "<p>Not recursive</p>"
+          ],
+          "correct_answer": "<p>Context free but not regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349646/ugc-net-cse-october-2020-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/349646/ugc-net-cse-october-2020-part-2-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+}

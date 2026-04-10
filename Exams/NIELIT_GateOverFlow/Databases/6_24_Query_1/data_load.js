@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Query",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Query",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373727\"></a><div itemprop=\"text\"><p>Given the following schema:</p>\n\n<p>employees (emp-id, first-name, last-name, hire-date, dept-id, salary</p>\n\n<p>departments (dept-id, dept-name, manager-id, location-id)</p>\n\n<p>You want to display the last names and hire dates of all latest hires in their respective departments in the location \\( \\text{ID 1700.} \\) You issue the following query:</p>\n\n<pre>SQL&gt;SELECT last-name, hire-date  \n    FROM employees \n    WHERE (dept-id, hire-date) IN \n    (SELECT dept-id, MAX(hire-date) \n    FROM employees JOIN departments USING(dept-id) \n    WHERE location-id =1700 \n    GROUP BY dept-id);</pre>\n\n<p>What is the outcome?</p>\n\n</div><br><br><b>Databases: NIELIT 2022 April Scientist B | Section B | Question: 111</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It executes but does not give the correct result</p>",
+            "<p>It executes and gives the correct result.</p>",
+            "<p>It generates an error because of pairwise comparison.</p>",
+            "<p>It generates an error because of the \\( \\text{GROUP BY} \\) clause cannot be used with table joins in a sub-query.</p>"
+          ],
+          "correct_answer": "<p>It executes and gives the correct result.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373727/nielit-2022-april-scientist-b-section-b-question-111\" target=\"_blank\">https://gateoverflow.in/373727/nielit-2022-april-scientist-b-section-b-question-111</a></p>"
+        }
+      ]
+    }
+  ]
+});

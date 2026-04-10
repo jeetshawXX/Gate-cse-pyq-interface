@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Network Addressing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Network Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48399\"></a><div itemprop=\"text\"><p>The combination of an IP address and a port number is known as _____</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 3 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>network number</p>",
+            "<p>socket address</p>",
+            "<p>subnet mask number</p>",
+            "<p>MAC address</p>"
+          ],
+          "correct_answer": "<p>socket address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48399/ugc-net-cse-december-2015-part-3-question-10\" target=\"_blank\">https://gateoverflow.in/48399/ugc-net-cse-december-2015-part-3-question-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48619\"></a><div itemprop=\"text\"><p>In a classful addressing the IP address with \\( 0 \\)(zero) as network number:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>refers to the current network</p>",
+            "<p>refers to broadcast on the local network</p>",
+            "<p>refers to the broadcast on a distant network</p>",
+            "<p>refers to loopback testing</p>"
+          ],
+          "correct_answer": "<p>refers to loopback testing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48619/ugc-net-cse-december-2015-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/48619/ugc-net-cse-december-2015-part-3-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

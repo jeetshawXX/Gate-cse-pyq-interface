@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Error Correction",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Error Correction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"418334\"></a><div itemprop=\"text\"><p>If a code is t-error correcting, the minimum Hamming distance is equal to :</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2008 | Part 2 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 t+1 \\)</p>",
+            "<p>\\( 2 t \\)</p>",
+            "<p>\\( 2 t-1 \\)</p>",
+            "<p>\\( t-1 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/418334/ugc-net-cse-june-2008-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/418334/ugc-net-cse-june-2008-part-2-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

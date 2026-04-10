@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - Llp",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Llp",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225803\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>The following LLP</p>\n\n<p>\\( \\text{Maximize } z=100x_1 +2x_2+5x_3 \\)</p>\n\n<p>Subject to</p>\n\n<p>\\( 14x_1+x_2-6x_33+3x_4=7 \\)</p>\n\n<p>\\( 32x_1+x_2-12x_3 \\leq 10 \\)</p>\n\n<p>\\( 3x_1-x_2-x_3 \\leq 0 \\)</p>\n\n<p>\\( x_1, x_2, x_3, x_4 \\geq 0 \\) has</p>\n\n</div><br><br><b>Others: UGC NET CSE | July 2018 | Part 2 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Solution : \\( x_1=100, \\:&nbsp; x_2=0, \\:&nbsp; x_3=0 \\)</p>",
+            "<p>Unbounded solution</p>",
+            "<p>No solution</p>",
+            "<p>Solution :&nbsp;\\( x_1=50, \\:&nbsp; x_2=70, \\:&nbsp; x_3=60 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225803/ugc-net-cse-july-2018-part-2-question-83\" target=\"_blank\">https://gateoverflow.in/225803/ugc-net-cse-july-2018-part-2-question-83</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Java",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64364\"></a><div itemprop=\"text\"><p>Portable program means</p>\n\n</div><br><br><b>Programming: UGC NET CSE | June 2011 | Part 2 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Program with wheels</p>",
+            "<p>Independent from its authors</p>",
+            "<p>Independent of platform</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64364/ugc-net-cse-june-2011-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/64364/ugc-net-cse-june-2011-part-2-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

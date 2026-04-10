@@ -1,0 +1,206 @@
+{
+  "title": "Databases - Database Normalization",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Database Normalization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49531\"></a><div itemprop=\"text\">\n<p>Armstrong’s inference rule doesnot determine</p>\n\n\n</div><br><br><b>Databases: ISRO CSE 2007 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Reflexivity</p>",
+            "<p>Augmentation</p>",
+            "<p>Transitivity</p>",
+            "<p>Mutual dependency</p>"
+          ],
+          "correct_answer": "<p>Mutual dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49531/isro-cse-2007-question-51\" target=\"_blank\">https://gateoverflow.in/49531/isro-cse-2007-question-51</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49536\"></a><div itemprop=\"text\">\n<p>BCNF is not used for cases where a relation has</p>\n\n\n</div><br><br><b>Databases: ISRO CSE 2007 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Two (or more) candidate keys</p>",
+            "<p>Two candidate keys and composite</p>",
+            "<p>The candidate key overlap</p>",
+            "<p>Two mutually exclusive foreign keys</p>"
+          ],
+          "correct_answer": "<p>The candidate key overlap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49536/isro-cse-2007-question-54\" target=\"_blank\">https://gateoverflow.in/49536/isro-cse-2007-question-54</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"18117\"></a><div itemprop=\"text\">\n<p>Which normal form is based on the concept of 'full functional dependency' is</p>\n\n\n</div><br><br><b>Databases: ISRO CSE 2011 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First Normal Form</p>",
+            "<p>Second &nbsp;Normal Form</p>",
+            "<p>Third Normal Form</p>",
+            "<p>Fourth Normal Form</p>"
+          ],
+          "correct_answer": "<p>Second &nbsp;Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18117/isro-cse-2011-question-29\" target=\"_blank\">https://gateoverflow.in/18117/isro-cse-2011-question-29</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"50639\"></a><div itemprop=\"text\">\n<p>In functional dependency Armstrong inference rules refers to</p>\n\n\n</div><br><br><b>Databases: ISRO CSE 2011 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Reflexive, Augmentation and Decomposition</p>",
+            "<p>Transitive, Augmentation and Reflexive</p>",
+            "<p>Augmentation, Transitive, Reflexive and Decomposition</p>",
+            "<p>Reflexive, Transitive and Decomposition</p>"
+          ],
+          "correct_answer": "<p>Transitive, Augmentation and Reflexive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50639/isro-cse-2011-question-53\" target=\"_blank\">https://gateoverflow.in/50639/isro-cse-2011-question-53</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"17319\"></a><div itemprop=\"text\"><p>Consider the schema \\( R (A, B, C, D) \\) and the functional dependencies \\( A\\to B \\) and \\( C\\to D \\). &nbsp;If the decomposition is made as \\( R_1(A, B) \\) and \\( R_2 (C, D) \\), then which of the following is TRUE?</p>\n\n</div><br><br><b>Databases: ISRO CSE 2014 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Preserves dependency but cannot perform lossless join</p>",
+            "<p>Preserves dependency and performs lossless join</p>",
+            "<p>Does not perform dependency and cannot perform lossless join</p>",
+            "<p>Does not preserve dependency but perform lossless join</p>"
+          ],
+          "correct_answer": "<p>Preserves dependency but cannot perform lossless join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17319/isro-cse-2014-question-22\" target=\"_blank\">https://gateoverflow.in/17319/isro-cse-2014-question-22</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"16128\"></a><div itemprop=\"text\">\n<p>Every time the attribute A appears, it is matched with the same value of attribute B but not the same value of attribute C. Which of the following is true?</p>\n\n\n\n\n</div><br><br><b>Databases: ISRO CSE 2014 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A -&gt; (B,C) &nbsp; &nbsp; &nbsp;</p>",
+            "<p>A -&gt; B, A -&gt;&gt; C &nbsp; &nbsp; &nbsp;</p>",
+            "<p>A -&gt; B, C -&gt;&gt; A &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>A -&gt;&gt; B, B -&gt; C</p>"
+          ],
+          "correct_answer": "<p>A -&gt; B, A -&gt;&gt; C &nbsp; &nbsp; &nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/16128/isro-cse-2014-question-30\" target=\"_blank\">https://gateoverflow.in/16128/isro-cse-2014-question-30</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"55019\"></a><div itemprop=\"text\"><p>Consider the following table</p><p><img alt=\"\" width=\"500\" height=\"139\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=8749327266283284692\"></p><p>The table is in which normal form?</p></div><br><br><b>Databases: ISRO CSE 2014 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First Normal Form</p>",
+            "<p>Second&nbsp;<span style=\"line-height: 20.8px;\">Normal Form</span></p>",
+            "<p>Third&nbsp;<span style=\"line-height: 20.8px;\">Normal Form but not BCNF</span></p>",
+            "<p>Third&nbsp;<span style=\"line-height: 20.8px;\">Normal Form and BCNF</span></p>"
+          ],
+          "correct_answer": "<p>Third&nbsp;<span style=\"line-height: 20.8px;\">Normal Form but not BCNF</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55019/isro-cse-2014-question-63\" target=\"_blank\">https://gateoverflow.in/55019/isro-cse-2014-question-63</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"213547\"></a><div itemprop=\"text\">\n\n<p>For a database relation \\( R(a,b,c,d) \\)&nbsp;where the domain of \\( a,b,c \\)&nbsp;and \\( d \\) include only atomic value, only the following functions dependencies and those that can be inferred from them hold</p>\n\n<p>\\( a\\rightarrow c \\)</p>\n\n<p>\\( b\\rightarrow&nbsp;d \\)</p>\n\n<p>The relation is in:</p>\n\n</div><br><br><b>Databases: ISRO CSE 2018 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First normal form but not in second normal form</p>",
+            "<p>Second normal form but not in third normal form</p>",
+            "<p>Third normal form</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>First normal form but not in second normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213547/isro-cse-2018-question-41\" target=\"_blank\">https://gateoverflow.in/213547/isro-cse-2018-question-41</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"213583\"></a><div itemprop=\"text\"><p>Considering the following table in a relational database :&nbsp;\\[ \\begin{array}{|c|c|c|c|} \\hline \\textbf{Last Name} &amp; \\textbf{Rank} &amp; \\textbf{Room} &amp; \\textbf{shift} \\\\ \\hline \\text{Smith} &amp; \\text{Manager} &amp; \\text{234} &amp; \\text{Morning} \\\\ \\hline&nbsp; \\text{Jones}&nbsp;&amp; \\text{Custodian} &amp; \\text{33} &amp; \\text{Afternoon} \\\\ \\hline\\text{Smith} &amp; \\text{Custodian} &amp; \\text{33} &amp; \\text{Evening} \\\\ \\hline \\text{Doe} &amp; \\text{Clerical} &amp; \\text{222} &amp; \\text{Morning} \\\\ \\hline&nbsp;\\end{array} \\]</p>\n\n<p>According to the data shown in the table, which of the following could be a candidate key of the table?</p>\n\n</div><br><br><b>Databases: ISRO CSE 2018 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{{Last Name}} \\)</p>",
+            "<p>\\( \\text{{Room}} \\)</p>",
+            "<p>\\( \\text{{Shift}} \\)</p>",
+            "<p>\\( \\text{{Room, Shift}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{{Room, Shift}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213583/isro-cse-2018-question-5\" target=\"_blank\">https://gateoverflow.in/213583/isro-cse-2018-question-5</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"213534\"></a><div itemprop=\"text\">\n\n<p>The set of attributes \\( X \\) will be fully functionally dependent on the set of attributes \\( Y \\) if the following conditions are satisfied.</p>\n\n</div><br><br><b>Databases: ISRO CSE 2018 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X \\) is functionally dependent on \\( Y \\)</p>",
+            "<p>\\( X \\) is not functionally dependent on any subset of \\( Y \\)</p>",
+            "<p>Both (a) and (b)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Both (a) and (b)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213534/isro-cse-2018-question-54\" target=\"_blank\">https://gateoverflow.in/213534/isro-cse-2018-question-54</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"331394\"></a><div itemprop=\"text\"><p>If every non-key attribute functionally dependent on the primary key, then the relation will be in</p>\n\n</div><br><br><b>Databases: ISRO CSE 2020 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First normal form</p>",
+            "<p>Second normal form</p>",
+            "<p>Third normal form</p>",
+            "<p>Fourth Normal form</p>"
+          ],
+          "correct_answer": "<p>Third normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331394/isro-cse-2020-question-50\" target=\"_blank\">https://gateoverflow.in/331394/isro-cse-2020-question-50</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"435346\"></a><div itemprop=\"text\"><p>Fifth Normal form is concerned with</p></div><br><br><b>Databases: ISRO CSE 2023 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Join dependency</p>",
+            "<p>Domain-key</p>",
+            "<p>Multivalued dependency</p>",
+            "<p>Functional dependency<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435346/isro-cse-2023-question-50\" target=\"_blank\">https://gateoverflow.in/435346/isro-cse-2023-question-50</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"43861\"></a><div itemprop=\"text\">\n<p>Consider the following dependencies and the BOOK table in a relational database design. Determine the normal form of the given relation.</p>\n\n<p>ISBN \\( \\rightarrow \\) Title</p>\n\n<p>ISBN \\( \\rightarrow \\) Publisher</p>\n\n<p>Publisher \\( \\rightarrow \\) Address</p>\n\n\n</div><br><br><b>Databases: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First Normal Form</p>",
+            "<p>Second Normal Form</p>",
+            "<p>Third Normal Form</p>",
+            "<p>BCNF</p>"
+          ],
+          "correct_answer": "<p>Second Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43861/isro-2013-25\" target=\"_blank\">https://gateoverflow.in/43861/isro-2013-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

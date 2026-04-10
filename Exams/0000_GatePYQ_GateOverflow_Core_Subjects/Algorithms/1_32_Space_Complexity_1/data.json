@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Space Complexity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Space Complexity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1403\"></a><div itemprop=\"text\"><pre class=\"prettyprint lang-c_cpp\">double foo(int n)\n{\n    int i;\n    double sum;\n    if(n == 0)\n    {\n        return 1.0;\n    }\n    else\n    {\n        sum = 0.0;\n        for(i = 0; i &lt; n; i++)\n        {\n            sum += foo(i);\n        }\n        return sum;\n    }\n}\n</pre>\n\n<p>The space complexity of the above code is?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 81a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n!) \\)</p>",
+            "<p>\\( n^n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1403/gate-cse-2005-question-81a\" target=\"_blank\">https://gateoverflow.in/1403/gate-cse-2005-question-81a</a></p>"
+        }
+      ]
+    }
+  ]
+}

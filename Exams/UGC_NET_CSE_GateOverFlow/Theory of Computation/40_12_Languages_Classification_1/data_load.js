@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Languages Classification",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Languages Classification",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316203\"></a><div itemprop=\"text\"><p>Match \\( \\text{List-I} \\) with \\( \\text{List-II} \\) :</p><p>where \\( L_1: \\) Regular language</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( L_2: \\) Context-free language</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( L_3: \\) Recursive language</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( L_4: \\) Recursively enumerable language</p><p>\\( \\begin{array}{clcl} {}&amp; \\text{List-I} &amp; {} &amp; \\text{List-II} \\\\ &nbsp;\\text{(a)} &amp; \\overline{L_3} \\cup L_4 &amp; \\text{(i)} &amp; \\text{Context-free language} \\\\ &nbsp;\\text{(b)} &amp; \\overline{L_2} \\cup L_3 &amp; \\text{(ii)} &amp; \\text{Recursively enumerable language} \\\\ \\text{(c)}&nbsp;&nbsp;&amp; L_{1}^{\\ast}&nbsp;\\cap L_2 &amp; \\text{(iii)} &amp; \\text{Recursive Language} \\\\ &nbsp;\\end{array} \\)</p><p>Choose the correct option from those given below :</p></div><br><br><b>Theory of Computation: UGC NET CSE | June 2019 | Part 2 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(ii); (b)-(i); (c)-(iii)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii); (b)-(iii); (c)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii); (b)-(i); (c)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(i); (b)-(ii); (c)-(iii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(ii); (b)-(iii); (c)-(i)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316203/ugc-net-cse-june-2019-part-2-question-76\" target=\"_blank\">https://gateoverflow.in/316203/ugc-net-cse-june-2019-part-2-question-76</a></p>"
+        }
+      ]
+    }
+  ]
+});

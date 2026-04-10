@@ -1,0 +1,41 @@
+{
+  "title": "Algorithms - Knapsack Problem",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Knapsack Problem",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57271\"></a><div itemprop=\"text\"><p>Consider the fractional knapsack instance</p>\n\n<p>\\( n = 4, (p_{1} , p_{2} , p_{3} , p_{4} ) = (10, 10, 12, 18), (w_{1} , w_{2} , w_{3} , w_{4} ) = (2, 4, 6, 9) \\) and \\( M = 15 \\).</p>\n\n<p>The maximum profit is given by (Assume \\( p \\) and \\( w \\) denotes profit and weight of objects respectively)</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | June 2014 | Part 3 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 38 \\)&nbsp;</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 30 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 38 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57271/ugc-net-cse-june-2014-part-3-question-62\" target=\"_blank\">https://gateoverflow.in/57271/ugc-net-cse-june-2014-part-3-question-62</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59861\"></a><div itemprop=\"text\"><p>Given 0-1 knapsack problem and fractional knapsack problem and the following statements:</p><p>\\( S_1 \\): 0-1 knapsack is efficiently solved using Greedy algorithm.</p><p>\\( S_2 \\): Fractional knapsack is efficiently solved using Dynamic programming.</p><p>Which of the following is true?</p></div><br><br><b>Algorithms: UGC NET CSE | September 2013 | Part 3 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S_1 \\) is correct and \\( S_2 \\) is not correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not correct</p>",
+            "<p>\\( S_1 \\) is not correct and \\( S_2 \\) is correct</p>"
+          ],
+          "correct_answer": "<p>Both \\( S_1 \\) and \\( S_2 \\) are not correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59861/ugc-net-cse-september-2013-part-3-question-42\" target=\"_blank\">https://gateoverflow.in/59861/ugc-net-cse-september-2013-part-3-question-42</a></p>"
+        }
+      ]
+    }
+  ]
+}

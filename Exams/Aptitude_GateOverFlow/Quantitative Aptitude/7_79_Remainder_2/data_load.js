@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Remainder",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Remainder",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4015\"></a><div itemprop=\"text\"><p>Choose the correct option:</p>\n\n<p>The remainder obtained when a prime number greater than \\( 6 \\) is divided by \\( 6 \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1 or 3</p>",
+            "<p>1 or 5</p>",
+            "<p>3 or 5</p>",
+            "<p>4 or 5</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4015/cat-1995-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/4015/cat-1995-question-73</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6357\"></a><div itemprop=\"text\"><p>Let \\( N \\) be the greatest number that will divide \\( 1305, 4665 \\)&nbsp;and \\( 6905 \\), leaving the same remainder in each case. Then sum of the digits in \\( N \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6357/nielit-2017-july-scientist-b-section-a-15\" target=\"_blank\">https://aptitude.gateoverflow.in/6357/nielit-2017-july-scientist-b-section-a-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

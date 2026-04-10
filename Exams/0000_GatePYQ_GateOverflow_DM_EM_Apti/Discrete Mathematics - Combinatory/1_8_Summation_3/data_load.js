@@ -1,0 +1,49 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Summation",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Summation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2511\"></a><div itemprop=\"text\"><p>Use the patterns given to prove that</p>\n\n</div><br><br><b>GATE CSE 1994 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\sum\\limits_{i=0}^{n-1} (2i+1) = n^2 \\)<br>\n\t(You are not permitted to employ induction)\n\t<p><img alt=\"\" height=\"154\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___combinatory___summation/3ed701b5a31c40f8263c9db9054040dd.png\" width=\"377\"></p></p>",
+            "<p>Use the result obtained in (A) to prove that&nbsp;\\( \\sum\\limits_{i=1}^{n} i = \\frac{n(n+1)}{2} \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2511/gate-cse-1994-question-15\" target=\"_blank\">https://gateoverflow.in/2511/gate-cse-1994-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"422\"></a><div itemprop=\"text\"><p>Let \\( P =\\sum \\limits_&nbsp;{i\\;\\text{odd}}^{1\\le&nbsp;i \\le 2k} i \\) and \\( Q = \\sum\\limits_{i\\;\\text{even}}^{1 \\le i \\le 2k} i \\), where \\( k \\) is a positive integer. Then</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P = Q - k \\)</p>",
+            "<p>\\( P = Q + k \\)</p>",
+            "<p>\\( P = Q \\)</p>",
+            "<p>\\( P = Q + 2k \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P = Q - k \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422/gate-cse-2008-question-24\" target=\"_blank\">https://gateoverflow.in/422/gate-cse-2008-question-24</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8248\"></a><div itemprop=\"text\">\\( \\sum\\limits_{x=1}^{99}\\frac{1}{x(x+1)} \\) = ______.</div><br><br><b>GATE CSE 2015 Set 1 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.99",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8248/gate-cse-2015-set-1-question-26\" target=\"_blank\">https://gateoverflow.in/8248/gate-cse-2015-set-1-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

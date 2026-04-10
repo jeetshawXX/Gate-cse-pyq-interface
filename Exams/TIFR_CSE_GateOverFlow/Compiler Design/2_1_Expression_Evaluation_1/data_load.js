@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Expression Evaluation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Expression Evaluation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"30079\"></a><div itemprop=\"text\"><p>Consider the following grammar (the start symbol is \\( E \\)) for generating expressions.</p><ul><li>\\( E \\rightarrow T - E \\mid&nbsp;T + E \\mid&nbsp;T \\)</li><li>\\( T \\rightarrow T * F \\mid&nbsp;F \\)</li><li>\\( F \\rightarrow 0 \\mid1\\mid 2\\mid 3\\mid 4\\mid 5\\mid 6\\mid 7\\mid 8\\mid 9 \\)</li></ul><p>With respect to this grammar, which of the following trees is the valid evaluation tree for the expression \\( 2*3*4 - 5*6+7 \\)?</p></div><br><br><b>Compiler Design: TIFR CSE 2015 | Part B | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"179\" width=\"338\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4914247383055761963\"></p>",
+            "<p><img alt=\"\" height=\"204\" width=\"379\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3794046756863631508\"></p>",
+            "<p><img alt=\"\" height=\"233\" width=\"359\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=16005814562708184639\"></p>",
+            "<p><img alt=\"\" height=\"222\" width=\"392\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17542511527624803513\"></p>",
+            "<p><img alt=\"\" height=\"212\" width=\"409\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=5184943057444190608\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"204\" width=\"379\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3794046756863631508\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/30079/tifr-cse-2015-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/30079/tifr-cse-2015-part-b-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,71 @@
+{
+  "title": "Programming and DS - Data Structures - Array",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Array",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337210\"></a><div itemprop=\"text\"><p>To sort many large objects or structures, it would be most efficient to place</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>them in an array and sort the array</p>",
+            "<p>pointers to them in an array and sort the array</p>",
+            "<p>them in a linked list and sort the linked list</p>",
+            "<p>references to them in an array and sort the array</p>"
+          ],
+          "correct_answer": "<p>pointers to them in an array and sort the array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337210/nielit-2016-mar-scientist-c-section-c-55\" target=\"_blank\">https://gateoverflow.in/337210/nielit-2016-mar-scientist-c-section-c-55</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336371\"></a><div itemprop=\"text\"><p>Let \\( A \\) be a square matrix of size \\( n\\times&nbsp;n \\). Consider the following program. What is the expected output?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">C=100 \nfor i=1 to n do \nfor j=1 to n do \n{ \n Temp=A[i][j]+C \n A[i][j]=A[j][i] \n A[j][i]=Temp-C \n} \nfor i=1 to n do \nfor j=1 to n do \n Output(A[i][j]); </pre>\n\n</div><br><br><b>Data Structures: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The matrix \\( A \\) itself.</p>",
+            "<p>Transpose of matrix \\( A \\).</p>",
+            "<p>Adding \\( 100 \\) to the upper diagonal elements and subtracting \\( 100 \\) from diagonal elements of \\( A \\).</p>",
+            "<p>None of the option.</p>"
+          ],
+          "correct_answer": "<p>The matrix \\( A \\) itself.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336371/nielit-2017-july-scientist-b-cs-section-b-4\" target=\"_blank\">https://gateoverflow.in/336371/nielit-2017-july-scientist-b-cs-section-b-4</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336335\"></a><div itemprop=\"text\"><p>Kadane&nbsp;algorithm is used to find</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Maximum sum subsequence in an array</p>",
+            "<p>Maximum sum subarray in an array</p>",
+            "<p>Maximum product subsequence in an array</p>",
+            "<p>Maximum product subarray in an array</p>"
+          ],
+          "correct_answer": "<p>Maximum sum subarray in an array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336335/nielit-2017-july-scientist-b-cs-section-b-40\" target=\"_blank\">https://gateoverflow.in/336335/nielit-2017-july-scientist-b-cs-section-b-40</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351351\"></a><div itemprop=\"text\"><p>A program \\( \\text{P} \\) reads in \\( 500 \\) integers in the range \\( [0\\dots100] \\) representing the scores of \\( 500 \\) students. It then prints the frequency of each score above \\( 50. \\) What would be the best way for \\( \\text{P} \\) to store the frequencies?</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientific Assistant A 2020 November: 109</b></p>",
+          "type": "single",
+          "options": [
+            "<p>An array of \\( 50 \\) numbers</p>",
+            "<p>An array of \\( 100 \\) numbers</p>",
+            "<p>An array of \\( 500 \\) numbers</p>",
+            "<p>A dynamically allocated array of \\( 550 \\) numbers</p>"
+          ],
+          "correct_answer": "<p>An array of \\( 50 \\) numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351351/nielit-scientific-assistant-a-2020-november-109\" target=\"_blank\">https://gateoverflow.in/351351/nielit-scientific-assistant-a-2020-november-109</a></p>"
+        }
+      ]
+    }
+  ]
+}

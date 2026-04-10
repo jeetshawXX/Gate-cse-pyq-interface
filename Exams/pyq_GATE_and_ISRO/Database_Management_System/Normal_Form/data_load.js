@@ -1,0 +1,756 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Normal_Form",
+  "duration": 136,
+  "sections": [
+    {
+      "name": "Normal_Form",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a relational schema \\( team(name, city, owner) \\), with functional dependencies  \\(\\{ name \\to city \\), \\( name \\to owner \\} \\) .\n<br><br>\nThe relation \\( team \\) is decomposed into two relations, \\( t_1(name, city) \\) and \\( t_2(name, owner) \\). Which of the following statement(s) is/are TRUE? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The relation \\( team \\) is NOT in BCNF.</p>",
+            "<b>B.</b> <p>The relations \\( t_1 \\) and \\( t_2 \\) are in BCNF.</p>",
+            "<b>C.</b> <p>The decomposition constitutes a lossless join.</p>",
+            "<b>D.</b> <p>The relation \\(team \\)is NOT in 3NF.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>The relations \\( t_1 \\) and \\( t_2 \\) are in BCNF.</p>",
+            "<b>C.</b> <p>The decomposition constitutes a lossless join.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460043/gate-cse-2025-set-1-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following statements about a relation R in first normal form (1NF)\nis/are TRUE ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>R can have a multi-attribute key</p>",
+            "<b>B.</b> <p>R cannot have a foreign key</p>",
+            "<b>C.</b> <p>R cannot have a composite attribute</p>",
+            "<b>D.</b> <p>R cannot have more than one candidate key</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>R can have a multi-attribute key</p>",
+            "<b>C.</b> <p>R cannot have a composite attribute</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422830/gate-cse-2024-set-1-question-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In a relational data model, which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A relation with only two attributes is always in BCNF.</p>",
+            "<b>B.</b> <p>If all attributes of a relation are prime attributes, then the relation is in BCNF.</p>",
+            "<b>C.</b> <p>Every relation has at least one non-prime attribute.</p>",
+            "<b>D.</b> <p>BCNF decompositions preserve functional dependencies.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A relation with only two attributes is always in BCNF.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371932/Gate-cse-2022-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose the following functional dependencies hold on a relation U with attributes \\(P, Q, R, S, \\text{ and } T\\):\n<br><br>\\(P \\rightarrow QR \\\\ RS \\rightarrow T\\)<br><br>\nWhich of the following functional dependencies can be inferred from the above functional dependencies? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(PS \\rightarrow T\\)</p>",
+            "<b>B.</b> <p>\\(R \\rightarrow T\\)</p>",
+            "<b>C.</b> <p>\\(P \\rightarrow R\\)</p>",
+            "<b>D.</b> <p>\\(PS \\rightarrow Q\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(PS \\rightarrow T\\)</p>",
+            "<b>C.</b> <p>\\(P \\rightarrow R\\)</p>",
+            "<b>D.</b> <p>\\(PS \\rightarrow Q\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357500/gate-cse-2021-set-2-question-40#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>If every non-key attribute functionally dependent on the primary key, then the relation will be in <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First normal form</p>",
+            "<b>B.</b> <p>Second normal form</p>",
+            "<b>C.</b> <p>Third normal form</p>",
+            "<b>D.</b> <p>Fourth Normal form</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Second normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331394/isro2020-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a relational table R that is in 3NF, but not in BCNF. Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a prime attribute.</p>",
+            "<b>B.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a non-prime attribute and X is not a proper subset of any key.</p>",
+            "<b>C.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a non-prime attribute and X is a proper subset of some key.</p>",
+            "<b>D.</b> <p>A cell in R holds a set instead of an atomic value.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a prime attribute.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333195/gate2020-cs-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let the set of functional dependencies \\(F=\\{QR\\rightarrow S,R\\rightarrow P,S\\rightarrow Q\\}\\) hold on a relation schema X = (PQRS). X is not in BCNF. Suppose X is decomposed into two schemas Y and Z where Y = (PR) and Z = (QRS). <br>Consider the two statements given below:<br><br>\nI. Both Y and Z are in BCNF<br>\nII. Decomposition of X into Y and Z is dependency preserving and lossless.<br><br>\nWhich of the above statements is/are correct? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and II</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302816/gate2019-cs-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The set of attributes X will be fully functionally dependent on the set of attributes Y if the following conditions are satisfied. <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X is functionally dependent on Y</p>",
+            "<b>B.</b> <p>X is not functionally dependent on any subset of Y</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213534/isro2018-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>For a database relation R(a,b,c,d) where the domain of a,b,c and d include only atomic value, only the following functions dependencies and those that can be inferred from them hold<br>a\\(\\rightarrow\\)c<br>b\\(\\rightarrow\\)d<br>The relation is in: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First normal form but not in second normal form</p>",
+            "<b>B.</b> <p>Second normal form but not in third normal form</p>",
+            "<b>C.</b> <p>Third normal form</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>First normal form but not in second normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213547/isro2018-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following four relational schemas. For each schema, all non-trivial functional\ndependencies are listed. The underlined attributes are the respective primary keys.<br>\n<img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Normal_Form\\q42_13ce7592.jpg\">\n<br>\nWhich one of the relational schemas above is in 3NF but not in BCNF? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Schema I</p>",
+            "<b>B.</b> <p>Schema II</p>",
+            "<b>C.</b> <p>Schema III</p>",
+            "<b>D.</b> <p>Schema IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Schema II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204116/gate2018-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The following functional dependencies hold true for the relational schema R{V,W,X,Y,Z}: <br>\nV \\(\\rightarrow\\)W <br>\nVW \\(\\rightarrow\\)X <br>\nY\\(\\rightarrow\\) VX <br>\nY \\(\\rightarrow\\)Z <br> Which of the following is irreducible equivalent for this set of functional dependencies ? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>V \\(\\rightarrow\\)W   <br>       V\\(\\rightarrow\\)X <br>\nY \\(\\rightarrow\\)V     <br>       Y \\(\\rightarrow\\)Z</p>",
+            "<b>B.</b> <p>V \\(\\rightarrow\\)W  <br>       W \\(\\rightarrow\\)X<br>\nY\\(\\rightarrow\\) V    <br>       Y\\(\\rightarrow\\) Z</p>",
+            "<b>C.</b> <p>V \\(\\rightarrow\\)W   <br>     V\\(\\rightarrow\\) X<br>\nY\\(\\rightarrow\\) V    <br>     Y \\(\\rightarrow\\)X<br>\nY \\(\\rightarrow\\)Z</p>",
+            "<b>D.</b> <p>V \\(\\rightarrow\\)W  <br>      W\\(\\rightarrow\\) X<br>\nY\\(\\rightarrow\\) V   <br>      Y \\(\\rightarrow\\)X<br>\nY \\(\\rightarrow\\)Z</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>V \\(\\rightarrow\\)W   <br>       V\\(\\rightarrow\\)X <br>\nY \\(\\rightarrow\\)V     <br>       Y \\(\\rightarrow\\)Z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118296/gate2017-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A database of resear charticles in a journal uses the following schema.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Normal_Form\\q23_1293001f.jpg\"> <br>\nWhich is the weakest normal form that the new database satisfies,but the old one does not? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1NF</p>",
+            "<b>B.</b> <p>2NF</p>",
+            "<b>C.</b> <p>3NF</p>",
+            "<b>D.</b> <p>BCNF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39646/gate2016-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the relation X(P,Q,R,S,T,U) with the following set of functional  dependencies <br> F= {{P,R}\\(\\rightarrow\\){S,T}, {P,S,U}\\(\\rightarrow\\){Q,R} } <br>\nWhich of the following is the trivial functional dependency in \\(F^{+}\\), where \\(F^{+}\\) is closure of F ? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{P,R}\\(\\rightarrow\\){S,T}</p>",
+            "<b>B.</b> <p>{P,R}\\(\\rightarrow\\){R,T}</p>",
+            "<b>C.</b> <p>{P,S}\\(\\rightarrow\\){S}</p>",
+            "<b>D.</b> <p>{P,S,U}\\(\\rightarrow\\){Q}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>{P,S}\\(\\rightarrow\\){S}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8420/gate2015-3-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following table<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Normal_Form\\q63_241939ef.jpg\"><br>The table is in which normal form? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Normal Form</p>",
+            "<b>B.</b> <p>Second Normal Form</p>",
+            "<b>C.</b> <p>Third Normal Form but not BCNF</p>",
+            "<b>D.</b> <p>Third Normal Form and BCNF</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Third Normal Form but not BCNF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55019/isro2014-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Every time the attribute A appears, it is matched with the same value of attribute B but not the same value of attribute C. Which of the following is true? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A -&gt; (B,C)</p>",
+            "<b>B.</b> <p>A -&gt; B, A -&gt;&gt; C</p>",
+            "<b>C.</b> <p>A -&gt; B, C -&gt;&gt; A</p>",
+            "<b>D.</b> <p>A -&gt;&gt; B, B -&gt; C</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A -&gt; B, A -&gt;&gt; C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16128/isro2014-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Consider the schema \\(R(A,B,C,D)\\) and the functional dependencies \\(A \\rightarrow B\\) and \\(C \\rightarrow D\\).  If the decomposition is made as \\(R_{1}(A, B)\\) and \\(R_{2}(C, D)\\), then which of the following is TRUE? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preserves dependency but cannot perform lossless join</p>",
+            "<b>B.</b> <p>Preserves dependency and performs lossless join</p>",
+            "<b>C.</b> <p>Does not perform dependency and cannot perform lossless join</p>",
+            "<b>D.</b> <p>Does not preserve dependency but perform lossless join</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Preserves dependency but cannot perform lossless join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17319/isro2014-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>A prime attribute of a relation scheme R is an attribute that appears <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in all candidate keys of R.</p>",
+            "<b>B.</b> <p>in some candidate key of R.</p>",
+            "<b>C.</b> <p>in a foreign keys of R</p>",
+            "<b>D.</b> <p>only in the primary key of R.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>in some candidate key of R.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2056/gate2014-3-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Given the following two statements: <br>\nS1: Every table with two single-valued attributes is in 1NF, 2NF, 3NF and BCNF <br>\nS2 : AB\\(\\rightarrow\\)C, D\\(\\rightarrow\\) E, E\\(\\rightarrow\\)C is a minimal cover for the set of functional dependencies AB\\(\\rightarrow\\)C, D\\(\\rightarrow\\)E, AB\\(\\rightarrow\\) E,E\\(\\rightarrow\\)C. <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is TRUE and S2 is FALSE</p>",
+            "<b>B.</b> <p>Both S1 and S2 are TRUE.</p>",
+            "<b>C.</b> <p>S1 is FALSE and S2 is TRUE.</p>",
+            "<b>D.</b> <p>Both S1 and S2 are FALSE.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1 is TRUE and S2 is FALSE</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1797/gate2014-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Consider the following dependencies and the BOOK table in a relational database design. Determine the normal form of the given relation.<br>\nISBN \\(\\rightarrow\\) Title<br>\nISBN \\(\\rightarrow\\) Publisher<br>\nPublisher \\(\\rightarrow\\) Address<br> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Normal Form</p>",
+            "<b>B.</b> <p>Second Normal Form</p>",
+            "<b>C.</b> <p>Third Normal Form</p>",
+            "<b>D.</b> <p>BCNF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Second Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43861/isro-2013-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.  <br>  \\(F=\\{CH\\rightarrow G, A\\rightarrow BC,B\\rightarrow CFH,E\\rightarrow A,F\\rightarrow EG\\}\\)  is a set of functional dependencies (FDs) so that \\(F^{+}\\) is\nexactly the set of FDs that hold for R. <br>The relation R is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in 1NF, but not in 2NF.</p>",
+            "<b>B.</b> <p>in 2NF, but not in 3NF.</p>",
+            "<b>C.</b> <p>in 3NF, but not in BCNF.</p>",
+            "<b>D.</b> <p>in BCNF</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>in 1NF, but not in 2NF.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43290/gate2013-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.  <br>  \\(F=\\{CH\\rightarrow G, A\\rightarrow BC,B\\rightarrow CFH,E\\rightarrow A,F\\rightarrow EG\\}\\)  is a set of functional dependencies (FDs) so that \\(F^{+}\\) is\nexactly the set of FDs that hold for R. <br>How many candidate keys does the relation R have? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1558/gate2013-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Which of the following is TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every relation in 3NF is also in BCNF</p>",
+            "<b>B.</b> <p>A relation R is in 3NF if every non-prime attribute of R is fully functionally dependent on every key of R</p>",
+            "<b>C.</b> <p>Every relation in BCNF is also in 3NF</p>",
+            "<b>D.</b> <p>No relation can be in both BCNF and 3NF</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Every relation in BCNF is also in 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/34/gate2012-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>In functional dependency Armstrong inference rules refers to <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reflexive, Augmentation and Decomposition</p>",
+            "<b>B.</b> <p>Transitive, Augmentation and Reflexive</p>",
+            "<b>C.</b> <p>Augmentation, Transitive, Reflexive and Decomposition</p>",
+            "<b>D.</b> <p>Reflexive, Transitive and Decomposition</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Transitive, Augmentation and Reflexive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50639/isro2011-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Which normal form is based on the concept of 'full functional dependency' is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Normal Form</p>",
+            "<b>B.</b> <p>Second  Normal Form</p>",
+            "<b>C.</b> <p>Third Normal Form</p>",
+            "<b>D.</b> <p>Fourth Normal Form</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Second  Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18117/isro2011-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Consider the following relational schema:<pre><code>\nSuppliers(sid:integer, sname:string, city:string, street:string)\nParts(pid:integer, pname:string, color:string)\nCatalog(sid:integer, pid:integer, cost:real)</code></pre> Assume that, in the suppliers relation above, each supplier and each street within\na city has a unique name, and (sname, city) forms a candidate key. No other\nfunctional dependencies are implied other than those implied by primary and\ncandidate keys. Which one of the following is TRUE about the above schema? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The schema is in BCNF</p>",
+            "<b>B.</b> <p>The schema is in 3NF but not in BCNF</p>",
+            "<b>C.</b> <p>The schema is in 2NF but not in 3NF</p>",
+            "<b>D.</b> <p>The schema is not in 2NF</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The schema is in BCNF</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43474/gate2009-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Let R (A, B, C, D, E, P, G) be a relational schema in which the following functional dependencies are known to hold: <br>\\(AB \\to CD, DE \\to P, C \\to E, P \\to C\\) and \\(B \\to G\\). <br> The relational schema R is <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in BCNF</p>",
+            "<b>B.</b> <p>in 3NF, but not in BCNF</p>",
+            "<b>C.</b> <p>in 2NF, but not in 3NF</p>",
+            "<b>D.</b> <p>not in 2NF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>not in 2NF</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3372/gate2008-it-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Let \\(R (A, B, C, D)\\) be a relational schema in which the following functional dependencies are known to hold: <br>\\(A \\to B, \\;  B \\to C, \\; C \\to D \\) and \\(D \\to B\\). <br>The decomposition of \\(R\\) into \\((A,B), (B,C), (B,D)\\) <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>gives a lossless join, and is dependency preserving</p>",
+            "<b>B.</b> <p>gives a lossless join, but is not dependency preserving</p>",
+            "<b>C.</b> <p>does not give a lossless join, but is dependency preserving</p>",
+            "<b>D.</b> <p>does not give a lossless join and is not dependency preserving</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>gives a lossless join, and is dependency preserving</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3371/gate2008-it-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the following relational schemes for a library database:<br><br>\nBook (Title, Author, Catalog_ no, Publisher, Year, Price) <br>\nCollection (Title,Author, Catalog_ no) <br><br>\nwith in the following functional dependencies: <br><br>\nI. Title Author \\(\\rightarrow\\) Catalog_no <br>\nII. Catalog_no \\(\\rightarrow\\) Title Author Publisher Year <br>\nIII. Publisher Title Year \\(\\rightarrow\\) Price <br><br>\nAssume {Author, Title} is the key for both schemes. Which of the following\nstatements is true? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both Book and Collection are in BCNF</p>",
+            "<b>B.</b> <p>Both Book and Collection are in 3NF only</p>",
+            "<b>C.</b> <p>Book is in 2NF and Collection is in 3NF</p>",
+            "<b>D.</b> <p>Both Book and Collection are in 2NF only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Book is in 2NF and Collection is in 3NF</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/492/gate2008-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>BCNF is not used for cases where a relation has <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Two (or more) candidate keys</p>",
+            "<b>B.</b> <p>Two candidate keys and composite</p>",
+            "<b>C.</b> <p>The candidate key overlap</p>",
+            "<b>D.</b> <p>Two mutually exclusive foreign keys</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Two candidate keys and composite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49536/isro2007-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Armstrong's inference rule doesnot determine <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reflexivity</p>",
+            "<b>B.</b> <p>Augmentation</p>",
+            "<b>C.</b> <p>Transitivity</p>",
+            "<b>D.</b> <p>Mutual dependency</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Mutual dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49531/isro2007-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Consider the following implications relating to functional and multivalued dependencies given below, which may or may not be correct.<br><br>\ni. if \\(A \\rightarrow \\rightarrow B\\) and \\(A \\rightarrow \\rightarrow C\\) then \\(A \\rightarrow  BC\\)<br>\nii. if \\(A \\rightarrow B\\) and \\(A \\rightarrow C\\) then \\(A \\rightarrow \\rightarrow BC\\)<br>\niii. if \\(A \\rightarrow \\rightarrow BC\\) and \\(A \\rightarrow B\\) then \\(A \\rightarrow C\\)<br>\niv. if \\(A \\rightarrow BC\\) and \\(A \\rightarrow B\\) then \\(A \\rightarrow \\rightarrow C\\)<br><br>\nExactly how many of the above implications are valid? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3512/gate2007-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Which one of the following statements if FALSE? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any relation with two attributes is in BCNF</p>",
+            "<b>B.</b> <p>A relation in which every key has only one attribute is in 2NF</p>",
+            "<b>C.</b> <p>A prime attribute can be transitively dependent on a key in a 3 NF relation.</p>",
+            "<b>D.</b> <p>A prime attribute can be transitively dependent on a key in a BCNF relation.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A prime attribute can be transitively dependent on a key in a BCNF relation.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1260/gate2007-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Which of the following is TRUE about formulae in Conjunctive Normal Form? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For any formula, there is a truth assignment for which at least half the\nclauses evaluate to true.</p>",
+            "<b>B.</b> <p>For any formula, there is a truth assignment for which all the clauses\nevaluate to true.</p>",
+            "<b>C.</b> <p>There is a formula such that for each truth assignment, at most one-fourth of\nthe clauses evaluate to true.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>For any formula, there is a truth assignment for which at least half the\nclauses evaluate to true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1246/gate2007-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Consider a relation R with five attributes V, W, X, Y, and Z. The following functional dependencies hold:<br>\n\\(VY \\rightarrow W, WX \\rightarrow Z, \\text{and }ZY \\rightarrow V\\).<br>\nWhich of the following is a candidate key for R? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>VXZ</p>",
+            "<b>B.</b> <p>VXY</p>",
+            "<b>C.</b> <p>VWXY</p>",
+            "<b>D.</b> <p>VWXYZ</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>VXY</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3604/gate2006-it-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>In a schema with attributes A, B, C, D and E following set of functional dependencies are given  <br>\n\\(A \\rightarrow B\\)<br>\n\\(A \\rightarrow C\\)<br>\n\\(CD \\rightarrow E\\)<br>\n\\(B \\rightarrow D\\)<br>\n\\(E \\rightarrow A\\)<br>\nWhich of the following functional dependencies is NOT implied by the above set? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(CD \\rightarrow AC\\)</p>",
+            "<b>B.</b> <p>\\(BD \\rightarrow CD\\)</p>",
+            "<b>C.</b> <p>\\(BC \\rightarrow CD\\)</p>",
+            "<b>D.</b> <p>\\(AC \\rightarrow BC\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(BD \\rightarrow CD\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3833/gate2005-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>A table has fields \\(F_1, F_2, F_3, F_4, F_5\\) with the following functional dependencies   <br>\n\\(F_1 \\to F_3, F_2\\to F_4, (F_1 . F_2) \\to F_5\\)<br>\nIn terms of Normalization, this table is in <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1\\;\\text{NF}\\)</p>",
+            "<b>B.</b> <p>\\(2\\;\\text{NF}\\)</p>",
+            "<b>C.</b> <p>\\(3\\;\\text{NF}\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(1\\;\\text{NF}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3767/gate2005-it-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Which one of the following statements about normal forms is FALSE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BCNF is stricter than 3NF</p>",
+            "<b>B.</b> <p>Lossless, dependency-preserving decomposition into 3NF is always possible</p>",
+            "<b>C.</b> <p>Lossless, dependency-preserving decomposition into BCNF is always possible</p>",
+            "<b>D.</b> <p>Any relation with two attributes is in BCNF</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Lossless, dependency-preserving decomposition into BCNF is always possible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1365/gate2005-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>A relation Empdtl is defined with attributes empcode (unique), name, street, city, state and pincode. For any pincode, there is only one city and state. Also, for any given street, city and state, there is just one pincode. In normalization terms, Empdtl is a relation in <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1NF only</p>",
+            "<b>B.</b> <p>2NF and hence also in 1NF</p>",
+            "<b>C.</b> <p>3NF and hence also in 2NF and 1NF</p>",
+            "<b>D.</b> <p>BCNF and hence also in 3NF, 2NF and 1NF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2NF and hence also in 1NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3719/gate2004-it-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider the following entity relationship diagram (ERD), where two entities E1 and E2 have a relation R of cardinality 1:m.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Normal_Form\\q73_7b7dd9cd.jpg\"><br>The attributes of E1 are A11, A12 and A13 where A11 is the key attribute. The attributes of E2 are A21, A22 and A23 where A21 is the key attribute and A23 is a multi-valued attribute. Relation R does not have any attribute. A relational database containing minimum number of tables with each table satisfying the requirements of the third normal form (3NF) is designed from the above ERD. The number of tables in the database is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3717/gate2004-it-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>The relation scheme Student Performance (name, courseNo, rollNo, grade) has the following\nfunctional dependencies: <br><br>\nname, courseNo, \\(\\rightarrow\\) grade <br>\nrollNo, courseNo \\(\\rightarrow\\) grade <br>\nname \\(\\rightarrow\\) rollNo <br>\nrollNo \\(\\rightarrow\\) name <br><br>\nThe highest normal form of this relation scheme is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2NF</p>",
+            "<b>B.</b> <p>3NF</p>",
+            "<b>C.</b> <p>BCNF</p>",
+            "<b>D.</b> <p>4NF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1046/gate2004-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Consider the following functional dependencise in a database: <br><br>\\(\\begin{array}{|l|l|}\\hline \\text{Date\\_of\\_Birth } \\to \\text{Age} &amp; \\text{Age } \\to \\text{Eligibility} \\\\ \\hline  \\text{Name } \\to \\text{Roll\\_number} &amp; \\text{Roll\\_number }\\to \\text{Name} \\\\ \\hline   \\text{Course\\_number }\\to \\text{Course\\_name} &amp; \\text{Course\\_number } \\to\\text{Instructor} \\\\ \\hline  \\text{(Roll\\_number, Course\\_number) }\\to\\text{Grade} &amp; \\text{}  \\\\ \\hline \\end{array}\\)<br><br>\nThe relation (Roll_number,Name,Date_of_brith,Age) is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in second normal normal form but not in third normal form</p>",
+            "<b>B.</b> <p>in third normal form but not in BCNF</p>",
+            "<b>C.</b> <p>in BCNF</p>",
+            "<b>D.</b> <p>in none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>in none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/968/gate2003-85#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Relation R is decomposed using a set of functional dependencies, F ,and relation S\nis decomposed using another set of functional dependencies, G. One decomposition\nis definitely BCNF , the other is definitely. 3NF , but it is not known which is\nwhich. To make a guaranteed identification, which one of the following tests\nshould be used on the decompositions ? (Assume that the closures of F and G\nare available). <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dependency-preservation</p>",
+            "<b>B.</b> <p>Lossless-join</p>",
+            "<b>C.</b> <p>BCNF definition</p>",
+            "<b>D.</b> <p>3NF definition</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>BCNF definition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/854/gate2002-2-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Relation R with an associated set of functional dependencies, F , is decomposed\ninto BCNF. The redundancy (arising out of functional dependencies) in the\nresulting set of relations is. <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Zero</p>",
+            "<b>B.</b> <p>More than zero but less than that of an equivalent 3NF decomposition</p>",
+            "<b>C.</b> <p>Proportional to the size of F+</p>",
+            "<b>D.</b> <p>Indetermine.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Zero</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/824/gate2002-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Given the following relation instance.<br>\n\\(\\begin{array}{|l|l|l|}\\hline \\text{X} &amp; \\text{Y} &amp; \\text{Z} \\\\\\hline \\text{1} &amp; \\text{4} &amp; \\text{2} \\\\ \\text{1} &amp; \\text{5} &amp; \\text{3} \\\\ \\text{1} &amp; \\text{6} &amp; \\text{3} \\\\ \\text{3} &amp; \\text{2} &amp; \\text{2} \\\\\\hline \\end{array}\\)<br>Which of the following functional dependencies are satisfied by the instance? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(XY \\rightarrow Z \\text{ and } Z \\rightarrow Y\\)</p>",
+            "<b>B.</b> <p>\\(YZ \\rightarrow X \\text{ and } Y \\rightarrow Z\\)</p>",
+            "<b>C.</b> <p>\\(YZ \\rightarrow X \\text{ and } X \\rightarrow Z\\)</p>",
+            "<b>D.</b> <p>\\(XZ \\rightarrow Y \\text{ and }Y \\rightarrow X\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(YZ \\rightarrow X \\text{ and } Y \\rightarrow Z\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/671/gate2000-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Consider the schema \\(R=(S,T, U, V)\\) and the dependencies \\(S \\rightarrow T, T \\rightarrow U, U \\rightarrow V\\) and \\(V \\rightarrow S\\). Let \\(R = (R1\\text{ and } R2)\\) be a decomposition such that \\(R1 \\cap R2 \\neq \\phi\\). The decomposition is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>not in 2NF</p>",
+            "<b>B.</b> <p>in 2NF but not 3NF</p>",
+            "<b>C.</b> <p>in 3NF but not in 2NF</p>",
+            "<b>D.</b> <p>in both 2NF and 3NF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>in both 2NF and 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1485/gate1999-2-7-ugcnet-june2014-iii-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Which normal form is considered adequate for normal relational database design? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2NF</p>",
+            "<b>B.</b> <p>5NF</p>",
+            "<b>C.</b> <p>4NF</p>",
+            "<b>D.</b> <p>3NF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1671/gate1998-1-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>For a database relation R(a, b, c, d), where the domains a, b, c, d include only atomic values, only the following functional dependencies and those that can be inferred from them hold<br>\n\\(a \\rightarrow c\\)<br>\n\\(b \\rightarrow d\\)<br>\nThis relation is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in first normal form but not in second normal form</p>",
+            "<b>B.</b> <p>in second normal form but not in first normal form</p>",
+            "<b>C.</b> <p>in third normal form</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>in first normal form but not in second normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2265/gate1997-6-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>R,(A,B,C,D) is a relation. Which of the following does not have a lossless join,\ndependency preserving BCNF decomposition ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A\\rightarrow B,B\\rightarrow CD\\)</p>",
+            "<b>B.</b> <p>\\(A\\rightarrow B,B\\rightarrow C,C\\rightarrow D\\)</p>",
+            "<b>C.</b> <p>\\(AB\\rightarrow C,C\\rightarrow AD\\)</p>",
+            "<b>D.</b> <p>\\(A\\rightarrow BCD\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(AB\\rightarrow C,C\\rightarrow AD\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/741/gate2001-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Indicate which of the following statements are true:\n<br>\nA relational database which is in 3NF may still have undesirable data redundancy because there may exist: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Transitive functional dependencies</p>",
+            "<b>B.</b> <p>Non-trivial functional dependencies involving prime attributes on the right-side.</p>",
+            "<b>C.</b> <p>Non-trivial functional dependencies involving prime attributes only on the left-side.</p>",
+            "<b>D.</b> <p>Non-trivial functional dependencies involving only prime attributes.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Non-trivial functional dependencies involving prime attributes on the right-side.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84054/gate1990-3-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

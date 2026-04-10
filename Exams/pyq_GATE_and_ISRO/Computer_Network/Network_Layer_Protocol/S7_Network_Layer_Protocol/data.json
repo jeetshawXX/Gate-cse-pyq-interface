@@ -1,0 +1,206 @@
+{
+  "title": "Network_Layer_Protocol - Network_Layer_Protocol - Slot 7",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Network_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A company has a class C network address of 204.204.204.0. It wishes to have three subnets, one with 100 hosts and two with 50 hosts each. Which one of the following options represents a feasible set of subnet address/subnet mask pairs? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>204.204.204.128/255.255.255.192<br>\n204.204.204.0/255.255.255.128<br>\n204.204.204.64/255.255.255.128</p>",
+            "<b>B.</b> <p>204.204.204.0/255.255.255.192 <br>\n204.204.204.192/255.255.255.128<br>\n204.204.204.64/255.255.255.128</p>",
+            "<b>C.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.192/255.255.255.192<br>\n204.204.204.224/255.255.255.192</p>",
+            "<b>D.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.64/255.255.255.192<br>\n204.204.204.0/255.255.255.192</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.64/255.255.255.192<br>\n204.204.204.0/255.255.255.192</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3839/gate2005-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Count to infinity is a problem associated with: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>link state routing protocol.</p>",
+            "<b>B.</b> <p>distance vector routing protocol</p>",
+            "<b>C.</b> <p>DNS while resolving host name</p>",
+            "<b>D.</b> <p>TCP for congestion control</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>distance vector routing protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3775/gate2005-it-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>An organization has a class B network and wishes to form subnets for 64 departments. The subnet\nmask would be: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.0.0</p>",
+            "<b>B.</b> <p>255.255.64.0</p>",
+            "<b>C.</b> <p>255.255.128.0</p>",
+            "<b>D.</b> <p>255.255.252.0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.252.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1363/gate2005-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a network of LANs connected by bridges, packets are sent from one LAN to another through\nintermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For shortest path routing between LANs</p>",
+            "<b>B.</b> <p>For avoiding loops in the routing paths</p>",
+            "<b>C.</b> <p>For fault tolerance</p>",
+            "<b>D.</b> <p>For minimizing collisions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>For avoiding loops in the routing paths</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1362/gate2005-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The address resolution protocol (ARP) is used for: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding the IP address from the DNS</p>",
+            "<b>B.</b> <p>Finding the IP address of the default gateway</p>",
+            "<b>C.</b> <p>Finding the IP address that corresponds to a MAC address</p>",
+            "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1360/gate2005-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In the TCP/IP protocol suite, which one of the following is NOT part of the IP header? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fragment Offset</p>",
+            "<b>B.</b> <p>Source IP address</p>",
+            "<b>C.</b> <p>Destination IP address</p>",
+            "<b>D.</b> <p>Destination port number</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Destination port number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3730/gate2004-it-86\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A host is connected to a Department network which is part of a University network. The University network, in turn, is part of the Internet. The largest network in which the Ethernet address of the host is unique is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the subnet to which the host belongs</p>",
+            "<b>B.</b> <p>the Department network</p>",
+            "<b>C.</b> <p>the University network</p>",
+            "<b>D.</b> <p>the Internet</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the Internet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3668/gate2004-it-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A subnet has been assigned a subnet mask of 255.255.255.192. What is the maximum number of hosts that can belong to this subnet? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>30</p>",
+            "<b>C.</b> <p>62</p>",
+            "<b>D.</b> <p>126</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3667/gate2004-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider three IP networks A, B and C. Host HA in network A sends messages each containing 180 bytes of application data to a host HC in network C. The TCP layer prefixes a 20 byte header to the message. This passes through an intermediate net?work B. The maximum packet size, including 20 byte IP header, in each network is  <br><br> A : 1000 bytes <br> B : 100 bytes <br> C : 1000 bytes <br><br> The network A and B are connected through a 1 Mbps link, while B and C are connected by a 512 Kbps link (bps = bits per second).  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q56_23530050.jpg\"> <br>  Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the IP layer at the destination for one application message, in the best case ? Consider only data packets. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>200</p>",
+            "<b>B.</b> <p>220</p>",
+            "<b>C.</b> <p>240</p>",
+            "<b>D.</b> <p>260</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>260</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1052/gate2004-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The routing table of a router is shown below: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q55_6714c69d.jpg\"><br> On which interface will the router forward packets addressed to destinations 128.75.43.16 and 192.12.17.10 respectively? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Eth1 and Eth2</p>",
+            "<b>B.</b> <p>Eth0 and Eth2</p>",
+            "<b>C.</b> <p>Eth0 and Eth3</p>",
+            "<b>D.</b> <p>Eth1 and Eth3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Eth1 and Eth2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1051/gate2004-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following is NOT true with respect to a transparent bridge and a router? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both bridge and router selectively forward data packets</p>",
+            "<b>B.</b> <p>A bridge uses IP addresses while a router uses MAC addresses</p>",
+            "<b>C.</b> <p>A bridge builds up its routing table by inspecting incoming packets</p>",
+            "<b>D.</b> <p>A router can connect between a LAN and a WAN</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A bridge uses IP addresses while a router uses MAC addresses</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1013/gate2004-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The subnet mask for a particular network is 255.255.31.0 Which of the following\npairs of IP addresses could belong to this network ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.57.88.62 and 172.56.87.233</p>",
+            "<b>B.</b> <p>191.203.31.87 and 191.234.31.88</p>",
+            "<b>C.</b> <p>10.35.28.2 and 10.35.29.4</p>",
+            "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/965/gate2003-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following assertions is false about the internet Protocol (IP) ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is possible for a computer to have multiple IP addresses</p>",
+            "<b>B.</b> <p>IP packets from the same source to the same destination can take different\nroutes in the network</p>",
+            "<b>C.</b> <p>IP ensures that a packet is discarded if it is unable to reach its destination\nwithin a given number of hopes</p>",
+            "<b>D.</b> <p>The packet source cannot set the route of an outgoing packets; the route is\ndetermined only by the routing tables in the routers on the way.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The packet source cannot set the route of an outgoing packets; the route is\ndetermined only by the routing tables in the routers on the way.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/917/gate2003-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

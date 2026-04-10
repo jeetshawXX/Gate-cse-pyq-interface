@@ -1,0 +1,206 @@
+{
+  "title": "CO and Architecture - Cache Memory",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Cache Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"700\"></a><div itemprop=\"text\"><p>More than one word are put in one cache block to:</p></div><br><br><b>CO & Architecture: GATE CSE 2001 | Question: 1.7, ISRO2008</b></p>",
+          "type": "single",
+          "options": [
+            "<p>exploit the temporal locality of reference in a program</p>",
+            "<p>exploit the spatial locality of reference in a program</p>",
+            "<p>reduce the miss penalty</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "<p>exploit the spatial locality of reference in a program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/700/gate-cse-2001-question-1-7-isro2008-18\" target=\"_blank\">https://gateoverflow.in/700/gate-cse-2001-question-1-7-isro2008-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3653\"></a><div itemprop=\"text\"><div style=\"text-align: justify;\">Consider a system with \\( 2 \\) level cache. Access times of Level \\( 1 \\) cache, Level \\( 2 \\) cache and main memory are \\( 1 \\) \\( ns \\), \\( 10 \\) \\( ns \\), and \\( 500 \\) \\( ns \\) respectively. The hit rates of Level \\( 1 \\) and Level \\( 2 \\) caches are \\( 0.8 \\) and \\( 0.9 \\), respectively. What is the average access time of the system ignoring the search time within the cache?</div></div><br><br><b>CO & Architecture: GATE IT 2004 | Question: 12, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13.0 \\)</p>",
+            "<p>\\( 12.8 \\)</p>",
+            "<p>\\( 12.6 \\)</p>",
+            "<p>\\( 12.4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12.6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3653/gate-it-2004-question-12-isro2016-77\" target=\"_blank\">https://gateoverflow.in/3653/gate-it-2004-question-12-isro2016-77</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"49485\"></a><div itemprop=\"text\">\n<p>The principal of the locality of reference justifies the use of</p>\n\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2007 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>virtual memory</p>",
+            "<p>interrupts</p>",
+            "<p>main memory</p>",
+            "<p>cache memory</p>"
+          ],
+          "correct_answer": "<p>cache memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49485/isro-cse-2007-question-14\" target=\"_blank\">https://gateoverflow.in/49485/isro-cse-2007-question-14</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"49525\"></a><div itemprop=\"text\"><p>Consider a small \\( 2 \\)-way set-associative cache memory, consisting of four blocks. For choosing the block to be replaced, use the least recently (LRU) scheme. The number of cache misses for the following sequence of block addresses is \\( 8, 12, 0, 12, 8 \\)</p></div><br><br><b>CO & Architecture: ISRO CSE 2007 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49525/isro-cse-2007-question-46\" target=\"_blank\">https://gateoverflow.in/49525/isro-cse-2007-question-46</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"51330\"></a><div itemprop=\"text\"><p>Consider a direct mapped cache with \\( 64 \\) blocks and a block size of \\( 16 \\) bytes. To what block number does the byte address \\( 1206 \\) map to</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2011 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>does not map</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 54 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51330/isro-cse-2011-question-16\" target=\"_blank\">https://gateoverflow.in/51330/isro-cse-2011-question-16</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"18093\"></a><div itemprop=\"text\"><p>The search concept used in associative memory is</p></div><br><br><b>CO & Architecture: ISRO CSE 2011 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Parallel search</p>",
+            "<p>Sequential search</p>",
+            "<p>Binary search</p>",
+            "<p>Selection search</p>"
+          ],
+          "correct_answer": "<p>Parallel search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18093/isro-cse-2011-question-42\" target=\"_blank\">https://gateoverflow.in/18093/isro-cse-2011-question-42</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"128633\"></a><div itemprop=\"text\"><p>A cache memory needs an access time of \\( 30 \\) ns and main memory \\( 150 \\) ns, what is average access time of CPU (assume hit ratio \\( = 80\\%)? \\)</p></div><br><br><b>CO & Architecture: ISRO CSE 2017 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 60 \\) ns</p>",
+            "<p>\\( 30 \\) ns</p>",
+            "<p>\\( 150 \\) ns</p>",
+            "<p>\\( 70 \\) ns</p>"
+          ],
+          "correct_answer": "<p>\\( 60 \\) ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128633/isro-cse-2017-question-21\" target=\"_blank\">https://gateoverflow.in/128633/isro-cse-2017-question-21</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"213515\"></a><div itemprop=\"text\"><p>For a multi-processor architecture, in which protocol a write transaction is forwarded to only those processors that are known to&nbsp;possess a copy of newly altered cache line?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2018 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Snoopy bus protocol</p>",
+            "<p>Cache coherency protocol</p>",
+            "<p>Directory based protocol</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Directory based protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213515/isro-cse-2018-question-73\" target=\"_blank\">https://gateoverflow.in/213515/isro-cse-2018-question-73</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"331409\"></a><div itemprop=\"text\"><p>Which of the following is an efficient method of cache updating?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2020 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Snoopy writes</p>",
+            "<p>Write through</p>",
+            "<p>Write within</p>",
+            "<p>Buffered write</p>"
+          ],
+          "correct_answer": "<p>Snoopy writes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331409/isro-cse-2020-question-43\" target=\"_blank\">https://gateoverflow.in/331409/isro-cse-2020-question-43</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"331421\"></a><div itemprop=\"text\"><p>How many total bits are required for a direct-mapped cache with \\( 128 \\) KB of data and \\( 1 \\) word block size, assuming a \\( 32 \\)-bit address and \\( 1 \\) word size of \\( 4 \\) bytes?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2020 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) Mbits</p>",
+            "<p>\\( 1.7 \\) Mbits</p>",
+            "<p>\\( 2.5 \\) Mbits</p>",
+            "<p>\\( 1.5 \\) Mbits</p>"
+          ],
+          "correct_answer": "<p>\\( 1.5 \\) Mbits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331421/isro-cse-2020-question-47\" target=\"_blank\">https://gateoverflow.in/331421/isro-cse-2020-question-47</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"43812\"></a><div itemprop=\"text\">\n<p>How much speed do we gain by using the cache, when cache is used \\( 80 \\)% of the time? Assume cache is faster than main memory.</p>\n\n\n</div><br><br><b>CO & Architecture: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5.27 \\)</p>",
+            "<p>\\( 2.00 \\)</p>",
+            "<p>\\( 4.16 \\)</p>",
+            "<p>\\( 6.09 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4.16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43812/isro-2013-16\" target=\"_blank\">https://gateoverflow.in/43812/isro-2013-16</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"182087\"></a><div itemprop=\"text\"><p>A two-way set associative cache memory unit with a capacity of \\( 16\\, KB \\) is built using a block size of<br>\\( 8\\, words. \\) The word length is \\( 32-bits. \\) The physical address space is \\( 4\\, GB. \\)<br>The number of bits in the<strong> TAG, SET</strong> fields are</p></div><br><br><b>CO & Architecture: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20,7 \\)</p>",
+            "<p>\\( 19,8 \\)</p>",
+            "<p>\\( 20,8 \\)</p>",
+            "<p>\\( 21,9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19,8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182087/isro-dec2017-37\" target=\"_blank\">https://gateoverflow.in/182087/isro-dec2017-37</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"182092\"></a><div itemprop=\"text\"><p>In designing a computer's cache system, the cache block (or cache line) size es an important parameter. Which one of the following statements is correct in this context?</p>\n\n</div><br><br><b>CO & Architecture: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Smaller block size incurs lower cache miss penalty.</p>",
+            "<p>Smaller block size implies better spatial locality.</p>",
+            "<p>Smaller block size implies smaller cache tag.</p>",
+            "<p>Smaller block size implies lower cache hit time.</p>"
+          ],
+          "correct_answer": "<p>Smaller block size incurs lower cache miss penalty.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182092/isro-dec2017-42\" target=\"_blank\">https://gateoverflow.in/182092/isro-dec2017-42</a></p>"
+        }
+      ]
+    }
+  ]
+}

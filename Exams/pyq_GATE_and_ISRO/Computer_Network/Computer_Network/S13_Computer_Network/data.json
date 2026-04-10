@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 13",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Ethernet layer-2 switch is a network element type which gives. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Different collision domain and same broadcast domain.</p>",
+            "<b>B.</b> <p>Different collision domain and different broadcast domain.</p>",
+            "<b>C.</b> <p>Same collision domain and same broadcast domain.</p>",
+            "<b>D.</b> <p>Same collision domain and different broadcast domain.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Different collision domain and same broadcast domain.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43978/isro-2013-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the Ethernet, which field is actually added at the physical layer and is not part of the frame. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preamble</p>",
+            "<b>B.</b> <p>CRC</p>",
+            "<b>C.</b> <p>Address</p>",
+            "<b>D.</b> <p>Location</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Preamble</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43976/isro-2013-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The voltage ranges for a logic high and a logic low in RS-232 C standard is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Low is 0.0 V to 1.8 V,  High is 2.0 V to 5.0 V</p>",
+            "<b>B.</b> <p>Low is -15.0 V to -3.0 V,  High is 3.0 V to 15.0 V</p>",
+            "<b>C.</b> <p>Low is 3.0 V to 15.0 V,  High is -3.0 V to -15.0 V</p>",
+            "<b>D.</b> <p>Low is 2.0 V to 5.0 V,  High is 0.0 V to 1.8 V</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Low is 3.0 V to 15.0 V,  High is -3.0 V to -15.0 V</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43973/isro-2013-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What will be the cipher text produced by the following cipher function for the plain text ISRO with key k=7. [ Consider \\('A'=0, 'B'=1,....'Z'=25\\)]<br>\n\\(C_{k} (M) = (kM + 13) \\mod 26\\) <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RJCH</p>",
+            "<b>B.</b> <p>QIBG</p>",
+            "<b>C.</b> <p>GQPM</p>",
+            "<b>D.</b> <p>XPIN</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RJCH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43843/isro-2013-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>IEEE 1394 is related to <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RS?232</p>",
+            "<b>B.</b> <p>USB</p>",
+            "<b>C.</b> <p>Firewire</p>",
+            "<b>D.</b> <p>PCI</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Firewire</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43819/isro-2013-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the maximum number of characters (7 bits + parity) that can be transmitted in a second on a 19.2 Kbps line. This asynchronous transmission requires 1 start bit and 1 stop bit. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192</p>",
+            "<b>B.</b> <p>240</p>",
+            "<b>C.</b> <p>1920</p>",
+            "<b>D.</b> <p>1966</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1920</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43817/isro-2013-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>How many check bits are required for 16 bit data word to detect 2 bit errors and single bit correction using hamming code? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43816/isro-2013-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In an IPv4 datagram, the M bit is 0, the value of HLEN is 10, the value of total length is 400 and\nthe fragment offset value is 300. The position of the datagram, the sequence numbers of the first\nand the last bytes of the payload, respectively are <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Last fragment, 2400 and 2789</p>",
+            "<b>B.</b> <p>First fragment, 2400 and 2759</p>",
+            "<b>C.</b> <p>Last fragment, 2400 and 2759</p>",
+            "<b>D.</b> <p>Middle fragment, 300 and 689</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Last fragment, 2400 and 2759</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1548/gate2013-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Determine the maximum length of the cable (in km) for transmitting data at a rate of 500 Mbps in\nan Ethernet LAN with frames of size 10,000 bits. Assume the signal speed in the cable to be\n2,00,000 km/s. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>2.5</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1547/gate2013-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Assume that source S and destination D are connected through two intermediate routers labeled R.\nDetermine how many times each packet has to visit the network layer and the data link layer during\na transmission from S to D. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q14_d877ec30.jpg\"> <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Network layer - 4 times and Data link layer - 4 times</p>",
+            "<b>B.</b> <p>Network layer - 4 times and Data link layer - 3 times</p>",
+            "<b>C.</b> <p>Network layer - 4 times and Data link layer - 6 times</p>",
+            "<b>D.</b> <p>Network layer - 2 times and Data link layer - 6 times</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Network layer - 4 times and Data link layer - 6 times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1436/gate2013-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Using public key cryptography, X adds a digital signature \\(\\sigma\\)  to message M, encrypts \\(\\lt M, \\sigma \\gt\\), and\nsends it to Y, where it is decrypted. Which one of the following sequences of keys is used for the\noperations? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Encryption: X's private key followed by Y's private key; Decryption: X's public key followed\nby Y's public key</p>",
+            "<b>B.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: X's public key followed\nby Y's private key</p>",
+            "<b>C.</b> <p>Encryption: X's public key followed by Y's private key; Decryption: Y's public key followed\nby X's private key</p>",
+            "<b>D.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\nby X's public key</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\nby X's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1435/gate2013-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The transport layer protocols used for real time multimedia, file transfer, DNS and email,\nrespectively are <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP, UDP, UDP and TCP</p>",
+            "<b>B.</b> <p>UDP, TCP, TCP and UDP</p>",
+            "<b>C.</b> <p>UDP, TCP, UDP and TCP</p>",
+            "<b>D.</b> <p>TCP, UDP, TCP and UDP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>UDP, TCP, UDP and TCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1421/gate2013-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider an instance of TCP's Additive Increase Multiplicative Decrease (AIMD) algorithm where\nthe window size at the start of the slow start phase is 2 MSS and the threshold at the start of the first\ntransmission is 8 MSS. Assume that a timeout occurs during the fifth transmission. Find the\ncongestion window size at the end of the tenth transmission. <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 MSS</p>",
+            "<b>B.</b> <p>14 MSS</p>",
+            "<b>C.</b> <p>7 MSS</p>",
+            "<b>D.</b> <p>12 MSS</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7 MSS</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2156/gate2012-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a source computer (S) transmitting a file of size \\(10^{6}\\) bits to a destination computer (D)\nover a network of two routers (R1 and R2) and three links (L1, L2, and L3). L1 connects S to R1; L2\nconnects R1 to R2; and L3 connects R2 to D. Let each link be of length 100 km. Assume signals\ntravel over each link at a speed of \\(10^{8}\\) meters per second. Assume that the link bandwidth on each\nlink is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total\nsum of transmission and propagation delays in transmitting the file from S to D? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1005 ms</p>",
+            "<b>B.</b> <p>1010 ms</p>",
+            "<b>C.</b> <p>3000 ms</p>",
+            "<b>D.</b> <p>3003 ms</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1005 ms</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2153/gate2012-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available\nwith it: 245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A,\nand a quarter to Organization B, while retaining the remaining with itself. Which of the following is\na valid allocation of addresses to A and B? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>245.248.136.0/21 and 245.248.128.0/22</p>",
+            "<b>B.</b> <p>245.248.128.0/21 and 245.248.128.0/22</p>",
+            "<b>C.</b> <p>245.248.132.0/22 and 245.248.132.0/21</p>",
+            "<b>D.</b> <p>245.248.136.0/24 and 245.248.132.0/21</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>245.248.136.0/21 and 245.248.128.0/22</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1752/gate2012-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

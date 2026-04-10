@@ -1,0 +1,21 @@
+{
+  "title": "Engineering Mathematics - Probability - Probability Distribution",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Probability Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460032\"></a><div itemprop=\"text\">Consider a probability distribution given by the density function \\( P(x) \\).<br>\n\\[ P(x)=\\left\\{\\begin{aligned}<br>\nC x^{2}, &amp; \\text { for } 1 \\leq x \\leq 4 \\\\<br>\n0, &amp; \\text { for } x&lt;1 \\text { or } x&gt;4<br>\n\\end{aligned}\\right. \\]<br>\nThe probability that \\( x \\) lies between \\( 2 \\) and \\( 3 \\), i.e., \\( P(2 \\leq x \\leq 3) \\) is _________. (rounded off to three decimal places)</div><br><br><b>GATE CSE 2025 | Set 1 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.300:0.302",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460032/gate-cse-2025-set-1-question-48\" target=\"_blank\">https://gateoverflow.in/460032/gate-cse-2025-set-1-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+}

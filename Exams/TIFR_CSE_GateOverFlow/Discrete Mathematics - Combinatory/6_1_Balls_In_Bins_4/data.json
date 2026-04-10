@@ -1,0 +1,75 @@
+{
+  "title": "Discrete Mathematics - Combinatory - Balls In Bins",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Balls In Bins",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"21004\"></a><div itemprop=\"text\"><p>It is required to divide the \\( 2n \\) members of a club into \\( n \\) disjoint teams of \\( 2 \\) members each. The teams are not labelled. The number of ways in which this can be done is:</p>\n\n</div><br><br><b>Combinatory: TIFR CSE 2012 | Part A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{\\left ( 2n \\right )!}{2^{n}} \\)</p>",
+            "<p>\\( \\frac{\\left ( 2n \\right )!}{n!} \\)</p>",
+            "<p>\\( \\frac{\\left ( 2n \\right )!}{2^n . n!} \\)</p>",
+            "<p>\\( \\frac{n!}{2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{\\left ( 2n \\right )!}{2^n . n!} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/21004/tifr-cse-2012-part-a-question-7\" target=\"_blank\">https://gateoverflow.in/21004/tifr-cse-2012-part-a-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25431\"></a><div itemprop=\"text\"><p>There are \\( n \\) kingdoms and \\( 2n \\) champions. Each kingdom gets \\( 2 \\) champions. The number of ways in which this can be done is:</p>\n\n</div><br><br><b>Combinatory: TIFR CSE 2013 | Part A | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{\\left ( 2n \\right )!}{2^{n}} \\)</p>",
+            "<p>\\( \\frac{\\left ( 2n \\right )!}{n!} \\)</p>",
+            "<p>\\( \\frac{\\left ( 2n \\right )!}{2^{n} . n!} \\)</p>",
+            "<p>\\( \\frac{n!}{2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{\\left ( 2n \\right )!}{2^{n}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25431/tifr-cse-2013-part-a-question-9\" target=\"_blank\">https://gateoverflow.in/25431/tifr-cse-2013-part-a-question-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"29571\"></a><div itemprop=\"text\"><p>There is a set of \\( 2n \\) people: \\( n \\) male and \\( n \\) female. A good party is one with equal number of males and females (including the one where none are invited). The total number of good parties is.</p>\n\n</div><br><br><b>Combinatory: TIFR CSE 2015 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{n} \\)</p>",
+            "<p>\\( n^{2} \\)</p>",
+            "<p>\\( \\binom{n}{⌊n/2⌋}^{2} \\)</p>",
+            "<p>\\( \\binom{2n}{n} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\binom{2n}{n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29571/tifr-cse-2015-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/29571/tifr-cse-2015-part-a-question-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"94953\"></a><div itemprop=\"text\"><p>How many distinct ways are there to split \\( 50 \\) identical coins among three people so that each person gets at least \\( 5 \\) coins?</p>\n\n</div><br><br><b>Combinatory: TIFR CSE 2017 | Part A | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3^{35} \\)</p>",
+            "<p>\\( 3^{50}-2^{50} \\)</p>",
+            "<p>\\( \\binom{35}{2} \\)</p>",
+            "<p>\\( \\binom{50}{15} \\cdot 3^{35} \\)</p>",
+            "<p>\\( \\binom{37}{2} \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94953/tifr-cse-2017-part-a-question-5\" target=\"_blank\">https://gateoverflow.in/94953/tifr-cse-2017-part-a-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

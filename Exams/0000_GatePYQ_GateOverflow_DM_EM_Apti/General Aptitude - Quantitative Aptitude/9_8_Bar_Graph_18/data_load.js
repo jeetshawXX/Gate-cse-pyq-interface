@@ -1,0 +1,276 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Bar Graph",
+  "duration": 50,
+  "sections": [
+    {
+      "name": "Bar Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426516\"></a><div itemprop=\"text\"><p>​The chart below shows the data of the number of cars bought by Millennials and Gen \\( \\text{X} \\) people in a country from the year \\( 2010 \\) to \\( 2020 \\) as well as the yearly fuel consumption of the country (in Million liters).</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/d9b77668e8695b2a9f9c905d6ffd4af2.png\" width=\"600\"></p>\n\n<p><br>\n<br>\nConsidering the data presented in the chart, which one of the following options is true?</p>\n\n</div><br><br><b>GATE 2024 Electrical | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The percentage increase in fuel consumption from \\( 2010 \\) to \\( 2015 \\) is more than the percentage increase in fuel consumption from \\( 2015 \\) to \\( 2020 \\).</p>",
+            "<p>The increase in the number of Millennial car buyers from \\( 2015 \\) to \\( 2020 \\) is less than the decrease in the number of Gen \\( \\text{X} \\) car buyers from \\( 2010 \\) to \\( 2015 \\).</p>",
+            "<p>The increase in the number of Millennial car buyers from \\( 2010 \\) to \\( 2015 \\) is more than the decrease in the number of Gen \\( \\text{X} \\) car buyers from \\( 2010 \\) to \\( 2015 \\).</p>",
+            "<p>The decrease in the number of Gen \\( \\text{X} \\) car buyers from \\( 2015 \\) to \\( 2020 \\) is more than the increase in the number of Millennial car buyers from \\( 2010 \\) to \\( 2015 \\).</p>"
+          ],
+          "correct_answer": "<p>The increase in the number of Millennial car buyers from \\( 2010 \\) to \\( 2015 \\) is more than the decrease in the number of Gen \\( \\text{X} \\) car buyers from \\( 2010 \\) to \\( 2015 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426516/gate-2024-electrical-ga-question-8\" target=\"_blank\">https://gateoverflow.in/426516/gate-2024-electrical-ga-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8389\"></a><div itemprop=\"text\"><p>The exports and imports (in crores of \\( Rs \\).) of a country from the year \\( 2000 \\) to \\( 2007 \\) are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?</p><p style=\"text-align:center\"><img alt=\"\" height=\"259\" width=\"423\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/f87173f341ec997ad468512eb00bb266.png\"></p></div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2006",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10\" target=\"_blank\">https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"333231\"></a><div itemprop=\"text\"><p>The total revenue of a company during \\( 2014-2018 \\) is shown in the bar graph. If the total expenditure of the company in each year is \\( 500 \\) million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during \\( 2014-2018 \\) is ___________.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"285\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/73368079b8b5755e8cf7f0299456d0a1.png\" width=\"336\"></p>\n\n</div><br><br><b>GATE CSE 2020 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16.67 \\% \\) profit</p>",
+            "<p>\\( 16.67 \\% \\) loss</p>",
+            "<p>\\( 20 \\% \\) profit</p>",
+            "<p>\\( 20 \\% \\) loss</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\% \\) profit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333231/gate-cse-2020-question-ga-10\" target=\"_blank\">https://gateoverflow.in/333231/gate-cse-2020-question-ga-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"357541\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"224\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/3f64bc3cf36c0c81a113ea34c90d16ea.png\" width=\"315\"></p>\n\n<p>The number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year \\( 3 \\) was ₹\\( \\;1 \\), which was half the cost/unit in Year \\( 2 \\). The cost/unit in Year \\( 3 \\) was one-third of the cost/unit in Year \\( 1 \\). Taxes were paid on the selling price at \\( 10 \\% \\), \\( 13 \\% \\), and \\( 15 \\% \\) respectively for the three years. Net profit is calculated as the difference between the selling price and the sum of cost and taxes paid in that year.</p>\n\n<p>The ratio of the selling price in Year \\( 2 \\) to the selling price in Year \\( 3 \\) is _________.</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4:3 \\)</p>",
+            "<p>\\( 1:1 \\)</p>",
+            "<p>\\( 3:4 \\)</p>",
+            "<p>\\( 1:2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4:3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359808\"></a><div itemprop=\"text\"><p>The profit shares of two companies \\( P \\) and \\( Q \\) are shown in the figure. If the two companies have invested a fixed and equal amount every year, then the ratio of the total revenue of company \\( P \\) to the revenue of company \\( Q \\), during \\( 2013-2018 \\) is ________.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"272\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/c9c1563dd36c7fc3c34c8a9496a07711.png\" width=\"322\"></p>\n\n</div><br><br><b>GATE Chemical 2020 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 : 17 \\)</p>",
+            "<p>\\( 16 : 17 \\)</p>",
+            "<p>\\( 17 : 15 \\)</p>",
+            "<p>\\( 17 : 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 : 17 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359808/gate-chemical-2020-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359808/gate-chemical-2020-ga-question-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411729\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/22f8bea2a271d3c6bdcde053886d55b7.png\" width=\"400\"></p>\n\n<p>The above frequency chart shows the frequency distribution of marks obtained by a set of students in an exam.</p>\n\n<p>From the data presented above, which one of the following is \\( \\text{CORRECT} \\)?</p>\n\n</div><br><br><b>GATE Civil 2022 Set 1 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>mean &gt; mode &gt; median</p>",
+            "<p>mode &gt; median&gt; mean</p>",
+            "<p>mode &gt; mean &gt; median</p>",
+            "<p>median &gt; mode &gt; mean</p>"
+          ],
+          "correct_answer": "<p>mode &gt; median&gt; mean</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411729/gate-civil-2022-set-1-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411729/gate-civil-2022-set-1-ga-question-8</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"426483\"></a><div itemprop=\"text\"><p>The chart given below compares the Installed Capacity (MW) of four power generation technologies, \\( \\text{T}1, \\text{T}2, \\text{T}3 \\), and \\( \\text{T}4 \\), and their Electricity Generation (MWh) in a time of \\( 1000 \\) hours (h).<br>\n<img alt=\"\" height=\"369\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/c47aa4b52a334bdac62f5d5caee5671f.png\" width=\"600\"><br>\nThe Capacity Factor of a power generation technology is:<br>\n\\[<br>\n\\text { Capacity Factor }=\\frac{\\text { Electricity Generation (MWh) }}{\\text { Installed Capacity (MW) } \\times 1000(\\mathrm{~h})}<br>\n\\]<br>\n<br>\nWhich one of the given technologies has the highest Capacity Factor?</p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE Civil 2024 Set 1 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{T}1 \\)</p>",
+            "<p>\\( \\text{T}2 \\)</p>",
+            "<p>\\( \\text{T}3 \\)</p>",
+            "<p>\\( \\text{T}4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{T}1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426483/gate-civil-2024-set-1-ga-question-8\" target=\"_blank\">https://gateoverflow.in/426483/gate-civil-2024-set-1-ga-question-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"461023\"></a><div itemprop=\"text\"><p>​​​The number of patients per shift \\( (X) \\) consulting Dr. Gita in her past \\( 100 \\) shifts is shown in the figure. If the amount she earns is ₹ \\( 1000(X-0.2) \\), what is the average amount (in ₹) she has earned per shift in the past \\( 100 \\) shifts?<br><br>Note: The figure shown is representative.</p><p style=\"text-align:center\"><img alt=\"Bar Chart\" width=\"600\" height=\"393\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/5667f7630759c5be9ff414d3f5b83a7e.png\"></p></div><br><br><b>GATE DA 2025 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6,100 \\)</p>",
+            "<p>\\( 6,300 \\)</p>",
+            "<p>\\( 6,000 \\)</p>",
+            "<p>\\( 6,500 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6,100 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461023/gate-da-2025-ga-question-10\" target=\"_blank\">https://gateoverflow.in/461023/gate-da-2025-ga-question-10</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"359759\"></a><div itemprop=\"text\"><p>The following figure shows the data of students enrolled in \\( 5 \\) years \\( (2014\\;\\text{to}\\; 2018) \\) for two schools&nbsp;\\( P \\) and \\( Q \\). During this period, the ratio of the average number of the students enrolled in school \\( P \\) to the average of the difference of the number of students enrolled in schools \\( P \\) and \\( Q \\) is _______.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"307\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/f2f5a75b32c1856d8d66a782f8dff872.png\" width=\"358\"></p>\n\n</div><br><br><b>GATE ECE 2020 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 : 23 \\)</p>",
+            "<p>\\( 23 : 8 \\)</p>",
+            "<p>\\( 23 : 31 \\)</p>",
+            "<p>\\( 31 : 23 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 23 : 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359759/gate-ece-2020-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359759/gate-ece-2020-ga-question-10</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"359789\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"325\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/c64ac6c1e29dd82b7766ab5dee601ec5.png\" width=\"472\"></p>\n\n<p>The number of minutes spent by two students, \\( X \\) and \\( Y \\), exercising every day in a given week are shown in the bar chart above.</p>\n\n<p>The number of days in the given week in which one of the students spent a minimum of \\( 10\\% \\) more than the other student, on a given day, is</p>\n\n</div><br><br><b>GATE ECE 2021 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359789/gate-ece-2021-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359789/gate-ece-2021-ga-question-9</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"426531\"></a><div itemprop=\"text\"><p>The bar chart shows the data for the percentage of population falling into different categories based on Body Mass Index \\( \\text{(BMI)} \\) in \\( 2003 \\) and \\( 2023 \\).</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"359\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/e33eba74c1893310b97a32ca43539ae6.png\" width=\"600\"><br>\n<br>\nBased on the data provided, which one of the following options is INCORRECT?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>GATE ECE 2024 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The ratio of the percentage of population falling into overweight category to the percentage of population falling into normal category has increased in \\( 20 \\) years.</p>",
+            "<p>The ratio of the percentage of population falling into underweight category to the percentage of population falling into normal category has decreased in \\( 20 \\) years.</p>",
+            "<p>The ratio of the percentage of population falling into obese category to the percentage of population falling into normal category has decreased in \\( 20 \\) years.</p>",
+            "<p>The percentage of population falling into normal category has decreased in \\( 20 \\) years.</p>"
+          ],
+          "correct_answer": "<p>The ratio of the percentage of population falling into obese category to the percentage of population falling into normal category has decreased in \\( 20 \\) years.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426531/gate-ece-2024-ga-question-8\" target=\"_blank\">https://gateoverflow.in/426531/gate-ece-2024-ga-question-8</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"359710\"></a><div itemprop=\"text\"><p>The revenue and expenditure of four different companies \\( \\text{P, Q, R and S} \\) in \\( 2015 \\) are shown&nbsp;in the figure. If the revenue of company \\( \\text{Q} \\) in \\( 2015 \\) was \\( 20 \\)% more than that in \\( 2014 \\), and&nbsp;company \\( \\text{Q} \\) had earned a profit of \\( 10 \\)% on expenditure in \\( 2014 \\), then its expenditure (in million rupees) in \\( 2014 \\) was _______.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"331\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/0f75ec0e92a058c3cd4b2a8f784b6ec7.png\" width=\"369\"></p>\n\n</div><br><br><b>GATE Electrical 2020 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 32.7 \\)</p>",
+            "<p>\\( 33.7 \\)</p>",
+            "<p>\\( 34.1 \\)</p>",
+            "<p>\\( 35.1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 34.1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359710/gate-electrical-2020-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359710/gate-electrical-2020-ga-question-10</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"359739\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"240\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/6c117e42b6149c0318e97ae2d5aac553.png\" width=\"369\"></p>\n\n<p>The number of students passing or failing in an exam for a particular subject is presented in the bar chart above. Students who pass the exam cannot appear for the exam again. Students who fail the exam in the first attempt must appear for the exam in the following year. Students always pass the exam in their second attempt.</p>\n\n<p>The number of students who took the exam for the first time in the year \\( 2 \\) and the year \\( 3 \\) respectively, are ______________.</p>\n\n</div><br><br><b>GATE Electrical 2021 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 65 \\) and \\( 53 \\)</p>",
+            "<p>\\( 60 \\) and \\( 50 \\)</p>",
+            "<p>\\( 55 \\) and \\( 53 \\)</p>",
+            "<p>\\( 55 \\) and \\( 48 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 55 \\) and \\( 48 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359739/gate-electrical-2021-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359739/gate-electrical-2021-ga-question-9</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"359518\"></a><div itemprop=\"text\"><p>The bar graph shows the data of the students who appeared and passed in an examination for four schools \\( P, Q, R \\), and \\( S \\). The average of success rates \\( \\text{(in percentage)} \\) of&nbsp; these four schools is _______.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"304\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/a3e730eed2a77d0d4140652add33fcc5.png\" width=\"419\"></p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 1 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 58.5\\% \\)</p>",
+            "<p>\\( 58.8\\% \\)</p>",
+            "<p>\\( 59.0\\% \\)</p>",
+            "<p>\\( 59.3\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 59.0\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359518/gate-mechanical-2020-set-1-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359518/gate-mechanical-2020-set-1-ga-question-10</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"426509\"></a><div itemprop=\"text\"><p>The bar chart gives the batting averages of \\( \\mathrm{VK} \\)&nbsp;and \\( \\mathrm{RS} \\)&nbsp;for \\( 11 \\) calendar years from \\( 2012 \\) to \\( 2022 \\). Considering that \\( 2015 \\) and \\( 2019 \\) are world cup years, which one of the following options is true?</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/34abc6ad305f931ddd0d960bb52fb82e.png\" width=\"600\"></p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{RS} \\)&nbsp;has a higher yearly batting average than that of \\( \\mathrm{VK} \\)&nbsp;in every world cup year.</p>",
+            "<p>\\( \\mathrm{VK} \\)&nbsp;has a higher yearly batting average than that of \\( \\mathrm{RS} \\)&nbsp;in every world cup year.</p>",
+            "<p>\\( \\mathrm{VK’s} \\)&nbsp;yearly batting average is consistently higher than that of \\( \\mathrm{RS} \\)&nbsp;between the two world cup years.</p>",
+            "<p>\\( \\mathrm{RS’s} \\) yearly batting average is consistently higher than that of \\( \\mathrm{VK} \\) in the last three years.</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{VK’s} \\)&nbsp;yearly batting average is consistently higher than that of \\( \\mathrm{RS} \\)&nbsp;between the two world cup years.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426509/gate-mechanical-2024-ga-question-8\" target=\"_blank\">https://gateoverflow.in/426509/gate-mechanical-2024-ga-question-8</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"41498\"></a><div itemprop=\"text\"><p>The exports and imports (in crores of Rs.) of a country from \\( 2000 \\) to \\( 2007 \\) are given in the following bar chart. If the trade deficit is defined as excess of imports over exports, in which year is the trade deficit \\( 1/5 \\)th of the exports?&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"248\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/ad7bdc9490b7b7ea5ee5909b09951dd2.png\" width=\"405\"></p>\n\n</div><br><br><b>GATE2014 EC-1: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2005 \\)</p>",
+            "<p>\\( 2004 \\)</p>",
+            "<p>\\( 2007 \\)</p>",
+            "<p>\\( 2006 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2006 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41498/gate2014-ec-1-ga-9\" target=\"_blank\">https://gateoverflow.in/41498/gate2014-ec-1-ga-9</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"313480\"></a><div itemprop=\"text\"><p>The bar graph below shows the output of five carpenters over one month. each of whom made different items of furniture: chairs, tables, and beds.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"306\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/708bf85c6ba827691c353b0a3c1b8014.png\" width=\"372\"></p>\n\n<p>Consider the following statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>The number of beds made by carpenter \\( C2 \\) is exactly the same as the number of tables made by carpenter \\( C3 \\)</li>\n\t<li>The total number of chairs made by all carpenters is less than the total number of tables.</li>\n</ol>\n\n<p>Which one of the following is true?</p>\n\n</div><br><br><b>GATE2017 CE-1: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only i</p>",
+            "<p>Only ii</p>",
+            "<p>Both i and ii</p>",
+            "<p>Neither i nor ii</p>"
+          ],
+          "correct_answer": "<p>Both i and ii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313480/gate2017-ce-1-ga-10\" target=\"_blank\">https://gateoverflow.in/313480/gate2017-ce-1-ga-10</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"313528\"></a><div itemprop=\"text\"><p>The bar graph in panel (a) shows the proportion of male and female illiterates in \\( 2001 \\) and \\( 2011. \\) The proportions of males and females in \\( 2001 \\) and \\( 2011 \\) are given in Panel (b) and (c),&nbsp;respectively. The total population did not change during this period. The percentage increase in the total number of literates from \\( 2001 \\) to \\( 2011 \\) is ______.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"246\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/4b95a72387e4307b9d066701e778ef1d.png\" width=\"309\"></p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"195\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___bar_graph/dc0778d265abc125f762380f76de4018.png\" width=\"339\"></p>\n\n</div><br><br><b>GATE2019 EC: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30.43 \\)</p>",
+            "<p>\\( 33.43 \\)</p>",
+            "<p>\\( 34.43 \\)</p>",
+            "<p>\\( 35.43 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30.43 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313528/gate2019-ec-ga-7\" target=\"_blank\">https://gateoverflow.in/313528/gate2019-ec-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+{
+  "title": "C_Programming - C_Programming - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What does the following fragment of C-program print? <br>\nchar c []=\"GATE2011\"; <br>\nchar *p =c; <br>\nprintf (\"%s\", p + p[3]- p[ 1 ]); <br> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>GATE2011</p>",
+            "<b>B.</b> <p>E2011</p>",
+            "<b>C.</b> <p>2011</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2011</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2124/gate2011-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the value printed by the following C program?<pre><code> #include &lt; stdio.h &gt;\nint f(int * a, int n)\n{\n    if(n&lt;=0)return 0;\n    else if(*a% 2 ==0) return *a+f(a+1,n-1);\n    else return *a-f(a+1,n-1);\n}\nint main ( )\n{\n    int a[ ] {12, 7, 13, 4, 11, 6};\n    printf (\"%d\", f(a,6));\n    return 0;\n} </code></pre> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-9</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2336/gate2010-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What does the following program print?<pre><code> #include &lt; stdio.h &gt;\nvoid f (int *p, int * q) {\n       p=q;\n       *p=2;\n}\nint i= 0, j= 1;\nint main ( ){\n     f(&amp;i, &amp; j);\n     printf( \"%d%d \\ n\", i,j);\n     return 0;\n} </code></pre> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 2</p>",
+            "<b>B.</b> <p>2 1</p>",
+            "<b>C.</b> <p>0 1</p>",
+            "<b>D.</b> <p>0 2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2184/gate2010-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following code written in a pass-by-reference language like FORTRAN and these statements about the code. <br><pre><code> subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </code></pre><br>S1: The compiler will  generate code to allocate a temporary nameless cell, initialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2 <br>\nS4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement(s) is correct: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S3</p>",
+            "<b>D.</b> <p>S1 and S5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56-isro2009-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the program below:<pre><code> # include &lt; stdio.h &gt;\nint fun(int n, int * f_p) {\n   int t, f;\n   if (n &lt;=1) {\n         *f_p =1;\n          return 1;\n   }\n   t = fun (n-1, f_p);\n   f = t+*f_p;\n   *f_p = t;\n   return f;\n}\nint main() {\n    int x = 15;\n    printf (\"%d\\ n\", fun(5,&amp; x));\n    return 0;\n} </code></pre>\nThe value printed is <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>15</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1310/gate2009-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In C, what is the effect of a negative number in a field width specifier? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the values are displayed right justified</p>",
+            "<b>B.</b> <p>the values are displayed centered</p>",
+            "<b>C.</b> <p>the values are displayed left justified</p>",
+            "<b>D.</b> <p>the values are displayed as negative numbers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the values are displayed left justified</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50148/isro2008-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the value of F(4) using the following procedure:<br><pre><code>function F(K : integer)\ninteger;\nbegin\nif (k&lt;3) then F:=k else F:=F(k-1)*F(k-2)+F(k-3)\nend; </code></pre> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50136/isro2008-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following code segment:<br><pre><code> for (int k=0; k&lt;20; k=k+2)\n{\n    if (k % 3 == 1)\n        system.out.print(k+ \" \");\n}</code></pre>\nWhat is printed as a result of executing the code segment? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 16</p>",
+            "<b>B.</b> <p>4 10 16</p>",
+            "<b>C.</b> <p>0 6 12 18</p>",
+            "<b>D.</b> <p>1 4 7 10 13 16 19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4 10 16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49973/isro2008-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C function:<br><pre><code> int f(int n)\n{\n    static int i = 1;\n    if(n &gt;= 5) return n;\n    n = n+i;\n    i++;\n    return f(n);\n}</code></pre> <br>\nThe value returned by f(1) is: <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1028/gate2004-31-isro2008-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following is an illegal array definition? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Type COLONGE : (LIME, PINE, MUSK, MENTHOL); <br> var a : array [COLONGE] of REAL;</p>",
+            "<b>B.</b> <p>var a : array [REAL] of REAL;</p>",
+            "<b>C.</b> <p>var a : array ['A'..'Z'] of REAL;</p>",
+            "<b>D.</b> <p>var a : array [BOOLEAN] of REAL;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>var a : array [REAL] of REAL;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18461/isro2008-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the code fragment written in C below :<br><pre><code>void f (int n)\n{ \n    if (n &lt;= 1)  {\n        printf (\"%d\", n);\n    }\n    else {\n        f (n/2);\n        printf (\"%d\", n%2);\n    }\n}</code></pre> Which of the following implementations will produce the same output for f(173) as the above code?<br>P1<br><pre><code>void f (int n)\n{ \n    if (n/2)  {\n        f(n/2);\n    }\n    printf (\"%d\", n%2);\n}</code></pre> <br>P2<br><pre><code> void f (int n)\n{ \n    if (n &lt;=1)  {\n        printf (\"%d\", n);\n    }\n    else {\n        printf (\"%d\", n%2);\n        f (n/2);\n    }\n}</code></pre> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both P1 and P2</p>",
+            "<b>B.</b> <p>P2 only</p>",
+            "<b>C.</b> <p>P1 only</p>",
+            "<b>D.</b> <p>Neither P1 nor P2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P1 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3407/gate2008-it-83\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the code fragment written in C below :<pre><code> void f (int n)\n{ \n  if (n &lt;=1)  {\n   printf (\"%d\", n);\n  }\n  else {\n   f (n/2);\n   printf (\"%d\", n%2);\n  }\n}</code></pre> <br>What does f(173) print? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10110101</p>",
+            "<b>B.</b> <p>010101101</p>",
+            "<b>C.</b> <p>010110101</p>",
+            "<b>D.</b> <p>10101101</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10101101</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3406/gate2008-it-82\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>C program is given below:<pre><code> #include &lt; stdio.h &gt;\nint main ()\n{\n        int i, j;\n        char a [2] [3] = {{'a', 'b', 'c'}, {'d', 'e', 'f'}};\n        char b [3] [2];\n        char *p = *b;\n        for (i = 0; i &lt; 2; i++) {\n              for (j = 0; j &lt; 3; j++) {\n              *(p + 2*j + i) = a [i] [j];\n              }\n        }\n}</code></pre> <br>What should be the contents of the array b at the end of the program? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{array}{ll} \\mathrm{a} &amp; \\mathrm{b} \\\\ \\mathrm{c} &amp; \\mathrm{d} \\\\ \\mathrm{e} &amp; \\mathrm{f} \\end{array}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{array}{ll} \\mathrm{a} &amp; \\mathrm{d} \\\\ \\mathrm{b} &amp; \\mathrm{e} \\\\ \\mathrm{c} &amp; \\mathrm{f} \\end{array}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{array}{ll} \\mathrm{a} &amp; \\mathrm{c} \\\\ \\mathrm{e} &amp; \\mathrm{b} \\\\ \\mathrm{d} &amp; \\mathrm{f} \\end{array}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{array}{ll} \\mathrm{a} &amp; \\mathrm{e} \\\\ \\mathrm{d} &amp; \\mathrm{c} \\\\ \\mathrm{b} &amp; \\mathrm{f} \\end{array}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\begin{array}{ll} \\mathrm{a} &amp; \\mathrm{d} \\\\ \\mathrm{b} &amp; \\mathrm{e} \\\\ \\mathrm{c} &amp; \\mathrm{f} \\end{array}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3362/gate2008-it-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the C program given below. What does it print?<pre><code> #include &lt; stdio.h &gt;\nint main ()\n{\n        int i, j;\n        int a [8] = {1, 2, 3, 4, 5, 6, 7, 8};\n        for(i = 0; i &lt; 3; i++) {\n             a[i] = a[i] + 1;\n             i++;\n        }\n        i--;\n        for (j = 7; j &gt; 4; j--) {\n              int i = j/2;\n              a[i] = a[i] - 1;\n        }\n        printf (\"%d, %d\", i, a[i]);</code></pre> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,3</p>",
+            "<b>B.</b> <p>2,4</p>",
+            "<b>C.</b> <p>3,2</p>",
+            "<b>D.</b> <p>3,3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3,2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3361/gate2008-it-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the C program below. What does it print?<pre><code> #include &lt; stdio.h &gt;\n# define swapl (a, b) tmp = a; a = b; b = tmp\nvoid swap2 ( int a, int b)\n{\n        int tmp;\n        tmp = a; a = b; b = tmp;\n }\nvoid swap3 (int*a, int*b)\n{\n        int tmp;\n        tmp = *a; *a = *b; *b = tmp;\n}\nint main ()\n{\n        int num1 = 5, num2 = 4, tmp;\n        if (num1 &lt; num2) {swap1 (num1, num2);}\n        if (num1 &lt; num2) {swap2 (num1 + 1, num2);}\n        if (num1 &gt; = num2) {swap3 (&amp;num1, &amp;num2);}\n        printf (\"%d, %d\", num1, num2);\n}</code></pre> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5,5</p>",
+            "<b>B.</b> <p>5,4</p>",
+            "<b>C.</b> <p>4,5</p>",
+            "<b>D.</b> <p>4,4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4,5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3360/gate2008-it-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

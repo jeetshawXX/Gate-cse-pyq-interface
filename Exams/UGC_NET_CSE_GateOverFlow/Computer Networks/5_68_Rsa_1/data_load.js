@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Rsa",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Rsa",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"11981\"></a><div itemprop=\"text\">\n<p>Using data p=3, q=11, n=pq, d=7 in RSA algorithm find the cipher text of the given plain text SUZANNE</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 2 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>BUTAEEZ</p>",
+            "<p>SUZANNE</p>",
+            "<p>XYZABCD</p>",
+            "<p>ABCDXYZ</p>"
+          ],
+          "correct_answer": "<p>BUTAEEZ</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/11981/ugc-net-cse-june-2013-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/11981/ugc-net-cse-june-2013-part-2-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+});

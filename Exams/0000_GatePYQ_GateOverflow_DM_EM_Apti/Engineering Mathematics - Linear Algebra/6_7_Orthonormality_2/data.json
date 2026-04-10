@@ -1,0 +1,47 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Orthonormality",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Orthonormality",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"461007\"></a><div itemprop=\"text\"><p>Which of the following statements is/are correct?</p></div><br><br><b>GATE DA 2025 | Question: 15</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\mathbb{R}^{n} \\) has a unique set of orthonormal basis vectors</p>",
+            "<p>\\( \\mathbb{R}^{n} \\) does not have a unique set of orthonormal basis vectors</p>",
+            "<p>Linearly independent vectors in \\( \\mathbb{R}^{n} \\) are orthonormal</p>",
+            "<p>Orthonormal vectors \\( \\mathbb{R}^{n} \\) are linearly independent</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\mathbb{R}^{n} \\) does not have a unique set of orthonormal basis vectors</p>",
+            "<p>Orthonormal vectors \\( \\mathbb{R}^{n} \\) are linearly independent</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461007/gate-da-2025-question-15\" target=\"_blank\">https://gateoverflow.in/461007/gate-da-2025-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"460982\"></a><div itemprop=\"text\"><p>​​​​Let \\( x_{1}, x_{2}, x_{3}, x_{4}, x_{5} \\) be a system of orthonormal vectors in \\( \\mathbb{R}^{10} \\). Consider the matrix \\( A=x_{1} x_{1}^{\\top}+\\ldots+x_{5} x_{5}^{\\top} \\). Which of the following statements is/are correct?</p></div><br><br><b>GATE DA 2025 | Question: 40</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Singular values of \\( A \\) are also its eigenvalues</p>",
+            "<p>Singular values of \\( A \\) are either \\( 0 \\) or \\( 1 \\)</p>",
+            "<p>Determinant of \\( A \\) is \\( 1 \\)</p>",
+            "<p>\\( A \\) is invertible</p>"
+          ],
+          "correct_answer": [
+            "<p>Singular values of \\( A \\) are also its eigenvalues</p>",
+            "<p>Singular values of \\( A \\) are either \\( 0 \\) or \\( 1 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460982/gate-da-2025-question-40\" target=\"_blank\">https://gateoverflow.in/460982/gate-da-2025-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+}

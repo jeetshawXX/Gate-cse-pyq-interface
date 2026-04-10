@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Macros",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Macros",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213520\"></a><div itemprop=\"text\"><p>In multi-programmed systems, it is advantageous&nbsp;if some programs such as editors anf compilers can be shared by several&nbsp;users.</p>\n\n<p>Which of the following must be true of&nbsp;multi-programmed systems in order that a single copy of a program can be shared by several users?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>The program is a macro</li>\n\t<li>The program is recursive&nbsp;</li>\n\t<li>The program is reentrant</li>\n</ol>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>III only</p>",
+            "<p>I, II and III</p>"
+          ],
+          "correct_answer": "<p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213520/isro-cse-2018-question-67\" target=\"_blank\">https://gateoverflow.in/213520/isro-cse-2018-question-67</a></p>"
+        }
+      ]
+    }
+  ]
+});

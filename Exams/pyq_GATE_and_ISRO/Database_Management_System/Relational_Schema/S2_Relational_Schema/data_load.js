@@ -1,0 +1,166 @@
+window.__examLoadCallback({
+  "title": "Relational_Schema - Relational_Schema - Slot 2",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Relational_Schema",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let x, y, z, a, b, c be the attributes of an entity set E. If {x}, {x,y}, {a,b}, {a,b,c}, {x,y,z} are superkeys then which of the following are the candidate keys? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{x,y}  and {a,b}</p>",
+            "<b>B.</b> <p>{x} and {a,b}</p>",
+            "<b>C.</b> <p>{x,y,z} and {a,b,c}</p>",
+            "<b>D.</b> <p>{z} and {c}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{x} and {a,b}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17425/isro2014-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Given an instance of the STUDENTS relation as shown below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Schema\\q22_4febd6f8.jpg\"><br> For (StudentName, StudentAge) to be a key for this instance, the value x should NOT be\nequal to_______. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1980/gate2014-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The maximum number of super keys for the relation schema R (E, F, G, H) with E as the key\nis __________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1978/gate2014-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the relation scheme R = (E, F, G, H, I, J, K, L, M, N) and the set of functional\ndependencies <br> {{E,F}\\(\\rightarrow\\){G}, {F}\\(\\rightarrow\\){I,J}, {E,H}\\(\\rightarrow\\){K,L},  {K}\\(\\rightarrow\\){M},\n{L}\\(\\rightarrow\\){N} }  on R. What is the key for R? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{E, F}</p>",
+            "<b>B.</b> <p>{E, F, H}</p>",
+            "<b>C.</b> <p>{E, F, H, K, L}</p>",
+            "<b>D.</b> <p>{E}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{E, F, H}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1788/gate2014-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a relational table with a single record for each registered student with\nthe following attributes. <br><br>\n1. Registration_Number: Unique registration number for each registered student <br>\n2. UID: Unique Identity number, unique at the national level for each citizen <br>\n3. BankAccount_Number: Unique account number at the bank. A student can\nhave multiple accounts or joint accounts. This attributes stores the primary\naccount number <br>\n4. Name: Name of the Student <br>\n5. Hostel_Room: Room number of the hostel <br><br>\nWhich of the following options is INCORRECT? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BankAccount_Number is a candidate key</p>",
+            "<b>B.</b> <p>Registration_Number can be a primary key</p>",
+            "<b>C.</b> <p>UID is a candidate key if all students are from the same country</p>",
+            "<b>D.</b> <p>If \\(S\\) is a superkey such that \\(\\text{S}\\cap \\text{UID}\\) is NULL then \\(\\text{S}\\cup \\text{UID}\\) is also a superkey</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BankAccount_Number is a candidate key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2114/gate2011-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Purpose of 'Foreign Key' in a table is to ensure <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Null Integrity</p>",
+            "<b>B.</b> <p>Referential Integrity</p>",
+            "<b>C.</b> <p>Domain Integrity</p>",
+            "<b>D.</b> <p>Null and Domain Integrity</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Referential Integrity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47321/isro2009-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The following functional dependencies are given:<br><br>\n\\(AB\\rightarrow CD,AF\\rightarrow D,DE\\rightarrow F,C\\rightarrow G,F\\rightarrow E,G\\rightarrow A\\)\n<br><br>\nWhich one of the following options is false? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\{ CF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\{ BG \\right \\}^{*}=\\left \\{ ABCDG \\right \\}\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\{ AB \\right \\}^{*}=\\left \\{ ABCDG \\right \\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1848/gate2006-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a relation scheme R=(A,B,C,D,E,H) on which the following functional dependencies hold: {A\\(\\rightarrow\\)B, BC\\(\\rightarrow\\)D, E\\(\\rightarrow\\)C, D\\(\\rightarrow\\)A}. What are the candidate keys of R? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AE, BE</p>",
+            "<b>B.</b> <p>AE, BE, DE</p>",
+            "<b>C.</b> <p>AEH, BEH, BCH</p>",
+            "<b>D.</b> <p>AEH, BEH, DEH</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>AEH, BEH, DEH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1401/gate2005-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>From the following instance of relation schema R(A,B,C), we can conclude that : <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Schema\\q50_e0841df0.jpg\"> <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A functionally determines B and B functionally determines C</p>",
+            "<b>B.</b> <p>A functionally determines B and B does not functionally determines C .</p>",
+            "<b>C.</b> <p>B does not functionally determines C</p>",
+            "<b>D.</b> <p>A does not functionally B and B does not functionally determines.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>B does not functionally determines C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/855/gate2002-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let R = (A, B, C, D, E, F) be a relation scheme with the following dependencies \\(C \\rightarrow F, E \\rightarrow A, EC \\rightarrow D, A \\rightarrow B\\). Which one of the following is a key for R? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CD</p>",
+            "<b>B.</b> <p>EC</p>",
+            "<b>C.</b> <p>AE</p>",
+            "<b>D.</b> <p>AC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EC</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1477/gate1999-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a schema R(A,B,C,D) and functional dependencies A\\(\\rightarrow\\)B and C\\(\\rightarrow\\)D.\nThen the decomposition of R into R1(AB) and R2(CD) is : <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dependency preserving and lossless join</p>",
+            "<b>B.</b> <p>Lossless join but not dependency preserving</p>",
+            "<b>C.</b> <p>Dependency preserving but not lossless join</p>",
+            "<b>D.</b> <p>Not dependency preserving and not lossless join</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Dependency preserving but not lossless join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/716/gate2001-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

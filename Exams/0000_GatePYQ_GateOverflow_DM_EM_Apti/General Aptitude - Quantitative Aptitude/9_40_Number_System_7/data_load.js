@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Number System",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Number System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426521\"></a><div itemprop=\"text\"><p>​​​​The decimal number system uses the characters \\( 0,1,2, \\ldots, 8,9 \\), and the octal number system uses the characters \\( 0,1,2, \\ldots, 6,7 \\).<br><br>For example, the decimal number \\( 12\\left(=1 \\times 10^{1}+2 \\times 10^{0}\\right) \\) is expressed as \\( 14\\left(=1 \\times 8^{1}+4 \\times 8^{0}\\right) \\) in the octal number system.<br><br>The decimal number \\( 108 \\) in the octal number system is</p></div><br><br><b>GATE 2024 Electrical | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 168 \\)</p>",
+            "<p>\\( 108 \\)</p>",
+            "<p>\\( 150 \\)</p>",
+            "<p>\\( 154 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 154 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426521/gate-2024-electrical-ga-question-3\" target=\"_blank\">https://gateoverflow.in/426521/gate-2024-electrical-ga-question-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2034\"></a><div itemprop=\"text\"><p>Consider the equation: \\( (7526)_8 − (Y)_8 = (4364)_8 \\), where \\( (X)_N \\) stands for \\( X \\) to the base \\( N \\). Find \\( Y \\).</p></div><br><br><b>GATE CSE 2014 Set 3 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1634 \\)</p>",
+            "<p>\\( 1737 \\)</p>",
+            "<p>\\( 3142 \\)</p>",
+            "<p>\\( 3162 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3142 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2034/gate-cse-2014-set-3-question-ga-10\" target=\"_blank\">https://gateoverflow.in/2034/gate-cse-2014-set-3-question-ga-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"118422\"></a><div itemprop=\"text\"><p>\\( X \\) is a \\( 30 \\) digit number starting with the digit \\( 4 \\) followed by the digit \\( 7 \\). Then the number \\( X^3 \\) will have</p></div><br><br><b>GATE CSE 2017 Set 2 | Question: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 90 \\) digits</p>",
+            "<p>\\( 91 \\) digits</p>",
+            "<p>\\( 92 \\) digits</p>",
+            "<p>\\( 93 \\) digits</p>"
+          ],
+          "correct_answer": "<p>\\( 90 \\) digits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118422/gate-cse-2017-set-2-question-ga-8\" target=\"_blank\">https://gateoverflow.in/118422/gate-cse-2017-set-2-question-ga-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"359858\"></a><div itemprop=\"text\"><p>The sum of two positive numbers is \\( 100 \\). After subtracting \\( 5 \\) from each number, the product of the resulting numbers is \\( 0 \\). One of the original numbers is&nbsp;&nbsp;______.</p>\n\n</div><br><br><b>GATE Civil 2020 Set 1 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 85 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 95 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 95 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359858/gate-civil-2020-set-1-ga-question-5\" target=\"_blank\">https://gateoverflow.in/359858/gate-civil-2020-set-1-ga-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"312018\"></a><div itemprop=\"text\"><p>A positive integer \\( m \\) in base \\( 10 \\) when represented in base \\( 2 \\) has the representation \\( p \\) and in base \\( 3 \\) has the representation \\( q. \\) We get \\( p-q=990 \\) where the subtraction is done in base \\( 10. \\) Which of the following is necessarily true\\( ? \\)</p></div><br><br><b>GATE2010 MN: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m\\geq 14 \\)</p>",
+            "<p>\\( 9\\leq m\\leq 13 \\)</p>",
+            "<p>\\( 6\\leq m\\leq 8 \\)</p>",
+            "<p>\\( m&lt;6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9\\leq m\\leq 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312018/gate2010-mn-ga-9\" target=\"_blank\">https://gateoverflow.in/312018/gate2010-mn-ga-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"110889\"></a><div itemprop=\"text\"><p>The sum of the digits of a two digit number is \\( 12 \\). If the new number formed by reversing the digits is greater than the original number by \\( 54 \\), find the original number.</p></div><br><br><b>GATE2016 CE-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 39 \\)</p>",
+            "<p>\\( 57 \\)</p>",
+            "<p>\\( 66 \\)</p>",
+            "<p>\\( 93 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 39 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110889/gate2016-ce-2-ga-5\" target=\"_blank\">https://gateoverflow.in/110889/gate2016-ce-2-ga-5</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"313646\"></a><div itemprop=\"text\"><p>A number consists of two digits. The sum of the digits is \\( 9 \\). If \\( 45 \\) is subtracted from the number, its digits are interchanged. What is the number?</p></div><br><br><b>GATE2018 ME-1: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>63</p>",
+            "<p>72</p>",
+            "<p>81</p>",
+            "<p>90</p>"
+          ],
+          "correct_answer": "<p>72</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313646/gate2018-me-1-ga-5\" target=\"_blank\">https://gateoverflow.in/313646/gate2018-me-1-ga-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

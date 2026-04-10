@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Network Layer",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Network Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62313\"></a><div itemprop=\"text\"><p>Which of the following is not a congestion policy at network layer?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 2 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Flow Control Policy</p>",
+            "<p>Packet Discard&nbsp;Policy</p>",
+            "<p>Packet Lifetime Management&nbsp;Policy</p>",
+            "<p>Routing Algorithm</p>"
+          ],
+          "correct_answer": "<p>Flow Control Policy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62313/ugc-net-cse-december-2015-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/62313/ugc-net-cse-december-2015-part-2-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+}

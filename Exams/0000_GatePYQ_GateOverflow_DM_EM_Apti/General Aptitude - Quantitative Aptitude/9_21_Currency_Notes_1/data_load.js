@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Currency Notes",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Currency Notes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"40241\"></a><div itemprop=\"text\"><p>Raju has \\( 14 \\) currency notes in his pocket consisting of only Rs. \\( 20 \\) notes and Rs. \\( 10 \\) notes. The total money value of the notes is Rs. \\( 230 \\). The number of Rs. \\( 10 \\) notes that Raju has is</p></div><br><br><b>GATE2012 CY: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( 5 \\)</p>",
+            "<p>&nbsp;\\( 6 \\)</p>",
+            "<p>&nbsp;\\( 9 \\)</p>",
+            "<p>&nbsp;\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40241/gate2012-cy-ga-10\" target=\"_blank\">https://gateoverflow.in/40241/gate2012-cy-ga-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

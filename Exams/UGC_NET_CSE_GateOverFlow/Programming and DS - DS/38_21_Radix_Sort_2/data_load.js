@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - DS - Radix Sort",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Radix Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70951\"></a><div itemprop=\"text\"><p>If there are \\( n \\) integers to sort, each integer has d digits, and each digit is in the set \\( \\left\\{1, 2, …, k\\right\\} \\), radix sort can sort the numbers in :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | August 2016 | Part 3 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (k (n + d)) \\)</p>",
+            "<p>\\( O (d (n + k)) \\)&nbsp;</p>",
+            "<p>\\( O ((n + k) l g d) \\)&nbsp;</p>",
+            "<p>\\( O ((n + d) l g k) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O (d (n + k)) \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70951/ugc-net-cse-august-2016-part-3-question-35\" target=\"_blank\">https://gateoverflow.in/70951/ugc-net-cse-august-2016-part-3-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"225858\"></a><div itemprop=\"text\"><p>The maximum number of comparisons needed to sort 9 items using radix sort is (assume each item is 5 digit octal number):</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | July 2018 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>45</p>",
+            "<p>72</p>",
+            "<p>360</p>",
+            "<p>450</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225858/ugc-net-cse-july-2018-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/225858/ugc-net-cse-july-2018-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

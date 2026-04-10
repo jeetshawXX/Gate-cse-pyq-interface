@@ -1,0 +1,66 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Polynomials",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Polynomials",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2245\"></a><div itemprop=\"text\"><p>A polynomial \\( p(x) \\) is such that \\( p(0) = 5, p(1) = 4, p(2) = 9 \\) and \\( p(3) = 20 \\). The minimum degree it should have is</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 4.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2245/gate-cse-1997-question-4-4\" target=\"_blank\">https://gateoverflow.in/2245/gate-cse-1997-question-4-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"651\"></a><div itemprop=\"text\"><p>A polynomial \\( p(x) \\) satisfies the following:</p>\n\n<ul>\n\t<li>\\( p(1) = p(3) = p(5) = 1 \\)&nbsp;</li>\n\t<li>\\( p(2) = p(4) = -1 \\)</li>\n</ul>\n\n<p>The minimum degree of such a polynomial is</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/651/gate-cse-2000-question-2-4\" target=\"_blank\">https://gateoverflow.in/651/gate-cse-2000-question-2-4</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1957\"></a><div itemprop=\"text\"><p>A non-zero polynomial \\( f(x) \\) of degree 3 has roots at \\( x=1 \\), \\( x=2 \\) and \\( x=3 \\). Which one of the following must be TRUE?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f(0)f(4)&lt; 0 \\)</p>",
+            "<p>\\( f(0)f(4)&gt; 0 \\)</p>",
+            "<p>\\( f(0)+f(4)&gt; 0 \\)</p>",
+            "<p>\\( f(0)+f(4)&lt; 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f(0)f(4)&lt; 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1957/gate-cse-2014-set-2-question-5\" target=\"_blank\">https://gateoverflow.in/1957/gate-cse-2014-set-2-question-5</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"118185\"></a><div itemprop=\"text\">Consider the quadratic equation \\( x^2-13x+36=0 \\) with coefficients in a base \\( b \\). The solutions of this equation in the same base \\( b \\) are \\( x=5 \\) and \\( x=6 \\). Then \\( b= \\) _____</div><br><br><b>GATE CSE 2017 Set 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118185/gate-cse-2017-set-2-question-24\" target=\"_blank\">https://gateoverflow.in/118185/gate-cse-2017-set-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

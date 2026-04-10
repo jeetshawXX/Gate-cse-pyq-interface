@@ -1,0 +1,216 @@
+{
+  "title": "Array_and_Pointer - Array_and_Pointer - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Array_and_Pointer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\n int main(){\n  int arr[] = {1,2,3,4,5,6,7,8,9,0,1,2,5}, *ip = arr + 4;\n  printf(\"%dn\", ip[1]);\n  return 0;\n}</code></pre>\nThe number that will be displayed on execution of the program is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302824/gate2019-cs-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following declaration :<br><pre><code> structaddr {\n    char city[10];\n    char street[30];\n    int pin;\n};\nstruct {\n    char name[30];\n    int gender;\n    struct addr locate;\n} person, *kd = &amp;person;</code></pre>Then \\(^{\\star}(k d-&gt;\\text { name }+2)\\) can be used instead of: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>person.name+2</p>",
+            "<b>B.</b> <p>\\(k d-&gt;(\\text { name }+2)\\)</p>",
+            "<b>C.</b> <p>\\(*((* k d) . \\text { name }+2)\\)</p>",
+            "<b>D.</b> <p>either (A) or(B), not (C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(*((* k d) . \\text { name }+2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213586/isro2018-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following program<pre><code>{\n    int x=1;\n    printf(\"%d\",(*char(char*)&amp;x));\n} </code></pre>Assuming required header files are included and if the machine in which this program is executed is little endian, then the output will be <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>99999999</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>unpredictable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>unpredictable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213587/isro2018-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following C program.<pre><code>#include &lt; stdio.h &gt;\nstruct Ournode{\nchar x,y,z;\n};\nint main(){\nstruct Ournode p = {'1', '0','a'+2};  \nstruct Ournode *q = &amp;p;\nprintf(\"%c,%c\",*((char*)q+1),*((char*)q+2));\nreturn 0;\n}  </code></pre> The output of this program is: <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, c</p>",
+            "<b>B.</b> <p>0, a+2</p>",
+            "<b>C.</b> <p>'0', 'a+2'</p>",
+            "<b>D.</b> <p>'0', 'c'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0, c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204076/gate2018-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>We use malloc and calloc for: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic memory allocation</p>",
+            "<b>B.</b> <p>Static memory allocation</p>",
+            "<b>C.</b> <p>Both dynamic memory allocation and static memory allocation</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128772/isro2017-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following C Program.<pre><code> #include &lt; stdio.h &gt;\n#include &lt; string.h &gt;\n#int main ( ) {\nchar* c = \"GATECSIT2017\";\nchar* p = c;\nprintf(\"%d\", (int) strlen (c+2[p]-6[p]-1));\nreturn 0;\n}\n</code></pre>The output of the program is _______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118335/gate2017-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following snippet of a C program. Assume that swap (&amp;x, &amp;y) exchanges the\ncontents of x and y.<pre><code>\nint main ( ) {\nint array[]={3,5,1,4,6,2};\nint done =0 ;\nint i ;\nwhile (done = = 0) {\n   done = 1;\n   for (i = 0; i &lt;=4; i ++) {\n   if (array [i] &lt; array [i +1]) {\n       swap (&amp; array [i], &amp;array [i+1]);\n       done = 0;\n    }\n}\nfor (i = 5 ; i &gt; =1; i --) {\nif (array [i] &gt; array [ i-1]) {\n    swap ( &amp; array [i] , &amp;array [i-1]);\n     done = 0;\n  }\n} }\nprintf ( \" %d \" , array [3] );\n}</code></pre>\nThe output of the program is ____________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118388/gate2017-2-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following function implemented in C:<pre><code>void printxy (int x, int y) {\nint *ptr ;\nx = 0;\nptr = &amp;x;\ny = * ptr;\n* ptr = l;\nprint f (\"%d, %d,\" x, y);\n}</code></pre>\nThe output of invoking printxy (1,1) is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0,0</p>",
+            "<b>B.</b> <p>0,1</p>",
+            "<b>C.</b> <p>1,0</p>",
+            "<b>D.</b> <p>1,1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118245/gate2017-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\n#include &lt; string.h &gt;\nvoid printlength (char *s, char *t) {\n unsigned int c = 0;\n int len = ((strlen(s) - strlen (t)) &gt; c) ? strlen(s): strlen(t);\n printf (\"%d\\n\", len);\n}\nvoid main ( ) {\n char *x = \"abc\";\n char *y =\"defgh\"; \n printlength (x,y); </code></pre>\nRecall that strlen is defined in string.h as returning a value of type size_t, which is an\nunsigned int. The output of the program is _____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118473/gate2017-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C code:<pre><code># include lt stdio.h &gt;\nint * assignval (int *x, int val) {\n      *x = val;\n      return x;\n}\nvoid main ( ) {\n    int * x= malloc (sizeof (int));\n    if (NULL = = x) return;\n    x = assignval (x,0);\n    if(x) { \n    x=(int *) malloc (sizeof (int));\n    if (NULL = = x) return;\n    x = assignval (x, 10);\n}\nprintf(\"%d\\n\", *x);\nfree (x);\n}</code></pre>\nThe code suffers from which one of the following problems: <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>compiler error as the return of malloc is not typecast appropriately.</p>",
+            "<b>B.</b> <p>compiler error because the comparison should be made as x==NULL and not as shown.</p>",
+            "<b>C.</b> <p>compiles successfully but execution may result in dangling pointer.</p>",
+            "<b>D.</b> <p>compiles successfully but execution may result in memory leak.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>compiles successfully but execution may result in memory leak.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118293/gate2017-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What will be output of the following program? Assume that you are running this program in little-endian processor.<br><pre><code> #include &lt; stdio.h &gt;\nint main()\n{\n    short a=320;\n    char *ptr;\n    ptr=(char *)&amp;a;\n    printf(\"%d\",*ptr);\n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>320</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55481/isro2016-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What is the output of this C  code?<br><pre><code> #include &lt; stdio.h &gt;\nvoid main()\n{\n    int k=5;\n    int *p=&amp;k;\n    int **m=&amp;p;\n    printf(\"%d %d %d\",k,*p,**m);\n    \n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 5 5</p>",
+            "<b>B.</b> <p>5 5 junk</p>",
+            "<b>C.</b> <p>5 junk junk</p>",
+            "<b>D.</b> <p>compile time error</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5 5 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55468/isro2016-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following C declaration:<br><pre><code> struct ( \n    short x[5];  \n    union { \n        float y; \n        long z; \n    } u;\n )t;</code></pre>Assume that the objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment consideration, is: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22  bytes</p>",
+            "<b>B.</b> <p>14 bytes</p>",
+            "<b>C.</b> <p>18 bytes</p>",
+            "<b>D.</b> <p>10 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>18 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/640/gate2000-1-17-isro2015-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The output of the following program is<br><pre><code> main()\n{\n    static int x[] = {1,2,3,4,5,6,7,8}\n    int i;\n    for (i=2; i&lt;6; ++i)\n    x[x[i]]=x[i];\n    for (i=0; i&lt;8; ++i)\n    printf(\"%d\", x[i]);\n}</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 2 3 3 5 5 7 8</p>",
+            "<b>B.</b> <p>1 2 3 4 5 6 7 8</p>",
+            "<b>C.</b> <p>8 7 6 5 4 3 2 1</p>",
+            "<b>D.</b> <p>1 2 3 5 4 6 7 8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1 2 3 3 5 5 7 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52137/isro2015-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following declaration:<pre><code> int a, *b=&amp;a, **c=&amp;b;</code></pre>The following program fragment<pre><code> a=4;    **c=5;</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not change the value of a</p>",
+            "<b>B.</b> <p>assigns address of c to a</p>",
+            "<b>C.</b> <p>assigns the value of b to a</p>",
+            "<b>D.</b> <p>assigns 5 to a</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>assigns 5 to a</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19444/isro2015-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

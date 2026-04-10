@@ -1,0 +1,171 @@
+window.__examLoadCallback({
+  "title": "Probability_Theory - Probability_Theory - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Probability_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter 2. For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to 2 decimal places) is _________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.35",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>For n\\(\\gt\\)2, let \\(a \\in \\{0,1\\}^n\\) be a non-zero vector. Suppose that x is chosen uniformly at random from \\(\\{0,1\\}^n\\). Then, the probability that \\(\\sum_{i=1}^{n}a_ix_i\\) is an odd number is______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333186/gate2020-cs-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Suppose Y is distributed uniformly in the open interval (1,6). The probability that the polynomial \\(3x^2+6xY+3Y+6\\) has only real roots is (rounded off to 1 decimal place) _________. <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302801/gate2019-cs-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Two numbers are chosen independently and uniformly at random from the set {1, 2, ..., 13}. The probability (rounded off to 3 decimal places) that their 4-bit (unsigned) binary representations have the same most significant bit is ___________ <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.502",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302826/gate2019-cs-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (G), medium (M) and low (L). Let P(\\(H_{G}\\)) denote the probability that Guwahati has high temperature. Similarly, P(\\(M_{G}\\)) and P(\\(L_{G}\\)\n) denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use P(\\(H_{D}\\)),P(\\(M_{D}\\)) and P(\\(L_{D}\\)) for Delhi. <br>\nThe following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Probability_Theory\\q44_ddb859d5.jpg\"> <br>   Consider the first row in the table above. The first entry denotes that if Guwahati has high\ntemperature (\\(H_{G}\\)) then the probability of Delhi also having a high temperature (\\(H_{D}\\)) is 0.40;\ni.e., (\\(H_{D}\\)|\\(H_{G}\\)) = 0.40. Similarly, the next two entries are P(\\(M_{D}\\)| \\(H_{G}\\))= 0.48 and\nP(\\(L_{D}\\)|\\(H_{G}\\)) = 0.12. Similarly for the other rows.\nIf it is known that P(\\(H_{G}\\))= 0.2, P(\\(M_{G}\\))= 0.5, andP(\\(L_{G}\\))= 0.3, then the probability\n(correct to two decimal places) that Guwahati has high temperature given that Delhi has high\ntemperature is _______ <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204119/gate2018-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to 3 decimal places) that one of them wins on the third trial is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.021",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204089/gate2018-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>For any discrete random variable X, with probability mass function <br>\\(P(X=j)=p_{j}, p_{j}\\geq 0, j \\in \\{0,....N\\}\\) and \\( \\sum_{j=0}^{N}p_{j}=1\\), define the polynomial function \\(g_{x}(z)=\\sum_{j=0}^{N}p_{j}z^{j}\\). For a certain discrete random variable Y, there exists a scalar \\(\\beta \\in \\)[0,1] such that \\(g_{Y}(z)=(1-\\beta +\\beta  z)^{N}\\). The expectation of Y is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(N\\beta (1-\\beta )\\)</p>",
+            "<b>B.</b> <p>\\(N\\beta\\)</p>",
+            "<b>C.</b> <p>\\(N(1-\\beta )\\)</p>",
+            "<b>D.</b> <p>Not expressible in terms of N and \\(\\beta\\) alone</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(N\\beta\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118373/gate2017-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>P and Q are considering to apply for a job. The probability that P applies for the job is 1/4.\nThe probability that P applies for the job given that Q applies for the job is 1/2\n, and the probability that Q applies for the job given that P applies for the job 1/3.\nThen the probability that P does not apply for the job given that Q does not apply for the job is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{4}{5}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{5}{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{7}{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{11}{12}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{4}{5}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118368/gate2017-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let X be a Gaussian random variable mean 0 and variance \\(\\sigma ^{2}\\)\n. Let Y=max(X, 0) where max\n(a,b) is the maximum of a and b. The median of Y is ____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118299/gate2017-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose that a shop has an equal number of LED bulbs of two different types. The probability of an LED bulb lasting more than 100 hours given that it is of Type 1 is 0.7, and given that it is of Type 2 is 0.4. The probability that an LED bulb chosen uniformly at random lasts more than 100 hours is _________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.55",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39541/gate2016-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following experiment. <br>\nStep 1. Flip a fair coin twice. <br>\nStep 2. If the outcomes are(TAILS, HEADS) then output Y and stop. <br>\nStep 3. If the outcomes are either(HEADS, HEADS) or(HEADS, TAILS), then output N and stop. <br>\nStep 4. If the out comes are(TAILS, TAILS), then go to Step1. <br>\nThe probability that the output of the experiment is Y is (up to two decimal places)_____. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.33",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39709/gate2016-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A probability density function on the interval [a,1] is given by 1/\\(x^{2}\\)\nand outside this interval the value of the function is zero.The value of a is __________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39661/gate2016-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Suppose \\(X_{i}\\) for i =1,2,3 are independent and identically distributed random variables whose probability mass functions are \\(Pr[X_{i}=0]=Pr[X_{i}=1]=1/2\\) for i=1,2,3. Define another random variable \\(Y=X_{1}X_{2}\\oplus X_{3}, \\; where \\; \\oplus\\) denotes XOR. Then<br>\n\\(Pr[Y=0|X_{3}=0]=\\)_______________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.75",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8496/gate2015-3-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let S be a sample space and two mutually exclusive events A and B be such that A\\(\\cup\\)B = S. If P(.) denotes the probability of the event, the maximum value of P(A)P(B) is ______ <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.25",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2082/gate2014-3-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT\ndivisible by 2, 3 or 5 is ______ . <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.259",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2014/gate2014-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

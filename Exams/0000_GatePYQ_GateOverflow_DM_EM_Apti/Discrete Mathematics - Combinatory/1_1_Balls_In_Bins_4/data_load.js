@@ -1,0 +1,61 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Balls In Bins",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Balls In Bins",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"866\"></a><div itemprop=\"text\"><ol style=\"list-style-type:lower-alpha\">\n\t<li>In how many ways can a given positive integer \\( n \\geq 2 \\) be expressed as the sum of \\( 2 \\) positive integers (which are not necessarily distinct). For example, for \\( n=3 \\), the number of ways is \\( 2 \\), i.e., \\( 1+2, 2+1 \\). Give only the answer without any explanation.</li>\n\t<li>In how many ways can a given positive integer \\( n \\geq 3 \\) be expressed as the sum of \\( 3 \\) positive integers (which are not necessarily distinct). For example, for \\( n=4 \\), the number of ways is \\( 3 \\), i.e., \\( 1+2+1, 2+1+1 \\) and \\( 1+1+2 \\). Give only the answer without explanation.</li>\n\t<li>In how many ways can a given positive integer \\( n \\geq k \\) be expressed as the sum of \\( k \\) positive integers (which are not necessarily distinct). Give only the answer without explanation.</li>\n</ol></div><br><br><b>GATE CSE 2002 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/866/gate-cse-2002-question-13\" target=\"_blank\">https://gateoverflow.in/866/gate-cse-2002-question-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"924\"></a><div itemprop=\"text\"><p>\\( m \\) identical balls are to be placed in \\( n \\) distinct bags. You are given that \\( m \\geq kn \\), where \\( k \\) is a natural number \\( \\geq 1 \\). In how many ways can the balls be placed in the bags if each bag must contain at least \\( k \\) balls?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left( \\begin{array}{c} m - k \\\\ n - 1 \\end{array} \\right) \\)</p>",
+            "<p>\\( \\left( \\begin{array}{c} m - kn + n - 1 \\\\ n - 1 \\end{array} \\right) \\)</p>",
+            "<p>\\( \\left( \\begin{array}{c} m - 1 \\\\ n - k \\end{array} \\right) \\)</p>",
+            "<p>\\( \\left( \\begin{array}{c} m - kn + n + k - 2 \\\\ n - k \\end{array} \\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left( \\begin{array}{c} m - kn + n - 1 \\\\ n - 1 \\end{array} \\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/924/gate-cse-2003-question-34\" target=\"_blank\">https://gateoverflow.in/924/gate-cse-2003-question-34</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"371914\"></a><div itemprop=\"text\">The number of arrangements of six identical balls in three identical bins is _____________ .</div><br><br><b>GATE CSE 2022 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371914/gate-cse-2022-question-22\" target=\"_blank\">https://gateoverflow.in/371914/gate-cse-2022-question-22</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3678\"></a><div itemprop=\"text\"><p>In how many ways can we distribute \\( 5 \\) distinct balls, \\( B_1, B_2, \\ldots, B_5 \\) in \\( 5 \\) distinct cells, \\( C_1, C_2, \\ldots, C_5 \\) such that Ball \\( B_i \\) is not in cell \\( C_i \\), \\( \\forall i= 1,2,\\ldots 5 \\)&nbsp; and each cell contains exactly one ball?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 44 \\)</p>",
+            "<p>\\( 96 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 3125 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 44 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3678/gate-it-2004-question-35\" target=\"_blank\">https://gateoverflow.in/3678/gate-it-2004-question-35</a></p>"
+        }
+      ]
+    }
+  ]
+});

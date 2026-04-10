@@ -1,0 +1,221 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Logarithms",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Logarithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2166\"></a><div itemprop=\"text\"><p>If \\( \\log (\\text{P}) = (1/2)\\log (\\text{Q}) = (1/3)\\log (\\text{R}) \\), then which of the following options is&nbsp;<strong>TRUE</strong>?</p></div><br><br><b>GATE CSE 2011 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P}^2 = \\text{Q}^3\\text{R}^2 \\)</p>",
+            "<p>\\( \\text{Q}^2=\\text{P}\\text{R} \\)</p>",
+            "<p>\\( \\text{Q}^2 = \\text{R}^3\\text{P} \\)</p>",
+            "<p>\\( \\text{R}=\\text{P}^2\\text{Q}^2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Q}^2=\\text{P}\\text{R} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2166/gate-cse-2011-question-57\" target=\"_blank\">https://gateoverflow.in/2166/gate-cse-2011-question-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"204068\"></a><div itemprop=\"text\"><p>&nbsp;If \\( pqr \\ne 0 \\) and \\( p^{-x}=\\dfrac{1}{q},q^{-y}=\\dfrac{1}{r},r^{-z}=\\dfrac{1}{p}, \\) what is the value of the product \\( xyz \\) ?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( \\dfrac{1}{pqr} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( pqr \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204068/gate-cse-2018-question-ga-7\" target=\"_blank\">https://gateoverflow.in/204068/gate-cse-2018-question-ga-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"422782\"></a><div itemprop=\"text\"><p>For positive non-zero real variables \\( p \\) and \\( q \\), if</p><p>\\( \\log \\left(p^2+q^2\\right)=\\log p+\\log q+2 \\log 3, \\)</p><p>then, the value of \\( \\frac{p^4+q^4}{p^2 q^2} \\) is</p></div><br><br><b>GATE CSE 2024 | Set 1 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 79 \\)</p>",
+            "<p>\\( 81 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 83 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 79 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422782/gate-cse-2024-set-1-ga-question-5\" target=\"_blank\">https://gateoverflow.in/422782/gate-cse-2024-set-1-ga-question-5</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"422903\"></a><div itemprop=\"text\"><p>For positive non-zero real variables \\( x \\) and \\( y \\), if<br>\\[<br>\\ln \\left(\\frac{x+y}{2}\\right)=\\frac{1}{2}[\\ln (x)+\\ln (y)]<br>\\]<br>then, the value of <span style=\"font-size:16px\">\\( \\frac{x}{y}+\\frac{y}{x} \\)</span> is</p><p></p></div><br><br><b>GATE CSE 2024 | Set 2 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1 / 2 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422903/gate-cse-2024-set-2-ga-question-4\" target=\"_blank\">https://gateoverflow.in/422903/gate-cse-2024-set-2-ga-question-4</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411896\"></a><div itemprop=\"text\"><p>Let \\( a=30 !, b=50!, \\) and \\( c=100!. \\) Consider the following numbers:</p>\n\n<p>\\[ \\log _a c, \\quad \\log _c a, \\quad \\log _b a, \\quad \\log _a b \\]</p>\n\n<p>Which one of the following inequalities is \\( \\text{CORRECT?} \\)</p>\n\n</div><br><br><b>GATE Civil 2023 Set 1 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\log _c a&lt;\\log _b a&lt;\\log _a b&lt;\\log _a c \\)</p>",
+            "<p>\\( \\log _c a&lt;\\log _a b&lt;\\log _b a&lt;\\log _b c \\)</p>",
+            "<p>\\( \\log _c a&lt;\\log _b a&lt;\\log _a c&lt;\\log _a b \\)</p>",
+            "<p>\\( \\log _b a&lt;\\log _c a&lt;\\log _a b&lt;\\log _a c \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\log _c a&lt;\\log _b a&lt;\\log _a b&lt;\\log _a c \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411896/gate-civil-2023-set-1-ga-question-9\" target=\"_blank\">https://gateoverflow.in/411896/gate-civil-2023-set-1-ga-question-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411910\"></a><div itemprop=\"text\"><p>If \\( x \\) satisfies the equation \\( 4^{8^{x}}=256 \\), then \\( x \\) is equal to __________.</p>\n\n</div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{2} \\)&nbsp;</p>",
+            "<p>\\( \\log _{16} 8 \\)</p>",
+            "<p>\\( \\frac{2}{3} \\)</p>",
+            "<p>\\( \\log _{4} 8 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{2}{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411910/gate-civil-2023-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/411910/gate-civil-2023-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"426536\"></a><div itemprop=\"text\"><p>​​​​For a real number \\( x&gt;1 \\),<br>\n\\[ \\frac{1}{\\log _{2} x}+\\frac{1}{\\log _{3} x}+\\frac{1}{\\log _{4} x}=1 \\] The value of \\( x \\) is</p>\n\n</div><br><br><b>GATE ECE 2024 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 36 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 24 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426536/gate-ece-2024-ga-question-4\" target=\"_blank\">https://gateoverflow.in/426536/gate-ece-2024-ga-question-4</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40227\"></a><div itemprop=\"text\"><p>A value of \\( x \\)&nbsp;that satisfies the equation \\( \\log x + \\log (x – 7) = \\log (x + 11) + \\log 2 \\)<em> </em>is</p></div><br><br><b>GATE2012 AR: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 7 \\)&nbsp;</p>",
+            "<p>\\( 11 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40227/gate2012-ar-ga-6\" target=\"_blank\">https://gateoverflow.in/40227/gate2012-ar-ga-6</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"39493\"></a><div itemprop=\"text\"><p>If \\( \\log_{x}{(\\frac{5}{7})}=\\frac{-1}{3}, \\) then the value of \\( x \\) is</p>\n\n</div><br><br><b>GATE2015 EC-1: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 343/125 \\)</p>",
+            "<p>\\( 25/343 \\)</p>",
+            "<p>\\( -25/49 \\)</p>",
+            "<p>\\( -49/25 \\)&nbsp;&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 343/125 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39493/gate2015-ec-1-ga-5\" target=\"_blank\">https://gateoverflow.in/39493/gate2015-ec-1-ga-5</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"39522\"></a><div itemprop=\"text\"><p>\\( \\log \\tan 1^o + \\log \\tan 2^o + \\dots + \\log \\tan 89^o \\) is \\( \\ldots \\)</p></div><br><br><b>GATE2015 EC-3: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1/\\sqrt{2} \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( −1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39522/gate2015-ec-3-ga-9\" target=\"_blank\">https://gateoverflow.in/39522/gate2015-ec-3-ga-9</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"313388\"></a><div itemprop=\"text\"><p>For non-negative integers, \\( a, b, c \\), what would be the value of \\( a+b+c \\) if \\( \\log a + \\log b + \\log c = 0 \\)?</p>\n\n</div><br><br><b>GATE2018 CE-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>3</p>",
+            "<p>1</p>",
+            "<p>0</p>",
+            "<p>-1</p>"
+          ],
+          "correct_answer": "<p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313388/gate2018-ce-2-ga-5\" target=\"_blank\">https://gateoverflow.in/313388/gate2018-ce-2-ga-5</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"313383\"></a><div itemprop=\"text\"><p>Given that \\( \\frac{\\log P}{y-z} = \\frac{\\log Q}{z-x} = \\frac{\\log R}{x-y} = 10 \\) for \\( x \\neq y \\neq z \\), what is the value of the product \\( PQR \\)?</p>\n\n</div><br><br><b>GATE2018 CE-2: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0</p>",
+            "<p>1</p>",
+            "<p>\\( xyz \\)</p>",
+            "<p>\\( 10^{xyz} \\)</p>"
+          ],
+          "correct_answer": "<p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313383/gate2018-ce-2-ga-9\" target=\"_blank\">https://gateoverflow.in/313383/gate2018-ce-2-ga-9</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"313648\"></a><div itemprop=\"text\"><p>For integers, \\( a \\), \\( b, \\) and \\( c \\), what would be the minimum and maximum values respectively of \\( a+b+c \\)&nbsp; if \\( \\log \\mid a \\mid + \\log \\mid b \\mid + \\log \\mid c \\mid =0 \\)?</p>\n\n</div><br><br><b>GATE2018 ME-1: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{-3 and 3} \\)</p>",
+            "<p>\\( \\text{-1 and 1} \\)</p>",
+            "<p>\\( \\text{-1 and 3} \\)</p>",
+            "<p>\\( \\text{1 and 3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{-3 and 3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313648/gate2018-me-1-ga-6\" target=\"_blank\">https://gateoverflow.in/313648/gate2018-me-1-ga-6</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"313607\"></a><div itemprop=\"text\"><p>The value of the expression \\( \\dfrac{1}{1+ \\log_u \\: vw} + \\dfrac{1}{1+ \\log_v \\: wu} + \\dfrac{1}{1+\\log_w uv} \\) is _______</p>\n\n</div><br><br><b>GATE2018 ME-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313607/gate2018-me-2-ga-5\" target=\"_blank\">https://gateoverflow.in/313607/gate2018-me-2-ga-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

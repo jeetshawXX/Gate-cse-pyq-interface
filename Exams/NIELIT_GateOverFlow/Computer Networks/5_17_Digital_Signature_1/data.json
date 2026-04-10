@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Digital Signature",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Digital Signature",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351398\"></a><div itemprop=\"text\"><p>A digital signature is required:</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientific Assistant A 2020 November: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>for non-repudiation of communication by a sender</p>",
+            "<p>for all e-mail sending</p>",
+            "<p>for all \\( \\text{DHCP} \\) server</p>",
+            "<p>for \\( \\text{FTP} \\) transactions</p>"
+          ],
+          "correct_answer": "<p>for non-repudiation of communication by a sender</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351398/nielit-scientific-assistant-a-2020-november-62\" target=\"_blank\">https://gateoverflow.in/351398/nielit-scientific-assistant-a-2020-november-62</a></p>"
+        }
+      ]
+    }
+  ]
+}

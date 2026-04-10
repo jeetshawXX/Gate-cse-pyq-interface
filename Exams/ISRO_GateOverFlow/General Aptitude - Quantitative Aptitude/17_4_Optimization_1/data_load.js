@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Optimization",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Optimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435310\"></a><div itemprop=\"text\"><p>What is the maximum area of the rectangle with perimeter \\( 620 \\) mm ?</p></div><br><br><b>Quantitative Aptitude: ISRO CSE 2023 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24,025 \\mathrm{~mm}^{2} \\)</p>",
+            "<p>\\( 22,725 \\mathrm{~mm}^{2} \\)</p>",
+            "<p>\\( 24,000 \\mathrm{~mm}^{2} \\)</p>",
+            "<p>\\( 24,075 \\mathrm{~mm}^{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 24,025 \\mathrm{~mm}^{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435310/isro-cse-2023-question-85\" target=\"_blank\">https://gateoverflow.in/435310/isro-cse-2023-question-85</a></p>"
+        }
+      ]
+    }
+  ]
+});

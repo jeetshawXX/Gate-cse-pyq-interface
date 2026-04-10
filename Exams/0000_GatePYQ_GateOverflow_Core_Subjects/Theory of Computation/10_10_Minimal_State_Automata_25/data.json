@@ -1,0 +1,334 @@
+{
+  "title": "Theory of Computation - Minimal State Automata",
+  "duration": 69,
+  "sections": [
+    {
+      "name": "Minimal State Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80594\"></a><div itemprop=\"text\">State whether the following statements are TRUE or FALSE:<br>\n<br>\nA minimal DFA that is equivalent to an NDFA with \\( n \\) nodes has always \\( 2^{n} \\) states.</div><br><br><b>GATE CSE 1987 | Question: 2j</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80594/gate-cse-1987-question-2j\" target=\"_blank\">https://gateoverflow.in/80594/gate-cse-1987-question-2j</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2280\"></a><div itemprop=\"text\">Construct a finite state machine with minimum number of states, accepting all strings over \\( (a,b) \\) such that the number of \\( a \\)'s is divisible by two and the number of \\( b \\)'s is divisible by three.</div><br><br><b>GATE CSE 1997 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2280/gate-cse-1997-question-20\" target=\"_blank\">https://gateoverflow.in/2280/gate-cse-1997-question-20</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"19700\"></a><div itemprop=\"text\"><p>Following is a state table for time finite state machine.</p><p>\\[ \\begin{array}{|c|ll|}\\hline \\textbf{Present State}&nbsp; &amp;&nbsp; \\textbf{\\( \\qquad\\qquad\\quad \\)Next State Output}&nbsp; \\\\ &amp; \\textbf{Input- 0} &amp;&nbsp; \\textbf{Input-1} \\\\\\hline&nbsp; \\text{A} &amp; \\text{B.1} &amp; \\text{H.1} \\\\&nbsp; \\text{B} &amp; \\text{F.1} &amp; \\text{D.1} \\\\ \\text{C} &amp; \\text{D.0} &amp; \\text{E.1} \\\\ \\text{D} &amp; \\text{C.0} &amp; \\text{F.1} \\\\ \\text{E} &amp; \\text{D.1} &amp; \\text{C.1} \\\\ \\text{F} &amp; \\text{C.1} &amp; \\text{C.1} \\\\ \\text{G} &amp; \\text{C.1} &amp; \\text{D.1} \\\\ \\text{H} &amp; \\text{C.0} &amp; \\text{A.1} \\\\\\hline \\end{array} \\]</p></div><br><br><b>GATE CSE 1997 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Find the equivalence partition on the states of the machine.</p>",
+            "<p>Give the state table for the minimal machine. (Use appropriate names for the equivalent states. For example if states \\( X \\) and \\( Y \\) are equivalent then use \\( XY \\) as the name for the equivalent state in the minimal machine).</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19700/gate-cse-1997-question-70\" target=\"_blank\">https://gateoverflow.in/19700/gate-cse-1997-question-70</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1677\"></a><div itemprop=\"text\"><p>Let \\( L \\) be the set of all binary strings whose last two symbols are the same. The number of states in the minimal state deterministic finite state automaton accepting \\( L \\) is&nbsp;</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 2.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1677/gate-cse-1998-question-2-5\" target=\"_blank\">https://gateoverflow.in/1677/gate-cse-1998-question-2-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1695\"></a><div itemprop=\"text\">Design a deterministic finite state automaton (using minimum number of states) that recognizes the following language:<br>\n<br>\n\\( L=\\{w \\in &nbsp;\\{0, 1\\}^* \\mid w \\) &nbsp;interpreted as binary number (ignoring the leading zeros) is divisible by five \\( \\}. \\)</div><br><br><b>GATE CSE 1998 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1695/gate-cse-1998-question-4\" target=\"_blank\">https://gateoverflow.in/1695/gate-cse-1998-question-4</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1458\"></a><div itemprop=\"text\"><p>Consider the regular expression \\( (0 + 1) (0+1) \\dots N \\) times. The minimum state finite automaton that recognizes the language represented by this regular expression contains</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\) states</p>",
+            "<p>\\( n+1 \\) states</p>",
+            "<p>\\( n+2 \\) states</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( n+1 \\) states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1458/gate-cse-1999-question-1-4\" target=\"_blank\">https://gateoverflow.in/1458/gate-cse-1999-question-1-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"699\"></a><div itemprop=\"text\"><p>Given an arbitrary non-deterministic finite automaton (NFA) with \\( N \\) states, the maximum number of states in an equivalent minimized DFA at least</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 1.6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( N^2 \\)</p>",
+            "<p>\\( 2^N \\)</p>",
+            "<p>\\( 2N \\)</p>",
+            "<p>\\( N! \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^N \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/699/gate-cse-2001-question-1-6\" target=\"_blank\">https://gateoverflow.in/699/gate-cse-2001-question-1-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"723\"></a><div itemprop=\"text\"><p>Consider a DFA over \\( \\Sigma=\\{a,b\\} \\) accepting all strings which have number of a's divisible by \\( 6 \\) and number of \\( b \\)'s divisible by \\( 8 \\). What is the minimum number of states that the DFA will have?</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 2.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 48 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 48 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/723/gate-cse-2001-question-2-5\" target=\"_blank\">https://gateoverflow.in/723/gate-cse-2001-question-2-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"843\"></a><div itemprop=\"text\"><p>The smallest finite automaton which accepts the language&nbsp;\\( \\{x \\mid \\) length of \\( x \\) is divisible by \\( 3\\} \\) has</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) states</p>",
+            "<p>\\( 3 \\) states</p>",
+            "<p>\\( 4 \\) states</p>",
+            "<p>\\( 5 \\) states</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\) states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/843/gate-cse-2002-question-2-13\" target=\"_blank\">https://gateoverflow.in/843/gate-cse-2002-question-2-13</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1291\"></a><div itemprop=\"text\"><p>Consider the regular language \\( L=(111+11111)^{*}. \\)&nbsp;The minimum number of &nbsp;states in any DFA accepting this languages is:</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1291/gate-cse-2006-question-34\" target=\"_blank\">https://gateoverflow.in/1291/gate-cse-2006-question-34</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1227\"></a><div itemprop=\"text\"><p>A minimum state deterministic finite automaton accepting the language</p>\n\n<p>\\( L=\\{w\\mid&nbsp;w \\in \\{0, 1\\}^*, \\) number of \\( 0 \\)s&nbsp;and \\( 1 \\)s in&nbsp;\\( w \\)&nbsp;are divisible by \\( 3 \\) and \\( 5 \\),&nbsp;respectively \\( \\} \\) &nbsp; has</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\) states</p>",
+            "<p>\\( 11 \\) states</p>",
+            "<p>\\( 10 \\) states</p>",
+            "<p>\\( 9 \\) states</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\) states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1227/gate-cse-2007-question-29\" target=\"_blank\">https://gateoverflow.in/1227/gate-cse-2007-question-29</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"43514\"></a><div itemprop=\"text\"><p>Consider the following Finite State Automaton:</p>\n\n<p><img alt=\"\" height=\"259\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/557f590100a1aee4bb50bbe1befe529f.png\" width=\"466\"></p>\n\n<p>The minimum state automaton equivalent to the above FSA has the following number of states:</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43514/gate-cse-2007-question-75\" target=\"_blank\">https://gateoverflow.in/43514/gate-cse-2007-question-75</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"2342\"></a><div itemprop=\"text\"><p>Let \\( w \\) be any string of length \\( n \\) in \\( \\{0,1\\}^* \\). Let \\( L \\) be the set of all substrings of \\( w \\). What is the minimum number of states in non-deterministic finite automation that accepts \\( L \\)?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>\\( n+1 \\)</p>",
+            "<p>\\( 2^{n-1} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n+1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2342/gate-cse-2010-question-41\" target=\"_blank\">https://gateoverflow.in/2342/gate-cse-2010-question-41</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"2144\"></a><div itemprop=\"text\"><p>Definition of a language \\( L \\) with alphabet \\( \\{a\\} \\) is given as following.\\[  L = \\left\\{a^{nk} \\mid k &gt; 0, \\:\\: and \\:\\: n \\text{ is a positive integer constant} \\right\\} \\]What is the minimum number of states needed in a DFA to recognize \\( L \\)?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( k+1 \\)</p>",
+            "<p>\\( n+1 \\)</p>",
+            "<p>\\( 2^{n+1} \\)</p>",
+            "<p>\\( 2^{k+1} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n+1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2144/gate-cse-2011-question-42\" target=\"_blank\">https://gateoverflow.in/2144/gate-cse-2011-question-42</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"2147\"></a><div itemprop=\"text\"><p>A deterministic finite automaton (\\( \\text{DFA} \\)) \\( D \\) with alphabet \\( \\Sigma = \\{a, b\\} \\) is given below.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"301\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/adcea5c3cdd122618f9d5e296da03da8.png\" width=\"332\"></p>\n\n<p>Which of the following finite state machines is a valid minimal \\( \\text{DFA} \\) which accepts the same languages as \\( D \\)?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p><br>\n\t<img alt=\"\" height=\"283\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/05f63fd12da3dd25a1c68c764a7f7119.png\" width=\"350\"></p>",
+            "<p><br>\n\t<img alt=\"\" height=\"286\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/a00a875d83291d6053bf2be9401fdc3f.png\" width=\"355\"></p>",
+            "<p><br>\n\t<img alt=\"\" height=\"211\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/b8044b196f8147ed8b3ef230b9219505.png\" width=\"371\"></p>",
+            "<p><br>\n\t<img alt=\"\" height=\"302\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/c33dc8056d75329025548a6953ced141.png\" width=\"251\"></p>"
+          ],
+          "correct_answer": "<p><br>\n\t<img alt=\"\" height=\"283\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/05f63fd12da3dd25a1c68c764a7f7119.png\" width=\"350\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2147/gate-cse-2011-question-45\" target=\"_blank\">https://gateoverflow.in/2147/gate-cse-2011-question-45</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"8362\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___minimal_state_automata/047d84f2c4600e6acc33fec8c9082409.png\"></p>\n\n<p>Consider the DFAs \\( M \\)&nbsp;and \\( N \\) given above. The number of states in a minimal DFA that accept the language \\( L(M)&nbsp;\\cap L(N) \\) is_____________.</p></div><br><br><b>GATE CSE 2015 Set 1 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52\" target=\"_blank\">https://gateoverflow.in/8362/gate-cse-2015-set-1-question-52</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"8256\"></a><div itemprop=\"text\">The number of states in the minimal deterministic finite automaton corresponding to the regular expression \\( (0+1)^* (10) \\) is _____.</div><br><br><b>GATE CSE 2015 Set 2 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8256/gate-cse-2015-set-2-question-53\" target=\"_blank\">https://gateoverflow.in/8256/gate-cse-2015-set-2-question-53</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"8415\"></a><div itemprop=\"text\"><p>Let \\( L \\) be the language represented by the regular expression \\( \\Sigma^*0011\\Sigma^* \\) where \\( \\Sigma = \\{0, 1\\} \\). What is the minimum number of states in a DFA that recognizes \\( \\bar{L} \\) (complement of \\( L \\))?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8415/gate-cse-2015-set-3-question-18\" target=\"_blank\">https://gateoverflow.in/8415/gate-cse-2015-set-3-question-18</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"39562\"></a><div itemprop=\"text\">The number of states in the minimum sized DFA that accepts the language defined by the regular expression.<br>\n<br>\n\\( (0+1)^{*} (0+1) (0+1)^{*} \\)<br>\n<br>\nis ________.</div><br><br><b>GATE CSE 2016 Set 2 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39562/gate-cse-2016-set-2-question-16\" target=\"_blank\">https://gateoverflow.in/39562/gate-cse-2016-set-2-question-16</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"118302\"></a><div itemprop=\"text\">Consider the language \\( L \\) given by the regular expression \\( (a+b)^{*} b (a+b) \\) over the alphabet \\( \\{a,b\\} \\). The smallest number of states needed in a deterministic finite-state automaton (DFA) accepting \\( L \\) is ___________ .</div><br><br><b>GATE CSE 2017 Set 1 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118302/gate-cse-2017-set-1-question-22\" target=\"_blank\">https://gateoverflow.in/118302/gate-cse-2017-set-1-question-22</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"118160\"></a><div itemprop=\"text\">The minimum possible number of states of a deterministic finite automaton that accepts the regular language \\( L \\) = {\\( w_{1}aw_{2} \\) | \\( w_{1},w_{2} \\) \\( \\in \\) \\( \\left \\{ a,b \\right \\}^{*} \\) , \\( \\left | w_{1} \\right | = 2, \\left | w_{2} \\right |\\geq 3 \\)} is ______________ .</div><br><br><b>GATE CSE 2017 Set 2 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118160/gate-cse-2017-set-2-question-25\" target=\"_blank\">https://gateoverflow.in/118160/gate-cse-2017-set-2-question-25</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"204080\"></a><div itemprop=\"text\"><p>Let \\( N \\) be an NFA with \\( n \\) states.&nbsp;Let \\( k \\) be the number of states of a minimal DFA which is equivalent to \\( N \\). Which one of the following is necessarily true?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( k \\geq 2^n \\)</p>",
+            "<p>\\( k \\geq n \\)</p>",
+            "<p>\\( k \\leq n^2 \\)</p>",
+            "<p>\\( k \\leq 2^n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( k \\leq 2^n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204080/gate-cse-2018-question-6\" target=\"_blank\">https://gateoverflow.in/204080/gate-cse-2018-question-6</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"302800\"></a><div itemprop=\"text\">Let \\( \\Sigma \\) be the set of all bijections from \\( \\{1, \\dots , 5\\} \\) to \\( \\{1, \\dots , 5 \\} \\), where \\( id \\) denotes the identity function, i.e. \\( id(j)=j, \\forall j \\). Let \\( \\circ \\) denote composition on functions. For a string \\( x=x_1 x_2 \\dots x_n \\in \\Sigma^n, n \\geq 0 \\), let \\( \\pi(x)=x_1 \\circ x_2 \\circ \\dots \\circ x_n \\). Consider the language \\( L=\\{x \\in \\Sigma^* \\mid \\pi (x) =id\\} \\). The minimum number of states in any DFA accepting \\( L \\) is _______</div><br><br><b>GATE CSE 2019 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "120",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302800/gate-cse-2019-question-48\" target=\"_blank\">https://gateoverflow.in/302800/gate-cse-2019-question-48</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"399258\"></a><div itemprop=\"text\">Consider the language \\( L \\) over the alphabet \\( \\{0,1\\} \\), given below:<br>\n\\[<br>\nL=\\left\\{w \\in\\{0,1\\}^{*} \\mid w \\text { does not contain three or more consecutive } 1 \\text { 's }\\right\\} .<br>\n\\]<br>\nThe minimum number of states in a Deterministic Finite-State Automaton \\( \\text{(DFA)} \\) for \\( L \\) is ____________.</div><br><br><b>GATE CSE 2023 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399258/gate-cse-2023-question-53\" target=\"_blank\">https://gateoverflow.in/399258/gate-cse-2023-question-53</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"3266\"></a><div itemprop=\"text\"><p>Let \\( N \\) be an NFA with \\( n \\) states and let \\( M \\) be the minimized DFA with m states recogniz­ing the same language. Which of the following in NECESSARILY true?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m \\leq 2^n \\)</p>",
+            "<p>\\( n \\leq m \\)</p>",
+            "<p>\\( M \\) has one accept state</p>",
+            "<p>\\( m = 2^n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( m \\leq 2^n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3266/gate-it-2008-question-6\" target=\"_blank\">https://gateoverflow.in/3266/gate-it-2008-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

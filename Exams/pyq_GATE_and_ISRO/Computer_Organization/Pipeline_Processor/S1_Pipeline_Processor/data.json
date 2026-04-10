@@ -1,0 +1,190 @@
+{
+  "title": "Pipeline_Processor - Pipeline_Processor - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Pipeline_Processor",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A 5-stage instruction pipeline has stage delays of 180, 250, 150, 170, and 250, respectively, in nanoseconds. The delay of an inter-stage latch is 10 nanoseconds. Assume that there are no pipeline stalls due to branches and other hazards. The time taken to process 1000 instructions in microseconds is __________ . (rounded off to two decimal places) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "260.2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460847/gate-cse-2025-set-2-question-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A non-pipelined instruction execution unit operating at 2 GHz takes an average of\n6 cycles to execute an instruction of a program P. The unit is then redesigned to\noperate on a 5-stage pipeline at 2 GHz. Assume that the ideal throughput of the\npipelined unit is 1 instruction per cycle. In the execution of program P,\n20% instructions incur an average of 2 cycles stall due to data hazards and\n20% instructions incur an average of 3 cycles stall due to control hazards. The\nspeedup (rounded off to one decimal place) obtained by the pipelined design over\nthe non-pipelined design is ________ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.9",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422849/gate-cse-2024-set-2-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>An instruction format has the following structure:<br><br>\nInstruction Number: \\(Opcode \\; \\; destination reg, \\;\\; source reg-1, \\;\\;source reg-2\\)<br><br>\nConsider the following sequence of instructions to be executed in a pipelined\nprocessor:<br><br>\nI1: DIV R3, R1, R2 <br>\nI2: SUB R5, R3, R4 <br>\nI3: ADD R3, R5, R6 <br>\nI4: MUL R7, R3, R8 <br><br>\nWhich of the following statements is/are TRUE <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is a RAW dependency on R3 between I1 and I2</p>",
+            "<b>B.</b> <p>There is a WAR dependency on R3 between I1 and I3</p>",
+            "<b>C.</b> <p>There is a RAW dependency on R3 between I2 and I3</p>",
+            "<b>D.</b> <p>There is a WAW dependency on R3 between I3 and I4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There is a RAW dependency on R3 between I1 and I2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422876/gate-cse-2024-set-2-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The baseline execution time of a program on a 2 GHz single core machine is\n100 nanoseconds (ns). The code corresponding to 90% of the execution time can be\nfully parallelized. The overhead for using an additional core is 10 ns when running\non a multicore system. Assume that all cores in the multicore system run their share\nof the parallelized code for an equal amount of time.<br>\nThe number of cores that minimize the execution time of the program is _______ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422797/gate-cse-2024-set-1-question-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>In a pipelined execution, forwarding means the result from a source stage of an\nearlier instruction is passed on to the destination stage of a later instruction</p>",
+            "<b>B.</b> <p>In forwarding, data from the output of the MEM stage can be passed on to the\ninput of the EX stage of the next instruction</p>",
+            "<b>C.</b> <p>Forwarding cannot prevent all pipeline stalls</p>",
+            "<b>D.</b> <p>Forwarding does not require any extra hardware to retrieve the data from the\npipeline stages</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>In a pipelined execution, forwarding means the result from a source stage of an\nearlier instruction is passed on to the destination stage of a later instruction</p>",
+            "<b>B.</b> <p>In forwarding, data from the output of the MEM stage can be passed on to the\ninput of the EX stage of the next instruction</p>",
+            "<b>C.</b> <p>Forwarding cannot prevent all pipeline stalls</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422822/gate-cse-2024-set-1-question-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a 3-stage pipelined processor having a delay of 10 ns (nanoseconds),\n20 ns, and 14 ns, for the first, second, and the third stages, respectively. Assume\nthat there is no other delay and the processor does not suffer from any pipeline\nhazards. Also assume that one instruction is fetched every cycle.<br>\nThe total execution time for executing 100 instructions on this processor is _______\nns <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2040",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399288/gate-cse-2023-question-23#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A processor \\(X_1\\) operating at 2 GHz has a standard 5-stage RISC instruction pipeline having a base CPI (cycles per instruction) of one without any pipeline hazards. For a given program P that has 30% branch instructions, control hazards incur 2 cycles stall for every branch. A new version of the processor \\(X_2\\) operating at same clock frequency has an additional branch predictor unit (BPU) that completely eliminates stalls for correctly predicted branches. There is neither any savings nor any additional stalls for wrong predictions. There are no structural hazards and data hazards for \\(X_1\\) and \\(X_2\\). If the BPU has a prediction accuracy of 80%, the speed up (rounded   off to   two decimal places)   obtained   by \\(X_2\\)    over   \\(X_1\\)   in executing P is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.42",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371885/Gate-cse-2022-question-51#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a pipelined processor with 5 stages, Instruction Fetch(IF), Instruction Decode(ID), Execute (EX), Memory Access (MEM), and Write Back (WB). Each stage of the pipeline, except the EX stage, takes one cycle. Assume that the ID stage merely decodes the instruction and the register read is performed in the EX stage. The EX stage takes one cycle for ADD instruction and the register read is performed in the EX stage, The EX stage takes one cycle for ADD instruction and two cycles for MUL instruction. Ignore pipeline register latencies.<br>\nConsider the following sequence of 8 instructions:<br><br>\nADD, MUL, ADD, MUL, ADD, MUL, ADD, MUL<br><br>\nAssume that every MUL instruction is data-dependent on the ADD instruction just before it and every ADD instruction (except the first ADD) is data-dependent on the MUL instruction just before it. The speedup defined as follows.\n<br><br>\n\\(\\textit{Speedup} = \\dfrac{\\text{Execution time without operand forwarding}}{\\text{Execution time with operand forearding}}\\)\n<br><br>\nThe Speedup achieved in executing the given instruction sequence on the pipelined processor (rounded to 2 decimal places) is _____________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.87",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357484/gate-cse-2021-set-2-question-53#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A five-stage pipeline has stage delays of 150, 120, 150, 160 and 140 nanoseconds. The registers that are used between the pipeline stages have a delay of 5 nanoseconds each.<br>The total time to execute 100 independent instructions on this pipeline, assuming there are no pipeline stalls, is _______ nanoseconds. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "17160",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357398/gate-cse-2021-set-1-question-53#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>One instruction tries to write an operand before it is written by previous instruction. This may lead to a dependency called <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>True dependency</p>",
+            "<b>B.</b> <p>Anti-dependency</p>",
+            "<b>C.</b> <p>Output dependency</p>",
+            "<b>D.</b> <p>Control Hazard</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Output dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331391/isro2020-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a 5- segment pipeline with a clock cycle time 20 ns in each sub operation. Find out the approximate speed-up ratio between pipelined and non-pipelined system to execute 100 instructions. (if an average, every five cycles, a bubble due to data hazard has to be introduced in the pipeline) <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>4.03</p>",
+            "<b>C.</b> <p>4.81</p>",
+            "<b>D.</b> <p>4.17</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4.03</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331285/isro2020-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a non-pipelined processor operating at 2.5 GHz. It takes 5 clock cycles to complete an instruction. You are going to make a 5-stage pipeline out of this processor. Overheads associated with pipelining force you to operate the pipelined processor at 2 GHz. In a given program, assume that 30% are memory instructions, 60% are ALU instructions and the rest are branch instructions. 5% of the memory instructions cause stalls of 50 clock cycles each due to cache misses and 50% of the branch instructions cause stalls of 2 cycles each. Assume that there are no stalls associated with the execution of ALU instructions. For this program, the speedup achieved by the pipelined processor over the non-pipelined processor (round off to 2 decimal places) is________. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.15",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333188/gate2020-cs-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A particular parallel program computation requires 100 sec when executed on a single processor, if 40% of this computation is inherently sequential (i.e. will not benefit from additional processors), then theoretically best possible elapsed times of this program running with 2 and 4 processors, respectively, are: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20 sec and 10 sec</p>",
+            "<b>B.</b> <p>30 sec and 15 sec</p>",
+            "<b>C.</b> <p>50 sec and 25 sec</p>",
+            "<b>D.</b> <p>70 sec and 55 sec</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>70 sec and 55 sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213517/isro2018-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The instruction pipeline of a RISC processor has the following stages: Instruction Fetch (IF), Instruction Decode (ID), Operand Fetch (OF), Perform Operation (PO) and Writeback (WB). The IF, ID, OF and WB stages take 1 clock cycle each for every instruction. Consider a sequence of 100 instructions. In the PO stage, 40 instructions take 3 clock cycles each, 35 instructions take 2 clock cycles each, and the remaining 25 instructions take 1 clock cycle each. Assume that there are no data hazards and no control hazards. <br>The number of clock cycles required for completion of execution of the sequence of instructions is ______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "219",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204125/gate2018-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Instructions execution in a processor is divided into 5 stages. Instruction Fetch (IF),\nInstruction Decode (ID) , Operand Fetch (OF), Execute (EX), and Write Back (WB), These\nstages take 5,4,20, 10 and 3 nanoseconds (ns) respectively. A pipelined implementation of\nthe processor requires buffering between each pair of consecutive stages with a delay of 2ns. <br>\nTwo pipelined implementations of the processor are contemplated.<br><br>\n(i) a naive pipeline implementation (NP) with 5 stages and <br>\n(ii) an efficient pipeline (EP) where the OF stage id divided into stages OF1 and OF2\nwith execution times of 12 ns and 8 ns respectively. <br><br>\nThe speedup (correct to two decimals places) achieved by EP over NP in executing 20\nindependent instructions with no hazards is ________________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.49",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118719/gate2017-1-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

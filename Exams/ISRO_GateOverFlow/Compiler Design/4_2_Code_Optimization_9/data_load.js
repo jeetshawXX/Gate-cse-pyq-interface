@@ -1,0 +1,141 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Code Optimization",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Code Optimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"17249\"></a><div itemprop=\"text\"><p>Which of the following class of statement usually produces no executable code when compiled?</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2008 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>declaration</p>",
+            "<p>assignment statements</p>",
+            "<p>input and output statements</p>",
+            "<p>structural statements</p>"
+          ],
+          "correct_answer": "<p>declaration</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17249/isro-cse-2008-question-68\" target=\"_blank\">https://gateoverflow.in/17249/isro-cse-2008-question-68</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48068\"></a><div itemprop=\"text\">\n<p>Substitution of values for names (whose values are constants) is done in</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2009 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Local optimization</p>",
+            "<p>Loop optimization</p>",
+            "<p>Constant folding</p>",
+            "<p>Strength reduction</p>"
+          ],
+          "correct_answer": "<p>Constant folding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48068/isro-cse-2009-question-43\" target=\"_blank\">https://gateoverflow.in/48068/isro-cse-2009-question-43</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"52264\"></a><div itemprop=\"text\">\n<p>Which of the following statements about peephole optimization is False?</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2011 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>It is applied to a small part of the code</p>",
+            "<p>It can be used to optimize intermediate code</p>",
+            "<p>To get the best out of this, it has to be applied repeatedly</p>",
+            "<p>It can be applied to the portion of the code that is not contiguous</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52264/isro-cse-2011-question-13\" target=\"_blank\">https://gateoverflow.in/52264/isro-cse-2011-question-13</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"50567\"></a><div itemprop=\"text\">\n<p>In compiler terminology reduction in strength means</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2011 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Replacing run time computation by compile time computation</p>",
+            "<p>Removing loop invariant computation</p>",
+            "<p>Removing common subexpressions</p>",
+            "<p>replacing a costly operation by a relatively cheaper one</p>"
+          ],
+          "correct_answer": "<p>replacing a costly operation by a relatively cheaper one</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50567/isro-cse-2011-question-3\" target=\"_blank\">https://gateoverflow.in/50567/isro-cse-2011-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"55598\"></a><div itemprop=\"text\">\n<p>Peephole optimization is form of</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2016 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Loop optimization</p>",
+            "<p>Local optimization</p>",
+            "<p>Constant folding</p>",
+            "<p>Data flow analysis</p>"
+          ],
+          "correct_answer": "<p>Local optimization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55598/isro-cse-2016-question-44\" target=\"_blank\">https://gateoverflow.in/55598/isro-cse-2016-question-44</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"213559\"></a><div itemprop=\"text\"><p>DU-chains(Definition-Use) in compiler design:</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2018 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>consist of a definition of a variable and all its uses, reachable from that definition</p>",
+            "<p>are created using a form static code analysis</p>",
+            "<p>are prerequisite for many compiler optimization including constant propagation and common sub-expression elimination</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213559/isro-cse-2018-question-29\" target=\"_blank\">https://gateoverflow.in/213559/isro-cse-2018-question-29</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"213558\"></a><div itemprop=\"text\">\n\n<p>Which of the following comment about peep-hole optimization is true?</p>\n\n<ol start=\"1\" style=\"list-style-type: lower-alpha;\">\n\t<li>It is applied to small part of the code and applied repeatedly</li>\n\t<li>It can be used to optimize intermediate code&nbsp;</li>\n\t<li>It can be applied to a portion of the code that is not contiguous</li>\n\t<li>It is applied in symbol table to optimize the memory requirements.</li>\n</ol></div><br><br><b>Compiler Design: ISRO CSE 2018 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213558/isro-cse-2018-question-30\" target=\"_blank\">https://gateoverflow.in/213558/isro-cse-2018-question-30</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"331453\"></a><div itemprop=\"text\"><p>Which of the following is a type of a out-of-order execution, with the reordering done by a compiler</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2020 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>loop unrolling</p>",
+            "<p>dead code elimination</p>",
+            "<p>strength reduction</p>",
+            "<p>software pipelining</p>"
+          ],
+          "correct_answer": "<p>software pipelining</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331453/isro-cse-2020-question-42\" target=\"_blank\">https://gateoverflow.in/331453/isro-cse-2020-question-42</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"182117\"></a><div itemprop=\"text\"><p>Consider the code segment</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int i,j,x,y,m,n;\nn = 20;\nfor(i=0;i&lt;n;i++)\n{\n    for(j=0;j&lt;n;j++)\n    {\n        if(i%2)\n        {\n            x += ((4*j)+5*i);\n            y += (7+4*j)\n        }\n    }\n}\nm=x+y;\n</pre>\n\n<p>Which one of the following is false?</p>\n\n</div><br><br><b>Compiler Design: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The code contains loop invariant computation</p>",
+            "<p>There is scope of common sub-expression&nbsp;elimination in this code</p>",
+            "<p>There is scope of strength reduction in this code</p>",
+            "<p>There is scope of dead code elimination in this code</p>"
+          ],
+          "correct_answer": "<p>There is scope of dead code elimination in this code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182117/isro-dec2017-67\" target=\"_blank\">https://gateoverflow.in/182117/isro-dec2017-67</a></p>"
+        }
+      ]
+    }
+  ]
+});

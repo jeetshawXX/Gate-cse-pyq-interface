@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 16",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the name of the operating system that reads and reacts in terms of operating system? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Batch system</p>",
+            "<b>B.</b> <p>Quick response time</p>",
+            "<b>C.</b> <p>real time system</p>",
+            "<b>D.</b> <p>Time sharing system</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>real time system</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49997/isro2008-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Thrashing <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always occurs on large computers</p>",
+            "<b>B.</b> <p>is a natural consequence of virtual memory systems</p>",
+            "<b>C.</b> <p>can always be avoided by swapping</p>",
+            "<b>D.</b> <p>can be caused by poor paging algorithms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>can be caused by poor paging algorithms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17260/isro2008-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Dynamic address translation <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is part of the operating system paging algorithm</p>",
+            "<b>B.</b> <p>is useless when swapping is used</p>",
+            "<b>C.</b> <p>is the hardware necessary to implement paging</p>",
+            "<b>D.</b> <p>storage pages at a specific location on disk</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>is the hardware necessary to implement paging</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17262/isro2008-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>With Round-Robin CPU scheduling in a time shared system <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>using very large time slices (quantas) degenerates into First-Come First served (FCFS) algorithm.</p>",
+            "<b>B.</b> <p>using extremely small time slices improves performance</p>",
+            "<b>C.</b> <p>using very small time slices degenerates into Last-In First-Out (LIFO) algorithm.</p>",
+            "<b>D.</b> <p>using medium sized times slices leads to shortest Request time First (SRTF) algorithm</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>using very large time slices (quantas) degenerates into First-Come First served (FCFS) algorithm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49983/isro2008-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Feedback queues <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>are very simple to implement</p>",
+            "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+            "<b>C.</b> <p>are used to favour real time tasks</p>",
+            "<b>D.</b> <p>require manual intervention to implement properly</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49632/isro2007-64-isro2008-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following need not necessarily be saved on a context switch between processes? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/644/gate2000-1-20-isro2008-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Four jobs to be executed on a single processor system arrive at time 0 in the order A,B,C,D. Their burst CPU time requirements are 4,1,8,1 time units respectively. The completion time of A under round robin scheduling with time slice of one time unit is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2749/gate1996-2-20-isro2008-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Match the following flag bits used in the context of virtual memory management on the left side with the different purposes on the right side of the table below.<br>\\(\\begin{array}{l|ll} \\text { Name of the bit } &amp; \\text { Purpose } \\\\ \\hline \\text { I. } \\text { Dirty } &amp; \\text { a. }  \\text { Page initialization } \\\\ \\text { II. } \\text { R/W } &amp; \\text { b. } \\text { Write-back policy } \\\\ \\text { III. } \\text { Reference } &amp; \\text { c. } \\text { Page protection } \\\\ \\text { IV. } \\text { Valid } &amp; \\text { d. } \\text { Page replacement policy } \\end{array}\\) <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text{I-d, II-a, III-b, IV-c}\\)</p>",
+            "<b>B.</b> <p>\\(\\text{I-b, II-c, III-a, IV-d}\\)</p>",
+            "<b>C.</b> <p>\\(\\text{I-c, II-d, III-a, IV-b}\\)</p>",
+            "<b>D.</b> <p>\\(\\text{I-b, II-c, III-d, IV-a}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\text{I-b, II-c, III-d, IV-a}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3366/gate2008-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If the time-slice used in the round-robin scheduling policy is more than the maximum time required to execute any process, then the policy will <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>degenerate to hortest job first</p>",
+            "<b>B.</b> <p>degenerate to priority scheduling</p>",
+            "<b>C.</b> <p>degenerate to first come first serve</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>degenerate to first come first serve</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3365/gate2008-it-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>An operating system implements a policy that requires a process to release all resources before making a request for another resource. Select the TRUE statement from the following: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both starvation and deadlock can occur</p>",
+            "<b>B.</b> <p>Starvation can occur but deadlock cannot occur</p>",
+            "<b>C.</b> <p>Starvation cannot occur but deadlock can occur</p>",
+            "<b>D.</b> <p>Neither starvation nor deadlock can occur</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Starvation can occur but deadlock cannot occur</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3364/gate2008-it-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The following is a code with two threads, producer and consumer, that can run in parallel. Further, S and Q are binary semaphores quipped with the standard P and V operations.<br><pre><code> semaphore S = 1, Q = 0; \ninteger x;\n\nproducer:                   consumer:\nwhile (true) do             while (true) do\n    P(S);                       P(Q);\n    x = produce ();             consume (x);\n    V(Q);                       V(S);\ndone                        done</code></pre> <br>Which of the following is TRUE about the program above? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The process can deadlock</p>",
+            "<b>B.</b> <p>One of the threads can starve</p>",
+            "<b>C.</b> <p>Some of the items produced by the producer may be lost</p>",
+            "<b>D.</b> <p>Values generated and stored in 'x' by the producer will always be consumed before the producer can generate a new value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Values generated and stored in 'x' by the producer will always be consumed before the producer can generate a new value</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3363/gate2008-it-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Assume that a main memory with only 4 pages, each of 16 bytes, is initially empty. The CPU generates the following sequence of virtual addresses and uses the Least Recently Used (LRU) page replacement policy.<br>\n0, 4, 8, 20, 24, 36, 44, 12, 68, 72, 80, 84, 28, 32, 88, 92 <br>\nHow many page faults does this sequence cause? What are the page numbers of the pages present in the main memory at the end of the sequence? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 1, 2, 3, 4</p>",
+            "<b>B.</b> <p>7 and 1, 2, 4, 5</p>",
+            "<b>C.</b> <p>8 and 1, 2, 4, 5</p>",
+            "<b>D.</b> <p>9 and 1, 2, 3, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>7 and 1, 2, 4, 5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3351/gate2008-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A paging scheme uses a Translation Look-aside Buffer (TLB). A TLB-access takes 10 ns and the main memory access takes 50 ns. What is the effective access time(in ns) if the TLB hit ratio is 90% and there is no page-fault? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>54</p>",
+            "<b>B.</b> <p>60</p>",
+            "<b>C.</b> <p>65</p>",
+            "<b>D.</b> <p>75</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>65</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3276/gate2008-it-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the execution of the following commands in a shell on a Linux operating system.<br><br>\nbash$ cat alpha<br>\nMathematics<br>\nbash$ In alpha beta<br>\nbash$ rm alpha<br>\nbash$ cat &gt;&gt; beta &lt;&lt; SAME<br>\nInformation Technology<br>\nSAME<br>\nbash$ cat beta<br><br>\nThe output of the last command will be: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mathematics Information Technology SAME</p>",
+            "<b>B.</b> <p>Mathematics Information Technology</p>",
+            "<b>C.</b> <p>Information Technology</p>",
+            "<b>D.</b> <p>Information Technology SAME</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Information Technology SAME</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: This question is out of Syllabus Now.<a href=\"https://gateoverflow.in/3274/gate2008-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A processor uses 36 bit physical addresses and 32 bit virtual addresses, with a\npage frame size of 4 Kbytes. Each page table entry is of size 4 bytes. A three\nlevel page table is used for virtual to physical address translation, where the\nvirtual address is used as follows <br><br>\nBits 30-31 are used to index into the first level page table <br>\nBits 21-29 are used to index into the second level page table <br>\nBits 12-20 are used to index into the third level page table, and <br>\nBits 0-11 are used as offset within the page <br><br>\nThe number of bits required for addressing the next level page table (or page\nframe) in the page table entry of the first, second and third level page tables are\nrespectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20, 20 and 20</p>",
+            "<b>B.</b> <p>24, 24 and 24</p>",
+            "<b>C.</b> <p>24, 24 and 20</p>",
+            "<b>D.</b> <p>25, 25 and 24</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>25, 25 and 24</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/490/gate2008-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

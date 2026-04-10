@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of different n x n symmetric matrices with each element being either 0 or 1 is : (Note:\npower (2,x) is same as \\(2^{x}\\)) <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>power (2,n)</p>",
+            "<b>B.</b> <p>power (2,\\(n^{2}\\))</p>",
+            "<b>C.</b> <p>power (2,\\((n^{2}+n)/2\\))</p>",
+            "<b>D.</b> <p>power (2,\\((n^{2}-n)/2\\))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>power (2,\\((n^{2}+n)/2\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1023/gate2004-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A piecewise linear function f (x) is plotted using thick solid lines in the figure\nbelow (the plot is drawn to scale).  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Engineering_Mathematics\\q42_3e1e8375.jpg\"> <br>  If we use the Newton-Raphson method to find the roots of f(x) = 0 using x0, x1 and x2 respectively as initial guesses, the roots obtained would be <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.3, 0.6 and 0.6 respectively</p>",
+            "<b>B.</b> <p>0.6, 0.6 and 1.3 respectively</p>",
+            "<b>C.</b> <p>1.3, 1.3 and 0.6 respectively</p>",
+            "<b>D.</b> <p>1.3, 0.6 and 1.3 respectively</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.3, 0.6 and 1.3 respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/933/gate2003-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following system of linear equations <br>  \\(\\begin{bmatrix} 2 &amp; 1 &amp; -4\\\\ 4 &amp; 3 &amp; -12\\\\ 1 &amp; 2 &amp; -8 \\end{bmatrix}\\begin{bmatrix} x\\\\ y\\\\ z \\end{bmatrix}\\begin{bmatrix} \\alpha \\\\ 5\\\\ 7 \\end{bmatrix}\\) <br>  Notice that the second and the third columns of the coefficient matrix are linearly\ndependent. For how many values of \\(\\alpha\\), does this system of equations have\ninfinitely many solutions? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>infinitely many</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/932/gate2003-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The Newton-Raphson iteration \\(X_{n+1}=(X_{n}/2)+(3/(2X_{n}))\\)\ncan be used to solve the equation <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X^{2}=3\\)</p>",
+            "<b>B.</b> <p>\\(X^{3}=3\\)</p>",
+            "<b>C.</b> <p>\\(X^{2}=2\\)</p>",
+            "<b>D.</b> <p>\\(X^{3}=2\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X^{2}=3\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/845/gate2002-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The trapezoidal rule for integration gives exact result when the integrand is a polynomial of degree <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 but not 1</p>",
+            "<b>B.</b> <p>1 but not 0</p>",
+            "<b>C.</b> <p>0 or 1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0 or 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/806/gate2002-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The rank of the matrix \\(\\begin{bmatrix} 1 &amp; 1\\\\ 0&amp; 0 \\end{bmatrix}\\) is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/805/gate2002-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A polynomial p(x) satisfies the following:<br>\np(1) = p(3) = p(5) = 1 <br>\np(2) = p(4) = -1<br>\nThe minimum degree of such a polynomial is <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/651/gate2000-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(S = \\sum_{i=3}^{100} i \\log_{2} i\\), and \\(T = \\int_{2}^{100} x \\log_{2}x dx.\\)<br>\nWhich of the following statements is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S \\gt T \\)</p>",
+            "<b>B.</b> <p>\\(S = T \\)</p>",
+            "<b>C.</b> <p>\\(S \\lt T \\) and  \\(2S \\gt T \\)</p>",
+            "<b>D.</b> <p>\\(2S \\leq T\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(S \\gt T \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/650/gate2000-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>X, Y and Z are closed intervals of unit length on the real line. The overlap of X and Y is half a unit. The overlap of Y and Z is also half a unit. Let the overlap of X and Z be k units. Which of the following is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k must be 1</p>",
+            "<b>B.</b> <p>k must be 0</p>",
+            "<b>C.</b> <p>k can take any value between 0 and 1</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k can take any value between 0 and 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/648/gate2000-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The determinant of the matrix<br>\\(\\begin{bmatrix}2 &amp;0 &amp;0 &amp;0 \\\\ 8&amp; 1&amp; 7&amp; 2\\\\ 2&amp; 0&amp;2 &amp;0 \\\\ 9&amp;0 &amp; 6 &amp; 1 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/626/gate2000-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The Newton-Raphson method is to be used to find the root of the equation \\(f(x)=0\\) where \\(x_o\\) is the initial approximation and \\(f'\\) is the derivative of \\(f\\). The method converges <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always</p>",
+            "<b>B.</b> <p>only if \\(f\\) is a polynomial</p>",
+            "<b>C.</b> <p>only if \\(f(x_o) \\lt 0\\)</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1476/gate1999-1-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following determinant \\(\\Delta = \\begin{vmatrix} 1 &amp; a &amp; bc \\\\ 1 &amp; b &amp; ca \\\\ 1 &amp; c &amp; ab \\end{vmatrix}\\)<br>\nWhich of the following is a factor of \\(\\Delta\\)? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a+b</p>",
+            "<b>B.</b> <p>a-b</p>",
+            "<b>C.</b> <p>a+b+c</p>",
+            "<b>D.</b> <p>abc</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a-b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1674/gate1998-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The rank of the matrix given below is:<br>\n\\(\\begin{bmatrix} 1 &amp;4 &amp;8 &amp;7\\\\ 0 &amp;0&amp; 3 &amp;0\\\\ 4 &amp;2&amp; 3 &amp;1\\\\ 3 &amp;12 &amp;24 &amp;21 \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1673/gate1998-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following statements applies to the bisection method used for finding roots of functions: <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>converges within a few iterations</p>",
+            "<b>B.</b> <p>guaranteed to work for all continuous functions</p>",
+            "<b>C.</b> <p>is faster than the Newton-Raphson method</p>",
+            "<b>D.</b> <p>requires that there be no error in determining the sign of the function</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>guaranteed to work for all continuous functions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1640/gate1998-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following set of equations<br>\n\\(x+2y=5\\\\ 4x+8y=12\\\\ 3x+6y+3z=15\\)<br>\nThis set <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>has unique solution</p>",
+            "<b>B.</b> <p>has no solution</p>",
+            "<b>C.</b> <p>has finite number of solutions</p>",
+            "<b>D.</b> <p>has infinite number of solutions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>has no solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1639/gate1998-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

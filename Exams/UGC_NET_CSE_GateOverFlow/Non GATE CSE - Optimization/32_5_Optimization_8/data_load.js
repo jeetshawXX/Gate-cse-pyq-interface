@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Optimization - Optimization",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Optimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57383\"></a><div itemprop=\"text\"><p>In a Linear Programming Problem, suppose there are three basic variables and 2 non-basic variables, then the possible number of basic solutions are</p>\n\n</div><br><br><b>Optimization: UGC NET CSE | December 2012 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>6</p>",
+            "<p>8</p>",
+            "<p>10</p>",
+            "<p>12</p>"
+          ],
+          "correct_answer": "<p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57383/ugc-net-cse-december-2012-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/57383/ugc-net-cse-december-2012-part-3-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60383\"></a><div itemprop=\"text\">\n<p>Given the problem to maximize \\( f(x), X=(x_1, x_2, \\dots , x_n) \\) subject to m number of in equality constraints. \\( g_i(x) \\leq b_i \\), i=1, 2, .... m including the non-negativity constrains \\( x \\geq 0 \\). Which of the following conditions is a Kuhn-Tucker necessary condition for a local maxima at \\( \\bar{x} \\)?</p>\n\n\n</div><br><br><b>Optimization: UGC NET CSE | December 2013 | Part 3 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{\\partial L(\\bar{X}, \\bar{\\lambda}, \\bar{S})}{\\partial x_j} = 0, j=1,2\\dots m \\)</p>",
+            "<p>\\( \\bar{\\lambda}_i [g_i(\\bar{X})-b_i] = 0, i=1,2 \\dots m \\)</p>",
+            "<p>\\( g_i (\\bar{X}) \\leq b_i, i=1,2 \\dots m \\)</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60383/ugc-net-cse-december-2013-part-3-question-2\" target=\"_blank\">https://gateoverflow.in/60383/ugc-net-cse-december-2013-part-3-question-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"60385\"></a><div itemprop=\"text\">\n<p>The following Linear Programming problem has:</p>\n\n<p>\\( \\text{Max} \\quad Z=x_1+x_2 \\)</p>\n\n<p>Subject to \\( \\quad x_1-x_2 \\geq 0 \\)</p>\n\n<p>\\( \\quad \\quad \\quad 3x_1 - x_2 \\leq -3 \\)</p>\n\n<p>\\( \\text{and} \\quad x_1 , x_2 \\geq 0  \\)</p>\n\n\n</div><br><br><b>Optimization: UGC NET CSE | December 2013 | Part 3 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Feasible solution</p>",
+            "<p>No feasible solution</p>",
+            "<p>Unbounded solution</p>",
+            "<p>Single point as solution</p>"
+          ],
+          "correct_answer": "<p>No feasible solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60385/ugc-net-cse-december-2013-part-3-question-3\" target=\"_blank\">https://gateoverflow.in/60385/ugc-net-cse-december-2013-part-3-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"62699\"></a><div itemprop=\"text\"><p>In constraint satisfaction problem, constraints can be stated as</p>\n\n</div><br><br><b>Optimization: UGC NET CSE | December 2015 | Part 3 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Arithmetic equations and inequalities that bind the values of variables</p>",
+            "<p>Arithmetic equations and inequalities that does not bind any restriction over variables</p>",
+            "<p>Arithmetic equations that impose&nbsp;restrictions over variables</p>",
+            "<p>Arithmetic equations that discard constraints over the given variables</p>"
+          ],
+          "correct_answer": "<p>Arithmetic equations and inequalities that bind the values of variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62699/ugc-net-cse-december-2015-part-3-question-47\" target=\"_blank\">https://gateoverflow.in/62699/ugc-net-cse-december-2015-part-3-question-47</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"62709\"></a><div itemprop=\"text\"><p>A basic feasible solution of a linear programming problem is said to be ______ if at least one of the basic variable is zero</p>\n\n</div><br><br><b>Optimization: UGC NET CSE | December 2015 | Part 3 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>generate</p>",
+            "<p>degenerate</p>",
+            "<p>infeasible</p>",
+            "<p>unbounded</p>"
+          ],
+          "correct_answer": "<p>generate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62709/ugc-net-cse-december-2015-part-3-question-52\" target=\"_blank\">https://gateoverflow.in/62709/ugc-net-cse-december-2015-part-3-question-52</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"56296\"></a><div itemprop=\"text\"><p>The feasible region represented by the constraints \\( x_1 - x_2 \\leq 1, x_1 + x_2 \\geq 3, x_1 \\geq 0, x_2 \\geq 0 \\) of the objective function Max \\( Z=3x_1 + 2x_2 \\) is</p>\n\n</div><br><br><b>Optimization: UGC NET CSE | June 2012 | Part 3 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A polygon</p>",
+            "<p>Unbounded feasible region</p>",
+            "<p>A point</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Unbounded feasible region</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56296/ugc-net-cse-june-2012-part-3-question-46\" target=\"_blank\">https://gateoverflow.in/56296/ugc-net-cse-june-2012-part-3-question-46</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"57216\"></a><div itemprop=\"text\">\n<p>Which of the following special cases does not require reformulation of the problem in order to obtain a solution ?</p>\n\n\n</div><br><br><b>Optimization: UGC NET CSE | June 2014 | Part 3 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Alternate optimality</p>",
+            "<p>Infeasibility&nbsp;</p>",
+            "<p>Unboundedness</p>",
+            "<p>All of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Alternate optimality</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57216/ugc-net-cse-june-2014-part-3-question-58\" target=\"_blank\">https://gateoverflow.in/57216/ugc-net-cse-june-2014-part-3-question-58</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"61463\"></a><div itemprop=\"text\">\n<p>Given the following statements with respect to linear programming problem:</p>\n\n<p>S1: The dual of the dual linear programming problem is again the primal problem</p>\n\n<p>S2: If either the primal or the dual problem has an unbounded objective function value, the other problem has no feasible solution</p>\n\n<p>S3:&nbsp;<span style=\"line-height: 20.8px;\">If either the primal or the dual problem has a finite optimal solution, the other one also possess the same, and the optimal value of the objective functions of the two problems are equal.</span></p>\n\n<p>Which of the following is true?</p>\n\n\n</div><br><br><b>Optimization: UGC NET CSE | Junet 2015 | Part 3 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>S1 and S2</p>",
+            "<p>S1 and S3</p>",
+            "<p>S2 and S3</p>",
+            "<p>S1, S2 and S3</p>"
+          ],
+          "correct_answer": "<p>S1, S2 and S3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61463/ugc-net-cse-junet-2015-part-3-question-69\" target=\"_blank\">https://gateoverflow.in/61463/ugc-net-cse-junet-2015-part-3-question-69</a></p>"
+        }
+      ]
+    }
+  ]
+});

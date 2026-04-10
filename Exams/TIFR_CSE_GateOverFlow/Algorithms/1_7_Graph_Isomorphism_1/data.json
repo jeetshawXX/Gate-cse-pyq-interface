@@ -1,0 +1,27 @@
+{
+  "title": "Algorithms - Graph Isomorphism",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Isomorphism",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"30076\"></a><div itemprop=\"text\"><p>Two undirected graphs \\( G_{1}=(V_{1}, E_{1}) \\) and \\( G_{2}= (V_{2}, E_{2}) \\) are said to be isomorphic if there exist a bijection \\( \\pi: V_{1} \\rightarrow V_{2} \\) such that for all \\( u, v \\in V_{1}, (u, v) \\in E_{1} \\) if and only \\( ( \\pi (u), \\pi (v)) \\in E_{2} \\). Consider the following language.</p>\n\n<p>\\( L=\\{(G, H)| G \\) and \\( H \\) are undirected graphs such that a subgraph of \\( G \\) is isomorphic to \\( H\\} \\)</p>\n\n<p>Then which of the following are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( L \\in NP \\).</li>\n\t<li>\\( L \\) is \\( NP \\)- hard.</li>\n\t<li>\\( L \\) is undecidable.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2015 | Part B | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( (i) \\)</p>",
+            "<p>Only \\( (ii) \\)</p>",
+            "<p>Only \\( (iii) \\)</p>",
+            "<p>\\( (i) \\) and \\( (ii) \\)</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\) and \\( (ii) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/30076/tifr-cse-2015-part-b-question-13\" target=\"_blank\">https://gateoverflow.in/30076/tifr-cse-2015-part-b-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

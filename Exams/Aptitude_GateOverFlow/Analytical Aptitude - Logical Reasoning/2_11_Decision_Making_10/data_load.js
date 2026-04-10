@@ -1,0 +1,156 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Decision Making",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Decision Making",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3847\"></a><div itemprop=\"text\"><p>In each question, you are given certain data followed by two statements. For answering the questions:</p>\n\n<p>Mark a, if both the statements together are insufficient to answer the question.</p>\n\n<p>Mark b, if any one of the two statements is sufficient to answer the question.</p>\n\n<p>Mark c, if each statement alone is sufficient to answer the question.</p>\n\n<p>Mark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>\n\n<p>What is the Cost Price of the article?</p>\n\n<p>1. After selling the article, a loss of \\( 25 \\)% on Cost Price incurred.</p>\n\n<p>2. The Selling Price is three-fourths of the Cost Price.</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Logical Reasoning: CAT 1996 | Question: 176</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3847/cat-1996-question-176\" target=\"_blank\">https://aptitude.gateoverflow.in/3847/cat-1996-question-176</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3848\"></a><div itemprop=\"text\"><p>In each question, you are given certain data followed by two statements. For answering the questions:</p>\n\n<p>Mark a, if both the statements together are insufficient to answer the question.</p>\n\n<p>Mark b, if any one of the two statements is sufficient to answer the question.</p>\n\n<p>Mark c, if each statement alone is sufficient to answer the question.</p>\n\n<p>Mark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>\n\n<p>If a, b, c are integers, is \\( (a - b + c)&gt; (a + b - c) \\)?</p>\n\n<p>1. b is negative</p>\n\n<p>2. c is positive.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 177</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3848/cat-1996-question-177\" target=\"_blank\">https://aptitude.gateoverflow.in/3848/cat-1996-question-177</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3849\"></a><div itemprop=\"text\"><p>In each question, you are given certain data followed by two statements. For answering the questions:</p>\n\n<p>Mark a, if both the statements together are insufficient to answer the question.</p>\n\n<p>Mark b, if any one of the two statements is sufficient to answer the question.</p>\n\n<p>Mark c, if each statement alone is sufficient to answer the question.</p>\n\n<p>Mark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>\n\n<p>What is the Selling Price of the article?</p>\n\n<p>1. The profit on Sales is \\( 20\\%. \\)</p>\n\n<p>2. The profit on each unit is \\( 25\\% \\) and the Cost Price is Rs. \\( 250 \\).</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 178</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3849/cat-1996-question-178\" target=\"_blank\">https://aptitude.gateoverflow.in/3849/cat-1996-question-178</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3850\"></a><div itemprop=\"text\"><p>In each question, you are given certain data followed by two statements. For answering the questions:</p>\n\n<p>Mark a, if both the statements together are insufficient to answer the question.</p>\n\n<p>Mark b, if any one of the two statements is sufficient to answer the question.</p>\n\n<p>Mark c, if each statement alone is sufficient to answer the question.</p>\n\n<p>Mark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>\n\n<p>A tractor travelled a distance of \\( 5 \\) m. What is the radius of the rear wheel?</p>\n\n<p>1. The front wheel rotates “N” times more than the rear wheel over this distance.</p>\n\n<p>2. The circumference of the rear wheel is “t” times that of the front wheel.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 179</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3850/cat-1996-question-179\" target=\"_blank\">https://aptitude.gateoverflow.in/3850/cat-1996-question-179</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3852\"></a><div itemprop=\"text\"><p>In each question, you are given certain data followed by two statements. For answering the questions:</p>\n\n<p>Mark a, if both the statements together are insufficient to answer the question.</p>\n\n<p>Mark b, if any one of the two statements is sufficient to answer the question.</p>\n\n<p>Mark c, if each statement alone is sufficient to answer the question.</p>\n\n<p>Mark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>\n\n<p>What is the ratio of the two liquids A and B in the mixture finally, if these two liquids kept in three vessels are mixed together? (The containers are of equal volume)</p>\n\n<p>1. The ratio of liquid A to liquid B in the first and second vessel is, respectively, \\( 3 : 5, 2 : 3 \\).</p>\n\n<p>2. The ratio liquid A to liquid B in vessel 3 is \\( 4 : 3 \\).</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 180</b></p>",
+          "type": "single",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "<p>if both the statements together are insufficient to answer the question.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3852/cat-1996-question-180\" target=\"_blank\">https://aptitude.gateoverflow.in/3852/cat-1996-question-180</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3853\"></a><div itemprop=\"text\"><p>In each question, you are given certain data followed by two statements. For answering the questions:</p>\n\n<p>Mark a, if both the statements together are insufficient to answer the question.</p>\n\n<p>Mark b, if any one of the two statements is sufficient to answer the question.</p>\n\n<p>Mark c, if each statement alone is sufficient to answer the question.</p>\n\n<p>Mark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>\n\n<p>If \\( \\alpha, \\beta \\)&nbsp;are the roots of the equation \\( (ax^{2}+bx+c=0) \\),&nbsp;then what is the value of \\( (\\alpha^{2}+\\beta^{2}) \\)?</p>\n\n<p>1. \\( \\alpha+\\beta=-(b/a) \\)</p>\n\n<p>2. \\( 2\\alpha \\beta=(c/a) \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 181</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3853/cat-1996-question-181\" target=\"_blank\">https://aptitude.gateoverflow.in/3853/cat-1996-question-181</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3854\"></a><div itemprop=\"text\">In each question, you are given certain data followed by two statements. For answering the questions:<br>\n<br>\nMark a, if both the statements together are insufficient to answer the question.<br>\n<br>\nMark b, if any one of the two statements is sufficient to answer the question.<br>\n<br>\nMark c, if each statement alone is sufficient to answer the question.<br>\n<br>\nMark d, if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.<br>\n<br>\nWhat is the number of type 2 widgets produced, if the total number of widgets produced is \\( 20,000 \\)?<br>\n<br>\n1. If the production of type- 1 widgets increases by \\( 10 \\)% and that of type-2 decreases by \\( 6 \\)%, the total production remains the same.<br>\n<br>\n2. The ratio in which type- 1 and type- 2 widgets are produced is \\( 2: 1 \\).</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 182</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3854/cat-1996-question-182\" target=\"_blank\">https://aptitude.gateoverflow.in/3854/cat-1996-question-182</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3855\"></a><div itemprop=\"text\"><p>How old is Sachin in \\( 1997? \\)</p>\n\n<p>1. Sachin is \\( 11 \\) years younger than Anil whose age will be prime number in \\( 1998 \\).</p>\n\n<p>2. Anil’s age was a prime number in \\( 1996 \\).</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 183</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3855/cat-1996-question-183\" target=\"_blank\">https://aptitude.gateoverflow.in/3855/cat-1996-question-183</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3856\"></a><div itemprop=\"text\"><p>What is the total worth of X’s assets?</p>\n\n<p>1. Compound interest at \\( 10\\% \\) on his assets, followed by a tax of \\( 4\\% \\) on the interest, fetches him \\( \\text{Rs.} 15000 \\) this year.</p>\n\n<p>2. The interest is compounded once every four months.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 184</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3856/cat-1996-question-184\" target=\"_blank\">https://aptitude.gateoverflow.in/3856/cat-1996-question-184</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3857\"></a><div itemprop=\"text\"><p>How many different triangles can be formed?</p>\n\n<p>1. There are \\( 16 \\) coplanar, straight lines in all.</p>\n\n<p>2. No two lines are parallel.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 185</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if both the statements together are insufficient to answer the question.</p>",
+            "<p>if any one of the two statements is sufficient to answer the question.</p>",
+            "<p>if each statement alone is sufficient to answer the question.</p>",
+            "<p>if both the statements together are sufficient to answer the question, but neither statement alone is sufficient.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3857/cat-1996-question-185\" target=\"_blank\">https://aptitude.gateoverflow.in/3857/cat-1996-question-185</a></p>"
+        }
+      ]
+    }
+  ]
+});

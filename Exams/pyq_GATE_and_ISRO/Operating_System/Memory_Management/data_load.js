@@ -1,0 +1,1636 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Memory_Management",
+  "duration": 316,
+  "sections": [
+    {
+      "name": "Memory_Management",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A computer system supports a logical address space of \\(2^{32}\\) bytes. It uses two-level hierarchical paging with a page size of 4096 bytes. A logical address is divided into a \\(b\\)-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size. <br><br>The value of \\(b\\) is ___________ . (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460845/gate-cse-2025-set-2-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a demand paging system with three frames, and the following page reference string:\n1 2 3 4 5 4 1 6 4 5 1 3 2. The contents of the frames are as follows initially and after each reference (from left to right):\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Management\\q37_c7e13067.webp\"><br>\nThe *-marked references cause page replacements.  <br>\nWhich one or more of the following could be the page replacement policy/policies in use? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Least Recently Used page replacement policy</p>",
+            "<b>B.</b> <p>Least Frequently Used page replacement policy</p>",
+            "<b>C.</b> <p>Most Frequently Used page replacement policy</p>",
+            "<b>D.</b> <p>Optimal page replacement policy</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Optimal page replacement policy</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460798/gate-cse-2025-set-2-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In optimal page replacement algorithm, information about all future page references is available to the operating system (OS). A modification of the optimal page replacement algorithm is as follows:\n<br>\nThe OS correctly predicts only up to next 4 page references (including the current page) at the time of allocating a frame to a page.\n<br>\nA process accesses the pages in the following order of page numbers:\n<br><br>\n1, 3, 2, 4, 2, 3, 1, 2, 4, 3, 1, 4.\n<br><br>\nIf the system has three memory frames that are initially empty, the number of page faults that will occur during execution of the process is _________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460036/gate-cse-2025-set-1-question-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a demand paging memory management system with 32-bit logical address, 20-bit physical address, and page size of 2048 bytes. Assuming that the memory is byte addressable, what is the maximum number of entries in the page table? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{21}\\)</p>",
+            "<b>B.</b> <p>\\(2^{20}\\)</p>",
+            "<b>C.</b> <p>\\(2^{22}\\)</p>",
+            "<b>D.</b> <p>\\(2^{24}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2^{21}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460076/gate-cse-2025-set-1-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a 32-bit system with \\(4 \\mathrm{~KB} \\) page size and page table entries of size 4 bytes each. Assume \\( 1 \\mathrm{~KB}=2^{10} \\) bytes. The OS uses a 2-level page table for memory management, with the page table containing an outer page directory and an inner page table. The OS allocates a page for the outer page directory upon process creation. The OS uses demand paging when allocating memory for the inner page table, i.e., a page of the inner page table is allocated only if it contains at least one valid page table entry.\n<br>\nAn active process in this system accesses 2000 unique pages during its execution, and none of the pages are swapped out to disk. After it completes the page accesses, let \\( X \\) denote the minimum and \\( Y \\) denote the maximum number of pages across the two levels of the page table of the process.\n<br>\nThe value of \\( X+Y \\) is _____ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1028",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422843/gate-cse-2024-set-2-question-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following tasks is/are the responsibility/responsibilities of the memory\nmanagement unit (MMU) in a system with paging-based memory management? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Allocate a new page table for a newly created process</p>",
+            "<b>B.</b> <p>Translate a virtual address to a physical address using the page table</p>",
+            "<b>C.</b> <p>Raise a trap when a virtual address is not found in the page table</p>",
+            "<b>D.</b> <p>Raise a trap when a process tries to write to a page marked with read-only permission in the page table</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translate a virtual address to a physical address using the page table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422883/gate-cse-2024-set-2-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a memory management system that uses a page size of \\( 2 \\mathrm{~KB} \\). Assume that both the physical and virtual addresses start from 0. Assume that the pages \\( 0,1,2 \\), and \\(3\\) are stored in the page frames \\( 1,3,2 \\), and \\(0\\), respectively. The physical address (in decimal format) corresponding to the virtual address \\(2500\\) (in decimal format) is ____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6596",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422790/gate-cse-2024-set-1-question-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a computer system with 57-bit virtual addressing using multi-level\ntree-structured page tables with L levels for virtual to physical address translation.\nThe page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels\noccupies 8 bytes.<br>\nThe value of L is ______. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399263/gate-cse-2023-question-48#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following two-dimensional array D in the C programming language,\nwhich is stored in row-major order:<br><br>\nint D[128][128];<br><br>\nDemand paging is used for allocating memory and each physical page frame holds\n512 elements of the array D. The Least Recently Used (LRU) page-replacement\npolicy is used by the operating system. A total of 30 physical page frames are\nallocated to a process which executes the following code snippet:<br><pre><code>\nfor (int i = 0; i &lt; 128; i++)\n       for (int j = 0; j &lt; 128; j++) \n                   D[j][i] *= 10;\n</code></pre><br>\nThe number of page faults generated during the execution of this code snippet is _____. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4096",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399264/gate-cse-2023-question-47#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a demand paging system with four page frames (initially empty) and LRU page replacement policy. For the following page reference string\n<br><br>\n7, 2, 7, 3, 2, 5, 3, 4, 6, 7, 7,1, 5, 6,1\n<br><br>\nthe page fault rate, defined as the ratio of number of page faults to the number of memory accesses (rounded off to one decimal place) is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371882/Gate-cse-2022-question-54#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which one of the following statements is FALSE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The TLB performs an associative search in parallel on all its valid entries using page number of incoming virtual address.</p>",
+            "<b>B.</b> <p>If the virtual address of a word given by CPU has a TLB hit, but the subsequent search for the word results in a cache miss, then the word will always be present in the main memory.</p>",
+            "<b>C.</b> <p>The memory access time using a given inverted page table is always same for all incoming virtual addresses.</p>",
+            "<b>D.</b> <p>In a system that uses hashed page tables, if two distinct virtual addresses V1 and V2 map to the same value while hashing, then the memory access time of these addresses will not be the same.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The memory access time using a given inverted page table is always same for all incoming virtual addresses.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371908/Gate-cse-2022-question-28#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a three-level page table to translate a 39-bit virtual address to a physical address as shown below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Management\\q48_18e02a9f.jpg\"><br>\nThe page size is 4 KB = (1KB =\\(2^{10}\\) bytes) and page table entry size at every level is 8 bytes. A process P is currently using 2 GB (1 GB =\\(2^{30}\\) bytes) virtual memory which os mapped to 2 GB of physical memory. The minimum amount of memory required for the page table of P across all levels is _________ KB <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4108",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357489/gate-cse-2021-set-2-question-48#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the context of operating systems, which of the following statements is/are correct with respect to paging? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Paging helps solve the issue of external fragmentation</p>",
+            "<b>B.</b> <p>Page size has no impact on internal fragmentation</p>",
+            "<b>C.</b> <p>Paging incurs memory overheads</p>",
+            "<b>D.</b> <p>Multi-level paging is necessary to support pages of different sizes</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Paging helps solve the issue of external fragmentation</p>",
+            "<b>C.</b> <p>Paging incurs memory overheads</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357441/gate-cse-2021-set-1-question-11#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following page reference string.<br>1 2 3 4 2 1 5 6 2 1 2 3 7 6 3 2 1 2 3 6 <br>What are the minimum number of frames required to get a single page fault for the above sequence assuming LRU replacement strategy? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331254/isro2020-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is compaction refers to <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a technique for overcoming internal fragmentation</p>",
+            "<b>B.</b> <p>a paging technique</p>",
+            "<b>C.</b> <p>a technique for overcoming external fragmentation</p>",
+            "<b>D.</b> <p>a technique for compressing the data</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>a technique for overcoming external fragmentation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331280/isro2020-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Consider a paging system that uses 1-level page table residing in main memory and a TLB for address translation. Each main memory access takes 100 ns and TLB lookup takes 20 ns. Each page transfer to/from the disk takes 5000 ns. Assume that the TLB hit ratio is 95%, page fault rate is 10%. Assume that for 20% of the total page faults, a dirty page has to be written back to disk before the required page is read from disk. TLB update time is negligible. The average memory access time in ns (round off to 1 decimal places) is ___________ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "154.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333178/gate2020-cs-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Consider allocation of memory to a new process. Assume that none of the existing holes in the memory will exactly fit the process's memory requirement. Hence, a new hole of smaller size will be created if allocation is made in any of the existing holes. Which one of the following statement is TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The hole created by first fit is always larger than the hole created by next fit.</p>",
+            "<b>B.</b> <p>The hole created by worst fit is always larger than the hole created by first fit.</p>",
+            "<b>C.</b> <p>The hole created by best fit is never larger than the hole created by first fit.</p>",
+            "<b>D.</b> <p>The hole created by next fit is never larger than the hole created by best fit.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The hole created by best fit is never larger than the hole created by first fit.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333220/gate2020-cs-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Assume that in a certain computer, the virtual addresses are 64 bits long and the physical addresses are 48 bits long. The memory is word addressable. The page size is 8kB and the word size is 4 bytes. The Translation Look-aside Buffer (TLB) in the address translation path has 128 valid entries. At most how many distinct virtual addresses can be translated without any TLB miss? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(16 \\times 2^{10}\\)</p>",
+            "<b>B.</b> <p>\\(256 \\times 2^{10}\\)</p>",
+            "<b>C.</b> <p>\\(4 \\times 2^{20}\\)</p>",
+            "<b>D.</b> <p>\\(8 \\times 2^{20}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(256 \\times 2^{10}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302815/gate2019-cs-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>The Operating System of a computer may periodically collect all the free memory space to form contiguous block of free space. This is called: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Concatenation</p>",
+            "<b>B.</b> <p>Garbage Collection</p>",
+            "<b>C.</b> <p>Collision</p>",
+            "<b>D.</b> <p>Dynamic Memory Allocation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Garbage Collection</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213527/isro2018-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>A computer has 1000K of main memory. The jobs arrive and finish in the following sequence.<br> Job 1 requiring 200 K arrives <br>Job 2 requiring 350 K arrives <br>Job 3 requiring 300 K arrives<br>Job 1 finishes<br>Job 4 requiring 120 K arrives<br>Job 5 requiring 150 K arrives<br>Job 6 requiring 80 K arrives<br>Among best fit and first fit, which performs better for this sequence? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First fit</p>",
+            "<b>B.</b> <p>Best fit</p>",
+            "<b>C.</b> <p>Both perform the same</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>First fit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213566/isro2018-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Determine the number of page faults when references to pages occur in the order 1,2,4,5,2,1,2,4. Assume that the main memory can accommodate 3 pages and the main memory already has the pages 1 and 2, with page 1 brought earlier than page 2. (assume LRU i.e., Least-Recently-Used algorithm is applied) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213426/isro2018-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider a process executing on an operating system that uses demand paging. The average time for a memory access in the system is M units if the corresponding memory page is available in memory, and D units if the memory access causes a page fault. It has been experimentally measured that the average time taken for a memory access in the process is X units. <br> Which one of the following is the correct expression for the page fault rate experienced by the process? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(D - M) / (X - M)</p>",
+            "<b>B.</b> <p>(X - M) / (D - M)</p>",
+            "<b>C.</b> <p>(D - X) / (D - M)</p>",
+            "<b>D.</b> <p>(X - M) / (D - X)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(X - M) / (D - M)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204084/gate2018-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Given reference to the following pages by a program<br>0,9,0,1,8,1,8,7,8,7,1,2,8,2,7,8,2,3,8,3<br>How many page faults will occur if the program has three page frames available to it and uses an optimal replacement? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128704/isro2017-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Recall that Belady's anomaly is that the pages-fault rate may increase as the number of\nallocated frames increases. Now consider the following statements: <br><br>\nS1: Random page replacement algorithm (where a page chosen at random is replaced)\nsuffers from Belady's anomaly <br>\nS2: LRU page replacement algorithm suffers from Belady's anomaly <br><br>\nWhich of the following is CORRECT ? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is true, S2 is true</p>",
+            "<b>B.</b> <p>S1 is true, S2 is false</p>",
+            "<b>C.</b> <p>S1 is false , S2 is true</p>",
+            "<b>D.</b> <p>S1 is false, S2 is false</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 is true, S2 is false</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118323/gate-cse-2017-set-1-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative. The minimum size of the TLB tag is: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11 bits</p>",
+            "<b>B.</b> <p>13 bits</p>",
+            "<b>C.</b> <p>15 bits</p>",
+            "<b>D.</b> <p>20 bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1840/gate2006-62-isro2016-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Determine the number of page faults when references to pages occur in the following order:\n1, 2, 4, 5, 2, 1, 2, 4\nAssume that the main memory can accommodate 3 pages and the main memory already has the pages 1 and 2, with page one having brought earlier than page 2. (LRU page replacement algorithm is used) <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55927/isro2016-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Let the page fault service time be 10 ms in a computer with average memory access time being 20 ns. If one page fault is generated for every \\(10^6\\) memory accesses, what is the effective access time for the memory? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21.4 ns</p>",
+            "<b>B.</b> <p>29.9 ns</p>",
+            "<b>C.</b> <p>23.5 ns</p>",
+            "<b>D.</b> <p>35.1 ns</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>29.9 ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55475/isro2016-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when the number of allocated frames increases? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LRU(Least Recently Used)</p>",
+            "<b>B.</b> <p>OPT (Optimal Page Replacement)</p>",
+            "<b>C.</b> <p>MRU(Most Recently Used)</p>",
+            "<b>D.</b> <p>FIFO(First In First Out)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>FIFO(First In First Out)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39559/gate2016-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider a computer system with ten physical page frames. The system is provided with an accessse quence \\((a_{1},a_{2},...,a_{20},a_{1},a_{2},...,a_{20})\\), where each \\(a_{i}\\) is a distinct virtual page number. The difference in the number of page faults between the last-in-first-outpage replacement policy and the optimal page replacement policy is ______. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39711/gate2016-1-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Consider a computer system with 40-bit virtual addressing and page size of sixteen\nkilobytes. If the computer system has a one level page table per process and each page table entry requires 48 bits, then the size of the per-process page table is _________ mega bytes. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "384",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39690/gate2016-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>A processor can support a maximum memory of 4GB, where the memory is word-addressable (a word consists of two bytes). The size of the address bus of the process or is at least bits________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "31",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39632/gate2016-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Dirty bit for a page in a page table <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+            "<b>B.</b> <p>helps maintain LRU information</p>",
+            "<b>C.</b> <p>allows only read on a page</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2241/gate1997-3-10-isro2008-57-isro2015-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Increasing the RAM of a computer typically improves performance because: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Virtual Memory increases</p>",
+            "<b>B.</b> <p>Larger RAMs are faster</p>",
+            "<b>C.</b> <p>Fewer page faults occur</p>",
+            "<b>D.</b> <p>Fewer segmentation faults occur</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Fewer page faults occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1358/gate2005-22-isro2015-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>If there are 32 segments, each size 1k bytes, then the logical address should have <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13 bits</p>",
+            "<b>B.</b> <p>14 bits</p>",
+            "<b>C.</b> <p>15 bits</p>",
+            "<b>D.</b> <p>16 bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51212/isro2015-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>A computer system implements 8 kilobyte pages and a 32-bit physical address space. Each page table entry contains a valid bit, a dirty bit, three permission bits, and the translation. If the maximum size of the page table of a process is 24 megabytes, the length of the virtual address supported by the system is _____ bits. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "36",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8247/gate2015-2-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider six memory partitions of sizes 200 KB, 400 KB, 600 KB, 500 KB, 300 KB and 250 KB, where KB refers to kilobyte. These partitions need to be allotted to four processes of sizes 357 KB, 210 KB, 468 KB and 491 KB in that order. If the best fit algorithm is used, which partitions are NOT allotted to any process? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>200 KB and 300 KB</p>",
+            "<b>B.</b> <p>200 KB and 250 KB</p>",
+            "<b>C.</b> <p>250 KB and 300 KB</p>",
+            "<b>D.</b> <p>300 KB and 400 KB</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>200 KB and 300 KB</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8145/gate2015-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>A computer system implements a 40-bit virtual address, page size of 8 kilobytes, and a 128-entry translation look-aside buffer (TLB) organized into 32 sets each having four ways. Assume that the TLB tag does not store any process id. The minimum length of the TLB tag in bits is _________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "22",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8120/gate2015-2-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider a main memory with five page frames and the following sequence of page references: 3, 8, 2, 3, 9, 1, 6, 3, 8, 9, 3, 6, 2, 1, 3. Which one of the following is true with respect to page replacement policies First In First Out (FIFO) and Least Recently Used (LRU)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both incur the same number of page faults</p>",
+            "<b>B.</b> <p>FIFO incurs 2 more page faults than LRU</p>",
+            "<b>C.</b> <p>LRU incurs 2 more page faults than FIFO</p>",
+            "<b>D.</b> <p>FIFO incurs 1 more page faults than LRU</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both incur the same number of page faults</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8353/gate2015-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider a system with byte-addressable memory, 32-bit logical addresses, 4 kilobyte page size and page table entries of 4 bytes each. The size of the page table in the system in megabytes is ________ . <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8186/gate2015-1-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>What is the size of the physical address space in a paging system which has a page table containing 64 entries of 11 bit each (including valid and invalid bit) and a page size of 512 bytes? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{11}\\)</p>",
+            "<b>B.</b> <p>\\(2^{15}\\)</p>",
+            "<b>C.</b> <p>\\(2^{19}\\)</p>",
+            "<b>D.</b> <p>\\(2^{20}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{19}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52224/isro2014-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Dirty bit is used to indicate which of the following? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A page fault has occurred</p>",
+            "<b>B.</b> <p>A page has corrupted data</p>",
+            "<b>C.</b> <p>A page has been modified after being loaded into cache</p>",
+            "<b>D.</b> <p>An illegal access of page</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A page has been modified after being loaded into cache</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55089/isro2014-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>A computer has 16 pages of virtual address space but the size of main memory is only four frames. Initially the memory is empty. A program references the virtual pages in the order 0, 2, 4, 5, 2, 4, 3, 11, 2, 10. How many page faults occur if LRU page replacement algorithm is used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54972/isro2014-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Using the page table shown below, translate the physical address 25 to virtual address. The address length is 16 bits and page size is 2048 words while the size of the physical memory is four frames.<br>\\(\\begin{array}{lcc} \\text { Page } &amp; \\text { Present }(1-In , 0-Out) &amp; \\text { Frame } \\\\ 0 &amp; 1 &amp; 3 \\\\ 1 &amp; 1 &amp; 2 \\\\ 2 &amp; 1 &amp; 0 \\\\ 3 &amp; 0 &amp; - \\end{array}\\) <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25</p>",
+            "<b>B.</b> <p>6169</p>",
+            "<b>C.</b> <p>2073</p>",
+            "<b>D.</b> <p>4121</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4121</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46107/isro2014-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Consider the following segment table in segmentation scheme :<br>\\(\\begin{array}{|l|l|l|} \\hline \\text { Segment ID } &amp; \\text { Base } &amp; \\text { Limit } \\\\ \\hline 0 &amp; 200 &amp; 200 \\\\ \\hline 1 &amp; 5000 &amp; 1210 \\\\ \\hline 2 &amp; 1527 &amp; 498 \\\\ \\hline 3 &amp; 2500 &amp; 50 \\\\ \\hline \\end{array}\\)<br>What happens if the logical address requested is - Segment Id 2 and offset 1000? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fetches the entry at the physical address 2527 for segment Id 2</p>",
+            "<b>B.</b> <p>A trap is generated</p>",
+            "<b>C.</b> <p>Deadlock</p>",
+            "<b>D.</b> <p>Fetches the entry at offset 27 in Segment Id 3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A trap is generated</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16942/isro2014-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Consider a paging hardware with a TLB. Assume that the entire page table and all the pages are in the physical memory. It takes 10 milliseconds to search the TLB and 80 milliseconds to access the physical memory. If the TLB hit ratio is 0.6, the effective memory access time (in milliseconds) is _________. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "122",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2067/gate2014-3-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>A system uses 3 page frames for storing process pages in main memory. It uses the Least Recently Used (LRU) page replacement policy. Assume that all the page frames are initially empty. What is the total number of page faults that will occur while processing the page reference string given below?\n4, 7, 6, 1, 7, 6, 1, 2, 7, 2 <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2054/gate2014-3-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>A computer has twenty physical page frames which contain pages numbered 101 through\n120. Now a program accesses the pages numbered 1, 2, ..., 100 in that order, and repeats the\naccess sequence THRICE. Which one of the following page replacement policies experiences\nthe same number of page faults as the optimal page replacement policy for this program? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Least-recently-used</p>",
+            "<b>B.</b> <p>First-in-first-out</p>",
+            "<b>C.</b> <p>Last-in-first-out</p>",
+            "<b>D.</b> <p>Most-recently-used</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Most-recently-used</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1992/gate2014-2-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Assume that there are 3 page frames which are initially empty. If the page reference string 1,\n2, 3, 4, 2, 1, 5, 3, 2, 4, 6, the number of page faults using the optimal replacement policy is\n______ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1805/gate2014-1-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Consider the list of page references in the time line as below:<br>\n9  6  2  3  4  4  4  4  3  4  4  2  5  8  6  8  5  5  3  2  3  3  9  6  2  7<br>What is the working set at the penultimate page reference if \\(\\Delta\\) is 5? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{8, 5, 3, 2, 9, 6}</p>",
+            "<b>B.</b> <p>{4, 3, 6, 2, 5}</p>",
+            "<b>C.</b> <p>{3, 9, 6, 2, 7}</p>",
+            "<b>D.</b> <p>{3, 9, 6, 2}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>{3, 9, 6, 2}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45557/isro-2013-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>In a 64- bit machine, with 2 GB RAM, and 8 KB page size, how many entries will be there in the page table if its is inverted? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{18}\\)</p>",
+            "<b>B.</b> <p>\\(2^{20}\\)</p>",
+            "<b>C.</b> <p>\\(2^{33}\\)</p>",
+            "<b>D.</b> <p>\\(2^{51}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2^{18}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44402/isro-2013-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider a logical address space of 8 pages of 1024 words each, mapped onto a physical memory of 32 frames. How many bits are there in the physical address and logical address respectively? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5,3</p>",
+            "<b>B.</b> <p>10,10</p>",
+            "<b>C.</b> <p>15,13</p>",
+            "<b>D.</b> <p>15,15</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15,13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44401/isro2013-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Which of the following are the likely causes of thrashing? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Page size was very small.</p>",
+            "<b>B.</b> <p>There are too many users connected to the system.</p>",
+            "<b>C.</b> <p>Least recently used policy is used for page replacement.</p>",
+            "<b>D.</b> <p>First in First out policy is used for page replacement.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Page size was very small.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44400/isro-2013-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Suppose we have variable logical records of lengths of 5 bytes, 10 bytes and 25 bytes while the physical block size in disk is 15 bytes. What is the maximum and minimum fragmentation seen in bytes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25 and 5</p>",
+            "<b>B.</b> <p>15 and 5</p>",
+            "<b>C.</b> <p>15 and 0</p>",
+            "<b>D.</b> <p>10 and 5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10 and 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44398/isro-2013-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>A computer uses 46-bit virtual address, 32-bit physical address, and a three-level paged page\ntable organization. The page table base register stores the base address of the first-level table\n(T1) ,which occupies exactly one page. Each entry of T1 stores the base address of a page of the\nsecond-level table (T2 ) Each entry of T2 stores the base address of a page of the third-level table\n(T3 ) Each entry of T3 stores a page table entry (PTE). The PTE is 32 bits in size. The processor\nused in the computer has a 1 MB 16 way set associative virtually indexed physically tagged cache.\nThe cache block size is 64 bytes. <br><br>What is the minimum number of page colours needed to guarantee that no two synonyms map to\ndifferent sets in the processor cache of this computer? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43294/gate2013-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>A computer uses 46-bit virtual address, 32-bit physical address, and a three-level paged page\ntable organization. The page table base register stores the base address of the first-level table\n(T1) ,which occupies exactly one page. Each entry of T1 stores the base address of a page of the\nsecond-level table (T2 ) Each entry of T2 stores the base address of a page of the third-level table\n(T3 ) Each entry of T3 stores a page table entry (PTE). The PTE is 32 bits in size. The processor\nused in the computer has a 1 MB 16 way set associative virtually indexed physically tagged cache.\nThe cache block size is 64 bytes. <br><br>What is the size of a page in KB in this computer? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/379/gate2013-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Consider the virtual page reference string <br>\n1, 2, 3, 2, 4, 1, 3, 2, 4, 1 <br>\non a demand paged virtual memory system running on a computer system that has main memory\nsize of 3 page frames which are initially empty. Let LRU, FIFO and OPTIMAL denote the number\nof page faults under the corresponding page replacement policy. Then <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(OPTIMAL \\lt LRU \\lt FIFO\\)</p>",
+            "<b>B.</b> <p>\\(OPTIMAL \\lt FIFO \\lt LRU\\)</p>",
+            "<b>C.</b> <p>OPTIMAL = LRU</p>",
+            "<b>D.</b> <p>OPTIMAL = FIFO</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(OPTIMAL \\lt FIFO \\lt LRU\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2150/gate2012-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Consider a 32-bit machine where four-level paging scheme is used. If the hit ratio to TLB is 98%, and it takes 20 nanosecond to search the TLB and 100 nanoseconds to access the main memory what is effective memory access time in nanoseconds? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>126</p>",
+            "<b>B.</b> <p>128</p>",
+            "<b>C.</b> <p>122</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>128</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52592/isro2011-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>If the page size in a 32-bit machine is 4K bytes then the size of page table is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 M bytes</p>",
+            "<b>B.</b> <p>2 M bytes</p>",
+            "<b>C.</b> <p>4 M bytes</p>",
+            "<b>D.</b> <p>4 K bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 M bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47001/isro2011-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Let the page fault service time be 10ms in a computer with average memory\naccess time being 20ns. If one page fault is generated for every \\(10^{6}\\) memory\naccesses, what is the effective access time for the memory? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21ns</p>",
+            "<b>B.</b> <p>30ns</p>",
+            "<b>C.</b> <p>23ns</p>",
+            "<b>D.</b> <p>35ns</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>30ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2122/gate2011-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin with. The system first accesses 100 distinct pages in some order and then accesses the same 100 pages but now in the reverse order. How many page faults will occur? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>196</p>",
+            "<b>B.</b> <p>192</p>",
+            "<b>C.</b> <p>197</p>",
+            "<b>D.</b> <p>195</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>196</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2203/gate2010-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>A page fault <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Occurs when a program accesses an available page on memory</p>",
+            "<b>B.</b> <p>is an error in a specific page</p>",
+            "<b>C.</b> <p>is a reference to a page belonging to another program</p>",
+            "<b>D.</b> <p>occurs when a program accesses a page not currently in memory</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>occurs when a program accesses a page not currently in memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50331/isro2009-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>A multilevel page table is preferred in comparison to a single level page table for\ntranslating virtual address to physical address because <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It reduces the memory access time to read or write a memory location.</p>",
+            "<b>B.</b> <p>It helps to reduce the size of page table needed to implement the virtual address space of a process.</p>",
+            "<b>C.</b> <p>It is required by the translation lookaside buffer.</p>",
+            "<b>D.</b> <p>It helps to reduce the number of page faults in page replacement algorithms.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It helps to reduce the size of page table needed to implement the virtual address space of a process.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1320/gate2009-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>The essential content(s) in each entry of a page table is / are <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Virtual page number</p>",
+            "<b>B.</b> <p>Page frame number</p>",
+            "<b>C.</b> <p>Both virtual page number and page frame number</p>",
+            "<b>D.</b> <p>Access right information</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Page frame number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1302/gate2009-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>In which one of the following page replacement policies, Belady's anomaly may occur? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FIFO</p>",
+            "<b>B.</b> <p>Optimal</p>",
+            "<b>C.</b> <p>LRU</p>",
+            "<b>D.</b> <p>MRU</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1301/gate2009-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>The page replacement algorithm which gives the lowest page fault rate is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LRU</p>",
+            "<b>B.</b> <p>FIFO</p>",
+            "<b>C.</b> <p>Optimal page replacement</p>",
+            "<b>D.</b> <p>Second chance algorithm</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Optimal page replacement</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50133/isro2008-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>Consider a logical address space of 8 pages of 1024 words mapped into memory of 32 frames. How many bits are there in the logical address? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13 bits</p>",
+            "<b>B.</b> <p>15 bits</p>",
+            "<b>C.</b> <p>14 bits</p>",
+            "<b>D.</b> <p>12 bits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>13 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50005/isro2008-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>Overlaying <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>requires use of a loader</p>",
+            "<b>B.</b> <p>allows larger programs, but requires more effort</p>",
+            "<b>C.</b> <p>is most used on large computers</p>",
+            "<b>D.</b> <p>is transparent to the user</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>allows larger programs, but requires more effort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47809/isro2008-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 68,
+          "question": "<p>Dirty bit for a page in a page table <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+            "<b>B.</b> <p>helps maintain LRU information</p>",
+            "<b>C.</b> <p>allows only read on a page</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2241/gate1997-3-10-isro2008-57-isro2015-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 69,
+          "question": "<p>Thrashing <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always occurs on large computers</p>",
+            "<b>B.</b> <p>is a natural consequence of virtual memory systems</p>",
+            "<b>C.</b> <p>can always be avoided by swapping</p>",
+            "<b>D.</b> <p>can be caused by poor paging algorithms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>can be caused by poor paging algorithms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17260/isro2008-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 70,
+          "question": "<p>Dynamic address translation <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is part of the operating system paging algorithm</p>",
+            "<b>B.</b> <p>is useless when swapping is used</p>",
+            "<b>C.</b> <p>is the hardware necessary to implement paging</p>",
+            "<b>D.</b> <p>storage pages at a specific location on disk</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>is the hardware necessary to implement paging</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17262/isro2008-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 71,
+          "question": "<p>Match the following flag bits used in the context of virtual memory management on the left side with the different purposes on the right side of the table below.<br>\\(\\begin{array}{l|ll} \\text { Name of the bit } &amp; \\text { Purpose } \\\\ \\hline \\text { I. } \\text { Dirty } &amp; \\text { a. }  \\text { Page initialization } \\\\ \\text { II. } \\text { R/W } &amp; \\text { b. } \\text { Write-back policy } \\\\ \\text { III. } \\text { Reference } &amp; \\text { c. } \\text { Page protection } \\\\ \\text { IV. } \\text { Valid } &amp; \\text { d. } \\text { Page replacement policy } \\end{array}\\) <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text{I-d, II-a, III-b, IV-c}\\)</p>",
+            "<b>B.</b> <p>\\(\\text{I-b, II-c, III-a, IV-d}\\)</p>",
+            "<b>C.</b> <p>\\(\\text{I-c, II-d, III-a, IV-b}\\)</p>",
+            "<b>D.</b> <p>\\(\\text{I-b, II-c, III-d, IV-a}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\text{I-b, II-c, III-d, IV-a}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3366/gate2008-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 72,
+          "question": "<p>Assume that a main memory with only 4 pages, each of 16 bytes, is initially empty. The CPU generates the following sequence of virtual addresses and uses the Least Recently Used (LRU) page replacement policy.<br>\n0, 4, 8, 20, 24, 36, 44, 12, 68, 72, 80, 84, 28, 32, 88, 92 <br>\nHow many page faults does this sequence cause? What are the page numbers of the pages present in the main memory at the end of the sequence? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 1, 2, 3, 4</p>",
+            "<b>B.</b> <p>7 and 1, 2, 4, 5</p>",
+            "<b>C.</b> <p>8 and 1, 2, 4, 5</p>",
+            "<b>D.</b> <p>9 and 1, 2, 3, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>7 and 1, 2, 4, 5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3351/gate2008-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 73,
+          "question": "<p>A paging scheme uses a Translation Look-aside Buffer (TLB). A TLB-access takes 10 ns and the main memory access takes 50 ns. What is the effective access time(in ns) if the TLB hit ratio is 90% and there is no page-fault? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>54</p>",
+            "<b>B.</b> <p>60</p>",
+            "<b>C.</b> <p>65</p>",
+            "<b>D.</b> <p>75</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>65</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3276/gate2008-it-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 74,
+          "question": "<p>A processor uses 36 bit physical addresses and 32 bit virtual addresses, with a\npage frame size of 4 Kbytes. Each page table entry is of size 4 bytes. A three\nlevel page table is used for virtual to physical address translation, where the\nvirtual address is used as follows <br><br>\nBits 30-31 are used to index into the first level page table <br>\nBits 21-29 are used to index into the second level page table <br>\nBits 12-20 are used to index into the third level page table, and <br>\nBits 0-11 are used as offset within the page <br><br>\nThe number of bits required for addressing the next level page table (or page\nframe) in the page table entry of the first, second and third level page tables are\nrespectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20, 20 and 20</p>",
+            "<b>B.</b> <p>24, 24 and 24</p>",
+            "<b>C.</b> <p>24, 24 and 20</p>",
+            "<b>D.</b> <p>25, 25 and 24</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>25, 25 and 24</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/490/gate2008-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 75,
+          "question": "<p>The minimum number of page frames that must be allocated to a running process in a virtual memory environment is determined by <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the instruction set architecture</p>",
+            "<b>B.</b> <p>page size</p>",
+            "<b>C.</b> <p>number of processes in memory</p>",
+            "<b>D.</b> <p>physical memory size</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>the instruction set architecture</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1018/gate2004-21-isro2007-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 76,
+          "question": "<p>Virtual memory is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Part of Main Memory only used for swapping</p>",
+            "<b>B.</b> <p>A technique to allow a program, of size more than the size of main memory, to run</p>",
+            "<b>C.</b> <p>Part of secondary storage used in program execution</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A technique to allow a program, of size more than the size of main memory, to run</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49500/isro2007-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 77,
+          "question": "<p>A demand paging system takes 100 time units to service a page fault and 300 time units to replace a dirty page. Memory access time is 1 time unit. The probability of a page fault is p. In case of a page fault, the probability of page being dirty is also p. It is observed that the average access time is 3 time units. Then the value of p is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.194</p>",
+            "<b>B.</b> <p>0.233</p>",
+            "<b>C.</b> <p>0.514</p>",
+            "<b>D.</b> <p>0.981</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.194</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3500/gate2007-it-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 78,
+          "question": "<p>The address sequence generated by tracing a particular program executing in a pure demand paging system with 100 bytes per page is <br>\n\\(\\text{0100, 0200, 0430, 0499, 0510, 0530, 0560, 0120, 0220, 0240, 0260, 0320, 0410.}\\)<br>\nSuppose that the memory can store only one page and if x is the address which causes a page fault then the bytes from addresses x to x + 99 are loaded on to the memory.\nHow many page faults will occur? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3445/gate2007-it-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 79,
+          "question": "<p>Let a memory have four free blocks of sizes 4k, 8k, 20k, 2k. These blocks are allocated following the best-fit strategy. The allocation requests are stored in a queue as shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Management\\q11_cd424688.jpg\"><br>The time at which the request for J7 will be completed will be <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16</p>",
+            "<b>B.</b> <p>19</p>",
+            "<b>C.</b> <p>20</p>",
+            "<b>D.</b> <p>37</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>19</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3444/gate2007-it-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 80,
+          "question": "<p>A process has been allocated 3 page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): 1, 2, 1, 3, 7, 4, 5, 6, 3, 1.  <br><br>  Least Recently Used (LRU) page replacement policy is a practical approximation\nto optimal page replacement. For the above reference string, how many more\npage faults occur with LRU than with the optimal page replacement policy? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43510/gate2007-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 81,
+          "question": "<p>A process has been allocated 3 page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): 1, 2, 1, 3, 7, 4, 5, 6, 3, 1.  <br><br> If optimal page replacement policy is used, how many page faults occur for the\nabove reference string? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1274/gate2007-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 82,
+          "question": "<p>A virtual memory system uses First In First Out (FIFO) page replacement policy and allocates a fixed number of frames to a process. Consider the following statements: <br><br>\nP: Increasing the number of page frames allocated to a process sometimes\nincreases the page fault rate.<br>\nQ: Some programs do not exhibit locality of reference. <br><br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both P and Q are true, and Q is the reason for P</p>",
+            "<b>B.</b> <p>Both P and Q are true, but Q is not the reason for P.</p>",
+            "<b>C.</b> <p>P is false, but Q is true</p>",
+            "<b>D.</b> <p>Both P and Q are false.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both P and Q are true, but Q is not the reason for P.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1254/gate2007-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 83,
+          "question": "<p>For each of the four processes \\(P_1, P_2, P_3,\\) and \\(P_4\\). The total size in kilobytes (KB) and the number of segments are given below.<br>\n\\(\\begin{array}{|c|c|c|}\\hline \\textbf{Process} &amp; \\textbf{Total size (in KB)} &amp; \\textbf{Number of segments} \\\\\\hline \\text{$P_1$} &amp; \\text{195}&amp; \\text{4}\\\\\\hline \\text{$P_2$} &amp; \\text{254} &amp; \\text{5}\\\\\\hline \\text{$P_3$} &amp; \\text{45}&amp; \\text{3} \\\\\\hline \\text{$P_4$} &amp; \\text{364}&amp; \\text{8} \\\\\\hline \\end{array}\\)<br>\nThe page size is 1 KB. The size of an entry in the page table is 4 bytes. The size of an entry in the segment table is 8 bytes. The maximum size of a segment is 256 KB. The paging method for memory management uses two-level paging, and its storage overhead is P. The storage overhead for the segmentation method is S. The storage overhead for the segmentation and paging method is T. What is the relation among the overheads for the different methods of memory management in the concurrent execution of the above four processes? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P  \\lt  S  \\lt  T\\)</p>",
+            "<b>B.</b> <p>\\(S  \\lt  P  \\lt  T\\)</p>",
+            "<b>C.</b> <p>\\(S  \\lt  T  \\lt  P\\)</p>",
+            "<b>D.</b> <p>\\(T \\lt S  \\lt  P\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(S  \\lt  P  \\lt  T\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3600/gate2006-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 84,
+          "question": "<p>In the working-set strategy, which of the following is done by the operating system to prevent thrashing?<br><br>\nI. It initiates another process if there are enough extra frames.<br>\nII. It selects a process to suspend if the sum of the sizes of the working-sets exceeds the total number of available frames. <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Neither I nor II</p>",
+            "<b>D.</b> <p>Both I and II</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3551/gate2006-it-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 85,
+          "question": "<p>A computer system supports 32-bit virtual addresses as well as 32-bit physical\naddresses, Since the virtual address space is of the same size as the physical\naddress space, the operating system designers decide to get rid of the virtual\nentirely. Which one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Efficient implementation of multi-user support is no longer possible</p>",
+            "<b>B.</b> <p>The processor cache organization can be made more efficient now</p>",
+            "<b>C.</b> <p>Hardware support for memory management is no longer needed</p>",
+            "<b>D.</b> <p>CPU scheduling can be made more efficient now</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Efficient implementation of multi-user support is no longer possible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1841/gate2006-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 86,
+          "question": "<p>Increasing the RAM of a computer typically improves performance because: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Virtual memory increases</p>",
+            "<b>B.</b> <p>Larger RAMs are faster</p>",
+            "<b>C.</b> <p>Fewer page faults occur</p>",
+            "<b>D.</b> <p>Fewer segmentation faults occur</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Fewer page faults occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1358/gate2005-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 87,
+          "question": "<p>In a virtual memory system, size of the virtual address is 32-bit, size of the physical address is 30-bit, page size is 4 Kbyte and size of each page table entry is 32-bit. The main memory is byte addressable. Which one of the following is the maximum number of bits that can be used for storing protection and other information in each page table entry? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3709/gate2004-it-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 88,
+          "question": "<p>Consider a system with a two-level paging scheme in which a regular memory access takes 150\nnanoseconds, and servicing a page fault takes 8 milliseconds. An average instruction takes 100\nnanoseconds of CPU time, and two memory accesses. The TLB hit ratio is 90%, and the page fault\nrate is one in every 10,000 instructions. What is the effective average instruction execution time? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>645 nanoseconds</p>",
+            "<b>B.</b> <p>1050 nanoseconds</p>",
+            "<b>C.</b> <p>1215 nanoseconds</p>",
+            "<b>D.</b> <p>1230 nanoseconds</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1230 nanoseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/318/gate2004-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 89,
+          "question": "<p>The minimum number of page frames that must be allocated to a running process in a virtual\nmemory environment is determined by <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the instruction set architecture</p>",
+            "<b>B.</b> <p>page size</p>",
+            "<b>C.</b> <p>physical memory size</p>",
+            "<b>D.</b> <p>number of processes in memory</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>the instruction set architecture</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1018/gate2004-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 90,
+          "question": "<p>A processor uses 2-level page tables for virtual to physical address translation. Page tables for both levels are stored in the main memory. Virtual and physical addresses are both 32 bits wide. The memory is byte addressable. For virtual to physical address translation, the 10 most significant bits of the virtual address are used as index into the first level page table while the next 10 bits are used as index into the second level page table. The 12 least significant bits of the virtual address are used as offset within the page. Assume that the page table entries in both levels of page tables are 4 bytes wide. Further, the processor has a translation look-aside buffer (TLB), with a hit rate of 96%. The TLB caches recently used virtual page numbers and the corresponding physical page numbers. The processor also has a physically addressed cache with a hit rate of 90%. Main memory access time is 10 ns, cache access time is 1 ns, and TLB access time is also 1 ns. <br><br>Suppose a process has only the following pages in its virtual address space: two contiguous code pages starting at virtual address 0x00000000, two contiguous data pages starting at virtual address 0x00400000, and a stack page starting at virtual address 0xFFFFF000. The amount of memory required for storing the page tables of this process is: <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 KB</p>",
+            "<b>B.</b> <p>12 KB</p>",
+            "<b>C.</b> <p>16 KB</p>",
+            "<b>D.</b> <p>20 KB</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16 KB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43578/gate2003-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 91,
+          "question": "<p>A processor uses 2-level page tables for virtual to physical address translation. Page tables for both levels are stored in the main memory. Virtual and physical addresses are both 32 bits wide. The memory is byte addressable. For virtual to physical address translation, the 10 most significant bits of the virtual address are used as index into the first level page table while the next 10 bits are used as index into the second level page table. The 12 least significant bits of the virtual address are used as offset within the page. Assume that the page table entries in both levels of page tables are 4 bytes wide. Further, the processor has a translation look-aside buffer (TLB), with a hit rate of 96%. The TLB caches recently used virtual page numbers and the corresponding physical page numbers. The processor also has a physically addressed cache with a hit rate of 90%. Main memory access time is 10 ns, cache access time is 1 ns, and TLB access time is also 1 ns. <br><br>Assuming that no page faults occur, the average time taken to access a virtual address is approximately (to the nearest 0.5 ns) <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.5 ns</p>",
+            "<b>B.</b> <p>2 ns</p>",
+            "<b>C.</b> <p>3 ns</p>",
+            "<b>D.</b> <p>4 ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4 ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/788/gate2003-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 92,
+          "question": "<p>In a system with 32 bit virtual addresses and 1 KB page size, use of one-level\npage tables for virtual to physical address translation is not practical because of <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the large amount of internal fragmentation</p>",
+            "<b>B.</b> <p>the large amount of external fragmentation</p>",
+            "<b>C.</b> <p>the large memory overhead in maintaining page tables</p>",
+            "<b>D.</b> <p>the large computation overhead in the translation process</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the large memory overhead in maintaining page tables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/916/gate2003-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 93,
+          "question": "<p>The optimal page replacement algorithm will select the page that <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Has not been used for the longest time in the past.</p>",
+            "<b>B.</b> <p>Will not be used for the longest time in the future.</p>",
+            "<b>C.</b> <p>Has been used least number of times.</p>",
+            "<b>D.</b> <p>Has been used most number of times</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Will not be used for the longest time in the future.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/828/gate2002-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 94,
+          "question": "<p>Suppose the time to service a page fault is on the average 10 milliseconds, while a memory access takes 1 microsecond. Then a 99.99% hit ratio results in average memory access time of <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.9999 milliseconds</p>",
+            "<b>B.</b> <p>1 millisecond</p>",
+            "<b>C.</b> <p>9.999 microseconds</p>",
+            "<b>D.</b> <p>1.9999 microseconds</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.9999 microseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/669/gate2000-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 95,
+          "question": "<p>Which of the following is/are advantage(s) of virtual memory? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Faster access to memory on an average.</p>",
+            "<b>B.</b> <p>Processes can be given protected address spaces.</p>",
+            "<b>C.</b> <p>Linker can assign addresses independent of where the program will be loaded in physical memory.</p>",
+            "<b>D.</b> <p>Program larger than the physical memory size can be run.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Processes can be given protected address spaces.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1489/gate1999-2-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 96,
+          "question": "<p>A multi-user, multi-processing operating system cannot be implemented on hardware that does not support <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Address translation</p>",
+            "<b>B.</b> <p>DMA for disk transfer</p>",
+            "<b>C.</b> <p>At least two modes of CPU execution (privileged and non-privileged)</p>",
+            "<b>D.</b> <p>Demand paging</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Address translation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1488/gate1999-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 97,
+          "question": "<p>Listed below are some operating system abstractions (in the left column) and the hardware components (in the right column)<br>\\(\\small \\begin{array}{cl|cl}\\hline \\text{(A)}&amp; \\text{Thread} &amp; \\text{1.}&amp; \\text{Interrupt} \\\\\\hline \\text{(B)}&amp; \\text{Virtual address space} &amp; \\text{2.}&amp; \\text{Memory} \\\\\\hline \\text{(C)} &amp;\\text{File system} &amp; \\text{3.} &amp;\\text{CPU} \\\\\\hline \\text{(D)} &amp;\\text{Signal} &amp; \\text{4.}&amp; \\text{Disk} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(A) - 2 (B) - 4 (C) - 3 (D) - 1</p>",
+            "<b>B.</b> <p>(A) - 1 (B) - 2 (C) - 3 (D) - 4</p>",
+            "<b>C.</b> <p>(A) - 3 (B) - 2 (C) - 4 (D) - 1</p>",
+            "<b>D.</b> <p>(A) - 4 (B) - 1 (C) - 2 (D) - 3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(A) - 3 (B) - 2 (C) - 4 (D) - 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1462/gate1999-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 98,
+          "question": "<p>If an instruction takes \\(i\\) microseconds and a page fault takes an additional \\(j\\) microseconds, the effective instruction time if on the average a page fault occurs every \\(k\\) instruction is: <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(i + \\dfrac{j}{k}\\)</p>",
+            "<b>B.</b> <p>\\(i +(j\\times k)\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{i+j}{k}\\)</p>",
+            "<b>D.</b> <p>\\(({i+j})\\times {k}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(i + \\dfrac{j}{k}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1691/gate1998-2-18-ugcnet-june2012-iii-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 99,
+          "question": "<p>Dirty bit for a page in a page table <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+            "<b>B.</b> <p>helps maintain LRU information</p>",
+            "<b>C.</b> <p>allows only read on a page</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2241/gate1997-3-10-isro2008-57-isro2015-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 100,
+          "question": "<p>Thrashing <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>reduces page I/O</p>",
+            "<b>B.</b> <p>decreases the degree of multiprogramming</p>",
+            "<b>C.</b> <p>implies excessive page I/O</p>",
+            "<b>D.</b> <p>improve the system performance</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>implies excessive page I/O</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2240/gate1997-3-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 101,
+          "question": "<p>Locality of reference implies that the page reference being made by a process <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>will always be to the page used in the previous page reference</p>",
+            "<b>B.</b> <p>is likely to be to one of the pages used in the last few page references</p>",
+            "<b>C.</b> <p>will always be to one of the pages existing in memory</p>",
+            "<b>D.</b> <p>will always lead to a page fault</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>is likely to be to one of the pages used in the last few page references</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2236/gate1997-3-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 102,
+          "question": "<p>A 1000 Kbyte memory is managed using variable partitions but no compaction. It currently has two partitions of sizes 200 Kbyte and 260 Kbyte respectively. The smallest allocation request in Kbyte that could be denied is for <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>151</p>",
+            "<b>B.</b> <p>181</p>",
+            "<b>C.</b> <p>231</p>",
+            "<b>D.</b> <p>541</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>181</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2747/gate1996-2-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 103,
+          "question": "<p>In a virtual memory system the address space specified by the address lines of the CPU must be _____ than the physical memory size and ____ than the secondary storage size. <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>smaller, smaller</p>",
+            "<b>B.</b> <p>smaller, larger</p>",
+            "<b>C.</b> <p>larger, smaller</p>",
+            "<b>D.</b> <p>larger, larger</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>larger, smaller</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2628/gate1995-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 104,
+          "question": "<p>The address sequence generated by tracing a particular program executing in a pure demand based paging system with 100 records per page with 1 free main memory frame is recorded as follows. What is the number of page faults?<br>\n0100, 0200, 0430, 0499, 0510, 0530, 0560, 0120, 0220, 0240, 0260, 0320, 0370 <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2619/gate1995-2-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 105,
+          "question": "<p>Which of the following page replacement algorithms suffers from Belady's anamoly? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Optimal replacement</p>",
+            "<b>B.</b> <p>LRU</p>",
+            "<b>C.</b> <p>FIFO</p>",
+            "<b>D.</b> <p>Both (A) and (C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2595/gate1995-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 106,
+          "question": "<p>In a paged segmented scheme of memory management, the segment table itself must have a page table because <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The segment table is often too large to fit in one page</p>",
+            "<b>B.</b> <p>Each segment is spread over a number of pages</p>",
+            "<b>C.</b> <p>Segment tables point to page tables and not to the physical locations of the segment</p>",
+            "<b>D.</b> <p>The processor's description base register points to a page table</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The segment table is often too large to fit in one page</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2594/gate1995-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 107,
+          "question": "<p>Consider the following heap (figure) in which blank regions are not in use and hatched region are in use.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Management\\q1.24_c629eb08.jpg\"><br>The sequence of requests for blocks of sizes 300, 25, 125, 50 can be satisfied if we use <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>either first fit or best fit policy (any one)</p>",
+            "<b>B.</b> <p>first fit but not best fit policy</p>",
+            "<b>C.</b> <p>best fit but not first fit policy</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>first fit but not best fit policy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2467/gate1994-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 108,
+          "question": "<p>Which one of the following statements is true? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Macro definitions cannot appear within other macro definitions in assembly language programs</p>",
+            "<b>B.</b> <p>Overlaying is used to run a program which is longer than the address space of a computer</p>",
+            "<b>C.</b> <p>Virtual memory can be used to accommodate a program which is longer than the address space of a computer</p>",
+            "<b>D.</b> <p>It is not possible to write interrupt service routines in a high level language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Macro definitions cannot appear within other macro definitions in assembly language programs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2464/gate1994-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 109,
+          "question": "<p>A memory page containing a heavily used variable that was initialized very early and is in constant use is removed then <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LRU page replacement algorithm is used</p>",
+            "<b>B.</b> <p>FIFO page replacement algorithm is used</p>",
+            "<b>C.</b> <p>LFU page replacement algorithm is used</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>FIFO page replacement algorithm is used</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2454/gate1994-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 110,
+          "question": "<p>Consider a machine with 64 MB physical memory and a 32-bit virtual address\nspace. If the page size is 4 KB, what is the approximate size of the page table ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16MB</p>",
+            "<b>B.</b> <p>8MB</p>",
+            "<b>C.</b> <p>2MB</p>",
+            "<b>D.</b> <p>24MB</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2MB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/739/gate2001-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 111,
+          "question": "<p>Consider a virtual memory system with FIFO page replacement policy. For an\narbitrary page access pattern, increasing the number of page frames in main\nmemory will. <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Always decrease the number of page faults</p>",
+            "<b>B.</b> <p>Always increase the number of page faults</p>",
+            "<b>C.</b> <p>Sometimes increase the number of page faults</p>",
+            "<b>D.</b> <p>Never affect the number of page faults</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Sometimes increase the number of page faults</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/714/gate2001-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 112,
+          "question": "<p>Which of the following statements is false ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Virtual memory implements the translation of a program's address space\ninto physical memory address space.</p>",
+            "<b>B.</b> <p>Virtual memory allows each program to exceed the size of the primary memory.</p>",
+            "<b>C.</b> <p>Virtual memory increases the degree of multi-programming</p>",
+            "<b>D.</b> <p>Virtual memory reduces the context switching overhead.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Virtual memory reduces the context switching overhead.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/701/gate2001-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 113,
+          "question": "<p>Choose the correct alternatives (more than one can be correct) and write the corresponding letters only:<br>Indicate all the false statements from the statements given below: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The amount of virtual memory available is limited by the availability of the secondary memory</p>",
+            "<b>B.</b> <p>Any implementation of a critical section requires the use of an indivisible machine- instruction ,such as test-and-set.</p>",
+            "<b>C.</b> <p>The use of monitors ensure that no dead-locks will be caused .</p>",
+            "<b>D.</b> <p>The LRU page-replacement policy may cause thrashing for some type of programs.</p>",
+            "<b>E.</b> <p>The best fit techniques for memory allocation ensures that memory will never be fragmented.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Any implementation of a critical section requires the use of an indivisible machine- instruction ,such as test-and-set.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/525/gate1991-03-xi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 114,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nThe total size of address space in a virtual memory system is limited by: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the length of MAR</p>",
+            "<b>B.</b> <p>the available secondary storage</p>",
+            "<b>C.</b> <p>the available main memory</p>",
+            "<b>D.</b> <p>all of the above</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>the length of MAR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/517/gate1991-03-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

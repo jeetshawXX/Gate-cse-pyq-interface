@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Application Software",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Application Software",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"68080\"></a><div itemprop=\"text\"><p>Applications-software</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2010 | Part 2 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Is used to control the operating system</p>",
+            "<p>Includes programs designed to help programmers</p>",
+            "<p>Performs a specific task for computer users</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68080/ugc-net-cse-june-2010-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/68080/ugc-net-cse-june-2010-part-2-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+});

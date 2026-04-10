@@ -1,0 +1,131 @@
+{
+  "title": "Network_Security - Network_Security - Slot 3",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Network_Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>SSL is not responsible for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual authentication of client &amp; server</p>",
+            "<b>B.</b> <p>Secret communication</p>",
+            "<b>C.</b> <p>Data Integrity protection</p>",
+            "<b>D.</b> <p>Error detection and correction</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Error detection and correction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49638/isro2007-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>You are given the following four bytes :<br>\n\\(\\begin{array}{|l|l|l|l|l|l|l|l|l|l|} \\hline 10100011 &amp; 00110111 &amp; 11101001 &amp; 10101011 \\\\ \\hline \\end{array}\\)<br>\nWhich of the following are substrings of the base 64 encoding of the above four bytes? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>zdp</p>",
+            "<b>B.</b> <p>fpq</p>",
+            "<b>C.</b> <p>qwA</p>",
+            "<b>D.</b> <p>oze</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>fpq</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3515/gate2007-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A firewall is to be configured to allow hosts in a private network to freely open TCP connections and send packets on open connections. However, it will only allow external hosts to send packets on existing open TCP connections or connections that are being opened (by internal hosts) but not allow them to open TCP connections to hosts in the private network. To achieve this the minimum capability of the firewall should be that of <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A combinational circuit</p>",
+            "<b>B.</b> <p>A finite automaton</p>",
+            "<b>C.</b> <p>A pushdown automaton with one stack</p>",
+            "<b>D.</b> <p>A pushdown automaton with two stack</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A pushdown automaton with two stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3451/gate2007-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The minimum positive integer p such that  \\(3^{p} \\pmod {17} = 1\\) is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3449/gate2007-it-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following two statements:<br>\ni.A hash function (these are often used for computing digital signatures) is an injective function.<br>\nii.A. encryption technique such as DES performs a permutation on the elements of its input alphabet.<br>\nWhich one of the following options is valid for the above two statements? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both are false</p>",
+            "<b>B.</b> <p>Statement (i) is true and the other is false</p>",
+            "<b>C.</b> <p>Statement (ii) is true and the other is false</p>",
+            "<b>D.</b> <p>Both are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Statement (ii) is true and the other is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3448/gate2007-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following statement(s) is TRUE?<br><br>\nI.  A hash function takes a message of arbitrary length and generates a fixed length code.<br>\nII. A hash function takes a message of fixed length and generates a code of variable length.<br>\nIII. A hash function may give the same hash value for distinct messages. <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3559/gate2006-it-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Suppose that two parties A and B wish to setup a common secret key (D-H key) between themselves using the Diffie-Hellman key exchange technique. They agree on 7 as the modulus and 3 as the primitive root. Party A chooses 2 and party B chooses 5 as their respective secrets. Their D-H key is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3843/gate2005-it-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A sender is employing public key cryptography to send a secret message to a receiver. Which one of the following statements is TRUE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sender encrypts using receiver's public key</p>",
+            "<b>B.</b> <p>Sender encrypts using his own public key</p>",
+            "<b>C.</b> <p>Receiver decrypts using sender's public key</p>",
+            "<b>D.</b> <p>Receiver decrypts using his own public key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sender encrypts using receiver's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3666/gate2004-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

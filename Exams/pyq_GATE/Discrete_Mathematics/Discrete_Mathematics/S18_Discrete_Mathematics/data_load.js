@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 18",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A sink in a directed graph is a vertex i such that there is an edge from every vertex \\(j \\neq i\\) to i and there is no edge from i to any other vertex. A directed graph G with n vertices is represented by its adjacency matrix A, where A[i] [j] = 1 if there is an edge directed from vertex i to j and 0 otherwise. The following algorithm determines whether there is a sink in the graph G.<br><pre><code> i = 0;\ndo {\n    j = i + 1;\n    while ((j &lt; n) &amp;&amp; E1) j++;\n    if (j &lt; n) E2;\n} while (j &lt; n);\nflag = 1;\nfor (j = 0; j &lt; n; j++)\n    if ((j! = i) &amp;&amp; E3) flag = 0;\nif (flag) printf(\"Sink exists\") ;\nelse printf (\"Sink does not exist\");</code></pre> <br>\nChoose the correct expression for \\(E_3\\) and \\(E_2\\). <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(E_1 : A[i][j]\\) and \\(E_2 : i = j;\\)</p>",
+            "<b>B.</b> <p>\\(E_1 :\\ !A[i][j]\\) and \\(E_2 : i = j + 1;\\)</p>",
+            "<b>C.</b> <p>\\(E_1:\\ !A[i][j]\\) and \\(E_2 : i = j;\\)</p>",
+            "<b>D.</b> <p>\\(E_1 : A[i][j]\\) and \\(E_2 : i = j + 1;\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(E_1:\\ !A[i][j]\\) and \\(E_2 : i = j;\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3856/gate2005-it-84a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a communication network, a packet of length L bits takes link \\(L_1\\) with a probability of \\(p_1\\) or link \\(L_2\\) with a probability of \\(p_2\\). Link \\(L_1\\) and \\(L_2\\) have bit error probability of \\(b_1\\) and \\(b_2\\) respectively. The probability that the packet will be received without error via either \\(L_1\\) or \\(L_2\\) is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((1 - b_1)^Lp_1 + (1 - b_2)^Lp_2\\)</p>",
+            "<b>B.</b> <p>\\([1 - (b_1 + b_2)^L]p_1p_2\\)</p>",
+            "<b>C.</b> <p>\\((1 - b_1)^L (1 - b_2)^Lp_1p_2\\)</p>",
+            "<b>D.</b> <p>\\(1 - (b_1^Lp_1 + b_2^Lp_2)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((1 - b_1)^Lp_1 + (1 - b_2)^Lp_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3837/gate2005-it-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A line L in a circuit is said to have a stuck-at-0 fault if the line permanently has a logic value 0. Similarly a line L in a circuit is said to have a stuck-at-1 fault if the line permanently has a logic value 1. A circuit is said to have a multiple stuck-at fault if one or more lines have stuck at faults. The total number of distinct multiple stuck-at faults possible in a circuit with N lines is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(3^N\\)</p>",
+            "<b>B.</b> <p>\\(3^N - 1\\)</p>",
+            "<b>C.</b> <p>\\(2^N - 1\\)</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(3^N - 1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3807/gate2005-it-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let P(x) and Q(x) be arbitrary predicates. Which of the following statements is always TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\left(\\forall x \\left(P\\left(x\\right) \\vee Q\\left(x\\right)\\right)\\right)\\right) \\implies \\left(\\left(\\forall x P\\left(x\\right)\\right) \\vee \\left(\\forall xQ\\left(x\\right)\\right)\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\forall x \\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right)\\right) \\implies \\left(\\left(\\forall x P\\left(x\\right)\\right) \\implies \\left(\\forall xQ\\left(x\\right)\\right)\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\forall x\\left(P\\left(x\\right) \\right) \\implies \\forall x \\left( Q\\left(x\\right)\\right)\\right) \\implies \\left(\\forall x \\left( P\\left(x\\right) \\implies Q\\left(x\\right)\\right)\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\forall x \\left( P\\left(x\\right)\\right) \\Leftrightarrow \\left(\\forall x \\left( Q\\left(x\\right)\\right)\\right) \\right) \\implies \\left(\\forall x \\left (P\\left(x\\right) \\Leftrightarrow Q\\left(x\\right)\\right)\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\forall x \\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right)\\right) \\implies \\left(\\left(\\forall x P\\left(x\\right)\\right) \\implies \\left(\\forall xQ\\left(x\\right)\\right)\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3783/gate2005-it-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(n = p^{2}q\\), where p and q are distinct prime numbers. How many numbers m satisfy \\(1 \\leq m \\leq n\\) and gcd(m,n)=1? <br>Note that gcd(m,n) is the greatest common divisor of m and n. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(p(q - 1)\\)</p>",
+            "<b>B.</b> <p>\\(pq\\)</p>",
+            "<b>C.</b> <p>\\(\\left ( p^{2}-1 \\right ) (q - 1)\\)</p>",
+            "<b>D.</b> <p>\\(p(p - 1) (q - 1)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(p(p - 1) (q - 1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3780/gate2005-it-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let A be a set with n elements. Let C be a collection of distinct subsets of A such that for any two subsets \\(S_1\\) and \\(S_2\\) in C, either \\(S_1 \\subset S_2\\) or \\(S_2\\subset S_1\\). What is the maximum cardinality of C? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>n+1</p>",
+            "<b>C.</b> <p>\\(2^{n-1} + 1\\)</p>",
+            "<b>D.</b> <p>n!</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3779/gate2005-it-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>An unbiased coin is tossed repeatedly until the outcome of two successive tosses is the same. Assuming that the trials are independent, the expected number of tosses is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3778/gate2005-it-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(f\\) be a function from a set A to a set B,  \\(g\\) a function from B to C, and \\(h\\) a function from A to C, such that \\(h(a) = g(f(a))\\) for all \\(a \\in A\\). Which of the following statements is always true for all such functions \\(f\\) and \\(g\\)? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>g is onto \\(\\implies h\\) is onto</p>",
+            "<b>B.</b> <p>h is onto \\(\\implies f\\) is onto</p>",
+            "<b>C.</b> <p>h is onto \\(\\implies g\\) is onto</p>",
+            "<b>D.</b> <p>h is onto \\(\\implies f\\) and g are onto</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>h is onto \\(\\implies g\\) is onto</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3777/gate2005-it-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In a depth-first traversal of a graph G with n vertices, k edges are marked as tree edges. The number of connected components in G is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k</p>",
+            "<b>B.</b> <p>k+1</p>",
+            "<b>C.</b> <p>n-k-1</p>",
+            "<b>D.</b> <p>n-k</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3759/gate2005-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A bag contains 10 blue marbles, 20 green marbles and 30 red marbles. A marble is drawn from the bag, its colour recorded and it is put back in the bag. This process is repeated 3 times. The probability that no two of the marbles drawn have the same colour is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{1}{36}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{1}{6}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{1}{4}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\dfrac{1}{3}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left(\\dfrac{1}{6}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3745/gate2005-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A random bit string of length n is constructed by tossing a fair coin n times and setting a bit to 0 or 1\ndepending on outcomes head and tail, respectively. The probability that two such randomly\ngenerated strings are not identical is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/2^{n}\\)</p>",
+            "<b>B.</b> <p>1-1/n</p>",
+            "<b>C.</b> <p>1/n!</p>",
+            "<b>D.</b> <p>\\(1-(1/2^{n})\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(1-(1/2^{n})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1177/gate2005-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Box P has 2 red balls and 3 blue balls and box Q has 3 balls and 1 blue ball. A ball is selected as\nfollows: (i) select a box (ii) choose a ball from the selected box such that each ball in the box is\nequally likely to be chosen. The probabilities of selecting boxes P and Q are 1/3 and 2/3 respectively.\nGiven that a ball selected in the above process is a red ball, the probability that it came from the box\nP is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(4/19\\)</p>",
+            "<b>B.</b> <p>\\(5/19\\)</p>",
+            "<b>C.</b> <p>\\(2/9\\)</p>",
+            "<b>D.</b> <p>\\(19/30\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(4/19\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1176/gate2005-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which one of the following graphs is NOT planar? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q47_d0c7ddfc.jpg\"> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G1</p>",
+            "<b>B.</b> <p>G2</p>",
+            "<b>C.</b> <p>G3</p>",
+            "<b>D.</b> <p>G4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>G1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1172/gate2005-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the set H of all 3 x 3 matrices of the type <br> \\(\\begin{bmatrix} a &amp; f &amp; e\\\\ 0 &amp; b &amp; d\\\\ 0&amp;0 &amp; c \\end{bmatrix}\\)<br> where a,b,c,d,e and f are real numbers and abc\\(\\neq\\)0. Under the matrix multiplication operation, the set H is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a group</p>",
+            "<b>B.</b> <p>a monoid but not a group</p>",
+            "<b>C.</b> <p>a semi group but not a monoid</p>",
+            "<b>D.</b> <p>neither a group nor a semi group</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1171/gate2005-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is the minimum number of ordered pairs of non-negative numbers that should be chosen to\nensure that there are two pairs (a,b) and (c,d) in the chosen set such that <br>\na \\(\\equiv\\) c mod 3 and b \\(\\equiv\\) d mod 5 <br> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1170/gate2005-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

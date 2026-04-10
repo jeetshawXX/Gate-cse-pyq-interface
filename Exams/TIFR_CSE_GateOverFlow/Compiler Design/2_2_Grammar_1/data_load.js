@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Grammar",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Grammar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"382002\"></a><div itemprop=\"text\"><p>Consider the following grammar: \\( \\text{P, Q, R} \\) are non-terminals; \\( c, d \\) are terminals; \\( \\text{P} \\) is the start symbol; and the production rules follow.</p><p>\\( \\mathrm{P}::=\\mathrm{QR} \\)</p><p>\\( \\text{Q ::= c} \\)</p><p>\\( \\text{Q} ::=\\text{RcR} \\)</p><p>\\( \\text{R ::=ddQ} \\)</p><p>Which of the following is <strong>False:</strong></p></div><br><br><b>Compiler Design: TIFR CSE 2022 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The length of every string produced by the grammar is even</p>",
+            "<p>No string produced by the grammar has an odd number of consecutive \\( d\\text{'s} \\)</p>",
+            "<p>No string produced by the grammar has four consecutive \\( d\\text{'s} \\)</p>",
+            "<p>No string produced by the grammar has three consecutive \\( c\\text{'s} \\)</p>",
+            "<p>Every string produced by the grammar has at least has many \\( d\\text{'s} \\) as \\( c\\text{'s} \\)</p>"
+          ],
+          "correct_answer": "<p>No string produced by the grammar has four consecutive \\( d\\text{'s} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/382002/tifr-cse-2022-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/382002/tifr-cse-2022-part-b-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

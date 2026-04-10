@@ -1,0 +1,256 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Network_Security",
+  "duration": 47,
+  "sections": [
+    {
+      "name": "Network_Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In an RSA cryptosystem, the value of the public modulus parameter n is 3007. If it is also is known that \\(\\phi(n)=2880\\), where \\(\\phi()\\) denotes Euler's Totient Function, then the prime factors of n which is greater than 50 is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "97",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302794/gate2019-cs-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a RSA cryptosystem a participant A uses two prime numbers p=13 and q=17 to generate\nher public and private keys. If the public key of A is 35. Then the private key of A is\n__________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118327/gate2017-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A sender S sends a message m to receiver R, which is digitally signed by S with its\nprivate key. In this scenario, one or more of the following security violations can take place. <br><br>\nI. S can launch a birthday attack to replace m with a fraudulent message.<br>\nII. A third party attacker can launch a birthday attack to replace m with a fraudulent message  <br>  III. R can launch a birthday attack to replace m with a fraudulent message.<br><br>\nWhich of the following are possible security violations? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118295/gate2017-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Anarkali digitally signs a message and sends it to Salim. Verification of the signature by Salim requires <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Anarkali's public key</p>",
+            "<b>B.</b> <p>Salim's public key.</p>",
+            "<b>C.</b> <p>Salim's private key</p>",
+            "<b>D.</b> <p>Anarkali's private key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Anarkali's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39555/gate2016-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider that B wants to send a message m that is digitally signed to A. Let the pair of private and public keys for A and B be denoted by \\(K_{x}^{-}\\)\nand \\(K_{x}^{+}\\) for x = A,B, respectively. Let  \\(K_{x}(m)\\)\nrepresent the operation of encrypting m with a key \\(K_{x}\\) and H(m) represent the message digest. Which one of the following indicates the CORRECT way of sending the message m along with the digital signature to A? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(m,K^{+}_{B}(H(m))\\)}</p>",
+            "<b>B.</b> <p>{\\({m,K^{-}_{B}(H(m))}\\)}</p>",
+            "<b>C.</b> <p>{\\({m,K^{-}_{A}(H(m))}\\)}</p>",
+            "<b>D.</b> <p>{\\({m,K^{+}_{A}(H(m))}\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\({m,K^{-}_{B}(H(m))}\\)}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39694/gate2016-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Suppose that everyone in a group of N people wants to communicate secretly with the N-1 others using symmetric key cryptographic system. The communication between any two persons should not be decodable by the others in the group. The number of keys required in the system as a whole to satisfy the confidentiality requirement is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2N</p>",
+            "<b>B.</b> <p>N(N-1)</p>",
+            "<b>C.</b> <p>N(N-1)/2</p>",
+            "<b>D.</b> <p>\\((N-1)^{2}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>N(N-1)/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8244/gate2015-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following are used to generate a message digest by the network security\nprotocols? <br>(P) RSA <br>(Q) SHA-1 <br>(R) DES <br>(S) MD5 <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P and R only</p>",
+            "<b>B.</b> <p>Q and R only</p>",
+            "<b>C.</b> <p>Q and S only</p>",
+            "<b>D.</b> <p>R and S only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Q and S only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1791/gate2014-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Using public key cryptography, X adds a digital signature \\(\\sigma\\)  to message M, encrypts \\(\\lt M, \\sigma \\gt\\), and\nsends it to Y, where it is decrypted. Which one of the following sequences of keys is used for the\noperations? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Encryption: X's private key followed by Y's private key; Decryption: X's public key followed\nby Y's public key</p>",
+            "<b>B.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: X's public key followed\nby Y's private key</p>",
+            "<b>C.</b> <p>Encryption: X's public key followed by Y's private key; Decryption: Y's public key followed\nby X's private key</p>",
+            "<b>D.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\nby X's public key</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\nby X's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1435/gate2013-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In the RSA public key cryptosystem, the private and public keys are (e,n) and\n(d,n) respectively, where n=p*q and p and q are large primes. Besides, n is\npublic and p and q are private. Let M be an integer such that \\(0 \\lt M \\lt n\\) and\n\\(\\phi (n)= (p-1)(q-1)\\). Now consider the following equations. <br><br>  I.   \\( M'=M^{e} mod \\; n\\) <br> \\(M=(M')^{d}mod  \\;  n \\) <br><br> II. ed=1 mod n  <br><br> III. ed=1 mod \\(\\phi (n)\\) <br> <br>IV. \\(M'=M^{e}mod  \\;  \\phi (n)\\)<br> \\(M=(M')^{d}mod  \\;  \\phi (n)\\) <br><br>Which of the above equations correctly represent RSA cryptosystem? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>I and III</p>",
+            "<b>C.</b> <p>II and IV</p>",
+            "<b>D.</b> <p>III and IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1332/gate2009-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The total number of keys required for a set of n individuals to be able to communicate with each other using secret key and public key cryptosystems, respectively are: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n(n-1) \\text { and } 2 n\\)</p>",
+            "<b>B.</b> <p>\\(2 n \\text { and } \\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } 2 n\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } 2 n\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3384/gate2008-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>You are given the following four bytes :<br>\n\\(\\begin{array}{|l|l|l|l|l|l|l|l|l|l|} \\hline 10100011 &amp; 00110111 &amp; 11101001 &amp; 10101011 \\\\ \\hline \\end{array}\\)<br>\nWhich of the following are substrings of the base 64 encoding of the above four bytes? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>zdp</p>",
+            "<b>B.</b> <p>fpq</p>",
+            "<b>C.</b> <p>qwA</p>",
+            "<b>D.</b> <p>oze</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>fpq</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3515/gate2007-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A firewall is to be configured to allow hosts in a private network to freely open TCP connections and send packets on open connections. However, it will only allow external hosts to send packets on existing open TCP connections or connections that are being opened (by internal hosts) but not allow them to open TCP connections to hosts in the private network. To achieve this the minimum capability of the firewall should be that of <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A combinational circuit</p>",
+            "<b>B.</b> <p>A finite automaton</p>",
+            "<b>C.</b> <p>A pushdown automaton with one stack</p>",
+            "<b>D.</b> <p>A pushdown automaton with two stack</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A pushdown automaton with two stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3451/gate2007-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The minimum positive integer p such that  \\(3^{p} \\pmod {17} = 1\\) is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3449/gate2007-it-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following two statements:<br>\ni.A hash function (these are often used for computing digital signatures) is an injective function.<br>\nii.A. encryption technique such as DES performs a permutation on the elements of its input alphabet.<br>\nWhich one of the following options is valid for the above two statements? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both are false</p>",
+            "<b>B.</b> <p>Statement (i) is true and the other is false</p>",
+            "<b>C.</b> <p>Statement (ii) is true and the other is false</p>",
+            "<b>D.</b> <p>Both are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Statement (ii) is true and the other is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3448/gate2007-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following statement(s) is TRUE?<br><br>\nI.  A hash function takes a message of arbitrary length and generates a fixed length code.<br>\nII. A hash function takes a message of fixed length and generates a code of variable length.<br>\nIII. A hash function may give the same hash value for distinct messages. <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3559/gate2006-it-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Suppose that two parties A and B wish to setup a common secret key (D-H key) between themselves using the Diffie-Hellman key exchange technique. They agree on 7 as the modulus and 3 as the primitive root. Party A chooses 2 and party B chooses 5 as their respective secrets. Their D-H key is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3843/gate2005-it-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>A sender is employing public key cryptography to send a secret message to a receiver. Which one of the following statements is TRUE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sender encrypts using receiver's public key</p>",
+            "<b>B.</b> <p>Sender encrypts using his own public key</p>",
+            "<b>C.</b> <p>Receiver decrypts using sender's public key</p>",
+            "<b>D.</b> <p>Receiver decrypts using his own public key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sender encrypts using receiver's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3666/gate2004-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

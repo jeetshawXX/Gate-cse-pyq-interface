@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Rarp Protocol",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Rarp Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316197\"></a><div itemprop=\"text\"><p>What is the name of the protocol that allows a client to send a broadcast message with its MAC address and receive an IP address in reply?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2019 | Part 2 | Question: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ARP</p>",
+            "<p>DNS</p>",
+            "<p>RARP</p>",
+            "<p>ICMP</p>"
+          ],
+          "correct_answer": "<p>RARP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316197/ugc-net-cse-june-2019-part-2-question-82\" target=\"_blank\">https://gateoverflow.in/316197/ugc-net-cse-june-2019-part-2-question-82</a></p>"
+        }
+      ]
+    }
+  ]
+});

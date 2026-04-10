@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Inheritance",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Inheritance",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60073\"></a><div itemprop=\"text\"><p>_____ allows to create classes which are derived from other classes, so that they automatically include some of its \"parent's\" members, plus its own members.</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2013 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Overloading</p>",
+            "<p>Inheritance</p>",
+            "<p>Polymorphism</p>",
+            "<p>Encapsulation</p>"
+          ],
+          "correct_answer": "<p>Inheritance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60073/ugc-net-cse-december-2013-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/60073/ugc-net-cse-december-2013-part-2-question-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60956\"></a><div itemprop=\"text\"><p>Which of the following, in C++, is inherited in a derived class from base class?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | Junet 2015 | Part 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>constructor</p>",
+            "<p>destructor</p>",
+            "<p>data members</p>",
+            "<p>virtual methods</p>"
+          ],
+          "correct_answer": "<p>data members</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60956/ugc-net-cse-junet-2015-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/60956/ugc-net-cse-junet-2015-part-2-question-12</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"60960\"></a><div itemprop=\"text\"><p>When the inheritance is private, the private methods in base class are _____ in the derived class (in C++)</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | Junet 2015 | Part 2 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>inaccessible&nbsp;</p>",
+            "<p>accessible</p>",
+            "<p>protected</p>",
+            "<p>public</p>"
+          ],
+          "correct_answer": "<p>inaccessible&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60960/ugc-net-cse-junet-2015-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/60960/ugc-net-cse-junet-2015-part-2-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

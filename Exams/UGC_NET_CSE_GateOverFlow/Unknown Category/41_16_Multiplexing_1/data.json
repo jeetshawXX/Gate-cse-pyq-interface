@@ -1,0 +1,26 @@
+{
+  "title": "Unknown Category - Multiplexing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Multiplexing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64713\"></a><div itemprop=\"text\"><p>A comparison of frequency division and time division multiplexing system shows that</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2011 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( FDM \\) requires a lower bandwidth, but \\( TDM \\) has greater noise immunity.</p>",
+            "<p>\\( FDM \\) has greater noise immunity and requires lower bandwidth than \\( TDM \\).</p>",
+            "<p>\\( FDM \\) requires channel synchronization, while \\( TDM \\) has greater noise immunity.</p>",
+            "<p>\\( FDM \\) requires more multiplex while \\( TDM \\) requires band pass filter.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64713/ugc-net-cse-june-2011-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/64713/ugc-net-cse-june-2011-part-2-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+}

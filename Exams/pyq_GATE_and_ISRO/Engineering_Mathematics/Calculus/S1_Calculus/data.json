@@ -1,0 +1,212 @@
+{
+  "title": "Calculus - Calculus - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The value of \\(x \\) such that \\(x &gt; 1 \\), satisfying the equation\n\\(  \\int_{1}^{x}t \\ln t \\, dt = \\frac{1}{4} \\) is <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sqrt{e} \\)</p>",
+            "<b>B.</b> <p>\\(e \\)</p>",
+            "<b>C.</b> <p>\\(e^2 \\)</p>",
+            "<b>D.</b> <p>\\(e - 1 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\sqrt{e} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460833/gate-cse-2025-set-2-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the given function \\(f(x)\\).\n<br><br>\n\\(f(x) =\n\\begin{cases}\nax + b &amp; \\text{for } x &lt; 1 \\\\\nx^3 + x^2 + 1 &amp; \\text{for } x \\geq 1\n\\end{cases}\\)\n<br><br>\nIf the function is differentiable everywhere, the value of \\(b\\) must be ________. (rounded off to one decimal place) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-2.1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the given system of linear equations for variables \\(x\\) and \\(y\\), where \\(k\\) is a real-valued constant. Which of the following option(s) is/are CORRECT?\n<br><br>\n\\(x + k y = 1\\)<br>\n\\(k x + y = -1\\) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>There is exactly one value of \\(k\\) for which the above system of equations has no solution.</p>",
+            "<b>B.</b> <p>There exist an infinite number of values of \\(k\\) for which the system of equations has no solution.</p>",
+            "<b>C.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has exactly one solution.</p>",
+            "<b>D.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has an infinite number of solutions.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>There is exactly one value of \\(k\\) for which the above system of equations has no solution.</p>",
+            "<b>D.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has an infinite number of solutions.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460067/gate-cse-2025-set-1-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\( f(x) \\) be a continuous function from \\( \\mathbb{R} \\) to \\( \\mathbb{R} \\) such that\n<br> \\(\nf(x)=1-f(2-x)\n\\) <br>\nWhich one of the following options is the CORRECT value of \\( \\int_0^2 f(x) d x \\) ? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( 0  \\)</p>",
+            "<b>B.</b> <p>\\( 1  \\)</p>",
+            "<b>C.</b> <p>\\( 2  \\)</p>",
+            "<b>D.</b> <p>\\( -1  \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\( 1  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The value of the definite integral \\( \\int_{-3}^{3}  \\int_{-2}^{2}  \\int_{-1}^{1} (4x^2y-z^3)dzdydx\\) is _____. (Rounded off to the nearest integer) <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399290/gate-cse-2023-question-21#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(f(x)=x^3+15x^2-33x-36 \\) be a real-valued function.<br>\nWhich of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(f(x)\\) does not have a local maximum.</p>",
+            "<b>B.</b> <p>\\(f(x)\\)  has a local maximum.</p>",
+            "<b>C.</b> <p>\\(f(x)\\) does not have a local minimum.</p>",
+            "<b>D.</b> <p>\\(f(x)\\)  has a local minimum.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(f(x)\\)  has a local maximum.</p>",
+            "<b>D.</b> <p>\\(f(x)\\)  has a local minimum.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399293/gate-cse-2023-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The value of the following limit is _____<br>\\( \\lim_{x  \\to 0+} \\frac{ \\sqrt{x}}{1-e^{2 \\sqrt{x}}}\\) <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371912/Gate-cse-2022-question-24#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>For two n-dimensional real vectors \\(P\\) and \\(Q\\), the operation \\(s(P,Q)\\) is defined as follows:\n<br><br>\n\\(s(P,Q) = \\displaystyle \\sum_{i=1}^n (P[i] \\cdot Q[i])\\)\n<br><br>Let \\(\\mathcal{L}\\) be a set of 10-dimensional non-zero real vectors such that for every pair of distinct vectors \\(P,Q \\in \\mathcal{L}, s(P,Q)=0\\). What is the maximum cardinality possible for the set \\(\\mathcal{L}\\)? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>100</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357503/gate-cse-2021-set-2-question-37#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Suppose that \\(f: \\mathbb{R} \\rightarrow \\mathbb{R}\\) is a continuous function on the interval [-3,3] and a differentiable function in the interval (-3,3) such that for every \\(x\\) in the interval, \\(f'(x) \\leq 2\\). If \\(f(-3) =7\\), then \\(f(3) \\) is at most __________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357515/gate-cse-2021-set-2-question-25#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following expression.<br>\\(\\lim_{x\\rightarrow-3}\\frac{\\sqrt{2x+22}-4}{x+3}\\)\n<br>\nThe value of the above expression (rounded to 2 decimal places) is ___________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.25",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the functions <br><br>I. \\(e^{-x}\\) <br>II. \\(x^2-\\sin x\\) <br>III. \\(\\sqrt{x^3+1}\\) <br> <br>\nWhich of the above functions is/are increasing everywhere in  [0,1] ? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>III only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I and III only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333230/gate2020-cs-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Compute \\(\\lim_{x \\to 3}\\frac{x^4-81}{2x^2-5x-3}\\) <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>53/12</p>",
+            "<b>C.</b> <p>108/7</p>",
+            "<b>D.</b> <p>Limit does not exist</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>108/7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302835/gate2019-cs-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The domain of the function \\(\\log (\\log \\sin (x))\\) is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0\\lt x \\lt \\pi\\)</p>",
+            "<b>B.</b> <p>\\(2 n \\pi \\lt x \\lt (2 n+1) \\pi\\), for n in N</p>",
+            "<b>C.</b> <p>Empty set</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Empty set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213573/isro2018-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The value of \\(\\int_{0}^{\\frac{\\pi }{4}}x\\cos (x^{2})dx\\) correct to three decimal places\n(assuming that \\(\\pi\\)  = 3.14 ) is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.27",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204090/gate2018-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following is a closed form expression for the generating function of the sequence \\(\\left \\{ a_{n} \\right \\}\\), where \\(a_{n}=2n+3\\) for all n = 0, 1, 2,...? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{3}{(1-x)^{2}}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3x}{(1-x)^{2}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{2-x}{(1-x)^{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{3-x}{(1-x)^{2}}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{3-x}{(1-x)^{2}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204075/gate2018-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Ethernet",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Ethernet",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58282\"></a><div itemprop=\"text\">\n<p>The baud rate of a signal is 600 baud/second. If each signal unit carries 6 bits, then the bit rate of a signal is ____</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>3600</p>",
+            "<p>100</p>",
+            "<p>6/600</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>3600</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58282/ugc-net-cse-june-2013-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/58282/ugc-net-cse-june-2013-part-3-question-17</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"58291\"></a><div itemprop=\"text\">\n<p>What is the baud rate of standard 10 Mbps Ethernet?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>10 megabaud</p>",
+            "<p>20 megabaud</p>",
+            "<p>30 megabaud</p>",
+            "<p>40 megabaud</p>"
+          ],
+          "correct_answer": "<p>20 megabaud</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58291/ugc-net-cse-june-2013-part-3-question-22\" target=\"_blank\">https://gateoverflow.in/58291/ugc-net-cse-june-2013-part-3-question-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"48597\"></a><div itemprop=\"text\"><p>The minimum frame length for \\( 10 \\) Mbps Ethernet is ________ bytes and maximum is _______ bytes.</p></div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 2 | Question: 03</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 64 \\) &amp; \\( 128 \\)</p>",
+            "<p>\\( 128 \\) &amp; \\( 1518 \\)&nbsp;</p>",
+            "<p>\\( 1518 \\) &amp; \\( 3036 \\)</p>",
+            "<p>\\( 64 \\) &amp; \\( 1518 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 64 \\) &amp; \\( 1518 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48597/ugc-net-cse-june-2014-part-2-question-03\" target=\"_blank\">https://gateoverflow.in/48597/ugc-net-cse-june-2014-part-2-question-03</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"59001\"></a><div itemprop=\"text\">\n<p>A file is downloaded in a home computer using 56 kbps MODEM connected to an Internet Service Provider. If the download of the file completes in 2 minutes, what is the maximum size of the data downloaded?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>112 Mbits</p>",
+            "<p>6.72 Mbits</p>",
+            "<p>67.20 Mbits</p>",
+            "<p>672 Mbits</p>"
+          ],
+          "correct_answer": "<p>6.72 Mbits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59001/ugc-net-cse-september-2013-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/59001/ugc-net-cse-september-2013-part-2-question-1</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"59009\"></a><div itemprop=\"text\">\n<p>What is the maximum length of CAT-5 UTP cable in Fast Ethernet network?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 2 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>100 meters</p>",
+            "<p>200 meters</p>",
+            "<p>1000 meters</p>",
+            "<p>2000 meters</p>"
+          ],
+          "correct_answer": "<p>100 meters</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59009/ugc-net-cse-september-2013-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/59009/ugc-net-cse-september-2013-part-2-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

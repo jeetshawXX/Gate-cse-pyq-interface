@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Eigen Value",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Eigen Value",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"310892\"></a><div itemprop=\"text\"><p>Let \\( A \\) be a \\( 3 \\times 3 \\) real matrix. Suppose 1 and -1 are two of the three Eigen values of \\( A \\) and 18 is one of the Eigen values of \\( A^2+3 A \\). Then</p>\n\n</div><br><br><b>Linear Algebra: CSIR UGC NET</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( A \\) and \\( A^2+3 A \\) are invertible</p>",
+            "<p>\\( A^2+3 A \\) is invertible but \\( A \\) is not invertible</p>",
+            "<p>\\( A \\) is invertible but \\( A^2+3 A \\) is not invertible</p>",
+            "<p>Both \\( \\mathrm{A} \\) and \\( A^2+3 A \\) are not invertible.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/310892/csir-ugc-net\" target=\"_blank\">https://gateoverflow.in/310892/csir-ugc-net</a></p>"
+        }
+      ]
+    }
+  ]
+});

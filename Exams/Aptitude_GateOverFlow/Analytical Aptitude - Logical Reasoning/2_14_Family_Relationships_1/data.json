@@ -1,0 +1,24 @@
+{
+  "title": "Analytical Aptitude - Logical Reasoning - Family Relationships",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Family Relationships",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"993\"></a><div itemprop=\"text\"><p><strong>Choose 1 if the question can be answered by one of the statements alone but not by other.</strong></p>\n\n<p><strong>Choose 2 if the question can be answered by using either statement alone.</strong></p>\n\n<p><strong>Choose 3 if the question can be answered by using both the statements together but cannot be answered by using either statement alone.</strong></p>\n\n<p><strong>Choose 4 if the question cannot be answered even by using both the statements A and B.</strong></p>\n\n<p>F and M are father and mother of S, respectively. S has four uncles and three aunts. F has two siblings. The siblings of F and M are unmarried. How many brothers does M have?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>F has two brothers.</p>",
+            "<p>M has five siblings.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/993/cat-2003-question-1-89\" target=\"_blank\">https://aptitude.gateoverflow.in/993/cat-2003-question-1-89</a></p>"
+        }
+      ]
+    }
+  ]
+}

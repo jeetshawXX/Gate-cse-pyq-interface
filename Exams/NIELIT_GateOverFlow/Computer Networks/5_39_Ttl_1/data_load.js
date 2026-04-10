@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Ttl",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Ttl",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275520\"></a><div itemprop=\"text\"><p>Time to Live(TTL) field in the IP datagram is used ______</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>to optimize throughput</p>",
+            "<p>to prevent packet looping</p>",
+            "<p>to reduce delays</p>",
+            "<p>to prioritize packets</p>"
+          ],
+          "correct_answer": "<p>to prevent packet looping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275520/nielit-2018-44\" target=\"_blank\">https://gateoverflow.in/275520/nielit-2018-44</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Operator Overloading",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operator Overloading",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64362\"></a><div itemprop=\"text\"><p>The goal of operator overloading is</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | June 2011 | Part 2 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>To help the user of a class</p>",
+            "<p>To help the developer of a class</p>",
+            "<p>To help define friend function</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64362/ugc-net-cse-june-2011-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/64362/ugc-net-cse-june-2011-part-2-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

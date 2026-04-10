@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Quick Sort",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Quick Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59025\"></a><div itemprop=\"text\"><p>Suppose that the splits at every level of Quicksort are in proportion \\( 1-\\beta \\text{ to } \\beta \\), where \\( 0 &lt; \\beta \\leq 0.5 \\) is a constant. The number of elements in an array is n. The maximum depth is approximately</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | September 2013 | Part 2 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0.5 \\( \\beta \\) Ig n</p>",
+            "<p>0.5 (1-\\( \\beta \\)) Ig n</p>",
+            "<p>-(Ig n)/(Ig \\( \\beta \\))</p>",
+            "<p>-(Ig n)/Ig (1-\\( \\beta \\))</p>"
+          ],
+          "correct_answer": "<p>-(Ig n)/Ig (1-\\( \\beta \\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59025/ugc-net-cse-september-2013-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/59025/ugc-net-cse-september-2013-part-2-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Algorithms - Dynamic Programming",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Dynamic Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"498\"></a><div itemprop=\"text\"><p>The subset-sum problem is defined as follows. Given a set of \\( n \\) positive integers, \\( S = \\{ a_1, a_2, a_3, \\dots , a_n \\} \\), and positive integer \\( W \\), is there a subset of \\( S \\) whose elements sum to \\( W \\)? A dynamic program for solving this problem uses a \\( \\text{2-dimensional} \\) Boolean array, \\( X \\), with \\( n \\) rows and \\( W+1 \\) columns.&nbsp;\\( X[i, j], 1 \\leq i \\leq n, 0 \\leq j \\leq&nbsp;W \\), is TRUE, if and only if there is a subset of \\( \\{a_1, a_2, \\dots, a_i\\} \\) whose elements sum to \\( j \\).</p>\n\n<p>Which&nbsp;of the following is valid for \\( 2 \\leq i \\leq n \\), and \\( a_i \\leq j \\leq W \\)?</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X[i, j] = X[i-1, j] \\vee X[i, j-a_i] \\)</p>",
+            "<p>\\( X[i, j] = X[i-1, j] \\vee&nbsp;X[i-1, j-a_i] \\)</p>",
+            "<p>\\( X[i, j] = X[i-1, j] \\wedge X[i, j-a_i] \\)</p>",
+            "<p>\\( X[i, j] = X[i-1, j] \\wedge&nbsp;X[i-1, j-a_i] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( X[i, j] = X[i-1, j] \\vee&nbsp;X[i-1, j-a_i] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/498/gate-cse-2008-question-80\" target=\"_blank\">https://gateoverflow.in/498/gate-cse-2008-question-80</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"43484\"></a><div itemprop=\"text\"><p>The subset-sum problem is defined as follows. Given a set of \\( n \\) positive integers, \\( S = \\{ a_1, a_2, a_3, \\dots , a_n \\} \\), and positive integer \\( W \\), is there a subset of \\( S \\) whose elements sum to \\( W \\)? A dynamic program for solving this problem uses a \\( \\text{2-dimensional} \\) Boolean array, \\( X \\), with \\( n \\) rows and \\( W+1 \\) columns. \\( X[i, j], 1 \\leq i \\leq n, 0 \\leq j \\leq W \\), is TRUE, if and only if there is a subset of \\( \\{a_1, a_2, \\dots, a_i\\} \\) whose elements sum to \\( j \\).</p>\n\n<p>Which entry of the array \\( X \\), if TRUE, implies that there is a subset whose elements sum to \\( W \\)?</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 81</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X[1, W] \\)</p>",
+            "<p>\\( X[n, 0] \\)</p>",
+            "<p>\\( X[n, W] \\)</p>",
+            "<p>\\( X[n-1, n] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( X[n, W] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43484/gate-cse-2008-question-81\" target=\"_blank\">https://gateoverflow.in/43484/gate-cse-2008-question-81</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1338\"></a><div itemprop=\"text\"><p>A sub-sequence of a given sequence is just the given sequence with some elements (possibly none or all) left out. We are given two sequences \\( X[m] \\) and \\( Y[n] \\) of lengths \\( m \\) and \\( n \\), respectively with indexes of \\( X \\) and \\( Y \\) starting from \\( 0 \\).</p>\n\n<p>We wish to find the length of the longest common sub-sequence (LCS) of \\( X[m] \\) and \\( Y[n] \\) as \\( l(m, n) \\), where an incomplete recursive definition for the function \\( I(i, j) \\) to compute the length of the LCS of \\( X[m] \\) and \\( Y[n] \\) is given below:</p>\n\n<pre class=\"text\" style=\"text-align: justify;\">l(i,j)  = 0, if either i = 0 or j = 0\n        = expr1, if i,j &gt; 0 and X[i-1] = Y[j-1]\n        = expr2, if i,j &gt; 0 and X[i-1] ≠ Y[j-1]\n</pre>\n\n<p>Which one of the following options is correct?</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{expr1} = l\\left(i-1, j\\right) +1 \\)</p>",
+            "<p>\\( \\text{expr1} = l\\left(i, j-1\\right) \\)</p>",
+            "<p>\\( \\text{expr2} = \\max\\left(l\\left(i-1, j\\right), l\\left(i,j-1\\right)\\right) \\)</p>",
+            "<p>\\( \\text{expr2} = \\max\\left(l\\left(i-1, j-1\\right), l\\left(i,j\\right)\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{expr2} = \\max\\left(l\\left(i-1, j\\right), l\\left(i,j-1\\right)\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1338/gate-cse-2009-question-53\" target=\"_blank\">https://gateoverflow.in/1338/gate-cse-2009-question-53</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"43476\"></a><div itemprop=\"text\"><p>A sub-sequence of a given sequence is just the given sequence with some elements (possibly none or all) left out. We are given two sequences \\( X[m] \\) and \\( Y[n] \\) of lengths \\( m \\) and \\( n \\), respectively with indexes of \\( X \\) and \\( Y \\) starting from \\( 0 \\).</p><p>We wish to find the length of the longest common sub-sequence (LCS) of \\( X[m] \\) and \\( Y[n] \\) as \\( l(m, n) \\), where an incomplete recursive definition for the function \\( I(i, j) \\) to compute the length of the LCS of \\( X[m] \\) and \\( Y[n] \\) is given below:</p><pre>l(i,j)  = 0, if either i = 0 or j = 0\n        = expr1, if i,j &gt; 0  and  X[i-1] = Y[j-1]\n        = expr2, if i,j &gt; 0  and  X[i-1] ≠ Y[j-1]\n</pre><p>The value of \\( l(i,j) \\) could be obtained by dynamic programming based on the correct recursive definition of \\( l(i,j) \\) of the form given above, using an array \\( L[M,N] \\), where \\( M = m+1 \\) and \\( N = n+1 \\), such that \\( L[i, j] = l(i, j) \\).</p><p>Which one of the following statements would be TRUE regarding the dynamic programming solution for the recursive definition of \\( l(i, j) \\)?</p></div><br><br><b>GATE CSE 2009 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>All elements of \\( L \\) should be initialized to 0 for the values of \\( l(i, j) \\) to be properly computed.</p>",
+            "<p>The values of \\( l(i, j) \\) may be computed in a row major order or column major order of \\( L[M, N] \\).</p>",
+            "<p>The values of \\( l(i, j) \\) cannot be computed in either row major order or column major order of \\( L[M, N] \\).</p>",
+            "<p>\\( L[p, q] \\) needs to be computed before \\( L[r, s] \\) if either \\( p&lt;r \\) or \\( q &lt; s \\).</p>"
+          ],
+          "correct_answer": "<p>The values of \\( l(i, j) \\) may be computed in a row major order or column major order of \\( L[M, N] \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43476/gate-cse-2009-question-54\" target=\"_blank\">https://gateoverflow.in/43476/gate-cse-2009-question-54</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2208\"></a><div itemprop=\"text\"><p>The weight of a sequence \\( a_0,a_1, \\dots, a_{n-1} \\) of real numbers is defined as \\( a_0+a_1/2+ \\dots + a_{n-1}/2^{n-1} \\). A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements the same. Let \\( X \\) denote the maximum possible weight of a subsequence of \\( a_o,a_1, \\dots, a_{n-1} \\) and \\( Y \\) the maximum possible weight of a subsequence of \\( a_1,a_2, \\dots, a_{n-1} \\). Then \\( X \\) is equal to</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( max(Y, a_0+Y) \\)</p>",
+            "<p>\\( max(Y, a_0+Y/2) \\)</p>",
+            "<p>\\( max(Y, a_0 +2Y) \\)</p>",
+            "<p>\\( a_0+Y/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( max(Y, a_0+Y/2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2208/gate-cse-2010-question-34\" target=\"_blank\">https://gateoverflow.in/2208/gate-cse-2010-question-34</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2127\"></a><div itemprop=\"text\"><p>An algorithm to find the length of the longest monotonically increasing sequence of numbers in an array \\( A[0:n-1] \\) is given below.</p>\n\n<p>Let \\( L_i \\), denote the length of the longest monotonically increasing sequence starting at index \\( i \\) in the array.</p>\n\n<p>Initialize \\( L_{n-1} = 1 \\).</p>\n\n<p>For all \\( i \\) such that \\( 0 \\leq i \\leq n-2 \\)</p>\n\n<p>\\(  L_i = \\begin{cases} 1+ L_{i+1} &amp; &nbsp;\\quad\\text{if A[i] &lt; A[i+1]} \\\\ 1 &amp; \\quad\\text{Otherwise}\\end{cases}  \\)</p>\n\n<p>Finally, the&nbsp;length of the longest monotonically increasing sequence is \\( \\text{max} \\:(L_0, L_1, \\dots , L_{n-1}). \\)</p>\n\n<p>Which of the following statements is&nbsp;<strong>TRUE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The algorithm uses dynamic programming paradigm</p>",
+            "<p>The algorithm has a linear complexity and uses branch and bound paradigm</p>",
+            "<p>The algorithm has a non-linear polynomial complexity and uses branch and bound paradigm</p>",
+            "<p>The algorithm uses divide and conquer paradigm</p>"
+          ],
+          "correct_answer": "<p>The algorithm uses dynamic programming paradigm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2127/gate-cse-2011-question-25\" target=\"_blank\">https://gateoverflow.in/2127/gate-cse-2011-question-25</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1996\"></a><div itemprop=\"text\"><p>Consider two strings \\( A \\) =&nbsp;<em>\"qpqrr\"</em>&nbsp;and \\( B \\) =&nbsp;<em>\"pqprqrp\"</em>. Let \\( x \\) be the length of the longest common subsequence&nbsp;<em>(not necessarily contiguous)&nbsp;</em>between \\( A \\) and \\( B \\) and let \\( y \\) be the number of such longest common subsequences between \\( A \\) and \\( B \\). Then \\( x +10y= \\) ___.</p></div><br><br><b>GATE CSE 2014 Set 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1996/gate-cse-2014-set-2-question-37\" target=\"_blank\">https://gateoverflow.in/1996/gate-cse-2014-set-2-question-37</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2071\"></a><div itemprop=\"text\"><p>Suppose you want to move from \\( 0 \\) to \\( 100 \\) on the number line. In each step, you either move right by a unit distance or you take a <em>shortcut</em>. A shortcut is simply a pre-specified pair of integers \\( i,\\:j \\:\\text{with}\\: i &lt;j \\). Given a shortcut \\( (i,j) \\), if you are at position \\( i \\) on the number line, you may directly move to \\( j \\). Suppose \\( T(k) \\) denotes the smallest number of steps needed to move from \\( k \\) to \\( 100 \\). Suppose further that there is at most \\( 1 \\)&nbsp;shortcut involving any number, and in particular, from \\( 9 \\) there is a shortcut to \\( 15 \\). Let \\( y \\) and \\( z \\) be such that \\( T(9) = 1 + \\min(T(y),T(z)) \\). Then the value of the product \\( yz \\) is _____.</p></div><br><br><b>GATE CSE 2014 Set 3 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "150",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2071/gate-cse-2014-set-3-question-37\" target=\"_blank\">https://gateoverflow.in/2071/gate-cse-2014-set-3-question-37</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"39570\"></a><div itemprop=\"text\"><p>The Floyd-Warshall algorithm for all-pair shortest paths computation is based on</p>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Greedy paradigm.</p>",
+            "<p>Divide-and-conquer paradigm.</p>",
+            "<p>Dynamic Programming paradigm.</p>",
+            "<p>Neither Greedy nor Divide-and-Conquer nor Dynamic Programming paradigm.</p>"
+          ],
+          "correct_answer": "<p>Dynamic Programming paradigm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39570/gate-cse-2016-set-2-question-14\" target=\"_blank\">https://gateoverflow.in/39570/gate-cse-2016-set-2-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

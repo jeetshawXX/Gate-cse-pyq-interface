@@ -1,0 +1,87 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Instruction Format",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Instruction Format",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18580\"></a><div itemprop=\"text\"><p>Compared to CISC processors,RISC processors contain</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2009 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>More register and smaller instruction set</p>",
+            "<p>larger instruction set</p>",
+            "<p>less registers and smaller instruction set</p>",
+            "<p>more transistor elements</p>"
+          ],
+          "correct_answer": "<p>More register and smaller instruction set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18580/isro-cse-2009-question-79\" target=\"_blank\">https://gateoverflow.in/18580/isro-cse-2009-question-79</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"55479\"></a><div itemprop=\"text\"><p>In which class of Flynn's taxanomy, Von Neumann architecture belongs to?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2016 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SISD</p>",
+            "<p>SIMD</p>",
+            "<p>MIMD</p>",
+            "<p>MISD</p>"
+          ],
+          "correct_answer": "<p>SISD</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55479/isro-cse-2016-question-24\" target=\"_blank\">https://gateoverflow.in/55479/isro-cse-2016-question-24</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"213557\"></a><div itemprop=\"text\">\n\n<p>A byte addressable computer has a memory capacity of $2\\[ ^{m} \\]KB\\(  ( \\)k\\(  bytes) and can perform  \\)2$$^{n}\\(  operations. An instruction involving&nbsp; \\)3$ operands and one operator needs maximum of:</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2018 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3m \\) bits</p>",
+            "<p>\\( 3m + n \\) bits</p>",
+            "<p>\\( m + n \\) bits</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "<p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213557/isro-cse-2018-question-31\" target=\"_blank\">https://gateoverflow.in/213557/isro-cse-2018-question-31</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"213582\"></a><div itemprop=\"text\"><p>A data driven machine is one that executes an instruction if the needed data is available. The physical ordering of the code listing does not dictate the course of execution. Consider the following pseudo-code:</p>\n\n\n\n<p>Assume \\( A, B, C  \\) are already assigned values and the desired output is \\( G \\). Which of the following sequence of execution is valid?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>B, C, D, A, E</li>\n\t<li>C, B, E, A, D</li>\n\t<li>A, B, C, D, E</li>\n\t<li>E, D, C, B, A</li>\n</ol></div><br><br><b>CO & Architecture: ISRO CSE 2018 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;Multiply \\( E \\) by \\( 0.5 \\) to get \\( F \\)</p>",
+            "<p>Add \\( A \\) and \\( B \\) to get \\( E \\)</p>",
+            "<p>Add \\( B \\) with \\( 0.5 \\) to get \\( D \\)</p>",
+            "<p>Add \\( E \\) and \\( F \\) to get \\( G \\)</p>",
+            "<p>Add \\( A \\) with \\( 10.5 \\) to get \\( C \\)</p>"
+          ],
+          "correct_answer": "<p>Add \\( A \\) and \\( B \\) to get \\( E \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213582/isro-cse-2018-question-6\" target=\"_blank\">https://gateoverflow.in/213582/isro-cse-2018-question-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"331391\"></a><div itemprop=\"text\"><p>One instruction tries to write an operand before it is written by previous instruction. This may lead to a dependency called</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2020 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>True dependency</p>",
+            "<p>Anti-dependency</p>",
+            "<p>Output dependency</p>",
+            "<p>Control Hazard</p>"
+          ],
+          "correct_answer": "<p>Output dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331391/isro-cse-2020-question-49\" target=\"_blank\">https://gateoverflow.in/331391/isro-cse-2020-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

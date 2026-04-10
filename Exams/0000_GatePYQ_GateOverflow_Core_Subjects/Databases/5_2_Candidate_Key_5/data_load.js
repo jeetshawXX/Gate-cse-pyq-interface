@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Databases - Candidate Key",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Candidate Key",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2493\"></a><div itemprop=\"text\">An instance of a relational scheme \\( R(A, B, C) \\) has distinct values for attribute \\( A \\). Can you conclude that \\( A \\) is a candidate key for \\( R? \\)</div><br><br><b>GATE CSE 1994 | Question: 3.7</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2493/gate-cse-1994-question-3-7\" target=\"_blank\">https://gateoverflow.in/2493/gate-cse-1994-question-3-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2114\"></a><div itemprop=\"text\"><p>Consider a relational table with a single record for each registered student with the following attributes:</p>\n\n<ol>\n\t<li>\\( \\text {Registration_Num:} \\) Unique registration number for each registered student</li>\n\t<li>\\( \\text {UID:} \\) Unique identity number, unique at the national level for each citizen</li>\n\t<li>\\( \\text {BankAccount_Num:} \\) Unique account number at the bank. A student can have multiple accounts or joint accounts. This attribute stores the primary account number.</li>\n\t<li>\\( \\text {Name:} \\) Name of the student</li>\n\t<li>\\( \\text {Hostel_Room:} \\) Room number of the hostel</li>\n</ol>\n\n<p>Which of the following options is&nbsp;<strong>INCORRECT</strong>?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text {BankAccount_Num} \\) is a candidate key</p>",
+            "<p>\\( \\text {Registration_Num} \\) can be a primary key</p>",
+            "<p>\\( \\text {UID} \\) is a candidate key if all students are from the same country</p>",
+            "<p>If \\( S \\) is a super key such that \\( S \\cap \\text{UID} \\) is \\( \\text{NULL} \\) then \\( S \\cup \\text{UID} \\) is also a superkey</p>"
+          ],
+          "correct_answer": "<p>\\( \\text {BankAccount_Num} \\) is a candidate key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2114/gate-cse-2011-question-12\" target=\"_blank\">https://gateoverflow.in/2114/gate-cse-2011-question-12</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1978\"></a><div itemprop=\"text\">The maximum number of superkeys for the relation schema \\( R(E,F,G,H) \\) with \\( E \\) as the key is _____.</div><br><br><b>GATE CSE 2014 Set 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1978/gate-cse-2014-set-2-question-21\" target=\"_blank\">https://gateoverflow.in/1978/gate-cse-2014-set-2-question-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1980\"></a><div itemprop=\"text\">Given an instance of the STUDENTS relation as shown as below<br>\n<br>\n\\[ \\begin{array}{|c|c|c|c|c|} \\hline \\textbf {StudentID} &amp; \\textbf{StudentName} &amp; \\textbf{StudentEmail} &amp; \\textbf{StudentAge} &amp; &nbsp;\\textbf{CPI} \\\\\\hline \\text{2345} &amp; \\text{Shankar} &amp; \\text{shankar@math} &amp; \\text{X} &amp; \\text{9.4}\\\\\\hline\\text{1287} &amp; \\text{Swati} &amp; \\text{swati@ee} &amp; \\text{19} &amp; \\text{9.5}\\\\\\hline\\text{7853} &amp; \\text{Shankar} &amp; \\text{shankar@cse} &amp; \\text{19} &amp; \\text{9.4} \\\\\\hline \\text{9876} &amp; \\text{Swati} &amp; \\text{swati@mech} &amp; \\text{18} &amp; \\text{9.3} \\\\\\hline \\text{8765} &amp; \\text{Ganesh} &amp; \\text{ganesh@civil} &amp; \\text{19} &amp; \\text{8.7} \\\\\\hline \\end{array} \\]<br>\nFor \\( (\\text{StudentName, StudentAge}) \\) to be a key for this instance, the value \\( X \\) should NOT be equal to______.</div><br><br><b>GATE CSE 2014 Set 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1980/gate-cse-2014-set-2-question-22\" target=\"_blank\">https://gateoverflow.in/1980/gate-cse-2014-set-2-question-22</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2056\"></a><div itemprop=\"text\"><p>A <em>prime attribute</em> of a relation scheme \\( R \\) is an attribute that appears</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>in all candidate keys of \\( R \\)</p>",
+            "<p>in some candidate key of \\( R \\)</p>",
+            "<p>in a foreign key of \\( R \\)</p>",
+            "<p>only in the primary key of \\( R \\)</p>"
+          ],
+          "correct_answer": "<p>in some candidate key of \\( R \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2056/gate-cse-2014-set-3-question-22\" target=\"_blank\">https://gateoverflow.in/2056/gate-cse-2014-set-3-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+});

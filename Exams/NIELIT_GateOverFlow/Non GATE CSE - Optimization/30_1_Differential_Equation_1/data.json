@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Optimization - Differential Equation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Differential Equation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"344433\"></a><div itemprop=\"text\"><p>A solution for the differential equation \\( x’(t) + 2x(t) = \\delta(t) \\) with initial condition \\( x(\\overline{0}) = 0 \\)</p>\n\n</div><br><br><b>Optimization: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( e^{-2t}u(t) \\)</p>",
+            "<p>\\( e^{2t}u(t) \\)</p>",
+            "<p>\\( e^{-t}u(t) \\)</p>",
+            "<p>\\( e^{t}u(t) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( e^{-t}u(t) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/344433/nielit-2017-oct-scientific-assistant-a-cs-section-d-6\" target=\"_blank\">https://gateoverflow.in/344433/nielit-2017-oct-scientific-assistant-a-cs-section-d-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

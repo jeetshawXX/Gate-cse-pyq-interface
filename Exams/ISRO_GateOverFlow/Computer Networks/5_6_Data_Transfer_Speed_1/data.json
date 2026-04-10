@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Data Transfer Speed",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Transfer Speed",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435351\"></a><div itemprop=\"text\"><p>In a computer network using CSMA/CD, the minimum frame size for data transfer is \\( 1500 \\) bytes. What will be the data transfer speed in this network over \\( 1 \\) Km \\( 375 \\) cable, if the signal speed in the cable is \\( 250000 \\mathrm{Km} / \\mathrm{sec} \\) and no repeaters are used in this network?</p></div><br><br><b>Computer Networks: ISRO CSE 2023 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) Gbps</p>",
+            "<p>\\( 100 \\) Mbps</p>",
+            "<p>\\( 500 \\) Mbps</p>",
+            "<p>\\( 1.5 \\) Gbps</p>"
+          ],
+          "correct_answer": "<p>\\( 1.5 \\) Gbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435351/isro-cse-2023-question-45\" target=\"_blank\">https://gateoverflow.in/435351/isro-cse-2023-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

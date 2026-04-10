@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "English Language - Relationship",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Relationship",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4293\"></a><div itemprop=\"text\"><p>CLANDESTINE is to SECRECY as ....</p>\n\n<ul>\n\t<li>ERUDITE is to IGNORANCE</li>\n\t<li>FRIGID is to TEMPERATURE</li>\n\t<li>FELONIOUS is to ASSAULT</li>\n\t<li>CANDID is to HONESTY</li>\n\t<li>JEALOUS is to GREED</li>\n</ul>\n\n<p>CLASH is to DISAGREE as ...</p>\n\n<ul>\n\t<li>FEVER is to RASH</li>\n\t<li>REBUKE is to CRITICIZE</li>\n\t<li>HARM is to DEVASTATE</li>\n\t<li>CASTIGATE is to PRAISE</li>\n\t<li>EXPLODE is to DESTROY</li>\n</ul>\n\n<p>SELFLESS is to GREED as</p>\n\n<ul>\n\t<li>VENERABLE is to AGE</li>\n\t<li>JOVIAL is to HUMOR</li>\n\t<li>RASH is to CAUTION</li>\n\t<li>RAVENOUS is to AMBITION</li>\n\t<li>OMNIPOTENT is to POVERTY</li>\n</ul>\n\n<p>RESILIENT is to RECOVER as ...</p>\n\n<ul>\n\t<li>FORGIVING is to DEPRECATE</li>\n\t<li>RESTRAINED is to CONTROL</li>\n\t<li>STRIDENT is to COMPLIMENT</li>\n\t<li>UBIQUITOUS is to PROSPER</li>\n\t<li>VOLUBLE is to WHISPER</li>\n</ul>\n\n<p>CREDIBLE is to BELIEVE as ...</p>\n\n<ul>\n\t<li>BRITTLE is to BREAK</li>\n\t<li>INHUMANE is to PUNISH</li>\n\t<li>DYNAMIC is to IDOLIZE</li>\n\t<li>CANCEROUS is to HEAL</li>\n\t<li>RUSTY is to CORRODE</li>\n</ul></div><br><br><b>English Language: Verbal Reasoning / Verbal Analogy HELP</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4293/verbal-reasoning-verbal-analogy-help\" target=\"_blank\">https://aptitude.gateoverflow.in/4293/verbal-reasoning-verbal-analogy-help</a></p>"
+        }
+      ]
+    }
+  ]
+});

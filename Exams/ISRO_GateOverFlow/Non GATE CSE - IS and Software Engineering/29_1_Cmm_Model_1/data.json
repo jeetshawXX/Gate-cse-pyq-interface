@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Cmm Model",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cmm Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128690\"></a><div itemprop=\"text\"><p>Capability maturity Model (CMM) is the methodology to</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2017 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>develop and refine an organization's software development process</p>",
+            "<p>develop the software</p>",
+            "<p>test the software</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>develop and refine an organization's software development process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128690/isro-cse-2017-question-47\" target=\"_blank\">https://gateoverflow.in/128690/isro-cse-2017-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

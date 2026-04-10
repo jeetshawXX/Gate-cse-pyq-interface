@@ -1,0 +1,214 @@
+window.__examLoadCallback({
+  "title": "File_System - File_System - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "File_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following file organizations is/are I/O efficient for the scan operation in DBMS? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sorted</p>",
+            "<b>B.</b> <p>Heap</p>",
+            "<b>C.</b> <p>Unclustered tree index</p>",
+            "<b>D.</b> <p>Unclustered hash index</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sorted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422881/gate-cse-2024-set-2-question-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a database of fixed-length records, stored as an ordered file. The database\nhas 25,000 records, with each record being 100 bytes, of which the primary key\noccupies 15 bytes. The data file is block-aligned in that each data record is fully\ncontained within a block. The database is indexed by a primary index file, which\nis also stored as a block-aligned ordered file. The figure below depicts this indexing\nscheme.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\File_System\\q52_44be1c2f.jpg\"><br>Suppose the block size of the file system is 1024 bytes, and a pointer to a block\noccupies 5 bytes. The system uses binary search on the index file to search for a\nrecord with a given key. You may assume that a binary search on an index file of\n\\(b\\) blocks takes  \\(\\left \\lceil \\log_2 b \\right \\rceil \\)  block accesses in the worst case.<br>\nGiven a key, the number of block accesses required to identify the block in the data\nfile that may contain a record with the key, in the worst case, is _____ <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399259/gate-cse-2023-question-52#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A data file consisting of 1,50,000 student-records is stored on a hard disk with block size of 4096 bytes. The data file is sorted on the primary key RollNo. The size of a record pointer for this disk is 7 bytes. Each student-record has a candidate key attribute called ANum of size 12 bytes. Suppose an index file with records consisting of two fields, ANum value and the record pointer the corresponding student record, is built and stored on the same disk. Assume that the records of data file and index file are not split across disk blocks. The number of blocks in the index file is ______ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "698",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357519/gate-cse-2021-set-2-question-21#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a linear list based directory implementation in a file system. Each directory is a list of nodes, where each node contains the file name along with the file metadata, such as the list of pointers to the data blocks. Consider a given directory foo.<br><br>Which of the following operations will necessarily require a full scan of foo for successful completion? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Creation of a new file in foo</p>",
+            "<b>B.</b> <p>Deletion of an existing file from foo</p>",
+            "<b>C.</b> <p>Renaming of an existing file in foo</p>",
+            "<b>D.</b> <p>Opening of an existing file in foo</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Creation of a new file in foo</p>",
+            "<b>C.</b> <p>Renaming of an existing file in foo</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357437/gate-cse-2021-set-1-question-15#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a database implemented using B+ tree for file indexing and installed on a disk drive with block size of 4 KB. The size of search key is 12 bytes and the size of tree/disk pointer is 8 bytes. Assume that the database has one million records. Also assume that no node of the B+ tree and no records are present initially in main memory. Consider that each record fits into one disk block. The minimum number of disk accesses required to retrieve any record in the database is _______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333177/gate2020-cs-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following statements is NOT correct about the \\(B^+\\) tree data structure used for creating an index of a relational database table? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(B^+\\) Tree is a height-balanced tree</p>",
+            "<b>B.</b> <p>Non-leaf nodes have pointers to data records</p>",
+            "<b>C.</b> <p>Key values in each node are kept in sorted order</p>",
+            "<b>D.</b> <p>Each leaf node has a pointer to the next leaf node</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Non-leaf nodes have pointers to data records</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302834/gate2019-cs-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In a \\(B^{+}\\) tree, if the search -key value is 8 bytes long, the block size is 512 bytes and the block pointer size is 2 bytes, then maximum order of the \\(B^{+}\\) tree is _______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "52",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118561/gate2017-2-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a B+ tree in which the search key is 12 bytes long, block size is 1024 bytes, record pointer is 10 bytes long and block pointer is 8 bytes long. The maximum number of keys that can be accommodated in each non-leaf node of the tree is ____________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8555/gate2015-3-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A file is organized so that the ordering of data records is the same as or close to the ordering of data entries in some index. Then that index is called <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dense</p>",
+            "<b>B.</b> <p>Sparse</p>",
+            "<b>C.</b> <p>Clustered</p>",
+            "<b>D.</b> <p>Unclustered</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Clustered</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8222/gate2015-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>An index is clustered, if <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it is on a set of fields that form a candidate key.</p>",
+            "<b>B.</b> <p>it is on a set of fields that include the primary key</p>",
+            "<b>C.</b> <p>the data records of the file are organized in the same order as the data entries of the index.</p>",
+            "<b>D.</b> <p>the data records of the file are organized not in the same order as the data entries of the index.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the data records of the file are organized in the same order as the data entries of the index.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1437/gate2013-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a file of 16384 records. Each record is 32 bytes long and its key field is\nof size 6 bytes. The file is ordered on a non-key field, and the file organization is\nunspanned. The file is stored in a file system with block size 1024 bytes, and the\nsize of a block pointer is 10 bytes. If the secondary index is built on the key field\nof the file, and a multi-level index scheme is used to store the secondary index,\nthe number of first-level and second-level blocks in the multi-level index are respectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 and 0</p>",
+            "<b>B.</b> <p>128 and 6</p>",
+            "<b>C.</b> <p>256 and 4</p>",
+            "<b>D.</b> <p>512 and 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>256 and 4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/259/gate2008-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A clustering index is defined on the fields which are of type <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-key and ordering</p>",
+            "<b>B.</b> <p>non-key and non-ordering</p>",
+            "<b>C.</b> <p>key and ordering</p>",
+            "<b>D.</b> <p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/414/gate2008-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The order of a leaf node in a B+ tree is the maximum number of (value, data\nrecord pointer) pairs it can hold. Given that the block size is 1K bytes, data\nrecord pointer is 7 bytes long, the value field is 9 bytes long and a block pointer\nis 6 bytes long, what is the order of the leaf node? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63</p>",
+            "<b>B.</b> <p>64</p>",
+            "<b>C.</b> <p>67</p>",
+            "<b>D.</b> <p>68</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>63</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1261/gate2007-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In a database file structure, the search key field is 9 bytes long, the block size is 512 bytes, a record pointer is 7 bytes and a block pointer is 6 bytes. The largest possible order of a non-leaf node in a B+ tree implementing this file structure is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>23</p>",
+            "<b>B.</b> <p>24</p>",
+            "<b>C.</b> <p>34</p>",
+            "<b>D.</b> <p>44</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>34</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3605/gate2006-it-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the relation enrolled (student, course) in which (student, course) is\nthe primary key, and the relation paid (student, amount) where student is the\nprimary key. Assume no null values and no foreign keys or integrity constraints.\nAssume that amounts 6000, 7000,8000,9000 and 10000 were each paid by 20% of\nthe students. Consider these query plans (Plan 1 on left, Plan 2 on right) to \"list\nall courses taken by students who have paid more than x.\" <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\File_System\\q69_12cbe10b.jpg\"><br> A disk seek takes 4 ms. disk data transfer bank width is 300 MB/s and checking a tuple to see if amount is greater x takes 10\\(\\mu\\)s . Which of the following statements is correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Plan 1 and Plan 2 will not output identical row sets for all databases</p>",
+            "<b>B.</b> <p>A course may be listed more than once int the output of Plan 1 for some databases</p>",
+            "<b>C.</b> <p>For x = 5000, Plan 1 executes faster than Plan 2 for all databases</p>",
+            "<b>D.</b> <p>For x = 9000, Plan 1 executes slower than Plan 2 for all databases</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>For x = 5000, Plan 1 executes faster than Plan 2 for all databases</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1847/gate2006-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

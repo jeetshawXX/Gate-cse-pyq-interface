@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Spatial Aptitude - Geometry",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Geometry",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351647\"></a><div itemprop=\"text\"><p>Three squares are there as shown on the three sides of the triangle; find the area of the triangle from the respective areas of the squares.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10492907057831507017\" width=\"300\"></p>\n\n</div><br><br><b>Spatial Aptitude: NIELIT Scientist B 2020 November: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15\\sqrt&nbsp;5 \\)</p>",
+            "<p>\\( 12\\sqrt 5 \\)</p>",
+            "<p>\\( 2 \\sqrt 5 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12\\sqrt 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351647/nielit-scientist-b-2020-november-35\" target=\"_blank\">https://gateoverflow.in/351647/nielit-scientist-b-2020-november-35</a></p>"
+        }
+      ]
+    }
+  ]
+}

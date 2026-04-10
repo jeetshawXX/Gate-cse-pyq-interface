@@ -1,0 +1,226 @@
+{
+  "title": "Binary_Tree - Binary_Tree - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Binary_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the expression tree shown. Each leaf represents a numerical value, which can either\nbe 0 or 1. Over all possible choices of the values at the leaves, the maximum possible value\nof the expression represented by the tree is ___. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Binary_Tree\\q39_dedc3211.jpg\"> <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1999/gate2014-2-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider rooted n node binary tree represented using pointers. The best upper bound on the\ntime required to determine the number of sub trees having exactly 4 nodes is \\(O(n^{a}lob^{b}n)\\) .\nThen the value of a+10b is_______ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1776/gate2014-1-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following number of nodes can form a full binary tree? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43967/isro-2013-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The height of a tree is defined as the number of edges on the longest path in the tree. The function\nshown in the pseudocode below is invoked as height(root) to compute the height of a binary\ntree rooted at the tree pointer root.<pre><code> int height (treeptr n)\n{ if (n == NULL) return -1;\n   if (n -&gt; left == NULL)\n            if (n -&gt; right == NULL) return 0;\n            else return    <b>B1</b>;\n   else { h1 = height (n -&gt; left);\n   if (n -&gt; right == NULL) return (1+h1);\n   else { h2 = height (n -&gt; right);\n   return   <b>B2</b>; \n    }\n  }   \n} </code></pre>\nThe appropriate expressions for the two boxes B1 and B2 are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B1: (1+height(n \\(\\rightarrow\\) right)) <br>\nB2: (1+max(h1, h2))</p>",
+            "<b>B.</b> <p>B1: (height(n \\(\\rightarrow\\) right))<br>\nB2: (1+max(h1,h2))</p>",
+            "<b>C.</b> <p>B1: height(n \\(\\rightarrow\\) right)<br>\nB2: max(h1, h2)</p>",
+            "<b>D.</b> <p>B1: (1+ height(n \\(\\rightarrow\\) right))<br>\nB2: max(h1, h2)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>B1: (1+height(n \\(\\rightarrow\\) right)) <br>\nB2: (1+max(h1, h2))</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2163/gate2012-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FGBDECA</p>",
+            "<b>B.</b> <p>ABFGCDE</p>",
+            "<b>C.</b> <p>BFGCDEA</p>",
+            "<b>D.</b> <p>AFGBDEC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ABFGCDE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50619/isro2011-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a binary tree with n nodes, every node has an odd number of descendants.\nEvery node is considered to be its own descendant. What is the number of nodes\nin the tree that have exactly one child? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>(n-1)/2</p>",
+            "<b>D.</b> <p>n-1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2183/gate2010-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A full binary tree with n leaves contains <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n nodes</p>",
+            "<b>B.</b> <p>\\(\\log_2\\) n nodes</p>",
+            "<b>C.</b> <p>2n-1</p>",
+            "<b>D.</b> <p>\\(2^n\\) nodes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50383/isro2009-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A complete binary tree with the property that the value at each node is at least as large as the values at its children is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>binary search tree</p>",
+            "<b>B.</b> <p>AVL tree</p>",
+            "<b>C.</b> <p>completely balanced tree</p>",
+            "<b>D.</b> <p>Heap</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50145/isro2008-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A binary tree with n&gt;1 nodes has \\(n_{1}\\), \\(n_{2}\\) and \\(n_{3}\\) nodes of degree one, two and three respectively. The degree of a node is defined as the number of its neighbors.<br>Starting with the above tree, while there remains a node v of degree two in the tree, add an edge between the two neighbors of v and then remove v from the tree. How many edges will remain at the end of the process? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2 * n_{1}-3\\)</p>",
+            "<b>B.</b> <p>\\(n_{2}+2 * n_{1}-2\\)</p>",
+            "<b>C.</b> <p>\\(n_{3}-n_{2}\\)</p>",
+            "<b>D.</b> <p>\\(n_{2}+n_{1}-2\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2 * n_{1}-3\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3391/gate2008-it-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A binary tree with n&gt;1 nodes has \\(n_{1}\\), \\(n_{2}\\) and \\(n_{3}\\) nodes of degree one, two and three respectively. The degree of a node is defined as the number of its neighbors.<br><br>\n\\(n_{3}\\) can be expressed as <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n_{1}+n_{2}-1\\)</p>",
+            "<b>B.</b> <p>\\(n_{1}-2\\)</p>",
+            "<b>C.</b> <p>\\({\\left[\\left(\\left(n_{1}+n_{2}\\right) / 2\\right)\\right]}\\)</p>",
+            "<b>D.</b> <p>\\(n_{2}-1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(n_{1}-2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3390/gate2008-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The following three are known to be the preorder, inorder and postorder sequences of a binary tree. But it is not known which is which.<br>\nI.MBCAFHPYK<br>\nII.KAMCBYPFH<br>\nIII.MABCKYFPH<br>\nPick the true statement from the following. <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II are preorder and inorder sequences, respectively</p>",
+            "<b>B.</b> <p>I and III are preorder and postorder sequences, respectively</p>",
+            "<b>C.</b> <p>II is the inorder sequence, but nothing more can be said about the other two sequences</p>",
+            "<b>D.</b> <p>II and III are the preorder and inorder sequences, respectively</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and III are the preorder and inorder sequences, respectively</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3356/gate2008-it-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following C program segment where CellNode represents a node in a\nbinary tree:<pre><code> struct CellNode \n{\n  struct CellNOde *leftChild;\n  int element;\n  struct CellNode *rightChild;\n};\n \nint GetValue(struct CellNode *ptr) \n{\n  int value = 0;\n  if (ptr != NULL) \n  {\n   if ((ptr-&gt;leftChild == NULL) &amp;&amp;\n        (ptr-&gt;rightChild == NULL))\n      value = 1;\n   else\n      value = value + GetValue(ptr-&gt;leftChild)\n                   + GetValue(ptr-&gt;rightChild);\n  }\n  return(value);\n}</code></pre>\nThe value returned by GetValue when a pointer to the root of a binary tree is\npassed as its argument is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the number of nodes in the tree</p>",
+            "<b>B.</b> <p>the number of internal nodes in the tree</p>",
+            "<b>C.</b> <p>the number of leaf nodes in the tree</p>",
+            "<b>D.</b> <p>the height of the tree</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the number of leaf nodes in the tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1244/gate2007-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The inorder and preorder traversal of a binary tree are\nd b e a f c g and a b d e c f g, respectively\nThe postorder traversal of the binary tree is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>d e b f g c a</p>",
+            "<b>B.</b> <p>e d b g f c a</p>",
+            "<b>C.</b> <p>e d b f g c a</p>",
+            "<b>D.</b> <p>d e f g b c a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>d e b f g c a</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1237/gate2007-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The maximum number of binary trees that can be formed with three unlabeled nodes is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1211/gate2007-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The height of a binary tree is the maximum number of edges in any root to leaf\npath. The maximum number of nodes in a binary tree of height h is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{h}-1\\)</p>",
+            "<b>B.</b> <p>\\(2^{h-1}-1\\)</p>",
+            "<b>C.</b> <p>\\(2^{h+1}-1\\)</p>",
+            "<b>D.</b> <p>\\(2^{h+1}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{h+1}-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1210/gate2007-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

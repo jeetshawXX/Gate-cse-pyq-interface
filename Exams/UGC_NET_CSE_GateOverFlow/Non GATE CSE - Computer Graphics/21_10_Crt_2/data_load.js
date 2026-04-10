@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Crt",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Crt",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61459\"></a><div itemprop=\"text\"><p>Which of the following is/are the components of a CRT?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Electron Gun</li>\n\t<li>Control Electrode</li>\n\t<li>Focusing Electrode</li>\n\t<li>Phosphor Coated Screen\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | December 2015 | Part 3 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i, ii&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i, ii, iii&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i, iii&nbsp;and iv} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i, ii, iii&nbsp;and iv} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61459/ugc-net-cse-december-2015-part-3-question-71\" target=\"_blank\">https://gateoverflow.in/61459/ugc-net-cse-december-2015-part-3-question-71</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"166391\"></a><div itemprop=\"text\"><p>With respect to CRT, the horizontal retrace is defined as</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | November 2017 | Part 3 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The path an electron beam takes when returning to the left side of the CRT</p>",
+            "<p>The path an electron beam takes when returning to the right side of the CRT</p>",
+            "<p>The technique of turning, the electron beam off while retracing</p>",
+            "<p>The technique of turning, the electron beam on/ off while retracing</p>"
+          ],
+          "correct_answer": "<p>The path an electron beam takes when returning to the left side of the CRT</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166391/ugc-net-cse-november-2017-part-3-question-15\" target=\"_blank\">https://gateoverflow.in/166391/ugc-net-cse-november-2017-part-3-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

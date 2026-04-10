@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Computer Neworks",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Computer Neworks",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349613\"></a><div itemprop=\"text\"><p>Firewall is a device that filters access to the protected network from the outside network. Firewalls can filter the packets on the basis of</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Source IP address</li>\n\t<li>Destination IP address</li>\n\t<li>TCP Source Port</li>\n\t<li>UDP Source Port</li>\n\t<li>TCP Destination Port</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (a), (b) \\) and \\( (c) \\) only</p>",
+            "<p>\\( (b) \\) and \\( (e) \\) only</p>",
+            "<p>\\( (c) \\) and \\( (d) \\) only</p>",
+            "<p>\\( (a), (b), (c), (d) \\) and \\( (e) \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( (a), (b), (c), (d) \\) and \\( (e) \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349613/ugc-net-cse-october-2020-part-2-question-60\" target=\"_blank\">https://gateoverflow.in/349613/ugc-net-cse-october-2020-part-2-question-60</a></p>"
+        }
+      ]
+    }
+  ]
+}

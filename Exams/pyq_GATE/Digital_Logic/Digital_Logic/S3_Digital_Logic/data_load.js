@@ -1,0 +1,215 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following Boolean expression.\n<br><br>\n\\(F=(X+Y+Z)(\\overline X +Y)(\\overline Y +Z)\\)<br><br>\nWhich of the following Boolean expressions is/are equivalent to \\(\\overline F\\) (complement of \\(F\\))? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\((\\overline X +\\overline Y +\\overline Z)(X+\\overline Y)(Y+\\overline Z)\\)</p>",
+            "<b>B.</b> <p>\\(X\\overline Y + \\overline Z\\)</p>",
+            "<b>C.</b> <p>\\((X+\\overline Z)(\\overline Y +\\overline Z)\\)</p>",
+            "<b>D.</b> <p>\\(X\\overline Y +Y\\overline Z + \\bar  X \\bar Y \\bar Z\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(X\\overline Y + \\overline Z\\)</p>",
+            "<b>C.</b> <p>\\((X+\\overline Z)(\\overline Y +\\overline Z)\\)</p>",
+            "<b>D.</b> <p>\\(X\\overline Y +Y\\overline Z + \\bar  X \\bar Y \\bar Z\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357409/gate-cse-2021-set-1-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a 3-bit counter, designed using T flip-flops, as shown below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q28_23a3fb9c.jpg\"><br>\nAssuming the initial state of the counter given by PQR as 000, what are the next three states? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>011, 101, 000</p>",
+            "<b>B.</b> <p>001, 010, 111</p>",
+            "<b>C.</b> <p>011, 101, 111</p>",
+            "<b>D.</b> <p>001, 010, 000</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>011, 101, 000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357423/gate-cse-2021-set-1-question-28#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following representation of a number in IEEE 754 single-precision floating point format with a bias of 127.<br><br>\nS:1<br>E:10000001<br>F:11110000000000000000000<br><br>\nHere, S,E and F denote the sign, exponent, and fraction components of the floating point representation.<br><br>\nThe decimal value corresponding to the above representation (rounded to 2 decimal places) is ____________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-7.75",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357427/gate-cse-2021-set-1-question-24#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let the representation of a number in base 3 be 210. What is the hexadecimal representation of the number? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>21</p>",
+            "<b>C.</b> <p>D2</p>",
+            "<b>D.</b> <p>528</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357446/gate-cse-2021-set-1-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider three registers R1, R2, and R3 that store numbers in IEEE-754 single precision floating point format. Assume that R1 and R2 contain the values (in hexadecimal notation) 0x42200000 and 0xC1200000, respectively. <br><br>\nIf \\(R3=\\frac{R1}{R2}\\), what is the value stored in R3? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0x40800000</p>",
+            "<b>B.</b> <p>0xC0800000</p>",
+            "<b>C.</b> <p>0x83400000</p>",
+            "<b>D.</b> <p>0xC8500000</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0xC0800000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333202/gate2020-cs-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the Boolean function \\(z(a,b,c)\\). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q28_487c809f.jpg\"><br>Which one of the following minterm lists represents the circuit given above? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(z=\\Sigma (0,1,3,7)\\)</p>",
+            "<b>B.</b> <p>\\(z=\\Sigma (1,4,5,6,7)\\)</p>",
+            "<b>C.</b> <p>\\(z=\\Sigma (2,4,5,6,7)\\)</p>",
+            "<b>D.</b> <p>\\(z=\\Sigma (2,3,5)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(z=\\Sigma (1,4,5,6,7)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333203/gate2020-cs-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If there are m input lines and n output lines for a decoder that is used to uniquely address a byte addressable 1 KB RAM, then the minimum value of m+n is ________ . <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1034",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333211/gate2020-cs-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A multiplexer is placed between a group of 32 registers and an accumulator to regulate data movement such that at any given point in time the content of only one register will move to the accumulator. The number of select lines needed for the multiplexer is ______. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333212/gate2020-cs-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What is the minimum number of 2-input NOR gates required to implement 4-variable function expressed in sum-of-minterms from as \\(f = \\Sigma (0, 2, 5, 7, 8, 10, 13, 15)\\)? Assume that all the inputs and their complements are available. Answer ________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302798/gate2019-cs-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider three 4-variable functions \\(f_1,f_2 \\; and \\; f_3\\), which are expressed in sum-of-minterms<br><br>\n\\(f_1=\\Sigma (0,2,5,8,14)\\)<br>\n\\(f_2=\\Sigma (2,3,6,8,14,15)\\)<br>\n\\(f_3=\\Sigma (2,7,11,14)\\) <br><br>\nFor the following circuit with one AND gate and one XOR gate, the output function f can be expressed as: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q30_614af789.jpg\"> <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Sigma (7,8,11)\\)</p>",
+            "<b>B.</b> <p>\\(\\Sigma (2,7,8,11,14)\\)</p>",
+            "<b>C.</b> <p>\\(\\Sigma (2,14)\\)</p>",
+            "<b>D.</b> <p>\\(\\Sigma (0,2,3,5,6,7,8,11,14,15)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Sigma (7,8,11)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302818/gate2019-cs-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider Z = X - Y where X, Y and Z are all in sign-magnitude form. X and Y are each represented in n bits. To avoid overflow, the representation of Z would require a minimum of: <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n bits</p>",
+            "<b>B.</b> <p>n-1 bits</p>",
+            "<b>C.</b> <p>n+1 bits</p>",
+            "<b>D.</b> <p>n+2 bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>n+1 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302840/gate2019-cs-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following is NOT a valid identity? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((x\\oplus y)\\oplus z=x\\oplus (y\\oplus z)\\)</p>",
+            "<b>B.</b> <p>\\((x+ y)\\oplus z=x\\oplus (y+z)\\)</p>",
+            "<b>C.</b> <p>\\(x\\oplus y=x+y, \\; if \\; xy=0\\)</p>",
+            "<b>D.</b> <p>\\(x\\oplus y=(xy+x'y')'\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((x+ y)\\oplus z=x\\oplus (y+z)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302842/gate2019-cs-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In 16-bit 2's complement representation, the decimal number -28 is: <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111 1111 0001 1100</p>",
+            "<b>B.</b> <p>0000 0000 1110 0100</p>",
+            "<b>C.</b> <p>1111 1111 1110 0100</p>",
+            "<b>D.</b> <p>1000 0000 1110 0100</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1111 1111 1110 0100</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302844/gate2019-cs-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the minterm list form of a Boolean function F given below. <br>\\(F(P,Q,R,S)=\\sum m(0,2,5,7,9,11)+d(3,8,10,12,14)\\) <br> Here, m denotes a minterm and d denotes a don't care term. The number of essential prime\nimplicants of the function F  is ______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204124/gate2018-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the unsigned 8-bit fixed point binary Number System below, <br><br>\n\\(b_7  b_6  b_5  b_4  b_3 .  b_2  b_1  b_0\\) <br><br>\nwhere the position of the binary point is between \\(b_3 \\; and \\; b_2\\). Assume \\(b_7\\) is the most significant bit. Some of the decimal numbers listed below cannot be represented exactly in the above representation: <br><br>\n(i) 31.500 (ii) 0.875 (iii) 12.100 (iv) 3.001 <br><br>\nWhich one of the following statements is true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>None of (i), (ii), (iii), (iv) can be exactly represented</p>",
+            "<b>B.</b> <p>Only (ii) cannot be exactly represented</p>",
+            "<b>C.</b> <p>Only (iii) and (iv) cannot be exactly represented</p>",
+            "<b>D.</b> <p>Only (i) and (ii) cannot be exactly represented</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only (iii) and (iv) cannot be exactly represented</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204107/gate2018-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

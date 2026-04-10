@@ -1,0 +1,41 @@
+{
+  "title": "Programming - Programming in C - Pointers",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Pointers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59135\"></a><div itemprop=\"text\"><p>What does the following expression means ?</p>\n\n<p>char \\( ∗(∗(∗ a\\left[N\\right]) ( )) ( ) \\);</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | December 2014 | Part 2 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A pointer to a function returning array of n pointers to function returning character pointers.&nbsp;</p>",
+            "<p>A function return array of N pointers to functions returning pointers to characters&nbsp;</p>",
+            "<p>An array of n pointers to function returning pointers to characters&nbsp;</p>",
+            "<p>An array of n pointers to function returning pointers to functions returning pointers to characters.&nbsp;</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59135/ugc-net-cse-december-2014-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/59135/ugc-net-cse-december-2014-part-2-question-12</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"67829\"></a><div itemprop=\"text\"><p>What will be the output of the following c-code?</p>\n\n<pre>void main () \n{ \n   char *p= \"ayqm\";\n   char c;  \n   c=++*p;  \n   printf (\"%c\" , c);  \n}</pre>\n\n</div><br><br><b>Programming in C: UGC NET CSE | June 2010 | Part 2 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( a \\)</p>",
+            "<p>\\( c \\)&nbsp;</p>",
+            "<p>\\( b \\)</p>",
+            "<p>\\( q \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67829/ugc-net-cse-june-2010-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/67829/ugc-net-cse-june-2010-part-2-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

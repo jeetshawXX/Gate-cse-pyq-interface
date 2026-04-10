@@ -1,0 +1,211 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of edges in a regular graph of degree: d and n vertices is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>maximum of n and d</p>",
+            "<b>B.</b> <p>n+d</p>",
+            "<b>C.</b> <p>nd</p>",
+            "<b>D.</b> <p>nd/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>nd/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213550/isro2018-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following is application of Breath First Search on the graph? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding diameter of the graph</p>",
+            "<b>B.</b> <p>Finding bipartite graph</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213555/isro2018-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>(G,*)  is an abelian group. Then <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x=x^{-1}\\) for any x belonging to G</p>",
+            "<b>B.</b> <p>\\(x=x^{2}\\) for any x belonging to G</p>",
+            "<b>C.</b> <p>\\((x * y)^{2}=x^{2} * y^{2}\\) , for any x,y belonging to G</p>",
+            "<b>D.</b> <p>G is of finite order</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((x * y)^{2}=x^{2} * y^{2}\\) , for any x,y belonging to G</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213571/isro2018-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The following paradigm can be used to find the solution of the problem in minimum time:<br>Given a set of non-negative integer and a value K, determine if there is a subset of the given set with sum equal to K: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Divide and Conquer</p>",
+            "<b>B.</b> <p>Dynamic Programming</p>",
+            "<b>C.</b> <p>Greedy Algorithm</p>",
+            "<b>D.</b> <p>Branch and Bound</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Dynamic Programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213572/isro2018-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A class of 30 students occupy a classroom containing 5 rows of seats, with 8 seats in each row. If the students seat themselves at random, the probability that sixth seat in the fifth row will be empty is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/5\\)</p>",
+            "<b>B.</b> <p>\\(1/3\\)</p>",
+            "<b>C.</b> <p>\\(1/4\\)</p>",
+            "<b>D.</b> <p>\\(2/5\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(1/4\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213574/isro2018-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider Guwahati (G) and Delhi (D) whose temperatures can be classified as high (G), medium (M) and low (L). Let P(\\(H_{G}\\)) denote the probability that Guwahati has high temperature. Similarly, P(\\(M_{G}\\)) and P(\\(L_{G}\\)\n) denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use P(\\(H_{D}\\)),P(\\(M_{D}\\)) and P(\\(L_{D}\\)) for Delhi. <br>\nThe following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q44_ddb859d5.jpg\"> <br>   Consider the first row in the table above. The first entry denotes that if Guwahati has high\ntemperature (\\(H_{G}\\)) then the probability of Delhi also having a high temperature (\\(H_{D}\\)) is 0.40;\ni.e., (\\(H_{D}\\)|\\(H_{G}\\)) = 0.40. Similarly, the next two entries are P(\\(M_{D}\\)| \\(H_{G}\\))= 0.48 and\nP(\\(L_{D}\\)|\\(H_{G}\\)) = 0.12. Similarly for the other rows.\nIf it is known that P(\\(H_{G}\\))= 0.2, P(\\(M_{G}\\))= 0.5, andP(\\(L_{G}\\))= 0.3, then the probability\n(correct to two decimal places) that Guwahati has high temperature given that Delhi has high\ntemperature is _______ <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204119/gate2018-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let G be a graph with 100! vertices, with each vertex labelled by a distinct permutation of the numbers 1,2,...,100. There is an edge between vertices u and v if and only if the label of u can be obtained by swapping two adjacent numbers in the label of v. Let y denote the degree of a vertex in G, and z denote the number of connected components in G. Then, y+ 10z = _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "109",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204117/gate2018-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let G be a simple undirected graph. Let TD be a depth first search tree of G. Let TB be a breadth first search tree of G. Consider the following statements. <br><br>\n(I) No edge of G is a cross edge with respect to TD. (A cross edge in G is between two\nnodes neither of which is an ancestor of the other in TD.) <br>\n(II) For every edge (u,v) of G, if u is at depth i and v is at depth j in TB, then |i-j|=1.<br><br>\nWhich of the statements above must necessarily be true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204104/gate2018-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the first-order logic sentence <br> \\(\\varphi \\equiv \\exists s\\exists t\\exists u\\forall v\\forall w\\forall x\\forall y\\varphi (s,t,u,v,w,x,y)\\)<br>  where \\(\\varphi (s,t,u,v,w,x,y)\\) is a quantifier-free first-order logic formula using only predicate\nsymbols, and possibly equality, but no function symbols. Suppose \\(\\varphi \\) has a model with a universe containing 7 elements.\nWhich one of the following statements is necessarily true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exists at least one model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+            "<b>B.</b> <p>There exists no model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+            "<b>C.</b> <p>There exists no model of \\(\\varphi\\) with universe of size greater than 7.</p>",
+            "<b>D.</b> <p>Every model of \\(\\varphi\\) has a universe of size equal to 7.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exists at least one model of \\(\\varphi\\) with universe of size less than or equal to 3.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204102/gate2018-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let N be the set of natural numbers. Consider the following sets. <br>\nP: Set of Rational numbers (positive and negative) <br>\nQ: Set of functions from {0, 1} to N <br>\nR: Set of functions from N to {0, 1}<br>\nS: Set of finite subsets of N. <br>\nWhich of the sets above are countable? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q and S only</p>",
+            "<b>B.</b> <p>P and S only</p>",
+            "<b>C.</b> <p>P and R only</p>",
+            "<b>D.</b> <p>P, Q and S only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P, Q and S only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204101/gate2018-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let G be a finite group on 84 elements. The size of a largest possible proper subgroup of G is ________. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "42",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204093/gate2018-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The chromatic number of the following graph is _______.  <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q18_14abf0c5.jpg\"> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204092/gate2018-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Two people, P and Q, decide to independently roll two identical dice, each with 6 faces, numbered 1 to 6. The person with the lower number wins. In case of a tie, they roll the dice repeatedly until there is no tie. Define a trial as a throw of the dice by P and Q. Assume that all 6 numbers on each dice are equi-probable and that all trials are independent. The probability (rounded to 3 decimal places) that one of them wins on the third trial is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.021",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204089/gate2018-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The time complexity of computing the transitive closure of a binary relation on a set of \\(n\\) elements is known to be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>B.</b> <p>\\(O\\left(n^{3 / 2}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(O(n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128781/isro2017-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a \\rightarrow b) \\wedge(b \\rightarrow c)) \\rightarrow(a \\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a \\wedge b \\wedge c) \\rightarrow(c \\vee a)\\)</p>",
+            "<b>D.</b> <p>\\(a \\rightarrow(b \\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128691/isro2017-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

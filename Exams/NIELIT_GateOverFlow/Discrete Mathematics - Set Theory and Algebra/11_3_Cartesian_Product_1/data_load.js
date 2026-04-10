@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Cartesian Product",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cartesian Product",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336425\"></a><div itemprop=\"text\"><p>What is the Cartesian product of \\( A=\\{1,2\\} \\) and \\( B=\\{a,b\\} \\)?</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{(1,a),(1,b),(2,a),(b,b)\\} \\)</p>",
+            "<p>\\( \\{(1,1),(2,2),(a,a),(b,b)\\} \\)</p>",
+            "<p>\\( \\{(1,a),(2,a),(1,b),(2,b)\\} \\)</p>",
+            "<p>\\( \\{(1,1),(a,a),(2,a),(1,b)\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{(1,a),(2,a),(1,b),(2,b)\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336425/nielit-2017-july-scientist-b-it-section-b-10\" target=\"_blank\">https://gateoverflow.in/336425/nielit-2017-july-scientist-b-it-section-b-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

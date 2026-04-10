@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Digital Image Processing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Digital Image Processing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"461030\"></a><div itemprop=\"text\"><p>​​​​A \\( 4 \\times 4 \\) digital image has pixel intensities \\( (U) \\) as shown in the figure. The number of pixels with \\( U \\leq 4 \\) is:<br>&nbsp;</p><p>\\begin{array}{|l|l|l|l|}<br>\\hline 0 &amp; 1 &amp; 0 &amp; 2 \\\\<br>\\hline 4 &amp; 7 &amp; 3 &amp; 3 \\\\<br>\\hline 5 &amp; 5 &amp; 4 &amp; 4 \\\\<br>\\hline 6 &amp; 7 &amp; 3 &amp; 2 \\\\<br>\\hline<br>\\end{array}</p></div><br><br><b>GATE DA 2025 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461030/gate-da-2025-ga-question-3\" target=\"_blank\">https://gateoverflow.in/461030/gate-da-2025-ga-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

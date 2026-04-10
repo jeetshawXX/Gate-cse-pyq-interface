@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Disk",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Disk",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65524\"></a><div itemprop=\"text\"><p>Block or Buffer caches are used to</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2011 | Part 2 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Improve disk performance</p>",
+            "<p>Handle interrupts</p>",
+            "<p>Increase the capacity of main memory</p>",
+            "<p>Speed up main memory Read operations</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65524/ugc-net-cse-june-2011-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/65524/ugc-net-cse-june-2011-part-2-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,75 @@
+window.__examLoadCallback({
+  "title": "Algorithms - TIFR CSE 2014  Part B  Question",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "TIFR CSE 2014  Part B  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"27183\"></a><div itemprop=\"text\"><p>Consider the problem of computing the minimum of a set of \\( n \\) distinct numbers. We choose a&nbsp;permutation uniformly at random (i.e., each of the n! permutations of \\( \\left \\langle 1,....,n \\right \\rangle \\)&nbsp;is chosen with probability \\( (1/n!) \\) and we inspect the numbers in the order given by this permutation.&nbsp;We maintain a variable MIN that holds the minimum value seen so far. MIN is initialized to \\( \\infty \\)&nbsp;and if we see a value smaller than MIN during our inspection, then MIN is updated. For example, in the inspection&nbsp;given by the following sequence, MIN is updated four times.</p>\n\n<p>&nbsp; &nbsp; \\( 5 \\) \\( 9 \\) \\( 4 \\) \\( 2 \\) \\( 6 \\) \\( 8 \\) \\( 0 \\) \\( 3 \\) \\( 1 \\) \\( 7 \\)</p>\n\n<p>What is the expected number of times MIN is updated?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (1) \\)</p>",
+            "<p>\\( H_{n}=\\sum ^{n}_{i=1} 1/i \\)</p>",
+            "<p>\\( \\sqrt{n} \\)</p>",
+            "<p>\\( n/2 \\)</p>",
+            "<p>\\( n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( H_{n}=\\sum ^{n}_{i=1} 1/i \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27183/tifr-cse-2014-part-b-question-6\" target=\"_blank\">https://gateoverflow.in/27183/tifr-cse-2014-part-b-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"27194\"></a><div itemprop=\"text\"><p>Given a set of \\( n \\) distinct numbers, we would like to determine the smallest three numbers in this set&nbsp;using comparisons. Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>These three elements can be determined using \\( O\\left(\\log^{2}n\\right) \\)&nbsp;comparisons.</p>",
+            "<p>\\( O\\left(\\log^{2}n\\right) \\) comparisons do not suffice, however these three elements can be determined using \\( n+O(1) \\)&nbsp;comparisons.</p>",
+            "<p>\\( n + O(1) \\) comparisons do not suffice, however these three elements can be determined using \\( n +O(\\log n) \\) comparisons.</p>",
+            "<p>\\( n+O(\\log n) \\) comparisons do not suffice, however these three elements can be determined using \\( O(n) \\)&nbsp;comparisons.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( n + O(1) \\) comparisons do not suffice, however these three elements can be determined using \\( n +O(\\log n) \\) comparisons.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27194/tifr-cse-2014-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/27194/tifr-cse-2014-part-b-question-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27198\"></a><div itemprop=\"text\"><p>Given a set of \\( n \\) distinct numbers, we would like to determine both the smallest and the largest&nbsp;number. Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>These two elements can be determined using \\( O\\left(\\log^{100}n\\right) \\)&nbsp;comparisons.</p>",
+            "<p>\\( O\\left(\\log^{100}n\\right) \\)&nbsp;comparisons do not suffice, however these two elements can be determined using \\( n +&nbsp;O(\\log n) \\) comparisons.</p>",
+            "<p>\\( n+O(\\log n) \\) comparisons do not suffice, however these two elements can be determined using \\( 3\\lceil n/2 \\rceil \\)&nbsp;comparisons.</p>",
+            "<p>\\( 3\\lceil n/2 \\rceil \\)&nbsp;comparisons do not suffice, however these two elements can be determined using \\( 2(n - 1) \\) comparisons.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( n+O(\\log n) \\) comparisons do not suffice, however these two elements can be determined using \\( 3\\lceil n/2 \\rceil \\)&nbsp;comparisons.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27198/tifr-cse-2014-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/27198/tifr-cse-2014-part-b-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"473088\"></a><div itemprop=\"text\"><p>Consider the following pseudocode. The program should take as input \\( n \\), and when it ends, the element \\( A[i] \\) of the vector \\( A \\) should contain the binomial coefficient \\( \\binom{n}{i} \\) (with the index of \\( A \\) starting from 0). In order to do so, what should replace the ___________ in the pseudocode?</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint prettyprintlinenum linenums lang-c_cpp\"><strong>procedure</strong> BINOMIALCOEFFICIENT\n  input n\n  <strong>for</strong> i ←  0 to n <strong>do</strong>\n      A[i] ← 0\n  <strong>end for</strong>\n  A[0] ← 1\n  <strong>for</strong> i ← 1 to n <strong>do</strong>\n      B ← A\n      <strong>for</strong> j ← 1 to n <strong>do</strong>\n          A[j] ← ___________ \n     <strong>end for</strong>\n   <strong>end for</strong>\n<strong>end procedure</strong></pre></div><br><br><b>Algorithms: TIFR CSE 2025 | Part B | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B(j-1)+B(j) \\)</p>",
+            "<p>\\( A(j-1)+B(j-1) \\)</p>",
+            "<p>\\( \\dfrac{B(j)+B(n-j)}{2} \\)</p>",
+            "<p>\\( \\dfrac{B(j-1) \\times B(j)}{2} \\)</p>",
+            "<p>\\( \\dfrac{A(j-1)+B(j-1)}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( B(j-1)+B(j) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473088/tifr-cse-2025-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/473088/tifr-cse-2025-part-b-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

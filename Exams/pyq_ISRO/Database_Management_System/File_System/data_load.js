@@ -1,0 +1,191 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - File_System",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "File_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is dense index? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Primary index</p>",
+            "<b>B.</b> <p>Clustered index</p>",
+            "<b>C.</b> <p>Secondary index</p>",
+            "<b>D.</b> <p>Secondary non-key index</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Secondary index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213537/isro2018-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>in a file which contains 1 million records and the order of the tree is 100, then what is the maximum number of nodes to be accessed if B+ tree index is used? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213539/isro2018-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A B-Tree used as an index for a large database table has four levels including the root node. If a new key is inserted in this index, then the maximum number of nodes that could be newly created in the process are <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3768/gate2005-it-23-isro2017-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of these is characteristic of RAID 5? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dedicated parity</p>",
+            "<b>B.</b> <p>Double parity</p>",
+            "<b>C.</b> <p>Hamming code parity</p>",
+            "<b>D.</b> <p>Distributed parity</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Distributed parity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128687/isro2017-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A clustering index is defined on the fields which are of type <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-key and ordering</p>",
+            "<b>B.</b> <p>non-key and non-ordering</p>",
+            "<b>C.</b> <p>key and ordering</p>",
+            "<b>D.</b> <p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/414/gate2008-16-isro2016-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The order of a leaf node in a \\(B^+\\) - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is 1K bytes, data record pointer is 7 bytes long, the value field is 9 bytes long and a block pointer is 6 bytes long, what is the order of the leaf node? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63</p>",
+            "<b>B.</b> <p>64</p>",
+            "<b>C.</b> <p>67</p>",
+            "<b>D.</b> <p>68</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>63</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1261/gate2007-63-isro2016-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given a block can hold either 3 records or 10 key pointers. A database contains n records, then how many blocks do we need to hold the data file and the dense index <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13n/30</p>",
+            "<b>B.</b> <p>n/3</p>",
+            "<b>C.</b> <p>n/10</p>",
+            "<b>D.</b> <p>n/30</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>13n/30</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19400/isro2015-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a system where each file is associated with a 16 bit number. For each file, each user should have the read and write capability. How much memory is needed to store each user's access data? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16 KB</p>",
+            "<b>B.</b> <p>32 KB</p>",
+            "<b>C.</b> <p>64 KB</p>",
+            "<b>D.</b> <p>128 KB</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>16 KB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15029/isro2014-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Embedded pointer provides <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A secondary access path</p>",
+            "<b>B.</b> <p>A physical record key</p>",
+            "<b>C.</b> <p>An inverted index</p>",
+            "<b>D.</b> <p>A primary key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A secondary access path</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44407/isro-2013-61-isro2008-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The physical location of a record determined by a formula that transforms a file key into a record location is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hashed file</p>",
+            "<b>B.</b> <p>B-Tree file</p>",
+            "<b>C.</b> <p>Indexed file</p>",
+            "<b>D.</b> <p>Sequential file</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Hashed file</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43938/isro-2013-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Calculate the order of leaf (\\(P_{leaf}\\)) and non leaf (P) nodes of a \\(B^{+}\\) tree based on the information given below.\n<br><br>\nSearch key field = 12 field\n<br>\nRecord pointer = 10 bytes\n<br>\nBlock pointer = 8 bytes\n<br>\nBlock size = 1KB <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P_{leaf}\\) = 51 &amp; p = 46</p>",
+            "<b>B.</b> <p>\\(P_{leaf}\\) = 47 &amp; p = 52</p>",
+            "<b>C.</b> <p>\\(P_{leaf}\\) = 46 &amp; p = 51</p>",
+            "<b>D.</b> <p>\\(P_{leaf}\\) = 52 &amp; p = 47</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(P_{leaf}\\) = 46 &amp; p = 51</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43933/isro-2013-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Embedded pointer provides <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A secondary access path</p>",
+            "<b>B.</b> <p>A physical record key</p>",
+            "<b>C.</b> <p>An inverted index</p>",
+            "<b>D.</b> <p>A primary key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A secondary access path</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44407/isro-2013-61-isro2008-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

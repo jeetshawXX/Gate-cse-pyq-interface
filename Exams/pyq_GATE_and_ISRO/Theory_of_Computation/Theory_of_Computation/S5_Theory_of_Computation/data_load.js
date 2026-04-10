@@ -1,0 +1,231 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>For \\(\\Sigma =\\{a,b\\}\\), let us consider the regular language <br>\\(L=\\{x|x=a^{2+3k} \\; or \\; x=b^{10+12k}, k\\geq 0\\}\\).<br>\nWhich one of the following can be a pumping length (the constant guaranteed by the pumping lemma) for L? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302833/gate2019-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>If L is a regular language over \\(\\Sigma =\\{a,b\\}\\), which one of the following languages is NOT regular ? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L\\cdot L^R=\\{xy|x \\in L,y^R \\in L\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{ww^R|w \\in L\\}\\)</p>",
+            "<b>C.</b> <p>Prifix(L)={\\(x \\in \\Sigma ^*|\\exists y \\in \\Sigma ^*\\) such that \\(xy \\in L\\)}</p>",
+            "<b>D.</b> <p>Suffix(L)={\\(y \\in \\Sigma ^*|\\exists x \\in \\Sigma ^*\\) such that \\(xy \\in L\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{ww^R|w \\in L\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302841/gate2019-cs-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A CFG (Context Free Grammar) is said to be in Chomsky Normal Form (CNF), if all the productions are of the form \\(\\mathrm{A} \\rightarrow \\mathrm{BC}\\) or \\(\\mathrm{A} \\rightarrow \\mathrm{a}\\). Let G be a CFG in CNF. To derive a string of terminals of length x, the number of products to be used is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2x-1</p>",
+            "<b>B.</b> <p>2x</p>",
+            "<b>C.</b> <p>2x+1</p>",
+            "<b>D.</b> <p>\\(2^{x}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2x-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213561/isro2018-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q26_91f4cce6.jpg\"><br>  The FSM (Finite State Machine) machine pictured in the figure above <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Complements a given bit pattern</p>",
+            "<b>B.</b> <p>Finds \\(2^{\\prime} s\\) complement of a given bit pattern</p>",
+            "<b>C.</b> <p>Increments a given bit pattern by 1</p>",
+            "<b>D.</b> <p>Changes the sign bit</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Increments a given bit pattern by 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213562/isro2018-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>CFG  (Context Free Grammar) is not closed under: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Union</p>",
+            "<b>B.</b> <p>Complementation</p>",
+            "<b>C.</b> <p>Kleene star</p>",
+            "<b>D.</b> <p>Product</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Complementation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213563/isro2018-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Choose the correct statement - <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A=\\left\\{a^{n} b^{n} \\mid n=1,2,3, \\ldots\\right\\}\\)  is a regular language</p>",
+            "<b>B.</b> <p>The set B, consisting of all strings made up of only \\(a^{\\prime} s\\) and \\(b^{\\prime} s\\) having equal number of \\(a^{\\prime} s\\) and bs defines a regular language</p>",
+            "<b>C.</b> <p>\\(L\\left(A^{*} B\\right) \\cap B\\) gives the set A</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213564/isro2018-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given a language L, define \\(L^{i}\\) as follows:<br> \\(L^{0}=\\{\\varepsilon \\} \\)<br>\\(L^{i}=L^{i-1} \\cdot L \\) for all \\( i \\gt 0\\)<br> The order of a language L is defined as the smallest k such that \\(L^{k}=L^{k+1}\\).\nConsider the language L1 (over alphabet 0) accepted by the following automaton. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q52_22ba3777.jpg\"> <br> The order of  L1 is ______ <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204127/gate2018-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following problems. L(G) denotes the language generated by a grammar G. L(M) denotes the language accepted by a machine M. <br><br>\n(I) For an unrestricted grammar G and a string w, whether w\\(\\in \\)L(G) <br>\n(II) Given a Turing machine M, whether L(M) is regular <br>\n(III) Given two grammars G1 and G2, whether L(G1) = L(G2) <br>\n(IV) Given an NFA N, whether there is a deterministic PDA P such that N and P\naccept the same language. <br><br>\nWhich one of the following statements is correct? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I and II are undecidable</p>",
+            "<b>B.</b> <p>Only III is undecidable</p>",
+            "<b>C.</b> <p>Only II and IV are undecidable</p>",
+            "<b>D.</b> <p>Only I, II and III are undecidable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only I, II and III are undecidable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204110/gate2018-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following languages: <br><br>I. \\( \\{a^{m}b^{n}c^{p}d^{q}|m+p=n+q, \\; where \\;  m,n,p,q \\geq 0 \\}\\)    <br>  II. \\(\\{a^{m}b^{n}c^{p}d^{q}|m=n \\; and \\; p=q, \\; where \\;  m,n,p,q\\geq 0 \\}  \\) <br> III. \\( \\{a^{m}b^{n}c^{p}d^{q}|m=n=p \\; and \\; p\\neq q, \\; where \\; m,n,p,q\\geq 0 \\} \\) <br>  IV. \\(\\{a^{m}b^{n}c^{p}d^{q}|mn=p+q, \\; where\\;  m,n,p,q\\geq 0\\}\\) <br><br>Which of the languages above are context-free? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>I and II only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>II and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and II only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204109/gate2018-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The set of all recursively enumerable languages is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>closed under complementation</p>",
+            "<b>B.</b> <p>closed under intersection.</p>",
+            "<b>C.</b> <p>a subset of the set of all recursive languages.</p>",
+            "<b>D.</b> <p>an uncountable set</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>closed under intersection.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204081/gate2018-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let N be an NFA with n states. Let k be the number of states of a minimal DFA which is equivalent to N. Which one of the following is necessarily true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(k\\geqslant 2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(k\\geqslant n\\)</p>",
+            "<b>C.</b> <p>\\(k\\leqslant n^{2}\\)</p>",
+            "<b>D.</b> <p>\\(k\\leqslant 2^{n}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(k\\leqslant 2^{n}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204080/gate2018-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If L and P are two recursively enumerable languages then they are not closed under <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Kleene star \\(L^{*}\\) of L</p>",
+            "<b>B.</b> <p>Intersection \\(L \\cap P\\)</p>",
+            "<b>C.</b> <p>Union \\(L \\cup P\\)</p>",
+            "<b>D.</b> <p>Set difference</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Set difference</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128779/isro2017-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In some programming language, an identifier is permitted to be a letter followed by any number of letters or digits. If \\(L\\) and \\(D\\) denote the sets of letters and digits respectively, which of the following expressions defines an identifier? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((L+D)^{+}\\)</p>",
+            "<b>B.</b> <p>\\(\\text { (L.D)* }\\)</p>",
+            "<b>C.</b> <p>\\(L(L+D)^{*}\\)</p>",
+            "<b>D.</b> <p>\\(L(L . D)^{*}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L(L+D)^{*}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2596/gate1995-1-9-isro2017-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which one of the following is FALSE? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is a unique minimal DFA for every regular language</p>",
+            "<b>B.</b> <p>Every NFA can be converted to an equivalent PDA.</p>",
+            "<b>C.</b> <p>Complement of every context-free language is recursive.</p>",
+            "<b>D.</b> <p>Every nondeterministic PDA can be converted to an equivalent deterministic PDA.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Every nondeterministic PDA can be converted to an equivalent deterministic PDA.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1308/gate2009-16-isro2017-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Given the following statements<br>S1 : Every context-sensitive language L is recursive<br>S2 : There exists a recursive language that is not context-sensitive<br>Which statements are true? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are not correct</p>",
+            "<b>D.</b> <p>Both S1 and S2 are correct</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both S1 and S2 are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128535/isro2017-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

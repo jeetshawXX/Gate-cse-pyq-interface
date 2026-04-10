@@ -1,0 +1,39 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Generating Functions",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Generating Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18391\"></a><div itemprop=\"text\"><p>The coefficient of \\( x^{3} \\)&nbsp;in the expansion of \\( (1 + x)^{3} (2 + x^{2})^{10} \\)&nbsp;is.</p>\n\n</div><br><br><b>Combinatory: TIFR CSE 2010 | Part A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{14} \\)</p>",
+            "<p>\\( 31 \\)</p>",
+            "<p>\\( \\left ( \\frac{3}{3} \\right ) + \\left ( \\frac{10}{1} \\right ) \\)</p>",
+            "<p>\\( \\left ( \\frac{3}{3} \\right ) + 2\\left ( \\frac{10}{1} \\right ) \\)</p>",
+            "<p>\\( \\left ( \\frac{3}{3} \\right ) \\left ( \\frac{10}{1} \\right ) 2^{9} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{14} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18391/tifr-cse-2010-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/18391/tifr-cse-2010-part-a-question-12</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"358957\"></a><div itemprop=\"text\"><p>Find the following sum.</p>\n\n<p>\\[ \\frac{1}{2^{2}-1}+\\frac{1}{4^{2}-1}+\\frac{1}{6^{2}-1}+\\cdots+\\frac{1}{40^{2}-1} \\]</p>\n\n\n\n<ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( \\frac{10}{41} \\)</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\frac{10}{21} \\)</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\frac{20}{21} \\)</li>\n</ol>\n\n<ol start=\"5\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( 1 \\)</li>\n</ol></div><br><br><b>Combinatory: TIFR CSE 2021 | Part A | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{20}{41} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{20}{41} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358957/tifr-cse-2021-part-a-question-11\" target=\"_blank\">https://gateoverflow.in/358957/tifr-cse-2021-part-a-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+});

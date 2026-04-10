@@ -1,0 +1,124 @@
+{
+  "title": "Computer Networks - Distance Vector Routing",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Distance Vector Routing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2362\"></a><div itemprop=\"text\"><p>Consider a network with \\( 6 \\) routers \\( \\textbf{R1} \\) to \\( \\textbf{R6} \\) connected with links having weights as shown in the following diagram.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/62a5c6a4e02d2c310745e9acb988d086.png\" width=\"500\"></p>\n\n<p>All the routers use the distance vector based routing algorithm to update their routing tables. Each router starts with its routing table initialized to contain an entry for each neighbor with the weight of the respective connecting link. After all the routing tables stabilize, how many links in the network will never be used for carrying any data?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2362/gate-cse-2010-question-54\" target=\"_blank\">https://gateoverflow.in/2362/gate-cse-2010-question-54</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"43326\"></a><div itemprop=\"text\"><p>Consider a network with \\( 6 \\) routers \\( R1 \\) to \\( R6 \\) connected with links having weights as shown in the following diagram.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/fbf4097385648dcd919fd9925b4b8c79.png\" width=\"500\"></p>\n\n<p>Suppose the weights of all unused links are changed to \\( 2 \\) and the distance vector algorithm is used again until all routing tables stabilize. How many links will now remain unused?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>GATE CSE 2010 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43326/gate-cse-2010-question-55\" target=\"_blank\">https://gateoverflow.in/43326/gate-cse-2010-question-55</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2160\"></a><div itemprop=\"text\"><p>Consider a network with five nodes, \\( N1 \\) to \\( N5 \\), as shown as below.</p>\n\n<p><img alt=\"\" height=\"379\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/a6d0c053883cfb6de01ff94d015e1b1f.png\" width=\"376\"></p>\n\n<p>The network uses a Distance Vector Routing protocol. Once the routes have been stabilized, the distance vectors at different nodes are as follows.</p>\n\n<p><strong>N1</strong>: \\( (0, 1, 7, 8, 4) \\)</p>\n\n<p><strong>N2</strong>: \\( (1, 0, 6, 7, 3) \\)</p>\n\n<p><strong>N3</strong>: \\( (7, 6, 0, 2, 6) \\)</p>\n\n<p><strong>N4</strong>: \\( (8, 7, 2, 0, 4) \\)</p>\n\n<p><strong>N5</strong>: \\( (4, 3, 6, 4, 0) \\)</p>\n\n<p>Each distance vector is the distance of the best known path at that instance to nodes, \\( N1 \\) to \\( N5 \\), where the distance to itself is \\( 0 \\). Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.</p>\n\n<p>The cost of link \\( N2-N3 \\) reduces to \\( 2 \\) (in both directions). After the next round of updates, what will be the new distance vector at node, \\( N3 \\)?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (3, 2, 0, 2, 5) \\)</p>",
+            "<p>\\( (3, 2, 0, 2, 6) \\)</p>",
+            "<p>\\( (7, 2, 0, 2, 5) \\)</p>",
+            "<p>\\( (7, 2, 0, 2, 6) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (3, 2, 0, 2, 5) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2160/gate-cse-2011-question-52\" target=\"_blank\">https://gateoverflow.in/2160/gate-cse-2011-question-52</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"43317\"></a><div itemprop=\"text\"><p>Consider a network with five nodes, \\( N1 \\) to \\( N5 \\), as shown as below.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/04444862966aad95b367594277622012.png\" width=\"400\"></p>\n\n<p>The network uses a Distance Vector Routing protocol. Once the routes have been stabilized, the distance vectors at different nodes are as follows.</p>\n\n<ul>\n\t<li><strong>N1</strong>: \\( (0, 1, 7, 8, 4) \\)</li>\n\t<li><strong>N2</strong>: \\( (1, 0, 6, 7, 3) \\)</li>\n\t<li><strong>N3</strong>: \\( (7, 6, 0, 2, 6) \\)</li>\n\t<li><strong>N4</strong>: \\( (8, 7, 2, 0, 4) \\)</li>\n\t<li><strong>N5</strong>: \\( (4, 3, 6, 4, 0) \\)</li>\n</ul>\n\n<p>Each distance vector is the distance of the best known path at that instance to nodes, \\( N1 \\) to \\( N5 \\), where the distance to itself is \\( 0 \\). Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors.</p>\n\n<p>The cost of link \\( N2-N3 \\) reduces to \\( 2 \\) (in both directions). After the next round of updates,&nbsp;the link \\( N1-N2 \\) goes down. \\( N2 \\) will reflect this change immediately in its distance vector as cost, \\( \\infty \\). After the&nbsp;<strong>NEXT ROUND</strong>&nbsp;of update, what will be the cost to \\( N1 \\) in the distance vector of \\( N3 \\) ?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)&nbsp;</p>",
+            "<p>\\( \\infty \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43317/gate-cse-2011-question-53\" target=\"_blank\">https://gateoverflow.in/43317/gate-cse-2011-question-53</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"357495\"></a><div itemprop=\"text\"><p>Consider a computer network using the distance vector routing algorithm in its network layer. The partial topology of the network is shown below.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"223\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/6d330d9117fb37aea0dae45f3bc09f4b.png\" width=\"225\"></p>\n\n<p>The objective is to find the shortest-cost path from the router \\( R \\) to routers \\( P \\) and \\( Q \\). Assume that \\( R \\) does not initially know the shortest routes to \\( P \\) and \\( Q \\). Assume that \\( R \\) has three neighbouring routers denoted as \\( X \\), \\( Y \\) and \\( Z \\). During one iteration, \\( R \\) measures its distance to its neighbours&nbsp;\\( X \\), \\( Y \\), and \\( Z \\) as \\( 3 \\), \\( 2 \\) and \\( 5 \\), respectively. Router \\( R \\) gets routing vectors from its neighbours that indicate that the distance to router \\( P \\) from routers \\( X \\), \\( Y \\) and \\( Z \\) are \\( 7 \\), \\( 6 \\) and \\( 5 \\), respectively. The routing vector also indicates that the distance to router \\( Q \\) from routers \\( X \\), \\( Y \\) and \\( Z \\) are \\( 4 \\), \\( 6 \\) and \\( 8 \\) respectively. Which of the following statement(s) is/are correct with respect to the new routing table o \\( R \\), after updation during this iteration?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 45</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The distance from \\( R \\) to \\( P \\) will be stored as \\( 10 \\)</p>",
+            "<p>The distance from \\( R \\) to \\( Q \\) will be stored as \\( 7 \\)</p>",
+            "<p>The next hop router for a packet from \\( R \\) to \\( P \\) is \\( Y \\)</p>",
+            "<p>The next hop router for a packet from \\( R \\) to \\( Q \\) is \\( Z \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>The distance from \\( R \\) to \\( Q \\) will be stored as \\( 7 \\)</p>",
+            "<p>The next hop router for a packet from \\( R \\) to \\( P \\) is \\( Y \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45\" target=\"_blank\">https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"371889\"></a><div itemprop=\"text\"><p>Consider a network with three routers \\( \\text{P, Q, R} \\) shown in the figure below. All the links have cost of unity.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/04b8304281b4104c0aec9069741d98c0.png\" width=\"350\"></p>\n\n<p>The routers exchange distance vector routing information and have converged on the routing tables, after which the link \\( \\text{Q-R} \\) fails. Assume that \\( \\text{P} \\) and \\( \\text{Q} \\) send out routing updates at random times, each at the same average rate. The probability of a routing loop formation <em>(rounded off to one decimal place)</em>&nbsp;between \\( \\text{P} \\) and \\( \\text{Q}, \\) leading to count-to-infinity problem, is _______________.</p></div><br><br><b>GATE CSE 2022 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371889/gate-cse-2022-question-47\" target=\"_blank\">https://gateoverflow.in/371889/gate-cse-2022-question-47</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3775\"></a><div itemprop=\"text\"><p>Count to infinity is a problem associated with:</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>link state routing protocol.</p>",
+            "<p>distance vector routing protocol</p>",
+            "<p>DNS while resolving host name</p>",
+            "<p>TCP for congestion control</p>"
+          ],
+          "correct_answer": "<p>distance vector routing protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3775/gate-it-2005-question-29\" target=\"_blank\">https://gateoverflow.in/3775/gate-it-2005-question-29</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3504\"></a><div itemprop=\"text\"><p>For the network given in the figure below, the routing tables of the four nodes \\( A \\), \\( E \\), \\( D \\)&nbsp;and&nbsp;\\( G \\) are shown. Suppose that \\( F \\) has estimated its delay to its neighbors, \\( A \\), \\( E \\), \\( D \\) and \\( G \\) as \\( 8 \\), \\( 10 \\), \\( 12 \\) and \\( 6 \\)&nbsp;msecs respectively and updates its routing table using distance vector routing technique.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"145\" src=\"images/gateOverflow_pyq_images/computer_networks___distance_vector_routing/c536d9bb82cc5ba8527480cc4385db8e.png\" width=\"270\"></p>\n\n<p>\\[ \\overset{\\textbf{Routing Table&nbsp;of A}}{\\begin{array}{|c|r|}\\hline<br>\n\\text{A}&amp;0\\\\ \\hline<br>\n\\text{B}&amp;40\\\\ \\hline<br>\n\\text{C}&amp;14\\\\ \\hline<br>\n\\text{D}&amp;17\\\\ \\hline<br>\n\\text{E}&amp;21\\\\ \\hline<br>\n\\text{F}&amp;9\\\\ \\hline<br>\n\\text{G}&amp;24\\\\ \\hline<br>\n\\end{array}}\\qquad<br>\n\\overset{\\textbf{Routing Table&nbsp;of D}}{\\begin{array}{|c|r|}\\hline<br>\n\\text{A}&amp;20\\\\ \\hline<br>\n\\text{B}&amp;8\\\\ \\hline<br>\n\\text{C}&amp;30\\\\ \\hline<br>\n\\text{D}&amp;0\\\\ \\hline<br>\n\\text{E}&amp;14\\\\ \\hline<br>\n\\text{F}&amp;7\\\\ \\hline<br>\n\\text{G}&amp;22\\\\ \\hline<br>\n\\end{array}} \\qquad<br>\n\\overset{\\textbf{Routing Table&nbsp;of E}}{\\begin{array}{|c|r|}\\hline<br>\n\\text{A}&amp;24\\\\ \\hline<br>\n\\text{B}&amp;27\\\\ \\hline<br>\n\\text{C}&amp;7\\\\ \\hline<br>\n\\text{D}&amp;20\\\\ \\hline<br>\n\\text{E}&amp;0\\\\ \\hline<br>\n\\text{F}&amp;11\\\\ \\hline<br>\n\\text{G}&amp;22\\\\ \\hline<br>\n\\end{array}}\\qquad<br>\n\\overset{\\textbf{Routing Table&nbsp;of G}}{\\begin{array}{|c|r|}\\hline<br>\n\\text{A}&amp;21\\\\ \\hline<br>\n\\text{B}&amp;24\\\\ \\hline<br>\n\\text{C}&amp;22\\\\ \\hline<br>\n\\text{D}&amp;19\\\\ \\hline<br>\n\\text{E}&amp;22\\\\ \\hline<br>\n\\text{F}&amp;10\\\\ \\hline<br>\n\\text{G}&amp;0\\\\ \\hline<br>\n\\end{array}}<br>\n \\]</p>\n\n\n\n<ol class=\"shrink-inline-options\" start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>\\[ \\begin{array}{|c|r|} \\hline \\text {A} &amp;&nbsp;\\text{8} \\\\\\hline \\text {B} &amp; &nbsp;\\text{20} \\\\\\hline&nbsp;\\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12}&nbsp;\\\\\\hline \\text {E} &amp;&nbsp;\\text{10} \\\\\\hline \\text {F} &amp; &nbsp;\\text{0} \\\\\\hline&nbsp;\\text{G} &amp; \\text{6} \\\\\\hline \\end{array} \\]</li>\n\t<li>\\[ \\begin{array}{|c|r|} \\hline \\text {A} &amp;&nbsp;\\text{21} \\\\\\hline \\text {B} &amp; &nbsp;\\text{8} \\\\\\hline&nbsp;\\text{C} &amp; \\text{7} \\\\\\hline \\text{D} &amp; \\text{19}&nbsp;\\\\\\hline \\text {E} &amp;&nbsp;\\text{14} \\\\\\hline \\text {F} &amp; &nbsp;\\text{0&nbsp;} \\\\\\hline&nbsp;\\text{G} &amp; \\text{22} \\\\\\hline \\end{array} \\]</li>\n\t<li>\\[ \\begin{array}{|c|r|} \\hline \\text {A} &amp;&nbsp;\\text{8} \\\\\\hline \\text {B} &amp; &nbsp;\\text{20} \\\\\\hline&nbsp;\\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12}&nbsp;\\\\\\hline \\text {E} &amp;&nbsp;\\text{10} \\\\\\hline \\text {F} &amp; &nbsp;\\text{16} \\\\\\hline&nbsp;\\text{G} &amp; \\text{6} \\\\\\hline \\end{array} \\]</li>\n\t<li>\\[ \\begin{array}{|c|r|} \\hline \\text {A} &amp;&nbsp;\\text{8} \\\\\\hline \\text {B} &amp; &nbsp;\\text{8} \\\\\\hline&nbsp;\\text{C} &amp; \\text{7} \\\\\\hline \\text{D} &amp; \\text{12}&nbsp;\\\\\\hline \\text {E} &amp;&nbsp;\\text{10} \\\\\\hline \\text {F} &amp; &nbsp;\\text{0} \\\\\\hline&nbsp;\\text{G} &amp; \\text{6} \\\\\\hline \\end{array} \\]</li>\n</ol></div><br><br><b>GATE IT 2007 | Question: 60</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3504/gate-it-2007-question-60\" target=\"_blank\">https://gateoverflow.in/3504/gate-it-2007-question-60</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1811 @@
+window.__examLoadCallback({
+  "title": "Others - NIELIT Scientific Assistant June 2025  Question",
+  "duration": 332,
+  "sections": [
+    {
+      "name": "NIELIT Scientific Assistant June 2025  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"478357\"></a><div itemprop=\"text\"><p>Which chemical element is represented as \"\\( \\text{Hg} \\)\" in the periodic table?</p></div><br><br><b>Unknown Category: NIELIT Scientific Assistant June 2025 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Silver</p>",
+            "<p>Tin</p>",
+            "<p>Copper</p>",
+            "<p>Mercury<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Mercury<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478357/nielit-scientific-assistant-june-2025-question-30\" target=\"_blank\">https://gateoverflow.in/478357/nielit-scientific-assistant-june-2025-question-30</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"478358\"></a><div itemprop=\"text\"><p>If you are facing west and turn \\( 90^{\\circ} \\) clockwise, then \\( 180^{\\circ} \\) anti-clockwise, which direction will you be facing?</p></div><br><br><b>Spatial Aptitude: NIELIT Scientific Assistant June 2025 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>North</p>",
+            "<p>East</p>",
+            "<p>South</p>",
+            "<p>West</p>"
+          ],
+          "correct_answer": "<p>South</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478358/nielit-scientific-assistant-june-2025-question-29\" target=\"_blank\">https://gateoverflow.in/478358/nielit-scientific-assistant-june-2025-question-29</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"478359\"></a><div itemprop=\"text\"><p>Maya is younger than Priya. Priya is elder than Rani but younger than Arjun. Arjun is elder than Komal. Who is the eldest?</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Arjun</p>",
+            "<p>Maya</p>",
+            "<p>Priya</p>",
+            "<p>Rani<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Arjun</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478359/nielit-scientific-assistant-june-2025-question-28\" target=\"_blank\">https://gateoverflow.in/478359/nielit-scientific-assistant-june-2025-question-28</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"478360\"></a><div itemprop=\"text\"><p>The simple interest on&nbsp;\\( \\text{Rs.} \\; 1000 \\) for \\( 2 \\) years at \\( 5 \\% \\) per annum is:&nbsp;</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Rs.} \\; 50 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 100 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 75 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 60 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Rs.} \\; 100 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478360/nielit-scientific-assistant-june-2025-question-27\" target=\"_blank\">https://gateoverflow.in/478360/nielit-scientific-assistant-june-2025-question-27</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"478361\"></a><div itemprop=\"text\"><p>If a train travels \\( 360 \\; \\text{km} \\) at a speed of \\( 90 \\; \\text{km/h} \\), how long does it take to complete the journey?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\; \\text{hours} \\)</p>",
+            "<p>\\( 4&nbsp;\\; \\text{hours} \\)</p>",
+            "<p>\\( 3&nbsp;\\; \\text{hours} \\)</p>",
+            "<p>\\( 6&nbsp;\\; \\text{hours} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4&nbsp;\\; \\text{hours} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478361/nielit-scientific-assistant-june-2025-question-26\" target=\"_blank\">https://gateoverflow.in/478361/nielit-scientific-assistant-june-2025-question-26</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"478362\"></a><div itemprop=\"text\"><p>The area of a triangle with base&nbsp;\\( 10 \\; \\text{cm} \\) and height&nbsp;\\( 8 \\; \\text{cm} \\) is:</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\; \\text{sq cm} \\)</p>",
+            "<p>\\( 40 \\; \\text{sq cm} \\)</p>",
+            "<p>\\( 60 \\; \\text{sq cm} \\)</p>",
+            "<p>\\( 80 \\; \\text{sq cm} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 40 \\; \\text{sq cm} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478362/nielit-scientific-assistant-june-2025-question-25\" target=\"_blank\">https://gateoverflow.in/478362/nielit-scientific-assistant-june-2025-question-25</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"478363\"></a><div itemprop=\"text\"><p>The difference between compound interest and simple interest on&nbsp;\\( \\text{Rs.} \\; 8000 \\) at \\( 5\\% \\) per annum for \\( 2 \\) years is:</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Rs.} \\; 10 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 15 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 20 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Rs.} \\; 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478363/nielit-scientific-assistant-june-2025-question-24\" target=\"_blank\">https://gateoverflow.in/478363/nielit-scientific-assistant-june-2025-question-24</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"478364\"></a><div itemprop=\"text\"><p>If the perimeter of a rectangle is \\( 40 \\; \\text{cm} \\) and its length is&nbsp;\\( 12 \\; \\text{cm,} \\) find its breadth.</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8&nbsp;\\; \\text{cm} \\)</p>",
+            "<p>\\( 10&nbsp;\\; \\text{cm} \\)</p>",
+            "<p>\\( 9&nbsp;\\; \\text{cm} \\)</p>",
+            "<p>\\( 11&nbsp;\\; \\text{cm} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8&nbsp;\\; \\text{cm} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478364/nielit-scientific-assistant-june-2025-question-23\" target=\"_blank\">https://gateoverflow.in/478364/nielit-scientific-assistant-june-2025-question-23</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"478365\"></a><div itemprop=\"text\"><p>Who won the \\( 2024 \\) Formula \\( 1 \\) Drivers' Championship?</p></div><br><br><b>Unknown Category: NIELIT Scientific Assistant June 2025 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>George Russell</p>",
+            "<p>Max Verstappen</p>",
+            "<p>Charles Leclerc</p>",
+            "<p>Sergio Pérez<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Max Verstappen</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478365/nielit-scientific-assistant-june-2025-question-22\" target=\"_blank\">https://gateoverflow.in/478365/nielit-scientific-assistant-june-2025-question-22</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"478366\"></a><div itemprop=\"text\"><p>Find the missing number: \\( 12, 24 ,48, 96, ? \\)</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 190 \\)</p>",
+            "<p>\\( 192 \\)</p>",
+            "<p>\\( 194 \\)</p>",
+            "<p>\\( 196 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 192 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478366/nielit-scientific-assistant-june-2025-question-21\" target=\"_blank\">https://gateoverflow.in/478366/nielit-scientific-assistant-june-2025-question-21</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"478367\"></a><div itemprop=\"text\"><p>If there are \\( 8 \\) teams in a tournament and each team plays with every other team once, how many matches are played?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 28 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 28 \\)<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478367/nielit-scientific-assistant-june-2025-question-20\" target=\"_blank\">https://gateoverflow.in/478367/nielit-scientific-assistant-june-2025-question-20</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"478368\"></a><div itemprop=\"text\"><p>If the simple interest on a sum for \\( 3 \\) years at \\( 10 \\% \\) per annum is \\( \\text{Rs.} \\; 600 \\), find the principal amount?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Rs.} \\; 3000 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 5000 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 2000 \\)</p>",
+            "<p>\\( \\text{Rs.} \\; 2500 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Rs.} \\; 2000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478368/nielit-scientific-assistant-june-2025-question-19\" target=\"_blank\">https://gateoverflow.in/478368/nielit-scientific-assistant-june-2025-question-19</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"478369\"></a><div itemprop=\"text\"><p>Find the missing number:&nbsp;</p><p>\\( 2, 6, 12, 20, ? \\)</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478369/nielit-scientific-assistant-june-2025-question-18\" target=\"_blank\">https://gateoverflow.in/478369/nielit-scientific-assistant-june-2025-question-18</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"478370\"></a><div itemprop=\"text\"><p>Select the correct option to improve the sentence:<br><br>He has been working here since four years.</p></div><br><br><b>Verbal Aptitude: NIELIT Scientific Assistant June 2025 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>working here for</p>",
+            "<p>working here from</p>",
+            "<p>working here while</p>",
+            "<p>No improvement</p>"
+          ],
+          "correct_answer": "<p>working here for</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478370/nielit-scientific-assistant-june-2025-question-17\" target=\"_blank\">https://gateoverflow.in/478370/nielit-scientific-assistant-june-2025-question-17</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"478371\"></a><div itemprop=\"text\"><p>What is the sum of the first \\( 20 \\) natural numbers?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 210 \\)</p>",
+            "<p>\\( 220 \\)</p>",
+            "<p>\\( 420 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 210 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478371/nielit-scientific-assistant-june-2025-question-16\" target=\"_blank\">https://gateoverflow.in/478371/nielit-scientific-assistant-june-2025-question-16</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"478372\"></a><div itemprop=\"text\"><p>Nayab Saini was swom in as the \\( 11^{\\text {th }} \\) Chief Minister of which State?</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Punjab</p>",
+            "<p>Uttarakhand</p>",
+            "<p>Rajasthan</p>",
+            "<p>Haryana<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Haryana<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478372/nielit-scientific-assistant-june-2025-question-15\" target=\"_blank\">https://gateoverflow.in/478372/nielit-scientific-assistant-june-2025-question-15</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"478373\"></a><div itemprop=\"text\"><p>Which pair is the odd one out?</p></div><br><br><b>Verbal Aptitude: NIELIT Scientific Assistant June 2025 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Apple&nbsp; &nbsp; &nbsp; &nbsp;Fruit</p>",
+            "<p>Dog&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Animal</p>",
+            "<p>Rose&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Flower</p>",
+            "<p>Car&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Road<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Car&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Road<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478373/nielit-scientific-assistant-june-2025-question-14\" target=\"_blank\">https://gateoverflow.in/478373/nielit-scientific-assistant-june-2025-question-14</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"478374\"></a><div itemprop=\"text\"><p>A man walks \\( 5 \\; \\text{km} \\) north, then turns right and walks&nbsp;\\( 3 \\; \\text{km,} \\) then turns right again and walks&nbsp;\\( 5 \\; \\text{km.} \\) Which direction is he facing?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;East</p>",
+            "<p>&nbsp;South</p>",
+            "<p>&nbsp;West</p>",
+            "<p>&nbsp;North</p>"
+          ],
+          "correct_answer": "<p>&nbsp;South</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478374/nielit-scientific-assistant-june-2025-question-13\" target=\"_blank\">https://gateoverflow.in/478374/nielit-scientific-assistant-june-2025-question-13</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"478375\"></a><div itemprop=\"text\"><p>In a certain code language, \\( \\text{LION} \\) is written as \\( 50 \\), then \\( \\text{TIGER} \\) is written as_______</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 52 \\)</p>",
+            "<p>\\( 59 \\)</p>",
+            "<p>\\( 58 \\)</p>",
+            "<p>\\( 61 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 59 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478375/nielit-scientific-assistant-june-2025-question-12\" target=\"_blank\">https://gateoverflow.in/478375/nielit-scientific-assistant-june-2025-question-12</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"478376\"></a><div itemprop=\"text\"><p>In the given question, select the related word from the given alternatives.<br><br>Moon : Satellite :: Earth : ?</p></div><br><br><b>Verbal Aptitude: NIELIT Scientific Assistant June 2025 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sun</p>",
+            "<p>Solar system</p>",
+            "<p>Planet</p>",
+            "<p>Round<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Planet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478376/nielit-scientific-assistant-june-2025-question-11\" target=\"_blank\">https://gateoverflow.in/478376/nielit-scientific-assistant-june-2025-question-11</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"478377\"></a><div itemprop=\"text\"><p>Who wrote the novel \"War and Peace\" ?</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Anton Chekhov</p>",
+            "<p>Fyodor Dostoevsky</p>",
+            "<p>Leo Tolstoy</p>",
+            "<p>Ivan Turgenev<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Leo Tolstoy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478377/nielit-scientific-assistant-june-2025-question-10\" target=\"_blank\">https://gateoverflow.in/478377/nielit-scientific-assistant-june-2025-question-10</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"478378\"></a><div itemprop=\"text\"><p>What is the capital of Canada?</p></div><br><br><b>Unknown Category: NIELIT Scientific Assistant June 2025 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Toronto</p>",
+            "<p>Vancouver</p>",
+            "<p>Ottawa</p>",
+            "<p>Montreal<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Ottawa</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478378/nielit-scientific-assistant-june-2025-question-9\" target=\"_blank\">https://gateoverflow.in/478378/nielit-scientific-assistant-june-2025-question-9</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"478379\"></a><div itemprop=\"text\"><p>Who was declared as the winner of the Pritzker Architecture Prize \\( 2024? \\)</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Riken Yamamoto</p>",
+            "<p>David Chipperfield</p>",
+            "<p>B.V. Doshi</p>",
+            "<p>Yvonne Farrell</p>"
+          ],
+          "correct_answer": "<p>Riken Yamamoto</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478379/nielit-scientific-assistant-june-2025-question-8\" target=\"_blank\">https://gateoverflow.in/478379/nielit-scientific-assistant-june-2025-question-8</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"478380\"></a><div itemprop=\"text\"><p>Amit is elder than Rohit, but younger than Suman. Suman is younger than Neha. Rohit is elder than Kabir. Who is the youngest among them?</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rohit</p>",
+            "<p>Suman</p>",
+            "<p>Kabir</p>",
+            "<p>None of the options<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Kabir</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478380/nielit-scientific-assistant-june-2025-question-7\" target=\"_blank\">https://gateoverflow.in/478380/nielit-scientific-assistant-june-2025-question-7</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"478381\"></a><div itemprop=\"text\"><p>Find the missing term :<br><br>\\( \\text{BDF, CEG, DFH, _____, FIK} \\)</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{EGI} \\)</p>",
+            "<p>\\( \\text{EGH} \\)</p>",
+            "<p>\\( \\text{EHI} \\)</p>",
+            "<p>\\( \\text{DGI} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{EGI} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478381/nielit-scientific-assistant-june-2025-question-6\" target=\"_blank\">https://gateoverflow.in/478381/nielit-scientific-assistant-june-2025-question-6</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"478382\"></a><div itemprop=\"text\"><p>Find the next term in the series: \\( 7,14, 28, 56, ? \\)</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 110 \\)</p>",
+            "<p>\\( 115 \\)</p>",
+            "<p>\\( 112 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 112 \\)<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478382/nielit-scientific-assistant-june-2025-question-5\" target=\"_blank\">https://gateoverflow.in/478382/nielit-scientific-assistant-june-2025-question-5</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"478383\"></a><div itemprop=\"text\"><p>Which is the largest lake in the World?</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Caspian Sea</p>",
+            "<p>Baikal</p>",
+            "<p>Lake Superior</p>",
+            "<p>Ontario<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Caspian Sea</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478383/nielit-scientific-assistant-june-2025-question-4\" target=\"_blank\">https://gateoverflow.in/478383/nielit-scientific-assistant-june-2025-question-4</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"478384\"></a><div itemprop=\"text\"><p>What is the next term in the series: \\( 3, 9, 27, 81, ? \\)</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 162 \\)</p>",
+            "<p>\\( 243 \\)</p>",
+            "<p>\\( 99 \\)</p>",
+            "<p>\\( 150 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 243 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478384/nielit-scientific-assistant-june-2025-question-3\" target=\"_blank\">https://gateoverflow.in/478384/nielit-scientific-assistant-june-2025-question-3</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"478385\"></a><div itemprop=\"text\"><p>If \\( \\mathrm{M} \\, ^{*} \\, \\mathrm{N} + \\mathrm{O} \\) means \"\\( \\text{M} \\) is the father of \\( \\text{N} \\) and \\( \\text{N} \\) is the mother of \\( \\text{O} \\),\" then how is \\( \\text{M} \\) related to \\( \\text{O}? \\)</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Uncle</p>",
+            "<p>Father</p>",
+            "<p>Brother</p>",
+            "<p>Grandfather</p>"
+          ],
+          "correct_answer": "<p>Grandfather</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478385/nielit-scientific-assistant-june-2025-question-2\" target=\"_blank\">https://gateoverflow.in/478385/nielit-scientific-assistant-june-2025-question-2</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"478386\"></a><div itemprop=\"text\"><p>A company sells a product of&nbsp;\\( \\text{Rs.} \\;1500 \\) with a \\( 20 \\% \\) discount and has no profit and no loss. If the company wants to make a \\( 20 \\% \\) profit, at what price should the company sell that product?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Rs.} \\;1400 \\)</p>",
+            "<p>\\( \\text{Rs.} \\;1450 \\)</p>",
+            "<p>\\( \\text{Rs.} \\;1440 \\)</p>",
+            "<p>\\( \\text{Rs.} \\;1300 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Rs.} \\;1440 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478386/nielit-scientific-assistant-june-2025-question-1\" target=\"_blank\">https://gateoverflow.in/478386/nielit-scientific-assistant-june-2025-question-1</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"478387\"></a><div itemprop=\"text\"><p>Which type of feasibility focuses on whether the hardware and software available can support the proposed system?</p></div><br><br><b>IS&Software Engineering: NIELIT Scientific Assistant June 2025 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Operational Feasibility</p>",
+            "<p>Technical Feasibility</p>",
+            "<p>Legal Feasibility</p>",
+            "<p>Economic Feasibility<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Technical Feasibility</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478387/nielit-scientific-assistant-june-2025-question-60\" target=\"_blank\">https://gateoverflow.in/478387/nielit-scientific-assistant-june-2025-question-60</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"478388\"></a><div itemprop=\"text\"><p>Which of the following is the primary goal of information gathering in system development?</p></div><br><br><b>IS&Software Engineering: NIELIT Scientific Assistant June 2025 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To design the system architecture</p>",
+            "<p>To perform system testing</p>",
+            "<p>To identify the available hardware and software</p>",
+            "<p>To collect detailed user requirements and system needs</p>"
+          ],
+          "correct_answer": "<p>To collect detailed user requirements and system needs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478388/nielit-scientific-assistant-june-2025-question-59\" target=\"_blank\">https://gateoverflow.in/478388/nielit-scientific-assistant-june-2025-question-59</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"478389\"></a><div itemprop=\"text\"><p>Which of the following is the main purpose of the \\( \\text{AM} \\) demodulator (envelope detector)?</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To convert the modulated signal into the carrier frequency</p>",
+            "<p>To filter out noise from the modulated signal</p>",
+            "<p>To generate a new carrier signal</p>",
+            "<p>To extract the message signal from the modulated signal<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>To extract the message signal from the modulated signal<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478389/nielit-scientific-assistant-june-2025-question-58\" target=\"_blank\">https://gateoverflow.in/478389/nielit-scientific-assistant-june-2025-question-58</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"478390\"></a><div itemprop=\"text\"><p>Consider a complete graph \\( \\text{G} \\) with \\( 4 \\) vertices. The graph \\( \\text{G} \\) has _______ spanning trees.</p></div><br><br><b>Graph Theory: NIELIT Scientific Assistant June 2025 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478390/nielit-scientific-assistant-june-2025-question-57\" target=\"_blank\">https://gateoverflow.in/478390/nielit-scientific-assistant-june-2025-question-57</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"478391\"></a><div itemprop=\"text\"><p>The interval in which the function \\( f(x)=\\sin x+\\cos x, 0 \\leq x \\leq 2 \\pi \\) is strictly increasing or strictly decreasing is:</p></div><br><br><b>Calculus: NIELIT Scientific Assistant June 2025 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Strictly increasing for \\( x \\in\\left[0, \\frac{\\pi}{4}\\right) \\cup\\left(\\frac{5 \\pi}{4}, 2 \\pi\\right] \\) and strictly decreasing for \\( x \\in\\left(\\frac{\\pi}{4}, \\frac{5 \\pi}{4}\\right) \\)</p>",
+            "<p>Strictly increasing for \\( x \\in[0, \\pi) \\) and strictly decreasing for \\( x \\in(\\pi, 2 \\pi) \\)</p>",
+            "<p>Strictly increasing for \\( x \\in\\left[0, \\frac{\\pi}{4}\\right] \\cap\\left(\\frac{5 \\pi}{4}, 2 \\pi\\right] \\) and strictly decreasing for \\( x \\in\\left(\\frac{\\pi}{4}, \\frac{5 \\pi}{4}\\right) \\)</p>",
+            "<p>Strictly decreasing for \\( x \\in\\left(0, \\frac{\\pi}{4}\\right) \\cup\\left[\\frac{5 \\pi}{4}, 2 \\pi\\right] \\) and strictly increasing for \\( x \\in\\left[\\frac{\\pi}{4}, \\frac{5 \\pi}{4}\\right] \\)</p>"
+          ],
+          "correct_answer": "<p>Strictly increasing for \\( x \\in\\left[0, \\frac{\\pi}{4}\\right) \\cup\\left(\\frac{5 \\pi}{4}, 2 \\pi\\right] \\) and strictly decreasing for \\( x \\in\\left(\\frac{\\pi}{4}, \\frac{5 \\pi}{4}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478391/nielit-scientific-assistant-june-2025-question-56\" target=\"_blank\">https://gateoverflow.in/478391/nielit-scientific-assistant-june-2025-question-56</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"478392\"></a><div itemprop=\"text\"><p>Which of the following is false in the case of a spanning tree of a graph \\( \\text{G} \\)?</p></div><br><br><b>Graph Theory: NIELIT Scientific Assistant June 2025 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is tree that spans \\( \\text{G} \\)</p>",
+            "<p>It is a subgraph of the \\( \\text{G} \\)</p>",
+            "<p>It includes every vertex of the \\( \\text{G} \\)</p>",
+            "<p>It can be either cyclic or acyclic<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>It can be either cyclic or acyclic<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478392/nielit-scientific-assistant-june-2025-question-55\" target=\"_blank\">https://gateoverflow.in/478392/nielit-scientific-assistant-june-2025-question-55</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"478393\"></a><div itemprop=\"text\"><p>A bag contains '\\( x \\)' red, '\\( x+5 \\)' blue and '\\( x+7 \\)' grey balls. If two balls are randomly drawn from the bag and the probability that both the balls are of same colour is \\( \\dfrac{148}{435} \\), then the total number of balls in the bag is:</p></div><br><br><b>Probability: NIELIT Scientific Assistant June 2025 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 58 \\)</p>",
+            "<p>\\( 30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478393/nielit-scientific-assistant-june-2025-question-54\" target=\"_blank\">https://gateoverflow.in/478393/nielit-scientific-assistant-june-2025-question-54</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"478394\"></a><div itemprop=\"text\"><p><br>\\( \\displaystyle\\lim_{x \\to \\tfrac{\\pi}{2}} \\left( \\frac{\\tan 2x}{x - \\tfrac{\\pi}{2}} \\right) \\) = ________.</p></div><br><br><b>Calculus: NIELIT Scientific Assistant June 2025 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>Undefined</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478394/nielit-scientific-assistant-june-2025-question-53\" target=\"_blank\">https://gateoverflow.in/478394/nielit-scientific-assistant-june-2025-question-53</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"478395\"></a><div itemprop=\"text\"><p>If \\( \\left[\\begin{array}{c}-4.5 \\\\ -4 \\\\ 1\\end{array}\\right] \\) is an eigen vector of \\( \\left[\\begin{array}{ccc}8 &amp; -4 &amp; 2 \\\\ 4 &amp; 0 &amp; 2 \\\\ 0 &amp; -2 &amp; -4\\end{array}\\right] \\), the eigen value corresponding to the given eigen vector is:</p></div><br><br><b>Linear Algebra: NIELIT Scientific Assistant June 2025 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( -4.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478395/nielit-scientific-assistant-june-2025-question-52\" target=\"_blank\">https://gateoverflow.in/478395/nielit-scientific-assistant-june-2025-question-52</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"478396\"></a><div itemprop=\"text\"><p>The approximate value of integral \\( \\int_{0}^{1}(3 x+7) d x \\) by trapezoidal rule of the step size \\( 0.0001 \\) is ________.</p></div><br><br><b>Numerical Methods: NIELIT Scientific Assistant June 2025 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{3}{2} \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( \\frac{17}{2} \\)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{17}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478396/nielit-scientific-assistant-june-2025-question-51\" target=\"_blank\">https://gateoverflow.in/478396/nielit-scientific-assistant-june-2025-question-51</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"478397\"></a><div itemprop=\"text\"><p>Which of the following is simplified sum of product form for the Boolean expression? \\( \\left(\\mathrm{P}+\\mathrm{Q}^{\\prime}+\\mathrm{R}^{\\prime}\\right)\\left(\\mathrm{P}+\\mathrm{Q}^{\\prime}+\\mathrm{R}\\right)\\left(\\mathrm{P}+\\mathrm{Q}+\\mathrm{R}^{\\prime}\\right) \\)</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{P}+\\mathrm{QR}^{\\prime} \\)</p>",
+            "<p>\\( \\mathrm{P}+\\mathrm{Q}^{\\prime} \\mathrm{R} \\)</p>",
+            "<p>\\( \\mathrm{P}+\\mathrm{Q}^{\\prime} \\mathrm{R}^{\\prime} \\)</p>",
+            "<p>\\( \\mathrm{P}^{\\prime}+\\mathrm{Q}^{\\prime} \\mathrm{R}^{\\prime} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{P}+\\mathrm{Q}^{\\prime} \\mathrm{R}^{\\prime} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478397/nielit-scientific-assistant-june-2025-question-50\" target=\"_blank\">https://gateoverflow.in/478397/nielit-scientific-assistant-june-2025-question-50</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"478398\"></a><div itemprop=\"text\"><p>If \\( \\mathrm{A}=\\mathrm{Baby} \\) is eating, \\( \\mathrm{B}=\\mathrm{Baby} \\) is hungry, then the correct propositional logic to the English sentence&nbsp;&nbsp;</p><p>\"\\( \\text{Baby} \\) is eating and not hungry\" is:</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{A} \\Rightarrow \\neg \\mathrm{B} \\)&nbsp;</p>",
+            "<p>\\( \\mathrm{A} \\wedge \\neg \\mathrm{B} \\)</p>",
+            "<p>\\( \\neg(A \\Rightarrow-B) \\)</p>",
+            "<p>\\( A \\vee \\neg B \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{A} \\wedge \\neg \\mathrm{B} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478398/nielit-scientific-assistant-june-2025-question-49\" target=\"_blank\">https://gateoverflow.in/478398/nielit-scientific-assistant-june-2025-question-49</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"478399\"></a><div itemprop=\"text\"><p>For what values of \\( x \\):<br>\\[<br>\\left[\\begin{array}{lll}<br>1 &amp; 2 &amp; 1<br>\\end{array}\\right]\\left[\\begin{array}{lll}<br>1 &amp; 2 &amp; 0 \\\\<br>2 &amp; 0 &amp; 1 \\\\<br>1 &amp; 0 &amp; 2<br>\\end{array}\\right]\\left[\\begin{array}{l}<br>0 \\\\<br>2 \\\\<br>x<br>\\end{array}\\right]=0<br>\\]</p></div><br><br><b>Linear Algebra: NIELIT Scientific Assistant June 2025 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( -1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478399/nielit-scientific-assistant-june-2025-question-48\" target=\"_blank\">https://gateoverflow.in/478399/nielit-scientific-assistant-june-2025-question-48</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"478400\"></a><div itemprop=\"text\"><p>For two events \\( A \\) and \\( B \\), we have the following probabilities.<br>\\[<br>P(A)=P\\left(\\frac{A}{B}\\right)=\\frac{1}{4}, P\\left(\\frac{B}{A}\\right)=\\frac{1}{2}<br>\\]<br>Consider the statements:</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>&nbsp;\\( A \\)&nbsp;and \\( B \\) are independent.</li><li>&nbsp;\\( P(B)=\\dfrac{1}{2} \\)</li></ol><p>Which of the following is correct?</p></div><br><br><b>Probability: NIELIT Scientific Assistant June 2025 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( {(1)} \\) is True; \\( {(2)} \\) is False</p>",
+            "<p>\\( {(1)} \\) is True; \\( {(2)} \\) is True</p>",
+            "<p>\\( {(1)} \\) is False; \\( {(2)} \\) is False</p>",
+            "<p>\\( {(1)} \\) is False; \\( {(2)} \\) is True</p>"
+          ],
+          "correct_answer": "<p>\\( {(1)} \\) is True; \\( {(2)} \\) is True</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478400/nielit-scientific-assistant-june-2025-question-47\" target=\"_blank\">https://gateoverflow.in/478400/nielit-scientific-assistant-june-2025-question-47</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"478401\"></a><div itemprop=\"text\"><p>The sum of all the \\( 4 \\) digit numbers that can be formed with the digits \\( 3,4,5 \\) and \\( 6 \\) is:</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 119988 \\)</p>",
+            "<p>\\( 11988 \\)</p>",
+            "<p>\\( 191988 \\)</p>",
+            "<p>None of the options<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 119988 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478401/nielit-scientific-assistant-june-2025-question-46\" target=\"_blank\">https://gateoverflow.in/478401/nielit-scientific-assistant-june-2025-question-46</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"478402\"></a><div itemprop=\"text\"><p>Let \\( X=\\{1,2,3,4\\} \\). If<br>\\( \\mathrm{A}=\\{\\langle x, y\\rangle \\mid x \\in X \\wedge y \\in X \\wedge(x-y) \\) is a nonzero multiple of 2\\( \\} \\)<br>\\( \\mathrm{B}=\\{\\langle x, y\\rangle \\mid x \\in X \\wedge y \\in X \\wedge(x-y) \\) is a nonzero multiple of 3\\( \\} \\)&nbsp;</p><p>Then \\( A \\cap B \\) is :</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{(1,4),(4,1)\\} \\)</p>",
+            "<p>\\( \\{(1,3),(3,1),(2,4),(4,2)\\} \\)</p>",
+            "<p>\\( \\{(1,3),(3,1),(2,4),(4,2),(1,4),(4,1)\\} \\)</p>",
+            "<p>\\( \\phi \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\phi \\)<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478402/nielit-scientific-assistant-june-2025-question-45\" target=\"_blank\">https://gateoverflow.in/478402/nielit-scientific-assistant-june-2025-question-45</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"478403\"></a><div itemprop=\"text\"><p>The \\( \\text{LU} \\) factorization requires:</p></div><br><br><b>Algorithms: NIELIT Scientific Assistant June 2025 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{n^{3}}{6}-\\dfrac{n}{5} \\) multiplication/division</p>",
+            "<p>\\( \\dfrac{n^{3}}{3}-\\dfrac{n^{2}}{2}+\\dfrac{n}{6} \\) addition/subtraction</p>",
+            "<p>\\( \\dfrac{n^{3}}{5}-\\dfrac{n^{2}}{3}+\\dfrac{n}{6} \\) addition/subtraction</p>",
+            "<p>None of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{n^{3}}{3}-\\dfrac{n^{2}}{2}+\\dfrac{n}{6} \\) addition/subtraction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478403/nielit-scientific-assistant-june-2025-question-44\" target=\"_blank\">https://gateoverflow.in/478403/nielit-scientific-assistant-june-2025-question-44</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"478404\"></a><div itemprop=\"text\"><p>The number of straight lines that can be drawn out of \\( 12 \\) points of which \\( 8 \\) are collinear is:</p></div><br><br><b>Combinatory: NIELIT Scientific Assistant June 2025 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 39 \\)</p>",
+            "<p>\\( 29 \\)</p>",
+            "<p>\\( 49 \\)</p>",
+            "<p>\\( 59 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 39 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478404/nielit-scientific-assistant-june-2025-question-43\" target=\"_blank\">https://gateoverflow.in/478404/nielit-scientific-assistant-june-2025-question-43</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"478405\"></a><div itemprop=\"text\"><p>The product of two numbers is \\( 120, \\) and their sum is \\( 22. \\) What are the numbers?</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12,11 \\)</p>",
+            "<p>\\( 6,20 \\)</p>",
+            "<p>\\( 8,15 \\)</p>",
+            "<p>\\( 10,12 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 10,12 \\)<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478405/nielit-scientific-assistant-june-2025-question-42\" target=\"_blank\">https://gateoverflow.in/478405/nielit-scientific-assistant-june-2025-question-42</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"478406\"></a><div itemprop=\"text\"><p>First Bank in India to introduce talking \\( \\text{ATMs} \\) for disabled persons:</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SBI</p>",
+            "<p>Punjab National Bank</p>",
+            "<p>ICICI Bank</p>",
+            "<p>Union Bank of India</p>"
+          ],
+          "correct_answer": "<p>Union Bank of India</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478406/nielit-scientific-assistant-june-2025-question-41\" target=\"_blank\">https://gateoverflow.in/478406/nielit-scientific-assistant-june-2025-question-41</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"478407\"></a><div itemprop=\"text\"><p>If the diameter of a circle is reduced by \\( 50 \\% \\), what happens to its area?</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Reduced by \\( 25 \\% \\)</p>",
+            "<p>Reduced by \\( 50 \\% \\)</p>",
+            "<p>Reduced by \\( 75 \\% \\)</p>",
+            "<p>Reduced by \\( 100 \\% \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Reduced by \\( 75 \\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478407/nielit-scientific-assistant-june-2025-question-40\" target=\"_blank\">https://gateoverflow.in/478407/nielit-scientific-assistant-june-2025-question-40</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"478408\"></a><div itemprop=\"text\"><p>What is the probability of rolling a prime number on a fair six-sided die?</p></div><br><br><b>Probability: NIELIT Scientific Assistant June 2025 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 / 3 \\)</p>",
+            "<p>\\( 1 / 5 \\)</p>",
+            "<p>\\( 1 / 2 \\)</p>",
+            "<p>\\( 1 / 6 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 1 / 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478408/nielit-scientific-assistant-june-2025-question-39\" target=\"_blank\">https://gateoverflow.in/478408/nielit-scientific-assistant-june-2025-question-39</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"478409\"></a><div itemprop=\"text\"><p>A person walks \\( 10 \\ \\text{km} \\) north, then turns right and walks \\( 2 \\ \\text{km}, \\) then turns right again and walks \\( 10 \\ \\text{km}. \\) Finally, he turns left and walks \\( 4 \\ \\text{km}. \\) How far is he from his starting point?</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\ \\text{km} \\)</p>",
+            "<p>\\( 4 \\ \\text{km} \\)</p>",
+            "<p>\\( 10 \\ \\text{km} \\)</p>",
+            "<p>\\( 8 \\ \\text{km} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\ \\text{km} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478409/nielit-scientific-assistant-june-2025-question-38\" target=\"_blank\">https://gateoverflow.in/478409/nielit-scientific-assistant-june-2025-question-38</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"478410\"></a><div itemprop=\"text\"><p>Who was the Governor of Reserve Bank of India as on \\( 5^{\\text {th}} \\) March \\( 2025? \\)</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant June 2025 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sanjay Malhotra</p>",
+            "<p>Shaktikant Das</p>",
+            "<p>S. Jaishankar</p>",
+            "<p>R.N. Malhotra</p>"
+          ],
+          "correct_answer": "<p>Sanjay Malhotra</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478410/nielit-scientific-assistant-june-2025-question-37\" target=\"_blank\">https://gateoverflow.in/478410/nielit-scientific-assistant-june-2025-question-37</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"478411\"></a><div itemprop=\"text\"><p>If \\( a \\) and \\( b \\) are positive integers, such that \\( a^{*} a=4 \\quad b^{*} b=36 \\), then what is \\( a^{*} b \\)?</p></div><br><br><b>Unknown Category: NIELIT Scientific Assistant June 2025 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 20 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478411/nielit-scientific-assistant-june-2025-question-36\" target=\"_blank\">https://gateoverflow.in/478411/nielit-scientific-assistant-june-2025-question-36</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"478412\"></a><div itemprop=\"text\"><p>The new manager is known for his _______ nature.</p></div><br><br><b>Verbal Aptitude: NIELIT Scientific Assistant June 2025 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ambiguous</p>",
+            "<p>Animosity</p>",
+            "<p>Hostile</p>",
+            "<p>Amiable<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Amiable<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478412/nielit-scientific-assistant-june-2025-question-35\" target=\"_blank\">https://gateoverflow.in/478412/nielit-scientific-assistant-june-2025-question-35</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"478413\"></a><div itemprop=\"text\"><p>Study of insects is known as _______.</p></div><br><br><b>Verbal Aptitude: NIELIT Scientific Assistant June 2025 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Astrology</p>",
+            "<p>Emetology</p>",
+            "<p>Entomology</p>",
+            "<p>Geology</p>"
+          ],
+          "correct_answer": "<p>Entomology</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478413/nielit-scientific-assistant-june-2025-question-34\" target=\"_blank\">https://gateoverflow.in/478413/nielit-scientific-assistant-june-2025-question-34</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"478414\"></a><div itemprop=\"text\"><p>If \\( \\text{STAR} \\) is coded as \\( \\text{VWDU} \\), how is \\( \\text{MOON} \\) coded?</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{PRRQ} \\)</p>",
+            "<p>\\( \\text{QPQP} \\)</p>",
+            "<p>\\( \\text{ORRP} \\)</p>",
+            "<p>\\( \\text{PPRQ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{PRRQ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478414/nielit-scientific-assistant-june-2025-question-33\" target=\"_blank\">https://gateoverflow.in/478414/nielit-scientific-assistant-june-2025-question-33</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"478415\"></a><div itemprop=\"text\"><p>Find the next term :</p><p>\\( \\mathrm{AZ}, \\mathrm{BY}, \\mathrm{CX},? \\)</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{DW} \\)</p>",
+            "<p>\\( \\text{EV} \\)</p>",
+            "<p>\\( \\text{DU} \\)</p>",
+            "<p>\\( \\text{FW} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{DW} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478415/nielit-scientific-assistant-june-2025-question-32\" target=\"_blank\">https://gateoverflow.in/478415/nielit-scientific-assistant-june-2025-question-32</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"478416\"></a><div itemprop=\"text\"><p>Statements :</p><p>All cats are dogs.<br>Some dogs are lions.</p><p>Conclusions:<br>I.&nbsp; Some lions are cats.<br>II. All lions are dogs.</p></div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant June 2025 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only Conclusion \\( \\text{I} \\) follows</p>",
+            "<p>Only Conclusion \\( \\text{II} \\) follows</p>",
+            "<p>Both follow</p>",
+            "<p>Neither follows</p>"
+          ],
+          "correct_answer": "<p>Neither follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478416/nielit-scientific-assistant-june-2025-question-31\" target=\"_blank\">https://gateoverflow.in/478416/nielit-scientific-assistant-june-2025-question-31</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"478417\"></a><div itemprop=\"text\"><p>Which \\( \\text{OSI} \\) layer is responsible for data compression and encryption?</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 90</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Transport</p>",
+            "<p>Application</p>",
+            "<p>Presentation</p>",
+            "<p>Session</p>"
+          ],
+          "correct_answer": "<p>Presentation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478417/nielit-scientific-assistant-june-2025-question-90\" target=\"_blank\">https://gateoverflow.in/478417/nielit-scientific-assistant-june-2025-question-90</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"478418\"></a><div itemprop=\"text\"><p>Which normal form deals with removing partial dependencies?</p></div><br><br><b>Databases: NIELIT Scientific Assistant June 2025 | Question: 89</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)st&nbsp;Normal Form \\( \\text{(1NF)} \\)</p>",
+            "<p>\\( 2 \\)nd Normal Form \\( \\text{(2NF)} \\)</p>",
+            "<p>\\( 3 \\)rd Normal Form \\( \\text{(3NF)} \\)</p>",
+            "<p>Boyce-Codd Normal Form \\( \\text{(BCNF)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)nd Normal Form \\( \\text{(2NF)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478418/nielit-scientific-assistant-june-2025-question-89\" target=\"_blank\">https://gateoverflow.in/478418/nielit-scientific-assistant-june-2025-question-89</a></p>"
+        },
+        {
+          "id": 63,
+          "question": "<p><a name=\"478419\"></a><div itemprop=\"text\"><p>Which of the following is true for the \\( \\text{LL(1)} \\) parsing method?</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It uses left recursion in its grammar</p>",
+            "<p>It can be used for all context-free languages</p>",
+            "<p>It requires a look-ahead of 1 symbol</p>",
+            "<p>It is a type of shift-reduce parsing</p>"
+          ],
+          "correct_answer": "<p>It requires a look-ahead of 1 symbol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478419/nielit-scientific-assistant-june-2025-question-88\" target=\"_blank\">https://gateoverflow.in/478419/nielit-scientific-assistant-june-2025-question-88</a></p>"
+        },
+        {
+          "id": 64,
+          "question": "<p><a name=\"478420\"></a><div itemprop=\"text\"><p>What is the main purpose of a device driver?</p></div><br><br><b>Operating System: NIELIT Scientific Assistant June 2025 | Question: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To control the physical hardware of the device</p>",
+            "<p>To manage network communication</p>",
+            "<p>To control memory allocation</p>",
+            "<p>To execute system calls</p>"
+          ],
+          "correct_answer": "<p>To control the physical hardware of the device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478420/nielit-scientific-assistant-june-2025-question-87\" target=\"_blank\">https://gateoverflow.in/478420/nielit-scientific-assistant-june-2025-question-87</a></p>"
+        },
+        {
+          "id": 65,
+          "question": "<p><a name=\"478421\"></a><div itemprop=\"text\"><p>What does a Push-Down Automaton \\( \\text{(PDA)} \\) use to make decisions?</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 86</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack</p>",
+            "<p>Queue</p>",
+            "<p>Tape</p>",
+            "<p>Register</p>"
+          ],
+          "correct_answer": "<p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478421/nielit-scientific-assistant-june-2025-question-86\" target=\"_blank\">https://gateoverflow.in/478421/nielit-scientific-assistant-june-2025-question-86</a></p>"
+        },
+        {
+          "id": 66,
+          "question": "<p><a name=\"478422\"></a><div itemprop=\"text\"><p>Which of the following is a feature of a Real-Time Operating System \\( \\text{(RTOS)}? \\)</p></div><br><br><b>Operating System: NIELIT Scientific Assistant June 2025 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Processes are executed in a sequential manner.</p>",
+            "<p>Tasks are executed without strict timing constraints.</p>",
+            "<p>It guarantees that tasks will be executed within a predefined time limit.</p>",
+            "<p>It does not support multitasking.</p>"
+          ],
+          "correct_answer": "<p>It guarantees that tasks will be executed within a predefined time limit.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478422/nielit-scientific-assistant-june-2025-question-85\" target=\"_blank\">https://gateoverflow.in/478422/nielit-scientific-assistant-june-2025-question-85</a></p>"
+        },
+        {
+          "id": 67,
+          "question": "<p><a name=\"478423\"></a><div itemprop=\"text\"><p>What does the size of a Page Table Entry \\( \\text{(PTE)} \\) depend on in a paging system?</p></div><br><br><b>Operating System: NIELIT Scientific Assistant June 2025 | Question: 84</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The number of bits required to represent the frame number</p>",
+            "<p>The size of the virtual memory address</p>",
+            "<p>The size of the physical memory address</p>",
+            "<p>The size of the page</p>"
+          ],
+          "correct_answer": "<p>The number of bits required to represent the frame number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478423/nielit-scientific-assistant-june-2025-question-84\" target=\"_blank\">https://gateoverflow.in/478423/nielit-scientific-assistant-june-2025-question-84</a></p>"
+        },
+        {
+          "id": 68,
+          "question": "<p><a name=\"478424\"></a><div itemprop=\"text\"><p>Which of the following is an example of passing a parameter by reference in \\( \\text{C}? \\)&nbsp;</p></div><br><br><b>Programming and DS: NIELIT Scientific Assistant June 2025 | Question: 83</b></p>",
+          "type": "single",
+          "options": [
+            "<p>void func(int \\( \\text{x} \\))</p>",
+            "<p>void func(int &amp; \\( \\text{x} \\))</p>",
+            "<p>void func(int \\( \\text{x}, \\)&nbsp;int \\( \\text{y} \\))</p>",
+            "<p>void func(int *\\( \\text{x} \\))</p>"
+          ],
+          "correct_answer": "<p>void func(int *\\( \\text{x} \\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478424/nielit-scientific-assistant-june-2025-question-83\" target=\"_blank\">https://gateoverflow.in/478424/nielit-scientific-assistant-june-2025-question-83</a></p>"
+        },
+        {
+          "id": 69,
+          "question": "<p><a name=\"478425\"></a><div itemprop=\"text\"><p>The modulation index of \\( \\text{AM} \\) is defined as :</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The ratio of carrier frequency to message signal frequency</p>",
+            "<p>The ratio of the peak amplitude of the modulated signal to the peak amplitude of the carrier</p>",
+            "<p>The ratio of the carrier power to the total power in the \\( \\text{AM} \\) signal</p>",
+            "<p>The ratio of the amplitude of madulating signal to the amplitude of the carrier signal</p>"
+          ],
+          "correct_answer": "<p>The ratio of the amplitude of madulating signal to the amplitude of the carrier signal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478425/nielit-scientific-assistant-june-2025-question-82\" target=\"_blank\">https://gateoverflow.in/478425/nielit-scientific-assistant-june-2025-question-82</a></p>"
+        },
+        {
+          "id": 70,
+          "question": "<p><a name=\"478426\"></a><div itemprop=\"text\"><p>If the input to an \\( \\text{LTI} \\) system is a random signal with a known mean and variance, the output will have:</p></div><br><br><b>Probability: NIELIT Scientific Assistant June 2025 | Question: 81</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The same mean and variance as the input signal</p>",
+            "<p>The same mean, but a different variance</p>",
+            "<p>The same variance, but a different mean</p>",
+            "<p>A completely random mean and variance</p>"
+          ],
+          "correct_answer": "<p>The same mean, but a different variance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478426/nielit-scientific-assistant-june-2025-question-81\" target=\"_blank\">https://gateoverflow.in/478426/nielit-scientific-assistant-june-2025-question-81</a></p>"
+        },
+        {
+          "id": 71,
+          "question": "<p><a name=\"478427\"></a><div itemprop=\"text\"><p>What is the purpose of public key cryptography?</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To encrypt data using a single shared key</p>",
+            "<p>To replace the need for encryption in secure communication</p>",
+            "<p>To ensure confidentiality by using two keys: a public key and a private key</p>",
+            "<p>To decrypt digital signatures</p>"
+          ],
+          "correct_answer": "<p>To ensure confidentiality by using two keys: a public key and a private key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478427/nielit-scientific-assistant-june-2025-question-80\" target=\"_blank\">https://gateoverflow.in/478427/nielit-scientific-assistant-june-2025-question-80</a></p>"
+        },
+        {
+          "id": 72,
+          "question": "<p><a name=\"478428\"></a><div itemprop=\"text\"><p>Which isolation level in database systems allows transactions to be executed concurrently but without allowing dirty reads?</p></div><br><br><b>Databases: NIELIT Scientific Assistant June 2025 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Read Uncommitted</p>",
+            "<p>Read Committed</p>",
+            "<p>Repeatable Read</p>",
+            "<p>Serializable</p>"
+          ],
+          "correct_answer": "<p>Read Committed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478428/nielit-scientific-assistant-june-2025-question-79\" target=\"_blank\">https://gateoverflow.in/478428/nielit-scientific-assistant-june-2025-question-79</a></p>"
+        },
+        {
+          "id": 73,
+          "question": "<p><a name=\"478429\"></a><div itemprop=\"text\"><p>What does the term \"shift-reduce conflict\" refer to in a parser?</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p>When a loop is detected during parsing</p>",
+            "<p>When the grammar has ambiguous rules</p>",
+            "<p>When there is an error in semantic analysis</p>",
+            "<p>When a parser can't decide whether to shift or reduce based on the current state</p>"
+          ],
+          "correct_answer": "<p>When a parser can't decide whether to shift or reduce based on the current state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478429/nielit-scientific-assistant-june-2025-question-78\" target=\"_blank\">https://gateoverflow.in/478429/nielit-scientific-assistant-june-2025-question-78</a></p>"
+        },
+        {
+          "id": 74,
+          "question": "<p><a name=\"478430\"></a><div itemprop=\"text\"><p>Which method is commonly used for converting a decimal number into its binary equivalent in a floating-point representation?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Successive division by \\( 2 \\)</p>",
+            "<p>Successive subtraction of \\( 1 \\)</p>",
+            "<p>Direct conversion from decimal to binary</p>",
+            "<p>Multiplying by \\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>Successive division by \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478430/nielit-scientific-assistant-june-2025-question-77\" target=\"_blank\">https://gateoverflow.in/478430/nielit-scientific-assistant-june-2025-question-77</a></p>"
+        },
+        {
+          "id": 75,
+          "question": "<p><a name=\"478431\"></a><div itemprop=\"text\"><p>Which of the following is the correct asymptotic notation for an algorithm that grows slower than \\( \\text{O}\\left(n^{\\wedge} 2\\right) \\) but faster than \\( \\text{O}(n)? \\)</p></div><br><br><b>Algorithms: NIELIT Scientific Assistant June 2025 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{O}(n \\log n) \\)</p>",
+            "<p>\\( \\text{O}\\left(n^{\\wedge} 2\\right) \\)</p>",
+            "<p>\\( \\text{O}\\left(n^{\\wedge} 3\\right) \\)</p>",
+            "<p>\\( \\text{O}(\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{O}(n \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478431/nielit-scientific-assistant-june-2025-question-76\" target=\"_blank\">https://gateoverflow.in/478431/nielit-scientific-assistant-june-2025-question-76</a></p>"
+        },
+        {
+          "id": 76,
+          "question": "<p><a name=\"478432\"></a><div itemprop=\"text\"><p>Which of the following addressing modes is used when the operand is directly specified in the instruction?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Immediate Addressing</p>",
+            "<p>Register Addressing</p>",
+            "<p>Direct Addressing</p>",
+            "<p>Indirect Addressing</p>"
+          ],
+          "correct_answer": "<p>Immediate Addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478432/nielit-scientific-assistant-june-2025-question-75\" target=\"_blank\">https://gateoverflow.in/478432/nielit-scientific-assistant-june-2025-question-75</a></p>"
+        },
+        {
+          "id": 77,
+          "question": "<p><a name=\"478433\"></a><div itemprop=\"text\"><p>What is the advantage of using a full adder over a half adder in binary addition?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A full adder does not require a carry-in input.</p>",
+            "<p>A full adder can add two \\( 4 \\)-bit numbers.</p>",
+            "<p>A full adder handles carry inputs as well as carry outputs.</p>",
+            "<p>A full adder is used in sequential circuits only.</p>"
+          ],
+          "correct_answer": "<p>A full adder handles carry inputs as well as carry outputs.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478433/nielit-scientific-assistant-june-2025-question-74\" target=\"_blank\">https://gateoverflow.in/478433/nielit-scientific-assistant-june-2025-question-74</a></p>"
+        },
+        {
+          "id": 78,
+          "question": "<p><a name=\"478434\"></a><div itemprop=\"text\"><p>Which of the following phases in the Software Development Life Cycle \\( \\text{(SDLC)} \\) involves gathering and analyzing user requirements?</p></div><br><br><b>IS&Software Engineering: NIELIT Scientific Assistant June 2025 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Design</p>",
+            "<p>Implementation</p>",
+            "<p>Requirement Analysis</p>",
+            "<p>Maintenance</p>"
+          ],
+          "correct_answer": "<p>Requirement Analysis</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478434/nielit-scientific-assistant-june-2025-question-73\" target=\"_blank\">https://gateoverflow.in/478434/nielit-scientific-assistant-june-2025-question-73</a></p>"
+        },
+        {
+          "id": 79,
+          "question": "<p><a name=\"478435\"></a><div itemprop=\"text\"><p>Which of the following problems can be solved using a greedy approach?</p></div><br><br><b>Algorithms: NIELIT Scientific Assistant June 2025 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Knapsack problem (\\( 0/1 \\) version)</p>",
+            "<p>Job Scheduling with deadlines and profits</p>",
+            "<p>Fibonacci sequence calculation</p>",
+            "<p>Finding the shortest path in a weighted graph</p>"
+          ],
+          "correct_answer": "<p>Job Scheduling with deadlines and profits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478435/nielit-scientific-assistant-june-2025-question-72\" target=\"_blank\">https://gateoverflow.in/478435/nielit-scientific-assistant-june-2025-question-72</a></p>"
+        },
+        {
+          "id": 80,
+          "question": "<p><a name=\"478436\"></a><div itemprop=\"text\"><p>What is the purpose of the sliding window protocol in data communication?</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To manage the amount of data that can be sent before receiving an acknowledgment</p>",
+            "<p>To check for errors in received data</p>",
+            "<p>To determine the routing path in a network</p>",
+            "<p>To initiate a connection between devices</p>"
+          ],
+          "correct_answer": "<p>To manage the amount of data that can be sent before receiving an acknowledgment</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478436/nielit-scientific-assistant-june-2025-question-71\" target=\"_blank\">https://gateoverflow.in/478436/nielit-scientific-assistant-june-2025-question-71</a></p>"
+        },
+        {
+          "id": 81,
+          "question": "<p><a name=\"478437\"></a><div itemprop=\"text\"><p>What is a key advantage of \\( \\text{B} + \\) trees over \\( \\text{B} -  \\) trees?</p></div><br><br><b>Databases: NIELIT Scientific Assistant June 2025 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{B}+ \\) trees allow multiple key values per node</p>",
+            "<p>\\( \\mathrm{B}+ \\) trees use more disk space</p>",
+            "<p>\\( \\mathrm{B}+ \\) trees store data at both internal and leaf nodes</p>",
+            "<p>\\( \\mathrm{B}+ \\) trees have better performance for range queries</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{B}+ \\) trees have better performance for range queries</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478437/nielit-scientific-assistant-june-2025-question-70\" target=\"_blank\">https://gateoverflow.in/478437/nielit-scientific-assistant-june-2025-question-70</a></p>"
+        },
+        {
+          "id": 82,
+          "question": "<p><a name=\"478438\"></a><div itemprop=\"text\"><p>Which traversal method can be used to print the nodes of a binary tree in ascending order?</p></div><br><br><b>Data Structures: NIELIT Scientific Assistant June 2025 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Pre-order traversal</p>",
+            "<p>Post-order traversal</p>",
+            "<p>In-order traversal</p>",
+            "<p>Level-order traversal</p>"
+          ],
+          "correct_answer": "<p>In-order traversal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478438/nielit-scientific-assistant-june-2025-question-69\" target=\"_blank\">https://gateoverflow.in/478438/nielit-scientific-assistant-june-2025-question-69</a></p>"
+        },
+        {
+          "id": 83,
+          "question": "<p><a name=\"478439\"></a><div itemprop=\"text\"><p>Which of the following describes binding in \\( \\text{C}? \\)</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The process of assigning a value to a variable</p>",
+            "<p>The process of declaring the type of a variable</p>",
+            "<p>The process of associating a function with a return type</p>",
+            "<p>The process of associating a function name with a memory address<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>The process of associating a function name with a memory address<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478439/nielit-scientific-assistant-june-2025-question-68\" target=\"_blank\">https://gateoverflow.in/478439/nielit-scientific-assistant-june-2025-question-68</a></p>"
+        },
+        {
+          "id": 84,
+          "question": "<p><a name=\"478440\"></a><div itemprop=\"text\"><p>Which of the following algorithms is used to find the minimum spanning tree in a graph?</p></div><br><br><b>Algorithms: NIELIT Scientific Assistant June 2025 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dijkstra's Algorithm</p>",
+            "<p>Kruskal's Algorithm</p>",
+            "<p>Bellman-Ford Algorithm</p>",
+            "<p>Floyd-Warshall Algorithm</p>"
+          ],
+          "correct_answer": "<p>Kruskal's Algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478440/nielit-scientific-assistant-june-2025-question-67\" target=\"_blank\">https://gateoverflow.in/478440/nielit-scientific-assistant-june-2025-question-67</a></p>"
+        },
+        {
+          "id": 85,
+          "question": "<p><a name=\"478441\"></a><div itemprop=\"text\"><p>In which addressing mode, the address of the operand is given by the sum of a constant value and the content of a register?</p></div><br><br><b>CO & Architecture: NIELIT Scientific Assistant June 2025 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Indexed Addressing</p>",
+            "<p>Base Register Addressing</p>",
+            "<p>Direct Addressing</p>",
+            "<p>Register Indirect Addressing</p>"
+          ],
+          "correct_answer": "<p>Indexed Addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478441/nielit-scientific-assistant-june-2025-question-66\" target=\"_blank\">https://gateoverflow.in/478441/nielit-scientific-assistant-june-2025-question-66</a></p>"
+        },
+        {
+          "id": 86,
+          "question": "<p><a name=\"478442\"></a><div itemprop=\"text\"><p>In \\( \\text{PCM}, \\) the quantization error is caused by:</p></div><br><br><b>Digital Signal Processing: NIELIT Scientific Assistant June 2025 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sampling the signal</p>",
+            "<p>The difference between the input signal and the quantized value</p>",
+            "<p>The modulation of the signal</p>",
+            "<p>The carrier frequency variation</p>"
+          ],
+          "correct_answer": "<p>The difference between the input signal and the quantized value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478442/nielit-scientific-assistant-june-2025-question-65\" target=\"_blank\">https://gateoverflow.in/478442/nielit-scientific-assistant-june-2025-question-65</a></p>"
+        },
+        {
+          "id": 87,
+          "question": "<p><a name=\"478443\"></a><div itemprop=\"text\"><p>What is the key difference between a \\( \\text{DFA} \\) (Deterministic Finite Automaton) and an \\( \\text{NFA} \\) (Nondeterministic Finite Automaton)?</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A \\( \\text{DFA} \\) has a single state transition for each symbol, while an \\( \\text{NFA} \\)&nbsp;can have multiple transitions.</p>",
+            "<p>An \\( \\text{NFA} \\)&nbsp;has a single state transition for each symbol, while a \\( \\text{DFA} \\)&nbsp;can have multiple transitions.</p>",
+            "<p>\\( \\text{DFAs} \\)&nbsp;are less powerful than \\( \\text{NFAs}. \\)</p>",
+            "<p>\\( \\text{NFAs} \\)&nbsp;can recognize more languages than \\( \\text{DFAs}. \\)</p>"
+          ],
+          "correct_answer": "<p>A \\( \\text{DFA} \\) has a single state transition for each symbol, while an \\( \\text{NFA} \\)&nbsp;can have multiple transitions.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478443/nielit-scientific-assistant-june-2025-question-64\" target=\"_blank\">https://gateoverflow.in/478443/nielit-scientific-assistant-june-2025-question-64</a></p>"
+        },
+        {
+          "id": 88,
+          "question": "<p><a name=\"478444\"></a><div itemprop=\"text\"><p>What is the time complexity for searching an element in a balanced Binary Search Tree?</p></div><br><br><b>Data Structures: NIELIT Scientific Assistant June 2025 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{O}(1) \\)</p>",
+            "<p>\\( \\text{O}(\\log n) \\)</p>",
+            "<p>\\( \\text{O}(n) \\)</p>",
+            "<p>\\( \\text{O}(n \\log n) \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{O}(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478444/nielit-scientific-assistant-june-2025-question-63\" target=\"_blank\">https://gateoverflow.in/478444/nielit-scientific-assistant-june-2025-question-63</a></p>"
+        },
+        {
+          "id": 89,
+          "question": "<p><a name=\"478445\"></a><div itemprop=\"text\"><p>Which of the following is the primary operation for adding an element to a queue in \\( \\text{C}? \\)</p></div><br><br><b>Data Structures: NIELIT Scientific Assistant June 2025 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Enqueue</p>",
+            "<p>Dequeue</p>",
+            "<p>Push</p>",
+            "<p>Pop</p>"
+          ],
+          "correct_answer": "<p>Enqueue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478445/nielit-scientific-assistant-june-2025-question-62\" target=\"_blank\">https://gateoverflow.in/478445/nielit-scientific-assistant-june-2025-question-62</a></p>"
+        },
+        {
+          "id": 90,
+          "question": "<p><a name=\"478446\"></a><div itemprop=\"text\"><p>What is the main purpose of the synthesis of combinational circuits?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To optimize the circuit speed</p>",
+            "<p>To find the minimal sum of products</p>",
+            "<p>To design the flip-flops for sequential circuits</p>",
+            "<p>To convert the truth table into a Boolean expression</p>"
+          ],
+          "correct_answer": "<p>To convert the truth table into a Boolean expression</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478446/nielit-scientific-assistant-june-2025-question-61\" target=\"_blank\">https://gateoverflow.in/478446/nielit-scientific-assistant-june-2025-question-61</a></p>"
+        },
+        {
+          "id": 91,
+          "question": "<p><a name=\"478448\"></a><div itemprop=\"text\"><p>Which of the following is the main characteristic of sequential files?</p></div><br><br><b>Databases: NIELIT Scientific Assistant June 2025 | Question: 120</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Data is stored in an unordered fashion</p>",
+            "<p>Data is stored in sequential order</p>",
+            "<p>Data is indexed for fast access</p>",
+            "<p>Data can be accessed randomly</p>"
+          ],
+          "correct_answer": "<p>Data is stored in sequential order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478448/nielit-scientific-assistant-june-2025-question-120\" target=\"_blank\">https://gateoverflow.in/478448/nielit-scientific-assistant-june-2025-question-120</a></p>"
+        },
+        {
+          "id": 92,
+          "question": "<p><a name=\"478449\"></a><div itemprop=\"text\"><p>Which of the following problems is solved using dynamic programming?</p></div><br><br><b>Algorithms: NIELIT Scientific Assistant June 2025 | Question: 119</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Merge sort</p>",
+            "<p>Depth-first search</p>",
+            "<p>Breadth-first search</p>",
+            "<p>Fibonacci sequence calculation</p>"
+          ],
+          "correct_answer": "<p>Fibonacci sequence calculation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478449/nielit-scientific-assistant-june-2025-question-119\" target=\"_blank\">https://gateoverflow.in/478449/nielit-scientific-assistant-june-2025-question-119</a></p>"
+        },
+        {
+          "id": 93,
+          "question": "<p><a name=\"478450\"></a><div itemprop=\"text\"><p>Which of the following is true about '\\( \\text{Level 0} \\)' \\( \\text{DFD} \\) (Context Diagram)?</p></div><br><br><b>Others: NIELIT Scientific Assistant June 2025 | Question: 118</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It shows the complete system with all its processes and data flows</p>",
+            "<p>It shows a high-level view of the system with one process and its interactions with external entities</p>",
+            "<p>It is used to detail the internal components of the system</p>",
+            "<p>It shows only data stores and external entities</p>"
+          ],
+          "correct_answer": "<p>It shows a high-level view of the system with one process and its interactions with external entities</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478450/nielit-scientific-assistant-june-2025-question-118\" target=\"_blank\">https://gateoverflow.in/478450/nielit-scientific-assistant-june-2025-question-118</a></p>"
+        },
+        {
+          "id": 94,
+          "question": "<p><a name=\"478451\"></a><div itemprop=\"text\"><p>Which data structure is used by the lexical analyzer in a compiler?</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 117</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack</p>",
+            "<p>Queue</p>",
+            "<p>Symbol table</p>",
+            "<p>Tree</p>"
+          ],
+          "correct_answer": "<p>Symbol table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478451/nielit-scientific-assistant-june-2025-question-117\" target=\"_blank\">https://gateoverflow.in/478451/nielit-scientific-assistant-june-2025-question-117</a></p>"
+        },
+        {
+          "id": 95,
+          "question": "<p><a name=\"478452\"></a><div itemprop=\"text\"><p>Which of the following is the most powerful computational model?</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 116</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Finite Automaton</p>",
+            "<p>Push-Down Automaton</p>",
+            "<p>Turing Machine</p>",
+            "<p>Linear Bounded Automaton</p>"
+          ],
+          "correct_answer": "<p>Turing Machine</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478452/nielit-scientific-assistant-june-2025-question-116\" target=\"_blank\">https://gateoverflow.in/478452/nielit-scientific-assistant-june-2025-question-116</a></p>"
+        },
+        {
+          "id": 96,
+          "question": "<p><a name=\"478453\"></a><div itemprop=\"text\"><p>In \\( \\text{CPU} \\) control design, which of the following is responsible for generating control signals?</p></div><br><br><b>CO & Architecture: NIELIT Scientific Assistant June 2025 | Question: 115</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{ALU} \\)</p>",
+            "<p>Control Unit</p>",
+            "<p>Registers</p>",
+            "<p>Data Bus</p>"
+          ],
+          "correct_answer": "<p>Control Unit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478453/nielit-scientific-assistant-june-2025-question-115\" target=\"_blank\">https://gateoverflow.in/478453/nielit-scientific-assistant-june-2025-question-115</a></p>"
+        },
+        {
+          "id": 97,
+          "question": "<p><a name=\"478454\"></a><div itemprop=\"text\"><p>What is the primary disadvantage of using indirect addressing mode?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 114</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It eliminates the need for instructions</p>",
+            "<p>It is faster than direct addressing</p>",
+            "<p>It reduces the need for registers</p>",
+            "<p>It requires extra memory access</p>"
+          ],
+          "correct_answer": "<p>It requires extra memory access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478454/nielit-scientific-assistant-june-2025-question-114\" target=\"_blank\">https://gateoverflow.in/478454/nielit-scientific-assistant-june-2025-question-114</a></p>"
+        },
+        {
+          "id": 98,
+          "question": "<p><a name=\"478455\"></a><div itemprop=\"text\"><p>What is the main advantage of using a \\( \\text{DFA} \\) over an \\( \\text{NFA}? \\)</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 113</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{DFAs} \\) are easier to construct.</p>",
+            "<p>\\( \\text{DFAs} \\)&nbsp;always have fewer states than&nbsp;\\( \\text{NFAs}. \\)</p>",
+            "<p>\\( \\text{DFAs} \\) have a deterministic behavior, making them more predictable.</p>",
+            "<p>\\( \\text{DFAs} \\)&nbsp;can recognize more complex languages than&nbsp;\\( \\text{NFAs}. \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{DFAs} \\) have a deterministic behavior, making them more predictable.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478455/nielit-scientific-assistant-june-2025-question-113\" target=\"_blank\">https://gateoverflow.in/478455/nielit-scientific-assistant-june-2025-question-113</a></p>"
+        },
+        {
+          "id": 99,
+          "question": "<p><a name=\"478456\"></a><div itemprop=\"text\"><p>Which of the following best describes the purpose of the \"backpatching\" technique in code generation?</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 112</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is used to resolve forward jumps by filling in missing addresses.</p>",
+            "<p>It is used to optimize code by evaluating constant expressions at compile-time.</p>",
+            "<p>It is used to detect and correct syntax errors in the source code.</p>",
+            "<p>It is used for constant folding.</p>"
+          ],
+          "correct_answer": "<p>It is used to resolve forward jumps by filling in missing addresses.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478456/nielit-scientific-assistant-june-2025-question-112\" target=\"_blank\">https://gateoverflow.in/478456/nielit-scientific-assistant-june-2025-question-112</a></p>"
+        },
+        {
+          "id": 100,
+          "question": "<p><a name=\"478457\"></a><div itemprop=\"text\"><p>Which of the following is the primary objective of the \"round-robin\" \\( \\text{CPU} \\) scheduling algorithm?</p></div><br><br><b>Operating System: NIELIT Scientific Assistant June 2025 | Question: 111</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Minimize the average waiting time</p>",
+            "<p>Avoid starvation</p>",
+            "<p>Minimize the turnaround time</p>",
+            "<p>Provide each process with a fair share of \\( \\text{CPU} \\) time</p>"
+          ],
+          "correct_answer": "<p>Provide each process with a fair share of \\( \\text{CPU} \\) time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478457/nielit-scientific-assistant-june-2025-question-111\" target=\"_blank\">https://gateoverflow.in/478457/nielit-scientific-assistant-june-2025-question-111</a></p>"
+        },
+        {
+          "id": 101,
+          "question": "<p><a name=\"478458\"></a><div itemprop=\"text\"><p>Which of the following is a characteristic of Boyce-Codd Normal Form \\( \\text{(BCNF)}? \\)</p></div><br><br><b>Databases: NIELIT Scientific Assistant June 2025 | Question: 110</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Every determinant is a candidate key</p>",
+            "<p>There are no transitive dependencies</p>",
+            "<p>There are no partial dependencies</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Every determinant is a candidate key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478458/nielit-scientific-assistant-june-2025-question-110\" target=\"_blank\">https://gateoverflow.in/478458/nielit-scientific-assistant-june-2025-question-110</a></p>"
+        },
+        {
+          "id": 102,
+          "question": "<p><a name=\"478459\"></a><div itemprop=\"text\"><p>The Power Spectral Density \\( \\text{(PSD)} \\) of a random signal is modified by an \\( \\text{LTI} \\) system in what way?</p></div><br><br><b>Digital Signal Processing: NIELIT Scientific Assistant June 2025 | Question: 109</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is completely filtered out</p>",
+            "<p>It is multiplied by the square of the system's frequency response</p>",
+            "<p>It is unaffected</p>",
+            "<p>It is multiplied by the impulse response</p>"
+          ],
+          "correct_answer": "<p>It is multiplied by the square of the system's frequency response</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478459/nielit-scientific-assistant-june-2025-question-109\" target=\"_blank\">https://gateoverflow.in/478459/nielit-scientific-assistant-june-2025-question-109</a></p>"
+        },
+        {
+          "id": 103,
+          "question": "<p><a name=\"478460\"></a><div itemprop=\"text\"><p>Which type of cryptography uses the same key for both encryption and decryption?</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 108</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Digital signatures</p>",
+            "<p>Asymmetric key cryptography</p>",
+            "<p>Hash functions</p>",
+            "<p>Symmetric key cryptography</p>"
+          ],
+          "correct_answer": "<p>Symmetric key cryptography</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478460/nielit-scientific-assistant-june-2025-question-108\" target=\"_blank\">https://gateoverflow.in/478460/nielit-scientific-assistant-june-2025-question-108</a></p>"
+        },
+        {
+          "id": 104,
+          "question": "<p><a name=\"478461\"></a><div itemprop=\"text\"><p>Which of the following operations can be performed in \\( \\mathrm{O}(\\log n) \\) time in a binary heap?</p></div><br><br><b>Data Structures: NIELIT Scientific Assistant June 2025 | Question: 107</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Deleting the root element</p>",
+            "<p>Inserting an element</p>",
+            "<p>Both \\( \\text{(A)} \\) and \\( \\text{(B)} \\)</p>",
+            "<p>Searching for an element</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{(A)} \\) and \\( \\text{(B)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478461/nielit-scientific-assistant-june-2025-question-107\" target=\"_blank\">https://gateoverflow.in/478461/nielit-scientific-assistant-june-2025-question-107</a></p>"
+        },
+        {
+          "id": 105,
+          "question": "<p><a name=\"478462\"></a><div itemprop=\"text\"><p>Which of the following statements is true for a relation in \\( 3 \\)rd Normal Form \\( \\text{(3NF)}? \\)</p></div><br><br><b>Databases: NIELIT Scientific Assistant June 2025 | Question: 106</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is in \\( 2 \\)nd Normal Form \\( \\text{(2NF)} \\)</p>",
+            "<p>It does not contain transitive dependencies</p>",
+            "<p>It does not contain partial dependencies</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478462/nielit-scientific-assistant-june-2025-question-106\" target=\"_blank\">https://gateoverflow.in/478462/nielit-scientific-assistant-june-2025-question-106</a></p>"
+        },
+        {
+          "id": 106,
+          "question": "<p><a name=\"478463\"></a><div itemprop=\"text\"><p>The number of bits used for quantization in \\( \\text{PCM} \\) determines:</p></div><br><br><b>Digital Signal Processing: NIELIT Scientific Assistant June 2025 | Question: 105</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The transmission speed</p>",
+            "<p>The power efficiency</p>",
+            "<p>The signal-to-noise ratio \\( \\text{(SNR)} \\)</p>",
+            "<p>The bandwidth of the system</p>"
+          ],
+          "correct_answer": "<p>The signal-to-noise ratio \\( \\text{(SNR)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478463/nielit-scientific-assistant-june-2025-question-105\" target=\"_blank\">https://gateoverflow.in/478463/nielit-scientific-assistant-june-2025-question-105</a></p>"
+        },
+        {
+          "id": 107,
+          "question": "<p><a name=\"478464\"></a><div itemprop=\"text\"><p>Which of the following operations does a floating-point representation support that a fixed-point representation cannot?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 104</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Arithmetic operations on integers</p>",
+            "<p>Operations on very large or very small numbers</p>",
+            "<p>Simple addition and subtraction</p>",
+            "<p>Operations on binary fractions</p>"
+          ],
+          "correct_answer": "<p>Operations on very large or very small numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478464/nielit-scientific-assistant-june-2025-question-104\" target=\"_blank\">https://gateoverflow.in/478464/nielit-scientific-assistant-june-2025-question-104</a></p>"
+        },
+        {
+          "id": 108,
+          "question": "<p><a name=\"478465\"></a><div itemprop=\"text\"><p>Which of the following is a property of a regular language?</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 103</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It cannot be represented by a finite automaton.</p>",
+            "<p>It cannot be represented by a regular expression.</p>",
+            "<p>It can only be represented by a context-free grammar.</p>",
+            "<p>It is closed under union, concatenation, and Kleene star operations.</p>"
+          ],
+          "correct_answer": "<p>It is closed under union, concatenation, and Kleene star operations.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478465/nielit-scientific-assistant-june-2025-question-103\" target=\"_blank\">https://gateoverflow.in/478465/nielit-scientific-assistant-june-2025-question-103</a></p>"
+        },
+        {
+          "id": 109,
+          "question": "<p><a name=\"478466\"></a><div itemprop=\"text\"><p>Which of the following is true about Turing Machines?</p></div><br><br><b>Theory of Computation: NIELIT Scientific Assistant June 2025 | Question: 102</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Turing machines are equivalent to finite automata</p>",
+            "<p>Turing machines can simulate any computation that can be described algorithmically</p>",
+            "<p>Turing machines are not capable of recognizing context-free languages</p>",
+            "<p>Turing machines cannot halt</p>"
+          ],
+          "correct_answer": "<p>Turing machines can simulate any computation that can be described algorithmically</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478466/nielit-scientific-assistant-june-2025-question-102\" target=\"_blank\">https://gateoverflow.in/478466/nielit-scientific-assistant-june-2025-question-102</a></p>"
+        },
+        {
+          "id": 110,
+          "question": "<p><a name=\"478467\"></a><div itemprop=\"text\"><p>What does a class diagram in \\( \\text{UML} \\) represent?</p></div><br><br><b>Object Oriented Programming: NIELIT Scientific Assistant June 2025 | Question: 101</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The sequence of operations</p>",
+            "<p>The data flow between entities</p>",
+            "<p>The structure and relationships between classes</p>",
+            "<p>The physical storage of data</p>"
+          ],
+          "correct_answer": "<p>The structure and relationships between classes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478467/nielit-scientific-assistant-june-2025-question-101\" target=\"_blank\">https://gateoverflow.in/478467/nielit-scientific-assistant-june-2025-question-101</a></p>"
+        },
+        {
+          "id": 111,
+          "question": "<p><a name=\"478468\"></a><div itemprop=\"text\"><p>Which of the following is \\( \\text{NOT} \\) a key consideration in input/output design?</p></div><br><br><b>IS&Software Engineering: NIELIT Scientific Assistant June 2025 | Question: 100</b></p>",
+          "type": "single",
+          "options": [
+            "<p>User interface consistency</p>",
+            "<p>Efficiency of data retrieval</p>",
+            "<p>Ensuring security of system processes</p>",
+            "<p>Creating an intuitive user experience</p>"
+          ],
+          "correct_answer": "<p>Ensuring security of system processes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478468/nielit-scientific-assistant-june-2025-question-100\" target=\"_blank\">https://gateoverflow.in/478468/nielit-scientific-assistant-june-2025-question-100</a></p>"
+        },
+        {
+          "id": 112,
+          "question": "<p><a name=\"478469\"></a><div itemprop=\"text\"><p>Which of the following is the primary property of a binary heap?</p></div><br><br><b>Data Structures: NIELIT Scientific Assistant June 2025 | Question: 99</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The parent node is greater than its children (max-heap).</p>",
+            "<p>The parent node is less than its children (min-heap).</p>",
+            "<p>All nodes are arranged in a sorted order.</p>",
+            "<p>It is always a balanced tree.</p>"
+          ],
+          "correct_answer": "<p>It is always a balanced tree.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478469/nielit-scientific-assistant-june-2025-question-99\" target=\"_blank\">https://gateoverflow.in/478469/nielit-scientific-assistant-june-2025-question-99</a></p>"
+        },
+        {
+          "id": 113,
+          "question": "<p><a name=\"478470\"></a><div itemprop=\"text\"><p>Which of the following is an example of a combinational circuit?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 98</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Counter</p>",
+            "<p>Register</p>",
+            "<p>Multiplexer</p>",
+            "<p>Shift Register</p>"
+          ],
+          "correct_answer": "<p>Multiplexer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478470/nielit-scientific-assistant-june-2025-question-98\" target=\"_blank\">https://gateoverflow.in/478470/nielit-scientific-assistant-june-2025-question-98</a></p>"
+        },
+        {
+          "id": 114,
+          "question": "<p><a name=\"478471\"></a><div itemprop=\"text\"><p>Which of the following is the main objective of memory management in an operating system?</p></div><br><br><b>Operating System: NIELIT Scientific Assistant June 2025 | Question: 97</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Efficient allocation of memory</p>",
+            "<p>Protection of memory</p>",
+            "<p>Virtual memory management</p>",
+            "<p>All of the options</p>"
+          ],
+          "correct_answer": "<p>All of the options</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478471/nielit-scientific-assistant-june-2025-question-97\" target=\"_blank\">https://gateoverflow.in/478471/nielit-scientific-assistant-june-2025-question-97</a></p>"
+        },
+        {
+          "id": 115,
+          "question": "<p><a name=\"478472\"></a><div itemprop=\"text\"><p>What is the primary use of a Karnaugh Map (K-map) in Boolean algebra?</p></div><br><br><b>Digital Logic: NIELIT Scientific Assistant June 2025 | Question: 96</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To simplify logic circuits</p>",
+            "<p>To find the truth table</p>",
+            "<p>To convert a Boolean expression into its canonical form</p>",
+            "<p>To convert between logic gates</p>"
+          ],
+          "correct_answer": "<p>To simplify logic circuits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478472/nielit-scientific-assistant-june-2025-question-96\" target=\"_blank\">https://gateoverflow.in/478472/nielit-scientific-assistant-june-2025-question-96</a></p>"
+        },
+        {
+          "id": 116,
+          "question": "<p><a name=\"478473\"></a><div itemprop=\"text\"><p>Which of the following is \\( \\text{NOT} \\) a component of syntax analysis in a compiler?</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 95</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Syntax tree</p>",
+            "<p>Parse tree</p>",
+            "<p>Token</p>",
+            "<p>Grammar rules</p>"
+          ],
+          "correct_answer": "<p>Token</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478473/nielit-scientific-assistant-june-2025-question-95\" target=\"_blank\">https://gateoverflow.in/478473/nielit-scientific-assistant-june-2025-question-95</a></p>"
+        },
+        {
+          "id": 117,
+          "question": "<p><a name=\"478475\"></a><div itemprop=\"text\"><p>What is the main advantage of a Link-State Routing algorithm over a Distance-Vector Routing algorithm?</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 94</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is more efficient in terms of bandwidth usage</p>",
+            "<p>It has a faster convergence time</p>",
+            "<p>It requires less memory</p>",
+            "<p>It is simpler to implement</p>"
+          ],
+          "correct_answer": "<p>It has a faster convergence time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478475/nielit-scientific-assistant-june-2025-question-94\" target=\"_blank\">https://gateoverflow.in/478475/nielit-scientific-assistant-june-2025-question-94</a></p>"
+        },
+        {
+          "id": 118,
+          "question": "<p><a name=\"478476\"></a><div itemprop=\"text\"><p>What is the main purpose of a file system?</p></div><br><br><b>Operating System: NIELIT Scientific Assistant June 2025 | Question: 93</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To protect the system from malware</p>",
+            "<p>To manage the data stored on a storage device</p>",
+            "<p>To provide networking services</p>",
+            "<p>To execute user programs</p>"
+          ],
+          "correct_answer": "<p>To manage the data stored on a storage device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478476/nielit-scientific-assistant-june-2025-question-93\" target=\"_blank\">https://gateoverflow.in/478476/nielit-scientific-assistant-june-2025-question-93</a></p>"
+        },
+        {
+          "id": 119,
+          "question": "<p><a name=\"478477\"></a><div itemprop=\"text\"><p>What happens in \\( \\text{TCP} \\) when congestion is detected in the network?</p></div><br><br><b>Computer Networks: NIELIT Scientific Assistant June 2025 | Question: 92</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The sender reduces its congestion window</p>",
+            "<p>The sender increases its congestion window</p>",
+            "<p>The receiver sends an acknowledgment for all unacknowledged packets</p>",
+            "<p>The sender stops sending data</p>"
+          ],
+          "correct_answer": "<p>The sender reduces its congestion window</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478477/nielit-scientific-assistant-june-2025-question-92\" target=\"_blank\">https://gateoverflow.in/478477/nielit-scientific-assistant-june-2025-question-92</a></p>"
+        },
+        {
+          "id": 120,
+          "question": "<p><a name=\"478478\"></a><div itemprop=\"text\"><p>Which of the following is an intermediate representation used by compilers?</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant June 2025 | Question: 91</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Abstract syntax tree</p>",
+            "<p>Parse tree</p>",
+            "<p>Machine code</p>",
+            "<p>Source code</p>"
+          ],
+          "correct_answer": "<p>Abstract syntax tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478478/nielit-scientific-assistant-june-2025-question-91\" target=\"_blank\">https://gateoverflow.in/478478/nielit-scientific-assistant-june-2025-question-91</a></p>"
+        }
+      ]
+    }
+  ]
+});

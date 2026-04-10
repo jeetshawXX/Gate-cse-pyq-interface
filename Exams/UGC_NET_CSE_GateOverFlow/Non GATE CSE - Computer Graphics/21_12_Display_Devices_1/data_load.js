@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Display Devices",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Display Devices",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58486\"></a><div itemprop=\"text\">\n<p>The refresh rate above which a picture stops flickering and fuses into a steady image is called ____</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2013 | Part 3 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Crucial fusion frequency</p>",
+            "<p>Current frequency fusion</p>",
+            "<p>Critical fusion frequency</p>",
+            "<p>Critically diffused frequency</p>"
+          ],
+          "correct_answer": "<p>Critical fusion frequency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58486/ugc-net-cse-june-2013-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/58486/ugc-net-cse-june-2013-part-3-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

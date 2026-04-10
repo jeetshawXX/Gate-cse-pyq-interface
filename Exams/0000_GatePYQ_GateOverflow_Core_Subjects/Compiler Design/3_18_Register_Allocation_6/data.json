@@ -1,0 +1,99 @@
+{
+  "title": "Compiler Design - Register Allocation",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Register Allocation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2250\"></a><div itemprop=\"text\"><p>The expression \\( ( a * b) * c \\; op \\dots \\)</p><p>where ‘op’ is one of ‘\\( + \\)’, ‘\\( * \\)’ and ‘\\( \\uparrow \\)’ (exponentiation) can be evaluated on a CPU with single register without&nbsp; storing the value of (\\( a * b \\)) if</p></div><br><br><b>GATE CSE 1997 | Question: 4.9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{‘op’} \\) is ‘\\( + \\)’ or ‘\\( * \\)’</p>",
+            "<p>\\( \\text{‘op’} \\) is ‘\\( \\uparrow \\)’ or ‘\\( * \\)’</p>",
+            "<p>\\( \\text{‘op’} \\) is ‘\\( \\uparrow \\)’ or ‘\\( + \\)’</p>",
+            "<p>not possible to evaluate without storing</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{‘op’} \\) is ‘\\( + \\)’ or ‘\\( * \\)’</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2250/gate-cse-1997-question-4-9\" target=\"_blank\">https://gateoverflow.in/2250/gate-cse-1997-question-4-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4069\"></a><div itemprop=\"text\"><p>Consider the grammar rule \\( E \\rightarrow&nbsp;E1 – E2 \\) for arith­metic expressions. The code generated is targeted to a CPU having a single user register. The sub­traction operation requires the first operand to be in the register. If \\( E1 \\) and \\( E2 \\) do not have any com­mon sub expression, in order to get the shortest possible code</p></div><br><br><b>GATE CSE 2004 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( E1 \\) should be evaluated first</p>",
+            "<p>\\( E2 \\) should be evaluated first</p>",
+            "<p>Evaluation of \\( E1 \\) and \\( E2 \\) should necessarily be interleaved</p>",
+            "<p>Order of evaluation of \\( E1 \\) and \\( E2 \\) is of no consequence</p>"
+          ],
+          "correct_answer": "<p>\\( E2 \\) should be evaluated first</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/4069/gate-cse-2004-question-10\" target=\"_blank\">https://gateoverflow.in/4069/gate-cse-2004-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2338\"></a><div itemprop=\"text\"><p>The program below uses six temporary variables \\( a, b, c, d, e, f \\).</p><pre class=\"prettyprint lang-c_cpp\">a = 1 \nb = 10\nc = 20 \nd = a + b\ne = c + d \nf = c + e \nb = c + e \ne = b + f \nd = 5 + e\nreturn d + f \n\n</pre><p>Assuming that all operations take their operands from registers, what is the minimum number of registers needed to execute this program without spilling?</p></div><br><br><b>GATE CSE 2010 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2338/gate-cse-2010-question-37\" target=\"_blank\">https://gateoverflow.in/2338/gate-cse-2010-question-37</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2138\"></a><div itemprop=\"text\"><p>Consider evaluating the following expression tree on a machine with load-store architecture in&nbsp;which memory can be accessed only through load and store instructions. The variables \\( a, b, c, d, \\) and \\( e \\) are initially stored in memory. The binary operators used in this expression tree can be evaluated by the machine only when operands are in registers. The instructions produce result only in a register. If no intermediate results can be stored in memory, what is the minimum number of registers needed to evaluate this expression?</p>\n\n<p><img alt=\"\" height=\"274\" src=\"images/gateOverflow_pyq_images/compiler_design___register_allocation/dc204d5f2dcedbc850a8320a0059a8fe.png\" width=\"250\"></p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2138/gate-cse-2011-question-36\" target=\"_blank\">https://gateoverflow.in/2138/gate-cse-2011-question-36</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1556\"></a><div itemprop=\"text\"><p>The following code segment is executed on a processor which allows only register operands in its instructions. Each instruction can have atmost two source operands and one destination operand. Assume that all variables are dead after this code segment.</p><pre class=\"prettyprint lang-c_cpp\">c = a + b; \nd = c * a; \ne = c + a; \nx = c * c; \nif (x &gt; a) { \n y = a * a; \n} \nelse { \n d = d * d; \n e = e * e; \n} </pre><p>Q.48 Suppose the instruction set architecture of the processor has only two registers. The only allowed compiler optimization is code motion, which moves statements from one place to another while preserving correctness. What is the minimum number of spills to memory in the compiled code?</p></div><br><br><b>GATE CSE 2013 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0</p>",
+            "<p>1</p>",
+            "<p>2</p>",
+            "<p>3</p>"
+          ],
+          "correct_answer": "<p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1556/gate-cse-2013-question-48\" target=\"_blank\">https://gateoverflow.in/1556/gate-cse-2013-question-48</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"118746\"></a><div itemprop=\"text\"><p>Consider the expression&nbsp;\\( (a-1) * (((b+c)/3)+d) \\). Let \\( X \\) be the minimum number of registers required by an&nbsp;<em>optimal&nbsp;</em>code generation (without any register spill) algorithm for a load/store architecture, in which&nbsp;</p>\n\n\n\n<p>​​​​​​​The value of \\( X \\) is _____________ .</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>&nbsp;only load and store instructions can have memory operands&nbsp;and&nbsp;</p>",
+            "<p>&nbsp;arithmetic instructions can have only register or immediate operands.<em>&nbsp;</em></p>"
+          ],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118746/gate-cse-2017-set-1-question-52\" target=\"_blank\">https://gateoverflow.in/118746/gate-cse-2017-set-1-question-52</a></p>"
+        }
+      ]
+    }
+  ]
+}

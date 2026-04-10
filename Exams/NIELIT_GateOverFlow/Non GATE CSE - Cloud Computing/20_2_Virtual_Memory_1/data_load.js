@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Cloud Computing - Virtual Memory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Virtual Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351615\"></a><div itemprop=\"text\"><p>___________ is a partitioning of single physical server into multiple logical servers.</p>\n\n</div><br><br><b>Cloud Computing: NIELIT Scientist B 2020 November: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Virtualization</p>",
+            "<p>Private cloud</p>",
+            "<p>Hybrid cloud</p>",
+            "<p>Public cloud</p>"
+          ],
+          "correct_answer": "<p>Virtualization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351615/nielit-scientist-b-2020-november-67\" target=\"_blank\">https://gateoverflow.in/351615/nielit-scientist-b-2020-november-67</a></p>"
+        }
+      ]
+    }
+  ]
+});

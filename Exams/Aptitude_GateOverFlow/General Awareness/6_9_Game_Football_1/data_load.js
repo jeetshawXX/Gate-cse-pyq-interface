@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "General Awareness - Game Football",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Game Football",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"108\"></a><div itemprop=\"text\"><p>Which of the following term is NOT associated with the game of Football?</p><p>&nbsp;</p><ol><li>Dead Ball</li><li>Back pass</li><li>Corner Kick</li><li>Maiden over</li><li>Goal line</li></ol><p>&nbsp;</p><p>&nbsp;</p></div><br><br><b>General Awareness: Which of the following term is NOT associated with the game of Football</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/108/which-the-following-term-not-associated-with-game-football\" target=\"_blank\">https://aptitude.gateoverflow.in/108/which-the-following-term-not-associated-with-game-football</a></p>"
+        }
+      ]
+    }
+  ]
+});

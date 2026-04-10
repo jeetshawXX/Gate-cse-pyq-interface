@@ -1,0 +1,221 @@
+{
+  "title": "C_Programming - C_Programming - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following pseudo code, where x and y are positive integers.<pre><code> begin\n   q := 0\n    r := x \n    while r &gt;= y  do\n         begin\n               r := r - y\n              q := q + 1\n        end\nend </code></pre> The post condition that needs to be satisfied after the program terminates is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(r=qx+y \\; \\wedge \\; r \\lt y\\)}</p>",
+            "<b>B.</b> <p>{\\(x=qy+r \\; \\wedge \\; r \\lt y\\)}</p>",
+            "<b>C.</b> <p>{\\(y=qx+r  \\; \\wedge \\; 0 \\lt r \\lt y\\)}</p>",
+            "<b>D.</b> <p>{\\( q+1 \\lt r-y \\; \\wedge  \\; y \\gt 0\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\(x=qy+r \\; \\wedge \\; r \\lt y\\)}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8276/gate2015-1-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the output of the following C code? Assume that the address of x is 2000 (in decimal) and an integer requires four bytes of memory.<pre><code>int main () {\nunsigned int x[4][3] ={{1,2,3},{4,5,6},{7,8,9},{10,11,12}};\nprintf(\"%u, %u, %u\", x+3, *(x+3), *(x+2)+3);\n}</code></pre> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2036, 2036, 2036</p>",
+            "<b>B.</b> <p>2012, 4, 2204</p>",
+            "<b>C.</b> <p>2036, 10, 10</p>",
+            "<b>D.</b> <p>2012, 4, 6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2036, 2036, 2036</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8283/gate2015-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The output of the following C program is__________.<pre><code>  void f1(int a, int b) {\n    int c;\n    c=a; a=b; b=c;\n}\nvoid f2(int *a, int *b) {\n    int c;\n    c=*a; *a=*b; *b=c;\n}\nint main(){\n    int a=4, b=5, c=6;\n    f1(a,b);\n    f2(&amp;b, &amp;c);\n     printf(\"%d\",c-a-b);\n}</code></pre> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8185/gate2015-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the time complexity for the following C module? Assume that \\(n \\gt 0\\).<br><pre><code>\nint module(int n)\n{\n    if (n == 1)\n        return 1;\n    else\n        return (n + module(n-1));\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{2}\\right)\\)</p>",
+            "<b>D.</b> <p>O(n!)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55082/isro2014-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following three 'C' language statements is equivalent to which single statement?<br><pre><code>y=y+1;\nz=x+y;\nx=x+1</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>z = x + y + 2;</p>",
+            "<b>B.</b> <p>z = (x++) + (++y);</p>",
+            "<b>C.</b> <p>z = (x++) + (y++);</p>",
+            "<b>D.</b> <p>z = (x++) + (++y) + 1;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>z = (x++) + (++y);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53362/isro2014-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>How many lines of output does the following C code produce?<br><pre><code> #include &lt; stdio.h &gt;\nfloat i=2.0;\nfloat j=1.0;\nfloat sum = 0.0;\nmain()\n{\n    while (i/j &gt; 0.001)\n    {\n        j+=j;\n        sum=sum+(i/j);\n        printf(\"%f\\n\", sum);\n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52437/isro2014-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the output of the following C program?<br><pre><code> #include &lt; stdio.h &gt;    \nvoid main(void){\n    int shifty;\n    shifty=0570;\n    shifty=shifty&gt;&gt;4;\n    shifty=shifty&lt;&lt;6;\n    printf(\"The value  of shifty is %o \\n\",shifty);  \n}</code></pre><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The value of shifty is 15c0</p>",
+            "<b>B.</b> <p>The value of shifty is 4300</p>",
+            "<b>C.</b> <p>The value of shifty is 5700</p>",
+            "<b>D.</b> <p>The value of shifty is 2700</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The value of shifty is 2700</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15906/isro2014-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following is true with respect to Reference? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A reference can never be NULL</p>",
+            "<b>B.</b> <p>A reference needs an explicit dereferencing mechanism</p>",
+            "<b>C.</b> <p>A reference can be reassigned after it is established</p>",
+            "<b>D.</b> <p>A reference and pointer are synonymous</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A reference can never be NULL</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17420/isro2014-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What is the output of the following C program? <br><pre><code> #include &lt; stdio.h &gt;\n#define SQR(x) (x*x)  \n\nint main()\n{\n    int a;\n    int b=4;\n    a=SQR(b+2);\n    printf(\"%d\\n\",a); \n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>36</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52570/isro2014-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the C function given below. Assume that the array listA contains n (&gt; 0) elements,\nsorted in ascending order.<pre><code>int ProcessArray(int *listA, int x, int n)\n{\n   int i, j, k;\n   i = 0;\n   j = n-1;\n   do {\n          k = (i+j)/2;\n          if (x &lt;= listA[k])\n               j = k-1;\n          if (listA[k] &lt;= x)\n              i = k+1;\n       }while (i &lt;= j);\nif (listA[k] == x)\n     return(k);\nelse\n    return -1;\n} </code></pre>\nWhich one of the following statements about the function ProcessArray is CORRECT? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It will run into an infinite loop when x is not in listA</p>",
+            "<b>B.</b> <p>It is an implementation of binary search</p>",
+            "<b>C.</b> <p>It will always find the maximum element in listA.</p>",
+            "<b>D.</b> <p>It will return ? 1 even when x is present in listA.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It is an implementation of binary search</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2076/gate2014-3-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the C function given below<pre><code> int f(int j)\n{\nstatic int i = 50;\nint k;\nif (i == j)\n{\nprintf(\"something\");\nk = f(i);\nreturn 0;\n}\nelse return 0;\n} </code></pre>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The function returns 0 for all values of j.</p>",
+            "<b>B.</b> <p>The function prints the string something for all values of j.</p>",
+            "<b>C.</b> <p>The function returns 0 when j = 50.</p>",
+            "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The function will exhaust the runtime stack or run into an infinite loop when j = 50</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2008/gate2014-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following function<pre><code> double f (double x) {\nif ( abs (x*x - 3) &lt; 0. 01) return x;\nelse return f (x / 2 + 1.5/x);\n} </code></pre>\nGive a value q (to 2 decimals) such that f(q) will return q:______ <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.72",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2000/gate2014-2-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Suppose n and p are unsigned int variables in a C program. We wish to set p to \\(^nC_3\\). If n is large, which one of the following statements is most likely to set p correctly? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = n * (n - 1) * (n-2) / 6;</p>",
+            "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+            "<b>C.</b> <p>p = n * (n - 1) / 3 * (n-2) / 2;</p>",
+            "<b>D.</b> <p>p = n * (n - 1) / 2 * (n-2) / 6.0;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1965/gate2014-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the function func shown below:<pre><code> int func(int num) {\nint count = 0;\nwhile (num) {\n    count++;\n    num &gt;&gt; = 1;\n}\nreturn (count);\n} </code></pre>\nThe value returned by func(435)is __________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1964/gate2014-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following pseudo code. What is the total number of multiplications to be performed?<pre><code> D= 2\nfor i = 1 to n do\n   for j = i to n do\n      for k = j + 1 to n do\n           D = D * 3 </code></pre> <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Half of the product of the 3 consecutive integers</p>",
+            "<b>B.</b> <p>One-third of the product of the 3 consecutive integers.</p>",
+            "<b>C.</b> <p>One-sixth of the product of the 3 consecutive integers</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>One-sixth of the product of the 3 consecutive integers</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1920/gate2014-1-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

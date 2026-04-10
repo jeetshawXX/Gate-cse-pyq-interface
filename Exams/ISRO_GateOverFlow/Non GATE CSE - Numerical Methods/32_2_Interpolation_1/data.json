@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Numerical Methods - Interpolation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Interpolation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"52809\"></a><div itemprop=\"text\">\n<p>Given</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width: 136px; border-spacing: 1px;\"><tbody><tr><td style=\"width: 26px;\">X:</td>\n\t\t\t<td style=\"width: 27px;\">0</td>\n\t\t\t<td style=\"width: 31px;\">10</td>\n\t\t\t<td style=\"width: 29px;\">16</td>\n\t\t</tr><tr><td style=\"width: 26px;\">Y:</td>\n\t\t\t<td style=\"width: 27px;\">6</td>\n\t\t\t<td style=\"width: 31px;\">16</td>\n\t\t\t<td style=\"width: 29px;\">28</td>\n\t\t</tr></tbody></table><p>The interpolated value X=4 using piecewise linear interpolation is</p>\n\n\n</div><br><br><b>Numerical Methods: ISRO CSE 2011 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>11</p>",
+            "<p>4</p>",
+            "<p>22</p>",
+            "<p>10</p>"
+          ],
+          "correct_answer": "<p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52809/isro-cse-2011-question-52\" target=\"_blank\">https://gateoverflow.in/52809/isro-cse-2011-question-52</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Classless Addressing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Classless Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61062\"></a><div itemprop=\"text\"><p>Which of the following is/are restriction(s) in classless addressing?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The number of addresses needs to be a power of \\( 2 \\)</p>",
+            "<p>The mask needs to be included in the address to define the block</p>",
+            "<p>The starting address must be divisible by the number of addresses in the block</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61062/ugc-net-cse-junet-2015-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/61062/ugc-net-cse-junet-2015-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

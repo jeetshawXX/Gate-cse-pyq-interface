@@ -1,0 +1,81 @@
+{
+  "title": "Programming and DS - DS - Queue",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Queue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69944\"></a><div itemprop=\"text\"><p>Consider the following statements :</p>\n\n<p>\\( S_{1} \\) : A queue can be implemented using two stacks.</p>\n\n<p>\\( S_{2} \\) : A stack can be implemented using two queues.</p>\n\n<p>Which of the following is correct ?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | August 2016 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( S_{1} \\) is correct and \\( S_{2} \\) is not correct.</p>",
+            "<p>\\( S_{1} \\) is not correct and \\( S_{2} \\) is correct.</p>",
+            "<p>Both \\( S_{1} \\) and \\( S_{2} \\) are correct.</p>",
+            "<p>Both \\( S_{1} \\) and \\( S_{2} \\) are not correct.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69944/ugc-net-cse-august-2016-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/69944/ugc-net-cse-august-2016-part-2-question-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335484\"></a><div itemprop=\"text\"><p>The initial configuration of quaue is \\( a, b, c, d \\). \\( 'a' \\) is at the front. To get the configuration \\( d, c, b, a \\) how many deletions and additions required:</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2005 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) deletions, \\( 3 \\) additions</p>",
+            "<p>\\( 3 \\) deletions, \\( 2 \\) additions</p>",
+            "<p>\\( 3 \\) deletions, \\( 4 \\) additions</p>",
+            "<p>\\( 3 \\) deletions, \\( 3 \\) additions</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335484/ugc-net-cse-december-2005-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/335484/ugc-net-cse-december-2005-part-2-question-24</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"152859\"></a><div itemprop=\"text\">At a hill station, the parking lot is one long drive way snaking up a hill side. Cars drive in and park right behind the car in front of them, one behind another. A car can’t leave until all the cars in front of it have left. Is the parking lot more like<br>\n<br>\n(A) An array<br>\n<br>\n(B) A stack<br>\n<br>\n(C) A queue<br>\n<br>\n(D) A linked list</div><br><br><b>Data Structures: UGC NET CSE | December 2009 | Part 2 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152859/ugc-net-cse-december-2009-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/152859/ugc-net-cse-december-2009-part-2-question-23</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"154369\"></a><div itemprop=\"text\"><p>Queue is a …………. list .</p></div><br><br><b>Data Structures: UGC NET CSE | June 2009 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( LIFO \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( LILO \\)&nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( FILO \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( FIFO \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154369/ugc-net-cse-june-2009-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/154369/ugc-net-cse-june-2009-part-2-question-26</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"59030\"></a><div itemprop=\"text\">\n<p>The efficient data structure to insert/delete a number in a stored set of number is</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | September 2013 | Part 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Queue</p>",
+            "<p>Linked list</p>",
+            "<p>Doubly linked list</p>",
+            "<p>Binary tree</p>"
+          ],
+          "correct_answer": "<p>Doubly linked list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59030/ugc-net-cse-september-2013-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/59030/ugc-net-cse-september-2013-part-2-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Osi Protocol",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Osi Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57372\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List-I} &amp; &amp; \\textbf{List-II} \\\\&nbsp; &nbsp;\\text{a.}&nbsp;&amp; \\text{Application layer} &amp; \\text{i.} &amp; \\text{TCP}&nbsp;\\\\&nbsp;&nbsp;\\text{b.}&nbsp;&amp; \\text{Transport Layer} &amp; \\text{ii.} &amp; \\text{HDLC}&nbsp;\\\\&nbsp; &nbsp;\\text{c.}&nbsp;&amp; \\text{Network Layer} &amp; \\text{iii.}&amp; \\text{HTTP} \\\\&nbsp;&nbsp;\\text{d.}&nbsp;&amp; \\text{Data Link Layer} &amp; \\text{iv.} &amp; \\text{BGP} \\\\ &nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 3 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-ii, b-i, c-iv, d-iii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-iv, c-i, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-i, c-iv, d-ii} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iv, c-i, d-iii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iii, b-i, c-iv, d-ii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57372/ugc-net-cse-december-2012-part-3-question-10\" target=\"_blank\">https://gateoverflow.in/57372/ugc-net-cse-december-2012-part-3-question-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335137\"></a><div itemprop=\"text\"><p>Match the following Layers and Protocols for a user browsing with \\( \\text{SSL}: \\)<br>\n<br>\n\\( \\begin{array}{clcl} &nbsp;\\text{a.} &amp; &nbsp;\\text{Application of layer} &nbsp;&amp; \\text{i.} &amp; \\text{TCP} \\\\ &nbsp;\\text{b.} &amp; &nbsp;\\text{Transport layer} &amp; \\text{ii.} &amp; \\text{IP} \\\\ &nbsp; \\text{c.} &amp; \\text{Network layer} &amp; \\text{iii.} &amp; \\text{PPP} \\\\ &nbsp; \\text{d.} &amp; \\text{Datalink layer} &amp; \\text{iv.} &amp; \\text{HTTP} &nbsp;\\\\ &nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Code :} \\)</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | January 2017 | Part 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iv, b-i, c-ii, d-iii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-ii, c-i, d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iii, c-iv, d-i} \\)</p>",
+            "<p>\\( \\text{a-iii, b-i, c-iv, d-ii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iv, b-i, c-ii, d-iii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335137/ugc-net-cse-january-2017-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/335137/ugc-net-cse-january-2017-part-2-question-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"56092\"></a><div itemprop=\"text\"><p>X.25 is ______ Network</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Connection Oriented Network</p>",
+            "<p>Connection Less Network</p>",
+            "<p>Either Connection Oriented or Connection Less</p>",
+            "<p>Neither Connection Oriented nor Connection Less</p>"
+          ],
+          "correct_answer": "<p>Connection Oriented Network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56092/ugc-net-cse-june-2012-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/56092/ugc-net-cse-june-2012-part-3-question-11</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"56276\"></a><div itemprop=\"text\"><p>Which layer of OSI reference model uses the ICMP (Internet Control Message Protocol)?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 3 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Transport layer</p>",
+            "<p>Data link layer</p>",
+            "<p>Network layer</p>",
+            "<p>Application layer</p>"
+          ],
+          "correct_answer": "<p>Network layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56276/ugc-net-cse-june-2012-part-3-question-41\" target=\"_blank\">https://gateoverflow.in/56276/ugc-net-cse-june-2012-part-3-question-41</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"61058\"></a><div itemprop=\"text\">\n<p>Which of the following protocols is an application layer protocol that establishes, manages and terminates multimedia sessions?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Session Maintenance Protocol</p>",
+            "<p>Real-time Streaming Protocol</p>",
+            "<p>Real-time Transport Control Protocol</p>",
+            "<p>Session Initiation Protocol</p>"
+          ],
+          "correct_answer": "<p>Session Initiation Protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61058/ugc-net-cse-junet-2015-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/61058/ugc-net-cse-junet-2015-part-2-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

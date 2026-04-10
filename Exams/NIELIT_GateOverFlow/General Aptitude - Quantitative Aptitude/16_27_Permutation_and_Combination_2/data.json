@@ -1,0 +1,41 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Permutation and Combination",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Permutation and Combination",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378736\"></a><div itemprop=\"text\"><p>The number of \\( 4 \\) digit numbers which contain not more than two different digits is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 576 \\)</p>",
+            "<p>\\( 567 \\)</p>",
+            "<p>\\( 513 \\)</p>",
+            "<p>\\( 504 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 576 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378736/nielit-2021-dec-scientist-b-section-b-27\" target=\"_blank\">https://gateoverflow.in/378736/nielit-2021-dec-scientist-b-section-b-27</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366955\"></a><div itemprop=\"text\"><p>The number of \\( 4 \\; \\text{digit} \\) numbers which contain not more than two different digits is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 576 \\)</p>",
+            "<p>\\( 567 \\)</p>",
+            "<p>\\( 513 \\)</p>",
+            "<p>\\( 504 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 576 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366955/nielit-2021-dec-scientist-b-section-b-62\" target=\"_blank\">https://gateoverflow.in/366955/nielit-2021-dec-scientist-b-section-b-62</a></p>"
+        }
+      ]
+    }
+  ]
+}

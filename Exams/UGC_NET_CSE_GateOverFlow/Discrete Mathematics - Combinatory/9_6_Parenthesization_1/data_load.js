@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Parenthesization",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Parenthesization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63430\"></a><div itemprop=\"text\"><p>In how many ways can the string \\( A \\cap B - A \\cap B -A \\) be fully paranthesized to yield an infix expression?</p>\n\n</div><br><br><b>Combinatory: UGC NET CSE | July 2016 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>15</p>",
+            "<p>14</p>",
+            "<p>13</p>",
+            "<p>12</p>"
+          ],
+          "correct_answer": "<p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63430/ugc-net-cse-july-2016-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/63430/ugc-net-cse-july-2016-part-2-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+});

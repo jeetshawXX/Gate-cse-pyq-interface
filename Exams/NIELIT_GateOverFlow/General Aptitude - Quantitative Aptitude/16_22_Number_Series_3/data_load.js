@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Number Series",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Number Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366851\"></a><div itemprop=\"text\"><p>Directions \\( (3-5) : \\) In each of the following questions, one number&nbsp;is wrong in the series. Find out the wrong number.</p>\n\n<p>\\( 1, 9, 25, 49, 86, 121 : \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 121 \\)</p>",
+            "<p>\\( 166 \\)</p>",
+            "<p>\\( 86 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 86 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366851/nielit-2021-dec-scientist-b-section-a-4\" target=\"_blank\">https://gateoverflow.in/366851/nielit-2021-dec-scientist-b-section-a-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366850\"></a><div itemprop=\"text\"><p>Directions \\( (3-5) &nbsp;: \\) In each of the following questions, one number&nbsp;is wrong in the series. Find out the wrong number.</p>\n\n<p>\\( 701, 348, 173, 85, 41, 19, 8 : \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 173 \\)</p>",
+            "<p>\\( 41 \\)</p>",
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 348 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 348 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366850/nielit-2021-dec-scientist-b-section-a-5\" target=\"_blank\">https://gateoverflow.in/366850/nielit-2021-dec-scientist-b-section-a-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373705\"></a><div itemprop=\"text\"><p>In the following question, a number series is given with one term missing. Choose the correct alternative that will continue the same pattern and fill in the blank spaces.</p>\n\n<p>\\( 97, 86, 73, 58, 45, (\\dots) \\)</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 44 \\)</p>",
+            "<p>\\( 54 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 34 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373705/nielit-2022-april-scientist-b-section-a-question-13\" target=\"_blank\">https://gateoverflow.in/373705/nielit-2022-april-scientist-b-section-a-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

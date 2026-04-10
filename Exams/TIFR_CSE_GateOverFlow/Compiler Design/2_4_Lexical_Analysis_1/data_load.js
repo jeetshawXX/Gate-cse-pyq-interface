@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Lexical Analysis",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Lexical Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"333129\"></a><div itemprop=\"text\"><p>A particular Panini-Backus-Naur Form definition for a \\( &lt;\\textsf{word}&gt; \\) is given by the following rules:</p><ul><li>\\( &lt;\\textsf{word}&gt;:: = \\:&lt;\\text{letter}&gt; \\mid &lt;\\text{letter}&gt;\\:&lt;\\text{pairlet}&gt;\\mid &lt;\\text{letter}&gt;\\:&lt;\\text{pairdig}&gt; \\)</li><li>\\( &lt;\\textsf{pairlet}&gt;:: = \\:&lt;\\text{letter}&gt;\\:&lt;\\text{letter}&gt; \\mid &lt;\\text{pairlet}&gt;\\:&lt;\\text{letter}&gt;\\:&lt;\\text{letter}&gt; \\)</li><li>\\( &lt;\\textsf{pairdig}&gt;::=\\:&lt;\\text{digit}&gt;\\:&lt;\\text{digit}&gt;\\mid &lt;\\text{pairdig}&gt;\\:&lt;\\text{digit}&gt;\\:&lt;\\text{digit}&gt; \\)</li><li>\\( &lt;\\textsf{letter}&gt;::=\\: a\\mid b\\mid c&nbsp;\\mid &nbsp;\\dots \\mid y \\mid z \\)</li><li>\\( &lt;\\textsf{digit}&gt;::=\\:0\\mid 1\\mid 2\\mid \\dots \\mid 9 \\)</li></ul><p>Which of the following lexical entities can be derived from \\( &lt;\\text{word}&gt;? \\)</p><ol start=\"1\" style=\"list-style-type:upper-roman\"><li>\\( \\textsf{word} \\)</li><li>\\( \\textsf{words} \\)</li><li>\\( \\textsf{c22} \\)</li></ol></div><br><br><b>Theory of Computation: TIFR CSE 2020 | Part B | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>None of \\( \\text{I},\\text{II}\\:\\text{or}\\:\\text{III} \\)&nbsp;</p>",
+            "<p>\\( \\text{I} \\) and \\( \\text{II} \\) only</p>",
+            "<p>\\( \\text{I} \\) and \\( \\text{III} \\) only</p>",
+            "<p>\\( \\text{II} \\) and \\( \\text{III} \\) only</p>",
+            "<p>\\( \\text{I},\\text{II} \\) and \\( \\text{III} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{II} \\) and \\( \\text{III} \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333129/tifr-cse-2020-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/333129/tifr-cse-2020-part-b-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

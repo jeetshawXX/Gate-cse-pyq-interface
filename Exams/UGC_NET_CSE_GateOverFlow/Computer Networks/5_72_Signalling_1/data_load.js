@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Signalling",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Signalling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71617\"></a><div itemprop=\"text\"><p>Which of the following is a source coding technique ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | August 2016 | Part 3 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Huffman coding</p>",
+            "<p>Arithmetic coding</p>",
+            "<p>Run-length coding</p>",
+            "<p>DPCM</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71617/ugc-net-cse-august-2016-part-3-question-59\" target=\"_blank\">https://gateoverflow.in/71617/ugc-net-cse-august-2016-part-3-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

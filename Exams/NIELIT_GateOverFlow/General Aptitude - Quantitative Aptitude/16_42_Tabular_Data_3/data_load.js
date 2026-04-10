@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Tabular Data",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Tabular Data",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366894\"></a><div itemprop=\"text\"><p>Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p><table border=\"1\" style=\"border-collapse: collapse; padding: 20pt;\"><tbody><tr><th rowspan=\"2\">YEAR</th><th colspan=\"2\">RURAL</th><th colspan=\"2\">SEMI-URBAN</th><th colspan=\"2\">STATE CAPITAL</th><th colspan=\"2\">METROPOLITAN</th></tr><tr><th>App</th><th>Pass</th><th>App</th><th>Pass</th><th>App</th><th>Pass</th><th>App</th><th>Pass</th></tr><tr><td>2015</td><td>1652</td><td>208</td><td>7894</td><td>2513</td><td>5054</td><td>1468</td><td>9538</td><td>3214</td></tr><tr><td>2016</td><td>1839</td><td>317</td><td>8562</td><td>2933</td><td>7164</td><td>3248</td><td>10158</td><td>4018</td></tr><tr><td>2017</td><td>2153</td><td>932</td><td>8139</td><td>2468</td><td>8258</td><td>3159</td><td>9695</td><td>3038</td></tr><tr><td>2018</td><td>5032</td><td>1798</td><td>9432</td><td>3528</td><td>8529</td><td>3628</td><td>11247</td><td>5158</td></tr><tr><td>2019</td><td>4915</td><td>1668</td><td>9784</td><td>4015</td><td>9015</td><td>4311</td><td>12518</td><td>6328</td></tr><tr><td>2020</td><td>5628</td><td>2392</td><td>9969</td><td>4263</td><td>10725</td><td>4526</td><td>13624</td><td>6449</td></tr></tbody></table><h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[ *App - Appeared&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Pass - Passed ]</strong></p><div>What approximate value was the percentage drop in the number of semi-urban candidates appeared from \\( 2016 \\) to \\( 2017 \\; ? \\)</div></div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366894/nielit-2021-dec-scientist-b-section-a-33\" target=\"_blank\">https://gateoverflow.in/366894/nielit-2021-dec-scientist-b-section-a-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366893\"></a><div itemprop=\"text\"><p>Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p><p>&nbsp;</p><table border=\"1\" style=\"border-collapse: collapse; padding: 20pt;\"><tbody><tr><th rowspan=\"2\">YEAR</th><th colspan=\"2\">RURAL</th><th colspan=\"2\">SEMI-URBAN</th><th colspan=\"2\">STATE CAPITAL</th><th colspan=\"2\">METROPOLITAN</th></tr><tr><th>App</th><th>Pass</th><th>App</th><th>Pass</th><th>App</th><th>Pass</th><th>App</th><th>Pass</th></tr><tr><td>2015</td><td>1652</td><td>208</td><td>7894</td><td>2513</td><td>5054</td><td>1468</td><td>9538</td><td>3214</td></tr><tr><td>2016</td><td>1839</td><td>317</td><td>8562</td><td>2933</td><td>7164</td><td>3248</td><td>10158</td><td>4018</td></tr><tr><td>2017</td><td>2153</td><td>932</td><td>8139</td><td>2468</td><td>8258</td><td>3159</td><td>9695</td><td>3038</td></tr><tr><td>2018</td><td>5032</td><td>1798</td><td>9432</td><td>3528</td><td>8529</td><td>3628</td><td>11247</td><td>5158</td></tr><tr><td>2019</td><td>4915</td><td>1668</td><td>9784</td><td>4015</td><td>9015</td><td>4311</td><td>12518</td><td>6328</td></tr><tr><td>2020</td><td>5628</td><td>2392</td><td>9969</td><td>4263</td><td>10725</td><td>4526</td><td>13624</td><td>6449</td></tr></tbody></table><h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3><p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[ *App - Appeared&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Pass - Passed ]</strong></p><p>In which of the following years was the percentage passed to appeared candidates from semi-urban area the least \\( ? \\)</p></div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2015 \\)</p>",
+            "<p>\\( 2016 \\)</p>",
+            "<p>\\( 2017 \\)</p>",
+            "<p>\\( 2018 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2017 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366893/nielit-2021-dec-scientist-b-section-a-34\" target=\"_blank\">https://gateoverflow.in/366893/nielit-2021-dec-scientist-b-section-a-34</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410890\"></a><div itemprop=\"text\"><p>The following table shows the number of students enrolled in different streams in a particular college.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>SCIENCE</strong></td>\n\t\t\t<td><strong>HUMANITIES</strong></td>\n\t\t\t<td><strong>COMMERCE</strong></td>\n\t\t\t<td><strong>VOCATIONAL</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Boys</td>\n\t\t\t<td>Girls</td>\n\t\t\t<td>Boys</td>\n\t\t\t<td>Girls</td>\n\t\t\t<td style=\"width:69px\">Boys</td>\n\t\t\t<td style=\"width:60px\">Girls</td>\n\t\t\t<td>Boys</td>\n\t\t\t<td>Girls</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>32</td>\n\t\t\t<td>18</td>\n\t\t\t<td>28</td>\n\t\t\t<td>45</td>\n\t\t\t<td style=\"width:69px\">42</td>\n\t\t\t<td style=\"width:60px\">42</td>\n\t\t\t<td>13</td>\n\t\t\t<td>30</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>The ratio of the number of girls studying Humanities to the number of girls studying in all other streams is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1: 3 \\)</p>",
+            "<p>\\( 2: 1 \\)</p>",
+            "<p>\\( 1: 2 \\)</p>",
+            "<p>\\( 3: 1 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 1: 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410890/nielit-2023-feb-scientist-d-section-c-question-74\" target=\"_blank\">https://gateoverflow.in/410890/nielit-2023-feb-scientist-d-section-c-question-74</a></p>"
+        }
+      ]
+    }
+  ]
+});

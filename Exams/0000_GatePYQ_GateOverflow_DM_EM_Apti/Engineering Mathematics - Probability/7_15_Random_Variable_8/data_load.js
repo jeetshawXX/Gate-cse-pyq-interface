@@ -1,0 +1,121 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Random Variable",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Random Variable",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1162\"></a><div itemprop=\"text\">\n<p>Let \\( f(x) \\) be the continuous probability density function of a random variable \\( x \\), the probability that \\( a &lt; x \\leq b \\), is :</p>\n\n\n</div><br><br><b>GATE CSE 2005 | Question: 12, ISRO2009-64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f(b-a) \\)</p>",
+            "<p>\\( f(b) - f(a) \\)</p>",
+            "<p>\\( \\int\\limits_a^b f(x) dx \\)</p>",
+            "<p>\\( \\int\\limits_a^b xf (x)dx \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\int\\limits_a^b f(x) dx \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1162/gate-cse-2005-question-12-isro2009-64\" target=\"_blank\">https://gateoverflow.in/1162/gate-cse-2005-question-12-isro2009-64</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2135\"></a><div itemprop=\"text\"><p>Consider a finite sequence of random values \\( X=[x_1,x_2,\\dots x_n] \\). Let \\( \\mu_x \\) be the mean and \\( \\sigma_x \\) be the standard deviation of \\( X \\). Let another finite sequence \\( Y \\) of equal length be derived from this as \\( y_i=a*x_i+b \\), where \\( a \\) and \\( b \\) are positive constants. Let \\( \\mu_y \\) be the mean and \\( \\sigma_y \\) be the standard deviation of this sequence.</p>\n\n<p>Which one of the following statements is&nbsp;<strong>INCORRECT</strong>?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Index position of mode of \\( X \\) in \\( X \\) is the same as the index position of mode of \\( Y \\) in \\( Y \\)</p>",
+            "<p>Index position of median of \\( X \\) in \\( X \\) is the same as the index position of median&nbsp;of \\( Y \\) in \\( Y \\)</p>",
+            "<p>\\( \\mu_y=a \\mu_x + b \\)</p>",
+            "<p>\\( \\sigma_y=a \\sigma_x + b \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sigma_y=a \\sigma_x + b \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2135/gate-cse-2011-question-33\" target=\"_blank\">https://gateoverflow.in/2135/gate-cse-2011-question-33</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1577\"></a><div itemprop=\"text\"><p>Consider a random variable \\( X \\) that takes values \\( +1 \\) and \\( −1 \\) with probability \\( 0.5 \\) each. The values of the cumulative distribution function \\( F(x) \\) at \\( x = −1 \\) and \\( +1 \\) are</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\) and \\( 0.5 \\)</p>",
+            "<p>\\( 0 \\) and \\( 1 \\)</p>",
+            "<p>\\( 0.5 \\) and \\( 1 \\)</p>",
+            "<p>\\( 0.25 \\) and \\( 0.75 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5 \\) and \\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1577/gate-cse-2012-question-21\" target=\"_blank\">https://gateoverflow.in/1577/gate-cse-2012-question-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"8496\"></a><div itemprop=\"text\">Suppose \\( X_i \\) for \\( i=1, 2, 3 \\) are independent and identically distributed random variables whose probability mass functions are \\( Pr[X_i = 0] = Pr[X_i = 1] = \\frac{1} {2} \\text{ for } i = 1, 2, 3 \\). Define another random variable \\( Y = X_1X_2 \\oplus X_3 \\), where \\( \\oplus \\) denotes XOR. Then \\( Pr[Y=0 \\mid X_3 = 0] = \\)______.</div><br><br><b>GATE CSE 2015 Set 3 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.75",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8496/gate-cse-2015-set-3-question-37\" target=\"_blank\">https://gateoverflow.in/8496/gate-cse-2015-set-3-question-37</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"460993\"></a><div itemprop=\"text\"><p>​​​​​Consider the cumulative distribution function (CDF) of a random variable \\( X \\) :<br>\\[<br>F_{X}(x)=\\left\\{\\begin{array}{ll}<br>0 &amp; x \\leq-1 \\\\<br>\\dfrac{1}{4}(x+1)^{2} &amp; -1 \\leq x \\leq 1 \\\\<br>1 &amp; x \\geq 1<br>\\end{array}\\right.<br>\\]<br><br>The value of \\( P\\left(X^{2} \\leq 0.25\\right) \\) is</p></div><br><br><b>GATE DA 2025 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.625 \\)</p>",
+            "<p>\\( 0.25 \\)</p>",
+            "<p>\\( 0.5 \\)</p>",
+            "<p>\\( 0.5625 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460993/gate-da-2025-question-29\" target=\"_blank\">https://gateoverflow.in/460993/gate-da-2025-question-29</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"461013\"></a><div itemprop=\"text\"><p>​​​​Let \\( X \\) be a continuous random variable whose cumulative distribution function \\( \\text{(CDF)} \\) \\( F_{X}(x) \\), for some \\( t \\), is given as follows:<br>\\[<br>F_{X}(x)=\\left\\{\\begin{array}{lc}<br>0 &amp; x \\leq t \\\\<br>\\dfrac{x-t}{4-t} &amp; t \\leq x \\leq 4 \\\\<br>1 &amp; x \\geq 4<br>\\end{array}\\right.<br>\\]<br>If the median of \\( X \\) is 3 , then what is the value of \\( t \\) ?</p></div><br><br><b>GATE DA 2025 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461013/gate-da-2025-question-9\" target=\"_blank\">https://gateoverflow.in/461013/gate-da-2025-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"422961\"></a><div itemprop=\"text\"><p>​​​​Consider the following statements:</p><ol start=\"1\" style=\"list-style-type:lower-roman\"><li>The mean and variance of a Poisson random variable are equal.</li><li>For a standard normal random variable, the mean is zero and the variance is one.</li></ol><p>Which <strong>ONE </strong>of the following options is <strong>correct</strong>?</p><p>&nbsp;</p></div><br><br><b>GATE DS&AI 2024 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{(i)} \\) and \\( \\text{(ii)} \\)&nbsp;are true</p>",
+            "<p>\\( \\text{(i)} \\)&nbsp;is true and \\( \\text{(ii)} \\)&nbsp;is false</p>",
+            "<p>\\( \\text{(ii)} \\)&nbsp;is true and \\( \\text{(i)} \\)&nbsp;is false</p>",
+            "<p>Both \\( \\text{(i)} \\)&nbsp;and \\( \\text{(ii)} \\)&nbsp;are false</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{(i)} \\) and \\( \\text{(ii)} \\)&nbsp;are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422961/gate-ds&ai-2024-question-1\" target=\"_blank\">https://gateoverflow.in/422961/gate-ds&ai-2024-question-1</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"422907\"></a><div itemprop=\"text\">Two fair coins are tossed independently. \\( X \\) is a random variable that takes a value of \\( 1 \\) if both tosses are heads and \\( 0 \\) otherwise. \\( Y \\) is a random variable that takes a value of \\( 1 \\) if at least one of the tosses is heads and \\( 0 \\) otherwise.<br>\n<br>\nThe value of the covariance of \\( X \\) and \\( Y \\) is \\( \\_\\_\\_\\_\\_\\_\\_ \\) (rounded off to three decimal places).</div><br><br><b>GATE DS&AI 2024 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.062:0.063",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422907/gate-ds&ai-2024-question-55\" target=\"_blank\">https://gateoverflow.in/422907/gate-ds&ai-2024-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+});

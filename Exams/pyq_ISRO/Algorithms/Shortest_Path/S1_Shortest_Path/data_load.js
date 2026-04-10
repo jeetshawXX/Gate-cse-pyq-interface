@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Shortest_Path - Shortest_Path - Slot 1",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Shortest_Path",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Djikstra's algorithm is used to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Create LSAs</p>",
+            "<b>B.</b> <p>Flood an internet with information</p>",
+            "<b>C.</b> <p>Calculate the routing tables</p>",
+            "<b>D.</b> <p>Create a link state database</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Calculate the routing tables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49651/isro2007-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

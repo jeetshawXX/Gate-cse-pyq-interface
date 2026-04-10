@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Java",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49973\"></a><div itemprop=\"text\"><p>Consider the following code segment:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">for (int k=0; k&lt;20; k=k+2)\n{\n    if (k % 3 == 1)\n        system.out.print(k+ \" \");\n}</pre>\n\n<p>What is printed as a result of executing the code segment?</p>\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2008 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>4 16</p>",
+            "<p>4 10 16</p>",
+            "<p>0 6 12 18</p>",
+            "<p>1 4 7 10 13 16 19</p>"
+          ],
+          "correct_answer": "<p>4 10 16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49973/isro-cse-2008-question-43\" target=\"_blank\">https://gateoverflow.in/49973/isro-cse-2008-question-43</a></p>"
+        }
+      ]
+    }
+  ]
+});

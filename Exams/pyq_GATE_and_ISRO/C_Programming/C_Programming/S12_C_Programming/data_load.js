@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming - Slot 12",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C function:<pre><code> #include &lt; stdio.h &gt;\nint f(int n)\n{\n    static int r = 0;\n    if (n &lt;= 0) return 1;\n    if (n &gt; 3)\n    {\n        r = n;\n        return f(n-2)+2;\n    }\n    return f(n-1)+r;\n}\n \nint main()\n{\n    printf(\"%d\", f(5));\n} </code></pre>\nWhat is the value of f(5)? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>18</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>18</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1240/gate2007-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following segment of C-code:<pre><code> int j, n;\n   j = 1;\n   while (j &lt;=n)\n   j=j*2; </code></pre>\nThe number of comparisons made in the execution of the loop for any \\(n \\gt 0\\) is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\lceil log_{2}n \\right \\rceil +1\\)</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>\\(\\left \\lceil log_{2}n \\right \\rceil \\)</p>",
+            "<b>D.</b> <p>\\(\\left \\lfloor log_{2}n \\right \\rfloor +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\left \\lfloor log_{2}n \\right \\rfloor +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56129/gate2007-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following function computes the value of  \\(\\binom{m}{n}\\) correctly for all legal values \\(m\\) and \\(n\\) \\( (m \\geq 1, n \\geq 0 \\text{ and } m \\gt n)\\)<pre><code> int func(int m, int n)\n{\n    if (E) return 1;\n    else return(func(m -1, n) + func(m - 1, n - 1));\n}</code></pre>In the above function, which of the following is the correct expression for E? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(n = = 0) || (m = = 1)</p>",
+            "<b>B.</b> <p>(n = = 0) &amp;&amp; (m = = 1)</p>",
+            "<b>C.</b> <p>(n = = 0) || (m = = n)</p>",
+            "<b>D.</b> <p>(n = = 0) &amp;&amp; (m = = n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(n = = 0) || (m = = n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3595/gate2006-it-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the choices given below would be printed when the following program is executed?<br><pre><code> #include &lt; stdio.h &gt;\nint a1[] = {6, 7, 8, 18, 34, 67};\nint a2[] = {23, 56, 28, 29};\nint a3[] = {-12, 27, -31};\nint *x[] = {a1, a2, a3};\nvoid print(int *a[])\n{\n    printf(\"%d,\", a[0][2]);\n    printf(\"%d,\", *a[2]);\n    printf(\"%d,\", *++a[0]);\n    printf(\"%d,\", *(++a)[0]);\n    printf(\"%d\\n\", a[-1][+1]);\n}\nmain()\n{\n     print(x);\n}</code></pre> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, -12, 7, 23, 8</p>",
+            "<b>B.</b> <p>8, 8, 7, 23, 7</p>",
+            "<b>C.</b> <p>-12, -12, 27, -31, 23</p>",
+            "<b>D.</b> <p>-12, -12, 27, -31, 56</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8, -12, 7, 23, 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3594/gate2006-it-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which one of the choices given below would be printed when the following program is executed?<br><pre><code>#include &lt; stdio.h &gt;\nvoid swap (int *x, int *y)\n{\n    static int *temp;\n    temp = x;\n    x = y;\n    y = temp;\n}\nvoid printab ()\n{\n    static int i, a = -3, b = -6;\n    i = 0;\n    while (i &lt;= 4)\n    {\n        if ((i++)%2 == 1) continue;\n        a = a + i;\n        b = b + i;\n    }\n    swap (&amp;a, &amp;b);\n    printf(\"a =  %d, b = %d\\n\", a, b);\n}\nmain()\n{\n    printab();\n    printab();\n} </code></pre> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a = 0, b = 3\na = 0, b = 3</p>",
+            "<b>B.</b> <p>a = 3, b = 0\na = 12, b = 9</p>",
+            "<b>C.</b> <p>a = 3, b = 6\na = 3, b = 6</p>",
+            "<b>D.</b> <p>a = 6, b = 3\na = 15, b = 12</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a = 6, b = 3\na = 15, b = 12</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3593/gate2006-it-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the choices given below would be printed when the following program is executed ?<br><pre><code> #include &lt; stdio.h &gt;\nstruct test {\n               int i;\n               char *c;\n}st[] = {5, \"become\", 4, \"better\", 6, \"jungle\", 8, \"ancestor\", 7, \"brother\"};\nmain ()\n{ \n    struct test *p = st;\n    p += 1;\n    ++p -&gt; c;\n    printf(\"%s,\", p++ -&gt; c);\n    printf(\"%c,\", *++p -&gt; c);\n    printf(\"%d,\", p[0].i);\n    printf(\"%s \\n\", p -&gt; c);\n}</code></pre> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>jungle, n, 8, nclastor</p>",
+            "<b>B.</b> <p>etter, u, 6, ungle</p>",
+            "<b>C.</b> <p>cetter, k, 6, jungle</p>",
+            "<b>D.</b> <p>etter, u, 8, ncestor</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>etter, u, 6, ungle</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3592/gate2006-it-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the C code to swap two integers and these five statements: the code<pre><code> void swap(int *px,int *py){\n*px=*px-*py;\n*py=*px+*py;\n*px=*py-*px;\n}</code></pre> S1 : will generate a compilation error <br>\nS2 : may generate a segmentation fault at runtime depending on the arguments passed <br>\nS3 : correctly implements the swap procedure for all input pointers referreing to integers stored in memory locations accessible tot he process <br>\nS4 : implements the swap procedure correctly for some but not all valid input pointers <br>\nS5 : may add or subtract integers and pointers <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1</p>",
+            "<b>B.</b> <p>S2 and S3</p>",
+            "<b>C.</b> <p>S2 and S4</p>",
+            "<b>D.</b> <p>S2 and S5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S2 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1835/gate2006-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following code written in a pass-by reference language like FORTAN\nand these statements about the code.<pre><code>subroutine swap(ix,iy)\n     it = ix\nL1 : ix = iy\nL2 : iy = it\nend\n  ia = 3\n  ib = 8\n  call swap (ia, 1b+5)\n  print *, ia, ib\nend </code></pre>\nS1: The complier will generate code to allocate a temporary nameless cell,\ninitialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2  <br> S4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement (s) is correct: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S3</p>",
+            "<b>D.</b> <p>S1 and S5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C-function in which a[n] and b[m] are two sorted\ninteger arrays and c[n+m] be another integer array.<pre><code>\nvoid xyz (int a[],int b[],int c[]){\n   int i, j, k;\n   i=j=k=0;\n   while((i &lt; n) &amp;&amp; (j &lt; m))\n            if (a[i] &lt; b[j]) c[k++]=a[i++];\n            else c[k++]=b[j++];\n}</code></pre>\nWhich of the following condition(s) hold(s) after the termination of the while loop ?<br><br>\nI.  j\\(\\lt\\)m, k=n+j-1, and a [n-1]\\(\\lt\\)b[j] if i=n <br>\nII.  i\\(\\lt\\)n, k=m+i-1, and b[m-1]\\(\\leq\\)a[i] if j=m <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only (I)</p>",
+            "<b>B.</b> <p>only (II)</p>",
+            "<b>C.</b> <p>either (I) or (II) but not both</p>",
+            "<b>D.</b> <p>neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>neither (I) nor (II)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1831/gate2006-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let a be an array containing n integers in increasing order. The following algorithm determines whether there are two distinct numbers in the array whose difference is a specified number S &gt; 0.<br><pre><code> i = 0; j = 1;\nwhile (j &lt; n ){\n         if (E) j++;\n         else if (a[j] - a[i] == S) break;\n         else i++;\n}\nif (j &lt; n) printf(\"yes\") else printf (\"no\");</code></pre> <br>Choose the correct expression for E. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a[j] - a[i] &gt; S</p>",
+            "<b>B.</b> <p>a[j] - a[i] &lt; S</p>",
+            "<b>C.</b> <p>a[i] - a[j] &lt; S</p>",
+            "<b>D.</b> <p>a[i] - a[j] &gt; S</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a[j] - a[i] &lt; S</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3819/gate2005-it-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the output printed by the following program?<br><pre><code> #include &lt; stdio.h &gt;\nint f(int n, int k) {\n    if (n == 0) return 0;\n    else if (n % 2) return f(n/2, 2*k) + k;\n    else return f(n/2, 2*k) - k;\n}\n\nint main () {\n    printf(\"%d\", f(20, 1));\n    return 0;\n}</code></pre> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3818/gate2005-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The following C function takes two ASCII strings and determines whether one is an anagram of the other. An anagram of a string s is a string obtained by permuting the letters in s.<br><pre><code>int anagram (char *a, char *b) {\n    int count [128], j;\n    for (j = 0;  j &lt; 128; j++) count[j] = 0;\n    j = 0;\n    while (a[j] &amp;&amp; b[j]) {\n        A;\n        B;\n    }\n    for (j = 0; j &lt; 128; j++) if (count [j]) return 0;\n    return 1;\n} </code></pre> <br>\nChoose the correct alternative for statements A and B. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A : count [a[j]]++  and  B : count[b[j]]--</p>",
+            "<b>B.</b> <p>A : count [a[j]]++  and  B : count[b[j]]++</p>",
+            "<b>C.</b> <p>A : count [a[j++]]++  and  B : count[b[j]]--</p>",
+            "<b>D.</b> <p>A : count [a[j]]++  and  B : count[b[j++]]--</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A : count [a[j]]++  and  B : count[b[j++]]--</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3814/gate2005-it-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider line number 3 of the following C-program.<pre><code>\nint main ( ) { /* Line 1 */\nint I, N; /* Line 2 */\nfro (I =0, I &lt; N, I++); /* Line 3 */\n}</code></pre>\nIdentify the compiler's response about this line while creating the object-module: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>No compilation error</p>",
+            "<b>B.</b> <p>Only a lexical error</p>",
+            "<b>C.</b> <p>Only syntactic errors</p>",
+            "<b>D.</b> <p>Both lexical and syntactic errors</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>No compilation error</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/4066/gate2005-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following C-program:<pre><code>\ndouble foo (double); /* Line 1 */\nint main()\n{\n    double da, db;\n    // input da\n    db = foo(da);\n}\ndouble foo(double a)\n{\n    return a;\n}</code></pre>\nThe above code compiled without any error or warning. If Line 1 is deleted, the above code will\nshow: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no compile warning or error</p>",
+            "<b>B.</b> <p>some compiler-warnings not leading to unintended results</p>",
+            "<b>C.</b> <p>some compiler-warnings due to type-mismatch eventually leading to unintended results</p>",
+            "<b>D.</b> <p>compiler errors</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>compiler errors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1368/gate2005-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following C-program:<pre><code>void foo(int n, int sum)\n{\n  int k = 0, j = 0;\n  if (n == 0) return;\n    k = n % 10; \n  j = n / 10;\n  sum = sum + k;\n  foo (j, sum);\n  printf (\"%d,\", k);\n}\n  \nint main ()\n{\n  int a = 2048, sum = 0;\n  foo (a, sum);\n  printf (\"%dn\", sum);\n    \n  getchar();\n}</code></pre>\nWhat does the above program print? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, 4, 0, 2, 14</p>",
+            "<b>B.</b> <p>8, 4, 0, 2, 0</p>",
+            "<b>C.</b> <p>2, 0, 4, 8, 14</p>",
+            "<b>D.</b> <p>2, 0, 4, 8, 0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2, 0, 4, 8, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1367/gate2005-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Natural Join",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Natural Join",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70770\"></a><div itemprop=\"text\"><p>Suppose database table \\( T1(P, R) \\) currently has tuples \\( {(10, 5), (15, 8), (25, 6)} \\) and table \\( T2 (A, C) \\) currently has \\( {(10, 6), (25, 3), (10, 5)} \\).&nbsp;Consider the following three relational algebra queries \\( RA1, RA2 \\) and \\( RA3 \\):</p>\n\n<p>\\( RA1 \\) :\\( T1 \\Join _{T1.P = T2.A} \\) \\( T2 \\) where \\( \\Join \\)&nbsp;is natural join symbol</p>\n\n<p>\\( RA2 \\) :\\( T1 =\\Join _{T1.P = T2.A} \\) \\( T2 \\) where \\( =\\Join \\)&nbsp;is left outer join symbol</p>\n\n<p>\\( RA3 \\) :\\( T1&nbsp;\\Join_{T1.P = T2.A} \\) and \\( _{T1.R = T2.C} T2 \\)</p>\n\n<p>The number of tuples in the resulting table of RA1, RA2 and RA3 are given by :</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 3 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2, 4, 2 \\) respectively</p>",
+            "<p>\\( 2, 3, 2 \\) respectively</p>",
+            "<p>\\( 3, 3, 1 \\) respectively</p>",
+            "<p>\\( 3, 4, 1 \\) respectively</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70770/ugc-net-cse-august-2016-part-3-question-9\" target=\"_blank\">https://gateoverflow.in/70770/ugc-net-cse-august-2016-part-3-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

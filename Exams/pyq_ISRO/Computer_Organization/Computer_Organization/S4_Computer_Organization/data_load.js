@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - Computer_Organization - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>How much speed do we gain by using the cache, when cache is used 80% of the time? Assume cache is faster than main memory. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5.27</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>4.16</p>",
+            "<b>D.</b> <p>6.09</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4.16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43812/isro-2013-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A pipeline P operating at 400 MHz has a speedup factor of 6 and operating at 70% efficiency. How many stages are there in the pipeline? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43806/isro-2013-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A processor is fetching instructions at the rate of 1 MIPS. A DMA module is used to transfer characters to RAM from a device transmitting at 9600 bps. How much time will the processor be slowed down due to DMA activity? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9.6ms</p>",
+            "<b>B.</b> <p>4.8ms</p>",
+            "<b>C.</b> <p>2.4ms</p>",
+            "<b>D.</b> <p>1.2ms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.2ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43805/isro-2013-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In DMA transfer scheme, the transfer scheme other than burst mode is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cycle technique</p>",
+            "<b>B.</b> <p>stealing technique</p>",
+            "<b>C.</b> <p>cycle stealing technique</p>",
+            "<b>D.</b> <p>cycle bypass technique</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>cycle stealing technique</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52824/isro2011-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Number of chips (\\(128 \\times 8\\) RAM) needed to provide a memory capacity of 2048 bytes <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52817/isro2011-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which RAID level gives block level striping with double distributed parity? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RAID 10</p>",
+            "<b>B.</b> <p>RAID 2</p>",
+            "<b>C.</b> <p>RAID 6</p>",
+            "<b>D.</b> <p>RAID 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>RAID 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52586/isro2011-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The search concept used in associative memory is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Parallel search</p>",
+            "<b>B.</b> <p>Sequential search</p>",
+            "<b>C.</b> <p>Binary search</p>",
+            "<b>D.</b> <p>Selection search</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Parallel search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18093/isro2011-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If a microcomputer operates at 5 MHz with an 8-bit bus and a newer version operates at 20 MHz with a 32-bit bus, the maximum speed-up possible approximately will be <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18090/isro2011-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Two control signals in microprocessor which are related to Direct Memory Access (DMA) are <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>INTR &amp; INTA</p>",
+            "<b>B.</b> <p>RD &amp; WR</p>",
+            "<b>C.</b> <p>S0 &amp; S1</p>",
+            "<b>D.</b> <p>HOLD &amp; HLDA</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>HOLD &amp; HLDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52487/isro2011-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A fast wide SCSI-II disk drive spins at 7200 RPM, has a sector size of 512 bytes, and holds 160 sectors per track. Estimate the sustained transfer rate of this drive <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>576000 Kilobytes / sec</p>",
+            "<b>B.</b> <p>9600 Kilobytes / sec</p>",
+            "<b>C.</b> <p>4800 Kilobytes / sec</p>",
+            "<b>D.</b> <p>19200 Kilobytes / sec</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>9600 Kilobytes / sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52486/isro2011-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Find the memory address of the next instruction executed by the microprocessor (8086), when operated in real mode for CS=1000 and IP=E000 <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10E00</p>",
+            "<b>B.</b> <p>1E000</p>",
+            "<b>C.</b> <p>F000</p>",
+            "<b>D.</b> <p>1000E</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1E000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52485/isro2011-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A processor takes 12 cycles to complete an instruction I. The corresponding pipelined processor uses 6 stages with the execution times of 3,2,5,4,6 and 2 cycles respectively. What is the asymptotic speedup assuming that a very large number of instructions are to be executed? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.83</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3437/gate2007-it-6-isro2011-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a direct mapped cache with 64 blocks and a block size of 16 bytes. To what block number does the byte address 1206 map to <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not map</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>54</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51330/isro2011-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>MOV [BX], AL  type of data addressing is called ? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>register</p>",
+            "<b>B.</b> <p>immediate</p>",
+            "<b>C.</b> <p>register indirect</p>",
+            "<b>D.</b> <p>register relative</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>register indirect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19326/isro2011-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following is/are true of the auto-increment addressing mode?<br>\nI. It is useful in creating self-relocating code<br>\nII. If it is included in an Instruction Set Architecture, then an additional ALU is required for effective address calculation<br>\nIII. The amount of increment depends on the size of the data item accessed <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/444/gate2008-33-isro2009-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

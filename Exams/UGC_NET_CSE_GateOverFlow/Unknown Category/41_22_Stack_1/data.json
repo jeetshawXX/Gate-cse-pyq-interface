@@ -1,0 +1,26 @@
+{
+  "title": "Unknown Category - Stack",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Stack",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"288353\"></a><div itemprop=\"text\"><p>Consider the following postfix expression with single digit operands :</p>\n\n<p>\\( 6 \\; 2 \\: 3 \\: ^* \\: / \\:&nbsp; 4 \\: 2 \\: ^* \\;&nbsp;+ \\: 6 \\: 8 \\: ^* \\: - \\)</p>\n\n<p>The top two elements of the stack after the second \\( ^* \\) is evaluated, are :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2018 | Part 2 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8,2 \\)</p>",
+            "<p>\\( 8,1 \\)</p>",
+            "<p>\\( 6,2 \\)</p>",
+            "<p>\\( 6,3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8,1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288353/ugc-net-cse-december-2018-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/288353/ugc-net-cse-december-2018-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

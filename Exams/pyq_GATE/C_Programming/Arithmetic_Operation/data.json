@@ -1,0 +1,117 @@
+{
+  "title": "C_Programming - Arithmetic_Operation",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Arithmetic_Operation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nint main(){\nint a = 6;\nint b = 0;\nwhile(a &lt; 10) {\na = a / 12 + 1;\na += b;}\nprintf(\"%d\", a);\nreturn 0;}\n</code></pre>Which one of the following statements is CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The program prints 9 as output</p>",
+            "<b>B.</b> <p>The program prints 10 as output</p>",
+            "<b>C.</b> <p>The program gets stuck in an infinite loop</p>",
+            "<b>D.</b> <p>The program prints 6 as output</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The program gets stuck in an infinite loop</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422834/gate-cse-2024-set-1-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is printed by the following ANSI C program?<pre><code>#include &lt; stdio.h &gt;\nint main(int argc, char *argv[]){ \n char a = 'P';\n char b = 'x';\n char c = (a  &amp;  b) + '*';\n char d = (a | b) - '-';\n char e = (a ^ b) + '+'; \n printf(\"%c %c %c \\n\", c, d, e); \n return 0;\n}\n</code></pre><br>ASCII encoding for relevant characters is given below<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Arithmetic_Operation\\q34_c5d530be.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>z K  S</p>",
+            "<b>B.</b> <p>122 75  83</p>",
+            "<b>C.</b> <p>* - +</p>",
+            "<b>D.</b> <p>P x  +</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>z K  S</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371902/Gate-cse-2022-question-34#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nint main() {\n float sum = 0.0, j = 1.0, i = 2.0;\n while (i / j &gt; 0.0625) {\n    j = j + j; \n    sum = sum + i/j;\n    printf(\"%f \\n\", sum);\n }\n return 0;\n}</code></pre>\nThe number of times variable sum will be printed When the above program is executed is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302796/gate2019-cs-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\nint main ( ) {\n    int m = 10;\n    int n, n1;\n    n = ++m;\n    n1 = m++;\n    n--;\n    --n1;\n    n-=n1;\nprintf (\"%d\", n) ;\nreturn 0;\n}</code></pre>\nThe output of the program is ______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118272/gate2017-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The attributes of three arithmetic operators in some programming language are given below.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Arithmetic_Operation\\q45_b4da3cf0.jpg\"> <br>\nThe value of the expression 2-5+1-7*3 in this language is_______ . <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39697/gate2016-1-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Suppose n and p are unsigned int variables in a C program. We wish to set p to \\(^nC_3\\). If n is large, which one of the following statements is most likely to set p correctly? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p = n * (n - 1) * (n-2) / 6;</p>",
+            "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+            "<b>C.</b> <p>p = n * (n - 1) / 3 * (n-2) / 2;</p>",
+            "<b>D.</b> <p>p = n * (n - 1) / 2 * (n-2) / 6.0;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>p = n * (n - 1) / 2 * (n-2) / 3;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1965/gate2014-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which combination of the integer variables x, y and z makes the variable a get\nthe value 4 in the following expression?<pre><code>a = (x &gt; y) ? ((x &gt; z) ? x : z) : ((y &gt; z) ? y : z) </code></pre> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 3,y = 4, z = 2</p>",
+            "<b>B.</b> <p>x = 6,y = 5,z = 3</p>",
+            "<b>C.</b> <p>x = 6,y = 3,z = 5</p>",
+            "<b>D.</b> <p>x = 5, y = 4,z = 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>x = 3,y = 4, z = 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/416/gate2008-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What does the following code do?<br><pre><code> var a, b: integer;\nbegin\n    a:=a+b;\n    b:=a-b;\n    a:=a-b;\nend;</code></pre> <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>exchanges a and b</p>",
+            "<b>B.</b> <p>doubles a and stores in b</p>",
+            "<b>C.</b> <p>doubles b and stores in a</p>",
+            "<b>D.</b> <p>leaves a and b unchanged</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>exchanges a and b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2292/gate1993-7-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

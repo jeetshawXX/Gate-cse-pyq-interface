@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Probability_Theory",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Probability_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>For the distributions given below :<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Probability_Theory\\q56_52f2f910.jpg\"><br>Which of the following is correct for the above distributions? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Standard deviation of A is significantly lower than standard deviation of B</p>",
+            "<b>B.</b> <p>Standard deviation of A is slightly lower than standard deviation of B</p>",
+            "<b>C.</b> <p>Standard deviation of A is same as standard deviation of B</p>",
+            "<b>D.</b> <p>Standard deviation of A is significantly higher than standard deviation of B</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Standard deviation of A is same as standard deviation of B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331489/isro2020-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A class of 30 students occupy a classroom containing 5 rows of seats, with 8 seats in each row. If the students seat themselves at random, the probability that sixth seat in the fifth row will be empty is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/5\\)</p>",
+            "<b>B.</b> <p>\\(1/3\\)</p>",
+            "<b>C.</b> <p>\\(1/4\\)</p>",
+            "<b>D.</b> <p>\\(2/5\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(1/4\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213574/isro2018-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\(A\\) and \\(B\\) be any two arbitrary events, then, which one of the following is TRUE? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P(A \\cap B)=P(A) P(B)\\)</p>",
+            "<b>B.</b> <p>\\(P(A \\cup B)=P(A)+P(B)\\)</p>",
+            "<b>C.</b> <p>\\(P(A \\mid B)=P(A \\cap B) P(B)\\)</p>",
+            "<b>D.</b> <p>\\(P(A \\cup B) \\leq P(A)+P(B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P(A \\cup B) \\leq P(A)+P(B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The probability that two friends are born in the same month is ____ ? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/6\\)</p>",
+            "<b>B.</b> <p>\\(1/12\\)</p>",
+            "<b>C.</b> <p>1/144</p>",
+            "<b>D.</b> <p>\\(1/24\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(1/12\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15032/isro2014-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let P(E) denote the probability of the occurrence of event E. If P(A)= 0.5 and P(B)=1 then the values of P(A|B) and P(B|A) respectively are <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5, 0.25</p>",
+            "<b>B.</b> <p>0.25, 0.5</p>",
+            "<b>C.</b> <p>0.5, 1</p>",
+            "<b>D.</b> <p>1, 0.5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.5, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45660/isro-2013-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Three coins are tossed simultaneously. The probability that they will fall two heads and one tail is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5/8</p>",
+            "<b>B.</b> <p>1/8</p>",
+            "<b>C.</b> <p>2/3</p>",
+            "<b>D.</b> <p>3/8</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3/8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52837/isro2011-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If the pdf of a Poisson distribution is given by \\(f(x) = \\frac{e^{-2} 2^x}{x!}\\)then its mean is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^x\\)</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>-2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50563/isro2009-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(f(x)\\) be the continuous probability density function of a random variable \\(x\\), the probability that \\(a \\lt x \\leq b\\), is : <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(b-a)\\)</p>",
+            "<b>B.</b> <p>\\(f(b) - f(a)\\)</p>",
+            "<b>C.</b> <p>\\(\\int\\limits_a^b f(x) dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int\\limits_a^b xf (x)dx\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int\\limits_a^b f(x) dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1162/gate2005-12-isro2009-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A program consists of two modules executed sequentially. Let \\(f_1(t)\\) and \\(f_2(t)\\) respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f_1(t)+f_2(t)\\)</p>",
+            "<b>B.</b> <p>\\(\\int_0^t f_1(x)f_2(x)dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int_0^t f_1(x)f_2(t-x)dx\\)</p>",
+            "<b>D.</b> <p>\\(\\max\\{f_1(t),f_2(t)\\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int_0^t f_1(x)f_2(t-x)dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/948/gate2003-60-isro2007-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Company X shipped 5 computer chips, 1 of which was defective. and company Y shipped 4 computer chips, 2 of which were defective. One computer chip is to be chosen uniformly at a random from the 9 chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from the company Y? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2/9</p>",
+            "<b>B.</b> <p>4/9</p>",
+            "<b>C.</b> <p>2/3</p>",
+            "<b>D.</b> <p>1/2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2/3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49507/isro2007-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Number of Dfa",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Number of Dfa",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336796\"></a><div itemprop=\"text\"><p>How many DFA's&nbsp;exits&nbsp; with two states over input alphabet \\( \\left \\{ 0,1 \\right \\} \\)</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 64 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 64 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336796/nielit-2017-dec-scientific-assistant-a-section-b-50\" target=\"_blank\">https://gateoverflow.in/336796/nielit-2017-dec-scientific-assistant-a-section-b-50</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Xml",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Xml",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60689\"></a><div itemprop=\"text\"><p>The behaviour of the document elements in \\( XML \\) can be defined by</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | December 2014 | Part 3 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Using document object&nbsp;</p>",
+            "<p>Registering appropriate event handlers</p>",
+            "<p>Using element object</p>",
+            "<p>All of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>All of the above&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60689/ugc-net-cse-december-2014-part-3-question-40\" target=\"_blank\">https://gateoverflow.in/60689/ugc-net-cse-december-2014-part-3-question-40</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"62594\"></a><div itemprop=\"text\"><p>Which of the following statements are true with reference to the way of describing XML data?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>XML uses DTD to describe the data</li>\n\t<li>XML uses XSL to describe the data</li>\n\t<li>XML uses a description node&nbsp;to describe the data\n\t\n\t</li>\n</ol></div><br><br><b>Web Technologies: UGC NET CSE | December 2015 | Part 3 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i only} \\)</p>",
+            "<p>\\( \\text{ii&nbsp;only} \\)</p>",
+            "<p>\\( \\text{i&nbsp;and ii} \\)</p>",
+            "<p>\\( \\text{i&nbsp;and iii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{ii&nbsp;only} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62594/ugc-net-cse-december-2015-part-3-question-35\" target=\"_blank\">https://gateoverflow.in/62594/ugc-net-cse-december-2015-part-3-question-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"225885\"></a><div itemprop=\"text\"><p>The definitions in an XML document are said to be ______ when the tagging system ans definitions in the DTD are all in compliance</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | July 2018 | Part 2 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>well-formed</p>",
+            "<p>reasonable</p>",
+            "<p>valid</p>",
+            "<p>logical</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225885/ugc-net-cse-july-2018-part-2-question-2\" target=\"_blank\">https://gateoverflow.in/225885/ugc-net-cse-july-2018-part-2-question-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"316253\"></a><div itemprop=\"text\"><p>Which of the following statements is/are true?</p>\n\n<p>P : An XML document with correct syntax as specified by W3C is called “Well Formed”.</p>\n\n<p>Q : An XML documented validated against a DTD is both “Well formed” and “valid”.</p>\n\n<p>R : &lt;xml version=”1.0” encoding =”UTF-8”&gt;</p>\n\n<p>is syntactly correct declaration for the version of an XML document.</p>\n\n<p>Select the correct answer from the options given below:</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | June 2019 | Part 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P and Q only</p>",
+            "<p>P and R only</p>",
+            "<p>Q and R only</p>",
+            "<p>All of P, Q and R</p>"
+          ],
+          "correct_answer": "<p>P and Q only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316253/ugc-net-cse-june-2019-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/316253/ugc-net-cse-june-2019-part-2-question-26</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"61276\"></a><div itemprop=\"text\">\n<p>In XML we can specify the frequency of an element by using the symbols:</p>\n\n\n</div><br><br><b>Web Technologies: UGC NET CSE | Junet 2015 | Part 3 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>+*!</p>",
+            "<p>#*!</p>",
+            "<p>+*?</p>",
+            "<p>-*?</p>"
+          ],
+          "correct_answer": "<p>+*?</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61276/ugc-net-cse-junet-2015-part-3-question-40\" target=\"_blank\">https://gateoverflow.in/61276/ugc-net-cse-junet-2015-part-3-question-40</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"61278\"></a><div itemprop=\"text\">\n<p>In XML, DOCTYPE declaration specifies to include a reference to ____ file</p>\n\n\n</div><br><br><b>Web Technologies: UGC NET CSE | Junet 2015 | Part 3 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Document type Definition</p>",
+            "<p>Document type declaration</p>",
+            "<p>Document transfer definition</p>",
+            "<p>Document type language</p>"
+          ],
+          "correct_answer": "<p>Document type Definition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61278/ugc-net-cse-junet-2015-part-3-question-41\" target=\"_blank\">https://gateoverflow.in/61278/ugc-net-cse-junet-2015-part-3-question-41</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"59246\"></a><div itemprop=\"text\">\n<p>The _____ language was originally designed as the Transformation Language for Style Sheet Facility</p>\n\n\n</div><br><br><b>Web Technologies: UGC NET CSE | September 2013 | Part 2 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>XSTL</p>",
+            "<p>XML</p>",
+            "<p>XQuery</p>",
+            "<p>XPath</p>"
+          ],
+          "correct_answer": "<p>XSTL</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59246/ugc-net-cse-september-2013-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/59246/ugc-net-cse-september-2013-part-2-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Weak Entity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Weak Entity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60968\"></a><div itemprop=\"text\"><p>For a weak entity set to be meaningful, it must be associated with another entity set in combination with some of their attribute values, is called as:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | Junet 2015 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Neighbour Set</p>",
+            "<p>Strong Entity Set</p>",
+            "<p>Owner Entity Set</p>",
+            "<p>Weak Set</p>"
+          ],
+          "correct_answer": "<p>Owner Entity Set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60968/ugc-net-cse-junet-2015-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/60968/ugc-net-cse-junet-2015-part-2-question-20</a></p>"
+        }
+      ]
+    }
+  ]
+});

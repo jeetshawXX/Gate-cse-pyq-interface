@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 22",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Box P has 2 red balls and 3 blue balls and box Q has 3 balls and 1 blue ball. A ball is selected as\nfollows: (i) select a box (ii) choose a ball from the selected box such that each ball in the box is\nequally likely to be chosen. The probabilities of selecting boxes P and Q are 1/3 and 2/3 respectively.\nGiven that a ball selected in the above process is a red ball, the probability that it came from the box\nP is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(4/19\\)</p>",
+            "<b>B.</b> <p>\\(5/19\\)</p>",
+            "<b>C.</b> <p>\\(2/9\\)</p>",
+            "<b>D.</b> <p>\\(19/30\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(4/19\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1176/gate2005-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following graphs is NOT planar? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q47_d0c7ddfc.jpg\"> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G1</p>",
+            "<b>B.</b> <p>G2</p>",
+            "<b>C.</b> <p>G3</p>",
+            "<b>D.</b> <p>G4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>G1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1172/gate2005-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the set H of all 3 x 3 matrices of the type <br> \\(\\begin{bmatrix} a &amp; f &amp; e\\\\ 0 &amp; b &amp; d\\\\ 0&amp;0 &amp; c \\end{bmatrix}\\)<br> where a,b,c,d,e and f are real numbers and abc\\(\\neq\\)0. Under the matrix multiplication operation, the set H is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a group</p>",
+            "<b>B.</b> <p>a monoid but not a group</p>",
+            "<b>C.</b> <p>a semi group but not a monoid</p>",
+            "<b>D.</b> <p>neither a group nor a semi group</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1171/gate2005-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the minimum number of ordered pairs of non-negative numbers that should be chosen to\nensure that there are two pairs (a,b) and (c,d) in the chosen set such that <br>\na \\(\\equiv\\) c mod 3 and b \\(\\equiv\\) d mod 5 <br> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1170/gate2005-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let f: B \\(\\rightarrow\\) C and g: A \\(\\rightarrow\\) B be two functions and let h = f\\(\\cdot\\)g. Given that h is an onto function which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f and g should both be onto functions</p>",
+            "<b>B.</b> <p>f should be onto but g need not to be onto</p>",
+            "<b>C.</b> <p>g should be onto but f need not be onto</p>",
+            "<b>D.</b> <p>both f and g need to be onto</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>f should be onto but g need not to be onto</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1168/gate2005-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let R and S be any two equivalence relations on a non-empty set A. Which one of the following\nstatements is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(R\\cup S,R\\cap S\\) are both equivalence relations.</p>",
+            "<b>B.</b> <p>\\(R\\cup S\\) is an equivalence relation.</p>",
+            "<b>C.</b> <p>\\(R\\cap S\\) is an equivalence relation.</p>",
+            "<b>D.</b> <p>Neither \\(R\\cup S\\) nor \\(R\\cap S\\) is an equivalence relation.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(R\\cap S\\) is an equivalence relation.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1167/gate2005-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the first order predicate calculus statement equivalent to the following? <br>\nEvery teacher is liked by some student <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\rightarrow likes(y,x)]]\\)</p>",
+            "<b>B.</b> <p>\\(\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\wedge likes(y,x)]]\\)</p>",
+            "<b>C.</b> <p>\\(\\exists (y) \\forall (x)[teacher(x)\\rightarrow [student(y)\\wedge likes(y,x)]]\\)</p>",
+            "<b>D.</b> <p>\\(\\forall (x)[teacher(x)\\wedge \\exists (y)[student(y)\\rightarrow likes(y,x)]]\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\forall (x)[teacher(x)\\rightarrow \\exists (y)[student(y)\\wedge likes(y,x)]]\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1166/gate2005-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let P, Q and R be tree atomic prepositional assertions. Let X denote (P \\(\\vee\\) Q) \\(\\rightarrow\\) R and Y denote (P \\(\\rightarrow\\) R) \\(\\vee\\) (Q \\(\\rightarrow\\) R). Which one of the following is a tautology? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X\\(\\equiv\\)Y</p>",
+            "<b>B.</b> <p>X\\(\\rightarrow\\)Y</p>",
+            "<b>C.</b> <p>Y\\(\\rightarrow\\)X</p>",
+            "<b>D.</b> <p>\\(\\neg\\)Y\\(\\rightarrow\\)X</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X\\(\\rightarrow\\)Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1165/gate2005-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The set {1, 2, 4, 7, 8, 11, 13, 14} is a group under multiplication modulo 15. The inverses of 4 and 7 are respectively: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>and 13</p>",
+            "<b>B.</b> <p>2 and 11</p>",
+            "<b>C.</b> <p>4 and 13</p>",
+            "<b>D.</b> <p>8 and 14</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 and 13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1163/gate2005-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let f(x) be the continuous probability density function of a random variable X.\nThe probability that \\(a \\lt X \\leq b\\), is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f(b-a)</p>",
+            "<b>B.</b> <p>f(b)-f(a)</p>",
+            "<b>C.</b> <p>\\(\\int_{a}^{b}f(x)dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int_{a}^{b}xf(x)dx\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int_{a}^{b}f(x)dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1162/gate2005-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let G be a simple graph with 20 vertices and 100 edges. The size of the minimum vertex cover of G is 8. then, the size of the maximum independent set of G is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>Less than 8</p>",
+            "<b>D.</b> <p>More than 12</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>12</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1161/gate2005-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let G be a simple connected planar graph with 13 vertices and 19 edges. Then, the number of faces in the planar embedding of the graph is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1159/gate2005-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The following is the Hasse diagram of the poset [{a,b,c,d,e}, \\(\\prec\\) ] <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q9_8745816a.jpg\"> <br> The poset is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>not a lattice</p>",
+            "<b>B.</b> <p>a lattice but not a distributive lattice</p>",
+            "<b>C.</b> <p>a distributive lattice but not a Boolean algebra</p>",
+            "<b>D.</b> <p>a Boolean algebra</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a lattice but not a distributive lattice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1158/gate2005-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let A, B and C be non-empty sets and let<br>\nX = (A - B) - C and Y = (A - C) - (B - C) <br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X=Y</p>",
+            "<b>B.</b> <p>X\\(\\subset\\)Y</p>",
+            "<b>C.</b> <p>Y\\(\\subset\\)X</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>X=Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1157/gate2005-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is the number of vertices in an undirected connected graph with 27 edges, 6 vertices of degree 2, 3 vertices of degree 4 and remaining of degree 3? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>11</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>19</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3680/gate2004-it-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

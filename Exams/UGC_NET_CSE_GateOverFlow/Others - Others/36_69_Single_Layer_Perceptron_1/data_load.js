@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Single Layer Perceptron",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Single Layer Perceptron",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58907\"></a><div itemprop=\"text\"><p>Consider a single perception with weights as given in the following figure:</p>\n\n<p><img alt=\"\" height=\"131\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=1009965423380413691\" width=\"223\"></p>\n\n<p>and \\( f(t) \\) is defined as</p>\n\n<p>\\( f(t) \\bigg\\{ 1, t&gt;0 \\: 0, &nbsp;t \\leq 0 \\)</p>\n\n<p>The above perception can solve</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2013 | Part 3 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>OR problem</p>",
+            "<p>AND problem</p>",
+            "<p>XOR problem</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>AND problem</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58907/ugc-net-cse-june-2013-part-3-question-75\" target=\"_blank\">https://gateoverflow.in/58907/ugc-net-cse-june-2013-part-3-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+});

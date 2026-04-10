@@ -1,0 +1,82 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Codes",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Codes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"11\"></a><div itemprop=\"text\"><p>In a certain code \\( \\text{‘BUILT’} \\) is written as \\( \\text{‘}5 \\#32 @\\text{’} \\) and \\( \\text{‘TRIBE’} \\) is written as \\( \\text{‘}@935©\\text{’}. \\) How is \\( \\text{‘RULE’} \\) written in that code?</p>\n\n</div><br><br><b>Logical Reasoning: In a certain code</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9\\#2© \\)</p>",
+            "<p>\\( 92\\#© \\)</p>",
+            "<p>\\( @\\#2© \\)</p>",
+            "<p>\\( @2\\#© \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( 9\\#2© \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/11/in-a-certain-code\" target=\"_blank\">https://aptitude.gateoverflow.in/11/in-a-certain-code</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"15\"></a><div itemprop=\"text\"><p>In a certain code ‘CLEAR’ is written as ‘SBFMD’ and ‘BONDS’ is written as ‘TEOPC’. How is ‘STALE’ written in that code?</p>\n\n<ol>\n\t<li>DKZSR</li>\n\t<li>BUTFM</li>\n\t<li>TUBMF</li>\n\t<li>FMBUT</li>\n\t<li>None of these</li>\n</ol>\n\n<p>&nbsp;</p></div><br><br><b>Logical Reasoning: In a certain code</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/15/in-a-certain-code\" target=\"_blank\">https://aptitude.gateoverflow.in/15/in-a-certain-code</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6332\"></a><div itemprop=\"text\"><p>If gorblflur means fan belt pixngorbl means ceiling fan arthtusl means tile roof, which word could mean “ceiling tile”?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>gorbltusl</p>",
+            "<p>flurgorbl</p>",
+            "<p>arthflur</p>",
+            "<p>pixnarth</p>"
+          ],
+          "correct_answer": "<p>pixnarth</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6332/nielit-2017-july-scientist-b-section-a-40\" target=\"_blank\">https://aptitude.gateoverflow.in/6332/nielit-2017-july-scientist-b-section-a-40</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6555\"></a><div itemprop=\"text\"><p>Here are some words translated from an artificial language.</p>\n\n<ul>\n\t<li>qmelaqali means fruitcake</li>\n\t<li>qalitiimmeo&nbsp;means cakewalk</li>\n\t<li>useguamao means buttercup</li>\n</ul>\n\n<p>Which word could mean “cupcake”?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>qalitiiqali</p>",
+            "<p>amaotiimmeo</p>",
+            "<p>pakitreft</p>",
+            "<p>amaoqali</p>"
+          ],
+          "correct_answer": "<p>amaoqali</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6555/nielit-2017-oct-scientific-assistant-a-section-a-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6555/nielit-2017-oct-scientific-assistant-a-section-a-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6589\"></a><div itemprop=\"text\"><p>In a certain code language</p>\n\n<ol class=\"noshrink-inline-options\" start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>\\( \\text{‘1 3 4’} \\) means ‘you are well’,</li>\n\t<li>\\( \\text{‘7 5 8’} \\) means ‘they go home’,</li>\n\t<li>\\( \\text{‘8 3 9’} \\) means ‘we are home’,</li>\n</ol>\n\n<p>Which of the statement can be dispensed with while answering the above question?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(a) only</p>",
+            "<p>(b) only</p>",
+            "<p>(a) or (b) only</p>",
+            "<p>(b) and (c) only</p>"
+          ],
+          "correct_answer": "<p>(a) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6589/nielit-2019-feb-scientist-c-section-a-7\" target=\"_blank\">https://aptitude.gateoverflow.in/6589/nielit-2019-feb-scientist-c-section-a-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

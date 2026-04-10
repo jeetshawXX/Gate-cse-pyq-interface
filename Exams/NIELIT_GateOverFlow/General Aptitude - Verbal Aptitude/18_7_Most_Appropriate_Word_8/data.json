@@ -1,0 +1,131 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - Most Appropriate Word",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Most Appropriate Word",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275552\"></a><div itemprop=\"text\"><p>If finch related to bird (i.e.,) FINCH : BIRD. Then, find the pair that has a similar relationship.</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>frog : toad</p>",
+            "<p>elephant : reptile</p>",
+            "<p>dalmatian : dog</p>",
+            "<p>collie : marsupial</p>"
+          ],
+          "correct_answer": "<p>dalmatian : dog</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275552/nielit-2018-12\" target=\"_blank\">https://gateoverflow.in/275552/nielit-2018-12</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275551\"></a><div itemprop=\"text\"><p>Which word does NOT belong with the others?</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>wing</p>",
+            "<p>fin</p>",
+            "<p>beak</p>",
+            "<p>rudder</p>"
+          ],
+          "correct_answer": "<p>beak</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275551/nielit-2018-13\" target=\"_blank\">https://gateoverflow.in/275551/nielit-2018-13</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"366886\"></a><div itemprop=\"text\"><p>Which of the following options is the closest&nbsp;in meaning to the word below \\( ? \\)&nbsp;</p>\n\n<p>\\( \\text{DELETERIOUS} \\)</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>delaying</p>",
+            "<p>glorious</p>",
+            "<p>harmful</p>",
+            "<p>graduating</p>"
+          ],
+          "correct_answer": "<p>harmful</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366886/nielit-2021-dec-scientist-b-section-a-41\" target=\"_blank\">https://gateoverflow.in/366886/nielit-2021-dec-scientist-b-section-a-41</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411411\"></a><div itemprop=\"text\"><p><strong>Direction \\( (50-52) \\): </strong>In the following questions choose the word that is similar in meaning to the given word.</p>\n\n<p>Tireless</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section B | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>frugal</p>",
+            "<p>useless</p>",
+            "<p>munificent</p>",
+            "<p>hard-working\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>hard-working\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411411/nielit-2023-feb-scientist-c-section-b-question-50\" target=\"_blank\">https://gateoverflow.in/411411/nielit-2023-feb-scientist-c-section-b-question-50</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411410\"></a><div itemprop=\"text\"><p><strong>Direction \\( (50-52) \\): </strong>In the following questions choose the word that is similar in meaning to the given word.</p>\n\n<p>Accentuate</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section B | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>accelerate</p>",
+            "<p>underscore</p>",
+            "<p>mask</p>",
+            "<p>expedite\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>underscore</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411410/nielit-2023-feb-scientist-c-section-b-question-51\" target=\"_blank\">https://gateoverflow.in/411410/nielit-2023-feb-scientist-c-section-b-question-51</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411409\"></a><div itemprop=\"text\"><p><strong>Direction \\( (50-52) \\): </strong>In the following questions choose the word that is similar in meaning to the given word.</p>\n\n<p>Fastidious</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section B | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>meticulous</p>",
+            "<p>vehement</p>",
+            "<p>ludicrous</p>",
+            "<p>generous\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>meticulous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411409/nielit-2023-feb-scientist-c-section-b-question-52\" target=\"_blank\">https://gateoverflow.in/411409/nielit-2023-feb-scientist-c-section-b-question-52</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411408\"></a><div itemprop=\"text\"><p><strong>Direction (53-55): </strong>Choose the word that is opposite in meaning to the given word.</p>\n\n<p>Abnegation</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section B | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>relinquishment</p>",
+            "<p>eschewal</p>",
+            "<p>indulgence</p>",
+            "<p>abstinence\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>indulgence</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411408/nielit-2023-feb-scientist-c-section-b-question-53\" target=\"_blank\">https://gateoverflow.in/411408/nielit-2023-feb-scientist-c-section-b-question-53</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"411407\"></a><div itemprop=\"text\"><p><strong>Direction (53-55): </strong>Choose the word that is opposite in meaning to the given word.</p>\n\n<p>Strenuous</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section B | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>herculean</p>",
+            "<p>toilsome</p>",
+            "<p>enervated</p>",
+            "<p>elusive\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>enervated</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411407/nielit-2023-feb-scientist-c-section-b-question-54\" target=\"_blank\">https://gateoverflow.in/411407/nielit-2023-feb-scientist-c-section-b-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+}

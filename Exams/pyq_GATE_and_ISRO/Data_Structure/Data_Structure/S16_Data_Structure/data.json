@@ -1,0 +1,236 @@
+{
+  "title": "Data_Structure - Data_Structure - Slot 16",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A program takes as input a balanced binary search tree with n leaf nodes and computes the value of a function g(x) for each node x. If the cost of computing g(x) is min{no. of leaf-nodes in left-subtree of x, no. of leaf-nodes in right-subtree of x} then the worst-case time complexity of the program is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (nlog n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{2}log n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (nlog n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1079/gate2004-85#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following C program segment<pre><code>struct CellNode\n{\n  struct CelINode *leftchild;\n  int element;\n  struct CelINode *rightChild;\n}\n \nint Dosomething(struct CelINode *ptr)\n{\n    int value = 0;\n    if (ptr != NULL)\n    {\n      if (ptr-&gt;leftChild != NULL)\n        value = 1 + DoSomething(ptr-&gt;leftChild);\n      if (ptr-&gt;rightChild != NULL)\n        value = max(value, 1 + DoSomething(ptr-&gt;rightChild));\n    }\n    return (value);\n} </code></pre>\nThe value returned by the function DoSomething when a pointer to the root of a non-empty tree is\npassed as argument is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The number of leaf nodes in the tree</p>",
+            "<b>B.</b> <p>The number of nodes in the tree</p>",
+            "<b>C.</b> <p>The number of internal nodes in the tree</p>",
+            "<b>D.</b> <p>The height of the tree</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The height of the tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1040/gate2004-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Suppose each set is represented as a linked list with elements in arbitray order. Which of the\noperations among union, intersection, membership, cardinality will be the slowest? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>union only</p>",
+            "<b>B.</b> <p>intersection, membership</p>",
+            "<b>C.</b> <p>membership, cardinality</p>",
+            "<b>D.</b> <p>union, intersection</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>union, intersection</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1037/gate2004-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Two matrices M1 and M2 are to be stored in arrays A and B respectively. Each array can be stored\neither in row-major or column-major order in contiguous memory locations. The time complexity of\nan algorithm to compute M1 x M2 will be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>best if A is in row-major, and B is in column major order</p>",
+            "<b>B.</b> <p>best if both are in row-major order</p>",
+            "<b>C.</b> <p>best if both are in column-major order</p>",
+            "<b>D.</b> <p>independent of the storage scheme</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>independent of the storage scheme</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1036/gate2004-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Assume that the operators +, -, x , are left associative and ^ is right associative. the order of\nprecedence (from highest to lowest) is ^, x , +, -. The postfix expression corresponding to the infix\nexpression a + b x c-d^e^f is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>abcx+def^^-</p>",
+            "<b>B.</b> <p>abcx+de^f^-</p>",
+            "<b>C.</b> <p>ab+cxd-e^f^</p>",
+            "<b>D.</b> <p>axbc^^def</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>abcx+def^^-</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1035/gate2004-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The elements 32, 15, 20, 30, 12, 25, 16, are inserted one by one in the given order into a MaxHeap.\nThe resultant MaxHeap is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q37_769a47b7.jpg\"> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1034/gate2004-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A circularly linked list is used to represent a Queue. A single variable p is used to access the Queue.\nTo which node should p point such that both the operations enQueue and deQueue can be performed\nin constant time? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q36_67f03162.jpg\"> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>rear node</p>",
+            "<b>B.</b> <p>not possible with a single pointer</p>",
+            "<b>C.</b> <p>front node</p>",
+            "<b>D.</b> <p>node next to front</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>rear node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1033/gate2004-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the label sequences obtained by the following pairs of traversals on a labeled binary tree.\nWhich of these pairs identify a tree uniquely? <br><br>\n(i) preorder and postorder <br> (ii) inorder and postorder <br>\n(iii) preorder and inorder <br> (iv) level order and postorder <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) only</p>",
+            "<b>B.</b> <p>(iii) only</p>",
+            "<b>C.</b> <p>(iv) only</p>",
+            "<b>D.</b> <p>(ii), (iii)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(ii), (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1032/gate2004-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given the following input (4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199) and the hash function x\nmod 10, which of the following statements are true?  <br>\ni)   9679, 1989, 4199 hash to the same value <br>\nii)  1471, 6171 has to the same value <br>\niii) All elements hash to the same value <br>\niv) Each element hashes to a different value <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i only</p>",
+            "<b>B.</b> <p>ii only</p>",
+            "<b>C.</b> <p>i and ii only</p>",
+            "<b>D.</b> <p>iii or iv</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>i and ii only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1004/gate2004-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Level order traversal of a rooted tree can be done by starting from the root and performing <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>preorder traversal</p>",
+            "<b>B.</b> <p>in-order traversal</p>",
+            "<b>C.</b> <p>depth first search</p>",
+            "<b>D.</b> <p>breadth first search</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>breadth first search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1003/gate2004-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The best data structure to check whether an arithmetic expression has balanced parentheses is a <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>queue</p>",
+            "<b>B.</b> <p>stack</p>",
+            "<b>C.</b> <p>tree</p>",
+            "<b>D.</b> <p>list</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1002/gate2004-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5,\n15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf\nnode from the root)? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1001/gate2004-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A single array A[1...MAXSIZE] is used to implement two stacks. The two stacks grow from opposite\nends of the array. Variables top1 and top 2 (top1 \\(\\lt\\) top 2) point to the location of the topmost\nelement in each of the stacks. If the space is to be used efficiently, the condition for \"stack full\" is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(top1 = MAXSIZE/2) and (top2 = MAXSIZE/2+1)</p>",
+            "<b>B.</b> <p>(top1 + top2 = MAXSIZE</p>",
+            "<b>C.</b> <p>(top1 = MAXSIZE/2) or (top2 = MAXSIZE)</p>",
+            "<b>D.</b> <p>top1 = top2 -1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>top1 = top2 -1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1000/gate2004-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the function f defined below.<pre><code>\nstruct item\n{\n    int data;\n    struct item * next;\n};\nint f(struct item *p)\n{\n    return ((p == NULL) || (p-&gt;next == NULL) ||\n            ((P-&gt;data &lt;= p-&gt;next-&gt;data) &amp;&amp;\n            f(p-&gt;next)));\n}</code></pre>\nFor a given linked list p, the function f returns 1 if and only if <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the list is empty or has exactly one element</p>",
+            "<b>B.</b> <p>the elements in the list are sorted in non-decreasing order of data value</p>",
+            "<b>C.</b> <p>the elements in the list are sorted in non-increasing order of data value</p>",
+            "<b>D.</b> <p>not all elements in the list have the same data value</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the elements in the list are sorted in non-decreasing order of data value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/973/gate2003-90#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following 2-3-4 tree (i.e., B-tree with a minimum degree of two) in\nwhich each data item is a letter. The usual alphabetical ordering of letters is used\nin constructing the tree <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q65_691d0854.jpg\"><br>What is the result of inserting G in the above tree ? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q65a_306f9651.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/952/gate2003-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

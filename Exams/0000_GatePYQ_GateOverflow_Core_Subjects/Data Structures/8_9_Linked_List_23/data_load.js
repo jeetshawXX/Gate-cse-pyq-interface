@@ -1,0 +1,326 @@
+window.__examLoadCallback({
+  "title": "Data Structures - Linked List",
+  "duration": 64,
+  "sections": [
+    {
+      "name": "Linked List",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80298\"></a><div itemprop=\"text\"><p>In a circular linked list organization, insertion of a record involves modification of</p>\n\n</div><br><br><b>GATE CSE 1987 | Question: 1-xv</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One pointer.</p>",
+            "<p>Two pointers.</p>",
+            "<p>Multiple pointers.</p>",
+            "<p>No pointer.</p>"
+          ],
+          "correct_answer": "<p>Two pointers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80298/gate-cse-1987-question-1-xv\" target=\"_blank\">https://gateoverflow.in/80298/gate-cse-1987-question-1-xv</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"82419\"></a><div itemprop=\"text\"><p>A list of \\( n \\) elements is commonly written as a sequence of \\( n \\) elements enclosed in a pair of square brackets. For example. \\( [10, 20, 30] \\) is a list of three elements and \\( [] \\) is a nil list. Five functions are defined below:</p>\n\n<ul>\n\t<li>\\( car (l) \\) returns the first element of its argument list \\( l \\);</li>\n\t<li>\\( cdr (l) \\) returns the list obtained by removing the first element of the argument list \\( l \\);</li>\n\t<li>\\( glue (a, l) \\) returns a list \\( m \\) such that \\( car (m)= a \\) and \\( cdr (m)=l \\).</li>\n\t<li>\\( f (x, y) \\equiv \\) if \\( x= [] \\) then \\( y \\)<br>\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else \\( glue (car (x), f (cdr (x), y)) \\);</li>\n\t<li>\\( g(x)&nbsp;\\equiv \\) if \\( x = [] \\) then \\( [ ] \\)<br>\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else \\( f (g (cdr (x)) \\), \\( glue (car (x), [ ])) \\)</li>\n</ul>\n\n<p>What do the following compute?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>\\( f ([32, 16, 8], [9, 11, 12]) \\)</li>\n\t<li>\\( g ([5, 1, 8, 9]) \\)</li>\n</ol></div><br><br><b>GATE CSE 1987 | Question: 6a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82419/gate-cse-1987-question-6a\" target=\"_blank\">https://gateoverflow.in/82419/gate-cse-1987-question-6a</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2310\"></a><div itemprop=\"text\">Consider a singly linked list having \\( n \\) nodes. The data items \\( d_1, d_2, \\dots d_n \\) are stored in these \\( n \\) nodes. Let \\( X \\) be a pointer to the \\( j^{\\text{th}} \\) node \\( (1 \\leq j \\leq n) \\) in which \\( d_j \\) is stored. A new data item \\( d \\) stored in node with address \\( Y \\) is to be inserted. Give an algorithm to insert \\( d \\) into the list to obtain a list having items \\( d_1, d_2, \\dots, d_{j}, d,\\dots, d_n \\) in order without using the header.</div><br><br><b>GATE CSE 1993 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2310/gate-cse-1993-question-13\" target=\"_blank\">https://gateoverflow.in/2310/gate-cse-1993-question-13</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2460\"></a><div itemprop=\"text\"><p>Linked lists are not suitable data structures for which one of the following problems?</p>\n\n\n\n</div><br><br><b>GATE CSE 1994 | Question: 1.17, UGCNET-Sep2013-II: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort</p>",
+            "<p>Binary search</p>",
+            "<p>Radix sort</p>",
+            "<p>Polynomial manipulation</p>"
+          ],
+          "correct_answer": "<p>Binary search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2460/gate-cse-1994-question-1-17-ugcnet-sep2013-ii-32\" target=\"_blank\">https://gateoverflow.in/2460/gate-cse-1994-question-1-17-ugcnet-sep2013-ii-32</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2634\"></a><div itemprop=\"text\"><p>Which of the following statements is true?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\n\t<p>As the number of entries in a hash table increases, the number of collisions increases.</p>\n\t</li>\n\t<li>\n\t<p>Recursive programs are efficient</p>\n\t</li>\n\t<li>\n\t<p>The worst case complexity for Quicksort is \\( O(n^2) \\)</p>\n\t</li>\n\t<li>\n\t<p>Binary search using a linear linked list is efficient</p>\n\t</li>\n</ol>\n\n</div><br><br><b>GATE CSE 1995 | Question: 2.22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II</p>",
+            "<p>II and III</p>",
+            "<p>I and IV</p>",
+            "<p>I and III</p>"
+          ],
+          "correct_answer": "<p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2634/gate-cse-1995-question-2-22\" target=\"_blank\">https://gateoverflow.in/2634/gate-cse-1995-question-2-22</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2220\"></a><div itemprop=\"text\"><p>The concatenation of two lists is to be performed on \\( O(1) \\) time. Which of the following implementations of a list should be used?</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 1.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Singly linked list</p>",
+            "<p>Doubly linked list</p>",
+            "<p>Circular doubly linked list</p>",
+            "<p>Array implementation of list</p>"
+          ],
+          "correct_answer": "<p>Circular doubly linked list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2220/gate-cse-1997-question-1-4\" target=\"_blank\">https://gateoverflow.in/2220/gate-cse-1997-question-1-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2278\"></a><div itemprop=\"text\"><p>Consider the following piece of &nbsp;'C' code fragment that removes duplicates from an ordered list of integers.</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Node *remove-duplicates (Node* head, int *j)\n{ \n    Node *t1, *t2; *j=0; \n    t1 = head; \n    if (t1! = NULL) \n        t2 = t1 -&gt;next; \n    else return head;\n    *j = 1; \n    if(t2 == NULL) return head; \n    while (t2 != NULL) \n    { \n        if (t1.val != t2.val) ----------------&gt; (S1) \n        { \n            (*j)++; \n            t1 -&gt; next = t2; \n            t1 = t2; -----&gt; (S2) \n        }\n            t2 = t2 -&gt;next; \n    }\n    t1 -&gt; next = NULL; \n    return head; \n}</pre>\n\n<p>Assume the list contains \\( n \\) elements (\\( n\\geq 2 \\)) in the following questions.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>How many times is the comparison in statement \\( S1 \\) made?</li>\n\t<li>What is the minimum and the maximum number of times statements marked \\( S2 \\) get executed?</li>\n\t<li>What is the significance of the value in the integer pointed to by \\( j \\) when the function completes?</li>\n</ol></div><br><br><b>GATE CSE 1997 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2278/gate-cse-1997-question-18\" target=\"_blank\">https://gateoverflow.in/2278/gate-cse-1997-question-18</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1733\"></a><div itemprop=\"text\"><p>Let \\( p \\) be a pointer as shown in the figure in a single linked list.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p><img alt=\"\" height=\"84\" src=\"images/gateOverflow_pyq_images/data_structures___linked_list/892477cf3984233399887116c500cf6a.png\" width=\"546\"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>\nWhat do the following assignment statements achieve?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">q:= p -&gt; next\np -&gt; next:= q -&gt; next\nq -&gt; next:=(q -&gt; next) -&gt; next\n(p -&gt; next) -&gt; next:= q</pre></div><br><br><b>GATE CSE 1998 | Question: 19a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1733/gate-cse-1998-question-19a\" target=\"_blank\">https://gateoverflow.in/1733/gate-cse-1998-question-19a</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"93575\"></a><div itemprop=\"text\">Write a constant time algorithm to insert a node with data \\( D \\) just before the node with address \\( p \\) of a singly linked list.</div><br><br><b>GATE CSE 1999 | Question: 11b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/93575/gate-cse-1999-question-11b\" target=\"_blank\">https://gateoverflow.in/93575/gate-cse-1999-question-11b</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"809\"></a><div itemprop=\"text\"><p>In the worst case, the number of comparisons needed to search a single linked list of length \\( n \\) for a given element is</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 1.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\log n \\)</p>",
+            "<p>\\( \\frac{n}{2} \\)</p>",
+            "<p>\\( \\log_2 {n} - 1 \\)</p>",
+            "<p>\\( n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/809/gate-cse-2002-question-1-5\" target=\"_blank\">https://gateoverflow.in/809/gate-cse-2002-question-1-5</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"973\"></a><div itemprop=\"text\"><p>Consider the function \\( f \\) defined below.</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct item {\n        int data;\n        struct item * next;\n};\nint f(struct item *p) {\n    return ((p == NULL) || (p-&gt;next == NULL)|| \n        ((p-&gt;data &lt;= p -&gt;next -&gt; data) &amp;&amp;\n        f(p-&gt;next)));\n}</pre>\n\n<p>For a given linked list \\( p \\), the function \\( f \\) returns \\( 1 \\) if and only if</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 90</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the list is empty or has exactly one element</p>",
+            "<p>the elements in the list are sorted in non-decreasing order of data value</p>",
+            "<p>the elements in the list are sorted in non-increasing order of data value</p>",
+            "<p>not all elements in the list have the same data value</p>"
+          ],
+          "correct_answer": "<p>the elements in the list are sorted in non-decreasing order of data value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/973/gate-cse-2003-question-90\" target=\"_blank\">https://gateoverflow.in/973/gate-cse-2003-question-90</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1033\"></a><div itemprop=\"text\"><p>A circularly linked list is used to represent a Queue. A single variable \\( p \\) is used to access the Queue. To which node should \\( p \\) point such that both the operations \\( \\text{enQueue} \\) and \\( \\text{deQueue} \\) can be performed in constant time?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"184\" src=\"images/gateOverflow_pyq_images/data_structures___linked_list/db24a64278c981a8a0a8b3cb2b0ca307.png\" width=\"521\"></p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>rear node</p>",
+            "<p>front node</p>",
+            "<p>not possible with a single pointer</p>",
+            "<p>node next to front</p>"
+          ],
+          "correct_answer": "<p>rear node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1033/gate-cse-2004-question-36\" target=\"_blank\">https://gateoverflow.in/1033/gate-cse-2004-question-36</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1037\"></a><div itemprop=\"text\"><p>Suppose each set is represented as a linked list with elements in arbitrary order. Which of the operations among \\( \\text{union, intersection, membership, cardinality} \\) will be the slowest?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{union} \\) only</p>",
+            "<p>\\( \\text{intersection, membership} \\)</p>",
+            "<p>\\( \\text{membership, cardinality} \\)</p>",
+            "<p>\\( \\text{union, intersection} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{union, intersection} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1037/gate-cse-2004-question-40\" target=\"_blank\">https://gateoverflow.in/1037/gate-cse-2004-question-40</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"485\"></a><div itemprop=\"text\"><p>The following C function takes a single-linked list of integers as a parameter and rearranges the elements of the list. The function is called with the list containing the integers \\( 1, 2, 3, 4, 5, 6, 7 \\) in the given order. What will be the contents of the list after function completes execution?</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">struct node {\n    int value;\n    struct node *next;\n};\n\nvoid rearrange(struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while(q) {\n        temp = p -&gt; value; p-&gt;value =  q -&gt; value;\n        q-&gt;value = temp; p = q -&gt;next;\n        q = p? p -&gt;next : 0;\n    }   \n}\n</pre>\n\n</div><br><br><b>GATE CSE 2008 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1, 2 ,3, 4, 5, 6, 7 \\)</p>",
+            "<p>\\( 2, 1, 4 ,3, 6, 5, 7 \\)</p>",
+            "<p>\\( 1, 3, 2, 5, 4, 7, 6 \\)</p>",
+            "<p>\\( 2, 3, 4, 5, 6, 7, 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2, 1, 4 ,3, 6, 5, 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/485/gate-cse-2008-question-62\" target=\"_blank\">https://gateoverflow.in/485/gate-cse-2008-question-62</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"2337\"></a><div itemprop=\"text\"><p>The following C function takes a singly-linked list as input argument. It modifies the list by moving the last element to the front of the list and returns the modified list. Some part of the code is left blank.</p><pre class=\"prettyprint lang-c_cpp\">typedef struct node \n{\n    int value;\n    struct node *next;\n} Node;    \nNode *move_to-front(Node *head) \n{\n    Node *p, *q;\n    if ((head == NULL) || (head -&gt; next == NULL))\n        return head;\n    q = NULL; \n    p = head;\n    while (p-&gt;next != NULL)\n    {\n        q=p;\n        p=p-&gt;next;\n    }\n    _______________ \n    \n    return head;  \n    \n}    </pre><p>Choose the correct alternative to replace the blank line.</p></div><br><br><b>GATE CSE 2010 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{q=NULL; p} \\rightarrow \\text{next = head; head = p} \\);</p>",
+            "<p>\\( \\text{q} \\rightarrow \\text{next = NULL; head = p; p} \\rightarrow \\text{next = head} \\);</p>",
+            "<p>\\( \\text{head = p; p} \\rightarrow \\text{next =q; q} \\rightarrow \\text{next = NULL} \\);</p>",
+            "<p>\\( \\text{q} \\rightarrow \\text{next = NULL; p} \\rightarrow \\text{next = head; head = p} \\);</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{q} \\rightarrow \\text{next = NULL; p} \\rightarrow \\text{next = head; head = p} \\);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2337/gate-cse-2010-question-36\" target=\"_blank\">https://gateoverflow.in/2337/gate-cse-2010-question-36</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"39557\"></a><div itemprop=\"text\"><p>\\( N \\) items are stored in a sorted doubly linked list. For a <em>delete</em> operation, a pointer is provided to the record to be deleted. For a <em>decrease-key</em> operation, a pointer is provided to the record on which the operation is to be performed.</p>\n\n<p>An algorithm performs the following operations on the list in this order: \\( \\Theta \\left(N\\right) \\) <em>delete</em>, \\( O (\\log N) \\) <em>insert</em>, \\( O(\\log N) \\) <em>find</em>, and \\( \\Theta(N) \\) <em>decrease-key</em>. What is the time complexity of all these operations put together?</p>\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\log^{2} N) \\)</p>",
+            "<p>\\( O(N) \\)</p>",
+            "<p>\\( O(N^{2}) \\)</p>",
+            "<p>\\( \\Theta\\left(N^{2}\\log N\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(N^{2}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39557/gate-cse-2016-set-2-question-15\" target=\"_blank\">https://gateoverflow.in/39557/gate-cse-2016-set-2-question-15</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"118711\"></a><div itemprop=\"text\"><p>Consider the C code fragment given below.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">typedef struct node {\n    int data;\n    node* next;\n} node;\n\nvoid join(node* m, node* n) {\n    node* p = n;\n    while(p-&gt;next != NULL) {\n        p = p-&gt;next;\n    }\n    p-&gt;next = m;\n}</pre>\n\n<p>Assuming that m and n point to valid NULL-terminated linked lists, invocation of&nbsp;join will</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 08</b></p>",
+          "type": "single",
+          "options": [
+            "<p>append list m to the end of list n for all inputs.</p>",
+            "<p>either cause a null&nbsp;pointer dereference or append list m to the end of list n.</p>",
+            "<p>cause a null pointer dereference for all inputs.</p>",
+            "<p>append list n&nbsp;to the end of list m&nbsp;for all inputs.</p>"
+          ],
+          "correct_answer": "<p>either cause a null&nbsp;pointer dereference or append list m to the end of list n.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118711/gate-cse-2017-set-1-question-08\" target=\"_blank\">https://gateoverflow.in/118711/gate-cse-2017-set-1-question-08</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"333215\"></a><div itemprop=\"text\"><p>What is the worst case time complexity of inserting \\( n \\) elements into an empty linked list, if the linked list needs to be maintained in sorted order?</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n \\log n) \\)</p>",
+            "<p>\\( \\Theta ( n)^{2} \\)</p>",
+            "<p>\\( \\Theta(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta ( n)^{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333215/gate-cse-2020-question-16\" target=\"_blank\">https://gateoverflow.in/333215/gate-cse-2020-question-16</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"371931\"></a><div itemprop=\"text\"><p>Consider the problem of reversing a singly linked list. To take an example, given the linked list below,</p>\n\n<p><img alt=\"\" height=\"56\" src=\"images/gateOverflow_pyq_images/data_structures___linked_list/12c26d28b749b8f332b02378c36822e2.png\" width=\"702\"></p>\n\n<p>the reversed linked list should look like</p>\n\n<p><img alt=\"\" height=\"58\" src=\"images/gateOverflow_pyq_images/data_structures___linked_list/f81fb680f38336e141ba25a1c7ae11b4.png\" width=\"721\"></p>\n\n<p>Which one of the following statements is \\( \\text{TRUE} \\) about the time complexity of algorithms that solve the above problem in \\( O(1) \\) space?</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The best algorithm for the problem takes \\( \\theta(n) \\) time in the worst case.</p>",
+            "<p>The best algorithm for the problem takes \\( \\theta(n \\log n) \\) time in the worst case.</p>",
+            "<p>The best algorithm for the problem takes \\( \\theta(n^{2}) \\) time in the worst case.</p>",
+            "<p>It is not possible to reverse a singly linked list in \\( O(1) \\) space.</p>"
+          ],
+          "correct_answer": "<p>The best algorithm for the problem takes \\( \\theta(n) \\) time in the worst case.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371931/gate-cse-2022-question-5\" target=\"_blank\">https://gateoverflow.in/371931/gate-cse-2022-question-5</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"399309\"></a><div itemprop=\"text\"><p>Let \\( \\textsf{SLLdel} \\) be a function that deletes a node in a singly-linked list given a pointer to the node and a pointer to the head of the list. Similarly, let \\( \\textsf{DLLdel} \\) be another function that deletes a node in a doubly-linked list given a pointer to the node and a pointer to the head of the list.<br>\nLet \\( n \\) denote the number of nodes in each of the linked lists. Which one of the following choices is \\( \\text{TRUE} \\) about the worst-case time complexity of \\( \\textsf{SLLdel} \\) and \\( \\textsf{DLLdel}? \\)</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\textsf{SLLdel} \\) is \\( O(1) \\) and \\( \\textsf{DLLdel} \\) is \\( O(n) \\)</p>",
+            "<p>Both \\( \\textsf{SLLdel} \\) and \\( \\textsf{DLLdel} \\) are \\( O(\\log (n)) \\)</p>",
+            "<p>Both \\( \\textsf{SLLdel} \\) and \\( \\textsf{DLLdel} \\) are \\( O(1) \\)</p>",
+            "<p>\\( \\textsf{SLLdel} \\) is \\( O(n) \\) and \\( \\textsf{DLLdel} \\) is \\( O(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\textsf{SLLdel} \\) is \\( O(n) \\) and \\( \\textsf{DLLdel} \\) is \\( O(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399309/gate-cse-2023-question-3\" target=\"_blank\">https://gateoverflow.in/399309/gate-cse-2023-question-3</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"460028\"></a><div itemprop=\"text\"><p>Let \\( \\mathrm{LIST} \\) be a datatype for an implementation of linked list defined as follows:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">typedef struct list {\nint data;\nstruct list *next;\n} LIST;</pre><p>Suppose a program has created two linked lists, \\( L1 \\) and \\( L2 \\), whose contents are given in the figure below (code for creating \\( L1 \\) and \\( L2 \\) is not provided here). \\( L1 \\) contains \\( 9 \\) nodes, and \\( L2 \\) contains \\( 7 \\) nodes.<br><br>Consider the following C program segment that modifies the list \\( L1 \\). The number of nodes that will be there in \\( L1 \\) after the execution of the code segment is __________. (Answer in integer)</p><p><img alt=\"\" width=\"700\" height=\"129\" src=\"images/gateOverflow_pyq_images/data_structures___linked_list/0510a7836090b9ab6ef1cec0b74bbb39.png\"></p><p><img alt=\"\" width=\"700\" height=\"109\" src=\"images/gateOverflow_pyq_images/data_structures___linked_list/55f68a04d7ff5e5edf1040d46d765ed1.png\"></p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">int find (int query, LIST *list) {\nwhile (list != NULL) {\nif(list-&gt;data == query) return 1 ;\nlist = list-&gt;next;\n}\nreturn 0 ;\n}\nint main (){\n... ... ...\nptr1=L1; ptr2=L2;\nwhile (ptr1-&gt;next != NULL){\nquery = ptr1-&gt;next-&gt;data;\nif (find (query, L2))\nptr1-&gt;next = ptr1-&gt;next-&gt;next;\nelse ptr1 = ptr1-&gt;next;\n}\n... .... ...\nreturn 0;\n}\n</pre></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5:5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460028/gate-cse-2025-set-1-question-52\" target=\"_blank\">https://gateoverflow.in/460028/gate-cse-2025-set-1-question-52</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"3654\"></a><div itemprop=\"text\"><p>Let \\( P \\) be a singly linked list. Let \\( Q \\) be the pointer to an intermediate node \\( x \\) in the list. What is the worst-case time complexity of the best-known algorithm to delete the node \\( x \\) from the list ?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(\\log^2&nbsp;n) \\)</p>",
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3654/gate-it-2004-question-13\" target=\"_blank\">https://gateoverflow.in/3654/gate-it-2004-question-13</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"3815\"></a><div itemprop=\"text\"><p>The following C function takes a singly-linked list of integers as a parameter and rearranges the elements of the list. The list is represented as pointer to a structure. The function is called with the list containing the integers \\( 1, 2, 3, 4, 5, 6, 7 \\) in the given order. What will be the contents of the list after the function completes execution?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">struct node {int value; struct node *next;);\nvoid rearrange (struct node *list) {\n    struct node *p, *q;\n    int temp;\n    if (!list || !list -&gt; next) return;\n    p = list; q = list -&gt; next;\n    while (q) {\n        temp = p -&gt; value;\n        p -&gt; value = q -&gt; value;\n        q -&gt; value = temp;\n        p = q -&gt; next;\n        q = p ? p -&gt; next : 0;\n      }\n}</pre>\n\n</div><br><br><b>GATE IT 2005 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1, 2, 3, 4, 5, 6, 7 \\)</p>",
+            "<p>\\( 2, 1, 4, 3, 6, 5, 7 \\)</p>",
+            "<p>\\( 1, 3, 2, 5, 4, 7, 6 \\)</p>",
+            "<p>\\( 2, 3, 4, 5, 6, 7, 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2, 1, 4, 3, 6, 5, 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3815/gate-it-2005-question-54\" target=\"_blank\">https://gateoverflow.in/3815/gate-it-2005-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

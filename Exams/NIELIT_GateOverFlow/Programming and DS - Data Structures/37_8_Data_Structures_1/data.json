@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Data Structures - Data Structures",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Structures",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275494\"></a><div itemprop=\"text\"><p>____ number of underlined graphs can be constructed using \\( V=(v1,v2, \\dots,vn) \\).</p>\n\n</div><br><br><b>Data Structures: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n^3 \\)</p>",
+            "<p>\\( 2^{n(n-1)}/2 \\)</p>",
+            "<p>\\( n-1/2 \\)</p>",
+            "<p>\\( 2^{(n-1)}/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{n(n-1)}/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275494/nielit-2018-70\" target=\"_blank\">https://gateoverflow.in/275494/nielit-2018-70</a></p>"
+        }
+      ]
+    }
+  ]
+}

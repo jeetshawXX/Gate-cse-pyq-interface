@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Modular Arithmetic",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Modular Arithmetic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"473082\"></a><div itemprop=\"text\"><p>Let \\( m \\) be a positive integer and \\( a \\) be an integer such that \\( a \\in\\{0,1, \\ldots, m-1\\} \\). Let \\( S_{a}=\\left\\{b: b \\in\\{0,1, \\ldots, m-1\\}, b^{2} \\equiv a \\bmod m\\right\\} \\) be the set of square roots of \\( a \\) modulo \\( m \\). Consider the following statements.</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>For all natural numbers \\( m \\) and for all \\( a \\in\\{0,1, \\ldots, m-1\\},\\left|S_{a}\\right| \\leq 2 \\).</li><li>For all natural numbers \\( m \\), there exists an \\( a \\in\\{0,1, \\ldots, m-1\\},\\left|S_{a}\\right|&gt;2 \\).</li><li>If \\( m \\) is a prime number, then for all \\( a \\in\\{0,1, \\ldots, m-1\\},\\left|S_{a}\\right| \\leq 2 \\).</li><li>For composite \\( m,\\left|S_{a}\\right| \\) is not necessarily bounded above by \\( 2 \\) .</li></ol><p>Which of the above statements are TRUE ?</p></div><br><br><b>Set Theory & Algebra: TIFR CSE 2025 | Part B | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( \\text{(i)} \\)</p>",
+            "<p>Both \\( \\text{(ii)}, \\text{(iv)} \\)</p>",
+            "<p>Only \\( \\text{(iii)} \\)</p>",
+            "<p>Only \\( \\text{(iv)} \\)</p>",
+            "<p>Both \\( \\text{(iii)}, \\text{(iv)} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473082/tifr-cse-2025-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/473082/tifr-cse-2025-part-b-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

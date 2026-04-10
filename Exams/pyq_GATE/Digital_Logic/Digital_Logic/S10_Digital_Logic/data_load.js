@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider number represented in 4-bit gray code. Let \\(h_3h_2h_1h_0\\) be the gray code\nrepresentation of a number n and let \\(g_3g_2g_1g_0\\)  be the gray code of (n+1) (modulo 16) value of the number. Which one of the following functions is correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g_0(h_3h_2h_1h_0)\\) = \\(\\sum\\) (1,2,3,6,10,13,14,15)</p>",
+            "<b>B.</b> <p>\\(g_1(h_3h_2h_1h_0)\\) = \\(\\sum\\) (4,9,10,11,12,,13,14,15)</p>",
+            "<b>C.</b> <p>\\(g_2(h_3h_2h_1h_0)\\) = \\(\\sum\\) (2,4, 5,6,7,12,,13,15)</p>",
+            "<b>D.</b> <p>\\(g_3(h_3h_2h_1h_0)\\) = \\(\\sum\\) (0,1,6,7, 10,11,12,,13,)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(g_2(h_3h_2h_1h_0)\\) = \\(\\sum\\) (2,4, 5,6,7,12,,13,15)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1816/gate2006-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>We consider addition of two 2's complement numbers \\(b_{n-1}b_{n-2}...b_{0}\\) and\n\\(a_{n-1}a_{n-2}...a_{0}\\). A binary Combinational Circuit for adding unsigned binary numbers is used to add\nthe two numbers. The sum is denoted by \\(c_{n-1}c_{n-2}...c_{0}\\) and the carryout by \\(c_{out}\\) .\nWhich one of the following options correctly identifies the overflow condition? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q39_05a110d1.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1815/gate2006-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a boolean function f (w,x,y,z). Suppose that exactly one of its inputs is allowed to change at a time. If the function happens to be true for two input vectors i1=(w1,x1,y1,z1) and i2=(w2,x2,y2,z2), we would like the function to remain true as the input changes from i1 to i2(i1 and i2 differ in exactly one bit position), without becoming false momentarily. Let f(w,x,y,z)=\\(\\Sigma\\)(5,7,11,12,13,15).  Which of the following cube covers of f will ensure that the required property\nis satisfied? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{w}xz,wx\\bar{y},x\\bar{y}z,xyz,wyz\\)</p>",
+            "<b>B.</b> <p>\\(wxy,\\bar{w}xz,wyz\\)</p>",
+            "<b>C.</b> <p>\\(wx\\bar{yz},xz,w\\bar{x}yz\\)</p>",
+            "<b>D.</b> <p>\\(wx\\bar{y},wyz,wxz,\\bar{w}xz,x\\bar{y}z,xyz\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(wx\\bar{y},wyz,wxz,\\bar{w}xz,x\\bar{y}z,xyz\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1814/gate2006-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the circuit in the diagram. The \\(\\oplus\\) operator represents Ex-OR. The D flip-flops are initialized to zeroes (cleared). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q37_0fb4170a.jpg\"><br>  The following data : 100110000 is supplied to the \"data\" terminal in nine clock cycles. After that the values of \\(q_{2}q_{1}q_{0}\\) are <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(000\\)</p>",
+            "<b>B.</b> <p>\\(001\\)</p>",
+            "<b>C.</b> <p>\\(010\\)</p>",
+            "<b>D.</b> <p>\\(101\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(010\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1295/gate2006-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Given two three bit numbers \\(a_{2}a_{1}a_{0}\\) and \\(b_{2}b_{1}b_{0}\\) and c, the carry in, the function\nthat represents the carry generate function when these two numbers are added is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q36_671104cb.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1294/gate2006-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the circuit below. Which one of the following options correctly represents\nf (x,y,z)? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q35_e2a87eab.jpg\"><br> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x\\bar{z}+xy+\\bar{y}z\\)</p>",
+            "<b>B.</b> <p>\\(x\\bar{z}+xy+\\overline{yz}\\)</p>",
+            "<b>C.</b> <p>\\(xz+xy+\\overline{yz}\\)</p>",
+            "<b>D.</b> <p>\\(xz+x\\bar{y}+\\bar{y}z\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(x\\bar{z}+xy+\\bar{y}z\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1292/gate2006-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A logical binary relation \\(\\square\\) , is defined as follows <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q28_44ec0537.jpg\"> Let \\(\\neg\\) be the unary negation (NOT) operator, with higher precedence, than \\(\\square\\).\nWhich one of the following is equivalent to A\\(\\wedge\\)B? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\neg A\\square B)\\)</p>",
+            "<b>B.</b> <p>\\(\\neg (A\\square \\neg B)\\)</p>",
+            "<b>C.</b> <p>\\(\\neg (\\neg A\\square \\neg B)\\)</p>",
+            "<b>D.</b> <p>\\(\\neg (\\neg A\\square B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\neg (\\neg A\\square B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/991/gate2006-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>You are given a free running clock with a duty cycle of 50% and a digital waveform\nf which changes only at the negative edge of the clock. Which one of the following\ncircuits (using clocked D flip flops) will delay the phase of f by \\(180^{\\circ}\\) ?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q8_ab7840a0.jpg\"> <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q8b_f9d0bfca.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/887/gate2006-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The circuit shown below implements a 2-input NOR gate using two 2-4 MUX (control signal 1 selects the upper input). What are the values of signals x, y and z?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q48_572e5c83.jpg\"><br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,0,B</p>",
+            "<b>B.</b> <p>1,0,A</p>",
+            "<b>C.</b> <p>0,1,B</p>",
+            "<b>D.</b> <p>0,1,A</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0,1,A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3809/gate2005-it-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>\\((34.4)_{8} \\times \\left ( 23.4 \\right )_{8}\\) evaluates to <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((1053.6)_{8}\\)</p>",
+            "<b>B.</b> <p>\\((1053.2)_{8}\\)</p>",
+            "<b>C.</b> <p>\\((1024.2)_{8}\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((1053.6)_{8}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3808/gate2005-it-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following input sequences will always generate a 1 at the output z at the end of the third cycle?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q43_9beb8fc9.jpg\"><br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\ \\hline \\text{0} &amp; \\text{0} &amp; \\text{0} \\\\ \\hline \\text{1} &amp; \\text{0} &amp; \\text{1} \\\\ \\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\ \\hline \\end{array}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{1} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{0} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{0} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{0} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{0} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{0} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{0} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3804/gate2005-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>How many pulses are needed to change the contents of a 8-bit up counter from 10101100 to 00100111 (rightmost bit is the LSB)? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>134</p>",
+            "<b>B.</b> <p>133</p>",
+            "<b>C.</b> <p>124</p>",
+            "<b>D.</b> <p>123</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>123</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3756/gate2005-it-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A two-way switch has three terminals a, b and c. In ON position (logic value 1), a is connected to b, and in OFF position, a is connected to c. Two of these two-way switches S1 and S2 are connected to a bulb as shown below<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q10_be2001bc.jpg\"><br>.Which of the following expressions, if true, will always result in the lighting of the bulb ? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S1.\\overline{S2}\\)</p>",
+            "<b>B.</b> <p>S1 + S2</p>",
+            "<b>C.</b> <p>\\(\\overline {S1\\oplus S2}\\)</p>",
+            "<b>D.</b> <p>\\(S1 \\oplus S2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\overline {S1\\oplus S2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3755/gate2005-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Using Booth's Algorithm for multiplication, the multiplier -57 will be recoded as <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 -1 00 1 0 0 -1</p>",
+            "<b>B.</b> <p>1 1 0 0 0 1 1 1</p>",
+            "<b>C.</b> <p>0 -1 0 0 10 0 0</p>",
+            "<b>D.</b> <p>0 1 0 0 -1 0 0 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0 -1 00 1 0 0 -1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3753/gate2005-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following expressions is equivalent to \\((A \\oplus B) \\oplus C\\) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A + B + C) (\\bar A +\\bar B +\\bar C)\\)</p>",
+            "<b>B.</b> <p>\\((A + B + C) (\\bar A +\\bar B + C)\\)</p>",
+            "<b>C.</b> <p>\\(ABC + \\bar A (B \\oplus C) + \\bar B(A \\oplus C)\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(ABC + \\bar A (B \\oplus C) + \\bar B(A \\oplus C)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3752/gate2005-it-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

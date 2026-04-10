@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Pushdown Automata",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Pushdown Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336256\"></a><div itemprop=\"text\"><p>Which machine is equally powerful in both deterministic and non-deterministic form?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Push Down Automata</p>",
+            "<p>Turing machine</p>",
+            "<p>Linear Bounded Automata</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Turing machine</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336256/nielit-2017-dec-scientist-b-section-b-57\" target=\"_blank\">https://gateoverflow.in/336256/nielit-2017-dec-scientist-b-section-b-57</a></p>"
+        }
+      ]
+    }
+  ]
+}

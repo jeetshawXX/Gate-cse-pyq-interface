@@ -1,0 +1,123 @@
+{
+  "title": "Engineering Mathematics - Probability - Binomial Distribution",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Binomial Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18222\"></a><div itemprop=\"text\"><p>Given 10 tosses of a coin with probability of head = .\\( 4 \\) = (\\( 1 \\) - the probability of tail), the probability of at least one head is?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2010 | Part A | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (.4)^{10} \\)</p>",
+            "<p>\\( 1 - (.4)^{10} \\)</p>",
+            "<p>\\( 1 - (.6)^{10} \\)</p>",
+            "<p>\\( (.6)^{10} \\)</p>",
+            "<p>\\( 10(.4) (.6)^{9} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 - (.6)^{10} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18222/tifr-cse-2010-part-a-question-6\" target=\"_blank\">https://gateoverflow.in/18222/tifr-cse-2010-part-a-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"19050\"></a><div itemprop=\"text\"><p>Suppose three coins are lying on a table, two of them with heads facing up and one with tails facing up. One coin is chosen at random and flipped. What is the probability that after the flip the majority of the coins(i.e., at least two of them) will have heads facing up?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2010 | Part B | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left(\\frac{1}{3}\\right) \\)</p>",
+            "<p>\\( \\left(\\frac{1}{8}\\right) \\)</p>",
+            "<p>\\( \\left(\\frac{1}{4}\\right) \\)</p>",
+            "<p>\\( \\left(\\frac{1}{4}+\\frac{1}{8}\\right) \\)</p>",
+            "<p>\\( \\left(\\frac{2}{3}\\right) \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19050/tifr-cse-2010-part-b-question-38\" target=\"_blank\">https://gateoverflow.in/19050/tifr-cse-2010-part-b-question-38</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"20000\"></a><div itemprop=\"text\"><p>The probability of three consecutive heads in four tosses of a fair coin is</p>\n\n</div><br><br><b>Probability: TIFR CSE 2011 | Part A | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{1}{4}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{8}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{16}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{3}{16}\\right) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{3}{16}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20000/tifr-cse-2011-part-a-question-3\" target=\"_blank\">https://gateoverflow.in/20000/tifr-cse-2011-part-a-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"25042\"></a><div itemprop=\"text\"><p>A spider is at the bottom of a cliff, and is \\( n \\) inches from the top. Every step it takes brings it one inch closer to the top with probability \\( 1/3 \\), and one inch away from the top with probability \\( 2/3 \\), unless it is at the bottom in which case, it always gets one inch closer. What is the expected number of steps for the spider to reach the top as a function of \\( n \\)?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2012 | Part A | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It will never reach the top.</p>",
+            "<p>Linear in \\( n \\).</p>",
+            "<p>Polynomial in \\( n \\).</p>",
+            "<p>Exponential in \\( n \\).</p>",
+            "<p>Double exponential in \\( n \\).</p>"
+          ],
+          "correct_answer": "<p>Exponential in \\( n \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25042/tifr-cse-2012-part-a-question-17\" target=\"_blank\">https://gateoverflow.in/25042/tifr-cse-2012-part-a-question-17</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"25437\"></a><div itemprop=\"text\"><p>An unbiased die is thrown \\( n \\) times. The probability that the product of numbers would be even is</p>\n\n</div><br><br><b>Probability: TIFR CSE 2013 | Part A | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{1}{(2n)} \\)</p>",
+            "<p>\\( \\dfrac{1}{[(6n)!]} \\)</p>",
+            "<p>\\( 1 -&nbsp;6^{-n} \\)</p>",
+            "<p>\\( 6^{-n} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25437/tifr-cse-2013-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/25437/tifr-cse-2013-part-a-question-14</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"25386\"></a><div itemprop=\"text\"><p>A biased coin is tossed repeatedly. Assume that the outcomes of different tosses are independent and probability of heads is \\( \\dfrac{2}{3} \\) in each toss. What is the probability of obtaining an even number of heads in \\( 5 \\) tosses, zero being treated as an even number?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2013 | Part A | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{121}{243}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{122}{243}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{124}{243}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{125}{243}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{128}{243}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{122}{243}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25386/tifr-cse-2013-part-a-question-4\" target=\"_blank\">https://gateoverflow.in/25386/tifr-cse-2013-part-a-question-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"179279\"></a><div itemprop=\"text\"><p>Let \\( C \\) be a biased coin such that the probability of a head turning up is \\( p. \\) Let \\( p_n \\) denote the probability that an odd number of heads occurs after \\( n \\) tosses for \\( n \\in \\{0,1,2,\\ldots \\}, \\) Then which of the following is TRUE ?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2018 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p_n=\\dfrac{1}{2}\\text{ for all }n \\in \\{0,1,2,\\ldots&nbsp;\\}. \\)</p>",
+            "<p>\\( p_n=(1-p)(1-p_{n-1})+p.p_{n-1}\\text{ for }n\\geq 1\\text{ and }p_{0}=0. \\)</p>",
+            "<p>\\( p_{n}=\\sum_ {i=1}^{n}p(1-2p)^{i-1} \\text{ for }n\\geq 1. \\)</p>",
+            "<p>\\( \\text{If } p=\\dfrac{1}{2},\\text{ then } p_{n}=\\dfrac{1}{2} \\text{ for all }n \\in \\{0,1,2,\\ldots\\} \\).</p>",
+            "<p>\\( p_{n}=1 \\text{ if } n \\text{ is odd and } 0 \\text{ otherwise}. \\)</p>"
+          ],
+          "correct_answer": "<p>\\( p_{n}=\\sum_ {i=1}^{n}p(1-2p)^{i-1} \\text{ for }n\\geq 1. \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179279/tifr-cse-2018-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/179279/tifr-cse-2018-part-a-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

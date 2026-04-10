@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which symbol denote derived attributes in ER Model? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Double ellipse</p>",
+            "<b>B.</b> <p>Dashed ellipse</p>",
+            "<b>C.</b> <p>Squared ellipse</p>",
+            "<b>D.</b> <p>Ellipse with attribute name underlined</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Dashed ellipse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128553/isro2017-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>\\(\\begin{array}{|l|l|l|l|l|} \\hline \\textbf{Employee} &amp; \\textbf{Department} &amp; \\textbf{OT allowance} \\\\ \\hline \\text{RAMA} &amp; \\text{Mechanical} &amp; \\text{5000} \\\\\\hline \\text{GOPI} &amp; \\text{Electrical} &amp; \\text{2000} \\\\\\hline \\text{SINDHU} &amp; \\text{Computer} &amp; \\text{4000} \\\\\\hline \\text{MAHESH} &amp; \\text{Civil} &amp; \\text{1500} \\\\\\hline \\end{array}\\)<br>What is the output of the following SQL query?<br><pre><code> select count(*) from \n    ((select Employee, Department from Overtime_allowance) \n    natural join \n    (select Department, OT_allowance from Overtime_allowance) \n    as T);</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128552/isro2017-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>ACID properties of a transactions are <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Atomicity, consistency, isolation, database</p>",
+            "<b>B.</b> <p>Atomicity, consistency, isolation, durability</p>",
+            "<b>C.</b> <p>Atomicity, consistency, integrity, durability</p>",
+            "<b>D.</b> <p>Atomicity, consistency, integrity, database</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Atomicity, consistency, isolation, durability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128601/isro2017-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following concurrency control protocol ensures both conflict and free from deadlock? , <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Time stamp ordering</p>",
+            "<b>B.</b> <p>2 Phase locking</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Time stamp ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128600/isro-2017-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What does a data dictionary will identify? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Field name</p>",
+            "<b>B.</b> <p>Field format</p>",
+            "<b>C.</b> <p>Field types</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128498/isro2017-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A clustering index is defined on the fields which are of type <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-key and ordering</p>",
+            "<b>B.</b> <p>non-key and non-ordering</p>",
+            "<b>C.</b> <p>key and ordering</p>",
+            "<b>D.</b> <p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/414/gate2008-16-isro2016-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The order of a leaf node in a \\(B^+\\) - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that the block size is 1K bytes, data record pointer is 7 bytes long, the value field is 9 bytes long and a block pointer is 6 bytes long, what is the order of the leaf node? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63</p>",
+            "<b>B.</b> <p>64</p>",
+            "<b>C.</b> <p>67</p>",
+            "<b>D.</b> <p>68</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>63</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1261/gate2007-63-isro2016-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Trigger is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statement that enables to start any DBMS</p>",
+            "<b>B.</b> <p>Statement that is executed by the user when debugging an application program</p>",
+            "<b>C.</b> <p>The condition that the system tests for the validity of the database user</p>",
+            "<b>D.</b> <p>Statement that is executed automatically by the system as a side effect of a modification of the database</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Statement that is executed automatically by the system as a side effect of a modification of the database</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56041/isro2016-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Given the relations<br>employee (name, salary, dept-no), and<br>\ndepartment (dept-no, dept-name,address),<br>\nWhich of the following queries cannot be expressed using the basic relational algebra operations \\(\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)\\)? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Department address of every employee</p>",
+            "<b>B.</b> <p>Employees whose name is the same as their department name</p>",
+            "<b>C.</b> <p>The sum of all employees' salaries</p>",
+            "<b>D.</b> <p>All employees of a given department</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The sum of all employees' salaries</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/647/gate2000-1-23-isro2016-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Goals for the design of the logical scheme include <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>avoiding data inconsistency</p>",
+            "<b>B.</b> <p>being able to construct query easily</p>",
+            "<b>C.</b> <p>being able to access data efficiently</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56039/isro2016-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The relation book (title,price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?<br><pre><code> select title\nfrom book as B\nwhere (select count(*)\n    from book as T\n    where T.price&gt;B.price) &lt; 5</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Titles of the four most expensive books</p>",
+            "<b>B.</b> <p>Title of the fifth most inexpensive book</p>",
+            "<b>C.</b> <p>Title of the fifth most expensive book</p>",
+            "<b>D.</b> <p>Titles of the five most expensive books</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Titles of the five most expensive books</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1400/gate2005-77-isro2016-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let R(a,b,c) and S(d,e,f) be two relations in which d is the foreign key of S that refers to the primary key of R. Consider the following four operations R and S<br><br>\nI.   Insert into R<br>\nII.  Insert into S<br>\nIII. Delete from R<br>\nIV.  Delete from S<br><br>\nWhich of the following can cause violation of the referential integrity constraint above? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Both II and III</p>",
+            "<b>C.</b> <p>All of these</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2266/gate1997-6-10-isro2016-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the join of a relation R with a relation S. If R has m tuples and S has n tuples then the maximum and minimum sizes of the join respectively are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m+n and 0</p>",
+            "<b>B.</b> <p>mn and 0</p>",
+            "<b>C.</b> <p>m+n and |m-n|</p>",
+            "<b>D.</b> <p>mn and m+n</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mn and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1471/gate1999-1-18-isro2016-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following schema:<br>Emp (Empcode, Name, Sex, Salary, Deptt)<br>A simple SQL query is executed as follows:<br><pre><code> SELECT Deptt FROM Emp\nwhere sex = 'Male'\nGROUP by Dept\nHaving avg (Salary) &gt; {select avg (Salary) from Emp}</code></pre>The output will be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Average salary of male employee is the average salary of the organization</p>",
+            "<b>B.</b> <p>Average salary of male employee is less than the average salary of the organization</p>",
+            "<b>C.</b> <p>Average salary of male employee is equal to the average salary of the organization</p>",
+            "<b>D.</b> <p>Average salary of male employee is more than the average salary of the organization</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Average salary of male employee is more than the average salary of the organization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51196/isro2015-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following relational query on the above database:<br><pre><code> SELECT S.name FROM Suppliers S \nWhere S.sid NOT IN (SELECT C.sid FROM Catalog C\nWHERE C.pid NOT IN (SELECT P.pid FROM Parts P WHERE P.color &lt;&gt;'blue'))</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Find the names of all suppliers who have supplied non-blue part.</p>",
+            "<b>B.</b> <p>Find the names of all suppliers who have not supplied non-blue part.</p>",
+            "<b>C.</b> <p>Find the names of all suppliers who have supplied only non-blue parts</p>",
+            "<b>D.</b> <p>Find the names of all suppliers who have not supplied only non-blue part.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Find the names of all suppliers who have supplied non-blue part.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "As per the ISRO Answer key option A and C are correct, but None of these are correct. See the detail Solution. <a href=\"https://gateoverflow.in/1339/gate-cse-2009-question-55#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

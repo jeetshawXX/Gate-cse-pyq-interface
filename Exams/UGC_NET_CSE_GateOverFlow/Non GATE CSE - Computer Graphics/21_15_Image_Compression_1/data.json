@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Computer Graphics - Image Compression",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Image Compression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59924\"></a><div itemprop=\"text\">\n<p>MPEG involves both spatial compression and temporal compression. The spatial compression is similar to JPEG and temporal compression removes _____ frames.</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | September 2013 | Part 3 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Temporal</p>",
+            "<p>Voice</p>",
+            "<p>Spatial</p>",
+            "<p>Redundant</p>"
+          ],
+          "correct_answer": "<p>Redundant</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59924/ugc-net-cse-september-2013-part-3-question-55\" target=\"_blank\">https://gateoverflow.in/59924/ugc-net-cse-september-2013-part-3-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

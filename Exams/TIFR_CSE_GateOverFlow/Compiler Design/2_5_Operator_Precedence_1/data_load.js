@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Operator Precedence",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operator Precedence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25108\"></a><div itemprop=\"text\"><p>Consider the parse tree</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7075945591171665845\" width=\"320\"></p>\n\n<p>Assume that \\( * \\) has higher precedence than \\( + \\), \\( - \\) and operators associate right to left (i.e \\( (a + b + c= (a + (b + c))) \\). Consider</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( 2 + a - b \\)</li>\n\t<li>\\( 2 + a - b * a + b \\)</li>\n\t<li>\\( (2 + ((a - b) * (a + b))) \\)</li>\n\t<li>\\( 2 + (a - b) * (a + b) \\)</li>\n</ol>\n\n<p>The parse tree corresponds to</p>\n\n</div><br><br><b>Compiler Design: TIFR CSE 2012 | Part B | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Expression (i)</p>",
+            "<p>Expression (ii)</p>",
+            "<p>Expression (iv) only</p>",
+            "<p>Expression (ii), (iii), and (iv)</p>",
+            "<p>Expression (iii) and (iv) only</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25108/tifr-cse-2012-part-b-question-8\" target=\"_blank\">https://gateoverflow.in/25108/tifr-cse-2012-part-b-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

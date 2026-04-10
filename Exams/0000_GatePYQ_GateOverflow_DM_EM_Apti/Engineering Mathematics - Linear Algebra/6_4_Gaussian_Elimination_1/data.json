@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Gaussian Elimination",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Gaussian Elimination",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"461020\"></a><div itemprop=\"text\"><p>The number of additions and multiplications involved in performing Gaussian elimination on any \\( n \\times n \\) upper triangular matrix is of the order</p></div><br><br><b>GATE DA 2025 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O\\left(n^{2}\\right) \\)</p>",
+            "<p>\\( O\\left(n^{3}\\right) \\)</p>",
+            "<p>\\( O\\left(n^{4}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O\\left(n^{2}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461020/gate-da-2025-question-2\" target=\"_blank\">https://gateoverflow.in/461020/gate-da-2025-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

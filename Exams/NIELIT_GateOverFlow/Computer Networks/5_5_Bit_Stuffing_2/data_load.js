@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Bit Stuffing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Bit Stuffing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336896\"></a><div itemprop=\"text\"><p>Bit stuffing refers to</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inserting a \\( ’0’ \\) in user data stream to differentiate it with a flag</p>",
+            "<p>Inserting a \\( ’0’ \\) in flag stream to avoid ambiguity</p>",
+            "<p>Appending a nibble to the flag sequence</p>",
+            "<p>Appending a nibble to the user data stream</p>"
+          ],
+          "correct_answer": "<p>Inserting a \\( ’0’ \\) in user data stream to differentiate it with a flag</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336896/nielit-2017-oct-scientific-assistant-a-cs-section-b-24\" target=\"_blank\">https://gateoverflow.in/336896/nielit-2017-oct-scientific-assistant-a-cs-section-b-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336993\"></a><div itemprop=\"text\"><p>Bit stuffing refers to</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inserting a \\( ’0’ \\) in user data stream to differentiate it with a flag</p>",
+            "<p>Inserting a \\( ’0’ \\) in flag stream to avoid ambiguity</p>",
+            "<p>Appending a nibble to the flag sequence</p>",
+            "<p>Appending a nibble to the user data stream</p>"
+          ],
+          "correct_answer": "<p>Inserting a \\( ’0’ \\) in user data stream to differentiate it with a flag</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336993/nielit-2017-oct-scientific-assistant-a-it-section-c-4\" target=\"_blank\">https://gateoverflow.in/336993/nielit-2017-oct-scientific-assistant-a-it-section-c-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

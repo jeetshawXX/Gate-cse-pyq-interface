@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Matrix Chain Ordering",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Matrix Chain Ordering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435323\"></a><div itemprop=\"text\"><p>The complexity of matrix multiplication of two matrices A and B whose orders are \\( \\mathrm{m} \\times \\mathrm{n} \\) and \\( \\mathrm{n} \\times \\mathrm{p} \\) respectively is</p></div><br><br><b>Digital Logic: ISRO CSE 2023 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{O}(\\mathrm{m} \\times \\mathrm{p}) \\)</p>",
+            "<p>\\( O\\left(m \\times n^{2} \\times p\\right) \\)</p>",
+            "<p>\\( \\mathrm{O}\\left(\\mathrm{m} \\times \\mathrm{n} \\times \\mathrm{p}^{2}\\right) \\)</p>",
+            "<p>\\( \\mathrm{O}(\\mathrm{m} \\times \\mathrm{n} \\times \\mathrm{p}) \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{O}(\\mathrm{m} \\times \\mathrm{n} \\times \\mathrm{p}) \\)<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435323/isro-cse-2023-question-72\" target=\"_blank\">https://gateoverflow.in/435323/isro-cse-2023-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+});

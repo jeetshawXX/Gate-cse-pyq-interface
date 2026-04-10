@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithms - Slot 11",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The subset-sum problem is defined as follows. Given a set of n positive integers,\nS={\\(a_{1},a_{2},...,a_{n}\\)} and positive integer W, is there a subset of S whose\nelements sum to W? A dynamic program for solving this problem uses a\n2-dimensional Boolean array, X, with n rows and W+1 columns.  X[i,j], \\(1\\leq i\\leq n\\), \\(0\\leq j \\leq W\\), is TRUE if and only if there is a subset of {\\(a_{1},a_{2},...,a_{i} \\)}whose elements sum to j.  <br> <br> Which entry of the array X, if TRUE, implies that there is a subset whose\nelements sum to W? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X[1,W]</p>",
+            "<b>B.</b> <p>X[n,0]</p>",
+            "<b>C.</b> <p>X[n,W]</p>",
+            "<b>D.</b> <p>X[n-1,n]</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X[n,W]</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43484/gate2008-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The subset-sum problem is defined as follows. Given a set of n positive integers,\nS={\\(a_{1},a_{2},...,a_{n}\\)} and positive integer W, is there a subset of S whose\nelements sum to W? A dynamic program for solving this problem uses a\n2-dimensional Boolean array, X, with n rows and W+1 columns.  X[i,j], \\(1\\leq i\\leq n\\), \\(0\\leq j \\leq W\\), is TRUE if and only if there is a subset of {\\(a_{1},a_{2},...,a_{i} \\)}whose elements sum to j. <br> <br> Which of the following is valid for \\(2\\leq i\\leq n\\) and \\(a_{i} \\leq j \\leq W\\)? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X[i,j]=X[i-1,j]\\vee X[i,j-a_{i}]\\)</p>",
+            "<b>B.</b> <p>\\(X[i,j]=X[i-1,j]\\vee X[i-1,j-a_{i}]\\)</p>",
+            "<b>C.</b> <p>\\(X[i,j]=X[i-1,j]\\wedge X[i,j-a_{i}]\\)</p>",
+            "<b>D.</b> <p>\\(X[i,j]=X[i-1,j]\\wedge X[i-1,j-a_{i}]\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(X[i,j]=X[i-1,j]\\vee X[i-1,j-a_{i}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/498/gate2008-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\(x_{n}\\) denote the number of binary strings of length n that contain no consecutive 0s. <br> <br>The value of \\(x_{5}\\) is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>13</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43485/gate2008-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(x_{n}\\) denote the number of binary strings of length n that contain no consecutive 0s. <br> <br>Which of the following recurrences does \\(x_{n}\\) satisfy? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{n}=2x_{n-1}\\)</p>",
+            "<b>B.</b> <p>\\(x_{n}=x_{\\left \\lfloor n/2 \\right \\rfloor}+1\\)</p>",
+            "<b>C.</b> <p>\\(x_{n}=x_{\\left \\lfloor n/2 \\right \\rfloor}+n\\)</p>",
+            "<b>D.</b> <p>\\(x_{n}=x_{n-1}+x_{n-2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(x_{n}=x_{n-1}+x_{n-2}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/497/gate2008-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following C functions:<pre><code>int f1(int n)\n{\n  if(n == 0 || n == 1)\n    return n;\n  else\n    return (2*f1(n-1) + 3*f1(n-2));\n}\n \nint f2(int n)\n{\n  int i;\n  int X[N], Y[N], Z[N] ;\n  X[0] = Y[0] = Z[0] = 0;\n  X[1] = 1; Y[1] = 2; Z[1] = 3;\n  for(i = 2; i &lt;= n; i++)\n  {\n    X[i] = Y[i-1] + Z[i-2];\n    Y[i] = 2*X[i];\n    Z[i] = 3*X[i];\n  }\n  return X[n] ;\n}</code></pre>   The running time of f1(n) and f2(n) are <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n) \\; and \\; \\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (2^{n}) \\; and \\; \\Theta (n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n) \\; and \\;  \\Theta (2^{n})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (2^{n}) \\; and \\; \\Theta (2^{n})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (2^{n}) \\; and \\; \\Theta (n)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/495/gate2008-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q45_821c052a.jpg\">  <br> Dijkstra's single source shortest path algorithm when run from vertex a in the\nabove graph, computes the correct shortest path distance to <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only vertex a</p>",
+            "<b>B.</b> <p>only vertices a, e, f, g, h</p>",
+            "<b>C.</b> <p>only vertices a, b, c, d</p>",
+            "<b>D.</b> <p>all the vertices</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>all the vertices</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/457/gate2008-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The subset-sum problem is defined as follows: Given a set S of n positive\nintegers and a positive integer W, determine whether there is a subset of S\nWhose elements sum to W. <br>\nAn algorithm Q solves this problem in O(nW) time. Which of the following\nstatements is false? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q solves the subset-sum problem in polynomial time when the input is\nencoded in unary</p>",
+            "<b>B.</b> <p>Q solves the subset-sum problem in polynomial time when the input is\nencoded in binary</p>",
+            "<b>C.</b> <p>The subset sum problem belongs to the class NP</p>",
+            "<b>D.</b> <p>The subset sum problem is NP-hard</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Q solves the subset-sum problem in polynomial time when the input is\nencoded in binary</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/456/gate2008-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the Quicksort algorithm. Suppose there is a procedure for finding a pivot element which splits the list into two sub-lists each of which contains at least one-fifth of the elements. Let T(n) be the number of comparisons required to sort n elements. Then <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n)\\leq 2T (n/5)+n\\)</p>",
+            "<b>B.</b> <p>\\(T(n)\\leq T (n/5)+T(4n/5)+n\\)</p>",
+            "<b>C.</b> <p>\\(T(n)\\leq 2T (4n/5)+n\\)</p>",
+            "<b>D.</b> <p>\\(T(n)\\leq 2T (n/2)+n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T(n)\\leq T (n/5)+T(4n/5)+n\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/455/gate2008-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>G is a graph on n vertices and 2n-2 edges. The edges of G can be partitioned into\ntwo edge-disjoint spanning trees. Which of the following is NOT true for G? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For every subset of k vertices, the induced subgraph has at most 2k-2 edges</p>",
+            "<b>B.</b> <p>The minimum cut in G has at least two edges</p>",
+            "<b>C.</b> <p>There are two edge-disjoint paths between every pair of vertices</p>",
+            "<b>D.</b> <p>There are two vertex-disjoint paths between every pair of vertices</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There are two vertex-disjoint paths between every pair of vertices</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1872/gate2008-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following functions:<br> \\(f(n)=2^{n} \\)<br> \\( g(n)=n!  \\)<br> \\( h(n)=n^{log n}\\)<br><br>\nWhich of the following statements about the asymptotic behaviour of f(n), g(n),\nand h(n) is true? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f (n) = O(g(n)); g(n) = O(h(n))</p>",
+            "<b>B.</b> <p>f (n) = \\(\\Omega\\)(g(n)); g(n) = O(h(n))</p>",
+            "<b>C.</b> <p>g(n) = O(f (n)); h(n) = O(f (n))</p>",
+            "<b>D.</b> <p>h(n) = O(f (n)); g(n) = \\(\\Omega\\)(f (n))</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>h(n) = O(f (n)); g(n) = \\(\\Omega\\)(f (n))</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/450/gate2008-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The Breadth First Search algorithm has been implemented using the queue data\nstructure. One possible order of visiting the nodes of the following graph is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q19_8b840044.jpg\"> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>MNOPQR</p>",
+            "<b>B.</b> <p>NQMPOR</p>",
+            "<b>C.</b> <p>QMNPRO</p>",
+            "<b>D.</b> <p>QMNPOR</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>QMNPRO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/417/gate2008-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The most efficient algorithm for finding the number of connected components in\nan undirected graph on n vertices and m edges has time complexity <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (m)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (m+n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (mn)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (m+n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/405/gate2008-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Djikstra's algorithm is used to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Create LSAs</p>",
+            "<b>B.</b> <p>Flood an internet with information</p>",
+            "<b>C.</b> <p>Calculate the routing tables</p>",
+            "<b>D.</b> <p>Create a link state database</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Calculate the routing tables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49651/isro2007-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The time taken by binary search algorithm to search a key in a sorted array of n elements is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O (\\log_2 \\: n)\\)</p>",
+            "<b>B.</b> <p>\\(O  (n)\\)</p>",
+            "<b>C.</b> <p>\\(O  (n \\log_2 \\: n)\\)</p>",
+            "<b>D.</b> <p>\\(O  (n^2)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(O (\\log_2 \\: n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49626/isro2007-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The average case and worst case complexities for Merge sort algorithm are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O (n^2), O  (n^2)\\)</p>",
+            "<b>B.</b> <p>\\(O  (n^2), O (n \\log_2 n)\\)</p>",
+            "<b>C.</b> <p>\\(O (n \\log_2 n), O  (n^2)\\)</p>",
+            "<b>D.</b> <p>\\(O(n \\log_2 n), O (n \\log_2 n)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(O(n \\log_2 n), O (n \\log_2 n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49624/isro2007-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

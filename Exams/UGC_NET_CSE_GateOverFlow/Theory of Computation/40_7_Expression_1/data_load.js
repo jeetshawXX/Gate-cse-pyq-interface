@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Expression",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Expression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48607\"></a><div itemprop=\"text\"><p>The context free grammar given by<br>\\( S \\rightarrow XYX \\)<br>\\( X \\rightarrow&nbsp;aX \\mid&nbsp;bX&nbsp;\\mid&nbsp;\\lambda \\)<br>\\( Y \\rightarrow bbb \\)<br>generates the language which is defined by regular expression:</p></div><br><br><b>Theory of Computation: UGC NET CSE | December 2015 | Part 3 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (a+b)^*bbb \\)</p>",
+            "<p>\\( abbb(a+b)^* \\)</p>",
+            "<p>\\( (a+b)^*(bbb)(a+b)^* \\)</p>",
+            "<p>\\( (a+b)(bbb)(a+b)^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( abbb(a+b)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48607/ugc-net-cse-december-2015-part-3-question-26\" target=\"_blank\">https://gateoverflow.in/48607/ugc-net-cse-december-2015-part-3-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

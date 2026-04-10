@@ -1,0 +1,936 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Logical Reasoning",
+  "duration": 172,
+  "sections": [
+    {
+      "name": "Logical Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369292\"></a><div itemprop=\"text\"><p>Read the following information carefully and answer question&nbsp;given below :</p>\n\n<p>In an engineering college, four students Diksha, Shreya,&nbsp;Tanvi and Akriti exhibit a very strange mix of hobbies and subject interests. One of them studies Computer Science and plays Golf and Lawn Tennis. Diksha and Shreya study Mechanical engineering. Diksha plays Billiards. Both the Mechanical Engineering students play chess. Tanvi is a student of Physics. The physics student play Chess and Badminton. All the friends play two games each and study one subject each. One of the students also does weight training.</p>\n\n<p>&nbsp;</p>\n\n<p>How many games are played and subjects studied&nbsp;by all the four students?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2,1 \\)</p>",
+            "<p>\\( 3,2 \\)</p>",
+            "<p>\\( 6,3 \\)</p>",
+            "<p>\\( 5,4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6,3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369292/nielit-2021-dec-scientist-a-section-a-1\" target=\"_blank\">https://gateoverflow.in/369292/nielit-2021-dec-scientist-a-section-a-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369282\"></a><div itemprop=\"text\"><p>Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>A training college has to conduct a refresher course for teachers of seven different subjects – Mechanics, Psychology, Philosophy, Sociology, Economics, Science and Engineering from November \\( 22 \\) to November \\( 29. \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Course should start with Psychology.</li>\n\t<li>November \\( 23, \\) being Sunday, should be a holiday.</li>\n\t<li>Science subject should be on the previous day of the Engineering subject.</li>\n\t<li>Course should end with Mechanics subject.</li>\n\t<li>Philosophy should be immediately after holiday.</li>\n\t<li>There should be a gap of one day between Economics and Engineering.</li>\n\t<li>There should be a gap of two days between Sociology and Economics.</li>\n</ol>\n\n<p>The refresher course will start with which one of the following subjects?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Psychology</p>",
+            "<p>Mechanics</p>",
+            "<p>Economics</p>",
+            "<p>Sociology</p>"
+          ],
+          "correct_answer": "<p>Psychology</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369282/nielit-2021-dec-scientist-a-section-a-11\" target=\"_blank\">https://gateoverflow.in/369282/nielit-2021-dec-scientist-a-section-a-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369280\"></a><div itemprop=\"text\"><p>Read the information given below and on the basis of the information, select the correct alternative for each question (9−13) given after the information.</p>\n\n<p>A training college has to conduct a refresher course for teachers of seven different subjects – Mechanics, Psychology, Philosophy, Sociology, Economics, Science and Engineering from November \\( 22 \\) to November \\( 29. \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Course should start with Psychology.</li>\n\t<li>November \\( 23, \\) being Sunday, should be a holiday.</li>\n\t<li>Science subject should be on the previous day of the Engineering subject.</li>\n\t<li>Course should end with Mechanics subject.</li>\n\t<li>Philosophy should be immediately after holiday.</li>\n\t<li>There should be a gap of one day between Economics and Engineering.</li>\n\t<li>There should be a gap of two days between Sociology and Economics.</li>\n</ol>\n\n<p>Which subject succeeds Science?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Psychology</p>",
+            "<p>Mechanics</p>",
+            "<p>Engineering</p>",
+            "<p>Sociology</p>"
+          ],
+          "correct_answer": "<p>Engineering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369280/nielit-2021-dec-scientist-a-section-a-13\" target=\"_blank\">https://gateoverflow.in/369280/nielit-2021-dec-scientist-a-section-a-13</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"369291\"></a><div itemprop=\"text\"><p>Read the following information carefully and answer question&nbsp;given below :</p>\n\n<p>In an engineering college, four students Diksha, Shreya, Tanvi and Akriti exhibit a very strange mix of hobbies and subject interests. One of them studies Computer Science and plays Golf and Lawn Tennis. Diksha and Shreya study Mechanical engineering. Diksha plays Billiards. Both the Mechanical Engineering students play chess. Tanvi is a student of Physics. The physics student play Chess and Badminton. All the friends play two games each and study one subject each. One of the students also does weight training.</p>\n\n<p>Who studies Mechanical Engineering and plays Billiards ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Diksha</p>",
+            "<p>Shreya</p>",
+            "<p>Tanvi</p>",
+            "<p>Akriti</p>"
+          ],
+          "correct_answer": "<p>Diksha</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369291/nielit-2021-dec-scientist-a-section-a-2\" target=\"_blank\">https://gateoverflow.in/369291/nielit-2021-dec-scientist-a-section-a-2</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"369290\"></a><div itemprop=\"text\"><p>Read the following information carefully and answer question&nbsp;given below :</p>\n\n<p>In an engineering college, four students Diksha, Shreya, Tanvi and Akriti exhibit a very strange mix of hobbies and subject interests. One of them studies Computer Science and plays Golf and Lawn Tennis. Diksha and Shreya study Mechanical engineering. Diksha plays Billiards. Both the Mechanical Engineering students play chess. Tanvi is a student of Physics. The physics student play Chess and Badminton. All the friends play two games each and study one subject each. One of the students also does weight training.</p>\n\n<p>Who does not play chess ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Diksha</p>",
+            "<p>Shreya</p>",
+            "<p>Tanvi</p>",
+            "<p>Akriti</p>"
+          ],
+          "correct_answer": "<p>Akriti</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369290/nielit-2021-dec-scientist-a-section-a-3\" target=\"_blank\">https://gateoverflow.in/369290/nielit-2021-dec-scientist-a-section-a-3</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"369289\"></a><div itemprop=\"text\"><p>The day before the day before yesterday is three days after Saturday. What day is it today ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Tuesday</p>",
+            "<p>Wednesday</p>",
+            "<p>Thursday</p>",
+            "<p>Friday</p>"
+          ],
+          "correct_answer": "<p>Friday</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369289/nielit-2021-dec-scientist-a-section-a-4\" target=\"_blank\">https://gateoverflow.in/369289/nielit-2021-dec-scientist-a-section-a-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"369287\"></a><div itemprop=\"text\"><p>In a certain code language, \\( ’493’ \\) means ‘Friendship Big Challenge’, \\( ’961’ \\) means ‘Struggle Big Exam’ and \\( ’178’ \\) means ‘Exam Confidential Subject’. What does ‘Confidential’ stand for ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\text{ or } 8 \\)</p>",
+            "<p>\\( 7 \\text{ or } 9 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 8 \\text{ or } 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\text{ or } 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369287/nielit-2021-dec-scientist-a-section-a-6\" target=\"_blank\">https://gateoverflow.in/369287/nielit-2021-dec-scientist-a-section-a-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"366844\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (9-13) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>There are five persons \\( \\text{P, Q, R, S} \\) and \\( \\text{T}. \\) One is football player, one is chess player, one is hockey player. \\( \\text{P} \\) and \\( \\text{S} \\) are unmarried ladies and do not participate in any game. None of the ladies plays chess or football. There is a married couple in which \\( \\text{T} \\) is the husband. \\( \\text{Q} \\) is the brother of \\( \\text{R} \\) and is neither a chess player nor a hockey player.</p>\n\n<p>&nbsp;</p>\n\n<p>Who is the hockey player \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{T} \\)</p>",
+            "<p>\\( \\text{S} \\)</p>",
+            "<p>\\( \\text{R} \\)</p>",
+            "<p>\\( \\text{Q} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{R} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366844/nielit-2021-dec-scientist-b-section-a-11\" target=\"_blank\">https://gateoverflow.in/366844/nielit-2021-dec-scientist-b-section-a-11</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"366843\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (9-13) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>There are five persons \\( \\text{P, Q, R, S} \\) and \\( \\text{T}. \\) One is football player, one is chess player, one is hockey player. \\( \\text{P} \\) and \\( \\text{S} \\) are unmarried ladies and do not participate in any game. None of the ladies plays chess or football. There is a married couple in which \\( \\text{T} \\) is the husband. \\( \\text{Q} \\) is the brother of \\( \\text{R} \\) and is neither a chess player nor a hockey player.</p>\n\n<p>&nbsp;</p>\n\n<p>Who is the wife of \\( \\text{T} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{R} \\)</p>",
+            "<p>\\( \\text{S} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{R} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366843/nielit-2021-dec-scientist-b-section-a-12\" target=\"_blank\">https://gateoverflow.in/366843/nielit-2021-dec-scientist-b-section-a-12</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"366841\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (14 –&nbsp;18) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>\\( \\text{M} \\) and \\( \\text{N} \\) are good at hockey and volleyball.</p>\n\n<p>\\( \\text{O} \\) and \\( \\text{M} \\) are good at hockey and baseball.</p>\n\n<p>\\( \\text{P} \\) and \\( \\text{N} \\) are good at cricket and volleyball.</p>\n\n<p>\\( \\text{O, P} \\) and \\( \\text{Q} \\) are good at football and basketball.</p>\n\n<p>&nbsp;</p>\n\n<p>Who is good at cricket, volleyball and hockey \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{O} \\)</p>",
+            "<p>\\( \\text{N} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{N} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366841/nielit-2021-dec-scientist-b-section-a-14\" target=\"_blank\">https://gateoverflow.in/366841/nielit-2021-dec-scientist-b-section-a-14</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"366840\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (14 –&nbsp;18) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>\\( \\text{M} \\) and \\( \\text{N} \\) are good at hockey and volleyball.</p>\n\n<p>\\( \\text{O} \\) and \\( \\text{M} \\) are good at hockey and baseball.</p>\n\n<p>\\( \\text{P} \\) and \\( \\text{N} \\) are good at cricket and volleyball.</p>\n\n<p>\\( \\text{O, P} \\) and \\( \\text{Q} \\) are good at football and basketball.</p>\n\n<p>&nbsp;</p>\n\n<p>Who is good at baseball, hockey and volleyball \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{O} \\)</p>",
+            "<p>\\( \\text{M} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{M} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366840/nielit-2021-dec-scientist-b-section-a-15\" target=\"_blank\">https://gateoverflow.in/366840/nielit-2021-dec-scientist-b-section-a-15</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"366839\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (14 –&nbsp;18) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>\\( \\text{M} \\) and \\( \\text{N} \\) are good at hockey and volleyball.</p>\n\n<p>\\( \\text{O} \\) and \\( \\text{M} \\) are good at hockey and baseball.</p>\n\n<p>\\( \\text{P} \\) and \\( \\text{N} \\) are good at cricket and volleyball.</p>\n\n<p>\\( \\text{O, P} \\) and \\( \\text{Q} \\) are good at football and basketball.</p>\n\n<p>&nbsp;</p>\n\n<p>Who is good at the largest number of games \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{O} \\)</p>",
+            "<p>\\( \\text{N} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{O} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366839/nielit-2021-dec-scientist-b-section-a-16\" target=\"_blank\">https://gateoverflow.in/366839/nielit-2021-dec-scientist-b-section-a-16</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"366838\"></a><div itemprop=\"text\"><p>Directions \\( (14 –&nbsp;18) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>\\( \\text{M} \\) and \\( \\text{N} \\) are good at hockey and volleyball.</p>\n\n<p>\\( \\text{O} \\) and \\( \\text{M} \\) are good at hockey and baseball.</p>\n\n<p>\\( \\text{P} \\) and \\( \\text{N} \\) are good at cricket and volleyball.</p>\n\n<p>\\( \\text{O,P} \\) and \\( \\text{Q} \\) are good at football and basketball.</p>\n\n<p>&nbsp;</p>\n\n<p>Who is good at cricket, baseball and volleyball \\( ? \\)</p>\n\n<ol start=\"1\">\n\t<li>\\( \\text{Q} \\)</li>\n\t<li>\\( \\text{P} \\)</li>\n\t<li>\\( \\text{O} \\)</li>\n\t<li>\\( \\text{N} \\)</li>\n</ol></div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366838/nielit-2021-dec-scientist-b-section-a-17\" target=\"_blank\">https://gateoverflow.in/366838/nielit-2021-dec-scientist-b-section-a-17</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"366837\"></a><div itemprop=\"text\"><p>Directions \\( (14 –&nbsp;18) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>\\( \\text{M} \\) and \\( \\text{N} \\) are good at hockey and volleyball.</p>\n\n<p>\\( \\text{O} \\) and \\( \\text{M} \\) are good at hockey and baseball.</p>\n\n<p>\\( \\text{P} \\) and \\( \\text{N} \\) are good at cricket and volleyball.</p>\n\n<p>\\( \\text{O, P} \\) and \\( \\text{Q} \\) are good at football and basketball.</p>\n\n<p>&nbsp;</p>\n\n<p>Who among the following is good at four games&nbsp;\\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{O} \\)</p>",
+            "<p>\\( \\text{M} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{O} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366837/nielit-2021-dec-scientist-b-section-a-18\" target=\"_blank\">https://gateoverflow.in/366837/nielit-2021-dec-scientist-b-section-a-18</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"366835\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (19 \\) – \\( 21) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Six flats on a floor&nbsp;in two rows facing North and South are allotted to \\( \\text{P, Q, R, S, T} \\) and \\( \\text{U}. \\)</li>\n\t<li>\\( \\text{Q} \\) gets a north facing flat and is not next to&nbsp;\\( \\text{S}. \\)</li>\n\t<li>\\( \\text{S} \\) and \\( \\text{U} \\) get diagonally opposite flats.</li>\n\t<li>\\( \\text{R} \\) next to&nbsp;\\( \\text{U}, \\) gets a south facing flat and&nbsp;\\( \\text{T} \\) gets a north facing flat.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>If the flats of \\( \\text{T} \\) and \\( \\text{P} \\) are interchanged, who’s flat will be next to that of \\( \\text{U} ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{T} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{R} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{R} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366835/nielit-2021-dec-scientist-b-section-a-20\" target=\"_blank\">https://gateoverflow.in/366835/nielit-2021-dec-scientist-b-section-a-20</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"366834\"></a><div itemprop=\"text\"><p>Directions \\( (19 \\) –&nbsp;\\( 21) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Six flats on a floor&nbsp;in two rows facing North and South are allotted to \\( \\text{P, Q, R, S, T} \\) and \\( \\text{U}. \\)</li>\n\t<li>\\( \\text{Q} \\) gets a north facing flat and is not next to&nbsp;\\( \\text{S}. \\)</li>\n\t<li>\\( \\text{S} \\) and \\( \\text{U} \\) get diagonally opposite flats.</li>\n\t<li>\\( \\text{R} \\) next to&nbsp;\\( \\text{U}, \\) gets a south facing flat and&nbsp;\\( \\text{T} \\) gets a north facing flat.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n<p>The flats of which of the other pairs than \\( \\text{SU}, \\) is diagonally opposite to each other \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{PT} \\)</p>",
+            "<p>\\( \\text{PQ} \\)</p>",
+            "<p>\\( \\text{QR} \\)</p>",
+            "<p>\\( \\text{TS} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{PQ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366834/nielit-2021-dec-scientist-b-section-a-21\" target=\"_blank\">https://gateoverflow.in/366834/nielit-2021-dec-scientist-b-section-a-21</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"366847\"></a><div itemprop=\"text\"><p>Directions \\( (7 \\) − \\( 8): \\)&nbsp;In the given questions below, a statement is given followed by two conclusions numbered \\( \\text{I} \\)&nbsp;and \\( \\text{II} \\). You have to take the statement to be true. Read both the conclusions and decide which of the two or both follow from the given statement. Given answer&nbsp;:</p>\n\n\n\n<p>A study of planning commission reveals boom in revenues. However, this has been of little avail owing to soaring expenditure. In the event, there has been a high dose of deficit financing, leading to marked rise in prices. Large financial outlays year after year had little impact on level of living.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>A boom in revenues leads to rise in prices.</li>\n\t<li>Large financial outlays should be avoided.</li>\n</ol></div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If only conclusion&nbsp;\\( \\text{I} \\) follows.</p>",
+            "<p>If only conclusion&nbsp;\\( \\text{II} \\)&nbsp;follows.</p>",
+            "<p>If either&nbsp;\\( \\text{I} \\) or&nbsp;\\( \\text{II} \\) follows.</p>",
+            "<p>If neither&nbsp;\\( \\text{I} \\) nor&nbsp;\\( \\text{II} \\) follows.</p>"
+          ],
+          "correct_answer": "<p>If neither&nbsp;\\( \\text{I} \\) nor&nbsp;\\( \\text{II} \\) follows.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366847/nielit-2021-dec-scientist-b-section-a-8\" target=\"_blank\">https://gateoverflow.in/366847/nielit-2021-dec-scientist-b-section-a-8</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"373706\"></a><div itemprop=\"text\"><p>Read following information and answer the question.</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>There is a group of five persons, \\( \\text{P, Q, R, S} \\) and \\( \\text{T.} \\)</li>\n\t<li>One of them is a Horticulturist, one is Physicist, one is Journalist, one is Industrialist and one is an Advocate.</li>\n\t<li>Three of the \\( \\text{P, R} \\) and the Advocate prefer tea to coffee and two of them \\( \\text{Q} \\) and Journalist prefer coffee to tea.</li>\n\t<li>The industrialist, \\( \\text{S} \\) and&nbsp;\\( \\text{P} \\) are friends of one another but two of them prefer coffee to tea.</li>\n\t<li>The Horticulturist is \\( \\text{R’s} \\) brother.</li>\n</ol>\n\n<p>Who is industrialist ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{R} \\)</p>",
+            "<p>\\( \\text{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373706/nielit-2022-april-scientist-b-section-a-question-12\" target=\"_blank\">https://gateoverflow.in/373706/nielit-2022-april-scientist-b-section-a-question-12</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"373701\"></a><div itemprop=\"text\"><p>Ten eggs are distributed among \\( \\text{ABCD} \\) in ratio \\( 1:2:3:4 \\) randomly. It is known that \\( \\text{A} \\) gets less eggs than&nbsp;\\( \\text{B,} \\) and&nbsp;\\( \\text{C} \\) gets more eggs than&nbsp;\\( \\text{D}. \\) If&nbsp;\\( \\text{A} \\) gets half the number of eggs of&nbsp;\\( \\text{B}, \\) then which of the following is necessarily true ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{C} \\) gets an even number of eggs</p>",
+            "<p>\\( \\text{D} \\) gets an even number of eggs</p>",
+            "<p>\\( \\text{C} \\) gets an odd&nbsp;number of eggs</p>",
+            "<p>\\( \\text{D} \\) gets an odd&nbsp;number of eggs</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{D} \\) gets an odd&nbsp;number of eggs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373701/nielit-2022-april-scientist-b-section-a-question-17\" target=\"_blank\">https://gateoverflow.in/373701/nielit-2022-april-scientist-b-section-a-question-17</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"373694\"></a><div itemprop=\"text\"><p>\\( \\text{P+Q} \\) means&nbsp;\\( \\text{P} \\) is the brother of&nbsp;\\( \\text{Q}; \\; \\text{P-Q} \\)&nbsp;means&nbsp;\\( \\text{P} \\) is the mother of&nbsp;\\( \\text{Q} \\) and \\( \\text{P} \\times \\text{Q} \\) means&nbsp;\\( \\text{P} \\) is the sister of&nbsp;\\( \\text{Q}. \\) Which of the following means \\( \\text{M} \\) is the maternal uncle of&nbsp;\\( \\text{R} \\) ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{M –&nbsp;R + K} \\)</p>",
+            "<p>\\( \\text{M +&nbsp;K&nbsp;-&nbsp;R} \\)</p>",
+            "<p>\\( \\text{M&nbsp;+ K} \\times \\)&nbsp;\\( \\text{R} \\)</p>",
+            "<p>\\( \\text{M +&nbsp;R + K} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{M +&nbsp;K&nbsp;-&nbsp;R} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373694/nielit-2022-april-scientist-b-section-a-question-24\" target=\"_blank\">https://gateoverflow.in/373694/nielit-2022-april-scientist-b-section-a-question-24</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"373693\"></a><div itemprop=\"text\"><p>In a code, \\( \\text{CORNER} \\) is written as&nbsp;\\( \\text{GSVRIV.} \\) How can&nbsp;\\( \\text{CENTRAL} \\) be written in that code ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{GIRXVEP} \\)</p>",
+            "<p>\\( \\text{GJRYVEP} \\)</p>",
+            "<p>\\( \\text{GNFJKER} \\)</p>",
+            "<p>\\( \\text{DFOUSBM} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{GIRXVEP} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373693/nielit-2022-april-scientist-b-section-a-question-25\" target=\"_blank\">https://gateoverflow.in/373693/nielit-2022-april-scientist-b-section-a-question-25</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"373692\"></a><div itemprop=\"text\"><p>If \\( \\text{TOUR} \\) is written in a certain code as \\( 1234, \\)&nbsp;\\( \\text{CLEAR} \\) as \\( 56784 \\) and&nbsp;\\( \\text{SPARE} \\) as \\( 90847, \\) what will be the \\( 5^{th} \\) Digit for&nbsp;\\( \\text{SCULPTURE} \\) in the same code ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373692/nielit-2022-april-scientist-b-section-a-question-26\" target=\"_blank\">https://gateoverflow.in/373692/nielit-2022-april-scientist-b-section-a-question-26</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"373691\"></a><div itemprop=\"text\"><p>The first republic day of India was celebrated on January \\( 26, 1950. \\) What day of the week was it ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Wednesday</p>",
+            "<p>Friday</p>",
+            "<p>Thursday</p>",
+            "<p>Tuesday</p>"
+          ],
+          "correct_answer": "<p>Thursday</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373691/nielit-2022-april-scientist-b-section-a-question-27\" target=\"_blank\">https://gateoverflow.in/373691/nielit-2022-april-scientist-b-section-a-question-27</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"373689\"></a><div itemprop=\"text\"><p>\\( \\text{A} \\) told&nbsp;\\( \\text{B}, \\) “Yesterday I met the only brother of the daughter of my grandmother”. Whom did&nbsp;\\( \\text{A} \\) meet ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cousin</p>",
+            "<p>Brother</p>",
+            "<p>Father</p>",
+            "<p>Son</p>"
+          ],
+          "correct_answer": "<p>Father</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373689/nielit-2022-april-scientist-b-section-a-question-29\" target=\"_blank\">https://gateoverflow.in/373689/nielit-2022-april-scientist-b-section-a-question-29</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"373715\"></a><div itemprop=\"text\"><p>In the following question, a statement is followed by two assumptions numbered \\( \\text{I} \\) and&nbsp;\\( \\text{II}. \\) Consider the statement and the following assumptions to decide which of the assumptions is implicit in the statement :&nbsp;</p>\n\n<p>\\( \\textbf{Statement :} \\) All the employees are notified that the organization will provide transport facilities at half the cost from the nearby railway station to the office except those who have been provided with travelling allowance.</p>\n\n<p>\\( \\textbf{Assumption:} \\)</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>Most of the employees will travel by the office transport.</li>\n\t<li>Those who are provided with travelling allowance will not read such notice.</li>\n</ol>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If only assumption \\( \\text{I} \\) is implicit;</p>",
+            "<p>If either&nbsp;\\( \\text{I} \\) or&nbsp;\\( \\text{II} \\) is implicit;</p>",
+            "<p>If only assumption \\( \\text{II} \\) is implicit;</p>",
+            "<p>If neither \\( \\text{I} \\) nor&nbsp;\\( \\text{II} \\) is implicit.</p>"
+          ],
+          "correct_answer": "<p>If only assumption \\( \\text{I} \\) is implicit;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373715/nielit-2022-april-scientist-b-section-a-question-3\" target=\"_blank\">https://gateoverflow.in/373715/nielit-2022-april-scientist-b-section-a-question-3</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"373711\"></a><div itemprop=\"text\"><p>Following question contains four arguments of three sentences each. Choose the set in which the third statement is a logical conclusion of the first two.</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>All envelopes are rectangles. All rectangles are rectangular. All envelopes are rectangular.</li>\n\t<li>Some things are smart. Some smart things are tiny. All things are tiny.</li>\n\t<li>Learneds are well read. Well read know. Learneds&nbsp;know.</li>\n\t<li>Dieting is good for health. Health foods are rare. Dieting is rare.</li>\n</ol>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{IV} \\) only</p>",
+            "<p>\\( \\text{III} \\) only</p>",
+            "<p>Both \\( \\text{I} \\) and&nbsp;\\( \\text{III} \\) only</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{I} \\) and&nbsp;\\( \\text{III} \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373711/nielit-2022-april-scientist-b-section-a-question-7\" target=\"_blank\">https://gateoverflow.in/373711/nielit-2022-april-scientist-b-section-a-question-7</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"373710\"></a><div itemprop=\"text\"><p>Choose the correct conclusion for the given statements :</p>\n\n<p>\\( \\textbf{Statement I:} \\) All athletes in the Asian athletics teams are talented.</p>\n\n<p>\\( \\qquad \\qquad \\quad&nbsp; \\textbf{II:} \\)&nbsp;All Indian athletes are now in the Asian athletics team.</p>\n\n<p>\\( \\textbf{Conclusions:} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Some&nbsp;Indian athletes are talented.</p>",
+            "<p>All Indian athletes are talented.</p>",
+            "<p>India does not have any athletics team.</p>",
+            "<p>India has more cricketers than&nbsp;athletics.</p>"
+          ],
+          "correct_answer": "<p>All Indian athletes are talented.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373710/nielit-2022-april-scientist-b-section-a-question-8\" target=\"_blank\">https://gateoverflow.in/373710/nielit-2022-april-scientist-b-section-a-question-8</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"411383\"></a><div itemprop=\"text\"><p>Daksh is taller than Manick but not as tall as Rohan. Somesh is shorter than Daksh but taller than Farhan. Who among them is the shortest ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Daksh</p>",
+            "<p>Manick</p>",
+            "<p>Farhan</p>",
+            "<p>Cannot be determined\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Cannot be determined\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411383/nielit-2023-feb-scientist-c-section-a-question-16\" target=\"_blank\">https://gateoverflow.in/411383/nielit-2023-feb-scientist-c-section-a-question-16</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"411380\"></a><div itemprop=\"text\"><p>An application was received by class teacher in the afternoon of a week day. Next day she forwarded it to the Student Coordinator, who was on leave that day. The student Coordinator put up the application to the principal next day in the evening. The Principal studied the application and disposed off the matter on the same day, i.e, Saturday. Which day was the application received by the inward clerk?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Monday</p>",
+            "<p>Wednesday</p>",
+            "<p>Tuesday</p>",
+            "<p>Thursday\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Thursday\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411380/nielit-2023-feb-scientist-c-section-a-question-19\" target=\"_blank\">https://gateoverflow.in/411380/nielit-2023-feb-scientist-c-section-a-question-19</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"411378\"></a><div itemprop=\"text\"><p>Which letter should be the Tenth letter to the left of the ninth letter from the right, if the first half of the alphabet of English are reversed?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{D} \\)</p>",
+            "<p>\\( \\mathrm{F} \\)</p>",
+            "<p>\\( \\mathrm{E} \\)</p>",
+            "<p>\\( \\mathrm{I} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{F} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411378/nielit-2023-feb-scientist-c-section-a-question-21\" target=\"_blank\">https://gateoverflow.in/411378/nielit-2023-feb-scientist-c-section-a-question-21</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"411376\"></a><div itemprop=\"text\"><p>In a family, there are husband-wife, two sons and two daughters. All the ladies were invited to a dinner. Both sons went out to play. Husband did not return from the office. Who was at home?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only wife was at home</p>",
+            "<p>Nobody was at home</p>",
+            "<p>Only sons were at home</p>",
+            "<p>All ladies were at home\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Nobody was at home</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411376/nielit-2023-feb-scientist-c-section-a-question-23\" target=\"_blank\">https://gateoverflow.in/411376/nielit-2023-feb-scientist-c-section-a-question-23</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"411372\"></a><div itemprop=\"text\"><p>In a certain code language, \\( \\text{OMNIPRESENT} \\) is written as \\( \\text{QJONPTSMDRD} \\) How is \\( \\text{CREDIBILITY} \\) written in at code?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{DSFEJDDXSHKH} \\)</p>",
+            "<p>\\( \\text{JEFSDCXSHKH} \\)</p>",
+            "<p>\\( \\text{JEFSDDXSHKH} \\)</p>",
+            "<p>\\( \\text{JEFSDDZUJMJ} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{JEFSDDXSHKH} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411372/nielit-2023-feb-scientist-c-section-a-question-27\" target=\"_blank\">https://gateoverflow.in/411372/nielit-2023-feb-scientist-c-section-a-question-27</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"411396\"></a><div itemprop=\"text\"><p>Here are some words translated from an artificial language. malgauper means peach cobbler malgaport means peach juice moggagrop means apple jelly moggasport means apple sweet Which word could mean \"apple juice\"?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>moggaport</p>",
+            "<p>malgauper</p>",
+            "<p>gropport</p>",
+            "<p>moggagrop\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>moggaport</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411396/nielit-2023-feb-scientist-c-section-a-question-3\" target=\"_blank\">https://gateoverflow.in/411396/nielit-2023-feb-scientist-c-section-a-question-3</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"411395\"></a><div itemprop=\"text\"><p>Pointing to a photograph, a man said, \"I have no brother or sister, but that man's father is my father's son.\" Whose photograph was it?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>His own</p>",
+            "<p>His Son</p>",
+            "<p>His Father</p>",
+            "<p>His Grandfather\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>His Son</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411395/nielit-2023-feb-scientist-c-section-a-question-4\" target=\"_blank\">https://gateoverflow.in/411395/nielit-2023-feb-scientist-c-section-a-question-4</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"411394\"></a><div itemprop=\"text\"><p>In a code language if&nbsp;\\( \\text{POSE} \\) is coded as \\( \\text{OQNPRTDF} \\), then the word \\( \\text{TYPE} \\) will be coded as :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{SUXZOQFD} \\)</p>",
+            "<p>\\( \\text{SUXZQOFD} \\)</p>",
+            "<p>\\( \\text{SUXZOQDF} \\)</p>",
+            "<p>\\( \\text{SUXZQODE} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{SUXZOQDF} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411394/nielit-2023-feb-scientist-c-section-a-question-5\" target=\"_blank\">https://gateoverflow.in/411394/nielit-2023-feb-scientist-c-section-a-question-5</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"411392\"></a><div itemprop=\"text\"><p><strong>Statement (1)</strong>: Pens cost more than pencils.<br>\n<strong>Statement (2)</strong>: Pens cost less than erasers.<br>\n<strong>Statement (3)</strong>: Erasers cost more than pencils and pens. If the first two statements are true, the third statement is :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>True</p>",
+            "<p>False</p>",
+            "<p>Uncertain</p>",
+            "<p>Cannot be determined\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>True</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411392/nielit-2023-feb-scientist-c-section-a-question-7\" target=\"_blank\">https://gateoverflow.in/411392/nielit-2023-feb-scientist-c-section-a-question-7</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"411968\"></a><div itemprop=\"text\"><p>How would you best judge the fruitfulness of research?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The fruitfulness of any research can best be judged according to whether or not the results are significant.</p>",
+            "<p>The fruitfulness of any research could be judged by assessing the impact of the research on the public or other researchers.</p>",
+            "<p>Fruitfulness of the research is probably best judged in terms of the number of new ideas and insights it offers. This is not easily catalogued; rather it is easy to spot when research lacks novel insight and ideas.</p>",
+            "<p>All of these.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>All of these.\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411968/nielit-2023-feb-scientist-c-section-c-question-67\" target=\"_blank\">https://gateoverflow.in/411968/nielit-2023-feb-scientist-c-section-c-question-67</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"412005\"></a><div itemprop=\"text\"><p>Belief, opinion, knowledge, emotions feelings intentions are the components of</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 150</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{OB} \\)</p>",
+            "<p>Job satisfaction</p>",
+            "<p>Attitude</p>",
+            "<p>Personality\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Attitude</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412005/nielit-2023-feb-scientist-c-section-e-question-150\" target=\"_blank\">https://gateoverflow.in/412005/nielit-2023-feb-scientist-c-section-e-question-150</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"410590\"></a><div itemprop=\"text\"><p>Read the following information carefully and answer the question below.</p>\n\n<p>(i) \\( \\mathrm{M} \\ \\) \\mathrm{~N}\\(  means  \\)\\mathrm{M}\\(  is the mother of  \\)\\mathrm{N}\\( <br>\n(ii)  \\)\\mathrm{M} \\# \\mathrm{~N}\\(  means  \\)\\mathrm{M}\\(  is the father of  \\)\\mathrm{N}\\( <br>\n(iii)  \\)\\mathrm{M} @ \\mathrm{~N}\\(  means  \\)\\mathrm{M}\\(  is the husband of  \\)\\mathrm{N}\\( <br>\n(iv)  \\)\\mathrm{M} \\% \\mathrm{~N}\\(  means  \\)\\mathrm{M}\\(  is the daughter of  \\)\\mathrm{N}\\( </p>\n\n<p>If  \\)\\mathrm{G} \\\\(  \\mathrm{M} @ \\mathrm{~K} \\), how is \\( \\mathrm{K} \\) related to \\( \\mathrm{G} \\) ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mother</p>",
+            "<p>Mother-in-law</p>",
+            "<p>Daughter</p>",
+            "<p>Daughter-in-law\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Daughter-in-law\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410590/nielit-2023-feb-scientist-d-section-a-question-13\" target=\"_blank\">https://gateoverflow.in/410590/nielit-2023-feb-scientist-d-section-a-question-13</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"410589\"></a><div itemprop=\"text\"><p>If \\( \\text{'CAMERA'} \\) is coded as \\( \\text{'ZIVNZX'} \\) in a certain code language, then how would you code \\( \\text{'CHAPRA'} \\) in that code language?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{ZISKZX} \\)</p>",
+            "<p>\\( \\text{ZIKSZX} \\)</p>",
+            "<p>\\( \\text{ZIKXSZ} \\)</p>",
+            "<p>\\( \\text{ZIKZSX} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{ZIKZSX} \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410589/nielit-2023-feb-scientist-d-section-a-question-14\" target=\"_blank\">https://gateoverflow.in/410589/nielit-2023-feb-scientist-d-section-a-question-14</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"410587\"></a><div itemprop=\"text\"><p>In the question below, three Statements \\( \\text{(I), (II),} \\) and \\( \\text{(III)} \\) are given. You are required to find out which of the given statement (s) is/are sufficient to answer the question. Mark your answer accordingly.</p>\n\n<p>How old was Deepak on \\( 30 \\)th July \\( 1996 \\)?</p>\n\n<p>(I) Deepak is \\( 6 \\) yr older than his brother Prabir.</p>\n\n<p>(II) Prabir is \\( 29 \\) yr younger than his mother.</p>\n\n<p>(III) Deepak's mother celebrated her \\( 50 \\)th birthday on \\( 15^{\\text {th }} \\) June \\( 1996 \\).</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(I)} \\)&nbsp;and&nbsp;\\( \\text{(II)} \\)</p>",
+            "<p>All \\( \\text{(I)} \\), \\( \\text{(II)} \\)&nbsp;and&nbsp;\\( \\text{(III)} \\)</p>",
+            "<p>\\( \\text{(II)} \\)&nbsp;and&nbsp;\\( \\text{(III)} \\)</p>",
+            "<p>None of these\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>All \\( \\text{(I)} \\), \\( \\text{(II)} \\)&nbsp;and&nbsp;\\( \\text{(III)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410587/nielit-2023-feb-scientist-d-section-a-question-16\" target=\"_blank\">https://gateoverflow.in/410587/nielit-2023-feb-scientist-d-section-a-question-16</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"410580\"></a><div itemprop=\"text\"><p>In a certain code, \"Friend\" is written as \\( \\text{\"EQHDMC\"} \\). How is \"Globe\" written in that code?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{FNKAO} \\)</p>",
+            "<p>\\( \\text{EJNAD} \\)</p>",
+            "<p>\\( \\text{FKNBD} \\)</p>",
+            "<p>\\( \\text{FKNAD} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{FKNAD} \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410580/nielit-2023-feb-scientist-d-section-a-question-23\" target=\"_blank\">https://gateoverflow.in/410580/nielit-2023-feb-scientist-d-section-a-question-23</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"410577\"></a><div itemprop=\"text\"><p>In a certain code language, \\( \\text{'TAPE'} \\) is written as \\( \\text{'SUZBOQDF'} \\). How will \\( \\text{'MOCK'} \\) be written as in that language?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{MOPQDELM} \\)</p>",
+            "<p>\\( \\text{LNNPBDJL} \\)</p>",
+            "<p>\\( \\text{LOPQBCKL} \\)</p>",
+            "<p>\\( \\text{KNNPBEBL} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{LNNPBDJL} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410577/nielit-2023-feb-scientist-d-section-a-question-26\" target=\"_blank\">https://gateoverflow.in/410577/nielit-2023-feb-scientist-d-section-a-question-26</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"410576\"></a><div itemprop=\"text\"><p>Four number-pairs have been given, out of which three are alike in some manner and one is different. Select the number-pair that is different from the rest.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 76: 42 \\)</p>",
+            "<p>\\( 44: 16 \\)</p>",
+            "<p>\\( 55: 25 \\)</p>",
+            "<p>\\( 28: 56 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 28: 56 \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410576/nielit-2023-feb-scientist-d-section-a-question-27\" target=\"_blank\">https://gateoverflow.in/410576/nielit-2023-feb-scientist-d-section-a-question-27</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"410575\"></a><div itemprop=\"text\"><p>If Americans are Red, Japanese are Oranges, Indians are Bright then what is the code for a citizen of Tokyo with Indian origin?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bright Red</p>",
+            "<p>Red Orange</p>",
+            "<p>Bright Orange</p>",
+            "<p>None of the options\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Bright Orange</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410575/nielit-2023-feb-scientist-d-section-a-question-28\" target=\"_blank\">https://gateoverflow.in/410575/nielit-2023-feb-scientist-d-section-a-question-28</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"410596\"></a><div itemprop=\"text\"><p>In the following question, some groups of letters are given, all of which except one, share a common similarity while one is different. Select the odd one.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{DFHB} \\)</p>",
+            "<p>\\( \\mathrm{KMOJ} \\)</p>",
+            "<p>\\( \\text{PRTN} \\)</p>",
+            "<p>\\( \\text{XZBV} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{KMOJ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410596/nielit-2023-feb-scientist-d-section-a-question-7\" target=\"_blank\">https://gateoverflow.in/410596/nielit-2023-feb-scientist-d-section-a-question-7</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"410595\"></a><div itemprop=\"text\"><p>If \\( ' + ' \\) means subtraction, \\( ' - ' \\) means multiplication, 'symbol of division' means addition and ' \\( x \\) ' means division, then what is the value of the following: \\( 54 \\times 9-7 \\) division \\( 8+4= \\) ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 56 \\)</p>",
+            "<p>\\( 46 \\)</p>",
+            "<p>\\( 59 \\)</p>",
+            "<p>\\( 48 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 46 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410595/nielit-2023-feb-scientist-d-section-a-question-8\" target=\"_blank\">https://gateoverflow.in/410595/nielit-2023-feb-scientist-d-section-a-question-8</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"410594\"></a><div itemprop=\"text\"><p>In a code language \\( \\text{'BOMBAY'} \\) is written as \\( \\text{CQPFFE} \\), then in the same language how will you write \\( \\text{'BHARAT'} \\)?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{CJDVEZ} \\)</p>",
+            "<p>\\( \\text{CJDVFZ} \\)</p>",
+            "<p>\\( \\text{CJEWFZ} \\)</p>",
+            "<p>\\( \\text{CIEWEZ} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{CJDVFZ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410594/nielit-2023-feb-scientist-d-section-a-question-9\" target=\"_blank\">https://gateoverflow.in/410594/nielit-2023-feb-scientist-d-section-a-question-9</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"410986\"></a><div itemprop=\"text\"><p>________ are the outcome of ________ and ___________, which are always definite.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 139</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Values, realization, understanding</p>",
+            "<p>Beliefs, emotions, thoughts</p>",
+            "<p>Intelligence, values, emotions</p>",
+            "<p>Thoughts, ideas, beliefs\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Values, realization, understanding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410986/nielit-2023-feb-scientist-d-section-e-question-139\" target=\"_blank\">https://gateoverflow.in/410986/nielit-2023-feb-scientist-d-section-e-question-139</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"410985\"></a><div itemprop=\"text\"><p>The green hat of creativity focuses on :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 140</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Facts and information</p>",
+            "<p>Creativity</p>",
+            "<p>Managing thinking process</p>",
+            "<p>Possibilities\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Possibilities\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410985/nielit-2023-feb-scientist-d-section-e-question-140\" target=\"_blank\">https://gateoverflow.in/410985/nielit-2023-feb-scientist-d-section-e-question-140</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"410984\"></a><div itemprop=\"text\"><p>The blue hat of creativity focuses on :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 141</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Facts and information</p>",
+            "<p>Creativity</p>",
+            "<p>Managing thinking process</p>",
+            "<p>Possibilities\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Managing thinking process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410984/nielit-2023-feb-scientist-d-section-e-question-141\" target=\"_blank\">https://gateoverflow.in/410984/nielit-2023-feb-scientist-d-section-e-question-141</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"410983\"></a><div itemprop=\"text\"><p>Dependable and Responsible are part of ___________ Personality Trait as per big five personality trait.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 142</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Emotional Stability</p>",
+            "<p>Conscientious</p>",
+            "<p>Openness to experience</p>",
+            "<p>Introversion\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Conscientious</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410983/nielit-2023-feb-scientist-d-section-e-question-142\" target=\"_blank\">https://gateoverflow.in/410983/nielit-2023-feb-scientist-d-section-e-question-142</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"410979\"></a><div itemprop=\"text\"><p>Time Stress can't be managed by :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 146</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To do lists</p>",
+            "<p>Action programs</p>",
+            "<p>Setting priorities</p>",
+            "<p>Thinking about an action\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Thinking about an action\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410979/nielit-2023-feb-scientist-d-section-e-question-146\" target=\"_blank\">https://gateoverflow.in/410979/nielit-2023-feb-scientist-d-section-e-question-146</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"410975\"></a><div itemprop=\"text\"><p>A Process of receiving, selecting, organizing, interpreting, checking and reacting to sensory stimuli or data so as to form a meaningful and coherent picture of the world is :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 150</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Attitude</p>",
+            "<p>Thinking</p>",
+            "<p>Perception</p>",
+            "<p>Communication\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Perception</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410975/nielit-2023-feb-scientist-d-section-e-question-150\" target=\"_blank\">https://gateoverflow.in/410975/nielit-2023-feb-scientist-d-section-e-question-150</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"351440\"></a><div itemprop=\"text\"><p>Ramesh’s father is a paediatrician. Ram’s father is a trader. Krishan’s father is a school teacher. Krishan falls ill. Where should his father take him?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>to home</p>",
+            "<p>to school</p>",
+            "<p>to Ramesh’s father</p>",
+            "<p>to Ram’s father</p>"
+          ],
+          "correct_answer": "<p>to Ramesh’s father</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351440/nielit-scientific-assistant-a-2020-november-21\" target=\"_blank\">https://gateoverflow.in/351440/nielit-scientific-assistant-a-2020-november-21</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"351439\"></a><div itemprop=\"text\"><p>Five people are standing in a row. Aman is standing next to Karan but not adjacent to Tanuj. Radhika is standing next to Priyanka who is standing on the extreme left and Tanuj is not standing next to Radhika. Who are Standing adjacent to Aman?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Radhika and Karan</p>",
+            "<p>Karan and Tanuj</p>",
+            "<p>karan and Priyanka</p>",
+            "<p>Radhika and Tanuj</p>"
+          ],
+          "correct_answer": "<p>Radhika and Karan</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351439/nielit-scientific-assistant-a-2020-november-22\" target=\"_blank\">https://gateoverflow.in/351439/nielit-scientific-assistant-a-2020-november-22</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"351261\"></a><div itemprop=\"text\"><p>Choose which of the following will be sufficient to find: What time did the bus leave today?</p>\n\n<p>\\( \\text{Statements:} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>The bus normally leaves on time.</li>\n\t<li>The scheduled departure is at \\( 12:30 \\)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\) alone is sufficient while \\( II \\) alone is not sufficient</p>",
+            "<p>\\( II \\) alone is sufficient while \\( I \\) alone is not sufficient</p>",
+            "<p>Either \\( I \\) or \\( II \\) is sufficient</p>",
+            "<p>Neither&nbsp;\\( I \\)&nbsp;nor \\( II \\) is sufficient</p>"
+          ],
+          "correct_answer": "<p>Neither&nbsp;\\( I \\)&nbsp;nor \\( II \\) is sufficient</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351261/nielit-scientist-b-2020-november-10\" target=\"_blank\">https://gateoverflow.in/351261/nielit-scientist-b-2020-november-10</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"351258\"></a><div itemprop=\"text\"><p>If \\( X \\) says that his mother is the only daughter of\\( Y’s \\) mother, then how is \\( Y \\) related to \\( X \\)?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Brother</p>",
+            "<p>Son</p>",
+            "<p>Uncle</p>",
+            "<p>Father</p>"
+          ],
+          "correct_answer": "<p>Uncle</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351258/nielit-scientist-b-2020-november-13\" target=\"_blank\">https://gateoverflow.in/351258/nielit-scientist-b-2020-november-13</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"351257\"></a><div itemprop=\"text\"><p>Choose the missing terms out of the given alternatives.</p>\n\n<p>\\( \\text{EJO, TYD, INS, XCH, _____?} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( NRW \\)</p>",
+            "<p>\\( MRW \\)</p>",
+            "<p>\\( MSX \\)</p>",
+            "<p>\\( NSX \\)</p>"
+          ],
+          "correct_answer": "<p>\\( MRW \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351257/nielit-scientist-b-2020-november-14\" target=\"_blank\">https://gateoverflow.in/351257/nielit-scientist-b-2020-november-14</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"351657\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>The admission ticket for an Art Gallery bears a password which is changed after every clock hour based on set of words chosen for each day. The following is an illustration of the code and steps of rearrangement for subsequent clock hours.</p>\n\n<p>The Time is \\( \\text{9 a.m. to 3 p.m.} \\) Day’s first password:</p>\n\n<p>\\( \\text{First batch –&nbsp;9 a.m. to 10 a.m.} \\)</p>\n\n<p>is not ready cloth simple harmony burning</p>\n\n<p>\\( \\text{Second batch – 10&nbsp;a.m. to 11&nbsp;a.m.} \\)</p>\n\n<p>ready not is cloth&nbsp;burning harmony simple</p>\n\n<p>\\( \\text{Third batch – 11&nbsp;a.m. to 12&nbsp;noon} \\)</p>\n\n<p>cloth is not ready simple harmony burning</p>\n\n<p>\\( \\text{Fourth batch – 12 noon&nbsp;to 1&nbsp;p.m.} \\)</p>\n\n<p>not is cloth ready burning harmony simple</p>\n\n<p>\\( \\text{Fifth batch – 1&nbsp;p.m. to 2&nbsp;p.m.} \\)</p>\n\n<p>ready cloth is not simple harmony burning and so on</p>\n\n<p>If the password for \\( 11\\;a.m. \\) to \\( 12\\;noon \\) was –&nbsp;“soap shy miss pen yet the she”, what was the password for the First Batch?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>pen miss shy soap she the yet</p>",
+            "<p>shy miss pen soap yet the she</p>",
+            "<p>soap pen miss shy she the yet</p>",
+            "<p>miss shy soap pen she the yet</p>"
+          ],
+          "correct_answer": "<p>shy miss pen soap yet the she</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351657/nielit-scientist-b-2020-november-25\" target=\"_blank\">https://gateoverflow.in/351657/nielit-scientist-b-2020-november-25</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"351645\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Find the odd one out in the given series:</p>\n\n<p>\\( ZA, RS, DE, JK, PR, LM, YZ, NO \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( JK \\)</p>",
+            "<p>\\( LM \\)</p>",
+            "<p>\\( ZA \\)</p>",
+            "<p>\\( PR \\)</p>"
+          ],
+          "correct_answer": "<p>\\( PR \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351645/nielit-scientist-b-2020-november-37\" target=\"_blank\">https://gateoverflow.in/351645/nielit-scientist-b-2020-november-37</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"351263\"></a><div itemprop=\"text\"><p>A university library budget committee must reduce exactly five of eight areas of expenditure -\\( \\text{I, J, K, L, M, N, O and P} \\) in accordance with the following conditions:</p>\n\n<p>If both \\( I \\) and \\( O \\) are reduced, \\( P \\) is also reduced.</p>\n\n<p>If \\( L \\) is reduced, Neither \\( N \\) nor \\( O \\) is reduced</p>\n\n<p>If \\( M \\) is reduced, \\( J \\) is not reduced.</p>\n\n<p>Of the three areas \\( J \\), \\( K \\) and \\( N \\) exactly two are reduced.</p>\n\n<p>If both \\( K \\) and \\( N \\) are reduced, which one of the following is a pair of areas neither of which could be reduced?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I,L \\)</p>",
+            "<p>\\( J,L \\)</p>",
+            "<p>\\( J, M \\)</p>",
+            "<p>\\( I,J \\)</p>"
+          ],
+          "correct_answer": "<p>\\( J,L \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351263/nielit-scientist-b-2020-november-8\" target=\"_blank\">https://gateoverflow.in/351263/nielit-scientist-b-2020-november-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

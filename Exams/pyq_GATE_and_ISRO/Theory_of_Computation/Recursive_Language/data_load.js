@@ -1,0 +1,305 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Recursive_Language",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Recursive_Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the two lists List I and List II given below:<br>\\(\n\\begin{array}{|c l|c l|}\n\\hline\n\\textbf{List I} &amp; &amp; \\textbf{List II} &amp; \\\\\n\\hline\n\\text{(i)} &amp; \\text{Context free languages} &amp; \\text{(a)} &amp; \\text{Closed under union} \\\\\n\\hline\n\\text{(ii)} &amp; \\text{Recursive languages} &amp; \\text{(b)} &amp; \\text{Not closed under complementation} \\\\\n\\hline\n\\text{(iii)} &amp; \\text{Regular languages} &amp; \\text{(c)} &amp; \\text{Closed under intersection} \\\\\n\\hline\n\\end{array}\\)<br>\nFor matching of items in List I with those in List II, which of the following option(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>(i) - (a), (ii) - (b), and (iii) - (c)</p>",
+            "<b>B.</b> <p>(i) - (b), (ii) - (a), and (iii) - (c)</p>",
+            "<b>C.</b> <p>(i) - (b), (ii) - (c), and (iii) - (a)</p>",
+            "<b>D.</b> <p>(i) - (a), (ii) - (c), and (iii) - (b)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>(i) - (b), (ii) - (a), and (iii) - (c)</p>",
+            "<b>C.</b> <p>(i) - (b), (ii) - (c), and (iii) - (a)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460815/gate-cse-2025-set-2-question-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Every subset of a recursively enumerable language is recursive.</p>",
+            "<b>B.</b> <p>If a language \\(L\\) and its complement \\(\\bar{L}\\) are both recursively enumerable, then \\(L\\) must be recursive.</p>",
+            "<b>C.</b> <p>Complement of a context-free language must be recursive.</p>",
+            "<b>D.</b> <p>If \\(L_1\\) and \\(L_2\\) are regular, then \\(L_1 \\cap L_2 \\)must be deterministic context-free.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>If a language \\(L\\) and its complement \\(\\bar{L}\\) are both recursively enumerable, then \\(L\\) must be recursive.</p>",
+            "<b>C.</b> <p>Complement of a context-free language must be recursive.</p>",
+            "<b>D.</b> <p>If \\(L_1\\) and \\(L_2\\) are regular, then \\(L_1 \\cap L_2 \\)must be deterministic context-free.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371923/Gate-cse-2022-question-13#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let &lt; M &gt; denote an encoding of an automaton M. Suppose that \\(\\Sigma =\\{0,1\\}\\). Which of the following languages is/are NOT recursive? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a DFA such that } L(M)=\\emptyset \\}\\)</p>",
+            "<b>B.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a DFA such that } L(M)=\\Sigma ^ * \\}\\)</p>",
+            "<b>C.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a PDA such that } L(M)=\\emptyset \\}\\)</p>",
+            "<b>D.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a PDA such that } L(M)=\\Sigma ^ * \\}\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>D.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a PDA such that } L(M)=\\Sigma ^ * \\}\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357440/gate-cse-2021-set-1-question-12#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The set of all recursively enumerable languages is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>closed under complementation</p>",
+            "<b>B.</b> <p>closed under intersection.</p>",
+            "<b>C.</b> <p>a subset of the set of all recursive languages.</p>",
+            "<b>D.</b> <p>an uncountable set</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>closed under intersection.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204081/gate2018-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>If L and P are two recursively enumerable languages then they are not closed under <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Kleene star \\(L^{*}\\) of L</p>",
+            "<b>B.</b> <p>Intersection \\(L \\cap P\\)</p>",
+            "<b>C.</b> <p>Union \\(L \\cup P\\)</p>",
+            "<b>D.</b> <p>Set difference</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Set difference</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128779/isro2017-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Given the following statements<br>S1 : Every context-sensitive language L is recursive<br>S2 : There exists a recursive language that is not context-sensitive<br>Which statements are true? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are not correct</p>",
+            "<b>D.</b> <p>Both S1 and S2 are correct</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both S1 and S2 are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128535/isro2017-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If \\(L\\) and \\(\\bar L\\) are recursively enumerable then \\(L\\) is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular</p>",
+            "<b>B.</b> <p>context-free</p>",
+            "<b>C.</b> <p>context-sensitive</p>",
+            "<b>D.</b> <p>recursive</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/411/gate2008-13-isro2016-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let X be a recursive language and Y be a recursively enumerable but not recursive language. Let W and Z be two languages such that \\(\\bar{Y}\\)  reduces to W, and Z reduces to \\(\\bar{X}\\) (reduction means the standard many-one-reduction). Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>W can be recursively enumerable and Z is recursive.</p>",
+            "<b>B.</b> <p>W can be recursive and Z is recursively enumerable</p>",
+            "<b>C.</b> <p>W is not recursively enumerable and Z is recursive</p>",
+            "<b>D.</b> <p>W is not recursively enumerable and Z is not recursive.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>W is not recursively enumerable and Z is recursive</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39721/gate2016-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let L be a language and \\(\\bar{L}\\) be its complement. Which of the following is NOT a viable possibility? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Neither L nor \\(\\bar{L}\\) is recursively enumerable (r.e.).</p>",
+            "<b>B.</b> <p>One of L and \\(\\bar{L}\\) is r.e. but not recursive; the other is not r.e.</p>",
+            "<b>C.</b> <p>Both L and \\(\\bar{L}\\) are r.e. but not recursive</p>",
+            "<b>D.</b> <p>Both L and \\(\\bar{L}\\) are recursive.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both L and \\(\\bar{L}\\) are r.e. but not recursive</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1810/gate2014-1-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A problem whose language is recursion is called? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unified problem</p>",
+            "<b>B.</b> <p>Boolean function</p>",
+            "<b>C.</b> <p>Recursive problem</p>",
+            "<b>D.</b> <p>Decidable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53154/isro2011-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let L1 be a recursive language. Let L2 and L3 be languages that are recursively enumerable but not recursive. Which of the following statements is not necessarily true? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L2 - L1 is recursively enumerable</p>",
+            "<b>B.</b> <p>L1 - L3 is recursively enumerable</p>",
+            "<b>C.</b> <p>L2 \\(\\cup\\) L1 is recursively enumerable</p>",
+            "<b>D.</b> <p>L2 \\(\\cap\\) L1 is recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L1 - L3 is recursively enumerable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2190/gate2010-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If L and \\(\\bar{L}\\) are recursively enumerable then L is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular</p>",
+            "<b>B.</b> <p>context-free</p>",
+            "<b>C.</b> <p>context-sensitive</p>",
+            "<b>D.</b> <p>recursive</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/411/gate2008-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let L1 be regular language, L2 be a deterministic context-free language and L3 a\nrecursively enumerable, but not recursive, language. Which one of the following\nstatements is false? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_{1}\\cap L_{2}\\) is a deterministic CFL</p>",
+            "<b>B.</b> <p>\\(L_{3}\\cap L_{1}\\) is recursive</p>",
+            "<b>C.</b> <p>\\(L_{1}\\cup L_{2}\\) is context-free</p>",
+            "<b>D.</b> <p>\\(L_{1}\\cap L_{2}\\cap L_{3}\\) is recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(L_{3}\\cap L_{1}\\) is recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/996/gate2006-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>For \\(S \\in (0+1)^{*}\\),  let d(s) denote the decimal value of s (e.g.   d(101)=5).<br>   Let L={s \\(\\in\\) (0+1)*| d(s) mod 5=2 and d(s) mod 7\\(\\neq\\)4}<br> Which one of the following statements is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is recursively enumerable, but not recursive</p>",
+            "<b>B.</b> <p>L is recursive, but not context-free</p>",
+            "<b>C.</b> <p>L is context-free, but not regular</p>",
+            "<b>D.</b> <p>Lis regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Lis regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/993/gate2006-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let L1 be a recursive language, and let L2 be a recursively enumerable but not a recursive language.\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{L_{1}}\\) is recursive and \\(\\bar{L_{2}}\\) is recursively enumerable</p>",
+            "<b>B.</b> <p>\\(\\bar{L_{1}}\\) is recursive and \\(\\bar{L_{2}}\\) is not recursively enumerable</p>",
+            "<b>C.</b> <p>\\(\\bar{L_{1}}\\) and \\(\\bar{L_{2}}\\) are recursively enumerable</p>",
+            "<b>D.</b> <p>\\(\\bar{L_{1}}\\) is recursively enumerable and \\(\\bar{L_{2}}\\) is recursive</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\bar{L_{1}}\\) is recursive and \\(\\bar{L_{2}}\\) is not recursively enumerable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1379/gate2005-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>L1 is a recursively enumerable language over \\(\\Sigma\\). An algorithm A effectively enumerates its words as w1, w2, w3, ... define another language L2 over \\(\\Sigma\\)U{#} as <br> {wi # wj : wi, wj \\(\\in\\) L1, i \\(\\lt\\) j}.<br>  Here # is a new symbol. Consider the following assertions.<pre><code> S1 :  L1 is recursive implies L2 is recursive\nS2 : L2 is recursive implies L1 is recursive </code></pre> Which of the following statements is true ? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are true</p>",
+            "<b>B.</b> <p>S1 is true but S2 is not necessarily true</p>",
+            "<b>C.</b> <p>S2 is true but S1 is not necessarily true</p>",
+            "<b>D.</b> <p>Neither is necessarily true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both S1 and S2 are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1083/gate2004-89#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Nobody knows yet if P = NP. Consider the language L defined as follows : \\(L=\\left\\{\\begin{matrix} (0+1)^{*}\\; \\; \\; if P=NP\\\\ \\Phi \\; \\; otherwise \\end{matrix}\\right.\\)\n<br> Which of the following statements is true ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is recursive</p>",
+            "<b>B.</b> <p>L is recursively enumerable but not recursive</p>",
+            "<b>C.</b> <p>L is not recursively enumerable</p>",
+            "<b>D.</b> <p>Whether L is recursive or not will be known after we find out if P = NP</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L is recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/904/gate2003-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which of the following is true ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The complement of a recursive language is recursive.</p>",
+            "<b>B.</b> <p>The complement of a recursively enumerable language is recursively\nenumerable.</p>",
+            "<b>C.</b> <p>The complement of a recursive language is either recursive or recursively\nenumerable.</p>",
+            "<b>D.</b> <p>The complement of a context-free language is context-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The complement of a recursive language is recursive.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/844/gate2002-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Recursive languages are: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A proper superset of context free languages.</p>",
+            "<b>B.</b> <p>Always recognizable by pushdown automata.</p>",
+            "<b>C.</b> <p>Also called type 0 languages.</p>",
+            "<b>D.</b> <p>Recognizable by Turing machines.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A proper superset of context free languages.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84833/gate1990-3-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

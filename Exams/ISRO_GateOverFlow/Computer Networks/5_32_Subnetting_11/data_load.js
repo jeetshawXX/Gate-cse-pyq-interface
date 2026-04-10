@@ -1,0 +1,176 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Subnetting",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Subnetting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"965\"></a><div itemprop=\"text\"><p>The subnet mask for a particular network is \\( 255.255.31.0. \\) Which of the following pairs of \\( \\text{IP} \\) addresses could belong to this network?</p>\n\n\n\n</div><br><br><b>Computer Networks: GATE CSE 2003 | Question: 82, ISRO2009</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 172.57.88.62 \\) and \\( 172.56.87.23 \\)</p>",
+            "<p>\\( 10.35.28.2 \\) and \\( 10.35.29.4 \\)</p>",
+            "<p>\\( 191.203.31.87 \\) and \\( 191.234.31.88 \\)</p>",
+            "<p>\\( 128.8.129.43 \\) and \\( 128.8.161.55 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 128.8.129.43 \\) and \\( 128.8.161.55 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/965/gate-cse-2003-question-82-isro2009-1\" target=\"_blank\">https://gateoverflow.in/965/gate-cse-2003-question-82-isro2009-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1265\"></a><div itemprop=\"text\"><p>The address of a class&nbsp;\\( \\text{B} \\) host is to be split into subnets with a \\( 6\\;\\text{-bit} \\) subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet?</p>\n\n</div><br><br><b>Computer Networks: GATE CSE 2007 | Question: 67, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 62 \\) subnets and \\( 262142 \\) hosts.</p>",
+            "<p>\\( 64 \\) subnets and \\( 262142 \\) hosts.</p>",
+            "<p>\\( 62 \\)&nbsp;subnets and \\( 1022 \\) hosts.</p>",
+            "<p>\\( 64 \\)&nbsp;subnets and \\( 1024 \\) hosts.</p>"
+          ],
+          "correct_answer": "<p>\\( 62 \\)&nbsp;subnets and \\( 1022 \\) hosts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1265/gate-cse-2007-question-67-isro2016-72\" target=\"_blank\">https://gateoverflow.in/1265/gate-cse-2007-question-67-isro2016-72</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1752\"></a><div itemprop=\"text\"><p>An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available with it: \\( 245.248.128.0/20 \\). The ISP wants to give half of this chunk of addresses to Organization \\( A \\), and a quarter to Organization \\( B \\), while retaining the remaining with itself. Which of the following is a valid allocation of addresses to \\( A \\) and \\( B \\)?</p>\n\n</div><br><br><b>Computer Networks: GATE CSE 2012 | Question: 34, ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 245.248.136.0/21 \\text{ and } 245.248.128.0/22 \\)</p>",
+            "<p>\\( 245.248.128.0/21 \\text{ and } &nbsp;245.248.128.0/22 \\)</p>",
+            "<p>\\( 245.248.132.0/22 \\text{ and } &nbsp;245.248.132.0/21 \\)</p>",
+            "<p>\\( 245.248.136.0/24 \\text{ and } &nbsp;245.248.132.0/21 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 245.248.136.0/21 \\text{ and } 245.248.128.0/22 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1752/gate-cse-2012-question-34-isro-dec2017-32\" target=\"_blank\">https://gateoverflow.in/1752/gate-cse-2012-question-34-isro-dec2017-32</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3607\"></a><div itemprop=\"text\"><p>A router uses the following routing table:</p>\n\n<p>\\begin{array}{|l|l|l|} \\hline \\textbf {Destination} &amp; \\textbf {&nbsp;Mask} &amp; \\textbf{Interface}&nbsp; \\\\\\hline \\text {144.16.0.0} &amp; &nbsp;\\text{255.255.0.0} &amp; \\text{eth\\( 0 \\)}&nbsp;\\\\\\hline\\text {144.16.64.0} &amp; &nbsp;\\text{255.255.224.0} &amp; \\text{eth\\( 1 \\)} \\\\\\hline\\text {144.16.68.0} &amp; &nbsp;\\text{255.255.255.0} &amp; \\text{eth\\( 2 \\)}\\\\\\hline \\text {144.16.68.64} &amp; &nbsp;\\text{255.255.255.224} &amp; \\text{eth\\( 3 \\)}\\\\\\hline\\end{array}</p>\n\n<p>&nbsp;Packet bearing a destination address \\( 144.16.68.117 \\) arrives at the router. On which interface will it be forwarded?</p>\n\n</div><br><br><b>Computer Networks: GATE IT 2006 | Question: 63, ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>eth\\( 0 \\)</p>",
+            "<p>eth\\( 1 \\)</p>",
+            "<p>eth\\( 2 \\)</p>",
+            "<p>eth\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>eth\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3607/gate-it-2006-question-63-isro2015-57\" target=\"_blank\">https://gateoverflow.in/3607/gate-it-2006-question-63-isro2015-57</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"49643\"></a><div itemprop=\"text\"><p>Range of IP Address from \\( 224.0.0.0 \\) to \\( 239.255.255.255 \\) are</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2007 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Reserved for loopback</p>",
+            "<p>Reserved for broadcast</p>",
+            "<p>Used for multicast packets</p>",
+            "<p>Reserved for future addressing</p>"
+          ],
+          "correct_answer": "<p>Used for multicast packets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49643/isro-cse-2007-question-73\" target=\"_blank\">https://gateoverflow.in/49643/isro-cse-2007-question-73</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"49665\"></a><div itemprop=\"text\"><p>The subnet mask \\( 255.255.255.192 \\)</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2008 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>extends the network portion to \\( 16 \\) bits</p>",
+            "<p>extends the network portion to \\( 26 \\) bits</p>",
+            "<p>extends the network portion to \\( 36 \\) bits</p>",
+            "<p>has no effect on the network portion of an IP address</p>"
+          ],
+          "correct_answer": "<p>extends the network portion to \\( 26 \\) bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49665/isro-cse-2008-question-3\" target=\"_blank\">https://gateoverflow.in/49665/isro-cse-2008-question-3</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"51337\"></a><div itemprop=\"text\"><p>The broadcast address for IP network \\( 172.16.0.0 \\) with subnet mask \\( 255.255.0.0 \\) is</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2011 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 172.16.0.255 \\)</p>",
+            "<p>\\( 172.16.255.255 \\)</p>",
+            "<p>\\( 255.255.255.255 \\)</p>",
+            "<p>\\( 172.255.255.255 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 172.16.255.255 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51337/isro-cse-2011-question-45\" target=\"_blank\">https://gateoverflow.in/51337/isro-cse-2011-question-45</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"17446\"></a><div itemprop=\"text\"><p>An organization is granted the block \\( 130.34.12.64/26. \\) It needs to have \\( 4 \\)&nbsp;subnets. Which of the following is not an address of this organization?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2014 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 130.34.12.124 \\)</p>",
+            "<p>\\( 130.34.12.89 \\)</p>",
+            "<p>\\( 130.34.12.70 \\)</p>",
+            "<p>\\( 130.34.12.132 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 130.34.12.132 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17446/isro-cse-2014-question-75\" target=\"_blank\">https://gateoverflow.in/17446/isro-cse-2014-question-75</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"128648\"></a><div itemprop=\"text\"><p>The default subnet mask for a class B network can be</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 255.255.255.0 \\)</p>",
+            "<p>\\( 255.0.0.0 \\)</p>",
+            "<p>\\( 255.255.192.0 \\)</p>",
+            "<p>\\( 255.255.0.0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 255.255.0.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128648/isro-cse-2017-question-29\" target=\"_blank\">https://gateoverflow.in/128648/isro-cse-2017-question-29</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"43984\"></a><div itemprop=\"text\">\n<p>What is IP class and number of sub-networks if the subnet mask is \\( 255.224.0.0 \\)?</p>\n\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class \\( A \\), \\( 3 \\)</p>",
+            "<p>Class \\( A \\), \\( 8 \\)</p>",
+            "<p>Class \\( B \\), \\( 3 \\)</p>",
+            "<p>Class \\( B \\), \\( 32 \\)</p>"
+          ],
+          "correct_answer": "<p>Class \\( A \\), \\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43984/isro-2013-43\" target=\"_blank\">https://gateoverflow.in/43984/isro-2013-43</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"51717\"></a><div itemprop=\"text\"><p>In a class B subnet, we know the IP address of one host and the mask as given below:</p>\n\n<p>IP address \\( : 125.134.112.66 \\)</p>\n\n<p>Mask \\( : 255.255.224.0 \\)</p>\n\n<p>What is the first address(Network address)?</p>\n\n</div><br><br><b>Computer Networks: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 125.134.96.0 \\)</p>",
+            "<p>\\( 125.134.112.0 \\)</p>",
+            "<p>\\( 125.134.112.66 \\)</p>",
+            "<p>\\( 125.134.0.0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 125.134.96.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51717/isro2015-54\" target=\"_blank\">https://gateoverflow.in/51717/isro2015-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

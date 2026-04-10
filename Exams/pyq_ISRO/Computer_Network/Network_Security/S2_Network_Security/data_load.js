@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Network_Security - Network_Security - Slot 2",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Network_Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Advanced Encryption Standard (AES) is based on <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Asymmetric key algorithm</p>",
+            "<b>B.</b> <p>Symmetric key algorithm</p>",
+            "<b>C.</b> <p>Public key algorithm</p>",
+            "<b>D.</b> <p>Key exchange</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symmetric key algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47820/isro2009-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>SHA-1 is a <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>encryption algorithm</p>",
+            "<b>B.</b> <p>decryption algorithm</p>",
+            "<b>C.</b> <p>key exchange algorithm</p>",
+            "<b>D.</b> <p>message digest function</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>message digest function</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45659/isro2009-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A public key encryption system <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>allows anyone to decode the transmissions</p>",
+            "<b>B.</b> <p>allows only the correct sender to decode the data</p>",
+            "<b>C.</b> <p>allows only the correct receiver to decode the data</p>",
+            "<b>D.</b> <p>does not encode the data before transmitting it</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>allows only the correct receiver to decode the data</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50001/isro2008-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Hashed message is signed by a sender using his <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>his public key</p>",
+            "<b>B.</b> <p>his private key</p>",
+            "<b>C.</b> <p>receiver's public key</p>",
+            "<b>D.</b> <p>receiver's private key</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>his private key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49641/isro2007-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The standard for certificates used on internet is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X.25</p>",
+            "<b>B.</b> <p>X.301</p>",
+            "<b>C.</b> <p>X.409</p>",
+            "<b>D.</b> <p>X.509</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>X.509</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49640/isro2007-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>SSL is not responsible for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual authentication of client &amp; server</p>",
+            "<b>B.</b> <p>Secret communication</p>",
+            "<b>C.</b> <p>Data Integrity protection</p>",
+            "<b>D.</b> <p>Error detection and correction</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Error detection and correction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49638/isro2007-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

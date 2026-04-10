@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - Artificial Neural Network",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Artificial Neural Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60556\"></a><div itemprop=\"text\"><p>An artificial neuron receives n inputs \\( x_1, x_2, \\dots , x_n \\) with weights \\( w_1, w_2, \\dots , w_n \\) attached to the input links. The weighted sum ____ is computed to be passed on to a non-linear filter \\( \\phi \\) called activation function to release the output.</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | December 2013 | Part 3 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Sigma \\: w_i \\)</p>",
+            "<p>\\( \\Sigma \\: x_i \\)</p>",
+            "<p>\\( \\Sigma \\: w_i + \\Sigma \\: x_i \\)</p>",
+            "<p>\\( \\Sigma \\: w_i \\cdot&nbsp;\\Sigma \\: x_i \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Sigma \\: w_i \\cdot&nbsp;\\Sigma \\: x_i \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60556/ugc-net-cse-december-2013-part-3-question-30\" target=\"_blank\">https://gateoverflow.in/60556/ugc-net-cse-december-2013-part-3-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

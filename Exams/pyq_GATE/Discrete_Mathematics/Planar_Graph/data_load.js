@@ -1,0 +1,141 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Planar_Graph",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Planar_Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In an undirected connected planar graph G, there are eight vertices and five faces. The number of edges in G is _________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357435/gate-cse-2021-set-1-question-16#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(\\delta\\) denote the minimum degree of a vertex in a graph. For all planar graphs on n vertices with \\(\\delta \\geq 3\\), which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In any planar embedding, the number of faces is at least \\(\\frac{n}{2}+2\\)</p>",
+            "<b>B.</b> <p>In any planar embedding, the number of faces is less than \\(\\frac{n}{2}+2\\)</p>",
+            "<b>C.</b> <p>There is a planar embedding in which the number of faces is less than \\(\\frac{n}{2}+2\\)</p>",
+            "<b>D.</b> <p>There is a planar embedding in which the number of faces is at most \\(\\frac{n}{\\delta +1}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>In any planar embedding, the number of faces is at least \\(\\frac{n}{2}+2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2086/gate2014-3-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let G be a simple undirected planar graph on 10 vertices with 15 edges. If G is a connected graph,\nthen the number of bounded faces in any embedding of G on the plane is equal to <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49/gate2012-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>K4 and Q3 are graphs with the following structures <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Planar_Graph\\q5_370efc5f.jpg\"> Which one of the following statements is TRUE in relation to these graphs? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>K4 is planar while Q3 is not</p>",
+            "<b>B.</b> <p>Both K4 and Q3 are planar</p>",
+            "<b>C.</b> <p>Q3 is planar while K4 is not</p>",
+            "<b>D.</b> <p>Neither K4 not Q3 is planar</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both K4 and Q3 are planar</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2119/gate2011-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following statements is true for every planar graph on n vertices? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The graph is connected</p>",
+            "<b>B.</b> <p>The graph is Eulerian</p>",
+            "<b>C.</b> <p>The graph has a vertex-cover of size at most 3n/4</p>",
+            "<b>D.</b> <p>The graph has an independent set of size at least n/3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The graph has a vertex-cover of size at most 3n/4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/421/gate2008-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let G be the non-planar graph with the minimum possible number of edges. Then G has <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9 edges and 5 vertices</p>",
+            "<b>B.</b> <p>9 edges and 6 vertices</p>",
+            "<b>C.</b> <p>10 edges and 5 vertices</p>",
+            "<b>D.</b> <p>10 edges and 6 vertices</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>9 edges and 6 vertices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1203/gate2007-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following graphs is NOT planar? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Planar_Graph\\q47_d0c7ddfc.jpg\"> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G1</p>",
+            "<b>B.</b> <p>G2</p>",
+            "<b>C.</b> <p>G3</p>",
+            "<b>D.</b> <p>G4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>G1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1172/gate2005-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let G be a simple connected planar graph with 13 vertices and 19 edges. Then, the number of faces in the planar embedding of the graph is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1159/gate2005-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Choose the correct alternatives ( more than one may be correct) and write the corresponding letters only:<br>A non-planar graph with minimum number of vertices has <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9 edges, 6 vertices</p>",
+            "<b>B.</b> <p>6 edges, 4 vertices</p>",
+            "<b>C.</b> <p>10 edges, 5 vertices</p>",
+            "<b>D.</b> <p>9 edges, 5 vertices</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10 edges, 5 vertices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/563/gate1992-02-viii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

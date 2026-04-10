@@ -1,0 +1,151 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Functions",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25046\"></a><div itemprop=\"text\"><p>For \\( x, y\\in \\left\\{0, 1\\right\\}^{n} \\), let \\( x&nbsp;⊕ y \\) be the element of \\( \\left\\{0, 1\\right\\}^{n} \\) obtained by the component-wise exclusive-or of \\( x \\) and \\( y \\). A Boolean function \\( F:\\left\\{0, 1\\right\\}^{n}\\rightarrow\\left\\{0, 1\\right\\} \\) is said to be linear if \\( F(x&nbsp;⊕ y)= F(x)&nbsp;⊕ F(y) \\), for all \\( x \\) and \\( y \\). The number of linear functions from \\( \\left\\{0, 1\\right\\}^{n} \\) to \\( \\left\\{0, 1\\right\\} \\) is.</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2012 | Part B | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2^{2n} \\)</p>",
+            "<p>\\( 2^{n+1} \\)</p>",
+            "<p>\\( 2^{n-1}+1 \\)</p>",
+            "<p>\\( n! \\)</p>",
+            "<p>\\( 2^{n} \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25046/tifr-cse-2012-part-b-question-1\" target=\"_blank\">https://gateoverflow.in/25046/tifr-cse-2012-part-b-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25859\"></a><div itemprop=\"text\"><p>Consider a function \\( T_{k, n}: \\left\\{0, 1\\right\\}^{n}\\rightarrow \\left\\{0, 1\\right\\} \\) which returns \\( 1 \\) if at least \\( k \\) of its \\( n \\) inputs are \\( 1 \\).&nbsp;Formally, \\( T_{k, n}(x)=1 \\) if \\( \\sum ^{n}_{1} x_{i}\\geq k \\). Let \\( y \\in \\left\\{0, 1\\right\\}^{n} \\) be such that \\( y \\) has exactly \\( k \\) ones. Then, the&nbsp;function \\( T_{k, n-1} \\left(y_{1}, y_{2},....y_{i-1}, y_{i+1},...,y_{n}\\right) \\) (where \\( y_{i} \\) is omitted) is equivalent to</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2013 | Part B | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T_{k-1}, n(y) \\)</p>",
+            "<p>\\( T_{k, n}(y) \\)</p>",
+            "<p>\\( y_{i} \\)</p>",
+            "<p>\\( \\neg y_{i} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\neg y_{i} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25859/tifr-cse-2013-part-b-question-16\" target=\"_blank\">https://gateoverflow.in/25859/tifr-cse-2013-part-b-question-16</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27351\"></a><div itemprop=\"text\"><p>Let \\( k \\) be an integer at least \\( 4 \\) and let \\( \\left[k\\right]= \\left\\{1, 2,...,k\\right\\} \\). Let \\( f:\\left[k\\right]^{4}\\rightarrow \\left\\{0, 1\\right\\} \\) be defined as&nbsp;follows: \\( f(y_{1}, y_{2}, y_{3}, y_{4}) = 1 \\) if an only if the \\( y_{i} 's \\) are all distinct. For each choice \\( z = (z_{1}, z_{2}, z_{3}) \\in&nbsp;\\left[k\\right]^{3} \\),&nbsp;let \\( g_{z} : \\left[k\\right]\\rightarrow \\left\\{0, 1\\right\\} \\)&nbsp;be defined by \\( g_{z}(Y) = f(Y, z_{1}, z_{2}, z_{3}) \\). Let \\( N \\) be the number of distinct functions \\( g_{z} \\) that are obtained as \\( z \\) varies in \\( \\left\\{1, 2,...,k\\right\\}^{3} \\), that is, \\( N= \\mid \\left\\{g_{z}:z\\in \\left\\{1, 2,...,k\\right\\}^{3}\\right\\} \\mid \\). What is \\( N \\)?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2014 | Part B | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( k^{3}+1 \\)</p>",
+            "<p>\\( 2^{\\left(\\frac{k}{3}\\right)} \\)</p>",
+            "<p>\\( \\left(\\frac{k}{3}\\right) \\)</p>",
+            "<p>\\( \\left(\\frac{k}{3}\\right)+1 \\)</p>",
+            "<p>\\( 4&nbsp;\\left(\\frac{k}{3}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\frac{k}{3}\\right)+1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27351/tifr-cse-2014-part-b-question-18\" target=\"_blank\">https://gateoverflow.in/27351/tifr-cse-2014-part-b-question-18</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"95272\"></a><div itemprop=\"text\"><p>For a set \\( A \\) define \\( P(A) \\) to be the set of all subsets of \\( A \\). For example, if \\( A&nbsp;= \\{1, 2\\} \\) then \\( P(A) = \\{ \\emptyset, \\{1, 2\\}, \\{1\\}, \\{ 2 \\} \\} \\). Let \\( A \\rightarrow P(A) \\) be a function and \\( A \\) is not empty. Which of the following must be TRUE?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2017 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f \\) cannot be one-to-one (injective)</p>",
+            "<p>\\( f \\) cannot be onto (surjective)</p>",
+            "<p>\\( f \\) is both one-to-one and onto (bijective)</p>",
+            "<p>there is no such \\( f \\) possible</p>",
+            "<p>if such a function \\( f \\) exists, then \\( A \\) is infinite</p>"
+          ],
+          "correct_answer": "<p>\\( f \\) cannot be onto (surjective)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95272/tifr-cse-2017-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/95272/tifr-cse-2017-part-a-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"95289\"></a><div itemprop=\"text\"><p>Let \\( f \\: \\circ \\: g \\) denote function composition such that \\( (f \\circ g)(x) = f(g(x)) \\). Let \\( f: A \\rightarrow B \\) such that for all \\( g \\: : \\: B \\rightarrow A \\) and \\( h \\: : \\: B \\rightarrow A \\) we have \\( f \\: \\circ \\: g = f \\: \\circ \\: h \\: \\Rightarrow g = h \\). Which of the following must be true?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2017 | Part A | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f \\) is onto (surjective)</p>",
+            "<p>\\( f \\) is one-to-one (injective)</p>",
+            "<p>\\( f \\) is both one-to-one and onto (bijective)</p>",
+            "<p>the range of \\( f \\) is finite</p>",
+            "<p>the domain of \\( f \\) is finite</p>"
+          ],
+          "correct_answer": "<p>\\( f \\) is one-to-one (injective)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95289/tifr-cse-2017-part-a-question-11\" target=\"_blank\">https://gateoverflow.in/95289/tifr-cse-2017-part-a-question-11</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"179294\"></a><div itemprop=\"text\"><p>For two \\( n \\) bit strings \\( x,y \\in\\{0,1\\}^{n}, \\) define \\( z=x\\oplus y \\) to be the bitwise XOR of the two strings (that is, if \\( x_{i},y_{i},z_{i} \\) denote the \\( i^{th} \\) bits of \\( x,y,z \\) respectively, then \\( z_{i}=x_{i}+y_{i} \\bmod&nbsp;2 \\)). A function \\( h:\\{0,1\\}^{n}&nbsp;\\to \\{0,1\\}^{n} \\) is called linear if \\( h(x \\oplus y&nbsp; )=h(x)\\oplus h(y), \\) for every \\( x,y \\in \\{0,1\\}^{n}. \\) The number of such linear functions for \\( n \\geq 2 \\) is:</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2018 | Part B | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{n} \\)</p>",
+            "<p>\\( 2^{n^{2}} \\)</p>",
+            "<p>\\( \\large2^{\\frac{n}{2}} \\)</p>",
+            "<p>\\( 2^{4n} \\)</p>",
+            "<p>\\( 2^{n^{2}+n} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{n^{2}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179294/tifr-cse-2018-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/179294/tifr-cse-2018-part-b-question-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"280498\"></a><div itemprop=\"text\"><p>Let \\( f \\) be a function with both input and output in the set \\( \\{0,1,2, \\dots ,9\\} \\), and let the function \\( g \\) be defined as \\( g(x) = f(9-x) \\). The function \\( f \\) is non-decreasing, so that \\( f(x) \\geq f(y) \\) for \\( x \\geq y \\). Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>There exists \\( x \\in \\{0, \\dots ,9\\} \\) so that \\( x = f(x) \\)</li>\n\t<li>There exists \\( x \\in \\{0, \\dots ,9\\} \\) so that \\( x = g(x) \\)</li>\n\t<li>There exists \\( x \\in \\{0, \\dots ,9\\} \\) so that \\( x = (f(x) +g(x))&nbsp;\\text{mod }10 \\)</li>\n</ol>\n\n<p>Which of the above statements must be TRUE for&nbsp;ALL such functions \\( f \\) and \\( g \\) ?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2019 | Part A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( \\text{(i)} \\)&nbsp;</p>",
+            "<p>Only \\( \\text{(i)} \\)&nbsp; and \\( \\text{(ii)} \\)&nbsp;</p>",
+            "<p>Only \\( \\text{(iii)} \\)&nbsp;</p>",
+            "<p>None of them</p>",
+            "<p>All of them</p>"
+          ],
+          "correct_answer": "<p>Only \\( \\text{(i)} \\)&nbsp; and \\( \\text{(ii)} \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280498/tifr-cse-2019-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/280498/tifr-cse-2019-part-a-question-12</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"358963\"></a><div itemprop=\"text\"><p>Let \\( n, m \\) and \\( k \\) be three positive integers such that \\( n \\geq m \\geq k \\). Let \\( S \\) be a subset of \\( \\left \\{ 1, 2,\\dots, n&nbsp;\\right \\} \\) of size \\( k \\). Consider sampling a function \\( f \\) uniformly at random from the set of all functions mapping \\( \\left \\{ 1,\\dots, n&nbsp;\\right \\} \\) to \\( \\left \\{ 1,\\dots, \\text{m} \\right \\} \\). What is the probability that \\( f \\) is not injective on the set \\( S \\), i.e., there exist \\( i,j&nbsp;&nbsp;\\in S \\) such that \\( f(i) = f(j) \\)?</p>\n\n<p>In the following, the binomial coefficient \\( \\binom{n}{k} \\) counts the number of \\( k \\)-element subsets of an \\( n \\)-element set.</p>\n\n\n\n<ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( 1-\\frac{m!}{m^{k}} \\)</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( 1-\\frac{k!\\binom{m}{k}}{m^{k}} \\)</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( 1-\\frac{k!\\binom{n}{k}}{n^{k}} \\)</li>\n</ol>\n\n<ol start=\"5\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( 1-\\frac{k!\\binom{n}{k}}{m^{k}} \\)</li>\n</ol></div><br><br><b>Set Theory & Algebra: TIFR CSE 2021 | Part A | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1-\\frac{k!}{k^{k}} \\)</p>"
+          ],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358963/tifr-cse-2021-part-a-question-5\" target=\"_blank\">https://gateoverflow.in/358963/tifr-cse-2021-part-a-question-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"400154\"></a><div itemprop=\"text\"><p>Amar, Balu, and Chhaya are three friends and they play the following game. Chhaya first chooses a number \\( k \\in U \\) where \\( U=\\{1,2, \\ldots, 127\\} \\). She either gives \\( k \\) to both Amar and Balu, or else she gives \\( k \\) to Amar and \\( k+1 \\) to Balu. Amar computes a function \\( f: U \\rightarrow\\{0,1\\}^{n} \\) on the number he receives from Chhaya and sends the output of this function to Balu. Using this output and his own input, Balu has to decide whether Chhaya gave the same number to Amar and him, or if she gave numbers that differed by \\( 1. \\) What is the minimal \\( n \\) that allows Balu to distinguish between these two cases?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2023 | Part B | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 127 \\)</p>",
+            "<p>\\( 128 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400154/tifr-cse-2023-part-b-question-4\" target=\"_blank\">https://gateoverflow.in/400154/tifr-cse-2023-part-b-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

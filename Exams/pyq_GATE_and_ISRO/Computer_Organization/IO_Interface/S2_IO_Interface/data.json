@@ -1,0 +1,146 @@
+{
+  "title": "IO_Interface - IO_Interface - Slot 2",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "IO_Interface",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a disk drive with the following specifications:\n16 surfaces, 512 tracks/surface, 512 sectors/track, 1 KB/sector, rotation speed 3000 rpm. The disk is\noperated in cycle stealing mode whereby whenever one 4 byte word is ready it is sent to memory;\nsimilarly, for writing, the disk interface reads a 4 byte word from the memory in each DMA cycle.\nMemory cycle time is 40 nsec. The maximum percentage of time that the CPU gets blocked during\nDMA operation is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>40</p>",
+            "<b>D.</b> <p>50</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1393/gate2005-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A device with data transfer rate 10 KB/sec is connected to a CPU. Data is transferred byte-wise. Let\nthe interrupt overhead be 4 \\(\\mu\\)sec. The byte transfer time between the device interfaces register and\nCPU or memory is negligible. What is the minimum performance gain of operating the device under\ninterrupt mode over operating it under program-controlled mode? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>35</p>",
+            "<b>D.</b> <p>45</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1392/gate2005-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Normally user programs are prevented from handling I/O directly by I/O instructions in them. For CPUs having explicit I/O instructions, such I/O protection is ensured by having the I/O instructions privileged. In a CPU with memory mapped I/O, there is no explicit I/O instruction. Which one of the following is true for a CPU with memory mapped I/O? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I/O protection is ensured by operating system routine(s)</p>",
+            "<b>B.</b> <p>I/O protection is ensured by a hardware trap</p>",
+            "<b>C.</b> <p>I/O protection is ensured during system configuration</p>",
+            "<b>D.</b> <p>I/O protection is not possible</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I/O protection is ensured by operating system routine(s)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1356/gate2005-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the bit rate of a video terminal unit with 80 characters/line, 8 bits/character and horizontal sweep time of 100 \\(\\mu s\\) (including 20 \\(\\mu s\\) of retrace time)? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(8 \\text{Mbps}\\)</p>",
+            "<b>B.</b> <p>\\(6.4 \\text{Mbps}\\)</p>",
+            "<b>C.</b> <p>\\(0.8 \\text{Mbps}\\)</p>",
+            "<b>D.</b> <p>\\(0.64 \\text{Mbps}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(6.4 \\text{Mbps}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3652/gate2004-it-11-isro2011-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A hard disk with a transfer rate of 10 Mbytes/second is constantly transferring data to memory using\nDMA. The processor runs at 600 MHz, and takes 300 and 900 clock cycles to initiate and complete\nDMA transfer respectively. If the size of the transfer is 20 Kbytes, what is the percentage of processor\ntime consumed for the transfer operation? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5%</p>",
+            "<b>B.</b> <p>1%</p>",
+            "<b>C.</b> <p>0.50%</p>",
+            "<b>D.</b> <p>0.10%</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0.10%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1062/gate2004-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following is an example of a spooled device? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The terminal used to enter the input data for the C program being executed</p>",
+            "<b>B.</b> <p>An output device used to print the output of a number of jobs</p>",
+            "<b>C.</b> <p>The secondary memory device in a virtual storage system</p>",
+            "<b>D.</b> <p>The swapping area on a disk used by the swapper</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>An output device used to print the output of a number of jobs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1666/gate1998-1-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The correct matching for the following pairs is:<br>\\(\\begin{array}{ll} \\text{(A) DMA I/O} &amp; \\text{(1) High speed RAM} \\\\ \\text{(B) Cache} &amp; \\text{(2) Disk} \\\\ \\text{(C) Interrupt I/O} &amp; \\text{(3) Printer} \\\\ \\text{(D) Condition Code Register} &amp; \\text{(4) ALU} \\\\ \\end{array}\\) <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A-4 B-3 C-1 D-2</p>",
+            "<b>B.</b> <p>A-2 B-1 C-3 D-4</p>",
+            "<b>C.</b> <p>A-4 B-3 C-2 D-1</p>",
+            "<b>D.</b> <p>A-2 B-3 C-4 D-1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A-2 B-1 C-3 D-4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2230/gate1997-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>For the daisy chain scheme of connecting I/O devices, which of the following statements is true? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It gives non-uniform priority to various devices</p>",
+            "<b>B.</b> <p>It gives uniform priority to all devices</p>",
+            "<b>C.</b> <p>It is only useful for connecting slow devices to a processor device</p>",
+            "<b>D.</b> <p>It requires a separate interrupt pin on the processor for each device</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It gives non-uniform priority to various devices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2728/gate1996-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A low memory can be connected to 8085 by using <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>INTER</p>",
+            "<b>B.</b> <p>\\(\\overline{RESET \\;IN}\\)</p>",
+            "<b>C.</b> <p>HOLD</p>",
+            "<b>D.</b> <p>READY</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>READY</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/702/gate2001-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

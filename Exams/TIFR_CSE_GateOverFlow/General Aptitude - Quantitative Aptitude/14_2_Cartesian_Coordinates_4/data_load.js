@@ -1,0 +1,75 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Cartesian Coordinates",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Cartesian Coordinates",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25675\"></a><div itemprop=\"text\"><p>Suppose \\( n \\) straight lines are drawn on a plane. When these lines are removed, the plane falls apart&nbsp;into several connected components called regions. \\( A \\) region \\( R \\) is said to be convex if it has the following&nbsp;property: whenever two points are in \\( R \\), then the entire line segment joining them is in \\( R \\). Suppose no two&nbsp;of the n lines are parallel. Which of the following is true?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2013 | Part B | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (n) \\) regions are produced, and each region is convex.</p>",
+            "<p>\\( O (n^{2}) \\) regions are produced but they need not all be convex.</p>",
+            "<p>\\( O (n^{2}) \\) regions are produced, and each region is convex.</p>",
+            "<p>\\( O&nbsp;(n \\log n) \\) regions are produced, but they need not all be convex.</p>",
+            "<p>All regions are convex but there may be exponentially many of them.</p>"
+          ],
+          "correct_answer": "<p>\\( O (n^{2}) \\) regions are produced, and each region is convex.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25675/tifr-cse-2013-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/25675/tifr-cse-2013-part-b-question-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"26390\"></a><div itemprop=\"text\"><p>Let \\( L \\) be a line on the two dimensional plane. \\( L' \\)s intercepts with the \\( X \\) and \\( Y \\) axes are respectively \\( a \\) and \\( b \\). After rotating the co-ordinate system (and leaving \\( L \\) untouched), the new intercepts are \\( a' \\) and \\( b' \\)&nbsp;respectively. Which of the following is TRUE?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2014 | Part A | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{a}+\\frac{1}{b}=\\frac{1}{a}+\\frac{1}{b} \\).</p>",
+            "<p>\\( \\frac{1}{a^{2}}+\\frac{1}{b^{2}}=\\frac{1}{a'^{2}}+\\frac{1}{b'^{2}} \\).</p>",
+            "<p>\\( \\frac{b}{a^{2}}+\\frac{a}{b^{2}}=\\frac{b'}{a'^{2}}+\\frac{a}{b'^{2}} \\).</p>",
+            "<p>\\( \\frac{b}{a}+\\frac{a}{b}=\\frac{b'}{a'}+\\frac{a'}{b'} \\).</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{a^{2}}+\\frac{1}{b^{2}}=\\frac{1}{a'^{2}}+\\frac{1}{b'^{2}} \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/26390/tifr-cse-2014-part-a-question-13\" target=\"_blank\">https://gateoverflow.in/26390/tifr-cse-2014-part-a-question-13</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"29586\"></a><div itemprop=\"text\"><p>Imagine the first quadrant of the real plane as consisting of unit squares. A typical square has \\( 4 \\) corners: \\( (i, j), (i+1, j), (i+1, j+1), \\)and \\( (i, j+1) \\), where \\( (i, j) \\) is a pair of non-negative integers. Suppose a line segment \\( l \\) connecting \\( (0, 0) \\) to \\( (90, 1100) \\) is drawn. We say that \\( l \\) passes through a unit square if it passes through a point in the interior of the square. How many unit squares does \\( l \\) pass through?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2015 | Part A | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 98,990 \\)</p>",
+            "<p>\\( 9,900 \\)</p>",
+            "<p>\\( 1,190 \\)</p>",
+            "<p>\\( 1,180 \\)</p>",
+            "<p>\\( 1,010 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1,180 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29586/tifr-cse-2015-part-a-question-13\" target=\"_blank\">https://gateoverflow.in/29586/tifr-cse-2015-part-a-question-13</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"333125\"></a><div itemprop=\"text\"><p>Let \\( u \\) be a point on the unit circle in the first quadrant (i.e., both coordinates of \\( u \\) are positive). Let \\( \\theta \\) be the angle subtended by \\( u \\) and the \\( x \\) axis at the origin. Let \\( \\ell _{u} \\) denote the infinite line passing through the origin and \\( u \\). Consider the following operation \\( O_{u} \\) on points in the plane.</p>\n\n<p>\\( \\textbf{Operation }O_{u} \\)</p>\n\n<p>\\( \\textbf{INPUT:} \\) a point \\( v \\) on the plane</p>\n\n<ol>\n\t<li>Reflect \\( v \\) in the \\( x \\) axis, obtaining \\( \\tilde{v} \\).</li>\n\t<li>Reflect \\( \\tilde{v} \\) in \\( \\ell_{u} \\), obtaining \\( \\hat{v} \\).</li>\n\t<li>Output \\( \\hat{v} \\).</li>\n</ol>\n\n<p>If \\( \\hat{v} \\) is the output of applying \\( O_{u} \\) on \\( v \\), we write \\( O_{u}(v) = \\hat{v} \\). Further, we denote by \\( O_{u}^{k} \\) the iterates of \\( O_{u} \\), i.e., \\( O_{u}^{1}(v):=O_{u}(v) \\) and&nbsp;\\( O_{u}^{k}(v):=O_{u}(O_{u}^{k-1}(v)) \\) for all integers \\( k&gt;1 \\).</p>\n\n<p>Consider a point \\( v \\) in the first quadrant such that \\( v \\) and the \\( x \\)-axis subtend an angle \\( \\phi \\) at the origin. Define \\( w = O_{u}^{8}(v). \\) Assuming \\( \\theta = 5^{\\circ} \\) and \\( \\phi = 10^{\\circ} \\), what is the angle subtended by \\( w \\) and the \\( x \\)-axis at the origin?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2020 | Part B | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50^{\\circ} \\)</p>",
+            "<p>\\( 85^{\\circ} \\)</p>",
+            "<p>\\( 90^{\\circ} \\)</p>",
+            "<p>\\( 145^{\\circ} \\)</p>",
+            "<p>\\( 165^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 90^{\\circ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333125/tifr-cse-2020-part-b-question-5\" target=\"_blank\">https://gateoverflow.in/333125/tifr-cse-2020-part-b-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

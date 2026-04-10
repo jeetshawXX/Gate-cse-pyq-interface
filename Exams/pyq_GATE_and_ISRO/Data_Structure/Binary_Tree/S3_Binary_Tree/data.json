@@ -1,0 +1,296 @@
+{
+  "title": "Binary_Tree - Binary_Tree - Slot 3",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Binary_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. If the root node is at level 0, the level of element \\(X[i], i \\neq 0\\), is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\lfloor \\log _2 i \\right \\rfloor\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\lceil \\log _2 (i+1)\\right \\rceil\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\lfloor \\log _2 (i+1) \\right \\rfloor\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\lceil \\log _2 i \\right \\rceil\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left \\lfloor \\log _2 (i+1) \\right \\rfloor\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3617/gate2006-it-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. If only the root node does not satisfy the heap property, the algorithm to convert the complete binary tree into a heap has the best asymptotic time complexity of <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O (n)\\)</p>",
+            "<b>B.</b> <p>\\(O (\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O (n \\log n)\\)</p>",
+            "<b>D.</b> <p>\\(O (n \\log \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(O (\\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3616/gate2006-it-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. The index of the parent of element\\(X[i], i \\neq 0\\), is? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\lfloor \\dfrac i 2 \\right \\rfloor\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\lceil \\dfrac{i-1}{2} \\right \\rceil\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\lceil \\dfrac i 2 \\right \\rceil\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\lceil \\dfrac i 2 \\right \\rceil - 1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\left \\lceil \\dfrac i 2 \\right \\rceil - 1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3615/gate2006-it-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a binary tree, the number of internal nodes of degree 1 is 5, and the number of internal nodes of degree 2 is 10. The number of leaf nodes in the binary tree is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>11</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>15</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3548/gate2006-it-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A scheme for storing binary trees in an array X is as follows. Indexing of X starts\nat 1 instead of 0. The roots is stored at X[1]. For a node stored at X[i], the left\nchild, if any, is stored in X[2i] and the right child, if any, in X[2i + 1]. To be able\nto store any binary tree on n vertices, the minimum size of X should be <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>log n</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>2n+1</p>",
+            "<b>D.</b> <p>\\(2^{n}-1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{n}-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/974/gate2006-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a binary tree, for every node the difference between the number of nodes in the left and right subtrees is at most 2. If the height of the tree is h &gt; 0, then the minimum number of nodes in the tree is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{h-1}\\)</p>",
+            "<b>B.</b> <p>\\(2^{h-1} + 1\\)</p>",
+            "<b>C.</b> <p>\\(2^h - 1\\)</p>",
+            "<b>D.</b> <p>\\(2^h\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2^{h-1} + 1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3811/gate2005-it-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following binary trees has its inorder and preorder traversals as BCAD  and ABCD, respectively?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Binary_Tree\\q54_8a5ee516.jpg\"><br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3697/gate2004-it-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C program segment<pre><code>struct CellNode\n{\n  struct CelINode *leftchild;\n  int element;\n  struct CelINode *rightChild;\n}\n \nint Dosomething(struct CelINode *ptr)\n{\n    int value = 0;\n    if (ptr != NULL)\n    {\n      if (ptr-&gt;leftChild != NULL)\n        value = 1 + DoSomething(ptr-&gt;leftChild);\n      if (ptr-&gt;rightChild != NULL)\n        value = max(value, 1 + DoSomething(ptr-&gt;rightChild));\n    }\n    return (value);\n} </code></pre>\nThe value returned by the function DoSomething when a pointer to the root of a non-empty tree is\npassed as argument is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The number of leaf nodes in the tree</p>",
+            "<b>B.</b> <p>The number of nodes in the tree</p>",
+            "<b>C.</b> <p>The number of internal nodes in the tree</p>",
+            "<b>D.</b> <p>The height of the tree</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The height of the tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1040/gate2004-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the label sequences obtained by the following pairs of traversals on a labeled binary tree.\nWhich of these pairs identify a tree uniquely? <br><br>\n(i) preorder and postorder <br> (ii) inorder and postorder <br>\n(iii) preorder and inorder <br> (iv) level order and postorder <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) only</p>",
+            "<b>B.</b> <p>(iii) only</p>",
+            "<b>C.</b> <p>(iv) only</p>",
+            "<b>D.</b> <p>(ii), (iii)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(ii), (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1032/gate2004-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Level order traversal of a rooted tree can be done by starting from the root and performing <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>preorder traversal</p>",
+            "<b>B.</b> <p>in-order traversal</p>",
+            "<b>C.</b> <p>depth first search</p>",
+            "<b>D.</b> <p>breadth first search</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>breadth first search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1003/gate2004-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let LASTPOST, LASTIN and LASTPRE denote the last vertex visited `in a postorder, inorder and preorder traversal respectively, of a complete binary tree. Which of the following is always true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LASTIN = LASTPOST</p>",
+            "<b>B.</b> <p>LASTIN = LASTPRE</p>",
+            "<b>C.</b> <p>LASTPRE = LASTPOST</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/663/gate2000-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following nested representation of binary trees: (X Y Z) indicates Y and Z are the left and right subtrees, respectively, of node X. Note that Y and Z may be NULL, or further nested. Which of the following represents a valid binary tree? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1 2 (4 5 6 7))</p>",
+            "<b>B.</b> <p>(1 (2 3 4) 5 6) 7)</p>",
+            "<b>C.</b> <p>(1 (2 3 4) (5 6 7))</p>",
+            "<b>D.</b> <p>(1 (2 3 NULL) (4 5))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(1 (2 3 4) (5 6 7))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/637/gate2000-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following statements is false? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A tree with a n nodes has (n- 1) edges</p>",
+            "<b>B.</b> <p>A labeled rooted binary tree can be uniquely constructed given its postorder and preorder traversal results.</p>",
+            "<b>C.</b> <p>A complete binary tree with n internal nodes has (n + 1) leaves.</p>",
+            "<b>D.</b> <p>The maximum number of nodes in a binary tree of height h is \\(2^{h+1} - 1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A labeled rooted binary tree can be uniquely constructed given its postorder and preorder traversal results.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1661/gate1998-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following sequences denotes the post order traversal sequence of the below tree?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Binary_Tree\\q1.15_70f4e3da.jpg\"><br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>fegcdba</p>",
+            "<b>B.</b> <p>gcbdafe</p>",
+            "<b>C.</b> <p>gcdbfea</p>",
+            "<b>D.</b> <p>fedgcba</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>gcdbfea</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2719/gate1996-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A binary tree T has n leaf nodes. The number of nodes of degree 2 in T is <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\log_2 n\\)</p>",
+            "<b>B.</b> <p>n-1</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>\\(2^n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2604/gate1995-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Which of the following statements is false? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Optimal binary search tree construction can be performed efficiently using dynamic programming</p>",
+            "<b>B.</b> <p>Breadth-first search cannot be used to find connected components of a graph</p>",
+            "<b>C.</b> <p>Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.</p>",
+            "<b>D.</b> <p>Depth-first search can be used to find connected components of a graph</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Breadth-first search cannot be used to find connected components of a graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2465/gate1994-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>The total external path length, EPL, of a binary tree with n external nodes is, \\(\\Sigma _w=Iw\\), where \\(I_{w}\\) is the path length of external node w), <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\leq n^{2}\\) always.</p>",
+            "<b>B.</b> <p>\\(\\geq n \\log_{2}\\) n always.</p>",
+            "<b>C.</b> <p>Equal to \\(n^{2}\\) always.</p>",
+            "<b>D.</b> <p>O(n) for some special trees.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\geq n \\log_{2}\\) n always.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84828/gate1990-3-iv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>The number of rooted binary trees with n nodes is, <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Equal to the number of ways of multiplying (n+1) matrices.</p>",
+            "<b>B.</b> <p>Equal to the number of ways of arranging n out of 2 n distinct elements.</p>",
+            "<b>C.</b> <p>Equal to \\(\\frac{1}{(n+1)}\\binom{2n}{n}\\).</p>",
+            "<b>D.</b> <p>Equal to n!.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Equal to the number of ways of multiplying (n+1) matrices.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84060/gate1990-3-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Answer the following:<br>Which one of the following statements (s) is/are FALSE? <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Overlaying is used to run a program, which is longer than the address space of the computer.</p>",
+            "<b>B.</b> <p>Optimal binary search tree construction can be performed efficiently by using dynamic programming.</p>",
+            "<b>C.</b> <p>Depth first search cannot be used to find connected components of a graph.</p>",
+            "<b>D.</b> <p>Given the prefix and postfix walls over a binary tree, the binary tree can be uniquely constructed.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Overlaying is used to run a program, which is longer than the address space of the computer.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87143/gate1989-3-ixa\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

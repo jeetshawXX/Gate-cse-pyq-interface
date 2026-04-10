@@ -1,0 +1,107 @@
+{
+  "title": "Theory of Computation - Regular Language",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Regular Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25667\"></a><div itemprop=\"text\"><p>Let \\( L \\) and \\( L' \\) be languages over the alphabet \\( \\Sigma  \\). The left quotient of \\( L \\) by \\( L' \\) is</p>\n\n<p>\\( L/L'\\overset{{def}}{=} \\left\\{w \\in&nbsp;\\Sigma^* : wx&nbsp;∈ L\\text{ for some }x \\in&nbsp;L'\\right\\} \\)</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2013 | Part B | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If \\( L/L' \\) is regular then \\( L' \\) is regular.</p>",
+            "<p>If \\( L \\) is regular then \\( L/L' \\) is regular.</p>",
+            "<p>If \\( L/L' \\) is regular then \\( L \\) is regular.</p>",
+            "<p>\\( L/L' \\) is a subset of \\( L \\).</p>",
+            "<p>If \\( L/L' \\) and \\( L' \\) are regular, then \\( L \\) is regular.</p>"
+          ],
+          "correct_answer": "<p>If \\( L \\) is regular then \\( L/L' \\) is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25667/tifr-cse-2013-part-b-question-6\" target=\"_blank\">https://gateoverflow.in/25667/tifr-cse-2013-part-b-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25670\"></a><div itemprop=\"text\"><p>Which one of the following languages over the alphabet \\( {0, 1} \\) is regular?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2013 | Part B | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The language of balanced parentheses where \\( 0, 1 \\) are thought of as \\( (,) \\) respectively.</p>",
+            "<p>The language of palindromes, i.e. bit strings \\( x \\) that read the same from left to right as well as right to left.</p>",
+            "<p>\\( L= \\left \\{ 0^{m^{2}}: 3 \\leq m \\right \\} \\)</p>",
+            "<p>The Kleene closure \\( L^* \\), where \\( L \\) is the language in \\( (c) \\) above.</p>",
+            "<p>\\( \\left \\{ 0^{m} 1^{n} | &nbsp;1 \\leq m \\leq n\\right \\} \\)</p>"
+          ],
+          "correct_answer": "<p>The Kleene closure \\( L^* \\), where \\( L \\) is the language in \\( (c) \\) above.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25670/tifr-cse-2013-part-b-question-8\" target=\"_blank\">https://gateoverflow.in/25670/tifr-cse-2013-part-b-question-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27314\"></a><div itemprop=\"text\"><p>Consider the following three statements:</p><ol style=\"list-style-type:lower-roman\"><li>Intersection of infinitely many regular languages must be regular.</li><li>Every subset of a regular language is regular.</li><li>If \\( L \\) is regular and \\( M \\) is not regular then \\( L ∙&nbsp;M \\) is necessarily not regular.</li></ol><p>Which of the following gives the correct true/false evaluation of the above?</p></div><br><br><b>Theory of Computation: TIFR CSE 2014 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>true, false, true.</p>",
+            "<p>false, false, true.</p>",
+            "<p>true, false, true.</p>",
+            "<p>false, false, false.</p>",
+            "<p>true, true, true.</p>"
+          ],
+          "correct_answer": "<p>false, false, false.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27314/tifr-cse-2014-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/27314/tifr-cse-2014-part-b-question-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"30039\"></a><div itemprop=\"text\"><p>Consider the languages&nbsp;</p>\n\n<p>\\( L_{1}= \\left\\{a^{m}b^{n}c^{p} \\mid (m = n \\vee n = p) \\wedge m + n + p \\geq 10\\right\\} \\)</p>\n\n<p>\\( L_{2}= \\left\\{a^{m}b^{n}c^{p} \\mid (m = n \\vee n = p) \\wedge m + n + p \\leq 10\\right\\} \\)</p>\n\n<p>State which of the following is true?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2015 | Part B | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_{1} \\) and \\( L_{2} \\) are both regular.</p>",
+            "<p>Neither \\( L_{1} \\) nor \\( L_{2} \\) is regular.</p>",
+            "<p>\\( L_{1} \\) is regular and \\( L_{2} \\) is not regular.</p>",
+            "<p>\\( L_{1} \\) is not regular and \\( L_{2} \\) is regular.</p>",
+            "<p>Both \\( L_{1} \\) and \\( L_{2} \\) are infinite.</p>"
+          ],
+          "correct_answer": "<p>\\( L_{1} \\) is not regular and \\( L_{2} \\) is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/30039/tifr-cse-2015-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/30039/tifr-cse-2015-part-b-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"29860\"></a><div itemprop=\"text\"><p>Let \\( B \\) consist of all binary strings beginning with a \\( 1 \\) whose value when converted to decimal is divisible by \\( 7 \\).</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2015 | Part B | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B \\) can be recognized by a deterministic finite state automaton.</p>",
+            "<p>\\( B \\) can be recognized by a non-deterministic finite state automaton but not by a deterministic finite state automaton.</p>",
+            "<p>\\( B \\) can be recognized by a deterministic push-down automaton but not by a non-deterministic finite state automaton.</p>",
+            "<p>\\( B \\) can be recognized by a non-deterministic push-down automaton but not by a deterministic push-down automaton.</p>",
+            "<p>\\( B \\) cannot be recognized by any push down automaton, deterministic or non-deterministic.</p>"
+          ],
+          "correct_answer": "<p>\\( B \\) can be recognized by a deterministic finite state automaton.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29860/tifr-cse-2015-part-b-question-6\" target=\"_blank\">https://gateoverflow.in/29860/tifr-cse-2015-part-b-question-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"179296\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>For every positive integer \\( n, \\) let \\( \\#{n} \\) be the product of all primes less than or equal to \\( n. \\)<br>\n\t&nbsp;Then, \\( \\# {p}+1 \\) is a prime, for every prime \\( p. \\)</li>\n\t<li>\\( \\large\\pi \\) is a universal constant with value \\( \\dfrac{22}{7}. \\)</li>\n\t<li>No polynomial time algorithm exists that can find the greatest common divisor of two integers given as input in binary.</li>\n\t<li>Let \\( L \\equiv&nbsp;\\{x \\in \\{0,1\\}^{*}\\mid x \\text{ is the binary encoding of an integer that is divisible by 31}\\} \\)<br>\n\tThen, \\( L \\) is a regular language.</li>\n</ol>\n\n<p>Then which of the following is TRUE ?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2018 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only statement <strong>(i)&nbsp;</strong>is correct.</p>",
+            "<p>Only statement <strong>(ii)</strong>&nbsp;is correct.&nbsp;</p>",
+            "<p>Only statement <strong>(iii)</strong>&nbsp;is correct.</p>",
+            "<p>Only statement <strong>(iv)</strong>&nbsp;is correct.&nbsp;</p>",
+            "<p>None of the statements are correct.</p>"
+          ],
+          "correct_answer": "<p>Only statement <strong>(iv)</strong>&nbsp;is correct.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179296/tifr-cse-2018-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/179296/tifr-cse-2018-part-b-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

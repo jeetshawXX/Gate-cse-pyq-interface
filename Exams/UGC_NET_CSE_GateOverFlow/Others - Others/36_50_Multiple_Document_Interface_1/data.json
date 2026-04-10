@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Multiple Document Interface",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Multiple Document Interface",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71677\"></a><div itemprop=\"text\"><p>Which of the following statements is incorrect for a Windows Multiple Document Interface (MDI) ?</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 3 | Question: 68</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Each document in an MDI application is displayed in a separate child window within the client area of the application’s main window.</p>",
+            "<p>An MDI application has three kinds of windows namely a frame window, an MDI client window and number of child windows.</p>",
+            "<p>An MDI application can support more than one kind of document.</p>",
+            "<p>An MDI application displays output in the client area of the frame window.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71677/ugc-net-cse-august-2016-part-3-question-68\" target=\"_blank\">https://gateoverflow.in/71677/ugc-net-cse-august-2016-part-3-question-68</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Trigonometry",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Trigonometry",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411999\"></a><div itemprop=\"text\"><p>The value of the expression \\( \\sqrt{3} \\operatorname{cosec} 20^{\\circ}-\\sec 20^{\\circ} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 96</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 2 \\frac{\\sin 20^{\\circ}}{\\sin 40^{\\circ}} \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 4 \\frac{\\sin 20^{\\circ}}{\\sin 40^{\\circ}} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411999/nielit-2023-feb-scientist-c-section-d-question-96\" target=\"_blank\">https://gateoverflow.in/411999/nielit-2023-feb-scientist-c-section-d-question-96</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"410928\"></a><div itemprop=\"text\"><p>If \\( \\sin x+\\sin ^{2} x=1 \\) then \\( \\cos ^{8} x+2 \\cos ^{6} x+\\cos ^{4} x \\) equals to :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 96</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410928/nielit-2023-feb-scientist-d-section-d-question-96\" target=\"_blank\">https://gateoverflow.in/410928/nielit-2023-feb-scientist-d-section-d-question-96</a></p>"
+        }
+      ]
+    }
+  ]
+});

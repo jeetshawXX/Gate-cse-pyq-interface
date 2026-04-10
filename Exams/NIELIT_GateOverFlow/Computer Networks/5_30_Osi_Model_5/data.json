@@ -1,0 +1,86 @@
+{
+  "title": "Computer Networks - Osi Model",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Osi Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369347\"></a><div itemprop=\"text\"><p>Which NetWare protocol works on layer \\( 3 \\)-network&nbsp;layer of the \\( \\text{OSI} \\) model ?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{IPX} \\)</p>",
+            "<p>\\( \\text{NCP} \\)</p>",
+            "<p>\\( \\text{SPX} \\)</p>",
+            "<p>\\( \\text{NetBIOS} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{IPX} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369347/nielit-2021-dec-scientist-a-section-b-66\" target=\"_blank\">https://gateoverflow.in/369347/nielit-2021-dec-scientist-a-section-b-66</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366933\"></a><div itemprop=\"text\"><p>\\( \\text{TCP/IP} \\) model does not have ____________ layer but \\( \\text{OSI} \\) model have this layer.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>session layer</p>",
+            "<p>transport layer</p>",
+            "<p>application layer</p>",
+            "<p>network layer</p>"
+          ],
+          "correct_answer": "<p>session layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366933/nielit-2021-dec-scientist-b-section-b-84\" target=\"_blank\">https://gateoverflow.in/366933/nielit-2021-dec-scientist-b-section-b-84</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"366929\"></a><div itemprop=\"text\"><p>Each layer of the \\( \\text{OSI} \\) model receives services or data from a _____________ layer.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>below layer</p>",
+            "<p>above layer</p>",
+            "<p>both \\( \\text{(A)} \\) and \\( \\text{(B)} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>both \\( \\text{(A)} \\) and \\( \\text{(B)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366929/nielit-2021-dec-scientist-b-section-b-88\" target=\"_blank\">https://gateoverflow.in/366929/nielit-2021-dec-scientist-b-section-b-88</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"366928\"></a><div itemprop=\"text\"><p>Who developed standards for the \\( \\text{OSI} \\) reference model \\( ? \\)</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{ANSI} \\) – American National Standards Institute</p>",
+            "<p>\\( \\text{ISO} \\) –&nbsp;International Standards Organization</p>",
+            "<p>\\( \\text{IEEE} \\) –&nbsp;Institute of Electrical and Electronics Engineering&nbsp;</p>",
+            "<p>\\( \\text{ACM} \\) –&nbsp;Association for Computing Machinery</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{ISO} \\) –&nbsp;International Standards Organization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366928/nielit-2021-dec-scientist-b-section-b-89\" target=\"_blank\">https://gateoverflow.in/366928/nielit-2021-dec-scientist-b-section-b-89</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"366919\"></a><div itemprop=\"text\"><p>Which is the layer that converts packets to Frames and Frames to packets in the \\( \\text{OSI} \\) model \\( ? \\)</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Physical Layer</p>",
+            "<p>Data Link Layer</p>",
+            "<p>Network Layer</p>",
+            "<p>Transport Layer</p>"
+          ],
+          "correct_answer": "<p>Data Link Layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366919/nielit-2021-dec-scientist-b-section-b-98\" target=\"_blank\">https://gateoverflow.in/366919/nielit-2021-dec-scientist-b-section-b-98</a></p>"
+        }
+      ]
+    }
+  ]
+}

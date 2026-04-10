@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - First Order Logic",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "First Order Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182057\"></a><div itemprop=\"text\"><p>If&nbsp;\\( T(x) \\) denotes&nbsp;\\( x \\) is a trigonometric&nbsp;function,&nbsp;\\( P(x) \\) denotes \\( x \\) is a periodic function and&nbsp; \\( C(x) \\) denotes \\( x \\) is a continuous function then the statement \"It is not the case that some trigonometric functions are not periodic\" can be logically represented as</p>\n\n</div><br><br><b>Theory of Computation: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\neg\\exists x[T(x)\\wedge \\neg P(x)] \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\neg\\exists x[T(x)\\vee \\neg P(x)] \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\neg\\exists x[\\neg T(x)\\wedge \\neg P(x)] \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\neg\\exists x[T(x)\\wedge P(x)] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\neg\\exists x[T(x)\\wedge \\neg P(x)] \\)<br>\n\t&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182057/isro-dec2017-7\" target=\"_blank\">https://gateoverflow.in/182057/isro-dec2017-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

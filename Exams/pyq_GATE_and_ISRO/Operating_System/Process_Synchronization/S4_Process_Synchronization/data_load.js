@@ -1,0 +1,191 @@
+window.__examLoadCallback({
+  "title": "Process_Synchronization - Process_Synchronization - Slot 4",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Process_Synchronization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The semaphore variables full, empty and mutex are initialized to 0, n and 1, respectively. Process P1 repeatedly adds one item at a time to a buffer of size n, and process P2 repeatedly removes one item at a time from the same buffer using the programs given below. In the programs, K, L, M and N are unspecified statements.<br>\nP1<br><pre><code> while (1) {\n    K;\n    P(mutex);\n    Add an item to the buffer;\n    V(mutex);\n    L;\n}</code></pre> <br>\nP2<br><pre><code>while (1) {\n    M;\n    P(mutex);\n    Remove an item from the buffer;\n    V(mutex);\n    N;\n} </code></pre> <br>\nThe statements K, L, M and N are respectively <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P(full), V(empty), P(full), V(empty)</p>",
+            "<b>B.</b> <p>P(full), V(empty), P(empty), V(full)</p>",
+            "<b>C.</b> <p>P(empty), V(full), P(empty), V(full)</p>",
+            "<b>D.</b> <p>P(empty), V(full), P(full), V(empty)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P(empty), V(full), P(full), V(empty)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3708/gate2004-it-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider two processes P1 and P2 accessing the shared variables X and Y protected by two binary\nsemaphores Sx and Sy respectively, both initialized to 1. P and V denote the usual semaphore\noperators, where P decrements the semaphore value, and V increments the semaphore value. The\npseudo-code of P1 and P2 is as follows:<br>P1<pre><code> While true do {\n   L1 : ................\n   L2 : ................\n   X = X + 1;\n   Y = Y - 1;\n   V(Sx);\n   V(Sy);             \n }</code></pre><br>P2<pre><code> While true do {\n   L3 : ................   \n   L4 : ................\n   Y = Y + 1;\n   X = Y - 1;\n   V(Sy);\n   V(Sx);            \n}</code></pre>\nIn order to avoid deadlock, the correct operators at L1 , L2 , L3 and L4 are respectively. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P(Sy), P(Sx); P(Sx), P(Sy)</p>",
+            "<b>B.</b> <p>P(Sx), P(Sy); P(Sy), P(Sx)</p>",
+            "<b>C.</b> <p>P(Sx), P(Sx); P(Sy), P(Sy)</p>",
+            "<b>D.</b> <p>P(Sx), P(Sy); P(Sx), P(Sy)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P(Sx), P(Sy); P(Sx), P(Sy)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1044/gate2004-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Suppose we want to synchronize two concurrent processes P and Q using binary semaphores S and T. The code for the processes P and Q is shown below.<pre><code> Process P:\nwhile (1) {\nW:\n   print '0';\n   print '0';\nX:\n}\n \nProcess Q:\nwhile (1) {\nY:\n   print '1';\n   print '1';\nZ:\n}</code></pre> Synchronization statements can be inserted only at points W, X, Y and Z.<br> Which of the following will ensure that the output string never contains a substring of the form  \\(01^{n}0\\) or \\(10^{n}1\\), where n is odd? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(S) at W, V(S) at X, P(T) at Y, V(T) at Z, S and T initially 1</p>",
+            "<b>B.</b> <p>P(S) at W, V(T) at X, P(T) at Y, V(S) at Z, S and T initially 1</p>",
+            "<b>C.</b> <p>P(S) at W, V(S) at X, P(S) at Y, V(S) at Z, S initially 1</p>",
+            "<b>D.</b> <p>V(S) at W, V(T) at X, P(S) at Y, P(T) at Z, S and T initially 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P(S) at W, V(S) at X, P(S) at Y, V(S) at Z, S initially 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43574/gate2003-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose we want to synchronize two concurrent processes P and Q using binary semaphores S and T. The code for the processes P and Q is shown below.<pre><code> Process P:\nwhile (1) {\nW:\n   print '0';\n   print '0';\nX:\n}\n \nProcess Q:\nwhile (1) {\nY:\n   print '1';\n   print '1';\nZ:\n}</code></pre> Synchronization statements can be inserted only at points W, X, Y and Z. <br><br>Which of the following will always lead to an output staring with '001100110011' ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P(S) at W, V(S) at X, P(T) at Y, V(T) at Z, S and T initially 1</p>",
+            "<b>B.</b> <p>P(S) at W, V(T) at X, P(T) at Y, V(S) at Z, S initially 1, and T initially 0</p>",
+            "<b>C.</b> <p>P(S) at W, V(T) at X, P(T) at Y, V(S) at Z, S and T initially 1</p>",
+            "<b>D.</b> <p>P(S) at W, V(S) at X, P(T) at Y, V(T) at Z, S initially 1, and T initially 0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P(S) at W, V(T) at X, P(T) at Y, V(S) at Z, S initially 1, and T initially 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/964/gate2003-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(m[0]\\ldots m[4]\\)be mutexes (binary semaphores) and \\(P[0]\\ldots P[4]\\) be processes.  Suppose each process P[i] executes the following:<pre><code>wait (m[i]; wait (m(i+1) mod 4]);\n ........... \n release (m[i]); release (m(i+1) mod 4]);</code></pre> This could cause <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Thrashing</p>",
+            "<b>B.</b> <p>Deadlock</p>",
+            "<b>C.</b> <p>Starvation, but not deadlock</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Deadlock</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/645/gate2000-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A counting semaphore was initialized to 10. Then 6P (wait) operations and 4V (signal) operations were completed on this semaphore. The resulting value of the semaphore is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1668/gate1998-1-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>When the result of a computation depends on the speed of the processes involved, there is said to be <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cycle stealing</p>",
+            "<b>B.</b> <p>race condition</p>",
+            "<b>C.</b> <p>a time lock</p>",
+            "<b>D.</b> <p>a deadlock</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>race condition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1667/gate1998-1-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Each Process \\(P_i, i = 1\\ldots 9\\) is coded as follows<br><pre><code> repeat \n    P(mutex)\n    {Critical section}\n    V(mutex)\nforever</code></pre> <br>\nThe code for \\(P_{10}\\) is identical except it uses V(mutex) in place of P(mutex). What is the largest number of processes that can be inside the critical section at any moment? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>None</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2264/gate1997-6-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A critical section is a program segment <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>which should run in a certain amount of time</p>",
+            "<b>B.</b> <p>which avoids deadlocks</p>",
+            "<b>C.</b> <p>where shared resources are accessed</p>",
+            "<b>D.</b> <p>which must be enclosed by a pair of semaphore operations, P and V</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>where shared resources are accessed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2723/gate1996-1-19-isro2008-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider Peterson's algorithm for mutual exclusion between two concurrent\nprocesses i and j . The program executed by process is shown below.<pre><code> repeat   \n      flag [i] = true; \n      turn = j; \n      while ( P ) do no-op; \n      Enter critical section, perform actions, then exit critical \n      section \n      flag [ i ] = false; \n      Perform other non-critical section actions. \n   until false; </code></pre>\nFor the program to guarantee mutual exclusion, the predicate P in the while loop\nshould be <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>flag [j]= true and turn =i</p>",
+            "<b>B.</b> <p>flag [j]=true and turn =j</p>",
+            "<b>C.</b> <p>flag [i]=true and turn=j</p>",
+            "<b>D.</b> <p>flag [i]=true and turn=i</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>flag [j]=true and turn =j</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/740/gate2001-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nAt a particular time of computation, the value of a counting semaphore is 7. Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is : <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>42</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/564/gate1992-02-x-isro2015-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A critical region is <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One which is enclosed by a pair of P and V operations on semaphores.</p>",
+            "<b>B.</b> <p>A program segment that has not been proved bug-free.</p>",
+            "<b>C.</b> <p>A program segment that often causes unexpected system crashes.</p>",
+            "<b>D.</b> <p>A program segment where shared resources are accessed.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A program segment where shared resources are accessed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80362/gate1987-1-xvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

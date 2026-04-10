@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Session Layer",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Session Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61060\"></a><div itemprop=\"text\"><p>Which of the following is not associated with the session layer?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dialog control</p>",
+            "<p>Token management</p>",
+            "<p>Semantics of the information transmitted</p>",
+            "<p>synchronization</p>"
+          ],
+          "correct_answer": "<p>Semantics of the information transmitted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61060/ugc-net-cse-junet-2015-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/61060/ugc-net-cse-junet-2015-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

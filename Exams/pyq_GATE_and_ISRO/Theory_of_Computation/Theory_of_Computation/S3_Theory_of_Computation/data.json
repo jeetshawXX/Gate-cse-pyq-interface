@@ -1,0 +1,250 @@
+{
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following languages:<br><br>\\( \\begin{aligned}\nL_1&amp;= \\{a^n wa^n|w  \\in  \\{a,b \\}^* \\}   \\\\\nL_2&amp;= \\{wxw^R | w,x  \\in   \\{a,b \\}^*, |w|,|x|  \\gt 0  \\}\n\\end{aligned}\\)<br><br>Note that \\(w^R\\) is the reversal of the string \\(w\\). Which of the following is/are TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(L_1\\) and \\(L_2\\) are regular.</p>",
+            "<b>B.</b> <p>\\(L_1\\) and \\(L_2\\)  are context-free.</p>",
+            "<b>C.</b> <p>\\(L_1\\) is regular and \\(L_2\\) is context-free.</p>",
+            "<b>D.</b> <p>\\(L_1\\) and \\(L_2\\)  are context-free but not regular.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(L_1\\) and \\(L_2\\) are regular.</p>",
+            "<b>B.</b> <p>\\(L_1\\) and \\(L_2\\)  are context-free.</p>",
+            "<b>C.</b> <p>\\(L_1\\) is regular and \\(L_2\\) is context-free.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371899/Gate-cse-2022-question-37#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following is/are undecidable? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Given two Turing machines M1 and M2 , decide if L(M1 ) = L(M2 ).</p>",
+            "<b>B.</b> <p>Given a Turing machine M , decide if L(M ) is regular.</p>",
+            "<b>C.</b> <p>Given a Turing machine M , decide if M accepts all strings.</p>",
+            "<b>D.</b> <p>Given a Turing machine M , decide if M takes more than 1073 steps on every string.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Given two Turing machines M1 and M2 , decide if L(M1 ) = L(M2 ).</p>",
+            "<b>B.</b> <p>Given a Turing machine M , decide if L(M ) is regular.</p>",
+            "<b>C.</b> <p>Given a Turing machine M , decide if M accepts all strings.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371900/Gate-cse-2022-question-36#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Every subset of a recursively enumerable language is recursive.</p>",
+            "<b>B.</b> <p>If a language \\(L\\) and its complement \\(\\bar{L}\\) are both recursively enumerable, then \\(L\\) must be recursive.</p>",
+            "<b>C.</b> <p>Complement of a context-free language must be recursive.</p>",
+            "<b>D.</b> <p>If \\(L_1\\) and \\(L_2\\) are regular, then \\(L_1 \\cap L_2 \\)must be deterministic context-free.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>If a language \\(L\\) and its complement \\(\\bar{L}\\) are both recursively enumerable, then \\(L\\) must be recursive.</p>",
+            "<b>C.</b> <p>Complement of a context-free language must be recursive.</p>",
+            "<b>D.</b> <p>If \\(L_1\\) and \\(L_2\\) are regular, then \\(L_1 \\cap L_2 \\)must be deterministic context-free.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371923/Gate-cse-2022-question-13#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following regular expressions correctly represents the language of the finite automaton given below? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q2_1323799a.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ab*bab* + ba*aba*</p>",
+            "<b>B.</b> <p>(ab*b)*ab* + (ba*a)*ba*</p>",
+            "<b>C.</b> <p>(ab*b + ba*a)*(a* + b*)</p>",
+            "<b>D.</b> <p>(ba*a + ab*b)*(ab* + ba*)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(ba*a + ab*b)*(ab* + ba*)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371934/Gate-cse-2022-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following regular expressions represent(s) the set of all binary numbers that are divisible by three? Assume that the string \\(\\epsilon\\) is divisible by three. <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\((0+1(01^*0)^*1)^*\\)</p>",
+            "<b>B.</b> <p>\\((0+11+10(1+00)^*01)^*\\)</p>",
+            "<b>C.</b> <p>\\((0^*(1(01^*0)^*1)^*)^*\\)</p>",
+            "<b>D.</b> <p>\\((0+11+11(1+00)^*00)^*\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\((0+1(01^*0)^*1)^*\\)</p>",
+            "<b>B.</b> <p>\\((0+11+10(1+00)^*01)^*\\)</p>",
+            "<b>C.</b> <p>\\((0^*(1(01^*0)^*1)^*)^*\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357493/gate-cse-2021-set-2-question-47#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For a string \\(w\\), we define \\(w^R\\) to be the reverse of \\(w\\). For example, if \\(w=01101\\) then \\(w^R=10110\\).\n<br>\nWhich of the following languages is/are context-free? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ wxw^Rx^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{ ww^Rxx^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{ wxw^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{ wxx^Rw^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(\\{ ww^Rxx^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{ wxw^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{ wxx^Rw^R \\mid w,x \\in \\{0,1\\} ^* \\}\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357499/gate-cse-2021-set-2-question-41#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following two statements about regular languages:<br><br>\nS1: Every infinite regular language contains an undecidable language as a subset.<br>\nS2: Every finite language is regular.<br><br>\nWhich one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Both S1 and S2 are true</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both S1 and S2 are true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357504/gate-cse-2021-set-2-question-36#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose we want to design a synchronous circuit that processes a string of 0's and 1's. Given a string, it produces another string by replacing the first 1 in any subsequence of consecutive 1's by a 0. Consider the following example.<br><br>\n\\(\\begin{array}{ll} \\text{Input sequence:} &amp; 00100011000011100 \\\\ \\text{Output sequence:} &amp; 00000001000001100 \\end{array}\\)<br><br>\nA Mealy Machine is a state machine where both the next state and the output are functions of the present state and the current input.<br>The above mentioned circuit can be designed as a two-state Mealy machine. The states in the Mealy machine can be represented using Boolean values 0 and 1. We denote the current state, the next state, the next incoming bit, and the output bit of the Mealy machine by the variables s, t, b and y respectively.\n<br>\nAssume the initial state of the Mealy machine is 0.\n<br><br>\nWhat are the Boolean expressions corresponding to t and y in terms of s and b? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>t=s+b<br>y=sb</p>",
+            "<b>B.</b> <p>t=b<br>y=sb</p>",
+            "<b>C.</b> <p>t=b<br>y=s\\(\\bar{b}\\)</p>",
+            "<b>D.</b> <p>t=s+b<br>y=s\\(\\bar{b}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>t=b<br>y=sb</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357512/gate-cse-2021-set-2-question-28#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following deterministic finite automaton (DFA)<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q17_652cadc0.jpg\"><br>The number of strings of length 8 accepted by the above automaton is  _________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "256",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357523/gate-cse-2021-set-2-question-17#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let \\(L_1\\) be a regular language and \\(L_2\\) be a context-free language. Which of the following languages is/are context-free? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(L_1 \\cap \\overline{L_2}\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{\\overline{L_1} \\cup \\overline{L_2}}\\)</p>",
+            "<b>C.</b> <p>\\(L_1 \\cup (L_2 \\cup \\overline{L_2})\\)</p>",
+            "<b>D.</b> <p>\\((L_1 \\cap L_2) \\cup (\\overline{L_1} \\cap L_2)\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(\\overline{\\overline{L_1} \\cup \\overline{L_2}}\\)</p>",
+            "<b>C.</b> <p>\\(L_1 \\cup (L_2 \\cup \\overline{L_2})\\)</p>",
+            "<b>D.</b> <p>\\((L_1 \\cap L_2) \\cup (\\overline{L_1} \\cap L_2)\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357528/gate-cse-2021-set-2-question-12#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let \\(L \\subseteq \\{0,1\\}^*\\) be an arbitrary regular language accepted by a minimal DFA with k states. Which one of the following languages must necessarily be accepted by a minimal DFA with k states? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L - \\{01\\}\\)</p>",
+            "<b>B.</b> <p>\\(L \\cup \\{01\\}\\)</p>",
+            "<b>C.</b> <p>\\( \\{0,1\\}^* -L\\)</p>",
+            "<b>D.</b> <p>\\(L  \\cdot L\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\( \\{0,1\\}^* -L\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357531/gate-cse-2021-set-2-question-9#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a  pushdown automaton \\(P=(Q, \\Sigma, \\Gamma, \\delta, q_0, F)\\), a transition of the form,\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q51a_7888028e.jpg\"><br>where \\(p,q \\in Q \\; a \\in \\sigma \\cup \\{ \\epsilon \\} ,\\;X,Y, \\in \\Gamma \\cup \\{ \\epsilon \\}\\), represents<br><br>\\((q,Y) \\in \\delta(p,a,X)\\)\n<br><br>\nConsider the following pushdown automaton over the input alphabet \\(\\Sigma = \\{a,b\\}\\) and stack alphabet \\(\\Gamma = \\{ \\#, A\\}\\). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q51b_09056d3e.jpg\"><br>\nThe number of strings of length 100 accepted by the above pushdown automaton is ___________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357400/gate-cse-2021-set-1-question-51#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For a Turing machine M, &lt; M &gt; denotes an encoding of M. Consider the following two languages.<br><br>\n\\(\\begin{array}{ll} L1 = \\{ \\langle M \\rangle \\mid M \\text{ takes more than } 2021 \\text{ steps on all inputs} \\} \\\\ L2 = \\{ \\langle M \\rangle \\mid M\\text{ takes more than } 2021 \\text{ steps on some input} \\} \\end{array}\\)<br><br>\nWhich one of the following options is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both L1 and L2 are decidable.</p>",
+            "<b>B.</b> <p>L1 is decidable  and L2 is undecidable.</p>",
+            "<b>C.</b> <p>L1 is undecidable  and L2 is decidable.</p>",
+            "<b>D.</b> <p>Both L1 and L2 are undecidable.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both L1 and L2 are decidable.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357412/gate-cse-2021-set-1-question-39#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following language:<br>\n<br>\\(L= \\{ w \\in \\{0,1\\}^* \\mid w \\text{ ends with the substring } 011 \\}\\)\n<br><br>\nWhich one of the following deterministic finite automata accepts \\(L\\)?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q38_cacc54fd.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357413/gate-cse-2021-set-1-question-38#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following context-free grammar where the set of terminals is \\(\\{a,b,c,d,f\\}\\).<br><br>\\(\\begin{array}{lll} S &amp; \\rightarrow &amp; d \\: a \\: T \\mid R \\: f \\\\ T &amp; \\rightarrow &amp; a \\: S \\: \\mid \\: b \\: a \\: T \\: \\mid \\epsilon \\\\ R &amp; \\rightarrow &amp; c \\: a \\: T \\: R \\: \\mid \\epsilon \\end{array}\\)\n<br><br>\nThe following is a partially-filled LL(1) parsing table.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q31a_d2bcc2a7.jpg\"><br>\nWhich one of the following choices represents the correct combination for the numbered cells in the parsing table (\"blank\" denotes that the corresponding cell is empty)?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q31b_a479fb0a.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357420/gate-cse-2021-set-1-question-31#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

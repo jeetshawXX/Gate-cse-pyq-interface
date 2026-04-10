@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - System Software Compilers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "System Software Compilers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"67898\"></a><div itemprop=\"text\"><p>In an absolute loading scheme, which loader function is accomplished by a loader ?</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | June 2010 | Part 2 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Re-allocation</p>",
+            "<p>Allocation</p>",
+            "<p>Linking</p>",
+            "<p>Loading</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67898/ugc-net-cse-june-2010-part-2-question-31\" target=\"_blank\">https://gateoverflow.in/67898/ugc-net-cse-june-2010-part-2-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+});

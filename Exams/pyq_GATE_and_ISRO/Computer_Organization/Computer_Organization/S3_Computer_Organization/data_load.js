@@ -1,0 +1,205 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - Computer_Organization - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A cache memory that has a hit rate of 0.8 has an access latency 10 ns and miss penalty 100 ns. An optimization is done on the cache to reduce the miss rate. However, the optimization results in an increase of cache access latency to 15 ns, whereas the miss penalty is not affected. The minimum hit rate (rounded off to two decimal places) needed after the optimization such that it should not increase the average memory access time is _____. <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.85",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371913/Gate-cse-2022-question-23#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let WB and WT be two set associative cache organizations that use LRU algorithm for cache block replacement. WB is a write back cache and WT is a write through cache. Which of the following statements is/are FALSE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Each cache block in WB and WT has a dirty bit.</p>",
+            "<b>B.</b> <p>Every write hit in WB leads to a data transfer from cache to main memory.</p>",
+            "<b>C.</b> <p>Eviction of a block from WT will not lead to data transfer from cache to main memory.</p>",
+            "<b>D.</b> <p>A read miss in WB will never lead to eviction of a dirty block from WB.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Each cache block in WB and WT has a dirty bit.</p>",
+            "<b>B.</b> <p>Every write hit in WB leads to a data transfer from cache to main memory.</p>",
+            "<b>D.</b> <p>A read miss in WB will never lead to eviction of a dirty block from WB.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371922/Gate-cse-2022-question-14#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following facilitates transfer of bulk data from hard disk to main memory with the highest throughput? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DMA based I/O transfer</p>",
+            "<b>B.</b> <p>Interrupt driven I/O transfer</p>",
+            "<b>C.</b> <p>Polling based I/O transfer</p>",
+            "<b>D.</b> <p>Programmed I/O transfer</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>DMA based I/O transfer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371929/Gate-cse-2022-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a pipelined processor with 5 stages, Instruction Fetch(IF), Instruction Decode(ID), Execute (EX), Memory Access (MEM), and Write Back (WB). Each stage of the pipeline, except the EX stage, takes one cycle. Assume that the ID stage merely decodes the instruction and the register read is performed in the EX stage. The EX stage takes one cycle for ADD instruction and the register read is performed in the EX stage, The EX stage takes one cycle for ADD instruction and two cycles for MUL instruction. Ignore pipeline register latencies.<br>\nConsider the following sequence of 8 instructions:<br><br>\nADD, MUL, ADD, MUL, ADD, MUL, ADD, MUL<br><br>\nAssume that every MUL instruction is data-dependent on the ADD instruction just before it and every ADD instruction (except the first ADD) is data-dependent on the MUL instruction just before it. The speedup defined as follows.\n<br><br>\n\\(\\textit{Speedup} = \\dfrac{\\text{Execution time without operand forwarding}}{\\text{Execution time with operand forearding}}\\)\n<br><br>\nThe Speedup achieved in executing the given instruction sequence on the pipelined processor (rounded to 2 decimal places) is _____________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.87",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357484/gate-cse-2021-set-2-question-53#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Assume a two-level inclusive cache hierarchy, L1 and L2, where L2 is the larger of the two. Consider the following statements.\n<br><br>\nS1: Read misses in a write through L1 cache do not result in writebacks of dirty lines to the L2<br>\nS2: Write allocate policy must be used in conjunction with write through caches and no-write allocate policy is used with writeback caches.<br><br>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1  is true and S2 is false</p>",
+            "<b>B.</b> <p>S1  is false and S2 is true</p>",
+            "<b>C.</b> <p>S1  is true and S2 is true</p>",
+            "<b>D.</b> <p>S1  is false and S2 is false</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1  is true and S2 is false</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357513/gate-cse-2021-set-2-question-27#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a computer system with DMA support. The DMA module is transferring one 8-bit character in one CPU cycle from a device to memory through cycle stealing at regular intervals. Consider a 2 MHz processor. If 0.5% processor cycles are used for DMA, the data transfer rate of the device is __________ bits per second. <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "80000",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357520/gate-cse-2021-set-2-question-20#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a set-associative cache of size 2KB (\\(1KB=2^{10}\\) bytes) with cache block size of 64 bytes. Assume that the cache is byte-addressable and a 32 -bit address is used for accessing the cache. If the width of the tag field is 22 bits, the associativity of the cache is ______ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357521/gate-cse-2021-set-2-question-19#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following instruction sequence where registers \\(R_1,R_2 \\text{ and }R_3\\) are general purpose and \\(MEMORY[X]\\) denotes the content at the memory location \\(X\\).<br><br>\\(\\begin{array}{llc} \\textbf{Instruction} &amp; \\textbf{Semantics} &amp; \\textbf{Instruction Size} \\text{ (bytes)} \\\\ \\hline \\text{MOV } R1, (5000) &amp; R1 \\leftarrow \\text{MEMORY}[5000] &amp; 4 \\\\ \\hline \\text{MOV } R2, (R3) &amp; R2 \\leftarrow \\text{MEMORY}[R3] &amp; 4 \\\\ \\hline \\text{ADD} R2, R1 &amp; R2 \\leftarrow R1 + R2 &amp; 2 \\\\ \\hline \\text{MOV } (R3), R2 &amp; \\text{MEMORY}[R3] \\leftarrow R2 &amp; 4 \\\\ \\hline \\text{INC } R3 &amp; R3 \\leftarrow R3+1 &amp; 2 \\\\ \\hline \\text{DEC } R1 &amp; R1 \\leftarrow R1-1 &amp; 2 \\\\ \\hline \\text{BNZ } 1004 &amp; \\text{Branch if not zero to the} &amp; 2 \\\\ &amp; \\text{given absolute address} \\\\ \\hline \\text{HALT} &amp; \\text{Stop} &amp; 1 \\\\ \\hline \\end{array}\\)<br><br>\nAssume that the content of the memory location 5000 is 10, and the content of the register \\(R_3\\) is 3000. The content of each of the memory locations from 3000 to 3020 is 50. The instruction sequence starts from the memory location 1000. All the numbers are in decimal format. Assume that the memory is byte addressable.\n<br>\nAfter the execution of the program, the content of memory location 3010 is ____________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357397/gate-cse-2021-set-1-question-55#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A five-stage pipeline has stage delays of 150, 120, 150, 160 and 140 nanoseconds. The registers that are used between the pipeline stages have a delay of 5 nanoseconds each.<br>The total time to execute 100 independent instructions on this pipeline, assuming there are no pipeline stalls, is _______ nanoseconds. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "17160",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357398/gate-cse-2021-set-1-question-53#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a computer system with a byte-addressable primary memory of size \\(2^{32} \\text{ bytes}\\). Assume the computer system has a direct-mapped cache of size \\(32 KB (1 KB = 2^{10}  \\text{ bytes})\\), and each cache block is of size 64 bytes.<br>\nThe size of the tag field is __________ bits. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "17",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357429/gate-cse-2021-set-1-question-22#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>One instruction tries to write an operand before it is written by previous instruction. This may lead to a dependency called <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>True dependency</p>",
+            "<b>B.</b> <p>Anti-dependency</p>",
+            "<b>C.</b> <p>Output dependency</p>",
+            "<b>D.</b> <p>Control Hazard</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Output dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331391/isro2020-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>How many total bits are required for a direct-mapped cache with 128 KB of data and 1 word block size, assuming a 32-bit address and 1 word size of 4 bytes? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2  Mbits</p>",
+            "<b>B.</b> <p>1.7 Mbits</p>",
+            "<b>C.</b> <p>2.5 Mbits</p>",
+            "<b>D.</b> <p>1.5 Mbits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.5 Mbits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331421/isro2020-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A magnetic disk has 100 cylinders, each with 10 tracks of 10 sectors. If each sector contains 128 bytes, what is the maximum capacity of the disk in kilobytes? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12,80,000</p>",
+            "<b>B.</b> <p>1280</p>",
+            "<b>C.</b> <p>1250</p>",
+            "<b>D.</b> <p>1,28,000</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1250</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331420/isro2020-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following is an efficient method of cache updating? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Snoopy writes</p>",
+            "<b>B.</b> <p>Write through</p>",
+            "<b>C.</b> <p>Write within</p>",
+            "<b>D.</b> <p>Buffered write</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Snoopy writes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331409/isro2020-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A computer which issues instructions in order, has only 2 registers and 3 opcodes ADD, SUB and MOV. Consider 2 different implementations of the following basic block :<br>\\(\\begin{array}{l|l} \\text { Case } 1 &amp; \\text { Case } 2 \\\\ \\hline t 1=a+b ; &amp; t 2=c+d \\\\ t 2=c+d ; &amp; t 3=e-t 2 \\\\ t 3=e-t 2 ; &amp; t 1=a+b \\\\ t 4=t 1-t 2 ; &amp; t 4=t 1-t 2 \\end{array}\\)<br>Assume that all operands are initially in memory. Final value of computation also has to reside in memory. Which one is better in terms of memory accesses and by how many MOV instructions? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Case 2, 2</p>",
+            "<b>B.</b> <p>Case 2, 3</p>",
+            "<b>C.</b> <p>Case 1, 2</p>",
+            "<b>D.</b> <p>Case 1, 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Case 2, 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331470/isro2020-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

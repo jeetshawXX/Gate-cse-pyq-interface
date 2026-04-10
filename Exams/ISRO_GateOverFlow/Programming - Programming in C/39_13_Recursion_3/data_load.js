@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Recursion",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Recursion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1028\"></a><div itemprop=\"text\"><p>Consider the following C function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f(int n)\n{\n    static int i = 1;\n    if(n &gt;= 5) return n;\n    n = n+i;\n    i++;\n    return f(n);\n}</pre>\n\n<p>The value returned by \\( f(1) \\) is:</p>\n\n</div><br><br><b>Programming in C: GATE CSE 2004 | Question: 31, ISRO2008</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1028/gate-cse-2004-question-31-isro2008-40\" target=\"_blank\">https://gateoverflow.in/1028/gate-cse-2004-question-31-isro2008-40</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"213519\"></a><div itemprop=\"text\">\n\n<p>Let \\( P \\) be a procedure that for some inputs calls itself (i.e. is recursive). If \\( P \\) is guaranteed to terminate, which of the following statement(s) must be true?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>\\( P \\) has a local variable</li>\n\t<li>\\( P \\) has an execution path where it does not call itself</li>\n\t<li>\\( P \\) either refers to a global variable or has at least one parameter&nbsp;</li>\n</ol>\n\n\n\n\n\n</div><br><br><b>Programming in C: ISRO CSE 2018 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>III only</p>",
+            "<p>II and III only</p>"
+          ],
+          "correct_answer": "<p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213519/isro-cse-2018-question-69\" target=\"_blank\">https://gateoverflow.in/213519/isro-cse-2018-question-69</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"331460\"></a><div itemprop=\"text\"><p>Consider the following recursive C function that takes two arguments</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">unsigned int rer(unsigned int n, unsigned int r){\n    if(n&gt;0)return(n%r + rer(n/r,r));\n    else retturn 0;\n}</pre>\n\n<p>What is the return value of the function \\( rer \\) when it is called as \\( rer(513,2) \\)?</p>\n\n</div><br><br><b>Programming in C: ISRO CSE 2020 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331460/isro-cse-2020-question-59\" target=\"_blank\">https://gateoverflow.in/331460/isro-cse-2020-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,251 @@
+{
+  "title": "Network_Layer_Protocol - Network_Layer_Protocol - Slot 2",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Network_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is routing algorithm used by OSPF routing protocol? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Distance vector</p>",
+            "<b>B.</b> <p>Flooding</p>",
+            "<b>C.</b> <p>Path vector</p>",
+            "<b>D.</b> <p>Link state</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Link state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53136/isro2014-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The process of modifying IP address information in IP packet headers while in transit across a traffic routing device is called <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port address translation (PAT)</p>",
+            "<b>B.</b> <p>Network address translation (NAT)</p>",
+            "<b>C.</b> <p>Address mapping</p>",
+            "<b>D.</b> <p>Port mapping</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Network address translation (NAT)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54140/isro2014-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is IP class and number of sub-networks if the subnet mask is 255.224.0.0? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A, 3</p>",
+            "<b>B.</b> <p>Class A, 8</p>",
+            "<b>C.</b> <p>Class B, 3</p>",
+            "<b>D.</b> <p>Class B, 32</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Class A, 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43984/isro-2013-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>IPv6 does not support which of the following addressing modes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unicast addressing</p>",
+            "<b>B.</b> <p>Multicast addressing</p>",
+            "<b>C.</b> <p>Broadcast addressing</p>",
+            "<b>D.</b> <p>Anycast addressing</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Broadcast addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43982/isro-2013-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Lightweight Directory Access protocol is used for <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Routing the packets</p>",
+            "<b>B.</b> <p>Authentication</p>",
+            "<b>C.</b> <p>obtaining IP address</p>",
+            "<b>D.</b> <p>domain name resolving</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Authentication</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18149/isro2011-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The broadcast address for IP network 172.16.0.0 with subnet mask 255.255.0.0 is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.16.0.255</p>",
+            "<b>B.</b> <p>172.16.255.255</p>",
+            "<b>C.</b> <p>255.255.255.255</p>",
+            "<b>D.</b> <p>172.255.255.255</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>172.16.255.255</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51337/isro2011-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the primary purpose of a VLAN? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Demonstrating the proper layout for a network</p>",
+            "<b>B.</b> <p>Simulating a network</p>",
+            "<b>C.</b> <p>To create a virtual private network</p>",
+            "<b>D.</b> <p>Segmenting a network inside a switch or device</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Segmenting a network inside a switch or device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48029/isro2009-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The address resolution protocol (ARP) is used for <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding the IP address from the DNS</p>",
+            "<b>B.</b> <p>Finding the IP address of the default gateway</p>",
+            "<b>C.</b> <p>Finding the IP address that corresponds to a MAC address</p>",
+            "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48027/isro2009-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The subnet mask for a particular network is 255.255.31.0. Which of the following pairs of IP addresses could belong to this network? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.57.88.62 and 172.56.87.23</p>",
+            "<b>B.</b> <p>10.35.28.2 and 10.35.29.4</p>",
+            "<b>C.</b> <p>191.203.31.87 and 191.234.31.88</p>",
+            "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/965/gate2003-82-isro2009-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The network 198.78.41.0 is a <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A network</p>",
+            "<b>B.</b> <p>Class B network</p>",
+            "<b>C.</b> <p>Class C network</p>",
+            "<b>D.</b> <p>Class D network</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Class C network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49913/isro2008-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>On a LAN ,where are IP datagrams transported? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In the LAN header</p>",
+            "<b>B.</b> <p>In the application field</p>",
+            "<b>C.</b> <p>In the information field of the LAN frame</p>",
+            "<b>D.</b> <p>After the TCP header</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>In the information field of the LAN frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17270/isro2008-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The subnet mask 255.255.255.192 <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>extends the network portion to 16 bits</p>",
+            "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+            "<b>C.</b> <p>extends the network portion to 36 bits</p>",
+            "<b>D.</b> <p>has no effect on the network portion of an IP address</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49665/isro2008-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>When a host on network A sends a message to a host on network B, which address does the router look at? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port</p>",
+            "<b>B.</b> <p>IP</p>",
+            "<b>C.</b> <p>Physical</p>",
+            "<b>D.</b> <p>Subnet mask</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49646/isro2007-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>IEEE 802.11 is standard for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ethernet</p>",
+            "<b>B.</b> <p>Bluetooth</p>",
+            "<b>C.</b> <p>Broadband Wireless</p>",
+            "<b>D.</b> <p>Wireless LANs</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Wireless LANs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49645/isro2007-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Range of IP Address from 224.0.0.0 to 239.255.255.255 are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reserved for loopback</p>",
+            "<b>B.</b> <p>Reserved for broadcast</p>",
+            "<b>C.</b> <p>Used for multicast packets</p>",
+            "<b>D.</b> <p>Reserved for future addressing</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Used for multicast packets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49643/isro2007-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>If there are five routers and six networks in intranet using link state routing, how many routing tables are there? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49499/isro2007-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

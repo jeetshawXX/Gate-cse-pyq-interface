@@ -1,0 +1,136 @@
+{
+  "title": "Quantitative Aptitude - Work Cost",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Work Cost",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4282\"></a><div itemprop=\"text\"><p>Choose the best alternative:</p>\n\n<p>Two towns A and B are 100 km apart. A school is to be built for 100 students of Town B and 30 students of Town A. Expenditure on transport is Rs 1.20 per km. If the total expenditure on transport by all 130 students is to be as small as possible, then the school should be built at:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>33 km from Town A</p>",
+            "<p>33 km from town B</p>",
+            "<p>Town A&nbsp;</p>",
+            "<p>Town B</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4282/cat-1994-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/4282/cat-1994-question-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1278\"></a><div itemprop=\"text\"><p>Two men \\( \\text{X} \\) and \\( \\text{Y} \\) started working for a certain company at similar jobs on January \\( 1, 1950.\\; \\text{X} \\) asked for an initial salary of Rs. \\( 300 \\) with an annual increment of Rs. \\( 30.\\;\\text{Y} \\) asked for an initial salary of Rs. \\( 200 \\) with a rise of Rs. \\( 15 \\) every six&nbsp;months. Assume that the arrangements remained unaltered till December, \\( 1959. \\) Salary is paid on the last day of the month. What is the total amount paid to them as salary during the period?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 93,300 \\)&nbsp;</p>",
+            "<p>Rs. \\( 93,200 \\)</p>",
+            "<p>Rs. \\( 93,100 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1278/cat-2001-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/1278/cat-2001-question-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1070\"></a><div itemprop=\"text\"><p>A transport company charges for its vehicles in the following manner</p>\n\n<p>If the driving is five hours or less,&nbsp; the company charges Rs. \\( 60 \\) per hour or Rs. \\( 12 \\)&nbsp;per km (whichever is larger)</p>\n\n<p>If driving is more than \\( 5 \\) hours, the company charges Rs. \\( 50 \\) per hour or Rs. \\( 75 \\) per km (whichever is larger)</p>\n\n<p>If Anand drove it for \\( 30 \\) km and paid a total of Rs. \\( 300, \\) then for how many hours does he drive?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5.5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1070/cat-2002-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/1070/cat-2002-question-55</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"775\"></a><div itemprop=\"text\"><p>A telecom service provider engages male and female operators for answering \\( 1000 \\) calls per day. A male operator can handle \\( 40 \\) calls per day whereas a female operator can handle \\( 50 \\) calls per day. The male and female operator get a fixed wage of Rs. \\( 250 \\) and Rs. \\( 300 \\) per day respectively. In addition, a male operator gets Rs. \\( 15 \\) per call he answers and a female operator gets Rs. \\( 10 \\) per call she answers. To minimize the cost how many male operators should the service provider employ assuming he has to employ more than \\( 7 \\) of the \\( 12 \\)&nbsp;female operators available for the job?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/775/cat-2005-question-28\" target=\"_blank\">https://aptitude.gateoverflow.in/775/cat-2005-question-28</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"5075\"></a><div itemprop=\"text\"><p>\\( \\text{A, B} \\) and \\( \\text{C} \\) can independently do a work in \\( 15 \\) days, \\( 20 \\) days and \\( 30 \\) days, respectively. They work together for some time after which \\( \\text{C} \\) leaves. \\( \\text{A} \\) total of&nbsp;&nbsp;\\( ₹18000 \\) is paid for the work and&nbsp;\\( \\text{B} \\) gets&nbsp;\\( ₹6000 \\) more than \\( \\text{C} \\). For how many days did \\( \\text{A} \\) work?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5075/cat-2012-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/5075/cat-2012-question-20</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"5565\"></a><div itemprop=\"text\"><p>Two towns \\( \\text{A} \\) and \\( \\text{B} \\) are \\( 100 \\) km apart. A school is to be built for \\( 100 \\) students of town \\( \\text{B} \\) and \\( 30 \\) students of Town \\( \\text{A} \\). Expenditure on transport is Rs. \\( 1.20 \\) per km per student. If the total expenditure on transport by all \\( 130 \\) students is to be as small as possible, then the school should be built at&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 87</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 33 \\) km from Town \\( \\text{A} \\)</p>",
+            "<p>\\( 33 \\) km from Town \\( \\text{B} \\)</p>",
+            "<p>Town \\( \\text{A} \\)</p>",
+            "<p>Town \\( \\text{B} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5565/cat-2015-question-87\" target=\"_blank\">https://aptitude.gateoverflow.in/5565/cat-2015-question-87</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"6161\"></a><div itemprop=\"text\">John gets Rs \\( 57 \\) per hour of regular work and Rs \\( 114 \\) per hour of overtime work. He works altogether \\( 172 \\) hours and his income from overtime hours is \\( 15\\% \\) of his income from regular hours. Then, for how many hours did he work overtime _________</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6161/cat-2019-set-2-question-91\" target=\"_blank\">https://aptitude.gateoverflow.in/6161/cat-2019-set-2-question-91</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"8440\"></a><div itemprop=\"text\"><p>Anil can paint a house in \\( 60 \\; \\text{days} \\) while Bimal can paint it in \\( 84 \\; \\text{days}. \\) Anil starts painting and after \\( 10 \\; \\text{days}, \\) Bimal and Charu join him. Together, they complete the painting in \\( 14 \\) more days. If they are paid a total of \\( ₹ \\; 21000 \\) for the job, then the share of Charu, \\( \\text{in INR}, \\) proportionate to the work done by him, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9150 \\)</p>",
+            "<p>\\( 9100 \\)</p>",
+            "<p>\\( 9000 \\)</p>",
+            "<p>\\( 9200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9100 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8440/cat-2021-set-2-quantitative-aptitude-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/8440/cat-2021-set-2-quantitative-aptitude-question-13</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"8517\"></a><div itemprop=\"text\">Anil can paint a house in \\( 12 \\; \\text{days} \\) while Barun can paint it in \\( 16 \\; \\text{days}. \\) Anil, Barun, and Chandu undertake to paint the house for \\(  ₹ \\; 24000 \\) and the three of them together complete the painting in \\( 6 \\; \\text{days}. \\) If Chandu is paid in proportion to the work done by him, then the amount in \\( \\text{INR} \\) received by him is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3000",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8517/cat-2021-set-3-quantitative-aptitude-question-2\" target=\"_blank\">https://aptitude.gateoverflow.in/8517/cat-2021-set-3-quantitative-aptitude-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

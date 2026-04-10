@@ -1,0 +1,626 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Computer Graphics",
+  "duration": 114,
+  "sections": [
+    {
+      "name": "Computer Graphics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"408061\"></a><div itemprop=\"text\"><p>What is the transformation matrix M that transforms a square in the xy plane defined by (1, 1),&nbsp;(-1, 1),&nbsp;(-1, -1),&nbsp;(1, -1)&nbsp;to a parallelogram whose corresponding vertices are (2, 1),&nbsp;(0,1),&nbsp;(-2, -1),&nbsp;and (0, -1)&nbsp;?</p>\n\n</div><br><br><b>Computer Graphics: Computer Science</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1 1 0<br>\n\t0 1 0<br>\n\t0 0 1<br>\n\t&nbsp;</p>",
+            "<p>1 0 0<br>\n\t1 1 0<br>\n\t0 0 1<br>\n\t&nbsp;</p>",
+            "<p>1 1 1<br>\n\t0 1 0<br>\n\t0 0 1<br>\n\t&nbsp;</p>",
+            "<p>1 1 0<br>\n\t1 1 0<br>\n\t0 0 1</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/408061/computer-science-ugc-net-2021-question-id-2338\" target=\"_blank\">https://gateoverflow.in/408061/computer-science-ugc-net-2021-question-id-2338</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"409553\"></a><div itemprop=\"text\"><p>Suppose a Bezier curve P(t) is defined by the following four control points in the xy - plane : P0 = (-2,0); P1 = (-2,4); P2 = (2,4); and P3 = (2,0). Then which of the following statements are correct ?&nbsp;</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>Bezier curve P(t) has degree 3.</li>\n\t<li>P(1 / 2) = (0,3).</li>\n\t<li>Bezier curve P(t) may extend outside the convex hull of its control points.</li>\n</ol>\n\n<p>Choose the correct answer from the options given below :&nbsp;</p>\n\n</div><br><br><b>Computer Graphics: Computer Science</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1 and 2 only.</p>",
+            "<p>1 and 3 only.</p>",
+            "<p>2 and 3 only.</p>",
+            "<p>1, 2, and 3.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/409553/computer-science-ugc-net-2021-question-id-2339\" target=\"_blank\">https://gateoverflow.in/409553/computer-science-ugc-net-2021-question-id-2339</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"409552\"></a><div itemprop=\"text\"><p>Given below are two statements :&nbsp;</p>\n\n<p><strong>Statement I:</strong> The maximum number of sides that a triangle might have when clipped to a rectangular viewport is 6.</p>\n\n<p><strong>Statement II:</strong> In 3D graphics, the perspective transformation is nonlinear in z.</p>\n\n<p>In light of the above statements, choose the correct answer from the options given below :&nbsp;</p>\n\n</div><br><br><b>Computer Graphics: Computer Science</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both Statement I and Statement II are true.</p>",
+            "<p>Both Statement I and Statement II are false.</p>",
+            "<p>Statement I is true but Statement II is false.</p>",
+            "<p>Statement I is false but Statement II is true.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/409552/computer-science-ugc-net-2021-question-id-2340\" target=\"_blank\">https://gateoverflow.in/409552/computer-science-ugc-net-2021-question-id-2340</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"57376\"></a><div itemprop=\"text\"><p>Let \\( V_1 = 2I-J+k \\) and \\( V_2 = I+J-K \\), then the angle between \\( V_1 \\) and \\( V_2 \\) and a vector perpendicular to both \\( V_1 \\) and \\( V_2 \\) shall be</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2012 | Part 3 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 90^o \\text{ and } (-2I+J-3K) \\)</p>",
+            "<p>\\( 60^o \\text{ and } (2I+J+3K) \\)</p>",
+            "<p>\\( 90^o \\text{ and } (2I+J-3K) \\)</p>",
+            "<p>\\( 90^o \\text{ and } (-2I-J+3K) \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57376/ugc-net-cse-december-2012-part-3-question-12\" target=\"_blank\">https://gateoverflow.in/57376/ugc-net-cse-december-2012-part-3-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"57463\"></a><div itemprop=\"text\"><p>The Z-buffer algorithm is used for Hidden surface removal of objects. The maximum number of objects that can be handled by this algorithm shall</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2012 | Part 3 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>depend on the application</p>",
+            "<p>be arbitrary no. of objects</p>",
+            "<p>depend on the memory availability</p>",
+            "<p>depend on the processor</p>"
+          ],
+          "correct_answer": "<p>be arbitrary no. of objects</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57463/ugc-net-cse-december-2012-part-3-question-33\" target=\"_blank\">https://gateoverflow.in/57463/ugc-net-cse-december-2012-part-3-question-33</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"57363\"></a><div itemprop=\"text\"><p>The aspect ratio of an image is defined as</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2012 | Part 3 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The ratio of width to its height measured in unit length</p>",
+            "<p>The ratio of height to width measured in number of pixel</p>",
+            "<p>The ratio of depth to width measured in unit length</p>",
+            "<p>The ratio of width to depth measured in number of pixel</p>"
+          ],
+          "correct_answer": "<p>The ratio of width to its height measured in unit length</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57363/ugc-net-cse-december-2012-part-3-question-6\" target=\"_blank\">https://gateoverflow.in/57363/ugc-net-cse-december-2012-part-3-question-6</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"60785\"></a><div itemprop=\"text\"><p>Which of the following statements is (are) true?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Two successive translations are additive</li>\n\t<li>Two successive relations are additive</li>\n\t<li>Two successive scaling operations are multiplicative\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | December 2013 | Part 3 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II</p>",
+            "<p>I and III</p>",
+            "<p>II and III</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60785/ugc-net-cse-december-2013-part-3-question-62\" target=\"_blank\">https://gateoverflow.in/60785/ugc-net-cse-december-2013-part-3-question-62</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"60786\"></a><div itemprop=\"text\"><p>Given below are three basic rules:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Squash and Stretch</li>\n\t<li>Slow-in and Slow-out</li>\n\t<li>To stage the action properly</li>\n</ol>\n\n<p>These rules are applied in case of</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2013 | Part 3 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rendering</p>",
+            "<p>Morphing</p>",
+            "<p>Animation</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Animation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60786/ugc-net-cse-december-2013-part-3-question-63\" target=\"_blank\">https://gateoverflow.in/60786/ugc-net-cse-december-2013-part-3-question-63</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"60787\"></a><div itemprop=\"text\"><p>Which of the following points lies on the same side as the origin, with reference to the line 3x+7y=2?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2013 | Part 3 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(3, 0)</p>",
+            "<p>(1, 0)</p>",
+            "<p>(0.5, 0.5)</p>",
+            "<p>(0.5, 0)</p>"
+          ],
+          "correct_answer": "<p>(0.5, 0)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60787/ugc-net-cse-december-2013-part-3-question-64\" target=\"_blank\">https://gateoverflow.in/60787/ugc-net-cse-december-2013-part-3-question-64</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"60789\"></a><div itemprop=\"text\"><p>The transformation required for conversion of CMY colour model to RGB colour model is given as:</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2013 | Part 3 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{bmatrix} R \\\\ G \\\\ B \\end{bmatrix} =&nbsp;\\begin{bmatrix} C \\\\ M \\\\ Y \\end{bmatrix} -&nbsp;\\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} R \\\\ G \\\\ B \\end{bmatrix} =&nbsp;\\begin{bmatrix} C \\\\ M \\\\ Y \\end{bmatrix} -&nbsp;\\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} R \\\\ G \\\\ B \\end{bmatrix} =&nbsp;\\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\end{bmatrix} -&nbsp;\\begin{bmatrix} C \\\\ M \\\\ Y \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} R \\\\ G \\\\ B \\end{bmatrix} =&nbsp;\\begin{bmatrix} C \\\\ M \\\\ Y \\end{bmatrix} -&nbsp;\\begin{bmatrix} 0.5 \\\\ 0.5 \\\\ 0.5 \\end{bmatrix} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{bmatrix} R \\\\ G \\\\ B \\end{bmatrix} =&nbsp;\\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\end{bmatrix} -&nbsp;\\begin{bmatrix} C \\\\ M \\\\ Y \\end{bmatrix} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60789/ugc-net-cse-december-2013-part-3-question-65\" target=\"_blank\">https://gateoverflow.in/60789/ugc-net-cse-december-2013-part-3-question-65</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"60794\"></a><div itemprop=\"text\"><p>What steps shall be required to rotate an object from point \\( P_1 \\) (as shown in fig. 1) and its placement such that what was at \\( P_1 \\) is now reduced and is at \\( P_2 \\) (as shown in fig. 2)?</p><p><img alt=\"\" width=\"400\" height=\"184\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=9584998150917704988\"></p><ol style=\"list-style-type:upper-roman\"><li>Translate \\( P_1 \\) to origin</li><li>Scale as required</li><li>Rotate</li><li>Translate to the final position \\( P_2 \\)</li></ol></div><br><br><b>Computer Graphics: UGC NET CSE | December 2013 | Part 3 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I, II and III</p>",
+            "<p>II, III and IV</p>",
+            "<p>I, III and IV</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60794/ugc-net-cse-december-2013-part-3-question-66\" target=\"_blank\">https://gateoverflow.in/60794/ugc-net-cse-december-2013-part-3-question-66</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"60120\"></a><div itemprop=\"text\"><p>A technique used to approximate halftones without reducing spatial resolution is known as________.</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2014 | Part 3 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Halftoning</p>",
+            "<p>Dithering&nbsp;</p>",
+            "<p>Error diffusion</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Dithering&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60120/ugc-net-cse-december-2014-part-3-question-15\" target=\"_blank\">https://gateoverflow.in/60120/ugc-net-cse-december-2014-part-3-question-15</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"62592\"></a><div itemprop=\"text\"><p>Which of the following graphic primitives are considered as the basic building blocks of computer graphics?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Points</li>\n\t<li>Lines</li>\n\t<li>Polylines</li>\n\t<li>Polygons\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | December 2015 | Part 3 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i only} \\)</p>",
+            "<p>\\( \\text{i, ii, and iii} \\)</p>",
+            "<p>\\( \\text{i and ii} \\)</p>",
+            "<p>\\( \\text{i and iii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i and iii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62592/ugc-net-cse-december-2015-part-3-question-33\" target=\"_blank\">https://gateoverflow.in/62592/ugc-net-cse-december-2015-part-3-question-33</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"62707\"></a><div itemprop=\"text\"><p>Which of the following is not a lossy compression technique?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2015 | Part 3 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>JPEG</p>",
+            "<p>MPEG</p>",
+            "<p>FFT</p>",
+            "<p>Arithmetic coding</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62707/ugc-net-cse-december-2015-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/62707/ugc-net-cse-december-2015-part-3-question-50</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"62781\"></a><div itemprop=\"text\"><p>Which of the following is/are the principle components of a memory-tube display?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Flooding gun</li>\n\t<li>Collector</li>\n\t<li>Phosphorus grains</li>\n\t<li>Ground\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | December 2015 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i&nbsp;and ii} \\)</p>",
+            "<p>\\( \\text{iii&nbsp;only} \\)</p>",
+            "<p>\\( \\text{iv&nbsp;only} \\)</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{iii&nbsp;only} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62781/ugc-net-cse-december-2015-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/62781/ugc-net-cse-december-2015-part-3-question-67</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"62784\"></a><div itemprop=\"text\"><p>Which raster locations would be chosen by Bresenham's algorithm when scan converting a line from \\( (1,1) \\) to \\( (8,5) \\)?</p>\n\n\n\n<ol style=\"list-style-type:upper-alpha\">\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | December 2015 | Part 3 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{array}{|c|c|} \\hline x &amp; y \\\\ \\hline &nbsp;1 &amp; 1 \\\\ 2 &amp; 2 \\\\ 3 &amp; 3 \\\\ 4 &amp; 3 \\\\ 5 &amp; 4 \\\\ 6 &amp; 4 \\\\ 7 &amp;&nbsp; 5 \\\\ 8 &amp; 6 \\\\ \\hline \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|c|c|} \\hline x &amp; y \\\\ \\hline &nbsp;1 &amp; 1 \\\\ 2 &amp; 2 \\\\ 3 &amp; 2&nbsp;\\\\ 4 &amp; 3 \\\\ 5 &amp; 4 \\\\ 6 &amp; 5 \\\\ 7 &amp;&nbsp; 6 \\\\ 8 &amp; 7 \\\\ \\hline \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|c|c|} \\hline x &amp; y \\\\ \\hline &nbsp;1 &amp; 1 \\\\ 2 &amp; 2 \\\\ 3 &amp; 2&nbsp;\\\\ 4 &amp; 3 \\\\ 5 &amp; 3&nbsp;\\\\ 6 &amp; 4 \\\\ 7 &amp;&nbsp; 4 \\\\ 8 &amp; 5 \\\\ \\hline \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|c|c|} \\hline x &amp; y \\\\ \\hline &nbsp;1 &amp; 1 \\\\ 2 &amp; 2 \\\\ 3 &amp; 2 \\\\ 4 &amp; 3 \\\\ 5 &amp; 5&nbsp;\\\\ 6 &amp; 4 \\\\ 7 &amp;&nbsp; 5 \\\\ 8 &amp; 5 \\\\ \\hline \\end{array} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{array}{|c|c|} \\hline x &amp; y \\\\ \\hline &nbsp;1 &amp; 1 \\\\ 2 &amp; 2 \\\\ 3 &amp; 2&nbsp;\\\\ 4 &amp; 3 \\\\ 5 &amp; 3&nbsp;\\\\ 6 &amp; 4 \\\\ 7 &amp;&nbsp; 4 \\\\ 8 &amp; 5 \\\\ \\hline \\end{array} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62784/ugc-net-cse-december-2015-part-3-question-69\" target=\"_blank\">https://gateoverflow.in/62784/ugc-net-cse-december-2015-part-3-question-69</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"62785\"></a><div itemprop=\"text\"><p>Consider a unit square centered at origin. The coordinates at the square are translated by a factor \\( \\biggr( \\dfrac{1}{2}, 1 \\biggl) \\) and rotated by an angle of \\( 90^{\\circ} \\). What shall be the coordinates of the new square?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2015 | Part 3 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\biggr(\\dfrac{-1}{2},0 \\biggl),&nbsp;\\biggr( \\dfrac{-1}{2},1 \\biggl),\\biggr( \\dfrac{-3}{2},1 \\biggl),\\biggr( \\dfrac{-3}{2},0 \\biggl) \\\\ \\)</p>",
+            "<p>\\( \\biggr( \\dfrac{-1}{2},0 \\biggl),&nbsp;\\biggr( \\dfrac{1}{2},1 \\biggl),\\biggr( \\dfrac{3}{2},1 \\biggl), \\biggr( \\dfrac{3}{2},0 \\biggl) \\\\ \\)</p>",
+            "<p>\\( \\biggr( \\dfrac{-1}{2},0 \\biggl),&nbsp;\\biggr( \\dfrac{1}{2},0 \\biggl),\\biggr( \\dfrac{-3}{2},1 \\biggl), \\biggr( \\dfrac{-3}{2},0 \\biggl) \\\\ \\)</p>",
+            "<p>\\( \\biggr( \\dfrac{-1}{2},0 \\biggl),&nbsp;\\biggr( \\dfrac{1}{2},1 \\biggl),\\biggr( \\dfrac{-3}{2},1 \\biggl), \\biggr( \\dfrac{-3}{2},0 \\biggl) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\biggr( \\dfrac{-1}{2},0 \\biggl),&nbsp;\\biggr( \\dfrac{1}{2},1 \\biggl),\\biggr( \\dfrac{-3}{2},1 \\biggl), \\biggr( \\dfrac{-3}{2},0 \\biggl) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62785/ugc-net-cse-december-2015-part-3-question-70\" target=\"_blank\">https://gateoverflow.in/62785/ugc-net-cse-december-2015-part-3-question-70</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"335222\"></a><div itemprop=\"text\"><p>Below are the few steps given for scan-converting a circle using Bresenham’s Algorithm. Which of the given steps is not correct?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | January 2017 | Part 3 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Compute \\( d= 3-2r \\) (where \\( r \\) is radius)</p>",
+            "<p>Stop if&nbsp;\\( x&gt;y \\)</p>",
+            "<p>If \\( d&lt; 0 \\), then \\( d=4x+6 \\) and \\( x=x+1 \\)</p>",
+            "<p>If \\( d\\geq 0 \\), then \\( d=4 \\ast(x-y)+10, \\: x=x+1 \\) and \\( y=y+1 \\)</p>"
+          ],
+          "correct_answer": "<p>If \\( d\\geq 0 \\), then \\( d=4 \\ast(x-y)+10, \\: x=x+1 \\) and \\( y=y+1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335222/ugc-net-cse-january-2017-part-3-question-16\" target=\"_blank\">https://gateoverflow.in/335222/ugc-net-cse-january-2017-part-3-question-16</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"335221\"></a><div itemprop=\"text\"><p>Which of the following is/are side effects of scan conversion?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Aliasing</li>\n\t<li>Unequal intensity of diagonal lines</li>\n\t<li>Overstriking in photographic applications</li>\n\t<li>&nbsp;Local or Global aliasing</li>\n</ol>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | January 2017 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i&nbsp;and ii} \\)</p>",
+            "<p>\\( \\text{i,ii&nbsp;and iii} \\)</p>",
+            "<p>\\( \\text{i,iii&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i,ii,iii&nbsp;and iv} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i,ii,iii&nbsp;and iv} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335221/ugc-net-cse-january-2017-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/335221/ugc-net-cse-january-2017-part-3-question-17</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"335220\"></a><div itemprop=\"text\"><p>Consider a line \\( AB \\) with \\( A=(0,0) \\) and \\( B=(8,4) \\). Apply a simple \\( DDA \\) algorithm and compute the first four plots on this line.</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | January 2017 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( [(0,0),(1,1),(2,1),(3,2)] \\)</p>",
+            "<p>\\( [(0,0),(1,1.5),(2,2),(3,3)] \\)</p>",
+            "<p>\\( [(0,0),(1,1),(2,2.5),(3,3)] \\)</p>",
+            "<p>\\( [(0,0),(1,2),(2,2),(3,2)] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( [(0,0),(1,1),(2,1),(3,2)] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335220/ugc-net-cse-january-2017-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/335220/ugc-net-cse-january-2017-part-3-question-18</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"63716\"></a><div itemprop=\"text\"><p>Let R be the rectangular window against which the lines are to be clipped using 2D Sutherland-Cohen line clipping algorithm. The rectangular window has lower rectangular corner at (-5, 1) and upper right-hand corner at (3, 7). Consider the following three lines for clipping with the given end-point coordinates?</p>\n\n<p>Line AB:A(-6,2) and B(-1,8)</p>\n\n<p>Line CD: C(-1,5) and D(4,8)</p>\n\n<p>Line EF: E(-2,3) and F(1,2)</p>\n\n<p>Which of the following lines is/are candidate for clipping?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | July 2016 | Part 3 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>AB</p>",
+            "<p>DC</p>",
+            "<p>EF</p>",
+            "<p>AB and CD</p>"
+          ],
+          "correct_answer": "<p>AB and CD</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63716/ugc-net-cse-july-2016-part-3-question-15\" target=\"_blank\">https://gateoverflow.in/63716/ugc-net-cse-july-2016-part-3-question-15</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"63937\"></a><div itemprop=\"text\"><p>Let us consider that the original point is (x,y) and new transformed point is (x’,y’). Further Sh\\( _x \\) and Sh\\( _y \\) are shearing factors in x and y directions. If we perform the y direction shear relative to x=s\\( _{ref} \\) then the transformed point is given by</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | July 2016 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x’=x+Sh_x.(y-y_{ref}); y’=y \\)</p>",
+            "<p>\\( x’=x; y’=y.Sh_x \\)</p>",
+            "<p>\\( x’=x; y’=Sh_y(x-x_{ref})+y \\)</p>",
+            "<p>\\( x’=Sh_y.y; y’=y.(x-x_{ref}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x’=x; y’=Sh_y(x-x_{ref})+y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63937/ugc-net-cse-july-2016-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/63937/ugc-net-cse-july-2016-part-3-question-17</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"63939\"></a><div itemprop=\"text\"><p>Which of the following statements is/are correct with reference to curve generation?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Hermite curves are generated using the concepts of interpolation</li>\n\t<li>Bezier curves are generated using the concepts of approximation</li>\n\t<li>The Bezier curve lies entirely within the convex hull of its control points</li>\n\t<li>The degree of Bezier curve does not depend on the number of control points\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | July 2016 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I, II and IV only</p>",
+            "<p>II and III only</p>",
+            "<p>I and II only</p>",
+            "<p>I, II and III only</p>"
+          ],
+          "correct_answer": "<p>I, II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63939/ugc-net-cse-july-2016-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/63939/ugc-net-cse-july-2016-part-3-question-18</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"225878\"></a><div itemprop=\"text\"><p>A graphic display system has a frame buffer that is 640 pixels high&nbsp;<strong>, </strong>480 pixels high and &nbsp;1 bit of color depth. If the access time for each pixel on the average is 200 nanoseconds, then the refresh rate of this frame buffer is approximately:</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | July 2018 | Part 2 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>16 frames per second</p>",
+            "<p>19&nbsp;frames per second</p>",
+            "<p>21&nbsp;frames per second</p>",
+            "<p>23&nbsp;frames per second</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225878/ugc-net-cse-july-2018-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/225878/ugc-net-cse-july-2018-part-2-question-8</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"56097\"></a><div itemprop=\"text\"><p>If the pixels of an image are shuffled then the parameter that may change is</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2012 | Part 3 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Histogram</p>",
+            "<p>Mean</p>",
+            "<p>Entropy</p>",
+            "<p>Covariance</p>"
+          ],
+          "correct_answer": "<p>Covariance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56097/ugc-net-cse-june-2012-part-3-question-14\" target=\"_blank\">https://gateoverflow.in/56097/ugc-net-cse-june-2012-part-3-question-14</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"56352\"></a><div itemprop=\"text\">\n<p>If a and b are the end points of a line, then which of the following is true?</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2012 | Part 3 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If both end points are left, right, above or below the window, the line is invisible.</p>",
+            "<p>If both end points are left, right, above or below the window, the line is completely visible.</p>",
+            "<p>If both end points are left, right, above or below the window, the line is trivially visible</p>",
+            "<p>If both end points are left, right, above or below the window, the line is trivially invisible</p>"
+          ],
+          "correct_answer": "<p>If both end points are left, right, above or below the window, the line is trivially invisible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56352/ugc-net-cse-june-2012-part-3-question-63\" target=\"_blank\">https://gateoverflow.in/56352/ugc-net-cse-june-2012-part-3-question-63</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"55773\"></a><div itemprop=\"text\">\n<p>Beam-penetration and shadow-mask are the two basic techniques for producing color displays with a CRT. Which of the following is not true ?</p>\n\n<p>I. The beam-penetration is used with random scan monitors.</p>\n\n<p>II. Shadow-mask is used in rasterscan systems.</p>\n\n<p>III. Beam-penetration method is better than shadow-mask method.</p>\n\n<p>IV. Shadow-mask method is better than beam-penetration method.&nbsp;</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2014 | Part 3 | Question: 01</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II&nbsp;</p>",
+            "<p>II and III&nbsp;</p>",
+            "<p>III only</p>",
+            "<p>IV only&nbsp;</p>"
+          ],
+          "correct_answer": "<p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55773/ugc-net-cse-june-2014-part-3-question-01\" target=\"_blank\">https://gateoverflow.in/55773/ugc-net-cse-june-2014-part-3-question-01</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"55775\"></a><div itemprop=\"text\">\n<p>Line caps are used for adjusting the shape of the line ends to give them a better appearance. Various kinds of line caps used are</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2014 | Part 3 | Question: 02</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Butt cap and sharp cap</p>",
+            "<p>Butt cap and round cap</p>",
+            "<p>Butt cap, sharp cap and round cap</p>",
+            "<p>Butt cap, round cap and projecting square cap&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Butt cap, round cap and projecting square cap&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55775/ugc-net-cse-june-2014-part-3-question-02\" target=\"_blank\">https://gateoverflow.in/55775/ugc-net-cse-june-2014-part-3-question-02</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"55776\"></a><div itemprop=\"text\"><p>Given below are certain output primitives and their associated attributes. Match each primitive with its corresponding attributes \\( : \\)</p>\n\n<p>\\( \\begin{array}{cIcI} &nbsp;&amp;&nbsp; \\textbf{List – I} &amp;&amp; \\textbf{List – II} \\\\&nbsp;\\text{a.} &amp; \\text{Line} &amp; \\text{i.} &amp; \\text{Type, Size, Color} \\\\&nbsp;\\text{b.} &amp; \\text{Fill Area} &amp; \\text{ii.} &amp; \\text{Color, Size, Font} \\\\&nbsp;\\text{c.} &amp; \\text{Text} &amp; \\text{iii.} &amp; \\text{Style, Color, Pattern} \\\\&nbsp;\\text{d.} &amp; \\text{Marker} &amp; \\text{iv.} &amp; \\text{Type, Width, Color}&nbsp; \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2014 | Part 3 | Question: 03</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-i,&nbsp;b-ii,&nbsp;c-iii,&nbsp;d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii,&nbsp;b-i,&nbsp;c-iii,&nbsp;d-iv} \\)</p>",
+            "<p>\\( \\text{a-iv,&nbsp;b-iii,&nbsp;c-ii,&nbsp;d-i} \\)</p>",
+            "<p>\\( \\text{a-iii, b-i, c-iv,&nbsp;d-ii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iv,&nbsp;b-iii,&nbsp;c-ii,&nbsp;d-i} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55776/ugc-net-cse-june-2014-part-3-question-03\" target=\"_blank\">https://gateoverflow.in/55776/ugc-net-cse-june-2014-part-3-question-03</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"55781\"></a><div itemprop=\"text\">\n<p>Consider a window bounded by the lines : \\( x = 0; y= 0; x = 5 \\) and \\( y = 3 \\). The line segment joining \\( (-1, 0) \\) and \\( (4, 5) \\), if clipped against this window will connect the points</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2014 | Part 3 | Question: 04</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (0, 1) \\) and \\( (2, 3) \\)&nbsp;</p>",
+            "<p>\\( (0, 1) \\) and \\( (3, 3) \\)&nbsp;</p>",
+            "<p>\\( (0, 1) \\) and \\( (4, 3) \\)&nbsp;</p>",
+            "<p>\\( (0, 1) \\) and \\( (3, 2) \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( (0, 1) \\) and \\( (2, 3) \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55781/ugc-net-cse-june-2014-part-3-question-04\" target=\"_blank\">https://gateoverflow.in/55781/ugc-net-cse-june-2014-part-3-question-04</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"55782\"></a><div itemprop=\"text\">\n<p>Which of the following color models are defined with three primary colors ?&nbsp;</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2014 | Part 3 | Question: 05</b></p>",
+          "type": "single",
+          "options": [
+            "<p>RGB and HSV color models</p>",
+            "<p>CMY and HSV color models</p>",
+            "<p>HSV and HLS color models</p>",
+            "<p>RGB and CMY color models&nbsp;</p>"
+          ],
+          "correct_answer": "<p>RGB and CMY color models&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55782/ugc-net-cse-june-2014-part-3-question-05\" target=\"_blank\">https://gateoverflow.in/55782/ugc-net-cse-june-2014-part-3-question-05</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"61159\"></a><div itemprop=\"text\">\n<p>Which of the following is not a basic primitive of the Graphics Kernel System (GKS)?</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | Junet 2015 | Part 3 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>POLYLINE</p>",
+            "<p>POLYDRAW</p>",
+            "<p>FILL AREA</p>",
+            "<p>POLYMARKER</p>"
+          ],
+          "correct_answer": "<p>POLYDRAW</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61159/ugc-net-cse-junet-2015-part-3-question-16\" target=\"_blank\">https://gateoverflow.in/61159/ugc-net-cse-junet-2015-part-3-question-16</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"61161\"></a><div itemprop=\"text\"><p>Which of the following statements is/are incorrect?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Mapping the co-ordinates of the points and lines that form the picture into the appropriate co-ordinates on the device or workstation is known as viewing transformation</li>\n\t<li>The right-handed cartesian co-ordinates system in whose co-ordinates we describe the picture is known as world co-ordinate system</li>\n\t<li>The co-ordinate system that corresponds to the device or workstation where the image is to be displayed is known as physical device co-ordinate system</li>\n\t<li>Left-handed co-ordinate system in which the display area of the virtual display device corresponds to the unit \\( (\\mid x \\mid) \\) square whose lower left-hand corner is at the origin of the co-ordinate system, is known as normalized device co-ordinate system\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | Junet 2015 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i&nbsp;only} \\)</p>",
+            "<p>\\( \\text{i&nbsp;and ii} \\)</p>",
+            "<p>\\( \\text{iii&nbsp;only} \\)</p>",
+            "<p>\\( \\text{iv&nbsp;only} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{iv&nbsp;only} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61161/ugc-net-cse-junet-2015-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/61161/ugc-net-cse-junet-2015-part-3-question-17</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"61164\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl}&nbsp;&amp;&nbsp;&nbsp;\\textbf{List-I} &amp; &amp; \\textbf{List-II}\\\\&nbsp; \\text{(a)} &amp; \\text{Flood Gun} &amp; \\text{(i)} &amp; \\text{An electron gun designed to flood the}\\\\ &amp;&amp;&amp; \\text{entire screen with electrons.} \\\\&nbsp;\\text{(b)} &amp; \\text{Collector} &amp; \\text{(ii)}&amp; \\text{Partly energized by flooding gun, stores} \\\\ &amp;&amp;&amp;\\text{the charge generated by the writing gun.} \\\\&nbsp;\\text{(c)} &amp; \\text{Ground} &amp; \\text{(iii)} &amp; \\text{Used to discharge the collector.} \\\\&nbsp;\\text{(d)} &amp; \\text{Phosphorous Grains} &amp; \\text{(iv)} &amp; \\text{Used in memory - tube display and similar} \\\\ &amp;&amp;&amp;\\text{to those used in standard CRT.} \\\\&nbsp;\\text{(e)} &amp; \\text{Writing Gun System} &amp; \\text{(v)} &amp; \\text{Used in memory - tube display and basically} \\\\&amp;&amp;&amp; \\text{the same as the electron gun used in a } \\\\&nbsp; &amp;&amp;&amp;\\text{conventional CRT.} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | Junet 2015 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv), (e)-(v)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv), (e)-(v)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(i), (c)-(ii), (d)-(v), (e)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(v), (c)-(i), (d)-(ii), (e)-(iii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv), (e)-(v)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61164/ugc-net-cse-junet-2015-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/61164/ugc-net-cse-junet-2015-part-3-question-18</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"166389\"></a><div itemprop=\"text\"><p>Which of the following is not a component of Memory tube display?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | November 2017 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Flooding gun</p>",
+            "<p>Collector</p>",
+            "<p>Ground</p>",
+            "<p>Liquid Crystal</p>"
+          ],
+          "correct_answer": "<p>Liquid Crystal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166389/ugc-net-cse-november-2017-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/166389/ugc-net-cse-november-2017-part-3-question-13</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"349627\"></a><div itemprop=\"text\"><p>In the context of \\( 3D \\) Computer graphics, which of the following statements is/are correct?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Under perspective projection, each set of parallel lines in the object do not stay parallel in the image (except those that are parallel to the viewplane to start with).</li>\n\t<li>Applying a perspective transformation in the graphics pipeline to a vertex involves dividing by its \\( ’z’ \\) coordinate</li>\n\t<li>Perspective transformation is a linear transformation</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | October 2020 | Part 2 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (i) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (i) \\), \\( (ii) \\) and \\( (iii) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349627/ugc-net-cse-october-2020-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/349627/ugc-net-cse-october-2020-part-2-question-46</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"349626\"></a><div itemprop=\"text\"><p>Concerning phong shading and Gouraud shading in a \\( 3\\text{D} \\) scene, which of the following statements are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Gouraud shading requires&nbsp;more computation than phong shading</li>\n\t<li>Gouraud shading linearly interpolates the color of an interior pixel from the color at the vertices</li>\n\t<li>Phong shading interpolates over the normal vectors specified at the vertices</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | October 2020 | Part 2 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (i) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (i), (ii) \\) and \\( (iii) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349626/ugc-net-cse-october-2020-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/349626/ugc-net-cse-october-2020-part-2-question-47</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"349607\"></a><div itemprop=\"text\"><p>&nbsp;</p><p>Match \\( \\text{List I} \\) with \\( \\text{List II} \\). \\( \\text{List I} \\)&nbsp;gives \\( 3 \\times 3 \\) matrices representing \\( 2D \\) transformations and \\( \\text{List II} \\) shows the corresponding transformation diagrams.</p><p style=\"text-align:center\"><img alt=\"Matrix table\" width=\"700\" height=\"733\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=16453700075496463058\"></p><p>&nbsp;</p><p>Choose the correct answer from the options given below:</p></div><br><br><b>Computer Graphics: UGC NET CSE | October 2020 | Part 2 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A-IV, B-II, C-III, D-I \\)</p>",
+            "<p>\\( A-IV, B-III, C-II, D-I \\)</p>",
+            "<p>\\( A-III, B-II, C-IV, D-I \\)</p>",
+            "<p>\\( A-II, B-IV, C-III, D-I \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A-II, B-IV, C-III, D-I \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349607/ugc-net-cse-october-2020-part-2-question-66\" target=\"_blank\">https://gateoverflow.in/349607/ugc-net-cse-october-2020-part-2-question-66</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"349597\"></a><div itemprop=\"text\"><p>Given below are different properties of \\( 3\\text{D} \\) projections from \\( \\text{A-D} \\). Identify the correct order on the basis of property true of \\( \\text{(i)} \\) a perspective projection only, \\( \\text{(ii)} \\) an orthographic projection only, \\( \\text{(iii)} \\) both orthographic&nbsp;and projective transformations and \\( \\text{(iv)} \\) neither orthographic nor projective transformation, respectively.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Straight lines are mapped to straight lines</li>\n\t<li>Distances and angles are (in general) preserved</li>\n\t<li>Far away objects appear the same size as closer ones</li>\n\t<li>Requires homogeneous coordinates in order for it to be encoded into a linear transformation</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | October 2020 | Part 2 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{iv,iii,ii,i} \\)</p>",
+            "<p>\\( \\text{ii,iii,iv,i} \\)</p>",
+            "<p>\\( \\text{iv,iii,i,ii} \\)</p>",
+            "<p>\\( \\text{iii,iv,ii,i} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{iv,iii,i,ii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349597/ugc-net-cse-october-2020-part-2-question-76\" target=\"_blank\">https://gateoverflow.in/349597/ugc-net-cse-october-2020-part-2-question-76</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"349591\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Given below are two statements:</p>\n\n<p>Statement \\( I \\): Bezier curves are curves that interpolate all of their control points</p>\n\n<p>Statement \\( II \\): A cubic bezier curve has four control points</p>\n\n<p>In the light of the above statements, choose the correct answer from the options given below</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | October 2020 | Part 2 | Question: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349591/ugc-net-cse-october-2020-part-2-question-82\" target=\"_blank\">https://gateoverflow.in/349591/ugc-net-cse-october-2020-part-2-question-82</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"59930\"></a><div itemprop=\"text\"><p>Which of the following graphics devices are known as active graphics devices?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Alphanumeric devices</li>\n\t<li>Thumb wheels</li>\n\t<li>Digitizers</li>\n\t<li>Joystics\n\t\n\t</li>\n</ol></div><br><br><b>Computer Graphics: UGC NET CSE | September 2013 | Part 3 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II</p>",
+            "<p>III and IV</p>",
+            "<p>I, II and III</p>",
+            "<p>I, II, III and IV</p>"
+          ],
+          "correct_answer": "<p>I, II, III and IV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59930/ugc-net-cse-september-2013-part-3-question-59\" target=\"_blank\">https://gateoverflow.in/59930/ugc-net-cse-september-2013-part-3-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

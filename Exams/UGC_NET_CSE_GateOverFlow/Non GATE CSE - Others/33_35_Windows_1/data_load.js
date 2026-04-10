@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Windows",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Windows",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56424\"></a><div itemprop=\"text\"><p>What is the meaning of ‘Hibernate’ in WindowsXP/Windows 7?</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2012 | Part 3 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Restart the computers in safe mode</p>",
+            "<p>Restart the computers in normal mode</p>",
+            "<p>Shutdown the computer terminating all the running applications</p>",
+            "<p>Shutdown the computer without closing the running applications</p>"
+          ],
+          "correct_answer": "<p>Shutdown the computer without closing the running applications</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56424/ugc-net-cse-june-2012-part-3-question-69\" target=\"_blank\">https://gateoverflow.in/56424/ugc-net-cse-june-2012-part-3-question-69</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>We use malloc and calloc for: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic memory allocation</p>",
+            "<b>B.</b> <p>Static memory allocation</p>",
+            "<b>C.</b> <p>Both dynamic memory allocation and static memory allocation</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128772/isro2017-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the output of the following program?<br><pre><code> #include &lt; stdio.h &gt;\nint tmp=20;\nmain()\n{\n  printf(\"%d\", tmp);\n  func();\n  printf(\"%d\", tmp);\n\n}\nfunc()\n{\n static int tmp=10;\n printf(\"%d\", tmp);\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20 10 10</p>",
+            "<b>B.</b> <p>20 10 20</p>",
+            "<b>C.</b> <p>20 20 20</p>",
+            "<b>D.</b> <p>10 10 10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20 10 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128754/isro2017-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What does the following program do when the input is unsigned 16 bit integer?<br><pre><code> #include &lt; stdio.h &gt;\nmain(){\n  unsigned int num;\n  int i;\n  scanf(\"%u\", &amp;num);\n  for(i=0;i&lt;16;i++){\n    printf(\"%d\", (num &lt; &lt; i&amp;1 &lt; &lt; 15)?1:0);\n  }\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It prints all even bits from num</p>",
+            "<b>B.</b> <p>It prints all odd bits from num</p>",
+            "<b>C.</b> <p>It prints binary equivalent of num</p>",
+            "<b>D.</b> <p>None of above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>It prints binary equivalent of num</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128753/isro2017-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What will be the output of the following C code?<br><pre><code> #include &lt; stdio.h &gt;\nmain()\n{\n    int i;\n    for(i=0;i&lt;5;i++)\n    {\n        int i=10;\n        printf(\"%d\" , i);\n        i++;\n    }\n    return 0;\n}</code></pre><br> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 11 12 13 14</p>",
+            "<b>B.</b> <p>10 10 10 10 10</p>",
+            "<b>C.</b> <p>0 1 2 3 4</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 10 10 10 10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128751/isro2017-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What does the following C-statement declare?<br><pre><code> int (*f) (int * );</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>B.</b> <p>A function that takes an integer as argument and returns an integer pointer</p>",
+            "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>D.</b> <p>A function that takes an integer pointer as argument and returns a function pointer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1343/gate2005-1-isro2017-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following function<br><pre><code> void swap(int a, int b)  \n{       \n    int temp;\n    temp = a;\n    a = b;\n    b = temp;  \n}  </code></pre>In order to exchange the values of two variables x and y. <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>call swap(x,y)</p>",
+            "<b>B.</b> <p>call swap(&amp;x,&amp;y)</p>",
+            "<b>C.</b> <p>swap(x,y)  cannot be used as it does not return any value</p>",
+            "<b>D.</b> <p>swap(x,y)  cannot be used as the parameters are passed by value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>swap(x,y)  cannot be used as the parameters are passed by value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/999/gate2004-2-isro2017-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the output of the C++ program?<br><pre><code> #include &lt; iostream &gt;\nusing namespace std;\n\nvoid square(int *x){\n    *x = (*x)++ * (*x);\n}\n\nvoid square(int *x, int *y){\n    *x = (*x) * --(*y);\n}\n\nint main()\n{\n  int number = 30;\n  square(&amp;number, &amp;number);\n  cout &lt; &lt; number;\n  return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>910</p>",
+            "<b>B.</b> <p>920</p>",
+            "<b>C.</b> <p>870</p>",
+            "<b>D.</b> <p>900</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>870</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128615/isro2017-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following is correct about the statements given below?<br>I.  All function calls are resolved at compile time in C lang<br>\nII. All function calls are resolved at compile time in C++ lang <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only II is correct</p>",
+            "<b>B.</b> <p>Both I and II are correct</p>",
+            "<b>C.</b> <p>Only I is correct</p>",
+            "<b>D.</b> <p>Both I and II are incorrect</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both I and II are incorrect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55534/isro2016-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following segment of C-code:<br><pre><code>int j, n;\nj = 1;\nwhile (j &lt;= n)\n    j = j * 2;</code></pre>The number of comparisons made in the execution of the loop for any n&gt;0 is: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\lceil \\log_2n \\rceil +1\\)</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>\\(\\lceil \\log_2n \\rceil\\)</p>",
+            "<b>D.</b> <p>\\(\\lfloor \\log_2n \\rfloor +1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\lfloor \\log_2n \\rfloor +1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56129/gate2007-15-isro2016-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>What will be output of the following program? Assume that you are running this program in little-endian processor.<br><pre><code> #include &lt; stdio.h &gt;\nint main()\n{\n    short a=320;\n    char *ptr;\n    ptr=(char *)&amp;a;\n    printf(\"%d\",*ptr);\n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>320</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55481/isro2016-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the output of this C  code?<br><pre><code> #include &lt; stdio.h &gt;\nvoid main()\n{\n    int k=5;\n    int *p=&amp;k;\n    int **m=&amp;p;\n    printf(\"%d %d %d\",k,*p,**m);\n    \n}</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 5 5</p>",
+            "<b>B.</b> <p>5 5 junk</p>",
+            "<b>C.</b> <p>5 junk junk</p>",
+            "<b>D.</b> <p>compile time error</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5 5 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55468/isro2016-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following code fragment<br><pre><code> void foo(int x, int y)\n{\n    x+=y;\n    y+=x;\n}\nmain()\n{\n    int x=5.5;\n    foo(x,x);\n}</code></pre>What is the final value of x in both call by value and call by reference, respectively? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 and 16</p>",
+            "<b>B.</b> <p>5 and 12</p>",
+            "<b>C.</b> <p>5 and 20</p>",
+            "<b>D.</b> <p>12 and 20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5 and 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52145/isro2015-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following C declaration:<br><pre><code> struct ( \n    short x[5];  \n    union { \n        float y; \n        long z; \n    } u;\n )t;</code></pre>Assume that the objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment consideration, is: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22  bytes</p>",
+            "<b>B.</b> <p>14 bytes</p>",
+            "<b>C.</b> <p>18 bytes</p>",
+            "<b>D.</b> <p>10 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>18 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/640/gate2000-1-17-isro2015-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following statements<br><pre><code> #define hypotenuse (a, b) sqrt (a*a+b*b);</code></pre>The macro call hypotenuse(a+2,b+3); <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finds the hypotenuse of a triangle with sides a+2 and b+3</p>",
+            "<b>B.</b> <p>Finds the square root of \\((a+2)^{2}\\) and \\((b+3)^{2}\\)</p>",
+            "<b>C.</b> <p>Is invalid</p>",
+            "<b>D.</b> <p>Find the square root of 3*a+4*b+5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Find the square root of 3*a+4*b+5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/37955/isro2015-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The for loop<br><pre><code> for (i=0; i&lt;10; ++i)\nprintf(\"%d\", i&amp;1);</code></pre>prints <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0101010101\\)</p>",
+            "<b>B.</b> <p>\\(0111111111\\)</p>",
+            "<b>C.</b> <p>\\(0000000000\\)</p>",
+            "<b>D.</b> <p>\\(1111111111\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(0101010101\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52141/isro2015-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

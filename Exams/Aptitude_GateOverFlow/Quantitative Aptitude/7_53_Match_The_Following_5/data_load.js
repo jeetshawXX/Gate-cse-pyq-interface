@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Match The Following",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Match The Following",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1319\"></a><div itemprop=\"text\"><p>For the word given at the top of each table, match the dictionary definitions on the left (A, B, C, D) with their corresponding usage on the right (E, F, G, H). Out of the four possibilities given in the boxes below the table, select the one that has all the definitions and their usages correctly matched.</p>\n\n<p><strong>EXCEED</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Dictionary Definition</strong></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Usage</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>To extend outside of or enlarge beyond-used chiefly in strictly physical phenomena.&nbsp;</td>\n\t\t\t<td>E</td>\n\t\t\t<td>The mercy of God exceeds our finite minds.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>To be greater than or superior to</td>\n\t\t\t<td>F</td>\n\t\t\t<td>Their accomplishments exceeded our expectation.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Be beyond the comprehension of</td>\n\t\t\t<td>G</td>\n\t\t\t<td>He exceeded his authority when he paid his brother’s gambling debts with money from the trust.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>To go beyond a limit set by (as an authority or privilege)</td>\n\t\t\t<td>H</td>\n\t\t\t<td>If this rain keeps up, the river will exceed its banks by morning.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A-H, B-F, C-E, D-G</p>",
+            "<p>A-H, B-E, C-F, D-G</p>",
+            "<p>A-G, B-F, C-E, D-H</p>",
+            "<p>A-F, B-G, C-H, D-E</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1319/cat-2001-question-51\" target=\"_blank\">https://aptitude.gateoverflow.in/1319/cat-2001-question-51</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1320\"></a><div itemprop=\"text\"><p>For the word given at the top of each table, match the dictionary definitions on the left (A, B, C, D) with their corresponding usage on the right (E, F, G, H). Out of the four possibilities given in the boxes below the table, select the one that has all the definitions and their usages correctly matched.</p>\n\n<p><strong>INFER</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Dictionary Definition</strong></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Usage</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>To derive by reasoning or implication</td>\n\t\t\t<td>E</td>\n\t\t\t<td>We see smoke and infer fire.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>To surmise</td>\n\t\t\t<td>F</td>\n\t\t\t<td>Given some utterance, a listener may infer from it all sorts of things which neither the utterance nor the utterer implied.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>To point out</td>\n\t\t\t<td>G</td>\n\t\t\t<td>I waited all day to meet him. From this you can infer my zeal to see him.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>To hint</td>\n\t\t\t<td>H</td>\n\t\t\t<td>She did not take part in the debate except to ask a question inferring that she was not interested in the debate.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A-G, B-E, C-H, D-F</p>",
+            "<p>A-F, B-H, C-E, D-G</p>",
+            "<p>A-H, B-G, C-E, D-F</p>",
+            "<p>A-E, B-F, C-G, D-H</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1320/cat-2001-question-52\" target=\"_blank\">https://aptitude.gateoverflow.in/1320/cat-2001-question-52</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1321\"></a><div itemprop=\"text\"><p>For the word given at the top of each table, match the dictionary definitions on the left (A, B, C, D) with their corresponding usage on the right (E, F, G, H). Out of the four possibilities given in the boxes below the table, select the one that has all the definitions and their usages correctly matched.</p>\n\n<p><strong>MELLOW</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Dictionary Definition</strong></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Usage</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>Adequately and properly aged so as to be free of harshness.</td>\n\t\t\t<td>E</td>\n\t\t\t<td>He has mellowed with age.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>Freed from rashness of youth</td>\n\t\t\t<td>F</td>\n\t\t\t<td>The tones of the old violin were mellow.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Of soft and loamy consistency</td>\n\t\t\t<td>G</td>\n\t\t\t<td>Some wines are mellow.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>Rich and full but free from stridency</td>\n\t\t\t<td>H</td>\n\t\t\t<td>Mellow soil is found in the Gangetic plains.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A-E, B-G, C-H, D-F</p>",
+            "<p>A-E, B-F, C-G, D-H</p>",
+            "<p>A-G, B-E, C-H, D-F</p>",
+            "<p>A-H, B-G, C-F, D-E</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1321/cat-2001-question-53\" target=\"_blank\">https://aptitude.gateoverflow.in/1321/cat-2001-question-53</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1322\"></a><div itemprop=\"text\"><p>For the word given at the top of each table, match the dictionary definitions on the left (A, B, C, D) with their corresponding usage on the right (E, F, G, H). Out of the four possibilities given in the boxes below the table, select the one that has all the definitions and their usages correctly matched.</p>\n\n<p><strong>RELIEF</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Dictionary Definition</strong></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Usage</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>Removal or lightening of something distressing</td>\n\t\t\t<td>E</td>\n\t\t\t<td>A ceremony follows the relief of a sentry after the morning shift</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>Aid in the form of necessities for the indigent</td>\n\t\t\t<td>F</td>\n\t\t\t<td>It was a relief to take off the tight shoes.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Diversion</td>\n\t\t\t<td>G</td>\n\t\t\t<td>The only relief I get is by playing cards.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>Release from the performance of duty</td>\n\t\t\t<td>H</td>\n\t\t\t<td>Disaster relief was offered to the victims</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A-F, B-H, C-E, D-G</p>",
+            "<p>A-F, B-H, C-G, D-E</p>",
+            "<p>A-H, B-F, C-G, D-E</p>",
+            "<p>A-G, B-E, C-H, D-F</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1322/cat-2001-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/1322/cat-2001-question-54</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1323\"></a><div itemprop=\"text\"><p>For the word given at the top of each table, match the dictionary definitions on the left (A, B, C, D) with their corresponding usage on the right (E, F, G, H). Out of the four possibilities given in the boxes below the table, select the one that has all the definitions and their usages correctly matched.</p>\n\n<p><strong>PURGE</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Dictionary Definition</strong></td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td><strong>Usage</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>Remove a stigma from the name of</td>\n\t\t\t<td>E</td>\n\t\t\t<td>The opposition was purged after the coup.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>Make a clean sweep by removing whatever is superfluous, foreign</td>\n\t\t\t<td>F</td>\n\t\t\t<td>The committee heard his attempt to purge himself of a charge of heresy.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Get rid of</td>\n\t\t\t<td>G</td>\n\t\t\t<td>Drugs that purge the bowels are often bad for the brain.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>To cause evacuation of</td>\n\t\t\t<td>H</td>\n\t\t\t<td>It is recommended to purge water by distillation.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A-E, B-G, C-F, D-H</p>",
+            "<p>A-F, B-E, C-H, D-G</p>",
+            "<p>A-H, B-F, C-G, D-E</p>",
+            "<p>A-F, B-H, C-E, D-G</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1323/cat-2001-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/1323/cat-2001-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+});

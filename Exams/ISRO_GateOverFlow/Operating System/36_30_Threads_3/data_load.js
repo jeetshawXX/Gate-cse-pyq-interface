@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Operating System - Threads",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Threads",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"47809\"></a><div itemprop=\"text\"><p>Overlaying</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2008 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>requires use of a loader</p>",
+            "<p>allows larger programs, but requires more effort</p>",
+            "<p>is most used on large computers</p>",
+            "<p>is transparent to the user</p>"
+          ],
+          "correct_answer": "<p>is transparent to the user</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47809/isro-cse-2008-question-60\" target=\"_blank\">https://gateoverflow.in/47809/isro-cse-2008-question-60</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435385\"></a><div itemprop=\"text\"><p>Which of the following multithreading model is followed in Linux OS?</p></div><br><br><b>Operating System: ISRO CSE 2023 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One User Thread mapping to One Kernel Thread</p>",
+            "<p>Many User Threads mapping to One Kernel Thread</p>",
+            "<p>One User Thread mapping to Many Kernel Threads</p>",
+            "<p>Many User Threads mapping to Many Kernel Threads<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>One User Thread mapping to One Kernel Thread</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435385/isro-cse-2023-question-11\" target=\"_blank\">https://gateoverflow.in/435385/isro-cse-2023-question-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"435384\"></a><div itemprop=\"text\"><p>Purpose of priority inheritance protocol in synchronization mechanisms is</p></div><br><br><b>Operating System: ISRO CSE 2023 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To prevent priority inversion in systems having two or lesser priorities for a resource</p>",
+            "<p>To provide mutual exclusion between threads and prevent data corruption</p>",
+            "<p>To prevent priority inversion and ensure fairness in resource allocation</p>",
+            "<p>To allow multiple threads to access any resource simultaneously<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>To prevent priority inversion and ensure fairness in resource allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435384/isro-cse-2023-question-12\" target=\"_blank\">https://gateoverflow.in/435384/isro-cse-2023-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

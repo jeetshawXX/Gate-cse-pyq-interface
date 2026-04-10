@@ -1,0 +1,41 @@
+{
+  "title": "Others - Others - Enterprise Resource Planning",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Enterprise Resource Planning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64182\"></a><div itemprop=\"text\"><p>Enterprise Resource Planning (ERP)</p></div><br><br><b>Others: UGC NET CSE | December 2011 | Part 2 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Has existed for over a decade.</p>",
+            "<p>Does not integrate well with the functional areas other than operations.</p>",
+            "<p>Is inexpensive to implement.</p>",
+            "<p>Automate and integrates the majority of business processes.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64182/ugc-net-cse-december-2011-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/64182/ugc-net-cse-december-2011-part-2-question-44</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"64183\"></a><div itemprop=\"text\"><p>Which of the following is false concerning Enterprise Resource Planning (ERP) ?</p></div><br><br><b>Others: UGC NET CSE | December 2011 | Part 2 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>It attempts to automate and integrate the majority of business processes.</p>",
+            "<p>It shares common data and practices across the enterprise.</p>",
+            "<p>It is inexpensive to implement.</p>",
+            "<p>It provides and access information in a real-time environment.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64183/ugc-net-cse-december-2011-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/64183/ugc-net-cse-december-2011-part-2-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

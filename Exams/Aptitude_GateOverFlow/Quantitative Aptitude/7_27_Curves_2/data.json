@@ -1,0 +1,41 @@
+{
+  "title": "Quantitative Aptitude - Curves",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Curves",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1038\"></a><div itemprop=\"text\"><p>Consider the following two curves in the \\( x-y \\) plane&nbsp;</p>\n\n<ul>\n\t<li>\\( y=x^3 + x^2 +5 \\)</li>\n\t<li>\\( y=x^2 + x + 5 \\)</li>\n</ul>\n\n<p>Which of the following statements is true for \\( -2 \\leq z \\leq 2 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The two curves intersect once</p>",
+            "<p>The two curves intersect twice</p>",
+            "<p>The two curves do not intersect</p>",
+            "<p>The two curves intersect thrice</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1038/cat-2003-question-1-145\" target=\"_blank\">https://aptitude.gateoverflow.in/1038/cat-2003-question-1-145</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"5329\"></a><div itemprop=\"text\"><p>Consider the following two curves in the \\( \\text{XY} \\) plane:</p>\n\n<p>\\( \\\\y=2x^3+3x^2+4\\: \\text{and}&nbsp;\\\\y=3x^2-2x+8 \\)</p>\n\n<p>Which of the following statements is true for \\( -3≤x≤2? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The two curves intersect thrice</p>",
+            "<p>The two curves intersect twice</p>",
+            "<p>The two curves intersect once</p>",
+            "<p>The two curves do not intersect</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5329/cat-2013-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/5329/cat-2013-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

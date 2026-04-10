@@ -1,0 +1,21 @@
+{
+  "title": "Quantitative Aptitude - Tcs Digital",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Tcs Digital",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4896\"></a><div itemprop=\"text\"><p>A rectangle of height 100 squares and width 200 squares is drawn on a graph paper. It is colored square by square from top left the corner and moving across in a spiral turning right whenever a side of the rectangle or a colored square is reached. Which square is colored last? (give its row and column numbers – the bottom right square is on row 100 and column 200)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14855237548951065726\"></p>\n\n<p>a) 50,50<br>\nb) 51,50<br>\nc) 51,150<br>\nd) 50,150</p></div><br><br><b>Quantitative Aptitude: TCS DIGITAL APTI</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4896/tcs-digital-apti\" target=\"_blank\">https://aptitude.gateoverflow.in/4896/tcs-digital-apti</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Sorting",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"975\"></a><div itemprop=\"text\">\n<p>Which one of the following in place sorting algorithms needs the minimum number of swaps?</p>\n\n\n</div><br><br><b>Algorithms: GATE CSE 2006 | Question: 14, ISRO2011</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Quick sort</p>",
+            "<p>Insertion sort</p>",
+            "<p>Selection sort</p>",
+            "<p>Heap sort</p>"
+          ],
+          "correct_answer": "<p>Selection sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/975/gate-cse-2006-question-14-isro2011-14\" target=\"_blank\">https://gateoverflow.in/975/gate-cse-2006-question-14-isro2011-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"17268\"></a><div itemprop=\"text\"><p>How many comparisons are needed to sort an array of length \\( 5 \\) if a straight selection sort is used and array is already in the opposite order?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2008 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17268/isro-cse-2008-question-77\" target=\"_blank\">https://gateoverflow.in/17268/isro-cse-2008-question-77</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55014\"></a><div itemprop=\"text\">\n<p>Consider the following sorting algorithms.</p>\n\n<ol style=\"list-style-type: upper-roman;\"><li>Quicksort</li>\n\t<li>Heapsort</li>\n\t<li>Mergesort</li>\n</ol><p>Which of them perform in least time in the worst case?</p>\n\n\n</div><br><br><b>Algorithms: ISRO CSE 2014 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II only</p>",
+            "<p>II and III only</p>",
+            "<p>III only</p>",
+            "<p>I, II and III</p>"
+          ],
+          "correct_answer": "<p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55014/isro-cse-2014-question-62\" target=\"_blank\">https://gateoverflow.in/55014/isro-cse-2014-question-62</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"128545\"></a><div itemprop=\"text\"><p>Which one of the following in-place sorting algorithms needs the minimum number of swaps?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2017 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion Sort</p>",
+            "<p>Quick Sort</p>",
+            "<p>Heap Sort</p>",
+            "<p>Selection Sort</p>"
+          ],
+          "correct_answer": "<p>Selection Sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128545/isro-cse-2017-question-15\" target=\"_blank\">https://gateoverflow.in/128545/isro-cse-2017-question-15</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"128694\"></a><div itemprop=\"text\"><p>The number of swappings needed to sort the numbers \\( 8 , 22, 7, 9, 31, 5, 13 \\) in ascending order using bubble sort is</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2017 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128694/isro-cse-2017-question-49\" target=\"_blank\">https://gateoverflow.in/128694/isro-cse-2017-question-49</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"213522\"></a><div itemprop=\"text\">\n\n<p>Of the following sorting algorithms, which has a running time that is least dependent on the initial ordering of the input?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mege Sort</p>",
+            "<p>Insertion Sort</p>",
+            "<p>Selection Sort</p>",
+            "<p>Quick Sort</p>"
+          ],
+          "correct_answer": "<p>Mege Sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213522/isro-cse-2018-question-66\" target=\"_blank\">https://gateoverflow.in/213522/isro-cse-2018-question-66</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"331354\"></a><div itemprop=\"text\"><p>If an array \\( A \\) contains the items \\( 10,4,7,23,67,12 \\) and \\( 5 \\) in that order, what will be the resultant array \\( A \\) after third pass of insertion sort?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2020 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 67,12,10,5,4,7,23 \\)</p>",
+            "<p>\\( 4,7,10,23,67,12,5 \\)</p>",
+            "<p>\\( 4,5,7,67,10,12,23 \\)</p>",
+            "<p>\\( 10,7,4,67,23,12,5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4,7,10,23,67,12,5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331354/isro-cse-2020-question-33\" target=\"_blank\">https://gateoverflow.in/331354/isro-cse-2020-question-33</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"331259\"></a><div itemprop=\"text\"><p>Of the following sort algorithms, which has execution time that is least dependant on initial ordering of the input?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2020 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort</p>",
+            "<p>Quick sort</p>",
+            "<p>Merge sort</p>",
+            "<p>Selection sort</p>"
+          ],
+          "correct_answer": "<p>Merge sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331259/isro-cse-2020-question-65\" target=\"_blank\">https://gateoverflow.in/331259/isro-cse-2020-question-65</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"435390\"></a><div itemprop=\"text\"><p>Worst case time complexity of heap sort for \\( n \\) elements?</p></div><br><br><b>Algorithms: ISRO CSE 2023 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n\\log n) \\)</p>",
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O({n}^2) \\)</p>",
+            "<p>\\( O(n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435390/isro-cse-2023-question-6\" target=\"_blank\">https://gateoverflow.in/435390/isro-cse-2023-question-6</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"43802\"></a><div itemprop=\"text\">\n<p>Which of the following sorting algorithms has the minimum running time complexity in the best and average case?</p>\n\n\n</div><br><br><b>Algorithms: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort, Quick sort</p>",
+            "<p>Quick sort, Quick sort</p>",
+            "<p>Quick sort, Insertion sort</p>",
+            "<p>Insertion sort, Insertion sort</p>"
+          ],
+          "correct_answer": "<p>Insertion sort, Quick sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43802/isro-2013-12\" target=\"_blank\">https://gateoverflow.in/43802/isro-2013-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

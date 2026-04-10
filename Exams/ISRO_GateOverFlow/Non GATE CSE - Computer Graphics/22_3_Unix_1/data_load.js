@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Unix",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Unix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"52822\"></a><div itemprop=\"text\"><p>Which of the following UNIX command allows scheduling a program to be executed at the specifies time?</p>\n\n</div><br><br><b>Computer Graphics: ISRO CSE 2011 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cron</p>",
+            "<p>nice</p>",
+            "<p>date and time</p>",
+            "<p>schedule</p>"
+          ],
+          "correct_answer": "<p>cron</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52822/isro-cse-2011-question-57\" target=\"_blank\">https://gateoverflow.in/52822/isro-cse-2011-question-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

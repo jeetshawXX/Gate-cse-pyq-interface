@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Max Heap",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Max Heap",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63955\"></a><div itemprop=\"text\"><p>Which one of the following array represents a binary max-heap?</p></div><br><br><b>Data Structures: UGC NET CSE | July 2016 | Part 3 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>[26, 13, 17, 14, 11, 9, 15]</p>",
+            "<p>[26, 15, 14, 17, 11, 9, 13]</p>",
+            "<p>[26, 15, 17, 14, 11, 9, 13]</p>",
+            "<p>[26, 15, 13, 14, 11, 9, 17]</p>"
+          ],
+          "correct_answer": "<p>[26, 15, 17, 14, 11, 9, 13]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63955/ugc-net-cse-july-2016-part-3-question-33\" target=\"_blank\">https://gateoverflow.in/63955/ugc-net-cse-july-2016-part-3-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+}

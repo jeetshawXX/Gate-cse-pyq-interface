@@ -1,0 +1,26 @@
+{
+  "title": "Databases - File System",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "File System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60966\"></a><div itemprop=\"text\"><p>Database application were directly built on top of file system to overcome the following drawbacks of using file-systems:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Data redundancy and inconsistency</li>\n\t<li>Difficulty in accessing data</li>\n\t<li>Data isolation</li>\n\t<li>Integrity problems</li>\n</ol>\n\n</div><br><br><b>Databases: UGC NET CSE | Junet 2015 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i} \\)</p>",
+            "<p>\\( \\text{i&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i, ii, and iii} \\)</p>",
+            "<p>\\( \\text{i, ii, iii, and iv} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i, ii, iii, and iv} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60966/ugc-net-cse-junet-2015-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/60966/ugc-net-cse-junet-2015-part-2-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

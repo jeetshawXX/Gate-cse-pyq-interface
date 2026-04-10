@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 17",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following state table shown in figure for a sequential machine. The number of states in the minimized machine will be<br><br> \\(\\begin{array}{|l|l|ll|}\\hline \\text{} &amp; \\text{} &amp; \\textbf{Input}\\\\\\hline &amp;&amp; \\text{0} &amp; \\text{1} \\\\\\hline  \\textbf{Present State} &amp; \\textbf{A} &amp; \\text{D,0} &amp; \\text{B,1} \\\\   \\text{} &amp; \\textbf{B} &amp; \\text{A,0} &amp; \\text{C,1}\\\\   &amp; \\textbf{C} &amp; \\text{A,0} &amp; \\text{B,1} \\\\  \\text{} &amp; \\textbf{D} &amp; \\text{A,1} &amp; \\text{C,1} \\\\\\hline \\text{} &amp; \\text{} &amp; \\textbf{Next state, Output}\\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2752/gate1996-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Define a context free languages \\(L \\in \\{0, 1\\}^*, \\text{init} (L) = \\{u \\mid uv \\in L\\) for some v in \\(\\{0, 1\\}^*\\}\\) ( in other words, \\(\\text{init}(L)\\) is the set of prefixes of L)<br>\nLet  \\(L = \\{w \\mid w \\text{ is nonempty and has an equal number of $0$'s and $1$'s}\\}\\)\nThen \\(\\text{init}(L)\\) is: <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the set of all binary strings with unequal number of 0's and 1's</p>",
+            "<b>B.</b> <p>the set of all binary strings including null string</p>",
+            "<b>C.</b> <p>the set of all binary strings with exactly one more 0 than the number of 1's or one more 1 than the number of 0's</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the set of all binary strings including null string</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2738/gate1996-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If \\(L_1\\) and \\(L_2\\) are context free languages and R a regular set, one of the languages below is not necessarily a context free language. Which one? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1.L_2\\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\cap L_2\\)</p>",
+            "<b>C.</b> <p>\\(L_1 \\cap R\\)</p>",
+            "<b>D.</b> <p>\\(L_1 \\cup L_2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(L_1 \\cap L_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2737/gate1996-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(L \\subseteq \\Sigma^*\\) where \\(\\Sigma = \\left\\{a,b \\right\\}\\). Which of the following is true? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L = \\left\\{x \\mid x \\text{ has an equal number of } a\\text{'s and }b\\text{'s}\\right \\}\\) is regular</p>",
+            "<b>B.</b> <p>\\(L = \\left\\{a^nb^n \\mid n \\geq 1\\right \\}\\) is regular</p>",
+            "<b>C.</b> <p>\\(L = \\left\\{x \\mid x \\text{ has more number of }a\\text{'s than }b\\text{'s}\\right \\}\\) is regular</p>",
+            "<b>D.</b> <p>\\(L = \\left\\{a^mb^n \\mid m \\geq 1, n \\geq 1 \\right \\}\\) is regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(L = \\left\\{a^mb^n \\mid m \\geq 1, n \\geq 1 \\right \\}\\) is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2714/gate1996-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following statements is false? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The Halting Problem of Turing machines is undecidable</p>",
+            "<b>B.</b> <p>Determining whether a context-free grammar is ambiguous is undecidable</p>",
+            "<b>C.</b> <p>Given two arbitrary context-free grammars \\(G_1\\) and \\(G_2\\)it is undecidable whether \\(L(G_1) = L(G_2)\\)</p>",
+            "<b>D.</b> <p>Given two regular grammars \\(G_1\\) and \\(G_2\\) it is undecidable whether \\(L(G_1) = L(G_2)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Given two regular grammars \\(G_1\\) and \\(G_2\\) it is undecidable whether \\(L(G_1) = L(G_2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2713/gate1996-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which two of the following four regular expressions are equivalent? (\\(\\varepsilon\\) is the empty string).<br>\n(i).   \\((00)^ * (\\varepsilon +0)\\)<br>\n(ii).  \\((00)^*\\)<br>\n(iii). \\(0^*\\)<br>\n(iv).  \\(0(00)^*\\)<br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (ii)</p>",
+            "<b>B.</b> <p>(ii) and (iii)</p>",
+            "<b>C.</b> <p>(i) and (iii)</p>",
+            "<b>D.</b> <p>(iii) and (iv)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(i) and (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2712/gate1996-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let \\(\\Sigma=\\left\\{0,1\\right\\}, L = \\Sigma^* \\text{ and } R=\\left\\{0^n1^n \\mid n \\gt 0\\right\\}\\) then the languages \\(L \\cup R\\) and R are respectively <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular, regular</p>",
+            "<b>B.</b> <p>not regular, regular</p>",
+            "<b>C.</b> <p>regular, not regular</p>",
+            "<b>D.</b> <p>not regular, not regular</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>regular, not regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2637/gate1995-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A finite state machine with the following state table has a single input x and a single out z.<br>\n\\(\\begin{array}{|c|ll|}\\hline \\textbf{present state} &amp;\\textbf{next state, z} \\\\ &amp; \\text{x=1} &amp; \\text{x=0} \\\\\\hline \\text{A} &amp; \\text{D,0} &amp; \\text{B,0} \\\\\\hline \\text{B} &amp; \\text{B,1} &amp; \\text{C,1} \\\\\\hline \\text{C} &amp; \\text{B,0} &amp; \\text{D,1} \\\\\\hline \\text{D} &amp; \\text{B,1} &amp; \\text{C,0} \\\\\\hline \\end{array}\\)<br>If the initial state is unknown, then the shortest input sequence to reach the final state C is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>01</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>101</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2636/gate1995-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following definitions below generate the same language as \\(L\\), where \\(L=\\{x^ny^n \\text{ such that } n\\geq 1 \\}\\)?<br>\nI.   \\(E \\rightarrow xEy\\mid xy\\)<br>\nII.  \\(x y \\mid (x^+xyy^+)\\)<br>\nIII. \\(x^+y^+\\)<br> <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and II</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2632/gate1995-2-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a grammar with the following productions<br>\n\\(S \\rightarrow a \\alpha b \\mid b \\alpha c \\mid aB\\)<br>\n\\(S \\rightarrow \\alpha S\\mid b\\)<br>\n\\(S \\rightarrow \\alpha b b\\mid ab\\)<br>\n\\(S \\alpha \\rightarrow bd b\\mid b\\)<br>\nThe above grammar is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Context free</p>",
+            "<b>B.</b> <p>Regular</p>",
+            "<b>C.</b> <p>Context sensitive</p>",
+            "<b>D.</b> <p>LR(k)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>LR(k)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2597/gate1995-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In some programming language, an identifier is permitted to be a letter followed by any number of letters or digits. If L and D denote the sets of letters and digits respectively, which of the following expressions defines an identifier? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((L + D)^+\\)</p>",
+            "<b>B.</b> <p>\\((L.D)^*\\)</p>",
+            "<b>C.</b> <p>\\(L(L + D)^*\\)</p>",
+            "<b>D.</b> <p>\\(L(L.D)^*\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L(L + D)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2596/gate1995-1-9-isro2017-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following features cannot be captured by context-free grammars? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Syntax of if-then-else statements</p>",
+            "<b>B.</b> <p>Syntax of recursive procedures</p>",
+            "<b>C.</b> <p>Whether a variable has been declared before its use</p>",
+            "<b>D.</b> <p>Variable names of arbitrary length</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Whether a variable has been declared before its use</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2461/gate1994-1-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following conversions is not possible (algorithmically)? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Regular grammar to context free grammar</p>",
+            "<b>B.</b> <p>Non-deterministic FSA to deterministic FSA</p>",
+            "<b>C.</b> <p>Non-deterministic PDA to deterministic PDA</p>",
+            "<b>D.</b> <p>Non-deterministic Turing machine to deterministic Turing machine</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Non-deterministic PDA to deterministic PDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2459/gate1994-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following problem x . <br>\nGiven a Turing machine M over the input alphabet \\(\\Sigma\\), any state q of M.\nAnd a word w \\(\\in \\Sigma *\\)) does the computation of M on w visit the state q ?<br>\nWhich of the following statements about x is correct ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x is decidable</p>",
+            "<b>B.</b> <p>x is undecidable but partially decidable</p>",
+            "<b>C.</b> <p>x is undecidable and not even partially decidable</p>",
+            "<b>D.</b> <p>x is not a decision problem</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>x is undecidable but partially decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/725/gate2001-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following languages :<br>\nL1 = {ww| w\\(\\in\\) {a,b}*}<br>\nL2 = {w\\(w^{R}| \\) w\\(\\in\\) {a,b} *, \\(w^{R}\\) is the reverse of w} <br>\nL3 = {\\(0^{2i}\\)|  i is an integer}<br>\nL4 ={\\(0^{{i}^{2}}\\) | i is an integer} <br>\nWhich of the languages are regular ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only L1 and L2</p>",
+            "<b>B.</b> <p>Only L2, L3 and L4</p>",
+            "<b>C.</b> <p>Only L3 and L4</p>",
+            "<b>D.</b> <p>Only L3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only L3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/724/gate2001-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

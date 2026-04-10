@@ -1,0 +1,938 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Issoftware Engineering",
+  "duration": 172,
+  "sections": [
+    {
+      "name": "Issoftware Engineering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"403470\"></a><div itemprop=\"text\"><h1>&nbsp;</h1><p>Which of the following are the products of grounded theory?</p><p>A. Experimental framework</p><p>B. Concepts</p><p>C. Hypotheses</p><p>D. Attributes of a category</p><p>E. Theoretical dilution</p></div><br><br><b>IS&Software Engineering: UGC NET CSE OCTOBER 2022</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/403470/ugc-net-cse-october-2022\" target=\"_blank\">https://gateoverflow.in/403470/ugc-net-cse-october-2022</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"71568\"></a><div itemprop=\"text\"><p>Which of the following are external qualities of a software product ?</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | August 2016 | Part 3 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Maintainability, reusability, portability, efficiency, correctness.</p>",
+            "<p>Correctness, reliability, robustness, efficiency, usability.</p>",
+            "<p>Portability, interoperability, maintainability, reusability.</p>",
+            "<p>Robustness, efficiency, reliability, maintainability, reusability.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71568/ugc-net-cse-august-2016-part-3-question-47\" target=\"_blank\">https://gateoverflow.in/71568/ugc-net-cse-august-2016-part-3-question-47</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"71574\"></a><div itemprop=\"text\"><p>Which of the following is/are CORRECT statement(s) about version and release ?</p><p>I. A version is an instance of a system, which is functionally identical but nonfunctionally distinct from other instances of a system.</p><p>II. A version is an instance of a system, which is functionally distinct in some way from other system instances.</p><p>III. A release is an instance of a system, which is distributed to users outside of the development team.</p><p>IV. A release is an instance of a system, which is functionally identical but nonfunctionally distinct from other instances of a system.</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | August 2016 | Part 3 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I and III</p>",
+            "<p>II and IV</p>",
+            "<p>I and IV&nbsp;</p>",
+            "<p>II and III</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71574/ugc-net-cse-august-2016-part-3-question-48\" target=\"_blank\">https://gateoverflow.in/71574/ugc-net-cse-august-2016-part-3-question-48</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"63078\"></a><div itemprop=\"text\"><p>An SRS</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2011 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Establishes the basis for agreement between client and the supplier.</p>",
+            "<p>Provides a reference for validation of the final product.</p>",
+            "<p>Is a prerequisite to high quality software.</p>",
+            "<p>All of the above.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63078/ugc-net-cse-december-2011-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/63078/ugc-net-cse-december-2011-part-2-question-14</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"63552\"></a><div itemprop=\"text\"><p>Design recovery from source code is done during</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2011 | Part 2 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>reverse engineering</p>",
+            "<p>re-engineering</p>",
+            "<p>reuse</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63552/ugc-net-cse-december-2011-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/63552/ugc-net-cse-december-2011-part-2-question-17</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"56524\"></a><div itemprop=\"text\"><p>The maturity levels used to measure a process are</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2012 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Initial, Repeatable, Defined, Managed, Optimized</p>",
+            "<p>Primary, Secondary, Defined, Managed, Optimized</p>",
+            "<p>Initial, Stating, Defined, Managed, Optimized</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Initial, Repeatable, Defined, Managed, Optimized</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56524/ugc-net-cse-december-2012-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/56524/ugc-net-cse-december-2012-part-2-question-19</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"56504\"></a><div itemprop=\"text\"><p>Component level design is concerned with</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2012 | Part 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Flow oriented analysis</p>",
+            "<p>Class based analysis</p>",
+            "<p>Both of the above</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Both of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56504/ugc-net-cse-december-2012-part-2-question-6\" target=\"_blank\">https://gateoverflow.in/56504/ugc-net-cse-december-2012-part-2-question-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"60040\"></a><div itemprop=\"text\"><p>Testing of software with actual data and in actual environment is called</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2013 | Part 2 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Alpha testing</p>",
+            "<p>Beta&nbsp;<span style=\"line-height: 20.8px;\">testing</span></p>",
+            "<p>Regression&nbsp;<span style=\"line-height: 20.8px;\">testing</span></p>",
+            "<p><span style=\"line-height: 20.8px;\">None of the above</span></p>"
+          ],
+          "correct_answer": "<p>Beta&nbsp;<span style=\"line-height: 20.8px;\">testing</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60040/ugc-net-cse-december-2013-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/60040/ugc-net-cse-december-2013-part-2-question-10</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"60035\"></a><div itemprop=\"text\"><p>The relationship of data elements in a module is called</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2013 | Part 2 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Coupling</p>",
+            "<p>Modularity</p>",
+            "<p>Cohesion</p>",
+            "<p>Granularity</p>"
+          ],
+          "correct_answer": "<p>Cohesion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60035/ugc-net-cse-december-2013-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/60035/ugc-net-cse-december-2013-part-2-question-7</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"60038\"></a><div itemprop=\"text\"><p>Software Configuration Management is the discipline for systematically controlling</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2013 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the changes due to the evolution of work products as the project proceeds</p>",
+            "<p>the changes due to defects (bugs) being found and then fixed</p>",
+            "<p>the changes due to requirement changes</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "<p>all of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60038/ugc-net-cse-december-2013-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/60038/ugc-net-cse-december-2013-part-2-question-8</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"60039\"></a><div itemprop=\"text\"><p>Which one of the following is not a step of requirement engineering?</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2013 | Part 2 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Requirement elicitation</p>",
+            "<p>Requirement analysis</p>",
+            "<p>Requirement design</p>",
+            "<p>Requirement documentation</p>"
+          ],
+          "correct_answer": "<p>Requirement design</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60039/ugc-net-cse-december-2013-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/60039/ugc-net-cse-december-2013-part-2-question-9</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"60391\"></a><div itemprop=\"text\"><p>Which of the following is not a software myth?</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2013 | Part 3 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Once we write the program and get it to work, our job is done</p>",
+            "<p>Projects requirements continually change, but change can be easily accommodated because software is flexible</p>",
+            "<p>If we get behind schedule, we can add more programmers and catch up</p>",
+            "<p>If an organization does not understand how to control software projects internally, it will invariably struggle when it outsources software projects.</p>"
+          ],
+          "correct_answer": "<p>If an organization does not understand how to control software projects internally, it will invariably struggle when it outsources software projects.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60391/ugc-net-cse-december-2013-part-3-question-9\" target=\"_blank\">https://gateoverflow.in/60391/ugc-net-cse-december-2013-part-3-question-9</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"62481\"></a><div itemprop=\"text\"><p>Which of the following non-functional quality attributes is not highly affected by the architecture of the software?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2015 | Part 3 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Performance</p>",
+            "<p>Reliablity</p>",
+            "<p>Usability</p>",
+            "<p>Portability</p>"
+          ],
+          "correct_answer": "<p>Portability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62481/ugc-net-cse-december-2015-part-3-question-25\" target=\"_blank\">https://gateoverflow.in/62481/ugc-net-cse-december-2015-part-3-question-25</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"61456\"></a><div itemprop=\"text\"><p>Which one of the following statements is incorrect?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2015 | Part 3 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Pareto analysis is a statistical method used for analyzing causes, and is one of the&nbsp;primary tools for quality management.</p>",
+            "<p>Reliability of a software specifies the probability of failure-free operation of that software&nbsp;for a given time duration.</p>",
+            "<p>The reliability of a system can also be specified as the Mean Time To Failure (MTTF).</p>",
+            "<p>In white-box testing, the test cases are decided from the specifications or the&nbsp;requirements.</p>"
+          ],
+          "correct_answer": "<p>Pareto analysis is a statistical method used for analyzing causes, and is one of the&nbsp;primary tools for quality management.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61456/ugc-net-cse-december-2015-part-3-question-72\" target=\"_blank\">https://gateoverflow.in/61456/ugc-net-cse-december-2015-part-3-question-72</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"61453\"></a><div itemprop=\"text\"><p>Which one of the following statements, related to the requirements phase in Software&nbsp;Engineering, is incorrect?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2015 | Part 3 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>“Requirement validation” is one of the activities in the requirements phase.</p>",
+            "<p>“Prototyping” is one of the methods for requirement analysis.</p>",
+            "<p>“Modelling-oriented approach” is one of the methods for specifying the functional&nbsp;specifications.</p>",
+            "<p>“Function points” is one of the most commonly used size metric for requirements.</p>"
+          ],
+          "correct_answer": "<p>“Requirement validation” is one of the activities in the requirements phase.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61453/ugc-net-cse-december-2015-part-3-question-74\" target=\"_blank\">https://gateoverflow.in/61453/ugc-net-cse-december-2015-part-3-question-74</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"335122\"></a><div itemprop=\"text\"><p>Software Engineering is an engineering discipline that is concerned with:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>how computer systems work.</p>",
+            "<p>theories and methods that underlie computers and software systems.</p>",
+            "<p>all aspects of software production</p>",
+            "<p>all aspects of computer-based systems development, including hardware, software and process engineering.</p>"
+          ],
+          "correct_answer": "<p>all aspects of software production</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335122/ugc-net-cse-january-2017-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/335122/ugc-net-cse-january-2017-part-2-question-41</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"335121\"></a><div itemprop=\"text\"><p>Which of the following is not one of three software product aspects addressed by McCall's software quality factors ?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ability to undergo change</p>",
+            "<p>Adaptiability to new environments</p>",
+            "<p>Operational characteristics</p>",
+            "<p>Production costs and scheduling</p>"
+          ],
+          "correct_answer": "<p>Production costs and scheduling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335121/ugc-net-cse-january-2017-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/335121/ugc-net-cse-january-2017-part-2-question-42</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"335120\"></a><div itemprop=\"text\"><p>Which of the following statement(s)&nbsp;is/are true with respect to software architecture?</p>\n\n<p>\\( S1 \\) : Coupling is a measure of how well the things grouped together in a module belong together logically.</p>\n\n<p>\\( S2 \\) : Cohesion is a measure of the degree of interaction between software modules.</p>\n\n<p>\\( S3 \\) : If coupling is low and cohesion is high then it is easier to change one module without affecting others.</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 2 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( S1 \\) and \\( S2 \\)</p>",
+            "<p>Only \\( S3 \\)</p>",
+            "<p>All of \\( S1 \\), \\( S2 \\) and \\( S3 \\)</p>",
+            "<p>Only \\( S1 \\)</p>"
+          ],
+          "correct_answer": "<p>Only \\( S3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335120/ugc-net-cse-january-2017-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/335120/ugc-net-cse-january-2017-part-2-question-43</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"335119\"></a><div itemprop=\"text\"><p>The prototyping model of software development is:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 2 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a reasonable approach when requirements are well-defined.</p>",
+            "<p>a useful approach when a customer cannot define requirements clearly.</p>",
+            "<p>the best approach to use for projects with large development teams.</p>",
+            "<p>a risky model that rarely produces a meaningful product.</p>"
+          ],
+          "correct_answer": "<p>a useful approach when a customer cannot define requirements clearly.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335119/ugc-net-cse-january-2017-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/335119/ugc-net-cse-january-2017-part-2-question-44</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"335193\"></a><div itemprop=\"text\"><p>Match the terms related to Software Configuration Management (​​​SCM) in List-Ⅰ with the descriptions in List-II.<br>\n<br>\n\\( \\begin{array}{clcl}&nbsp; &amp; \\textbf{List-I} &nbsp;&amp;&amp; \\textbf{List-II} \\\\<br>\n\\text{I.} &amp; \\text{Version} &amp; \\text{A.} &amp; \\text{An instance of a system that is distributed} \\\\ &amp;&amp;&amp; \\text{to customers} \\\\<br>\n\\text{II.} &amp; \\text{Release} &amp; \\text{B.} &amp; \\text{An instance of a system which is functionally}\\\\&amp;&amp;&amp;\\text{identical to other instances but designed for} \\\\ &amp;&amp;&amp; \\text{different hardware/software instances.} \\\\&nbsp;\\text{III.} &amp; \\text{Variant} &amp; \\text{C.} &amp; &nbsp;\\text{An instance of a system that differs, in some} \\\\ &amp;&amp;&amp; \\text{way, from other instances} \\\\&nbsp;\\end{array} &nbsp; \\)<br>\n<br>\n\\( \\textbf{Codes:} \\)</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 3 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{I-B;&nbsp; II-C;&nbsp; III-C} \\)</p>",
+            "<p>\\( \\text{I-C;&nbsp; II-A;&nbsp; III-B} \\)</p>",
+            "<p>\\( \\text{I-C;&nbsp; II-B;&nbsp; III-A} \\)</p>",
+            "<p>\\( \\text{I-B;&nbsp; II-A;&nbsp; III-C} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{I-C;&nbsp; II-A;&nbsp; III-B} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335193/ugc-net-cse-january-2017-part-3-question-45\" target=\"_blank\">https://gateoverflow.in/335193/ugc-net-cse-january-2017-part-3-question-45</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"335192\"></a><div itemprop=\"text\"><p>A software project was estimated at \\( 352 \\) Function Points\\( \\text{(FP)} \\). A four person team will be assigned to this project consisting of an architect,&nbsp;two programmers, and a tester The salary of the architect is \\( \\text{₹}80,000 \\) per month, the programmer&nbsp; \\( \\text{₹}60,000 \\) per month and the tester \\( \\text{₹}50,000 \\)&nbsp; per month. The average productivity for the team is \\( 8&nbsp;\\text{ FP} \\) per person&nbsp;month. Which of the following represents the projected cost of the project?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 3 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{₹}28,16,000 \\)&nbsp; &nbsp;</p>",
+            "<p>\\( \\text{₹}20,90,000 \\)&nbsp; &nbsp;</p>",
+            "<p>\\( \\text{₹}26,95,000 \\)&nbsp;</p>",
+            "<p>\\( \\text{₹}27,50,000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{₹}27,50,000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335192/ugc-net-cse-january-2017-part-3-question-46\" target=\"_blank\">https://gateoverflow.in/335192/ugc-net-cse-january-2017-part-3-question-46</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"113857\"></a><div itemprop=\"text\"><p>Complete each of the following sentences in List-I&nbsp;on the left hand side by filling in the word or phrase from the List –II<strong>&nbsp;</strong>on the right hand side that best completes the sentence :</p>\n\n<p>\\( \\begin{array}{clcl}&nbsp;&amp; \\textbf{List-I} &amp;&amp;&nbsp; \\textbf{List-II}&nbsp;\\\\&nbsp; \\text{I.} &amp; \\text{Determining whether you have built}&nbsp; &amp; \\text{A.} &amp; \\text{Software testing} \\\\ &amp; \\text{the right system is called ______}\\\\&nbsp;\\text{II.} &amp; \\text{Determining whether you have built }&amp; \\text{B.} &amp; \\text{Software verification} \\\\ &amp; \\text{the system right is called ______} \\\\&nbsp;\\text{III.} &amp; \\text{______&nbsp;is the process of demostrating} &nbsp;&amp; \\text{C.} &amp; \\text{Software debugging} \\text{the existence of defects} \\\\&nbsp;\\text{IV.} &amp; \\text{_______ is the process of discovering the}&nbsp; &amp; \\text{D.} &amp; \\text{Software validation} \\\\ &amp; \\text{cause of a defect and fixing it}&nbsp; \\\\ \\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 3 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{I-B, II-D, III-A, IV-C} \\)</p>",
+            "<p>\\( \\text{I-B, II-D, III-C, IV-A} \\)</p>",
+            "<p>\\( \\text{I-D, II-B, III-C, IV-A} \\)</p>",
+            "<p>\\( \\text{I-D, II-B, III-A, IV-C} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{I-D, II-B, III-A, IV-C} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/113857/ugc-net-cse-january-2017-part-3-question-47\" target=\"_blank\">https://gateoverflow.in/113857/ugc-net-cse-january-2017-part-3-question-47</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"63483\"></a><div itemprop=\"text\"><p>If \\( S_1 \\) is total number of modules defined in the program architecture, \\( S_3 \\) is the number of modules whose correct function depends on prior processing then the number of modules not dependent on prior processing is:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2016 | Part 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1+\\frac{S_3}{S_1} \\)</p>",
+            "<p>\\( 1-\\frac{S_3}{S_1} \\)</p>",
+            "<p>\\( 1+\\frac{S_1}{S_3} \\)</p>",
+            "<p>\\( 1-\\frac{S_1}{S_3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1-\\frac{S_3}{S_1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63483/ugc-net-cse-july-2016-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/63483/ugc-net-cse-july-2016-part-2-question-41</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"63973\"></a><div itemprop=\"text\"><p>Match the software maintenance activities in List-I to its meaning in List-II.</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List-I} &amp;&amp; \\textbf{List-II} \\\\&nbsp;\\text{a.} &amp; \\text{Corrective} &amp; \\text{i.} &amp; \\text{Concerning with performing activities to reduce} \\\\ &amp;&amp;&amp;\\text{the software complexity thereby improving} \\\\&amp;&amp;&amp;\\text{program understandability and increasing } \\\\ &amp;&amp;&amp; \\text{software maintainability} \\\\&nbsp;\\text{b.} &amp; \\text{Adaptive} &amp; \\text{ii.} &amp; \\text{Concerned&nbsp;with fixing errors that are observed} \\\\ &amp;&amp;&amp;\\text{when the software is in use} \\\\&nbsp;\\text{c.} &amp; \\text{Perfective} &amp; \\text{iii.} &amp; \\text{Concerned with the change in the software that}\\\\ &amp;&amp;&amp; \\text{takes place to make the software adaptable to }\\\\ &amp;&amp;&amp;\\text{new environment (both hardware and software).} \\\\&nbsp;\\text{d.} &amp; \\text{Preventive} &amp; \\text{iv.} &amp; \\text{Concerned with the change in the software that} \\\\ &amp;&amp;&amp; \\text{takes place to make the software adaptable to}\\\\ &amp;&amp;&amp;\\text{changing user requirements} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2016 | Part 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i-b,ii-d,iii-c,iv-a} \\)</p>",
+            "<p>\\( \\text{i-b,ii-c,iii-d,iv-a} \\)</p>",
+            "<p>\\( \\text{i-c,ii-b,iii-d,iv-a} \\)</p>",
+            "<p>\\( \\text{i-a,ii-d,iii-b,iv-c} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i-b,ii-c,iii-d,iv-a} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63973/ugc-net-cse-july-2016-part-3-question-44\" target=\"_blank\">https://gateoverflow.in/63973/ugc-net-cse-july-2016-part-3-question-44</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"225874\"></a><div itemprop=\"text\"><p>Match the following in Software Engineering :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp;\\textbf{List-I}&amp; &amp;&nbsp;\\textbf{List-II} \\\\&nbsp;\\text{(a)}&amp; \\text{Product Complexity} &amp; \\text{(i)} &amp; \\text{Software Requirement Definition} \\\\&nbsp;\\text{(b)} &amp;\\text{Structured System Analysis} &amp; \\text{(ii)} &amp; \\text{Software Design} \\\\&nbsp;\\text{(c)}&amp; \\text{Coupling and Cohesion} &amp; \\text{(iii)} &amp; \\text{Validation Technique} \\\\&nbsp;\\text{(d)} &amp;\\text{Symbolic Execution} &amp; \\text{(iv)} &amp; \\text{Software Cost Estimation} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Code :} \\)</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2018 | Part 2 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(a)-(ii); (b)-(iii); (c)-(iv); (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii); (b)-(i); (c)-(iv); (d)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv); (b)-(i); (c)-(ii); (d)-(iii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii); (b)-(iv); (c)-(i); (d)-(ii)} \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225874/ugc-net-cse-july-2018-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/225874/ugc-net-cse-july-2018-part-2-question-12</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"225873\"></a><div itemprop=\"text\"><p>Which one of the following is not typically provided by Source Code Management Software?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2018 | Part 2 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Synchronization</p>",
+            "<p>Versioning and Revision history</p>",
+            "<p>Syntax highlighting</p>",
+            "<p>Project forking</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225873/ugc-net-cse-july-2018-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/225873/ugc-net-cse-july-2018-part-2-question-13</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"225872\"></a><div itemprop=\"text\"><p>A software system crashed 20 times in the year 2017 and for each crash, it took 2 minutes to restart. Approximately, what was the software availability in that year?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2018 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>96.9924%</p>",
+            "<p>97.9924%</p>",
+            "<p>98.9924%</p>",
+            "<p>99.9924%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225872/ugc-net-cse-july-2018-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/225872/ugc-net-cse-july-2018-part-2-question-14</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"225868\"></a><div itemprop=\"text\"><p>Reasons to re-engineer a software include:</p>\n\n<p>P: Allow legacy software to quickly adapt to the changing requirements</p>\n\n<p>Q: Upgrade to newer technologies/platforms/paradigm (for example, object-oriented)</p>\n\n<p>R: Improve software maintainability</p>\n\n<p>S: Allow change in the functionality and architecture of the software</p>\n\n<p><strong>Code:</strong></p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2018 | Part 2 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>P, R and S only</p>",
+            "<p>P and R only</p>",
+            "<p>P, Q and S only</p>",
+            "<p>P, Q and R only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225868/ugc-net-cse-july-2018-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/225868/ugc-net-cse-july-2018-part-2-question-18</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"225867\"></a><div itemprop=\"text\"><p>Which of the following is not a key strategy followed by the clean room approach to software development?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2018 | Part 2 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Formal specification</p>",
+            "<p>Dynamic verification</p>",
+            "<p>Incremental development</p>",
+            "<p>Statistical testing of the system</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225867/ugc-net-cse-july-2018-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/225867/ugc-net-cse-july-2018-part-2-question-19</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"225866\"></a><div itemprop=\"text\"><p>Which of the following statements is/are True?</p>\n\n<p>P: Refactoring is the process of changing a software system in such a way that it does not alter the external behavior of the code yet improves the internal architecture</p>\n\n<p>Q: An example of refactoring is adding new features to satisfy a customer requirement discovered after a project is shipped</p>\n\n<p><strong>Code:</strong></p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | July 2018 | Part 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>P only</p>",
+            "<p>Q only</p>",
+            "<p>Both P and Q</p>",
+            "<p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225866/ugc-net-cse-july-2018-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/225866/ugc-net-cse-july-2018-part-2-question-20</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"335421\"></a><div itemprop=\"text\"><p>Which one of the following is not a software process model?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2005 | Part 2 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Linear sequential model</p>",
+            "<p>Prototyping model</p>",
+            "<p>The spiral model</p>",
+            "<p>\\( COCOMO \\) model</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335421/ugc-net-cse-june-2005-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/335421/ugc-net-cse-june-2005-part-2-question-42</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"335690\"></a><div itemprop=\"text\"><p>Match the following:</p>\n\n<p><strong>&nbsp;</strong>\\( \\begin{array}{ll}&nbsp;\\\\ \\text{(a)&nbsp;Unit test} &amp; \\text{(i)&nbsp;Requirements} \\\\ \\text{(b) System test} &amp; \\text{(ii) Design} \\\\ \\text{(c)&nbsp;Validation test} &amp; \\text{(iii) Code} \\\\ \\text{(d) Integration test} &amp; \\text{(iv)&nbsp;System Engineering} \\end{array} \\)</p>\n\n<p>Which of the following is true:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2007 | Part 2 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>a-ii, b-iii, c-iv, d-i</p>",
+            "<p>a-i, b-ii, c-iv, d-iii</p>",
+            "<p>a-iii, b-iv, c-i, d-ii</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335690/ugc-net-cse-june-2007-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/335690/ugc-net-cse-june-2007-part-2-question-43</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"68039\"></a><div itemprop=\"text\"><p>Software engineering primarily aims on</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2010 | Part 2 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Reliable software</p>",
+            "<p>Cost effective software</p>",
+            "<p>Reliable and cost effective software</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68039/ugc-net-cse-june-2010-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/68039/ugc-net-cse-june-2010-part-2-question-41</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"55840\"></a><div itemprop=\"text\">\n<p>Main aim of software engineering is to produce</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>program</p>",
+            "<p>software</p>",
+            "<p>within budget</p>",
+            "<p>software within budget in the given schedule&nbsp;</p>"
+          ],
+          "correct_answer": "<p>software within budget in the given schedule&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55840/ugc-net-cse-june-2012-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/55840/ugc-net-cse-june-2012-part-2-question-20</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"55842\"></a><div itemprop=\"text\">\n<p>Key process areas of CMM level 4 are also classified by a process which is</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>CMM level 2</p>",
+            "<p>CMM level 3</p>",
+            "<p>CMM level 5</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>CMM level 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55842/ugc-net-cse-june-2012-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/55842/ugc-net-cse-june-2012-part-2-question-21</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"55843\"></a><div itemprop=\"text\">\n<p>Validation means</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>are we building the product right</p>",
+            "<p>are we building the right product</p>",
+            "<p>verification of fields</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>are we building the right product</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55843/ugc-net-cse-june-2012-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/55843/ugc-net-cse-june-2012-part-2-question-22</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"55844\"></a><div itemprop=\"text\">\n<p>&nbsp;If a process is under statistical control, then it is</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Maintainable</p>",
+            "<p>Measurable</p>",
+            "<p>Predictable</p>",
+            "<p>Verifiable</p>"
+          ],
+          "correct_answer": "<p>Predictable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55844/ugc-net-cse-june-2012-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/55844/ugc-net-cse-june-2012-part-2-question-23</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"55845\"></a><div itemprop=\"text\">\n<p>&nbsp;In a function oriented design, we</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>minimize cohesion and maximize coupling</p>",
+            "<p>maximize cohesion and minimize coupling</p>",
+            "<p>maximize cohesion and maximize coupling</p>",
+            "<p>minimize cohesion and minimize coupling</p>"
+          ],
+          "correct_answer": "<p>maximize cohesion and minimize coupling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55845/ugc-net-cse-june-2012-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/55845/ugc-net-cse-june-2012-part-2-question-24</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"55846\"></a><div itemprop=\"text\">\n<p>&nbsp;Which of the following metric does not depend on the programming language used?</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Line of code</p>",
+            "<p>Function count</p>",
+            "<p>Member of token</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Function count</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55846/ugc-net-cse-june-2012-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/55846/ugc-net-cse-june-2012-part-2-question-25</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"55888\"></a><div itemprop=\"text\">\n<p>Reliability of software is directly dependent on</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 2 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>quality of the design</p>",
+            "<p>number of errors present</p>",
+            "<p>software engineers experience</p>",
+            "<p>user requirement</p>"
+          ],
+          "correct_answer": "<p>number of errors present</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55888/ugc-net-cse-june-2012-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/55888/ugc-net-cse-june-2012-part-2-question-43</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"56268\"></a><div itemprop=\"text\"><p>Are we building the right product? – This statement refers to</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 3 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Verification</p>",
+            "<p>Validation</p>",
+            "<p>Testing</p>",
+            "<p>Software quality assurance</p>"
+          ],
+          "correct_answer": "<p>Validation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56268/ugc-net-cse-june-2012-part-3-question-37\" target=\"_blank\">https://gateoverflow.in/56268/ugc-net-cse-june-2012-part-3-question-37</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"42600\"></a><div itemprop=\"text\">\n<p>While estimating the cost of software, Lines Of Code (LOC) and Function Points (FP) are used to measure which one of the following?</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2013 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Length of code</p>",
+            "<p>Size of software</p>",
+            "<p>Functionality of software</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Size of software</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/42600/ugc-net-cse-june-2013-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/42600/ugc-net-cse-june-2013-part-2-question-3</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"53475\"></a><div itemprop=\"text\">\n<p>\\( KPA \\) in \\( CMM \\) stands for&nbsp;</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 2 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Key Process Area&nbsp;</p>",
+            "<p>Key Product Area&nbsp;</p>",
+            "<p>Key Principal Area&nbsp;</p>",
+            "<p>Key Performance Area&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Key Process Area&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53475/ugc-net-cse-june-2014-part-2-question-11\" target=\"_blank\">https://gateoverflow.in/53475/ugc-net-cse-june-2014-part-2-question-11</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"53481\"></a><div itemprop=\"text\">\n<p>_________ of a system is the structure or structures of the system which comprise software elements, the externally visible properties of these elements and the relationship amongst them.&nbsp;</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 2 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Software construction&nbsp;</p>",
+            "<p>Software evolution</p>",
+            "<p>Software architecture&nbsp;</p>",
+            "<p>Software reuse&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Software architecture&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53481/ugc-net-cse-june-2014-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/53481/ugc-net-cse-june-2014-part-2-question-13</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"54065\"></a><div itemprop=\"text\">\n<p>A software agent is defined as</p>\n\n<ol style=\"list-style-type: upper-roman;\"><li>A software developed for accomplishing a given task.</li>\n\t<li>A computer program which is capable of acting on behalf of the user in order to accomplish a given computational task.</li>\n\t<li>An open source software for accomplishing a given task.</li>\n</ol>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\)&nbsp;</p>",
+            "<p>\\( II \\)&nbsp;</p>",
+            "<p>\\( III \\)&nbsp;</p>",
+            "<p>All of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( II \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54065/ugc-net-cse-june-2014-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/54065/ugc-net-cse-june-2014-part-2-question-28</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"56741\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)&nbsp;</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List – I}&amp;&amp; \\textbf{List – II} \\\\&nbsp;\\text{a.} &amp; \\text{Correctness}&amp; \\text{i.} &amp; \\text{The extent to which a software tolerates}&nbsp;\\\\ &amp;&amp;&amp; \\text{the unexpected problems.} \\\\&nbsp; \\text{b.} &amp; \\text{Accuracy}&amp; \\text{ii.} &amp; \\text{The extent to which a software meets its}&nbsp;\\\\ &amp;&amp;&amp; \\text{specification} \\\\&nbsp;\\text{c.} &amp; \\text{Robustness}&amp; \\text{iii.} &amp; \\text{The extent to which a software has the}&nbsp;\\\\ &amp;&amp;&amp; \\text{specified functions} \\\\&nbsp;\\text{d.} &amp; \\text{Completeness}&amp; \\text{iv.} &amp; \\text{Meeting specifications with precision}&nbsp;&nbsp;\\\\&nbsp; \\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 3 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-ii,&nbsp;b-iv,&nbsp;c-i,&nbsp;d-iii} \\)</p>",
+            "<p>\\( \\text{a-i,&nbsp;b-ii,&nbsp;c-iii,&nbsp;d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii,&nbsp;b-i,&nbsp;c-iv,&nbsp;d-iii} \\)</p>",
+            "<p>\\( \\text{a-iv,&nbsp;b-ii,&nbsp;c-i,&nbsp;d-iii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-ii,&nbsp;b-iv,&nbsp;c-i,&nbsp;d-iii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56741/ugc-net-cse-june-2014-part-3-question-19\" target=\"_blank\">https://gateoverflow.in/56741/ugc-net-cse-june-2014-part-3-question-19</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"56743\"></a><div itemprop=\"text\">\n<p>Which one of the following is not a definition of error ?</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 3 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It refers to the discrepancy between a computed, observed or measured value and the true, specified or theoretically correct value.</p>",
+            "<p>It refers to the actual output of a software and the correct output.</p>",
+            "<p>It refers to a condition that causes a system to fail.</p>",
+            "<p>It refers to human action that results in software containing a defect or fault.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>It refers to a condition that causes a system to fail.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56743/ugc-net-cse-june-2014-part-3-question-20\" target=\"_blank\">https://gateoverflow.in/56743/ugc-net-cse-june-2014-part-3-question-20</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"12766\"></a><div itemprop=\"text\">\n<p><span style=\"line-height: 20.8px;\">Which design matric is used to measure the compactness of the program in terms of lines of code?</span></p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | Junet 2015 | Part 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Consistency</p>",
+            "<p>Conciseness</p>",
+            "<p>Efficiency</p>",
+            "<p>Accuracy</p>"
+          ],
+          "correct_answer": "<p>Conciseness</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/12766/ugc-net-cse-junet-2015-part-3-question-44\" target=\"_blank\">https://gateoverflow.in/12766/ugc-net-cse-junet-2015-part-3-question-44</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"12744\"></a><div itemprop=\"text\">\n<p><span style=\"line-height: 20.8px;\">Requirements prioritization and negotiation belongs to</span></p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | Junet 2015 | Part 3 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Requirements validation</p>",
+            "<p><span style=\"line-height: 20.8px;\">Requirements&nbsp;</span>elicitation</p>",
+            "<p>Feasibility study</p>",
+            "<p><span style=\"line-height: 20.8px;\">Requirements&nbsp;</span>reviews</p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 20.8px;\">Requirements&nbsp;</span>elicitation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/12744/ugc-net-cse-junet-2015-part-3-question-45\" target=\"_blank\">https://gateoverflow.in/12744/ugc-net-cse-junet-2015-part-3-question-45</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"61422\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List-I} &amp; &amp; \\textbf{List-II} \\\\&nbsp;\\text{(a)}&nbsp; &amp; \\text{Joint Application} &amp; \\text{(i)} &amp; \\text{Delivers functionality in rapid iteration} \\\\ &amp;&nbsp;\\text{Design (JAD)}&nbsp;&amp;&amp;&nbsp;\\text{measured in weeks and needs frequent} \\\\ &amp;&amp;&amp;\\text{communication, development, testing and} \\\\ &amp;&amp;&amp; \\text{delivery}&nbsp;\\\\&nbsp;\\text{(b)}&nbsp; &amp; \\text{Computer Aided}&nbsp;&amp; \\text{(ii)} &amp; \\text{Reusable applications generally with one} &nbsp;\\\\ &amp; \\text{Software} &amp;&amp;&nbsp;&nbsp;\\text{ specific function. It is closely linked with}\\\\ &amp;\\text{Engineering}&amp;&amp; \\text{ &nbsp; idea of web services and service oriented}&nbsp; \\\\ &amp;&amp;&amp; \\text{architecture}&nbsp; \\\\&nbsp;\\text{(c)}&nbsp; &amp; \\text{Agile development} &amp; \\text{(iii)} &amp; \\text{Tools to automate many tasks of SDLC} \\\\&nbsp;\\text{(d)}&nbsp; &amp; \\text{Component} &amp;&nbsp;\\text{(iv)} &amp; \\text{A group based tool for collecting user}&nbsp;\\\\ &amp;\\text{Based}&amp;&amp; \\text{ requirements and creating system design.}&nbsp;\\\\ &amp; \\text{Technology} &amp;&amp;&nbsp;&nbsp;\\text{Mostly used in analysis&nbsp; and design stages} \\\\ &amp;&amp;&amp; \\text{of SDLC} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | Junet 2015 | Part 3 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61422/ugc-net-cse-junet-2015-part-3-question-60\" target=\"_blank\">https://gateoverflow.in/61422/ugc-net-cse-junet-2015-part-3-question-60</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"349654\"></a><div itemprop=\"text\"><p>Which of the following \\( UML \\) diagrams has a static view?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Collaboration diagram</p>",
+            "<p>Use-Case&nbsp;diagram</p>",
+            "<p>State chart&nbsp;diagram</p>",
+            "<p>Activity&nbsp;diagram</p>"
+          ],
+          "correct_answer": "<p>Use-Case&nbsp;diagram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349654/ugc-net-cse-october-2020-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/349654/ugc-net-cse-october-2020-part-2-question-19</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"349653\"></a><div itemprop=\"text\"><p>Modifying the software by restructuring is called</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Adaptive maintenance</p>",
+            "<p>Corrective&nbsp;maintenance</p>",
+            "<p>Perfective&nbsp;maintenance</p>",
+            "<p>Preventive&nbsp;maintenance</p>"
+          ],
+          "correct_answer": "<p>Perfective&nbsp;maintenance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349653/ugc-net-cse-october-2020-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/349653/ugc-net-cse-october-2020-part-2-question-20</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"349652\"></a><div itemprop=\"text\"><p>A company has a choice of two languages \\( L_1 \\) and \\( L_2 \\) to develop a software for their client. Number of LOC required to develop an application in \\( L_2 \\) is thrice the LOC in language \\( L_1 \\). Also, software has to be maintained for next \\( 10 \\) years. Various parameters for two languages are given below to decide which language should be preferred for development.</p>\n\n<p>\\( \\begin{array}{|l|l|l|} \\hline&nbsp;\\text{PARAMETER} &amp; L_1 &amp; L_2 \\\\ \\hline \\text{Man-year needed for development} &amp; \\text{LOC}/1000 &amp; \\text{LOC}/1000 \\\\ \\hline \\text{Development cost} &amp; \\text{Rs}. 70,000 &amp; \\text{Rs}. 90,000 \\\\ \\hline \\text{Cost of Maintenance per year} &amp; \\text{Rs.} 1,00,000 &amp; \\text{Rs.} 40,000 \\\\ \\hline \\end{array} \\)</p>\n\n<p>Total cost of project include cost of development and maintenance. What is the \\( \\text{LOC} \\)&nbsp;for \\( L_1 \\) for which cost of developing the software with both languages must be same?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2000 \\)</p>",
+            "<p>\\( 6000 \\)</p>",
+            "<p>\\( 3000 \\)</p>",
+            "<p>\\( 5000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349652/ugc-net-cse-october-2020-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/349652/ugc-net-cse-october-2020-part-2-question-21</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"349651\"></a><div itemprop=\"text\"><p>A Software project was estimated at \\( 864 \\) Function Points. A six person team will be assigned to project consisting of a requirement gathering person, one designer, two programmers and two testers. The salary of the designer is \\( \\text{Rs. } 70,000 \\) per month, requirement gatherer is \\( \\text{Rs. } 50,000 \\) per month, programmer is \\( \\text{Rs. } 60,000 \\) per month and a tester is \\( \\text{Rs. } 60,000 \\) per month. Average productivity for the team is \\( 12 \\) FP per person month. Which of the following represents the projected cost of the project</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Rs. } 33,20,000 \\)</p>",
+            "<p>\\( \\text{Rs. } 43,20,000 \\)</p>",
+            "<p>\\( \\text{Rs. } 33,10,000 \\)</p>",
+            "<p>\\( \\text{Rs. } 22,10,000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Rs. } 43,20,000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349651/ugc-net-cse-october-2020-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/349651/ugc-net-cse-october-2020-part-2-question-22</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"349628\"></a><div itemprop=\"text\"><p>Which of the following statements regarding XML is/are True?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>XML is a set of tags designed to tell browsers how to display text and images in a web page</li>\n\t<li>XML defines a syntax for representing data, but the meaning of data varies from application to application</li>\n\t<li>&lt;Letter&gt;, &lt;LETTER&gt; and&nbsp; &lt;letter&gt; are three different tags in XML</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (i) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (i) \\) \\( (ii) \\) and \\( (iii) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349628/ugc-net-cse-october-2020-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/349628/ugc-net-cse-october-2020-part-2-question-45</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"349624\"></a><div itemprop=\"text\"><p>Software reliability is described with respect to</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Execution Time</li>\n\t<li>Calender Time</li>\n\t<li>Clock Time</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (i) \\), \\( (ii) \\) and \\( (iii) \\)</p>",
+            "<p>\\( (i) \\) and \\( (iii) \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\), \\( (ii) \\) and \\( (iii) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349624/ugc-net-cse-october-2020-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/349624/ugc-net-cse-october-2020-part-2-question-49</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"349623\"></a><div itemprop=\"text\"><p>To create an object-behavioral model, the analyst performs the following steps:</p>\n\n\n\n<p>Choose the correct answer from the options given below:</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( (a) \\), \\( (b) \\) and \\( (c) \\) only</li>\n\t<li>\\( (a) \\), \\( (b) \\) and \\( (d) \\) only</li>\n\t<li>\\( (b) \\), \\( (c) \\) and \\( (d) \\) only</li>\n\t<li>\\( (a) \\), \\( (c) \\) and \\( (d) \\) only</li>\n</ol></div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Evaluates all use-cases</p>",
+            "<p>Builds state transition diagram for&nbsp;the system</p>",
+            "<p>Reviews the object behaviour model to verify accuracy and consistency</p>",
+            "<p>Identifies events that do not derive the interaction sequence</p>"
+          ],
+          "correct_answer": "<p>Evaluates all use-cases</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349623/ugc-net-cse-october-2020-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/349623/ugc-net-cse-october-2020-part-2-question-50</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"349622\"></a><div itemprop=\"text\"><p>Which of the following is/are behavioral testing technique(s)?</p>\n\n\n\n<p>Choose the correct answer from the options given below:</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( (b) \\) and \\( (d) \\) only</li>\n\t<li>\\( (a) \\), \\( (b) \\) and \\( (c) \\) only</li>\n\t<li>\\( (d) \\) and \\( (e) \\) only</li>\n\t<li>\\( (a) \\), \\( (c) \\) and \\( (e) \\) only</li>\n</ol></div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Equivalence Partitioning</p>",
+            "<p>Graph-Based Treating Method</p>",
+            "<p>Boundary Value Analysis</p>",
+            "<p>Data flow Testing</p>",
+            "<p>Loop Testing</p>"
+          ],
+          "correct_answer": "<p>Graph-Based Treating Method</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349622/ugc-net-cse-october-2020-part-2-question-51\" target=\"_blank\">https://gateoverflow.in/349622/ugc-net-cse-october-2020-part-2-question-51</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"349605\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Match \\( \\text{list I} \\) with \\( \\text{List II} \\)</p>\n\n<p>With reference to CMM developed by Software Engineering Institute (SEI)</p>\n\n<p>\\( \\begin{array}{llll} &amp; \\text{List I} &amp;&amp; \\text{List II} \\\\ (A) &amp; \\text{INITIAL} &amp; (I) &amp; \\text{Process measurement} \\\\ (B) &amp; \\text{REPEATABLE} &amp; (II) &amp; \\text{Process definition} \\\\ (C) &amp; \\text{DEFINED} &amp; (III) &amp; \\text{Project management} \\\\ (D) &amp; \\text{MANAGED} &amp; (IV) &amp; \\text{ADHOC} \\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A-III, B-IV, C-II, D-I \\)</p>",
+            "<p>\\( A-IV, B-III, C-I, D-II \\)</p>",
+            "<p>\\( A-IV, B-III, C-II, D-I \\)</p>",
+            "<p>\\( A-III, B-IV, C-I, D-II \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A-IV, B-III, C-II, D-I \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349605/ugc-net-cse-october-2020-part-2-question-68\" target=\"_blank\">https://gateoverflow.in/349605/ugc-net-cse-october-2020-part-2-question-68</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"349596\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Arrange the following types of Cohesion from the best to worst type.</p>\n\n\n\n<p>Choose the correct answer from the options given below:</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( a \\rightarrow d \\rightarrow e \\rightarrow c \\rightarrow b \\)</li>\n\t<li>\\( a \\rightarrow e \\rightarrow d \\rightarrow c \\rightarrow b \\)</li>\n\t<li>\\( b \\rightarrow e \\rightarrow&nbsp;c&nbsp;\\rightarrow d \\rightarrow a \\)</li>\n\t<li>\\( b \\rightarrow c \\rightarrow e \\rightarrow d \\rightarrow&nbsp;a \\)</li>\n</ol></div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Logical Cohesion</p>",
+            "<p>Sequential Cohesion</p>",
+            "<p>Communication&nbsp;Cohesion</p>",
+            "<p>Temporal&nbsp;Cohesion</p>",
+            "<p>Procedural&nbsp;Cohesion</p>"
+          ],
+          "correct_answer": "<p>Temporal&nbsp;Cohesion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349596/ugc-net-cse-october-2020-part-2-question-77\" target=\"_blank\">https://gateoverflow.in/349596/ugc-net-cse-october-2020-part-2-question-77</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"349588\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Statement \\( I \\): Quality control involves the series of inspections, reviews and tests used throughout the software process, to ensure each work product meets the requirements placed upon it.</p>\n\n<p>Statement \\( II \\): Quality assurance consists of auditing and reporting functions of management</p>\n\n<p>In&nbsp;the light of the above statements, choose the correct answer from the options given below</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2020 | Part 2 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349588/ugc-net-cse-october-2020-part-2-question-85\" target=\"_blank\">https://gateoverflow.in/349588/ugc-net-cse-october-2020-part-2-question-85</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"59226\"></a><div itemprop=\"text\">\n<p>The _____ of a program or computing system is the structure or structures of the system, which comprise software components, the externally visible properties of these components and the relationship among them.</p>\n\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | September 2013 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>E-R diagram</p>",
+            "<p>Data flow diagram</p>",
+            "<p>Software architecture</p>",
+            "<p>Software design</p>"
+          ],
+          "correct_answer": "<p>Software architecture</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59226/ugc-net-cse-september-2013-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/59226/ugc-net-cse-september-2013-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+}

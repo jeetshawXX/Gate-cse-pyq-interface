@@ -1,0 +1,41 @@
+{
+  "title": "Others - Others - Rdbms",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Rdbms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69528\"></a><div itemprop=\"text\"><p>DBMS provides the facility of accessing data from a database through</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 2 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DDL</p>",
+            "<p>DML</p>",
+            "<p>DBA</p>",
+            "<p>Schema</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69528/ugc-net-cse-august-2016-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/69528/ugc-net-cse-august-2016-part-2-question-16</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"69553\"></a><div itemprop=\"text\"><p>Consider the following statements regarding relational database model :</p>\n\n<p>(a) NULL values can be used to opt a tuple out of enforcement of a foreign key.</p>\n\n<p>(b) Suppose that table T has only one candidate key. If Q is in \\( 3 \\)NF, then it is also in BCNF.</p>\n\n<p>(c) The difference between the project operator \\( (\\pi) \\) in relational algebra and the SELECT keyword in SQL is that if the resulting table/set has more than one occurrences of the same tuple, then \\( \\pi \\)&nbsp;will return only one of them, while SQL SELECT will return all. One can determine that :</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 2 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>(a) and (b) are true.</p>",
+            "<p>(a) and (c) are true.</p>",
+            "<p>(b) and (c) are true.</p>",
+            "<p>(a), (b) and (c) are true.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69553/ugc-net-cse-august-2016-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/69553/ugc-net-cse-august-2016-part-2-question-18</a></p>"
+        }
+      ]
+    }
+  ]
+}

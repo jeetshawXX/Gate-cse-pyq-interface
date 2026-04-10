@@ -1,0 +1,231 @@
+window.__examLoadCallback({
+  "title": "Numerical_Method - Numerical_Method - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Method",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The velocity v (in kilometer/minute) of a motorbike which starts from rest, is given at fixed intervals of time t (in minutes) as follows: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Method\\q26_5ff1a22d.jpg\"> <br> The approximate distance (in kilometers) rounded to two places of decimals covered in 20 minutes using Simpson's \\(1/3^{rd}\\) rule is _______________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "308",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8559/gate2015-3-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The secant method is used to find the root of an equation f(x)=0. It is started from two distinct estimates \\(x_{a}\\) and \\(x_{b}\\) for the root. It is an iterative procedure involving linear interpolation to a root. The iteration stops if \\(f(x_{b})\\) is very small and then \\(x_{b}\\) is the solution. The procedure is given below. Observe that there is an expression which is missing and is marked by ?. Which is the suitable expression that is to be put in place of ? so that it follows all steps of the secant method?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Method\\q41_af915979.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{b}-(f_{b}-f(x_{a}))f_{b}/(x_{b}-x_{a})\\)</p>",
+            "<b>B.</b> <p>\\(x_{a}-(f_{b}-f(x_{a}))f_{a}/(x_{b}-x_{a})\\)</p>",
+            "<b>C.</b> <p>\\(x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))\\)</p>",
+            "<b>D.</b> <p>\\(x_{a}-(x_{b}-x_{a})f_{a}/(f_{b}-f(x_{a}))\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8210/gate2015-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>With respect to the numerical evaluation of the definite integral,\\(K=\\int_{a}^{b}x^{2}dx\\) , where a and b are given, which of the following statements is/are TRUE? <br>\n(I) The value of K obtained using the trapezoidal rule is always greater than or equal to the\nexact value of the definite integral. <br>\n(II) The value of K obtained using the Simpson's rule is always equal to the exact value of\nthe definite integral. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2080/gate2014-3-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In the Newton-Raphson method, an initial guess of \\(x_{0}=2\\) is made and the sequence\n\\(x_{0},x_{1},x_{2}...\\) is obtained for the function <br> \\(0.75x^{3}-2x^{2}-2x+4=0\\)<br> Consider the statements <br>\n(I) \\(x_{3}\\)=0. <br>\n(II) The method converges to a solution in a finite number of iterations. <br>\nWhich of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only I</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2012/gate2014-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Function f is known at the following points: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Method\\q23_ec5c245a.jpg\"> <br> The value of \\(\\int_{0}^{3}f(x)dx\\) computed using the trapezoidal rule is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8.983</p>",
+            "<b>B.</b> <p>9.003</p>",
+            "<b>C.</b> <p>9.017</p>",
+            "<b>D.</b> <p>9.045</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9.045</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1534/gate2013-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The bisection method is applied to compute a zero of the function  \\(f(x) = x^{4}-x^{3}-x^{2}-4\\) in the interval [1,9]. The method converges to a solution after _____iterations. <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1614/gate2012-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Newton-Raphson method is used to compute a root of the equation \\(x^{2} -13=0\\)\nwith 3.5 as the initial value. The approximation after one iteration is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3.575</p>",
+            "<b>B.</b> <p>3.676</p>",
+            "<b>C.</b> <p>3.667</p>",
+            "<b>D.</b> <p>3.607</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3.607</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1148/gate2010-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the function \\(f(x) = x^{2} - 2x - 1\\). Suppose an execution of the Newton-Raphson method to find a zero of \\(f(x)\\) starts with an approximation \\(x_{0} = 2\\) of \\(x\\). What is the value of \\(x_{2}\\), the approximation of \\(x\\) that algorithm produces after two iterations, rounded to three decimal places? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.417</p>",
+            "<b>B.</b> <p>2.419</p>",
+            "<b>C.</b> <p>2.423</p>",
+            "<b>D.</b> <p>2.425</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2.417</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3320/gate2008-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The Newton-Raphson iteration \\(x_{n+1}=\\frac{1}{2}(x_{n}+\\frac{R}{x_{n}})\\) can be used to compute the <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>square of R</p>",
+            "<b>B.</b> <p>reciprocal of R</p>",
+            "<b>C.</b> <p>square root of R</p>",
+            "<b>D.</b> <p>logarithm of R</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>square root of R</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/420/gate2008-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The trapezoidal method is used to evaluate the numerical value of \\(\\int_{0}^{1}e^x dx\\).  Consider the following values for the step size h.<br>\ni.   \\(10^{-2}\\)<br>\nii.  \\(10^{-3}\\)<br>\niii. \\(10^{-4}\\)<br>\niv.  \\(10^{-5}\\)<br>\nFor which of these values of the step size h, is the computed value guaranteed to be correct to seven decimal places. Assume that there are no round-off errors in the computation. <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>iv only</p>",
+            "<b>B.</b> <p>iii and iv only</p>",
+            "<b>C.</b> <p>ii, iii and iv only</p>",
+            "<b>D.</b> <p>i, ii, iii and iv</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>iii and iv only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3455/gate2007-it-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the series \\(x_{n+1}=\\frac{x_{n}}{2}+\\frac{9}{8x_{n}},x_{0}=0.5\\) obtained from the Newton-Raphson method. The series converges to <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.5</p>",
+            "<b>B.</b> <p>\\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>1.6</p>",
+            "<b>D.</b> <p>1.4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1.5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1226/gate2007-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>x+y/2=9 <br>\n3x+y=10<br>\nWhat can be said about the Gauss-Siedel iterative method for solving the above set of linear equations? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it will converge</p>",
+            "<b>B.</b> <p>It will diverse</p>",
+            "<b>C.</b> <p>It will neither converge nor diverse</p>",
+            "<b>D.</b> <p>It is not applicable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>it will converge</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3621/gate2006-it-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>x+y/2=9 <br>\n3x+y=10<br>\nThe value of the Frobenius norm for the above system of equations is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5</p>",
+            "<b>B.</b> <p>0.75</p>",
+            "<b>C.</b> <p>1.5</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3620/gate2006-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Match the following iterative methods for solving algebraic equations and their orders of convergence.<br>\\(\\begin{array}{|l|l|l|l|} \\hline &amp; \\text { Method } &amp; &amp; \\text { Order of Convergence } \\\\ \\hline \\text { 1. } &amp; \\text { Bisection } &amp; \\text { P. } &amp; \\text { 2 or more } \\\\ \\hline \\text { 2. } &amp; \\text { Newton-Raphson } &amp; \\text { Q. } &amp; 1.62 \\\\ \\hline \\text { 3. } &amp; \\text { Secant } &amp; \\text { R. } &amp; 1 \\\\ \\hline \\text { 4. } &amp; \\text { Regula falsi } &amp; \\text { S. } &amp; 1 \\text { bit per iteration } \\\\ \\hline \\end{array}\\) <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I-R, II-S, III-P, IV-Q</p>",
+            "<b>B.</b> <p>I-S, II-R, III-Q, IV-P</p>",
+            "<b>C.</b> <p>I-S, II-Q, III-R, IV-P</p>",
+            "<b>D.</b> <p>I-S, II-P, III-Q, IV-R</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I-S, II-P, III-Q, IV-R</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3566/gate2006-it-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>If the trapezoidal method is used to evaluate the integral obtained \\(\\int_{0}^{1} x^2dx\\), then the value obtained <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is always &gt; (1/3)</p>",
+            "<b>B.</b> <p>is always &lt; (1/3)</p>",
+            "<b>C.</b> <p>is always = (1/3)</p>",
+            "<b>D.</b> <p>may be greater or lesser than (1/3)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>is always &gt; (1/3)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3746/gate2005-it-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

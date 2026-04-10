@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - 2d Transformation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "2d Transformation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316251\"></a><div itemprop=\"text\"><p>Consider the following statements regarding \\( 2D \\) transforms in computer graphics:</p>\n\n<p>\\( S1: \\: \\begin{bmatrix} 1 &amp; 0 \\\\ 0 &amp; -1 \\end{bmatrix}  \\) is a \\( 2 \\times 2 \\) matrix that reflects (mirrors) only \\( 2D \\) point about the X-axis.</p>\n\n<p>\\( S2: \\) A \\( 2 \\times 2 \\) matrix which mirrors any \\( 2D \\) point about the \\( X \\)-axis, is a rotation matrix.</p>\n\n<p>What can you say about the statements \\( S1 \\) and \\( S2 \\)?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2019 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( S1 \\) and \\( S2 \\) are true</p>",
+            "<p>Only \\( S1 \\) is true</p>",
+            "<p>Only \\( S2 \\) is true</p>",
+            "<p>Both \\( S1 \\) and \\( S2 \\) are false</p>"
+          ],
+          "correct_answer": "<p>Only \\( S1 \\) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316251/ugc-net-cse-june-2019-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/316251/ugc-net-cse-june-2019-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

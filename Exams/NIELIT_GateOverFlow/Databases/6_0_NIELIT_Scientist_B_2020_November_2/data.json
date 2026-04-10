@@ -1,0 +1,41 @@
+{
+  "title": "Databases - NIELIT Scientist B 2020 November",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "NIELIT Scientist B 2020 November",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351572\"></a><div itemprop=\"text\"><p>An attribute(s) that is used to look up for records in a file is called a:</p>\n\n</div><br><br><b>Databases: NIELIT Scientist B 2020 November: 110</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Function key</p>",
+            "<p>Catalog key</p>",
+            "<p>Access key</p>",
+            "<p>Search key</p>"
+          ],
+          "correct_answer": "<p>Search key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351572/nielit-scientist-b-2020-november-110\" target=\"_blank\">https://gateoverflow.in/351572/nielit-scientist-b-2020-november-110</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351575\"></a><div itemprop=\"text\"><p>Most NoSQL databases support automatic ___________ meaning that you get high availability and disaster recovery.</p>\n\n</div><br><br><b>Databases: NIELIT Scientist B 2020 November: 107</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Processing</p>",
+            "<p>Scalability</p>",
+            "<p>Replication</p>",
+            "<p>All of the&nbsp;options</p>"
+          ],
+          "correct_answer": "<p>Replication</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351575/nielit-scientist-b-2020-november-107\" target=\"_blank\">https://gateoverflow.in/351575/nielit-scientist-b-2020-november-107</a></p>"
+        }
+      ]
+    }
+  ]
+}

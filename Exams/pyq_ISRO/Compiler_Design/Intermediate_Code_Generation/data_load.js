@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Compiler_Design - Intermediate_Code_Generation",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Intermediate_Code_Generation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is a type of a out-of-order execution, with the reordering done by a compiler <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>loop unrolling</p>",
+            "<b>B.</b> <p>dead code elimination</p>",
+            "<b>C.</b> <p>strength reduction</p>",
+            "<b>D.</b> <p>software pipelining</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>software pipelining</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331453/isro2020-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following comment about peep-hole optimization is true? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is applied to small part of the code and applied repeatedly</p>",
+            "<b>B.</b> <p>It can be used to optimize intermediate code</p>",
+            "<b>C.</b> <p>It can be applied to a portion of the code that is not contiguous</p>",
+            "<b>D.</b> <p>It is applied in symbol table to optimize the memory requirements.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It is applied to small part of the code and applied repeatedly</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213558/isro2018-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Peephole optimization is form of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Loop optimization</p>",
+            "<b>B.</b> <p>Local optimization</p>",
+            "<b>C.</b> <p>Constant folding</p>",
+            "<b>D.</b> <p>Data flow analysis</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Local optimization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55598/isro2016-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statements about peephole optimization is False? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is applied to a small part of the code</p>",
+            "<b>B.</b> <p>It can be used to optimize intermediate code</p>",
+            "<b>C.</b> <p>To get the best out of this, it has to be applied repeatedly</p>",
+            "<b>D.</b> <p>It can be applied to the portion of the code that is not contiguous</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It can be applied to the portion of the code that is not contiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52264/isro2011-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

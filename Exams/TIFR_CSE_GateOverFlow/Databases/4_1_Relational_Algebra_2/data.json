@@ -1,0 +1,43 @@
+{
+  "title": "Databases - Relational Algebra",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Relational Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"19246\"></a><div itemprop=\"text\"><p>In a relational database there are three relations:</p>\n\n<ul>\n\t<li>\\( Customers&nbsp;= C \\textsf{(CName)} \\)</li>\n\t<li>\\( Shops = S \\textsf{(SName)} \\)</li>\n\t<li>\\( Buys = B \\textsf{(CName, SName)} \\)</li>\n</ul>\n\n<p>Then the Relational Algebra expression ( \\( \\Pi  \\) is the projection operator).</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( C-\\Pi _\\textsf{CName}((C \\times S)-B) \\)</p>\n\n<p>returns the names of&nbsp;</p>\n\n</div><br><br><b>Databases: TIFR CSE 2010 | Part B | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Customers who buy from at least one shop.</p>",
+            "<p>Customers who buy from at least two shops.</p>",
+            "<p>Customers who buy from all shops.</p>",
+            "<p>Customers who do not buy buy anything at all.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>Customers who buy from all shops.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19246/tifr-cse-2010-part-b-question-33\" target=\"_blank\">https://gateoverflow.in/19246/tifr-cse-2010-part-b-question-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25872\"></a><div itemprop=\"text\"><p>In a relational database there are three relations:</p>\n\n<ul>\n\t<li>\\( Customers = C\\textsf{(CName)} \\),</li>\n\t<li>\\( Shops = S \\textsf{(SName)} \\),</li>\n\t<li>\\( Buys = B\\textsf{(CName, SName)} \\).</li>\n</ul>\n\n<p>Which of the following relational algebra expressions returns the names of shops that have no customers at&nbsp;all? [Here \\( \\Pi \\) is the projection operator.]</p>\n\n</div><br><br><b>Databases: TIFR CSE 2013 | Part B | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Pi _{\\textsf{SName}}B \\)</p>",
+            "<p>\\( S - B \\)</p>",
+            "<p>\\( S -&nbsp;\\Pi _{\\textsf{SName}}B \\)</p>",
+            "<p>\\( S -&nbsp;\\Pi _{\\textsf{SName}}((C \\times S) - B) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( S -&nbsp;\\Pi _{\\textsf{SName}}B \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25872/tifr-cse-2013-part-b-question-19\" target=\"_blank\">https://gateoverflow.in/25872/tifr-cse-2013-part-b-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

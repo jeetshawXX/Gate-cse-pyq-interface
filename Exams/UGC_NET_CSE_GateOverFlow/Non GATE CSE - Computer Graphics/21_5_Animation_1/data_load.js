@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Animation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Animation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60114\"></a><div itemprop=\"text\"><p>Which of the following categories of languages do not refer to animation languages ?</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | December 2014 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Graphical languages</p>",
+            "<p>General-purpose languages&nbsp;</p>",
+            "<p>Linear-list notations</p>",
+            "<p>None of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>None of the above&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60114/ugc-net-cse-december-2014-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/60114/ugc-net-cse-december-2014-part-3-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Baud Rate",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Baud Rate",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275529\"></a><div itemprop=\"text\"><p>Baud rate measures the number of ____ transmitted per second</p></div><br><br><b>Computer Networks: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Symbols</p>",
+            "<p>Bits</p>",
+            "<p>Byte</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Symbols</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275529/nielit-2018-35\" target=\"_blank\">https://gateoverflow.in/275529/nielit-2018-35</a></p>"
+        }
+      ]
+    }
+  ]
+}

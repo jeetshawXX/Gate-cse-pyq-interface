@@ -1,0 +1,94 @@
+window.__examLoadCallback({
+  "title": "Data Structures - AVL Tree",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "AVL Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"94367\"></a><div itemprop=\"text\"><p>Mark the balance factor of each node on the tree given in the below figure and state whether it is height-balanced.</p><p style=\"text-align:center\"><img alt=\"\" height=\"270\" width=\"318\" src=\"images/gateOverflow_pyq_images/data_structures___avl_tree/7b0ac8c0e8535ea7262ad4385dc60f52.png\"></p></div><br><br><b>GATE CSE 1988 | Question: 7ii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94367/gate-cse-1988-question-7ii\" target=\"_blank\">https://gateoverflow.in/94367/gate-cse-1988-question-7ii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2718\"></a><div itemprop=\"text\"><p>In the balanced binary tree in the below figure, how many nodes will become unbalanced when a node is inserted as a child of the node “g”?</p><p style=\"text-align:center\"><img alt=\"\" height=\"266\" width=\"327\" src=\"images/gateOverflow_pyq_images/data_structures___avl_tree/1886be8c5354959abd878f0cd6732ade.png\"></p></div><br><br><b>GATE CSE 1996 | Question: 1.14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2718/gate-cse-1996-question-1-14\" target=\"_blank\">https://gateoverflow.in/2718/gate-cse-1996-question-1-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1735\"></a><div itemprop=\"text\"></div><br><br><b>GATE CSE 1998 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Derive a recurrence relation for the size of the smallest AVL tree with height \\( h \\).</p>",
+            "<p>What is the size of the smallest AVL tree with height \\( 8 \\)?</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1735/gate-cse-1998-question-21\" target=\"_blank\">https://gateoverflow.in/1735/gate-cse-1998-question-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1323\"></a><div itemprop=\"text\"><p>What is the maximum height of any AVL-tree with \\( 7 \\) nodes? Assume that the height of a tree with a single node is \\( 0 \\).</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 37,ISRO-DEC2017-55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1323/gate-cse-2009-question-37-isro-dec2017-55\" target=\"_blank\">https://gateoverflow.in/1323/gate-cse-2009-question-37-isro-dec2017-55</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"333225\"></a><div itemprop=\"text\"><p>What is the worst case time complexity of inserting&nbsp;\\( n^{2} \\) elements into an AVL-tree with \\( n \\) elements initially?</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta (n^{4}) \\)</p>",
+            "<p>\\( \\Theta (n^{2}) \\)</p>",
+            "<p>\\( \\Theta (n^{2}\\log n) \\)</p>",
+            "<p>\\( \\Theta (n^{3}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta (n^{2}\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333225/gate-cse-2020-question-6\" target=\"_blank\">https://gateoverflow.in/333225/gate-cse-2020-question-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3272\"></a><div itemprop=\"text\"><p>Which of the following is TRUE?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The cost of searching an AVL tree is \\( \\Theta&nbsp;(\\log n) \\) but that of a binary search tree is \\( O(n) \\)</p>",
+            "<p>The cost of searching an AVL tree is \\( \\Theta (\\log n) \\) but that of a complete binary tree is&nbsp;\\( \\Theta (n \\log n) \\)</p>",
+            "<p>The cost of searching a binary search tree is \\( O (\\log n ) \\) but that of an AVL tree is \\( \\Theta(n) \\)</p>",
+            "<p>The cost of searching an AVL tree is \\( \\Theta&nbsp;(n \\log n) \\)&nbsp;but that of a binary search tree is \\( O(n) \\)</p>"
+          ],
+          "correct_answer": "<p>The cost of searching an AVL tree is \\( \\Theta&nbsp;(\\log n) \\) but that of a binary search tree is \\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3272/gate-it-2008-question-12\" target=\"_blank\">https://gateoverflow.in/3272/gate-it-2008-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Cartesian Coordinates",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cartesian Coordinates",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3532\"></a><div itemprop=\"text\"><p>Let \\( P_{1},P_{2},\\ldots,P_{n} \\)&nbsp;be \\( n \\) points in the \\( xy- \\)plane such that no three of them are collinear. For every pair of points \\( P_{i} \\) and \\( P_{j} \\), let \\( L_{ij} \\) be the line passing through them. Let \\( L_{ab} \\) be the line with the steepest gradient amongst all \\( \\frac{n(n -1)}{2} \\) lines.</p><p>Which one of the following properties should necessarily be satisfied ?</p></div><br><br><b>GATE IT 2007 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P_{a} \\) and \\( P_{b} \\) are adjacent to each other with respect to their \\( x \\)-coordinate</p>",
+            "<p>Either \\( P_{a} \\) or \\( P_{b} \\) has the largest or the smallest \\( y \\)-coordinate among all the points</p>",
+            "<p>The difference between \\( x \\)-coordinates&nbsp;\\( P_{a} \\) and \\( P_{b} \\) is minimum</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( P_{a} \\) and \\( P_{b} \\) are adjacent to each other with respect to their \\( x \\)-coordinate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3532/gate-it-2007-question-80\" target=\"_blank\">https://gateoverflow.in/3532/gate-it-2007-question-80</a></p>"
+        }
+      ]
+    }
+  ]
+});

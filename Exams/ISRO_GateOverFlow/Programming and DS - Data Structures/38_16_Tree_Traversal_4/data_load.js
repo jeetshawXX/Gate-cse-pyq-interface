@@ -1,0 +1,66 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Tree Traversal",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Tree Traversal",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50619\"></a><div itemprop=\"text\"><p>The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2011 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>FGBDECA</p>",
+            "<p>ABFGCDE</p>",
+            "<p>BFGCDEA</p>",
+            "<p>AFGBDEC</p>"
+          ],
+          "correct_answer": "<p>ABFGCDE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50619/isro-cse-2011-question-26\" target=\"_blank\">https://gateoverflow.in/50619/isro-cse-2011-question-26</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128696\"></a><div itemprop=\"text\"><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"Tree figure\" width=\"500\" height=\"363\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4972486920412780173\"></p><p>If the post order traversal gives ab -cd * + then the label of the nodes 1,2,3.. will be</p></div><br><br><b>Data Structures: ISRO CSE 2017 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>+ , -, *, a,b,c,d</p>",
+            "<p>a, -,b,+,c,*,d</p>",
+            "<p>a,b,c,d,-,*,+</p>",
+            "<p>-,a,b,+,*,c,d</p>"
+          ],
+          "correct_answer": "<p>+ , -, *, a,b,c,d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128696/isro-cse-2017-question-50\" target=\"_blank\">https://gateoverflow.in/128696/isro-cse-2017-question-50</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"213508\"></a><div itemprop=\"text\"><p>If \\( \\text{Tree-1} \\) and \\( \\text{Tree-2} \\) are the trees indicated below:</p><p style=\"text-align:center\"><img alt=\"Tree diagram\" width=\"600\" height=\"396\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=8941403222434747861\"></p><p>Which traversals of \\( \\text{Tree-1} \\) and \\( \\text{Tree-2} \\), respectively, will produce the same sequence?</p><ol start=\"1\" style=\"list-style-type:lower-alpha\"><li>Preorder, postorder</li><li>Postorder, inorder</li><li>Postorder, preorder</li><li>Inorder, preorder</li></ol></div><br><br><b>Data Structures: ISRO CSE 2018 | Question: 80</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213508/isro-cse-2018-question-80\" target=\"_blank\">https://gateoverflow.in/213508/isro-cse-2018-question-80</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"331270\"></a><div itemprop=\"text\"><p>The post-order traversal of binary tree is \\( \\text{ACEDBHIGF} \\). The pre-order traversal is</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2020 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A B C D E F G H I} \\)</p>",
+            "<p>\\( \\text{F B A D C E G I H} \\)</p>",
+            "<p>\\( \\text{F A B C D E G H I} \\)</p>",
+            "<p>\\( \\text{A B D C E F G I H} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{F B A D C E G I H} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331270/isro-cse-2020-question-23\" target=\"_blank\">https://gateoverflow.in/331270/isro-cse-2020-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+{
+  "title": "Compiler Design - Parameter Passing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Parameter Passing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"999\"></a><div itemprop=\"text\"><p>Consider the following function</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void swap(int a, int b)  \n{       \n    int temp;\n    temp = a;\n    a = b;\n    b = temp;  \n}  </pre>\n\n<p>In order to exchange the values of two variables \\( x \\) and \\( y \\).</p>\n\n</div><br><br><b>Compiler Design: GATE CSE 2004 | Question: 2,ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>call \\( swap(x, y) \\)</p>",
+            "<p>call \\( swap(\\&amp;x, \\&amp;y) \\)</p>",
+            "<p>\\( swap (x, y) \\) cannot be used as it does not return any value</p>",
+            "<p>\\( swap (x, y) \\) cannot be used as the parameters are passed by value</p>"
+          ],
+          "correct_answer": "<p>\\( swap (x, y) \\) cannot be used as the parameters are passed by value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/999/gate-cse-2004-question-2-isro2017-54\" target=\"_blank\">https://gateoverflow.in/999/gate-cse-2004-question-2-isro2017-54</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"52145\"></a><div itemprop=\"text\"><p>Consider the following code fragment</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void foo(int x, int y)\n{\n    x+=y;\n    y+=x;\n}\nmain()\n{\n    int x=5.5;\n    foo(x,x);\n}</pre>\n\n<p>What is the final value of \\( \\textsf{x} \\) in both call by value and call by reference, respectively?</p>\n\n</div><br><br><b>Compiler Design: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\) and \\( 16 \\)</p>",
+            "<p>\\( 5 \\) and \\( 12 \\)</p>",
+            "<p>\\( 5 \\) and \\( 20 \\)</p>",
+            "<p>\\( 12 \\) and \\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\) and \\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52145/isro2015-80\" target=\"_blank\">https://gateoverflow.in/52145/isro2015-80</a></p>"
+        }
+      ]
+    }
+  ]
+}

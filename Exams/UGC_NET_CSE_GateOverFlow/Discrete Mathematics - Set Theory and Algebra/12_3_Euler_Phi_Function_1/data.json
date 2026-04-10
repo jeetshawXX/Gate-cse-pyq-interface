@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Euler Phi Function",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Euler Phi Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316209\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<p>\\( S_1 \\): For any integer \\( n&gt;1, \\: a^{\\phi(n)} \\equiv 1(mod \\: n) \\) for all \\( a \\in Z_n^* \\) ,&nbsp;where \\( \\phi(n) \\) is Euler’s phi function.</p>\n\n<p>\\( S_2 \\): If \\( p \\) is prime, then \\( a^p \\equiv 1(mod \\: p) \\) for all \\( a \\in Z_p^* \\).</p>\n\n<p>Which one of the following is/are correct?</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | June 2019 | Part 2 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( S_1 \\)</p>",
+            "<p>Only \\( S_2 \\)</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\)</p>",
+            "<p>Neither \\( S_1 \\) nor \\( S_2 \\)</p>"
+          ],
+          "correct_answer": "<p>Only \\( S_1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316209/ugc-net-cse-june-2019-part-2-question-70\" target=\"_blank\">https://gateoverflow.in/316209/ugc-net-cse-june-2019-part-2-question-70</a></p>"
+        }
+      ]
+    }
+  ]
+}

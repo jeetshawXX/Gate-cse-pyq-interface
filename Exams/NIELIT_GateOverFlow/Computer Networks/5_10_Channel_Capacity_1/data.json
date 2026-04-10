@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Channel Capacity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Channel Capacity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336986\"></a><div itemprop=\"text\"><p>If the channel is band limited to \\( 6\\;kHz \\) and signal to noise ratio is \\( 16, \\) what would be the capacity of channel?</p></div><br><br><b>Computer Networks: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16.15 \\) kbps</p>",
+            "<p>\\( 23.24 \\) kbps</p>",
+            "<p>\\( 40.12 \\) kbps</p>",
+            "<p>\\( 24.74 \\) kbps</p>"
+          ],
+          "correct_answer": "<p>\\( 24.74 \\) kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336986/nielit-2017-oct-scientific-assistant-a-it-section-c-11\" target=\"_blank\">https://gateoverflow.in/336986/nielit-2017-oct-scientific-assistant-a-it-section-c-11</a></p>"
+        }
+      ]
+    }
+  ]
+}

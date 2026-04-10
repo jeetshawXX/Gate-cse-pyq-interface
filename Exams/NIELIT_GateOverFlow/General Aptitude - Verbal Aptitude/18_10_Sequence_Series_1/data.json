@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - Sequence Series",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Sequence Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275554\"></a><div itemprop=\"text\"><p>Look at this sequence \\( SCD\\;\\; TEF\\;\\; UGH \\_\\_\\_\\_WKL, \\) and find the missing sequence.</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( CMN \\)</p>",
+            "<p>\\( UJI \\)</p>",
+            "<p>\\( VIJ \\)</p>",
+            "<p>\\( IJT \\)</p>"
+          ],
+          "correct_answer": "<p>\\( VIJ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275554/nielit-2018-10\" target=\"_blank\">https://gateoverflow.in/275554/nielit-2018-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+window.__examLoadCallback({
+  "title": "CO & Architecture - Virtual Memory",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Virtual Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"517\"></a><div itemprop=\"text\"><p>The total size of address space in a virtual memory system is limited by:</p>\n\n</div><br><br><b>GATE CSE 1991 | Question: 03,iii</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>the length of MAR</p>",
+            "<p>the available secondary storage</p>",
+            "<p>the available main memory</p>",
+            "<p>all of the above</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": [
+            "<p>the length of MAR</p>",
+            "<p>the available secondary storage</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/517/gate-cse-1991-question-03-iii\" target=\"_blank\">https://gateoverflow.in/517/gate-cse-1991-question-03-iii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"318\"></a><div itemprop=\"text\"><p>Consider a system with a two-level paging scheme in which a regular memory access takes \\( 150 \\) \\( nanoseconds \\), and servicing a page fault takes \\( 8 \\) \\( milliseconds \\). An average instruction takes \\( 100 \\) nanoseconds of CPU time, and two memory accesses. The TLB hit ratio is \\( 90 \\)%, and the page fault rate is one in every \\( 10,000 \\) instructions. What is the effective average instruction execution time?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{645 nanoseconds} \\)</p>",
+            "<p>\\( \\text{1050 nanoseconds} \\)</p>",
+            "<p>\\( \\text{1215 nanoseconds} \\)</p>",
+            "<p>\\( \\text{1230 nanoseconds} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1230 nanoseconds} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/318/gate-cse-2004-question-47\" target=\"_blank\">https://gateoverflow.in/318/gate-cse-2004-question-47</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"449\"></a><div itemprop=\"text\"><p>In an instruction execution pipeline, the earliest that the data TLB (Translation Lookaside Buffer) can be accessed is:</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>before effective address calculation has started</p>",
+            "<p>during effective address calculation</p>",
+            "<p>after effective address calculation has completed</p>",
+            "<p>after data cache lookup has completed</p>"
+          ],
+          "correct_answer": "<p>after effective address calculation has completed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/449/gate-cse-2008-question-38\" target=\"_blank\">https://gateoverflow.in/449/gate-cse-2008-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,322 @@
+{
+  "title": "Computer_Organization - Memory_Chip_Design",
+  "duration": 58,
+  "sections": [
+    {
+      "name": "Memory_Chip_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A 4 kilobyte (KB) byte-addressable memory is realized using four 1 KB memory\nblocks. Two input address lines (IA4 and IA3) are connected to the chip select\n(CS) port of these memory blocks through a decoder as shown in the figure. The\nremaining ten input address lines from IA11-IA0 are connected to the address\nport of these blocks. The chip select (CS) is active high. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Chip_Design\\q32_9bb50bc2.jpg\"><br>The input memory addresses (IA11-IA0), in decimal, for the starting locations\n(Addr=0) of each block (indicated as X1, X2, X3, X4 in the figure) are among the\noptions given below. Which one of the following options is CORRECT? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0, 1, 2, 3)</p>",
+            "<b>B.</b> <p>(0, 1024, 2048, 3072)</p>",
+            "<b>C.</b> <p>(0, 8, 16, 24)</p>",
+            "<b>D.</b> <p>(0, 0, 0, 0)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(0, 8, 16, 24)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399279/gate-cse-2023-question-32#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The chip select logic for a certain DRAM chip in a memory system design is shown below. Assume that the memory system has 16 address lines denoted by \\(A_{15} \\; to \\; A_0\\). What is the range of address (in hexadecimal) of the memory system that can get enabled by the chip select (CS) signal? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Chip_Design\\q2_f0302f91.jpg\"> <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>C800 to CFFF</p>",
+            "<b>B.</b> <p>CA00 to CAFF</p>",
+            "<b>C.</b> <p>C800 to C8FF</p>",
+            "<b>D.</b> <p>DA00 to DFFF</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>C800 to CFFF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302846/gate2019-cs-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A 32-bit wide main memory unit with a capacity of 1 GB is built using 256M x 4-bit DRAM chips. The number of rows of memory cells in the DRAM chip is \\(2^{14}\\). The time taken to perform one refresh operation is 50 nanoseconds. The refresh period is 2 milliseconds. The percentage (rounded to the closest integer) of the time available for performing the memory read/write operations in the main memory unit is __________. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "59",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204097/gate2018-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>How many 128x8 bit RAMs are required to design 32Kx32 bit RAM? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>512</p>",
+            "<b>B.</b> <p>1024</p>",
+            "<b>C.</b> <p>128</p>",
+            "<b>D.</b> <p>32</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128487/isro2017-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>How many 32K x 1 RAM chips are needed to provide a memory capacity of 256K-bytes? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>32</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>128</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1299/gate2009-7-isro2015-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Suppose you want to build a memory with 4 byte words and a capacity of \\(2^{21}\\) bits. What is type of decoder required if the memory is built using \\(2K \\times 8\\) RAM chips? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 to 32</p>",
+            "<b>B.</b> <p>6 to 64</p>",
+            "<b>C.</b> <p>4 to 16</p>",
+            "<b>D.</b> <p>7 to 128</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5 to 32</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15028/isro2014-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If each address space represents one byte of storage space, how many address lines are needed to access RAM chips arranged in a \\(4 \\times 6\\) array, where each chip is \\(8K \\times 4\\) bits ? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>17</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>17</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15027/isro2014-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A RAM chip has a capacity of 1024 words of 8 bits each (1K x 8). The number of 2 x 4 decoders\nwith enable line needed to construct a 16K x 16 RAM from 1K x 8 RAM is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1555/gate2013-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The amount of ROM needed to implement a 4 bit multiplier is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 bits</p>",
+            "<b>B.</b> <p>128 bits</p>",
+            "<b>C.</b> <p>1 Kbits</p>",
+            "<b>D.</b> <p>2 Kbits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 Kbits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51/gate2012-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Number of chips (\\(128 \\times 8\\) RAM) needed to provide a memory capacity of 2048 bytes <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52817/isro2011-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A main memory unit with a capacity of 4 megabytes is built using 1Mx1-bit\nDRAM chips. Each DRAM chip has 1K rows of cells with 1K cells in each row. The\ntime taken for a single refresh operation is 100 nanoseconds. The time required\nto perform one refresh operation on all the cells in the memory unit is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100 nanoseconds</p>",
+            "<b>B.</b> <p>100 *\\(2^{10}\\) nanoseconds</p>",
+            "<b>C.</b> <p>100*\\(2^{20}\\) nanoseconds</p>",
+            "<b>D.</b> <p>3200*\\(2^{20}\\) nanoseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>100 *\\(2^{10}\\) nanoseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2178/gate2010-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The process of organizing the memory into two banks to allow 8-and 16-bit data operation is called <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bank switching</p>",
+            "<b>B.</b> <p>Indexed mapping</p>",
+            "<b>C.</b> <p>Two-way memory interleaving</p>",
+            "<b>D.</b> <p>Memory segmentation</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Two-way memory interleaving</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48046/isro2009-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>How many 32K x 1 RAM chips are needed to provide a memory capacity of 256Kbytes? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>32</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>128</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1299/gate2009-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In comparison with static RAM memory, the dynamic Ram memory has <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower bit density and higher power consumption</p>",
+            "<b>B.</b> <p>higher bit density and higher power consumption</p>",
+            "<b>C.</b> <p>lower bit density and lower power consumption</p>",
+            "<b>D.</b> <p>higher bit density and lower power consumption</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>higher bit density and higher power consumption</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49512/isro2007-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A dynamic RAM has a memory cycle time of 64 nsec. It has to be refreshed 100 times per msec and each refresh takes 100 nsec. What percentage of the memory cycle time is used for refreshing? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>6.4</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>0.64</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3754/gate2005-it-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>What is the minimum size of ROM required to store the complete truth table of an 8-bit \\(\\times\\) 8-bit multiplier? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32 K \\(\\times\\) 16 bits</p>",
+            "<b>B.</b> <p>64 K \\(\\times\\) 16 bits</p>",
+            "<b>C.</b> <p>16 K \\(\\times\\) 32 bits</p>",
+            "<b>D.</b> <p>64 K \\(\\times\\) 32 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>64 K \\(\\times\\) 16 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3651/gate2004-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>A ROM is used to store the table for multiplication of two 8-bit unsigned integers. The size of ROM required is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(256 \\times 16\\)</p>",
+            "<b>B.</b> <p>\\(64 K \\times 8\\)</p>",
+            "<b>C.</b> <p>\\(4 K \\times 16\\)</p>",
+            "<b>D.</b> <p>\\(64 K \\times 16\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(64 K \\times 16\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2725/gate1996-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>The capacity of a memory unit is defined by the number of words multiplied by the number of bits/word. How many separate address and data lines are needed for a memory of \\(4K \\times 16\\)? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 address, 16 data lines</p>",
+            "<b>B.</b> <p>11 address, 8 data lines</p>",
+            "<b>C.</b> <p>12 address, 16 data lines</p>",
+            "<b>D.</b> <p>12 address, 12 data lines</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>12 address, 16 data lines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2614/gate1995-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Which of the following statements is true? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ROM is a Read/Write memory</p>",
+            "<b>B.</b> <p>PC points to the last instruction that was executed</p>",
+            "<b>C.</b> <p>Stack works on the principle of LIFO</p>",
+            "<b>D.</b> <p>All instructions affect the flags</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Stack works on the principle of LIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2589/gate1995-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The advantages of CMOS technology over a MOS is: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower power dissipation</p>",
+            "<b>B.</b> <p>greater speed</p>",
+            "<b>C.</b> <p>smaller chip size</p>",
+            "<b>D.</b> <p>fewer masks for fabrication</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>greater speed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/515/gate1991-03-i\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The refreshing rate of dynamic RAMs is in the range of <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 microseconds</p>",
+            "<b>B.</b> <p>2 milliseconds.</p>",
+            "<b>C.</b> <p>50 milli seconds</p>",
+            "<b>D.</b> <p>500 milliseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 milliseconds.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80278/gate1987-1-ix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

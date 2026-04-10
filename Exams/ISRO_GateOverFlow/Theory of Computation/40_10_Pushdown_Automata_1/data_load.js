@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Pushdown Automata",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Pushdown Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1308\"></a><div itemprop=\"text\"><p>Which one of the following is FALSE?</p>\n\n</div><br><br><b>Theory of Computation: GATE CSE 2009 | Question: 16, ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There is a unique minimal DFA for every regular language</p>",
+            "<p>Every NFA can be converted to an equivalent PDA.</p>",
+            "<p>Complement of every context-free language is recursive.</p>",
+            "<p>Every nondeterministic PDA can be converted to an equivalent deterministic PDA.</p>"
+          ],
+          "correct_answer": "<p>Every nondeterministic PDA can be converted to an equivalent deterministic PDA.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1308/gate-cse-2009-question-16-isro2017-12\" target=\"_blank\">https://gateoverflow.in/1308/gate-cse-2009-question-16-isro2017-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

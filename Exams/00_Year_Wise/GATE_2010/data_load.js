@@ -1,0 +1,991 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2010",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "questions": [
+        {
+          "id": 56,
+          "question": "<p>Choose the most appropriate word from the options given below to complete the following sentence:\n<br>\nHis rather casual remarks on politics ________ his lack of seriousness about the subject.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>masked</p>",
+            "<b>B.</b> <p>belied</p>",
+            "<b>C.</b> <p>betrayed</p>",
+            "<b>D.</b> <p>suppressed</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>betrayed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2364/gate-cse-2010-question-56#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Which of the following options is the closest in meaning to the word given below:\n<br>\nCircuitous</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cyclic</p>",
+            "<b>B.</b> <p>indirect</p>",
+            "<b>C.</b> <p>confusing</p>",
+            "<b>D.</b> <p>crooked</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>indirect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2365/gate-cse-2010-question-57#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Choose the most appropriate word from the options given below to complete the following sentence:\n<br>\nIf we manage to __________ our natural resources, we would leave a better planet for our children.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>uphold</p>",
+            "<b>B.</b> <p>restrain</p>",
+            "<b>C.</b> <p>cherish</p>",
+            "<b>D.</b> <p>conserve</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>conserve</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2366/gate-cse-2010-question-58#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>25  persons are in a room. 15 of them play hockey, 17 of them play football and 10 of them play both hockey and football. Then the number of persons playing neither hockey nor football is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>17</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2367/gate-cse-2010-question-59#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair.\n<br>\nUnemployed : Worker</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>fallow : land</p>",
+            "<b>B.</b> <p>unaware : sleeper</p>",
+            "<b>C.</b> <p>wit : jester</p>",
+            "<b>D.</b> <p>renovated : house</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>fallow : land</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2368/gate-cse-2010-question-60#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>If 137+276=435 how much is 731+672?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>534</p>",
+            "<b>B.</b> <p>1403</p>",
+            "<b>C.</b> <p>1623</p>",
+            "<b>D.</b> <p>1513</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1623</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2369/gate-cse-2010-question-61#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on 1st January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts:\n<br><br>\ni.   Hari's age + Gita's age &gt; Irfan's age + Saira's age<br>\nii.  The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest.<br>\niii. There are no twins.<br><br>\nIn what order they were born (oldest first)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HSIG</p>",
+            "<b>B.</b> <p>SGHI</p>",
+            "<b>C.</b> <p>IGSH</p>",
+            "<b>D.</b> <p>IHSG</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>SGHI</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2370/gate-cse-2010-question-62#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>Modern warfare has changed from large scale clashes of armies to suppression of civilian populations. Chemical agents that do their work silently appear to be suited to such warfare; and regretfully, there exist people in military establishments who think that chemical agents are useful tools for their cause.\n<br><br>\nWhich of the following statements best sums up the meaning of the above passage:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Modern warfare has resulted in civil strife.</p>",
+            "<b>B.</b> <p>Chemical agents are useful in modern warfare.</p>",
+            "<b>C.</b> <p>Use of chemical agents in warfare would be undesirable.</p>",
+            "<b>D.</b> <p>People in military establishments like to use chemical agents in war.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>People in military establishments like to use chemical agents in war.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2371/gate-cse-2010-question-63#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>5  skilled workers can build a wall in 20 days; 8 semi-skilled workers can build a wall in 25 days; 10 unskilled workers can build a wall in 30 days. If a team has 2 skilled, 6 semi-skilled and 5 unskilled workers, how long it will take to build the wall?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20 days</p>",
+            "<b>B.</b> <p>18 days</p>",
+            "<b>C.</b> <p>16 days</p>",
+            "<b>D.</b> <p>15 days</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>15 days</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2372/gate-cse-2010-question-64#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>Given digits 2, 2, 3, 3, 3, 4, 4, 4, 4 how many distinct 4 digit numbers greater than 3000 can be formed?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>50</p>",
+            "<b>B.</b> <p>51</p>",
+            "<b>C.</b> <p>52</p>",
+            "<b>D.</b> <p>54</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>51</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2373/gate-cse-2010-question-65#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    },
+    {
+      "name": "Computer Science Engineer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G=(V, E) be a graph. Define \\(\\xi (G)=\\sum_{d}i_{d}*d\\) , where \\(i_{d}\\) is the number of\nvertices of degree d in G. If S and T are two different trees with \\(\\xi (S)=\\xi (T)\\) , then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>|S|= 2|T|</p>",
+            "<b>B.</b> <p>|S|=|T|-1</p>",
+            "<b>C.</b> <p>|S|=|T|</p>",
+            "<b>D.</b> <p>|S|=|T|+1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>|S|=|T|</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1147/gate2010-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Newton-Raphson method is used to compute a root of the equation \\(x^{2} -13=0\\)\nwith 3.5 as the initial value. The approximation after one iteration is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3.575</p>",
+            "<b>B.</b> <p>3.676</p>",
+            "<b>C.</b> <p>3.667</p>",
+            "<b>D.</b> <p>3.607</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3.607</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1148/gate2010-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the possible number of reflexive relations on a set of 5 elements?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{10}\\)</p>",
+            "<b>B.</b> <p>\\(2^{15}\\)</p>",
+            "<b>C.</b> <p>\\(2^{20}\\)</p>",
+            "<b>D.</b> <p>\\(2^{25}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{20}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1149/gate2010-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the set S = {1, \\(\\omega ,\\omega ^{2}\\)}, where \\(\\omega\\) and \\(\\omega ^{2}\\) are cube roots of unity. If * denotes the multiplication operation, the structure (S, *) forms</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A group</p>",
+            "<b>B.</b> <p>A ring</p>",
+            "<b>C.</b> <p>An integral domain</p>",
+            "<b>D.</b> <p>A field</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1150/gate2010-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is the value of \\(\\lim_{n\\rightarrow \\infty }(1-\\frac{1}{n})^{2n}\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(e^{-2}\\)</p>",
+            "<b>C.</b> <p>\\(e^{-1/2}\\)</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(e^{-2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1151/gate2010-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The minterm expansion of f(P,Q,R)=PQ+QR'+PR' is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m_{2}+m_{4}+m_{6}+m_{7}\\)</p>",
+            "<b>B.</b> <p>\\(m_{0}+m_{1}+m_{3}+m_{5}\\)</p>",
+            "<b>C.</b> <p>\\(m_{0}+m_{1}+m_{6}+m_{7}\\)</p>",
+            "<b>D.</b> <p>\\(m_{2}+m_{3}+m_{4}+m_{5}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(m_{2}+m_{4}+m_{6}+m_{7}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2177/gate2010-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A main memory unit with a capacity of 4 megabytes is built using 1Mx1-bit\nDRAM chips. Each DRAM chip has 1K rows of cells with 1K cells in each row. The\ntime taken for a single refresh operation is 100 nanoseconds. The time required\nto perform one refresh operation on all the cells in the memory unit is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100 nanoseconds</p>",
+            "<b>B.</b> <p>100 *\\(2^{10}\\) nanoseconds</p>",
+            "<b>C.</b> <p>100*\\(2^{20}\\) nanoseconds</p>",
+            "<b>D.</b> <p>3200*\\(2^{20}\\) nanoseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>100 *\\(2^{10}\\) nanoseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2178/gate2010-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>P is a 16-bit signed integer. The 2's complement representation of P is \\((F87B)_{16}\\).\nThe 2's complement representation of 8*P is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((C3D8)_{16}\\)</p>",
+            "<b>B.</b> <p>\\((187B)_{16}\\)</p>",
+            "<b>C.</b> <p>\\((F878)_{16}\\)</p>",
+            "<b>D.</b> <p>\\((987B)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((C3D8)_{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2179/gate2010-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The Boolean expression for the output f of the multiplexer shown below is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q9_a0a5ecab.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{P\\bigoplus Q\\bigoplus R}\\)</p>",
+            "<b>B.</b> <p>\\(P\\bigoplus Q\\bigoplus R\\)</p>",
+            "<b>C.</b> <p>P+Q+R</p>",
+            "<b>D.</b> <p>\\(\\overline{P+Q+R}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(P\\bigoplus Q\\bigoplus R\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2182/gate2010-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a binary tree with n nodes, every node has an odd number of descendants.\nEvery node is considered to be its own descendant. What is the number of nodes\nin the tree that have exactly one child?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>(n-1)/2</p>",
+            "<b>D.</b> <p>n-1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2183/gate2010-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What does the following program print?<pre><code> #include &lt; stdio.h &gt;\nvoid f (int *p, int * q) {\n       p=q;\n       *p=2;\n}\nint i= 0, j= 1;\nint main ( ){\n     f(&amp;i, &amp; j);\n     printf( \"%d%d \\ n\", i,j);\n     return 0;\n} </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 2</p>",
+            "<b>B.</b> <p>2 1</p>",
+            "<b>C.</b> <p>0 1</p>",
+            "<b>D.</b> <p>0 2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2184/gate2010-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Two alternative packages A and B are available for processing a database having\n\\(10^{k}\\) records. Package A requires 0.0001\\(n^{2}\\) time units and package B requires\n\\(10n \\log _{{10}} n\\) time units to process n records. What is the smallest value of k for\nwhich package B will be preferred over A?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2185/gate2010-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which data structure in a compiler is used for managing information about\nvariables and their attributes?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Abstract syntax tree</p>",
+            "<b>B.</b> <p>Symbol table</p>",
+            "<b>C.</b> <p>Semantic stack</p>",
+            "<b>D.</b> <p>Parse table</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symbol table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2186/gate2010-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which languages necessarily need heap allocation in the runtime environment?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Those that support recursion</p>",
+            "<b>B.</b> <p>Those that use dynamic scoping</p>",
+            "<b>C.</b> <p>Those that allow dynamic data structures</p>",
+            "<b>D.</b> <p>Those that use global variables</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Those that allow dynamic data structures</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2187/gate2010-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>One of the header fields in an IP datagram is the Time to Live (TTL) field. Which\nof the following statements best explains the need for this field?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It can be used to prioritize packets</p>",
+            "<b>B.</b> <p>It can be used to reduce delays</p>",
+            "<b>C.</b> <p>It can be used to optimize throughput</p>",
+            "<b>D.</b> <p>It can be used to prevent packet looping</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It can be used to prevent packet looping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2188/gate2010-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Which one of the following is not a client server application?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Internet chat</p>",
+            "<b>B.</b> <p>Web browsing</p>",
+            "<b>C.</b> <p>E-mail</p>",
+            "<b>D.</b> <p>Ping</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Ping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2189/gate2010-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Let L1 be a recursive language. Let L2 and L3 be languages that are recursively enumerable but not recursive. Which of the following statements is not necessarily true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L2 - L1 is recursively enumerable</p>",
+            "<b>B.</b> <p>L1 - L3 is recursively enumerable</p>",
+            "<b>C.</b> <p>L2 \\(\\cup\\) L1 is recursively enumerable</p>",
+            "<b>D.</b> <p>L2 \\(\\cap\\) L1 is recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L1 - L3 is recursively enumerable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2190/gate2010-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider a B+-tree in which the maximum number of keys in a node is 5. What is\nthe minimum number of keys in any non-root node?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2191/gate2010-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>A relational schema for a train reservation database is given below\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q19_f503c6ab.jpg\"> <br> What pids are returned by the following SQL query for the above instance of the\ntables?<pre><code> SELECT pid\nFROM Re servation\nWHERE class = 'AC' AND\n     EXISTS (SELECT *\n                      FROM Passenger\n                      WHERE age &gt; 65 AND\n                      Passenger.pid = Reservation.pid) </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,0</p>",
+            "<b>B.</b> <p>1,2</p>",
+            "<b>C.</b> <p>1,3</p>",
+            "<b>D.</b> <p>1,5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2194/gate2010-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Which of the following concurrency control protocols ensure both conflict\nserializability and freedom from deadlock?<br>\nI. 2-phase locking <br>\nII. Time-stamp ordering</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2196/gate2010-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The cyclomatic complexity of each of the modules A and B shown below is 10. What is the cyclomatic complexity of the sequential integration shown on the right hand side? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q21_faca9423.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>19</p>",
+            "<b>B.</b> <p>21</p>",
+            "<b>C.</b> <p>20</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>19</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2199/gate2010-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>What is the appropriate pairing of items in the two columns listing various activities encountered in a software life cycle?\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q22_be53474f.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-3, Q-2,R-4,S-1</p>",
+            "<b>B.</b> <p>P-2, Q-3,R-1,S-4</p>",
+            "<b>C.</b> <p>P-3, Q-2,R-1,S-4</p>",
+            "<b>D.</b> <p>P-2, Q-3,R-4,S-1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P-2, Q-3,R-1,S-4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2201/gate2010-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider the methods used by processes P1 and P2 for accessing their critical\nsections whenever needed, as given below. The initial values of shared boolean\nvariables S1 and S2 are randomly assigned. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q23_0dd65df2.jpg\"> <br> Which one of the following statements describes the properties achieved?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion but not progress</p>",
+            "<b>B.</b> <p>Progress but not mutual exclusion</p>",
+            "<b>C.</b> <p>Neither mutual exclusion nor progress</p>",
+            "<b>D.</b> <p>Both mutual exclusion and progress</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Mutual exclusion but not progress</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2202/gate2010-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin with. The system first accesses 100 distinct pages in some order and then accesses the same 100 pages but now in the reverse order. How many page faults will occur?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>196</p>",
+            "<b>B.</b> <p>192</p>",
+            "<b>C.</b> <p>197</p>",
+            "<b>D.</b> <p>195</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>196</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2203/gate2010-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Which of the following statements are true? <br>\nI. Shortest remaining time first scheduling may cause starvation <br>\nII. Preemptive scheduling may cause starvation <br>\nIII. Round robin is better than FCFS in terms of response time</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2204/gate2010-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider a company that assembles computers. The probability of a faulty assembly of any computer is p. The company therefore subjects each computer to a testing process. This testing process gives the correct result for any computer with a probability of q. What is the probability of a computer being declared faulty?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>pq + (1 - p) (1 - q)</p>",
+            "<b>B.</b> <p>(1 - q)p</p>",
+            "<b>C.</b> <p>(1 - p) q</p>",
+            "<b>D.</b> <p>pq</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>pq + (1 - p) (1 - q)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1152/gate2010-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>What is the probability that divisor of \\(10^{99}\\) is a multiple of \\(10^{96}\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/625\\)</p>",
+            "<b>B.</b> <p>\\(4/625\\)</p>",
+            "<b>C.</b> <p>\\(12/625\\)</p>",
+            "<b>D.</b> <p>\\(16/625\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(1/625\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1153/gate2010-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>The degree sequence of a simple graph is the sequence of the degrees of the\nnodes in the graph in decreasing order. Which of the following sequences can not\nbe the degree sequence of any graph? <br>\nI. 7, 6, 5, 4, 4, 3, 2, 1 <br> II. 6, 6, 6, 6, 3, 3, 2, 2 <br> III. 7, 6, 6, 4, 4, 3, 2, 2<br>  IV. 8, 7, 7, 6, 4, 2, 1, 1</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>III and IV</p>",
+            "<b>C.</b> <p>IV only</p>",
+            "<b>D.</b> <p>II and IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1154/gate2010-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following matrix \\(A=\\begin{bmatrix} 2 &amp; 3\\\\ X&amp;Y \\end{bmatrix}\\) <br> If the eigenvalues of A are 4 and 8, then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 4, y = 10</p>",
+            "<b>B.</b> <p>x = 5, y = 8</p>",
+            "<b>C.</b> <p>x = -3,y = 9</p>",
+            "<b>D.</b> <p>x = -4, y = 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x = -4, y = 10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1155/gate2010-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Suppose the predicate F(x,y,t) is used to represent the statement that person x\ncan fool person y at time t. which one of the statements below expresses best\nthe meaning of the formula \\(\\forall x \\exists y \\exists t(\\neg F (x, y, t))\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Everyone can fool some person at some time</p>",
+            "<b>B.</b> <p>No one can fool everyone all the time</p>",
+            "<b>C.</b> <p>Everyone cannot fool some person all the time</p>",
+            "<b>D.</b> <p>No one can fool some person at some time</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>No one can fool everyone all the time</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1156/gate2010-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>What is the Boolean Algebra for the output f of the combinational logic circuit\nof NOR gates given below? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q31_95d89936.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{Q+R}\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{P+Q}\\)</p>",
+            "<b>C.</b> <p>\\(\\overline{P+R}\\)</p>",
+            "<b>D.</b> <p>\\(\\overline{P+Q+R}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\overline{Q+R}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2205/gate2010-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>In the sequential circuit shown below, if the initial value of the output \\(Q_{1}Q_{0}\\) is 00,\nwhat are the next four values of  \\(Q_{1}Q_{0}\\) ? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q32_3fa4a72d.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11,10,01,00</p>",
+            "<b>B.</b> <p>10,11,01,00</p>",
+            "<b>C.</b> <p>10,00,01,11</p>",
+            "<b>D.</b> <p>11,10,00,01</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11,10,01,00</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2206/gate2010-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>A 5-stage pipelined processor has Instruction Fetch (IF), Instruction Decode (ID),\nOperand Fetch (OF), Perform Operation (PO) and Write Operand (WO) stages.\nThe IF, ID, OF and WO stages take 1 clock cycle each for any instruction. The PO\nstage takes 1 clock cycle for ADD and SUB instructions, 3 clock cycles for MUL\ninstruction, and 6 clock cycles for DIV instruction respectively. Operand\nforwarding is used in the pipeline. What is the number of clock cycles needed to\nexecute the following sequence of instructions?\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q33_b6d0f7e6.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>17</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2207/gate2010-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>The weight of a sequence \\(a_{0},a_{1},...,a_{n-1}\\) of real numbers is defined as \\(a_{0}+a_{1}/2+...+a_{n-1}/2^{n-1}\\) A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements\nthe same. Let X denote the maximum possible weight of a subsequence of\n\\(a_{0},a_{1},...,a_{n-1}\\) and Y the maximum possible weight of a subsequence of \\(a_{0},a_{1},...,a_{n-1}\\). Then X is equal to</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(Y,\\(a_{0}\\)+Y)</p>",
+            "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+            "<b>C.</b> <p>max(Y,\\(a_{0}\\)+2Y)</p>",
+            "<b>D.</b> <p>\\(a_{0}\\)+Y/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2208/gate2010-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>What is the value printed by the following C program?<pre><code> #include &lt; stdio.h &gt;\nint f(int * a, int n)\n{\n    if(n&lt;=0)return 0;\n    else if(*a% 2 ==0) return *a+f(a+1,n-1);\n    else return *a-f(a+1,n-1);\n}\nint main ( )\n{\n    int a[ ] {12, 7, 13, 4, 11, 6};\n    printf (\"%d\", f(a,6));\n    return 0;\n} </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-9</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2336/gate2010-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>The following C function takes a simply-linked list as input argument. It modifies\nthe list by moving the last element to the front of the list and returns the\nmodified list. Some part of the code is left blank.<pre><code> typedef struct node {\n     int value;\n     struct node *next;\n} Node;\nNode *move_to_front(Node *head) { \n       Node *p, *q;\n       if ((head = = NULL: || (head-&gt;next = = NULL)) return head;\n       q = NULL; p = head;\n       while (p-&gt; next !=NULL) {\n                         q=P; \n                         p=p-&gt;next;\n}\n_______________________________\nreturn head;\n} </code></pre>\nChoose the correct alternative to replace the blank line.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>q = NULL; p\\(\\rightarrow\\)next = head; head = p;</p>",
+            "<b>B.</b> <p>q\\(\\rightarrow\\)next = NULL; head = p; p\\(\\rightarrow\\)next = head;</p>",
+            "<b>C.</b> <p>head = p; p\\(\\rightarrow\\)next = q; q\\(\\rightarrow\\)next = NULL;</p>",
+            "<b>D.</b> <p>q\\(\\rightarrow\\)next = NULL; p\\(\\rightarrow\\)next = head; head = p;</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>q\\(\\rightarrow\\)next = NULL; p\\(\\rightarrow\\)next = head; head = p;</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2337/gate2010-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>The program below uses six temporary variables a, b, c, d, e, f. <br><br>\na =1 <br>\nb= 10<br>\nc =20<br>\nd= a +b<br>\ne= c +d<br>\nf =c +e<br>\nb= c+ e<br>\ne =b +f<br>\nd =5 +e<br>\nreturn d +f<br><br>\nAssuming that all operations take their operands from registers, what is the\nminimum number of registers needed to execute this program without spilling?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2338/gate2010-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>The grammar S\\(\\rightarrow\\)aSa|bS|c is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LL(1) but not LR(1)</p>",
+            "<b>B.</b> <p>LR(1) but not LR(1)</p>",
+            "<b>C.</b> <p>Both LL(1) and LR(1)</p>",
+            "<b>D.</b> <p>Neither LL(1) nor LR(1)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both LL(1) and LR(1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2339/gate2010-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Let L = {w \\(\\in\\) (0 + 1)*|w has even number of 1s}, i.e. L is the set of all bit strings\nwith even number of 1s. Which one of the regular expressions below represents L?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0 *10 *1) *</p>",
+            "<b>B.</b> <p>0 * (10 *10 *) *</p>",
+            "<b>C.</b> <p>0 * (10 *1) * 0 *</p>",
+            "<b>D.</b> <p>0 *1(10 *1) *10 *</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0 * (10 *10 *) *</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2340/gate2010-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Consider the languages <br>\\(L1=\\{0^{i}1^{j}\\;| \\; i\\neq j\\}\\). <br>\\(L2=\\{0^{i}1^{j}\\;| \\; i=j\\}\\). <br>\\(L3=\\{0^{i}1^{j}\\;| \\; i=2j+1\\}\\).<br> \\(L4=\\{0^{i}1^{j}\\;| \\; i \\neq 2j\\}\\)<br> Which one of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only L2 is context free</p>",
+            "<b>B.</b> <p>Only L2 and L3 are context free</p>",
+            "<b>C.</b> <p>Only L1 and L3 are context free</p>",
+            "<b>D.</b> <p>All are context free</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All are context free</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2341/gate2010-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Let w be any string of length n in {0, 1}*. Let L be the set of all substrings of w. What is the minimum number of states in a non-deterministic finite automaton that accepts L?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>\\(2^{n-1}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>n+1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2342/gate2010-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider the following schedule for transactions T1, T2 and T3:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q42_ec75b74c.jpg\"><br>\nWhich one of the schedules below is the correct serialization of the above?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T1 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T2</p>",
+            "<b>B.</b> <p>T2 \\(\\rightarrow\\) T1 \\(\\rightarrow\\) T3</p>",
+            "<b>C.</b> <p>T2 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T1</p>",
+            "<b>D.</b> <p>T3 \\(\\rightarrow\\) T1 \\(\\rightarrow\\) T2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T1 \\(\\rightarrow\\) T3 \\(\\rightarrow\\) T2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2343/gate2010-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>The following functional dependencies hold for relations R(A, B, C) and S(B, D, E) <br> <br>\nB \\(\\rightarrow\\)A, <br>\nA \\(\\rightarrow\\)C<br> <br>\nThe relation R contains 200tuples and the relation S contains 100tuples. What is\nthe maximum number of tuples possible in the natural join R\\(\\Join\\) S?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100</p>",
+            "<b>B.</b> <p>200</p>",
+            "<b>C.</b> <p>300</p>",
+            "<b>D.</b> <p>2000</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>100</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2344/gate2010-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>The following program is to be tested for statement coverage:<pre><code>\nbegin\n    if (a ==b) {S1; exit;}\n    else if (c ==d) {S2;}\n    else {S3; exit;}\n    S4;\nend</code></pre>\nThe test cases T1, T2, T3 and T4 given below are expressed in terms of the\nproperties satisfied by the values of variables a, b, c and d. The exact values are\nnot given. <br><br>\nT1 : a, b, c and d are all equal<br>\nT2 : a, b, c and d are all distinct <br>\nT3 : a=b and c !=d <br>\nT4 : a !=b and c=d<br><br>\nWhich of the test suites given below ensures coverage of statements S1, S2, S3\nand S4?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T1, T2, T3</p>",
+            "<b>B.</b> <p>T2, T4</p>",
+            "<b>C.</b> <p>T3, T4</p>",
+            "<b>D.</b> <p>T1, T2, T4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>T1, T2, T4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2345/gate2010-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The following program consists of 3 concurrent processes and 3 binary\nsemaphores. The semaphores are initialized as S0=1, S1=0, S2=0. How many times will process P0 print '0'? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q45_03507a62.jpg\"><br> How many times will process P0 print '0'?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At least twice</p>",
+            "<b>B.</b> <p>Exactly twice</p>",
+            "<b>C.</b> <p>Exactly thrice</p>",
+            "<b>D.</b> <p>Exactly once</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>At least twice</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2347/gate2010-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>A system has n resources \\(R_{0},...R_{n-1}\\), and k processes \\(P_{0},...P_{k-1}\\). The\nimplementation of the resource request logic of each process \\(P_{i}\\) is as follows:<pre><code> \nif (i%2= = 0) {\n        if (i &lt; n) request \\(R_{i}\\) ;\n        if (i+2 &lt; n)request \\(R_{i+2}\\);\n}\nelse {\n         if (i &lt; n) request \\(R_{n-i}\\);\n         if (i+2 &lt; n)request \\(R_{n-i-2}\\) ;\n} </code></pre>\nIn which one of the following situations is a deadlock possible?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n = 40,k = 26</p>",
+            "<b>B.</b> <p>n = 21,k = 12</p>",
+            "<b>C.</b> <p>n = 20,k = 10</p>",
+            "<b>D.</b> <p>n = 41,k = 19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n = 21,k = 12</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2348/gate2010-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Suppose computers A and B have IP addresses 10.105.1.113 and 10.105.1.91\nrespectively and they both use the same net mask N. Which of the values of N\ngiven below should not be used if A and B should belong to the same network?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.255.0</p>",
+            "<b>B.</b> <p>255.255.255.128</p>",
+            "<b>C.</b> <p>255.255.255.192</p>",
+            "<b>D.</b> <p>255.255.255.224</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.255.224</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2349/gate2010-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>A computer system has an L1 cache, an L2 cache, and a main memory unit\nconnected as shown below. The block size in L1 cache is 4 words. The block size\nin L2 cache is 16 words. The memory access times are 2 nanoseconds.\n20 nanoseconds and 200 nanoseconds for L1 cache, L2 cache and main memory\nunit respectively. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q48_06dbca39.jpg\"><br> When there is a miss in L1 cache and a hit in L2 cache, a block is transferred\nfrom L2 cache to L1 cache. What is the time taken for this transfer?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 nanoseconds</p>",
+            "<b>B.</b> <p>20 nanoseconds</p>",
+            "<b>C.</b> <p>22 nanoseconds</p>",
+            "<b>D.</b> <p>88 nanoseconds</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>22 nanoseconds</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2352/gate2010-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>A computer system has an L1 cache, an L2 cache, and a main memory unit\nconnected as shown below. The block size in L1 cache is 4 words. The block size\nin L2 cache is 16 words. The memory access times are 2 nanoseconds.\n20 nanoseconds and 200 nanoseconds for L1 cache, L2 cache and main memory\nunit respectively. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q48_06dbca39.jpg\"><br>When there is a miss in both L1 cache and L2 cache, first a block is transferred\nfrom main memory to L2 cache, and then a block is transferred from L2 cache to\nL1 cache. What is the total time taken for these transfers?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>222 nanoseconds</p>",
+            "<b>B.</b> <p>888 nanoseconds</p>",
+            "<b>C.</b> <p>902 nanoseconds</p>",
+            "<b>D.</b> <p>968 nanoseconds</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>902 nanoseconds</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43329/gate2010-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry \\(W_{ij}\\) in\nthe matrix W below is the weight of the edge {i, j}. <br><br>\\(\\begin{pmatrix} 0&amp;1 &amp; 8 &amp; 1 &amp;4 \\\\ 1&amp; 0 &amp; 12 &amp; 4 &amp; 9\\\\ 8 &amp; 12 &amp; 0 &amp; 7 &amp; 3\\\\ 1&amp; 4&amp; 7 &amp; 0 &amp;2 \\\\ 4&amp; 9 &amp; 3&amp; 2 &amp;0 \\end{pmatrix}\\)<br><br>What is the minimum possible weight of a spanning tree T in this graph such that\nvertex 0 is a leaf node in the tree T?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2355/gate2010-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry \\(W_{ij}\\) in\nthe matrix W below is the weight of the edge {i, j}. <br><br>\\(\\begin{pmatrix} 0&amp;1 &amp; 8 &amp; 1 &amp;4 \\\\ 1&amp; 0 &amp; 12 &amp; 4 &amp; 9\\\\ 8 &amp; 12 &amp; 0 &amp; 7 &amp; 3\\\\ 1&amp; 4&amp; 7 &amp; 0 &amp;2 \\\\ 4&amp; 9 &amp; 3&amp; 2 &amp;0 \\end{pmatrix}\\)<br><br>What is the minimum possible weight of a path P from vertex 1 to vertex 2 in this\ngraph such that P contains at most 3 edges?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43328/gate2010-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table,\nthe table is as shown below<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q52_6208e194.jpg\"><br>\nWhich one of the following choices gives a possible order in which the key values\ncould have been inserted in the table?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>46, 42, 34, 52, 23, 33</p>",
+            "<b>B.</b> <p>34, 42, 23, 52, 33, 46</p>",
+            "<b>C.</b> <p>46, 34, 42, 23, 52, 33</p>",
+            "<b>D.</b> <p>42, 46, 33, 23, 34, 52</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>46, 34, 42, 23, 52, 33</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2360/gate2010-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table,\nthe table is as shown below<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q52_6208e194.jpg\"><br>How many different insertion sequences of the key values using the same hash\nfunction and linear probing will result in the hash table shown above?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>30</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>30</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43327/gate2010-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q54_50b0764c.jpg\"><br>  All the routers use the distance vector based routing algorithm to update their\nrouting tables. Each router starts with its routing table initialized to contain an\nentry for each neighbour with the weight of the respective connecting link.\nAfter all the routing tables stabilize, how many links in the network will never\nbe used for carrying any data?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2362/gate2010-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2010\\q54_50b0764c.jpg\"><br>Suppose the weights of all unused links in the previous question are changed\nto 2 and the distance vector algorithm is used again until all routing tables\nstabilize. How many links will now remain unused?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43326/gate2010-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Quadruple Representation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Quadruple Representation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316207\"></a><div itemprop=\"text\"><p>On translating the expression given below into quadruple representation, how many operations are required?</p><p>\\[ (i\\ast j)+(e+f)\\ast(a\\ast b+c) \\]</p></div><br><br><b>Compiler Design: UGC NET CSE | June 2019 | Part 2 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316207/ugc-net-cse-june-2019-part-2-question-72\" target=\"_blank\">https://gateoverflow.in/316207/ugc-net-cse-june-2019-part-2-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+});

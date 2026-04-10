@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Coupling Cohesion",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Coupling Cohesion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316228\"></a><div itemprop=\"text\"><p>Which of the following statements is/are true?</p><p>P: In software engineering, defects that are discovered earlier are more expensive to fix.</p><p>Q: A software design is said to be a good design, if the components are strongly cohesive and weakly coupled.</p><p>Select the correct answer from the options given below:</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2019 | Part 2 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P only</p>",
+            "<p>Q only</p>",
+            "<p>P and Q</p>",
+            "<p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "<p>Q only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316228/ugc-net-cse-june-2019-part-2-question-51\" target=\"_blank\">https://gateoverflow.in/316228/ugc-net-cse-june-2019-part-2-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+}

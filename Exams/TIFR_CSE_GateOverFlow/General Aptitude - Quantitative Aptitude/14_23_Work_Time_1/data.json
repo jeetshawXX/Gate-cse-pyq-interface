@@ -1,0 +1,27 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Work Time",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Work Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"179273\"></a><div itemprop=\"text\"><p>The distance from your home to your office is \\( 4 \\) kilometers and your normal walking speed is \\( 4 \\) Km/hr. On the first day, you walk at your normal walking speed and take time \\( T_1 \\)&nbsp; to reach office.&nbsp;</p>\n\n<p>On the second day, you walk at a speed of \\( 3 \\) Km/hr from \\( 2 \\) Kilometers, and at a speed of \\( 5 \\) Km/hr for the remaining \\( 2 \\) Kilometers and you take time \\( T_{2} \\) to reach office.</p>\n\n<p>On the third day, you walk at a speed of \\( 3 \\) Km/hr for \\( 30 \\) minutes, and at \\( 5 \\) Km/hr for the remaining&nbsp;time and take time \\( T_{3} \\) to reach office.</p>\n\n<p>What can you say about the ordering of \\( T_{1},T_{2} \\) and \\( T_{3} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2018 | Part A | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( T_{1}&gt;T_{2} \\) and \\( T_{1}&lt;T_{3} \\)</p>",
+            "<p>\\( T_{1}=T_{2}=T_{3} \\)</p>",
+            "<p>\\( T_{1}&lt;T_{2} \\) and \\( T_{1}&gt;T_{3} \\)</p>",
+            "<p>\\( T_{1}=T_{2} \\) and \\( T_{1}&lt;T_{3} \\)</p>",
+            "<p>\\( T_{1}&lt;T_{2} \\) and \\( T_{1}=T_{3} \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179273/tifr-cse-2018-part-a-question-4\" target=\"_blank\">https://gateoverflow.in/179273/tifr-cse-2018-part-a-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

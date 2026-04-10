@@ -1,0 +1,93 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Conditional Probability",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Conditional Probability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2211\"></a><div itemprop=\"text\"><p>An automobile plant contracted to buy shock absorbers from two suppliers \\(  X \\) and \\(  Y \\) . \\(  X \\) supplies \\( 60\\% \\) and Y supplies \\( 40\\% \\) of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of \\(  X’s \\) shock absorbers, \\( 96\\% \\) are reliable. Of \\(  Y’s \\) shock absorbers, \\( 72\\% \\) are reliable.<br>\n<br>\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by \\( Y \\) is</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.288 \\)</p>",
+            "<p>\\( 0.334 \\)</p>",
+            "<p>\\( 0.667 \\)</p>",
+            "<p>\\( 0.720 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.334 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2211/gate-cse-2012-question-63\" target=\"_blank\">https://gateoverflow.in/2211/gate-cse-2012-question-63</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"359497\"></a><div itemprop=\"text\"><p>A box contains \\( 15 \\) blue balls and \\( 45 \\) black balls. If \\( 2 \\) balls are selected randomly,&nbsp;without replacement, the probability of an outcome in which the first selected is a blue ball and the second selected is a black ball, is _____</p>\n\n\n\n<ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( \\frac{45}{236} \\)</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\frac{1}{4} \\)</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\frac{3}{4} \\)</li>\n</ol></div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{3}{16} \\)</p>"
+          ],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359497/gate-mechanical-2021-set-2-ga-question-7\" target=\"_blank\">https://gateoverflow.in/359497/gate-mechanical-2021-set-2-ga-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"40251\"></a><div itemprop=\"text\"><p>In a factory, two machines \\( M1 \\) and \\( M2 \\) manufacture \\( 60\\% \\) and \\( 40\\% \\) of the autocomponents respectively. Out of the total production, \\( 2\\% \\) of \\( M1 \\) and \\( 3\\% \\) of \\( M2 \\) are found to be defective. If a randomly drawn autocomponent from the combined lot is found defective, what is the probability that it was manufactured by \\( M2 \\)?</p>\n\n</div><br><br><b>GATE2013 AE: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.35 \\)</p>",
+            "<p>\\( 0.45 \\)</p>",
+            "<p>\\( 0.5 \\)</p>",
+            "<p>\\( 0.4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40251/gate2013-ae-ga-10\" target=\"_blank\">https://gateoverflow.in/40251/gate2013-ae-ga-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"41674\"></a><div itemprop=\"text\">\\( 10 \\)% of the population in a town is \\( \\text{HIV}\\large ^{+} \\). A new diagnostic kit for \\( \\text{HIV} \\) detection is available; this kit correctly identifies \\( \\text{HIV}\\large ^{+} \\) individuals \\( 95 \\)% of the time, and \\( \\text{HIV}\\large ^{-} \\) individuals \\( 89 \\)% of the time. A particular patient is tested using this kit and is found to be positive. The probability that the individual is actually positive is ______.</div><br><br><b>GATE2014 AG: GA-10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.4895:0.4897",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41674/gate2014-ag-ga-10\" target=\"_blank\">https://gateoverflow.in/41674/gate2014-ag-ga-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"41499\"></a><div itemprop=\"text\"><p>You are given three coins: one has heads on both faces, the second has tails on both faces, and the third has a head on one face and a tail on the other. You choose a coin at random and toss it, and it comes up heads. The probability that the other face is tails is</p>\n\n</div><br><br><b>GATE2014 EC-1: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{4} \\)&nbsp;</p>",
+            "<p>\\( \\dfrac{1}{3} \\)&nbsp;</p>",
+            "<p>\\( \\dfrac{1}{2} \\)&nbsp;</p>",
+            "<p>\\( \\dfrac{2}{3} \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{1}{3} \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41499/gate2014-ec-1-ga-10\" target=\"_blank\">https://gateoverflow.in/41499/gate2014-ec-1-ga-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"40174\"></a><div itemprop=\"text\"><p>A coin is tossed thrice. Let <em>X </em>be the event that head occurs in each of the first two tosses. Let <em>Y </em>be the event that a tail occurs on the third toss. Let <em>Z </em>be the event that two tails occur in three tosses.<br>\nBased on the above information, which one of the following statements is TRUE?</p>\n\n</div><br><br><b>GATE2015 ME-3: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p><em>X </em>and <em>Y </em>are not independent</p>",
+            "<p><em>Y </em>and <em>Z </em>are dependent</p>",
+            "<p><em>Y </em>and <em>Z </em>are independent</p>",
+            "<p>&nbsp;<em>X </em>and <em>Z </em>are independent</p>"
+          ],
+          "correct_answer": "<p><em>Y </em>and <em>Z </em>are dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40174/gate2015-me-3-ga-10\" target=\"_blank\">https://gateoverflow.in/40174/gate2015-me-3-ga-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

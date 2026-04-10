@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - Permutation and Combination",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Permutation and Combination",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366832\"></a><div itemprop=\"text\"><p>The students in a class are seated according to their marks in the previous examination. Once it so happens that four of these students get equal marks and therefore the same rank. To decide their seating arrangement, the teacher wants to write down all possible arrangements, one in each of separate bits of paper, in order to choose one of these by lots. How many bits of paper are required \\( ? \\)</p>\n\n</div><br><br><b>Others: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 24 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 24 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366832/nielit-2021-dec-scientist-b-section-a-23\" target=\"_blank\">https://gateoverflow.in/366832/nielit-2021-dec-scientist-b-section-a-23</a></p>"
+        }
+      ]
+    }
+  ]
+}

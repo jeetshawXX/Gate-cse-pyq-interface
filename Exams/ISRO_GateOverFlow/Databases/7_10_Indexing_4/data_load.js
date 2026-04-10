@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Databases - Indexing",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Indexing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"414\"></a><div itemprop=\"text\"><p>A clustering index is defined on the fields which are of type</p>\n\n</div><br><br><b>Databases: GATE CSE 2008 | Question: 16, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>non-key and ordering</p>",
+            "<p>non-key and non-ordering</p>",
+            "<p>key and ordering</p>",
+            "<p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/414/gate-cse-2008-question-16-isro2016-60\" target=\"_blank\">https://gateoverflow.in/414/gate-cse-2008-question-16-isro2016-60</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"213537\"></a><div itemprop=\"text\"><p>Which of the following is dense index?</p>\n\n\n\n</div><br><br><b>Databases: ISRO CSE 2018 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Primary index</p>",
+            "<p>Clustered&nbsp;index</p>",
+            "<p>Secondary index</p>",
+            "<p>Secondary non-key index</p>"
+          ],
+          "correct_answer": "<p>Secondary index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213537/isro-cse-2018-question-51\" target=\"_blank\">https://gateoverflow.in/213537/isro-cse-2018-question-51</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"44407\"></a><div itemprop=\"text\"><p>Embedded pointer provides</p>\n\n</div><br><br><b>Databases: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A secondary access path</p>",
+            "<p>A physical record key</p>",
+            "<p>An inverted index</p>",
+            "<p>A primary key</p>"
+          ],
+          "correct_answer": "<p>A secondary access path</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44407/isro-2013-61-isro-cse-2008-question-35\" target=\"_blank\">https://gateoverflow.in/44407/isro-2013-61-isro-cse-2008-question-35</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"19400\"></a><div itemprop=\"text\"><p>Given a block can hold either \\( 3 \\) records or \\( 10 \\) key pointers. A database contains n records, then how many blocks do we need to hold the data file and the dense index</p>\n\n</div><br><br><b>Databases: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13n/30 \\)</p>",
+            "<p>\\( n/3 \\)</p>",
+            "<p>\\( n/10 \\)</p>",
+            "<p>\\( n/30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13n/30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19400/isro2015-18\" target=\"_blank\">https://gateoverflow.in/19400/isro2015-18</a></p>"
+        }
+      ]
+    }
+  ]
+});

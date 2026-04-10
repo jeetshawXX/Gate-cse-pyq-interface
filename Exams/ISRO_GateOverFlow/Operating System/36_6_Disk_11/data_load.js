@@ -1,0 +1,176 @@
+window.__examLoadCallback({
+  "title": "Operating System - Disk",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Disk",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1496\"></a><div itemprop=\"text\"><p>Raid configurations of the disks are used to provide</p>\n\n</div><br><br><b>Operating System: GATE CSE 1999 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Fault-tolerance&nbsp;</p>",
+            "<p>High speed</p>",
+            "<p>High data density</p>",
+            "<p>(A) &amp; (B)</p>"
+          ],
+          "correct_answer": "<p>(A) &amp; (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1496/gate-cse-1999-question-2-18-isro2008-46\" target=\"_blank\">https://gateoverflow.in/1496/gate-cse-1999-question-2-18-isro2008-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"915\"></a><div itemprop=\"text\"><p>Using a larger block size in a fixed block size&nbsp;file system leads to</p>\n\n</div><br><br><b>Operating System: GATE CSE 2003 | Question: 25, ISRO2009</b></p>",
+          "type": "single",
+          "options": [
+            "<p>better disk throughput but poorer disk space utilization</p>",
+            "<p>better disk throughput and better disk space utilization</p>",
+            "<p>poorer disk throughput but better disk space utilization</p>",
+            "<p>poorer disk throughput and&nbsp;poorer disk space utilization</p>"
+          ],
+          "correct_answer": "<p>better disk throughput but poorer disk space utilization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/915/gate-cse-2003-question-25-isro2009-12\" target=\"_blank\">https://gateoverflow.in/915/gate-cse-2003-question-25-isro2009-12</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1209\"></a><div itemprop=\"text\"><p>Consider a disk pack with \\( 16 \\) surfaces, \\( 128 \\) tracks per surface and \\( 256 \\) sectors per track. \\( 512 \\) bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:</p>\n\n</div><br><br><b>Operating System: GATE CSE 2007 | Question: 11, ISRO2009</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 256 \\)&nbsp;Mbyte, \\( 19 \\) bits</p>",
+            "<p>\\( 256 \\)&nbsp;Mbyte, \\( 28 \\) bits</p>",
+            "<p>\\( 512 \\)&nbsp;Mbyte, \\( 20 \\) bits</p>",
+            "<p>\\( 64 \\)&nbsp;Gbyte, \\( 28 \\) bits</p>"
+          ],
+          "correct_answer": "<p>\\( 256 \\)&nbsp;Mbyte, \\( 19 \\) bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21\" target=\"_blank\">https://gateoverflow.in/1209/gate-cse-2007-question-11-isro2009-36-isro2016-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3479\"></a><div itemprop=\"text\"><p>A hard disk system has the following parameters :</p>\n\n<ul>\n\t<li>Number of tracks \\( = 500 \\)</li>\n\t<li>Number of sectors/track \\( = 100 \\)</li>\n\t<li>Number of bytes /sector \\( = 500 \\)</li>\n\t<li>Time taken by the head to move from one track to adjacent track \\( = 1 \\ ms \\)</li>\n\t<li>Rotation speed \\( = 600 \\ rpm \\).</li>\n</ul>\n\n<p>What is the average time taken for transferring \\( 250 \\) bytes from the disk ?</p>\n\n</div><br><br><b>Operating System: GATE IT 2007 | Question: 44, ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 300.5 \\ ms \\)</p>",
+            "<p>\\( 255.5 \\ ms \\)</p>",
+            "<p>\\( 255 \\ ms \\)</p>",
+            "<p>\\( 300 \\ ms \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 300 \\ ms \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3479/gate-it-2007-question-44-isro2015-34\" target=\"_blank\">https://gateoverflow.in/3479/gate-it-2007-question-44-isro2015-34</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"49514\"></a><div itemprop=\"text\">\n<p>Disk requests are received by a disk drive for cylinder 5, 25, 18, 3, 39, 8 and 35 in that order. A seek takes 5 msec per cylinder moved. How much seek time is needed to serve these requests for a Shortest Seek First (SSF) algorithm? Assume that the arm is at cylinder 20 when the last of these requests is made with none of the requests yet served</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2007 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>125 msec</p>",
+            "<p>295 msec</p>",
+            "<p>575 msec</p>",
+            "<p>750 msec</p>"
+          ],
+          "correct_answer": "<p>295 msec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49514/isro-cse-2007-question-39\" target=\"_blank\">https://gateoverflow.in/49514/isro-cse-2007-question-39</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"49539\"></a><div itemprop=\"text\">\n<p>Which of the following RAID level provides the highest Data Transfer Rate (Read/Write)</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2007 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>RAID 1</p>",
+            "<p>RAID 3</p>",
+            "<p>RAID 4</p>",
+            "<p>RAID 5</p>"
+          ],
+          "correct_answer": "<p>RAID 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49539/isro-cse-2007-question-56\" target=\"_blank\">https://gateoverflow.in/49539/isro-cse-2007-question-56</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"17263\"></a><div itemprop=\"text\">\n<p>The total time to prepare a disk drive mechanism for a block of data to be read from it is</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2008 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>seek time</p>",
+            "<p>latency</p>",
+            "<p>latency plus seek time</p>",
+            "<p>transmission time</p>"
+          ],
+          "correct_answer": "<p>latency plus seek time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17263/isro-cse-2008-question-49\" target=\"_blank\">https://gateoverflow.in/17263/isro-cse-2008-question-49</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"48058\"></a><div itemprop=\"text\">\n<p>Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stores in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2009 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>256 Mbyte, 19 bits</p>",
+            "<p>256 Mbute, 28 bits</p>",
+            "<p>512 Mbyte, 20 bits</p>",
+            "<p>64 Gbyte, 28 bits</p>"
+          ],
+          "correct_answer": "<p>256 Mbyte, 19 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48058/isro-cse-2009-question-36\" target=\"_blank\">https://gateoverflow.in/48058/isro-cse-2009-question-36</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"52486\"></a><div itemprop=\"text\">\n<p>A fast wide SCSI-II disk drive spins at 7200 RPM, has a sector size of 512 bytes, and holds 160 sectors per track. Estimate the sustained transfer rate of this drive</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2011 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>576000 Kilobytes / sec</p>",
+            "<p>9600&nbsp;<span style=\"line-height: 20.8px;\">Kilobytes / sec</span></p>",
+            "<p>4800&nbsp;<span style=\"line-height: 20.8px;\">Kilobytes / sec</span></p>",
+            "<p>19200&nbsp;<span style=\"line-height: 20.8px;\">Kilobytes / sec</span></p>"
+          ],
+          "correct_answer": "<p>9600&nbsp;<span style=\"line-height: 20.8px;\">Kilobytes / sec</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52486/isro-cse-2011-question-38\" target=\"_blank\">https://gateoverflow.in/52486/isro-cse-2011-question-38</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"213565\"></a><div itemprop=\"text\">\n\n<p>Disk requests come to a disk driver for cylinders in the order \\( 10 \\), \\( 22 \\), \\( 20 \\), \\( 2 \\), \\( 40 \\), \\( 6 \\)&nbsp;and \\( 38 \\)&nbsp;at a time when the disk drive is reading from cylinder \\( 20 \\). The seek time is \\( 6 \\) ms/cylinder. The total seek time, if the disk arm scheduling algorithms is first-come-first-served is</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 360 \\)</p>",
+            "<p>\\( 850 \\)</p>",
+            "<p>\\( 900 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213565/isro-cse-2018-question-23\" target=\"_blank\">https://gateoverflow.in/213565/isro-cse-2018-question-23</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"213538\"></a><div itemprop=\"text\"><p>A particular disk unit uses a bit string to record the occupancy or vacancy of its tracks, with \\( 0 \\) denoting vacant and \\( 1 \\) for occupied. A \\( 32 \\)-\\( bit \\) segment of this string has hexadecimal&nbsp;value D4FE2003. The percentage of occupied tracks for the corresponding&nbsp;part of the disk, to the nearest&nbsp;percentage is:</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 38 \\)</p>",
+            "<p>\\( 44 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 44 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213538/isro-cse-2018-question-50\" target=\"_blank\">https://gateoverflow.in/213538/isro-cse-2018-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

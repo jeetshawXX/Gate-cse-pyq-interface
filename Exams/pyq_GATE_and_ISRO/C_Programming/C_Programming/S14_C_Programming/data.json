@@ -1,0 +1,236 @@
+{
+  "title": "C_Programming - C_Programming - Slot 14",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the C program shown below.<pre><code>  #include &lt; stdio.h &gt; \n#define print(x) printf(\"%d \", x)\nint x;\nvoid Q(int z)\n{\n    z += x;\n    print(z);\n}\nvoid P(int *y)\n{\n    int x = *y + 2;\n    Q(x);\n    *y = x - 1;\n    print(x);\n}\nmain(void)\n{\n    x = 5;\n    P(&amp;x);\n    print(x);\n}</code></pre>\nThe output of this program is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12 7 6</p>",
+            "<b>B.</b> <p>22 12 11</p>",
+            "<b>C.</b> <p>14 6 6</p>",
+            "<b>D.</b> <p>7 6 6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>12 7 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/972/gate2003-89#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the following C program fragment, j, k, n and TwoLog_n are integer\nvariables, and A is an array of integers. The variable n is initialized to an integer\n\\(\\geq\\) 3, and TwoLog_n is initialized to the value of \\(2*\\left \\lceil log_{2}n \\right \\rceil\\)<pre><code> for (k = 3; k &lt; = n; k++)\n    A[k] = 0;\nfor (k = 2; k &lt; = TwoLog_n; k++)\n    for (j = k + 1; j &lt; = n; j++)\n        A[j] = A[j] || (j % k);\nfor (j = 3; j &lt; = n; j++)\n    if (!A[j]) printf(\"%d\", j);</code></pre>\nThe set of number printed by this program fragment is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{m | m \\(\\leq\\)n, (\\(\\exists\\) i) [m = i!]} Here i! mean factorial of i</p>",
+            "<b>B.</b> <p>{m | m \\(\\leq\\) n, \\((\\exists  i) [m = i^{2}]\\)}</p>",
+            "<b>C.</b> <p>{m | m \\(\\leq\\) n, m is prime}</p>",
+            "<b>D.</b> <p>{}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>{}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/971/gate2003-88#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following program fragment is written in a programming language that allows\nvariables and does not allow nested declarations of functions.<pre><code> global int i = 100, j = 5;\nvoid P(x)\n{\n    int i = 10;\n    print(x + 10);\n    i = 200;\n    j = 20;\n    print(x);\n}\nmain()\n{\n    P(i + j);\n} </code></pre> If the programming language uses dynamic scoping and call by name parameter\npassing mechanism, the values printed by the above program are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>115,220</p>",
+            "<b>B.</b> <p>25,220</p>",
+            "<b>C.</b> <p>25,15</p>",
+            "<b>D.</b> <p>115,105</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>115,220</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43575/gate2003-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The following program fragment is written in a programming language that allows\nvariables and does not allow nested declarations of functions.<pre><code> global int i = 100, j = 5;\nvoid P(x)\n{\n    int i = 10;\n    print(x + 10);\n    i = 200;\n    j = 20;\n    print(x);\n}\nmain()\n{\n    P(i + j);\n} </code></pre>\nIf the programming language uses static scoping and call by need parameter\npassing mechanism, the values printed by the above program are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>115,220</p>",
+            "<b>B.</b> <p>25,220</p>",
+            "<b>C.</b> <p>25,15</p>",
+            "<b>D.</b> <p>115,105</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>115,105</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/960/gate2003-73#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Assume the following C variable declaration <br>\nint *A [10], B[10][10];   <br>\nOf the following expressions  <br> I A[2]   <br>  II A[2][3]  <br>  III B[1]   <br>  IV B[2][3] <br> which will not give compile-time errors if used as left hand sides of assignment statements in a C program? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II, and IV only</p>",
+            "<b>B.</b> <p>II, III, and IV only</p>",
+            "<b>C.</b> <p>II and IV only</p>",
+            "<b>D.</b> <p>IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I, II, and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/893/gate2003-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following C function.<pre><code>\nfloat f(float x, int y)\n{\n  float p, s; int i;\n  for (s=1, p=1, i=1; i &lt; y; i ++)\n  {\n    p*= x/i;\n    s+=p;\n  }\n  return s;\n}  </code></pre>\nFor large values of y, the return value of the function f best approximates <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x^{y}\\)</p>",
+            "<b>B.</b> <p>\\(e^{x}\\)</p>",
+            "<b>C.</b> <p>ln(1+x)</p>",
+            "<b>D.</b> <p>\\(x^{x}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(e^{x}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/892/gate2003-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The results returned by function under value-result and reference parameter\npassing conventions <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Do not differ</p>",
+            "<b>B.</b> <p>Differ in the presence of loops</p>",
+            "<b>C.</b> <p>Differ in all cases</p>",
+            "<b>D.</b> <p>May differ in the presence of exception</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>May differ in the presence of exception</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/823/gate2002-1-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The value of j at the end of the execution of the following C program:<br><pre><code> int incr (int i)\n{ \n    static int count = 0;\n    count = count + i;\n    return (count);\n} \nmain () { \n    int i, j; \n    for (i = 0; i &lt;= 4; i++)\n       j = incr (i);\n} </code></pre>\nis: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/667/gate2000-2-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C declaration:<br><pre><code> struct ( \n    short x[5];  \n    union { \n        float y; \n        long z; \n    } u;\n )t;</code></pre> <br>\nAssume that the objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment consideration, is: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22 bytes</p>",
+            "<b>B.</b> <p>14 bytes</p>",
+            "<b>C.</b> <p>18 bytes</p>",
+            "<b>D.</b> <p>10 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>18 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/640/gate2000-1-17-isro2015-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Aliasing in the context of programming languages refers to <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>multiple variables having the same memory location</p>",
+            "<b>B.</b> <p>multiple variables having the same value</p>",
+            "<b>C.</b> <p>multiple variables having the same identifier</p>",
+            "<b>D.</b> <p>multiple uses of the same variable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>multiple variables having the same memory location</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/639/gate2000-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The most appropriate matching for the following pairs is: <br><br>\\(\\begin{array}{|ll|ll|}\\hline X: &amp; \\text{m = malloc(5); m = NULL;} &amp; 1: &amp; \\text{using dangling pointers} \\\\\\hline Y: &amp; \\text{free(n); n -&gt; value = 5;} &amp; 2: &amp; \\text{using uninitialized pointers} \\\\\\hline Z: &amp; \\text{char *p , *p = 'a' ; } &amp; 3: &amp; \\text{lost memory} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X-1  Y-3  Z-2</p>",
+            "<b>B.</b> <p>X-2  Y-1  Z-3</p>",
+            "<b>C.</b> <p>X-3  Y-2  Z-1</p>",
+            "<b>D.</b> <p>X-3  Y-1  Z-2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>X-3  Y-1  Z-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/635/gate2000-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The following C declarations:<br><pre><code> struct node { \n    int i:\n    float j;\n };\n struct node *s[10];</code></pre> define s to be: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An array, each element of which is a pointer to a structure of type node</p>",
+            "<b>B.</b> <p>A structure of 2 fields, each field being a pointer to an array of 10 elements</p>",
+            "<b>C.</b> <p>A structure of 3 fields: an integer, a float, and an array of 10 elements</p>",
+            "<b>D.</b> <p>An array, each element of which is a structure of type node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>An array, each element of which is a pointer to a structure of type node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/634/gate2000-1-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following C function definition<br><pre><code>int Trial (int a, int b, int c)\n{\n    if ((a&gt;=b) &amp;&amp; (c &lt; b)) return b;\n    else if (a &gt;= b) return Trial(a, c, b);\n    else return Trial(b, a, c);\n} </code></pre>The functional Trial: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finds the maximum of a, b, and c</p>",
+            "<b>B.</b> <p>Finds the minimum of a, b, and c</p>",
+            "<b>C.</b> <p>Finds the middle number of a, b, c</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1501/gate1999-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following program in a language that has dynamic scooping:<br><pre><code>var x: real;\nprocedure show:\n    begin print(x);end;\nprocedure small;\n    var x: real;\n        begin x: = 0.125; show; end;\nbegin x:=0.25\n    show; small\n    end. </code></pre>\nThen the output of the program is: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.125 0.125</p>",
+            "<b>B.</b> <p>0.25 0.25</p>",
+            "<b>C.</b> <p>0.25 0.125</p>",
+            "<b>D.</b> <p>0.125 0.25</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.25 0.125</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1491/gate1999-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Given the programming constructs<br>\nI. assignment<br>\nII. for loops where the loop parameter cannot be changed within the loop<br>\nIII. if-then-else<br>\nIV. forward go to<br>\nV. arbitrary go to<br>\nVI. non-recursive procedure call<br>\nVII. recursive procedure/function call<br>\nVIII. repeat loop,<br>\nwhich constructs will you not include in a programming language such that it should be possible to program the terminates (i.e., halting) function in the same programming language <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(II), (III), (IV)</p>",
+            "<b>B.</b> <p>(V), (VII), (VIII)</p>",
+            "<b>C.</b> <p>(VI), (VII), (VIII)</p>",
+            "<b>D.</b> <p>(III), (VII), (VIII)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(V), (VII), (VIII)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1483/gate1999-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

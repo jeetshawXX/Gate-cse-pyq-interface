@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Physical Layer",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Physical Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"66900\"></a><div itemprop=\"text\"><p>How much bandwidth is there in \\( 1 \\) micron of spectrum at a wavelength of \\( 1 \\) micron ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 300 \\) MHz</p>",
+            "<p>\\( 3 \\) GHz</p>",
+            "<p>\\( 300 \\) THz</p>",
+            "<p>\\( 30 \\) KHz</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66900/ugc-net-cse-december-2010-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/66900/ugc-net-cse-december-2010-part-2-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60028\"></a><div itemprop=\"text\"><p>An analog signal carries 4 bits in each signal unit. If 1000 signal units are sent per second, then baud rate and bit rate of the signal are _____ and _____</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2013 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>4000 bauds/sec &amp; 1000 bps</p>",
+            "<p>2000 bauds/sec &amp; 1000 bps</p>",
+            "<p>1000 bauds/sec &amp; 500 bps</p>",
+            "<p>1000 bauds/sec &amp; 4000 bps</p>"
+          ],
+          "correct_answer": "<p>1000 bauds/sec &amp; 4000 bps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60028/ugc-net-cse-december-2013-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/60028/ugc-net-cse-december-2013-part-2-question-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"225844\"></a><div itemprop=\"text\"><p>The period of a signal is 100 ms. Its frequency is ____</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100^3 \\) Hertz</p>",
+            "<p>\\( 10^{-2} \\) KHz</p>",
+            "<p>\\( 10^{-3} \\) KHz</p>",
+            "<p>\\( 10^5 \\) Hertz</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225844/ugc-net-cse-july-2018-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/225844/ugc-net-cse-july-2018-part-2-question-42</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"58290\"></a><div itemprop=\"text\">\n<p>Which one of the following media is multidrop?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Shielded Twisted pair cable</p>",
+            "<p>Unshielded Twisted pair cable</p>",
+            "<p>Thick Coaxial cable</p>",
+            "<p>Fiber Optic cable</p>"
+          ],
+          "correct_answer": "<p>Thick Coaxial cable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58290/ugc-net-cse-june-2013-part-3-question-21\" target=\"_blank\">https://gateoverflow.in/58290/ugc-net-cse-june-2013-part-3-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

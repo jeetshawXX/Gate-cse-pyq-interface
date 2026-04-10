@@ -1,0 +1,184 @@
+{
+  "title": "Databases - Indexing",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Indexing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"88228\"></a><div itemprop=\"text\"><p>For secondary key processing which of the following file organizations is preferred? Give a one line justification:</p>\n\n</div><br><br><b>GATE CSE 1989 | Question: 4-xiv</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Indexed sequential file organization.</p>",
+            "<p>Two-way linked list.</p>",
+            "<p>Inverted file organization.</p>",
+            "<p>Sequential file organization.</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/88228/gate-cse-1989-question-4-xiv\" target=\"_blank\">https://gateoverflow.in/88228/gate-cse-1989-question-4-xiv</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"85691\"></a><div itemprop=\"text\">One giga bytes of data are to be organized as an indexed-sequential file with a uniform blocking factor \\( 8. \\) Assuming a block size of \\( 1 \\) Kilo bytes and a block refrencing pointer size of \\( 32 \\) bits, find out the number of levels of indexing that would be required and the size of the index at each level. Determine also the size of the master index. The referencing capability (fanout ratio) per block of index storage may be considered to be \\( 32 \\).</div><br><br><b>GATE CSE 1990 | Question: 10b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/85691/gate-cse-1990-question-10b\" target=\"_blank\">https://gateoverflow.in/85691/gate-cse-1990-question-10b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2311\"></a><div itemprop=\"text\">An \\( \\text{ISAM} \\) (indexed sequential) file consists of records of size \\( 64 \\) bytes each, including key field of size \\( 14 \\) bytes. An address of a disk block takes \\( 2 \\) bytes. If the disk block size is \\( 512 \\) bytes and there are \\( 16K \\) records, compute the size of the data and index areas in terms of number blocks. How many levels of \\( \\text{tree} \\) do you have for the index?</div><br><br><b>GATE CSE 1993 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2311/gate-cse-1993-question-14\" target=\"_blank\">https://gateoverflow.in/2311/gate-cse-1993-question-14</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1672\"></a><div itemprop=\"text\"><p>There are five records in a database.<br>\n\\[ \\begin{array}{|c|c|c|c|} \\hline \\textbf {Name} &amp;&nbsp;\\textbf {Age} &amp;&nbsp;\\textbf {Occupation} &amp; &nbsp;\\textbf{Category&nbsp;} \\\\\\hline&nbsp;\\text{Rama} &amp; \\text{27} &amp; \\text{CON} &amp; \\text{A} \\\\\\hline&nbsp;\\text{Abdul} &amp; \\text{22} &amp; \\text{ENG} &amp; \\text{A} \\\\\\hline&nbsp;\\text{Jennifer} &amp; \\text{28} &amp; \\text{DOC} &amp; \\text{B} \\\\\\hline&nbsp;\\text{Maya} &amp; \\text{32} &amp; \\text{SER} &amp; \\text{D} \\\\\\hline&nbsp;\\text{Dev} &amp; \\text{24} &amp; \\text{MUS} &amp; \\text{C} \\\\\\hline&nbsp;\\end{array} \\]</p>\n\n<p>There is an index file associated with this and it contains the values \\( 1, 3, 2, 5 \\) and \\( 4 \\). Which one of the fields is the index built from?</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Age</p>",
+            "<p>Name</p>",
+            "<p>Occupation</p>",
+            "<p>Category</p>"
+          ],
+          "correct_answer": "<p>Occupation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1672/gate-cse-1998-question-1-35\" target=\"_blank\">https://gateoverflow.in/1672/gate-cse-1998-question-1-35</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"414\"></a><div itemprop=\"text\"><p>A clustering index is defined on the fields which are of type</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 16, ISRO2016-60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>non-key and ordering</p>",
+            "<p>non-key and non-ordering</p>",
+            "<p>key and ordering</p>",
+            "<p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/414/gate-cse-2008-question-16-isro2016-60\" target=\"_blank\">https://gateoverflow.in/414/gate-cse-2008-question-16-isro2016-60</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"259\"></a><div itemprop=\"text\"><p>Consider a file of \\( 16384 \\) records. Each record is \\( 32\\;\\text{bytes} \\) long and its key field is of size \\( 6\\;\\text{bytes} \\). The file is ordered on a non-key field, and the file organization is unspanned. The file is stored in a file system with block size \\( 1024\\;\\text{bytes} \\), and the size of a block pointer is \\( 10\\;\\text{bytes} \\). If the secondary index is built on the key field of the &nbsp;file, and a multi-level index scheme is used to store the secondary index, the &nbsp;number &nbsp;of &nbsp;first-level &nbsp;and second-level &nbsp;blocks &nbsp;in &nbsp;the &nbsp;multi-level &nbsp;index &nbsp;are respectively</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\) and \\( 0 \\)</p>",
+            "<p>\\( 128 \\) and \\( 6 \\)</p>",
+            "<p>\\( 256 \\) and \\( 4 \\)</p>",
+            "<p>\\( 512 \\) and \\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 256 \\) and \\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/259/gate-cse-2008-question-70\" target=\"_blank\">https://gateoverflow.in/259/gate-cse-2008-question-70</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2141\"></a><div itemprop=\"text\"><p>Consider a relational table \\( r \\) with sufficient number of records, having attributes \\( A_1, A_2, \\dots ,A_n \\) and let \\( 1 \\leq p \\leq n \\). Two queries \\( Q1 \\) and \\( Q2 \\) are given below.</p>\n\n<ul>\n\t<li>\\( Q1: \\pi_{A_1, \\dots ,A_p} \\left(\\sigma_{A_p=c}\\left(r\\right)\\right) \\) where \\( c \\) is a constant</li>\n\t<li>\\( Q2: \\pi_{A_1, \\dots ,A_p} \\left(\\sigma_{c_1 \\leq A_p \\leq c_2}\\left(r\\right)\\right) \\) where \\( c_1 \\) and \\( c_2 \\) are constants.</li>\n</ul>\n\n<p>The database can be configured to do ordered indexing on \\( A_p \\) or hashing on \\( A_p \\). Which of the following statements is&nbsp;<strong>TRUE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ordered indexing will always outperform hashing for both queries</p>",
+            "<p>Hashing will always outperform ordered indexing for both queries</p>",
+            "<p>Hashing will outperform ordered indexing on \\( Q1 \\), but not on \\( Q2 \\)</p>",
+            "<p>Hashing will outperform ordered indexing on \\( Q2 \\), but not on \\( Q1 \\)</p>"
+          ],
+          "correct_answer": "<p>Hashing will outperform ordered indexing on \\( Q1 \\), but not on \\( Q2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2141/gate-cse-2011-question-39\" target=\"_blank\">https://gateoverflow.in/2141/gate-cse-2011-question-39</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1437\"></a><div itemprop=\"text\"><p>An index is clustered, if</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>it is on a set of fields that form a candidate key</p>",
+            "<p>it is on a set of fields that include the primary key</p>",
+            "<p>the data records of the file are organized in the same order as the data entries of the index</p>",
+            "<p>the data records of the file are organized not in the same order as the data entries of the index</p>"
+          ],
+          "correct_answer": "<p>the data records of the file are organized in the same order as the data entries of the index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1437/gate-cse-2013-question-15\" target=\"_blank\">https://gateoverflow.in/1437/gate-cse-2013-question-15</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"8222\"></a><div itemprop=\"text\"><p>A file is organized so that the ordering of the data records is the same as or close to the ordering of data entries in some index. Then that index is called</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dense</p>",
+            "<p>Sparse</p>",
+            "<p>Clustered</p>",
+            "<p>Unclustered&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Clustered</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8222/gate-cse-2015-set-1-question-24\" target=\"_blank\">https://gateoverflow.in/8222/gate-cse-2015-set-1-question-24</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"333177\"></a><div itemprop=\"text\">Consider a database implemented using \\( B^+ \\) tree for file indexing and installed on a disk drive with block size of \\( \\text{4 KB} \\). The size of search key is \\( \\text{12 bytes} \\) and the size of tree/disk pointer is \\( \\text{8 bytes} \\). Assume that the database has one million records. Also assume that no node of the \\( B^+ \\) tree and no records are present initially in main memory. Consider that each record fits into one disk block. The minimum number of disk accesses required to retrieve any record in the database is _______</div><br><br><b>GATE CSE 2020 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333177/gate-cse-2020-question-54\" target=\"_blank\">https://gateoverflow.in/333177/gate-cse-2020-question-54</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"357519\"></a><div itemprop=\"text\">A data file consisting of \\( 1,50,000 \\) student-records is stored on a hard disk with block size of \\( 4096 \\) bytes. The data file is sorted on the primary key \\( \\textrm{RollNo} \\). The size of a record pointer for this disk is \\( 7 \\) bytes. Each student-record has a candidate key attribute called \\( \\textrm{ANum} \\) of size \\( 12 \\) bytes. Suppose an index file with records consisting of two fields, \\( \\textrm{ANum} \\) value and the record pointer the corresponding student record, is built and stored on the same disk. Assume that the records of data file and index file are not split across disk blocks. The number of blocks in the index file is ________</div><br><br><b>GATE CSE 2021 Set 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "698:698",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357519/gate-cse-2021-set-2-question-21\" target=\"_blank\">https://gateoverflow.in/357519/gate-cse-2021-set-2-question-21</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"399259\"></a><div itemprop=\"text\"><p>Consider a database of fixed-length records, stored as an ordered file. The database has \\( 25,000 \\) records, with each record being \\( 100 \\) bytes, of which the primary key occupies \\( 15 \\) bytes. The data file is block-aligned in that each data record is fully contained within a block. The database is indexed by a primary index file, which is also stored as a block-aligned ordered file. The figure below depicts this indexing scheme.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"479\" src=\"images/gateOverflow_pyq_images/databases___indexing/286af2c19211ab28c9b859569a26ee32.png\" width=\"528\"></p>\n\n<p>Suppose the block size of the file system is \\( 1024 \\) bytes, and a pointer to a block occupies \\( 5 \\) bytes. The system uses binary search on the index file to search for a record with a given key. You may assume that a binary search on an index file of \\( b \\) blocks takes \\( \\left\\lceil\\log _{2} b\\right\\rceil \\) block accesses in the worst case.</p>\n\n<p>Given a key, the number of block accesses required to identify the block in the data file that may contain a record with the key, in the worst case, is _____________.</p></div><br><br><b>GATE CSE 2023 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399259/gate-cse-2023-question-52\" target=\"_blank\">https://gateoverflow.in/399259/gate-cse-2023-question-52</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"422881\"></a><div itemprop=\"text\"><p>​​​​​Which of the following file organizations is/are \\( \\text{I/O} \\) efficient for the scan operation in \\( \\text{DBMS} \\)?</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 16</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Sorted</p>",
+            "<p>Heap</p>",
+            "<p>Unclustered tree index</p>",
+            "<p>Unclustered hash index</p>"
+          ],
+          "correct_answer": [
+            "<p>Sorted</p>",
+            "<p>Heap</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422881/gate-cse-2024-set-2-question-16\" target=\"_blank\">https://gateoverflow.in/422881/gate-cse-2024-set-2-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

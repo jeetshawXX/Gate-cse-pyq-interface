@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Digital Image Processing - Fourier Transform",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Fourier Transform",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"42663\"></a><div itemprop=\"text\"><p>If the Fourier transform of the function f(x,y) is F(m,n), then the Fourier transform of the function f(2x,2y) is</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | December 2012 | Part 3 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{4} F (\\frac{m}{2}, \\frac{n}{2}) \\)</p>",
+            "<p>\\( \\frac{1}{4} F (2m, 2n) \\)</p>",
+            "<p>\\( \\frac{1}{4} F (m,n) \\)</p>",
+            "<p>\\( \\frac{1}{4} F (\\frac{m}{4}, \\frac{n}{4}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{4} F (\\frac{m}{2}, \\frac{n}{2}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/42663/ugc-net-cse-december-2012-part-3-question-64\" target=\"_blank\">https://gateoverflow.in/42663/ugc-net-cse-december-2012-part-3-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+});

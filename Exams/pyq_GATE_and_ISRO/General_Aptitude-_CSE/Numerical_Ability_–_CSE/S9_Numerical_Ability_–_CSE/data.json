@@ -1,0 +1,231 @@
+{
+  "title": "Numerical_Ability_–_CSE - Numerical_Ability_–_CSE - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Ability_–_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If \\(\\left(z + \\dfrac{1}{z}\\right)^{2}= 98\\), compute \\(\\left(z^2 + \\dfrac{1}{z^2}\\right)\\) <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "96",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/773/gate-cse-2014-set-1-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The current erection cost of a structure is Rs. 13,200. If the labour wages per day increase by 1/5 of the current wages and the working hours decrease by 1/24 of the current period, then the new cost of erection in Rs. Is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16500</p>",
+            "<b>B.</b> <p>15180</p>",
+            "<b>C.</b> <p>11000</p>",
+            "<b>D.</b> <p>10120</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15180</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1569/gate-cse-2013-question-65#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A tourist covers half of his journey by train at 60 km/h, half of the remainder by bus at 30 km/h and the rest by cycle at 10 km/h. The average speed of the tourist in km/h during his entire journey is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>36</p>",
+            "<b>B.</b> <p>30</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>18</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>24</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1568/gate-cse-2013-question-64#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Out of all the 2-digit integers between 1 and 100, a 2-digit number has to be selected at random. What is the probability that the selected number is not divisible by 7 ? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\left(\\dfrac{13}{90}\\right) \\)</p>",
+            "<b>B.</b> <p>\\( \\left(\\dfrac{12}{90}\\right) \\)</p>",
+            "<b>C.</b> <p>\\( \\left(\\dfrac{78}{90}\\right) \\)</p>",
+            "<b>D.</b> <p>\\( \\left(\\dfrac{77}{90}\\right) \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\( \\left(\\dfrac{77}{90}\\right) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1566/gate-cse-2013-question-62#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Find the sum of the expression<br><br>\\(   \\frac{1}{\\sqrt{1}+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+............+\\frac{1}{\\sqrt{80}+\\sqrt{81}} \\) <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1565/gate-cse-2013-question-61#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What will be the maximum sum of 44, 42, 40, ... ? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>502</p>",
+            "<b>B.</b> <p>504</p>",
+            "<b>C.</b> <p>506</p>",
+            "<b>D.</b> <p>500</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>506</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1562/gate-cse-2013-question-58#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given the sequence of terms, AD CG FK JP, the next term is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>OV</p>",
+            "<b>B.</b> <p>OW</p>",
+            "<b>C.</b> <p>PV</p>",
+            "<b>D.</b> <p>PW</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>OV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2213/gate-cse-2012-question-65#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following assertions are CORRECT?\n<br><br>\nP: Adding 7 to each entry in a list adds 7 to the mean of the list <br>\nQ: Adding 7 to each entry in a list adds 7 to the standard deviation of the list <br>\nR: Doubling each entry in a list doubles the mean of the list<br>\nS: Doubling each entry in a list leaves the standard deviation of the list unchanged <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P, Q</p>",
+            "<b>B.</b> <p>Q, R</p>",
+            "<b>C.</b> <p>P, R</p>",
+            "<b>D.</b> <p>R, S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P, R</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2212/gate-cse-2012-question-64#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>An automobile plant contracted to buy shock absorbers from two suppliers X and Y. X supplies 60% and Y supplies 40% of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of X's shock absorbers, 96% are reliable. Of Y's shock absorbers, 72% are reliable.\n<br><br>\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by Y is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.288</p>",
+            "<b>B.</b> <p>0.334</p>",
+            "<b>C.</b> <p>0.667</p>",
+            "<b>D.</b> <p>0.72</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0.334</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2211/gate-cse-2012-question-63#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A political party orders an arch for the entrance to the ground in which the annual convention is being held. The profile of the arch follows the equation  \\( y=2x-0.1x^2 \\)where \\(y\\) is the height of the arch in meters. The maximum possible height of the arch is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 meters</p>",
+            "<b>B.</b> <p>10 meters</p>",
+            "<b>C.</b> <p>12 meters</p>",
+            "<b>D.</b> <p>14 meters</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 meters</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2210/gate-cse-2012-question-62#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The cost function for a product in a firm is given by \\(5q^2\\), where \\(q\\) is the amount of production. The firm can sell the product at a market price of Rs. 50 per unit. The number of units to be produced by the firm such that the profit is maximized is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>25</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2193/gate-cse-2012-question-56#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A container originally contains 10 litres of pure spirit. From this container, 1 litre of spirit replaced with 1 litre of water. Subsequently, 1 litre of the mixture is again replaced with 1 litre of water and this process is repeated one more time. How much spirit is now left in the container? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7.58  litres</p>",
+            "<b>B.</b> <p>7.84  litres</p>",
+            "<b>C.</b> <p>7  litres</p>",
+            "<b>D.</b> <p>7.29  litres</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>7.29  litres</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2175/gate-cse-2011-question-65#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses 7 trucks, then at the end of the 4th day he can clear all the orders. Alternatively, if he uses only 3 trucks, then all the orders are cleared at the end of the 10th day. What is the minimum number of trucks required so that there will be no pending order at the end of 5th day? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2174/gate-cse-2011-question-64#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The variable cost \\((V)\\) of manufacturing a product varies according to the equation \\(V=4q\\), where \\(q\\) is the quantity produced. The fixed cost (\\(F\\)) of production of same product reduces with q according to the equation \\(F=\\frac{100}{q}\\). How many units should be produced to minimize the total cost \\((V+F)\\)? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2173/gate-cse-2011-question-63#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>P,Q,R  and S are four types of dangerous microbes recently found in a human habitat. The area of each circle with its diameter printed in brackets represents the growth of a single microbe surviving human immunity system within 24 hours of entering the body. The danger to human beings varies proportionately with the toxicity, potency and growth attributed to a microbe shown in the figure below :  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q62_202711de.jpg\"><br>\nA pharmaceutical company is contemplating the development of a vaccine against the most dangerous microbe. Which microbe should the company target in its first attempt? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P</p>",
+            "<b>B.</b> <p>Q</p>",
+            "<b>C.</b> <p>R</p>",
+            "<b>D.</b> <p>S</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2172/gate-cse-2011-question-62#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

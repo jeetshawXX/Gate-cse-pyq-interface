@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Entropy",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Entropy",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63072\"></a><div itemprop=\"text\"><p>The amount of uncertainty in a system of symbol is called</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Bandwidth</p>",
+            "<p>Entropy</p>",
+            "<p>Loss</p>",
+            "<p>Quantum</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63072/ugc-net-cse-december-2011-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/63072/ugc-net-cse-december-2011-part-2-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

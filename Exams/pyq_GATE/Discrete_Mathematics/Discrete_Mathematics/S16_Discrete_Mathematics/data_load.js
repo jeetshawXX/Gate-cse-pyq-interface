@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 16",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G be the non-planar graph with the minimum possible number of edges. Then G has <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9 edges and 5 vertices</p>",
+            "<b>B.</b> <p>9 edges and 6 vertices</p>",
+            "<b>C.</b> <p>10 edges and 5 vertices</p>",
+            "<b>D.</b> <p>10 edges and 6 vertices</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>9 edges and 6 vertices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1203/gate2007-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let S be a set of n elements. The number of ordered pairs in the largest and the\nsmallest equivalence relations on S are: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n and n</p>",
+            "<b>B.</b> <p>\\(n^{2} \\; and \\; n\\)</p>",
+            "<b>C.</b> <p>\\(n^{2}  \\; and \\;  0\\)</p>",
+            "<b>D.</b> <p>n and 1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(n^{2} \\; and \\; n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1201/gate2007-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In the 4B/5B encoding scheme, every 4 bits of data are encoded in a 5-bit codeword. <br>\nIt is required that the codewords have at most 1 leading and at most 1 trailing zero.<br>\nHow many are such codewords possible? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>16</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>18</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3609/gate2006-it-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the depth-first-search of an undirected graph with 3 vertices P, Q, and R. Let discovery time d(u) represent the time instant when the vertex u is first visited, and finish time f(u) represent the time instant when the vertex u is last visited. Given that<br>\n\\(\\begin{array}{l|l}\\hline \\text{$d(P) = 5$ units } &amp; \\text{ $f(P) = 12$ units } \\\\\\hline \\text{$d(Q) = 6$ units} &amp; \\text{ $f(Q) = 10$ units} \\\\\\hline \\text{$d(R) = 14$ unit} &amp; \\text{$f(R) = 18$ units} \\\\\\hline \\end{array}\\)<br>\nWhich one of the following statements is TRUE about the graph? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is only one connected component</p>",
+            "<b>B.</b> <p>There are two connected components, and P and R are connected</p>",
+            "<b>C.</b> <p>There are two connected components, and Q and R are connected</p>",
+            "<b>D.</b> <p>There are two connected components, and P and Q are connected</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There are two connected components, and P and Q are connected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3590/gate2006-it-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following is the correct decomposition of the directed graph given below into its strongly connected components?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q46_ea67eee2.jpg\"><br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\{ P, Q, R, S \\right \\}, \\left \\{ T \\right \\},\\left \\{ U \\right \\}, \\left \\{ V \\right \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\{ P,Q, R, S, T, V \\right \\}, \\left \\{ U \\right \\}\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\{ P, Q, S, T, V \\right \\}, \\left \\{ R \\right \\},\\left \\{ U \\right \\}\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\{ P, Q, R, S, T, U, V \\right \\}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\left \\{ P,Q, R, S, T, V \\right \\}, \\left \\{ U \\right \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3589/gate2006-it-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the undirected graph G defined as follows. The vertices of G are bit strings of length n. We have an edge between vertex u and vertex v if and only if u and v differ in exactly one bit position (in other words, v can be obtained from u by flipping a single bit). The ratio of the chromatic number of G to the diameter of G is, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{\\left(2^{n-1}\\right)}\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\frac{1}{n}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\frac{2}{n}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\frac{3}{n}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left(\\frac{2}{n}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3564/gate2006-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the cardinality of the set of integers X defined below?<br>\n\\(X=\\{n \\mid 1 \\leq n \\leq 123\\), n is not divisible by either 2, 3 or 5} <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>28</p>",
+            "<b>B.</b> <p>33</p>",
+            "<b>C.</b> <p>37</p>",
+            "<b>D.</b> <p>44</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>33</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3563/gate2006-it-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let P, Q and R be sets, let \\(\\triangle \\) denote the symmetric difference operator defined as \\(P\\triangle Q=(P \\cup Q) - (P \\cap Q)\\). Using Venn diagrams, determine which of the following is/are TRUE?<br><br>\nI. \\(P \\Delta(Q \\cap R)=(P \\Delta Q) \\cap(P \\Delta R)\\)<br>\nII. \\(P \\cap(Q \\cap R)=(P \\cap Q) \\Delta(P \\Delta R)\\) <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Neither I nor II</p>",
+            "<b>D.</b> <p>Both I and II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Neither I nor II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3562/gate2006-it-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>When a coin is tossed, the probability of getting a Head is p, 0 &lt; p &lt; 1. Let N be the random variable denoting the number of tosses till the first Head appears, including the toss where the Head appears. Assuming that successive tosses are independent, the expected value of N is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{1}{p}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{1}{(1 - p)}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{1}{p^{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{1}{(1 - p^{2})}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\dfrac{1}{p}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3561/gate2006-it-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following first order logic formula in which R is a binary relation symbol.<br>\n\\(\\forall x \\forall y(R(x, y) \\Longrightarrow R(y, x))\\),<br>The formula is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>satisfiable and valid</p>",
+            "<b>B.</b> <p>satisfiable and so is its negation</p>",
+            "<b>C.</b> <p>unsatisfiable but its negation is valid</p>",
+            "<b>D.</b> <p>satisfiable but its negation is unsatisfiable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>satisfiable and so is its negation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3560/gate2006-it-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>If all the edge weights of an undirected graph are positive, then any subset of edges that connects all the vertices and has minimum total weight is a <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hamiltonian cycle</p>",
+            "<b>B.</b> <p>grid</p>",
+            "<b>C.</b> <p>hypercube</p>",
+            "<b>D.</b> <p>tree</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3550/gate2006-it-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>For the set N of natural numbers and a binary operation \\(f : N \\times N \\to N\\), an element \\(z \\in N\\) is called an identity for f, if f (a, z) = a = f(z, a), for all \\(a \\in N\\). Which of the following binary operations have an identity?<br>\ni. \\(f (x, y) = x + y - 3\\)<br>\nii. \\(f (x, y) = \\max(x, y)\\)<br>\niii. \\(f (x, y) = x^y\\)<br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3539/gate2006-it-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In a certain town, the probability that it will rain in the afternoon is known to be 0.6. Moreover, meteorological data indicates that if the temperature at noon is less than or equal to \\(25^{\\circ}C\\), the probability that it will rain in the afternoon is 0.4. The temperature at noon is equally likely to be above \\(25^{\\circ}C\\), or at/below \\(25^{\\circ}C\\). What is the probability that it will rain in the afternoon on a day when the temperature at noon is above \\(25^{\\circ}C\\)? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.4</p>",
+            "<b>B.</b> <p>0.6</p>",
+            "<b>C.</b> <p>0.8</p>",
+            "<b>D.</b> <p>0.9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3538/gate2006-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The \\(2^{n}\\) vertices of graph G correspond to all subsets of a set of size n, for \\(n\\geq 6\\). Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>   The number of connected components in G is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>n+2</p>",
+            "<b>C.</b> <p>\\(2^{n/2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{2^{n}}{n}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43567/gate2006-73#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The \\(2^{n}\\) vertices of graph G correspond to all subsets of a set of size n, for \\(n\\geq 6\\). Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>  The maximum degree of a vertex in G is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\binom{n/2}{2}2^{n/2}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n-2}\\)</p>",
+            "<b>C.</b> <p>\\(2^{n-3}\\)x3</p>",
+            "<b>D.</b> <p>\\(2^{n-1}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{n-3}\\)x3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43566/gate2006-72#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

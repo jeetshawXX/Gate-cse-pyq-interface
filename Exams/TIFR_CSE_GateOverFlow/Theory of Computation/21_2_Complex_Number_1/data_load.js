@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Complex Number",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Complex Number",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"419336\"></a><div itemprop=\"text\"><p>Let \\( \\mathbb{C} \\) denote the set of complex numbers and let \\( k \\) be a positive integer. Given a non-zero univariate polynomial \\( f(x) \\) with coefficients in \\( \\mathbb{C} \\) and an \\( a \\in \\mathbb{C} \\), we say that \\( a \\) is a zero of \\( f \\) of multiplicity \\( k \\) if \\( f(a)=0, \\frac{d^{k} f}{d x^{k}}(a) \\neq 0 \\), and for all \\( i \\in\\{1, \\ldots, k-1\\} \\), \\( \\frac{d^{i} f}{d x^{i}}(a)=0 \\).</p>\n\n<p>Which of the following is true for every polynomial \\( f \\) of degree \\( d \\) and every positive integer \\( k \\)?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2024 | Part B | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The number of distinct zeroes in \\( \\mathbb{C} \\) of \\( f \\) of multiplicity \\( k \\) is at most \\( d / k \\), and can be smaller than \\( d / k \\) as well.</p>",
+            "<p>The number of distinct zeroes in \\( \\mathbb{C} \\) of \\( f \\) of multiplicity \\( k \\) is at least \\( d / k \\), and can be larger than \\( d / k \\) as well.</p>",
+            "<p>The number of distinct zeroes in \\( \\mathbb{C} \\) of \\( f \\) of multiplicity \\( k \\) is equal to \\( d / k \\).</p>",
+            "<p>The number of distinct zeroes in \\( \\mathbb{C} \\) of \\( f \\) of multiplicity \\( k \\) is at least \\( d \\), and can be larger than \\( d \\) as well.</p>",
+            "<p>The number of distinct zeroes in \\( \\mathbb{C} \\) of \\( f \\) of multiplicity \\( k \\) is equal to \\( d \\).\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>The number of distinct zeroes in \\( \\mathbb{C} \\) of \\( f \\) of multiplicity \\( k \\) is at most \\( d / k \\), and can be smaller than \\( d / k \\) as well.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/419336/tifr-cse-2024-part-b-question-11\" target=\"_blank\">https://gateoverflow.in/419336/tifr-cse-2024-part-b-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+});

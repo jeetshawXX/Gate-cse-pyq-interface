@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Pipelining",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Pipelining",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336300\"></a><div itemprop=\"text\"><p>Consider a non-pipelined machine with \\( 6 \\) stages; the lengths of each stage are \\( \\text{20ns, 10ns, 30ns,25ns, 40 ns} \\) and \\( \\text{15ns} \\) respectively. Suppose for implementing the pipelining the machine adds \\( \\text{5&nbsp;ns} \\) of overhead to each stage for clock skew and set up. What is the speed up factor of the pipelining system (ignoring any hazard impact)?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 3.11 \\)</p>",
+            "<p>\\( 6.22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3.11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336300/nielit-2017-dec-scientist-b-section-b-13\" target=\"_blank\">https://gateoverflow.in/336300/nielit-2017-dec-scientist-b-section-b-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336299\"></a><div itemprop=\"text\"><p>We have \\( 10 \\)-stage pipeline, where the branch target conditions are resolved at stage \\( 5 \\). How many stalls are there for an incorrectly predicted branch?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336299/nielit-2017-dec-scientist-b-section-b-14\" target=\"_blank\">https://gateoverflow.in/336299/nielit-2017-dec-scientist-b-section-b-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336352\"></a><div itemprop=\"text\"><p>Comparing the time \\( T1 \\) taken for a single instruction on a pipelined CPU, with time \\( T2 \\) taken on a non-pipelined but identical CPU, we can say that ______ ?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T1=T2 \\)</p>",
+            "<p>\\( T1&gt;T2 \\)</p>",
+            "<p>\\( T1&lt;T2 \\)</p>",
+            "<p>\\( T1 \\) is \\( T2 \\) plus time taken for one instruction fetch cycle</p>"
+          ],
+          "correct_answer": "<p>\\( T1&gt;T2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336352/nielit-2017-july-scientist-b-cs-section-b-23\" target=\"_blank\">https://gateoverflow.in/336352/nielit-2017-july-scientist-b-cs-section-b-23</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336967\"></a><div itemprop=\"text\"><p>A pipeline is having speed up factor as \\( 10 \\) and operating with efficiency of \\( 80\\%. \\) What will be the number of stages in the pipeline?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "<p>\\( 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336967/nielit-2017-oct-scientific-assistant-a-it-section-b-18\" target=\"_blank\">https://gateoverflow.in/336967/nielit-2017-oct-scientific-assistant-a-it-section-b-18</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"373739\"></a><div itemprop=\"text\"><p>A \\( 5 \\) stage pipelined \\( \\text{CPU} \\) has the following sequence of stages:</p>\n\n<ul>\n\t<li>\\( \\text{IF} \\)&nbsp;– instruction fetch from instruction memory</li>\n\t<li>\\( \\text{RD} \\) – Instruction decode and register read</li>\n\t<li>\\( \\text{EX} \\) – Execute: \\( \\text{ALU} \\) operation for data and address computation</li>\n\t<li>\\( \\text{MA} \\) – Data memory access – for write access, the register read at \\( \\text{RD} \\) state is used.</li>\n\t<li>\\( \\text{WB} \\) – Register write back</li>\n</ul>\n\n<p>Consider the following sequence of instructions:</p>\n\n<ul>\n\t<li>\\( \\text{I1 : L &nbsp;R0},&nbsp;loc&nbsp;1; \\text{R0}&nbsp;&lt;=&nbsp;\\text{M}[loc1] \\)</li>\n\t<li>\\( \\text{I2 : A R0, R0;}&nbsp;\\text{R0} &lt;=&nbsp;\\text{R0} +\\text{R0} \\)</li>\n\t<li>\\( \\text{I3&nbsp;: S&nbsp;R2, R0;}&nbsp;\\text{R2} &lt;=&nbsp;\\text{R2} – \\text{R0} \\)</li>\n</ul>\n\n<p>Let each stage take one clock cycle.</p>\n\n<p>What is the number of clock cycles taken to complete the above sequence of instructions starting from the fetch of \\( I_1 \\)?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2022 April Scientist B | Section B | Question: 99</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 15 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373739/nielit-2022-april-scientist-b-section-b-question-99\" target=\"_blank\">https://gateoverflow.in/373739/nielit-2022-april-scientist-b-section-b-question-99</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Symbol Table",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Symbol Table",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"55551\"></a><div itemprop=\"text\"><p>Access time of the symbolic table will be logarithmic if it is implemented by</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2016 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Linear list</p>",
+            "<p>Search tree</p>",
+            "<p>Hash table</p>",
+            "<p>Self organization list</p>"
+          ],
+          "correct_answer": "<p>Search tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55551/isro-cse-2016-question-39\" target=\"_blank\">https://gateoverflow.in/55551/isro-cse-2016-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

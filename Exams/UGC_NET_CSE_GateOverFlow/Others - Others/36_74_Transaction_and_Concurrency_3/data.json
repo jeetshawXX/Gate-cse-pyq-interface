@@ -1,0 +1,56 @@
+{
+  "title": "Others - Others - Transaction and Concurrency",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Transaction and Concurrency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64563\"></a><div itemprop=\"text\"><p>Which of the following is the recovery management technique in DDBMS ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2011 | Part 2 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2PC (Two Phase Commit)</p>",
+            "<p>Backup</p>",
+            "<p>Immediate update</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64563/ugc-net-cse-june-2011-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/64563/ugc-net-cse-june-2011-part-2-question-16</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"64565\"></a><div itemprop=\"text\"><p>The basic variants of time-stampbased method of concurrency control are</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2011 | Part 2 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Total time stamp-ordering</p>",
+            "<p>Partial time stamp ordering</p>",
+            "<p>Multiversion Time stamp ordering</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64565/ugc-net-cse-june-2011-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/64565/ugc-net-cse-june-2011-part-2-question-18</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"64568\"></a><div itemprop=\"text\"><p>A transaction can include following basic database access operations :</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2011 | Part 2 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Read_item(X)</p>",
+            "<p>Write_item(X)</p>",
+            "<p>Both (A) and (B)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64568/ugc-net-cse-june-2011-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/64568/ugc-net-cse-june-2011-part-2-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

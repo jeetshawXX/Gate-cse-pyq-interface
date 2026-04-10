@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Group Theory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Group Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"55597\"></a><div itemprop=\"text\"><p>If \\( (\\text{G} , .) \\) is a group such that \\( (ab)^{-1}=a^{-1}b^{-1},\\forall a,b \\in \\text{G}, \\) then \\( \\text{G} \\) is a/an</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO CSE 2016 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Commutative semi group</p>",
+            "<p>Abelian group</p>",
+            "<p>Non-abelian group</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Abelian group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55597/isro-cse-2016-question-4\" target=\"_blank\">https://gateoverflow.in/55597/isro-cse-2016-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

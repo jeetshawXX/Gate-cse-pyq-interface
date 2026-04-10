@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Semantic Nets",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Semantic Nets",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71699\"></a><div itemprop=\"text\"><p>In Artificial Intelligence , a semantic network</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 3 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Is a graph-based method of knowledge representation where nodes represent concepts and arcs represent relations between concepts.</p>",
+            "<p>Is a graph-based method of knowledge representation where nodes represent relations between concepts and arcs represent concepts.</p>",
+            "<p>Represents an entity as a set of slots and associated rules.</p>",
+            "<p>Is a subset of first-order logic.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71699/ugc-net-cse-august-2016-part-3-question-72\" target=\"_blank\">https://gateoverflow.in/71699/ugc-net-cse-august-2016-part-3-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+});

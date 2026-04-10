@@ -1,0 +1,59 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Euler Graph",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Euler Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"98001\"></a><div itemprop=\"text\"><p>Which of the following graphs DOES NOT have an Eulerian circuit? (Recall that an Eulerian circuit in an undirected graph is a walk in the graph that starts at a vertex and&nbsp;returns to the vertex after traveling on each edge exactly once.)</p>\n\n</div><br><br><b>Graph Theory: TIFR CSE 2016 | Part B | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( K_{9, 9} \\)</p>",
+            "<p>\\( K_{8, 8} \\)</p>",
+            "<p>\\( K_{12, 12} \\)</p>",
+            "<p>\\( K_9 \\)</p>",
+            "<p>The graph \\( G \\) on vertex set \\( \\{1, 2, \\dots , 9\\} \\) with edge set \\[  E(G) = \\{ \\{i, j\\} : 1 \\leq i &lt; j \\leq 5 \\: or \\: 5 \\leq i &lt; j \\leq 9 \\}. \\]</p>"
+          ],
+          "correct_answer": "<p>\\( K_{9, 9} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/98001/tifr-cse-2016-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/98001/tifr-cse-2016-part-b-question-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"333134\"></a><div itemprop=\"text\"><p>Let \\( G \\) be an undirected graph. An Eulerian cycle of \\( G \\) is a cycle that traverses each edge of \\( G \\) exactly once. A&nbsp; Hamiltonian cycle of \\( G \\) is a cycle that traverses each vertex of \\( G \\) exactly once. Which of the following must be true?</p>\n\n</div><br><br><b>Graph Theory: TIFR CSE 2020 | Part B | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Checking if \\( G \\) has a Eulerian&nbsp;cycle can be done in polynomial time</p>",
+            "<p>Deciding if \\( G \\) has a Hamiltonian cycle is not NP-complete</p>",
+            "<p>If \\( G \\) has an Eulerian&nbsp;cycle, then it has a Hamiltonian cycle</p>",
+            "<p>A complete graph always has both an Eulerian cycle and a Hamiltonian cycle</p>",
+            "<p>All of the other statements are true</p>"
+          ],
+          "correct_answer": "<p>Checking if \\( G \\) has a Eulerian&nbsp;cycle can be done in polynomial time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333134/tifr-cse-2020-part-b-question-13\" target=\"_blank\">https://gateoverflow.in/333134/tifr-cse-2020-part-b-question-13</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"333136\"></a><div itemprop=\"text\"><p>The figure below describes the network of streets in a city where Motabhai sells \\( \\text{pakoras} \\) from his cart. The number next to an edge is the time (in minutes) taken to traverse the corresponding street.</p>\n\n<p><img alt=\"\" height=\"360\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17505168164376991544\" width=\"488\"></p>\n\n<p>&nbsp;</p>\n\n<p>At present, the cart is required to start at point \\( s \\) and, after visiting each street at least once, reach point \\( t \\). For example, Motabhai can visit the streets in the following order \\[ s-a-c-s-e-c-d-a-b-d-f-e-d-b-t-f-d-t \\]</p>\n\n<p>in order to go from \\( s \\) to \\( t \\). Note that the streets \\( \\{b,d\\} \\) and \\( \\{d, f \\} \\) are both visited twice in this strategy. The total time taken for this trip is \\( 440 \\) minutes [which is, \\( 380 \\) (the sum of traversal times of all streets in the network) \\( + 60 \\) (the sum of the traversal times of streets \\( \\{b,d\\} \\) and \\( \\{d,f\\} \\))].</p>\n\n<p>Motabhai now wants the cart to return to \\( s \\) at the end of the trip. So&nbsp;the previous strategy is not valid, and he must find a new strategy. How many minutes will Motabhai now take if he uses an optimal strategy?</p>\n\n<p>Hint: \\( s, t, b \\) and \\( f \\) are the only odd degree nodes in the figure above.</p>\n\n</div><br><br><b>Graph Theory: TIFR CSE 2020 | Part B | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 430 \\)</p>",
+            "<p>\\( 440 \\)</p>",
+            "<p>\\( 460 \\)</p>",
+            "<p>\\( 470 \\)</p>",
+            "<p>\\( 480 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 430 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333136/tifr-cse-2020-part-b-question-14\" target=\"_blank\">https://gateoverflow.in/333136/tifr-cse-2020-part-b-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithm Efficiency",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Algorithm Efficiency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60979\"></a><div itemprop=\"text\"><p>To determine the efficiency of an algorithm the time factor is measured by</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | Junet 2015 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Counting micro seconds</p>",
+            "<p>Counting&nbsp;number of key operations</p>",
+            "<p>Counting&nbsp;number of statements</p>",
+            "<p>Counting&nbsp;kilobytes of algorithm</p>"
+          ],
+          "correct_answer": "<p>Counting&nbsp;number of key operations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60979/ugc-net-cse-junet-2015-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/60979/ugc-net-cse-junet-2015-part-2-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+});

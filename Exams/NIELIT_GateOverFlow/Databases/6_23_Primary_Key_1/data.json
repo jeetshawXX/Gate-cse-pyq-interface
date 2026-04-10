@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Primary Key",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Primary Key",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369329\"></a><div itemprop=\"text\"><p>An instance of relational schema \\( \\text{R (A, B, C)} \\) has distinct values of \\( \\text{A} \\) including \\( \\text{NULL} \\) values. Which one of the following is true ?</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A} \\) is a candidate key</p>",
+            "<p>\\( \\text{A} \\) is not a candidate key</p>",
+            "<p>\\( \\text{A} \\) is a primary key</p>",
+            "<p>Both \\( \\text{(A)} \\) and \\( \\text{(C)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A} \\) is a candidate key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369329/nielit-2021-dec-scientist-a-section-b-84\" target=\"_blank\">https://gateoverflow.in/369329/nielit-2021-dec-scientist-a-section-b-84</a></p>"
+        }
+      ]
+    }
+  ]
+}

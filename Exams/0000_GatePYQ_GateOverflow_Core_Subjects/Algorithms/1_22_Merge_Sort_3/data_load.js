@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Merge Sort",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Merge Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1467\"></a><div itemprop=\"text\"><p>If one uses straight two-way merge sort algorithm to sort the following elements in ascending order:</p><p>&nbsp; &nbsp; &nbsp;\\( 20, \\ 47, \\ 15, \\ 8, \\ 9, \\ 4, \\ 40, \\ 30, \\ 12, \\ 17 \\)</p><p>then the order of these elements after second pass of the algorithm is:</p></div><br><br><b>GATE CSE 1999 | Question: 1.14, ISRO2015-42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8, \\ 9, \\ 15, \\ 20, \\ 47, \\ 4, \\ 12, \\ 17, \\ 30, \\ 40 \\)</p>",
+            "<p>\\( 8, \\&nbsp;15, \\ 20, \\ 47, \\ 4, \\&nbsp;9, \\ 30, \\ 40, \\ 12, \\ 17 \\)</p>",
+            "<p>\\( 15, \\&nbsp;20, \\ 47, \\ 4, \\ 8, \\ 9, \\ 12, \\ 30, \\ 40, \\ 17 \\)</p>",
+            "<p>\\( 4, \\ 8, \\ 9, \\ 15, \\ 20, \\ 47, \\ 12, \\ 17, \\ 30, \\ 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8, \\&nbsp;15, \\ 20, \\ 47, \\ 4, \\&nbsp;9, \\ 30, \\ 40, \\ 12, \\ 17 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1467/gate-cse-1999-question-1-14-isro2015-42\" target=\"_blank\">https://gateoverflow.in/1467/gate-cse-1999-question-1-14-isro2015-42</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1762\"></a><div itemprop=\"text\"><p>A list of \\( n \\) strings, each of length \\( n \\), is sorted into lexicographic order using the merge-sort algorithm. The worst case running time of this computation is</p></div><br><br><b>GATE CSE 2012 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (n \\log n)  \\)</p>",
+            "<p>\\(  O(n^{2} \\log n)  \\)</p>",
+            "<p>\\(  O(n^{2} + \\log n)  \\)</p>",
+            "<p>\\(  O(n^{2})  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  O(n^{2} \\log n)  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1762/gate-cse-2012-question-39\" target=\"_blank\">https://gateoverflow.in/1762/gate-cse-2012-question-39</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8480\"></a><div itemprop=\"text\"><p>Assume that a mergesort algorithm in the worst case takes \\( 30 \\) seconds for an input of size \\( 64 \\). Which of the following most closely approximates the maximum input size of a problem that can be solved in \\( 6 \\) minutes?</p></div><br><br><b>GATE CSE 2015 Set 3 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 256 \\)</p>",
+            "<p>\\( 512 \\)</p>",
+            "<p>\\( 1024 \\)</p>",
+            "<p>\\( 2018 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 512 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8480/gate-cse-2015-set-3-question-27\" target=\"_blank\">https://gateoverflow.in/8480/gate-cse-2015-set-3-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Logic",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435367\"></a><div itemprop=\"text\"><p>The resulting logic circuit obtained when both inputs of NOR and NAND gates are connected together is:</p></div><br><br><b>Digital Logic: ISRO CSE 2023 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>AND</p>",
+            "<p>XOR</p>",
+            "<p>OR</p>",
+            "<p>NOT<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>NOT<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435367/isro-cse-2023-question-29\" target=\"_blank\">https://gateoverflow.in/435367/isro-cse-2023-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

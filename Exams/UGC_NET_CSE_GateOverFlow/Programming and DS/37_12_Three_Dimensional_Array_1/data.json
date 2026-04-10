@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Three Dimensional Array",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Three Dimensional Array",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62244\"></a><div itemprop=\"text\"><p>A three dimensional array in 'C' is declared as int A[x][y][z]. Here, the address of an item at the location A[p][q][r] can be computed as follows: (where w is the word length of an integer)</p>\n\n</div><br><br><b>Programming and DS: UGC NET CSE | December 2015 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&amp;A[0][0][0]+w(y*z*q+z*p+r)</p>",
+            "<p>&amp;A[0][0][0]+w(y*z*p+z*q+r)</p>",
+            "<p>&amp;A[0][0][0]+w(x*y*p+z*q+r)</p>",
+            "<p>&amp;A[0][0][0]+w(x*y*q+z*p+r)</p>"
+          ],
+          "correct_answer": "<p>&amp;A[0][0][0]+w(y*z*p+z*q+r)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62244/ugc-net-cse-december-2015-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/62244/ugc-net-cse-december-2015-part-2-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

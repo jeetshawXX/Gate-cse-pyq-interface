@@ -1,0 +1,27 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Determinant",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Determinant",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"381948\"></a><div itemprop=\"text\"><p>Consider the polynomial \\( p(x)=x^3-x^2+x-1 \\). How many <em>symmetric</em> matrices with integer entries are there whose characteristic polynomial is \\( p \\)? (Recall that the <em>characteristic polynomial</em> of a square matrix \\( A \\) in the variable \\( x \\) is defined to be the determinant of the matrix \\( (A-x I) \\) where \\( I \\) is the identity matrix.)</p>\n\n</div><br><br><b>Linear Algebra: TIFR CSE 2022 | Part A | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>Infinitely many</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381948/tifr-cse-2022-part-a-question-4\" target=\"_blank\">https://gateoverflow.in/381948/tifr-cse-2022-part-a-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

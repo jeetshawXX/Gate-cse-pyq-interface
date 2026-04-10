@@ -1,0 +1,296 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 3",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which one of the following is true? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(R \\cap S = ( R \\cup S) - [(R-S) \\cup (S-R)]\\)</p>",
+            "<b>B.</b> <p>\\(R \\cup S = ( R \\cap S) - [(R-S) \\cup (S-R)]\\)</p>",
+            "<b>C.</b> <p>\\(R \\cap S = ( R \\cup S) - [(R-S) \\cap (S-R)]\\)</p>",
+            "<b>D.</b> <p>\\(R \\cap S = ( R \\cup S) \\cup (R-S)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(R \\cap S = ( R \\cup S) - [(R-S) \\cup (S-R)]\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52473/isro2011-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>If node A has three siblings and B is parent of A, what is the degree of A? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50582/isro2011-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If the pdf of a Poisson distribution is given by \\(f(x) = \\frac{e^{-2} 2^x}{x!}\\)then its mean is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^x\\)</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>-2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50563/isro2009-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(f(x)\\) be the continuous probability density function of a random variable \\(x\\), the probability that \\(a \\lt x \\leq b\\), is : <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(b-a)\\)</p>",
+            "<b>B.</b> <p>\\(f(b) - f(a)\\)</p>",
+            "<b>C.</b> <p>\\(\\int\\limits_a^b f(x) dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int\\limits_a^b xf (x)dx\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int\\limits_a^b f(x) dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1162/gate2005-12-isro2009-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A simple graph ( a graph without parallel edge or loops) with n vertices and k components can have at most <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n edges</p>",
+            "<b>B.</b> <p>n-k edges</p>",
+            "<b>C.</b> <p>(n-k) (n-k+1) edges</p>",
+            "<b>D.</b> <p>(n-k) (n-k+1)/2 edges</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(n-k) (n-k+1)/2 edges</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50494/isro2009-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a graph G there is one and only one path between every pair of vertices then G is a <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Path</p>",
+            "<b>B.</b> <p>Walk</p>",
+            "<b>C.</b> <p>Tree</p>",
+            "<b>D.</b> <p>Circuit</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50490/isro2009-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A graph in which all nodes are of equal degree, is known as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Multigraph</p>",
+            "<b>B.</b> <p>Non regular graph</p>",
+            "<b>C.</b> <p>Regular graph</p>",
+            "<b>D.</b> <p>Complete graph</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Regular graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50488/isro2009-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let G be an arbitrary graph with n nodes and k components. If a vertex is removed from G, the number of components in the resultant graph must necessarily lie down between <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k and n</p>",
+            "<b>B.</b> <p>k-1 and k+1</p>",
+            "<b>C.</b> <p>k-1 and n-1</p>",
+            "<b>D.</b> <p>k+1 and n-k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-1 and n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8-isro2009-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If G is a graph with e edges and n vertices the sum of the degrees of all vertices in G is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>e</p>",
+            "<b>B.</b> <p>\\(e/2\\)</p>",
+            "<b>C.</b> <p>\\(e^2\\)</p>",
+            "<b>D.</b> <p>2 e</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 e</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50485/isro2009-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the graph shown in the figure below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q78_b62ea598.jpg\"><br>  Which of the following is a valid strong component? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a, c, d</p>",
+            "<b>B.</b> <p>a, b, d</p>",
+            "<b>C.</b> <p>b, c, d</p>",
+            "<b>D.</b> <p>a, b, c</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50146/isro2008-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25-isro2008-30-isro2016-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The number of distinct simple graphs with up to three nodes is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let X be the adjacency matrix of a graph G with no self loops. The entries along the principal diagonal of X are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>all zeros</p>",
+            "<b>B.</b> <p>all ones</p>",
+            "<b>C.</b> <p>both zeros and ones</p>",
+            "<b>D.</b> <p>different</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>all zeros</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49630/isro2007-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A program consists of two modules executed sequentially. Let \\(f_1(t)\\) and \\(f_2(t)\\) respectively denote the probability density functions of time taken to execute the two modules. The probability density function of the overall time taken to execute the program is given by <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f_1(t)+f_2(t)\\)</p>",
+            "<b>B.</b> <p>\\(\\int_0^t f_1(x)f_2(x)dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int_0^t f_1(x)f_2(t-x)dx\\)</p>",
+            "<b>D.</b> <p>\\(\\max\\{f_1(t),f_2(t)\\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\int_0^t f_1(x)f_2(t-x)dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/948/gate2003-60-isro2007-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Company X shipped 5 computer chips, 1 of which was defective. and company Y shipped 4 computer chips, 2 of which were defective. One computer chip is to be chosen uniformly at a random from the 9 chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from the company Y? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2/9</p>",
+            "<b>B.</b> <p>4/9</p>",
+            "<b>C.</b> <p>2/3</p>",
+            "<b>D.</b> <p>1/2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2/3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49507/isro2007-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Identify the correct translation into logical notation of the following assertion.<br>\nSome boys in the class are taller than all the girls<br>\nNote: taller (x, y) is true if x is taller than y. <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>C.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+            "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1020/gate2004-23-isro2007-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>The set of all Equivalence Classes of a set A of Cardinality C <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is of cardinality \\(2^c\\)</p>",
+            "<b>B.</b> <p>have the same cardinality as A</p>",
+            "<b>C.</b> <p>forms a partition of A</p>",
+            "<b>D.</b> <p>is of cardinality \\(C^2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>forms a partition of A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49502/isro2007-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>If a graph requires k different colours for its proper colouring, then the chromatic number of the graph is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>k</p>",
+            "<b>C.</b> <p>k-1</p>",
+            "<b>D.</b> <p>k/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49477/isro2007-07\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>A graph with n vertices and n-1 edges that is not a tree, is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Connected</p>",
+            "<b>B.</b> <p>Disconnected</p>",
+            "<b>C.</b> <p>Euler</p>",
+            "<b>D.</b> <p>A circuit</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Disconnected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49476/isro2007-06\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

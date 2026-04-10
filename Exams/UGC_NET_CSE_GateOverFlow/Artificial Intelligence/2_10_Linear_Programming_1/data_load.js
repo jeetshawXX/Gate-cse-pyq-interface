@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - Linear Programming",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linear Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59515\"></a><div itemprop=\"text\"><p>If an artificial variable is present in the ‘basic variable’ of optimal simplex table then the solution is&nbsp;</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | September 2013 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Alternative solution</p>",
+            "<p>Infeasible solution</p>",
+            "<p>Unbounded solution</p>",
+            "<p>Degenerate solution</p>"
+          ],
+          "correct_answer": "<p>Infeasible solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59515/ugc-net-cse-september-2013-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/59515/ugc-net-cse-september-2013-part-3-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+});

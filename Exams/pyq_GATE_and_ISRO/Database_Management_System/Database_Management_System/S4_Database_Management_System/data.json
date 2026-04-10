@@ -1,0 +1,226 @@
+{
+  "title": "Database_Management_System - Database_Management_System - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a relational database containing the following schemas. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q13_00d62b79.jpg\"><br>The primary key of each table is indicated by underlining the constituent fields.<pre><code> SELECT s.sno, s.sname\n    FROM Suppliers s, Catalogue c\n    WHERE s.sno=c.sno AND\n        cost &gt; (SELECT AVG (cost)\n                FROM Catalogue\n                WHERE pno = 'P4'\n                GROUP BY pno) ;</code></pre><br>The number of rows returned by the above SQL query is <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333218/gate2020-cs-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following relation P(X, Y, Z), Q(X, Y, T) and R(Y, V):\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q55_cdc2944f.jpg\"><br>How many tuples will be returned by the following relational algebra query?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q55a_38366a3a.jpg\"><br>Answer:______ <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302793/gate2019-cs-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A relational database contains two tables Student and Performance as shown below: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q51_c175b8ed.jpg\"><br>The primary key of the Student table is Roll_no. For the Performance table, the columns Roll_no. and Subject_code together from the primary key. Consider the SQL query given below:<pre><code>SELECT S.Student_name, sum(P.Marks)\nFROM Student S, Performance P\nWHERE  P.Marks  &gt;  84\nGROUP BY S.Student_name;</code></pre>The number of rows returned by the above SQL query is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302797/gate2019-cs-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let the set of functional dependencies \\(F=\\{QR\\rightarrow S,R\\rightarrow P,S\\rightarrow Q\\}\\) hold on a relation schema X = (PQRS). X is not in BCNF. Suppose X is decomposed into two schemas Y and Z where Y = (PR) and Z = (QRS). <br>Consider the two statements given below:<br><br>\nI. Both Y and Z are in BCNF<br>\nII. Decomposition of X into Y and Z is dependency preserving and lossless.<br><br>\nWhich of the above statements is/are correct? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and II</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302816/gate2019-cs-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which one of the following statements is NOT correct about the \\(B^+\\) tree data structure used for creating an index of a relational database table? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(B^+\\) Tree is a height-balanced tree</p>",
+            "<b>B.</b> <p>Non-leaf nodes have pointers to data records</p>",
+            "<b>C.</b> <p>Key values in each node are kept in sorted order</p>",
+            "<b>D.</b> <p>Each leaf node has a pointer to the next leaf node</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Non-leaf nodes have pointers to data records</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302834/gate2019-cs-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following two statements about database transaction schedules:<br><br>\nI. Strict two-phase locking protocol generates conflict serializable schedules that are also recoverable.<br>\nII. Timestamp-ordering concurrency control protocol with Thomas' Write Rule can generate view serializable schedules that are not conflict serializable.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302837/gate2019-cs-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let us assume that transaction T1 has arrived before transaction T2. Consider the schedule s=r1(A);r2(B):w2(A);w1(B)<br>Which of the following is true? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Allowed under basic timestamp protocol.</p>",
+            "<b>B.</b> <p>Not allowed under basic timestamp protocols because T1 is rolled back.</p>",
+            "<b>C.</b> <p>Not allowed under basic timestamp protocols because T2 is rolled back.</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Not allowed under basic timestamp protocols because T1 is rolled back.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213533/isro2018-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The set of attributes X will be fully functionally dependent on the set of attributes Y if the following conditions are satisfied. <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X is functionally dependent on Y</p>",
+            "<b>B.</b> <p>X is not functionally dependent on any subset of Y</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213534/isro2018-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Immunity of the external schemas (or application programs) to changes in the conceptual scheme is referred to as: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Physical Data Independence</p>",
+            "<b>B.</b> <p>Logical Data Independence</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Logical Data Independence</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213535/isro2018-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In E-R model, Y is the dominant entity and X is subordinate entity <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>If X is deleted, then Y is also deleted</p>",
+            "<b>B.</b> <p>If Y is deleted, then X is also deleted</p>",
+            "<b>C.</b> <p>If Y is deleted, then X is not deleted</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>If Y is deleted, then X is also deleted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213536/isro2018-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following is dense index? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Primary index</p>",
+            "<b>B.</b> <p>Clustered index</p>",
+            "<b>C.</b> <p>Secondary index</p>",
+            "<b>D.</b> <p>Secondary non-key index</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Secondary index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213537/isro2018-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>in a file which contains 1 million records and the order of the tree is 100, then what is the maximum number of nodes to be accessed if B+ tree index is used? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213539/isro2018-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the set of relations given below and the SQL query that follows:<br><pre><code> Students: (Roll_number, Name, Date_of_birth )\n\nCoursed: (Course_number, Course_name, Instructor )\n\nGrades: (Roll_number, Course_number, Grade)\n\nSELECT DISTINCT Name\n\nFROM Students, Courses, Grades\n\nWHERE Students.Roll_number = Grades.Roll_number\n\n                            AND   Courses.Intructor =Sriram\n\n                            AND   Courses.Course_number = Grades.Course_number\n\n                            AND   Grades.Grade = A</code></pre>Which of the following sets is computed by the above query? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Names of Students who have got an A grade in all courses taught by Sriram</p>",
+            "<b>B.</b> <p>Names of Students who have got an A grade in all courses</p>",
+            "<b>C.</b> <p>Names of Students who have got an A grade in at least one of the courses taught by Sriram</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Names of Students who have got an A grade in at least one of the courses taught by Sriram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213546/isro2018-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>For a database relation R(a,b,c,d) where the domain of a,b,c and d include only atomic value, only the following functions dependencies and those that can be inferred from them hold<br>a\\(\\rightarrow\\)c<br>b\\(\\rightarrow\\)d<br>The relation is in: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First normal form but not in second normal form</p>",
+            "<b>B.</b> <p>Second normal form but not in third normal form</p>",
+            "<b>C.</b> <p>Third normal form</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>First normal form but not in second normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213547/isro2018-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Given relations R(w,x) and S(y,z), the result of<br>SELECT DISTINCT w,x<br>FROM R,S<br>is guaranteed to be same as R, if <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R has no duplicates and S is non-empty</p>",
+            "<b>B.</b> <p>R and S have no duplicates</p>",
+            "<b>C.</b> <p>S has no duplicates and R is non-empty</p>",
+            "<b>D.</b> <p>R and S have the same number of tuples</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>R has no duplicates and S is non-empty</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213548/isro2018-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

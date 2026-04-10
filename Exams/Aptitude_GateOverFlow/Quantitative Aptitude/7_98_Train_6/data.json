@@ -1,0 +1,101 @@
+{
+  "title": "Quantitative Aptitude - Train",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Train",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6725\"></a><div itemprop=\"text\"><p>The ratio between the speeds of two trains is \\( 7:8 \\). If the second train runs \\( 440 \\)kms in \\( 4 \\)hours, then the speed of the first train is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 47.4 \\) km/hr</p>",
+            "<p>\\( 57.19 \\) km/hr</p>",
+            "<p>\\( 48.13 \\) km/hr</p>",
+            "<p>\\( 96.25 \\) km/hr&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6725/nielit-2016-mar-scientist-c-section-a-6\" target=\"_blank\">https://aptitude.gateoverflow.in/6725/nielit-2016-mar-scientist-c-section-a-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6534\"></a><div itemprop=\"text\"><p>A \\( 300 \\) metre&nbsp;long metro train crosses a platform in a metro station in \\( 39 \\) seconds while it crosses a lamp post in \\( 18 \\) seconds. What is the length of the platform?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 250 \\) metre</p>",
+            "<p>\\( 350 \\) metre</p>",
+            "<p>\\( 520 \\) metre</p>",
+            "<p>\\( 300 \\) metre&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 350 \\) metre</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6534/nielit-2017-oct-scientific-assistant-a-section-a-31\" target=\"_blank\">https://aptitude.gateoverflow.in/6534/nielit-2017-oct-scientific-assistant-a-section-a-31</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6631\"></a><div itemprop=\"text\"><p>If a train runs at \\( 40 \\) kmph, it reaches its destination late by \\( 11 \\) minutes but if it runs at \\( 50 \\) kmph, it is late by \\( 5 \\) minutes only. The correct time for the train to&nbsp;complete its journey is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 13 \\) min</p>",
+            "<p>\\( 15 \\) min</p>",
+            "<p>\\( 19 \\) min</p>",
+            "<p>\\( 21 \\) min</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6631/nielit-2019-feb-scientist-c-section-c-25\" target=\"_blank\">https://aptitude.gateoverflow.in/6631/nielit-2019-feb-scientist-c-section-c-25</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6648\"></a><div itemprop=\"text\"><p>A train overtakes two persons who are walking in the same direction in which the train is going, at the rate of \\( 2 \\) kmph and \\( 4 \\) kmph and passes them completely in \\( 9 \\) and \\( 10 \\) seconds respectively. The length of the train(in metres) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 54 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 72 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6648/nielit-2019-feb-scientist-c-section-c-8\" target=\"_blank\">https://aptitude.gateoverflow.in/6648/nielit-2019-feb-scientist-c-section-c-8</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6831\"></a><div itemprop=\"text\"><p>A train travelling from Delhi to Ambala meets with an accident after \\( 1 \\) hr. It is stopped for \\( \\frac{1}{2} \\) hr, after which it proceeds at fourth-fifth of its usual rate, arriving at Ambala at \\( 2 \\) hr late. If the train has covered \\( 80 \\) km more before the accident, it would have been just \\( 1 \\) hr late. The usual speed of the train is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\) km/hr</p>",
+            "<p>\\( 30 \\) km/hr</p>",
+            "<p>\\( 40 \\) km/hr</p>",
+            "<p>\\( 50 \\) km/hr</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6831/nielit-2019-feb-scientist-d-section-d-22\" target=\"_blank\">https://aptitude.gateoverflow.in/6831/nielit-2019-feb-scientist-d-section-d-22</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"6830\"></a><div itemprop=\"text\"><p>A train enters into a tunnel \\( AB \\) at \\( A \\)&nbsp;and exits at \\( B \\). A jackal is sitting at \\( O \\) in another by passing tunnel \\( AOB \\), which is connected to \\( AB \\) at \\( A \\) and \\( B \\), where \\( OA \\) is perpendicular to \\( OB \\). A cat is sitting at \\( P \\) inside the tunnel \\( AB \\) making the shortest possible distance between \\( O \\) and \\( P \\), such that \\( AO=30 \\) km and \\( PB=32 \\) km. When a train before entering into the tunnel \\( AB \\) makes a whistle somewhere before \\( A \\), the jackal and cat run towards \\( A \\) they meet with accident at the entrance \\( A \\). The ratio&nbsp;of speeds of jackal and cat is :</p>\n\n<p><img alt=\"\" height=\"255\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=3455400101804214152\" width=\"230\"></p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{2}{3} \\)</p>",
+            "<p>\\( \\frac{4}{3} \\)</p>",
+            "<p>\\( \\frac{5}{3} \\)</p>",
+            "<p>\\( \\frac{3}{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6830/nielit-2019-feb-scientist-d-section-d-23\" target=\"_blank\">https://aptitude.gateoverflow.in/6830/nielit-2019-feb-scientist-d-section-d-23</a></p>"
+        }
+      ]
+    }
+  ]
+}

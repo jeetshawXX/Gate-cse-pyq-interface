@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Software",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335118\"></a><div itemprop=\"text\"><p>A software design pattern used to enhance the functionality of an object at run-time is:</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 2 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Adapter</p>",
+            "<p>Decorator</p>",
+            "<p>Delegation</p>",
+            "<p>Proxy</p>"
+          ],
+          "correct_answer": "<p>Decorator</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335118/ugc-net-cse-january-2017-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/335118/ugc-net-cse-january-2017-part-2-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+});

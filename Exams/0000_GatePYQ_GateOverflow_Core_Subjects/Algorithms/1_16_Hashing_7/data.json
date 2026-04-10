@@ -1,0 +1,106 @@
+{
+  "title": "Algorithms - Hashing",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Hashing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"10905\"></a><div itemprop=\"text\"><p>A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols \\( S1 \\) to \\( S7 \\) initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"294\" src=\"images/gateOverflow_pyq_images/algorithms___hashing/44997f8b1a1d6299a42fd3a415056da8.png\" width=\"68\"></p>\n\n</div><br><br><b>GATE CSE 1989 | Question: 1-vii, ISRO2015-14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/10905/gate-cse-1989-question-1-vii-isro2015-14\" target=\"_blank\">https://gateoverflow.in/10905/gate-cse-1989-question-1-vii-isro2015-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"86225\"></a><div itemprop=\"text\"><p>Consider a hash table with chaining scheme for overflow handling:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>What is the worst-case timing complexity of inserting \\( n \\) elements into such a table?</li>\n\t<li>For what type of instance does this hashing scheme take the worst-case time for insertion?</li>\n</ol></div><br><br><b>GATE CSE 1990 | Question: 13b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/86225/gate-cse-1990-question-13b\" target=\"_blank\">https://gateoverflow.in/86225/gate-cse-1990-question-13b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"333208\"></a><div itemprop=\"text\">Consider a double hashing scheme in which the primary hash function is \\( h_1(k)= k \\text{ mod } 23 \\), and the secondary hash function is \\( h_2(k)=1+(k \\text{ mod } 19) \\). Assume that the table size is \\( 23 \\). Then the address returned by probe \\( 1 \\) in the probe sequence (assume that the probe sequence begins at probe \\( 0 \\)) for key value \\( k=90 \\) is_____________.</div><br><br><b>GATE CSE 2020 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333208/gate-cse-2020-question-23\" target=\"_blank\">https://gateoverflow.in/333208/gate-cse-2020-question-23</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"357404\"></a><div itemprop=\"text\"><p>Consider a \\( \\textit{dynamic} \\) hashing approach for \\( 4 \\)-bit integer keys:</p>\n\n<ol start=\"1\" style=\"list-style-type:decimal\">\n\t<li>There is a main hash table of size \\( 4 \\).</li>\n\t<li>The \\( 2 \\) least significant bits of a key is used to index into the main hash table.</li>\n\t<li>Initially, the main hash table entries are empty.</li>\n\t<li>Thereafter, when more keys are hashed into it, to resolve collisions, the set of all keys corresponding to a main hash table&nbsp;entry is organized as a binary tree that grows on demand.</li>\n\t<li>First, the \\( 3^{\\text{rd}} \\) least significant bit is used to divide the keys into left and right subtrees.</li>\n\t<li>To resolve more collisions, each node of the binary tree is further sub-divided into left and right subtrees based on the \\( 4^{\\text{th}} \\) least significant bit.</li>\n\t<li>A split is done only if it is needed, i.e., only when there is a collision.</li>\n</ol>\n\n<p>Consider the following state of the hash table.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/algorithms___hashing/622aba69a91c242db0f0cf4278b37e83.png\" width=\"500\"></p>\n\n<p>Which of the following sequences of key insertions can cause the above state of the hash table (assume the keys are in decimal notation)?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5,9,4,13,10,7 \\)</p>",
+            "<p>\\( 9,5,10,6,7,1 \\)</p>",
+            "<p>\\( 10,9,6,7,5,13 \\)</p>",
+            "<p>\\( 9,5,13,6,10,14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10,9,6,7,5,13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357404/gate-cse-2021-set-1-question-47\" target=\"_blank\">https://gateoverflow.in/357404/gate-cse-2021-set-1-question-47</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"371930\"></a><div itemprop=\"text\"><p>​​​Suppose we are given \\( n \\) keys, \\( m \\) hash table slots, and two simple uniform hash functions \\( h_{1} \\) and \\( h_{2}. \\) Further suppose our hashing scheme uses&nbsp;\\( h_{1} \\) for the odd keys and&nbsp; \\( h_{2} \\) for the even keys. What is the expected number of keys in a slot?</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{m}{n} \\)</p>",
+            "<p>\\( \\frac{n}{m} \\)</p>",
+            "<p>\\( \\frac{2n}{m} \\)</p>",
+            "<p>\\( \\frac{n}{2m} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{n}{m} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371930/gate-cse-2022-question-6\" target=\"_blank\">https://gateoverflow.in/371930/gate-cse-2022-question-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"399302\"></a><div itemprop=\"text\"><p>An algorithm has to store several keys generated by an adversary in a hash table. The adversary is malicious who tries to maximize the number of collisions. Let \\( k \\) be the number of keys, \\( m \\) be the number of slots in the hash table, and \\( k&gt;m \\).</p>\n\n<p>Which one of the following is the best hashing strategy to counteract the adversary?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Division method, i.e., use the hash function \\( h(k)=k \\bmod m \\).</p>",
+            "<p>Multiplication method, i.e., use the hash function \\( h(k)=\\lfloor m(k A-\\lfloor k A\\rfloor)\\rfloor \\), where \\( A \\) is a carefully chosen constant.</p>",
+            "<p>Universal hashing method.</p>",
+            "<p>If \\( k \\) is a prime number, use Division method. Otherwise, use Multiplication method.</p>"
+          ],
+          "correct_answer": "<p>Universal hashing method.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399302/gate-cse-2023-question-10\" target=\"_blank\">https://gateoverflow.in/399302/gate-cse-2023-question-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3761\"></a><div itemprop=\"text\"><p>A hash table contains \\( 10 \\) buckets and uses linear probing to resolve collisions. The key values are integers and the hash function used is \\( \\text{key}\\%10 \\). If the values \\( 43, 165, 62, 123, 142 \\) are inserted in the table, in what location would the key value \\( 142 \\) be inserted?</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3761/gate-it-2005-question-16\" target=\"_blank\">https://gateoverflow.in/3761/gate-it-2005-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

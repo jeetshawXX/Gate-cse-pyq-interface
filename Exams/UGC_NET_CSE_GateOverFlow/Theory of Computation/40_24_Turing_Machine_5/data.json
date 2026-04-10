@@ -1,0 +1,86 @@
+{
+  "title": "Theory of Computation - Turing Machine",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Turing Machine",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71610\"></a><div itemprop=\"text\"><p>Given a Turing Machine</p><p>\\( M = ({q_{0} , q_{1} }, {0, 1}, {0, 1, B}, \\delta, B, {q_{1} }) \\)&nbsp;</p><p>Where δ is a transition function defined as</p><p>\\( \\delta(q_{0}, 0) = (q_{0}, 0, R) \\)</p><p>\\( \\delta(q_{0}, B) = (q_{1}, B, R) \\)&nbsp;</p><p>The language \\( L(M) \\) accepted by Turing machine is given as :</p></div><br><br><b>Theory of Computation: UGC NET CSE | August 2016 | Part 3 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0^{*}&nbsp;1^{*} \\)</p>",
+            "<p>\\( 00^{*} \\)</p>",
+            "<p>\\( 10^{*} \\)</p>",
+            "<p>\\( 1^{*}0^{*} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71610/ugc-net-cse-august-2016-part-3-question-56\" target=\"_blank\">https://gateoverflow.in/71610/ugc-net-cse-august-2016-part-3-question-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"114284\"></a><div itemprop=\"text\"><p>Which of the following pairs have different expressive power?</p></div><br><br><b>Theory of Computation: UGC NET CSE | January 2017 | Part 3 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Single-tape-turing machine and multi-dimensional turing machine</p>",
+            "<p>Multi-tape-turing machine and multi-dimensional turing machine</p>",
+            "<p>Deterministic push down automata and non-deterministic push down automata</p>",
+            "<p>Deterministic finite automata and non-deterministic finite automata</p>"
+          ],
+          "correct_answer": "<p>Deterministic push down automata and non-deterministic push down automata</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/114284/ugc-net-cse-january-2017-part-3-question-62\" target=\"_blank\">https://gateoverflow.in/114284/ugc-net-cse-january-2017-part-3-question-62</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"63981\"></a><div itemprop=\"text\"><p>Given a Turing Machine</p><p>\\( M=(\\{q_0, q_1, q_2, q_3\\}, \\{a,b\\}, \\{a, b, B\\}, \\delta, B, \\{q_3\\}) \\)</p><p>where \\( \\delta \\) is a atransaction function defined as</p><p>\\( \\delta(q_0,a)=(q_1, a, R) \\)</p><p>\\( \\delta(q_1, b)=(q_2, b, R) \\)</p><p>\\( \\delta(q_2, a)=(q_2, a, R) \\)</p><p>\\( \\delta(q_2,b)=(q_3, b, R) \\)</p><p>The language L(M) accepted by the Turing machine is given as:</p></div><br><br><b>Theory of Computation: UGC NET CSE | July 2016 | Part 3 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>aa*b</p>",
+            "<p>abab</p>",
+            "<p>aba*b</p>",
+            "<p>aba*</p>"
+          ],
+          "correct_answer": "<p>aba*b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63981/ugc-net-cse-july-2016-part-3-question-57\" target=\"_blank\">https://gateoverflow.in/63981/ugc-net-cse-july-2016-part-3-question-57</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"225846\"></a><div itemprop=\"text\"><p>Consider the following statements( ):</p><p>\\( S_1 \\): There exist no algorithm for deciding if any two Turing machine \\( M_1 \\) and \\( M_2 \\) accept the same language</p><p>\\( S_2 \\): The problem of determining whether a Turing machine halts on any input is undecidable</p><p>Which one of the following options is correct?</p></div><br><br><b>Theory of Computation: UGC NET CSE | July 2018 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not correct</p>",
+            "<p>Only \\( S_1 \\) is correct</p>",
+            "<p>Only \\( S_2 \\) is correct</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225846/ugc-net-cse-july-2018-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/225846/ugc-net-cse-july-2018-part-2-question-40</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"316199\"></a><div itemprop=\"text\"><p>For a statement</p><p>A language \\( L \\subseteq \\Sigma^* \\) is recursive if there exists some turing machine \\( M \\). Which of the following conditions is satisfied for any string \\( \\omega \\)?</p></div><br><br><b>Theory of Computation: UGC NET CSE | June 2019 | Part 2 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If \\( \\omega \\in L \\), then \\( M \\) accepts \\( \\omega \\) and \\( M \\) will not halt</p>",
+            "<p>If \\( \\omega \\notin L \\), then \\( M \\) accepts \\( \\omega \\) and \\( M \\) will halt by reaching at final state</p>",
+            "<p>If \\( \\omega \\notin L \\), then \\( M \\) halts without reaching to acceptable state</p>",
+            "<p>If \\( \\omega \\in L \\),&nbsp;then \\( M \\) halts without reaching to an acceptable state</p>"
+          ],
+          "correct_answer": "<p>If \\( \\omega \\notin L \\), then \\( M \\) halts without reaching to acceptable state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316199/ugc-net-cse-june-2019-part-2-question-80\" target=\"_blank\">https://gateoverflow.in/316199/ugc-net-cse-june-2019-part-2-question-80</a></p>"
+        }
+      ]
+    }
+  ]
+}

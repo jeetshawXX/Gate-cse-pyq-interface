@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Probability - Joint Distribution",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Joint Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"288277\"></a><div itemprop=\"text\"><p>A full joint distribution for the Toothache, Cavity and Catch is given in the table below.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td colspan=\"1\" rowspan=\"2\">&nbsp;</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">Toothache</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">\\( \\neg \\) Toothache</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Catch</td>\n\t\t\t<td>\\( \\neg \\) Catch</td>\n\t\t\t<td>Catch</td>\n\t\t\t<td>\\( \\neg \\) Catch</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cavity</td>\n\t\t\t<td>\\( 0.108 \\)</td>\n\t\t\t<td>\\( 0.012 \\)</td>\n\t\t\t<td>\\( 0.072 \\)</td>\n\t\t\t<td>\\( 0.008 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( \\neg \\) Cavity</td>\n\t\t\t<td>\\( 0.016 \\)</td>\n\t\t\t<td>\\( 0.064 \\)</td>\n\t\t\t<td>\\( 0.144 \\)</td>\n\t\t\t<td>\\( 0.576 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What is the probability of Cavity, given evidence of Toothache?</p>\n\n</div><br><br><b>Probability: UGC NET CSE | December 2018 | Part 2 | Question: 100</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\langle 0.2, 0.8\\rangle \\)</p>",
+            "<p>\\( \\langle 0.4, 0.8\\rangle \\)</p>",
+            "<p>\\( \\langle 0.6, 0.8\\rangle \\)</p>",
+            "<p>\\( \\langle 0.6, 0.4\\rangle \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288277/ugc-net-cse-december-2018-part-2-question-100\" target=\"_blank\">https://gateoverflow.in/288277/ugc-net-cse-december-2018-part-2-question-100</a></p>"
+        }
+      ]
+    }
+  ]
+}

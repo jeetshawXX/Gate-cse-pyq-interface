@@ -1,0 +1,226 @@
+{
+  "title": "Database_Management_System - Database_Management_System - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the schema \\(R(A,B,C,D)\\) and the functional dependencies \\(A \\rightarrow B\\) and \\(C \\rightarrow D\\).  If the decomposition is made as \\(R_{1}(A, B)\\) and \\(R_{2}(C, D)\\), then which of the following is TRUE? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preserves dependency but cannot perform lossless join</p>",
+            "<b>B.</b> <p>Preserves dependency and performs lossless join</p>",
+            "<b>C.</b> <p>Does not perform dependency and cannot perform lossless join</p>",
+            "<b>D.</b> <p>Does not preserve dependency but perform lossless join</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Preserves dependency but cannot perform lossless join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17319/isro2014-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>An aggregation association is drawn using which symbol? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A line which loops back on to the same table</p>",
+            "<b>B.</b> <p>A small open diamond at the end of a line connecting two tables</p>",
+            "<b>C.</b> <p>A small closed diamond at the end of a line connecting two tables</p>",
+            "<b>D.</b> <p>A small closed triangle at the end of a line connecting two tables</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A small open diamond at the end of a line connecting two tables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54244/isro2014-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following relational schema: <br>\nEmployee (empId, empName, empDept ) <br>\nCustomer (custId,custName, salesRepId, rating)<br>\nSalesRepId is a foreign key referring to empId of the employee relation. Assume that each\nemployee makes a sale to at least one customer. What does the following query return?<br><pre><code>SELECT empName \nFROM employee E \n WHERE NOT EXISTS (SELECT custId\nFROM customer C\nWHERE C. salesRepId = E. empId\nAND C. rating &lt; &gt; 'GOOD')</code></pre> <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Names of all the employees with at least one of their customers having a 'GOOD' rating</p>",
+            "<b>B.</b> <p>Names of all the employees with at most one of their customers having a 'GOOD' rating.</p>",
+            "<b>C.</b> <p>Names of all the employees with none of their customers having a 'GOOD' rating.</p>",
+            "<b>D.</b> <p>Names of all the employees with all their customers having a 'GOOD' rating.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Names of all the employees with all their customers having a 'GOOD' rating.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2089/gate2014-3-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the relational schema given below, where eId of the relation dependentis a foreign key referring to empId of the relation employee. Assume that every employee has at least one associated dependent in the dependent relation. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q30_1c9e79a8.jpg\">  <br>\nThe above query evaluates to the set of empIds of employees whose age is greater than that of <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>some dependent</p>",
+            "<b>B.</b> <p>all dependents</p>",
+            "<b>C.</b> <p>some of his/her dependents</p>",
+            "<b>D.</b> <p>all of his/her dependents</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>all of his/her dependents</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2064/gate2014-3-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the transactions T1, T2, and T3 and the schedules S1 and S2 given below. <br>\nT1 : r1(x); r1(Z) ; w1(x); w1(Z) <br>\nT2 : r2(x); r2(Z); w2(Z) <br>\nT3 : r3(x); r3(x); w3(Y)<br> <br>\nS1: r1(x); r3(Y); r3(x); r2(Y); r2(Z); w3(Y); w2(Z); r1(Z); w1(x); w1(Z) <br>\nS2: r1(x); r3(Y); r2(Y); r3(x); r1(Z); r2(Z); w3(Y); w1(x); w2(Z); w1(Z) <br>\nWhich one of the following statements about the schedules is TRUE? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is conflict-serializable</p>",
+            "<b>B.</b> <p>Only S2 is conflict-serializable.</p>",
+            "<b>C.</b> <p>Both S1 and S2 are conflict-serializable</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is conflict-serializable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only S1 is conflict-serializable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2063/gate2014-3-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A prime attribute of a relation scheme R is an attribute that appears <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in all candidate keys of R.</p>",
+            "<b>B.</b> <p>in some candidate key of R.</p>",
+            "<b>C.</b> <p>in a foreign keys of R</p>",
+            "<b>D.</b> <p>only in the primary key of R.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>in some candidate key of R.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2056/gate2014-3-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the optimized version of the relation algebra expression  \\(\\pi _{A1}(\\pi _{A2}(\\sigma _{F1}(\\sigma_{F2}(r))))\\) , where A1, A2 are sets of attributes in r with \\(A_{1}\\subset A_{2}\\) and F1, F2 are Boolean expressions based on the attributes in r? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\pi _{A1}(\\sigma_{(F1 \\wedge F2)}(r))\\)</p>",
+            "<b>B.</b> <p>\\(\\pi _{A1}(\\sigma_{(F1\\vee F2)}(r))\\)</p>",
+            "<b>C.</b> <p>\\(\\pi _{A2}(\\sigma_{(F1\\wedge F2)}(r))\\)</p>",
+            "<b>D.</b> <p>\\(\\pi _{A2}(\\sigma_{(F1 \\vee F2)}(r))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\pi _{A1}(\\sigma_{(F1 \\wedge F2)}(r))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2055/gate2014-3-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>SQL allows duplicate tuples in relations, and correspondingly defines the multiplicity of\ntuples in the result of joins. Which one of the following queries always gives the same answer\nas the nested query shown below: <br>\nSelect * from R where a in (select S. a from S) <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Select R. * from R, S where R. a=S. a</p>",
+            "<b>B.</b> <p>Select distinct R. * from R,S where R. a=S. a</p>",
+            "<b>C.</b> <p>Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a</p>",
+            "<b>D.</b> <p>Select R. * from R, S where R.a = S. a and is unique R</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2021/gate2014-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a join (relation algebra) between relations r(R)and s(S) using the nested loop\nmethod. There are 3 buffers each of size equal to disk block size, out of which one buffer is\nreserved for intermediate results. Assuming size(r(R))\\(\\lt\\)size(s(S)), the join will have fewer\nnumber of disk block accesses if <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>relation r(R) is in the outer loop.</p>",
+            "<b>B.</b> <p>relation s(S) is in the outer loop</p>",
+            "<b>C.</b> <p>join selection factor between r(R) and s(S) is more than 0.5.</p>",
+            "<b>D.</b> <p>join selection factor between r(R) and s(S) is less than 0.5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>relation r(R) is in the outer loop.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1989/gate2014-2-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following schedule S of transactions T1, T2, T3, T4: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q29_87119e6e.jpg\"> <br> Which one of the following statements is CORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S is conflict-serializable but not recoverable</p>",
+            "<b>B.</b> <p>S is not conflict-serializable but is recoverable</p>",
+            "<b>C.</b> <p>S is both conflict-serializable and recoverable</p>",
+            "<b>D.</b> <p>S is neither conflict-serializable nor is it recoverable</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S is both conflict-serializable and recoverable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1988/gate2014-2-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Given an instance of the STUDENTS relation as shown below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q22_4febd6f8.jpg\"><br> For (StudentName, StudentAge) to be a key for this instance, the value x should NOT be\nequal to_______. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1980/gate2014-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The maximum number of super keys for the relation schema R (E, F, G, H) with E as the key\nis __________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1978/gate2014-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Given the following schema:<br>\nemployees(emp-id, first-name, last-name, hire-date, dept-id, salary)  <br>\ndepartments(dept-id, dept-name, manager-id, location-id)<br>\nYou want to display the last names and hire dates of all latest hires in their respective\ndepartments in the location ID 1700. You issue the following query: <br><pre><code> SQL&gt;SELECT last-name, hire-date\nFROM employees\nWHERE (dept-id, hire-date) IN\n(SELECT dept-id, MAx(hire-date)\nFROM employees JOIN departments USING(dept-id)\nWHERE location-id = 1700\nGROUP BY dept-id); </code></pre>\nWhat is the outcome? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It executes but does not give the correct result</p>",
+            "<b>B.</b> <p>It executes and gives the correct result.</p>",
+            "<b>C.</b> <p>It generates an error because of pairwise comparison.</p>",
+            "<b>D.</b> <p>It generates an error because the GROUP BY clause cannot be used with table joins in a sub-query</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It executes and gives the correct result.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1934/gate2014-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Given the following two statements: <br>\nS1: Every table with two single-valued attributes is in 1NF, 2NF, 3NF and BCNF <br>\nS2 : AB\\(\\rightarrow\\)C, D\\(\\rightarrow\\) E, E\\(\\rightarrow\\)C is a minimal cover for the set of functional dependencies AB\\(\\rightarrow\\)C, D\\(\\rightarrow\\)E, AB\\(\\rightarrow\\) E,E\\(\\rightarrow\\)C. <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is TRUE and S2 is FALSE</p>",
+            "<b>B.</b> <p>Both S1 and S2 are TRUE.</p>",
+            "<b>C.</b> <p>S1 is FALSE and S2 is TRUE.</p>",
+            "<b>D.</b> <p>Both S1 and S2 are FALSE.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1 is TRUE and S2 is FALSE</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1797/gate2014-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following four schedules due to three transactions (indicted by the subscript)\nusing read and write on a data item x, denoted by  r(x) and w(x) respectively. Which one of\nthem is conflict serializable? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>r1(x); r2(x); w1(x); r3(x);  w2(x)</p>",
+            "<b>B.</b> <p>r2(x);  r1(x);  w2(x);  r3(x);  w1(x)</p>",
+            "<b>C.</b> <p>r3(x); r2(x); r1(x); w2(x);  w1(x)</p>",
+            "<b>D.</b> <p>r2(x); w2(x); r3(x); r1(x); w1(x)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>r2(x); w2(x); r3(x); r1(x); w1(x)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1796/gate2014-1-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

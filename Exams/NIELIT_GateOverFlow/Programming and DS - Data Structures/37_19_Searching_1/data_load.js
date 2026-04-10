@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Searching",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Searching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369358\"></a><div itemprop=\"text\"><p>If a hash table is implemented as a search tree, the expected time required to enter \\( \\text{n} \\) names and make \\( \\text{m} \\) searches is proportional to :</p>\n\n</div><br><br><b>Data Structures: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(n+m)} \\log_{2} \\text{n} \\)</p>",
+            "<p>\\( \\text{(n+m)} \\log_{2} \\text{m} \\)</p>",
+            "<p>\\( \\text{mn} \\log_{2} \\text{n} \\)</p>",
+            "<p>\\( \\text{mn} \\log_{2} \\text{m} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(n+m)} \\log_{2} \\text{n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369358/nielit-2021-dec-scientist-a-section-b-55\" target=\"_blank\">https://gateoverflow.in/369358/nielit-2021-dec-scientist-a-section-b-55</a></p>"
+        }
+      ]
+    }
+  ]
+});

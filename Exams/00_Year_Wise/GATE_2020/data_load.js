@@ -1,0 +1,876 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2020",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "questions": [
+        {
+          "id": 56,
+          "question": "<p>Raman is confident of speaking English _______six months as he has been practising regularly_______the last three weeks.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>during, for</p>",
+            "<b>B.</b> <p>for, since</p>",
+            "<b>C.</b> <p>for, in</p>",
+            "<b>D.</b> <p>within, for</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>within, for</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333240/gate-cse-2020-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>His knowledge of the subject was excellent but his classroom performance was_______.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>extremely poor</p>",
+            "<b>B.</b> <p>good</p>",
+            "<b>C.</b> <p>desirable</p>",
+            "<b>D.</b> <p>praiseworthy</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>extremely poor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333239/gate-cse-2020-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Select the word that fits the analogy:\n<br><br>\nCook : Cook :: Fly : _______</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Flyer</p>",
+            "<b>B.</b> <p>Flying</p>",
+            "<b>C.</b> <p>Flew</p>",
+            "<b>D.</b> <p>Flighter</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Flyer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333238/gate-cse-2020-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>The dawn of the 21st century witnessed the melting glaciers oscillating between giving too much and too little to billions of people who depend on them for fresh water. The UN climate report estimates that without deep cuts to man-made emissions, at least 30% of the northern hemisphere's surface permafrost could melt by the end of the century. Given this situation of imminent global exodus of billions of people displaced by rising seas, nation-states need to rethink their carbon footprint for political concerns, if not for environmental ones.<br><br>Which one of the following statements can be inferred from the given passage?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Nation-states do not have environmental concerns.</p>",
+            "<b>B.</b> <p>Nation-states are responsible for providing fresh water to billions of people.</p>",
+            "<b>C.</b> <p>Billions of people are responsible foe man-made emissions.</p>",
+            "<b>D.</b> <p>Billions of people are affected by melting glaciers.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Billions of people are affected by melting glaciers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333237/gate-cse-2020-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>There are multiple routes to reach from node 1 to node 2, as shown in the network.   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q60_6c5cda18.jpg\"><br>\nThe cost of travel on an edge between two nodes is given in rupees. Nodes 'a', 'b', 'c', 'd', 'e', and 'f' are toll booths. The toll price at toll booths marked 'a' and 'e' is Rs. 200, and is Rs. 100 for the other toll booths. Which is the cheapest route from node 1 to node 2?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 - a - c - 2</p>",
+            "<b>B.</b> <p>1 - f - b - 2</p>",
+            "<b>C.</b> <p>1 - b - 2</p>",
+            "<b>D.</b> <p>1 - f - e - 2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 - f - b - 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333236/gate-cse-2020-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>Goods and Services Tax (GST) is an indirect tax introduced in India in 2017 that is imposed on the supply of goods and services, and it subsumes all indirect taxes except few. It is a destination-based tax imposed on goods and services used, and it is not imposed at the point of origin from where goods come. GST also has a few components specific to state governments, central government  and Union Territories (UTs).<br><br>Which one of the following statements can be inferred from the given passage?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>GST is imposed on the production of goods and services.</p>",
+            "<b>B.</b> <p>GST includes all indirect taxes.</p>",
+            "<b>C.</b> <p>GST does not have a component specific to UT.</p>",
+            "<b>D.</b> <p>GST is imposed at the point of usage of goods and services.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>GST is imposed at the point of usage of goods and services.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333235/gate-cse-2020-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>If P=3, R=27, T=243, then Q + S = ________</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>40</p>",
+            "<b>B.</b> <p>80</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>90</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333234/gate-cse-2020-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>The figure below shows an annular ring with outer and inner as b and a, respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum n number of circles can be painted, then the unpainted area available in annular space is _____.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q63_8037d24a.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]\\)</p>",
+            "<b>B.</b> <p>\\(\\pi [(b^{2}-a^{2})-n(b-a)^{2}]\\)</p>",
+            "<b>C.</b> <p>\\(\\pi [(b^{2}-a^{2})+\\frac{n}{4}(b-a)^{2}]\\)</p>",
+            "<b>D.</b> <p>\\(\\pi [(b^{2}-a^{2})+n(b-a)^{2}]\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333233/gate-cse-2020-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Two straight lines are drawn perpendicular to each other in X-Y plane. If \\(\\alpha\\) and \\(\\beta\\) are the acute angles the straight lines make with the X-axis, then \\(\\alpha +\\beta\\) is ________.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(60^{\\circ}\\)</p>",
+            "<b>B.</b> <p>\\(90^{\\circ}\\)</p>",
+            "<b>C.</b> <p>\\(120^{\\circ}\\)</p>",
+            "<b>D.</b> <p>\\(180^{\\circ}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(90^{\\circ}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333232/gate-cse-2020-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>The total revenue of a company during 2014 - 2018 is shown in the bar graph. If the total expenditure of the company in each year is 500 million rupees, then the aggregate profit or loss (in percentage) on the total expenditure of the company during 2014 - 2018 is ___________.  <br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q65_9dd6e5f8.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16.67%  profit</p>",
+            "<b>B.</b> <p>16.67%  loss</p>",
+            "<b>C.</b> <p>20%  profit</p>",
+            "<b>D.</b> <p>20%  loss</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>20%  profit</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333231/gate-cse-2020-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    },
+    {
+      "name": "Computer Science Engineer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the functions <br><br>I. \\(e^{-x}\\) <br>II. \\(x^2-\\sin x\\) <br>III. \\(\\sqrt{x^3+1}\\) <br> <br>\nWhich of the above functions is/are increasing everywhere in [0,1] ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>III only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I and III only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333230/gate2020-cs-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>For parameters a and b, both of which are \\(\\omega(1) , T(n)=T(n^{1/a})+1\\), and \\(T(b)=1\\). Then \\(T(n)\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (\\log _a \\log_b n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (\\log _{ab} n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (\\log _b \\log_a n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (\\log _2 \\log_2 n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Theta (\\log _a \\log_b n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333229/gate2020-cs-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following statements.<br><br>\nI. Daisy chaining is used to assign priorities in attending interrupts.<br>\nII. When a device raises a vectored interrupt, the CPU does polling to identify the source of interrupt.<br>\nIII. In polling,the CPU periodically checks the status bits to know if any device needs its attention.<br>\nIV. During DMA, both the CPU and DMA controller can be bus masters at the same time.<br><br>\nWhich of the above statements is/are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>III only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333228/gate2020-cs-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following data path diagram. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q4_f58f93bb.jpg\"><br> Consider an instruction: \\(R0\\leftarrow R1+R2\\). The following steps are used to execute it over the given data path. Assume that PC is incremented appropriately. The subscripts r and w indicate read and write operations, respectively. <br><br>\n\\(1. \\; R2_r,TEMP1_r,ALU_{add},TEMP2_w\\)  <br>  \\(2. \\; R1_r,TEMP1_w\\) <br> \\(3. \\; PC_r,MAR_w,MEM_r\\)  <br>\\(4. \\; TEMP2_r,R0_w\\) <br> \\(5. \\; MDR_r,IR_w\\)<br><br>\nWhich one of the following is the correct order of execution of the above steps?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,1,4,5,3</p>",
+            "<b>B.</b> <p>1,2,4,3,5</p>",
+            "<b>C.</b> <p>3,5,2,1,4</p>",
+            "<b>D.</b> <p>3,5,1,2,4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3,5,2,1,4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333227/gate2020-cs-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The preorder traversal of a binary search tree is 15,10,12,11,20,18,16,19. Which one of the following is the postorder traversal of the tree?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10,11,12,15,16,18,19,20</p>",
+            "<b>B.</b> <p>11,12,10,16,19,18,20,15</p>",
+            "<b>C.</b> <p>20,19,18,16,15,12,11,10</p>",
+            "<b>D.</b> <p>19,16,18,20,11,12,10,15</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>11,12,10,16,19,18,20,15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333226/gate2020-cs-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the worst case time complexity of inserting \\(n^2\\) elements into an AVL-tree with n elements initially?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n^4)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n^2)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^2 \\log n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^3)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (n^2 \\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333225/gate2020-cs-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following regular expressions represents the set of all binary strings with an odd number of 1's?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((0+1)^* 1(0+1)^*1)^*10^*\\)</p>",
+            "<b>B.</b> <p>\\((0^*10^*10^*)^*0^*1\\)</p>",
+            "<b>C.</b> <p>\\(10^*(0^*10^*10^*)^*\\)</p>",
+            "<b>D.</b> <p>\\((0^*10^*10^*)^*10^*\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((0^*10^*10^*)^*10^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "As per Official GATE CSE 2020 Answer key _MTA (Marks to All)<br><a href=\"https://gateoverflow.in/333224/gate2020-cs-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following statements.<br><br>\nI.  If \\(L_1\\cup L_2\\) is regular, then both \\(L_1 \\; and \\; L_2\\) must be regular.<br>\nII. The class of regular languages is closed under infinite union.<br><br>\nWhich of the above statements is/are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither I nor II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333223/gate2020-cs-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following statements.<br><br>\nI. Symbol table is accessed only during lexical analysis and syntax analysis.<br>\nII. Compilers for programming languages that support recursion necessarily need heap storage for memory allocation in the run-time environment.<br>\nIII. Errors violating the condition 'any variable must be declared before its use' are detected during syntax analysis.<br><br>\nWhich of the above statements is/are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>None of I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333222/gate2020-cs-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the language \\(L=\\{a^n|n\\geq 0\\}\\cup \\{a^nb^n|n\\geq 0\\}\\) and the following statements. <br><br>\nI. L is deterministic context-free.<br>\nII. L is context-free but not deterministic context-free.<br>\nIII. L is not LL(k) for any k.<br><br>\nWhich of the above statements is/are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>III only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333221/gate2020-cs-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider allocation of memory to a new process. Assume that none of the existing holes in the memory will exactly fit the process's memory requirement. Hence, a new hole of smaller size will be created if allocation is made in any of the existing holes. Which one of the following statement is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The hole created by first fit is always larger than the hole created by next fit.</p>",
+            "<b>B.</b> <p>The hole created by worst fit is always larger than the hole created by first fit.</p>",
+            "<b>C.</b> <p>The hole created by best fit is never larger than the hole created by first fit.</p>",
+            "<b>D.</b> <p>The hole created by next fit is never larger than the hole created by best fit.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The hole created by best fit is never larger than the hole created by first fit.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333220/gate2020-cs-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following statements about process state transitions for a system using preemptive scheduling. <br><br>\nI. A running process can move to ready state.<br>\nII. A ready process can move to running state.<br>\nIII. A blocked process can move to running state.<br>\nIV. A blocked process can move to ready state.<br><br>\nWhich of the above statements are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and III only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I, II and IV only</p>",
+            "<b>D.</b> <p>I, II, III and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I, II and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333219/gate2020-cs-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a relational database containing the following schemas. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q13_00d62b79.jpg\"><br>The primary key of each table is indicated by underlining the constituent fields.<pre><code> SELECT s.sno, s.sname\n    FROM Suppliers s, Catalogue c\n    WHERE s.sno=c.sno AND\n        cost &gt; (SELECT AVG (cost)\n                FROM Catalogue\n                WHERE pno = 'P4'\n                GROUP BY pno) ;</code></pre><br>The number of rows returned by the above SQL query is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333218/gate2020-cs-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which one of the following is used to represent the supporting many-one relationships of a weak entity set in an entity-relationship diagram?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Diamonds with double/bold border</p>",
+            "<b>B.</b> <p>Rectangles with double/bold border</p>",
+            "<b>C.</b> <p>Ovals with double/bold border</p>",
+            "<b>D.</b> <p>Ovals that contain underlined identifiers</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Diamonds with double/bold border</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333217/gate2020-cs-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following statements about the functionality of an IP based router.<br><br>\nI.    A router does not modify the IP packets during forwarding.<br>\nII.   It is not necessary for a router to implement any routing protocol.<br>\nIII.  A router should reassemble IP fragments if the MTU of the outgoing link is larger than the size of the incoming IP packet.<br><br>\nWhich of the above statements is/are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333216/gate2020-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>What is the worst case time complexity of inserting n elements into an empty linked list, if the linked list needs to be maintained in sorted order?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n \\log n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^2)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (1)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (n^2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333215/gate2020-cs-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Let \\(R\\) be the set of all binary relations on the set {1,2,3}. Suppose a relation is chosen from \\(R\\) at random. The probability that the chosen relation is reflexive (round off to 3 decimal places) is ______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.125",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333214/gate2020-cs-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Let G be a group of 35 elements. Then the largest possible size of a subgroup of G other than G itself is _______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333213/gate2020-cs-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>A multiplexer is placed between a group of 32 registers and an accumulator to regulate data movement such that at any given point in time the content of only one register will move to the accumulator. The number of select lines needed for the multiplexer is ______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333212/gate2020-cs-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>If there are m input lines and n output lines for a decoder that is used to uniquely address a byte addressable 1 KB RAM, then the minimum value of m+n is ________ .</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1034",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333211/gate2020-cs-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>A direct mapped cache memory of 1 MB has a block size of 256 bytes. The cache has an access time of 3 ns and a hit rate of 94%. During a cache miss, it takes 20 ns to bring the first word of a block from the main memory, while each subsequent word takes 5 ns. The word size is 64 bits. The average memory access time in ns (round off to 1 decimal place) is______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "Other Answer as per GATE 2020 Answer Key : 13.3 to 13.3 or 13.5 to 13.5 <br><a href=\"https://gateoverflow.in/333210/gate2020-cs-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider the following C program.<pre><code>    #include &lt; stdio.h &gt;\n    int main ()  {\n        int  a[4] [5] = {{1, 2, 3, 4, 5},\n                        {6, 7,8, 9, 10},\n                        {11, 12, 13, 14, 15},\n                        {16, 17,18, 19, 20}};\n        printf(\"%d\\n\", *(*(a+**a+2)+3));\n        return(0);\n    }</code></pre>The output of the program is _______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333209/gate2020-cs-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider a double hashing scheme in which the primary hash function is \\(h_1(k)=k\\; mod \\; 23\\), and the secondary hash function is \\(h_2(k)=1+(k\\; mod \\; 19)\\). Assume that the table size is 23. Then the address returned by probe 1 in the probe sequence (assume that the probe sequence begins at probe 0) for key value k=90 is_____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333208/gate2020-cs-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider the following  grammar. <br><br>\\(S\\rightarrow aSB|d\\) <br> \\(B\\rightarrow b\\)<br><br> The number of reduction steps taken by a bottom-up parser while accepting the string \\(aaadbbb\\) is___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333207/gate2020-cs-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Assume that you have made a request for a web page through your web browser to a web server. Initially the browser cache is empty. Further, the browser is configured to send HTTP requests in non-persistent mode. The web page contains text and five very small images.The minimum number of TCP connections required to display the web page completely in your browser is__________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333206/gate2020-cs-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Which of the following languages are undecidable? Note that \\(\\left \\langle M \\right \\rangle\\) indicates encoding of the Turing machine \\(M\\). <br><br> \\(L_1=\\{\\left \\langle M \\right \\rangle|L(M)=\\varnothing \\}\\)<br> \\(L_2=\\){\\(\\left \\langle M,w,q \\right \\rangle|M\\) on input w reaches state q in exactly 100 steps} <br>\\(L_3=\\{\\left \\langle M \\right \\rangle|L(M) \\;is \\; not \\; recursive\\}\\) <br> \\(L_4=\\{\\left \\langle M \\right \\rangle|L(M) \\;contains \\; at \\; least\\; 21 \\; members\\}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1,L_3 \\; and \\; L_4 \\; only\\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\; and \\; L_3 \\; only\\)</p>",
+            "<b>C.</b> <p>\\(L_2 \\; and \\; L_3 \\; only\\)</p>",
+            "<b>D.</b> <p>\\(L_2,L_3 \\; and \\; L_4 \\; only\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L_1,L_3 \\; and \\; L_4 \\; only\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333205/gate2020-cs-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Let A and B be two nxn matrices over real numbers. Let rank(M) and det(M) denote the rank and determinant of a matrix M, respectively. Consider the following statements. <br><br>\nI.    rank(AB)=rank (A)rank (B)<br>\nII.  det(AB)=det(A)det(B)<br>\nIII. rank(A+B) \\(\\leq\\) rank (A) + rank (B)<br>\nIV. det(A+B) \\(\\leq\\) det(A) + det(B)<br><br>\nWhich of the above statements are TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>III and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333204/gate2020-cs-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the Boolean function \\(z(a,b,c)\\). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q28_487c809f.jpg\"><br>Which one of the following minterm lists represents the circuit given above?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(z=\\Sigma (0,1,3,7)\\)</p>",
+            "<b>B.</b> <p>\\(z=\\Sigma (1,4,5,6,7)\\)</p>",
+            "<b>C.</b> <p>\\(z=\\Sigma (2,4,5,6,7)\\)</p>",
+            "<b>D.</b> <p>\\(z=\\Sigma (2,3,5)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(z=\\Sigma (1,4,5,6,7)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333203/gate2020-cs-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider three registers R1, R2, and R3 that store numbers in IEEE-754 single precision floating point format. Assume that R1 and R2 contain the values (in hexadecimal notation) 0x42200000 and 0xC1200000, respectively. <br><br>\nIf \\(R3=\\frac{R1}{R2}\\), what is the value stored in R3?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0x40800000</p>",
+            "<b>B.</b> <p>0xC0800000</p>",
+            "<b>C.</b> <p>0x83400000</p>",
+            "<b>D.</b> <p>0xC8500000</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0xC0800000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333202/gate2020-cs-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>A computer system with a word length of 32 bits has a 16 MB byte- addressable main memory and a 64 KB, 4-way set associative cache memory with a block size of 256 bytes. Consider the following four physical addresses represented in hexadecimal notation.<br><br>\nA1=0x42C8A4,<br>\nA2=0x546888,<br>\nA3=0x6A289C,<br> A4=0x5E4880<br><br>\nWhich one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A1 and A4 are mapped to different cache sets.</p>",
+            "<b>B.</b> <p>A2 and A3 are mapped to the same cache set.</p>",
+            "<b>C.</b> <p>A3 and A4 are mapped to the same cache set.</p>",
+            "<b>D.</b> <p>A1 and A3 are mapped to the same cache set.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A2 and A3 are mapped to the same cache set.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333201/gate2020-cs-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Let  \\(G=(V,E)\\) be a weighted undirected graph and let T be a Minimum Spanning Tree (MST) of G maintained using adjacency lists. Suppose a new weighed edge \\((u,v)\\in V \\times V\\) is added to G. The worst case time complexity of determining if T is still an MST of the resultant graph is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (|E|+|V|)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (|E||V|)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (|E|\\log |V|)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (|V|)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta (|V|)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333200/gate2020-cs-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider the following languages. <br>\\(L_1=\\{wxyx|w,x,y \\in (0+1)^+\\}\\) <br>\\(L_2=\\{xy|x,y \\in (a+b)^*,|x|=|y|,x\\neq y\\}\\) <br> <br>Which one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1\\) is regular and \\(L_2\\) is context- free.</p>",
+            "<b>B.</b> <p>\\(L_1\\) context- free but not regular and \\(L_2\\) is context-free.</p>",
+            "<b>C.</b> <p>Neither \\(L_1\\) nor \\(L_2\\) is context- free.</p>",
+            "<b>D.</b> <p>\\(L_1\\) context- free but  \\(L_2\\) is not context-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L_1\\) is regular and \\(L_2\\) is context- free.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333199/gate2020-cs-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the productions \\(A\\rightarrow PQ\\) and \\(A\\rightarrow XY\\). Each of the five non-terminals A,P,Q,X, and Y has two attributes: s is a synthesized attribute, and i is an inherited attribute. Consider the following rules.<br><br>Rule 1: P.i=A.i+2, Q.i=P.i+A.i, and A.s=P.s+Q.s<br>Rule 2: X.i=A.i+Y.s and Y.i=X.s+A.i<br><br>Which one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both Rule 1 and Rule 2 are L-attributed.</p>",
+            "<b>B.</b> <p>Only Rule 1 is L-attributed.</p>",
+            "<b>C.</b> <p>Only Rule 2 is L-attributed.</p>",
+            "<b>D.</b> <p>Neither Rule 1 nor Rule 2 is L-attributed.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only Rule 1 is L-attributed.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333198/gate2020-cs-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Each of a set of n processes executes the following code using two semaphores a and b initialized to 1 and 0, respectively. Assume that count is a shared variable initialized to 0 and not used in CODE SECTION P.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q34_ded3142a.jpg\"><br> What does the code achieve?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It ensures that no process executes CODE SECTION Q before every process has finished CODE SECTION P.</p>",
+            "<b>B.</b> <p>It ensures that two processes are in CODE SECTION Q at any time.</p>",
+            "<b>C.</b> <p>It ensures that all processes execute CODE SECTION P mutually exclusively.</p>",
+            "<b>D.</b> <p>It ensures that at most n-1 processes are in CODE SECTION P at any time.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It ensures that no process executes CODE SECTION Q before every process has finished CODE SECTION P.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333197/gate2020-cs-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Consider the following five disk five disk access requests of the form (request id, cylinder number) that are present in the disk scheduler queue at a given time.<br><br>\n(P,155),(Q,85),(R,110),(S,30),(T,115)<br><br>\nAssume the head is positioned at cylinder 100. The scheduler follows Shortest Seek Time First scheduling to service the requests.\n<br><br>\nWhich one of the following statements is FALSE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T is serviced before P.</p>",
+            "<b>B.</b> <p>Q is serviced after S, but before T.</p>",
+            "<b>C.</b> <p>The head reverses its direction of movement between servicing of Q and P.</p>",
+            "<b>D.</b> <p>R is serviced before P.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Q is serviced after S, but before T.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333196/gate2020-cs-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider a relational table R that is in 3NF, but not in BCNF. Which one of the following statements is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a prime attribute.</p>",
+            "<b>B.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a non-prime attribute and X is not a proper subset of any key.</p>",
+            "<b>C.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a non-prime attribute and X is a proper subset of some key.</p>",
+            "<b>D.</b> <p>A cell in R holds a set instead of an atomic value.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>R has a nontrivial functional dependency \\(X\\rightarrow A\\), where X is not a superkey and A is a prime attribute.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333195/gate2020-cs-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider a schedule of transactions T1 and T2: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q37_7982b097.jpg\"><br>Here, RX stands for \"Read(X)\" and WX stands for \"Write(X)\". Which one of the following schedules is conflict equivalent to the above schedule?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q37a_8f7271d7.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333194/gate2020-cs-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization? <br><br>I.  202.61.84.0/21<br>II.  202.61.104.0/21<br>III. 202.61.64.0/21<br>IV.  202.61.144.0/21</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>III and IV only</p>",
+            "<b>D.</b> <p>I and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333193/gate2020-cs-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Which one of the following predicate formulae is NOT logically valid?\n<br>\nNote that W is a predicate formula without any free occurrence of x.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(p(x)\\vee W)\\equiv \\forall xp(x)\\vee W\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x(p(x)\\wedge W)\\equiv \\exists xp(x)\\wedge W\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\forall x(p(x)\\rightarrow W)\\equiv \\forall xp(x)\\rightarrow W\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333192/gate2020-cs-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Let \\(G=(V,E)\\) be a directed, weighed graph with weight function \\(w:E\\rightarrow \\mathbb{R}\\). For some function \\(f:V\\rightarrow \\mathbb{R}\\), for each edge \\((u,v) \\in E\\), define \\(w'(u,v)\\) as \\(w(u,v)+f(u)-f(v)\\). <br><br>\nWhich one of the options completes the following sentence so that it is TRUE?<br><br>\n\"The shortest paths in G under \\(w\\) are shortest paths under \\(w'\\) too,_________\".</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>for every \\(f:V\\rightarrow \\mathbb{R}\\)</p>",
+            "<b>B.</b> <p>if and only if \\(\\forall u \\in V,f(u)\\) is positive</p>",
+            "<b>C.</b> <p>if and only if \\(\\forall u \\in V,f(u)\\) is negative</p>",
+            "<b>D.</b> <p>if and only if f(u) is the distance from s to u in the graph obtained by adding a new vertex s to G and edges of zero weight from s to every verex of G</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>for every \\(f:V\\rightarrow \\mathbb{R}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333191/gate2020-cs-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>In a balanced binary search tree with n elements, what is the worst case time complexity of reporting all elements in range [a,b]? Assume that the number of reported elements is k.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (\\log n )\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (\\log n +k)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (k \\log n )\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n \\log k )\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (\\log n +k)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333190/gate2020-cs-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>The number of permutations of the characters in LILAC so that no character appears in its original position, if the two L's are indistinguishable, is ______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333189/gate2020-cs-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider a non-pipelined processor operating at 2.5 GHz. It takes 5 clock cycles to complete an instruction. You are going to make a 5-stage pipeline out of this processor. Overheads associated with pipelining force you to operate the pipelined processor at 2 GHz. In a given program, assume that 30% are memory instructions, 60% are ALU instructions and the rest are branch instructions. 5% of the memory instructions cause stalls of 50 clock cycles each due to cache misses and 50% of the branch instructions cause stalls of 2 cycles each. Assume that there are no stalls associated with the execution of ALU instructions. For this program, the speedup achieved by the pipelined processor over the non-pipelined processor (round off to 2 decimal places) is________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.15",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333188/gate2020-cs-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>A processor has 64 registers and uses 16-bit instruction format. It has two types of instructions: I-type and R-type. Each I-type instruction contains an opcode, a register name, and a 4-bit immediate value. Each R-type instruction contains an opcode and two register names. If there are 8 distinct I-type opcodes, then the maximum number of distinct R-type opcodes is _______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333187/gate2020-cs-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>For n\\(\\gt\\)2, let \\(a \\in \\{0,1\\}^n\\) be a non-zero vector. Suppose that x is chosen uniformly at random from \\(\\{0,1\\}^n\\). Then, the probability that \\(\\sum_{i=1}^{n}a_ix_i\\) is an odd number is______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333186/gate2020-cs-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Consider the following C functions.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q46_8e3cceff.jpg\"><br>The return value of fun2(5) is ______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "55",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333185/gate2020-cs-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Consider the array representation of a binary min-heap containing 1023 elements. The minimum number of comparisons required to find the maximum in the heap is ___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "511",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333184/gate2020-cs-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Consider the following C functions.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q48_1495b619.jpg\"><br>The value returned by pp(3,4) is _____</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "81",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333183/gate2020-cs-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Consider a graph \\(G=(V,E)\\), where \\(V=\\{v_1,v_2,...,v_{100}\\}\\), \\(E=\\{(v_i,v_j)|1\\leq i \\lt j\\leq 100\\}\\), and weight of the edge \\((v_i,v_j)\\; is \\; |i-j|\\). The weight of minimum spanning tree of G is _________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "99",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333182/gate2020-cs-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Consider the following set of processes, assumed to have arrived at time 0. Consider the CPU scheduling algorithms Shortest Job First (SJF) and Round Robin (RR). For RR, assume that the processes are scheduled in the order \\(P_1,P_2,P_3,P_4\\). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2020\\q50_bc55af2e.jpg\"><br>If the time quantum for RR is 4 ms, then the absolute value of the difference between the average turnaround times (in ms) of SJF and RR  (round off to 2 decimal places is_______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5.25",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333181/gate2020-cs-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider the following language.<br><br>\nL={\\(x \\in \\{a,b\\}^*|\\) number of a's in x divisible by 2 but not divisible by 3}<br><br>\nThe minimum number of states in DFA that accepts L is _______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333180/gate2020-cs-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Graph G is obtained by adding vertex s to \\(K_{3,4}\\) and making s adjacent to every vertex of \\(K_{3,4}\\). The minimum number of colours required to edge-colour G is _______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333179/gate2020-cs-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider a paging system that uses 1-level page table residing in main memory and a TLB for address translation. Each main memory access takes 100 ns and TLB lookup takes 20 ns. Each page transfer to/from the disk takes 5000 ns. Assume that the TLB hit ratio is 95%, page fault rate is 10%. Assume that for 20% of the total page faults, a dirty page has to be written back to disk before the required page is read from disk. TLB update time is negligible. The average memory access time in ns (round off to 1 decimal places) is ___________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "154.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333178/gate2020-cs-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider a database implemented using B+ tree for file indexing and installed on a disk drive with block size of 4 KB. The size of search key is 12 bytes and the size of tree/disk pointer is 8 bytes. Assume that the database has one million records. Also assume that no node of the B+ tree and no records are present initially in main memory. Consider that each record fits into one disk block. The minimum number of disk accesses required to retrieve any record in the database is _______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333177/gate2020-cs-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider a TCP connection between a client and a server with the following specifications; the round trip time is 6 ms, the size of the receiver advertised window is 50 KB, slow-start threshold at the client is 32 KB, and the maximum segment size is 2 KB. The connection is established at time t=0. Assume that there are no timeouts and errors during transmission. Then the size of the congestion window (in KB) at time t+60 ms after all acknowledgements are processed is _______</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "44",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333176/gate2020-cs-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

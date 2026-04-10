@@ -1,0 +1,86 @@
+{
+  "title": "Data_Structure - Hashing",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Hashing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In linear hashing, if blocking factor bfr, loading factor i and file buckets N are known, the number of records will be <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>r=i+bfr+N</p>",
+            "<b>B.</b> <p>r=i-bfr-N</p>",
+            "<b>C.</b> <p>r=i+bfr-N</p>",
+            "<b>D.</b> <p>r=i*bfr*N</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>r=i*bfr*N</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331276/isro2020-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A hash table with 10 buckets with one slot pet per bucket is depicted here. The symbols, S1 to S7 are initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is:<br>\\(\\begin{array}{|c|c|} \\hline 0 &amp; S 7 \\\\ \\hline 1 &amp; S 1 \\\\ \\hline 2 &amp; \\\\ \\hline 3 &amp; S 4 \\\\ \\hline 4 &amp; S 2 \\\\ \\hline 5 &amp; \\\\ \\hline 6 &amp; S 5 \\\\ \\hline 7 &amp; \\\\ \\hline 8 &amp; S 6 \\\\ \\hline 9 &amp; S 3 \\\\ \\hline \\end{array}\\) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213552/isro2018-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A Hash Function f defined as f(key)=keymod7. With linear probing while inserting the keys 37,38,72,48,98,11,56 into a table indexed from 0, in which location key 11 will be stored (Count table index 0 as \\(0^{th}\\) location)? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51315/isro2016-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols S1 to S7 initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Hashing\\q14_8c271a02.jpg\"><br> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/10905/gate1989-1-vii-isro2015-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a 13 element hash table for which f(key)=key mod 13 is used with integer keys. Assuming linear probing is used for collision resolution, at which location would the key 103 be inserted, if the keys 661, 182, 24 and 103 are inserted in that order? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55021/isro2014-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

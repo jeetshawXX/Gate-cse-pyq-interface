@@ -1,0 +1,116 @@
+{
+  "title": "Operating System - IO Handling",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "IO Handling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2724\"></a><div itemprop=\"text\"><p>Which of the following is an example of spooled device?</p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 1.20, ISRO2008-56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A line printer used to print the output of a number of jobs</p>",
+            "<p>A terminal used to enter input data to a running program</p>",
+            "<p>A secondary storage device in a virtual memory system</p>",
+            "<p>A graphic display device</p>"
+          ],
+          "correct_answer": "<p>A line printer used to print the output of a number of jobs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2724/gate-cse-1996-question-1-20-isro2008-56\" target=\"_blank\">https://gateoverflow.in/2724/gate-cse-1996-question-1-20-isro2008-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1666\"></a><div itemprop=\"text\"><p>Which of the following is an example of a spooled device?</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The terminal used to enter the input data for the C program being executed</p>",
+            "<p>An output device used to print the output of a number of jobs</p>",
+            "<p>The secondary memory device in a virtual storage system</p>",
+            "<p>The swapping area on a disk used by the swapper</p>"
+          ],
+          "correct_answer": "<p>An output device used to print the output of a number of jobs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1666/gate-cse-1998-question-1-29\" target=\"_blank\">https://gateoverflow.in/1666/gate-cse-1998-question-1-29</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1355\"></a><div itemprop=\"text\"><p>&nbsp;Which one of the following is true for a CPU having a single interrupt request line and a single interrupt grant line?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Neither vectored interrupt nor multiple interrupting devices are possible</p>",
+            "<p>Vectored interrupts are not possible but multiple interrupting devices are &nbsp;possible</p>",
+            "<p>Vectored interrupts and multiple interrupting devices are both possible</p>",
+            "<p>Vectored interrupts are&nbsp;possible but&nbsp;multiple interrupting devices are not possible</p>"
+          ],
+          "correct_answer": "<p>Vectored interrupts and multiple interrupting devices are both possible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1355/gate-cse-2005-question-19\" target=\"_blank\">https://gateoverflow.in/1355/gate-cse-2005-question-19</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1356\"></a><div itemprop=\"text\"><p>Normally user programs are prevented from handling I/O directly by I/O instructions in them. For CPUs having explicit I/O instructions, such I/O protection is ensured by having the I/O instruction privileged. In a CPU with memory mapped I/O, there is no explicit I/O instruction. Which one of the following is true for a CPU with memory mapped I/O?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I/O protection is ensured by operating system routine(s)</p>",
+            "<p>I/O protection is ensured by a hardware trap</p>",
+            "<p>I/O protection is ensured during system configuration</p>",
+            "<p>I/O protection is not possible</p>"
+          ],
+          "correct_answer": "<p>I/O protection is ensured by operating system routine(s)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1356/gate-cse-2005-question-20\" target=\"_blank\">https://gateoverflow.in/1356/gate-cse-2005-question-20</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"204083\"></a><div itemprop=\"text\"><p>The following are some events that occur after a device controller issues an interrupt while process \\( L \\) is under execution.</p><ul><li>P. The processor pushes the process status of \\( L \\) onto the control stack</li><li>Q. The processor finishes the execution of the current instruction</li><li>R. The processor executes the interrupt service routine</li><li>S. The processor pops the process status of \\( L \\) from the control stack</li><li>T. The processor loads the new PC value based on the interrupt</li></ul><p>Which of the following is the correct order in which the events above occur?</p></div><br><br><b>GATE CSE 2018 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>QPTRS</p>",
+            "<p>PTRSQ</p>",
+            "<p>TRPQS</p>",
+            "<p>QTPRS</p>"
+          ],
+          "correct_answer": "<p>QPTRS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204083/gate-cse-2018-question-9\" target=\"_blank\">https://gateoverflow.in/204083/gate-cse-2018-question-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3652\"></a><div itemprop=\"text\"><p>What is the bit rate of a video terminal unit with \\( 80 \\) characters/line, \\( 8 \\) \\( \\text{bits/character} \\) and horizontal sweep time of \\( 100 \\) \\( \\text{µs} \\) (including \\( 20 \\) \\( \\text{µs} \\) of retrace time)?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 11, ISRO2011-33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\) \\( \\text{Mbps} \\)</p>",
+            "<p>\\( 6.4 \\) \\( \\text{Mbps} \\)</p>",
+            "<p>\\( 0.8 \\) \\( \\text{Mbps} \\)</p>",
+            "<p>\\( 0.64 \\) \\( \\text{Mbps} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6.4 \\) \\( \\text{Mbps} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3652/gate-it-2004-question-11-isro2011-33\" target=\"_blank\">https://gateoverflow.in/3652/gate-it-2004-question-11-isro2011-33</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3547\"></a><div itemprop=\"text\"><p>Which of the following DMA transfer modes and interrupt handling mechanisms will enable the highest I/O band-width?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Transparent DMA and Polling interrupts</p>",
+            "<p>Cycle-stealing and Vectored interrupts</p>",
+            "<p>Block transfer and Vectored interrupts</p>",
+            "<p>Block transfer and Polling interrupts</p>"
+          ],
+          "correct_answer": "<p>Block transfer and Vectored interrupts</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3547/gate-it-2006-question-8\" target=\"_blank\">https://gateoverflow.in/3547/gate-it-2006-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

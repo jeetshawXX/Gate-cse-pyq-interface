@@ -1,0 +1,30 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Lu Decomposition",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Lu Decomposition",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460801\"></a><div itemprop=\"text\"><p>Consider a system of linear equations \\( P X=Q \\) where \\( P \\in \\mathbb{R}^{3 \\times 3} \\) and \\( \\mathrm{Q} \\in \\mathbb{R}^{3 \\times 1} \\). Suppose \\( P \\) has an LU decomposition, \\( P=L U \\), where<br>\\[<br>L=\\left[\\begin{array}{ccc}<br>1 &amp; 0 &amp; 0 \\\\<br>l_{21} &amp; 1 &amp; 0 \\\\<br>l_{31} &amp; l_{32} &amp; 1<br>\\end{array}\\right] \\text { and } U=\\left[\\begin{array}{ccc}<br>u_{11} &amp; u_{12} &amp; u_{13} \\\\<br>0 &amp; u_{22} &amp; u_{23} \\\\<br>0 &amp; 0 &amp; u_{33}<br>\\end{array}\\right] \\text {. }<br>\\]<br><br>Which of the following statement(s) is/are TRUE?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 34</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The system \\( P X=Q \\) can be solved by first solving \\( L Y=Q \\) and then \\( U X=Y \\).</p>",
+            "<p>If \\( P \\) is invertible, then both \\( L \\) and \\( U \\) are invertible.</p>",
+            "<p>If \\( P \\) is singular, then at least one of the diagonal elements of \\( U \\) is zero.</p>",
+            "<p>If \\( P \\) is symmetric, then both \\( L \\) and \\( U \\) are symmetric.</p>"
+          ],
+          "correct_answer": [
+            "<p>The system \\( P X=Q \\) can be solved by first solving \\( L Y=Q \\) and then \\( U X=Y \\).</p>",
+            "<p>If \\( P \\) is invertible, then both \\( L \\) and \\( U \\) are invertible.</p>",
+            "<p>If \\( P \\) is singular, then at least one of the diagonal elements of \\( U \\) is zero.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460801/gate-cse-2025-set-2-question-34\" target=\"_blank\">https://gateoverflow.in/460801/gate-cse-2025-set-2-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

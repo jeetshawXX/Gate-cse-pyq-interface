@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Relational Calculus",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Relational Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316248\"></a><div itemprop=\"text\"><p>Which of the following has same expressive power with regard to relational query language?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Rational algebra and domain relational calculus</li>\n\t<li>Relational algebra and tuples relational calculus</li>\n\t<li>Relational algebra and domain relational calculus restricted to safe expression</li>\n\t<li>Relational algebra and tuples relational calculus restricted to safe expression</li>\n</ol>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2019 | Part 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i and ii only</p>",
+            "<p>iii and iv only</p>",
+            "<p>i and iii only</p>",
+            "<p>ii and iv only</p>"
+          ],
+          "correct_answer": "<p>iii and iv only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316248/ugc-net-cse-june-2019-part-2-question-31\" target=\"_blank\">https://gateoverflow.in/316248/ugc-net-cse-june-2019-part-2-question-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59866\"></a><div itemprop=\"text\"><p>Consider the following schemas:</p>\n\n<p>Branch_Schema = (branch_name, assets, city)</p>\n\n<p>Customer_Schema = (customer_name, street, city)</p>\n\n<p>Deposit_Schema = (branch_name, account_number, customer_name, balance)</p>\n\n<p>Borrow_Schema = (branch_name, loan_number, customer_name, amount)</p>\n\n<p>Which of the following tuple relational calculus finds all customers who have loan amount more than Rs. 12, 0000?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | September 2013 | Part 3 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>{t(customer_name) \\( \\mid \\) t \\( \\in \\) borrow[?] t[amount] &gt; 12000 }</p>",
+            "<p>{t \\( \\mid \\) t(customer_name) \\( \\mid \\) t \\( \\in \\) borrow[?] t[amount] &gt; 12000 }</p>",
+            "<p>{ t \\( \\mid \\) [?] \\( \\in \\) borrow (t(customer_name)=s(customer_name))[?][amount]&gt;12000}</p>",
+            "<p>{ t \\( \\mid \\) [?] \\( \\in \\) borrow(t(customer_name)[?] s[amount] &gt; 12000}</p>"
+          ],
+          "correct_answer": "<p>{ t \\( \\mid \\) [?] \\( \\in \\) borrow (t(customer_name)=s(customer_name))[?][amount]&gt;12000}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59866/ugc-net-cse-september-2013-part-3-question-47\" target=\"_blank\">https://gateoverflow.in/59866/ugc-net-cse-september-2013-part-3-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

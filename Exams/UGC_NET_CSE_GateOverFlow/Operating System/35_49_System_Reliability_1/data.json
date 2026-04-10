@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - System Reliability",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "System Reliability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71563\"></a><div itemprop=\"text\"><p>An Operating System \\( (OS) \\) crashes on the average once in 30 days, that is, the Mean Time Between Failures (MTBF) = 30 days. When this happens, it takes 10 minutes to recover the OS, that is, the Mean Time To Repair (MTTR) = 10 minutes. The availability of the OS with these reliability figures is approximately :</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | August 2016 | Part 3 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>96.97%</p>",
+            "<p>97.97%</p>",
+            "<p>99.009%</p>",
+            "<p>99.97%</p>"
+          ],
+          "correct_answer": "<p>99.97%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71563/ugc-net-cse-august-2016-part-3-question-43\" target=\"_blank\">https://gateoverflow.in/71563/ugc-net-cse-august-2016-part-3-question-43</a></p>"
+        }
+      ]
+    }
+  ]
+}

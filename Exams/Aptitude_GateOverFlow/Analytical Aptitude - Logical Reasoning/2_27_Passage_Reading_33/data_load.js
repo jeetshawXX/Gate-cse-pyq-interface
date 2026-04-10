@@ -1,0 +1,515 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Passage Reading",
+  "duration": 91,
+  "sections": [
+    {
+      "name": "Passage Reading",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"778\"></a><div itemprop=\"text\"><p>The following question has a paragraph from which the last sentence has been deleted. From the options given choose the one that completes paragraph in most <u>appropriate</u> way.</p>\n\n<p>The audiences for crossword and Sudoku, understandably, overlap greatly, but there are differences too. A crossword attract mote literacy person, while Sudoku appears to a keenly logical mind. Some crosswords enthusiasts turn up their noses at Sudoku because they feel it lacks depth. A good crossword requires vocabulary, knowledge, mental flexibility and sometime even a sense of humor to complete it. It touches numerous areas of life and provides an “Aha!” or two long the way.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2005 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Sudoku, on the other hand, is just a logical exercise, each one similar to the last.</p>",
+            "<p>Sudoku, incidentally, is growing faster in popularity than crosswords, even among the literati.</p>",
+            "<p>Sudoku, on the other hand, can be attempted and enjoyed even by children.</p>",
+            "<p>Sudoku, however, is not exciting in any sense of term.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/778/cat-2005-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/778/cat-2005-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"779\"></a><div itemprop=\"text\"><p>The following question has a paragraph from which the last sentence has been deleted. From the options given choose the one that completes paragraph in most <u>appropriate</u> way.</p>\n\n<p>Most firms consider expert individuals to be too elitist, temperamental, egocentric and difficult to work with. Force such people to collaborate on a high-stakes project and they just might come to fisticuffs. Even the very notion of managing such a group seems unimaginable. So most organizations fall into default mode, setting up project teams of people who get along nicely.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2005 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The result, however, is disastrous.</p>",
+            "<p>The result is mediocrity.</p>",
+            "<p>The result is the creation of experts who then become elitists.</p>",
+            "<p>Naturally they drive innovations</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/779/cat-2005-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/779/cat-2005-question-50</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"780\"></a><div itemprop=\"text\"><p>The following question has a paragraph from which the last sentence has been deleted. From the options given choose the one that completes paragraph in most <u>appropriate</u> way.</p>\n\n<p>Federer’s fifth grand slam win prompted a reporter to ask whether he was the best ever. Federer is certainly not lacking in confidence, but he was not about to proclaim himself the best ever. “The best player of this generation, yes”, he said, “But nowhere close to ever. Just look at the records that some guys have. I am a minnow”.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2005 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>His win against Agassi, a genius from the previous generation, contradicts that.</p>",
+            "<p>Sampras, the king of an earlier generation, was as humble.</p>",
+            "<p>He is more than a minnow to his contemporaries.</p>",
+            "<p>The difference between “the best of this generation” and the “best ever” is a matter of perception.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/780/cat-2005-question-51\" target=\"_blank\">https://aptitude.gateoverflow.in/780/cat-2005-question-51</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"781\"></a><div itemprop=\"text\"><p>The following question has a paragraph from which the last sentence has been deleted. From the options given choose the one that completes paragraph in most <u>appropriate</u> way.</p>\n\n<p>Thus the end of knowledge and the closing of the frontier that it symbolizes is not a looming crisis at all, but merely one of many embarrassing fits of hubris in civilization’s long industry. In the end, it will pass away and be forgotten. Ours is not the first generation to struggle to understand the organizational laws of the frontier, deceive itself that it has succeeded, and go to its grave having failed.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2005 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>One would be wise to be humble.</p>",
+            "<p>But we might be the first generation to actually reach the frontier.</p>",
+            "<p>But we might be the first generation to deal with the crisis.</p>",
+            "<p>However, this time the success is not illusory.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/781/cat-2005-question-52\" target=\"_blank\">https://aptitude.gateoverflow.in/781/cat-2005-question-52</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"710\"></a><div itemprop=\"text\"><p>The following paragraph from which the last sentence has been deleted. From the given options, choose the one that completes the paragraph in the <strong>most appropriate</strong> way.</p>\n\n<p>I am sometimes attacked for imposing ‘rules’. Nothing could be further from the truth. All I do is report on how consumer react to different stimuli. I may say to a copywriter, Research shows that commercials with celebrities are below average in persuading people to buy products. Are you sure you want to use a celebrity? “Call that a rule? Or I may say to an art director, Research suggests that if you set the copy in black type on a white background, more people will read it than if you set it in white type on a black background.”</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2006 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Guidance based on applied research can hardly qualify as ‘rules’.</p>",
+            "<p>Thus, all my so called rules are rooted in applied research.</p>",
+            "<p>A suggestion perhaps, but scarcely a rule.</p>",
+            "<p>Such principles are unavoidable if one wants to be systematic about consumer behaviour.</p>",
+            "<p>Fundamentally it is about consumer behaviour i.e., not about celebrities or type settings.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/710/cat-2006-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/710/cat-2006-question-31</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1597\"></a><div itemprop=\"text\"><p>The following paragraph from which the last sentence has been deleted. From the given options, choose the one that completes the paragraph in the <strong>most</strong>&nbsp;<strong>appropriate</strong>&nbsp;way.</p>\n\n<p>Relations between the factory and the dealer are distant and usually strained as the factory tries to force cars on the dealers to smooth out production. Relations between the dealer and the consumer are equally strained because dealers continuously adjust prices – make deals – to adjust demand with supply while maximizing profits. This becomes a system marked by a lack of long-term commitment on either side, which maximize feelings of mistrust. In order to maximize their bargaining positions, everyone holds back information – the dealer about the product and the consumer about his true desires.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2006 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>As a result, ‘deal making’ becomes a rampant, without concern for consumer satisfaction.</p>",
+            "<p>As a result, inefficiencies creep into the supply chain.</p>",
+            "<p>As a result, everyone treat the other as an adversary, rather than as an ally.</p>",
+            "<p>As a result, fundamental innovations are becoming scarce in the automobile industry.</p>",
+            "<p>As a result, everyone losses in the long run.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1597/cat-2006-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/1597/cat-2006-question-32</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1598\"></a><div itemprop=\"text\"><p>The following paragraph from which the last sentence has been deleted. From the given options, choose the one that completes the paragraph in the <strong>most</strong>&nbsp;<strong>appropriate</strong>&nbsp;way.</p>\n\n<p>In the evolving world order, the comparative advantage of the United States lies in its military force. Diplomacy and international law have always been regarded as annoying encumbrances, unless they can be used to advantage against an enemy. Every active player in world affairs professes to seek only peace and prefer negotiation to violence and coercion.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2006 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>However, diplomacy has often been used as a mask by nations which indented to use force.</p>",
+            "<p>However, when the veil is lifted, we commonly see that diplomacy is understood as a disguise for the rule of force.</p>",
+            "<p>However, history has shown that many of these nations do not practice what they profess.</p>",
+            "<p>However, history tells us that peace is professed by those who intend to use violence.</p>",
+            "<p>However, when unmasked, such nations reveal a penchant for the use of force.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1598/cat-2006-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/1598/cat-2006-question-33</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1599\"></a><div itemprop=\"text\"><p>The following paragraph from which the last sentence has been deleted. From the given options, choose the one that completes the paragraph in the <strong>most</strong>&nbsp;<strong>appropriate</strong>&nbsp;way.</p>\n\n<p>Age has a curvilinear relationship with the exploitation of the opportunity. Initially, age will increase the likelihood that a person will exploit an entrepreneurial opportunity because people gather much of the knowledge necessary to exploit opportunities over the course of heir lives, and because age provides credibility in transmitting that information to others. However, as people become older, their willingness to bear risks declines, their opportunity costs rise, and they become less receptive to new information.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2006 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>As a result, people transmit more information rather than experiment with new ideas as they reach an advanced age.</p>",
+            "<p>As a result, people are reluctant to experiment with new ideas as they reach an advance age.</p>",
+            "<p>As a result, only people with lower opportunity costs exploit opportunity when they reach an advanced age.</p>",
+            "<p>As a result, people become reluctant to exploit entrepreneurial opportunities when they reach an advanced age.</p>",
+            "<p>As a result, people depend on credibility rather than on novelty as they reach an advanced age.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1599/cat-2006-question-34\" target=\"_blank\">https://aptitude.gateoverflow.in/1599/cat-2006-question-34</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1600\"></a><div itemprop=\"text\"><p>The following paragraph from which the last sentence has been deleted. From the given options, choose the one that completes the paragraph in the <strong>most</strong>&nbsp;<strong>appropriate</strong>&nbsp;way.</p>\n\n<p>We can usefully think of theoretical models as maps, which help us navigate unfamiliar territory. The most accurate map that it is possible to construct would be of no practical use whatsoever, for it would be exact replica, on exactly the same scale, of the place where we were. Good maps pull out the most important features and throw away a huge amount of much less valuable information. Of course, maps can be bad as well as good – witness the attempts by medieval Europe to produce a map of the world. In the same way, a bad theory, no matter how impressive it may seem in principle, does little or nothing to help us understand a problem.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2006 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>But good theories, just like good maps, are invaluable, even if they are simplified.</p>",
+            "<p>But good theories, just like good maps, will never represent unfamiliar concepts in detail.</p>",
+            "<p>But good theories, just like good maps, need to balance detail and feasibility of representation.</p>",
+            "<p>But good theories, just like good maps, are accurate only at a certain level of abstraction.</p>",
+            "<p>But good theories, just like good maps, are useful in the hands of a user who knows their limitations.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1600/cat-2006-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/1600/cat-2006-question-35</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"5601\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below:</p>\n\n<p>Two traders, Harshit and Dhara, were involved in the buying and selling of \\( \\text{MCS} \\) shares over five trading days. At the beginning of the first day, the \\( \\text{MCS} \\) share was priced at Rs \\( 100 \\), while at the end of the fifth day it was priced at Rs \\( 110 \\). At the end of each day, the \\( \\text{MCS} \\) share price either went up by Rs \\( 10 \\), or else, it came down by Rs \\( 10 \\). Both Harshit and Dhara took buying and selling decisions at the end of each trading day. The beginning price of \\( \\text{MCS} \\) share on a given day was the same as the ending price of the previous day. Harshit and Dhara started with the same number of shares and amount of cash, and had enough of both. Below are some additional facts amount how Harshit and Dhara&nbsp;traded over the five trading days.</p>\n\n<p>Each day if the price went up, Harshit sold \\( 10 \\) shares of \\( \\text{MCS} \\) at the closing price. On the other hand, each day if the price went down, he brought \\( 10 \\) shares at the closing price. If on any day, the closing price was above Rs \\( 110 \\), then Dhara sold \\( 10 \\) shares of \\( \\text{MCS} \\), while if it was below Rs \\( 90 \\), he bought \\( 10 \\) shares, all at the closing price.</p>\n\n<p>If Harshit sold \\( 10 \\) shares of \\( \\text{MCS} \\) on three consecutive days, while Dhara sold \\( 10 \\) shares only once during the five days, what was the price of \\( \\text{MCS} \\) at the end of day \\( 3 \\)?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2015 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs \\( 90 \\)</p>",
+            "<p>Rs \\( 100 \\)</p>",
+            "<p>Rs \\( 110 \\)</p>",
+            "<p>Rs \\( 120 \\)</p>",
+            "<p>Rs \\( 130 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5601/cat-2015-question-51\" target=\"_blank\">https://aptitude.gateoverflow.in/5601/cat-2015-question-51</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"5600\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below:</p>\n\n<p>Two traders, Harshit and Dhara, were involved in the buying and selling of \\( \\text{MCS} \\) shares over five trading days. At the beginning of the first day, the \\( \\text{MCS} \\) share was priced at Rs \\( 100 \\), while at the end of the fifth day it was priced at Rs \\( 110 \\). At the end of each day, the \\( \\text{MCS} \\) share price either went up by Rs \\( 10 \\), or else, it came down by Rs \\( 10 \\). Both Harshit and Dhara took buying and selling decisions at the end of each trading day. The beginning price of \\( \\text{MCS} \\) share on a given day was the same as the ending price of the previous day. Harshit and Dhara started with the same number of shares and amount of cash, and had enough of both. Below are some additional facts amount how Harshit and Dhara&nbsp;traded over the five trading days.</p>\n\n<p>Each day if the price went up, Harshit sold \\( 10 \\) shares of \\( \\text{MCS} \\) at the closing price. On the other hand, each day if the price went down, he brought \\( 10 \\) shares at the closing price. If on any day, the closing price was above Rs \\( 110 \\), then Dhara sold \\( 10 \\) shares of \\( \\text{MCS} \\), while if it was below Rs \\( 90 \\), he bought \\( 10 \\) shares, all at the closing price.</p>\n\n<p>If Harshit ended up with Rs \\( 1300 \\) more cash than Dhara at the end of day \\( 5 \\), what was the price of \\( \\text{MCS} \\) share at the end of day \\( 4? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2015 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs \\( 90 \\)</p>",
+            "<p>Rs \\( 100 \\)</p>",
+            "<p>Rs \\( 110 \\)</p>",
+            "<p>Rs \\( 120 \\)</p>",
+            "<p>Not uniquely determinable</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5600/cat-2015-question-52\" target=\"_blank\">https://aptitude.gateoverflow.in/5600/cat-2015-question-52</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"5599\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below:</p>\n\n<p>Two traders, Harshit and Dhara, were involved in the buying and selling of \\( \\text{MCS} \\) shares over five trading days. At the beginning of the first day, the \\( \\text{MCS} \\) share was priced at Rs \\( 100 \\), while at the end of the fifth day it was priced at Rs \\( 110 \\). At the end of each day, the \\( \\text{MCS} \\) share price either went up by Rs \\( 10 \\), or else, it came down by Rs \\( 10 \\). Both Harshit and Dhara took buying and selling decisions at the end of each trading day. The beginning price of \\( \\text{MCS} \\) share on a given day was the same as the ending price of the previous day. Harshit and Dhara started with the same number of shares and amount of cash, and had enough of both. Below are some additional facts amount how Harshit and Dhara&nbsp;traded over the five trading days.</p>\n\n<p>Each day if the price went up, Harshit sold \\( 10 \\) shares of \\( \\text{MCS} \\) at the closing price. On the other hand, each day if the price went down, he brought \\( 10 \\) shares at the closing price. If on any day, the closing price was above Rs \\( 110 \\), then Dhara sold \\( 10 \\) shares of \\( \\text{MCS} \\), while if it was below Rs \\( 90 \\), he bought \\( 10 \\) shares, all at the closing price.</p>\n\n<p>If Dhara ended up with \\( 20 \\) more shares than Harshit at the end of day \\( 5 \\), what was the price of the shares at the end of day \\( 3? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2015 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs \\( 90 \\)</p>",
+            "<p>Rs \\( 100 \\)</p>",
+            "<p>Rs \\( 110 \\)</p>",
+            "<p>Rs \\( 120 \\)</p>",
+            "<p>Rs \\( 130 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5599/cat-2015-question-53\" target=\"_blank\">https://aptitude.gateoverflow.in/5599/cat-2015-question-53</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"5598\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below:</p>\n\n<p>Two traders, Harshit and Dhara, were involved in the buying and selling of \\( \\text{MCS} \\) shares over five trading days. At the beginning of the first day, the \\( \\text{MCS} \\) share was priced at Rs \\( 100 \\), while at the end of the fifth day it was priced at Rs \\( 110 \\). At the end of each day, the \\( \\text{MCS} \\) share price either went up by Rs \\( 10 \\), or else, it came down by Rs \\( 10 \\). Both Harshit and Dhara took buying and selling decisions at the end of each trading day. The beginning price of \\( \\text{MCS} \\) share on a given day was the same as the ending price of the previous day. Harshit and Dhara started with the same number of shares and amount of cash, and had enough of both. Below are some additional facts amount how Harshit and Dhara&nbsp;traded over the five trading days.</p>\n\n<p>Each day if the price went up, Harshit sold \\( 10 \\) shares of \\( \\text{MCS} \\) at the closing price. On the other hand, each day if the price went down, he brought \\( 10 \\) shares at the closing price. If on any day, the closing price was above Rs \\( 110 \\), then Dhara sold \\( 10 \\) shares of \\( \\text{MCS} \\), while if it was below Rs \\( 90 \\), he bought \\( 10 \\) shares, all at the closing price.</p>\n\n<p>What could have been the maximum possible increase in combined cash balance of&nbsp;Harshit and Dhara at the end of the fifth day?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2015 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs \\( 3700 \\)</p>",
+            "<p>Rs \\( 4000 \\)</p>",
+            "<p>Rs \\( 4700 \\)</p>",
+            "<p>Rs \\( 5000 \\)</p>",
+            "<p>Rs \\( 6000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5598/cat-2015-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/5598/cat-2015-question-54</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"5982\"></a><div itemprop=\"text\"><p>\\( 1600 \\) satellites were sent up by a country for several purposes. The purposes are classified as broadcasting (B), communication (C), surveillance (S), and others (O). A satellite can serve multiple purposes; however a satellite serving either B, or C, or S does not serve O.</p>\n\n<p>The following facts are known about the satellites:</p>\n\n<ol>\n\t<li>The numbers of satellites serving B, C, and S (though may be not exclusively) are in the ratio \\( 2:1:1 \\).</li>\n\t<li>The number of satellites serving all three of B, C, and S is \\( 100 \\).</li>\n\t<li>The number of satellites exclusively serving C is the same as the number of satellites exclusively serving S. This number is \\( 30\\% \\) of the number of satellites exclusively serving B.</li>\n\t<li>The number of satellites serving O is the same as the number of satellites serving both C and S but not B.</li>\n</ol>\n\n<p>What best can be said about the number of satellites serving C?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Must be between \\( 450 \\) and \\( 725 \\).</p>",
+            "<p>Cannot be more than \\( 800 \\).</p>",
+            "<p>Must be between \\( 400 \\) and \\( 800 \\).</p>",
+            "<p>Must be atleast&nbsp;\\( 100 \\).</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5982/cat-2018-set-1-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/5982/cat-2018-set-1-question-35</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"5981\"></a><div itemprop=\"text\"><p>\\( 1600 \\) satellites were sent up by a country for several purposes. The purposes are classified as broadcasting (B), communication (C), surveillance (S), and others (O). A satellite can serve multiple purposes; however a satellite serving either B, or C, or S does not serve O.</p>\n\n<p>The following facts are known about the satellites:</p>\n\n<ol>\n\t<li>The numbers of satellites serving B, C, and S (though may be not exclusively) are in the ratio \\( 2:1:1 \\).</li>\n\t<li>The number of satellites serving all three of B, C, and S is \\( 100 \\).</li>\n\t<li>The number of satellites exclusively serving C is the same as the number of satellites exclusively serving S. This number is \\( 30\\% \\) of the number of satellites exclusively serving B.</li>\n\t<li>The number of satellites serving O is the same as the number of satellites serving both C and S but not B.</li>\n</ol>\n\n<p>What is the minimum possible number of satellites serving B exclusively?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 500 \\)</p>",
+            "<p>\\( 250 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5981/cat-2018-set-1-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/5981/cat-2018-set-1-question-36</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"5980\"></a><div itemprop=\"text\"><p>\\( 1600 \\) satellites were sent up by a country for several purposes. The purposes are classified as broadcasting (B), communication (C), surveillance (S), and others (O). A satellite can serve multiple purposes; however a satellite serving either B, or C, or S does not serve O.</p>\n\n<p>The following facts are known about the satellites:</p>\n\n<ol>\n\t<li>The numbers of satellites serving B, C, and S (though may be not exclusively) are in the ratio \\( 2:1:1 \\).</li>\n\t<li>The number of satellites serving all three of B, C, and S is \\( 100 \\).</li>\n\t<li>The number of satellites exclusively serving C is the same as the number of satellites exclusively serving S. This number is \\( 30\\% \\) of the number of satellites exclusively serving B.</li>\n\t<li>The number of satellites serving O is the same as the number of satellites serving both C and S but not B.</li>\n</ol>\n\n<p>If at least \\( 100 \\) of the \\( 1600 \\) satellites were serving O, what can be said about the number of satellites serving S?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>At most \\( 475 \\)</p>",
+            "<p>Exactly \\( 475 \\)</p>",
+            "<p>At least \\( 475 \\)</p>",
+            "<p>No conclusion is possible based on the given information</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5980/cat-2018-set-1-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/5980/cat-2018-set-1-question-37</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"5979\"></a><div itemprop=\"text\"><p>\\( 1600 \\) satellites were sent up by a country for several purposes. The purposes are classified as broadcasting (B), communication (C), surveillance (S), and others (O). A satellite can serve multiple purposes; however a satellite serving either B, or C, or S does not serve O.</p>\n\n<p>The following facts are known about the satellites:</p>\n\n<ol>\n\t<li>The numbers of satellites serving B, C, and S (though may be not exclusively) are in the ratio \\( 2:1:1 \\).</li>\n\t<li>The number of satellites serving all three of B, C, and S is \\( 100 \\).</li>\n\t<li>The number of satellites exclusively serving C is the same as the number of satellites exclusively serving S. This number is \\( 30\\% \\) of the number of satellites exclusively serving B.</li>\n\t<li>The number of satellites serving O is the same as the number of satellites serving both C and S but not B.</li>\n</ol>\n\n<p>If the number of satellites serving at least two among B, C, and S is \\( 1200 \\), which of the following MUST be FALSE?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The number of satellites serving C cannot be uniquely determined.</p>",
+            "<p>The number of satellites serving B is more than \\( 1000 \\).</p>",
+            "<p>All \\( 1600 \\) satellites serve B or C or S.</p>",
+            "<p>The number of satellites serving B exclusively is exactly \\( 250 \\).</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5979/cat-2018-set-1-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/5979/cat-2018-set-1-question-38</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"5472\"></a><div itemprop=\"text\"><p>Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different&nbsp; music composers. No dancer performed her second item before the performance of the first item by any other dancers.The dancers performed their second items in the same sequence of their performance of their first items.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>No composer who assigned item to Princess, assigned any&nbsp;item to Queen.</li>\n\t<li>No composer who assigned item to Rani, assigned any&nbsp;item to Samragni.</li>\n\t<li>The first performance was by Princess; this item was assigned by Badal.</li>\n\t<li>The last&nbsp;performance was by Rani; this item was assigned by Gagan.</li>\n\t<li>The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.</li>\n</ol>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The second performance was composed by Dyu</p>",
+            "<p>The third performance was composed by Ashman</p>",
+            "<p>The second performance was composed by Gagan</p>",
+            "<p>The third performance was composed by Dyu</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5472/cat-2019-set-1-question-39\" target=\"_blank\">https://aptitude.gateoverflow.in/5472/cat-2019-set-1-question-39</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"5471\"></a><div itemprop=\"text\"><p>Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different&nbsp; music composers. No dancer performed her second item before the performance of the first item by any other dancers.The dancers performed their second items in the same sequence of their performance of their first items.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>No composer who assigned item to Princess, assigned any&nbsp;item to Queen.</li>\n\t<li>No composer who assigned item to Rani, assigned any&nbsp;item to Samragni.</li>\n\t<li>The first performance was by Princess; this item was assigned by Badal.</li>\n\t<li>The last&nbsp;performance was by Rani; this item was assigned by Gagan.</li>\n\t<li>The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.</li>\n</ol>\n\n<p>Which of the following is FALSE?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Queen did not perform in any item composed by Gagan</p>",
+            "<p>Rani did not perform in any item composed by Badal</p>",
+            "<p>Samragni did not perform in any item composed by Ashman</p>",
+            "<p>Princes did not perform in any item composed by Dyu</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5471/cat-2019-set-1-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/5471/cat-2019-set-1-question-40</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"5470\"></a><div itemprop=\"text\"><p>Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different&nbsp; music composers. No dancer performed her second item before the performance of the first item by any other dancers.The dancers performed their second items in the same sequence of their performance of their first items.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>No composer who assigned item to Princess, assigned any&nbsp;item to Queen.</li>\n\t<li>No composer who assigned item to Rani, assigned any&nbsp;item to Samragni.</li>\n\t<li>The first performance was by Princess; this item was assigned by Badal.</li>\n\t<li>The last&nbsp;performance was by Rani; this item was assigned by Gagan.</li>\n\t<li>The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.</li>\n</ol>\n\n<p>The sixth performance was composed by:</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Gagan</p>",
+            "<p>Ashman</p>",
+            "<p>Badal</p>",
+            "<p>Dyu</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5470/cat-2019-set-1-question-41\" target=\"_blank\">https://aptitude.gateoverflow.in/5470/cat-2019-set-1-question-41</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"5469\"></a><div itemprop=\"text\"><p>Princess, Queen, Rani and Samragni were the four finalists in a dance competition. Ashman, Badal, Gagan and Dyu were the four music composers who individually assigned items to the dancers. Each dancer had to individually perform in two dance items assigned by the different composers. The first items performed by the four dancers were all assigned by different&nbsp; music composers. No dancer performed her second item before the performance of the first item by any other dancers.The dancers performed their second items in the same sequence of their performance of their first items.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>No composer who assigned item to Princess, assigned any&nbsp;item to Queen.</li>\n\t<li>No composer who assigned item to Rani, assigned any&nbsp;item to Samragni.</li>\n\t<li>The first performance was by Princess; this item was assigned by Badal.</li>\n\t<li>The last&nbsp;performance was by Rani; this item was assigned by Gagan.</li>\n\t<li>The items assigned by Ashman were performed consecutively. The number of performances between items assigned by each of the remaining composers was the same.</li>\n</ol>\n\n<p>Which pair of performances were composed by the same composer?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The first and the sixth</p>",
+            "<p>The second and the sixth</p>",
+            "<p>The first and the seventh</p>",
+            "<p>The third and the seventh</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5469/cat-2019-set-1-question-42\" target=\"_blank\">https://aptitude.gateoverflow.in/5469/cat-2019-set-1-question-42</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"6205\"></a><div itemprop=\"text\"><p>The first year students in a business school are split into six sections. In \\( 2019 \\) the Business Statistics course was taught in these six sections by Annie, Beti, Chetan, Dave, Esha, and Fakir. All six sections had a common midterm (MT) and a common endterm (ET) worth \\( 100 \\) marks each. ET contained more questions than MT. Questions for MT and ET were prepared collectively by the six faculty members. Considering MT and ET together, each faculty member prepared the same number of questions. Each of MT and ET had at least four questions that were worth \\( 5 \\) marks, at least three questions that were worth \\( 10 \\) marks, and at least two questions that were worth \\( 15 \\) marks. In both MT and ET, all the \\( 5 \\)-mark questions preceded the \\( 10 \\)-mark questions, and all the \\( 15 \\)- mark questions followed the \\( 10 \\)-mark questions.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Annie prepared the fifth question for both MT and ET. For MT, this question carried 5 marks.</li>\n\t<li>Annie prepared one question for MT. Every other faculty member prepared more than one questions for MT.</li>\n\t<li>All questions prepared by a faculty member appeared consecutively in MT as well as ET.&nbsp;</li>\n\t<li>Chetan prepared the third question in both MT and ET; and Esha prepared the eighth question in both.</li>\n\t<li>Fakir prepared the first question of MT and the last one in ET. Dave prepared the last question of MT and the first one in ET.</li>\n</ol>\n\n<p>The second question in ET was prepared by :</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Dave</p>",
+            "<p>Beti</p>",
+            "<p>Chetan</p>",
+            "<p>Esha</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6205/cat-2019-set-2-question-47\" target=\"_blank\">https://aptitude.gateoverflow.in/6205/cat-2019-set-2-question-47</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"6204\"></a><div itemprop=\"text\"><p>The first year students in a business school are split into six sections. In \\( 2019 \\) the Business Statistics course was taught in these six sections by Annie, Beti, Chetan, Dave, Esha, and Fakir. All six sections had a common midterm (MT) and a common endterm (ET) worth \\( 100 \\) marks each. ET contained more questions than MT. Questions for MT and ET were prepared collectively by the six faculty members. Considering MT and ET together, each faculty member prepared the same number of questions. Each of MT and ET had at least four questions that were worth \\( 5 \\) marks, at least three questions that were worth \\( 10 \\) marks, and at least two questions that were worth \\( 15 \\) marks. In both MT and ET, all the \\( 5 \\)-mark questions preceded the \\( 10 \\)-mark questions, and all the \\( 15 \\)- mark questions followed the \\( 10 \\)-mark questions.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Annie prepared the fifth question for both MT and ET. For MT, this question carried 5 marks.</li>\n\t<li>Annie prepared one question for MT. Every other faculty member prepared more than one questions for MT.</li>\n\t<li>All questions prepared by a faculty member appeared consecutively in MT as well as ET.&nbsp;</li>\n\t<li>Chetan prepared the third question in both MT and ET; and Esha prepared the eighth question in both.</li>\n\t<li>Fakir prepared the first question of MT and the last one in ET. Dave prepared the last question of MT and the first one in ET.</li>\n</ol>\n\n<p>How many \\( 5 \\) – mark questions were there in MT and ET combined?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>12</p>",
+            "<p>10</p>",
+            "<p>13</p>",
+            "<p>Cannot&nbsp;be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6204/cat-2019-set-2-question-48\" target=\"_blank\">https://aptitude.gateoverflow.in/6204/cat-2019-set-2-question-48</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"6203\"></a><div itemprop=\"text\"><p>The first year students in a business school are split into six sections. In \\( 2019 \\) the Business Statistics course was taught in these six sections by Annie, Beti, Chetan, Dave, Esha, and Fakir. All six sections had a common midterm (MT) and a common endterm (ET) worth \\( 100 \\) marks each. ET contained more questions than MT. Questions for MT and ET were prepared collectively by the six faculty members. Considering MT and ET together, each faculty member prepared the same number of questions. Each of MT and ET had at least four questions that were worth \\( 5 \\) marks, at least three questions that were worth \\( 10 \\) marks, and at least two questions that were worth \\( 15 \\) marks. In both MT and ET, all the \\( 5 \\)-mark questions preceded the \\( 10 \\)-mark questions, and all the \\( 15 \\)- mark questions followed the \\( 10 \\)-mark questions.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Annie prepared the fifth question for both MT and ET. For MT, this question carried 5 marks.</li>\n\t<li>Annie prepared one question for MT. Every other faculty member prepared more than one questions for MT.</li>\n\t<li>All questions prepared by a faculty member appeared consecutively in MT as well as ET.&nbsp;</li>\n\t<li>Chetan prepared the third question in both MT and ET; and Esha prepared the eighth question in both.</li>\n\t<li>Fakir prepared the first question of MT and the last one in ET. Dave prepared the last question of MT and the first one in ET.</li>\n</ol>\n\n<p>Who prepared \\( 15 \\)-mark questions for MT and ET?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only Dave and Fakir</p>",
+            "<p>Only Beti, Dave, Esha and Fakir</p>",
+            "<p>Only Esha and Fakir</p>",
+            "<p>Only Dave, Esha and Fakir</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6203/cat-2019-set-2-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/6203/cat-2019-set-2-question-49</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"6202\"></a><div itemprop=\"text\"><p>The first year students in a business school are split into six sections. In \\( 2019 \\) the Business Statistics course was taught in these six sections by Annie, Beti, Chetan, Dave, Esha, and Fakir. All six sections had a common midterm (MT) and a common endterm (ET) worth \\( 100 \\) marks each. ET contained more questions than MT. Questions for MT and ET were prepared collectively by the six faculty members. Considering MT and ET together, each faculty member prepared the same number of questions. Each of MT and ET had at least four questions that were worth \\( 5 \\) marks, at least three questions that were worth \\( 10 \\) marks, and at least two questions that were worth \\( 15 \\) marks. In both MT and ET, all the \\( 5 \\)-mark questions preceded the \\( 10 \\)-mark questions, and all the \\( 15 \\)-mark questions followed the \\( 10 \\)-mark questions.</p>\n\n<p>The following additional facts are known.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Annie prepared the fifth question for both MT and ET. For MT, this question carried 5 marks.</li>\n\t<li>Annie prepared one question for MT. Every other faculty member prepared more than one questions for MT.</li>\n\t<li>All questions prepared by a faculty member appeared consecutively in MT as well as ET.&nbsp;</li>\n\t<li>Chetan prepared the third question in both MT and ET; and Esha prepared the eighth question in both.</li>\n\t<li>Fakir prepared the first question of MT and the last one in ET. Dave prepared the last question of MT and the first one in ET.</li>\n</ol>\n\n<p>Which of the following questions did Beti prepare in ET?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Seventh question&nbsp;</p>",
+            "<p>Fourth question</p>",
+            "<p>Ninth question&nbsp;</p>",
+            "<p>Tenth question</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6202/cat-2019-set-2-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/6202/cat-2019-set-2-question-50</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"8065\"></a><div itemprop=\"text\"><p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an \\( \\text{SUV} \\) requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.</p>\n\n<p>For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number \\( 1 \\), the second a number \\( 2 \\), and so on. This numbering does not indicate whether a car is a compact or an \\( \\text{SUV} \\). The configuration of a parking lot is a sequence of the car numbers&nbsp; in each slot. Each single vacant slot is represented by letter \\( V \\).</p>\n\n<p>For instance, suppose cars numbered \\( 1 \\) through \\( 5 \\) arrive and park, where cars \\( 1,3 \\) and \\( 5 \\) are compact cars and \\( 2 \\) and \\( 4 \\) are \\( \\text{SUV} \\)s. At this point, the parking lot would be described by the sequence \\( 1,2,3,4,5. \\) If cars \\( 2 \\) and \\( 5 \\) now vacate&nbsp;their slots, the parking lot would now be described as \\( 1, \\text{V, V,}3,4. \\) If a compact car (numbered \\( 6 \\)) arrives subsequently followed by an \\( \\text{SUV} \\) (numbered \\( 6 \\)), arrives subsequently followed by an \\( \\text{SUV} \\) (numbered 7),&nbsp;the parking lot would be described by the sequence \\( 1,6, \\text{V},3,4,7. \\)</p>\n\n<p>Initially cars numbered \\( 1,2,3 \\) and \\( 4 \\) arrive among which \\( 1 \\) and \\( 4 \\) are \\( \\text{SUV} \\)s while \\( 2 \\) and \\( 3 \\) are compact cars. Car \\( 1 \\) then leaves, followed by the arrivals of car \\( 5 \\) (a compact car) and car \\( 6 \\) (an SUV). Car&nbsp;\\( 4 \\) then leaves. Then car \\( 7 \\) (an \\( \\text{SUV)} \\) and car \\( 8 \\) (a compact car) arrive. At this moment, which among the following numbered car is parked next to car \\( 3? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8065/cat-2020-set-2-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/8065/cat-2020-set-2-question-35</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"8064\"></a><div itemprop=\"text\"><p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an \\( \\text{SUV} \\) requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.</p>\n\n<p>For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number \\( 1 \\), the second a number \\( 2 \\), and so on. This numbering does not indicate whether a car is a compact or an \\( \\text{SUV} \\). The configuration of a parking lot is a sequence of the car numbers in each slot. Each single vacant slot is represented by letter \\( V \\).</p>\n\n<p>For instance, suppose cars numbered \\( 1 \\) through \\( 5 \\) arrive and park, where cars \\( 1,3 \\) and \\( 5 \\) are compact cars and \\( 2 \\) and \\( 4 \\) are \\( \\text{SUV} \\)s. At this point, the parking lot would be described by the sequence \\( 1,2,3,4,5. \\) If cars \\( 2 \\) and \\( 5 \\) now vacate&nbsp;their slots, the parking lot would now be described as \\( 1, \\text{V, V,}3,4. \\) If a compact car (numbered \\( 6 \\)) arrives subsequently followed by an \\( \\text{SUV} \\) (numbered \\( 6 \\)) arrives subsequently followed by an \\( \\text{SUV} \\) (numbered \\( 7 \\)),&nbsp;the parking lot would be described by the sequence \\( 1,6, \\text{V},3,4,7. \\)</p>\n\n<p>Suppose eight cars have arrived, of which two have left. Also suppose that car \\( 4 \\) is a compact and car \\( 7 \\) is an \\( \\text{SUV} \\). Which of the following is a \\( \\text{POSSIBLE} \\) current configuration of the parking lot\\( ? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\(  \\text{V, }2,3,7,5,6,8 \\)</p>",
+            "<p>\\( 8,2,3, \\text{V},5,6,7 \\)</p>",
+            "<p>\\( 8,2,3, \\text{V},6,5,7 \\)</p>",
+            "<p>\\( 8,2,3, \\text{V},5,7,6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8064/cat-2020-set-2-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/8064/cat-2020-set-2-question-36</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"8063\"></a><div itemprop=\"text\"><p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an \\( \\text{SUV} \\) requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.</p>\n\n<p>For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number \\( 1 \\), the second a number \\( 2 \\), and so on. This numbering does not indicate whether a car is a compact or an \\( \\text{SUV} \\). The configuration of a parking lot is a sequence of the car numbers in each slot. Each single vacant slot is represented by letter \\( V \\).</p>\n\n<p>For instance, suppose cars numbered \\( 1 \\) through \\( 5 \\) arrive and park, where cars \\( 1,3 \\) and \\( 5 \\) are compact cars and \\( 2 \\) and \\( 4 \\) are \\( \\text{SUV} \\)s. At this point, the parking lot would be described by the sequence \\( 1,2,3,4,5. \\) If cars \\( 2 \\) and \\( 5 \\) now vacant their slots, the parking lot would now be described as \\( 1, \\text{V, V,}3,4. \\) If a compact car (numbered \\( 6 \\)) arrives subsequently followed by an \\( \\text{SUV} \\) (numbered \\( 7 \\)), the parking lot would be described by the sequence \\( 1,6, \\text{V},3,4,7. \\)</p>\n\n<p>Suppose the sequence at some point of time is \\( 4,5,6, \\text{V},3. \\) Which of the following is \\( \\text{NOT} \\) necessarily true \\( ? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Car \\( 5 \\) is a compact.</p>",
+            "<p>Car \\( 4 \\) is a compact.</p>",
+            "<p>Car \\( 3 \\) is an \\( \\text{SUV} \\).</p>",
+            "<p>Car \\( 1 \\) is an \\( \\text{SUV} \\).</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8063/cat-2020-set-2-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/8063/cat-2020-set-2-question-37</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"8062\"></a><div itemprop=\"text\"><p>A shopping mall has a large basement parking lot with parking slots painted in it along a single row. These slots are quite narrow; a compact car can fit in a single slot but an SUV requires two slots. When a car arrives, the parking attendant guides the car to the first available slot from the beginning of the row into which the car can fit.</p>\n\n<p>For our purpose, cars are numbered according to the order in which they arrive at the lot. For example, the first car to arrive is given a number \\( 1 \\), the second a number \\( 2 \\), and so on. This numbering does not indicate whether a car is a compact or an \\( \\text{SUV} \\). The configuration of a parking lot is a sequence of the car number in each slot. Each single vacant slot is represented by letter \\( V \\).</p>\n\n<p>For instance, suppose cars numbered \\( 1 \\) through \\( 5 \\) arrive and park, where cars \\( 1,3 \\) and \\( 5 \\) are compact cars and \\( 2 \\) and \\( 4 \\) are SUVs. At this point, the parking lot would be described by the sequence \\( 1,2,3,4,5. \\) If cars \\( 2 \\) and \\( 5 \\) now vacant their slots, the parking lot would now be described as \\( 1, \\text{V, V,}3,4. \\) If a compact car (numbered \\( 6 \\)) arrives subsequently followed by an \\( \\text{SUV} \\) (numbered \\( 7 \\)), the parking lot would be described by the sequence \\( 1,6, \\text{V},3,4,7. \\)</p>\n\n<p>Suppose that car \\( 4 \\) is not the first car to leave and that the sequence at a time between the arrival of the car \\( 7 \\) and car \\( 8 \\) is \\(  \\text{V},7,3,6,5. \\) Then which of the following statement \\( \\text{MUST} \\) be false \\( ? \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Car \\( 7 \\) is a compact.</p>",
+            "<p>Car \\( 4 \\) is an \\( \\text{SUV} \\).</p>",
+            "<p>Car \\( 6 \\) is a compact.</p>",
+            "<p>Car \\( 2 \\) is a compact.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8062/cat-2020-set-2-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/8062/cat-2020-set-2-question-38</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"8525\"></a><div itemprop=\"text\"><p>Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of \\( 13 \\) questions \\( \\text{ (Q01 to Q13)}. \\) Questions can be created by external “subject matter experts” \\( \\text{(SMEs)} \\) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.</p>\n\n<p>If a question is created by an \\( \\text{SME}, \\) it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.</p>\n\n<p>A question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then it is accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by&nbsp;Komal are first reviewed by Amal, and then, if required, by Bimal.</p>\n\n<p>The following facts are known about the review process after its completion.</p>\n\n<ol>\n\t<li>\\( \\text{Q02, Q06, Q09, Q11,} \\) and \\( \\text{Q12} \\) were rejected and the other questions were accepted.</li>\n\t<li>Amal reviewed only \\( \\text{Q02, Q03, Q04, Q06, Q08, Q10, Q11,} \\) and \\( \\text{Q13}. \\)</li>\n\t<li>Bimal reviewed only \\( \\text{Q02, Q04, Q06} \\) through \\( \\text{Q09, Q12,} \\) and \\( \\text{Q13}. \\)</li>\n\t<li>Komal&nbsp;reviewed only \\( \\text{Q01} \\) through \\( \\text{Q05, Q07, Q08, Q09, Q11,} \\) and \\( \\text{Q12}. \\)</li>\n</ol>\n\n<p>How many questions were \\( \\text{DEFINITELY} \\) disapproved by Bimal?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8525/cat-2021-set-data-interpretation-logical-reasoning-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8525/cat-2021-set-data-interpretation-logical-reasoning-question</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"8524\"></a><div itemprop=\"text\"><p>Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of \\( 13 \\) questions \\( \\text{ (Q01 to Q13)}. \\) Questions can be created by external “subject matter experts” \\( \\text{(SMEs)} \\) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.</p>\n\n<p>If a question is created by an \\( \\text{SME}, \\) it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.</p>\n\n<p>A question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then it is accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by&nbsp;Komal are first reviewed by Amal, and then, if required, by Bimal.</p>\n\n<p>The following facts are known about the review process after its completion.</p>\n\n<ol>\n\t<li>\\( \\text{Q02, Q06, Q09, Q11,} \\) and \\( \\text{Q12} \\) were rejected and the other questions were accepted.</li>\n\t<li>Amal reviewed only \\( \\text{Q02, Q03, Q04, Q06, Q08, Q10, Q11,} \\) and \\( \\text{Q13}. \\)</li>\n\t<li>Bimal reviewed only \\( \\text{Q02, Q04, Q06} \\) through \\( \\text{Q09, Q12,} \\) and \\( \\text{Q13}. \\)</li>\n\t<li>Komal&nbsp;reviewed only \\( \\text{Q01} \\) through \\( \\text{Q05, Q07, Q08, Q09, Q11,} \\) and \\( \\text{Q12}. \\)</li>\n</ol>\n\n<p>The approval ratio of a reviewer is the ratio of the number of questions (s)he approved to the number of questions (s)he reviewed. Which option best describes Amal’s approval ratio?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>either \\( 0.25 \\) or \\( 0.75 \\)</p>",
+            "<p>\\( 0.25 \\)</p>",
+            "<p>lies between&nbsp;\\( 0.25 \\) and&nbsp;\\( 0.75 \\)</p>",
+            "<p>lies between&nbsp;\\( 0.25 \\) and&nbsp;\\( 0.50 \\)</p>"
+          ],
+          "correct_answer": "<p>lies between&nbsp;\\( 0.25 \\) and&nbsp;\\( 0.75 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8524/cat-2021-set-data-interpretation-logical-reasoning-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8524/cat-2021-set-data-interpretation-logical-reasoning-question</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"8523\"></a><div itemprop=\"text\"><p>Three reviewers Amal, Bimal, and Komal are tasked with selecting questions from a pool of \\( 13 \\) questions \\( \\text{ (Q01 to Q13)}. \\) Questions can be created by external “subject matter experts” \\( \\text{(SMEs)} \\) or by one of the three reviewers. Each of the reviewers either approves or disapproves a question that is shown to them. Their decisions lead to eventual acceptance or rejection of the question in the manner described below.</p>\n\n<p>If a question is created by an \\( \\text{SME}, \\) it is reviewed first by Amal, and then by Bimal. If both of them approve the question, then the question is accepted and is not reviewed by Komal. If both disapprove the question, it is rejected and is not reviewed by Komal. If one of them approves the question and the other disapproves it, then the question is reviewed by Komal. Then the question is accepted only if she approves it.</p>\n\n<p>A question created by one of the reviewers is decided upon by the other two. If a question is created by Amal, then it is first reviewed by Bimal. If Bimal approves the question, then it is accepted. Otherwise, it is reviewed by Komal. The question is then accepted only if Komal approves it. A similar process is followed for questions created by Bimal, whose questions are first reviewed by Komal, and then by Amal only if Komal disapproves it. Questions created by&nbsp;Komal are first reviewed by Amal, and then, if required, by Bimal.</p>\n\n<p>The following facts are known about the review process after its completion.</p>\n\n<ol>\n\t<li>\\( \\text{Q02, Q06, Q09, Q11,} \\) and \\( \\text{Q12} \\) were rejected and the other questions were accepted.</li>\n\t<li>Amal reviewed only \\( \\text{Q02, Q03, Q04, Q06, Q08, Q10, Q11,} \\) and \\( \\text{Q13}. \\)</li>\n\t<li>Bimal reviewed only \\( \\text{Q02, Q04, Q06} \\) through \\( \\text{Q09, Q12,} \\) and \\( \\text{Q13}. \\)</li>\n\t<li>Komal&nbsp;reviewed only \\( \\text{Q01} \\) through \\( \\text{Q05, Q07, Q08, Q09, Q11,} \\) and \\( \\text{Q12}. \\)</li>\n</ol>\n\n<p>How many questions created by Amal or Bimal were disapproved by at least one of the other reviewers?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8523/cat-2021-set-data-interpretation-logical-reasoning-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8523/cat-2021-set-data-interpretation-logical-reasoning-question</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"6559\"></a><div itemprop=\"text\"><p>Monisha is working with a real estate agent to find a location for the kids’ toy store she plans to open in her town. She&nbsp; is looking for a place that is either in the centre or not too far from the centre of town. It should also be attractive for the right kind of football too. Which of the following locations should Monisha’s agent call to her attention?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a storefront in a new high-rise building near the train station in the center of town whose occupants are mainly young, childless professionals who use the train to commute to their offices each day</p>",
+            "<p>a little shop three blocks away from the town’s main street, located across the street from an elementary school and next door to an ice cream store</p>",
+            "<p>a stand-alone storefront on a quiet residential street ten blocks away from the town’s center</p>",
+            "<p>a storefront in a small strip mall located on the outskirts of town that is also occupied by a pharmacy and a dry cleaner</p>"
+          ],
+          "correct_answer": "<p>a little shop three blocks away from the town’s main street, located across the street from an elementary school and next door to an ice cream store</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6559/nielit-2017-oct-scientific-assistant-a-section-a-6\" target=\"_blank\">https://aptitude.gateoverflow.in/6559/nielit-2017-oct-scientific-assistant-a-section-a-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

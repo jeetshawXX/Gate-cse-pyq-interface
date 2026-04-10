@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Slotted Aloha",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Slotted Aloha",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"19453\"></a><div itemprop=\"text\"><p>A certain population of ALOHA users manages to generate \\( 70 \\) request/sec. If the time is slotted in units of \\( 50 \\)&nbsp;msec, then channel load would be</p>\n\n</div><br><br><b>Computer Networks: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4.25 \\)</p>",
+            "<p>\\( 3.5 \\)</p>",
+            "<p>\\( 450 \\)</p>",
+            "<p>\\( 350 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19453/isro2015-55\" target=\"_blank\">https://gateoverflow.in/19453/isro2015-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

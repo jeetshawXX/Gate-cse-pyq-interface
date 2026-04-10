@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Matrix",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Matrix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337181\"></a><div itemprop=\"text\"><p>If product of matrix \\( A=\\begin{bmatrix}\\cos^{2}\\theta &amp;\\cos&nbsp;\\theta \\sin \\theta&nbsp;\\\\&nbsp; \\cos&nbsp;\\theta \\sin \\theta &amp;\\sin&nbsp;^{2} \\theta&amp;&nbsp;\\end{bmatrix} \\) and&nbsp;\\( B=\\begin{bmatrix}\\cos^{2}\\phi&nbsp;&amp;\\cos&nbsp;\\phi&nbsp;\\sin \\phi&nbsp;\\\\&nbsp; \\cos&nbsp;\\phi&nbsp;\\sin \\phi&nbsp;&amp;\\sin&nbsp;^{2} \\phi&amp;&nbsp;\\end{bmatrix} \\) is a null matrix, then \\( \\theta \\) and \\( \\phi \\) differ by an</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>odd multiple of \\( \\pi \\)</p>",
+            "<p>even multiple of \\( \\pi \\)</p>",
+            "<p>odd multiple of \\( \\dfrac{\\pi}{2} \\)</p>",
+            "<p>even multiple of \\( \\dfrac{\\pi}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>odd multiple of \\( \\dfrac{\\pi}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337181/nielit-2016-mar-scientist-c-section-b-19\" target=\"_blank\">https://gateoverflow.in/337181/nielit-2016-mar-scientist-c-section-b-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337197\"></a><div itemprop=\"text\"><p>The matrices&nbsp;\\( \\begin{bmatrix} \\cos\\theta &nbsp;&amp;-\\sin \\theta &nbsp;\\\\&nbsp;&nbsp;\\sin \\theta &amp; cos \\theta&nbsp;\\end{bmatrix} \\) and&nbsp;&nbsp;\\( \\begin{bmatrix} a&nbsp;&amp; 0&nbsp; \\\\&nbsp; 0&nbsp;&amp; b \\end{bmatrix} \\) commute under the multiplication</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>if \\( a=b \\text{(or)} \\theta =n\\pi, \\: n \\) is an integer</p>",
+            "<p>always</p>",
+            "<p>never</p>",
+            "<p>if \\( a\\cos \\theta \\neq b\\sin \\theta \\)</p>"
+          ],
+          "correct_answer": "<p>if \\( a=b \\text{(or)} \\theta =n\\pi, \\: n \\) is an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337197/nielit-2016-mar-scientist-c-section-b-3\" target=\"_blank\">https://gateoverflow.in/337197/nielit-2016-mar-scientist-c-section-b-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336253\"></a><div itemprop=\"text\"><p>Consider two matrices \\( M_1 \\) and \\( M_2 \\) with \\( M_1^*M_2=0 \\) and \\( M_1 \\) is non singular. Then which of the following is true?</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( M_2 \\) is non singular</p>",
+            "<p>\\( M_2 \\) is null matrix</p>",
+            "<p>\\( M_2 \\) is the identity matrix</p>",
+            "<p>\\( M_2 \\) is transpose of&nbsp;\\( M_1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( M_2 \\) is null matrix</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336253/nielit-2017-dec-scientist-b-section-b-60\" target=\"_blank\">https://gateoverflow.in/336253/nielit-2017-dec-scientist-b-section-b-60</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"275534\"></a><div itemprop=\"text\"><p>If \\( C \\) is a non-singular matrix and \\( B=C \\begin{bmatrix} 0 &amp; x &amp; y \\\\ 0 &amp; 0 &amp; x \\\\ 0 &amp; 0 &amp; 0 \\end{bmatrix} C^{-1} \\) then:</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B^2=I \\)</p>",
+            "<p>\\( B^2 = \\text{Null Matrix} \\)</p>",
+            "<p>\\( B^3=I \\)</p>",
+            "<p>\\( B^3 = \\text{Null Matrix} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( B^2=I \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275534/nielit-2018-30\" target=\"_blank\">https://gateoverflow.in/275534/nielit-2018-30</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"369331\"></a><div itemprop=\"text\"><p>If for the matrix \\( \\text{A},&nbsp; \\text{A}^{3} = I \\) then \\( \\text{A}^{-1} =  \\) ____________ .</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A}^{2} \\)</p>",
+            "<p>\\( \\text{A}^{3} \\)</p>",
+            "<p>\\( \\text{A} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A}^{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369331/nielit-2021-dec-scientist-a-section-b-82\" target=\"_blank\">https://gateoverflow.in/369331/nielit-2021-dec-scientist-a-section-b-82</a></p>"
+        }
+      ]
+    }
+  ]
+});

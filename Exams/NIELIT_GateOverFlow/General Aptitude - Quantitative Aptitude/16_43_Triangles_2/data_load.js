@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Triangles",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Triangles",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275556\"></a><div itemprop=\"text\"><p>Let us consider the length of the side of a square represented by \\( 2y+3 \\). The length of the side of an equilateral triangle is \\( 4y \\). If the square and the equilateral triangle have equal perimeter, then what is the value of \\( y \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275556/nielit-2018-8\" target=\"_blank\">https://gateoverflow.in/275556/nielit-2018-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411992\"></a><div itemprop=\"text\"><p>The base of a triangle is \\( 15 \\mathrm{~cm} \\). Two lines are drawn parallel to the base, terminating in the other two sides, and dividing the triangle into three equal areas. The length of the parallel line close to the base is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 103</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\sqrt{6} \\mathrm{~cm} \\)</p>",
+            "<p>\\( 4 \\sqrt{3} \\mathrm{~cm} \\)</p>",
+            "<p>\\( 10 \\mathrm{~cm} \\)</p>",
+            "<p>\\( 5.5 \\mathrm{~cm} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\sqrt{6} \\mathrm{~cm} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411992/nielit-2023-feb-scientist-c-section-d-question-103\" target=\"_blank\">https://gateoverflow.in/411992/nielit-2023-feb-scientist-c-section-d-question-103</a></p>"
+        }
+      ]
+    }
+  ]
+});

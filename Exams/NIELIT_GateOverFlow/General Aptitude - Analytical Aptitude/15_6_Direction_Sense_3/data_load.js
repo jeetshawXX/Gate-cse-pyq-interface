@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Direction Sense",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Direction Sense",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366849\"></a><div itemprop=\"text\"><p>Rakesh is standing at a point. He walks \\( 20 \\; \\text{m} \\) towards the East and further \\( 10 \\; \\text{m} \\) towards the South, then he walks \\( 35 \\; \\text{m} \\) towards the West and further \\( 5 \\; \\text{m} \\) towards the North, then he walks \\( 15 \\; \\text{m} \\) towards the East. What is the straight distance in metres between his starting point and the point where he reached last \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)&nbsp;</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 15 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366849/nielit-2021-dec-scientist-b-section-a-6\" target=\"_blank\">https://gateoverflow.in/366849/nielit-2021-dec-scientist-b-section-a-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411373\"></a><div itemprop=\"text\"><p>Sanjeev walks \\( 10 \\)&nbsp;metres towards the South. Turning to the left, he walks \\( 20 \\)&nbsp;metres and then moves to his right. After moving a distance of \\( 20 \\)&nbsp;metres, he turns to the right and walks \\( 20 \\)&nbsp;metres. Finally, he turns to the right and moves a distance of \\( 10 \\)&nbsp;metres. How far and in which direction is he from the starting point?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)&nbsp;metres North</p>",
+            "<p>\\( 20 \\)&nbsp;metres South</p>",
+            "<p>\\( 20 \\)&nbsp;metres North</p>",
+            "<p>\\( 10 \\) metres South\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)&nbsp;metres South</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411373/nielit-2023-feb-scientist-c-section-a-question-26\" target=\"_blank\">https://gateoverflow.in/411373/nielit-2023-feb-scientist-c-section-a-question-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410876\"></a><div itemprop=\"text\"><p>A woman walks \\( 5 \\mathrm{~km} \\) towards North and then turns to left. After walking \\( 3 \\mathrm{~km} \\) she turns to right and walks \\( 5 \\mathrm{~km} \\). Now in which direction is she from the starting point?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>North - West</p>",
+            "<p>North</p>",
+            "<p>South - West</p>",
+            "<p>North - East\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>North - West</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410876/nielit-2023-feb-scientist-d-section-c-question-88\" target=\"_blank\">https://gateoverflow.in/410876/nielit-2023-feb-scientist-d-section-c-question-88</a></p>"
+        }
+      ]
+    }
+  ]
+});

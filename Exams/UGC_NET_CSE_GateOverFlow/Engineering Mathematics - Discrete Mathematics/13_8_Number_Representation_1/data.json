@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Discrete Mathematics - Number Representation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Number Representation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63901\"></a><div itemprop=\"text\"><p>Negative numbers cannot be represented in</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | December 2011 | Part 2 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Signed magnitude form</p>",
+            "<p>\\( 1’s \\) complement form</p>",
+            "<p>\\( 2’s \\) complement form</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63901/ugc-net-cse-december-2011-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/63901/ugc-net-cse-december-2011-part-2-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

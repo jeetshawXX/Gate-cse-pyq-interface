@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Computer Graphics - Resolution",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Resolution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58488\"></a><div itemprop=\"text\">\n<p>If 40 black lines interleaved with 40 white lines can be distinguished across one inch, the resolution is</p>\n\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | June 2013 | Part 3 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>40 line-pairs per inch</p>",
+            "<p>80 line-pairs per inch</p>",
+            "<p>1600 lines per inch</p>",
+            "<p>40 lines per inch</p>"
+          ],
+          "correct_answer": "<p>40 line-pairs per inch</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58488/ugc-net-cse-june-2013-part-3-question-30\" target=\"_blank\">https://gateoverflow.in/58488/ugc-net-cse-june-2013-part-3-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+}

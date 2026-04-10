@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Decision Tree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Decision Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60623\"></a><div itemprop=\"text\"><p>Any decision tree that sorts \\( n \\) elements has height</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2014 | Part 3 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Omega(n) \\)</p>",
+            "<p>\\( \\Omega(\\text{lg}n) \\)</p>",
+            "<p>\\( \\Omega(n \\text{lg} n) \\)</p>",
+            "<p>\\( \\Omega(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Omega(n \\text{lg} n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60623/ugc-net-cse-december-2014-part-3-question-31\" target=\"_blank\">https://gateoverflow.in/60623/ugc-net-cse-december-2014-part-3-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+}

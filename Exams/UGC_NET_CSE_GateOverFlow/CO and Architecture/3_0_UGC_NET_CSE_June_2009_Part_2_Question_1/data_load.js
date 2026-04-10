@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - UGC NET CSE  June 2009  Part 2  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "UGC NET CSE  June 2009  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"154131\"></a><div itemprop=\"text\"><p>With four programs in memory and with \\( 80 \\)% average \\( I/O \\) wait, the \\( \\text{CPU} \\) utilization is ?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2009 | Part 2 | Question: 09</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60 \\)%&nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 70 \\)%&nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 90 \\)%&nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 100 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154131/ugc-net-cse-june-2009-part-2-question-09\" target=\"_blank\">https://gateoverflow.in/154131/ugc-net-cse-june-2009-part-2-question-09</a></p>"
+        }
+      ]
+    }
+  ]
+});

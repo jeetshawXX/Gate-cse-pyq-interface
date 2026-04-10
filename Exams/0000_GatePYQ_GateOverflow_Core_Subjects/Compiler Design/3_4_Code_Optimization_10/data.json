@@ -1,0 +1,151 @@
+{
+  "title": "Compiler Design - Code Optimization",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Code Optimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1833\"></a><div itemprop=\"text\"><p>Consider these two functions and two statements S1 and S2 about them.&nbsp;</p><table border=\"1\" cellpadding=\"1\" style=\"width:500px\"><tbody><tr><td><pre class=\"prettyprint lang-c_cpp\">int work1(int *a, int i, int j)\n{\n    int x = a[i+2];\n    a[j] = x+1;\n    return a[i+2] - 3;\n}</pre></td><td><pre class=\"prettyprint lang-c_cpp\">int work2(int *a, int i, int j)\n{\n    int t1 = i+2;\n    int t2 = a[t1];\n    a[j] = t2+1;\n    return t2 - 3;\n}</pre></td></tr></tbody></table><p>S1: The transformation form <em>work1</em> to <em>work2</em> is valid, i.e., for any program state&nbsp;and input arguments, <em>work2</em> will compute the same output and have the same&nbsp;effect on program state as <em>work1</em>&nbsp;</p><p>S2: All the transformations applied to <em>work1</em> to get <em>work2</em> will always improve the&nbsp;performance (i.e reduce CPU time) of <em>work2</em> compared to <em>work1</em></p></div><br><br><b>GATE CSE 2006 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>S1 is false and S2 is false</p>",
+            "<p>S1 is false and S2 is true</p>",
+            "<p>S1 is true and S2 is false</p>",
+            "<p>S1 is true and S2 is true</p>"
+          ],
+          "correct_answer": "<p>S1 is false and S2 is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1833/gate-cse-2006-question-55\" target=\"_blank\">https://gateoverflow.in/1833/gate-cse-2006-question-55</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1838\"></a><div itemprop=\"text\"><p>Consider the following C code segment.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">for (i = 0, i &lt; n; i++)\n{ \n    for (j = 0; j &lt; n; j++)\n    { \n        if (i%2)\n        { \n            x += (4*j + 5*i); \n            y += (7 + 4*j); \n        } \n    } \n}\n</pre>\n\n<p>Which one of the following is false?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The code contains loop invariant computation&nbsp;</p>",
+            "<p>There is scope of common sub-expression elimination in this code&nbsp;</p>",
+            "<p>There is scope of strength reduction in this code&nbsp;</p>",
+            "<p>There is scope of dead code elimination in this code&nbsp;</p>"
+          ],
+          "correct_answer": "<p>There is scope of dead code elimination in this code&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1838/gate-cse-2006-question-60\" target=\"_blank\">https://gateoverflow.in/1838/gate-cse-2006-question-60</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410\"></a><div itemprop=\"text\"><p>Some code optimizations are carried out on the intermediate code because</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>They enhance the portability of the compiler to the target processor</p>",
+            "<p>Program analysis is more accurate on intermediate code than on machine code</p>",
+            "<p>The information from dataflow analysis cannot otherwise be used for optimization</p>",
+            "<p>The information from the front end cannot otherwise be used for optimization</p>"
+          ],
+          "correct_answer": "<p>They enhance the portability of the compiler to the target processor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410/gate-cse-2008-question-12\" target=\"_blank\">https://gateoverflow.in/410/gate-cse-2008-question-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1784\"></a><div itemprop=\"text\"><p>Which one of the following is&nbsp;<strong>FALSE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A basic block is a sequence of instructions where control enters the sequence at the beginning and exits at the end.&nbsp;</p>",
+            "<p>Available expression analysis can be used for common subexpression elimination.</p>",
+            "<p>Live variable analysis can be used for dead code elimination.</p>",
+            "<p>\\( x=4*5 \\Rightarrow x=20 \\) is an example of common subexpression elimination.</p>"
+          ],
+          "correct_answer": "<p>\\( x=4*5 \\Rightarrow x=20 \\) is an example of common subexpression elimination.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1784/gate-cse-2014-set-1-question-17\" target=\"_blank\">https://gateoverflow.in/1784/gate-cse-2014-set-1-question-17</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2045\"></a><div itemprop=\"text\">The minimum number of arithmetic operations required to evaluate the polynomial \\( P(X) = X^5+4X^3+6X+5 \\) for a given value of \\( X \\), using only one temporary variable is ______.</div><br><br><b>GATE CSE 2014 Set 3 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2045/gate-cse-2014-set-3-question-11\" target=\"_blank\">https://gateoverflow.in/2045/gate-cse-2014-set-3-question-11</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2068\"></a><div itemprop=\"text\"><p>Consider the basic block given below.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">a = b + c \nc = a + d \nd = b + c \ne = d - b \na = e + b&nbsp;</pre>\n\n<p>The minimum number of nodes and edges present in the DAG representation of the above basic block respectively are</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\) and \\( 6 \\)</p>",
+            "<p>\\( 8 \\) and \\( 10 \\)</p>",
+            "<p>\\( 9 \\) and \\( 12 \\)</p>",
+            "<p>\\( 4 \\) and \\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\) and \\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2068/gate-cse-2014-set-3-question-34\" target=\"_blank\">https://gateoverflow.in/2068/gate-cse-2014-set-3-question-34</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"8084\"></a><div itemprop=\"text\"><p>In the context of abstract-syntax-tree (AST) and control-flow-graph (CFG), which one of the following is TRUE?</p></div><br><br><b>GATE CSE 2015 Set 2 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In both AST and CFG, let node \\( N_2 \\) be the successor of node \\( N_1 \\). In the input program, the code corresponding to \\( N_2 \\) is present after the code corresponding to \\( N_1 \\)</p>",
+            "<p>For any input program, neither AST nor CFG will contain a cycle</p>",
+            "<p>The maximum number of successors of a node &nbsp;in an AST and a CFG depends on the input program</p>",
+            "<p>Each node in AST and CFG corresponds to at most one statement in the input program</p>"
+          ],
+          "correct_answer": "<p>The maximum number of successors of a node &nbsp;in an AST and a CFG depends on the input program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8084/gate-cse-2015-set-2-question-14\" target=\"_blank\">https://gateoverflow.in/8084/gate-cse-2015-set-2-question-14</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"357401\"></a><div itemprop=\"text\"><p>Consider the following \\( C \\) code segment:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">a = b + c;\ne = a + 1;\nd = b + c;\nf = d + 1;\ng = e + f;</pre>\n\n<p>In a compiler, this code segment is represented internally as a directed acyclic graph \\( \\text{(DAG)} \\). The number of nodes in the \\( \\text{DAG} \\) is _____________</p></div><br><br><b>GATE CSE 2021 Set 1 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6:6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357401/gate-cse-2021-set-1-question-50\" target=\"_blank\">https://gateoverflow.in/357401/gate-cse-2021-set-1-question-50</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"357510\"></a><div itemprop=\"text\"><p>​​​​​​Consider the following \\( \\text{ANSI C} \\) code segment:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">z=x + 3 + y-&gt;f1 + y-&gt;f2;\nfor (i = 0; i &lt; 200; i = i + 2) \n{\n    if (z &gt; i) \n    {\n        p = p + x + 3;\n        q = q + y-&gt;f1;\n    } else \n    {\n        p = p + y-&gt;f2;\n        q = q + x + 3;\n    }\n}</pre>\n\n<p>Assume that the variable \\( y \\) points to a \\( \\textsf{struct} \\) (allocated on the heap) containing two fields \\( \\textsf{f1} \\) and \\( \\textsf{f2} \\), and the local variables \\( \\textsf{x, y, z, p, q,} \\) and \\( \\textsf{i} \\) are allotted registers. Common sub-expression elimination \\( \\text{(CSE)} \\) optimization is applied on the code. The number of addition and the dereference operations (of the form \\( \\textsf{ y -&gt;f1} \\) or \\( \\textsf{y -&gt;f2} \\)) in the optimized code, respectively, are:</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 403 \\) and \\( 102 \\)</p>",
+            "<p>\\( 203 \\) and \\( 2 \\)</p>",
+            "<p>\\( 303 \\) and \\( 102 \\)</p>",
+            "<p>\\( 303 \\) and \\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 303 \\) and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30\" target=\"_blank\">https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"460077\"></a><div itemprop=\"text\"><p>Which ONE of the following techniques used in compiler code optimization uses live variable analysis?</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Run-time function call management</p>",
+            "<p>Register assignment to variables</p>",
+            "<p>Strength reduction</p>",
+            "<p>Constant folding</p>"
+          ],
+          "correct_answer": "<p>Register assignment to variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460077/gate-cse-2025-set-1-question-3\" target=\"_blank\">https://gateoverflow.in/460077/gate-cse-2025-set-1-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Pigeonhole Principle",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Pigeonhole Principle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316272\"></a><div itemprop=\"text\"><p>How many cards must be selected from a standard deck of \\( 52 \\) cards to guarantee that at least three hearts are present among them?</p>\n\n</div><br><br><b>Combinatory: UGC NET CSE | June 2019 | Part 2 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 42 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 42 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316272/ugc-net-cse-june-2019-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/316272/ugc-net-cse-june-2019-part-2-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

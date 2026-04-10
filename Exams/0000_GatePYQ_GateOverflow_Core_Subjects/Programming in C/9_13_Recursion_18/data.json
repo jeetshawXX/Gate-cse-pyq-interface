@@ -1,0 +1,237 @@
+{
+  "title": "Programming in C - Recursion",
+  "duration": 50,
+  "sections": [
+    {
+      "name": "Recursion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"507\"></a><div itemprop=\"text\"><p>Consider the following recursive definition of \\( fib \\):</p>\n\n<pre class=\"prettyprint lang-c_cpp\"> fib(n) :=  if n = 0 then 1\n            else if n = 1 then 1\n            else fib(n-1) + fib(n-2)</pre>\n\n<p>The number of times \\( fib \\) &nbsp;is called (including the first call) for evaluation of \\( fib(7) \\) is___________.</p></div><br><br><b>GATE CSE 1991 | Question: 01,x</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "41",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/507/gate-cse-1991-question-01-x\" target=\"_blank\">https://gateoverflow.in/507/gate-cse-1991-question-01-x</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2517\"></a><div itemprop=\"text\"><p>Consider the following recursive function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">function fib (n:integer);integer;\nbegin\nif (n=0) or (n=1) then fib := 1\nelse fib := fib(n-1) + fib(n-2)\nend;</pre>\n\n<p>The above function is run on a computer with a stack of \\( 64 \\) bytes. Assuming that only return address and parameter are passed on the stack, and that an integer value and an address takes \\( 2 \\) bytes each, estimate the maximum value of \\( n \\) for which the stack will not overflow. Give reasons for your answer.</p></div><br><br><b>GATE CSE 1994 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2517/gate-cse-1994-question-21\" target=\"_blank\">https://gateoverflow.in/2517/gate-cse-1994-question-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"687\"></a><div itemprop=\"text\"><p>A recursive program to compute&nbsp;Fibonacci&nbsp;numbers is shown below. Assume you&nbsp;are also given an array \\( f [ 0\\ldots m] \\) with all elements initialized to \\( 0. \\)</p>\n\n<pre class=\"prettyprint lang-c_cpp\">fib(n) {\n    if (n &gt; M) error ();\n    if (n == 0) return 1;\n    if (n == 1)return 1;\n    if (▭)________________________(1)\n        return ▭__________________(2)\n    t = fib(n - 1) + fib(n - 2);\n    ▭_____________________________(3)\n    return t;\n}</pre>\n\n</div><br><br><b>GATE CSE 2000 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Fill in the boxes with expressions/statement to make \\( fib() \\) store and&nbsp;reuse&nbsp;computed Fibonacci values. Write the box number and the corresponding&nbsp;contents in your answer book.</p>",
+            "<p>What is the time complexity of the resulting program when computing \\( fib(n)? \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/687/gate-cse-2000-question-16\" target=\"_blank\">https://gateoverflow.in/687/gate-cse-2000-question-16</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"754\"></a><div itemprop=\"text\"><p>Consider the following C program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" style=\"text-align: justify;\">void abc(char*s)\n{\n    if(s[0]=='\\0')return;\n    abc(s+1);\n    abc(s+1);\n    printf(\"%c\",s[0]);\n}\n\nmain()\n{ \n    abc(\"123\");\n}</pre>\n\n</div><br><br><b>GATE CSE 2001 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>What will be the output of the program?</p>",
+            "<p>If \\( abc(s) \\) is called with a null-terminated string \\( s \\) of length \\( n \\) characters (not counting the null ('\\0') character), how&nbsp;many characters will be printed by \\( abc(s) \\)?</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/754/gate-cse-2001-question-13\" target=\"_blank\">https://gateoverflow.in/754/gate-cse-2001-question-13</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"864\"></a><div itemprop=\"text\"><p>The following recursive function in C is a solution to the Towers of Hanoi problem.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void move(int n, char A, char B, char C)  {\n    if (......................) {\n        move (.............................);\n        printf(\"Move disk %d from pole %c to pole %c\\n\", n, A, C);\n        move (.....................);\n    }\n}</pre>\n\n<p>Fill in the dotted parts of the solution.</p></div><br><br><b>GATE CSE 2002 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/864/gate-cse-2002-question-11\" target=\"_blank\">https://gateoverflow.in/864/gate-cse-2002-question-11</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1028\"></a><div itemprop=\"text\"><p>Consider the following C function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f(int n)\n{\n    static int i = 1;\n    if(n &gt;= 5) return n;\n    n = n+i;\n    i++;\n    return f(n);\n}</pre>\n\n<p>The value returned by \\( f(1) \\) is:</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 31, ISRO2008-40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1028/gate-cse-2004-question-31-isro2008-40\" target=\"_blank\">https://gateoverflow.in/1028/gate-cse-2004-question-31-isro2008-40</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"82146\"></a><div itemprop=\"text\"><pre class=\"prettyprint lang-c_cpp\">double foo(int n)\n{\n    int i;\n    double sum;\n    if(n == 0)\n    {\n        return 1.0;\n    }\n    else\n    {\n        sum = 0.0;\n        for(i = 0; i &lt; n; i++)\n        {\n            sum += foo(i);\n        }\n        return sum;\n    }\n\n}</pre>\n\n<ol>\n</ol>\n\n<p>Suppose we modify the above function \\( foo() \\)<em>&nbsp;</em>and stores the value of \\( foo(i) \\ 0 \\leq&nbsp;i &lt; n \\), as and when they are computed. With this modification the time complexity for function<em>&nbsp;</em>\\( foo() \\)&nbsp;is significantly reduced. The space complexity of the modified function would be:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 81b</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( n! \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82146/gate-cse-2005-question-81b\" target=\"_blank\">https://gateoverflow.in/82146/gate-cse-2005-question-81b</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1240\"></a><div itemprop=\"text\"><p>Consider the following C function:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int f(int n)\n{ \n    static int r = 0;\n    if (n &lt;= 0) return 1;\n    if (n &gt; 3)\n    {   r = n; \n        return f(n-2) + 2;\n    }\n    return f(n-1) + r;\n}</pre>\n\n<p>What is the value of \\( f(5) \\)?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1240/gate-cse-2007-question-42\" target=\"_blank\">https://gateoverflow.in/1240/gate-cse-2007-question-42</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"2000\"></a><div itemprop=\"text\"><p>Consider the following function.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">double f(double x){\n    if( abs(x*x - 3) &lt; 0.01) \n        return x;\n    else \n        return f(x/2 + 1.5/x);\n} </pre>\n\n<p>Give a value \\( q \\) (to \\( 2 \\) decimals) such that \\( f(q) \\) will return \\( q \\):_____.&nbsp;</p></div><br><br><b>GATE CSE 2014 Set 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.72:1.74",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2000/gate-cse-2014-set-2-question-40\" target=\"_blank\">https://gateoverflow.in/2000/gate-cse-2014-set-2-question-40</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"8086\"></a><div itemprop=\"text\"><p>Consider the following function written in the C programming langauge :</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void foo(char *a)\n {\n    if (*a &amp;&amp; *a != ' ')\n&nbsp;     {\n       foo(a+1);\n       putchar(*a);\n      }\n}    </pre>\n\n<p>The output of the above function on input \"\\( ABCD \\ EFGH \\)\" is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ABCD \\ EFGH \\)</p>",
+            "<p>\\( ABCD \\)</p>",
+            "<p>\\( HGFE \\ DCBA \\)</p>",
+            "<p>\\( DCBA \\)</p>"
+          ],
+          "correct_answer": "<p>\\( DCBA \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8086/gate-cse-2015-set-2-question-15\" target=\"_blank\">https://gateoverflow.in/8086/gate-cse-2015-set-2-question-15</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"39730\"></a><div itemprop=\"text\"><p>&nbsp;What will be the output of the following \\( C \\) program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void count (int n) {\n    static int d=1;\n    \n    printf (\"%d\",n);\n    printf (\"%d\",d);\n    d++;\n    if (n&gt;1) count (n-1);\n    printf (\"%d\",d);\n    \n    \n}\n\nvoid main(){\n    count (3);\n}</pre>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\ 1 \\ 2 \\ 2 \\ 1 \\ 3 &nbsp;\\ 4 \\ 4 \\ 4 \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 3 \\ 1 \\ 2 &nbsp;\\ 1 &nbsp;\\ 1 \\ 1 \\ 2 \\ 2 \\ 2 \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 3 \\ 1 &nbsp;\\ 2 \\ 2 \\ 1 \\ 3 \\ 4 \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 3 \\ 1 \\ 2 &nbsp;\\ 1 &nbsp;\\ 1 &nbsp;\\ 1 &nbsp;\\ 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\ 1 \\ 2 \\ 2 \\ 1 \\ 3 &nbsp;\\ 4 \\ 4 \\ 4 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39730/gate-cse-2016-set-1-question-35\" target=\"_blank\">https://gateoverflow.in/39730/gate-cse-2016-set-1-question-35</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"39602\"></a><div itemprop=\"text\"><p>Consider the following program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f (int * p, int n) \n{ \n&nbsp;   if (n &lt;= 1) return 0; \n&nbsp;   else return max (f (p+1, n-1), p[0] - p[1]); \n}\n int main () \n{\n&nbsp;   int a[] = {3, 5, 2, 6, 4}; \n&nbsp;   printf(\" %d\", f(a, 5)); \n}</pre>\n\n<p>Note: \\( \\max (x, y) \\) returns the maximum of \\( x \\) and \\( y \\).</p>\n\n<p>The value printed by this program is ________.</p></div><br><br><b>GATE CSE 2016 Set 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39602/gate-cse-2016-set-2-question-37\" target=\"_blank\">https://gateoverflow.in/39602/gate-cse-2016-set-2-question-37</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"118317\"></a><div itemprop=\"text\"><p>Consider the following two functions.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void fun1(int n) {\n    if(n == 0) return;\n    printf(\"%d\", n);\n    fun2(n - 2);\n    printf(\"%d\", n);\n}\nvoid fun2(int n) {\n    if(n == 0) return;\n    printf(\"%d\", n);\n    fun1(++n);\n    printf(\"%d\", n);\n}\n</pre>\n\n<p>The output printed when \\( \\text{fun1}(5) \\) is called is</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 53423122233445 \\) &nbsp;</p>",
+            "<p>\\( 53423120112233 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 53423122132435 \\) &nbsp;</p>",
+            "<p>\\( 53423120213243 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 53423122233445 \\) &nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118317/gate-cse-2017-set-1-question-35\" target=\"_blank\">https://gateoverflow.in/118317/gate-cse-2017-set-1-question-35</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"118319\"></a><div itemprop=\"text\"><p>Consider the C functions foo and bar given below:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int foo(int val) {\n    int x=0;\n    while(val &gt; 0) {\n        x = x + foo(val--);\n    }\n    return val;\n}</pre>\n\n<pre class=\"prettyprint lang-c_cpp\">int bar(int val) {\n    int x = 0;\n    while(val &gt; 0) {\n        x= x + bar(val-1);\n    }\n    return val;\n}</pre>\n\n<p>Invocations of \\( foo(3) \\) and \\( bar(3) \\) will result in:</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Return of \\( 6 \\) and \\( 6 \\) respectively.</p>",
+            "<p>Infinite loop and abnormal termination respectively.</p>",
+            "<p>Abnormal termination and infinite loop respectively.</p>",
+            "<p>Both terminating abnormally.</p>"
+          ],
+          "correct_answer": "<p>Abnormal termination and infinite loop respectively.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118319/gate-cse-2017-set-1-question-36\" target=\"_blank\">https://gateoverflow.in/118319/gate-cse-2017-set-1-question-36</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"204095\"></a><div itemprop=\"text\"><p>Consider the following \\( \\text{C} \\) program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\n\nint counter=0;\n\nint calc (int a, int b) {\n        int c;\n        counter++;\n        if(b==3) return (a*a*a);\n        else {\n                c = calc(a, b/3);\n                return (c*c*c);\n        }\n}\n\nint main() {\n        calc(4, 81);\n        printf(\"%d\", counter);\n}</pre>\n\n<p>The output of this program is ______.</p></div><br><br><b>GATE CSE 2018 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204095/gate-cse-2018-question-21\" target=\"_blank\">https://gateoverflow.in/204095/gate-cse-2018-question-21</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"333185\"></a><div itemprop=\"text\"><p>Consider the following C functions.</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:100%\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:177px\">\n\t\t\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int fun1(int n) {\n    static int i= 0;\n&nbsp; &nbsp; if (n &gt; 0) {\n&nbsp; &nbsp; &nbsp; &nbsp;++i;\n&nbsp; &nbsp; &nbsp; fun1(n-1);\n&nbsp; &nbsp;}\n&nbsp; return (i);\n}\n</pre>\n\t\t\t</td>\n\t\t\t<td style=\"width:194px\">\n\t\t\t<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int fun2(int n) {\n&nbsp; &nbsp;static int i= 0;\n&nbsp; &nbsp;if (n&gt;0) {\n      i = i+ fun1 (n) ;\n&nbsp; &nbsp; &nbsp; fun2(n-1) ;\n&nbsp; }\nreturn (i);\n}\n</pre>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The return value of \\( \\text{fun}2 (5) \\) is _________</p></div><br><br><b>GATE CSE 2020 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "55",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333185/gate-cse-2020-question-46\" target=\"_blank\">https://gateoverflow.in/333185/gate-cse-2020-question-46</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"460029\"></a><div itemprop=\"text\"><p>&nbsp;</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nint foo(int S[],int size) {\n    if(size == 0) return 0;\n    if(size == 1) return 1;\n    if(S[0] != S[1]) return 1+foo(S+1,size-1);\n    return foo(S+1,size-1);\n}\nint main() {\n    int A[]={0,1,2,2,2,0,0,1,1};\n    printf(\"%d\",foo(A,9));\n    return 0;\n}</pre><p>The value printed by the given \\( C \\) program is ___________. (Answer in integer)</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5:5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460029/gate-cse-2025-set-1-question-51\" target=\"_blank\">https://gateoverflow.in/460029/gate-cse-2025-set-1-question-51</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"3460\"></a><div itemprop=\"text\"><p>The function f is defined as follows:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f (int n) {\n    if (n &lt;= 1) return 1;\n    else if (n % 2  ==  0) return f(n/2);\n    else return f(3n - 1);\n}</pre>\n\n<p>Assuming that arbitrarily large integers can be passed as a parameter to the function, consider the following statements.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>The function \\( f \\) terminates for finitely many different values of \\( n \\geq&nbsp;1 \\).</li>\n\t<li>The function \\( f \\) terminates for infinitely many different values of \\( n \\geq&nbsp;1 \\).</li>\n\t<li>The function \\( f \\) does not terminate for finitely many different values of \\( n \\geq&nbsp;1 \\).</li>\n\t<li>The function \\( f \\) does not terminate for infinitely many different values of \\( n \\geq&nbsp;1 \\).</li>\n</ol>\n\n<p>Which one of the following options is true of the above?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i and iii</p>",
+            "<p>i and iv</p>",
+            "<p>ii and iii</p>",
+            "<p>ii and iv</p>"
+          ],
+          "correct_answer": "<p>ii and iv</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3460/gate-it-2007-question-27\" target=\"_blank\">https://gateoverflow.in/3460/gate-it-2007-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+}

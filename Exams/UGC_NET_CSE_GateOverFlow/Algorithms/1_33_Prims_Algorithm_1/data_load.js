@@ -1,0 +1,29 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Prims Algorithm",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Prims Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349595\"></a><div itemprop=\"text\"><p>Consider the undirected graph below:</p><p><img alt=\"\" width=\"500\" height=\"178\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6185309620277950753\"></p><p>Using Prim’s algorithm to construct a minimum spanning tree starting with node \\( a \\), which one of the following sequences of edges represents a possible order in which the edges would be added to construct the minimum spanning tree?</p></div><br><br><b>Algorithms: UGC NET CSE | October 2020 | Part 2 | Question: 78</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( (a,b), (a,h), (g,h), (f,g), (c,f), (c,i), (c,d), (d,e) \\)</p>",
+            "<p>\\( (a,b), (b,h), (g,h), (g,i), (c,i), (c,f), (c,d), (d,e) \\)</p>",
+            "<p>\\( (a,b), (b,c), (c,i), (c,f), (f,g), (g,h), (c,d), (d,e) \\)</p>",
+            "<p>\\( (a,b), (g,h), (g,f), (c,f), (c,i), (f,e), (b,c), (d,e) \\)&nbsp;</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( (a,b), (a,h), (g,h), (f,g), (c,f), (c,i), (c,d), (d,e) \\)</p>",
+            "<p>\\( (a,b), (b,c), (c,i), (c,f), (f,g), (g,h), (c,d), (d,e) \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349595/ugc-net-cse-october-2020-part-2-question-78\" target=\"_blank\">https://gateoverflow.in/349595/ugc-net-cse-october-2020-part-2-question-78</a></p>"
+        }
+      ]
+    }
+  ]
+});

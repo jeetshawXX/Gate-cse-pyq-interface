@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 15",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Packets of the same session may be routed through different paths in: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP, but not UDP</p>",
+            "<b>B.</b> <p>TCP and UDP</p>",
+            "<b>C.</b> <p>UDP, but not TCP</p>",
+            "<b>D.</b> <p>Neither TCP nor UDP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP and UDP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1359/gate2005-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose that the maximum transmit window size for a TCP connection is 12000 bytes. Each packet consists of 2000 bytes. At some point in time, the connection is in slow-start phase with a current transmit window of 4000 bytes. Subsequently, the transmitter receives two acknowledgments. Assume that no packets are lost and there are no time-outs. What is the maximum possible value of the current transmit window? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4000 bytes</p>",
+            "<b>B.</b> <p>8000 bytes</p>",
+            "<b>C.</b> <p>10000 bytes</p>",
+            "<b>D.</b> <p>12000 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8000 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3732/gate2004-it-88\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A TCP message consisting of 2100  bytes is passed to IP for delivery across two networks. The first network can carry a maximum payload of 1200 bytes per frame and the second network can carry a maximum payload of 400 bytes per frame, excluding network overhead. Assume that IP overhead per packet is 20 bytes. What is the total IP overhead in the second network for this transmission? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>40 bytes</p>",
+            "<b>B.</b> <p>80 bytes</p>",
+            "<b>C.</b> <p>120 bytes</p>",
+            "<b>D.</b> <p>160 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>120 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3731/gate2004-it-87\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In the TCP/IP protocol suite, which one of the following is NOT part of the IP header? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fragment Offset</p>",
+            "<b>B.</b> <p>Source IP address</p>",
+            "<b>C.</b> <p>Destination IP address</p>",
+            "<b>D.</b> <p>Destination port number</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Destination port number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3730/gate2004-it-86\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a simplified time slotted MAC protocol, where each host always has data to send and transmits with probability p = 0.2 in every slot. There is no backoff and one frame can be transmitted in one slot. If more than one host transmits in the same slot, then the transmissions are unsuccessful due to collision. What is the maximum number of hosts which this protocol can support if each host has to be provided a minimum throughput of 0.16 frames per time slot? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3729/gate2004-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a parity check code with three data bits and four parity check bits.<br>\nThree of the Code Words are 0101011,1001101 and 1110001.<br>\nWhich of the following are also code words?<br>\nI.   0010111<br>\nII.  0110110<br>\nIII. 1011010<br>\nIV.  0111010<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and III</p>",
+            "<b>B.</b> <p>I, II and III</p>",
+            "<b>C.</b> <p>II and IV</p>",
+            "<b>D.</b> <p>I, II, III and IV</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3728/gate2004-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A 20 Kbps satellite link has a propagation delay of 400 ms. The transmitter employs the \"go back n ARQ\" scheme with n set to 10. Assuming that each frame is 100 byte long, what is the maximum data rate possible? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 Kbps</p>",
+            "<b>B.</b> <p>10 Kbps</p>",
+            "<b>C.</b> <p>15 Kbps</p>",
+            "<b>D.</b> <p>20 Kbps</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 Kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3727/gate2004-it-83\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a 10 Mbps token ring LAN with a ring latency of 400\\(\\mu s\\). A host that needs to transmit seizes the token. Then it sends a frame of 1000 bytes, removes the frame after it has circulated all around the ring, and finally releases the token. This process is repeated for every frame. Assuming that only a single host wishes to transmit, the effective data rate is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 Mbps</p>",
+            "<b>B.</b> <p>2 Mbps</p>",
+            "<b>C.</b> <p>5 Mbps</p>",
+            "<b>D.</b> <p>6 Mbps</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5 Mbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3726/gate2004-it-82\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In a sliding window ARQ scheme, the transmitter's window size is N and the receiver's window size is M. The minimum number of distinct sequence numbers required to ensure correct operation of the ARQ scheme is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>min (M, N)</p>",
+            "<b>B.</b> <p>max (M, N)</p>",
+            "<b>C.</b> <p>M + N</p>",
+            "<b>D.</b> <p>MN</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>M + N</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3725/gate2004-it-81\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a data link protocol, the frame delimiter flag is given by 0111. Assuming that bit stuffing is employed, the transmitter sends the data sequence 01110110 as <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(01101011\\)</p>",
+            "<b>B.</b> <p>\\(011010110\\)</p>",
+            "<b>C.</b> <p>\\(011101100\\)</p>",
+            "<b>D.</b> <p>\\(0110101100\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(0110101100\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3724/gate2004-it-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A serial transmission T1 uses 8 information bits, 2 start bits, 1 stop bit and 1 parity bit for each character. A synchronous transmission T2 uses 3 eight-bit sync characters followed by 30 eight-bit information characters. If the bit rate is 1200 bits/second in both cases, what are the transfer rates of  T1 and T2? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>100 characters/sec, 153 characters/sec</p>",
+            "<b>B.</b> <p>80 characters/sec, 136 characters/sec</p>",
+            "<b>C.</b> <p>100 characters/sec, 136 characters/sec</p>",
+            "<b>D.</b> <p>80 characters/sec, 153 characters/sec</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>100 characters/sec, 136 characters/sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3688/gate2004-it-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following statements:<br><br>\nI. telnet, ftp and http are application layer protocols.<br>\nII. EJB (Enterprise Java Beans) components can be deployed in a J2EE (Java2 Enterprise Edition) application server.<br>\nIII. If two languages conform to the Common Language Specification (CLS) of the Microsoft.NET frame work, then a class defined in any one of them may be inherited in the other.<br><br>\nWhich statements are true? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3673/gate2004-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In TCP, a unique sequence number is assigned to each <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>byte</p>",
+            "<b>B.</b> <p>word</p>",
+            "<b>C.</b> <p>segment</p>",
+            "<b>D.</b> <p>message</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>byte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3669/gate2004-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A host is connected to a Department network which is part of a University network. The University network, in turn, is part of the Internet. The largest network in which the Ethernet address of the host is unique is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the subnet to which the host belongs</p>",
+            "<b>B.</b> <p>the Department network</p>",
+            "<b>C.</b> <p>the University network</p>",
+            "<b>D.</b> <p>the Internet</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the Internet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3668/gate2004-it-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A subnet has been assigned a subnet mask of 255.255.255.192. What is the maximum number of hosts that can belong to this subnet? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>30</p>",
+            "<b>C.</b> <p>62</p>",
+            "<b>D.</b> <p>126</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3667/gate2004-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

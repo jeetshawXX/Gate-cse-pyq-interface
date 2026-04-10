@@ -1,0 +1,41 @@
+{
+  "title": "CO and Architecture - Register",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Register",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49478\"></a><div itemprop=\"text\"><p>A read bit can be read</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2007 | Question: 08</b></p>",
+          "type": "single",
+          "options": [
+            "<p>and written by CPU</p>",
+            "<p>and written by peripheral</p>",
+            "<p>by peripheral and written by CPU</p>",
+            "<p>by CPU and written by the peripheral</p>"
+          ],
+          "correct_answer": "<p>by CPU and written by the peripheral</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49478/isro-cse-2007-question-08\" target=\"_blank\">https://gateoverflow.in/49478/isro-cse-2007-question-08</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49998\"></a><div itemprop=\"text\"><p>The Memory Address Register</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2008 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is a hardware memory device which denotes the location of the current instruction being executed.</p>",
+            "<p>is a group of electrical ckt, that performs the intent of instructions fetched from memory</p>",
+            "<p>contains the address of the memory location that is to be read from or stored into</p>",
+            "<p>contains a copy of the designated memory location specified by the MAR after a \"read\" or the new contents of the memory prior to a \"write\"</p>"
+          ],
+          "correct_answer": "<p>contains the address of the memory location that is to be read from or stored into</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49998/isro-cse-2008-question-55\" target=\"_blank\">https://gateoverflow.in/49998/isro-cse-2008-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

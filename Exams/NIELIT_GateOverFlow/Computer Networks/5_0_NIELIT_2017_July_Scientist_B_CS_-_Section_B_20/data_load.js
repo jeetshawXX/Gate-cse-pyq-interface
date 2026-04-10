@@ -1,0 +1,311 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - NIELIT 2017 July Scientist B CS - Section B",
+  "duration": 55,
+  "sections": [
+    {
+      "name": "NIELIT 2017 July Scientist B CS - Section B",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336349\"></a><div itemprop=\"text\"><p>The process of converting the analog sample into discrete form is called</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Modulation</p>",
+            "<p>Multiplexing</p>",
+            "<p>Quantization</p>",
+            "<p>Sampling</p>"
+          ],
+          "correct_answer": "<p>Quantization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336349/nielit-2017-july-scientist-b-cs-section-b-26\" target=\"_blank\">https://gateoverflow.in/336349/nielit-2017-july-scientist-b-cs-section-b-26</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336518\"></a><div itemprop=\"text\"><p>Bluetooth is an example of:</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Personal area network</p>",
+            "<p>Virtual private network</p>",
+            "<p>Local area network</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Personal area network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336518/nielit-2016-dec-scientist-b-cs-section-b-20\" target=\"_blank\">https://gateoverflow.in/336518/nielit-2016-dec-scientist-b-cs-section-b-20</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336519\"></a><div itemprop=\"text\"><p>Communication between a computer and a keyboard involves ___________ transmission</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Simplex</p>",
+            "<p>Half-Duplex</p>",
+            "<p>Automatic</p>",
+            "<p>Full-Duplex</p>"
+          ],
+          "correct_answer": "<p>Simplex</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336519/nielit-2016-dec-scientist-b-cs-section-b-19\" target=\"_blank\">https://gateoverflow.in/336519/nielit-2016-dec-scientist-b-cs-section-b-19</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336529\"></a><div itemprop=\"text\"><p>The first Network:</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ARPANET.</p>",
+            "<p>NFSNET.</p>",
+            "<p>CNNET.</p>",
+            "<p>ASAPNET.</p>"
+          ],
+          "correct_answer": "<p>ARPANET.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336529/nielit-2016-dec-scientist-b-cs-section-b-9\" target=\"_blank\">https://gateoverflow.in/336529/nielit-2016-dec-scientist-b-cs-section-b-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336615\"></a><div itemprop=\"text\"><p>Which of this is not a network edge device?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>PC</p>",
+            "<p>Server</p>",
+            "<p>Smartphone</p>",
+            "<p>Switch</p>"
+          ],
+          "correct_answer": "<p>Switch</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336615/nielit-2016-dec-scientist-b-it-section-b-54\" target=\"_blank\">https://gateoverflow.in/336615/nielit-2016-dec-scientist-b-it-section-b-54</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336647\"></a><div itemprop=\"text\"><p>Bluetooth is an example of:</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Local area network.</p>",
+            "<p>Virtual private network.</p>",
+            "<p>Personal area network.</p>",
+            "<p>None of the mentioned above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Personal area network.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336647/nielit-2016-dec-scientist-b-it-section-b-22\" target=\"_blank\">https://gateoverflow.in/336647/nielit-2016-dec-scientist-b-it-section-b-22</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336664\"></a><div itemprop=\"text\"><p>Two alternative packages \\( A \\) and \\( B \\) are available for processing a database having \\( 10k \\) records. Package \\( A \\) requires \\( 0.0001n2 \\) time units and package \\( B \\) requires \\( 10 n \\log 10n \\) time units​ ​ to process \\( n \\) records. What is the smallest value of \\( k \\) for which package \\( B \\) will be preferred over \\( A \\)?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336664/nielit-2016-dec-scientist-b-it-section-b-5\" target=\"_blank\">https://gateoverflow.in/336664/nielit-2016-dec-scientist-b-it-section-b-5</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"336667\"></a><div itemprop=\"text\"><p>Three or more devices share a link in&nbsp;________&nbsp;connection</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unipoint</p>",
+            "<p>Polarpoint</p>",
+            "<p>Point to point</p>",
+            "<p>Multipoint</p>"
+          ],
+          "correct_answer": "<p>Multipoint</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336667/nielit-2016-dec-scientist-b-it-section-b-2\" target=\"_blank\">https://gateoverflow.in/336667/nielit-2016-dec-scientist-b-it-section-b-2</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"336894\"></a><div itemprop=\"text\"><p>If the channel is band limited to \\( 6\\;kHz \\) and signal to noise ratio is \\( 16, \\) what would be the capacity of channel?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16.15 \\) kbps</p>",
+            "<p>\\( 23.24 \\) kbps</p>",
+            "<p>\\( 40.12 \\) kbps</p>",
+            "<p>\\( 24.74 \\) kbps</p>"
+          ],
+          "correct_answer": "<p>\\( 24.74 \\) kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336894/nielit-2017-oct-scientific-assistant-a-cs-section-b-26\" target=\"_blank\">https://gateoverflow.in/336894/nielit-2017-oct-scientific-assistant-a-cs-section-b-26</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"336953\"></a><div itemprop=\"text\"><p>The maximum data rate of a channel of \\( 3000 \\)-Hz bandwidth and SNR of \\( 30 \\) db is</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 60000 \\)</p>",
+            "<p>\\( 15000 \\)</p>",
+            "<p>\\( 30000 \\)</p>",
+            "<p>\\( 3000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336953/nielit-2017-oct-scientific-assistant-a-it-section-b-32\" target=\"_blank\">https://gateoverflow.in/336953/nielit-2017-oct-scientific-assistant-a-it-section-b-32</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"337232\"></a><div itemprop=\"text\"><p>In networking terminology UTP means</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unshielded Twisted pair</p>",
+            "<p>Ubiquitious Teflon port</p>",
+            "<p>Uniformly Terminating port</p>",
+            "<p>Unshielded T- connector port</p>"
+          ],
+          "correct_answer": "<p>Unshielded Twisted pair</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337232/nielit-2016-mar-scientist-c-section-c-33\" target=\"_blank\">https://gateoverflow.in/337232/nielit-2016-mar-scientist-c-section-c-33</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"337243\"></a><div itemprop=\"text\"><p>What are the primary characteristics that distinguish a cell from a packet?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cells are generally smaller that packets</p>",
+            "<p>cells do not incorporate physical address</p>",
+            "<p>all cells have the same fixed length</p>",
+            "<p>packet cannot be switched</p>"
+          ],
+          "correct_answer": "<p>all cells have the same fixed length</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337243/nielit-2016-mar-scientist-c-section-c-22\" target=\"_blank\">https://gateoverflow.in/337243/nielit-2016-mar-scientist-c-section-c-22</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"337244\"></a><div itemprop=\"text\"><p>Repeaters function in</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Physical layer</p>",
+            "<p>Data link layer</p>",
+            "<p>Network layer</p>",
+            "<p>Both (A) and (B)</p>"
+          ],
+          "correct_answer": "<p>Physical layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337244/nielit-2016-mar-scientist-c-section-c-21\" target=\"_blank\">https://gateoverflow.in/337244/nielit-2016-mar-scientist-c-section-c-21</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"337245\"></a><div itemprop=\"text\"><p>Start and stop bits are used in serial communication for&nbsp;</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>error detection</p>",
+            "<p>error correction</p>",
+            "<p>synchronization</p>",
+            "<p>slowing down the communication</p>"
+          ],
+          "correct_answer": "<p>synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337245/nielit-2016-mar-scientist-c-section-c-20\" target=\"_blank\">https://gateoverflow.in/337245/nielit-2016-mar-scientist-c-section-c-20</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"351378\"></a><div itemprop=\"text\"><p>To guarantee correction of upto \\( 5 \\) errors in all cases, the minimum Hamming distance in a block code must be ______.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientific Assistant A 2020 November: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351378/nielit-scientific-assistant-a-2020-november-82\" target=\"_blank\">https://gateoverflow.in/351378/nielit-scientific-assistant-a-2020-november-82</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"351418\"></a><div itemprop=\"text\"><p>In \\( \\text{ICMP} \\), in case of time exceeded error,&nbsp; when the datagram visits a router, the value of time to live field is ________</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientific Assistant A 2020 November: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Remains constant</p>",
+            "<p>Decremented by \\( 2 \\)</p>",
+            "<p>Incremented by \\( 1 \\)</p>",
+            "<p>Decremented by \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>Decremented by \\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351418/nielit-scientific-assistant-a-2020-november-43\" target=\"_blank\">https://gateoverflow.in/351418/nielit-scientific-assistant-a-2020-november-43</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"351594\"></a><div itemprop=\"text\"><p>In which modulation discrete values of carrier frequencies is used to transmit binary data?</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Phase Shift Keying</p>",
+            "<p>Amplitude Shift Keying</p>",
+            "<p>Frequency Shift Keying</p>",
+            "<p>Disk Shift Keying</p>"
+          ],
+          "correct_answer": "<p>Frequency Shift Keying</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351594/nielit-scientist-b-2020-november-88\" target=\"_blank\">https://gateoverflow.in/351594/nielit-scientist-b-2020-november-88</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"351599\"></a><div itemprop=\"text\"><p>_____________ possible labels are allowed in the first level of generic domain.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 83</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>none of the options</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351599/nielit-scientist-b-2020-november-83\" target=\"_blank\">https://gateoverflow.in/351599/nielit-scientist-b-2020-november-83</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"366924\"></a><div itemprop=\"text\"><p>The spectral efficiency of \\( \\text{QPSK} \\) null to null having a width \\( 4 \\; \\text{Hz} \\) will be \\( : \\)</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366924/nielit-2021-dec-scientist-b-section-b-93\" target=\"_blank\">https://gateoverflow.in/366924/nielit-2021-dec-scientist-b-section-b-93</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"366958\"></a><div itemprop=\"text\"><p>A wireless network interface controller can work in _______________ .</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>infrastructure mode</p>",
+            "<p>ad–hoc mode&nbsp;</p>",
+            "<p>both infrastructure mode and ad-hoc mode&nbsp;</p>",
+            "<p>\\( \\text{WDS} \\) mode</p>"
+          ],
+          "correct_answer": "<p>both infrastructure mode and ad-hoc mode&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366958/nielit-2021-dec-scientist-b-section-b-59\" target=\"_blank\">https://gateoverflow.in/366958/nielit-2021-dec-scientist-b-section-b-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

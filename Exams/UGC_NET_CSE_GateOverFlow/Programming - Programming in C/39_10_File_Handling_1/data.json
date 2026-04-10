@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - File Handling",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "File Handling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57099\"></a><div itemprop=\"text\"><p>Which of the following mode declaration used in C++ to open a file for input?</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | December 2012 | Part 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ios : : app</p>",
+            "<p>in : : ios</p>",
+            "<p>ios : : file</p>",
+            "<p>ios : : in</p>"
+          ],
+          "correct_answer": "<p>ios : : in</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57099/ugc-net-cse-december-2012-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/57099/ugc-net-cse-december-2012-part-2-question-42</a></p>"
+        }
+      ]
+    }
+  ]
+}

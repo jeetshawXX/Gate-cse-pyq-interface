@@ -1,0 +1,238 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 20",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: <br>\nIn which of the cases stated below is the following statement true?<br>\n\"For every non-deterministic machine \\(M_{1}\\) there exists an equivalent deterministic machine \\(M_{2}\\)recognizing the same language\". <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(M_{1}\\) is non-deterministic finite automaton.</p>",
+            "<b>B.</b> <p>\\(M_{1}\\) is non-deterministic PDA.</p>",
+            "<b>C.</b> <p>\\(M_{1}\\) is a non-deterministic Turing machine.</p>",
+            "<b>D.</b> <p>For no machines \\(M_{1}\\) and \\(M_{2}\\),  the above statement true.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(M_{1}\\) is non-deterministic finite automaton.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/577/gate1992-02-xx\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only: <br>\nIf G is a context free grammar and w is a string of length l in L(G), how long is a derivation of w in G, if G is in Chomsky normal form? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2l</p>",
+            "<b>B.</b> <p>2l+1</p>",
+            "<b>C.</b> <p>2l-1</p>",
+            "<b>D.</b> <p>l</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2l-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/576/gate1992-02-xviii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following regular expression identities is/are TRUE? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(r^{(^*)} =r^*\\)</p>",
+            "<b>B.</b> <p>\\((r^*s^*)=(r+s)^*\\)</p>",
+            "<b>C.</b> <p>\\((r+s)^* = r^* + s^*\\)</p>",
+            "<b>D.</b> <p>\\(r^*s^* = r^*+s^*\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(r^{(^*)} =r^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/575/gate1992-02-xvii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nContext-free languages are: <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>closed under union</p>",
+            "<b>B.</b> <p>closed under complementation</p>",
+            "<b>C.</b> <p>closed under intersection</p>",
+            "<b>D.</b> <p>closed under Kleene closure</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>closed under union</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/572/gate1992-02-xix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Choose the correct alternatives (more than one may be correct ) and write the corresponding letters only:<br>\nConsider the SLR(1) and LALR (1)  parsing tables for a context free grammar. Which of the following statement is/are true? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The goto part of both tables may be different.</p>",
+            "<b>B.</b> <p>The shift entries are identical in both the tables.</p>",
+            "<b>C.</b> <p>The reduce entries in the tables may be different.</p>",
+            "<b>D.</b> <p>The error entries in tables may be different</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The shift entries are identical in both the tables.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/571/gate1992-02-xiv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>For a context free grammar, FOLLOW(A) is the set of terminals that can appear immediately to the right of non-terminal A in some \"sentential\" form. We define two sets LFOLLOW(A) and RFOLLOW(A) by replacing the word \"sentential\" by \"left sentential\" and \"right most sentential\" respectively in the definition of FOLLOW (A). <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FOLLOW(A) and LFOLLOW(A) may be different.</p>",
+            "<b>B.</b> <p>FOLLOW(A) and RFOLLOW(A) are always the same.</p>",
+            "<b>C.</b> <p>All the three sets are identical.</p>",
+            "<b>D.</b> <p>All the three sets are different.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>FOLLOW(A) and LFOLLOW(A) may be different.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/570/gate1992-02-xiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only.<br>Let \\(r=1(1+0)^*, s=11^*0 \\text{ and } t=1^*0\\) be three regular expressions. Which one of the following is true? <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L(s) \\subseteq L(r) \\text{ and } L(s) \\subseteq L(t)\\)</p>",
+            "<b>B.</b> <p>\\(L(r) \\subseteq L(s) \\text{ and }  L(s) \\subseteq L(t)\\)</p>",
+            "<b>C.</b> <p>\\(L(s) \\subseteq L(t) \\text{ and }  L(s) \\subseteq L(r)\\)</p>",
+            "<b>D.</b> <p>\\(L(t) \\subseteq L(s)\\text{ and }  L(s) \\subseteq L(r)\\)</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L(s) \\subseteq L(r) \\text{ and } L(s) \\subseteq L(t)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/527/gate1991-03-xiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following is the strongest correct statement about a finite language over some finite alphabet \\(\\Sigma\\)? <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It could be undecidable</p>",
+            "<b>B.</b> <p>It is Turing-machine recognizable</p>",
+            "<b>C.</b> <p>It is a context sensitive language.</p>",
+            "<b>D.</b> <p>It is a regular language.</p>",
+            "<b>E.</b> <p>None of the above,</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It is Turing-machine recognizable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/528/gate1991-03-xiv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Let \\(R_{1}\\) and \\(R_{2}\\) be regular sets defined over the alphabet \\(\\Sigma\\) Then: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(R_{1} \\cap R_{2}\\) is not regular.</p>",
+            "<b>B.</b> <p>\\(R_{1} \\cup R_{2}\\) is regular.</p>",
+            "<b>C.</b> <p>\\(\\Sigma^{*}-R_{1}\\) is regular.</p>",
+            "<b>D.</b> <p>\\(R_{1}^{*}\\) is not regular.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(R_{1} \\cup R_{2}\\) is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84837/gate1990-3-viii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>It is undecidable whether: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An arbitrary Turing machine halts after 100 steps.</p>",
+            "<b>B.</b> <p>A Turing machine prints a specific letter.</p>",
+            "<b>C.</b> <p>A Turing machine computes the products of two numbers</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A Turing machine prints a specific letter.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84835/gate1990-3-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Recursive languages are: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A proper superset of context free languages.</p>",
+            "<b>B.</b> <p>Always recognizable by pushdown automata.</p>",
+            "<b>C.</b> <p>Also called type 0 languages.</p>",
+            "<b>D.</b> <p>Recognizable by Turing machines.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A proper superset of context free languages.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84833/gate1990-3-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Answer the following questions:<br>Which of the following problems are undecidable? <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Membership problem in context-free languages.</p>",
+            "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+            "<b>C.</b> <p>Whether a finite state automation halts on all inputs.</p>",
+            "<b>D.</b> <p>Membership problem for type 0 languages.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87123/gate1989-3-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Context-free languages and regular languages are both closed under the operation (s) of : <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Union</p>",
+            "<b>B.</b> <p>Intersection</p>",
+            "<b>C.</b> <p>Concatenation</p>",
+            "<b>D.</b> <p>Complementation</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Union</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87117/gate1989-3-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following problems are un-decidable?<br>[MSQ] <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Membership problem in context-free languages.</p>",
+            "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+            "<b>C.</b> <p>Whether a finite state automation halts on all inputs.</p>",
+            "<b>D.</b> <p>Membership problem for type 0 languages.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87123/gate1989-3-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A context-free grammar is ambiguous if: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The grammar contains useless non-terminals.</p>",
+            "<b>B.</b> <p>It produces more than one parse tree for some sentence.</p>",
+            "<b>C.</b> <p>Some production has two non terminals side by side on the right-hand side.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It produces more than one parse tree for some sentence.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80291/gate1987-1-xii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

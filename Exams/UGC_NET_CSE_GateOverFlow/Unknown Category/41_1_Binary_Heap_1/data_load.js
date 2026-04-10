@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Unknown Category - Binary Heap",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Heap",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"288355\"></a><div itemprop=\"text\"><p>The elements \\( 42, 25, 30, 40, 22, 35, 26 \\) are inserted one by one in the given order into a max-heap. The resultant max-heap is sorted in an array implementation as</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2018 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( &lt;42, 40, 35, 25, 22, 30, 26&gt; \\)</p>",
+            "<p>\\( &lt;42, 35, 40, 22, 25, 30, 26&gt; \\)</p>",
+            "<p>\\( &lt;42, 40, 35, 25, 22, 26, 30&gt; \\)</p>",
+            "<p>\\( &lt;42, 35, 40, 22, 25, 26, 30&gt; \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288355/ugc-net-cse-december-2018-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/288355/ugc-net-cse-december-2018-part-2-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+});

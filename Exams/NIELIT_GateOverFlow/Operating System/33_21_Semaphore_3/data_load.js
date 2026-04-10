@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Operating System - Semaphore",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Semaphore",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275507\"></a><div itemprop=\"text\"><p>In a system, counting semaphore was initialized to \\( 10 \\), then \\( 6P \\)(wait) operations and \\( 4V \\) (signal) operations were completed on this semaphore. So _____ is the final value of the semaphore.</p>\n\n</div><br><br><b>Operating System: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275507/nielit-2018-57\" target=\"_blank\">https://gateoverflow.in/275507/nielit-2018-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366938\"></a><div itemprop=\"text\"><p>A protected variable which can be accessed and changed by particular set of operation is called \\( : \\)</p>\n\n</div><br><br><b>Operating System: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>interrupt&nbsp;</p>",
+            "<p>monitor</p>",
+            "<p>semaphore</p>",
+            "<p>\\( \\text{IPC} \\)</p>"
+          ],
+          "correct_answer": "<p>semaphore</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366938/nielit-2021-dec-scientist-b-section-b-79\" target=\"_blank\">https://gateoverflow.in/366938/nielit-2021-dec-scientist-b-section-b-79</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373728\"></a><div itemprop=\"text\"><p>The atomic <em>fetch-and-set</em>&nbsp;\\( x, y \\) instruction unconditionally sets the memory&nbsp;location \\( x \\) to \\( 1 \\) and fetches the old value of \\( x \\)&nbsp;in \\( y \\) without allowing any intervening&nbsp;access to the memory location \\( x \\). Consider the following implementation of \\( \\text{P} \\) and \\( \\text{V} \\) functions on a binary semaphore \\( \\text{S} \\).</p>\n\n<pre>void P (binary_semaphore *s) { \n    unsigned y; \n    unsigned *x = &amp;(s-&gt;value); \n    do { \n        fetch-and-set x, y; \n    } while (y); \n}\n\nvoid V (binary_semaphore *s) { \n    S-&gt;value = 0; \n} </pre>\n\n<p>Which one of the following is true?&nbsp;</p>\n\n</div><br><br><b>Operating System: NIELIT 2022 April Scientist B | Section B | Question: 110</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The implementation may not work if context switching is disabled in \\( \\text{P} \\)&nbsp;</p>",
+            "<p>Instead of using <em>fetch-and –set</em>, a pair of normal load/store can be used&nbsp;</p>",
+            "<p>The implementation of \\( \\text{V} \\) is wrong</p>",
+            "<p>The code does not implement a binary semaphore</p>"
+          ],
+          "correct_answer": "<p>The implementation may not work if context switching is disabled in \\( \\text{P} \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373728/nielit-2022-april-scientist-b-section-b-question-110\" target=\"_blank\">https://gateoverflow.in/373728/nielit-2022-april-scientist-b-section-b-question-110</a></p>"
+        }
+      ]
+    }
+  ]
+});

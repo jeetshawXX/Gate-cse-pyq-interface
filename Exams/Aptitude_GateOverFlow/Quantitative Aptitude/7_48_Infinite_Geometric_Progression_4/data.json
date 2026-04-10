@@ -1,0 +1,71 @@
+{
+  "title": "Quantitative Aptitude - Infinite Geometric Progression",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Infinite Geometric Progression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1088\"></a><div itemprop=\"text\"><p>Let \\( S=2x + 5x^2 + 9x^3 + 14x^4 + 20x^5 \\dots \\dots  \\) infinity. The coefficient of \\( n \\)-th term is\\( \\frac{n(n+3)}{2} \\). Then the sum \\( S \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{x(2-x)}{(1-x)^3} \\)</p>",
+            "<p>\\( \\frac{(2-x)}{(1-x)^3} \\)</p>",
+            "<p>\\( \\frac{x(2-x)}{(1-x)^2} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1088/cat-2002-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/1088/cat-2002-question-73</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2007\"></a><div itemprop=\"text\"><p>The infinite sum \\( 1 + \\frac{4}{7} + \\frac{9}{7^2} + \\frac{16}{7^3} + \\frac{25}{7^4} + \\dots \\)&nbsp; equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{27}{14} \\)</p>",
+            "<p>\\( \\frac{21}{13} \\)</p>",
+            "<p>\\( \\frac{49}{27} \\)</p>",
+            "<p>\\( \\frac{256}{147} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{49}{27} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2007/cat-2003-question-2-69\" target=\"_blank\">https://aptitude.gateoverflow.in/2007/cat-2003-question-2-69</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5024\"></a><div itemprop=\"text\"><p>Let \\( \\text{S} \\) denote the infinite sum&nbsp; \\( 2+5x+9x^{2}+14x^{3}+20x^{4}+\\ldots \\)</p>\n\n<p>where \\( \\mid x \\mid &lt; 1 \\) and the coefficient of \\( x^{n-1} \\) is \\( \\dfrac{1}{2}n\\left ( n+3 \\right ), \\left ( n=1,2,\\ldots&nbsp;\\right ). \\) Then \\( \\text{S} \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2010 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{2-x}{(1-x)^{3}} \\)</p>",
+            "<p>\\( \\frac{2-x}{(1+x)^{3}} \\)</p>",
+            "<p>\\( \\frac{2+x}{(1-x)^{3}} \\)</p>",
+            "<p>\\( \\frac{2+x}{(1+x)^{3}} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5024/cat-2010-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/5024/cat-2010-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"5842\"></a><div itemprop=\"text\"><p>An infinite geometric progression&nbsp;\\( a_{1},a_{2},a_{3},\\dots\\dots \\) has the property that \\( a_n&nbsp;=3(a_{n+1}+a_{n+2}+\\dots\\dots) \\)&nbsp;for every \\( n\\geq 1 \\). If the sum&nbsp;\\( a_{1}+a_{2}+a_{3}+\\dots\\dots=32, \\) then&nbsp;\\( a_{5} \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/32 \\)</p>",
+            "<p>\\( 2/32 \\)</p>",
+            "<p>\\( 3/32 \\)</p>",
+            "<p>\\( 4/32 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3/32 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5842/cat-2017-set-2-question-99\" target=\"_blank\">https://aptitude.gateoverflow.in/5842/cat-2017-set-2-question-99</a></p>"
+        }
+      ]
+    }
+  ]
+}

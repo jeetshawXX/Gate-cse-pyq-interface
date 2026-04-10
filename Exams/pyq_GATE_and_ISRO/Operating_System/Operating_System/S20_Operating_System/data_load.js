@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 20",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A computer system supports 32-bit virtual addresses as well as 32-bit physical\naddresses, Since the virtual address space is of the same size as the physical\naddress space, the operating system designers decide to get rid of the virtual\nentirely. Which one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Efficient implementation of multi-user support is no longer possible</p>",
+            "<b>B.</b> <p>The processor cache organization can be made more efficient now</p>",
+            "<b>C.</b> <p>Hardware support for memory management is no longer needed</p>",
+            "<b>D.</b> <p>CPU scheduling can be made more efficient now</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Efficient implementation of multi-user support is no longer possible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1841/gate2006-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The atomic feth-and-set x,y instruction unconditionally sets the memory location\nx to 1 and fetches the old value of x in y without allowing any intervening access\nto the memory location x . Consider the following implementation of P and V\nfunctions on a binary semaphore S.<pre><code>void P(binary_semaphore*S){\n   unsigned y;\n   unsigned*x =&amp; (S-&gt;value);\n   do {\n          fetch-and-set x,y;\n         } while(y);\n }\nvoid V (binary_semphore*S){\n      S_&gt;value = 0;\n}</code></pre>\nWhich one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The implementation may not work if context switching is disabled in P</p>",
+            "<b>B.</b> <p>Instead of using fetch-and-set, a pair of normal load/store can be used</p>",
+            "<b>C.</b> <p>The implementation of V is wrong</p>",
+            "<b>D.</b> <p>The code does not implement a binary semaphore</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The implementation may not work if context switching is disabled in P</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1839/gate2006-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider three CPU-intensive processes, which require 10,20 and 30 time units\nand arrive at times 0,2, and 6, respectively. How many context switches are needed\nif the operating system implements a shortes remaining time first scheduling\nalgorithm? Do not count the context switches at time zero and at the end <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/885/gate2006-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Two shared resources \\(R_1\\) and \\(R_2\\) are used by processes \\(P_1\\) and \\(P_2\\). Each process has a certain priority for accessing each resource. Let \\(T_{ij}\\) denote the priority of \\(P_i\\) for accessing  \\(R_j\\). A process \\(P_i\\) can snatch a resource \\(R_k\\) from process \\(P_j\\) if \\(T_{ik}\\) is greater than \\(T_{jk}\\).<br>\nGiven the following :<br><br>\n(I). \\(T_{11} \\gt T_{21}\\)<br>\n(II). \\(T_{12} \\gt T_{22}\\)<br>\n(III). \\(T_{11} \\lt T_{21}\\)<br>\n(IV). \\(T_{12} \\lt T_{22}\\)<br><br>\nWhich of the following conditions ensures that \\(P_1\\) and \\(P_2\\) can never deadlock? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) and (IV)</p>",
+            "<b>B.</b> <p>(II) and (III)</p>",
+            "<b>C.</b> <p>(I) and (II)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(I) and (II)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3823/gate2005-it-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>We wish to schedule three processes P1, P2 and P3 on a uniprocessor system. The priorities, CPU time requirements and arrival times of the processes are as shown below.<br>\n\\(\\begin{array}{|c|c|c|c|} \\hline \\textbf{Process} &amp; \\textbf{Priority} &amp; \\textbf{CPU time} &amp; \\textbf{Arrival time}\\\\ &amp; &amp; \\textbf{required} &amp; \\textbf{(hh:mm:ss)} \\\\\\hline \\text{P1} &amp; \\text{10 (highest)} &amp; 20\\text{ sec} &amp; 00:00:05 \\\\\\hline \\text{P2} &amp; 9 &amp; 10 \\text{ sec}&amp; 00:00:03 \\\\\\hline \\text{P3} &amp; \\text{8 (lowest)} &amp; 15 \\text{ sec}&amp; 00:00:00 \\\\\\hline \\end{array}\\)<br>\nWe have a choice of preemptive or non-preemptive scheduling. In preemptive scheduling, a late-arriving higher priority process can preempt a currently running process with lower priority. In non-preemptive scheduling, a late-arriving higher priority process must wait for the currently executing process to complete before it can be scheduled on the processor.<br>\nWhat are the turnaround times (time from arrival till completion) of P2 using preemptive and non-preemptive scheduling respectively? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30 sec, 30 sec</p>",
+            "<b>B.</b> <p>30 sec, 10 sec</p>",
+            "<b>C.</b> <p>42 sec, 42 sec</p>",
+            "<b>D.</b> <p>30 sec, 42 sec</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>30 sec, 42 sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3821/gate2005-it-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Two concurrent processes P1 and P2 use four shared resources R1, R2, R3 and R4, as shown below. <br>\n\\(\\begin{array}{|l|l|}\\hline \\textbf{P1} &amp; \\textbf{P2} \\\\ \\text{Compute: } &amp; \\text{Compute;} \\\\ \\text{Use $R1;$ } &amp; \\text{Use $R1;$} \\\\ \\text{Use $R2;$ } &amp; \\text{Use $R2;$}\\\\ \\text{Use $R3;$ } &amp; \\text{Use $R3;$} \\\\ \\text{Use $R4;$ } &amp; \\text{Use $R4;$} \\\\\\hline \\end{array}\\)<br>\nBoth processes are started at the same time, and each resource can be accessed by only one process at a time The following scheduling constraints exist between the access of resources by the processes:<br>\nP2 must complete use of R1 before P1 gets access to R1.<br>\nP1 must complete use of R2 before P2 gets access to R2.<br>\nP2 must complete use of R3 before P1 gets access to R3.<br>\nP1 must complete use of R4 before P2 gets access to R4.<br>\nThere are no other scheduling constraints between the processes. If only binary semaphores are used to enforce the above scheduling constraints, what is the minimum number of binary semaphores needed? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3789/gate2005-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Given below is a program which when executed spawns two concurrent processes :<br>\nsemaphore X : = 0 ;<br>\n/* Process now forks into concurrent processes P1 &amp; P2 */<br>\\(\\begin{array}{|l|l|}\\hline \\text{$P1$} &amp; \\text{$P2$} \\\\\\hline \\text{repeat forever } &amp; \\text{repeat forever} \\\\ \\text{$V (X) ;$ } &amp; \\text{$ P(X) ;$} \\\\ \\text{Compute; } &amp; \\text{Compute;}\\\\ \\text{$P(X) ;$ } &amp; \\text{$V(X) ;$} \\\\\\hline \\end{array}\\)<br>\nConsider the following statements about processes P1 and P2:<br>\nI.It is possible for process P1 to starve.<br>\nII.It is possible for process P2 to starve.<br>\nWhich of the following holds? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both (I) and (II) are true.</p>",
+            "<b>B.</b> <p>(I) is true but (II) is false.</p>",
+            "<b>C.</b> <p>(II) is true but (I) is false</p>",
+            "<b>D.</b> <p>Both (I) and (II) are false</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both (I) and (II) are true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3788/gate2005-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A user level process in Unix traps the signal sent on a Ctrl-C input, and has a signal handling routine that saves appropriate files before terminating the process. When a Ctrl-C input is given to this process, what is the mode in which the signal handling routine executes? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>User mode</p>",
+            "<b>B.</b> <p>Kernel mode</p>",
+            "<b>C.</b> <p>Superuser mode</p>",
+            "<b>D.</b> <p>Privileged mode</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>User mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3764/gate2005-it-19-ugcnet-june2012-iii-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The shell command<br><pre><code> find -name passwd -print</code></pre> <br>\nis executed in /etc directory of a computer system running Unix. Which of the following shell commands will give the same information as the above command when executed in the same directory? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ls passwd</p>",
+            "<b>B.</b> <p>cat passwd</p>",
+            "<b>C.</b> <p>grep name passwd</p>",
+            "<b>D.</b> <p>grep print passwd</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>grep name passwd</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3763/gate2005-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A student wishes to create symbolic links in a computer system running Unix. Three text files named \"file 1\", \"file 2\" and \"file 3\" exist in her current working directory, and the student has read and write permissions for all three files. Assume that file 1 contains information about her hobbies, file 2 contains information about her friends and file 3 contains information about her courses. The student executes the following sequence of commands from her current working directory. <br><pre><code> ln -s file 1 file 2\nln -s file 2 file 3</code></pre> <br>\nWhich of the following types of information would be lost from her file system?<br>\nI.Hobbies<br>\nII.Friends<br>\nIII.Courses<br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>I and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3762/gate2005-it-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following code fragment:<pre><code>  if (fork() == 0)\n  { a = a + 5; printf(\"%d,%dn\", a, &amp;a); }\n  else { a = a - 5; printf(\"%d, %dn\", a, &amp;a); }  </code></pre> Let u, v be the values printed by the parent process, and x, y be the values printed by the child process. Which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>u = x + 10 and v = y</p>",
+            "<b>B.</b> <p>u = x + 10 and v != y</p>",
+            "<b>C.</b> <p>u + 10 = x and v = y</p>",
+            "<b>D.</b> <p>u + 10 = x and v != y</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>u + 10 = x and v = y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/765/gate2005-72#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose n processes, \\(P_1,..., P_n\\) share m identical resource units, which can be reserved and released one at a time. The maximum resource requirement of process \\(P_i\\) is \\(s_i\\), where \\(s_i \\gt 0\\). Which one of the following is a sufficient condition for ensuring that deadlock does not occur?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q71_66b23f1e.jpg\"> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1394/gate2005-71#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Increasing the RAM of a computer typically improves performance because: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Virtual memory increases</p>",
+            "<b>B.</b> <p>Larger RAMs are faster</p>",
+            "<b>C.</b> <p>Fewer page faults occur</p>",
+            "<b>D.</b> <p>Fewer segmentation faults occur</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Fewer page faults occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1358/gate2005-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What is the swap space in the disk used for? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Saving temporary html pages</p>",
+            "<b>B.</b> <p>Saving process data</p>",
+            "<b>C.</b> <p>Storing the super-block</p>",
+            "<b>D.</b> <p>Storing device drivers</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Saving process data</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1357/gate2005-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>In a particular Unix OS, each data block is of size 1024 bytes, each node has 10 direct data block addresses and three additional addresses: one for single indirect block, one for double indirect block and one for triple indirect block. Also, each block can contain addresses for 128 blocks. Which one of the following is approximately the maximum size of a file in the file system? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>512 MB</p>",
+            "<b>B.</b> <p>2 GB</p>",
+            "<b>C.</b> <p>8 GB</p>",
+            "<b>D.</b> <p>16 GB</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 GB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3710/gate2004-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

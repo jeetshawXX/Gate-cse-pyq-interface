@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Modular Arithmetic",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Modular Arithmetic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"410894\"></a><div itemprop=\"text\"><p>What is the remainder when \\( 153 \\times 698 \\) is divided by \\( 5 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410894/nielit-2023-feb-scientist-d-section-c-question-70\" target=\"_blank\">https://gateoverflow.in/410894/nielit-2023-feb-scientist-d-section-c-question-70</a></p>"
+        }
+      ]
+    }
+  ]
+}

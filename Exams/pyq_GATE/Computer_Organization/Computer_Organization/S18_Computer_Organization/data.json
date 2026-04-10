@@ -1,0 +1,133 @@
+{
+  "title": "Computer_Organization - Computer_Organization - Slot 18",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nThe TRAP interrupts mechanism of the 8085 microprocessor: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>executes an RST by hardware</p>",
+            "<b>B.</b> <p>executes an instruction supplied by an external device through the INTA signal</p>",
+            "<b>C.</b> <p>executes an instruction from memory location 20H</p>",
+            "<b>D.</b> <p>executes a NOP</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>E.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/518/gate1991-03-iv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The advantages of CMOS technology over a MOS is: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower power dissipation</p>",
+            "<b>B.</b> <p>greater speed</p>",
+            "<b>C.</b> <p>smaller chip size</p>",
+            "<b>D.</b> <p>fewer masks for fabrication</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>greater speed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/515/gate1991-03-i\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>On receiving an interrupt from a I/O device the CPU: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Halts for a predetermined time.</p>",
+            "<b>B.</b> <p>Hands over control of address bus and data bus to the interrupting device.</p>",
+            "<b>C.</b> <p>Branches off to the interrupt service routine immediately.</p>",
+            "<b>D.</b> <p>Branches off to the interrupt service routine after completion of the current instruction.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Branches off to the interrupt service routine after completion of the current instruction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80274/gate1987-1-viii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A microprogrammed control unit <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is faster than a hard-wired control unit.</p>",
+            "<b>B.</b> <p>Facilitates easy implementation of new instruction.</p>",
+            "<b>C.</b> <p>Is useful when very small programs are to be run.</p>",
+            "<b>D.</b> <p>Usually refers to the control unit of a microprocessor.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Facilitates easy implementation of new instruction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80199/gate1987-1-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The most relevant addressing mode to write position-independent codes is: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Direct mode</p>",
+            "<b>B.</b> <p>Indirect mode</p>",
+            "<b>C.</b> <p>Relative mode</p>",
+            "<b>D.</b> <p>Indexed mode</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relative mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80194/gate1987-1-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Microprogrammed control unit: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is faster than a hardwired control unit</p>",
+            "<b>B.</b> <p>facilitates easy implementation of new instructions</p>",
+            "<b>C.</b> <p>is useful when very small programs are to be run</p>",
+            "<b>D.</b> <p>usually refers to control unit of a microprocessor</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>facilitates easy implementation of new instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/166/gate1987-1-vi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The data transfer rate of a double-density floppy disk system is about: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5K bits/sec</p>",
+            "<b>B.</b> <p>50K bits/sec</p>",
+            "<b>C.</b> <p>500K bits/sec</p>",
+            "<b>D.</b> <p>5000K bits/sec</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>500K bits/sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80281/gate1987-1-x\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The refreshing rate of dynamic RAMs is in the range of <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 microseconds</p>",
+            "<b>B.</b> <p>2 milliseconds.</p>",
+            "<b>C.</b> <p>50 milli seconds</p>",
+            "<b>D.</b> <p>500 milliseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 milliseconds.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80278/gate1987-1-ix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

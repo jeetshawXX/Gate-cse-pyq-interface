@@ -1,0 +1,636 @@
+window.__examLoadCallback({
+  "title": "English Language - Fill The Blank",
+  "duration": 116,
+  "sections": [
+    {
+      "name": "Fill The Blank",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1183\"></a><div itemprop=\"text\"><p>Though one eye is kept firmly on the ________, the company now also promotes ________ contemporary art.</p>\n\n</div><br><br><b>English Language: CAT 2000 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>present, experimental</p>",
+            "<p>future, popular</p>",
+            "<p>present, popular</p>",
+            "<p>market, popular</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1183/cat-2000-question-46\" target=\"_blank\">https://aptitude.gateoverflow.in/1183/cat-2000-question-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1184\"></a><div itemprop=\"text\"><p>The law prohibits a person from felling a sandalwood tree, even if it grows on one’s own land, without prior permission from the government. As poor people cannot deal with the government, this legal provision leads to a riproaring business for ________, who care neither for the ________, nor for the trees.</p>\n\n</div><br><br><b>English Language: CAT 2000 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>middlemen, rich</p>",
+            "<p>the government, poor</p>",
+            "<p>touts, rich</p>",
+            "<p>touts, poor</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1184/cat-2000-question-47\" target=\"_blank\">https://aptitude.gateoverflow.in/1184/cat-2000-question-47</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1185\"></a><div itemprop=\"text\"><p>It will take some time for many South Koreans to ________ the conflicting images of North Korea, let alone to ________ what to make of their northern cousins.</p>\n\n</div><br><br><b>English Language: CAT 2000 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>reconcile, decide</p>",
+            "<p>understand, clarify</p>",
+            "<p>make out, decide</p>",
+            "<p>reconcile, understand</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1185/cat-2000-question-48\" target=\"_blank\">https://aptitude.gateoverflow.in/1185/cat-2000-question-48</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1186\"></a><div itemprop=\"text\"><p>In these bleak and depressing times of ________ prices, non-performing governments and ________ crime rates, Sourav Ganguly has given us, Indians, a lot to cheer about.</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>English Language: CAT 2000 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>escalating, increasing</p>",
+            "<p>spiralling, booming</p>",
+            "<p>spiralling, soaring</p>",
+            "<p>ascending, debilitating</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1186/cat-2000-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/1186/cat-2000-question-49</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1187\"></a><div itemprop=\"text\"><p>The manners and ________ of the nouveau riche is a recurrent ________ in literature.</p>\n\n</div><br><br><b>English Language: CAT 2000 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>style, motif&nbsp;</p>",
+            "<p>morals, story</p>",
+            "<p>wealth, theme&nbsp;</p>",
+            "<p>morals, theme</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1187/cat-2000-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/1187/cat-2000-question-50</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1333\"></a><div itemprop=\"text\"><p><strong>In each of the following sentences, parts of the sentence are left blank. Beneath each sentence, different ways of completing the sentence are indicated. Choose the best alternative among them.</strong><br>\nBut ________ are now regularly written not just for tools, but well-established practices, organisations and institutions, not all of which seem to be ________ away.</p>\n\n</div><br><br><b>English Language: CAT 2001 | Question: 61</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>reports, withering</p>",
+            "<p>stories, trading</p>",
+            "<p>books, dying</p>",
+            "<p>obituaries, fading</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1333/cat-2001-question-61\" target=\"_blank\">https://aptitude.gateoverflow.in/1333/cat-2001-question-61</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1335\"></a><div itemprop=\"text\"><p>In each of the following sentences, parts of the sentence are left blank. Beneath each sentence, different ways of completing the sentence are indicated. Choose the best alternative among them.</p>\n\n<p>The Darwin who ________ is most remarkable for the way in which he ________ the attributes of the world class thinker and head of the household.</p>\n\n</div><br><br><b>English Language: CAT 2001 | Question: 62</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>comes, figures</p>",
+            "<p>arises, adds</p>",
+            "<p>emerges, combines</p>",
+            "<p>appeared, combined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1335/cat-2001-question-62\" target=\"_blank\">https://aptitude.gateoverflow.in/1335/cat-2001-question-62</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1339\"></a><div itemprop=\"text\"><p>Since her face was free of ________ there was no way to ________ if she appreciated what had happened.</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>English Language: CAT 2001 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>makeup, realize</p>",
+            "<p>expression, ascertain</p>",
+            "<p>emotion, diagnose</p>",
+            "<p>scars, understand</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1339/cat-2001-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/1339/cat-2001-question-63</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1340\"></a><div itemprop=\"text\"><p>In this context, the ________ of the British labour movement is particularly ________.</p>\n\n</div><br><br><b>English Language: CAT 2001 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>affair, weird</p>",
+            "<p>activity, moving</p>",
+            "<p>experience, significant</p>",
+            "<p>atmosphere, gloomy</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1340/cat-2001-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/1340/cat-2001-question-64</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1341\"></a><div itemprop=\"text\"><p>Indian intellectuals may boast, if they are so inclined, of being ________ to the most elitist among the intellectual ________ of the world.</p>\n\n</div><br><br><b>English Language: CAT 2001 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>subordinate, traditions</p>",
+            "<p>heirs, cliques</p>",
+            "<p>ancestors, societies</p>",
+            "<p>heir, traditions</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1341/cat-2001-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/1341/cat-2001-question-65</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1045\"></a><div itemprop=\"text\"><p><strong>Fill the gaps in the passage below with the most appropriate word from the options given for each gap. The right words are the ones used by the author. Be guided by the author’s overall style and meaning when you choose the answers.</strong></p>\n\n<p>Von Neumann and Morgenstern assume a decision framework in which all options are thoroughly considered, each option being independent of the others, with a numerical value derived for the utility of each possible outcome (these outcomes reflecting, in turn, all possible combinations of choices). The decision is then made to maximize the expected utility.</p>\n\n<p>____\\( (1) \\)____ such a model reflects major simplifications of the way decisions are made in the real world. Humans are not to process information as quickly and effectively as the model assumes; they tend not to think ____\\( (2) \\)____ as easily as the model calls for; they often deal with a particular option without really assessing its _____\\( (3) \\)____ and when they do assess alternatives, they may be externally nebulous about their criteria of evaluation.</p>\n\n<ol>\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2002 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Regrettably</p>",
+            "<p>Firstly</p>",
+            "<p>Obviously</p>",
+            "<p>Apparently</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1045/cat-2002-question-26\" target=\"_blank\">https://aptitude.gateoverflow.in/1045/cat-2002-question-26</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"8796\"></a><div itemprop=\"text\"><p><strong>Fill the gaps in the passage below with the most appropriate word from the options given for each gap. The right words are the ones used by the author. Be guided by the author’s overall style and meaning when you choose the answers.</strong></p>\n\n<p>Von Neumann and Morgenstern assume a decision framework in which all options are thoroughly considered, each option being independent of the others, with a numerical value derived for the utility of each possible outcome (these outcomes reflecting, in turn, all possible combinations of choices). The decision is then made to maximize the expected utility.</p>\n\n<p>____\\( (1) \\)____ such a model reflects major simplifications of the way decisions are made in the real world. Humans are not to process information as quickly and effectively as the model assumes; they tend not to think ____\\( (2) \\)____ as easily as the model calls for; they often deal with a particular option without really assessing its _____\\( (3) \\)____ and when they do assess alternatives, they may be externally nebulous about their criteria of evaluation.</p>\n\n<ol start=\"2\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol>\n\n<ol start=\"2\" style=\"list-style-type:decimal\" type=\"1\">\n</ol></div><br><br><b>English Language: CAT 2002 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>quantitatively</p>",
+            "<p>systematically</p>",
+            "<p>scientifically</p>",
+            "<p>analytically</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8796/cat-2002-question-27\" target=\"_blank\">https://aptitude.gateoverflow.in/8796/cat-2002-question-27</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"8797\"></a><div itemprop=\"text\"><p><strong>Fill the gaps in the passage below with the most appropriate word from the options given for each gap. The right words are the ones used by the author. Be guided by the author’s overall style and meaning when you choose the answers.</strong></p>\n\n<p>Von Neumann and Morgenstern assume a decision framework in which all options are thoroughly considered, each option being independent of the others, with a numerical value derived for the utility of each possible outcome (these outcomes reflecting, in turn, all possible combinations of choices). The decision is then made to maximize the expected utility.</p>\n\n<p>____\\( (1) \\)____ such a model reflects major simplifications of the way decisions are made in the real world. Humans are not to process information as quickly and effectively as the model assumes; they tend not to think ____\\( (2) \\)____ as easily as the model calls for; they often deal with a particular option without really assessing its _____\\( (3) \\)____ and when they do assess alternatives, they may be externally nebulous about their criteria of evaluation.</p>\n\n<ol start=\"3\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2002 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>implications</p>",
+            "<p>disadvantages</p>",
+            "<p>utility</p>",
+            "<p>alternatives</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8797/cat-2002-question-28\" target=\"_blank\">https://aptitude.gateoverflow.in/8797/cat-2002-question-28</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1046\"></a><div itemprop=\"text\"><p><strong>Fill the gaps in the passage below with the most appropriate word from the options given for each gap. The right words are the ones used by the author. Be guided by the author’s overall style and meaning when you choose the answers.</strong></p>\n\n<p>In a large company, ______\\( (1) \\)___ people is about as common as using a gun or a switch-blade to ___\\( (2) \\)___ an argument. As a result, most managers have little or no experience of firing people, and they find it emotionally automatic, as result, they often delay the act interminably, much as an unhappy spouse will prolong a bad marriage. And when the firing is done, it’s often done clumsily, with far worse side effects than are necessary.</p>\n\n<p>Do the world-class software organizations have a different way of firing people? No. But they do the deed swiftly, humanely, and professionally.</p>\n\n<p>They key point here is to view the fired employee as a “failed product” and to ask how the process ____\\( (3) \\)___ such a phenomenon in the first place.</p>\n\n<ol>\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2002 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>dismissing</p>",
+            "<p>punishing</p>",
+            "<p>firing</p>",
+            "<p>admonishing\n\t\t<ol>\n\t\t</ol>\n\n\t\t<ol>\n\t\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1046/cat-2002-question-29\" target=\"_blank\">https://aptitude.gateoverflow.in/1046/cat-2002-question-29</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"8798\"></a><div itemprop=\"text\"><p><strong>Fill the gaps in the passage below with the most appropriate word from the options given for each gap. The right words are the ones used by the author. Be guided by the author’s overall style and meaning when you choose the answers.</strong></p>\n\n<p>In a large company, ______\\( (1) \\)___ people is about as common as using a gun or a switch-blade to ___\\( (2) \\)___ an argument. As a result, most managers have little or no experience of firing people, and they find it emotionally automatic, as result, they often delay the act interminably, much as an unhappy spouse will prolong a bad marriage. And when the firing is done, it’s often done clumsily, with far worse side effects than are necessary.</p>\n\n<p>Do the world-class software organizations have a different way of firing people? No. But they do the deed swiftly, humanely, and professionally.</p>\n\n<p>They key point here is to view the fired employee as a “failed product” and to ask how the process ____\\( (3) \\)___ such a phenomenon in the first place.</p>\n\n<ol start=\"2\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2002 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>resolve</p>",
+            "<p>thwart</p>",
+            "<p>defeat</p>",
+            "<p>close</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8798/cat-2002-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/8798/cat-2002-question-30</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"8799\"></a><div itemprop=\"text\"><p><strong>Fill the gaps in the passage below with the most appropriate word from the options given for each gap. The right words are the ones used by the author. Be guided by the author’s overall style and meaning when you choose the answers.</strong></p>\n\n<p>In a large company, ______\\( (1) \\)___ people is about as common as using a gun or a switch-blade to ___\\( (2) \\)___ an argument. As a result, most managers have little or no experience of firing people, and they find it emotionally automatic, as result, they often delay the act interminably, much as an unhappy spouse will prolong a bad marriage. And when the firing is done, it’s often done clumsily, with far worse side effects than are necessary.</p>\n\n<p>Do the world-class software organizations have a different way of firing people? No. But they do the deed swiftly, humanely, and professionally.</p>\n\n<p>They key point here is to view the fired employee as a “failed product” and to ask how the process ____\\( (3) \\)___ such a phenomenon in the first place.</p>\n\n<ol start=\"3\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2002 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>derived</p>",
+            "<p>engineered</p>",
+            "<p>produced</p>",
+            "<p>allowed</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8799/cat-2002-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/8799/cat-2002-question-31</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"976\"></a><div itemprop=\"text\"><p><strong>There are two gaps in the following sentence. From the pairs of the words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong></p>\n\n<p>The British retailer, M &amp; S, today formally ______ defeat in its attempt to _____ King's, its US subsidiary, since no potential purchasers were ready to cough up the necessary cash.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>admitted, acquire</p>",
+            "<p>conceded, offload</p>",
+            "<p>announced, dispose</p>",
+            "<p>ratified, auction</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/976/cat-2003-question-1-46\" target=\"_blank\">https://aptitude.gateoverflow.in/976/cat-2003-question-1-46</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"977\"></a><div itemprop=\"text\"><p><strong>There are two gaps in the following sentence. From the pairs of the words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong></p>\n\n<p>Early ___ of maladjustment to college culture is ____ by the tendency too develop friendship networks outside college which mask signals maladjustment.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>treatment, compounded</p>",
+            "<p>detection, facilitated</p>",
+            "<p>identification, complicated</p>",
+            "<p>prevention, helped</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/977/cat-2003-question-1-47\" target=\"_blank\">https://aptitude.gateoverflow.in/977/cat-2003-question-1-47</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"978\"></a><div itemprop=\"text\"><p><strong>There are two gaps in the following sentence. From the pairs of the words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong></p>\n\n<p>The ______ regions of Spain all have unique cultures, but the ____ views within each region make the issue of an acceptable common language of instruction an even more contentious one.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>different, discrete</p>",
+            "<p>distinct, disparate</p>",
+            "<p>divergent, distinct</p>",
+            "<p>different, competing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/978/cat-2003-question-1-48\" target=\"_blank\">https://aptitude.gateoverflow.in/978/cat-2003-question-1-48</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"979\"></a><div itemprop=\"text\"><p><strong>There are two gaps in the following sentence. From the pairs of the words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong></p>\n\n<p>A growing number of these expert professionals ______ having to train foreigners as the students end up _______ the teachers who have to then unhappily contend with no jobs at all or new jobs with drastically reduced pay packets.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>resent, replacing</p>",
+            "<p>resist, challenging</p>",
+            "<p>welcome, assisting</p>",
+            "<p>are, supplanting&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/979/cat-2003-question-1-49\" target=\"_blank\">https://aptitude.gateoverflow.in/979/cat-2003-question-1-49</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"980\"></a><div itemprop=\"text\"><p><strong>There are two gaps in the following sentence. From the pairs of the words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong></p>\n\n<p>Companies that try to improve employees' performance by _______ rewards encourage negative kinds of behaviour instead of _____ a genuine interest in doing the work well.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>giving, seeking</p>",
+            "<p>bestowing, discouraging</p>",
+            "<p>conferring, discrediting</p>",
+            "<p>withholding, fostering</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/980/cat-2003-question-1-50\" target=\"_blank\">https://aptitude.gateoverflow.in/980/cat-2003-question-1-50</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"1925\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nTheir achievement in the field of literature is described as ______; sometimes it is even called ______.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>magnificent, irresponsible</p>",
+            "<p>insignificant, influential</p>",
+            "<p>significant, paltry</p>",
+            "<p>unimportant, trivial&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1925/cat-2003-question-2-01\" target=\"_blank\">https://aptitude.gateoverflow.in/1925/cat-2003-question-2-01</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"1926\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nFrom the time she had put her hair up, every man she had met had grovelled before her and she had acquired a mental attitude toward the other sex which was a blend of _______ and _______.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>admiration, tolerance&nbsp;</p>",
+            "<p>indifference, contempt</p>",
+            "<p>impertinence, temperance</p>",
+            "<p>arrogance, fidelity&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1926/cat-2003-question-2-02\" target=\"_blank\">https://aptitude.gateoverflow.in/1926/cat-2003-question-2-02</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"1927\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nThis simplified ________ to the decision-making process is a must read for anyone ______ important real estate, personal, or professional decisions</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>primer, maximizing</p>",
+            "<p>tract, enacting</p>",
+            "<p>introduction, under</p>",
+            "<p>guide, facing&nbsp;</p>"
+          ],
+          "correct_answer": "<p>guide, facing&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1927/cat-2003-question-2-03\" target=\"_blank\">https://aptitude.gateoverflow.in/1927/cat-2003-question-2-03</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"1928\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nPhysicians may soon have _____ to help paralyzed people move their limbs by bypassing the ____ nerves that once controlled their muscles.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>instruments, detrimental</p>",
+            "<p>ways, damaged</p>",
+            "<p>reason, involuntary</p>",
+            "<p>impediments, complex</p>"
+          ],
+          "correct_answer": "<p>instruments, detrimental</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1928/cat-2003-question-2-04\" target=\"_blank\">https://aptitude.gateoverflow.in/1928/cat-2003-question-2-04</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"1929\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nThe Internet is a medium where users have nearly _____ choices and _____ constraints about where to go and what to do.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>unbalanced, nonexistent</p>",
+            "<p>embarrassing, no</p>",
+            "<p>unlimited, minimal</p>",
+            "<p>choking, shocking&nbsp;</p>"
+          ],
+          "correct_answer": "<p>unlimited, minimal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1929/cat-2003-question-2-05\" target=\"_blank\">https://aptitude.gateoverflow.in/1929/cat-2003-question-2-05</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"1930\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nThe best punctuation is that of which the reader is least conscious, for when punctuation, or lack of it, _____ itself, it is usually because it _____.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>obtrudes, offends</p>",
+            "<p>enjoins, fails</p>",
+            "<p>conceals, recedes</p>",
+            "<p>effaces, counts&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1930/cat-2003-question-2-06\" target=\"_blank\">https://aptitude.gateoverflow.in/1930/cat-2003-question-2-06</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"1931\"></a><div itemprop=\"text\"><p>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.<br>\nThe argument that the need for a looser fiscal policy to _____ demand outweighs the need to _____ budget deficits is persuasive.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>assess, minimize</p>",
+            "<p>outstrip, eliminate</p>",
+            "<p>stimulate, control</p>",
+            "<p>restrain, conceal&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1931/cat-2003-question-2-07\" target=\"_blank\">https://aptitude.gateoverflow.in/1931/cat-2003-question-2-07</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"1932\"></a><div itemprop=\"text\"><p><strong>There are two gaps in each of the following sentences. From the pairs of words given, choose the one that fills the gaps most appropriately. The first word in the pair should fill the first gap.</strong><br>\nThe Athenians on the whole were peaceful and prosperous, they had _____ to sit at home and think about the universe and dispute with Socrates, or to travel abroad and _____ the world.</p>\n\n</div><br><br><b>English Language: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>leisure, explore</p>",
+            "<p>time, ignore</p>",
+            "<p>ability, suffer</p>",
+            "<p>temerity, understand</p>"
+          ],
+          "correct_answer": "<p>leisure, explore</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1932/cat-2003-question-2-08\" target=\"_blank\">https://aptitude.gateoverflow.in/1932/cat-2003-question-2-08</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"884\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>At that time the White House was as serene as a resort hotel out of season. The corridors were \\( [1]. \\) In the various offices, \\( [2] \\) gray men in waistcoats talked to one another in low-pitched voices. The only color, or choler, curiously enough, was provided by President Eisenhower himself. Apparently, his \\( [3] \\) was easily set off; he scowled when he \\( [4] \\) the corridors.</p>\n\n<ol>\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>striking</p>",
+            "<p>hallow</p>",
+            "<p>empty</p>",
+            "<p>white\n\t\t<ol>\n\t\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/884/cat-2004-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/884/cat-2004-question-74</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"8768\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>At that time the White House was as serene as a resort hotel out of season. The corridors were \\( [1]. \\) In the various offices, \\( [2] \\) gray men in waistcoats talked to one another in low-pitched voices. The only color, or choler, curiously enough, was provided by President Eisenhower himself. Apparently, his \\( [3] \\) was easily set off; he scowled when he \\( [4] \\) the corridors.</p>\n\n<ol start=\"2\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 75</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>quiet</p>",
+            "<p>faded</p>",
+            "<p>loud</p>",
+            "<p>stentorian</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8768/cat-2004-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/8768/cat-2004-question-75</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"8769\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>At that time the White House was as serene as a resort hotel out of season. The corridors were \\( [1]. \\) In the various offices, \\( [2] \\) gray men in waistcoats talked to one another in low-pitched voices. The only color, or choler, curiously enough, was provided by President Eisenhower himself. Apparently, his \\( [3] \\) was easily set off; he scowled when he \\( [4] \\) the corridors.</p>\n\n<ol start=\"3\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 76</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>laughter</p>",
+            "<p>curiosity</p>",
+            "<p>humour</p>",
+            "<p>temper</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8769/cat-2004-question-76\" target=\"_blank\">https://aptitude.gateoverflow.in/8769/cat-2004-question-76</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"8770\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>At that time the White House was as serene as a resort hotel out of season. The corridors were \\( [1]. \\) In the various offices, \\( [2] \\) gray men in waistcoats talked to one another in low-pitched voices. The only color, or choler, curiously enough, was provided by President Eisenhower himself. Apparently, his \\( [3] \\) was easily set off; he scowled when he \\( [4] \\) the corridors.</p>\n\n<ol start=\"4\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol>\n\n<ol start=\"4\" style=\"list-style-type:decimal\" type=\"1\">\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>paced</p>",
+            "<p>strolled</p>",
+            "<p>stormed</p>",
+            "<p>prowled</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8770/cat-2004-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/8770/cat-2004-question-77</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"885\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], [5], [6] \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>\"Between the year \\( 1946 \\) and the year \\( 1955, \\) I did not file any income tax returns.\" With that \\( [1] \\) statement, Ramesh embarked on an account of his encounter with the Income Tax Department. “I originally owed Rs. \\( 20,000 \\) in unpaid taxes. With \\( [2] \\) and \\( [3], \\)&nbsp;the \\( 20,000 \\) became \\( 60, 000. \\) The Income tax Department then went into action, and I learned firsthand just how much power the Tax Department wields. Royalties and trust funds can be \\( [4]; \\) automobiles may be \\( [5], \\) auctioned off. Nothing belongs to the \\( [6] \\) until the case is settled.</p>\n\n<ol>\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 78</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>devious</p>",
+            "<p>blunt</p>",
+            "<p>tactful</p>",
+            "<p>pretentious</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/885/cat-2004-question-78\" target=\"_blank\">https://aptitude.gateoverflow.in/885/cat-2004-question-78</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"8771\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], [5], [6] \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>\"Between the year \\( 1946 \\) and the year \\( 1955, \\) I did not file any income tax returns.\" With that \\( [1] \\) statement, Ramesh embarked on an account of his encounter with the Income Tax Department. “I originally owed Rs. \\( 20,000 \\) in unpaid taxes. With \\( [2] \\) and \\( [3], \\)&nbsp;the \\( 20,000 \\) became \\( 60, 000. \\) The Income tax Department then went into action, and I learned firsthand just how much power the Tax Department wields. Royalties and trust funds can be \\( [4]; \\) automobiles may be \\( [5], \\) auctioned off. Nothing belongs to the \\( [6] \\) until the case is settled.</p>\n\n<ol start=\"2\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 79</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>interest</p>",
+            "<p>taxes</p>",
+            "<p>principal</p>",
+            "<p>returns</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8771/cat-2004-question-79\" target=\"_blank\">https://aptitude.gateoverflow.in/8771/cat-2004-question-79</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"8772\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], [5], [6] \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>\"Between the year \\( 1946 \\) and the year \\( 1955, \\) I did not file any income tax returns.\" With that \\( [1] \\) statement, Ramesh embarked on an account of his encounter with the Income Tax Department. “I originally owed Rs. \\( 20,000 \\) in unpaid taxes. With \\( [2] \\) and \\( [3], \\)&nbsp;the \\( 20,000 \\) became \\( 60, 000. \\) The Income tax Department then went into action, and I learned firsthand just how much power the Tax Department wields. Royalties and trust funds can be \\( [4]; \\) automobiles may be \\( [5], \\) auctioned off. Nothing belongs to the \\( [6] \\) until the case is settled.</p>\n\n<ol start=\"3\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 80</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>sanctions</p>",
+            "<p>refunds</p>",
+            "<p>fees</p>",
+            "<p>fines</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8772/cat-2004-question-80\" target=\"_blank\">https://aptitude.gateoverflow.in/8772/cat-2004-question-80</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"8773\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], [5], [6] \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>\"Between the year \\( 1946 \\) and the year \\( 1955, \\) I did not file any income tax returns.\" With that \\( [1] \\) statement, Ramesh embarked on an account of his encounter with the Income Tax Department. “I originally owed Rs. \\( 20,000 \\) in unpaid taxes. With \\( [2] \\) and \\( [3], \\)&nbsp;the \\( 20,000 \\) became \\( 60, 000. \\) The Income tax Department then went into action, and I learned firsthand just how much power the Tax Department wields. Royalties and trust funds can be \\( [4]; \\) automobiles may be \\( [5], \\) auctioned off. Nothing belongs to the \\( [6] \\) until the case is settled.</p>\n\n<ol start=\"4\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 81</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>closed</p>",
+            "<p>detached</p>",
+            "<p>attached</p>",
+            "<p>impounded</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8773/cat-2004-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/8773/cat-2004-question-81</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"8774\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], [5], [6] \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>\"Between the year \\( 1946 \\) and the year \\( 1955, \\) I did not file any income tax returns.\" With that \\( [1] \\) statement, Ramesh embarked on an account of his encounter with the Income Tax Department. “I originally owed Rs. \\( 20,000 \\) in unpaid taxes. With \\( [2] \\) and \\( [3], \\)&nbsp;the \\( 20,000 \\) became \\( 60, 000. \\) The Income tax Department then went into action, and I learned firsthand just how much power the Tax Department wields. Royalties and trust funds can be \\( [4]; \\) automobiles may be \\( [5], \\) auctioned off. Nothing belongs to the \\( [6] \\) until the case is settled.</p>\n\n<ol start=\"5\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 82</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>smashed</p>",
+            "<p>seized</p>",
+            "<p>dismantled</p>",
+            "<p>frozen</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8774/cat-2004-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/8774/cat-2004-question-82</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"8775\"></a><div itemprop=\"text\"><p>Fill in the blanks, numbered \\( [1], [2], [3], [4], [5], [6] \\) in the passage below with the most appropriate word from the options given for each blank.</p>\n\n<p>\"Between the year \\( 1946 \\) and the year \\( 1955, \\) I did not file any income tax returns.\" With that \\( [1] \\) statement, Ramesh embarked on an account of his encounter with the Income Tax Department. “I originally owed Rs. \\( 20,000 \\) in unpaid taxes. With \\( [2] \\) and \\( [3], \\)&nbsp;the \\( 20,000 \\) became \\( 60, 000. \\) The Income tax Department then went into action, and I learned firsthand just how much power the Tax Department wields. Royalties and trust funds can be \\( [4]; \\) automobiles may be \\( [5], \\) auctioned off. Nothing belongs to the \\( [6] \\) until the case is settled.</p>\n\n<ol start=\"6\" style=\"list-style-type:decimal\" type=\"1\">\n\t<li>&nbsp;\n\t\n\t</li>\n</ol></div><br><br><b>English Language: CAT 2004 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>purchaser</p>",
+            "<p>victim</p>",
+            "<p>investor</p>",
+            "<p>offender</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8775/cat-2004-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/8775/cat-2004-question-83</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"842\"></a><div itemprop=\"text\"><p>In each question, the word at the top is used in four different ways, numbered (a) to (d). Choose the option in which the usage of the word is Incorrect or Inappropriate.</p>\n\n<p>Select the one which would best fill the blanks.</p>\n\n<p>Football evokes a________ response in India compared to cricket, that almost ____________ the nation.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>tepid, boiling.</li>\n\t<li>lukewarm, electrifies.</li>\n\t<li>turbid, fascinating.</li>\n\t<li>apocryphal, genuinely fascinates.</li>\n</ol></div><br><br><b>English Language: CAT 2009 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/842/cat-2009-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/842/cat-2009-question-58</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"5004\"></a><div itemprop=\"text\"><p>Justice Minister Bola lge, confronted with the general incivility of local police, placed a ______ on the cads. Said the Hon. Bola lge, “I pray that god will make big holes in their pokets”.</p>\n\n</div><br><br><b>English Language: CAT 2010 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>malediction</p>",
+            "<p>sanction</p>",
+            "<p>proscription</p>",
+            "<p>plea</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5004/cat-2010-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/5004/cat-2010-question-30</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"5003\"></a><div itemprop=\"text\"><p>During the heated discussion, the leader of the group ________ refuted all the claims brought by his opponents. Later everybody acknowledged that he survived by most _______ luck.</p>\n\n</div><br><br><b>English Language: CAT 2010 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ingeniously, incredible</p>",
+            "<p>ingeniously, incredulous</p>",
+            "<p>ingenuously, incredible</p>",
+            "<p>ingenuously, incredulous</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5003/cat-2010-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/5003/cat-2010-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+});

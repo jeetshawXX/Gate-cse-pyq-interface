@@ -1,0 +1,21 @@
+{
+  "title": "Computer Knowledge - Compilers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Compilers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3868\"></a><div itemprop=\"text\">A. It converts one statement of a program into machine language.<br>\n<br>\nB.An object code produced by a compiler is permanently saved for future.<br>\n<br>\nC.It reports all errors in a program with line numbers.<br>\n<br>\nD.It produces faster object code than an interpreter.</div><br><br><b>Computer Knowledge: Which is not true about a compiler?</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3868/which-is-not-true-about-a-compiler\" target=\"_blank\">https://aptitude.gateoverflow.in/3868/which-is-not-true-about-a-compiler</a></p>"
+        }
+      ]
+    }
+  ]
+}

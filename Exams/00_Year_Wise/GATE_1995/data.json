@@ -1,0 +1,761 @@
+{
+  "title": "Year_Wise - GATE_1995",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_1995",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A single instruction to clear the lower four bits of the accumulator in 8085 assembly language?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>XRI 0FH</p>",
+            "<b>B.</b> <p>ANI F0H</p>",
+            "<b>C.</b> <p>XRI F0H</p>",
+            "<b>D.</b> <p>ANI 0FH</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ANI F0H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2588/gate1995-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ROM is a Read/Write memory</p>",
+            "<b>B.</b> <p>PC points to the last instruction that was executed</p>",
+            "<b>C.</b> <p>Stack works on the principle of LIFO</p>",
+            "<b>D.</b> <p>All instructions affect the flags</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Stack works on the principle of LIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2589/gate1995-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In a vectored interrupt:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The branch address is assigned to a fixed location in memory</p>",
+            "<b>B.</b> <p>The interrupting source supplies the branch information to the processor through an interrupt vector</p>",
+            "<b>C.</b> <p>The branch address is obtained from a register in the processor</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The interrupting source supplies the branch information to the processor through an interrupt vector</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2590/gate1995-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In the following Pascal program segment, what is the value of X after the execution of the program segment?<br><pre><code>X := -10; Y := 20;\nIf X &gt; Y then if X &lt; 0 then X := abs(X) else X := 2*X; </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>-20</p>",
+            "<b>C.</b> <p>-10</p>",
+            "<b>D.</b> <p>None</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>-10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2591/gate1995-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Merge sort uses:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Divide and conquer strategy</p>",
+            "<b>B.</b> <p>Backtracking approach</p>",
+            "<b>C.</b> <p>Heuristic search</p>",
+            "<b>D.</b> <p>Greedy approach</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Divide and conquer strategy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2592/gate1995-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The principle of locality justifies the use of:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Interrupts</p>",
+            "<b>B.</b> <p>DMA</p>",
+            "<b>C.</b> <p>Polling</p>",
+            "<b>D.</b> <p>Cache Memory</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Cache Memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2593/gate1995-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In a paged segmented scheme of memory management, the segment table itself must have a page table because</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The segment table is often too large to fit in one page</p>",
+            "<b>B.</b> <p>Each segment is spread over a number of pages</p>",
+            "<b>C.</b> <p>Segment tables point to page tables and not to the physical locations of the segment</p>",
+            "<b>D.</b> <p>The processor's description base register points to a page table</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The segment table is often too large to fit in one page</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2594/gate1995-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following page replacement algorithms suffers from Belady's anamoly?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Optimal replacement</p>",
+            "<b>B.</b> <p>LRU</p>",
+            "<b>C.</b> <p>FIFO</p>",
+            "<b>D.</b> <p>Both (A) and (C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2595/gate1995-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In some programming language, an identifier is permitted to be a letter followed by any number of letters or digits. If L and D denote the sets of letters and digits respectively, which of the following expressions defines an identifier?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((L + D)^+\\)</p>",
+            "<b>B.</b> <p>\\((L.D)^*\\)</p>",
+            "<b>C.</b> <p>\\(L(L + D)^*\\)</p>",
+            "<b>D.</b> <p>\\(L(L.D)^*\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L(L + D)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2596/gate1995-1-9-isro2017-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a grammar with the following productions<br>\n\\(S \\rightarrow a \\alpha b \\mid b \\alpha c \\mid aB\\)<br>\n\\(S \\rightarrow \\alpha S\\mid b\\)<br>\n\\(S \\rightarrow \\alpha b b\\mid ab\\)<br>\n\\(S \\alpha \\rightarrow bd b\\mid b\\)<br>\nThe above grammar is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Context free</p>",
+            "<b>B.</b> <p>Regular</p>",
+            "<b>C.</b> <p>Context sensitive</p>",
+            "<b>D.</b> <p>LR(k)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>LR(k)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2597/gate1995-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What are x and y in the following macro definition?<br><pre><code>macro\tAdd x, y\n        Load y\n        Mul x\n        Store y\nend macro\t </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Variables</p>",
+            "<b>B.</b> <p>Identifiers</p>",
+            "<b>C.</b> <p>Actual parameters</p>",
+            "<b>D.</b> <p>Formal parameters</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Formal parameters</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2598/gate1995-1-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What is the distance of the following code 000000, 010101, 000111, 011001, 111111?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2599/gate1995-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following strings can definitely be said to be tokens without looking at the next input character while compiling a Pascal program?<br>\nI. begin<br>\nII. program <br>\nIII. &lt;&gt;<br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I</p>",
+            "<b>B.</b> <p>II</p>",
+            "<b>C.</b> <p>III</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2600/gate1995-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A linker is given object modules for a set of programs that were compiled separately. What information need to be included in an object module?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Object code</p>",
+            "<b>B.</b> <p>Relocation bits</p>",
+            "<b>C.</b> <p>Names and locations of all external symbols defined in the object module</p>",
+            "<b>D.</b> <p>Absolute addresses of internal symbols</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Names and locations of all external symbols defined in the object module</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2601/gate1995-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which scheduling policy is most suitable for a time shared operating system?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Shortest Job First</p>",
+            "<b>B.</b> <p>Round Robin</p>",
+            "<b>C.</b> <p>First Come First Serve</p>",
+            "<b>D.</b> <p>Elevator</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Round Robin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2602/gate1995-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>For merging two sorted lists of sizes \\(m\\) and \\(n\\) into a sorted list of size \\(m+n\\), we require comparisons of</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(m)\\)</p>",
+            "<b>B.</b> <p>\\(O(n)\\)</p>",
+            "<b>C.</b> <p>\\(O(m+n)\\)</p>",
+            "<b>D.</b> <p>\\(O(\\log m + \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(m+n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2603/gate1995-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>A binary tree T has n leaf nodes. The number of nodes of degree 2 in T is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\log_2 n\\)</p>",
+            "<b>B.</b> <p>n-1</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>\\(2^n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2604/gate1995-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>The probability that a number selected at random between 100 and 999 (both inclusive) will not contain the digit 7 is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{16}{25}\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{9}{10}\\right)^{3}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{27}{75}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{18}{25}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\dfrac{18}{25}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/780/gate1995-1-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Let R be a symmetric and transitive relation on a set A. Then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R is reflexive and hence an equivalence relation</p>",
+            "<b>B.</b> <p>R is reflexive and hence a partial order</p>",
+            "<b>C.</b> <p>R is reflexive and hence not an equivalence relation</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2606/gate1995-1-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>The number of elements in the power set P(S) of the set \\(S=\\{\\{\\emptyset\\}, 1, \\{2, 3\\}\\}\\) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2607/gate1995-1-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>In the interval \\([0, \\pi]\\) the equation \\(x=\\cos x\\) has</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>No solution</p>",
+            "<b>B.</b> <p>Exactly one solution</p>",
+            "<b>C.</b> <p>Exactly two solutions</p>",
+            "<b>D.</b> <p>An infinite number of solutions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Exactly one solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2608/gate1995-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>If at every point of a certain curve, the slope of the tangent equals \\(\\frac{-2x}{y}\\) the curve is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a straight line</p>",
+            "<b>B.</b> <p>a parabola</p>",
+            "<b>C.</b> <p>a circle</p>",
+            "<b>D.</b> <p>an ellipse</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>an ellipse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2609/gate1995-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>The value of k for which \\(4x^2 - 8xy + ky^2 = 0\\) does not represent a pair of straight lines (both passing through the origin) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2610/gate1995-1-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>The rank of the following \\((n+1) \\times (n+1)\\) matrix, where a is a real number is <br>\n\\(\\begin{bmatrix} 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\end{bmatrix}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>Depends on the value of a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2611/gate1995-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>The minimum number of edges in a connected cyclic graph on n vertices is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2612/gate1995-1-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>A sequence of two instructions that multiplies the contents of the DE register pair by 2 and stores the result in the HL register pair (in 8085 assembly language) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>XCHG and DAD B</p>",
+            "<b>B.</b> <p>XTHL and DAD H</p>",
+            "<b>C.</b> <p>PCHL and DAD D</p>",
+            "<b>D.</b> <p>XCHG and DAD H</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>XCHG and DAD H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2613/gate1995-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>The capacity of a memory unit is defined by the number of words multiplied by the number of bits/word. How many separate address and data lines are needed for a memory of \\(4K \\times 16\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 address, 16 data lines</p>",
+            "<b>B.</b> <p>11 address, 8 data lines</p>",
+            "<b>C.</b> <p>12 address, 16 data lines</p>",
+            "<b>D.</b> <p>12 address, 12 data lines</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>12 address, 16 data lines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2614/gate1995-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Assume that X and Y are non-zero positive integers. What does the following Pascal program segment do?<br><pre><code>while X &lt;&gt; Y do\nif  X &gt; Y then\n    X := X - Y\nelse\n    Y := Y - X;\nwrite(X);\n </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Computes the LCM of two numbers</p>",
+            "<b>B.</b> <p>Divides the larger number by the smaller number</p>",
+            "<b>C.</b> <p>Computes the GCD of two numbers</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Computes the GCD of two numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2615/gate1995-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>What is the value of X printed by the following program?<br><pre><code>program COMPUTE (input, output);\nvar X:integer;\nprocedure FIND (X:real);\n    begin\n        X:=sqrt(X);\n    end;\nbegin\n    X:=2\n    FIND(X);\n    writeln(X);\nend.\n </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>\\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>Run time error</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2616/gate1995-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>What values of A, B, C and D satisfy the following simultaneous Boolean equations?<br>\n\\(\\overline{A} + AB =0, AB=AC, AB+A\\overline{C}+CD=\\overline{C}D\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A=1, B=0, C=0, D=1</p>",
+            "<b>B.</b> <p>A=1, B=1, C=0, D=0</p>",
+            "<b>C.</b> <p>A=1, B=0, C=1, D=1</p>",
+            "<b>D.</b> <p>A=1, B=0, C=0, D=0</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A=1, B=0, C=0, D=1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2617/gate1995-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>The sequence __________ is an optimal non-preemptive scheduling sequence for the following jobs which leaves the CPU idle for ________ unit(s) of time.<br>\n\\(\\begin{array}{|c|c|c|} \\hline \\textbf{Job} &amp; \\textbf{Arrival Time} &amp; \\textbf{Burst Time} \\\\\\hline 1 &amp; 0.0 &amp; 9 \\\\\\hline 2 &amp; 0.6 &amp; 5 \\\\\\hline 3 &amp; 1.0 &amp; 1 \\\\\\hline \\end{array}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{3,2,1}, 1</p>",
+            "<b>B.</b> <p>{2,1,3}, 0</p>",
+            "<b>C.</b> <p>{3,2,1}, 0</p>",
+            "<b>D.</b> <p>{1,2,3}, 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>{3,2,1}, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2618/gate1995-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>The address sequence generated by tracing a particular program executing in a pure demand based paging system with 100 records per page with 1 free main memory frame is recorded as follows. What is the number of page faults?<br>\n0100, 0200, 0430, 0499, 0510, 0530, 0560, 0120, 0220, 0240, 0260, 0320, 0370</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2619/gate1995-2-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>If the cube roots of unity are \\(1, \\omega\\) and \\(\\omega^2\\), then the roots of the following equation are <br>\n\\((x-1)^3 +8 =0\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1, 1 + 2\\omega, 1 + 2\\omega^2\\)</p>",
+            "<b>B.</b> <p>\\(1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>D.</b> <p>\\(-1, 1 + 2\\omega, -1 + 2\\omega^2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2620/gate1995-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>A language with string manipulation facilities uses the following operations<br><pre><code>head(s): first character of a string\ntail(s): all but exclude the first character of a string</code></pre><pre><code> concat(s1, s2): s1s2</code></pre>\nFor the string \"acbc\" what will be the output of<pre><code>concat(head(s), head(tail(tail(s)))) </code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ac</p>",
+            "<b>B.</b> <p>bc</p>",
+            "<b>C.</b> <p>ab</p>",
+            "<b>D.</b> <p>cc</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>ab</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2621/gate1995-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>A shift reduce parser carries out the actions specified within braces immediately after reducing with the corresponding rule of grammar <br>\n\\(S \\rightarrow xxW \\;\\text{{print \"1\"}}\\)<br>\n\\(S \\rightarrow y \\;\\text{{print \"2\"}}\\)<br>\n\\(W \\rightarrow Sz\\; \\text{{print \"3\"}}\\)<br>\nWhat is the translation of \\(xxxxyzz\\) using the syntax directed translation scheme described by the above rules?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>23131</p>",
+            "<b>B.</b> <p>11233</p>",
+            "<b>C.</b> <p>11231</p>",
+            "<b>D.</b> <p>33211</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>23131</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2622/gate1995-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>A variant record in Pascal is defined by <br><pre><code> type varirec = record \n\t\tnumber : integer; \n\t\tcase (var1,var2) of \n\t\tvar1: (x, y: integer); \n\t\tvar2: (p.q.: real)\n\tend\nend </code></pre> <br>\nSuppose an array of 100 records was declared on a machine which uses 4 bytes for an integer and 8 bytes for a real. How much space would the compiler have to reserve for the array?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2800</p>",
+            "<b>B.</b> <p>2400</p>",
+            "<b>C.</b> <p>2000</p>",
+            "<b>D.</b> <p>1200</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2623/gate1995-2-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>The number of 1's in the binary representation of (3*4096+15*256+5*16+3) are:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2624/gate1995-2-12-isro2015-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>A unit vector perpendicular to both the vectors a=2i-3j+k and b=i+j-2k is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{3} (i+j-k)\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{3} (i-j-k)\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j-k)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2625/gate1995-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>A bag contains 10 white balls and 15 black balls. Two balls are drawn in succession. The probability that one of them is black and the other is white is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{2}{3}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{4}{5}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{3}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{1}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2626/gate1995-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>The iteration formula to find the square root of a positive real number b using the Newton Raphson method is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{k+1} = 3(x_k+b)/2x_k\\)</p>",
+            "<b>B.</b> <p>\\(x_{k+1} = (x_{k}^2+b)/2x_k\\)</p>",
+            "<b>C.</b> <p>\\(x_{k+1} = x_k-2x_k/\\left(x^2_k+b\\right)\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x_{k+1} = (x_{k}^2+b)/2x_k\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2627/gate1995-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>In a virtual memory system the address space specified by the address lines of the CPU must be _____ than the physical memory size and ____ than the secondary storage size.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>smaller, smaller</p>",
+            "<b>B.</b> <p>smaller, larger</p>",
+            "<b>C.</b> <p>larger, smaller</p>",
+            "<b>D.</b> <p>larger, larger</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>larger, smaller</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2628/gate1995-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Let A be the set of all non-singular matrices over real number and let * be the matrix multiplication operation. Then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A is closed under * but \\(\\langle A, *\\rangle\\) is not a semigroup.</p>",
+            "<b>B.</b> <p>\\(\\langle A, *\\rangle\\) is a semigroup but not a monoid.</p>",
+            "<b>C.</b> <p>\\(\\langle A, *\\rangle\\) is a monoid but not a group.</p>",
+            "<b>D.</b> <p>\\(\\langle A, *\\rangle\\) is a a group but not an abelian group.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\langle A, *\\rangle\\) is a a group but not an abelian group.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2629/gate1995-2-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>The solution of differential equation \\(y''+3y'+2y=0\\) is of the form</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(C_1e^x+C_2e^{2x}\\)</p>",
+            "<b>B.</b> <p>\\(C_1e^{-x}+C_2e^{3x}\\)</p>",
+            "<b>C.</b> <p>\\(C_1e^{-x}+C_2e^{-2x}\\)</p>",
+            "<b>D.</b> <p>\\(C_1e^{-2x}+C_2e^{-x}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(C_1e^{-x}+C_2e^{-2x}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2630/gate1995-2-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>If the proposition \\(\\lnot p \\to q\\) is true, then the truth value of the proposition \\(\\lnot p \\lor \\left ( p \\to q \\right )\\), where \\(\\lnot\\) is negation, \\(\\lor\\) is inclusive OR and \\(\\to\\) is implication, is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TRUE</p>",
+            "<b>B.</b> <p>Multiple Values</p>",
+            "<b>C.</b> <p>FALSE</p>",
+            "<b>D.</b> <p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Cannot be determined</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2631/gate1995-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Which of the following definitions below generate the same language as \\(L\\), where \\(L=\\{x^ny^n \\text{ such that } n\\geq 1 \\}\\)?<br>\nI.   \\(E \\rightarrow xEy\\mid xy\\)<br>\nII.  \\(x y \\mid (x^+xyy^+)\\)<br>\nIII. \\(x^+y^+\\)<br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and II</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2632/gate1995-2-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>The postfix expression for the infix expression A+B*(C+D)/F+D*E is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AB + CD + *F/D +E*</p>",
+            "<b>B.</b> <p>ABCD + *F/DE* ++</p>",
+            "<b>C.</b> <p>A * B + CD/F *DE ++</p>",
+            "<b>D.</b> <p>A + *BCD/F* DE ++</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ABCD + *F/DE* ++</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2633/gate1995-2-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Which of the following statements is true?<br>\nI. As the number of entries in a hash table increases, the number of collisions increases.<br>\nII. Recursive programs are efficient<br>\nIII. The worst case complexity for Quicksort is \\(O(n^2)\\)<br>\nIV. Binary search using a linear linked list is efficient<br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>II and III</p>",
+            "<b>C.</b> <p>I and IV</p>",
+            "<b>D.</b> <p>I and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2634/gate1995-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>A finite state machine with the following state table has a single input x and a single out z.<br>\n\\(\\begin{array}{|c|ll|}\\hline \\textbf{present state} &amp;\\textbf{next state, z} \\\\ &amp; \\text{x=1} &amp; \\text{x=0} \\\\\\hline \\text{A} &amp; \\text{D,0} &amp; \\text{B,0} \\\\\\hline \\text{B} &amp; \\text{B,1} &amp; \\text{C,1} \\\\\\hline \\text{C} &amp; \\text{B,0} &amp; \\text{D,1} \\\\\\hline \\text{D} &amp; \\text{B,1} &amp; \\text{C,0} \\\\\\hline \\end{array}\\)<br>If the initial state is unknown, then the shortest input sequence to reach the final state C is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>01</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>101</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2636/gate1995-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Let \\(\\Sigma=\\left\\{0,1\\right\\}, L = \\Sigma^* \\text{ and } R=\\left\\{0^n1^n \\mid n \\gt 0\\right\\}\\) then the languages \\(L \\cup R\\) and R are respectively</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular, regular</p>",
+            "<b>B.</b> <p>not regular, regular</p>",
+            "<b>C.</b> <p>regular, not regular</p>",
+            "<b>D.</b> <p>not regular, not regular</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>regular, not regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2637/gate1995-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>A computer system has a 4 K word cache organized in block-set-associative manner with 4 blocks per set, 64 words per block. The number of bits in the SET and WORD fields of the main memory address format is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15,40</p>",
+            "<b>B.</b> <p>6,4</p>",
+            "<b>C.</b> <p>7,2</p>",
+            "<b>D.</b> <p>4,6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4,6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2638/gate1995-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Linker",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Linker",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336709\"></a><div itemprop=\"text\"><p>A linker is given object module for a set of programs that were compiled separately. What information need not be included in an object module?</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Object mode</p>",
+            "<p>Relocation bits</p>",
+            "<p>Names and locations of all external symbols defined in the object module.</p>",
+            "<p>Absolute addresses of internal symbols.</p>"
+          ],
+          "correct_answer": "<p>Absolute addresses of internal symbols.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336709/nielit-2016-mar-scientist-b-section-c-32\" target=\"_blank\">https://gateoverflow.in/336709/nielit-2016-mar-scientist-b-section-c-32</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336318\"></a><div itemprop=\"text\"><p>A system program that combines the separately complied modules of a program into a form suitable for execution</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>assembler</p>",
+            "<p>linking loader</p>",
+            "<p>cross compiler</p>",
+            "<p>load and go</p>"
+          ],
+          "correct_answer": "<p>linking loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336318/nielit-2017-july-scientist-b-cs-section-b-57\" target=\"_blank\">https://gateoverflow.in/336318/nielit-2017-july-scientist-b-cs-section-b-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

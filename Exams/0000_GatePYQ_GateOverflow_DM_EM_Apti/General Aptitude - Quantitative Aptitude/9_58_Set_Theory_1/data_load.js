@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Set Theory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Set Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426510\"></a><div itemprop=\"text\"><p>How many combinations of non-null sets \\( \\text{A, B, C} \\) are possible from the subsets of \\( \\{2,3,5\\} \\) satisfying the conditions: (i) \\( \\mathrm{A} \\) is a subset of \\( \\mathrm{B} \\), and (ii) \\( \\mathrm{B} \\) is a subset of \\( \\mathrm{C} \\) ?</p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 19 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426510/gate-mechanical-2024-ga-question-7\" target=\"_blank\">https://gateoverflow.in/426510/gate-mechanical-2024-ga-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

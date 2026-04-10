@@ -1,0 +1,56 @@
+{
+  "title": "Programming - Programming in C - Array",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Array",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"44976\"></a><div itemprop=\"text\">\n<p>When an array is passed as a parameter to a function which of the following statements is correct?</p>\n\n\n</div><br><br><b>Programming in C: UGC NET CSE | June 2013 | Part 3 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The function can values in the original array</p>",
+            "<p>The function cannot values in the original array</p>",
+            "<p>Results in compilation error</p>",
+            "<p>Results in run-time error</p>"
+          ],
+          "correct_answer": "<p>The function can values in the original array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44976/ugc-net-cse-june-2013-part-3-question-48\" target=\"_blank\">https://gateoverflow.in/44976/ugc-net-cse-june-2013-part-3-question-48</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60955\"></a><div itemprop=\"text\"><p>What is the output of the following program: (Assume that the appropriate preprocessor directives are included and there is not syntax error)</p>\n\n<pre class=\"prettyprint lang-c_cpp\">main( )\n    {   char S[]=\"ABCDEFGH\";\n        printf(\"%C\", *(&amp;S[3]));\n        printf(\"%s\", S+4);\n        printf(\"%u\", S);\n    /*Base address of S is 1000 */\n    }</pre>\n\n</div><br><br><b>Programming in C: UGC NET CSE | Junet 2015 | Part 2 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{ABCDEFGH}1000 \\)</p>",
+            "<p>\\( \\text{CDEFGH}1000 \\)</p>",
+            "<p>\\( \\text{DDEFGHH}1000 \\)</p>",
+            "<p>\\( \\text{DEFGH}1000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{DEFGH}1000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60955/ugc-net-cse-junet-2015-part-2-question-11\" target=\"_blank\">https://gateoverflow.in/60955/ugc-net-cse-junet-2015-part-2-question-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"349662\"></a><div itemprop=\"text\"><p>Suppose you are compiling on a machine with \\( 1 \\)-byte chars, \\( 2 \\)-byte shorts, \\( 4 \\)-byte ints, and \\( 8 \\)-byte doubles, and with alignment rules that require the address of every primitive data element to be an integer multiple of the element’s size. Suppose further that the compiler is not permitted to reorder fields; padding is used to ensure alignment. How much space will be consumed by the following array?</p>\n\n<pre class=\"prettyprint linenums lang-text\" data-pbcklang=\"text\" data-pbcktabsize=\"4\">struct {\n    short s;\n    char c;\n    short t;\n    char d;\n    double r;\n    int i;\n} A[10]; /*10 element array of structs */</pre>\n\n</div><br><br><b>Programming in C: UGC NET CSE | October 2020 | Part 2 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 150 \\) bytes</p>",
+            "<p>\\( 320 \\) bytes</p>",
+            "<p>\\( 240 \\) bytes</p>",
+            "<p>\\( 200 \\) bytes</p>"
+          ],
+          "correct_answer": "<p>\\( 240 \\) bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349662/ugc-net-cse-october-2020-part-2-question-11\" target=\"_blank\">https://gateoverflow.in/349662/ugc-net-cse-october-2020-part-2-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+}

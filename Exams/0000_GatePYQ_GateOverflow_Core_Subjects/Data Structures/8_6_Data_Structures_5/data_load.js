@@ -1,0 +1,81 @@
+window.__examLoadCallback({
+  "title": "Data Structures - Data Structures",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Data Structures",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2258\"></a><div itemprop=\"text\"><p>Let \\( G \\) be the graph with \\( 100 \\) vertices numbered \\( 1 \\) to \\( 100 \\).&nbsp; Two vertices \\( i \\) and \\( j \\) are adjacent &nbsp;if \\( \\vert&nbsp;i-j \\vert&nbsp;=8 \\)&nbsp;or \\( \\vert&nbsp;i-j \\vert=12 \\). The&nbsp;number of connected components in \\( G \\) is</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 6.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2258/gate-cse-1997-question-6-2\" target=\"_blank\">https://gateoverflow.in/2258/gate-cse-1997-question-6-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1344\"></a><div itemprop=\"text\"><p>An Abstract Data Type (ADT) is:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>same as an abstract class</p>",
+            "<p>a data type that cannot be instantiated</p>",
+            "<p>a data type for which only the operations defined on it can be used, but none else</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "<p>a data type for which only the operations defined on it can be used, but none else</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1344/gate-cse-2005-question-2\" target=\"_blank\">https://gateoverflow.in/1344/gate-cse-2005-question-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1754\"></a><div itemprop=\"text\"><p>Let \\( G=(V,E) \\) be a directed graph where \\( V \\) is the set of vertices and \\( E \\) the set of edges. Then which one of the following graphs has the same strongly connected components as \\( G \\) ?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( G_1 \\) = \\( (V,E_1) \\) where \\( E_1 = \\left\\{(u,v) \\mid (u,v) \\notin E\\right\\} \\)</p>",
+            "<p>\\( G_2 \\) = \\( (V,E_2) \\) where \\( E_2 = \\left\\{(u,v) \\mid (v,u) \\in E \\right\\} \\)</p>",
+            "<p>\\( G_3 \\) = \\( (V,E_3) \\) where \\( E_3 = \\{(u,v) \\mid \\) there is a path of length \\( \\leq2 \\) from \\( u \\) to \\( v \\) in \\( E\\} \\)</p>",
+            "<p>\\( G_4 \\) = \\( (V_4,E) \\) where \\( V_4 \\) is the set of vertices in \\( G \\) which are not isolated</p>"
+          ],
+          "correct_answer": "<p>\\( G_2 \\) = \\( (V,E_2) \\) where \\( E_2 = \\left\\{(u,v) \\mid (v,u) \\in E \\right\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1754/gate-cse-2014-set-1-question-3\" target=\"_blank\">https://gateoverflow.in/1754/gate-cse-2014-set-1-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"39731\"></a><div itemprop=\"text\">Consider the weighted undirected graph with \\( 4 \\) vertices, where the weight of edge \\( \\{i,j\\} \\) is given by the entry \\( W_{ij} \\) in the matrix \\( W \\).<br>\n<br>\n&nbsp;W=\\( \\begin{bmatrix} 0&amp;2 &amp;8 &amp;5 \\\\ 2&amp;0 &amp;5 &amp;8 \\\\ 8&amp;5 &amp;0 &amp;x \\\\ 5&amp; 8 &amp;x &amp;0 \\end{bmatrix} \\)<br>\n<br>\nThe largest possible integer value of \\( x \\), for which at least one shortest path between some pair of vertices will contain the edge with weight \\( x \\) is ___________.</div><br><br><b>GATE CSE 2016 Set 1 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39731/gate-cse-2016-set-1-question-38\" target=\"_blank\">https://gateoverflow.in/39731/gate-cse-2016-set-1-question-38</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"422956\"></a><div itemprop=\"text\"><p>​​​​​​Match the items in <strong>Column \\( 1 \\)</strong> with the items in <strong>Column \\( 2 \\)</strong> in the following table:</p><p>\\begin{array}{|ll|ll|}<br>\\hline &amp; \\text{Column 1} &amp; &amp; \\text{Column 2} \\\\<br>\\hline&nbsp;<br>\\text{(p)} &amp; \\text{First In First Out} &amp; \\text{(i)} &amp; \\text{Stacks} \\\\<br>\\text{(q)} &amp; \\text{Lookup Operation} &amp; \\text{(ii)} &amp; \\text{Queues} \\\\<br>\\text{(r)} &amp; \\text{Last In First Out} &amp; \\text{(iii)} &amp; \\text{Hash Tables} \\\\<br>\\hline<br>\\end{array}</p></div><br><br><b>GATE DS&AI 2024 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (\\mathrm{p})-(\\mathrm{ii}),(\\mathrm{q})-(\\mathrm{iii}),(\\mathrm{r})-(\\mathrm{i}) \\)</p>",
+            "<p>\\( (\\mathrm{p})-(\\mathrm{ii}),(\\mathrm{q})-(\\mathrm{i}),(\\mathrm{r})-(\\mathrm{iii}) \\)</p>",
+            "<p>\\( (\\mathrm{p})-(\\mathrm{i}),(\\mathrm{q})-(\\mathrm{ii}),(\\mathrm{r})-(\\mathrm{iii}) \\)</p>",
+            "<p>\\( (\\mathrm{p})-(\\mathrm{i}),(\\mathrm{q})-(\\mathrm{iii}),(\\mathrm{r})-(\\mathrm{ii}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (\\mathrm{p})-(\\mathrm{ii}),(\\mathrm{q})-(\\mathrm{iii}),(\\mathrm{r})-(\\mathrm{i}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422956/gate-ds&ai-2024-question-6\" target=\"_blank\">https://gateoverflow.in/422956/gate-ds&ai-2024-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

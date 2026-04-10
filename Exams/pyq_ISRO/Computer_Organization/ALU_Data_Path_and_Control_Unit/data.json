@@ -1,0 +1,56 @@
+{
+  "title": "Computer_Organization - ALU_Data_Path_and_Control_Unit",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "ALU_Data_Path_and_Control_Unit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Micro program is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the name of a source program in micro computers</p>",
+            "<b>B.</b> <p>set of microinstructions that defines the individual operations in response to a machine-language instruction</p>",
+            "<b>C.</b> <p>a primitive form of macros used in assembly language programming</p>",
+            "<b>D.</b> <p>a very small segment of machine code</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>set of microinstructions that defines the individual operations in response to a machine-language instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213554/isro2018-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Two control signals in microprocessor which are related to Direct Memory Access (DMA) are <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>INTR &amp; INTA</p>",
+            "<b>B.</b> <p>RD &amp; WR</p>",
+            "<b>C.</b> <p>S0 &amp; S1</p>",
+            "<b>D.</b> <p>HOLD &amp; HLDA</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>HOLD &amp; HLDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52487/isro2011-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The microinstructions stored in the control memory of a processor have a width of 26 bits. Each microinstruction is divided into three fields. a micro operation field of 13 bits, a next address field (X), and a MUX select field (Y). There are 8 status bits in the inputs of the MUX. How many bits are there in the X and Y fields, and what is the size of the control memory in number of words? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 3, 1024</p>",
+            "<b>B.</b> <p>8, 5, 256</p>",
+            "<b>C.</b> <p>5, 8, 2048</p>",
+            "<b>D.</b> <p>10, 3, 512</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10, 3, 1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48055/isro2009-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

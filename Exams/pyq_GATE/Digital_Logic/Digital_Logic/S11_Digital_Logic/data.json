@@ -1,0 +1,236 @@
+{
+  "title": "Digital_Logic - Digital_Logic - Slot 11",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following floating point format <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q89_e3556510.jpg\"> <br>  Mantissa is a pure fraction in sign-magnitude form. <br><br> The normalized representation for the above format is specified as follows. The mantissa has an implicit 1 preceding the binary (radix) point. Assume that only 0's are padded in while shifting a field. The normalized representation of the above number (\\(0.239 \\times 2^{13}\\)) is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0A 20</p>",
+            "<b>B.</b> <p>11 34</p>",
+            "<b>C.</b> <p>4D D0</p>",
+            "<b>D.</b> <p>4A E8</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4A E8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82139/gate2005-90#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following floating point format <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q89_e3556510.jpg\"> <br>  Mantissa is a pure fraction in sign-magnitude form. <br><br> The decimal number \\(0.239 \\times 2^{13} \\) has the following hexadecimal representation (without normalization and rounding off : <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0D 24</p>",
+            "<b>B.</b> <p>0D 4D</p>",
+            "<b>C.</b> <p>4D 0D</p>",
+            "<b>D.</b> <p>4D 3D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4D 3D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1407/gate2005-89#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following circuit. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q64a_40774770.jpg\"> <br> The flip-flops are positive edge triggered D FFs. Each state is designated as a two-bit string Q0Q1 .\nLet the initial state be 00. the state transition sequence is  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q64_7a27fad2.jpg\"> <br> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1387/gate2005-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following circuit involving a positive edge triggered D FF. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q62a_17c9e04f.jpg\"> <br>Consider the following timing diagram. Let Ai represent the logic level on the line A in the i-th clock period. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q62b_0f53b511.jpg\"> <br> Let A' represent the complement of A. The correct output sequence on Y over the clock periods 1 through 5 is <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A_{0}A_{1}A'_{1}A_{3}A_{4}\\)</p>",
+            "<b>B.</b> <p>\\(A_{0}A_{1}A'_{2}A_{3}A_{4}\\)</p>",
+            "<b>C.</b> <p>\\(A_{1}A_{2}A'_{2}A_{3}A_{4}\\)</p>",
+            "<b>D.</b> <p>\\(A_{1}A'_{2}A_{3}A_{4}A'_{5}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(A_{0}A_{1}A'_{1}A_{3}A_{4}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/264/gate2005-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The switching expression corresponding to f(A,B,C,D)= \\(\\Sigma\\) (1,4,5,9,11,12) is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+            "<b>B.</b> <p>ABC' + ACD + B'C'D</p>",
+            "<b>C.</b> <p>ACD' + A'BC' + AC'D'</p>",
+            "<b>D.</b> <p>A'BD + ACD' + BCD'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1354/gate2005-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The hexadecimal representation of \\((657)_{8}\\) is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1AF</p>",
+            "<b>B.</b> <p>D78</p>",
+            "<b>C.</b> <p>D71</p>",
+            "<b>D.</b> <p>32F</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1AF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1353/gate2005-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The range of integers that can be represented by an n bit 2's complement number system is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-2^{n-1}\\) to \\((2^{n-1}-1)\\)</p>",
+            "<b>B.</b> <p>\\(-(2^{n-1}-1)\\) to \\((2^{n-1}-1)\\)</p>",
+            "<b>C.</b> <p>\\(-2^{n-1}\\) to \\(2^{n-1}\\)</p>",
+            "<b>D.</b> <p>\\(-(2^{n-1}+1)\\) to \\((2^{n-1}-1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(-2^{n-1}\\) to \\((2^{n-1}-1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1352/gate2005-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following circuit. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q15_fcc4baa0.jpg\"> Which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f is independent of X</p>",
+            "<b>B.</b> <p>f is independent of Y</p>",
+            "<b>C.</b> <p>f is independent of Z</p>",
+            "<b>D.</b> <p>None of X, Y, Z is redundant</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>f is independent of X</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1351/gate2005-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The function \\(A \\bar B C + \\bar A B C + AB \\bar C+ \\bar A \\bar B C+ A \\bar B \\bar C\\) is equivalent to <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A \\bar C + AB+ \\bar A C\\)</p>",
+            "<b>B.</b> <p>\\(A \\bar B+ A \\bar C+ \\bar A C\\)</p>",
+            "<b>C.</b> <p>\\(\\bar A B+ A \\bar C+ A \\bar B\\)</p>",
+            "<b>D.</b> <p>\\(\\bar AB+ AC+ A \\bar B\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A \\bar B+ A \\bar C+ \\bar A C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3687/gate2004-it-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The number \\((123456)_8\\) is equivalent to<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A72E)_{16}\\) and \\((22130232)_4\\)</p>",
+            "<b>B.</b> <p>\\((A72E)_{16}\\) and \\((22131122)_4\\)</p>",
+            "<b>C.</b> <p>\\((A73E)_{16}\\) and \\((22130232)_4\\)</p>",
+            "<b>D.</b> <p>\\((A62E)_{16}\\) and \\((22120232)_4\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((A72E)_{16}\\) and \\((22130232)_4\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3686/gate2004-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Using a 4-bit 2's complement arithmetic, which of the following additions will result in an overflow?<br>\nI.   1100 + 1100<br>\nII.  0011 + 0111<br>\nIII. 1111 + 0111<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i only</p>",
+            "<b>B.</b> <p>ii only</p>",
+            "<b>C.</b> <p>iii only</p>",
+            "<b>D.</b> <p>i and iii only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ii only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3685/gate2004-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What is the minimum number of NAND gates required to implement a 2-input EXCLUSIVE-OR function without using any other logic gate? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3649/gate2004-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let A = 1111 1010 and B = 0000 1010 be two 8-bit 2's complement numbers.\nTheir product in 2's complement is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1100 0100</p>",
+            "<b>B.</b> <p>1001 1100</p>",
+            "<b>C.</b> <p>1000 0101</p>",
+            "<b>D.</b> <p>1101 0101</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1100 0100</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1060/gate2004-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A 4-bit carry look ahead Combinational Circuit, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND, NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented  forms and the delay of each gate is one time unit, what is the overall propagation delay of the Combinational Circuit? Assume that the carry network has been implemented using two-level AND-OR logic. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 time units</p>",
+            "<b>B.</b> <p>6 time units</p>",
+            "<b>C.</b> <p>10 time units</p>",
+            "<b>D.</b> <p>12 time units</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6 time units</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1057/gate2004-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the partial implementation of a 2-bit counter using T flip-flops following the sequence 0-2-3-\n1-0, as shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q61_a3e4c9c5.jpg\"> <br> To complete the circuit, the input X should be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q2'</p>",
+            "<b>B.</b> <p>Q2 + Q1</p>",
+            "<b>C.</b> <p>\\((Q1\\oplus Q2)'\\)</p>",
+            "<b>D.</b> <p>\\(Q1\\oplus Q2\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(Q1\\oplus Q2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1056/gate2004-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

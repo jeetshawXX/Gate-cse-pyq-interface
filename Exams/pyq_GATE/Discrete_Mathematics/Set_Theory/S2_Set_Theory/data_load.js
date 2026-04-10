@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Set_Theory - Set_Theory - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Set_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A binary operation \\(\\oplus\\) on a set of integers is defined as \\( x \\oplus y= x^{2}+y^{2}\\). Which one of the following statements is TRUE about \\(\\oplus\\) ? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Commutative but not associative</p>",
+            "<b>B.</b> <p>Both commutative and associative</p>",
+            "<b>C.</b> <p>Associative but not commutative</p>",
+            "<b>D.</b> <p>Neither commutative nor associative</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Commutative but not associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/59/gate2013-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the possible number of reflexive relations on a set of 5 elements? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{10}\\)</p>",
+            "<b>B.</b> <p>\\(2^{15}\\)</p>",
+            "<b>C.</b> <p>\\(2^{20}\\)</p>",
+            "<b>D.</b> <p>\\(2^{25}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{20}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1149/gate2010-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the field C of complex numbers with addition and multiplication. Which of the following form(s) a subfield of C with addition and multiplication?<br>\nS1:  the set of real numbers<br>\nS2:\\(\\{(a + ib) \\mid a\\) and b are rational numbers\\(\\}\\)<br>\nS3:\\(\\{a + ib \\mid (a^2 + b^2) \\leq 1\\}\\)<br>\nS4: \\(\\{ia \\mid a \\text{ is real}\\}\\)<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only S1</p>",
+            "<b>B.</b> <p>S1 and S3</p>",
+            "<b>C.</b> <p>S2 and S3</p>",
+            "<b>D.</b> <p>S1 and S2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 and S2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3316/gate2008-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If P, Q, R are subsets of the universal set U, then \\((P\\cap Q\\cap R)\\cup (P^{C} \\cap Q \\cap R)\\cup Q^{C} \\cup R^{C}\\) is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Q^{C} \\cup R^{C}\\)</p>",
+            "<b>B.</b> <p>\\(P \\cup Q^{C} \\cup R^{C}\\)</p>",
+            "<b>C.</b> <p>\\(p^{C}\\cup Q^{C} \\cup R^{C}\\)</p>",
+            "<b>D.</b> <p>U</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>U</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/400/gate2008-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A partial order P is defined on the set of natural numbers as follows. Here \\( \\frac{x}{y}\\) denotes integer division.<br>\ni.\\((0, 0) \\in P.\\)<br>\nii.\\((a, b) \\in P\\)  if and only if \\((a \\% 10) \\leq (b \\% 10)\\) and \\((\\frac{a}{10},\\frac{b}{10})\\in P\\).<br><br>\nConsider the following ordered pairs:<br><br>\ni.   (101, 22)<br>\nii.  (22, 101)<br>\niii. (145, 265)<br>\niv.  (0, 153)<br><br>\nWhich of these ordered pairs of natural numbers are contained in P? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (iii)</p>",
+            "<b>B.</b> <p>(ii) and (iv)</p>",
+            "<b>C.</b> <p>(i) and (iv)</p>",
+            "<b>D.</b> <p>(iii) and (iv)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(iii) and (iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3456/gate2007-it-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Set_Theory\\q26a_1e74edb6.jpg\">  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Set_Theory\\q26b_a8cedcd5.jpg\"> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1224/gate2007-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following is TRUE? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every subset of a regular set is regular.</p>",
+            "<b>B.</b> <p>Every finite subset of a non-regular set is regular.</p>",
+            "<b>C.</b> <p>The union of two non-regular sets is not regular.</p>",
+            "<b>D.</b> <p>Infinite union of finite sets is regular.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Every finite subset of a non-regular set is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1205/gate2007-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let S be a set of n elements. The number of ordered pairs in the largest and the\nsmallest equivalence relations on S are: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n and n</p>",
+            "<b>B.</b> <p>\\(n^{2} \\; and \\; n\\)</p>",
+            "<b>C.</b> <p>\\(n^{2}  \\; and \\;  0\\)</p>",
+            "<b>D.</b> <p>n and 1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(n^{2} \\; and \\; n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1201/gate2007-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What is the cardinality of the set of integers X defined below?<br>\n\\(X=\\{n \\mid 1 \\leq n \\leq 123\\), n is not divisible by either 2, 3 or 5} <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>28</p>",
+            "<b>B.</b> <p>33</p>",
+            "<b>C.</b> <p>37</p>",
+            "<b>D.</b> <p>44</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>33</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3563/gate2006-it-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>For the set N of natural numbers and a binary operation \\(f : N \\times N \\to N\\), an element \\(z \\in N\\) is called an identity for f, if f (a, z) = a = f(z, a), for all \\(a \\in N\\). Which of the following binary operations have an identity?<br>\ni. \\(f (x, y) = x + y - 3\\)<br>\nii. \\(f (x, y) = \\max(x, y)\\)<br>\niii. \\(f (x, y) = x^y\\)<br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3539/gate2006-it-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A set X can be represented by an array x[n] as follows <br> \\(x[i]=\\left\\{\\begin{matrix} 1 &amp;if  i\\in X \\\\ 0&amp;  otherwise \\end{matrix}\\right.\\) <br> Consider the following algorithm in which x,y and z are boolean arrays of size n;<pre><code>algorithm zzz(x[] , y[], z [])\n{\n   int i;\n   for (i=O; i &lt; n; ++i)\n         z[i] = (x[i] ^ ~y[i]) V (~x[i] ^ y[i])\n}</code></pre>\nThe set Z computed by the algorithm is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((X\\cap Y)\\)</p>",
+            "<b>B.</b> <p>\\((X\\cup Y)\\)</p>",
+            "<b>C.</b> <p>\\((X-Y)\\cap(Y-X)\\)</p>",
+            "<b>D.</b> <p>\\((X-Y)\\cup(Y-X)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((X-Y)\\cup(Y-X)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1828/gate2006-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let S={1,2,3....,m},m \\(\\gt \\) 3. Let \\(X_{1},...,X_{n}\\) be subsets of S each of size 3.\nDefine a function f from S to the set of natural numbers as, f(i) is the number of sets \\(X_{j}\\) that contain the element i. That is \\(f(i)=|\\{j|i\\in X_{j}\\}|\\). Then \\(\\sum_{i=1}^{m}f(i)\\) <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3m</p>",
+            "<b>B.</b> <p>3n</p>",
+            "<b>C.</b> <p>2m+1</p>",
+            "<b>D.</b> <p>2n+1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/988/gate2006-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Given a set of elements N = {1,2,...,n} and two arbitrary subsets A\\(\\subseteq\\)N and\nB\\(\\subseteq\\)N , how many of the n! permutations p from N to N satisfy min[p(A)]=min[p(B)], where min(S) is the smallest integer in the set of integers S and\np(S) is the set of integers obtained by applying permutation p to each element of S ? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((n-|A\\cup B|)|A||B|\\)</p>",
+            "<b>B.</b> <p>\\((|A|^{2}+|B|^{2})n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n!(|A\\cap B|/|A\\cup B|)\\)</p>",
+            "<b>D.</b> <p>\\(|A\\cap B|^{2}/\\binom{n}{|A\\cup B|^{2}}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(n!(|A\\cap B|/|A\\cup B|)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/987/gate2006-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let E,F and G be finite sets.<br>\nLet X=(E \\(\\cap\\)F) - (F\\(\\cap\\)G) and Y = (E - (E\\(\\cap\\)G)) - (E - F).  <br> Which one of the\nfollowing is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X\\subset Y\\)</p>",
+            "<b>B.</b> <p>\\(X\\supset Y\\)</p>",
+            "<b>C.</b> <p>X=Y</p>",
+            "<b>D.</b> <p>\\(X-Y\\neq \\phi\\) and \\(Y-X\\neq \\phi\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X=Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/983/gate2006-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>We are given a set \\(X=\\{x_{1},...,x_{n}\\}\\) where \\(x_{i}=2^{i}\\). A sample \\(S\\subseteq X\\)  is drawn by selecting each   \\(x_{i}\\) independently with probability \\(p_{i}=\\frac{1}{2}\\). The expected value of the smallest number in sample S is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1/n</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>\\(\\sqrt{n}\\)</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/979/gate2006-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Passage Reading",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Passage Reading",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411712\"></a><div itemprop=\"text\"><p>Rice, a versatile and inexpensive source of carbohydrate, is a critical component of diet worldwide. Climate change, causing extreme weather, poses a threat to sustained availability of rice. Scientists are working on developing Green Super Rice \\( \\text{(GSR)} \\), which is resilient under extreme weather conditions yet gives higher yields sustainably.</p><p>Which one of the following is the \\( \\text{CORRECT} \\) logical inference based on the information given in the above passage?</p></div><br><br><b>GATE CH 2022 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{GSR} \\) is an alternative to regular rice, but it grows only in an extreme weather</p>",
+            "<p>\\( \\text{GSR} \\) may be used in future in response to adverse effects of climate change</p>",
+            "<p>\\( \\text{GSR} \\) grows in an extreme weather, but the quantity of produce is lesser than regular ice</p>",
+            "<p>Regular rice will continue to provide good yields even in extreme weather</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{GSR} \\) may be used in future in response to adverse effects of climate change</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411712/gate-ch-2022-ga-question-6\" target=\"_blank\">https://gateoverflow.in/411712/gate-ch-2022-ga-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"371499\"></a><div itemprop=\"text\"><p>In a recently conducted national entrance test, boys constituted \\( 65 \\% \\) of those who appeared for the test. Girls constituted the remaining candidates and they accounted for \\( 60 \\% \\) of the qualified candidates.</p>\n\n<p>Which one of the following is the correct logical inference based on the information provided in the above passage?</p>\n\n</div><br><br><b>GATE CSE 2022 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Equal number of boys and girls qualified</p>",
+            "<p>Equal number of boys and girls appeared for the test</p>",
+            "<p>The number of boys who appeared for the test is less than the number of girls who appeared</p>",
+            "<p>The number of boys who qualified the test is less than the number of girls who qualified</p>"
+          ],
+          "correct_answer": "<p>The number of boys who qualified the test is less than the number of girls who qualified</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371499/gate-cse-2022-ga-question-7\" target=\"_blank\">https://gateoverflow.in/371499/gate-cse-2022-ga-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"399250\"></a><div itemprop=\"text\"><p>The country of Zombieland is in distress since more than \\( 75 \\% \\) of its working population is suffering from serious health issues. Studies conducted by competent health experts concluded that a complete lack of physical exercise among its working population was one of the leading causes of their health issues. As one of the measures to address the problem, the Government of Zombieland has decided to provide monetary incentives to those who ride bicycles to work.<br>\n<br>\nBased only on the information provided above, which one of the following statements can be logically inferred with <em>certainty</em>?</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>All the working population of Zombieland will henceforth ride bicycles to work.</p>",
+            "<p>Riding bicycles will ensure that all of the working population of Zombieland is free of health issues.</p>",
+            "<p>The health experts suggested to the Government of Zombieland to declare riding bicycles as mandatory.</p>",
+            "<p>The Government of Zombieland believes that riding bicycles is a form of physical exercise.</p>"
+          ],
+          "correct_answer": "<p>The Government of Zombieland believes that riding bicycles is a form of physical exercise.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399250/gate-cse-2023-ga-question-6\" target=\"_blank\">https://gateoverflow.in/399250/gate-cse-2023-ga-question-6</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411692\"></a><div itemprop=\"text\"><p>Mosquitoes pose a threat to human health. Controlling mosquitoes using chemicals may have undesired consequences. In Florida, authorities have used genetically modified mosquitoes to control the overall mosquito population. It remains to be seen if this novel approach has unforeseen consequences.</p>\n\n<p>Which one of the following is the correct logical inference based on the information in the above passage?</p>\n\n</div><br><br><b>GATE ECE 2022 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Using chemicals to kill mosquitoes is better than using genetically modified mosquitoes because genetic engineering is dangerous</p>",
+            "<p>Using genetically modified mosquitoes is better than using chemicals to kill mosquitoes because they do not have any side effects</p>",
+            "<p>Both using genetically modified mosquitoes and chemicals have undesired consequences and can be dangerous</p>",
+            "<p>Using chemicals to kill mosquitoes may have undesired consequences but it is not clear if using genetically modified mosquitoes has any negative consequence</p>"
+          ],
+          "correct_answer": "<p>Using chemicals to kill mosquitoes may have undesired consequences but it is not clear if using genetically modified mosquitoes has any negative consequence</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411692/gate-ece-2022-ga-question-6\" target=\"_blank\">https://gateoverflow.in/411692/gate-ece-2022-ga-question-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359722\"></a><div itemprop=\"text\"><p>Non-performing Assets \\( \\text{(NPAs)} \\) of a bank in India is defined as an asset, which remains&nbsp;unpaid by a borrower for a certain period of time in terms of interest, principal, or both. Reserve Bank of India \\( \\text{(RBI)} \\) has changed the definition of \\( \\text{NPA} \\) thrice during \\( 1993-2004 \\), in terms of the holding period of loans. The holding period was reduced by one quarter each time. In \\( 1993 \\), the holding period was four quarters \\( \\text{(360 days)} \\).</p>\n\n<p>Based on the above paragraph, the holding period of loans in \\( \\text{2004} \\) after the third revision was ______ days.</p>\n\n</div><br><br><b>GATE Electrical 2020 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 135 \\)</p>",
+            "<p>\\( 180 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 90 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359722/gate-electrical-2020-ga-question-6\" target=\"_blank\">https://gateoverflow.in/359722/gate-electrical-2020-ga-question-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411671\"></a><div itemprop=\"text\"><p>Altruism is the human concern for the wellbeing of others. Altruism has been shown to be motivated more by social bonding, familiarity and identification of belongingness to a group. The notion that altruism may be attributed to empathy or guilt has now been rejected.</p>\n\n<p>Which one of the following is the \\( \\text{CORRECT} \\) logical inference based on the information in the above passage?</p>\n\n</div><br><br><b>GATE Electrical 2022 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Humans engage in altruism due to guilt but not empathy</p>",
+            "<p>Humans engage in altruism due to empathy but not guilt</p>",
+            "<p>Humans engage in altruism due to group identification but not empathy</p>",
+            "<p>Humans engage in altruism due to empathy but not familiarity</p>"
+          ],
+          "correct_answer": "<p>Humans engage in altruism due to group identification but not empathy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411671/gate-electrical-2022-ga-question-6\" target=\"_blank\">https://gateoverflow.in/411671/gate-electrical-2022-ga-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

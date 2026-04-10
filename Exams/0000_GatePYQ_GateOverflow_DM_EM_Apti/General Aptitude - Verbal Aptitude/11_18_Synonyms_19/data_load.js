@@ -1,0 +1,296 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Synonyms",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Synonyms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2365\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning to the word given below:</p><p><strong>Circuitous</strong></p></div><br><br><b>GATE CSE 2010 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cyclic</p>",
+            "<p>indirect</p>",
+            "<p>confusing</p>",
+            "<p>crooked</p>"
+          ],
+          "correct_answer": "<p>indirect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2365/gate-cse-2010-question-57\" target=\"_blank\">https://gateoverflow.in/2365/gate-cse-2010-question-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2165\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in the meaning to the word below:</p><p><strong>Inexplicable</strong></p></div><br><br><b>GATE CSE 2011 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;Incomprehensible</p>",
+            "<p>&nbsp;Indelible</p>",
+            "<p>&nbsp;Inextricable</p>",
+            "<p>&nbsp;Infallible</p>"
+          ],
+          "correct_answer": "<p>&nbsp;Incomprehensible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2165/gate-cse-2011-question-56\" target=\"_blank\">https://gateoverflow.in/2165/gate-cse-2011-question-56</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2197\"></a><div itemprop=\"text\"><p>Which one of the following options is the closest in meaning to the word given below?</p><p><strong>Mitigate </strong> &nbsp;</p></div><br><br><b>GATE CSE 2012 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Diminish</p>",
+            "<p>Divulge</p>",
+            "<p>Dedicate</p>",
+            "<p>Denote</p>"
+          ],
+          "correct_answer": "<p>Diminish</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2197/gate-cse-2012-question-58\" target=\"_blank\">https://gateoverflow.in/2197/gate-cse-2012-question-58</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1559\"></a><div itemprop=\"text\"><p>Which one of the following options is the closest in meaning to the word given below?</p><p><strong>Nadir</strong></p></div><br><br><b>GATE CSE 2013 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Highest</p>",
+            "<p>Lowest</p>",
+            "<p>Medium</p>",
+            "<p>Integration</p>"
+          ],
+          "correct_answer": "<p>Lowest</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1559/gate-cse-2013-question-56\" target=\"_blank\">https://gateoverflow.in/1559/gate-cse-2013-question-56</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"118415\"></a><div itemprop=\"text\"><p>Choose the option with words that are not synonyms.</p></div><br><br><b>GATE CSE 2017 Set 2 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>aversion, dislike</p>",
+            "<p>luminous, radiant</p>",
+            "<p>plunder, loot</p>",
+            "<p>yielding, resistant</p>"
+          ],
+          "correct_answer": "<p>yielding, resistant</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118415/gate-cse-2017-set-2-question-ga-1\" target=\"_blank\">https://gateoverflow.in/118415/gate-cse-2017-set-2-question-ga-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"312009\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning to the word below\\( : \\)</p><p><strong>Exhort&nbsp;</strong></p></div><br><br><b>GATE2010 MN: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>urge</p>",
+            "<p>condemn</p>",
+            "<p>restrain</p>",
+            "<p>scold</p>"
+          ],
+          "correct_answer": "<p>urge</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312009/gate2010-mn-ga-1\" target=\"_blank\">https://gateoverflow.in/312009/gate2010-mn-ga-1</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"312020\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning to the word below\\( : \\)</p><p><strong>Ephemeral</strong></p></div><br><br><b>GATE2010 TF: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>effeminate</p>",
+            "<p>ghostlike</p>",
+            "<p>soft</p>",
+            "<p>short-lived</p>"
+          ],
+          "correct_answer": "<p>short-lived</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312020/gate2010-tf-ga-1\" target=\"_blank\">https://gateoverflow.in/312020/gate2010-tf-ga-1</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40222\"></a><div itemprop=\"text\"><p>Which one of the following options is the closest in meaning to the word given below?</p><p><strong>Pacify</strong></p></div><br><br><b>GATE2012 AR: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Excite</p>",
+            "<p>Soothe</p>",
+            "<p>Deplete</p>",
+            "<p>Tire</p>"
+          ],
+          "correct_answer": "<p>Soothe</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40222/gate2012-ar-ga-1\" target=\"_blank\">https://gateoverflow.in/40222/gate2012-ar-ga-1</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"40234\"></a><div itemprop=\"text\"><p>Which one of the following options is the closest in meaning to the word given below?</p><p><strong>Latitude</strong></p></div><br><br><b>GATE2012 CY: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Eligibility</p>",
+            "<p>Freedom</p>",
+            "<p>Coercion</p>",
+            "<p>Meticulousness</p>"
+          ],
+          "correct_answer": "<p>Freedom</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40234/gate2012-cy-ga-3\" target=\"_blank\">https://gateoverflow.in/40234/gate2012-cy-ga-3</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"40270\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning to the word given below: <strong>Primeval</strong></p>\n\n</div><br><br><b>GATE2013 CE: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Modern</p>",
+            "<p>Historic</p>",
+            "<p>Primitive</p>",
+            "<p>Antique</p>"
+          ],
+          "correct_answer": "<p>Primitive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40270/gate2013-ce-ga-3\" target=\"_blank\">https://gateoverflow.in/40270/gate2013-ce-ga-3</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"40288\"></a><div itemprop=\"text\"><p>They were requested not to \\( \\textbf{quarrel} \\)<strong>&nbsp;</strong>with others.</p><p>Which one of the following options is the closest in meaning to the word \\( \\textbf{quarrel} \\)?</p></div><br><br><b>GATE2013 EE: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>make out</p>",
+            "<p>call out</p>",
+            "<p>dig out</p>",
+            "<p>fall out</p>"
+          ],
+          "correct_answer": "<p>fall out</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40288/gate2013-ee-ga-1\" target=\"_blank\">https://gateoverflow.in/40288/gate2013-ee-ga-1</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"40300\"></a><div itemprop=\"text\"><p>A student is required to demonstrate a high level of comprehension of the subject, especially in the social sciences.<br>\nThe word closest in meaning to <strong>comprehension</strong> is</p>\n\n</div><br><br><b>GATE2014 AE: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>understanding</p>",
+            "<p>meaning</p>",
+            "<p>concentration</p>",
+            "<p>stability</p>"
+          ],
+          "correct_answer": "<p>understanding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40300/gate2014-ae-ga-1\" target=\"_blank\">https://gateoverflow.in/40300/gate2014-ae-ga-1</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"41463\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning to the word underlined in the sentence below?</p><p>In a democracy, everybody has the freedom to<em><strong> </strong><strong>disagree</strong></em> with the government.&nbsp;</p></div><br><br><b>GATE2014 EC-4: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dissent&nbsp;</p>",
+            "<p>Descent&nbsp;</p>",
+            "<p>Decent&nbsp;</p>",
+            "<p>Decadent</p>"
+          ],
+          "correct_answer": "<p>Dissent&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41463/gate2014-ec-4-ga-1\" target=\"_blank\">https://gateoverflow.in/41463/gate2014-ec-4-ga-1</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"41465\"></a><div itemprop=\"text\"><p>While receiving the award, the scientist said, \"I feel vindicated\". Which of the following is closest in meaning to the word 'vindicated'?</p></div><br><br><b>GATE2014 EC-4: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Punished</p>",
+            "<p>Substantiated&nbsp;</p>",
+            "<p>Appreciated&nbsp;</p>",
+            "<p>Chastened</p>"
+          ],
+          "correct_answer": "<p>Substantiated&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41465/gate2014-ec-4-ga-3\" target=\"_blank\">https://gateoverflow.in/41465/gate2014-ec-4-ga-3</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"40178\"></a><div itemprop=\"text\"><p>Which word is not a synonym for the word <strong><em>vernacular</em></strong>?</p></div><br><br><b>GATE2015 CE-2: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>regional</p>",
+            "<p>indigenous</p>",
+            "<p>indigent</p>",
+            "<p>colloquial</p>"
+          ],
+          "correct_answer": "<p>indigent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40178/gate2015-ce-2-ga-3\" target=\"_blank\">https://gateoverflow.in/40178/gate2015-ce-2-ga-3</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"40181\"></a><div itemprop=\"text\"><p>The word similar in meaning to ‘<strong>dreary</strong>’ is</p></div><br><br><b>GATE2015 CE-2: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cheerful</p>",
+            "<p>dreamy</p>",
+            "<p>hard</p>",
+            "<p>dismal</p>"
+          ],
+          "correct_answer": "<p>dismal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40181/gate2015-ce-2-ga-6\" target=\"_blank\">https://gateoverflow.in/40181/gate2015-ce-2-ga-6</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"39491\"></a><div itemprop=\"text\"><p>Choose the word most similar in meaning to the given word:<br><br>Educe</p></div><br><br><b>GATE2015 EC-1: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Exert</p>",
+            "<p>Educate</p>",
+            "<p>Extract</p>",
+            "<p>Extend</p>"
+          ],
+          "correct_answer": "<p>Extract</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39491/gate2015-ec-1-ga-3\" target=\"_blank\">https://gateoverflow.in/39491/gate2015-ec-1-ga-3</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"39503\"></a><div itemprop=\"text\"><p>Choose the word most similar in meaning to the given word:</p><p>Awkward</p></div><br><br><b>GATE2015 EC-2: GA- 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inept</p>",
+            "<p>Graceful</p>",
+            "<p>Suitable</p>",
+            "<p>Dreadful</p>"
+          ],
+          "correct_answer": "<p>Inept</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39503/gate2015-ec-2-ga-2\" target=\"_blank\">https://gateoverflow.in/39503/gate2015-ec-2-ga-2</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"313421\"></a><div itemprop=\"text\"><p>There was no doubt that their work was thorough.</p><p>Which of the words below is closest in meaning to the underlined word above?</p></div><br><br><b>GATE2017 CE-2: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>pretty</p>",
+            "<p>complete</p>",
+            "<p>sloppy</p>",
+            "<p>haphazard</p>"
+          ],
+          "correct_answer": "<p>complete</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313421/gate2017-ce-2-ga-2\" target=\"_blank\">https://gateoverflow.in/313421/gate2017-ce-2-ga-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

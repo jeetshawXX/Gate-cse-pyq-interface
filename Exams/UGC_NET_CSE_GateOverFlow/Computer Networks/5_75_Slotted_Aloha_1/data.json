@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Slotted Aloha",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Slotted Aloha",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225845\"></a><div itemprop=\"text\"><p>A slotted ALOHA network transmits 200-bit frames using a shared channel with a 200 Kbps bandwidth. Find the throughput of the system (all stations put together) produces 250 frames per second:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>49</p>",
+            "<p>368</p>",
+            "<p>149</p>",
+            "<p>151</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225845/ugc-net-cse-july-2018-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/225845/ugc-net-cse-july-2018-part-2-question-41</a></p>"
+        }
+      ]
+    }
+  ]
+}

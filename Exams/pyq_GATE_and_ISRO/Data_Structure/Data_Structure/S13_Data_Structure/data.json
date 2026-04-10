@@ -1,0 +1,236 @@
+{
+  "title": "Data_Structure - Data_Structure - Slot 13",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the \\(B^+\\) tree in the adjoining figure, where each node has at most two keys and three links.<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q84a_d9f1f82d.jpg\"><br>Keys K15 and then K25 are inserted into this tree in that order. Exactly how many of the following nodes (disregarding the links) will be present in the tree after the two insertions?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q84b_037c52a6.jpg\"><br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3536/gate2007-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following C program: <br><pre><code> #include &lt; stdio.h &gt;\n\n           #define EOF -1\n           void push (int); /* push the argument on the stack */\n           int pop  (void); /* pop the top of the stack */\n           void flagError ();\n           int main ()\n          {         int c, m, n, r;\n                     while ((c = getchar ()) != EOF)\n                    { if  (isdigit (c) )\n                               push (c);\n                     else if ((c == '+') || (c == '*'))\n                    {          m = pop ();\n                                n = pop ();\n                                r = (c == '+') ? n + m : n*m;\n                                push (r);\n                      }\n                      else if (c != ' ')\n                               flagError ();\n             }\n              printf(\"% c\", pop ());\n}</code></pre> <br>What is the output of the program for the following input?<br>5 2 * 3 3 2 + * + <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>30</p>",
+            "<b>D.</b> <p>150</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3465/gate2007-it-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are:<br>\ni. isEmpty(Q) returns true if the queue is empty, false otherwise.<br>\nii. delete(Q) deletes the element at the front of the queue and returns its value.<br>\niii. insert(Q,i) inserts the integer i at the rear of the queue.<br>\nConsider the following function <br><pre><code>void f (queue Q) {\nint i ;\nif (!isEmpty(Q)) {\n   i = delete(Q);\n   f(Q);\n   insert(Q, i);\n  }\n} </code></pre> <br>\nWhat operation is performed by the above function f ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Leaves the queue Q unchanged</p>",
+            "<b>B.</b> <p>Reverses the order of the elements in the queue Q</p>",
+            "<b>C.</b> <p>Deletes the element at the front of the queue Q and inserts it at the rear keeping the other elements in the same order</p>",
+            "<b>D.</b> <p>Empties the queue Q</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Reverses the order of the elements in the queue Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3463/gate2007-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>When searching for the key value 60 in a binary search tree, nodes containing the key values 10, 20, 40, 50, 70, 80, 90 are traversed, not necessarily in the order given. How many different orders are possible in which these key values can occur on the search path from the root to the node containing the value 60? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>35</p>",
+            "<b>B.</b> <p>64</p>",
+            "<b>C.</b> <p>128</p>",
+            "<b>D.</b> <p>5040</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>35</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3462/gate2007-it-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a hash function that distributes keys uniformly. The hash table size is 20. After hashing of how many keys will the probability that any new key hashed collides with an existing one exceed 0.5. <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3461/gate2007-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>An array of n numbers is given, where n is an even number. The maximum as well as the minimum of these n numbers needs to be determined. Which of the following is TRUE about the number of comparisons needed? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At least 2n - c comparisons, for some constant c, are needed.</p>",
+            "<b>B.</b> <p>At most 1.5n - 2 comparisons are needed.</p>",
+            "<b>C.</b> <p>At least 2 nlog n comparisons are needed.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At most 1.5n - 2 comparisons are needed.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1248/gate2007-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the process of inserting an element into a Max Heap, where the Max\nHeap is represented by an array. Suppose we perform a binary search on the\npath from the new leaf to the root to find the position for the newly inserted\nelement, the number of comparisons performed is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (log n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (loglogn)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n log_{2}n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (loglogn)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1245/gate2007-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C program segment where CellNode represents a node in a\nbinary tree:<pre><code> struct CellNode \n{\n  struct CellNOde *leftChild;\n  int element;\n  struct CellNode *rightChild;\n};\n \nint GetValue(struct CellNode *ptr) \n{\n  int value = 0;\n  if (ptr != NULL) \n  {\n   if ((ptr-&gt;leftChild == NULL) &amp;&amp;\n        (ptr-&gt;rightChild == NULL))\n      value = 1;\n   else\n      value = value + GetValue(ptr-&gt;leftChild)\n                   + GetValue(ptr-&gt;rightChild);\n  }\n  return(value);\n}</code></pre>\nThe value returned by GetValue when a pointer to the root of a binary tree is\npassed as its argument is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the number of nodes in the tree</p>",
+            "<b>B.</b> <p>the number of internal nodes in the tree</p>",
+            "<b>C.</b> <p>the number of leaf nodes in the tree</p>",
+            "<b>D.</b> <p>the height of the tree</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the number of leaf nodes in the tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1244/gate2007-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A complete n-ary tree is a tree in which each node has n children or no children.\nLet I be the number of internal nodes and L be the number of leaves in a\ncomplete n-ary tree. If L = 41, and I = 10, what is the value of n? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1241/gate2007-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a hash table of size seven, with starting index zero, and a hash function\n(3x + 4)mod7. Assuming the hash table is initially empty, which of the following\nis the contents of the table when the sequence 1, 3, 8, 10 is inserted into the\ntable using closed hashing? Note that '-' denotes an empty location in the table. <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, -, -, -, -, -, 10</p>",
+            "<b>B.</b> <p>1, 8, 10, -, -, -, 3</p>",
+            "<b>C.</b> <p>1, -, -, -, -, -, 3</p>",
+            "<b>D.</b> <p>1, 10, 8, -, -, -, 3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1, 8, 10, -, -, -, 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1238/gate2007-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The inorder and preorder traversal of a binary tree are\nd b e a f c g and a b d e c f g, respectively\nThe postorder traversal of the binary tree is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>d e b f g c a</p>",
+            "<b>B.</b> <p>e d b g f c a</p>",
+            "<b>C.</b> <p>e d b f g c a</p>",
+            "<b>D.</b> <p>d e f g b c a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>d e b f g c a</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1237/gate2007-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The following postfix expression with single digit operands is evaluated using a\nstack:<pre><code>\n8 2 3 ^ / 2 3 * + 5 1 * -  </code></pre>\nNote that ^ is the exponentiation operator. The top two elements of the stack\nafter the first * is evaluated are: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6,1</p>",
+            "<b>B.</b> <p>5, 7</p>",
+            "<b>C.</b> <p>3, 2</p>",
+            "<b>D.</b> <p>1, 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6,1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1236/gate2007-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The maximum number of binary trees that can be formed with three unlabeled nodes is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1211/gate2007-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The height of a binary tree is the maximum number of edges in any root to leaf\npath. The maximum number of nodes in a binary tree of height h is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{h}-1\\)</p>",
+            "<b>B.</b> <p>\\(2^{h-1}-1\\)</p>",
+            "<b>C.</b> <p>\\(2^{h+1}-1\\)</p>",
+            "<b>D.</b> <p>\\(2^{h+1}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{h+1}-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1210/gate2007-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An array X of n distinct integers is interpreted as a complete binary tree. The index of the first element of the array is 0. If the root node is at level 0, the level of element \\(X[i], i \\neq 0\\), is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\lfloor \\log _2 i \\right \\rfloor\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\lceil \\log _2 (i+1)\\right \\rceil\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\lfloor \\log _2 (i+1) \\right \\rfloor\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\lceil \\log _2 i \\right \\rceil\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left \\lfloor \\log _2 (i+1) \\right \\rfloor\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3617/gate2006-it-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 14",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A unit vector perpendicular to both the vectors a=2i-3j+k and b=i+j-2k is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{3} (i+j-k)\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{3} (i-j-k)\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j-k)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{\\sqrt{3}} (i+j+k)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2625/gate1995-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>If the cube roots of unity are \\(1, \\omega\\) and \\(\\omega^2\\), then the roots of the following equation are <br>\n\\((x-1)^3 +8 =0\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1, 1 + 2\\omega, 1 + 2\\omega^2\\)</p>",
+            "<b>B.</b> <p>\\(1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+            "<b>D.</b> <p>\\(-1, 1 + 2\\omega, -1 + 2\\omega^2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(-1, 1 - 2\\omega, 1 - 2\\omega^2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2620/gate1995-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The rank of the following \\((n+1) \\times (n+1)\\) matrix, where a is a real number is <br>\n\\(\\begin{bmatrix} 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ \\vdots &amp; \\vdots &amp; \\vdots &amp; \\: &amp; \\vdots \\\\ 1 &amp; a &amp; a^2 &amp; \\dots &amp; a^n \\end{bmatrix}\\) <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>Depends on the value of a</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2611/gate1995-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The value of k for which \\(4x^2 - 8xy + ky^2 = 0\\) does not represent a pair of straight lines (both passing through the origin) is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2610/gate1995-1-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>If at every point of a certain curve, the slope of the tangent equals \\(\\frac{-2x}{y}\\) the curve is <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a straight line</p>",
+            "<b>B.</b> <p>a parabola</p>",
+            "<b>C.</b> <p>a circle</p>",
+            "<b>D.</b> <p>an ellipse</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>an ellipse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2609/gate1995-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In the interval \\([0, \\pi]\\) the equation \\(x=\\cos x\\) has <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>No solution</p>",
+            "<b>B.</b> <p>Exactly one solution</p>",
+            "<b>C.</b> <p>Exactly two solutions</p>",
+            "<b>D.</b> <p>An infinite number of solutions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Exactly one solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2608/gate1995-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The rank of matrix \\(\\begin{bmatrix} 0 &amp; 0 &amp; -3 \\\\ 9 &amp; 3 &amp; 5 \\\\ 3 &amp; 1 &amp; 1 \\end{bmatrix}\\)is: <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2446/gate1994-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Backward Euler method for solving the differential equation \\(\\frac{dy}{dx}=f(x, y)\\) is specified by, (choose one of the following). <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(y_{n+1}=y_n+hf(x_n, y_n)\\)</p>",
+            "<b>B.</b> <p>\\(y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})\\)</p>",
+            "<b>C.</b> <p>\\(y_{n+1}=y_{n-1}+2hf(x_n, y_n)\\)</p>",
+            "<b>D.</b> <p>\\(y_{n+1}= (1+h)f(x_{n+1}, y_{n+1})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2439/gate1994-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let A and B be real symmetric matrices of size \\(n \\times n\\). Then which one of the following is true? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AA'=I\\)</p>",
+            "<b>B.</b> <p>\\(A=A^{-1}\\)</p>",
+            "<b>C.</b> <p>\\(AB=BA\\)</p>",
+            "<b>D.</b> <p>\\((AB)'=BA\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((AB)'=BA\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2438/gate1994-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The function \\(f\\left(x,y\\right) = x^2y - 3xy + 2y +x\\) has <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no local extremum</p>",
+            "<b>B.</b> <p>one local minimum but no local maximum</p>",
+            "<b>C.</b> <p>one local maximum but no local minimum</p>",
+            "<b>D.</b> <p>one local minimum and one local maximum</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>no local extremum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/602/gate1993-01-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following improper integrals is (are) convergent? <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx\\)</p>",
+            "<b>B.</b> <p>\\(\\int ^{\\infty} _{0} \\frac{\\cos x}{1+x} dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int ^{\\infty} _{0} \\frac{x}{1+x^2} dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int ^{1} _{0} \\frac{1-\\cos x}{\\frac{x^5}{2}} dx\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/601/gate1993-01-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Fourier series of the periodic function (period \\(2 \\pi \\)) defined by <br>\n\\(f(x) = \\begin{cases} 0, -p \\lt x \\lt 0\\\\x, 0 \\lt x \\lt p \\end{cases} \\text { is }\\\\ \\frac{\\pi}{4} + \\Sigma \\left [ \\frac{1}{\\pi n^2} \\left(\\cos n\\pi - 1 \\right) \\cos nx - \\frac{1}{n} \\cos n\\pi \\sin nx \\right ]\\) <br>\nBut putting \\(x = \\pi\\), we get the sum of the series <br>\n\\(1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\frac{1}{7^2} + \\cdots \\text { is }\\) <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{{\\pi }^2 }{4}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{{\\pi }^2 }{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{{\\pi }^2 }{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{{\\pi }^2 }{12}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{{\\pi }^2 }{8}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/262/gate1993-01-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Simpson's rule for integration gives exact result when f(x) is a polynomial of degree <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/598/gate1993-01-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The differential equation <br>\\(\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>linear</p>",
+            "<b>B.</b> <p>non- linear</p>",
+            "<b>C.</b> <p>homogeneous</p>",
+            "<b>D.</b> <p>of degree two</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>linear</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/597/gate1993-01-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>For the below question, one or more OPTIONS are correct<br>\nThe eigen vector(s) of the matrix <br>\n\\(\\begin{bmatrix} 0 &amp;0 &amp;\\alpha\\\\ 0 &amp;0 &amp;0\\\\ 0 &amp;0 &amp;0 \\end{bmatrix},\\alpha \\neq 0\\)<br>is (are) <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((0,0,\\alpha)\\)</p>",
+            "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+            "<b>C.</b> <p>(0,0,1)</p>",
+            "<b>D.</b> <p>\\((0,\\alpha,0)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/596/gate1993-01-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

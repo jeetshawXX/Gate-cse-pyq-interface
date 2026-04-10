@@ -1,0 +1,295 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - LR Parser",
+  "duration": 55,
+  "sections": [
+    {
+      "name": "LR Parser",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"571\"></a><div itemprop=\"text\"><p>Consider the \\( \\text{SLR(1)} \\) and \\( \\text{LALR (1)} \\) &nbsp;parsing tables for a context free grammar. Which of the following statement is/are true?</p></div><br><br><b>GATE CSE 1992 | Question: 02,xiv</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The <em>goto</em> part of both tables may be different.</p>",
+            "<p>The <em>shift</em> entries are identical in both the tables.</p>",
+            "<p>The <em>reduce</em>&nbsp;entries in the tables may be different.</p>",
+            "<p>The <em>error</em> entries in tables may be different</p>"
+          ],
+          "correct_answer": [
+            "<p>The <em>shift</em> entries are identical in both the tables.</p>",
+            "<p>The <em>reduce</em>&nbsp;entries in the tables may be different.</p>",
+            "<p>The <em>error</em> entries in tables may be different</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/571/gate-cse-1992-question-02-xiv\" target=\"_blank\">https://gateoverflow.in/571/gate-cse-1992-question-02-xiv</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1663\"></a><div itemprop=\"text\"><p>Which of the following statements is true?</p></div><br><br><b>GATE CSE 1998 | Question: 1.26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SLR parser is more powerful than LALR</p>",
+            "<p>LALR parser is more powerful than Canonical LR parser</p>",
+            "<p>Canonical LR parser is more powerful than LALR parser</p>",
+            "<p>The parsers SLR, Canonical CR, and LALR have the same power</p>"
+          ],
+          "correct_answer": "<p>Canonical LR parser is more powerful than LALR parser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1663/gate-cse-1998-question-1-26\" target=\"_blank\">https://gateoverflow.in/1663/gate-cse-1998-question-1-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"907\"></a><div itemprop=\"text\"><p>Assume that the SLR parser for a grammar G has \\( n_1 \\) states and the LALR parser for G has \\( n_2 \\) states. The relationship between \\( n_1 \\) and \\( n_2 \\) is</p></div><br><br><b>GATE CSE 2003 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n_1 \\) is necessarily less than \\( n_2 \\)</p>",
+            "<p>\\( n_1 \\) is necessarily equal to \\( n_2 \\)</p>",
+            "<p>\\( n_1 \\) is necessarily greater than \\( n_2 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( n_1 \\) is necessarily equal to \\( n_2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/907/gate-cse-2003-question-17\" target=\"_blank\">https://gateoverflow.in/907/gate-cse-2003-question-17</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1383\"></a><div itemprop=\"text\"><p>Consider the grammar:</p><p>\\[ S \\rightarrow&nbsp;(S) \\mid&nbsp;a \\]</p><p>Let the number of states in SLR (1), LR(1) and LALR(1) parsers for the grammar be \\( n_1, n_2 \\)&nbsp;and \\( n_3 \\) respectively. The following relationship holds good:</p></div><br><br><b>GATE CSE 2005 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n_1 &lt; n_2 &lt; n_3 \\)</p>",
+            "<p>\\( n_1 = n_3 &lt; n_2 \\)</p>",
+            "<p>\\( n_1 = n_2 =&nbsp;n_3 \\)</p>",
+            "<p>\\( n_1 \\geq&nbsp;n_3&nbsp;\\geq n_2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n_1 = n_3 &lt; n_2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1383/gate-cse-2005-question-60\" target=\"_blank\">https://gateoverflow.in/1383/gate-cse-2005-question-60</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"886\"></a><div itemprop=\"text\"><p>Consider the following grammar</p><ul><li>\\( S&nbsp;&nbsp;\\rightarrow&nbsp;S * E \\)</li><li>\\( S&nbsp;&nbsp;\\rightarrow&nbsp;E \\)</li><li>\\( E&nbsp;&nbsp;\\rightarrow&nbsp;F + E \\)</li><li>\\( E&nbsp;&nbsp;\\rightarrow&nbsp;F \\)</li><li>\\( F&nbsp;&nbsp;\\rightarrow&nbsp;id \\)</li></ul><p>Consider the following LR(0) items corresponding to the grammar above</p><ol style=\"list-style-type:lower-roman\"><li>\\( S &nbsp;\\rightarrow&nbsp;S *.E \\)</li><li>\\( E&nbsp;&nbsp;&nbsp;\\rightarrow&nbsp;F. + E \\)</li><li>\\( E&nbsp;&nbsp;&nbsp;\\rightarrow&nbsp;F + .E \\)</li></ol><p>Given the items above, which two of them will appear in the same set in the&nbsp;canonical sets-of-items for the grammar?</p></div><br><br><b>GATE CSE 2006 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i and ii</p>",
+            "<p>ii and iii</p>",
+            "<p>i and iii</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/886/gate-cse-2006-question-7\" target=\"_blank\">https://gateoverflow.in/886/gate-cse-2006-question-7</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"478\"></a><div itemprop=\"text\"><p>An LALR(1) parser for a grammar G can have shift-reduce (S-R) conflicts if and only if</p></div><br><br><b>GATE CSE 2008 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The SLR(1) parser for G has S-R conflicts</p>",
+            "<p>The LR(1) parser for G has S-R conflicts</p>",
+            "<p>The LR(0) parser for G has S-R conflicts</p>",
+            "<p>The LALR(1) parser for G has reduce-reduce conflicts</p>"
+          ],
+          "correct_answer": "<p>The LR(1) parser for G has S-R conflicts</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/478/gate-cse-2008-question-55\" target=\"_blank\">https://gateoverflow.in/478/gate-cse-2008-question-55</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1551\"></a><div itemprop=\"text\"><p>Consider the following two sets of \\( \\textsf{LR(1)} \\) items of an \\( \\textsf{LR(1)} \\) grammar.$$\\begin{array}{l|l}<br>X \\rightarrow c.X, c∕d &amp;X → c.X, \\\\( \\\\<br>X \\rightarrow .cX, c∕&nbsp;&nbsp;d&amp;&nbsp;X → .cX, \\ \\)\\\\<br>X \\rightarrow .d, c∕&nbsp;d &amp;&nbsp;X → .d, \\$<br>\\end{array}$$Which of the following statements related to merging of the two sets in the corresponding \\( \\textsf{LALR} \\) parser is/are <strong>FALSE</strong>?</p><ol><li>Cannot be merged since look aheads are different.</li><li>Can be merged but will result in \\( \\textsf{S-R} \\) conflict.</li><li>Can be merged but will result in \\( \\textsf{R-R} \\) conflict.</li><li>Cannot be merged since \\( \\textsf{goto} \\) on \\( c \\) will lead to two different sets.</li></ol></div><br><br><b>GATE CSE 2013 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) only &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( 2 \\) only &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( 1 \\) and \\( 4 \\)&nbsp;only &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( \\text{1, 2, 3} \\) and \\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1, 2, 3} \\) and \\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1551/gate-cse-2013-question-40\" target=\"_blank\">https://gateoverflow.in/1551/gate-cse-2013-question-40</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1418\"></a><div itemprop=\"text\"><p>What is the maximum number of reduce moves that can be taken by a bottom-up parser for a grammar with no epsilon and unit-production (i.e., of type \\( A \\rightarrow \\epsilon \\) and \\( A \\rightarrow a \\)) to parse a string with \\( n \\) tokens?</p></div><br><br><b>GATE CSE 2013 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n/2 \\)</p>",
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( 2n-1 \\)</p>",
+            "<p>\\( 2^{n} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1418/gate-cse-2013-question-9\" target=\"_blank\">https://gateoverflow.in/1418/gate-cse-2013-question-9</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1807\"></a><div itemprop=\"text\"><p>A canonical set of items is given below</p><ul><li>\\( S \\to L .&gt; R  \\)</li><li>\\( Q \\to R. \\)</li></ul><p>On input symbol \\( &lt; \\) the set has</p></div><br><br><b>GATE CSE 2014 Set 1 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a shift-reduce conflict and a reduce-reduce conflict.</p>",
+            "<p>a shift-reduce conflict but not a reduce-reduce conflict.</p>",
+            "<p>a reduce-reduce conflict but not a shift-reduce conflict.</p>",
+            "<p>neither a shift-reduce nor a reduce-reduce conflict.</p>"
+          ],
+          "correct_answer": "<p>neither a shift-reduce nor a reduce-reduce conflict.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1807/gate-cse-2014-set-1-question-34\" target=\"_blank\">https://gateoverflow.in/1807/gate-cse-2014-set-1-question-34</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"8187\"></a><div itemprop=\"text\"><p>Which one of the following is TRUE at any valid state in shift-reduce parsing?</p></div><br><br><b>GATE CSE 2015 Set 1 | Question: 1‏3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Viable prefixes appear only at the bottom of the stack and not inside</p>",
+            "<p>Viable prefixes appear only at the top of the stack and not inside</p>",
+            "<p>The stack contains only a set of viable prefixes</p>",
+            "<p>The stack never contains viable prefixes</p>"
+          ],
+          "correct_answer": "<p>The stack contains only a set of viable prefixes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8187/gate-cse-2015-set-1-question-1-3\" target=\"_blank\">https://gateoverflow.in/8187/gate-cse-2015-set-1-question-1-3</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"8413\"></a><div itemprop=\"text\"><p>Among simple LR (SLR), canonical LR, and look-ahead LR (LALR), which of the following pairs identify the method that is very easy to implement and the method that is the most powerful, in that order?</p></div><br><br><b>GATE CSE 2015 Set 3 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SLR, LALR</p>",
+            "<p>Canonical LR, LALR</p>",
+            "<p>SLR, canonical LR</p>",
+            "<p>LALR, canonical LR</p>"
+          ],
+          "correct_answer": "<p>SLR, canonical LR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8413/gate-cse-2015-set-3-question-16\" target=\"_blank\">https://gateoverflow.in/8413/gate-cse-2015-set-3-question-16</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"118343\"></a><div itemprop=\"text\"><p>Which of the following statements about parser is/are CORRECT?</p><ol style=\"list-style-type:upper-roman\"><li>\\( \\text{Canonical LR} \\) is more powerful than \\( \\text{SLR} \\)</li><li>\\( \\text{SLR} \\) is more powerful than \\( \\text{LALR} \\)</li><li>\\( \\text{SLR} \\) is more powerful than \\( \\text{Canonical LR} \\)</li></ol></div><br><br><b>GATE CSE 2017 Set 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II&nbsp;only</p>",
+            "<p>III&nbsp;only</p>",
+            "<p>II and III&nbsp;only</p>"
+          ],
+          "correct_answer": "<p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118343/gate-cse-2017-set-2-question-6\" target=\"_blank\">https://gateoverflow.in/118343/gate-cse-2017-set-2-question-6</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"302845\"></a><div itemprop=\"text\"><p>Which one of the following kinds of derivation is used by LR parsers?</p></div><br><br><b>GATE CSE 2019 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Leftmost</p>",
+            "<p>Leftmost in reverse</p>",
+            "<p>Rightmost</p>",
+            "<p>Rightmost in reverse</p>"
+          ],
+          "correct_answer": "<p>Rightmost in reverse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302845/gate-cse-2019-question-3\" target=\"_blank\">https://gateoverflow.in/302845/gate-cse-2019-question-3</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"333207\"></a><div itemprop=\"text\"><p>Consider the following &nbsp;grammar.</p>\n\n<ul>\n\t<li>\\( S \\rightarrow aSB \\mid d \\)</li>\n\t<li>\\( B \\rightarrow b \\)</li>\n</ul>\n\n<p>The number of reduction steps taken by a bottom-up parser while accepting the string \\( aaadbbb \\) is ___________.</p></div><br><br><b>GATE CSE 2020 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333207/gate-cse-2020-question-24\" target=\"_blank\">https://gateoverflow.in/333207/gate-cse-2020-question-24</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"357447\"></a><div itemprop=\"text\"><p>Consider the following statements.</p>\n\n<ul>\n\t<li>\\( S_1: \\)&nbsp;Every \\( \\text{SLR(1)} \\) grammar is unambiguous but there are certain unambiguous grammars that are not \\( \\text{SLR(1)} \\).</li>\n\t<li>\\( S_2: \\)&nbsp;For any context-free grammar, there is a parser that takes at most \\( O(n^3) \\) time to parse a string of length \\( n \\).</li>\n</ul>\n\n<p>Which one of the following options is correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S_1 \\) is true and \\( S_2 \\) is false</p>",
+            "<p>\\( S_1 \\) is false and \\( S_2 \\) is true</p>",
+            "<p>\\( S_1 \\) is true and \\( S_2 \\) is true</p>",
+            "<p>\\( S_1 \\) is false and \\( S_2 \\) is false</p>"
+          ],
+          "correct_answer": "<p>\\( S_1 \\) is true and \\( S_2 \\) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357447/gate-cse-2021-set-1-question-5\" target=\"_blank\">https://gateoverflow.in/357447/gate-cse-2021-set-1-question-5</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"357486\"></a><div itemprop=\"text\">Consider the following augmented grammar with \\( \\{ \\#, @, &lt;, &gt;, a, b, c \\} \\) as the set of terminals. \\[ \\begin{array}{l} S’ \\rightarrow S \\\\ S \\rightarrow S \\# cS \\\\ S \\rightarrow SS \\\\ S \\rightarrow S @ \\\\ S \\rightarrow &lt; S &gt; \\\\ S \\rightarrow a \\\\ S \\rightarrow b \\\\ S \\rightarrow c \\end{array} \\]Let \\( I_0 = \\text{CLOSURE}(\\{S’ \\rightarrow \\bullet S\\}) \\). The number of items in the set \\( \\text{GOTO(GOTO}(I_0&lt;), &lt;) \\) is ___________</div><br><br><b>GATE CSE 2021 Set 2 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8:8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51\" target=\"_blank\">https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"371917\"></a><div itemprop=\"text\"><p>Consider the augmented grammar with \\( \\{ +, {\\ast}, (,),\\text{id} \\} \\) as the set of terminals.</p>\n\n<ul>\n\t<li>\\( S’ \\rightarrow S \\)</li>\n\t<li>\\( S \\rightarrow S + R\\; |\\; R \\)</li>\n\t<li>\\( R \\rightarrow R {\\ast} P \\;| \\;P \\)</li>\n\t<li>\\( P \\rightarrow (S)\\; |\\; \\text{id}  \\)</li>\n</ul>\n\n<p>If \\( I_{0} \\) is the set of two \\( \\textit{LR}(0) \\) items \\( \\{ [S’ \\rightarrow S.], [S \\rightarrow S. + R] \\} \\), then \\( \\textit{goto(closure}(I_{0}), +) \\) contains exactly ______________ items.</p></div><br><br><b>GATE CSE 2022 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371917/gate-cse-2022-question-19\" target=\"_blank\">https://gateoverflow.in/371917/gate-cse-2022-question-19</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"371933\"></a><div itemprop=\"text\"><p>Which one of the following statements is \\( \\text{TRUE}? \\)</p></div><br><br><b>GATE CSE 2022 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The \\( \\textit{LALR}(1) \\) parser for a grammar \\( \\textit{G} \\) cannot have reduce-reduce conflict if the \\( \\textit{LR}(1) \\) parser for \\( \\textit{G} \\) does not have reduce-reduce conflict.</p>",
+            "<p>Symbol table is accessed only during the lexical analysis phase.</p>",
+            "<p>Data flow analysis is necessary for run-time memory management.</p>",
+            "<p>\\( \\textit{LR}(1) \\) parsing is sufficient for deterministic context-free languages.</p>"
+          ],
+          "correct_answer": "<p>\\( \\textit{LR}(1) \\) parsing is sufficient for deterministic context-free languages.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371933/gate-cse-2022-question-3\" target=\"_blank\">https://gateoverflow.in/371933/gate-cse-2022-question-3</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"422842\"></a><div itemprop=\"text\">Consider the following augmented grammar, which is to be parsed with a \\( \\text{SLR} \\) parser. The set of terminals is \\( \\{a, b, c, d, \\#, @\\} \\)<br>\n\\[<br>\n\\begin{array}{l}<br>\nS^{\\prime} \\rightarrow S \\\\<br>\nS \\rightarrow S S|A a| b A c|B c| b B a \\\\<br>\nA \\rightarrow d \\# \\\\<br>\nB \\rightarrow @<br>\n\\end{array}<br>\n\\]<br>\n<br>\nLet \\( I_{0}=\\operatorname{CLOSURE}\\left(\\left\\{S^{\\prime} \\rightarrow \\bullet S\\right\\}\\right) \\). The number of items in the set \\( \\operatorname{GOTO}\\left(I_{0}, S\\right) \\) is __________.</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422842/gate-cse-2024-set-2-question-55\" target=\"_blank\">https://gateoverflow.in/422842/gate-cse-2024-set-2-question-55</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"460805\"></a><div itemprop=\"text\"><p>​​Given a Context-Free Grammar \\( \\text{G} \\) as follows:<br>\\[<br>\\begin{array}{l}<br>S \\rightarrow A a|b A c| d c \\mid b d a \\\\<br>A \\rightarrow d<br>\\end{array}<br>\\]<br><br>Which ONE of the following statements is TRUE?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{G} \\) is neither \\( \\operatorname{LALR}(1) \\) nor \\( \\operatorname{SLR}(1) \\)</p>",
+            "<p>\\( \\text{G} \\) is \\( \\text{CLR(1)} \\), not \\( \\text{LALR(1)} \\)</p>",
+            "<p>\\( \\text{G} \\) is \\( \\operatorname{LALR}(1), \\operatorname{not} \\operatorname{SLR}(1) \\)</p>",
+            "<p>\\( \\text{G} \\) is \\( \\operatorname{LALR}(1) \\), also \\( \\operatorname{SLR}(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{G} \\) is \\( \\operatorname{LALR}(1), \\operatorname{not} \\operatorname{SLR}(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460805/gate-cse-2025-set-2-question-30\" target=\"_blank\">https://gateoverflow.in/460805/gate-cse-2025-set-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

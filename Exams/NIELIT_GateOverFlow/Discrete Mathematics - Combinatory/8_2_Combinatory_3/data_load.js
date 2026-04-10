@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Combinatory",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Combinatory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336635\"></a><div itemprop=\"text\"><p>Mala has a colouring book in which each English letter is drawn two times. She wants to paint each of these \\( 52 \\) prints with one of&nbsp;\\( k \\)&nbsp;colours, such that the colour-pairs used to colour ay two letters are different. Both prints of a letter can also be coloured with the same colour. What is the minimum value of \\( k \\) that satisfies this requirement?</p>\n\n</div><br><br><b>Combinatory: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336635/nielit-2016-dec-scientist-b-it-section-b-34\" target=\"_blank\">https://gateoverflow.in/336635/nielit-2016-dec-scientist-b-it-section-b-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336684\"></a><div itemprop=\"text\"><p>The number of ways in which a team of eleven players can be selected from \\( 22 \\) players including \\( 2 \\) of them and excluding \\( 4 \\) of them is&nbsp;</p>\n\n</div><br><br><b>Combinatory: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ^{16}\\large_{C_{11}} \\)</p>",
+            "<p>\\( ^{16}\\large_{C_{5}} \\)</p>",
+            "<p>\\( ^{16}\\large_{C_{9}} \\)</p>",
+            "<p>\\( ^{20}\\large_{C_{9}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ^{16}\\large_{C_{9}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336684/nielit-2016-mar-scientist-b-section-b-2\" target=\"_blank\">https://gateoverflow.in/336684/nielit-2016-mar-scientist-b-section-b-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336421\"></a><div itemprop=\"text\"><p>There are four bus lines between \\( A \\) and \\( B \\); and three bus lines between \\( B \\) and \\( C \\). The number of way a person roundtrip by bus from \\( A \\) to \\( C \\) by way of \\( B \\) will be</p>\n\n</div><br><br><b>Combinatory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 144 \\)</p>",
+            "<p>\\( 264 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 144 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336421/nielit-2017-july-scientist-b-it-section-b-14\" target=\"_blank\">https://gateoverflow.in/336421/nielit-2017-july-scientist-b-it-section-b-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

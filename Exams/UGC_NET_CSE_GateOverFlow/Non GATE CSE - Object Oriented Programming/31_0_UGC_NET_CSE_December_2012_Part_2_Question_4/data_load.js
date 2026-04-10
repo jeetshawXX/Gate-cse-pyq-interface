@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - UGC NET CSE  December 2012  Part 2  Question",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "UGC NET CSE  December 2012  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57082\"></a><div itemprop=\"text\"><p>Match the following with respect to \\( \\text{C++} \\) data types :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;\\text{a.} &amp; \\text{User defined type} &amp; \\text{i.} &amp; \\text{Qualifier} \\\\&nbsp;\\text{b.} &amp; \\text{Built in type} &amp; \\text{ii.} &amp; \\text{Union} \\\\&nbsp;\\text{c.} &amp; \\text{Derived Type} &amp; \\text{iii.} &amp; \\text{Void} \\\\ &nbsp;\\text{d.} &amp; \\text{Long double} &amp; \\text{iv.} &amp; \\text{Pointer} \\\\ \\end{array} \\)</p>\n\n<p>\\( \\textbf{Code :} \\)</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2012 | Part 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-ii, b-iii, c-iv, d-i} \\)</p>",
+            "<p>\\( \\text{a-iii, b-i, c-iv, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iv, b-i, c-ii, d-iii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-iv, c-i, d-ii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-ii, b-iii, c-iv, d-i} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57082/ugc-net-cse-december-2012-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/57082/ugc-net-cse-december-2012-part-2-question-39</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335382\"></a><div itemprop=\"text\"><p>Polymorphism means :</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2004 | Part 2 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A template function</p>",
+            "<p>Runtime type identification within a class hierarchy</p>",
+            "<p>Another name for operator overloading</p>",
+            "<p>Virtual inheritance</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335382/ugc-net-cse-december-2004-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/335382/ugc-net-cse-december-2004-part-2-question-15</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335769\"></a><div itemprop=\"text\"><p>Which of the following is true of constructor function in C++&nbsp;?</p></div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2007 | Part 2 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A class must have at least one constructor.</p>",
+            "<p>A constructor is a unique function which cannot be overloaded.</p>",
+            "<p>A constructor function must be invoked with the object name.</p>",
+            "<p>A constructor function is automatically invoked when an object is created.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335769/ugc-net-cse-december-2007-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/335769/ugc-net-cse-december-2007-part-2-question-15</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335770\"></a><div itemprop=\"text\"><p>Which of the following is not true in C++&nbsp;?</p><p>&nbsp;</p></div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2007 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>“Private” elements of a base class are not accessible by members of its derived&nbsp;class.</p>",
+            "<p>“Protected” elements of base class are not accessible by members of its derived class.</p>",
+            "<p>When base class access specified is “Public”, public elements of the base class become public members of its derived class.</p>",
+            "<p>When base class access specified is “Public”, protected elements of a base class become protected members of its derived class.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335770/ugc-net-cse-december-2007-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/335770/ugc-net-cse-december-2007-part-2-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

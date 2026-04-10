@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Operating System - Precedence Graph",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Precedence Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"91096\"></a><div itemprop=\"text\"><p>Consider the following precedence graph \\( (\\text{Fig}.6) \\) of processes where a node denotes a process and a directed edge&nbsp;from node \\( P_{i} \\) to node \\( P_{j} \\) implies; that \\( P_{i} \\) must complete before \\( P_{j} \\) commences. Implement the graph using FORK and JOIN constructs. The actual computation done by a process may be indicated by a comment line.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"321\" src=\"images/gateOverflow_pyq_images/operating_system___precedence_graph/85080e7304db71ffac9cba1982b8cb8b.png\" width=\"245\"></p></div><br><br><b>GATE CSE 1989 | Question: 11b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/91096/gate-cse-1989-question-11b\" target=\"_blank\">https://gateoverflow.in/91096/gate-cse-1989-question-11b</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"508\"></a><div itemprop=\"text\"><p>A given set of processes can be implemented by using only <strong>parbegin/parend</strong> statement, if the precedence graph of these processes is ______</p></div><br><br><b>GATE CSE 1991 | Question: 01-xii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/508/gate-cse-1991-question-01-xii\" target=\"_blank\">https://gateoverflow.in/508/gate-cse-1991-question-01-xii</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"591\"></a><div itemprop=\"text\"><p>Draw the precedence graph for the concurrent program given below</p>\n\n<pre class=\"prettyprint lang-c_cpp\">S1\nparbegin\n    begin\n        S2:S4\n    end;\n    begin\n        S3;\n        parbegin\n            S5;\n            begin\n                S6:S8\n            end\n       parend\n   end;\n   S7\nparend;\nS9</pre></div><br><br><b>GATE CSE 1992 | Question: 12-a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/591/gate-cse-1992-question-12-a\" target=\"_blank\">https://gateoverflow.in/591/gate-cse-1992-question-12-a</a></p>"
+        }
+      ]
+    }
+  ]
+});

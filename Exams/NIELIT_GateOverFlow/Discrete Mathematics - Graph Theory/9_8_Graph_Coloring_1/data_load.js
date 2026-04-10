@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Graph Coloring",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Coloring",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336261\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a simple undirected graph on \\( n=3x \\) vertices \\( (x \\geq 1) \\) with chromatic number \\( 3 \\), then maximum number of edges in \\( G \\) is</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n(n-1)/2 \\)</p>",
+            "<p>\\( n^{n-2} \\)</p>",
+            "<p>\\( nx \\)</p>",
+            "<p>\\( n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( nx \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336261/nielit-2017-dec-scientist-b-section-b-52\" target=\"_blank\">https://gateoverflow.in/336261/nielit-2017-dec-scientist-b-section-b-52</a></p>"
+        }
+      ]
+    }
+  ]
+});

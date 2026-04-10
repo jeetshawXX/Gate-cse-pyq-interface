@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Circle",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Circle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2390\"></a><div itemprop=\"text\"><p><strong>The question is followed by two statements I and II.</strong></p>\n\n<p><strong>Mark </strong></p>\n\n\n\n<p><span style=\"line-height: 1.6;\">There is a circle with centre C at the origin and radius r cm. Two tangents are drawn from an external point D at a distance d cm from the centre. What are the angles between each tangent and the X-axis.</span></p>\n\n<ol style=\"list-style-type: upper-roman;\">\n\t<li>The coordinates of D are given.</li>\n\t<li>The X-axis bisects one of the tangents.</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 1999 | Question: 160</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if the question can be answered by any one of the statements alone, but cannot be answered by using the other statement alone.</p>",
+            "<p>if the question can be answered by using either statement alone.</p>",
+            "<p>if the question can be answered by using both the statements together, but cannot be answered by using either statement alone.</p>",
+            "<p>if the question cannot be answered even by using both the statements together.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2390/cat-1999-question-160\" target=\"_blank\">https://aptitude.gateoverflow.in/2390/cat-1999-question-160</a></p>"
+        }
+      ]
+    }
+  ]
+});

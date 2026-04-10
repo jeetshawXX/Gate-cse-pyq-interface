@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Logic Puzzle",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Logic Puzzle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351423\"></a><div itemprop=\"text\"><p>There are twelve persons named \\( \\text{O, P, Q, R, S, T, U, V,W, X, Y and Z} \\) who live in a multi-store&nbsp;apartment. The apartment has three floors and each floor has four rooms. These \\( 12 \\) persons who live in a set of \\( 12 \\) Rooms can be represented by a Matrix of \\( 3 \\) rows and \\( 4 \\) columns.</p>\n\n<ul>\n\t<li>\\( Q \\) lives immediate left below diagonally of a person who lives immediate left below diagonally of \\( T \\).</li>\n\t<li>\\( S \\) lives immediate left above diagonally of a person who lives immediate left above diagonally of \\( Z. \\)</li>\n\t<li>\\( X \\) lives immediate right above diagonally of a person who lives immediate right below diagonally of \\( O \\).</li>\n\t<li>\\( P \\) lives&nbsp;immediate right above diagonally of a person who lives immediate right above diagonally of \\( Y \\).</li>\n\t<li>\\( T \\) lives&nbsp;immediate left&nbsp;above diagonally of a person who lives third to the right&nbsp;of \\( V \\).</li>\n\t<li>\\( Q \\) lives immediate left of a person who lives two rooms below \\( W \\) in the same column.</li>\n\t<li>\\( R \\) lives to the immediate right of a person who lives immediate right above diagonally of \\( Q. \\) \\( Z \\) is living to the immediate left of \\( U \\) who receives \\( \\text{₹ 46000} \\) as salary.</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 50000,&nbsp;₹ 48000,&nbsp;&nbsp;₹ 47000 and&nbsp;₹ 46000}. \\)</li>\n\t<li>The person who live on one of the floors (right to left) receive salary in the same order \\( \\text{₹ 45000,&nbsp;₹ 38000,&nbsp;₹ 35000 and&nbsp;₹ 40000.} \\)</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 37000,&nbsp;₹ 42000,&nbsp;₹ 36000 and&nbsp;₹ 43000.} \\)</li>\n</ul>\n\n<p>What is the salary received by a person who lives second to the right of \\( S \\)?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( \\text{₹ 35000} \\)</p>",
+            "<p>&nbsp;\\( \\text{₹ 45000} \\)</p>",
+            "<p>&nbsp;\\( \\text{₹ 37000} \\)</p>",
+            "<p>&nbsp;\\( \\text{₹ 38000} \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( \\text{₹ 38000} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351423/nielit-scientific-assistant-a-2020-november-38\" target=\"_blank\">https://gateoverflow.in/351423/nielit-scientific-assistant-a-2020-november-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351422\"></a><div itemprop=\"text\"><p>There are twelve persons named \\( \\text{O, P, Q, R, S, T, U, V,W, X, Y and Z} \\) who live in a multi-store&nbsp;apartment. The apartment has three floors and each floor has four rooms. These \\( 12 \\) persons who live in a set of \\( 12 \\) Rooms can be represented by a Matrix of \\( 3 \\) rows and \\( 4 \\) columns.</p>\n\n<ul>\n\t<li>\\( Q \\) lives immediate left below diagonally of a person who lives immediate left below diagonally of \\( T \\).</li>\n\t<li>\\( S \\) lives immediate left above diagonally of a person who lives immediate left above diagonally of \\( Z. \\)</li>\n\t<li>\\( X \\) lives immediate right above diagonally of a person who lives immediate right below diagonally of \\( O \\).</li>\n\t<li>\\( P \\) lives&nbsp;immediate right above diagonally of a person who lives immediate right above diagonally of \\( Y \\).</li>\n\t<li>\\( T \\) lives&nbsp;immediate left&nbsp;above diagonally of a person who lives third to the right&nbsp;of \\( V \\).</li>\n\t<li>\\( Q \\) lives immediate left of a person who lives two rooms below \\( W \\) in the same column.</li>\n\t<li>\\( R \\) lives to the immediate right of a person who lives immediate right above diagonally of \\( Q. \\) \\( Z \\) is living to the immediate left of \\( U \\) who receives \\( \\text{₹ 46000} \\) as salary.</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 50000,&nbsp;₹ 48000,&nbsp;&nbsp;₹ 47000 and&nbsp;₹ 46000}. \\)</li>\n\t<li>The person who live on one of the floors (right to left) receive salary in the same order \\( \\text{₹ 45000,&nbsp;₹ 38000,&nbsp;₹ 35000 and&nbsp;₹ 40000.} \\)</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 37000,&nbsp;₹ 42000,&nbsp;₹ 36000 and&nbsp;₹ 43000.} \\)</li>\n</ul>\n\n<p>Who among the following lives third to the left of \\( U \\)?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O \\)</p>",
+            "<p>\\( Q \\)</p>",
+            "<p>\\( T \\)</p>",
+            "<p>\\( S \\)</p>"
+          ],
+          "correct_answer": "<p>\\( Q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351422/nielit-scientific-assistant-a-2020-november-39\" target=\"_blank\">https://gateoverflow.in/351422/nielit-scientific-assistant-a-2020-november-39</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351421\"></a><div itemprop=\"text\"><p>There are twelve persons named \\( \\text{O, P, Q, R, S, T, U, V,W, X, Y and Z} \\) who live in a multi-store&nbsp;apartment. The apartment has three floors and each floor has four rooms. These \\( 12 \\) persons who live in a set of \\( 12 \\) Rooms can be represented by a Matrix of \\( 3 \\) rows and \\( 4 \\) columns.</p>\n\n<ul>\n\t<li>\\( Q \\) lives immediate left below diagonally of a person who lives immediate left below diagonally of \\( T \\).</li>\n\t<li>\\( S \\) lives immediate left above diagonally of a person who lives immediate left above diagonally of \\( Z. \\)</li>\n\t<li>\\( X \\) lives immediate right above diagonally of a person who lives immediate right below diagonally of \\( O \\).</li>\n\t<li>\\( P \\) lives&nbsp;immediate right above diagonally of a person who lives immediate right above diagonally of \\( Y \\).</li>\n\t<li>\\( T \\) lives&nbsp;immediate left&nbsp;above diagonally of a person who lives third to the right&nbsp;of \\( V \\).</li>\n\t<li>\\( Q \\) lives immediate left of a person who lives two rooms below \\( W \\) in the same column.</li>\n\t<li>\\( R \\) lives to the immediate right of a person who lives immediate right above diagonally of \\( Q. \\) \\( Z \\) is living to the immediate left of \\( U \\) who receives \\( \\text{₹ 46000} \\) as salary.</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 50000,&nbsp;₹ 48000,&nbsp;&nbsp;₹ 47000 and&nbsp;₹ 46000}. \\)</li>\n\t<li>The person who live on one of the floors (right to left) receive salary in the same order \\( \\text{₹ 45000,&nbsp;₹ 38000,&nbsp;₹ 35000 and&nbsp;₹ 40000.} \\)</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 37000,&nbsp;₹ 42000,&nbsp;₹ 36000 and&nbsp;₹ 43000.} \\)</li>\n</ul>\n\n<p>What is the sum of salaries of \\( Y \\) and \\( P \\)?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{₹ 90000} \\)</p>",
+            "<p>\\( \\text{₹ 99000} \\)</p>",
+            "<p>\\( \\text{₹ 93000} \\)</p>",
+            "<p>\\( \\text{₹ 89000} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{₹ 93000} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351421/nielit-scientific-assistant-a-2020-november-40\" target=\"_blank\">https://gateoverflow.in/351421/nielit-scientific-assistant-a-2020-november-40</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351420\"></a><div itemprop=\"text\"><p>There are twelve persons named \\( \\text{O, P, Q, R, S, T, U, V,W, X, Y and Z} \\) who live in a multi-store&nbsp;apartment. The apartment has three floors and each floor has four rooms. These \\( 12 \\) persons who live in a set of \\( 12 \\) Rooms can be represented by a Matrix of \\( 3 \\) rows and \\( 4 \\) columns.</p>\n\n<ul>\n\t<li>\\( Q \\) lives immediate left below diagonally of a person who lives immediate left below diagonally of \\( T \\).</li>\n\t<li>\\( S \\) lives immediate left above diagonally of a person who lives immediate left above diagonally of \\( Z. \\)</li>\n\t<li>\\( X \\) lives immediate right above diagonally of a person who lives immediate right below diagonally of \\( O \\).</li>\n\t<li>\\( P \\) lives&nbsp;immediate right above diagonally of a person who lives immediate right above diagonally of \\( Y \\).</li>\n\t<li>\\( T \\) lives&nbsp;immediate left&nbsp;above diagonally of a person who lives third to the right&nbsp;of \\( V \\).</li>\n\t<li>\\( Q \\) lives immediate left of a person who lives two rooms below \\( W \\) in the same column.</li>\n\t<li>\\( R \\) lives to the immediate right of a person who lives immediate right above diagonally of \\( Q. \\) \\( Z \\) is living to the immediate left of \\( U \\) who receives \\( \\text{₹ 46000} \\) as salary.</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 50000,&nbsp;₹ 48000,&nbsp;&nbsp;₹ 47000 and&nbsp;₹ 46000}. \\)</li>\n\t<li>The person who live on one of the floors (right to left) receive salary in the same order \\( \\text{₹ 45000,&nbsp;₹ 38000,&nbsp;₹ 35000 and&nbsp;₹ 40000.} \\)</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 37000,&nbsp;₹ 42000,&nbsp;₹ 36000 and&nbsp;₹ 43000.} \\)</li>\n</ul>\n\n<p>What is the sum of the salaries received by the persons living on the top floor of the apartment?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{₹ 158000} \\)</p>",
+            "<p>\\( \\text{₹ 193000} \\)</p>",
+            "<p>\\( \\text{₹ 157000} \\)</p>",
+            "<p>\\( \\text{₹ 161000} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{₹ 158000} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351420/nielit-scientific-assistant-a-2020-november-41\" target=\"_blank\">https://gateoverflow.in/351420/nielit-scientific-assistant-a-2020-november-41</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"351419\"></a><div itemprop=\"text\"><p>There are twelve persons named \\( \\text{O, P, Q, R, S, T, U, V,W, X, Y and Z} \\) who live in a multi-store&nbsp;apartment. The apartment has three floors and each floor has four rooms. These \\( 12 \\) persons who live in a set of \\( 12 \\) Rooms can be represented by a Matrix of \\( 3 \\) rows and \\( 4 \\) columns.</p>\n\n<ul>\n\t<li>\\( Q \\) lives immediate left below diagonally of a person who lives immediate left below diagonally of \\( T \\).</li>\n\t<li>\\( S \\) lives immediate left above diagonally of a person who lives immediate left above diagonally of \\( Z. \\)</li>\n\t<li>\\( X \\) lives immediate right above diagonally of a person who lives immediate right below diagonally of \\( O \\).</li>\n\t<li>\\( P \\) lives&nbsp;immediate right above diagonally of a person who lives immediate right above diagonally of \\( Y \\).</li>\n\t<li>\\( T \\) lives&nbsp;immediate left&nbsp;above diagonally of a person who lives third to the right&nbsp;of \\( V \\).</li>\n\t<li>\\( Q \\) lives immediate left of a person who lives two rooms below \\( W \\) in the same column.</li>\n\t<li>\\( R \\) lives to the immediate right of a person who lives immediate right above diagonally of \\( Q. \\) \\( Z \\) is living to the immediate left of \\( U \\) who receives \\( \\text{₹ 46000} \\) as salary.</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 50000,&nbsp;₹ 48000,&nbsp;&nbsp;₹ 47000 and&nbsp;₹ 46000}. \\)</li>\n\t<li>The person who live on one of the floors (right to left) receive salary in the same order \\( \\text{₹ 45000,&nbsp;₹ 38000,&nbsp;₹ 35000 and&nbsp;₹ 40000.} \\)</li>\n\t<li>The person who live on one of the floors (left to right) receive salary in the same order \\( \\text{₹ 37000,&nbsp;₹ 42000,&nbsp;₹ 36000 and&nbsp;₹ 43000.} \\)</li>\n</ul>\n\n<p>What is the aggregate salary of the people living at the right end of the apartment?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{₹ 137000} \\)</p>",
+            "<p>\\( \\text{₹ 134000} \\)</p>",
+            "<p>\\( \\text{₹ 125000} \\)</p>",
+            "<p>\\( \\text{₹&nbsp;131000} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{₹ 134000} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351419/nielit-scientific-assistant-a-2020-november-42\" target=\"_blank\">https://gateoverflow.in/351419/nielit-scientific-assistant-a-2020-november-42</a></p>"
+        }
+      ]
+    }
+  ]
+});

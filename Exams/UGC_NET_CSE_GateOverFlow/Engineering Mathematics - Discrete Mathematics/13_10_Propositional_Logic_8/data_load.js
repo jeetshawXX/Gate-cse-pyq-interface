@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Discrete Mathematics - Propositional Logic",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Propositional Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69033\"></a><div itemprop=\"text\"><p>Let us assume that you construct ordered tree to represent the compound proposition \\( (\\sim&nbsp;(p \\wedge&nbsp;q)) \\leftrightarrow&nbsp;&nbsp;(\\sim&nbsp;p \\vee&nbsp;\\sim&nbsp;q) \\).</p>\n\n<p>Then, the prefix expression and post-fix expression determined using this ordered tree are given as _____&nbsp;and ______&nbsp;respectively.</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | August 2016 | Part 2 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\leftrightarrow&nbsp;\\sim \\wedge&nbsp;pq \\vee&nbsp;\\sim&nbsp;\\sim&nbsp;pq, pq \\wedge&nbsp;\\sim&nbsp;p&nbsp;\\sim&nbsp;q&nbsp;\\sim&nbsp;∨&nbsp;\\leftrightarrow \\)</p>",
+            "<p>\\( \\leftrightarrow&nbsp;\\sim \\wedge&nbsp;pq \\vee&nbsp;\\sim&nbsp;p&nbsp;\\sim&nbsp;q, pq \\wedge&nbsp;\\sim&nbsp;p&nbsp;\\sim&nbsp;q&nbsp;\\sim \\vee&nbsp;\\leftrightarrow&nbsp; \\)&nbsp;</p>",
+            "<p>\\( \\leftrightarrow&nbsp;\\sim \\wedge&nbsp;pq \\vee&nbsp;\\sim&nbsp;\\sim&nbsp;pq, pq \\wedge&nbsp;\\sim&nbsp;p&nbsp;\\sim&nbsp;\\sim&nbsp;q \\vee&nbsp;\\leftrightarrow&nbsp; \\)</p>",
+            "<p>\\( \\leftrightarrow&nbsp;\\sim \\wedge&nbsp;pq \\vee&nbsp;\\sim&nbsp;p \\sim&nbsp;q, pq\\wedge \\sim&nbsp;p&nbsp;\\sim&nbsp;\\sim&nbsp;q \\vee&nbsp;\\leftrightarrow&nbsp; \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69033/ugc-net-cse-august-2016-part-2-question-2\" target=\"_blank\">https://gateoverflow.in/69033/ugc-net-cse-august-2016-part-2-question-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"71692\"></a><div itemprop=\"text\"><p>Let \\( ν(x) \\) mean \\( x \\) is a vegetarian, \\( m(y) \\) for \\( y \\) is meat, and \\( e(x, y) \\) for \\( x \\) eats \\( y \\).&nbsp;Based on these, consider the following sentences :</p>\n\n<p>I. \\( \\forall x \\vee (x)\\Leftrightarrow (\\forall y e(x, y) \\implies \\neg m(y)) \\)</p>\n\n<p>II.\\( \\forall x \\vee (x)\\Leftrightarrow (\\neg(\\exists y m(y)\\wedge e(x, y))) \\)</p>\n\n<p>III.\\( \\forall x (\\exists y m(y)\\wedge e(x, y)) \\Leftrightarrow (x)\\Leftrightarrow \\neg \\vee (x) \\)</p>\n\n<p>One can determine that</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | August 2016 | Part 3 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( I \\) and \\( II \\) are equivalent sentences</p>",
+            "<p>Only \\( II \\) and \\( III \\) are equivalent sentences.</p>",
+            "<p>Only \\( I \\) and \\( III \\) are equivalent sentence .</p>",
+            "<p>\\( I, II, \\) and \\( III \\) are equivalent sentences.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71692/ugc-net-cse-august-2016-part-3-question-70\" target=\"_blank\">https://gateoverflow.in/71692/ugc-net-cse-august-2016-part-3-question-70</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"71707\"></a><div itemprop=\"text\"><p>Consider the following logical inferences :</p>\n\n<p>\\( I_{1} \\) : If it is Sunday then school will not open.</p>\n\n<p>&nbsp; &nbsp; &nbsp; The school was open.</p>\n\n<p>&nbsp; &nbsp; &nbsp; Inference : It was not Sunday.</p>\n\n<p>\\( I_{2} \\) : If it is Sunday then school will not open.</p>\n\n<p>&nbsp; &nbsp; &nbsp; It was not Sunday.</p>\n\n<p>&nbsp; &nbsp; &nbsp; Inference : The school was open.</p>\n\n<p>Which of the following is correct ?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | August 2016 | Part 3 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both&nbsp;\\( I_{1} \\)&nbsp;and \\( I_{2} \\)&nbsp;are correct inferences.</p>",
+            "<p>\\( I_{1} \\)&nbsp;is correct but \\( I_{2} \\)&nbsp;is not a correct inference.</p>",
+            "<p>\\( I_{1} \\)&nbsp;is not correct but \\( I_{2} \\)&nbsp;is a correct inference.</p>",
+            "<p>Both \\( I_{1} \\)&nbsp;and \\( I_{2} \\)&nbsp;are not correct inferences.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71707/ugc-net-cse-august-2016-part-3-question-74\" target=\"_blank\">https://gateoverflow.in/71707/ugc-net-cse-august-2016-part-3-question-74</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"64180\"></a><div itemprop=\"text\"><p>The proposition \\( \\sim&nbsp;q \\vee&nbsp;p \\) is equivalent to</p></div><br><br><b>Mathematical Logic: UGC NET CSE | December 2011 | Part 2 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( p \\rightarrow&nbsp;q&nbsp; \\)</p>",
+            "<p>\\( q&nbsp;\\rightarrow&nbsp;p  \\)</p>",
+            "<p>\\( p \\leftrightarrow&nbsp;q&nbsp; \\)</p>",
+            "<p>\\( p \\vee&nbsp;q \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64180/ugc-net-cse-december-2011-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/64180/ugc-net-cse-december-2011-part-2-question-43</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"57839\"></a><div itemprop=\"text\"><p>Let \\( \\theta(x, y, z) \\) be the statement “x+y=z” and let there be two quantification given as</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\\( \\forall x \\forall y \\exists z \\theta (x,y,z) \\)</li>\n\t<li>\\( \\exists z&nbsp; \\forall x \\forall y \\theta (x,y,z) \\)</li>\n</ol>\n\n<p>where x, y, z are real numbers, then which one of the following is correct?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | December 2012 | Part 3 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I is true and II is true</p>",
+            "<p>I is true and II is false</p>",
+            "<p>I is false and II is true</p>",
+            "<p>I is false and II is false</p>"
+          ],
+          "correct_answer": "<p>I is true and II is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57839/ugc-net-cse-december-2012-part-3-question-75\" target=\"_blank\">https://gateoverflow.in/57839/ugc-net-cse-december-2012-part-3-question-75</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"62226\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List-I} &amp; &amp;\\textbf{List-II} \\\\&nbsp;\\text{(a)} &amp; \\text{Vacuous} &amp; \\text{(i)} &amp; \\text{A proof that the implication  \\)p \\rightarrow q\\(  is true based} \\\\ &amp;\\text{proof}&amp;&amp;\\text{on the fact that  \\)p\\(  is false.} \\\\&nbsp;\\text{(b)} &amp; \\text{Trivial} &amp; \\text{(ii)} &amp; \\text{A proof that the implication  \\)p \\rightarrow q\\(  is true based} \\\\ &amp;\\text{proof}&amp;&amp;\\text{on the fact that  \\)q\\(  is true.} \\\\&nbsp;\\text{(c)} &amp; \\text{Direct} &amp; \\text{(iii)} &amp; \\text{A proof that the implication  \\)p \\rightarrow q\\(  is&nbsp;true that proceeds} \\\\ &amp;\\text{proof}&amp;&amp;\\text{by showing that  \\)q\\(  must be true when  \\)p\\(  is true.}&nbsp;\\\\&nbsp;\\text{(d)} &amp; \\text{Indirect} &amp; \\text{(iv)} &amp; \\text{A proof that the implication  \\)p \\rightarrow q\\(  is&nbsp;true that proceeds} \\\\ &amp;\\text{proof}&amp;&amp;\\text{by showing that  \\)p\\(  must be false when  \\)q\\(  is false.} &nbsp;\\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | December 2015 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62226/ugc-net-cse-december-2015-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/62226/ugc-net-cse-december-2015-part-2-question-8</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"225810\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type: lower-alpha;\">\n\t<li>False \\( \\models \\) True</li>\n\t<li>If \\( \\alpha \\models (\\beta \\wedge \\gamma \\text{ then } \\alpha \\models \\gamma \\)</li>\n</ol>\n\n<p>Which of the following is correct with respect to above statements?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | July 2018 | Part 2 | Question: 76</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both statement a and statement b are false</p>",
+            "<p>Statement a is true and statement b is false</p>",
+            "<p>Statement a is false and statement b is true</p>",
+            "<p>Both statement a and statement b are true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225810/ugc-net-cse-july-2018-part-2-question-76\" target=\"_blank\">https://gateoverflow.in/225810/ugc-net-cse-july-2018-part-2-question-76</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"61338\"></a><div itemprop=\"text\">\n<p>In propositional language \\( P \\leftrightarrow Q \\) is equivalent to (where \\( \\sim \\) denotes NOT)</p>\n\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | Junet 2015 | Part 3 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sim (P \\vee Q) \\wedge \\sim (Q \\vee P) \\)</p>",
+            "<p>\\( (\\sim P \\vee Q) \\wedge (\\sim Q \\vee P) \\)</p>",
+            "<p>\\( (P \\vee Q) \\wedge (Q \\vee P) \\)</p>",
+            "<p>\\( \\sim (P \\vee Q) \\rightarrow \\sim (Q \\vee P) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (\\sim P \\vee Q) \\wedge (\\sim Q \\vee P) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61338/ugc-net-cse-junet-2015-part-3-question-57\" target=\"_blank\">https://gateoverflow.in/61338/ugc-net-cse-junet-2015-part-3-question-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

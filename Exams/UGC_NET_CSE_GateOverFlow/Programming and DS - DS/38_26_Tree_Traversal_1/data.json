@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Tree Traversal",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Tree Traversal",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61447\"></a><div itemprop=\"text\"><p>The inorder traversal of the following tree is</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17312586453627910600\" width=\"400\"></p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2015 | Part 2 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\, \\, \\, 3&nbsp;\\, \\, \\, 4&nbsp;\\, \\, \\, 6&nbsp;\\, \\, \\, 7&nbsp;\\, \\, \\, 13&nbsp;\\, \\, \\, 15&nbsp;\\, \\, \\, 17&nbsp;\\, \\, \\, 18&nbsp;\\, \\, \\, 18&nbsp;\\, \\, \\, 20 \\)</p>",
+            "<p>\\( 20 \\, \\, \\, 18&nbsp;\\, \\, \\, 18 \\, \\, \\, 17 \\, \\, \\, 15 \\, \\, \\, 13&nbsp;\\, \\, \\, 7&nbsp;\\, \\, \\, 6&nbsp;\\, \\, \\, 4&nbsp;\\, \\, \\, 3&nbsp;\\, \\, \\, 2 \\)</p>",
+            "<p>\\( 15 \\, \\, \\, 13&nbsp;\\, \\, \\, 20 \\, \\, \\, 4&nbsp;\\, \\, \\, 7&nbsp;\\, \\, \\, 17 \\, \\, \\, 18 \\, \\, \\, 2&nbsp;\\, \\, \\, 3&nbsp;\\, \\, \\, 6&nbsp;\\, \\, \\, 18 \\)</p>",
+            "<p>\\( 2 \\, \\, \\, 4&nbsp;\\, \\, \\, 3&nbsp;\\, \\, \\, 13 \\, \\, \\, 7&nbsp;\\, \\, \\, 6&nbsp;\\, \\, \\, 15&nbsp;\\, \\, \\, 17&nbsp;\\, \\, \\, 20 \\, \\, \\, 18&nbsp;\\, \\, \\, 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\, \\, \\, 4&nbsp;\\, \\, \\, 3&nbsp;\\, \\, \\, 13 \\, \\, \\, 7&nbsp;\\, \\, \\, 6&nbsp;\\, \\, \\, 15&nbsp;\\, \\, \\, 17&nbsp;\\, \\, \\, 20 \\, \\, \\, 18&nbsp;\\, \\, \\, 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61447/ugc-net-cse-december-2015-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/61447/ugc-net-cse-december-2015-part-2-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+}

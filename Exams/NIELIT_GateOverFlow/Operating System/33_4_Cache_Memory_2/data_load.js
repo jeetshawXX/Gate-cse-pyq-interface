@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Operating System - Cache Memory",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Cache Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336501\"></a><div itemprop=\"text\"><p>The principle of locality of reference justifies the use of</p>\n\n</div><br><br><b>Operating System: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Non reusable</p>",
+            "<p>Cache memory</p>",
+            "<p>Virtual memory</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Cache memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336501/nielit-2016-dec-scientist-b-cs-section-b-37\" target=\"_blank\">https://gateoverflow.in/336501/nielit-2016-dec-scientist-b-cs-section-b-37</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336790\"></a><div itemprop=\"text\"><p>In a particular system it is observed that, the cache performance gets improved as a result of increasing the block size of the cache. The primary reason behind this is :</p></div><br><br><b>Operating System: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Programs exhibits temporal locality</p>",
+            "<p>Programs have small working set</p>",
+            "<p>Read operation is frequently required rather than write operation</p>",
+            "<p>Programs exhibits spatial locality</p>"
+          ],
+          "correct_answer": "<p>Programs exhibits spatial locality</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336790/nielit-2017-dec-scientific-assistant-a-section-b-56\" target=\"_blank\">https://gateoverflow.in/336790/nielit-2017-dec-scientific-assistant-a-section-b-56</a></p>"
+        }
+      ]
+    }
+  ]
+});

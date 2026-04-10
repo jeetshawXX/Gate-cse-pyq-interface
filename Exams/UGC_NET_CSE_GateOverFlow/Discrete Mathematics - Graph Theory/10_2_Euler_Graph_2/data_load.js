@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Euler Graph",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Euler Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69380\"></a><div itemprop=\"text\"><p>Given the following graphs :&nbsp;&nbsp; &nbsp; &nbsp;</p><p><img alt=\"\" width=\"700\" height=\"425\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10108288168008559793\"></p><p>Which of the following is correct ?</p></div><br><br><b>Graph Theory: UGC NET CSE | August 2016 | Part 2 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( G_{1} \\) contains Euler circuit and &nbsp;\\( (G_{2}) \\)&nbsp;does not contain Euler circuit.</p>",
+            "<p>\\( (G_{1}) \\) &nbsp;does not contain Euler circuit and&nbsp; &nbsp;\\( (G_{2}) \\)&nbsp;contains Euler circuit.</p>",
+            "<p>Both \\( (G_{1}) \\) &nbsp;and&nbsp; &nbsp;\\( (G_{2}) \\)&nbsp;do not contain Euler circuit.</p>",
+            "<p>Both \\( (G_{1}) \\) &nbsp;and&nbsp; &nbsp;\\( (G_{2}) \\)&nbsp;contain Euler circuit.</p>"
+          ],
+          "correct_answer": "<p>Both \\( (G_{1}) \\) &nbsp;and&nbsp; &nbsp;\\( (G_{2}) \\)&nbsp;do not contain Euler circuit.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69380/ugc-net-cse-august-2016-part-2-question-5\" target=\"_blank\">https://gateoverflow.in/69380/ugc-net-cse-august-2016-part-2-question-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"66493\"></a><div itemprop=\"text\"><p>An undirected graph possesses an eulerian circuit if and only if it is connected and its vertices are</p>\n\n</div><br><br><b>Graph Theory: UGC NET CSE | December 2010 | Part 2 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>All of even degree</p>",
+            "<p>All of odd degree</p>",
+            "<p>Of any degree</p>",
+            "<p>Even in number</p>"
+          ],
+          "correct_answer": "<p>All of even degree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66493/ugc-net-cse-december-2010-part-2-question-2\" target=\"_blank\">https://gateoverflow.in/66493/ugc-net-cse-december-2010-part-2-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

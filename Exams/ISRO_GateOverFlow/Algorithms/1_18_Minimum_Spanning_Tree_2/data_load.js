@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Minimum Spanning Tree",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Minimum Spanning Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435377\"></a><div itemprop=\"text\"><p>Find the minimum spanning distance and the corresponding number of edges for the following graph</p><p style=\"text-align:center\"><img alt=\"Graph diagram\" width=\"200\" height=\"302\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=820324194618504652\"></p></div><br><br><b>Algorithms: ISRO CSE 2023 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10,3 \\)</p>",
+            "<p>\\( 11,4 \\)</p>",
+            "<p>\\( 15,4 \\)</p>",
+            "<p>\\( 28,7 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 11,4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435377/isro-cse-2023-question-19\" target=\"_blank\">https://gateoverflow.in/435377/isro-cse-2023-question-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48555\"></a><div itemprop=\"text\"><p>The number of spanning trees for a complete graph with seven vertices is</p>\n\n</div><br><br><b>Algorithms: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^5 \\)</p>",
+            "<p>\\( 7^5 \\)</p>",
+            "<p>\\( 3^5 \\)</p>",
+            "<p>\\( 2^{2 \\times 5} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7^5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48555/isro2015-41\" target=\"_blank\">https://gateoverflow.in/48555/isro2015-41</a></p>"
+        }
+      ]
+    }
+  ]
+});

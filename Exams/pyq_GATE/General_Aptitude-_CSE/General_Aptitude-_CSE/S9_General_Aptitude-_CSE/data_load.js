@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "General_Aptitude-_CSE - General_Aptitude-_CSE - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "General_Aptitude-_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A contour line joins locations having the same height above the mean sea level. The following is a contour plot of a geographical region. Contour lines are shown at 25 m intervals in this plot. If in a flood, the water level rises to 525 m, which of the villages P, Q, R, S, T get submerged? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q65_ba47e62e.jpg\"><br> <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P, Q</p>",
+            "<b>B.</b> <p>P, Q, T</p>",
+            "<b>C.</b> <p>R, S, T</p>",
+            "<b>D.</b> <p>Q, R, S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>R, S, T</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118413/gate-cse-2017-set-1-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Arun, Gulab, Neel and Shweta must choose one shirt each from a pile of four shirts coloured red, pink, blue and white respectively. Arun dislikes the colour red and Shweta dislikes the colour white. Gulab and Neel like all the colours. In how many different ways can they choose the shirts so that no one has a shirt with a colour he or she dislikes? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21</p>",
+            "<b>B.</b> <p>18</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>14</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118412/gate-cse-2017-set-1-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The expression  \\(\\frac{(x+y) - |x-y|}{2}\\)   is equal to : <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The maximum of x and y</p>",
+            "<b>B.</b> <p>The minimum of x and y</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The minimum of x and y</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118411/gate-cse-2017-set-1-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Six people are seated around a circular table. There are at least two men and two women. There are at least three right-handed persons. Every woman has a left-handed person to her immediate right. None of the women are right-handed. The number of women at the table is <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118410/gate-cse-2017-set-1-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>\"The hold of the nationalist imagination on our colonial past is such that anything inadequately or improperly nationalist is just not history.\"<br><br>\nWhich of the following statements best reflects the author's opinion? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Nationalists are highly imaginative.</p>",
+            "<b>B.</b> <p>History is viewed through the filter of nationalism.</p>",
+            "<b>C.</b> <p>Our colonial past never happened.</p>",
+            "<b>D.</b> <p>Nationalism has to be both adequately and properly imagined.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>History is viewed through the filter of nationalism.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118409/gate-cse-2017-set-1-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The probability that a k-digit number does NOT contain the digits 0, 5, or 9 is <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0.3^k\\)</p>",
+            "<b>B.</b> <p>\\(0.6^k\\)</p>",
+            "<b>C.</b> <p>\\(0.7^k\\)</p>",
+            "<b>D.</b> <p>\\(0.9^k\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(0.7^k\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Find the smallest number \\(y\\) such that \\(y  \\times 162\\) is a perfect cube. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>24</p>",
+            "<b>B.</b> <p>27</p>",
+            "<b>C.</b> <p>32</p>",
+            "<b>D.</b> <p>36</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>36</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118407/gate-cse-2017-set-1-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali. Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Rahul and Murali</p>",
+            "<b>B.</b> <p>Srinivas and Arul</p>",
+            "<b>C.</b> <p>Srinvas and Murali</p>",
+            "<b>D.</b> <p>Srinivas and Rahul</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Srinvas and Murali</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Research in the workplace reveals that people work for many reasons _______________ . <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>money beside</p>",
+            "<b>B.</b> <p>beside money</p>",
+            "<b>C.</b> <p>money besides</p>",
+            "<b>D.</b> <p>besides money</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>besides money</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>After Rajendra Chola returned from his voyage to Indonesia, he ________ to visit the temple in Thanjavur. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>was wishing</p>",
+            "<b>B.</b> <p>is wishing</p>",
+            "<b>C.</b> <p>wished</p>",
+            "<b>D.</b> <p>had wished</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>wished</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118403/gate-cse-2017-set-1-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q65_14c1eb7c.jpg\"><br> <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(x) = 1 - |x - 1|\\)</p>",
+            "<b>B.</b> <p>\\(f(x) = 1 + |x - 1|\\)</p>",
+            "<b>C.</b> <p>\\(f(x) = 2 - |x - 1|\\)</p>",
+            "<b>D.</b> <p>\\(f(x) = 2+ |x - 1|\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(f(x) = 2 - |x - 1|\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39535/gate-cse-2016-set-2-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a 2x4 rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid?<br><br>\\(\\begin{array}{|c|c|c|c|c|}\\hline{\\;\\;\\;}&amp;{\\;\\;\\;}&amp;{\\;\\;\\;}&amp;{\\;\\;\\;}\\\\\\hline{}&amp;{}&amp;{}&amp;\\\\\\hline\\end{array}\\) <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>21</p>",
+            "<b>B.</b> <p>27</p>",
+            "<b>C.</b> <p>30</p>",
+            "<b>D.</b> <p>36</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>30</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39537/gate-cse-2016-set-2-question-ga-09#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>All hill-stations have a lake. Ooty has two lakes.<br>\n<br>\nWhich of the statement(s) below is/are logically valid and can be inferred from the above sentences?\n<br><br>\n(i).   Ooty is not a hill-station.\n<br>(ii).  No hill-station can have more than one lake. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) only.</p>",
+            "<b>B.</b> <p>(ii) only.</p>",
+            "<b>C.</b> <p>Both (i) and (ii)</p>",
+            "<b>D.</b> <p>Neither (i) nor (ii)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither (i) nor (ii)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39534/gate-cse-2016-set-2-question-ga-08#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Computers were invented for performing only high-end useful computations. However, it is no understatement that they have taken over our world today. The internet, for example, is ubiquitous. Many believe that the internet itself is an unintended consequence of the original invention. With the advent of mobile computing on our phones, a whole new dimension is now enabled. One is left wondering if all these developments are good or, more importantly, required.<br><br>Which of the statement(s) below is/are logically valid and can be inferred from the above paragraph?<br>(i) The author believes that computers are not good for us.\n<br>\n(ii) Mobile computers and the internet are both intended inventions. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) only</p>",
+            "<b>B.</b> <p>(ii) only</p>",
+            "<b>C.</b> <p>Both (i) and (ii)</p>",
+            "<b>D.</b> <p>Neither (i) nor (ii)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither (i) nor (ii)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39533/gate-cse-2016-set-2-question-ga-07#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Among 150 faculty members in an institute, 55 are connected with each other through Facebook and 85 are connected through Whatsapp. 30 faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>35</p>",
+            "<b>B.</b> <p>45</p>",
+            "<b>C.</b> <p>64</p>",
+            "<b>D.</b> <p>90</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>35</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

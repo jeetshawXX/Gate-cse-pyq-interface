@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - Limits",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Limits",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336673\"></a><div itemprop=\"text\"><p>\\( \\underset{x\\to&nbsp;0}{\\lim} \\dfrac{(1-\\cos x)}{2} \\) is equal to</p>\n\n</div><br><br><b>Calculus: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1/3 \\)</p>",
+            "<p>\\( 1/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336673/nielit-2016-mar-scientist-b-section-b-13\" target=\"_blank\">https://gateoverflow.in/336673/nielit-2016-mar-scientist-b-section-b-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337190\"></a><div itemprop=\"text\"><p>\\( \\underset{x \\rightarrow &nbsp;0}{\\lim} \\dfrac{x^{3}+x^{2}-5x-2}{2x^{3}-7x^{2}+4x+4}=? \\)&nbsp;</p>\n\n</div><br><br><b>Calculus: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -0.5 \\)</p>",
+            "<p>\\( (0.5) \\)</p>",
+            "<p>\\( \\infty \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( -0.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337190/nielit-2016-mar-scientist-c-section-b-10\" target=\"_blank\">https://gateoverflow.in/337190/nielit-2016-mar-scientist-c-section-b-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

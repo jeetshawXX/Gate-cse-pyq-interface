@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - In Place Algo",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "In Place Algo",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316217\"></a><div itemprop=\"text\"><p>There are many sorting algorithms based on comparison. The running time of heapsort algorithm is \\( O(n \\text{lg}n) \\). Like \\( P \\), but unlike \\( Q \\), heapsort sorts in place where \\( (P,Q) \\) is equal to</p></div><br><br><b>Algorithms: UGC NET CSE | June 2019 | Part 2 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Merge sort, Quick sort</p>",
+            "<p>Quick sort, insertion sort</p>",
+            "<p>Insertion sort, Quick sort</p>",
+            "<p>Insertion sort, Merge sort</p>"
+          ],
+          "correct_answer": "<p>Insertion sort, Merge sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316217/ugc-net-cse-june-2019-part-2-question-62\" target=\"_blank\">https://gateoverflow.in/316217/ugc-net-cse-june-2019-part-2-question-62</a></p>"
+        }
+      ]
+    }
+  ]
+}

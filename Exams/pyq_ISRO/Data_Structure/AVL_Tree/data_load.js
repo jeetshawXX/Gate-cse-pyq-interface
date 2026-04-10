@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - AVL_Tree",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "AVL_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The minimum height of an AVL tree with n nodes is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text{Ceil } (\\log_2(n+1))\\)</p>",
+            "<b>B.</b> <p>\\(1.44\\ \\log_2n\\)</p>",
+            "<b>C.</b> <p>\\(\\text{Floor } (\\log_2(n+1))\\)</p>",
+            "<b>D.</b> <p>\\(1.64\\ \\log_2n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\text{Floor } (\\log_2(n+1))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331324/isro2020-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Access time of the symbolic table will be logarithmic if it is implemented by <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Linear list</p>",
+            "<b>B.</b> <p>Search tree</p>",
+            "<b>C.</b> <p>Hash table</p>",
+            "<b>D.</b> <p>Self organization list</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Search tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55551/isro2016-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number of rotations required to insert a sequence of elements 9, 6, 5, 8, 7, 10 into an empty AVL tree is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43752/isro-2013-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Complexity Classes",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Complexity Classes",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369339\"></a><div itemprop=\"text\"><p>Assume that \\( \\text{P} \\) and \\( \\text{NP} \\) are different i.e. \\( \\text{P! = NP} \\) then for the expression \\( \\text{NP-Complete} \\cap \\text{P} = ? \\) Which among the following is correct ?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{NP-Hard} \\)</p>",
+            "<p>\\( \\oslash \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{NP-Complete} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\oslash \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369339/nielit-2021-dec-scientist-a-section-b-74\" target=\"_blank\">https://gateoverflow.in/369339/nielit-2021-dec-scientist-a-section-b-74</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366971\"></a><div itemprop=\"text\"><p>&nbsp; _________ is the class of decision problems that can be solved by non-deterministic polynomial algorithms.</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{NP} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>Hard</p>",
+            "<p>Complete</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{NP} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366971/nielit-2021-dec-scientist-b-section-b-46\" target=\"_blank\">https://gateoverflow.in/366971/nielit-2021-dec-scientist-b-section-b-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

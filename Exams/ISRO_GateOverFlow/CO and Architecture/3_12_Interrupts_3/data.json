@@ -1,0 +1,56 @@
+{
+  "title": "CO and Architecture - Interrupts",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Interrupts",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49919\"></a><div itemprop=\"text\"><p>The ability to temporarily halt the CPU and use this time to send information on buses is called</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2008 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>direct memory access</p>",
+            "<p>vectoring the interrupt</p>",
+            "<p>polling</p>",
+            "<p>cycle stealing</p>"
+          ],
+          "correct_answer": "<p>cycle stealing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49919/isro-cse-2008-question-37\" target=\"_blank\">https://gateoverflow.in/49919/isro-cse-2008-question-37</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48044\"></a><div itemprop=\"text\"><p>A certain microprocessor requires \\( 4.5 \\) microseconds to respond to an interrupt. Assuming that the three interrupts \\( \\text{I}_1, \\text{I}_2 \\) and \\( \\text{I}_3 \\) require the following execution time after the interrupt is recognized:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( \\text{I}_1 \\) requires \\( 25 \\) microseconds</li>\n\t<li>\\( \\text{I}_2 \\) requires \\( 35 \\) microseconds</li>\n\t<li>\\( \\text{I}_3 \\) requires \\( 20 \\) microseconds</li>\n</ol>\n\n<p>\\( \\text{I}_1 \\) has the highest priority and \\( \\text{I}_3 \\) has the lowest. What is the possible range of time for \\( \\text{I}_3 \\) to be executed assuming that it may or may not occur simultaneously with other interrupts?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2009 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24.5 \\) microseconds to \\( 39.5 \\) microseconds</p>",
+            "<p>\\( 24.5 \\) microseconds to \\( 93.5 \\) microseconds</p>",
+            "<p>\\( 4.5 \\) microseconds to \\( 24.5 \\) microseconds</p>",
+            "<p>\\( 29.5 \\) microseconds \\( 93.5 \\) microseconds</p>"
+          ],
+          "correct_answer": "<p>\\( 24.5 \\) microseconds to \\( 93.5 \\) microseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48044/isro-cse-2009-question-22\" target=\"_blank\">https://gateoverflow.in/48044/isro-cse-2009-question-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"435364\"></a><div itemprop=\"text\"><p>Which of the following is false about interrupts?</p></div><br><br><b>CO & Architecture: ISRO CSE 2023 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Interrupts can be triggered by a hardware or by a software</p>",
+            "<p>Hardware interrupts may be triggered by sending a signal to CPU through a system bus</p>",
+            "<p>Software interrupts may be triggered by executing system calls</p>",
+            "<p>Trap is a hardware generated interrupt<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Trap is a hardware generated interrupt<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435364/isro-cse-2023-question-32\" target=\"_blank\">https://gateoverflow.in/435364/isro-cse-2023-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Engineering Mathematics - Probability - Uniform Distribution",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Uniform Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1694\"></a><div itemprop=\"text\">Two friends agree to meet at a park with the following conditions. Each will reach the park between 4:00 pm and 5:00 pm and will see if the other has already arrived. If not, they will wait for 10 minutes or the end of the hour whichever is earlier and leave. What is the probability that the two will not meet?</div><br><br><b>GATE CSE 1998 | Question: 3a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.69:0.70",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1694/gate-cse-1998-question-3a\" target=\"_blank\">https://gateoverflow.in/1694/gate-cse-1998-question-3a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1072\"></a><div itemprop=\"text\"><p>Two \\( n \\) bit binary strings, \\( S_1 \\) and \\( S_2 \\) are chosen randomly with uniform probability. The probability that the Hamming distance between these strings (the number of bit&nbsp;positions where the two strings differ) is equal to \\( d \\) is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{^{n}C_{d}}{2^{n}} \\)</p>",
+            "<p>\\( \\dfrac{^{n}C_{d}}{2^{d}} \\)</p>",
+            "<p>\\( \\dfrac{d}{2^{n}} \\)</p>",
+            "<p>\\( \\dfrac{1}{2^{d}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{^{n}C_{d}}{2^{n}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1072/gate-cse-2004-question-78\" target=\"_blank\">https://gateoverflow.in/1072/gate-cse-2004-question-78</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1074\"></a><div itemprop=\"text\"><p>A point is randomly selected with uniform probability in the \\( X-Y \\) plane within the rectangle with&nbsp;corners at \\( (0,0), (1,0), (1,2) \\) and \\( (0,2). \\) If \\( p \\) is the length of the position vector of the point, the&nbsp;expected value of \\( p^{2} \\) is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{2}{3}\\right) \\)</p>",
+            "<p>\\( \\quad 1 \\)</p>",
+            "<p>\\( \\left(\\dfrac{4}{3}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{5}{3}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{5}{3}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1074/gate-cse-2004-question-80\" target=\"_blank\">https://gateoverflow.in/1074/gate-cse-2004-question-80</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1222\"></a><div itemprop=\"text\"><p>Suppose we uniformly and randomly select a permutation from the \\( 20 ! \\) permutations of \\( 1, 2, 3\\ldots ,20. \\) What is the probability that \\( 2 \\) appears at an earlier position than any other even number in the selected permutation?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{1}{2} \\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{10}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{9!}{20!}\\right) \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{1}{10}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1222/gate-cse-2007-question-24\" target=\"_blank\">https://gateoverflow.in/1222/gate-cse-2007-question-24</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1717\"></a><div itemprop=\"text\">Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of the shorter stick is ________ .</div><br><br><b>GATE CSE 2014 Set 1 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.24:0.27",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1717/gate-cse-2014-set-1-question-2\" target=\"_blank\">https://gateoverflow.in/1717/gate-cse-2014-set-1-question-2</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"302801\"></a><div itemprop=\"text\">Suppose \\( Y \\) is distributed uniformly in the open interval \\( (1,6) \\). The probability that the polynomial \\( 3x^2 +6xY+3Y+6 \\) has only real roots is (rounded off to \\( 1 \\) decimal place) _______</div><br><br><b>GATE CSE 2019 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302801/gate-cse-2019-question-47\" target=\"_blank\">https://gateoverflow.in/302801/gate-cse-2019-question-47</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"333186\"></a><div itemprop=\"text\">For \\( n&gt;2 \\), let \\( a \\in &nbsp;\\{0,1\\}^n \\) be a non-zero vector. Suppose that \\( x \\) is chosen uniformly at random from \\( \\{0,1\\}^n \\). Then, the probability that \\( \\displaystyle{} \\Sigma_{i=1}^n a_i x_i \\) &nbsp;is an odd number is______________</div><br><br><b>GATE CSE 2020 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333186/gate-cse-2020-question-45\" target=\"_blank\">https://gateoverflow.in/333186/gate-cse-2020-question-45</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"422838\"></a><div itemprop=\"text\"><p>Consider a permutation sampled uniformly at random from the set of all permutations of \\( \\{1,2,3, \\cdots, n\\} \\) for some \\( n \\geq 4 \\). Let \\( X \\) be the event that \\( 1 \\) occurs before \\( 2 \\) in the permutation, and \\( Y \\) the event that \\( 3 \\) occurs before \\( 4 \\). Which one of the following statements is TRUE?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The events \\( X \\) and \\( Y \\) are mutually exclusive</p>",
+            "<p>The events \\( X \\) and \\( Y \\) are independent</p>",
+            "<p>Either event \\( X \\) or \\( Y \\) must occur</p>",
+            "<p>Event \\( X \\) is more likely than event \\( Y \\)</p>"
+          ],
+          "correct_answer": "<p>The events \\( X \\) and \\( Y \\) are independent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4\" target=\"_blank\">https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"460838\"></a><div itemprop=\"text\">The unit interval \\( (0,1) \\) is divided at a point chosen uniformly distributed over \\( (0,1) \\) in \\( \\mathbb{R} \\) into two disjoint subintervals.<br>\n<br>\nThe expected length of the subinterval that contains \\( 0.4 \\) is __________. (rounded off to two decimal places)</div><br><br><b>GATE CSE 2025 | Set 2 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.70:0.80",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460838/gate-cse-2025-set-2-question-55\" target=\"_blank\">https://gateoverflow.in/460838/gate-cse-2025-set-2-question-55</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"422916\"></a><div itemprop=\"text\">Let \\( X \\) be a random variable uniformly distributed in the interval \\( [1,3] \\) and \\( Y \\) be a random variable uniformly distributed in the interval \\( [2, 4] \\). If \\( X \\) and \\( Y \\) are independent of each other, the probability \\( P(X \\geq Y) \\) is \\( \\_\\_\\_\\_\\_\\_\\_\\_ \\) (rounded off to three decimal places).</div><br><br><b>GATE DS&AI 2024 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.125",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422916/gate-ds&ai-2024-question-46\" target=\"_blank\">https://gateoverflow.in/422916/gate-ds&ai-2024-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+}

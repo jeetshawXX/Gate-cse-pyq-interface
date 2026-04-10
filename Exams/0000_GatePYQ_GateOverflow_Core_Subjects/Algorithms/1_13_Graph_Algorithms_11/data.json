@@ -1,0 +1,174 @@
+{
+  "title": "Algorithms - Graph Algorithms",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Graph Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2465\"></a><div itemprop=\"text\"><p>Which of the following statements is false?</p>\n\n</div><br><br><b>GATE CSE 1994 | Question: 1.22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Optimal binary search tree construction can be performed efficiently using dynamic programming</p>",
+            "<p>Breadth-first search cannot be used to find connected components of a graph</p>",
+            "<p>Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.</p>",
+            "<p>Depth-first search can be used to find connected components of a graph</p>"
+          ],
+          "correct_answer": "<p>Breadth-first search cannot be used to find connected components of a graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2465/gate-cse-1994-question-1-22\" target=\"_blank\">https://gateoverflow.in/2465/gate-cse-1994-question-1-22</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"957\"></a><div itemprop=\"text\"><p>Let \\( G= (V,E) \\)<em> </em>be a directed graph with \\( n \\)<em> </em>vertices. A path from \\( v_i \\) to \\( v_j \\) in \\( G \\)&nbsp;is a sequence of vertices (\\( v_{i},v_{i+1}, \\dots , v_j \\)) such that \\( (v_k, v_{k+1}) \\in E \\) for all \\( k \\)&nbsp;in \\( i \\)&nbsp;through \\( j-1 \\). A simple path is a path in which no vertex appears more than once.</p>\n\n<p>Let \\( A \\)<em> </em>be an \\( n \\times n \\) array initialized as follows:</p>\n\n<p>\\[ A[j,k] = \\begin{cases} 1 \\text {,&nbsp; &nbsp;if } (j,k) \\in E \\\\ 0 \\text{,&nbsp; &nbsp;otherwise} \\end{cases} \\]</p>\n\n<p>Consider the following algorithm:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">for i=1 to n\n    for j=1 to n\n        for k=1 to n\n            A[j,k] = max(A[j,k], A[j,i] + A[i,k]);  </pre>\n\n<p>Which of the following statements is necessarily true for all \\( j \\)<em>&nbsp;</em>and \\( k \\)<em> </em>after termination of the above algorithm?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A[j,k] \\leq n \\)</p>",
+            "<p>If \\( A[j,j] \\geq n-1 \\) then \\( G \\)<em>&nbsp;</em>has a Hamiltonian cycle</p>",
+            "<p>If there exists a path from \\( j \\)<em>&nbsp;</em>to \\( k \\)<em>, </em>\\( A[j,k] \\)<em>&nbsp;</em>contains &nbsp;the longest path length from \\( j \\) to \\( k \\)</p>",
+            "<p>If there exists a path from \\( j \\) to \\( k \\), every simple path from \\( j \\) to \\( k \\) contains at most \\( A[j,k] \\)&nbsp;edges</p>"
+          ],
+          "correct_answer": "<p>If there exists a path from \\( j \\) to \\( k \\), every simple path from \\( j \\) to \\( k \\) contains at most \\( A[j,k] \\)&nbsp;edges</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/957/gate-cse-2003-question-70\" target=\"_blank\">https://gateoverflow.in/957/gate-cse-2003-question-70</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1404\"></a><div itemprop=\"text\"><p>Let \\( s \\) and \\( t \\) be two vertices in a undirected graph \\( G=(V,E) \\) having distinct positive edge weights. Let \\( [X,Y] \\) be a partition of \\( V \\) such that \\( s \\in&nbsp;X \\) and \\( t&nbsp;\\in&nbsp;Y \\). Consider the edge \\( e \\) having the minimum&nbsp; weight amongst all those edges that have one vertex in \\( X \\) and one vertex in \\( Y \\).</p>\n\n<p>The edge \\( e \\) must definitely belong to:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 82a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the minimum weighted spanning tree of \\( G \\)</p>",
+            "<p>the weighted shortest path from \\( s \\) to \\( t \\)</p>",
+            "<p>each path from \\( s \\) to \\( t \\)</p>",
+            "<p>the weighted longest path from \\( s \\) to \\( t \\)</p>"
+          ],
+          "correct_answer": "<p>the minimum weighted spanning tree of \\( G \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1404/gate-cse-2005-question-82a\" target=\"_blank\">https://gateoverflow.in/1404/gate-cse-2005-question-82a</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"82129\"></a><div itemprop=\"text\"><p>Let \\( s \\) and \\( t \\) be two vertices in a undirected graph \\( G=(V,E) \\) having distinct positive edge weights. Let \\( [X,Y] \\) be a partition of \\( V \\) such that \\( s \\in&nbsp;X \\) and \\( t&nbsp;\\in&nbsp;Y \\). Consider the edge \\( e \\) having the minimum&nbsp; weight amongst all those edges that have one vertex in \\( X \\) and one vertex in \\( Y \\).</p>\n\n<p>Let the weight of an edge \\( e \\) denote the congestion on that edge. The congestion on a path is defined to be the maximum of the congestions on the edges of the path. We wish to find the path from \\( s \\) to \\( t \\) having minimum congestion. Which of the following paths is always such a path of minimum congestion?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 82b</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a path from \\( s \\) to \\( t \\) in the minimum weighted spanning tree</p>",
+            "<p>a weighted shortest path from \\( s \\) to \\( t \\)</p>",
+            "<p>an Euler walk from \\( s \\) to \\( t \\)</p>",
+            "<p>a Hamiltonian path from \\( s \\) to \\( t \\)</p>"
+          ],
+          "correct_answer": "<p>a path from \\( s \\) to \\( t \\) in the minimum weighted spanning tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82129/gate-cse-2005-question-82b\" target=\"_blank\">https://gateoverflow.in/82129/gate-cse-2005-question-82b</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"39620\"></a><div itemprop=\"text\"><p>In an adjacency list representation of an undirected simple graph \\( G=(V, E) \\), each edge \\( (u, v) \\) has two adjacency list entries: \\( [v] \\) in the adjacency list of \\( u \\), and \\( [u] \\) in the adjacency list of \\( v \\). These are called twins of each other. A twin pointer is a pointer from an adjacency list entry to its twin. If \\( |E|=m \\) and \\( |V|=n \\), and the memory size is not a constraint, what is the time complexity of the most efficient algorithm to set the twin pointer in each entry in each adjacency list?</p>\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta\\left(n^{2}\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(n+m\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(m^{2}\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(n^{4}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta\\left(n+m\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39620/gate-cse-2016-set-2-question-41\" target=\"_blank\">https://gateoverflow.in/39620/gate-cse-2016-set-2-question-41</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"118306\"></a><div itemprop=\"text\"><p>Let \\( G=\\left ( V,E \\right ) \\) be \\( any \\) connected, undirected, edge-weighted graph. The weights of the edges in \\( E \\) are positive and distinct. Consider the following statements:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Minimum Spanning Tree of \\( G \\) is always unique.</li>\n\t<li>Shortest path between any two vertices of \\( G \\) is always unique.</li>\n</ol>\n\n<p>Which of the above statements is/are necessarily true?</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>both I and II</p>",
+            "<p>neither I nor II</p>"
+          ],
+          "correct_answer": "<p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118306/gate-cse-2017-set-1-question-26\" target=\"_blank\">https://gateoverflow.in/118306/gate-cse-2017-set-1-question-26</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"357494\"></a><div itemprop=\"text\"><p>Consider the following directed graph:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"300\" src=\"images/gateOverflow_pyq_images/algorithms___graph_algorithms/35384f3f6ede92a3077b7273301edf09.png\" width=\"321\"></p>\n\n<p>Which of the following is/are correct about the graph?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 46</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The graph does not have a topological order</p>",
+            "<p>A depth-first traversal starting at vertex \\( S \\) classifies three directed edges as back edges</p>",
+            "<p>The graph does not have a strongly connected component</p>",
+            "<p>For each pair of vertices \\( u \\) and \\( v \\), there is a directed path from \\( u \\) to \\( v \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>The graph does not have a topological order</p>",
+            "<p>A depth-first traversal starting at vertex \\( S \\) classifies three directed edges as back edges</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357494/gate-cse-2021-set-2-question-46\" target=\"_blank\">https://gateoverflow.in/357494/gate-cse-2021-set-2-question-46</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"357482\"></a><div itemprop=\"text\"><p>In a directed&nbsp;acyclic graph with a source vertex \\( \\textsf{s} \\), the \\( \\textit{quality-score} \\) of a directed path is defined to be the product of the weights of the edges on the path. Further, for a vertex \\( v \\) other than \\( \\textsf{s} \\), the quality-score of \\( v \\) is defined to be the maximum among the quality-scores&nbsp;of all the paths from \\( \\textsf{s} \\) to \\( v \\). The quality-score of \\( \\textsf{s} \\) is assumed to&nbsp;be \\( 1 \\).</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"233\" src=\"images/gateOverflow_pyq_images/algorithms___graph_algorithms/323c0a863c40151242bf53af747a6ac0.png\" width=\"382\"></p>\n\n<p>The sum of the quality-scores of all vertices on the graph shown above is _______</p></div><br><br><b>GATE CSE 2021 Set 2 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "929:929",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357482/gate-cse-2021-set-2-question-55\" target=\"_blank\">https://gateoverflow.in/357482/gate-cse-2021-set-2-question-55</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3760\"></a><div itemprop=\"text\"><p>In the following table, the left column contains the names of standard graph algorithms and the right column contains the time complexities of the algorithms. Match each algorithm with its time complexity.\\[ \\begin{array}{|ll|ll|}\\hline \\text{1.} &amp; \\text{Bellman-Ford algorithm} &amp; \\text{A:} &amp; \\text{\\( O(m\\log n) \\)} \\\\\\hline &nbsp;\\text{2.} &amp; \\text{Kruskal’s algorithm} &amp; \\text{B:}&amp; \\text{\\( O(n^3) \\)} \\\\\\hline &nbsp;&nbsp;\\text{3.}&amp; \\text{Floyd-Warshall algorithm} &amp; \\text{C:} &nbsp;&amp; \\text{\\( O(nm) \\)} \\\\\\hline &nbsp;\\text{4.} &amp; \\text{Topological sorting} &amp;\\text{D:} &nbsp;&amp; \\text{\\( O(n+m) \\)} &nbsp;\\\\\\hline \\end{array} \\]</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{1→ C, 2 → A, 3 → B, 4 → D} \\)</p>",
+            "<p>\\( \\text{1→ B, 2 → D, 3 → C, 4 → A} \\)</p>",
+            "<p>\\( \\text{1→ C, 2 → D, 3 → A, 4 → B} \\)</p>",
+            "<p>\\( \\text{1→ B, 2 → A, 3 → C, 4 → D} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1→ C, 2 → A, 3 → B, 4 → D} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3760/gate-it-2005-question-15\" target=\"_blank\">https://gateoverflow.in/3760/gate-it-2005-question-15</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3856\"></a><div itemprop=\"text\"><p>A sink in a directed graph is a vertex i such that there is an edge from every vertex \\( j \\neq i \\) to \\( i \\) and there is no edge from \\( i \\) to any other vertex. A directed graph \\( G \\) with \\( n \\) vertices is represented by its adjacency matrix \\( A \\), where \\( A[i] [j] = 1 \\) if there is an edge directed from vertex \\( i \\) to \\( j \\) and \\( 0 \\) otherwise. The following algorithm determines whether there is a sink in the graph \\( G \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">i = 0;\ndo {\n    j = i + 1;\n    while ((j &lt; n) &amp;&amp; E1) j++;\n    if (j &lt; n) E2;\n} while (j &lt; n);\nflag = 1;\nfor (j = 0; j &lt; n; j++)\n    if ((j! = i) &amp;&amp; E3) flag = 0;\nif (flag) printf(\"Sink exists\"); \nelse printf (\"Sink does not exist\");</pre>\n\n<p>Choose the correct expressions for \\( E_1 \\) and \\( E_2 \\)</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 84a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( E_1&nbsp;: A[i][j] \\) and \\( E_2&nbsp;: i = j \\);</p>",
+            "<p>\\( E_1 :\\ !A[i][j] \\) and \\( E_2&nbsp; : i = j + 1 \\);</p>",
+            "<p>\\( E_1:\\ !A[i][j] \\) and \\( E_2 : i = j \\);</p>",
+            "<p>\\( E_1 : A[i][j] \\) and \\( E_2 : i = j + 1 \\);</p>"
+          ],
+          "correct_answer": "<p>\\( E_1:\\ !A[i][j] \\) and \\( E_2 : i = j \\);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3856/gate-it-2005-question-84a\" target=\"_blank\">https://gateoverflow.in/3856/gate-it-2005-question-84a</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3857\"></a><div itemprop=\"text\"><p>A sink in a directed graph is a vertex i such that there is an edge from every vertex \\( j \\neq i \\) to \\( i \\) and there is no edge from \\( i \\) to any other vertex. A directed graph \\( G \\) with \\( n \\) vertices is represented by its adjacency matrix \\( A \\), where \\( A[i] [j] = 1 \\) if there is an edge directed from vertex \\( i \\) to \\( j \\) and \\( 0 \\) otherwise. The following algorithm determines whether there is a sink in the graph \\( G \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">i = 0;\ndo {\n    j = i + 1;\n    while ((j &lt; n) &amp;&amp; E1) j++;\n    if (j &lt; n) E2;\n} while (j &lt; n);\nflag = 1;\nfor (j = 0; j &lt; n; j++)\n    if ((j! = i) &amp;&amp; E3) flag = 0;\nif (flag) printf(\"Sink exists\") ;\nelse printf (\"Sink does not exist\");</pre>\n\n<p>Choose the correct expression for \\( E_3 \\)</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 84b</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (A[i][j] \\ \\&amp;\\&amp; \\ !A[j][i]) \\)</p>",
+            "<p>\\( (!A[i][j] \\ \\&amp;\\&amp; \\ A[j][i]) \\)</p>",
+            "<p>\\( (!A[i][j] \\ \\left | \\right |&nbsp;A[j][i]) \\)</p>",
+            "<p>\\( (A[i][j] \\ \\left | \\right | \\ !A[j][i]) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (A[i][j] \\ \\left | \\right | \\ !A[j][i]) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3857/gate-it-2005-question-84b\" target=\"_blank\">https://gateoverflow.in/3857/gate-it-2005-question-84b</a></p>"
+        }
+      ]
+    }
+  ]
+}

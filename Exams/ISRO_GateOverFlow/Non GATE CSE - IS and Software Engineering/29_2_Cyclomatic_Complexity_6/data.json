@@ -1,0 +1,101 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Cyclomatic Complexity",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Cyclomatic Complexity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2199\"></a><div itemprop=\"text\"><p>The cyclomatic complexity of each of the modules \\( \\text{A} \\) and \\( \\text{B} \\) shown below is \\( 10. \\) What is the cyclomatic complexity of the sequential integration shown on the right hand side?</p><p style=\"text-align:center\"><img alt=\"DIagram\" width=\"500\" height=\"500\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7117390454550923718\"></p></div><br><br><b>IS&Software Engineering: GATE CSE 2010 | Question: 21,ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2199/gate-cse-2010-question-21-isro2017-60\" target=\"_blank\">https://gateoverflow.in/2199/gate-cse-2010-question-21-isro2017-60</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"47396\"></a><div itemprop=\"text\"><p>The Cyclomatic Complexity metric V(G) of the following control flow graph</p><p style=\"text-align:center\"><img alt=\"Graph\" width=\"300\" height=\"301\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17642314800921189003\"></p></div><br><br><b>IS&Software Engineering: ISRO CSE 2011 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>",
+            "<p>6</p>"
+          ],
+          "correct_answer": "<p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47396/isro-cse-2011-question-65\" target=\"_blank\">https://gateoverflow.in/47396/isro-cse-2011-question-65</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"53592\"></a><div itemprop=\"text\"><p>Consider the following pseudo- code</p>\n\n<pre class=\"prettyprint lang-c_cpp\">while (m&lt;n)\n    if (x&gt;y ) and (a&lt;b) then\n        a=a+1\n        y=y-1\n    end if\nm=m+1 end while</pre>\n\n<p>What is cyclomatic complexity of the above pseudo -code?</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2014 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2</p>",
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>"
+          ],
+          "correct_answer": "<p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53592/isro-cse-2014-question-4\" target=\"_blank\">https://gateoverflow.in/53592/isro-cse-2014-question-4</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"331343\"></a><div itemprop=\"text\"><p>Consider the following pseudo-code</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">I=0; J=0; K=8;\nwhile(I&lt;K-1) //while-1\n{\n     J=J+1;\n     while(J&lt;K) //while-2\n     { \n         if(x[I]&lt;x[J])\n         {\n             temp = x[I];\n             x[I]=x[J];\n             x[J]=temp;\n         }\n     }// end of while-2\n     I=I+1;\n}// end of while-1\n</pre>\n\n<p>The cyclomatic complexity of the above is</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2020 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331343/isro-cse-2020-question-69\" target=\"_blank\">https://gateoverflow.in/331343/isro-cse-2020-question-69</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"435334\"></a><div itemprop=\"text\"><p>McCabe's cyclomatic complexity number of a program control graph 'G' with e edges, \\( n \\) nodes and \\( p \\) disconnected paths is defined as</p></div><br><br><b>IS&Software Engineering: ISRO CSE 2023 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{n}-\\mathrm{e}+2 \\mathrm{p} \\)</p>",
+            "<p>\\( \\mathrm{e}-\\mathrm{n}+2+\\mathrm{p} \\)</p>",
+            "<p>\\( e-n+2 p \\)</p>",
+            "<p>\\( \\mathrm{n}-\\mathrm{e}+\\mathrm{p} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( e-n+2 p \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435334/isro-cse-2023-question-61\" target=\"_blank\">https://gateoverflow.in/435334/isro-cse-2023-question-61</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"45560\"></a><div itemprop=\"text\">\n<p>What is the cyclomatic complexity of a module which has seventeen edges and thirteen nodes?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45560/isro-2013-66\" target=\"_blank\">https://gateoverflow.in/45560/isro-2013-66</a></p>"
+        }
+      ]
+    }
+  ]
+}

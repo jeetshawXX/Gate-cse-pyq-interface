@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Formal Languages",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Formal Languages",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"419341\"></a><div itemprop=\"text\"><p>The four nucleotides in \\( \\text{DNA} \\) are called \\( \\text{A, C, G} \\), and \\( \\text{T} \\). Consider the following languages over the alphabet \\( \\{\\mathrm{A}, \\mathrm{C}, \\mathrm{G} \\), and \\( \\mathrm{T}\\} \\).<br>\n\\[<br>\n\\begin{array}{l}<br>\nL_{1}=\\left\\{(\\mathrm{AC})^{n}(\\mathrm{GT})^{n} \\mid n \\geq 0\\right\\} \\\\<br>\nL_{2}=\\left\\{\\mathrm{A}^{n} \\mathrm{C}^{n} \\mathrm{G}^{n} \\mathrm{~T}^{n} \\mid n \\geq 0\\right\\} \\\\<br>\nL_{3}=\\left\\{(\\mathrm{AT})^{n}(\\mathrm{CG})^{m} \\mid m \\neq n \\text { and } m, n \\geq 0\\right\\}<br>\n\\end{array}<br>\n\\]<br>\n<br>\nWhich of the above languages is/are context-free?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2024 | Part B | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( L_{1} \\).</p>",
+            "<p>Only \\( L_{3} \\).</p>",
+            "<p>Only \\( L_{1} \\) and \\( L_{3} \\cdot \\)</p>",
+            "<p>Only \\( L_{1} \\) and \\( L_{2} \\).</p>",
+            "<p>All three of \\( L_{1}, L_{2}, L_{3} \\).</p>"
+          ],
+          "correct_answer": "<p>Only \\( L_{1} \\) and \\( L_{3} \\cdot \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/419341/tifr-cse-2024-part-b-question-6\" target=\"_blank\">https://gateoverflow.in/419341/tifr-cse-2024-part-b-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,130 @@
+{
+  "title": "Discrete_Mathematics - Recurrence",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Recurrence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The Lucas sequence \\( L_n \\) is defined by the recurrence relation: <br> \\( L_n=L_{n-1}+L_{n-2}, \\; for \\; n\\geq 3, \\)<br> with \\( L_1=1 \\; and \\; L_2=3 \\) <br>Which one of the options given is TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n \\)</p>",
+            "<b>B.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n - \\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n \\)</p>",
+            "<b>C.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n \\)</p>",
+            "<b>D.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n- \\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399307/gate-cse-2023-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following recurrence:<br>\\( \\begin{aligned}\nf(1)&amp;=1; \\\\\nf(2n)&amp;=2f(n)-1, &amp; \\text{for }n \\geq 1; \\\\\nf(2n+1)&amp;=2f(n)+1, &amp; \\text{for }n \\geq 1.\n\\end{aligned}\\)<br>Then, which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(f(2^n-1)=2^n-1\\)</p>",
+            "<b>B.</b> <p>\\(f(2^n)=1\\)</p>",
+            "<b>C.</b> <p>\\(f(5 * 2^n)=2^{n+1}+1\\)</p>",
+            "<b>D.</b> <p>\\(f(2^n+1)=2^n+1\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(f(2^n-1)=2^n-1\\)</p>",
+            "<b>B.</b> <p>\\(f(2^n)=1\\)</p>",
+            "<b>C.</b> <p>\\(f(5 * 2^n)=2^{n+1}+1\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371895/Gate-cse-2022-question-41#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the recurrence relation \\(a_{1}\\)=8, \\(a_{n}=6n^{2}+2n+a_{n-1}\\). Let \\(a_{99}= K  \\times  10^{4}\\). The value of K is . <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "197.9",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39714/gate2016-1-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(a_{n}\\) be the number of n-bit strings that do NOT contain two consecutive 1s. Which one of the following is the recurrence relation for \\(a_{n}\\)? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(a_{n}=a_{n-1}+2a_{n-2}\\)</p>",
+            "<b>B.</b> <p>\\(a_{n}=a_{n-1}+a_{n-2}\\)</p>",
+            "<b>C.</b> <p>\\(a_{n}=2a_{n-1}+a_{n-2}\\)</p>",
+            "<b>D.</b> <p>\\(a_{n}=2a_{n-1}+2a_{n-2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(a_{n}=a_{n-1}+a_{n-2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39636/gate2016-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(a_{n}\\) represent the number of bit strings of length n containing two consecutive 1s. What is the recurrence relation for \\(a_{n}\\)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(a_{n-2}+a_{n-1}+2^{n-2}\\)</p>",
+            "<b>B.</b> <p>\\(a_{n-2}+2a_{n-1}+2^{n-2}\\)</p>",
+            "<b>C.</b> <p>\\(2a_{n-2}+a_{n-1}+2^{n-2}\\)</p>",
+            "<b>D.</b> <p>\\(2a_{n-2}+2a_{n-1}+2^{n-2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(a_{n-2}+a_{n-1}+2^{n-2}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the sequence \\(\\left \\langle x_n \\right \\rangle,\\; n \\geq 0\\) defined by the recurrence relation \\(x_{n + 1} = c \\cdot (x_n)^2 - 2\\), where c &gt; 0.<br>\nFor which of the following values of c, does there exist a non-empty open interval (a, b) such that the sequence \\(x_n\\) converges for all \\(x_0\\) satisfying a &lt; \\(x_0\\) &lt; b? <br>\ni.   0.25<br>\nii.  0.35<br>\niii. 0.45<br>\niv.  0.5<br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i only</p>",
+            "<b>B.</b> <p>i and ii only</p>",
+            "<b>C.</b> <p>i, ii and iii only</p>",
+            "<b>D.</b> <p>i, ii, iii and iv</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>i, ii, iii and iv</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3529/gate2007-it-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the sequence \\(\\langle x_n \\rangle , \\: n \\geq 0\\) defined by the recurrence relation \\(x_{n+1} = c . x^2_n -2\\), where c &gt; 0. <br>\nSuppose there exists a non-empty, open interval (a, b) such that for all \\(x_0\\) satisfying \\(a \\lt x_0 \\lt b\\), the sequence converges to a limit. The sequence converges to the value? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1+\\sqrt{1+8c}}{2c}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1-\\sqrt{1+8c}}{2c}\\)</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>\\(\\frac{2}{2c-1}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1-\\sqrt{1+8c}}{2c}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3528/gate2007-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(H_1, H_2, H_3, ...\\) be harmonic numbers. Then, for \\(n \\in Z^+, \\sum_{j=1}^{n} H_j\\) can be expressed as <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(nH_{n+1} - (n + 1)\\)</p>",
+            "<b>B.</b> <p>\\((n + 1)H_n - n\\)</p>",
+            "<b>C.</b> <p>\\(nH_n - n\\)</p>",
+            "<b>D.</b> <p>\\((n + 1) H_{n+1} - (n + 1)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((n + 1)H_n - n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3677/gate2004-it-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Artificial Intelligence - Minimax Procedure",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Minimax Procedure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316188\"></a><div itemprop=\"text\"><p>Consider the game tree given below:</p><p><img alt=\"\" height=\"459\" width=\"900\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=18296414045664528060\"></p><p>Here \\( \\bigcirc \\) and \\( \\Box \\) represents MIN and MAX nodes respectively. The value of the root node of the game tree is</p></div><br><br><b>Artificial Intelligence: UGC NET CSE | June 2019 | Part 2 | Question: 91</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316188/ugc-net-cse-june-2019-part-2-question-91\" target=\"_blank\">https://gateoverflow.in/316188/ugc-net-cse-june-2019-part-2-question-91</a></p>"
+        }
+      ]
+    }
+  ]
+}

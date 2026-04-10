@@ -1,0 +1,231 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - Data_Structure - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is/are correct inorder traversal sequence(s) of binary search tree(s)?<br>\nI. 3, 5, 7, 8, 15, 19, 25 <br>\nII. 5, 8, 9, 12, 10, 15, 25 <br>\nIII. 2, 7, 10, 8, 14, 16, 20 <br>\nIV. 4, 6, 7, 9 18, 20, 25 <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>II and IV only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8129/gate2015-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The height of a tree is the length of the longest root-to-leaf path in it. The maximum and minimum number of nodes in a binary tree of height 5 are <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63 and 6, respectively</p>",
+            "<b>B.</b> <p>64 and 5, respectively</p>",
+            "<b>C.</b> <p>32 and 6, respectively</p>",
+            "<b>D.</b> <p>31 and 5, respectively</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>63 and 6, respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8223/gate2015-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>How many different trees are there with four nodes A,B,C and D? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30</p>",
+            "<b>B.</b> <p>60</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>120</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17447/isro2014-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a 13 element hash table for which f(key)=key mod 13 is used with integer keys. Assuming linear probing is used for collision resolution, at which location would the key 103 be inserted, if the keys 661, 182, 24 and 103 are inserted in that order? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55021/isro2014-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a single linked list where F and L are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q49_5ae2437e.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Delete the first element of the list</p>",
+            "<b>B.</b> <p>Interchange the first two elements of the list</p>",
+            "<b>C.</b> <p>Delete the last element of the list</p>",
+            "<b>D.</b> <p>Add an element at the end of the list</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Delete the last element of the list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54985/isro2014-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A frame buffer array is addressed in row major order for a monitor with pixel locations starting from (0,0) and ending with (100,100). What is address of the pixel(6,10)? Assume one bit storage per pixel and starting pixel location is at 0. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1016</p>",
+            "<b>B.</b> <p>1006</p>",
+            "<b>C.</b> <p>610</p>",
+            "<b>D.</b> <p>616</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1016</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53819/isro2014-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following binary search tree T given below: Which node contains the fourth smallest element in T?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q41_3fc8ff9b.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q</p>",
+            "<b>B.</b> <p>V</p>",
+            "<b>C.</b> <p>W</p>",
+            "<b>D.</b> <p>X</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>W</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54963/isro2014-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a standard Circular Queue implementation (which has the same condition for Queue Full and Queue Empty) whose size is 11 and the elements of the queue are q[0],q[1],... q[10].<br>The front and rear pointers are initialized to point at q[2]. In which position will the ninth element be added? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>q[0]</p>",
+            "<b>B.</b> <p>q[1]</p>",
+            "<b>C.</b> <p>q[9]</p>",
+            "<b>D.</b> <p>q[10]</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>q[0]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17423/isro2014-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose there are 11 items in sorted order in an array. How many searches are required on the average, if binary search is employed and all searches are successful in finding the item? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(3.00\\)</p>",
+            "<b>B.</b> <p>3.46</p>",
+            "<b>C.</b> <p>2.81</p>",
+            "<b>D.</b> <p>3.33</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(3.00\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16124/isro2014-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the pseudocode given below. The function Dosomething () takes as argument a pointer to the root of an arbitrary tree represented by the leftMostChild-rightSibling representation. Each node of the tree is of type treeNode.<pre><code>  typedef struct treeNode*  treeptr;\nstruct treeNode\n{\n        treeptr leftMostChild, rightSibling;\n};\nint DoSomething (treeptr tree)\n{\n     int value=0;\n     if (tree != NULL) {\n          if (tree-&gt;leftMostChild == NULL)\n               value = 1;\n          else\n               value = DoSomething(tree-&gt;leftMostChild);\n         value = value + DoSomething(tree-&gt;rightSibling);\n     }\n     return(value);\n}</code></pre>\nWhen the pointer to the root of a tree is passed as the argument to DoSomething, the value returned by the function corresponds to the <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>number of internal nodes in the tree</p>",
+            "<b>B.</b> <p>height of the tree</p>",
+            "<b>C.</b> <p>number of nodes without a right sibling in the tree.</p>",
+            "<b>D.</b> <p>number of leaf nodes in the tree.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>number of leaf nodes in the tree.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2075/gate2014-3-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming\nsimple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(97 x 97 x 97)/\\(100^{3}\\)</p>",
+            "<b>B.</b> <p>(99 x 98 x 97)/\\(100^{3}\\)</p>",
+            "<b>C.</b> <p>(97 x 96 x 95)/\\(100^{3}\\)</p>",
+            "<b>D.</b> <p>(97 x 96 x 95)/(3! x \\(100^{3}\\))</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(97 x 97 x 97)/\\(100^{3}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2074/gate2014-3-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Suppose we have a balanced binary search tree T holding n numbers. We are given two numbers L and H and wish to sum up all the numbers in T that lie between L and H. Suppose there are m such numbers in T. If the tightest upper bound on the time to compute the sum is \\(O(n^{a}log^{b}n+m^{c}log^{d}n)\\), the value of a + 10b + 100c + 1000d is _______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "110",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2073/gate2014-3-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following rooted tree with the vertex labelled P as the root <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q12_da47bc58.jpg\"><br> The order in which the nodes are visited during an in-order traversal of the tree is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SQPTRWUV</p>",
+            "<b>B.</b> <p>SQPTUWRV</p>",
+            "<b>C.</b> <p>SQPTWUVR</p>",
+            "<b>D.</b> <p>SQPTRUWV</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>SQPTRWUV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2046/gate2014-3-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose a stack implementation supports an instruction REVERSE, which reverses the order\nof elements on the stack, in addition to the PUSH and POP instructions. Which one of the\nfollowing statements is TRUE with respect to this modified stack? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A queue cannot be implemented using this stack.</p>",
+            "<b>B.</b> <p>A queue can be implemented where ENQUEUE takes a single instruction and\nDEQUEUE takes a sequence of two instructions.</p>",
+            "<b>C.</b> <p>A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction</p>",
+            "<b>D.</b> <p>A queue can be implemented where both ENQUEUE and DEQUEUE take a single\ninstruction each.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A queue can be implemented where ENQUEUE takes a sequence of three instructions\nand DEQUEUE takes a single instruction</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2007/gate2014-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

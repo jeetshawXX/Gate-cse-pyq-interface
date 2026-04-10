@@ -1,0 +1,221 @@
+{
+  "title": "Data_Link_Layer - Data_Link_Layer - Slot 7",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Data_Link_Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a simplified time slotted MAC protocol, where each host always has data to send and transmits with probability p = 0.2 in every slot. There is no backoff and one frame can be transmitted in one slot. If more than one host transmits in the same slot, then the transmissions are unsuccessful due to collision. What is the maximum number of hosts which this protocol can support if each host has to be provided a minimum throughput of 0.16 frames per time slot? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3729/gate2004-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a parity check code with three data bits and four parity check bits.<br>\nThree of the Code Words are 0101011,1001101 and 1110001.<br>\nWhich of the following are also code words?<br>\nI.   0010111<br>\nII.  0110110<br>\nIII. 1011010<br>\nIV.  0111010<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and III</p>",
+            "<b>B.</b> <p>I, II and III</p>",
+            "<b>C.</b> <p>II and IV</p>",
+            "<b>D.</b> <p>I, II, III and IV</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3728/gate2004-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A 20 Kbps satellite link has a propagation delay of 400 ms. The transmitter employs the \"go back n ARQ\" scheme with n set to 10. Assuming that each frame is 100 byte long, what is the maximum data rate possible? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 Kbps</p>",
+            "<b>B.</b> <p>10 Kbps</p>",
+            "<b>C.</b> <p>15 Kbps</p>",
+            "<b>D.</b> <p>20 Kbps</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 Kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3727/gate2004-it-83\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a 10 Mbps token ring LAN with a ring latency of 400\\(\\mu s\\). A host that needs to transmit seizes the token. Then it sends a frame of 1000 bytes, removes the frame after it has circulated all around the ring, and finally releases the token. This process is repeated for every frame. Assuming that only a single host wishes to transmit, the effective data rate is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 Mbps</p>",
+            "<b>B.</b> <p>2 Mbps</p>",
+            "<b>C.</b> <p>5 Mbps</p>",
+            "<b>D.</b> <p>6 Mbps</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5 Mbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3726/gate2004-it-82\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In a sliding window ARQ scheme, the transmitter's window size is N and the receiver's window size is M. The minimum number of distinct sequence numbers required to ensure correct operation of the ARQ scheme is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>min (M, N)</p>",
+            "<b>B.</b> <p>max (M, N)</p>",
+            "<b>C.</b> <p>M + N</p>",
+            "<b>D.</b> <p>MN</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>M + N</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3725/gate2004-it-81\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In a data link protocol, the frame delimiter flag is given by 0111. Assuming that bit stuffing is employed, the transmitter sends the data sequence 01110110 as <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(01101011\\)</p>",
+            "<b>B.</b> <p>\\(011010110\\)</p>",
+            "<b>C.</b> <p>\\(011101100\\)</p>",
+            "<b>D.</b> <p>\\(0110101100\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(0110101100\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3724/gate2004-it-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following statements is FALSE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Packet switching leads to better utilization of bandwidth resources than circuit switching</p>",
+            "<b>B.</b> <p>Packet switching results in less variation in delay than circuit switching</p>",
+            "<b>C.</b> <p>Packet switching requires more per-packet processing than circuit switching</p>",
+            "<b>D.</b> <p>Packet switching can lead to reordering unlike in circuit switching</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Packet switching results in less variation in delay than circuit switching</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3663/gate2004-it-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider three IP networks A, B and C. Host HA in network A sends messages each containing 180 bytes of application data to a host HC in network C. The TCP layer prefixes a 20 byte header to the message. This passes through an intermediate net?work B. The maximum packet size, including 20 byte IP header, in each network is  <br><br> A : 1000 bytes <br> B : 100 bytes <br> C : 1000 bytes <br><br> The network A and B are connected through a 1 Mbps link, while B and C are connected by a 512 Kbps link (bps = bits per second).  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Link_Layer\\q56_23530050.jpg\"> <br> What is the rate at which application data is transferred to host Hc? Ignore errors,\nacknowledgements, and other overheads. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>325.5Kbps</p>",
+            "<b>B.</b> <p>354.5Kbps</p>",
+            "<b>C.</b> <p>409.6Kbps</p>",
+            "<b>D.</b> <p>512.0Kbps</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>354.5Kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43572/gate2004-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A and B are the only two stations on an Ethernet. Each has a steady queue of frames to send. Both A\nand B attempt to transmit a frame, collide, and A wins the first backoff race. At the end of this\nsuccessful transmission by A, both A and B attempt to transmit and collide. The probability that A\nwins the second backoff race is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5</p>",
+            "<b>B.</b> <p>0.625</p>",
+            "<b>C.</b> <p>0.75</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0.625</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1050/gate2004-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Host A is sending data to host B over a full duplex link. A and B are using the\nsliding window protocol for flow control. The send and receive window sizes are\n5 packets each. Data packets (sent only from A to B) are all 1000 bytes long\nand the transmission time for such a packet is 50 \\(\\mu s\\) . Acknowledgment packets\n(sent only from B to A), are very small and require negligible transmission time.\nThe propagation delay over the link is 200 \\(\\mu s\\). What is the maximum achievable\nthroughput in this communication ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7.69\\(*10^{6}\\) Bps</p>",
+            "<b>B.</b> <p>11.11\\(*10^{6}\\) Bps</p>",
+            "<b>C.</b> <p>12.33\\(*10^{6}\\) Bps</p>",
+            "<b>D.</b> <p>15\\(*10^{6}\\) Bps</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>11.11\\(*10^{6}\\) Bps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/967/gate2003-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A 2 km long brodcast LAN has \\(10^{7}\\) bps bandwidth and uses CSMA/CD. The\nsignal travels along the wire at 2*\\(10^{8}\\)m/s. What is the minimum packet size that can be used on this network ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>50bytes</p>",
+            "<b>B.</b> <p>100bytes</p>",
+            "<b>C.</b> <p>200bytes</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/966/gate2003-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What is the distance of the following code 000000, 010101, 000111, 011001, 111111? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2599/gate1995-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Start and stop bits do not contain any \"information\" but are used in serial communication for <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Error detection</p>",
+            "<b>B.</b> <p>Error correction</p>",
+            "<b>C.</b> <p>Synchronization</p>",
+            "<b>D.</b> <p>Slowing down the communications.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/582/gate1992-03-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nStart and stop bits do not contain any 'information' but are used in serial communication <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Error detection</p>",
+            "<b>B.</b> <p>Error correction</p>",
+            "<b>C.</b> <p>Synchronization</p>",
+            "<b>D.</b> <p>Slowing down the communications</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/560/gate1992-02-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

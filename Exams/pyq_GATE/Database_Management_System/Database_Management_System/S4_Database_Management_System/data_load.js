@@ -1,0 +1,211 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let the set of functional dependencies \\(F=\\{QR\\rightarrow S,R\\rightarrow P,S\\rightarrow Q\\}\\) hold on a relation schema X = (PQRS). X is not in BCNF. Suppose X is decomposed into two schemas Y and Z where Y = (PR) and Z = (QRS). <br>Consider the two statements given below:<br><br>\nI. Both Y and Z are in BCNF<br>\nII. Decomposition of X into Y and Z is dependency preserving and lossless.<br><br>\nWhich of the above statements is/are correct? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and II</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302816/gate2019-cs-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following statements is NOT correct about the \\(B^+\\) tree data structure used for creating an index of a relational database table? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(B^+\\) Tree is a height-balanced tree</p>",
+            "<b>B.</b> <p>Non-leaf nodes have pointers to data records</p>",
+            "<b>C.</b> <p>Key values in each node are kept in sorted order</p>",
+            "<b>D.</b> <p>Each leaf node has a pointer to the next leaf node</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Non-leaf nodes have pointers to data records</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302834/gate2019-cs-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following two statements about database transaction schedules:<br><br>\nI. Strict two-phase locking protocol generates conflict serializable schedules that are also recoverable.<br>\nII. Timestamp-ordering concurrency control protocol with Thomas' Write Rule can generate view serializable schedules that are not conflict serializable.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302837/gate2019-cs-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following four relational schemas. For each schema, all non-trivial functional\ndependencies are listed. The underlined attributes are the respective primary keys.<br>\n<img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q42_13ce7592.jpg\">\n<br>\nWhich one of the relational schemas above is in 3NF but not in BCNF? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Schema I</p>",
+            "<b>B.</b> <p>Schema II</p>",
+            "<b>C.</b> <p>Schema III</p>",
+            "<b>D.</b> <p>Schema IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Schema II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204116/gate2018-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the relations r(A, B) and s(B, C), where s.B is a primary key and r.B is a foreign key referencing s.B. Consider the query<br> \\(Q:r \\Join (\\sigma _{B\\lt 5}(s))\\) <br> Let LOJ denote the natural left outer-join operation. Assume that r and s contain no null values. <br>\nWhich one of the following queries is NOT equivalent to Q? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sigma _{B \\lt 5}(r\\Join s)\\)</p>",
+            "<b>B.</b> <p>\\(\\sigma _{B\\lt 5}(r LOJ s)\\)</p>",
+            "<b>C.</b> <p>\\(r LOJ(\\sigma _{B\\lt 5}(s))\\)</p>",
+            "<b>D.</b> <p>\\(\\sigma _{B\\lt 5}(r) LOJ s\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(r LOJ(\\sigma _{B\\lt 5}(s))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204115/gate2018-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following two tables and four queries in SQL. <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q12_98ab1de3.jpg\">   <br>Which one of the queries above is certain to have an output that is a superset of the outputs of the other three queries? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Query 1</p>",
+            "<b>B.</b> <p>Query 2</p>",
+            "<b>C.</b> <p>Query 3</p>",
+            "<b>D.</b> <p>Query 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Query 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204086/gate2018-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In an Entity-Relationship (ER) model, suppose R is a many-to-one relationship from entity set E1 to entity set E2. Assume that E1 and E2 participate totally in R and that the cardinality of E1 is greater than the cardinality of E2. <br> Which one of the following is true about R? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every entity in E1 is associated with exactly one entity in E2.</p>",
+            "<b>B.</b> <p>Some entity in E1 is associated with more than one entity in E2.</p>",
+            "<b>C.</b> <p>Every entity in E2 is associated with exactly one entity in E1.</p>",
+            "<b>D.</b> <p>Every entity in E2 is associated with at most one entity in E1.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Every entity in E1 is associated with exactly one entity in E2.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204085/gate2018-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In a \\(B^{+}\\) tree, if the search -key value is 8 bytes long, the block size is 512 bytes and the block pointer size is 2 bytes, then maximum order of the \\(B^{+}\\) tree is _______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "52",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118561/gate2017-2-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following database table named top_scorer. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q49_e09ff2a7.jpg\"> <br>      Consider the following SQL query:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q49a_79634f62.jpg\"> <br>\nThe number of tuples returned by the above SQL query is ___________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118391/gate2017-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Two transactions \\(T_1 \\; and \\; T_2\\) are given as: <br><br>\n\\(T_{1}:r_{1} (X)w_{1}(X)r_{1}(Y)w_{1}(Y)  \\)<br>\\(T_{2}:r_{2}(Y)w_{2}(Y)r_{2}(Z)w_{2}(Z)\\)<br><br>\nwhere \\(r_{i}(V)\\) denotes a read operation by transaction \\(T_{i}\\) on a variable V and \\(w_{i}(V)\\) denotes a\nwrite operations by transaction \\(T_{i}\\)  on a variable V. The total number of conflict serializable\nschedules that can be formed by \\(T_1 \\; and \\; T_2\\) is _____________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "54",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118640/gate2017-2-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following tables T1 and T2.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q11_05594a74.jpg\"> <br> In table T1, P is the primary key and Q is the foreign key referencing R in table T2 with ondelete\ncascade and on-update cascade. In table T2, R is the primary key and S is the foreign\nkey referencing P in table T1 on-delete set NULL and on-update cascade. In order to delete\nrecord (3,8) from table T1, the number of additional records that need to be deleted from\ntable T1 is _____. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118236/gate2017-2-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>An ER model of a database consists of entity types A and B. These are connected by a\nrelationship R which does not have its own attribute. Under which one of the following\nconditions, can the relational table for R be merged with that of A? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Relationship R is one-to-many and the participation of A in R is total</p>",
+            "<b>B.</b> <p>Relationship R is one-to-many and the participation of A in R is partial</p>",
+            "<b>C.</b> <p>Relationship R is many-to one and the participation of A in R is total</p>",
+            "<b>D.</b> <p>Relationship R is many-to one and the participation of A in R is partial</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relationship R is many-to one and the participation of A in R is total</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118157/gate2017-2-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a database that has the relation schema CR (StudentName, CourseName). An\ninstance of the schema CR is as given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q53_8cbe5db4.jpg\"><br> The following query is made on the database <br><br>\\(T1\\leftarrow \\pi _{CourseName}(\\sigma _{StudentName='SA'}(CR))\\)<br>\\( T2\\leftarrow CR\\div T1\\) <br><br>The number of rows in T2 is ____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118329/gate2017-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In a database system, unique time stamps are assigned to each transaction using Lamport's\nlogical clock . Let TS(\\(T_{1}\\)) and TS(\\(T_{2}\\)) be the timestamps of transactions \\(T_{1}\\) and \\(T_{2}\\) respectively. Besides, \\(T_{1}\\) holds a lock on the resource R, and \\(T_{2}\\) has requested a conflicting lock on the same resource R. The following algorithm is used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same timestamp.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q42_afa2fbc5.jpg\">  <br>Assume any transactions that is not killed terminates eventually. Which of the following is TRUE about the database system that uses the above algorithm to prevent deadlocks? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The database system is both deadlock-free and starvation- free.</p>",
+            "<b>B.</b> <p>The database system is deadlock- free, but not starvation-free.</p>",
+            "<b>C.</b> <p>The database system is starvation-free but not deadlock- free.</p>",
+            "<b>D.</b> <p>The database system is neither deadlock- free nor starvation-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The database system is both deadlock-free and starvation- free.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118325/gate2017-1-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a database that has the relation schemas EMP(EmpId, EmpName, DepId) and\nDEPT(DeptName, DeptId). Note that the DeptId can be permitted to be NULL in the relation\nEMP. Consider the following queries on the database expressed in tuple relational calculus.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q35_fb6f6bf4.jpg\"><br>\nWhich of the above queries are safe? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) and (II) only</p>",
+            "<b>B.</b> <p>(I) and (III) only</p>",
+            "<b>C.</b> <p>(II) and (III) only</p>",
+            "<b>D.</b> <p>(I), (II) and (III)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(I), (II) and (III)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118324/gate2017-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

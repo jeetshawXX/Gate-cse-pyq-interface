@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Software Cost Estimation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Cost Estimation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56737\"></a><div itemprop=\"text\"><p>Consider a project with the following functional units :</p><p>Number of user inputs = \\( 50 \\)</p><p>Number of user outputs = \\( 40 \\)</p><p>Number of user enquiries = \\( 35 \\)</p><p>Number of user files = \\( 06 \\)</p><p>Number of external interfaces = \\( 04 \\)</p><p>Assuming all complexity adjustment factors and weighing factors as average, the function points for the project will be</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 3 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>135&nbsp;</p>",
+            "<p>722</p>",
+            "<p>675</p>",
+            "<p>672&nbsp;</p>"
+          ],
+          "correct_answer": "<p>672&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56737/ugc-net-cse-june-2014-part-3-question-18\" target=\"_blank\">https://gateoverflow.in/56737/ugc-net-cse-june-2014-part-3-question-18</a></p>"
+        }
+      ]
+    }
+  ]
+});

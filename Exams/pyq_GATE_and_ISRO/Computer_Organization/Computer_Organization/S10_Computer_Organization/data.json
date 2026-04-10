@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Organization - Computer_Organization - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In 8085 microprocessor, the ISR for handling trap interrupt is at which location? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3CH</p>",
+            "<b>B.</b> <p>34H</p>",
+            "<b>C.</b> <p>74H</p>",
+            "<b>D.</b> <p>24H</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>24H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43971/isro-2013-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>How many number of times the instruction sequence below will loop before coming out of the loop?<br>\nMOV AL, 00H<br>\nA1:  INC AL<br>\nJNZ A1 <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>255</p>",
+            "<b>C.</b> <p>256</p>",
+            "<b>D.</b> <p>Will not come out of the loop.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>256</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43970/isro-2013-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In 8086, the jump condition for the instruction JNBE is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CF = 0 or ZF = 0</p>",
+            "<b>B.</b> <p>ZF = 0 and SF = 1</p>",
+            "<b>C.</b> <p>CF = 0 and ZF = 0</p>",
+            "<b>D.</b> <p>CF = 0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>CF = 0 and ZF = 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43969/isro-2013-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>How much speed do we gain by using the cache, when cache is used 80% of the time? Assume cache is faster than main memory. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5.27</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>4.16</p>",
+            "<b>D.</b> <p>6.09</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4.16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43812/isro-2013-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A pipeline P operating at 400 MHz has a speedup factor of 6 and operating at 70% efficiency. How many stages are there in the pipeline? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43806/isro-2013-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A processor is fetching instructions at the rate of 1 MIPS. A DMA module is used to transfer characters to RAM from a device transmitting at 9600 bps. How much time will the processor be slowed down due to DMA activity? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9.6ms</p>",
+            "<b>B.</b> <p>4.8ms</p>",
+            "<b>C.</b> <p>2.4ms</p>",
+            "<b>D.</b> <p>1.2ms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.2ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43805/isro-2013-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A RAM chip has a capacity of 1024 words of 8 bits each (1K x 8). The number of 2 x 4 decoders\nwith enable line needed to construct a 16K x 16 RAM from 1K x 8 RAM is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1555/gate2013-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider an instruction pipeline with five stages without any branch prediction: Fetch Instruction\n(FI), Decode Instruction (DI), Fetch Operand (FO), Execute Instruction (EI) and Write Operand\n(WO). The stage delays for FI, DI, FO, EI and WO are 5 ns, 7 ns, 10 ns, 8 ns and 6 ns, respectively.\nThere are intermediate storage buffers after each stage and the delay of each buffer is 1 ns. A\nprogram consisting of 12 instructions I1, I2, I3,..., I12 is executed in this pipelined processor.\nInstruction I4 is the only branch instruction and its branch target is I9. If the branch is taken during\nthe execution of this program, the time (in ns) needed to complete the program is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>132</p>",
+            "<b>B.</b> <p>165</p>",
+            "<b>C.</b> <p>176</p>",
+            "<b>D.</b> <p>328</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>165</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/330/gate2013-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a hard disk with 16 recording surfaces (0-15) having 16384 cylinders (0-16383) and each\ncylinder contains 64 sectors (0-63). Data storage capacity in each sector is 512 bytes. Data are\norganized cylinder-wise and the addressing format is (cylinder no., surface no., sector no.). A file\nof size 42797 KB is stored in the disk and the starting disk location of the file is (1200, 9, 40).\nWhat is the cylinder number of the last sector of the file, if it is stored in a contiguous manner? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1281</p>",
+            "<b>B.</b> <p>1282</p>",
+            "<b>C.</b> <p>1283</p>",
+            "<b>D.</b> <p>1284</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1284</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1540/gate2013-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following sequence of micro-operations. <br>\nMBR \\(\\leftarrow\\) PC <br>\nMAR \\(\\leftarrow\\) X <br>\nPC \\(\\leftarrow\\) Y <br>\nMemory \\(\\leftarrow\\) MBR  <br>\nWhich one of the following is a possible operation performed by this sequence? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Instruction fetch</p>",
+            "<b>B.</b> <p>Operand fetch</p>",
+            "<b>C.</b> <p>Conditional branch</p>",
+            "<b>D.</b> <p>Initiation of interrupt service</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Initiation of interrupt service</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1539/gate2013-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a k-way set associative cache, the cache is divided into v sets, each of which consists of k lines.\nThe lines of a set are placed in sequence one after another. The lines in set s are sequenced before\nthe lines in set (s+1). The main memory blocks are numbered 0 onwards. The main memory block numbered j must be mapped to any one of the cache lines from <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(j mod v)*k to (j mod v)*k + (k-1)</p>",
+            "<b>B.</b> <p>(j mod v) to (j mod v)+(k-1)</p>",
+            "<b>C.</b> <p>(j mod k) to (j mod k)+(v-1)</p>",
+            "<b>D.</b> <p>(j mod k)*v to (j mod k)*v + (v-1)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(j mod v)*k to (j mod v)*k + (k-1)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1442/gate2013-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The size of the cache tag directory is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>160 Kbits</p>",
+            "<b>B.</b> <p>136 Kbits</p>",
+            "<b>C.</b> <p>40 Kbits</p>",
+            "<b>D.</b> <p>32 Kbits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>160 Kbits</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43311/gate2012-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The number of bits in the tag field of an address is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>27</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2192/gate2012-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Register renaming is done in pipelined processors <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>as an alternative to register allocation at compile time</p>",
+            "<b>B.</b> <p>for efficient access to function parameters and local variables</p>",
+            "<b>C.</b> <p>to handle certain kinds of hazards</p>",
+            "<b>D.</b> <p>as part of address translation</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>to handle certain kinds of hazards</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52/gate2012-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The amount of ROM needed to implement a 4 bit multiplier is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 bits</p>",
+            "<b>B.</b> <p>128 bits</p>",
+            "<b>C.</b> <p>1 Kbits</p>",
+            "<b>D.</b> <p>2 Kbits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 Kbits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51/gate2012-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

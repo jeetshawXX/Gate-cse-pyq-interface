@@ -1,0 +1,224 @@
+{
+  "title": "Binary_Search_Tree - Binary_Search_Tree - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Binary_Search_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Suppose the values 10, -4, 15, 30, 20, 5, 60, 19 are inserted in that order into an initially empty binary search tree. Let \\(T \\) be the resulting binary search tree.\nThe number of edges in the path from the node containing 19 to the root node of \\(T \\) is ___________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460810/gate-cse-2025-set-2-question-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following statement(s) is/are TRUE for any binary search tree (BST) having \\(n\\) distinct integers? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The maximum length of a path from the root node to any other node is \\((n - 1)\\).</p>",
+            "<b>B.</b> <p>An inorder traversal will always produce a sorted sequence of elements.</p>",
+            "<b>C.</b> <p>Finding an element takes \\(O(\\log_2 n)\\) time in the worst case.</p>",
+            "<b>D.</b> <p>Every BST is also a Min-Heap.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The maximum length of a path from the root node to any other node is \\((n - 1)\\).</p>",
+            "<b>B.</b> <p>An inorder traversal will always produce a sorted sequence of elements.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460064/gate-cse-2025-set-1-question-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>You are given a set \\(V\\) of distinct integers. A binary search tree \\(T\\) is created by\ninserting all elements of \\(V\\) one by one, starting with an empty tree. The tree \\(T\\)\nfollows the convention that, at each node, all values stored in the left subtree of the\nnode are smaller than the value stored at the node. You are not aware of the sequence\nin which these values were inserted into \\(T\\), and you do not have access to \\(T\\).<br>\nWhich one of the following statements is TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Inorder traversal of \\(T\\) can be determined from \\(V\\)</p>",
+            "<b>B.</b> <p>Root node of \\(T\\) can be determined from \\(V\\)</p>",
+            "<b>C.</b> <p>Preorder traversal of \\(T\\) can be determined from \\(V\\)</p>",
+            "<b>D.</b> <p>Postorder traversal of \\(T\\) can be determined from \\(V\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Inorder traversal of \\(T\\) can be determined from \\(V\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422868/gate-cse-2024-set-2-question-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose a binary search tree with 1000 distinct elements is also a complete binary tree. The tree is stored using the array representation of binary heap trees. Assuming that the array indices start with 0, the 3rd largest element of the tree is stored at index _______. <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "509",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371918/Gate-cse-2022-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A binary search tree T contains n distinct elements. What is the time complexity of picking an element in T that is smaller than the maximum element in T? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta(n\\log n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta(n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta(\\log n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta(1)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta(1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357442/gate-cse-2021-set-1-question-10#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The preorder traversal of a binary search tree is 15,10,12,11,20,18,16,19. Which one of the following is the postorder traversal of the tree? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10,11,12,15,16,18,19,20</p>",
+            "<b>B.</b> <p>11,12,10,16,19,18,20,15</p>",
+            "<b>C.</b> <p>20,19,18,16,15,12,11,10</p>",
+            "<b>D.</b> <p>19,16,18,20,11,12,10,15</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>11,12,10,16,19,18,20,15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333226/gate2020-cs-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The pre-order transversal of a binary search tree is given by 12, 8, 6, 2, 7, 9, 10, 16, 15, 19,\n17, 20. Then the post-order traversal of this tree is: <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,6,7,8,9,10,12,15,16,17,19,20</p>",
+            "<b>B.</b> <p>2,7,6,10,9,8,15,17,20,19,16,12</p>",
+            "<b>C.</b> <p>7,2,6,8,9,10,20,17,19,15,16,12</p>",
+            "<b>D.</b> <p>7,6,2,10,9,8,15,16,17,20,19,12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2,7,6,10,9,8,15,17,20,19,16,12</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118378/gate2017-2-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let T be a binary search tree with 15 nodes. The minimum and maximum possible heights of T are : <br>\nNote: The height of a tree with a single node is 0. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 and 15 respectively</p>",
+            "<b>B.</b> <p>3 and 14 respectively</p>",
+            "<b>C.</b> <p>4 and 14 respectively</p>",
+            "<b>D.</b> <p>3 and 15 respectively</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3 and 14 respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118286/gate2017-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The number of ways in which the numbers 1,2,3,4,5,6,7 can be inserted in an empty binary search tree, such that the resulting tree has height 6, is _____.<br>\nNote: The height of a tree with a single node is 0. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "64",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39586/gate2016-2-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>While inserting the elements 71, 65, 84, 69, 67, 83 in an empty binary search tree (BST) in the sequence shown, the element in the lowest level is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>65</p>",
+            "<b>B.</b> <p>67</p>",
+            "<b>C.</b> <p>69</p>",
+            "<b>D.</b> <p>83</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>67</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8409/gate2015-3-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What are the worst-case complexities of insertion and deletion of a key in a binary search tree? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (logn)\\) for both insertion and deletion</p>",
+            "<b>B.</b> <p>\\(\\Theta (n)\\) for both insertion and deletion</p>",
+            "<b>C.</b> <p>\\(\\Theta (n)\\)for insertion and \\(\\Theta (logn)\\) for deletion</p>",
+            "<b>D.</b> <p>\\(\\Theta (logn)\\) for insertion and \\(\\Theta (n)\\) for deletion</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (n)\\) for both insertion and deletion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8221/gate2015-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following is/are correct inorder traversal sequence(s) of binary search tree(s)?<br>\nI. 3, 5, 7, 8, 15, 19, 25 <br>\nII. 5, 8, 9, 12, 10, 15, 25 <br>\nIII. 2, 7, 10, 8, 14, 16, 20 <br>\nIV. 4, 6, 7, 9 18, 20, 25 <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>II and IV only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8129/gate2015-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The preorder traversal sequence of a binary search tree is 30, 20, 10, 15, 25, 23, 39, 35, 42. Which\none of the following is the postorder traversal sequence of the same tree? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 20, 15, 23, 25, 35, 42, 39, 30</p>",
+            "<b>B.</b> <p>15, 10, 25, 23, 20, 42, 35, 39, 30</p>",
+            "<b>C.</b> <p>15, 20, 10, 23, 25, 42, 35, 39, 30</p>",
+            "<b>D.</b> <p>15, 10, 23, 25, 20, 35, 42, 39, 30</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>15, 10, 23, 25, 20, 35, 42, 39, 30</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1554/gate2013-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which one of the following is the tightest upper bound that represents the time complexity of inserting an object into a binary search tree of n nodes? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(1)</p>",
+            "<b>B.</b> <p>O( log n)</p>",
+            "<b>C.</b> <p>O(n)</p>",
+            "<b>D.</b> <p>O(n log n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1416/gate2013-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>We are given a set of n distinct elements and an unlabeled binary tree with n\nnodes. In how many ways can we populate the tree with the given set so that it\nbecomes a binary search tree? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>n!</p>",
+            "<b>D.</b> <p>\\( \\frac{1} {n+1} .^{2n}C_n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2131/gate2011-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

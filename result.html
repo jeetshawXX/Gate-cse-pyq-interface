@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_iit_madras_without_background.png" type="image/x-icon">
+    <title>GATE Exam Results</title>
+    <link rel="stylesheet" href="css/exam_style.css"> <!-- Reusing common styles -->
+    <link rel="stylesheet" href="css/result_style.css">
+    <link rel="stylesheet" href="css/auth.css?v=1">
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+            options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@2.1.0/dist/chartjs-plugin-annotation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="result-container">
+        <div class="result-header">
+            <h1 id="pageTitle">📊 Exam Result</h1>
+            <div class="header-buttons">
+                <div class="btn-group">
+                    <button id="retryMistakesBtn" class="btn-pill btn-retry">🔄 Retry Mistakes</button>
+                    <button id="retryUnattemptedBtn" class="btn-pill btn-unattempted">⏭️ Retry Unattempted</button>
+                </div>
+                <div class="btn-group">
+                    <a href="bookmarks.html" class="btn-pill btn-bookmarks">📌 Bookmarks</a>
+                    <a href="silly_mistakes.html" class="btn-pill btn-silly-mistakes">🤦 Silly Mistakes</a>
+                    <a href="index.html" class="btn-pill btn-new-exam">🆕 New Exam</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary-section">
+            <div class="score-card" id="scoreCard">
+                <!-- Score Summary will be loaded here -->
+            </div>
+            <div class="chart-container">
+                <canvas id="performanceChart"></canvas>
+            </div>
+        </div>
+
+        <!-- <div class="analytics-section" id="analyticsSection"> -->
+        <!-- Time Analytics will be loaded here -->
+        <!-- </div> -->
+
+        <!-- Strategy Metrics -->
+        <div class="analytics-section" id="strategyMetrics">
+            <!-- Attempt Rate, Accuracy, Efficiency will be loaded here -->
+        </div>
+
+        <!-- Question Type Performance -->
+        <div class="analytics-section" id="questionTypeSection">
+            <!-- MCQ / MSQ / NAT breakdown will be loaded here -->
+        </div>
+
+        <!-- Marks Breakdown -->
+        <div class="analytics-section" id="marksBreakdown">
+            <!-- Positive marks earned vs negative marks lost -->
+        </div>
+
+        <!-- Speed vs Accuracy Quadrant -->
+        <div class="analytics-section" id="speedAccuracyQuadrant">
+            <h3 style="margin-top:0; color:#3b5998; margin-bottom: 5px;">⚡ Speed vs Accuracy Quadrant</h3>
+            <p style="font-size: 13px; color: var(--text-color); opacity: 0.8; margin-bottom: 15px;">
+                Find your "Time Traps" (bottom-right) and "Quick Wins" (top-left).
+            </p>
+            <div class="chart-container" style="height: 350px;">
+                <canvas id="speedAccuracyChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Confidence Calibration -->
+        <!-- <div class="analytics-section" id="confidenceCalibration"> -->
+        <!-- Calibration metrics will be loaded here -->
+        <!-- </div> -->
+
+        <!-- GATE Strategy Suggestions -->
+        <!-- <div class="analytics-section" id="strategySuggestions"> -->
+        <!-- Personalized suggestions based on performance -->
+        <!-- </div> -->
+
+        <div class="filter-bar">
+            <label for="filterSelect">Filter by:</label>
+            <select id="filterSelect" class="filter-select">
+                <optgroup label="Status">
+                    <option value="all">All Questions</option>
+                    <option value="correct">✔ Correct</option>
+                    <option value="incorrect">✘ Incorrect</option>
+                    <option value="unanswered">— Unanswered</option>
+                </optgroup>
+                <optgroup label="Time">
+                    <option value="most_time">Most Time Taken</option>
+                    <option value="least_time">Least Time Taken</option>
+                    <option value="time_traps">🐢 Time Traps (>3min & Wrong)</option>
+                    <option value="quick_wins">⚡ Quick Wins (<30s & Correct)</option>
+                    <option value="slow_correct">🐌 Slow but Correct (>3min)</option>
+                </optgroup>
+                <optgroup label="Marks Weight">
+                    <option value="marks_1">1-Mark Questions</option>
+                    <option value="marks_2">2-Mark Questions</option>
+                </optgroup>
+                <optgroup label="Question Type">
+                    <option value="type_mcq">MCQ Only</option>
+                    <option value="type_msq">MSQ Only</option>
+                    <option value="type_nat">NAT Only</option>
+                </optgroup>
+                <optgroup label="Strategy">
+                    <option value="negative_only">🔴 Negative Marks Only</option>
+                    <option value="marked_review">🟣 Marked for Review</option>
+                    <option value="easy_unattempted">💡 Unattempted Easy (1-mark)</option>
+                    <option value="bookmarked">⭐ Bookmarked</option>
+                    <option value="silly_mistake">🤦 Silly Mistakes</option>
+                </optgroup>
+                <optgroup label="Explanation">
+                    <option value="has_explanation">📖 With Explanation</option>
+                    <option value="no_explanation">❓ Without Explanation</option>
+                </optgroup>
+            </select>
+            <div class="question-count" id="questionCount">Total: 0</div>
+        </div>
+
+        <div class="questions-list" id="questionsList">
+            <!-- Detailed questions will be loaded here -->
+        </div>
+    </div>
+
+
+    <script src="js/db.js"></script>
+    <script type="module" src="js/gate_auth.js"></script>
+    <script src="js/result_script.js"></script>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">
+        <span class="icon-moon">🌙</span>
+        <span class="icon-sun">☀️</span>
+    </button>
+    <script src="js/dark_mode.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" title="Go to top">
+        &#8679;
+    </button>
+    <script>
+        // Scroll to Top Button Logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+            if (scrollToTopBtn) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 200) {
+                        scrollToTopBtn.style.display = 'flex';
+                    } else {
+                        scrollToTopBtn.style.display = 'none';
+                    }
+                });
+                scrollToTopBtn.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Transactions and Concurrency Control",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Transactions and Concurrency Control",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275528\"></a><div itemprop=\"text\"><p>______ is NOT a part of the ACID&nbsp;properties</p>\n\n</div><br><br><b>Databases: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inconsistency</p>",
+            "<p>Consistency</p>",
+            "<p>Atomicity</p>",
+            "<p>Isolation</p>"
+          ],
+          "correct_answer": "<p>Inconsistency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275528/nielit-2018-36\" target=\"_blank\">https://gateoverflow.in/275528/nielit-2018-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

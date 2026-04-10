@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Combinatory - Circular Permutation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Circular Permutation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336298\"></a><div itemprop=\"text\"><p>In how many ways \\( 8 \\) girls and \\( 8 \\) boys can sit around a circular table so that no two boys sit together?</p>\n\n</div><br><br><b>Combinatory: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (7!)^2 \\)</p>",
+            "<p>\\( (8!)^2 \\)</p>",
+            "<p>\\( 7!8! \\)</p>",
+            "<p>\\( 15! \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7!8! \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336298/nielit-2017-dec-scientist-b-section-b-15\" target=\"_blank\">https://gateoverflow.in/336298/nielit-2017-dec-scientist-b-section-b-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

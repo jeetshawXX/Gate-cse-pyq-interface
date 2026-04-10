@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Straight Lines",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Straight Lines",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6676\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( (x_{1},4),(-2,y_{1}) \\) lies on the line joining the points \\( (2,-1),(5,-3) \\) then the point&nbsp;&nbsp;\\( P(x_{1},y_{1}) \\) lies on the line:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6(x+y)-25=0 \\)</p>",
+            "<p>\\( 2x+6y+1=0 \\)</p>",
+            "<p>\\( 2x+3y-6=0 \\)</p>",
+            "<p>\\( 6(x+y)+25=0 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6676/nielit-2019-feb-scientist-c-section-d-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6676/nielit-2019-feb-scientist-c-section-d-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6683\"></a><div itemprop=\"text\"><p>The line&nbsp;\\( x+y=4 \\) divides the line joining&nbsp;\\( \\text{(-1,1) &nbsp;&amp; (5,7)} \\) in the ratio&nbsp;\\( \\lambda : 1 \\) then the value of&nbsp;\\( \\lambda \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( \\dfrac{1}{2} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6683/nielit-2019-feb-scientist-c-section-d-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6683/nielit-2019-feb-scientist-c-section-d-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6824\"></a><div itemprop=\"text\"><p>The image of the point \\( \\left (3, 8 \\right) \\) in the line \\( x+3y=7 \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left (1, 4&nbsp;\\right) \\)</p>",
+            "<p>\\( \\left (4, 1&nbsp;\\right) \\)</p>",
+            "<p>\\( \\left (-1, -4&nbsp;\\right) \\)</p>",
+            "<p>\\( \\left (-4, -1&nbsp;\\right) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6824/nielit-2019-feb-scientist-d-section-d-29\" target=\"_blank\">https://aptitude.gateoverflow.in/6824/nielit-2019-feb-scientist-d-section-d-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

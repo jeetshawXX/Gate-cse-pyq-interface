@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Depth First Search",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Depth First Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336430\"></a><div itemprop=\"text\"><p>In a given following graph among the following sequences:</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" height=\"173\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=8486370802175947015\" width=\"208\"></p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>abeghf&nbsp;</li>\n\t<li>abfehg</li>\n\t<li>abfhge</li>\n\t<li>afghbe&nbsp;</li>\n</ol>\n\n<p>Which are depth first traversals of the above graph?</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I,II and IV only</p>",
+            "<p>I and IV only</p>",
+            "<p>II,III and IV only</p>",
+            "<p>I,III and IV only</p>"
+          ],
+          "correct_answer": "<p>I,III and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336430/nielit-2017-july-scientist-b-it-section-b-5\" target=\"_blank\">https://gateoverflow.in/336430/nielit-2017-july-scientist-b-it-section-b-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Function Point Metric",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Function Point Metric",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60788\"></a><div itemprop=\"text\"><p>To compute function points \\( (FP) \\), the following relationship is used \\( FP \\) = Count - total \\( \\times (0.65 + 0.01 \\times \\sum(F_{i})) \\) where \\( F_{i} (i = 1 \\) to \\( n \\)) are value adjustment factors \\( (VAF) \\) based on \\( n \\) questions. The value of \\( n \\) is&nbsp;</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2014 | Part 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 16 \\)&nbsp;</p>",
+            "<p>\\( 18 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60788/ugc-net-cse-december-2014-part-3-question-44\" target=\"_blank\">https://gateoverflow.in/60788/ugc-net-cse-december-2014-part-3-question-44</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"53484\"></a><div itemprop=\"text\"><p>In function point analysis, the number of complexity adjustment factors is&nbsp;</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 2 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)&nbsp;</p>",
+            "<p>\\( 12 \\)&nbsp;</p>",
+            "<p>\\( 14 \\)&nbsp;</p>",
+            "<p>\\( 20 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53484/ugc-net-cse-june-2014-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/53484/ugc-net-cse-june-2014-part-2-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A processor uses 36 bit physical addresses and 32 bit virtual addresses, with a\npage frame size of 4 Kbytes. Each page table entry is of size 4 bytes. A three\nlevel page table is used for virtual to physical address translation, where the\nvirtual address is used as follows <br><br>\nBits 30-31 are used to index into the first level page table <br>\nBits 21-29 are used to index into the second level page table <br>\nBits 12-20 are used to index into the third level page table, and <br>\nBits 0-11 are used as offset within the page <br><br>\nThe number of bits required for addressing the next level page table (or page\nframe) in the page table entry of the first, second and third level page tables are\nrespectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20, 20 and 20</p>",
+            "<b>B.</b> <p>24, 24 and 24</p>",
+            "<b>C.</b> <p>24, 24 and 20</p>",
+            "<b>D.</b> <p>25, 25 and 24</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>25, 25 and 24</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/490/gate2008-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A process executes the following code<pre><code>for (i = 0; i &lt; n; i + +) fork( );</code></pre>The total number of child processes created is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>\\(2^{n}-1\\)</p>",
+            "<b>C.</b> <p>\\(2^{n}\\)</p>",
+            "<b>D.</b> <p>\\(2^{n+1}-1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2^{n}-1\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/489/gate2008-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is NOT true of deadlock prevention and deadlock\navoidance schemes? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In deadlock prevention, the request for resources is always granted if the\nresulting state is safe</p>",
+            "<b>B.</b> <p>In deadlock avoidance, the request for resources is always granted if the\nresult state is safe</p>",
+            "<b>C.</b> <p>Deadlock avoidance is less restrictive than deadlock prevention</p>",
+            "<b>D.</b> <p>Deadlock avoidance requires knowledge of resource requirements a priori</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>In deadlock prevention, the request for resources is always granted if the\nresulting state is safe</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/488/gate2008-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The P and V operations on counting semaphores, where s is a counting\nsemaphore, are defined as follows:<pre><code>P(s) : s =  s - 1;\n     if (s  &lt; 0) then wait;\nV(s) : s = s + 1;\n     if (s &lt;= 0) then wakeup a process waiting on s; </code></pre>\nAssume that \\(P_{b}\\) and \\(V_{b}\\) the wait and signal operations on binary semaphores are\nprovided. Two binary semaphores \\(x_{b}\\) and \\(y_{b}\\) are used to implement the\nsemaphore operations P(s) and V(s) as follows:<pre><code>P(s) : Pb(xb);\n  s = s - 1;\n  if (s &lt; 0) {\n   Vb(xb) ;\n   Pb(Yb) ;\n  }\n  else Vb(xb); \n\nV(s) : Pb(xb) ;\n  s = s + 1;\n  if (s &lt;= 0) Vb(Yb) ;\n  Vb(xb) ;</code></pre>\nThe initial values of xb and yb are respectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 and 0</p>",
+            "<b>B.</b> <p>0 and 1</p>",
+            "<b>C.</b> <p>1 and 0</p>",
+            "<b>D.</b> <p>1 and 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 and 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/486/gate2008-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A client process P needs to make a TCP connection to a server process S. Consider the following situation: the server process S executes a socket(), a bind() and a listen() system call in that order, following which it is preempted. Subsequently, the client process P executes a socket() system call followed by connect() system call to connect to the server process S. The server process has not executed any accept() system call. Which one of the following events could take place? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>connect() system call returns successfully</p>",
+            "<b>B.</b> <p>connect() system call blocks</p>",
+            "<b>C.</b> <p>connect() system call returns an error</p>",
+            "<b>D.</b> <p>connect() system call results in a core dump</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>connect() system call returns an error</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/482/gate2008-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The data blocks of a very large file in the Unix file system are allocated using <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>contiguous allocation</p>",
+            "<b>B.</b> <p>linked allocation</p>",
+            "<b>C.</b> <p>indexed allocation</p>",
+            "<b>D.</b> <p>an extension of indexed allocation</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>an extension of indexed allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/418/gate2008-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following system calls results in the sending of SYN packets? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>socket</p>",
+            "<b>B.</b> <p>bind</p>",
+            "<b>C.</b> <p>listen</p>",
+            "<b>D.</b> <p>connect</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>connect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/415/gate2008-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The head of a hard disk serves requests following the shortest seek time first (SSTF) policy. <br>\nWhat is the maximum cardinality of the request set, so that the head changes its direction after servicing every request if the total number of tracks are 2048 and the head can start from any track? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3535/gate2007-it-83\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The head of a hard disk serves requests following the shortest seek time first (SSTF) policy. The head is initially positioned at track number 180.<br>Which of the request sets will cause the head to change its direction after servicing every request assuming that the head does not change direction if there is a tie in SSTF and all the requests arrive before the servicing starts? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11, 139, 170, 178, 181, 184, 201, 265</p>",
+            "<b>B.</b> <p>10, 138, 170, 178, 181, 185, 201, 265</p>",
+            "<b>C.</b> <p>10, 139, 169, 178, 181, 184, 201, 265</p>",
+            "<b>D.</b> <p>10, 138, 170, 178, 181, 185, 200, 265</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10, 138, 170, 178, 181, 185, 201, 265</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3534/gate2007-it-82\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The contents of the text file t1 txt containing four lines are as follows :<br>\na1        b1<br>\na2        b2<br>\na3        b2<br>\na4        b1<br>\nThe contents of the text file t2 txt containing five lines are as follows :<br>\na1        c1<br>\na2        c2<br>\na3        c3<br>\na4        c3<br>\na5        c4<br>\nConsider the following Bourne shell script :<br><pre><code>awk - F '  '  ' {Print $1, $2} ' t1.txt |\nwhile read a b ; do\n            awk -v aV = $ a - v by = $b  - F ' '\n            aV = = $1 (print aV, bV, $2 ) ' t2.txt\ndone </code></pre> <br>Which one of the following strings will NOT be present in the output generated when the above script in run? (Note that the given strings may be substrings of a printed line.) <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\"b1 c1\"</p>",
+            "<b>B.</b> <p>\"b2 c3\"</p>",
+            "<b>C.</b> <p>\"b1 c2\"</p>",
+            "<b>D.</b> <p>\"b1 c3\"</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\"b1 c2\"</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3501/gate2007-it-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A demand paging system takes 100 time units to service a page fault and 300 time units to replace a dirty page. Memory access time is 1 time unit. The probability of a page fault is p. In case of a page fault, the probability of page being dirty is also p. It is observed that the average access time is 3 time units. Then the value of p is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.194</p>",
+            "<b>B.</b> <p>0.233</p>",
+            "<b>C.</b> <p>0.514</p>",
+            "<b>D.</b> <p>0.981</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.194</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3500/gate2007-it-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Synchronization in the classical readers and writers problem can be achieved through use of semaphores. In the following incomplete code for readers-writers problem, two binary semaphores mutex and wrt are used to obtain synchronization <br><pre><code>wait (wrt)\nwriting is performed\nsignal (wrt)\nwait (mutex)  \nreadcount = readcount + 1\nif readcount = 1 then S1\nS2\nreading is performed\nS3\nreadcount = readcount - 1\nif readcount = 0 then S4 \nsignal (mutex) </code></pre> <br>The values of S1, S2, S3, S4, (in that order) are <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>signal (mutex), wait (wrt), signal (wrt), wait (mutex)</p>",
+            "<b>B.</b> <p>signal (wrt), signal (mutex), wait (mutex), wait (wrt)</p>",
+            "<b>C.</b> <p>wait (wrt), signal (mutex), wait (mutex), signal (wrt)</p>",
+            "<b>D.</b> <p>signal (mutex), wait (mutex), signal (mutex), wait (mutex)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>wait (wrt), signal (mutex), wait (mutex), signal (wrt)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3498/gate2007-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The address sequence generated by tracing a particular program executing in a pure demand paging system with 100 bytes per page is <br>\n\\(\\text{0100, 0200, 0430, 0499, 0510, 0530, 0560, 0120, 0220, 0240, 0260, 0320, 0410.}\\)<br>\nSuppose that the memory can store only one page and if x is the address which causes a page fault then the bytes from addresses x to x + 99 are loaded on to the memory.\nHow many page faults will occur? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3445/gate2007-it-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let a memory have four free blocks of sizes 4k, 8k, 20k, 2k. These blocks are allocated following the best-fit strategy. The allocation requests are stored in a queue as shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q11_cd424688.jpg\"><br>The time at which the request for J7 will be completed will be <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16</p>",
+            "<b>B.</b> <p>19</p>",
+            "<b>C.</b> <p>20</p>",
+            "<b>D.</b> <p>37</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>19</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3444/gate2007-it-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Processes P1 and P2 use critical_flag in the following routine to achieve mutual exclusion. Assume that critical_flag is initialized to FALSE in the main program.<br><pre><code> get_exclusive_access ( )\n{\n    if (critical _flag == FALSE) {\n        critical_flag = TRUE ;\n        critical_region () ;\n        critical_flag = FALSE;\n    }\n}</code></pre> <br>\nConsider the following statements.<br><br>\ni.It is possible for both P1 and P2 to access critical_region concurrently.<br>\nii.This may lead to a deadlock.<br><br>\nWhich of the following holds? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) is false (ii) is true</p>",
+            "<b>B.</b> <p>Both (i) and (ii) are false</p>",
+            "<b>C.</b> <p>(i) is true (ii) is false</p>",
+            "<b>D.</b> <p>Both (i) and (ii) are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(i) is true (ii) is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3443/gate2007-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

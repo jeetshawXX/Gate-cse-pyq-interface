@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Complex Number",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Complex Number",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275536\"></a><div itemprop=\"text\"><p>For the function \\( (z) = \\frac{1}{z^2(e^z-1)}, z=0 \\) is a pole of order:</p>\n\n</div><br><br><b>Others: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275536/nielit-2018-28\" target=\"_blank\">https://gateoverflow.in/275536/nielit-2018-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

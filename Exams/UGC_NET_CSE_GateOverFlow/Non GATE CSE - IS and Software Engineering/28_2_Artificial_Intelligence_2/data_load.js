@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Artificial Intelligence",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Artificial Intelligence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57838\"></a><div itemprop=\"text\"><p>A* algorithm is guaranteed to find an optimal solution if</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2012 | Part 3 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>h’ is always 0</p>",
+            "<p>g is always 1</p>",
+            "<p>h’ never overestimates h</p>",
+            "<p>h’ never underestimates h</p>"
+          ],
+          "correct_answer": "<p>h’ never overestimates h</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57838/ugc-net-cse-december-2012-part-3-question-74\" target=\"_blank\">https://gateoverflow.in/57838/ugc-net-cse-december-2012-part-3-question-74</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"56220\"></a><div itemprop=\"text\"><p>Which of the following prolog programs correctly implement “if G succeeds then execute goal P else execute goal \\( \\theta \\)”?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2012 | Part 3 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>if-else (G, P, \\( \\theta \\)):-!,call(G), call(P).&nbsp;if-else (G,P, \\( \\theta \\)) :- call(\\( \\theta \\)).</p>",
+            "<p>if-else (G, P, \\( \\theta \\)):-call(G), !, call(P).&nbsp;if-else (G,P, \\( \\theta \\)) :- call(\\( \\theta \\)).</p>",
+            "<p>if-else (G, P, \\( \\theta \\)):-call(G), call(P), !.&nbsp;if-else (G,P, \\( \\theta \\)) :- call(\\( \\theta \\)).</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>if-else (G, P, \\( \\theta \\)):-call(G), !, call(P).&nbsp;if-else (G,P, \\( \\theta \\)) :- call(\\( \\theta \\)).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56220/ugc-net-cse-june-2012-part-3-question-23\" target=\"_blank\">https://gateoverflow.in/56220/ugc-net-cse-june-2012-part-3-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+});

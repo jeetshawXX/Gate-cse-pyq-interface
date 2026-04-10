@@ -1,0 +1,56 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - General",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "General",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"412024\"></a><div itemprop=\"text\"><p>Which is \\( \\text{NOT} \\) true of charismatic leaders?</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 131</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Charismatic leaders have a vision.</p>",
+            "<p>Charismatic leaders are focused on their personal needs.</p>",
+            "<p>Charismatic leaders are willing to take high personal risk.</p>",
+            "<p>Charismatic leaders have behavior that is unconventional.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Charismatic leaders are focused on their personal needs.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412024/nielit-2023-feb-scientist-c-section-e-question-131\" target=\"_blank\">https://gateoverflow.in/412024/nielit-2023-feb-scientist-c-section-e-question-131</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"412016\"></a><div itemprop=\"text\"><p>Leadership is often associated more with</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 139</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Consistency</p>",
+            "<p>Planning</p>",
+            "<p>Paperwork</p>",
+            "<p>Change\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Change\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412016/nielit-2023-feb-scientist-c-section-e-question-139\" target=\"_blank\">https://gateoverflow.in/412016/nielit-2023-feb-scientist-c-section-e-question-139</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"412012\"></a><div itemprop=\"text\"><p>Person perception is :</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 143</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The process of how we manage, experience, and adjust our emotions</p>",
+            "<p>The process by which we form impressions and process information about people</p>",
+            "<p>The process by which we adjust to different cultural situations</p>",
+            "<p>The process by which we learn cultural norms and standards of behaviour\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>The process by which we form impressions and process information about people</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412012/nielit-2023-feb-scientist-c-section-e-question-143\" target=\"_blank\">https://gateoverflow.in/412012/nielit-2023-feb-scientist-c-section-e-question-143</a></p>"
+        }
+      ]
+    }
+  ]
+}

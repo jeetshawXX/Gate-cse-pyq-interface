@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 14",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In a TDM medium access control bus LAN, each station is assigned one time slot per cycle for transmission. Assume that the length of each time slot is the time to transmit \\(100 \\text{bits}\\) plus the end-to-end propagation delay. Assume a propagation speed of  \\(2 \\times 10^8 m/sec\\). The length of the LAN is 1 km with a bandwidth of \\(10 \\text{Mbps}\\). The maximum number of stations that can be allowed in the LAN so that the throughput of each station can be \\(2/3 \\text{Mbps}\\)is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3838/gate2005-it-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>On a TCP connection, current congestion window size is Congestion Window = 4 KB. The window size advertised by the receiver is Advertise Window = 6 KB. The last byte sent by the sender is LastByteSent = 10240 and the last byte acknowledged by the receiver is LastByteAcked = 8192. The current window size at the sender is: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2048 bytes</p>",
+            "<b>B.</b> <p>4096 bytes</p>",
+            "<b>C.</b> <p>6144 bytes</p>",
+            "<b>D.</b> <p>8192 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4096 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3836/gate2005-it-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A channel has a bit rate of 4 kbps and one-way propagation delay of 20 ms. The channel uses stop and wait protocol. The transmission time of the acknowledgment frame is negligible. To get a channel efficiency of at least 50%, the minimum frame size should be <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>80 bytes</p>",
+            "<b>B.</b> <p>80 bits</p>",
+            "<b>C.</b> <p>160 bytes</p>",
+            "<b>D.</b> <p>160 bits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>160 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3835/gate2005-it-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A network with CSMA/CD protocol in the MAC layer is running at 1Gbps over a 1km cable with no repeaters. The signal speed in the cable is \\(2 \\times 10^{8}\\text{m/sec}\\). The minimum frame size for this network should be: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10000bits</p>",
+            "<b>B.</b> <p>10000bytes</p>",
+            "<b>C.</b> <p>5000 bits</p>",
+            "<b>D.</b> <p>5000bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10000bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3834/gate2005-it-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Count to infinity is a problem associated with: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>link state routing protocol.</p>",
+            "<b>B.</b> <p>distance vector routing protocol</p>",
+            "<b>C.</b> <p>DNS while resolving host name</p>",
+            "<b>D.</b> <p>TCP for congestion control</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>distance vector routing protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3775/gate2005-it-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following statements is FALSE regarding a bridge? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bridge is a layer 2 device</p>",
+            "<b>B.</b> <p>Bridge reduces collision domain</p>",
+            "<b>C.</b> <p>Bridge is used to connect two or more LAN segments</p>",
+            "<b>D.</b> <p>Bridge reduces broadcast domain</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Bridge reduces broadcast domain</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3774/gate2005-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following statements is TRUE about CSMA/CD: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IEEE 802.11 wireless LAN runs CSMA/CD protocol</p>",
+            "<b>B.</b> <p>Ethernet is not based on CSMA/CD protocol</p>",
+            "<b>C.</b> <p>CSMA/CD is not suitable for a high propagation delay network like satellite network</p>",
+            "<b>D.</b> <p>There is no contention in a CSMA/CD network</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>CSMA/CD is not suitable for a high propagation delay network like satellite network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3773/gate2005-it-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Traceroute reports a possible route that is taken by packets moving from some host A to some other host B. Which of the following options represents the technique used by traceroute to identify these hosts: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router</p>",
+            "<b>B.</b> <p>By requiring each router to append the address to the ICMP packet as it is forwarded to B. The list of all routers en-route to B is returned by B in an ICMP reply packet</p>",
+            "<b>C.</b> <p>By ensuring that an ICMP reply packet is returned to A by each router en-route to B, in the ascending order of their hop distance from A</p>",
+            "<b>D.</b> <p>By locally computing the shortest path from A to B</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3772/gate2005-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the three commands : PROMPT, HEAD and RCPT.\nWhich of the following options indicate a correct association of these commands with protocols where these are used? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP, SMTP, FTP</p>",
+            "<b>B.</b> <p>FTP, HTTP, SMTP</p>",
+            "<b>C.</b> <p>HTTP, FTP, SMTP</p>",
+            "<b>D.</b> <p>SMTP, HTTP, FTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>FTP, HTTP, SMTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3770/gate2005-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is 46.4 \\(\\mu s\\). The minimum frame size is <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>94</p>",
+            "<b>B.</b> <p>416</p>",
+            "<b>C.</b> <p>464</p>",
+            "<b>D.</b> <p>512</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>512</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1397/gate2005-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a packet switching network, packets are routed from source to destination along a single path having two intermediate nodes. If the message size is 24 bytes and each packet contains a header of 3 bytes, then the optimum packet size is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1396/gate2005-73#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>An organization has a class B network and wishes to form subnets for 64 departments. The subnet\nmask would be: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.0.0</p>",
+            "<b>B.</b> <p>255.255.64.0</p>",
+            "<b>C.</b> <p>255.255.128.0</p>",
+            "<b>D.</b> <p>255.255.252.0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.252.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1363/gate2005-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In a network of LANs connected by bridges, packets are sent from one LAN to another through\nintermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For shortest path routing between LANs</p>",
+            "<b>B.</b> <p>For avoiding loops in the routing paths</p>",
+            "<b>C.</b> <p>For fault tolerance</p>",
+            "<b>D.</b> <p>For minimizing collisions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>For avoiding loops in the routing paths</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1362/gate2005-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The maximum window size for data transmission using the selective reject protocol with n-bit frame sequence numbers is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n-1}\\)</p>",
+            "<b>C.</b> <p>\\(2^{n}-1\\)</p>",
+            "<b>D.</b> <p>\\(2^{n-2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2^{n-1}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1361/gate2005-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The address resolution protocol (ARP) is used for: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding the IP address from the DNS</p>",
+            "<b>B.</b> <p>Finding the IP address of the default gateway</p>",
+            "<b>C.</b> <p>Finding the IP address that corresponds to a MAC address</p>",
+            "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1360/gate2005-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

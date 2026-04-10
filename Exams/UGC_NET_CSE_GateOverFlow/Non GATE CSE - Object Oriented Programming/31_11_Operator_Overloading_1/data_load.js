@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Operator Overloading",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operator Overloading",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60072\"></a><div itemprop=\"text\"><p>Which of the following operators cannot be overloaded in C++?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2013 | Part 2 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>*</p>",
+            "<p>+=</p>",
+            "<p>==</p>",
+            "<p>: :</p>"
+          ],
+          "correct_answer": "<p>: :</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60072/ugc-net-cse-december-2013-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/60072/ugc-net-cse-december-2013-part-2-question-18</a></p>"
+        }
+      ]
+    }
+  ]
+});

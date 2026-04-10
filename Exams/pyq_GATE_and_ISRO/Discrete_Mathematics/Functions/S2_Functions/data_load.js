@@ -1,0 +1,102 @@
+window.__examLoadCallback({
+  "title": "Functions - Functions - Slot 2",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of functions from an m element set to an n element set is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m + n</p>",
+            "<b>B.</b> <p>\\(m^n\\)</p>",
+            "<b>C.</b> <p>\\(n^m\\)</p>",
+            "<b>D.</b> <p>m*n</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(n^m\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1645/gate1998-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the function y=|x| in the interval [-1, 1]. In this interval, the function is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>continuous and differentiable</p>",
+            "<b>B.</b> <p>continuous but not differentiable</p>",
+            "<b>C.</b> <p>differentiable but not continuous</p>",
+            "<b>D.</b> <p>neither continuous nor differentiable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>continuous but not differentiable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1641/gate1998-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let R denote the set of real numbers. Let \\(f:R\\times R \\rightarrow R \\times R\\) be a bijective function defined by \\(f(x,y) = (x+y, x-y)\\). The inverse function of \\(f\\) is given by <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f^{-1} (x,y) = \\left( \\frac {1}{x+y}, \\frac{1}{x-y}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(f^{ -1} (x,y) = (x-y , x+y)\\)</p>",
+            "<b>C.</b> <p>\\(f^{-1} (x,y) = \\left( \\frac {x+y}{2}, \\frac{x-y}{2}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(f^{-1}(x,y)=\\left [ 2\\left(x-y\\right),2\\left(x+y\\right) \\right ]\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(f^{-1} (x,y) = \\left( \\frac {x+y}{2}, \\frac{x-y}{2}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2730/gate1996-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose X and Y are sets and |X| and |Y| are their respective cardinality. It is given that there are exactly 97 functions from X to Y. From this one can conclude that <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>|X| =1, |Y| =97</p>",
+            "<b>B.</b> <p>|X| =97, |Y| =1</p>",
+            "<b>C.</b> <p>|X| =97, |Y| =97</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>|X| =1, |Y| =97</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2707/gate1996-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let A and B be sets with cardinalities m and n respectively. The number of one-one mappings from A to B, when \\(m \\lt n\\), is <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m^n\\)</p>",
+            "<b>B.</b> <p>\\(^nP_m\\)</p>",
+            "<b>C.</b> <p>\\(^mC_n\\)</p>",
+            "<b>D.</b> <p>\\(^nC_m\\)</p>",
+            "<b>E.</b> <p>\\(^mP_n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(^nP_m\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2304/gate1993-8-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>If \\(f(x_{i}).f(x_{i+1}) \\lt 0\\) then <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There must be a root of f(x) between \\(x_i\\) and \\(x_{i+1}\\)</p>",
+            "<b>B.</b> <p>There need not be a root of f(x) between \\(x_{i}\\) and \\(x_{i+1}\\).</p>",
+            "<b>C.</b> <p>There fourth derivative of f(x) with respect to x vanishes at \\(x_{i}\\).</p>",
+            "<b>D.</b> <p>The fourth derivative of f(x) with respect to x vanishes at \\(x_{i+1}\\).</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There must be a root of f(x) between \\(x_i\\) and \\(x_{i+1}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80571/gate1987-1-xxvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

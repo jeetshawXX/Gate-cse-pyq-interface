@@ -1,0 +1,77 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Maxima Minima",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Maxima Minima",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1012\"></a><div itemprop=\"text\"><p>Let \\( g(x) = \\max(5-x, \\: x+2) \\). The smallest possible value of \\( g(x) \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4.0 \\)</p>",
+            "<p>\\( 4.5 \\)</p>",
+            "<p>\\( 1.5 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1012/cat-2003-question-1-116\" target=\"_blank\">https://aptitude.gateoverflow.in/1012/cat-2003-question-1-116</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"737\"></a><div itemprop=\"text\"><p>Let \\( f(x) = \\max (2x +1, 3 – 4x) \\) where \\( x \\) is any real number. Then the minimum possible value of \\( f(x) \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1/3 \\)</p>",
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 2/3 \\)</p>",
+            "<p>\\( 4/3 \\)</p>",
+            "<p>\\( 5/3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/737/cat-2006-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/737/cat-2006-question-66</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5561\"></a><div itemprop=\"text\"><p>The maximum possible value of&nbsp;\\( y = \\min\\left ( 1/2-3x^{2}/4,5x^{2}/4 \\right ) \\) for the range&nbsp;\\( 0&lt;x&lt;1 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 91</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1/3 \\)</p>",
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 5/27 \\)</p>",
+            "<p>\\( 5/16 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5561/cat-2015-question-91\" target=\"_blank\">https://aptitude.gateoverflow.in/5561/cat-2015-question-91</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6014\"></a><div itemprop=\"text\">Let \\( f(x) = \\text{min }\\{2x^2, 52−5x\\} \\), where \\( x \\) is any positive real number. Then the maximum possible value of \\( f(x) \\) is ________</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6014/cat-2018-set-1-question-97\" target=\"_blank\">https://aptitude.gateoverflow.in/6014/cat-2018-set-1-question-97</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6143\"></a><div itemprop=\"text\">Let \\( f\\left (x &nbsp;\\right ) = \\max\\left \\{5x, 52 – 2x^{2}\\right \\} \\) , where \\( x \\) is any positive real numbers. Then the minimum possible value of \\( f(x) \\) is ________</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "20",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6143/cat-2018-set-2-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/6143/cat-2018-set-2-question-74</a></p>"
+        }
+      ]
+    }
+  ]
+});

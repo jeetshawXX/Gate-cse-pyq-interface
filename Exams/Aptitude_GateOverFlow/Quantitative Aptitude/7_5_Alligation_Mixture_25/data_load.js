@@ -1,0 +1,371 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Alligation Mixture",
+  "duration": 69,
+  "sections": [
+    {
+      "name": "Alligation Mixture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1299\"></a><div itemprop=\"text\"><p>Fresh grapes contain \\( 90\\% \\) water by weight while dry grapes contain \\( 20\\% \\) water by weight. What is the weight of dry grapes available from \\( 20 \\) kg of fresh grapes?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) kg</p>",
+            "<p>\\( 2.4 \\) kg</p>",
+            "<p>\\( 2.5 \\) kg</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1299/cat-2001-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/1299/cat-2001-question-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"849\"></a><div itemprop=\"text\"><p>A milkman mixes \\( 20 \\)&nbsp;litres of water with \\( 80 \\)&nbsp;litres of milk. After selling one-fourth of his mixture, he adds water to replenish the quantity that he has sold. What is the current proportion of water to milk?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2:3 \\)</p>",
+            "<p>\\( 1:2 \\)</p>",
+            "<p>\\( 1:3 \\)</p>",
+            "<p>\\( 3:4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/849/cat-2004-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/849/cat-2004-question-40</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5540\"></a><div itemprop=\"text\"><p>One morning, Govind Lal&nbsp;the owner of the local petrol bunk, was adulterating the petrol with kerosene. He had two identical tanks- the first was full of pure petrol while the second was empty. First he transferred an arbitrary amount of petrol from the first tank into the second and then replaced the petrol removed from the first tank with kerosene. He then repeated this process one more time but this time he ensured that by the end of the process the second tank was exactly full.</p>\n\n<p>Which of the following can be the concentration of petrol in the second tank?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 50\\% \\)</p>",
+            "<p>\\( 60\\% \\)</p>",
+            "<p>\\( 66\\frac{2}{3}\\% \\)</p>",
+            "<p>\\( 80\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5540/cat-2011-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/5540/cat-2011-question-11</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"5539\"></a><div itemprop=\"text\"><p>One morning, Govind Lal&nbsp;the owner of the local petrol bunk, was adulterating the petrol with kerosene. He had two identical tanks- the first was full of pure petrol while the second was empty. First he transferred an arbitrary amount of petrol from the first tank into the second and then replaced the petrol removed from the first tank with kerosene. He then repeated this process one more time but this time he ensured that by the end of the process the second tank was exactly full.</p>\n\n<p>If the concentration of petrol in the second tank is \\( 75 \\)% and the cost price of kerosene is half that of petrol, then what is Govind Lal’s net profit percentage on selling the contents of the second tank given that he claims to sell the petrol at a profit of \\( 25 \\)% ?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 42\\frac{6}{7}\\% \\)</p>",
+            "<p>\\( 66\\frac{2}{3}\\% \\)</p>",
+            "<p>\\( 83\\frac{1}{3}\\% \\)</p>",
+            "<p>\\( 100\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5539/cat-2011-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/5539/cat-2011-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"5073\"></a><div itemprop=\"text\"><p>A vessel has a milk solution in which milk and water are in the ratio&nbsp;\\( 4:1 \\). By addition of water to it, milk solution with milk and water in the ratio&nbsp;\\( 4:3 \\) was formed. On replacing \\( 14\\;\\text{L} \\) of this solution with pure milk the ratio of milk and water changed to \\( 5:3 \\). What is the volume of the water added?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2012 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12\\;\\text{L} \\)</p>",
+            "<p>\\( 60\\;\\text{L} \\)</p>",
+            "<p>\\( 32\\;\\text{L} \\)</p>",
+            "<p>\\( 24\\;\\text{L} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5073/cat-2012-question-18\" target=\"_blank\">https://aptitude.gateoverflow.in/5073/cat-2012-question-18</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"5314\"></a><div itemprop=\"text\"><p>The density of a liquid is defined as the weight per unit volume of the liquid. The densities of two liquids A and B are in the ratio \\( 2:1 \\). The liquid B evaporates at a rate (in kg/hr) which is twice as fast compared to that of liquid A, which evaporates at a rate of \\( 1 \\) kg/hour. If \\( 70 \\) kg of liquid A is mixed with \\( 30 \\) kg of liquid of B to form a mixture, find the number of hours the mixture needs to be evaporated so that the density of the resultant mixture is \\( 1.04 \\) times that of the original mixture. Assume that there is no chemical reaction between the liquids</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2.5 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 3.5 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5314/cat-2013-question-28\" target=\"_blank\">https://aptitude.gateoverflow.in/5314/cat-2013-question-28</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"5574\"></a><div itemprop=\"text\"><p>Two liquids \\( \\text{A} \\) and \\( \\text{B} \\) are in the ratio \\( 5 : 1 \\) in container \\( 1 \\) and \\( 1 : 3 \\) in container \\( 2 \\). In what ratio should the contents of the two containers be mixed so as to obtain a mixture of \\( \\text{A} \\) and \\( \\text{B} \\) in the ratio \\( 1 : 1 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 78</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 : 3 \\)</p>",
+            "<p>\\( 4 : 3 \\)</p>",
+            "<p>\\( 3 : 2 \\)</p>",
+            "<p>\\( 3 : 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5574/cat-2015-question-78\" target=\"_blank\">https://aptitude.gateoverflow.in/5574/cat-2015-question-78</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"5683\"></a><div itemprop=\"text\"><p>Two liquids \\( A \\) and \\( B \\) are in the ratio \\( 5 : 1 \\) in container \\( 1 \\) and \\( 1 : 3 \\) in container \\( 2 \\). In what ratio should the contents of the two containers be mixed so as to obtain a mixture of A and B in the ratio \\( 1 : 1 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 85</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2:3 \\)</p>",
+            "<p>\\( 4:3 \\)</p>",
+            "<p>\\( 3:2 \\)</p>",
+            "<p>\\( 3:4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5683/cat-2016-question-85\" target=\"_blank\">https://aptitude.gateoverflow.in/5683/cat-2016-question-85</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"5872\"></a><div itemprop=\"text\"><p>Bottle \\( 1 \\) contains a mixture of milk and water in \\( 7: 2 \\) ratio and Bottle \\( 2 \\) contains a mixture of milk and water in \\( 9:4 \\) ratio. In what ratio of volumes should the liquids in Bottle \\( 1 \\) and Bottle \\( 2 \\) be combined to obtain a mixture of milk and water in \\( 3:1 \\) ratio?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 27:14 \\)</p>",
+            "<p>\\( 27:13 \\)</p>",
+            "<p>\\( 27:16 \\)</p>",
+            "<p>\\( 27:18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 27:13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5872/cat-2017-set-2-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/5872/cat-2017-set-2-question-69</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"5861\"></a><div itemprop=\"text\"><p>Consider three mixtures - the first having water and liquid \\( \\text{A} \\) in the ratio \\( 1:2 \\), the second having water and liquid \\( \\text{B} \\) in the ratio \\( 1:3 \\), and the third having water and liquid \\( \\text{C} \\) in the ratio \\( 1:4 \\). These three mixtures of \\( \\text{A, B}, \\)&nbsp;and \\( \\text{C} \\) respectively,&nbsp;are further mixed in the proportion \\( 4:3:2 \\). Then the resulting mixture has</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The same amount of water and liquid \\( \\text{B} \\)</p>",
+            "<p>The same amount of liquids \\( \\text{B} \\) and \\( \\text{C} \\)</p>",
+            "<p>More water than liquid \\( \\text{B} \\)</p>",
+            "<p>More water than liquid \\( \\text{A} \\)</p>"
+          ],
+          "correct_answer": "<p>More water than liquid \\( \\text{B} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5861/cat-2017-set-2-question-80\" target=\"_blank\">https://aptitude.gateoverflow.in/5861/cat-2017-set-2-question-80</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"6016\"></a><div itemprop=\"text\"><p>Two types of tea, \\( \\text{A} \\) and \\( \\text{B} \\), are mixed and then sold at Rs. \\( 40 \\) per kg. The profit is \\( 10\\% \\) if \\( \\text{A} \\) and \\( \\text{B} \\)&nbsp;are mixed in the ratio \\( 3 : 2 \\), and \\( 5\\% \\) if this ratio is \\( 2 : 3 \\). The cost prices, per kg, of \\( \\text{A} \\) and \\( \\text{B} \\) are in the ratio</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18:25 \\)</p>",
+            "<p>\\( 19:24 \\)</p>",
+            "<p>\\( 21:25 \\)</p>",
+            "<p>\\( 17:25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19:24 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6016/cat-2018-set-1-question-95\" target=\"_blank\">https://aptitude.gateoverflow.in/6016/cat-2018-set-1-question-95</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"6142\"></a><div itemprop=\"text\"><p>A \\( 20\\% \\) ethanol solution is mixed with another ethanol solution, say, \\( \\text{S} \\) of unknown concentration in the proportion \\( 1:3 \\) by volume. This mixture is then mixed with an equal volume of \\( 20\\% \\) ethanol solution. If the resultant mixture is a \\( 31.25\\% \\) ethanol solution, then the unknown concentration of \\( \\text{S} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 52\\% \\)</p>",
+            "<p>\\( 50\\% \\)</p>",
+            "<p>\\( 55\\% \\)</p>",
+            "<p>\\( 48\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6142/cat-2018-set-2-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/6142/cat-2018-set-2-question-75</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"6134\"></a><div itemprop=\"text\"><p>A jar contains a mixture of \\( 175 \\) ml water and \\( 700 \\) ml alcohol. Gopal takes out \\( 10\\% \\) of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 35.2 \\)</p>",
+            "<p>\\( 30.3 \\)</p>",
+            "<p>\\( 20.5 \\)</p>",
+            "<p>\\( 25.4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6134/cat-2018-set-2-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/6134/cat-2018-set-2-question-83</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"6124\"></a><div itemprop=\"text\"><p>The strength of a salt solution is \\( p\\% \\) if \\( 100 \\) ml of the solution contains \\( p \\) grams of salt. If three salt solutions \\( \\text{A, B, C} \\) are mixed in the proportion \\( 1:2:3 \\), then the resulting solution has strength \\( 20\\% \\). If instead the proportion is \\( 3:2:1 \\), then the resulting solution has strength \\( 30\\% \\). A fourth solution, \\( \\text{D} \\), is produced by mixing \\( \\text{B} \\) and \\( \\text{C} \\) in the ratio \\( 2:7 \\). The ratio of the strength of \\( \\text{D} \\) to that of \\( \\text{A} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2:5 \\)</p>",
+            "<p>\\( 1:3 \\)</p>",
+            "<p>\\( 1:4 \\)</p>",
+            "<p>\\( 3:10 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6124/cat-2018-set-2-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/6124/cat-2018-set-2-question-93</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"6119\"></a><div itemprop=\"text\"><p>There are two drums, each containing a mixture of paints \\( \\text{A} \\) and \\( \\text{B} \\). In drum \\( 1, \\text{A} \\) and \\( \\text{B} \\) are in the ratio \\( 18: 7 \\). The mixtures from drums \\( 1 \\) and \\( 2 \\) are mixed in the ratio \\( 3: 4 \\) and in this final mixture, \\( \\text{A} \\) and \\( \\text{B} \\) are in the ratio \\( 13 :7 \\). In drum \\( 2 \\), then \\( \\text{A} \\) and \\( \\text{B} \\) were in the ratio</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 229:141 \\)</p>",
+            "<p>\\( 220:149 \\)</p>",
+            "<p>\\( 239: 161 \\)</p>",
+            "<p>\\( 251: 163 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 239: 161 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6119/cat-2018-set-2-question-98\" target=\"_blank\">https://aptitude.gateoverflow.in/6119/cat-2018-set-2-question-98</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"5423\"></a><div itemprop=\"text\"><p>A chemist mixes two liquids \\( 1 \\) and \\( 2 \\). One litre&nbsp;of liquid&nbsp;\\( 1 \\) weighs \\( 1 \\) kg and one litre of liquid \\( 2 \\) weighs \\( 800 \\) gm. If half litre of the mixture weighs \\( 480 \\) gm, then the percentage of liquid \\( 1 \\) in the mixture, in terms of volume, is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 85 \\)</p>",
+            "<p>\\( 70 \\)</p>",
+            "<p>\\( 75 \\)</p>",
+            "<p>\\( 80 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 80 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5423/cat-2019-set-1-question-88\" target=\"_blank\">https://aptitude.gateoverflow.in/5423/cat-2019-set-1-question-88</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"6168\"></a><div itemprop=\"text\"><p>The strength of a salt solution is \\( p\\% \\) if \\( 100 \\) ml of the solution contains \\( p \\) grams of salt. Each of three vessels \\( \\text{A, B, C} \\) contains&nbsp; \\( 500 \\) ml of salt solution of strengths \\( 10\\% \\), \\( 22\\% \\), and \\( 32\\% \\), respectively. Now, \\( 100 \\) ml of the solution in vessel \\( \\text{A} \\) is transferred to vessel \\( \\text{B} \\). Then, \\( 100 \\) ml of the solution in vessel \\( \\text{B} \\) is transferred to vessel \\( \\text{C} \\). Finally, \\( 100 \\) ml of the solution in vessel \\( \\text{C} \\) is transferred to vessel \\( \\text{A} \\). The strength, in percentage, of the resulting solution in vessel \\( \\text{A} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 15 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6168/cat-2019-set-2-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/6168/cat-2019-set-2-question-84</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"7968\"></a><div itemprop=\"text\"><p>An alloy is prepared by mixing three metals \\( \\text{A, B} \\) and \\( \\text{C} \\)&nbsp; in the proportion \\( 3:4:7 \\) by volume. Weights of the same volume&nbsp;of the metals \\( \\text{A, B} \\) and \\( \\text{C} \\) are in the ratio \\( 5:2:6 \\). In \\( 130 \\) kg of the alloy, the weight, in kg, of the metal \\( \\text{C} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 70 \\)</p>",
+            "<p>\\( 96 \\)</p>",
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 84 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 84 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7968/cat-2020-set-1-question-53\" target=\"_blank\">https://aptitude.gateoverflow.in/7968/cat-2020-set-1-question-53</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"7947\"></a><div itemprop=\"text\">A solution, of volume \\( 40 \\) litres, has dye and water in the proportion \\( 2:3. \\) Water is added to the solution to change this proportion to \\( 2:5. \\) If one\\( - \\) fourths of this diluted solution is taken out, how many litres of dye must be added to the remaining solution to bring the proportion back to \\( 2:3 \\)?</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7947/cat-2020-set-1-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/7947/cat-2020-set-1-question-74</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"8106\"></a><div itemprop=\"text\"><p>Two alcohol solutions, \\( \\text{A} \\) and \\( \\text{B}, \\) are mixed in the proportion \\( 1:3 \\) by volume. The volume of the mixture is then doubled by adding solution \\( \\text{A} \\) such that the resulting mixture has \\( 72\\% \\) alcohol. If solution \\( \\text{A} \\) has \\( 60\\% \\) alcohol, then the percentage of alcohol in solution \\( \\text{B} \\) is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 94\\% \\)</p>",
+            "<p>\\( 92\\% \\)</p>",
+            "<p>\\( 90\\% \\)</p>",
+            "<p>\\( 89\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8106/cat-2020-set-3-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/8106/cat-2020-set-3-question-72</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"8370\"></a><div itemprop=\"text\">The strength of an indigo solution in percentage is equal to the amount of indigo in grams per \\( 100 \\; \\text{cc} \\) of water. Two \\( 800 \\; \\text{cc} \\) bottles are filled with indigo solutions of strengths \\( 33 \\% \\) and \\( 17 \\%, \\) respectively. A part of the solution from the first bottle is thrown away and replaced by an equal volume of the solution from the second bottle. If the strength of the indigo solution in the first bottle has now changed to \\( 21 \\% \\) then the volume, in cc, of the solution left in the second bottle is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "200",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8370/cat-2021-set-1-quantitative-aptitude-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/8370/cat-2021-set-1-quantitative-aptitude-question-11</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"8432\"></a><div itemprop=\"text\">From a container filled with milk, \\( 9 \\; \\text{litres} \\) of milk are drawn and replaced with water. Next, from the same container, \\( 9 \\; \\text{litres} \\) are drawn and again replaced with water. If the volumes of milk and water in the container are now in the ratio of \\( 16:9, \\) then the capacity of the container, in \\( \\text{litres}, \\) is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "45",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8432/cat-2021-set-2-quantitative-aptitude-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/8432/cat-2021-set-2-quantitative-aptitude-question-21</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"8505\"></a><div itemprop=\"text\"><p>If a certain weight of an alloy of silver and copper is mixed with \\( 3 \\; \\text{kg} \\) of pure silver, the resulting alloy will have \\( 90 \\% \\) silver by weight. If the same weight of the initial alloy is mixed with&nbsp;\\( 2&nbsp;\\; \\text{kg} \\) of another alloy which has \\( 90 \\% \\) silver by weight, the resulting alloy will have \\( 84 \\% \\) silver by weight. Then, the weight of the initial alloy,&nbsp;in kg, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 2.5 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 3.5 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8505/cat-2021-set-3-quantitative-aptitude-question-14\" target=\"_blank\">https://aptitude.gateoverflow.in/8505/cat-2021-set-3-quantitative-aptitude-question-14</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"6801\"></a><div itemprop=\"text\"><p>Three different containers contain different qualities of mixtures of milk and water whose measurements are \\( 403 \\) \\( kg \\), \\( 434 \\) \\( kg \\) and \\( 465 \\) \\( kg \\). What biggest measure must be there to measure all different qualities an exact number of times ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\) \\( kg \\)</p>",
+            "<p>\\( 7 \\) \\( kg \\)</p>",
+            "<p>\\( 41 \\) \\( kg \\)</p>",
+            "<p>\\( 31 \\)&nbsp;\\( kg \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6801/nielit-2019-feb-scientist-d-section-c-22\" target=\"_blank\">https://aptitude.gateoverflow.in/6801/nielit-2019-feb-scientist-d-section-c-22</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"6832\"></a><div itemprop=\"text\"><p>How many litres of a \\( 3\\% \\) hydrogen peroxide solution should be mixed with \\( 6 \\) liters of a \\( 30\\% \\) hydrogen peroxide solution so as to get a mixture of \\( 12\\% \\) solution ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\) litres</p>",
+            "<p>\\( 6 \\) liters</p>",
+            "<p>\\( 9 \\) litres</p>",
+            "<p>\\( 12 \\) litres</p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\) litres</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6832/nielit-2019-feb-scientist-d-section-d-21\" target=\"_blank\">https://aptitude.gateoverflow.in/6832/nielit-2019-feb-scientist-d-section-d-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

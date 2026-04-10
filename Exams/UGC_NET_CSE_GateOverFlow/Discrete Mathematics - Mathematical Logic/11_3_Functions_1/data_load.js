@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Mathematical Logic - Functions",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225799\"></a><div itemprop=\"text\"><p>Match the following in \\( \\textbf{List-I} \\) and \\( \\textbf{List-II} \\), for a function \\( f \\) :</p>\n\n<p>\\( \\begin{array}{clcl}&nbsp; \\text{} &amp; \\textbf{List-I} &amp; &amp; \\textbf{List-II} \\\\&nbsp;\\text{(a)} &amp; \\text{ \\)\\forall \\: x \\: \\forall \\: y \\: (f(x)=f(y) \\rightarrow x=y)\\( } &amp; \\text{(i)} &amp; \\text{Constant} \\\\&nbsp;\\text{(b)} &amp; \\text{ \\)\\forall \\: y \\: \\exists \\: x \\: (f(x) =y)\\( } &amp; \\text{(ii)} &amp; \\text{Injective} \\\\&nbsp;\\text{(c)} &amp; \\text{ \\)\\forall \\: x \\: f(x)=k\\( } &amp; \\text{(iii)} &amp;\\text{Surjective} \\\\&nbsp; \\end{array} \\)</p>\n\n<p>\\( \\textbf{Code :} \\)</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | July 2018 | Part 2 | Question: 87</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(ii), (c)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(i), (c)-(iii)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(i)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225799/ugc-net-cse-july-2018-part-2-question-87\" target=\"_blank\">https://gateoverflow.in/225799/ugc-net-cse-july-2018-part-2-question-87</a></p>"
+        }
+      ]
+    }
+  ]
+});

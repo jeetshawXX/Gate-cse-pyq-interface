@@ -1,0 +1,181 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Spatial Aptitude - Paper Folding",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Paper Folding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"357473\"></a><div itemprop=\"text\"><p>&nbsp;</p><p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/4038773ca95be2f9948e2cf1f6f759af.png\"></p><p>&nbsp;</p><p>A circular sheet of paper is folded along the lines in the directions shown. The paper, after being punched in the final folded state as shown and unfolded in the reverse order of folding, will look like _______.</p><p>&nbsp;</p><p>&nbsp;</p></div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"149\" width=\"149\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/96e61ef3921e6ac8abe51641d9b76929.png\"></p>",
+            "<p><img alt=\"\" height=\"147\" width=\"147\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/45b733f2bfd7d0949847ef835fc79111.png\"></p>",
+            "<p><img alt=\"\" height=\"149\" width=\"149\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/1e36f96f06b14e65541bff0aa717f838.png\"></p>",
+            "<p><img alt=\"\" height=\"155\" width=\"155\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/65e665d8df9649eaafecacfe1c5742bb.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"149\" width=\"149\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/96e61ef3921e6ac8abe51641d9b76929.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357473/gate-cse-2021-set-1-ga-question-4\" target=\"_blank\">https://gateoverflow.in/357473/gate-cse-2021-set-1-ga-question-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"357548\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"198\" width=\"202\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/6266c3c7b2204d102f0dc9aae91a1e66.png\"></p><p>A transparent square sheet shown above is folded along the dotted line. The folded sheet will look like ___________.</p></div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"181\" width=\"185\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/bf80e829b9562ae3c83231e3370bdc40.png\"></p>",
+            "<p><img alt=\"\" height=\"184\" width=\"188\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/357a43043c44306054ee83c7032f07ec.png\"></p>",
+            "<p><img alt=\"\" height=\"175\" width=\"179\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/07544ac37d70fd90c8e8ad6c14b43c1c.png\"></p>",
+            "<p><img alt=\"\" height=\"172\" width=\"176\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/e53eb5b2d96c757d1f3e16246d6202b3.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"184\" width=\"188\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/357a43043c44306054ee83c7032f07ec.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2\" target=\"_blank\">https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"422778\"></a><div itemprop=\"text\"><p>A rectangular paper of \\( 20 \\mathrm{~cm} \\times 8 \\mathrm{~cm} \\) is folded \\( 3 \\) times. Each fold is made along the line of symmetry, which is perpendicular to its long edge. The perimeter of the final folded sheet (in \\( \\mathrm{cm} \\) ) is</p></div><br><br><b>GATE CSE 2024 | Set 1 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 21 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422778/gate-cse-2024-set-1-ga-question-9\" target=\"_blank\">https://gateoverflow.in/422778/gate-cse-2024-set-1-ga-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"460092\"></a><div itemprop=\"text\"><p>A square paper, shown in figure \\( (I) \\), is folded along the dotted lines as shown in the figures \\( (II) \\) and \\( (III) \\). Then a few cuts are made as shown in figure \\( (IV) \\). Which one of the following patterns will be obtained when the paper is unfolded?</p><div><p>Note: The figures shown are representative.</p><p style=\"text-align:center\"><img alt=\"\" width=\"600\" height=\"192\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/151483f5a7e92dd6f5941c74f09f391e.png\"></p><p>&nbsp;​​​​</p></div><p>&nbsp;</p></div><br><br><b>GATE CSE 2025 | Set 1 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p><h1><img alt=\"\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/c5896771928e22d9d07229e63a76991a.png\"></h1></p>",
+            "<p><h1><img alt=\"\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/134096beebfaa9128ba8ad5a67ed928e.png\"></h1></p>",
+            "<p><h1><img alt=\"\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/f2dce14718d8092799e8580f2a0443f9.png\"></h1></p>",
+            "<p><h1><img alt=\"\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/b17314f85045e33a066ae55d9d4121de.png\"></h1></p>"
+          ],
+          "correct_answer": "<p><h1><img alt=\"\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/c5896771928e22d9d07229e63a76991a.png\"></h1></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460092/gate-cse-2025-set-1-ga-question-9\" target=\"_blank\">https://gateoverflow.in/460092/gate-cse-2025-set-1-ga-question-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"460447\"></a><div itemprop=\"text\"><div>The paper as showin the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube?</div><div>&nbsp;</div><div>Note: The figures showin are representative.</div><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"308\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/c0e141ad48f93b1efeac5980b6633cc0.png\"></p><ol start=\"1\" style=\"list-style-type: upper-alpha;\"><li><img alt=\"Option A\" width=\"150\" height=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/da9ecf4b25a4c91214af14d546f19508.png\"></li><li><img alt=\"Option B\" width=\"150\" height=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/16f92e817557b4bdfe9273441b4e9617.png\"></li><li><img alt=\"Option C\" width=\"150\" height=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/43bfa4be0b3066bd65c8aa60a8eff39a.png\"></li><li><img alt=\"Option D\" width=\"150\" height=\"150\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/b620a7db04223685be4e1d59bda0a820.png\"></li></ol></div><br><br><b>GATE CSE 2025 | Set 2 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460447/gate-cse-2025-set-2-ga-question-4\" target=\"_blank\">https://gateoverflow.in/460447/gate-cse-2025-set-2-ga-question-4</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359877\"></a><div itemprop=\"text\"><p>Consider two rectangular sheets, Sheet \\( \\text{M} \\) and Sheet \\( \\text{N} \\) of dimensions \\( 6\\:\\text{cm} \\times 4\\: \\text{cm} \\) each.</p>\n\n<ul>\n\t<li>Folding operation \\( 1: \\)&nbsp;The sheet is folded into half by joining the short edges of the current shape.</li>\n\t<li>Folding operation \\( 2: \\)&nbsp;The sheet is folded into half by joining the long edges of the current shape.</li>\n</ul>\n\n<p>Folding operation \\( 1 \\) is carried out on Sheet \\( \\text{M} \\) three times.</p>\n\n<p>Folding operation \\( 2 \\) is carried out on Sheet \\( \\text{N} \\) three times.</p>\n\n<p>The ratio of perimeters of the final folded shape of Sheet \\( \\text{N} \\) to the final folded shape of Sheet \\( \\text{M} \\) is _____________.</p>\n\n</div><br><br><b>GATE Civil 2021 Set 1 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13:7 \\)</p>",
+            "<p>\\( 3:2 \\)</p>",
+            "<p>\\( 7:5 \\)</p>",
+            "<p>\\( 5:13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13:7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359877/gate-civil-2021-set-1-ga-question-7\" target=\"_blank\">https://gateoverflow.in/359877/gate-civil-2021-set-1-ga-question-7</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411724\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/7a87fecf5b1f41741f3e07a790bfa635.png\" width=\"150\"></p>\n\n<p>Consider a cube made by folding a single sheet of paper of appropriate shape. The interior faces of the cube are all blank. However, the exterior faces that are not visible in the above view may not be blank.</p>\n\n<p>Which one of the following represents a possible unfolding of the cube?</p>\n\n<p>&nbsp; &nbsp; &nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;A.&nbsp; &nbsp; &nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/9b5f880177289640ed599016086ba251.png\" width=\"200\">&nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;B.&nbsp; &nbsp; &nbsp;&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/bcff698eb081e28b3c5cf58cb97bbee5.png\" width=\"200\"></p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;C.&nbsp; &nbsp; &nbsp; &nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/ebd2c351fa446994c2f4383d8d7d3bbe.png\" width=\"200\"></p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;D.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/127a383ab3d1179df87b7c772fe6c12e.png\" width=\"200\"></p>\n\n<p>&nbsp;</p></div><br><br><b>GATE Civil 2022 Set 1 | GA Question: 10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411724/gate-civil-2022-set-1-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411724/gate-civil-2022-set-1-ga-question-10</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"411846\"></a><div itemprop=\"text\"><p>A \\( 100 \\mathrm{~cm} \\times 32 \\mathrm{~cm} \\) rectangular sheet is folded \\( 5 \\) times. Each time the sheet is folded, the long edge aligns with its opposite side. Eventually, the folded sheet is a rectangle of dimensions \\( 100 \\mathrm{~cm} \\times 1 \\mathrm{~cm} \\).</p><p>The total number of creases visible when the sheet is unfolded is ___________.</p></div><br><br><b>GATE ECE 2023 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 31 \\)</p>",
+            "<p>\\( 63 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 31 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411846/gate-ece-2023-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411846/gate-ece-2023-ga-question-10</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"426526\"></a><div itemprop=\"text\"><p>​​​Two identical sheets \\( \\text{A} \\) and \\( \\text{B} \\), of dimensions \\( 24 \\mathrm{~cm} \\times 16 \\mathrm{~cm} \\), can be folded into half using two distinct operations, \\( \\text{FO1} \\) or \\( \\text{FO2} \\).</p>\n\n<p>In \\( \\text{FO1} \\), the axis of folding remains parallel to the initial long edge, and in \\( \\text{FO2} \\), the axis of folding remains parallel to the initial short edge.</p>\n\n<p>If sheet \\( \\text{A} \\) is folded twice using \\( \\text{FO1} \\), and sheet \\( \\text{B} \\) is folded twice using \\( \\text{FO2} \\), the ratio of the perimeters of the final shapes of \\( \\text{A} \\) and \\( \\text{B} \\) is</p>\n\n</div><br><br><b>GATE ECE 2024 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14:11 \\)</p>",
+            "<p>\\( 11: 14 \\)</p>",
+            "<p>\\( 18:11 \\)</p>",
+            "<p>\\( 11: 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14:11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426526/gate-ece-2024-ga-question-10\" target=\"_blank\">https://gateoverflow.in/426526/gate-ece-2024-ga-question-10</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"359755\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"152\" width=\"156\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/bb63513742eb81fbdafb298c3784e3c7.png\"></p><p>A transparent square sheet shown above is folded along the dotted line. The folded sheet will look like ________________.</p></div><br><br><b>GATE Electrical 2021 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"157\" width=\"161\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/4b4a268785c1a81382fd7c08d0161d8b.png\"></p>",
+            "<p><img alt=\"\" height=\"160\" width=\"164\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/e7c3e4a3206c08fecec4babd93234ff1.png\"></p>",
+            "<p><img alt=\"\" height=\"163\" width=\"167\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/4af8c4107cfcda274e2594df172c9c6a.png\"></p>",
+            "<p><img alt=\"\" height=\"162\" width=\"166\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/954dc3a7d6202f88663aa3d90011d89c.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"163\" width=\"167\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/4af8c4107cfcda274e2594df172c9c6a.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359755/gate-electrical-2021-ga-question-2\" target=\"_blank\">https://gateoverflow.in/359755/gate-electrical-2021-ga-question-2</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"359492\"></a><div itemprop=\"text\"><p>Consider a square sheet of side \\( 1 \\)&nbsp;unit. The sheet is first folded along the main diagonal. This is followed by a fold along its line of symmetry. The resulting folded shape is again folded along its line of symmetry. The area of each face of the final folded shape, in square units, equal to _________</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{4} \\)</p>",
+            "<p>\\( \\frac{1}{8} \\)</p>",
+            "<p>\\( \\frac{1}{16} \\)</p>",
+            "<p>\\( \\frac{1}{32} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{8} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359492/gate-mechanical-2021-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359492/gate-mechanical-2021-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"426504\"></a><div itemprop=\"text\"><p>A planar rectangular paper has two \\( \\text{V} \\)-shaped pieces attached as shown below.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/31b40fe878f4974b246c40f21f033bdc.png\" width=\"500\"><br>\n<br>\nThis piece of paper is folded to make the following closed three-dimensional object.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___paper_folding/47b7f7344a91d85ec9b8e1c32f736605.png\" width=\"250\"></p>\n\n<p><br>\n<br>\nThe number of folds required to form the above object is</p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426504/gate-mechanical-2024-ga-question-9\" target=\"_blank\">https://gateoverflow.in/426504/gate-mechanical-2024-ga-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

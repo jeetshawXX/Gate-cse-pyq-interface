@@ -1,0 +1,106 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Fractions",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Fractions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"484\"></a><div itemprop=\"text\"><p>( 19 - 18 - 17 - 16 ) - ( 20 - 19 - 18 - 17 ) = ?</p><ol><li>-36</li><li>-6</li><li>-4</li><li>1</li><li>2</li></ol></div><br><br><b>Quantitative Aptitude: Choose the appropriate answers for the following questions.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/484/choose-the-appropriate-answers-for-the-following-questions\" target=\"_blank\">https://aptitude.gateoverflow.in/484/choose-the-appropriate-answers-for-the-following-questions</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"223\"></a><div itemprop=\"text\"><p>If oranges cost 5 for 75c how many can you buy for $2.70? (Assuming they can be bought singly)?</p><ol><li>15</li><li>16</li><li>17</li><li>18</li><li>19</li></ol></div><br><br><b>Quantitative Aptitude: If oranges cost 5 for 75p how many can you buy for £2.70? (Assuming they can be bought singly)</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/223/oranges-cost-many-you-buy-for-assuming-they-can-bought-singly\" target=\"_blank\">https://aptitude.gateoverflow.in/223/oranges-cost-many-you-buy-for-assuming-they-can-bought-singly</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6717\"></a><div itemprop=\"text\"><p>A car owner buys petrol at \\( \\text{Rs. }7.50, \\text{Rs. }8 \\) and \\( \\text{Rs. }8.50 \\) per litre for three successive years. What approximately is the average cost per litre of petrol if he spends \\( \\text{Rs. }4000 \\) each year?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{Rs. 7.98} \\)</p>",
+            "<p>\\( \\text{Rs. 6} \\)</p>",
+            "<p>\\( \\text{Rs. 9.50} \\)</p>",
+            "<p>\\( \\text{Rs. 9.5} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6717/nielit-2016-mar-scientist-c-section-a-14\" target=\"_blank\">https://aptitude.gateoverflow.in/6717/nielit-2016-mar-scientist-c-section-a-14</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6728\"></a><div itemprop=\"text\"><p>In the first \\( 10 \\) overs of a cricket game, the run rate was only \\( 3.2 \\). What should be the run rate in the remaining \\( 40 \\) overs to reach the target of \\( 282 \\) runs?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6.25 \\)</p>",
+            "<p>\\( 6.5 \\)</p>",
+            "<p>\\( 6.75 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6728/nielit-2016-mar-scientist-c-section-a-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6728/nielit-2016-mar-scientist-c-section-a-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6682\"></a><div itemprop=\"text\"><p>Which of the following statement is false?<br>\n<br>\n\\( \\begin{array}{ll} \\text{Statement(i)} : &amp; \\dfrac{501}{25}&nbsp;\\text{ is a terminating decimal.} \\\\&nbsp;\\text{Statement(ii)} : &amp; \\dfrac{6805}{27\\times5^{2}} \\text{is a non-terminating decimal.} \\\\&nbsp;\\text{Statement(iii)} : &amp; \\dfrac{621}{125} \\text{is a non-terminating decimal.} \\\\&nbsp;\\text{Statement(iv)}&nbsp;: &amp; \\dfrac{7105}{7\\times5^{2}}&nbsp;\\text{ is a terminating decimal.} \\end{array} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement(iii)</p>",
+            "<p>Statement(ii)</p>",
+            "<p>Statement(iv)</p>",
+            "<p>Statement(i)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6682/nielit-2019-feb-scientist-c-section-d-4\" target=\"_blank\">https://aptitude.gateoverflow.in/6682/nielit-2019-feb-scientist-c-section-d-4</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"485\"></a><div itemprop=\"text\"><p>If 3x - 2 = 7, then 4x = ?</p><ol><li>3</li><li>5</li><li>20/3</li><li>9</li><li>12</li></ol></div><br><br><b>Quantitative Aptitude: Select the best answer from the given options.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/485/select-the-best-answer-from-the-given-options\" target=\"_blank\">https://aptitude.gateoverflow.in/485/select-the-best-answer-from-the-given-options</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"221\"></a><div itemprop=\"text\"><p>What is the missing number?<br><br>20 / 0.8 = ?</p><ol><li>14</li><li>15</li><li>16</li><li>24</li><li>25</li></ol></div><br><br><b>Quantitative Aptitude: What is the missing number?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/221/what-is-the-missing-number\" target=\"_blank\">https://aptitude.gateoverflow.in/221/what-is-the-missing-number</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"222\"></a><div itemprop=\"text\"><p>Which is the largest fraction?</p><ol><li>3 / 4</li><li>7 / 8</li><li>4 / 5</li><li>7 / 9</li><li>7 / 10</li></ol></div><br><br><b>Quantitative Aptitude: Which is the largest fraction:</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/222/which-is-the-largest-fraction\" target=\"_blank\">https://aptitude.gateoverflow.in/222/which-is-the-largest-fraction</a></p>"
+        }
+      ]
+    }
+  ]
+});

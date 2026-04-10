@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Work Time",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Work Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"407785\"></a><div itemprop=\"text\"><p>If \\( \\mathrm{A}, \\mathrm{B} \\) and \\( \\mathrm{C} \\) can complete a piece of work in \\( 3,5 \\) and \\( 6 \\) days respectively, they together will complete the work in</p>\n\n</div><br><br><b>Quantitative Aptitude: UGC NET CSE | June 2023 | Part 1: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\frac{3}{7} \\) days</p>",
+            "<p>\\( 2 \\frac{4}{7} \\) days</p>",
+            "<p>\\( 1 \\frac{1}{2} \\) days</p>",
+            "<p>\\( 2 \\frac{1}{3} \\) days</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/407785/ugc-net-cse-june-2023-part-1-17\" target=\"_blank\">https://gateoverflow.in/407785/ugc-net-cse-june-2023-part-1-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

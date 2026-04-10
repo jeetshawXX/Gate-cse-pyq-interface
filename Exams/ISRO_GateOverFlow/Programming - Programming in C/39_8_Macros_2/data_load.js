@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Macros",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Macros",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"52570\"></a><div itemprop=\"text\">\n<p>What is the output of the following C program?&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\n#define SQR(x) (x*x)  \n\nint main()\n{\n    int a;\n    int b=4;\n    a=SQR(b+2);\n    printf(\"%d\\n\",a); \n    return 0;\n}</pre>\n\n\n</div><br><br><b>Programming in C: ISRO CSE 2014 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>14</p>",
+            "<p>36</p>",
+            "<p>18</p>",
+            "<p>20</p>"
+          ],
+          "correct_answer": "<p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52570/isro-cse-2014-question-3\" target=\"_blank\">https://gateoverflow.in/52570/isro-cse-2014-question-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"37955\"></a><div itemprop=\"text\"><p>Consider the following statements</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#define hypotenuse (a, b) sqrt (a*a+b*b);</pre>\n\n<p>The macro call hypotenuse(a+2,b+3);</p>\n\n</div><br><br><b>Programming in C: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Finds the hypotenuse of a triangle with sides \\( a+2 \\) and \\( b+3 \\)</p>",
+            "<p>Finds the square root of \\( (a+2)^2 \\) and \\( (b+3)^2 \\)</p>",
+            "<p>Is invalid</p>",
+            "<p>Find the square root of \\( 3 *a+4*b+5 \\)</p>"
+          ],
+          "correct_answer": "<p>Find the square root of \\( 3 *a+4*b+5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/37955/isro2015-76\" target=\"_blank\">https://gateoverflow.in/37955/isro2015-76</a></p>"
+        }
+      ]
+    }
+  ]
+});

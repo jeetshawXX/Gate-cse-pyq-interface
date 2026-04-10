@@ -1,0 +1,281 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Speed Time Distance",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Speed Time Distance",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1568\"></a><div itemprop=\"text\"><p>A tourist covers half of his journey by train at \\( 60\\;\\text{km/h} \\), half of the remainder by bus at \\( 30\\;\\text{km/h} \\) and the rest by cycle at \\( 10\\;\\text{km/h} \\). The average speed of the tourist in \\( \\text{km/h} \\) during his entire journey is</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 24 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1568/gate-cse-2013-question-64\" target=\"_blank\">https://gateoverflow.in/1568/gate-cse-2013-question-64</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"302870\"></a><div itemprop=\"text\"><p>Two cars at the same time from the same location and go in the same direction. The speed of the first car is \\( 50 \\) km/h and the speed of the second car is \\( 60 \\) km/h. The number of hours it takes for the distance between the two cars to be \\( 20 \\) km is _____.</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302870/gate-cse-2019-question-ga-3\" target=\"_blank\">https://gateoverflow.in/302870/gate-cse-2019-question-ga-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359812\"></a><div itemprop=\"text\"><p>The distance between Delhi and Agra is \\( 233 \\) km. A car \\( P \\) started travelling from Delhi to Agra and another car \\( Q \\) started from Agra to Delhi along the same road \\( 1 \\) hour after the car \\( P \\) started. The two cars crossed each other \\( 75 \\) minutes after the car \\( Q \\) started. Both cars were travelling at constant speed. The speed of car \\( P \\) was \\( 10 \\) km/hr more than the speed of car \\( Q \\). How many kilometers the car \\( Q \\) had travelled when the cars crossed each other?</p>\n\n</div><br><br><b>GATE Chemical 2020 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 66.6 \\)</p>",
+            "<p>\\( 75.2 \\)</p>",
+            "<p>\\( 88.2 \\)</p>",
+            "<p>\\( 116.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 75.2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359812/gate-chemical-2020-ga-question-8\" target=\"_blank\">https://gateoverflow.in/359812/gate-chemical-2020-ga-question-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411909\"></a><div itemprop=\"text\"><p>Consider a spherical globe rotating about an axis passing through its poles. There are three points \\( P, Q, \\)&nbsp;and \\( R \\) situated respectively on the equator, the north pole, and midway between the equator and the north pole in the northern hemisphere. Let \\( P, Q \\), and \\( R \\) move with speeds \\( v_P, v_Q \\), and \\( v_R \\), respectively.</p>\n\n<p>Which one of the following options is CORRECT?</p>\n\n</div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( v_P&lt;v_R&lt;v_Q \\)</p>",
+            "<p>\\( v_P&lt;v_Q&lt;v_R  \\)</p>",
+            "<p>\\( v_P&gt;v_R&gt;v_Q  \\)</p>",
+            "<p>\\( v_P=v_R \\neq v_Q \\)</p>"
+          ],
+          "correct_answer": "<p>\\( v_P&gt;v_R&gt;v_Q  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411909/gate-civil-2023-set-2-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411909/gate-civil-2023-set-2-ga-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411680\"></a><div itemprop=\"text\"><p>In a \\( 500\\;m \\) race, \\( P \\) and \\( Q \\) have speeds in the ratio of \\( 3 : 4 \\). \\( Q \\) starts the race when \\( P \\) has already covered \\( 140\\; m \\).</p>\n\n<p>What is the distance between \\( P \\) and \\( Q \\) (in \\( m \\)) when \\( P \\) wins the race?</p>\n\n</div><br><br><b>GATE Electrical 2022 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 140 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411680/gate-electrical-2022-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411680/gate-electrical-2022-ga-question-2</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411779\"></a><div itemprop=\"text\"><p>A person travelled \\( 80 \\) \\( \\text{km} \\) in \\( 6 \\) hours. If the person travelled the first part with a uniform speed of \\( 10 \\) \\( \\text{kmph} \\) and the remaining part with a uniform speed of \\( 18 \\) \\( \\text{kmph} \\).</p>\n\n<p>What percentage of the total distance is travelled at a uniform speed of \\( 10 \\) \\( \\text{kmph} \\)?</p>\n\n</div><br><br><b>GATE Mechanical 2022 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 28.25 \\)</p>",
+            "<p>\\( 37.25 \\)</p>",
+            "<p>\\( 43.75 \\)</p>",
+            "<p>\\( 50.00 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 43.75 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411779/gate-mechanical-2022-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411779/gate-mechanical-2022-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"40247\"></a><div itemprop=\"text\"><p>Velocity of an object fired directly in upward direction is given by ܸ\\( V\\mathit{}=80-32 t\\mathit{} \\), where \\( t\\mathit{} \\)&nbsp;(time)&nbsp;is in seconds. When will the velocity be between \\( 32 \\;m/sec \\) and \\( 64 \\;m/sec \\)?</p>\n\n</div><br><br><b>GATE2013 AE: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( \\left(1, \\dfrac{3}{2}\\right) \\)&nbsp;</p>",
+            "<p>&nbsp;\\( \\left(\\dfrac{1}{2}, 1\\right) \\)&nbsp;</p>",
+            "<p>&nbsp;\\( \\left(\\dfrac{1}{2},\\dfrac{3}{2}\\right) \\)&nbsp;&nbsp;</p>",
+            "<p>&nbsp; \\( \\left(1, 3\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( \\left(\\dfrac{1}{2},\\dfrac{3}{2}\\right) \\)&nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40247/gate2013-ae-ga-6\" target=\"_blank\">https://gateoverflow.in/40247/gate2013-ae-ga-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40296\"></a><div itemprop=\"text\"><p>A car travels \\( 8 \\) \\( km \\) in the first quarter of an hour, \\( 6 \\) \\( km \\) in the second quarter and \\( 16 \\) \\( km \\) in the third quarter. The average speed of the car in km per hour over the entire journey is</p>\n\n</div><br><br><b>GATE2013 EE: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 24 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 40 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40296/gate2013-ee-ga-9\" target=\"_blank\">https://gateoverflow.in/40296/gate2013-ee-ga-9</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"41497\"></a><div itemprop=\"text\">A train that is \\( 280 \\) metres long, travelling at a uniform speed, crosses a platform in \\( 60 \\) seconds and passes a man standing on the platform in \\( 20 \\) seconds. What is the length of the platform in metres?</div><br><br><b>GATE2014 EC-1: GA-8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "560",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41497/gate2014-ec-1-ga-8\" target=\"_blank\">https://gateoverflow.in/41497/gate2014-ec-1-ga-8</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"41518\"></a><div itemprop=\"text\">\n<p>It takes \\( 30 \\) minutes to empty a half-full tank by draining it at a constant rate. It is decided to simultaneously pump water into the half-full tank while draining it. What is the rate at which water has to be pumped in so that it gets fully filled in \\( 10 \\) minutes?&nbsp;</p>\n\n\n</div><br><br><b>GATE2014 EC-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\) times the draining rate&nbsp;</p>",
+            "<p>\\( 3 \\) times the draining rate</p>",
+            "<p>\\( 2.5 \\) times the draining rate</p>",
+            "<p>\\( 2 \\) times the draining rate</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\) times the draining rate&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41518/gate2014-ec-2-ga-10\" target=\"_blank\">https://gateoverflow.in/41518/gate2014-ec-2-ga-10</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"41460\"></a><div itemprop=\"text\">A man can row at \\( 8 \\) km per hour in still water. If it takes him thrice as long to row upstream, as to row downstream, then find the stream velocity in km per hour.</div><br><br><b>GATE2014 EC-3: GA-8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41460/gate2014-ec-3-ga-8\" target=\"_blank\">https://gateoverflow.in/41460/gate2014-ec-3-ga-8</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"39509\"></a><div itemprop=\"text\">A tiger is \\( 50 \\) leaps of its own behind a deer. The tiger takes \\( 5 \\) leaps per minute to the deer's \\( 4. \\) If the tiger and the deer cover \\( 8 \\) meter and \\( 5 \\) meter per leap respectively, what distance in meters will the tiger have to run before it catches the deer\\( ? \\)</div><br><br><b>GATE2015 EC-2: GA- 8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "800",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39509/gate2015-ec-2-ga-8\" target=\"_blank\">https://gateoverflow.in/39509/gate2015-ec-2-ga-8</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"110832\"></a><div itemprop=\"text\"><p>It takes \\( 10 \\) s and \\( 15 \\) s, respectively, for two trains travelling at different constant speeds to completely pass a telegraph post. The length of the first train is \\( 120 \\) m and that of the second train is \\( 150 \\) m. The magnitude of the difference in the speeds of the two trains (in \\( m/s \\)) is ____________.</p>\n\n</div><br><br><b>GATE2016 EC-3: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2.0 \\)</p>",
+            "<p>\\( 10.0 \\)</p>",
+            "<p>\\( 12.0 \\)&nbsp;</p>",
+            "<p>\\( 22.0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110832/gate2016-ec-3-ga-5\" target=\"_blank\">https://gateoverflow.in/110832/gate2016-ec-3-ga-5</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"110834\"></a><div itemprop=\"text\"><p>The velocity \\( V \\) of a vehicle along a straight line is measured in \\( m/s \\) and plotted as shown with respect to time in seconds. At the end of the \\( 7 \\) seconds, how much will the odometer reading increase by (in m)?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___speed_time_distance/f75c1243152e4e58430bfbcc1d2674e3.png\"></p>\n\n</div><br><br><b>GATE2016 EC-3: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110834/gate2016-ec-3-ga-6\" target=\"_blank\">https://gateoverflow.in/110834/gate2016-ec-3-ga-6</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"313418\"></a><div itemprop=\"text\"><p>Budhan covers a distance of \\( 19 \\) km&nbsp;in \\( 2 \\) hours by cycling one fourth of the time and walking the rest.&nbsp;The next day he cycles (at the same speed as before)&nbsp;for half the time and walks the rest (at the same speed as before)&nbsp;and covers \\( 26 \\) km&nbsp;in \\( 2 \\) hours.&nbsp;The speed in km/h&nbsp;at which Budhan walk is</p>\n\n</div><br><br><b>GATE2017 CE-2: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313418/gate2017-ce-2-ga-9\" target=\"_blank\">https://gateoverflow.in/313418/gate2017-ce-2-ga-9</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"313517\"></a><div itemprop=\"text\"><p>Trucks (\\( 10 \\) m long) and cars (\\( 5 \\) m long) go on a single lane bridge. There must be a gap of at least \\( 20 \\) m after each truck and a gap of at least \\( 15 \\) m after each car. Trucks and cars travel at a speed of \\( 36 \\) km/h. If cars and trucks go alternately, what is the maximum number of vehicles that can use the bridge in one hour?</p>\n\n</div><br><br><b>GATE2017 EC-1: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1440 \\)</p>",
+            "<p>\\( 1200 \\)</p>",
+            "<p>\\( 720 \\)</p>",
+            "<p>\\( 600 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1440 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313517/gate2017-ec-1-ga-8\" target=\"_blank\">https://gateoverflow.in/313517/gate2017-ec-1-ga-8</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"205089\"></a><div itemprop=\"text\"><p>An automobile travels from city \\( A \\) to city \\( B \\) and returns to city \\( A \\) by the same route. The speed of the vehicle during the onward and return journeys were constant at \\( 60km/h \\) and \\( 90 km/h \\), respectively. What is the average speed in \\( km/h \\) for the entire journey?</p>\n\n</div><br><br><b>GATE2018 CH: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 72\\hspace{0.2cm} km/h \\)</p>",
+            "<p>\\( 73\\hspace{0.2cm} km/h \\)</p>",
+            "<p>\\( 74\\hspace{0.2cm} km/h \\)</p>",
+            "<p>\\( 75 \\hspace{0.2cm}km/h \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 72\\hspace{0.2cm} km/h \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205089/gate2018-ch-ga-6\" target=\"_blank\">https://gateoverflow.in/205089/gate2018-ch-ga-6</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"313652\"></a><div itemprop=\"text\"><p>From the time the front of a train enters a platform, it takes \\( 25 \\) seconds for the back of the train to leave the platform, while traveling&nbsp;at a constant speed of \\( 54 \\) km/h. At the same speed, it takes \\( 14 \\) seconds to pass a man running at \\( 9 \\) km/h in the same direction as the train. What is the length of the train and that of the platform in meters, respectively?</p>\n\n</div><br><br><b>GATE2018 ME-1: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 210 \\) and \\( 140 \\)</p>",
+            "<p>\\( 162.5 \\) and \\( 187.5 \\)</p>",
+            "<p>\\( 245 \\) and \\( 130 \\)</p>",
+            "<p>\\( 175 \\) and \\( 200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 175 \\) and \\( 200 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313652/gate2018-me-1-ga-8\" target=\"_blank\">https://gateoverflow.in/313652/gate2018-me-1-ga-8</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"313549\"></a><div itemprop=\"text\"><p>Two trains started at \\( 7 \\)AM from the same point. The first train travelled north&nbsp;at a speed of \\( 80 \\)km/h and the second train travelled south&nbsp;at a speed of \\( 100 \\)km/h. The time at which they were \\( 540 \\) km apart is ________ AM.</p>\n\n</div><br><br><b>GATE2019 IN: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 11.30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313549/gate2019-in-ga-9\" target=\"_blank\">https://gateoverflow.in/313549/gate2019-in-ga-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

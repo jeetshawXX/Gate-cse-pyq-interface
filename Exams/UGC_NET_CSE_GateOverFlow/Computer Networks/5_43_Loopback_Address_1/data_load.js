@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Loopback Address",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Loopback Address",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316194\"></a><div itemprop=\"text\"><p>Consider the following two statements with respect to IPv4 in computer networking:</p>\n\n<p>P: The loopback (IP) address is a member of class B network.</p>\n\n<p>Q: The loopback (IP) address is used to send a packet from host to itself.</p>\n\n<p>What can you say about the statements P and Q?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2019 | Part 2 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P –&nbsp;True; Q –&nbsp;False</p>",
+            "<p>P –&nbsp;False; Q –&nbsp;True</p>",
+            "<p>P –&nbsp;True; Q –&nbsp;True</p>",
+            "<p>P –&nbsp;False; Q –&nbsp;False</p>"
+          ],
+          "correct_answer": "<p>P –&nbsp;False; Q –&nbsp;True</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316194/ugc-net-cse-june-2019-part-2-question-85\" target=\"_blank\">https://gateoverflow.in/316194/ugc-net-cse-june-2019-part-2-question-85</a></p>"
+        }
+      ]
+    }
+  ]
+});

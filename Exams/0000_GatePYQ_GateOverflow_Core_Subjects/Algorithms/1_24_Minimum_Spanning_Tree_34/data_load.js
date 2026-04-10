@@ -1,0 +1,462 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Minimum Spanning Tree",
+  "duration": 94,
+  "sections": [
+    {
+      "name": "Minimum Spanning Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"521\"></a><div itemprop=\"text\"><p>Kruskal’s algorithm for finding a minimum spanning tree of a weighted graph \\( G \\) with \\( n \\) vertices and \\( m \\) edges has the time complexity of:</p></div><br><br><b>GATE CSE 1991 | Question: 03,vi</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( O(n^{2}) \\)</p>",
+            "<p>\\( O(mn) \\)</p>",
+            "<p>\\( O(m+n) \\)</p>",
+            "<p>\\( O(m \\log n) \\)</p>",
+            "<p>\\( O(m^2) \\)</p>"
+          ],
+          "correct_answer": "B;D;E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/521/gate-cse-1991-question-03-vi\" target=\"_blank\">https://gateoverflow.in/521/gate-cse-1991-question-03-vi</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"549\"></a><div itemprop=\"text\">Complexity of Kruskal’s algorithm for finding the minimum spanning tree of an undirected graph containing \\( n \\) vertices and \\( m \\) edges if the edges are sorted is _______</div><br><br><b>GATE CSE 1992 | Question: 01,ix</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/549/gate-cse-1992-question-01-ix\" target=\"_blank\">https://gateoverflow.in/549/gate-cse-1992-question-01-ix</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2660\"></a><div itemprop=\"text\"><p>How many minimum spanning trees does the following graph have? Draw them. (Weights are assigned to edges).</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"248\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/82a43f23ae69d7296de6784c29da2638.png\" width=\"383\"></p></div><br><br><b>GATE CSE 1995 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2660/gate-cse-1995-question-22\" target=\"_blank\">https://gateoverflow.in/2660/gate-cse-1995-question-22</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2768\"></a><div itemprop=\"text\"><p>A complete, undirected, weighted graph \\( G \\) is given on the vertex \\( \\{0, 1,\\dots, n -1\\} \\) for any fixed ‘n’. Draw the minimum spanning tree of \\( G \\) if</p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>the weight of the edge \\( (u, v) \\) is \\( \\mid u-v\\mid \\)</p>",
+            "<p>the weight of the edge \\( (u, v) \\) is \\( u + v \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2768/gate-cse-1996-question-16\" target=\"_blank\">https://gateoverflow.in/2768/gate-cse-1996-question-16</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2269\"></a><div itemprop=\"text\"><p>Consider a graph whose vertices are points in the plane with integer co-ordinates \\( (x,y) \\) such that \\( 1 \\leq x \\leq n \\) and \\( 1 \\leq y \\leq n \\), where \\( n \\geq 2 \\) is an integer. Two vertices \\( (x_1, y_1) \\) and \\( (x_2, y_2) \\) are adjacent iff \\( \\mid x_1-x_2 \\mid \\leq 1 \\text { and } \\mid y_1 – y_2 \\mid \\leq 1 \\). The weight of an edge \\( \\{(x_1, y_1), (x_2, y_2)\\} \\text{ is } \\sqrt{(x_1 – x_2)^2 + (y_1 – y_2)^2} \\)</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>What is the weight of a minimum weight-spanning tree in this graph? Write only the answer without any explanations.</p>",
+            "<p>What is the weight of a maximum weight-spanning tree in this graph? Write only the answer without any explanations.</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2269/gate-cse-1997-question-9\" target=\"_blank\">https://gateoverflow.in/2269/gate-cse-1997-question-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"665\"></a><div itemprop=\"text\"><p>Let \\( G \\) be an undirected connected graph with distinct edge weights. Let \\( e_{max} \\) be the edge with maximum weight and \\( e_{min} \\) the edge with minimum weight. Which of the following statements is false?</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Every minimum spanning tree of \\( G \\) must contain \\( e_{min} \\)</p>",
+            "<p>If \\( e_{max} \\) is in a minimum spanning tree, then its removal must disconnect \\( G \\)</p>",
+            "<p>No minimum spanning tree contains \\( e_{max} \\)</p>",
+            "<p>\\( G \\) has a unique minimum spanning tree</p>"
+          ],
+          "correct_answer": "<p>No minimum spanning tree contains \\( e_{max} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/665/gate-cse-2000-question-2-18\" target=\"_blank\">https://gateoverflow.in/665/gate-cse-2000-question-2-18</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"756\"></a><div itemprop=\"text\"><p>Consider a weighted undirected graph with vertex set <small>\\( V = \\{n1, n2, n3, n4, n5, n6 \\} \\)</small>&nbsp;and edge set <small>\\( E = \\{(n1,n2,2), (n1,n3,8), (n1,n6,3), (n2,n4,4), (n2,n5,12), (n3,n4,7), (n4,n5,9), (n4,n6,4)\\} \\).</small></p>\n\n<p>The third value in each tuple represents the weight of the edge specified in the tuple.</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>List the edges of a minimum spanning tree of the graph.</p>",
+            "<p>How many distinct minimum spanning trees does this graph have?</p>",
+            "<p>Is the minimum among the edge weights of a minimum spanning tree unique over all possible minimum spanning trees of a graph?</p>",
+            "<p>Is the maximum among the edge weights of a minimum spanning tree unique over all possible minimum spanning tree of a graph?</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/756/gate-cse-2001-question-15\" target=\"_blank\">https://gateoverflow.in/756/gate-cse-2001-question-15</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"955\"></a><div itemprop=\"text\"><p>What is the weight of a minimum spanning tree of the following graph?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/4940fe78998dccb3f92c324e1148264c.png\" width=\"520\"></p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 29 \\)</p>",
+            "<p>\\( 31 \\)</p>",
+            "<p>\\( 38 \\)</p>",
+            "<p>\\( 41 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 31 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/955/gate-cse-2003-question-68\" target=\"_blank\">https://gateoverflow.in/955/gate-cse-2003-question-68</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1348\"></a><div itemprop=\"text\"><p>An undirected graph \\( G \\)&nbsp;has \\( n \\) nodes. its adjacency matrix is given by an \\( n \\times&nbsp;n \\) square matrix whose (i) diagonal elements are 0’s and (ii) non-diagonal elements are 1’s. Which one of the following is TRUE?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Graph \\( G \\) has no minimum spanning tree (MST)</p>",
+            "<p>Graph \\( G \\) has unique MST of cost \\( n-1 \\)</p>",
+            "<p>Graph \\( G \\) has multiple distinct MSTs, each of cost \\( n-1 \\)</p>",
+            "<p>Graph \\( G \\) has multiple spanning trees of different costs</p>"
+          ],
+          "correct_answer": "<p>Graph \\( G \\) has multiple distinct MSTs, each of cost \\( n-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1348/gate-cse-2005-question-6\" target=\"_blank\">https://gateoverflow.in/1348/gate-cse-2005-question-6</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"890\"></a><div itemprop=\"text\"><p>Consider a weighted complete graph \\( G \\) on the vertex set \\( \\{v_1,v_2,.....v_n\\} \\) such that the weight of the edge \\( (v_i, v_j) \\)&nbsp;is &nbsp;\\( 2|i-j| \\).&nbsp;The weight of a minimum spanning tree&nbsp;of \\( G \\) is:</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( 2n-2 \\)</p>",
+            "<p>\\( \\begin{pmatrix} n \\\\&nbsp;2 \\end{pmatrix} \\)</p>",
+            "<p>\\( n^2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2n-2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/890/gate-cse-2006-question-11\" target=\"_blank\">https://gateoverflow.in/890/gate-cse-2006-question-11</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1823\"></a><div itemprop=\"text\"><p>Consider the following graph:</p>\n\n<p><img alt=\"\" height=\"329\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/51093156cf5c0a3dbba08171a786a13e.png\" width=\"349\"></p>\n\n<p>Which one of the following cannot be the sequence of edges added, <strong>in that&nbsp;order</strong>, to a minimum spanning tree using Kruskal’s algorithm?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (a-b),(d-f),(b-f),(d-c),(d-e) \\)</p>",
+            "<p>\\( (a-b),(d-f),(d-c),(b-f),(d-e) \\)</p>",
+            "<p>\\( (d-f),(a-b),(d-c),(b-f),(d-e) \\)</p>",
+            "<p>\\( (d-f),(a-b),(b-f),(d-e),(d-c) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (d-f),(a-b),(b-f),(d-e),(d-c) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1823/gate-cse-2006-question-47\" target=\"_blank\">https://gateoverflow.in/1823/gate-cse-2006-question-47</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1247\"></a><div itemprop=\"text\"><p>Let \\( w \\) be the minimum weight among all edge weights in an undirected connected graph. Let \\( e \\) be a specific edge of weight \\( w \\). Which of the following is FALSE?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There is a minimum spanning tree containing \\( e \\)</p>",
+            "<p>If \\( e \\) is not in a minimum spanning tree \\( T \\), then in the cycle formed by adding \\( e \\) to \\( T \\), all edges have the same weight.</p>",
+            "<p>Every minimum spanning tree has an edge of weight \\( w \\)</p>",
+            "<p>\\( e \\) is present in every minimum spanning tree</p>"
+          ],
+          "correct_answer": "<p>\\( e \\) is present in every minimum spanning tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1247/gate-cse-2007-question-49\" target=\"_blank\">https://gateoverflow.in/1247/gate-cse-2007-question-49</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1324\"></a><div itemprop=\"text\"><p>Consider the following graph:</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/e929dda40929363f3a9fb72b495c8524.png\" width=\"480\"></p>\n\n<p>Which one of the following is NOT the sequence of edges added to the minimum spanning tree using Kruskal’s algorithm?</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(b, e) (e, f) (a, c) (b, c) (f, g) (c, d)} \\)</p>",
+            "<p>\\( \\text{(b, e) (e, f) (a, c) (f, g) (b, c) (c, d)} \\)</p>",
+            "<p>\\( \\text{(b, e) (a, c) (e, f) (b, c) (f, g) (c, d)} \\)</p>",
+            "<p>\\( \\text{(b, e) (e, f) (b, c) (a, c) (f, g) (c, d)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(b, e) (e, f) (b, c) (a, c) (f, g) (c, d)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1324/gate-cse-2009-question-38\" target=\"_blank\">https://gateoverflow.in/1324/gate-cse-2009-question-38</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"2355\"></a><div itemprop=\"text\"><p>Consider a complete undirected graph with vertex set \\( \\{0, 1, 2, 3, 4\\} \\). Entry \\( W_{ij} \\) in the matrix \\( W \\) below is the weight of the edge \\( \\{i, j\\} \\)</p>\n\n<p>\\[ W=\\begin{pmatrix} 0 &amp; 1 &amp; 8 &amp; 1 &amp; 4 \\\\ 1 &amp; 0 &amp; 12 &amp; 4 &amp; 9 \\\\ 8 &amp; 12 &amp; 0 &amp; 7 &amp; 3 \\\\ 1 &amp; 4 &amp; 7 &amp; 0 &amp; 2 \\\\ 4 &amp; 9 &amp; 3 &amp; 2 &amp; 0 \\end{pmatrix} \\]</p>\n\n<p>What is the minimum possible weight of a spanning tree \\( T \\) in this graph such that vertex \\( 0 \\) is a leaf node in the tree \\( T \\)?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2355/gate-cse-2010-question-50\" target=\"_blank\">https://gateoverflow.in/2355/gate-cse-2010-question-50</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"43328\"></a><div itemprop=\"text\"><p>Consider a complete undirected graph with vertex set \\( \\{0, 1, 2, 3, 4\\} \\). Entry \\( W_{ij} \\) in the matrix \\( W \\) below is the weight of the edge \\( \\{i, j\\} \\)</p>\n\n<p>\\[ W=\\begin{pmatrix} 0 &amp; 1 &amp; 8 &amp; 1 &amp; 4 \\\\ 1 &amp; 0 &amp; 12 &amp; 4 &amp; 9 \\\\ 8 &amp; 12 &amp; 0 &amp; 7 &amp; 3 \\\\ 1 &amp; 4 &amp; 7 &amp; 0 &amp; 2 \\\\ 4 &amp; 9 &amp; 3 &amp; 2 &amp; 0 \\end{pmatrix} \\]</p>\n\n<p>What is the minimum possible weight of a path \\( P \\) from vertex \\( 1 \\) to vertex \\( 2 \\) in this graph such that \\( P \\) contains at most \\( 3 \\) edges?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43328/gate-cse-2010-question-51\" target=\"_blank\">https://gateoverflow.in/43328/gate-cse-2010-question-51</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"2162\"></a><div itemprop=\"text\"><p>An undirected graph \\( G(V,E) \\) contains \\( n \\: (n&gt;2) \\) nodes named \\( v_1,v_2, \\dots, v_n \\). Two nodes \\( v_i, v_j \\) &nbsp;are connected if and only if \\(  0 &lt; \\mid i-j\\mid \\leq 2 \\). Each edge \\( (v_i,v_j) \\) is assigned a weight \\( i+j \\). A sample graph with \\( n=4 \\) is shown below.</p>\n\n<p><img alt=\"\" height=\"184\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/898c2c6e20d35a1a05eeda48004744f8.png\" width=\"232\"></p>\n\n<p>What will be the cost of the minimum spanning tree (MST) of such a graph with \\( n \\) nodes?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{12} (11n^2 - 5 n) \\)</p>",
+            "<p>\\( n^2-n+1 \\)</p>",
+            "<p>\\( 6n-11 \\)</p>",
+            "<p>\\( 2n+1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n^2-n+1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2162/gate-cse-2011-question-54\" target=\"_blank\">https://gateoverflow.in/2162/gate-cse-2011-question-54</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"43325\"></a><div itemprop=\"text\"><p>An undirected graph \\( G(V,E) \\) contains \\( n \\: (n&gt;2) \\) nodes named \\( v_1,v_2, \\dots, v_n \\). Two nodes \\( v_i, v_j \\) &nbsp;are connected if and only if \\(  0 &lt; \\mid i-j\\mid \\leq 2 \\). Each edge \\( (v_i,v_j) \\) is assigned a weight \\( i+j \\). A sample graph with \\( n=4 \\) is shown below.</p>\n\n<p><img alt=\"\" height=\"157\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/73d73b22fa59d2fafbea43f1f122955c.png\" width=\"198\"></p>\n\n<p>The length of the path from \\( v_5 \\) to \\( v_6 \\) in the MST of previous question with \\( n=10 \\) is</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 31 \\)</p>",
+            "<p>\\( 41 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 31 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43325/gate-cse-2011-question-55\" target=\"_blank\">https://gateoverflow.in/43325/gate-cse-2011-question-55</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"786\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a weighted graph with edge weights greater than one and \\( G' \\) be the graph constructed by&nbsp;squaring the weights of edges in \\( G \\). Let \\( T \\) and \\( T' \\) be the minimum spanning trees of \\( G \\) and \\( G' \\),&nbsp;respectively, with total weights \\( t \\) and \\( t' \\). Which of the following statements is <strong>TRUE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( T' = T \\) with total weight \\( t' = t^2  \\)</p>",
+            "<p>\\( T' = T \\) with total weight \\( t' &lt; t^2 \\)</p>",
+            "<p>\\( T' \\neq T \\) but total weight \\( t' = t^2 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/786/gate-cse-2012-question-29\" target=\"_blank\">https://gateoverflow.in/786/gate-cse-2012-question-29</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"2019\"></a><div itemprop=\"text\"><p>The number of distinct minimum spanning trees for the weighted graph below is _____</p>\n\n<p><img alt=\"\" height=\"236\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/98c0e2ca9265ee3a220d4416c354a9ed.png\" width=\"498\"></p></div><br><br><b>GATE CSE 2014 Set 2 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2019/gate-cse-2014-set-2-question-52\" target=\"_blank\">https://gateoverflow.in/2019/gate-cse-2014-set-2-question-52</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"8313\"></a><div itemprop=\"text\"><p>The graph shown below has \\( 8 \\) edges with distinct integer edge weights. The minimum spanning tree (<strong>MST</strong>) is of weight \\( 36 \\) and contains the edges: \\( \\{(A, C), (B, C), (B, E), (E, F), (D, F)\\} \\). The edge weights of only those edges which are in the <strong>MST </strong>are given in the figure shown below. The minimum possible sum of weights of all \\( 8 \\) edges of this graph is_______________.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/8eadeab66d55dc8d46c959f60bc496a6.png\" width=\"380\"></p></div><br><br><b>GATE CSE 2015 Set 1 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "69",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43\" target=\"_blank\">https://gateoverflow.in/8313/gate-cse-2015-set-1-question-43</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"8499\"></a><div itemprop=\"text\">Let \\( G \\) be a connected undirected graph of \\( 100 \\) vertices and \\( 300 \\) edges. The weight of a minimum spanning tree of \\( G \\) is \\( 500 \\). When the weight of each edge of \\( G \\) is increased by five, the weight of a minimum spanning tree becomes ______.</div><br><br><b>GATE CSE 2015 Set 3 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "995",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8499/gate-cse-2015-set-3-question-40\" target=\"_blank\">https://gateoverflow.in/8499/gate-cse-2015-set-3-question-40</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"39673\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a weighted connected undirected graph with distinct positive edge weights. If every edge weight is increased by the same value, then which of the following statements is/are TRUE?</p>\n\n<ul>\n\t<li>\\( P \\): Minimum spanning tree of \\( G \\) does not change.</li>\n\t<li>\\( Q \\): Shortest path between any pair of vertices does not change.</li>\n</ul>\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\) only</p>",
+            "<p>\\( Q \\) only</p>",
+            "<p>Neither \\( P \\) nor \\( Q \\)</p>",
+            "<p>Both \\( P \\) and \\( Q \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39673/gate-cse-2016-set-1-question-14\" target=\"_blank\">https://gateoverflow.in/39673/gate-cse-2016-set-1-question-14</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"39725\"></a><div itemprop=\"text\">Let \\( G \\) be a complete undirected graph on \\( 4 \\) vertices, having \\( 6 \\) edges with weights being \\( 1, 2, 3, &nbsp;4, 5, \\) and \\( 6 \\). The maximum possible weight that a minimum weight spanning tree of \\( G \\) can have is __________</div><br><br><b>GATE CSE 2016 Set 1 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39725/gate-cse-2016-set-1-question-39\" target=\"_blank\">https://gateoverflow.in/39725/gate-cse-2016-set-1-question-39</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"39727\"></a><div itemprop=\"text\"><p>\\( G=(V, E) \\) is an undirected simple graph in which each edge has a distinct weight, and \\( e \\) is a particular edge of \\( G \\). Which of the following statements about the minimum spanning trees \\( (MSTs) \\) of \\( G \\) is/are TRUE?</p>\n\n<ol style=\"list-style-type: upper-roman;\">\n\t<li>If \\( e \\) is the lightest edge of some cycle in \\( G \\), then every MST of \\( G \\)&nbsp;includes \\( e \\).</li>\n\t<li>If \\( e \\) is the heaviest edge of some cycle in \\( G \\), then every MST of \\( G \\) excludes \\( e \\).</li>\n</ol>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only.</p>",
+            "<p>II only.</p>",
+            "<p>Both I and II.</p>",
+            "<p>Neither I nor II.</p>"
+          ],
+          "correct_answer": "<p>II only.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39727/gate-cse-2016-set-1-question-40\" target=\"_blank\">https://gateoverflow.in/39727/gate-cse-2016-set-1-question-40</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"204122\"></a><div itemprop=\"text\"><p>Consider the following undirected graph \\( G \\):</p>\n\n<p><img alt=\"\" height=\"278\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/5b6f2a32f7ba7ba7eebd387b166c2e7f.png\" width=\"274\"></p>\n\n<p>Choose a value for \\( x \\) that will maximize the number of minimum weight spanning trees (MWSTs) of \\( G \\). The number of MWSTs of \\( G \\) for this value of \\( x \\) is ____.</p></div><br><br><b>GATE CSE 2018 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204122/gate-cse-2018-question-47\" target=\"_blank\">https://gateoverflow.in/204122/gate-cse-2018-question-47</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"333200\"></a><div itemprop=\"text\"><p>Let&nbsp; \\( G&nbsp;= (V, E) \\) be a weighted undirected graph and let \\( T \\) be a Minimum Spanning Tree (MST) of \\( G \\) maintained using adjacency lists. Suppose a new weighed edge \\( (u, v)&nbsp;\\in V&nbsp;\\times V \\) is added to \\( G \\). The worst case time complexity of determining if \\( T \\) is still an MST of the resultant graph is</p></div><br><br><b>GATE CSE 2020 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta (\\mid E \\mid + \\mid V \\mid) \\)</p>",
+            "<p>\\( \\Theta (\\mid E \\mid&nbsp;\\mid V \\mid) \\)</p>",
+            "<p>\\( \\Theta(E \\mid \\log \\mid V \\mid) \\)</p>",
+            "<p>\\( \\Theta( \\mid V \\mid) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta( \\mid V \\mid) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333200/gate-cse-2020-question-31\" target=\"_blank\">https://gateoverflow.in/333200/gate-cse-2020-question-31</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"333182\"></a><div itemprop=\"text\">Consider a graph \\( G = (V,E) \\), where \\( V = \\{v_1,v_2, \\dots ,v_{100}\\} \\), \\( E = \\{(v_i,v_j) \\mid 1\\leq i &lt; j \\leq 100\\} \\), and weight of the edge \\( (v_i,v_j) \\) is \\( \\mid i – j \\mid \\). The weight of minimum spanning tree of \\( G \\) is _________</div><br><br><b>GATE CSE 2020 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "99",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333182/gate-cse-2020-question-49\" target=\"_blank\">https://gateoverflow.in/333182/gate-cse-2020-question-49</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"357434\"></a><div itemprop=\"text\"><p>Consider the following undirected graph with edge weights as shown:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"253\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/8d0c9d5ecf168ba3add752d391cf6c6a.png\" width=\"363\"></p>\n\n<p>The number of minimum-weight spanning trees of the graph is ___________.</p></div><br><br><b>GATE CSE 2021 Set 1 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3:3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357434/gate-cse-2021-set-1-question-17\" target=\"_blank\">https://gateoverflow.in/357434/gate-cse-2021-set-1-question-17</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"357539\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a connected undirected weighted graph. Consider the following two statements.</p>\n\n<ul>\n\t<li>\\( S_1 \\): There exists a minimum weight edge in \\( G \\) which is present in every minimum spanning tree of \\( G \\).</li>\n\t<li>\\( S_2 \\): If every edge in \\( G \\) has distinct weight, then \\( G \\) has a unique minimum spanning tree.</li>\n</ul>\n\n<p>Which one of the following options is correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are true</p>",
+            "<p>\\( S_1 \\) is true and \\( S_2 \\) is false</p>",
+            "<p>\\( S_1 \\) is false and \\( S_2 \\) is true</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are false</p>"
+          ],
+          "correct_answer": "<p>\\( S_1 \\) is false and \\( S_2 \\) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357539/gate-cse-2021-set-2-question-1\" target=\"_blank\">https://gateoverflow.in/357539/gate-cse-2021-set-2-question-1</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"371897\"></a><div itemprop=\"text\"><p>Consider a simple undirected weighted graph \\( \\textit{G}, \\) all of whose edge weights are distinct. Which of the following statements about the minimum spanning trees of \\( \\textit{G} \\) is/are \\( \\text{TRUE}? \\)</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 39</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The edge with the second smallest weight is always part of any minimum spanning tree of \\( \\textit{G}. \\)</p>",
+            "<p>One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of \\( \\textit{G}. \\)</p>",
+            "<p>Suppose \\( S \\subseteq V \\) be such that \\( S \\neq \\phi \\) and \\( S \\neq V \\). Consider the edge with the minimum weight such that one of its vertices is in \\( S \\) and the other in \\( V \\setminus S. \\) Such an edge will always be part of any minimum spanning tree of \\( \\textit{G}. \\)</p>",
+            "<p>\\( \\textit{G} \\) can have multiple minimum spanning trees.</p>"
+          ],
+          "correct_answer": [
+            "<p>The edge with the second smallest weight is always part of any minimum spanning tree of \\( \\textit{G}. \\)</p>",
+            "<p>One or both of the edges with the third smallest and the fourth smallest weights are part of any minimum spanning tree of \\( \\textit{G}. \\)</p>",
+            "<p>Suppose \\( S \\subseteq V \\) be such that \\( S \\neq \\phi \\) and \\( S \\neq V \\). Consider the edge with the minimum weight such that one of its vertices is in \\( S \\) and the other in \\( V \\setminus S. \\) Such an edge will always be part of any minimum spanning tree of \\( \\textit{G}. \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371897/gate-cse-2022-question-39\" target=\"_blank\">https://gateoverflow.in/371897/gate-cse-2022-question-39</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"371888\"></a><div itemprop=\"text\">Let \\( \\textit{G(V,E)} \\) be a directed graph, where \\( \\textit{V} = \\{ 1, 2, 3, 4, 5 \\} \\) is the set of vertices and \\( \\textit{E} \\) is the set of directed edges, as defined by the following adjacency matrix \\( \\textit{A}. \\)<br>\n\\[ A [i][j] = \\left\\{\\begin{matrix} 1, &amp; 1 \\leq j \\leq i \\leq 5 \\\\ 0, &amp; \\text{otherwise}\\end{matrix}\\right. \\] \\( A[i][j] = 1 \\) indicates a directed edge from node \\( i \\) to node \\( j. \\) A \\( \\textit{directed spanning tree} \\) of \\( G, \\) rooted at \\( r \\in V, \\) is defined as a subgraph \\( T \\) of \\( G \\) such that the undirected version of \\( T \\) is a tree, and \\( T \\) contains a directed path from \\( r \\) to every other vertex in \\( V. \\) The number of such directed spanning trees rooted at vertex \\( 5 \\) is __________________.</div><br><br><b>GATE CSE 2022 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "24",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371888/gate-cse-2022-question-48\" target=\"_blank\">https://gateoverflow.in/371888/gate-cse-2022-question-48</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"422848\"></a><div itemprop=\"text\"><p>The number of distinct minimum-weight spanning trees of the following graph is</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/d0a9d31c2c4f455c17ff8fc769248325.png\" width=\"500\"></p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422848/gate-cse-2024-set-2-question-49\" target=\"_blank\">https://gateoverflow.in/422848/gate-cse-2024-set-2-question-49</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"460026\"></a><div itemprop=\"text\"><p>The maximum value of \\( \\text{x} \\) such that the edge between the nodes \\( \\text{B} \\) and \\( \\text{C} \\) is included in every minimum spanning tree of the given graph is _________. (answer in integer)</p><p style=\"text-align:center\"><img alt=\"Graph\" width=\"400\" height=\"325\" src=\"images/gateOverflow_pyq_images/algorithms___minimum_spanning_tree/50b946ada8671aab0129ff51a1938fa5.png\"></p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5:5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460026/gate-cse-2025-set-1-question-54\" target=\"_blank\">https://gateoverflow.in/460026/gate-cse-2025-set-1-question-54</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"3813\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a weighted undirected graph and e be an edge with maximum weight in \\( G \\). Suppose there is a minimum weight spanning tree in \\( G \\) containing the edge \\( e \\). Which of the following statements is always TRUE?</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There exists a cutset in \\( G \\)&nbsp;having all edges of maximum weight.</p>",
+            "<p>There exists a cycle in \\( G \\) having all edges of maximum weight.</p>",
+            "<p>Edge \\( e \\) cannot be contained in a cycle.</p>",
+            "<p>All edges in \\( G \\) have the same weight.</p>"
+          ],
+          "correct_answer": "<p>There exists a cutset in \\( G \\)&nbsp;having all edges of maximum weight.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3813/gate-it-2005-question-52\" target=\"_blank\">https://gateoverflow.in/3813/gate-it-2005-question-52</a></p>"
+        }
+      ]
+    }
+  ]
+});

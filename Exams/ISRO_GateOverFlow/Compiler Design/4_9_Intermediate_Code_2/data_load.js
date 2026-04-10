@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Intermediate Code",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Intermediate Code",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18495\"></a><div itemprop=\"text\"><p>Relative to the program translated by a compiler, the same program when interpreted runs</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2008 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Faster</p>",
+            "<p>Slower</p>",
+            "<p>At the same speed</p>",
+            "<p>May be faster or slower</p>"
+          ],
+          "correct_answer": "<p>Slower</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18495/isro-cse-2008-question-38\" target=\"_blank\">https://gateoverflow.in/18495/isro-cse-2008-question-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"213560\"></a><div itemprop=\"text\"><p>Incremental-Compiler is a compiler:</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2018 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>which is written in a language that is different from the source language</p>",
+            "<p>compiles the whole source code to generate object code afresh</p>",
+            "<p>compiles only those portion of source code that have been modified</p>",
+            "<p>that runs on one machine but produces object code for another machine</p>"
+          ],
+          "correct_answer": "<p>compiles only those portion of source code that have been modified</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213560/isro-cse-2018-question-28\" target=\"_blank\">https://gateoverflow.in/213560/isro-cse-2018-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

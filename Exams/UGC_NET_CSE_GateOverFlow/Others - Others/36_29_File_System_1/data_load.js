@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - File System",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "File System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65526\"></a><div itemprop=\"text\"><p>A file organization component VSAM file is</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2011 | Part 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Relative records data set</p>",
+            "<p>Keyed sequential data set</p>",
+            "<p>Entry sequential data set</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65526/ugc-net-cse-june-2011-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/65526/ugc-net-cse-june-2011-part-2-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+});

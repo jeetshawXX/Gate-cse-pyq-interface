@@ -1,0 +1,101 @@
+{
+  "title": "Programming and DS - Data Structures - Tree",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336496\"></a><div itemprop=\"text\"><p>The maximum number of nodes in a binary tree of level \\( k, k\\geq1 \\) is:</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^k+1 \\)</p>",
+            "<p>\\( 2^{k-1} \\)</p>",
+            "<p>\\( 2^k-1 \\)</p>",
+            "<p>\\( 2^{k-1}-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^k-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336496/nielit-2016-dec-scientist-b-cs-section-b-42\" target=\"_blank\">https://gateoverflow.in/336496/nielit-2016-dec-scientist-b-cs-section-b-42</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336321\"></a><div itemprop=\"text\"><p>In a complete \\( k \\)-ary tree, every internal node has exactly \\( k \\) children. The number of leaves in such a tree with \\( n \\) internal nodes is</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( nk \\)</p>",
+            "<p>\\( (n-1)k+1 \\)</p>",
+            "<p>\\( n(k-1)+1 \\)</p>",
+            "<p>\\( n(k-1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n(k-1)+1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336321/nielit-2017-july-scientist-b-cs-section-b-54\" target=\"_blank\">https://gateoverflow.in/336321/nielit-2017-july-scientist-b-cs-section-b-54</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"275492\"></a><div itemprop=\"text\"><p>____ number of leaf nodes in a rooted tree of \\( n \\) nodes, where each node is having \\( 0 \\) or \\( 3 \\) children</p>\n\n</div><br><br><b>Data Structures: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{n}{2} \\)</p>",
+            "<p>\\( \\frac{(2n+1)}{3} \\)</p>",
+            "<p>\\( \\frac{(n-1)}{n} \\)</p>",
+            "<p>\\( (n-1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{(2n+1)}{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275492/nielit-2018-72\" target=\"_blank\">https://gateoverflow.in/275492/nielit-2018-72</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"369366\"></a><div itemprop=\"text\"><p>Suppose a binary search tree has been constructed from the following sequence of numbers in the order in which they arrive : \\( 6, 2, 10, 1, 5, 7, 11, 3, 9, 4, 8. \\) Consider the following piece of code :</p>\n\n<p>Show(root) \\(  \\{ \\text { if (root != NULL)} \\)</p>\n\n<p>\\( \\qquad \\quad \\{ \\text{printf}( “ \\% d”, \\text{root} \\rightarrow \\text{key)}; \\)</p>\n\n<p>\\( \\qquad \\qquad \\) show \\( \\text{(root} \\rightarrow \\text{right)}; \\)</p>\n\n<p>\\( \\qquad \\qquad \\) show \\( \\text{(root} \\rightarrow \\text{left)}; \\)</p>\n\n<p>\\( \\qquad \\qquad \\) }</p>\n\n<p>\\( \\qquad \\quad \\) else</p>\n\n<p>return ;</p>\n\n<p>\\( \\qquad \\) }</p>\n\n<p>The sequence printed will be :</p>\n\n</div><br><br><b>Data Structures: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6, 11, 10, 7, 8, 9, 2, 4, 3, 5, 1 \\)</p>",
+            "<p>\\( 6, 11, 7, 9, 8, 10, 2, 5, 1, 3, 4 \\)</p>",
+            "<p>\\( 6, 10, 11, 7, 9, 8, 2, 5, 3, 4, 1 \\)</p>",
+            "<p>\\( 6, 10, 2, 11, 7, 9, 8, 5, 3, 4, 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6, 10, 11, 7, 9, 8, 2, 5, 3, 4, 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369366/nielit-2021-dec-scientist-a-section-b-47\" target=\"_blank\">https://gateoverflow.in/369366/nielit-2021-dec-scientist-a-section-b-47</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"373779\"></a><div itemprop=\"text\"><p>Let \\( \\text{T} \\) be a binary search tree with \\( 15 \\) nodes. The minimum and maximum possible heights of \\( \\text{T} \\) are:</p>\n\n<p>The height of a tree with a single node is \\( 0 \\)<em>.</em></p>\n\n</div><br><br><b>Data Structures: NIELIT 2022 April Scientist B | Section B | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\) and \\( 15 \\) respectively</p>",
+            "<p>\\( 3 \\) and \\( 14 \\) respectively</p>",
+            "<p>\\( 4 \\) and \\( 14 \\) respectively</p>",
+            "<p>\\( 3 \\) and \\( 15 \\) respectively</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\) and \\( 14 \\) respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373779/nielit-2022-april-scientist-b-section-b-question-59\" target=\"_blank\">https://gateoverflow.in/373779/nielit-2022-april-scientist-b-section-b-question-59</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"351576\"></a><div itemprop=\"text\"><p>Suppose we have to insert the following sequence of keys into an empty binary search tree:</p>\n\n<p>\\( \\text{5, 7, 45, 60, 50, 23, 15, 54} \\)</p>\n\n<p>What would be the height of binary search tree?</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientist B 2020 November: 106</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351576/nielit-scientist-b-2020-november-106\" target=\"_blank\">https://gateoverflow.in/351576/nielit-scientist-b-2020-november-106</a></p>"
+        }
+      ]
+    }
+  ]
+}

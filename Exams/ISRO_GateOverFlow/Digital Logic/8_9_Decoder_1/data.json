@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Decoder",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Decoder",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1206\"></a><div itemprop=\"text\"><p>How many \\( 3 \\)-to-\\( 8 \\) line decoders with an enable input are needed to construct a \\( 6 \\)-to-\\( 64 \\) line decoder without using any other logic gates?</p>\n\n</div><br><br><b>Digital Logic: GATE CSE 2007 | Question: 8, ISRO2011</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1206/gate-cse-2007-question-8-isro2011-31\" target=\"_blank\">https://gateoverflow.in/1206/gate-cse-2007-question-8-isro2011-31</a></p>"
+        }
+      ]
+    }
+  ]
+}

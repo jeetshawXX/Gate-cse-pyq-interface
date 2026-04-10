@@ -1,0 +1,71 @@
+{
+  "title": "Compiler Design - NIELIT 2016 DEC Scientist B CS - Section B",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "NIELIT 2016 DEC Scientist B CS - Section B",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336502\"></a><div itemprop=\"text\"><p>The graph that shows basic blocks and their successor relationship is called:</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>DAG</p>",
+            "<p>Control graph</p>",
+            "<p>Flow graph</p>",
+            "<p>Hamiltonian graph</p>"
+          ],
+          "correct_answer": "<p>Flow graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336502/nielit-2016-dec-scientist-b-cs-section-b-36\" target=\"_blank\">https://gateoverflow.in/336502/nielit-2016-dec-scientist-b-cs-section-b-36</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336516\"></a><div itemprop=\"text\"><p>The structure or format of data is called</p></div><br><br><b>Compiler Design: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Syntax</p>",
+            "<p>Struct</p>",
+            "<p>Semantic</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "<p>Syntax</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336516/nielit-2016-dec-scientist-b-cs-section-b-22\" target=\"_blank\">https://gateoverflow.in/336516/nielit-2016-dec-scientist-b-cs-section-b-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337255\"></a><div itemprop=\"text\"><p>Relocation bits used by relocating loader are specified by</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Relocating loader itself</p>",
+            "<p>Linker</p>",
+            "<p>Assembler</p>",
+            "<p>Macro processor</p>"
+          ],
+          "correct_answer": "<p>Linker</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337255/nielit-2016-mar-scientist-c-section-c-10\" target=\"_blank\">https://gateoverflow.in/337255/nielit-2016-mar-scientist-c-section-c-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"337256\"></a><div itemprop=\"text\"><p>Which of the following can be accessed&nbsp;by transfer vector approach of linking?</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>External data segments</p>",
+            "<p>External subroutines</p>",
+            "<p>Data located in other procedure</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>External subroutines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337256/nielit-2016-mar-scientist-c-section-c-9\" target=\"_blank\">https://gateoverflow.in/337256/nielit-2016-mar-scientist-c-section-c-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

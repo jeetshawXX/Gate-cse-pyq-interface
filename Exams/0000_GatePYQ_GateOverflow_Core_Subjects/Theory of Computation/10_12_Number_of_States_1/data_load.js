@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Number of States",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Number of States",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460843\"></a><div itemprop=\"text\">Let \\( \\Sigma=\\{1,2,3,4\\} \\). For \\( x \\in \\Sigma^{*} \\), let \\( \\operatorname{prod}(x) \\) be the product of symbols in \\( x \\) modulo 7. We take \\( \\operatorname{prod}(\\epsilon)=1 \\), where \\( \\epsilon \\) is the null string.<br>\n<br>\nFor example, \\( \\operatorname{prod}(124)=(1 \\times 2 \\times 4) \\bmod 7=1 \\).<br>\n<br>\nDefine \\( L=\\left\\{x \\in \\Sigma^{*} \\mid \\operatorname{prod}(x)=2\\right\\} \\).<br>\n<br>\nThe number of states in a minimum state DFA for \\( L \\) is __________ . (Answer in integer)</div><br><br><b>GATE CSE 2025 | Set 2 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6:6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460843/gate-cse-2025-set-2-question-50\" target=\"_blank\">https://gateoverflow.in/460843/gate-cse-2025-set-2-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

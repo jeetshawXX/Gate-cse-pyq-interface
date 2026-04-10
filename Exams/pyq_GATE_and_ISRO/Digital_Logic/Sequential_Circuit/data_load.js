@@ -1,0 +1,677 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Sequential_Circuit",
+  "duration": 127,
+  "sections": [
+    {
+      "name": "Sequential_Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In a 4-bit ripple counter, if the period of the waveform at the last flip-flop is 64 microseconds, then the frequency of the ripple counter in kHz is ________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "250",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460811/gate-cse-2025-set-2-question-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the given sequential circuit designed using D-Flip-flops. The circuit is initialized with some value (initial state). The number of distinct states the circuit will go through before returning back to the initial state is _________. (Answer in integer)<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q50_6d9fa3b1.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460030/gate-cse-2025-set-1-question-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a sequential digital circuit consisting of T flip-flops and D flip-flops as\nshown in the figure. CLKIN is the clock input to the circuit. At the beginning,\nQ1, Q2 and Q3 have values 0, 1 and 1, respectively.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q33_5641701d.jpg\"><br>Which one of the given values of (Q1, Q2, Q3) can NEVER be obtained with this\ndigital circuit? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0, 0, 1)</p>",
+            "<b>B.</b> <p>(1, 0, 0)</p>",
+            "<b>C.</b> <p>(1, 0, 1)</p>",
+            "<b>D.</b> <p>(1, 1, 1)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(0, 0, 1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399278/gate-cse-2023-question-33#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a 3-bit counter, designed using T flip-flops, as shown below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q28_23a3fb9c.jpg\"><br>\nAssuming the initial state of the counter given by PQR as 000, what are the next three states? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>011, 101, 000</p>",
+            "<b>B.</b> <p>001, 010, 111</p>",
+            "<b>C.</b> <p>011, 101, 111</p>",
+            "<b>D.</b> <p>001, 010, 000</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>011, 101, 000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357423/gate-cse-2021-set-1-question-28#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A new flipflop with inputs X and Y, has the following property<br>\\(\\begin{array}{|c|c|c|c|} \\hline \\mathbf{X} &amp; \\mathbf{Y} &amp; \\text { Current state } &amp; \\text { Next state } \\\\ \\hline 0 &amp; 0 &amp; Q &amp; 1 \\\\ 0 &amp; 1 &amp; Q &amp; \\bar{Q} \\\\ 1 &amp; 1 &amp; Q &amp; 0 \\\\ 1 &amp; 0 &amp; Q &amp; Q \\\\ \\hline \\end{array}\\)<br>Which of the following expresses the next state in terms of X,Y, current state? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\bar{X} \\wedge \\bar{Q}) \\vee(\\bar{Y} \\wedge Q)\\)</p>",
+            "<b>B.</b> <p>\\((\\bar{X} \\wedge {Q}) \\vee(\\bar{Y} \\wedge \\bar{Q})\\)</p>",
+            "<b>C.</b> <p>\\(({X} \\wedge \\bar{Q}) \\vee({Y} \\wedge {Q})\\)</p>",
+            "<b>D.</b> <p>\\(({X} \\wedge \\bar{Q}) \\vee(\\bar{Y} \\wedge {Q})\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\bar{X} \\wedge \\bar{Q}) \\vee(\\bar{Y} \\wedge Q)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331388/isro2020-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the sequential circuit shown in the figure, where both flip-flops used are positive edge-triggered D flip-flops.  <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q22_8ce44ae4.jpg\"> <br>  The number of states in the state transition diagram of this circuit that have a transition back to the same state on some value of \"in\" is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204096/gate2018-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Advantage of synchronous sequential circuits over asynchronous one is : <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Lower hardware requirement</p>",
+            "<b>B.</b> <p>Better noise immunity</p>",
+            "<b>C.</b> <p>Faster operation</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Faster operation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128643/isro2017-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The next state table of a 2-bit saturating up-counter is given below. <br>  \\(\\begin{matrix} Q_{1} &amp; Q_{0} &amp; Q_{1}^{+} &amp;Q_{0}^{+} \\\\ 0 &amp; 0 &amp; 0 &amp; 1 \\\\ 0 &amp; 1 &amp; 1 &amp; 0\\\\ 1 &amp; 0 &amp; 1 &amp; 1\\\\ 1 &amp; 1 &amp; 1 &amp; 1 \\end{matrix}\\) <br>\nThe counter is built as a synchronous sequential circuit using T flip-flops. The expression for \\(T_1 \\; and \\; T_0\\) are <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T_{1}=Q_{1} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}\\bar{Q_{0}}\\)</p>",
+            "<b>B.</b> <p>\\(T_{1}=\\bar{Q_{1}} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}\\)</p>",
+            "<b>C.</b> <p>\\(T_{1}=Q_{1} + Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}\\)</p>",
+            "<b>D.</b> <p>\\(T_{1}=Q_{1} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T_{1}=\\bar{Q_{1}} Q_{0} , \\; \\; T_{0}=\\bar{Q_{1}}+\\bar{Q_{0}}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118557/gate2017-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a combination of T and D flip-flops connected as shown below. The output of the D flip-flop is connected to the input of the T flip-flop and the output of the T flip-flop is connected to the input of the D flip-flop <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q26_653272d6.jpg\"><br> Initailly, both \\(Q_{0}\\) and \\(Q_{1}\\)  are set to 1 (before the 1st clock cycle). The outputs <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 11 and after the 4th cycle are 00 respectively</p>",
+            "<b>B.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 11 and after the 4th cycle are 01 respectively</p>",
+            "<b>C.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 00 and after the 4th cycle are 11 respectively</p>",
+            "<b>D.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 01 and after the 4th cycle are 01 respectively</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(Q_{1}Q_{0}\\)  after 3rd cycle are 11 and after the 4th cycle are 01 respectively</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118315/gate2017-1-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The functional difference between SR flip-flop and J-K flip-flop is that : <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>J -K flip-flop is faster than SR flip-flop</p>",
+            "<b>B.</b> <p>J-K flip-flop has a feedback path</p>",
+            "<b>C.</b> <p>J-K flip-flop accepts both inputs 1</p>",
+            "<b>D.</b> <p>None of them</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>J-K flip-flop accepts both inputs 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55462/isro2016-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>We want to design a synchronous counter that counts these quence 0-1-0-2-0-3 and then repeats. The minimum number of J-K flip flop srequired to implement this counteris ________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39670/gate2016-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A modulus -12 ring counter requires a minimum of <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10  flip-flops</p>",
+            "<b>B.</b> <p>12 flip-flops</p>",
+            "<b>C.</b> <p>8 flip-flops</p>",
+            "<b>D.</b> <p>6 flip-flops</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12 flip-flops</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19487/isro2015-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The minimum number of JK flip-flops required to construct a synchronous counter with the count sequence (0,0,1,1,2,2,3,3,0,0,...) is __________ . <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8054/gate2015-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A positive edge-triggered D flip-flop is connected to a positive edge-triggered JK flip-flop as follows. The Q output of the D flip-flop is connected to both the J and K inputs of the JK flip-flop, while the Q output of the JK flip-flop is connected to the input of the D flip-flop. Initially, the output of the D flip-flop is set to logic one and the output of the JK flip-flop is cleared. Which one of the following is the bit sequence (including the initial state) generated at the Q output of the JK flip-flop when the flip-flops are connected to a free-running common clock? Assume that J=K=1 is the toggle mode and J=K=0 is the state-holding mode of the JK flip-flop. Both the flip-flops have non-zero propagation delays. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0110110...</p>",
+            "<b>B.</b> <p>0100100...</p>",
+            "<b>C.</b> <p>0100100...</p>",
+            "<b>D.</b> <p>011001100...</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0110110...</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8287/gate2015-1-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a 4-bit Johnson counter with an initial value of 0000. The counting sequence of this counter is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, 1, 3, 7, 15, 14, 12, 8, 0</p>",
+            "<b>B.</b> <p>0, 1, 3, 5, 7, 9, 11, 13, 15, 0</p>",
+            "<b>C.</b> <p>0, 2, 4, 6, 8, 10, 12, 14, 0</p>",
+            "<b>D.</b> <p>0, 8, 12, 14, 15, 7, 3, 1, 0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0, 8, 12, 14, 15, 7, 3, 1, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8219/gate2015-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>What are the final values of Q1 and Q0 after 4 clock cycles, if initial values are 00 in the sequential circuit shown below:<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q21_8a077758.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/13385/isro2014-21-ugcnet-dec2012-iii-23-ugcnet-dec2013-iii-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q45_2b4140de.jpg\"><br> The above synchronous sequential circuit built using JK flip-flops is initialized with\n\\(Q_{2}Q_{1}Q_{0}\\) = 000. The state sequence for this circuit for the next 3 clock cycles is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>001, 010, 011</p>",
+            "<b>B.</b> <p>111, 110, 101</p>",
+            "<b>C.</b> <p>100, 110, 111</p>",
+            "<b>D.</b> <p>100, 011, 001</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>100, 110, 111</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2079/gate2014-3-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Let  \\(k = 2^{n}\\) . A circuit is built by giving the output of an n-bit binary counter as input to an n-to-\\(2^{n}\\) bit decoder. This circuit is equivalent to a <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k-bit binary up counter</p>",
+            "<b>B.</b> <p>k-bit binary down counter.</p>",
+            "<b>C.</b> <p>k-bit ring counter.</p>",
+            "<b>D.</b> <p>k-bit Johnson counter</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-bit ring counter.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1959/gate2014-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>In a three stage counter, using RS flip flops what will be the value of the counter after giving 9 pulses to its input ? Assume that the value of counter before giving any pulses is 1 : <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43965/isro-2013-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>In an RS flip-flop, if the S line (Set line) is set high (1) and the R line (Reset line) is set low (0), then the state of the flip-flop is : <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Set to 1</p>",
+            "<b>B.</b> <p>Set to 0</p>",
+            "<b>C.</b> <p>No change in state</p>",
+            "<b>D.</b> <p>Forbidden</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Set to 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52873/isro2011-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Consider the following circuit involving three D-type flip-flops used in a certain type of counter configuration. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q50_9b1eb674.jpg\"> <br> If all the flip-flops were reset to 0 at power on, what is the total number of\ndistinct outputs (states) represented by PQR generated by the counter? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43318/gate2011-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider the following circuit involving three D-type flip-flops used in a certain type of counter configuration. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q50_9b1eb674.jpg\"> <br>If at some instance prior to the occurrence of the clock edge, P. Q and R have a\nvalue 0, 1 and 0 respectively, what shall be the value of PQR after the clock\nedge? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(000\\)</p>",
+            "<b>B.</b> <p>\\(001\\)</p>",
+            "<b>C.</b> <p>\\(010\\)</p>",
+            "<b>D.</b> <p>\\(011\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(011\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2157/gate2011-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>The minimum number of D flip-flops needed to design a mod-258 counter is <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>512</p>",
+            "<b>D.</b> <p>258</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2117/gate2011-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>In the sequential circuit shown below, if the initial value of the output \\(Q_{1}Q_{0}\\) is 00,\nwhat are the next four values of  \\(Q_{1}Q_{0}\\) ? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q32_3fa4a72d.jpg\"> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11,10,01,00</p>",
+            "<b>B.</b> <p>10,11,01,00</p>",
+            "<b>C.</b> <p>10,00,01,11</p>",
+            "<b>D.</b> <p>11,10,00,01</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11,10,01,00</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2206/gate2010-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>In the given network of AND and OR gates f can be written as<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q12_9957c677.jpg\"><br> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X_0X_1X_2 \\dots X_n + X_1X_2 \\dots X_n + X_2X_3 \\dots X_n + \\dots + X_n\\)</p>",
+            "<b>B.</b> <p>\\(X_0X_1 + X_2X_3+ \\dots X_{n-1}X_n\\)</p>",
+            "<b>C.</b> <p>\\(X_0+X_1 + X_2+ \\dots +X_n\\)</p>",
+            "<b>D.</b> <p>\\(X_0X_1 + X_3 \\dots X_{n-1}+ X_2X_3 + X_5 \\dots X_{n-1} + \\dots +X_{n-2} X_{n-1} +X_n\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X_0X_1X_2 \\dots X_n + X_1X_2 \\dots X_n + X_2X_3 \\dots X_n + \\dots + X_n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49796/isro2008-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider the following state diagram and its realization by a JK flip flop <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q37_1826100b.jpg\"><br>The combinational circuit generates J and K in terms of x, y and Q.<br>The Boolean expressions for J and K are : <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline {x \\oplus y} \\text{ and }\\overline {x \\oplus y}\\)</p>",
+            "<b>B.</b> <p>\\(\\overline {x \\oplus y} \\text{ and }{x \\oplus y}\\)</p>",
+            "<b>C.</b> <p>\\({x \\oplus y} \\text{ and }\\overline {x \\oplus y}\\)</p>",
+            "<b>D.</b> <p>\\({x \\oplus y} \\text{ and } {x \\oplus y}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\({x \\oplus y} \\text{ and } {x \\oplus y}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3347/gate2008-it-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Ring counter is analogous to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Toggle Switch</p>",
+            "<b>B.</b> <p>Latch</p>",
+            "<b>C.</b> <p>Stepping Switch</p>",
+            "<b>D.</b> <p>S-R flip flop</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Stepping Switch</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49508/isro2007-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>In an SR latch made by cross-coupling two NAND gates, if both S and R inputs are set to 0, then it will result in <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q = 0, Q' = 1</p>",
+            "<b>B.</b> <p>Q = 1, Q' = 0</p>",
+            "<b>C.</b> <p>Q = 1, Q' = 1</p>",
+            "<b>D.</b> <p>Indeterminate states</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Q = 1, Q' = 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1015/gate2004-18-isro2007-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>The characteristic equation of an SR flip-flop is given by : <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Q_{n+1}=S+RQ_n\\)</p>",
+            "<b>B.</b> <p>\\(Q_{n+1}=R\\bar{Q}_n + \\bar{S}Q_n\\)</p>",
+            "<b>C.</b> <p>\\(Q_{n+1}=\\bar{S}+RQ_n\\)</p>",
+            "<b>D.</b> <p>\\(Q_{n+1}=S+\\bar{R}Q_n\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(Q_{n+1}=S+\\bar{R}Q_n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49475/isro2007-05\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>What is the final value stored in the linear feedback shift register if the input is 101101?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q40_8aa2b208.jpg\"><br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0110</p>",
+            "<b>B.</b> <p>1011</p>",
+            "<b>C.</b> <p>1101</p>",
+            "<b>D.</b> <p>1111</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0110</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3473/gate2007-it-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Which of the following input sequences for a cross-coupled R-S flip-flop realized with two NAND gates may lead to an oscillation? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11, 00</p>",
+            "<b>B.</b> <p>01, 10</p>",
+            "<b>C.</b> <p>10, 01</p>",
+            "<b>D.</b> <p>00, 11</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>00, 11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3440/gate2007-it-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider the circuit in the diagram. The \\(\\oplus\\) operator represents Ex-OR. The D flip-flops are initialized to zeroes (cleared). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q37_0fb4170a.jpg\"><br>  The following data : 100110000 is supplied to the \"data\" terminal in nine clock cycles. After that the values of \\(q_{2}q_{1}q_{0}\\) are <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(000\\)</p>",
+            "<b>B.</b> <p>\\(001\\)</p>",
+            "<b>C.</b> <p>\\(010\\)</p>",
+            "<b>D.</b> <p>\\(101\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(010\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1295/gate2006-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>You are given a free running clock with a duty cycle of 50% and a digital waveform\nf which changes only at the negative edge of the clock. Which one of the following\ncircuits (using clocked D flip flops) will delay the phase of f by \\(180^{\\circ}\\) ?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q8_ab7840a0.jpg\"> <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q8b_f9d0bfca.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/887/gate2006-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Which of the following input sequences will always generate a 1 at the output z at the end of the third cycle?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q43_9beb8fc9.jpg\"><br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\ \\hline \\text{0} &amp; \\text{0} &amp; \\text{0} \\\\ \\hline \\text{1} &amp; \\text{0} &amp; \\text{1} \\\\ \\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\ \\hline \\end{array}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{1} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{0} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{0} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{0} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{0} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{array}{|l|l|l|}\\hline \\textbf{A} &amp; \\textbf{B} &amp; \\textbf{C} \\\\\\hline \\text{0} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{0} \\\\\\hline \\text{1} &amp; \\text{1} &amp; \\text{1} \\\\\\hline \\end{array}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3804/gate2005-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>How many pulses are needed to change the contents of a 8-bit up counter from 10101100 to 00100111 (rightmost bit is the LSB)? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>134</p>",
+            "<b>B.</b> <p>133</p>",
+            "<b>C.</b> <p>124</p>",
+            "<b>D.</b> <p>123</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>123</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3756/gate2005-it-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider the following circuit. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q64a_40774770.jpg\"> <br> The flip-flops are positive edge triggered D FFs. Each state is designated as a two-bit string Q0Q1 .\nLet the initial state be 00. the state transition sequence is  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q64_7a27fad2.jpg\"> <br> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1387/gate2005-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the following circuit involving a positive edge triggered D FF. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q62a_17c9e04f.jpg\"> <br>Consider the following timing diagram. Let Ai represent the logic level on the line A in the i-th clock period. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q62b_0f53b511.jpg\"> <br> Let A' represent the complement of A. The correct output sequence on Y over the clock periods 1 through 5 is <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A_{0}A_{1}A'_{1}A_{3}A_{4}\\)</p>",
+            "<b>B.</b> <p>\\(A_{0}A_{1}A'_{2}A_{3}A_{4}\\)</p>",
+            "<b>C.</b> <p>\\(A_{1}A_{2}A'_{2}A_{3}A_{4}\\)</p>",
+            "<b>D.</b> <p>\\(A_{1}A'_{2}A_{3}A_{4}A'_{5}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(A_{0}A_{1}A'_{1}A_{3}A_{4}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/264/gate2005-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the partial implementation of a 2-bit counter using T flip-flops following the sequence 0-2-3-\n1-0, as shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q61_a3e4c9c5.jpg\"> <br> To complete the circuit, the input X should be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q2'</p>",
+            "<b>B.</b> <p>Q2 + Q1</p>",
+            "<b>C.</b> <p>\\((Q1\\oplus Q2)'\\)</p>",
+            "<b>D.</b> <p>\\(Q1\\oplus Q2\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(Q1\\oplus Q2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1056/gate2004-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>In an SR latch made by cross-coupling two NAND gates, if both S and R inputs are set to 0, then it\nwill result in <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q = 0, Q' = 1</p>",
+            "<b>B.</b> <p>Q = 1, Q' = 0</p>",
+            "<b>C.</b> <p>Q = 1, Q' = 1</p>",
+            "<b>D.</b> <p>Indeterminate states</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Q = 1, Q' = 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1015/gate2004-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>A 1-input, 2-output synchronous sequential circuit behaves as follows. <br>\nLet \\(z_{k},n_{k}\\) denote the number of 0's and 1's respectively in initial k bits of the\ninput ( \\(z_{k}+n_{k}=k\\) ). The circuit outputs 00 until one of the following conditions holds.<br><br>\n1. \\(z_{k}-n_{k}=2\\). In this case, the output at the k -th and all subsequency clock ticks is 10.<br>\n2.  \\(n_{k}-z_{k}=2\\). In this case, the output at the k -th and all subsequent clock ticks is 01.<br><br>\nWhat in the minimum number of states required in the state transition graph of the above circuit? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/935/gate2003-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>The following arrangement of master-slave flip flops<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q2.12_fdfc937b.jpg\"><br> has the initial state of P, Q as 0, 1 (respectively). After three clock cycles the output state P, Q is (respectively), <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 0</p>",
+            "<b>B.</b> <p>1, 1</p>",
+            "<b>C.</b> <p>0, 0</p>",
+            "<b>D.</b> <p>0, 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/659/gate2000-2-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider the circuit given below the initial state \\(Q_{0}=1, Q_{1}=Q_{2}=0\\). The state\nof the circuit is given by the value \\(4Q_{2}+2Q_{1}+Q_{0}\\) <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q37_e0f7fd7d.jpg\"><br>  Which one of the following is the correct state sequence of the circuit ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 3, 4, 6, 7, 5, 2</p>",
+            "<b>B.</b> <p>1, 2, 5, 3, 7, 6, 4</p>",
+            "<b>C.</b> <p>1, 2, 7, 3, 5, 6, 4</p>",
+            "<b>D.</b> <p>1, 6, 5, 7, 2, 3, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1, 2, 5, 3, 7, 6, 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/730/gate2001-2-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider the following circuit with initial state Q0 = Q1 = 0. The D flip-flops are\npositive edged triggered and have set up times 20 nanosecond and hold times 0. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q33_393353a9.jpg\"><br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q33a_85f13d9e.jpg\"> <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/726/gate2001-2-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nAdvantage of synchronous sequential circuits over asynchronous ones is: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>faster operation</p>",
+            "<b>B.</b> <p>ease of avoiding problems due to hazards</p>",
+            "<b>C.</b> <p>lower hardware requirement</p>",
+            "<b>D.</b> <p>better noise immunity</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ease of avoiding problems due to hazards</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/516/gate1991-03-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q1-IIIa_c5e723c0.jpg\"><br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q1-IIIb_b72e4b1f.jpg\"><br>The above circuit produces the output sequence: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111       1111       0000       0000</p>",
+            "<b>B.</b> <p>1111       0000      1111        000</p>",
+            "<b>C.</b> <p>1111       0001      0011       010</p>",
+            "<b>D.</b> <p>1010      1010      1010       1010</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1111       0001      0011       010</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80034/gate1987-1-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>The below figure shows four D-type flip-flops connected as a shift register using a XOR gate. The initial state and three subsequent states for three clock pulses are also given.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Sequential_Circuit\\q13-a_8cd52ef1.jpg\"><br><br>\\(\\begin{array}{|c|c|c|c|c|} \\hline \\text{State} &amp; Q_{A} &amp; Q_{B} &amp; Q_{C} &amp; Q_{D} \\\\\\hline \\text{Initial} &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\\\\\hline \\text{After the first clock} &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\\\\\hline \\text{After the second clock} &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\\\\\hline \\text{After the third clock} &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\\\\\hline \\end{array}\\)<br><br>The state \\(Q_{A} Q_{B} Q_{C} Q_{D}\\) after the fourth clock pulse is <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0000</p>",
+            "<b>B.</b> <p>1111</p>",
+            "<b>C.</b> <p>1001</p>",
+            "<b>D.</b> <p>1000</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82607/gate1987-13-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

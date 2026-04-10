@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Supernetting",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Supernetting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"17443\"></a><div itemprop=\"text\"><p>A supernet has a first address of \\( 205.16.32.0 \\) and a supernet mask of \\( 255.255.248.0. \\)&nbsp; A router receives \\( 4 \\) packets with the following destination addresses. Which packet belongs to this supernet?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2014 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 205.16.42.56 \\)</p>",
+            "<p>\\( 205.17.32.76 \\)</p>",
+            "<p>\\( 205.16.31.10 \\)</p>",
+            "<p>\\( 205.16.39.44 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 205.16.39.44 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17443/isro-cse-2014-question-57\" target=\"_blank\">https://gateoverflow.in/17443/isro-cse-2014-question-57</a></p>"
+        }
+      ]
+    }
+  ]
+}

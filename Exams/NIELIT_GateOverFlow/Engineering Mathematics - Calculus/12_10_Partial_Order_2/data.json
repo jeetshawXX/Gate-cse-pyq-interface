@@ -1,0 +1,41 @@
+{
+  "title": "Engineering Mathematics - Calculus - Partial Order",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Partial Order",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378722\"></a><div itemprop=\"text\"><p>If&nbsp; \\( z= \\cos \\left ( \\frac{x}{y} \\right ) + \\sin\\left ( \\frac{x}{y} \\right ) \\), then \\( xz_{x}+yz_{y} \\) is equal to _________.</p>\n\n</div><br><br><b>Calculus: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( z \\)</p>",
+            "<p>\\( 2z \\)</p>",
+            "<p>\\( 4z \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378722/nielit-2021-dec-scientist-b-section-b-41\" target=\"_blank\">https://gateoverflow.in/378722/nielit-2021-dec-scientist-b-section-b-41</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366922\"></a><div itemprop=\"text\"><p>If \\( z = \\cos \\left( \\dfrac{x}{y} \\right) + \\sin \\left( \\dfrac{x}{y} \\right),  \\) then \\( xz_{x} + yz_{y} \\) is equal to ____________ .</p>\n\n</div><br><br><b>Calculus: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( z \\)&nbsp;</p>",
+            "<p>\\( 2z \\)</p>",
+            "<p>\\( 4z \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366922/nielit-2021-dec-scientist-b-section-b-95\" target=\"_blank\">https://gateoverflow.in/366922/nielit-2021-dec-scientist-b-section-b-95</a></p>"
+        }
+      ]
+    }
+  ]
+}

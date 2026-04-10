@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Encoding",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Encoding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"42661\"></a><div itemprop=\"text\"><p>An example of a dictionary-based coding technique is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 3 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Run-length coding</p>",
+            "<p>Huffman coding</p>",
+            "<p>Predictive coding</p>",
+            "<p>LZW coding</p>"
+          ],
+          "correct_answer": "<p>LZW coding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/42661/ugc-net-cse-december-2012-part-3-question-68\" target=\"_blank\">https://gateoverflow.in/42661/ugc-net-cse-december-2012-part-3-question-68</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"13111\"></a><div itemprop=\"text\"><p>Given code word \\( 1110001010 \\) is to be transmitted with even parity check bit. The encoded word to be transmitted for this code is</p></div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11100010101 \\)</p>",
+            "<p>\\( 11100010100 \\)</p>",
+            "<p>\\( 1110001010 \\)</p>",
+            "<p>\\( 111000101 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11100010101 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/13111/ugc-net-cse-june-2013-part-3-question-55\" target=\"_blank\">https://gateoverflow.in/13111/ugc-net-cse-june-2013-part-3-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

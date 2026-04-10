@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Decomposition",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Decomposition",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"461016\"></a><div itemprop=\"text\"><p>​​​​​If a relational decomposition is not dependency-preserving, which one of the following relational operators will be executed more frequently in order to maintain the dependencies?</p></div><br><br><b>GATE DA 2025 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Selection</p>",
+            "<p>Projection</p>",
+            "<p>Join</p>",
+            "<p>Set union</p>"
+          ],
+          "correct_answer": "<p>Join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461016/gate-da-2025-question-6\" target=\"_blank\">https://gateoverflow.in/461016/gate-da-2025-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

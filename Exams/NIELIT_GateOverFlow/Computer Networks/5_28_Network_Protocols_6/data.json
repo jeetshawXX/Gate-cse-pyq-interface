@@ -1,0 +1,101 @@
+{
+  "title": "Computer Networks - Network Protocols",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Network Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336638\"></a><div itemprop=\"text\"><p>A set of rules that governs data communication:</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rule</p>",
+            "<p>Medium</p>",
+            "<p>Link</p>",
+            "<p>Protocol</p>"
+          ],
+          "correct_answer": "<p>Protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336638/nielit-2016-dec-scientist-b-it-section-b-31\" target=\"_blank\">https://gateoverflow.in/336638/nielit-2016-dec-scientist-b-it-section-b-31</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336814\"></a><div itemprop=\"text\"><p>Which NetWare protocol provides link - state routing ?&nbsp;</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( NLSP \\)</p>",
+            "<p>\\( RIP \\)</p>",
+            "<p>\\( SAP \\)</p>",
+            "<p>\\( NCP \\)</p>"
+          ],
+          "correct_answer": "<p>\\( NLSP \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336814/nielit-2017-dec-scientific-assistant-a-section-b-32\" target=\"_blank\">https://gateoverflow.in/336814/nielit-2017-dec-scientific-assistant-a-section-b-32</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336897\"></a><div itemprop=\"text\"><p>Which of the following would not be specified in a communication protocol?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Header contents</p>",
+            "<p>Trailer contents</p>",
+            "<p>Error Checking</p>",
+            "<p>Data content of message</p>"
+          ],
+          "correct_answer": "<p>Data content of message</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336897/nielit-2017-oct-scientific-assistant-a-cs-section-b-23\" target=\"_blank\">https://gateoverflow.in/336897/nielit-2017-oct-scientific-assistant-a-cs-section-b-23</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"275511\"></a><div itemprop=\"text\"><p>Identify the true statement from the given statements.</p>\n\n<ol>\n\t<li>HTTP may use different TCP connection for different objects of a webpage if non-persistent connections are used</li>\n\t<li>FTP uses two TCP connections, one for data and another control</li>\n\t<li>TELNET and FTP can only use TWO connections at a time</li>\n</ol>\n\n</div><br><br><b>Computer Networks: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1 \\) and \\( 2 \\)</p>",
+            "<p>\\( 2 \\) and \\( 3 \\)</p>",
+            "<p>\\( 1 \\), \\( 2 \\) and \\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275511/nielit-2018-53\" target=\"_blank\">https://gateoverflow.in/275511/nielit-2018-53</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"351417\"></a><div itemprop=\"text\"><p>Which among the following types of Server filters Website Traffic?</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientific Assistant A 2020 November: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>POP Server</p>",
+            "<p>Database Server</p>",
+            "<p>Proxy Server</p>",
+            "<p>Mail Server</p>"
+          ],
+          "correct_answer": "<p>Proxy Server</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351417/nielit-scientific-assistant-a-2020-november-44\" target=\"_blank\">https://gateoverflow.in/351417/nielit-scientific-assistant-a-2020-november-44</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"351365\"></a><div itemprop=\"text\"><p>The router table contains addresses belonging to ___________ protocol(s).</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientific Assistant A 2020 November: 95</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a single</p>",
+            "<p>two</p>",
+            "<p>multiple</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>a single</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351365/nielit-scientific-assistant-a-2020-november-95\" target=\"_blank\">https://gateoverflow.in/351365/nielit-scientific-assistant-a-2020-november-95</a></p>"
+        }
+      ]
+    }
+  ]
+}

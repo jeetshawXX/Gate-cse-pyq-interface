@@ -1,0 +1,56 @@
+{
+  "title": "Non GATE CSE - Distributed Computing - Distributed Computing",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Distributed Computing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60111\"></a><div itemprop=\"text\"><p>Consider the following statements :</p>\n\n<p>I. Re-construction operation used in mixed fragmentation satisfies commutative rule.</p>\n\n<p>II. Re-construction operation used in vertical fragmentation satisfies commutative rule Which of the following is correct ?&nbsp;</p>\n\n</div><br><br><b>Distributed Computing: UGC NET CSE | December 2014 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\)&nbsp;</p>",
+            "<p>\\( II \\)&nbsp;</p>",
+            "<p>Both are correct&nbsp;</p>",
+            "<p>None of the statements are correct.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>None of the statements are correct.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60111/ugc-net-cse-december-2014-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/60111/ugc-net-cse-december-2014-part-3-question-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60967\"></a><div itemprop=\"text\"><p>In a distributed computing environment, distributed shared memory is used which is&nbsp;</p>\n\n</div><br><br><b>Distributed Computing: UGC NET CSE | December 2014 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Logical combination of virtual memories on the nodes.</p>",
+            "<p>Logical combination of physical memories on the nodes.​</p>",
+            "<p>Logical combination of the secondary memories on all the nodes.</p>",
+            "<p>All of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Logical combination of physical memories on the nodes.​</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60967/ugc-net-cse-december-2014-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/60967/ugc-net-cse-december-2014-part-3-question-54</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"54059\"></a><div itemprop=\"text\">\n<p>&nbsp;Object Request Broker (ORB) is</p>\n\n<p>I. A software program that runs on the client as well as on the application server.</p>\n\n<p>II. A software program that runs on the client side only.</p>\n\n<p>III. A software program that runs on the application server, where most of the components reside.&nbsp;</p>\n\n\n</div><br><br><b>Distributed Computing: UGC NET CSE | June 2014 | Part 2 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\), \\( II \\) &amp; \\( III \\)</p>",
+            "<p>\\( I \\) &amp; \\( II \\)&nbsp;</p>",
+            "<p>\\( II \\) &amp; \\( III \\)&nbsp;</p>",
+            "<p>\\( I \\) only&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( I \\) only&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54059/ugc-net-cse-june-2014-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/54059/ugc-net-cse-june-2014-part-2-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+}

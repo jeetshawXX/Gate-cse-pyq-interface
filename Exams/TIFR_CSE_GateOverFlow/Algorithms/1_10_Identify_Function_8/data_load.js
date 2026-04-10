@@ -1,0 +1,139 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Identify Function",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Identify Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18742\"></a><div itemprop=\"text\"><p>Consider the following program operating on four variables \\( u, v, x, y \\), and two constants \\( X \\) and \\( Y \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">x, y, u, v:= X, Y, Y, X;    \nWhile (x ≠ y)  \ndo\n    if (x &gt; y) then x, v := x - y, v + u;\n    else if (y &gt; x) then y, u:= y - x, u + v;  \nod;\nprint ((x + y) / 2);  print ((u + v) / 2);  </pre>\n\n<p>Given \\( X &gt; 0&nbsp;\\land Y &gt; 0 \\), pick the true statement out of the following:</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2010 | Part B | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The program prints \\( \\text{gcd}(X, Y) \\) and the first prime larger than both \\( X \\) and \\( Y \\).</p>",
+            "<p>The program prints \\( \\text{gcd}(X, Y) \\) followed by \\( \\text{lcm}(X, Y) \\).</p>",
+            "<p>The program prints \\( \\text{gcd}(X, Y) \\) followed by \\( \\frac1 2 \\times \\text{lcm}(X, Y) \\).</p>",
+            "<p>The program prints \\( \\frac1 2 \\times&nbsp;\\text{gcd}(X, Y) \\) followed by \\( \\frac1 2 \\times&nbsp;\\text{lcm}(X, Y) \\).</p>",
+            "<p>The program does none of the above.</p>"
+          ],
+          "correct_answer": "<p>The program prints \\( \\text{gcd}(X, Y) \\) followed by \\( \\text{lcm}(X, Y) \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18742/tifr-cse-2010-part-b-question-24\" target=\"_blank\">https://gateoverflow.in/18742/tifr-cse-2010-part-b-question-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"27136\"></a><div itemprop=\"text\"><p>Consider the following code.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">def brian(n):\n    count = 0 \n\n    while ( n ! = 0 )\n          n = n &amp; ( n-1 ) \n         count = count + 1 \n\n  return count</pre>\n\n<p>Here \\( n \\) is meant to be an unsigned integer. The operator &amp; considers its arguments in binary and computes&nbsp;their bit wise \\( \\text{AND} \\). For example, \\( 22 \\) &amp; \\( 15 \\) gives \\( 6 \\), because the binary (say 8-bit) representation of \\( 22 \\) is \\( 00010110 \\) and the binary representation of \\( 15 \\) is \\( 00001111 \\), and the bit-wise \\( \\text{AND} \\) of these binary strings is \\( 00000110 \\), which is the binary representation of \\( 6 \\).&nbsp;What does the function \\( \\textsf{brian} \\) return?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The highest power of \\( 2 \\) dividing \\( n \\), but zero if \\( n \\) is zero.</p>",
+            "<p>The number obtained by complementing the binary representation of \\( n \\).</p>",
+            "<p>The number of ones in the binary representation of \\( n \\).</p>",
+            "<p>The code might go into an infinite loop for some \\( n \\).</p>",
+            "<p>The result depends on the number of bits used to store unsigned integers.</p>"
+          ],
+          "correct_answer": "<p>The number of ones in the binary representation of \\( n \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27136/tifr-cse-2014-part-b-question-2\" target=\"_blank\">https://gateoverflow.in/27136/tifr-cse-2014-part-b-question-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27354\"></a><div itemprop=\"text\"><p>Consider the following game. There is a list of distinct numbers. At any round, a player arbitrarily&nbsp;chooses two numbers \\( a, b \\) from the list and generates a new number \\( c \\) by subtracting the smaller number&nbsp;from the larger one. The numbers \\( a \\) and \\( b \\) are put back in the list. If the number \\( c \\) is non-zero and is not yet&nbsp;in the list, \\( c \\) is added to the list. The player is allowed to play as many rounds as the player wants. The score&nbsp;of a player at the end is the size of the final list.</p>\n\n<p>Suppose at the beginning of the game the list contains the following numbers: \\( 48, 99, 120, 165 \\) and \\( 273 \\).&nbsp;What is the score of the best player for this game?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 33 \\)</p>",
+            "<p>\\( 91 \\)</p>",
+            "<p>\\( 123 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 91 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27354/tifr-cse-2014-part-b-question-20\" target=\"_blank\">https://gateoverflow.in/27354/tifr-cse-2014-part-b-question-20</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"29846\"></a><div itemprop=\"text\"><p>Consider the following code fragment in the \\( C \\) programming language when run on a non-negative integer \\( n \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int f (int n)  \n{   \n     if (n==0 || n==1) \n         return 1;  \n     else   \n         return f (n - 1) + f(n - 2); \n}</pre>\n\n<p>Assuming a typical implementation of the language, what is the running time of this algorithm and how does it compare to the optimal running time for this problem?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2015 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>This algorithm runs in polynomial time in \\( n \\) but the optimal running time is exponential in \\( n \\).</p>",
+            "<p>This algorithm runs in exponential time in \\( n \\) and the optimal running time is exponential in \\( n \\).</p>",
+            "<p>This algorithm runs in exponential time in \\( n \\) but the optimal running time is polynomial in \\( n \\).</p>",
+            "<p>This algorithm runs in polynomial time in \\( n \\) and the optimal running time is polynomial in \\( n \\).</p>",
+            "<p>The algorithm does not terminate.</p>"
+          ],
+          "correct_answer": "<p>This algorithm runs in exponential time in \\( n \\) but the optimal running time is polynomial in \\( n \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29846/tifr-cse-2015-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/29846/tifr-cse-2015-part-b-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"98010\"></a><div itemprop=\"text\"><p>A computer program computes a function \\( \\: f \\: \\{0, 1\\}^* \\times \\{0, 1\\}^* \\rightarrow \\{0, 1\\}^* \\). Suppose \\( f(a, b) \\) ahs length \\( \\mid b \\mid ^2 \\), where \\( \\mid a \\mid \\) and&nbsp;\\( \\mid b&nbsp;\\mid \\) are the lengths of \\( a \\) and \\( b \\). Suppose, using this program, the following computation is performed.</p><pre class=\"prettyprint lang-c_cpp\">x=\"01\"\nfor i=1, ... , n do\n    x=f(\"01\", x)</pre><p>Suppose at the end, the length of the string \\( x \\) is \\( t \\). Which of the following is TRUE (assume \\( n \\geq 10)? \\)</p></div><br><br><b>Algorithms: TIFR CSE 2016 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  t \\leq 2n \\)</p>",
+            "<p>\\( n &lt; t \\leq n^2 \\)</p>",
+            "<p>\\( n^2 &lt; t \\leq n^{\\log_2 n} \\)</p>",
+            "<p>\\(  n^{\\log_2 n} &lt; t \\leq 2^{(2^n)} \\)</p>",
+            "<p>\\( 2^{(2^n)} &lt; t \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  n^{\\log_2 n} &lt; t \\leq 2^{(2^n)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/98010/tifr-cse-2016-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/98010/tifr-cse-2016-part-b-question-12</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"95299\"></a><div itemprop=\"text\"><p>Consider the following program modifying an \\( n \\times n \\) square matrix \\( A \\):</p>\n\n<pre class=\"prettyprint lang-c_cpp\">for i=1 to n:\n    for j=1 to n:\n        temp=A[i][j]+10\n        A[i][j]=A[j][i]\n        A[j][i]=temp-10\n    end for\nend for</pre>\n\n<p>Which of the following statements about the contents of matrix \\( A \\) at the end of this program must be TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2017 | Part A | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>the new \\( A \\) is the transpose of the old \\( A \\)</p>",
+            "<p>all elements above the diagonal have their values increased by \\( 10 \\) and all the values below have their values decreased by \\( 10 \\)</p>",
+            "<p>all elements above the diagonal have their values decreased by \\( 10 \\) and all the values below have their values increased by \\( 10 \\)</p>",
+            "<p>the new matrix \\( A \\) is symmetric, that is, \\( A[i][j]=A[j][i] \\) for all \\( 1 \\leq i, j \\leq n \\)</p>",
+            "<p>\\( A \\) remains unchanged</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95299/tifr-cse-2017-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/95299/tifr-cse-2017-part-a-question-12</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"333127\"></a><div itemprop=\"text\"><p>Consider the following algorithm (Note: For positive integers, \\( p,q,p/q \\) denotes the floor of the rational number \\( \\dfrac{p}{q} \\), assume that given \\( p,q,p/q \\) can be computed in one step):</p>\n\n<p>\\( \\textbf{Input:} \\) Two positive integers \\( a,b,a\\geq b. \\)</p>\n\n<p>\\( \\textbf{Output:} \\) A positive integers \\( g. \\)</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">while(b&gt;0) {\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  x = a – (a/b)*b;\n             a = b;\n             b = x;\n&nbsp;       }\n\ng = a;</pre>\n\n<p>Suppose \\( K \\) is an upper bound on \\( a \\). How many iterations does the above algorithm take in the worst case?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2020 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(\\log K) \\)</p>",
+            "<p>\\( \\Theta({K}) \\)</p>",
+            "<p>\\( \\Theta({K\\log K}) \\)</p>",
+            "<p>\\( \\Theta({K^{2}}) \\)</p>",
+            "<p>\\( \\Theta({2^{K}}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(\\log K) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333127/tifr-cse-2020-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/333127/tifr-cse-2020-part-b-question-7</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"382005\"></a><div itemprop=\"text\"><p>Consider the following algorithm for computing the factorial of a positive integer \\( n \\), specified in binary:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">prod ← 1\nfor i from 1 to n \n    prod ← prod × i\noutput prod</pre>\n\n<p>Assume that the number of bit operations required to multiply a \\( k \\)-bit positive integer with an \\( \\ell \\)-bit positive integer is at least \\( \\Omega(k+l) \\) and at most \\( O(kl) \\). Then, the number of bit operations required by this algorithm is</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2022 | Part B | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\log n) \\) but \\( \\omega(n) \\)</p>",
+            "<p>\\( O\\left(n^2\\right) \\) but \\( \\omega(n \\log n) \\)</p>",
+            "<p>\\( O\\left(n^3\\right) \\) but \\( \\omega\\left(n^2\\right)  \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( O\\left(n^3\\right) \\) but \\( \\omega\\left(n^2\\right)  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/382005/tifr-cse-2022-part-b-question-4\" target=\"_blank\">https://gateoverflow.in/382005/tifr-cse-2022-part-b-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

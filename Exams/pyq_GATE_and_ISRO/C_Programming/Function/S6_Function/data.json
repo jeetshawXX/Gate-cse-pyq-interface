@@ -1,0 +1,236 @@
+{
+  "title": "Function - Function - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the C code to swap two integers and these five statements: the code<pre><code> void swap(int *px,int *py){\n*px=*px-*py;\n*py=*px+*py;\n*px=*py-*px;\n}</code></pre> S1 : will generate a compilation error <br>\nS2 : may generate a segmentation fault at runtime depending on the arguments passed <br>\nS3 : correctly implements the swap procedure for all input pointers referreing to integers stored in memory locations accessible tot he process <br>\nS4 : implements the swap procedure correctly for some but not all valid input pointers <br>\nS5 : may add or subtract integers and pointers <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1</p>",
+            "<b>B.</b> <p>S2 and S3</p>",
+            "<b>C.</b> <p>S2 and S4</p>",
+            "<b>D.</b> <p>S2 and S5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S2 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1835/gate2006-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following code written in a pass-by reference language like FORTAN\nand these statements about the code.<pre><code>subroutine swap(ix,iy)\n     it = ix\nL1 : ix = iy\nL2 : iy = it\nend\n  ia = 3\n  ib = 8\n  call swap (ia, 1b+5)\n  print *, ia, ib\nend </code></pre>\nS1: The complier will generate code to allocate a temporary nameless cell,\ninitialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2  <br> S4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement (s) is correct: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S3</p>",
+            "<b>D.</b> <p>S1 and S5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the output printed by the following program?<br><pre><code> #include &lt; stdio.h &gt;\nint f(int n, int k) {\n    if (n == 0) return 0;\n    else if (n % 2) return f(n/2, 2*k) + k;\n    else return f(n/2, 2*k) - k;\n}\n\nint main () {\n    printf(\"%d\", f(20, 1));\n    return 0;\n}</code></pre> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3818/gate2005-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following C-program:<pre><code>\ndouble foo (double); /* Line 1 */\nint main()\n{\n    double da, db;\n    // input da\n    db = foo(da);\n}\ndouble foo(double a)\n{\n    return a;\n}</code></pre>\nThe above code compiled without any error or warning. If Line 1 is deleted, the above code will\nshow: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no compile warning or error</p>",
+            "<b>B.</b> <p>some compiler-warnings not leading to unintended results</p>",
+            "<b>C.</b> <p>some compiler-warnings due to type-mismatch eventually leading to unintended results</p>",
+            "<b>D.</b> <p>compiler errors</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>compiler errors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1368/gate2005-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following C-program:<pre><code>void foo(int n, int sum)\n{\n  int k = 0, j = 0;\n  if (n == 0) return;\n    k = n % 10; \n  j = n / 10;\n  sum = sum + k;\n  foo (j, sum);\n  printf (\"%d,\", k);\n}\n  \nint main ()\n{\n  int a = 2048, sum = 0;\n  foo (a, sum);\n  printf (\"%dn\", sum);\n    \n  getchar();\n}</code></pre>\nWhat does the above program print? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, 4, 0, 2, 14</p>",
+            "<b>B.</b> <p>8, 4, 0, 2, 0</p>",
+            "<b>C.</b> <p>2, 0, 4, 8, 14</p>",
+            "<b>D.</b> <p>2, 0, 4, 8, 0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2, 0, 4, 8, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1367/gate2005-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What does the following C-statement declare?<pre><code>int ( * f) (int * ) ; </code></pre> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>B.</b> <p>A function that takes an integer as argument and returns an integer pointer</p>",
+            "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer.</p>",
+            "<b>D.</b> <p>A function that takes an integer pointer as argument and returns a function pointer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1343/gate2005-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C program:<br><pre><code>#include &lt; stdio.h &gt;\ntypedef struct {\n    char *a;\n    char *b;\n    } t;\nvoid f1 (t s);\nvoid f2 (t *p);\nmain()\n{\n    static t s = {\"A\", \"B\"};\n    printf (\"%s %s\\n\", s.a, s.b);\n    f1(s);\n    printf (\"%s %s\\n\", s.a, s.b);\n    f2(&amp;s);\n}\nvoid f1 (t s)\n{\n    s.a = \"U\";\n    s.b = \"V\";\n    printf (\"%s %s\\n\", s.a, s.b);\n    return;\n}\nvoid f2(t *p)\n{\n    p -&gt; a  = \"V\";\n    p -&gt; b = \"W\";\n    printf(\"%s %s\\n\", p -&gt; a, p -&gt; b);\n    return;\n}</code></pre> What is the output generated by the program ? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A  B <br>\nU  V<br>\nV  W<br>\nV  W</p>",
+            "<b>B.</b> <p>A  B<br>\nU  V<br>\nA  B<br>\nV  W</p>",
+            "<b>C.</b> <p>A  B<br>\nU  V<br>\nU  V<br>\nV  W</p>",
+            "<b>D.</b> <p>A  B<br>\nU  V<br>\nV  W<br>\nU  V</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A  B<br>\nU  V<br>\nA  B<br>\nV  W</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3704/gate2004-it-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Choose the correct option to fill the ?1 and ?2 so that the program prints an input string in reverse order. Assume that the input string is terminated by a new line character.<br><pre><code>#include &lt; stdio.h &gt;\nvoid wrt_it (void);\nint main (void)\n{\n    printf(\"Enter Text\"); \n    printf (\"\\n\");\n    wrt_it();\n    printf (\"\\n\");\n    return 0;\n}\nvoid wrt_it (void)\n{\n    int c;\n    if (?1)\n        wrt_it();\n    ?2\n} </code></pre> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>?1 is  getchar()!= '\\n' <br>?2 is  getchar(c);</p>",
+            "<b>B.</b> <p>?1 is  (c=getchar());!= '\\n'<br>?2 is  getchar(c);</p>",
+            "<b>C.</b> <p>?1 is  c!= '\\n'<br>?2 is  putchar(c);</p>",
+            "<b>D.</b> <p>?1 is  (c=getchar())!= '\\n'<br>?2 is  putchar(c);</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>?1 is  (c=getchar())!= '\\n'<br>?2 is  putchar(c);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3703/gate2004-it-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What is the output of the following program?<br><pre><code>#include &lt; stdio.h &gt;\nint funcf (int x);\nint funcg (int y);\nmain ()\n{\n    int x = 5, y = 10, count;\n    for (count = 1; count &lt;= 2; ++count) {\n        y += funcf(x) + funcg(x);\n        printf (\"%d\", y);\n    }\n}\nfuncf (int x) {\n    int y;\n    y = funcg(x);\n    return (y);\n}\nfuncg (int x) {\n    static int y = 10;\n    y += 1;\n    return (y + x);\n}\n </code></pre> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>43 80</p>",
+            "<b>B.</b> <p>42 74</p>",
+            "<b>C.</b> <p>33 37</p>",
+            "<b>D.</b> <p>32 32</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>43 80</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3702/gate2004-it-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C function:<pre><code> int f(int n)\n{\n   static int i = 1;\n   if (n &gt; = 5)\n      return n;\n   n = n+i;\n   i++;\n   return f(n);\n}</code></pre>\nThe value returned by f(1) is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1028/gate2004-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following C function<pre><code> void swap (int a, int b)\n{\n   int temp;\n   temp = a;\n   a = b;\n   b = temp;\n}</code></pre>\nIn order to exchange the values of two variables x and y. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>call swap (x, y)</p>",
+            "<b>B.</b> <p>call swap (&amp;x, &amp;y)</p>",
+            "<b>C.</b> <p>swap (x,y) cannot be used as it does not return any value</p>",
+            "<b>D.</b> <p>swap (x,y) cannot be used as the parameters are passed by value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>swap (x,y) cannot be used as the parameters are passed by value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/999/gate2004-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the C program shown below.<pre><code>  #include &lt; stdio.h &gt; \n#define print(x) printf(\"%d \", x)\nint x;\nvoid Q(int z)\n{\n    z += x;\n    print(z);\n}\nvoid P(int *y)\n{\n    int x = *y + 2;\n    Q(x);\n    *y = x - 1;\n    print(x);\n}\nmain(void)\n{\n    x = 5;\n    P(&amp;x);\n    print(x);\n}</code></pre>\nThe output of this program is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12 7 6</p>",
+            "<b>B.</b> <p>22 12 11</p>",
+            "<b>C.</b> <p>14 6 6</p>",
+            "<b>D.</b> <p>7 6 6</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>12 7 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/972/gate2003-89#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The following program fragment is written in a programming language that allows\nvariables and does not allow nested declarations of functions.<pre><code> global int i = 100, j = 5;\nvoid P(x)\n{\n    int i = 10;\n    print(x + 10);\n    i = 200;\n    j = 20;\n    print(x);\n}\nmain()\n{\n    P(i + j);\n} </code></pre> If the programming language uses dynamic scoping and call by name parameter\npassing mechanism, the values printed by the above program are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>115,220</p>",
+            "<b>B.</b> <p>25,220</p>",
+            "<b>C.</b> <p>25,15</p>",
+            "<b>D.</b> <p>115,105</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>115,220</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43575/gate2003-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The following program fragment is written in a programming language that allows\nvariables and does not allow nested declarations of functions.<pre><code> global int i = 100, j = 5;\nvoid P(x)\n{\n    int i = 10;\n    print(x + 10);\n    i = 200;\n    j = 20;\n    print(x);\n}\nmain()\n{\n    P(i + j);\n} </code></pre>\nIf the programming language uses static scoping and call by need parameter\npassing mechanism, the values printed by the above program are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>115,220</p>",
+            "<b>B.</b> <p>25,220</p>",
+            "<b>C.</b> <p>25,15</p>",
+            "<b>D.</b> <p>115,105</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>115,105</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/960/gate2003-73#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The results returned by function under value-result and reference parameter\npassing conventions <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Do not differ</p>",
+            "<b>B.</b> <p>Differ in the presence of loops</p>",
+            "<b>C.</b> <p>Differ in all cases</p>",
+            "<b>D.</b> <p>May differ in the presence of exception</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>May differ in the presence of exception</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/823/gate2002-1-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

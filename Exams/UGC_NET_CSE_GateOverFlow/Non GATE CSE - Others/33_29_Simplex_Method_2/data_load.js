@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Simplex Method",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Simplex Method",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61518\"></a><div itemprop=\"text\"><p>If an artificial variable is present in the ‘basic variable’ column of optimal simplex table, then the solution is</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2014 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Optimum</p>",
+            "<p>Infeasible&nbsp;</p>",
+            "<p>Unbounded&nbsp;</p>",
+            "<p>Degenerate&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Infeasible&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61518/ugc-net-cse-december-2014-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/61518/ugc-net-cse-december-2014-part-3-question-67</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"64116\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Revised simplex method requires lesser computations than the simplex methods</li>\n\t<li>Revised simplex method automatically generates the inverse of the current basis matrix</li>\n\t<li>Less number of entries are needed in each table of the revised simplex method than usual simplex method</li>\n</ol>\n\n<p>Which of these statements is true?</p>\n\n</div><br><br><b>Others: UGC NET CSE | July 2016 | Part 3 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i and ii&nbsp;only</p>",
+            "<p>i and iii&nbsp;only</p>",
+            "<p>ii and iii&nbsp;only</p>",
+            "<p>i, ii, and iii</p>"
+          ],
+          "correct_answer": "<p>i, ii, and iii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64116/ugc-net-cse-july-2016-part-3-question-62\" target=\"_blank\">https://gateoverflow.in/64116/ugc-net-cse-july-2016-part-3-question-62</a></p>"
+        }
+      ]
+    }
+  ]
+});

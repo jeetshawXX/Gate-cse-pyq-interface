@@ -1,0 +1,236 @@
+{
+  "title": "Data_Structure - Queue",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Queue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a sequence \\(a\\) of elements \\(a_0 = 1, a_1 = 5, a_2 = 7, a_3 = 8, a_4 = 9, \\; and \\;\na_5 = 2\\). The following operations are performed on a stack \\(S\\) and a queue \\(Q\\), both\nof which are initially empty.<br><br>\nI: push the elements of a from \\(a_0\\) to \\(a_5\\) in that order into \\(S\\).<br>\nII: enqueue the elements of a from \\(a_0\\) to \\(a_5\\) in that order into \\(Q\\).\n<br>III: pop an element from \\(S\\).\n<br>IV: dequeue an element from \\(Q\\).\n<br>V: pop an element from \\(S\\).\n<br>VI: dequeue an element from \\(Q\\).\n<br>VII: dequeue an element from \\(Q\\) and push the same element into \\(S\\).\n<br>VIII: Repeat operation VII three times.\n<br>IX: pop an element from \\(S\\).\n<br>X: pop an element from \\(S\\).\n<br><br>The top element of \\(S\\) after executing the above operations is ___. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399262/gate-cse-2023-question-49#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the queues Q1 containing four elements and Q2 containing none (shown\nas the Initial State in the figure). The only operations allowed on these two queues are  \\(Enqueue(Q,element)\\)   and  \\(Dequeue(Q)\\).   The  minimum  number  of \\(Enqueue \\) operations on Q1 required to place the elements of Q1 in Q2 in reverse\norder (shown as the Final State in the figure) without using any additional storage is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Queue\\q52_05348840.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371884/Gate-cse-2022-question-52#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A queue is implemented using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let n denote the number of nodes in the queue. Let enqueue be implemented by inserting a new node at the head, and dequeue be implemented by deletion of a node from the tail.    <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Queue\\q3_34b9ffa9.jpg\"><br>  Which one of the following is the time complexity of the most time-efficient implementation of enqueue and dequeue, respectively, for this data structure? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (1), \\Theta (1)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (1), \\Theta (n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n), \\Theta (1)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n), \\Theta (n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (1), \\Theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204077/gate2018-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following data structure is useful in traversing a given graph by breadth first search? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Stack</p>",
+            "<b>B.</b> <p>Queue</p>",
+            "<b>C.</b> <p>List</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/129119/isro2017-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A circular queue has been implemented using a single linked list where each node consists of\na value and a single pointer pointing to the next node. We maintain exactly two external\npointers FRONT and REAR pointing to the front node and the rear node of the queue,\nrespectively. Which of the following statements is/are CORRECT for such a circular queue,\nso that insertion and deletion operation can be performed in O (1) time ?<br><br>\nI. Next pointer of front node points to the rear node.<br>\nII. Next pointer of rear node points to the front node. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118253/gate2017-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let Q denote a queue containing sixteen numbers and S be an empty stack. Head(Q) returns the element at the head of the queue Q without removing it from Q. Similarly Top(S) returns the element at the top of S without removing it from S. Consider the algorithm given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Queue\\q41_f1da2e75.jpg\"><br> The maximum possible number of iterations of the while loop in the algorithm is_________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "256",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39684/gate2016-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A queue is implemented using an array such that ENQUEUE and DEQUEUE operations are performed efficiently. Which one of the following statements is CORRECT (n refers to the number of items in the queue)? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both operations can be performed in O(1) time</p>",
+            "<b>B.</b> <p>At most one operation can be performed in O(1) time but the worst case time for\nthe other operation will be \\(\\Omega\\)(n)</p>",
+            "<b>C.</b> <p>The worst case time complexity for both operations will be \\(\\Omega\\)(n)</p>",
+            "<b>D.</b> <p>Worst case time complexity for both operations will be \\(\\Omega\\)(logn)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both operations can be performed in O(1) time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39667/gate2016-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The queue data structure is to be realized by using stack. The number of stacks needed would be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It cannot be implemented</p>",
+            "<b>B.</b> <p>2 stacks</p>",
+            "<b>C.</b> <p>4 stacks</p>",
+            "<b>D.</b> <p>1 stack</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 stacks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51086/isro2015-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a standard Circular Queue implementation (which has the same condition for Queue Full and Queue Empty) whose size is 11 and the elements of the queue are q[0],q[1],... q[10].<br>The front and rear pointers are initialized to point at q[2]. In which position will the ninth element be added? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>q[0]</p>",
+            "<b>B.</b> <p>q[1]</p>",
+            "<b>C.</b> <p>q[9]</p>",
+            "<b>D.</b> <p>q[10]</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>q[0]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17423/isro2014-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following operation along with Enqueue and Dequeue operations on queues, where\nk is a global parameter. <br><pre><code> MultiDequeue(Q){\nm = k\nwhile (Q is not empty) and (m &gt; 0) {\n   Dequeue(Q)\n   m = m - 1\n   }\n} </code></pre>\nWhat is the worst case time complexity of a sequence of n queue operations on an initially empty\nqueue? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n+k)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (nk)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/61/gate2013-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Suppose a circular queue of capacity (n-1) elements is implemented with an array of n elements.\nAssume that the insertion and deletion operations are carried out using REAR and FRONT as array\nindex variables, respectively. Initially, REAR = FRONT = 0. The conditions to detect queue full\nand queue empty are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>full: (REAR+1) mod n == FRONT <br>\nempty: REAR == FRONT</p>",
+            "<b>B.</b> <p>full: (REAR+1) mod n == FRONT <br>\nempty: (FRONT+1) mod n == REAR</p>",
+            "<b>C.</b> <p>full: REAR == FRONT <br>\nempty: (REAR+1) mod n == FRONT</p>",
+            "<b>D.</b> <p>full: (FRONT+1) mod n == REAR <br>\nempty: REAR == FRONT</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>full: (REAR+1) mod n == FRONT <br>\nempty: REAR == FRONT</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1756/gate2012-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose you are given an implementation of a queue of integers. The operations that can be performed on the queue are:<br>\ni. isEmpty(Q) returns true if the queue is empty, false otherwise.<br>\nii. delete(Q) deletes the element at the front of the queue and returns its value.<br>\niii. insert(Q,i) inserts the integer i at the rear of the queue.<br>\nConsider the following function <br><pre><code>void f (queue Q) {\nint i ;\nif (!isEmpty(Q)) {\n   i = delete(Q);\n   f(Q);\n   insert(Q, i);\n  }\n} </code></pre> <br>\nWhat operation is performed by the above function f ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Leaves the queue Q unchanged</p>",
+            "<b>B.</b> <p>Reverses the order of the elements in the queue Q</p>",
+            "<b>C.</b> <p>Deletes the element at the front of the queue Q and inserts it at the rear keeping the other elements in the same order</p>",
+            "<b>D.</b> <p>Empties the queue Q</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Reverses the order of the elements in the queue Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3463/gate2007-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>An implementation of a queue Q, using two stacks S1 and S2, is given below:<pre><code>\nvoid insert(Q,x){\n    push (S1,x);\n}\nvoid delete(Q){\n   if (stack-empty (S2))then\n         if (stack-empty (S1))then{\n               print(\"Q is empty\");\n               return;\n           }\n         else while (! (stack-empty)(S1)){\n                x=pop(S1);\n                push(S2,x);\n            }\n       x=pop(S2);\n}</code></pre> Let n insert and m(\\(\\leq\\)n) delete operations be performed in an arbitrary on an\nempty queue Q, Let x and y be the number of push and pop operations performed\nrespectively in the processes. Which one of the following is true for all m and n ? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m+n \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq n+m\\)</p>",
+            "<b>B.</b> <p>\\(m+n \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq 2n\\)</p>",
+            "<b>C.</b> <p>\\(2m\\leq x\\leq 2n\\) and \\(2m \\leq y \\leq n+m\\)</p>",
+            "<b>D.</b> <p>\\(2m \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq 2n\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(m+n \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq n+m\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1826/gate2006-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A priority queue Q is used to implement a stack that stores characters. PUSH (C) is implemented as INSERT\n(Q,C,K) where K is an appropriate integer key chosen by the implementation. POP is implemented as DELETEMIN (Q). For a sequence of operations, the keys chosen are in <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-increasing order</p>",
+            "<b>B.</b> <p>non-decreasing order</p>",
+            "<b>C.</b> <p>strictly increasing order</p>",
+            "<b>D.</b> <p>strictly decreasing order</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>strictly decreasing order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2248/gate1997-4-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following statements:<br><br>\n(i). First-in-first out types of computations are efficiently supported by STACKS. <br>\n(ii). Implementing LISTS on linked lists is more efficient than implementing LISTS on an array for almost all the basic LIST operations.<br>\n(iii). Implementing QUEUES on a circular array is more efficient than implementing QUEUES on a linear array with two indices.<br>\n(iv). Last-in-first-out type of computations are efficiently supported by QUEUES. <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(ii) and (iii) are true</p>",
+            "<b>B.</b> <p>(i) and (ii) are true</p>",
+            "<b>C.</b> <p>(iii) and (iv) are true</p>",
+            "<b>D.</b> <p>(ii) and (iv) are true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(ii) and (iii) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2716/gate1996-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>What is the minimum number of stacks of size n required to implement a queue\nto size n ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One</p>",
+            "<b>B.</b> <p>two</p>",
+            "<b>C.</b> <p>three</p>",
+            "<b>D.</b> <p>four</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>two</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/734/gate2001-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

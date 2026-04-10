@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 17",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In serial data transmission, every byte of data is padded with a '0' in the beginning\nand one or two '1's at the end of byte because <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Receiver is to be synchronized for byte reception</p>",
+            "<b>B.</b> <p>Receiver recovers lost '0's and '1' from these padded bits</p>",
+            "<b>C.</b> <p>Padded bits are useful in parity computation.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Receiver is to be synchronized for byte reception</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/815/gate2002-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In serial communication employing 8 data bits, a parity bit and 2 stop bits, the minimum band rate required to sustain a transfer rate of 300 characters per second is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2400 band</p>",
+            "<b>B.</b> <p>19200 band</p>",
+            "<b>C.</b> <p>4800 band</p>",
+            "<b>D.</b> <p>1200 band</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4800 band</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1653/gate1998-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Purpose of a start bit in \\(\\text{RS-232}\\) serial communication protocol is: <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>to synchronize receiver for receiving every byte</p>",
+            "<b>B.</b> <p>to synchronize receiver for receiving a sequence of bytes</p>",
+            "<b>C.</b> <p>a parity bit</p>",
+            "<b>D.</b> <p>to synchronize receiver for receiving the last byte</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>to synchronize receiver for receiving every byte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2229/gate1997-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the distance of the following code 000000, 010101, 000111, 011001, 111111? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2599/gate1995-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an asynchronous serial line at 2400 baud rate, and with two stop bits is <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>109</p>",
+            "<b>B.</b> <p>216</p>",
+            "<b>C.</b> <p>218</p>",
+            "<b>D.</b> <p>219</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>218</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2287/gate1993-6-4-isro2008-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Start and stop bits do not contain any \"information\" but are used in serial communication for <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Error detection</p>",
+            "<b>B.</b> <p>Error correction</p>",
+            "<b>C.</b> <p>Synchronization</p>",
+            "<b>D.</b> <p>Slowing down the communications.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/582/gate1992-03-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nStart and stop bits do not contain any 'information' but are used in serial communication <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Error detection</p>",
+            "<b>B.</b> <p>Error correction</p>",
+            "<b>C.</b> <p>Synchronization</p>",
+            "<b>D.</b> <p>Slowing down the communications</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/560/gate1992-02-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

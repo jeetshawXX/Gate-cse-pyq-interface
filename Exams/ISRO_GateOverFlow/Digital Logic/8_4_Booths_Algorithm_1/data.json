@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Booths Algorithm",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Booths Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48065\"></a><div itemprop=\"text\"><p>The two numbers given below are multiplied using the Booth's algorithm</p>\n\n<p>Multiplicand \\( : 0101\\; 1010 \\;1110 \\;1110 \\)</p>\n\n<p>Multiplier \\( : 0111\\; 0111\\; 1011\\; 1101 \\)</p>\n\n<p>How many additions/subtractions are required for the multiplication of the above two numbers?</p>\n\n</div><br><br><b>Digital Logic: ISRO CSE 2009 | Question: 40 , GATE2008</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48065/isro-cse-2009-question-40-gate2008-it_42\" target=\"_blank\">https://gateoverflow.in/48065/isro-cse-2009-question-40-gate2008-it_42</a></p>"
+        }
+      ]
+    }
+  ]
+}

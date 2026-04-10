@@ -1,0 +1,87 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Round Table Arrangement",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Round Table Arrangement",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"202\"></a><div itemprop=\"text\">A, B, C, D, E, F, G and H are sitting around a circular table, facing the centre. Each of them has a different profession, viz doctor, engineer, architect, pilot, banker, teacher, businessman and politician. The politician sits third to the right of G. C is an immediate neighbour of G. The architect sits second to the right of C. B sits third to the right of H. H is neither a politician nor an architect. Only one person sits between C and the teacher. A and F are immediate neighbours of each other. Neither A nor F is a politician. The doctor sits second to the right of A. Two people sit between D and the engineer. D is not a politician. The pilot is not an immediate neighbour of the politician. The banker sits second to the left of A. Who is the Banker?</div><br><br><b>Logical Reasoning: A, B, C, D, E, F, G and H are sitting around a circular table, facing the centre</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/202/b-g-and-h-are-sitting-around-circular-table-facing-the-centre\" target=\"_blank\">https://aptitude.gateoverflow.in/202/b-g-and-h-are-sitting-around-circular-table-facing-the-centre</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"207\"></a><div itemprop=\"text\">Eight people A, B, C, D, E, F, G and H are sitting around a circular table facing the centre of the table but not necessarily in the same order. Each of them has a different profession, viz Teacher, Singer, Doctor, Accountant, Lawyer, Banker, Businessman and Actor. A sits third to the right of the Actor. Only two people sit between the Actor and H. Doctor and Businessman are immediate neighbours. Neither A nor H is either Businessman or a Doctor. The Businessman is not an immediate neighbour of the Actor. The teacher sits second to the left of E. E is not an immediate neighbour of H. The Teacher is an immediate neighbour of both the Accountant and Lawyer. The Lawyer sits third to the right of B. B is not Businessman. C sits on the immediate right of the singer. A is not a Singer. F is not an immediate neighbour of A. G is not an immediate neighbour of the Teacher.</div><br><br><b>Logical Reasoning: Eight people A, B, C, D, E, F, G and H are sitting around a circular table facing the centre of the table but not necessarily in the same order</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/207/people-sitting-around-circular-facing-centre-necessarily\" target=\"_blank\">https://aptitude.gateoverflow.in/207/people-sitting-around-circular-facing-centre-necessarily</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1\"></a><div itemprop=\"text\"><p>Eight people – A, B, C, D, E, F, G and H are sitting around a circular table facing the centre, but not necessarily in the same order. All of them are at equidistant. Each one of them teaches different subjects viz., English, Hindi, Mathematics, Biology, Psychology, Physics, Chemistry and Accounts, but not necessarily in the same order.<br>\n<br>\n&nbsp;The person who teaches Accounts, sits third to the right of G. C is an immediate neighbour of G. The person who teaches Mathematics sits second to the left of C. B sits third to the right of H. H teaches neither Accounts nor Mathematics. Only two persons sit between C and the person who teaches Physics. A and F are immediate neighbours of each other. Neither A nor F teaches Accounts. The person who teaches English sits second to the right of A. Two persons sit between D and the person who teaches Hindi. D does not teach Accounts. The person who teaches Psychology is an immediate neighbour of the person who teaches Accounts. The person who teaches Physics sits second to the left of A. One of the immediate neighbours of G teaches Chemistry.<br>\n<br>\n&nbsp;1. Who among the following teaches Chemistry?</p>\n\n<ol>\n\t<li>A</li>\n\t<li>H</li>\n\t<li>D</li>\n\t<li>G</li>\n\t<li>None of these</li>\n</ol></div><br><br><b>Logical Reasoning: Round Table Arrangement</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1/round-table-arrangement\" target=\"_blank\">https://aptitude.gateoverflow.in/1/round-table-arrangement</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2570\"></a><div itemprop=\"text\"><p>Six people A,B,C,D,E,F are sitting around table , facing the center of table. A is sitting opposite B. D is sitting immediately to the right of A and to left of C. E is not sitting next to A. F is the sixth person<br>\n<br>\nWho is sitting to the left of A</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>E</li>\n\t<li>F</li>\n\t<li>D</li>\n\t<li>B</li>\n</ol></div><br><br><b>Logical Reasoning: Sitting Arrangement</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2570/sitting-arrangement\" target=\"_blank\">https://aptitude.gateoverflow.in/2570/sitting-arrangement</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2749\"></a><div itemprop=\"text\">(Directions: Q. Nos. 26 to 30): Study the following information and answer the following questions.<br>\n<br>\nEight people E, F, G, H, J, K, L and M are sitting around a circular table facing the centre. Each of them is of a different profession Chartered Accountant, Columnist, Doctor, Engineer, Financial Analyst, Lawyer, Professor and Scientist but not necessarily in the same order. F is sitting second to the left of K. The Scientist is an immediate neighbor of K. There are only three people between the Scientist and E. Only one person sits between the Engineer and E. The Columnist is to the immediate right of the Engineer. M is second to the right of K. H is the Scientist. G and J are immediate neighbours of each other. Neither G nor J is an Engineer. The Financial Analyst is to immediate left of F. The Lawyer is second to the right of the Columnist. The Professor is an immediate neighbour of the Engineer. G is second to the right of the Chartered Accountant.<br>\n<br>\n26. Who is sitting second to the right of E?<br>\n<br>\n1.The Lawyer<br>\n2.E<br>\n3.G<br>\n4.The Engineer<br>\n5.F<br>\n6.K<br>\n<br>\n27. Who amongst the following is the Professor?<br>\n<br>\n1.F<br>\n2.L<br>\n3.M<br>\n4.K<br>\n5.J<br>\n<br>\n28. Four of the following five are alike in a certain way based on the given arrangement and hence from a group. Which of the following does not belong to that group?<br>\n<br>\n1.Chartered Accountant – H<br>\n2.M – Doctor<br>\n3.J – Engineer<br>\n4.Financial Analyst – L<br>\n5.Lawyer – K<br>\n<br>\n29. What is the position of L with respect to the scientist?<br>\n<br>\n1.Third to the left<br>\n2.Second to the left<br>\n3.Second to the right<br>\n4.Third to the left<br>\n5.Immediate right<br>\n<br>\n30. Which of the following statements is true according to the given arrangement?<br>\n<br>\n1.The Lawyer is second to the left of the Doctor<br>\n2.E is an immediate neighbour of the Financial Analyst<br>\n3.H sits exactly between F and the Financial Analyst<br>\n4.Only four people sit between the Columnist and F<br>\n5.All of the given statements are true</div><br><br><b>Logical Reasoning: seating arrangement</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2749/seating-arrangement\" target=\"_blank\">https://aptitude.gateoverflow.in/2749/seating-arrangement</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"24\"></a><div itemprop=\"text\"><p>A, B, C, D, E, F, G and H are sitting around a circular table facing the center not necessarily in the same order. F is fourth to the left of A and second to the right of C. B is second to the left of A, and A is to the immediate right of G. E who is not an immediate neighbour of B is fourth to the left of D.</p><p>&nbsp;</p><p>Who is the immediate right of F?</p><p>&nbsp;</p><ol><li>D</li><li>H</li><li>B</li><li>C</li><li>None of these</li></ol><p>&nbsp;</p></div><br><br><b>Logical Reasoning: study the information and answer the questions</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/24/study-the-information-and-answer-the-questions\" target=\"_blank\">https://aptitude.gateoverflow.in/24/study-the-information-and-answer-the-questions</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"25\"></a><div itemprop=\"text\"><p>A, B, C, D, E, F, G and H are sitting around a circular table facing the center not necessarily in the same order. F is fourth to the left of A and second to the right of C. B is second to the left of A, and A is to the immediate right of G. E who is not an immediate neighbor of B is fourth to the left of D.</p>\n\n<p style=\"line-height: 20.8px;\">1. Which of the following is correct?</p>\n\n\n\n<p>&nbsp;</p>\n\n<p style=\"line-height: 20.8px;\">2. Who is second to the right of E?</p>\n\n<ol style=\"line-height: 20.8px; list-style-type: upper-alpha;\">\n\t<li>C</li>\n\t<li>H</li>\n\t<li>G</li>\n\t<li>A</li>\n\t<li>Data inadequate</li>\n</ol>\n\n<p style=\"line-height: 20.8px;\">3. Which of the following pairs represents the immediate neighbors of A?</p>\n\n<ol style=\"line-height: 20.8px; list-style-type: upper-alpha;\">\n\t<li>EB</li>\n\t<li>GC</li>\n\t<li>EG</li>\n\t<li>ED</li>\n\t<li>None of these</li>\n</ol>\n\n<p style=\"line-height: 20.8px;\">4. What is H’s position with respect to G?</p>\n\n<ol style=\"line-height: 20.8px; list-style-type: upper-alpha;\">\n\t<li>Fifth to the right</li>\n\t<li>Third to the left</li>\n\t<li>Third to the right</li>\n\t<li>Fifth to the left</li>\n\t<li>Fourth to the left</li>\n</ol>\n\n<p style=\"line-height: 20.8px;\">&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Logical Reasoning: study the information and answer the questions</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>F is third to the left of B</p>",
+            "<p>H is third to the left of D</p>",
+            "<p>C is third to the left of B</p>",
+            "<p>E is third to the left of F</p>",
+            "<p>All are correct</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/25/study-the-information-and-answer-the-questions\" target=\"_blank\">https://aptitude.gateoverflow.in/25/study-the-information-and-answer-the-questions</a></p>"
+        }
+      ]
+    }
+  ]
+});

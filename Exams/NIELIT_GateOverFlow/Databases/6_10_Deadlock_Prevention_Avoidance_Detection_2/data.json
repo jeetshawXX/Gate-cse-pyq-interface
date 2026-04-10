@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Deadlock Prevention Avoidance Detection",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Deadlock Prevention Avoidance Detection",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336886\"></a><div itemprop=\"text\"><p>Assume transaction \\( A \\) holds a shared lock \\( R. \\) If transaction \\( B \\) also requests for a shared lock on \\( R. \\) It will</p>\n\n</div><br><br><b>Databases: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>result in deadlock situation</p>",
+            "<p>immediately be granted</p>",
+            "<p>immediately be rejected</p>",
+            "<p>be granted as soon as it is released by \\( A \\)</p>"
+          ],
+          "correct_answer": "<p>immediately be granted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336886/nielit-2017-oct-scientific-assistant-a-cs-section-b-34\" target=\"_blank\">https://gateoverflow.in/336886/nielit-2017-oct-scientific-assistant-a-cs-section-b-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336992\"></a><div itemprop=\"text\"><p>Assume transaction \\( A \\) holds a shared lock \\( R. \\) If transaction \\( B \\) also requests for a shared lock on \\( R. \\) It will</p>\n\n</div><br><br><b>Databases: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>result in deadlock situation</p>",
+            "<p>immediately be granted</p>",
+            "<p>immediately be rejected</p>",
+            "<p>be granted as soon as it is released by \\( A \\)</p>"
+          ],
+          "correct_answer": "<p>immediately be granted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336992/nielit-2017-oct-scientific-assistant-a-it-section-c-5\" target=\"_blank\">https://gateoverflow.in/336992/nielit-2017-oct-scientific-assistant-a-it-section-c-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

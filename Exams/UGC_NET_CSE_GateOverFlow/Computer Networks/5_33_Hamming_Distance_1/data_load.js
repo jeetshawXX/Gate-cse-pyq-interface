@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Hamming Distance",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Hamming Distance",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58828\"></a><div itemprop=\"text\"><p>Hamming distance between 100101000110 and 110111101101 is</p></div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>",
+            "<p>6</p>"
+          ],
+          "correct_answer": "<p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58828/ugc-net-cse-june-2013-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/58828/ugc-net-cse-june-2013-part-3-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - General",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "General",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435309\"></a><div itemprop=\"text\"><p>You are a retail clerk who typically works Monday through Friday. You arrive at work and notice the new schedule is posted, and your manager has given you a Saturday shift. It happens to be your son's birthday on Saturday, and you have a party planned. What is the most appropriate response?</p></div><br><br><b>Verbal Aptitude: ISRO CSE 2023 | Question: 86</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Speak with your manager and explain you have a birthday party planned for your son on Saturday and ask if they can find someone else or if you can find someone to cover your shift</p>",
+            "<p>Ask your coworkers if they can cover your shift because you have a birthday party for your son planned 7</p>",
+            "<p>Pretend like you did not see the schedule since you always work Monday through Friday and do not show up on Saturday</p>",
+            "<p>Do not say anything to anyone, and plan on calling in sick on Saturday</p>"
+          ],
+          "correct_answer": "<p>Speak with your manager and explain you have a birthday party planned for your son on Saturday and ask if they can find someone else or if you can find someone to cover your shift</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435309/isro-cse-2023-question-86\" target=\"_blank\">https://gateoverflow.in/435309/isro-cse-2023-question-86</a></p>"
+        }
+      ]
+    }
+  ]
+});

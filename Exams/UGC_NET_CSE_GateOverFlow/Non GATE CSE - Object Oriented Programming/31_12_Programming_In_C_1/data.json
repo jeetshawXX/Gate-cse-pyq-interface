@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Object Oriented Programming - Programming In C",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Programming In C",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316255\"></a><div itemprop=\"text\"><p>Consider the following C++ function f():</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">unsigned int f(unsigned int n) {\n    unsigned int b=0;\n    while (n) {\n        b+=n &amp; 1;\n        n&gt;&gt;1;\n    }\nreturn b;\n}</pre>\n\n<p>The function f() returns the int that represents the ____P____ in the binary representation of positive integer n, where P is</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | June 2019 | Part 2 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>number of \\( 0 \\)’s</p>",
+            "<p>number of bits</p>",
+            "<p>number of consecutive \\( 1 \\)’s</p>",
+            "<p>number of \\( 1 \\)’s</p>"
+          ],
+          "correct_answer": "<p>number of \\( 1 \\)’s</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316255/ugc-net-cse-june-2019-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/316255/ugc-net-cse-june-2019-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

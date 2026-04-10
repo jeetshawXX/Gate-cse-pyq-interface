@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let U = {1, 2,...,n}, where n is a large positive integer greater than 1000. Let\nk be a positive integer less than n. Let A, B be subsets of U with |A| = |B| = k\nand \\( A\\cap B=\\phi \\). We say that a permutation of U separates A from B if one of the\nfollowing is true. <br><br>\n- All members of A appear in the permutation before any of the members of B.<br>\n- All members of B appear in the permutation before any of the members of A.<br><br>\nHow many permutations of U separate A from B? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( n!\\)</p>",
+            "<b>B.</b> <p>\\(\\binom{n}{2k} (n-2k)!\\)</p>",
+            "<b>C.</b> <p>\\(\\binom{n}{2k} (n-2k)!  (k!)^2\\)</p>",
+            "<b>D.</b> <p>\\(2 \\binom{n}{2k} (n-2k)!  (k!)^2\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2 \\binom{n}{2k} (n-2k)!  (k!)^2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399273/gate-cse-2023-question-38#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Geetha has a conjecture about integers, which is of the form<br>\\(\\forall x\\left [P(x)\\Rightarrow \\exists yQ(x,y)  \\right ]  \\)<br>where \\(P\\) is a statement about integers, and \\(Q\\) is a statement about pairs of integers.\nWhich of the following (one or more) option(s) would imply Geetha's conjecture? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\exists  x\\left [P(x)\\wedge  \\forall yQ(x,y)  \\right ]  \\)</p>",
+            "<b>B.</b> <p>\\(\\forall x  \\forall y  Q(x,y)    \\)</p>",
+            "<b>C.</b> <p>\\(\\exists  y \\forall x \\left [P(x) \\Rightarrow   Q(x,y)  \\right ]  \\)</p>",
+            "<b>D.</b> <p>\\(\\exists   x \\left [P(x) \\wedge  \\exists y  Q(x,y)  \\right ]  \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(\\forall x  \\forall y  Q(x,y)    \\)</p>",
+            "<b>C.</b> <p>\\(\\exists  y \\forall x \\left [P(x) \\Rightarrow   Q(x,y)  \\right ]  \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399295/gate-cse-2023-question-16#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The Lucas sequence \\( L_n \\) is defined by the recurrence relation: <br> \\( L_n=L_{n-1}+L_{n-2}, \\; for \\; n\\geq 3, \\)<br> with \\( L_1=1 \\; and \\; L_2=3 \\) <br>Which one of the options given is TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n \\)</p>",
+            "<b>B.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n - \\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n \\)</p>",
+            "<b>C.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{3} \\right )^n \\)</p>",
+            "<b>D.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n- \\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\( L_n=\\left ( \\frac{1+\\sqrt{5}}{2} \\right )^n+\\left ( \\frac{1-\\sqrt{5}}{2} \\right )^n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399307/gate-cse-2023-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the properties hold for the adjacency matrix \\(A\\) of a simple undirected unweighted graph having \\(n\\) vertices? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The diagonal entries of \\(A^2\\) are the degrees of the vertices of the graph.</p>",
+            "<b>B.</b> <p>If the graph is connected, then none of the entries of \\(A^{n-1}+I_n\\)can be zero.</p>",
+            "<b>C.</b> <p>If the sum of all the elements of \\(A\\) is at most 2(n-1), then the graph must be acyclic.</p>",
+            "<b>D.</b> <p>If there is at least a 1 in each of A's rows and columns, then the graph must be connected.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The diagonal entries of \\(A^2\\) are the degrees of the vertices of the graph.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371894/Gate-cse-2022-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following recurrence:<br>\\( \\begin{aligned}\nf(1)&amp;=1; \\\\\nf(2n)&amp;=2f(n)-1, &amp; \\text{for }n \\geq 1; \\\\\nf(2n+1)&amp;=2f(n)+1, &amp; \\text{for }n \\geq 1.\n\\end{aligned}\\)<br>Then, which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(f(2^n-1)=2^n-1\\)</p>",
+            "<b>B.</b> <p>\\(f(2^n)=1\\)</p>",
+            "<b>C.</b> <p>\\(f(5 * 2^n)=2^{n+1}+1\\)</p>",
+            "<b>D.</b> <p>\\(f(2^n+1)=2^n+1\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(f(2^n-1)=2^n-1\\)</p>",
+            "<b>B.</b> <p>\\(f(2^n)=1\\)</p>",
+            "<b>C.</b> <p>\\(f(5 * 2^n)=2^{n+1}+1\\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371895/Gate-cse-2022-question-41#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The following simple undirected graph is referred to as the Peterson graph.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q40_76105ee1.jpg\"><br>Which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The chromatic number of the graph is 3.</p>",
+            "<b>B.</b> <p>The graph has a Hamiltonian path.</p>",
+            "<b>C.</b> <p>The following graph is isomorphic to the Peterson graph.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\a40_5106ff0c.jpg\"><br></p>",
+            "<b>D.</b> <p>The size of the largest independent set of the given graph is 3. (A subset of vertices of a graph form an independent set if no two vertices of the subset are adjacent.)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The chromatic number of the graph is 3.</p>",
+            "<b>B.</b> <p>The graph has a Hamiltonian path.</p>",
+            "<b>C.</b> <p>The following graph is isomorphic to the Peterson graph.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\a40_5106ff0c.jpg\"><br></p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371896/Gate-cse-2022-question-40#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a simple undirected unweighted graph with at least three vertices. If \\(A\\) is the adjacency matrix of the graph, then the number of 3-cycles in the graph is given by the trace of <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A^3\\)</p>",
+            "<b>B.</b> <p>\\(A^3\\) divided by 2</p>",
+            "<b>C.</b> <p>\\(A^3\\) divided by 3</p>",
+            "<b>D.</b> <p>\\(A^3\\) divided by 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(A^3\\) divided by 6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371909/Gate-cse-2022-question-27#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following is the closed form for the generating function of the sequence \\( \\{a_n \\}_{n \\geq 0}\\) defined below?<br>\\(a_n= \\left \\{ \\begin{matrix}\nn+1, &amp;n  \\text{ is odd}  \\\\\n1,&amp;  \\text{otherwise}\n\\end{matrix} \\right.\\) <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{x(1+x^2)}{(1-x^2)^2}+\\frac{1}{1-x}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{x(3-x^2)}{(1-x^2)^2}+\\frac{1}{1-x}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{2x}{(1-x^2)^2}+\\frac{1}{1-x}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{x}{(1-x^2)^2}+\\frac{1}{1-x}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{x(1+x^2)}{(1-x^2)^2}+\\frac{1}{1-x}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371910/Gate-cse-2022-question-26#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The number of arrangements of six identical balls in three identical bins is ____. <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371914/Gate-cse-2022-question-22#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a simple undirected graph of 10 vertices. If the graph is disconnected, then the maximum number of edges it can have is . <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "36",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371916/Gate-cse-2022-question-20#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following statements is/are TRUE for a group \\(G\\)? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>If for all \\(x,y \\in G, (xy)^2=x^2y^2\\), then \\(G\\) is commutative.</p>",
+            "<b>B.</b> <p>If for all \\(x \\in G, x^2=1\\), then \\(G\\) is commutative. Here, 1 is the identity element of \\(G\\).</p>",
+            "<b>C.</b> <p>If the order of \\(G\\) is 2 , then \\(G\\) is commutative.</p>",
+            "<b>D.</b> <p>If \\(G\\) is commutative, then a subgroup of \\(G\\) need not be commutative.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>If for all \\(x,y \\in G, (xy)^2=x^2y^2\\), then \\(G\\) is commutative.</p>",
+            "<b>B.</b> <p>If for all \\(x \\in G, x^2=1\\), then \\(G\\) is commutative. Here, 1 is the identity element of \\(G\\).</p>",
+            "<b>C.</b> <p>If the order of \\(G\\) is 2 , then \\(G\\) is commutative.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371919/Gate-cse-2022-question-17#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a directed acyclic graph with a source vertex s, the quality-score of a directed path is defined to be the product of the weights of the edges on the path. Further, for a vertex v other than s, the quality-score of v is defined to be the maximum among the quality-scores of all the paths from s to v. The quality-score of s is assumed to be 1.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q55_d153f985.jpg\"><br>\nThe sum of the quality-scores of all vertices on the graph shown above is ______ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "929",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357482/gate-cse-2021-set-2-question-55#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let S be a set of consisting of 10 elements. The number of tuples of the form (A,B) such that A and B are subsets of S, and \\(A\\subseteq B\\) is _______ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "59049",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following directed graph:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q46_8d8f4d68.jpg\"><br>\nWhich of the following is/are correct about the graph? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The graph does not have a topological order</p>",
+            "<b>B.</b> <p>A depth-first traversal starting at vertex S classifies three directed edges as back edges</p>",
+            "<b>C.</b> <p>The graph does not have a strongly connected component</p>",
+            "<b>D.</b> <p>For each pair of vertices u and v, there is a directed path from u to v</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The graph does not have a topological order</p>",
+            "<b>B.</b> <p>A depth-first traversal starting at vertex S classifies three directed edges as back edges</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357494/gate-cse-2021-set-2-question-46#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A bag has \\(r\\) red balls and \\(b\\) black balls. All balls are identical except for their colours. In a trial, a ball is randomly drawn from the bag, its colour is noted and the ball is placed back into the bag along with another ball of the same colour. Note that the number of balls in the bag will increase by one, after the trial. A sequence of four such trials is conducted. Which one of the following choices gives the probability of drawing a red ball in the fourth trial? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{r}{r+b}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{r}{r+b+3}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{r+3}{r+b+3}\\)</p>",
+            "<b>D.</b> <p>\\(\\left( \\dfrac{r}{r+b} \\right) \\left ( \\dfrac{r+1}{r+b+1} \\right) \\left( \\dfrac{r+2}{r+b+2} \\right) \\left( \\dfrac{r+3}{r+b+3} \\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\dfrac{r}{r+b}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357507/gate-cse-2021-set-2-question-33#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Client Server Application",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Client Server Application",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56770\"></a><div itemprop=\"text\"><p>Which one of the following is not a Client-Server application ?&nbsp;</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | June 2014 | Part 3 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Internet chat&nbsp;</p>",
+            "<p>Web browser&nbsp;</p>",
+            "<p>E-mail</p>",
+            "<p>Ping&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Web browser&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56770/ugc-net-cse-june-2014-part-3-question-26\" target=\"_blank\">https://gateoverflow.in/56770/ugc-net-cse-june-2014-part-3-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

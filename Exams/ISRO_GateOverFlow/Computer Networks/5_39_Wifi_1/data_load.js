@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Wifi",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Wifi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128670\"></a><div itemprop=\"text\"><p>What is WPA?</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>wired protected access</p>",
+            "<p>wi-fi protected access</p>",
+            "<p>wired process access</p>",
+            "<p>wi-fi process access</p>"
+          ],
+          "correct_answer": "<p>wi-fi protected access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128670/isro-cse-2017-question-38\" target=\"_blank\">https://gateoverflow.in/128670/isro-cse-2017-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+});

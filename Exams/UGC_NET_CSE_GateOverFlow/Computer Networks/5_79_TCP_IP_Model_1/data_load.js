@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - TCP IP Model",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "TCP IP Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63436\"></a><div itemprop=\"text\"><p>In TCP/IP reference model, the job of ____ layer is to permit hosts to inject packets into any network and travel them independently to the destination</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Physical</p>",
+            "<p>Transport</p>",
+            "<p>Application</p>",
+            "<p>Host-to-network</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63436/ugc-net-cse-july-2016-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/63436/ugc-net-cse-july-2016-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+{
+  "title": "Programming and DS - Data Structures - Priority Queue",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Priority Queue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435326\"></a><div itemprop=\"text\"><p>In a priority queue, insertion and deletion can be done at</p></div><br><br><b>Data Structures: ISRO CSE 2023 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Front</p>",
+            "<p>Back</p>",
+            "<p>Middle</p>",
+            "<p>Any position<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Any position<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435326/isro-cse-2023-question-69\" target=\"_blank\">https://gateoverflow.in/435326/isro-cse-2023-question-69</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182102\"></a><div itemprop=\"text\"><p>A priority queue is implemented as a \\( Max \\)-\\( heap. \\)Initially, it has \\( 5 \\) elements. The level order traversal of the heap is \\( 10,8,5,3,2. \\) Two new elements \\( 1 \\) and \\( 7 \\) are inserted into the heap in that order. The level order traversal of the heap after the insertion of the elements is</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10,8,7,5,3,2,1 \\)</p>",
+            "<p>\\( 10,8,7,2,3,1,5 \\)</p>",
+            "<p>\\( 10,8,7,1,2,3,5 \\)</p>",
+            "<p>\\( 10,8,7,3,2,1,5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10,8,7,3,2,1,5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182102/isro-dec2017-52\" target=\"_blank\">https://gateoverflow.in/182102/isro-dec2017-52</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+.gate-auth-widget {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  z-index: 10000;
+  width: min(340px, calc(100vw - 24px));
+  pointer-events: none;
+}
+
+.gate-auth-card {
+  pointer-events: auto;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  background: rgba(18, 22, 34, 0.92);
+  color: #eef2ff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gate-auth-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.33);
+}
+
+.gate-auth-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gate-auth-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  object-fit: cover;
+  background: rgba(255,255,255,0.08);
+  flex: 0 0 auto;
+}
+
+.gate-auth-title {
+  min-width: 0;
+}
+
+.gate-auth-title h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.gate-auth-title p {
+  margin: 2px 0 0;
+  color: rgba(238, 242, 255, 0.72);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.gate-auth-body {
+  padding: 14px 16px 16px;
+}
+
+.gate-auth-message {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: rgba(238, 242, 255, 0.8);
+}
+
+.gate-auth-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gate-auth-btn {
+  border: 0;
+  border-radius: 12px;
+  padding: 11px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
+}
+
+.gate-auth-btn:hover {
+  transform: translateY(-1px);
+}
+
+.gate-auth-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.gate-auth-btn-primary {
+  background: linear-gradient(135deg, #5b8cff, #7c5cff);
+  color: #fff;
+}
+
+.gate-auth-btn-ghost {
+  background: rgba(255,255,255,0.08);
+  color: #eef2ff;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.gate-auth-pill-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.gate-auth-pill {
+  font-size: 11px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  color: rgba(238, 242, 255, 0.9);
+}
+
+.gate-auth-pill.success {
+  background: rgba(46, 204, 113, 0.16);
+  color: #baf6cf;
+}
+
+.gate-auth-pill.warn {
+  background: rgba(241, 196, 15, 0.16);
+  color: #ffe7a1;
+}
+
+.gate-auth-footer {
+  padding: 0 16px 14px;
+  color: rgba(238, 242, 255, 0.55);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.gate-auth-inline-link {
+  color: #9cc1ff;
+  text-decoration: none;
+}
+
+.gate-auth-inline-link:hover {
+  text-decoration: underline;
+}
+
+.gate-auth-setup {
+  display: none;
+}
+
+.gate-auth-setup.visible {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .gate-auth-widget {
+    top: auto;
+    right: 12px;
+    left: 12px;
+    bottom: 12px;
+    width: auto;
+  }
+}

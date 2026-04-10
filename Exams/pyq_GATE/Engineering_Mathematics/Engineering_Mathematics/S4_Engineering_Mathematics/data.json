@@ -1,0 +1,201 @@
+{
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which one of the following well-formed formulae in predicate calculus is NOT valid? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall x p(x)\\Rightarrow \\forall xq(x))\\Rightarrow (\\exists x\\neg p(x) \\vee \\forall xq(x))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists xp(x)\\vee \\exists xq(x))\\Rightarrow \\exists x(p(x)\\vee  q(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x (p(x)\\wedge q(x)) \\Rightarrow (\\exists xp(x)\\wedge \\exists xq(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39618/gate2016-2-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose that the eigen values of matrix A are 1, 2, 4. The determinant of \\((A^{-1})^{T}\\) is _________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.124",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39549/gate2016-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the systems,each consisting of m linear equations in n variables.<br>\nI. If m \\(\\lt\\) n, then all such systems have a solution <br>\nII. If m \\(\\gt\\) n, then none of these systems has a solution <br>\nIII. If m = n, then there exists a system which has a solution <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and III are true</p>",
+            "<b>B.</b> <p>Only II and III are true</p>",
+            "<b>C.</b> <p>Only III is true</p>",
+            "<b>D.</b> <p>None of them is true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only III is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39554/gate2016-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let f(x) be a polynomial and g(x) = f'(x) be its derivative. If the degree of (f(x)+ f(-x)) is 10, then the degree of (g(x)-g(-x)) is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39571/gate2016-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The coefficient of \\(x^{12}\\) in \\((x^{3}+x^{4}+x^{5}+x^{6}+. . . )^{3}\\) is ______. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39693/gate2016-1-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Two eigen values of a 3x3 real matrix P are (2+\\(\\sqrt{-1}\\)) and 3.The determinantof P is __________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39634/gate2016-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>\\(\\lim_{x\\rightarrow 4}\\frac{sin(x-4)}{x-4}\\)=_________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39630/gate2016-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If for non-zero  \\(x,af(x)+bf\\left ( \\frac{1}{x} \\right )=\\frac{1}{x}-25\\) where \\( a\\neq b\\)  then \\( \\int_{1}^{2}f(x)dx\\) is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)-\\frac{47b}{2}]\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)-\\frac{47b}{2}]\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8554/gate2015-3-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If the following system has non-trivial solution,<br> px+qy+rz=0 <br> qx+ry+pz=0 <br> rx+py+qz=0,<br> then which one of the following options is TRUE? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p-q+r=0 or p=q=-r</p>",
+            "<b>B.</b> <p>p+q-r=0 or p=-q=r</p>",
+            "<b>C.</b> <p>p+q+r=0 or p=q=r</p>",
+            "<b>D.</b> <p>p-q+r=0 or p=-q=-r</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>p+q+r=0 or p=q=r</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8490/gate2015-3-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The velocity v (in kilometer/minute) of a motorbike which starts from rest, is given at fixed intervals of time t (in minutes) as follows: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Engineering_Mathematics\\q26_5ff1a22d.jpg\"> <br> The approximate distance (in kilometers) rounded to two places of decimals covered in 20 minutes using Simpson's \\(1/3^{rd}\\) rule is _______________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "308",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8559/gate2015-3-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow \\infty }(1+x^{2})^{e^{-x}}\\) is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\infty\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8403/gate2015-3-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In the given matrix \\(\\begin{bmatrix} 1 &amp; -1&amp;2 \\\\ 0&amp; 1 &amp; 0\\\\ 1&amp;2 &amp; 1 \\end{bmatrix}\\), one of the eigenvalues is 1. The eigenvectors corresponding to the eigenvalue 1 are <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(\\alpha (4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>B.</b> <p>{\\(\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>C.</b> <p>{\\(\\alpha (\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>D.</b> <p>{\\(\\alpha (-\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\(\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8411/gate2015-3-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Perform the following operations on the matrix \\(\\begin{bmatrix} 3 &amp; 4&amp;45 \\\\ 7&amp; 9&amp; 105\\\\ 13&amp;2 &amp; 195 \\end{bmatrix}\\). <br> (i) Add the third row to the second row <br>(ii) Subtract the third column from the first column. <br>The determinant of the resultant matrix is___________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8131/gate2015-2-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let \\(f(x)=x^{-(1/3)}\\) and A denote the area of the region bounded by f(x) and the x-axis, when x varies from -1 to 1. Which of the following statements is/are TRUE?<br>\nI) f is continuous in [-1,1] <br>\nII) f is not bounded in [-1,1] <br>\nIII) A is nonzero and finite <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8124/gate2015-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The secant method is used to find the root of an equation f(x)=0. It is started from two distinct estimates \\(x_{a}\\) and \\(x_{b}\\) for the root. It is an iterative procedure involving linear interpolation to a root. The iteration stops if \\(f(x_{b})\\) is very small and then \\(x_{b}\\) is the solution. The procedure is given below. Observe that there is an expression which is missing and is marked by ?. Which is the suitable expression that is to be put in place of ? so that it follows all steps of the secant method?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Engineering_Mathematics\\q41_af915979.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{b}-(f_{b}-f(x_{a}))f_{b}/(x_{b}-x_{a})\\)</p>",
+            "<b>B.</b> <p>\\(x_{a}-(f_{b}-f(x_{a}))f_{a}/(x_{b}-x_{a})\\)</p>",
+            "<b>C.</b> <p>\\(x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))\\)</p>",
+            "<b>D.</b> <p>\\(x_{a}-(x_{b}-x_{a})f_{a}/(f_{b}-f(x_{a}))\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(x_{b}-(x_{b}-x_{a})f_{b}/(f_{b}-f(x_{a}))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8210/gate2015-2-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

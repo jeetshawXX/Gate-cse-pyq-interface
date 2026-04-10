@@ -1,0 +1,236 @@
+{
+  "title": "Network_Layer_Protocol - Network_Layer_Protocol - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Network_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a network with five nodes, N1 to N5, as shown below  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_6942b936.jpg\"> <br> The network uses a Distance Vector Routing protocol. Once the routes have stabilized, the distance vectors at different nodes are as following. N1: (0, 1, 7, 8, 4) N2: (1, 0, 6, 7, 3) N3: (7, 6, 0, 2, 6) N4: (8, 7, 2, 0, 4) N5: (4, 3, 6, 4, 0) Each distance vector is the distance of the best known path at the instance to nodes, N1 to N5, where the distance to itself is 0. Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors. <br><br>After the update in the previous question, the link N1-N2 goes down. N2 will\nreflect this change immediately in its distance vector cost as, \\(\\infty\\). After the NEXT\nROUND of update, what will be the cost to N1 in the distance vector of N3? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43317/gate2011-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a network with five nodes, N1 to N5, as shown below  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_6942b936.jpg\"> <br> The network uses a Distance Vector Routing protocol. Once the routes have stabilized, the distance vectors at different nodes are as following. N1: (0, 1, 7, 8, 4) N2: (1, 0, 6, 7, 3) N3: (7, 6, 0, 2, 6) N4: (8, 7, 2, 0, 4) N5: (4, 3, 6, 4, 0) Each distance vector is the distance of the best known path at the instance to nodes, N1 to N5, where the distance to itself is 0. Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors. <br><br> The cost of link N2-N3 reduces to 2(in both directions). After the next round of updates, what will be the new distance vector at node, N3? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(3. 2, 0, 2, 5)</p>",
+            "<b>B.</b> <p>(3, 2, 0, 2, 6)</p>",
+            "<b>C.</b> <p>(7, 2, 0, 2, 5)</p>",
+            "<b>D.</b> <p>(7, 2, 0, 2, 6)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(3. 2, 0, 2, 5)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2160/gate2011-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_50b0764c.jpg\"><br>Suppose the weights of all unused links in the previous question are changed\nto 2 and the distance vector algorithm is used again until all routing tables\nstabilize. How many links will now remain unused? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43326/gate2010-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_50b0764c.jpg\"><br>  All the routers use the distance vector based routing algorithm to update their\nrouting tables. Each router starts with its routing table initialized to contain an\nentry for each neighbour with the weight of the respective connecting link.\nAfter all the routing tables stabilize, how many links in the network will never\nbe used for carrying any data? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2362/gate2010-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Suppose computers A and B have IP addresses 10.105.1.113 and 10.105.1.91\nrespectively and they both use the same net mask N. Which of the values of N\ngiven below should not be used if A and B should belong to the same network? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.255.0</p>",
+            "<b>B.</b> <p>255.255.255.128</p>",
+            "<b>C.</b> <p>255.255.255.192</p>",
+            "<b>D.</b> <p>255.255.255.224</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.255.224</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2349/gate2010-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>One of the header fields in an IP datagram is the Time to Live (TTL) field. Which\nof the following statements best explains the need for this field? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It can be used to prioritize packets</p>",
+            "<b>B.</b> <p>It can be used to reduce delays</p>",
+            "<b>C.</b> <p>It can be used to optimize throughput</p>",
+            "<b>D.</b> <p>It can be used to prevent packet looping</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It can be used to prevent packet looping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2188/gate2010-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the primary purpose of a VLAN? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Demonstrating the proper layout for a network</p>",
+            "<b>B.</b> <p>Simulating a network</p>",
+            "<b>C.</b> <p>To create a virtual private network</p>",
+            "<b>D.</b> <p>Segmenting a network inside a switch or device</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Segmenting a network inside a switch or device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48029/isro2009-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The address resolution protocol (ARP) is used for <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding the IP address from the DNS</p>",
+            "<b>B.</b> <p>Finding the IP address of the default gateway</p>",
+            "<b>C.</b> <p>Finding the IP address that corresponds to a MAC address</p>",
+            "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48027/isro2009-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The subnet mask for a particular network is 255.255.31.0. Which of the following pairs of IP addresses could belong to this network? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.57.88.62 and 172.56.87.23</p>",
+            "<b>B.</b> <p>10.35.28.2 and 10.35.29.4</p>",
+            "<b>C.</b> <p>191.203.31.87 and 191.234.31.88</p>",
+            "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/965/gate2003-82-isro2009-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The network 198.78.41.0 is a <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A network</p>",
+            "<b>B.</b> <p>Class B network</p>",
+            "<b>C.</b> <p>Class C network</p>",
+            "<b>D.</b> <p>Class D network</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Class C network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49913/isro2008-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>On a LAN ,where are IP datagrams transported? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In the LAN header</p>",
+            "<b>B.</b> <p>In the application field</p>",
+            "<b>C.</b> <p>In the information field of the LAN frame</p>",
+            "<b>D.</b> <p>After the TCP header</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>In the information field of the LAN frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17270/isro2008-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The subnet mask 255.255.255.192 <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>extends the network portion to 16 bits</p>",
+            "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+            "<b>C.</b> <p>extends the network portion to 36 bits</p>",
+            "<b>D.</b> <p>has no effect on the network portion of an IP address</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49665/isro2008-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nWhich IP address should X configure its gateway as? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192.168.1.67</p>",
+            "<b>B.</b> <p>192.168.1.110</p>",
+            "<b>C.</b> <p>192.168.1.135</p>",
+            "<b>D.</b> <p>192.168.1.155</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>192.168.1.110</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3409/gate2008-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nGiven the information above, how many distinct subnets are guaranteed to already exist in the network? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3408/gate2008-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Two popular routing algorithms are Distance Vector(DV) and Link State (LS) routing. Which of the following are true?<br>\n(S1):  Count to infinity is a problem only with DV and not LS routing<br>\n(S2):  In LS, the shortest path algorithm is run only at one node<br>\n(S3):  In DV, the shortest path algorithm is run only at one node<br>\n(S4):  DV requires lesser number of network messages than LS<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S4 only</p>",
+            "<b>B.</b> <p>S1, S3 and S4 only</p>",
+            "<b>C.</b> <p>S2 and S3 only</p>",
+            "<b>D.</b> <p>S1 and S4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 and S4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3381/gate2008-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

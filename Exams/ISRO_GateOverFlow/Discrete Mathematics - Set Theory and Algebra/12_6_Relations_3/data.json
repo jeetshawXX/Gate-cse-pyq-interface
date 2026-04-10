@@ -1,0 +1,56 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Relations",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Relations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213532\"></a><div itemprop=\"text\"><p>The time complexity of computing the transitive closure of binary relation on a set of \\( n \\) elements is known to be</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO CSE 2018 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n*\\log(n)) \\)</p>",
+            "<p>\\( O(n^{\\frac{3}{2}}) \\)</p>",
+            "<p>\\( O(n^{3}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n^{3}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213532/isro-cse-2018-question-56\" target=\"_blank\">https://gateoverflow.in/213532/isro-cse-2018-question-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182051\"></a><div itemprop=\"text\"><p>Suppose \\( A \\) is a finite set with \\( n \\) elements.The number of elements and the rank of the largest equivalence relation on \\( A \\)&nbsp;are</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{n,1\\} \\)</p>",
+            "<p>\\( \\{n,n\\} \\)</p>",
+            "<p>\\( \\{n^2,1\\} \\)</p>",
+            "<p>\\( \\{1,n^2\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{n^2,1\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182051/isro-dec2017-1\" target=\"_blank\">https://gateoverflow.in/182051/isro-dec2017-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"182052\"></a><div itemprop=\"text\"><p>Consider the set of integers \\( I. \\) Let \\( D \\) denote \"<em>divides with an integer quotient</em>\" (e.g. \\( 4D8 \\) but not \\( 4D7 \\)). Then \\( D \\) is</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Reflexive, Not Symmetric, Transitive</p>",
+            "<p>Not Reflexive, Not Anti-symmetric, Transitive</p>",
+            "<p>Reflexive, Anti-symmetric, Transitive</p>",
+            "<p>Not Reflexive, Not Anti-symmetric, Not Transitive</p>"
+          ],
+          "correct_answer": "<p>Not Reflexive, Not Anti-symmetric, Transitive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182052/isro-dec2017-2\" target=\"_blank\">https://gateoverflow.in/182052/isro-dec2017-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

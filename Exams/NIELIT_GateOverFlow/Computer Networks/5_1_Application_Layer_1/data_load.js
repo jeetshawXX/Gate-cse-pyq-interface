@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Application Layer",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Application Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336620\"></a><div itemprop=\"text\"><p>Application layer protocol defines:</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>types of messages exchanged</p>",
+            "<p>rules for when and how processes send and respond to messages</p>",
+            "<p>message format, syntax and semantics</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "<p>all of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336620/nielit-2016-dec-scientist-b-it-section-b-49\" target=\"_blank\">https://gateoverflow.in/336620/nielit-2016-dec-scientist-b-it-section-b-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Unique Key",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Unique Key",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369330\"></a><div itemprop=\"text\"><p>Consider the following statements :</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>The primary key of a relation cannot contain null values.</li>\n\t<li>Unique Key can have null values.</li>\n</ol>\n\n<p>Which among the following is true ?</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{I} \\) and \\( \\text{II} \\) are true</p>",
+            "<p>Both \\( \\text{I} \\) and \\( \\text{II} \\) are false</p>",
+            "<p>Only \\( \\text{I} \\)&nbsp;is true</p>",
+            "<p>Only \\( \\text{II} \\) is true</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{I} \\) and \\( \\text{II} \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369330/nielit-2021-dec-scientist-a-section-b-83\" target=\"_blank\">https://gateoverflow.in/369330/nielit-2021-dec-scientist-a-section-b-83</a></p>"
+        }
+      ]
+    }
+  ]
+});

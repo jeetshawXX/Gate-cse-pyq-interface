@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - Machine Learning",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Machine Learning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435316\"></a><div itemprop=\"text\"><p>A hybrid Bayesian network contains</p></div><br><br><b>Artificial Intelligence: ISRO CSE 2023 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only continuous variables</p>",
+            "<p>Only discrete variables</p>",
+            "<p>Both discrete and discontinuous variables</p>",
+            "<p>Both continuous and discrete variables<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Both continuous and discrete variables<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435316/isro-cse-2023-question-79\" target=\"_blank\">https://gateoverflow.in/435316/isro-cse-2023-question-79</a></p>"
+        }
+      ]
+    }
+  ]
+});

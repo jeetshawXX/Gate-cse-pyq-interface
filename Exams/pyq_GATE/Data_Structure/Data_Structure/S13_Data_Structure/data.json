@@ -1,0 +1,236 @@
+{
+  "title": "Data_Structure - Data_Structure - Slot 13",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In a heap with n elements with the smallest element at the root, the \\(7^{th}\\) smallest\nelement ban be found in time <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (nlogn)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (logn)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (1)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta (1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1110/gate2003-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an\ninitially empty binary search tree. The binary search tree uses the usual ordering\non natural numbers. What is the inorder transversal sequence of the resultant tree ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7 5 1 0 3 2 4 6 8 9</p>",
+            "<b>B.</b> <p>0 2 4 3 1 6 5 9 8 7</p>",
+            "<b>C.</b> <p>0 1 2 3 4 5 6 7 8 9</p>",
+            "<b>D.</b> <p>9 8 6 4 2 3 0 1 5 7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0 1 2 3 4 5 6 7 8 9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/909/gate2003-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let T(n) be the number of different binary search trees on n distinct elements. <br>Then \\(T(n)=\\sum_{k=1}^{n}T(k-1)T(x)\\),\n<br>where \\(x\\) is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-k+1</p>",
+            "<b>B.</b> <p>n-k</p>",
+            "<b>C.</b> <p>n-k-1</p>",
+            "<b>D.</b> <p>n-k-2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/897/gate2003-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>To evaluate an expression without any embedded function calls <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One stack is enough</p>",
+            "<b>B.</b> <p>Two stack are needed</p>",
+            "<b>C.</b> <p>As many stacks as the height of the expression tree are needed</p>",
+            "<b>D.</b> <p>A Turning machine is needed in the general case</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>One stack is enough</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/849/gate2002-2-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A weight-balanced tree is a binary tree in which for each node, the number of\nnodes in the let sub tree is at least half and at most twice the number of nodes in\nthe right sub tree. The maximum possible height (number of nodes on the path\nfrom the root to the furthest leaf) of such a tree on n nodes is best described by\nwhich of the following ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(log_{2}n\\)</p>",
+            "<b>B.</b> <p>\\(log_{4/3}n\\)</p>",
+            "<b>C.</b> <p>\\(log_{3}n\\)</p>",
+            "<b>D.</b> <p>\\(log_{3/2}n\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(log_{3/2}n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/842/gate2002-2-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following algorithm for searching for a given number x in an unsorted\narray A[1.....n] having n distinct values : <br><br>\n(1) Choose an i uniformly at random from [1....n]<br>\n(2) If A[i] = x then stop else Goto 1; <br><br>\nAssuming that x is present A, What is the expected number of comparisons made\nby the algorithm before it terminates? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>n-1</p>",
+            "<b>C.</b> <p>2n</p>",
+            "<b>D.</b> <p>n/2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/840/gate2002-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The number of leaf nodes in a rooted tree of n nodes, with each node having 0\nor 3 children is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n/2</p>",
+            "<b>B.</b> <p>\\(\\frac{(n-1)}{3}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{(n-1)}{2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{(2n+1)}{3}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{(2n+1)}{3}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/839/gate2002-2-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following declaration of a two-dimensional array in C : <br><br>\nChar a[100][100]<br>\nAssuming that the main memory is byte-addressable and that array is stored\nstarting form memory address 0, the address of a [40] [50] is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4040</p>",
+            "<b>B.</b> <p>4050</p>",
+            "<b>C.</b> <p>5040</p>",
+            "<b>D.</b> <p>5040</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4050</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/838/gate2002-2-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In the worst case, the number of comparisons needed to search a single linked list\nof length n for a given element is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>log n</p>",
+            "<b>B.</b> <p>n/2</p>",
+            "<b>C.</b> <p>\\(log_{2}^{n}-1\\)</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/809/gate2002-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let LASTPOST, LASTIN and LASTPRE denote the last vertex visited `in a postorder, inorder and preorder traversal respectively, of a complete binary tree. Which of the following is always true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LASTIN = LASTPOST</p>",
+            "<b>B.</b> <p>LASTIN = LASTPRE</p>",
+            "<b>C.</b> <p>LASTPRE = LASTPOST</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/663/gate2000-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Suppose you are given an array s[1....n] and a procedure reverse (s, i, j) which reverses the order of elements in s between positions i and j (both inclusive). What does the following sequence do, where 1 \\(\\leqslant k \\leqslant\\) n:<br><pre><code> reverse (s, 1, k);\n reverse (s, k+1, n);\n reverse (s, 1, n); </code></pre> <br> <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Rotates s left by k positions</p>",
+            "<b>B.</b> <p>Leaves s unchanged</p>",
+            "<b>C.</b> <p>Reverses all elements of s</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Rotates s left by k positions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/662/gate2000-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following nested representation of binary trees: (X Y Z) indicates Y and Z are the left and right subtrees, respectively, of node X. Note that Y and Z may be NULL, or further nested. Which of the following represents a valid binary tree? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1 2 (4 5 6 7))</p>",
+            "<b>B.</b> <p>(1 (2 3 4) 5 6) 7)</p>",
+            "<b>C.</b> <p>(1 (2 3 4) (5 6 7))</p>",
+            "<b>D.</b> <p>(1 (2 3 NULL) (4 5))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(1 (2 3 4) (5 6 7))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/637/gate2000-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>An \\(n \\times n\\) array \\(v\\) is defined as follows:<br>\n\\(v\\left[i,j\\right] = i - j\\) for all \\(i, j, i \\leq n, 1 \\leq j \\leq n\\)<br>\nThe sum of the elements of the array \\(v\\) is <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>n-1</p>",
+            "<b>C.</b> <p>\\(n^2 - 3n +2\\)</p>",
+            "<b>D.</b> <p>\\(n^2 \\frac{\\left(n+1\\right)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/625/gate2000-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following is correct? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B-trees are for storing data on disk and \\(B^+\\) trees are for main memory.</p>",
+            "<b>B.</b> <p>Range queries are faster on \\(B^+\\) trees.</p>",
+            "<b>C.</b> <p>B-trees are for primary indexes and \\(B^+\\) trees are for secondary indexes.</p>",
+            "<b>D.</b> <p>The height of a \\(B^+\\) tree is independent of the number of records.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Range queries are faster on \\(B^+\\) trees.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1478/gate1999-1-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose we want to arrange the n numbers stored in any array such that all negative values occur before all positive ones. Minimum number of exchanges required in the worst case is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1466/gate1999-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

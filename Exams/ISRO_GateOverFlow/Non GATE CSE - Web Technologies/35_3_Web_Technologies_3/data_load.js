@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Web Technologies",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Web Technologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49642\"></a><div itemprop=\"text\">\n<p>An email contains a texual birthday greeting, a picture of a cake and a song. The order is not important. What is the content-type?</p>\n\n\n</div><br><br><b>Web Technologies: ISRO CSE 2007 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Multipart/mixed</p>",
+            "<p>Multipart/parallel</p>",
+            "<p>Multipart/digest</p>",
+            "<p>Multipart/alternative</p>"
+          ],
+          "correct_answer": "<p>Multipart/parallel</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49642/isro-cse-2007-question-72\" target=\"_blank\">https://gateoverflow.in/49642/isro-cse-2007-question-72</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"55093\"></a><div itemprop=\"text\">\n<p>A web client sends a request to a web server. The web server transmits a program to that client ans is executed at client. It creates a web document. What are such web documents called?</p>\n\n\n</div><br><br><b>Web Technologies: ISRO CSE 2014 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Active</p>",
+            "<p>Static</p>",
+            "<p>Dynamic</p>",
+            "<p>Passive</p>"
+          ],
+          "correct_answer": "<p>Active</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55093/isro-cse-2014-question-76\" target=\"_blank\">https://gateoverflow.in/55093/isro-cse-2014-question-76</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"435358\"></a><div itemprop=\"text\"><p>CAPTCHA is used to provide protection from</p></div><br><br><b>Web Technologies: ISRO CSE 2023 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Zero day attack</p>",
+            "<p>Buffer overflow</p>",
+            "<p>Automated scripted attack</p>",
+            "<p>Man in the middle attack<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Automated scripted attack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435358/isro-cse-2023-question-38\" target=\"_blank\">https://gateoverflow.in/435358/isro-cse-2023-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+});

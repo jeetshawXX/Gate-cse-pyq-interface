@@ -1,0 +1,201 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 12",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The security system at an IT office is composed of 10 computers of which exactly four are\nworking. To check whether the system is functional, the officials inspect four of the\ncomputers picked at random (without replacement). The system is deemed functional if at\nleast three of the four computers inspected are working. Let the probability that the system is deemed functional be denoted by p.  Then 100p= _____________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11.85",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1953/gate2014-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following propositional logic formulas is TRUE when exactly two of p, q,\nand r are TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((p\\leftrightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>B.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>C.</b> <p>\\(((p\\rightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>D.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\wedge (p\\wedge q\\wedge \\sim r)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1933/gate2014-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>An ordered n-tuple (\\(d_{1}, d_{2} ,... , d_{n}\\)) with \\(d_{1}\\geq d_{2} \\geq ... \\geq d_{n}\\) is called graphic if there exists a simple undirected graph with n vertices having degrees \\(d_{1}, d_{2} ,... , d_{n}\\) respectively. Which of the following 6-tuples is NOT graphic? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1, 1, 1, 1, 1, 1)</p>",
+            "<b>B.</b> <p>(2, 2, 2, 2, 2, 2)</p>",
+            "<b>C.</b> <p>(3, 3, 3, 1, 0, 0)</p>",
+            "<b>D.</b> <p>(3, 2, 1, 1, 1, 0)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(3, 3, 3, 1, 0, 0)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1932/gate2014-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider an undirected graph G where self-loops are not allowed. The vertex set of G is {(i,f):1\\(\\leq\\)i\\(\\leq\\)12, 1\\(\\leq\\)j\\(\\leq\\)12}. There is an edge between (a,b) and (c,d) if |a-c|\\(\\leq\\)1 and |b-d| \\(\\leq\\)1. The number of edges in the graph is ____. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "506",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1931/gate2014-1-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let S denote the set of all functions f:\\({\\{0,1\\}}^{4} \\rightarrow \\{0,1\\}\\). Denote by N the number of functions from S to the set {0,1}. The value of  \\(log_{2} log_{2}N\\) is______. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1930/gate2014-1-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A pennant is a sequence of numbers, each number being 1 or 2. An n-pennant is a sequence of numbers with sum equal to n. For example, (1,1,2) is a 4-pennant. The set of all possible 1- pennants is {(1)}, the set of all possible 2-pennants is {(2), (1,1)}and the set of all 3-pennants is {(2,1), (1,1,1), (1,2)}. Note that the pennant (1,2) is not the same as the pennant (2,1). The number of 10- pennants is _____. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "88.9",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1929/gate2014-1-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Four fair six-sided dice are rolled. The probability that the sum of the results being 22 is \\(\\frac{X}{1296}\\). The value of X is _________ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1927/gate2014-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>There are 5 bags labelled 1 to 5. All the coins in a given bag have the same weight. Some\nbags have coins of weight 10 gm, others have coins of weight 11 gm. I pick 1, 2, 4, 8, 16\ncoins respectively from bags 1 to 5. Their total weight comes out to 323 gm. Then the product\nof the labels of the bags having 11 gm coins is ___. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1915/gate2014-1-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the directed graph given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q13_d927c255.jpg\"><br> Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The graph does not have any topological ordering</p>",
+            "<b>B.</b> <p>Both PQRS and SRQP are topological orderings</p>",
+            "<b>C.</b> <p>Both PSRQ and SPRQ are topological orderings.</p>",
+            "<b>D.</b> <p>PSRQ is the only topological ordering</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both PSRQ and SPRQ are topological orderings.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1779/gate2014-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let G be a graph with n vertices and m edges. What is the tightest upper bound on the\nrunning time of Depth First Search on G, when G is represented as an adjacency matrix? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n+m)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (m^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1771/gate2014-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let G=(V,E) be a directed graph where V is the set of vertices and E the set of edges. Then which one of the following graphs has the same strongly connected components as G ? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(G_{1}=(V,E_{1})\\) where \\(E_{1}\\equiv \\{(u,v)|(u,v)\\notin E\\}\\)</p>",
+            "<b>B.</b> <p>\\(G_{2}=(V,E_{2})\\) where \\(E_{2}\\equiv \\{(u,v)|(v,u)\\in E\\}\\)</p>",
+            "<b>C.</b> <p>\\(G_{3}=(V,E_{3})\\) where \\(E_{3}\\equiv \\{(u,v)|\\) there is a path of lenth \\(\\leq\\) 2 from u to v in E}</p>",
+            "<b>D.</b> <p>\\(G_{4}=(V_{4},E)\\) where \\(V_{4}\\)  is the set of vertices in G which are not isolated</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(G_{2}=(V,E_{2})\\) where \\(E_{2}\\equiv \\{(u,v)|(v,u)\\in E\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1754/gate2014-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of the shorter stick is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.24",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1717/gate2014-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the statement <br> \"Not all that glitters is gold\"<br> Predicate glitters(x)  is true if x glitters  and predicate gold(x) is true if x is gold. Which one of the following logical formulae represents the above statement? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x:glitters(x)\\Rightarrow \\neg gold(x)\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x:gold(x)\\Rightarrow glitters(x)\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x:gold(x)\\wedge \\neg glitters(x)\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x:glitters(x)\\wedge \\neg gold(x)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\exists x:glitters(x)\\wedge \\neg gold(x)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/769/gate2014-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The number of edges in a 'n' vertex complete graph is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n ^{*} (n - 1) / 2\\)</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n ^{*} (n + 1) / 2\\)</p>",
+            "<b>D.</b> <p>\\(n ^{*} (n + 1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(n ^{*} (n - 1) / 2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45671/isro-2013-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number of elements in the power set of the set {{A, B}, C} is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45666/isro-2013-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

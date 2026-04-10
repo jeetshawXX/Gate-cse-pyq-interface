@@ -1,0 +1,168 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Triangles",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Triangles",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8039\"></a><div itemprop=\"text\"><p>In a triangle \\( PQR, PS \\) is the angle bisector of \\( \\angle QPR \\text{ and } \\angle QPS =60^\\circ \\). What is the length of \\( PS \\) ?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___triangles/80087f128e66ec1ee93ad8dc489c3107.png\"></p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{(q+r)} {qr}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac {qr} {q+r}\\right) \\)</p>",
+            "<p>\\( \\large \\sqrt {(q^2 + r^2)} \\)</p>",
+            "<p>\\( \\left(\\dfrac{(q+r)^2} {qr}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac {qr} {q+r}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8\" target=\"_blank\">https://gateoverflow.in/8039/gate-cse-2015-set-2-question-ga-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"204070\"></a><div itemprop=\"text\"><p>In&nbsp;the figure below, \\( \\angle DEC + \\angle BFC \\) is equal to _____</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"222\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___triangles/bfa8781bad29f66cd7c4975074af3d43.png\" width=\"224\"></p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\angle BCD - \\angle BAD \\)</p>",
+            "<p>\\( \\angle BAD + \\angle BCF \\)</p>",
+            "<p>\\( \\angle BAD +&nbsp;\\angle BCD \\)</p>",
+            "<p>\\( \\angle CBA +&nbsp;\\angle ADC \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\angle BCD - \\angle BAD \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204070/gate-cse-2018-question-ga-9\" target=\"_blank\">https://gateoverflow.in/204070/gate-cse-2018-question-ga-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"371497\"></a><div itemprop=\"text\"><p>The corners and mid-points of the sides of a triangle are named using the distinct letters \\( \\text{P, Q, R, S, T} \\) and \\( \\text{U,} \\) but not necessarily in the same order. Consider the following statements:</p>\n\n<ul>\n\t<li>The line joining \\( \\text{P} \\) and \\( \\text{R} \\) is parallel to the line joining \\( \\text{Q} \\) and \\( \\text{S}. \\)</li>\n\t<li>\\( \\text{P} \\) is placed on the side opposite to the corner \\( \\text{T}. \\)</li>\n\t<li>\\( \\text{S} \\) and \\( \\text{U} \\) cannot be placed on the same side.</li>\n</ul>\n\n<p>Which one of the following statements is correct based on the above information?</p>\n\n</div><br><br><b>GATE CSE 2022 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P} \\) cannot be placed at a corner</p>",
+            "<p>\\( \\text{S} \\) cannot be placed at a corner</p>",
+            "<p>\\( \\text{U} \\) cannot be placed at a mid-point</p>",
+            "<p>\\( \\text{R} \\) cannot be placed at a corner</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{S} \\) cannot be placed at a corner</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371497/gate-cse-2022-ga-question-9\" target=\"_blank\">https://gateoverflow.in/371497/gate-cse-2022-ga-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"359891\"></a><div itemprop=\"text\"><p>In an equilateral triangle \\( \\text{PQR} \\), side \\( \\text{PQ} \\) is divided into four equal parts, side \\( \\text{QR} \\) is divided into six equal parts and side \\( \\text{PR} \\) is divided into eight equals parts. The length of each subdivided part in \\( \\text{cm} \\) is an integer. The minimum area of the triangle \\( \\text{PQR} \\) possible, in \\( \\text{cm}^{2} \\), is</p>\n\n</div><br><br><b>GATE Civil 2021 Set 2 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 48\\sqrt{3} \\)</p>",
+            "<p>\\( 144 \\sqrt{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 144 \\sqrt{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359891/gate-civil-2021-set-2-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359891/gate-civil-2021-set-2-ga-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359785\"></a><div itemprop=\"text\"><p>​​</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___triangles/fbe733fef3064a1ca0d8a377aabcf959.png\"></p>\n\n<p>Corners are cut from an equilateral triangle to produce a regular convex hexagon as shown in the figure above.</p>\n\n<p>The ratio of the area of the regular convex hexagon to the area of the original equilateral triangle is</p>\n\n</div><br><br><b>GATE ECE 2021 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2:3 \\)</p>",
+            "<p>\\( 3:4 \\)</p>",
+            "<p>\\( 4:5 \\)</p>",
+            "<p>\\( 5:6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2:3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359785/gate-ece-2021-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359785/gate-ece-2021-ga-question-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359484\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"263\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___triangles/20c85a34f1faf4248b7710a054bcb9ab.png\" width=\"264\"></p>\n\n<p>In the above figure, \\( \\textsf{O} \\) is the center of the circle and, \\( \\textsf{M} \\) and \\( \\textsf{N} \\) lie on the circle. The area of the right triangle \\( \\textsf{MON} \\) is \\( 50\\;\\text{cm}^{2} \\). What is the area of the circle in \\( \\text{cm}^{2}? \\)</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2\\pi \\)</p>",
+            "<p>\\( 50\\pi \\)</p>",
+            "<p>\\( 75\\pi \\)</p>",
+            "<p>\\( 100\\pi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 100\\pi \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359484/gate-mechanical-2021-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359484/gate-mechanical-2021-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359494\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"239\" width=\"239\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___triangles/1909564aa9eae068e82da4d20f2b4960.png\"></p><p>The ratio of the area of the inscribed circle to the area of the circumscribed circle of an equilateral triangle is ___________</p><ol start=\"2\" style=\"list-style-type:upper-alpha\"><li>\\( \\dfrac{1}{6} \\)</li></ol><ol start=\"100\" style=\"list-style-type:upper-roman\"><li>\\( \\dfrac{1}{4} \\)</li></ol><ol start=\"500\" style=\"list-style-type:upper-roman\"><li>\\( \\dfrac{1}{2} \\)</li></ol></div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{8} \\)</p>"
+          ],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359494/gate-mechanical-2021-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/359494/gate-mechanical-2021-set-2-ga-question-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"411769\"></a><div itemprop=\"text\"><p>An equilateral triangle, a square and a circle have equal areas.</p>\n\n<p>What is the ratio of the perimeters of the equilateral triangle to square to circle?</p>\n\n</div><br><br><b>GATE Mechanical 2022 Set 1 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3\\sqrt{3} : 2 : \\sqrt{\\pi} \\)</p>",
+            "<p>\\( \\sqrt{\\left ( 3 \\sqrt{3} \\right )} : 2 : \\sqrt{\\pi} \\)</p>",
+            "<p>\\( \\sqrt{\\left ( 3 \\sqrt{3} \\right )} : 4 : 2\\sqrt{\\pi} \\)</p>",
+            "<p>\\( \\sqrt{\\left ( 3 \\sqrt{3} \\right )} : 2 : 2\\sqrt{\\pi} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{\\left ( 3 \\sqrt{3} \\right )} : 2 : \\sqrt{\\pi} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411769/gate-mechanical-2022-set-1-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411769/gate-mechanical-2022-set-1-ga-question-8</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"40175\"></a><div itemprop=\"text\"><p>In the given figure angle \\( Q \\) is a right angle, \\( PS:QS = 3:1, RT:QT = 5:2 \\) and \\( PU:UR = 1:1.  \\) If area of triangle \\( QTS \\) is \\( 20cm^{2}, \\) then the area of triangle \\( PQR \\) in \\( cm^{2} \\) is ______</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___triangles/841c337e8762ff34c3820fb187e2f5b4.png\"></p></div><br><br><b>GATE2015 ME-3: GA-8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "280",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40175/gate2015-me-3-ga-8\" target=\"_blank\">https://gateoverflow.in/40175/gate2015-me-3-ga-8</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"40173\"></a><div itemprop=\"text\"><p>Right triangle \\( PQR \\) is to be constructed in the \\( xy \\) - plane so that the right angle is at \\( P \\) and line \\( PR \\) is parallel to the \\( x \\)-axis. The \\( x \\) and \\( y \\) coordinates of \\( P, Q, \\) and \\( R \\) are to be integers that satisfy the inequalities: \\( −4\\leq&nbsp;x\\leq&nbsp;5 \\) and \\( 6 \\leq&nbsp;y \\leq16. \\) How many different triangles could be constructed with these properties?</p>\n\n</div><br><br><b>GATE2015 ME-3: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 110 \\)</p>",
+            "<p>\\( 1,100 \\)</p>",
+            "<p>\\( 9,900 \\)</p>",
+            "<p>\\( 10,000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9,900 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40173/gate2015-me-3-ga-9\" target=\"_blank\">https://gateoverflow.in/40173/gate2015-me-3-ga-9</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"205085\"></a><div itemprop=\"text\"><p>The area of an equilateral triangle is \\( \\sqrt{3} \\). What is the perimeter of the triangle\\( ? \\)</p>\n\n</div><br><br><b>GATE2018 CH: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205085/gate2018-ch-ga-4\" target=\"_blank\">https://gateoverflow.in/205085/gate2018-ch-ga-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

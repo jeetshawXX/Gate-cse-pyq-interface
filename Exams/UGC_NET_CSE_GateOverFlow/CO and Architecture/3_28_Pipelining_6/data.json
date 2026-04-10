@@ -1,0 +1,101 @@
+{
+  "title": "CO and Architecture - Pipelining",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Pipelining",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335581\"></a><div itemprop=\"text\"><p>The processing speeds of pipeline segments are usually :</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2004 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Equal</p>",
+            "<p>Unequal</p>",
+            "<p>Greater</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335581/ugc-net-cse-december-2004-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/335581/ugc-net-cse-december-2004-part-2-question-47</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"63507\"></a><div itemprop=\"text\"><p>Pipelining improves performance by</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | July 2016 | Part 2 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>decreasing instruction latency</p>",
+            "<p>eliminating data hazards</p>",
+            "<p>exploiting instruction level parallelism</p>",
+            "<p>decreasing the cache miss rate</p>"
+          ],
+          "correct_answer": "<p>exploiting instruction level parallelism</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63507/ugc-net-cse-july-2016-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/63507/ugc-net-cse-july-2016-part-2-question-48</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55893\"></a><div itemprop=\"text\">\n<p>Pipelining strategy is called implement</p>\n\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2012 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>instruction execution</p>",
+            "<p>instruction prefetch</p>",
+            "<p>instruction decoding</p>",
+            "<p>instruction manipulation</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55893/ugc-net-cse-june-2012-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/55893/ugc-net-cse-june-2012-part-2-question-48</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"56076\"></a><div itemprop=\"text\"><p>The concept of pipelining is a most effective in improving performance in the tasks being performed in different stages:</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2012 | Part 3 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>require different amount of time</p>",
+            "<p>require about the same amount of time</p>",
+            "<p>require different amount of time with time difference between any two tasks being same</p>",
+            "<p>require different amount with time difference between any two tasks being different</p>"
+          ],
+          "correct_answer": "<p>require about the same amount of time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56076/ugc-net-cse-june-2012-part-3-question-3\" target=\"_blank\">https://gateoverflow.in/56076/ugc-net-cse-june-2012-part-3-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"349630\"></a><div itemprop=\"text\"><p>Which of the following statements with respect to \\( \\text{K} \\)-segment pipelining are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Maximum speedup that a pipeline can provide is \\( k \\) theoretically</li>\n\t<li>It is impossible to achieve maximum speed up \\( k \\) in \\( k \\)-segment pipeline</li>\n\t<li>All segments in pipeline take same time in computation</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | October 2020 | Part 2 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i)} \\) and \\( \\text{(ii)} \\) only</p>",
+            "<p>\\( \\text{(ii)} \\) and \\( \\text{(iii)} \\) only</p>",
+            "<p>\\( \\text{(i)} \\) and \\( \\text{(iii)} \\) only</p>",
+            "<p>\\( \\text{(i), (ii)} \\) and \\( \\text{(iii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i)} \\) and \\( \\text{(ii)} \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349630/ugc-net-cse-october-2020-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/349630/ugc-net-cse-october-2020-part-2-question-43</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"349666\"></a><div itemprop=\"text\"><p>A non-pipeline system takes \\( 50 \\)ns to process a task. The same task can be processed in six-segment pipeline with a clockcycle of \\( 10 \\)ns. Determine approximately the speedup ratio of the pipeline for \\( 500 \\) tasks.</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | October 2020 | Part 2 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 4.95 \\)</p>",
+            "<p>\\( 5.7 \\)</p>",
+            "<p>\\( 5.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4.95 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349666/ugc-net-cse-october-2020-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/349666/ugc-net-cse-october-2020-part-2-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+}

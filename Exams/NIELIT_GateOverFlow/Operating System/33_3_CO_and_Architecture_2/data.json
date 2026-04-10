@@ -1,0 +1,41 @@
+{
+  "title": "Operating System - CO and Architecture",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "CO and Architecture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366907\"></a><div itemprop=\"text\"><p>In _____________ machine is executing operating system instruction \\( : \\)</p>\n\n</div><br><br><b>Operating System: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>System mode</p>",
+            "<p>User mode</p>",
+            "<p>Normal mode</p>",
+            "<p>Safe mode</p>"
+          ],
+          "correct_answer": "<p>System mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366907/nielit-2021-dec-scientist-b-section-b-110\" target=\"_blank\">https://gateoverflow.in/366907/nielit-2021-dec-scientist-b-section-b-110</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"378718\"></a><div itemprop=\"text\"><p>Which of the following is true?</p>\n\n</div><br><br><b>Operating System: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unless enabled, a \\( \\text{CPU} \\) will not be able to process interrupts</p>",
+            "<p>Loop instructions cannot be interrupted till they complete</p>",
+            "<p>A processor need not checks for interrupts before executing a new instruction</p>",
+            "<p>Only level triggered interrupts are possible on microprocessors</p>"
+          ],
+          "correct_answer": "<p>Unless enabled, a \\( \\text{CPU} \\) will not be able to process interrupts</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378718/nielit-2021-dec-scientist-b-section-b-45\" target=\"_blank\">https://gateoverflow.in/378718/nielit-2021-dec-scientist-b-section-b-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

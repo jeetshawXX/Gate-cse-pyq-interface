@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Organization - Computer_Organization - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Compared to CISC processors,RISC processors contain <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>More register and smaller instruction set</p>",
+            "<b>B.</b> <p>larger instruction set</p>",
+            "<b>C.</b> <p>less registers and smaller instruction set</p>",
+            "<b>D.</b> <p>more transistor elements</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>More register and smaller instruction set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18580/isro2009-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>On receiving an interrupt from an I/O device,the CPU <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Halts for a predetermined time</p>",
+            "<b>B.</b> <p>Branches off to the interrupt service routine after completion of the current instruction</p>",
+            "<b>C.</b> <p>Branches off to the interrupt service routine immediately</p>",
+            "<b>D.</b> <p>Hands over control of address bus and data bus to the interrupting device</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Branches off to the interrupt service routine after completion of the current instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18581/isro2009-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following statements about relative addressing mode is FALSE? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It enables reduced instruction size</p>",
+            "<b>B.</b> <p>It allows indexing of array element with same instruction</p>",
+            "<b>C.</b> <p>It enables easy relocation of data</p>",
+            "<b>D.</b> <p>It enables faster address calculation than absolute addressing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It enables faster address calculation than absolute addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3578/gate2006-it-39-isro2009-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A processor that has carry, overflow and sign flag bits as part of its program status word (PSW) performs addition of the following two 2's complement numbers 01001101 and 11101001. After the execution of this addition operation, the status of the carry, overflow and sign flags, respectively will be <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 1, 0</p>",
+            "<b>B.</b> <p>1, 0, 0</p>",
+            "<b>C.</b> <p>0, 1, 0</p>",
+            "<b>D.</b> <p>1, 0, 1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1, 0, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48064/isro2009-39-gate2008-it_15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The use of multiple register windows with overlap causes a reduction in the number of memory accesses for:<br>\nI.   Function locals and parameters<br>\nII.  Register saves and restores<br>\nIII. Instruction fetches <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/448/gate2008-37-isro2009-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a pipelined processor with the following four stages:<br>\nIF: Instruction Fetch<br>\nID: Instruction Decode and Operand Fetch<br>\nEX: Execute<br>\nWB: Write Back<br>\nThe IF, ID and WB stages take one clock cycle each to complete the operation. The number of clock cycles for the EX stage depends on the instruction. The ADD and SUB instructions need 1 clock cycle and the MUL instruction needs 3 clock cycles in the EX stage. Operand forwarding is used in the pipelined processor. What is the number of clock cycles taken to complete the following sequence of instructions?<br>\n\\(\\begin{array}{lllll} \\textbf{ADD} &amp; \\text{R2, R1, R0} &amp;&amp;&amp; \\text{R2 $\\leftarrow$ R1+R0} \\\\ \\textbf{MUL} &amp; \\text{R4, R3, R2} &amp;&amp;&amp; \\text{R4 $\\leftarrow$ R3*R2} \\\\ \\textbf{SUB} &amp; \\text{R6, R5, R4} &amp;&amp;&amp; \\text{R6 $\\leftarrow$ R5-R4} \\\\ \\end{array}\\) <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1235/gate2007-37-isro2009-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stores in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+            "<b>B.</b> <p>256 Mbute, 28 bits</p>",
+            "<b>C.</b> <p>512 Mbyte, 20 bits</p>",
+            "<b>D.</b> <p>64 Gbyte, 28 bits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48058/isro2009-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A CPU has 24-bit instructions. A program starts at address 300 (in decimal). Which one of the following is a legal program counter (all values in decimal)? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>400</p>",
+            "<b>B.</b> <p>500</p>",
+            "<b>C.</b> <p>600</p>",
+            "<b>D.</b> <p>700</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>600</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/888/gate2006-09-isro2009-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The microinstructions stored in the control memory of a processor have a width of 26 bits. Each microinstruction is divided into three fields. a micro operation field of 13 bits, a next address field (X), and a MUX select field (Y). There are 8 status bits in the inputs of the MUX. How many bits are there in the X and Y fields, and what is the size of the control memory in number of words? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 3, 1024</p>",
+            "<b>B.</b> <p>8, 5, 256</p>",
+            "<b>C.</b> <p>5, 8, 2048</p>",
+            "<b>D.</b> <p>10, 3, 512</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10, 3, 1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48055/isro2009-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The process of organizing the memory into two banks to allow 8-and 16-bit data operation is called <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Bank switching</p>",
+            "<b>B.</b> <p>Indexed mapping</p>",
+            "<b>C.</b> <p>Two-way memory interleaving</p>",
+            "<b>D.</b> <p>Memory segmentation</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Two-way memory interleaving</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48046/isro2009-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A certain microprocessor requires 4.5 microseconds to respond to an interrupt. Assuming that the three interrupts\\(I_1\\), \\(I_2\\) and \\(I_3\\) require the following execution time after the interrupt is recognized:<br>\nI.   \\(I_1\\) requires 25 microseconds<br>\nII.  \\(I_2\\) requires 35 microseconds<br>\nIII. \\(I_3\\) requires 20 microseconds<br>\n\\(I_1\\) has the highest priority and \\(I_3\\) has the lowest. What is the possible range of time for \\(I_3\\) to be executed assuming that it may or may not occur simultaneously with other interrupts? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>24.5 microseconds to 39.5 microseconds</p>",
+            "<b>B.</b> <p>24.5 microseconds to 93.5 microseconds</p>",
+            "<b>C.</b> <p>4.5 microseconds to 24.5 microseconds</p>",
+            "<b>D.</b> <p>29.5 microseconds 93.5 microseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>24.5 microseconds to 93.5 microseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48044/isro2009-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In which addressing mode, the effectives address of the operand is generated by adding a constant value to the content of a register? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Absolute mode</p>",
+            "<b>B.</b> <p>Indirect mode</p>",
+            "<b>C.</b> <p>Immediate mode</p>",
+            "<b>D.</b> <p>Index mode</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Index mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48041/isro2009-21-ugcnet-dec2012-ii-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following statements about synchronous and asynchronous I/O is NOT true? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An ISR is invoked on completion of I/O in synchronous I/O but not in asynchronous I/O</p>",
+            "<b>B.</b> <p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>",
+            "<b>C.</b> <p>A process making a synchronous I/O call waits until I/O is complete, but a process making an asynchronous I/O call does not wait for completion of the I/O</p>",
+            "<b>D.</b> <p>In the case of synchronous I/O, the process waiting for the completion of I/O is woken up by the ISR that is invoked after the completion of I/O</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>In both synchronous and asynchronous I/O, an ISR (Interrupt Service Routine) is invoked after completion of the I/O</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/487/gate2008-64-isro2009-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following is an example of spooled device? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A line printer used to print the output of a number of jobs</p>",
+            "<b>B.</b> <p>A terminal used to enter input data to a running program</p>",
+            "<b>C.</b> <p>A secondary storage device in a virtual memory system</p>",
+            "<b>D.</b> <p>A graphic display device</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A line printer used to print the output of a number of jobs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2724/gate1996-1-20-isro2008-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The Memory Address Register <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is a hardware memory device which denotes the location of the current instruction being executed.</p>",
+            "<b>B.</b> <p>is a group of electrical ckt, that performs the intent of instructions fetched from memory</p>",
+            "<b>C.</b> <p>contains the address of the memory location that is to be read from or stored into</p>",
+            "<b>D.</b> <p>contains a copy of the designated memory location specified by the MAR after a \"read\" or the new contents of the memory prior to a \"write\"</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>contains the address of the memory location that is to be read from or stored into</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49998/isro2008-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

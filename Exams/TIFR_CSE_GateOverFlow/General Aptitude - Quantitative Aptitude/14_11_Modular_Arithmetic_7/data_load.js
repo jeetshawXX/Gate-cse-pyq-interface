@@ -1,0 +1,123 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Modular Arithmetic",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Modular Arithmetic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"20260\"></a><div itemprop=\"text\"><p>Let \\( n&gt;1 \\) be an odd integer. The number of zeros at the end of the number \\( 99^{n}+1 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2011 | Part A | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20260/tifr-cse-2011-part-a-question-20\" target=\"_blank\">https://gateoverflow.in/20260/tifr-cse-2011-part-a-question-20</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"179285\"></a><div itemprop=\"text\"><p>What is the remainder when \\( 4444^{4444} \\) is divided by \\( 9? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2018 | Part B | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179285/tifr-cse-2018-part-b-question-1\" target=\"_blank\">https://gateoverflow.in/179285/tifr-cse-2018-part-b-question-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"280508\"></a><div itemprop=\"text\"><p>How many proper divisors (that is, divisors other than \\( 1 \\) or \\( 7200 \\))&nbsp; does \\( 7200 \\) have ?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2019 | Part A | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 52 \\)</p>",
+            "<p>\\( 54 \\)</p>",
+            "<p>\\( 60 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 52 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280508/tifr-cse-2019-part-a-question-2\" target=\"_blank\">https://gateoverflow.in/280508/tifr-cse-2019-part-a-question-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"280503\"></a><div itemprop=\"text\"><p>What are the last two digits of \\( 1! + 2! + \\dots +100! \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2019 | Part A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 00 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 33 \\)</p>",
+            "<p>\\( 73 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280503/tifr-cse-2019-part-a-question-7\" target=\"_blank\">https://gateoverflow.in/280503/tifr-cse-2019-part-a-question-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"280481\"></a><div itemprop=\"text\"><p>Let \\( m \\) and \\( n \\) be two positive integers. Which of the following is NOT always true?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2019 | Part B | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If \\( m \\) and \\( n \\) are co-prime, there exist integers \\( a \\) and \\( b \\) such that \\( am + bn=1 \\)</p>",
+            "<p>\\( m^{n-1} \\equiv 1&nbsp;(\\text{ mod } n) \\)</p>",
+            "<p>The rational number \\( \\frac{n}{m} \\cdot \\frac{n-1}{m-1} \\cdot \\frac{n-2}{m-2} \\dots \\frac{n-(m-2)}{m-(m-2)} \\cdot \\frac{n-(m-1)}{m-(m-1)} \\) is an integer</p>",
+            "<p>\\( m+1 \\) is a factor of \\( m^{n(n+1)}-1 \\)</p>",
+            "<p>If \\( 2^n -1 \\) is prime, then \\( n \\) is prime</p>"
+          ],
+          "correct_answer": "<p>\\( m^{n-1} \\equiv 1&nbsp;(\\text{ mod } n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280481/tifr-cse-2019-part-b-question-14\" target=\"_blank\">https://gateoverflow.in/280481/tifr-cse-2019-part-b-question-14</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"358955\"></a><div itemprop=\"text\"><p>What are the last two digits of \\( 7^{2021} \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2021 | Part A | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 67 \\)</p>",
+            "<p>\\( 07 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 01 \\)</p>",
+            "<p>\\( 77 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 07 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358955/tifr-cse-2021-part-a-question-13\" target=\"_blank\">https://gateoverflow.in/358955/tifr-cse-2021-part-a-question-13</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"400147\"></a><div itemprop=\"text\"><p>Let \\( m=2877426671 \\). It is known that \\( p=5754853343=2 m+1 \\) is a \\( 10 \\) -digit prime number. What is \\( 16^{m}(\\bmod p) \\) ?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2023 | Part B | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 2877426671 \\)</p>",
+            "<p>\\( 5754853342&nbsp; \\;( \\) which is actually \\( -1(\\bmod p)) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400147/tifr-cse-2023-part-b-question-11\" target=\"_blank\">https://gateoverflow.in/400147/tifr-cse-2023-part-b-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+});

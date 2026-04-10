@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithms - Slot 15",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An undirected graph G has n nodes. Its adjacency matrix is given by an nxn square matrix whose <br> (i) diagonal elements are 0's and <br> (ii) non-diagonal elements are 1's. <br> which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Graph G has no minimum spanning tree (MST)</p>",
+            "<b>B.</b> <p>Graph G has a unique MST of cost n-1</p>",
+            "<b>C.</b> <p>Graph G has multiple distinct MSTs, each of cost n-1</p>",
+            "<b>D.</b> <p>Graph G has multiple spanning trees of different costs</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Graph G has multiple distinct MSTs, each of cost n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1348/gate2005-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a list of recursive algorithms and a list of recurrence relations as shown below. Each recurrence relation corresponds to exactly one algorithm and is used to derive the time complexity of the algorithm.<br><br>\n\\(\\begin{array}{|l|l|l|l|}\\hline \\text{} &amp; \\textbf{Recursive Algorithm } &amp; \\text{} &amp; \\textbf{Recurrence Relation} \\\\\\hline \\text{P} &amp; \\text{Binary search} &amp; \\text{l.} &amp; \\text{$T(n) = T(n-k) +T(k) +cn$} \\\\\\hline \\text{Q.} &amp; \\text{Merge sort} &amp;\\text{ll.} &amp; \\text{$T(n) = 2T(n-1) + 1$ }\\\\\\hline\\text{R.} &amp; \\text{Quick sort}&amp; \\text{lll.} &amp; \\text{$T(n) = 2T(n/2) + cn$}\\\\\\hline \\text{S.} &amp; \\text{Tower of Hanoi} &amp; \\text{lV.} &amp; \\text{$T(n) = T(n/2) + 1$} \\\\\\hline \\end{array}\\)<br><br>Which of the following is the correct match between the algorithms and their recurrence relations? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-II, Q-III, R-IV, S-I</p>",
+            "<b>B.</b> <p>P-IV, Q-III, R-I, S-II</p>",
+            "<b>C.</b> <p>P-III, Q-II, R-IV, S-I</p>",
+            "<b>D.</b> <p>P-IV, Q-II, R-I, S-III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P-IV, Q-III, R-I, S-II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3700/gate2004-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the undirected graph below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q56_2af842fc.jpg\"><br>Using Prim's algorithm to construct a minimum spanning tree starting with node A, which one of the following sequences of edges represents a possible order in which the edges would be added to construct the minimum spanning tree? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(E, G), (C, F), (F, G), (A, D), (A, B), (A, C)</p>",
+            "<b>B.</b> <p>(A, D), (A, B), (A, C), (C, F), (G, E), (F, G)</p>",
+            "<b>C.</b> <p>(A, B), (A, D), (D, F), (F, G), (G, E), (F, C)</p>",
+            "<b>D.</b> <p>(A, D), (A, B), (D, F), (F, C), (F, G), (G, E)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(A, D), (A, B), (D, F), (F, C), (F, G), (G, E)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3699/gate2004-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let f(n), g(n) and h(n) be functions defined for positive integers such that <br>\n\\(f(n) = O(g(n)), \\; g(n) \\neq O(f(n)), \\; g(n) = O(h(n)), \\text{ and  } h(n) = O(g(n)).\\)<br>\nWhich one of the following statements is FALSE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(n) + g(n) = O(h(n) + h(n))\\)</p>",
+            "<b>B.</b> <p>\\(f(n) = O(h(n))\\)</p>",
+            "<b>C.</b> <p>\\(h(n) \\neq O(f(n))\\)</p>",
+            "<b>D.</b> <p>\\(f(n)h(n) \\neq O(g(n)h(n))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(f(n)h(n) \\neq O(g(n)h(n))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3698/gate2004-it-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The recurrence equation <br><br> T(1) = 1 <br> T(n) = 2T(n - 1) + n, n \\(\\geq\\) 2 <br><br> evaluates to <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n+1}-n-2\\)</p>",
+            "<b>B.</b> <p>\\(2^{n}-n\\)</p>",
+            "<b>C.</b> <p>\\(2^{n+1}-2n-2\\)</p>",
+            "<b>D.</b> <p>\\(2^{n}+n\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2^{n+1}-n-2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1078/gate2004-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The Asymptotic Notation of the following C function is (assume n \\(\\gt\\) 0)<pre><code>int recursive (int n) {\n   if (n == 1)\n      return (1);\n   else\n      return (recursive (n - 1) + recursive (n - 1));\n} </code></pre> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(\\((n^{2})\\))</p>",
+            "<b>B.</b> <p>O(nlog n)</p>",
+            "<b>C.</b> <p>O(n)</p>",
+            "<b>D.</b> <p>O(\\((2^{n})\\))</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>O(\\((2^{n})\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1077/gate2004-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let A[1,..., n] be an array storing a bit (1 or 0) at each location, and f(m) is a function whose Asymptotic Notation is \\(\\theta\\)(m). Consider the following program fragment written in a C like language:<pre><code> counter = 0;\nfor (i = 1; i &lt; = n; i++)\n{ \n      if (A[i] == 1) \n         counter++;\n      else {\n         f(counter); \n         counter = 0;\n      }\n}</code></pre>  The complexity of this program fragment is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Omega (n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Omega (n log n)\\) and \\(O (n^{2})\\)</p>",
+            "<b>C.</b> <p>\\(\\theta\\)(n)</p>",
+            "<b>D.</b> <p>o(n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\theta\\)(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1076/gate2004-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose we run Dijkstra's single source shortest-path algorithm on the following edge-weighted\ndirected graph with vertex P as the source. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q44_a86a1440.jpg\"><br> In what order do the nodes get included into the set of vertices for which the shortest path distances are finalized? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P,Q,R,S,T,U</p>",
+            "<b>B.</b> <p>P,Q,R,U,S,T</p>",
+            "<b>C.</b> <p>P,Q,R,U,T,S</p>",
+            "<b>D.</b> <p>P,Q,T,R,U,S</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P,Q,R,U,S,T</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1041/gate2004-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The problem 3-SAT and 2-SAT are <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>both in P</p>",
+            "<b>B.</b> <p>both NP complete</p>",
+            "<b>C.</b> <p>NP-complete and in P respectively</p>",
+            "<b>D.</b> <p>undecidable and NP-complete respectively</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>NP-complete and in P respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1027/gate2004-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The tightest lower bound on the number of comparisons, in the worst case, for comparison-based\nsorting is of the order of <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>nlogn</p>",
+            "<b>D.</b> <p>\\(nlog^{2}n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>nlogn</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1026/gate2004-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the weight of a minimum spanning tree of the following graph? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q68_3abc224c.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>29</p>",
+            "<b>B.</b> <p>31</p>",
+            "<b>C.</b> <p>38</p>",
+            "<b>D.</b> <p>41</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>31</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/955/gate2003-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let G = (V,E) be an undirected graph with a sub-graph G1 = (V1,E1), Weight are\nassigned to edges of G as follows <br>\\(w(e)=\\left\\{\\begin{matrix} 0 &amp;if \\;  e \\in E1, \\\\ 1&amp;  otherwise \\end{matrix}\\right.\\) <br><br>A single-source shortest path algorithm is executed on the weighted graph (V,E,w) with an arbitrary vertex v1 of V1 as the source. Which of the following can always be inferred from the path costs computed? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The number of edges in the shortest paths from v1 to all vertices of G</p>",
+            "<b>B.</b> <p>G1 is connected</p>",
+            "<b>C.</b> <p>V1 forms a clique in G</p>",
+            "<b>D.</b> <p>G1 is a tree</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>G1 is connected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/954/gate2003-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The cube root of a natural number n is defined as the largest natural number m\nsuch that \\(m^{3}\\leq n\\). The complexity of computing the cube root of n(n is represented in binary notation) is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n) but not O(\\(n^{0.5}\\))</p>",
+            "<b>B.</b> <p>O(\\(n^{0.5}\\)) but not O(\\((log \\;n)^{k}\\)) for any constant k \\(&gt;\\) 0</p>",
+            "<b>C.</b> <p>O(\\((log \\;n)^{k}\\)) for some constant k \\(&gt;\\) 0, but not O(\\((log \\;log \\; n)^{m}\\)) for any constant\nm \\(&gt;\\) 0</p>",
+            "<b>D.</b> <p>O(\\((log \\;log \\; n)^{k}\\)) for some constant k \\(&gt;\\) 0.5, but not O(\\((log \\;log \\; n)^{0.5}\\))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>O(\\((log \\;n)^{k}\\)) for some constant k \\(&gt;\\) 0, but not O(\\((log \\;log \\; n)^{m}\\)) for any constant\nm \\(&gt;\\) 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/258/gate2003-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In a permutation \\(a_1.....a_n\\) of n distinct integers, an inversion is a pair  \\((a_i, a_j) \\) such that \\(i \\lt j\\) and \\(a_i \\gt a_j\\). <br><br> What would be the worst case time complexity of the insertion Sort algorithm, if\nthe inputs are restricted to permutations of 1....n with at most n inversions? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (nlogn)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{1.5})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43576/gate2003-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following recurrence relation <br>T(1)=1 <br> T(n+1)=T(n)+\\(\\left \\lfloor \\sqrt{n+1} \\right \\rfloor\\)\nfor all n \\(\\geq\\) 1<br> The value of T(\\(m^{2}\\)\n) for m \\(\\geq\\) 1 is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(m/6) (21m - 39) + 4</p>",
+            "<b>B.</b> <p>(m/6) (4\\(m^{2}\\) - 3m + 5)</p>",
+            "<b>C.</b> <p>(m/2) (\\(m^{2.5}\\) - 11m + 20) - 5</p>",
+            "<b>D.</b> <p>(m/6) (5\\(m^{3}\\) - 34\\(m^{2}\\) + 137m - 104) + (5/6)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(m/6) (4\\(m^{2}\\) - 3m + 5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/925/gate2003-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

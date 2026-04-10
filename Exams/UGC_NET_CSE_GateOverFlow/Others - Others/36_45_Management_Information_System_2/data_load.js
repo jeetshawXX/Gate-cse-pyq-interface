@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Management Information System",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Management Information System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65609\"></a><div itemprop=\"text\"><p>Many causes of the software crisis can be traced to mythology based on</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2011 | Part 2 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Management Myths</p>",
+            "<p>Customer Myths</p>",
+            "<p>Practitioner Myths</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65609/ugc-net-cse-june-2011-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/65609/ugc-net-cse-june-2011-part-2-question-45</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"61334\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &amp;&nbsp; \\textbf{List-I} &amp;&amp; \\textbf{List-II} \\\\&nbsp;\\text{(a)} &amp; \\text{Intelligence} &amp; \\text{(i)} &amp; \\text{Contextual, tacit, transfer needs learning}&nbsp; \\\\&nbsp;\\text{(b)} &amp; \\text{Knowledge} &amp; \\text{(ii)} &amp; \\text{Scattered facts, easily transferrable} \\\\&nbsp;\\text{(c)} &amp; \\text{Information} &amp; \\text{(iii)} &amp; \\text{Judgemental} \\\\&nbsp;\\text{(d)} &amp; \\text{Data} &amp; \\text{(iv)} &amp; \\text{Codifiable, endorsed with relevence and purpose} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Others: UGC NET CSE | Junet 2015 | Part 3 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(i), (c)-(iv), (d)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(i), (b)-(iii), (c)-(iv), (d)-(ii)} \\)</p>"
+          ],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61334/ugc-net-cse-junet-2015-part-3-question-55\" target=\"_blank\">https://gateoverflow.in/61334/ugc-net-cse-junet-2015-part-3-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+});

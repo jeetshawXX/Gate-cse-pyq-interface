@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - Semantic Analysis",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Semantic Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213578\"></a><div itemprop=\"text\">\n\n<p>Which of the following comparisons between static and dynamic type checking incorrect?</p>\n\n</div><br><br><b>Programming in C: ISRO CSE 2018 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dynamic type checking slows down the execution</p>",
+            "<p>Dynamic type checking offers more flexibility to the programmers</p>",
+            "<p>In contrast to Static type checking, dynamic type checking may cause failure in runtime due to type errors</p>",
+            "<p>Unlike static type checking dynamic type checking is done during compilation</p>"
+          ],
+          "correct_answer": "<p>Unlike static type checking dynamic type checking is done during compilation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213578/isro-cse-2018-question-10\" target=\"_blank\">https://gateoverflow.in/213578/isro-cse-2018-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

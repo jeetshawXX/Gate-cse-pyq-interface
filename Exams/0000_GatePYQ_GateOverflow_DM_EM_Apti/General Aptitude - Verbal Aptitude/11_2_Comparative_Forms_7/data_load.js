@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Comparative Forms",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Comparative Forms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"7995\"></a><div itemprop=\"text\"><p>Didn't you buy ____ when you went shopping?</p></div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>any paper</p>",
+            "<p>much paper</p>",
+            "<p>no paper</p>",
+            "<p>a few paper</p>"
+          ],
+          "correct_answer": "<p>any paper</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1\" target=\"_blank\">https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"357549\"></a><div itemprop=\"text\"><p>Gauri said that she can play the keyboard __________ her sister.</p></div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>as well as</p>",
+            "<p>as better as</p>",
+            "<p>as nicest as</p>",
+            "<p>as worse as</p>"
+          ],
+          "correct_answer": "<p>as well as</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1\" target=\"_blank\">https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359889\"></a><div itemprop=\"text\"><p>Getting to the top is ______________ than staying on top.</p>\n\n</div><br><br><b>GATE Civil 2021 Set 1 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>more easy</p>",
+            "<p>much easy</p>",
+            "<p>easiest</p>",
+            "<p>easier</p>"
+          ],
+          "correct_answer": "<p>easier</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359889/gate-civil-2021-set-1-ga-question-1\" target=\"_blank\">https://gateoverflow.in/359889/gate-civil-2021-set-1-ga-question-1</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"359534\"></a><div itemprop=\"text\"><p>Jofra&nbsp;Archer, the England fast bowler, is _______than accurate.</p></div><br><br><b>GATE Mechanical 2020 Set 1 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>more fast</p>",
+            "<p>faster</p>",
+            "<p>less fast</p>",
+            "<p>more faster</p>"
+          ],
+          "correct_answer": "<p>more fast</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359534/gate-mechanical-2020-set-1-ga-question-2\" target=\"_blank\">https://gateoverflow.in/359534/gate-mechanical-2020-set-1-ga-question-2</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"108474\"></a><div itemprop=\"text\"><p>Based on the given statements, select the appropriate option with respect to grammar and usage.</p><p>Statements</p><p>(i) The height of Mr. \\( X \\) is \\( 6 \\) feet.</p><p>(ii) The height of Mr. \\( Y \\) is \\( 5 \\) feet.</p></div><br><br><b>GATE2016 EC-2: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mr. \\( X \\) is longer than Mr. \\( Y \\).</p>",
+            "<p>Mr. \\( X \\) is more elongated than Mr. \\( Y \\).</p>",
+            "<p>Mr. \\( X \\) is taller than Mr. \\( Y \\).</p>",
+            "<p>Mr. \\( X \\) is lengthier than Mr. \\( Y \\).</p>"
+          ],
+          "correct_answer": "<p>Mr. \\( X \\) is taller than Mr. \\( Y \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108474/gate2016-ec-2-ga-1\" target=\"_blank\">https://gateoverflow.in/108474/gate2016-ec-2-ga-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"110820\"></a><div itemprop=\"text\"><p>An apple costs Rs. \\( 10 \\). An onion costs Rs. \\( 8 \\).</p><p>Select the most suitable sentence with respect to grammar and usage.</p></div><br><br><b>GATE2016 EC-3: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The price of an apple is greater than an onion.</p>",
+            "<p>The price of an apple is more than onion.</p>",
+            "<p>The price of an apple is greater than that of an onion.</p>",
+            "<p>Apples are more costlier than onions.</p>"
+          ],
+          "correct_answer": "<p>The price of an apple is greater than that of an onion.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110820/gate2016-ec-3-ga-1\" target=\"_blank\">https://gateoverflow.in/110820/gate2016-ec-3-ga-1</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"313515\"></a><div itemprop=\"text\"><p>It is ___________ to read this year’s textbook ________ the last year’s.</p></div><br><br><b>GATE2017 EC-2: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>easier, than</p>",
+            "<p>most easy, than</p>",
+            "<p>easier, from</p>",
+            "<p>easiest, from</p>"
+          ],
+          "correct_answer": "<p>easier, than</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313515/gate2017-ec-2-ga-2\" target=\"_blank\">https://gateoverflow.in/313515/gate2017-ec-2-ga-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

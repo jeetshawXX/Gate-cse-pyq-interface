@@ -1,0 +1,36 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Dice",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Dice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6376\"></a><div itemprop=\"text\"><p>Two dice are thrown simultaneously. The probability of obtaining a total score of \\( 5 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/18 \\)</p>",
+            "<p>\\( 1/12 \\)</p>",
+            "<p>\\( 1/9 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( 1/9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6376/nielit-2016-dec-scientist-b-section-a-56\" target=\"_blank\">https://aptitude.gateoverflow.in/6376/nielit-2016-dec-scientist-b-section-a-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2802\"></a><div itemprop=\"text\">When 4 dice are thrown, what is the probability that the same number appears on each of them?<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a. 1/36 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b. 1/18 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c. 1/216 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d. 1/5</div><br><br><b>Quantitative Aptitude: probability</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2802/probability\" target=\"_blank\">https://aptitude.gateoverflow.in/2802/probability</a></p>"
+        }
+      ]
+    }
+  ]
+});

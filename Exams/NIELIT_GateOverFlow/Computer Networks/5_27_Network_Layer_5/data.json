@@ -1,0 +1,86 @@
+{
+  "title": "Computer Networks - Network Layer",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Network Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336687\"></a><div itemprop=\"text\"><p>Which of the following is not a transceiver function?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Transmission and receipt of data</p>",
+            "<p>Checking of line voltages</p>",
+            "<p>Addition and subtraction of headers</p>",
+            "<p>Collision detection</p>"
+          ],
+          "correct_answer": "<p>Addition and subtraction of headers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336687/nielit-2016-mar-scientist-b-section-c-54\" target=\"_blank\">https://gateoverflow.in/336687/nielit-2016-mar-scientist-b-section-c-54</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"378701\"></a><div itemprop=\"text\"><p>A device that allows two or more computers on different networks to communicate with each other is ___________.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Hub</p>",
+            "<p>Bridge</p>",
+            "<p>Repeater</p>",
+            "<p>Gateway</p>"
+          ],
+          "correct_answer": "<p>Gateway</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378701/nielit-2021-dec-scientist-b-section-b-62\" target=\"_blank\">https://gateoverflow.in/378701/nielit-2021-dec-scientist-b-section-b-62</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351574\"></a><div itemprop=\"text\"><p>___________ tells a firewall about how to reassemble a data stream that has been divided into packets.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 108</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The source routing feature</p>",
+            "<p>The number in the header’s identification field</p>",
+            "<p>The destination \\( IP \\) address</p>",
+            "<p>The header checksum field in the packet header</p>"
+          ],
+          "correct_answer": "<p>The source routing feature</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351574/nielit-scientist-b-2020-november-108\" target=\"_blank\">https://gateoverflow.in/351574/nielit-scientist-b-2020-november-108</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351634\"></a><div itemprop=\"text\"><p>The __________ command will show you the translation table containing all the active \\( NAT \\) entries.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>show ip nat translations</p>",
+            "<p>show ip nat tl</p>",
+            "<p>show ip nat states</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>show ip nat translations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351634/nielit-scientist-b-2020-november-48\" target=\"_blank\">https://gateoverflow.in/351634/nielit-scientist-b-2020-november-48</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"351618\"></a><div itemprop=\"text\"><p>In an \\( \\text{IPv6} \\)&nbsp; header, the traffic class field is similar to the ________ field in the \\( \\text{IPv4} \\) header.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( TOS \\) field</p>",
+            "<p>Fragmentation field</p>",
+            "<p>Fast Switching</p>",
+            "<p>Option field</p>"
+          ],
+          "correct_answer": "<p>\\( TOS \\) field</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351618/nielit-scientist-b-2020-november-64\" target=\"_blank\">https://gateoverflow.in/351618/nielit-scientist-b-2020-november-64</a></p>"
+        }
+      ]
+    }
+  ]
+}

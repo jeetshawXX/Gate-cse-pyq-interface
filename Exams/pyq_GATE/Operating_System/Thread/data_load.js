@@ -1,0 +1,183 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Thread",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "Thread",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following statements about threads is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Threads can only be implemented in kernel space</p>",
+            "<b>B.</b> <p>Each thread has its own file descriptor table for open files</p>",
+            "<b>C.</b> <p>All the threads belonging to a process share a common stack</p>",
+            "<b>D.</b> <p>Threads belonging to a process are by default not protected from each other</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Threads belonging to a process are by default not protected from each other</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422828/gate-cse-2024-set-1-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one or more of the following need to be saved on a context switch from one\nthread (T1) of a process to another thread (T2) of the same process? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Page table base register</p>",
+            "<b>B.</b> <p>Stack pointer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>General purpose registers</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>Stack pointer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>General purpose registers</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399300/gate-cse-2023-question-12#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following multi-threaded code segment (in a mix of C and pseudo-code), invoked by two processes P1 and P2, and each of the processes spawns two threads T1 and T2:<pre><code>int x = 0;  // global\nLock L1;    // global\nmain () { \n    create a thread to execute foo( ); // Thread T1\n    create a thread to execute foo( ); // Thread T2\n    wait for the two threads to finish execution;\n    print(x);}\n    \n    \nfoo() {\n    int y = 0;\n    Acquire L1;\n    x = x + 1;\n    y = y + 1;\n    Release L1;\n    print (y);} </code></pre>Which of the following statement(s) is/are correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Both P1 and P2 will print the value of x as 2.</p>",
+            "<b>B.</b> <p>At least of P1 and P2 will print the value of x as 4.</p>",
+            "<b>C.</b> <p>At least one of the threads will print the value of y as 2.</p>",
+            "<b>D.</b> <p>Both T1 and T2, in both the processes, will print the value of y as 1.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Both P1 and P2 will print the value of x as 2.</p>",
+            "<b>D.</b> <p>Both T1 and T2, in both the processes, will print the value of y as 1.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357498/gate-cse-2021-set-2-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following is/are shared by all the threads in a process ?<br>\nI. Program counter <br>II. Stack <br>\nIII. Address space<br> IV. Registers <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>IV only</p>",
+            "<b>D.</b> <p>III and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118240/gate2017-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Threads of a process share <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>global variable but not heap.</p>",
+            "<b>B.</b> <p>heap but not global variables.</p>",
+            "<b>C.</b> <p>neither global variables nor heap.</p>",
+            "<b>D.</b> <p>Both heap and global variables.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both heap and global variables.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118298/gate2017-1-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following is FALSE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>User level threads are not scheduled by the kernel</p>",
+            "<b>B.</b> <p>When a user level thread is blocked, all other threads of its process are blocked.</p>",
+            "<b>C.</b> <p>Context switching between user level threads is faster than context switching between\nkernel level threads.</p>",
+            "<b>D.</b> <p>Kernel level threads cannot share the code segment</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Kernel level threads cannot share the code segment</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1787/gate2014-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A thread is usually defined as a 'light weight process' because an operating\nsystem (OS) maintains smaller data structures for a thread than for a process. In\nrelation to this, which of the followings is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>On per-thread basis, the OS maintains only CPU register state</p>",
+            "<b>B.</b> <p>The OS does not maintain a separate stack for each thread</p>",
+            "<b>C.</b> <p>On per-thread basis, the OS does not maintain virtual memory state</p>",
+            "<b>D.</b> <p>On per thread basis, the OS maintains only scheduling and accounting information</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>On per-thread basis, the OS does not maintain virtual memory state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2118/gate2011-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let the time taken to switch between user and kernel modes of execution be t1\nwhile the time taken to switch between two processes be t2. Which of the\nfollowing is TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(t_{1}\\gt t_{2}\\)</p>",
+            "<b>B.</b> <p>\\(t_{1}=t_{2}\\)</p>",
+            "<b>C.</b> <p>\\(t_{1}\\lt t_{2}\\)</p>",
+            "<b>D.</b> <p>Nothing can be said about the relation between t1 and t2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(t_{1}\\lt t_{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2108/gate2011-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following statements about user level threads and kernel level\nthreads. Which one of the following statements is FALSE? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Context switch time is longer for kernel level threads than for user level threads.</p>",
+            "<b>B.</b> <p>User level threads do not need any hardware support.</p>",
+            "<b>C.</b> <p>Related kernel level threads can be scheduled on different processors in a\nmulti-processor system.</p>",
+            "<b>D.</b> <p>Blocking one kernel level thread blocks all related threads.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Blocking one kernel level thread blocks all related threads.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1215/gate2007-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following is NOT shared by the threads of the same process ? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Stack</p>",
+            "<b>B.</b> <p>Address Space</p>",
+            "<b>C.</b> <p>File Descriptor Table</p>",
+            "<b>D.</b> <p>Message Queue</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3655/gate2004-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following statements with respect to user-level threads and kernel-supported threads <br><br>\n(i) context switch is faster with kernel-supported threads <br>\n(ii) for user-level threads, a system call can block the entire process <br>\n(iii) Kernel supported threads can be scheduled independently <br>\n(iv) User level threads are transparent to the kernel <br>\nWhich of the above statements are true? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(ii), (iii) and (iv) only</p>",
+            "<b>B.</b> <p>(ii) and (iii) only</p>",
+            "<b>C.</b> <p>(i) and (iii) only</p>",
+            "<b>D.</b> <p>(i) and (ii) only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(ii), (iii) and (iv) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1008/gate2004-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Adder",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Adder",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336636\"></a><div itemprop=\"text\"><p>How many inputs are required in Full Adder Circuit?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>More than two inputs</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336636/nielit-2016-dec-scientist-b-it-section-b-33\" target=\"_blank\">https://gateoverflow.in/336636/nielit-2016-dec-scientist-b-it-section-b-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369319\"></a><div itemprop=\"text\"><p>The number of full and half-adders required to add \\( 16 \\)-bit numbers is :</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\) half-adders, \\( 8 \\) full-adders</p>",
+            "<p>\\( 1 \\) half-adders, \\( 15 \\) full-adders</p>",
+            "<p>\\( 16 \\) half-adders, \\( 0 \\) full-adders</p>",
+            "<p>\\( 4 \\) half-adders, \\( 12 \\) full-adders</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) half-adders, \\( 15 \\) full-adders</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369319/nielit-2021-dec-scientist-a-section-b-94\" target=\"_blank\">https://gateoverflow.in/369319/nielit-2021-dec-scientist-a-section-b-94</a></p>"
+        }
+      ]
+    }
+  ]
+});

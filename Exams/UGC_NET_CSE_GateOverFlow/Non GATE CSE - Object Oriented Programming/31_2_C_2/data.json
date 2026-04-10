@@ -1,0 +1,41 @@
+{
+  "title": "Non GATE CSE - Object Oriented Programming - C",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "C",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69526\"></a><div itemprop=\"text\"><p>A function template in C++ provides _____ level of generalization.</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | August 2016 | Part 2 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69526/ugc-net-cse-august-2016-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/69526/ugc-net-cse-august-2016-part-2-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59136\"></a><div itemprop=\"text\"><p>Which of the following is not a member of class ?&nbsp;</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2014 | Part 2 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Static function</p>",
+            "<p>Friend function</p>",
+            "<p>Const function</p>",
+            "<p>Virtual function&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Friend function</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59136/ugc-net-cse-december-2014-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/59136/ugc-net-cse-december-2014-part-2-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

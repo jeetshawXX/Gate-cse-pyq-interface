@@ -1,0 +1,41 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Data Interpretation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Data Interpretation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351270\"></a><div itemprop=\"text\"><p>Study the following graph and the table and answer the question given below. (Data of different states regarding population of states in the year 2018)</p><p style=\"text-align:center\"><img alt=\"Pie chart\" width=\"400\" height=\"437\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4149122017777931766\"></p><table><tbody><tr><th rowspan=\"3\">States</th><th colspan=\"4\">Sex and Literacy wise Population Ratio</th></tr><tr><th colspan=\"2\">Sex</th><th colspan=\"2\">Literacy</th></tr><tr><td>M</td><td>F</td><td>Educated</td><td>Non-Educated</td></tr><tr><td>A</td><td>5</td><td>3</td><td>2</td><td>7</td></tr><tr><td>B</td><td>3</td><td>1</td><td>1</td><td>4</td></tr><tr><td>C</td><td>2</td><td>3</td><td>2</td><td>1</td></tr><tr><td>D</td><td>3</td><td>5</td><td>3</td><td>2</td></tr><tr><td>E</td><td>3</td><td>4</td><td>4</td><td>1</td></tr><tr><td>F</td><td>3</td><td>2</td><td>7</td><td>2</td></tr><tr><td>G</td><td>3</td><td>4</td><td>9</td><td>4</td></tr></tbody></table><p>&nbsp;</p><p>_________________ is the total number of non-educated people in \\( A \\) and \\( B \\) in 2018.</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1276040 \\)</p>",
+            "<p>\\( 1032170 \\)</p>",
+            "<p>\\( 1081550 \\)</p>",
+            "<p>\\( 1161160 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1161160 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351270/nielit-scientist-b-2020-november-1\" target=\"_blank\">https://gateoverflow.in/351270/nielit-scientist-b-2020-november-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351269\"></a><div itemprop=\"text\"><p>Study the following graph and the table and answer the question given below. (Data of different states regarding population of states in the year 2018)</p><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"Pie chart\" width=\"400\" height=\"437\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4149122017777931766\"></p><table><tbody><tr><th rowspan=\"3\">States</th><th colspan=\"4\">Sex and Literacy wise Population Ratio</th></tr><tr><th colspan=\"2\">Sex</th><th colspan=\"2\">Literacy</th></tr><tr><td>M</td><td>F</td><td>Educated</td><td>Non-Educated</td></tr><tr><td>A</td><td>5</td><td>3</td><td>2</td><td>7</td></tr><tr><td>B</td><td>3</td><td>1</td><td>1</td><td>4</td></tr><tr><td>C</td><td>2</td><td>3</td><td>2</td><td>1</td></tr><tr><td>D</td><td>3</td><td>5</td><td>3</td><td>2</td></tr><tr><td>E</td><td>3</td><td>4</td><td>4</td><td>1</td></tr><tr><td>F</td><td>3</td><td>2</td><td>7</td><td>2</td></tr><tr><td>G</td><td>3</td><td>4</td><td>9</td><td>4</td></tr></tbody></table><p>&nbsp;</p><p>The number of males in \\( F \\) in the year 2018 is ______.</p></div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 294650 \\)</p>",
+            "<p>\\( 294840 \\)</p>",
+            "<p>\\( 301470 \\)</p>",
+            "<p>\\( 301200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 294840 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351269/nielit-scientist-b-2020-november-2\" target=\"_blank\">https://gateoverflow.in/351269/nielit-scientist-b-2020-november-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

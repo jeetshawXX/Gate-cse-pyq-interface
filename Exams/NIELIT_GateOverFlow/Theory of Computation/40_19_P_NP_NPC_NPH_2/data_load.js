@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - P NP NPC NPH",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "P NP NPC NPH",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336722\"></a><div itemprop=\"text\"><p>If there is in NP-Complete language L whose complement is in NP, then complement of any language in NP is in</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P</p>",
+            "<p>NP</p>",
+            "<p>both (A) and (B)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>NP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336722/nielit-2016-mar-scientist-b-section-c-19\" target=\"_blank\">https://gateoverflow.in/336722/nielit-2016-mar-scientist-b-section-c-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351404\"></a><div itemprop=\"text\"><p>Which of the following problem is not \\( \\text{NP} \\) complete but undecidable?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT Scientific Assistant A 2020 November: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Partition Problem</p>",
+            "<p>Halting Problem</p>",
+            "<p>Hamiltonian Circuit</p>",
+            "<p>Bin Packing</p>"
+          ],
+          "correct_answer": "<p>Halting Problem</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351404/nielit-scientific-assistant-a-2020-november-57\" target=\"_blank\">https://gateoverflow.in/351404/nielit-scientific-assistant-a-2020-november-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

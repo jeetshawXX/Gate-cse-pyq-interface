@@ -1,0 +1,236 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 18",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Identify the correct translation into logical notation of the following assertion.<br>\nSome boys in the class are taller than all the girls<br>\nNote: taller (x, y) is true if x is taller than y. <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>C.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+            "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1020/gate2004-23-isro2007-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The set of all Equivalence Classes of a set A of Cardinality C <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is of cardinality \\(2^c\\)</p>",
+            "<b>B.</b> <p>have the same cardinality as A</p>",
+            "<b>C.</b> <p>forms a partition of A</p>",
+            "<b>D.</b> <p>is of cardinality \\(C^2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>forms a partition of A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49502/isro2007-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If a graph requires k different colours for its proper colouring, then the chromatic number of the graph is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>k</p>",
+            "<b>C.</b> <p>k-1</p>",
+            "<b>D.</b> <p>k/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49477/isro2007-07\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A graph with n vertices and n-1 edges that is not a tree, is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Connected</p>",
+            "<b>B.</b> <p>Disconnected</p>",
+            "<b>C.</b> <p>Euler</p>",
+            "<b>D.</b> <p>A circuit</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Disconnected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49476/isro2007-06\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the sequence \\(\\left \\langle x_n \\right \\rangle,\\; n \\geq 0\\) defined by the recurrence relation \\(x_{n + 1} = c \\cdot (x_n)^2 - 2\\), where c &gt; 0.<br>\nFor which of the following values of c, does there exist a non-empty open interval (a, b) such that the sequence \\(x_n\\) converges for all \\(x_0\\) satisfying a &lt; \\(x_0\\) &lt; b? <br>\ni.   0.25<br>\nii.  0.35<br>\niii. 0.45<br>\niv.  0.5<br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i only</p>",
+            "<b>B.</b> <p>i and ii only</p>",
+            "<b>C.</b> <p>i, ii and iii only</p>",
+            "<b>D.</b> <p>i, ii, iii and iv</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>i, ii, iii and iv</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3529/gate2007-it-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the sequence \\(\\langle x_n \\rangle , \\: n \\geq 0\\) defined by the recurrence relation \\(x_{n+1} = c . x^2_n -2\\), where c &gt; 0. <br>\nSuppose there exists a non-empty, open interval (a, b) such that for all \\(x_0\\) satisfying \\(a \\lt x_0 \\lt b\\), the sequence converges to a limit. The sequence converges to the value? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1+\\sqrt{1+8c}}{2c}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1-\\sqrt{1+8c}}{2c}\\)</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>\\(\\frac{2}{2c-1}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1-\\sqrt{1+8c}}{2c}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3528/gate2007-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In a multi-user operating system on an average, 20 requests are made to use a particular resource per hour. The arrival of requests follows a Poisson distribution. The probability that either one, three or five requests are made in 45 minutes is given by : <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(6.9 \\times 10^6 \\times e^{-20}\\)</p>",
+            "<b>B.</b> <p>\\(1.02 \\times 10^6 \\times e^{-20}\\)</p>",
+            "<b>C.</b> <p>\\(6.9 \\times 10^3 \\times e^{-20}\\)</p>",
+            "<b>D.</b> <p>\\(1.02 \\times 10^3 \\times e^{-20}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(1.02 \\times 10^6 \\times e^{-20}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3499/gate2007-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A depth-first search is performed on a directed acyclic graph. Let d[u] denote the time at which vertex u is visited for the first time and f[u] the time at which the DFS call to the vertex u terminates. Which of the following statements is always TRUE for all edges (u, v) in the graph ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>d[u] &lt; d[v]</p>",
+            "<b>B.</b> <p>d[u] &lt; f[v]</p>",
+            "<b>C.</b> <p>f[u] &lt; f[v]</p>",
+            "<b>D.</b> <p>f[u] &gt; f[v]</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>f[u] &gt; f[v]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3457/gate2007-it-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A partial order P is defined on the set of natural numbers as follows. Here \\( \\frac{x}{y}\\) denotes integer division.<br>\ni.\\((0, 0) \\in P.\\)<br>\nii.\\((a, b) \\in P\\)  if and only if \\((a \\% 10) \\leq (b \\% 10)\\) and \\((\\frac{a}{10},\\frac{b}{10})\\in P\\).<br><br>\nConsider the following ordered pairs:<br><br>\ni.   (101, 22)<br>\nii.  (22, 101)<br>\niii. (145, 265)<br>\niv.  (0, 153)<br><br>\nWhich of these ordered pairs of natural numbers are contained in P? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (iii)</p>",
+            "<b>B.</b> <p>(ii) and (iv)</p>",
+            "<b>C.</b> <p>(i) and (iv)</p>",
+            "<b>D.</b> <p>(iii) and (iv)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(iii) and (iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3456/gate2007-it-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of these first-order logic formulae is valid? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x\\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right) \\implies \\left(\\forall xP\\left(x\\right)\\implies \\forall xQ\\left(x\\right)\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x\\left(P\\left(x\\right) \\vee Q\\left(x\\right)\\right)\\implies \\left(\\exists xP\\left(x\\right)\\implies \\exists xQ\\left(x\\right)\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x\\left(P\\left(x\\right) \\wedge Q\\left(x\\right)\\right) \\iff \\left(\\exists xP\\left(x\\right) \\wedge \\exists xQ\\left(x\\right)\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x \\exists y P\\left(x, y\\right)\\implies \\exists y \\forall x P\\left(x, y\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\forall x\\left(P\\left(x\\right) \\implies Q\\left(x\\right)\\right) \\implies \\left(\\forall xP\\left(x\\right)\\implies \\forall xQ\\left(x\\right)\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3454/gate2007-it-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the XML document fragment given below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q20_e09e5d82.jpg\"><br>Consider the XPath expression: *[not (self ) : : TOC]<br>\nWhat would be the result of the given XPath expression when the current node is Book? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The Title and Content elements</p>",
+            "<b>B.</b> <p>The Content and TOC elements</p>",
+            "<b>C.</b> <p>The Title and TOC elements</p>",
+            "<b>D.</b> <p>The Title, Content and TOC elements</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The Title and Content elements</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3453/gate2007-it-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose there are two coins. The first coin gives heads with probability \\(\\dfrac{5}{8}\\) when tossed, while the second coin gives heads with probability \\(\\dfrac{1}{4}\\). One of the two coins is picked up at random with equal probability and tossed. What is the probability of obtaining heads ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(\\dfrac{7}{8}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(\\dfrac{1}{2}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(\\dfrac{7}{16}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\left(\\dfrac{5}{32}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left(\\dfrac{7}{16}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3432/gate2007-it-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q26a_1e74edb6.jpg\">  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q26b_a8cedcd5.jpg\"> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1224/gate2007-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Suppose we uniformly and randomly select a permutation from the 20!\nPermutations of 1, 2,3 ,...,20. What is the probability that 2 appears at an\nearlier position than any other even number in the selected permutation? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{10}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{9!}{20!}\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{10}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1222/gate2007-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following graphs has an Eulerian circuit? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any k-regular graph where k is an even number.</p>",
+            "<b>B.</b> <p>A complete graph on 90 vertices.</p>",
+            "<b>C.</b> <p>The complement of a cycle on 25 vertices.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The complement of a cycle on 25 vertices.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1221/gate2007-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

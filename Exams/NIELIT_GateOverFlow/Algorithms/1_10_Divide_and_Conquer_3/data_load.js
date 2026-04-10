@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Divide and Conquer",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Divide and Conquer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336617\"></a><div itemprop=\"text\"><p>Find the odd one out</p>\n\n</div><br><br><b>Algorithms: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Merge Sort</p>",
+            "<p>TVSP Problem</p>",
+            "<p>Knapsack Problem</p>",
+            "<p>OBST Problem</p>"
+          ],
+          "correct_answer": "<p>Merge Sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336617/nielit-2016-dec-scientist-b-it-section-b-52\" target=\"_blank\">https://gateoverflow.in/336617/nielit-2016-dec-scientist-b-it-section-b-52</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336807\"></a><div itemprop=\"text\"><p>Merge sort uses :</p>\n\n</div><br><br><b>Algorithms: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Divide-and-conquer</p>",
+            "<p>Backtracking</p>",
+            "<p>Heuristic approach</p>",
+            "<p>Greedy approach</p>"
+          ],
+          "correct_answer": "<p>Divide-and-conquer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336807/nielit-2017-dec-scientific-assistant-a-section-b-39\" target=\"_blank\">https://gateoverflow.in/336807/nielit-2017-dec-scientific-assistant-a-section-b-39</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351397\"></a><div itemprop=\"text\"><p>What is the product of following matrix using Strassen’s matrix multiplication algorithm?</p>\n\n<p>\\[  A=\\begin {bmatrix} 1&amp;3\\\\ 5 &amp;7 \\end{bmatrix}&nbsp; &nbsp;\\;\\;\\;\\;\\;\\;&nbsp; &nbsp; &nbsp; &nbsp;B=\\begin {bmatrix} 8&amp;4\\\\ 6&nbsp;&amp;2&nbsp;\\end{bmatrix}&nbsp; &nbsp;  \\]</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( C_{11}=80; C_{12}=07;C_{21}=15;C_{22}=34 \\)</p>",
+            "<p>\\( C_{11}=82; C_{12}=26;C_{21}=10;C_{22}=34 \\)</p>",
+            "<p>\\( C_{11}=15; C_{12}=07;C_{21}=80;C_{22}=34 \\)</p>",
+            "<p>\\( C_{11}=26; C_{12}=10;C_{21}=82;C_{22}=34 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( C_{11}=26; C_{12}=10;C_{21}=82;C_{22}=34 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351397/nielit-scientific-assistant-a-2020-november-63\" target=\"_blank\">https://gateoverflow.in/351397/nielit-scientific-assistant-a-2020-november-63</a></p>"
+        }
+      ]
+    }
+  ]
+});

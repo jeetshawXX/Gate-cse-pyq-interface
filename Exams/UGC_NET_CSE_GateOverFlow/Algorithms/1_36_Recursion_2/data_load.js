@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Recursion",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Recursion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152703\"></a><div itemprop=\"text\"><p>Recursive functions are executed in a</p></div><br><br><b>Algorithms: UGC NET CSE | December 2009 | Part 2 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>First in first out-order</p>",
+            "<p>Last in first out-order</p>",
+            "<p>Parallel fashion</p>",
+            "<p>Load balancing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152703/ugc-net-cse-december-2009-part-2-question-11\" target=\"_blank\">https://gateoverflow.in/152703/ugc-net-cse-december-2009-part-2-question-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"62939\"></a><div itemprop=\"text\"><p>Which of the following is a bad example of recursion ?</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2011 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Factorial</p>",
+            "<p>Fibonacci numbers</p>",
+            "<p>Tower of Hanai</p>",
+            "<p>Tree traversal</p>"
+          ],
+          "correct_answer": "<p>Fibonacci numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62939/ugc-net-cse-december-2011-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/62939/ugc-net-cse-december-2011-part-2-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

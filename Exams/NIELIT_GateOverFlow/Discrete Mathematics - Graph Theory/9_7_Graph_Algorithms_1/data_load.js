@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Graph Algorithms",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366944\"></a><div itemprop=\"text\"><p>What will be the Eulerian tour of the following graph \\( \\text{G} \\; ? \\)</p><p><img alt=\"\" width=\"300\" height=\"329\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=12553423150746300574\"></p></div><br><br><b>Graph Theory: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 –&nbsp;2 –&nbsp;3 –&nbsp;4 –&nbsp;5 – 6 –&nbsp;7 –&nbsp;8 –&nbsp;6&nbsp;–&nbsp;4 –&nbsp;2 –&nbsp;8 –&nbsp;1 \\)</p>",
+            "<p>\\( 1 –&nbsp;2 –&nbsp;3 –&nbsp;4 –&nbsp;5 – 6 –&nbsp;7 –&nbsp;8 \\)</p>",
+            "<p>\\( 1 –&nbsp;2 –&nbsp;3 –&nbsp;4 –&nbsp;5 – 6 –&nbsp;7 –&nbsp;8 –&nbsp;1 \\)</p>",
+            "<p>\\( 8 –&nbsp;7 –&nbsp;6 –&nbsp;5 – 4 –&nbsp;3 –&nbsp;2 –&nbsp;1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 –&nbsp;2 –&nbsp;3 –&nbsp;4 –&nbsp;5 – 6 –&nbsp;7 –&nbsp;8 –&nbsp;6&nbsp;–&nbsp;4 –&nbsp;2 –&nbsp;8 –&nbsp;1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366944/nielit-2021-dec-scientist-b-section-b-73\" target=\"_blank\">https://gateoverflow.in/366944/nielit-2021-dec-scientist-b-section-b-73</a></p>"
+        }
+      ]
+    }
+  ]
+});

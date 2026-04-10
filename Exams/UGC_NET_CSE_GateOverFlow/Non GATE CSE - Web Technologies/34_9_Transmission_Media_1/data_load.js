@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Transmission Media",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Transmission Media",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56844\"></a><div itemprop=\"text\"><p>Identify the Risk factors which are associated with Electronic payment system</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | December 2012 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Fraudulent use of credit card</p>",
+            "<p>Sending credit card details over internet</p>",
+            "<p>Remote storage of credit card details</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56844/ugc-net-cse-december-2012-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/56844/ugc-net-cse-december-2012-part-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

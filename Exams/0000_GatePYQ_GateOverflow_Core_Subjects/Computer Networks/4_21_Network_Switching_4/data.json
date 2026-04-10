@@ -1,0 +1,66 @@
+{
+  "title": "Computer Networks - Network Switching",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Network Switching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1396\"></a><div itemprop=\"text\"><p>In a packet switching network, packets are routed from source to destination along a single path having two intermediate nodes. If the message size is \\( 24 \\) bytes and each packet contains a header of \\( 3 \\) bytes, then the optimum packet size is:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1396/gate-cse-2005-question-73\" target=\"_blank\">https://gateoverflow.in/1396/gate-cse-2005-question-73</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1985\"></a><div itemprop=\"text\"><p>Consider the store and forward packet switched network given below. Assume that the bandwidth of each link is \\( 10^6 \\) bytes / sec. A user on host \\( A \\) sends a file of size \\( 10^3 \\) bytes to host \\( B \\) through routers \\( R1 \\) and \\( R2 \\) in three different ways. In the first case a single packet containing the complete file is transmitted from \\( A \\) to \\( B \\). In the second case, the file is split into \\( 10 \\) equal parts, and these packets are transmitted from \\( A \\) to \\( B \\). In the third case, the file is split into \\( 20 \\) equal parts and these packets are sent from \\( A \\) to \\( B \\). Each packet contains \\( 100 \\) bytes of header information along with the user data. Consider only transmission time and ignore processing, queuing and propagation delays. Also assume that there are no errors during transmission. Let \\( T1 \\), \\( T2 \\) and \\( T3 \\)&nbsp;be the times taken to transmit the file in the first, second and third case respectively. Which one of the following is CORRECT?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"72\" src=\"images/gateOverflow_pyq_images/computer_networks___network_switching/e361f24a8a242865f563892bde5af6e7.png\" width=\"419\"></p>\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T1&lt;T2&lt;T3 \\)</p>",
+            "<p>\\( T1&gt;T2&gt;T3 \\)</p>",
+            "<p>\\( T2=T3, T3&lt;T1 \\)</p>",
+            "<p>\\( T1=T3, T3&gt; T2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T1=T3, T3&gt; T2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1985/gate-cse-2014-set-2-question-26\" target=\"_blank\">https://gateoverflow.in/1985/gate-cse-2014-set-2-question-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8495\"></a><div itemprop=\"text\">Two hosts are connected via a packet switch with \\( 10^7 \\) bits per second links. Each link has a propagation delay of \\( 20 \\) microseconds. The switch begins forwarding a packet \\( 35 \\) microseconds after it receives the same. If \\( 10000 \\) bits of data are to be transmitted between the two hosts using a packet size of \\( 5000 \\) bits, the time elapsed between the transmission of the first bit of data and the reception of the last bit of the data in microseconds is ______.</div><br><br><b>GATE CSE 2015 Set 3 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1575",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8495/gate-cse-2015-set-3-question-36\" target=\"_blank\">https://gateoverflow.in/8495/gate-cse-2015-set-3-question-36</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3663\"></a><div itemprop=\"text\"><p>Which one of the following statements is FALSE?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Packet switching leads to better utilization of bandwidth resources than circuit switching</p>",
+            "<p>Packet switching results in less variation in delay than circuit switching</p>",
+            "<p>Packet switching requires more per-packet processing than circuit switching</p>",
+            "<p>Packet switching can lead to reordering unlike in circuit switching</p>"
+          ],
+          "correct_answer": "<p>Packet switching results in less variation in delay than circuit switching</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3663/gate-it-2004-question-22\" target=\"_blank\">https://gateoverflow.in/3663/gate-it-2004-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Vsam",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Vsam",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"67015\"></a><div itemprop=\"text\"><p>The dynamic allocation of storage areas with VSAM files is accomplished by</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2010 | Part 2 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Hashing</p>",
+            "<p>Control splits</p>",
+            "<p>Overflow areas</p>",
+            "<p>Relative recoding</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67015/ugc-net-cse-december-2010-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/67015/ugc-net-cse-december-2010-part-2-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

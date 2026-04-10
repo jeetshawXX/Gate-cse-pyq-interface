@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Software Development Life Cycle Models",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Development Life Cycle Models",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373785\"></a><div itemprop=\"text\"><p>What is the appropriate pairing of items in the two columns listing various activities encountered in a software life cycle?</p>\n\n<p>\\[ \\begin{array}{llll}\\text{P.} &amp; \\text{Requirements&nbsp;Capture }&amp;1. &amp; \\text{Module Development and integration} \\\\ \\text{Q.} &amp; \\text{Design}&amp;2. &amp; \\text{Domain Analysis}\\\\\\text{R.} &amp; \\text{Implementation}&amp;3. &amp;\\text{Structural and Behavioral Marketing} \\\\\\text{S.} &amp; \\text{Maintenance}&amp;4. &amp;\\text{Performance Tunit}\\end{array} \\]</p>\n\n</div><br><br><b>IS&Software Engineering: NIELIT 2022 April Scientist B | Section B | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(P) –&nbsp;(3), (Q) –&nbsp;(2), (R) –&nbsp;(4), (S) –&nbsp;(1)} \\)</p>",
+            "<p>\\( \\text{(P) –&nbsp;(2), (Q) –&nbsp;(3), (R) –&nbsp;(1), (S) –&nbsp;(4)} \\)</p>",
+            "<p>\\( \\text{(P) –&nbsp;(3), (Q) –&nbsp;(2), (R) –&nbsp;(1), (S) –&nbsp;(4)} \\)</p>",
+            "<p>\\( \\text{(P) –&nbsp;(2), (Q) –&nbsp;(3), (R) –&nbsp;(4), (S) –&nbsp;(1)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(P) –&nbsp;(2), (Q) –&nbsp;(3), (R) –&nbsp;(1), (S) –&nbsp;(4)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373785/nielit-2022-april-scientist-b-section-b-question-53\" target=\"_blank\">https://gateoverflow.in/373785/nielit-2022-april-scientist-b-section-b-question-53</a></p>"
+        }
+      ]
+    }
+  ]
+});

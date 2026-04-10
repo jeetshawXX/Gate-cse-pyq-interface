@@ -1,0 +1,72 @@
+{
+  "title": "Quantitative Aptitude - Area",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Area",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"224\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17793973877777639896\" width=\"400\"></p>\n\n<p>A shed has a side wall of the dimensions shown. Calculate the area of the wall in square feet.</p>\n\n</div><br><br><b>Quantitative Aptitude: A shed has a side wall of the dimensions shown. Calculate the area of the wall in square feet.</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 36 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/224/shed-wall-dimensions-shown-calculate-area-wall-square-feet\" target=\"_blank\">https://aptitude.gateoverflow.in/224/shed-wall-dimensions-shown-calculate-area-wall-square-feet</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"768\"></a><div itemprop=\"text\"><p>In the \\( \\text{X-Y} \\) plane, the area of the region bounded by the graph \\( |x+y| + |x-y| =4 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/768/cat-2005-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/768/cat-2005-question-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5531\"></a><div itemprop=\"text\"><p>Consider the function given by \\( f(x) =\\mid&nbsp;x-1\\mid-x \\)</p>\n\n<p>What is the area of the triangle bounded by the graph of the given function with the coordinate axis given by \\( x=0\\:\\text{and}\\:y=0 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2011 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\large\\frac{1}{4} \\)</p>",
+            "<p>\\( \\large\\frac{1}{2} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5531/cat-2011-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/5531/cat-2011-question-20</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"8114\"></a><div itemprop=\"text\"><p>The area, in \\( \\text{sq.&nbsp;units}, \\) enclosed by the lines \\( x = 2, y = |x –&nbsp;2| + 4, \\) the X-axis and the Y-axis is equal to&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8114/cat-2020-set-3-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/8114/cat-2020-set-3-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+}

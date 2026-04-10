@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Symbol Table",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Symbol Table",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335428\"></a><div itemprop=\"text\"><p>Symbol Table can be used for :</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | June 2005 | Part 2 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Checking type compatibility</p>",
+            "<p>Suppressing duplication of error message</p>",
+            "<p>Storage allocation</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335428/ugc-net-cse-june-2005-part-2-question-35\" target=\"_blank\">https://gateoverflow.in/335428/ugc-net-cse-june-2005-part-2-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"316208\"></a><div itemprop=\"text\"><p>Which data structure is used by the compiler for managing variables and their attributes?</p></div><br><br><b>Compiler Design: UGC NET CSE | June 2019 | Part 2 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Binary tree</p>",
+            "<p>Link list</p>",
+            "<p>Symbol table</p>",
+            "<p>Parse table</p>"
+          ],
+          "correct_answer": "<p>Symbol table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316208/ugc-net-cse-june-2019-part-2-question-71\" target=\"_blank\">https://gateoverflow.in/316208/ugc-net-cse-june-2019-part-2-question-71</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"349632\"></a><div itemprop=\"text\"><p>Which of the following are applications of symbol table?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Storage allocation</li>\n\t<li>Checking type compatibility</li>\n\t<li>Suppressing duplicate error messages</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Compiler Design: UGC NET CSE | October 2020 | Part 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i)} \\) and \\( \\text{(ii)} \\) only</p>",
+            "<p>\\( \\text{(i)} \\) and \\( \\text{(iii)} \\) only</p>",
+            "<p>\\( \\text{(ii)} \\) and \\( \\text{(iii)} \\) only</p>",
+            "<p>\\( \\text{(i)} \\) \\( \\text{(ii)} \\) and \\( \\text{(iii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i)} \\) \\( \\text{(ii)} \\) and \\( \\text{(iii)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349632/ugc-net-cse-october-2020-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/349632/ugc-net-cse-october-2020-part-2-question-41</a></p>"
+        }
+      ]
+    }
+  ]
+});

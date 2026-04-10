@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Data Structures - Expression Evaluation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Expression Evaluation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435392\"></a><div itemprop=\"text\"><p>In Reverse Polish notation, expression \\( \\mathrm{A} ^{*} \\mathrm{~B}+\\mathrm{C}^{*} \\mathrm{D} \\) is written as</p></div><br><br><b>Data Structures: ISRO CSE 2023 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{AB}^{*} \\mathrm{CD}^{*}+ \\)</p>",
+            "<p>\\( \\mathrm{A}^{*} \\mathrm{BCD}^{*}+ \\)</p>",
+            "<p>\\( \\mathrm{AB}^{*} \\mathrm{CD}+^{*} \\)</p>",
+            "<p>\\( \\mathrm{A}^{*} \\mathrm{~B}^{*} \\mathrm{CD}+ \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{AB}^{*} \\mathrm{CD}^{*}+ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435392/isro-cse-2023-question-4\" target=\"_blank\">https://gateoverflow.in/435392/isro-cse-2023-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Quantitative Aptitude - Median",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Median",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6257\"></a><div itemprop=\"text\"><p>We have analyzed the monthly salaries received by \\( 5 \\) employees : The mean and median of the salaries is \\( \\ \\)7000\\( . The only mode among the observations is  \\)\\\\( 12,000 \\). Salaries paid to each employee were in full thousands. What is the difference between the highest and the lowest salary received by the \\( 5 \\) employees in the month ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\ \\)4000$</p>",
+            "<p>\\( \\ \\)13,000$</p>",
+            "<p>\\( \\ \\)5000$</p>",
+            "<p>\\( \\ \\)11,000$</p>"
+          ],
+          "correct_answer": "<p>\\( \\ \\)11,000$</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6257/nielit-2017-dec-scientist-b-section-a-55\" target=\"_blank\">https://aptitude.gateoverflow.in/6257/nielit-2017-dec-scientist-b-section-a-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "title": "Cache_Memory - Cache_Memory - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Cache_Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The width of the physical address on a machine is 40 bits. The width of the tag field in a 512KB 8-way set associative cache is ________ bits. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "24",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39622/gate2016-2-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a machine with a byte addressable main memory of \\(2^{20}\\)  bytes, block size of 16 bytes and a direct mapped cache having \\(2^{12}\\) cache lines. Let the addresses of two consecutive bytes in main memory be \\((E201F)_{16}\\) and \\((E2020)_{16}\\). What are the tag and cache line address (in hex) for main memory address \\((E201F)_{16}\\)? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>E, 201</p>",
+            "<b>B.</b> <p>F, 201</p>",
+            "<b>C.</b> <p>E, E20</p>",
+            "<b>D.</b> <p>2, 01F</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>E, 201</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8410/gate2015-3-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Assume that for a certain processor, a read request takes 50 nanoseconds on a cache miss and 5 nanoseconds on a cache hit. Suppose while running a program, it was observed that 80% of the processor's read requests result in a cache hit. The average read access time in nanoseconds is __________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8119/gate2015-2-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The memory access time is 1 nanosecond for a read operation with a hit in cache, 5\nnanoseconds for a read operation with a miss in cache, 2 nanoseconds for a write operation\nwith a hit in cache and 10 nanoseconds for a write operation with a miss in cache. Execution\nof a sequence of instructions involves 100 instruction fetch operations, 60 memory operand\nread operations and 40 memory operand write operations. The cache hit-ratio is 0.9. The\naverage memory access time (in nanoseconds) in executing the sequence of instructions is\n__________. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.68",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2078/gate2014-3-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>If the associativity of a processor cache is doubled while keeping the capacity and block size\nunchanged, which one of the following is guaranteed to be NOT affected? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Width of tag comparator</p>",
+            "<b>B.</b> <p>Width of set index decoder</p>",
+            "<b>C.</b> <p>Width of way selection multiplexor</p>",
+            "<b>D.</b> <p>Width of processor to main memory data bus</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Width of processor to main memory data bus</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2010/gate2014-2-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In designing a computer's cache system, the cache block (or cache line) size is an important\nParameter. Which one of the following statements is correct in this context? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A smaller block size implies better spatial locality</p>",
+            "<b>B.</b> <p>A smaller block size implies a smaller cache tag and hence lower cache tag overhead</p>",
+            "<b>C.</b> <p>A smaller block size implies a larger cache tag and hence lower cache hit time</p>",
+            "<b>D.</b> <p>A smaller block size incurs a lower cache miss penalty</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A smaller block size incurs a lower cache miss penalty</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2009/gate2014-2-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A 4-way set-associative cache memory unit with a capacity of 16 KB is built using a block\nsize of 8 words. The word length is 32 bits. The size of the physical address space is 4 GB.\nThe number of bits for the TAG field is _____ <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "20",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1963/gate2014-2-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>An access sequence of cache block addresses is of length N and contains n unique block\naddresses. The number of unique block addresses between two consecutive accesses to the\nsame block address is bounded above K. What is the miss ratio if the access sequence is\npassed through a cache of associativity A\\(\\geq\\)k exercising least-recently-used replacement policy? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n/N</p>",
+            "<b>B.</b> <p>1/N</p>",
+            "<b>C.</b> <p>1/A</p>",
+            "<b>D.</b> <p>k/n</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n/N</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1922/gate2014-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>How much speed do we gain by using the cache, when cache is used 80% of the time? Assume cache is faster than main memory. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5.27</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>4.16</p>",
+            "<b>D.</b> <p>6.09</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4.16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43812/isro-2013-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a k-way set associative cache, the cache is divided into v sets, each of which consists of k lines.\nThe lines of a set are placed in sequence one after another. The lines in set s are sequenced before\nthe lines in set (s+1). The main memory blocks are numbered 0 onwards. The main memory block numbered j must be mapped to any one of the cache lines from <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(j mod v)*k to (j mod v)*k + (k-1)</p>",
+            "<b>B.</b> <p>(j mod v) to (j mod v)+(k-1)</p>",
+            "<b>C.</b> <p>(j mod k) to (j mod k)+(v-1)</p>",
+            "<b>D.</b> <p>(j mod k)*v to (j mod k)*v + (v-1)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(j mod v)*k to (j mod v)*k + (k-1)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1442/gate2013-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The size of the cache tag directory is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>160 Kbits</p>",
+            "<b>B.</b> <p>136 Kbits</p>",
+            "<b>C.</b> <p>40 Kbits</p>",
+            "<b>D.</b> <p>32 Kbits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>160 Kbits</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43311/gate2012-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The number of bits in the tag field of an address is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>27</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2192/gate2012-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The search concept used in associative memory is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Parallel search</p>",
+            "<b>B.</b> <p>Sequential search</p>",
+            "<b>C.</b> <p>Binary search</p>",
+            "<b>D.</b> <p>Selection search</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Parallel search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18093/isro2011-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a direct mapped cache with 64 blocks and a block size of 16 bytes. To what block number does the byte address 1206 map to <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not map</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>54</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51330/isro2011-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An 8KB direct mapped write-back cache is organized as multiple blocks, each of\nsize 32-bytes. The processor generates 32-bit addresses. The cache controller\nmaintains the tag information for each cache block comprising of the following.\n1 Valid bit\n1 Modified bit\nAs many bits as the minimum needed to identify the memory block mapped in\nthe cache.\nWhat is the total size of memory needed at the cache controller to store metadata\n(tags) for the cache? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4864 bits</p>",
+            "<b>B.</b> <p>6144bits</p>",
+            "<b>C.</b> <p>6656bits</p>",
+            "<b>D.</b> <p>5376bits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5376bits</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2145/gate2011-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

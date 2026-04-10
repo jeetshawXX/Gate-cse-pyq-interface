@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Combinatory - Summation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Summation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369354\"></a><div itemprop=\"text\"><p>Let \\( \\text{C} (n, \\; r) = \\binom{n}{r}. \\) The value of \\(  \\displaystyle \\sum_{k=0}^{20}(2k+1) \\text{C} (41, 2k+1), \\) is :</p>\n\n</div><br><br><b>Combinatory: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 40 (2)^{40} \\)</p>",
+            "<p>\\( 40 (2)^{39} \\)</p>",
+            "<p>\\( 41 (2)^{40} \\)</p>",
+            "<p>\\( 41 (2)^{39} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 41 (2)^{39} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369354/nielit-2021-dec-scientist-a-section-b-59\" target=\"_blank\">https://gateoverflow.in/369354/nielit-2021-dec-scientist-a-section-b-59</a></p>"
+        }
+      ]
+    }
+  ]
+}

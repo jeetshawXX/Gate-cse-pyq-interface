@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - Stack",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Stack",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A stack is implemented with an array of \\({ }^{\\prime} A[0 \\ldots N-1]^{\\prime}\\) and a variable \\(\\text { 'pos'. }\\) The push and pop operations are defined by the following code.<br><pre><code> push (x)\n    A[pos] &lt;- x\n    pos &lt;- pos -1\nend push\npop()\n    pos &lt;- pos+1\n    return A[pos]\nend pop</code></pre><br>Which of the following will initialize an empty stack with capacity N for the above implementation? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text { pos } \\leftarrow-1\\)</p>",
+            "<b>B.</b> <p>\\(\\text { pos } \\leftarrow 0\\)</p>",
+            "<b>C.</b> <p>\\(\\text { pos } \\leftarrow 1\\)</p>",
+            "<b>D.</b> <p>\\(\\text { pos } \\leftarrow N-1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\text { pos } \\leftarrow N-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331311/isro2020-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Convert the pre-fix expression to in-fix \\(-^{*}+A B C^{*}-D E+F G\\) <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A-B)^{*} C+\\left(D^{*} E\\right)-(F+G)\\)</p>",
+            "<b>B.</b> <p>\\((A+B)^{*} C-(D-E)^{*}(F-G)\\)</p>",
+            "<b>C.</b> <p>\\((A+B-C)^{*}(D-E)^{*}(F+G)\\)</p>",
+            "<b>D.</b> <p>\\((((A+B)*C)-((D-E)*(F+G)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((((A+B)*C)-((D-E)*(F+G)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "Originally all Options are wrong. We have modified one option.<br><a href=\"https://gateoverflow.in/331339/isro2020-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Choose the equivalent prefix form of the following expression<br>\\((a+(b-c))^{\\star}((d-e) /(f+g-h))\\) <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\({ }^{\\star}+a-b c /-d e-+f g h\\)</p>",
+            "<b>B.</b> <p>\\({ }^{\\star}+a-b c -/d e-+f g h\\)</p>",
+            "<b>C.</b> <p>\\({ }^{\\star}+a-b c /-ed-+f g h\\)</p>",
+            "<b>D.</b> <p>\\({ }^{*}+\\mathrm{ab}-\\mathrm{c} /-\\mathrm{de}-+\\mathrm{fgh}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\({ }^{\\star}+a-b c /-d e-+f g h\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128769/isro2017-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The best data structure to check whether an arithmetic expression has  balanced parenthesis is  a: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Queue</p>",
+            "<b>B.</b> <p>Stack</p>",
+            "<b>C.</b> <p>Tree</p>",
+            "<b>D.</b> <p>List</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128743/isro2017-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following postfix expression with single digit operands is evaluated using a stack:<br>\\(8 \\ 2 \\ 3 \\ \\;\\hat{}\\; / \\ 2 \\ 3 * + 5 \\ 1 * -\\)<br>Note that \\(\\hat{}\\;\\) is the exponentiation operator. The top two elements of the stack after the first * is evaluated are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6,1</p>",
+            "<b>B.</b> <p>5,7</p>",
+            "<b>C.</b> <p>3,2</p>",
+            "<b>D.</b> <p>1,5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6,1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1236/gate2007-38-isro2016-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>If the sequence of operations - push (1), push (2), pop, push (1), push (2), pop, pop, pop, push (2), pop are performed on a stack, the sequence of popped out values <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,2,1,1,2</p>",
+            "<b>B.</b> <p>2,2,1,2,2</p>",
+            "<b>C.</b> <p>2,1,2,2,1</p>",
+            "<b>D.</b> <p>2,1,2,2,2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2,2,1,1,2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51080/isro2015-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The expression \\(1 * 2 \\wedge 3 * 4 \\wedge 5 * 6\\) will be evaluated as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(32^{30}\\)</p>",
+            "<b>B.</b> <p>\\(162^{30}\\)</p>",
+            "<b>C.</b> <p>49152</p>",
+            "<b>D.</b> <p>173458</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>49152</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48052/isro2009-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The infix expression \\(A+(B-C)^*D\\) is correctly represented in prefix notation as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A+B-C*D\\)</p>",
+            "<b>B.</b> <p>\\(+A*-BCD\\)</p>",
+            "<b>C.</b> <p>\\(ABC-D*+\\)</p>",
+            "<b>D.</b> <p>\\(A+BC-D*\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(+A*-BCD\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50380/isro2009-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Assume that the operators \\(+, -, \\times\\) are left associative and \\(\\hat{}\\) is right associative. The order of precedence (from highest to lowest) is \\(\\hat{}, \\times, +, -\\). The postfix expression corresponding to the infix expression \\(a+ b \\times c-d \\;\\;  \\hat{} e \\; \\; \\hat{} \\; \\; f\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(abc\\times+def\\;\\hat{}\\;\\;\\hat{}-\\)</p>",
+            "<b>B.</b> <p>\\(abc\\times + de \\;\\; \\hat{} f \\;\\; \\hat{}\\)</p>",
+            "<b>C.</b> <p>\\( ab+c\\times d-e\\;\\; \\hat{} f \\;\\; \\hat{}\\)</p>",
+            "<b>D.</b> <p>\\(-+a\\times bc\\;\\;\\hat{}\\;\\;\\hat{}def\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(abc\\times+def\\;\\hat{}\\;\\;\\hat{}-\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1035/gate2004-38-isro2009-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Stack A has the entries a, b, c (with a on top). Stack B is empty. An entry popped out of stack A can be printed immediately or pushed to stack B. An entry popped out of the stack B can be only be printed. In this arrangement, which of the following permutations of a, b, c are not possible? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>b a c</p>",
+            "<b>B.</b> <p>b c a</p>",
+            "<b>C.</b> <p>c a b</p>",
+            "<b>D.</b> <p>a b c</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>c a b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50138/isro2008-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

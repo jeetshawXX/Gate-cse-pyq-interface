@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Data Flow Diagram",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Flow Diagram",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366964\"></a><div itemprop=\"text\"><p>The ____________ enables the software engineer to develop models of the information domain and functional domain at the same time.</p>\n\n</div><br><br><b>IS&Software Engineering: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>data flow diagram</p>",
+            "<p>state transition diagram</p>",
+            "<p>control specification&nbsp;</p>",
+            "<p>activity diagram</p>"
+          ],
+          "correct_answer": "<p>data flow diagram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366964/nielit-2021-dec-scientist-b-section-b-53\" target=\"_blank\">https://gateoverflow.in/366964/nielit-2021-dec-scientist-b-section-b-53</a></p>"
+        }
+      ]
+    }
+  ]
+});

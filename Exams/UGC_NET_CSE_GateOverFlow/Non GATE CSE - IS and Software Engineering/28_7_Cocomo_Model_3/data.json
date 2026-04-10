@@ -1,0 +1,56 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Cocomo Model",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Cocomo Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155369\"></a><div itemprop=\"text\"><p>\\( COCOMO \\) model is used for:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2008 | Part 2 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>product quality estimation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>product complexity estimation&nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>product cost estimation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155369/ugc-net-cse-december-2008-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/155369/ugc-net-cse-december-2008-part-2-question-45</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"67038\"></a><div itemprop=\"text\"><p>The COCOMO model was introduced in the book title “Software Engineering Economics” authored by</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2010 | Part 2 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Abraham Silberschatz</p>",
+            "<p>Barry Boehm</p>",
+            "<p>C.J. Date</p>",
+            "<p>D.E. Knuth</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67038/ugc-net-cse-december-2010-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/67038/ugc-net-cse-december-2010-part-2-question-44</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335190\"></a><div itemprop=\"text\"><p>A software company needs to develop a project that is estimated as \\( 1000 \\) function points and is planning to use JAVA as the programming language whose approximate lines of code per function point is accepted as \\( 50 \\). Considering \\( a=1.4 \\) as multiplicative factor, \\( b=1.0 \\) as exponention factor for the basic COCOMO effort equation and \\( c=3.0 \\) as multiplicative factor, \\( d=0.33 \\) as exponention factor for the basic COCOMO duration equation, approximately how long does project take to complete?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | January 2017 | Part 3 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11.2 \\) months</p>",
+            "<p>\\( 12.2 \\) months&nbsp;</p>",
+            "<p>\\( 13.2 \\) months</p>",
+            "<p>\\( 10.2 \\) months</p>"
+          ],
+          "correct_answer": "<p>\\( 12.2 \\) months&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335190/ugc-net-cse-january-2017-part-3-question-48\" target=\"_blank\">https://gateoverflow.in/335190/ugc-net-cse-january-2017-part-3-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Theory of Computation - Regular Grammar",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Regular Grammar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"278474\"></a><div itemprop=\"text\"><p><a href=\"https://gateoverflow.in/13365/ugcnet-dec2014-iii-24\" rel=\"nofollow\" target=\"_blank\">https://gateoverflow.in/13365/ugcnet-dec2014-iii-24</a></p>\n\n<p>i’ve a small doubt in the solution of this&nbsp;question</p>\n\n<p>how is (a+b)*ba(a+b)* complement of the given language?</p></div><br><br><b>Theory of Computation: Doubt UGC NET</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/278474/doubt-ugc-net\" target=\"_blank\">https://gateoverflow.in/278474/doubt-ugc-net</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"70920\"></a><div itemprop=\"text\">The regular grammar for the language \\( L \\) = {\\( a^{n}b^{m} \\) | \\( n + m \\) is even} is given by<br>\n<br>\n(1) \\( S \\rightarrow S_{1} | S_{2} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{1} \\rightarrow a S_{1} | A_{1} \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{1} \\rightarrow b A_{1} | \\lambda \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{2} \\rightarrow aaS_{2} | A_{2} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{2} \\rightarrow b A_{2} | \\lambda \\)<br>\n<br>\n(2) \\( S \\rightarrow S_{1} | S_{2} \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{1} \\rightarrow a S_{1} | a A_{1} \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{2} \\rightarrow aa S_{2} | A_{2} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{1} \\rightarrow bA_{1} | \\lambda \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{2} \\rightarrow bA_{2} | \\lambda \\)<br>\n<br>\n(3) \\( S \\rightarrow S_{1} | S_{2} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{1} \\rightarrow aaa S_{1} | aA_{1} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{2} \\rightarrow aaS_{2} | A_{2} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{1} \\rightarrow bA_{1} |\\lambda \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{2} \\rightarrow bA_{2} | \\lambda \\)<br>\n<br>\n(4) \\( S \\rightarrow S_{1} | S_{2} \\)<br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{1} \\rightarrow aa S_{1} | A_{1} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( S_{2} \\rightarrow aaS_{2} | aA_{2} \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{1} \\rightarrow bbA_{1} | \\lambda \\) <br>\n<br>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\( A_{2} \\rightarrow bbA_{2} | b \\)</div><br><br><b>Theory of Computation: UGC NET CSE | August 2016 | Part 3 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70920/ugc-net-cse-august-2016-part-3-question-22\" target=\"_blank\">https://gateoverflow.in/70920/ugc-net-cse-august-2016-part-3-question-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"53244\"></a><div itemprop=\"text\"><p>The regular grammar for the language L= { \\( w\\mid n_{a} \\)(w) and \\( n_{b} (w) \\) are both even, \\( w \\in \\left\\{a, b\\right\\} \\) * }&nbsp;is given by : (Assume, \\( p, q, r \\) and \\( s \\) are states)&nbsp;</p></div><br><br><b>Theory of Computation: UGC NET CSE | June 2014 | Part 2 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p \\rightarrow aq \\mid br \\mid \\lambda, q \\rightarrow bs \\mid ap r \\rightarrow as \\mid bp, s \\rightarrow ar \\mid bq \\), \\( p \\) and \\( s \\) are initial and final states.&nbsp;</p>",
+            "<p>\\( p \\rightarrow aq \\mid br , q \\rightarrow bs \\mid ap r \\rightarrow as \\mid bp, s \\rightarrow ar \\mid bq \\), \\( p \\) and \\( s \\) are initial and final states.&nbsp;</p>",
+            "<p>\\( p \\rightarrow aq \\mid br \\mid \\lambda , q \\rightarrow bs \\mid ap r \\rightarrow as \\mid bp, s \\rightarrow ar \\mid bq \\)&nbsp;\\( p \\) is both initial and final states.</p>",
+            "<p>\\( p \\rightarrow aq \\mid br , q \\rightarrow bs \\mid ap r \\rightarrow as \\mid bp, s \\rightarrow ar \\mid bq \\)&nbsp;\\( p \\) is both initial and final states.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( p \\rightarrow aq \\mid br \\mid \\lambda , q \\rightarrow bs \\mid ap r \\rightarrow as \\mid bp, s \\rightarrow ar \\mid bq \\)&nbsp;\\( p \\) is both initial and final states.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53244/ugc-net-cse-june-2014-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/53244/ugc-net-cse-june-2014-part-2-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"59519\"></a><div itemprop=\"text\"><p>A regular grammar for the language \\( L= \\{a^nb^m \\mid \\text{ n &nbsp;is even and m is even } \\} \\) is given by</p></div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S \\rightarrow aSb \\mid S_1; S_1 \\rightarrow bS_1a \\mid \\lambda \\)</p>",
+            "<p>\\( S \\rightarrow aaS \\mid S_1;S_1 \\rightarrow bSb \\mid \\lambda \\)</p>",
+            "<p>\\( S \\rightarrow aSb \\mid S_1;S_1 \\rightarrow S_1ab \\mid \\lambda \\)</p>",
+            "<p>\\( S \\rightarrow aaS \\mid S_1;S_1 \\rightarrow bbS_1 \\mid \\lambda \\)</p>"
+          ],
+          "correct_answer": "<p>\\( S \\rightarrow aaS \\mid S_1;S_1 \\rightarrow bbS_1 \\mid \\lambda \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59519/ugc-net-cse-september-2013-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/59519/ugc-net-cse-september-2013-part-3-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

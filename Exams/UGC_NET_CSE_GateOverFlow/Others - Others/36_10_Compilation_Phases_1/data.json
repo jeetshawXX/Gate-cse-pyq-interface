@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Compilation Phases",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Compilation Phases",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"66909\"></a><div itemprop=\"text\"><p>Grammar of the programming is checked at ________&nbsp;phase of compiler.</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2010 | Part 2 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Semantic analysis</p>",
+            "<p>Code generation</p>",
+            "<p>Syntax analysis</p>",
+            "<p>Code optimization</p>"
+          ],
+          "correct_answer": "<p>Syntax analysis</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66909/ugc-net-cse-december-2010-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/66909/ugc-net-cse-december-2010-part-2-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+}

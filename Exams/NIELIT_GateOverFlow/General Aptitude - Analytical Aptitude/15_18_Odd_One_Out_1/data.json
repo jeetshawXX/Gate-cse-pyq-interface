@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Odd One Out",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Odd One Out",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351141\"></a><div itemprop=\"text\"><p>Find the number which does not fit into the series \\( \\text{8 12 20 32 50 68} \\).</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 68 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351141/nielit-scientific-assistant-a-2020-november-10\" target=\"_blank\">https://gateoverflow.in/351141/nielit-scientific-assistant-a-2020-november-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

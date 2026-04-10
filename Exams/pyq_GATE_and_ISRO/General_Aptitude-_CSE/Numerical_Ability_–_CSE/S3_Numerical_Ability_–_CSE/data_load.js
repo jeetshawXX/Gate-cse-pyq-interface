@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Numerical_Ability_–_CSE - Numerical_Ability_–_CSE - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Ability_–_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A survey for a certain year found that 90% of pregnant women received medical\ncare at least once before giving birth. Of these women, 60% received medical care\nfrom doctors, while 40% received medical care from other healthcare providers.<br>\nGiven this information, which one of the following statements can be inferred with\ncertainty? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>More than half of the pregnant women received medical care at least once from a\ndoctor.</p>",
+            "<b>B.</b> <p>Less than half of the pregnant women received medical care at least once from a\ndoctor.</p>",
+            "<b>C.</b> <p>More than half of the pregnant women received medical care at most once from a\ndoctor.</p>",
+            "<b>D.</b> <p>Less than half of the pregnant women received medical care at most once from a\ndoctor.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>More than half of the pregnant women received medical care at least once from a\ndoctor.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399252/gate-cse-2023-ga-question4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A series of natural numbers \\(F_1,F_2,F_3,F_4,F_5,F_6,F_7,... \\)  obeys \\(F_{n+1}=F_n+F_{n-1} \\)  for all integers \\(n \\geq 2\\).<br>\nIf \\(F_6=37\\), and \\(F_7=60\\), then what is \\(F_1\\)? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399253/gate-cse-2023-ga-question3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A plot of land must be divided between four families. They want their individual plots to be similar in shape, not necessarily equal in area. The land has equally spaced poles, marked as dots in the below figure. Two ropes, R1 and R2, are already present and cannot be moved.\nWhat is the least number of additional straight ropes needed to create the desired plots? A single rope can pass through three poles that are aligned in a straight line.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q65_786dd9ea.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371496/Gate-cse-2022-question-10#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A box contains five balls of same size and shape. Three of them are green coloured balls and two of them are orange coloured balls. Balls are drawn from the box one at a time. If a green ball is drawn, it is not replaced. If an orange ball is drawn, it is replaced with another orange ball.\n<br>\nFirst ball is drawn. What is the probability of getting an orange ball in the next draw? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{8}{25}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{19}{50}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{23}{50}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{23}{50}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371498/Gate-cse-2022-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In a recently conducted national entrance test, boys constituted 65% of those who appeared for the test. Girls constituted the remaining candidates and they accounted for 60% of the qualified candidates.\n<br>\nWhich one of the following is the correct logical inference based on the information provided in the above passage? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Equal number of boys and girls qualified</p>",
+            "<b>B.</b> <p>Equal number of boys and girls appeared for the test</p>",
+            "<b>C.</b> <p>The number of boys who appeared for the test is less than the number of girls who appeared</p>",
+            "<b>D.</b> <p>The number of boys who qualified the test is less than the number of girls who qualified</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The number of boys who qualified the test is less than the number of girls who qualified</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371499/Gate-cse-2022-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A palindrome is a word that reads the same forwards and backwards. In a game of words, a player has the following two plates painted with letters.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q60_1cbc8258.jpg\"><br>From the additional plates given in the options, which one of the combinations of additional plates would allow the player to construct a five-letter palindrome. The player should use all the five plates exactly once. The plates can be rotated in their plane.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q60a_cb97544a.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371501/Gate-cse-2022-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let \\(r\\) be a root of the equation \\(x^2+2x+6=0\\)<br>\nThen the value of the expression  \\((r+2)(r+3)(r+4)(r+5)\\) is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(51\\)</p>",
+            "<b>B.</b> <p>\\(-51\\)</p>",
+            "<b>C.</b> <p>\\(126\\)</p>",
+            "<b>D.</b> <p>\\(-126\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(-126\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371503/Gate-cse-2022-question-3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A function \\(y(x)\\) is defined in the interval [0, 1] on the \\(x-\\)axis as<br>\\(y(x)= \\left \\{ \\begin{matrix}\n2 &amp;if  &amp; 0 \\leq x \\leq  \\frac{1}{3} \\\\\n3&amp;  if&amp;  \\frac{1}{3} \\leq x \\leq  \\frac{3}{4} \\\\\n1&amp;  if&amp;  \\frac{3}{4} \\leq x \\leq 1\n\\end{matrix} \\right.\\)<br>Which one of the following is the area under the curve for the interval [0, 1] on the \\(x-\\)axis? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{5}{6}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{6}{5}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{13}{6}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{6}{13}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{13}{6}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371504/Gate-cse-2022-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q64_c2f9b9c0.jpg\"><br>The number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year 3 was Re. 1, which was half the cost/unit in Year 2. The cost/unit in Year 3 was one-third of the cost/unit in Year 1. Taxes were paid on the selling price at 10%, 13%, and 15% respectively for the three years. Net profit is calculated as the difference between the selling price and teh sum of cost and taxes paid in that year.<br><br>\nThe ratio of the selling price in Year 2 to the selling price in Year 3 is _________. <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>04:03</p>",
+            "<b>B.</b> <p>01:01</p>",
+            "<b>C.</b> <p>03:04</p>",
+            "<b>D.</b> <p>01:02</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>04:03</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The number of students in three classes is in the ratio 3:13:6. If 18 students are added to each class, the ratio changes to 15:35:21.\n<br><br>\nThe total number of students in all the three classes in the beginning was: <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22</p>",
+            "<b>B.</b> <p>66</p>",
+            "<b>C.</b> <p>88</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>88</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q62a_aa0eca0b.jpg\"><br>A jigsaw puzzle has 2 pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble with the above piece.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q62b_25ea02dd.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If \\(\\left( x - \\dfrac{1}{2} \\right)^2 - \\left( x- \\dfrac{3}{2} \\right) ^2 = x+2\\), then the value of \\(x\\) is: <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If \\(\\theta\\) is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, \\(\\cos \\theta =\\) <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{\\sqrt{3}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{\\sqrt{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{\\sqrt{3}}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{\\sqrt{3}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q57a_be9e410a.jpg\"><br>A transparent square sheet shown above is folded along the dotted line. The folded sheet will look like ___________<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q57b_4636edfb.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>\\(\\begin{array}{|c|c|c|c|} \\hline \\textbf{Items} &amp; \\textbf{Cost} &amp; \\textbf{Profit \\%} &amp; \\textbf{Marked Price} \\\\ &amp; (Rs.) &amp; &amp; (Rs.) \\\\ \\hline P &amp;5,400 &amp;---&amp;5,860\\\\ \\hline Q&amp;---&amp;25&amp;10,000\\\\ \\hline \\end{array}\\) <br><br>Details of prices of two items P and Q are presented in the above table. The ratio of cost of item P to cost of item Q is 3:4. Discount is calculated as the difference between the marked price and the selling price. The profit percentage is calculated as the ratio of the difference between selling price and cost, to the cost <br>\\((\\text{Profit} \\%=\\dfrac{\\text{Selling price - Cost}}{\\text{Cost}} \\times 100)\\)\n<br>The discount on item Q, as a percentage of its marked price, is _______ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25</p>",
+            "<b>B.</b> <p>12.5</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

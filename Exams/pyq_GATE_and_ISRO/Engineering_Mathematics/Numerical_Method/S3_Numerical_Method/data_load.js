@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Numerical_Method - Numerical_Method - Slot 3",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Numerical_Method",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The trapezoidal method to numerically obtain \\(\\int_a^b f(x) dx\\) has an error \\(E\\) bounded by \\(\\frac{b-a}{12} h^2 \\max f''(x), x \\in [a, b]\\) where \\(h\\) is the width of the trapezoids. The minimum number of trapezoids guaranteed to ensure \\(E \\leq 10^{-4}\\) in computing \\(\\ln 7\\) using \\(f=\\frac{1}{x}\\) is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>60</p>",
+            "<b>B.</b> <p>100</p>",
+            "<b>C.</b> <p>600</p>",
+            "<b>D.</b> <p>10000</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>600</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2251/gate1997-4-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Using the forward Euler method to solve \\(y''(t) = f(t), y'(0)=0\\) with a step size of \\(h\\), we obtain the following values of \\(y\\) in the first four iterations: <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0, hf (0), h(f(0) + f(h)) \\text{ and }h(f(0) - f(h) + f(2h))\\)</p>",
+            "<b>B.</b> <p>\\(0, 0, h^2f(0)\\text{ and } 2h^2 f(0) + f(h)\\)</p>",
+            "<b>C.</b> <p>\\(0, 0, h^2f(0) \\text{ and } 3h^2f(0)\\)</p>",
+            "<b>D.</b> <p>\\(0, 0, hf(0) + h^2f(0) \\text{ and }hf (0) + h^2f(0) + hf(h)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(0, 0, hf(0) + h^2f(0) \\text{ and }hf (0) + h^2f(0) + hf(h)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2244/gate1997-4-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The Newton-Raphson method is used to find the root of the equation \\(X^2-2=0\\). If the iterations are started from -1, the iterations will <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>converge to -1</p>",
+            "<b>B.</b> <p>converge to \\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>converge to \\(\\sqrt{-2}\\)</p>",
+            "<b>D.</b> <p>not converge</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>converge to \\(\\sqrt{-2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2218/gate1997-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Newton-Raphson iteration formula for finding \\(\\sqrt[3]{c}\\), where c &gt; 0 is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{n+1}=\\frac{2x_n^3 + \\sqrt[3]{c}}{3x_n^2}\\)</p>",
+            "<b>B.</b> <p>\\(x_{n+1}=\\frac{2x_n^3 - \\sqrt[3]{c}}{3x_n^2}\\)</p>",
+            "<b>C.</b> <p>\\(x_{n+1}=\\frac{2x_n^3 + c}{3x_n^2}\\)</p>",
+            "<b>D.</b> <p>\\(x_{n+1}=\\frac{2x_n^3 - c}{3x_n^2}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(x_{n+1}=\\frac{2x_n^3 + c}{3x_n^2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2734/gate1996-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The iteration formula to find the square root of a positive real number b using the Newton Raphson method is <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{k+1} = 3(x_k+b)/2x_k\\)</p>",
+            "<b>B.</b> <p>\\(x_{k+1} = (x_{k}^2+b)/2x_k\\)</p>",
+            "<b>C.</b> <p>\\(x_{k+1} = x_k-2x_k/\\left(x^2_k+b\\right)\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x_{k+1} = (x_{k}^2+b)/2x_k\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2627/gate1995-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Simpson's rule for integration gives exact result when f(x) is a polynomial of degree <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/598/gate1993-01-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following statements is true in respect of the convergence of the Newton-Rephson procedure? <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It converges always under all circumstances.</p>",
+            "<b>B.</b> <p>It does not converge to a tool where the second differential coefficient changes sign.</p>",
+            "<b>C.</b> <p>It does not converge to a root where the second differential coefficient vanishes.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80562/gate1987-1-xxv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The simplex method is so named because <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is simple.</p>",
+            "<b>B.</b> <p>It is based on the theory of algebraic complexes.</p>",
+            "<b>C.</b> <p>The simple pendulum works on this method.</p>",
+            "<b>D.</b> <p>No one thought of a better name.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It is based on the theory of algebraic complexes.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80559/gate1987-1-xxiv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

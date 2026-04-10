@@ -1,0 +1,41 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Statistics",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Statistics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351400\"></a><div itemprop=\"text\"><p>Find the mode of the following data:</p>\n\n<p>\\( \\begin{array}{|l|l||l|l||l||l|l|} \\hline &nbsp;&nbsp;\\text{Age} &amp; \\text{0-6}&amp;&nbsp;\\text{6-12} &amp;&nbsp;\\text{12-18} &amp;&nbsp;\\text{18-24} &amp;&nbsp;\\text{24-30} &amp;&nbsp;\\text{30-36} &amp;&nbsp;\\text{36-42} \\\\\\hline&nbsp;\\text{Frequency} &amp; \\text{6} &amp;&nbsp;\\text{11}&amp;\\text{25} &amp;\\text{35}&amp;\\text{18}&amp;\\text{12}&amp;\\text{6} \\\\ \\hline\\hline\\end{array} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant A 2020 November: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20.22 \\)</p>",
+            "<p>\\( 19.47 \\)</p>",
+            "<p>\\( 21.12 \\)</p>",
+            "<p>\\( 20.14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20.22 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351400/nielit-scientific-assistant-a-2020-november-61\" target=\"_blank\">https://gateoverflow.in/351400/nielit-scientific-assistant-a-2020-november-61</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351641\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Consists of a question and two statements, labelled (1) and (2), in which certain data are given. You have to decide whether the data given in the statements are sufficient for answering the question. Using the data given in the statements, plus your knowledge of mathematics and everyday facts.</p>\n\n<p>What is the Standard Deviation (SD) of the four numbers \\( \\text{A, B, C, D} \\)?</p>\n\n<p>\\( \\text{Statement (1)} \\)</p>\n\n<p>The sum of \\( \\text{A, B, C and D} \\) is \\( 24 \\).</p>\n\n<p>\\( \\text{Statement (2)} \\)</p>\n\n<p>The sum of the squares of \\( \\text{A, B, C and D} \\) is \\( 224 \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( \\text{Statement&nbsp;(1)} \\)&nbsp;is required for answering the question</p>",
+            "<p>Only&nbsp;\\( \\text{Statement (2)} \\) is required for answering the question</p>",
+            "<p>Both statement together are required to answer the question</p>",
+            "<p>Answer cannot be ascertained with the given information</p>"
+          ],
+          "correct_answer": "<p>Both statement together are required to answer the question</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351641/nielit-scientist-b-2020-november-41\" target=\"_blank\">https://gateoverflow.in/351641/nielit-scientist-b-2020-november-41</a></p>"
+        }
+      ]
+    }
+  ]
+}

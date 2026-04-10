@@ -1,0 +1,207 @@
+window.__examLoadCallback({
+  "title": "Asymptotic_Notation - Asymptotic_Notation - Slot 3",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Asymptotic_Notation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let f(n), g(n) and h(n) be functions defined for positive integers such that <br>\n\\(f(n) = O(g(n)), \\; g(n) \\neq O(f(n)), \\; g(n) = O(h(n)), \\text{ and  } h(n) = O(g(n)).\\)<br>\nWhich one of the following statements is FALSE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(n) + g(n) = O(h(n) + h(n))\\)</p>",
+            "<b>B.</b> <p>\\(f(n) = O(h(n))\\)</p>",
+            "<b>C.</b> <p>\\(h(n) \\neq O(f(n))\\)</p>",
+            "<b>D.</b> <p>\\(f(n)h(n) \\neq O(g(n)h(n))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(f(n)h(n) \\neq O(g(n)h(n))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3698/gate2004-it-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The Asymptotic Notation of the following C function is (assume n \\(\\gt\\) 0)<pre><code>int recursive (int n) {\n   if (n == 1)\n      return (1);\n   else\n      return (recursive (n - 1) + recursive (n - 1));\n} </code></pre> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(\\((n^{2})\\))</p>",
+            "<b>B.</b> <p>O(nlog n)</p>",
+            "<b>C.</b> <p>O(n)</p>",
+            "<b>D.</b> <p>O(\\((2^{n})\\))</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>O(\\((2^{n})\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1077/gate2004-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let A[1,..., n] be an array storing a bit (1 or 0) at each location, and f(m) is a function whose Asymptotic Notation is \\(\\theta\\)(m). Consider the following program fragment written in a C like language:<pre><code> counter = 0;\nfor (i = 1; i &lt; = n; i++)\n{ \n      if (A[i] == 1) \n         counter++;\n      else {\n         f(counter); \n         counter = 0;\n      }\n}</code></pre>  The complexity of this program fragment is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Omega (n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Omega (n log n)\\) and \\(O (n^{2})\\)</p>",
+            "<b>C.</b> <p>\\(\\theta\\)(n)</p>",
+            "<b>D.</b> <p>o(n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\theta\\)(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1076/gate2004-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The cube root of a natural number n is defined as the largest natural number m\nsuch that \\(m^{3}\\leq n\\). The complexity of computing the cube root of n(n is represented in binary notation) is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n) but not O(\\(n^{0.5}\\))</p>",
+            "<b>B.</b> <p>O(\\(n^{0.5}\\)) but not O(\\((log \\;n)^{k}\\)) for any constant k \\(&gt;\\) 0</p>",
+            "<b>C.</b> <p>O(\\((log \\;n)^{k}\\)) for some constant k \\(&gt;\\) 0, but not O(\\((log \\;log \\; n)^{m}\\)) for any constant\nm \\(&gt;\\) 0</p>",
+            "<b>D.</b> <p>O(\\((log \\;log \\; n)^{k}\\)) for some constant k \\(&gt;\\) 0.5, but not O(\\((log \\;log \\; n)^{0.5}\\))</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>O(\\((log \\;n)^{k}\\)) for some constant k \\(&gt;\\) 0, but not O(\\((log \\;log \\; n)^{m}\\)) for any constant\nm \\(&gt;\\) 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/258/gate2003-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following three claims <br>\n1. \\((n+k)^{m}=\\ominus (n^{m})\\) , where k and m are constants <br> 2. \\( 2^{n+1}=O(2^{n})\\) <br> 3. \\( 2^{2n+1}=O(2^{n})\\) <br>Which of these claims are correct? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 2</p>",
+            "<b>B.</b> <p>1 and 3</p>",
+            "<b>C.</b> <p>2 and 3</p>",
+            "<b>D.</b> <p>1, 2 and 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1 and 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/910/gate2003-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following functions<br>\n\\(f(n) = 3n^{\\sqrt{n}}\\)<br>\n\\(g(n) = 2^{\\sqrt{n}{\\log_{2}n}}\\)<br>\n\\(h(n) = n!\\)<br>\nWhich of the following is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>h(n) is O(f(n))</p>",
+            "<b>B.</b> <p>h(n) is O(g(n))</p>",
+            "<b>C.</b> <p>g(n) is not O(f(n))</p>",
+            "<b>D.</b> <p>f(n) is O(g(n))</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>f(n) is O(g(n))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/664/gate2000-2-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let S be a sorted array of n integers. Let T(n) denote the time taken for the most efficient algorithm to determined if there are two elements with sum less than 1000 in S. Which of the following statement is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T (n) \\text{ is }O(1)\\)</p>",
+            "<b>B.</b> <p>\\(n \\leq T(n) \\leq n \\log_2 n\\)</p>",
+            "<b>C.</b> <p>\\(n \\log_2 n \\leq T(n) \\lt \\frac{n}{2}\\)</p>",
+            "<b>D.</b> <p>\\(T(n) = \\left (\\frac{n}{2} \\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(T (n) \\text{ is }O(1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/638/gate2000-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If \\(T_1 = O(1)\\), give the correct matching for the following pairs:<br>\n\\(\\begin{array}{l|l}\\hline \\text{(M) $T_n = T_{n-1} + n$} &amp; \\text{(U) $T_n = O(n)$} \\\\\\hline \\text{(N) $T_n = T_{n/2} + n$} &amp; \\text{(V) $T_n = O(n \\log n)$} \\\\\\hline \\text{(O) $T_n = T_{n/2} + n \\log n$} &amp; \\text{(W) $T_n = O(n^2)$} \\\\\\hline \\text{(P) $T_n = T_{n-1} + \\log n$} &amp; \\text{(X) $T_n = O(\\log^2 n)$} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text{M-W, N-V, O-U, P-X}\\)</p>",
+            "<b>B.</b> <p>\\(\\text{M-W, N-U, O-X, P-V}\\)</p>",
+            "<b>C.</b> <p>\\(\\text{M-V, N-W, O-X, P-U}\\)</p>",
+            "<b>D.</b> <p>\\(\\text{M-W, N-U, O-V, P-V}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\text{M-W, N-U, O-V, P-V}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1498/gate1999-2-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let T(n) be the function defined by<br> \\(T(1) =1, \\: T(n) = 2T (\\lfloor \\frac{n}{2} \\rfloor ) + \\sqrt{n} \\text{ for } n \\geq 2\\).<br>Which of the following statements is true? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n) = O \\sqrt{n}\\)</p>",
+            "<b>B.</b> <p>T(n)=O(n)</p>",
+            "<b>C.</b> <p>\\(T(n) = O (\\log n)\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>T(n)=O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2247/gate1997-4-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following is false? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(100n \\log n=O(\\frac{n\\log n}{100})\\)</p>",
+            "<b>B.</b> <p>\\(\\sqrt{\\log n} = O(\\log\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(\\text{If  } \\; 0 \\lt x \\lt y \\text{ then } n^x = O\\left(n^y\\right)\\)</p>",
+            "<b>D.</b> <p>\\(2^n \\neq O\\left(nk\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\sqrt{\\log n} = O(\\log\\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2715/gate1996-1-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following two functions: <br>\\(g_1(n) = \\begin{cases} n^3 \\text{ for } 0 \\leq n \\leq 10,000 \\\\ n^2 \\text{ for } n \\geq 10,000 \\end{cases}\\)<br>\\(g_2(n) = \\begin{cases} n \\text{ for } 0 \\leq n \\leq 100 \\\\ n^3 \\text{ for } n &gt; 100 \\end{cases}\\)<br>Which of the following is true? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g_1(n) \\text{ is } O(g_2(n))\\)</p>",
+            "<b>B.</b> <p>\\(g_1(n) \\text{ is } O(n^3)\\)</p>",
+            "<b>C.</b> <p>\\(g_2(n) \\text{ is } O(g_1(n))\\)</p>",
+            "<b>D.</b> <p>\\(g_2(n) \\text{ is } O(n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(g_1(n) \\text{ is } O(g_2(n))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2466/gate1994-1-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>\\( \\sum_{1\\leq k\\leq n} O(n)\\),  where \\(O(n)\\) stands for order \\(n\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(n^2)\\)</p>",
+            "<b>C.</b> <p>\\(O(n^3)\\)</p>",
+            "<b>D.</b> <p>\\(O(3n^2)\\)</p>",
+            "<b>E.</b> <p>\\(O(1.5n^2)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(O(n^2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2305/gate1993-8-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let  \\(f (n) =n^{2} logn\\)  and \\(g(n) = n(logn)^{10}\\) be two positive functions of n. Which of the following statements is correct ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f (n) = O(g(n))and g(n) \\(\\neq\\) O(f (n))</p>",
+            "<b>B.</b> <p>g(n) = O(f (n)) and f (n) \\(\\neq\\) O(g(n))</p>",
+            "<b>C.</b> <p>f (n) \\(\\neq\\) O(g(n)) and g(n) \\(\\neq\\) O(f (n))</p>",
+            "<b>D.</b> <p>f (n) = O(g(n))and g(n) = O(f (n))</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>g(n) = O(f (n)) and f (n) \\(\\neq\\) O(g(n))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/709/gate2001-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

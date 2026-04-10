@@ -1,0 +1,43 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Tree",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25212\"></a><div itemprop=\"text\"><p>Let \\( T \\) be a tree of \\( n \\) nodes. Consider the following algorithm, that constructs a sequence of leaves \\( u_{1}, u_{2}... \\). Let \\( u_{1} \\) be some leaf of tree. Let \\( u_{2} \\)be a leaf that is farthest from \\( u_{1} \\). Let \\( u_{3} \\) be the leaf that is farthest from \\( u_{2} \\), and, in general, let \\( u_{i+1} \\) be a leaf of \\( T \\) that is farthest from \\( u_{i} \\) (if there are many choices for \\( u_{i+1} \\), pick one arbitrarily). The algorithm stops when some \\( u_{i} \\) is visited again. What can u say about the distance between \\( u_{i} \\) and \\( u_{i+1} \\), as \\( i = 1, 2,...? \\)</p>\n\n</div><br><br><b>Data Structures: TIFR CSE 2012 | Part B | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>For some trees, the distance strictly reduces in each step.</p>",
+            "<p>For some trees, the distance increases initially and then decreases.</p>",
+            "<p>For all trees, the path connecting \\( u_{2} \\) and \\( u_{3} \\) is a longest path in the tree.</p>",
+            "<p>For some trees, the distance reduces initially, but then stays constant.</p>",
+            "<p>For the same tree, the distance between the last two vertices visited can be different, based on the choice of the first leaf \\( u_{1} \\).</p>"
+          ],
+          "correct_answer": "<p>For all trees, the path connecting \\( u_{2} \\) and \\( u_{3} \\) is a longest path in the tree.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25212/tifr-cse-2012-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/25212/tifr-cse-2012-part-b-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"400150\"></a><div itemprop=\"text\"><p>Let \\( U \\) be a finite set and let \\( h \\) be a function mapping \\( U \\times U \\) to \\( U \\). Consider the following process that assigns values to all nodes of a complete binary tree with \\( 128 \\)&nbsp;leaves. Initially, the leaf nodes are assigned arbitrary values from \\( U \\). Then, the value that is assigned to an internal node is the output of \\( h \\) on the values assigned to this node's children. The value of the tree is given by the value assigned to the root.</p>\n\n<p>Once you have computed the value of the tree, you realize that the initial value that was assigned to the \\( 53^{r d} \\) leaf was incorrect and you therefore need to use a different value for the \\( 53^{r d} \\) leaf. Given this incorrect tree as input, at most how many times would an optimal algorithm need to recompute \\( h \\) in order to obtain the correct value of the tree?</p>\n\n</div><br><br><b>Data Structures: TIFR CSE 2023 | Part B | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 53 \\)</p>",
+            "<p>\\( 127 \\)</p>",
+            "<p>\\( 255 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400150/tifr-cse-2023-part-b-question-8\" target=\"_blank\">https://gateoverflow.in/400150/tifr-cse-2023-part-b-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "CO & Architecture - Clock Cycles",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Clock Cycles",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460842\"></a><div itemprop=\"text\">An application executes \\( 6.4 \\times 10^{8} \\) number of instructions in \\( 6.3 \\) seconds. There are four types of instructions, the details of which are given in the table. The duration of a clock cycle in nanoseconds is __________. (rounded off to one decimal place)<br>\n<br>\n\\[ \\begin{array}{|c|c|c|} \\hline<br>\n\\text{Instruction type} &amp; \\text{Clock cycles required per} \\\\&amp; \\text{instruction (CPI)} &amp; \\text{Number of instructions executed} \\\\ <br>\n\\hline<br>\n\\text{Branch} &amp; \\text{2} &amp; \\text{\\( 2.25 \\times 10^{8} \\)} &nbsp;\\\\ &nbsp;\\hline<br>\n\\text{Load} &amp; \\text{5} &amp; \\text{\\( 1.20 \\times 10^{8} \\)} &nbsp;\\\\ &nbsp;\\hline<br>\n\\text{Store} &amp; \\text{4} &amp; \\text{\\( 1.65 \\times 10^{8} \\)} &nbsp;\\\\ &nbsp;\\hline<br>\n\\text{Arithmetic} &amp; \\text{3} &amp; \\text{\\( 1.30 \\times 10^{8} \\)} &nbsp;\\\\ \\hline<br>\n\\end{array} \\]</div><br><br><b>GATE CSE 2025 | Set 2 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3.0:3.0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460842/gate-cse-2025-set-2-question-51\" target=\"_blank\">https://gateoverflow.in/460842/gate-cse-2025-set-2-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

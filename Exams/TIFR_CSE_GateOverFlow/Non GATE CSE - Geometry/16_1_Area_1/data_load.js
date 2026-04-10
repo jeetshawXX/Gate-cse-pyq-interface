@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Geometry - Area",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Area",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"419139\"></a><div itemprop=\"text\"><p>Let \\( S:=\\{(a, b) \\mid 0 \\leq a \\leq 1,0 \\leq b \\leq 1\\} \\), a unit square, in \\( \\mathbb{R}^{2} \\). Let \\( B:= \\) \\( \\left\\{(x, y) \\mid x^{2}+y^{2} \\leq 1\\right\\} \\), a unit disk, in \\( \\mathbb{R}^{2} \\). Define the set \\( S+B \\) as follows:<br>\n\\[<br>\nS+B:=\\{(u, v) \\mid \\exists(a, b) \\in S,(x, y) \\in B \\text { such that } u=a+x, v=b+y\\} .<br>\n\\]</p>\n\n<p>What is the area of \\( S+B \\) ?</p>\n\n</div><br><br><b>Geometry: TIFR CSE 2024 | Part A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\pi+4 \\)</p>",
+            "<p>\\( \\pi+5 \\)</p>",
+            "<p>\\( \\pi+3 \\)</p>",
+            "<p>\\( \\pi+2 \\)</p>",
+            "<p>None of the above.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\pi+5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/419139/tifr-cse-2024-part-a-question-7\" target=\"_blank\">https://gateoverflow.in/419139/tifr-cse-2024-part-a-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

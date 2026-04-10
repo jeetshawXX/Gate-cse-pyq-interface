@@ -1,0 +1,461 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Word Pairs",
+  "duration": 83,
+  "sections": [
+    {
+      "name": "Word Pairs",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411891\"></a><div itemprop=\"text\"><p>References : _______ : : Guidelines : Implement</p>\n\n<p>(By word meaning)&nbsp;</p>\n\n</div><br><br><b>GATE CH 2023 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sight&nbsp;</p>",
+            "<p>Site&nbsp;</p>",
+            "<p>Cite&nbsp;</p>",
+            "<p>Plagiarise</p>"
+          ],
+          "correct_answer": "<p>Cite&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411891/gate-ch-2023-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411891/gate-ch-2023-ga-question-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2368\"></a><div itemprop=\"text\"><p>The question below consists of a pair of related words followed by four pairs of words. Select the pair that best expresses the relation in the original pair.</p>\n\n<p><strong>Unemployed : Worker</strong></p>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2010 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>fallow : land</p>",
+            "<p>unaware : sleeper</p>",
+            "<p>wit : jester</p>",
+            "<p>renovated : house</p>"
+          ],
+          "correct_answer": "<p>fallow : land</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2368/gate-cse-2010-question-60\" target=\"_blank\">https://gateoverflow.in/2368/gate-cse-2010-question-60</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1560\"></a><div itemprop=\"text\"><p>Complete the sentence:<br>\n<br>\nUniversalism is to particularism as diffuseness is to _______________.</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>specificity</p>",
+            "<p>neutrality</p>",
+            "<p>generality</p>",
+            "<p>adaptation</p>"
+          ],
+          "correct_answer": "<p>specificity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1560/gate-cse-2013-question-57\" target=\"_blank\">https://gateoverflow.in/1560/gate-cse-2013-question-57</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"8008\"></a><div itemprop=\"text\"><p>Which one of the following combinations is incorrect?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Acquiescence - Submission</p>",
+            "<p>Wheedle - Roundabout</p>",
+            "<p>Flippancy - Lightness</p>",
+            "<p>Profligate - Extravagant</p>"
+          ],
+          "correct_answer": "<p>Wheedle - Roundabout</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5\" target=\"_blank\">https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"8302\"></a><div itemprop=\"text\"><p>Select the pair of best expresses a relationship similar to that expressed in the pair:</p>\n\n<p><strong>Children : Pediatrician</strong></p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Adult : Orthopaedist</p>",
+            "<p>Females : Gynaecologist</p>",
+            "<p>Kidney : Nephrologist</p>",
+            "<p>Skin : Dermatologist</p>"
+          ],
+          "correct_answer": "<p>Females : Gynaecologist</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4\" target=\"_blank\">https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"333238\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>Cook : Cook :: Fly : _______</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Flyer</p>",
+            "<p>Flying</p>",
+            "<p>Flew</p>",
+            "<p>Flighter</p>"
+          ],
+          "correct_answer": "<p>Flyer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333238/gate-cse-2020-question-ga-3\" target=\"_blank\">https://gateoverflow.in/333238/gate-cse-2020-question-ga-3</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"357472\"></a><div itemprop=\"text\"><p>___________ is to <em>surgery as writer</em> is to ___________</p>\n\n<p>Which one of the following options maintains a similar logical relation in the above sentence?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Plan, outline</p>",
+            "<p>Hospital, library</p>",
+            "<p>Doctor, book</p>",
+            "<p>Medicine, grammar</p>"
+          ],
+          "correct_answer": "<p>Doctor, book</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357472/gate-cse-2021-set-1-ga-question-5\" target=\"_blank\">https://gateoverflow.in/357472/gate-cse-2021-set-1-ga-question-5</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"357545\"></a><div itemprop=\"text\"><p>\\( \\text{Pen : Write :: Knife :} \\) _______</p><p>Which one of the following options maintains a similar logical relation in the above?</p></div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Vegetables</p>",
+            "<p>Sharp</p>",
+            "<p>Cut</p>",
+            "<p>Blunt</p>"
+          ],
+          "correct_answer": "<p>Cut</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"399254\"></a><div itemprop=\"text\"><p>Kind : _______ : : Often : Frequently (By word meaning)</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Mean</p>",
+            "<p>Type</p>",
+            "<p>Cruel</p>",
+            "<p>Kindly</p>"
+          ],
+          "correct_answer": "B,D",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399254/gate-cse-2023-ga-question-2\" target=\"_blank\">https://gateoverflow.in/399254/gate-cse-2023-ga-question-2</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"460449\"></a><div itemprop=\"text\"><p>​​​​​Bird : Nest :: Bee : ______</p><p>&nbsp;</p></div><br><br><b>GATE CSE 2025 | Set 2 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Kennel</p>",
+            "<p>Hammock</p>",
+            "<p>Hive</p>",
+            "<p>Lair</p>"
+          ],
+          "correct_answer": "<p>Hive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460449/gate-cse-2025-set-2-ga-question-2\" target=\"_blank\">https://gateoverflow.in/460449/gate-cse-2025-set-2-ga-question-2</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"359822\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>\\( \\text{Cover : Uncover :: Associate :} \\) _______</p>\n\n</div><br><br><b>GATE Chemical 2020 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unassociate</p>",
+            "<p>Inassociate</p>",
+            "<p>Misassociate</p>",
+            "<p>Dissociate</p>"
+          ],
+          "correct_answer": "<p>Dissociate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359822/gate-chemical-2020-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359822/gate-chemical-2020-ga-question-3</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"359864\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>Fuse : Fusion :: Use :&nbsp;&nbsp;______</p>\n\n</div><br><br><b>GATE Civil 2020 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Usage</p>",
+            "<p>User</p>",
+            "<p>Uses</p>",
+            "<p>Usion</p>"
+          ],
+          "correct_answer": "<p>Usage</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359864/gate-civil-2020-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359864/gate-civil-2020-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"359842\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>Partial : Impartial :: Popular:&nbsp;_______</p>\n\n</div><br><br><b>GATE Civil 2020 Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Impopular</p>",
+            "<p>Dispopular</p>",
+            "<p>Mispopular</p>",
+            "<p>Unpopular</p>"
+          ],
+          "correct_answer": "<p>Unpopular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359842/gate-civil-2020-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359842/gate-civil-2020-set-2-ga-question-3</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"411905\"></a><div itemprop=\"text\"><p>Eject : Insert : : Advance : _________</p>\n\n<p>(By word meaning)&nbsp;</p>\n\n</div><br><br><b>GATE Civil 2023 Set 1 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Advent&nbsp;</p>",
+            "<p>Progress</p>",
+            "<p>Retreat&nbsp;</p>",
+            "<p>Loan&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Retreat&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411905/gate-civil-2023-set-1-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411905/gate-civil-2023-set-1-ga-question-2</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"411922\"></a><div itemprop=\"text\"><p>Kind : _________ :: Often : Seldom</p>\n\n<p>(By word meaning)</p>\n\n</div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cruel</p>",
+            "<p>Variety</p>",
+            "<p>Type&nbsp;</p>",
+            "<p>Kindred</p>"
+          ],
+          "correct_answer": "<p>Cruel</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411922/gate-civil-2023-set-2-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411922/gate-civil-2023-set-2-ga-question-2</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"359778\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>Explicit: Implicit :: Express: _______</p>\n\n</div><br><br><b>GATE ECE 2020 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Impress</p>",
+            "<p>Repress</p>",
+            "<p>Compress</p>",
+            "<p>Suppress</p>"
+          ],
+          "correct_answer": "<p>Repress</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359778/gate-ece-2020-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359778/gate-ece-2020-ga-question-3</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"359799\"></a><div itemprop=\"text\"><p><em>Nostalgia</em>&nbsp;is to <em>anticipation</em>&nbsp;as ____________ is to _____________</p>\n\n<p>Which one of the following options maintains a similar logical relation in the above sentence?</p>\n\n</div><br><br><b>GATE ECE 2021 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Present, past</p>",
+            "<p>Future, past</p>",
+            "<p>Past, future</p>",
+            "<p>Future, present</p>"
+          ],
+          "correct_answer": "<p>Past, future</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359799/gate-ece-2021-ga-question-4\" target=\"_blank\">https://gateoverflow.in/359799/gate-ece-2021-ga-question-4</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"411861\"></a><div itemprop=\"text\"><p>&nbsp;Courts : _________: : Parliament : Legislature</p><p>(By word meaning)</p></div><br><br><b>GATE ECE 2023 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Judiciary</p>",
+            "<p>Executive</p>",
+            "<p>Governmental</p>",
+            "<p>Legal</p>"
+          ],
+          "correct_answer": "<p>Judiciary</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411861/gate-ece-2023-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411861/gate-ece-2023-ga-question-2</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"359728\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>Do : Undo :: Trust : ______</p>\n\n</div><br><br><b>GATE Electrical 2020 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Entrust</p>",
+            "<p>Intrust</p>",
+            "<p>Distrust</p>",
+            "<p>Untrust</p>"
+          ],
+          "correct_answer": "<p>Distrust</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359728/gate-electrical-2020-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359728/gate-electrical-2020-ga-question-3</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"359747\"></a><div itemprop=\"text\"><p>\\( \\textit{Oasis} \\) is to \\( \\textit{sand} \\) as \\( \\textit{island} \\) is to _____________</p>\n\n<p>Which one of the following options maintains a similar logical relation in the above sentence?</p>\n\n</div><br><br><b>GATE Electrical 2021 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stone</p>",
+            "<p>Land</p>",
+            "<p>Water</p>",
+            "<p>Mountain</p>"
+          ],
+          "correct_answer": "<p>Water</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359747/gate-electrical-2021-ga-question-5\" target=\"_blank\">https://gateoverflow.in/359747/gate-electrical-2021-ga-question-5</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"411841\"></a><div itemprop=\"text\"><p>Permit : ________ :: Enforce : Relax&nbsp;<br>\n&nbsp;(By word meaning)</p>\n\n</div><br><br><b>GATE Electrical 2023 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Allow</p>",
+            "<p>Forbid&nbsp;</p>",
+            "<p>License</p>",
+            "<p>Reinforce</p>"
+          ],
+          "correct_answer": "<p>Forbid&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411841/gate-electrical-2023-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411841/gate-electrical-2023-ga-question-2</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"411876\"></a><div itemprop=\"text\"><p>Disagree : Protest: : Agree: __________<br>\n(By word meaning)</p>\n\n</div><br><br><b>GATE IN 2023 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Refuse</p>",
+            "<p>Pretext</p>",
+            "<p>Recommend</p>",
+            "<p>Refute</p>"
+          ],
+          "correct_answer": "<p>Recommend</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411876/gate-in-2023-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411876/gate-in-2023-ga-question-2</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"359532\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>Build : Building :: Grow : ________</p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Grown</p>",
+            "<p>Grew</p>",
+            "<p>Growth</p>",
+            "<p>Growed</p>"
+          ],
+          "correct_answer": "<p>Growth</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359532/gate-mechanical-2020-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359532/gate-mechanical-2020-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"359553\"></a><div itemprop=\"text\"><p>Select the word that fits the analogy:</p>\n\n<p>White: Whitening : : Light : _________</p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Lightning</p>",
+            "<p>Lightening</p>",
+            "<p>Lighting</p>",
+            "<p>Enlightening</p>"
+          ],
+          "correct_answer": "<p>Lightening</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359553/gate-mechanical-2020-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359553/gate-mechanical-2020-set-2-ga-question-3</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"411823\"></a><div itemprop=\"text\"><p>Planting : Seed: : Raising: _________</p>\n\n<p>(By word meaning)</p>\n\n</div><br><br><b>GATE Mechanical 2023 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Child</p>",
+            "<p>Temperature</p>",
+            "<p>Height</p>",
+            "<p>Lift</p>"
+          ],
+          "correct_answer": "<p>Child</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411823/gate-mechanical-2023-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411823/gate-mechanical-2023-ga-question-2</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"312010\"></a><div itemprop=\"text\"><p>The question below consists of a pair of related words followed by four pairs of words\\( . \\) Select the pair that best expresses the relation in the original pair\\( . \\)</p>\n\n<p><strong>Preamble :&nbsp;Constitution</strong></p>\n\n</div><br><br><b>GATE2010 MN: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>amendment \\( : \\) law</p>",
+            "<p>prologue \\( : \\) play</p>",
+            "<p>episode \\( : \\) serial</p>",
+            "<p>plot \\( : \\) story</p>"
+          ],
+          "correct_answer": "<p>prologue \\( : \\) play</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312010/gate2010-mn-ga-2\" target=\"_blank\">https://gateoverflow.in/312010/gate2010-mn-ga-2</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"312021\"></a><div itemprop=\"text\"><p>The question below consists of a pair of related words followed by four pairs of words. Select the pair the best expresses the relation in the original pair\\( . \\)</p>\n\n<p><strong>Erudition :&nbsp;Scholar</strong></p>\n\n</div><br><br><b>GATE2010 TF: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>steadfast \\( : \\) mercurial</p>",
+            "<p>competence \\( : \\) strict</p>",
+            "<p>skill \\( : \\) craftsman</p>",
+            "<p>nurse \\( : \\) doctor</p>"
+          ],
+          "correct_answer": "<p>skill \\( : \\) craftsman</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312021/gate2010-tf-ga-2\" target=\"_blank\">https://gateoverflow.in/312021/gate2010-tf-ga-2</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"312124\"></a><div itemprop=\"text\"><p>The question below consists of a pair of related words followed by four pairs of words.&nbsp;Select the pair that best expresses the relation in the original&nbsp;pair:</p>\n\n<p>\\( \\textbf{Gladiator : Arena} \\)</p>\n\n</div><br><br><b>GATE2011 AG: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>dancer : stage</p>",
+            "<p>commuter :&nbsp;train</p>",
+            "<p>teacher :&nbsp;classroom</p>",
+            "<p>lawyer :&nbsp;courtroom&nbsp;</p>"
+          ],
+          "correct_answer": "<p>lawyer :&nbsp;courtroom&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312124/gate2011-ag-ga-5\" target=\"_blank\">https://gateoverflow.in/312124/gate2011-ag-ga-5</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"40246\"></a><div itemprop=\"text\"><p>Select the pair that best expresses a relationship similar to that expressed in the pair:</p>\n\n<p><strong>water: pipe::</strong></p>\n\n</div><br><br><b>GATE2013 AE: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cart: road</p>",
+            "<p>electricity: wire</p>",
+            "<p>sea: beach</p>",
+            "<p>music: instrument<br>\n\t&nbsp;</p>"
+          ],
+          "correct_answer": "<p>electricity: wire</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40246/gate2013-ae-ga-5\" target=\"_blank\">https://gateoverflow.in/40246/gate2013-ae-ga-5</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"40272\"></a><div itemprop=\"text\"><p>Select the pair that best expresses a relationship similar to that expressed in the pair:</p>\n\n<p><strong>Medicine: Health</strong></p>\n\n</div><br><br><b>GATE2013 CE: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Science: Experiment</p>",
+            "<p>Wealth: Peace</p>",
+            "<p>Education: Knowledge</p>",
+            "<p>Money: Happiness</p>"
+          ],
+          "correct_answer": "<p>Education: Knowledge</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40272/gate2013-ce-ga-5\" target=\"_blank\">https://gateoverflow.in/40272/gate2013-ce-ga-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

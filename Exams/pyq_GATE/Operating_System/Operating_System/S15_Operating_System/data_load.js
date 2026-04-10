@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 15",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A graphics card has on board memory of 1 MB. Which of the following modes can the card not support? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1600 x 400 resolution with 256 colors on a 17 inch monitor</p>",
+            "<b>B.</b> <p>1600 x 400 resolution with 16 million colors on a 14 inch monitor</p>",
+            "<b>C.</b> <p>800 x 400 resolution with 16 million colors on a 17 inch monitor</p>",
+            "<b>D.</b> <p>800 x 800 resolution with 256 colors on a 14 inch monitor</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1600 x 400 resolution with 16 million colors on a 14 inch monitor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/660/gate2000-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(m[0]\\ldots m[4]\\)be mutexes (binary semaphores) and \\(P[0]\\ldots P[4]\\) be processes.  Suppose each process P[i] executes the following:<pre><code>wait (m[i]; wait (m(i+1) mod 4]);\n ........... \n release (m[i]); release (m(i+1) mod 4]);</code></pre> This could cause <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Thrashing</p>",
+            "<b>B.</b> <p>Deadlock</p>",
+            "<b>C.</b> <p>Starvation, but not deadlock</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Deadlock</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/645/gate2000-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following need not necessarily be saved on a context switch between processes? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/644/gate2000-1-20-isro2008-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following actions is/are typically not performed by the operating system when switching context from process A to process B? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Saving current register values and restoring saved register values for process B.</p>",
+            "<b>B.</b> <p>Changing address translation tables.</p>",
+            "<b>C.</b> <p>Swapping out the memory image of process A to the disk.</p>",
+            "<b>D.</b> <p>Invalidating the translation look-aside buffer.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Swapping out the memory image of process A to the disk.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1490/gate1999-2-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following is/are advantage(s) of virtual memory? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Faster access to memory on an average.</p>",
+            "<b>B.</b> <p>Processes can be given protected address spaces.</p>",
+            "<b>C.</b> <p>Linker can assign addresses independent of where the program will be loaded in physical memory.</p>",
+            "<b>D.</b> <p>Program larger than the physical memory size can be run.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Processes can be given protected address spaces.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1489/gate1999-2-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A multi-user, multi-processing operating system cannot be implemented on hardware that does not support <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Address translation</p>",
+            "<b>B.</b> <p>DMA for disk transfer</p>",
+            "<b>C.</b> <p>At least two modes of CPU execution (privileged and non-privileged)</p>",
+            "<b>D.</b> <p>Demand paging</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Address translation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1488/gate1999-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>System calls are usually invoked by using <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a software interrupt</p>",
+            "<b>B.</b> <p>polling</p>",
+            "<b>C.</b> <p>an indirect jump</p>",
+            "<b>D.</b> <p>a privileged instruction</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a software interrupt</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1464/gate1999-1-11-ugcnet-dec2015-ii-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following disk scheduling strategies is likely to give the best throughput? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Farthest cylinder next</p>",
+            "<b>B.</b> <p>Nearest cylinder next</p>",
+            "<b>C.</b> <p>First come first served</p>",
+            "<b>D.</b> <p>Elevator algorithm</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Nearest cylinder next</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1463/gate1999-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Listed below are some operating system abstractions (in the left column) and the hardware components (in the right column)<br>\\(\\small \\begin{array}{cl|cl}\\hline \\text{(A)}&amp; \\text{Thread} &amp; \\text{1.}&amp; \\text{Interrupt} \\\\\\hline \\text{(B)}&amp; \\text{Virtual address space} &amp; \\text{2.}&amp; \\text{Memory} \\\\\\hline \\text{(C)} &amp;\\text{File system} &amp; \\text{3.} &amp;\\text{CPU} \\\\\\hline \\text{(D)} &amp;\\text{Signal} &amp; \\text{4.}&amp; \\text{Disk} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(A) - 2 (B) - 4 (C) - 3 (D) - 1</p>",
+            "<b>B.</b> <p>(A) - 1 (B) - 2 (C) - 3 (D) - 4</p>",
+            "<b>C.</b> <p>(A) - 3 (B) - 2 (C) - 4 (D) - 1</p>",
+            "<b>D.</b> <p>(A) - 4 (B) - 1 (C) - 2 (D) - 3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(A) - 3 (B) - 2 (C) - 4 (D) - 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1462/gate1999-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>If an instruction takes \\(i\\) microseconds and a page fault takes an additional \\(j\\) microseconds, the effective instruction time if on the average a page fault occurs every \\(k\\) instruction is: <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(i + \\dfrac{j}{k}\\)</p>",
+            "<b>B.</b> <p>\\(i +(j\\times k)\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{i+j}{k}\\)</p>",
+            "<b>D.</b> <p>\\(({i+j})\\times {k}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(i + \\dfrac{j}{k}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1691/gate1998-2-18-ugcnet-june2012-iii-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider \\(n\\) processes sharing the CPU in a round-robin fashion. Assuming that each process switch takes \\(s\\) seconds, what must be the quantum size \\(q\\) such that the overhead resulting from process switching is minimized but at the same time each process is guaranteed to get its turn at the CPU at least every \\(t\\) seconds? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(q \\leq \\frac{t-ns}{n-1}\\)</p>",
+            "<b>B.</b> <p>\\(q \\geq \\frac{t-ns}{n-1}\\)</p>",
+            "<b>C.</b> <p>\\(q \\leq \\frac{t-ns}{n+1}\\)</p>",
+            "<b>D.</b> <p>\\(q \\geq \\frac{t-ns}{n+1}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(q \\leq \\frac{t-ns}{n-1}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1690/gate1998-2-17-ugcnet-dec2012-iii-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A computer has six tape drives, with n processes competing for them. Each process may need two drives. What is the maximum value of n for the system to be deadlock free? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1669/gate1998-1-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A counting semaphore was initialized to 10. Then 6P (wait) operations and 4V (signal) operations were completed on this semaphore. The resulting value of the semaphore is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1668/gate1998-1-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>When the result of a computation depends on the speed of the processes involved, there is said to be <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cycle stealing</p>",
+            "<b>B.</b> <p>race condition</p>",
+            "<b>C.</b> <p>a time lock</p>",
+            "<b>D.</b> <p>a deadlock</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>race condition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1667/gate1998-1-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Each Process \\(P_i, i = 1\\ldots 9\\) is coded as follows<br><pre><code> repeat \n    P(mutex)\n    {Critical section}\n    V(mutex)\nforever</code></pre> <br>\nThe code for \\(P_{10}\\) is identical except it uses V(mutex) in place of P(mutex). What is the largest number of processes that can be inside the critical section at any moment? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>None</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2264/gate1997-6-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,106 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Data Interpretation - Radar Web Graph",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Radar Web Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"5468\"></a><div itemprop=\"text\"><p>Five vendors are being considered for a service. The evaluation committee evaluated each vendor on six aspects-Cost, Customer Service, Features, Quality, Reach, and Reliability. Each of these evaluations are on a scale of \\( 0 \\)(worst) to \\( 100 \\)(perfect). The evaluation scores on these aspects are shown in that radar chart. For example, Vendor \\( 1 \\) obtains a score of \\( 52 \\) on Reliability, Vendor \\( 2 \\) obtains a score of \\( 45 \\) on Features and Vendor \\( 3 \\) obtains a score of \\( 90 \\) on Cost.</p><p style=\"text-align:center\"><img alt=\"Kiviat graph\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5225200583855602708\"></p><p>On which aspect is the median score of the five vendors the least?</p></div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Customer Service</p>",
+            "<p>Reliability</p>",
+            "<p>Cost</p>",
+            "<p>Quality</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5468/cat-2019-set-1-question-43\" target=\"_blank\">https://aptitude.gateoverflow.in/5468/cat-2019-set-1-question-43</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"5466\"></a><div itemprop=\"text\"><p>Five vendors are being considered for a service. The evaluation committee evaluated each vendor on six aspects-Cost, Customer Service, Features, Quality, Reach, and Reliability. Each of these evaluations are on a scale of \\( 0 \\)(worst) to \\( 100 \\)(perfect). The evaluation scores on these aspects are shown in that radar chart. For example, Vendor \\( 1 \\) obtains a score of \\( 52 \\) on Reliability, Vendor \\( 2 \\) obtains a score of \\( 45 \\) on Features and Vendor \\( 3 \\) obtains a score of \\( 90 \\) on Cost.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17170830711848655290\"></p>\n\n<p>List of all the vendors who are among the top two scores on the maximum number of aspects is:</p>\n\n</div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Vendor \\( 1 \\) and vendor \\( 5 \\)</p>",
+            "<p>Vendor \\( 2 \\), Vendor \\( 3 \\) and&nbsp; Vendor \\( 4 \\)</p>",
+            "<p>Vendor \\( 2 \\) and Vendor \\( 5 \\)</p>",
+            "<p>Vendor \\( 1 \\) and Vendor \\( 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5466/cat-2019-set-1-question-45\" target=\"_blank\">https://aptitude.gateoverflow.in/5466/cat-2019-set-1-question-45</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5465\"></a><div itemprop=\"text\"><p>Five vendors are being considered for a service. The evaluation committee evaluated each vendor on six aspects-Cost, Customer Service, Features, Quality, Reach, and Reliability. Each of these evaluations are on a scale of \\( 0 \\)(worst) to \\( 100 \\)(perfect). The evaluation scores on these aspects are shown in that radar chart. For example, Vendor \\( 1 \\) obtains a score of \\( 52 \\) on Reliability, Vendor \\( 2 \\) obtains a score of \\( 45 \\) on Features and Vendor \\( 3 \\) obtains a score of \\( 90 \\) on Cost.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2743447103744953081\"></p>\n\n<p>List of all the vendors who are among the top three vendors on all six aspects is:</p>\n\n</div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Vendor \\( 1 \\)</p>",
+            "<p>Vendor \\( 1 \\) and Vendor \\( 3 \\)</p>",
+            "<p>Vendor \\( 3 \\)</p>",
+            "<p>None of the Vendors</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5465/cat-2019-set-1-question-46\" target=\"_blank\">https://aptitude.gateoverflow.in/5465/cat-2019-set-1-question-46</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6189\"></a><div itemprop=\"text\"><p>A large store has only three departments, Clothing, Produce, and Electronics. The following figure shows the percentages of revenue and cost from the three departments for the years \\( 2016, 2017 \\) and \\( 2018 \\). The dotted lines depict percentage levels. So for example, in \\( 2016 \\), \\( 50\\% \\) of store's revenue came from its Electronics department while \\( 40\\% \\) of its costs were incurred in the Produce department.</p><p style=\"text-align:center\"><img alt=\"Radar chart\" width=\"800\" height=\"381\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=3954702822827377469\"></p><p>In this setup, Profit is computed as (Revenue – Cost) and Percentage Profit as<br>Profit/Cost&nbsp;\\( \\times100\\% \\).<br>&nbsp; &nbsp;It is known that</p><ol><li>The percentage profit for the store in \\( 2016 \\) was \\( 100\\% \\).</li><li>The store’s revenue doubled from \\( 2016 \\) to \\( 2017 \\), and its cost doubled from&nbsp;\\( 2016 \\) to \\( 2018 \\).</li><li>There was no profit from the Electronics department in \\( 2017 \\).</li><li>In \\( 2018 \\), the revenue from the Clothing department was the same as the cost incurred in the Produce department.</li></ol><p>What was the percentage profit of the store in \\( 2018 \\)?</p></div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6189/cat-2019-set-2-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/6189/cat-2019-set-2-question-63</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6188\"></a><div itemprop=\"text\"><p>A large store has only three departments, Clothing, Produce, and Electronics. The following figure shows the percentages of revenue and cost from the three departments for the years \\( 2016, 2017 \\) and \\( 2018 \\). The dotted lines depict percentage levels. So for example, in \\( 2016 \\), \\( 50\\% \\) of store's revenue came from its Electronics department while \\( 40\\% \\) of its costs were incurred in the Produce<br>department.</p><p><img alt=\"\" width=\"750\" height=\"357\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11378587876927692085\"></p><p>In this setup, Profit is computed as (Revenue – Cost) and Percentage Profit as<br>Profit/Cost&nbsp;\\( \\times100\\% \\)<br>&nbsp; &nbsp;It is known that<br>1. The percentage profit for the store in \\( 2016 \\) was \\( 100\\% \\).<br>2. The store’s revenue doubled from \\( 2016 \\) to \\( 2017 \\), and its cost doubled from<br>&nbsp; &nbsp; &nbsp;\\( 2016 \\) to \\( 2018 \\).<br>3. There was no profit from the Electronics department in \\( 2017 \\).<br>4. In \\( 2018 \\), the revenue from the Clothing department was the same as the<br>&nbsp; &nbsp; cost incurred in the Produce department.</p><p>What was the ratio of revenue generated from the Produce department in \\( 2017 \\) to that in \\( 2018 \\)?</p></div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 16: 9 \\)</p>",
+            "<p>\\( 9: 16 \\)</p>",
+            "<p>\\( 8: 5 \\)</p>",
+            "<p>\\( 4: 3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6188/cat-2019-set-2-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/6188/cat-2019-set-2-question-64</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"6187\"></a><div itemprop=\"text\"><p>A large store has only three departments, Clothing, Produce, and Electronics. The following figure shows the percentages of revenue and cost from the three departments for the years \\( 2016, 2017 \\) and \\( 2018 \\). The dotted lines depict percentage levels. So for example, in \\( 2016 \\), \\( 50\\% \\) of store's revenue came from its Electronics department while \\( 40\\% \\) of its costs were incurred in the Produce department.</p><p><img alt=\"\" width=\"700\" height=\"333\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11378587876927692085\"></p><p>In this setup, Profit is computed as (Revenue – Cost) and Percentage Profit as<br>Profit/Cost&nbsp;\\( \\times100\\% \\)<br>&nbsp; &nbsp;It is known that</p><ol><li>&nbsp;The percentage profit for the store in \\( 2016 \\) was \\( 100\\% \\).</li><li>&nbsp;The store’s revenue doubled from \\( 2016 \\) to \\( 2017 \\), and its cost doubled from \\( 2016 \\) to \\( 2018 \\).</li><li>&nbsp;There was no profit from the Electronics department in \\( 2017 \\).</li><li>&nbsp;In \\( 2018 \\), the revenue from the Clothing department was the same as the cost incurred in the Produce department.</li></ol><p>What percentage of the total profits for the store in \\( 2016 \\) was from the Electronics department ________</p></div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6187/cat-2019-set-2-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/6187/cat-2019-set-2-question-65</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"6186\"></a><div itemprop=\"text\"><p>A large store has only three departments, Clothing, Produce, and Electronics. The following figure shows the percentages of revenue and cost from the three departments for the years \\( 2016, 2017 \\) and \\( 2018 \\). The dotted lines depict percentage levels. So for example, in \\( 2016, 50\\% \\) of store's revenue came from its Electronics department while \\( 40\\% \\) of its costs were incurred in the Produce department.</p><p><img alt=\"\" width=\"750\" height=\"357\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11378587876927692085\"></p><p>In this setup, Profit is computed as (Revenue – Cost) and Percentage Profit as<br>Profit/Cost&nbsp;\\( \\times100\\% \\)<br>&nbsp; &nbsp;It is known that</p><ol><li>The percentage profit for the store in \\( 2016 \\) was \\( 100\\% \\).</li><li>The store’s revenue doubled from \\( 2016 \\) to \\( 2017 \\), and its cost doubled from \\( 2016 \\) to \\( 2018 \\).</li><li>There was no profit from the Electronics department in \\( 2017 \\).</li><li>In \\( 2018 \\), the revenue from the Clothing department was the same as the cost incurred in the Produce department.</li></ol><p>What was the approximate difference in profit percentages of the store in \\( 2017 \\) and \\( 2018 \\)?</p></div><br><br><b>Data Interpretation: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 33.3 \\)</p>",
+            "<p>\\( 15.5 \\)</p>",
+            "<p>\\( 8.3 \\)</p>",
+            "<p>\\( 25.0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6186/cat-2019-set-2-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/6186/cat-2019-set-2-question-66</a></p>"
+        }
+      ]
+    }
+  ]
+});

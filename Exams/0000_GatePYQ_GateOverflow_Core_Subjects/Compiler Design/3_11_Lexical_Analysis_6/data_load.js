@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Lexical Analysis",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Lexical Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80364\"></a><div itemprop=\"text\"><p>Using longer identifiers in a program will necessarily lead to:</p>\n\n</div><br><br><b>GATE CSE 1987 | Question: 1-xvii</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Somewhat slower compilation</p>",
+            "<p>A program that is easier to understand</p>",
+            "<p>An incorrect program</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Somewhat slower compilation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80364/gate-cse-1987-question-1-xvii\" target=\"_blank\">https://gateoverflow.in/80364/gate-cse-1987-question-1-xvii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"641\"></a><div itemprop=\"text\"><p>The number of tokens in the following C statement is</p><pre class=\"prettyprint lang-c_cpp\">printf(\"i=%d, &amp;i=%x\", i, &amp;i);</pre></div><br><br><b>GATE CSE 2000 | Question: 1.18, ISRO2015-25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 21 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/641/gate-cse-2000-question-1-18-isro2015-25\" target=\"_blank\">https://gateoverflow.in/641/gate-cse-2000-question-1-18-isro2015-25</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2186\"></a><div itemprop=\"text\"><p>Which data structure in a compiler is used for managing information about variables and their attributes?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Abstract syntax tree</p>",
+            "<p>Symbol table</p>",
+            "<p>Semantic stack</p>",
+            "<p>Parse table</p>"
+          ],
+          "correct_answer": "<p>Symbol table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2186/gate-cse-2010-question-13\" target=\"_blank\">https://gateoverflow.in/2186/gate-cse-2010-question-13</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2103\"></a><div itemprop=\"text\"><p>In a compiler, keywords of a language are recognized during</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>parsing of the program</p>",
+            "<p>the code generation</p>",
+            "<p>the lexical analysis of the program</p>",
+            "<p>dataflow analysis</p>"
+          ],
+          "correct_answer": "<p>the lexical analysis of the program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2103/gate-cse-2011-question-1\" target=\"_blank\">https://gateoverflow.in/2103/gate-cse-2011-question-1</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2121\"></a><div itemprop=\"text\"><p>The lexical analysis for a modern computer language such as Java needs the power of which one of the following machine models in a necessary and sufficient sense?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Finite state automata</p>",
+            "<p>Deterministic pushdown automata</p>",
+            "<p>Non-deterministic pushdown automata</p>",
+            "<p>Turing machine</p>"
+          ],
+          "correct_answer": "<p>Finite state automata</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2121/gate-cse-2011-question-19\" target=\"_blank\">https://gateoverflow.in/2121/gate-cse-2011-question-19</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"204111\"></a><div itemprop=\"text\"><p>A lexical analyzer uses the following patterns to recognize three tokens \\( T_1, T_2 \\), and \\( T_3 \\) over the alphabet \\( \\{a, b, c\\} \\).</p>\n\n<ul>\n\t<li>\\( T_1: a?(b \\mid c)^\\ast a \\)</li>\n\t<li>\\( T_2: b?(a \\mid c)^\\ast b \\)</li>\n\t<li>\\( T_3: c?(b \\mid a)^\\ast c \\)</li>\n</ul>\n\n<p>Note that ‘\\( x? \\)’&nbsp;means \\( 0 \\) or \\( 1 \\) occurrence of the symbol \\( x. \\) Note also that the analyzer outputs the token that matches the longest possible prefix.</p>\n\n<p>If the string \\( bbaacabc \\) is processed&nbsp;by the analyzer, which one of the following is the sequence of tokens it outputs?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T_1T_2T_3 \\)</p>",
+            "<p>\\( T_1T_1T_3 \\)</p>",
+            "<p>\\( T_2T_1T_3 \\)</p>",
+            "<p>\\( T_3T_3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T_3T_3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204111/gate-cse-2018-question-37\" target=\"_blank\">https://gateoverflow.in/204111/gate-cse-2018-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+});

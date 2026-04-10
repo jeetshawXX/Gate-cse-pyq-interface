@@ -1,0 +1,433 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Probability",
+  "duration": 80,
+  "sections": [
+    {
+      "name": "Probability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411710\"></a><div itemprop=\"text\"><p>A game consists of spinning an arrow around a stationary disk as shown below. When the arrow comes to rest, there are eight equally likely outcomes. It could come to rest in any one of the sectors numbered \\( 1, 2, 3,4, 5, 6, 7 \\) or \\( 8 \\) as shown.</p>\n\n<p>Two such disks are used in a game where their arrows are independently spun.</p>\n\n<p>What is the probability that the sum of the numbers on the resulting sectors upon spinning the two disks is equal to 8 after the arrows come to rest?</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___probability/db238bfd4e2482ebbdcffb429a650fea.png\" width=\"500\"></p>\n\n\n\n<ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( \\dfrac{5}{64} \\)</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\dfrac{3}{32} \\)</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( \\dfrac{7}{64} \\)</li>\n</ol></div><br><br><b>GATE CH 2022 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{16} \\)</p>"
+          ],
+          "correct_answer": "<p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411710/gate-ch-2022-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411710/gate-ch-2022-ga-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8014\"></a><div itemprop=\"text\"><p>The probabilities that a student passes in mathematics, physics and chemistry are \\( m,p \\) and \\( c \\) respectively. Of these subjects, the student&nbsp;has \\( 75\\% \\) chance of passing in at least one, a \\( 50\\% \\) chance of passing in at least two and a \\( 40\\% \\) chance of passing in exactly two. Following relations are drawn in \\( m, p, c \\):</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\\( p + m + c = 27/20 \\)</li>\n\t<li>\\( p + m + c = 13/20 \\)</li>\n\t<li>\\( (p) \\times (m)&nbsp;\\times&nbsp;(c)&nbsp;= 1/10 \\)</li>\n</ol>\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only relation I is true.</p>",
+            "<p>Only relation II is true.</p>",
+            "<p>Relations II and III are true.</p>",
+            "<p>Relations I and III are true.</p>"
+          ],
+          "correct_answer": "<p>Relations I and III are true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10\" target=\"_blank\">https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8004\"></a><div itemprop=\"text\"><p>Given Set \\( A= {2, 3, 4, 5} \\) and Set \\( B= { 11, 12, 13, 14, 15} \\), two numbers are randomly selected, one from each set. What is the probability that the sum of the two numbers equals \\( 16 \\)?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-3‏</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.20 \\)</p>",
+            "<p>\\( 0.25 \\)</p>",
+            "<p>\\( 0.30 \\)</p>",
+            "<p>\\( 0.33 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8004/gate-cse-2015-set-1-question-ga-3\" target=\"_blank\">https://gateoverflow.in/8004/gate-cse-2015-set-1-question-ga-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"118408\"></a><div itemprop=\"text\"><p>The probability that a \\( k \\)-digit number does NOT contain the digits \\( 0, 5, \\) or \\( 9 \\) is</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.3^{k} \\)</p>",
+            "<p>\\( 0.6^{k} \\)</p>",
+            "<p>\\( 0.7^{k} \\)</p>",
+            "<p>\\( 0.9^{k} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.7^{k} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5\" target=\"_blank\">https://gateoverflow.in/118408/gate-cse-2017-set-1-question-ga-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"118419\"></a><div itemprop=\"text\"><p>There are \\( 3 \\) red socks, \\( 4 \\) green socks and \\( 3 \\) blue socks.You choose \\( 2 \\) socks. The probability that they are of the same colour is</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{5} \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\dfrac{7}{30} \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\dfrac{1}{4} \\)<br>\n\t&nbsp;</p>",
+            "<p>\\( \\dfrac{4}{15} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{4}{15} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118419/gate-cse-2017-set-2-question-ga-5\" target=\"_blank\">https://gateoverflow.in/118419/gate-cse-2017-set-2-question-ga-5</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"204071\"></a><div itemprop=\"text\"><p>A six sided unbiased die with four green faces and two red faces is rolled seven times. Which of the following combinations is the most likely outcome of the experiment?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Three green faces and four red faces.</p>",
+            "<p>Four green faces and three red faces.</p>",
+            "<p>Five green faces and two red faces.</p>",
+            "<p>Six green faces and one red face</p>"
+          ],
+          "correct_answer": "<p>Five green faces and two red faces.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204071/gate-cse-2018-question-ga-10\" target=\"_blank\">https://gateoverflow.in/204071/gate-cse-2018-question-ga-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"357469\"></a><div itemprop=\"text\"><p>There are five bags each containing identical sets of ten distinct chocolates. One chocolate is picked from each bag.</p>\n\n<p>The probability that at least two chocolates&nbsp;are identical is __________</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.3024 \\)</p>",
+            "<p>\\( 0.4235 \\)</p>",
+            "<p>\\( 0.6976 \\)</p>",
+            "<p>\\( 0.8125 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.6976 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357469/gate-cse-2021-set-1-ga-question-8\" target=\"_blank\">https://gateoverflow.in/357469/gate-cse-2021-set-1-ga-question-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"371498\"></a><div itemprop=\"text\"><p>A box contains five balls of same size and shape. Three of them are green coloured balls and two of them are orange coloured balls. Balls are drawn from the box one at a time. If a green ball is drawn, it is not replaced. If an orange ball is drawn, it is replaced with another orange ball.</p>\n\n<p>First ball is drawn. What is the probability of getting an orange ball in the next draw?</p>\n\n</div><br><br><b>GATE CSE 2022 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( \\frac{8}{25} \\)</p>",
+            "<p>\\( \\frac{19}{50} \\)</p>",
+            "<p>\\( \\frac{23}{50} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{23}{50} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371498/gate-cse-2022-ga-question-8\" target=\"_blank\">https://gateoverflow.in/371498/gate-cse-2022-ga-question-8</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"460093\"></a><div itemprop=\"text\"><p>A fair six-faced dice, with the faces labelled&nbsp;&nbsp;<b>‘&nbsp;</b>\\( 1 \\)&nbsp;<b>’</b>, <b>‘&nbsp;</b>\\( 2 \\)&nbsp;<b>’</b>, <b>‘</b>&nbsp;\\( 3 \\)&nbsp;<b>’</b>, <b>‘</b>&nbsp;\\( 4 \\)&nbsp;<b>’</b>, <b>‘</b>&nbsp;\\( 5 \\)&nbsp;<b>’</b>, and <b>‘</b>&nbsp;\\( 6 \\)&nbsp;<b>’</b>, is rolled thrice. What is the probability of rolling <b>‘</b>&nbsp;\\( 6 \\)&nbsp;<b>’</b>&nbsp;exactly once?</p></div><br><br><b>GATE CSE 2025 | Set 1 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{75}{216} \\)</p>",
+            "<p>\\( \\dfrac{1}{6} \\)</p>",
+            "<p>\\( \\dfrac{1}{18} \\)</p>",
+            "<p>\\( \\dfrac{25}{216} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{75}{216} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460093/gate-cse-2025-set-1-ga-question-8\" target=\"_blank\">https://gateoverflow.in/460093/gate-cse-2025-set-1-ga-question-8</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"359905\"></a><div itemprop=\"text\"><p>Two identical cube shaped dice each with faces numbered \\( 1 \\) to \\( 6 \\) are rolled simultaneously. The probability that an even number is rolled out on each dice is:</p>\n\n</div><br><br><b>GATE Civil 2021 Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{36} \\)</p>",
+            "<p>\\( \\frac{1}{12} \\)</p>",
+            "<p>\\( \\frac{1}{8} \\)</p>",
+            "<p>\\( \\frac{1}{4} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359905/gate-civil-2021-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359905/gate-civil-2021-set-2-ga-question-3</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"422965\"></a><div itemprop=\"text\"><p>The probability of a boy or a girl being born is \\( 1 / 2 \\). For a family having only three children, what is the probability of having two girls and one boy?</p><p></p></div><br><br><b>GATE DS&AI 2024 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 / 8 \\)</p>",
+            "<p>\\( 1 / 8 \\)</p>",
+            "<p>\\( 1 / 4 \\)</p>",
+            "<p>\\( 1 / 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 / 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422965/gate-ds&ai-2024-ga-question-7\" target=\"_blank\">https://gateoverflow.in/422965/gate-ds&ai-2024-ga-question-7</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"411674\"></a><div itemprop=\"text\"><p>The figure below shows the front and rear view of a disc, which is shaded with identical patterns. The disc is flipped once with respect to any one of the fixed axes \\( 1 -1 \\), \\( 2 -2 \\) or \\( 3 -3 \\) chosen uniformly at random.</p>\n\n<p>What is the probability that the disc \\( \\text{DOES NOT} \\) retain the same front and rear views after the flipping operation?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___probability/e46dee1795626eba89901e840aee1ea5.png\" width=\"500\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>GATE Electrical 2022 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( \\frac{2}{3} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{2}{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411674/gate-electrical-2022-ga-question-5\" target=\"_blank\">https://gateoverflow.in/411674/gate-electrical-2022-ga-question-5</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"411669\"></a><div itemprop=\"text\"><p>There are two identical dice with a single letter on each of the faces. The following six letters: \\( \\text{Q, R, S, T, U} \\) and \\( \\text{V} \\), one on each of the faces. Any of the six outcomes are equally likely.</p>\n\n<p>The two dice are thrown once independently at random.</p>\n\n<p>What is the probability that the outcomes on the dice were composed only of any combination of the following possible outcomes: \\( \\text{Q, U} \\) and \\( \\text{V} \\)?</p>\n\n</div><br><br><b>GATE Electrical 2022 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{4} \\)</p>",
+            "<p>\\( \\frac{3}{4} \\)</p>",
+            "<p>\\( \\frac{1}{6} \\)</p>",
+            "<p>\\( \\frac{5}{36} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411669/gate-electrical-2022-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411669/gate-electrical-2022-ga-question-7</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"411839\"></a><div itemprop=\"text\"><p>Given a fair six-faced dice where the faces are labelled \\( \\text{‘1’, ‘2’, ‘3’, ‘4’, ‘5’, } \\text{and&nbsp;‘6’,} \\)<br>\nwhat is the probability of getting a \\( \\text{‘1’} \\) on the first roll of the dice and a \\( \\text{‘4'} \\) on the&nbsp;second roll?&nbsp;</p>\n\n</div><br><br><b>GATE Electrical 2023 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{36} \\)</p>",
+            "<p>\\( \\frac{1}{6} \\)</p>",
+            "<p>\\( \\frac{5}{6} \\)&nbsp;&nbsp;</p>",
+            "<p>\\( \\frac{1}{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{36} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411839/gate-electrical-2023-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411839/gate-electrical-2023-ga-question-3</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"426511\"></a><div itemprop=\"text\"><p>Take two long dice (rectangular parallelepiped), each having four rectangular faces labelled as \\( 2,3,5 \\), and \\( 7 \\). If thrown, the long dice cannot land on the square faces and has \\( 1 / 4 \\) probability of landing on any of the four rectangular faces. The label on the top face of the dice is the score of the throw.<br>\n<br>\nIf thrown together, what is the probability of getting the sum of the two long dice scores greater than \\( 11 \\)?</p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 / 8 \\)</p>",
+            "<p>\\( 1 / 8 \\)</p>",
+            "<p>\\( 1 / 16 \\)</p>",
+            "<p>\\( 3 / 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 / 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426511/gate-mechanical-2024-ga-question-5\" target=\"_blank\">https://gateoverflow.in/426511/gate-mechanical-2024-ga-question-5</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"40217\"></a><div itemprop=\"text\"><p>Two policemen, \\( A \\) and \\( B \\), fire once each at the same time at an escaping convict. The probability that \\( A \\) hits the convict is three times the probability that \\( B \\) hits the convict. If the probability of the convict not getting injured is \\( 0.5 \\), the probability that \\( B \\) hits the convict is</p>\n\n</div><br><br><b>GATE2012 AE: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.14 \\)</p>",
+            "<p>\\( 0.22 \\)</p>",
+            "<p>\\( 0.33 \\)</p>",
+            "<p>\\( 0.40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40217/gate2012-ae-ga-6\" target=\"_blank\">https://gateoverflow.in/40217/gate2012-ae-ga-6</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"40230\"></a><div itemprop=\"text\"><p>A smuggler has \\( 10 \\) capsules in which five are filled with narcotic drugs and the rest contain the original medicine. All the \\( 10 \\) capsules are mixed in a single box, from which the customs officials picked two capsules at random and tested for the presence of narcotic drugs. The probability that the smuggler will be caught is</p>\n\n</div><br><br><b>GATE2012 AR: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.50 \\)</p>",
+            "<p>\\( 0.67 \\)</p>",
+            "<p>\\( 0.78 \\)</p>",
+            "<p>\\( 0.82 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.78 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40230/gate2012-ar-ga-9\" target=\"_blank\">https://gateoverflow.in/40230/gate2012-ar-ga-9</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"4173\"></a><div itemprop=\"text\"><p>\\( A \\) and \\( B \\) are friends. They decide to meet between 1:00 pm and 2:00 pm on a given day. There is a condition that whoever arrives first will not wait for the other for more than \\( 15 \\) minutes. The probability that they will meet on that day is</p>\n\n</div><br><br><b>GATE2012 CY: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 1/16 \\)</p>",
+            "<p>\\( 7/16 \\)</p>",
+            "<p>\\( 9/16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7/16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/4173/gate2012-cy-ga-7\" target=\"_blank\">https://gateoverflow.in/4173/gate2012-cy-ga-7</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"40293\"></a><div itemprop=\"text\"><p>What is the chance that a leap year, selected at random, will contain \\( 53 \\) Saturdays?</p>\n\n</div><br><br><b>GATE2013 EE: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2/7 \\)</p>",
+            "<p>\\( 3/7 \\)</p>",
+            "<p>\\( 1/7 \\)</p>",
+            "<p>\\( 5/7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2/7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40293/gate2013-ee-ga-6\" target=\"_blank\">https://gateoverflow.in/40293/gate2013-ee-ga-6</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"41668\"></a><div itemprop=\"text\">In any given year, the probability of an earthquake greater than Magnitude \\( 6 \\) occurring in the Garhwal Himalayas is \\( 0.04 \\). The average time between successive occurrences of such earthquakes is ____ years.</div><br><br><b>GATE2014 AG: GA-4</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "25",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41668/gate2014-ag-ga-4\" target=\"_blank\">https://gateoverflow.in/41668/gate2014-ag-ga-4</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"41511\"></a><div itemprop=\"text\">\n<p>A regular die has six sides with numbers \\( 1 \\) to \\( 6 \\) marked on its sides. If a very large number of throws show the following frequencies of occurrence: \\( 1 \\rightarrow 0.167; 2 \\rightarrow 0.167; 3 \\rightarrow 0.152; 4 \\rightarrow 0.166; 5 \\rightarrow 0.168; 6 \\rightarrow 0.180. \\) We call this die:</p>\n\n\n</div><br><br><b>GATE2014 EC-2: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Irregular&nbsp;</p>",
+            "<p>Biased</p>",
+            "<p>Gaussian&nbsp;</p>",
+            "<p>Insufficient</p>"
+          ],
+          "correct_answer": "<p>Biased</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41511/gate2014-ec-2-ga-4\" target=\"_blank\">https://gateoverflow.in/41511/gate2014-ec-2-ga-4</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"41462\"></a><div itemprop=\"text\">A batch of one hundred bulbs is inspected by testing four randomly chosen bulbs. The batch is rejected if even one of the bulbs is defective. A batch typically has five defective bulbs. The probability that the current batch is accepted is__________.</div><br><br><b>GATE2014 EC-3: GA-10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.81",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41462/gate2014-ec-3-ga-10\" target=\"_blank\">https://gateoverflow.in/41462/gate2014-ec-3-ga-10</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"40180\"></a><div itemprop=\"text\"><p>Four cards are randomly selected from a pack of \\( 52 \\) cards. If the first two cards are kings, what is the probability that the third card is a king?</p>\n\n</div><br><br><b>GATE2015 CE-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4/52 \\)</p>",
+            "<p>\\( 2/50 \\)</p>",
+            "<p>\\( (1/52)×(1/52) \\)</p>",
+            "<p>\\( (1/52)×(1/51) ×(1/50) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2/50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40180/gate2015-ce-2-ga-5\" target=\"_blank\">https://gateoverflow.in/40180/gate2015-ce-2-ga-5</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"39506\"></a><div itemprop=\"text\"><p>Ram and Ramesh appeared in an interview for two vacancies in the same department. The probability of Ram’s selection is \\( 1/6 \\) and that of Ramesh is \\( 1/8 \\). What is the probability that only one of them will be selected?</p>\n\n</div><br><br><b>GATE2015 EC-2: GA- 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 47/48 \\)</p>",
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 13/48 \\)</p>",
+            "<p>\\( 35/48 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1/4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39506/gate2015-ec-2-ga-5\" target=\"_blank\">https://gateoverflow.in/39506/gate2015-ec-2-ga-5</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"108086\"></a><div itemprop=\"text\"><p>A person moving through a tuberculosis prone zone has a \\( 50 \\)% probability of becoming infected. However, only \\( 30 \\)% of infected people develop the disease. What percentage of people moving through a tuberculosis prone zone remains infected but does not show symptoms of disease?</p>\n\n</div><br><br><b>GATE2016 EC-1: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 33 \\)</p>",
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 37 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 35 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108086/gate2016-ec-1-ga-6\" target=\"_blank\">https://gateoverflow.in/108086/gate2016-ec-1-ga-6</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"313416\"></a><div itemprop=\"text\"><p>Two dice are thrown simultaneously.&nbsp;The probability that the product of the numbers appearing on the top faces of the dice is a perfect square is</p>\n\n</div><br><br><b>GATE2017 CE-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{9} \\)</p>",
+            "<p>\\( \\frac{2}{9} \\)</p>",
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( \\frac{4}{9} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{2}{9} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313416/gate2017-ce-2-ga-5\" target=\"_blank\">https://gateoverflow.in/313416/gate2017-ce-2-ga-5</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"313671\"></a><div itemprop=\"text\"><p>A couple has \\( 2 \\) children. The probability that both children are boys if the older one is a boy is</p>\n\n</div><br><br><b>GATE2017 ME-2: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 1/3 \\)</p>",
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313671/gate2017-me-2-ga-4\" target=\"_blank\">https://gateoverflow.in/313671/gate2017-me-2-ga-4</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"205188\"></a><div itemprop=\"text\"><p>A class of twelve children has two more boys than girls. A group of three children are randomly picked from this class to accompany the teacher on a field trip. What is the probability that the group accompanying the teacher contains more girls than boys?</p>\n\n</div><br><br><b>GATE2018 EE: GA-8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\dfrac{325}{864} \\)</p>",
+            "<p>\\( \\dfrac{525}{864} \\)</p>",
+            "<p>\\( \\dfrac{5}{12} \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205188/gate2018-ee-ga-8\" target=\"_blank\">https://gateoverflow.in/205188/gate2018-ee-ga-8</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"313632\"></a><div itemprop=\"text\"><p>An unbiased coin is tossed six times in a row and four different such trials are conducted. One trial implies six tosses of the coin. If H stands for head ans T stands for tail, the following are the observations from the four trials.</p>\n\n<ol>\n\t<li>HTHTHT</li>\n\t<li>TTHHHT</li>\n\t<li>HTTHHT</li>\n\t<li>HHHT_ _</li>\n</ol>\n\n<p>Which statement describing the last two coin tosses of the fourth trial has the highest probability of being correct?</p>\n\n</div><br><br><b>GATE2018 ME-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Two T will occur.</p>",
+            "<p>One H and one T will occur.</p>",
+            "<p>Two H will occur.</p>",
+            "<p>One H will be followed by one T.</p>"
+          ],
+          "correct_answer": "<p>One H and one T will occur.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313632/gate2018-me-2-ga-10\" target=\"_blank\">https://gateoverflow.in/313632/gate2018-me-2-ga-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

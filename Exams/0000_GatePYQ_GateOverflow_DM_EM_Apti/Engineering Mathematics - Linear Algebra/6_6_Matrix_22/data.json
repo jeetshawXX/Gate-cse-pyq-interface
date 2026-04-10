@@ -1,0 +1,314 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Matrix",
+  "duration": 61,
+  "sections": [
+    {
+      "name": "Matrix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80380\"></a><div itemprop=\"text\"><p>A square matrix is singular whenever&nbsp;</p>\n\n</div><br><br><b>GATE CSE 1987 | Question: 1-xxiii</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The rows are linearly independent</p>",
+            "<p>The columns are linearly independent</p>",
+            "<p>The row are linearly dependent</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>The row are linearly dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80380/gate-cse-1987-question-1-xxiii\" target=\"_blank\">https://gateoverflow.in/80380/gate-cse-1987-question-1-xxiii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"94644\"></a><div itemprop=\"text\">Assume that the matrix \\( A \\) given below, has factorization of the form \\( LU=PA \\), where \\( L \\) is lower-triangular with all diagonal elements equal to \\( 1, U \\) is upper-triangular, and \\( P \\) is a permutation matrix. For<br>\n<br>\n\\[ A = \\begin{bmatrix} 2 &amp; 5 &amp; 9 \\\\ 4 &amp; 6 &amp; 5 \\\\ 8 &amp; 2 &amp; 3 \\end{bmatrix} \\]<br>\n<br>\nCompute \\( L, U, \\) and \\( P \\) using Gaussian elimination with partial pivoting.</div><br><br><b>GATE CSE 1988 | Question: 16i</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94644/gate-cse-1988-question-16i\" target=\"_blank\">https://gateoverflow.in/94644/gate-cse-1988-question-16i</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"611\"></a><div itemprop=\"text\">If \\( A = \\begin{pmatrix} 1 &amp; 0 &amp; 0 &amp; 1 \\\\ 0 &amp; -1 &amp; 0 &amp; -1 \\\\ 0 &amp; 0 &amp; i &amp; i \\\\ 0 &amp; 0 &amp; 0 &amp; -i \\end{pmatrix} \\) the matrix \\( A^4 \\), calculated by the use of Cayley-Hamilton theorem or otherwise, is _______</div><br><br><b>GATE CSE 1993 | Question: 02.7</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/611/gate-cse-1993-question-02-7\" target=\"_blank\">https://gateoverflow.in/611/gate-cse-1993-question-02-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2438\"></a><div itemprop=\"text\"><p>Let \\( A \\) and \\( B \\) be real symmetric matrices of size \\( n \\times n \\). Then which one of the following is true?</p>\n\n</div><br><br><b>GATE CSE 1994 | Question: 1.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( AA'=I \\)</p>",
+            "<p>\\( A=A^{-1} \\)</p>",
+            "<p>\\( AB=BA \\)</p>",
+            "<p>\\( (AB)'=BA \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (AB)'=BA \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2438/gate-cse-1994-question-1-2\" target=\"_blank\">https://gateoverflow.in/2438/gate-cse-1994-question-1-2</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2498\"></a><div itemprop=\"text\">Find the inverse of the matrix \\( \\begin{bmatrix} 1 &amp; 0 &amp; 1 \\\\ -1 &amp; 1 &amp; 1 \\\\ 0 &amp; 1 &amp; 0 \\end{bmatrix} \\)</div><br><br><b>GATE CSE 1994 | Question: 3.12</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2498/gate-cse-1994-question-3-12\" target=\"_blank\">https://gateoverflow.in/2498/gate-cse-1994-question-3-12</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2762\"></a><div itemprop=\"text\">Let \\( A = \\begin{bmatrix} a_{11} &amp;&amp; a_{12} \\\\ a_{21} &amp;&amp; a_{22} \\end{bmatrix} \\text { and } B = \\begin{bmatrix} b_{11} &amp;&amp; b_{12} \\\\ b_{21} &amp;&amp; b_{22} \\end{bmatrix} \\) be two matrices such that \\( AB=I \\). Let \\( C = A \\begin{bmatrix} 1 &amp;&amp; 0 \\\\ 1 &amp;&amp; 1 \\end{bmatrix} \\) and \\( CD =I \\). Express the elements of \\( D \\) in terms of the elements of \\( B \\).</div><br><br><b>GATE CSE 1996 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2762/gate-cse-1996-question-10\" target=\"_blank\">https://gateoverflow.in/2762/gate-cse-1996-question-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2735\"></a><div itemprop=\"text\"><p>The matrices \\( \\begin{bmatrix} \\cos\\theta &amp;&amp; -\\sin\\theta \\\\ \\sin\\theta &amp;&amp; \\cos\\theta \\end{bmatrix} \\) and \\( \\begin{bmatrix} a &amp;&amp; 0\\\\ 0&amp;&amp; b \\end{bmatrix} \\) commute under multiplication</p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 2.6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>if \\( a=b \\text{ or } \\theta = n\\pi, n \\) an integer</p>",
+            "<p>always</p>",
+            "<p>never</p>",
+            "<p>if \\( a \\cos\\theta = b \\sin\\theta \\)</p>"
+          ],
+          "correct_answer": "<p>if \\( a=b \\text{ or } \\theta = n\\pi, n \\) an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2735/gate-cse-1996-question-2-6\" target=\"_blank\">https://gateoverflow.in/2735/gate-cse-1996-question-2-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2243\"></a><div itemprop=\"text\"><p>Let \\( A=(a_{ij}) \\) be an \\( n \\)-rowed square matrix and \\( I_{12} \\) be the matrix obtained by interchanging the first and second rows of the \\( n \\)-rowed Identity matrix. Then \\( AI_{12} \\) is such that its first</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 4.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Row is the same as its second row</p>",
+            "<p>Row is the same as the second row of \\( A \\)</p>",
+            "<p>Column is the same as the second column of \\( A \\)</p>",
+            "<p>Row is all zero</p>"
+          ],
+          "correct_answer": "<p>Column is the same as the second column of \\( A \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2243/gate-cse-1997-question-4-2\" target=\"_blank\">https://gateoverflow.in/2243/gate-cse-1997-question-4-2</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1674\"></a><div itemprop=\"text\"><p>Consider the following determinant \\( \\Delta = \\begin{vmatrix} 1 &amp; a &amp; bc \\\\ 1 &amp; b &amp; ca \\\\ 1 &amp; c&nbsp;&amp; ab \\end{vmatrix} \\)</p>\n\n<p>Which of the following is a factor of \\( \\Delta \\)?</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 2.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a+b \\)</p>",
+            "<p>\\( a-b \\)</p>",
+            "<p>\\( a+b+c \\)</p>",
+            "<p>\\( abc \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a-b \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1674/gate-cse-1998-question-2-2\" target=\"_blank\">https://gateoverflow.in/1674/gate-cse-1998-question-2-2</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"694\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ul>\n\t<li>S1: The sum of two singular \\( n \\times n \\) matrices may be non-singular</li>\n\t<li>S2: The sum of two \\( n \\times n \\) non-singular matrices may be singular</li>\n</ul>\n\n<p><br>\nWhich one of the following statements is correct?</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 1.1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S1 \\) and \\( S2 \\) both are true</p>",
+            "<p>\\( S1 \\) is true, \\( S2 \\) is false</p>",
+            "<p>\\( S1 \\) is false, \\( S2 \\) is true</p>",
+            "<p>\\( S1 \\) and \\( S2 \\) both are false</p>"
+          ],
+          "correct_answer": "<p>\\( S1 \\) and \\( S2 \\) both are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/694/gate-cse-2001-question-1-1\" target=\"_blank\">https://gateoverflow.in/694/gate-cse-2001-question-1-1</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1023\"></a><div itemprop=\"text\"><p>The number of different \\( n \\times n  \\) symmetric matrices with each element being either 0 or 1 is: (Note: \\( \\text{power} \\left(2, X\\right) \\) is same as \\( 2^X \\))</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{power} \\left(2, n\\right) \\)</p>",
+            "<p>\\( \\text{power} \\left(2, n^2\\right) \\)</p>",
+            "<p>\\( \\text{power} \\left(2,\\frac{ \\left(n^2+ n \\right) }{2}\\right) \\)</p>",
+            "<p>\\( \\text{power} \\left(2, \\frac{\\left(n^2 - n\\right)}{2}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{power} \\left(2,\\frac{ \\left(n^2+ n \\right) }{2}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1023/gate-cse-2004-question-26\" target=\"_blank\">https://gateoverflow.in/1023/gate-cse-2004-question-26</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1024\"></a><div itemprop=\"text\"><p>Let \\( A, B, C, D \\)&nbsp;be \\( n \\times n \\) matrices, each with non-zero determinant. If \\( ABCD = I \\), then \\( B^{-1} \\)&nbsp;is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp; &nbsp;\\( D^{-1}C^{-1}A^{-1} \\)</p>",
+            "<p>&nbsp; &nbsp;\\( CDA \\)</p>",
+            "<p>&nbsp; &nbsp;\\( ADC \\)</p>",
+            "<p>&nbsp; &nbsp;Does not necessarily exist</p>"
+          ],
+          "correct_answer": "<p>&nbsp; &nbsp;\\( CDA \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1024/gate-cse-2004-question-27\" target=\"_blank\">https://gateoverflow.in/1024/gate-cse-2004-question-27</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1070\"></a><div itemprop=\"text\"><p>In an \\( M \\times N \\) matrix all non-zero entries are covered in \\( a \\) rows and \\( b \\) columns. Then the maximum number of non-zero entries, such that no two are on the same row or column, is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\leq a +b \\)</p>",
+            "<p>\\( \\leq \\max(a, b) \\)</p>",
+            "<p>\\( \\leq \\min(M-a, N-b) \\)</p>",
+            "<p>\\( \\leq \\min(a, b) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\leq \\min(a, b) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1070/gate-cse-2004-question-76\" target=\"_blank\">https://gateoverflow.in/1070/gate-cse-2004-question-76</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"984\"></a><div itemprop=\"text\"><p>\\( F \\) is an \\( n\\times n \\) real matrix. \\( b \\) is an \\( n\\times 1 \\) real vector. Suppose there are two \\( n\\times 1 \\) vectors, \\( u \\) and \\( v \\) such that, \\( u ≠ v \\) and \\( Fu = b, Fv = b \\). Which one of the following statements is false?</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp; &nbsp;Determinant of \\( F \\) is zero. &nbsp;</p>",
+            "<p>&nbsp; &nbsp;There are an infinite number of solutions to \\( Fx = b \\)</p>",
+            "<p>&nbsp; &nbsp;There is an \\( x≠0 \\) such that \\( Fx = 0 \\)</p>",
+            "<p>&nbsp; &nbsp;\\( F \\) must have two identical rows</p>"
+          ],
+          "correct_answer": "<p>&nbsp; &nbsp;\\( F \\) must have two identical rows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/984/gate-cse-2006-question-23\" target=\"_blank\">https://gateoverflow.in/984/gate-cse-2006-question-23</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"8241\"></a><div itemprop=\"text\">In the LU decomposition of the matrix \\( \\begin{bmatrix}2 &amp; 2 \\\\ 4 &amp; 9\\end{bmatrix} \\), if the diagonal elements of \\( U \\) are both \\( 1 \\), then the lower diagonal entry \\( l_{22} \\) of \\( L \\) is_________________.</div><br><br><b>GATE CSE 2015 Set 1 | Question: 1‏8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8241/gate-cse-2015-set-1-question-1-8\" target=\"_blank\">https://gateoverflow.in/8241/gate-cse-2015-set-1-question-1-8</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"8131\"></a><div itemprop=\"text\"><p>Perform the following operations on the matrix \\( \\begin{bmatrix} 3 &amp; 4 &amp; 45 \\\\ 7 &amp; 9 &amp; 105 \\\\ 13 &amp; 2 &amp; 195 \\end{bmatrix} \\)</p>    <ol style=\"list-style-type:lower-roman\"><li>Add the third row to the second row</li>  \t<li>Subtract the third column from the first column.</li>  </ol><p>The determinant of the resultant matrix is _____.</p></div><br><br><b>GATE CSE 2015 Set 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8131/gate-cse-2015-set-2-question-27\" target=\"_blank\">https://gateoverflow.in/8131/gate-cse-2015-set-2-question-27</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"371926\"></a><div itemprop=\"text\"><p>Consider the following two statements with respect to the matrices \\( \\textit{A}_{m \\times n},&nbsp;\\textit{B}_{n \\times m},&nbsp;\\textit{C}_{n \\times n} \\) and \\( &nbsp;\\textit{D}_{n \\times n}. \\)</p>\n\n<p>Statement \\( 1: tr \\text{(AB)} =&nbsp;tr \\text{(BA)} \\)</p>\n\n<p>Statement \\( 2: tr \\text{(CD)} =&nbsp;tr \\text{(DC)} \\)</p>\n\n<p>where \\( tr() \\) represents the trace of a matrix. Which one of the following holds?</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statement \\( 1 \\) is correct and&nbsp;Statement \\( 2 \\) is wrong.</p>",
+            "<p>Statement \\( 1 \\) is wrong and Statement \\( 2 \\) is correct.</p>",
+            "<p>Both Statement \\( 1 \\) and Statement \\( 2 \\) are correct.</p>",
+            "<p>Both Statement \\( 1 \\) and Statement \\( 2 \\) are wrong.</p>"
+          ],
+          "correct_answer": "<p>Both Statement \\( 1 \\) and Statement \\( 2 \\) are correct.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371926/gate-cse-2022-question-10\" target=\"_blank\">https://gateoverflow.in/371926/gate-cse-2022-question-10</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"460834\"></a><div itemprop=\"text\"><p>​​​​If \\( A=\\left(\\begin{array}{cc}1 &amp; 2 \\\\ 2 &amp; -1\\end{array}\\right) \\), then which ONE of the following is \\( A^{8} \\) ?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\begin{array}{cc}25 &amp; 0 \\\\ 0 &amp; 25\\end{array}\\right) \\)</p>",
+            "<p>\\( \\left(\\begin{array}{cc}125 &amp; 0 \\\\ 0 &amp; 125\\end{array}\\right) \\)</p>",
+            "<p>\\( \\left(\\begin{array}{cc}625 &amp; 0 \\\\ 0 &amp; 625\\end{array}\\right) \\)</p>",
+            "<p>\\( \\left(\\begin{array}{cc}3125 &amp; 0 \\\\ 0 &amp; 3125\\end{array}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\begin{array}{cc}625 &amp; 0 \\\\ 0 &amp; 625\\end{array}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460834/gate-cse-2025-set-2-question-1\" target=\"_blank\">https://gateoverflow.in/460834/gate-cse-2025-set-2-question-1</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"460995\"></a><div itemprop=\"text\"><p>​​Let \\( A \\in \\mathbb{R}^{n \\times n} \\) be such that \\( A^{3}=A \\). Which one of the following statements is ALWAYS correct?</p></div><br><br><b>GATE DA 2025 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\) is invertible</p>",
+            "<p>Determinant of \\( A \\) is \\( 0 \\)</p>",
+            "<p>The sum of the diagonal elements of \\( A \\) is \\( 1 \\)</p>",
+            "<p>\\( A \\) and \\( A^{2} \\) have the same rank</p>"
+          ],
+          "correct_answer": "<p>\\( A \\) and \\( A^{2} \\) have the same rank</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460995/gate-da-2025-question-27\" target=\"_blank\">https://gateoverflow.in/460995/gate-da-2025-question-27</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"460980\"></a><div itemprop=\"text\"><p>An \\( n \\times n \\) matrix \\( A \\) with real entries satisfies the property: \\( \\|A x\\|^{2}=\\|x\\|^{2} \\), for all \\( x \\in \\mathbb{R}^{n} \\), where \\( \\|\\cdot\\| \\) denotes the Euclidean norm. Which of the following statements is/are ALWAYS correct?</p></div><br><br><b>GATE DA 2025 | Question: 42</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( A \\) must be orthogonal</p>",
+            "<p>\\( A=I \\), where \\( I \\) denotes the identity matrix, is the only solution</p>",
+            "<p>The eigenvalues of \\( A \\) are either \\( +1 \\) or \\( -1 \\)</p>",
+            "<p>\\( A \\) has full rank</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( A \\) must be orthogonal</p>",
+            "<p>\\( A \\) has full rank</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460980/gate-da-2025-question-42\" target=\"_blank\">https://gateoverflow.in/460980/gate-da-2025-question-42</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"3679\"></a><div itemprop=\"text\"><p>If matrix \\( X = \\begin{bmatrix}&nbsp;a &amp; 1 \\\\&nbsp;-a^2+a-1 &amp; 1-a&nbsp;\\end{bmatrix} \\)&nbsp;&nbsp;and \\( X^2 - X + I = O \\) (\\( I \\) is the identity matrix and \\( O \\) is the zero matrix), then the inverse of \\( X \\) is</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( \\begin{bmatrix}<br>\n\t1-a &amp;-1 \\\\&nbsp;<br>\n\t&nbsp;a^2&amp; a<br>\n\t\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix}<br>\n\t1-a &amp;-1 \\\\&nbsp;<br>\n\t&nbsp;a^2-a+1&amp; a<br>\n\t\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix}<br>\n\t-a &amp;1 \\\\&nbsp;<br>\n\t&nbsp;-a^2+a-1&amp; 1-a<br>\n\t\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix}<br>\n\ta^2-a+1 &amp;a \\\\&nbsp;<br>\n\t&nbsp;1&amp; 1-a<br>\n\t\\end{bmatrix} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{bmatrix}<br>\n\t1-a &amp;-1 \\\\&nbsp;<br>\n\t&nbsp;a^2-a+1&amp; a<br>\n\t\\end{bmatrix} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3679/gate-it-2004-question-36\" target=\"_blank\">https://gateoverflow.in/3679/gate-it-2004-question-36</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"3319\"></a><div itemprop=\"text\"><p>If \\( M \\) is a square matrix with a zero determinant, which of the following assertion (s) is (are) correct?</p>\n\n<p><strong>S1:</strong>&nbsp;Each row of \\( M \\) can be represented as a linear combination of the other rows<br>\n<strong>S2:</strong>&nbsp;Each column of \\( M \\) can be represented as a linear combination of the other columns<br>\n<strong>S3:</strong> \\( MX = 0 \\) has a nontrivial solution<br>\n<strong>S4:</strong> \\( M \\) has an inverse</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S3 \\) and \\( S2 \\)</p>",
+            "<p>\\( S1 \\) and \\( S4 \\)</p>",
+            "<p>\\( S1 \\) and \\( S3 \\)</p>",
+            "<p>\\( S1, S2 \\) and \\( S3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( S1, S2 \\) and \\( S3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3319/gate-it-2008-question-29\" target=\"_blank\">https://gateoverflow.in/3319/gate-it-2008-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+}

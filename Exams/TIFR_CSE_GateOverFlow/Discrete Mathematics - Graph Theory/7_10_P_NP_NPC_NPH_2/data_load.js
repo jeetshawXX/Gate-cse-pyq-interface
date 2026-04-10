@@ -1,0 +1,43 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - P NP NPC NPH",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "P NP NPC NPH",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"381997\"></a><div itemprop=\"text\"><p>Given an undirected graph \\( G \\), an ordering \\( \\sigma \\) of its vertices is called a <em>perfect ordering</em> if for every vertex \\( v \\), the neighbours of \\( v \\) which precede \\( v \\) in \\( \\sigma \\) form a clique in \\( G \\).</p>\n\n<p>Recall that given an undirected graph \\( G \\), a <em>clique</em> in \\( G \\) is a subset of vertices every two of which are connected by an edge, while a <em>perfect colouring</em> of \\( G \\) <em>with</em> \\( k \\) colours is an assignment of labels from the set \\( \\{1,2, \\ldots, k\\} \\) to the vertices of \\( G \\) such that no two vertices which are adjacent in \\( G \\) receive the same label.</p>\n\n<p>Consider the following problems.</p>\n\n<p><strong>Problem SPECIAL-CLIQUE</strong></p>\n\n<p><strong>INPUT:</strong>&nbsp;An undirected graph \\( G \\), a positive integer \\( k \\), and a perfect ordering \\( \\sigma \\) of the vertices of \\( G \\).</p>\n\n<p><strong>OUTPUT:</strong>&nbsp;Yes, if \\( G \\) has a clique of size at least \\( k \\), No otherwise.</p>\n\n<p><strong>Problem SPECIAL-COLOURING</strong></p>\n\n<p><strong>INPUT:</strong>&nbsp;An undirected graph \\( G \\), a positive integer \\( k \\), and a perfect ordering \\( \\sigma \\) of the vertices of \\( G \\).</p>\n\n<p><strong>OUTPUT:</strong>&nbsp;Yes, if \\( G \\) has a proper colouring with at most \\( k \\) colours, No otherwise.</p>\n\n<p>Assume that \\( \\mathrm{P} \\neq N P \\). Which of the following statements is true?</p>\n\n</div><br><br><b>Graph Theory: TIFR CSE 2022 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both SPECIAL-CLIQUE&nbsp;and SPECIAL-COLOURING&nbsp;are undecidable</p>",
+            "<p>Only SPECIAL-CLIQUE&nbsp;is in \\( \\mathrm{P} \\)</p>",
+            "<p>Only SPECIAL-COLOURING&nbsp;is in \\( \\mathrm{P} \\)</p>",
+            "<p>Both SPECIAL-CLIQUE&nbsp;and SPECIAL-COLOURING&nbsp;are in \\( \\mathrm{P} \\)</p>",
+            "<p>Neither of SPECIAL-CLiQUE&nbsp;and SPECIAL-COLOURING&nbsp;is in \\( \\mathrm{P}, \\) but both are decidable</p>"
+          ],
+          "correct_answer": "<p>Both SPECIAL-CLIQUE&nbsp;and SPECIAL-COLOURING&nbsp;are in \\( \\mathrm{P} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381997/tifr-cse-2022-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/381997/tifr-cse-2022-part-b-question-12</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"400146\"></a><div itemprop=\"text\"><p>A graph \\( G=(V, E) \\) is said to be \\( k \\)-colourable if the set \\( V \\) of vertices can be coloured with \\( k \\) colours such that no edge has both its endpoints of the same colour. It is known that the following language \\( \\text{3COL} \\) is \\( \\text{NP} \\)-complete.<br>\n\\[<br>\n3 \\mathrm{COL}=\\{G \\mid G \\text { is 3-colourable }\\} .<br>\n\\]<br>\nConsider the following algorithmic problems (assume that the input graph \\( G \\) is provided as its adjacency matrix):</p>\n\n<p>\\( \\text{(P1)} \\) Given a graph \\( G \\) as input, check if \\( G \\) is \\( 2 \\)-colourable.<br>\n\\( \\text{(P2)} \\)&nbsp;Given a graph \\( G \\) as input, find the minimum value of \\( k \\) such that \\( G \\) is \\( k \\)-colourable.<br>\n\\( \\text{(P3)} \\)&nbsp;Given a graph \\( G \\), check if \\( G \\) is \\( 3 \\)-colourable.<br>\n\\( \\text{(P4)} \\)&nbsp;Given a graph \\( G \\), along with a guarantee that the minimum value of \\( k \\) such that \\( G \\) is \\( k \\)-colourable is either \\( 2 \\) or \\( 3, \\)&nbsp;decide which of the two is the case.<br>\n<br>\nAssume \\( \\mathrm{NP} \\neq \\mathrm{P} \\). Then, which of the above problems can be solved in polynomial time?</p>\n\n</div><br><br><b>Graph Theory: TIFR CSE 2023 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only problem&nbsp;\\( \\text{(P1)} \\)</p>",
+            "<p>Only problems \\( \\text{(P1)} \\)&nbsp;and&nbsp;\\( \\text{(P4)} \\)</p>",
+            "<p>Only problems \\( \\text{(P2)} \\)&nbsp;and&nbsp;\\( \\text{(P3)} \\)</p>",
+            "<p>Only problems \\( \\text{(P1), (P3)} \\)and&nbsp;\\( \\text{(P4)} \\)</p>",
+            "<p>Only problems \\( \\text{(P1), (P2)} \\)and&nbsp;\\( \\text{(P4)} \\)</p>"
+          ],
+          "correct_answer": "<p>Only problems \\( \\text{(P1)} \\)&nbsp;and&nbsp;\\( \\text{(P4)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400146/tifr-cse-2023-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/400146/tifr-cse-2023-part-b-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

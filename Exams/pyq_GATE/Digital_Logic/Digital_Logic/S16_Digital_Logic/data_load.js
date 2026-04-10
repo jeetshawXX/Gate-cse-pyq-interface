@@ -1,0 +1,207 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 16",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Given the following Karnaugh map, which one of the following represents the\nminimal sum-of-Products of the map ?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q11_8c20f635.jpg\"> <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>xy+y'z</p>",
+            "<b>B.</b> <p>wx'y'+xy+xz</p>",
+            "<b>C.</b> <p>w'x+y'z+xy</p>",
+            "<b>D.</b> <p>xz+y</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>xy+y'z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/704/gate2001-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nAll digital circuits can be realized using only <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ex-OR gates</p>",
+            "<b>B.</b> <p>Multiplexers</p>",
+            "<b>C.</b> <p>Half adders</p>",
+            "<b>D.</b> <p>OR gates</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Multiplexers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/556/gate1992-02-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\nThe operation which is commutative but not associative is: <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AND</p>",
+            "<b>B.</b> <p>OR</p>",
+            "<b>C.</b> <p>EX-OR</p>",
+            "<b>D.</b> <p>NAND</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>NAND</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/555/gate1992-02-i\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nAdvantage of synchronous sequential circuits over asynchronous ones is: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>faster operation</p>",
+            "<b>B.</b> <p>ease of avoiding problems due to hazards</p>",
+            "<b>C.</b> <p>lower hardware requirement</p>",
+            "<b>D.</b> <p>better noise immunity</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ease of avoiding problems due to hazards</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/516/gate1991-03-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Two NAND gates having open collector outputs are tied together as shown in below figure.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q1_e61b560a.jpg\"><br>The logic function Y, implemented by the circuit is, <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Y=ABC + DE</p>",
+            "<b>B.</b> <p>\\(Y=\\overline{ABC + DE}\\)</p>",
+            "<b>C.</b> <p>Y=ABC.DE</p>",
+            "<b>D.</b> <p>\\(Y=\\overline{ABC.DE}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(Y=\\overline{ABC + DE}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84051/gate1990-3-i\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The exponent of a floating-point number is represented in excess-N code so that: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The dynamic range is large.</p>",
+            "<b>B.</b> <p>The precision is high.</p>",
+            "<b>C.</b> <p>The smallest number is represented by all zeros.</p>",
+            "<b>D.</b> <p>Overflow is avoided.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The smallest number is represented by all zeros.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80201/gate1987-1-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The output F of the below multiplexer circuit can be represented by <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q1-IV_325ec5d5.jpg\"><br> <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}\\)</p>",
+            "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+            "<b>C.</b> <p>\\(A \\oplus B\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80193/gate1987-1-iv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q1-IIIa_c5e723c0.jpg\"><br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q1-IIIb_b72e4b1f.jpg\"><br>The above circuit produces the output sequence: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111       1111       0000       0000</p>",
+            "<b>B.</b> <p>1111       0000      1111        000</p>",
+            "<b>C.</b> <p>1111       0001      0011       010</p>",
+            "<b>D.</b> <p>1010      1010      1010       1010</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1111       0001      0011       010</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80034/gate1987-1-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The total number of Boolean functions which can be realised with four variables is: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>17</p>",
+            "<b>C.</b> <p>256</p>",
+            "<b>D.</b> <p>65, 536</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>65, 536</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80032/gate1987-1-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A Boolean function f is to be realized only by NOR gates. Its K-map is given below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q16-aa_bdb90011.jpg\"><br>The realization is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q16-ab_e8a19bd8.jpg\"><br> <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82698/gate1987-16-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q15a_90d927be.jpg\"><br>The frequency of oscillation is given by \\(f= 1/2 \\pi\\) CR. To have the system oscillate the ratio \\(R_{2}/R_{1}\\) should be <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5</p>",
+            "<b>B.</b> <p>29</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>Any value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Any value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82656/gate1987-15a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The below figure shows four D-type flip-flops connected as a shift register using a XOR gate. The initial state and three subsequent states for three clock pulses are also given.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q13-a_8cd52ef1.jpg\"><br><br>\\(\\begin{array}{|c|c|c|c|c|} \\hline \\text{State} &amp; Q_{A} &amp; Q_{B} &amp; Q_{C} &amp; Q_{D} \\\\\\hline \\text{Initial} &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\\\\\hline \\text{After the first clock} &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\\\\\hline \\text{After the second clock} &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\\\\\hline \\text{After the third clock} &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\\\\\hline \\end{array}\\)<br><br>The state \\(Q_{A} Q_{B} Q_{C} Q_{D}\\) after the fourth clock pulse is <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0000</p>",
+            "<b>B.</b> <p>1111</p>",
+            "<b>C.</b> <p>1001</p>",
+            "<b>D.</b> <p>1000</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82607/gate1987-13-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The Boolean expression \\(A \\oplus B \\oplus A\\) is equivalent to <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AB + \\bar {A}\\bar B\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{A}B+A\\bar{B}\\)</p>",
+            "<b>C.</b> <p>B</p>",
+            "<b>D.</b> <p>\\(\\bar{A}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82556/gate1987-12-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

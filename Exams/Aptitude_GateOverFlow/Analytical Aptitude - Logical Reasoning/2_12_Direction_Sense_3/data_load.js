@@ -1,0 +1,51 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Direction Sense",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Direction Sense",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"5533\"></a><div itemprop=\"text\"><p>\\( \\text{A} \\) is standing \\( 5 \\)&nbsp;m&nbsp;East and \\( 4 \\) m North of a point \\( \\text{P} \\) while \\( \\text{B} \\) is standing \\( 15 \\) m East and \\( 24 \\) m North of \\( \\text{P. A} \\) walks at a speed of \\( 1.4 \\) m/s while \\( \\text{B} \\) walks at a speed of \\( 2.1 \\) m/s.</p>\n\n<p>If&nbsp;\\( \\text{A} \\) and \\( \\text{B} \\) simultaneously start walking towards each other and finally meet at a point \\( \\text{Q,} \\) then find the distance \\( \\text{PQ}. \\)</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2011 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 13 \\) m</p>",
+            "<p>\\( 12\\sqrt&nbsp;3 \\) m</p>",
+            "<p>\\( 15 \\) m</p>",
+            "<p>\\( 13\\sqrt&nbsp;2 \\) m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5533/cat-2011-question-18\" target=\"_blank\">https://aptitude.gateoverflow.in/5533/cat-2011-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"5532\"></a><div itemprop=\"text\"><p>\\( \\text{A} \\) is standing \\( 5 \\)&nbsp;m&nbsp;East and \\( 4 \\) m North of a point \\( \\text{P} \\) while \\( \\text{B} \\) is standing \\( 15 \\) m East and \\( 24 \\) m North of \\( \\text{P. A} \\) walks at a speed of \\( 1.4 \\) m/s while \\( \\text{B} \\) walks at a speed of \\( 2.1 \\) m/s.</p>\n\n<p>If \\( \\text{A} \\)&nbsp;and \\( \\text{B} \\)&nbsp;simultaneously start walking East and South respectively, then which of the following is true of the distance of closest approach \\( ‘d_1\\text{’} \\) between them?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2011 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( d_1&gt;5 \\) m</p>",
+            "<p>\\( d_1&lt;5 \\) m</p>",
+            "<p>\\( d_1=5 \\) m</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5532/cat-2011-question-19\" target=\"_blank\">https://aptitude.gateoverflow.in/5532/cat-2011-question-19</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"923\"></a><div itemprop=\"text\"><p>\\( \\text{ABC} \\) forms an equilateral triangle in which \\( \\text{B} \\) is \\( 2 \\) km from \\( \\text{A} \\). A person starts walking from \\( \\text{B} \\) in a direction parallel to \\( \\text{AC} \\) and stops when he reaches a point \\( \\text{D} \\) directly east of \\( \\text{C} \\). He, then, reverses direction and walks till he reaches a point \\( \\text{E} \\) directly south of \\( \\text{C} \\). Then \\( \\text{D} \\) is&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 3 \\) km east and \\( 1 \\) km north of \\( \\text{A} \\)&nbsp;</li>\n\t<li>\\( 3 \\) km east and \\( 3 \\) km north of \\( \\text{A} \\)&nbsp;</li>\n\t<li>\\( 3 \\) km east and \\( 1 \\) km south of \\( \\text{A} \\)&nbsp;</li>\n\t<li>\\( 3 \\) km west and \\( 3 \\) km north of \\( \\text{A} \\)</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2014 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/923/cat-2014-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/923/cat-2014-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+});

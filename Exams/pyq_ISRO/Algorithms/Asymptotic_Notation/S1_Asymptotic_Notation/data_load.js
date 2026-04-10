@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Asymptotic_Notation - Asymptotic_Notation - Slot 1",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Asymptotic_Notation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the complexity of the following code?<br><pre><code> sum=0;\n    for(i=1;i&lt;=n;i*=2)\n         for(j=1;j&lt;=n;j++)\n            sum++;</code></pre>Which of the following is not a valid string? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O\\left(n^{2}\\right)\\)</p>",
+            "<b>B.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O(n)\\)</p>",
+            "<b>D.</b> <p>\\(O(n \\log n \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: Question is excluded from the evaluation due to ambiguity.<br><a href=\"https://gateoverflow.in/331364/isro2020-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The time complexity of the following C function is (assume n&gt;0)<br><pre><code> int recursive (int n) {\n    if(n == 1)\n        return (1);\n    else\n        return (recursive (n-1) + recursive (n-1));\n}</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{2}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(O\\left(2^{n}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(O\\left(2^{n}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1077/gate2004-83-isro2015-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The time taken by binary search algorithm to search a key in a sorted array of n elements is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O (\\log_2 \\: n)\\)</p>",
+            "<b>B.</b> <p>\\(O  (n)\\)</p>",
+            "<b>C.</b> <p>\\(O  (n \\log_2 \\: n)\\)</p>",
+            "<b>D.</b> <p>\\(O  (n^2)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(O (\\log_2 \\: n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49626/isro2007-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

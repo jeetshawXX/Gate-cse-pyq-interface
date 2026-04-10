@@ -1,0 +1,209 @@
+{
+  "title": "Set_Theory - Set_Theory - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Set_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\( P \\) be the partial order defined on the set \\( \\{1,2,3,4\\} \\) as follows\n<br> \\(\nP=\\{(x, x) \\mid x \\in\\{1,2,3,4\\}\\} \\cup\\{(1,2),(3,2),(3,4)\\}\n\\) <br>\nThe number of total orders on \\( \\{1,2,3,4\\} \\) that contain \\( P \\) is ______ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422873/gate-cse-2024-set-2-question-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(X\\) be a set and \\(2^X\\) denote the powerset of \\(X\\).<br>\nDefine a binary operation \\( \\Delta \\) on \\(2^X\\) as follows:<br>\\(A  \\Delta B=(A-B) \\cup (B-A)\\) <br>Let \\( H=(2^X,\\Delta ) \\). Which of the following statements about \\(H\\) is/are correct? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(H\\) is a group.</p>",
+            "<b>B.</b> <p>Every element in \\(H\\) has an inverse, but \\(H\\) is NOT a group.</p>",
+            "<b>C.</b> <p>For every \\(A \\in 2^X\\), the inverse of \\(A\\) is the complement of \\(A\\).</p>",
+            "<b>D.</b> <p>For every \\(A \\in 2^X\\), the inverse of \\(A\\) is \\(A\\).</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(H\\) is a group.</p>",
+            "<b>D.</b> <p>For every \\(A \\in 2^X\\), the inverse of \\(A\\) is \\(A\\).</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399270/gate-cse-2023-question-41#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let S be a set of consisting of 10 elements. The number of tuples of the form (A,B) such that A and B are subsets of S, and \\(A\\subseteq B\\) is _______ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "59049",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357487/gate-cse-2021-set-2-question-50#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the first order predicate formula:<br> \\(\\forall x[\\forall z\\; z|x\\Rightarrow ((z=x)\\vee (z=1))\\Rightarrow\\)  \\(\\exists w(w&gt; x)\\wedge (\\forall z \\; z|w\\Rightarrow ((w=z)\\vee (z=1)))]\\)<br> Here 'a|b' denotes that 'a divides b', where a and b are integers. Consider the following sets:<br><br>\nS1: {1, 2, 3, ..., 100}<br>\nS2: Set of all positive integers<br>\nS3: Set of all integers<br>\nWhich of the above sets satisfy \\(\\varphi\\) ? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S3</p>",
+            "<b>C.</b> <p>S2 and S3</p>",
+            "<b>D.</b> <p>S1,S2 and S3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S2 and S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302813/gate2019-cs-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(U=\\{1,2,,...n\\}\\). Let \\(A=\\{(x,X)|x\\in X,X\\subseteq U\\}\\). Consider the following two statements on |A|. <br><br>I. \\(|A|=n2^{n-1}\\)<br>II. \\(|A|=\\sum_{k=1}^{n}k\\binom{n}{k}\\)<br><br>Which of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302843/gate2019-cs-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let N be the set of natural numbers. Consider the following sets. <br>\nP: Set of Rational numbers (positive and negative) <br>\nQ: Set of functions from {0, 1} to N <br>\nR: Set of functions from N to {0, 1}<br>\nS: Set of finite subsets of N. <br>\nWhich of the sets above are countable? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q and S only</p>",
+            "<b>B.</b> <p>P and S only</p>",
+            "<b>C.</b> <p>P and R only</p>",
+            "<b>D.</b> <p>P, Q and S only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>P, Q and S only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204101/gate2018-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a set U of 23 different compounds in a Chemistry lab. There is a subset S of U of 9 compounds, each of which reacts with exactly 3 compounds of  U. Consider the following statements: <br><br>\nI. Each compound in U \\ S reacts with an odd number of compounds. <br>\nII. At least one compound in U \\ S reacts with an odd number of compounds. <br>\nIII. Each compound in U n S reacts with an even number of compounds. <br><br>\nWhich one of the above statements is ALWAYS TRUE? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Only III</p>",
+            "<b>D.</b> <p>None</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39595/gate2016-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A function \\(f:\\mathbb{N}^{+}\\rightarrow \\mathbb{N}^{+}\\), defined on the set of positive integers \\(\\mathbb{N}^{+}\\), satisfies the following properties:<br>\nf(n)=f(n/2)   if n  is even <br>\nf(n)=f(n+5)   if n is odd <br>\nLet R={\\(i|\\exists j:f(j)=i\\)} be the set of distinct values that f takes. The maximum possible size of R is ____. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39717/gate2016-1-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Suppose U is the power set of the set S={1,2,3,4,5,6}. For any T\\(\\in\\)U, let |T| denote the number of elements in T and T' denote the complement of T. For any T,R\\(\\in\\)U, let T\\R be the set of all elements in T which are not in R. Which one of the following is true? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall X\\in U \\; (|X|=|X'|)\\)</p>",
+            "<b>B.</b> <p>\\(\\exists X\\in U \\; \\exists Y\\in U \\; \\) \\((|X|=5,\\; |Y|=5 \\; and \\;  X \\cap  Y=\\phi )\\)</p>",
+            "<b>C.</b> <p>\\(\\forall X\\in U \\; \\forall Y\\in U \\;\\) \\( (|X|=2,\\; |Y|=3 \\; and \\; X \\setminus  Y=\\phi )\\)</p>",
+            "<b>D.</b> <p>\\(\\forall X \\in U \\; \\forall Y\\in U\\; (X \\setminus  Y=Y' \\setminus  X')\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall X \\in U \\; \\forall Y\\in U\\; (X \\setminus  Y=Y' \\setminus  X')\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8426/gate2015-3-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let X and Y denote the sets containing 2 and 20 distinct objects respectively and F denote the set of all possible functions defined from X to Y. Let f be randomly chosen from F. The probability of f being one-to-one is ________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.95",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8257/gate2015-2-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The number of onto functions (surjective functions) from set x={1,2,3,4} to set Y={a,b,c} is __________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "36",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8212/gate2015-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The cardinality of the power set of { 0, 1, 2,..., 10 } is _________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2048",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8092/gate2015-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For a set A, the power set of A is denoted by \\(2^{A}\\). If A={5,{6},{7}}, which of the following options are TRUE? <br>\nI. \\(\\phi \\in 2^{A}\\) <br>\nII. \\(\\phi \\subseteq 2^{A}\\) <br>\nIII. {5,{6}} \\(\\in 2^{A}\\) <br>\nIV. {5,{6}}\\(\\subseteq 2^{A}\\) <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and III only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I, II and III only</p>",
+            "<b>D.</b> <p>I, II and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I, II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8238/gate2015-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let x and Y be finite sets and f:x\\(\\rightarrow\\)Y be a function. Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For any subsets A and B of x, |f(A\\(\\cup\\)B)|=|f(A)|+|f(B)|</p>",
+            "<b>B.</b> <p>For any subsets A and B of x, f(A\\(\\cap\\)B) =f(A)\\(\\cap\\)f(B)</p>",
+            "<b>C.</b> <p>For any subsets A and B of x, |f(A\\(\\cap\\)B)| = min{|f (A)| ,|f(B)|}</p>",
+            "<b>D.</b> <p>For any subsets S and T of Y, \\(f^{-1}(S\\cap T)=f^{-1}(S)\\cap f^{-1}(T)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>For any subsets S and T of Y, \\(f^{-1}(S\\cap T)=f^{-1}(S)\\cap f^{-1}(T)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2036/gate2014-3-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following relation on subsets of the set S of integers between 1 and 2014. For\ntwo distinct subsets U and V of S we say U\\(\\lt\\)V if the minimum element in the symmetric\ndifference of the two sets is in U. <br>\nConsider the following two statements: <br>\nS1: There is a subset of S that is larger than every other subset. <br>\nS2: There is a subset of S that is smaller than every other subset. <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are true</p>",
+            "<b>B.</b> <p>S1 is true and S2 is false</p>",
+            "<b>C.</b> <p>S2 is true and S1 is false</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both S1 and S2 are true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2016/gate2014-2-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

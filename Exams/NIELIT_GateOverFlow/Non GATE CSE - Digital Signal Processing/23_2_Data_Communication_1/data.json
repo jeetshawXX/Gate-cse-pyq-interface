@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Digital Signal Processing - Data Communication",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373791\"></a><div itemprop=\"text\"><p>In a baseband communication link, frequencies upto \\( 3500 \\; \\text{Hz} \\) are used for signaling. Using a raised cosine pulse with \\( 75 \\% \\) excess bandwidth and for no inter symbol interference, the maximum possible signaling rate is symbols \\( \\text{per sec} \\) is:</p>\n\n</div><br><br><b>Digital Signal Processing: NIELIT 2022 April Scientist B | Section B | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1750 \\)</p>",
+            "<p>\\( 2625 \\)</p>",
+            "<p>\\( 4000 \\)</p>",
+            "<p>\\( 5250 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373791/nielit-2022-april-scientist-b-section-b-question-47\" target=\"_blank\">https://gateoverflow.in/373791/nielit-2022-april-scientist-b-section-b-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

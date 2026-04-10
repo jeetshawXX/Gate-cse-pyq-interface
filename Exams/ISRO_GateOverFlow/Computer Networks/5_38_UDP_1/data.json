@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - UDP",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "UDP",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182084\"></a><div itemprop=\"text\"><p>Generally, TCP is reliable and UDP is not reliable. DNS which has to be reliable uses UDP because</p>\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>UDP is slower.</p>",
+            "<p>DNS servers has to keep connections.</p>",
+            "<p>DNS requests are generally very small and fit well within UDP segments.</p>",
+            "<p>None of these.</p>"
+          ],
+          "correct_answer": "<p>DNS requests are generally very small and fit well within UDP segments.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182084/isro-dec2017-34\" target=\"_blank\">https://gateoverflow.in/182084/isro-dec2017-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

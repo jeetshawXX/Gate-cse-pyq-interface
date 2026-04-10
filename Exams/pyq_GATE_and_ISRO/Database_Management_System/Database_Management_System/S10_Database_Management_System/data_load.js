@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Given the following statements:<br>\nS1: A foreign key declaration can always be replaced by an equivalent check\nassertion in SQL <br>\nS2: Given the table R(a,b,c) where a and b together form the primary key, the following is a\nvalid table definition. <br>\nCREATE TABLE S ( <br>\na INTEGER, <br>\nd INTEGER, <br>\ne INTEGER, <br>\nPRIMARY KEY (d), <br>\nFOREIGN KEY (a) references R) <br>\nWhich one of the following statements is CORRECT? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is TRUE and S2 is a FALSE</p>",
+            "<b>B.</b> <p>Both S1 and S2 are TRUE</p>",
+            "<b>C.</b> <p>S1 is FALSE and S2 is a TRUE</p>",
+            "<b>D.</b> <p>Both S1 and S2 are FALSE</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both S1 and S2 are FALSE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1789/gate2014-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the relation scheme R = (E, F, G, H, I, J, K, L, M, N) and the set of functional\ndependencies <br> {{E,F}\\(\\rightarrow\\){G}, {F}\\(\\rightarrow\\){I,J}, {E,H}\\(\\rightarrow\\){K,L},  {K}\\(\\rightarrow\\){M},\n{L}\\(\\rightarrow\\){N} }  on R. What is the key for R? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{E, F}</p>",
+            "<b>B.</b> <p>{E, F, H}</p>",
+            "<b>C.</b> <p>{E, F, H, K, L}</p>",
+            "<b>D.</b> <p>{E}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{E, F, H}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1788/gate2014-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Embedded pointer provides <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A secondary access path</p>",
+            "<b>B.</b> <p>A physical record key</p>",
+            "<b>C.</b> <p>An inverted index</p>",
+            "<b>D.</b> <p>A primary key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A secondary access path</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44407/isro-2013-61-isro2008-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The physical location of a record determined by a formula that transforms a file key into a record location is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hashed file</p>",
+            "<b>B.</b> <p>B-Tree file</p>",
+            "<b>C.</b> <p>Indexed file</p>",
+            "<b>D.</b> <p>Sequential file</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Hashed file</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43938/isro-2013-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Calculate the order of leaf (\\(P_{leaf}\\)) and non leaf (P) nodes of a \\(B^{+}\\) tree based on the information given below.\n<br><br>\nSearch key field = 12 field\n<br>\nRecord pointer = 10 bytes\n<br>\nBlock pointer = 8 bytes\n<br>\nBlock size = 1KB <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P_{leaf}\\) = 51 &amp; p = 46</p>",
+            "<b>B.</b> <p>\\(P_{leaf}\\) = 47 &amp; p = 52</p>",
+            "<b>C.</b> <p>\\(P_{leaf}\\) = 46 &amp; p = 51</p>",
+            "<b>D.</b> <p>\\(P_{leaf}\\) = 52 &amp; p = 47</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(P_{leaf}\\) = 46 &amp; p = 51</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43933/isro-2013-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following dependencies and the BOOK table in a relational database design. Determine the normal form of the given relation.<br>\nISBN \\(\\rightarrow\\) Title<br>\nISBN \\(\\rightarrow\\) Publisher<br>\nPublisher \\(\\rightarrow\\) Address<br> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Normal Form</p>",
+            "<b>B.</b> <p>Second Normal Form</p>",
+            "<b>C.</b> <p>Third Normal Form</p>",
+            "<b>D.</b> <p>BCNF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Second Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43861/isro-2013-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following relational schema:<br>\nSuppliers (sid:integer, sname:string, saddress:string)<br>\nParts (pid:integer, pname:string, pcolor:string)<br>\nCatalog (sid:integer, pid:integer, pcost:real)<br>\nWhat is the result of the following query?<br><pre><code> (SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sid = Catalog.sid)\nMINUS\n(SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sname &lt;&gt; 'Sachin' and Suppliers.sid = Catalog.sid)</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Pid of parts supplied by all except Sachin</p>",
+            "<b>B.</b> <p>Pid of parts supplied only by Sachin</p>",
+            "<b>C.</b> <p>Pid of parts available in catalog supplied by Sachin</p>",
+            "<b>D.</b> <p>Pid of parts available in catalog supplied by all except Sachin</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Pid of parts supplied only by Sachin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43857/isro-2013-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following is the highest isolation level in transaction management? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Serializable</p>",
+            "<b>B.</b> <p>Repeated Read</p>",
+            "<b>C.</b> <p>Committed Read</p>",
+            "<b>D.</b> <p>Uncommitted Read</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Serializable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43855/isro-2013-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.  <br>  \\(F=\\{CH\\rightarrow G, A\\rightarrow BC,B\\rightarrow CFH,E\\rightarrow A,F\\rightarrow EG\\}\\)  is a set of functional dependencies (FDs) so that \\(F^{+}\\) is\nexactly the set of FDs that hold for R. <br>The relation R is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in 1NF, but not in 2NF.</p>",
+            "<b>B.</b> <p>in 2NF, but not in 3NF.</p>",
+            "<b>C.</b> <p>in 3NF, but not in BCNF.</p>",
+            "<b>D.</b> <p>in BCNF</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>in 1NF, but not in 2NF.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43290/gate2013-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values.  <br>  \\(F=\\{CH\\rightarrow G, A\\rightarrow BC,B\\rightarrow CFH,E\\rightarrow A,F\\rightarrow EG\\}\\)  is a set of functional dependencies (FDs) so that \\(F^{+}\\) is\nexactly the set of FDs that hold for R. <br>How many candidate keys does the relation R have? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1558/gate2013-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following relational schema.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q35_e9b3f125.jpg\"> <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II, III and IV</p>",
+            "<b>B.</b> <p>I, II and III only</p>",
+            "<b>C.</b> <p>I, II and IV only</p>",
+            "<b>D.</b> <p>II, III and IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I, II, III and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1546/gate2013-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>An index is clustered, if <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it is on a set of fields that form a candidate key.</p>",
+            "<b>B.</b> <p>it is on a set of fields that include the primary key</p>",
+            "<b>C.</b> <p>the data records of the file are organized in the same order as the data entries of the index.</p>",
+            "<b>D.</b> <p>the data records of the file are organized not in the same order as the data entries of the index.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the data records of the file are organized in the same order as the data entries of the index.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1437/gate2013-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following relations A, B and C:   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q50_b1b0feea.jpg\"> <br>How many tuples does the result of the following SQL query contain?<pre><code> SELECT A.Id\nFROM A\nWHERE A.Age &gt; ALL (SELECT B.Age\nFROM B\nWHERE B.Name = 'Arun') </code></pre> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43313/gate2012-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following relations A, B and C:   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q50_b1b0feea.jpg\"> <br>How many tuples does the result of the following relational algebra expression contain? Assume\nthat the schema of A\\(\\cup\\)B is the same as that of A. <br>\\((A\\cup B)\\bowtie _{A.Id \\gt 40 \\vee C.Id \\lt 15}C\\) <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>7</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2180/gate2012-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose R1(A, B) and R2(C, D) are two relation schemas. Let r1 and r2 be the corresponding\nrelation instances. B is a foreign key that refers to C in R2. If data in r1 and r2 satisfy referential\nintegrity constraints, which of the following is ALWAYS TRUE? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) =\\phi\\)</p>",
+            "<b>B.</b> <p>\\(\\Pi_{C}(r_{1})- \\Pi_{B}(r_{2}) =\\phi\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi_{B}(r_{1})= \\Pi_{C}(r_{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) \\neq \\phi\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Pi_{B}(r_{1})- \\Pi_{C}(r_{2}) =\\phi\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2151/gate2012-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

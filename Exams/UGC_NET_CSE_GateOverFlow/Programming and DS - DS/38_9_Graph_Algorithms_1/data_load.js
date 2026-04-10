@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - DS - Graph Algorithms",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225862\"></a><div itemprop=\"text\"><p>Which of the following algorithms solves the single-source shortest paths?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | July 2018 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Prim's algorithm</p>",
+            "<p>Floys-Warshall&nbsp;algorithm</p>",
+            "<p>Johnson's&nbsp;algorithm</p>",
+            "<p>Dijkstra's&nbsp;algorithm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225862/ugc-net-cse-july-2018-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/225862/ugc-net-cse-july-2018-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

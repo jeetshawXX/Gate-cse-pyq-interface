@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Parallel Computing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Parallel Computing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"44498\"></a><div itemprop=\"text\"><p>Suppose that the given application is run on a 64-processor machine and that 70 percent of the application can be parallelized. Then the expected performance improvement using Amdahl’s law is</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2012 | Part 3 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>4.22</p>",
+            "<p>3.22</p>",
+            "<p>3.32</p>",
+            "<p>3.52</p>"
+          ],
+          "correct_answer": "<p>3.22</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44498/ugc-net-cse-june-2012-part-3-question-5\" target=\"_blank\">https://gateoverflow.in/44498/ugc-net-cse-june-2012-part-3-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

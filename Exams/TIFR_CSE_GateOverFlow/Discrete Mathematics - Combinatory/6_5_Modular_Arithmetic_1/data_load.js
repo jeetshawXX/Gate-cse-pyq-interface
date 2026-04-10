@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Modular Arithmetic",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Modular Arithmetic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"26392\"></a><div itemprop=\"text\"><p>Let \\( m \\) and \\( n \\) be any two positive integers. Then, which of the following is FALSE?</p>\n\n</div><br><br><b>Combinatory: TIFR CSE 2014 | Part A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m + 1 \\) divides \\( m^{2n}&nbsp;− 1 \\).</p>",
+            "<p>For any prime \\( p \\), \\( m^{p} \\equiv&nbsp;&nbsp;m&nbsp;(\\mod p) \\).</p>",
+            "<p>If one of \\( m \\), \\( n \\) is prime, then there are integers \\( x, y \\) such that \\( mx + ny = 1 \\).</p>",
+            "<p>If \\( m &lt; n \\), then \\( m! \\) divides \\( n(n − 1)(n − 2) \\ldots&nbsp;(n − m + 1) \\).</p>",
+            "<p>If \\( 2^{n}&nbsp;− 1 \\) is prime, then \\( n \\) is prime.</p>"
+          ],
+          "correct_answer": "<p>If one of \\( m \\), \\( n \\) is prime, then there are integers \\( x, y \\) such that \\( mx + ny = 1 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/26392/tifr-cse-2014-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/26392/tifr-cse-2014-part-a-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

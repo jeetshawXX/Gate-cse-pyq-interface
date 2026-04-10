@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Binary Symmetric Channel",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Symmetric Channel",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58827\"></a><div itemprop=\"text\">\n<p>Binary symmetric channel uses</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Half duplex protocol</p>",
+            "<p>Full duplex protocol</p>",
+            "<p>Bit oriented protocol</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Half duplex protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58827/ugc-net-cse-june-2013-part-3-question-53\" target=\"_blank\">https://gateoverflow.in/58827/ugc-net-cse-june-2013-part-3-question-53</a></p>"
+        }
+      ]
+    }
+  ]
+}

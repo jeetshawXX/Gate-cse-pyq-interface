@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Virtual Memory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Virtual Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65612\"></a><div itemprop=\"text\"><p>Virtual memory is</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2011 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Related to virtual reality</p>",
+            "<p>A form of ROM</p>",
+            "<p>A form of RAM</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65612/ugc-net-cse-june-2011-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/65612/ugc-net-cse-june-2011-part-2-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

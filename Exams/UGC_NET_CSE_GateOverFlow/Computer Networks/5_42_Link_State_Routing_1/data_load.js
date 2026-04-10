@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Link State Routing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Link State Routing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335133\"></a><div itemprop=\"text\"><p>In link state routing algorithm after construction of link state packets, new routes are computed using :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | January 2017 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>DES&nbsp;algorithm</p>",
+            "<p>Dijkstra's algorithm</p>",
+            "<p>RSA&nbsp;algorithm</p>",
+            "<p>Packets</p>"
+          ],
+          "correct_answer": "<p>Dijkstra's algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335133/ugc-net-cse-january-2017-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/335133/ugc-net-cse-january-2017-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Cycle",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cycle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336290\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a complete undirected graph on \\( 8 \\) vertices. If vertices of \\( G \\) are labelled, then the number of distinct cycles of length \\( 5 \\) in \\( G \\) is equal to:</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 56 \\)</p>",
+            "<p>\\( 60 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 56 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336290/nielit-2017-dec-scientist-b-section-b-23\" target=\"_blank\">https://gateoverflow.in/336290/nielit-2017-dec-scientist-b-section-b-23</a></p>"
+        }
+      ]
+    }
+  ]
+}

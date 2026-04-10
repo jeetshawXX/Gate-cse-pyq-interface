@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Parameter Passing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Parameter Passing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373762\"></a><div itemprop=\"text\"><p>What is printed by the print statements in the program \\( \\text{P1} \\) assuming call by reference parameter passing ?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program P1()\n{\n    x = 10;\n    y = 3; \n    func1(y, x, x);\n    print x;\n    print y;\n}\nfunc1(x, y, z)\n{\n    y = y+4;\n    z = x+ y+ z;\n}</pre>\n\n</div><br><br><b>Programming and DS: NIELIT 2022 April Scientist B | Section B | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10, 3 \\)</p>",
+            "<p>\\( 31, 3 \\)</p>",
+            "<p>\\( 27, 7 \\)</p>",
+            "<p>\\( 33, 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 31, 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373762/nielit-2022-april-scientist-b-section-b-question-76\" target=\"_blank\">https://gateoverflow.in/373762/nielit-2022-april-scientist-b-section-b-question-76</a></p>"
+        }
+      ]
+    }
+  ]
+});

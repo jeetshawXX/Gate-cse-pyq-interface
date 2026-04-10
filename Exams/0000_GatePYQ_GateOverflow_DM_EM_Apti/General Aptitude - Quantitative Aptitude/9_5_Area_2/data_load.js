@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Area",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Area",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460094\"></a><div itemprop=\"text\"><p>In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the triangle PST to the area of the trapezium SQRT?</p><div><p>Note: The figure shown is representative.</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"407\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___area/504a1a673743b0d2c294c7f933865705.png\"></p></div></div><br><br><b>GATE CSE 2025 | Set 1 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{3} \\)</p>",
+            "<p>\\( \\dfrac{1}{4} \\)</p>",
+            "<p>\\( \\dfrac{2}{5} \\)</p>",
+            "<p>\\( \\dfrac{1}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{1}{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7\" target=\"_blank\">https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411904\"></a><div itemprop=\"text\"><p>In the given figure, \\( \\text{PQRSTV} \\) is a regular hexagon with each side of length \\( 5\\mathrm{~cm}. \\)&nbsp;A&nbsp;circle is drawn with its centre at \\(  \\mathrm{V} \\)&nbsp;such that it passes through \\( \\mathrm{P}. \\) What is the area \\( &nbsp;\\text{( in cm}^{2}) \\) of the shaded region? (The diagram is representative)&nbsp;</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___area/dd411d4f10a7e380700dbdd87def227c.png\" width=\"300\"></p>\n\n</div><br><br><b>GATE Civil 2023 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{25 \\pi}{3} \\)&nbsp;</p>",
+            "<p>\\( \\frac{20 \\pi}{3} \\)&nbsp;</p>",
+            "<p>\\( 6 \\pi \\)&nbsp;</p>",
+            "<p>\\( 7\\pi \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{25 \\pi}{3} \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411904/gate-civil-2023-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411904/gate-civil-2023-set-1-ga-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

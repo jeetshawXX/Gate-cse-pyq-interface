@@ -1,0 +1,41 @@
+{
+  "title": "Data Structures - Priority Queue",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Priority Queue",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2248\"></a><div itemprop=\"text\"><p>A priority queue \\( Q \\)&nbsp;is used to implement a stack that stores characters. PUSH (C) is implemented as INSERT \\( (Q, C, K) \\) where \\( K \\) is an appropriate integer key chosen by the implementation. POP is implemented as DELETEMIN\\( (Q) \\). For a sequence of operations, the keys chosen are in</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 4.7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>non-increasing order</p>",
+            "<p>non-decreasing order</p>",
+            "<p>strictly increasing order</p>",
+            "<p>strictly decreasing order</p>"
+          ],
+          "correct_answer": "<p>strictly decreasing order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2248/gate-cse-1997-question-4-7\" target=\"_blank\">https://gateoverflow.in/2248/gate-cse-1997-question-4-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"399275\"></a><div itemprop=\"text\"><p>Let \\( A \\) be a priority queue for maintaining a set of elements. Suppose \\( A \\) is implemented using a max-heap data structure. The operation \\( \\text{EXTRACT-MAX} (A) \\) extracts and deletes the maximum element from \\( A \\). The operation \\( \\operatorname{INSERT}(A, key ) \\) inserts a new element \\( key \\) in \\( A \\). The properties of a max-heap are preserved at the end of each of these operations.<br>\n<br>\nWhen \\( A \\) contains \\( n \\) elements, which one of the following statements about the worst case running time of these two operations is \\( \\text{TRUE}? \\)</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{EXTRACT-MAX} (A) \\) and \\( \\operatorname{INSERT}(A, k e y) \\) run in \\( O(1) \\).</p>",
+            "<p>Both \\( \\text{EXTRACT-MAX} (A) \\) and \\( \\operatorname{INSERT}(A, k e y) \\) run in \\( O(\\log (n)) \\).</p>",
+            "<p>\\( \\text{EXTRACT-MAX} (A) \\)&nbsp;runs in \\( O(1) \\) whereas \\( \\operatorname{INSERT}(A, k e y) \\) runs in \\( O(n) \\).</p>",
+            "<p>\\( \\text{EXTRACT-MAX} (A) \\) runs in \\( O(1) \\) whereas \\( \\operatorname{INSERT}(A, k e y) \\) runs in \\( O(\\log (n)) \\).</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{EXTRACT-MAX} (A) \\) and \\( \\operatorname{INSERT}(A, k e y) \\) run in \\( O(\\log (n)) \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399275/gate-cse-2023-question-36\" target=\"_blank\">https://gateoverflow.in/399275/gate-cse-2023-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

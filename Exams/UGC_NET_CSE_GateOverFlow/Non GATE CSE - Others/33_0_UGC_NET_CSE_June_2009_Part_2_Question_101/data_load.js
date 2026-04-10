@@ -1,0 +1,1516 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - UGC NET CSE  June 2009  Part 2  Question",
+  "duration": 280,
+  "sections": [
+    {
+      "name": "UGC NET CSE  June 2009  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"154487\"></a><div itemprop=\"text\"><p>Which of the following changes permission to deny write permission to group and others ?</p>\n\n<ol>\n\t<li>Chmod go-w filex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</li>\n\t<li>Chmod go w filex&nbsp; &nbsp;&nbsp;</li>\n\t<li>Chmod go=w filex&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</li>\n\t<li>None of the above</li>\n</ol></div><br><br><b>Operating System: UGC NET CSE | June 2009 | Part 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154487/ugc-net-cse-june-2009-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/154487/ugc-net-cse-june-2009-part-2-question-37</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335578\"></a><div itemprop=\"text\"><p>The term hacker&nbsp;was originally associated with :</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2004 | Part 2 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A computer program</p>",
+            "<p>Virus</p>",
+            "<p>Computer professionals who solved complex computer problems</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335578/ugc-net-cse-december-2004-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/335578/ugc-net-cse-december-2004-part-2-question-50</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335582\"></a><div itemprop=\"text\"><p>Data Mining can be used as _________ Tool.</p>\n\n</div><br><br><b>Data Mining and Warehousing: UGC NET CSE | December 2004 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Software</p>",
+            "<p>Hardware</p>",
+            "<p>Research</p>",
+            "<p>Process</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335582/ugc-net-cse-december-2004-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/335582/ugc-net-cse-december-2004-part-2-question-46</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335621\"></a><div itemprop=\"text\"><p>The maximum size of SMS in \\( IS-95 \\) is ______ octets.</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2006 | Part 2 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 95 \\)</p>",
+            "<p>\\( 128 \\)</p>",
+            "<p>\\( 64 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335621/ugc-net-cse-december-2006-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/335621/ugc-net-cse-december-2006-part-2-question-50</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"335622\"></a><div itemprop=\"text\"><p>Link analysis operation in data mining uses ___________ technique.</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Data Mining and Warehousing: UGC NET CSE | December 2006 | Part 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Classification.</p>",
+            "<p>Association discovery.</p>",
+            "<p>Visualisation.</p>",
+            "<p>Neural clustering.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335622/ugc-net-cse-december-2006-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/335622/ugc-net-cse-december-2006-part-2-question-49</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"335734\"></a><div itemprop=\"text\"><p>Identify the incorrect statement :</p></div><br><br><b>Others: UGC NET CSE | December 2007 | Part 2 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ATM provides both real time and non-real time service</p>",
+            "<p>ATM provides faster packet switching than \\( X.25 \\)</p>",
+            "<p>ATM was developed as part of the work on broadband ISDN</p>",
+            "<p>ATM does not have application in Non-ISDN environments where very high data rates are required</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335734/ugc-net-cse-december-2007-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/335734/ugc-net-cse-december-2007-part-2-question-50</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"335735\"></a><div itemprop=\"text\"><p>Identify the incorrect statement :</p></div><br><br><b>Others: UGC NET CSE | December 2007 | Part 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The internet has evolved into phenomenally successful e-commerce engine</p>",
+            "<p>e-business is synonymous with e-commerce</p>",
+            "<p>The e-commerce model \\( B2C \\) did not begin with billboardware</p>",
+            "<p>The e-commerce model \\( G2C \\) began with billboardware</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335735/ugc-net-cse-december-2007-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/335735/ugc-net-cse-december-2007-part-2-question-49</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"386053\"></a><div itemprop=\"text\"><p>Based on the following passage, answer the Questions :</p>\n\n<p>A \\( 3000 \\mathrm{~km} \\) long trunk operates at \\( 1.536 \\mathrm{mbps} \\) and is used to transmit 64 bytes frames and uses sliding window protocol. The propagation speed is \\( 6 \\mu \\mathrm{sec} / \\mathrm{km} \\).</p>\n\n<p>The sender window size to get the maximum efficiency is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 104</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 108 \\)</p>",
+            "<p>\\( 109 \\)</p>",
+            "<p>\\( 55 \\)</p>",
+            "<p>\\( 56 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386053/ugc-net-cse-october-2022-part-1-question-104\" target=\"_blank\">https://gateoverflow.in/386053/ugc-net-cse-october-2022-part-1-question-104</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"386054\"></a><div itemprop=\"text\"><p>Based on the following passage, answer the Questions :</p>\n\n<p>A \\( 3000 \\mathrm{~km} \\) long trunk operates at \\( 1.536 \\mathrm{mbps} \\) and is used to transmit 64 bytes frames and uses sliding window protocol. The propagation speed is \\( 6 \\mu \\mathrm{sec} / \\mathrm{km} \\).<br>\nThe transmission and propagation delays are respectively</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 103</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\mathrm{T}_{\\mathrm{t}}=333.33 \\mu \\mathrm{sec}, \\mathrm{T}_{\\mathrm{p}}=18000 \\mu \\mathrm{sec} \\)</p>",
+            "<p>\\( T_{t}=300 \\mu \\mathrm{sec}, T_{p}=15360 \\mu \\mathrm{sec} \\)</p>",
+            "<p>\\( \\mathrm{T}_{\\mathrm{t}}=33.33 \\mu \\mathrm{sec}, \\mathrm{T}_{\\mathrm{p}}=1800 \\mu \\mathrm{sec} \\)</p>",
+            "<p>\\( T_{\\mathrm{t}}=1800 \\mu \\mathrm{sec}, T_{\\mathrm{P}}=33.33 \\mu \\mathrm{sec} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386054/ugc-net-cse-october-2022-part-1-question-103\" target=\"_blank\">https://gateoverflow.in/386054/ugc-net-cse-october-2022-part-1-question-103</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"386055\"></a><div itemprop=\"text\"><p>Based on the following passage, answer the Questions :</p>\n\n<p>A \\( 3000 \\mathrm{~km} \\) long trunk operates at \\( 1.536 \\mathrm{mbps} \\) and is used to transmit 64 bytes frames and uses sliding window protocol. The propagation speed is \\( 6 \\mu \\mathrm{sec} / \\mathrm{km} \\).</p>\n\n<p>The maximum achievable throughput is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 102</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 .768 \\)</p>",
+            "<p>\\( 0.678 \\)</p>",
+            "<p>\\( 0.901 \\)</p>",
+            "<p>\\( 0.887 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386055/ugc-net-cse-october-2022-part-1-question-102\" target=\"_blank\">https://gateoverflow.in/386055/ugc-net-cse-october-2022-part-1-question-102</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"386056\"></a><div itemprop=\"text\"><p>Based on the following passage, answer the Questions:</p>\n\n<p>A \\( 3000 \\mathrm{~km} \\) long trunk operates at \\( 1.536 \\mathrm{mbps} \\) and is used to transmit 64 bytes frames and uses sliding window protocol. The propagation speed is \\( 6 \\mu \\mathrm{sec} / \\mathrm{km} \\).<br>\nIf only 6 bits are reserved for sequence number field, then the efficiency of the system is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 101</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0.587 \\)</p>",
+            "<p>\\( 0.875 \\)</p>",
+            "<p>\\( 0.578 \\)</p>",
+            "<p>\\( 0.50 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386056/ugc-net-cse-october-2022-part-1-question-101\" target=\"_blank\">https://gateoverflow.in/386056/ugc-net-cse-october-2022-part-1-question-101</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"386057\"></a><div itemprop=\"text\"><p>Based on the following passage, answer the Questions :</p>\n\n<p>A \\( 3000 \\mathrm{~km} \\) long trunk operates at \\( 1.536 \\mathrm{mbps} \\) and is used to transmit 64 bytes frames and uses sliding window protocol. The propagation speed is \\( 6 \\mu \\mathrm{sec} / \\mathrm{km} \\).<br>\nThe minimum number of bits required in the sequence number field of the packet is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 100</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6 \\) bits</p>",
+            "<p>\\( 7 \\) bits</p>",
+            "<p>\\( 5 \\) bits</p>",
+            "<p>\\( 4 \\) bits</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386057/ugc-net-cse-october-2022-part-1-question-100\" target=\"_blank\">https://gateoverflow.in/386057/ugc-net-cse-october-2022-part-1-question-100</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"386058\"></a><div itemprop=\"text\"><p>Read the following and Answer the questions:</p>\n\n<p>Consider&nbsp;the relational schema of sailors&nbsp;\\( \\text{S} \\),&nbsp;Reserves&nbsp;\\( \\text{B} \\) and Boats \\( \\text{B} \\).</p>\n\n<p><strong>Table \\( 1 \\): Sailors \\( \\text{S} \\)</strong><br>\n\\begin{array}{|l|l|l|}<br>\n\\hline Sid &amp; Sname &amp; Ratting &amp; Age \\\\<br>\n\\hline 22 &amp; Dustin &amp; 7 &amp; 45.0&nbsp;\\\\<br>\n29 &amp; Brutus &amp; 1 &amp; 33.0&nbsp;\\\\<br>\n31 &amp; Lubber &amp; 8 &amp; 55.5&nbsp;\\\\<br>\n32 &amp; Andy &amp; 8 &amp; 25.5&nbsp;\\\\<br>\n58 &amp; Rusty &amp; 10 &amp; 35.0&nbsp;\\\\<br>\n64 &amp; Horatio &amp; 7 &amp; 35.0&nbsp;\\\\<br>\n71 &amp; Zorba &amp; 10 &amp; 16.0&nbsp;\\\\<br>\n74 &amp; Horatio &amp; 9 &amp; 35.0&nbsp;\\\\<br>\n85 &amp; Art &amp; 3 &amp; 25.5&nbsp;\\\\<br>\n95 &amp; Bob &amp; 3 &amp; 63.5&nbsp;\\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table&nbsp;\\( 2 \\): Reserves&nbsp;\\( \\text{R} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline sid &amp; Bid &amp; day \\\\<br>\n\\hline 22 &amp; 101 &amp; 10 / 1098&nbsp;\\\\<br>\n22 &amp; 108 &amp; 101098 \\\\<br>\n22 &amp; 108 &amp; 101898 \\\\<br>\n22 &amp; 104 &amp; 10 / 798&nbsp;\\\\<br>\n31 &amp; 108 &amp; 11 / 1098&nbsp;\\\\<br>\n31 &amp; 103 &amp; 11 / 699&nbsp;\\\\<br>\n31 &amp; 104 &amp; 11 / 298&nbsp;\\\\<br>\n64 &amp; 101 &amp; 9558 \\\\<br>\n64 &amp; 102 &amp; 28858 \\\\<br>\n74 &amp; 103 &amp; 98958 \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table \\( 3 \\): Boats \\( \\text{B} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline Bid &amp; Bname &amp; Color&nbsp;\\\\<br>\n\\hline 101 &amp; Interlake &amp; blue \\\\<br>\n102 &amp; Interlake &amp; red \\\\<br>\n103 &amp; Clipper&nbsp;&amp; green \\\\<br>\n104 &amp; Marine &amp; red \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p>Which of the following relational algebra query computes the names of sailor who have reserved all boats?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 99</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\rho \\) (Tempsids, ( \\( \\pi \\) bid Reserves) / \\( \\pi \\) bid Boats) \\( \\pi \\) sname&nbsp;((Tempsids) \\( \\bowtie \\) Sailors)</p>",
+            "<p>\\( \\rho \\) (Tempsids, ( \\( \\pi \\) sid, bid Reserves) / \\( \\pi \\) bid Boats) \\( \\pi \\) sname&nbsp;((Tempsids) \\( \\bowtie \\) Sailors)</p>",
+            "<p>\\( \\rho \\) (Tempsids. ( \\( \\pi \\) sid Sailors) / \\( \\pi \\) bid Boats) \\( \\pi{\\text {sname}} \\) ((Tempsids) &nbsp;Sailors)</p>",
+            "<p>\\( \\rho \\) (Tempsids, ( \\( \\pi \\) sid Reserves) \\( / \\pi \\) bid Boats) \\( \\pi \\) sname ((Tempsids) \\( \\bowtie \\) Boats)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386058/ugc-net-cse-october-2022-part-1-question-99\" target=\"_blank\">https://gateoverflow.in/386058/ugc-net-cse-october-2022-part-1-question-99</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"386059\"></a><div itemprop=\"text\"><p>Read the following and Answer the Questions:<br>\nConsider&nbsp;the relational schema of sailors&nbsp;\\( \\text{S} \\). Reserves \\( \\mathrm{R} \\) and Boots \\( \\text{B} \\).</p>\n\n<p><strong>Table \\( 1 \\): Sailors \\( \\text{S} \\)</strong><br>\n\\begin{array}{|l|l|l|}<br>\n\\hline Sid &amp; Sname &amp; Ratting &amp; Age \\\\<br>\n\\hline 22 &amp; Dustin &amp; 7 &amp; 45.0&nbsp;\\\\<br>\n29 &amp; Brutus &amp; 1 &amp; 33.0&nbsp;\\\\<br>\n31 &amp; Lubber &amp; 8 &amp; 55.5&nbsp;\\\\<br>\n32 &amp; Andy &amp; 8 &amp; 25.5&nbsp;\\\\<br>\n58 &amp; Rusty &amp; 10 &amp; 35.0&nbsp;\\\\<br>\n64 &amp; Horatio &amp; 7 &amp; 35.0&nbsp;\\\\<br>\n71 &amp; Zorba &amp; 10 &amp; 16.0&nbsp;\\\\<br>\n74 &amp; Horatio &amp; 9 &amp; 35.0&nbsp;\\\\<br>\n85 &amp; Art &amp; 3 &amp; 25.5&nbsp;\\\\<br>\n95 &amp; Bob &amp; 3 &amp; 63.5&nbsp;\\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table&nbsp;\\( 2 \\): Reserves&nbsp;\\( \\text{R} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline sid &amp; Bid &amp; day \\\\<br>\n\\hline 22 &amp; 101 &amp; 10 / 1098&nbsp;\\\\<br>\n22 &amp; 108 &amp; 101098 \\\\<br>\n22 &amp; 108 &amp; 101898 \\\\<br>\n22 &amp; 104 &amp; 10 / 798&nbsp;\\\\<br>\n31 &amp; 108 &amp; 11 / 1098&nbsp;\\\\<br>\n31 &amp; 103 &amp; 11 / 699&nbsp;\\\\<br>\n31 &amp; 104 &amp; 11 / 298&nbsp;\\\\<br>\n64 &amp; 101 &amp; 9558 \\\\<br>\n64 &amp; 102 &amp; 28858 \\\\<br>\n74 &amp; 103 &amp; 98958 \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table \\( 3 \\): Boats \\( \\text{B} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline Bid &amp; Bname &amp; Color&nbsp;\\\\<br>\n\\hline 101 &amp; Interlake &amp; blue \\\\<br>\n102 &amp; Interlake &amp; red \\\\<br>\n103 &amp; Clipper&nbsp;&amp; green \\\\<br>\n104 &amp; Marine &amp; red \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p>Which of the following relational algebra query/queries computes/compute the sid’s&nbsp;of sailors with age over \\( 20 \\)&nbsp;who have not reserved red boat?</p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 98</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\pi \\) sid&nbsp;\\( \\left(\\delta_{\\text {age }}&gt;20\\right. \\) Sailors \\( )-\\pi \\) sid \\( ((\\delta \\) \\( _{color} \\) \\( = \\) \\( _{red} \\) Boats \\( ) \\bowtie \\) Reserves \\( \\bowtie \\) Sailors \\( ) \\)</p>",
+            "<p>\\( \\pi \\) sid \\( \\left(\\left(\\delta_{\\text {color } \\neq}\\right.\\right. \\) red \\( \\wedge \\) age \\( &gt;20 \\) (Boats \\( \\bowtie \\) Sailors \\( \\bowtie \\) Reserves \\( \\left.\\left.)\\right)\\right) \\)</p>",
+            "<p>\\( \\pi \\) sid ( \\( \\delta \\) \\( _{age} \\) &lt; \\( 20 \\) Sailors \\( )-\\pi \\) sid \\( ((\\delta \\) \\( _{color} \\) \\( = \\) \\( _{red} \\) Boats \\( ) \\bowtie \\) Reserves \\( \\bowtie \\) Sailors \\( ) \\)</p>",
+            "<p>\\( \\pi \\) sid \\( (\\delta \\) \\( _{age} \\) \\( &gt;20 \\) Sailors \\( ) \\wedge \\pi \\) sid \\( ((\\delta \\) \\( _{color} \\) \\( = \\) \\( _{red} \\) Boats \\( ) \\bowtie \\) Reserves \\( \\bowtie \\) Sailors \\( ) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386059/ugc-net-cse-october-2022-part-1-question-98\" target=\"_blank\">https://gateoverflow.in/386059/ugc-net-cse-october-2022-part-1-question-98</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"386060\"></a><div itemprop=\"text\"><p>Read the following and Answer the Questions:<br>\nConsider&nbsp;the relational schema of sailors&nbsp;\\( \\text{S} \\). Reserves \\( \\mathrm{R} \\) and Boots \\( \\text{B} \\).</p>\n\n<p><strong>Table \\( 1 \\): Sailors \\( \\text{S} \\)</strong><br>\n\\begin{array}{|l|l|l|}<br>\n\\hline Sid &amp; Sname &amp; Ratting &amp; Age \\\\<br>\n\\hline 22 &amp; Dustin &amp; 7 &amp; 45.0&nbsp;\\\\<br>\n29 &amp; Brutus &amp; 1 &amp; 33.0&nbsp;\\\\<br>\n31 &amp; Lubber &amp; 8 &amp; 55.5&nbsp;\\\\<br>\n32 &amp; Andy &amp; 8 &amp; 25.5&nbsp;\\\\<br>\n58 &amp; Rusty &amp; 10 &amp; 35.0&nbsp;\\\\<br>\n64 &amp; Horatio &amp; 7 &amp; 35.0&nbsp;\\\\<br>\n71 &amp; Zorba &amp; 10 &amp; 16.0&nbsp;\\\\<br>\n74 &amp; Horatio &amp; 9 &amp; 35.0&nbsp;\\\\<br>\n85 &amp; Art &amp; 3 &amp; 25.5&nbsp;\\\\<br>\n95 &amp; Bob &amp; 3 &amp; 63.5&nbsp;\\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table&nbsp;\\( 2 \\): Reserves&nbsp;\\( \\text{R} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline sid &amp; Bid &amp; day \\\\<br>\n\\hline 22 &amp; 101 &amp; 10 / 1098&nbsp;\\\\<br>\n22 &amp; 108 &amp; 101098 \\\\<br>\n22 &amp; 108 &amp; 101898 \\\\<br>\n22 &amp; 104 &amp; 10 / 798&nbsp;\\\\<br>\n31 &amp; 108 &amp; 11 / 1098&nbsp;\\\\<br>\n31 &amp; 103 &amp; 11 / 699&nbsp;\\\\<br>\n31 &amp; 104 &amp; 11 / 298&nbsp;\\\\<br>\n64 &amp; 101 &amp; 9558 \\\\<br>\n64 &amp; 102 &amp; 28858 \\\\<br>\n74 &amp; 103 &amp; 98958 \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table \\( 3 \\): Boats \\( \\text{B} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline Bid &amp; Bname &amp; Color&nbsp;\\\\<br>\n\\hline 101 &amp; Interlake &amp; blue \\\\<br>\n102 &amp; Interlake &amp; red \\\\<br>\n103 &amp; Clipper&nbsp;&amp; green \\\\<br>\n104 &amp; Marine &amp; red \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p>Which of the following relational algebra query/queries computes/compute the name of sailors who have reserved red boat?</p>\n\n<p>\\( \\text{Q1} \\) \\( \\pi \\) sname (( $\\delta\\[ _{color}\\( &nbsp;=  \\)_{red}\\(  Boats)  \\)\\bowtie\\(  Reserves&nbsp; \\)\\bowtie\\(  Sailors)</p>\n\n<p> \\)\\text{Q2}\\(   \\)\\pi\\(  sname&nbsp;( \\)\\pi\\( &nbsp; \\)_{ bid}\\( &nbsp;((  \\)\\pi\\( &nbsp; \\)_{ bid}\\(   \\)\\delta \\]_{color}\\( &nbsp;=  \\)_{red} Boats\\( )  \\)\\bowtie\\(  Reserves)  \\)\\bowtie\\(  Sailors)</p>\n\n<p> \\)\\text{Q3}\\(   \\)\\pi\\(  sname &nbsp;((  \\)\\delta$$_{ color}\\( &nbsp;=  \\)_{red}\\(  Reserves) Boats&nbsp; \\)\\bowtie\\(  Sailors)</p>\n\n<ol>\n\t<li>Both  \\)\\text{Q1}\\( &nbsp;and&nbsp; \\)\\text{Q3}\\( </li>\n\t<li>Both  \\)\\text{Q2}\\( &nbsp;and&nbsp; \\)\\text{Q3}\\( </li>\n\t<li>Only&nbsp; \\)\\text{Q1}\\( </li>\n\t<li>Only&nbsp; \\)\\text{Q2}$</li>\n</ol>\n\n<p><br>\n&nbsp;</p></div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 97</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386060/ugc-net-cse-october-2022-part-1-question-97\" target=\"_blank\">https://gateoverflow.in/386060/ugc-net-cse-october-2022-part-1-question-97</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"386061\"></a><div itemprop=\"text\"><p>Read the following and Answer the Questions:<br>\nConsider&nbsp;the relational schema of sailors&nbsp;\\( \\text{S} \\). Reserves \\( \\mathrm{R} \\) and Boots \\( \\text{B} \\).</p>\n\n<p><strong>Table \\( 1 \\): Sailors \\( \\text{S} \\)</strong><br>\n\\begin{array}{|l|l|l|}<br>\n\\hline Sid &amp; Sname &amp; Ratting &amp; Age \\\\<br>\n\\hline 22 &amp; Dustin &amp; 7 &amp; 45.0&nbsp;\\\\<br>\n29 &amp; Brutus &amp; 1 &amp; 33.0&nbsp;\\\\<br>\n31 &amp; Lubber &amp; 8 &amp; 55.5&nbsp;\\\\<br>\n32 &amp; Andy &amp; 8 &amp; 25.5&nbsp;\\\\<br>\n58 &amp; Rusty &amp; 10 &amp; 35.0&nbsp;\\\\<br>\n64 &amp; Horatio &amp; 7 &amp; 35.0&nbsp;\\\\<br>\n71 &amp; Zorba &amp; 10 &amp; 16.0&nbsp;\\\\<br>\n74 &amp; Horatio &amp; 9 &amp; 35.0&nbsp;\\\\<br>\n85 &amp; Art &amp; 3 &amp; 25.5&nbsp;\\\\<br>\n95 &amp; Bob &amp; 3 &amp; 63.5&nbsp;\\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table&nbsp;\\( 2 \\): Reserves&nbsp;\\( \\text{R} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline sid &amp; Bid &amp; day \\\\<br>\n\\hline 22 &amp; 101 &amp; 10 / 1098&nbsp;\\\\<br>\n22 &amp; 108 &amp; 101098 \\\\<br>\n22 &amp; 108 &amp; 101898 \\\\<br>\n22 &amp; 104 &amp; 10 / 798&nbsp;\\\\<br>\n31 &amp; 108 &amp; 11 / 1098&nbsp;\\\\<br>\n31 &amp; 103 &amp; 11 / 699&nbsp;\\\\<br>\n31 &amp; 104 &amp; 11 / 298&nbsp;\\\\<br>\n64 &amp; 101 &amp; 9558 \\\\<br>\n64 &amp; 102 &amp; 28858 \\\\<br>\n74 &amp; 103 &amp; 98958 \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table \\( 3 \\): Boats \\( \\text{B} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline Bid &amp; Bname &amp; Color&nbsp;\\\\<br>\n\\hline 101 &amp; Interlake &amp; blue \\\\<br>\n102 &amp; Interlake &amp; red \\\\<br>\n103 &amp; Clipper&nbsp;&amp; green \\\\<br>\n104 &amp; Marine &amp; red \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p>Which of the following relational algebra query/queries computes/compute the name of sailors who have reserved boat \\( 103 \\)?</p>\n\n<p>\\( \\text{Q1} \\) \\( \\pi \\) sname (( $\\delta\\[ _{ bid}\\( &nbsp;=  \\)_{103}\\(  Boats)  \\)\\bowtie\\(  Sailors)</p>\n\n<p> \\)\\text{Q2}\\(   \\)\\pi\\(  sname = (  \\)\\delta \\]_{ bid}\\( &nbsp;=  \\)_{103}\\( (Reserves  \\)\\bowtie\\(  Sailors))</p>\n\n<p> \\)\\text{Q3}\\(   \\)\\pi\\(  sname = ((  \\)\\delta$$_{ bid}\\( &nbsp;=  \\)_{103}\\(  Reserves)  \\)\\bowtie$ Sailors)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 96</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( \\text{Q1} \\)&nbsp;and&nbsp;\\( \\text{Q3} \\)</p>",
+            "<p>Both \\( \\text{Q2} \\)&nbsp;and&nbsp;\\( \\text{Q3} \\)</p>",
+            "<p>Only&nbsp;\\( \\text{Q3} \\)</p>",
+            "<p>Only&nbsp;\\( \\text{Q2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386061/ugc-net-cse-october-2022-part-1-question-96\" target=\"_blank\">https://gateoverflow.in/386061/ugc-net-cse-october-2022-part-1-question-96</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"386062\"></a><div itemprop=\"text\"><p>Read the following and Answer the questions:</p>\n\n<p>Consider&nbsp;the relational schema of sailors&nbsp;\\( \\text{S} \\),&nbsp;Reserves&nbsp;\\( \\text{B} \\) and Boats \\( \\text{B} \\).</p>\n\n<p><strong>Table \\( 1 \\): Sailors \\( \\text{S} \\)</strong><br>\n\\begin{array}{|l|l|l|}<br>\n\\hline Sid &amp; Sname &amp; Ratting &amp; Age \\\\<br>\n\\hline 22 &amp; Dustin &amp; 7 &amp; 45.0&nbsp;\\\\<br>\n29 &amp; Brutus &amp; 1 &amp; 33.0&nbsp;\\\\<br>\n31 &amp; Lubber &amp; 8 &amp; 55.5&nbsp;\\\\<br>\n32 &amp; Andy &amp; 8 &amp; 25.5&nbsp;\\\\<br>\n58 &amp; Rusty &amp; 10 &amp; 35.0&nbsp;\\\\<br>\n64 &amp; Horatio &amp; 7 &amp; 35.0&nbsp;\\\\<br>\n71 &amp; Zorba &amp; 10 &amp; 16.0&nbsp;\\\\<br>\n74 &amp; Horatio &amp; 9 &amp; 35.0&nbsp;\\\\<br>\n85 &amp; Art &amp; 3 &amp; 25.5&nbsp;\\\\<br>\n95 &amp; Bob &amp; 3 &amp; 63.5&nbsp;\\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table&nbsp;\\( 2 \\): Reserves&nbsp;\\( \\text{R} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline sid &amp; Bid &amp; day \\\\<br>\n\\hline 22 &amp; 101 &amp; 10 / 1098&nbsp;\\\\<br>\n22 &amp; 108 &amp; 101098 \\\\<br>\n22 &amp; 108 &amp; 101898 \\\\<br>\n22 &amp; 104 &amp; 10 / 798&nbsp;\\\\<br>\n31 &amp; 108 &amp; 11 / 1098&nbsp;\\\\<br>\n31 &amp; 103 &amp; 11 / 699&nbsp;\\\\<br>\n31 &amp; 104 &amp; 11 / 298&nbsp;\\\\<br>\n64 &amp; 101 &amp; 9558 \\\\<br>\n64 &amp; 102 &amp; 28858 \\\\<br>\n74 &amp; 103 &amp; 98958 \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p><br>\n<strong>Table \\( 3 \\): Boats \\( \\text{B} \\)</strong></p>\n\n<p>\\begin{array}{|l|l|l|}<br>\n\\hline Bid &amp; Bname &amp; Color&nbsp;\\\\<br>\n\\hline 101 &amp; Interlake &amp; blue \\\\<br>\n102 &amp; Interlake &amp; red \\\\<br>\n103 &amp; Clipper&nbsp;&amp; green \\\\<br>\n104 &amp; Marine &amp; red \\\\<br>\n\\hline<br>\n\\end{array}</p>\n\n<p>Which of the following relational algebra query computes the names of sailors who have reserved a red and a green boat?</p>\n\n<p>&nbsp;</p>\n\n\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 95</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\rho \\)&nbsp;(Tempred, \\( \\pi \\) sid&nbsp;\\( \\left(\\left(\\delta_{\\text {color }}=\\right.\\right. \\) \\( _{‘red’} \\)&nbsp;Boats \\( ) \\) \\( \\bowtie \\)&nbsp; Reserves)), \\( \\rho \\) (Tempgreen. \\( \\pi \\) sid&nbsp;\\( \\left(\\left(\\delta_{\\text {color }}=\\right.\\right. \\) \\( _{‘green’} \\)&nbsp;Boats \\( ) \\)&nbsp;\\( \\bowtie \\)&nbsp;Reserves)), \\( \\pi \\) sname (Tempred \\( \\cap \\) Tempgreen) \\( \\bowtie \\)&nbsp;Sailors</p>",
+            "<p>\\( \\rho( \\) Tempboats 2,&nbsp;\\( (\\delta \\) color&nbsp;\\( = \\)&nbsp;\\( _{‘red’} \\) Boats \\( ) \\cap(\\delta \\) color&nbsp;\\( = \\) \\( _{‘green’} \\) Boats \\( )) \\pi \\) sname&nbsp;(Tempboats 2 \\( \\bowtie \\)&nbsp;&nbsp;Reserves)</p>",
+            "<p>\\( \\pi \\) sname \\( \\left(\\left(\\delta_{\\text {color }}=\\right.\\right. \\) \\( _{’red’} \\)&nbsp;Boats \\( ) \\cap\\left(\\delta_{\\text {color }}=\\right. \\) \\( _{’green'} \\) Boats \\( ) \\) (Tempboats&nbsp;\\( \\bowtie \\)&nbsp;Sailors \\( \\bowtie \\) Reserves))</p>",
+            "<p>\\( \\rho( \\) Tempboats 2,&nbsp;\\( (\\delta \\) \\( _{color} \\) \\( = \\)&nbsp;\\( _{red} \\) Boats \\(  \\delta \\) \\( _{color} \\) \\( = \\) \\( _{‘green’} \\) Boats \\( )&nbsp;\\pi \\) sname&nbsp;(Tempboats 2 \\( \\bowtie \\) sailors)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386062/ugc-net-cse-october-2022-part-1-question-95\" target=\"_blank\">https://gateoverflow.in/386062/ugc-net-cse-october-2022-part-1-question-95</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"386063\"></a><div itemprop=\"text\"><p>In a game playing search tree, upto which depth \\( \\alpha-\\beta \\) pruning can be applied?</p>\n\n<p>(A) Root \\( \\text{(0)} \\) level<br>\n(B) \\( 6 \\) level<br>\n(C) \\( 8 \\) level<br>\n(D) Depends on utility value in a breadth first order</p>\n\n<p>Choose the correct answer from the options given below :</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | October 2022 | Part 1 | Question: 94</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(B)} \\) and \\( \\text{(C)} \\) only</p>",
+            "<p>\\( \\text{(A)} \\) and \\( \\text{(B)} \\) only</p>",
+            "<p>\\( \\text{(A)} \\) \\( \\text{(B)} \\) and \\( \\text{(C)} \\) only</p>",
+            "<p>\\( \\text{(A)} \\) and \\( \\text{(D)} \\) only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386063/ugc-net-cse-october-2022-part-1-question-94\" target=\"_blank\">https://gateoverflow.in/386063/ugc-net-cse-october-2022-part-1-question-94</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"386064\"></a><div itemprop=\"text\"><p>Consider the traversal of a tree</p>\n\n<p>Preorder \\( \\rightarrow \\) \\( \\text{ABCEIFJDGHKL} \\)<br>\nInorder \\( \\rightarrow \\) \\( \\text{EICFJBGDKHLA} \\)</p>\n\n<p>Which of the following is correct post order traversal?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2022 | Part 1 | Question: 93</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{EIFJCKGLHDBA} \\)</p>",
+            "<p>\\( \\text{FCGKLHDBUAE} \\)</p>",
+            "<p>\\( \\text{FCGKLHDBAEIJ} \\)</p>",
+            "<p>\\( \\text{IEJFCGKLHDBA} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386064/ugc-net-cse-october-2022-part-1-question-93\" target=\"_blank\">https://gateoverflow.in/386064/ugc-net-cse-october-2022-part-1-question-93</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"386065\"></a><div itemprop=\"text\"><p>A good software requirement specification does \\( \\text{NOT} \\) have the characteristic</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 92</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Completeness</p>",
+            "<p>Consistency</p>",
+            "<p>Clarity</p>",
+            "<p>Reliability</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386065/ugc-net-cse-october-2022-part-1-question-92\" target=\"_blank\">https://gateoverflow.in/386065/ugc-net-cse-october-2022-part-1-question-92</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"386066\"></a><div itemprop=\"text\"><p>Let \\( \\mathrm{R} \\) \\( \\text{(ABCDEFGH)} \\) be a relation schema and \\( \\mathrm{F} \\) be the set of dependencies \\( F=\\{A \\rightarrow B, A B C D \\rightarrow E, E F \\rightarrow G, E F \\rightarrow H \\) and \\( A C D F \\rightarrow E G\\} \\). The minimal cover of a set of functional dependencies is</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 91</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( A \\rightarrow B, A C D \\rightarrow E, E F \\rightarrow G \\), and \\( E F \\rightarrow H \\)</p>",
+            "<p>\\( A \\rightarrow B, A C D \\rightarrow E, E F \\rightarrow G, E F \\rightarrow H \\) and \\( A C D F \\rightarrow G \\)</p>",
+            "<p>\\( A \\rightarrow B, A C D \\rightarrow E, E F \\rightarrow G, E F \\rightarrow H \\) and \\( A C D F \\rightarrow E \\)</p>",
+            "<p>\\( A \\rightarrow B, A B C D \\rightarrow E, E F \\rightarrow H \\) and \\( E F \\rightarrow G \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386066/ugc-net-cse-october-2022-part-1-question-91\" target=\"_blank\">https://gateoverflow.in/386066/ugc-net-cse-october-2022-part-1-question-91</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"386067\"></a><div itemprop=\"text\"><p>Modules \\( \\mathrm{X} \\) and \\( \\mathrm{Y} \\) operate on the same input and output, then the cohesion is</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 90</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Logical cohesion</p>",
+            "<p>Sequential cohesion</p>",
+            "<p>Procedural cohesion</p>",
+            "<p>Communicational cohesion</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386067/ugc-net-cse-october-2022-part-1-question-90\" target=\"_blank\">https://gateoverflow.in/386067/ugc-net-cse-october-2022-part-1-question-90</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"386068\"></a><div itemprop=\"text\"><p>For the following page reference string \\( 4,3,2,1,4,3,5,4,3,2,1,5 \\), the number of page faults that occur in Least Recently Used \\( \\text{(LRU)} \\) page replacement algorithm with frame size \\( 3 \\) is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Operating System: UGC NET CSE | October 2022 | Part 1 | Question: 89</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386068/ugc-net-cse-october-2022-part-1-question-89\" target=\"_blank\">https://gateoverflow.in/386068/ugc-net-cse-october-2022-part-1-question-89</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"386069\"></a><div itemprop=\"text\"><p>Given below are two statements :</p>\n\n<p><strong>Statement \\( \\text{I} \\):</strong> \"Grandparent is a parent of one's parent\".</p>\n\n<p><strong>Statement \\( \\text{II} \\):</strong> First Order Predicate Logic \\( \\text{(FOPL)} \\) representation of above statement is<br>\n\\( \\forall g \\), c grandparent \\( (g, c) \\Leftrightarrow \\exists p \\) parent \\( (g, p) \\wedge \\) parent \\( (p, c) \\)</p>\n\n<p>In the light of the above statements, choose the most appropriate answer from the options given below :</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | October 2022 | Part 1 | Question: 88</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both Statement \\( \\text{I} \\) and Statement \\( \\text{II} \\)&nbsp;are correct</p>",
+            "<p>Both Statement \\( \\text{I} \\)&nbsp;and Statement \\( \\text{II} \\)&nbsp;are incorrect</p>",
+            "<p>Statement \\( \\mathrm{I} \\) is correct but Statement \\( \\text{II} \\)&nbsp;is incorrect</p>",
+            "<p>Statement \\( \\mathrm{I} \\) is incorrect but Statement \\( \\text{II} \\)&nbsp;is correct</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386069/ugc-net-cse-october-2022-part-1-question-88\" target=\"_blank\">https://gateoverflow.in/386069/ugc-net-cse-october-2022-part-1-question-88</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"386071\"></a><div itemprop=\"text\"><p>Match <strong>List I</strong> with <strong>List II </strong>:<br>\n&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List I</strong></td>\n\t\t\t<td><strong>List II</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(A) Localization</td>\n\t\t\t<td>(I) Encapsulationlation</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(B) Packaging or binding of a collection of items</td>\n\t\t\t<td>(II) Abstraction</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(C) Mechanism that enables designer to&nbsp;focus on essential details of a program component.</td>\n\t\t\t<td>(III) Characteristic of software that&nbsp;indicates the manner in which&nbsp; information is concentrated in program</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(D) Information hiding</td>\n\t\t\t<td>(IV) Suppressing the operational details of a program component</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><br>\nChoose the correct answer from the options given below :</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 86</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(I), (B)-(II), (C)-(III), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(I), (C)-(III), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(III), (B)-(I), (C)-(II), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(III), (B)-(I), (C)-(IV), (D)-(II)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386071/ugc-net-cse-october-2022-part-1-question-86\" target=\"_blank\">https://gateoverflow.in/386071/ugc-net-cse-october-2022-part-1-question-86</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"386073\"></a><div itemprop=\"text\"><p>The total storage capacity of a floppy disk having \\( 80 \\) tracks and storing \\( 128 \\) bytes/sector is \\( 163,840 \\) bytes. How many sectors does this disk have?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 84</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2^{7} \\)</p>",
+            "<p>\\( 2048 \\)</p>",
+            "<p>\\( 4 \\mathrm{~K} \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386073/ugc-net-cse-october-2022-part-1-question-84\" target=\"_blank\">https://gateoverflow.in/386073/ugc-net-cse-october-2022-part-1-question-84</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"386075\"></a><div itemprop=\"text\"><p>The process to gather the software requirements from client, analyze and document is known as -</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 82</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Software Engineering Process</p>",
+            "<p>User Engineering Process</p>",
+            "<p>Requirement Elicitation Process</p>",
+            "<p>Requirement Engineering Process</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386075/ugc-net-cse-october-2022-part-1-question-82\" target=\"_blank\">https://gateoverflow.in/386075/ugc-net-cse-october-2022-part-1-question-82</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"386076\"></a><div itemprop=\"text\"><p>If every requirement can be checked by a cost-effective process, then \\( \\text{SRS} \\) is called</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 81</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Verifiable</p>",
+            "<p>Traceable</p>",
+            "<p>Modifiable</p>",
+            "<p>Complete</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386076/ugc-net-cse-october-2022-part-1-question-81\" target=\"_blank\">https://gateoverflow.in/386076/ugc-net-cse-october-2022-part-1-question-81</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"386077\"></a><div itemprop=\"text\"><p>\\( \\text{RAD} \\) software process model stands for</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 80</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rapid Application Development</p>",
+            "<p>Relative Application Development</p>",
+            "<p>Rapid Application Design</p>",
+            "<p>Recent Application Development,</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386077/ugc-net-cse-october-2022-part-1-question-80\" target=\"_blank\">https://gateoverflow.in/386077/ugc-net-cse-october-2022-part-1-question-80</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"386078\"></a><div itemprop=\"text\"><p>The reduced grammar equivalent to the grammar, whose production rules are given below, is<br>\n<br>\n\\( \\begin{array}{l}<br>\n\\mathrm{S} \\rightarrow \\mathrm{AB} \\mid \\mathrm{CA} \\\\<br>\n\\mathrm{B} \\rightarrow \\mathrm{BC} \\mid \\mathrm{AB} \\\\<br>\n\\mathrm{A} \\rightarrow \\mathrm{a} \\\\<br>\n\\mathrm{C} \\rightarrow \\mathrm{a} \\mathrm{B} \\mid \\mathrm{b}<br>\n\\end{array} \\)<br>\n&nbsp;</p>\n\n\n\n<p><br>\n&nbsp;</p></div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 79</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text {S} \\rightarrow \\mathrm{CA}, \\mathrm{A} \\rightarrow \\mathrm{a}, \\mathrm{C} \\rightarrow \\mathrm{b} \\)</p>",
+            "<p>\\( \\mathrm{S} \\rightarrow \\mathrm{CA}|\\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{BC}| \\mathrm{B}, \\mathrm{A} \\rightarrow \\mathrm{a}, \\mathrm{C} \\rightarrow \\mathrm{aB} \\mid \\mathrm{b} \\)</p>",
+            "<p>\\( \\text {S} \\rightarrow \\mathrm{CA}|\\mathrm{B}, \\mathrm{B} \\rightarrow \\mathrm{BC}, \\mathrm{A} \\rightarrow \\mathrm{a}, \\mathrm{C} \\rightarrow \\mathrm{aB}| \\mathrm{b} \\)</p>",
+            "<p>\\( \\text {S} \\rightarrow \\mathrm{AB}|\\mathrm{AC}, \\mathrm{B} \\rightarrow \\mathrm{BC}| \\mathrm{BA}, \\mathrm{A} \\rightarrow \\mathrm{a}, \\mathrm{C} \\rightarrow \\mathrm{aB} \\mid \\mathrm{b} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386078/ugc-net-cse-october-2022-part-1-question-79\" target=\"_blank\">https://gateoverflow.in/386078/ugc-net-cse-october-2022-part-1-question-79</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"386079\"></a><div itemprop=\"text\"><p>A magnetic tape drive has transport speed of \\( 200 \\)&nbsp;inches per second and a recording density of \\( 1600 \\) bytes per inch. The time required to write \\( 600000 \\) bytes of data grouped in \\( 100 \\) characters record with a blocking factor \\( 10 \\) is</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2022 | Part 1 | Question: 78</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2.0625 \\mathrm{sec} \\)</p>",
+            "<p>\\( 2.6251 \\mathrm{sec} \\)</p>",
+            "<p>\\( 2.0062 \\mathrm{sec} \\)</p>",
+            "<p>\\( 2.6150 \\mathrm{sec} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386079/ugc-net-cse-october-2022-part-1-question-78\" target=\"_blank\">https://gateoverflow.in/386079/ugc-net-cse-october-2022-part-1-question-78</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"386080\"></a><div itemprop=\"text\"><p>Consider \\( \\text{L =a b, a a, b a a} \\)<br>\nWhich of the following string is \\( \\text{NOT} \\) in \\( \\mathrm{L}^{*} \\) ?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{baaaaabaaaaa} \\)</p>",
+            "<p>\\( \\text{abaabaaabaa} \\)</p>",
+            "<p>\\( \\text{aaaabaaaa} \\)</p>",
+            "<p>\\( \\text{baaaabaa} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386080/ugc-net-cse-october-2022-part-1-question-77\" target=\"_blank\">https://gateoverflow.in/386080/ugc-net-cse-october-2022-part-1-question-77</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"386081\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<p><strong>Statement&nbsp;\\( \\text{I} \\)</strong>: \\( \\text{LALR} \\) parser is more powerful than canonical \\( \\text{LR} \\) Parser.</p>\n\n<p><strong>Statement \\( \\text{II} \\)</strong>: \\( \\text{SLR} \\) parser is more powerful than \\( \\text{LALR} \\)</p>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | October 2022 | Part 1 | Question: 76</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( \\text{I} \\) true and Statement \\( \\text{II} \\)&nbsp;false</p>",
+            "<p>Statement \\( \\text{I} \\)&nbsp;false and Statement&nbsp;\\( \\text{II} \\) true</p>",
+            "<p>Both Statement&nbsp;\\( \\text{I} \\) and Statement&nbsp;\\( \\text{II} \\) false</p>",
+            "<p>Both Statement \\( \\text{I} \\)&nbsp;and Statement \\( \\text{II} \\)&nbsp;true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386081/ugc-net-cse-october-2022-part-1-question-76\" target=\"_blank\">https://gateoverflow.in/386081/ugc-net-cse-october-2022-part-1-question-76</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"386082\"></a><div itemprop=\"text\"><p>Given below are two statements : one is labelled as Assertion \\( \\text{(A)} \\) and the other is labelled as Reason \\( \\text{(R)} \\) :<br>\nAssertion \\( \\text{(A)} \\): \\( \\bar{p} \\)<br>\nReason \\( (\\mathrm{R}): \\quad(r \\rightarrow \\bar{q}, r \\vee s, s \\rightarrow \\bar{q}, p \\rightarrow q) \\)</p>\n\n<p>In the light of the above statements, choose the correct answer from the options given below :</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | October 2022 | Part 1 | Question: 75</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both&nbsp;\\( \\text{(A)} \\) and&nbsp; \\( \\text{(R)} \\) are true and&nbsp; \\( \\text{(R)} \\) is the correct explanation of&nbsp; \\( \\text{(A)} \\)</p>",
+            "<p>Both \\( \\text{(A)} \\) and \\( \\text{(R)} \\) &nbsp;are true but&nbsp; \\( \\text{(R)} \\) is&nbsp; \\( \\text{(NOT)} \\) the correct explanation of&nbsp; \\( \\text{(A)} \\)</p>",
+            "<p>\\( \\text{(A)} \\) &nbsp;is true but&nbsp; \\( \\text{(R)} \\) is false</p>",
+            "<p>\\( \\text{(A)} \\) false but \\( (\\mathrm{R}) \\) is true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386082/ugc-net-cse-october-2022-part-1-question-75\" target=\"_blank\">https://gateoverflow.in/386082/ugc-net-cse-october-2022-part-1-question-75</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"386084\"></a><div itemprop=\"text\"><p>Match List I with List II:</p>\n\n<p>\\( \\begin{array}{ll}&nbsp;<br>\n\\text{List I} &amp; \\text{List II} \\\\ \\\\<br>\n\\text{(A) Physical layer} &amp; \\text {(I) Routing of the signals divide the outgoing message into} \\\\ &amp;&nbsp;\\text {packets, to act as network controller for routing data}\\\\<br>\n\\text{(B) Data link layer} &amp; \\text{(II) Make and break connections, define voltages and data rates} \\\\ &amp; \\text&nbsp;{convert data bits into electrical signal} \\\\<br>\n\\text{(C) Network layer} &amp; \\text{(III) Synchronization, error detection and correction.} \\\\ &amp; \\text{To assemble outgoing message into frames&nbsp;} \\\\<br>\n\\text{(D) Presentation layer} &amp; \\text{(IV) It works as a translating layer} \\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below :</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(IV), (B)-(III), (C)-(II), (D)-(I)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III). (C)-(IV), (D)-(I)} \\)</p>",
+            "<p>\\( \\text{(A)-(IV), (B)-(III), (C)-(I), (D)-(II)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III), (C)-(I), (D)-(IV)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386084/ugc-net-cse-october-2022-part-1-question-73\" target=\"_blank\">https://gateoverflow.in/386084/ugc-net-cse-october-2022-part-1-question-73</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"386085\"></a><div itemprop=\"text\"><p>Consider the following:<br>\n\\begin{array}{ll}<br>\n\\text{List I} &amp; \\text{List II} \\\\ \\\\<br>\n\\text{(A) Stack algorithm} &amp; \\text{(I) Deadlock} \\\\<br>\n\\text{(B) Elevator algorithm} &amp; \\text{(II) Disk scheduling} \\\\<br>\n\\text{(C) Priority scheduling algorithm} &amp; \\text{(III) Page replacement} \\\\<br>\n\\text{(D) Havender's algorithm} &amp; \\text{(IV) CPU scheduling}<br>\n\\end{array}</p>\n\n<p>Which of the following is correct matching?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2022 | Part 1 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(III), (B)-(II), (C)-(IV), (D)-(I)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III), (C)-(IV), (D)-(I)} \\)</p>",
+            "<p>\\( \\text{(A)-(III), (B)-(II), (C)-(I), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III), (C)-(I), (D)-(IV)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386085/ugc-net-cse-october-2022-part-1-question-72\" target=\"_blank\">https://gateoverflow.in/386085/ugc-net-cse-october-2022-part-1-question-72</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"386086\"></a><div itemprop=\"text\"><p>Which statement is false?</p>\n\n</div><br><br><b>Programming and DS: UGC NET CSE | October 2022 | Part 1 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>All function calls in \\( \\text{C} \\) pass arguments using call by value.</p>",
+            "<p>Call by reference enables a called function to modify a variable in calling function.</p>",
+            "<p>Call by value is always more efficient than call by reference.</p>",
+            "<p>Programmers use pointers and indirection operation to simulate call by reference.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386086/ugc-net-cse-october-2022-part-1-question-71\" target=\"_blank\">https://gateoverflow.in/386086/ugc-net-cse-october-2022-part-1-question-71</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"386087\"></a><div itemprop=\"text\"><p>Of the following, which is \\( \\text{NOT} \\) a logical error?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Using the \\( ’=’ \\)&nbsp;instead of \\( { }^{\\prime}==^{\\prime} \\) to determine if two values are equal,</p>",
+            "<p>Divide by zero</p>",
+            "<p>Failing to initialize counter and total variables before the body of loop,</p>",
+            "<p>Using commas instead of two required semicolon in a for loop header</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386087/ugc-net-cse-october-2022-part-1-question-70\" target=\"_blank\">https://gateoverflow.in/386087/ugc-net-cse-october-2022-part-1-question-70</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"386088\"></a><div itemprop=\"text\"><p>Let \\( e=0.0005 \\), and Let \\( \\text{R}_{e} \\) be the relation \\( \\left\\{(x, y) \\in R^2:|x-y|&lt; \\in \\right\\} \\). \\( \\text{R}_{e} \\) could be interpreted as the relation approximately equal. \\( \\text{R}_{e} \\) &nbsp;is</p>\n\n<p>(A) Reflexive<br>\n(B) Symmetric<br>\n(C) transitive</p>\n\n<p>Choose the correct answer from the options given below :</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)} \\) and&nbsp;\\( \\text{(B)} \\) only true</p>",
+            "<p>\\( \\text{(B)} \\) and&nbsp;\\( \\text{(C)} \\) only true</p>",
+            "<p>\\( \\text{(A)} \\)&nbsp;and&nbsp;\\( \\text{(C)} \\) only true</p>",
+            "<p>\\( \\text{(A)} \\),&nbsp;\\( \\text{(B)} \\) and&nbsp;\\( \\text{(C)} \\) true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386088/ugc-net-cse-october-2022-part-1-question-69\" target=\"_blank\">https://gateoverflow.in/386088/ugc-net-cse-october-2022-part-1-question-69</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"386089\"></a><div itemprop=\"text\"><p>Consider the following two lists :</p>\n\n<p>\\( \\begin{array}{ll}&nbsp;<br>\n\\text{List I} &amp; \\text{List II} \\\\ \\\\<br>\n\\text {(A) Stack overflow&nbsp;} &amp; \\text { (I) Software interrupt&nbsp;} \\\\<br>\n\\text {(B)}&nbsp;\\mathrm{Timer}&nbsp;&nbsp;&amp; \\text { (II) Internal interrupt } \\\\<br>\n\\text {(C)} \\mathrm{Invalid opcode} &nbsp;&amp; \\text{&nbsp;(III) External interrupt} \\\\<br>\n\\text {(D)} \\mathrm{Superior call} &amp; \\text { (IV) Machine check interrupt }\\end{array} \\)</p>\n\n<p>Which of the following is correct match ?</p>\n\n\n\n<p><br>\n​​​​​​</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Operating System: UGC NET CSE | October 2022 | Part 1 | Question: 68</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(I), (B)-(II), (C)-(III), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III), (C)-(I), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(I), (B)-(II), (C)-(IV), (D)-(III)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III), (C)-(IV), (D)-(I)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386089/ugc-net-cse-october-2022-part-1-question-68\" target=\"_blank\">https://gateoverflow.in/386089/ugc-net-cse-october-2022-part-1-question-68</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"386090\"></a><div itemprop=\"text\"><p>Consider the following related to Fourth Generation Technique \\( \\text{(4GT)} \\) :</p>\n\n<p>(A) It controls efforts.<br>\n(B) It controls resources.<br>\n(C) It controls cost of development.</p>\n\n<p>Choose the correct answer from the options given below :</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 67</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)} \\) and \\( \\text{(B)} \\) only</p>",
+            "<p>\\( \\text{(B)} \\)&nbsp;and&nbsp;\\( \\text{(C)} \\) only</p>",
+            "<p>\\( \\text{(C)} \\)&nbsp;and&nbsp;\\( \\text{(A)} \\) only</p>",
+            "<p>All \\( \\text{(A)} \\), \\( \\text{(B)} \\) and&nbsp;\\( \\text{(C)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386090/ugc-net-cse-october-2022-part-1-question-67\" target=\"_blank\">https://gateoverflow.in/386090/ugc-net-cse-october-2022-part-1-question-67</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"386091\"></a><div itemprop=\"text\"><p>Which mechanism in \\( \\text{XML} \\) allows organizations to specify globally unique names as element tags in documents?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>root</p>",
+            "<p>header</p>",
+            "<p>schema</p>",
+            "<p>namespace</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386091/ugc-net-cse-october-2022-part-1-question-66\" target=\"_blank\">https://gateoverflow.in/386091/ugc-net-cse-october-2022-part-1-question-66</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"386092\"></a><div itemprop=\"text\"><p>This transformation is called<br>\n\\[<br>\n\\left[\\begin{array}{l}<br>\n\\bar{x} \\\\<br>\n\\bar{y} \\\\<br>\n\\bar{z} \\\\<br>\n\\bar{w}<br>\n\\end{array}\\right]=\\left[\\begin{array}{llll}<br>\na_{1} &amp; b_{1} &amp; c_{1} &amp; d_{1} \\\\<br>\na_{2} &amp; b_{2} &amp; c_{2} &amp; d_{2} \\\\<br>\na_{3} &amp; b_{3} &amp; c_{3} &amp; d_{3} \\\\<br>\ne &amp; f &amp; g &amp; h<br>\n\\end{array}\\right]-\\left[\\begin{array}{l}<br>\nx \\\\<br>\ny \\\\<br>\nz \\\\<br>\n1<br>\n\\end{array}\\right]<br>\n\\]</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | October 2022 | Part 1 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Scaling</p>",
+            "<p>Shear</p>",
+            "<p>Homography</p>",
+            "<p>Steganography</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386092/ugc-net-cse-october-2022-part-1-question-65\" target=\"_blank\">https://gateoverflow.in/386092/ugc-net-cse-october-2022-part-1-question-65</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"386093\"></a><div itemprop=\"text\"><p>Match List I with List II :</p>\n\n<p>\\( \\begin{array}{ll}&nbsp;<br>\n\\text{List I} &amp; \\text{List II} \\\\ \\\\<br>\n\\text{(A) BIND} &amp; \\text {(I) Block the caller until a connection attempt arrives} \\\\<br>\n\\text{(B) LISTEN} &amp; \\text{&nbsp;(II) Give a local address to a socket} \\\\<br>\n\\text{(C) ACCEPT} &amp; \\text {(III) Show willingness to accept connections} \\\\<br>\n\\text {(D) SOCKET} &amp; \\text {(IV) Create a new point}&nbsp;\\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below :</p>\n\n\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(I), (B)-(III), (C)-(II), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III). (C)-(I), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(III), (B)-(II), (C)-(I), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(I), (B)-(II), (C)-(III), (D)-(IV)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386093/ugc-net-cse-october-2022-part-1-question-64\" target=\"_blank\">https://gateoverflow.in/386093/ugc-net-cse-october-2022-part-1-question-64</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"386094\"></a><div itemprop=\"text\"><p>How many rotations are required during the construction of an \\( \\text{AVL} \\) tree if the following elements are to be added in the given sequence?</p>\n\n<p>\\( 35,50,40,25,30,60,78,20,28 \\)</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2022 | Part 1 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) left rotations, \\( 2 \\) right rotations</p>",
+            "<p>\\( 2 \\) left rotations, \\( 3 \\) right rotations</p>",
+            "<p>\\( 3 \\) left rotations, \\( 2 \\) right rotations</p>",
+            "<p>\\( 3 \\) left rotations, \\( 1 \\) right rotation</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386094/ugc-net-cse-october-2022-part-1-question-63\" target=\"_blank\">https://gateoverflow.in/386094/ugc-net-cse-october-2022-part-1-question-63</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"386095\"></a><div itemprop=\"text\"><p>Match List I with List II :</p>\n\n<p>\\( \\begin{array}{II}<br>\n\\text{List I} &amp; \\text{List II}&nbsp;\\\\ \\\\<br>\n\\text{(A) Firmware} &amp; \\text{&nbsp;(I) Number of logical records into physical blocks} \\\\ \\\\<br>\n\\text { (B) Batch file } &amp; \\text { (II) ASCII format } \\\\ \\\\<br>\n\\text { (C) Packing } &amp; \\text { (III) Resource allocation } \\\\ \\\\<br>\n\\text { (D) Banker's Algorithm } &amp; \\text { (IV) ROM }&nbsp;\\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below :</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2022 | Part 1 | Question: 62</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(II), (B)-(I), (C)-(IV), (D)-(III)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(I), (C)-(III), (D)-(IV)} \\)</p>",
+            "<p>\\( \\text{(A)-(IV), (B)-(II), (C)-(I), (D)-(III)} \\)</p>",
+            "<p>\\( \\text{(A)-(IV), (B)-(I), (C)-(II), (D)-(III)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386095/ugc-net-cse-october-2022-part-1-question-62\" target=\"_blank\">https://gateoverflow.in/386095/ugc-net-cse-october-2022-part-1-question-62</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"386096\"></a><div itemprop=\"text\"><p>Consider the production rules of grammar G:<br>\n\\[<br>\n\\begin{array}{l}<br>\n\\mathrm{S} \\rightarrow \\mathrm{AbB} \\\\<br>\n\\mathrm{A} \\rightarrow \\mathrm{aAb} \\mid \\lambda \\\\<br>\n\\mathrm{B} \\rightarrow \\mathrm{bB} \\mid \\lambda<br>\n\\end{array}<br>\n\\]<br>\nWhich of the following language \\( L \\) is generated by grammer \\( G \\) ?<br>\n&nbsp;</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 61</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text L=\\left\\{a^{n} b^{m}: n \\geq 0, m&gt;n\\right\\} \\)</p>",
+            "<p>\\( \\text L=\\left\\{a^{n} b^{m}: n \\geq 0, m \\geq 0\\right\\} \\)</p>",
+            "<p>\\( L=\\left\\{a^{n} b^{m}: n \\geq m\\right\\} \\)</p>",
+            "<p>\\( L=\\left\\{a^{n} b^{m}: n \\geq m, m&gt;0\\right\\} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386096/ugc-net-cse-october-2022-part-1-question-61\" target=\"_blank\">https://gateoverflow.in/386096/ugc-net-cse-october-2022-part-1-question-61</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"386099\"></a><div itemprop=\"text\"><p>A trigger is</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A statement that enables to start \\( \\text{DBMS} \\)</p>",
+            "<p>A statement that is executed by the user when debugging an application program.</p>",
+            "<p>A condition the system tests for the validity of the database user.</p>",
+            "<p>A statement that is executed automatically by the system as a side effect of modification to the database.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386099/ugc-net-cse-october-2022-part-1-question-58\" target=\"_blank\">https://gateoverflow.in/386099/ugc-net-cse-october-2022-part-1-question-58</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"386100\"></a><div itemprop=\"text\"><p>Given below are two statements : one is labelled as Assertion \\( \\text{(A)} \\) and the other is labelled as Reason \\( \\text{(R)} \\):<br>\n<br>\n<strong>Assertion</strong>&nbsp;\\( \\text{(A)} \\): A load-and-go assembler avoids the overhead of writing the object program out and reading it back in.<br>\n<strong>Reason</strong>&nbsp;\\( \\text{(R)} \\): This can be done with either one-pass or two pass assembler.</p>\n\n<p>In the light of the above statements, choose the correct answer from the options given below :</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | October 2022 | Part 1 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( \\text{(A)} \\) and \\( \\text{(R)} \\) are true and \\( \\text{(R)} \\)&nbsp;is the correct explanation of \\( \\text{(A)} \\),</p>",
+            "<p>Both \\( \\text{(A)} \\)&nbsp;and \\( \\text{(R)} \\)&nbsp;are true but \\( \\text{(R)} \\)&nbsp;is \\( \\text{(NOT)} \\)&nbsp;the correct explanation of&nbsp;\\( \\text{(A)} \\)</p>",
+            "<p>\\( \\text{(A)} \\)&nbsp;is true but \\( \\text{(R)} \\)&nbsp;is false</p>",
+            "<p>\\( \\text{(A)} \\)&nbsp;is false but \\( \\text{(R)} \\)&nbsp;is true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386100/ugc-net-cse-october-2022-part-1-question-57\" target=\"_blank\">https://gateoverflow.in/386100/ugc-net-cse-october-2022-part-1-question-57</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"386102\"></a><div itemprop=\"text\"><p>The representation of \\( 4 \\) bit code \\( 1101 \\) into \\( 7 \\) bit, even parity Hamming code is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (1010101) \\)</p>",
+            "<p>\\( (1111001) \\)</p>",
+            "<p>\\( (1011101) \\)</p>",
+            "<p>\\( (1110000) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386102/ugc-net-cse-october-2022-part-1-question-55\" target=\"_blank\">https://gateoverflow.in/386102/ugc-net-cse-october-2022-part-1-question-55</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"386103\"></a><div itemprop=\"text\"><p>In a cache memory, if address has \\( 9 \\) bits in Tag field and \\( 12 \\) bits in index field, the size of main memory and cache memory would be respectively</p>\n\n</div><br><br><b>Others: UGC NET CSE | October 2022 | Part 1 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\mathrm{~K} .4 \\mathrm{~K}4 \\)</p>",
+            "<p>\\( 1024 \\mathrm{~K}, 2 \\mathrm{~K} \\),</p>",
+            "<p>\\( 4 \\mathrm{~K}, 2048 \\mathrm{~K} \\)</p>",
+            "<p>\\( 2048 \\mathrm{~K}, 4 \\mathrm{~K} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386103/ugc-net-cse-october-2022-part-1-question-54\" target=\"_blank\">https://gateoverflow.in/386103/ugc-net-cse-october-2022-part-1-question-54</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"386105\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<p><strong>Statement \\( \\text{I} \\): </strong>Composite attributes cannot be divided into smaller subparts.</p>\n\n<p><strong>Statement \\( \\text{II} \\):</strong> Complex attribute is formed by nesting composite attributes and multivalued attributes in an arbitrary way.</p>\n\n<p><strong>Statement \\( \\text{III} \\): </strong>A derived attribute is an attribute whose values are computed from other attribute.</p>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\)&nbsp;and Statement \\( \\text{III} \\)&nbsp;are true</p>",
+            "<p>Statement \\( \\text{I} \\)&nbsp;true and Statement \\( \\text{II} \\), Statement \\( \\text{III} \\)&nbsp;false</p>",
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\)&nbsp;true and Statement \\( \\text{III} \\)&nbsp;false</p>",
+            "<p>Statement \\( \\text{I} \\)&nbsp;false and Statement \\( \\text{II} \\), Statement \\( \\text{III} \\)&nbsp;true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386105/ugc-net-cse-october-2022-part-1-question-52\" target=\"_blank\">https://gateoverflow.in/386105/ugc-net-cse-october-2022-part-1-question-52</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"386106\"></a><div itemprop=\"text\"><p>Consider a logic gate circuit, with 8 input lines \\( \\left(\\mathrm{D}_{0}, \\mathrm{D}_{1} \\ldots \\ldots \\mathrm{D}_{7}\\right) \\) and 3 output lines \\( \\left(\\mathrm{A}_{0}, \\mathrm{~A}_{1}, \\mathrm{~A}_{2}\\right) \\) specified by following operations<br>\n\\[<br>\n\\begin{array}{l}<br>\nA_{2}=D_{4}+D_{5}+D_{6}+D_{7} \\\\<br>\nA_{1}=D_{2}+D_{3}+D_{6}+D_{7} \\\\<br>\nA_{0}=D_{1}+D_{3}+D_{5}+D_{0}<br>\n\\end{array}<br>\n\\]<br>\nWhere \\( + \\) indicates logical \\( \\text{OR} \\) operation. This circuit is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\times 8 \\) multiplexer</p>",
+            "<p>Decimal to \\( \\mathrm{BCD} \\) converter</p>",
+            "<p>Octal to Binary encoder</p>",
+            "<p>Priority encoder</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386106/ugc-net-cse-october-2022-part-1-question-51\" target=\"_blank\">https://gateoverflow.in/386106/ugc-net-cse-october-2022-part-1-question-51</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"386107\"></a><div itemprop=\"text\"><p>Consider the following in Boolean Algebra<br>\n\\[<br>\n\\begin{array}{l}<br>\n\\mathrm{X}: a \\vee(b \\wedge(a \\vee c))=(a \\vee b) \\wedge(a \\vee c) \\\\<br>\n\\mathrm{Y}: a \\wedge(b \\vee(a \\wedge c))=(a \\wedge b) \\vee(a \\wedge c) \\\\<br>\na \\vee(b \\wedge c)=(a \\vee b) \\wedge c \\text { is satisfied if } \\\\<br>\n\\end{array}<br>\n\\]</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\mathrm{X} \\) is true</p>",
+            "<p>\\( \\mathrm{Y} \\) is true</p>",
+            "<p>Both \\( \\mathrm{X} \\) and \\( \\mathrm{Y} \\) are true</p>",
+            "<p>It does not depend on \\( \\mathrm{X} \\) and \\( \\mathrm{Y} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386107/ugc-net-cse-october-2022-part-1-question-50\" target=\"_blank\">https://gateoverflow.in/386107/ugc-net-cse-october-2022-part-1-question-50</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"386108\"></a><div itemprop=\"text\"><p>If an operating system does not allow a child process to exist when the parent process has been terminated, this phenomenon is called as.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2022 | Part 1 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Threading</p>",
+            "<p>Cascading termination</p>",
+            "<p>Zombie termination</p>",
+            "<p>Process killing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386108/ugc-net-cse-october-2022-part-1-question-49\" target=\"_blank\">https://gateoverflow.in/386108/ugc-net-cse-october-2022-part-1-question-49</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"386109\"></a><div itemprop=\"text\"><p>Pointers cannot be used to</p>\n\n</div><br><br><b>Programming and DS: UGC NET CSE | October 2022 | Part 1 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>find the address of a variable in memory</p>",
+            "<p>reference value directly</p>",
+            "<p>simulate call by reference</p>",
+            "<p>manipulate dynamic data structure</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386109/ugc-net-cse-october-2022-part-1-question-48\" target=\"_blank\">https://gateoverflow.in/386109/ugc-net-cse-october-2022-part-1-question-48</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"386110\"></a><div itemprop=\"text\"><p>In a database, a rule is defined as \\( (\\mathrm{P} 1 \\) and \\( \\mathrm{P} 2) \\) or \\( \\mathrm{P} 3 \\) ? \\( \\mathrm{R} 1(0.8) \\) and \\( \\mathrm{R} 2(0.3) \\), where \\( \\mathrm{P} 1 \\), \\( \\mathrm{P} 2 \\). \\( \\mathrm{P}3 \\)&nbsp;are premises and \\( \\mathrm{R} 1 \\). \\( \\mathrm{R} 2 \\)&nbsp;are conclusions of rules with certainty factors (\\( \\mathrm{CF}  \\)) \\( 0.8 \\) and \\( 0.3 \\) respectively. If any running program has produced \\( \\mathrm{P} 1 \\), \\( \\mathrm{P} 2 \\), \\( \\mathrm{P} 3 \\)&nbsp;with \\( \\mathrm{CF} \\)&nbsp;as \\( 0.5,0.8 \\), \\( 0.2 \\) respectively. find the \\( \\mathrm{CF} \\)&nbsp;of results on the basis of premises.</p>\n\n</div><br><br><b>Data Mining and Warehousing: UGC NET CSE | October 2022 | Part 1 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\mathrm{CF}(\\mathrm{R} 1=0.8), \\mathrm{CF}(\\mathrm{R} 2=0.3) \\)</p>",
+            "<p>\\( \\mathrm{CF}(\\mathrm{R} 1=0.40), \\mathrm{CF}(\\mathrm{R} 2=0.15) \\)</p>",
+            "<p>\\( \\mathrm{CF}(\\mathrm{R} 1=0.15), \\mathrm{CF}(\\mathrm{R} 2=0.35) \\)</p>",
+            "<p>\\( \\mathrm{CF}(\\mathrm{R} 1=0.8), \\mathrm{CF}(\\mathrm{R} 2=0.35) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386110/ugc-net-cse-october-2022-part-1-question-47\" target=\"_blank\">https://gateoverflow.in/386110/ugc-net-cse-october-2022-part-1-question-47</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"386111\"></a><div itemprop=\"text\"><p>A top down approach to programming calls for :</p>\n\n<p><strong>Statement \\( \\text{I} \\)</strong><strong>:</strong> Working from the general to the specific.<br>\n<strong>Statement</strong> <strong>\\( \\text{II} \\)</strong><strong>: </strong>Postpone the minor decisions.<br>\n<strong>Statement \\( \\text{III} \\)</strong><strong>:</strong> A systematic approach.<br>\n<strong>Statement \\( \\text{IV} \\)</strong><strong>: </strong>Intermediate coding of the problem</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Others: UGC NET CSE | October 2022 | Part 1 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( \\text{I} \\) only</p>",
+            "<p>Statement \\( \\text{I} \\)&nbsp;and Statement \\( \\text{II} \\)&nbsp;only</p>",
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\)&nbsp;and Statement \\( \\text{III} \\)&nbsp;only</p>",
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\)&nbsp;and Statement \\( \\text{IV} \\)&nbsp;only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386111/ugc-net-cse-october-2022-part-1-question-46\" target=\"_blank\">https://gateoverflow.in/386111/ugc-net-cse-october-2022-part-1-question-46</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"386112\"></a><div itemprop=\"text\"><p>Match<strong> List I</strong> with <strong>List II :</strong></p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List I</strong></td>\n\t\t\t<td><strong>List II</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(A) Type \\( 0 \\)</td>\n\t\t\t<td>(I) Finite automata</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(B) Type \\( 1 \\)</td>\n\t\t\t<td>(II) Tuning machine</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(C) Type \\( 2 \\)</td>\n\t\t\t<td>(III) Linear bound automata</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(D) Type \\( 3 \\)</td>\n\t\t\t<td>(IV) Pushdown automata</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Choose the correct answer from the options given below :</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\text{A})-\\text{(III)}, (\\text{B})-(\\text{IV}), (\\text{C})-(\\text{II}), (\\text{D})-(\\text{I}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{II}), (\\text{B})-(\\text{III}), (\\text{C})-(\\text{IV}), (\\text{D})-(\\text{I}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{III}), (\\text{B})-(\\text{IV}), (\\text{C})-(\\text{I}), (\\text{D})-(\\text{II}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{II}), (\\text{B})-(\\text{III}), (\\text{C})-(\\text{II}), (\\text{D})-(\\text{IV}) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386112/ugc-net-cse-october-2022-part-1-question-45\" target=\"_blank\">https://gateoverflow.in/386112/ugc-net-cse-october-2022-part-1-question-45</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"386113\"></a><div itemprop=\"text\"><p>Consider the following graph :</p><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"Graph\" width=\"400\" height=\"340\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10923299249642172094\"></p><p><br>For the graph; the following sequences of depth first search (DFS) are given<br>(A) \\( \\text{abcghf} \\)<br>(B) \\( \\text{abfchg} \\)<br>(C) \\( \\text{abfhgc} \\)<br>(D) \\( \\text{afghbc} \\)</p><p>Which of the following is correct?</p><p>&nbsp;</p><p>&nbsp;</p></div><br><br><b>Graph Theory: UGC NET CSE | October 2022 | Part 1 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\text{A}), (\\text{B}) \\) \\( \\text{and} \\) \\( (\\text{D}) \\) only&nbsp;</p>",
+            "<p>\\( (\\text{A}), (\\text{B}), (\\text{C}) \\) \\( \\text{and} \\)&nbsp;\\( (\\text{D}) \\)</p>",
+            "<p>\\( (\\text{B}) \\),&nbsp;\\( (\\mathrm{C}) \\) \\( \\text{and} \\) \\( (\\mathrm{D}) \\) only</p>",
+            "<p>\\( (\\text{A}), (\\text{C}) \\) \\( \\text{and} \\) \\( (\\text{D}) \\) only&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386113/ugc-net-cse-october-2022-part-1-question-44\" target=\"_blank\">https://gateoverflow.in/386113/ugc-net-cse-october-2022-part-1-question-44</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"386114\"></a><div itemprop=\"text\"><p>Hidden surface removal problem with minimal \\( 3\\text{D} \\) pipeline can be solved with</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | October 2022 | Part 1 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Painter's algorithm</p>",
+            "<p>Window Clipping algorithm</p>",
+            "<p>Brute force rasterization algorithm</p>",
+            "<p>Flood fill algorithm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386114/ugc-net-cse-october-2022-part-1-question-43\" target=\"_blank\">https://gateoverflow.in/386114/ugc-net-cse-october-2022-part-1-question-43</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"386115\"></a><div itemprop=\"text\"><p>Which one is a connectionless transport - layer protocol that belongs to the Internet protocol family?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Transmission Control Protocol (TCP)</p>",
+            "<p>User Datagram Protocol (UDP)</p>",
+            "<p>Routing Protocol (RP)</p>",
+            "<p>Datagram Control Protocol (DCP),</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386115/ugc-net-cse-october-2022-part-1-question-42\" target=\"_blank\">https://gateoverflow.in/386115/ugc-net-cse-october-2022-part-1-question-42</a></p>"
+        },
+        {
+          "id": 63,
+          "question": "<p><a name=\"386116\"></a><div itemprop=\"text\"><p>Let \\( (\\{a, b\\}, *) \\) be a semigroup, where \\( a * a=b \\).</p>\n\n<p>(A) \\( a * b=b * a \\)<br>\n(B) \\( b * b=b \\)</p>\n\n<p>Choose the most appropriate answer from the options given below :</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\text{A}) \\) only true</p>",
+            "<p>\\( (\\text{B}) \\) only true</p>",
+            "<p>Both \\( (\\text{A}) \\) and \\( (\\text{B}) \\) true,</p>",
+            "<p>Neither \\( (\\text{A}) \\) nor \\( (\\text{B}) \\) true,</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386116/ugc-net-cse-october-2022-part-1-question-41\" target=\"_blank\">https://gateoverflow.in/386116/ugc-net-cse-october-2022-part-1-question-41</a></p>"
+        },
+        {
+          "id": 64,
+          "question": "<p><a name=\"386117\"></a><div itemprop=\"text\"><p>The number of gate inputs, required to realize expression \\( \\text{A B C+A} \\) \\( \\bar{\\text{B}} \\) \\( \\text{C D+E} \\) \\( \\bar{\\text{F}} \\)+\\( \\text{A D} \\) is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 15 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386117/ugc-net-cse-october-2022-part-1-question-40\" target=\"_blank\">https://gateoverflow.in/386117/ugc-net-cse-october-2022-part-1-question-40</a></p>"
+        },
+        {
+          "id": 65,
+          "question": "<p><a name=\"386118\"></a><div itemprop=\"text\"><p>There are three boxes. First box has \\( 2 \\) white, \\( 3 \\) black and \\( 4 \\) red balls. Second box has \\( 3 \\) white, \\( 2 \\) black and \\( 2 \\) red balls. Third box has \\( 4 \\) white, \\( 1 \\) black and \\( 3 \\) red balls. A box is chosen at random and \\( 2 \\) balls are drawn out of which \\( 1 \\) is white, and 1 is red. What is the probability that the balls came from first box?</p>\n\n</div><br><br><b>Probability: UGC NET CSE | October 2022 | Part 1 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 .237 \\)</p>",
+            "<p>\\( 0.723 \\)</p>",
+            "<p>\\( 0.18 \\)</p>",
+            "<p>\\( 0.452 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386118/ugc-net-cse-october-2022-part-1-question-39\" target=\"_blank\">https://gateoverflow.in/386118/ugc-net-cse-october-2022-part-1-question-39</a></p>"
+        },
+        {
+          "id": 66,
+          "question": "<p><a name=\"386119\"></a><div itemprop=\"text\"><p>Match <strong>List I</strong> with <strong>List II</strong>:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List I</strong></td>\n\t\t\t<td><strong>List II</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(A) DES</td>\n\t\t\t<td>(I) Key size - \\( 256 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(B) AES</td>\n\t\t\t<td>(II) Key size - \\( 1024 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(C) \\( 3 \\) DES</td>\n\t\t\t<td>(III) Key size - \\( 56 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(D) RSA</td>\n\t\t\t<td>(IV) Key size -\\( 168 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\text{A})-(\\text{I}), (\\text{B})-(\\text{II}), (\\text{C})-(\\text{IV}), (\\text{D})-(\\text{III}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{III}), (\\text{B})-(\\text{I}), (\\text{C}) -(\\text{IV}), (\\text{D}) -(\\text{II}) \\)&nbsp;</p>",
+            "<p>\\( (\\text{A})-(\\text{III}), (\\text{B})-(\\text{IV}), (\\text{C}) -(\\text{II}), (\\text{D}) -(\\text{I}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{IV}), (\\text{B})-(\\text{II}), (\\text{C})-(\\text{III}), (\\text{D})-(\\text{I}) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386119/ugc-net-cse-october-2022-part-1-question-38\" target=\"_blank\">https://gateoverflow.in/386119/ugc-net-cse-october-2022-part-1-question-38</a></p>"
+        },
+        {
+          "id": 67,
+          "question": "<p><a name=\"386120\"></a><div itemprop=\"text\"><p>The logic expression \\( (\\bar{P} \\wedge Q) \\vee(P \\wedge \\bar{Q}) \\vee(P \\wedge Q) \\) is equivalent to</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | October 2022 | Part 1 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\bar{P} \\vee Q \\),</p>",
+            "<p>\\( P \\vee \\bar{Q} \\)</p>",
+            "<p>\\( P \\vee Q \\)</p>",
+            "<p>\\( \\bar{P} \\vee \\bar{Q} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386120/ugc-net-cse-october-2022-part-1-question-37\" target=\"_blank\">https://gateoverflow.in/386120/ugc-net-cse-october-2022-part-1-question-37</a></p>"
+        },
+        {
+          "id": 68,
+          "question": "<p><a name=\"386121\"></a><div itemprop=\"text\"><p>Consider an error-free \\( 64 \\mathrm{kbps} \\) satellite channel used to send \\( 512 \\) byte data frames in one direction with very short acknowledgements coming back the other way. What is the maximum throughput for window size of \\( 15 \\)?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 32 \\mathrm{kbps} \\)</p>",
+            "<p>\\( 48&nbsp;\\mathrm{kbps} \\)</p>",
+            "<p>\\( 64 \\mathrm{kbps} \\)</p>",
+            "<p>\\( 70 \\mathrm{kbps} \\),</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386121/ugc-net-cse-october-2022-part-1-question-36\" target=\"_blank\">https://gateoverflow.in/386121/ugc-net-cse-october-2022-part-1-question-36</a></p>"
+        },
+        {
+          "id": 69,
+          "question": "<p><a name=\"386122\"></a><div itemprop=\"text\"><p>The condition \\( \\text{num}! \\) \\( =65 \\) cannot be replaced by</p>\n\n</div><br><br><b>Programming and DS: UGC NET CSE | October 2022 | Part 1 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{num} \\) \\( &gt;65 \\) || \\( \\text{num} \\) \\( &lt;65 \\)</p>",
+            "<p>\\( !( \\) num \\( ==65) \\)</p>",
+            "<p>\\( \\text{num} \\) \\( -65 \\)</p>",
+            "<p>\\( ! (\\text{num}-65) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386122/ugc-net-cse-october-2022-part-1-question-35\" target=\"_blank\">https://gateoverflow.in/386122/ugc-net-cse-october-2022-part-1-question-35</a></p>"
+        },
+        {
+          "id": 70,
+          "question": "<p><a name=\"386123\"></a><div itemprop=\"text\"><p>The model in which the requirements are implemented by its category is</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Evolutionary Development Model</p>",
+            "<p>Waterfall Model</p>",
+            "<p>Prototyping Model</p>",
+            "<p>Iterative Enhancement Model</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386123/ugc-net-cse-october-2022-part-1-question-34\" target=\"_blank\">https://gateoverflow.in/386123/ugc-net-cse-october-2022-part-1-question-34</a></p>"
+        },
+        {
+          "id": 71,
+          "question": "<p><a name=\"386124\"></a><div itemprop=\"text\"><p>Which of the following is correct for the destination address \\( 4 \\mathrm{~A}: 30: 10: 21: 10: 1 \\mathrm{~A} \\) ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>unicast address</p>",
+            "<p>multicast address</p>",
+            "<p>broadcast address</p>",
+            "<p>unicast and broadcast address</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386124/ugc-net-cse-october-2022-part-1-question-33\" target=\"_blank\">https://gateoverflow.in/386124/ugc-net-cse-october-2022-part-1-question-33</a></p>"
+        },
+        {
+          "id": 72,
+          "question": "<p><a name=\"386125\"></a><div itemprop=\"text\"><p>Consider the properties of recursively enumerable sets :</p>\n\n<p>(A) Finiteness<br>\n(B) Context Freedom<br>\n(C) Emptiness</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( (\\mathrm{A}) \\) and \\( (\\mathrm{B}) \\) are not decidable</p>",
+            "<p>Only \\( (\\mathrm{B}) \\) and \\( (\\mathrm{C}) \\) are not decidable</p>",
+            "<p>Only \\( (\\mathrm{C}) \\) and \\( (\\mathrm{A}) \\) are not decidable,</p>",
+            "<p>All \\( (\\mathrm{A}) \\), \\( (\\mathrm{B}) \\) and \\( (\\mathrm{C}) \\) are not decidable</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386125/ugc-net-cse-october-2022-part-1-question-32\" target=\"_blank\">https://gateoverflow.in/386125/ugc-net-cse-october-2022-part-1-question-32</a></p>"
+        },
+        {
+          "id": 73,
+          "question": "<p><a name=\"386126\"></a><div itemprop=\"text\"><p>Alpha and Beta testing are forms of</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>White-Box Testing,</p>",
+            "<p>Black-Box Testing</p>",
+            "<p>Acceptance Testing</p>",
+            "<p>System Testing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386126/ugc-net-cse-october-2022-part-1-question-31\" target=\"_blank\">https://gateoverflow.in/386126/ugc-net-cse-october-2022-part-1-question-31</a></p>"
+        },
+        {
+          "id": 74,
+          "question": "<p><a name=\"386127\"></a><div itemprop=\"text\"><p>Consider the following:</p>\n\n<p>Which of the following is correct matching ?</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List I</strong></td>\n\t\t\t<td><strong>List II</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(A) Activation record</td>\n\t\t\t<td>(I) Linking Loader</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(B) Location counter</td>\n\t\t\t<td>(II) Garbage</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(C) Reference count</td>\n\t\t\t<td>(III) Subroutine Call</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(D) Address relocation</td>\n\t\t\t<td>(IV) Assembler</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | October 2022 | Part 1 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\text{A})-(\\text{III}), (\\text{B})-(\\text{IV}), (\\text{C})-(\\text{I}), (\\text{D})-(\\text{II}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{IV}), (\\text{B})-(\\text{III}), (\\text{C})-(\\text{I}), (\\text{D})-(\\text{II}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{IV}), (\\text{B})-(\\text{III}), (\\text{C})-(\\text{II}), (\\text{D})-(\\text{I}) \\)</p>",
+            "<p>\\( (\\text{A})-(\\text{II}), (\\text{B})-(\\text{III}), (\\text{C})-(\\text{I}), (\\text{D})-(\\text{IV}) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386127/ugc-net-cse-october-2022-part-1-question-30\" target=\"_blank\">https://gateoverflow.in/386127/ugc-net-cse-october-2022-part-1-question-30</a></p>"
+        },
+        {
+          "id": 75,
+          "question": "<p><a name=\"386128\"></a><div itemprop=\"text\"><p>Which of the following is correct for the destination address \\( 4 \\mathrm{~A}: 30: 10: 21: 10: 1 \\mathrm{~A} \\) ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>unicast address</p>",
+            "<p>multicast address</p>",
+            "<p>broadcast address</p>",
+            "<p>unicast and broadcast address</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386128/ugc-net-cse-october-2022-part-1-question-29\" target=\"_blank\">https://gateoverflow.in/386128/ugc-net-cse-october-2022-part-1-question-29</a></p>"
+        },
+        {
+          "id": 76,
+          "question": "<p><a name=\"386129\"></a><div itemprop=\"text\"><p>Consider the properties of recursively enumerable sets :</p>\n\n<p>\\( (\\text{A}) \\) Finiteness<br>\n\\( (\\text{B}) \\) Context Freedom<br>\n\\( (\\text{C}) \\) Emptiness<br>\nWhich of the following is true?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( (\\text{A}) \\) and \\( (\\text{B}) \\) are not decidable</p>",
+            "<p>Only \\( (\\text{B}) \\) and \\( (\\text{C}) \\) are not decidable</p>",
+            "<p>Only \\( (\\text{C}) \\) and \\( (\\text{A}) \\) are not decidable,</p>",
+            "<p>All \\( (\\text{A}) \\), \\( (\\text{B}) \\) and \\( (\\text{C}) \\) are not decidable</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386129/ugc-net-cse-october-2022-part-1-question-28\" target=\"_blank\">https://gateoverflow.in/386129/ugc-net-cse-october-2022-part-1-question-28</a></p>"
+        },
+        {
+          "id": 77,
+          "question": "<p><a name=\"386130\"></a><div itemprop=\"text\"><p>Alpha and Beta testing are forms of</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>White-Box Testing</p>",
+            "<p>Black-Box Testing</p>",
+            "<p>Acceptance Testing</p>",
+            "<p>System Testing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386130/ugc-net-cse-october-2022-part-1-question-27\" target=\"_blank\">https://gateoverflow.in/386130/ugc-net-cse-october-2022-part-1-question-27</a></p>"
+        },
+        {
+          "id": 78,
+          "question": "<p><a name=\"386131\"></a><div itemprop=\"text\"><p>Consider the following :</p>\n\n<p>\\( \\begin{array}{ll}\\text { List I } &amp; \\text { List II } \\\\ \\text { (A) Activation record } &amp; \\text { (I) Linking Loader } \\\\ \\text { (B) Location counter } &amp; \\text { (II) Garbage Collection } \\\\ \\text { (C) Reference count } &amp; \\text { (III) Subroutine Call } \\\\ \\text { (D) Address relocation } &amp; \\text { (IV) Assembler }\\end{array} \\)</p>\n\n<p><br>\nWhich of the following is correct matching ?</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | October 2022 | Part 1 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>(\\( \\mathrm{A} \\))-(\\( \\mathrm{III} \\)),(\\( \\mathrm{B} \\))-(\\( \\mathrm{IV} \\)),&nbsp;(\\( \\mathrm{C} \\)) -(\\( \\mathrm{I} \\)), (\\( \\mathrm{D} \\))-(\\( \\mathrm{II} \\))</p>",
+            "<p>(\\( \\mathrm{A} \\)) -(\\( \\mathrm{IV} \\)), (\\( \\mathrm{B})-(\\mathrm{III}),(\\mathrm{C}) – (\\mathrm{I}),(\\mathrm{D})-(\\mathrm{II}) \\)</p>",
+            "<p>(\\( \\mathrm{A} \\))-(\\( \\mathrm{IV} \\)), \\( (\\mathrm{B})-(\\mathrm{III}), (\\mathrm{C})-(\\mathrm{II}),(\\mathrm{D})-(\\mathrm{I}) \\)</p>",
+            "<p>(\\( \\mathrm{A} \\))-(\\( \\mathrm{II} \\)), \\( (\\mathrm{B})-(\\mathrm{III}), (\\mathrm{C})-(\\mathrm{I}),(\\mathrm{D})-(\\mathrm{IV}) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386131/ugc-net-cse-october-2022-part-1-question-26\" target=\"_blank\">https://gateoverflow.in/386131/ugc-net-cse-october-2022-part-1-question-26</a></p>"
+        },
+        {
+          "id": 79,
+          "question": "<p><a name=\"386132\"></a><div itemprop=\"text\"><p>Which mode is a block cipher implementation as a self-synchronizing stream cipher?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Cipher Block Chaining Mode,</p>",
+            "<p>Cipher Feedback Mode</p>",
+            "<p>Electronic Codebook Mode</p>",
+            "<p>Output Feedback Mode</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386132/ugc-net-cse-october-2022-part-1-question-25\" target=\"_blank\">https://gateoverflow.in/386132/ugc-net-cse-october-2022-part-1-question-25</a></p>"
+        },
+        {
+          "id": 80,
+          "question": "<p><a name=\"386133\"></a><div itemprop=\"text\"><p>Given below are two statements :<br>\n<strong>Statement I</strong>: Consider \\( 20 \\) bit 'Branch' microinstruction code format given below:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( \\mathrm{F} 1 \\)</td>\n\t\t\t<td>\\( \\mathrm{F} 2 \\)</td>\n\t\t\t<td>\\( \\mathrm{F} 3 \\)</td>\n\t\t\t<td>\\( \\mathrm{CD} \\)</td>\n\t\t\t<td>\\( \\mathrm{BR} \\)</td>\n\t\t\t<td>\\( \\mathrm{AD}  \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><br>\n\\( \\mathrm{F} 1, \\mathrm{~F} 2 . \\mathrm{F} 3 \\) : Micro-operation fields<br>\n\\( \\text{CD} \\) : Condition for branching<br>\n\\( \\text{BR} \\) : Branch field<br>\n\\( \\text{AD} \\): Address field<br>\n&nbsp;</p>\n\n<p><strong>Statement II</strong>: Instruction represented in above format can perform branch in<br>\nIn the light of the above statements, choose the most appropriate answer from the options given below :</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | October 2022 | Part 1 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both Statement \\( \\mathrm{I} \\)&nbsp;and Statement \\( \\mathrm{II} \\)&nbsp;are correct</p>",
+            "<p>Both Statement \\( \\mathrm{I} \\)&nbsp;and Statement \\( \\mathrm{II} \\)&nbsp;are incorrect</p>",
+            "<p>Statement \\( \\mathrm{I} \\) is correct but Statement \\( \\mathrm{II} \\)&nbsp;is incorrect</p>",
+            "<p>Statement \\( \\mathrm{I} \\) is incorrect but Statement \\( \\mathrm{II} \\)&nbsp;is correct</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386133/ugc-net-cse-october-2022-part-1-question-24\" target=\"_blank\">https://gateoverflow.in/386133/ugc-net-cse-october-2022-part-1-question-24</a></p>"
+        },
+        {
+          "id": 81,
+          "question": "<p><a name=\"386134\"></a><div itemprop=\"text\"><p>Consider the following \\( \\text{NPDA} \\) \\( =\\left(\\left\\{q_{0}, q_{1}, q_{f}\\right\\}\\{a, b\\},\\{1, z\\}, \\delta, q_{0}, z,\\left\\{q_{f}\\right\\}\\right) \\)<br>\n\\[<br>\n\\begin{array}{l}<br>\n\\delta\\left(q_{0}, \\lambda, z\\right)=\\left\\{\\left(q_{f}, z\\right)\\right\\} \\\\<br>\n\\delta\\left(q_{0}, a, z\\right)=\\left\\{\\left(q_{1}, 11 z\\right)\\right\\} \\\\<br>\n\\delta\\left(q_{1}, a, 1\\right)=\\left\\{\\left(q_{1}, 111\\right)\\right\\} \\\\<br>\n\\delta\\left(q_{1}, b, 1\\right)=\\left\\{\\left(q_{1}, \\lambda\\right)\\right\\} \\\\<br>\n\\delta\\left(q_{1}, \\lambda, z\\right)=\\left\\{\\left(q_{f}, z\\right)\\right\\}<br>\n\\end{array}<br>\n\\]<br>\nWhich of the following Language \\( L \\) is accepted by \\( \\text{NPDA} \\)?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( L=\\left\\{a^{2 n} b^{n}: n \\geq 0\\right\\} \\)</p>",
+            "<p>\\( L=\\left\\{a^{n} b^{2 n}: n \\geq 0\\right\\} \\)</p>",
+            "<p>\\( L=\\left\\{a^{2 n} b^{n}: n&gt;0\\right\\} \\)</p>",
+            "<p>\\( L=\\left\\{a^{n} b^{2 n}: n&gt;0\\right\\} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386134/ugc-net-cse-october-2022-part-1-question-23\" target=\"_blank\">https://gateoverflow.in/386134/ugc-net-cse-october-2022-part-1-question-23</a></p>"
+        },
+        {
+          "id": 82,
+          "question": "<p><a name=\"386135\"></a><div itemprop=\"text\"><p>Consider the language \\( L=\\left\\{a^{n} b^{m}: n \\geq 4, m \\leq 3\\right\\} \\)<br>\nWhich of the following regular expression represents language L?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>aaaa* \\( (\\lambda+b+b b+b b b) \\)</p>",
+            "<p>aaaaa*\\( (b+bb+bbb) \\)</p>",
+            "<p>aaaaa&nbsp;*\\( (\\lambda+b+b b+b b b) \\)</p>",
+            "<p>aaaa*&nbsp;\\( (b+b b+b b b) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386135/ugc-net-cse-october-2022-part-1-question-22\" target=\"_blank\">https://gateoverflow.in/386135/ugc-net-cse-october-2022-part-1-question-22</a></p>"
+        },
+        {
+          "id": 83,
+          "question": "<p><a name=\"386136\"></a><div itemprop=\"text\"><p>Consider a memory system having address spaced at a distance of \\( m, T= \\) Bank cycle time and \\( n \\) number of banks, then the average data access time per word access in synchronous organization is</p>\n\n</div><br><br><b>Others: UGC NET CSE | October 2022 | Part 1 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\(  t=\\left\\{\\begin{array}{l} m, \\frac{T}{n} \\text { for } m\\ll n \\\\ T \\text { for } m \\gg n \\end{array}\\right. \\)&nbsp; &nbsp;</p>",
+            "<p>\\(  t=\\left\\{\\begin{array}{l} T / n \\text { for } m\\ll n&nbsp;\\\\ T \\text { for } m\\gg n \\end{array}\\right.  \\)&nbsp;</p>",
+            "<p>\\(  t=\\left\\{\\begin{array}{l} m . T \\text { for } m \\ll&nbsp;n \\\\ T \\text { for } m \\gg n \\end{array}\\right.  \\)</p>",
+            "<p>\\(  t=\\left\\{\\begin{array}{l} m \\cdot T \\text { for } m \\ll n \\\\ m / T \\text { for } m\\gg n \\end{array}\\right.  \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386136/ugc-net-cse-october-2022-part-1-question-21\" target=\"_blank\">https://gateoverflow.in/386136/ugc-net-cse-october-2022-part-1-question-21</a></p>"
+        },
+        {
+          "id": 84,
+          "question": "<p><a name=\"386137\"></a><div itemprop=\"text\"><p>Which layer divides each message into packets at the source and re-assembles them at the destination?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Network layer</p>",
+            "<p>Transport layer</p>",
+            "<p>Data link layer</p>",
+            "<p>Physical layer</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386137/ugc-net-cse-october-2022-part-1-question-20\" target=\"_blank\">https://gateoverflow.in/386137/ugc-net-cse-october-2022-part-1-question-20</a></p>"
+        },
+        {
+          "id": 85,
+          "question": "<p><a name=\"386138\"></a><div itemprop=\"text\"><p>Which of the following is an indirect measure of product?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Quality</p>",
+            "<p>Complexity</p>",
+            "<p>Reliability</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386138/ugc-net-cse-october-2022-part-1-question-19\" target=\"_blank\">https://gateoverflow.in/386138/ugc-net-cse-october-2022-part-1-question-19</a></p>"
+        },
+        {
+          "id": 86,
+          "question": "<p><a name=\"386139\"></a><div itemprop=\"text\"><p>Consider a <strong>B</strong>-tree of height h. minimum degree \\( t \\geq 2 \\) that contains any \\( \\mathrm{n} \\)-key, where \\( n \\geq 1 \\). Which of the following is correct?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2022 | Part 1 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( h \\geq \\log _{t} \\frac{n+1}{2} \\)</p>",
+            "<p>\\( h \\leq \\log _{t} \\frac{n+1}{2} \\)</p>",
+            "<p>\\( h \\geq \\log _{t} \\frac{n-1}{2} \\)</p>",
+            "<p>\\( h \\leq \\log _{t} \\frac{n-1}{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386139/ugc-net-cse-october-2022-part-1-question-18\" target=\"_blank\">https://gateoverflow.in/386139/ugc-net-cse-october-2022-part-1-question-18</a></p>"
+        },
+        {
+          "id": 87,
+          "question": "<p><a name=\"386140\"></a><div itemprop=\"text\"><p>A classless address is given as \\( 167.199 .170 .82 / 27 \\). The number of addresses in the network is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2022 | Part 1 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 64 \\) addresses</p>",
+            "<p>\\( 32 \\) addresses</p>",
+            "<p>\\( 28 \\) addresses</p>",
+            "<p>\\( 30 \\) addresses</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386140/ugc-net-cse-october-2022-part-1-question-17\" target=\"_blank\">https://gateoverflow.in/386140/ugc-net-cse-october-2022-part-1-question-17</a></p>"
+        },
+        {
+          "id": 88,
+          "question": "<p><a name=\"386141\"></a><div itemprop=\"text\"><p>Fault base testing technique is</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Unit testing</p>",
+            "<p>Beta testing,</p>",
+            "<p>Stress testing</p>",
+            "<p>Mutation testing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386141/ugc-net-cse-october-2022-part-1-question-16\" target=\"_blank\">https://gateoverflow.in/386141/ugc-net-cse-october-2022-part-1-question-16</a></p>"
+        },
+        {
+          "id": 89,
+          "question": "<p><a name=\"386142\"></a><div itemprop=\"text\"><p>Assume that \\( f(n) \\) and \\( g(n) \\) are asymptotically positive. Which of the following is correct?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( f(n)=O(g(n)) \\) and \\( g(n)=O(h(n)) \\Rightarrow f(n)=\\omega(h(n)) \\)</p>",
+            "<p>\\( f(n)=\\Omega(g(n)) \\) and \\( g(n)=\\Omega(h(n)) \\Rightarrow f(n)=O(h(n)) \\)</p>",
+            "<p>\\( f(n)=o(g(n)) \\) and \\( g(n)=o(h(n)) \\Rightarrow f(n)=o(h(n)) \\)</p>",
+            "<p>\\( f(n)=\\omega(g(n)) \\) and \\( g(n)=\\omega(h(n)) \\Rightarrow f(n)=\\Omega(h(n)) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386142/ugc-net-cse-october-2022-part-1-question-15\" target=\"_blank\">https://gateoverflow.in/386142/ugc-net-cse-october-2022-part-1-question-15</a></p>"
+        },
+        {
+          "id": 90,
+          "question": "<p><a name=\"386143\"></a><div itemprop=\"text\"><p>Which Metrics are derived by normalizing quality and/or productivity measures by considering the size of the software that has been produced?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Function - Oriented Metrics</p>",
+            "<p>Function - Point Metrics</p>",
+            "<p>Line of Code Metrics</p>",
+            "<p>Size Oriented Metrics</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386143/ugc-net-cse-october-2022-part-1-question-14\" target=\"_blank\">https://gateoverflow.in/386143/ugc-net-cse-october-2022-part-1-question-14</a></p>"
+        },
+        {
+          "id": 91,
+          "question": "<p><a name=\"386145\"></a><div itemprop=\"text\"><p>Consider the hash table of size \\( 11 \\) that uses open addressing with linear probing. Let \\( h(k)=k \\) \\( \\text{mod} \\) \\( 11 \\) be the hash function. A sequence of records with keys \\( 43, 36, 92, 87. 11 . 47. 11, 13, 14 \\) is inserted into an initially empty hash table, the bins of which are indexed from \\( 0 \\) to \\( 10 \\). What is the index of the bin into which the last record is inserted?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2022 | Part 1 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)&nbsp;</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386145/ugc-net-cse-october-2022-part-1-question-12\" target=\"_blank\">https://gateoverflow.in/386145/ugc-net-cse-october-2022-part-1-question-12</a></p>"
+        },
+        {
+          "id": 92,
+          "question": "<p><a name=\"386146\"></a><div itemprop=\"text\"><p>In reference to Big data, consider the following database :<br>\n(A) Memcached<br>\n(B) Couch \\( \\text{DB} \\)<br>\n(C) Infinite graph<br>\nChoose the most appropriate answer from the options given below :</p>\n\n</div><br><br><b>Big Data Systems: UGC NET CSE | October 2022 | Part 1 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)} \\) and \\( \\text{(B)} \\) only</p>",
+            "<p>\\( \\text{(B)} \\) and \\( \\text{(C)} \\) only,</p>",
+            "<p>\\( \\text{(C)} \\) and \\( \\text{(A)} \\) only</p>",
+            "<p>\\( \\text{(A)} \\)&nbsp;&nbsp;\\( \\text{(B)} \\) and \\( \\text{(C)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386146/ugc-net-cse-october-2022-part-1-question-11\" target=\"_blank\">https://gateoverflow.in/386146/ugc-net-cse-october-2022-part-1-question-11</a></p>"
+        },
+        {
+          "id": 93,
+          "question": "<p><a name=\"386147\"></a><div itemprop=\"text\"><p>Consider the following statements:<br>\nStatement \\( \\text{I} \\): Conservative \\( 2 \\mathrm{PL} \\) is a deadlock-free protocol.<br>\nStatement \\( \\text{II} \\): Thomas's write rule enforces conflict serializability.<br>\nStatement \\( \\text{III} \\): Timestamp ordering protocol ensures serializability based on the order of transaction timestamps.</p>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\) true and Statement \\( \\text{III} \\) false</p>",
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{III} \\) true and Statement \\( \\text{II} \\) false</p>",
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\) false and Statement \\( \\text{III} \\) true</p>",
+            "<p>Statement \\( \\text{I} \\), Statement \\( \\text{II} \\) and Statement \\( \\text{III} \\) true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386147/ugc-net-cse-october-2022-part-1-question-10\" target=\"_blank\">https://gateoverflow.in/386147/ugc-net-cse-october-2022-part-1-question-10</a></p>"
+        },
+        {
+          "id": 94,
+          "question": "<p><a name=\"386148\"></a><div itemprop=\"text\"><p>The number of nodes of height \\( \\mathrm{h} \\) in any \\( \\mathrm{n} \\)-element heap is atmost:</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2022 | Part 1 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( n / 2^{n+1} \\)</p>",
+            "<p>\\( \\frac{n}{2^{h-1}} \\)</p>",
+            "<p>\\( \\frac{n}{2^{h}} \\)</p>",
+            "<p>\\( \\frac{n-1}{2^{h-1}} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386148/ugc-net-cse-october-2022-part-1-question-9\" target=\"_blank\">https://gateoverflow.in/386148/ugc-net-cse-october-2022-part-1-question-9</a></p>"
+        },
+        {
+          "id": 95,
+          "question": "<p><a name=\"386149\"></a><div itemprop=\"text\"><p>A \\( 4 \\)-stage pipeline has the stage delay as \\( 150,120,160 \\) and \\( 140 \\) ns respectively. Registers that are used between the stages have delay of \\( 5 \\mathrm{~ns} \\). Assuming constant locking rate, the total time required to process \\( 1000 \\) data items on this pipeline is</p>\n\n</div><br><br><b>Others: UGC NET CSE | October 2022 | Part 1 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 160.5 \\mathrm{~ms} \\)</p>",
+            "<p>\\( 165.5 \\mathrm{~ms} \\)</p>",
+            "<p>\\( 120.5 \\mathrm{~ms} \\)</p>",
+            "<p>\\( 590.5 \\mathrm{~ms} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386149/ugc-net-cse-october-2022-part-1-question-8\" target=\"_blank\">https://gateoverflow.in/386149/ugc-net-cse-october-2022-part-1-question-8</a></p>"
+        },
+        {
+          "id": 96,
+          "question": "<p><a name=\"386150\"></a><div itemprop=\"text\"><p>Match List \\( \\text{I} \\) with List \\( \\text{II} \\) :</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List I</strong></td>\n\t\t\t<td>List II</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(A) Ontological Engineering</td>\n\t\t\t<td>(I) Organizing subclass relations</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(B) Taxonomy Hierarchy</td>\n\t\t\t<td>(II) Organizing knowledge into category and sub category</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(C) Inheritance</td>\n\t\t\t<td>(III) Attaches a number with each possibility</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(D) Probability mode</td>\n\t\t\t<td>(IV) Representing concepts. events, time. physical concepts of different domains</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><br>\nChoose the correct answer from the options given below :</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Artificial Intelligence: UGC NET CSE | October 2022 | Part 1 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>(A)-(II), (B)-(I), (C)-(IV), (D)-(III)</p>",
+            "<p>(A)-(I), (B)-(II), (C)-(III), (D)-(IV)</p>",
+            "<p>(A)-(IV), (B)-(III), (C)-(I), (D)-(II)</p>",
+            "<p>(A)-(IV), (B)-(I), (C)-(II), (D)-(III)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386150/ugc-net-cse-october-2022-part-1-question-7\" target=\"_blank\">https://gateoverflow.in/386150/ugc-net-cse-october-2022-part-1-question-7</a></p>"
+        },
+        {
+          "id": 97,
+          "question": "<p><a name=\"386151\"></a><div itemprop=\"text\"><p>The solution of the recurrence relation \\( T(n)=3 T(n / 4)+n \\lg n \\) is</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | October 2022 | Part 1 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\theta\\left(n^{2} \\lg n\\right) \\)</p>",
+            "<p>\\( \\theta(n \\lg n) \\)</p>",
+            "<p>\\( \\theta(n \\lg n)^{2} \\)</p>",
+            "<p>\\( \\theta(n \\lg \\lg n) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386151/ugc-net-cse-october-2022-part-1-question-6\" target=\"_blank\">https://gateoverflow.in/386151/ugc-net-cse-october-2022-part-1-question-6</a></p>"
+        },
+        {
+          "id": 98,
+          "question": "<p><a name=\"386152\"></a><div itemprop=\"text\"><p>Size and complexity are a part of</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | October 2022 | Part 1 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>People Metrics</p>",
+            "<p>Project Metrics</p>",
+            "<p>Process Metrics</p>",
+            "<p>Product Metrics</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386152/ugc-net-cse-october-2022-part-1-question-5\" target=\"_blank\">https://gateoverflow.in/386152/ugc-net-cse-october-2022-part-1-question-5</a></p>"
+        },
+        {
+          "id": 99,
+          "question": "<p><a name=\"386153\"></a><div itemprop=\"text\"><p>Consider the following statements about Context Free Language \\( \\text{(CFL)} \\) :<br>\n<strong>Statement I</strong>:&nbsp; \\( \\text{CFL} \\) is closed under homomorphism.<br>\n<strong>Statement II:&nbsp;</strong>\\( \\text{CFL} \\) is closed under complement.</p>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Statement \\( \\text{I} \\) is true and Statement II is false</p>",
+            "<p>Statement \\( \\text{II} \\) is true and Statement \\( \\mathrm{I} \\) is false</p>",
+            "<p>Both Statement \\( \\text{I} \\) and Statement \\( II \\) are true</p>",
+            "<p>Neither Statement \\( \\text{I} \\) nor Statement \\( \\text{II} \\) is true</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386153/ugc-net-cse-october-2022-part-1-question-4\" target=\"_blank\">https://gateoverflow.in/386153/ugc-net-cse-october-2022-part-1-question-4</a></p>"
+        },
+        {
+          "id": 100,
+          "question": "<p><a name=\"386154\"></a><div itemprop=\"text\"><p>Using \\( \\text{'RSA'} \\) algorithm, if \\( p=13, q=5 \\) and \\( e=7 \\). the value of \\( d \\) and cipher value of \\( '6' \\) with \\( (e, n) \\) key are</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | October 2022 | Part 1 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7, 4 \\)</p>",
+            "<p>\\( 7, 1 \\)</p>",
+            "<p>\\( 7, 46 \\)</p>",
+            "<p>\\( 55,1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386154/ugc-net-cse-october-2022-part-1-question-3\" target=\"_blank\">https://gateoverflow.in/386154/ugc-net-cse-october-2022-part-1-question-3</a></p>"
+        },
+        {
+          "id": 101,
+          "question": "<p><a name=\"386155\"></a><div itemprop=\"text\"><p>Consider two lists \\( \\mathrm{A} \\) and \\( \\mathrm{B} \\) of three strings on \\( \\{0,1\\} \\)<br>\n\\( X \\) :&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List A</strong></td>\n\t\t\t<td><strong>List B</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 111 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 10111 \\)</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 0 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>\\( Y \\):</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>List A</strong></td>\n\t\t\t<td><strong>List B</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 101 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 011 \\)</td>\n\t\t\t<td>\\( 11 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 101 \\)</td>\n\t\t\t<td>\\( 011 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><br>\nWhich of the following is true?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2022 | Part 1 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only PCP in \\( \\text{X} \\) has solution.,</p>",
+            "<p>Only PCP in \\( \\text{Y} \\) has solution.,</p>",
+            "<p>PCP in both \\( \\mathrm{X} \\) and \\( \\mathrm{Y} \\) has solution.</p>",
+            "<p>PCP neither in \\( \\mathrm{X} \\) nor in \\( \\mathrm{Y} \\) has solution.,</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386155/ugc-net-cse-october-2022-part-1-question-2\" target=\"_blank\">https://gateoverflow.in/386155/ugc-net-cse-october-2022-part-1-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

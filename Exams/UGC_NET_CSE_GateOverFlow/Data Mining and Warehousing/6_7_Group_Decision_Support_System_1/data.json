@@ -1,0 +1,26 @@
+{
+  "title": "Data Mining and Warehousing - Group Decision Support System",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Group Decision Support System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71701\"></a><div itemprop=\"text\"><p>Criticism free idea generation is a factor of _____.</p>\n\n</div><br><br><b>Data Mining and Warehousing: UGC NET CSE | August 2016 | Part 3 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Decision Support System</p>",
+            "<p>Group Decision Support System</p>",
+            "<p>Enterprise Resource Support System</p>",
+            "<p>Artificial Intelligence</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71701/ugc-net-cse-august-2016-part-3-question-73\" target=\"_blank\">https://gateoverflow.in/71701/ugc-net-cse-august-2016-part-3-question-73</a></p>"
+        }
+      ]
+    }
+  ]
+}

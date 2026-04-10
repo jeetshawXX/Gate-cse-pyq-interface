@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Distributed Computing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Distributed Computing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57358\"></a><div itemprop=\"text\"><p>The efficiency (E)&nbsp; and speed up (sp) for Multiprocessor with p processors satisfies:</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2012 | Part 3 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  E \\leq p \\text{ and } s_p \\leq p \\)</p>",
+            "<p>\\(  E \\leq 1 \\text{ and } s_p \\leq p \\)</p>",
+            "<p>\\(  E \\leq p \\text{ and } s_p \\leq 1 \\)</p>",
+            "<p>\\(  E \\leq 1 \\text{ and } s_p \\leq 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  E \\leq 1 \\text{ and } s_p \\leq p \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57358/ugc-net-cse-december-2012-part-3-question-2\" target=\"_blank\">https://gateoverflow.in/57358/ugc-net-cse-december-2012-part-3-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

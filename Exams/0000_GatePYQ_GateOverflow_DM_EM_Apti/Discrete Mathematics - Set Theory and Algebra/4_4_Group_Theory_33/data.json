@@ -1,0 +1,454 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Group Theory",
+  "duration": 91,
+  "sections": [
+    {
+      "name": "Group Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"94353\"></a><div itemprop=\"text\">Show that if \\( G \\) is a group such that \\( (a* b)^2 = a^2*b^2 \\) for all \\( a, b \\) belonging to \\( G \\), then \\( G \\) is an abelian.</div><br><br><b>GATE CSE 1988 | Question: 2xviii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94353/gate-cse-1988-question-2xviii\" target=\"_blank\">https://gateoverflow.in/94353/gate-cse-1988-question-2xviii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"84039\"></a><div itemprop=\"text\">Match the pairs in the following questions:\\[ \\begin{array}{|ll|ll|}\\hline (a) &amp; \\text{Groups} &amp; (p) &amp; \\text{Associativity} \\\\\\hline &nbsp;(b) &amp; \\text{Semigroups} &amp; (q) &amp; \\text{Identity} \\\\\\hline &nbsp;&nbsp;(c) &amp; \\text{Monoids} &amp; (r) &nbsp;&amp; \\text{Commutativity} \\\\\\hline (d) &amp; \\text{Abelian groups} &amp; (s) &nbsp;&amp; \\text{Left inverse} &nbsp;\\\\\\hline \\end{array} \\]</div><br><br><b>GATE CSE 1990 | Question: 2-x</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/84039/gate-cse-1990-question-2-x\" target=\"_blank\">https://gateoverflow.in/84039/gate-cse-1990-question-2-x</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"593\"></a><div itemprop=\"text\">If \\( G \\) is a group of even order, then show that there exists an element \\( a≠e \\), the identity in \\( G \\), such that \\( a^2 = e \\).</div><br><br><b>GATE CSE 1992 | Question: 14a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/593/gate-cse-1992-question-14a\" target=\"_blank\">https://gateoverflow.in/593/gate-cse-1992-question-14a</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2324\"></a><div itemprop=\"text\"><p>Let \\( \\left(\\{ p,q \\},*\\right) \\) be a semigroup where \\( p*p=q \\). Show that:</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( p*q=q*p \\) and</li>\n\t<li>\\( q*q=q \\)</li>\n</ol></div><br><br><b>GATE CSE 1993 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2324/gate-cse-1993-question-28\" target=\"_blank\">https://gateoverflow.in/2324/gate-cse-1993-question-28</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2451\"></a><div itemprop=\"text\">\n<p>Some group \\( (G, o) \\) is known to be abelian. Then, which one of the following is true for \\( G \\)?</p>\n\n\n</div><br><br><b>GATE CSE 1994 | Question: 1.10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( g=g^{-1} \\text{ for every } g \\in G \\)</p>",
+            "<p>\\( g=g^2 \\text{ for every }g &nbsp;\\in G \\)</p>",
+            "<p>\\( (goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G \\)</p>",
+            "<p>\\( G \\) is of finite order</p>"
+          ],
+          "correct_answer": "<p>\\( (goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2451/gate-cse-1994-question-1-10\" target=\"_blank\">https://gateoverflow.in/2451/gate-cse-1994-question-1-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2629\"></a><div itemprop=\"text\"><p>Let \\( A \\) be the set of all non-singular matrices over real number and let \\( * \\) be the matrix multiplication operation. Then</p>\n\n\n\n</div><br><br><b>GATE CSE 1995 | Question: 2.17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\) is closed under \\( * \\) but \\( \\langle A, *\\rangle \\) is not a semigroup.</p>",
+            "<p>\\( \\langle A, *\\rangle \\) is a semigroup but not a monoid.</p>",
+            "<p>\\( \\langle A, * \\rangle \\) is a monoid but not a group.</p>",
+            "<p>\\( \\langle A, *\\rangle \\) is a a group but not an abelian group.</p>"
+          ],
+          "correct_answer": "<p>\\( \\langle A, *\\rangle \\) is a a group but not an abelian group.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2629/gate-cse-1995-question-2-17\" target=\"_blank\">https://gateoverflow.in/2629/gate-cse-1995-question-2-17</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2659\"></a><div itemprop=\"text\"><p>Let \\( G_1 \\) and \\( G_2 \\) be subgroups of a group \\( G \\).</p>\n\n</div><br><br><b>GATE CSE 1995 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Show that \\( G_1 \\cap G_2 \\) is also a subgroup of \\( G \\).</p>",
+            "<p>Is \\( G_1 \\cup G_2 \\) always a subgroup of \\( G \\)?.</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2659/gate-cse-1995-question-21\" target=\"_blank\">https://gateoverflow.in/2659/gate-cse-1995-question-21</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2708\"></a><div itemprop=\"text\"><p>Which of the following statements is FALSE?</p>\n\n\n\n</div><br><br><b>GATE CSE 1996 | Question: 1.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The set of rational numbers is an abelian group under addition</p>",
+            "<p>The set of integers in an abelian group under addition</p>",
+            "<p>The set of rational numbers form an abelian group under multiplication</p>",
+            "<p>The set of real numbers excluding zero is an abelian group under multiplication</p>"
+          ],
+          "correct_answer": "<p>The set of rational numbers form an abelian group under multiplication</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2708/gate-cse-1996-question-1-4\" target=\"_blank\">https://gateoverflow.in/2708/gate-cse-1996-question-1-4</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"2733\"></a><div itemprop=\"text\"><p>Which one of the following is false?</p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 2.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The set of all bijective functions on a finite set forms a group under function composition</p>",
+            "<p>The set \\( \\{1, 2, \\dots p-1\\} \\) forms a group under multiplication mod \\( p \\), where \\( p \\) is a prime number</p>",
+            "<p>The set of all strings over a finite alphabet forms a group under concatenation</p>",
+            "<p>A subset \\( S \\neq \\emptyset \\) of \\( G \\) is a subgroup of the group \\( \\langle G, * \\rangle \\) if and only if for any pair of elements \\( a, b \\in S, a * b^{-1}&nbsp;\\in&nbsp;S \\)</p>"
+          ],
+          "correct_answer": "<p>The set of all strings over a finite alphabet forms a group under concatenation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2733/gate-cse-1996-question-2-4\" target=\"_blank\">https://gateoverflow.in/2733/gate-cse-1996-question-2-4</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"2232\"></a><div itemprop=\"text\"><p>Let \\( \\left(Z, *\\right) \\) be an algebraic structure where \\( Z \\) is the set of integers and the operation \\( * \\) is defined by \\( n*m = \\max(n,m) \\). Which of the following statements is true for&nbsp;\\( \\left(Z, *\\right) \\)?</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 3.1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(Z, *\\right) \\) is a monoid</p>",
+            "<p>\\( \\left(Z, *\\right) \\) is an Abelian group</p>",
+            "<p>\\( \\left(Z, *\\right) \\) is a group</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2232/gate-cse-1997-question-3-1\" target=\"_blank\">https://gateoverflow.in/2232/gate-cse-1997-question-3-1</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1726\"></a><div itemprop=\"text\">\n<p>Let \\( (A, *) \\) be a semigroup, Furthermore, for every \\( a \\) and \\( b \\) in \\( A \\), if \\( a \\neq b \\), then \\( a*b \\neq b*a \\).</p>\n\n<ol style=\"list-style-type: lower-alpha;\"><li>Show that for every \\( a \\) in \\( A \\), \\( a*a=a \\)</li>\n\t<li>Show that for every \\( a \\), \\( b \\) in \\( A \\), \\( a*b*a=a \\)</li>\n\t<li>Show that for every \\( a,b,c \\) in \\( A \\), \\( a*b*c=a*c \\)</li>\n</ol>\n</div><br><br><b>GATE CSE 1998 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1726/gate-cse-1998-question-12\" target=\"_blank\">https://gateoverflow.in/1726/gate-cse-1998-question-12</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1503\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a finite group and \\( H \\) be a subgroup of \\( G \\). For \\( a \\in G \\), define \\( aH=\\left\\{ah \\mid h \\in H\\right\\} \\).</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\n\t<p>Show that \\( |aH| = |bH|. \\)</p>\n\t</li>\n\t<li>\n\t<p>Show that for every pair of elements \\( a, b \\in G \\), either \\( aH = bH \\) or \\( aH \\) and \\( bH \\) are disjoint.</p>\n\t</li>\n\t<li>\n\t<p>Use the above to argue that the order of \\( H \\) must divide the order of \\( G. \\)</p>\n\t</li>\n</ol></div><br><br><b>GATE CSE 1999 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1503/gate-cse-1999-question-4\" target=\"_blank\">https://gateoverflow.in/1503/gate-cse-1999-question-4</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"675\"></a><div itemprop=\"text\"><p>Let \\( S= \\{0, 1, 2, 3, 4, 5, 6, 7\\} \\) and \\( ⊗ \\) denote multiplication modulo \\( 8, \\) that is, \\( x ⊗ y= (xy) \\mod 8 \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>Prove that \\( ( \\{ 0, 1\\}, ⊗) \\) is not a group.</li>\n\t<li>Write three distinct groups \\( (G, ⊗) \\) where \\( G ⊂ S \\) and \\( G \\) has \\( 2 \\) elements.</li>\n</ol></div><br><br><b>GATE CSE 2000 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/675/gate-cse-2000-question-4\" target=\"_blank\">https://gateoverflow.in/675/gate-cse-2000-question-4</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"810\"></a><div itemprop=\"text\"><p>Which of the following is true?</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 1.6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The set of all rational negative numbers forms a group under multiplication.</p>",
+            "<p>The set of all non-singular matrices forms a group under multiplication.</p>",
+            "<p>The set of all matrices forms a group under multiplication.</p>",
+            "<p>Both B and C are true.</p>"
+          ],
+          "correct_answer": "<p>The set of all non-singular matrices forms a group under multiplication.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/810/gate-cse-2002-question-1-6\" target=\"_blank\">https://gateoverflow.in/810/gate-cse-2002-question-1-6</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"898\"></a><div itemprop=\"text\"><p>Consider the set \\( \\Sigma^* \\) of all strings over the alphabet \\( \\Sigma = \\{0, 1\\} \\). \\( \\Sigma^* \\) with the concatenation operator for strings</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>does not form a group</p>",
+            "<p>forms a non-commutative group</p>",
+            "<p>does not have a right identity element</p>",
+            "<p>forms a group if the&nbsp;empty string is removed from \\( \\Sigma^* \\)</p>"
+          ],
+          "correct_answer": "<p>does not form a group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/898/gate-cse-2003-question-7\" target=\"_blank\">https://gateoverflow.in/898/gate-cse-2003-question-7</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1066\"></a><div itemprop=\"text\"><p>The following is the incomplete operation table of a \\( 4- \\)element group.</p>\n\n<p>\\[ \\begin{array}{|l|l|l|l|l|} \\hline \\textbf{*} &amp; \\textbf{e}&amp; \\textbf{a} &amp;\\textbf{b} &amp; \\textbf{c}\\\\\\hline \\textbf{e} &amp; \\text{e}&amp; \\text{a} &amp; \\text{b} &amp; \\text{c} \\\\\\hline \\textbf{a} &amp; \\text{a}&amp; \\text{b}&nbsp;&amp; \\text{c} &amp; \\text{e}\\\\\\hline \\textbf{b}\\\\\\hline \\textbf{c} \\\\\\hline\\end{array} \\]</p>\n\n<p>The last row of the table is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( c\\;a\\;e\\; b \\)</p>",
+            "<p>\\( c\\; b\\; a\\; e \\)</p>",
+            "<p>\\( c\\; b\\; e\\; a \\)</p>",
+            "<p>\\( c\\; e\\; a\\; b \\)</p>"
+          ],
+          "correct_answer": "<p>\\( c\\; e\\; a\\; b \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1066/gate-cse-2004-question-72\" target=\"_blank\">https://gateoverflow.in/1066/gate-cse-2004-question-72</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1163\"></a><div itemprop=\"text\"><p>The set \\(\\{1, 2, 4, 7, 8, 11, 13, 14\\}\\) is a group under multiplication modulo \\( 15 \\). The inverses of \\( 4 \\) and \\( 7 \\) are respectively:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\) and \\( 13 \\)</p>",
+            "<p>\\( 2 \\) and \\( 11 \\)</p>",
+            "<p>\\( 4 \\) and \\( 13 \\)</p>",
+            "<p>\\( 8 \\) and \\( 14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\) and \\( 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1163/gate-cse-2005-question-13\" target=\"_blank\">https://gateoverflow.in/1163/gate-cse-2005-question-13</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1171\"></a><div itemprop=\"text\"><p>Consider the set \\( H \\)&nbsp;of all \\( 3 * 3 \\) matrices of the type \\[ \\left( \\begin{array}{ccc} a &amp; f &amp; e \\\\ 0 &amp; b &amp; d \\\\ 0 &amp; 0 &amp; c \\end{array} \\right) \\] where \\( a,b,c,d,e \\) and \\( f \\) are real numbers and \\( abc ≠ 0. \\) Under the matrix multiplication operation, the set \\( H \\) is:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a group</p>",
+            "<p>a monoid but not a group</p>",
+            "<p>a semi group but not a monoid</p>",
+            "<p>neither a group nor a semi group</p>"
+          ],
+          "correct_answer": "<p>a group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1171/gate-cse-2005-question-46\" target=\"_blank\">https://gateoverflow.in/1171/gate-cse-2005-question-46</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"882\"></a><div itemprop=\"text\"><p>The set \\( \\{1,2,3,5,7,8,9\\} \\) under multiplication modulo \\( 10 \\) is not a group. Given below are four possible reasons. Which one of them is false?</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is not closed</p>",
+            "<p>\\( 2 \\) does not have an inverse</p>",
+            "<p>\\( 3 \\) does not have an inverse</p>",
+            "<p>\\( 8 \\) does not have an inverse</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\) does not have an inverse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/882/gate-cse-2006-question-3\" target=\"_blank\">https://gateoverflow.in/882/gate-cse-2006-question-3</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"1219\"></a><div itemprop=\"text\"><p>How many different non-isomorphic Abelian groups of order \\( 4 \\) are there?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1219/gate-cse-2007-question-21\" target=\"_blank\">https://gateoverflow.in/1219/gate-cse-2007-question-21</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"795\"></a><div itemprop=\"text\"><p>Which one of the following is <strong>NOT</strong> necessarily a property of a Group?</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Commutativity</p>",
+            "<p>Associativity &nbsp;&nbsp;</p>",
+            "<p>Existence of inverse for every element &nbsp;&nbsp;</p>",
+            "<p>Existence of identity</p>"
+          ],
+          "correct_answer": "<p>Commutativity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/795/gate-cse-2009-question-1\" target=\"_blank\">https://gateoverflow.in/795/gate-cse-2009-question-1</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"799\"></a><div itemprop=\"text\"><p>For the composition table of a cyclic group shown below:<br>\n\\[ \\begin{array}{|c|c|c|c|c|} \\hline \\textbf{*} &amp; \\textbf{a}&amp; \\textbf{b} &amp;\\textbf{c} &amp; \\textbf{d}\\\\\\hline \\textbf{a} &amp; \\text{a}&amp; \\text{b} &amp; \\text{c} &amp; \\text{d}&nbsp;\\\\\\hline \\textbf{b} &amp; \\text{b}&amp; \\text{a}&nbsp;&amp; \\text{d} &amp;\\text{c}\\\\\\hline \\textbf{c} &amp; \\text{c}&amp; \\text{d} &amp; \\text{b} &amp; \\text{a}\\\\\\hline&nbsp;\\textbf{d} &amp; \\text{d}&amp; \\text{c} &amp; \\text{a} &amp; \\text{b} \\\\\\hline \\end{array} \\]<br>\nWhich one of the following choices is correct?</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a,b \\) are generators</p>",
+            "<p>\\( b,c \\) are generators</p>",
+            "<p>\\( c,d \\) are generators</p>",
+            "<p>\\( d,a \\) are generators</p>"
+          ],
+          "correct_answer": "<p>\\( c,d \\) are generators</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/799/gate-cse-2009-question-22\" target=\"_blank\">https://gateoverflow.in/799/gate-cse-2009-question-22</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"1150\"></a><div itemprop=\"text\"><p>Consider the set \\( S = \\{1, ω, ω^2\\} \\), where \\( ω \\) and \\( ω^2 \\) are cube roots of unity. If \\( * \\) denotes the multiplication operation, the structure \\( (S, *) \\) forms</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A Group</p>",
+            "<p>A Ring</p>",
+            "<p>An integral domain</p>",
+            "<p>A field</p>"
+          ],
+          "correct_answer": "<p>A Group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1150/gate-cse-2010-question-4\" target=\"_blank\">https://gateoverflow.in/1150/gate-cse-2010-question-4</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"2037\"></a><div itemprop=\"text\">Let \\( G \\) be a group with \\( 15 \\) elements. Let \\( L \\) be a subgroup of \\( G \\). It is known that \\( L \\neq\\ G \\) and that the size of \\( L \\) is at least \\( 4 \\). The size of \\( L \\) is __________.</div><br><br><b>GATE CSE 2014 Set 3 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2037/gate-cse-2014-set-3-question-3\" target=\"_blank\">https://gateoverflow.in/2037/gate-cse-2014-set-3-question-3</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"2084\"></a><div itemprop=\"text\">There are two elements \\( x,\\:y \\) in a group \\( (G,*) \\) such that every element in the group can be written as a product of some number of \\( x \\)'s and \\( y \\)'s in some order. It is known that<br>\n\\[ x*x=y*y=x*y*x*y=y*x*y*x=e \\]<br>\nwhere \\( e \\) is the identity element. The maximum number of elements in such a group is ____.</div><br><br><b>GATE CSE 2014 Set 3 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2084/gate-cse-2014-set-3-question-50\" target=\"_blank\">https://gateoverflow.in/2084/gate-cse-2014-set-3-question-50</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"204093\"></a><div itemprop=\"text\">Let \\( G \\) be a finite group on \\( 84 \\) elements. The size of a largest possible proper subgroup of \\( G \\) is _____</div><br><br><b>GATE CSE 2018 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "42",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204093/gate-cse-2018-question-19\" target=\"_blank\">https://gateoverflow.in/204093/gate-cse-2018-question-19</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"302838\"></a><div itemprop=\"text\"><p>Let \\( G \\) be an arbitrary group. Consider the following relations on \\( G \\):</p>\n\n<ul>\n\t<li>\\( R_1: \\forall a&nbsp;, b \\in G, \\: a R_1 b \\text{ if and only if } \\exists g \\in G \\text{ such that } a = g^{-1}bg \\)</li>\n\t<li>\\( R_2:&nbsp;\\forall a&nbsp;, b \\in G, \\: a R_2&nbsp;b \\text{ if and only if } a= b^{-1} \\)</li>\n</ul>\n\n<p>Which of the above is/are equivalence relation/relations?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R_1 \\) and \\( R_2 \\)</p>",
+            "<p>\\( R_1 \\) only</p>",
+            "<p>\\( R_2 \\) only</p>",
+            "<p>Neither \\( R_1 \\) nor \\( R_2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( R_1 \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302838/gate-cse-2019-question-10\" target=\"_blank\">https://gateoverflow.in/302838/gate-cse-2019-question-10</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"333213\"></a><div itemprop=\"text\">Let \\( G \\) be a group of \\( 35 \\) elements. Then the largest possible size of a subgroup of \\( G \\) other than \\( G \\) itself is _______.</div><br><br><b>GATE CSE 2020 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333213/gate-cse-2020-question-18\" target=\"_blank\">https://gateoverflow.in/333213/gate-cse-2020-question-18</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"357417\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a group of order \\( 6 \\), and \\( H \\) be a subgroup of \\( G \\) such that \\( 1&lt;|H|&lt;6 \\). Which one of the following options is correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( G \\) and \\( H \\) are always cyclic</p>",
+            "<p>\\( G \\) may not be cyclic, but \\( H \\) is always cyclic</p>",
+            "<p>\\( G \\) is always cyclic, but \\( H \\) may not be cyclic</p>",
+            "<p>Both \\( G \\) and \\( H \\) may not be cyclic</p>"
+          ],
+          "correct_answer": "<p>\\( G \\) may not be cyclic, but \\( H \\) is always cyclic</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34\" target=\"_blank\">https://gateoverflow.in/357417/gate-cse-2021-set-1-question-34</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"371919\"></a><div itemprop=\"text\"><p>Which of the following statements is/are \\( \\text{TRUE} \\) for a group \\( \\textit{G}? \\)</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 17</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>If for all \\( x,y \\in \\textit{G}, \\; (xy)^{2} = x^{2} y^{2}, \\) then \\( \\textit{G} \\) is commutative.</p>",
+            "<p>If for all \\( x \\in \\textit{G}, \\; x^{2} = 1, \\) then \\( \\textit{G} \\) is commutative. Here, \\( 1 \\) is the identity element of \\( \\textit{G}. \\)</p>",
+            "<p>If the order of \\( \\textit{G} \\) is \\( 2, \\) then \\( \\textit{G} \\) is commutative.</p>",
+            "<p>If \\( \\textit{G} \\) is commutative, then a subgroup of \\( \\textit{G} \\) need not be commutative.</p>"
+          ],
+          "correct_answer": [
+            "<p>If for all \\( x,y \\in \\textit{G}, \\; (xy)^{2} = x^{2} y^{2}, \\) then \\( \\textit{G} \\) is commutative.</p>",
+            "<p>If for all \\( x \\in \\textit{G}, \\; x^{2} = 1, \\) then \\( \\textit{G} \\) is commutative. Here, \\( 1 \\) is the identity element of \\( \\textit{G}. \\)</p>",
+            "<p>If the order of \\( \\textit{G} \\) is \\( 2, \\) then \\( \\textit{G} \\) is commutative.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371919/gate-cse-2022-question-17\" target=\"_blank\">https://gateoverflow.in/371919/gate-cse-2022-question-17</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"399270\"></a><div itemprop=\"text\"><p>Let \\( X \\) be a set and \\( 2^{X} \\) denote the powerset of \\( X \\).</p>\n\n<p>Define a binary operation \\( \\Delta \\) on \\( 2^{X} \\) as follows:<br>\n\\[<br>\nA \\Delta B=(A-B) \\cup(B-A) \\text {. }<br>\n\\]<br>\nLet \\( H=\\left(2^{X}, \\Delta\\right) \\). Which of the following statements about \\( H \\) is/are correct?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 41</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( H \\) is a group.</p>",
+            "<p>Every element in \\( H \\) has an inverse, but \\( H \\) is NOT a group.</p>",
+            "<p>For every \\( A \\in 2^{X}, \\)&nbsp;the inverse of \\( A \\) is the complement of \\( A \\).</p>",
+            "<p>For every \\( A \\in 2^{X}, \\)&nbsp;the inverse of \\( A \\) is \\( A \\).</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( H \\) is a group.</p>",
+            "<p>For every \\( A \\in 2^{X}, \\)&nbsp;the inverse of \\( A \\) is \\( A \\).</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399270/gate-cse-2023-question-41\" target=\"_blank\">https://gateoverflow.in/399270/gate-cse-2023-question-41</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"422800\"></a><div itemprop=\"text\"><p>Consider the operators \\( \\diamond \\) and \\( \\square \\) defined by \\( a \\diamond b=a+2 b, a \\square b=a b \\), for positive integers. Which of the following statements is/are TRUE?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 42</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Operator \\( \\diamond \\) obeys the associative law</p>",
+            "<p>Operator \\( \\square \\) obeys the associative law</p>",
+            "<p>Operator \\( \\diamond \\)&nbsp;over the operator \\( \\square \\) obeys the distributive law</p>",
+            "<p>Operator \\( \\square \\) over the operator \\( \\diamond \\)&nbsp;obeys the distributive law&nbsp;</p>"
+          ],
+          "correct_answer": [
+            "<p>Operator \\( \\square \\) obeys the associative law</p>",
+            "<p>Operator \\( \\square \\) over the operator \\( \\diamond \\)&nbsp;obeys the distributive law&nbsp;</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42\" target=\"_blank\">https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"422844\"></a><div itemprop=\"text\">Let \\( Z_{n} \\) be the group of integers \\( \\{0,1,2, \\ldots, n-1\\} \\) with addition modulo \\( n \\) as the group operation. The number of elements in the group \\( Z_{2} \\times Z_{3} \\times Z_{4} \\) that are their own inverses is ___________.</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422844/gate-cse-2024-set-2-question-53\" target=\"_blank\">https://gateoverflow.in/422844/gate-cse-2024-set-2-question-53</a></p>"
+        }
+      ]
+    }
+  ]
+}

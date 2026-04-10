@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "General Awareness - Loans",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Loans",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"120\"></a><div itemprop=\"text\"><p>What are teaser loans?</p>\n\n<p>&nbsp;</p>\n\n<ol>\n\t<li>Fixed Rate of Interest charged by Banks</li>\n\t<li>Floating Rate of Interest charged by banks</li>\n\t<li>Rate of Interest in the initial period is very less and increases steeply in later years</li>\n\t<li>Rate of Interest in later years goes down substantially</li>\n\t<li>None of these</li>\n</ol>\n\n<p>&nbsp;</p></div><br><br><b>General Awareness: What are teaser loans?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/120/what-are-teaser-loans\" target=\"_blank\">https://aptitude.gateoverflow.in/120/what-are-teaser-loans</a></p>"
+        }
+      ]
+    }
+  ]
+});

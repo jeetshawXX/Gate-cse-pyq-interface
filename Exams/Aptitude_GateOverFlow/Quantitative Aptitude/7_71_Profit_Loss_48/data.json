@@ -1,0 +1,698 @@
+{
+  "title": "Quantitative Aptitude - Profit Loss",
+  "duration": 133,
+  "sections": [
+    {
+      "name": "Profit Loss",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4354\"></a><div itemprop=\"text\"></div><br><br><b>Quantitative Aptitude: A shopkeeper sells two computers for Rs 24000 each. On first he gained 20% and on the other, he lost 20%. What is the overall gain or loss percentage?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4354/shopkeeper-sells-computers-gained-other-overall-percentage\" target=\"_blank\">https://aptitude.gateoverflow.in/4354/shopkeeper-sells-computers-gained-other-overall-percentage</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3783\"></a><div itemprop=\"text\"><p>I sold two watches for Rs.&nbsp;\\( 300 \\) each, one at a loss of \\( 10 \\)% and the other at a profit of \\( 10 \\)%. What is the percent loss \\( (–) \\) or the percent profit \\( (+) \\) that resulted from the transaction?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 113</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (+) 10 \\)&nbsp;</p>",
+            "<p>\\( (–) 1 \\)&nbsp;</p>",
+            "<p>\\( (+) 1 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3783/cat-1996-question-113\" target=\"_blank\">https://aptitude.gateoverflow.in/3783/cat-1996-question-113</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3784\"></a><div itemprop=\"text\"><p>The price of a Maruti car rises by \\( 30 \\)% while the sales of the car came down by \\( 20 \\)%. What is the percent change in the total revenue?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 114</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( –4 \\)&nbsp;</p>",
+            "<p>\\( –2 \\)&nbsp;</p>",
+            "<p>\\( +4 \\)&nbsp;</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3784/cat-1996-question-114\" target=\"_blank\">https://aptitude.gateoverflow.in/3784/cat-1996-question-114</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3791\"></a><div itemprop=\"text\"><p>A salesman enters the quantity sold and the price into the computer. Both the numbers are two-digit numbers. Once, by mistake, both the numbers were entered with their digits interchanged. The total sales value remained the same, i.e. Rs. \\( 1148 \\), but the inventory reduced by \\( 54 \\).</p>\n\n<p>What is the actual price per piece?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 121</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 82 \\)&nbsp;</p>",
+            "<p>\\( 28 \\)&nbsp;</p>",
+            "<p>\\( 56 \\)&nbsp;</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3791/cat-1996-question-121\" target=\"_blank\">https://aptitude.gateoverflow.in/3791/cat-1996-question-121</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3792\"></a><div itemprop=\"text\"><p>A salesman enters the quantity sold and the price into the computer. Both the numbers are two-digit numbers. Once, by mistake, both the numbers were entered with their digits interchanged. The total sales value remained the same, i.e. Rs. \\( 1148 \\), but the inventory reduced by \\( 54 \\).</p>\n\n<p>What is the actual quantity sold?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 122</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>28</p>",
+            "<p>14</p>",
+            "<p>82</p>",
+            "<p>41</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3792/cat-1996-question-122\" target=\"_blank\">https://aptitude.gateoverflow.in/3792/cat-1996-question-122</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3795\"></a><div itemprop=\"text\"><p>The cost of a diamond varies directly as the square of its weight. Once, this diamond broke into four pieces with weights in the ratio \\( 1 : 2 : 3 : 4 \\). When the pieces were sold, the merchant got Rs. \\( 70,000 \\) less. Find the original price of the diamond.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 125</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 1.4 \\)&nbsp;lakh</p>",
+            "<p>Rs. \\( 2.0 \\)&nbsp;lakh</p>",
+            "<p>Rs. \\( 1.0 \\)&nbsp;lakh</p>",
+            "<p>Rs. \\( 2.1 \\)&nbsp;lakh</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3795/cat-1996-question-125\" target=\"_blank\">https://aptitude.gateoverflow.in/3795/cat-1996-question-125</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3809\"></a><div itemprop=\"text\"><p>A watch dealer incurs an expense of Rs \\( 150 \\) for producing every watch. He also incurs an additional expenditure of Rs. \\( 30,000 \\), which is independent of the number of watches produced. If he is able to sell a watch during the season, he sells it for Rs. \\( 250 \\). If he fails to do so, he has to sell each watch for Rs. \\( 100 \\).</p>\n\n<p>If he is able to sell only \\( 1200 \\) out of the \\( 1500 \\) watches he has made in the season. then in the season he has made a profit of</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 139</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 90,000 \\)</p>",
+            "<p>Rs. \\( 75,000 \\)</p>",
+            "<p>Rs. \\( 45,000 \\)</p>",
+            "<p>Rs. \\( 60,000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3809/cat-1996-question-139\" target=\"_blank\">https://aptitude.gateoverflow.in/3809/cat-1996-question-139</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3812\"></a><div itemprop=\"text\"><p>Instead of a metre scale, a cloth merchant uses a \\( 120 \\) cm scale while buying, but uses an 80 cm scale while selling the same cloth. If he&nbsp;offers a discount of \\( 20 \\) percent on cash payment, what is his overall percent profit?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 142</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)%</p>",
+            "<p>\\( 25 \\)%</p>",
+            "<p>\\( 40 \\)%</p>",
+            "<p>\\( 15 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3812/cat-1996-question-142\" target=\"_blank\">https://aptitude.gateoverflow.in/3812/cat-1996-question-142</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3501\"></a><div itemprop=\"text\"><p>After a discount of \\( 11.11 \\)%, a trader still makes a gain of \\( 14.28 \\)%. At how many percent above the cost price does he mark his goods?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 110</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 28.56 \\)%&nbsp;</p>",
+            "<p>\\( 35 \\)%</p>",
+            "<p>\\( 22.22 \\)%</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3501/cat-1997-question-110\" target=\"_blank\">https://aptitude.gateoverflow.in/3501/cat-1997-question-110</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1007\"></a><div itemprop=\"text\"><p>A leather factory produces two kinds of bags, standard and deluxe. The profit margin is Rs. \\( 20 \\) on a standard bag and Rs. \\( 30 \\) on a deluxe bag. Every bag must be processed on a machine A and on machine B. The processing times per bag on the two machines are as follows:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td colspan=\"2\" rowspan=\"1\">Time required (Hours/bag)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>Machine A</td>\n\t\t\t<td>Machine B</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Standard bag</td>\n\t\t\t<td>4</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Deluxe bag</td>\n\t\t\t<td>5</td>\n\t\t\t<td>10</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The total time available on machine A is \\( 700 \\) hours and on machine B is \\( 1250 \\) hours . Among the following production plans which one meets machine availability constrains and maximizes the profit?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Standard \\( 75 \\) bags, Deluxe \\( 80 \\) bags</p>",
+            "<p>Standard \\( 100 \\) bags, Deluxe \\( 60 \\) bags</p>",
+            "<p>Standard \\( 50 \\) bags, Deluxe \\( 100 \\) bags</p>",
+            "<p>Standard \\( 60 \\) bags, Deluxe \\( 90 \\) bags</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1007/cat-2003-question-1-109\" target=\"_blank\">https://aptitude.gateoverflow.in/1007/cat-2003-question-1-109</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"582\"></a><div itemprop=\"text\"><p><strong>Directions for below question:</strong></p>\n\n<p>Mr. David manufacturers and sells a single product a fixed price in a niche market. The selling price of each unit is Rs. \\( 30. \\) On the other hand, the cost, in rupees, of producing x units is \\( 240+bx+cx^2 \\) where \\( b \\) and \\( c \\) are some constants. Mr. David noticed that doubling the daily production from \\( 40 \\)&nbsp;to \\( 60 \\) units results in an increases the daily production cost by \\( 66.66\\%. \\) However, an increase in daily production from \\( 40-60 \\)&nbsp;units results in an increase of only \\( 50\\% \\) in the daily production cost, Assume that demand is unlimited and that Mr. David can sell as much he can produce. His objective is to maximize the profit.</p>\n\n<p>How many units should Mr.David produce daily?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 130 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 70 \\)</p>",
+            "<p>\\( 150 \\)</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/582/cat-2007-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/582/cat-2007-question-12</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1919\"></a><div itemprop=\"text\"><p><strong>Directions for below question:</strong></p>\n\n<p>Mr. David manufacturers and sells a single product a fixed price in a niche market. The selling price of each unit is Rs. \\( 30. \\) On the other hand, the cost, in rupees, of producing x units is \\( 240+bx+cx^2 \\) where \\( b \\) and \\( c \\) are some constants. Mr. David noticed that doubling the daily production from \\( 40 \\)&nbsp;to \\( 60 \\) units results in an increases the daily production cost by \\( 66.66\\%. \\) However, an increase in daily production from \\( 40-60 \\)&nbsp;units results in an increase of only \\( 50\\% \\) in the daily production cost, Assume that demand is unlimited and that Mr. David can sell as much he can produce. His objective is to maximize the profit.</p>\n\n<p>What is the maximum daily profit, in rupees, that Mr.David can realize from his business?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2007 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 620 \\)</p>",
+            "<p>\\( 920 \\)</p>",
+            "<p>\\( 840 \\)</p>",
+            "<p>\\( 760 \\)</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1919/cat-2007-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/1919/cat-2007-question-13</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"5318\"></a><div itemprop=\"text\"><p>A television company manufactures two models of televisions-A and B. Each unit of model A requires four hours to manufacture and each unit of model B requires two hours to manufacture. The total time available in a month to manufacture these two models is \\( 1600 \\) hours. The profits generated on selling each unit of model A and each unit of model B are ₹\\( 1200 \\) and ₹\\( 1000 \\) respectively. Find the number of units of each of model A and model B television to be manufactured to maximize the profit.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 200 \\) model as As and \\( 600 \\) model Bs</p>",
+            "<p>\\( 800 \\) model as As</p>",
+            "<p>\\( 800 \\) model Bs</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5318/cat-2013-question-24\" target=\"_blank\">https://aptitude.gateoverflow.in/5318/cat-2013-question-24</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"875\"></a><div itemprop=\"text\"><p>Instead of a metre scale, a cloth merchant uses a \\( 120 \\) cm scale while buying, but uses an \\( 80 \\) cm scale while selling the same cloth. What is his overall profit percentage?&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 50\\% \\)</li>\n\t<li>\\( 25\\% \\)</li>\n\t<li>\\( 40\\% \\)</li>\n\t<li>\\( 15\\% \\)</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2014 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/875/cat-2014-question-2\" target=\"_blank\">https://aptitude.gateoverflow.in/875/cat-2014-question-2</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"5583\"></a><div itemprop=\"text\"><p>A stockist wants to make some profit by selling sugar. He contemplates about various methods. Which of the following would maximise his profit?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Sell sugar at \\( 10\\% \\) profit.</li>\n\t<li>Use \\( 900 \\) g of weight instead of \\( 1 \\) kg.</li>\n\t<li>Mix \\( 10\\% \\) impurities in sugar and selling sugar at cost price.</li>\n\t<li>Increase the price by \\( 5\\% \\) and reduce weights by \\( 5\\% \\).</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I or II</p>",
+            "<p>II</p>",
+            "<p>II, III and IV</p>",
+            "<p>Profits are same</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5583/cat-2015-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/5583/cat-2015-question-69</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"5698\"></a><div itemprop=\"text\"><p>Instead of a metre scale, a cloth merchant uses a \\( 120\\; \\text{cm} \\)&nbsp;scale while buying, but uses an \\( 80\\; \\text{cm} \\) scale while selling the same cloth. If he offers a discount of \\( 20 \\% \\) on cash payment, what is his overall profit percentage?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20\\% \\)</p>",
+            "<p>\\( 25\\% \\)</p>",
+            "<p>\\( 40\\% \\)</p>",
+            "<p>\\( 15\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5698/cat-2016-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/5698/cat-2016-question-70</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"5691\"></a><div itemprop=\"text\"><p>A watch dealer incurs an expense of Rs. \\( 150 \\) for producing every watch. He also incurs an additional expenditure of Rs. \\( 30,000 \\), which is independent of the number of watches produced. If he is able to sell a watch during the season, he sells it for Rs. \\( 250 \\). If he fails to do so, he has to sell each watch for Rs. \\( 100 \\). If he is able to sell only \\( 1,200 \\) out of \\( 1,500 \\) watches he has made in the season, then he has made a profit of</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{Rs. }90,000 \\)</p>",
+            "<p>\\( \\text{Rs. }75,000 \\)</p>",
+            "<p>\\( \\text{Rs. }45,000 \\)</p>",
+            "<p>\\( \\text{Rs. }60,000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5691/cat-2016-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/5691/cat-2016-question-77</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"5675\"></a><div itemprop=\"text\"><p>I sold two watches for Rs. \\( 300 \\) each, one at the loss of \\( 10\\% \\) and the other at the profit of \\( 10\\% \\). What is the percentage of loss\\( (–) \\) or profit\\( (+) \\) that resulted from the transaction?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2016 | Question: 93</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (+)10 \\)</p>",
+            "<p>\\( (-)1 \\)</p>",
+            "<p>\\( (+)1 \\)</p>",
+            "<p>\\( (-)10 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5675/cat-2016-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/5675/cat-2016-question-93</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"5782\"></a><div itemprop=\"text\"><p>If a seller gives a discount of \\( 15\\% \\) on retail price, she still makes a profit of \\( 2\\% \\). Which of the following ensures that she makes a profit of \\( 20\\% \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Give a discount of \\( 5\\% \\) on retail price</p>",
+            "<p>Give a discount of \\( 2\\% \\) on retail price</p>",
+            "<p>Increase the retail price by \\( 2\\% \\)</p>",
+            "<p>Sell at retail price</p>"
+          ],
+          "correct_answer": "<p>Sell at retail price</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5782/cat-2017-set-1-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/5782/cat-2017-set-1-question-72</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"5780\"></a><div itemprop=\"text\"><p>Suppose, \\( \\text{C1, C2, C3, C4} \\), and \\( \\text{C5} \\) are five companies. The profits made by \\( \\text{C1, C2} \\), and \\( \\text{C3} \\) are in the ratio \\( 9: 10: 8 \\)&nbsp;while the profits made by \\( \\text{C2, C4} \\), and \\( \\text{C5} \\) are in the ratio \\( 18: 19: 20 \\). If \\( \\text{C5} \\)&nbsp;has made a profit of Rs \\( 19 \\) crore more than \\( \\text{C1} \\), then the total profit (in Rs) made by all five companies is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 438 \\) crore</p>",
+            "<p>\\( 435 \\) crore</p>",
+            "<p>\\( 348 \\)&nbsp;crore</p>",
+            "<p>\\( 345 \\) crore</p>"
+          ],
+          "correct_answer": "<p>\\( 438 \\) crore</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5780/cat-2017-set-1-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/5780/cat-2017-set-1-question-74</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"5777\"></a><div itemprop=\"text\"><p>In a market, the price of medium quality mangoes is half that of good mangoes. A shopkeeper buys \\( 80 \\) kg&nbsp;good mangoes and \\( 40 \\)&nbsp;kg medium quality mangoes from the market and then sells all these at a common price which is \\( 10\\% \\) less than the price at which he bought the good ones. His overall profit is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6\\% \\)</p>",
+            "<p>\\( 8\\% \\)</p>",
+            "<p>\\( 10\\% \\)</p>",
+            "<p>\\( 12\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5777/cat-2017-set-1-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/5777/cat-2017-set-1-question-77</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"5776\"></a><div itemprop=\"text\"><p>If Fatima sells \\( 60 \\) identical toys at a \\( 40\\% \\) discount on the printed price, then she makes \\( 20\\% \\) profit. Ten of these toys are destroyed in fire. While selling the rest, how much discount should be given on the printed price so that she can make the same amount of profit?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30\\% \\)</p>",
+            "<p>\\( 25\\% \\)</p>",
+            "<p>\\( 24\\% \\)</p>",
+            "<p>\\( 28\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5776/cat-2017-set-1-question-78\" target=\"_blank\">https://aptitude.gateoverflow.in/5776/cat-2017-set-1-question-78</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"5868\"></a><div itemprop=\"text\"><p>The manufacturer of a table sells it to a wholesale dealer at a profit of \\( 10\\% \\). The wholesale dealer sells the table to a retailer at a profit of \\( 30\\% \\). Finally, the retailer sells it to a customer at a profit of \\( 50\\% \\). If the customer pays Rs. \\( 4290 \\) for the table, then its manufacturing cost (in Rs) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1500 \\)</p>",
+            "<p>\\( 2000 \\)</p>",
+            "<p>\\( 2500 \\)</p>",
+            "<p>\\( 3000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5868/cat-2017-set-2-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/5868/cat-2017-set-2-question-73</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"5866\"></a><div itemprop=\"text\"><p>Mayank buys some candies for Rs \\( 15 \\) a dozen and an equal number of different candies for Rs \\( 12 \\) a dozen. He sells all for Rs \\( 16.50 \\) a dozen and makes a profit of Rs \\( 150 \\). How many dozens of candies did he buy altogether?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 45 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5866/cat-2017-set-2-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/5866/cat-2017-set-2-question-75</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"6039\"></a><div itemprop=\"text\"><p>A trader sells \\( 10 \\)&nbsp;litres of a mixture of paints \\( \\text{A} \\) and \\( \\text{B} \\), where the amount of \\( \\text{B} \\) in the mixture does not exceed that of \\( \\text{A} \\). The cost of paint \\( \\text{A} \\) per litre is Rs.&nbsp;\\( 8 \\) more than that of paint \\( \\text{B} \\). If the trader sells the entire mixture for Rs. \\( 264 \\) and makes a profit of \\( 10\\% \\), then the highest possible cost of paint \\( \\text{B} \\), in Rs. per litre, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6039/cat-2018-set-1-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/6039/cat-2018-set-1-question-72</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"6026\"></a><div itemprop=\"text\"><p>A wholesaler bought walnuts and peanuts, the price of walnut per kg being thrice that of peanut per kg. He then sold \\( 8 \\) kg of peanuts at a profit of \\( 10\\% \\) and \\( 16 \\) kg of walnuts at a profit of \\( 20\\% \\) to a shopkeeper. However, the shopkeeper lost \\( 5 \\) kg of walnuts and \\( 3 \\) kg of peanuts in transit. He then mixed the remaining nuts and sold the mixture at Rs. \\( 166 \\) per kg, thus making an overall profit of \\( 25\\% \\). At what price, in Rs. per kg, did the wholesaler buy the walnuts?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 98 \\)</p>",
+            "<p>\\( 96 \\)</p>",
+            "<p>\\( 84 \\)</p>",
+            "<p>\\( 86 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 96 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6026/cat-2018-set-1-question-85\" target=\"_blank\">https://aptitude.gateoverflow.in/6026/cat-2018-set-1-question-85</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"5441\"></a><div itemprop=\"text\"><p>On selling a pen at \\( 5\\% \\) loss and a book at \\( 15\\% \\) gain, Karim&nbsp;gains Rs. \\( 7 \\). If he sells the pen at \\( 5\\% \\) gain and the book at \\( 10\\% \\) gain, he gains Rs. \\( 13 \\). What is the cost price of the book in Rupees?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 85 \\)</p>",
+            "<p>\\( 95 \\)</p>",
+            "<p>\\( 100 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 80 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5441/cat-2019-set-1-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/5441/cat-2019-set-1-question-70</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"6163\"></a><div itemprop=\"text\"><p>A shopkeeper sells two tables, each procured at cost price \\( p, \\) to Amal and Asim at a profit of \\( 20\\% \\) and at a loss of \\( 20\\% \\), respectively. Amal sells his table to Bimal at a profit of \\( 30\\% \\), while Asim sells his table to Barun at a loss of \\( 30\\% \\). If the amounts paid by Bimal and Barun are \\( x \\) and \\( y \\), respectively, then \\( (x −y) / p \\) equals</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.7 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1.2 \\)</p>",
+            "<p>\\( 0.50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6163/cat-2019-set-2-question-89\" target=\"_blank\">https://aptitude.gateoverflow.in/6163/cat-2019-set-2-question-89</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"6162\"></a><div itemprop=\"text\"><p>Mukesh purchased \\( 10 \\) bicycles in \\( 2017 \\), all at the same price. He sold six of these at a profit of \\( 25\\% \\) and the remaining four at a loss of \\( 25\\% \\). If he made a total profit of Rs.\\( 2000 \\), then his purchase price of a bicycle, in Rupees, was&nbsp; ________</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8000 \\)</p>",
+            "<p>\\( 6000 \\)</p>",
+            "<p>\\( 4000 \\)</p>",
+            "<p>\\( 2000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6162/cat-2019-set-2-question-90\" target=\"_blank\">https://aptitude.gateoverflow.in/6162/cat-2019-set-2-question-90</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"7961\"></a><div itemprop=\"text\">A person spent Rs \\( 50000 \\) to produce a desktop computer and a laptop computer. He sold the desktop at \\( 20\\% \\) profit and the laptop at \\( 10\\% \\) loss. If overall he made a \\( 2\\% \\) profit then the purchase price, in rupees, of the desktop is</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "20000",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/7961/cat-2020-set-1-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/7961/cat-2020-set-1-question-60</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"8039\"></a><div itemprop=\"text\"><p>Aron bought some pencils and sharpeners. Spending the same amount of money as Aron, Aditya bought twice as many pencils and \\( 10 \\) less sharpeners. If the cost of one sharpener is \\( ₹\\:2 \\) more than the cost of a pencil, then the minimum possible number of pencils bought by Aron and Aditya together is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 33 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 36 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 33 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8039/cat-2020-set-2-question-61\" target=\"_blank\">https://aptitude.gateoverflow.in/8039/cat-2020-set-2-question-61</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"8037\"></a><div itemprop=\"text\"><p>Anil buys \\( 12 \\) toys and labels each with the same selling price. He sells \\( 8 \\) toys initially at \\( 20\\% \\) discount on the labeled price. Then he sells the remaining \\( 4 \\) toys at an additional \\( 25\\% \\) discount on the discounted price. Thus, he gets a total of \\( \\text{Rs }2112, \\) and makes a \\( 10\\% \\) profit. With no discounts, his percentage of profit would have been&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 55 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 54 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8037/cat-2020-set-2-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/8037/cat-2020-set-2-question-63</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"8121\"></a><div itemprop=\"text\"><p>A man buys \\( 35 \\; \\text{kg} \\) of sugar and sets a marked price in order to make a \\( 20\\% \\) profit. He sells \\( 5 \\; \\text{kg} \\) at this price, and \\( 15 \\; \\text{kg} \\) at a \\( 10\\% \\) discount. Accidentally, \\( 3 \\; \\text{kg} \\) of sugar is wasted. He sells the remaining sugar by raising the marked price by \\( p \\) percent so as to make an overall profit of \\( 15\\%. \\) Then \\( p \\) is nearest to&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 31 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 25 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8121/cat-2020-set-3-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/8121/cat-2020-set-3-question-57</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"8372\"></a><div itemprop=\"text\">Amal purchases some pens at \\( ₹ \\; 8 \\) each. To sell these, he hires an employee at a fixed wage. He sells \\( 100 \\) of these pens at \\( ₹ \\; 12 \\) each. If the remaining pens are sold at \\( ₹ \\; 11 \\) each, then he makes a net profit of \\( ₹ \\; 300, \\) while he makes a net loss of \\( ₹ \\; 300 \\) if the remaining pens are sold at \\( ₹ \\; 9 \\) each. The wage of the employee, in \\( \\text{INR}, \\) is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1000",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8372/cat-2021-set-1-quantitative-aptitude-question-9\" target=\"_blank\">https://aptitude.gateoverflow.in/8372/cat-2021-set-1-quantitative-aptitude-question-9</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"8451\"></a><div itemprop=\"text\"><p>Anil, Bobby and Chintu jointly invest in a business and agree to share the overall profit in proportion to their investments. Anil’s share of investment is \\( 70 \\%. \\) His share of profit decreases by ₹\\(  \\; 420 \\) if the overall profit goes down from \\( 18 \\% \\) to \\( 15 \\%. \\) Chintu’s share of profit increases by ₹\\(  \\; 80 \\) if the overall profit goes up from \\( 15 \\% \\) to \\( 17 \\%. \\) The amount, \\( \\text{in INR}, \\) invested by Bobby is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2400 \\)</p>",
+            "<p>\\( 2200 \\)</p>",
+            "<p>\\( 2000 \\)</p>",
+            "<p>\\( 1800 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8451/cat-2021-set-2-quantitative-aptitude-question-2\" target=\"_blank\">https://aptitude.gateoverflow.in/8451/cat-2021-set-2-quantitative-aptitude-question-2</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"8498\"></a><div itemprop=\"text\"><p>One part of a hostel’s monthly&nbsp;expenses is fixed, and the other part is proportional to the number of its boarders. The hostel collects \\(  ₹ \\; 1600 \\) per month from each boarder. When the number of boarders is \\( 50, \\) the profit of the hostel is \\(  ₹ \\; 200 \\) per boarder, and when the number of boarders is \\( 75, \\) the profit of the hostel is \\(  ₹ \\; 250 \\) per boarder. When the number of boarders is \\( 80, \\) the total profit of the hostel, in \\( \\text{INR}, \\) will be</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20800 \\)</p>",
+            "<p>\\( 20200 \\)</p>",
+            "<p>\\( 20000 \\)</p>",
+            "<p>\\( 20500 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 20500 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8498/cat-2021-set-3-quantitative-aptitude-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/8498/cat-2021-set-3-quantitative-aptitude-question-21</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"4775\"></a><div itemprop=\"text\">If the selling price of 30 pencils is equal to the cost price of 50 pencils. Find out the profit or loss %.</div><br><br><b>Quantitative Aptitude: Geeksforgeeks Sudo Placements</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4775/geeksforgeeks-sudo-placements\" target=\"_blank\">https://aptitude.gateoverflow.in/4775/geeksforgeeks-sudo-placements</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"6262\"></a><div itemprop=\"text\"><p>If I sell a computer at \\( 80\\% \\) of its marked price, I make a loss of \\( 12\\% \\). What \\( \\% \\) profit will I make if the computer is sold at \\( 95\\% \\) of its marked price ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5\\% \\) profit</p>",
+            "<p>\\( 1\\% \\) loss</p>",
+            "<p>\\( 5.5\\% \\) profit</p>",
+            "<p>\\( 4.5\\% \\) profit</p>"
+          ],
+          "correct_answer": "<p>\\( 4.5\\% \\) profit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6262/nielit-2017-dec-scientist-b-section-a-50\" target=\"_blank\">https://aptitude.gateoverflow.in/6262/nielit-2017-dec-scientist-b-section-a-50</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"6369\"></a><div itemprop=\"text\"><p>The percentage profit earned by selling an article for Rs. \\( 1,920 \\) is equal to the percentage loss incurred by selling the same article for Rs. \\( 1,280 \\). At what price should the article be sold to make \\( 25\\% \\) profit?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rs \\( 2,000 \\)</p>",
+            "<p>Rs \\( 2,200 \\)</p>",
+            "<p>Rs \\( 2,400 \\)</p>",
+            "<p>Data inadequate</p>"
+          ],
+          "correct_answer": "<p>Rs \\( 2,000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6369/nielit-2017-july-scientist-b-section-a-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6369/nielit-2017-july-scientist-b-section-a-3</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"6511\"></a><div itemprop=\"text\"><p>By selling \\( 45 \\) limes for Rs. \\( 40, \\) a woman loses \\( 20\\%. \\) How many should she sell for Rs. \\( 24 \\) to gain \\( 20\\% \\) in the transaction?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6511/nielit-2017-oct-scientific-assistant-a-section-a-54\" target=\"_blank\">https://aptitude.gateoverflow.in/6511/nielit-2017-oct-scientific-assistant-a-section-a-54</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"6636\"></a><div itemprop=\"text\"><p>\\( A \\) has to pay \\( \\text ₹220 \\) to \\( B \\) after \\( 1 \\) year. \\( B \\) asks \\( A \\) to pay \\( \\text ₹110 \\) in cash and defer the payment of \\( \\text ₹110 \\) for \\( 2 \\) years. \\( A \\) agrees to it. Counting, the rate of interest at \\( 10\\% \\) per annum in this new mode of payment:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>There is no gain or loss to anyone</p>",
+            "<p>\\( A \\) gains \\( \\text ₹7.34 \\)</p>",
+            "<p>\\( A \\) loses \\( \\text ₹7.34 \\)</p>",
+            "<p>\\( A \\) gains \\( \\text ₹11 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6636/nielit-2019-feb-scientist-c-section-c-20\" target=\"_blank\">https://aptitude.gateoverflow.in/6636/nielit-2019-feb-scientist-c-section-c-20</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"6652\"></a><div itemprop=\"text\"><p>An agent buys a T.V set listed at \\( \\text₹10,000 \\) and gets \\( 10\\% \\) and \\( 20\\% \\) successive discounts. He spends \\( 10\\% \\) of his C.P. on transport. At what price(in rupees) should he sell the T.V. set to earn a profit of \\( 10\\% \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8,692 \\)</p>",
+            "<p>\\( 8,702 \\)</p>",
+            "<p>\\( 8,712 \\)</p>",
+            "<p>\\( 8,722 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6652/nielit-2019-feb-scientist-c-section-c-4\" target=\"_blank\">https://aptitude.gateoverflow.in/6652/nielit-2019-feb-scientist-c-section-c-4</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"6800\"></a><div itemprop=\"text\"><p>Goods were bought for &nbsp;₹ \\( 600 \\) and sold the same day for &nbsp;₹ \\( 650.25 \\) at a credit of \\( 9 \\) months and still there was a gain of \\( 2\\% \\). The rate percent is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{19}{3}\\% \\)</p>",
+            "<p>\\( \\frac{25}{3}\\% \\)</p>",
+            "<p>\\( 8.1\\% \\)</p>",
+            "<p>\\( \\frac{470}{61}\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6800/nielit-2019-feb-scientist-d-section-c-23\" target=\"_blank\">https://aptitude.gateoverflow.in/6800/nielit-2019-feb-scientist-d-section-c-23</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"6799\"></a><div itemprop=\"text\"><p>A man sells an article at a gain of \\( 15\\% \\) Had he bought it at \\( 10\\% \\) less and sold it for &nbsp;₹ \\( 4 \\) less, he would have gained \\( 25\\% \\). The cost price of the article is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>₹ \\( 140 \\)</p>",
+            "<p>₹ \\( 150 \\)</p>",
+            "<p>₹ \\( 160 \\)</p>",
+            "<p>₹&nbsp;\\( 180 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6799/nielit-2019-feb-scientist-d-section-c-24\" target=\"_blank\">https://aptitude.gateoverflow.in/6799/nielit-2019-feb-scientist-d-section-c-24</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"3702\"></a><div itemprop=\"text\"></div><br><br><b>Quantitative Aptitude: a man bought toffee at 3 for a rupee. How many for a rupee must he sell to gain 50%</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3702/man-bought-toffee-rupee-how-many-for-rupee-must-sell-gain-50%25\" target=\"_blank\">https://aptitude.gateoverflow.in/3702/man-bought-toffee-rupee-how-many-for-rupee-must-sell-gain-50%25</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"2789\"></a><div itemprop=\"text\">A trader buys goods at a 19% discount on the label price. If he wants to make a profit of 20% after allowing a discount of 10%, by what % should his marked price be greater than the original label price?<br>\nA) +8% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nB) -3.8% &nbsp;<br>\nC) +33.33% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nD) None of these</div><br><br><b>Quantitative Aptitude: discount</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2789/discount\" target=\"_blank\">https://aptitude.gateoverflow.in/2789/discount</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"2949\"></a><div itemprop=\"text\"><p>The marked price of coat was \\( 40\\% \\) less than the suggested retail price. Eesha purchased the coat for half of the marked price at the \\( 15\\text{th} \\) anniversary sale. What percent less than the suggested retail price did Eesha pay?</p>\n\n</div><br><br><b>Quantitative Aptitude: self</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60\\% \\)</p>",
+            "<p>\\( 20\\% \\)</p>",
+            "<p>\\( 70\\% \\)</p>",
+            "<p>\\( 30\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2949/self\" target=\"_blank\">https://aptitude.gateoverflow.in/2949/self</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"2837\"></a><div itemprop=\"text\"><p>A dealer buys a product at Rs.1920. he sells at a discount of 20% still he gets the profit of 20%. what is the selling price?</p>\n\n</div><br><br><b>Quantitative Aptitude: tcs aptitude</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>534</p>",
+            "<p>2300</p>",
+            "<p>2304</p>",
+            "<p>2403</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2837/tcs-aptitude\" target=\"_blank\">https://aptitude.gateoverflow.in/2837/tcs-aptitude</a></p>"
+        }
+      ]
+    }
+  ]
+}

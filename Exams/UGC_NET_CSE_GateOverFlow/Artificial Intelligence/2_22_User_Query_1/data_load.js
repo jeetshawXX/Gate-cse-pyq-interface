@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - User Query",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "User Query",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"205664\"></a><div itemprop=\"text\"><p><span dir=\"ltr\">Hi</span></p><p><span dir=\"ltr\">I need some useful resources of AI for upcoming UGC NET exam.</span></p><p><span dir=\"ltr\">Currently, I am reading from Rich and Knight, Is it enough?</span></p><p><span dir=\"ltr\">Please let me know about any good quality books or video lectures.</span></p></div><br><br><b>Study Resources: Required Artificial Intelligence resources for UGC NET</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205664/required-artificial-intelligence-resources-for-ugc-net\" target=\"_blank\">https://gateoverflow.in/205664/required-artificial-intelligence-resources-for-ugc-net</a></p>"
+        }
+      ]
+    }
+  ]
+});

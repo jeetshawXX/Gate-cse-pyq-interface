@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Constant Folding",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Constant Folding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316206\"></a><div itemprop=\"text\"><p>Replacing the expression \\( 4\\ast 2\\cdot 14 \\) by \\( 8 \\cdot 56 \\) is known as</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | June 2019 | Part 2 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>constant folding</p>",
+            "<p>induction variable</p>",
+            "<p>strength reduction</p>",
+            "<p>code reduction</p>"
+          ],
+          "correct_answer": "<p>constant folding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316206/ugc-net-cse-june-2019-part-2-question-73\" target=\"_blank\">https://gateoverflow.in/316206/ugc-net-cse-june-2019-part-2-question-73</a></p>"
+        }
+      ]
+    }
+  ]
+});

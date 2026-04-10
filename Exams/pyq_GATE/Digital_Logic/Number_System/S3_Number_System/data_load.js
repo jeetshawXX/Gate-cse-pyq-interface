@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Number_System - Number_System - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Number_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>P is a 16-bit signed integer. The 2's complement representation of P is \\((F87B)_{16}\\).\nThe 2's complement representation of 8*P is <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((C3D8)_{16}\\)</p>",
+            "<b>B.</b> <p>\\((187B)_{16}\\)</p>",
+            "<b>C.</b> <p>\\((F878)_{16}\\)</p>",
+            "<b>D.</b> <p>\\((987B)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((C3D8)_{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2179/gate2010-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>\\((1217)_{8}\\) is equivalent to <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((1217)_{16}\\)</p>",
+            "<b>B.</b> <p>\\((028F)_{16}\\)</p>",
+            "<b>C.</b> <p>\\((2297)_{10}\\)</p>",
+            "<b>D.</b> <p>\\((0B17)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((028F)_{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1297/gate2009-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The two numbers given below are multiplied using the Booth's algorithm.<br>\nMultiplicand :                            0101 1010 1110 1110<br>\nMultiplier:                                  0111 0111 1011 1101<br>\nHow many additions/Subtractions are required for the multiplication of the above two numbers? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3352/gate2008-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The following bit pattern represents a floating point number in IEEE 754 single precision format<br>\n1 10000011 101000000000000000000000<br>\nThe value of the number in decimal form is <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-10</p>",
+            "<b>B.</b> <p>-13</p>",
+            "<b>C.</b> <p>-26</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>-26</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3267/gate2008-it-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let r denote number system radix. The only value(s) of r that satisfy the\nequation \\(\\sqrt{121_{r}}=11_{r}\\) is / are <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>decimal 10</p>",
+            "<b>B.</b> <p>decimal 11</p>",
+            "<b>C.</b> <p>decimal 10 and 11</p>",
+            "<b>D.</b> <p>any value \\(\\gt\\) 2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>any value \\(\\gt\\) 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/404/gate2008-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In the IEEE floating point representation the hexadecimal value 0x00000000\ncorresponds to <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The normalized value \\(2^{-127}\\)</p>",
+            "<b>B.</b> <p>The normalized value \\(2^{-126}\\)</p>",
+            "<b>C.</b> <p>The normalized value +0</p>",
+            "<b>D.</b> <p>The special value +0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The special value +0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/402/gate2008-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>\\((C012.25)_H - (10111001110.101)_B =\\) <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((135103.412)_o\\)</p>",
+            "<b>B.</b> <p>\\((564411.412)_o\\)</p>",
+            "<b>C.</b> <p>\\((564411.205)_o\\)</p>",
+            "<b>D.</b> <p>\\((135103.205)_o\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((135103.412)_o\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3477/gate2007-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>When multiplicand Y is multiplied by multiplier \\(X = x_{n - 1}x_{n-2} \\dots x_0\\) using bit-pair recoding in Booth's algorithm, partial products are generated according to the following table.<br>\n\\(\\begin{array}{c|ccc|c}\\hline \\textbf{Row}&amp; \\bf{ x_{i+1}}&amp;\\bf { x_i}&amp;\\bf{ x_{i-1}}&amp; \\textbf{Partial Product} \\\\\\hline 1&amp;0&amp;0&amp;0&amp;0 \\\\ 2&amp;0&amp;0&amp;1&amp; \\text{Y} \\\\ 3&amp;0&amp;1&amp;0&amp; \\text{Y} \\\\ 4&amp;0&amp;1&amp;1&amp; \\text{2Y} \\\\ 5&amp;1&amp;0&amp;0&amp; \\text{?} \\\\ 6&amp;1&amp;0&amp;1&amp; \\text{-Y} \\\\ 7&amp;1&amp;1&amp;0&amp; \\text{-Y} \\\\ 8&amp;1&amp;1&amp;1&amp; \\text{?} \\\\ \\hline \\end{array}\\)<br>\nThe partial products for rows 5 and 8 are <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2Y and Y</p>",
+            "<b>B.</b> <p>-2Y and 2Y</p>",
+            "<b>C.</b> <p>-2Y and 0</p>",
+            "<b>D.</b> <p>0 and Y</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>-2Y and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3577/gate2006-it-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The addition of 4-bit, two's complement, binary numbers 1101 and 0100 results in <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0001 and an overflow</p>",
+            "<b>B.</b> <p>1001 and no overflow</p>",
+            "<b>C.</b> <p>0001 and no overflow</p>",
+            "<b>D.</b> <p>1001 and an overflow</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0001 and no overflow</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3546/gate2006-it-7-isro2009-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider number represented in 4-bit gray code. Let \\(h_3h_2h_1h_0\\) be the gray code\nrepresentation of a number n and let \\(g_3g_2g_1g_0\\)  be the gray code of (n+1) (modulo 16) value of the number. Which one of the following functions is correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g_0(h_3h_2h_1h_0)\\) = \\(\\sum\\) (1,2,3,6,10,13,14,15)</p>",
+            "<b>B.</b> <p>\\(g_1(h_3h_2h_1h_0)\\) = \\(\\sum\\) (4,9,10,11,12,,13,14,15)</p>",
+            "<b>C.</b> <p>\\(g_2(h_3h_2h_1h_0)\\) = \\(\\sum\\) (2,4, 5,6,7,12,,13,15)</p>",
+            "<b>D.</b> <p>\\(g_3(h_3h_2h_1h_0)\\) = \\(\\sum\\) (0,1,6,7, 10,11,12,,13,)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(g_2(h_3h_2h_1h_0)\\) = \\(\\sum\\) (2,4, 5,6,7,12,,13,15)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1816/gate2006-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>\\((34.4)_{8} \\times \\left ( 23.4 \\right )_{8}\\) evaluates to <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((1053.6)_{8}\\)</p>",
+            "<b>B.</b> <p>\\((1053.2)_{8}\\)</p>",
+            "<b>C.</b> <p>\\((1024.2)_{8}\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((1053.6)_{8}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3808/gate2005-it-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Using Booth's Algorithm for multiplication, the multiplier -57 will be recoded as <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 -1 00 1 0 0 -1</p>",
+            "<b>B.</b> <p>1 1 0 0 0 1 1 1</p>",
+            "<b>C.</b> <p>0 -1 0 0 10 0 0</p>",
+            "<b>D.</b> <p>0 1 0 0 -1 0 0 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0 -1 00 1 0 0 -1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3753/gate2005-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following floating point format <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Number_System\\q89_e3556510.jpg\"> <br>  Mantissa is a pure fraction in sign-magnitude form. <br><br> The normalized representation for the above format is specified as follows. The mantissa has an implicit 1 preceding the binary (radix) point. Assume that only 0's are padded in while shifting a field. The normalized representation of the above number (\\(0.239 \\times 2^{13}\\)) is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0A 20</p>",
+            "<b>B.</b> <p>11 34</p>",
+            "<b>C.</b> <p>4D D0</p>",
+            "<b>D.</b> <p>4A E8</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4A E8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82139/gate2005-90#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following floating point format <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Number_System\\q89_e3556510.jpg\"> <br>  Mantissa is a pure fraction in sign-magnitude form. <br><br> The decimal number \\(0.239 \\times 2^{13} \\) has the following hexadecimal representation (without normalization and rounding off : <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0D 24</p>",
+            "<b>B.</b> <p>0D 4D</p>",
+            "<b>C.</b> <p>4D 0D</p>",
+            "<b>D.</b> <p>4D 3D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4D 3D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1407/gate2005-89#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The hexadecimal representation of \\((657)_{8}\\) is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1AF</p>",
+            "<b>B.</b> <p>D78</p>",
+            "<b>C.</b> <p>D71</p>",
+            "<b>D.</b> <p>32F</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1AF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1353/gate2005-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

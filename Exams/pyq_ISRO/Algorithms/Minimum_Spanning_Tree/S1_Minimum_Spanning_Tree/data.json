@@ -1,0 +1,26 @@
+{
+  "title": "Minimum_Spanning_Tree - Minimum_Spanning_Tree - Slot 1",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Minimum_Spanning_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of spanning trees for a complete graph with seven vertices is <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{5}\\)</p>",
+            "<b>B.</b> <p>\\(7^{5}\\)</p>",
+            "<b>C.</b> <p>\\(3^{5}\\)</p>",
+            "<b>D.</b> <p>\\(2^{2 \\times 5}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(7^{5}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48555/isro2015-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

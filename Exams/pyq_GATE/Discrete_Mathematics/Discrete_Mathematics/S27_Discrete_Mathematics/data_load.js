@@ -1,0 +1,222 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 27",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>How many 4-digit even numbers have all 4 digits distinct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2240</p>",
+            "<b>B.</b> <p>2296</p>",
+            "<b>C.</b> <p>2620</p>",
+            "<b>D.</b> <p>4536</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2296</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/719/gate2001-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider two well-formed formulas in prepositional logic. <br> \\(F1: \\; P\\Rightarrow \\neg P\\)<br> \\(F2: \\;( P\\Rightarrow \\neg P)\\vee ( \\neg P\\Rightarrow P)\\)\n<br>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>F1 is satisfiable, F2 is valid</p>",
+            "<b>B.</b> <p>F1 unsatisfiable, F2 is satisfiable</p>",
+            "<b>C.</b> <p>F1 is unsatisfiable, F2 is valid</p>",
+            "<b>D.</b> <p>F1 and F2 are both satisfiable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>F1 is satisfiable, F2 is valid</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/696/gate2001-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following relations:<pre><code>  \nR1(a,b) iff (a+b) is even over the set of integers\nR2(a,b) iff (a+b) is odd over the set of integers\nR3(a,b) iff a.b &gt; 0 over the set of non-zero rational numbers\nR4(a,b) iff |a - b| &lt;= 2 over the set of natural numbers\n </code></pre>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R1 and R2 are equivalence relations, R3 and R4 are not</p>",
+            "<b>B.</b> <p>R1 and R3 are equivalence relations, R2 and R4 are not</p>",
+            "<b>C.</b> <p>R1 and R4 are equivalence relations, R2 and R3 are not</p>",
+            "<b>D.</b> <p>R1, R2, R3 and R4 are all equivalence relations</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R1 and R3 are equivalence relations, R2 and R4 are not</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/695/gate2001-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the set of integers {1,2,3,4,6,8,12,24} together with the two binary operations LCM (lowest common multiple) and GCD (greatest common divisor). Which of the following algebraic structures does this represent? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>group</p>",
+            "<b>B.</b> <p>ring</p>",
+            "<b>C.</b> <p>field</p>",
+            "<b>D.</b> <p>lattice</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>lattice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43580/gate1992-14b\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following is/are a tautology? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(a \\vee b \\to b \\wedge c\\)</p>",
+            "<b>B.</b> <p>\\(a \\wedge b \\to b \\vee c\\)</p>",
+            "<b>C.</b> <p>\\(a \\vee b \\to \\left(b \\to c \\right)\\)</p>",
+            "<b>D.</b> <p>\\(a \\to b \\to \\left(b \\to c \\right)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(a \\wedge b \\to b \\vee c\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/574/gate1992-02-xvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Choose the correct alternatives ( more than one may be correct) and write the corresponding letters only:<br>A non-planar graph with minimum number of vertices has <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9 edges, 6 vertices</p>",
+            "<b>B.</b> <p>6 edges, 4 vertices</p>",
+            "<b>C.</b> <p>10 edges, 5 vertices</p>",
+            "<b>D.</b> <p>9 edges, 5 vertices</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10 edges, 5 vertices</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/563/gate1992-02-viii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following predicate calculus statements is/are valid? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall (x)) P(x) \\vee (\\forall(x))Q(x) \\implies (\\forall (x)) (P(x) \\vee Q(x))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists (x)) P(x) \\wedge (\\exists (x))Q(x) \\implies (\\exists (x)) (P(x) \\wedge Q(x))\\)</p>",
+            "<b>C.</b> <p>\\((\\forall (x)) (P(x) \\vee Q(x)) \\implies (\\forall (x)) P(x) \\vee (\\forall (x)) Q(x)\\)</p>",
+            "<b>D.</b> <p>\\((\\exists (x)) (P(x) \\vee Q(x)) \\implies \\sim (\\forall (x)) P(x) \\vee (\\exists (x)) Q(x)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\forall (x)) P(x) \\vee (\\forall(x))Q(x) \\implies (\\forall (x)) (P(x) \\vee Q(x))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/256/gate1992-92-xv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nIf \\(F_1\\), \\(F_2\\) and \\(F_3\\) are propositional formulae such that \\(F_1 \\land F_2 \\rightarrow F_3\\) and \\(F_1 \\land F_2 \\rightarrow \\sim F_3\\) are both tautologies, then which of the following is true: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both\\(F_1\\) and \\(F_2\\) are tautologies</p>",
+            "<b>B.</b> <p>The conjunction \\(F_1 \\land F_2\\) is not satisfiable</p>",
+            "<b>C.</b> <p>Neither is tautologous</p>",
+            "<b>D.</b> <p>Neither is satisfiable</p>",
+            "<b>E.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The conjunction \\(F_1 \\land F_2\\) is not satisfiable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/526/gate1991-03-xii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>\nA graph is planar if and only if, <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It does not contain subgraphs homeomorphic to \\(k_{5}\\) and \\(k_{3, 3}\\).</p>",
+            "<b>B.</b> <p>It does not contain subgraphs isomorphic to \\(k_{5}\\) or \\(k_{3, 3}\\).</p>",
+            "<b>C.</b> <p>It does not contain a subgraph isomorphic to \\(k_{5}\\) or \\(k_{3, 3}\\)</p>",
+            "<b>D.</b> <p>It does not contain a subgraph homeomorphic to \\(k_{5}\\) or \\(k_{3, 3}\\).</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It does not contain a subgraph homeomorphic to \\(k_{5}\\) or \\(k_{3, 3}\\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/85384/gate1990-3-xi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>Indicate which of the following well-formed formulae are valid: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left(P\\Rightarrow Q\\right) {\\wedge} \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(P \\Rightarrow R\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\left(P\\Rightarrow Q\\right) \\Rightarrow \\left( \\neg P \\Rightarrow \\neg Q\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\left(P{\\wedge} \\left(\\neg P \\vee \\neg Q\\right)\\right) \\Rightarrow Q\\)</p>",
+            "<b>D.</b> <p>\\(\\left(P \\Rightarrow R\\right) \\vee \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(\\left(P \\vee Q \\right) \\Rightarrow R\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\left(P\\Rightarrow Q\\right) {\\wedge} \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(P \\Rightarrow R\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84861/gate1990-3-x\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Choose the correct alternatives (More than one may be correct).<br>The number of ways in which 5 A's, 5 B's and 5 C's can be arranged in a row is: <br><br><strong>(GATE CSE 1990)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(15!/(5!)^{3}\\)</p>",
+            "<b>B.</b> <p>15!</p>",
+            "<b>C.</b> <p>\\(\\left(\\frac{15}{5}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(15!(5!3!).\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(15!/(5!)^{3}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/84841/gate1990-3-ix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Answer the following:<br>Which of the following statements are FALSE? <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For poisson distribution, the mean is twice the variance.</p>",
+            "<b>B.</b> <p>In queuing theory, if arrivals occur according to poisson distribution, then the inter-arrival time is exponentially distributed.</p>",
+            "<b>C.</b> <p>The distribution of waiting time is independent of the service discipline used in selecting the waiting customers for service.</p>",
+            "<b>D.</b> <p>If the time between successive arrivals is exponential, then the time between the occurences of every third arrival is also exponential.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>For poisson distribution, the mean is twice the variance.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87141/gate1989-3-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Answer the following:<br>Which of the following well-formed formulas are equivalent? <br><br><strong>(GATE CSE 1989)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P \\rightarrow Q\\)</p>",
+            "<b>B.</b> <p>\\(\\neg Q \\rightarrow \\neg P\\)</p>",
+            "<b>C.</b> <p>\\(\\neg P \\vee Q\\)</p>",
+            "<b>D.</b> <p>\\(\\neg Q \\rightarrow P\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(P \\rightarrow Q\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87126/gate1989-3-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>If \\(f(x_{i}).f(x_{i+1}) \\lt 0\\) then <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There must be a root of f(x) between \\(x_i\\) and \\(x_{i+1}\\)</p>",
+            "<b>B.</b> <p>There need not be a root of f(x) between \\(x_{i}\\) and \\(x_{i+1}\\).</p>",
+            "<b>C.</b> <p>There fourth derivative of f(x) with respect to x vanishes at \\(x_{i}\\).</p>",
+            "<b>D.</b> <p>The fourth derivative of f(x) with respect to x vanishes at \\(x_{i+1}\\).</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There must be a root of f(x) between \\(x_i\\) and \\(x_{i+1}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80571/gate1987-1-xxvi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

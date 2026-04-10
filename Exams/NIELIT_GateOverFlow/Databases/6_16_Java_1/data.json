@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Java",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378697\"></a><div itemprop=\"text\"><p>Which one of the following contains date information?</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>java.sql.TimeStamp</p>",
+            "<p>java.sql.Time</p>",
+            "<p>java.io.Time</p>",
+            "<p>java.io.TimeStamp</p>"
+          ],
+          "correct_answer": "<p>java.sql.TimeStamp</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378697/nielit-2021-dec-scientist-b-section-b-66\" target=\"_blank\">https://gateoverflow.in/378697/nielit-2021-dec-scientist-b-section-b-66</a></p>"
+        }
+      ]
+    }
+  ]
+}

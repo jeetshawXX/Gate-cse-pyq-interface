@@ -1,0 +1,236 @@
+{
+  "title": "Database_Management_System - Database_Management_System - Slot 15",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following relational query languages have the same expressive power?<br>\nI.   Relational algebra<br>\nII.  Tuple relational calculus restricted to safe expressions<br>\nIII. Domain relational calculus restricted to safe expressions <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II and III only</p>",
+            "<b>B.</b> <p>I and II only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3554/gate2006-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the relations r1(P, Q, R) and r2(R, S, T) with primary keys P and R respectively. The relation \\(r_{1}\\) contains 2000 tuples and \\(r_{2}\\) contains 2500 tuples. The maximum size of the join \\(r_{1} \\Join r_{2}\\) is : <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2000</p>",
+            "<b>B.</b> <p>2500</p>",
+            "<b>C.</b> <p>4500</p>",
+            "<b>D.</b> <p>5000</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3553/gate2006-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following functional dependencies are given:<br><br>\n\\(AB\\rightarrow CD,AF\\rightarrow D,DE\\rightarrow F,C\\rightarrow G,F\\rightarrow E,G\\rightarrow A\\)\n<br><br>\nWhich one of the following options is false? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\{ CF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\{ BG \\right \\}^{*}=\\left \\{ ABCDG \\right \\}\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\{ AB \\right \\}^{*}=\\left \\{ ABCDG \\right \\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1848/gate2006-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the relation enrolled (student, course) in which (student, course) is\nthe primary key, and the relation paid (student, amount) where student is the\nprimary key. Assume no null values and no foreign keys or integrity constraints.\nAssume that amounts 6000, 7000,8000,9000 and 10000 were each paid by 20% of\nthe students. Consider these query plans (Plan 1 on left, Plan 2 on right) to \"list\nall courses taken by students who have paid more than x.\" <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q69_12cbe10b.jpg\"><br> A disk seek takes 4 ms. disk data transfer bank width is 300 MB/s and checking a tuple to see if amount is greater x takes 10\\(\\mu\\)s . Which of the following statements is correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Plan 1 and Plan 2 will not output identical row sets for all databases</p>",
+            "<b>B.</b> <p>A course may be listed more than once int the output of Plan 1 for some databases</p>",
+            "<b>C.</b> <p>For x = 5000, Plan 1 executes faster than Plan 2 for all databases</p>",
+            "<b>D.</b> <p>For x = 9000, Plan 1 executes slower than Plan 2 for all databases</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>For x = 5000, Plan 1 executes faster than Plan 2 for all databases</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1847/gate2006-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the relation enrolled (student, course) in which student, course) is the\nprimary key, and the relation paid (student, amount) where student is the primary\nkey . Assume no null values and no foreign keys or integrity constraints. Given\nthe following four queries: <br><br>\nQuery 1: Select from enrolled where student in (select student form paid) <br>\nQuery 2: Select student from paid where student in (select student from\nenrolled) <br>\nQuery 3: Select E. student from enrolled E, paid P where E. student= P student <br>\nQuery 4: Select student from paid where exists <br>(select*from enrolled where\nenrolled student=paid.student) <br><br>\nWhich one of the following statements is correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All queries return identical row sets for any database</p>",
+            "<b>B.</b> <p>Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets</p>",
+            "<b>C.</b> <p>There exist databases for which Query 3 returns strictly fewer rows than Query 2</p>",
+            "<b>D.</b> <p>There exist databases for which Query 4 will encounter an intergrity\nviolation at runtime</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1846/gate2006-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the relation account (customer, balance) where customer is a primary\nkey and there are no mall values. We would like to rank customers according\nto decreasing balance. The customer with the largest balance gets rank 1. Ties\nare not broken but ranks are skipped: if exactly two customers have the largest\nbalance they each get rank 1 and rank 2 is not assigned.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q67_9153671d.jpg\"><br>\nConsider these statements about Query 1 and Query 2. <br>\n1. Query 1will produce the same row set as Query 2 for some but not all\ndatabases <br>\n2. Both Query 1 Query 2 are correct implementations of the specification <br>\n3. Query 1 is a correct implementation of the specification but Query 2 is not <br>\n4. Neither query 1 nor Query 2 is a correct implementation of the specification <br>\n5. Assigning rank with a pure relational Query takes less time than scanning\nin decreasing balance order the assigning ranks using ODBC <br><br>\nWhich two of the above statements are correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 and 5</p>",
+            "<b>B.</b> <p>1 and 3</p>",
+            "<b>C.</b> <p>1 and 4</p>",
+            "<b>D.</b> <p>3 and 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1845/gate2006-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following log sequence of two transactions on a bank account, with\ninitial balance 12000,that transfer 2000 to a mortgage payment and, then apply\na 5% interest. <br><br>\n1. T1 start <br>\n2. T1 B old = 12000 new = 10000 <br>\n3. T1 M old = 0 ne = 2000<br>\n4. T1 commit <br>\n5. T2 start<br>\n6. T2 B old = 10000 new = 10500 <br>\n7. T2 commit<br><br>\nSuppose the database system crashed just before log record 7 is written. When\nthe system is restarted, which one statement is true of the recovery procedure? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>We must redo log record 6 to set B to 10500</p>",
+            "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2 and 3</p>",
+            "<b>C.</b> <p>We need not redo log records 2 and 3 because transaction T1 has committed</p>",
+            "<b>D.</b> <p>We can apply redo and undo operations in arbitrary order because they are\nidempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2 and 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/981/gate2006-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A database table \\(T_1\\) has 2000 records and occupies 80 disk blocks. Another table \\(T_2\\) has 400 records and occupies 20 disk blocks. These two tables have to be joined as per a specified join condition that needs to be evaluated for every pair of records from these two tables. The memory buffer space available can hold exactly one block of records for \\(T_1\\) and one block of records for \\(T_2\\) simultaneously at any point in time. No index is available on either table.<br>If, instead of Nested-loop join, Block nested-loop join is used, again with the most appropriate choice of table in the outer loop, the reduction in number of block accesses required for reading the data will be <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>30400</p>",
+            "<b>C.</b> <p>38400</p>",
+            "<b>D.</b> <p>798400</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>30400</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3848/gate2005-it-82b\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A database table \\(T_1\\) has 2000 records and occupies 80 disk blocks. Another table \\(T_2\\) has 400 records and occupies 20 disk blocks. These two tables have to be joined as per a specified join condition that needs to be evaluated for every pair of records from these two tables. The memory buffer space available can hold exactly one block of records for \\(T_1\\) and one block of records for \\(T_2\\) simultaneously at any point in time. No index is available on either table.<br>If Nested-loop join algorithm is employed to perform the join, with the most appropriate choice of table to be used in outer loop, the number of block accesses required for reading the data are <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>800000</p>",
+            "<b>B.</b> <p>40080</p>",
+            "<b>C.</b> <p>32020</p>",
+            "<b>D.</b> <p>100</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>32020</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3847/gate2005-it-82a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a schema with attributes A, B, C, D and E following set of functional dependencies are given  <br>\n\\(A \\rightarrow B\\)<br>\n\\(A \\rightarrow C\\)<br>\n\\(CD \\rightarrow E\\)<br>\n\\(B \\rightarrow D\\)<br>\n\\(E \\rightarrow A\\)<br>\nWhich of the following functional dependencies is NOT implied by the above set? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(CD \\rightarrow AC\\)</p>",
+            "<b>B.</b> <p>\\(BD \\rightarrow CD\\)</p>",
+            "<b>C.</b> <p>\\(BC \\rightarrow CD\\)</p>",
+            "<b>D.</b> <p>\\(AC \\rightarrow BC\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(BD \\rightarrow CD\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3833/gate2005-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In an inventory management system implemented at a trading corporation, there are several tables designed to hold all the information. Amongst these, the following two tables hold information on which items are supplied by which suppliers, and which warehouse keeps which items along with the stock-level of these items.<br>\nSupply = (supplierid, itemcode)<br>\nInventory = (itemcode, warehouse, stocklevel)<br>For a specific information required by the management, following SQL query has been written<br><pre><code> Select distinct STMP.supplierid \nFrom Supply as STMP\nWhere not unique (Select ITMP.supplierid\n                            From Inventory, Supply as ITMP\n                            Where STMP.supplierid = ITMP.supplierid\n                            And ITMP.itemcode = Inventory.itemcode\n                            And Inventory.warehouse = 'Nagpur');</code></pre> <br>\nFor the warehouse at Nagpur, this query will find all suppliers wh <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>do not supply any item</p>",
+            "<b>B.</b> <p>supply exactly one item</p>",
+            "<b>C.</b> <p>supply one or more items</p>",
+            "<b>D.</b> <p>supply two or more items</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>supply two or more items</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3832/gate2005-it-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A table 'student' with schema (roll, name, hostel, marks), and another table 'hobby' with schema (roll, hobbyname) contains records as shown below:<br>\n\\(\\overset{\\text{Table: student}}{\\begin{array}{|c|c|c|c|} \\hline \\textbf{Roll} &amp; \\textbf {Name} &amp; \\textbf {Hostel} &amp; \\textbf{Marks} \\\\\\hline \\text{1798} &amp; \\text{Manoj Rathor} &amp; \\text{7} &amp; \\text{95} \\\\\\hline \\text{2154} &amp; \\text{Soumic Banerjee} &amp; \\text{5} &amp; \\text{68}\\\\\\hline \\text{2369} &amp; \\text{Gumma Reddy} &amp; \\text{7} &amp; \\text{86}\\\\\\hline\\text{2581} &amp; \\text{Pradeep pendse} &amp; \\text{6} &amp; \\text{92}\\\\\\hline \\text{2643} &amp; \\text{Suhas Kulkarni} &amp; \\text{5} &amp; \\text{78} \\\\\\hline \\text{2711} &amp; \\text{Nitin Kadam} &amp; \\text{8} &amp; \\text{72}\\\\\\hline \\text{2872}&amp; \\text{Kiran Vora} &amp; \\text{5} &amp; \\text{92}\\\\\\hline\\text{2926} &amp; \\text{Manoj Kunkalikar} &amp; \\text{5} &amp; \\text{94}\\\\\\hline \\text{2959}&amp; \\text{Hemant Karkhanis} &amp; \\text{7} &amp; \\text{88}\\\\\\hline\\text{3125} &amp; \\text{Rajesh Doshi} &amp; \\text{5} &amp; \\text{82}\\\\\\hline \\end{array}}\\)<br><br>\\(\\overset{\\text{Table: hobby}}{}\\\\\\begin{array}{|c|c|} \\hline \\textbf{Roll} &amp; \\textbf {Hobby Name} \\\\\\hline \\text{1798} &amp; \\text{chess} \\\\\\hline \\text{1798} &amp; \\text{music} \\\\\\hline \\text{2154} &amp; \\text{music} \\\\\\hline \\text{2369} &amp; \\text{swimming}\\\\\\hline \\text{2581} &amp; \\text{cricket} \\\\\\hline \\text{2643} &amp; \\text{chess}\\\\\\hline\\text{2643} &amp; \\text{hockey} \\\\\\hline \\text{2711} &amp; \\text{volleyball}\\\\\\hline \\text{2872} &amp; \\text{football} \\\\\\hline \\text{2926} &amp; \\text{cricket} \\\\\\hline \\text{2959} &amp; \\text{photography} \\\\\\hline \\text{3125} &amp; \\text{music}\\\\\\hline \\text{3125}&amp; \\text{chess}\\\\\\hline \\end{array}\\)<br>\nThe following SQL query is executed on the above tables:<br><pre><code> \nselect hostel\nfrom student natural join hobby\nwhere marks &gt;= 75 and roll between 2000 and 3000;</code></pre> <br>Relations S and H with the same schema as those of these two tables respectively contain the same information as tuples. A new relation S is obtained by the following relational algebra operation:<br>\\(S' = \\Pi_{\\text{hostel}} ((\\sigma_{s.roll = H.roll} (\\sigma_{marks \\gt 75\\text{ and }roll \\gt 2000\\text{ and }roll \\lt 3000} (S)) \\times (H))\\)<br>\nThe difference between the number of rows output by the SQL statement and the number of tuples in S' is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3831/gate2005-it-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A company maintains records of sales made by its salespersons and pays them commission based on each individual's total sales made in a year. This data is maintained in a table with following schema:<br>salesinfo = (salespersonid, totalsales, commission)<br>In a certain year, due to better business results, the company decides to further reward its salespersons by enhancing the commission paid to them as per the following formula:<br>If commission \\(\\leq 50000\\), enhance it by 2%<br>\nIf 50000 &lt; commission \\(\\leq 100000\\), enhance it by 4%<br>\nIf commission &gt; 100000, enhance it by 6%<br>\nThe IT staff has written three different SQL scripts to calculate enhancement for each slab, each of these scripts is to run as a separate transaction as follows:<br>T1<br><pre><code> Update salesinfo\nSet commission = commission * 1.02\nWhere commission &lt; = 50000;</code></pre>\n<br> T2<br><pre><code>Update salesinfo\nSet commission = commission * 1.04\nWhere commission &gt; 50000 and commission is &lt; = 100000; </code></pre>\n<br> T3<br><pre><code> Update salesinfo\nSet commission = commission * 1.06\nWhere commission &gt; 100000;</code></pre>\n<br>Which of the following options of running these transactions will update the commission of all salespersons correctly <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Execute T1 followed by T2 followed by T3</p>",
+            "<b>B.</b> <p>Execute T2, followed by T3; T1 running concurrently throughout</p>",
+            "<b>C.</b> <p>Execute T3 followed by T2; T1 running concurrently throughout</p>",
+            "<b>D.</b> <p>Execute T3 followed by T2 followed by T1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Execute T3 followed by T2 followed by T1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3830/gate2005-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In a computer system, four files of size 11050 bytes, 4990 bytes, 5170 bytes and 12640 bytes need to be stored. For storing these files on disk, we can use either 100 byte disk blocks or 200 byte disk blocks (but can't mix block sizes). For each block used to store a file, 4 bytes of bookkeeping information also needs to be stored on the disk. Thus, the total space used to store a file is the sum of the space taken to store the file and the space taken to store the book keeping information for the blocks allocated for storing the file. A disk block can store either bookkeeping information for a file or data from a file, but not both.\nWhat is the total space required for storing the files using 100 byte disk blocks and 200 byte disk blocks respectively? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>35400 and 35800 bytes</p>",
+            "<b>B.</b> <p>35800 and 35400 bytes</p>",
+            "<b>C.</b> <p>35600 and 35400 bytes</p>",
+            "<b>D.</b> <p>35400 and 35600 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>35600 and 35400 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3824/gate2005-it-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Amongst the ACID properties of a transaction, the 'Durability' property requires that the changes made to the database by a successful transaction persist <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Except in case of an Operating System crash</p>",
+            "<b>B.</b> <p>Except in case of a Disk crash</p>",
+            "<b>C.</b> <p>Except in case of a power failure</p>",
+            "<b>D.</b> <p>Always, even if there is a failure of any kind</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Always, even if there is a failure of any kind</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3769/gate2005-it-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Preference List",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Preference List",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2571\"></a><div itemprop=\"text\"><p>Julia and Angelina are team members in a project. Whenever Julia approaches Angelina for some work-related discussions. Angelina replies to her rudely and does not seem willing to participate in the discussion. What can Julia do to solve the problem</p>\n\n<ol>\n\t<li>Complain about Angelina's behavior to the supervisor.</li>\n\t<li>Tell Angeline to stop behaving rudely.</li>\n\t<li>Talk to Angelina and try to find out the reason for her behavior.</li>\n\t<li>Stop having any discussions with Angelina.</li>\n</ol>\n\n<p><br>\n<br>\nYou have to rank these conculsions in order of your preferences</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>3 2 1 4</li>\n\t<li>4 2 1 3</li>\n\t<li>2 1 3 4</li>\n\t<li>2 3 4 1</li>\n</ol></div><br><br><b>Logical Reasoning: Order the statements</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2571/order-the-statements\" target=\"_blank\">https://aptitude.gateoverflow.in/2571/order-the-statements</a></p>"
+        }
+      ]
+    }
+  ]
+});

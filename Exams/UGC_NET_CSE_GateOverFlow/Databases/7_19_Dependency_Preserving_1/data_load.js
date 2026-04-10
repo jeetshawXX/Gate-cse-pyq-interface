@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Dependency Preserving",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Dependency Preserving",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335144\"></a><div itemprop=\"text\"><p>Consider a schema \\( R(MNPQ) \\) and functional dependencies \\( M\\rightarrow N, P\\rightarrow Q \\). Then the decomposition of&nbsp; \\( R \\) into \\( R_{1} \\left (MN \\right ) \\) and&nbsp; \\( R_{2} \\left (PQ&nbsp;\\right ) \\) is __________.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dependency preserving but not lossless join</p>",
+            "<p>Dependency preserving and lossless join</p>",
+            "<p>Lossless join but not dependency preserving</p>",
+            "<p>Neither dependency preserving nor lossless join.</p>"
+          ],
+          "correct_answer": "<p>Dependency preserving but not lossless join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335144/ugc-net-cse-january-2017-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/335144/ugc-net-cse-january-2017-part-2-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

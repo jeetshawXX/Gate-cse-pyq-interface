@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Sequential Circuit",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Sequential Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63863\"></a><div itemprop=\"text\"><p>Which of the following is a sequential circuit?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | July 2016 | Part 3 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Multiplexer</p>",
+            "<p>Decoder</p>",
+            "<p>Full adder</p>",
+            "<p>Counter</p>"
+          ],
+          "correct_answer": "<p>Full adder</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63863/ugc-net-cse-july-2016-part-3-question-1\" target=\"_blank\">https://gateoverflow.in/63863/ugc-net-cse-july-2016-part-3-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"154273\"></a><div itemprop=\"text\"><p>A reduced state table has \\( 18 \\) rows. The minimum number of Flip-flops needed to implement the sequential machine is :</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2009 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154273/ugc-net-cse-june-2009-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/154273/ugc-net-cse-june-2009-part-2-question-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"67813\"></a><div itemprop=\"text\"><p>Advantage of synchronous sequential circuits over asynchronous ones is</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2010 | Part 2 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Faster operation</p>",
+            "<p>Ease of avoiding problems due to hazard</p>",
+            "<p>Lower hardware requirement</p>",
+            "<p>Better noise immunity</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67813/ugc-net-cse-june-2010-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/67813/ugc-net-cse-june-2010-part-2-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"57018\"></a><div itemprop=\"text\">\n<p>The output of a sequential circuit depends on</p>\n\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2014 | Part 3 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Present input only</p>",
+            "<p>Past input only</p>",
+            "<p>Both present and past input</p>",
+            "<p>Past output only&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Both present and past input</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57018/ugc-net-cse-june-2014-part-3-question-42\" target=\"_blank\">https://gateoverflow.in/57018/ugc-net-cse-june-2014-part-3-question-42</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"57021\"></a><div itemprop=\"text\">\n<p>Which of the following flip-flops is free from race condition ?</p>\n\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2014 | Part 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T \\) flip-flop</p>",
+            "<p>\\( SR \\) flip-flop&nbsp;</p>",
+            "<p>Master-slave \\( JK \\) flip-flop&nbsp;</p>",
+            "<p>None of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Master-slave \\( JK \\) flip-flop&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57021/ugc-net-cse-june-2014-part-3-question-44\" target=\"_blank\">https://gateoverflow.in/57021/ugc-net-cse-june-2014-part-3-question-44</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"61147\"></a><div itemprop=\"text\">\n<p>The number of flip-flops required to design a modulo -272 counter is</p>\n\n\n</div><br><br><b>Digital Logic: UGC NET CSE | Junet 2015 | Part 3 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>8</p>",
+            "<p>9</p>",
+            "<p>27</p>",
+            "<p>11</p>"
+          ],
+          "correct_answer": "<p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61147/ugc-net-cse-junet-2015-part-3-question-6\" target=\"_blank\">https://gateoverflow.in/61147/ugc-net-cse-junet-2015-part-3-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

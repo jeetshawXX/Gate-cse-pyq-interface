@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Expression Evaluation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Expression Evaluation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435353\"></a><div itemprop=\"text\"><p>The minimum number of arithmetic operations required to evaluate the expression \\( f(z)=8 x^{3}+3 z+12 \\)</p><p>&nbsp;</p></div><br><br><b>Algorithms: ISRO CSE 2023 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435353/isro-cse-2023-question-43\" target=\"_blank\">https://gateoverflow.in/435353/isro-cse-2023-question-43</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Organization - Computer_Organization - Slot 17",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a pipelined processor with the following four stages: <br>\nIF: Instruction Fetch <br>\nID: Instruction Decode and Operand Fetch <br>\nEX: Execute <br>\nWB: Write Back <br><br>\nThe IF, ID and WB stages take one clock cycle each to complete the operation.\nThe number of clock cycles for the EX stage depends on the instruction. The ADD\nand SUB instructions need 1 clock cycle and the MUL instruction needs 3 clock\ncycles in the EX stage. Operand forwarding is used in the pipelined processor.\nWhat is the number of clock cycles taken to complete the following sequence of\ninstructions? <br>\nADD R2, R1, R0              (R2 \\(\\leftarrow\\)  R1 + R0) <br>\nMUL R4, R3, R2              (R4 \\(\\leftarrow\\)  R3 * R2)<br>\nSUB R6, R5, R4               (R6 \\(\\leftarrow\\)  R5 - R4)<br> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1235/gate2007-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+            "<b>B.</b> <p>256 Mbyte, 28 bits</p>",
+            "<b>C.</b> <p>512 Mbyte, 20 bits</p>",
+            "<b>D.</b> <p>64 Gbyte, 28 bits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1209/gate2007-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a 4-way set associative cache consisting of 128 lines with a line size of\n64 words. The CPU generates a 20-bit address of a word in main memory. The\nnumber of bits in the TAG, LINE and WORD fields are respectively: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9, 6, 5</p>",
+            "<b>B.</b> <p>7, 7, 6</p>",
+            "<b>C.</b> <p>7, 5, 8</p>",
+            "<b>D.</b> <p>9, 5, 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9, 5, 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1208/gate2007-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A pipelined processor uses a 4-stage instruction pipeline with the following stages: Instruction fetch (IF), Instruction decode (ID), Execute (EX) and Writeback (WB). The arithmetic operations as well as the load and store operations are carried out in the EX stage. The sequence of instructions corresponding to the statement \\(X = (S - R * (P + Q))/T\\) is given below. The values of variables P, Q, R, S and T are available in the registers R0, R1, R2, R3 and R4 respectively, before the execution of the instruction sequence.<br><br>\n\\(\\begin{array}{lll} \\text{ADD} &amp; \\text{$R5,R0,R1$} &amp; \\text{$;R5$} \\leftarrow \\text{R0 + R1} \\\\ \\text{MUL}&amp; \\text{$R6,R2,R5$} &amp; \\text{$;R6$} \\leftarrow \\text{R2 * R5} \\\\ \\text{SUB} &amp; \\text{$R5,R3,R6$} &amp; \\text{$;R5$} \\leftarrow \\text{R3 -R6} \\\\ \\text{DIV} &amp;\\text{$R6,R5,R4$} &amp; \\text{$;R6$} \\leftarrow \\text{R5/R4} \\\\ \\text{STORE} &amp;\\text{$R6,X$}&amp; \\text{$;X$} \\leftarrow \\text{R6} \\\\ \\end{array}\\) <br><br>The IF, ID and WB stages take 1 clock cycle each. The EX stage takes 1 clock cycle each for the ADD, SUB and STORE operations, and 3 clock cycles each for MUL and DIV operations. Operand forwarding from the EX stage to the ID stage is used. The number of clock cycles required to complete the sequence of instructions is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3623/gate2006-it-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A pipelined processor uses a 4-stage instruction pipeline with the following stages: Instruction fetch (IF), Instruction decode (ID), Execute (EX) and Writeback (WB). The arithmetic operations as well as the load and store operations are carried out in the EX stage. The sequence of instructions corresponding to the statement \\(X = (S - R * (P + Q))/T\\) is given below. The values of variables P, Q, R, S and T are available in the registers R0, R1, R2, R3 and R4 respectively, before the execution of the instruction sequence.<br><br>\n\\(\\begin{array}{lll} \\text{ADD} &amp; \\text{$R5,R0,R1$} &amp; \\text{$;R5$} \\leftarrow \\text{R0 + R1} \\\\ \\text{MUL}&amp; \\text{$R6,R2,R5$} &amp; \\text{$;R6$} \\leftarrow \\text{R2 * R5} \\\\ \\text{SUB} &amp; \\text{$R5,R3,R6$} &amp; \\text{$;R5$} \\leftarrow \\text{R3 -R6} \\\\ \\text{DIV} &amp;\\text{$R6,R5,R4$} &amp; \\text{$;R6$} \\leftarrow \\text{R5/R4} \\\\ \\text{STORE} &amp;\\text{$R6,X$}&amp; \\text{$;X$} \\leftarrow \\text{R6} \\\\ \\end{array}\\) <br><br>The number of Read-After-Write (RAW) dependencies, Write-After-Read( WAR) dependencies, and Write-After-Write (WAW) dependencies in the sequence of instructions are, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,2,4</p>",
+            "<b>B.</b> <p>3,2,3</p>",
+            "<b>C.</b> <p>4,2,2</p>",
+            "<b>D.</b> <p>3,3,2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4,2,2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3622/gate2006-it-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A computer system has a level-1 instruction cache (1-cache), a level-1 data cache (D-cache) and a level-2 cache (L2-cache) with the following specifications: <br>\\(\\begin{array}{|l|c|c|c|} \\hline \\text {} &amp; \\textbf{Capacity }&amp; \\textbf{Mapping Method} &amp; \\textbf{Block Size}\\\\\\hline \\text{$I$-Cache} &amp; \\text{$4K$ words}&amp; \\text{Direct mapping} &amp; \\text{$4$ words} \\\\\\hline \\text{$D$-Cache} &amp; \\text{$4K$ words}&amp; \\text{$2$ -way set associative mapping} &amp; \\text{$4$ words}\\\\\\hline \\text{$L2$-Cache} &amp; \\text{$64K$ words}&amp; \\text{$4$-way set associative mapping} &amp; \\text{$16$ words} \\\\\\hline \\end{array}\\)\n<br>\nThe length of the physical address of a word in the main memory is 30 bits. The capacity of the tag memory in the I-cache, D-cache and L2-cache is, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 K x 18-bit, 1 K x 19-bit, 4 K x 16-bit</p>",
+            "<b>B.</b> <p>1 K x 16-bit, 1 K x 19-bit, 4 K x 18-bit</p>",
+            "<b>C.</b> <p>1 K x 16-bit, 512 x 18-bit, 1 K x 16-bit</p>",
+            "<b>D.</b> <p>1 K x 18-bit, 512 x 18-bit, 1 K x 18-bit</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1 K x 18-bit, 1 K x 19-bit, 4 K x 16-bit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3586/gate2006-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A cache line is 64 bytes. The main memory has latency 32 ns and bandwidth 1 GBytes/s. The time required to fetch the entire cache line from the main memory is: <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32 ns</p>",
+            "<b>B.</b> <p>64 ns</p>",
+            "<b>C.</b> <p>96 ns</p>",
+            "<b>D.</b> <p>128 ns</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>96 ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3585/gate2006-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The data path shown in the figure computes the number of 1s in the 32-bit input word corresponding to an unsigned even integer stored in the shift register. <br>\nThe unsigned counter, initially zero, is incremented if the most significant bit of the shift register is 1. <br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q41_0ce010b4.jpg\"><br>\nThe microprogram for the control is shown in the table below with missing control words for microinstructions \\(I_1, I_2, \\ldots I_n\\). <br>\n\\(\\begin{array}{|l|c|c|c|} \\hline \\textbf {Microinstruction} &amp; \\textbf{Reset Counter}&amp; \\textbf{Shift left} &amp; \\textbf{Load output} \\\\\\hline \\text{BEGIN} &amp; \\text{1} &amp; \\text{0} &amp; \\text{0} \\\\\\hline \\text{I1}&amp; \\text{$?$} &amp; \\text{$?$} &amp; \\text{$?$} \\\\\\hline \\text{:} &amp; \\text{:} &amp; \\text{:} &amp; \\text{:} \\\\\\hline \\text{In} &amp; \\text{$?$} &amp; \\text{$?$} &amp; \\text{$?$} \\\\\\hline \\text{END} &amp; \\text{0} &amp; \\text{0} &amp; \\text{1} \\\\\\hline \\end{array}\\)<br>\nThe counter width (k), the number of missing microinstructions (n), and the control word for microinstructions \\(I_1, I_2, \\ldots I_n\\) are, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32,5,010</p>",
+            "<b>B.</b> <p>5,32,010</p>",
+            "<b>C.</b> <p>5,31,011</p>",
+            "<b>D.</b> <p>5,31,010</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5,31,010</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3584/gate2006-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The memory locations 1000,1001 and 1020 have data values 18,1 and 16 respectively before the following program is executed.<br><br>\n\\(\\begin{array}{llll} \\text{MOVI} &amp; \\text{$R_s, 1$} &amp;&amp; \\text{; Move immediate} \\\\ \\text{LOAD} &amp; \\text{$R_d, 1000(R_s)$} &amp;&amp; \\text{; Load from memory}\\\\ \\text{ADDI} &amp; \\text{$ R_d, 1000$} &amp;&amp; \\text{; Add immediate}\\\\ \\text{STOREI} &amp; \\text{$0(R_d), 20$} &amp;&amp; \\text{; Store immediate} \\end{array}\\)<br><br>\nWhich of the statements below is TRUE after the program is executed ? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Memory location 1000 has value 20</p>",
+            "<b>B.</b> <p>Memory location 1020 has value 20</p>",
+            "<b>C.</b> <p>Memory location 1021 has value 20</p>",
+            "<b>D.</b> <p>Memory location 1001 has value 20</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Memory location 1001 has value 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3581/gate2006-it-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following statements about relative addressing mode is FALSE? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It enables reduced instruction size</p>",
+            "<b>B.</b> <p>It allows indexing of array element with same instruction</p>",
+            "<b>C.</b> <p>It enables easy relocation of data</p>",
+            "<b>D.</b> <p>It enables faster address calculation than absolute addressing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It enables faster address calculation than absolute addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3578/gate2006-it-39-isro2009-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following DMA transfer modes and interrupt handling mechanisms will enable the highest I/O band-width? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Transparent DMA and Polling interrupts</p>",
+            "<b>B.</b> <p>Cycle-stealing and Vectored interrupts</p>",
+            "<b>C.</b> <p>Block transfer and Vectored interrupts</p>",
+            "<b>D.</b> <p>Block transfer and Polling interrupts</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Block transfer and Vectored interrupts</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3547/gate2006-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2.<pre><code> P1:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[j][i];\n   }\n}</code></pre> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of ratio \\(\\frac{M1}{M2}\\) is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{16}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{8}\\)</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43517/gate2006-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2.<pre><code> P1:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[j][i];\n   }\n}</code></pre> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of M1 is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2048</p>",
+            "<b>C.</b> <p>16384</p>",
+            "<b>D.</b> <p>262144</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16384</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1854/gate2006-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h2 is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.4ns</p>",
+            "<b>B.</b> <p>2.3ns</p>",
+            "<b>C.</b> <p>1.8ns</p>",
+            "<b>D.</b> <p>1.7ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.7ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43565/gate2006-75#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h1 is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.4ns</p>",
+            "<b>B.</b> <p>2.3ns</p>",
+            "<b>C.</b> <p>1.8ns</p>",
+            "<b>D.</b> <p>1.7ns</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2.4ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1851/gate2006-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

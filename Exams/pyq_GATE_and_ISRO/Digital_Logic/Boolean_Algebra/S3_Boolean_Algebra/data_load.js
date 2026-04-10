@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Boolean_Algebra - Boolean_Algebra - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Boolean_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The boolean expression \\(A B+A B^{\\prime}+A^{\\prime} C+A C\\) is independent of the boolean variable <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51074/isro2015-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The complement of the Boolean expression \\(A B(\\bar{B} C+A C)\\) is <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\bar{A}+\\bar{B})+(B+\\bar{C}) \\cdot(\\bar{A}+\\bar{C})\\)</p>",
+            "<b>B.</b> <p>\\((\\bar{A} \\cdot \\bar{B})+(B \\bar{C}+\\bar{A} \\bar{C})\\)</p>",
+            "<b>C.</b> <p>\\((\\bar{A}+\\bar{B}) \\cdot(B+\\bar{C})+(A+\\bar{C})\\)</p>",
+            "<b>D.</b> <p>\\((A+B) \\cdot(\\bar{B}+C)(A+C)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\bar{A}+\\bar{B})+(B+\\bar{C}) \\cdot(\\bar{A}+\\bar{C})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50778/isro2015-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The total number of prime implicants of the function f(w,x,y,z)=\\(\\Sigma\\)(0,2,4,5,6,10) is _______. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8503/gate2015-3-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Given the function F=P'+QR , where F is a function in three Boolean variables P,Q and R and P'=!P, consider the following statements.<br>\n(S1)  F=\\(\\Sigma\\)(4,5,6) <br>\n(S2)  F=\\(\\Sigma\\)(0,1,2,3,7) <br>\n(S3)  F=\\(\\Pi\\)(4,5,6) <br>\n(S4)  F=\\(\\Pi\\)(0,1,2,3,7) <br> Which of the following is true? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(S1)- False, (S2)- True, (S3)- True, (S4)- False</p>",
+            "<b>B.</b> <p>(S1)- True, (S2)- False, (S3)- False, (S4)- True</p>",
+            "<b>C.</b> <p>(S1)- False, (S2)- False, (S3)- True, (S4)- True</p>",
+            "<b>D.</b> <p>(S1)- True, (S2)- True, (S3)- False, (S4)- False</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(S1)- False, (S2)- True, (S3)- True, (S4)- False</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8504/gate2015-3-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let # be a binary operator defined as <br>\nX#Y=X'+Y' where X and Y are Boolean variables.<br> Consider the following two statements.<br><br>\n(S1) (P # Q) # R  =  P # (Q # R) <br>\n(S2) Q # R  =  R # Q<br><br>\nWhich of the following is/are true for the Boolean variables P,  Q and R? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Both S1 and S2 are true</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 are true</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8393/gate2015-3-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The number of min-terms after minimizing the following Boolean Algebra is _________. <br>\\({[{D}'+A{B}'+{A}'C+A{C}'D+{A}'{C}'{D}]}'\\) <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8162/gate2015-2-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the operations <br> \\(f(X,Y,Z)=X'YZ+XY'+Y'Z'\\) and \\( g(X,Y,Z)=X'YZ+X'YZ'+XY\\). <br> Which one of the following is correct? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both {f} and {g} are functionally complete</p>",
+            "<b>B.</b> <p>Only {f} is functionally complete</p>",
+            "<b>C.</b> <p>Only {g} is functionally complete</p>",
+            "<b>D.</b> <p>Neither {f} nor {g} is functionally complete</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only {f} is functionally complete</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8294/gate2015-1-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following is not valid Boolean algebra rule ? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X . X=X\\)</p>",
+            "<b>B.</b> <p>\\((X+Y) . X=X\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{X}+X Y=Y\\)</p>",
+            "<b>D.</b> <p>\\((X+Y) \\cdot(X+Z)=X+Y Z\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\bar{X}+X Y=Y\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52781/isro2014-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the logic circuit given below.<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q53_ae983511.jpg\"><br>The inverter, AND and OR gates have delays of 6, 10 and 11 nanoseconds respectively. Assuming that wire delays are negligible, what is the duration of glitch for Q before it becomes stable? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>11</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>27</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55003/isro2014-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The output of a tristate buffer when the enable input in 0 is <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Always 0</p>",
+            "<b>B.</b> <p>Always 1</p>",
+            "<b>C.</b> <p>Retains the last value when enable input was high</p>",
+            "<b>D.</b> <p>Disconnected state</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Disconnected state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54950/isro2014-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the logic circuit given below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Boolean_Algebra\\q15_4b90dfc8.jpg\"><br>Q=__________? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{A} C+B \\bar{C}+C D\\)</p>",
+            "<b>B.</b> <p>\\(A B C+\\bar{C} D\\)</p>",
+            "<b>C.</b> <p>\\(A B+B \\bar{C}+B \\bar{D}\\)</p>",
+            "<b>D.</b> <p>\\(A \\bar{B}+A \\bar{C}+\\bar{C} D\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(A B+B \\bar{C}+B \\bar{D}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54948/isro2014-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let \\(\\oplus\\) denote the Exclusive OR (XOR) operation. Let '1' and '0' denote the binary constants. Consider the following Boolean Algebra for F over two variables P and Q. <br> \\(F(P,Q)=((1\\oplus P)\\oplus (P\\oplus Q)) \\oplus ((P\\oplus Q) \\oplus (Q\\oplus 0))\\) <br> The equivalent expression for F is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P+Q\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{P+Q}\\)</p>",
+            "<b>C.</b> <p>\\(P\\oplus Q\\)</p>",
+            "<b>D.</b> <p>\\(\\overline{P\\oplus Q}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\overline{P\\oplus Q}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2090/gate2014-3-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following minterm expression for F. <br>\nF(P,Q,R,S) = \\(\\Sigma\\) 0, 2, 5, 7, 8, 10, 13, 15 <br>\nThe minterms 2, 7, 8 and 13 are 'do not care terms. The minimal sum of-products form for F is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Q\\bar{S}+\\bar{Q}S\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{Q}\\bar{S}+QS\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{Q}\\bar{R}\\bar{S}+\\bar{Q}R\\bar{S}+Q\\bar{R}S+QRS\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{P}\\bar{Q}\\bar{S}+\\bar{P}QS+PQS+P\\bar{Q}\\bar{S}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\bar{Q}\\bar{S}+QS\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2041/gate2014-3-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The dual of a Boolean function \\(F(x_{1},x_{2},...,x_{n}, +, \\cdot , ' ) \\) , written as \\(F^{D}\\), is the same expression as that of F with + and  \\(\\cdot\\)  swapped. F is said to be self-dual if \\(F=F^{D}\\).  The number of self-dual functions with n Boolean variables is <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n-1}\\)</p>",
+            "<b>C.</b> <p>\\(2^{2^{n}}\\)</p>",
+            "<b>D.</b> <p>\\(2^{2^{n-1}}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{2^{n-1}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1958/gate2014-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following Boolean Algebra for F: <br>\\(F(P,Q,R,S)=PQ+\\bar{P}QR+\\bar{P}Q\\bar{R}S\\) <br> The minimal sum-of products form of F is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>PQ+QR+QS</p>",
+            "<b>B.</b> <p>P+Q+R+S</p>",
+            "<b>C.</b> <p>\\(\\bar{P}+\\bar{Q}+\\bar{R}+\\bar{S}\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{P}R+\\bar{PRS}+P\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>PQ+QR+QS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1764/gate2014-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

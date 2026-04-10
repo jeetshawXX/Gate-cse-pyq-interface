@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communication with the host? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16 bits</p>",
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>48 bits</p>",
+            "<b>D.</b> <p>64 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>32 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51712/isro2015-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What frequency range is used for microwave communications, satellite and radar? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Low frequency: 30 kHz to 300 kHz</p>",
+            "<b>B.</b> <p>Medium frequency: 300 kHz to 3 MHz</p>",
+            "<b>C.</b> <p>Super high frequency: 3000 MHz to 30000 MHz</p>",
+            "<b>D.</b> <p>Extremely high frequency: 30000 kHz</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Extremely high frequency: 30000 kHz</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51711/isro2015-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A T-switch is used to <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Control how messages are passed between computers</p>",
+            "<b>B.</b> <p>Echo every character that is received</p>",
+            "<b>C.</b> <p>Transmit characters one at a time</p>",
+            "<b>D.</b> <p>Rearrange the connections between computing equipments</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Rearrange the connections between computing equipments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51709/isro2015-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The DNS maps the IP address to <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A binary address as strings</p>",
+            "<b>B.</b> <p>A n alphanumeric address</p>",
+            "<b>C.</b> <p>A hierarchy of domain names</p>",
+            "<b>D.</b> <p>A hexadecimal address</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A hierarchy of domain names</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46736/isro2015-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>An organization is granted the block 130.34.12.64/26. It needs to have 4 subnets. Which of the following is not an address of this organization? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>130.34.12.124</p>",
+            "<b>B.</b> <p>130.34.12.89</p>",
+            "<b>C.</b> <p>130.34.12.70</p>",
+            "<b>D.</b> <p>130.34.12.132</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>130.34.12.132</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17446/isro2014-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following is not a valid multicast MAC address? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>01:00:5E:00:00:00</p>",
+            "<b>B.</b> <p>01:00:5E:00:00:FF</p>",
+            "<b>C.</b> <p>01:00:5E:00:FF:FF</p>",
+            "<b>D.</b> <p>01:00:5E:FF:FF:FF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>01:00:5E:FF:FF:FF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17449/isro2014-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A mechanism or technology used in Ethernet by which two connected devices choose common transmission parameters such as speed, duplex mode and flow control is called <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Autosense</p>",
+            "<b>B.</b> <p>Synchronization</p>",
+            "<b>C.</b> <p>Pinging</p>",
+            "<b>D.</b> <p>Auto negotiation</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Auto negotiation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55011/isro2014-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose you are browsing the world wide web using a web browser and trying to access the web servers. What is the underlying protocol and port number that are being used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>UDP, 80</p>",
+            "<b>B.</b> <p>TCP, 80</p>",
+            "<b>C.</b> <p>TCP, 25</p>",
+            "<b>D.</b> <p>UDP, 25</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP, 80</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55009/isro2014-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Assume the following information.<br>Original timestamp value = 46<br>Receive  timestamp value = 59<br>Transmit timestamp value = 60<br>Timestamp at arrival of packet = 69<br>Which of the following statements is correct? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Receive clock should go back by 3 milliseconds</p>",
+            "<b>B.</b> <p>Transmit and Receive clocks are synchronized</p>",
+            "<b>C.</b> <p>Transmit clock should go back by 3 milliseconds</p>",
+            "<b>D.</b> <p>Receive clock should go ahead by 1 milliseconds</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Receive clock should go back by 3 milliseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17439/isro2014-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A supernet has a first address of 205.16.32.0 and a supernet mask of 255.255.248.0. A router receives 4 packets with the following destination addresses.which packet belongs to this supernet? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>205.16.42.56</p>",
+            "<b>B.</b> <p>205.17.32.76</p>",
+            "<b>C.</b> <p>205.16.31.10</p>",
+            "<b>D.</b> <p>205.16.39.44</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>205.16.39.44</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17443/isro2014-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>An IP packet has arrived with the first 8 bits as 0100 0010. Which of the following is correct? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The number of hops this packet can travel is 2.</p>",
+            "<b>B.</b> <p>The total number of bytes in header is 16 bytes</p>",
+            "<b>C.</b> <p>The upper layer protocol is ICMP</p>",
+            "<b>D.</b> <p>The receiver rejects the packet</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The receiver rejects the packet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54125/isro2014-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a 50 kbps satellite channel with a 500 milliseconds round trip propagation delay. If the sender wants to transmit 1000 bit frames, how much time will it take for the receiver to receive the frame? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>250 milliseconds</p>",
+            "<b>B.</b> <p>20 milliseconds</p>",
+            "<b>C.</b> <p>520 milliseconds</p>",
+            "<b>D.</b> <p>270 milliseconds</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>270 milliseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54975/isro2014-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A IP packet has arrived in which the fragmentation offset value is 100,the value of HLEN is 5 and the value of total length field is 200. What is the number of the last byte? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>194</p>",
+            "<b>B.</b> <p>394</p>",
+            "<b>C.</b> <p>979</p>",
+            "<b>D.</b> <p>1179</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>979</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17422/isro2014-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In a system an RSA algorithm with p=5 and q=11, is implemented for data security. What is the value of the decryption key if the value of the encryption key is 27? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>27</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17421/isro2014-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is routing algorithm used by OSPF routing protocol? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Distance vector</p>",
+            "<b>B.</b> <p>Flooding</p>",
+            "<b>C.</b> <p>Path vector</p>",
+            "<b>D.</b> <p>Link state</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Link state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53136/isro2014-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

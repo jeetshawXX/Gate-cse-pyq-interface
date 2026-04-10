@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Operating System - File System",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "File System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71600\"></a><div itemprop=\"text\"><p>Consider a file currently consisting of \\( 50 \\) blocks. Assume that the file control block and the index block is already in memory. If a block is added at the end (and the block information to be added is stored in memory), then how many disk \\( I/O \\) operations are required for indexed (single-level) allocation strategy ?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | August 2016 | Part 3 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)&nbsp;</p>",
+            "<p>\\( 101 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71600/ugc-net-cse-august-2016-part-3-question-53\" target=\"_blank\">https://gateoverflow.in/71600/ugc-net-cse-august-2016-part-3-question-53</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60811\"></a><div itemprop=\"text\"><p>The directory structure used in Unix file system is called</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 3 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Hierarchical directory</p>",
+            "<p>Tree structured&nbsp;directory</p>",
+            "<p>Directed acrylic graph</p>",
+            "<p>Graph structured&nbsp;directory</p>"
+          ],
+          "correct_answer": "<p>Directed acrylic graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60811/ugc-net-cse-december-2013-part-3-question-72\" target=\"_blank\">https://gateoverflow.in/60811/ugc-net-cse-december-2013-part-3-question-72</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"60819\"></a><div itemprop=\"text\"><p>How many disk blocks are required to keep list of free disk blocks in a \\( 16 \\) GB hard disk with \\( 1 \\) kB block size using linked list of free disk blocks ? Assume that the disk block number is stored in \\( 32 \\) bits.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2014 | Part 3 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1024 \\) blocks&nbsp;</p>",
+            "<p>\\( 16794 \\) blocks&nbsp;</p>",
+            "<p>\\( 20000 \\) blocks&nbsp;</p>",
+            "<p>\\( 1048576 \\) blocks&nbsp;</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60819/ugc-net-cse-december-2014-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/60819/ugc-net-cse-december-2014-part-3-question-50</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55615\"></a><div itemprop=\"text\">\n<p>Which command is the fastest among the following?</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2012 | Part 2 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>COPY TO &lt;NEW FILE&gt;</p>",
+            "<p>COPY STRUCTURE TO &lt;NEW FILE&gt;</p>",
+            "<p>COPY FILE &lt;FILE 1&gt; &lt;FILE 2&gt;</p>",
+            "<p>COPY TO MFILE-DAT DELIMITED</p>"
+          ],
+          "correct_answer": "<p>COPY STRUCTURE TO &lt;NEW FILE&gt;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55615/ugc-net-cse-june-2012-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/55615/ugc-net-cse-june-2012-part-2-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"54583\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp; \\text{} &amp; \\textbf{List – I} &amp;&amp; \\textbf{List – II} \\\\&nbsp;\\text{a.} &amp; \\text{Contiguous allocation} &amp; \\text{i.} &amp; \\text{This scheme supports very large}\\\\&amp;&amp;&amp; \\text{ file sizes.} \\\\&nbsp;\\text{b.} &amp; \\text{Linked allocation} &amp; \\text{ii.} &amp; \\text{This allocation technique supports}&nbsp; \\\\ &amp;&amp;&amp; \\text{&nbsp;only sequential files.}&nbsp; \\\\&nbsp; \\text{c.} &amp; \\text{Indexed&nbsp;allocation} &amp; \\text{iii.} &amp; \\text{The number of disks required to} \\\\&amp;&amp;&amp;\\text{access file is minimal.} \\\\&nbsp;\\text{d.} &amp; \\text{Multi-level&nbsp;indexed} &amp; \\text{iv.} &amp; \\text{This technique suffers from maximum} \\\\ &amp;&amp;&amp;\\text{wastage of space in&nbsp;storing pointers.}&nbsp; \\\\&nbsp; &nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2014 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iii; b-iv; c-ii; d-i} \\)</p>",
+            "<p>\\( \\text{a-iii; b-ii; c-iv; d-i} \\)</p>",
+            "<p>\\( \\text{a-i; b-ii; c-iv; d-iii} \\)</p>",
+            "<p>\\( \\text{a-i; b-iv; c-ii; d-iii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iii; b-ii; c-iv; d-i} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54583/ugc-net-cse-june-2014-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/54583/ugc-net-cse-june-2014-part-2-question-34</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"61155\"></a><div itemprop=\"text\"><p>In the indexed scheme of blocks to a file, the maximum possible size of the file depends on:</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 3 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The number of blocks used for index and the size of index</p>",
+            "<p>Size of Blocks and size of Address</p>",
+            "<p>Size of index</p>",
+            "<p>Size of block</p>"
+          ],
+          "correct_answer": "<p>The number of blocks used for index and the size of index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61155/ugc-net-cse-junet-2015-part-3-question-12\" target=\"_blank\">https://gateoverflow.in/61155/ugc-net-cse-junet-2015-part-3-question-12</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"61331\"></a><div itemprop=\"text\">\n<p>In _____ allocation method for disk block allocation in a file system, insertion and deletion of blocks in a file is easy</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 3 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Index</p>",
+            "<p>Linked</p>",
+            "<p>Contiguous</p>",
+            "<p>Bit Map</p>"
+          ],
+          "correct_answer": "<p>Linked</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61331/ugc-net-cse-junet-2015-part-3-question-53\" target=\"_blank\">https://gateoverflow.in/61331/ugc-net-cse-junet-2015-part-3-question-53</a></p>"
+        }
+      ]
+    }
+  ]
+});

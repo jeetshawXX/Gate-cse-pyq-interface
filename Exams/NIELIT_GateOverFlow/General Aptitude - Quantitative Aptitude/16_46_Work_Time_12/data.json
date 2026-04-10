@@ -1,0 +1,191 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Work Time",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Work Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275561\"></a><div itemprop=\"text\"><p>A software engineer has the capability of thinking \\( 200 \\) lines of code in five minutes and can type \\( 200 \\) lines of code in \\( 10 \\) minutes. He takes a break for five minutes after every \\( 10 \\) minutes. How many lines of code will he complete typing after an hour?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 300 \\)</p>",
+            "<p>\\( 400 \\)</p>",
+            "<p>\\( 500 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 500 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275561/nielit-2018-3\" target=\"_blank\">https://gateoverflow.in/275561/nielit-2018-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275558\"></a><div itemprop=\"text\"><p>A construction company ready to finish a construction work in \\( 180 \\) days, hired&nbsp;\\( 80 \\) workers each working \\( 8 \\) hours daily. After \\( 90 \\) days, only \\( 2/7 \\) of the work was completed. How many workers are to be increased to complete the work on time?</p>\n\n<p>Note: If additionally acquired workers do agree to work for \\( 10 \\) hours daily.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 90 \\) workers</p>",
+            "<p>\\( 80 \\) workers</p>",
+            "<p>\\( 65 \\) workers</p>",
+            "<p>\\( 85 \\) workers</p>"
+          ],
+          "correct_answer": "<p>\\( 80 \\) workers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275558/nielit-2018-6\" target=\"_blank\">https://gateoverflow.in/275558/nielit-2018-6</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369269\"></a><div itemprop=\"text\"><p>Abha can do some work in \\( 10 \\; \\text{days}, \\) Billu can do it in \\( 20 \\; \\text{days} \\) and Chintu&nbsp;can do it in \\( 40 \\; \\text{days}. \\) They start working in turns with Abha starting to work on the first day followed by Billu on the second day and by Chintu on the third day and again by Abha on the fourth day and so on, till the work is completed fully. Find the time taken (approx.) to complete the work fully.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\; \\text{days} \\)</p>",
+            "<p>\\( 15 \\; \\text{days} \\)</p>",
+            "<p>\\( 17 \\; \\text{days} \\)</p>",
+            "<p>\\( 20 \\; \\text{days} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\; \\text{days} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369269/nielit-2021-dec-scientist-a-section-a-24\" target=\"_blank\">https://gateoverflow.in/369269/nielit-2021-dec-scientist-a-section-a-24</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"369264\"></a><div itemprop=\"text\"><p>In a company \\( \\text{ABC} \\) Ltd. a certain number of engineers can develop a design in \\( 40 \\; \\text{days}. \\) If there were \\( 5 \\) more engineers, it could be finished in \\( 10 \\; \\text{days} \\) less. How many engineers were there in the beginning ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 15 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369264/nielit-2021-dec-scientist-a-section-a-29\" target=\"_blank\">https://gateoverflow.in/369264/nielit-2021-dec-scientist-a-section-a-29</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"373707\"></a><div itemprop=\"text\"><p>Three pipes \\( \\text{A, B} \\) and \\( \\text{C} \\) can fill a cistern in \\( 8 \\) minutes,&nbsp;\\( 12 \\) minutes and&nbsp;\\( 16 \\) minutes&nbsp;respectively. What is the time taken by three pipes to fill the cistern when they are opened together?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3.7 \\) minutes</p>",
+            "<p>\\( 6 \\) minutes</p>",
+            "<p>\\( 4.5 \\) minutes</p>",
+            "<p>\\( 5 \\) minutes</p>"
+          ],
+          "correct_answer": "<p>\\( 3.7 \\) minutes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373707/nielit-2022-april-scientist-b-section-a-question-11\" target=\"_blank\">https://gateoverflow.in/373707/nielit-2022-april-scientist-b-section-a-question-11</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"373682\"></a><div itemprop=\"text\"><p>In a race of \\( 600 \\; \\text{m, A} \\) can beat&nbsp;\\( \\text{B} \\) by&nbsp;\\( 50 \\; \\text{m,} \\) and in another race of&nbsp;\\( 500 \\; \\text{m, B} \\) can beat&nbsp;\\( \\text{C} \\) by&nbsp;\\( 60 \\; \\text{m} \\). Then by how many meters will \\( \\text{A} \\) beat&nbsp;\\( \\text{C} \\) in a race of \\( 400 \\) meters ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 77\\frac{1}{3} \\; \\text{m} \\)</p>",
+            "<p>\\( 80 \\; \\text{m} \\)</p>",
+            "<p>\\( 70 \\; \\text{m} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373682/nielit-2022-april-scientist-b-section-a-question-36\" target=\"_blank\">https://gateoverflow.in/373682/nielit-2022-april-scientist-b-section-a-question-36</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411982\"></a><div itemprop=\"text\"><p>A contractor undertakes to build a wall in \\( 50 \\) days. He employs \\( 50 \\) people for the same. However, after \\( 25 \\) days he finds that the work is only \\( 40 \\% \\) complete. How many more men need to be employed to complete the work \\( 10 \\) days before time.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 113</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50 \\) men</p>",
+            "<p>\\( 75 \\) men</p>",
+            "<p>\\( 100 \\) men</p>",
+            "<p>\\( 125 \\) men\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 75 \\) men</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411982/nielit-2023-feb-scientist-c-section-d-question-113\" target=\"_blank\">https://gateoverflow.in/411982/nielit-2023-feb-scientist-c-section-d-question-113</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"410891\"></a><div itemprop=\"text\"><p>\\( 3 \\) men earn as much as \\( 4 \\) women; \\( 4 \\) women earn as much as \\( 6 \\) boys and \\( 8 \\) boys earn as much as \\( 10 \\) girls. If a girl earns Rs. \\( 50/- \\) a day then the earning of a man would be?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 115 \\)</p>",
+            "<p>\\( 135 \\)</p>",
+            "<p>\\( 125 \\)</p>",
+            "<p>\\( 150 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 125 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410891/nielit-2023-feb-scientist-d-section-c-question-73\" target=\"_blank\">https://gateoverflow.in/410891/nielit-2023-feb-scientist-d-section-c-question-73</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"410921\"></a><div itemprop=\"text\"><p>Subhash can copy \\( 50 \\) pages in \\( 10 \\mathrm{hrs,} \\), Subhash and Prakash together can copy \\( 300 \\) pages in \\( 40 \\mathrm{hrs} \\). In how much time can Prakash copy \\( 30 \\) pages.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 103</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13 \\mathrm{hrs} \\)</p>",
+            "<p>\\( 12 \\mathrm{hrs} \\)</p>",
+            "<p>\\( 11 \\mathrm{hrs} \\)</p>",
+            "<p>\\( 9 \\mathrm{hrs} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\mathrm{hrs} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410921/nielit-2023-feb-scientist-d-section-d-question-103\" target=\"_blank\">https://gateoverflow.in/410921/nielit-2023-feb-scientist-d-section-d-question-103</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"410925\"></a><div itemprop=\"text\"><p>A contractor undertakes to build a wall in \\( 50 \\) days. He employs \\( 50 \\) people for the same. However, after \\( 25 \\) days he finds that the work is only \\( 40 \\% \\) complete. How many more men need to be employed to complete the work in time?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 99</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50 \\) men</p>",
+            "<p>\\( 75 \\) men</p>",
+            "<p>\\( 100 \\) men</p>",
+            "<p>\\( 25 \\) men\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 25 \\) men\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410925/nielit-2023-feb-scientist-d-section-d-question-99\" target=\"_blank\">https://gateoverflow.in/410925/nielit-2023-feb-scientist-d-section-d-question-99</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"351428\"></a><div itemprop=\"text\"><p>Ram can do a piece of work in \\( 5 \\) days, and Sham can do the same in \\( 10 \\) days. With the help of Karan, they finished the work in \\( 2 \\) days. How many days would it take Karan to do the work?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant A 2020 November: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\) days</p>",
+            "<p>\\( 10 \\) days</p>",
+            "<p>\\( 15 \\) days</p>",
+            "<p>\\( 20 \\) days</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351428/nielit-scientific-assistant-a-2020-november-33\" target=\"_blank\">https://gateoverflow.in/351428/nielit-scientific-assistant-a-2020-november-33</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"351648\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Two taps \\( A \\) and \\( B \\) can fill a tank in \\( 12 \\) minutes and \\( 15 \\) minutes respectively. The tank can be emptied by a third tap \\( C \\) in \\( 6 \\) minutes. If \\( A \\) and \\( B \\) are kept open for \\( 5 \\) minutes in the beginning and then \\( C \\) is opened along with \\( A \\) and \\( B \\) being kept open, the time taken to empty the tank is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 60 \\) minutes</p>",
+            "<p>\\( 45 \\) minutes</p>",
+            "<p>\\( 30 \\) minutes</p>",
+            "<p>\\( 75 \\) minutes</p>"
+          ],
+          "correct_answer": "<p>\\( 45 \\) minutes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351648/nielit-scientist-b-2020-november-34\" target=\"_blank\">https://gateoverflow.in/351648/nielit-scientist-b-2020-november-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

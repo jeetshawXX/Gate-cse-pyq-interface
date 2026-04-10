@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_1989",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_1989",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following problems are un-decidable?<br>[MSQ]</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Membership problem in context-free languages.</p>",
+            "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+            "<b>C.</b> <p>Whether a finite state automation halts on all inputs.</p>",
+            "<b>D.</b> <p>Membership problem for type 0 languages.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87123/gate1989-3-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols S1 to S7 initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is<br>\\(\\begin{array}{|l|l|} \\hline 0 &amp; \\text { S7 } \\\\ \\hline 1 &amp; \\text { S1 } \\\\ \\hline 2 &amp; \\\\ \\hline 3 &amp; \\text { S4 } \\\\ \\hline 4 &amp; \\text { S2 } \\\\ \\hline 5 &amp; \\text { } \\\\ \\hline 6 &amp; \\text { S5 } \\\\ \\hline 7 &amp; \\\\ \\hline 8 &amp; \\text { S6 } \\\\ \\hline 9 &amp; \\text { S3 } \\\\ \\hline \\end{array}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/10905/gate1989-1-vii-isro2015-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In which of the following case(s) is it possible to obtain different results for call-by-reference and call-by-name parameter passing?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Passing an expression as a parameter</p>",
+            "<b>B.</b> <p>Passing an array as a parameter</p>",
+            "<b>C.</b> <p>Passing a pointer as a parameter</p>",
+            "<b>D.</b> <p>Passing as array element as a parameter</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Passing an expression as a parameter</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/37264/gate1989-3-viii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>An unrestricted use of the \"go to\" statement is harmful because of which of the following reason (s):</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It makes it more difficult to verify programs.</p>",
+            "<b>B.</b> <p>It makes programs more inefficient.</p>",
+            "<b>C.</b> <p>It makes it more difficult to modify existing programs.</p>",
+            "<b>D.</b> <p>It results in the compiler generating longer machine code.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It makes it more difficult to verify programs.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87095/gate1989-3-i\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Context-free languages and regular languages are both closed under the operation (s) of :</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Union</p>",
+            "<b>B.</b> <p>Intersection</p>",
+            "<b>C.</b> <p>Concatenation</p>",
+            "<b>D.</b> <p>Complementation</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Union</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87117/gate1989-3-ii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Answer the following questions:<br>Which of the following problems are undecidable?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Membership problem in context-free languages.</p>",
+            "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+            "<b>C.</b> <p>Whether a finite state automation halts on all inputs.</p>",
+            "<b>D.</b> <p>Membership problem for type 0 languages.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Whether a given context-free language is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87123/gate1989-3-iii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Answer the following:<br>Which of the following well-formed formulas are equivalent?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P \\rightarrow Q\\)</p>",
+            "<b>B.</b> <p>\\(\\neg Q \\rightarrow \\neg P\\)</p>",
+            "<b>C.</b> <p>\\(\\neg P \\vee Q\\)</p>",
+            "<b>D.</b> <p>\\(\\neg Q \\rightarrow P\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(P \\rightarrow Q\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87126/gate1989-3-v\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Answer the following:<br>Which of the following statements are FALSE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For poisson distribution, the mean is twice the variance.</p>",
+            "<b>B.</b> <p>In queuing theory, if arrivals occur according to poisson distribution, then the inter-arrival time is exponentially distributed.</p>",
+            "<b>C.</b> <p>The distribution of waiting time is independent of the service discipline used in selecting the waiting customers for service.</p>",
+            "<b>D.</b> <p>If the time between successive arrivals is exponential, then the time between the occurences of every third arrival is also exponential.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>For poisson distribution, the mean is twice the variance.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87141/gate1989-3-vii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Answer the following:<br>Which one of the following statements (s) is/are FALSE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Overlaying is used to run a program, which is longer than the address space of the computer.</p>",
+            "<b>B.</b> <p>Optimal binary search tree construction can be performed efficiently by using dynamic programming.</p>",
+            "<b>C.</b> <p>Depth first search cannot be used to find connected components of a graph.</p>",
+            "<b>D.</b> <p>Given the prefix and postfix walls over a binary tree, the binary tree can be uniquely constructed.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Overlaying is used to run a program, which is longer than the address space of the computer.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87143/gate1989-3-ixa\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

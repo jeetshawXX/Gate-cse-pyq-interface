@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Disk",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Disk",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"331420\"></a><div itemprop=\"text\"><p>A magnetic disk has \\( 100 \\) cylinders, each with \\( 10 \\) tracks of \\( 10 \\) sectors. If each sector contains \\( 128 \\) bytes, what is the maximum capacity of the disk in kilobytes?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2020 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,280,000 \\)</p>",
+            "<p>\\( 1280 \\)</p>",
+            "<p>\\( 1250 \\)</p>",
+            "<p>\\( 128,000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1250 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331420/isro-cse-2020-question-46\" target=\"_blank\">https://gateoverflow.in/331420/isro-cse-2020-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

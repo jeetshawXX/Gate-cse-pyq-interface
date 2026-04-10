@@ -1,0 +1,46 @@
+{
+  "title": "Quantitative Aptitude - CAT 2001  Question",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "CAT 2001  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1270\"></a><div itemprop=\"text\"><p>If x &gt; 5 and y &lt; −1, then which of the following statements is true?</p>\n\n<ol>\n\t<li>(x + 4y) &gt; 1</li>\n\t<li>x &gt; − 4y</li>\n\t<li>−4x &lt; 5y</li>\n\t<li>None of these</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1270/cat-2001-question-4\" target=\"_blank\">https://aptitude.gateoverflow.in/1270/cat-2001-question-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6718\"></a><div itemprop=\"text\"><p>\\( 0.04\\times 0.0162 \\) is equal to:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6.48\\times 10^{-8} \\)</p>",
+            "<p>\\( 6.48\\times 10^{-4} \\)</p>",
+            "<p>\\( 6.48\\times 10^{-9} \\)</p>",
+            "<p>\\( 6.48\\times 10^{-7} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6718/nielit-2016-mar-scientist-c-section-a-13\" target=\"_blank\">https://aptitude.gateoverflow.in/6718/nielit-2016-mar-scientist-c-section-a-13</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"758\"></a><div itemprop=\"text\"></div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/758/cat-2005-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/758/cat-2005-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

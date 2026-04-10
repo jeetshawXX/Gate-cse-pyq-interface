@@ -1,0 +1,59 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Lattice",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Lattice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25090\"></a><div itemprop=\"text\"><p>Let \\( \\wedge&nbsp; \\), \\( \\vee&nbsp; \\) denote the meet and join operations of lattice. A lattice is called distributive if for all \\( x, y, z, \\)</p>\n\n<p>\\( x\\wedge \\left ( y\\vee z \\right )= \\left ( x\\wedge y \\right )\\vee \\left ( x\\wedge z \\right ) \\)</p>\n\n<p>It is called complete if meet and join exist for every subset. It is called modular if for all \\( x, y, z \\)</p>\n\n<p>\\( z\\leq x\\Rightarrow x\\wedge \\left ( y\\vee z \\right )=\\left ( x\\wedge y \\right )\\vee z \\)</p>\n\n<p>The positive integers under divisibility ordering i.e. \\( p\\leq q \\) if \\( p \\) divides \\( q \\) forms a.</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2012 | Part B | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Complete lattice.</p>",
+            "<p>Modular, but not distributive lattice.</p>",
+            "<p>Distributive lattice.</p>",
+            "<p>Lattice but not a complete lattice.</p>",
+            "<p>Under the give ordering positive integers do not form a lattice.</p>"
+          ],
+          "correct_answer": "<p>Distributive lattice.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25090/tifr-cse-2012-part-b-question-4\" target=\"_blank\">https://gateoverflow.in/25090/tifr-cse-2012-part-b-question-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"27322\"></a><div itemprop=\"text\"><p>Consider the set \\( N^{*} \\) of finite sequences of natural numbers with \\( x \\leq_{p}y \\) denoting that sequence \\( x \\) is a&nbsp;prefix of sequence \\( y \\). Then, which of the following is true?</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2014 | Part B | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( N^{*} \\) is uncountable.</p>",
+            "<p>\\( \\leq_{p} \\) is a total order.</p>",
+            "<p>Every non-empty subset of \\( N^{*} \\) has a least upper bound.</p>",
+            "<p>Every non-empty subset of \\( N^{*} \\) has a greatest lower bound.</p>",
+            "<p>Every non-empty finite subset of \\( N^{*} \\) has a least upper bound.</p>"
+          ],
+          "correct_answer": "<p>Every non-empty subset of \\( N^{*} \\) has a greatest lower bound.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27322/tifr-cse-2014-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/27322/tifr-cse-2014-part-b-question-15</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27341\"></a><div itemprop=\"text\"><p>Consider the ordering relation \\( x\\mid y \\subseteq N \\times N \\) over natural numbers \\( N \\) such that \\( x \\mid y \\) if there exists \\( z \\in N \\)&nbsp;such that \\( x ∙&nbsp;z = y \\). A set is called lattice if every finite subset has a least upper bound and greatest&nbsp;lower bound. It is called a complete lattice if every subset has a least upper bound and greatest lower bound.&nbsp;Then,</p>\n\n</div><br><br><b>Set Theory & Algebra: TIFR CSE 2014 | Part B | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\mid \\) is an equivalence relation.</p>",
+            "<p>Every subset of \\( N \\) has an upper bound under \\( | \\).</p>",
+            "<p>\\( \\mid \\) is a total order.</p>",
+            "<p>\\( (N, \\mid) \\) is a complete lattice.</p>",
+            "<p>\\( (N, \\mid) \\) is a lattice but not a complete lattice.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27341/tifr-cse-2014-part-b-question-16\" target=\"_blank\">https://gateoverflow.in/27341/tifr-cse-2014-part-b-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let &lt; M &gt; denote an encoding of an automaton M. Suppose that \\(\\Sigma =\\{0,1\\}\\). Which of the following languages is/are NOT recursive? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a DFA such that } L(M)=\\emptyset \\}\\)</p>",
+            "<b>B.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a DFA such that } L(M)=\\Sigma ^ * \\}\\)</p>",
+            "<b>C.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a PDA such that } L(M)=\\emptyset \\}\\)</p>",
+            "<b>D.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a PDA such that } L(M)=\\Sigma ^ * \\}\\)</p>"
+          ],
+          "correct_answer": [
+            "<b>D.</b> <p>\\(L= \\{ \\langle M \\rangle \\mid M \\text{ is a PDA such that } L(M)=\\Sigma ^ * \\}\\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357440/gate-cse-2021-set-1-question-12#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose that \\(L_1\\) is a regular language and \\(L_2\\) is a context-free language. Which one of the following languages is NOT necessarily context-free? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1\\cap L_2\\)</p>",
+            "<b>B.</b> <p>\\(L_1\\cdot L_2\\)</p>",
+            "<b>C.</b> <p>\\(L_1 - L_2\\)</p>",
+            "<b>D.</b> <p>\\(L_1\\cup L_2\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L_1 - L_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357451/gate-cse-2021-set-1-question-1#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following language.<br><br>\nL={\\(x \\in \\{a,b\\}^*|\\) number of a's in x divisible by 2 but not divisible by 3}<br><br>\nThe minimum number of states in DFA that accepts L is _______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333180/gate2020-cs-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following languages. <br>\\(L_1=\\{wxyx|w,x,y \\in (0+1)^+\\}\\) <br>\\(L_2=\\{xy|x,y \\in (a+b)^*,|x|=|y|,x\\neq y\\}\\) <br> <br>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1\\) is regular and \\(L_2\\) is context- free.</p>",
+            "<b>B.</b> <p>\\(L_1\\) context- free but not regular and \\(L_2\\) is context-free.</p>",
+            "<b>C.</b> <p>Neither \\(L_1\\) nor \\(L_2\\) is context- free.</p>",
+            "<b>D.</b> <p>\\(L_1\\) context- free but  \\(L_2\\) is not context-free.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L_1\\) is regular and \\(L_2\\) is context- free.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333199/gate2020-cs-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following languages are undecidable? Note that \\(\\left \\langle M \\right \\rangle\\) indicates encoding of the Turing machine \\(M\\). <br><br> \\(L_1=\\{\\left \\langle M \\right \\rangle|L(M)=\\varnothing \\}\\)<br> \\(L_2=\\){\\(\\left \\langle M,w,q \\right \\rangle|M\\) on input w reaches state q in exactly 100 steps} <br>\\(L_3=\\{\\left \\langle M \\right \\rangle|L(M) \\;is \\; not \\; recursive\\}\\) <br> \\(L_4=\\{\\left \\langle M \\right \\rangle|L(M) \\;contains \\; at \\; least\\; 21 \\; members\\}\\) <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1,L_3 \\; and \\; L_4 \\; only\\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\; and \\; L_3 \\; only\\)</p>",
+            "<b>C.</b> <p>\\(L_2 \\; and \\; L_3 \\; only\\)</p>",
+            "<b>D.</b> <p>\\(L_2,L_3 \\; and \\; L_4 \\; only\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L_1,L_3 \\; and \\; L_4 \\; only\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333205/gate2020-cs-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the language \\(L=\\{a^n|n\\geq 0\\}\\cup \\{a^nb^n|n\\geq 0\\}\\) and the following statements. <br><br>\nI. L is deterministic context-free.<br>\nII. L is context-free but not deterministic context-free.<br>\nIII. L is not LL(k) for any k.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>III only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333221/gate2020-cs-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following statements.<br><br>\nI.  If \\(L_1\\cup L_2\\) is regular, then both \\(L_1 \\; and \\; L_2\\) must be regular.<br>\nII. The class of regular languages is closed under infinite union.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither I nor II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333223/gate2020-cs-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following regular expressions represents the set of all binary strings with an odd number of 1's? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((0+1)^* 1(0+1)^*1)^*10^*\\)</p>",
+            "<b>B.</b> <p>\\((0^*10^*10^*)^*0^*1\\)</p>",
+            "<b>C.</b> <p>\\(10^*(0^*10^*10^*)^*\\)</p>",
+            "<b>D.</b> <p>\\((0^*10^*10^*)^*10^*\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((0^*10^*10^*)^*10^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "As per Official GATE CSE 2020 Answer key _MTA (Marks to All)<br><a href=\"https://gateoverflow.in/333224/gate2020-cs-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let \\(\\Sigma\\) be the set of all bijections from {1,...,5} to {1,...,5}, where \\(id\\) denotes the identity function, i.e. \\(id(j)=j,\\forall j\\). Let \\(\\circ\\) denote composition on functions. For a string \\(x = x_1x_2 ... x_n \\in \\Sigma ^n, n \\geq 0\\), let \\(\\pi(x) = x_1\\circ x_2\\circ ... \\circ x_n\\). Consider the language \\(L = \\{x \\in \\Sigma ^* | \\pi(x) = id\\}\\). The minimum number of states in any DFA accepting L is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "120",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302800/gate2019-cs-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following sets:<br><br>\nS1: Set of all recursively enumerable languages over the alphabet {0, 1}.<br>\nS2: Set of all syntactically valid C programs.<br>\nS3: Set of all languages over the alphabet {0, 1}.<br>\nS4: Set of all non-regular languages over the alphabet {0, 1}.\n<br><br>\nWhich of the above sets are uncountable? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S3 and S4</p>",
+            "<b>C.</b> <p>S2 and S3</p>",
+            "<b>D.</b> <p>S1 and S4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S3 and S4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302814/gate2019-cs-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which one of the following languages over \\(\\Sigma =\\{a,b\\}\\) is NOT context-free? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ww^R|w \\in \\{a,b\\}^*\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{wa^nb^nw^R|w \\in \\{a,b\\}^*,n\\geq 0\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{wa^nw^Rb^n|w \\in \\{a,b\\}^*,n\\geq 0\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{a^nb^i|i \\in \\{n,3n,5n\\},n\\geq 0\\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\{wa^nw^Rb^n|w \\in \\{a,b\\}^*,n\\geq 0\\}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302817/gate2019-cs-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>For \\(\\Sigma =\\{a,b\\}\\), let us consider the regular language <br>\\(L=\\{x|x=a^{2+3k} \\; or \\; x=b^{10+12k}, k\\geq 0\\}\\).<br>\nWhich one of the following can be a pumping length (the constant guaranteed by the pumping lemma) for L? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302833/gate2019-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If L is a regular language over \\(\\Sigma =\\{a,b\\}\\), which one of the following languages is NOT regular ? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L\\cdot L^R=\\{xy|x \\in L,y^R \\in L\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{ww^R|w \\in L\\}\\)</p>",
+            "<b>C.</b> <p>Prifix(L)={\\(x \\in \\Sigma ^*|\\exists y \\in \\Sigma ^*\\) such that \\(xy \\in L\\)}</p>",
+            "<b>D.</b> <p>Suffix(L)={\\(y \\in \\Sigma ^*|\\exists x \\in \\Sigma ^*\\) such that \\(xy \\in L\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{ww^R|w \\in L\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302841/gate2019-cs-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Given a language L, define \\(L^{i}\\) as follows:<br> \\(L^{0}=\\{\\varepsilon \\} \\)<br>\\(L^{i}=L^{i-1} \\cdot L \\) for all \\( i \\gt 0\\)<br> The order of a language L is defined as the smallest k such that \\(L^{k}=L^{k+1}\\).\nConsider the language L1 (over alphabet 0) accepted by the following automaton. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q52_22ba3777.jpg\"> <br> The order of  L1 is ______ <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204127/gate2018-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following problems. L(G) denotes the language generated by a grammar G. L(M) denotes the language accepted by a machine M. <br><br>\n(I) For an unrestricted grammar G and a string w, whether w\\(\\in \\)L(G) <br>\n(II) Given a Turing machine M, whether L(M) is regular <br>\n(III) Given two grammars G1 and G2, whether L(G1) = L(G2) <br>\n(IV) Given an NFA N, whether there is a deterministic PDA P such that N and P\naccept the same language. <br><br>\nWhich one of the following statements is correct? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I and II are undecidable</p>",
+            "<b>B.</b> <p>Only III is undecidable</p>",
+            "<b>C.</b> <p>Only II and IV are undecidable</p>",
+            "<b>D.</b> <p>Only I, II and III are undecidable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only I, II and III are undecidable</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204110/gate2018-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

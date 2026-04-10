@@ -1,0 +1,56 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Eigen Value",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Eigen Value",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337192\"></a><div itemprop=\"text\"><p>The eigenvalues of the matrix \\( \\begin{bmatrix}1 &amp; 2\\\\&nbsp;4 &amp; 3 \\end{bmatrix} \\) are</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{5 and -5} \\)</p>",
+            "<p>\\( \\text{5 and -1} \\)</p>",
+            "<p>\\( \\text{1&nbsp;and -5} \\)</p>",
+            "<p>\\( \\text{2&nbsp;and 3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{5 and -1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337192/nielit-2016-mar-scientist-c-section-b-8\" target=\"_blank\">https://gateoverflow.in/337192/nielit-2016-mar-scientist-c-section-b-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275543\"></a><div itemprop=\"text\"><p>The value of \\( p \\) such that the vector \\( \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix} \\) is an eigen vector of the matrix \\( \\begin{bmatrix} 4 &amp; 1 &amp; 2 \\\\ p &amp; 2 &amp; 1 \\\\ 14 &amp; -4 &amp; 10 \\end{bmatrix} \\) is</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275543/nielit-2018-21\" target=\"_blank\">https://gateoverflow.in/275543/nielit-2018-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373766\"></a><div itemprop=\"text\"><p>The Eigen values of a matrix</p>\n\n<p>\\( \\text{A} = \\begin{bmatrix} -2 &amp; 2 &amp; -3 \\\\&nbsp;2 &amp; 1 &amp; -6 \\\\&nbsp;-1 &amp; -2 &amp; 0 \\end{bmatrix} \\) are \\( -3, -3 \\) and \\( 5, \\) then the trace of the matrix \\( A^{3} –&nbsp;3A^{2} \\) is:</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2022 April Scientist B | Section B | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 71 \\)</p>",
+            "<p>\\( -58 \\)</p>",
+            "<p>\\( -200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -58 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373766/nielit-2022-april-scientist-b-section-b-question-72\" target=\"_blank\">https://gateoverflow.in/373766/nielit-2022-april-scientist-b-section-b-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+}

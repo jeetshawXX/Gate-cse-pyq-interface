@@ -1,0 +1,361 @@
+{
+  "title": "Operating System - Unix",
+  "duration": 66,
+  "sections": [
+    {
+      "name": "Unix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71576\"></a><div itemprop=\"text\"><p>The Unix Operating System Kernel maintains two key data structures related to processes, the process table and the user structure. Now, consider the following two statements :</p>\n\n<p>I. The process table is resident all the time and contain information needed for all processes, even those that are not currently in memory.</p>\n\n<p>II. The user structure is swapped or paged out when its associated process is not in memory, in order not to waste memory on information that is not needed.</p>\n\n<p>Which of the following options is correct with reference to above statements ?</p>\n\n<ol>\n\t<li>Only (I) is correct.</li>\n\t<li>Only (II) is correct.</li>\n\t<li>Both (I) and (II) are correct.</li>\n\t<li>Both (I) and (II) are wrong.</li>\n</ol></div><br><br><b>Operating System: UGC NET CSE | August 2016 | Part 3 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71576/ugc-net-cse-august-2016-part-3-question-49\" target=\"_blank\">https://gateoverflow.in/71576/ugc-net-cse-august-2016-part-3-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"152933\"></a><div itemprop=\"text\">The Unix command used to find out the number of characters in a file is<br>\n<br>\n(A) nc<br>\n<br>\n(B) wc<br>\n<br>\n(C) chcnt<br>\n<br>\n(D) lc</div><br><br><b>Operating System: UGC NET CSE | December 2009 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152933/ugc-net-cse-december-2009-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/152933/ugc-net-cse-december-2009-part-2-question-40</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"57072\"></a><div itemprop=\"text\"><p>In UNIX, which of the following command is used to set the task priority?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2012 | Part 2 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>init</p>",
+            "<p>nice</p>",
+            "<p>kill</p>",
+            "<p>PS</p>"
+          ],
+          "correct_answer": "<p>nice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57072/ugc-net-cse-december-2012-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/57072/ugc-net-cse-december-2012-part-2-question-36</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"57670\"></a><div itemprop=\"text\"><p>Everything below the system call interface and above the physical hardware is known as</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2012 | Part 3 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Kernel</p>",
+            "<p>Bus</p>",
+            "<p>Shell</p>",
+            "<p>Stub</p>"
+          ],
+          "correct_answer": "<p>Kernel</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57670/ugc-net-cse-december-2012-part-3-question-37\" target=\"_blank\">https://gateoverflow.in/57670/ugc-net-cse-december-2012-part-3-question-37</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"60274\"></a><div itemprop=\"text\"><p>Linux operating system uses</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 2 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Affinity scheduling</p>",
+            "<p>Fair Preemptive Scheduling</p>",
+            "<p>Hand Shaking</p>",
+            "<p>Highest Penalty Ratio Next</p>"
+          ],
+          "correct_answer": "<p>Fair Preemptive Scheduling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60274/ugc-net-cse-december-2013-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/60274/ugc-net-cse-december-2013-part-2-question-50</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"60796\"></a><div itemprop=\"text\"><p>In Unix, how do you check that two given strings a and b are equal?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">test \\( a -eq  \\)b</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">test \\( a -equal  \\)b</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">test \\( a =  \\)b</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">sh -C test&nbsp;\\( a ==  \\)b</pre>\n\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">test \\( a =  \\)b</pre></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60796/ugc-net-cse-december-2013-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/60796/ugc-net-cse-december-2013-part-3-question-67</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"45083\"></a><div itemprop=\"text\">\n<p>Which statement is not true about&nbsp;process O in the Unix operating&nbsp;system ?</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 3 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p><span style=\"line-height: 1.6;\">Process O is called init process.</span></p>",
+            "<p><span style=\"line-height: 1.6;\"><span style=\"line-height: 1.6;\">Process O is not created by&nbsp;</span><span style=\"line-height: 1.6;\">fork system call.</span></span></p>",
+            "<p><span style=\"line-height: 1.6;\"><span style=\"line-height: 1.6;\"><span style=\"line-height: 1.6;\">After forking process 1,&nbsp;</span><span style=\"line-height: 1.6;\">process O becomes swapper&nbsp;</span><span style=\"line-height: 1.6;\">process.</span></span></span></p>",
+            "<p><span style=\"line-height: 1.6;\"><span style=\"line-height: 1.6;\"><span style=\"line-height: 1.6;\"><span style=\"line-height: 1.6;\">Process O is a special&nbsp;</span><span style=\"line-height: 1.6;\">process created when system&nbsp;</span><span style=\"line-height: 1.6;\">boots</span></span></span></span></p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 1.6;\">Process O is called init process.</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45083/ugc-net-cse-december-2013-part-3-question-73\" target=\"_blank\">https://gateoverflow.in/45083/ugc-net-cse-december-2013-part-3-question-73</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"60812\"></a><div itemprop=\"text\"><p>Which of the following commands would return process_id of sleep command?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 3 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Sleep 1 and echo $</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Sleep 1 and echo $#</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Sleep 1 and echo $*</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Sleep 1 and echo $!</pre>\n\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Sleep 1 and echo $!</pre>\n\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60812/ugc-net-cse-december-2013-part-3-question-74\" target=\"_blank\">https://gateoverflow.in/60812/ugc-net-cse-december-2013-part-3-question-74</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"62274\"></a><div itemprop=\"text\"><p>In Unix, the login prompt can be changed by changing the contents of the file_____</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2015 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>contrab</p>",
+            "<p>init</p>",
+            "<p>gettydefs</p>",
+            "<p>inittab</p>"
+          ],
+          "correct_answer": "<p>gettydefs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62274/ugc-net-cse-december-2015-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/62274/ugc-net-cse-december-2015-part-2-question-30</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"62719\"></a><div itemprop=\"text\"><p>In Unix, the command to enable execution permission for file \"mylife\" by all is_____</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2015 | Part 3 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Chmod ugo&nbsp;\\( + \\) X mylife</p>",
+            "<p>Chmod a&nbsp;\\( + \\) X mylife</p>",
+            "<p>Chmod \\( + \\) X mylife</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Chmod a&nbsp;\\( + \\) X mylife</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62719/ugc-net-cse-december-2015-part-3-question-56\" target=\"_blank\">https://gateoverflow.in/62719/ugc-net-cse-december-2015-part-3-question-56</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"62722\"></a><div itemprop=\"text\"><p>What will be the output of the following Unix command?</p>\n\n<p>\\( \\text{\\ \\) rm chap0[1-3]}$</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2015 | Part 3 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Remove file \\( \\text{chap0[1-3]} \\)</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Remove file \\( \\text{chap01, chap02, chap03} \\)</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Remove file \\( \\text{chap [1-3]} \\)</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">None of the above</pre></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Remove file \\( \\text{chap01, chap02, chap03} \\)</pre></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62722/ugc-net-cse-december-2015-part-3-question-57\" target=\"_blank\">https://gateoverflow.in/62722/ugc-net-cse-december-2015-part-3-question-57</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"335187\"></a><div itemprop=\"text\"><p>Match the following&nbsp; for Unix file system :&nbsp;</p>\n\n<p>\\( \\begin{array}{clcl}&nbsp; &amp; \\textbf{List-I}&nbsp; &amp; {} &amp; \\textbf{List-II}&nbsp;\\\\&nbsp;\\text{a.} &amp; \\text{Boot block} &amp; \\text{i.} &amp; \\text{Information about file system, free block list,} \\\\ &amp;&amp;&amp; \\text{free inode list etc.} \\\\&nbsp; \\text{b.} &amp; \\text{Super block} &amp; \\text{ii.} &amp; \\text{Contains operating system files as well as} \\\\ &amp;&amp;&amp; \\text{program and data files created by users.&nbsp;} \\\\&nbsp;\\text{c.}&nbsp;&amp; \\text{Inode block} &amp; \\text{iii.}&nbsp;&amp;&nbsp; \\text{Contains boot program and partition table.&nbsp;} \\\\&nbsp; \\text{d.}&nbsp;&amp; \\text{Data block} &amp; \\text{iv.}&nbsp;&amp; \\text{Contains a table for every file in the file system.} \\\\ &amp;&amp;&amp; \\text{Attributes of files are stored here.} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | January 2017 | Part 3 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iii, b-i, c-ii, d-iv} \\)</p>",
+            "<p>\\( \\text{a-iii, b-i, c-iv, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-ii, d-i} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-i, d-ii} \\)&nbsp;&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iii, b-i, c-iv, d-ii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335187/ugc-net-cse-january-2017-part-3-question-51\" target=\"_blank\">https://gateoverflow.in/335187/ugc-net-cse-january-2017-part-3-question-51</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"335184\"></a><div itemprop=\"text\"><p>Which statements is not correct about “init” process in Unix?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | January 2017 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is generally the parent of the login shell.</p>",
+            "<p>It has PID&nbsp;\\( 1 \\).</p>",
+            "<p>It is the first process in the system.&nbsp;</p>",
+            "<p>Init forks and execs a ‘getty’ process at every port connected to a terminal.</p>"
+          ],
+          "correct_answer": "<p>It is the first process in the system.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335184/ugc-net-cse-january-2017-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/335184/ugc-net-cse-january-2017-part-3-question-54</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"57160\"></a><div itemprop=\"text\"><p>In UNIX , processes that have finished execution but have not yet had their status collected &nbsp;are known as _________</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | July 2016 | Part 3 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sleeping processes</p>",
+            "<p>Stopped Processes</p>",
+            "<p>Zombie Process</p>",
+            "<p>Orphan Processes</p>"
+          ],
+          "correct_answer": "<p>Zombie Process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57160/ugc-net-cse-july-2016-part-3-question-49\" target=\"_blank\">https://gateoverflow.in/57160/ugc-net-cse-july-2016-part-3-question-49</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"57166\"></a><div itemprop=\"text\"><p>In UNIX OS , when a process creates a new process using the fork() system call , which of the following state is shared between the parent process and child process</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | July 2016 | Part 3 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Heap</p>",
+            "<p>Stack</p>",
+            "<p>Shared memory segments</p>",
+            "<p>Both heap and Stack</p>"
+          ],
+          "correct_answer": "<p>Shared memory segments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57166/ugc-net-cse-july-2016-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/57166/ugc-net-cse-july-2016-part-3-question-50</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"57258\"></a><div itemprop=\"text\"><p>Which of the following information about the UNIX file system is not correct?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | July 2016 | Part 3 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Super block contains the number of i-nodes, the number of disk blocks, and the start of the list of free disk blocks</p>",
+            "<p>An i-node contains accounting information as well as enough information to locate all the disk blocks that holds the file's data</p>",
+            "<p>Each i-node is 256-bytes long</p>",
+            "<p>All the files and directories are stored in data blocks</p>"
+          ],
+          "correct_answer": "<p>Each i-node is 256-bytes long</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57258/ugc-net-cse-july-2016-part-3-question-51\" target=\"_blank\">https://gateoverflow.in/57258/ugc-net-cse-july-2016-part-3-question-51</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"58064\"></a><div itemprop=\"text\"><p>The \\( mv \\) command changes</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2013 | Part 2 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the inode</p>",
+            "<p>the inode-number</p>",
+            "<p>the directory entry</p>",
+            "<p>both the directory entry and the inode</p>"
+          ],
+          "correct_answer": "<p>the directory entry</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58064/ugc-net-cse-june-2013-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/58064/ugc-net-cse-june-2013-part-2-question-50</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"57011\"></a><div itemprop=\"text\">\n<p>__________ maintains the list of free disk blocks in the Unix file system.</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2014 | Part 3 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I-node</p>",
+            "<p>Boot block</p>",
+            "<p>Super block</p>",
+            "<p>File allocation table&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Super block</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57011/ugc-net-cse-june-2014-part-3-question-37\" target=\"_blank\">https://gateoverflow.in/57011/ugc-net-cse-june-2014-part-3-question-37</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"57187\"></a><div itemprop=\"text\">\n<p>The output generated by the LINUX command :</p>\n\n<p>$ seq 1 2 10</p>\n\n<p>will be&nbsp;</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2014 | Part 3 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>1 2 10</p>",
+            "<p>1 2 3 4 5 6 7 8 9 10</p>",
+            "<p>1 3 5 7 9</p>",
+            "<p>1 5 10&nbsp;</p>"
+          ],
+          "correct_answer": "<p>1 3 5 7 9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57187/ugc-net-cse-june-2014-part-3-question-46\" target=\"_blank\">https://gateoverflow.in/57187/ugc-net-cse-june-2014-part-3-question-46</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"54282\"></a><div itemprop=\"text\"><p>The Unix Kernel maintains two key data structures related to processes, the process table and the user structure. Which of following information is not the part of user structure?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 2 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>File descriptor table</p>",
+            "<p>System call state</p>",
+            "<p>Scheduling parameters</p>",
+            "<p>Kernel stack</p>"
+          ],
+          "correct_answer": "<p>Scheduling parameters</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54282/ugc-net-cse-junet-2015-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/54282/ugc-net-cse-junet-2015-part-2-question-40</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"61332\"></a><div itemprop=\"text\">\n<p>A unix file may be of the type</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regular file</p>",
+            "<p>Directory&nbsp;<span style=\"line-height: 20.8px;\">file</span></p>",
+            "<p>Device&nbsp;<span style=\"line-height: 20.8px;\">file</span></p>",
+            "<p>Any one of the above</p>"
+          ],
+          "correct_answer": "<p>Any one of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61332/ugc-net-cse-junet-2015-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/61332/ugc-net-cse-junet-2015-part-3-question-54</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"61493\"></a><div itemprop=\"text\"><p>Match the following for UNIX system calls :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp;\\textbf{List-I} &amp;&amp; \\textbf{List-II} \\\\&nbsp;\\text{(a)} &amp; \\text{exec} &amp; \\text{(i)} &amp; \\text{Creates new process} \\\\&nbsp;\\text{(b)} &amp; \\text{brk} &amp; \\text{(ii)} &amp; \\text{Invokes another program overlaying memory} \\\\&amp;&amp;&amp; \\text{space with a copy of an executable file.}\\\\&nbsp;\\text{(c)} &amp; \\text{wait} &amp; \\text{(iii)} &amp; \\text{To increase or decrease the size of data region} \\\\&nbsp;\\text{(d)}&nbsp;&amp; \\text{fork} &amp; \\text{(iv)} &amp; \\text{A process synchronizes with termination of} \\\\ &amp;&amp;&amp;\\text{child process}\\\\ \\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 3 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(ii), (c)-(iv), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61493/ugc-net-cse-junet-2015-part-3-question-73\" target=\"_blank\">https://gateoverflow.in/61493/ugc-net-cse-junet-2015-part-3-question-73</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"59276\"></a><div itemprop=\"text\">\n<p>Assume that an implementation of Unix operating system uses i-nodes to keep track of data blocks allocated to a file. It supports 12 direct block addresses, one in direct block address and one double indirect block address. The file system has 256 bytes block size and 2 bytes for disk block address. The maximum possible size of a file in this system is</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | September 2013 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>16 MB</p>",
+            "<p>16 KB</p>",
+            "<p>70 KB</p>",
+            "<p>71 KB</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59276/ugc-net-cse-september-2013-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/59276/ugc-net-cse-september-2013-part-2-question-47</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"59950\"></a><div itemprop=\"text\"><p>Match the following for Windows Operating System \\( : \\)</p>\n\n<p>\\( \\begin{array}{} &nbsp;\\text{(a)} &amp; \\text{Hardware} &amp; \\text{(i)} &amp; \\text{Starting all processes, emulation of different} \\\\ &amp;\\text{abstration}&amp;&amp; \\text{operating system,security functions, transform} \\\\&amp;\\text{Layer}&amp;&amp; \\text{character based applications to graphical}\\\\ &amp;&amp;&amp; \\text{representation}\\\\&nbsp;\\text{(b)} &amp; \\text{Kernel} &amp; \\text{(ii)} &amp; \\text{Export a virtual memory interface, support for} \\\\&amp;&amp;&amp;&nbsp; \\text{symmetric multiprocessing, administration,} \\\\ &amp;&amp;&amp; \\text{details of mapping memory, configuring I/O} \\\\ &amp;&amp;&amp;&nbsp; \\text{buses, setting up DMA} \\\\&nbsp;\\text{(c)} &amp; \\text{Executive} &amp; \\text{(iii)} &amp; \\text{Thread scheduling, interrupt and exception} \\\\ &amp;&amp;&amp; \\text{handling,recovery after power failure} \\\\&nbsp; \\text{(d)} &amp; \\text{Win32} &amp; \\text{(iv)} &amp; \\text{Objet&nbsp; manager, virtual memory manager,} \\\\&amp;\\text{subsystem}&amp;&amp;&nbsp; \\text{process manager, plug-and-Play and power} \\\\&amp;&amp;&amp; \\text{manager} \\\\&nbsp;\\end{array}&nbsp; \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | September 2013 | Part 3 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii),&nbsp;(c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(ii), (b)-(iii), (c)-(iv), (d)-(i)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59950/ugc-net-cse-september-2013-part-3-question-74\" target=\"_blank\">https://gateoverflow.in/59950/ugc-net-cse-september-2013-part-3-question-74</a></p>"
+        }
+      ]
+    }
+  ]
+}

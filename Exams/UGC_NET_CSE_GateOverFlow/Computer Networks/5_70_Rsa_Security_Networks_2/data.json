@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Rsa Security Networks",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Rsa Security Networks",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335209\"></a><div itemprop=\"text\"><p>In RSA public key cryptosystem suppose \\( n=p*q \\) where \\( p \\) and \\( q \\) are primes. \\( (e,n) \\) and \\( (d,n) \\) are public and private keys respectively. Let \\( M \\) be an integer such that \\( o&lt; M&lt; n \\) and \\( \\phi(n)=(p-1)(q-1) \\).</p>\n\n<p>Which of the following equations represent RSA public key cryptosystem?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>\\( \\begin{array}{} C \\equiv M^{e} \\text{(mod n)} \\\\&nbsp; M \\equiv C^{d} \\text{(mod n)} \\end{array} \\\\ \\)</li>\n\t<li>\\( ed\\equiv1 \\text{(mod n)} \\\\ \\)</li>\n\t<li>\\( ed\\equiv1 ( \\text{mod } \\phi( n)) \\\\ \\)</li>\n\t<li>\\( \\begin{array}{}&nbsp; C\\equiv M^{e} ( \\text{mod } \\phi(n)) \\\\ M \\equiv C^{d}( \\text{mod } \\phi (n)) \\end{array} \\)</li>\n</ol>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | January 2017 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and&nbsp;II&nbsp;</p>",
+            "<p>I and III</p>",
+            "<p>II and&nbsp;III</p>",
+            "<p>I and&nbsp;IV</p>"
+          ],
+          "correct_answer": "<p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335209/ugc-net-cse-january-2017-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/335209/ugc-net-cse-january-2017-part-3-question-29</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"316189\"></a><div itemprop=\"text\"><p>The RSA encryption algorithm also works in reverse, that is, you can encrypt a message with the private key and decrypt it using the public key. This property is used in</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2019 | Part 2 | Question: 90</b></p>",
+          "type": "single",
+          "options": [
+            "<p>instruction detection systems</p>",
+            "<p>digital signatures</p>",
+            "<p>data compression</p>",
+            "<p>certification</p>"
+          ],
+          "correct_answer": "<p>digital signatures</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316189/ugc-net-cse-june-2019-part-2-question-90\" target=\"_blank\">https://gateoverflow.in/316189/ugc-net-cse-june-2019-part-2-question-90</a></p>"
+        }
+      ]
+    }
+  ]
+}

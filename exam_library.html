@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_iit_madras_without_background.png" type="image/x-icon">
+    <title>Exam Library — GATE CSE</title>
+    <link rel="stylesheet" href="css/exam_library_style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="lib-header">
+        <div class="lib-header-inner">
+            <h1><span>📚</span> Exam Library</h1>
+            <div class="lib-nav-links">
+                <a href="index.html">🏠 Home</a>
+                <a href="analytics.html">📊 Analytics</a>
+                <a href="bookmarks.html">📌 Bookmarks</a>
+                <button class="dark-toggle" id="darkToggle" title="Toggle Dark Mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Controls -->
+    <div class="lib-controls">
+        <input type="text" id="libSearch" class="lib-search" placeholder="Search exams by name...">
+        <button class="lib-filter-btn active" onclick="setFilter('all', this)">All</button>
+        <button class="lib-filter-btn" onclick="setFilter('pyq', this)">📜 PYQ</button>
+        <button class="lib-filter-btn" onclick="setFilter('test_series', this)">📋 Test Series</button>
+        <button class="lib-filter-btn" id="multiSelectToggle" onclick="toggleMultiSelect()"
+            style="margin-left: auto; background-color: rgba(155, 89, 182, 0.2); border-color: #9b59b6; color: #fff;">✨
+            Multi-Select Exam</button>
+        <span class="lib-stats" id="libStats">Loading...</span>
+        <span class="lib-index-ts" id="indexTimestamp"></span>
+    </div>
+
+    <!-- Main Content -->
+    <div class="lib-content" id="libContent">
+        <div class="lib-loading">
+            <div class="spinner"></div><br>
+            Loading exam library...
+        </div>
+    </div>
+
+    <!-- Floating Action Bar for Multi-Select -->
+    <div class="lib-fab" id="multiSelectFab" style="display: none;">
+        <div class="fab-info">
+            <span id="fabSelectedCount">0 exams selected</span>
+        </div>
+        <div class="fab-controls">
+            <label for="fabTotalQuestions" style="font-size: 14px; font-weight: bold; margin-right: 8px;">Total
+                Questions:</label>
+            <input type="number" id="fabTotalQuestions" min="1" max="200" value="30" class="fab-input">
+            <small id="fabAvailableCount"
+                style="margin-left: 8px; color: var(--text-secondary); font-size: 12px; display: none;">(Max: 0)</small>
+        </div>
+        <button class="fab-generate-btn" id="fabGenerateBtn" onclick="generateCustomExam()">Generate & Start ▶</button>
+    </div>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top-btn" id="scrollTopBtn" title="Scroll to top">↑</button>
+
+    <!-- Scripts -->
+    <script src="js/db.js"></script>
+    <script src="exam_index.js"></script>
+    <script src="js/exam_library_script.js"></script>
+</body>
+
+</html>

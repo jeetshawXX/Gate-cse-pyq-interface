@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Abelian Group",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Abelian Group",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213571\"></a><div itemprop=\"text\"><p>\\( (\\text{G}, \\ast ) \\) is an abelian group. Then</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO CSE 2018 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x= x^{-1} \\) for any \\( x \\) belonging to \\( \\text{G} \\)</p>",
+            "<p>\\( x=x^{2} \\) for any \\( x \\) belonging to \\( \\text{G} \\)</p>",
+            "<p>\\( \\left( x \\ast y \\right )^{2}= x^{2} \\ast y^{2} \\)&nbsp;, for any&nbsp;\\( x, y \\) belonging to \\( \\text{G} \\)</p>",
+            "<p>\\( \\text{G} \\) is of finite order</p>"
+          ],
+          "correct_answer": "<p>\\( \\left( x \\ast y \\right )^{2}= x^{2} \\ast y^{2} \\)&nbsp;, for any&nbsp;\\( x, y \\) belonging to \\( \\text{G} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213571/isro-cse-2018-question-17\" target=\"_blank\">https://gateoverflow.in/213571/isro-cse-2018-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

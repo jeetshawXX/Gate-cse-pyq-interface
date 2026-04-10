@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Verbal_Ability_–_CSE - Verbal_Ability_–_CSE - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Verbal_Ability_–_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>By the beginning of the 20th century, several hypotheses were being proposed, suggesting a paradigm shift in our understanding of the universe. However, the clinching evidence was provided by experimental measurements of the position of a star which was directly behind our sun.\n<br><br>\nWhich of the following inference(s) may be drawn from the above passage? <br><br>i.   Our understanding of the universe changes based on the positions of stars\n<br>ii.  Paradigm shifts usually occur at the beginning of centuries\n<br>iii. Stars are important objects in the universe\n<br>iv.  Experimental evidence was important in confirming this paradigm shift <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i, ii and iv</p>",
+            "<b>B.</b> <p>iii only</p>",
+            "<b>C.</b> <p>i and iv</p>",
+            "<b>D.</b> <p>iv only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>iv only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2031/gate-cse-2014-set-3-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Choose the word that is opposite in meaning to the word \"coherent\". <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>sticky</p>",
+            "<b>B.</b> <p>well-connected</p>",
+            "<b>C.</b> <p>rambling</p>",
+            "<b>D.</b> <p>friendly</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>rambling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2026/gate-cse-2014-set-3-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If she _______ how to calibrate the instrument, she ________ done the experiment. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>knows, will have</p>",
+            "<b>B.</b> <p>knew, had</p>",
+            "<b>C.</b> <p>had known, could have</p>",
+            "<b>D.</b> <p>should have known, would have</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>had known, could have</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2025/gate-cse-2014-set-3-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>\\(\\underset{\\text{I}}{\\underline{\\text{While trying to collect}}}\\) an envelope \\(\\underset{\\text{II}}{\\underline{\\text{from under the table}}}\\),<br> \\(\\underset{\\text{III}}{\\underline{\\text{Mr. X fell down}}}\\) and \\(\\underset{\\text{IV}}{\\underline{\\text{was losing consciousness}}}\\).<br><br>Which one of the above underlined parts of the sentence is NOT appropriate? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I</p>",
+            "<b>B.</b> <p>II</p>",
+            "<b>C.</b> <p>III</p>",
+            "<b>D.</b> <p>IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>IV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2024/gate-cse-2014-set-3-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Number of people diagnosed with dengue fever (contracted from the bite of a mosquito) in North India is twice the number diagnosed last year. Municipal authorities have concluded that measures to control the mosquito population have failed in this region.\n<br><br>\nWhich one of the following statements, if true, does not contradict this conclusion? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A high proportion of the affected population has returned from neighbouring countries where dengue is prevalent</p>",
+            "<b>B.</b> <p>More cases of dengue are now reported because of an increase in the Municipal Office's administrative efficiency</p>",
+            "<b>C.</b> <p>Many more cases of dengue are being diagnosed this year since the introduction of a new and effective diagnostic test</p>",
+            "<b>D.</b> <p>The number of people with malarial fever (also contracted from mosquito bites) has increased this year</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The number of people with malarial fever (also contracted from mosquito bites) has increased this year</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1944/gate-cse-2014-set-2-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The old city of Koenigsberg, which had a German majority population before World War 2, is now called Kaliningrad. After the events of the war, Kaliningrad is now a Russian territory and has a predominantly Russian population. It is bordered by the Baltic Sea on the north and the countries of Poland to the south and west and Lithuania to the east respectively. Which of the statements below can be inferred from this passage? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Kaliningrad was historically Russian in its ethnic make up</p>",
+            "<b>B.</b> <p>Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia</p>",
+            "<b>C.</b> <p>Koenigsberg was renamed Kaliningrad, as that was its original Russian name</p>",
+            "<b>D.</b> <p>Poland and Lithuania are on the route from Kaliningrad to the rest of Russia</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Kaliningrad is a part of Russia despite it not being contiguous with the rest of Russia</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1943/gate-cse-2014-set-2-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Match the columns.\n<br><br>\\(\\begin{array}{ll|ll}\\hline &amp;\\textbf{Column 1} &amp; &amp; \\textbf{Column 2 } \\\\\\hline 1.&amp; \\text{eradicate} &amp;P. &amp;\\text{misrepresent}\\\\\\hline 2.&amp;\\text{distort} &amp;Q.&amp; \\text{soak completely}\\\\\\hline 3.&amp;\\text{saturate} &amp;R.&amp; \\text{use}\\\\\\hline 4.&amp;\\text{utilize} &amp;S.&amp; \\text{destroy utterly}\\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1:S, 2:P, 3:Q, 4:R</p>",
+            "<b>B.</b> <p>1:P, 2:Q, 3:R, 4:S</p>",
+            "<b>C.</b> <p>1:Q, 2:R, 3:S, 4:P</p>",
+            "<b>D.</b> <p>1:S, 2:P, 3:R, 4:Q</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1:S, 2:P, 3:Q, 4:R</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1940/gate-cse-2014-set-2-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Who ___________ was coming to see us this evening? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>you said</p>",
+            "<b>B.</b> <p>did you say</p>",
+            "<b>C.</b> <p>did you say that</p>",
+            "<b>D.</b> <p>had you said</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>did you say</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1939/gate-cse-2014-set-2-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Choose the most appropriate phrase from the options given below to complete the following sentence.\n<br><br>\nIndia is a post-colonial country because <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it was a former British colony</p>",
+            "<b>B.</b> <p>Indian Information Technology professionals have colonized the world</p>",
+            "<b>C.</b> <p>India does not follow any colonial practices</p>",
+            "<b>D.</b> <p>India has helped other countries gain freedom</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>it was a former British colony</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1938/gate-cse-2014-set-2-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Geneticists say that they are very close to confirming the genetic roots of psychiatric illnesses such as depression and schizophrenia, and consequently, that doctors will be able to eradicate these diseases through early identification and gene therapy.\n<br><br>\nOn which of the following assumptions does the statement above rely?\n<br>\nSelect one: <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Strategies are now available for eliminating psychiatric illnesses</p>",
+            "<b>B.</b> <p>Certain psychiatric illnesses have a genetic basis</p>",
+            "<b>C.</b> <p>All human diseases can be traced back to genes and how they are expressed</p>",
+            "<b>D.</b> <p>In the future, genetics will become the only relevant field for identifying psychiatric illnesses</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Certain psychiatric illnesses have a genetic basis</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/775/gate-cse-2014-set-1-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The Palghat Gap (or Palakkad Gap) , a region about 30 km wide in the southern part of the Western Ghats in India, is lower than the hilly terrain to its north and south. The exact reasons for the formation of this gap are not clear. It results in the neighbouring regions of Tamil Nadu getting more rainfall from the South West monsoon and the neighbouring regions of Kerala having higher summer temperatures.\n<br><br>\nWhat can be inferred from this passage?\n<br>\nSelect one: <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The Palghat gap is caused by high rainfall and high temperatures in southern Tamil Nadu and Kerala</p>",
+            "<b>B.</b> <p>The regions in Tamil Nadu and Kerala that are near the Palghat Gap are low-lying</p>",
+            "<b>C.</b> <p>The low terrain of the Palghat Gap has a significant impact on weather patterns in neighbouring parts of Tamil Nadu and Kerala</p>",
+            "<b>D.</b> <p>Higher summer temperatures result in higher rainfall near the Palghat Gap area</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The low terrain of the Palghat Gap has a significant impact on weather patterns in neighbouring parts of Tamil Nadu and Kerala</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/774/gate-cse-2014-set-1-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a press meet on the recent scam, the minister said, \"The buck stops here\". What did the minister convey by the statement? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>He wants all the money</p>",
+            "<b>B.</b> <p>He will return the money</p>",
+            "<b>C.</b> <p>He will assume final responsibility</p>",
+            "<b>D.</b> <p>He will resist all enquiries</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>He will assume final responsibility</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/772/gate-cse-2014-set-1-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Choose the most appropriate word from the options given below to complete the following sentence.\n<br><br>\nHe could not understand the judges awarding her the first prize, because he thought that her performance was quite _________. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>superb</p>",
+            "<b>B.</b> <p>medium</p>",
+            "<b>C.</b> <p>mediocre</p>",
+            "<b>D.</b> <p>exhilarating</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>mediocre</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/771/gate-cse-2014-set-1-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following options is the closest in meaning to the phrase in bold in the\nsentence below?<br><br>It is fascinating to see life forms **cope with** varied environmental conditions. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Adopt to</p>",
+            "<b>B.</b> <p>Adapt to</p>",
+            "<b>C.</b> <p>Adept in</p>",
+            "<b>D.</b> <p>Accept with</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Adapt to</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56/gate-cse-2014-set-1-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>After several defeats in wars, Robert Bruce went in exile and wanted to commit suicide. Just before committing suicide, he came across a spider attempting tirelessly to have its net. Time and again, the spider failed but that did not deter it to refrain from making attempts. Such attempts by the spider made Bruce curious. Thus, Bruce started observing the near-impossible goal of the spider to have the net. Ultimately, the spider succeeded in having its net despite several failures. Such act of the spider encouraged Bruce not to commit suicide. And then, Bruce went back again and won many a battle, and the rest is history.\n<br><br>\nWhich one of the following assertions is best supported by the above information? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Failure is the pillar of success.</p>",
+            "<b>B.</b> <p>Honesty is the best policy.</p>",
+            "<b>C.</b> <p>Life begins and ends with adventures.</p>",
+            "<b>D.</b> <p>No adversity justifies giving up hope.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>No adversity justifies giving up hope.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1567/gate-cse-2013-question-63#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,86 @@
+{
+  "title": "Theory of Computation - Context Free Language",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Context Free Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336535\"></a><div itemprop=\"text\"><p>If \\( L1 \\) is CFL and \\( L2 \\) is regular language which of the following is false?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L1-L2 \\) is not Context free</p>",
+            "<p>\\( L1 \\) intersection \\( L2 \\) is Context free</p>",
+            "<p>\\( \\sim&nbsp;L1 \\) is Context free</p>",
+            "<p>Both (A) and (C)</p>"
+          ],
+          "correct_answer": "<p>Both (A) and (C)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336535/nielit-2016-dec-scientist-b-cs-section-b-3\" target=\"_blank\">https://gateoverflow.in/336535/nielit-2016-dec-scientist-b-cs-section-b-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336715\"></a><div itemprop=\"text\"><p>If \\( L_1 \\) and \\( L_2 \\) are context free language and \\( R \\) a regular set, then which one of the languages below is not necessarily a context free language?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_1L_2 \\)</p>",
+            "<p>\\( L_1\\cap&nbsp;L_2 \\)</p>",
+            "<p>\\( L_1\\cap R \\)</p>",
+            "<p>\\( L_1\\cup L_2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( L_1\\cap&nbsp;L_2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336715/nielit-2016-mar-scientist-b-section-c-26\" target=\"_blank\">https://gateoverflow.in/336715/nielit-2016-mar-scientist-b-section-c-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336889\"></a><div itemprop=\"text\"><p>Which of the following definitions generates the same languages as \\( L, \\) where</p>\n\n<p>\\( L = \\{x^{n}y^{n},n \\geq 1\\} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( E \\rightarrow xEy \\mid xy \\)</li>\n\t<li>\\( xy \\mid x^{+}xyy^{+} \\)</li>\n\t<li>\\( x^{+}y^{+} \\)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\)</p>",
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (ii) \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336889/nielit-2017-oct-scientific-assistant-a-cs-section-b-31\" target=\"_blank\">https://gateoverflow.in/336889/nielit-2017-oct-scientific-assistant-a-cs-section-b-31</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336988\"></a><div itemprop=\"text\"><p>Which of the following definitions generates the same languages as \\( L, \\) where</p>\n\n<p>\\( L = \\{x^{n}y^{n},n \\geq 1\\} \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( E \\rightarrow xEy \\mid xy \\)</li>\n\t<li>\\( xy \\mid x^{+}xyy^{+} \\)</li>\n\t<li>\\( x^{+}y^{+} \\)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) Only</p>",
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) only</p>",
+            "<p>\\( (ii) \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\) Only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336988/nielit-2017-oct-scientific-assistant-a-it-section-c-9\" target=\"_blank\">https://gateoverflow.in/336988/nielit-2017-oct-scientific-assistant-a-it-section-c-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"275531\"></a><div itemprop=\"text\"><p>The language \\( \\{ W^a X^b Y^{a+b} \\mid a, b, &gt;1\\} \\) is</p></div><br><br><b>Theory of Computation: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regular</p>",
+            "<p>Context-free but not regular</p>",
+            "<p>Context sensitive but not context free</p>",
+            "<p>Type\\( =0 \\) but not&nbsp; context sensitive</p>"
+          ],
+          "correct_answer": "<p>Context-free but not regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275531/nielit-2018-33\" target=\"_blank\">https://gateoverflow.in/275531/nielit-2018-33</a></p>"
+        }
+      ]
+    }
+  ]
+}

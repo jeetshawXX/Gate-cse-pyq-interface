@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Optimization",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Optimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378707\"></a><div itemprop=\"text\"><p>Which of the following is advantage of using \\( \\text{JDBC} \\) connection pool?</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Slow performance</p>",
+            "<p>Using more memory</p>",
+            "<p>Using less memory</p>",
+            "<p>Better performance</p>"
+          ],
+          "correct_answer": "<p>Better performance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378707/nielit-2021-dec-scientist-b-section-b-56\" target=\"_blank\">https://gateoverflow.in/378707/nielit-2021-dec-scientist-b-section-b-56</a></p>"
+        }
+      ]
+    }
+  ]
+}

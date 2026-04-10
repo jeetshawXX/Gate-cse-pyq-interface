@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Context Free Grammar",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Context Free Grammar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"213524\"></a><div itemprop=\"text\"><p>A particular BNF definition for a \"word is given by the following rules.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">&lt;word&gt;      :: = &lt;letter&gt; I &lt;letter&gt; &lt;charpair&gt; I &lt;letter&gt; &lt;intpair&gt;\n&lt;charpair&gt;  :: = &lt;letter&gt; &lt;letter&gt; I &lt;charpair&gt; &lt;letter&gt; &lt;letter&gt;\n&lt;intpair&gt;   :: = &lt;integer&gt; &lt;integer&gt; I &lt;intpair&gt; &lt;integer&gt; &lt;integer&gt;\n&lt;letter&gt;    :: = a I b I c I ......I Y I Z\n&lt;integer&gt;   :: = 0 I 1 I 2 I ......I 9</pre>\n\n<p>Which of the following lexical entries can be derived from \\( \\textsf{&lt; word &gt;}? \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>pick</li>\n\t<li>picks</li>\n\t<li>\\( \\textsf{c44} \\)</li>\n</ol>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2018 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I, II and III</p>",
+            "<p>I and II only</p>",
+            "<p>I and III only</p>",
+            "<p>II and III only</p>"
+          ],
+          "correct_answer": "<p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213524/isro-cse-2018-question-64\" target=\"_blank\">https://gateoverflow.in/213524/isro-cse-2018-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+});

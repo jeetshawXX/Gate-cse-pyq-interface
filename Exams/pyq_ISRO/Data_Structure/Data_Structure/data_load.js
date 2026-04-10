@@ -1,0 +1,941 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - Data_Structure",
+  "duration": 172,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A stack is implemented with an array of \\({ }^{\\prime} A[0 \\ldots N-1]^{\\prime}\\) and a variable \\(\\text { 'pos'. }\\) The push and pop operations are defined by the following code.<br><pre><code> push (x)\n    A[pos] &lt;- x\n    pos &lt;- pos -1\nend push\npop()\n    pos &lt;- pos+1\n    return A[pos]\nend pop</code></pre><br>Which of the following will initialize an empty stack with capacity N for the above implementation? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text { pos } \\leftarrow-1\\)</p>",
+            "<b>B.</b> <p>\\(\\text { pos } \\leftarrow 0\\)</p>",
+            "<b>C.</b> <p>\\(\\text { pos } \\leftarrow 1\\)</p>",
+            "<b>D.</b> <p>\\(\\text { pos } \\leftarrow N-1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\text { pos } \\leftarrow N-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331311/isro2020-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Of the following, which best approximates the ratio of the number of nonterminal nodes in the total number of nodes in a complete K-ary tree of depth N ? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1/N</p>",
+            "<b>B.</b> <p>N-1/N</p>",
+            "<b>C.</b> <p>1/K</p>",
+            "<b>D.</b> <p>K-1/K</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1/K</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331348/isro2020-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If an array A contains the items 10, 4, 7, 23, 67, 12 and 5 in that order, what will be the resultant array A after third pass of insertion sort? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>67,12,10,5,4,7,23</p>",
+            "<b>B.</b> <p>4,7,10,23,67,12,5</p>",
+            "<b>C.</b> <p>4,5,7,67,10,12,23</p>",
+            "<b>D.</b> <p>10,7,4,67,23,12,5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4,7,10,23,67,12,5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331354/isro2020-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In linear hashing, if blocking factor bfr, loading factor i and file buckets N are known, the number of records will be <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>r=i+bfr+N</p>",
+            "<b>B.</b> <p>r=i-bfr-N</p>",
+            "<b>C.</b> <p>r=i+bfr-N</p>",
+            "<b>D.</b> <p>r=i*bfr*N</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>r=i*bfr*N</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331276/isro2020-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The post-order traversal of binary tree is ACEDBHIGF. The pre-order traversal is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A B C D E F G H I</p>",
+            "<b>B.</b> <p>F B A D C E G I H</p>",
+            "<b>C.</b> <p>F A B C D E G H I</p>",
+            "<b>D.</b> <p>A B D C E F G I H</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>F B A D C E G I H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331270/isro2020-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The minimum height of an AVL tree with n nodes is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text{Ceil } (\\log_2(n+1))\\)</p>",
+            "<b>B.</b> <p>\\(1.44\\ \\log_2n\\)</p>",
+            "<b>C.</b> <p>\\(\\text{Floor } (\\log_2(n+1))\\)</p>",
+            "<b>D.</b> <p>\\(1.64\\ \\log_2n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\text{Floor } (\\log_2(n+1))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331324/isro2020-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the in-order successor of 15 in the given binary search tree?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q19_f889341b.jpg\"><br> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>18</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>17</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>17</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331322/isro2020-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a 2-dimensional array x with 10 rows and 4 columns, with each element storing a value equivalent to the product of row number and column number. The array is stored in row-major format. If the first element x[0][0] occupies the memory location with address 1000 and each element occupies only one memory location, which all locations (in decimal) will be holding a value of 10? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1018,1019\\)</p>",
+            "<b>B.</b> <p>\\(1022,1041\\)</p>",
+            "<b>C.</b> <p>\\(1017,1036\\)</p>",
+            "<b>D.</b> <p>\\(1000,1399\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(1017,1036\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "Originally all Options are wrong. We have modified one option.<br><a href=\"https://gateoverflow.in/331475/isro2020-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Convert the pre-fix expression to in-fix \\(-^{*}+A B C^{*}-D E+F G\\) <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A-B)^{*} C+\\left(D^{*} E\\right)-(F+G)\\)</p>",
+            "<b>B.</b> <p>\\((A+B)^{*} C-(D-E)^{*}(F-G)\\)</p>",
+            "<b>C.</b> <p>\\((A+B-C)^{*}(D-E)^{*}(F+G)\\)</p>",
+            "<b>D.</b> <p>\\((((A+B)*C)-((D-E)*(F+G)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((((A+B)*C)-((D-E)*(F+G)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "Originally all Options are wrong. We have modified one option.<br><a href=\"https://gateoverflow.in/331339/isro2020-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q80_ad0455a8.jpg\"><br>Which traversals of Tree-1 and Tree-2, respectively, will produce the same sequence? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preorder, postorder</p>",
+            "<b>B.</b> <p>Postorder, inorder</p>",
+            "<b>C.</b> <p>Postorder, preorder</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213508/isro2018-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A doubly linked list is declared as:<br><pre><code> struct Node {\n    int Value;\n    struct Node *Fwd;\n    struct Node *Bwd;\n};</code></pre>Where Fwd and Bwd represent forward and backward link to the adjacent elements of the list. Which of the following segment of code deletes the node pointed to by X from the doubly linked list, if it is assumed that X points to neither the first nor the last node of the list? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X \\rightarrow \\text { Bwd } \\rightarrow \\text { Fwd }=X \\rightarrow \\text { Fwd; } X \\rightarrow F w d \\rightarrow { Bwd }=X \\rightarrow { Bwd; }\\)</p>",
+            "<b>B.</b> <p>\\(X \\rightarrow \\text { Bwd.Fwd }=X \\rightarrow \\text { Fwd; } X . \\text { Fwd } \\rightarrow \\text { Bwd }=X \\rightarrow \\text { Bwd; }\\)</p>",
+            "<b>C.</b> <p>\\(X . \\text { Bwd } \\rightarrow \\text { Fwd }=X . \\text { Bwd; } x \\rightarrow { Fwd.Bwd }=X . B w d\\)</p>",
+            "<b>D.</b> <p>\\(X \\rightarrow \\text { Bwd } \\rightarrow \\text { Fwd }=X \\rightarrow \\text { Bwd; } X \\rightarrow \\text{ Fwd } \\rightarrow \\text { Bwd }=X \\rightarrow \\text { Fwd; }\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X \\rightarrow \\text { Bwd } \\rightarrow \\text { Fwd }=X \\rightarrow \\text { Fwd; } X \\rightarrow F w d \\rightarrow { Bwd }=X \\rightarrow { Bwd; }\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213509/isro2018-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a singly linked list of the form where F is a pointer to the first element in the linked list and L is the pointer to the last element in the list. The time of which of the following operations depends on the length of the list?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q63_6b78c2e6.jpg\"><br> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Delete the last element of the list</p>",
+            "<b>B.</b> <p>Delete the first element of the list</p>",
+            "<b>C.</b> <p>Add an element after the last element of the list</p>",
+            "<b>D.</b> <p>Interchange the first two elements of the list</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Delete the last element of the list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213525/isro2018-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Given a binary-max heap. The elements are stored in an arrays as 25,14,16,13,10,8,12. What is the content of the array after two delete operations? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14,13,8,12,10</p>",
+            "<b>B.</b> <p>14,12,13,10,8</p>",
+            "<b>C.</b> <p>14,13,12,8,10</p>",
+            "<b>D.</b> <p>14,13,12,10,8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>14,13,12,8,10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213531/isro2018-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A hash table with 10 buckets with one slot pet per bucket is depicted here. The symbols, S1 to S7 are initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is:<br>\\(\\begin{array}{|c|c|} \\hline 0 &amp; S 7 \\\\ \\hline 1 &amp; S 1 \\\\ \\hline 2 &amp; \\\\ \\hline 3 &amp; S 4 \\\\ \\hline 4 &amp; S 2 \\\\ \\hline 5 &amp; \\\\ \\hline 6 &amp; S 5 \\\\ \\hline 7 &amp; \\\\ \\hline 8 &amp; S 6 \\\\ \\hline 9 &amp; S 3 \\\\ \\hline \\end{array}\\) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213552/isro2018-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An array A consists of n integers in locations A[0],A[1],...A[n-1]. It is required to shift the elements of the array cyclically to the left by k places, where \\(1 \\leq k \\leq (n-1)\\). An incomplete algorithm for doing this in linear time, without using another array is given bellow. Complete the algorithm by filling in the blanks.<br><pre><code> min=n; i=0;\nwhile(_________) {\n    temp= A[i]; j=i;\n    while(_________) {\n        A[j]= _______;\n        j=(j+k) mod n;\n        if(j &lt; min) then\n        min = j;\n    }\n    A[(n+i-k) mod n]=_______;\n    i=________;\n    \n}</code></pre> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(i  \\gt \\min ; \\quad j !=(n+1) \\bmod n ; \\quad A[j+k] \\quad \\text { temp; } \\quad i+1 ;\\)</p>",
+            "<b>B.</b> <p>\\(i \\lt \\min ; \\quad j !=(n+i) \\bmod n ; \\quad A[j+k] \\quad \\text { temp; } \\quad i+1 ;\\)</p>",
+            "<b>C.</b> <p>\\(i \\gt \\min ; \\quad j !=(n+i+k) \\bmod n ; \\quad A[j+k] \\quad \\text { temp; } \\quad i+1 ;\\)</p>",
+            "<b>D.</b> <p>\\(i \\lt \\min ; \\quad j !=(n+i-k) \\bmod n ; \\quad A[(j+k) \\bmod n] \\quad \\text { temp; } \\quad i+1 ;\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(i \\lt \\min ; \\quad j !=(n+i-k) \\bmod n ; \\quad A[(j+k) \\bmod n] \\quad \\text { temp; } \\quad i+1 ;\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213576/isro2018-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Choose the equivalent prefix form of the following expression<br>\\((a+(b-c))^{\\star}((d-e) /(f+g-h))\\) <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\({ }^{\\star}+a-b c /-d e-+f g h\\)</p>",
+            "<b>B.</b> <p>\\({ }^{\\star}+a-b c -/d e-+f g h\\)</p>",
+            "<b>C.</b> <p>\\({ }^{\\star}+a-b c /-ed-+f g h\\)</p>",
+            "<b>D.</b> <p>\\({ }^{*}+\\mathrm{ab}-\\mathrm{c} /-\\mathrm{de}-+\\mathrm{fgh}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\({ }^{\\star}+a-b c /-d e-+f g h\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128769/isro2017-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>The best data structure to check whether an arithmetic expression has  balanced parenthesis is  a: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Queue</p>",
+            "<b>B.</b> <p>Stack</p>",
+            "<b>C.</b> <p>Tree</p>",
+            "<b>D.</b> <p>List</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128743/isro2017-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>In a doubly linked list the number of pointers affected for an insertion operation will be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>Depends on the nodes of doubly linked list</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Depends on the nodes of doubly linked list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128485/isro2017-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q50_0b35423d.jpg\"><br>If the post order traversal gives ab -cd * + then the label of the nodes 1,2,3.. will be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>+ , -, *, a,b,c,d</p>",
+            "<b>B.</b> <p>a, -,b,+,c,*,d</p>",
+            "<b>C.</b> <p>a,b,c,d,-,*,+</p>",
+            "<b>D.</b> <p>-,a,b,+,*,c,d</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>+ , -, *, a,b,c,d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128696/isro2017-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Which of the following data structure is useful in traversing a given graph by breadth first search? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Stack</p>",
+            "<b>B.</b> <p>Queue</p>",
+            "<b>C.</b> <p>List</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/129119/isro2017-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Given two statements<br>Insertion of an element should be done at the last node of the circular list<br>Deletion of an element should be done at the last node of the circular list <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both are true</p>",
+            "<b>B.</b> <p>Both are false</p>",
+            "<b>C.</b> <p>First is false and second is true</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both are false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128489/isro2017-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Access time of the symbolic table will be logarithmic if it is implemented by <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Linear list</p>",
+            "<b>B.</b> <p>Search tree</p>",
+            "<b>C.</b> <p>Hash table</p>",
+            "<b>D.</b> <p>Self organization list</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Search tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55551/isro2016-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>A complete binary tree with n non-leaf nodes contains <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\log_{2}n\\) nodes</p>",
+            "<b>B.</b> <p>n+1  nodes</p>",
+            "<b>C.</b> <p>2n nodes</p>",
+            "<b>D.</b> <p>2n+1 nodes</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2n+1 nodes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55672/isro2016-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>A Hash Function f defined as f(key)=keymod7. With linear probing while inserting the keys 37,38,72,48,98,11,56 into a table indexed from 0, in which location key 11 will be stored (Count table index 0 as \\(0^{th}\\) location)? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51315/isro2016-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>The average number of key comparisons required for a successful search for sequential search on n items is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{n}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n-1}{2}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{n+1}{2}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{n+1}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2742/gate1996-2-13-isro2016-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>The following postfix expression with single digit operands is evaluated using a stack:<br>\\(8 \\ 2 \\ 3 \\ \\;\\hat{}\\; / \\ 2 \\ 3 * + 5 \\ 1 * -\\)<br>Note that \\(\\hat{}\\;\\) is the exponentiation operator. The top two elements of the stack after the first * is evaluated are <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6,1</p>",
+            "<b>B.</b> <p>5,7</p>",
+            "<b>C.</b> <p>3,2</p>",
+            "<b>D.</b> <p>1,5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6,1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1236/gate2007-38-isro2016-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>If a node has \\(K\\) children in B tree, then the node contains exactly _____ keys. <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(K^{2}\\)</p>",
+            "<b>B.</b> <p>\\(K-1\\)</p>",
+            "<b>C.</b> <p>\\(K+1\\)</p>",
+            "<b>D.</b> <p>\\(\\sqrt{K}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(K-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51699/isro2015-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>The queue data structure is to be realized by using stack. The number of stacks needed would be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It cannot be implemented</p>",
+            "<b>B.</b> <p>2 stacks</p>",
+            "<b>C.</b> <p>4 stacks</p>",
+            "<b>D.</b> <p>1 stack</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 stacks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51086/isro2015-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols S1 to S7 initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q14_8c271a02.jpg\"><br> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/10905/gate1989-1-vii-isro2015-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>If the sequence of operations - push (1), push (2), pop, push (1), push (2), pop, pop, pop, push (2), pop are performed on a stack, the sequence of popped out values <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,2,1,1,2</p>",
+            "<b>B.</b> <p>2,2,1,2,2</p>",
+            "<b>C.</b> <p>2,1,2,2,1</p>",
+            "<b>D.</b> <p>2,1,2,2,2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2,2,1,1,2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51080/isro2015-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>How many different trees are there with four nodes A,B,C and D? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30</p>",
+            "<b>B.</b> <p>60</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>120</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17447/isro2014-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider a 13 element hash table for which f(key)=key mod 13 is used with integer keys. Assuming linear probing is used for collision resolution, at which location would the key 103 be inserted, if the keys 661, 182, 24 and 103 are inserted in that order? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55021/isro2014-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider a single linked list where F and L are pointers to the first and last elements respectively of the linked list. The time for performing which of the given operations depends on the length of the linked list?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q49_5ae2437e.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Delete the first element of the list</p>",
+            "<b>B.</b> <p>Interchange the first two elements of the list</p>",
+            "<b>C.</b> <p>Delete the last element of the list</p>",
+            "<b>D.</b> <p>Add an element at the end of the list</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Delete the last element of the list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54985/isro2014-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>A frame buffer array is addressed in row major order for a monitor with pixel locations starting from (0,0) and ending with (100,100). What is address of the pixel(6,10)? Assume one bit storage per pixel and starting pixel location is at 0. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1016</p>",
+            "<b>B.</b> <p>1006</p>",
+            "<b>C.</b> <p>610</p>",
+            "<b>D.</b> <p>616</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1016</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53819/isro2014-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Consider the following binary search tree T given below: Which node contains the fourth smallest element in T?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q41_3fc8ff9b.jpg\"><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q</p>",
+            "<b>B.</b> <p>V</p>",
+            "<b>C.</b> <p>W</p>",
+            "<b>D.</b> <p>X</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>W</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54963/isro2014-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider a standard Circular Queue implementation (which has the same condition for Queue Full and Queue Empty) whose size is 11 and the elements of the queue are q[0],q[1],... q[10].<br>The front and rear pointers are initialized to point at q[2]. In which position will the ninth element be added? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>q[0]</p>",
+            "<b>B.</b> <p>q[1]</p>",
+            "<b>C.</b> <p>q[9]</p>",
+            "<b>D.</b> <p>q[10]</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>q[0]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17423/isro2014-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Suppose there are 11 items in sorted order in an array. How many searches are required on the average, if binary search is employed and all searches are successful in finding the item? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(3.00\\)</p>",
+            "<b>B.</b> <p>3.46</p>",
+            "<b>C.</b> <p>2.81</p>",
+            "<b>D.</b> <p>3.33</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(3.00\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16124/isro2014-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Which of the following number of nodes can form a full binary tree? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43967/isro-2013-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>In an array of 2N elements that is both 2-ordered and 3-ordered, what is the maximum number of positions that an element can be from its position if the array were 1-ordered? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>N/2</p>",
+            "<b>D.</b> <p>2N-1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43767/isro-2013-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>The following steps in a linked list<br><pre><code>p = getnode() \ninfo(p) = 10 \nnext (p) = list \nlist = p</code></pre>\nresult in which type of operation? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Pop operation in stack</p>",
+            "<b>B.</b> <p>Removal of a node</p>",
+            "<b>C.</b> <p>Inserting a node</p>",
+            "<b>D.</b> <p>Modifying an existing node</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Inserting a node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43754/isro-2013-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>The number of rotations required to insert a sequence of elements 9, 6, 5, 8, 7, 10 into an empty AVL tree is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43752/isro-2013-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Let A(1:8, -5:5, -10:5) be a three dimensional array. How many elements are there in the array A? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1200</p>",
+            "<b>B.</b> <p>1408</p>",
+            "<b>C.</b> <p>33</p>",
+            "<b>D.</b> <p>1050</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1408</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43751/isro-2013-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>The average depth of a binary search tree is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n^{0.5})\\)</p>",
+            "<b>B.</b> <p>\\(O(n)\\)</p>",
+            "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>D.</b> <p>\\(O(n \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52839/isro2011-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FGBDECA</p>",
+            "<b>B.</b> <p>ABFGCDE</p>",
+            "<b>C.</b> <p>BFGCDEA</p>",
+            "<b>D.</b> <p>AFGBDEC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ABFGCDE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50619/isro2011-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>How many distinct binary search trees can be created out of 4 distinct keys? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>35</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18134/isro2011-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>The expression \\(1 * 2 \\wedge 3 * 4 \\wedge 5 * 6\\) will be evaluated as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(32^{30}\\)</p>",
+            "<b>B.</b> <p>\\(162^{30}\\)</p>",
+            "<b>C.</b> <p>49152</p>",
+            "<b>D.</b> <p>173458</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>49152</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48052/isro2009-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>A full binary tree with n leaves contains <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n nodes</p>",
+            "<b>B.</b> <p>\\(\\log_2\\) n nodes</p>",
+            "<b>C.</b> <p>2n-1</p>",
+            "<b>D.</b> <p>\\(2^n\\) nodes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50383/isro2009-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>A one dimensional array A has indices 1....75. Each element is a string and takes up three memory words. The array is stored at location 1120 decimal. The starting address of A[49] is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1267</p>",
+            "<b>B.</b> <p>1164</p>",
+            "<b>C.</b> <p>1264</p>",
+            "<b>D.</b> <p>1169</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1264</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48050/isro2009-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>The infix expression \\(A+(B-C)^*D\\) is correctly represented in prefix notation as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A+B-C*D\\)</p>",
+            "<b>B.</b> <p>\\(+A*-BCD\\)</p>",
+            "<b>C.</b> <p>\\(ABC-D*+\\)</p>",
+            "<b>D.</b> <p>\\(A+BC-D*\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(+A*-BCD\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50380/isro2009-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Assume that the operators \\(+, -, \\times\\) are left associative and \\(\\hat{}\\) is right associative. The order of precedence (from highest to lowest) is \\(\\hat{}, \\times, +, -\\). The postfix expression corresponding to the infix expression \\(a+ b \\times c-d \\;\\;  \\hat{} e \\; \\; \\hat{} \\; \\; f\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(abc\\times+def\\;\\hat{}\\;\\;\\hat{}-\\)</p>",
+            "<b>B.</b> <p>\\(abc\\times + de \\;\\; \\hat{} f \\;\\; \\hat{}\\)</p>",
+            "<b>C.</b> <p>\\( ab+c\\times d-e\\;\\; \\hat{} f \\;\\; \\hat{}\\)</p>",
+            "<b>D.</b> <p>\\(-+a\\times bc\\;\\;\\hat{}\\;\\;\\hat{}def\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(abc\\times+def\\;\\hat{}\\;\\;\\hat{}-\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1035/gate2004-38-isro2009-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1001/gate2004-4-isro2009-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in \\(O(\\log n)\\) time, where n is the number of elements in the set.<br><br>\n1. Deletion of the smallest element<br>\n2. Insertion of an element if it is not already present in the set<br><br>\nWhich of the following data structures can be used for this purpose? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A heap can be used but not a balanced binary search tree</p>",
+            "<b>B.</b> <p>A balanced binary search tree can be used but not a heap</p>",
+            "<b>C.</b> <p>Both balanced binary search tree and heap can be used</p>",
+            "<b>D.</b> <p>Neither balanced search tree nor heap can be used</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A balanced binary search tree can be used but not a heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/950/gate2003-63-isro2009-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Suppose the numbers 7,5,1,8,3,6,0,9,4,2 are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7 5 1 0 3 2 4 6 8 9</p>",
+            "<b>B.</b> <p>0 2 4 3 1 6 5 9 8 7</p>",
+            "<b>C.</b> <p>0 1 2 3 4 5 6 7 8 9</p>",
+            "<b>D.</b> <p>9 8 6 4 2 3 0 1 5 7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0 1 2 3 4 5 6 7 8 9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/909/gate2003-19-isro2009-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>The minimum number of fields with each node of doubly linked list is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17245/isro2008-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>A complete binary tree with the property that the value at each node is at least as large as the values at its children is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>binary search tree</p>",
+            "<b>B.</b> <p>AVL tree</p>",
+            "<b>C.</b> <p>completely balanced tree</p>",
+            "<b>D.</b> <p>Heap</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50145/isro2008-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Which of the following operations is performed more efficiently by doubly linked list than by linear linked list? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deleting a node whose location is given</p>",
+            "<b>B.</b> <p>Searching an unsorted list for a given item</p>",
+            "<b>C.</b> <p>Inserting a node after the node with a given location</p>",
+            "<b>D.</b> <p>Traversing the list to process each node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Deleting a node whose location is given</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50141/isro2008-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>The time required to search an element in a linked list of length n is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(\\log_2 n)\\)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>O(1)</p>",
+            "<b>D.</b> <p>\\(O(n^2)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50139/isro2008-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>Stack A has the entries a, b, c (with a on top). Stack B is empty. An entry popped out of stack A can be printed immediately or pushed to stack B. An entry popped out of the stack B can be only be printed. In this arrangement, which of the following permutations of a, b, c are not possible? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>b a c</p>",
+            "<b>B.</b> <p>b c a</p>",
+            "<b>C.</b> <p>c a b</p>",
+            "<b>D.</b> <p>a b c</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>c a b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50138/isro2008-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>The five items: A, B, C, D, and E are pushed in a stack, one after other starting from A. The stack is popped four items and each element is inserted in a queue. The two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49487/isro2007-16-isro2009-30-isro2014-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

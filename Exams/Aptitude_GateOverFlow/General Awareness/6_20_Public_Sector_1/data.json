@@ -1,0 +1,21 @@
+{
+  "title": "General Awareness - Public Sector",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Public Sector",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"123\"></a><div itemprop=\"text\"><p>Which of the following is NOT a Public Sector Undertaking</p><p>&nbsp;</p><ol><li>Eastern Coal Fields Ltd.</li><li>Cotton Corporation of India Ltd</li><li>Bharat Bhari Udyog Nigam Ltd.</li><li>ACC Ltd.</li><li>Goa Shipyard Ltd.</li></ol><p>&nbsp;</p></div><br><br><b>General Awareness: Which of the following is NOT a Public Sector Undertaking</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/123/which-of-the-following-is-not-a-public-sector-undertaking\" target=\"_blank\">https://aptitude.gateoverflow.in/123/which-of-the-following-is-not-a-public-sector-undertaking</a></p>"
+        }
+      ]
+    }
+  ]
+}

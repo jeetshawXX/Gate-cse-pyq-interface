@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following has the compilation error in C? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>int n = 17;</p>",
+            "<b>B.</b> <p>char c = 99;</p>",
+            "<b>C.</b> <p>float f = (float)99.32;</p>",
+            "<b>D.</b> <p>#include &lt; stdio.h &gt;</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>#include &lt; stdio.h &gt;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19791/isro2015-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The output of the following program is<br><pre><code> main()\n{\n    static int x[] = {1,2,3,4,5,6,7,8}\n    int i;\n    for (i=2; i&lt;6; ++i)\n    x[x[i]]=x[i];\n    for (i=0; i&lt;8; ++i)\n    printf(\"%d\", x[i]);\n}</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 2 3 3 5 5 7 8</p>",
+            "<b>B.</b> <p>1 2 3 4 5 6 7 8</p>",
+            "<b>C.</b> <p>8 7 6 5 4 3 2 1</p>",
+            "<b>D.</b> <p>1 2 3 5 4 6 7 8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1 2 3 3 5 5 7 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52137/isro2015-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following declaration:<pre><code> int a, *b=&amp;a, **c=&amp;b;</code></pre>The following program fragment<pre><code> a=4;    **c=5;</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not change the value of a</p>",
+            "<b>B.</b> <p>assigns address of c to a</p>",
+            "<b>C.</b> <p>assigns the value of b to a</p>",
+            "<b>D.</b> <p>assigns 5 to a</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>assigns 5 to a</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19444/isro2015-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following program fragment<br><pre><code> i=6720; j=4;\nwhile (i%j)==0\n{\n    i=i/j;\n    j=j+1;\n}</code></pre>On termination j will have the value <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>6720</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52135/isro2015-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following program<br><pre><code> main()\n{\n    inc(); inc(); inc();\n}\ninc()\n{\n    static int x;\n    printf(\"%d\", ++x);\n}</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>prints 012</p>",
+            "<b>B.</b> <p>prints 123</p>",
+            "<b>C.</b> <p>prints 3 consecutive, but unpredictable numbers</p>",
+            "<b>D.</b> <p>prints 111</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>prints 123</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52131/isro2015-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>If n has  3, then the statement a[++n]=n++; <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>assigns 3 to a[5]</p>",
+            "<b>B.</b> <p>assigns 4 to a[5]</p>",
+            "<b>C.</b> <p>assigns 4 to a[4]</p>",
+            "<b>D.</b> <p>what is assigned is compiler dependent</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>what is assigned is compiler dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50408/isro2015-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following program fragment<br><pre><code> if(a &gt; b)  if(b &gt; c)     s1;  else s2;</code></pre>s2 will be executed if <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a &lt;= b</p>",
+            "<b>B.</b> <p>b &gt; c</p>",
+            "<b>C.</b> <p>b &gt;= c and a &lt;= b</p>",
+            "<b>D.</b> <p>a &gt; b and b &lt;= c</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a &gt; b and b &lt;= c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19445/isro2015-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What is the time complexity for the following C module? Assume that \\(n \\gt 0\\).<br><pre><code>\nint module(int n)\n{\n    if (n == 1)\n        return 1;\n    else\n        return (n + module(n-1));\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{2}\\right)\\)</p>",
+            "<b>D.</b> <p>O(n!)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55082/isro2014-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The following three 'C' language statements is equivalent to which single statement?<br><pre><code>y=y+1;\nz=x+y;\nx=x+1</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>z = x + y + 2;</p>",
+            "<b>B.</b> <p>z = (x++) + (++y);</p>",
+            "<b>C.</b> <p>z = (x++) + (y++);</p>",
+            "<b>D.</b> <p>z = (x++) + (++y) + 1;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>z = (x++) + (++y);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53362/isro2014-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>How many lines of output does the following C code produce?<br><pre><code> #include &lt; stdio.h &gt;\nfloat i=2.0;\nfloat j=1.0;\nfloat sum = 0.0;\nmain()\n{\n    while (i/j &gt; 0.001)\n    {\n        j+=j;\n        sum=sum+(i/j);\n        printf(\"%f\\n\", sum);\n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52437/isro2014-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the output of the following C program?<br><pre><code> #include &lt; stdio.h &gt;    \nvoid main(void){\n    int shifty;\n    shifty=0570;\n    shifty=shifty&gt;&gt;4;\n    shifty=shifty&lt;&lt;6;\n    printf(\"The value  of shifty is %o \\n\",shifty);  \n}</code></pre><br> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The value of shifty is 15c0</p>",
+            "<b>B.</b> <p>The value of shifty is 4300</p>",
+            "<b>C.</b> <p>The value of shifty is 5700</p>",
+            "<b>D.</b> <p>The value of shifty is 2700</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The value of shifty is 2700</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15906/isro2014-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following is true with respect to Reference? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A reference can never be NULL</p>",
+            "<b>B.</b> <p>A reference needs an explicit dereferencing mechanism</p>",
+            "<b>C.</b> <p>A reference can be reassigned after it is established</p>",
+            "<b>D.</b> <p>A reference and pointer are synonymous</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A reference can never be NULL</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17420/isro2014-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>What is the output of the following C program? <br><pre><code> #include &lt; stdio.h &gt;\n#define SQR(x) (x*x)  \n\nint main()\n{\n    int a;\n    int b=4;\n    a=SQR(b+2);\n    printf(\"%d\\n\",a); \n    return 0;\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>36</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>14</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52570/isro2014-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What is the output of the following program?<br><pre><code> Class Test\n{ \n    public static void main (String [] args) \n    {  \n        int x = 0; \n        int y = 0 \n        for (int z = 0; z &lt; 5; z++)\n        { \n            if((++x &gt;2)||(++y  &gt; 2)) \n            {\n                x++;\n            }\n        }\n    System.out.printIn (x+ \"\" + y); \n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 2</p>",
+            "<b>B.</b> <p>8 5</p>",
+            "<b>C.</b> <p>8 3</p>",
+            "<b>D.</b> <p>5 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44842/isro-2013-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following C code.<br><pre><code> #include &lt; stdio.h &gt; \n#include &lt; math.h &gt; \nvoid main ()  \n{  \n      double pi = 3.1415926535;   \n      int a = 1;  \n      int i;    \n      for (i=0; i &lt; 3; i++) \n            if (a = cos(pi * i/2)) \n                  printf(\"% d\", 1);  \n            else printf(\"%d\", 0); \n}</code></pre> <br>\nWhat would the program print? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>000</p>",
+            "<b>B.</b> <p>010</p>",
+            "<b>C.</b> <p>101</p>",
+            "<b>D.</b> <p>111</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>101</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44833/isro-2013-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

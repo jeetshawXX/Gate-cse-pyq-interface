@@ -1,0 +1,41 @@
+{
+  "title": "English Language - Logic Puzzles",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Logic Puzzles",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"5795\"></a><div itemprop=\"text\"><p>A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule.</p>\n\n<p>The underlying principle that they are working on is the following:</p>\n\n<p>Any person staying in any of these \\( 10 \\) cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.</p>\n\n<p>If the underlying principle s to be satisfied in such a way that the journey between any two cities can be performed using only direct (non-stop) flights, then the minimum number of direct flights to be scheduled is</p>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 180 \\)</p>",
+            "<p>\\( 135 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5795/cat-2017-set-1-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/5795/cat-2017-set-1-question-59</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"5794\"></a><div itemprop=\"text\"><p>A new airlines company is planning to start operations in a country. The company has identified ten different cities which they plan to connect through their network to start with. The flight duration between any pair of cities will be less than one hour. To start operations, the company has to decide on a daily schedule.</p>\n\n<p>The underlying principle that they are working on is the following:</p>\n\n<p>Any person staying in any of these \\( 10 \\) cities should be able to make a trip to any other city in the morning and should be able to return by the evening of the same day.</p>\n\n<p>Suppose three of the ten cities are to be developed as hubs. A hub is a&nbsp; city which is connected with every other city by direct flights each way, both in the morning as well as in the evening. The only direct flights which will be scheduled are originating and/or terminating in one of the hubs. Then the minimum number of direct flights that need to be scheduled so that the underlying principle of the airline to serve all the ten cities is met without visiting more than one hub during one trip is:</p>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 54 \\)</p>",
+            "<p>\\( 120 \\)</p>",
+            "<p>\\( 96 \\)</p>",
+            "<p>\\( 60 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5794/cat-2017-set-1-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/5794/cat-2017-set-1-question-60</a></p>"
+        }
+      ]
+    }
+  ]
+}

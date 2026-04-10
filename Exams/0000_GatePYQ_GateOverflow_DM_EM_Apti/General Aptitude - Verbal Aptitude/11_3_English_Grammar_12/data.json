@@ -1,0 +1,191 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - English Grammar",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "English Grammar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8028\"></a><div itemprop=\"text\"><p>We __________ our friends's birthday and we _________ how to make it up to him.</p>\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>completely forgot --- don't just know</p>",
+            "<p>forgot completely ---&nbsp;don't just know</p>",
+            "<p>completely&nbsp;forgot --- just don't know</p>",
+            "<p>forgot completely --- just don't know</p>"
+          ],
+          "correct_answer": "<p>completely&nbsp;forgot --- just don't know</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8028/gate-cse-2015-set-2-question-ga-1\" target=\"_blank\">https://gateoverflow.in/8028/gate-cse-2015-set-2-question-ga-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8300\"></a><div itemprop=\"text\"><p>The Tamil version of __________ John Abraham-starrer&nbsp;<em>Madras Cafe</em>&nbsp;__________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.</p></div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mr., was, found, on</p>",
+            "<p>a, was, found, at</p>",
+            "<p>the, was, found, on</p>",
+            "<p>a, being, find, at</p>"
+          ],
+          "correct_answer": "<p>the, was, found, on</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2\" target=\"_blank\">https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"118405\"></a><div itemprop=\"text\"><p>Research in the workplace reveals that people work for many reasons _______________ .</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>money beside</p>",
+            "<p>beside money</p>",
+            "<p>money besides</p>",
+            "<p>besides money</p>"
+          ],
+          "correct_answer": "<p>besides money</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2\" target=\"_blank\">https://gateoverflow.in/118405/gate-cse-2017-set-1-question-ga-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"118416\"></a><div itemprop=\"text\"><p>Saturn is ___________ to be seen on a clear night with the naked eye.</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>enough bright</p>",
+            "<p>bright enough</p>",
+            "<p>as enough bright</p>",
+            "<p>bright as enough</p>"
+          ],
+          "correct_answer": "<p>bright enough</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118416/gate-cse-2017-set-2-question-ga-2\" target=\"_blank\">https://gateoverflow.in/118416/gate-cse-2017-set-2-question-ga-2</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"333240\"></a><div itemprop=\"text\"><p>Raman is confident of speaking English _______six months as he has been practising regularly_______the last three weeks</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>during, for</p>",
+            "<p>for, since</p>",
+            "<p>for, in</p>",
+            "<p>within, for</p>"
+          ],
+          "correct_answer": "<p>within, for</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333240/gate-cse-2020-question-ga-1\" target=\"_blank\">https://gateoverflow.in/333240/gate-cse-2020-question-ga-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"357474\"></a><div itemprop=\"text\"><p>Consider the following sentences:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Everybody in the class is&nbsp;prepared for the exam.</li>\n\t<li>Babu&nbsp;invited Danish to his home because he enjoys playing chess.</li>\n</ol>\n\n<p>Which of the following is the \\( \\text{CORRECT} \\) observation about the above two sentences?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i)} \\) is grammatically correct and \\( \\text{(ii)} \\) is unambiguous</p>",
+            "<p>\\( \\text{(i)} \\) is grammatically incorrect and \\( \\text{(ii)} \\) is unambiguous</p>",
+            "<p>\\( \\text{(i)} \\) is grammatically correct and \\( \\text{(ii)} \\) is ambiguous</p>",
+            "<p>\\( \\text{(i)} \\) is grammatically incorrect and \\( \\text{(ii)} \\) is ambiguous</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i)} \\) is grammatically correct and \\( \\text{(ii)} \\) is ambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357474/gate-cse-2021-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/357474/gate-cse-2021-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359780\"></a><div itemprop=\"text\"><p>He was not only accused of theft _____ of conspiracy.</p>\n\n</div><br><br><b>GATE ECE 2020 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>rather</p>",
+            "<p>but also</p>",
+            "<p>but even</p>",
+            "<p>rather than</p>"
+          ],
+          "correct_answer": "<p>but also</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359780/gate-ece-2020-ga-question-2\" target=\"_blank\">https://gateoverflow.in/359780/gate-ece-2020-ga-question-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"39494\"></a><div itemprop=\"text\"><p>The following question presents a sentence, part of which is underlined. Beneath the sentence, you&nbsp;find four ways of phrasing the underlined part. Following the requirements of the standard written&nbsp;English, select the answer that produces the most effective sentence.</p>\n\n<p>Tuberculosis, together with its effects, <u>ranks one of the leading causes of death</u> in India.</p>\n\n</div><br><br><b>GATE2015 EC-1: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ranks as one of the leading causes of death</p>",
+            "<p>rank as one of the leading causes of death</p>",
+            "<p>has the rank of one of the leading causes of death</p>",
+            "<p>are one of the leading causes of death&nbsp;</p>"
+          ],
+          "correct_answer": "<p>ranks as one of the leading causes of death</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39494/gate2015-ec-1-ga-6\" target=\"_blank\">https://gateoverflow.in/39494/gate2015-ec-1-ga-6</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"39519\"></a><div itemprop=\"text\"><p>Ram and Shyam shared a secret and promised to each other that it would remain between them. Ram expressed himself in one of the following ways as given in the choices below. Identify the correct way as per standard English.</p>\n\n</div><br><br><b>GATE2015 EC-3: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It would remain between you and me.</p>",
+            "<p>It would remain between I and you.</p>",
+            "<p>It would remain between you and I.</p>",
+            "<p>It would remain with me.</p>"
+          ],
+          "correct_answer": "<p>It would remain between you and me.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39519/gate2015-ec-3-ga-6\" target=\"_blank\">https://gateoverflow.in/39519/gate2015-ec-3-ga-6</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"108061\"></a><div itemprop=\"text\"><p>Which of the following is CORRECT with respect to grammar and usage?</p>\n\n<p>Mount Everest is ________.</p>\n\n</div><br><br><b>GATE2016 EC-1: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The highest peak in the world</p>",
+            "<p>Highest peak in the world</p>",
+            "<p>One of highest peak in the world</p>",
+            "<p>One of the highest peak in the world</p>"
+          ],
+          "correct_answer": "<p>The highest peak in the world</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108061/gate2016-ec-1-ga-1\" target=\"_blank\">https://gateoverflow.in/108061/gate2016-ec-1-ga-1</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"313655\"></a><div itemprop=\"text\"><p>\"Going by the _____ that many hands make light work, the school ____ involved all the students in the task.\"</p>\n\n<p>The words that best fill the blanks in the above sentence are</p>\n\n</div><br><br><b>GATE2018 ME-1: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>principle, principal</p>",
+            "<p>principal, principle</p>",
+            "<p>principle,&nbsp;principle</p>",
+            "<p>principal,&nbsp;principal</p>"
+          ],
+          "correct_answer": "<p>principle, principal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313655/gate2018-me-1-ga-1\" target=\"_blank\">https://gateoverflow.in/313655/gate2018-me-1-ga-1</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"313442\"></a><div itemprop=\"text\"><p>The lecture was attended by quite _______ students, so the hall was not very _______.</p>\n\n</div><br><br><b>GATE2019 CE-1: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a few, quite</p>",
+            "<p>few, quiet</p>",
+            "<p>a few, quiet</p>",
+            "<p>few, quite&nbsp;</p>"
+          ],
+          "correct_answer": "<p>a few, quiet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313442/gate2019-ce-1-ga-1\" target=\"_blank\">https://gateoverflow.in/313442/gate2019-ce-1-ga-1</a></p>"
+        }
+      ]
+    }
+  ]
+}

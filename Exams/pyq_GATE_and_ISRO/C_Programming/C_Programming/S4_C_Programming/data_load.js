@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "C_Programming - C_Programming - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A language with string manipulation facilities uses the following operations.<br><br>\nhead(s)- returns the first character of the string s<br>tails(s)- returns all but the first character of the string s<br>concat(s1,s2)- concatenates string s1 with s2.<br>\n<br>The output of concat(head(s), head(tail(tail(s)))), where s is acbc is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ab</p>",
+            "<b>B.</b> <p>ba</p>",
+            "<b>C.</b> <p>ac</p>",
+            "<b>D.</b> <p>aa</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>ab</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213580/isro2018-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Assume A and B are non-zero positive integers. The following code segment:<br><pre><code> while(A!=B){\n    if(A&gt; B)\n    A -= B;\n    else\n    B -= A;\n}\ncout &lt;&lt; A; // printing the value of A</code></pre> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Computes the LCM of two numbers</p>",
+            "<b>B.</b> <p>Divides the larger number by the smaller number</p>",
+            "<b>C.</b> <p>Computes the GCD of two numbers</p>",
+            "<b>D.</b> <p>Finds the smaller of two numbers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Computes the GCD of two numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213581/isro2018-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following declaration :<br><pre><code> structaddr {\n    char city[10];\n    char street[30];\n    int pin;\n};\nstruct {\n    char name[30];\n    int gender;\n    struct addr locate;\n} person, *kd = &amp;person;</code></pre>Then \\(^{\\star}(k d-&gt;\\text { name }+2)\\) can be used instead of: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>person.name+2</p>",
+            "<b>B.</b> <p>\\(k d-&gt;(\\text { name }+2)\\)</p>",
+            "<b>C.</b> <p>\\(*((* k d) . \\text { name }+2)\\)</p>",
+            "<b>D.</b> <p>either (A) or(B), not (C)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(*((* k d) . \\text { name }+2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213586/isro2018-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following program<pre><code>{\n    int x=1;\n    printf(\"%d\",(*char(char*)&amp;x));\n} </code></pre>Assuming required header files are included and if the machine in which this program is executed is little endian, then the output will be <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>99999999</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>unpredictable</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>unpredictable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213587/isro2018-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following program written in pseudo-code. Assume that x and y are integers.<pre><code>\nCount(x,y) {\n     if (y != 1){\n        if (x != 1) {\n                  print(\"*\");\n                  Count(x/2, y);\n                  }\n            else {\n                     y = y-1;\n                    Count(1024, y);\n                  }\n      }\n} </code></pre>\nThe number of times that the print statement is executed by the call\nCount(1024,1024) is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10230",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204120/gate2018-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following C code. Assume that unsigned long int type length is 64\nbits.<pre><code>\nunsigned long int fun(unsigned long int n){\nunsigned long int i, j = 0, sum = 0;\nfor (i = n; i &gt; 1; i = i/2) j++;\nfor ( ; j &gt; 1; j = j/2) sum++;\nreturn(sum);\n}  </code></pre>\nThe value returned when we call fun with the input \\(2^{40}\\) is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204106/gate2018-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nvoid fun1(char *s1, char *s2){\nchar *tmp;\ntmp = s1;\ns1 = s2;\ns2 = tmp;\n}\nvoid fun2(char **s1, char **s2){\nchar *tmp;\ntmp = *s1;\n*s1 = *s2;\n*s2 = tmp;\n}\nint main(){\nchar *str1 = \"Hi\", *str2 = \"Bye\";\nfun1(str1, str2); \nprintf(\"%s %s \", str1, str2); \nfun2(&amp;str1, &amp;str2); \nprintf(\"%s %s\", str1, str2);\nreturn 0;\n}</code></pre>\nThe output of the program above is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hi Bye Bye Hi</p>",
+            "<b>B.</b> <p>Hi Bye Hi Bye</p>",
+            "<b>C.</b> <p>Bye Hi Hi Bye</p>",
+            "<b>D.</b> <p>Bye Hi Bye Hi</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Hi Bye Bye Hi</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204103/gate2018-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C program:<pre><code>  #include &lt; stdio.h &gt;\nint counter = 0;\nint calc (int a, int b) {\n    int c;\n    counter++;\n    if (b==3) return (a*a*a);\n    else {\n       c = calc(a, b/3);\n       return (c*c*c);\n           }\n}\nint main (){\ncalc(4, 81);\nprintf (\"%d\", counter);\n}</code></pre> The output of this program is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204095/gate2018-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following C program.<pre><code>#include &lt; stdio.h &gt;\nstruct Ournode{\nchar x,y,z;\n};\nint main(){\nstruct Ournode p = {'1', '0','a'+2};  \nstruct Ournode *q = &amp;p;\nprintf(\"%c,%c\",*((char*)q+1),*((char*)q+2));\nreturn 0;\n}  </code></pre> The output of this program is: <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, c</p>",
+            "<b>B.</b> <p>0, a+2</p>",
+            "<b>C.</b> <p>'0', 'a+2'</p>",
+            "<b>D.</b> <p>'0', 'c'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0, c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204076/gate2018-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>We use malloc and calloc for: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic memory allocation</p>",
+            "<b>B.</b> <p>Static memory allocation</p>",
+            "<b>C.</b> <p>Both dynamic memory allocation and static memory allocation</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128772/isro2017-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the output of the following program?<br><pre><code> #include &lt; stdio.h &gt;\nint tmp=20;\nmain()\n{\n  printf(\"%d\", tmp);\n  func();\n  printf(\"%d\", tmp);\n\n}\nfunc()\n{\n static int tmp=10;\n printf(\"%d\", tmp);\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20 10 10</p>",
+            "<b>B.</b> <p>20 10 20</p>",
+            "<b>C.</b> <p>20 20 20</p>",
+            "<b>D.</b> <p>10 10 10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20 10 20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128754/isro2017-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What does the following program do when the input is unsigned 16 bit integer?<br><pre><code> #include &lt; stdio.h &gt;\nmain(){\n  unsigned int num;\n  int i;\n  scanf(\"%u\", &amp;num);\n  for(i=0;i&lt;16;i++){\n    printf(\"%d\", (num &lt; &lt; i&amp;1 &lt; &lt; 15)?1:0);\n  }\n}</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It prints all even bits from num</p>",
+            "<b>B.</b> <p>It prints all odd bits from num</p>",
+            "<b>C.</b> <p>It prints binary equivalent of num</p>",
+            "<b>D.</b> <p>None of above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>It prints binary equivalent of num</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128753/isro2017-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>What will be the output of the following C code?<br><pre><code> #include &lt; stdio.h &gt;\nmain()\n{\n    int i;\n    for(i=0;i&lt;5;i++)\n    {\n        int i=10;\n        printf(\"%d\" , i);\n        i++;\n    }\n    return 0;\n}</code></pre><br> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 11 12 13 14</p>",
+            "<b>B.</b> <p>10 10 10 10 10</p>",
+            "<b>C.</b> <p>0 1 2 3 4</p>",
+            "<b>D.</b> <p>Compilation error</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 10 10 10 10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128751/isro2017-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What does the following C-statement declare?<br><pre><code> int (*f) (int * );</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>B.</b> <p>A function that takes an integer as argument and returns an integer pointer</p>",
+            "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+            "<b>D.</b> <p>A function that takes an integer pointer as argument and returns a function pointer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1343/gate2005-1-isro2017-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following function<br><pre><code> void swap(int a, int b)  \n{       \n    int temp;\n    temp = a;\n    a = b;\n    b = temp;  \n}  </code></pre>In order to exchange the values of two variables x and y. <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>call swap(x,y)</p>",
+            "<b>B.</b> <p>call swap(&amp;x,&amp;y)</p>",
+            "<b>C.</b> <p>swap(x,y)  cannot be used as it does not return any value</p>",
+            "<b>D.</b> <p>swap(x,y)  cannot be used as the parameters are passed by value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>swap(x,y)  cannot be used as the parameters are passed by value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/999/gate2004-2-isro2017-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

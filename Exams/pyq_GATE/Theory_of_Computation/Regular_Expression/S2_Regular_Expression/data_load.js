@@ -1,0 +1,192 @@
+window.__examLoadCallback({
+  "title": "Regular_Expression - Regular_Expression - Slot 2",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Regular_Expression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which regular expression best describes the language accepted by the non-deterministic automaton below?\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Regular_Expression\\q5_1a0e53b1.jpg\"><br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((a + b)^* \\ a(a + b)b\\)</p>",
+            "<b>B.</b> <p>\\((abb)^*\\)</p>",
+            "<b>C.</b> <p>\\((a + b)^* \\ a(a + b)^* \\ b(a + b)^*\\)</p>",
+            "<b>D.</b> <p>\\((a + b)^*\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((a + b)^* \\ a(a + b)b\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3544/gate2006-it-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following statements is TRUE about the regular expression 01*0? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It represents a finite set of finite strings.</p>",
+            "<b>B.</b> <p>It represents an infinite set of finite strings.</p>",
+            "<b>C.</b> <p>It represents a finite set of infinite strings.</p>",
+            "<b>D.</b> <p>It represents an infinite set of infinite strings.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It represents an infinite set of finite strings.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3749/gate2005-it-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following regular expressions is NOT equivalent to the regular expression \\((a + b + c)^*?\\) <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((a^* + b^* + c^*)^*\\)</p>",
+            "<b>B.</b> <p>\\((a^*b^*c^*)^*\\)</p>",
+            "<b>C.</b> <p>\\(((ab)^* + c^*)^*\\)</p>",
+            "<b>D.</b> <p>\\((a^*b^* + c^*)^*\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(((ab)^* + c^*)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3648/gate2004-it-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The regular expression 0*(10*)* denotes the same set as <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1*0)*1*</p>",
+            "<b>B.</b> <p>0 + (0 + 10) *</p>",
+            "<b>C.</b> <p>(0 + 1)* 10(0 + 1)*</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(1*0)*1*</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/905/gate2003-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let S and T be languages over \\(\\Sigma=\\{a.b\\}\\) represented by the regular expressions \\((a+b^*)^* \\text{ and } (a+b)^*\\), respectively. Which of the following is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S \\subset T\\)</p>",
+            "<b>B.</b> <p>\\(T \\subset S\\)</p>",
+            "<b>C.</b> <p>S = T</p>",
+            "<b>D.</b> <p>\\(S \\cap T = \\phi\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S = T</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/627/gate2000-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The string 1101 does not belong to the set represented by <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(110^*(0 + 1)\\)</p>",
+            "<b>B.</b> <p>\\(1(0 + 1)^*101\\)</p>",
+            "<b>C.</b> <p>\\((10)^*(01)^*(00 + 11)^*\\)</p>",
+            "<b>D.</b> <p>\\((00 + (11)^*0)^*\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((10)^*(01)^*(00 + 11)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1649/gate1998-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If the regular set \\(A\\) is represented by \\(A = (01 + 1)^*\\) and the regular set \\(B\\) is represented by \\(B = \\left(\\left(01\\right)^*1^*\\right)^*\\), which of the following is true? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A \\subset B\\)</p>",
+            "<b>B.</b> <p>\\(B \\subset A\\)</p>",
+            "<b>C.</b> <p>\\(A\\) and \\(B\\) are incomparable</p>",
+            "<b>D.</b> <p>\\(A=B\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(A=B\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1646/gate1998-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which one of the following regular expressions over {0,1} denotes the set of all strings not containing 100 as substring? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0^*(1+0)^*\\)</p>",
+            "<b>B.</b> <p>\\(0^*1010^*\\)</p>",
+            "<b>C.</b> <p>\\(0^*1^*01^*\\)</p>",
+            "<b>D.</b> <p>\\(0^*(10+1)^*\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(0^*(10+1)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2260/gate1997-6-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which two of the following four regular expressions are equivalent? (\\(\\varepsilon\\) is the empty string).<br>\n(i).   \\((00)^ * (\\varepsilon +0)\\)<br>\n(ii).  \\((00)^*\\)<br>\n(iii). \\(0^*\\)<br>\n(iv).  \\(0(00)^*\\)<br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (ii)</p>",
+            "<b>B.</b> <p>(ii) and (iii)</p>",
+            "<b>C.</b> <p>(i) and (iii)</p>",
+            "<b>D.</b> <p>(iii) and (iv)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(i) and (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2712/gate1996-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In some programming language, an identifier is permitted to be a letter followed by any number of letters or digits. If L and D denote the sets of letters and digits respectively, which of the following expressions defines an identifier? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((L + D)^+\\)</p>",
+            "<b>B.</b> <p>\\((L.D)^*\\)</p>",
+            "<b>C.</b> <p>\\(L(L + D)^*\\)</p>",
+            "<b>D.</b> <p>\\(L(L.D)^*\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L(L + D)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2596/gate1995-1-9-isro2017-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following regular expression identities is/are TRUE? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(r^{(^*)} =r^*\\)</p>",
+            "<b>B.</b> <p>\\((r^*s^*)=(r+s)^*\\)</p>",
+            "<b>C.</b> <p>\\((r+s)^* = r^* + s^*\\)</p>",
+            "<b>D.</b> <p>\\(r^*s^* = r^*+s^*\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(r^{(^*)} =r^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/575/gate1992-02-xvii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only.<br>Let \\(r=1(1+0)^*, s=11^*0 \\text{ and } t=1^*0\\) be three regular expressions. Which one of the following is true? <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L(s) \\subseteq L(r) \\text{ and } L(s) \\subseteq L(t)\\)</p>",
+            "<b>B.</b> <p>\\(L(r) \\subseteq L(s) \\text{ and }  L(s) \\subseteq L(t)\\)</p>",
+            "<b>C.</b> <p>\\(L(s) \\subseteq L(t) \\text{ and }  L(s) \\subseteq L(r)\\)</p>",
+            "<b>D.</b> <p>\\(L(t) \\subseteq L(s)\\text{ and }  L(s) \\subseteq L(r)\\)</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L(s) \\subseteq L(r) \\text{ and } L(s) \\subseteq L(t)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/527/gate1991-03-xiii\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

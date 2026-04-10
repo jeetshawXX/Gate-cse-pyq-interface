@@ -1,0 +1,431 @@
+window.__examLoadCallback({
+  "title": "English Language - Paragraph Construction",
+  "duration": 78,
+  "sections": [
+    {
+      "name": "Paragraph Construction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4215\"></a><div itemprop=\"text\"><p>Arrange sentences A, B, C and D between sentences 1 and 6 to form a logical sequence.</p>\n\n<p>Arrange sentences A, B, C and D between sentences 1 and 6 to form a logical sequence.</p>\n\n<p>1. Clues to the answer lie at your feet, scattered among the rubble.</p>\n\n<p>A.&nbsp; Most are only a few inches across.</p>\n\n<p>B.&nbsp; The rock here is a crumbling, easily-split sandstone and in it lie thousand upon thousands of coiled shells.</p>\n\n<p>C.&nbsp; They are ammonites.</p>\n\n<p>D.&nbsp; Some are big as cartwheels.</p>\n\n<p>6.&nbsp; No ammonite is alive today but a hundred million years ago, they flourished in vast numbers.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ADCB</p>",
+            "<p>BADC</p>",
+            "<p>CBAD&nbsp;</p>",
+            "<p>DCBA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4215/cat-1994-question-1\" target=\"_blank\">https://aptitude.gateoverflow.in/4215/cat-1994-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4224\"></a><div itemprop=\"text\"><p>Choose the alternative which suggests a coherent paragraph.</p>\n\n<p>A. These researchers have become so knowledgeable about their subjects that they have been guiding us to the right place at the right time.</p>\n\n<p>B. The great increase during the past decade in the number of scientists actively involved in observing animals in the wild is very important.</p>\n\n<p>C. They have guided us to see exactly that aspect of behaviour that was of particular interest to us.</p>\n\n<p>D. Almost every group of large animals is now being studied by scientists. everywhere.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BDAC&nbsp;</p>",
+            "<p>CBDA</p>",
+            "<p>DCBA&nbsp;</p>",
+            "<p>ACBD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4224/cat-1994-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/4224/cat-1994-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4216\"></a><div itemprop=\"text\"><p>Arrange sentences A, B, C and D between sentences 1 and 6 to form a logical sequence.</p>\n\n<p>1.&nbsp; A reptile becomes stuck in a swamp and dies.</p>\n\n<p>A.&nbsp; Over great periods of time, the peat is compressed and turned to coal.</p>\n\n<p>B.&nbsp; As the centuries pass and more vegetation accumulates, the deposit turns to peat.</p>\n\n<p>C.&nbsp; Changes in sea level may cause the swamp to be flooded and layers of sand to be deposited on top of the peat.</p>\n\n<p>D. Dead vegetation drifts to the bottom and covers them.</p>\n\n<p>6.&nbsp; The reptile’s bones still remain within it.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DBCA&nbsp;</p>",
+            "<p>BCDA</p>",
+            "<p>CDBA&nbsp;</p>",
+            "<p>DABC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4216/cat-1994-question-2\" target=\"_blank\">https://aptitude.gateoverflow.in/4216/cat-1994-question-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4217\"></a><div itemprop=\"text\"><p>Arrange sentences A, B, C and D between sentences 1 and 6 to form a logical sequence.</p>\n\n<p>1.&nbsp; Voyager-I was very high in the ecliptic plane.</p>\n\n<p>A.&nbsp; They are triumphs of human engineering and one of the glories of the American space programme.</p>\n\n<p>B.&nbsp; In 1981, it had made a close pass by Titan, the giant moon of Saturn.</p>\n\n<p>C.&nbsp; The two Voyager robots have explored four planets and nearly sixty moons.</p>\n\n<p>D.&nbsp; Its sister ship, Voyager, was patched on a different trajectory, so she was able to perform her celebrated explorations of Uranus and Neptune.</p>\n\n<p>6.&nbsp; They will be in the history books when much else about our time is forgotten.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CBDA&nbsp;</p>",
+            "<p>DACB</p>",
+            "<p>BDCA&nbsp;</p>",
+            "<p>BCDA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4217/cat-1994-question-3\" target=\"_blank\">https://aptitude.gateoverflow.in/4217/cat-1994-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4218\"></a><div itemprop=\"text\"><p>Arrange sentences A, B, C and D between sentences 1 and 6 to form a logical sequence.</p>\n\n<p>1.&nbsp; There are, moreover, unconscious aspects of our perception of reality.</p>\n\n<p>A.&nbsp; Within the mind they become psychic events.</p>\n\n<p>B.&nbsp; The first is the fact that even when our senses react to real phenomena, sights and sounds, they are somehow translated from the realm of reality.</p>\n\n<p>C.&nbsp; Not to speak of the fact that every concrete object is always unknown in certain respects.</p>\n\n<p>D. Thus every experience contains an indefinite number of unknown factors.</p>\n\n<p>6.&nbsp; The reason is, we cannot know the ultimate nature of matter itself.&nbsp;</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CBDA&nbsp;</p>",
+            "<p>BADC</p>",
+            "<p>DBAC&nbsp;</p>",
+            "<p>DABC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4218/cat-1994-question-4\" target=\"_blank\">https://aptitude.gateoverflow.in/4218/cat-1994-question-4</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4219\"></a><div itemprop=\"text\"><p>Arrange sentences A, B, C and D between sentences 1 and 6 to form a logical sequence.</p>\n\n<p>1.&nbsp; The process continued for million of years.</p>\n\n<p>A.&nbsp; Tibet, before the collision of the continents, had been a well-watered plain along the southern edge of Asia.</p>\n\n<p>B.&nbsp; Nor has this process stopped.</p>\n\n<p>C.&nbsp; On the site of the ancient sea there flow stood the highest and newest mountains in the-world.</p>\n\n<p>D.&nbsp; It was not only pushed upwards but gradually deprived of its rainfall by the young mountains and so changed into the high cold desert.</p>\n\n<p>6.&nbsp; India is still moving north at the rate of 5 centimetres a year, and each year the rocky summits of the Himalayas are a millimetre higher.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CBAD&nbsp;</p>",
+            "<p>DCBA</p>",
+            "<p>BADC&nbsp;</p>",
+            "<p>ADCB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4219/cat-1994-question-5\" target=\"_blank\">https://aptitude.gateoverflow.in/4219/cat-1994-question-5</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"4220\"></a><div itemprop=\"text\"><p>Choose the alternative which suggests a coherent paragraph.</p>\n\n<p>A. The open road still softly calls, like a nearly forgotten song of childhood.</p>\n\n<p>B. Even after 400 generations in villages and cities, we haven’t forgotten.</p>\n\n<p>C. The appeal has been meticulously crafted by natural selection as an essential element in our survival.</p>\n\n<p>D. We invest far-off places with a certain romance.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BCAD&nbsp;</p>",
+            "<p>OCAB</p>",
+            "<p>CBDA&nbsp;</p>",
+            "<p>ACDB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4220/cat-1994-question-6\" target=\"_blank\">https://aptitude.gateoverflow.in/4220/cat-1994-question-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"4221\"></a><div itemprop=\"text\"><p>Choose the alternative which suggests a coherent paragraph.</p>\n\n<p>A. The remaining chapters were written by various authors to Jung’s direction.</p>\n\n<p>B. The chapter that bears his name is his work and nobody else’s.</p>\n\n<p>C. The final editing of the complete work after Jung’s death has been done by Dr. Von Franz.</p>\n\n<p>D. It was written, incidentally, in English.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CBDA&nbsp;</p>",
+            "<p>ADBC</p>",
+            "<p>ACDB&nbsp;</p>",
+            "<p>DCBA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4221/cat-1994-question-7\" target=\"_blank\">https://aptitude.gateoverflow.in/4221/cat-1994-question-7</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"4222\"></a><div itemprop=\"text\"><p>Choose the alternative which suggests a coherent paragraph.</p>\n\n<p>A. It is beyond our powers to predict the future.</p>\n\n<p>B. Your own life, or your band’s, or even your species’ might be owed to a restless few.</p>\n\n<p>C. Long summers, mild winters, which harvests, plentiful game — none of them lasts forever.</p>\n\n<p>D. Catastrophic events have a way of sneaking up on us, of catching us unaware.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ADCB&nbsp;</p>",
+            "<p>BCDA</p>",
+            "<p>ACDB&nbsp;</p>",
+            "<p>BDCA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4222/cat-1994-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/4222/cat-1994-question-8</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"4223\"></a><div itemprop=\"text\"><p>Choose the alternative which suggests a coherent paragraph.</p>\n\n<p>A. The quintessence, for example, a lizard is only fully understandable in the light of the particular possibilities and limitations dictated by its reptilian nature.</p>\n\n<p>B. The films we made, tried to document the lives of particular animals showing how each found its food, defended itself and courted etc</p>\n\n<p>C. We seldom examined the basic character of its anatomy.</p>\n\n<p>D. One element, however, was missing.</p>\n\n</div><br><br><b>English Language: CAT 1994 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ACBD&nbsp;</p>",
+            "<p>BADC</p>",
+            "<p>ADBC&nbsp;</p>",
+            "<p>CDAB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4223/cat-1994-question-9\" target=\"_blank\">https://aptitude.gateoverflow.in/4223/cat-1994-question-9</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3957\"></a><div itemprop=\"text\"><p>Arrange the sentences in a proper sequence so as to make a coherent paragraph.</p>\n\n<p>Arrange the sentences in a proper sequence so as to make a coherent paragraph.</p>\n\n<p>A. Realists believe that there is an objective reality “out there” independent of ourselves.</p>\n\n<p>B. This reality exists solely by virtue of how the world is and is discoverable by application of the methods of science.</p>\n\n<p>C. They believe in the possibility of determining whether or not a theory is indeed really true or false.</p>\n\n<p>D. I think it is fair to say that this is the position to which most working scientists subscribe.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ACBD</p>",
+            "<p>CDBA</p>",
+            "<p>DCBA</p>",
+            "<p>BCAD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3957/cat-1995-question-26\" target=\"_blank\">https://aptitude.gateoverflow.in/3957/cat-1995-question-26</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"3958\"></a><div itemprop=\"text\"><p>Arrange the sentences in a proper sequence so as to make a coherent paragraph.</p>\n\n<p>A. There is a strong manufacturing base for a variety of products.</p>\n\n<p>B. India has come a long way on the technology front.</p>\n\n<p>C. But the technology adopted has been largely of foreign origin.</p>\n\n<p>D. There are, however, areas such as atomic energy, space, agriculture and defense where significant strides have been made in evolving relevant technologies within the country.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ADCB</p>",
+            "<p>DBAC</p>",
+            "<p>BACD​​​​​​​</p>",
+            "<p>CBAD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3958/cat-1995-question-27\" target=\"_blank\">https://aptitude.gateoverflow.in/3958/cat-1995-question-27</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"3959\"></a><div itemprop=\"text\"><p>Arrange the sentences in a proper sequence so as to make a coherent paragraph.</p>\n\n<p>A. In emission trading, the government fixes the total amount of pollution that is&nbsp;acceptable to maintain a desired level of air quality.</p>\n\n<p>B. Economists argue that this approach makes air pollution control more costeffective than the current practice of fixing air-pollution standards and expecting all companies to pollute below these standards.</p>\n\n<p>C. The USA uses emissions trading to control air pollution.</p>\n\n<p>D. It then distributes emission permits to all companies in the region, which add up to the overall acceptable level of emission.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BADC</p>",
+            "<p>ACDB</p>",
+            "<p>CBAD</p>",
+            "<p>DBAC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3959/cat-1995-question-28\" target=\"_blank\">https://aptitude.gateoverflow.in/3959/cat-1995-question-28</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"3960\"></a><div itemprop=\"text\"><p>Arrange the sentences in a proper sequence so as to make a coherent paragraph.</p>\n\n<p>A. The individual companies vary in size, from the corner grocery to the industrial giant.</p>\n\n<p>B. Policies and management methods within firms range from formal, well-planned organisations and controls to slipshod dayto-day operations.</p>\n\n<p>C. Various industries offer a wide array of products or services through millions of firms largely independent of each other.</p>\n\n<p>D. Variety in the form of ownership contributes to diversity in capital investment, volume of business, and financial structure.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DBCA</p>",
+            "<p>CADB</p>",
+            "<p>BADC</p>",
+            "<p>ADCB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3960/cat-1995-question-29\" target=\"_blank\">https://aptitude.gateoverflow.in/3960/cat-1995-question-29</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"3961\"></a><div itemprop=\"text\"><p>Arrange the sentences in a proper sequence so as to make a coherent paragraph.</p>\n\n<p>A. All levels of demand, whether individual, aggregate, local, national, or international are subject to change.</p>\n\n<p>B. At the same time, science and technology add new dimensions to products, their uses, and the methods used to market them.</p>\n\n<p>C. Aggregate demand fluctuates with changes in the level of business activity, GNP, and national income.</p>\n\n<p>D. The demands of individuals tend to vary with changing needs and rising income.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CBDA</p>",
+            "<p>DCAB</p>",
+            "<p>BCAD</p>",
+            "<p>ADCB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3961/cat-1995-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/3961/cat-1995-question-30</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"3962\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. Chichen Itza, last outpost of the Mayan civilization, was built in the heat of the arid Yucatan peninsula, unlike most of the earlier Mayan cities, which were built in rain forests.</p>\n\n<p>A. If she survived in the dark water until midday, priests hauled her out to ask what the gods had hold her</p>\n\n<p>B. In times of crisis, a maiden was hurled at dawn into the 60-ft. deep hole in the limestone rock.</p>\n\n<p>C. The city folks drank from one well and used the other as a well of sacrifice.</p>\n\n<p>D. It got its water from two wells known as cenotes, fed by underwater streams.</p>\n\n<p>6. The Mayans also threw cherished possessions into the hole-carved jade, gold, nodules of resin uses as incense, copper discs and human skeletons have all been dredged out of it.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DCBA</p>",
+            "<p>BCAD</p>",
+            "<p>CADB</p>",
+            "<p>ABCD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3962/cat-1995-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/3962/cat-1995-question-31</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"3963\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. All human beings are aware of the existence of a power greater than that of the mortals — the name given to such a power by individuals is an outcome of birth, education and choice.</p>\n\n<p>A. This power provides an anchor in times of adversity, difficulty and trouble.</p>\n\n<p>B. Industrial organisations also contribute to the veneration of this power by participating in activities such as religious ceremonies and festivities organized by the employees.</p>\n\n<p>C. Their other philanthropic contributions include the construction and maintenance of religious places such as temples or gurudwaras.</p>\n\n<p>D. Logically, therefore, such a power should be remembered in good times also.</p>\n\n<p>6. The top management/managers should participate in all such events, irrespective of their personal choice.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ADBC</p>",
+            "<p>BCAD&nbsp;</p>",
+            "<p>CADB</p>",
+            "<p>DACB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3963/cat-1995-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/3963/cat-1995-question-32</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"3964\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. Total forgiveness for a mistake committed generates a sense of complacency towards target achievement among the employees.</p>\n\n<p>A. In such a situation, the work ethos gets distorted and individuals get a feeling that they can get away with any lapse.</p>\n\n<p>B. The feeling that they develop is ‘whether I produce results or not, the management will not punish me or does not have the guts to punish me.’</p>\n\n<p>C. Also, excess laxity damages management credibility, because for a long time, the management has maintained that dysfunctional behaviour will result in punishment, and when something goes wrong, it fails to take specific punitive action.</p>\n\n<p>D. The severity of the punishment may be reduced by modifying it, but some action must be taken against the guilty so as to serve as a reminder for all others in the organisation.</p>\n\n<p>6. Moreover, it helps establish the management’s image of being firmed, fair and yet human.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DCBA</p>",
+            "<p>BADC</p>",
+            "<p>DBCA</p>",
+            "<p>CABD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3964/cat-1995-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/3964/cat-1995-question-33</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"3965\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. Currency movements can have a dramatic impact on equity returns for foreign investors.</p>\n\n<p>A. This is not surprising as many developing economies try to peg their exchange rates to the US dollar or to a basket of currencies.</p>\n\n<p>B. Many developing economies manage to keep exchange rate volatility lower than that in the industrial economics.</p>\n\n<p>C. India has also gone in for the full float on the current account and abolished the managed exchange rate.</p>\n\n<p>D. Dramatic exceptions are Argentina, Brazil, and Nigeria.</p>\n\n<p>6. Another emerging-market-specific risk is liquidity risk.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ADBC</p>",
+            "<p>CDAB</p>",
+            "<p>BDAC&nbsp;</p>",
+            "<p>CABD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3965/cat-1995-question-34\" target=\"_blank\">https://aptitude.gateoverflow.in/3965/cat-1995-question-34</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"3966\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. Managers must lead by example; they should not be averse to giving a hand in manual work, if required.</p>\n\n<p>A. They should also update their competence to guide their subordinates; this would be possible only if they keep in regular touch with new processes, machines, instruments, gauges, systems and gadgets.</p>\n\n<p>B. Work must be allocated to different groups and team members in clear, specific terms.</p>\n\n<p>C. Too much of wall-building is detrimental to the exercise of the ‘personal charisma’ of the leader whose presence should not be felt only through notices, circulars or memos, but by being seen physically.</p>\n\n<p>D. Simple, clean living among one’s people should be insisted upon.</p>\n\n<p>6. This would mean the maintaining of an updated organisation chart; laying down job descriptions; identifying key result areas; setting personal targets; and above all, monitoring of performance, to meet organisational goals.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BDAC</p>",
+            "<p>BCDA</p>",
+            "<p>ADCB</p>",
+            "<p>ACDB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3966/cat-1995-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/3966/cat-1995-question-35</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"3971\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. The top management should perceive the true worth of people and only then make friends.</p>\n\n<p>A. Such ‘true friends’ are very few and very rare.</p>\n\n<p>B. Factors such as affluence, riches, outward sophistication and conceptual abilities are not prerequisites for genuine friendship.</p>\n\n<p>C. Such people must be respected and kept close to the heart.</p>\n\n<p>D. Business realities call for developing a large circle of acquaintances and contracts; however, all of them will be motivated by their own self-interest and it would be wrong to treat them as genuine friends.</p>\n\n<p>6. There is always a need for real friends to whom one can turn for balanced, unselfish advice, more so when one is caught in a dilemma.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ABCD</p>",
+            "<p>ADBC</p>",
+            "<p>ABDC</p>",
+            "<p>ACBD</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3971/cat-1995-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/3971/cat-1995-question-36</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"3972\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. Conflicting demands for resources are always voiced by different functions/departments in an organisation.</p>\n\n<p>A. Every manager examines the task entrusted to him and evaluates the resources required.</p>\n\n<p>B. Availability of resources in full measure makes task achievement easy, because it reduces the effort needed to somehow make-do.</p>\n\n<p>C. A safety cushion is built into demand for resources, to offset the adverse impact of any cut imposed by the seniors.</p>\n\n<p>D. This aspect needs to be understood as the reality.</p>\n\n<p>6. Dynamic, energetic, growth-oriented and wise managements are always confronted with the inadequacy of resources with respect to one of the four M’s (men, machines, money and materials) and the two T’s (time and technology).</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DABC</p>",
+            "<p>ACBD</p>",
+            "<p>ABCD</p>",
+            "<p>BCDA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3972/cat-1995-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/3972/cat-1995-question-37</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"3973\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. The Ethiopians, who believe that they are God’s chosen people have a special legend to justify their confidence.</p>\n\n<p>A. According to the legend, God molded the first man from clay.</p>\n\n<p>B. He took the second burnt and black, so he threw them away to the South of Africa.</p>\n\n<p>C. He took the second batch out too soon and they were pasty and white, so he threw them away to the North, where they became Arabs and Europeans.</p>\n\n<p>D. He put the first batch in the oven to bake but left them too long.</p>\n\n<p>6. The third batch came out just right and he put them in Ethiopia.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ADBC</p>",
+            "<p>DCBA</p>",
+            "<p>BACD</p>",
+            "<p>CBDA</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3973/cat-1995-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/3973/cat-1995-question-38</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"3974\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. According to Greek myth, Pandora was the first woman.</p>\n\n<p>A. Only hope was left.</p>\n\n<p>B. She was sent to the rebellious Zeus as a punishment for mankind&nbsp;</p>\n\n<p>C. She was given a box to take with her, with instructions not to open it.</p>\n\n<p>D. Because she was curious, she disobeyed, opened the box and all the evils of the world flew out.</p>\n\n<p>6. Pandora’s box has since become a symbol for any action whose consequences are dangerously unpredictable.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DCBA</p>",
+            "<p>ABCD</p>",
+            "<p>BCDA</p>",
+            "<p>CADB</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3974/cat-1995-question-39\" target=\"_blank\">https://aptitude.gateoverflow.in/3974/cat-1995-question-39</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"3975\"></a><div itemprop=\"text\"><p>Arrange sentences A B, C, and D between sentences 1 and 6, so as to form a logical sequence of six sentences.</p>\n\n<p>1. Despite the passage of time, a large number of conflicts continue to remain alive, because the wronged parties, in reality or in imagination, wish to take revenge upon each other, thus creating a vicious circle.</p>\n\n<p>A. At times, managers are called upon to take ruthless decisions in the long-term interests of the organisation.</p>\n\n<p>B. People hurt others, at times knowingly, to teach them a lesson and, at other times, because they lack correct understanding of the other person have stand.</p>\n\n<p>C. The delegation of any power, to any person, is never absolute.</p>\n\n<p>D. Every ruthless decision will be easier to accept if the situation at the moment of committing the act is objectively analyzed, shared openly and discussed rationally.</p>\n\n<p>6. if power is misused, its effects can last only for a while, since employees are bound to confront it someday, more so, the talented ones.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BCAD</p>",
+            "<p>ADBC</p>",
+            "<p>DABC</p>",
+            "<p>BADC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3975/cat-1995-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/3975/cat-1995-question-40</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"6927\"></a><div itemprop=\"text\"><p>Before the printing press, books could be purchased only in expensive manuscript copies. The printing press produced books that were significantly less expensive than the manuscript editions. The public’s demand for printed books in the first years after the invention of printing press was many times greater than demand had been for manuscript copies. This increase demonstrates that there was a dramatic jump in the number of people who learned how to read in the years after publishers&nbsp;first started producing books on the printing press. Which one of the following statements, if true, casts doubt on the argument?</p>\n\n</div><br><br><b>English Language: NIELIT 2016 MAR Scientist D: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>During the first years after the&nbsp;invention of printing press, letter writing by people who wrote without the assistance of scribes or clerks exhibited a dramatic incerase.</p>",
+            "<p>Books produced on the printing press are often found with written comments in the margins in the handwriting of the people who owned the books.</p>",
+            "<p>In the first years after the printing press was invented, printed books were purchased primarily by people who had always bought and read expensive manuscripts but could afford a greater number of printed books for the same money.</p>",
+            "<p>Books that were printed on the printing press in the first years after its invention often circulated among friends in informal reading clubs or libraries.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6927/nielit-2016-mar-scientist-d-56\" target=\"_blank\">https://aptitude.gateoverflow.in/6927/nielit-2016-mar-scientist-d-56</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"6926\"></a><div itemprop=\"text\"><p>Bevex, an artificial sweetener used only in the soft drinks, is carcinogenic for mice, but only when it is consumed in very large quantities. To ingest an amount of Bevex&nbsp;equivalent to the amount fed to the mice in the relevant studies, a person would have to drink \\( 25 \\) cans of Bevex&nbsp;sweetened soft drinks per day. For that reason, Bevex is in fact safe for people.</p>\n\n<p>In order for the conclusion that Bevex is safe for people to be properly drawn, which one of the following must be true?</p>\n\n</div><br><br><b>English Language: NIELIT 2016 MAR Scientist D: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Cancer from carcinogenic substances develops more slowly in mice than it does in people.</p>",
+            "<p>If all food additives that are currently used in foods were tested, some would be found to be carcinogenic for mice.</p>",
+            "<p>People drink fewer than \\( 25 \\) cans of Bevex-sweetened soda per day.</p>",
+            "<p>People can obtain important health benefits by controlling their weight through the use of artificially sweetened soft drinks.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6926/nielit-2016-mar-scientist-d-57\" target=\"_blank\">https://aptitude.gateoverflow.in/6926/nielit-2016-mar-scientist-d-57</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"6923\"></a><div itemprop=\"text\"><p>Many environmentalists have urged environmental awareness on consumers, saying that if we accept moral responsibility for our effects on the environment, then products that directly or indirectly harm the environment ought to be avoided. Unfortunately it is usually impossible for consumers to assess the environmental impact of a product, and thus impossible for them to consciously restrict their purchases to environmentally benign products. Because of this impossibility there can be no moral duty to choose products in the way these environmentalists urge, since __________.&nbsp;</p>\n\n<p>Which one of the following principles provides the most appropriate completion for the argument?</p>\n\n</div><br><br><b>English Language: NIELIT 2016 MAR Scientist D: 60</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>a moral duty to perform an action is never based solely on the effects the action will have on other people</p>",
+            "<p>a person cannot possibly have a moral duty to do what he or she is unable to do</p>",
+            "<p>moral considerations should not be the sole determinants of what products are made available to consumers</p>",
+            "<p>the morally right action is always the one whose effects produce the least total harm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6923/nielit-2016-mar-scientist-d-60\" target=\"_blank\">https://aptitude.gateoverflow.in/6923/nielit-2016-mar-scientist-d-60</a></p>"
+        }
+      ]
+    }
+  ]
+});

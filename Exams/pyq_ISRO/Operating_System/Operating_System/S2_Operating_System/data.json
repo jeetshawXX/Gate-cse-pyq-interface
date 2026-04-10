@@ -1,0 +1,236 @@
+{
+  "title": "Operating_System - Operating_System - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Determine the number of page faults when references to pages occur in the order 1,2,4,5,2,1,2,4. Assume that the main memory can accommodate 3 pages and the main memory already has the pages 1 and 2, with page 1 brought earlier than page 2. (assume LRU i.e., Least-Recently-Used algorithm is applied) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213426/isro2018-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The difference between a named pipe and a regular file in Unix is that <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unlike a regular file, named pipe is a special file</p>",
+            "<b>B.</b> <p>The data in a pipe is transient, unlike the content of a regular file</p>",
+            "<b>C.</b> <p>Pipes forbid random accessing, while regular files do allow this.</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213575/isro2018-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following C program:<br><pre><code> {\n    fork(); fork(); printf(\"yes\");\n    \n}</code></pre>If we execute this core segment, how many times the string yes will be printed? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only once</p>",
+            "<b>B.</b> <p>2 times</p>",
+            "<b>C.</b> <p>4 times</p>",
+            "<b>D.</b> <p>8 times</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213584/isro2018-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statement is true? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hard real time OS has less jitter than soft real time OS</p>",
+            "<b>B.</b> <p>Hard real time OS has more jitter than soft real time OS</p>",
+            "<b>C.</b> <p>Hard real time OS has equal jitter as soft real time OS</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Hard real time OS has less jitter than soft real time OS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128776/isro2017-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The Linux command<br><pre><code> mknod myfifo b 4 16</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>will create a character device if user is root</p>",
+            "<b>B.</b> <p>will create a named pipe FIFO if user is root</p>",
+            "<b>C.</b> <p>will create a block device if user is root</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>will create a block device if user is root</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128774/isro2017-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>At a particular time the value of counting semaphore is 10. It will become 7 after: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 V operations</p>",
+            "<b>B.</b> <p>3 P operations</p>",
+            "<b>C.</b> <p>5 V operations and 2 P operations</p>",
+            "<b>D.</b> <p>2 V operations and 5 P operations</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3 P operations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128491/isro2017-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A critical region <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is a piece of code which only one process executes at a time</p>",
+            "<b>B.</b> <p>is a region prone to deadlock</p>",
+            "<b>C.</b> <p>is a piece of code which only a finite number of processes execute</p>",
+            "<b>D.</b> <p>is found only in windows NT operating system</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>is a piece of code which only one process executes at a time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128764/isro2017-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the disk system with 100 cylinders. The request to access the cylinders occur in the following sequence.<br>4, 37, 10,7,19,73,2,15,6,20<br>Assuming the head is currently at cylinder 50 what is the time taken to satisfy all requests if it takes 1 ms to move from one cylinder to adjacent one and shortest seek ime first algorithm is used. <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>95 ms</p>",
+            "<b>B.</b> <p>119 ms</p>",
+            "<b>C.</b> <p>233 ms</p>",
+            "<b>D.</b> <p>276 ms</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>119 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128760/isro2017-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Mutual exclusion problem occurs <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>between two disjoint processes that do not interact</p>",
+            "<b>B.</b> <p>among processes that share resources</p>",
+            "<b>C.</b> <p>among processes that do not use the same resource</p>",
+            "<b>D.</b> <p>between two processes that uses different resources of different machine</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>among processes that share resources</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128711/isro2017-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Given reference to the following pages by a program<br>0,9,0,1,8,1,8,7,8,7,1,2,8,2,7,8,2,3,8,3<br>How many page faults will occur if the program has three page frames available to it and uses an optimal replacement? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128704/isro2017-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Wha is the output of the following program?<br><pre><code> main()\n{\n    int a = 10;\n    if(fork()) == 0))\n        a++;\n    printf(\"%d\\n\",a);  \n}</code></pre><br> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 and 11</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>11 and 11</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10 and 11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128699/isro2017-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What problem is solved by Dijikstra banker' algorithm? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion</p>",
+            "<b>B.</b> <p>Deadlock recovery</p>",
+            "<b>C.</b> <p>Deadlock avoidance</p>",
+            "<b>D.</b> <p>Cache coherence</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Deadlock avoidance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128692/isro2017-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In which one of the following page replacement policies, Belady's anomaly may occur? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FIFO</p>",
+            "<b>B.</b> <p>Optimal</p>",
+            "<b>C.</b> <p>LRU</p>",
+            "<b>D.</b> <p>MRU</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1301/gate2009-9-isro2016-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>For the real time operating system, which of the following is the most suitable scheduling scheme? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Round robin</p>",
+            "<b>B.</b> <p>First come first serve</p>",
+            "<b>C.</b> <p>Pre-emptive</p>",
+            "<b>D.</b> <p>Random scheduling</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Pre-emptive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56038/isro2016-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative. The minimum size of the TLB tag is: <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11 bits</p>",
+            "<b>B.</b> <p>13 bits</p>",
+            "<b>C.</b> <p>15 bits</p>",
+            "<b>D.</b> <p>20 bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1840/gate2006-62-isro2016-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

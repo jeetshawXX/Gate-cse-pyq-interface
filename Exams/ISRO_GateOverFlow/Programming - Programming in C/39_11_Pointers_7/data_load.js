@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Pointers",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Pointers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1343\"></a><div itemprop=\"text\"><p>What does the following C-statement declare?</p>\n\n<pre class=\"c_cpp\">int (*f) (int * );</pre>\n\n</div><br><br><b>Programming in C: GATE CSE 2005 | Question: 1, ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A function that takes an integer pointer as argument and returns an integer</p>",
+            "<p>A function that takes an integer as argument and returns an integer pointer</p>",
+            "<p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+            "<p>A function that takes an integer pointer as argument and returns a function pointer</p>"
+          ],
+          "correct_answer": "<p>A pointer to a function that takes an integer pointer as argument and returns an integer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1343/gate-cse-2005-question-1-isro2017-55\" target=\"_blank\">https://gateoverflow.in/1343/gate-cse-2005-question-1-isro2017-55</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"17420\"></a><div itemprop=\"text\"><p>Which of the following is true with respect to Reference?</p>\n\n</div><br><br><b>Programming in C: ISRO CSE 2014 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A reference can never be NULL</p>",
+            "<p>A reference needs an explicit dereferencing mechanism</p>",
+            "<p>A reference can be reassigned after it is established</p>",
+            "<p>A reference and pointer are synonymous</p>"
+          ],
+          "correct_answer": "<p>A reference can never be NULL</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17420/isro-cse-2014-question-13\" target=\"_blank\">https://gateoverflow.in/17420/isro-cse-2014-question-13</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55468\"></a><div itemprop=\"text\">\n<p>What is the output of this C &nbsp;code?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\nvoid main()\n{\n    int k=5;\n    int *p=&amp;k;\n    int **m=&amp;p;\n    printf(\"%d %d %d\",k,*p,**m);\n    \n}</pre>\n\n\n</div><br><br><b>Programming in C: ISRO CSE 2016 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>5 5 5&nbsp;</p>",
+            "<p>5 5 junk</p>",
+            "<p>5 junk junk</p>",
+            "<p>compile time error</p>"
+          ],
+          "correct_answer": "<p>5 5 5&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55468/isro-cse-2016-question-20\" target=\"_blank\">https://gateoverflow.in/55468/isro-cse-2016-question-20</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55481\"></a><div itemprop=\"text\"><p>What will be output of the following program? Assume that you are running this program in little-endian processor.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\nint main()\n{\n    short a=320;\n    char *ptr;\n    ptr=(char *)&amp;a;\n    printf(\"%d\",*ptr);\n    return 0;\n}</pre>\n\n</div><br><br><b>Programming in C: ISRO CSE 2016 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>1</p>",
+            "<p>320</p>",
+            "<p>64</p>",
+            "<p>Compilation error</p>"
+          ],
+          "correct_answer": "<p>64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55481/isro-cse-2016-question-25\" target=\"_blank\">https://gateoverflow.in/55481/isro-cse-2016-question-25</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"331225\"></a><div itemprop=\"text\"><p>What is output of the following ‘C’ code assuming it runs on a byte addressed little endian machine?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint main()\n{\n    int x;\n    char *ptr;\n    x=622,100,101;\n    printf(\"%d\",(*(char *)&amp;x)*(x%3));\n    return 0;\n}</pre>\n\n</div><br><br><b>Programming in C: ISRO CSE 2020 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 622 \\)</p>",
+            "<p>\\( 311 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 110 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 110 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331225/isro-cse-2020-question-62\" target=\"_blank\">https://gateoverflow.in/331225/isro-cse-2020-question-62</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"331226\"></a><div itemprop=\"text\"><p>What is the output&nbsp;in a \\( 32 \\) bit machine with \\( 32 \\) bit compiler?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nrer(int **ptr2, int **ptr1)\n{\n    int *ii;\n    ii=*ptr2;\n    *ptr2=*ptr1;\n    *ptr1=ii;\n    **ptr1*=**ptr2;\n    **ptr2+=**ptr1;\n}\nvoid main(){\n    int var1=5, var2=10;\n    int *ptr1=&amp;var1,*ptr2=&amp;var2;\n    rer(&amp;ptr1,&amp;ptr2);\n    printf(\"%d %d\",var2,var1);\n}</pre>\n\n</div><br><br><b>Programming in C: ISRO CSE 2020 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 60,70 \\)</p>",
+            "<p>\\( 50,50 \\)</p>",
+            "<p>\\( 50,60 \\)</p>",
+            "<p>\\( 60,50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 60,50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331226/isro-cse-2020-question-63\" target=\"_blank\">https://gateoverflow.in/331226/isro-cse-2020-question-63</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"19444\"></a><div itemprop=\"text\">\n<p>Consider the following declaration:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">  int a, *b=&amp;a, **c=&amp;b;</pre>\n\n<p><span style=\"line-height: 1.6;\">The following program fragment</span></p>\n\n<pre class=\"prettyprint lang-c_cpp\">  a=4;    **c=5;</pre>\n\n\n</div><br><br><b>Programming in C: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>does not change the value of a</p>",
+            "<p>assigns address of \\( c \\) to \\( a \\)</p>",
+            "<p>assigns the value of \\( b \\) to \\( a \\)</p>",
+            "<p>assigns \\( 5 \\) to \\( a \\)</p>"
+          ],
+          "correct_answer": "<p>assigns \\( 5 \\) to \\( a \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19444/isro2015-72\" target=\"_blank\">https://gateoverflow.in/19444/isro2015-72</a></p>"
+        }
+      ]
+    }
+  ]
+});

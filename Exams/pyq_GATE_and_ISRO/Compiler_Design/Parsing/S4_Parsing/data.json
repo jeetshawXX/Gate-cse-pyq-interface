@@ -1,0 +1,236 @@
+{
+  "title": "Parsing - Parsing - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Parsing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An LALR(1) parser for a grammar G can have shift-reduce (S-R) conflicts if and\nonly if <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The SLR(1) parser for G has S-R conflicts</p>",
+            "<b>B.</b> <p>The LR(1) parser for G has S-R conflicts</p>",
+            "<b>C.</b> <p>The LR(0) parser for G has S-R conflicts</p>",
+            "<b>D.</b> <p>The LALR(1) parser for G has reduce-reduce conflicts</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The LR(1) parser for G has S-R conflicts</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/478/gate2008-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Match the following: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Parsing\\q51_b2e86863.jpg\"> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>E - P, F - R, G - Q, H - S</p>",
+            "<b>B.</b> <p>E - R, F - P, G - S, H - Q</p>",
+            "<b>C.</b> <p>E - R, F - P, G - Q, H - S</p>",
+            "<b>D.</b> <p>E - P, F - R, G - S, H - Q</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>E - R, F - P, G - Q, H - S</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/463/gate2008-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following describes a handle (as applicable to LR-parsing) appropriately? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is the position in a sentential form where the next shift or reduce operation\nwill occur</p>",
+            "<b>B.</b> <p>It is non-terminal whose production will be used for reduction in the next step</p>",
+            "<b>C.</b> <p>It is a production that may be used for reduction in a future step along with a\nposition in the sentential form where the next shift or reduce operation will occur</p>",
+            "<b>D.</b> <p>It is the production p that will be used for reduction in the next step along with a position in the sentential form where the right hand side of the production may be found</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It is the production p that will be used for reduction in the next step along with a position in the sentential form where the right hand side of the production may be found</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/409/gate2008-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following grammars. Names representing terminals have been specified in capital letters.<br>\\(\\begin{array}{llll}\\hline \\text{$G1$ :} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{WHILE (expr) stmnt} \\\\ \\text{} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{OTHER} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{ID} \\\\\\hline \\text{ $G2$ :} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{WHILE (expr) stmnt} \\\\ \\text{} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{OTHER} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{expr $+$ expr} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{expr $*$ expr} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{ID} \\\\\\hline \\end{array}\\)<br>Which one of the following statements is true? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(G_1\\) is context-free but not regular and \\(G_2\\) is regular</p>",
+            "<b>B.</b> <p>\\(G_2\\) is context-free but not regular and \\(G_1\\) is regular</p>",
+            "<b>C.</b> <p>Both \\(G_1\\) and \\(G_2\\) are regular</p>",
+            "<b>D.</b> <p>Both \\(G_1\\) and \\(G_2\\) are context-free but neither of them is regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both \\(G_1\\) and \\(G_2\\) are context-free but neither of them is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3491/gate2007-it-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the grammar given below:<br>\\(S \\rightarrow x \\ B \\mid y \\ A\\)<br>\n\\(A \\rightarrow x \\mid x \\ S \\mid y \\ A \\ A\\)<br>\n\\(B \\rightarrow y \\mid y \\ S \\mid x \\ B \\ B\\)<br><br>\nConsider the following strings.<br>\ni.   xxyyx<br>\nii.  xxyyxy<br>\niii. xyxy<br>\niv.  yxxy<br>\nv.   yxx<br>\nvi.  xyx<br>\nWhich of the above strings are generated by the grammar ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i, ii and iii</p>",
+            "<b>B.</b> <p>ii, v and vi</p>",
+            "<b>C.</b> <p>ii, iii and iv</p>",
+            "<b>D.</b> <p>i, iii and iv</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>ii, iii and iv</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3490/gate2007-it-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider an ambiguous grammar G and its disambiguated version D. Let the language recognized by the two grammars be denoted by L(G) and L(D) respectively. Which one of the following is true? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L (D) \\subset L (G)\\)</p>",
+            "<b>B.</b> <p>\\(L (D) \\supset L (G)\\)</p>",
+            "<b>C.</b> <p>L (D) = L (G)</p>",
+            "<b>D.</b> <p>L (D) is empty</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>L (D) = L (G)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3442/gate2007-it-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the CFG with {S, A,B} as the non-terminal alphabet, {a,b} as the terminal\nalphabet, S as the start symbol and the following set of production rules:  <br> S\\(\\rightarrow\\) aB S\\(\\rightarrow\\)bA <br>\nB\\(\\rightarrow\\) b A \\(\\rightarrow\\)a <br>\nB\\(\\rightarrow\\) bS A \\(\\rightarrow\\)aS <br>\nB\\(\\rightarrow\\) aBB S \\(\\rightarrow\\)bAA    <br> <br>  For the string \"aabbab\", how many derivation trees are there? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43512/gate2007-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the CFG with {S, A,B} as the non-terminal alphabet, {a,b} as the terminal\nalphabet, S as the start symbol and the following set of production rules:  <br> S\\(\\rightarrow\\) aB S\\(\\rightarrow\\)bA <br>\nB\\(\\rightarrow\\) b A \\(\\rightarrow\\)a <br>\nB\\(\\rightarrow\\) bS A \\(\\rightarrow\\)aS <br>\nB\\(\\rightarrow\\) aBB S \\(\\rightarrow\\)bAA    <br> <br>    Which of the following strings is generated by the grammar? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>aaaabb</p>",
+            "<b>B.</b> <p>aabbbb</p>",
+            "<b>C.</b> <p>aabbab</p>",
+            "<b>D.</b> <p>abbbba</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>aabbab</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1272/gate2007-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the grammar with non-terminals N={\\(S,C,S_1\\)}, terminals\nT={a,b,i,t,e}, with S as the start symbol, and the following set of rules: <br><br>\n\\(S\\rightarrow iCtSS_{1}|a \\) <br> \\(S_{1}\\rightarrow eS|\\epsilon  \\)<br> \\(C \\rightarrow b\\)<br><br>\nThe grammar is NOT LL(1) because: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it is left recursive</p>",
+            "<b>B.</b> <p>it is right recursive</p>",
+            "<b>C.</b> <p>it is ambiguous</p>",
+            "<b>D.</b> <p>it is not context-free.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>it is ambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1250/gate2007-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following is a top-down parser? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recursive descent parser.</p>",
+            "<b>B.</b> <p>Operator precedence parser</p>",
+            "<b>C.</b> <p>An LR(k) parser</p>",
+            "<b>D.</b> <p>An LALR(k) parser</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Recursive descent parser.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1216/gate2007-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The grammar <br><br> S\\(\\rightarrow\\)AC|CB <br> C\\(\\rightarrow\\)aCb|\\(\\varepsilon\\)        <br>A\\(\\rightarrow\\)aA|a      <br>B\\(\\rightarrow\\)Bb|b <br><br> generates the language \\(L=\\{a^{i}b^{j}|i\\neq j\\}\\) , what is the length of the derivation (number of steps starting from S) to generate the string \\(a^{l}b^{m} \\) with \\(l \\neq m\\)? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(l,m)+2</p>",
+            "<b>B.</b> <p>l+m+2</p>",
+            "<b>C.</b> <p>l+m+3</p>",
+            "<b>D.</b> <p>max(l,m)+3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>max(l,m)+2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/79801/gate2006-85#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following grammars generates the language <br> \\(L=\\{a^{i}b^{j}|i\\neq j\\}\\) <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Parsing\\q84_2026e286.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1856/gate2006-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following translation scheme. <br>\nS \\(\\rightarrow\\) ER <br>\nR  \\(\\rightarrow\\)* E{print('*');}R|\\(\\varepsilon\\) <br>\nE\\(\\rightarrow\\)F+E{print('+');}|F <br>\nF\\(\\rightarrow\\)(S)|id{print(id.value);} <br>\nHere id is a taken that represents an integer and id.value represents the\ncorresponding integer value. For an input '2*3+4', this translation scheme prints <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2*3+4</p>",
+            "<b>B.</b> <p>2*+34</p>",
+            "<b>C.</b> <p>23*4+</p>",
+            "<b>D.</b> <p>234+*</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>234+*</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1837/gate2006-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following grammar <br>\nS \\(\\rightarrow\\) FR <br>\nR \\(\\rightarrow\\)* S | \\(\\varepsilon\\) <br>\nF \\(\\rightarrow\\) id <br>\nIn the predictive parser table, M, of the grammar the entries M[S, id] and M[R,$]\nrespectively <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{S \\(\\rightarrow\\) FR} and {R \\(\\rightarrow \\varepsilon\\) }</p>",
+            "<b>B.</b> <p>{S \\(\\rightarrow\\) FR} and {}</p>",
+            "<b>C.</b> <p>{S \\(\\rightarrow\\) FR} and {R \\(\\rightarrow\\) * S}</p>",
+            "<b>D.</b> <p>{F \\(\\rightarrow\\) id} and {R \\(\\rightarrow \\varepsilon\\) }</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>{S \\(\\rightarrow\\) FR} and {R \\(\\rightarrow \\varepsilon\\) }</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1836/gate2006-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following grammar. <br>\nS \\(\\rightarrow\\) S * E <br>\nS \\(\\rightarrow\\) E <br>\nE \\(\\rightarrow\\) F + E <br>\nE \\(\\rightarrow\\) F   <br>                                                                                                F F \\(\\rightarrow\\) id <br>\nConsider the following LR(0) items corresponding to the grammar above. <br>\n(i) S \\(\\rightarrow\\) S * .E<br>\n(ii) E \\(\\rightarrow\\) F. + E<br>\n(iii) E \\(\\rightarrow\\) F + .E<br>\nGiven the items above, which two of them will appear in the same set in the\ncanonical sets-of-items for the grammar? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (ii)</p>",
+            "<b>B.</b> <p>(ii) and (iii)</p>",
+            "<b>C.</b> <p>(i) and (iii)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/886/gate2006-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

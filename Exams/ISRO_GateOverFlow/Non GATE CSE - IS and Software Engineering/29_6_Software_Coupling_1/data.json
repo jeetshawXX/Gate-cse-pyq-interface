@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Software Coupling",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Coupling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"45561\"></a><div itemprop=\"text\">\n<p>Which of the following types of coupling has the weakest coupling?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Pathological coupling</p>",
+            "<p>Control coupling</p>",
+            "<p>Data coupling</p>",
+            "<p>Message coupling</p>"
+          ],
+          "correct_answer": "<p>Message coupling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45561/isro-2013-67\" target=\"_blank\">https://gateoverflow.in/45561/isro-2013-67</a></p>"
+        }
+      ]
+    }
+  ]
+}

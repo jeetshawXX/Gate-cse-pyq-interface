@@ -1,0 +1,41 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Curves",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Curves",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411871\"></a><div itemprop=\"text\"><p>In the given diagram, ovals are marked at different heights \\( (h) \\) of a hill. Which one of the following options \\( \\mathbf{P}, \\mathbf{Q}, \\mathbf{R} \\), and \\( \\mathbf{S} \\) depicts the top view of the hill?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___curves/3ab123f0bfaf51206517c5a9e49b4d0f.png\" width=\"450\"></p>\n\n</div><br><br><b>GATE IN 2023 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathbf{P} \\)</p>",
+            "<p>\\( \\mathbf{Q} \\)</p>",
+            "<p>\\( \\mathbf{R} \\)</p>",
+            "<p>\\( \\mathbf{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathbf{Q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411871/gate-in-2023-ga-question-5\" target=\"_blank\">https://gateoverflow.in/411871/gate-in-2023-ga-question-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"359520\"></a><div itemprop=\"text\"><p>Select the graph that schematically represents BOTH&nbsp;\\( y=x^{m}\\:\\text{and}\\:y=x^{1/m} \\) properly in the&nbsp;interval&nbsp;\\( 0\\leq x \\leq 1 \\), for integer values of \\( m, \\)&nbsp;where \\( m &gt; 1. \\)</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>GATE Mechanical 2020 Set 1 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"284\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___curves/b2074d4c38e04fa006f46561b594d438.png\" width=\"261\"></p>",
+            "<p><img alt=\"\" height=\"271\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___curves/94d86b08f27e62d00f1fb20403bbf99b.png\" width=\"249\"></p>",
+            "<p><img alt=\"\" height=\"263\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___curves/2425895f24dc19746462fe20bea0590a.png\" width=\"243\"></p>",
+            "<p><img alt=\"\" height=\"270\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___curves/7574bc75413f3e40ad92a9f22ffd38f9.png\" width=\"249\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"284\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___curves/b2074d4c38e04fa006f46561b594d438.png\" width=\"261\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359520/gate-mechanical-2020-set-1-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359520/gate-mechanical-2020-set-1-ga-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

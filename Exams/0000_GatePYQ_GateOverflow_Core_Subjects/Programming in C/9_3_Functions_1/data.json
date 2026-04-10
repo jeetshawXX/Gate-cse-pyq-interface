@@ -1,0 +1,26 @@
+{
+  "title": "Programming in C - Functions",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"422894\"></a><div itemprop=\"text\"><p>Consider the following \\( \\text{C} \\) program. Assume parameters to a function are evaluated from<em> right to left.</em></p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include &lt;stdio.h&gt;\n\nint g(int p) { printf(\"%d\", p); return p; }\n\nint h(int q) { printf(\"%d\", q); return q; }\n\nvoid f(int x, int y) {\n\ng(x);\n\nh(y);\n\n}\n\nint main() {\n\nf(g(10), h(20));\n\n}</pre><p>Which one of the following options is the CORRECT output of the above \\( \\text{C} \\) program?</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20101020 \\)</p>",
+            "<p>\\( 10202010 \\)</p>",
+            "<p>\\( 20102010 \\)</p>",
+            "<p>\\( 10201020 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20101020 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422894/gate-cse-2024-set-2-question-3\" target=\"_blank\">https://gateoverflow.in/422894/gate-cse-2024-set-2-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

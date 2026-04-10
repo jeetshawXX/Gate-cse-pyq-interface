@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Stack",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Stack",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"95679\"></a><div itemprop=\"text\"><p>We have an implementation that supports the following operations on a stack (in the instructions below, \\( \\mathsf{s} \\) is the name of the stack).</p>\n\n<ul>\n\t<li>\\( \\mathsf{isempty(s)} \\) : returns \\( \\mathsf{True} \\) if \\( \\mathsf{s} \\) is empty, and \\( \\mathsf{False} \\) otherwise.</li>\n\t<li>\\( \\mathsf{top(s)} \\) : returns the top element of the stack, but does not pop the stack; returns&nbsp;\\( \\mathsf{null} \\) if&nbsp;the stack is empty.</li>\n\t<li>\\( \\mathsf{push(s,x)} \\) : places&nbsp;\\( \\mathsf{x} \\) on top of the stack.</li>\n\t<li>\\( \\mathsf{pop(s)} \\) : pops the stack; does nothing if&nbsp;\\( \\mathsf{s} \\) is empty.</li>\n</ul>\n\n<p>Consider the following code:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">pop_ray_pop(x):\n    s=empty\n    for i=1 to length(x):\n        if (x[i] == '('):\n            push(s, x[i])\n        else:\n            while (top(s)=='('):\n                pop(s)\n            end while\n            push(s, ')')\n        end if\n    end for\n    while not isempty(s):\n        print top(s)\n        pop(s)\n    end while</pre>\n\n<p>What is the output of this program when</p>\n\n<pre class=\"prettyprint lang-c_cpp\">pop_ray_pop(\"(((()((())((((\")</pre>\n\n<p>is executed?</p>\n\n</div><br><br><b>Data Structures: TIFR CSE 2017 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (((( \\)</p>",
+            "<p>\\( ))) \\ (((( \\)</p>",
+            "<p>\\( ))) \\)</p>",
+            "<p>\\( (((())) \\)</p>",
+            "<p>\\( ()() \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (((())) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95679/tifr-cse-2017-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/95679/tifr-cse-2017-part-b-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

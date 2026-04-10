@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Data Communication",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Data Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366931\"></a><div itemprop=\"text\"><p>The bit rate of digital communication&nbsp;system is \\( \\text{R kbit/s}. \\) The modulation used is \\( 32 –&nbsp;\\text{QAM}. \\) The minimum bandwidth required for \\( \\text{ISI} \\) free transmission is \\( : \\)</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{R}/10 \\; \\text{Hz} \\)</p>",
+            "<p>\\( \\text{R}/10 \\; \\text{kHz} \\)</p>",
+            "<p>\\( \\text{R}/5&nbsp;\\; \\text{Hz} \\)</p>",
+            "<p>\\( \\text{R}/5&nbsp;\\; \\text{kHz} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{R}/10 \\; \\text{kHz} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366931/nielit-2021-dec-scientist-b-section-b-86\" target=\"_blank\">https://gateoverflow.in/366931/nielit-2021-dec-scientist-b-section-b-86</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351568\"></a><div itemprop=\"text\"><p>A special \\( PCM \\) system uses \\( 32 \\) channels of data, one whose purpose is an identification (ID) and synchronization. The sampling rate is \\( 4 \\) kHz. The word length is \\( 5 \\) bits. Find the serial data rate.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 114</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1280\\;kHz \\)</p>",
+            "<p>\\( 160\\;kHz \\)</p>",
+            "<p>\\( 320&nbsp;\\;kHz \\)</p>",
+            "<p>\\( 640&nbsp;\\;kHz \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 640&nbsp;\\;kHz \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351568/nielit-scientist-b-2020-november-114\" target=\"_blank\">https://gateoverflow.in/351568/nielit-scientist-b-2020-november-114</a></p>"
+        }
+      ]
+    }
+  ]
+}

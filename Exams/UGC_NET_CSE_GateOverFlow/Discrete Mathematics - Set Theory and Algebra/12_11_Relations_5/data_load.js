@@ -1,0 +1,81 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Relations",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Relations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152685\"></a><div itemprop=\"text\">If she is my friend and you are her friend, then we are friends. Given this, the friend relationship in this context is ____________.<br>\n<br>\n(i) commutative (ii) transitive (iii) implicative (iv) equivalence<br>\n<br>\n(A) (i) and (ii)<br>\n<br>\n(B) (iii)<br>\n<br>\n(C) (i), (ii), (iii) and (iv)<br>\n<br>\n(D) None of these</div><br><br><b>Set Theory & Algebra: UGC NET CSE | December 2009 | Part 2 | Question: 01</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152685/ugc-net-cse-december-2009-part-2-question-01\" target=\"_blank\">https://gateoverflow.in/152685/ugc-net-cse-december-2009-part-2-question-01</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"57078\"></a><div itemprop=\"text\"><p>Suppose that \\( R_1 \\) and \\( R_2 \\) are reflecive relations on a set A. Which of the following statements is correct?</p>\n\n\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | July 2016 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R_1 \\cap R_2 \\) is reflexive and \\( R_1 \\cup R_2 \\) is irreflexive</p>",
+            "<p>\\( R_1 \\cap R_2 \\) is irreflexive and \\( R_1 \\cup R_2 \\) is reflexive</p>",
+            "<p>Both&nbsp;\\( R_1 \\cap R_2 \\) and \\( R_1 \\cup R_2 \\) are&nbsp;reflexive</p>",
+            "<p>Both&nbsp;\\( R_1 \\cap R_2 \\) and \\( R_1 \\cup R_2 \\) are irreflexive</p>"
+          ],
+          "correct_answer": "<p>Both&nbsp;\\( R_1 \\cap R_2 \\) and \\( R_1 \\cup R_2 \\) are&nbsp;reflexive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57078/ugc-net-cse-july-2016-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/57078/ugc-net-cse-july-2016-part-2-question-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335460\"></a><div itemprop=\"text\"><p>The transitive closure of a relation \\( R \\) on set \\( A \\) whose relation matrix \\( \\begin{bmatrix}<br>\n0 &amp; 1 &amp; 0\\\\&nbsp;<br>\n0 &amp; 0 &amp; 1 \\\\&nbsp;<br>\n1 &amp; 0 &amp; 0<br>\n\\end{bmatrix} \\) is :</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Set Theory & Algebra: UGC NET CSE | June 2005 | Part 2 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\begin{bmatrix}<br>\n\t0 &amp; 1 &amp; 0\\\\&nbsp;<br>\n\t0 &amp; 0 &amp; 1 \\\\&nbsp;<br>\n\t1 &amp; 0 &amp; 0<br>\n\t\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix}<br>\n\t1 &amp; 1 &amp; 0\\\\&nbsp;<br>\n\t1 &amp; 1&nbsp;&amp; 0&nbsp;\\\\&nbsp;<br>\n\t1 &amp; 1&nbsp;&amp; 0<br>\n\t\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix}<br>\n\t1 &amp; 1 &amp; 1\\\\&nbsp;<br>\n\t1 &amp; 1&nbsp;&amp; 1 \\\\&nbsp;<br>\n\t1 &amp; 1 &amp; 1<br>\n\t\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix}<br>\n\t0 &amp; 1 &amp; 1\\\\&nbsp;<br>\n\t0 &amp; 1&nbsp;&amp; 1 \\\\&nbsp;<br>\n\t0 &amp; 1 &amp; 1<br>\n\t\\end{bmatrix} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335460/ugc-net-cse-june-2005-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/335460/ugc-net-cse-june-2005-part-2-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"67601\"></a><div itemprop=\"text\"><p>\"\\( x^{1} \\)&nbsp;is a clone of \\( x \\)\"&nbsp;means \\( x^{1} \\)&nbsp;is identical to \\( x \\) in terms of the physical attributes namely, height, weight and complexion.&nbsp;Given, height, weight and complexion only form a complete set of&nbsp;attributes for an entity, cloning is an equivalence relation. What is your impression about this statement ?</p>\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | June 2010 | Part 2 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The statement is true</p>",
+            "<p>The statement is false</p>",
+            "<p>The truth value of the statement cannot be computed</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67601/ugc-net-cse-june-2010-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/67601/ugc-net-cse-june-2010-part-2-question-1</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"58037\"></a><div itemprop=\"text\">\n<p>The relation “devides” on a set of positive integers is_____</p>\n\n\n</div><br><br><b>Set Theory & Algebra: UGC NET CSE | June 2013 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Symmetric and transitive</p>",
+            "<p>Anti symmetric and transitive</p>",
+            "<p>Symmetric only</p>",
+            "<p>Transitive only</p>"
+          ],
+          "correct_answer": "<p>Anti symmetric and transitive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58037/ugc-net-cse-june-2013-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/58037/ugc-net-cse-june-2013-part-2-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

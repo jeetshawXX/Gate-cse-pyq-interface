@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Distributed System",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Distributed System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155184\"></a><div itemprop=\"text\"><p>An example of distributed OS is:</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2008 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>&nbsp;Amoeba&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>&nbsp;UNIX</p>",
+            "<p>MS-DOS&nbsp;&nbsp;&nbsp;</p>",
+            "<p>MULTICS</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155184/ugc-net-cse-december-2008-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/155184/ugc-net-cse-december-2008-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

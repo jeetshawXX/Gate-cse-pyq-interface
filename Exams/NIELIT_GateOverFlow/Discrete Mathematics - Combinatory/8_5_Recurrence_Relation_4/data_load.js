@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Combinatory - Recurrence Relation",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Recurrence Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336926\"></a><div itemprop=\"text\"><p>The solution of the recurrence relation</p>\n\n<p>\\( a_{r} = a_{r-1} + 2a_{r-2} \\) with \\( a_{0} = 2,a_{1} = 7 \\) is</p>\n\n</div><br><br><b>Combinatory: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a_{r} = (3)^{r} + (1)^{r} \\)</p>",
+            "<p>\\( 2a_{r} = (2)^{r}/3 –&nbsp;(1)^{r} \\)</p>",
+            "<p>\\( a_{r} = 3^{r+1} –&nbsp;(-1)^{r} \\)</p>",
+            "<p>\\( a_{r} = 3(2)^{r} –&nbsp;(-1)^{r} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a_{r} = 3(2)^{r} –&nbsp;(-1)^{r} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336926/nielit-2017-oct-scientific-assistant-a-cs-section-c-6\" target=\"_blank\">https://gateoverflow.in/336926/nielit-2017-oct-scientific-assistant-a-cs-section-c-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336951\"></a><div itemprop=\"text\"><p>The solution of the recurrence relation</p>\n\n<p>\\( a_{r} = a_{r-1} + 2a_{r-2} \\) with \\( a_{0} = 2,a_{1} = 7 \\) is</p>\n\n</div><br><br><b>Combinatory: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a_{r} = (3)^{r} + (1)^{r} \\)</p>",
+            "<p>\\( 2a_{r} = (2)^{r}/3 –&nbsp;(1)^{r} \\)</p>",
+            "<p>\\( a_{r} = 3^{r+1} –&nbsp;(-1)^{r} \\)</p>",
+            "<p>\\( a_{r} = 3(2)^{r} –&nbsp;(-1)^{r} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a_{r} = 3(2)^{r} –&nbsp;(-1)^{r} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336951/nielit-2017-oct-scientific-assistant-a-it-section-b-34\" target=\"_blank\">https://gateoverflow.in/336951/nielit-2017-oct-scientific-assistant-a-it-section-b-34</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373790\"></a><div itemprop=\"text\"><p>The particular solution of the recurrence relation \\( a_{r+2} – 4a_{r+1} + 4a_{r} = 2^{r} \\) is:</p>\n\n</div><br><br><b>Combinatory: NIELIT 2022 April Scientist B | Section B | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( r.2^{r} \\)</p>",
+            "<p>\\( r(r-1)2^{r-1} \\)</p>",
+            "<p>\\( r(r-1)2^{r-2} \\)</p>",
+            "<p>\\( r(r-1)2^{r-3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( r(r-1)2^{r-3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373790/nielit-2022-april-scientist-b-section-b-question-48\" target=\"_blank\">https://gateoverflow.in/373790/nielit-2022-april-scientist-b-section-b-question-48</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351410\"></a><div itemprop=\"text\"><p>Given \\( r_{12}=0.6, r_{13}=0.5 \\) and \\( r_{23}=0.8, \\) the&nbsp;value of \\( r_{12.3} \\) is :</p>\n\n</div><br><br><b>Combinatory: NIELIT Scientific Assistant A 2020 November: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.47 \\)</p>",
+            "<p>\\( 0.40 \\)</p>",
+            "<p>\\( 0.74 \\)</p>",
+            "<p>\\( 0.64 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.40 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351410/nielit-scientific-assistant-a-2020-november-51\" target=\"_blank\">https://gateoverflow.in/351410/nielit-scientific-assistant-a-2020-november-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

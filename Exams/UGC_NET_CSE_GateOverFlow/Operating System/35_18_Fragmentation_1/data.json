@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Fragmentation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Fragmentation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225830\"></a><div itemprop=\"text\"><p>Which of the following statements are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>External Fragmentation exists when there is enough total memory space to satisfy a request but the available space is contiguous.</li>\n\t<li>Memory Fragmentation can be internal as well as external</li>\n\t<li>One solution to external Fragmentation is compaction</li>\n</ol>\n\n</div><br><br><b>Operating System: UGC NET CSE | July 2018 | Part 2 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>i and ii&nbsp;only</p>",
+            "<p>i and iii&nbsp;only</p>",
+            "<p>ii and iii&nbsp;only</p>",
+            "<p>i, ii&nbsp;and iii</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225830/ugc-net-cse-july-2018-part-2-question-56\" target=\"_blank\">https://gateoverflow.in/225830/ugc-net-cse-july-2018-part-2-question-56</a></p>"
+        }
+      ]
+    }
+  ]
+}

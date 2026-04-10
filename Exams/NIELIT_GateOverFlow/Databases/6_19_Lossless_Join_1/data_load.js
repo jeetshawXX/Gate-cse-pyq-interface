@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Lossless Join",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Lossless Join",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373789\"></a><div itemprop=\"text\"><p>Let \\( \\text{R (A, B, C, D)} \\) be a relational schema with the following functional dependencies:&nbsp;</p>\n\n<p>\\( \\text{A} \\rightarrow&nbsp;\\text{B,&nbsp; B} \\rightarrow&nbsp;\\text{C} \\)&nbsp;</p>\n\n<p>\\( \\text{C} \\rightarrow&nbsp;\\text{D} \\) and&nbsp;\\( \\text{D} \\rightarrow&nbsp;\\text{B} \\)</p>\n\n<p>The decomposition of \\( \\text{R} \\) into</p>\n\n<p>\\( \\text{(A, B), (B, C), (B, D)} \\)</p>\n\n</div><br><br><b>Databases: NIELIT 2022 April Scientist B | Section B | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>gives a lossless join, and is dependency preserving</p>",
+            "<p>gives a lossless join, but&nbsp;is not dependency preserving</p>",
+            "<p>does not give&nbsp;a lossless join, but&nbsp;is dependency preserving</p>",
+            "<p>does not give&nbsp;a lossless join and&nbsp;is not dependency preserving</p>"
+          ],
+          "correct_answer": "<p>gives a lossless join, and is dependency preserving</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373789/nielit-2022-april-scientist-b-section-b-question-49\" target=\"_blank\">https://gateoverflow.in/373789/nielit-2022-april-scientist-b-section-b-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

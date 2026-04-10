@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Linear Probing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linear Probing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335486\"></a><div itemprop=\"text\"><p>A hash function \\( f \\) defined as \\( f(\\text{key}) =\\text{key mod} \\) \\( 7 \\), with linear probing it is used to insert the key \\( 37,38,72,48,98,11,56 \\) into a table index from \\( 0 \\) to \\( 6 \\). What will be the locations of \\( 11 \\):</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2005 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335486/ugc-net-cse-december-2005-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/335486/ugc-net-cse-december-2005-part-2-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+}

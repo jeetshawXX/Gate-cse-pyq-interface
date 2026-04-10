@@ -1,0 +1,236 @@
+{
+  "title": "Graph_Theory - Graph_Theory - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Graph_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>How many diagonals can be drawn by joining the angular points of an octagon? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>21</p>",
+            "<b>D.</b> <p>28</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45661/isro-2013-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the cyclomatic complexity of a module which has seventeen edges and thirteen nodes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45560/isro-2013-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The line graph L(G) of a simple graph G is defined as follows: <br>\nThere is exactly one vertex v(e) in L(G) for each edge e in G. <br>\nFor any two edges e and e' in G, L(G) has an edge between v(e) and v(e'), if and only if e and e'  are incident with the same vertex in G. <br>\nWhich of the following statements is/are TRUE? <br>\n(P) The line graph of a cycle is a cycle.<br>\n(Q) The line graph of a clique is a clique.<br>\n(R) The line graph of a planar graph is planar.<br>\n(S) The line graph of a tree is a tree. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P only</p>",
+            "<b>B.</b> <p>P and R only</p>",
+            "<b>C.</b> <p>R only</p>",
+            "<b>D.</b> <p>P, Q and S only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1537/gate2013-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statements is/are TRUE for undirected graphs?<br>\nP: Number of odd degree vertices is even. <br>\nQ: Sum of degrees of all vertices is even. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P only</p>",
+            "<b>B.</b> <p>Q only</p>",
+            "<b>C.</b> <p>Both P and Q</p>",
+            "<b>D.</b> <p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both P and Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1536/gate2013-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider an undirected random graph of eight vertices. The probability that there is an edge\nbetween a pair of vertices is 1/2. What is the expected number of unordered cycles of length three? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/8\\)</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1535/gate2013-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let G be a complete undirected graph on 6 vertices. If vertices of G are labeled, then the number of\ndistinct cycles of length 4 in G is equal to <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>45</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>360</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>45</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/473/gate2012-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following graphs is isomorphic to <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q26_2fa9f4d8.jpg\"><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q26a_9c102615.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1611/gate2012-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>How many edges are there in a forest with v vertices and k components? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(v+1)-k</p>",
+            "<b>B.</b> <p>(v+1)/2-k</p>",
+            "<b>C.</b> <p>v-k</p>",
+            "<b>D.</b> <p>v+k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>v-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18112/isro2011-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If node A has three siblings and B is parent of A, what is the degree of A? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50582/isro2011-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The degree sequence of a simple graph is the sequence of the degrees of the\nnodes in the graph in decreasing order. Which of the following sequences can not\nbe the degree sequence of any graph? <br>\nI. 7, 6, 5, 4, 4, 3, 2, 1 <br> II. 6, 6, 6, 6, 3, 3, 2, 2 <br> III. 7, 6, 6, 4, 4, 3, 2, 2<br>  IV. 8, 7, 7, 6, 4, 2, 1, 1 <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>III and IV</p>",
+            "<b>C.</b> <p>IV only</p>",
+            "<b>D.</b> <p>II and IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1154/gate2010-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let G=(V, E) be a graph. Define \\(\\xi (G)=\\sum_{d}i_{d}*d\\) , where \\(i_{d}\\) is the number of\nvertices of degree d in G. If S and T are two different trees with \\(\\xi (S)=\\xi (T)\\) , then <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>|S|= 2|T|</p>",
+            "<b>B.</b> <p>|S|=|T|-1</p>",
+            "<b>C.</b> <p>|S|=|T|</p>",
+            "<b>D.</b> <p>|S|=|T|+1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>|S|=|T|</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1147/gate2010-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A simple graph ( a graph without parallel edge or loops) with n vertices and k components can have at most <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n edges</p>",
+            "<b>B.</b> <p>n-k edges</p>",
+            "<b>C.</b> <p>(n-k) (n-k+1) edges</p>",
+            "<b>D.</b> <p>(n-k) (n-k+1)/2 edges</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(n-k) (n-k+1)/2 edges</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50494/isro2009-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In a graph G there is one and only one path between every pair of vertices then G is a <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Path</p>",
+            "<b>B.</b> <p>Walk</p>",
+            "<b>C.</b> <p>Tree</p>",
+            "<b>D.</b> <p>Circuit</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50490/isro2009-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A graph in which all nodes are of equal degree, is known as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Multigraph</p>",
+            "<b>B.</b> <p>Non regular graph</p>",
+            "<b>C.</b> <p>Regular graph</p>",
+            "<b>D.</b> <p>Complete graph</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Regular graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50488/isro2009-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let G be an arbitrary graph with n nodes and k components. If a vertex is removed from G, the number of components in the resultant graph must necessarily lie down between <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k and n</p>",
+            "<b>B.</b> <p>k-1 and k+1</p>",
+            "<b>C.</b> <p>k-1 and n-1</p>",
+            "<b>D.</b> <p>k+1 and n-k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-1 and n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8-isro2009-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - TCP IP Suit Protocols",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "TCP IP Suit Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57389\"></a><div itemprop=\"text\"><p>Which provides an interface to the TCP/IP suit protocols in Windows 95 and Windows NT?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 3 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>FTP Active-X Control</p>",
+            "<p>TCP/IP Active-X Control</p>",
+            "<p>Calinsock Active-X Control</p>",
+            "<p>HTML Active-X Control</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57389/ugc-net-cse-december-2012-part-3-question-22\" target=\"_blank\">https://gateoverflow.in/57389/ugc-net-cse-december-2012-part-3-question-22</a></p>"
+        }
+      ]
+    }
+  ]
+}

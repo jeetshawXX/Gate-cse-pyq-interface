@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Operating System - Multilevel Paging",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Multilevel Paging",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460845\"></a><div itemprop=\"text\">A computer system supports a logical address space of \\( 2^{32} \\) bytes. It uses two-level hierarchical paging with a page size of \\( 4096 \\) bytes. A logical address is divided into a \\( b \\)-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size.<br>\n<br>\nThe value of \\( b \\) is _________. (Answer in integer)</div><br><br><b>GATE CSE 2025 | Set 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11:11",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460845/gate-cse-2025-set-2-question-48\" target=\"_blank\">https://gateoverflow.in/460845/gate-cse-2025-set-2-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

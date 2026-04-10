@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Software Requirement Specifications",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Requirement Specifications",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70320\"></a><div itemprop=\"text\"><p>Which of the following is used to determine the specificity of requirements ?</p>\n\n\n\n<p>Where \\( n_{1} \\)&nbsp;is the number of requirements for which all reviewers have identical interpretations, \\( n_{2} \\)&nbsp;is number of requirements in a specification.</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | August 2016 | Part 2 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{n_{1}}{n_{2}} \\)</p>",
+            "<p>\\( \\frac{n_{1}}{n_{2}} \\)</p>",
+            "<p>\\( n_{1} + n_{2} \\)&nbsp;</p>",
+            "<p>\\( n_{1} - n_{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70320/ugc-net-cse-august-2016-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/70320/ugc-net-cse-august-2016-part-2-question-41</a></p>"
+        }
+      ]
+    }
+  ]
+}

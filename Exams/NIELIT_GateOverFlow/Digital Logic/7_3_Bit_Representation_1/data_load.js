@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Bit Representation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bit Representation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378759\"></a><div itemprop=\"text\"><p>Maximum number of bits required to represent any character from \\( \\text {ASCII} \\)&nbsp;code set is:</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378759/nielit-2021-dec-scientist-b-section-b-4\" target=\"_blank\">https://gateoverflow.in/378759/nielit-2021-dec-scientist-b-section-b-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

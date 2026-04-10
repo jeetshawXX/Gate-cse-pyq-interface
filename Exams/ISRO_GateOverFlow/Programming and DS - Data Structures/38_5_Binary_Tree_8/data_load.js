@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Binary Tree",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Binary Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50145\"></a><div itemprop=\"text\">\n<p>A complete binary tree with the property that the value at each node is at least as large as the values at its children is known as</p>\n\n\n</div><br><br><b>Data Structures: ISRO CSE 2008 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>binary search tree</p>",
+            "<p>AVL tree</p>",
+            "<p>completely balanced tree</p>",
+            "<p>Heap</p>"
+          ],
+          "correct_answer": "<p>Heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50145/isro-cse-2008-question-75\" target=\"_blank\">https://gateoverflow.in/50145/isro-cse-2008-question-75</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50383\"></a><div itemprop=\"text\">\n<p>A full binary tree with \\( n \\) leaves contains</p>\n\n\n</div><br><br><b>Data Structures: ISRO CSE 2009 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\) nodes</p>",
+            "<p>\\( \\log_2 n \\) nodes</p>",
+            "<p>\\( 2n-1 \\)</p>",
+            "<p>\\( 2^n \\) nodes</p>"
+          ],
+          "correct_answer": "<p>\\( 2n-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50383/isro-cse-2009-question-31\" target=\"_blank\">https://gateoverflow.in/50383/isro-cse-2009-question-31</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55672\"></a><div itemprop=\"text\">\n<p>A complete binary tree with \\( n \\) non-leaf nodes contains</p>\n\n\n</div><br><br><b>Data Structures: ISRO CSE 2016 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\log_{2}n \\) nodes</p>",
+            "<p>\\( n+1 \\) nodes</p>",
+            "<p>\\( 2n \\) nodes</p>",
+            "<p>\\( 2n+1 \\) nodes</p>"
+          ],
+          "correct_answer": "<p>\\( 2n+1 \\) nodes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55672/isro-cse-2016-question-30\" target=\"_blank\">https://gateoverflow.in/55672/isro-cse-2016-question-30</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"435355\"></a><div itemprop=\"text\"><p>Time complexity to find the diameter of a binary tree having \\( n \\) nodes is</p></div><br><br><b>Data Structures: ISRO CSE 2023 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O\\left(n^{2}\\right) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435355/isro-cse-2023-question-41\" target=\"_blank\">https://gateoverflow.in/435355/isro-cse-2023-question-41</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"43967\"></a><div itemprop=\"text\"><p>Which of the following number of nodes can form a full binary tree?</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>8</p>",
+            "<p>15</p>",
+            "<p>14</p>",
+            "<p>13</p>"
+          ],
+          "correct_answer": "<p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43967/isro-2013-32\" target=\"_blank\">https://gateoverflow.in/43967/isro-2013-32</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"182078\"></a><div itemprop=\"text\"><p>The number of structurally different possible binary trees with \\( 4 \\) nodes is&nbsp;</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 336 \\)</p>",
+            "<p>\\( 168 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182078/isro-dec2017-28\" target=\"_blank\">https://gateoverflow.in/182078/isro-dec2017-28</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"182104\"></a><div itemprop=\"text\"><p>A strictly binary tree with \\( 10 \\) leaves</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cannot have more than \\( 19 \\) nodes</p>",
+            "<p>has exactly \\( 19 \\) nodes</p>",
+            "<p>has exactly \\( 17 \\) nodes</p>",
+            "<p>has exactly \\( 20 \\) nodes</p>"
+          ],
+          "correct_answer": "<p>has exactly \\( 19 \\) nodes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182104/isro-dec2017-54\" target=\"_blank\">https://gateoverflow.in/182104/isro-dec2017-54</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"182107\"></a><div itemprop=\"text\"><p>The \\( in \\)-\\( order \\) and \\( pre \\)-\\( order \\) traversal of a binary tree are \\( \\text{d b e a f c g} \\) and \\( \\text{a b d e c f g} \\) respectively.The \\( post \\)-\\( order \\) traversal&nbsp;of a binary tree is</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{e d b g f c a} \\)</p>",
+            "<p>\\( \\text{e d b f g c a } \\)</p>",
+            "<p>\\( \\text{d e b f g c a} \\)</p>",
+            "<p>\\( \\text{d e f g b c a} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{d e b f g c a} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182107/isro-dec2017-57\" target=\"_blank\">https://gateoverflow.in/182107/isro-dec2017-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

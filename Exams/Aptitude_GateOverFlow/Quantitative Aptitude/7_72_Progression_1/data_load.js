@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Progression",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Progression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3851\"></a><div itemprop=\"text\">After striking a floor a rubber ball rebounds 5/6 th of the height from which it has fallen. Find the total distance (in metres) that it travels before coming to rest,if it gently dropped from a height of 210 metres.</div><br><br><b>Quantitative Aptitude: Find the total distance.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3851/find-the-total-distance\" target=\"_blank\">https://aptitude.gateoverflow.in/3851/find-the-total-distance</a></p>"
+        }
+      ]
+    }
+  ]
+});

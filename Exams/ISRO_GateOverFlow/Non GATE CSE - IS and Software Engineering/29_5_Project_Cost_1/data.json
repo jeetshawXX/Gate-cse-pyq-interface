@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Project Cost",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Project Cost",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2107\"></a><div itemprop=\"text\"><p style=\"text-align:justify\"><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">A company needs to develop a strategy for software product development for which it has a choice of two programming languages L1 and L2. The number lines of code (LOC) developed using L2 is estimated to be twice of the LOC developed with L1. The product will have to be maintained for five years. Various parameters for the company are given in the table below.</span></p><table border=\"1\" cellpadding=\"1\" style=\"margin:auto; width:500px; border-spacing: 1px;\"><tbody><tr><td><strong>Parameter</strong></td><td><strong>Language L1</strong></td><td><strong>Language L2</strong></td></tr><tr><td>Man years needed for development</td><td>LOC/10000</td><td>LOC/10000</td></tr><tr><td>Development Cost per man year</td><td><span style=\"color:rgb(37, 37, 37); font-family:sans-serif; font-size:14px\">र&nbsp;</span><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">10, 00, 000</span></td><td><span style=\"background-color:transparent; color:rgb(37, 37, 37); font-family:sans-serif; font-size:14px\">र</span><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">&nbsp;7, 50, 000</span></td></tr><tr><td>Maintenance Time</td><td>5 years</td><td>5 years</td></tr><tr><td>Cost of maintenance per year</td><td><span style=\"background-color:transparent; color:rgb(37, 37, 37); font-family:sans-serif; font-size:14px\">र</span><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">&nbsp;1,00,000</span></td><td><span style=\"background-color:transparent; font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\"><span style=\"background-color:transparent; color:rgb(37, 37, 37); font-family:sans-serif\">र</span>&nbsp;</span><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">50, 000</span></td></tr></tbody></table><p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">Total cost of the project includes cost of development and maintenance. What is the LOC for L1 for which of the cost of the project using L1 is equal to the cost of the project using L2?</span></p></div><br><br><b>IS&Software Engineering: GATE CSE 2011 | Question: 5, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">4000</span></p>",
+            "<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">5000</span></p>",
+            "<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">4333</span></p>",
+            "<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">4667</span></p>"
+          ],
+          "correct_answer": "<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">5000</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2107/gate-cse-2011-question-5-isro2016-64\" target=\"_blank\">https://gateoverflow.in/2107/gate-cse-2011-question-5-isro2016-64</a></p>"
+        }
+      ]
+    }
+  ]
+}

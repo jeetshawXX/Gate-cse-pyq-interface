@@ -1,0 +1,31 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Direction Sense",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Direction Sense",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"235\"></a><div itemprop=\"text\"><p>A driver drives 8 Km south then 6 Km West and 2 Km South again. She then drives 3 Km East to avoid a traffic jam before driving 6 Km North. How many Kilometers&nbsp;is she from her starting point?</p><ol><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li></ol></div><br><br><b>Quantitative Aptitude: A driver drives 8 km South then 6 km W.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/235/a-driver-drives-8-km-south-then-6-km-w\" target=\"_blank\">https://aptitude.gateoverflow.in/235/a-driver-drives-8-km-south-then-6-km-w</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4370\"></a><div itemprop=\"text\">Rahul facing North, walks 2.8 Km at 45° to his right. Then turns right and walks 8Km, then turns right and walks 8Km, then turns right and walks 5Km. From there he walks 2.8Km at 45° to his right and stops. What is the distance between his starting point and ending point?</div><br><br><b>Quantitative Aptitude: Directions and Distance</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4370/directions-and-distance\" target=\"_blank\">https://aptitude.gateoverflow.in/4370/directions-and-distance</a></p>"
+        }
+      ]
+    }
+  ]
+});

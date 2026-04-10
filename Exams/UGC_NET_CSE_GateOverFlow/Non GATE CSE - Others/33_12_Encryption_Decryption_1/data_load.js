@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Encryption Decryption",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Encryption Decryption",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225838\"></a><div itemprop=\"text\"><p>Decrypt the message \"WTAAD\" using the Caesar Cipher&nbsp;with key =15</p>\n\n</div><br><br><b>Others: UGC NET CSE | July 2018 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>LIPPS</p>",
+            "<p>HELLO</p>",
+            "<p>PLLEH</p>",
+            "<p>DAATW</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225838/ugc-net-cse-july-2018-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/225838/ugc-net-cse-july-2018-part-2-question-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

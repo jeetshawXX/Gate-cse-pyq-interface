@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - Map Coloring",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Map Coloring",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58899\"></a><div itemprop=\"text\">\n<p>The map colouring problem can be solved using which of the following technique?</p>\n\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | June 2013 | Part 3 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Means-end analysis</p>",
+            "<p>Constraint satisfaction</p>",
+            "<p>AO* search</p>",
+            "<p>Breadth first search</p>"
+          ],
+          "correct_answer": "<p>Constraint satisfaction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58899/ugc-net-cse-june-2013-part-3-question-71\" target=\"_blank\">https://gateoverflow.in/58899/ugc-net-cse-june-2013-part-3-question-71</a></p>"
+        }
+      ]
+    }
+  ]
+});

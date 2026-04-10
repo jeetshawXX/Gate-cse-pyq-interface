@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Conditional Probability",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Conditional Probability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2441\"></a><div itemprop=\"text\"><p>Let \\( A \\) and \\( B \\) be any two arbitrary events, then, which one of the following is TRUE?</p>\n\n</div><br><br><b>Probability: GATE CSE 1994 | Question: 1.4, ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P (A \\cap B) = P(A)P(B) \\)</p>",
+            "<p>\\( P (A \\cup B) = P(A)+P(B) \\)</p>",
+            "<p>\\( P (A \\mid B) = P(A \\cap B)P(B) \\)</p>",
+            "<p>\\( P (A \\cup B) \\leq P(A) + P(B) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P (A \\cup B) \\leq P(A) + P(B) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2441/gate-cse-1994-question-1-4-isro2017-2\" target=\"_blank\">https://gateoverflow.in/2441/gate-cse-1994-question-1-4-isro2017-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49507\"></a><div itemprop=\"text\"><p>Company \\( \\text{X} \\) shipped \\( 5 \\) computer chips, \\( 1 \\) of which was defective. and company \\( \\text{Y} \\) shipped \\( 4 \\) computer chips, \\( 2 \\) of which were defective. One computer chip is to be chosen uniformly at a random from the \\( 9 \\) chips shipped by the companies. If the chosen chip is found to be defective, what is the probability that the chip came from the company \\( \\text{Y}? \\)</p>\n\n</div><br><br><b>Probability: ISRO CSE 2007 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2/9 \\)</p>",
+            "<p>\\( 4/9 \\)</p>",
+            "<p>\\( 2/3 \\)</p>",
+            "<p>\\( 1/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2/3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49507/isro-cse-2007-question-33\" target=\"_blank\">https://gateoverflow.in/49507/isro-cse-2007-question-33</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"45660\"></a><div itemprop=\"text\"><p>Let \\( P(E) \\) denote the probability of the occurrence of event \\( E \\). If \\( P(A)= 0.5 \\) and \\( P(B)=1 \\) then the values of \\( P(A|B) \\) and \\( P(B|A) \\) respectively are</p></div><br><br><b>Probability: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.5, 0.25 \\)</p>",
+            "<p>\\( 0.25, 0.5 \\)</p>",
+            "<p>\\( 0.5, 1 \\)</p>",
+            "<p>\\( 1, 0.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.5, 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/45660/isro-2013-71\" target=\"_blank\">https://gateoverflow.in/45660/isro-2013-71</a></p>"
+        }
+      ]
+    }
+  ]
+});

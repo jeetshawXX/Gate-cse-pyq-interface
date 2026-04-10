@@ -1,0 +1,538 @@
+{
+  "title": "Theory_of_Computation - Regular_Language",
+  "duration": 97,
+  "sections": [
+    {
+      "name": "Regular_Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let \\(\\Sigma = \\{a, b, c\\} \\). For \\(x \\in \\Sigma^* \\), and \\(\\alpha \\in \\Sigma \\), let \\(\\# _\\alpha (x) \\) denote the number of occurrences of \\(\\alpha \\) in \\(x \\).  <br><br>\nWhich one or more of the following option(s) define(s) regular language(s)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ a^m b^n \\mid m, n \\geq 0 \\} \\)</p>",
+            "<b>B.</b> <p>\\(\\{ a, b \\}^* \\cap \\{ a^m b^n c^{m-n} \\mid m \\geq n \\geq 0 \\} \\)</p>",
+            "<b>C.</b> <p>\\(\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_b(w) \\equiv 3 \\ (\\text{mod}\\ 9) \\} \\)</p>",
+            "<b>D.</b> <p>\\(\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_a(w) = \\#_b(w) \\} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\{ a^m b^n \\mid m, n \\geq 0 \\} \\)</p>",
+            "<b>C.</b> <p>\\(\\{ w \\mid w \\in \\{ a, b \\}^*, \\#_a(w) \\equiv 2 \\ (\\text{mod}\\ 7), \\#_b(w) \\equiv 3 \\ (\\text{mod}\\ 9) \\} \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460851/gate-cse-2025-set-2-question-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following two languages over the alphabet \\(\\{a, b\\}\\):\n<br><br>\n\\(L_1 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a, b\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}\\)<br>\n\\(L_2 = \\{ \\alpha \\beta \\alpha \\mid \\alpha \\in \\{a\\}^+ \\text{ and } \\beta \\in \\{a, b\\}^+ \\}\\)\n<br><br>\nWhich ONE of the following statements is CORRECT? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both \\(L_1\\) and \\(L_2\\) are regular languages.</p>",
+            "<b>B.</b> <p>\\(L_1\\) is a regular language but \\(L_2\\) is not a regular language.</p>",
+            "<b>C.</b> <p>\\(L_1\\) is not a regular language but \\(L_2\\) is a regular language.</p>",
+            "<b>D.</b> <p>Neither \\(L_1\\) nor \\(L_2\\) is a regular language.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(L_1\\) is not a regular language but \\(L_2\\) is a regular language.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460046/gate-cse-2025-set-1-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\( L_1 \\) be the language represented by the regular expression \\( b^* a b^*\\left(a b^* a b^*\\right)^* \\) and \\( L_2=\\left\\{w \\in(a+b)^*|| w \\mid \\leq 4\\right\\} \\), where \\( |w| \\) denotes the length of string \\( w \\). The number of strings in \\( L_2 \\) which are also in \\( L_1 \\) is ___ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422845/gate-cse-2024-set-2-question-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(L_1, L_2 \\) be two regular languages and \\(L_3 \\) a language which is not regular. Which of the following statements is/are always TRUE? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(L_1=L_2 \\) if and only if \\(L_1 \\cap \\overline{L_2}=\\phi \\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\cup L_3 \\) is not regular</p>",
+            "<b>C.</b> <p>\\(\\overline{L_3} \\) is not regular</p>",
+            "<b>D.</b> <p>\\(\\overline{L_1} \\cup \\overline{L_2} \\) is regular</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>\\(\\overline{L_3} \\) is not regular</p>",
+            "<b>D.</b> <p>\\(\\overline{L_1} \\cup \\overline{L_2} \\) is regular</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422829/gate-cse-2024-set-1-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following two statements about regular languages:<br><br>\nS1: Every infinite regular language contains an undecidable language as a subset.<br>\nS2: Every finite language is regular.<br><br>\nWhich one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Both S1 and S2 are true</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both S1 and S2 are true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357504/gate-cse-2021-set-2-question-36#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(L \\subseteq \\{0,1\\}^*\\) be an arbitrary regular language accepted by a minimal DFA with k states. Which one of the following languages must necessarily be accepted by a minimal DFA with k states? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L - \\{01\\}\\)</p>",
+            "<b>B.</b> <p>\\(L \\cup \\{01\\}\\)</p>",
+            "<b>C.</b> <p>\\( \\{0,1\\}^* -L\\)</p>",
+            "<b>D.</b> <p>\\(L  \\cdot L\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\( \\{0,1\\}^* -L\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357531/gate-cse-2021-set-2-question-9#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following is true? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every subset of a regular set is regular</p>",
+            "<b>B.</b> <p>Every finite subset of non-regular set is regular</p>",
+            "<b>C.</b> <p>The union of two non regular set is not regular</p>",
+            "<b>D.</b> <p>Infinite union of finite set is regular</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Every finite subset of non-regular set is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331442/isro2020-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following statements.<br><br>\nI.  If \\(L_1\\cup L_2\\) is regular, then both \\(L_1 \\; and \\; L_2\\) must be regular.<br>\nII. The class of regular languages is closed under infinite union.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither I nor II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333223/gate2020-cs-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>For \\(\\Sigma =\\{a,b\\}\\), let us consider the regular language <br>\\(L=\\{x|x=a^{2+3k} \\; or \\; x=b^{10+12k}, k\\geq 0\\}\\).<br>\nWhich one of the following can be a pumping length (the constant guaranteed by the pumping lemma) for L? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302833/gate2019-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>If L is a regular language over \\(\\Sigma =\\{a,b\\}\\), which one of the following languages is NOT regular ? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L\\cdot L^R=\\{xy|x \\in L,y^R \\in L\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{ww^R|w \\in L\\}\\)</p>",
+            "<b>C.</b> <p>Prifix(L)={\\(x \\in \\Sigma ^*|\\exists y \\in \\Sigma ^*\\) such that \\(xy \\in L\\)}</p>",
+            "<b>D.</b> <p>Suffix(L)={\\(y \\in \\Sigma ^*|\\exists x \\in \\Sigma ^*\\) such that \\(xy \\in L\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{ww^R|w \\in L\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302841/gate2019-cs-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Choose the correct statement - <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A=\\left\\{a^{n} b^{n} \\mid n=1,2,3, \\ldots\\right\\}\\)  is a regular language</p>",
+            "<b>B.</b> <p>The set B, consisting of all strings made up of only \\(a^{\\prime} s\\) and \\(b^{\\prime} s\\) having equal number of \\(a^{\\prime} s\\) and bs defines a regular language</p>",
+            "<b>C.</b> <p>\\(L\\left(A^{*} B\\right) \\cap B\\) gives the set A</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213564/isro2018-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Language L1 is defined by the grammar: \\(S_{1}\\rightarrow aS_{1}b|\\varepsilon \\)<br>\nLanguage L2 is defined by the grammar: \\(S_{2}\\rightarrow abS_{2}|\\varepsilon\\)<br>\nConsider the following statements:<br>\nP: L1 is regular <br>\nQ: L2 is regular<br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both P and Q are true</p>",
+            "<b>B.</b> <p>P is true and Q is false</p>",
+            "<b>C.</b> <p>P is false and Q is true</p>",
+            "<b>D.</b> <p>Both P and Q are false</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P is false and Q is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39542/gate2016-2-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let \\(R_{1}\\) and \\(R_{2}\\) be regular sets defined over the alphabet, then <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(R_{1} \\cap R_{2}\\)  is not regular</p>",
+            "<b>B.</b> <p>\\(R_{1} \\cup R_{2}\\)  is not regular</p>",
+            "<b>C.</b> <p>\\(\\Sigma^{*}-R_{1}\\)  is regular</p>",
+            "<b>D.</b> <p>\\(R_{1}^{*}\\)  is not regular</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Sigma^{*}-R_{1}\\)  is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51701/isro2015-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following languages is/are regular? <br> \\(L_{1}:\\{wxw^{R}|w,x \\in  \\{a,b\\}^{*} \\; and \\; |w|,|x| \\gt 0 \\}, w^{R}\\) is the reverse of string w <br>\\(L_{2}:\\{a^{n}b^{m}|m\\neq n \\; and \\; m,n\\geq 0\\}\\)<br> \\(L_{3}:\\{a^{p}b^{q}c^{r}|p,q,r\\geq 0\\}\\) <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 and L3 only</p>",
+            "<b>B.</b> <p>L2 only</p>",
+            "<b>C.</b> <p>L2 and L3 only</p>",
+            "<b>D.</b> <p>L3 only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L1 and L3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8254/gate2015-2-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\(L_{1}=\\{w \\in \\{0,1\\}*|w\\) has at least as many occurrences of (110)'s as (011)'s}. <br>Let \\(L_{2}=\\{w \\in \\{0,1\\}*|w\\) has at least as many occurrence of (000)'s as (111)'s}. <br><br>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 is regular but not L2</p>",
+            "<b>B.</b> <p>L2 is regular but not L1</p>",
+            "<b>C.</b> <p>Both L1 and L2 are regular</p>",
+            "<b>D.</b> <p>Neither L1 nor L2 are regular</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L1 is regular but not L2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1995/gate2014-2-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>If \\(L_{1}=\\{a^{n}|n\\geq 0\\}\\) and \\(L_{2}=\\{b^{n}|n\\geq 0 \\}\\), Consider <br>(I) \\(  L_{1}\\cdot L_{2}\\)  is a regular language <br> (II) \\( L_{1} \\cdot L_{2}= \\{a^{n}b^{n}|n \\geq 0\\}\\)<br> Which one of the following is CORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (I)</p>",
+            "<b>B.</b> <p>Only (II)</p>",
+            "<b>C.</b> <p>Both (I) and (II)</p>",
+            "<b>D.</b> <p>Neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only (I)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1971/gate2014-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The language L = {\\(a^{n}b^{n}\\geq 0\\)} is regular</p>",
+            "<b>B.</b> <p>The language L = {\\(a^{n}\\)| n is prime} is regular</p>",
+            "<b>C.</b> <p>The language L={ w | w has 3k +1    b's for some k \\(\\in\\) N with \\(\\Sigma\\) = {a,b} } is regular.</p>",
+            "<b>D.</b> <p>The language L = { ww| w\\(\\in \\Sigma^{*}\\) with \\(\\Sigma\\)={0,1}} is regular.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The language L={ w | w has 3k +1    b's for some k \\(\\in\\) N with \\(\\Sigma\\) = {a,b} } is regular.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1781/gate2014-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider the languages \\(L_{1}=\\phi \\) abd \\(L_{2}=\\{a\\}\\). Which one of the following represents \\(L_{1} L_{2}^{*} \\cup L_{1}^{*}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{ \\epsilon \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\phi\\)</p>",
+            "<b>C.</b> <p>\\(a^{*}\\)</p>",
+            "<b>D.</b> <p>\\(\\{ \\epsilon ,a \\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{ \\epsilon \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1417/gate2013-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Given the language L = {ab, aa, baa}, which of the following strings are in L*? <br>\n1) abaabaaabaa <br>\n2) aaaabaaaa <br>\n3) baaaaabaaaab <br>\n4) baaaaabaa <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2 and 3</p>",
+            "<b>B.</b> <p>2, 3 and 4</p>",
+            "<b>C.</b> <p>1, 3 and 4</p>",
+            "<b>D.</b> <p>1, 2 and 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1, 2 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1609/gate2012-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Let P be a regular language and Q be a context free language such that Q \\(\\subseteq\\)\nP.\n(For example, let P be the language represented by the regular expression p*q*\nand Q be \\(\\{p^{n}q^{n}|n\\in N\\}\\) Then which of the following is ALWAYS regular? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P\\cap Q\\)</p>",
+            "<b>B.</b> <p>P-Q</p>",
+            "<b>C.</b> <p>\\(\\sum *-P\\)</p>",
+            "<b>D.</b> <p>\\(\\sum *-Q\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\sum *-P\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3429/gate2011-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>S\\(\\rightarrow\\)aSa|bSb|a|b;  The language generated by the above grammar over the alphabet {a,b} is the set of <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All palindromes.</p>",
+            "<b>B.</b> <p>All odd length palindromes.</p>",
+            "<b>C.</b> <p>Strings that begin and end with the same symbol</p>",
+            "<b>D.</b> <p>All even length palindromes.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>All odd length palindromes.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1304/gate2009-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Which of the following languages is (are) non-regular?<br>\n\\(L_1 = \\{0^m1^n \\mid 0 \\leq m \\leq n \\leq 10000\\}\\)<br>\n\\(L_2 = \\{w \\mid w\\) reads the same forward and backward\\(\\}\\)<br>\n\\(L_3 = \\{w \\in \\{0, 1\\} ^* \\mid w\\) contains an even number of 0's and an even number of 1's\\(\\}\\)<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_2\\) and \\(L_3\\) only</p>",
+            "<b>B.</b> <p>\\(L_1\\) and \\(L_2\\) only</p>",
+            "<b>C.</b> <p>\\(L_3\\) only</p>",
+            "<b>D.</b> <p>\\(L_2\\) only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(L_2\\) only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3345/gate2008-it-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Which of the following are regular sets? <br><br> \\(I.  \\{a^{n}b^{2m}|n\\geq 0,m\\geq 0\\}  \\)<br> II. \\( \\{a^{n}b^{m}|n=2m\\}  \\)<br> III.  \\(\\{a^{n}b^{m}|n\\neq m\\}  \\)<br> IV. \\(\\{xcy|x,y,\\in  \\{a,b\\}^*\\}\\) <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>I only</p>",
+            "<b>D.</b> <p>IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I and IV only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/476/gate2008-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Which of the following languages is regular? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\({ww^{R}|w \\in \\{0,1\\}^{+}}\\)}</p>",
+            "<b>B.</b> <p>{\\({ww^{R}x|x,w \\in \\{0,1\\}^{+}}\\)}</p>",
+            "<b>C.</b> <p>{\\({wxw^{R}|x,w\\in \\{0,1\\}^{+}}\\)}</p>",
+            "<b>D.</b> <p>{\\({xww^{R}|x,w\\in \\{0,1\\}^{+}}\\)}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>{\\({wxw^{R}|x,w\\in \\{0,1\\}^{+}}\\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1229/gate2007-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Let L be a regular language. Consider the constructions on L below:<br>\nI. \\(\\text{repeat} (L) = \\{ww \\mid w \\in L\\}\\)<br>\nII. \\(\\text{prefix} (L) = \\{u \\mid \\exists v : uv \\in L\\}\\)<br>\nIII. \\(\\text{suffix} (L) = \\{v \\mid \\exists u: uv \\in L\\}\\)<br>\nIV. \\(\\text{half} (L) = \\{u \\mid \\exists v: | v | = | u | \\text{ and } uv \\in L\\}\\)<br>Which choice of L is best suited to support your answer above? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((a + b)^*\\)</p>",
+            "<b>B.</b> <p>\\(\\{\\epsilon, a, ab, bab\\}\\)</p>",
+            "<b>C.</b> <p>\\((ab)^*\\)</p>",
+            "<b>D.</b> <p>\\(\\{a^nb^n \\mid n \\geq 0\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((a + b)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3637/gate2006-it-81\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Let L be a regular language. Consider the constructions on L below:<br>\nI. \\(\\text{repeat} (L) = \\{ww \\mid w \\in L\\}\\)<br>\nII. \\(\\text{prefix} (L) = \\{u \\mid \\exists v : uv \\in L\\}\\)<br>\nIII. \\(\\text{suffix} (L) = \\{v \\mid \\exists u: uv \\in L\\}\\)<br>\nIV. \\(\\text{half} (L) = \\{u \\mid \\exists v: | v | = | u | \\text{ and } uv \\in L\\}\\)<br>Which of the constructions could lead to a non-regular language?<br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Only 1</p>",
+            "<b>C.</b> <p>Only IV</p>",
+            "<b>D.</b> <p>Both II and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3624/gate2006-it-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Which of the following statements about regular languages is NOT true ? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every language has a regular superset</p>",
+            "<b>B.</b> <p>Every language has a regular subset</p>",
+            "<b>C.</b> <p>Every subset of a regular language is regular</p>",
+            "<b>D.</b> <p>Every subset of a finite language is regular</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Every subset of a regular language is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3569/gate2006-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>If s is a string over (0+1)*, then let \\(n_0 (s)\\) denote the number of 0's in s and \\(n_1 (s)\\)\nthe number of 1's in s. Which one of the following languages is not regular? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L = {s \\(\\in\\) (0+1)* | \\(n_0 (s)\\) is a 3-digit prime}</p>",
+            "<b>B.</b> <p>L = {s \\(\\in\\) (0+1)* | for every prefix s' of s,  |\\(n_0 (s') - n_1 (s')\\)| \\(\\leq\\) 2}</p>",
+            "<b>C.</b> <p>L = {s \\(\\in\\) (0+1)* |\\(n_0 (s) - n_1 (s)\\)| \\(\\leq\\) 4}</p>",
+            "<b>D.</b> <p>L = {s \\(\\in\\) (0+1)* | \\(n_0(s)\\) mod 7 = \\(n_1(s)\\) mod 5 = 0}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>L = {s \\(\\in\\) (0+1)* |\\(n_0 (s) - n_1 (s)\\)| \\(\\leq\\) 4}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/992/gate2006-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>A language L satisfies the Pumping Lemma for regular languages, and also the Pumping Lemma for context-free languages. Which of the following statements about L is TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is necessarily a regular language.</p>",
+            "<b>B.</b> <p>L is necessarily a context-free language, but not necessarily a regular language.</p>",
+            "<b>C.</b> <p>L is necessarily a non-regular language.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3787/gate2005-it-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Which of the following statements is false? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every finite subset of a non-regular set is regular</p>",
+            "<b>B.</b> <p>Every subset of a regular set is regular</p>",
+            "<b>C.</b> <p>Every finite subset of a regular set is regular</p>",
+            "<b>D.</b> <p>The intersection of two regular sets is regular</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Every subset of a regular set is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1678/gate1998-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Let \\(L \\subseteq \\Sigma^*\\) where \\(\\Sigma = \\left\\{a,b \\right\\}\\). Which of the following is true? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L = \\left\\{x \\mid x \\text{ has an equal number of } a\\text{'s and }b\\text{'s}\\right \\}\\) is regular</p>",
+            "<b>B.</b> <p>\\(L = \\left\\{a^nb^n \\mid n \\geq 1\\right \\}\\) is regular</p>",
+            "<b>C.</b> <p>\\(L = \\left\\{x \\mid x \\text{ has more number of }a\\text{'s than }b\\text{'s}\\right \\}\\) is regular</p>",
+            "<b>D.</b> <p>\\(L = \\left\\{a^mb^n \\mid m \\geq 1, n \\geq 1 \\right \\}\\) is regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(L = \\left\\{a^mb^n \\mid m \\geq 1, n \\geq 1 \\right \\}\\) is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2714/gate1996-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Let \\(\\Sigma=\\left\\{0,1\\right\\}, L = \\Sigma^* \\text{ and } R=\\left\\{0^n1^n \\mid n \\gt 0\\right\\}\\) then the languages \\(L \\cup R\\) and R are respectively <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>regular, regular</p>",
+            "<b>B.</b> <p>not regular, regular</p>",
+            "<b>C.</b> <p>regular, not regular</p>",
+            "<b>D.</b> <p>not regular, not regular</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>regular, not regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2637/gate1995-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the following languages :<br>\nL1 = {ww| w\\(\\in\\) {a,b}*}<br>\nL2 = {w\\(w^{R}| \\) w\\(\\in\\) {a,b} *, \\(w^{R}\\) is the reverse of w} <br>\nL3 = {\\(0^{2i}\\)|  i is an integer}<br>\nL4 ={\\(0^{{i}^{2}}\\) | i is an integer} <br>\nWhich of the languages are regular ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only L1 and L2</p>",
+            "<b>B.</b> <p>Only L2, L3 and L4</p>",
+            "<b>C.</b> <p>Only L3 and L4</p>",
+            "<b>D.</b> <p>Only L3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only L3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/724/gate2001-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Consider the following two statements : <br>\nS1: {\\(0^{2n}|n\\geq 1|\\)} is a regular language <br>\nS2 : {\\(0^{m}1^{n}0^{m+n}|m\\geq 1 and n\\geq 1|\\)} is a regular language <br>\nWhich of the following statements is correct? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+            "<b>D.</b> <p>None of S1 and S2 is correct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only S1 is correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/697/gate2001-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following is the strongest correct statement about a finite language over some finite alphabet \\(\\Sigma\\)? <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It could be undecidable</p>",
+            "<b>B.</b> <p>It is Turing-machine recognizable</p>",
+            "<b>C.</b> <p>It is a context sensitive language.</p>",
+            "<b>D.</b> <p>It is a regular language.</p>",
+            "<b>E.</b> <p>None of the above,</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It is Turing-machine recognizable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/528/gate1991-03-xiv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

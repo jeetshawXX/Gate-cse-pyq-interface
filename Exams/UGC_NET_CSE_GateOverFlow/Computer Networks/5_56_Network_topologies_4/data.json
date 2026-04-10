@@ -1,0 +1,61 @@
+{
+  "title": "Computer Networks - Network topologies",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Network topologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152896\"></a><div itemprop=\"text\">In case of Bus/Tree topology signal balancing issue is overcome by<br>\n<br>\n(A) Modulation<br>\n<br>\n(B) Polling<br>\n<br>\n(C) Segmentation<br>\n<br>\n(D) Strong transmitter</div><br><br><b>Computer Networks: UGC NET CSE | December 2009 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152896/ugc-net-cse-december-2009-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/152896/ugc-net-cse-december-2009-part-2-question-29</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"152941\"></a><div itemprop=\"text\">The single stage network is also called<br>\n<br>\n(A) one sided network<br>\n<br>\n(B) two sided network<br>\n<br>\n(C) recirculating network<br>\n<br>\n(D) pipeline network</div><br><br><b>Computer Networks: UGC NET CSE | December 2009 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152941/ugc-net-cse-december-2009-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/152941/ugc-net-cse-december-2009-part-2-question-46</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"63070\"></a><div itemprop=\"text\"><p>Hub is a term used with</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A Star Networks</p>",
+            "<p>A Ring Networks</p>",
+            "<p>A Router</p>",
+            "<p>A Bridge</p>"
+          ],
+          "correct_answer": "<p>A Star Networks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63070/ugc-net-cse-december-2011-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/63070/ugc-net-cse-december-2011-part-2-question-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"58281\"></a><div itemprop=\"text\"><p>In a fully connected mesh network with n devices, there are _____&nbsp; physical channels to link all devices.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 3 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>n(n-1)/2</p>",
+            "<p>n(n+1)/2</p>",
+            "<p>2n</p>",
+            "<p>2n+1</p>"
+          ],
+          "correct_answer": "<p>n(n-1)/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58281/ugc-net-cse-june-2013-part-3-question-16\" target=\"_blank\">https://gateoverflow.in/58281/ugc-net-cse-june-2013-part-3-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - Definite Integral",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Definite Integral",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"399290\"></a><div itemprop=\"text\">The value of the definite integral <br>\n\\[<br>\n\\int_{-3}^{3} \\int_{-2}^{2} \\int_{-1}^{1}\\left(4 x^{2} y-z^{3}\\right) \\mathrm{d} z \\mathrm{~d} y \\mathrm{~d} x<br>\n\\]<br>\nis _________. (Rounded off to the nearest integer)</div><br><br><b>GATE CSE 2023 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399290/gate-cse-2023-question-21\" target=\"_blank\">https://gateoverflow.in/399290/gate-cse-2023-question-21</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"422891\"></a><div itemprop=\"text\"><p>​​​​​Let \\( f(x) \\) be a continuous function from \\( \\mathbb{R} \\) to \\( \\mathbb{R} \\) such that</p><p>\\[<br>f(x)=1-f(2-x)<br>\\]<br>Which one of the following options is the CORRECT value of \\( \\int_{0}^{2} f(x) d x \\) ?</p></div><br><br><b>GATE CSE 2024 | Set 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( -1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6\" target=\"_blank\">https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"460833\"></a><div itemprop=\"text\"><p>​​​​​The value of \\( x \\) such that \\( x&gt;1 \\), satisfying the equation \\( \\int_1^x t \\ln t \\: dt = \\frac{1}{4} \\) is</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{e} \\)</p>",
+            "<p>\\( e \\)</p>",
+            "<p>\\( e^2 \\)</p>",
+            "<p>\\( e-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{e} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460833/gate-cse-2025-set-2-question-2\" target=\"_blank\">https://gateoverflow.in/460833/gate-cse-2025-set-2-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

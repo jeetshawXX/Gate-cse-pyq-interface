@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Joins",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Joins",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336380\"></a><div itemprop=\"text\"><p>A table joined with itself is called</p>\n\n</div><br><br><b>Databases: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Join</p>",
+            "<p>Self Join</p>",
+            "<p>Outer Join</p>",
+            "<p>Equi Join</p>"
+          ],
+          "correct_answer": "<p>Self Join</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336380/nielit-2017-july-scientist-b-it-section-b-55\" target=\"_blank\">https://gateoverflow.in/336380/nielit-2017-july-scientist-b-it-section-b-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Finite_Automata - Finite_Automata - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Finite_Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In the automaton below, s is the start state and t is the only final state.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q3_da00c87d.jpg\"><br>\nConsider the strings \\(u = abbaba, v = bab, \\text{ and } w = aabb\\). Which of the following statements is true? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The automaton accepts u and v but not w</p>",
+            "<b>B.</b> <p>The automaton accepts each of u, v, and w</p>",
+            "<b>C.</b> <p>The automaton rejects each of u, v, and w</p>",
+            "<b>D.</b> <p>The automaton accepts u but rejects v and w</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The automaton accepts u but rejects v and w</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3542/gate2006-it-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the regular language L = (111 + 11111)* . The minimum number of\nstates in any DFA accepting this languages is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1291/gate2006-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the regular grammar: <br>\n\\(S \\rightarrow Xa \\mid Ya\\)<br>\n\\(X \\rightarrow Za\\)<br>\n\\(Z \\rightarrow Sa \\mid \\epsilon\\)<br>\n\\(Y \\rightarrow Wa\\)<br>\n\\(W \\rightarrow Sa\\)<br>\nwhere S is the starting symbol, the set of terminals is {a} and the set of non-terminals is {S, W, X, Y, Z}.<br>\nWe wish to construct a deterministic finite automaton (DFA) to recognize the same language. What is the minimum number of states required for the DFA? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3786/gate2005-it-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the non-deterministic finite automaton (NFA) shown in the figure.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q37_2cc385ad.jpg\"><br>State X is the starting state of the automaton. Let the language accepted by the NFA with Y as the only accepting state be L1. Similarly, let the language accepted by the NFA with Z as the only accepting state be L2. Which of the following statements about L1 and L2 is TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 = L2</p>",
+            "<b>B.</b> <p>\\(L1 \\subset L2\\)</p>",
+            "<b>C.</b> <p>\\(L2 \\subset L1\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L1 = L2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3784/gate2005-it-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following diagram represents a finite state machine which takes as input a binary number from\nthe least significant bit. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q63_5d9c1d2c.jpg\"> <br>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It computes 1's complement of the input number</p>",
+            "<b>B.</b> <p>It computes 2's complement of the input number</p>",
+            "<b>C.</b> <p>It increments the input number</p>",
+            "<b>D.</b> <p>It decrements the input number</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It computes 2's complement of the input number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1386/gate2005-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(N_{f}\\) and \\(N_{p}\\) denote the classes of languages accepted by non-deterministic finite automata and non- deterministic push-down automata, respectively. Let \\(D_{f}\\) and \\(D_{p}\\) denote the classes of languages\naccepted by deterministic finite automata and deterministic push-down automata respectively. Which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(D_{f }\\subset N_{f}\\) and \\(D_{p }\\subset N_{p}\\)</p>",
+            "<b>B.</b> <p>\\(D_{f }\\subset N_{f}\\)  and \\(D_{p }= N_{p}\\)</p>",
+            "<b>C.</b> <p>\\(D_{f }= N_{f}\\)  and \\(D_{p }= N_{p}\\)</p>",
+            "<b>D.</b> <p>\\(D_{f }= N_{f}\\)  and \\(D_{p }\\subset N_{p}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(D_{f }= N_{f}\\)  and \\(D_{p }\\subset N_{p}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1377/gate2005-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the machine M: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q53_b2cf6cf5.jpg\"> <br> The language recognized by M is : <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{w \\(\\in\\) {a, b} * | every a in w is followed by exactly two b's}</p>",
+            "<b>B.</b> <p>{w \\(\\in\\) {a,b} * | every a in w is followed by at least two b's}</p>",
+            "<b>C.</b> <p>{w \\(\\in\\) {a,b} * | w contains the substring 'abb'}</p>",
+            "<b>D.</b> <p>{w \\(\\in\\) {a,b} * | w does not contain 'aa' as a substring</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{w \\(\\in\\) {a,b} * | every a in w is followed by at least two b's}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1376/gate2005-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(M=(K, \\Sigma,\\sigma ,s, F)\\) be a finite state automaton, where<br>\\(K=\\{A, B\\}, \\Sigma=\\{a, b\\}, s=A, F=\\{B\\}\\)<br>\n\\(\\sigma(A, a)=A, \\sigma(A, b)=B, \\sigma(B, a)=B \\text { and } \\sigma(B, b)=A\\)<br>\nA grammar to generate the language accepted by M can be specified as <br>\n\\(G=(V, \\Sigma, R, S), \\text { where } V=K \\cup \\Sigma, \\text { and } S=A\\)<br>\nWhich one of the following set of rules will make L(G) = L(M) ? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{A \\rightarrow a B, A \\rightarrow b A, B \\rightarrow b A, B \\rightarrow a A, B \\rightarrow \\epsilon)\\)</p>",
+            "<b>B.</b> <p>\\(\\{A \\rightarrow a A, A \\rightarrow b B, B \\rightarrow a B, B \\rightarrow b A, B \\rightarrow \\epsilon)\\)</p>",
+            "<b>C.</b> <p>\\(\\{A \\rightarrow b B, A \\rightarrow a B, B \\rightarrow a A, B \\rightarrow b A, B \\rightarrow \\epsilon)\\)</p>",
+            "<b>D.</b> <p>\\(\\{A \\rightarrow a A, A \\rightarrow b A, B \\rightarrow a B, B \\rightarrow b A, A \\rightarrow \\epsilon)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{A \\rightarrow a A, A \\rightarrow b B, B \\rightarrow a B, B \\rightarrow b A, B \\rightarrow \\epsilon)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3684/gate2004-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The following finite state machine accepts all those binary strings in which the number of 1's and 0's are respectively.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q86_69a22ade.jpg\"> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>divisible by 3 and 2</p>",
+            "<b>B.</b> <p>odd and even</p>",
+            "<b>C.</b> <p>even and odd</p>",
+            "<b>D.</b> <p>divisible by 2 and 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>divisible by 3 and 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1080/gate2004-86#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the NFA M shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q55_99884634.jpg\"><br>   Let the language accepted by M be L. Let L1 be the language accepted by the NFA M1, obtained by changing the accepting state of M to a non-accepting state and by changing the non-accepting state of M to accepting states. Which of the following statements is true ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 = {0, 1}* - L</p>",
+            "<b>B.</b> <p>L1 = {0, 1}*</p>",
+            "<b>C.</b> <p>\\(L1\\subseteq L\\)</p>",
+            "<b>D.</b> <p>L1 = L</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L1 = {0, 1}*</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/943/gate2003-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following deterministic finite state automaton M. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q50_fa81a7bc.jpg\"><br>  Let S denote the set of seven bit binary strings in which the first, the fourth, and\nthe last bits are 1. <br>The number of strings in S that are accepted by M is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/939/gate2003-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The smallest finite automaton which accepts the language {x length of x is\ndivisible by 3} has <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 states</p>",
+            "<b>B.</b> <p>3 states</p>",
+            "<b>C.</b> <p>4 states</p>",
+            "<b>D.</b> <p>5 states</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3 states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/843/gate2002-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The finite state machine described by the following state diagram with A as\nstarting state, where an arc label is x/y and x stands for 1-bit input and y stands\nfor 2-bit output. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q30_efb2d498.jpg\"> <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Outputs the sum of the present and the previous bits of the input.</p>",
+            "<b>B.</b> <p>(Outputs 01 whenever the input sequence contains 11</p>",
+            "<b>C.</b> <p>Outputs 00 whenever the input sequence contains 10</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Outputs the sum of the present and the previous bits of the input.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/835/gate2002-2-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What can be said about a regular language L over {a} whose minimal finite state automaton has two states? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L must be \\(\\{a^n \\mid n \\ \\text{ is odd}\\}\\)</p>",
+            "<b>B.</b> <p>L must be \\(\\{a^n \\mid n \\ \\text{ is even}\\}\\)</p>",
+            "<b>C.</b> <p>L must be \\(\\{a^n \\mid n \\geq 0\\}\\)</p>",
+            "<b>D.</b> <p>Either L must be\\(\\{a^n \\mid n \\text{ is odd}\\}\\), or L must be \\(\\{a^n \\mid n \\text{ is even}\\}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Either L must be\\(\\{a^n \\mid n \\text{ is odd}\\}\\), or L must be \\(\\{a^n \\mid n \\text{ is even}\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/655/gate2000-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the regular expression (0 + 1) (0+1) ... n times. The minimum state finite automaton that recognizes the language represented by this regular expression contains <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n states</p>",
+            "<b>B.</b> <p>n+1 states</p>",
+            "<b>C.</b> <p>n+2 states</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1 states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1458/gate1999-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

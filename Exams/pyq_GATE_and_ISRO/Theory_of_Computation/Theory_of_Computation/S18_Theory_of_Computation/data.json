@@ -1,0 +1,236 @@
+{
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 18",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Context-free languages are closed under: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Union, intersection</p>",
+            "<b>B.</b> <p>Union, Kleene closure</p>",
+            "<b>C.</b> <p>Intersection, complement</p>",
+            "<b>D.</b> <p>Complement, Kleene closure</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Union, Kleene closure</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1459/gate1999-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the regular expression (0 + 1) (0+1) ... n times. The minimum state finite automaton that recognizes the language represented by this regular expression contains <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n states</p>",
+            "<b>B.</b> <p>n+1 states</p>",
+            "<b>C.</b> <p>n+2 states</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1 states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1458/gate1999-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following statements is false? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every finite subset of a non-regular set is regular</p>",
+            "<b>B.</b> <p>Every subset of a regular set is regular</p>",
+            "<b>C.</b> <p>Every finite subset of a regular set is regular</p>",
+            "<b>D.</b> <p>The intersection of two regular sets is regular</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Every subset of a regular set is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1678/gate1998-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let L be the set of all binary strings whose last two symbols are the same. The number of states in the minimal state deterministic finite state automaton accepting L is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1677/gate1998-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The string 1101 does not belong to the set represented by <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(110^*(0 + 1)\\)</p>",
+            "<b>B.</b> <p>\\(1(0 + 1)^*101\\)</p>",
+            "<b>C.</b> <p>\\((10)^*(01)^*(00 + 11)^*\\)</p>",
+            "<b>D.</b> <p>\\((00 + (11)^*0)^*\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((10)^*(01)^*(00 + 11)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1649/gate1998-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Regarding the power of recognition of languages, which of the following statements is false? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The non-deterministic finite-state automata are equivalent to deterministic finite-state automata.</p>",
+            "<b>B.</b> <p>Non-deterministic Push-down automata are equivalent to deterministic Push-down automata.</p>",
+            "<b>C.</b> <p>Non-deterministic Turing machines are equivalent to deterministic Turing machines.</p>",
+            "<b>D.</b> <p>Multi-tape Turing machines are available are equivalent to Single-tape Turing machines</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Non-deterministic Push-down automata are equivalent to deterministic Push-down automata.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1648/gate1998-1-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following set can be recognized by a Deterministic Finite state Automaton? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The numbers \\(1, 2, 4, 8, \\dots 2^n, \\dots\\) written in binary</p>",
+            "<b>B.</b> <p>The numbers \\(1, 2, 4, 8,\\dots 2^n, \\dots\\)  written in unary</p>",
+            "<b>C.</b> <p>The set of binary string in which the number of zeros is the same as the number of ones.</p>",
+            "<b>D.</b> <p>The set \\(\\{1, 101, 11011, 1110111, \\dots\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The numbers \\(1, 2, 4, 8, \\dots 2^n, \\dots\\) written in binary</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1647/gate1998-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If the regular set \\(A\\) is represented by \\(A = (01 + 1)^*\\) and the regular set \\(B\\) is represented by \\(B = \\left(\\left(01\\right)^*1^*\\right)^*\\), which of the following is true? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A \\subset B\\)</p>",
+            "<b>B.</b> <p>\\(B \\subset A\\)</p>",
+            "<b>C.</b> <p>\\(A\\) and \\(B\\) are incomparable</p>",
+            "<b>D.</b> <p>\\(A=B\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(A=B\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1646/gate1998-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following languages over \\(\\left\\{a,b,c\\right\\}\\) is accepted by a deterministic pushdown automata? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left\\{ wcw^R \\mid w \\in \\left\\{a,b\\right\\}^*\\right\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\left\\{ ww^R \\mid w \\in \\{a,b,c\\}^*\\right\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\left\\{ a^nb^nc^n \\mid n \\geq 0 \\right\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\left\\{w \\mid w \\text{ is a palindrome over } \\left\\{a,b,c\\right\\} \\right\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\left\\{ wcw^R \\mid w \\in \\left\\{a,b\\right\\}^*\\right\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2262/gate1997-6-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following is not decidable? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Given a Turing machine M, a string s and an integer k, M accepts s within k steps</p>",
+            "<b>B.</b> <p>Equivalence of two given Turing machines</p>",
+            "<b>C.</b> <p>Language accepted by a given finite state machine is not empty</p>",
+            "<b>D.</b> <p>Language generated by a context free grammar is non-empty</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Equivalence of two given Turing machines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2261/gate1997-6-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which one of the following regular expressions over {0,1} denotes the set of all strings not containing 100 as substring? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0^*(1+0)^*\\)</p>",
+            "<b>B.</b> <p>\\(0^*1010^*\\)</p>",
+            "<b>C.</b> <p>\\(0^*1^*01^*\\)</p>",
+            "<b>D.</b> <p>\\(0^*(10+1)^*\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(0^*(10+1)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2260/gate1997-6-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following state table shown in figure for a sequential machine. The number of states in the minimized machine will be<br><br> \\(\\begin{array}{|l|l|ll|}\\hline \\text{} &amp; \\text{} &amp; \\textbf{Input}\\\\\\hline &amp;&amp; \\text{0} &amp; \\text{1} \\\\\\hline  \\textbf{Present State} &amp; \\textbf{A} &amp; \\text{D,0} &amp; \\text{B,1} \\\\   \\text{} &amp; \\textbf{B} &amp; \\text{A,0} &amp; \\text{C,1}\\\\   &amp; \\textbf{C} &amp; \\text{A,0} &amp; \\text{B,1} \\\\  \\text{} &amp; \\textbf{D} &amp; \\text{A,1} &amp; \\text{C,1} \\\\\\hline \\text{} &amp; \\text{} &amp; \\textbf{Next state, Output}\\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2752/gate1996-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Define a context free languages \\(L \\in \\{0, 1\\}^*, \\text{init} (L) = \\{u \\mid uv \\in L\\) for some v in \\(\\{0, 1\\}^*\\}\\) ( in other words, \\(\\text{init}(L)\\) is the set of prefixes of L)<br>\nLet  \\(L = \\{w \\mid w \\text{ is nonempty and has an equal number of $0$'s and $1$'s}\\}\\)\nThen \\(\\text{init}(L)\\) is: <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the set of all binary strings with unequal number of 0's and 1's</p>",
+            "<b>B.</b> <p>the set of all binary strings including null string</p>",
+            "<b>C.</b> <p>the set of all binary strings with exactly one more 0 than the number of 1's or one more 1 than the number of 0's</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the set of all binary strings including null string</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2738/gate1996-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>If \\(L_1\\) and \\(L_2\\) are context free languages and R a regular set, one of the languages below is not necessarily a context free language. Which one? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1.L_2\\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\cap L_2\\)</p>",
+            "<b>C.</b> <p>\\(L_1 \\cap R\\)</p>",
+            "<b>D.</b> <p>\\(L_1 \\cup L_2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(L_1 \\cap L_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2737/gate1996-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\(L \\subseteq \\Sigma^*\\) where \\(\\Sigma = \\left\\{a,b \\right\\}\\). Which of the following is true? <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L = \\left\\{x \\mid x \\text{ has an equal number of } a\\text{'s and }b\\text{'s}\\right \\}\\) is regular</p>",
+            "<b>B.</b> <p>\\(L = \\left\\{a^nb^n \\mid n \\geq 1\\right \\}\\) is regular</p>",
+            "<b>C.</b> <p>\\(L = \\left\\{x \\mid x \\text{ has more number of }a\\text{'s than }b\\text{'s}\\right \\}\\) is regular</p>",
+            "<b>D.</b> <p>\\(L = \\left\\{a^mb^n \\mid m \\geq 1, n \\geq 1 \\right \\}\\) is regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(L = \\left\\{a^mb^n \\mid m \\geq 1, n \\geq 1 \\right \\}\\) is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2714/gate1996-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

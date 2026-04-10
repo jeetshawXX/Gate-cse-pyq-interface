@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Functions",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373740\"></a><div itemprop=\"text\"><p>Consider a software project with the following information domain characteristics for calculation of function point metric.</p>\n\n<ul>\n\t<li>Number of external inputs \\( \\text{(I)}&nbsp;= 30 \\)</li>\n\t<li>Number of external outputs \\( \\text{(O)}&nbsp;= 60 \\)</li>\n\t<li>Number of external inquiries \\( \\text{(E)}&nbsp;= 23 \\)</li>\n\t<li>Number of files \\( \\text{(F)}&nbsp;= 08 \\)</li>\n\t<li>Number of external interfaces \\( \\text{(N)} \\) = 02\\( </li>\n</ul>\n\n<p>It is given that the complexity weighting factors for  \\)\\text{I, O, E, F}\\(  and  \\)\\text{N}\\(  are  \\)4, 5, 4, 10\\(  and  \\)7,\\(  respectively. It is also given that, out of fourteen value adjustment factors that influence the development effort, four factors are not applicable, each of the other four factors have value  \\)3,\\(  and each of the remaining factors have value  \\)4.$ The computed value of function point metric is _________.</p>\n\n</div><br><br><b>IS&Software Engineering: NIELIT 2022 April Scientist B | Section B | Question: 98</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 612.06 \\)</p>",
+            "<p>\\( 212.05 \\)</p>",
+            "<p>\\( 305.09 \\)</p>",
+            "<p>\\( 806.9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 612.06 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373740/nielit-2022-april-scientist-b-section-b-question-98\" target=\"_blank\">https://gateoverflow.in/373740/nielit-2022-april-scientist-b-section-b-question-98</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Combinational_Circuit - Combinational_Circuit - Slot 4",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Combinational_Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of full and half-adders required to add 16-bit numbers is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 half-adders, 8 full-adders</p>",
+            "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+            "<b>C.</b> <p>16 half-adders, 0 full-adders</p>",
+            "<b>D.</b> <p>4 half-adders, 12 full-adders</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1494/gate1999-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A multiplexer with a 4-bit data select input is a <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4:1 multiplexer</p>",
+            "<b>B.</b> <p>2:1 multiplexer</p>",
+            "<b>C.</b> <p>16:1 multiplexer</p>",
+            "<b>D.</b> <p>8:1 multiplexer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16:1 multiplexer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1651/gate1998-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>An N-bit carry lookahead adder, where N is a multiple of 4, employs ICs 74181 (4 bit ALU) and 74182 ( 4 bit carry lookahead generator).<br>\nThe minimum addition time using the best architecture for this adder is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>proportional to N</p>",
+            "<b>B.</b> <p>proportional to \\(\\log\\) N</p>",
+            "<b>C.</b> <p>a constant</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>proportional to \\(\\log\\) N</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2231/gate1997-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the circuit in figure. f implements<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q2.22_6eb0c2a6.jpg\"><br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{A} \\overline{B}C + \\overline{A}B \\overline{C} + ABC\\)</p>",
+            "<b>B.</b> <p>\\(A + B + C\\)</p>",
+            "<b>C.</b> <p>\\(A \\oplus B \\oplus C\\)</p>",
+            "<b>D.</b> <p>\\(AB + BC + CA\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(A \\oplus B \\oplus C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2751/gate1996-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the circuit in below figure which has a four bit binary number \\(b_3b_2b_1b_0\\) as input and a five bit binary number, \\(d_4d_3d_2d_1d_0\\) as output.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q2.21_d96f0d46.jpg\"><br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Binary to Hex conversion</p>",
+            "<b>B.</b> <p>Binary to BCD conversion</p>",
+            "<b>C.</b> <p>Binary to Gray code conversion</p>",
+            "<b>D.</b> <p>Binary to radix-12 conversion</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Binary to radix-12 conversion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2750/gate1996-2-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the circuit shown below. The output of a 2:1 Mux is given by the\nfunction (ac' + bc). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q36_4a2799c2.jpg\"> Which of the following is true? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f= x1'x2 + x1x2'</p>",
+            "<b>B.</b> <p>f = x1 + x2'</p>",
+            "<b>C.</b> <p>f = x1x2 + x1'x2'</p>",
+            "<b>D.</b> <p>f= x1' + x2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>f = x1x2 + x1'x2'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/729/gate2001-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The output F of the below multiplexer circuit can be represented by <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q1-IV_325ec5d5.jpg\"><br> <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}\\)</p>",
+            "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+            "<b>C.</b> <p>\\(A \\oplus B\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80193/gate1987-1-iv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q15a_90d927be.jpg\"><br>The frequency of oscillation is given by \\(f= 1/2 \\pi\\) CR. To have the system oscillate the ratio \\(R_{2}/R_{1}\\) should be <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5</p>",
+            "<b>B.</b> <p>29</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>Any value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Any value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82656/gate1987-15a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

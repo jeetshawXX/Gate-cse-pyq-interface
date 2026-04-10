@@ -1,0 +1,161 @@
+{
+  "title": "Non GATE CSE - Object Oriented Programming - Java",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57741\"></a><div itemprop=\"text\"><p>Which is the method used to retrieve the current state of a check box?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2012 | Part 3 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>get State ( )</p>",
+            "<p>put State ( )</p>",
+            "<p>retrieve State ( )</p>",
+            "<p>write State ( )</p>"
+          ],
+          "correct_answer": "<p>get State ( )</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57741/ugc-net-cse-december-2012-part-3-question-69\" target=\"_blank\">https://gateoverflow.in/57741/ugc-net-cse-december-2012-part-3-question-69</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"113832\"></a><div itemprop=\"text\"><p>Given the array of integers ‘array’ shown below:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:250px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>13</td>\n\t\t\t<td>7</td>\n\t\t\t<td>27</td>\n\t\t\t<td>2</td>\n\t\t\t<td>18</td>\n\t\t\t<td>33</td>\n\t\t\t<td>9</td>\n\t\t\t<td>11</td>\n\t\t\t<td>22</td>\n\t\t\t<td>8</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What is the output of the following JAVA statements?</p>\n\n<pre class=\"prettyprint lang-java\">int[] p = new int [10];\nint[] q = new int [10];\nfor (int k=0; k&lt; 10; k++)\n    p[k]=array [k];\nq=p;\np[4]=20;\nSystem.out.println(array[4]+\":\"+q[4]);</pre>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | January 2017 | Part 3 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>20:20</p>",
+            "<p>18:18</p>",
+            "<p>18:20</p>",
+            "<p>20:18</p>"
+          ],
+          "correct_answer": "<p>18:20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/113832/ugc-net-cse-january-2017-part-3-question-38\" target=\"_blank\">https://gateoverflow.in/113832/ugc-net-cse-january-2017-part-3-question-38</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335199\"></a><div itemprop=\"text\"><p>Consider the following JAVA program:</p>\n\n<pre class=\"prettyprint linenums lang-java\" data-pbcklang=\"java\" data-pbcktabsize=\"4\">public class First {\n    public static int CBSE (int x) {\n            if (x &lt; 100)x = CBSE&nbsp;(x+10);&nbsp;&nbsp;\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return (x-1);\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}\n &nbsp; &nbsp; public static void main(String[]args){\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;System.out.print(First.CBSE(60));\n &nbsp; &nbsp; }\n}\n</pre>\n\n<p>What does this&nbsp;program print?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | January 2017 | Part 3 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 59 \\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( 95 \\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( 69 \\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( 99 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 95 \\)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335199/ugc-net-cse-january-2017-part-3-question-39\" target=\"_blank\">https://gateoverflow.in/335199/ugc-net-cse-january-2017-part-3-question-39</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"335198\"></a><div itemprop=\"text\"><p>Which of the following statement(s) with regard to an abstract class in JAVA is /are TRUE ?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>An abstract class is one that is not used to create objects</li>\n\t<li>An abstract class is designed only to act as a base class to be inherited by other classes</li>\n</ol>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | January 2017 | Part 3 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only I&nbsp; &nbsp;</p>",
+            "<p>&nbsp;only II&nbsp;</p>",
+            "<p>Neither I&nbsp;&nbsp;nor II</p>",
+            "<p>Both I and II</p>"
+          ],
+          "correct_answer": "<p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335198/ugc-net-cse-january-2017-part-3-question-40\" target=\"_blank\">https://gateoverflow.in/335198/ugc-net-cse-january-2017-part-3-question-40</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"63964\"></a><div itemprop=\"text\"><p>It is possible to define a class within a class termed as nested class. There are __ types of nested classes</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | July 2016 | Part 3 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2</p>",
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>5</p>"
+          ],
+          "correct_answer": "<p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63964/ugc-net-cse-july-2016-part-3-question-38\" target=\"_blank\">https://gateoverflow.in/63964/ugc-net-cse-july-2016-part-3-question-38</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"63968\"></a><div itemprop=\"text\"><p>When one object reference variable is assigned to another object reference variable then</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | July 2016 | Part 3 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a copy of the object is created</p>",
+            "<p>a copy of the reference is created</p>",
+            "<p>a copy of the reference is not created</p>",
+            "<p>It is illegal to assign one object reference variable&nbsp;to another object reference variable</p>"
+          ],
+          "correct_answer": "<p>a copy of the reference is created</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63968/ugc-net-cse-july-2016-part-3-question-42\" target=\"_blank\">https://gateoverflow.in/63968/ugc-net-cse-july-2016-part-3-question-42</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"56425\"></a><div itemprop=\"text\"><p>Assume that we have constructor functions for both base class and derived class. Now consider the declaration in</p>\n\n<p>main()</p>\n\n<p>Base *P=New Derived;</p>\n\n<p>In what sequence will the constructor be called?</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | June 2012 | Part 3 | Question: 70, UGCNET</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Derived class constructor followed by Base class constructor</p>",
+            "<p>Base class constructor followed by Derived class constructor</p>",
+            "<p>Base class constructor will not be called</p>",
+            "<p>Derived class constructor will not be called</p>"
+          ],
+          "correct_answer": "<p>Base class constructor followed by Derived class constructor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56425/ugc-net-cse-june-2012-part-3-question-70-ugcnet-sep2013-iii-52\" target=\"_blank\">https://gateoverflow.in/56425/ugc-net-cse-june-2012-part-3-question-70-ugcnet-sep2013-iii-52</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"61268\"></a><div itemprop=\"text\">\n<p>In Java, when we implement an interface method, it must be declared as</p>\n\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | Junet 2015 | Part 3 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Private</p>",
+            "<p>Protected</p>",
+            "<p>Public</p>",
+            "<p>Friend</p>"
+          ],
+          "correct_answer": "<p>Public</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61268/ugc-net-cse-junet-2015-part-3-question-37\" target=\"_blank\">https://gateoverflow.in/61268/ugc-net-cse-junet-2015-part-3-question-37</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"61271\"></a><div itemprop=\"text\">\n<p>The Servlet Response interface enables a servlet to formulate a response for a client using the method</p>\n\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | Junet 2015 | Part 3 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>void log(Exception e, String s)</p>",
+            "<p>void destroy()</p>",
+            "<p>int get ServerPort()</p>",
+            "<p>void set ContextType(String Type)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61271/ugc-net-cse-junet-2015-part-3-question-38\" target=\"_blank\">https://gateoverflow.in/61271/ugc-net-cse-junet-2015-part-3-question-38</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"61272\"></a><div itemprop=\"text\">\n<p>Which one of the following is correct?</p>\n\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | Junet 2015 | Part 3 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Java applets cannot be written in any programming language</p>",
+            "<p>An applet is not a small program</p>",
+            "<p>An applet can be run on its own</p>",
+            "<p>Applets are embedded in another applications</p>"
+          ],
+          "correct_answer": "<p>Applets are embedded in another applications</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61272/ugc-net-cse-junet-2015-part-3-question-39\" target=\"_blank\">https://gateoverflow.in/61272/ugc-net-cse-junet-2015-part-3-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

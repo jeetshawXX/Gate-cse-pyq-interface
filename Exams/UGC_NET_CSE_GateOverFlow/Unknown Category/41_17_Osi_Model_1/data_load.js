@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Unknown Category - Osi Model",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Osi Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166263\"></a><div itemprop=\"text\"><p>Which of the following layer of OSI Reference model is also called end-to-end layer ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | November 2017 | Part 2 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Network layer</p>",
+            "<p>Datalink layer</p>",
+            "<p>Session layer</p>",
+            "<p>Transport layer</p>"
+          ],
+          "correct_answer": "<p>Transport layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166263/ugc-net-cse-november-2017-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/166263/ugc-net-cse-november-2017-part-2-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

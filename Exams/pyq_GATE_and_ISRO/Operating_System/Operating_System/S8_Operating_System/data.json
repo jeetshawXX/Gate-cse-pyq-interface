@@ -1,0 +1,216 @@
+{
+  "title": "Operating_System - Operating_System - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a computer system with ten physical page frames. The system is provided with an accessse quence \\((a_{1},a_{2},...,a_{20},a_{1},a_{2},...,a_{20})\\), where each \\(a_{i}\\) is a distinct virtual page number. The difference in the number of page faults between the last-in-first-outpage replacement policy and the optimal page replacement policy is ______. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39711/gate2016-1-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a disk queue with requests for I/O to blocks on cylinders 47,38,121,191,87,11, 92, 10. The C-LOOK scheduling algorithm is used. The head is initially at cylinder number 63, moving to wards larger cylinder numbers on its servicing pass. The cylinders are numbered from 0to 199. The total head movement (in number of cylinders) incurred while servicing these requests is____ . <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "346",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39716/gate2016-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a computer system with 40-bit virtual addressing and page size of sixteen\nkilobytes. If the computer system has a one level page table per process and each page table entry requires 48 bits, then the size of the per-process page table is _________ mega bytes. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "384",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39690/gate2016-1-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider an arbitrary set of CPU-bound processes with unequal CPU burst lengths\nsubmitted at the same time to a computer system.Which one of the following process scheduling algorithms would minimize the average waiting time in the ready queue? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Shortest remaining time first</p>",
+            "<b>B.</b> <p>Round-robin with time quantum less than the shortest CPU burst</p>",
+            "<b>C.</b> <p>Uniform random</p>",
+            "<b>D.</b> <p>Highest priority first with priority proportional to CPU burst length</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Shortest remaining time first</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39655/gate2016-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A processor can support a maximum memory of 4GB, where the memory is word-addressable (a word consists of two bytes). The size of the address bus of the process or is at least bits________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "31",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39632/gate2016-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Dirty bit for a page in a page table <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+            "<b>B.</b> <p>helps maintain LRU information</p>",
+            "<b>C.</b> <p>allows only read on a page</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2241/gate1997-3-10-isro2008-57-isro2015-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Suppose two jobs, each of which needs 10 minutes of CPU time, start simultaneously. Assume 50% I/O wait time. How long will it take for both to complete, if they run sequentially? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>30</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>40</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19455/isro2015-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following program.<br><pre><code> main()\n{\n    fork();\n    fork();\n    fork();\n}</code></pre>How many new processes will be created? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51698/isro2015-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Increasing the RAM of a computer typically improves performance because: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Virtual Memory increases</p>",
+            "<b>B.</b> <p>Larger RAMs are faster</p>",
+            "<b>C.</b> <p>Fewer page faults occur</p>",
+            "<b>D.</b> <p>Fewer segmentation faults occur</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Fewer page faults occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1358/gate2005-22-isro2015-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>At a particular time of computation, the value of a counting semaphore is 7. Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is : <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>42</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/564/gate1992-02-x-isro2015-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Suppose a system contains n processes and system uses the round-robin algorithm for CPU scheduling then which data structure is best suited ready queue of the process <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>stack</p>",
+            "<b>B.</b> <p>queue</p>",
+            "<b>C.</b> <p>circular queue</p>",
+            "<b>D.</b> <p>tree</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>circular queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51692/isro2015-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In a lottery scheduler with 40 tickets, how we will distribute the tickets among 4 processes P1,P2,P3 and P4 such that each process gets 10%, 5%, 60% and 25% respectively? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P1-12, P2-4, P3-70, P4-30</p>",
+            "<b>B.</b> <p>P1-7, P2-5, P3-20, P4-10</p>",
+            "<b>C.</b> <p>P1-4, P2-2, P3-24, P4-10</p>",
+            "<b>D.</b> <p>P1-8, P2-5, P3-30, P4-40</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P1-4, P2-2, P3-24, P4-10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51218/isro2015-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If there are 32 segments, each size 1k bytes, then the logical address should have <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13 bits</p>",
+            "<b>B.</b> <p>14 bits</p>",
+            "<b>C.</b> <p>15 bits</p>",
+            "<b>D.</b> <p>16 bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51212/isro2015-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Semaphores are used to solve the problem of<br>I.  Race Condition<br>II.  Process Synchronization<br>III. Mutual Exclusion<br>IV.  None of the above <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>II and III</p>",
+            "<b>C.</b> <p>All of the above</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19489/isro2015-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>For the processes listed in the following table, which of the following scheduling schemes will give the lowest average turnaround time? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q47_eabb2659.jpg\"> <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Come First Serve</p>",
+            "<b>B.</b> <p>Non-preemptive Shortest Job First</p>",
+            "<b>C.</b> <p>Shortest Remaining Time</p>",
+            "<b>D.</b> <p>Round Robin with Quantum value two</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Shortest Remaining Time</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8492/gate2015-3-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

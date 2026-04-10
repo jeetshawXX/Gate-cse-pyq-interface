@@ -1,0 +1,439 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Application_Layer_Protocols",
+  "duration": 80,
+  "sections": [
+    {
+      "name": "Application_Layer_Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A user starts browsing a webpage hosted at a remote server. The browser opens a\nsingle TCP connection to fetch the entire webpage from the server. The webpage\nconsists of a top-level index page with multiple embedded image objects. Assume\nthat all caches (e.g., DNS cache, browser cache) are all initially empty. The\nfollowing packets leave the user's computer in some order.<br><br>\n(i) HTTP GET request for the index page<br>\n(ii) DNS request to resolve the web server's name to its IP address<br>\n(iii) HTTP GET request for an image object<br>\n(iv) TCP SYN to open a connection to the web server<br><br>\nWhich one of the following is the CORRECT chronological order (earliest in time\nto latest) of the packets leaving the computer ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(iv), (ii), (iii), (i)</p>",
+            "<b>B.</b> <p>(ii), (iv), (iii), (i)</p>",
+            "<b>C.</b> <p>(ii), (iv), (i), (iii)</p>",
+            "<b>D.</b> <p>(iv), (ii), (i), (iii)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(ii), (iv), (i), (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422836/gate-cse-2024-set-1-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose in a web browser, you click on the www.gate-2023.in URL. The browser\ncache is empty. The IP address for this URL is not cached in your local host, so\na DNS lookup is triggered (by the local DNS server deployed on your local host)\nover the 3-tier DNS hierarchy in an iterative mode. No resource records are cached\nanywhere across all DNS servers.<br>\nLet RTT denote the round trip time between your local host and DNS servers\nin the DNS hierarchy. The round trip time between the local host and the web\nserver hosting www.gate-2023.in is also equal to RTT. The HTML file associated\nwith the URL is small enough to have negligible transmission time and negligible\nrendering time by your web browser, which references 10 equally small objects on\nthe same web server.<br>\nWhich of the following statements is/are CORRECT about the minimum elapsed\ntime between clicking on the URL and your browser fully rendering it? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.</p>",
+            "<b>B.</b> <p>5 RTTs, in case of persistent HTTP with pipelining.</p>",
+            "<b>C.</b> <p>9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.</p>",
+            "<b>D.</b> <p>6 RTTs, in case of persistent HTTP with pipelining.</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.</p>",
+            "<b>D.</b> <p>6 RTTs, in case of persistent HTTP with pipelining.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399269/gate-cse-2023-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the resolution of the domain name \\(www.gate.org.in\\) by a DNS resolver. Assume that no resource records are cached anywhere across the DNS servers and that iterative query mechanism is used in the resolution. The number of DNS query-response pairs involved in completely resolving the domain name is . <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371911/Gate-cse-2022-question-25#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Remote Procedure Calls are used for <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>communication between two processes remotely different from each other on the same system</p>",
+            "<b>B.</b> <p>communication between two processes on the same system</p>",
+            "<b>C.</b> <p>communication between two processes on the separate systems</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: Question is excluded from the evaluation due to ambiguity.<br> <a href=\"https://gateoverflow.in/331457/isro2020-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Assume that you have made a request for a web page through your web browser to a web server. Initially the browser cache is empty. Further, the browser is configured to send HTTP requests in non-persistent mode. The web page contains text and five very small images.The minimum number of TCP connections required to display the web page completely in your browser is__________. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333206/gate2020-cs-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following protocol pairs can be used to send and retrieve e-mails (in that order)? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IMAP POP3</p>",
+            "<b>B.</b> <p>SMTP, POP3</p>",
+            "<b>C.</b> <p>SMTP, MIME</p>",
+            "<b>D.</b> <p>IMAP, SMTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>SMTP, POP3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302832/gate2019-cs-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is WPA? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>wired protected access</p>",
+            "<b>B.</b> <p>wi-fi protected access</p>",
+            "<b>C.</b> <p>wired process access</p>",
+            "<b>D.</b> <p>wi-fi process access</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>wi-fi protected access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128670/isro2017-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which protocol suite designed by IETF to provide security for a packet at the Internet layer? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IPSec</p>",
+            "<b>B.</b> <p>NetSec</p>",
+            "<b>C.</b> <p>PacketSec</p>",
+            "<b>D.</b> <p>SSL</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>IPSec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128668/isro2017-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following protocol is used for transferring electronic mail messages from one machine to another? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TELNET</p>",
+            "<b>B.</b> <p>FTP</p>",
+            "<b>C.</b> <p>SNMP</p>",
+            "<b>D.</b> <p>SMTP</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>SMTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128659/isro2017-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DNS lookup</p>",
+            "<b>B.</b> <p>DNS hijacking</p>",
+            "<b>C.</b> <p>DNS spoofing</p>",
+            "<b>D.</b> <p>None of the mentioned</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS spoofing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55536/isro2016-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server,assuming that the host has just been restarted. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP GET request, DNS query, TCP SYN</p>",
+            "<b>B.</b> <p>DNS query, HTTP GET request, TCP SYN</p>",
+            "<b>C.</b> <p>DNS query,TCP SYN, HTTP GET request</p>",
+            "<b>D.</b> <p>TCP SYN, DNS query, HTTP GET request</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS query,TCP SYN, HTTP GET request</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39572/gate2016-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following is/are example(s) of stateful application layer protocols?<br>\n(i) HTTP <br>\n(ii) FTP <br>\n(iii) TCP <br>\n(iv) POP3 <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and(ii)only</p>",
+            "<b>B.</b> <p>(ii) and(iii)only</p>",
+            "<b>C.</b> <p>(ii) and(iv)only</p>",
+            "<b>D.</b> <p>(iv)only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(ii) and(iv)only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39628/gate2016-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which statement is false? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>PING is a TCP/IP application that sends datagrams once every second in the hope of an echo response from the machine being PINGED</p>",
+            "<b>B.</b> <p>If the machine is connected and running a TCP/IP protocol stack, it should respond to the PING datagram with a datagram of its own</p>",
+            "<b>C.</b> <p>If PING encounters an error condition, an ICMP message is not returned</p>",
+            "<b>D.</b> <p>PING display the time of the return response in milliseconds or one of several error message</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>If PING encounters an error condition, an ICMP message is not returned</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51980/isro2015-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The DNS maps the IP address to <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A binary address as strings</p>",
+            "<b>B.</b> <p>A n alphanumeric address</p>",
+            "<b>C.</b> <p>A hierarchy of domain names</p>",
+            "<b>D.</b> <p>A hexadecimal address</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A hierarchy of domain names</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46736/isro2015-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following statements is NOT correct about HTTP cookies? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A cookie is a piece of code that has the potential to compromise the security of an Internet user</p>",
+            "<b>B.</b> <p>A cookie gains entry to the user's work area through an HTTP header</p>",
+            "<b>C.</b> <p>A cookie has an expiry date and time</p>",
+            "<b>D.</b> <p>Cookies can be used to track the browsing pattern of a user at a particular site</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A cookie is a piece of code that has the potential to compromise the security of an Internet user</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8063/gate2015-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>In one of the pairs of protocols given below, both the protocols can use multiple TCP connections between the same client and the server. Which one is that? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP, FTP</p>",
+            "<b>B.</b> <p>HTTP, TELNET</p>",
+            "<b>C.</b> <p>FTP, SMTP</p>",
+            "<b>D.</b> <p>HTTP, SMTP</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>HTTP, FTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8214/gate2015-1-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Suppose you are browsing the world wide web using a web browser and trying to access the web servers. What is the underlying protocol and port number that are being used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>UDP, 80</p>",
+            "<b>B.</b> <p>TCP, 80</p>",
+            "<b>C.</b> <p>TCP, 25</p>",
+            "<b>D.</b> <p>UDP, 25</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP, 80</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55009/isro2014-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>A graphical HTML browser resident at a network client machine Q accesses a static HTML\nwebpage from a HTTP server S. The static HTML page has exactly one static embedded\nimage which is also at S. Assuming no caching, which one of the following is correct about\nthe HTML webpage loading (including the embedded image)? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q needs to send at least 2 HTTP requests to S, each necessarily in a separate TCP\nconnection to server S</p>",
+            "<b>B.</b> <p>Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient</p>",
+            "<b>C.</b> <p>A single HTTP request from Q to S is sufficient, and a single TCP connection between Q and S is necessary for this</p>",
+            "<b>D.</b> <p>A single HTTP request from Q to S is sufficient, and this is possible without any TCP connection between Q and S</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Q needs to send at least 2 HTTP requests to S, but a single TCP connection to server S is sufficient</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1987/gate2014-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Identify the correct order in which the following actions take place in an interaction between\na web browser and a web server. <br>\n1. The web browser requests a webpage using HTTP. <br>\n2. The web browser establishes a TCP connection with the web server. <br>\n3. The web server sends the requested webpage using HTTP.<br>\n4. The web browser resolves the domain name using DNS. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4,2,1,3</p>",
+            "<b>B.</b> <p>1,2,3,4</p>",
+            "<b>C.</b> <p>4,1,2,3</p>",
+            "<b>D.</b> <p>2,4,1,3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4,2,1,3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1792/gate2014-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>A packet filtering firewall can <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deny certain users from accessing a service</p>",
+            "<b>B.</b> <p>Block worms and viruses from entering the network</p>",
+            "<b>C.</b> <p>Disallow some files from being accessed through FTP</p>",
+            "<b>D.</b> <p>Block some hosts from accessing the network</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Block some hosts from accessing the network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43986/isro-2013-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The protocol data unit (PDU) for the application layer in the Internet stack is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Segment</p>",
+            "<b>B.</b> <p>Datagram</p>",
+            "<b>C.</b> <p>Message</p>",
+            "<b>D.</b> <p>Frame</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Message</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/42/gate2012-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>HTML (Hyper Text Markup Language) has language elements which permit\ncertain actions other than describing the structure of the web document. Which\none of the following actions is NOT supported by pure HTML (without any server\nor client side scripting) pages? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Embed web objects from different sites into the same page</p>",
+            "<b>B.</b> <p>Refresh the page automatically after a specified interval</p>",
+            "<b>C.</b> <p>Automatically redirect to another page upon download</p>",
+            "<b>D.</b> <p>Display the client time as part of the page</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Display the client time as part of the page</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2111/gate2011-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider different activities related to email. <br><br>\nm1: Send an email from a mail client to a mail server <br>\nm2: Download an email from mailbox server to a mail client <br>\nm3: Checking email in a web browser <br><br>\nWhich is the application level protocol used in each activity? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m1:HTTP m2:SMTP m3:POP</p>",
+            "<b>B.</b> <p>m1:SMTP m2:FTP m3:HTTP</p>",
+            "<b>C.</b> <p>m1: SMTP m2: POP m3: HTTP</p>",
+            "<b>D.</b> <p>m1: POP m2: SMTP m3:IMAP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>m1: SMTP m2: POP m3: HTTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2106/gate2011-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Which one of the following is not a client server application? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Internet chat</p>",
+            "<b>B.</b> <p>Web browsing</p>",
+            "<b>C.</b> <p>E-mail</p>",
+            "<b>D.</b> <p>Ping</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Ping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2189/gate2010-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Which of these is not a feature of WAP 2.0 <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Push and Pull Model</p>",
+            "<b>B.</b> <p>Interface to a storage device</p>",
+            "<b>C.</b> <p>Multimedia messaging</p>",
+            "<b>D.</b> <p>Hashing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Hashing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49631/isro2007-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>HELO and PORT, respectively, are commands from the protocols: <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FTP and HTTP</p>",
+            "<b>B.</b> <p>TELNET and POP3</p>",
+            "<b>C.</b> <p>HTTP and TELNET</p>",
+            "<b>D.</b> <p>SMTP and FTP</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>SMTP and FTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3557/gate2006-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Traceroute reports a possible route that is taken by packets moving from some host A to some other host B. Which of the following options represents the technique used by traceroute to identify these hosts: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router</p>",
+            "<b>B.</b> <p>By requiring each router to append the address to the ICMP packet as it is forwarded to B. The list of all routers en-route to B is returned by B in an ICMP reply packet</p>",
+            "<b>C.</b> <p>By ensuring that an ICMP reply packet is returned to A by each router en-route to B, in the ascending order of their hop distance from A</p>",
+            "<b>D.</b> <p>By locally computing the shortest path from A to B</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3772/gate2005-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the three commands : PROMPT, HEAD and RCPT.\nWhich of the following options indicate a correct association of these commands with protocols where these are used? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP, SMTP, FTP</p>",
+            "<b>B.</b> <p>FTP, HTTP, SMTP</p>",
+            "<b>C.</b> <p>HTTP, FTP, SMTP</p>",
+            "<b>D.</b> <p>SMTP, HTTP, FTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>FTP, HTTP, SMTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3770/gate2005-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following statements:<br><br>\nI. telnet, ftp and http are application layer protocols.<br>\nII. EJB (Enterprise Java Beans) components can be deployed in a J2EE (Java2 Enterprise Edition) application server.<br>\nIII. If two languages conform to the Common Language Specification (CLS) of the Microsoft.NET frame work, then a class defined in any one of them may be inherited in the other.<br><br>\nWhich statements are true? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3673/gate2004-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

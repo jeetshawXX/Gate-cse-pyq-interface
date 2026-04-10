@@ -1,0 +1,206 @@
+{
+  "title": "Algorithms - Algorithms - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Given below are some algorithms, and some algorithm design paradigms.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q37_6178654c.jpg\"><br>\nMatch the above algorithms on the left to the corresponding design paradigm they follow. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1-i, 2-iii, 3-i, 4-v.</p>",
+            "<b>B.</b> <p>1-iii, 2-iii, 3-i, 4-v</p>",
+            "<b>C.</b> <p>1-iii, 2-ii, 3-i, 4-iv</p>",
+            "<b>D.</b> <p>1-iii, 2-ii, 3-i, 4-v.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1-iii, 2-ii, 3-i, 4-iv</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8161/gate2015-2-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider two decision problems Q1,Q2 such that Q1 reduces in polynomial time to 3-SAT and 3-SAT reduces in polynomial time to Q2. Then which one of the following is consistent with the above statement? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q1 is in NP, Q2 is NP hard.</p>",
+            "<b>B.</b> <p>Q2 is in NP, Q1 is NP hard</p>",
+            "<b>C.</b> <p>Both Q1 and Q2 are in NP .</p>",
+            "<b>D.</b> <p>Both Q1 and Q2 are NP hard</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Q1 is in NP, Q2 is NP hard.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8048/gate2015-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following C function.<pre><code>int fun1(int n){\n    int i,j,k,p,q=0;\n    for (i=1; i &lt; n; ++i) {\n        p=0;\n        for (j=n; j &gt; 1; j=j/2)\n              ++p;\n        for (k=1; k &lt; p; k=k*2) \n             ++q;\n        }\n    return q;\n} </code></pre> Which one of the following most closely approximates the return value of the function fun1? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^{3}\\)</p>",
+            "<b>B.</b> <p>\\(n(log n)^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n log n\\)</p>",
+            "<b>D.</b> <p>\\(n log(log n)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(n log(log n)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8263/gate2015-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The graph shown below has 8 edges with distinct integer edge weights. The minimum spanning tree (MST) is of weight 36 and contains the edges: {(A, C), (B, C), (B, E), (E, F), (D, F)}. The edge weights of only those edges which are in the MST are given in the figure shown below. The minimum possible sum of weights of all 8 edges of this graph is ___________. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q53_b563227e.jpg\"> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "69",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8313/gate2015-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let G = (V, E) be a simple undirected graph, and s be a particular vertex in it called the source. For \\(x \\in V\\), let d(x) denote the shortest distance in G from s to x. A breadth first search (BFS) is performed starting at s. Let T be the resultant BFS tree. If (u,v) is an edge of G that is not in T, then which one of the following CANNOT be the value of d(u)-d(v)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-1</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8321/gate2015-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which one of the following is the recurrence equation for the worst case time complexity of the Quicksort algorithm for sorting n ( \\(\\geq\\)2) numbers? In the recurrence equations given in the options below, c is a constant. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=2T(n/2)+cn</p>",
+            "<b>B.</b> <p>T(n)=T(n-1)+T(1)+cn</p>",
+            "<b>C.</b> <p>T(n)=2T(n-1)+cn</p>",
+            "<b>D.</b> <p>T(n)=T(n/2)+cn</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>T(n)=T(n-1)+T(1)+cn</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8017/gate2015-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Match the following:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q3_33b11b5a.jpg\"> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-iii, Q-ii, R-iv, S-i</p>",
+            "<b>B.</b> <p>P-i, Q-ii, R-iv, S-iii</p>",
+            "<b>C.</b> <p>P-ii, Q-iii, R-iv, S-i</p>",
+            "<b>D.</b> <p>P-ii, Q-i, R-iii, S-iv</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-ii, Q-iii, R-iv, S-i</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8088/gate2015-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following sorting algorithms.<br>I.\nQuicksort<br>II.  Heapsort<br>III&gt; Mergesort<br>Which of them perform in least time in the worst case? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55014/isro2014-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the decision problem 2CNFSAT defined as follows: <br>\n{ \\(\\phi\\) | \\(\\phi\\)  is a satisfiable propositional formula in CNF with at most two literal per clause} <br>\nFor example, \\(\\phi =(x_{1} \\vee x_{2}) \\wedge (x_{1}  \\vee \\bar{x_{3}}) \\wedge (x_{2}  \\vee x_{4})\\) is a Boolean formula and it is in 2CNFSAT. <br> The decision problem 2CNFSAT is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>NP-Complete</p>",
+            "<b>B.</b> <p>solvable in polynomial time by reduction to directed graph reachability.</p>",
+            "<b>C.</b> <p>solvable in constant time since any input instance is satisfiable</p>",
+            "<b>D.</b> <p>NP-hard, but not NP-complete</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>solvable in polynomial time by reduction to directed graph reachability.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2072/gate2014-3-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Suppose you want to move from 0 to 100 on the number line. In each step, you either move right by a unit distance or you take a shortcut. A shortcut is simply a pre-specified pair of integers i,j with \\(i \\lt j\\). Given a shortcut i, j if you are at position i on the number line, you may directly move to j. Suppose T(k) denotes the smallest number of steps needed to move from k to 100. suppose further that there is at most 1 shortcut involving any number, and in particular from 9 there is a shortcut to 15. Let y and z be such that T(9) = 1 + min(T(y), T(z)). Then the value of the product yz is_______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "150",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2071/gate2014-3-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>You have an array of n elements. Suppose you implement quick sort by always choosing the central element of the array as the pivot. Then the tightest upper bound for the worst case performance is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(O(n logn)\\)</p>",
+            "<b>C.</b> <p>\\(\\theta (n logn)\\)</p>",
+            "<b>D.</b> <p>\\(O(n^{3})\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(O(n^{2})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2048/gate2014-3-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose depth first search is executed on the graph below starting at some unknown vertex. Assume that a recursive call to visit a vertex is made only after first checking that the vertex has not been visited earlier. Then the maximum possible recursion depth (including the initial call) is _________.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q13_494e6aeb.jpg\"> <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2047/gate2014-3-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The number of distinct minimum spanning trees for the weighted graph below is  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q52_d03ffa26.jpg\"> <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2019/gate2014-2-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Suppose P, Q, R, S, T are sorted sequences having lengths 20, 24, 30, 35, 50 respectively.\nThey are to be merged into a single sequence by merging together two sequences at a time.\nThe number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "358",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1997/gate2014-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider two strings A=\"qpqrr\" and B=\"pqprqrp\". Let x be the length of the longest\ncommon subsequence (not necessarily contiguous) between A and B and let y be the number\nof such longest common subsequences between A and B. Then x + 10y = ___. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1996/gate2014-2-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

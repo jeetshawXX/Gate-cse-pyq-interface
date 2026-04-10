@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Quadratic Equations",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Quadratic Equations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349665\"></a><div itemprop=\"text\"><p>What is the radix of the numbers if the solution to the quadratic equation \\( x^2-10x+26=0 \\) is \\( x=4 \\) and \\( x=7 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: UGC NET CSE | October 2020 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 11 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349665/ugc-net-cse-october-2020-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/349665/ugc-net-cse-october-2020-part-2-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,221 @@
+{
+  "title": "Non GATE CSE - Java - Java",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336663\"></a><div itemprop=\"text\"><p>Earlier name of Java programming language was:</p>\n\n</div><br><br><b>Java: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>OAK</p>",
+            "<p>D</p>",
+            "<p>Netbean</p>",
+            "<p>Eclipse</p>"
+          ],
+          "correct_answer": "<p>OAK</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336663/nielit-2016-dec-scientist-b-it-section-b-6\" target=\"_blank\">https://gateoverflow.in/336663/nielit-2016-dec-scientist-b-it-section-b-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336660\"></a><div itemprop=\"text\"><p>Which of the following is a platform free language?</p>\n\n</div><br><br><b>Java: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>JAVA</p>",
+            "<p>C</p>",
+            "<p>Assembly</p>",
+            "<p>Fortran</p>"
+          ],
+          "correct_answer": "<p>JAVA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336660/nielit-2016-dec-scientist-b-it-section-b-9\" target=\"_blank\">https://gateoverflow.in/336660/nielit-2016-dec-scientist-b-it-section-b-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336394\"></a><div itemprop=\"text\"><p>Which of the following is/are true about packages in Java?&nbsp;</p>\n\n<ol>\n\t<li>&nbsp;Every class is part of some package.</li>\n\t<li>All classes in a file are part of the same package.</li>\n\t<li>If no package is specified, the classes in the file go into a special unnamed package.</li>\n\t<li>If no package is specified, a new package is created with folder name of class and the class is put in this package.</li>\n</ol>\n\n</div><br><br><b>Java: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( 1,2 \\) and \\( 3 \\)</p>",
+            "<p>Only \\( 1,2 \\) and \\( 4 \\)</p>",
+            "<p>Only \\( 4 \\)</p>",
+            "<p>Only \\( 1 \\) and \\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>Only \\( 1,2 \\) and \\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336394/nielit-2017-july-scientist-b-it-section-b-41\" target=\"_blank\">https://gateoverflow.in/336394/nielit-2017-july-scientist-b-it-section-b-41</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336393\"></a><div itemprop=\"text\"><p>Which of the following is false about abstract classes in Java?</p>\n\n</div><br><br><b>Java: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If we derive an abstract class and do not implement all the abstract methods, then the derived class should also&nbsp;be marked as abstract using 'abstract' keyword.</p>",
+            "<p>Abstract classes can have constructors.</p>",
+            "<p>A class can be made abstract without any abstract method.</p>",
+            "<p>A class can inherit from multiple abstract classes.</p>"
+          ],
+          "correct_answer": "<p>A class can inherit from multiple abstract classes.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336393/nielit-2017-july-scientist-b-it-section-b-42\" target=\"_blank\">https://gateoverflow.in/336393/nielit-2017-july-scientist-b-it-section-b-42</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336392\"></a><div itemprop=\"text\"><p>Which of the following is true about interfaces in Java?&nbsp;</p>\n\n<ol>\n\t<li>&nbsp;An interface can contain following type of members. \\( \\dots \\) public, static, final fields(i.e., constants)\\( \\dots \\)default and static methods with bodies.</li>\n\t<li>An instance of interface can be created.</li>\n\t<li>&nbsp;A class can implement multiple interfaces.</li>\n\t<li>Many classes can implement the same interface.</li>\n</ol>\n\n</div><br><br><b>Java: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,3 \\) and \\( 4 \\)</p>",
+            "<p>\\( 1,2 \\) and \\( 4 \\)</p>",
+            "<p>\\( 2,3 \\) and \\( 4 \\)</p>",
+            "<p>\\( 1,2,3 \\) and \\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1,3 \\) and \\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336392/nielit-2017-july-scientist-b-it-section-b-43\" target=\"_blank\">https://gateoverflow.in/336392/nielit-2017-july-scientist-b-it-section-b-43</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336977\"></a><div itemprop=\"text\"><p>Is null an object?</p>\n\n</div><br><br><b>Java: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Yes</p>",
+            "<p>No</p>",
+            "<p>Sometimes yes</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>No</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336977/nielit-2017-oct-scientific-assistant-a-it-section-b-8\" target=\"_blank\">https://gateoverflow.in/336977/nielit-2017-oct-scientific-assistant-a-it-section-b-8</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351353\"></a><div itemprop=\"text\"><p>In the given program:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">class Dialog1\n{\n    public static void main(String args[])\n    {\n        Frame f1=new Frame(\"INDIA\");\n        f1.setSize(300,300);\n        f1.setVisible(true);\n        FileDialog d=new FileDialog(f1,\"MyDialog\");\n        d.setVisible(true);\n        String fname=d.getDirectory()+d.getFile();\n        System.out.println(\"The Selection is\"+fname);\n    }\n}</pre>\n\n<p>To make the Frame visible, which of the following statements are true?</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 107</b></p>",
+          "type": "single",
+          "options": [
+            "<p>f1.setClear(true);</p>",
+            "<p>f1.setVisible(true);</p>",
+            "<p>f1.setlook(true);</p>",
+            "<p>f1.setclean(true);</p>"
+          ],
+          "correct_answer": "<p>f1.setVisible(true);</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351353/nielit-scientific-assistant-a-2020-november-107\" target=\"_blank\">https://gateoverflow.in/351353/nielit-scientific-assistant-a-2020-november-107</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"351352\"></a><div itemprop=\"text\"><p>Which of the following are two main types of overloading in Java?</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 108</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Overloading and linking</p>",
+            "<p>Overriding and linking</p>",
+            "<p>Reusability and data-hiding</p>",
+            "<p>Overloading and Overriding</p>"
+          ],
+          "correct_answer": "<p>Overloading and Overriding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351352/nielit-scientific-assistant-a-2020-november-108\" target=\"_blank\">https://gateoverflow.in/351352/nielit-scientific-assistant-a-2020-november-108</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"351350\"></a><div itemprop=\"text\"><p>In Java, for ensuring the persistence property, the class must implements:</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 110</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Serializable Interface</p>",
+            "<p>Utilization Interface</p>",
+            "<p>Threadable Interface</p>",
+            "<p>Recognizable Interface</p>"
+          ],
+          "correct_answer": "<p>Serializable Interface</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351350/nielit-scientific-assistant-a-2020-november-110\" target=\"_blank\">https://gateoverflow.in/351350/nielit-scientific-assistant-a-2020-november-110</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"351348\"></a><div itemprop=\"text\"><p>In Java, the Dynamic Array are known as :</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 112</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Vectors</p>",
+            "<p>Cycle</p>",
+            "<p>Remote</p>",
+            "<p>Kubernotos</p>"
+          ],
+          "correct_answer": "<p>Vectors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351348/nielit-scientific-assistant-a-2020-november-112\" target=\"_blank\">https://gateoverflow.in/351348/nielit-scientific-assistant-a-2020-november-112</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"351392\"></a><div itemprop=\"text\"><p>Which of the following construct is not supported by Java Server Pages?</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{JSP} \\) Directives</p>",
+            "<p>\\( \\text{JSP} \\) Scriptlets</p>",
+            "<p>\\( \\text{JSP} \\) Actions</p>",
+            "<p>\\( \\text{JSP} \\) Reaction</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{JSP} \\) Reaction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351392/nielit-scientific-assistant-a-2020-november-68\" target=\"_blank\">https://gateoverflow.in/351392/nielit-scientific-assistant-a-2020-november-68</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"351386\"></a><div itemprop=\"text\"><p>What is the output of the following program?</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">abstract class sum\n{\n    public abstract int sumOfTwo(int n1, int n2);\n    public abstract int sumOfThree(int n1, int n2, int n3);\n    public void disp(){\n        System.out.println(\"Method of class Sum\");\n    }\n}\n\nclass DemoAbstract1 extends Sum\n{\n    public int sumOfTwo(int num1, int num2)\n    {\n        return num1+num2;\n    }\n    public int sumOfThree(int num1, int num2, int num3)\n    {\n        return num1+num2+num3;\n    }\n    \n    public static void main(String args[]){\n        Sum obj=new DemoAbstract1();\n        System.out.println(obj.sumOfTwo(3,7));\n        System.out.println(obj.sumOfThree(4,3,19));\n        obj.disp();\n    }\n}</pre></div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10\\\\26\\\\\\text{Method of class Sum} \\)</p>",
+            "<p>\\( 26\\\\10\\\\\\text{Method of class Sum} \\)</p>",
+            "<p>\\( \\text{Method of class Sum}\\\\26\\\\10 \\)</p>",
+            "<p>\\( \\text{Error} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10\\\\26\\\\\\text{Method of class Sum} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351386/nielit-scientific-assistant-a-2020-november-74\" target=\"_blank\">https://gateoverflow.in/351386/nielit-scientific-assistant-a-2020-november-74</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"351376\"></a><div itemprop=\"text\"><p>The static keyword is used in public static void main() declaration in Java:</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 84</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To enable the \\( \\text{JVM} \\) to make call to the main(), as class has not been instantiated</p>",
+            "<p>To enable the \\( \\text{JVM} \\) to make call to the main(), as class has not been inherited</p>",
+            "<p>To enable the \\( \\text{JVM} \\) to make call to the main(), as class has not been loaded</p>",
+            "<p>To enable the \\( \\text{JVM} \\) to make call to the main(), as class has not been finalized</p>"
+          ],
+          "correct_answer": "<p>To enable the \\( \\text{JVM} \\) to make call to the main(), as class has not been instantiated</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351376/nielit-scientific-assistant-a-2020-november-84\" target=\"_blank\">https://gateoverflow.in/351376/nielit-scientific-assistant-a-2020-november-84</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"351371\"></a><div itemprop=\"text\"><p>Which of the following Interface is not supported by \\( \\text{JDBC} \\) for connecting to Database in Java Programming language?</p>\n\n</div><br><br><b>Java: NIELIT Scientific Assistant A 2020 November: 89</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statement Interface</p>",
+            "<p>Prepared Statement Interface</p>",
+            "<p>Callable Statement Interface</p>",
+            "<p>Database Interface</p>"
+          ],
+          "correct_answer": "<p>Database Interface</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351371/nielit-scientific-assistant-a-2020-november-89\" target=\"_blank\">https://gateoverflow.in/351371/nielit-scientific-assistant-a-2020-november-89</a></p>"
+        }
+      ]
+    }
+  ]
+}

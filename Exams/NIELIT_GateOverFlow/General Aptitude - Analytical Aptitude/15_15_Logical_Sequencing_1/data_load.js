@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Logical Sequencing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Logical Sequencing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"410601\"></a><div itemprop=\"text\"><p>In the following question, arrange the words in a logical sequence and choose the correct sequence from the given alternatives :</p>\n\n<p>1. Atomic age,<br>\n2. Metallic age,<br>\n3. Stone age,<br>\n4. Alloy age</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,3,4,2 \\)</p>",
+            "<p>\\( 3,2,4,1 \\)</p>",
+            "<p>\\( 2,3,1,4 \\)</p>",
+            "<p>\\( 4,3,2,1 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 3,2,4,1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410601/nielit-2023-feb-scientist-d-section-a-question-2\" target=\"_blank\">https://gateoverflow.in/410601/nielit-2023-feb-scientist-d-section-a-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

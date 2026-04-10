@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Storage Classes In C",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Storage Classes In C",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"154275\"></a><div itemprop=\"text\"><p>Which of the following does not represent a valid storage class in ’c’?</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | June 2009 | Part 2 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>automatic</p>",
+            "<p>static</p>",
+            "<p>union&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>extern</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154275/ugc-net-cse-june-2009-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/154275/ugc-net-cse-june-2009-part-2-question-16</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"55186\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)</p>\n\n<p>\\( \\begin{array}{cIcI} &nbsp; &amp; \\textbf{List – I} &amp;&amp; \\textbf{List – II} \\\\ &nbsp;\\text{a.} &amp; \\text{Automatic Storage} &amp; \\text{i.} &amp; \\text{Scope of the variable is global}\\\\ &amp; \\text{Class} &nbsp;\\\\&nbsp; \\text{b.} &amp;&nbsp; \\text{Register&nbsp;Storage } &amp; \\text{ii.} &amp; \\text{Value of the variable persists between }&nbsp; \\\\ &amp; \\text{Class} &amp;&amp; \\text{different function calls}\\\\&nbsp; \\text{c.} &amp;&nbsp; \\text{Static&nbsp;Storage} &amp; \\text{iii.} &amp; \\text{Value stored in memory and local to the block}&nbsp;\\\\ &amp; \\text{Class} &amp;&amp; \\text{in which the variable is defined}\\\\ &nbsp;\\text{d.} &amp;&nbsp; &nbsp;\\text{External&nbsp;Storage} &amp; \\text{iv.} &amp; \\text{value stored in CPU registers} \\\\ &amp;&nbsp; \\text{class} \\\\ &nbsp; &nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | June 2014 | Part 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iii; b-iv; c-i; d-ii} \\)</p>",
+            "<p>\\( \\text{a-iii; b-iv; c-ii; d-i} \\)</p>",
+            "<p>\\( \\text{a-iv; b-iii; c-ii; d-ii} \\)</p>",
+            "<p>\\( \\text{a-iv; b-iii; ci; d-ii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iii; b-iv; c-ii; d-i} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55186/ugc-net-cse-june-2014-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/55186/ugc-net-cse-june-2014-part-2-question-41</a></p>"
+        }
+      ]
+    }
+  ]
+});

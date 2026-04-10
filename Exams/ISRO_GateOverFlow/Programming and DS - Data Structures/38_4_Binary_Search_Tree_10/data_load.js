@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Binary Search Tree",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Binary Search Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"909\"></a><div itemprop=\"text\"><p>Suppose the numbers \\( 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 \\) are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?</p></div><br><br><b>Data Structures: GATE CSE 2003 | Question: 19, ISRO2009</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\&nbsp;5&nbsp; \\ 1 \\ 0 \\ 3 \\ 2 \\ 4 \\ 6 \\ 8 \\ 9 \\)</p>",
+            "<p>\\( 0 \\ 2 \\&nbsp;4 \\ 3 \\ 1 \\ 6 \\&nbsp;5&nbsp; \\ 9&nbsp; \\ 8&nbsp; \\ 7 \\)</p>",
+            "<p>\\( 0 \\ 1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9 \\)</p>",
+            "<p>\\( 9 \\ 8 \\ 6 \\ 4&nbsp; \\ 2&nbsp; \\ 3 \\ 0 \\ 1 \\ 5 \\ 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\ 1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/909/gate-cse-2003-question-19-isro2009-24\" target=\"_blank\">https://gateoverflow.in/909/gate-cse-2003-question-19-isro2009-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"950\"></a><div itemprop=\"text\"><p>A data structure is required for storing a set of integers such that each of the following operations can be done in \\( O(\\log n) \\) time, where \\( n \\) is the number of elements in the set.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\n\t<p>Deletion of the smallest element</p>\n\t</li>\n\t<li>Insertion of an element if it is not already present in the set</li>\n</ol>\n\n<p>Which of the following data structures can be used for this purpose?</p>\n\n</div><br><br><b>Data Structures: GATE CSE 2003 | Question: 63, ISRO2009</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A heap can be used but not a balanced binary search tree</p>",
+            "<p>A balanced binary search tree can be used but not a heap</p>",
+            "<p>Both balanced binary search tree and heap can be used</p>",
+            "<p>Neither balanced search tree nor heap can be used</p>"
+          ],
+          "correct_answer": "<p>A balanced binary search tree can be used but not a heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25\" target=\"_blank\">https://gateoverflow.in/950/gate-cse-2003-question-63-isro2009-25</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1001\"></a><div itemprop=\"text\"><p>The following numbers are inserted into an empty binary search tree in the given order: \\( 10, 1, 3, 5, 15, 12, 16 \\). What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?</p>\n\n\n\n</div><br><br><b>Data Structures: GATE CSE 2004 | Question: 4, ISRO2009</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1001/gate-cse-2004-question-4-isro2009-26\" target=\"_blank\">https://gateoverflow.in/1001/gate-cse-2004-question-4-isro2009-26</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"18134\"></a><div itemprop=\"text\"><p>How many distinct binary search trees can be created out of \\( 4 \\) distinct keys?</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2011 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 35 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18134/isro-cse-2011-question-11\" target=\"_blank\">https://gateoverflow.in/18134/isro-cse-2011-question-11</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"52839\"></a><div itemprop=\"text\"><p>The average depth of a binary search tree is</p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2011 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n^{0.5}) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52839/isro-cse-2011-question-62\" target=\"_blank\">https://gateoverflow.in/52839/isro-cse-2011-question-62</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"54963\"></a><div itemprop=\"text\"><p>Consider the following binary search tree T given below: Which node contains the fourth smallest element in T?</p><p><img alt=\"\" width=\"350\" height=\"301\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=12218043872589619600\"></p></div><br><br><b>Data Structures: ISRO CSE 2014 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Q</p>",
+            "<p>V</p>",
+            "<p>W</p>",
+            "<p>X</p>"
+          ],
+          "correct_answer": "<p>W</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54963/isro-cse-2014-question-41\" target=\"_blank\">https://gateoverflow.in/54963/isro-cse-2014-question-41</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"331322\"></a><div itemprop=\"text\"><p>What is the in-order successor of \\( 15 \\) in the given binary search tree?</p>\n\n<p><img alt=\"\" height=\"216\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=17993588686636912396\" width=\"237\"></p>\n\n</div><br><br><b>Data Structures: ISRO CSE 2020 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 17 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331322/isro-cse-2020-question-19\" target=\"_blank\">https://gateoverflow.in/331322/isro-cse-2020-question-19</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"435328\"></a><div itemprop=\"text\"><p>What is the Inorder predecessor of \\( 15 \\) in the Binary Search Tree shown below</p><p style=\"text-align:center\"><img alt=\"Tree\" width=\"500\" height=\"454\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=2203641658532233358\"></p></div><br><br><b>Data Structures: ISRO CSE 2023 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435328/isro-cse-2023-question-67\" target=\"_blank\">https://gateoverflow.in/435328/isro-cse-2023-question-67</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"182099\"></a><div itemprop=\"text\"><p>A binary search tree is used to locate the number \\( 43. \\) Which one of the following<br>\nprobe sequence is not possible?</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 61,52,14,17,40,43 \\)</p>",
+            "<p>\\( 10,65,31,48,37,43 \\)</p>",
+            "<p>\\( 81,61,52,14,41,43 \\)</p>",
+            "<p>\\( 17,77,27,66,18,43 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 17,77,27,66,18,43 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182099/isro-dec2017-49\" target=\"_blank\">https://gateoverflow.in/182099/isro-dec2017-49</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"182101\"></a><div itemprop=\"text\"><p>Suppose the numbers \\( 7,5,1,8,3,6,0,9,4,2 \\) are inserted in that order into an initially empty binary search tree.The binary search tree uses the reversal ordering on natural numbers i.e. \\( 9 \\) is assumed to be smallest and \\( 0 \\) is assumed to be largest. The \\( in \\)-\\( order \\) traversal of the resultant binary search tree is</p>\n\n</div><br><br><b>Data Structures: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9,8,6,4,2,3,0,1,5,7 \\)</p>",
+            "<p>\\( 0,1,2,3,4,5,6,7,8,9 \\)</p>",
+            "<p>\\( 0,2,4,3,1,6,5,9,8,7 \\)</p>",
+            "<p>\\( 9,8,7,6,5,4,3,2,1,0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9,8,7,6,5,4,3,2,1,0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182101/isro-dec2017-51\" target=\"_blank\">https://gateoverflow.in/182101/isro-dec2017-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

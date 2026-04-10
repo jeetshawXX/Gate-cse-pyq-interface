@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Dynamic Linking",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Dynamic Linking",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63447\"></a><div itemprop=\"text\"><p>Which of the following is not typically a benefit of dynamic linking?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Reduction in overall program execution time</li>\n\t<li>Reduction in overall space consumption in memory</li>\n\t<li>Reduction in overall space consumption on disk</li>\n\t<li>Reduction in the cost of software updates\n\t\n\t</li>\n</ol></div><br><br><b>Operating System: UGC NET CSE | July 2016 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and IV</p>",
+            "<p>I only</p>",
+            "<p>II and III</p>",
+            "<p>IV only</p>"
+          ],
+          "correct_answer": "<p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63447/ugc-net-cse-july-2016-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/63447/ugc-net-cse-july-2016-part-2-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - System Software Compilers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "System Software Compilers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71566\"></a><div itemprop=\"text\"><p>Match each software term in List-I to its description in List-II :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp;&nbsp; &nbsp;\\textbf{List-I} &amp;&amp; \\textbf{List-II} \\\\&nbsp;\\text{I.} &amp; \\text{Wizards} &amp; \\text{a.} &amp; \\text{forms that provides structure} \\\\ &amp;&amp;&amp; \\text{for a document.} \\\\&nbsp;\\text{II.} &amp; \\text{Templates} &amp; \\text{b.} &amp; \\text{A series of commands grouped} \\\\ &amp;&amp;&amp; \\text{into a single command.}&nbsp; \\\\&nbsp;\\text{III.} &amp; \\text{Macros} &amp; \\text{c.} &amp; \\text{A single program that incorporates} \\\\ &amp;&amp; &amp; \\text{most commonly used tools.}&nbsp;\\\\ \\text{IV.} &amp; \\text{Integrated Software} &amp; \\text{d.} &amp; \\text{step by step guide in application } \\\\ &amp;&amp;&amp; \\text{software.}&nbsp;\\\\&nbsp;\\text{V.} &amp; \\text{Software Suite} &amp; \\text{e.} &amp; \\text{Bundled group of software program} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Others: UGC NET CSE | August 2016 | Part 3 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{a-ii, b-iii, c-iv, d-i, e-v} \\)</p>",
+            "<p>\\( \\text{a-ii, b-i, c-iv, d-iii, e-v} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-v, d-i, e-ii} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-ii, d-v, e-i} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71566/ugc-net-cse-august-2016-part-3-question-45\" target=\"_blank\">https://gateoverflow.in/71566/ugc-net-cse-august-2016-part-3-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

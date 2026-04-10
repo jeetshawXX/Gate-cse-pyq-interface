@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Information System",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Information System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61028\"></a><div itemprop=\"text\"><p>A computer based information system is needed :</p><p>I. As it is difficult for administrative staff to process data.</p><p>II. Due to rapid growth of information and communication technology.</p><p>III. Due to growing size of organizations which need to process large volume of data.</p><p>IV. As timely and accurate decisions are to be taken.</p><p>Which of the above statement(s) is/are true ?</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2014 | Part 3 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\) and \\( II \\)</p>",
+            "<p>\\( III \\) and \\( IV \\)</p>",
+            "<p>\\( II \\) and \\( III \\)&nbsp;</p>",
+            "<p>\\( II \\) and \\( IV \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( III \\) and \\( IV \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61028/ugc-net-cse-december-2014-part-3-question-60\" target=\"_blank\">https://gateoverflow.in/61028/ugc-net-cse-december-2014-part-3-question-60</a></p>"
+        }
+      ]
+    }
+  ]
+});

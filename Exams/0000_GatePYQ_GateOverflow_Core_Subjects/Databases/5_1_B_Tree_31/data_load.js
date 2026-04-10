@@ -1,0 +1,423 @@
+window.__examLoadCallback({
+  "title": "Databases - B Tree",
+  "duration": 86,
+  "sections": [
+    {
+      "name": "B Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"91199\"></a><div itemprop=\"text\"><p>The below figure shows a \\( B^+ \\) tree where only key values are indicated in the records. Each block can hold upto three records. A record with a key value \\( 34 \\) is inserted into the \\( B^+ \\) tree. Obtain the modified \\( B^+ \\) tree after insertion.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/b89d28011451456d5b41db0b7e76be3d.png\"></p></div><br><br><b>GATE CSE 1989 | Question: 12a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/91199/gate-cse-1989-question-12a\" target=\"_blank\">https://gateoverflow.in/91199/gate-cse-1989-question-12a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2510\"></a><div itemprop=\"text\"><p>Consider \\( B^+ \\) - tree of order \\( d \\) shown in figure. (A&nbsp;\\( B^+ \\) - tree of order \\( d \\) contains between \\( d \\) and \\( 2d \\) keys in each node)</p>\n\n<p>Draw the resulting \\( B^+ \\) - tree after \\( 100 \\) is inserted in the figure below.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/b549b3ac6b6b6313ce694f6d568ccc83.png\"></p></div><br><br><b>GATE CSE 1994 | Question: 14a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2510/gate-cse-1994-question-14a\" target=\"_blank\">https://gateoverflow.in/2510/gate-cse-1994-question-14a</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"360163\"></a><div itemprop=\"text\">For a \\( B^+ \\) - tree of order \\( d \\) with \\( n \\) leaf nodes, the number of nodes accessed during a search is \\( O(\\_) \\).</div><br><br><b>GATE CSE 1994 | Question: 14b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/360163/gate-cse-1994-question-14b\" target=\"_blank\">https://gateoverflow.in/360163/gate-cse-1994-question-14b</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2279\"></a><div itemprop=\"text\"><p>A \\( B^+ \\) - tree of order \\( d \\) is a tree in which each internal node has between \\( d \\) and \\( 2 d \\) key values. An internal node with \\( M \\) key values has \\( M + 1 \\) children. The root (if it is an internal node) has between \\( 1 \\) and \\( 2d \\) key values. The distance of a node from the root is the length of the path from the root to the node. All leaves are at the same distance from the root. The height of the tree is the distance of a leaf from the root.</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>What is the total number of key values in the internal nodes of a \\( B^+ \\)-tree with \\( l \\) leaves (\\( l\\geq 2 \\))?</p>",
+            "<p>What is the maximum number of internal nodes in a \\( B^+ \\) - tree of order \\( 4 \\) with \\( 52 \\) leaves?</p>",
+            "<p>What is the minimum number of leaves in a \\( B^+ \\)-tree of order \\( d \\) and height \\( h(h\\geq 1) \\)?</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2279/gate-cse-1997-question-19\" target=\"_blank\">https://gateoverflow.in/2279/gate-cse-1997-question-19</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1478\"></a><div itemprop=\"text\">\n<p>Which of the following is correct?</p>\n\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>B-trees are for storing data on disk and B\\( ^+ \\) trees are for main memory.</p>",
+            "<p>Range queries are faster on B\\( ^+ \\) trees.</p>",
+            "<p>B-trees are for primary indexes and B\\( ^+ \\) trees are for secondary indexes.</p>",
+            "<p>The height of a B\\( ^+ \\) tree is independent of the number of records.</p>"
+          ],
+          "correct_answer": "<p>Range queries are faster on B\\( ^+ \\) trees.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1478/gate-cse-1999-question-1-25\" target=\"_blank\">https://gateoverflow.in/1478/gate-cse-1999-question-1-25</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1520\"></a><div itemprop=\"text\">Consider a B-tree with degree \\( m \\), that is, the number of children, \\( c \\), of any internal node (except the root) is such that \\( m \\leq c \\leq 2m-1 \\). Derive the maximum and minimum number of records in the leaf nodes for such a B-tree with height \\( h, h \\geq 1. ( \\)Assume that the root of a tree is at height \\( 0). \\)</div><br><br><b>GATE CSE 1999 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1520/gate-cse-1999-question-21\" target=\"_blank\">https://gateoverflow.in/1520/gate-cse-1999-question-21</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"646\"></a><div itemprop=\"text\">\n<p>B\\( ^{+} \\)-trees are preferred to binary trees in databases because</p>\n\n\n</div><br><br><b>GATE CSE 2000 | Question: 1.22, UGCNET-June2012-II: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Disk capacities are greater than memory capacities</p>",
+            "<p>Disk access is much slower than memory access</p>",
+            "<p>Disk data transfer rates are much less than memory data transfer rates</p>",
+            "<p>Disks are more reliable than memory</p>"
+          ],
+          "correct_answer": "<p>Disk access is much slower than memory access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/646/gate-cse-2000-question-1-22-ugcnet-june2012-ii-11\" target=\"_blank\">https://gateoverflow.in/646/gate-cse-2000-question-1-22-ugcnet-june2012-ii-11</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"692\"></a><div itemprop=\"text\"><p>(a) Suppose you are given an empty \\( B^+ \\)&nbsp;tree where each node (leaf and&nbsp;internal) can store&nbsp;up to \\( 5 \\) key values. Suppose values \\( 1, 2,\\ldots 10 \\) are&nbsp;inserted, in order, into the tree. Show the tree pictorially</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>&nbsp;after \\( 6 \\) insertions, and</li>\n\t<li>&nbsp;after all \\( 10 \\) insertions</li>\n</ol>\n\n<p>Do NOT&nbsp;show intermediate stages.</p>\n\n<p>(b) Suppose instead of splitting a node when it is full, we try to move a value to&nbsp;the left sibling. If there is no left&nbsp;sibling, or the left&nbsp;sibling&nbsp;is full, we split the&nbsp;node. Show the tree after values \\( 1, 2,\\ldots , 9 \\)&nbsp; have been inserted. Assume, as&nbsp;in (a) that each node can hold&nbsp;up to \\( 5 \\)&nbsp;keys.</p>\n\n<p>(c) In general, suppose a \\( B^+ \\)&nbsp;tree node can hold a maximum of \\( m \\) keys,and you&nbsp;insert a&nbsp;long&nbsp; sequence of keys in increasing order.&nbsp;Then what approximately&nbsp;is the average number of keys in each leaf level node.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>in the normal case, and</li>\n\t<li>with the insertion as in (b).</li>\n</ol></div><br><br><b>GATE CSE 2000 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/692/gate-cse-2000-question-21\" target=\"_blank\">https://gateoverflow.in/692/gate-cse-2000-question-21</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"763\"></a><div itemprop=\"text\"><p>We wish to construct a \\( B^+ \\) tree with fan-out (the number of pointers per node) equal to \\( 3 \\) for the following set of key values:</p>\n\n<p>\\( 80, 50, 10, 70, 30, 100, 90 \\)</p>\n\n<p>Assume that the tree is initially empty and the values are added in the order given.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>Show the tree after insertion of \\( 10 \\), after insertion of \\( 30 \\), and after insertion of \\( 90 \\). Intermediate trees need not be shown.</li>\n\t<li>The key values \\( 30 \\) and \\( 10 \\) are now deleted from the tree in that order show the tree after each deletion.</li>\n</ol></div><br><br><b>GATE CSE 2001 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/763/gate-cse-2001-question-22\" target=\"_blank\">https://gateoverflow.in/763/gate-cse-2001-question-22</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"870\"></a><div itemprop=\"text\"><ol style=\"list-style-type:lower-alpha\">\n<li>The following table refers to search items for a key in \\( B \\)-trees and \\( B^+ \\) trees.<br>\n\\[ \\begin{array}{|ll|ll|} \\hline &amp; \\textbf {B-tree} &amp; &amp; \\textbf {B}^+\\text{-tree} &nbsp; \\\\\\hline \\text{Successful search&nbsp; &nbsp; &nbsp; } &amp;\\text{&nbsp; &nbsp; Unsuccessful search} &amp;\\text{Successful search&nbsp; &nbsp; &nbsp;} &amp; \\text{&nbsp; &nbsp; &nbsp;Unsuccessful search} &nbsp;&nbsp;\\\\\\hline &nbsp;\\text{\\( X_1 \\)} &amp;\\text{\\( X_2 \\)} &amp; \\text{\\( X_3 \\)} &amp;\\text{\\( X_4 \\)}\\\\\\hline&nbsp; \\end{array} \\]<br>\nA successful search means that the key exists in the database and unsuccessful means that it is not present in the database. Each of the entries \\( X_1, X_2, X_3 \\) and \\( X_4 \\) can have a value of either Constant or Variable. Constant means that the search time is the same, independent of the specific key value, where variable means that it is dependent on the specific key value chosen for the search.<br>\nGive the correct values for the entries \\( X_1, X_2, X_3 \\) and \\( X_4 \\) (for example \\( X_1 = \\text{Constant}, \\) \\( X_2 = \\text{Constant }, X_3 = \\text{Constant}, X_4=\\text{ Constant}) \\)</li>\n<li>Relation \\( R(A,B) \\) has the following view defined on it:\n<pre class=\"prettyprint lang-sql\">CREATE VIEW V AS \n(SELECT R1.A,R2.B \nFROM R AS R1, R as R2 \nWHERE R1.B=R2.A)</pre>\n\n<ol style=\"list-style-type:lower-roman\">\n<li>The current contents of relation \\( R \\) are shown below. What are the contents of the view \\( V \\)?<br>\n\\[  \\begin{array}{|c|c|} \\hline \\text {A} &amp; \\text {B} \\\\\\hline&nbsp; \\text {1} &amp; &nbsp;\\text{2} \\\\ \\text{2}&amp; \\text{3} \\\\ \\text{2} &amp;\\text{4}\\\\&nbsp;\\text {4} &amp; &nbsp;\\text{5} \\\\ \\text{6}&amp; \\text{7} \\\\ \\text{6} &amp;\\text{8} \\\\ \\text{9} &amp; \\text{10}\\\\\\hline \\end{array} \\]</li>\n<li>The tuples \\( (2,11) \\) and \\( (11,6) \\) are now inserted into \\( R. \\) What are the <em>additional </em>tuples that are inserted in \\( V \\)?</li>\n</ol>\n</li>\n</ol></div><br><br><b>GATE CSE 2002 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/870/gate-cse-2002-question-17\" target=\"_blank\">https://gateoverflow.in/870/gate-cse-2002-question-17</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"853\"></a><div itemprop=\"text\"><p>A \\( B^+ \\) - tree index is to be built on the <em>Name</em>&nbsp;attribute of the relation&nbsp;<em>STUDENT.&nbsp;</em>Assume that all the student names are of length \\( 8 \\) bytes, disk blocks are of size \\( 512 \\) bytes, and index pointers are of size \\( 4 \\) bytes. Given the scenario, what would be the best choice of the degree (i.e. number of pointers per node) of the \\( B^+ \\) - tree?</p>\n\n\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.23, UGCNET-June2012-II: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 42 \\)</p>",
+            "<p>\\( 43 \\)</p>",
+            "<p>\\( 44 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 43 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/853/gate-cse-2002-question-2-23-ugcnet-june2012-ii-26\" target=\"_blank\">https://gateoverflow.in/853/gate-cse-2002-question-2-23-ugcnet-june2012-ii-26</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"952\"></a><div itemprop=\"text\"><p>Consider the following \\( 2-3-4 \\) tree (i.e., B-tree with a minimum degree of two) in which each data item is a letter. The usual alphabetical ordering of letters is used in constructing the tree.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/5c9aa1192371205a7f1b47c307b8dbde.png\" width=\"450\"></p>\n\n<p>What is the result of inserting \\( G \\) in the above tree?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/c6d58b7fb52b7de1b524d5e54175cbaa.png\" width=\"400\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/ae449a036d48f5a9175ec7ea0e4b0460.png\" width=\"400\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/6d2f017d183d1486835064a2ee4ccb8d.png\" width=\"400\"></p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/databases___b_tree/ae449a036d48f5a9175ec7ea0e4b0460.png\" width=\"400\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/952/gate-cse-2003-question-65\" target=\"_blank\">https://gateoverflow.in/952/gate-cse-2003-question-65</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1048\"></a><div itemprop=\"text\"><p>The order of an internal node in a \\( B+ \\)&nbsp;tree index is the maximum number of children it can have. Suppose that a child pointer takes \\( 6 \\) bytes, the search field value takes \\( 14 \\) bytes, and the block size is \\( 512 \\) bytes. What is the order of the internal node?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 27 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 26 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1048/gate-cse-2004-question-52\" target=\"_blank\">https://gateoverflow.in/1048/gate-cse-2004-question-52</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1364\"></a><div itemprop=\"text\"><p>Which of the following is a key factor for preferring \\( B^+ \\)-trees to binary search trees for indexing database relations?</p></div><br><br><b>GATE CSE 2005 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Database relations have a large number of records</p>",
+            "<p>Database relations are sorted on the primary key</p>",
+            "<p>\\( B^+ \\)-trees require less memory than binary search trees</p>",
+            "<p>Data transfer from disks is in blocks</p>"
+          ],
+          "correct_answer": "<p>Data transfer from disks is in blocks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1364/gate-cse-2005-question-28\" target=\"_blank\">https://gateoverflow.in/1364/gate-cse-2005-question-28</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1261\"></a><div itemprop=\"text\"><p>The order of a leaf node in a \\( B^+ \\) - tree is the maximum number of (value, data record pointer) pairs it can hold. Given that&nbsp;the block size is \\( 1K\\;\\text{bytes} \\), data record pointer is \\( 7\\;\\text{bytes} \\) long, the value field is \\( 9\\;\\text{bytes} \\) long and a block pointer is \\( 6 \\;\\text{bytes} \\) long, what is the order of the leaf node?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 63, ISRO2016-59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 63 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 67 \\)</p>",
+            "<p>\\( 68 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 63 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59\" target=\"_blank\">https://gateoverflow.in/1261/gate-cse-2007-question-63-isro2016-59</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"453\"></a><div itemprop=\"text\"><p>A B-tree of order \\( 4 \\) is built from scratch by \\( 10 \\) successive insertions. What is the maximum number of node splitting operations that may take place?</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/453/gate-cse-2008-question-41\" target=\"_blank\">https://gateoverflow.in/453/gate-cse-2008-question-41</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1330\"></a><div itemprop=\"text\"><p>The following key values are inserted into a \\( B^+ \\) - tree in which order of the internal nodes is \\( 3 \\), and that of&nbsp;the leaf nodes is \\( 2 \\), in the sequence given below. The order of internal nodes is the maximum number of tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in it. The \\( B^+ \\) - tree is initially empty</p><p>\\( 10 \\), \\( 3 \\), \\( 6 \\), \\( 8 \\),&nbsp;\\( 4 \\), \\( 2 \\), \\( 1 \\)</p><p>The maximum number of times leaf nodes would get split up as a result of these insertions is</p></div><br><br><b>GATE CSE 2009 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1330/gate-cse-2009-question-44\" target=\"_blank\">https://gateoverflow.in/1330/gate-cse-2009-question-44</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"2191\"></a><div itemprop=\"text\"><p>Consider a \\( B^+ \\)-tree in which the maximum number of keys in a node is \\( 5 \\). What is the minimum number of keys in any non-root node?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2191/gate-cse-2010-question-18\" target=\"_blank\">https://gateoverflow.in/2191/gate-cse-2010-question-18</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"8052\"></a><div itemprop=\"text\"><p>With reference to the \\( B^+ \\) tree index of order \\( 1 \\) shown below, the minimum number of nodes (including the Root node) that must be fetched in order to satisfy the following query. \"Get all records with a search key greater than or equal to \\( 7 \\) and less than \\( 15 \\) \" is ______.</p><p><img alt=\"\" width=\"750\" src=\"images/gateOverflow_pyq_images/databases___b_tree/45caa14e8e9bf09043dbede90344dac5.png\"></p></div><br><br><b>GATE CSE 2015 Set 2 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8052/gate-cse-2015-set-2-question-6\" target=\"_blank\">https://gateoverflow.in/8052/gate-cse-2015-set-2-question-6</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"8555\"></a><div itemprop=\"text\">Consider a \\( B^+ \\) tree in which the search key is \\( 12 \\) \\( \\text{bytes} \\) long, block size is \\( 1024 \\) \\( \\text{bytes} \\), record pointer is \\( 10 \\) \\( \\text{bytes} \\) long and the block pointer is \\( 8 \\) \\( \\text{bytes} \\) long. The maximum number of keys that can be accommodated in each non-leaf node of the tree is ______.</div><br><br><b>GATE CSE 2015 Set 3 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8555/gate-cse-2015-set-3-question-46\" target=\"_blank\">https://gateoverflow.in/8555/gate-cse-2015-set-3-question-46</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"39569\"></a><div itemprop=\"text\"><p>B+ Trees are considered BALANCED because.</p>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The lengths of the paths from the root to all leaf nodes are all equal.</p>",
+            "<p>The lengths of the paths from the root to all leaf nodes differ from each other by at most \\( 1 \\).</p>",
+            "<p>The number of children of any two non-leaf sibling nodes differ by at most \\( 1 \\).</p>",
+            "<p>The number of records in any two leaf nodes differ by at most \\( 1 \\).</p>"
+          ],
+          "correct_answer": "<p>The lengths of the paths from the root to all leaf nodes are all equal.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21\" target=\"_blank\">https://gateoverflow.in/39569/gate-cse-2016-set-2-question-21</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"118561\"></a><div itemprop=\"text\">In a \\( B^+ \\) Tree , if the search-key value is \\( 8 \\) bytes long , the block size is \\( 512 \\) bytes and the pointer size is \\( 2\\;\\text{B} \\) , then the maximum order of the \\( B^+ \\) Tree is ____</div><br><br><b>GATE CSE 2017 Set 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "52",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118561/gate-cse-2017-set-2-question-49\" target=\"_blank\">https://gateoverflow.in/118561/gate-cse-2017-set-2-question-49</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"302834\"></a><div itemprop=\"text\"><p>Which one of the following statements is NOT correct about the \\( B^+ \\) tree data structure used for creating an index of a relational database table?</p></div><br><br><b>GATE CSE 2019 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B^+ \\) Tree is a height-balanced tree</p>",
+            "<p>Non-leaf nodes have pointers to data records</p>",
+            "<p>Key values in each node are kept in sorted order</p>",
+            "<p>Each leaf node has a pointer to the next leaf node</p>"
+          ],
+          "correct_answer": "<p>Non-leaf nodes have pointers to data records</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302834/gate-cse-2019-question-14\" target=\"_blank\">https://gateoverflow.in/302834/gate-cse-2019-question-14</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"422831\"></a><div itemprop=\"text\"><p>In a \\( \\mathrm{B}^+ \\) tree, the requirement of at least half-full \\( (50 \\%) \\) node occupancy is relaxed for which one of the following cases?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only the root node</p>",
+            "<p>All leaf nodes</p>",
+            "<p>All internal nodes</p>",
+            "<p>Only the leftmost leaf node</p>"
+          ],
+          "correct_answer": "<p>Only the root node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422831/gate-cse-2024-set-1-question-11\" target=\"_blank\">https://gateoverflow.in/422831/gate-cse-2024-set-1-question-11</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"460069\"></a><div itemprop=\"text\"><p>Consider the following \\( B^{+} \\)tree with \\( 5 \\) nodes, in which a node can store at most \\( 3 \\) key values The value \\( 23 \\) is now inserted in the \\( B^{+} \\)tree. Which of the following options(s) is/are CORRECT?</p><p style=\"text-align:center\"><img alt=\"B plus tree\" width=\"750\" height=\"178\" src=\"images/gateOverflow_pyq_images/databases___b_tree/fcc7b458c49947a1af4576d9ffb013b0.png\"></p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 11</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>None of the nodes will split.</p>",
+            "<p>At least one node will split and redistribute.</p>",
+            "<p>The total number of nodes will remain same.</p>",
+            "<p>The height of the tree will increase.</p>"
+          ],
+          "correct_answer": [
+            "<p>At least one node will split and redistribute.</p>",
+            "<p>The height of the tree will increase.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460069/gate-cse-2025-set-1-question-11\" target=\"_blank\">https://gateoverflow.in/460069/gate-cse-2025-set-1-question-11</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"460846\"></a><div itemprop=\"text\">In a \\( \\mathrm{B}^{+} \\)- tree where each node can hold at most four key values, a root to leaf path consists of the following nodes:<br>\n\\[<br>\n\\mathrm{A}=(49,77,83,-), \\mathrm{B}=(7,19,33,44), \\mathrm{C}=\\left(20^{*}, 22^{*}, 25^{*}, 26^{*}\\right)<br>\n\\]<br>\n<br>\nThe \\( * \\)-marked keys signify that these are data entries in a leaf.<br>\n<br>\nAssume that a pointer between keys \\( k_{1} \\) and \\( k_{2} \\) points to a subtree containing keys in \\( \\left[k_{1}, k_{2}\\right) \\), and that when a leaf is created, the smallest key in it is copied up into its parent.<br>\n<br>\nA record with key value \\( 23 \\) is inserted into the \\( \\mathrm{B}^{+} \\)- tree.<br>\n<br>\nThe smallest key value in the parent of the leaf that contains \\( 25^{*} \\) is __________. (Answer in integer)</div><br><br><b>GATE CSE 2025 | Set 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "33:33",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460846/gate-cse-2025-set-2-question-47\" target=\"_blank\">https://gateoverflow.in/460846/gate-cse-2025-set-2-question-47</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"3723\"></a><div itemprop=\"text\"><p>Consider a table \\( T \\) in a relational database with a key field \\( K \\). A \\( B \\)-tree of order \\( p \\)&nbsp;is used as an access structure on \\( K \\), where \\( p \\) denotes the maximum number of tree pointers in a B-tree index node. Assume that \\( K \\) is \\( 10 \\) \\( bytes \\) long; disk block size is \\( 512 \\) \\( bytes \\); each data pointer P<sub>D</sub>&nbsp;is \\( 8 \\) bytes long and each block pointer P<sub>B</sub> is \\( 5 \\) bytes long. In order for each \\( B \\)-tree node to fit in a single disk block, the maximum value of \\( p \\) is</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 32 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 23 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3723/gate-it-2004-question-79\" target=\"_blank\">https://gateoverflow.in/3723/gate-it-2004-question-79</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"3768\"></a><div itemprop=\"text\"><p>A B-Tree used as an index for a large database table has four levels including the root node. If a new key is inserted in this index, then the maximum number of nodes that could be newly created in the process are</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 23, ISRO2017-67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3768/gate-it-2005-question-23-isro2017-67\" target=\"_blank\">https://gateoverflow.in/3768/gate-it-2005-question-23-isro2017-67</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"3605\"></a><div itemprop=\"text\"><p>In a database file structure, the search key field is \\( 9 \\) \\( bytes \\) long, the block size is \\( 512 \\) \\( bytes \\), a record pointer is \\( 7 \\) \\( bytes \\) and a block pointer is \\( 6 \\) \\( bytes \\). The largest possible order of a non-leaf node in a \\( B^+ \\) tree implementing this file structure is</p></div><br><br><b>GATE IT 2006 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 44 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 34 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3605/gate-it-2006-question-61\" target=\"_blank\">https://gateoverflow.in/3605/gate-it-2006-question-61</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"3536\"></a><div itemprop=\"text\"><p>Consider the \\( B^+ \\)&nbsp;tree in the adjoining figure, where each node has at most two keys and three links.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"154\" src=\"images/gateOverflow_pyq_images/databases___b_tree/a1ed1c2e92ac6752dc28ae429a76d35d.png\" width=\"592\"></p>\n\n<p>Keys \\( K15 \\) and then \\( K25 \\) are inserted into this tree in that order. Exactly how many of the following nodes (disregarding the links) will be present in the tree after the two insertions?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"44\" src=\"images/gateOverflow_pyq_images/databases___b_tree/bf4a6384ac2ce3c3eed9fdda9367e10e.png\" width=\"597\"></p>\n\n</div><br><br><b>GATE IT 2007 | Question: 84</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3536/gate-it-2007-question-84\" target=\"_blank\">https://gateoverflow.in/3536/gate-it-2007-question-84</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"3537\"></a><div itemprop=\"text\"><p>Consider the \\( B^{+} \\) tree in the adjoining figure, where each node has at most two keys and three links.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"160\" src=\"images/gateOverflow_pyq_images/databases___b_tree/80f005773ce43b6bd8fa7fccc8afbb1c.png\" width=\"615\"></p>\n\n<p>Keys \\( K15 \\)&nbsp;and then \\( K25 \\)&nbsp;are inserted into this tree in that order.&nbsp;Now the key&nbsp;\\( K50 \\) is deleted from the \\( B^+ \\)&nbsp;tree resulting after the two insertions made earlier. Consider the following statements about the \\( B^+ \\) tree resulting after this deletion.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>The height of the tree remains the same.</li>\n\t<li>The node&nbsp;<img alt=\"\" height=\"48\" src=\"images/gateOverflow_pyq_images/databases___b_tree/b23042111cd16f73c9ad02ea256968ee.png\" width=\"128\">\n\t<p>(disregarding the links) is present in the tree.</p>\n\t</li>\n\t<li>The root node remains unchanged (disregarding the links).</li>\n</ol>\n\n<p>Which one of the following options is true?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Statements (i) and (ii) are true</p>",
+            "<p>Statements (ii) and (iii) are true</p>",
+            "<p>Statements (iii) and (i) are true</p>",
+            "<p>All the statements are false</p>"
+          ],
+          "correct_answer": "<p>Statements (i) and (ii) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3537/gate-it-2007-question-85\" target=\"_blank\">https://gateoverflow.in/3537/gate-it-2007-question-85</a></p>"
+        }
+      ]
+    }
+  ]
+});

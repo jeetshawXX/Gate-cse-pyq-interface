@@ -1,0 +1,116 @@
+{
+  "title": "Operating System - Process Synchronization",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Process Synchronization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2723\"></a><div itemprop=\"text\"><p>A critical section is a program segment</p>\n\n</div><br><br><b>Operating System: GATE CSE 1996 | Question: 1.19, ISRO2008</b></p>",
+          "type": "single",
+          "options": [
+            "<p>which should run in a certain amount of time</p>",
+            "<p>which avoids deadlocks</p>",
+            "<p>where shared resources are accessed</p>",
+            "<p>which must be enclosed by a pair of semaphore operations, \\( P \\) and \\( V \\)</p>"
+          ],
+          "correct_answer": "<p>where shared resources are accessed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2723/gate-cse-1996-question-1-19-isro2008-61\" target=\"_blank\">https://gateoverflow.in/2723/gate-cse-1996-question-1-19-isro2008-61</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"52258\"></a><div itemprop=\"text\"><p>Below is the precedence graph for a set of tasks to be executed on a parallel processing system \\( S \\).</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=9476609381837446714\" width=\"600\"></p>\n\n<p>What is the efficiency of this precedence graph on \\( S \\) if each of the tasks \\( T_1, \\dots, T_8 \\) takes the same time and the system \\( S \\) has five processors?</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2011 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25\\% \\)</p>",
+            "<p>\\( 40\\% \\)</p>",
+            "<p>\\( 50\\% \\)</p>",
+            "<p>\\( 90\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 40\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52258/isro-cse-2011-question-10\" target=\"_blank\">https://gateoverflow.in/52258/isro-cse-2011-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"53151\"></a><div itemprop=\"text\"><p>In a system using single processor, a new process arrives at the rate of six processes per minute and each such process requires seven seconds of service time. What is the CPU utilization?</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2011 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>70%</p>",
+            "<p>30%</p>",
+            "<p>60%</p>",
+            "<p>64%</p>"
+          ],
+          "correct_answer": "<p>70%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53151/isro-cse-2011-question-77\" target=\"_blank\">https://gateoverflow.in/53151/isro-cse-2011-question-77</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"213521\"></a><div itemprop=\"text\"><p>Procedures \\( P1 \\) and \\( P2 \\) have a producer-consumer relationship, communicating by the use of a set of shared buffers.</p>\n\n<p>\\( P1 \\): repeat</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Obtain an empty buffer</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fill it</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Return a full buffer</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;forever</p>\n\n<p>\\( P2 \\): repeat</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Obtain a full&nbsp;buffer</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Empty&nbsp;it</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Return an empty&nbsp;buffer</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;forever</p>\n\n<p>Increasing the number of buffers is likely to do which of the following?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Increase the rate at which requests are satisfied (throughput)</li>\n\t<li>Decrease the likelihood of deadlock</li>\n\t<li>Increase the ease of achieving a correct implementation</li>\n</ol>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>III only</p>",
+            "<p>II only</p>",
+            "<p>I only</p>",
+            "<p>II and III only</p>"
+          ],
+          "correct_answer": "<p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213521/isro-cse-2018-question-67\" target=\"_blank\">https://gateoverflow.in/213521/isro-cse-2018-question-67</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"331282\"></a><div itemprop=\"text\"><p>The operating system and the other processes are protected from being modified by an already running process because</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2020 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>they run at different time instants and not in parallel</p>",
+            "<p>they are in different logical addresses</p>",
+            "<p>they use a protection algorithm in the scheduler</p>",
+            "<p>every address generated by the CPU is being checked against the relocation and limit parameters</p>"
+          ],
+          "correct_answer": "<p>every address generated by the CPU is being checked against the relocation and limit parameters</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331282/isro-cse-2020-question-26\" target=\"_blank\">https://gateoverflow.in/331282/isro-cse-2020-question-26</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"331250\"></a><div itemprop=\"text\"><p>Dispatch latency is defined as</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2020 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the speed of dispatching a process from running to the ready state</p>",
+            "<p>the time of dispatching a process from running to ready state and keeping the CPU idle</p>",
+            "<p>the time to stop one process and start running another one</p>",
+            "<p>none of these</p>"
+          ],
+          "correct_answer": "<p>the time to stop one process and start running another one</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331250/isro-cse-2020-question-28\" target=\"_blank\">https://gateoverflow.in/331250/isro-cse-2020-question-28</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"435320\"></a><div itemprop=\"text\"><p>In a producer-consumer scenario also known as Bounded-Buffer Problem, what would be the most appropriate synchronization primitive to ensure that the consumer waits when the buffer is empty?</p></div><br><br><b>Operating System: ISRO CSE 2023 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Spinlock</p>",
+            "<p>Mutex lock</p>",
+            "<p>Semaphore</p>",
+            "<p>Monitors<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Semaphore</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435320/isro-cse-2023-question-75\" target=\"_blank\">https://gateoverflow.in/435320/isro-cse-2023-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+}

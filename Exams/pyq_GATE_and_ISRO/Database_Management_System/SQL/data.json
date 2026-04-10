@@ -1,0 +1,815 @@
+{
+  "title": "Database_Management_System - SQL",
+  "duration": 155,
+  "sections": [
+    {
+      "name": "SQL",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following relational schema:<br><br>\n\\(\n\\text{Students} (\\text{\\underline{rollno: integer,} name: string, age: integer, cgpa: real})\n\\)<br>\n\\(\n\\text{Courses} (\\text{\\underline{courseno: integer,} cname: string, credits: integer})\n\\)<br>\n\\(\n\\text{Enrolled} (\\text{ \\underline{rollno: integer,} \\underline{courseno: integer,} grade: string})\n\\)<br><br>\nWhich of the following options is/are correct SQL query/queries to retrieve the names of the students enrolled in course number (i.e. courseno) 1470? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>SELECT S.name FROM Students S WHERE EXISTS (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>B.</b> <p>SELECT S.name FROM Students S WHERE SIZEOF (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno) &gt; 0</p>",
+            "<b>C.</b> <p>SELECT S.name FROM Students S WHERE 0 &lt; (SELECT COUNT(*) FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>D.</b> <p>SELECT S.name FROM Students S NATURAL JOIN Enrolled E WHERE E.courseno = 1470</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>SELECT S.name FROM Students S WHERE EXISTS (SELECT * FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>C.</b> <p>SELECT S.name FROM Students S WHERE 0 &lt; (SELECT COUNT(*) FROM Enrolled E WHERE E.courseno = 1470 AND E.rollno = S.rollno)</p>",
+            "<b>D.</b> <p>SELECT S.name FROM Students S NATURAL JOIN Enrolled E WHERE E.courseno = 1470</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460849/gate-cse-2025-set-2-question-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following database tables of a sports league.\n<br><br>\nplayer(pid,pname,age)\n<br>coach(cid,cname)\n<br>team(tid,tname,city,cid)\n<br>members(pid,tid)\n<br><br>\nAn instance of the table and an SQL query are given.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q45_06d1065f.webp\"><br>\nThe value returned by the given SQL query is _________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "26",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460035/gate-cse-2025-set-1-question-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following table named Student in a relational database. The primary\nkey of this table is rollNum.<br>\\(\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nrollNum&amp;name&amp;gender&amp;marks \\\\ \\hline\n1&amp;Naman&amp;M&amp;62\\\\ \\hline\n2&amp;Aliya&amp;F&amp;70 \\\\ \\hline\n3&amp;Aliya &amp;F&amp;80 \\\\ \\hline\n4&amp;James&amp;M&amp;82\\\\ \\hline\n5&amp;Swati&amp;F&amp;65\\\\ \\hline\n\\end{array} \\)  <br>The SQL query below is executed on this database.<br><pre><code>\nSELECT *\nFROM Student\nWHERE gender = 'F' AND\n marks &gt; 65;\n</code></pre><br>The number of rows returned by the query is ______ <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399260/gate-cse-2023-question-51#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the relational database with the following four schemas and their respective instances.<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q46_acaeb162.jpg\"><br>The number of rows returned by the above SQL query is ___ <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371890/Gate-cse-2022-question-46#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The relation scheme given below is used to store information about the employees of a company, where empId is the key and deptId indicates the department to which the employee is assigned. Each employee is assigned to exactly one department.<br><br>\n\\(\\textsf{emp($\\underline{\\textsf{empId}}$, name, gender, salary, deptId)}\\)<br><br>\nConsider the following SQL query:<pre><code> select deptId, count(*)\nfrom emp\nwhere gender = \"female\" and salary &gt; (select avg(salary)from emp)\ngroup by deptId;</code></pre>The above query gives, for each department in the company, the number of female employees whose salary is greater than the average salary of <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>employees in the department</p>",
+            "<b>B.</b> <p>employees in the company</p>",
+            "<b>C.</b> <p>female employees in the department</p>",
+            "<b>D.</b> <p>female employees in the company</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>employees in the company</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357509/gate-cse-2021-set-2-question-31#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The SQL query<br><pre><code> SELECT columns\nFROM TableA\nRIGHT OUTER JOIN TableB\nON A.columnName = B.columnName\nWHERE A.columnName IS NULL</code></pre><br>returns the following: <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All rows in Table B, which meets equality condition above and, none from Table A which meets the condition.</p>",
+            "<b>B.</b> <p>All rows in Table A, which meets equality condition above and none from Table B, which meets the condition.</p>",
+            "<b>C.</b> <p>All rows in Table B, which meets the equality condition</p>",
+            "<b>D.</b> <p>All rows in Table A, which meets the equality condition</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>All rows in Table B, which meets equality condition above and, none from Table A which meets the condition.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: Question is excluded from the evaluation due to ambiguity.<br> <a href=\"https://gateoverflow.in/331400/isro2020-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Properties of 'DELETE' and 'TRUNCATE' commands indicate that <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>After the execution of 'TRUNCATE' operation, COMMIT, and ROLLBACK statements cannot be performed to retrieve the lost data, while 'DELETE' allow it</p>",
+            "<b>B.</b> <p>After the execution of 'DELETE' and 'TRUNCATE' operation retrieval is easily possible for the lost data</p>",
+            "<b>C.</b> <p>After the execution of 'DELETE' operation, COMMIT and ROLLBACK statements can be performed to retrieve the lost data, while TRUNCATE do not allow it</p>",
+            "<b>D.</b> <p>After the execution of 'DELETE' and 'TRUNCATE' operation no retrieval is possible for the lost data</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>After the execution of 'TRUNCATE' operation, COMMIT, and ROLLBACK statements cannot be performed to retrieve the lost data, while 'DELETE' allow it</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331428/isro2020-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a relational database containing the following schemas. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q13_00d62b79.jpg\"><br>The primary key of each table is indicated by underlining the constituent fields.<pre><code> SELECT s.sno, s.sname\n    FROM Suppliers s, Catalogue c\n    WHERE s.sno=c.sno AND\n        cost &gt; (SELECT AVG (cost)\n                FROM Catalogue\n                WHERE pno = 'P4'\n                GROUP BY pno) ;</code></pre><br>The number of rows returned by the above SQL query is <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333218/gate2020-cs-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A relational database contains two tables Student and Performance as shown below: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q51_c175b8ed.jpg\"><br>The primary key of the Student table is Roll_no. For the Performance table, the columns Roll_no. and Subject_code together from the primary key. Consider the SQL query given below:<pre><code>SELECT S.Student_name, sum(P.Marks)\nFROM Student S, Performance P\nWHERE  P.Marks  &gt;  84\nGROUP BY S.Student_name;</code></pre>The number of rows returned by the above SQL query is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302797/gate2019-cs-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the set of relations given below and the SQL query that follows:<br><pre><code> Students: (Roll_number, Name, Date_of_birth )\n\nCoursed: (Course_number, Course_name, Instructor )\n\nGrades: (Roll_number, Course_number, Grade)\n\nSELECT DISTINCT Name\n\nFROM Students, Courses, Grades\n\nWHERE Students.Roll_number = Grades.Roll_number\n\n                            AND   Courses.Intructor =Sriram\n\n                            AND   Courses.Course_number = Grades.Course_number\n\n                            AND   Grades.Grade = A</code></pre>Which of the following sets is computed by the above query? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Names of Students who have got an A grade in all courses taught by Sriram</p>",
+            "<b>B.</b> <p>Names of Students who have got an A grade in all courses</p>",
+            "<b>C.</b> <p>Names of Students who have got an A grade in at least one of the courses taught by Sriram</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Names of Students who have got an A grade in at least one of the courses taught by Sriram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213546/isro2018-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Given relations R(w,x) and S(y,z), the result of<br>SELECT DISTINCT w,x<br>FROM R,S<br>is guaranteed to be same as R, if <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R has no duplicates and S is non-empty</p>",
+            "<b>B.</b> <p>R and S have no duplicates</p>",
+            "<b>C.</b> <p>S has no duplicates and R is non-empty</p>",
+            "<b>D.</b> <p>R and S have the same number of tuples</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>R has no duplicates and S is non-empty</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213548/isro2018-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following two tables and four queries in SQL. <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q12_98ab1de3.jpg\">   <br>Which one of the queries above is certain to have an output that is a superset of the outputs of the other three queries? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Query 1</p>",
+            "<b>B.</b> <p>Query 2</p>",
+            "<b>C.</b> <p>Query 3</p>",
+            "<b>D.</b> <p>Query 4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Query 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204086/gate2018-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>\\(\\begin{array}{|l|l|l|l|l|} \\hline \\textbf{Employee} &amp; \\textbf{Department} &amp; \\textbf{OT allowance} \\\\ \\hline \\text{RAMA} &amp; \\text{Mechanical} &amp; \\text{5000} \\\\\\hline \\text{GOPI} &amp; \\text{Electrical} &amp; \\text{2000} \\\\\\hline \\text{SINDHU} &amp; \\text{Computer} &amp; \\text{4000} \\\\\\hline \\text{MAHESH} &amp; \\text{Civil} &amp; \\text{1500} \\\\\\hline \\end{array}\\)<br>What is the output of the following SQL query?<br><pre><code> select count(*) from \n    ((select Employee, Department from Overtime_allowance) \n    natural join \n    (select Department, OT_allowance from Overtime_allowance) \n    as T);</code></pre> <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128552/isro2017-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following database table named top_scorer. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q49_e09ff2a7.jpg\"> <br>      Consider the following SQL query:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q49a_79634f62.jpg\"> <br>\nThe number of tuples returned by the above SQL query is ___________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118391/gate2017-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a database that has the relation schema EMP (EmpId, EmpName, and DeptName).\nAn instance of the schema EMP and a SQL query on it are given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q20_fff46230.jpg\"> The output of executing the SQL query is _____. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2.6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118303/gate2017-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The relation book (title,price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?<br><pre><code> select title\nfrom book as B\nwhere (select count(*)\n    from book as T\n    where T.price&gt;B.price) &lt; 5</code></pre> <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Titles of the four most expensive books</p>",
+            "<b>B.</b> <p>Title of the fifth most inexpensive book</p>",
+            "<b>C.</b> <p>Title of the fifth most expensive book</p>",
+            "<b>D.</b> <p>Titles of the five most expensive books</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Titles of the five most expensive books</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1400/gate2005-77-isro2016-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Consider the following database table named water_schemes : <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q52_3b8c0d21.jpg\"><br> The number of tuples returned by the following SQL query is __________.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q52a_85159664.jpg\"> <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39604/gate2016-2-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider the following schema:<br>Emp (Empcode, Name, Sex, Salary, Deptt)<br>A simple SQL query is executed as follows:<br><pre><code> SELECT Deptt FROM Emp\nwhere sex = 'Male'\nGROUP by Dept\nHaving avg (Salary) &gt; {select avg (Salary) from Emp}</code></pre>The output will be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Average salary of male employee is the average salary of the organization</p>",
+            "<b>B.</b> <p>Average salary of male employee is less than the average salary of the organization</p>",
+            "<b>C.</b> <p>Average salary of male employee is equal to the average salary of the organization</p>",
+            "<b>D.</b> <p>Average salary of male employee is more than the average salary of the organization</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Average salary of male employee is more than the average salary of the organization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51196/isro2015-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Consider the following relational query on the above database:<br><pre><code> SELECT S.name FROM Suppliers S \nWhere S.sid NOT IN (SELECT C.sid FROM Catalog C\nWHERE C.pid NOT IN (SELECT P.pid FROM Parts P WHERE P.color &lt;&gt;'blue'))</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Find the names of all suppliers who have supplied non-blue part.</p>",
+            "<b>B.</b> <p>Find the names of all suppliers who have not supplied non-blue part.</p>",
+            "<b>C.</b> <p>Find the names of all suppliers who have supplied only non-blue parts</p>",
+            "<b>D.</b> <p>Find the names of all suppliers who have not supplied only non-blue part.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Find the names of all suppliers who have supplied non-blue part.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "As per the ISRO Answer key option A and C are correct, but None of these are correct. See the detail Solution. <a href=\"https://gateoverflow.in/1339/gate-cse-2009-question-55#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider the following relation <br><br>   Cinema(theater, address, capacity) <br><br>Which of the following options will be needed at the end of the SQL query <br><br> SELECT P1.address FROM Cinema P1 <br><br> such that it always finds the addresses of theaters with maximum capacity? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>WHERE P1.capacity \\(\\geq\\) All (select P2.capacity from Cinema P2)</p>",
+            "<b>B.</b> <p>WHERE P1.capacity \\(\\geq\\) Any (select P2.capacity from Cinema P2)</p>",
+            "<b>C.</b> <p>WHERE P1.capacity \\(\\gt\\) All (select max(P2.capacity) from Cinema P2)</p>",
+            "<b>D.</b> <p>WHERE P1.capacity \\(\\gt\\) Any (select max(P2.capacity) from Cinema P2)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>WHERE P1.capacity \\(\\geq\\) All (select P2.capacity from Cinema P2)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8396/gate2015-3-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Consider the following relations: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q51_2717e41f.jpg\"><br>  Consider the following SQL query. <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q51a_e0f73a11.jpg\"><br>The number of rows that will be returned by the SQL query is _____________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8225/gate2015-1-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>SELECT operation in SQL is equivalent to <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the selection operation in relational algebra</p>",
+            "<b>B.</b> <p>the selection operation in relational algebra, except that SELECT in SQL retains duplicates</p>",
+            "<b>C.</b> <p>the projection operation in relational algebra</p>",
+            "<b>D.</b> <p>the projection operation in relational algebra, except that SELECT in SQL retains duplicates</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the projection operation in relational algebra, except that SELECT in SQL retains duplicates</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8094/gate2015-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider the following relational schema: <br>\nEmployee (empId, empName, empDept ) <br>\nCustomer (custId,custName, salesRepId, rating)<br>\nSalesRepId is a foreign key referring to empId of the employee relation. Assume that each\nemployee makes a sale to at least one customer. What does the following query return?<br><pre><code>SELECT empName \nFROM employee E \n WHERE NOT EXISTS (SELECT custId\nFROM customer C\nWHERE C. salesRepId = E. empId\nAND C. rating &lt; &gt; 'GOOD')</code></pre> <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Names of all the employees with at least one of their customers having a 'GOOD' rating</p>",
+            "<b>B.</b> <p>Names of all the employees with at most one of their customers having a 'GOOD' rating.</p>",
+            "<b>C.</b> <p>Names of all the employees with none of their customers having a 'GOOD' rating.</p>",
+            "<b>D.</b> <p>Names of all the employees with all their customers having a 'GOOD' rating.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Names of all the employees with all their customers having a 'GOOD' rating.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2089/gate2014-3-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>SQL allows duplicate tuples in relations, and correspondingly defines the multiplicity of\ntuples in the result of joins. Which one of the following queries always gives the same answer\nas the nested query shown below: <br>\nSelect * from R where a in (select S. a from S) <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Select R. * from R, S where R. a=S. a</p>",
+            "<b>B.</b> <p>Select distinct R. * from R,S where R. a=S. a</p>",
+            "<b>C.</b> <p>Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a</p>",
+            "<b>D.</b> <p>Select R. * from R, S where R.a = S. a and is unique R</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Select R. * from R, (select distinct a from S) as S1 where R. a=S1.a</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2021/gate2014-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Given the following schema:<br>\nemployees(emp-id, first-name, last-name, hire-date, dept-id, salary)  <br>\ndepartments(dept-id, dept-name, manager-id, location-id)<br>\nYou want to display the last names and hire dates of all latest hires in their respective\ndepartments in the location ID 1700. You issue the following query: <br><pre><code> SQL&gt;SELECT last-name, hire-date\nFROM employees\nWHERE (dept-id, hire-date) IN\n(SELECT dept-id, MAx(hire-date)\nFROM employees JOIN departments USING(dept-id)\nWHERE location-id = 1700\nGROUP BY dept-id); </code></pre>\nWhat is the outcome? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It executes but does not give the correct result</p>",
+            "<b>B.</b> <p>It executes and gives the correct result.</p>",
+            "<b>C.</b> <p>It generates an error because of pairwise comparison.</p>",
+            "<b>D.</b> <p>It generates an error because the GROUP BY clause cannot be used with table joins in a sub-query</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>It executes and gives the correct result.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1934/gate2014-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Given the following statements:<br>\nS1: A foreign key declaration can always be replaced by an equivalent check\nassertion in SQL <br>\nS2: Given the table R(a,b,c) where a and b together form the primary key, the following is a\nvalid table definition. <br>\nCREATE TABLE S ( <br>\na INTEGER, <br>\nd INTEGER, <br>\ne INTEGER, <br>\nPRIMARY KEY (d), <br>\nFOREIGN KEY (a) references R) <br>\nWhich one of the following statements is CORRECT? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is TRUE and S2 is a FALSE</p>",
+            "<b>B.</b> <p>Both S1 and S2 are TRUE</p>",
+            "<b>C.</b> <p>S1 is FALSE and S2 is a TRUE</p>",
+            "<b>D.</b> <p>Both S1 and S2 are FALSE</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both S1 and S2 are FALSE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1789/gate2014-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Consider the following relational schema:<br>\nSuppliers (sid:integer, sname:string, saddress:string)<br>\nParts (pid:integer, pname:string, pcolor:string)<br>\nCatalog (sid:integer, pid:integer, pcost:real)<br>\nWhat is the result of the following query?<br><pre><code> (SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sid = Catalog.sid)\nMINUS\n(SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sname &lt;&gt; 'Sachin' and Suppliers.sid = Catalog.sid)</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Pid of parts supplied by all except Sachin</p>",
+            "<b>B.</b> <p>Pid of parts supplied only by Sachin</p>",
+            "<b>C.</b> <p>Pid of parts available in catalog supplied by Sachin</p>",
+            "<b>D.</b> <p>Pid of parts available in catalog supplied by all except Sachin</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Pid of parts supplied only by Sachin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43857/isro-2013-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the following relational schema.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q35_e9b3f125.jpg\"> <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II, III and IV</p>",
+            "<b>B.</b> <p>I, II and III only</p>",
+            "<b>C.</b> <p>I, II and IV only</p>",
+            "<b>D.</b> <p>II, III and IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I, II, III and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1546/gate2013-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider the following relations A, B and C:   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q50_b1b0feea.jpg\"> <br>How many tuples does the result of the following SQL query contain?<pre><code> SELECT A.Id\nFROM A\nWHERE A.Age &gt; ALL (SELECT B.Age\nFROM B\nWHERE B.Name = 'Arun') </code></pre> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43313/gate2012-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Which of the following statements are TRUE about an SQL query? <br>\nP : An SQL query can contain a HAVING clause even if it does not have a GROUP BY clause <br>\nQ : An SQL query can contain a HAVING clause only if it has a GROUP BY clause <br>\nR : All attributes used in the GROUP BY clause must appear in the SELECT clause <br>\nS : Not all attributes used in the GROUP BY clause need to appear in the SELECT clause <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P and R</p>",
+            "<b>B.</b> <p>P and S</p>",
+            "<b>C.</b> <p>Q and R</p>",
+            "<b>D.</b> <p>Q and S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Q and R</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47/gate2012-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Database table by name Loan_Records is given below.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q36_8949872d.jpg\"> <br>\nWhat is the output of the following SQL query?<pre><code> \nSELECT count(*)\nFROM(\n(SELECT Borrower, Bank_Manager FROM Loan_Records) AS S\nNATURAL JOIN\n(SELECT Bank_Manager, Loan_Amount FROM Loan_Records) AS T); </code></pre> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2148/gate2011-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider a database table T containing two columns X and Y each of type integer.\nAfter the creation of the table, one record (X=1,Y=1) is inserted in the table. <br><br>\nLet MX and MY denote the respective maximum values of X and Y among all\nrecords in the table at any point in time. Using MX and MY, new records are\ninserted in the table 128 times with X and Y values being MX+1, 2*MY+1\nrespectively. It may be noted that each time after the insertion, values of MX and\nMY change. <br><br>\nWhat will be the output of the following SQL query after the steps mentioned\nabove are carried out? <br><br>\nSELECT Y FROM T WHERE X=7; <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>127</p>",
+            "<b>B.</b> <p>255</p>",
+            "<b>C.</b> <p>129</p>",
+            "<b>D.</b> <p>257</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>127</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2134/gate2011-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>A relational schema for a train reservation database is given below\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q19_f503c6ab.jpg\"> <br> What pids are returned by the following SQL query for the above instance of the\ntables?<pre><code> SELECT pid\nFROM Re servation\nWHERE class = 'AC' AND\n     EXISTS (SELECT *\n                      FROM Passenger\n                      WHERE age &gt; 65 AND\n                      Passenger.pid = Reservation.pid) </code></pre> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,0</p>",
+            "<b>B.</b> <p>1,2</p>",
+            "<b>C.</b> <p>1,3</p>",
+            "<b>D.</b> <p>1,5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2194/gate2010-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Consider the following relational schema:<pre><code>\nSuppliers(sid:integer, sname:string, city:string, street:string)\nParts(pid:integer, pname:string, color:string)\nCatalog(sid:integer, pid:integer, cost:real)</code></pre> Consider the following relational query on the above database:<pre><code>\nSELECT S.sname\nFROM Suppliers S\nWHERE S.sid NOT IN (SELECT C.sid\nFROM Catalog C\nWHERE C.pid NOT (SELECT P.pid\nFROM Parts P\nWHERE P.color&lt;&gt; 'blue')) </code></pre> Assume that relations corresponding to the above schema are not empty. Which one of the following is the correct interpretation of the above query? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Find the names of all suppliers who have supplied a non-blue part.</p>",
+            "<b>B.</b> <p>Find the names of all suppliers who have not supplied a non-blue part.</p>",
+            "<b>C.</b> <p>Find the names of all suppliers who have supplied only blue parts.</p>",
+            "<b>D.</b> <p>Find the names of all suppliers who have not supplied only blue parts.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Find the names of all suppliers who have supplied a non-blue part.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1339/gate2009-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Consider the following relational schema:<pre><code>Student(school-id,sch-roll-no,sname,saddress)\nSchool(school-id,sch-name,sch-address,sch-phone)\nEnrolment(school-id,sch-roll-no,erollno,examname)\nExamResult(erollno,examname,marks) </code></pre> <br>What does the following SQL query output?<pre><code>SELECT\tsch-name, COUNT (*)\nFROM\tSchool C, Enrolment E, ExamResult R\nWHERE\tE.school-id = C.school-id\nAND\nE.examname = R.examname AND E.erollno = R.erollno\nAND\nR.marks = 100 AND S.school-id IN (SELECT school-id\n                                FROM student\n                                GROUP BY school-id\n                                 HAVING COUNT (*) &gt; 200)\nGROUP By school-id</code></pre> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>for each school with more than 200 students appearing in exams, the name of the school and the number of 100's scored by its students</p>",
+            "<b>B.</b> <p>for each school with more than 200 students in it, the name of the school and the number of 100's scored by its students</p>",
+            "<b>C.</b> <p>for each school with more than 200 students in it, the name of the school and the number of its students scoring 100 in at least one exam</p>",
+            "<b>D.</b> <p>nothing; the query has a syntax error</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>nothing; the query has a syntax error</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3388/gate2008-it-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Which of the following is aggregate function in SQL? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Avg</p>",
+            "<b>B.</b> <p>Select</p>",
+            "<b>C.</b> <p>Ordered by</p>",
+            "<b>D.</b> <p>distinct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Avg</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49527/isro2007-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Which commands are used to control access over objects in relational database? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CASCADE &amp; MVD</p>",
+            "<b>B.</b> <p>GRANT &amp; REVOKE</p>",
+            "<b>C.</b> <p>QUE &amp; QUIST</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>GRANT &amp; REVOKE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49526/isro2007-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the table employee(empId, name, department, salary) and the two\nqueries Q1 ,Q2 below. Assuming that department 5 has more than one employee,\nand we want to find the employees who get higher salary than anyone in the department 5, which one of the statements is TRUE for any arbitrary employee table?<pre><code>Q1 : Select e.empId\n     From employee e\n     Where not exists\n        (Select * From employee s where s.department = \"5\" and \n                                        s.salary &gt;=e.salary) <br>\nQ2 : Select e.empId\n     From employee e\n     Where e.salary &gt; Any\n    (Select distinct salary From employee s Where s.department =\"5\"</code></pre> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q1 is the correct query</p>",
+            "<b>B.</b> <p>Q2 is the correct query</p>",
+            "<b>C.</b> <p>Both Q1 and Q2 produce the same answer.</p>",
+            "<b>D.</b> <p>Neither Q1 nor Q2 is the correct query</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Q1 is the correct query</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1259/gate2007-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider a database with three relation instances shown below. The primary keys for the Drivers and Cars relation are did and cid respectively and the records are stored in ascending order of these primary keys as given in the tables. No indexing is available in the database.<br><br>\n\\(\\overset{\\text{D: Drivers relation}}{\\begin{array}{|c|l|r|c|}\\hline \\textbf{did}&amp; \\textbf{dname}&amp; \\textbf{rating}&amp; \\textbf{age} \\\\\\hline 22&amp; \\text{Karthikeyan}&amp; 7&amp; 25 \\\\ \\hline 29&amp; \\text{Salman}&amp; 1&amp; 33 \\\\ \\hline 31&amp; \\text{Boris}&amp; 8&amp; 55 \\\\\\hline 32&amp; \\text{Amoldt}&amp; 8&amp; 25 \\\\\\hline 58&amp; \\text{Schumacher}&amp; 10&amp; 35 \\\\\\hline 64&amp; \\text{Sachin}&amp; 7&amp; 35 \\\\\\hline 71&amp; \\text{Senna}&amp; 10&amp; 16 \\\\\\hline 74&amp; \\text{Sachin}&amp; 9&amp; 35 \\\\\\hline 85&amp; \\text{Rahul}&amp; 3&amp; 25 \\\\\\hline 95&amp; \\text{Ralph}&amp; 3&amp; 53 \\\\\\hline \\end{array}} \\qquad \\overset{\\text{R: Reserves relation}}{\\begin{array}{|c|c|c|}\\hline \\textbf {did} &amp; \\textbf {Cid} &amp; \\textbf {day} \\\\\\hline 22 &amp; 101 &amp; 10-10-06 \\\\ \\hline 22 &amp; 102 &amp; 10-10-06\\\\ \\hline 22 &amp; 103 &amp; 08-10-06 \\\\\\hline 22 &amp; 104 &amp; 07-10-06 \\\\\\hline 31 &amp; 102 &amp; 10-11-16 \\\\\\hline 31&amp;103 &amp;06-11-16 \\\\\\hline 31 &amp; 104&amp;12-11-16 \\\\\\hline 64 &amp; 101 &amp;05-09-06 \\\\\\hline 64&amp; 102 &amp; 08-09-06 \\\\\\hline 74 &amp; 103 &amp; 08-09-06 \\\\\\hline \\end{array}}\\)<br><br>\n\\(\\overset{\\text{C: Cars relation}}{\\begin{array}{|c|c|c|c|}\\hline \\textbf {Cid} &amp; \\textbf {Cname} &amp; \\textbf{colour} \\\\\\hline 101 &amp; \\text{Renault} &amp; \\text{blue} \\\\ \\hline 102 &amp; \\text{Renault} &amp; \\text{red} \\\\ \\hline 103 &amp; \\text{Ferrari} &amp; \\text{green} \\\\\\hline 104 &amp; \\text{Jaguar} &amp; \\text{red} \\\\\\hline \\end{array}}\\) <br><pre><code> \nselect D.dname\nfrom Drivers D\nwhere D.did in  (\n                  select R.did\n                  from Cars C, Reserves R\n                  where R.cid = C.cid and C.colour = 'red'\n                  intersect\n                  select R.did\n                  from Cars C, Reserves R\n                  where R.cid  = C.cid and C.colour = 'green'\n                  )</code></pre><br> Let n be the number of comparisons performed when the above SQL query is optimally executed. If linear search is used to locate a tuple in a relation using primary key, then n lies in the range: <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>36-40</p>",
+            "<b>B.</b> <p>44-48</p>",
+            "<b>C.</b> <p>60-64</p>",
+            "<b>D.</b> <p>100-104</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>44-48</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3641/gate2006-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Consider a database with three relation instances shown below. The primary keys for the Drivers and Cars relation are did and cid respectively and the records are stored in ascending order of these primary keys as given in the tables. No indexing is available in the database.<br><br>\n\\(\\overset{\\text{D: Drivers relation}}{\\begin{array}{|c|l|r|c|}\\hline \\textbf{did}&amp; \\textbf{dname}&amp; \\textbf{rating}&amp; \\textbf{age} \\\\\\hline 22&amp; \\text{Karthikeyan}&amp; 7&amp; 25 \\\\ \\hline 29&amp; \\text{Salman}&amp; 1&amp; 33 \\\\ \\hline 31&amp; \\text{Boris}&amp; 8&amp; 55 \\\\\\hline 32&amp; \\text{Amoldt}&amp; 8&amp; 25 \\\\\\hline 58&amp; \\text{Schumacher}&amp; 10&amp; 35 \\\\\\hline 64&amp; \\text{Sachin}&amp; 7&amp; 35 \\\\\\hline 71&amp; \\text{Senna}&amp; 10&amp; 16 \\\\\\hline 74&amp; \\text{Sachin}&amp; 9&amp; 35 \\\\\\hline 85&amp; \\text{Rahul}&amp; 3&amp; 25 \\\\\\hline 95&amp; \\text{Ralph}&amp; 3&amp; 53 \\\\\\hline \\end{array}} \\qquad \\overset{\\text{R: Reserves relation}}{\\begin{array}{|c|c|c|}\\hline \\textbf {did} &amp; \\textbf {Cid} &amp; \\textbf {day} \\\\\\hline 22 &amp; 101 &amp; 10-10-06 \\\\ \\hline 22 &amp; 102 &amp; 10-10-06\\\\ \\hline 22 &amp; 103 &amp; 08-10-06 \\\\\\hline 22 &amp; 104 &amp; 07-10-06 \\\\\\hline 31 &amp; 102 &amp; 10-11-16 \\\\\\hline 31&amp;103 &amp;06-11-16 \\\\\\hline 31 &amp; 104&amp;12-11-16 \\\\\\hline 64 &amp; 101 &amp;05-09-06 \\\\\\hline 64&amp; 102 &amp; 08-09-06 \\\\\\hline 74 &amp; 103 &amp; 08-09-06 \\\\\\hline \\end{array}}\\)<br><br>\n\\(\\overset{\\text{C: Cars relation}}{\\begin{array}{|c|c|c|c|}\\hline \\textbf {Cid} &amp; \\textbf {Cname} &amp; \\textbf{colour} \\\\\\hline 101 &amp; \\text{Renault} &amp; \\text{blue} \\\\ \\hline 102 &amp; \\text{Renault} &amp; \\text{red} \\\\ \\hline 103 &amp; \\text{Ferrari} &amp; \\text{green} \\\\\\hline 104 &amp; \\text{Jaguar} &amp; \\text{red} \\\\\\hline \\end{array}}\\)<br><br>  What is the output of the following SQL query?<pre><code> \nselect D.dname\nfrom Drivers D\nwhere D.did in  (\n                  select R.did\n                  from Cars C, Reserves R\n                  where R.cid = C.cid and C.colour = 'red'\n                  intersect\n                  select R.did\n                  from Cars C, Reserves R\n                  where R.cid  = C.cid and C.colour = 'green'\n                   )</code></pre><br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Karthikeyan, Boris</p>",
+            "<b>B.</b> <p>Sachin, Salman</p>",
+            "<b>C.</b> <p>Karthikeyan, Boris, Sachin</p>",
+            "<b>D.</b> <p>Schumacher, Senna</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Karthikeyan, Boris</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3640/gate2006-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Consider the relation enrolled (student, course) in which student, course) is the\nprimary key, and the relation paid (student, amount) where student is the primary\nkey . Assume no null values and no foreign keys or integrity constraints. Given\nthe following four queries: <br><br>\nQuery 1: Select from enrolled where student in (select student form paid) <br>\nQuery 2: Select student from paid where student in (select student from\nenrolled) <br>\nQuery 3: Select E. student from enrolled E, paid P where E. student= P student <br>\nQuery 4: Select student from paid where exists <br>(select*from enrolled where\nenrolled student=paid.student) <br><br>\nWhich one of the following statements is correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All queries return identical row sets for any database</p>",
+            "<b>B.</b> <p>Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets</p>",
+            "<b>C.</b> <p>There exist databases for which Query 3 returns strictly fewer rows than Query 2</p>",
+            "<b>D.</b> <p>There exist databases for which Query 4 will encounter an intergrity\nviolation at runtime</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1846/gate2006-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Consider the relation account (customer, balance) where customer is a primary\nkey and there are no mall values. We would like to rank customers according\nto decreasing balance. The customer with the largest balance gets rank 1. Ties\nare not broken but ranks are skipped: if exactly two customers have the largest\nbalance they each get rank 1 and rank 2 is not assigned.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q67_9153671d.jpg\"><br>\nConsider these statements about Query 1 and Query 2. <br>\n1. Query 1will produce the same row set as Query 2 for some but not all\ndatabases <br>\n2. Both Query 1 Query 2 are correct implementations of the specification <br>\n3. Query 1 is a correct implementation of the specification but Query 2 is not <br>\n4. Neither query 1 nor Query 2 is a correct implementation of the specification <br>\n5. Assigning rank with a pure relational Query takes less time than scanning\nin decreasing balance order the assigning ranks using ODBC <br><br>\nWhich two of the above statements are correct? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 and 5</p>",
+            "<b>B.</b> <p>1 and 3</p>",
+            "<b>C.</b> <p>1 and 4</p>",
+            "<b>D.</b> <p>3 and 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1845/gate2006-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>In an inventory management system implemented at a trading corporation, there are several tables designed to hold all the information. Amongst these, the following two tables hold information on which items are supplied by which suppliers, and which warehouse keeps which items along with the stock-level of these items.<br>\nSupply = (supplierid, itemcode)<br>\nInventory = (itemcode, warehouse, stocklevel)<br>For a specific information required by the management, following SQL query has been written<br><pre><code> Select distinct STMP.supplierid \nFrom Supply as STMP\nWhere not unique (Select ITMP.supplierid\n                            From Inventory, Supply as ITMP\n                            Where STMP.supplierid = ITMP.supplierid\n                            And ITMP.itemcode = Inventory.itemcode\n                            And Inventory.warehouse = 'Nagpur');</code></pre> <br>\nFor the warehouse at Nagpur, this query will find all suppliers wh <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>do not supply any item</p>",
+            "<b>B.</b> <p>supply exactly one item</p>",
+            "<b>C.</b> <p>supply one or more items</p>",
+            "<b>D.</b> <p>supply two or more items</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>supply two or more items</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3832/gate2005-it-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>A table 'student' with schema (roll, name, hostel, marks), and another table 'hobby' with schema (roll, hobbyname) contains records as shown below:<br>\n\\(\\overset{\\text{Table: student}}{\\begin{array}{|c|c|c|c|} \\hline \\textbf{Roll} &amp; \\textbf {Name} &amp; \\textbf {Hostel} &amp; \\textbf{Marks} \\\\\\hline \\text{1798} &amp; \\text{Manoj Rathor} &amp; \\text{7} &amp; \\text{95} \\\\\\hline \\text{2154} &amp; \\text{Soumic Banerjee} &amp; \\text{5} &amp; \\text{68}\\\\\\hline \\text{2369} &amp; \\text{Gumma Reddy} &amp; \\text{7} &amp; \\text{86}\\\\\\hline\\text{2581} &amp; \\text{Pradeep pendse} &amp; \\text{6} &amp; \\text{92}\\\\\\hline \\text{2643} &amp; \\text{Suhas Kulkarni} &amp; \\text{5} &amp; \\text{78} \\\\\\hline \\text{2711} &amp; \\text{Nitin Kadam} &amp; \\text{8} &amp; \\text{72}\\\\\\hline \\text{2872}&amp; \\text{Kiran Vora} &amp; \\text{5} &amp; \\text{92}\\\\\\hline\\text{2926} &amp; \\text{Manoj Kunkalikar} &amp; \\text{5} &amp; \\text{94}\\\\\\hline \\text{2959}&amp; \\text{Hemant Karkhanis} &amp; \\text{7} &amp; \\text{88}\\\\\\hline\\text{3125} &amp; \\text{Rajesh Doshi} &amp; \\text{5} &amp; \\text{82}\\\\\\hline \\end{array}}\\)<br><br>\\(\\overset{\\text{Table: hobby}}{}\\\\\\begin{array}{|c|c|} \\hline \\textbf{Roll} &amp; \\textbf {Hobby Name} \\\\\\hline \\text{1798} &amp; \\text{chess} \\\\\\hline \\text{1798} &amp; \\text{music} \\\\\\hline \\text{2154} &amp; \\text{music} \\\\\\hline \\text{2369} &amp; \\text{swimming}\\\\\\hline \\text{2581} &amp; \\text{cricket} \\\\\\hline \\text{2643} &amp; \\text{chess}\\\\\\hline\\text{2643} &amp; \\text{hockey} \\\\\\hline \\text{2711} &amp; \\text{volleyball}\\\\\\hline \\text{2872} &amp; \\text{football} \\\\\\hline \\text{2926} &amp; \\text{cricket} \\\\\\hline \\text{2959} &amp; \\text{photography} \\\\\\hline \\text{3125} &amp; \\text{music}\\\\\\hline \\text{3125}&amp; \\text{chess}\\\\\\hline \\end{array}\\)<br>\nThe following SQL query is executed on the above tables:<br><pre><code> \nselect hostel\nfrom student natural join hobby\nwhere marks &gt;= 75 and roll between 2000 and 3000;</code></pre> <br>Relations S and H with the same schema as those of these two tables respectively contain the same information as tuples. A new relation S is obtained by the following relational algebra operation:<br>\\(S' = \\Pi_{\\text{hostel}} ((\\sigma_{s.roll = H.roll} (\\sigma_{marks \\gt 75\\text{ and }roll \\gt 2000\\text{ and }roll \\lt 3000} (S)) \\times (H))\\)<br>\nThe difference between the number of rows output by the SQL statement and the number of tuples in S' is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3831/gate2005-it-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The relation book (title, price) contains the titles and prices of different books. Assuming that no two books have the same price, what does the following SQL query list?<pre><code> select title\n  from book as B\n  where (select count(*)\n     from book as T\n     where T.price &gt; B.price) &lt; 5 </code></pre> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Titles of the four most expensive books</p>",
+            "<b>B.</b> <p>Title of the fifth most inexpensive book</p>",
+            "<b>C.</b> <p>Title of the fifth most expensive bookTitles of the five most expensive books</p>",
+            "<b>D.</b> <p>Titles of the five most expensive books</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Titles of the five most expensive books</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1400/gate2005-77#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Consider two tables in a relational database with columns and rows as follows:<br><br>\\(\\overset{\\text{Table: Student}}{\\begin{array}{|c|c|c|} \\hline \\textbf {Roll\\_no} &amp; \\textbf{Name} &amp; \\textbf{Dept\\_id} \\\\\\hline 1&amp; \\text{ABC} &amp; 1\\\\\\hline 2&amp; \\text{DEF} &amp; 1 \\\\\\hline 3 &amp; \\text{GHI} &amp; 2\\\\\\hline 4 &amp; \\text{JKL} &amp; 3\\\\\\hline \\end{array}} \\qquad \\overset{\\text{Table: Department}}{\\begin{array}{|c|c|c|} \\hline \\textbf {Dept\\_id} &amp; \\textbf{Dept\\_name} \\\\\\hline 1&amp; \\text{A} \\\\\\hline 2&amp; \\text{B} \\\\\\hline 3 &amp; \\text{C} \\\\\\hline \\end{array}}\\)<br><br>\nRoll_no is the primary key of the Student table, Dept_id is the primary key of the Department table and Student.Dept_id is a foreign key from Department.Dept_id<br><br>\nWhat will happen if we try to execute the following two SQL statements?<br>update Student set Dept_id = Null where Roll_on = 1<br>\nupdate Department set Dept_id = Null where Dept_id = 1 <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both i and ii will fail</p>",
+            "<b>B.</b> <p>i will fail but ii will succeed</p>",
+            "<b>C.</b> <p>i will succeed but ii will fail</p>",
+            "<b>D.</b> <p>Both i and ii will succeed</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>i will succeed but ii will fail</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3722/gate2004-it-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>A table T1 in a relational database has the following rows and columns: <br><br>\n\\(\\begin{array}{|c|c|c|} \\hline \\text {Roll no. } &amp; \\text {Marks} \\\\\\hline 1&amp; 10 \\\\\\hline 2 &amp; 20 \\\\\\hline3 &amp; 30 \\\\\\hline 4 &amp; \\text{NULL}\\\\\\hline \\end{array}\\)<br><br>\nThe following sequence of SQL statements was successfully executed on table T1.<br><pre><code> Update T1 set marks = marks + 5\nSelect avg(marks) from T1</code></pre>\nWhat is the output of the select statement? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>18.75</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>25</p>",
+            "<b>D.</b> <p>Null</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3720/gate2004-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>A relational database contains two tables student and department in which student table has columns roll_no, name and dept_id and department table has columns dept_id and dept_name. The following insert statements were executed successfully to populate the empty tables:<br><pre><code>Insert into department values (1, 'Mathematics')\nInsert into department values (2, 'Physics')\nInsert into student values (l, 'Navin', 1)\nInsert into student values (2, 'Mukesh', 2)\nInsert into student values (3, 'Gita', 1)</code></pre> How many rows and columns will be retrieved by the following SQL statement?<pre><code>Select * from student, department </code></pre> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 row and 4 columns</p>",
+            "<b>B.</b> <p>3 rows and 4 columns</p>",
+            "<b>C.</b> <p>3 rows and 5 columns</p>",
+            "<b>D.</b> <p>6 rows and 5 columns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>6 rows and 5 columns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3718/gate2004-it-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>The employee information in a company is stored in the relation <br><br>\nEmployee (\\(\\underline{name}\\), sex, salary, deptName) <br><br>\nConsider the following SQL query<pre><code> select deptName\n       from Employee\n       where sex = 'M'\n       group by deptName\n       having avg (salary) &gt; (select avg (salary) from Employee) </code></pre>\nIt returns the names of the department in which <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the average salary is more than the average salary in the company</p>",
+            "<b>B.</b> <p>the average salary of male employees is more than the average salary of all male employees in the company</p>",
+            "<b>C.</b> <p>the average salary of male employees is more than the average salary of employees in the same department.</p>",
+            "<b>D.</b> <p>the average salary of male employees is more than the average salary in the company</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the average salary of male employees is more than the average salary in the company</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1049/gate2004-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Consider the following relation schema pertaining to a students database: <br><br>\nStudents  (\\(\\underline{rollno}\\), name, address)<br>\nEnroll (\\(\\underline{rollno}\\) ,\\(\\underline{courseno}\\), coursename) <br><br>\nWhere the primary keys are shown underlined. The number of tuples in the student and Enroll tables\nare 120 and 8 respectively. What are the maximum and minimum number of tuples that can be\npresent in (Student * Enroll), where '*' denotes natural join? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8,8</p>",
+            "<b>B.</b> <p>120,8</p>",
+            "<b>C.</b> <p>960,8</p>",
+            "<b>D.</b> <p>960,120</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8,8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1011/gate2004-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider the set of relations shown below and the SQL query that follow:<pre><code>\nStudents:(Roll_number,Name,Date_of_birth)\nCourses:(Course_number,Course_name,Instructor)\nGrades:(Roll_number,Course_number,Grade)</code></pre><pre><code>select distrinct Name\nfrom Students, Courses, Grades\nWhere Students.Roll_number=Grades.Toll_number\nand Courses.Instructor= 'Korth'\nand Courses.Course_number=Grades.Course_number\nand Grades.grade= 'A' </code></pre>\nWhich of the following sets is computed by the above query? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Names of students who have got an A grade in all courses taught by Korth</p>",
+            "<b>B.</b> <p>Names of students who have got an A grade in all courses</p>",
+            "<b>C.</b> <p>Name of students who have got an A grade in at least one of the courses\ntaught by Korth</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Name of students who have got an A grade in at least one of the courses\ntaught by Korth</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/969/gate2003-86#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Consider the following SQL query<pre><code>\nselect distinct al, a2,........., an\nfrom r1, r2,........, rm\nwhere P </code></pre>\nFor an arbitrary predicate P,this query is equivalent to which of the following\nrelational algebra expressions? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\SQL\\q30_9bb6a32e.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/920/gate2003-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>In SQL, relations can contain null values, and comparisons with null values are treated as unknown. Suppose all comparisons with a null value are treated as false. Which of the following pairs is not equivalent? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x=5\\; not(not(x=5)) \\)</p>",
+            "<b>B.</b> <p>\\(x=5 \\; x \\gt 4 \\text{ and }x\\lt6 \\), where  \\(x \\) is an integer</p>",
+            "<b>C.</b> <p>\\(x \\neq 5\\) not(x=5)</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(x \\neq 5\\) not(x=5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/673/gate2000-2-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Given relations r(w, x) and s(y, z) the result of <br><pre><code> select distinct w, x from r, s </code></pre>\nis guaranteed to be same as r, provided. <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>r has no duplicates and s is non-empty</p>",
+            "<b>B.</b> <p>r and s have no duplicates</p>",
+            "<b>C.</b> <p>s has no duplicates and r is non-empty</p>",
+            "<b>D.</b> <p>r and s have the same number of tuples</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>r has no duplicates and s is non-empty</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/672/gate2000-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Which of the following is/are correct? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An SQL query automatically eliminates duplicates</p>",
+            "<b>B.</b> <p>An SQL query will not work if there are no indexes on the relations</p>",
+            "<b>C.</b> <p>SQL permits attribute names to be repeated in the same relation</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1502/gate1999-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Consider a relation geq which represents \"greater than or equal to\", that is,\n(x,y) \\(\\in\\) geq only if y\\(\\geq\\)x:<pre><code> create table geq\n( \n  ib integer not null\n  ub integer not null\n  primary key ib\n  foreign key (ub) references geq on delete cascade \n) </code></pre>\nWhich of the following is possible if a tuple (x,y) is deleted ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A tuple (z,w) with z \\(\\gt\\)\ny is deleted</p>",
+            "<b>B.</b> <p>A tuple (z,w) with z \\(\\gt\\)\nx is deleted</p>",
+            "<b>C.</b> <p>A tuple (z,w) with w \\(\\lt\\)\nx is deleted</p>",
+            "<b>D.</b> <p>The deletion of (x,y) is prohibited</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A tuple (z,w) with w \\(\\lt\\)\nx is deleted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/743/gate2001-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

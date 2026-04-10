@@ -1,0 +1,91 @@
+{
+  "title": "Quantitative Aptitude - Statement Sufficiency",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Statement Sufficiency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4036\"></a><div itemprop=\"text\"><p>Each of these items has question followed by two statements. As the answer, mark</p>\n\n<p>a. if the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>\n\n<p>b. if the question can not be answered even with the help of both the statements.</p>\n\n<p>c. if the question can be answered with the help of statement \\( II \\) alone</p>\n\n<p>d. if the question can be answered with the help of statement \\( I \\) alone</p>\n\n<p>What is the number \\( x \\) if</p>\n\n<p>I. The LCM of x and 18 is 36.</p>\n\n<p>II. The HCF of x and 18 is 2.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 92</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>If the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>",
+            "<p>If the question can not be answered even with the help of both the statements.</p>",
+            "<p>If the question can be answered with the help 0 statement \\( II \\) alone</p>",
+            "<p>If the question can be answered with the help of statement \\( I \\) alone</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4036/cat-1995-question-92\" target=\"_blank\">https://aptitude.gateoverflow.in/4036/cat-1995-question-92</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4037\"></a><div itemprop=\"text\">Each of these items has question followed by two statements. As the answer, mark<br>\n<br>\na. if the questions can be answered with the help of both the statements but not with the help of either statement itself.<br>\n<br>\nb. if the question can not be answered even with the help of both the statements.<br>\n<br>\nc. if the question can be answered with the help 0 statement \\( II \\) alone<br>\n<br>\nd. if the question can be answered with the help of statement \\( I \\) alone<br>\n<br>\nIf x, y and z are real numbers, is z - x even or odd?<br>\n<br>\nI. xyz is odd.<br>\n<br>\nII. xy + yz + zx is even.</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 93</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4037/cat-1995-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/4037/cat-1995-question-93</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4038\"></a><div itemprop=\"text\">Each of these items has question followed by two statements. As the answer, mark<br>\n<br>\nWhat is value of x, if x and y are consecutive positive even integers?<br>\n<br>\na. if the questions can be answered with the help of both the statements but not with the help of either statement itself.<br>\n<br>\nb. if the question can not be answered even with the help of both the statements.<br>\n<br>\nc. if the question can be answered with the help 0 statement II alone<br>\n<br>\nd. if the question can be answered with the help of statement I alone<br>\n<br>\nI. \\( (x - y)^{2} = 4 \\).<br>\n<br>\nII. \\( (x + y)^{2} &lt; 100 \\)</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 94</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4038/cat-1995-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/4038/cat-1995-question-94</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4039\"></a><div itemprop=\"text\"><p>What is the profit percent?</p>\n\n<p>I. The cost price is \\( 80 \\)% of the selling price.</p>\n\n<p>II. The profit is Rs. \\( 50 \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 95</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>",
+            "<p>if the question can not be answered even with the help of both the statements.</p>",
+            "<p>if the question can be answered with the help 0 statement II alone</p>",
+            "<p>if the question can be answered with the help of statement I alone</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4039/cat-1995-question-95\" target=\"_blank\">https://aptitude.gateoverflow.in/4039/cat-1995-question-95</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4041\"></a><div itemprop=\"text\"><p>What is the price of bananas?</p>\n\n<p>I. With Rs. \\( 84 \\), I can buy \\( 14 \\) bananas and \\( 35 \\) oranges.</p>\n\n<p>II. If price of bananas if reduced by \\( 50 \\)% then we can buy \\( 48 \\) bananas in Rs. \\( 12 \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 97</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>",
+            "<p>if the question can not be answered even with the help of both the statements.</p>",
+            "<p>if the question can be answered with the help \\( 0 \\) statement \\( II \\) alone</p>",
+            "<p>if the question can be answered with the help of statement \\( I \\) alone</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4041/cat-1995-question-97\" target=\"_blank\">https://aptitude.gateoverflow.in/4041/cat-1995-question-97</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4043\"></a><div itemprop=\"text\"><p>Is x + y – z + t even?</p>\n\n<p>I. x + y + t is even.</p>\n\n<p>II. tz is odd.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 99</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>if the questions can be answered with the help of both the statements but not with the help of either statement itself.</p>",
+            "<p>if the question can not be answered even with the help of both the statements.</p>",
+            "<p>if the question can be answered with the help 0 statement II alone</p>",
+            "<p>if the question can be answered with the help of statement I alone</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4043/cat-1995-question-99\" target=\"_blank\">https://aptitude.gateoverflow.in/4043/cat-1995-question-99</a></p>"
+        }
+      ]
+    }
+  ]
+}

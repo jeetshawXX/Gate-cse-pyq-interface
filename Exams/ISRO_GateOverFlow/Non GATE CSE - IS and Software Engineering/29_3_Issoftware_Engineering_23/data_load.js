@@ -1,0 +1,356 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Issoftware Engineering",
+  "duration": 64,
+  "sections": [
+    {
+      "name": "Issoftware Engineering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128672\"></a><div itemprop=\"text\"><p>Estimation at software development effort for organic software in basic COCOMO is:</p>\n\n\n\n</div><br><br><b>IS&Software Engineering: ISRO 2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>E = 2.0 (KLOC) <sup>1.05&nbsp;</sup> PM</p>",
+            "<p>E = 3.4 (KLOC) <sup>1.06&nbsp;</sup> PM</p>",
+            "<p>E = 2.4 (KLOC) <sup>1.05&nbsp;</sup> PM</p>",
+            "<p>E = 2.4 (KLOC) <sup>1.07&nbsp;</sup> PM</p>"
+          ],
+          "correct_answer": "<p>E = 2.4 (KLOC) <sup>1.05&nbsp;</sup> PM</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128672/isro-2017-39\" target=\"_blank\">https://gateoverflow.in/128672/isro-2017-39</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49501\"></a><div itemprop=\"text\"><p>The level of aggregation of information required for operational control is</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2007 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Detailed</p>",
+            "<p>Aggregate</p>",
+            "<p>Qualitative</p>",
+            "<p>None of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Detailed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49501/isro-cse-2007-question-28\" target=\"_blank\">https://gateoverflow.in/49501/isro-cse-2007-question-28</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"49647\"></a><div itemprop=\"text\">\n<p>Which of the following is not an approach to Software Process Assessment?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2007 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SPICE(ISO/IEC15504)</p>",
+            "<p>Standard CMMI Assessment Method for process improvement</p>",
+            "<p>ISO 9001:2000</p>",
+            "<p>IEEE 2000:2001</p>"
+          ],
+          "correct_answer": "<p>IEEE 2000:2001</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49647/isro-cse-2007-question-76\" target=\"_blank\">https://gateoverflow.in/49647/isro-cse-2007-question-76</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"49648\"></a><div itemprop=\"text\">\n<p>A physical DFD specifies</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2007 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>what processes will be used</p>",
+            "<p>who generates data and who processes it</p>",
+            "<p>what each person in an organization does</p>",
+            "<p>which data will be generated</p>"
+          ],
+          "correct_answer": "<p>who generates data and who processes it</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49648/isro-cse-2007-question-77\" target=\"_blank\">https://gateoverflow.in/49648/isro-cse-2007-question-77</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"52451\"></a><div itemprop=\"text\">\n<p>A context model of a software system can be shown by drawing a</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2011 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>LEVEL-0 DFD</p>",
+            "<p>LEVEL-1 DFD</p>",
+            "<p>LEVEL-2 DFD</p>",
+            "<p>LEVEL-3 DFD</p>"
+          ],
+          "correct_answer": "<p>LEVEL-0 DFD</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52451/isro-cse-2011-question-17\" target=\"_blank\">https://gateoverflow.in/52451/isro-cse-2011-question-17</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"52808\"></a><div itemprop=\"text\">\n<p>Warnier Diagram enables the analyst to represent</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2011 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class structure</p>",
+            "<p>Information Hierarchy</p>",
+            "<p>Data Flow</p>",
+            "<p>State Transition</p>"
+          ],
+          "correct_answer": "<p>Information Hierarchy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52808/isro-cse-2011-question-51\" target=\"_blank\">https://gateoverflow.in/52808/isro-cse-2011-question-51</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"54682\"></a><div itemprop=\"text\">\n<p>Which of the following is not a maturity level as per Capability Maturity Model?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2014 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Initial</p>",
+            "<p>Measurable</p>",
+            "<p>Repeatable</p>",
+            "<p>Optimized</p>"
+          ],
+          "correct_answer": "<p>Measurable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54682/isro-cse-2014-question-20\" target=\"_blank\">https://gateoverflow.in/54682/isro-cse-2014-question-20</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"55087\"></a><div itemprop=\"text\">\n<p>For a software project, the spiral model was employed. When will the spiral stop?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2014 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>When the software product is retired</p>",
+            "<p>When the software product is released after Beta testing</p>",
+            "<p>When the risk analysis is completed</p>",
+            "<p>After completing five loops</p>"
+          ],
+          "correct_answer": "<p>When the software product is retired</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55087/isro-cse-2014-question-69\" target=\"_blank\">https://gateoverflow.in/55087/isro-cse-2014-question-69</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"55561\"></a><div itemprop=\"text\">\n<p>The extent to which the s/w can continue to operate correctly despite the introduction of invalid inputs is called as</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2016 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Reliability</p>",
+            "<p>Robustness</p>",
+            "<p>Fault tolerance</p>",
+            "<p>Portability</p>"
+          ],
+          "correct_answer": "<p>Robustness</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55561/isro-cse-2016-question-61\" target=\"_blank\">https://gateoverflow.in/55561/isro-cse-2016-question-61</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"55559\"></a><div itemprop=\"text\">\n<p>Which one of the following is a functional requirement ?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2016 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Maintainability</p>",
+            "<p>Portability</p>",
+            "<p>Robustness</p>",
+            "<p>None of the mentioned</p>"
+          ],
+          "correct_answer": "<p>None of the mentioned</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55559/isro-cse-2016-question-62\" target=\"_blank\">https://gateoverflow.in/55559/isro-cse-2016-question-62</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"55717\"></a><div itemprop=\"text\">\n<p>Configuration management is not concerned with</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2016 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>controlling changes to the source code</p>",
+            "<p>choice of hardware configuration for an application</p>",
+            "<p>controllling documentation changes</p>",
+            "<p>maintaining versions of software</p>"
+          ],
+          "correct_answer": "<p>choice of hardware configuration for an application</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55717/isro-cse-2016-question-63\" target=\"_blank\">https://gateoverflow.in/55717/isro-cse-2016-question-63</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"55666\"></a><div itemprop=\"text\">\n<p>A company needs to develop a digital signal processing software for one of its newest inventions. The software is expected to have 20000 lines of code. The company needs to determine the effort in person-months needed to develop this software using the basic COCOMO model. The multiplicative factor for this model is given as 2.2 for the software development on embedded systems, while the exponentiation factor is given as 1.5. What is the estimated effort in person-months?</p>\n\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2016 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p><span style=\"font-family: helvetica neue, helvetica, arial, sans-serif;\"><span style=\"font-size: 14px; line-height: 22.4px;\">196.77</span></span></p>",
+            "<p><span style=\"font-family: helvetica neue, helvetica, arial, sans-serif;\"><span style=\"font-size: 14px; line-height: 22.4px;\">206.56</span></span></p>",
+            "<p><span style=\"font-family: helvetica neue, helvetica, arial, sans-serif;\"><span style=\"font-size: 14px; line-height: 22.4px;\">199.56</span></span></p>",
+            "<p><span style=\"font-family: helvetica neue, helvetica, arial, sans-serif;\"><span style=\"font-size: 14px; line-height: 22.4px;\">210.68</span></span></p>"
+          ],
+          "correct_answer": "<p><span style=\"font-family: helvetica neue, helvetica, arial, sans-serif;\"><span style=\"font-size: 14px; line-height: 22.4px;\">196.77</span></span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55666/isro-cse-2016-question-65\" target=\"_blank\">https://gateoverflow.in/55666/isro-cse-2016-question-65</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"128742\"></a><div itemprop=\"text\"><p>Which of the following is not a life cycle model?</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2017 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Spiral model</p>",
+            "<p>Prototyping model</p>",
+            "<p>Waterfall model</p>",
+            "<p>Capability maturity model</p>"
+          ],
+          "correct_answer": "<p>Capability maturity model</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128742/isro-cse-2017-question-58\" target=\"_blank\">https://gateoverflow.in/128742/isro-cse-2017-question-58</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"128748\"></a><div itemprop=\"text\"><p>In software maintenance tackling the changes in the hardware or software environment where the software works, is</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2017 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Corrective maintenance</p>",
+            "<p>Perfective maintenance</p>",
+            "<p>Adaptive maintenance</p>",
+            "<p>Preventive maintenance</p>"
+          ],
+          "correct_answer": "<p>Adaptive maintenance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128748/isro-cse-2017-question-61\" target=\"_blank\">https://gateoverflow.in/128748/isro-cse-2017-question-61</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"128757\"></a><div itemprop=\"text\"><p>Which product metric gives the measure of the average length of words and sentence in documents?</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2017 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SCI number</p>",
+            "<p>Cyclomatic complexity</p>",
+            "<p>LOC</p>",
+            "<p>Fog index</p>"
+          ],
+          "correct_answer": "<p>Fog index</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128757/isro-cse-2017-question-65\" target=\"_blank\">https://gateoverflow.in/128757/isro-cse-2017-question-65</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"213541\"></a><div itemprop=\"text\">\n\n<p>In a particular program, it is found that \\( 1 \\)% of the code account for \\( 50 \\)% of the execution time. To code a program in C++, it takes \\( 100 \\) man-days. Coding in assembly language is \\( 10 \\) times harder than coding in C++, but runs \\( 5 \\) times faster. Converting an existing&nbsp;C++ program into an assembly language program is \\( 4 \\) times faster.</p>\n\n<p>To completely write the program in C++ and rewrite the \\( 1 \\)% code in assembly language, if a project team needs 13 days, the team consist of</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2018 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13 \\) programmers</p>",
+            "<p>\\( 10 \\) programmers</p>",
+            "<p>\\( 8 \\) programmers</p>",
+            "<p>\\( 100/13 \\) programmers</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\) programmers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213541/isro-cse-2018-question-47\" target=\"_blank\">https://gateoverflow.in/213541/isro-cse-2018-question-47</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"213529\"></a><div itemprop=\"text\">\n\n<p>The lower degree of cohesion is kind of:</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2018 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Logical Cohesion</p>",
+            "<p>Coincidental Cohesion</p>",
+            "<p>Procedural Cohesion</p>",
+            "<p>Communicational Cohesion</p>"
+          ],
+          "correct_answer": "<p>Coincidental Cohesion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213529/isro-cse-2018-question-59\" target=\"_blank\">https://gateoverflow.in/213529/isro-cse-2018-question-59</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"213512\"></a><div itemprop=\"text\">\n\n<p>Cloaking is a search engine optimization&nbsp;\\( (SEO) \\) technique. During cloaking:</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2018 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Content presented to search engine spider is different from that presented to user's browser</p>",
+            "<p>Content present to search engine spider and browser is same</p>",
+            "<p>Contents of user's requested website are changed</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Content presented to search engine spider is different from that presented to user's browser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213512/isro-cse-2018-question-76\" target=\"_blank\">https://gateoverflow.in/213512/isro-cse-2018-question-76</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"331257\"></a><div itemprop=\"text\"><p>Regression testing is primarily related to</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2020 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Functional testing</p>",
+            "<p>Development testing</p>",
+            "<p>Data flow testing</p>",
+            "<p>Maintenance testing</p>"
+          ],
+          "correct_answer": "<p>Maintenance testing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331257/isro-cse-2020-question-64\" target=\"_blank\">https://gateoverflow.in/331257/isro-cse-2020-question-64</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"331265\"></a><div itemprop=\"text\"><p>What is the availability of the software with the following reliability figures</p>\n\n<p>Mean Time Between Failures (MTBF) is \\( 20 \\) days</p>\n\n<p>Mean Time To Repair (MTTR) is \\( 20 \\) hours</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2020 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 90\\% \\)</p>",
+            "<p>\\( 96\\% \\)</p>",
+            "<p>\\( 24\\% \\)</p>",
+            "<p>\\( 50\\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 96\\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331265/isro-cse-2020-question-67\" target=\"_blank\">https://gateoverflow.in/331265/isro-cse-2020-question-67</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"331267\"></a><div itemprop=\"text\"><p>What is the defect rate for Six sigma?</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2020 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1.0 \\) defect per million lines of code</p>",
+            "<p>\\( 1.4 \\) defects per million lines of code</p>",
+            "<p>\\( 3.0 \\) defects per million lines of code</p>",
+            "<p>\\( 3.4 \\) defects per million lines of code</p>"
+          ],
+          "correct_answer": "<p>\\( 3.4 \\) defects per million lines of code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331267/isro-cse-2020-question-68\" target=\"_blank\">https://gateoverflow.in/331267/isro-cse-2020-question-68</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"331344\"></a><div itemprop=\"text\"><p>In a class definition with \\( 10 \\) methods, to make the class maximally cohesive, number of direct and indirect connections required among the methods are</p>\n\n</div><br><br><b>IS&Software Engineering: ISRO CSE 2020 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 90,0 \\)</p>",
+            "<p>\\( 45,0 \\)</p>",
+            "<p>\\( 10,10 \\)</p>",
+            "<p>\\( 45,45 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 45,0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331344/isro-cse-2020-question-70\" target=\"_blank\">https://gateoverflow.in/331344/isro-cse-2020-question-70</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"435335\"></a><div itemprop=\"text\"><p>HIPO chart is also known as</p></div><br><br><b>IS&Software Engineering: ISRO CSE 2023 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>UML diagram</p>",
+            "<p>Structure chart</p>",
+            "<p>DFD</p>",
+            "<p>None of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Structure chart</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435335/isro-cse-2023-question-60\" target=\"_blank\">https://gateoverflow.in/435335/isro-cse-2023-question-60</a></p>"
+        }
+      ]
+    }
+  ]
+});

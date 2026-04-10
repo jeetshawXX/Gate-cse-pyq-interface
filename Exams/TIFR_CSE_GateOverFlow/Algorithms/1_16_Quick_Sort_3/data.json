@@ -1,0 +1,59 @@
+{
+  "title": "Algorithms - Quick Sort",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Quick Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25209\"></a><div itemprop=\"text\"><p>Consider the quick sort algorithm on a set of \\( n \\) numbers, where in every recursive subroutine of the algorithm, the algorithm chooses the median of that set as the pivot. Then which of the following statements is TRUE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2012 | Part B | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The running time of the algorithm is \\( \\Theta (n). \\)</p>",
+            "<p>The running time of the algorithm is \\( \\Theta (n\\log n) \\).</p>",
+            "<p>The running time of the algorithm is \\( \\Theta (n^{1.5}) \\).</p>",
+            "<p>The running time of the algorithm is \\( \\Theta (n^{2}) \\).</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>The running time of the algorithm is \\( \\Theta (n\\log n) \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25209/tifr-cse-2012-part-b-question-14\" target=\"_blank\">https://gateoverflow.in/25209/tifr-cse-2012-part-b-question-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25865\"></a><div itemprop=\"text\"><p>Let \\( S \\) be a set of numbers. For \\( x&nbsp;\\in&nbsp;S \\), the rank of \\( x \\) is the number of elements in \\( S \\) that are less&nbsp;than or equal to \\( x \\). The procedure \\( \\textsf{Select}(S, r) \\) takes a set \\( S \\) of numbers and a rank \\( r\\left(1 \\leq r \\leq |S|\\right) \\) and&nbsp;returns the element in \\( S \\) of rank \\( r \\). The procedure \\( \\textsf{MultiSelect}(S,R) \\) takes a set of numbers \\( S \\) and a list of&nbsp;ranks \\( R=\\left\\{r_{1} &lt; r_{2} &lt; \\ldots &lt;r_{k}\\right\\} \\), and returns the list \\( \\left\\{x_{1} &lt; x_{2} &lt; ...&lt;x_{k}\\right\\} \\)&nbsp;of elements of \\( S \\), such that&nbsp;the rank of \\( x_{i} \\) is \\( r_{i} \\). Suppose there is an implementation for \\( \\textsf{Select}(S, r) \\) that uses at most&nbsp; \\( ( \\)&nbsp;constant ·\\( |S|) \\)&nbsp;binary comparisons between elements of \\( S \\). The minimum number of comparisons needed to implement \\( \\textsf{MultiSelect}(S,R) \\) is</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>constant · \\( |S| \\log |S| \\)</p>",
+            "<p>constant · \\( |S| \\)</p>",
+            "<p>constant · \\( |S||R| \\)</p>",
+            "<p>constant · \\( |R| \\log |S| \\)</p>",
+            "<p>constant · \\( |S|(1 + \\log |R|) \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25865/tifr-cse-2013-part-b-question-18\" target=\"_blank\">https://gateoverflow.in/25865/tifr-cse-2013-part-b-question-18</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"179291\"></a><div itemprop=\"text\"><p>Consider the recursive&nbsp;quicksort algorithm with \"random&nbsp;pivoting\". That is, in each recursive call, a pivot is chosen uniformly at random from the sub-array being sorted.When this randomized algorithm is applied to an array of size \\( n \\) all whose elements are distinct, what is the probability that the smallest and the largest elements in the array are compared during a run of the algorithm ?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2018 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{1}{n}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{2}{n}\\right) \\)</p>",
+            "<p>\\( \\Theta \\left(\\dfrac{1}{n\\log n}\\right) \\)</p>",
+            "<p>\\( {O} \\left(\\dfrac{1}{n^{2}}\\right) \\)</p>",
+            "<p>\\( \\Theta\\left(\\dfrac{1}{n \\log^{2} n}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{2}{n}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179291/tifr-cse-2018-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/179291/tifr-cse-2018-part-b-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+}

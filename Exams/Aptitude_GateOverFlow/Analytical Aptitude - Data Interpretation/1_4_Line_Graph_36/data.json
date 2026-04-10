@@ -1,0 +1,549 @@
+{
+  "title": "Analytical Aptitude - Data Interpretation - Line Graph",
+  "duration": 100,
+  "sections": [
+    {
+      "name": "Line Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1266\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p><p>ABC Ltd. produces widgets for which the demand is unlimited and they can sell all of their production. The graph below describes the monthly variable costs incurred by the company as a function of the quantity produced. In addition, operating the plant for one shift results in a fixed monthly cost of Rs. \\( 800. \\) Fixed monthly costs for second shift operation are estimated at Rs. \\( 1200. \\) Each shift operation provides capacity for producing \\( 30 \\) widgets per month.<br>Note : Average unit cost, AC \\( = \\) Total monthly costs/monthly production, and Marginal cost, MC is the rate of change in total cost for unit change in quantity produced.&nbsp;</p><p><img alt=\"\" width=\"700\" height=\"314\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13765462827191390870\"></p><p>Total production in July is \\( 40 \\) units. What is the approximate average unit cost for July?</p></div><br><br><b>Data Interpretation: CAT 2000 | Question: 160</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3600 \\)&nbsp;</p>",
+            "<p>\\( 90 \\)&nbsp;</p>",
+            "<p>\\( 140 \\)&nbsp;</p>",
+            "<p>\\( 115 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1266/cat-2000-question-160\" target=\"_blank\">https://aptitude.gateoverflow.in/1266/cat-2000-question-160</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1453\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p><p>ABC Ltd. produces widgets for which the demand is unlimited and they can sell all of their production. The graph below describes the monthly variable costs incurred by the company as a function of the quantity produced. In addition, operating the plant for one shift results in a fixed monthly cost of Rs. \\( 800. \\) Fixed monthly costs for second shift operation are estimated at Rs. \\( 1200. \\) Each shift operation provides capacity for producing \\( 30 \\) widgets per month.<br>Note : Average unit cost, AC \\( = \\) Total monthly costs/monthly production, and Marginal cost, MC is the rate of change in total cost for unit change in quantity produced.&nbsp;</p><p><img alt=\"\" width=\"600\" height=\"269\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13765462827191390870\"></p><p>ABC Ltd. is considering increasing the production level. What is the approximate marginal cost of increasing production from its July level of \\( 40 \\) units?</p></div><br><br><b>Data Interpretation: CAT 2000 | Question: 161</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 110 \\)&nbsp;</p>",
+            "<p>\\( 130 \\)&nbsp;</p>",
+            "<p>\\( 240 \\)</p>",
+            "<p>\\( 160 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1453/cat-2000-question-161\" target=\"_blank\">https://aptitude.gateoverflow.in/1453/cat-2000-question-161</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1454\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p><p>ABC Ltd. produces widgets for which the demand is unlimited and they can sell all of their production. The graph below describes the monthly variable costs incurred by the company as a function of the quantity produced. In addition, operating the plant for one shift results in a fixed monthly cost of Rs. \\( 800. \\) Fixed monthly costs for second shift operation are estimated at Rs. \\( 1200. \\) Each shift operation provides capacity for producing \\( 30 \\) widgets per month.<br>Note : Average unit cost, AC \\( = \\) Total monthly costs/monthly production, and Marginal cost, MC is the rate of change in total cost for unit change in quantity produced.&nbsp;</p><p><img alt=\"\" width=\"600\" height=\"269\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13765462827191390870\"></p><p>From the data provided it can be inferred that, for production levels in the range of \\( 0 \\)&nbsp;to \\( 60 \\) units.</p></div><br><br><b>Data Interpretation: CAT 2000 | Question: 162</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>MC is an increasing function of production quantity.</p>",
+            "<p>MC is a decreasing function of production quantity.</p>",
+            "<p>Initially MC is a decreasing function of production quantity, attains a minimum and then it is an increasing function of production quantity.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1454/cat-2000-question-162\" target=\"_blank\">https://aptitude.gateoverflow.in/1454/cat-2000-question-162</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1455\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p><p>ABC Ltd. produces widgets for which the demand is unlimited and they can sell all of their production. The graph below describes the monthly variable costs incurred by the company as a function of the quantity produced. In addition, operating the plant for one shift results in a fixed monthly cost of Rs. \\( 800. \\) Fixed monthly costs for second shift operation are estimated at Rs. \\( 1200. \\) Each shift operation provides capacity for producing \\( 30 \\) widgets per month.<br>Note : Average unit cost, AC \\( = \\) Total monthly costs/monthly production, and Marginal cost, MC is the rate of change in total cost for unit change in quantity produced.&nbsp;</p><p><img alt=\"\" width=\"600\" height=\"269\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13765462827191390870\"></p><p>Suppose that each widget sells for Rs \\( 150. \\) What is the profit earned by ABC Ltd. in July? (Profit is defined as the excess of sales revenue over total cost.)</p></div><br><br><b>Data Interpretation: CAT 2000 | Question: 163</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2400 \\)&nbsp;</p>",
+            "<p>\\( 1600 \\)&nbsp;</p>",
+            "<p>\\( 400 \\)&nbsp;</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1455/cat-2000-question-163\" target=\"_blank\">https://aptitude.gateoverflow.in/1455/cat-2000-question-163</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1456\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p><p>ABC Ltd. produces widgets for which the demand is unlimited and they can sell all of their production. The graph below describes the monthly variable costs incurred by the company as a function of the quantity produced. In addition, operating the plant for one shift results in a fixed monthly cost of Rs. \\( 800. \\) Fixed monthly costs for second shift operation are estimated at Rs. \\( 1200. \\) Each shift operation provides capacity for producing \\( 30 \\) widgets per month.<br>Note : Average unit cost, AC \\( = \\) Total monthly costs/monthly production, and Marginal cost, MC is the rate of change in total cost for unit change in quantity produced.&nbsp;</p><p><img alt=\"\" width=\"600\" height=\"269\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13765462827191390870\"></p><p>Assume that the unit price is Rs. \\( 150 \\) and profit is defined as the excess of sales revenue over total costs. What is the monthly production level of ABC Ltd. at which the profit is highest?</p></div><br><br><b>Data Interpretation: CAT 2000 | Question: 164</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30 \\)&nbsp;</p>",
+            "<p>\\( 50 \\)&nbsp;</p>",
+            "<p>\\( 60 \\)&nbsp;</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1456/cat-2000-question-164\" target=\"_blank\">https://aptitude.gateoverflow.in/1456/cat-2000-question-164</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1457\"></a><div itemprop=\"text\"><p><strong>Answer the following question based on the information given below.</strong></p><p>ABC Ltd. produces widgets for which the demand is unlimited and they can sell all of their production. The graph below describes the monthly variable costs incurred by the company as a function of the quantity produced. In addition, operating the plant for one shift results in a fixed monthly cost of Rs. \\( 800. \\) Fixed monthly costs for second shift operation are estimated at Rs. \\( 1200. \\) Each shift operation provides capacity for producing \\( 30 \\) widgets per month.<br>Note : Average unit cost, AC \\( = \\) Total monthly costs/monthly production, and Marginal cost, MC is the rate of change in total cost for unit change in quantity produced.&nbsp;</p><p><img alt=\"\" width=\"600\" height=\"269\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13765462827191390870\"></p><p>For monthly production level in the range of \\( 0  \\)to \\( 30 \\) units</p></div><br><br><b>Data Interpretation: CAT 2000 | Question: 165</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>AC is always higher than MC.</p>",
+            "<p>AC is always lower than MC.</p>",
+            "<p>AC is lower than MC up to a certain level and then is higher than MC.</p>",
+            "<p>None of the above is true.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1457/cat-2000-question-165\" target=\"_blank\">https://aptitude.gateoverflow.in/1457/cat-2000-question-165</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"982\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>The length of an infant is one of the measures of his/her development in the early stages of his/her life. The figure below shows the growth chart of four infants in the first five months of life.</p><p><img alt=\"\" width=\"600\" height=\"504\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13573250664233620151\"></p><p>After which month did Seeta's rate of growth start to decline?</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Second month</p>",
+            "<p>Third&nbsp;month</p>",
+            "<p>Fourth&nbsp;month</p>",
+            "<p>Never</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/982/cat-2003-question-1-54\" target=\"_blank\">https://aptitude.gateoverflow.in/982/cat-2003-question-1-54</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1549\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>The length of an infant is one of the measures of his/her development in the early stages of his/her life. The figure below shows the growth chart of four infants in the first five months of life.</p><p><img alt=\"\" width=\"600\" height=\"504\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13573250664233620151\"></p><p>Who grew at the fastest rate in the first two months of life?</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Geetha&nbsp;</p>",
+            "<p>Seetha</p>",
+            "<p>Ram</p>",
+            "<p>Shyam</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1549/cat-2003-question-1-55\" target=\"_blank\">https://aptitude.gateoverflow.in/1549/cat-2003-question-1-55</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1550\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>The length of an infant is one of the measures of his/her development in the early stages of his/her life. The figure below shows the growth chart of four infants in the first five months of life.</p><p><img alt=\"\" width=\"600\" height=\"504\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13573250664233620151\"></p><p>The rate of growth during the third month was lower for ______</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Geetha&nbsp;</p>",
+            "<p>Seetha</p>",
+            "<p>Ram</p>",
+            "<p>Shyam</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1550/cat-2003-question-1-56\" target=\"_blank\">https://aptitude.gateoverflow.in/1550/cat-2003-question-1-56</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1551\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>The length of an infant is one of the measures of his/her development in the early stages of his/her life. The figure below shows the growth chart of four infants in the first five months of life.</p><p><img alt=\"\" width=\"600\" height=\"504\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13573250664233620151\"></p><p>Among the four infants, who grew the least in the first five months of life?</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Geetha&nbsp;</p>",
+            "<p>Seetha</p>",
+            "<p>Ram</p>",
+            "<p>Shyam</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1551/cat-2003-question-1-57\" target=\"_blank\">https://aptitude.gateoverflow.in/1551/cat-2003-question-1-57</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"986\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>Each point in the graph shows the profit and the turnover data for a company. Each company belongs to one of three industries: textile, cement and steel.</p><p><img alt=\"\" width=\"500\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15298869631616812322\"></p><p>For how many company does the profit exceed 10% of turnover?</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/986/cat-2003-question-1-67\" target=\"_blank\">https://aptitude.gateoverflow.in/986/cat-2003-question-1-67</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1536\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>Each point in the graph shows the profit and the turnover data for a company. Each company belongs to one of three industries: textile, cement and steel.</p><p><img alt=\"\" width=\"500\" height=\"365\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15298869631616812322\"></p><p>For how many steel companies with a turnover of more than \\( 2000 \\) is the profit less than \\( 300? \\)</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1536/cat-2003-question-1-68\" target=\"_blank\">https://aptitude.gateoverflow.in/1536/cat-2003-question-1-68</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1537\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the information given below:</strong></p><p>Each point in the graph shows the profit and the turnover data for a company. Each company belongs to one of three industries: textile, cement and steel.</p><p><img alt=\"\" width=\"500\" height=\"365\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15298869631616812322\"></p><p>An investor wants to buy stock of only steel or cement companies with a turnover more than \\( 1000 \\) and profit exceeding \\( 10\\% \\) of turnover. How many choices are available to the investor?</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1537/cat-2003-question-1-69\" target=\"_blank\">https://aptitude.gateoverflow.in/1537/cat-2003-question-1-69</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"2107\"></a><div itemprop=\"text\"><p><strong>Answer the questions on the basis of the data presented in the figure below:</strong></p><p><strong><img alt=\"\" width=\"700\" height=\"389\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4245790897692330580\"></strong><br>During \\( 1996-2002, \\) the number of commodities that exhibited a net overall increase and a net overall decrease, respectively, were</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\) and \\( 3 \\)</p>",
+            "<p>\\( 2 \\)&nbsp;and \\( 4 \\)</p>",
+            "<p>\\( 4 \\)&nbsp;and \\( 2 \\)</p>",
+            "<p>\\( 5 \\) and \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)&nbsp;and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2107/cat-2003-question-2-148\" target=\"_blank\">https://aptitude.gateoverflow.in/2107/cat-2003-question-2-148</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"2108\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the data presented in the figure below:</strong><br><img alt=\"\" width=\"700\" height=\"389\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4245790897692330580\"></p><p>&nbsp;</p><p>The number of commodities that experienced a price decline for two or more consecutive years is</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2108/cat-2003-question-2-149\" target=\"_blank\">https://aptitude.gateoverflow.in/2108/cat-2003-question-2-149</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"2109\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of the data presented in the figure below:</strong><br><img alt=\"\" width=\"700\" height=\"389\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4245790897692330580\"></p><p>For which commodities did a price increase immediately follow a price decline only once in this period?</p></div><br><br><b>Data Interpretation: CAT 2003 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rice, Edible oil, and Dal</p>",
+            "<p>Egg and Dal</p>",
+            "<p>Onion only</p>",
+            "<p>Egg and Onion</p>"
+          ],
+          "correct_answer": "<p>Egg and Onion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2109/cat-2003-question-2-150\" target=\"_blank\">https://aptitude.gateoverflow.in/2109/cat-2003-question-2-150</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"814\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the information given below:</strong></p>\n\n<p>The data point in the figure below represent monthly income and expenditure data of individual members of the Ahuja family, the Bose family , the Coomar family, and the Dubey family.</p>\n\n<p>&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13396669963827089042\" width=\"600\"></p>\n\n<p>For these questions, savings is defined as</p>\n\n<p>Savings = income-expenditure</p>\n\n<p>Which family has the highest average expenditure?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2004 | Question: 09</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ahuja</p>",
+            "<p>Bose</p>",
+            "<p>Coomer</p>",
+            "<p>Dubey</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/814/cat-2004-question-09\" target=\"_blank\">https://aptitude.gateoverflow.in/814/cat-2004-question-09</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1584\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the information given below:</strong></p>\n\n<p>The data point in the figure below represent monthly income and expenditure data of individual members of the Ahuja family, the Bose family , the Coomar family, and the Dubey family.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13396669963827089042\" width=\"600\"></p>\n\n<p>For these questions, savings is defined as</p>\n\n<p>Savings = income-expenditure</p>\n\n<p>Which family has the lowest average income?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2004 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ahuja</p>",
+            "<p>Bose</p>",
+            "<p>Coomer</p>",
+            "<p>Dubey</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1584/cat-2004-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/1584/cat-2004-question-10</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"1585\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the information given below:</strong></p>\n\n<p>The data point in the figure below represent monthly income and expenditure data of individual members of the Ahuja family, the Bose family , the Coomar family, and the Dubey family.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13396669963827089042\" width=\"600\"></p>\n\n<p>For these questions, savings is defined as</p>\n\n<p>Savings = income-expenditure</p>\n\n<p>The highest amount of savings accrues to a member of which family?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2004 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ahuja</p>",
+            "<p>Bose</p>",
+            "<p>Coomer</p>",
+            "<p>Dubey</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1585/cat-2004-question-11\" target=\"_blank\">https://aptitude.gateoverflow.in/1585/cat-2004-question-11</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"1586\"></a><div itemprop=\"text\"><p><strong>Answer the questions based on the information given below:</strong></p>\n\n<p>The data point in the figure below represent monthly income and expenditure data of individual members of the Ahuja family, the Bose family , the Coomar family, and the Dubey family.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13396669963827089042\" width=\"600\"></p>\n\n<p>For these questions, savings is defined as</p>\n\n<p>Savings = income-expenditure</p>\n\n<p>Which family has the lowest average savings?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2004 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ahuja</p>",
+            "<p>Bose</p>",
+            "<p>Coomer</p>",
+            "<p>Dubey</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1586/cat-2004-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/1586/cat-2004-question-12</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"548\"></a><div itemprop=\"text\"><p>Answer the following questions based on the information given below.</p><p>The telecom operators get revenue from transfer of data and voice. Average revenue received from transfer of each unit of data is known as ARDT. In the diagram below, the revenue received from data transfer as percentage of total revenue received and the ARDT in US Dollars (USD) are given for various countries.</p><p style=\"text-align:center\"><img alt=\"Diagram\" width=\"650\" height=\"750\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=12184742502311178261\"></p><p>It is expected that by \\( 2010, \\) revenue from data transfer as a percentage of total revenue will triple for India and double for Sweden. Assume that in \\( 2010 \\), the total revenue in India is twice that of Sweden and that the volume of data transfer is the same in both the countries. What is the percentage increase of ARDT in India if there is no change in ARDT in Sweden?</p></div><br><br><b>Data Interpretation: CAT 2008 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 400\\% \\)</p>",
+            "<p>\\( 550\\% \\)</p>",
+            "<p>\\( 800\\% \\)</p>",
+            "<p>\\( 950\\% \\)</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/548/cat-2008-question-45\" target=\"_blank\">https://aptitude.gateoverflow.in/548/cat-2008-question-45</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"8750\"></a><div itemprop=\"text\"><p>Answer the following questions based on the information given below.</p><p>The telecom operators get revenue from transfer of data and voice. Average revenue received from transfer of each unit of data is known as ARDT. In the diagram below, the revenue received from data transfer as percentage of total revenue received and the ARDT in US Dollars (USD) are given for various countries.</p><p><img alt=\"\" width=\"600\" height=\"650\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10124385927515887475\"></p><p>If the total revenue received is the same for the pairs of countries listed in the choices below, choose the pair that has approximately same volume of data transfer</p></div><br><br><b>Data Interpretation: CAT 2008 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Philippines and Austria</p>",
+            "<p>Canada and Poland</p>",
+            "<p>Germany and USA</p>",
+            "<p>UK and Spain</p>",
+            "<p>Denmark and Mexico</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8750/cat-2008-question-46\" target=\"_blank\">https://aptitude.gateoverflow.in/8750/cat-2008-question-46</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"8749\"></a><div itemprop=\"text\"><p>Answer the following questions based on the information given below.</p><p>The telecom operators get revenue from transfer of data and voice. Average revenue received from transfer of each unit of data is known as ARDT. In the diagram below, the revenue received from data transfer as percentage of total revenue received and the ARDT in US Dollars (USD) are given for various countries.</p><p><img alt=\"\" width=\"600\" height=\"650\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10124385927515887475\"></p><p>It was found that the volume of data transfer in India is the same as that of Singapore. Then which of the following statements is true?</p></div><br><br><b>Data Interpretation: CAT 2008 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Total revenue is same in both countries</p>",
+            "<p>Total revenue in India is about \\( 2 \\) times of that of Singapore</p>",
+            "<p>Total revenue in India is about \\( 4 \\) times of that of Singapore</p>",
+            "<p>Total revenue in Singapore is about \\( 2 \\) times of that of India</p>",
+            "<p>Total revenue in Singapore is about \\( 4 \\) times of that of India</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8749/cat-2008-question-47\" target=\"_blank\">https://aptitude.gateoverflow.in/8749/cat-2008-question-47</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"5015\"></a><div itemprop=\"text\">A line graph on a graph sheet shows the revenue for each year from \\( 1990 \\) through \\( 1998 \\) by points and joints the successive points by straight line segments. The point for revenue of \\( 1990 \\) is labeled \\( \\text{A} \\), that for \\( 1991 \\) as \\( \\text{B} \\), and that for \\( 1992 \\) as \\( \\text{C} \\). What is the ratio of growth in revenue between \\( 1991-92 \\) and \\( 1990-91? \\)<br>\n<br>\nStatement I: The angle between \\( \\text{AB} \\) and \\( x \\)- axis when measured with a protractor is \\( 40 \\) degrees, and the angle between \\( \\text{CB} \\) and \\( x \\)-axis is \\( 80 \\) degrees.<br>\n<br>\nStatement II: The scale of \\( y \\)-axis is \\( 1 \\) cm = \\( 1000 \\).</div><br><br><b>Data Interpretation: CAT 2010 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5015/cat-2010-question-19\" target=\"_blank\">https://aptitude.gateoverflow.in/5015/cat-2010-question-19</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"5336\"></a><div itemprop=\"text\"><p>Summary of the estimate of memory space occupied by the information worldwide, stored in various storage media, in the year \\( 2000 \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1493110123045082181\"></p>\n\n<p>In the above graph, for any media of information&nbsp; storage, the figures in the brackets denote the amount of memory space occupied by the information stored worldwide in that media of information storage. For example, the memory space occupied by the information contained in Music CDs worldwide is \\( 55 \\; \\text{TB.} \\)</p>\n\n<p>Note:</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\\( 1 \\) Tera Byte (TB) of memory space \\( =10^{12} \\) Bytes of memory space.</li>\n\t<li>All storage media are classified into four categories&nbsp; –&nbsp;Optical, Paper, Film and Magnetic</li>\n</ol>\n\n<p>If the information contained in each X-Ray&nbsp;occupies \\( 30 \\: \\text{MB} \\) of memory space on an average, and by using a new technology each X-Ray is now stored in magnetic media that saves \\( 60 \\% \\) of the memory space required, what is the total amount of memory space of magnetic media that saves \\( 60 \\% \\) of teh memory space required to store all the X-Rays available in the year \\( 2000 \\). (\\( 1\\: \\text{MB}=10^6 \\)Bytes of memory space)</p>\n\n</div><br><br><b>Data Interpretation: CAT 2013 | Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10,170\\:\\text{TB} \\)</p>",
+            "<p>\\( 6,780 \\: \\text{TB} \\)</p>",
+            "<p>\\( 1,703,170\\:\\text{TB} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5336/cat-2013-question-6\" target=\"_blank\">https://aptitude.gateoverflow.in/5336/cat-2013-question-6</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"5335\"></a><div itemprop=\"text\"><p>Summary of the estimate of memory space occupied by the information worldwide, stored in various storage media, in the year \\( 2000 \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1493110123045082181\"></p>\n\n<p>In the above graph, for any media of information&nbsp; storage, the figures in the brackets denote the amount of memory space occupied by the information stored worldwide in that media of information storage. For example, the memory space occupied by the information contained in Music CDs worldwide is \\( 55 \\; \\text{ TB.} \\)</p>\n\n<p>Note:</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\\( 1 \\) Tera Byte (TB) of memory space \\( =10^{12} \\) Bytes of memory space.</li>\n\t<li>All storage media are classified into four categories&nbsp; –&nbsp;Optical, Paper, Film and Magnetic</li>\n</ol>\n\n<p>The information stored in Newspapers, Books and Periodicals forms what percentage of the total information stored on paper media? Assume that the information stored per unit memory space occupied is the same for all the media mentioned.</p>\n\n</div><br><br><b>Data Interpretation: CAT 2013 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 37.5\\% \\)</p>",
+            "<p>\\( 45\\% \\)</p>",
+            "<p>\\( 57\\% \\)</p>",
+            "<p>\\( 54\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5335/cat-2013-question-7\" target=\"_blank\">https://aptitude.gateoverflow.in/5335/cat-2013-question-7</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"5334\"></a><div itemprop=\"text\"><p>Summary of the estimate of memory space occupied by the information worldwide, stored in various storage media, in the year \\( 2000 \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1493110123045082181\"></p>\n\n<p>In the above graph, for any media of information&nbsp; storage, the figures in the brackets denote the amount of memory space occupied by the information stored worldwide in that media of information storage. For example, the memory space occupied by the information contained in Music CDs worldwide is \\( 55 \\) TB.</p>\n\n<p>Note:</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\\( 1 \\) Tera Byte (TB) of memory space \\( =10^{12} \\) Bytes of memory space.</li>\n\t<li>All storage media are classified into four categories&nbsp; –&nbsp;Optical, Paper, Film and Magnetic</li>\n</ol>\n\n<p>When compared to the total memory space occupied by the information stored in any single category of storage media, what is the highest percentage share of memory space&nbsp;occupied by the information stored in any single&nbsp;media&nbsp;within that&nbsp;category(approximately)?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2013 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 68.75\\% \\)</p>",
+            "<p>\\( 62.5\\% \\)</p>",
+            "<p>\\( 96\\% \\)</p>",
+            "<p>\\( 98.3\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5334/cat-2013-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/5334/cat-2013-question-8</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"5333\"></a><div itemprop=\"text\"><p>Summary of the estimate of memory space occupied by the information worldwide, stored in various storage media, in the year \\( 2000 \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1493110123045082181\"></p>\n\n<p>In the above graph, for any media of information&nbsp; storage, the figures in the brackets denote the amount of memory space occupied by the information stored worldwide in that media of information storage. For example, the memory space occupied by the information contained in Music CDs worldwide is \\( 55 \\) TB.</p>\n\n<p>Note:</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\\( 1 \\) Tera Byte (TB) of memory space \\( =10^{12} \\) Bytes of memory space.</li>\n\t<li>All storage media are classified into four categories&nbsp; –&nbsp;Optical, Paper, Film and Magnetic</li>\n</ol>\n\n<p>Due to advances in technology, the information stored per unit memory space occupied worldwide increases by \\( 20\\% \\) every year, while the total memory space available worldwide increases at the rate of \\( 10\\% \\) every year. If in the year \\( 2000 \\), \\( 80\\% \\) of the memory space available worldwide is occupied by the information available worldwide, and the information available worldwide were to increase by \\( 45\\% \\) every year, then which of the following years is the earliest by which there will be a shortage of memory space?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2013 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2002 \\)</p>",
+            "<p>\\( 2003 \\)</p>",
+            "<p>\\( 2004 \\)</p>",
+            "<p>\\( 2005 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5333/cat-2013-question-9\" target=\"_blank\">https://aptitude.gateoverflow.in/5333/cat-2013-question-9</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"913\"></a><div itemprop=\"text\"><p><strong>Directions for questions:</strong></p>\n\n<p>Answer the questions on the basis of the information given below. The data points in the figure below represent monthly income and expenditure data of individual members following families. For these questions, savings is defined as Savings = Income – Expenditure&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7948338706136780962\" width=\"600\"></p>\n\n<p>Which family has the lowest average income?&nbsp;</p>\n\n</div><br><br><b>Data Interpretation: CAT 2014 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Abhijeet&nbsp;</p>",
+            "<p>Baljeet&nbsp;</p>",
+            "<p>Camaljeet&nbsp;</p>",
+            "<p>Damanjeet&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/913/cat-2014-question-19\" target=\"_blank\">https://aptitude.gateoverflow.in/913/cat-2014-question-19</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"1562\"></a><div itemprop=\"text\"><p><strong>Directions for questions:</strong></p>\n\n<p>Answer the questions on the basis of the information given below. The data points in the figure below represent monthly income and expenditure data of individual members following families. For these questions, savings is defined as Savings = Income – Expenditure&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7948338706136780962\" width=\"650\"></p>\n\n<p>Which family has the highest average expenditure?&nbsp;</p>\n\n</div><br><br><b>Data Interpretation: CAT 2014 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Abhijeet&nbsp;</p>",
+            "<p>Baljeet&nbsp;</p>",
+            "<p>Camaljeet&nbsp;</p>",
+            "<p>Damanjeet&nbsp;</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1562/cat-2014-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/1562/cat-2014-question-20</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"1563\"></a><div itemprop=\"text\"><p><strong>Directions for questions:</strong></p>\n\n<p>Answer the questions on the basis of the information given below. The data points in the figure below represent monthly income and expenditure data of individual members following families. For these questions, savings is defined as Savings = Income – Expenditure&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7948338706136780962\" width=\"650\"></p>\n\n<p>Which family has the lowest average savings?&nbsp;</p>\n\n</div><br><br><b>Data Interpretation: CAT 2014 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Abhijeet&nbsp;</p>",
+            "<p>Baljeet&nbsp;</p>",
+            "<p>Camaljeet&nbsp;</p>",
+            "<p>Damanjeet</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1563/cat-2014-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/1563/cat-2014-question-21</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"1564\"></a><div itemprop=\"text\"><p><strong>Directions for questions:</strong></p>\n\n<p>Answer the questions on the basis of the information given below. The data points in the figure below represent monthly income and expenditure data of individual members following families. For these questions, savings is defined as Savings = Income – Expenditure&nbsp;</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7948338706136780962\" width=\"650\"></p>\n\n<p>The highest amount of savings accrues to a member of which family?&nbsp;</p>\n\n</div><br><br><b>Data Interpretation: CAT 2014 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Abhijeet&nbsp;</p>",
+            "<p>Baljeet&nbsp;</p>",
+            "<p>Camaljeet&nbsp;</p>",
+            "<p>Damanjeet&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Abhijeet&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1564/cat-2014-question-22\" target=\"_blank\">https://aptitude.gateoverflow.in/1564/cat-2014-question-22</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"5617\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below.</p>\n\n<p>Purana and Naya are two brands of kitchen mixer-grinders available in the local market. Purana is an old brand that was introduced in \\( 1990 \\), while Naya was introduced in \\( 1997 \\). For both these brands, \\( 20\\% \\) of the mixer-grinders bought in a particular year are disposed off as junk exactly two years later. It is known that \\( 10 \\) Purana mixer-grinders were disposed off in \\( 1997 \\). The following figures show the number of Purana and Naya mixer-grinders in operation from \\( 1995 \\) to \\( 2000 \\), as at the end of the year.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10981616352965815466\" width=\"600\"></p>\n\n<p>How many Naya mixer-grinders were purchased in \\( 1999 \\)?</p>\n\n</div><br><br><b>Data Interpretation: CAT 2015 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 44 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 55 \\)</p>",
+            "<p>\\( 64 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5617/cat-2015-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/5617/cat-2015-question-35</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"5616\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below.</p><p>Purana and Naya are two brands of kitchen mixer-grinders available in the local market. Purana is an old brand that was introduced in \\( 1990 \\), while Naya was introduced in \\( 1997 \\). For both these brands, \\( 20\\% \\) of the mixer-grinders bought in a particular year are disposed off as junk exactly two years later. It is known that \\( 10 \\) Purana mixer-grinders were disposed off in \\( 1997 \\). The following figures show the number of Purana and Naya mixer-grinders in operation from \\( 1995 \\) to \\( 2000 \\), as at the end of the year.</p><p><img alt=\"\" width=\"600\" height=\"275\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10981616352965815466\"></p><p>How many Naya mixer-grinders were disposed off by the end of \\( 2000 \\)?</p></div><br><br><b>Data Interpretation: CAT 2015 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>Cannot be determined from the data</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5616/cat-2015-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/5616/cat-2015-question-36</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"5615\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below.</p><p>Purana and Naya are two brands of kitchen mixer-grinders available in the local market. Purana is an old brand that was introduced in \\( 1990 \\), while Naya was introduced in \\( 1997 \\). For both these brands, \\( 20\\% \\) of the mixer-grinders bought in a particular year are disposed off as junk exactly two years later. It is known that \\( 10 \\) Purana mixer-grinders were disposed off in \\( 1997 \\). The following figures show the number of Purana and Naya mixer-grinders in operation from \\( 1995 \\) to \\( 2000 \\), as at the end of the year.</p><p>&nbsp; &nbsp; &nbsp;<img alt=\"\" width=\"600\" height=\"275\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10981616352965815466\"></p><p>How many Purana mixer-grinders were disposed off in \\( 2000 \\)?</p></div><br><br><b>Data Interpretation: CAT 2015 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>Cannot be determined from the data</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5615/cat-2015-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/5615/cat-2015-question-37</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"5614\"></a><div itemprop=\"text\"><p>Answer the questions on the basis of the information given below.</p><p>Purana and Naya are two brands of kitchen mixer-grinders available in the local market. Purana is an old brand that was introduced in \\( 1990 \\), while Naya was introduced in \\( 1997 \\). For both these brands, \\( 20\\% \\) of the mixer-grinders bought in a particular year are disposed off as junk exactly two years later. It is known that \\( 10 \\) Purana mixer-grinders were disposed off in \\( 1997 \\). The following figures show the number of Purana and Naya mixer-grinders in operation from \\( 1995 \\) to \\( 2000 \\), as at the end of the year.</p><p>&nbsp; &nbsp; &nbsp;<img alt=\"\" width=\"600\" height=\"275\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10981616352965815466\"></p><p>How many Purana mixer-grinders were purchased in \\( 1999 \\)?</p></div><br><br><b>Data Interpretation: CAT 2015 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>Cannot be determined from the data</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5614/cat-2015-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/5614/cat-2015-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+}

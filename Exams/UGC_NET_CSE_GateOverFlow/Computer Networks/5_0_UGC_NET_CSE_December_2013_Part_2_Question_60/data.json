@@ -1,0 +1,905 @@
+{
+  "title": "Computer Networks - UGC NET CSE  December 2013  Part 2  Question",
+  "duration": 166,
+  "sections": [
+    {
+      "name": "UGC NET CSE  December 2013  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"12069\"></a><div itemprop=\"text\"><p>Which of the following is widely used inside the&nbsp;telephone system for long-haul data traffic?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2013 | Part 2 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ISDN</p>",
+            "<p>ATM</p>",
+            "<p>Frame Relay</p>",
+            "<p>ISTN</p>"
+          ],
+          "correct_answer": "<p>ATM</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/12069/ugc-net-cse-december-2013-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/12069/ugc-net-cse-december-2013-part-2-question-43</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48400\"></a><div itemprop=\"text\"><p>A network with bandwidth of \\( 10 \\) Mbps can pass only an average of \\( 15,000 \\) frames per minute with each frame&nbsp;carrying an average of \\( 8,000 \\) bits. What is the throughput of this network ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) Mbps</p>",
+            "<p>\\( 60 \\) Mbps</p>",
+            "<p>\\( 120 \\) Mbps</p>",
+            "<p>\\( 10 \\) Mbps</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\) Mbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48400/ugc-net-cse-december-2015-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/48400/ugc-net-cse-december-2015-part-3-question-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"48598\"></a><div itemprop=\"text\">\n<p>The bit rate of a signal is \\( 3000 \\) bps. If each signal unit carries \\( 6 \\) bits, the baud rate of the signal is _________.&nbsp;</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 2 | Question: 04</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 500 \\) baud/sec&nbsp;</p>",
+            "<p>\\( 1000 \\) baud/sec&nbsp;</p>",
+            "<p>\\( 3000 \\) baud/sec&nbsp;</p>",
+            "<p>\\( 18000 \\) baud/sec.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 500 \\) baud/sec&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48598/ugc-net-cse-june-2014-part-2-question-04\" target=\"_blank\">https://gateoverflow.in/48598/ugc-net-cse-june-2014-part-2-question-04</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55607\"></a><div itemprop=\"text\"><p>Networks that use different technologies can be connected by using</p></div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 2 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Packets</p>",
+            "<p>Switches</p>",
+            "<p>Bridges</p>",
+            "<p>Routers</p>"
+          ],
+          "correct_answer": "<p>Routers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55607/ugc-net-cse-june-2012-part-2-question-5\" target=\"_blank\">https://gateoverflow.in/55607/ugc-net-cse-june-2012-part-2-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"55617\"></a><div itemprop=\"text\">\n<p>Which of the following TCP/IP Internet protocol does diskless machine uses to obtain its IP address from a server?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 2 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>RAP</p>",
+            "<p>RIP</p>",
+            "<p>ARP</p>",
+            "<p>X.25</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55617/ugc-net-cse-june-2012-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/55617/ugc-net-cse-june-2012-part-2-question-14</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"55876\"></a><div itemprop=\"text\">\n<p>Checksum used along with each packet computes the sum of the data, where data is treated as a sequence of</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Integer</p>",
+            "<p>Character</p>",
+            "<p>Real numbers</p>",
+            "<p>Bits</p>"
+          ],
+          "correct_answer": "<p>Bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55876/ugc-net-cse-june-2012-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/55876/ugc-net-cse-june-2012-part-2-question-34</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"56311\"></a><div itemprop=\"text\"><p>What is the size (in terms of bits) of Header length field in IPV4 header?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2</p>",
+            "<p>4</p>",
+            "<p>8</p>",
+            "<p>16</p>"
+          ],
+          "correct_answer": "<p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56311/ugc-net-cse-june-2012-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/56311/ugc-net-cse-june-2012-part-3-question-54</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"57158\"></a><div itemprop=\"text\"><p>If link transmits 4000 frames per scond and each slot has 8 bits , the transmission rate of circuits of this TDM is _____</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 3 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>64 Kbps</p>",
+            "<p>32 Mbps</p>",
+            "<p>32 Kbps</p>",
+            "<p>64 Mbps</p>"
+          ],
+          "correct_answer": "<p>32 Kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57158/ugc-net-cse-july-2016-part-3-question-25\" target=\"_blank\">https://gateoverflow.in/57158/ugc-net-cse-july-2016-part-3-question-25</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"57591\"></a><div itemprop=\"text\">\n<p>Ten signals, each requiring \\( 3000 \\) Hz, are multiplexed on to a single channel using FDM. How much minimum bandwidth is required for the multiplexed channel ? Assume that the guard bands are \\( 300 \\) Hz wide.</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30,000 \\)</p>",
+            "<p>\\( 32,700 \\)</p>",
+            "<p>\\( 33,000 \\)</p>",
+            "<p>None of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 32,700 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57591/ugc-net-cse-june-2014-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/57591/ugc-net-cse-june-2014-part-3-question-67</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"57974\"></a><div itemprop=\"text\"><p>In classful addressing, the IP address 190.255.254.254 belongs to</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2013 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class A</p>",
+            "<p>Class B</p>",
+            "<p>Class C</p>",
+            "<p>Class D</p>"
+          ],
+          "correct_answer": "<p>Class B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57974/ugc-net-cse-june-2013-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/57974/ugc-net-cse-june-2013-part-2-question-17</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"58721\"></a><div itemprop=\"text\"><p>A Pure ALOHA Network transmits 200 bit frames using a shared channel with 200 kbps bandwidth . If the system &nbsp;(all stations put together) produces 500 frames per sec , then the throughput of the system is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 3 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0.384</p>",
+            "<p>0.184</p>",
+            "<p>0.286</p>",
+            "<p>0.586</p>"
+          ],
+          "correct_answer": "<p>0.184</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58721/ugc-net-cse-july-2016-part-3-question-27\" target=\"_blank\">https://gateoverflow.in/58721/ugc-net-cse-july-2016-part-3-question-27</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"59010\"></a><div itemprop=\"text\">\n<p>The ____ is a set of standards that defines how a dynamic web document should be written, how input data should be supplied to the program, and how the output result should be used.</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 2 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Hyper Text Markup Language</p>",
+            "<p>File Transfer Protocol</p>",
+            "<p>Hyper Text Transfer Protocol</p>",
+            "<p>Common Gateway Interface</p>"
+          ],
+          "correct_answer": "<p>Common Gateway Interface</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59010/ugc-net-cse-september-2013-part-2-question-5\" target=\"_blank\">https://gateoverflow.in/59010/ugc-net-cse-september-2013-part-2-question-5</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"60726\"></a><div itemprop=\"text\"><p>The start and stop bits are used in serial communication for</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2013 | Part 3 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>error detection</p>",
+            "<p>error correction</p>",
+            "<p>synchronization</p>",
+            "<p>slowing down the communication</p>"
+          ],
+          "correct_answer": "<p>synchronization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60726/ugc-net-cse-december-2013-part-3-question-47\" target=\"_blank\">https://gateoverflow.in/60726/ugc-net-cse-december-2013-part-3-question-47</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"61460\"></a><div itemprop=\"text\">\n<p>In a binary Hamming Code the number of check digits is r then number of message digits is equal to</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 3 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^r-1 \\)</p>",
+            "<p>\\( 2^r-r-1 \\)</p>",
+            "<p>\\( 2^r-r+1 \\)</p>",
+            "<p>\\( 2^r+r-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^r-r-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61460/ugc-net-cse-junet-2015-part-3-question-66\" target=\"_blank\">https://gateoverflow.in/61460/ugc-net-cse-junet-2015-part-3-question-66</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"62255\"></a><div itemprop=\"text\"><p>Which of the following fields in IPv 4 datagram is not related to fragmentation?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 2 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Type of service</p>",
+            "<p>Fragment offset</p>",
+            "<p>Flags</p>",
+            "<p>Indentification</p>"
+          ],
+          "correct_answer": "<p>Type of service</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62255/ugc-net-cse-december-2015-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/62255/ugc-net-cse-december-2015-part-2-question-22</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"62257\"></a><div itemprop=\"text\"><p>Four channels are multiplexed using TDM. If each channel sends 100 bytes/second and we multiplex 1 byte per channel, then the bit rate for the link is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>400 bps</p>",
+            "<p>800&nbsp;bps</p>",
+            "<p>1600&nbsp;bps</p>",
+            "<p>3200&nbsp;bps</p>"
+          ],
+          "correct_answer": "<p>3200&nbsp;bps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62257/ugc-net-cse-december-2015-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/62257/ugc-net-cse-december-2015-part-2-question-23</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"62465\"></a><div itemprop=\"text\"><p>A network device is sending out the data at the rate of \\( 2000 \\) bps. How long does it take to send a file of \\( 1,00,000 \\) characters?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 3 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 400 \\)</p>",
+            "<p>\\( 800 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 200 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62465/ugc-net-cse-december-2015-part-3-question-15\" target=\"_blank\">https://gateoverflow.in/62465/ugc-net-cse-december-2015-part-3-question-15</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"62782\"></a><div itemprop=\"text\"><p>Which of the following steps is/are not required for analog to digital conversion?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Sensing</li>\n\t<li>Conversion</li>\n\t<li>Amplification</li>\n\t<li>Conditioning</li>\n\t<li>Quantization\n\t\n\t</li>\n</ol></div><br><br><b>Computer Networks: UGC NET CSE | December 2015 | Part 3 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a and b</p>",
+            "<p>c and d</p>",
+            "<p>a, b and e</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>a, b and e</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62782/ugc-net-cse-december-2015-part-3-question-68\" target=\"_blank\">https://gateoverflow.in/62782/ugc-net-cse-december-2015-part-3-question-68</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"63433\"></a><div itemprop=\"text\"><p>A multiplexer combines four 100-Kbps channels using a time slot of 2 bits. What is the bit rate?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>100 Kbps</p>",
+            "<p>200&nbsp;Kbps</p>",
+            "<p>400&nbsp;Kbps</p>",
+            "<p>1000&nbsp;Kbps</p>"
+          ],
+          "correct_answer": "<p>400&nbsp;Kbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63433/ugc-net-cse-july-2016-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/63433/ugc-net-cse-july-2016-part-2-question-26</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"63946\"></a><div itemprop=\"text\"><p>Given the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Frequency Division Multiplexing is a technique that can be applied when a bandwidth of a link is greater than combined bandwidth of signals to be transmitted</li>\n\t<li>Wavelength Division Multiplexing (WDM) is an analogue multiplexing technique to combine optical signals</li>\n\t<li>WDM is a digital multiplexing technique</li>\n\t<li>TDM is a digital multiplexing technique</li>\n</ol>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 3 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i, ii, iii} \\) and \\( \\text{iv} \\)&nbsp;are true</p>",
+            "<p>\\( \\text{i, ii, iii} \\) and \\( \\text{iv} \\)&nbsp;are false</p>",
+            "<p>\\( \\text{i, ii,} \\) and \\( \\text{iv} \\) are false; \\( \\text{iii} \\) is true</p>",
+            "<p>\\( \\text{i, ii,} \\)&nbsp;and \\( \\text{iv} \\)&nbsp;are true; \\( \\text{iii} \\)&nbsp;is false</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i, ii,} \\)&nbsp;and \\( \\text{iv} \\)&nbsp;are true; \\( \\text{iii} \\)&nbsp;is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63946/ugc-net-cse-july-2016-part-3-question-26\" target=\"_blank\">https://gateoverflow.in/63946/ugc-net-cse-july-2016-part-3-question-26</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"63948\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp; \\text{(a)}&nbsp; &amp; \\text{Line Coding} &amp; \\text{(i)} &amp; \\text{A technique to change analog signal to }&nbsp; \\\\ &amp;&amp;&amp; \\text{digital data} \\\\ &nbsp; \\text{(b)}&nbsp; &amp; \\text{Block&nbsp;Coding} &amp; \\text{(ii)} &amp; \\text{Provides synchronization without} \\\\ &amp;&amp;&amp; \\text{increasing number of bits} \\\\ &nbsp;\\text{(c)}&nbsp; &amp; \\text{Scrambling} &amp; \\text{(iii)} &amp; \\text{Process of converting digital data to } \\\\ &amp;&amp;&amp; \\text{digital signal}\\\\ &nbsp; \\text{(d)}&nbsp; &amp; \\text{Pulse code Modulation } &amp; \\text{(iv)} &amp; \\text{Provides redundancy to ensure }\\\\ &amp;&amp;&amp; \\text{&nbsp;synchronization and inherits&nbsp; error detection} \\\\ &nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2016 | Part 3 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63948/ugc-net-cse-july-2016-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/63948/ugc-net-cse-july-2016-part-3-question-28</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"64063\"></a><div itemprop=\"text\"><p>All of the following are examples of real security and privacy risks except</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Hackers</p>",
+            "<p>Spam</p>",
+            "<p>Viruses</p>",
+            "<p>Identity theft</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64063/ugc-net-cse-december-2011-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/64063/ugc-net-cse-december-2011-part-2-question-39</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"64065\"></a><div itemprop=\"text\"><p>Identify the incorrect statement :</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The ATM adoption layer is not service dependent.</p>",
+            "<p>Logical connections in ATM are referred to as virtual channel connections.</p>",
+            "<p>ATM is streamlined protocol with minimal error and flow control capabilities.</p>",
+            "<p>ATM is also known as cell delays.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64065/ugc-net-cse-december-2011-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/64065/ugc-net-cse-december-2011-part-2-question-40</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"64067\"></a><div itemprop=\"text\"><p>The number of bits required for an \\( IP_{V_{6}} \\) address is</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)&nbsp;</p>",
+            "<p>\\( 32 \\)&nbsp;</p>",
+            "<p>\\( 64 \\)&nbsp;</p>",
+            "<p>\\( 128 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 128 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64067/ugc-net-cse-december-2011-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/64067/ugc-net-cse-december-2011-part-2-question-42</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"66537\"></a><div itemprop=\"text\"><p>Encoding of data bits \\( 0011 \\) into \\( 7 \\)-bit even Parity Hamming Code is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0011110 \\)&nbsp;</p>",
+            "<p>\\( 0101110 \\)</p>",
+            "<p>\\( 0010110 \\)</p>",
+            "<p>\\( 0011100 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66537/ugc-net-cse-december-2010-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/66537/ugc-net-cse-december-2010-part-2-question-10</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"67886\"></a><div itemprop=\"text\"><p>What does the URL need to access documents ?</p>\n\n<p>I. Path name</p>\n\n<p>II. Host name</p>\n\n<p>III. DNS</p>\n\n<p>IV. Retrieval method</p>\n\n<p>V. Server port number</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2010 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{I, II, III} \\)</p>",
+            "<p>\\( \\text{I, III, V} \\)</p>",
+            "<p>\\( \\text{I, II, IV} \\)</p>",
+            "<p>\\( \\text{III, IV, V} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67886/ugc-net-cse-june-2010-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/67886/ugc-net-cse-june-2010-part-2-question-27</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"68083\"></a><div itemprop=\"text\"><p>The cost of the network is usually determined by</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2010 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Time complexity</p>",
+            "<p>Switching complexity</p>",
+            "<p>circuit complexity</p>",
+            "<p>none of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68083/ugc-net-cse-june-2010-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/68083/ugc-net-cse-june-2010-part-2-question-46</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"114287\"></a><div itemprop=\"text\"><p>Let C be a binary linear code with minimum distance \\( 2t+1 \\) then it can correct upto ___ bits of error</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | January 2017 | Part 3 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( t+1 \\)</p>",
+            "<p>\\( t \\)</p>",
+            "<p>\\( t-2 \\)</p>",
+            "<p>\\( t/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( t \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/114287/ugc-net-cse-january-2017-part-3-question-64\" target=\"_blank\">https://gateoverflow.in/114287/ugc-net-cse-january-2017-part-3-question-64</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"335165\"></a><div itemprop=\"text\"><p>Which of the following neural networks uses supervised learning?</p>\n\n\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t<li>(A) only&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>(B) only&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>(A) and (B) only&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>(A) and (C) only</li>\n</ol></div><br><br><b>Others: UGC NET CSE | January 2017 | Part 3 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Multilayer perception</p>",
+            "<p>Self organizing feature map</p>",
+            "<p>Hopfield network</p>"
+          ],
+          "correct_answer": "<p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/114409/ugc-net-cse-december-2016-part-3-question-73\" target=\"_blank\">https://gateoverflow.in/114409/ugc-net-cse-december-2016-part-3-question-73</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"152898\"></a><div itemprop=\"text\"><p>Match the following :<br>\n\\[ \\begin{array}{} \\hline \\text{(i)} &amp; \\text{Ethernet} &amp; \\text{(a)} &amp; \\text{Determinsitic} \\\\ \\hline &nbsp;\\text{(ii)} &amp; \\text{Token Ring N } &amp; \\text{(b)} &amp; \\text{Utilize the full wire speed} \\\\ \\hline \\text{(iii)} &amp; \\text{Cut-through switch} &amp; \\text{(c)} &amp; \\text{Prevent looping} \\\\ \\hline \\text{(iv)} &amp; \\text{Spanning tree} &amp; \\text{(d)} &amp; \\text{Checking Valid address Codes} \\\\ \\hline \\end{array} \\]</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2009 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{a-ii, b-iii, c-iv, d-i} \\)</p>",
+            "<p>\\( \\text{a-i, b-iii, c-iv, d-ii} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iv, c-iii, d-i} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-ii, d-i} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152898/ugc-net-cse-december-2009-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/152898/ugc-net-cse-december-2009-part-2-question-30</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"154198\"></a><div itemprop=\"text\"><p>The throughput of pure \\( \\text{ALOHA} \\) is given by :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 06</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{S=G} \\)&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( \\text{S=e2G} \\)&nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( \\text{S=Ge2G} \\)&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( \\text{Ge-2G} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154198/ugc-net-cse-june-2009-part-2-question-06\" target=\"_blank\">https://gateoverflow.in/154198/ugc-net-cse-june-2009-part-2-question-06</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"154199\"></a><div itemprop=\"text\"><p>The Fiber Distributed Data Interface uses :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 07</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>single mode fibers and \\( \\text{LEDs} \\)&nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>multimode fibers and \\( \\text{LEDs} \\)&nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>single mode fibers and \\( \\text{ILDs} \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>multimode fibers and \\( \\text{ILDs} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154199/ugc-net-cse-june-2009-part-2-question-07\" target=\"_blank\">https://gateoverflow.in/154199/ugc-net-cse-june-2009-part-2-question-07</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"154201\"></a><div itemprop=\"text\"><p>To employ multi-access in \\( GSM \\), users are given different :</p>\n\n<ol>\n\t<li>time slots&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</li>\n\t<li>bandpass filters&nbsp; &nbsp;&nbsp;&nbsp;</li>\n\t<li>handsets&nbsp;&nbsp;&nbsp; &nbsp;</li>\n\t<li>frequency bands</li>\n</ol></div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 08</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154201/ugc-net-cse-june-2009-part-2-question-08\" target=\"_blank\">https://gateoverflow.in/154201/ugc-net-cse-june-2009-part-2-question-08</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"154371\"></a><div itemprop=\"text\"><p>\\( X.25 \\) protocol consists of :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Physical and Frame levels&nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>Frame and Packet levels&nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>Physical, Frame and Packet levels&nbsp; &nbsp;&nbsp;</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154371/ugc-net-cse-june-2009-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/154371/ugc-net-cse-june-2009-part-2-question-29</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"154372\"></a><div itemprop=\"text\"><p>GSM/CDMA systems :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>are limited to very low speed data&nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>require no local loop wires&nbsp; &nbsp;&nbsp;</p>",
+            "<p>are predominantly used for voice&nbsp; &nbsp;&nbsp;</p>",
+            "<p>all of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154372/ugc-net-cse-june-2009-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/154372/ugc-net-cse-june-2009-part-2-question-30</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"154480\"></a><div itemprop=\"text\"><p>Usually information security in a network is achieved by :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Layering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+            "<p>Cryptography&nbsp;&nbsp;&nbsp;</p>",
+            "<p>Grade of service&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154480/ugc-net-cse-june-2009-part-2-question-31\" target=\"_blank\">https://gateoverflow.in/154480/ugc-net-cse-june-2009-part-2-question-31</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"154821\"></a><div itemprop=\"text\"><p>Which one of the following ISO standard is used for software process ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( ISO 9000 \\)&nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( ISO 9001 \\)&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( ISO 9003 \\)&nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( ISO 9000-3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154821/ugc-net-cse-june-2009-part-2-question-41\" target=\"_blank\">https://gateoverflow.in/154821/ugc-net-cse-june-2009-part-2-question-41</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"154825\"></a><div itemprop=\"text\"><p>When compared with analog cellular systems, an advantage of digital \\( TDMA \\) cellular system is that :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>it is less complicated&nbsp; &nbsp;&nbsp;</p>",
+            "<p>it requires less of computer memory&nbsp;&nbsp;&nbsp;</p>",
+            "<p>it conserves spectrum bandwidth&nbsp;&nbsp;&nbsp;</p>",
+            "<p>it costs less</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154825/ugc-net-cse-june-2009-part-2-question-45\" target=\"_blank\">https://gateoverflow.in/154825/ugc-net-cse-june-2009-part-2-question-45</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"154826\"></a><div itemprop=\"text\"><p>E-commerce includes :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( B2C \\)&nbsp;&nbsp;</p>",
+            "<p>\\( B2B \\)&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( C2C \\)&nbsp;&nbsp;</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154826/ugc-net-cse-june-2009-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/154826/ugc-net-cse-june-2009-part-2-question-46</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"154827\"></a><div itemprop=\"text\"><p>A clustering technique that permits a convenient graphical display is :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2009 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>partition based clustering&nbsp; &nbsp;&nbsp;</p>",
+            "<p>probabilistic model based clustering&nbsp; &nbsp;&nbsp;</p>",
+            "<p>hierarchical clustering&nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>agglomerative clustering</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154827/ugc-net-cse-june-2009-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/154827/ugc-net-cse-june-2009-part-2-question-47</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"166404\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp; &amp; \\textbf{List-I} &amp;&amp; \\textbf{List-II} \\\\ &nbsp; \\text{(a)} &amp; \\text{Data Link Layer} &amp; \\text{(i)} &amp; \\text{Encryption} \\\\ &nbsp;\\text{(b)} &amp; \\text{Network Layer} &amp; \\text{(ii)} &amp; \\text{Connection control} \\\\ &nbsp;\\text{(c)} &amp; \\text{Transport Layer} &amp; \\text{(iii)} &amp; \\text{Routing} \\\\&nbsp; \\text{(d)} &amp; \\text{Presentation Layer} &amp; \\text{(iv)} &amp; \\text{Framing} \\\\ \\end{array} \\)</p>\n\n<p>\\( \\textbf{Code :} \\)</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | November 2017 | Part 3 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(iv);&nbsp; (b)-(iii);&nbsp; (c)-(i);&nbsp;&nbsp;(d)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii);&nbsp; (b)-(iv);&nbsp; (c)-(ii);&nbsp; (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv);&nbsp; (b)-(ii);&nbsp; (c)-(iii);&nbsp; (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv);&nbsp; &nbsp;(b)-(iii);&nbsp; (c)-(ii);&nbsp; (d)-(i)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(iv);&nbsp; &nbsp;(b)-(iii);&nbsp; (c)-(ii);&nbsp; (d)-(i)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166404/ugc-net-cse-november-2017-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/166404/ugc-net-cse-november-2017-part-3-question-28</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"225842\"></a><div itemprop=\"text\"><p>Which of the following statements are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Advanced Mobile Phone System \\( \\text{(AMPS)} \\) is a second generation cellular phone system</li>\n\t<li>IS.\\( 95 \\) is a second generation cellular phone sysyem based on \\( \\text{CDMA} \\) and \\( \\text{DSSS} \\)</li>\n\t<li>The Third generation cellular phone system wil provide universal personnel communication</li>\n</ol>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{i} \\) and \\( \\text{ii} \\) only</p>",
+            "<p>\\( \\text{ii} \\) and \\( \\text{iii} \\) only</p>",
+            "<p>\\( \\text{i, ii,} \\) and \\( \\text{iii} \\)</p>",
+            "<p>\\( \\text{i} \\) and \\( \\text{iii} \\) only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225842/ugc-net-cse-july-2018-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/225842/ugc-net-cse-july-2018-part-2-question-44</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"288288\"></a><div itemprop=\"text\"><p>Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server, assuming that the host has just been restarted.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2018 | Part 2 | Question: 89</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>HTTP GET request, DNS query, TCP SYN</p>",
+            "<p>DNS query, HTTP GET request, TCP SYN</p>",
+            "<p>TCP SYN, DNS query, HTTP GET request</p>",
+            "<p>DNS query, TCP SYN, HTTP GET request</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288288/ugc-net-cse-december-2018-part-2-question-89\" target=\"_blank\">https://gateoverflow.in/288288/ugc-net-cse-december-2018-part-2-question-89</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"288291\"></a><div itemprop=\"text\"><p>​​​​​​​A host is connected to a department network which is part of a university network. The university network, in turn, is part of the Internet. The largest network, in which the Ethernet address of the host is unique, is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2018 | Part 2 | Question: 86</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>the Internet</p>",
+            "<p>the university network</p>",
+            "<p>the department network</p>",
+            "<p>the subnet to which the host belongs</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288291/ugc-net-cse-december-2018-part-2-question-86\" target=\"_blank\">https://gateoverflow.in/288291/ugc-net-cse-december-2018-part-2-question-86</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"288314\"></a><div itemprop=\"text\"><p>Consider \\( ISO-OSI \\) network architecture reference model. Session layer of this model offers dialog control, token management and ______ as services.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2018 | Part 2 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Syncronization</p>",
+            "<p>Asyncronization</p>",
+            "<p>Flow control</p>",
+            "<p>Errors</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288314/ugc-net-cse-december-2018-part-2-question-63\" target=\"_blank\">https://gateoverflow.in/288314/ugc-net-cse-december-2018-part-2-question-63</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"335367\"></a><div itemprop=\"text\"><p>Virtual circuit is associated with a __________ service.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2004 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Connectionless</p>",
+            "<p>Error-free</p>",
+            "<p>Segmentation</p>",
+            "<p>Connection-oriented</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335367/ugc-net-cse-december-2004-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/335367/ugc-net-cse-december-2004-part-2-question-30</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"335368\"></a><div itemprop=\"text\"><p>Which transport class should be used with residual-error network layer ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2004 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( TP0, TP2 \\)</p>",
+            "<p>\\( TP1, TP3 \\)</p>",
+            "<p>\\( TP1, TP3, TP4 \\)</p>",
+            "<p>\\( TP0, TP1, TP2, TP3, TP4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335368/ugc-net-cse-december-2004-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/335368/ugc-net-cse-december-2004-part-2-question-29</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"335369\"></a><div itemprop=\"text\"><p>Which transport class should be used with a perfect network layer ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2004 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( TP0 \\)&nbsp;and \\( TP2 \\)</p>",
+            "<p>\\( TP1 \\) and \\( TP3 \\)</p>",
+            "<p>\\( TP0, TP1, TP3 \\)</p>",
+            "<p>\\( TP0, TP1, TP2, TP3, TP4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335369/ugc-net-cse-december-2004-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/335369/ugc-net-cse-december-2004-part-2-question-28</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"335370\"></a><div itemprop=\"text\"><p>Making sure that all the data packets of a message are delivered to the destination is _________ control.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2004 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Error</p>",
+            "<p>Loss</p>",
+            "<p>Sequence</p>",
+            "<p>Duplication</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335370/ugc-net-cse-december-2004-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/335370/ugc-net-cse-december-2004-part-2-question-27</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"335371\"></a><div itemprop=\"text\"><p>Error control is needed at the transport layer because of potential error occurring __________.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2004 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>from transmission line noise</p>",
+            "<p>in router</p>",
+            "<p>from out of sequency delivery</p>",
+            "<p>from packet losses</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335371/ugc-net-cse-december-2004-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/335371/ugc-net-cse-december-2004-part-2-question-26</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"335644\"></a><div itemprop=\"text\"><p>A \\( 10\\:\\text{BASE-}2 \\) network is limited to :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2006 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\) bytes per data field</p>",
+            "<p>\\( 30 \\) stations per segment</p>",
+            "<p>\\( 40 \\) segments</p>",
+            "<p>\\( 50 \\) feet of cable</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335644/ugc-net-cse-december-2006-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/335644/ugc-net-cse-december-2006-part-2-question-27</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"335645\"></a><div itemprop=\"text\"><p>How many \\( DS1 \\) signals are transported on a \\( DS3 \\) signal ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2006 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 672 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 28 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335645/ugc-net-cse-december-2006-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/335645/ugc-net-cse-december-2006-part-2-question-26</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"335755\"></a><div itemprop=\"text\"><p>For pure ALOHA, the maximum channel utilization is :</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2007 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100\\% \\)</p>",
+            "<p>\\( 50\\% \\)</p>",
+            "<p>\\( 36\\% \\)</p>",
+            "<p>\\( 18\\% \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335755/ugc-net-cse-december-2007-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/335755/ugc-net-cse-december-2007-part-2-question-29</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"335756\"></a><div itemprop=\"text\"><p>The maximum data rate of binary signals on a noiseless \\( 3\\:KHz \\) channel is :</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2007 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3000 \\) bps.</p>",
+            "<p>\\( 6000 \\) bps.</p>",
+            "<p>\\( 9000 \\) bps.</p>",
+            "<p>\\( 12,000 \\) bps.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335756/ugc-net-cse-december-2007-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/335756/ugc-net-cse-december-2007-part-2-question-28</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"335757\"></a><div itemprop=\"text\"><p>In a broadcast network, a layer that is often thin or non-existent is :</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2007 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>network layer</p>",
+            "<p>transport layer</p>",
+            "<p>presentation layer</p>",
+            "<p>application layer</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335757/ugc-net-cse-december-2007-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/335757/ugc-net-cse-december-2007-part-2-question-27</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"335758\"></a><div itemprop=\"text\"><p>The best known example of a MAN is :</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2007 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ethernet</p>",
+            "<p>Cable Television</p>",
+            "<p>FDDI</p>",
+            "<p>IEEE \\( 802.3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335758/ugc-net-cse-december-2007-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/335758/ugc-net-cse-december-2007-part-2-question-26</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"335780\"></a><div itemprop=\"text\"><p>Let e : B^m → B^n&nbsp;is a group code.&nbsp;The minimum distance of&nbsp; ‘e’&nbsp;is equal to :</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2007 | Part 2 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>the maximum weight of a non zero code word</p>",
+            "<p>the minimum weight of a non zero code word</p>",
+            "<p>m</p>",
+            "<p>n</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335780/ugc-net-cse-december-2007-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/335780/ugc-net-cse-december-2007-part-2-question-4</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"349585\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Given below are two statements:</p>\n\n<p>Statement \\( I \\): The laws of nature put two fundamental limits on data rate of a channel. The H.Nyquist limit restricts the number of independent samples per second to twice the band-width in a Noiseless channel</p>\n\n<p>Statement \\( II \\): Shannon’s major result about noised channel is that maximum data rate of a channel whose band width is \\( H \\) Hz, and whose signal-to-noise ratio is \\( S/N \\) is given by: Maximum number of bits/sec\\( =H \\log _2 ( 1 + \\dfrac{S}{N}) \\)</p>\n\n<p>In&nbsp;the light of the above statements, choose the correct answer from the options given below</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349585/ugc-net-cse-october-2020-part-2-question-88\" target=\"_blank\">https://gateoverflow.in/349585/ugc-net-cse-october-2020-part-2-question-88</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"349642\"></a><div itemprop=\"text\"><p>Consider a code with only four valid code words: \\( 0000000000 \\), \\( 0000011111 \\), \\( 1111100000 \\), and \\( 1111111111 \\). This code has distance \\( 5 \\). If the code word arrived is \\( 0000000111 \\) then the original code word must be _______</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0000011111 \\)</p>",
+            "<p>\\( 0000000000 \\)</p>",
+            "<p>\\( 1111100000 \\)</p>",
+            "<p>\\( 1111111111 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0000011111 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349642/ugc-net-cse-october-2020-part-2-question-31\" target=\"_blank\">https://gateoverflow.in/349642/ugc-net-cse-october-2020-part-2-question-31</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"407793\"></a><div itemprop=\"text\"><p>Identify the correct order of the terms A-E to complete the paragraph about MAC addresses and IP addresses given below.</p>\n\n<p>A MAC address is a media access_______ address. A network device has a ____________ MAC address that can help ________ the device in the network. An IP address is an Internet __________ address. An IP address can be static or ________.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Protocol</li>\n\t<li>Control</li>\n\t<li>Dynamic</li>\n\t<li>Identify</li>\n\t<li>E. unique</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Computer Networks: UGC NET CSE | June 2023 | Part 1: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{B, C, D, A, E} \\)</p>",
+            "<p>\\( \\text{C, E, D, A, B} \\)</p>",
+            "<p>\\( \\text{A, B, E, D, C} \\)</p>",
+            "<p>\\( \\text{B, E, D, A, C} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/407793/ugc-net-cse-june-2023-part-1-9\" target=\"_blank\">https://gateoverflow.in/407793/ugc-net-cse-june-2023-part-1-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Algorithms - Shortest Path",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Shortest Path",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60629\"></a><div itemprop=\"text\"><p>Dijkstra algorithm, which solves the single-source shortest--paths problem, is a _______, and the Floyd-Warshall algorithm, which finds shortest paths between all pairs of vertices, is a ________.</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2014 | Part 3 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Greedy algorithm, Divide-conquer algorithm</p>",
+            "<p>Divide-conquer algorithm, Greedy algorithm</p>",
+            "<p>Greedy algorithm, Dynamic programming algorithm</p>",
+            "<p>Dynamic programming algorithm, Greedy algorithm&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Greedy algorithm, Dynamic programming algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60629/ugc-net-cse-december-2014-part-3-question-34\" target=\"_blank\">https://gateoverflow.in/60629/ugc-net-cse-december-2014-part-3-question-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"61249\"></a><div itemprop=\"text\"><p>An all-pairs shortest-paths problem is efficiently solved using:</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | Junet 2015 | Part 3 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dijkstra's algorithm</p>",
+            "<p>Bellman-Ford&nbsp;algorithm</p>",
+            "<p>Kruskal&nbsp;algorithm</p>",
+            "<p>Floyd-Warshall&nbsp;algorithm</p>"
+          ],
+          "correct_answer": "<p>Floyd-Warshall&nbsp;algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61249/ugc-net-cse-junet-2015-part-3-question-31\" target=\"_blank\">https://gateoverflow.in/61249/ugc-net-cse-junet-2015-part-3-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+}

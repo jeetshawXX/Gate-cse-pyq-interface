@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - LCM HCF",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "LCM HCF",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"331481\"></a><div itemprop=\"text\"><p>If \\( x+2y=30 \\), then&nbsp;\\( \\left(\\dfrac{2y}{5}+\\dfrac{x}{3} \\right) + \\left (\\dfrac{x}{5}+\\dfrac{2y}{3} \\right) \\) will be equal to</p>\n\n</div><br><br><b>Quantitative Aptitude: ISRO CSE 2020 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331481/isro-cse-2020-question-55\" target=\"_blank\">https://gateoverflow.in/331481/isro-cse-2020-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+});

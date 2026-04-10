@@ -1,0 +1,27 @@
+{
+  "title": "Operating System - Process Scheduling",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Process Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"333128\"></a><div itemprop=\"text\"><p>Jobs keep arriving at a processor. A job can have an associated time length as well as a priority tag. New jobs may arrive while some earlier jobs are running. Some jobs may keep running indefinitely. A \\( \\textsf{starvation free} \\) job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation free?</p>\n\n</div><br><br><b>Operating System: TIFR CSE 2020 | Part B | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Round –&nbsp;robin</p>",
+            "<p>Shortest job first</p>",
+            "<p>Priority queuing</p>",
+            "<p>Latest job first</p>",
+            "<p>None of the others</p>"
+          ],
+          "correct_answer": "<p>Round –&nbsp;robin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333128/tifr-cse-2020-part-b-question-8\" target=\"_blank\">https://gateoverflow.in/333128/tifr-cse-2020-part-b-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

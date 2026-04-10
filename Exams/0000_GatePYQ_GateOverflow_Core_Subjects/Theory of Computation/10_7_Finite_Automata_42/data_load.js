@@ -1,0 +1,613 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Finite Automata",
+  "duration": 116,
+  "sections": [
+    {
+      "name": "Finite Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"94642\"></a><div itemprop=\"text\"><p>Consider the DFA&nbsp; \\( M \\) and NFA&nbsp;&nbsp;\\( M_{2} \\)&nbsp; as defined below. Let the language accepted by machine \\( M \\) be \\( L \\). What language machine \\( M_{2} \\) accepts, if</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( F2=A? \\)</li>\n\t<li>\\( F2=B? \\)</li>\n\t<li>\\( F2=C? \\)</li>\n\t<li>\\( F2=D? \\)</li>\n</ol>\n\n<ul>\n\t<li>\\( M=(Q, \\Sigma, \\delta, q_0, F) \\)</li>\n\t<li>\\( M_{2}=(Q2, \\Sigma, \\delta_2, q_{00}, F2) \\)</li>\n</ul>\n\n<p>Where,</p>\n\n<p>\\( Q2=(Q \\times Q \\times Q) \\cup \\{ q_{00} \\} \\)</p>\n\n<p>\\( \\delta_2 (q_{00}, \\epsilon) = \\{ \\langle q_0, q, q \\rangle \\mid q \\in Q\\} \\)</p>\n\n<p>\\( \\delta_2 ( \\langle p, q, r \\rangle, \\sigma ) = \\langle \\delta&nbsp; (p, \\sigma), \\delta (q, \\sigma), r \\rangle \\)</p>\n\n<p>for all \\( p, q, r \\in Q \\) and \\( \\sigma \\: \\in \\: \\Sigma \\)</p>\n\n<p>\\( A=\\{ \\langle p, q, r \\rangle \\mid p \\in F; q, r \\in Q \\} \\)</p>\n\n<p>\\( B=\\{\\langle p, q, r \\rangle \\mid q \\in F; p, r \\in Q\\} \\)</p>\n\n<p>\\( C=\\{\\langle p, q, r \\rangle \\mid p, q, r \\in Q; \\exists s \\in \\Sigma^*,&nbsp; \\delta (p,s) \\in F \\} \\)</p>\n\n<p>\\( D=\\{\\langle p, q, r \\rangle \\mid p,q \\in Q; r \\in F\\} \\)</p></div><br><br><b>GATE CSE 1988 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94642/gate-cse-1988-question-15\" target=\"_blank\">https://gateoverflow.in/94642/gate-cse-1988-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"544\"></a><div itemprop=\"text\">Let \\( L \\) be the language of all binary strings in which the third symbol from the right is a \\( 1 \\). Give a non-deterministic finite automaton that recognizes \\( L \\). How many states does the minimized equivalent deterministic finite automaton have? Justify your answer briefly?</div><br><br><b>GATE CSE 1991 | Question: 17,b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/544/gate-cse-1991-question-17-b\" target=\"_blank\">https://gateoverflow.in/544/gate-cse-1991-question-17-b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2323\"></a><div itemprop=\"text\">Draw the state transition of a deterministic finite state automaton which accepts all strings from the alphabet \\( \\{a,b\\} \\), such that no string has \\( 3 \\) consecutive occurrences of the letter \\( b \\).</div><br><br><b>GATE CSE 1993 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2323/gate-cse-1993-question-27\" target=\"_blank\">https://gateoverflow.in/2323/gate-cse-1993-question-27</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2764\"></a><div itemprop=\"text\"><p>Given below are the transition diagrams for two finite state machines \\( M_1 \\) and \\( M_2 \\) recognizing languages \\( L_1 \\) and \\( L_2 \\) respectively.</p>\n\n<p><img alt=\"\" height=\"244\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/e5821e322dd3f76794716554cc23ba12.png\" style=\"float:left\" width=\"347\"></p>\n\n<p><img alt=\"\" height=\"200\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/f594920530393ecf1b3b809b6ad0aa51.png\" width=\"347\"></p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Display the transition diagram for a machine that recognizes \\( L_1.L_2 \\), obtained from transition diagrams for \\( M_1 \\) and \\( M_2 \\) by adding only \\( \\varepsilon \\) transitions and no new states.</p>",
+            "<p>Modify the transition diagram obtained in part (a) obtain a transition diagram for a machine that recognizes \\( (L_1.L_2)^* \\) by adding only \\( \\varepsilon \\) transitions and no new states.</p>\n\n\t<p>(Final states are enclosed in double circles).</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2764/gate-cse-1996-question-12\" target=\"_blank\">https://gateoverflow.in/2764/gate-cse-1996-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2281\"></a><div itemprop=\"text\">Given that \\( L \\) is a language accepted by a finite state machine, show that \\( L^P \\) and \\( L^R \\) are also accepted by some finite state machines, where<br>\n<br>\n\\( L^P = \\left\\{s \\mid ss' \\in L \\text{ some string }s'\\right\\} \\)<br>\n<br>\n\\( L^R = \\left\\{s \\mid s \\text{ obtained by reversing some string in }L\\right\\} \\)</div><br><br><b>GATE CSE 1997 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2281/gate-cse-1997-question-21\" target=\"_blank\">https://gateoverflow.in/2281/gate-cse-1997-question-21</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1647\"></a><div itemprop=\"text\"><p>Which of the following set can be recognized by a Deterministic Finite state Automaton?</p>\n\n\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The numbers \\( 1, 2, 4, 8, \\dots 2^n, \\dots \\) written in binary</p>",
+            "<p>The numbers \\( 1, 2, 4, 8,\\dots 2^n, \\dots \\) &nbsp;written in unary</p>",
+            "<p>The set of binary string in which the number of zeros is the same as the number of ones.</p>",
+            "<p>The set \\( \\{1, 101, 11011, 1110111, \\dots\\} \\)</p>"
+          ],
+          "correct_answer": "<p>The numbers \\( 1, 2, 4, 8, \\dots 2^n, \\dots \\) written in binary</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1647/gate-cse-1998-question-1-10\" target=\"_blank\">https://gateoverflow.in/1647/gate-cse-1998-question-1-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"746\"></a><div itemprop=\"text\"><p>Construct DFA's for the following languages:</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( L=\\left\\{w \\mid w \\in \\{a,b\\}^*, \\text{ w has baab as a substring } \\right\\} \\)</p>",
+            "<p>\\( L=\\left\\{w \\mid w \\in \\{a,b\\}^*, &nbsp;\\text{ w has an odd number of a's and an odd number of b's } \\right\\}  \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/746/gate-cse-2001-question-5\" target=\"_blank\">https://gateoverflow.in/746/gate-cse-2001-question-5</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"835\"></a><div itemprop=\"text\"><p>The finite state machine described by the following state diagram with \\( A \\) as starting state, where an arc label is \\( x/y, \\) and \\( x \\) stands for \\( 1 \\)-bit input and \\( y \\)&nbsp;stands for \\( 2 \\)-bit output</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"200\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/10d7a66c6ffc97467c33cd5ae36aefe9.png\" width=\"530\"></p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>outputs the sum of the present and the previous bits of the input</p>",
+            "<p>outputs \\( 01 \\) whenever the input sequence contains \\( 11 \\)</p>",
+            "<p>outputs \\( 00 \\) whenever the input sequence contains \\( 10 \\)</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "<p>outputs the sum of the present and the previous bits of the input</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/835/gate-cse-2002-question-2-5\" target=\"_blank\">https://gateoverflow.in/835/gate-cse-2002-question-2-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"874\"></a><div itemprop=\"text\"><p>We require a four state automaton to recognize the regular expression \\( (a\\mid b)^*abb \\)</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Give an NFA for this purpose</p>",
+            "<p>Give a DFA for this purpose</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/874/gate-cse-2002-question-21\" target=\"_blank\">https://gateoverflow.in/874/gate-cse-2002-question-21</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"939\"></a><div itemprop=\"text\"><p>Consider the following deterministic finite state automaton \\( M \\).</p>\n\n<p><img alt=\"\" height=\"143\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/a04a619565efa1cf2276e5e1a2e323ad.png\" width=\"452\"></p>\n\n<p>Let \\( S \\) denote the set of seven bit binary strings in which the first, the fourth, and the last bits are \\( 1 \\). The number of strings in \\( S \\) that are accepted by \\( M \\) is</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/939/gate-cse-2003-question-50\" target=\"_blank\">https://gateoverflow.in/939/gate-cse-2003-question-50</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"943\"></a><div itemprop=\"text\"><p>Consider the NFA \\( M \\) shown below.</p>\n\n<p><img alt=\"\" height=\"278\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/8baafa0006d45a0e1f2bf4a8acc03bb6.png\" width=\"318\"></p>\n\n<p>Let the language accepted by \\( M \\) be \\( L \\)<em>. </em>Let \\( L_1 \\)<em> </em>be the language accepted by the NFA \\( M_1 \\) obtained by changing the accepting state of \\( M \\) to a non-accepting state and by changing the non-accepting states of \\( M \\) to accepting states. Which of the following statements is true?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_1 = \\{0,1\\}^*-L \\)</p>",
+            "<p>\\( L_1 = \\{0,1\\}^* \\)</p>",
+            "<p>\\( L_1 \\subseteq L \\)</p>",
+            "<p>\\( L_1 = L \\)</p>"
+          ],
+          "correct_answer": "<p>\\( L_1 = \\{0,1\\}^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/943/gate-cse-2003-question-55\" target=\"_blank\">https://gateoverflow.in/943/gate-cse-2003-question-55</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1080\"></a><div itemprop=\"text\"><p>The following finite state machine accepts all those binary strings in which the number of \\( 1 \\)’s and \\( 0 \\)’s are respectively:</p>\n\n<p>&nbsp; &nbsp; &nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/1cd2cff6e2ebf3663b88e556d52af677.png\"></p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 86</b></p>",
+          "type": "single",
+          "options": [
+            "<p>divisible by \\( 3 \\) and \\( 2 \\)</p>",
+            "<p>odd and even</p>",
+            "<p>even and odd</p>",
+            "<p>divisible by \\( 2 \\) and \\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>divisible by \\( 3 \\) and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1080/gate-cse-2004-question-86\" target=\"_blank\">https://gateoverflow.in/1080/gate-cse-2004-question-86</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1376\"></a><div itemprop=\"text\"><p>Consider the machine \\( M \\):</p>\n\n<p><img alt=\"\" height=\"184\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/8cf1cee669385e90f49c4ef79fd344c9.png\" width=\"447\"></p>\n\n<p>The language recognized by \\( M \\) is:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left\\{ w \\in \\{a, b\\}^* \\text{ | every a in  \\)w\\(  is followed by exactly two  \\)b\\( ’s} \\right\\} \\)</p>",
+            "<p>\\( \\left\\{w \\in \\{a, b\\}^* \\text{ | every a in  \\)w\\(  is followed by at least two  \\)b\\( ’s} \\right\\} \\)</p>",
+            "<p>\\( \\left\\{w \\in \\{a, b\\}^* \\text{ |  \\)w\\(  contains the substring ‘ \\)abb\\( ’} \\right\\} \\)</p>",
+            "<p>\\( \\left\\{w \\in \\{a, b\\}^* \\text{ |  \\)w\\(  does not contain ‘ \\)aa\\( ’ as a substring} \\right\\} \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1376/gate-cse-2005-question-53\" target=\"_blank\">https://gateoverflow.in/1376/gate-cse-2005-question-53</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1386\"></a><div itemprop=\"text\"><p>The following diagram represents a finite state machine which takes as input a binary number from the least significant bit.</p>\n\n<p><img alt=\"\" height=\"208\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/449fcc8a9bf7c8104261bc4987db6f44.png\" width=\"282\"></p>\n\n<p>&nbsp; &nbsp; &nbsp;</p>\n\n<p>Which of the following is TRUE?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It computes \\( 1 \\)’s complement of the input number</p>",
+            "<p>It computes \\( 2 \\)’s complement of the input number</p>",
+            "<p>It increments the input number</p>",
+            "<p>it decrements the input number</p>"
+          ],
+          "correct_answer": "<p>It computes \\( 2 \\)’s complement of the input number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1386/gate-cse-2005-question-63\" target=\"_blank\">https://gateoverflow.in/1386/gate-cse-2005-question-63</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1270\"></a><div itemprop=\"text\"><p>Consider the following Finite State Automaton:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"211\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/f5a9d046df0fa3da861fa548f947cc94.png\" width=\"381\"></p>\n\n<p>The language accepted by this automaton is given by the regular expression</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( b^*ab^*ab^*ab^* \\)</p>",
+            "<p>\\( (a + b)^* \\)</p>",
+            "<p>\\( b^*a(a+b)^* \\)</p>",
+            "<p>\\( b^*ab^*ab^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( b^*a(a+b)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1270/gate-cse-2007-question-74\" target=\"_blank\">https://gateoverflow.in/1270/gate-cse-2007-question-74</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"462\"></a><div itemprop=\"text\"><p>Given below are two finite state automata ( \\( \\rightarrow \\) indicates the start state and \\( F \\) indicates a final state)</p>\n\n<p>\\[ \\overset{Y}{\\begin{array}{|l|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\textbf{a} &amp; \\textbf{b} \\\\\\hline&nbsp; \\text{\\( \\rightarrow \\) \\( 1 \\)} &amp; \\text{1} &amp; \\text{2} \\\\\\hline&nbsp; \\text{\\( 2 (F) \\)} &amp; \\text{2} &amp;&nbsp; \\text{1} \\\\\\hline \\end{array}} \\qquad \\overset{Z}{\\begin{array}{|l|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\textbf{a} &amp; \\textbf{b} \\\\\\hline&nbsp; \\text{\\( \\rightarrow \\) \\( 1 \\)} &amp; \\text{2} &amp; \\text{2} \\\\\\hline&nbsp; \\text{\\( 2 (F) \\)} &amp; \\text{1} &amp;&nbsp; \\text{1} \\\\\\hline \\end{array}} \\]</p>\n\n<p>Which of the following represents the product automaton \\( Z \\times&nbsp;Y \\)?</p>\n\n\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n</ol></div><br><br><b>GATE CSE 2008 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{array}{|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\text{a} &amp; \\text{b}&nbsp; \\\\\\hline \\text{ \\)\\rightarrow\\(   \\)P\\( } &amp; \\text{S} &amp; \\text{R} \\\\\\hline&nbsp; \\text{Q} &amp; \\text{R} &amp; \\text{S} \\\\\\hline&nbsp; \\text{R(F)} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\text{S} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\text{a} &amp; \\text{b}&nbsp; \\\\\\hline \\text{ \\)\\rightarrow\\(   \\)P\\( } &amp; \\text{S} &amp; \\text{Q} \\\\\\hline&nbsp; \\text{Q} &amp; \\text{R} &amp; \\text{S} \\\\\\hline&nbsp; \\text{R(F)} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\text{S} &amp; \\text{P} &amp; \\text{Q}\\\\\\hline \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\text{a} &amp; \\text{b}&nbsp; \\\\\\hline \\text{ \\)\\rightarrow\\(   \\)P\\( } &amp; \\text{Q} &amp; \\text{S} \\\\\\hline&nbsp; \\text{Q} &amp; \\text{R} &amp; \\text{S} \\\\\\hline&nbsp; \\text{R(F)} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\text{S} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\text{a} &amp; \\text{b}&nbsp; \\\\\\hline \\text{ \\)\\rightarrow\\(   \\)P\\( } &amp; \\text{S} &amp; \\text{Q} \\\\\\hline&nbsp; \\text{Q} &amp; \\text{S} &amp; \\text{R} \\\\\\hline&nbsp; \\text{R(F)} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\text{S} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\end{array} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{array}{|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\text{a} &amp; \\text{b}&nbsp; \\\\\\hline \\text{ \\)\\rightarrow\\(   \\)P\\( } &amp; \\text{S} &amp; \\text{R} \\\\\\hline&nbsp; \\text{Q} &amp; \\text{R} &amp; \\text{S} \\\\\\hline&nbsp; \\text{R(F)} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\text{S} &amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\end{array} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/462/gate-cse-2008-question-49\" target=\"_blank\">https://gateoverflow.in/462/gate-cse-2008-question-49</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"464\"></a><div itemprop=\"text\"><p>Match the following NFAs with the regular expressions they correspond to:</p>\n\n<figure class=\"image\" style=\"float:left\"><img alt=\"\" height=\"212\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/ebd9d18085acf9e3a8a9a0b2b3dad6fa.png\" width=\"280\">\n<figcaption>P</figcaption>\n</figure>\n\n<figure class=\"image\"><img alt=\"\" height=\"217\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/829fb7856c0647420f8498d2b315a78b.png\" width=\"280\">\n<figcaption>Q</figcaption>\n</figure>\n\n<figure class=\"image\" style=\"float:left\"><img alt=\"\" height=\"238\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/ac09ad684c48f48c63aa1eb7548c015f.png\" width=\"280\">\n<figcaption>R</figcaption>\n</figure>\n\n<figure class=\"image\"><img alt=\"\" height=\"235\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/d956d407065c125abee91181ac84288c.png\" width=\"280\">\n<figcaption>S</figcaption>\n</figure>\n\n<p>&nbsp;</p>\n<ol style=\"list-style-type:decimal\">\n<li>\n<p>\\( \\epsilon&nbsp;+ 0\\left(01^*1+00\\right)^*01^* \\)</p>\n</li>\n<li>\n<p>\\( \\epsilon&nbsp;+ 0\\left(10^*1+00\\right)^*0 \\)</p>\n</li>\n<li>\n<p>\\( \\epsilon&nbsp;+ 0\\left(10^*1+10\\right)^*1 \\)</p>\n</li>\n<li>\n<p>\\( \\epsilon&nbsp;+ 0\\left(10^*1+10\\right)^*10^* \\)</p>\n</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2008 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P-2, Q-1, R-3, S-4 \\)</p>",
+            "<p>\\( P-1, Q-3, R-2, S-4 \\)</p>",
+            "<p>\\( P-1, Q-2, R-3, S-4 \\)</p>",
+            "<p>\\( P-3, Q-2, R-1, S-4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P-1, Q-2, R-3, S-4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/464/gate-cse-2008-question-52\" target=\"_blank\">https://gateoverflow.in/464/gate-cse-2008-question-52</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1327\"></a><div itemprop=\"text\">\n<p style=\"text-align:center\"><img alt=\"\" height=\"169\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/f7b0c486af543cd0ce6fcd43099851e9.png\" width=\"380\"></p>\n\n<p>The above DFA accepts the set of all strings over \\( \\{0,1\\} \\) that&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>begin either with \\( 0 \\) or \\( 1 \\).</p>",
+            "<p>end with \\( 0 \\).</p>",
+            "<p>end with \\( 00 \\).</p>",
+            "<p>contain the substring&nbsp;\\( 00 \\).</p>"
+          ],
+          "correct_answer": "<p>end with \\( 00 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1327/gate-cse-2009-question-41\" target=\"_blank\">https://gateoverflow.in/1327/gate-cse-2009-question-41</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"44\"></a><div itemprop=\"text\"><p>What is the complement of the language accepted by the NFA shown below?<br>\nAssume \\( \\Sigma = \\{a\\} \\) and \\( \\epsilon \\) is the empty string.<br>\n<a href=\"http://gatecse.in/w/images/c/c5/2012_12.png\" target=\"_blank\"><img alt=\"\" height=\"179\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/6ab7a0bfddf5aea5c73ba11b6a93aa00.png\" width=\"639\"></a></p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\phi \\)</p>",
+            "<p>\\( \\{\\epsilon\\} \\)</p>",
+            "<p>\\( a^* \\)</p>",
+            "<p>\\( \\{a , \\epsilon\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{\\epsilon\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44/gate-cse-2012-question-12\" target=\"_blank\">https://gateoverflow.in/44/gate-cse-2012-question-12</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"2159\"></a><div itemprop=\"text\"><p>Consider the set of strings on \\( \\{0,1\\} \\) in which, <em>every substring of </em>\\( 3 \\)<em> symbols</em> has at most <em>two</em> zeros. For example, \\( 001110 \\) and \\( 011001 \\) are in the language, but \\( 100010 \\) is not. All strings of length less than \\( 3 \\) are also in the language. A partially completed DFA that accepts this language is shown below.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/8d0deb75a43e01e01e96262fb0bd7b2f.png\" width=\"360\"></p>\n\n<p>The missing arcs in the DFA are:</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{array}{|l|l|l|l|l|l|}\\hline \\textbf{}&nbsp; &amp;&nbsp; \\textbf{00} &amp; \\textbf{01} &amp; \\textbf{10}&amp;&nbsp; \\textbf{11} &amp; \\textbf{q}&nbsp; \\\\\\hline&nbsp; \\textbf{00}&nbsp; &amp;&nbsp; \\text{1} &amp; \\text{0} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline &nbsp; \\textbf{01}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{1} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{10}&nbsp; &amp;&nbsp; \\text{0} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{11}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{0}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|l|l|l|l|l|l|}\\hline \\textbf{}&nbsp; &amp;&nbsp; \\textbf{00} &amp; \\textbf{01} &amp; \\textbf{10}&amp;&nbsp; \\textbf{11} &amp; \\textbf{q}&nbsp; \\\\\\hline&nbsp; \\textbf{00}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{0} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{1}&nbsp; \\\\\\hline &nbsp; \\textbf{01}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{1} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{10}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{0} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{11}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{0} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|l|l|l|l|l|l|}\\hline \\textbf{}&nbsp; &amp;&nbsp; \\textbf{00} &amp; \\textbf{01} &amp; \\textbf{10}&amp;&nbsp; \\textbf{11} &amp; \\textbf{q}&nbsp; \\\\\\hline&nbsp; \\textbf{00}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{1} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{0}&nbsp; \\\\\\hline &nbsp; \\textbf{01}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{1} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{10}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{0}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{11}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{0} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{|l|l|l|l|l|l|}\\hline \\textbf{}&nbsp; &amp;&nbsp; \\textbf{00} &amp; \\textbf{01} &amp; \\textbf{10}&amp;&nbsp; \\textbf{11} &amp; \\textbf{q}&nbsp; \\\\\\hline&nbsp; \\textbf{00}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{1} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{0}&nbsp; \\\\\\hline &nbsp; \\textbf{01}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{1} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{10}&nbsp; &amp;&nbsp; \\text{0} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{11}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{0}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\end{array} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{array}{|l|l|l|l|l|l|}\\hline \\textbf{}&nbsp; &amp;&nbsp; \\textbf{00} &amp; \\textbf{01} &amp; \\textbf{10}&amp;&nbsp; \\textbf{11} &amp; \\textbf{q}&nbsp; \\\\\\hline&nbsp; \\textbf{00}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{1} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{0}&nbsp; \\\\\\hline &nbsp; \\textbf{01}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{1} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{10}&nbsp; &amp;&nbsp; \\text{0} &amp; \\text{} &amp; \\text{}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\textbf{11}&nbsp; &amp;&nbsp; \\text{} &amp; \\text{} &amp; \\text{0}&amp;&nbsp; \\text{} &amp; \\text{}&nbsp; \\\\\\hline&nbsp; \\end{array} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2159/gate-cse-2012-question-46\" target=\"_blank\">https://gateoverflow.in/2159/gate-cse-2012-question-46</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"1544\"></a><div itemprop=\"text\"><p>Consider the DFA&nbsp;\\( A \\) given below.</p>\n\n<p><img alt=\"\" height=\"274\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/16746f5b322aa92f0271da100508d7ff.png\" width=\"230\"></p>\n\n<p>&nbsp;</p>\n<p>Which of the following are <strong>FALSE</strong>?</p>\n\n<ol>\n<li>Complement of \\( L(A) \\) is context-free.</li>\n<li>\\( L(A) = L((11^*0+0)(0 + 1)^*0^*1^*)  \\)</li>\n<li>For the language accepted by \\( A, A \\) is the minimal DFA.</li>\n<li>\\( A \\) accepts all strings over \\( \\{0, 1\\} \\) of length at least \\( 2 \\).</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2013 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>1 and 3 only</p>",
+            "<p>2 and 4 only</p>",
+            "<p>2 and 3 only</p>",
+            "<p>3 and 4 only</p>"
+          ],
+          "correct_answer": "<p>3 and 4 only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1544/gate-cse-2013-question-33\" target=\"_blank\">https://gateoverflow.in/1544/gate-cse-2013-question-33</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"1782\"></a><div itemprop=\"text\"><p>Consider the finite automaton in the following figure:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"149\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/ec69f1a7370211d0327d69b873d8f167.png\" width=\"514\"></p>\n\n<p>&nbsp;</p>\n<p>What is the set of reachable states for the input string \\( 0011 \\)?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{q_0,q_1,q_2\\} \\)</p>",
+            "<p>\\( \\{q_0,q_1\\} \\)</p>",
+            "<p>\\( \\{q_0,q_1,q_2,q_3\\} \\)</p>",
+            "<p>\\( \\{q_3\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{q_0,q_1,q_2\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1782/gate-cse-2014-set-1-question-16\" target=\"_blank\">https://gateoverflow.in/1782/gate-cse-2014-set-1-question-16</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"39591\"></a><div itemprop=\"text\"><p>Consider the following two statements:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>If all states of an <strong>NFA </strong>are accepting states then the language accepted by the <strong>NFA</strong> is \\( \\Sigma_{}^{*} \\).</li>\n\t<li>There exists a regular language \\( A \\) such that for all languages \\( B \\), \\( A&nbsp;\\cap B \\) is regular.</li>\n</ol>\n\n<p>Which one of the following is <strong>CORRECT</strong>?</p>\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only<strong> I&nbsp;</strong>is true</p>",
+            "<p>Only <strong>II</strong>&nbsp;is true</p>",
+            "<p>Both<strong> I&nbsp;</strong>and <strong>II</strong>&nbsp;are true</p>",
+            "<p>Both <strong>I</strong>&nbsp;and <strong>II</strong>&nbsp;are false</p>"
+          ],
+          "correct_answer": "<p>Only <strong>II</strong>&nbsp;is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39591/gate-cse-2016-set-2-question-42\" target=\"_blank\">https://gateoverflow.in/39591/gate-cse-2016-set-2-question-42</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"118384\"></a><div itemprop=\"text\"><p>Let \\( \\delta \\) denote the transition function and \\( \\widehat{\\delta} \\) denote the extended transition function of the \\( \\epsilon \\)-NFA whose transition table is given below:<br>\n\\[ \\begin{array}{|c|c|c|c|}\\hline \\delta&nbsp; &amp;&nbsp; \\text{\\( \\epsilon \\)} &amp; \\text{\\( a \\)} &amp; \\text{\\( b \\)} \\\\\\hline&nbsp; \\llap{\\rightarrow }\\;{&nbsp;q_0}&nbsp; &amp;&nbsp; \\text{\\( \\{q_2\\} \\)} &amp; \\text{\\( \\{q_1\\} \\)} &amp; \\text{\\( \\{q_0\\} \\)} \\\\\\hline&nbsp; \\text{\\( q_1 \\)}&nbsp; &amp;&nbsp; \\text{\\( \\{q_2\\} \\)} &amp; \\text{\\( \\{q_2\\} \\)} &amp; \\text{\\( \\{q_3\\} \\)} \\\\\\hline \\text{\\( q_2 \\)}&nbsp; &amp;&nbsp; \\text{\\( \\{q_0\\} \\)} &amp; \\text{\\( \\emptyset \\)} &amp; \\text{\\( \\emptyset \\)} \\\\\\hline \\quad\\text{\\( q_3 \\)}\\quad&nbsp; &amp;&nbsp; \\text{\\( \\emptyset \\)} &amp; \\text{\\( \\emptyset \\)} &amp; \\text{\\( \\{q_2\\} \\)} \\\\\\hline \\end{array} \\]<br>\nThen \\( \\widehat{\\delta}(q_2, aba) \\) is</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\emptyset \\)</p>",
+            "<p>\\( \\{q_0, q_1, q_3\\} \\)</p>",
+            "<p>\\( \\{q_0, q_1, q_2\\} \\)</p>",
+            "<p>\\( \\{q_0, q_2, q_3 \\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{q_0, q_1, q_2\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118384/gate-cse-2017-set-2-question-39\" target=\"_blank\">https://gateoverflow.in/118384/gate-cse-2017-set-2-question-39</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"357413\"></a><div itemprop=\"text\"><p>Consider the following language:</p>\n\n<p>\\[ L= \\{ w \\in \\{0,1\\}^* \\mid w \\text{ ends with the substring } 011 \\} \\]</p>\n\n<p>Which one of the following deterministic finite automata accepts \\( L? \\)</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"143\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/1a6dabb84c3d93e3d04baf607de2c0de.png\" width=\"390\"></p>",
+            "<p><img alt=\"\" height=\"118\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/81f4768546c8afab0ad159a309e4d513.png\" width=\"403\"></p>",
+            "<p><img alt=\"\" height=\"145\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/4c9f5c4d465ed4ee3b9771499f6f2424.png\" width=\"400\"></p>",
+            "<p><img alt=\"\" height=\"197\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/6d7994071a3d8eb4a7ae6b152d8d59f1.png\" width=\"410\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"197\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/6d7994071a3d8eb4a7ae6b152d8d59f1.png\" width=\"410\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357413/gate-cse-2021-set-1-question-38\" target=\"_blank\">https://gateoverflow.in/357413/gate-cse-2021-set-1-question-38</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"357523\"></a><div itemprop=\"text\"><p>Consider the following deterministic finite automaton \\( \\text{(DFA)} \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"248\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/59a0b157846abe0aad1e7d06021ad62e.png\" width=\"471\"></p>\n\n<p>The number of strings of length \\( 8 \\) accepted by the above automaton is&nbsp; ___________</p></div><br><br><b>GATE CSE 2021 Set 2 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "256:256",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357523/gate-cse-2021-set-2-question-17\" target=\"_blank\">https://gateoverflow.in/357523/gate-cse-2021-set-2-question-17</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"357512\"></a><div itemprop=\"text\"><p>Suppose we want to design a synchronous circuit that processes a string of \\( 0 \\)’s and \\( 1 \\)’s. Given a string, it produces another string by replacing the first \\( 1 \\) in any subsequence of consecutive \\( 1 \\)’s by a \\( 0 \\). Consider the following example.</p><p>\\[ \\begin{array}{ll} \\text{Input sequence:} &amp;&nbsp; 00100011000011100 \\\\ \\text{Output sequence:} &amp; 00000001000001100 \\end{array} \\]</p><p>A&nbsp;<em>Mealy Machine</em>&nbsp;is a state machine where both the next state and the output are functions of the present state and the current input.</p><p>The above mentioned circuit can be designed as a two-state Mealy machine. The states in the Mealy machine can be represented using Boolean values \\( 0 \\) and \\( 1 \\). We denote the current state, the next state, the next incoming bit, and the output bit of the Mealy machine by the variables \\( s, t, b \\) and \\( y \\) respectively.</p><p>Assume the initial state of the Mealy machine is \\( 0 \\).</p><p>What are the Boolean expressions corresponding to \\( t \\) and \\( y \\) in terms of \\( s \\) and \\( b \\)?</p></div><br><br><b>GATE CSE 2021 Set 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{array}{l} t=s+b \\\\ y=sb \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{l} t=b \\\\ y=sb \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{l} t=b \\\\ y=s \\overline{b} \\end{array} \\)</p>",
+            "<p>\\( \\begin{array}{l} t=s+b \\\\ y=s \\overline{b} \\end{array} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{array}{l} t=b \\\\ y=sb \\end{array} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357512/gate-cse-2021-set-2-question-28\" target=\"_blank\">https://gateoverflow.in/357512/gate-cse-2021-set-2-question-28</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"422802\"></a><div itemprop=\"text\"><p>​Consider the \\( 5 \\) -state \\( \\text{DFA} \\). \\( M \\) accepting the language \\( L(M) \\subset(0+1)^{*} \\) shown below. For any string \\( w \\in(0+1)^* \\) let \\( n_0(w) \\) be the number of \\( 0^{\\prime} s \\) in \\( w \\) and \\( n_1(w) \\) be the number of 1 's in \\( w \\).</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/95f554804cc7ad5ecdd170404dd7e1f5.png\" width=\"400\"></p>\n\n<p>Which of the following statements is/are FALSE?</p>\n\n</div><br><br><b>GATE CSE 2024 | Set 1 | Question: 40</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>States \\( 2 \\) and \\( 4 \\) are distinguishable in \\( M \\)</p>",
+            "<p>States \\( 3 \\) and \\( 4 \\) are distinguishable in \\( M \\)</p>",
+            "<p>States \\( 2 \\) and \\( 5 \\) are distinguishable in \\( M \\)</p>",
+            "<p>Any string \\( w \\) with \\( n_0(w)=n_1(w) \\) is in \\( L(M) \\)&nbsp;</p>"
+          ],
+          "correct_answer": [
+            "<p>States \\( 3 \\) and \\( 4 \\) are distinguishable in \\( M \\)</p>",
+            "<p>States \\( 2 \\) and \\( 5 \\) are distinguishable in \\( M \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422802/gate-cse-2024-set-1-question-40\" target=\"_blank\">https://gateoverflow.in/422802/gate-cse-2024-set-1-question-40</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"422885\"></a><div itemprop=\"text\"><p>​​​​Which one of the following regular expressions is equivalent to the language accepted by the \\( \\text{DFA} \\) given below?</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/cf7263f66bddd1c962a0e0aff88cad24.png\" width=\"450\"></p>\n\n</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0^{*} 1\\left(0+10^{*} 1\\right)^{*} \\)</p>",
+            "<p>\\( 0^{*}\\left(10^{*} 11\\right)^{*} 0^{*} \\)</p>",
+            "<p>\\( 0^{*} 1\\left(010^{*} 1\\right)^{*} 0^{*} \\)</p>",
+            "<p>\\( 0\\left(1+0^{*} 10^{*} 1\\right)^{*} 0^{*} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0^{*} 1\\left(0+10^{*} 1\\right)^{*} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422885/gate-cse-2024-set-2-question-12\" target=\"_blank\">https://gateoverflow.in/422885/gate-cse-2024-set-2-question-12</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"422866\"></a><div itemprop=\"text\"><p>​​Let \\( \\text{M} \\) be the \\( 5 \\)-state \\( \\text{NFA} \\) with \\( \\epsilon \\)-transitions shown in the diagram below.</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/27f44a9730ced717f928a297308c5da1.png\" width=\"450\"><br>\nWhich one of the following regular expressions represents the language accepted by \\( \\text{M} \\)?</p>\n\n</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (00)^{*}+1(11)^{*} \\)</p>",
+            "<p>\\( 0^{*}+\\left(1+0(00)^{*}\\right)(11)^{*} \\)</p>",
+            "<p>\\( (00)^{*}+\\left(1+(00)^{*}\\right)(11)^{*} \\)</p>",
+            "<p>\\( 0^{+}+1(11)^{*}+0(11)^{*} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0^{*}+\\left(1+0(00)^{*}\\right)(11)^{*} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422866/gate-cse-2024-set-2-question-31\" target=\"_blank\">https://gateoverflow.in/422866/gate-cse-2024-set-2-question-31</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"460040\"></a><div itemprop=\"text\"><p>Consider the following deterministic finite automaton (DFA) defined over the alphabet, \\( \\Sigma=\\{a, b\\} \\). Identify which of the following language(s) is/are accepted by the given DFA.</p><p style=\"text-align:center\"><img alt=\"DFA\" width=\"600\" height=\"262\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/edab460991b68fc1005c1a71282745dc.png\"></p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The set of all strings containing an even number of \\( b \\) 's.</p>",
+            "<p>The set of all strings containing the pattern \\( b a b \\).</p>",
+            "<p>The set of all strings ending with the pattern \\( b a b \\).</p>",
+            "<p>The set of all strings not containing the pattern \\( a b a \\).</p>"
+          ],
+          "correct_answer": "<p>The set of all strings ending with the pattern \\( b a b \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460040/gate-cse-2025-set-1-question-40\" target=\"_blank\">https://gateoverflow.in/460040/gate-cse-2025-set-1-question-40</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"3684\"></a><div itemprop=\"text\"><p>Let \\( M=(K, Σ, \\sigma, s, F) \\) be a finite state automaton, where</p>\n\n<p>\\( K = \\{A, B\\}, Σ = \\{a, b\\}, s = A, F = \\{B\\}, \\)<br>\n\\( \\sigma(A, a) = A, \\sigma(A, b) = B, \\sigma(B, a) = B \\text{ and}&nbsp; \\ \\sigma(B, b) = A \\)</p>\n\n<p>A grammar to generate the language accepted by \\( M \\) can be specified as \\( G = (V, Σ, R, S),  \\) where \\( V = K \\cup&nbsp;Σ \\), and \\( S = A. \\)<br>\n<br>\nWhich one of the following set of rules will make \\( L(G) = L(M) \\) ?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{A → aB, A → bA, B → bA, B → aA, B → \\epsilon) \\)</p>",
+            "<p>\\( \\{A → aA, A → bB, B → aB, B → bA, B → \\epsilon) \\)</p>",
+            "<p>\\( \\{A → bB, A → aB, B → aA, B → bA, B →&nbsp;\\epsilon) \\)</p>",
+            "<p>\\( \\{A → aA, A → bA, B → aB, B → bA, A → \\epsilon) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{A → aA, A → bB, B → aB, B → bA, B → \\epsilon) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3684/gate-it-2004-question-41\" target=\"_blank\">https://gateoverflow.in/3684/gate-it-2004-question-41</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"3784\"></a><div itemprop=\"text\"><p>Consider the non-deterministic finite automaton (NFA) shown in the figure.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"379\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/bc2af1aaa4267500ce4c20c36247c2fc.png\" width=\"325\"></p>\n\n<p>State \\( X \\) is the starting state of the automaton. Let the language accepted by the NFA with \\( Y \\) as the only accepting state be \\( L1 \\). Similarly, let the language accepted by the NFA with \\( Z \\) as the only accepting state be \\( L2 \\). Which of the following statements about \\( L1 \\) and \\( L2 \\) is TRUE?</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L1 = L2 \\)</p>",
+            "<p>\\( L1 \\subset&nbsp;L2 \\)</p>",
+            "<p>\\( L2 \\subset L1 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( L1 = L2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3784/gate-it-2005-question-37\" target=\"_blank\">https://gateoverflow.in/3784/gate-it-2005-question-37</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"3786\"></a><div itemprop=\"text\"><p>Consider the regular grammar:</p>\n\n<ul>\n\t<li>\\( S \\rightarrow Xa \\mid&nbsp;Ya \\)</li>\n\t<li>\\( X \\rightarrow&nbsp;Za \\)</li>\n\t<li>\\( Z \\rightarrow&nbsp;Sa \\mid&nbsp;\\epsilon \\)</li>\n\t<li>\\( Y \\rightarrow&nbsp;Wa \\)</li>\n\t<li>\\( W \\rightarrow&nbsp;Sa \\)</li>\n</ul>\n\n<p>where \\( S \\) is the starting symbol, the set of terminals is \\( \\{a\\} \\) and the set of non-terminals is \\( \\{S, W, X, Y, Z\\} \\).<br>\nWe wish to construct a deterministic finite automaton (DFA) to recognize the same language. What is the minimum number of states required for the DFA?</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3786/gate-it-2005-question-39\" target=\"_blank\">https://gateoverflow.in/3786/gate-it-2005-question-39</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"3542\"></a><div itemprop=\"text\"><p>In the automaton below, \\( s \\) is the start state and \\( t \\)&nbsp;is the only final state.</p>\n\n<p><img alt=\"\" height=\"301\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/e1d60c216c0ce458d0f07fce4c0417d4.png\" width=\"259\"></p>\n\n<p>Consider the strings \\( u = abbaba, v = bab,&nbsp;\\text{and} w = aabb \\). Which of the following statements is true?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The automaton accepts \\( u \\) and \\( v \\) but not \\( w \\)</p>",
+            "<p>The automaton accepts each of \\( u, v, \\) and \\( w \\)</p>",
+            "<p>The automaton rejects each of \\( u, v, \\) and \\( w \\)</p>",
+            "<p>The automaton accepts \\( u \\) but rejects \\( v \\) and \\( w \\)</p>"
+          ],
+          "correct_answer": "<p>The automaton accepts \\( u \\) but rejects \\( v \\) and \\( w \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3542/gate-it-2006-question-3\" target=\"_blank\">https://gateoverflow.in/3542/gate-it-2006-question-3</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"3576\"></a><div itemprop=\"text\"><p>For a state machine with the following state diagram the expression for the next state \\( S^+ \\)&nbsp;in terms of the current state \\( S \\) and the input variables \\( x \\)<em> </em>and \\( y \\) is</p>\n\n<p><img alt=\"\" height=\"179\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/3db00cdc7246e5ec6bb533e0ef10f38f.png\" width=\"201\"></p>\n\n</div><br><br><b>GATE IT 2006 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S^+&nbsp;= S' . y' + S . x \\)</p>",
+            "<p>\\( S^+ = S. x . y' + S' . y . x' \\)</p>",
+            "<p>\\( S^+ = x . y' \\)</p>",
+            "<p>\\( S^+ = S' . y + S . x' \\)</p>"
+          ],
+          "correct_answer": "<p>\\( S^+&nbsp;= S' . y' + S . x \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3576/gate-it-2006-question-37\" target=\"_blank\">https://gateoverflow.in/3576/gate-it-2006-question-37</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"3489\"></a><div itemprop=\"text\"><p>Consider the following DFA in which \\( S_0 \\) is the start state and \\( S_1 \\), \\( S_3 \\) are the final states.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"275\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/8e05ea90f6ca06ef8f14cd5c31510b1f.png\" width=\"344\"></p>\n\n<p>What language does this \\( \\textsf{DFA} \\) recognize?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>All strings of \\( x \\) and \\( y \\)</p>",
+            "<p>All strings of \\( x \\) and \\( y \\) which have either even number of \\( x \\) and even number of \\( y \\) or odd number of \\( x \\) and odd number of \\( y \\)</p>",
+            "<p>All strings of \\( x \\) and \\( y \\) which have equal number of \\( x \\) and \\( y \\)</p>",
+            "<p>All strings of \\( x \\) and \\( y \\) with either even number of \\( x \\) and odd number of \\( y \\) or odd number of \\( x \\) and even number of \\( y \\)</p>"
+          ],
+          "correct_answer": "<p>All strings of \\( x \\) and \\( y \\) with either even number of \\( x \\) and odd number of \\( y \\) or odd number of \\( x \\) and even number of \\( y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3489/gate-it-2007-question-47\" target=\"_blank\">https://gateoverflow.in/3489/gate-it-2007-question-47</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"3492\"></a><div itemprop=\"text\"><p>Consider the following finite automata \\( P \\) and \\( Q \\) over the alphabet \\( \\{a, b, c\\} \\).<em> </em>The start states are indicated by a double arrow and final states are indicated by a double circle. Let the languages recognized by them be denoted by \\( L(P) \\) and \\( L(Q) \\) respectively.</p>\n\n<p><img alt=\"\" height=\"179\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/ef3f3abcc0e7d7ef6a64fcafd9a19415.png\" style=\"float:left\" width=\"337\"></p>\n\n<p><img alt=\"\" height=\"174\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/1236f7695bcf30579cf88960ade6ef0d.png\" width=\"335\"></p>\n\n<p>The automation which recognizes the language \\( L(P) \\cap&nbsp;L(Q) \\) is :</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"147\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/90c645ca487eb98d2bb5ede65f38d65a.png\" width=\"339\"></p>",
+            "<p><img alt=\"\" height=\"154\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/50fc0a91f441fe0987475cc0c6368be6.png\" width=\"345\"></p>",
+            "<p><img alt=\"\" height=\"151\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/6b7af4639315e6be6addf101f44cbcbf.png\" width=\"338\"></p>",
+            "<p><img alt=\"\" height=\"155\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/41ed56ce018624ccbace026c24d1411c.png\" width=\"357\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"147\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/90c645ca487eb98d2bb5ede65f38d65a.png\" width=\"339\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3492/gate-it-2007-question-50\" target=\"_blank\">https://gateoverflow.in/3492/gate-it-2007-question-50</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"3523\"></a><div itemprop=\"text\"><p>Consider the regular expression \\( R = (a + b)^* (aa + bb) (a + b)^* \\)</p>\n\n<p>Which of the following non-deterministic finite automata recognizes the language defined by the regular expression \\( R \\)? Edges labeled \\( \\lambda&nbsp; \\) denote transitions on the empty string.</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p><br>\n\t<img alt=\"\" height=\"279\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/15b4d5a83b9a363556ce574172965742.png\" width=\"316\"></p>",
+            "<p><br>\n\t<img alt=\"\" height=\"396\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/403d24fe5a9a08441655071593ab4472.png\" width=\"323\"></p>",
+            "<p><br>\n\t<img alt=\"\" height=\"413\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/5d35b67512c8b0bcbddb0a9da3f0f782.png\" width=\"336\"></p>",
+            "<p><br>\n\t<img alt=\"\" height=\"414\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/ecb0ce3e43a027e2d1938b7680c7f298.png\" width=\"335\"></p>"
+          ],
+          "correct_answer": "<p><br>\n\t<img alt=\"\" height=\"279\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/15b4d5a83b9a363556ce574172965742.png\" width=\"316\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3523/gate-it-2007-question-71\" target=\"_blank\">https://gateoverflow.in/3523/gate-it-2007-question-71</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"3524\"></a><div itemprop=\"text\"><p>Consider the regular expression \\( R = (a + b)^* (aa + bb) (a + b)^* \\)</p>\n\n<p>Which deterministic finite automaton accepts the language represented by the regular expression \\( R \\)?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/20b147330720fee88007620280e5a0c8.png\" width=\"305\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/095aa74b3dbe0d5d361fe9fd73fc9b81.png\" width=\"305\"></p>",
+            "<p><img alt=\"\" height=\"258\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/94af053ba140d193916863b8bea19e29.png\" width=\"350\"></p>",
+            "<p><img alt=\"\" height=\"263\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/570f972a99d01a69761c7f22fdc5b511.png\" width=\"356\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/20b147330720fee88007620280e5a0c8.png\" width=\"305\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3524/gate-it-2007-question-72\" target=\"_blank\">https://gateoverflow.in/3524/gate-it-2007-question-72</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"3342\"></a><div itemprop=\"text\"><p>If the final states and non-final states in the DFA below are interchanged, then which of the following languages over the alphabet \\( \\{a, b\\} \\) will be accepted by the new DFA?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/2181de0ac39032a8a9a66096bf10371e.png\"></p>\n\n</div><br><br><b>GATE IT 2008 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Set of all strings that do not end with \\( ab \\)</p>",
+            "<p>Set of all strings that begin with either an \\( a \\) or \\( a \\ b \\)</p>",
+            "<p>Set of all strings that do not contain the substring&nbsp;\\( ab \\),</p>",
+            "<p>The set described by the regular expression \\( b^*aa^*(ba)^*b^* \\)</p>"
+          ],
+          "correct_answer": "<p>Set of all strings that do not end with \\( ab \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3342/gate-it-2008-question-32\" target=\"_blank\">https://gateoverflow.in/3342/gate-it-2008-question-32</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"3346\"></a><div itemprop=\"text\"><p>Consider the following two finite automata. \\( M_1 \\)&nbsp;accepts \\( L_1 \\) and \\( M_2 \\) accepts \\( L_2 \\).</p><div style=\"text-align:center\"><figure class=\"image\" style=\"display:inline-block\"><img alt=\"\" width=\"298\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/ac68d237597f70f35b14625874e2b800.png\"><figcaption>\\( M_1 \\)</figcaption></figure></div><div style=\"text-align:center\"><figure class=\"image\" style=\"display:inline-block\"><img alt=\"\" width=\"297\" src=\"images/gateOverflow_pyq_images/theory_of_computation___finite_automata/1c36f88cdf5863bc9c78c35c866948e7.png\"><figcaption>\\( M_2 \\)</figcaption></figure></div><p>&nbsp;</p><p>Which one of the following is TRUE?</p></div><br><br><b>GATE IT 2008 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_1 = L_2 \\)</p>",
+            "<p>\\( L_1 \\subset&nbsp;L_2 \\)</p>",
+            "<p>\\( L_1 \\cap &nbsp;L_{2}^{C}&nbsp;=&nbsp;\\varnothing&nbsp; \\)</p>",
+            "<p>\\( L_1&nbsp;\\cup L_2 \\neq&nbsp; L_1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( L_1 = L_2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3346/gate-it-2008-question-36\" target=\"_blank\">https://gateoverflow.in/3346/gate-it-2008-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+});

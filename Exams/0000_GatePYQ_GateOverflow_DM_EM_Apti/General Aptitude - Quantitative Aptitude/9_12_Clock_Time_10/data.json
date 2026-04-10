@@ -1,0 +1,161 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Clock Time",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Clock Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1952\"></a><div itemprop=\"text\"><p>At what time between \\( 6 \\) a. m. and \\( 7 \\) a. m. will the minute hand and hour hand of a clock make an angle closest to \\( 60^{\\circ} \\)?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6: 22 \\) a.m.</p>",
+            "<p>\\( 6: 27 \\) a.m.</p>",
+            "<p>\\( 6: 38 \\) a.m.</p>",
+            "<p>\\( 6: 45 \\) a.m.</p>"
+          ],
+          "correct_answer": "<p>\\( 6: 22 \\) a.m.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1952/gate-cse-2014-set-2-question-ga-10\" target=\"_blank\">https://gateoverflow.in/1952/gate-cse-2014-set-2-question-ga-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"426485\"></a><div itemprop=\"text\"><p>​​​​​On a given day, how many times will the second-hand and the minute-hand of a clock cross each other during the clock time \\( 12:05:00 \\) hours to \\( 12: 55: 00 \\) hours?</p>\n\n</div><br><br><b>GATE Civil 2024 Set 1 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 51 \\)</p>",
+            "<p>\\( 49 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 55 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426485/gate-civil-2024-set-1-ga-question-5\" target=\"_blank\">https://gateoverflow.in/426485/gate-civil-2024-set-1-ga-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359766\"></a><div itemprop=\"text\"><p>It is quarter past three in your watch. The angle between the hour hand and the minute hand&nbsp;is ________.</p>\n\n</div><br><br><b>GATE ECE 2020 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0^{\\circ} \\)</p>",
+            "<p>\\( 7.5^{\\circ} \\)</p>",
+            "<p>\\( 15^{\\circ} \\)</p>",
+            "<p>\\( 22.5^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7.5^{\\circ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359766/gate-ece-2020-ga-question-7\" target=\"_blank\">https://gateoverflow.in/359766/gate-ece-2020-ga-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"359507\"></a><div itemprop=\"text\"><p>A digital watch \\( \\text{X} \\) beeps every \\( 30 \\) seconds while watch \\( \\text{Y} \\) beeps every \\( 32 \\) seconds. They beeped together at \\( \\text{10 AM} \\).</p>\n\n<p>The immediate next time that they will beep together is ____</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{10.08 AM} \\)</p>",
+            "<p>\\( \\text{10.42 AM} \\)</p>",
+            "<p>\\( \\text{11.00 AM} \\)</p>",
+            "<p>\\( \\text{10.00 PM} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{10.08 AM} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359507/gate-mechanical-2021-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359507/gate-mechanical-2021-set-2-ga-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411765\"></a><div itemprop=\"text\"><p>In a \\( 12 \\)-hour clock that runs correctly, how many times do the second, minute, and hour hands of the clock coincide, in a \\( 12 \\)-hour duration from \\( 3 \\) PM in a day to \\( 3 \\) AM the next day?</p>\n\n</div><br><br><b>GATE Mechanical 2022 Set 1 | GA Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 144 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411765/gate-mechanical-2022-set-1-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411765/gate-mechanical-2022-set-1-ga-question-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411819\"></a><div itemprop=\"text\"><p>The minute-hand and second-hand of a clock cross each other ___________ times between \\( 09:15:00 \\) AM and \\( 09:45:00 \\) AM on a day.</p>\n\n</div><br><br><b>GATE Mechanical 2023 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 29 \\)</p>",
+            "<p>\\( 31 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411819/gate-mechanical-2023-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411819/gate-mechanical-2023-ga-question-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"108724\"></a><div itemprop=\"text\"><p>Two and quarter hours back, when seen in a mirror, the reflection of a wall clock without number markings seemed to show \\( 1:30 \\). What is the actual current time shown by the clock?</p>\n\n</div><br><br><b>GATE2016 EC-2: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8:15 \\)</p>",
+            "<p>\\( 11:15 \\)</p>",
+            "<p>\\( 12:15 \\)</p>",
+            "<p>\\( 12:45 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12:45 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108724/gate2016-ec-2-ga-8\" target=\"_blank\">https://gateoverflow.in/108724/gate2016-ec-2-ga-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"313387\"></a><div itemprop=\"text\"><p>A faulty wall clock is known to gain \\( 15 \\) minutes every \\( 24 \\) hours. It is synchronized to the correct time at \\( 9 \\) AM on \\( 11 \\)th July. What will be the correct time to the nearest minute when the clock shows \\( 2 \\) PM on \\( 15 \\)th July of the same year?</p>\n\n</div><br><br><b>GATE2018 CE-2: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12:45 \\) PM</p>",
+            "<p>\\( 12:58 \\) PM</p>",
+            "<p>\\( 1:00 \\) PM</p>",
+            "<p>\\( 2:00 \\) PM</p>"
+          ],
+          "correct_answer": "<p>\\( 12:58 \\) PM</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313387/gate2018-ce-2-ga-7\" target=\"_blank\">https://gateoverflow.in/313387/gate2018-ce-2-ga-7</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"313527\"></a><div itemprop=\"text\"><p>Two design consultants, \\( P \\) and \\( Q, \\) started working from \\( 8 \\) AM for a client. The client budgeted a total of USD \\( 3000 \\) for the consultants. \\( P \\) stopped working when the hour hand moved by \\( 210 \\) degrees on the clock. \\( Q \\) stopped working when the hour hand moved by \\( 240 \\) degrees. \\( P \\) took two tea breaks of&nbsp;\\( 15 \\) minutes each during her shift, but took no lunch break. \\( Q \\) took only one lunch break for \\( 20 \\) minutes, but no tea breaks. The market rate for consultants is USD \\( 200 \\) per hour and breaks are not paid. After paying the consultants, the client shall have USD _______ remaining in the budget.</p>\n\n</div><br><br><b>GATE2019 EC: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 000.00 \\)</p>",
+            "<p>\\( 166.67 \\)</p>",
+            "<p>\\( 300.00 \\)</p>",
+            "<p>\\( 433.33 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 166.67 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313527/gate2019-ec-ga-9\" target=\"_blank\">https://gateoverflow.in/313527/gate2019-ec-ga-9</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"313597\"></a><div itemprop=\"text\"><p>A worker noticed that the hour hand on the factory clock had moved by \\( 225 \\) degrees during her stay at the factory. For how long did she stay in the factory?</p>\n\n</div><br><br><b>GATE2019 ME-1: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3.75 \\) hours</p>",
+            "<p>\\( 4 \\)&nbsp;hours and \\( 15 \\) mins</p>",
+            "<p>\\( 8.5 \\) hours</p>",
+            "<p>\\( 7.5 \\) hours</p>"
+          ],
+          "correct_answer": "<p>\\( 7.5 \\) hours</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313597/gate2019-me-1-ga-3\" target=\"_blank\">https://gateoverflow.in/313597/gate2019-me-1-ga-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Combinational_Circuit",
+  "duration": 114,
+  "sections": [
+    {
+      "name": "Combinational_Circuit",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following logic circuit diagram.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q21_b743d471.webp\"><br>\nWhich is/are the CORRECT option(s) for the output function \\(F \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{XY} \\)</p>",
+            "<b>B.</b> <p>\\(\\overline{X} + \\overline{Y} + X \\overline{Y} \\)</p>",
+            "<b>C.</b> <p>\\(\\overline{XY} + \\overline{X} + X \\overline{Y} \\)</p>",
+            "<b>D.</b> <p>\\(X + \\overline{Y} \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(\\overline{XY} \\)</p>",
+            "<b>B.</b> <p>\\(\\overline{X} + \\overline{Y} + X \\overline{Y} \\)</p>",
+            "<b>C.</b> <p>\\(\\overline{XY} + \\overline{X} + X \\overline{Y} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460814/gate-cse-2025-set-2-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider 4-variable functions \\( f 1, f 2, f 3, f 4 \\) expressed in sum-of-minterms form as given below.\n<br> \\(\n\\begin{aligned}\n&amp; f 1=\\sum(0,2,3,5,7,8,11,13) \\\\\n&amp; f 2=\\sum(1,3,5,7,11,13,15) \\\\\n&amp; f 3=\\sum(0,1,4,11) \\\\\n&amp; f 4=\\sum(0,2,6,13)\n\\end{aligned}\n\\) <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q40_e603cd6e.webp\"><br>\nWith respect to the circuit given above, which of the following options is/are CORRECT? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\boldsymbol{Y}=\\sum(0,1,2,11,13)\\)</p>",
+            "<b>B.</b> <p>\\(\\boldsymbol{Y}=\\Pi(3,4,5,6,7,8,9,10,12,14,15)\\)</p>",
+            "<b>C.</b> <p>\\(\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)\\)</p>",
+            "<b>D.</b> <p>\\(\\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422857/gate-cse-2024-set-2-question-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. \\( X 1 \\) and \\( X 2 \\) are inputs of \\( M 1 \\). \\( X 3 \\) and \\( X 4 \\) are inputs of \\( M 2 \\). \\( A, B \\), and \\( C \\) are select lines of \\( M 1, M 2 \\), and \\( M 3 \\), respectively.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q54_e1cd6ee8.webp\"><br>For an instance of inputs \\( X \\mathbf{X l}=\\mathbf{X} \\mathbf{2}=\\mathbf{1}, \\mathrm{X} 3=\\mathbf{0} \\), and \\( \\mathrm{X} 4=\\mathbf{0} \\), the number of combinations of \\( A, B, C \\) that give the output \\( Y=1 \\) is _____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422788/gate-cse-2024-set-1-question-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the circuit shown below where the gates may have propagation delays.\nAssume that all signal transitions occur instantaneously and that wires have no\ndelays. Which of the following statements about the circuit is/are CORRECT?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q18_c69f200a.webp\"><br> <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>With no propagation delays, the output Y is always logic Zero</p>",
+            "<b>B.</b> <p>With no propagation delays, the output Y is always logic One</p>",
+            "<b>C.</b> <p>With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One</p>",
+            "<b>D.</b> <p>With propagation delays, the output Y can have a transient logic Zero after X\ntransitions from logic One to logic Zero</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>With no propagation delays, the output Y is always logic Zero</p>",
+            "<b>C.</b> <p>With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422824/gate-cse-2024-set-1-question-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A Boolean digital circuit is composed using two 4-input multiplexers (M1 and M2)\nand one 2-input multiplexer (M3) as shown in the figure. X0-X7 are the inputs of\nthe multiplexers M1 and M2 and could be connected to either 0 or 1. The select\nlines of the multiplexers are connected to Boolean variables A, B and C as shown.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q34_57cf3cfb.jpg\"><br>Which one of the following set of values of (X0, X1, X2, X3, X4, X5, X6, X7) will\nrealise the Boolean function \\( \\bar{A}+\\bar{A}\\cdot \\bar{C}+A\\cdot \\bar{B}\\cdot C\\) ? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1, 1, 0, 0, 1, 1, 1, 0)</p>",
+            "<b>B.</b> <p>(1, 1, 0, 0, 1, 1, 0, 1)</p>",
+            "<b>C.</b> <p>(1, 1, 0, 1, 1, 1, 0, 0)</p>",
+            "<b>D.</b> <p>(0, 0, 1, 1, 0, 1, 1, 1)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(1, 1, 0, 1, 1, 1, 0, 0)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399277/gate-cse-2023-question-34#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The output of a 2-input multiplexer is connected back to one of its inputs as shown\nin the figure.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q11_d9777822.jpg\"><br>Match the functional equivalence of this circuit to one of the following options. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>D Flip-flop</p>",
+            "<b>B.</b> <p>D Latch</p>",
+            "<b>C.</b> <p>Half-adder</p>",
+            "<b>D.</b> <p>Demultiplexer</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>D Latch</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399301/gate-cse-2023-question-11#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following circuits implements the Boolean function given below?<br><br>\\(f(x,y,z) = m_0+m_1+m_3+m_4+m_5+m_6\\)<br><br>where \\(m_i\\) is the \\(i^{th}\\) minterm.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q5_9ea2ea67.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357535/gate-cse-2021-set-2-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If there are m input lines and n output lines for a decoder that is used to uniquely address a byte addressable 1 KB RAM, then the minimum value of m+n is ________ . <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1034",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333211/gate2020-cs-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A multiplexer is placed between a group of 32 registers and an accumulator to regulate data movement such that at any given point in time the content of only one register will move to the accumulator. The number of select lines needed for the multiplexer is ______. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333212/gate2020-cs-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>When two 8-bit numbers \\(A_{7}....A_{0}\\) and \\(B_{7}....B_{0}\\) in 2's complement representation (with \\(A_{0}\\)\nand \\(B_{0}\\) as the least significant bits ) are added using a ripple-carry Combinational Circuit, the sum bits\nobtained are  \\(S_{7}....S_{0}\\) and the carry bits are  \\(C_{7}....C_{0}\\). An overflow is said to have occurred if <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the carry bit \\(C_{7}\\) is 1</p>",
+            "<b>B.</b> <p>all the carry bits (\\(C_{7}....C_{0}\\)) are 1</p>",
+            "<b>C.</b> <p>\\((A_{7}B_{7}\\bar{S_{7}}+\\bar{A_{7}}\\bar{B_{7}}S_{7})\\)  is 1</p>",
+            "<b>D.</b> <p>\\((A_{0}B_{0}\\bar{S_{0}}+\\bar{A_{0}}\\bar{B_{0}}S_{0})\\)\nis 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((A_{7}B_{7}\\bar{S_{7}}+\\bar{A_{7}}\\bar{B_{7}}S_{7})\\)  is 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118289/gate2017-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider an eight-bit ripple-carry Combinational Circuit for computing the sum of A and B, where A and B are integers represented in 2's complement form. If the decimal value of  A is one, the decimal value of B that leads to the longest latency for the sum to stabilize is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39575/gate2016-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the two cascaded 2-to-1 multiplexers as shown in the figure. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q30_c36da989.jpg\">  <br> The minimal sum of products form of the output X is <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{P}\\bar{Q}+PQR\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{P}Q+QR\\)</p>",
+            "<b>C.</b> <p>\\(PQ+\\bar{P}\\bar{Q}R\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{Q}\\bar{R}+PQR\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\bar{Q}\\bar{R}+PQR\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39722/gate2016-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A half adder is implemented with XOR and AND gates. A full Combinational Circuit is implemented with two half Combinational Circuits and one OR gate. The propagation delay of an XOR gate is twice that of an AND/OR gate. The propagation delay of an AND/OR gate is 1.2 microseconds. A 4-bit ripple-carry binary Combinational Circuit is implemented by using four full Combinational Circuits. The total propagation time of this 4-bit binary Combinational Circuit in microseconds is____________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19.2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8250/gate2015-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following combinational function block involving four Boolean variables x, y, a, b where x, a, b are inputs and y is the output.<pre><code> f (x, y, a, b)\n{\n    if (x is 1) y = a; \n    else y = b;\n} </code></pre>\nWhich one of the following digital logic blocks is the most suitable for implementing this function? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Full adder</p>",
+            "<b>B.</b> <p>Priority encoder</p>",
+            "<b>C.</b> <p>Multiplexor</p>",
+            "<b>D.</b> <p>Flip-flop</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Multiplexor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2042/gate2014-3-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the 4-to-1 multiplexer with two lines S1 and S0 given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q45_b1af9dd8.jpg\">  <br>  The minimal sum of-products form of the Boolean expression for the output F of the multiplexer is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{P}Q+Q\\bar{R}+P\\bar{Q}R\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{P}Q+\\bar{P}Q\\bar{R}+PQ\\bar{R}+P\\bar{Q}R\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{P}QR+\\bar{P}Q\\bar{R}+Q\\bar{R}+P\\bar{Q}R\\)</p>",
+            "<b>D.</b> <p>\\(PQ\\bar{R}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\bar{P}Q+Q\\bar{R}+P\\bar{Q}R\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1923/gate2014-1-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>In the following truth table, V = 1 if and only if the input is valid. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q5_f3a25897.jpg\"> <br> What function does the truth table represent? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Priority encoder</p>",
+            "<b>B.</b> <p>Decoder</p>",
+            "<b>C.</b> <p>Multiplexer</p>",
+            "<b>D.</b> <p>Demultiplexer</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Priority encoder</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1414/gate2013-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>The Boolean expression for the output f of the multiplexer shown below is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q9_a0a5ecab.jpg\"> <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{P\\bigoplus Q\\bigoplus R}\\)</p>",
+            "<b>B.</b> <p>\\(P\\bigoplus Q\\bigoplus R\\)</p>",
+            "<b>C.</b> <p>P+Q+R</p>",
+            "<b>D.</b> <p>\\(\\overline{P+Q+R}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(P\\bigoplus Q\\bigoplus R\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2182/gate2010-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>What Boolean function does the circuit below realize?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q9_43e48617.jpg\"><br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(xz + \\bar{x}\\bar{z}\\)</p>",
+            "<b>B.</b> <p>\\(x\\bar{z} + \\bar{x}{z}\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{x}\\bar{y} + {y}{z}\\)</p>",
+            "<b>D.</b> <p>\\(xy + \\bar{y}\\bar{z}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x\\bar{z} + \\bar{x}{z}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3269/gate2008-it-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>The following circuit implements a two-input AND gate using two 2-1 multiplexers.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q8_8800407c.jpg\"><br>\nWhat are the values of \\(X_1, X_2, X_3\\)? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X_1 = b, X_2 = 0, X_3 = a\\)</p>",
+            "<b>B.</b> <p>\\(X_1 = b, X_2 = 1, X_3 = b\\)</p>",
+            "<b>C.</b> <p>\\(X_1 = a, X_2 = b, X_3 = 1\\)</p>",
+            "<b>D.</b> <p>\\(X_1 = a, X_2 = 0, X_3 = b\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X_1 = b, X_2 = 0, X_3 = a\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3441/gate2007-it-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>The control signal functions of a 4-bit binary counter are given below (where X is \"don't care\"):  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q36_302f0c23.jpg\"> <br>  Assume that the counter and gate delays are negligible. If the counter starts at 0, then it cycles through the following sequence: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, 3, 4</p>",
+            "<b>B.</b> <p>0, 3, 4, 5</p>",
+            "<b>C.</b> <p>0, 1, 2, 3, 4</p>",
+            "<b>D.</b> <p>0, 1, 2, 3, 4, 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0, 1, 2, 3, 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1234/gate2007-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>In a look-ahead carry generator, the carry generate function i G and the carry\npropagate function \\(P_{i}\\) for inputs \\(A_{i}\\) and \\(B_{i}\\) are given by: <br><br>\n\\(P_{i}=A_{i}\\bigoplus B_{i} \\; and \\; G_{i}=A_{i}B_{i}\\) <br><br>\nThe expressions for the sum bit \\(S_{i}\\) and the carry bit \\(C_{i+1}\\) of the look-ahead carry\nCombinational Circuit are given by:\n<br><br> \\(S_{i}=P_{i}\\bigoplus C_{i} \\; and \\; C_{i+1}=G_{i}+P_{i}C_{i}\\) <br><br> Consider a two-level logic implementation of the look-ahead carry generator. Assume that all \\(P_{i}\\) and \\(G_{i}\\) are available for the carry generator circuit and that\nthe AND and OR gates can have any number of inputs. The number of AND gates\nand OR gates needed to implement the look-ahead carry generator for a 4-bit\nCombinational Circuit with and \\(S_{3},S_{2},S_{1},S_{0}\\) as \\(C_{4}\\)  its outputs are respectively: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6, 3</p>",
+            "<b>B.</b> <p>10, 4</p>",
+            "<b>C.</b> <p>6, 4</p>",
+            "<b>D.</b> <p>10, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10, 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1233/gate2007-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Suppose only one multiplexer and one inverter are allowed to be used to implement any Boolean function of n variables. What is the minimum size of the multiplexer needed? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n}\\) line to 1 line</p>",
+            "<b>B.</b> <p>\\(2^{n+1}\\) line to 1 line</p>",
+            "<b>C.</b> <p>\\(2^{n-1}\\) line to 1 line</p>",
+            "<b>D.</b> <p>\\(2^{n-2}\\) line to 1 line</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{n-1}\\) line to 1 line</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1232/gate2007-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>How many 3-to-8 line decoders with an enable input are needed to construct a 6-\nto-64 line decoder without using any other logic gates? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1206/gate2007-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>The boolean function for a combinational circuit with four inputs is represented by the following Karnaugh map.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q35_73871bb5.jpg\"><br>Which of the product terms given below is an essential prime implicant of the function? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>QRS</p>",
+            "<b>B.</b> <p>PQS</p>",
+            "<b>C.</b> <p>PQ'S'</p>",
+            "<b>D.</b> <p>Q'S'</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Q'S'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3574/gate2006-it-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>We consider addition of two 2's complement numbers \\(b_{n-1}b_{n-2}...b_{0}\\) and\n\\(a_{n-1}a_{n-2}...a_{0}\\). A binary Combinational Circuit for adding unsigned binary numbers is used to add\nthe two numbers. The sum is denoted by \\(c_{n-1}c_{n-2}...c_{0}\\) and the carryout by \\(c_{out}\\) .\nWhich one of the following options correctly identifies the overflow condition? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q39_05a110d1.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1815/gate2006-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>The circuit shown below implements a 2-input NOR gate using two 2-4 MUX (control signal 1 selects the upper input). What are the values of signals x, y and z?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q48_572e5c83.jpg\"><br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,0,B</p>",
+            "<b>B.</b> <p>1,0,A</p>",
+            "<b>C.</b> <p>0,1,B</p>",
+            "<b>D.</b> <p>0,1,A</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0,1,A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3809/gate2005-it-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>A 4-bit carry look ahead Combinational Circuit, which adds two 4-bit numbers, is designed using AND, OR, NOT, NAND, NOR gates only. Assuming that all the inputs are available in both complemented and uncomplemented  forms and the delay of each gate is one time unit, what is the overall propagation delay of the Combinational Circuit? Assume that the carry network has been implemented using two-level AND-OR logic. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 time units</p>",
+            "<b>B.</b> <p>6 time units</p>",
+            "<b>C.</b> <p>10 time units</p>",
+            "<b>D.</b> <p>12 time units</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6 time units</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1057/gate2004-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider a multiplexer with X and Y as data inputs and Z as control input. Z = 0 selects input X, and\nZ = 1 selects input Y. What are the connections required to realize the 2-variable Boolean function f=T+R, without using any additional hardware? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R to X, 1 to Y, T to Z</p>",
+            "<b>B.</b> <p>T to X, R to Y, T to Z</p>",
+            "<b>C.</b> <p>T to X, R to Y, 0 to Z</p>",
+            "<b>D.</b> <p>R to X, 0 to Y, T to Z</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>R to X, 1 to Y, T to Z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1055/gate2004-60#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>A circuit outputs a digit in the form of 4 bits. 0 is represented by 0000, 1 by 0001,..., 9 by 1001. A\ncombinational circuit is to be designed which takes these 4 bits as input and outputs 1 if the digit \\(\\geq\\)5, and 0 otherwise. If only AND, OR and NOT gates may be used, what is the minimum number of gates required? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1053/gate2004-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Consider the following circuit composed of XOR gates and non-inverting buffers <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q47_c9d66e82.jpg\"><br> The non-inverting buffers have delays \\(\\delta _{1}\\)= 2ns and \\(\\delta _{2}\\)= 4ns as shown in the\nfigure. Both XOR gates and al wires have zero delay. Assume that all gate inputs,\noutputs and wires are stable at logic level 0. If the following waveform is applied\nat input. A, how many transition (s) (change of logic levels) occur (s) at B during\nthe interval from 0 to 10 ns? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q47a_f5dff2b0.jpg\"> <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/29098/gate2003-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Consider the ALU shown below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q46_4fb5071c.jpg\"> <br> If the operands are in 2's complement representation, which of the following\noperations can be performed by suitably setting the control lines K and C0 only\n(+ and - denote addition and subtraction respectively)? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A + B, and A - B,but not A + 1</p>",
+            "<b>B.</b> <p>A + B,and A + 1,but not A - B</p>",
+            "<b>C.</b> <p>A + B,but not A - B,or A + 1</p>",
+            "<b>D.</b> <p>A + B,and A - B,and A + 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A + B, and A - B,but not A + 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/937/gate2003-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider an array multiplier for multiplying two n bit numbers. If each gate in\nthe circuit has a unit delay, the total delay of the multiplier is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (1)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (log n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/902/gate2003-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the following multiplexor where I0,I1,I2,I3 are four data input lines\nselected by two address line combinations A1A0 = 00,01,10,11 respectively and\nf is the output of the multiplexor. EN is the Enable input. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q27_4b0295b7.jpg\"> <br>The function f (x,y,z) implemented by the above circuit is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>xyz'</p>",
+            "<b>B.</b> <p>xy + z</p>",
+            "<b>C.</b> <p>x + y</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>xyz'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/832/gate2002-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>The number of full and half-adders required to add 16-bit numbers is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 half-adders, 8 full-adders</p>",
+            "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+            "<b>C.</b> <p>16 half-adders, 0 full-adders</p>",
+            "<b>D.</b> <p>4 half-adders, 12 full-adders</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1494/gate1999-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>A multiplexer with a 4-bit data select input is a <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4:1 multiplexer</p>",
+            "<b>B.</b> <p>2:1 multiplexer</p>",
+            "<b>C.</b> <p>16:1 multiplexer</p>",
+            "<b>D.</b> <p>8:1 multiplexer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16:1 multiplexer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1651/gate1998-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>An N-bit carry lookahead adder, where N is a multiple of 4, employs ICs 74181 (4 bit ALU) and 74182 ( 4 bit carry lookahead generator).<br>\nThe minimum addition time using the best architecture for this adder is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>proportional to N</p>",
+            "<b>B.</b> <p>proportional to \\(\\log\\) N</p>",
+            "<b>C.</b> <p>a constant</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>proportional to \\(\\log\\) N</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2231/gate1997-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the circuit in figure. f implements<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q2.22_6eb0c2a6.jpg\"><br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{A} \\overline{B}C + \\overline{A}B \\overline{C} + ABC\\)</p>",
+            "<b>B.</b> <p>\\(A + B + C\\)</p>",
+            "<b>C.</b> <p>\\(A \\oplus B \\oplus C\\)</p>",
+            "<b>D.</b> <p>\\(AB + BC + CA\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(A \\oplus B \\oplus C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2751/gate1996-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the circuit in below figure which has a four bit binary number \\(b_3b_2b_1b_0\\) as input and a five bit binary number, \\(d_4d_3d_2d_1d_0\\) as output.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q2.21_d96f0d46.jpg\"><br> <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Binary to Hex conversion</p>",
+            "<b>B.</b> <p>Binary to BCD conversion</p>",
+            "<b>C.</b> <p>Binary to Gray code conversion</p>",
+            "<b>D.</b> <p>Binary to radix-12 conversion</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Binary to radix-12 conversion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2750/gate1996-2-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider the circuit shown below. The output of a 2:1 Mux is given by the\nfunction (ac' + bc). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q36_4a2799c2.jpg\"> Which of the following is true? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>f= x1'x2 + x1x2'</p>",
+            "<b>B.</b> <p>f = x1 + x2'</p>",
+            "<b>C.</b> <p>f = x1x2 + x1'x2'</p>",
+            "<b>D.</b> <p>f= x1' + x2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>f = x1x2 + x1'x2'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/729/gate2001-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>The output F of the below multiplexer circuit can be represented by <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q1-IV_325ec5d5.jpg\"><br> <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}\\)</p>",
+            "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+            "<b>C.</b> <p>\\(A \\oplus B\\)</p>",
+            "<b>D.</b> <p>\\(\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A\\oplus B\\oplus C\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80193/gate1987-1-iv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Combinational_Circuit\\q15a_90d927be.jpg\"><br>The frequency of oscillation is given by \\(f= 1/2 \\pi\\) CR. To have the system oscillate the ratio \\(R_{2}/R_{1}\\) should be <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5</p>",
+            "<b>B.</b> <p>29</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>Any value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Any value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/82656/gate1987-15a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

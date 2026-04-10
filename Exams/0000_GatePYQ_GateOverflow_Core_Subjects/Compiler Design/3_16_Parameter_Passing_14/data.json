@@ -1,0 +1,196 @@
+{
+  "title": "Compiler Design - Parameter Passing",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Parameter Passing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"94333\"></a><div itemprop=\"text\"><p>What is printed by following program, assuming call-by reference method of passing parameters for all variables in the parameter list of procedure P?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">program     Main(inout, output);\nvar     a, b:integer;\n        procedure P(x, y, z:integer);\n        begin\n            y:=y+1\n            z:=x+x\n        end P;\nbegin\n    a:=2; b:=3;\n    p(a+b, a, a);\n    Write(a)\nend.\n</pre></div><br><br><b>GATE CSE 1988 | Question: 2xv</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94333/gate-cse-1988-question-2xv\" target=\"_blank\">https://gateoverflow.in/94333/gate-cse-1988-question-2xv</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"94371\"></a><div itemprop=\"text\"><p>Consider the procedure declaration:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Procedure\nP (k: integer)</pre>\n\n<p>where the parameter passing mechanism is call-by-value-result. Is it correct if the call, P (A[i]), where A is an array and i an integer, is implemented as below.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>create a new local variable, say z;</li>\n\t<li>assign to z, the value of A [i];</li>\n\t<li>execute the body of P using z for k;</li>\n\t<li>set A [i] to z;</li>\n</ol>\n\n<p>Explain your answer. If this is incorrect implementation, suggest a correct one.</p></div><br><br><b>GATE CSE 1988 | Question: 8i</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94371/gate-cse-1988-question-8i\" target=\"_blank\">https://gateoverflow.in/94371/gate-cse-1988-question-8i</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"37264\"></a><div itemprop=\"text\"><p>In which of the following case(s) is it possible to obtain different results for call-by-reference and call-by-name parameter passing?</p>\n\n</div><br><br><b>GATE CSE 1989 | Question: 3-viii</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Passing an expression as a parameter</p>",
+            "<p>Passing an array as a parameter</p>",
+            "<p>Passing a pointer as a parameter</p>",
+            "<p>Passing as array element as a parameter</p>"
+          ],
+          "correct_answer": [
+            "<p>Passing an expression as a parameter</p>",
+            "<p>Passing as array element as a parameter</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/37264/gate-cse-1989-question-3-viii\" target=\"_blank\">https://gateoverflow.in/37264/gate-cse-1989-question-3-viii</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"85981\"></a><div itemprop=\"text\"><p>What does the following program output?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">program module (input, output);\nvar\n    a:array [1...5] of integer;\n    i, j: integer;\nprocedure unknown (var b: integer, var c: integer);\nvar\n    i:integer;\nbegin\n    for i := 1 to 5 do a[i] := i; \n    b:= 0; c := 0\n    for i := 1 to 5 do write (a[i]);\n    writeln();\n    a[3]:=11; a[1]:=11;\n    for i:=1 to 5 do a [i] := sqr(a[i]);\n    writeln(c,b); b := 5; c := 6;\nend;\nbegin\n  i:=1; j:=3; unknown (a[i], a[j]);\n  for i:=1 to 5 do write (a[i]);\nend;\n</pre></div><br><br><b>GATE CSE 1990 | Question: 11a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/85981/gate-cse-1990-question-11a\" target=\"_blank\">https://gateoverflow.in/85981/gate-cse-1990-question-11a</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"524\"></a><div itemprop=\"text\"><p>Indicate all the true statements from the following:</p>\n\n</div><br><br><b>GATE CSE 1991 | Question: 03,x</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Recursive descent parsing cannot be used for grammar with left recursion.</p>",
+            "<p>The intermediate form for representing expressions which is best suited for code optimization is the postfix form.</p>",
+            "<p>A programming language not supporting either recursion or pointer type does not need the support of dynamic memory allocation.</p>",
+            "<p>Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C</p>",
+            "<p>No feature of Pascal typing violates strong typing in Pascal.</p>"
+          ],
+          "correct_answer": [
+            "<p>Recursive descent parsing cannot be used for grammar with left recursion.</p>",
+            "<p>Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/524/gate-cse-1991-question-03-x\" target=\"_blank\">https://gateoverflow.in/524/gate-cse-1991-question-03-x</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"536\"></a><div itemprop=\"text\"><p>Consider the following pseudo-code (all data items are of type integer):&nbsp;</p>\n\n<pre class=\"prettyprint lang-\">procedure P(a, b, c);\n    a := 2;\n    c := a + b;\nend {P}\n\nbegin \n    x := 1;\n    y := 5;\n    z := 100;\n    P(x, x*y, z);\n    Write ('x = ', x, 'z = ', z);\nend</pre>\n\n<p>Determine its output, if the parameters are passed to the Procedure \\( \\text{P} \\) by</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>value</li>\n\t<li>reference</li>\n\t<li>name</li>\n</ol></div><br><br><b>GATE CSE 1991 | Question: 09a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/536/gate-cse-1991-question-09a\" target=\"_blank\">https://gateoverflow.in/536/gate-cse-1991-question-09a</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"43603\"></a><div itemprop=\"text\"><p>For the following code, indicate the output if&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>static scope rules</li>\n\t<li>dynamic scope rules</li>\n</ol>\n\n<p>are used</p>\n\n<pre class=\"prettyprint lang-c_cpp\">var a,b : integer;\n\nprocedure P;\n    a := 5;\n    b := 10;\nend {P};\n\nprocedure Q;\n    var a, b : integer;\n    P;\nend {Q};\n\nbegin \n    a := 1;\n    b := 2;\n    Q;\n    Write ('a = ', a, 'b = ', b);\nend\n</pre></div><br><br><b>GATE CSE 1991 | Question: 09b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43603/gate-cse-1991-question-09b\" target=\"_blank\">https://gateoverflow.in/43603/gate-cse-1991-question-09b</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2322\"></a><div itemprop=\"text\"><p>A stack is used to pass parameters to procedures in a procedure call.</p>\n\n</div><br><br><b>GATE CSE 1993 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>If a procedure \\( P \\) has two parameters as described in procedure definition:</p>\n\n\t<pre class=\"prettyprint lang-c_cpp\">procedure P (var x :integer; y: integer);</pre>\n\n\t<p>and if \\( P \\) is called by ; \\( P(a, b) \\)</p>\n\n\t<p>State precisely in a sentence what is pushed on stack for parameters \\( a \\) and \\( b \\)</p>",
+            "<p>In the generated code for the body of procedure \\( P \\), how will the addressing of formal parameters \\( x \\) and \\( y \\) differ?</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2322/gate-cse-1993-question-26\" target=\"_blank\">https://gateoverflow.in/2322/gate-cse-1993-question-26</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"2616\"></a><div itemprop=\"text\"><p>What is the value of \\( X \\) printed by the following program?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">program COMPUTE (input, output);\nvar X:integer;\nprocedure FIND (X:real);\n    begin\n        X:=sqrt(X);\n    end;\nbegin\n    X:=2\n    FIND(X);\n    writeln(X);\nend.\n</pre>\n\n</div><br><br><b>GATE CSE 1995 | Question: 2.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>Run time error</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2616/gate-cse-1995-question-2-4\" target=\"_blank\">https://gateoverflow.in/2616/gate-cse-1995-question-2-4</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1514\"></a><div itemprop=\"text\"><p>What will be the output of the following program assuming that parameter passing is</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\n\t<p>call by value</p>\n\t</li>\n\t<li>\n\t<p>call by reference</p>\n\t</li>\n\t<li>\n\t<p>call by copy restore</p>\n\t</li>\n</ol>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">procedure P{x, y, z}; \nbegin \n    y:y+1; \n    z: x+x; \nend; \nbegin \n    a:= b:= 3; \n    P(a+b, a, a); \n    Print(a); \nend  </pre></div><br><br><b>GATE CSE 1999 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1514/gate-cse-1999-question-15\" target=\"_blank\">https://gateoverflow.in/1514/gate-cse-1999-question-15</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"43575\"></a><div itemprop=\"text\"><p>The following program fragment is written in a programming language that allows global variables and does not allow nested declarations of functions.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">global int i=100, j=5;\nvoid P(x) {\n\tint i=10;\n    print(x+10);\n    i=200;\n    j=20;\n    print (x);\n}\nmain() {P(i+j);}\n</pre>\n\n<p>If the programming language uses dynamic scoping and call by name parameter passing mechanism, the values printed by the above program are</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 115, 220 \\)</p>",
+            "<p>\\( 25, 220 \\)</p>",
+            "<p>\\( 25, 15 \\)</p>",
+            "<p>\\( 115, 105 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43575/gate-cse-2003-question-74\" target=\"_blank\">https://gateoverflow.in/43575/gate-cse-2003-question-74</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"999\"></a><div itemprop=\"text\"><p>Consider the following function</p>\n\n<pre class=\"prettyprint lang-c_cpp\">void swap(int a, int b)  \n{       \n    int temp;\n    temp = a;\n    a = b;\n    b = temp;  \n}  </pre>\n\n<p>In order to exchange the values of two variables \\( x \\) and \\( y \\).</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 2,ISRO2017-54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>call \\( swap(x, y) \\)</p>",
+            "<p>call \\( swap(\\&amp;x, \\&amp;y) \\)</p>",
+            "<p>\\( swap (x, y) \\) cannot be used as it does not return any value</p>",
+            "<p>\\( swap (x, y) \\) cannot be used as the parameters are passed by value</p>"
+          ],
+          "correct_answer": "<p>\\( swap (x, y) \\) cannot be used as the parameters are passed by value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/999/gate-cse-2004-question-2-isro2017-54\" target=\"_blank\">https://gateoverflow.in/999/gate-cse-2004-question-2-isro2017-54</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"39701\"></a><div itemprop=\"text\"><p>What will be the output of the following pseudo-code when parameters are passed by reference and dynamic scoping is assumed?&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">a = 3;\nvoid n(x) { x = x * a; print (x); }\nvoid m(y) { a = 1 ; a = y - a;  n(a); print (a); }\nvoid main () { m(a); }</pre>\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6,2 \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 6,6 \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 4,2 \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 4,4 \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( 4,4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39701/gate-cse-2016-set-1-question-36\" target=\"_blank\">https://gateoverflow.in/39701/gate-cse-2016-set-1-question-36</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"3466\"></a><div itemprop=\"text\"><p>Consider the program below in a hypothetical language which allows global variable and a choice of call by reference or call by value methods of parameter passing.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><pre class=\"prettyprint lang-c_cpp\">int i ;\nprogram main ()\n{\n    int j = 60;\n    i = 50;\n    call f (i, j);\n    print i, j;\n}\nprocedure f (x, y)\n{           \n    i = 100;\n    x = 10;\n    y = y + i ;\n}</pre><p>Which one of the following options represents the correct output of the program for the two parameter passing mechanisms?</p></div><br><br><b>GATE IT 2007 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Call by value : \\( i = 70, j = 10 \\); Call by reference : \\(  i = 60, j = 70 \\)</p>",
+            "<p>Call by value : \\( i = 50, j = 60 \\); Call by reference : \\(  i = 50, j = 70 \\)</p>",
+            "<p>Call by value : \\( i = 10, j = 70 \\); Call by reference : \\(  i = 100, j = 60 \\)</p>",
+            "<p>Call by value : \\( i = 100, j = 60 \\); Call by reference : \\(  i = 10, j = 70 \\)</p>"
+          ],
+          "correct_answer": "<p>Call by value : \\( i = 100, j = 60 \\); Call by reference : \\(  i = 10, j = 70 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3466/gate-it-2007-question-33\" target=\"_blank\">https://gateoverflow.in/3466/gate-it-2007-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+}

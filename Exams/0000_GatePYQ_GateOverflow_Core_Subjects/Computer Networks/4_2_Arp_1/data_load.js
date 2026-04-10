@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Arp",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Arp",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460829\"></a><div itemprop=\"text\"><p>​​​​​Consider the following statements:</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address.</li><li>A single TCP segment from a sender \\( S \\) to a receiver \\( R \\) cannot carry both data from \\( S \\) to \\( R \\) and acknowledgement for a segment from \\( R \\) to \\( S \\)</li></ol><div>Which one of the following is CORRECT?</div></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{(i)} \\) and \\( \\text{(ii)} \\) are TRUE</p>",
+            "<p>\\( \\text{(i)} \\) is TRUE and \\( \\text{(ii)} \\) is FALSE</p>",
+            "<p>\\( \\text{(i)} \\) is FALSE and \\( \\text{(ii)} \\) is TRUE</p>",
+            "<p>Both \\( \\text{(i)} \\) and \\( \\text{(ii)} \\) are FALSE</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i)} \\) is TRUE and \\( \\text{(ii)} \\) is FALSE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460829/gate-cse-2025-set-2-question-6\" target=\"_blank\">https://gateoverflow.in/460829/gate-cse-2025-set-2-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

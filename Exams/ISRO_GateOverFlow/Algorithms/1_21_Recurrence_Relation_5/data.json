@@ -1,0 +1,81 @@
+{
+  "title": "Algorithms - Recurrence Relation",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Recurrence Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2444\"></a><div itemprop=\"text\"><p>The recurrence relation that arises in relation with the complexity of binary search is:</p>\n\n</div><br><br><b>Algorithms: GATE CSE 1994 | Question: 1.7, ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T(n) = 2T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant } \\)</p>",
+            "<p>\\( T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant } \\)</p>",
+            "<p>\\( T(n) = T\\left(\\frac{n}{2}\\right)+\\log n \\)</p>",
+            "<p>\\( T(n) = T\\left(\\frac{n}{2}\\right)+n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant } \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2444/gate-cse-1994-question-1-7-isro2017-14\" target=\"_blank\">https://gateoverflow.in/2444/gate-cse-1994-question-1-7-isro2017-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1077\"></a><div itemprop=\"text\"><p>The time complexity of the following C function is (assume \\( n &gt; 0 \\))</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int recursive (int n) {\n    if(n == 1)\n        return (1);\n    else\n        return (recursive (n-1) + recursive (n-1));\n}</pre>\n\n</div><br><br><b>Algorithms: GATE CSE 2004 | Question: 83, ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( O(2^n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(2^n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1077/gate-cse-2004-question-83-isro2015-40\" target=\"_blank\">https://gateoverflow.in/1077/gate-cse-2004-question-83-isro2015-40</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1829\"></a><div itemprop=\"text\"><p>Consider the following recurrence:<br>\n<br>\n\\(  T(n)=2T\\left ( \\sqrt{n}\\right )+1, \\) \\( T(1)=1 \\)<br>\n<br>\nWhich one of the following is true?</p>\n\n</div><br><br><b>Algorithms: GATE CSE 2006 | Question: 51, ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  T(n)=\\Theta (\\log\\log n) \\)</p>",
+            "<p>\\(  T(n)=\\Theta (\\log n) \\)</p>",
+            "<p>\\(  T(n)=\\Theta (\\sqrt{n}) \\)</p>",
+            "<p>\\(  T(n)=\\Theta (n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  T(n)=\\Theta (\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1829/gate-cse-2006-question-51-isro2016-34\" target=\"_blank\">https://gateoverflow.in/1829/gate-cse-2006-question-51-isro2016-34</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"47492\"></a><div itemprop=\"text\">\n<p>Let \\( T(n) \\) be defined by \\( T(1) =10 \\) and \\( T(n+1)=2n+T(n) \\)&nbsp;for all integers \\( n \\geq 1 \\). Which of the following &nbsp;represents the&nbsp;order of growth of \\( T(n) \\) as a function of \\( n \\)?</p>\n\n\n</div><br><br><b>Algorithms: ISRO CSE 2011 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>",
+            "<p>\\( O(n^3) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47492/isro-cse-2011-question-56\" target=\"_blank\">https://gateoverflow.in/47492/isro-cse-2011-question-56</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"213551\"></a><div itemprop=\"text\"><p>The running time of an algorithm is given by:</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\( T(n) =&nbsp;T(n-1) +&nbsp;T(n-2) -&nbsp;T(n-3) \\), if \\( n &gt;&nbsp;3 \\)</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = \\( n \\), otherwise</p>\n\n<p>Then what should be the relation between \\( T(1),&nbsp;T(2),&nbsp;T(3) \\), so that the order of the algorithm is constant?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>\\( T(1) =&nbsp;T(2) =&nbsp;T(3) \\)</li>\n\t<li>\\( T(1) +&nbsp;T(3) = 2T(2) \\)</li>\n\t<li>\\( T(1) -&nbsp;T(3) = T(2) \\)</li>\n\t<li>\\( T(1) +&nbsp;T(2) = T(3) \\)</li>\n</ol></div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213551/isro-cse-2018-question-37\" target=\"_blank\">https://gateoverflow.in/213551/isro-cse-2018-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+}

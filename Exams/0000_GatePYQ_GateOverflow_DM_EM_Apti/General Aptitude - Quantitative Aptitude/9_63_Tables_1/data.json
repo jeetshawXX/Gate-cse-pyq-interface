@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Tables",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Tables",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460443\"></a><div itemprop=\"text\"><p>Which one of the following options is correct for the given data in the table?</p><p>\\[ \\begin{array}{|c|c|c|c|c|} \\hline \\text{Iteration (i)} &amp; \\text{0} &amp; \\text{1}&nbsp;&amp; \\text{2}&nbsp;&amp; \\text{3}&nbsp; \\\\&nbsp; \\hline<br>\\text{Input (I)}&nbsp;&amp; \\text{20}&nbsp;&amp; \\text{-4}&nbsp;&amp; \\text{10}&nbsp;&amp; \\text{15}&nbsp; \\\\&nbsp; \\hline<br>\\text{Output (X)}&nbsp;&amp; \\text{20}&nbsp;&amp; \\text{16}&nbsp;&amp; \\text{26}&nbsp;&amp; \\text{41} &nbsp;\\\\&nbsp; \\hline&nbsp;\\text{Output (Y)}&nbsp;&amp; \\text{20}&nbsp;&amp; \\text{-80}&nbsp;&amp; \\text{-800}&nbsp;&amp; \\text{-12000} &nbsp;\\\\&nbsp; \\hline<br>\\end{array} \\]</p><div></div></div><br><br><b>GATE CSE 2025 | Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X(i) = X(i-1)+I(i); \\: \\: Y(i) = Y(i-1)I(i); \\: \\: i&gt;0 \\)</p>",
+            "<p>\\( X(i) = X(i-1)I(i); \\: \\: Y(i) = Y(i-1)+I(i); \\: \\: i&gt;0 \\)</p>",
+            "<p>\\( X(i) = X(i-1)I(i); \\: \\: Y(i) = Y(i-1)I(i); \\: \\: i&gt;0 \\)</p>",
+            "<p>\\( X(i) = X(i-1)+I(i); \\: \\: Y(i) = Y(i-1)I(i-1); \\: \\: i&gt;0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( X(i) = X(i-1)+I(i); \\: \\: Y(i) = Y(i-1)I(i); \\: \\: i&gt;0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460443/gate-cse-2025-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/460443/gate-cse-2025-set-2-ga-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

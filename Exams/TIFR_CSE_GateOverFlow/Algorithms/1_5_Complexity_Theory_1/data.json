@@ -1,0 +1,27 @@
+{
+  "title": "Algorithms - Complexity Theory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Complexity Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"419334\"></a><div itemprop=\"text\"><p>Suppose we are given a graph \\( \\text{G=(V, E)} \\) with non-negative edge weights \\( \\left\\{w_{e}\\right\\}_{e \\in E} \\).</p>\n\n<p>Consider the following problems:</p>\n\n<p>P1: Finding a minimum spanning tree of \\( \\text{G} \\).<br>\nP2: Finding a maximum spanning tree of&nbsp;\\( \\text{G} \\).<br>\nP3: Finding a cycle of smallest weight in&nbsp;\\( \\text{G} \\).<br>\nP4: Finding a cycle of largest weight in&nbsp;\\( \\text{G} \\).</p>\n\n<p>Note: a cycle consists of distinct vertices.</p>\n\n<p>Assuming \\( \\mathrm{P} \\neq \\mathrm{NP} \\), which of the above problems can be solved in polynomial time?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2024 | Part B | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P1, P2 but not P3, P4} \\).</p>",
+            "<p>\\( \\text{P1, P3 but not P2, P4} \\).</p>",
+            "<p>\\( \\text{P1 but not P2,P3, P4} \\).</p>",
+            "<p>\\( \\text{P1,P2,P3 but not P4} \\).</p>",
+            "<p>\\( \\text{P1, P4 but not P2, P3} \\).\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{P1,P2,P3 but not P4} \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/419334/tifr-cse-2024-part-b-question-13\" target=\"_blank\">https://gateoverflow.in/419334/tifr-cse-2024-part-b-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

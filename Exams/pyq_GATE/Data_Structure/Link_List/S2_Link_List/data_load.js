@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "Link_List - Link_List - Slot 2",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Link_List",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Suppose each set is represented as a linked list with elements in arbitray order. Which of the\noperations among union, intersection, membership, cardinality will be the slowest? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>union only</p>",
+            "<b>B.</b> <p>intersection, membership</p>",
+            "<b>C.</b> <p>membership, cardinality</p>",
+            "<b>D.</b> <p>union, intersection</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>union, intersection</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1037/gate2004-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A circularly linked list is used to represent a Queue. A single variable p is used to access the Queue.\nTo which node should p point such that both the operations enQueue and deQueue can be performed\nin constant time? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Link_List\\q36_67f03162.jpg\"> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>rear node</p>",
+            "<b>B.</b> <p>not possible with a single pointer</p>",
+            "<b>C.</b> <p>front node</p>",
+            "<b>D.</b> <p>node next to front</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>rear node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1033/gate2004-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the function f defined below.<pre><code>\nstruct item\n{\n    int data;\n    struct item * next;\n};\nint f(struct item *p)\n{\n    return ((p == NULL) || (p-&gt;next == NULL) ||\n            ((P-&gt;data &lt;= p-&gt;next-&gt;data) &amp;&amp;\n            f(p-&gt;next)));\n}</code></pre>\nFor a given linked list p, the function f returns 1 if and only if <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the list is empty or has exactly one element</p>",
+            "<b>B.</b> <p>the elements in the list are sorted in non-decreasing order of data value</p>",
+            "<b>C.</b> <p>the elements in the list are sorted in non-increasing order of data value</p>",
+            "<b>D.</b> <p>not all elements in the list have the same data value</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the elements in the list are sorted in non-decreasing order of data value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/973/gate2003-90#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In the worst case, the number of comparisons needed to search a single linked list\nof length n for a given element is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>log n</p>",
+            "<b>B.</b> <p>n/2</p>",
+            "<b>C.</b> <p>\\(log_{2}^{n}-1\\)</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/809/gate2002-1-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The concatenation of two lists is to be performed on O(1) time. Which of the following implementations of a list should be used? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Singly linked list</p>",
+            "<b>B.</b> <p>Doubly linked list</p>",
+            "<b>C.</b> <p>Circular doubly linked list</p>",
+            "<b>D.</b> <p>Array implementation of list</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Circular doubly linked list</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2220/gate1997-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following statements is true?<br>\nI. As the number of entries in a hash table increases, the number of collisions increases.<br>\nII. Recursive programs are efficient<br>\nIII. The worst case complexity for Quicksort is \\(O(n^2)\\)<br>\nIV. Binary search using a linear linked list is efficient<br> <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>II and III</p>",
+            "<b>C.</b> <p>I and IV</p>",
+            "<b>D.</b> <p>I and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2634/gate1995-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>For merging two sorted lists of sizes \\(m\\) and \\(n\\) into a sorted list of size \\(m+n\\), we require comparisons of <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(m)\\)</p>",
+            "<b>B.</b> <p>\\(O(n)\\)</p>",
+            "<b>C.</b> <p>\\(O(m+n)\\)</p>",
+            "<b>D.</b> <p>\\(O(\\log m + \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(m+n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2603/gate1995-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Linked lists are not suitable data structures for which one of the following problems? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Insertion sort</p>",
+            "<b>B.</b> <p>Binary search</p>",
+            "<b>C.</b> <p>Radix sort</p>",
+            "<b>D.</b> <p>Polynomial manipulation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Binary search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2460/gate1994-1-17-ugcnet-sep2013-ii-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In a circular linked list oraganisation, insertion of a record involves modification of <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One pointer.</p>",
+            "<b>B.</b> <p>Two pointers.</p>",
+            "<b>C.</b> <p>Multiple pointers.</p>",
+            "<b>D.</b> <p>No pointer.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Two pointers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80298/gate1987-1-xv\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Memory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152698\"></a><div itemprop=\"text\"><p>The highest noise margin is offered by</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | December 2009 | Part 2 | Question: 08</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{BICMOS} \\)</p>",
+            "<p>\\( \\text{TTL} \\)</p>",
+            "<p>\\( \\text{ECL} \\)</p>",
+            "<p>\\( \\text{CMOS} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152698/ugc-net-cse-december-2009-part-2-question-08\" target=\"_blank\">https://gateoverflow.in/152698/ugc-net-cse-december-2009-part-2-question-08</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Classful Addressing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Classful Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57379\"></a><div itemprop=\"text\"><p>In classful addressing, an IP address 123.23.56.4 belongs to _____ format.</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 3 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A</p>",
+            "<p>B</p>",
+            "<p>C</p>",
+            "<p>D</p>"
+          ],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57379/ugc-net-cse-december-2012-part-3-question-15\" target=\"_blank\">https://gateoverflow.in/57379/ugc-net-cse-december-2012-part-3-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59412\"></a><div itemprop=\"text\"><p>In a classful addressing, first four bits in Class \\( A \\) IP address is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2014 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1010 \\)&nbsp;</p>",
+            "<p>\\( 1100 \\)&nbsp;</p>",
+            "<p>\\( 1011 \\)&nbsp;</p>",
+            "<p>\\( 1110 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59412/ugc-net-cse-december-2014-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/59412/ugc-net-cse-december-2014-part-2-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Engineering Mathematics - Probability - Bayes Theorem",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bayes Theorem",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"473109\"></a><div itemprop=\"text\"><p>There are two bags, one with \\( 10 \\) red balls and \\( 90 \\) blue balls, and another with \\( 90 \\) red balls and \\( 10 \\) blue balls. You pick one of the two bags uniformly at random and draw a random ball from it, and it turns out to be red. You throw that ball away, and draw another from the same bag. Let \\( p \\) be the probability that this ball is also red.&nbsp;</p><p>Which of the following is true?</p></div><br><br><b>Probability: TIFR CSE 2025 | Part A | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\leq p \\leq 0.33 \\)</p>",
+            "<p>\\( 0.33 \\leq p&lt;0.50 \\)</p>",
+            "<p>\\( p=0.5 \\)</p>",
+            "<p>\\( 0.50 &lt; p &lt;0.66 \\)</p>",
+            "<p>\\( 0.66 \\leq p \\leq 1 \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473109/tifr-cse-2025-part-a-question-4\" target=\"_blank\">https://gateoverflow.in/473109/tifr-cse-2025-part-a-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

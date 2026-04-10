@@ -1,0 +1,41 @@
+{
+  "title": "Others - Others - Hashing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Hashing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"66824\"></a><div itemprop=\"text\"><p>Linear probing suffers from a problem known as</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2010 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Secondary clustering</p>",
+            "<p>Primary clustering</p>",
+            "<p>Both (A) and (B)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66824/ugc-net-cse-december-2010-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/66824/ugc-net-cse-december-2010-part-2-question-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"64710\"></a><div itemprop=\"text\"><p>Consider a hash table of size \\( m = 10000 \\) and the hash function \\(  h(k) =&nbsp;\\lfloor m (KA &nbsp;\\bmod 1) ' \\rfloor \\)&nbsp;for \\( A= \\frac{(\\sqrt{5}-1}{2} \\)&nbsp;. The location to the key \\( k = 123456 \\) is</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2011 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>46</p>",
+            "<p>47</p>",
+            "<p>41</p>",
+            "<p>43</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64710/ugc-net-cse-june-2011-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/64710/ugc-net-cse-june-2011-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

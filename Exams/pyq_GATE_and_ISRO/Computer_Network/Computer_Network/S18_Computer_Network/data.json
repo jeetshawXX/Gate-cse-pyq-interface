@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 18",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>When a host on network A sends a message to a host on network B, which address does the router look at? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port</p>",
+            "<b>B.</b> <p>IP</p>",
+            "<b>C.</b> <p>Physical</p>",
+            "<b>D.</b> <p>Subnet mask</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49646/isro2007-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>IEEE 802.11 is standard for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ethernet</p>",
+            "<b>B.</b> <p>Bluetooth</p>",
+            "<b>C.</b> <p>Broadband Wireless</p>",
+            "<b>D.</b> <p>Wireless LANs</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Wireless LANs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49645/isro2007-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Range of IP Address from 224.0.0.0 to 239.255.255.255 are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reserved for loopback</p>",
+            "<b>B.</b> <p>Reserved for broadcast</p>",
+            "<b>C.</b> <p>Used for multicast packets</p>",
+            "<b>D.</b> <p>Reserved for future addressing</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Used for multicast packets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49643/isro2007-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Hashed message is signed by a sender using his <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>his public key</p>",
+            "<b>B.</b> <p>his private key</p>",
+            "<b>C.</b> <p>receiver's public key</p>",
+            "<b>D.</b> <p>receiver's private key</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>his private key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49641/isro2007-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The standard for certificates used on internet is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X.25</p>",
+            "<b>B.</b> <p>X.301</p>",
+            "<b>C.</b> <p>X.409</p>",
+            "<b>D.</b> <p>X.509</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>X.509</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49640/isro2007-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>SSL is not responsible for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual authentication of client &amp; server</p>",
+            "<b>B.</b> <p>Secret communication</p>",
+            "<b>C.</b> <p>Data Integrity protection</p>",
+            "<b>D.</b> <p>Error detection and correction</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Error detection and correction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49638/isro2007-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Silly Window Syndrome is related to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Error during transmission</p>",
+            "<b>B.</b> <p>File transfer protocol</p>",
+            "<b>C.</b> <p>Degrade in TCP performance</p>",
+            "<b>D.</b> <p>Interface problem</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Degrade in TCP performance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49634/isro2007-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of these is not a feature of WAP 2.0 <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Push and Pull Model</p>",
+            "<b>B.</b> <p>Interface to a storage device</p>",
+            "<b>C.</b> <p>Multimedia messaging</p>",
+            "<b>D.</b> <p>Hashing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Hashing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49631/isro2007-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If there are five routers and six networks in intranet using link state routing, how many routing tables are there? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49499/isro2007-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Bit stuffing refers to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>inserting a 0 in user stream to differentiate it with a flag</p>",
+            "<b>B.</b> <p>inserting a 0 in flag stream to avoid ambiguity</p>",
+            "<b>C.</b> <p>appending a nipple to the flag sequence</p>",
+            "<b>D.</b> <p>appending a nipple to the use data stream</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>inserting a 0 in user stream to differentiate it with a flag</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49497/isro2007-24-isro2016-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Phase transition for each bit are used in <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Amplitude modulation</p>",
+            "<b>B.</b> <p>Carrier modulation</p>",
+            "<b>C.</b> <p>Manchester encoding</p>",
+            "<b>D.</b> <p>NRZ encoding</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Manchester encoding</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49495/isro2007-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>An Ethernet hub <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>functions as a repeater</p>",
+            "<b>B.</b> <p>connects to a digital PBX</p>",
+            "<b>C.</b> <p>connects to a token-ring network</p>",
+            "<b>D.</b> <p>functions as a gateway</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>functions as a repeater</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49494/isro2007-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If the bandwidth of a signal is 5 kHz and the lowest frequency is 52 kHz, what is the highest frequency <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 kHz</p>",
+            "<b>B.</b> <p>10 kHz</p>",
+            "<b>C.</b> <p>47 kHz</p>",
+            "<b>D.</b> <p>57 kHz</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>57 kHz</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49493/isro2007-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through a synchronous serial line at 2400 baud rate, and with two stop bits is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>109</p>",
+            "<b>B.</b> <p>216</p>",
+            "<b>C.</b> <p>218</p>",
+            "<b>D.</b> <p>219</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>218</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49491/isro2007-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>By using an eight bit optical encoder the degree of resolution that can be obtained is (approximately) <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1.8^\\circ\\)</p>",
+            "<b>B.</b> <p>\\(3.4^\\circ\\)</p>",
+            "<b>C.</b> <p>\\(2.8^\\circ\\)</p>",
+            "<b>D.</b> <p>\\(1.4^\\circ\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(1.4^\\circ\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49484/isro2007-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

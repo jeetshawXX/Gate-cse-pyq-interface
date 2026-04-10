@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - Divergence",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Divergence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"96898\"></a><div itemprop=\"text\"><p>For a positive integer \\( N \\geq 2 \\), let</p>\n\n<p>\\[ A_N := \\Sigma_{n=2}^N \\frac{1}{n}; \\]</p>\n\n<p>\\[ B_N := \\int\\limits_{x=1}^N \\frac{1}{x} dx \\]</p>\n\n<p>Which of the following statements is true?</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2016 | Part A | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>As \\( N \\rightarrow \\infty, \\: A_N \\) increases to infinity but \\( B_N \\) coverages to a finite number</p>",
+            "<p>\\( A_N &lt; B_N \\) and the difference decreases as \\( N \\rightarrow \\infty  \\)</p>",
+            "<p>\\( A_N &lt; B_N &lt; A_N +1 \\)</p>",
+            "<p>\\( B_N &lt; A_N &lt; B_N +1 \\)</p>",
+            "<p>As \\( N \\rightarrow \\infty, \\: B_N \\) increases to infinity but \\( A_N \\) coverages to a finite number</p>"
+          ],
+          "correct_answer": "<p>\\( A_N &lt; B_N &lt; A_N +1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/96898/tifr-cse-2016-part-a-question-5\" target=\"_blank\">https://gateoverflow.in/96898/tifr-cse-2016-part-a-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

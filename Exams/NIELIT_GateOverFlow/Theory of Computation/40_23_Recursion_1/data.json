@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Recursion",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Recursion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336888\"></a><div itemprop=\"text\"><p>Choose the correct statements.</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A total recursive function is also a partial recursive function</p>",
+            "<p>A partial recursive function is also a total recursive function</p>",
+            "<p>A partial recursive function is also a primitive recursive function</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>A total recursive function is also a partial recursive function</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336888/nielit-2017-oct-scientific-assistant-a-cs-section-b-32\" target=\"_blank\">https://gateoverflow.in/336888/nielit-2017-oct-scientific-assistant-a-cs-section-b-32</a></p>"
+        }
+      ]
+    }
+  ]
+}

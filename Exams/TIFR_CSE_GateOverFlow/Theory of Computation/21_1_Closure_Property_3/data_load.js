@@ -1,0 +1,59 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Closure Property",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Closure Property",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25772\"></a><div itemprop=\"text\"><p>Which of the following statements is FALSE?</p></div><br><br><b>Theory of Computation: TIFR CSE 2013 | Part B | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The intersection of a context free language with a regular language is context free.</p>",
+            "<p>The intersection of two regular languages is regular.</p>",
+            "<p>The intersection of two context free languages is context free</p>",
+            "<p>The intersection of a context free language and the complement of a regular language is context free.</p>",
+            "<p>The intersection of a regular language and the complement of a regular language is regular.</p>"
+          ],
+          "correct_answer": "<p>The intersection of two context free languages is context free</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25772/tifr-cse-2013-part-b-question-11\" target=\"_blank\">https://gateoverflow.in/25772/tifr-cse-2013-part-b-question-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"27321\"></a><div itemprop=\"text\"><p>Which the following is FALSE?</p></div><br><br><b>Theory of Computation: TIFR CSE 2014 | Part B | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Complement of a recursive language is recursive.</p>",
+            "<p>A language recognized by a non-deterministic Turing machine can also be recognized by a deterministic&nbsp;Turing machine.</p>",
+            "<p>Complement of a context free language can be recognized by a Turing machine.</p>",
+            "<p>If a language and its complement are both recursively enumerable then it is recursive.</p>",
+            "<p>Complement of a non-recursive language can never be recognized by any Turing machine.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27321/tifr-cse-2014-part-b-question-14\" target=\"_blank\">https://gateoverflow.in/27321/tifr-cse-2014-part-b-question-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"97627\"></a><div itemprop=\"text\"><p>Which language class has the following properties?</p><p>\\( \\quad \\) It is closed under union and intersection but not complement.</p></div><br><br><b>Theory of Computation: TIFR CSE 2016 | Part B | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regular language</p>",
+            "<p>Context-free language</p>",
+            "<p>Recursive language</p>",
+            "<p>Recursively enumerable language</p>",
+            "<p>Languages that are not recursively enumerable</p>"
+          ],
+          "correct_answer": "<p>Recursively enumerable language</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/97627/tifr-cse-2016-part-b-question-2\" target=\"_blank\">https://gateoverflow.in/97627/tifr-cse-2016-part-b-question-2</a></p>"
+        }
+      ]
+    }
+  ]
+});

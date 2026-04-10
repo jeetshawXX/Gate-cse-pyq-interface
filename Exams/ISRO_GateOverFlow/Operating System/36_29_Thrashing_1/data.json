@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Thrashing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Thrashing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"44400\"></a><div itemprop=\"text\">\n<p>Which of the following are the likely causes of thrashing?</p>\n\n\n</div><br><br><b>Operating System: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Page size was very small.</p>",
+            "<p>There are too many users connected to the system.</p>",
+            "<p>Least recently used policy is used for page replacement.</p>",
+            "<p>First in First out policy is used for page replacement.</p>"
+          ],
+          "correct_answer": "<p>Page size was very small.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44400/isro-2013-54\" target=\"_blank\">https://gateoverflow.in/44400/isro-2013-54</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Databases - Joins",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Joins",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1011\"></a><div itemprop=\"text\"><p>Consider the following relation schema pertaining to a students database:</p>\n\n<ul>\n\t<li>Students (<ins>rollno,</ins> name, address)</li>\n\t<li>Enroll (<ins>rollno, courseno</ins>, coursename)</li>\n</ul>\n\n<p>where the primary keys are shown underlined. The number of tuples in the student and Enroll tables are \\( 120 \\) and \\( 8 \\) respectively. What are the maximum and minimum number of tuples that can be present in (Student * Enroll), where ‘*’ denotes natural join?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8, 8 \\)</p>",
+            "<p>\\( 120, 8 \\)</p>",
+            "<p>\\( 960, 8 \\)</p>",
+            "<p>\\( 960, 120 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8, 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1011/gate-cse-2004-question-14\" target=\"_blank\">https://gateoverflow.in/1011/gate-cse-2004-question-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2180\"></a><div itemprop=\"text\"><p>Consider the following relations \\( A, B \\) and \\( C: \\)</p>\n\n<p>\\[ \\overset{\\text{A}}{\\begin{array}{|c|c|c|} \\hline \\text {ID} &amp; \\text {Name} &amp;&nbsp;\\text {Age} &nbsp;\\\\\\hline\\text{12}&amp; \\text{Arun} &amp; \\text{60} \\\\\\hline\\text{15}&amp; \\text{Shreya} &amp; \\text{24} \\\\\\hline\\text{99}&amp; \\text{Rohit} &amp; \\text{11} &nbsp;\\\\\\hline \\end{array}} \\qquad<br>\n\\overset{\\text{B}}{\\begin{array}{|c|c|c|} \\hline \\text {ID} &amp; \\text {Name} &amp;&nbsp;\\text {Age} \\\\\\hline&nbsp; \\text{15}&amp; \\text{Shreya} &amp; \\text{24} \\\\\\hline\\text{25}&amp; \\text{Hari} &amp; \\text{40} \\\\\\hline\\text{98}&amp; \\text{Rohit} &amp; \\text{20} \\\\\\hline\\text{99}&amp; \\text{Rohit} &amp; \\text{11} &nbsp;\\\\\\hline \\end{array}}\\qquad<br>\n\\overset{\\text{C}}{\\begin{array}{|c|c|c|} \\hline \\text {ID} &amp; \\text {Phone} &amp;&nbsp;\\text {Area} \\\\\\hline&nbsp; \\text{10}&amp; \\text{2200} &amp; \\text{02} \\\\\\hline\\text{99}&amp; \\text{2100} &amp; \\text{01} \\\\\\hline&nbsp;\\end{array}} \\]</p>\n\n<p>How many tuples does the result of the following relational algebra expression contain? Assume that the schema of \\( A\\cup B \\) is the same as that of \\( A \\).</p>\n\n<p>\\[ (A\\cup B)\\bowtie _{A.Id &gt; 40 \\vee C.Id &lt; 15} C \\]</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2180/gate-cse-2012-question-50\" target=\"_blank\">https://gateoverflow.in/2180/gate-cse-2012-question-50</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1989\"></a><div itemprop=\"text\"><p>Consider a join (relation algebra) between relations \\( r(R) \\) and \\( s(S) \\) using the nested loop method. There are \\( 3 \\) buffers each of size equal to disk block size, out of which one buffer is reserved for intermediate results. Assuming \\( \\text{size}(r(R))&lt;\\text{size}(s(S)), \\) the join will have fewer number of disk block accesses if</p>\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>relation \\( r(R) \\) is in the outer loop.</p>",
+            "<p>relation \\( s(S) \\) is in the outer loop.</p>",
+            "<p>join selection factor between \\( r(R) \\) and \\( s(S) \\) is more than \\( 0.5 \\).</p>",
+            "<p>join selection factor between \\( r(R) \\) and \\( s(S) \\) is less than \\( 0.5 \\).</p>"
+          ],
+          "correct_answer": "<p>relation \\( r(R) \\) is in the outer loop.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1989/gate-cse-2014-set-2-question-30\" target=\"_blank\">https://gateoverflow.in/1989/gate-cse-2014-set-2-question-30</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3847\"></a><div itemprop=\"text\"><p>A database table \\( T_1 \\) has \\( 2000 \\) records and occupies \\( 80 \\) disk blocks. Another table \\( T_2 \\) has \\( 400 \\) records and occupies \\( 20 \\) disk blocks. These two tables have to be joined as per a specified join condition that needs to be evaluated for every pair of records from these two tables. The memory buffer space available can hold exactly one block of records for \\( T_1 \\) and one block of records for \\( T_2 \\) simultaneously at any point in time. No index is available on either table.</p>\n\n<p>If Nested-loop join algorithm is employed to perform the join, with the most appropriate choice of table to be used in outer loop, the number of block accesses required for reading the data are</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 82a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 800000 \\)</p>",
+            "<p>\\( 40080 \\)</p>",
+            "<p>\\( 32020 \\)</p>",
+            "<p>\\( 100 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 32020 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3847/gate-it-2005-question-82a\" target=\"_blank\">https://gateoverflow.in/3847/gate-it-2005-question-82a</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3848\"></a><div itemprop=\"text\"><p>A database table \\( T_1 \\) has \\( 2000 \\) records and occupies \\( 80 \\) disk blocks. Another table \\( T_2 \\) has \\( 400 \\) records and occupies \\( 20 \\) disk blocks. These two tables have to be joined as per a specified join condition that needs to be evaluated for every pair of records from these two tables. The memory buffer space available can hold exactly one block of records for \\( T_1 \\) and one block of records for \\( T_2 \\) simultaneously at any point in time. No index is available on either table.</p>\n\n<p>If, instead of Nested-loop join, Block nested-loop join is used, again with the most appropriate choice of table in the outer loop, the reduction in number of block accesses required for reading the data will be</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 82b</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 30400 \\)</p>",
+            "<p>\\( 38400 \\)</p>",
+            "<p>\\( 798400 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30400 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3848/gate-it-2005-question-82b\" target=\"_blank\">https://gateoverflow.in/3848/gate-it-2005-question-82b</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3553\"></a><div itemprop=\"text\"><p>Consider the relations \\( r_{1}\\text{(P, Q, R)} \\) and \\( r_{2}\\text{(R, S, T)} \\) with primary keys \\( \\text{P} \\) and \\( \\text{R} \\) respectively. The relation \\( r_{1} \\) contains \\( 2000 \\) tuples and \\( r_{2} \\) contains \\( 2500 \\) tuples. The maximum size of the join \\( r_1⋈&nbsp;r_2 \\) is :</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2000 \\)</p>",
+            "<p>\\( 2500 \\)</p>",
+            "<p>\\( 4500 \\)</p>",
+            "<p>\\( 5000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3553/gate-it-2006-question-14\" target=\"_blank\">https://gateoverflow.in/3553/gate-it-2006-question-14</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3513\"></a><div itemprop=\"text\"><p>Consider the following relation schemas :</p>\n\n<ul>\n\t<li>b-Schema = (b-name, b-city, assets)</li>\n\t<li>a-Schema = (a-num, b-name, bal)</li>\n\t<li>d-Schema = (c-name, a-number)</li>\n</ul>\n\n<p>Let branch, account and depositor be respectively instances of the above schemas. Assume that account and depositor relations are much bigger than the branch relation.</p>\n\n<p>Consider the following query:</p>\n\n<p>П<sub>c-name</sub> (σ<sub>b-city = \"Agra\" ⋀ bal &lt; 0</sub> (branch ⋈&nbsp;(account ⋈ depositor)</p>\n\n<p>Which one of the following queries is the most efficient version of the above query ?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>П<sub>c-name</sub> (σ<sub>bal &lt; 0 </sub>(σ<sub>b-city = \"Agra\" </sub>branch ⋈ account) ⋈ depositor)</p>",
+            "<p>П<sub>c-name</sub> (σ<sub>b-city = \"Agra\" </sub>branch ⋈ (σ<sub>bal &lt; 0</sub> account ⋈ depositor))</p>",
+            "<p>П<sub>c-name</sub> ((σ<sub>b-city = \"Agra\" </sub>branch ⋈ σ<sub>b-city = \"Agra\" </sub>⋀&nbsp;<sub> bal &lt; 0</sub> account) ⋈ depositor)</p>",
+            "<p>П<sub>c-name</sub> (σ<sub>b-city = \"Agra\" </sub>branch ⋈ (σ<sub>b-city = \"Agra\" </sub>⋀&nbsp;<sub> bal &lt; 0</sub> account ⋈ depositor))</p>"
+          ],
+          "correct_answer": "<p>П<sub>c-name</sub> (σ<sub>bal &lt; 0 </sub>(σ<sub>b-city = \"Agra\" </sub>branch ⋈ account) ⋈ depositor)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3513/gate-it-2007-question-68\" target=\"_blank\">https://gateoverflow.in/3513/gate-it-2007-question-68</a></p>"
+        }
+      ]
+    }
+  ]
+});

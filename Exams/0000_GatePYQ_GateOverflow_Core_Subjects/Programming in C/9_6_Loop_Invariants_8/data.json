@@ -1,0 +1,111 @@
+{
+  "title": "Programming in C - Loop Invariants",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Loop Invariants",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"82425\"></a><div itemprop=\"text\"><p>List the invariant assertions at points \\( A, B, C, D \\) and \\( E \\) in program given below:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">Program division (input, output)\nConst \n    dividend = 81; \n    divisor = 9;\nVar  remainder, quotient:interger\nbegin \n    (*(dividend &gt;= 0) AND (divisor &gt; 0)*)  \n    remainder := dividend;  \n    quotient := 0;  \n    (*A*)\nWhile (remainder &gt;= 0) do\nbegin (*B*)\n    quotient := quotient + 1;\n    remainder := remainder - divisor;\n    (*C*)\nend;  \n    (*D*)\n    quotient := quotient - 1;\n    remainder := remainder + divisor;  \n    (*E*)\nend</pre></div><br><br><b>GATE CSE 1987 | Question: 7a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82425/gate-cse-1987-question-7a\" target=\"_blank\">https://gateoverflow.in/82425/gate-cse-1987-question-7a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"94364\"></a><div itemprop=\"text\"><p>Below figure is the flow-chart corresponding to a program to calculate the \\( \\gcd \\) of two integers, \\( M \\) and \\( N \\) respectively, \\( (M, N &gt;0). \\) Use assertions at the cut point \\( C_1 \\), \\( C_2 \\) and \\( C_3 \\) to prove that the flow-chart is correct.</p>\n\n<p><img alt=\"\" height=\"486\" src=\"images/gateOverflow_pyq_images/programming_in_c___loop_invariants/68e123850af679209f886b261f897a37.png\" width=\"533\"></p></div><br><br><b>GATE CSE 1988 | Question: 6ii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94364/gate-cse-1988-question-6ii\" target=\"_blank\">https://gateoverflow.in/94364/gate-cse-1988-question-6ii</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"94379\"></a><div itemprop=\"text\"><p>Consider the two program segments below:</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\n\t<pre class=\"prettyprint lang-c_cpp\">for\n    i:=1 to f(x) by 1 do\n    S\nend</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint lang-c_cpp\">i:=1;\nWhile   i&lt;=f(x) do\n        S\n        i:=i+1\nend\n</pre>\n\t</li>\n</ol>\n\n<p>Under what conditions are these two programs equivalent? Treat \\( S \\) as any sequence of statements and \\( f \\) as a function.</p></div><br><br><b>GATE CSE 1988 | Question: 8ii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94379/gate-cse-1988-question-8ii\" target=\"_blank\">https://gateoverflow.in/94379/gate-cse-1988-question-8ii</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"504\"></a><div itemprop=\"text\"><p>Consider the following PASCAL program segment:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">if i mod 2 = 0 then\n    while i &gt;= 0 do \n    begin\n        i := i div 2;\n        if i mod 2 &lt; &gt; 0  then i := i - 1;\n        else i := i – 2;\n    end;\n</pre>\n\n<p>An appropriate loop-invariant for the while-loop is ________</p></div><br><br><b>GATE CSE 1991 | Question: 1,vi</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/504/gate-cse-1991-question-1-vi\" target=\"_blank\">https://gateoverflow.in/504/gate-cse-1991-question-1-vi</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1029\"></a><div itemprop=\"text\"><p>Consider the following program fragment for reversing the digits in a given integer to obtain a new integer.</p>\n\n<p>Let \\( n = d_1\\, d_2\\, \\ldots\\, d_m \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int n, rev;\nrev = 0;\nwhile(n &gt; 0) {\n    rev = rev * 10 + n%10;\n    n = n/10;\n}</pre>\n\n<p>The loop invariant condition at the end of the \\( i^{th} \\) iteration is:</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n=d_1\\, d_2 \\,\\ldots\\, d_{m-i} \\qquad \\mathbf{and} \\qquad \\text{rev} = d_m\\,d_{m-1} \\,\\ldots\\, d_{m-i+1} \\)</p>",
+            "<p>\\( n= d_{m-i+1} \\,\\ldots\\, d_{m-1}\\, d_m&nbsp;\\qquad \\mathbf{or} \\qquad&nbsp;\\text{rev} = d_{m-i} \\,\\ldots\\, d_2\\,d_1 \\)</p>",
+            "<p>\\( n \\neq \\text{rev} \\)</p>",
+            "<p>\\( n=d_1\\, d_2 \\,\\ldots\\, d_m&nbsp;\\qquad \\mathbf{or} \\qquad&nbsp;\\text{rev} =d_m \\,\\ldots\\, d_2\\, d_1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n=d_1\\, d_2 \\,\\ldots\\, d_{m-i} \\qquad \\mathbf{and} \\qquad \\text{rev} = d_m\\,d_{m-1} \\,\\ldots\\, d_{m-i+1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1029/gate-cse-2004-question-32\" target=\"_blank\">https://gateoverflow.in/1029/gate-cse-2004-question-32</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"8276\"></a><div itemprop=\"text\"><p>Consider the following pseudo code, where \\( x \\) and \\( y \\) are positive integers.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">begin \n    q := 0 \n    r := x \n   while r ≥ y do \n      begin \n      r := r - y \n      q := q + 1 \n    end \nend</pre>\n\n<p>The post condition that needs to be satisfied after the program terminates is</p>\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{ r = qx + y&nbsp;\\wedge&nbsp;r &lt; y\\} \\)</p>",
+            "<p>\\( \\{ x = qy &nbsp;+ r&nbsp;\\wedge r &lt; y\\} \\)</p>",
+            "<p>\\( \\{ y = qx + r&nbsp;\\wedge 0 &lt; r &lt; y\\} \\)</p>",
+            "<p>\\( \\{ q + 1 &lt; r - y&nbsp;\\wedge y &gt; 0\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{ x = qy &nbsp;+ r&nbsp;\\wedge r &lt; y\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8276/gate-cse-2015-set-1-question-33\" target=\"_blank\">https://gateoverflow.in/8276/gate-cse-2015-set-1-question-33</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"39578\"></a><div itemprop=\"text\"><p>The following function computes \\( X^{Y} \\) for positive integers \\( X \\) and \\( Y \\).</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int exp (int X, int Y) { \n&nbsp;    int res =1, a = X, b = Y;\n&nbsp;  \n&nbsp;    while (b != 0) { \n&nbsp;        if (b % 2 == 0) {a = a * a; b = b/2; } \n&nbsp;        else         {res = res * a; b = b - 1; } \n     } \n     return res; \n}</pre>\n\n<p>Which one of the following conditions is TRUE before every iteration of the loop?</p>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X^{Y} = a^{b} \\)</p>",
+            "<p>\\( (res * a)^{Y} = (res * X)^{b} \\)</p>",
+            "<p>\\( X^{Y} = res * a^{b} \\)</p>",
+            "<p>\\( X^{Y} = (res * a)^{b} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( X^{Y} = res * a^{b} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39578/gate-cse-2016-set-2-question-35\" target=\"_blank\">https://gateoverflow.in/39578/gate-cse-2016-set-2-question-35</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"118381\"></a><div itemprop=\"text\"><p>Consider the C program fragment below which is meant to divide \\( x \\) by \\( y \\) using repeated subtractions. The variables \\( x \\), \\( y \\), \\( q \\) and \\( r \\) are all unsigned int.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">while (r &gt;= y) {\n    r=r-y;\n    q=q+1;\n}</pre>\n\n<p>Which of the following conditions on the variables \\( x, y, q \\) and \\( r \\) before the execution of the fragment will ensure that the loop terminated in a state satisfying the condition \\( x==(y*q + r) \\)?</p>\n\n\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (q==r) \\ \\&amp;\\&amp; \\ (r==0) \\)</p>",
+            "<p>\\( (x&gt;0) \\ \\&amp;\\&amp;&nbsp; \\ (r==x) \\ \\&amp;\\&amp; \\ (y&gt;0) \\)</p>",
+            "<p>\\( (q==0) \\ \\&amp;\\&amp; \\ (r==x) \\ \\&amp;\\&amp; \\ (y &gt;0) \\)</p>",
+            "<p>\\( (q==0) \\ \\&amp;\\&amp; \\ (y&gt;0) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (q==0) \\ \\&amp;\\&amp; \\ (r==x) \\ \\&amp;\\&amp; \\ (y &gt;0) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118381/gate-cse-2017-set-2-question-37\" target=\"_blank\">https://gateoverflow.in/118381/gate-cse-2017-set-2-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+}

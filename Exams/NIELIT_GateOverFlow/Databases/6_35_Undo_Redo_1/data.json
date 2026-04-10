@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Undo Redo",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Undo Redo",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351602\"></a><div itemprop=\"text\"><p>Consider a Simple Checkpointing Protocol and the following set of operations in the log.</p>\n\n<p>\\( (start, T_4);(write, T_4,y,2,3);(start,T_1); \\)</p>\n\n<p>\\( (commit,T_4);(write,T_1,z,5,7); \\)</p>\n\n<p>\\( (Checkpoint); \\)</p>\n\n<p>\\( (start,T_2);(write,T_2,x,1,9); \\)</p>\n\n<p>\\( (commit,T_2);(start,T_3);(write,T_3,z,7,2); \\)</p>\n\n<p>if a crash happens now and the system tries to recover using both undo and redo operations, what are the contents of the undo list and the redo list?</p>\n\n</div><br><br><b>Databases: NIELIT Scientist B 2020 November: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( Undo : T_3,T_1;Redo\\;T_2 \\)</p>",
+            "<p>\\( Undo : T_3,T_1;Redo\\;T_2,T_4 \\)</p>",
+            "<p>\\( Undo : none; \\;Redo\\;T_2, T_4, T_3, T_1 \\)</p>",
+            "<p>\\( Undo : T_3,T_1,T_4; \\;Redo\\;T_2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( Undo : T_3,T_1;Redo\\;T_2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351602/nielit-scientist-b-2020-november-80\" target=\"_blank\">https://gateoverflow.in/351602/nielit-scientist-b-2020-november-80</a></p>"
+        }
+      ]
+    }
+  ]
+}

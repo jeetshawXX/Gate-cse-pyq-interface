@@ -1,0 +1,27 @@
+{
+  "title": "Digital Logic - Canonical Normal Form",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Canonical Normal Form",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"30030\"></a><div itemprop=\"text\"><p>A Boolean expression is an expression made out of propositional letters (such as \\( p, q, r \\)) and operators \\( \\wedge \\), \\( \\vee \\) and \\( \\neg \\); e.g. \\( p\\wedge \\neg (q \\vee \\neg r) \\). An expression is said to be in sum of product form (also called disjunctive normal form) if all \\( \\neg \\) occur just before letters and no \\( \\vee \\) occurs in scope of \\( \\wedge \\); e.g. \\( (p\\wedge \\neg q) \\vee (\\neg p \\wedge q) \\). The expression is said to be in product of sum form (also called conjunctive normal form) if all negations occur just before letters and no \\( \\wedge \\) occurs in the scope of \\( \\vee \\); e.g. \\( (p\\vee \\neg q) \\wedge (\\neg p \\vee q) \\). Which of the following is not correct?</p>\n\n</div><br><br><b>Digital Logic: TIFR CSE 2015 | Part B | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Every Boolean expression is equivalent to an expression in&nbsp;sum of product form.</p>",
+            "<p>Every Boolean expression is equivalent to an expression in product of sum form.</p>",
+            "<p>Every Boolean expression is equivalent to an expression without \\( \\vee \\) operator.</p>",
+            "<p>Every Boolean expression is equivalent to an expression without \\( \\wedge \\) operator.</p>",
+            "<p>Every Boolean expression is equivalent to an expression without \\( \\neg \\) operator.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/30030/tifr-cse-2015-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/30030/tifr-cse-2015-part-b-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

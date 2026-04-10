@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - DS - Recursion",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Recursion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335214\"></a><div itemprop=\"text\"><p>A recursive function \\( h \\), is defined as follows:</p>\n\n<p>\\( \\begin{array} {} h(m) &amp; =k, \\text{if&nbsp; } m=0 \\\\&nbsp; &amp;=1, \\text{if } m=1 \\\\&nbsp; &amp;=&nbsp; 2 h(m-1)+4h(m-2), \\text{if } m \\geq 2 \\end{array} \\)</p>\n\n<p>If the value of \\( h(4) \\) is \\( 88 \\) then the value of \\( k \\) is:</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | January 2017 | Part 3 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)&nbsp;&nbsp;</p>",
+            "<p>\\( 1 \\)&nbsp;&nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp;&nbsp;</p>",
+            "<p>\\( -1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)&nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335214/ugc-net-cse-january-2017-part-3-question-24\" target=\"_blank\">https://gateoverflow.in/335214/ugc-net-cse-january-2017-part-3-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

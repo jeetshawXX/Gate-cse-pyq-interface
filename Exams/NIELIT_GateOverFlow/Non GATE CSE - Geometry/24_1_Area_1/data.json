@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Geometry - Area",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Area",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411984\"></a><div itemprop=\"text\"><p>A chord \\( \\mathrm{AB} \\) of a circle of radius \\( 5.25 \\mathrm{~cm} \\) makes an angle \\( 60^{\\circ} \\) at the centre of the circle. Find the area of major segment.</p>\n\n</div><br><br><b>Geometry: NIELIT 2023 Feb Scientist C | Section D | Question: 111</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 168 \\mathrm{~cm}^{2} \\)</p>",
+            "<p>\\( 42 \\mathrm{~cm}^{2} \\)</p>",
+            "<p>\\( 84 \\mathrm{~cm}^{2} \\)</p>",
+            "<p>\\( 78 \\mathrm{~cm}^{2} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 84 \\mathrm{~cm}^{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411984/nielit-2023-feb-scientist-c-section-d-question-111\" target=\"_blank\">https://gateoverflow.in/411984/nielit-2023-feb-scientist-c-section-d-question-111</a></p>"
+        }
+      ]
+    }
+  ]
+}

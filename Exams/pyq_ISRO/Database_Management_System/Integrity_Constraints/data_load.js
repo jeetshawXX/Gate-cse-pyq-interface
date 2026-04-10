@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Integrity_Constraints",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Integrity_Constraints",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let R(a,b,c) and S(d,e,f) be two relations in which d is the foreign key of S that refers to the primary key of R. Consider the following four operations R and S<br><br>\nI.   Insert into R<br>\nII.  Insert into S<br>\nIII. Delete from R<br>\nIV.  Delete from S<br><br>\nWhich of the following can cause violation of the referential integrity constraint above? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Both II and III</p>",
+            "<b>C.</b> <p>All of these</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2266/gate1997-6-10-isro2016-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A locked database file can be <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Accessed by only one user</p>",
+            "<b>B.</b> <p>Modified by users with the correct password</p>",
+            "<b>C.</b> <p>Used to hide sensitive information</p>",
+            "<b>D.</b> <p>Updated by more than one user</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Accessed by only one user</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48081/isro2009-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

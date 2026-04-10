@@ -1,0 +1,129 @@
+{
+  "title": "Operating System - File System",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "File System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2775\"></a><div itemprop=\"text\"><p>A file system with a one-level directory structure is implemented on a disk with disk block size of \\( 4K \\) bytes. The disk is used as follows:<br>\n\\[ \\begin{array}{|l|}\\hline \\text{Disk-block 0} &amp; &amp; \\text{File Allocation Table, consisting of one 8-bit } \\\\ \\text{} &amp;&amp; \\text{entry per data block, representing the data } \\\\ \\text{}&nbsp; &amp;&amp; \\text{block address of the next data block in the file} \\\\ \\hline \\text{Disk-block 1} &amp; &amp; \\text{Directory, with one 32 bit entry per file:} \\\\\\hline \\text{Disk-block 2} &amp; &amp; \\text{Data-block 1;} \\\\ \\hline \\text{Disk-block 3} &amp; &amp; \\text{Data-block 2; etc.} \\\\ \\hline\\end{array} \\]</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>What is the maximum possible number of files?</li>\n\t<li>What is the maximum possible file size in blocks</li>\n</ol></div><br><br><b>GATE CSE 1996 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2775/gate-cse-1996-question-23\" target=\"_blank\">https://gateoverflow.in/2775/gate-cse-1996-question-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"852\"></a><div itemprop=\"text\"><p>In the index allocation scheme of blocks to a file, the maximum possible size of the file depends on</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the size of the blocks, and the size of the address of the blocks.</p>",
+            "<p>the number of blocks used for the index, and the size of the blocks.</p>",
+            "<p>the size of the blocks, the number of blocks used for the index, and the size of the address of the blocks.</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>the size of the blocks, the number of blocks used for the index, and the size of the address of the blocks.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/852/gate-cse-2002-question-2-22\" target=\"_blank\">https://gateoverflow.in/852/gate-cse-2002-question-2-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"418\"></a><div itemprop=\"text\"><p>The data blocks of a very large file in the Unix file system are allocated using</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>continuous allocation</p>",
+            "<p>linked allocation</p>",
+            "<p>indexed allocation</p>",
+            "<p>an extension of indexed allocation</p>"
+          ],
+          "correct_answer": "<p>an extension of indexed allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/418/gate-cse-2008-question-20\" target=\"_blank\">https://gateoverflow.in/418/gate-cse-2008-question-20</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1977\"></a><div itemprop=\"text\">A FAT (file allocation table) based file system is being used and the total overhead of each entry in the FAT is \\( 4 \\) bytes in size. Given a \\( 100 \\times 10^6 \\) bytes disk on which the file system is stored and data block size is \\( 10^3 \\) bytes, the maximum size of a file that can be stored on this disk in units of \\( 10^6 \\) bytes is _________.</div><br><br><b>GATE CSE 2014 Set 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "99.55:99.65",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1977/gate-cse-2014-set-2-question-20\" target=\"_blank\">https://gateoverflow.in/1977/gate-cse-2014-set-2-question-20</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"118437\"></a><div itemprop=\"text\"><p>In a file allocation system, which of the following allocation scheme(s) can be used if no external fragmentation is allowed?</p>\n\n<ol style=\"list-style-type:decimal\">\n\t<li>Contiguous</li>\n\t<li>Linked</li>\n\t<li>Indexed</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 08</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) and \\( 3 \\) only</p>",
+            "<p>\\( 2 \\) only</p>",
+            "<p>\\( 3 \\) only</p>",
+            "<p>\\( 2 \\) and \\( 3 \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) and \\( 3 \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118437/gate-cse-2017-set-2-question-08\" target=\"_blank\">https://gateoverflow.in/118437/gate-cse-2017-set-2-question-08</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"302806\"></a><div itemprop=\"text\">The index node (inode) of a Unix -like file system has \\( 12 \\) direct, one single-indirect and one double-indirect pointers. The disk block size is \\( 4 \\) kB, and the disk block address is \\( 32 \\)-bits long. The maximum possible file size is (rounded off to \\( 1 \\) decimal place) ____ GB</div><br><br><b>GATE CSE 2019 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4.0:4.1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302806/gate-cse-2019-question-42\" target=\"_blank\">https://gateoverflow.in/302806/gate-cse-2019-question-42</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"357437\"></a><div itemprop=\"text\"><p>Consider a linear list based directory implementation in a file system. Each directory is a list of nodes, where each node contains the file name along with the file metadata, such as the list of pointers to the&nbsp;data blocks. Consider a given directory \\( \\textsf{foo} \\).</p>\n\n<p>Which of the following operations will necessarily require a full scan of \\( \\textsf{foo} \\) for successful completion?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 15</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Creation of a new file in \\( \\textsf{foo} \\)</p>",
+            "<p>Deletion of an existing file from \\( \\textsf{foo} \\)</p>",
+            "<p>Renaming of an existing file in \\( \\textsf{foo} \\)</p>",
+            "<p>Opening of an existing file in \\( \\textsf{foo} \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>Creation of a new file in \\( \\textsf{foo} \\)</p>",
+            "<p>Renaming of an existing file in \\( \\textsf{foo} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357437/gate-cse-2021-set-1-question-15\" target=\"_blank\">https://gateoverflow.in/357437/gate-cse-2021-set-1-question-15</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"371883\"></a><div itemprop=\"text\">Consider two files systems \\( \\text{A} \\) and \\( \\text{B} \\), that use contiguous allocation and linked allocation, respectively. A file of size \\( 100 \\) blocks is already stored in \\( \\text{A} \\) and also in \\( \\text{B} \\). Now, consider inserting a new block in the middle of the file (between \\( 50^{th} \\) and \\( 51^{st} \\) block), whose data is already available in the memory. Assume that there are enough free blocks at the end of the file and that the file control blocks are already in memory. Let the number of disk accesses required to insert a block in the middle of the file in \\( \\text{A} \\) and \\( \\text{B} \\) are \\( n_{A} \\) and \\( n_{B} \\), respectively, then the value of \\( n_{A} + n_{B} \\) is__________________.</div><br><br><b>GATE CSE 2022 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "153",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371883/gate-cse-2022-question-53\" target=\"_blank\">https://gateoverflow.in/371883/gate-cse-2022-question-53</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3710\"></a><div itemprop=\"text\"><p>In a particular Unix OS, each data block is of size \\( 1024 \\) bytes, each node has \\( 10 \\) direct data block addresses and three additional addresses: one for single indirect block, one for double indirect block and one for triple indirect block. Also, each block can contain addresses for \\( 128 \\) blocks. Which one of the following is approximately the maximum size of a file in the file system?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 512 \\) MB</p>",
+            "<p>\\( 2 \\) GB</p>",
+            "<p>\\( 8 \\) GB</p>",
+            "<p>\\( 16 \\) GB</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) GB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3710/gate-it-2004-question-67\" target=\"_blank\">https://gateoverflow.in/3710/gate-it-2004-question-67</a></p>"
+        }
+      ]
+    }
+  ]
+}

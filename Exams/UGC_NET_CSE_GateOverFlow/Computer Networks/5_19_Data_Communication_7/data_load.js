@@ -1,0 +1,111 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Data Communication",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Data Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152887\"></a><div itemprop=\"text\">Device on one network can communicate with devices on another network via a<br>\n<br>\n(A) Hub/Switch<br>\n<br>\n(B) Utility server<br>\n<br>\n(C) File server<br>\n<br>\n(D) Gateway</div><br><br><b>Computer Networks: UGC NET CSE | December 2009 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152887/ugc-net-cse-december-2009-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/152887/ugc-net-cse-december-2009-part-2-question-26</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"64057\"></a><div itemprop=\"text\"><p>The cellular frequency reuse factor for the cluster size \\( N \\) is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( N \\)</p>",
+            "<p>\\( N^{2} \\)&nbsp;</p>",
+            "<p>\\( \\frac{1}{N} \\)</p>",
+            "<p>\\( \\frac{1}{N^{2}} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64057/ugc-net-cse-december-2011-part-2-question-35\" target=\"_blank\">https://gateoverflow.in/64057/ugc-net-cse-december-2011-part-2-question-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"64060\"></a><div itemprop=\"text\"><p>Handoff is the mechanism that</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Transfer an ongoing call from one base station to another</p>",
+            "<p>Initiating a new call</p>",
+            "<p>Dropping an ongoing call</p>",
+            "<p>None of above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64060/ugc-net-cse-december-2011-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/64060/ugc-net-cse-december-2011-part-2-question-37</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"64189\"></a><div itemprop=\"text\"><p>A telephone conference call is an example of which type of communications ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Same time / same place</p>",
+            "<p>Same time / different place</p>",
+            "<p>Different time / different place</p>",
+            "<p>Different time / same place</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64189/ugc-net-cse-december-2011-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/64189/ugc-net-cse-december-2011-part-2-question-48</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"68086\"></a><div itemprop=\"text\"><p>A leased special high-speed connection from the local telephone carrier for business users that transmits at \\( 1.544 \\) mbps is known as ________ carrier.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2010 | Part 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( T_{1} \\)</p>",
+            "<p>\\( T_{2} \\)</p>",
+            "<p>\\( T_{3} \\)</p>",
+            "<p>\\( T_{4} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68086/ugc-net-cse-june-2010-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/68086/ugc-net-cse-june-2010-part-2-question-47</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"68088\"></a><div itemprop=\"text\"><p>\\( CDMA \\) Cell uses ________ carriers of \\( 1.25 \\) MHz.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2010 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 64 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/68088/ugc-net-cse-june-2010-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/68088/ugc-net-cse-june-2010-part-2-question-48</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"61246\"></a><div itemprop=\"text\">\n<p>Suppose a digitazed voice channel is made by digitizing 8 kHz bandwidth analog voice signal. It is required to sample the signal at twice the highest frequency (two samples per hertz). What is the bit rate required, if it is assumed that each sample required 8 bits?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>32 kbps</p>",
+            "<p>64&nbsp;<span style=\"line-height: 20.8px;\">kbps</span></p>",
+            "<p>128&nbsp;<span style=\"line-height: 20.8px;\">kbps</span></p>",
+            "<p>256&nbsp;<span style=\"line-height: 20.8px;\">kbps</span></p>"
+          ],
+          "correct_answer": "<p>128&nbsp;<span style=\"line-height: 20.8px;\">kbps</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61246/ugc-net-cse-junet-2015-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/61246/ugc-net-cse-junet-2015-part-3-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

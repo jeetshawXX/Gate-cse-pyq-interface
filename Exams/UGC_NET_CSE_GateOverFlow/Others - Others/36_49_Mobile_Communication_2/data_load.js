@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Mobile Communication",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Mobile Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335115\"></a><div itemprop=\"text\"><p>Which of the following is/are true w.r.t. applications of mobile computing?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-alpha\">\n\t<li>Travelling of salesman</li>\n\t<li>Location awareness services</li>\n</ol>\n\n</div><br><br><b>Others: UGC NET CSE | January 2017 | Part 2 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a true; b false.</p>",
+            "<p>Both a and b are true.</p>",
+            "<p>Both a and b are false.</p>",
+            "<p>a false; b true.</p>"
+          ],
+          "correct_answer": "<p>Both a and b are true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335115/ugc-net-cse-january-2017-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/335115/ugc-net-cse-january-2017-part-2-question-48</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335114\"></a><div itemprop=\"text\"><p>In \\( 3G \\) network, \\( \\text{W-CDMA} \\) is also known as \\( \\text{UMTS} \\). The minimum spectrum allocation required for \\( \\text{W-CDMA} \\) is</p>\n\n</div><br><br><b>Others: UGC NET CSE | January 2017 | Part 2 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) MHz</p>",
+            "<p>\\( 20 \\) KHz</p>",
+            "<p>\\( 5 \\) KHz</p>",
+            "<p>\\( 5 \\) MHz</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\) MHz</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335114/ugc-net-cse-january-2017-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/335114/ugc-net-cse-january-2017-part-2-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

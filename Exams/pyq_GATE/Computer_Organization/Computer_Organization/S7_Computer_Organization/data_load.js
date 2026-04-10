@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - Computer_Organization - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An access sequence of cache block addresses is of length N and contains n unique block\naddresses. The number of unique block addresses between two consecutive accesses to the\nsame block address is bounded above K. What is the miss ratio if the access sequence is\npassed through a cache of associativity A\\(\\geq\\)k exercising least-recently-used replacement policy? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n/N</p>",
+            "<b>B.</b> <p>1/N</p>",
+            "<b>C.</b> <p>1/A</p>",
+            "<b>D.</b> <p>k/n</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n/N</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1922/gate2014-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a 6-stage instruction pipeline, where all stages are perfectly balanced. Assume that\nthere is no cycle-time overhead of pipelining. When an application is executing on this 6-stage pipeline, the speedup achieved with respect to non-pipelined execution if 25% of the instructions incur 2 pipeline stall cycles is _________. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1921/gate2014-1-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A machine has a 32-bit architecture, with 1-word long instructions. It has 64 registers, each of  which is 32 bits long. It needs to support 45 instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ____________. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16383",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1767/gate2014-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A RAM chip has a capacity of 1024 words of 8 bits each (1K x 8). The number of 2 x 4 decoders\nwith enable line needed to construct a 16K x 16 RAM from 1K x 8 RAM is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1555/gate2013-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider an instruction pipeline with five stages without any branch prediction: Fetch Instruction\n(FI), Decode Instruction (DI), Fetch Operand (FO), Execute Instruction (EI) and Write Operand\n(WO). The stage delays for FI, DI, FO, EI and WO are 5 ns, 7 ns, 10 ns, 8 ns and 6 ns, respectively.\nThere are intermediate storage buffers after each stage and the delay of each buffer is 1 ns. A\nprogram consisting of 12 instructions I1, I2, I3,..., I12 is executed in this pipelined processor.\nInstruction I4 is the only branch instruction and its branch target is I9. If the branch is taken during\nthe execution of this program, the time (in ns) needed to complete the program is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>132</p>",
+            "<b>B.</b> <p>165</p>",
+            "<b>C.</b> <p>176</p>",
+            "<b>D.</b> <p>328</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>165</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/330/gate2013-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a hard disk with 16 recording surfaces (0-15) having 16384 cylinders (0-16383) and each\ncylinder contains 64 sectors (0-63). Data storage capacity in each sector is 512 bytes. Data are\norganized cylinder-wise and the addressing format is (cylinder no., surface no., sector no.). A file\nof size 42797 KB is stored in the disk and the starting disk location of the file is (1200, 9, 40).\nWhat is the cylinder number of the last sector of the file, if it is stored in a contiguous manner? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1281</p>",
+            "<b>B.</b> <p>1282</p>",
+            "<b>C.</b> <p>1283</p>",
+            "<b>D.</b> <p>1284</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1284</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1540/gate2013-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following sequence of micro-operations. <br>\nMBR \\(\\leftarrow\\) PC <br>\nMAR \\(\\leftarrow\\) X <br>\nPC \\(\\leftarrow\\) Y <br>\nMemory \\(\\leftarrow\\) MBR  <br>\nWhich one of the following is a possible operation performed by this sequence? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Instruction fetch</p>",
+            "<b>B.</b> <p>Operand fetch</p>",
+            "<b>C.</b> <p>Conditional branch</p>",
+            "<b>D.</b> <p>Initiation of interrupt service</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Initiation of interrupt service</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1539/gate2013-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In a k-way set associative cache, the cache is divided into v sets, each of which consists of k lines.\nThe lines of a set are placed in sequence one after another. The lines in set s are sequenced before\nthe lines in set (s+1). The main memory blocks are numbered 0 onwards. The main memory block numbered j must be mapped to any one of the cache lines from <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(j mod v)*k to (j mod v)*k + (k-1)</p>",
+            "<b>B.</b> <p>(j mod v) to (j mod v)+(k-1)</p>",
+            "<b>C.</b> <p>(j mod k) to (j mod k)+(v-1)</p>",
+            "<b>D.</b> <p>(j mod k)*v to (j mod k)*v + (v-1)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(j mod v)*k to (j mod v)*k + (k-1)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1442/gate2013-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The size of the cache tag directory is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>160 Kbits</p>",
+            "<b>B.</b> <p>136 Kbits</p>",
+            "<b>C.</b> <p>40 Kbits</p>",
+            "<b>D.</b> <p>32 Kbits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>160 Kbits</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43311/gate2012-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A computer has a 256 KByte, 4-way set associative, write back data cache with block size of 32 Bytes. The\nprocessor sends 32 bit addresses to the cache controller. Each cache tag directory entry contains, in addition to address tag, 2 valid bits, 1 modified bit and 1 replacement bit. <br><br>The number of bits in the tag field of an address is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>27</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2192/gate2012-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Register renaming is done in pipelined processors <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>as an alternative to register allocation at compile time</p>",
+            "<b>B.</b> <p>for efficient access to function parameters and local variables</p>",
+            "<b>C.</b> <p>to handle certain kinds of hazards</p>",
+            "<b>D.</b> <p>as part of address translation</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>to handle certain kinds of hazards</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52/gate2012-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The amount of ROM needed to implement a 4 bit multiplier is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 bits</p>",
+            "<b>B.</b> <p>128 bits</p>",
+            "<b>C.</b> <p>1 Kbits</p>",
+            "<b>D.</b> <p>2 Kbits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 Kbits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51/gate2012-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>An application loads 100 libraries at startup. Loading each library requires exactly\none disk access. The seek time of the disk to a random location is given as 10ms.\nRotational speed of disk is 6000rpm. If all 100 libraries are loaded from random\nlocations on the disk, how long does it take to load all libraries? (The time to\ntransfer data from the disk block once the head has been positioned at the start\nof the block may be neglected) <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5s</p>",
+            "<b>B.</b> <p>1.5s</p>",
+            "<b>C.</b> <p>1.25s</p>",
+            "<b>D.</b> <p>1s</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1.5s</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2146/gate2011-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>An 8KB direct mapped write-back cache is organized as multiple blocks, each of\nsize 32-bytes. The processor generates 32-bit addresses. The cache controller\nmaintains the tag information for each cache block comprising of the following.\n1 Valid bit\n1 Modified bit\nAs many bits as the minimum needed to identify the memory block mapped in\nthe cache.\nWhat is the total size of memory needed at the cache controller to store metadata\n(tags) for the cache? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4864 bits</p>",
+            "<b>B.</b> <p>6144bits</p>",
+            "<b>C.</b> <p>6656bits</p>",
+            "<b>D.</b> <p>5376bits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5376bits</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2145/gate2011-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider an instruction pipeline with four stages (S1, S2, S3 and S4) each with\ncombinational circuit only. The pipeline registers are required between each stage\nand at the end of the last stage. Delays for the stages and for the pipeline\nregisters are as given in the figure. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q30_eec15aeb.jpg\"> What is the approximate speed up of the pipeline in steady state under ideal conditions when compared to the corresponding non-pipeline implementation? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>2.5</p>",
+            "<b>C.</b> <p>1.1</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2.5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2143/gate2011-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

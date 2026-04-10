@@ -1,0 +1,131 @@
+{
+  "title": "Compiler Design - Parsing",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Parsing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336498\"></a><div itemprop=\"text\"><p>A top down parser generates</p></div><br><br><b>Compiler Design: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Left most derivation</p>",
+            "<p>Right most derivation</p>",
+            "<p>Left most derivation in reverse</p>",
+            "<p>Right most derivation in reverse</p>"
+          ],
+          "correct_answer": "<p>Left most derivation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336498/nielit-2016-dec-scientist-b-cs-section-b-40\" target=\"_blank\">https://gateoverflow.in/336498/nielit-2016-dec-scientist-b-cs-section-b-40</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337254\"></a><div itemprop=\"text\"><p>The most powerful parser is</p></div><br><br><b>Compiler Design: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{SLR} \\)</p>",
+            "<p>\\( \\text{LALR} \\)</p>",
+            "<p>Canonical \\( \\text{LR} \\)</p>",
+            "<p>Operator-precedence</p>"
+          ],
+          "correct_answer": "<p>Canonical \\( \\text{LR} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337254/nielit-2016-mar-scientist-c-section-c-11\" target=\"_blank\">https://gateoverflow.in/337254/nielit-2016-mar-scientist-c-section-c-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337253\"></a><div itemprop=\"text\"><p>\\( \\text{YACC} \\) builds up</p></div><br><br><b>Compiler Design: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{SLR} \\) parsing table</p>",
+            "<p>Canonical \\( \\text{LR} \\) parsing table</p>",
+            "<p>\\( \\text{LALR} \\) parsing table</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{LALR} \\) parsing table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337253/nielit-2016-mar-scientist-c-section-c-12\" target=\"_blank\">https://gateoverflow.in/337253/nielit-2016-mar-scientist-c-section-c-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"337252\"></a><div itemprop=\"text\"><p>Context-free grammar&nbsp;can be recognized by&nbsp;</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>finite state automation</p>",
+            "<p>\\( 2 \\)-&nbsp;way linear bounded automata</p>",
+            "<p>push down automata</p>",
+            "<p>both (B) and (C)</p>"
+          ],
+          "correct_answer": "<p>both (B) and (C)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337252/nielit-2016-mar-scientist-c-section-c-13\" target=\"_blank\">https://gateoverflow.in/337252/nielit-2016-mar-scientist-c-section-c-13</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"366947\"></a><div itemprop=\"text\"><p>A bottom-up parser generates _______________ .</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rightmost derivation</p>",
+            "<p>Rightmost derivation in reverse&nbsp;</p>",
+            "<p>Leftmost derivation</p>",
+            "<p>Leftmost derivation in reverse</p>"
+          ],
+          "correct_answer": "<p>Rightmost derivation in reverse&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366947/nielit-2021-dec-scientist-b-section-b-70\" target=\"_blank\">https://gateoverflow.in/366947/nielit-2021-dec-scientist-b-section-b-70</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"351342\"></a><div itemprop=\"text\"><p>The \\( \\text{LL(1)} \\) and \\( \\text{LR(0)} \\) techniques are ___________</p>\n\n</div><br><br><b>Compiler Design: NIELIT Scientific Assistant A 2020 November: 118</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both same in power</p>",
+            "<p>Both simulate reverse of right most derivation</p>",
+            "<p>Both simulate reverse of left most derivation</p>",
+            "<p>Incomparable</p>"
+          ],
+          "correct_answer": "<p>Both same in power</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351342/nielit-scientific-assistant-a-2020-november-118\" target=\"_blank\">https://gateoverflow.in/351342/nielit-scientific-assistant-a-2020-november-118</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351415\"></a><div itemprop=\"text\"><p>Assume that the \\( \\text{SLR} \\) parser for a grammar \\( \\text{G} \\) has \\( n_{1} \\) states and the \\( \\text{LALR} \\) parser for \\( \\text{G} \\) has \\( n_{2} \\) states. The relationship between \\( n_{1} \\) and \\( n_{2} \\) is :</p>\n\n</div><br><br><b>Compiler Design: NIELIT Scientific Assistant A 2020 November: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n_{1} \\) is necessarily less than \\( n_{2} \\)</p>",
+            "<p>\\( n_{1} \\) is necessarily equal to&nbsp;\\( n_{2} \\)</p>",
+            "<p>\\( n_{1} \\) is necessarily greater than \\( n_{2} \\)</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>\\( n_{1} \\) is necessarily equal to&nbsp;\\( n_{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351415/nielit-scientific-assistant-a-2020-november-46\" target=\"_blank\">https://gateoverflow.in/351415/nielit-scientific-assistant-a-2020-november-46</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"351391\"></a><div itemprop=\"text\"><p>Type of conflicts that can arise in \\( \\text{LR(0)} \\) techniques are ________.</p></div><br><br><b>Compiler Design: NIELIT Scientific Assistant A 2020 November: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Shift-reduce conflict</p>",
+            "<p>Shift-Shift conflict</p>",
+            "<p>Both “Shift-reduce conflict” &amp; “Shift-Shift conflict”</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Shift-reduce conflict</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351391/nielit-scientific-assistant-a-2020-november-69\" target=\"_blank\">https://gateoverflow.in/351391/nielit-scientific-assistant-a-2020-november-69</a></p>"
+        }
+      ]
+    }
+  ]
+}

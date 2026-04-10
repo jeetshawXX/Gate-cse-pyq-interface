@@ -1,0 +1,216 @@
+{
+  "title": "Finite_Automata - Finite_Automata - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Finite_Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the language L given by the regular expression (a+b )* b (a+b )  over the alphabet {a, b}. The smallest number of states needed in a deterministic finite-state automation (DFA) accepting L is ___________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118302/gate2017-1-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following two statements:<br>\nI. If all states of an NFA are accepting states then the language accepted by the NFA is \\(\\sum ^{*}\\) .<br>\nII. There exists a regular language A such that for all languages B, A\\(\\cap\\)B is regular. <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I is true</p>",
+            "<b>B.</b> <p>Only II is true</p>",
+            "<b>C.</b> <p>Both I and II are true</p>",
+            "<b>D.</b> <p>Both I and II are false</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only II is true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39591/gate2016-2-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number of states in the minimum sized DFA that accepts the language defined by the regular expression <br>(0+1)* (0+1)(0+1)* <br> is _______. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39562/gate2016-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let L be the language represented by the regular expression \\(\\Sigma ^{*}0011\\Sigma ^{*}\\) where \\(\\Sigma\\)={0,1}. What is the minimum number of states in a DFA that recognizes \\(\\bar{L}\\) (complement of L)? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8415/gate2015-3-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The number of states in the minimal deterministic finite automaton corresponding to the regular expression (0+1)*(10) is __________. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8256/gate2015-2-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q39_1ab3952a.jpg\"> <br>Consider the DFAs M and N given above. The number of states in a minimal DFA that accepts the language L(M)\\(\\cap\\) L(N) is___________ <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8362/gate2015-1-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the regular expressions given below represent the following DFA? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q36_eb254c40.jpg\">   <br>                                                 I) 0*1(1+00*1)* <br>\nII) 0*1*1+11*0*1 <br>\nIII) (0+1)*1 <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I, II, and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1914/gate2014-1-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the finite automaton in the following figure. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q16_6458e73d.jpg\"> <br> What is the set of reachable states for the input string 0011? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{q_{0},q_{1},q_{2}\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{q_{0},q_{1}\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{q_{0},q_{1},q_{2},q_{3}\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{q_{3}\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{q_{0},q_{1},q_{2}\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1782/gate2014-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the DFA A given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q33_77a7d1ad.jpg\"> <br> Which of the following are FALSE? <br>\n1. Complement of L(A) is context-free. <br>\n2. L(A) = L((11*0+0) (0+1)*0*1*) <br>\n3. For the language accepted by A, A is the minimal DFA. <br>\n4. A accepts all strings over {0, 1} of length at least 2. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 3 only</p>",
+            "<b>B.</b> <p>2 and 4 only</p>",
+            "<b>C.</b> <p>2 and 3 only</p>",
+            "<b>D.</b> <p>3 and 4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3 and 4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1544/gate2013-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the set of strings on {0,1} in which, every substring of 3 symbols has at most two zeros.\nFor example, 001110 and 011001 are in the language, but 100010 is not. All strings of length less\nthan 3 are also in the language. A partially completed DFA that accepts this language is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q46_bca893f8.jpg\"> <br> The missing arcs in the DFA are <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q46a_ce7a32ca.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2159/gate2012-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the complement of the language accepted by the NFA shown below?\nAssume \\(\\sum\\)={a} and \\(\\varepsilon\\) is the empty string. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q12_32353a34.jpg\"> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\phi\\)</p>",
+            "<b>B.</b> <p>\\(\\{\\varepsilon \\}\\)</p>",
+            "<b>C.</b> <p>\\(a^{*}\\)</p>",
+            "<b>D.</b> <p>\\(\\{a, \\varepsilon \\}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{\\varepsilon \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44/gate2012-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A deterministic finite automation (DFA)D with alphabet  \\(\\Sigma\\)= {a,b} is given below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q34_72f0673b.jpg\"> <br>Which of the following finite state machines is a valid minimal DFA which accepts the same language as D? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Finite_Automata\\q34a_dea49aa5.jpg\"> <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2147/gate2011-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Definition of a language L with alphabet {a} is given as following\nL={\\(a^{nk}\\) |k &gt; 0, and n is a positive integer constant} <br>\nWhat is the minimum number of states needed in a DFA to recognize L? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k+1</p>",
+            "<b>B.</b> <p>n+1</p>",
+            "<b>C.</b> <p>\\(2^{n+1}\\)</p>",
+            "<b>D.</b> <p>\\(2^{k+1}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2144/gate2011-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following pairs have DIFFERENT expressive power? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deterministic finite automata (DFA) and Non-deterministic finite automata (NFA)</p>",
+            "<b>B.</b> <p>Deterministic push down automata (DPDA) and Non-deterministic push down\nautomata (NPDA)</p>",
+            "<b>C.</b> <p>Deterministic single-tape Turing machine and Non-deterministic single tape\nTuring machine</p>",
+            "<b>D.</b> <p>Single-tape Turing machine and multi-tape Turing machine</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Deterministic push down automata (DPDA) and Non-deterministic push down\nautomata (NPDA)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2110/gate2011-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let w be any string of length n in {0, 1}*. Let L be the set of all substrings of w. What is the minimum number of states in a non-deterministic finite automaton that accepts L? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>\\(2^{n-1}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>n+1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2342/gate2010-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

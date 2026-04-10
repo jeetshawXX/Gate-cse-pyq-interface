@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Operator Precedence",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operator Precedence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336378\"></a><div itemprop=\"text\"><p>If an SQL&nbsp;query involves NOT,AND,OR with no parenthesis</p>\n\n</div><br><br><b>Databases: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>NOT will be evaluated first; AND will be evaluated second; OR will be evaluated last.</p>",
+            "<p>NOT will be evaluated first; OR will be evaluated second; AND will be evaluated last.</p>",
+            "<p>AND will be evaluated first; OR will be evaluated second;NOT will be evaluated last.</p>",
+            "<p>The order of occurrence determines the order of evaluation.</p>"
+          ],
+          "correct_answer": "<p>NOT will be evaluated first; AND will be evaluated second; OR will be evaluated last.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336378/nielit-2017-july-scientist-b-it-section-b-57\" target=\"_blank\">https://gateoverflow.in/336378/nielit-2017-july-scientist-b-it-section-b-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Numerical_Ability_–_CSE - Numerical_Ability_–_CSE - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Ability_–_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A six sided unbiased die with four green faces and two red faces is rolled seven times. Which of the following combinations is the most likely outcome of the experiment? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Three green faces and four red faces.</p>",
+            "<b>B.</b> <p>Four green faces and three red faces.</p>",
+            "<b>C.</b> <p>Five green faces and two red faces.</p>",
+            "<b>D.</b> <p>Six green faces and one red face</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Five green faces and two red faces.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204071/gate-cse-2018-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the figure below,  \\(\\angle DEC + \\angle BFC\\)  is equal to _____<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q64_ef8cbf1a.webp\"> <br> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\angle BCD - \\angle BAD\\)</p>",
+            "<b>B.</b> <p>\\(\\angle BAD + \\angle BCF\\)</p>",
+            "<b>C.</b> <p>\\(\\angle BAD + \\angle BCD\\)</p>",
+            "<b>D.</b> <p>\\(\\angle CBA + \\angle ADC\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\angle BCD - \\angle BAD\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204070/gate-cse-2018-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In a party, 60% of the invited guests are male and 40% are female. If 80% of the invited guests attended the party and if all the invited female guests attended, what would be the ratio of males to females among the attendees in the party? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>02:03</p>",
+            "<b>B.</b> <p>01:01</p>",
+            "<b>C.</b> <p>03:02</p>",
+            "<b>D.</b> <p>02:01</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>01:01</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204069/gate-cse-2018-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>If \\(pqr\\neq 0\\) and \\(p^{-x}=\\dfrac{1}{q},q^{-y}=\\dfrac{1}{r},r^{-z}=\\dfrac{1}{p},\\)  what is the value\nof the product \\(xyz\\) ? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-1</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{pqr}\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(pqr\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204068/gate-cse-2018-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In appreciation of the social improvements completed in a town, a wealthy philanthropist\ndecided to gift Rs. 750 to each male senior citizen in the town and Rs. 1000 to each\nfemale senior citizen.  Altogether, there were 300 senior citizens eligible for this gift. However,\nonly \\({\\frac{8}{9}}^{th}\\) of the eligible men and \\({\\frac{2}{3}}^{rd}\\) of the eligible women claimed the gift. How much\nmoney (in Rupees) did the philanthropist give away in total? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,50,000</p>",
+            "<b>B.</b> <p>2,00,000</p>",
+            "<b>C.</b> <p>1,75,000</p>",
+            "<b>D.</b> <p>1,51,000</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2,00,000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204067/gate-cse-2018-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the missing number in the following sequence?<br> 2, 12, 60, 240, 720, 1440,  _____ ,0 <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2880</p>",
+            "<b>B.</b> <p>1440</p>",
+            "<b>C.</b> <p>720</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1440</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204066/gate-cse-2018-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What would be the smallest natural number which when divided either by 20 or by 42\nor by 76 leaves a remainder of 7 in each case? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3047</p>",
+            "<b>B.</b> <p>6047</p>",
+            "<b>C.</b> <p>7987</p>",
+            "<b>D.</b> <p>63847</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7987</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204065/gate-cse-2018-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The area of a square is \\(d\\). What is the area of the circle which has the diagonal of the square as its diameter? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\pi d\\)</p>",
+            "<b>B.</b> <p>\\(\\pi d^2\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{4} \\pi d^2\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{2} \\pi d\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{1}{2} \\pi d\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204064/gate-cse-2018-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>An air pressure contour line joins locations in a region having the same atmospheric pressure. The following is an air pressure contour plot of a geographical region. Contour lines are shown at 0.05 bar intervals in this plot.<br><br>\nIf the possibility of a thunderstorm is given by how fast air pressure rises or drops over a region, which of the following regions is most likely to have a thunderstorm?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q65_d9c2620b.jpg\"><br> <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P</p>",
+            "<b>B.</b> <p>Q</p>",
+            "<b>C.</b> <p>R</p>",
+            "<b>D.</b> <p>S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>R</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118424/gate-cse-2017-set-2-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The number of roots of \\(e^x+0.5x^2-2=0\\) in the range [-5,5] is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118423/gate-cse-2017-set-2-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>\\(X\\) is a 30 digit number starting with the digit 4 followed by the digit 7. Then the number \\(X^3\\) will have <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>90 digits</p>",
+            "<b>B.</b> <p>91 digits</p>",
+            "<b>C.</b> <p>92 digits</p>",
+            "<b>D.</b> <p>93 digits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>90 digits</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118422/gate-cse-2017-set-2-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>There are three boxes. One contains apples, another contains oranges and the last one contains both apples and oranges. All three are known to be incorrectly labeled. If you are permitted to open just one box and then pull out and inspect only one fruit, which box would you open to determine the contents of all three boxes? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The box labeled 'Apples'</p>",
+            "<b>B.</b> <p>The box labeled 'Apples and Oranges'</p>",
+            "<b>C.</b> <p>The box labeled 'Oranges'</p>",
+            "<b>D.</b> <p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The box labeled 'Apples and Oranges'</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118421/gate-cse-2017-set-2-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>There are 3 red socks, 4 green socks and 3 blue socks.You choose 2 socks. The probability that they are of the same colour is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{5}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{7}{30}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{4}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{4}{15}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{4}{15}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118419/gate-cse-2017-set-2-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A test has twenty questions worth 100 marks in total. There are two types of questions. Multiple choice questions are worth 3 marks each and essay questions are worth 11 marks each. How many multiple choice questions does the exam have? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118418/gate-cse-2017-set-2-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>There are five buildings called V, W, X, Y and Z in a row (not necessarily in that order). V is to the West of W. Z is to the East of X and the West of V. W is to the West of Y. Which is the building in the middle? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>V</p>",
+            "<b>B.</b> <p>W</p>",
+            "<b>C.</b> <p>X</p>",
+            "<b>D.</b> <p>Y</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>V</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118417/gate-cse-2017-set-2-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

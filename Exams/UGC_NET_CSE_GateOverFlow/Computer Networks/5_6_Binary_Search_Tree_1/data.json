@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Binary Search Tree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Search Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"66825\"></a><div itemprop=\"text\"><p>Which of the following can be the sequence of nodes examined in binary search tree while searching for key \\( 88 \\)?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 90, 40, 65, 50, 88 \\)</p>",
+            "<p>\\( 90, 110, 80, 85, 88 \\)&nbsp;</p>",
+            "<p>\\( 190, 60, 90, 85, 88 \\)&nbsp;</p>",
+            "<p>\\( 65, 140, 80, 70, 88 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66825/ugc-net-cse-december-2010-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/66825/ugc-net-cse-december-2010-part-2-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

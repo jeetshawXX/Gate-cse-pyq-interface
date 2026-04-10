@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Percentage",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Percentage",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369351\"></a><div itemprop=\"text\"><p>What is the annual change in traffic of software with \\( 1 \\; \\text{million} \\) lines of code with \\( 30\\% \\) lines added and \\( 10 \\% \\) lines are deleted ?</p>\n\n</div><br><br><b>Others: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.25 \\)</p>",
+            "<p>\\( 0.15 \\)</p>",
+            "<p>\\( 0.4 \\)</p>",
+            "<p>\\( 0.6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369351/nielit-2021-dec-scientist-a-section-b-62\" target=\"_blank\">https://gateoverflow.in/369351/nielit-2021-dec-scientist-a-section-b-62</a></p>"
+        }
+      ]
+    }
+  ]
+}

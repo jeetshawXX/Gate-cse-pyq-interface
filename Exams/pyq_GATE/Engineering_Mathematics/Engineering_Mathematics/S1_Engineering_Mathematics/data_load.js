@@ -1,0 +1,231 @@
+window.__examLoadCallback({
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a system of linear equations \\(P X = Q \\) where \\(P \\in \\mathbb{R}^{3 \\times 3} \\) and \\(Q \\in \\mathbb{R}^{3 \\times 1} \\).\nSuppose \\(P \\) has an \\(LU \\) decomposition, \\(P = LU \\), where<br><br>\n\\( L = \\begin{bmatrix} 1 &amp; 0 &amp; 0 \\\\ l_{21} &amp; 1 &amp; 0 \\\\ l_{31} &amp; l_{32} &amp; 1 \\end{bmatrix} \\quad \\text{and} \\quad U = \\begin{bmatrix} u_{11} &amp; u_{12} &amp; u_{13} \\\\ 0 &amp; u_{22} &amp; u_{23} \\\\ 0 &amp; 0 &amp; u_{33} \\end{bmatrix} \\)<br><br>\nWhich of the following statement(s) is/are TRUE? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The system \\(P X = Q \\) can be solved by first solving \\(L Y = Q \\) and then \\(U X = Y \\).</p>",
+            "<b>B.</b> <p>If \\(P \\) is invertible, then both \\(L \\) and \\(U \\) are invertible.</p>",
+            "<b>C.</b> <p>If \\(P \\) is singular, then at least one of the diagonal elements of \\(U \\) is zero.</p>",
+            "<b>D.</b> <p>If \\(P \\) is symmetric, then both \\(L \\) and \\(U \\) are symmetric.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The system \\(P X = Q \\) can be solved by first solving \\(L Y = Q \\) and then \\(U X = Y \\).</p>",
+            "<b>B.</b> <p>If \\(P \\) is invertible, then both \\(L \\) and \\(U \\) are invertible.</p>",
+            "<b>C.</b> <p>If \\(P \\) is singular, then at least one of the diagonal elements of \\(U \\) is zero.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460801/gate-cse-2025-set-2-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(L \\), \\(M \\), and \\(N \\) be non-singular matrices of order 3 satisfying the equations <br><br>\n\\( L^2 = L^{-1}, \\quad M = L^8, \\quad N = L^2. \\)<br><br>\nWhich ONE of the following is the value of the determinant of \\((M - N) \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460831/gate-cse-2025-set-2-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The value of \\(x \\) such that \\(x &gt; 1 \\), satisfying the equation\n\\(  \\int_{1}^{x}t \\ln t \\, dt = \\frac{1}{4} \\) is <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sqrt{e} \\)</p>",
+            "<b>B.</b> <p>\\(e \\)</p>",
+            "<b>C.</b> <p>\\(e^2 \\)</p>",
+            "<b>D.</b> <p>\\(e - 1 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\sqrt{e} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460833/gate-cse-2025-set-2-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>\\( A = \\begin{pmatrix} 1 &amp; 2 \\\\ 2 &amp; -1 \\end{pmatrix}, \\)\nthen which ONE of the following is \\(A^8 \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix} 25 &amp; 0 \\\\ 0 &amp; 25 \\end{pmatrix} \\)</p>",
+            "<b>B.</b> <p>\\(\\begin{pmatrix} 125 &amp; 0 \\\\ 0 &amp; 125 \\end{pmatrix} \\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix} 625 &amp; 0 \\\\ 0 &amp; 625 \\end{pmatrix} \\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix} 3125 &amp; 0 \\\\ 0 &amp; 3125 \\end{pmatrix} \\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\begin{pmatrix} 625 &amp; 0 \\\\ 0 &amp; 625 \\end{pmatrix} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460834/gate-cse-2025-set-2-question-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let \\(A\\) be a 2x2 matrix as given:\n<br>\n\\(A = \\left[\\begin{array}{cc} 1 &amp; 1 \\\\ 1 &amp; -1 \\end{array}\\right]\\)\n<br>\nWhat are the eigenvalues of the matrix \\(A^{13}\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1,-1\\)</p>",
+            "<b>B.</b> <p>\\(2\\sqrt{2}, -2\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>\\(4\\sqrt{2}, -4\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>\\(64\\sqrt{2}, -64\\sqrt{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(64\\sqrt{2}, -64\\sqrt{2}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460049/gate-cse-2025-set-1-question-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the given function \\(f(x)\\).\n<br><br>\n\\(f(x) =\n\\begin{cases}\nax + b &amp; \\text{for } x &lt; 1 \\\\\nx^3 + x^2 + 1 &amp; \\text{for } x \\geq 1\n\\end{cases}\\)\n<br><br>\nIf the function is differentiable everywhere, the value of \\(b\\) must be ________. (rounded off to one decimal place) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-2.1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the given system of linear equations for variables \\(x\\) and \\(y\\), where \\(k\\) is a real-valued constant. Which of the following option(s) is/are CORRECT?\n<br><br>\n\\(x + k y = 1\\)<br>\n\\(k x + y = -1\\) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>There is exactly one value of \\(k\\) for which the above system of equations has no solution.</p>",
+            "<b>B.</b> <p>There exist an infinite number of values of \\(k\\) for which the system of equations has no solution.</p>",
+            "<b>C.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has exactly one solution.</p>",
+            "<b>D.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has an infinite number of solutions.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>There is exactly one value of \\(k\\) for which the above system of equations has no solution.</p>",
+            "<b>D.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has an infinite number of solutions.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460067/gate-cse-2025-set-1-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let \\(A\\)  be an \\( n \\times n\\)  matrix over the set of all real numbers \\(R\\). Let \\(B\\)  be a matrix obtained from \\(A\\) by swapping two rows. Which of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The determinant of \\(B\\) is the negative of the determinant of \\(A\\)</p>",
+            "<b>B.</b> <p>If \\(A\\) is invertible, then \\(B\\) is also invertible</p>",
+            "<b>C.</b> <p>If \\(A\\) is symmetric, then \\(B\\) is also symmetric</p>",
+            "<b>D.</b> <p>If the trace of \\(A\\) is zero, then the trace of \\(B\\) is also zero</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The determinant of \\(B\\) is the negative of the determinant of \\(A\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422860/gate-cse-2024-set-2-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let \\( x \\) and \\( y \\) be random variables, not necessarily independent, that take real values in the interval \\( [0,1] \\). Let \\( z=x y \\) and let the mean values of \\( x, y, z \\) be \\( \\bar{x}, \\bar{y}, \\bar{z} \\), respectively. Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\bar{z}=\\bar{x} \\bar{y} \\)</p>",
+            "<b>B.</b> <p>\\(  \\bar{z} \\leq \\bar{x} \\bar{y} \\)</p>",
+            "<b>C.</b> <p>\\( \\bar{z} \\geq \\bar{x} \\bar{y} \\)</p>",
+            "<b>D.</b> <p>\\( \\bar{z} \\leq \\bar{x} \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\( \\bar{z} \\leq \\bar{x} \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422863/gate-cse-2024-set-2-question-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let \\( f(x) \\) be a continuous function from \\( \\mathbb{R} \\) to \\( \\mathbb{R} \\) such that\n<br> \\(\nf(x)=1-f(2-x)\n\\) <br>\nWhich one of the following options is the CORRECT value of \\( \\int_0^2 f(x) d x \\) ? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( 0  \\)</p>",
+            "<b>B.</b> <p>\\( 1  \\)</p>",
+            "<b>C.</b> <p>\\( 2  \\)</p>",
+            "<b>D.</b> <p>\\( -1  \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\( 1  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let \\( A \\) be any \\( n \\times m \\) matrix, where \\( m &gt; n \\). Which of the following statements is/are TRUE about the system of linear equations \\( A x=0 \\) ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There exist at least \\( m-n \\) linearly independent solutions to this system</p>",
+            "<b>B.</b> <p>There exist \\( m-n \\) linearly independent vectors such that every solution is a linear combination of these vectors</p>",
+            "<b>C.</b> <p>There exists a non-zero solution in which at least \\( m-n \\) variables are 0</p>",
+            "<b>D.</b> <p>There exists a solution in which at least \\( n \\) variables are non-zero</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>There exist at least \\( m-n \\) linearly independent solutions to this system</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The product of all eigenvalues of the matrix \\(\\begin{bmatrix}\n1 &amp; 2 &amp; 3\\\\\n4 &amp; 5 &amp;6 \\\\\n7 &amp;8  &amp; 9\n\\end{bmatrix}\\) is <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-1\\)</p>",
+            "<b>B.</b> <p>\\(0\\)</p>",
+            "<b>C.</b> <p>\\(1\\)</p>",
+            "<b>D.</b> <p>\\(2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The value of the definite integral \\( \\int_{-3}^{3}  \\int_{-2}^{2}  \\int_{-1}^{1} (4x^2y-z^3)dzdydx\\) is _____. (Rounded off to the nearest integer) <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399290/gate-cse-2023-question-21#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let A be the adjacency matrix of the graph with vertices {1, 2, 3, 4, 5}.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Engineering_Mathematics\\q20_146e1864.jpg\"><br>Let \\(\\lambda _1,\\lambda _2,\\lambda _3,\\lambda _4,\\; and \\; \\lambda _5\\) be the five eigenvalues of A. Note that these eigenvalues\nneed not be distinct.<br>The value of \\(\\lambda _1+\\lambda _2+\\lambda _3+ \\lambda _4+  \\lambda _5\n=\\) _____ <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399291/gate-cse-2023-question-20#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\(f(x)=x^3+15x^2-33x-36 \\) be a real-valued function.<br>\nWhich of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(f(x)\\) does not have a local maximum.</p>",
+            "<b>B.</b> <p>\\(f(x)\\)  has a local maximum.</p>",
+            "<b>C.</b> <p>\\(f(x)\\) does not have a local minimum.</p>",
+            "<b>D.</b> <p>\\(f(x)\\)  has a local minimum.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(f(x)\\)  has a local maximum.</p>",
+            "<b>D.</b> <p>\\(f(x)\\)  has a local minimum.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399293/gate-cse-2023-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

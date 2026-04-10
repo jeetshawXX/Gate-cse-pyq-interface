@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Prime Implicants",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Prime Implicants",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2252\"></a><div itemprop=\"text\"><p>Let \\( f(x, y, z)=\\bar{x} + \\bar{y}x + xz \\) be a switching function. Which one of the following is valid?</p></div><br><br><b>GATE CSE 1997 | Question: 5.1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bar{y} x \\) is a prime implicant of \\( f \\)</p>",
+            "<p>\\( xz \\) is a minterm of \\( f \\)</p>",
+            "<p>\\( xz \\) is an implicant of \\( f \\)</p>",
+            "<p>\\( y \\) is a prime implicant of \\( f \\)</p>"
+          ],
+          "correct_answer": "<p>\\( xz \\) is an implicant of \\( f \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2252/gate-cse-1997-question-5-1\" target=\"_blank\">https://gateoverflow.in/2252/gate-cse-1997-question-5-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1054\"></a><div itemprop=\"text\"><p>Which are the essential prime implicants of the following Boolean function?</p>\n\n<p>\\( f(a, b, c)= a' c+ ac'+b' c \\)</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a' c \\) and \\( ac' \\)</p>",
+            "<p>\\( a' c \\) and \\( b'&nbsp;c \\)</p>",
+            "<p>\\( a' c \\) only.</p>",
+            "<p>\\( ac' \\) and \\( bc' \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a' c \\) and \\( ac' \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1054/gate-cse-2004-question-59\" target=\"_blank\">https://gateoverflow.in/1054/gate-cse-2004-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

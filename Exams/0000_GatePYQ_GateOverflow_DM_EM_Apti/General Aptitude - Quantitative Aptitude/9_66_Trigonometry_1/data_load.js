@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Trigonometry",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Trigonometry",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"205083\"></a><div itemprop=\"text\"><p>For \\( 0\\leq{x}\\leq{2\\pi} \\), \\( \\sin x \\text{ and } \\cos x \\) are both decreasing&nbsp;functions in the interval _________ .</p>\n\n</div><br><br><b>GATE2018 CH: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(0,\\dfrac{\\pi}{2}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{\\pi}{2},\\pi\\right) \\)</p>",
+            "<p>\\( \\left(\\pi,\\dfrac{3\\pi}{2}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{3\\pi}{2},2\\pi\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{\\pi}{2},\\pi\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205083/gate2018-ch-ga-3\" target=\"_blank\">https://gateoverflow.in/205083/gate2018-ch-ga-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

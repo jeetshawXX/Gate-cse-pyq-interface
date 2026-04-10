@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Calculus - Calculus - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If \\(f(x)=R sin(\\frac{\\pi x}{2})+S,f'(\\frac{1}{2})=\\sqrt{2}\\) and \\( \\int_{0}^{1}f(x)dx=\\frac{2R}{\\pi }\\), then the constants R and S are, respectively <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{2}{\\pi}\\) and \\( \\frac{16}{\\pi}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{2}{\\pi}\\) and 0</p>",
+            "<b>C.</b> <p>\\(\\frac{4}{\\pi}\\) and 0</p>",
+            "<b>D.</b> <p>\\(\\frac{4}{\\pi}\\) and \\( \\frac{16}{\\pi}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{4}{\\pi}\\) and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118262/gate2017-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let u and v be two vectors in \\(R^{2}\\) whose Euclidean norms satisfy ||u||=2|| v|| . What is the value of \\(\\alpha\\) such that w=u+\\(\\alpha\\)v bisects the angle between u and v ? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>\\(1/2\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(-1/2\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118311/gate2017-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow 1}\\frac{x^{7}-2x^{5}+1}{x^{3}-3x^{2}+2}\\) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is 0</p>",
+            "<b>B.</b> <p>is -1</p>",
+            "<b>C.</b> <p>is 1</p>",
+            "<b>D.</b> <p>does not exist</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>is 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118309/gate2017-1-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following well-formed formulae in predicate calculus is NOT valid? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall x p(x)\\Rightarrow \\forall xq(x))\\Rightarrow (\\exists x\\neg p(x) \\vee \\forall xq(x))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists xp(x)\\vee \\exists xq(x))\\Rightarrow \\exists x(p(x)\\vee  q(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x (p(x)\\wedge q(x)) \\Rightarrow (\\exists xp(x)\\wedge \\exists xq(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39618/gate2016-2-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let f(x) be a polynomial and g(x) = f'(x) be its derivative. If the degree of (f(x)+ f(-x)) is 10, then the degree of (g(x)-g(-x)) is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39571/gate2016-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>\\(\\lim_{x\\rightarrow 4}\\frac{sin(x-4)}{x-4}\\)=_________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39630/gate2016-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If for non-zero  \\(x,af(x)+bf\\left ( \\frac{1}{x} \\right )=\\frac{1}{x}-25\\) where \\( a\\neq b\\)  then \\( \\int_{1}^{2}f(x)dx\\) is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)-\\frac{47b}{2}]\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)-\\frac{47b}{2}]\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8554/gate2015-3-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow \\infty }(1+x^{2})^{e^{-x}}\\) is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\infty\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8403/gate2015-3-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let \\(f(x)=x^{-(1/3)}\\) and A denote the area of the region bounded by f(x) and the x-axis, when x varies from -1 to 1. Which of the following statements is/are TRUE?<br>\nI) f is continuous in [-1,1] <br>\nII) f is not bounded in [-1,1] <br>\nIII) A is nonzero and finite <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8124/gate2015-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>\\(\\int_{1/ \\pi }^{2/ \\pi}\\frac{cos(1/x)}{x^{2}}dx=\\)_________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8314/gate2015-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>\\(\\sum_{x=1}^{99}\\frac{1}{x(x+1)}\\)=__________ . <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.99",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8248/gate2015-1-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>\\(\\lim_{x\\rightarrow \\infty }x^{1/x}\\) is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\infty\\)</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>Not defined</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8021/gate2015-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The value of the integral given below is <br> \\(\\int_{0}^{\\pi }x^{2}cosxdx\\) <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-2\\pi\\)</p>",
+            "<b>B.</b> <p>\\(\\pi\\)</p>",
+            "<b>C.</b> <p>\\(-\\pi\\)</p>",
+            "<b>D.</b> <p>\\(2\\pi\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(-2\\pi\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2081/gate2014-3-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>If \\(\\int_{0}^{2\\pi}|x sinx| dx=k \\pi\\), then the value of k is equal to _______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2040/gate2014-3-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The function \\(f(x)=x sin x\\) satisfies the following equation: \\(f''(x)+f(x)+tcos x=0\\). The value of t is______. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1924/gate2014-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

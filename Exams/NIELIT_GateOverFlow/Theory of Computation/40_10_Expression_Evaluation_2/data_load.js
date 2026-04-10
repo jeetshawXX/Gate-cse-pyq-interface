@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Expression Evaluation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Expression Evaluation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369326\"></a><div itemprop=\"text\"><p>The postfix equivalent of the infix expression \\( (a+b)^{*}(c^{*}d-e)^{*}f/g \\) is :</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( ab + cd^{*}e – fg^{*}/^{*} \\)</p>",
+            "<p>\\( ab + cd^{*}e - fg/^{**} \\)</p>",
+            "<p>\\( ab + cde^{*} – fg/^{**} \\)</p>",
+            "<p>\\( abcd + e^{*} fg – /^{**} \\)</p>"
+          ],
+          "correct_answer": "TBA",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369326/nielit-2021-dec-scientist-a-section-b-87\" target=\"_blank\">https://gateoverflow.in/369326/nielit-2021-dec-scientist-a-section-b-87</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366957\"></a><div itemprop=\"text\"><p>\\( \\text{ABC}{\\ast}+ \\) is the postfix form of :</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\text{A}\\;{\\ast}\\; \\text{B} + \\text{C}  \\)</p>",
+            "<p>\\(  \\text{A}{\\ast} + \\text{BC}  \\)</p>",
+            "<p>\\(  \\text{A} +&nbsp;\\text{B}\\;{\\ast}\\; \\text{C}  \\)</p>",
+            "<p>none of these</p>"
+          ],
+          "correct_answer": "<p>\\(  \\text{A} +&nbsp;\\text{B}\\;{\\ast}\\; \\text{C}  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366957/nielit-2021-dec-scientist-b-section-b-60\" target=\"_blank\">https://gateoverflow.in/366957/nielit-2021-dec-scientist-b-section-b-60</a></p>"
+        }
+      ]
+    }
+  ]
+});

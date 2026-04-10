@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Graph Algorithms",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Graph Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"129119\"></a><div itemprop=\"text\"><p>Which of the following data structure&nbsp;is useful in traversing a given graph by breadth first search?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2017 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack</p>",
+            "<p>Queue</p>",
+            "<p>List</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/129119/isro-cse-2017-question-17\" target=\"_blank\">https://gateoverflow.in/129119/isro-cse-2017-question-17</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128494\"></a><div itemprop=\"text\"><p>Which of the following algorithms solves the all pair shortest path problem?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2017 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Prim's algorithm</p>",
+            "<p>Dijkstra's algorithm</p>",
+            "<p>Bellman ford algorithm</p>",
+            "<p>Floyd warshalls algorithm</p>"
+          ],
+          "correct_answer": "<p>Floyd warshalls algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128494/isro-cse-2017-question-76\" target=\"_blank\">https://gateoverflow.in/128494/isro-cse-2017-question-76</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"213555\"></a><div itemprop=\"text\"><p>Which of the following is application of Breath First Search on the graph?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Finding diameter of the graph</p>",
+            "<p>Finding bipartite graph</p>",
+            "<p>Both (a) and (b)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Both (a) and (b)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213555/isro-cse-2018-question-33\" target=\"_blank\">https://gateoverflow.in/213555/isro-cse-2018-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+});

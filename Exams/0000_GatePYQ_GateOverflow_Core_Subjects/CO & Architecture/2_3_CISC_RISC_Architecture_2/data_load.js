@@ -1,0 +1,46 @@
+window.__examLoadCallback({
+  "title": "CO & Architecture - CISC RISC Architecture",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "CISC RISC Architecture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1499\"></a><div itemprop=\"text\"><p>The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 2.22</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>has fewer instructions</p>",
+            "<p>has fewer addressing modes</p>",
+            "<p>has more registers</p>",
+            "<p>is easier to implement using hard-wired logic</p>"
+          ],
+          "correct_answer": [
+            "<p>has fewer instructions</p>",
+            "<p>has fewer addressing modes</p>",
+            "<p>has more registers</p>",
+            "<p>is easier to implement using hard-wired logic</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1499/gate-cse-1999-question-2-22\" target=\"_blank\">https://gateoverflow.in/1499/gate-cse-1999-question-2-22</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"204079\"></a><div itemprop=\"text\"><p>Consider the following processor design characteristics:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Register-to-register arithmetic operations only</li>\n\t<li>Fixed-length instruction format</li>\n\t<li>Hardwired control unit</li>\n</ol>\n\n<p>Which of the characteristics above&nbsp; are used in the design of a RISC processor?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II only</p>",
+            "<p>II and III only</p>",
+            "<p>I and III only</p>",
+            "<p>I, II and III</p>"
+          ],
+          "correct_answer": "<p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204079/gate-cse-2018-question-5\" target=\"_blank\">https://gateoverflow.in/204079/gate-cse-2018-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

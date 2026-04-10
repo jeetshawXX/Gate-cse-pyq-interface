@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Line Graph",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Line Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1318\"></a><div itemprop=\"text\"><p><strong>Answer the following questions based on the information given below.</strong></p>\n\n<p>The petrol consumption rate of a new model car 'Palto' depends on its speed and may be described by the graph below.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1796341035483426821\" width=\"400\"></p>\n\n<p>Manasa makes the \\( 200 \\) km trip from Mumbai to Pune at a steady speed of&nbsp;\\( 60 \\) km/hour. What is the amount of petrol consumed for the journey?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12.5 \\) litres</p>",
+            "<p>\\( 13.33 \\) litres</p>",
+            "<p>\\( 16 \\) litres</p>",
+            "<p>\\( 19.75 \\)&nbsp;litres</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1318/cat-2001-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/1318/cat-2001-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8805\"></a><div itemprop=\"text\"><p><strong>Answer the following questions based on the information given below.</strong></p><p>The petrol consumption rate of a new model car 'Palto' depends on its speed and may be described by the graph below.</p><p><img alt=\"\" width=\"400\" height=\"261\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1796341035483426821\"></p><p>Manasa would like to minimize the fuel consumption for the trip by driving at the appropriate speed. How should she change the speed?</p></div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Increase the speed</p>",
+            "<p>Decrease the speed</p>",
+            "<p>Maintain the speed at \\( 60 \\) km/hour</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8805/cat-2001-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/8805/cat-2001-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

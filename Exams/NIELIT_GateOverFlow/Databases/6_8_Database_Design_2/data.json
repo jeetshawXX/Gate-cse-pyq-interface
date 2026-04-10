@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Database Design",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Database Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369356\"></a><div itemprop=\"text\"><p>Consider a relation \\( \\text{R} \\) with attributes \\( \\{ \\text{A, B, C} \\} \\) and functional dependency set \\( \\text {S= \\{ A} \\rightarrow \\text{B, } \\text{A} \\rightarrow \\text{C} \\; \\}. \\) Then relation \\( \\text{R} \\) can be decomposed into two relations :</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\text{R1} \\{ \\text{A, B} \\} \\; \\text{AND} \\; \\text{R2} \\{ \\text{A, C} \\}  \\)</p>",
+            "<p>\\(  \\text{R1} \\{ \\text{A, B} \\} \\; \\text{AND} \\; \\text{R2} \\{ \\text{B, C} \\}  \\)</p>",
+            "<p>\\(  \\text{R1} \\{ \\text{A, B, C} \\} \\; \\text{AND} \\; \\text{R2} \\{ \\text{A, C} \\}  \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\(  \\text{R1} \\{ \\text{A, B} \\} \\; \\text{AND} \\; \\text{R2} \\{ \\text{A, C} \\}  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369356/nielit-2021-dec-scientist-a-section-b-57\" target=\"_blank\">https://gateoverflow.in/369356/nielit-2021-dec-scientist-a-section-b-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366952\"></a><div itemprop=\"text\"><p>Assume that a \\( \\text{DBA} \\) issued the following create table command :&nbsp;</p>\n\n<p>create table \\( \\text{A (Aid,  \\)\\dots\\dots\\( )} \\)</p>\n\n<p>storage \\( \\text{ (initial 20480, next 20480, maxextents 8, minextents&nbsp;3,&nbsp;pctincrease 0)}; \\)</p>\n\n<p>How many bytes of disk space will be allocated to this file when it is first created \\( ? \\)</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 163,840 \\; \\text{bytes} \\)</p>",
+            "<p>\\( 20480 \\; \\text{bytes} \\)</p>",
+            "<p>\\( 61,440 \\; \\text{bytes} \\)</p>",
+            "<p>\\( 8&nbsp;\\; \\text{bytes} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 61,440 \\; \\text{bytes} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366952/nielit-2021-dec-scientist-b-section-b-65\" target=\"_blank\">https://gateoverflow.in/366952/nielit-2021-dec-scientist-b-section-b-65</a></p>"
+        }
+      ]
+    }
+  ]
+}

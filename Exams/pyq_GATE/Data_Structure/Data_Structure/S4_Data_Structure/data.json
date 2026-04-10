@@ -1,0 +1,206 @@
+{
+  "title": "Data_Structure - Data_Structure - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of possible min-heaps containing each value from {1, 2, 3, 4, 5, 6, 7} exactly once is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "80",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204121/gate2018-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The postorder traversal of a binary tree is 8,9,6,7,4,5,2,3,1. The inorder traversal of the same tree is 8,6,9,4,7,2,5,1,3. The height of a tree is the length of the longest path from the root to any leaf. The height of the binary tree above is ______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204094/gate2018-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A queue is implemented using a non-circular singly linked list. The queue has a head pointer and a tail pointer, as shown in the figure. Let n denote the number of nodes in the queue. Let enqueue be implemented by inserting a new node at the head, and dequeue be implemented by deletion of a node from the tail.    <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q3_34b9ffa9.jpg\"><br>  Which one of the following is the time complexity of the most time-efficient implementation of enqueue and dequeue, respectively, for this data structure? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (1), \\Theta (1)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (1), \\Theta (n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n), \\Theta (1)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n), \\Theta (n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Theta (1), \\Theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204077/gate2018-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The pre-order transversal of a binary search tree is given by 12, 8, 6, 2, 7, 9, 10, 16, 15, 19,\n17, 20. Then the post-order traversal of this tree is: <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2,6,7,8,9,10,12,15,16,17,19,20</p>",
+            "<b>B.</b> <p>2,7,6,10,9,8,15,17,20,19,16,12</p>",
+            "<b>C.</b> <p>7,2,6,8,9,10,20,17,19,15,16,12</p>",
+            "<b>D.</b> <p>7,6,2,10,9,8,15,16,17,20,19,12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2,7,6,10,9,8,15,17,20,19,16,12</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118378/gate2017-2-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A circular queue has been implemented using a single linked list where each node consists of\na value and a single pointer pointing to the next node. We maintain exactly two external\npointers FRONT and REAR pointing to the front node and the rear node of the queue,\nrespectively. Which of the following statements is/are CORRECT for such a circular queue,\nso that insertion and deletion operation can be performed in O (1) time ?<br><br>\nI. Next pointer of front node points to the rear node.<br>\nII. Next pointer of rear node points to the front node. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118253/gate2017-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let A be an array of 31 numbers consisting of sequence of 0's followed by a sequence of 1's.\nThe problem is to find the smallest index i that A[i] is 1 by probing the minimum numbers of\nlocations in A. The worst case number of probes performed by an optimal algorithm is\n_____________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118331/gate2017-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the C code fragment given below.<pre><code>\ntypedef struct node {\nint data;\nnode* next ;\n} node;\nvoid join (node* m, node* n) {\nnode* p=n ;\nwhile (p-&gt;next ! =NULL){\np = p -&gt; next ;\n}\np-&gt; next = m;\n}</code></pre>\nAssuming that m and n point to valid NULL- terminated linked lists, invocation of join will <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>append list m to the end of list n for all inputs.</p>",
+            "<b>B.</b> <p>either cause a null pointer dereference or append list m to the end of list n.</p>",
+            "<b>C.</b> <p>cause a null pointer dereference for all inputs.</p>",
+            "<b>D.</b> <p>append list n to the end of list m for all inputs.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>either cause a null pointer dereference or append list m to the end of list n.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118711/gate2017-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let T be a binary search tree with 15 nodes. The minimum and maximum possible heights of T are : <br>\nNote: The height of a tree with a single node is 0. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 and 15 respectively</p>",
+            "<b>B.</b> <p>3 and 14 respectively</p>",
+            "<b>C.</b> <p>4 and 14 respectively</p>",
+            "<b>D.</b> <p>3 and 15 respectively</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3 and 14 respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118286/gate2017-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The number of ways in which the numbers 1,2,3,4,5,6,7 can be inserted in an empty binary search tree, such that the resulting tree has height 6, is _____.<br>\nNote: The height of a tree with a single node is 0. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "64",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39586/gate2016-2-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following New-order strategy for traversing a binary tree: <br>\nVisit the root; <br>\nVisit the right sub tree using New-order; <br>\nVisit the left sub tree using New-order; <br>\nThe New-order traversal of the expression tree corresponding to the reverse polish expression <br> 3  4 * 5 - 2 ^ 6 7 * 1 + - is given by: <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>+ - 1 6 7 * 2 ^ 5 - 3 4 *</p>",
+            "<b>B.</b> <p>- + 1 * 7 6 ^ 2 - 5 * 4 3</p>",
+            "<b>C.</b> <p>- + 1 * 6 7 ^ 2 - 5 * 3 4</p>",
+            "<b>D.</b> <p>1 7 6 * + 2 5 4 3 * - ^ -</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>- + 1 * 7 6 ^ 2 - 5 * 4 3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39597/gate2016-2-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A complete binary min-heap is made by including each integer in [1,1023] exactly once. The depth of a node in the heap is the length of the path from the root of the heap to that node. Thus, the root is at depth 0. The maximum depth at which integer 9 can appear is_____.\n. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39585/gate2016-2-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>B+ Trees are considered BALANCED because <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the lengths of the paths from the root to all leaf nodes are all equal.</p>",
+            "<b>B.</b> <p>the lengths of the paths from the root to all leaf nodes differ from each other by at most 1.</p>",
+            "<b>C.</b> <p>the number of children of any two non-leaf sibling nodes differ by at most 1</p>",
+            "<b>D.</b> <p>the number of records in any two leaf nodes differ by at most 1.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>the lengths of the paths from the root to all leaf nodes are all equal.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39569/gate2016-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>N items are stored in a sorted doubly linked list. For a delete operation, a pointer is provided to the record to be deleted. For a decrease-key operation, a pointer is provided to the record on which the operation is to be performed. <br> An algorithm performs the following operations on the list in this order: \\(\\Theta(N) \\; delete \\) , \\(  O(logN) \\;  insert \\), \\( O(logN) \\; find \\),  and \\( \\Theta(N) \\; decrease-key\\). What is the time complexity of all these operations put together? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(log^{2}N)\\)</p>",
+            "<b>B.</b> <p>O(N)</p>",
+            "<b>C.</b> <p>\\(O(N^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (N^{2} logN)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(N^{2})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39557/gate2016-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let Q denote a queue containing sixteen numbers and S be an empty stack. Head(Q) returns the element at the head of the queue Q without removing it from Q. Similarly Top(S) returns the element at the top of S without removing it from S. Consider the algorithm given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q41_f1da2e75.jpg\"><br> The maximum possible number of iterations of the while loop in the algorithm is_________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "256",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39684/gate2016-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An operator delete(i) for a binary heap data structure is to be designed to delete the item in the i-th node.Assume that the heap is implemented in an array and i refers to the i-th index of thearray.If the heap tree has depth d (number of edges on the path from the root to the farthest leaf),the n what is the time complexity to re-fix the heap efficiently after the removal of the element? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(1)</p>",
+            "<b>B.</b> <p>O(d) but not O(1)</p>",
+            "<b>C.</b> <p>O(\\(2^{d}\\)) but not O(d)</p>",
+            "<b>D.</b> <p>O(d \\(2^{d}\\)) but not O(\\(2^{d}\\))</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(d) but not O(1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39706/gate2016-1-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

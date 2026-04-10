@@ -1,0 +1,26 @@
+{
+  "title": "Compiler Design - Compilation Phases",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Compilation Phases",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"331473\"></a><div itemprop=\"text\"><p>Which one indicates a technique of building cross compilers?</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2020 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Beta cross</p>",
+            "<p>Canadian cross</p>",
+            "<p>Mexican cross</p>",
+            "<p>X-cross</p>"
+          ],
+          "correct_answer": "<p>Canadian cross</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331473/isro-cse-2020-question-17\" target=\"_blank\">https://gateoverflow.in/331473/isro-cse-2020-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

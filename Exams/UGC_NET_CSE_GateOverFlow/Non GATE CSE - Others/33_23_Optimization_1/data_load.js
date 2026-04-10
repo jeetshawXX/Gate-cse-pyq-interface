@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Optimization",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Optimization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64115\"></a><div itemprop=\"text\"><p>The region of feasible solution of a linear programminig problem has a ____ property in geometry, provided the feasible solution of the problem exists</p>\n\n</div><br><br><b>Others: UGC NET CSE | July 2016 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>concavity</p>",
+            "<p>convexity</p>",
+            "<p>quadratic</p>",
+            "<p>polyhedron</p>"
+          ],
+          "correct_answer": "<p>convexity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64115/ugc-net-cse-july-2016-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/64115/ugc-net-cse-july-2016-part-3-question-61</a></p>"
+        }
+      ]
+    }
+  ]
+});

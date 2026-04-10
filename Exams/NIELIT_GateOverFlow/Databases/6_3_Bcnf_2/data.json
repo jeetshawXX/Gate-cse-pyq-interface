@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Bcnf",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Bcnf",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336289\"></a><div itemprop=\"text\"><p>Which of the following is TRUE?</p>\n\n</div><br><br><b>Databases: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Every relation in \\( 3 \\)NF is also in BCNF</p>",
+            "<p>A relation R is in \\( 3 \\)NF if every non-prime attribute of R is fully functionally dependent on every key of R</p>",
+            "<p>Every relation in BCNF is also in \\( 3 \\)NF</p>",
+            "<p>No relation can be in both BCNF and \\( 3 \\)NF.</p>"
+          ],
+          "correct_answer": "<p>Every relation in BCNF is also in \\( 3 \\)NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336289/nielit-2017-dec-scientist-b-section-b-24\" target=\"_blank\">https://gateoverflow.in/336289/nielit-2017-dec-scientist-b-section-b-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336258\"></a><div itemprop=\"text\"><p>Consider the relational schema \\( \\text{R(A B C D)} \\) with following functional dependency set \\( F=\\{A\\rightarrow&nbsp;BC,C\\rightarrow&nbsp;D\\}; \\) The relation \\( \\text{R} \\) is in&nbsp;</p>\n\n</div><br><br><b>Databases: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)NF</p>",
+            "<p>BCNF</p>",
+            "<p>\\( 3 \\)NF</p>",
+            "<p>\\( 1 \\)NF</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336258/nielit-2017-dec-scientist-b-section-b-55\" target=\"_blank\">https://gateoverflow.in/336258/nielit-2017-dec-scientist-b-section-b-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

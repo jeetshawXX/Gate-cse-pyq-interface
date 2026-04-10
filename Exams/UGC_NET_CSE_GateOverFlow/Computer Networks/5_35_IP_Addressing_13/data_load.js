@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - IP Addressing",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "IP Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335643\"></a><div itemprop=\"text\"><p>The network \\( 198.78.41.0 \\) is a :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2006 | Part 2 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Class A Network</p>",
+            "<p>Class B&nbsp;Network</p>",
+            "<p>Class C&nbsp;Network</p>",
+            "<p>Class D&nbsp;Network</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335643/ugc-net-cse-december-2006-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/335643/ugc-net-cse-december-2006-part-2-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335642\"></a><div itemprop=\"text\"><p>The subnet mask \\( 255.255.255.192 \\)</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2006 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Extends the network portion to 16 bits</p>",
+            "<p>Extends the network portion to 26 bits</p>",
+            "<p>Extends the network portion to 36 bits</p>",
+            "<p>Has no effect on the network portion of an IP address</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335642/ugc-net-cse-december-2006-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/335642/ugc-net-cse-december-2006-part-2-question-29</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"155180\"></a><div itemprop=\"text\"><p>IP address in B&nbsp;class is given by:</p></div><br><br><b>Computer Networks: UGC NET CSE | December 2008 | Part 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>125.123.123.2</p>",
+            "<p>191.023.21.54</p>",
+            "<p>192.128.32.56&nbsp;</p>",
+            "<p>10.14.12.34</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155180/ugc-net-cse-december-2008-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/155180/ugc-net-cse-december-2008-part-2-question-20</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"60720\"></a><div itemprop=\"text\"><p>In IPV 4, the IP address 200.200.200.200 belongs to</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2013 | Part 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class A</p>",
+            "<p>Class B</p>",
+            "<p>Class C</p>",
+            "<p>Class D</p>"
+          ],
+          "correct_answer": "<p>Class C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60720/ugc-net-cse-december-2013-part-3-question-44\" target=\"_blank\">https://gateoverflow.in/60720/ugc-net-cse-december-2013-part-3-question-44</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"225843\"></a><div itemprop=\"text\"><p>The dotted-decimal notation of the following IPV4 address in binary notation is ____</p>\n\n<p>10000001 00001011 00001011 11101111</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>111.56.45.239</p>",
+            "<p>129.11.10.238</p>",
+            "<p>129.11.11.239</p>",
+            "<p>111.56.11.239</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225843/ugc-net-cse-july-2018-part-2-question-43\" target=\"_blank\">https://gateoverflow.in/225843/ugc-net-cse-july-2018-part-2-question-43</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"335433\"></a><div itemprop=\"text\"><p>&nbsp;What is the correct subnet mask to use for a class-\\( B \\) address to support \\( 30 \\) Networks and also have the most hosts possible ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2005 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 255.255.255.0 \\)</p>",
+            "<p>\\( 255.255.192.0 \\)</p>",
+            "<p>\\( 255.255.240.0 \\)</p>",
+            "<p>\\( 255.255.248.0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335433/ugc-net-cse-june-2005-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/335433/ugc-net-cse-june-2005-part-2-question-30</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"56261\"></a><div itemprop=\"text\"><p>Which of the following IP address class is a multicast address?</p></div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class A</p>",
+            "<p>Class B</p>",
+            "<p>Class C</p>",
+            "<p>Class D</p>"
+          ],
+          "correct_answer": "<p>Class D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56261/ugc-net-cse-june-2012-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/56261/ugc-net-cse-june-2012-part-3-question-29</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"57598\"></a><div itemprop=\"text\">\n<p>A network on the Internet has a subnet mask of \\( 255.255.240.0 \\). What is the maximum number of hosts it can handle ?&nbsp;</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 3 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1024 \\)</p>",
+            "<p>\\( 2048 \\)</p>",
+            "<p>\\( 4096 \\)&nbsp;</p>",
+            "<p>\\( 8192 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 4096 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57598/ugc-net-cse-june-2014-part-3-question-71\" target=\"_blank\">https://gateoverflow.in/57598/ugc-net-cse-june-2014-part-3-question-71</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"316191\"></a><div itemprop=\"text\"><p>What percentage \\( (\\%) \\) of the IPv4, IP address space do all class C addresses consume?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2019 | Part 2 | Question: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12.5 \\% \\)</p>",
+            "<p>\\( 25 \\% \\)</p>",
+            "<p>\\( 37.5 \\% \\)</p>",
+            "<p>\\( 50 \\% \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12.5 \\% \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316191/ugc-net-cse-june-2019-part-2-question-88\" target=\"_blank\">https://gateoverflow.in/316191/ugc-net-cse-june-2019-part-2-question-88</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"61061\"></a><div itemprop=\"text\"><p>What is the size of the 'total length' field in \\( IPv4 \\) diagram?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | Junet 2015 | Part 2 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)&nbsp;bits</p>",
+            "<p>\\( 8 \\) bits</p>",
+            "<p>\\( 16 \\) bits</p>",
+            "<p>\\( 32 \\) bits</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\) bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61061/ugc-net-cse-junet-2015-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/61061/ugc-net-cse-junet-2015-part-2-question-29</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"166405\"></a><div itemprop=\"text\"><p>The address of a class \\( B \\) host is to be split into subnets with a \\( 6 \\)– bit subnet number. What is the maximum number of subnets and maximum number of hosts in each subnet?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | November 2017 | Part 3 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 62 \\)&nbsp;subnets and \\( 1022 \\) hosts</p>",
+            "<p>\\( 64 \\)&nbsp;subnets and \\( 1024 \\) hosts</p>",
+            "<p>\\( 62 \\)&nbsp;subnets and \\( 254 \\) hosts</p>",
+            "<p>\\( 64 \\)&nbsp;subnets and \\( 256 \\) hosts</p>"
+          ],
+          "correct_answer": "<p>\\( 62 \\)&nbsp;subnets and \\( 1022 \\) hosts</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166405/ugc-net-cse-november-2017-part-3-question-29\" target=\"_blank\">https://gateoverflow.in/166405/ugc-net-cse-november-2017-part-3-question-29</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"59514\"></a><div itemprop=\"text\">\n<p>Given the IP address 201.14.78.65 and the subset mask 255.255.255.224. What is the subset address?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 3 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>201.14.78.32</p>",
+            "<p>201.14.78.64</p>",
+            "<p>201.14.78.65</p>",
+            "<p>201.14.78.224</p>"
+          ],
+          "correct_answer": "<p>201.14.78.64</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59514/ugc-net-cse-september-2013-part-3-question-12\" target=\"_blank\">https://gateoverflow.in/59514/ugc-net-cse-september-2013-part-3-question-12</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"59509\"></a><div itemprop=\"text\"><p>Which of the following is the size of Network bits and Host bits of Class A of IP address?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Network bits 7, Host bits 24</p>",
+            "<p>Network bits 14, Host bits 16</p>",
+            "<p>Network bits 15, Host bits 16</p>",
+            "<p>Network bits 16, Host bits 16</p>"
+          ],
+          "correct_answer": "<p>Network bits 7, Host bits 24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59509/ugc-net-cse-september-2013-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/59509/ugc-net-cse-september-2013-part-3-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

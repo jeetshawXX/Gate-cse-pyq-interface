@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Functional Completeness",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Functional Completeness",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43845\"></a><div itemprop=\"text\"><p>Any set of Boolean operators that is sufficient to represent all Boolean expressions is said to be complete. Which of the following is not complete ?</p>\n\n</div><br><br><b>Digital Logic: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>{\\( NOT \\), \\( OR \\)}</p>",
+            "<p>{\\( NOR \\)}</p>",
+            "<p>{\\( AND \\), \\( OR \\)}</p>",
+            "<p>{\\( AND \\), \\( NOT \\)}</p>"
+          ],
+          "correct_answer": "<p>{\\( AND \\), \\( OR \\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43845/isro-2013-22\" target=\"_blank\">https://gateoverflow.in/43845/isro-2013-22</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182126\"></a><div itemprop=\"text\"><p>Which of the following set of components is sufficient to implement any arbitrary Boolean function?</p>\n\n</div><br><br><b>Digital Logic: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( XOR \\) gates, \\( NOT \\) gates</p>",
+            "<p>\\( AND \\) gates, \\( XOR \\) gates and \\( 1 \\)</p>",
+            "<p>\\( 2 \\) to \\( 1 \\) multiplexer</p>",
+            "<p>Three input gates that output \\( (A.B)+C \\) for the inputs \\( A, B, C \\)</p>"
+          ],
+          "correct_answer": "<p>\\( AND \\) gates, \\( XOR \\) gates and \\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182126/isro-dec2017-76\" target=\"_blank\">https://gateoverflow.in/182126/isro-dec2017-76</a></p>"
+        }
+      ]
+    }
+  ]
+});

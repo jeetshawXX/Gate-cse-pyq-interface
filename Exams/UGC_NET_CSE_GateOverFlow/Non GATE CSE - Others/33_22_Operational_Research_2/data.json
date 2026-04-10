@@ -1,0 +1,41 @@
+{
+  "title": "Non GATE CSE - Others - Operational Research",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Operational Research",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61519\"></a><div itemprop=\"text\"><p>The occurrence of degeneracy while solving a transportation problem means that</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2014 | Part 3 | Question: 68</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Total supply equals total demand</p>",
+            "<p>Total supply does not equal total demand</p>",
+            "<p>The solution so obtained is not feasible</p>",
+            "<p>​None of these&nbsp;</p>"
+          ],
+          "correct_answer": "<p>The solution so obtained is not feasible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61519/ugc-net-cse-december-2014-part-3-question-68\" target=\"_blank\">https://gateoverflow.in/61519/ugc-net-cse-december-2014-part-3-question-68</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59516\"></a><div itemprop=\"text\"><p>An optimal assignment requires that the minimum number of horizontal and vertical lines that can be drawn to cover all zeros be equal to the number of</p>\n\n</div><br><br><b>Others: UGC NET CSE | September 2013 | Part 3 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>rows or columns</p>",
+            "<p>rows + columns</p>",
+            "<p>rows + columns -1</p>",
+            "<p>rows + columns +1</p>"
+          ],
+          "correct_answer": "<p>rows or columns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59516/ugc-net-cse-september-2013-part-3-question-14\" target=\"_blank\">https://gateoverflow.in/59516/ugc-net-cse-september-2013-part-3-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Firewall",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Firewall",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59928\"></a><div itemprop=\"text\">\n<p>A _____ can forward or block packets based on the information in the network layer and transport layer header</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 3 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Proxy firewall</p>",
+            "<p>Firewall</p>",
+            "<p>Packet filter firewall</p>",
+            "<p>Message digest firewall</p>"
+          ],
+          "correct_answer": "<p>Proxy firewall</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59928/ugc-net-cse-september-2013-part-3-question-58\" target=\"_blank\">https://gateoverflow.in/59928/ugc-net-cse-september-2013-part-3-question-58</a></p>"
+        }
+      ]
+    }
+  ]
+});

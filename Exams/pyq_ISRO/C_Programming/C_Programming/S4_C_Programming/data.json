@@ -1,0 +1,221 @@
+{
+  "title": "C_Programming - C_Programming - Slot 4",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following psuedocode:<br><pre><code>x: integer := 1  \ny: integer := 2   \nprocedure add  \n    x:= x + y    \nprocedure second (P: Procedure)  \n    x: integer := 2      \n    p()   \nprocedure first  \n    y: integer := 3\n    second (add) \nfirst () \nwrite_integer(x) </code></pre> What does it print if the language uses dynamic scoping with deep binding? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43764/isro-2013-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Find the output of the following Java code line <br><pre><code>System.out.printIn(math.floor(-7.4)) </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-7</p>",
+            "<b>B.</b> <p>-8</p>",
+            "<b>C.</b> <p>-7.4</p>",
+            "<b>D.</b> <p>-7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>-8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52870/isro2011-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the output of the following C code?<br><pre><code>#include &lt; stdio.h &gt;\nint main()\n{\n    int index;\n    for(index=1; index&lt;=5; index++)\n    {\n        printf(\"%d\", index);\n        if (index==3)\n            continue;\n    }\n}\n </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1245</p>",
+            "<b>B.</b> <p>12345</p>",
+            "<b>C.</b> <p>12245</p>",
+            "<b>D.</b> <p>12354</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12345</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52841/isro2011-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In Java, after executing the following code what are the values of x, y and z?<br>\nint x, y=10; z=12;<br>\nx=y++ + z++;<br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x=22, y=10, z=12</p>",
+            "<b>B.</b> <p>x=24, y=10, z=12</p>",
+            "<b>C.</b> <p>x=24, y=11, z=13</p>",
+            "<b>D.</b> <p>x=22, y=11, z=13</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x=22, y=11, z=13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52501/isro2011-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following pseudocode<br><pre><code>x:=1;\ni:=1;\nwhile (x \\leq 500)\nbegin\nx:=2^x;\ni:=i+1;\nend\n</code></pre> <br>What is the value of i at the end of the pseudocode? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52489/isro2011-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following code written in a pass-by-reference language like FORTRAN and these statements about the code. <br><pre><code> subroutine swap(ix,iy) \n     it = ix \nL1 : ix = iy \nL2 : iy = it \n    end \n    ia = 3 \n    ib = 8 \n    call swap (ia, ib+5)\n    print *, ia, ib \n    end </code></pre><br>S1: The compiler will  generate code to allocate a temporary nameless cell, initialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2 <br>\nS4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement(s) is correct: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S3</p>",
+            "<b>D.</b> <p>S1 and S5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56-isro2009-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In C, what is the effect of a negative number in a field width specifier? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the values are displayed right justified</p>",
+            "<b>B.</b> <p>the values are displayed centered</p>",
+            "<b>C.</b> <p>the values are displayed left justified</p>",
+            "<b>D.</b> <p>the values are displayed as negative numbers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the values are displayed left justified</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50148/isro2008-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What is the value of F(4) using the following procedure:<br><pre><code>function F(K : integer)\ninteger;\nbegin\nif (k&lt;3) then F:=k else F:=F(k-1)*F(k-2)+F(k-3)\nend; </code></pre> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50136/isro2008-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following code segment:<br><pre><code> for (int k=0; k&lt;20; k=k+2)\n{\n    if (k % 3 == 1)\n        system.out.print(k+ \" \");\n}</code></pre>\nWhat is printed as a result of executing the code segment? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4 16</p>",
+            "<b>B.</b> <p>4 10 16</p>",
+            "<b>C.</b> <p>0 6 12 18</p>",
+            "<b>D.</b> <p>1 4 7 10 13 16 19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4 10 16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49973/isro2008-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C function:<br><pre><code> int f(int n)\n{\n    static int i = 1;\n    if(n &gt;= 5) return n;\n    n = n+i;\n    i++;\n    return f(n);\n}</code></pre> <br>\nThe value returned by f(1) is: <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1028/gate2004-31-isro2008-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following is an illegal array definition? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Type COLONGE : (LIME, PINE, MUSK, MENTHOL); <br> var a : array [COLONGE] of REAL;</p>",
+            "<b>B.</b> <p>var a : array [REAL] of REAL;</p>",
+            "<b>C.</b> <p>var a : array ['A'..'Z'] of REAL;</p>",
+            "<b>D.</b> <p>var a : array [BOOLEAN] of REAL;</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>var a : array [REAL] of REAL;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18461/isro2008-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following programming language(s) provides garbage collection automatically <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Lisp</p>",
+            "<b>B.</b> <p>C++</p>",
+            "<b>C.</b> <p>Fortan</p>",
+            "<b>D.</b> <p>C</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Lisp</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49623/isro2007-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Study the following program<br><pre><code>//precondition: x&gt;=0\npublic void demo(int x)\n{\n    System.out.print(x % 10); \n    if (x % 10 != 0)\n    {\n        demo(x/10);\n    }\n    System.out.print(x%10);\n} </code></pre> <br>\nWhich of the following is printed as a result of the call demo (1234)? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1441</p>",
+            "<b>B.</b> <p>3443</p>",
+            "<b>C.</b> <p>12344321</p>",
+            "<b>D.</b> <p>43211234</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>43211234</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49496/isro2007-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following pseudo-code<br><pre><code>x:=1;\ni:=1;\nwhile (x &lt;= 1000)\nbegin\n    x:=2^x;\n    i:=i+1;\nend; </code></pre> <br>\nWhat is the value of i at the end of the pseudo-code? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49486/isro2007-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

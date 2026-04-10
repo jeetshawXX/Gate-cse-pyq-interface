@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "English Language - Idioms",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Idioms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6768\"></a><div itemprop=\"text\"><p>For the following idiomatic verbal expressions find the best answer given after them :</p>\n\n<p>To draw the long bow</p>\n\n</div><br><br><b>English Language: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>to put up high demands</p>",
+            "<p>to make an exaggerated statement</p>",
+            "<p>to demand a very high price</p>",
+            "<p>to overestimate oneself</p>"
+          ],
+          "correct_answer": "<p>to make an exaggerated statement</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6768/nielit-2019-feb-scientist-d-section-b-23\" target=\"_blank\">https://aptitude.gateoverflow.in/6768/nielit-2019-feb-scientist-d-section-b-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6767\"></a><div itemprop=\"text\"><p>For the following idiomatic verbal expressions find the best answer given after them :</p>\n\n<p>Spick and span</p>\n\n</div><br><br><b>English Language: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A ready-made something</p>",
+            "<p>Outspoken</p>",
+            "<p>Garrulous</p>",
+            "<p>Neat and clean</p>"
+          ],
+          "correct_answer": "<p>Neat and clean</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6767/nielit-2019-feb-scientist-d-section-b-24\" target=\"_blank\">https://aptitude.gateoverflow.in/6767/nielit-2019-feb-scientist-d-section-b-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

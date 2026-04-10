@@ -1,0 +1,199 @@
+{
+  "title": "Memory_Management - Memory_Management - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Memory_Management",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A computer system supports a logical address space of \\(2^{32}\\) bytes. It uses two-level hierarchical paging with a page size of 4096 bytes. A logical address is divided into a \\(b\\)-bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size. <br><br>The value of \\(b\\) is ___________ . (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460845/gate-cse-2025-set-2-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a demand paging system with three frames, and the following page reference string:\n1 2 3 4 5 4 1 6 4 5 1 3 2. The contents of the frames are as follows initially and after each reference (from left to right):\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Management\\q37_c7e13067.webp\"><br>\nThe *-marked references cause page replacements.  <br>\nWhich one or more of the following could be the page replacement policy/policies in use? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Least Recently Used page replacement policy</p>",
+            "<b>B.</b> <p>Least Frequently Used page replacement policy</p>",
+            "<b>C.</b> <p>Most Frequently Used page replacement policy</p>",
+            "<b>D.</b> <p>Optimal page replacement policy</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Optimal page replacement policy</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460798/gate-cse-2025-set-2-question-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In optimal page replacement algorithm, information about all future page references is available to the operating system (OS). A modification of the optimal page replacement algorithm is as follows:\n<br>\nThe OS correctly predicts only up to next 4 page references (including the current page) at the time of allocating a frame to a page.\n<br>\nA process accesses the pages in the following order of page numbers:\n<br><br>\n1, 3, 2, 4, 2, 3, 1, 2, 4, 3, 1, 4.\n<br><br>\nIf the system has three memory frames that are initially empty, the number of page faults that will occur during execution of the process is _________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460036/gate-cse-2025-set-1-question-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a demand paging memory management system with 32-bit logical address, 20-bit physical address, and page size of 2048 bytes. Assuming that the memory is byte addressable, what is the maximum number of entries in the page table? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{21}\\)</p>",
+            "<b>B.</b> <p>\\(2^{20}\\)</p>",
+            "<b>C.</b> <p>\\(2^{22}\\)</p>",
+            "<b>D.</b> <p>\\(2^{24}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2^{21}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460076/gate-cse-2025-set-1-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a 32-bit system with \\(4 \\mathrm{~KB} \\) page size and page table entries of size 4 bytes each. Assume \\( 1 \\mathrm{~KB}=2^{10} \\) bytes. The OS uses a 2-level page table for memory management, with the page table containing an outer page directory and an inner page table. The OS allocates a page for the outer page directory upon process creation. The OS uses demand paging when allocating memory for the inner page table, i.e., a page of the inner page table is allocated only if it contains at least one valid page table entry.\n<br>\nAn active process in this system accesses 2000 unique pages during its execution, and none of the pages are swapped out to disk. After it completes the page accesses, let \\( X \\) denote the minimum and \\( Y \\) denote the maximum number of pages across the two levels of the page table of the process.\n<br>\nThe value of \\( X+Y \\) is _____ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1028",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422843/gate-cse-2024-set-2-question-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following tasks is/are the responsibility/responsibilities of the memory\nmanagement unit (MMU) in a system with paging-based memory management? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Allocate a new page table for a newly created process</p>",
+            "<b>B.</b> <p>Translate a virtual address to a physical address using the page table</p>",
+            "<b>C.</b> <p>Raise a trap when a virtual address is not found in the page table</p>",
+            "<b>D.</b> <p>Raise a trap when a process tries to write to a page marked with read-only permission in the page table</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translate a virtual address to a physical address using the page table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422883/gate-cse-2024-set-2-question-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a memory management system that uses a page size of \\( 2 \\mathrm{~KB} \\). Assume that both the physical and virtual addresses start from 0. Assume that the pages \\( 0,1,2 \\), and \\(3\\) are stored in the page frames \\( 1,3,2 \\), and \\(0\\), respectively. The physical address (in decimal format) corresponding to the virtual address \\(2500\\) (in decimal format) is ____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6596",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422790/gate-cse-2024-set-1-question-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider a computer system with 57-bit virtual addressing using multi-level\ntree-structured page tables with L levels for virtual to physical address translation.\nThe page size is 4 KB (1 KB = 1024 B) and a page table entry at any of the levels\noccupies 8 bytes.<br>\nThe value of L is ______. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399263/gate-cse-2023-question-48#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following two-dimensional array D in the C programming language,\nwhich is stored in row-major order:<br><br>\nint D[128][128];<br><br>\nDemand paging is used for allocating memory and each physical page frame holds\n512 elements of the array D. The Least Recently Used (LRU) page-replacement\npolicy is used by the operating system. A total of 30 physical page frames are\nallocated to a process which executes the following code snippet:<br><pre><code>\nfor (int i = 0; i &lt; 128; i++)\n       for (int j = 0; j &lt; 128; j++) \n                   D[j][i] *= 10;\n</code></pre><br>\nThe number of page faults generated during the execution of this code snippet is _____. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4096",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399264/gate-cse-2023-question-47#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a demand paging system with four page frames (initially empty) and LRU page replacement policy. For the following page reference string\n<br><br>\n7, 2, 7, 3, 2, 5, 3, 4, 6, 7, 7,1, 5, 6,1\n<br><br>\nthe page fault rate, defined as the ratio of number of page faults to the number of memory accesses (rounded off to one decimal place) is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371882/Gate-cse-2022-question-54#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which one of the following statements is FALSE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The TLB performs an associative search in parallel on all its valid entries using page number of incoming virtual address.</p>",
+            "<b>B.</b> <p>If the virtual address of a word given by CPU has a TLB hit, but the subsequent search for the word results in a cache miss, then the word will always be present in the main memory.</p>",
+            "<b>C.</b> <p>The memory access time using a given inverted page table is always same for all incoming virtual addresses.</p>",
+            "<b>D.</b> <p>In a system that uses hashed page tables, if two distinct virtual addresses V1 and V2 map to the same value while hashing, then the memory access time of these addresses will not be the same.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The memory access time using a given inverted page table is always same for all incoming virtual addresses.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371908/Gate-cse-2022-question-28#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a three-level page table to translate a 39-bit virtual address to a physical address as shown below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Memory_Management\\q48_18e02a9f.jpg\"><br>\nThe page size is 4 KB = (1KB =\\(2^{10}\\) bytes) and page table entry size at every level is 8 bytes. A process P is currently using 2 GB (1 GB =\\(2^{30}\\) bytes) virtual memory which os mapped to 2 GB of physical memory. The minimum amount of memory required for the page table of P across all levels is _________ KB <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4108",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357489/gate-cse-2021-set-2-question-48#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the context of operating systems, which of the following statements is/are correct with respect to paging? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Paging helps solve the issue of external fragmentation</p>",
+            "<b>B.</b> <p>Page size has no impact on internal fragmentation</p>",
+            "<b>C.</b> <p>Paging incurs memory overheads</p>",
+            "<b>D.</b> <p>Multi-level paging is necessary to support pages of different sizes</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Paging helps solve the issue of external fragmentation</p>",
+            "<b>C.</b> <p>Paging incurs memory overheads</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357441/gate-cse-2021-set-1-question-11#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following page reference string.<br>1 2 3 4 2 1 5 6 2 1 2 3 7 6 3 2 1 2 3 6 <br>What are the minimum number of frames required to get a single page fault for the above sequence assuming LRU replacement strategy? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331254/isro2020-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is compaction refers to <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a technique for overcoming internal fragmentation</p>",
+            "<b>B.</b> <p>a paging technique</p>",
+            "<b>C.</b> <p>a technique for overcoming external fragmentation</p>",
+            "<b>D.</b> <p>a technique for compressing the data</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>a technique for overcoming external fragmentation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331280/isro2020-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

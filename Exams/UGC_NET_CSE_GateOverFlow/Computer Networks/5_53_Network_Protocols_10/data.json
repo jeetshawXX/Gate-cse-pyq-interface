@@ -1,0 +1,161 @@
+{
+  "title": "Computer Networks - Network Protocols",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Network Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69954\"></a><div itemprop=\"text\"><p>Which of the following protocols is used by email server to maintain a central repository that can be accessed from any machine ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | August 2016 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( POP3 \\)</p>",
+            "<p>\\( IMAP \\)</p>",
+            "<p>\\( SMTP \\)&nbsp;</p>",
+            "<p>\\( DMSP \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69954/ugc-net-cse-august-2016-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/69954/ugc-net-cse-august-2016-part-2-question-30</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"70933\"></a><div itemprop=\"text\"><p>Consider the following statements :</p>\n\n<p>A. High speed Ethernet works on optic fiber.</p>\n\n<p>B. A point to point protocol over Ethernet is a network protocol for encapsulating \\( PPP \\) frames inside Ethernet frames.</p>\n\n<p>C. High speed Ethernet does not work on optic fiber.</p>\n\n<p>D. A point to point protocol over Ethernet is a network protocol for encapsulating Ethernet frames inside \\( PPP \\) frames.</p>\n\n<p>Which of the following is correct ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | August 2016 | Part 3 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( A \\) and \\( B \\) are true; \\( C \\) and \\( D \\) are false.</p>",
+            "<p>\\( A \\) and \\( B \\) are false; \\( C \\) and \\( D \\) are true.</p>",
+            "<p>\\( A, B, C \\) and \\( D \\) are true.</p>",
+            "<p>\\( A, B, C \\) and \\( D \\) are false.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70933/ugc-net-cse-august-2016-part-3-question-26\" target=\"_blank\">https://gateoverflow.in/70933/ugc-net-cse-august-2016-part-3-question-26</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"66902\"></a><div itemprop=\"text\"><p>Which of the following file transfer protocols use \\( TCP \\) and establishes two virtual circuits between the local and remote server ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 29</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( FTP \\)</p>",
+            "<p>\\( TFTP \\)&nbsp;</p>",
+            "<p>\\( TELNET \\)</p>",
+            "<p>\\( NFS \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66902/ugc-net-cse-december-2010-part-2-question-29\" target=\"_blank\">https://gateoverflow.in/66902/ugc-net-cse-december-2010-part-2-question-29</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"56511\"></a><div itemprop=\"text\">\n<p>The Mobile Application Protocol (MAP) typically runs on top of which protocol?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2012 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SNMP (Simple Network Management Protocol)</p>",
+            "<p>SMTP (Simple Mail Transfer Protocol)</p>",
+            "<p>SS7 (Signalling System 7)</p>",
+            "<p>HTTP (Hyper Text Transfer Protocol)</p>"
+          ],
+          "correct_answer": "<p>SS7 (Signalling System 7)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56511/ugc-net-cse-december-2012-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/56511/ugc-net-cse-december-2012-part-2-question-8</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"67884\"></a><div itemprop=\"text\"><p>The ______ field is the SNMP PDV&nbsp;reports an error in a response message.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2010 | Part 2 | Question: 26</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Error index</p>",
+            "<p>Error status</p>",
+            "<p>Set request</p>",
+            "<p>Agent index</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67884/ugc-net-cse-june-2010-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/67884/ugc-net-cse-june-2010-part-2-question-26</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"349640\"></a><div itemprop=\"text\"><p>Protocols in which the sender sends one frame and then waits for an acknowledgment&nbsp;before proceeding for next frame are called as ______</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Simplex protocols</p>",
+            "<p>Unrestricted simplex&nbsp;protocols</p>",
+            "<p>Simplex stop and wait&nbsp;protocols</p>",
+            "<p>Restricted simplex&nbsp;protocols</p>"
+          ],
+          "correct_answer": "<p>Simplex stop and wait&nbsp;protocols</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349640/ugc-net-cse-october-2020-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/349640/ugc-net-cse-october-2020-part-2-question-33</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"349614\"></a><div itemprop=\"text\"><p>Post office protocol (POP) is a message access protocol which is used to extract message for client. In this regards, which of the following are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>POP has two modes, Delete mode and keep</li>\n\t<li>In Delete mode, mail is deleted from mail box after each retrival</li>\n\t<li>In Delete mode, mail is deleted from&nbsp;mail box before each retriveal</li>\n\t<li>In keep mode, mail is deleted before retrival</li>\n\t<li>In keep mode, mail&nbsp;remains in mail box after retrival</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (i) \\) and \\( (ii) \\) only</p>",
+            "<p>\\( (i) \\) , \\( (iv) \\) and \\( (v) \\) only</p>",
+            "<p>\\( (i) \\), \\( (ii) \\), \\( (iii) \\) and \\( (iv) \\) only</p>",
+            "<p>\\( (i) \\), \\( (ii) \\) and \\( (v) \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( (i) \\), \\( (ii) \\) and \\( (v) \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349614/ugc-net-cse-october-2020-part-2-question-59\" target=\"_blank\">https://gateoverflow.in/349614/ugc-net-cse-october-2020-part-2-question-59</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"349601\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Match \\( \\text{List I} \\) with \\( \\text{List II} \\)</p>\n\n<p>\\( \\begin{array}{llll} &amp; \\text{List I} &amp; &amp; \\text{List II} \\\\ (A) &amp; \\text{Serial Line IP (SLIP)} &amp; (I) &amp; \\text{Application layer} \\\\ (B) &amp; \\text{Border Gateway Protocol (BGP)} &amp; (II) &amp; \\text{Transport layer} \\\\ (C) &amp; \\text{User Data Protocol (UDP)} &amp; (III) &amp; \\text{Data Link layer}&nbsp;&nbsp;\\\\ (D) &amp; \\text{Simple Network Management} &amp; (IV) &amp; \\text{Network layer} \\\\ &amp; \\text{Protocol} \\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | October 2020 | Part 2 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A-I, B-II, C-III, D-IV \\)</p>",
+            "<p>\\( A-III, B-IV, C-II, D-I \\)</p>",
+            "<p>\\( A-II, B-III, C-IV, D-I \\)</p>",
+            "<p>\\( A-III, B-I, C-IV, D-II \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A-III, B-IV, C-II, D-I \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349601/ugc-net-cse-october-2020-part-2-question-72\" target=\"_blank\">https://gateoverflow.in/349601/ugc-net-cse-october-2020-part-2-question-72</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"59253\"></a><div itemprop=\"text\">\n<p>A method to provide secure transmission of email is called</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>TLS</p>",
+            "<p>SA</p>",
+            "<p>IPSec</p>",
+            "<p>PGP</p>"
+          ],
+          "correct_answer": "<p>PGP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59253/ugc-net-cse-september-2013-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/59253/ugc-net-cse-september-2013-part-2-question-42</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"59513\"></a><div itemprop=\"text\"><p>Match the following \\( : \\)</p>\n\n<p>\\( \\begin{array} {}&nbsp; \\text{(a)} &amp; \\text{UDP} &amp; \\text{(i)} &amp; \\text{Message Transfer Protocol} \\\\ &nbsp; \\text{(b)}&nbsp;&amp; \\text{OSPF} &amp; \\text{(ii)} &amp; \\text{Bit Oriented&nbsp;Protocol} \\\\ &nbsp; \\text{(c)} &amp; \\text{SMTP} &amp; \\text{(iii)} &amp; \\text{Interior Gateway Routing&nbsp;Protocol} \\\\ &nbsp; \\text{(d)} &amp; \\text{HDLC} &amp; \\text{(iv)} &amp; \\text{Connectionless Transport&nbsp;&nbsp;Protocol} \\\\ &nbsp; &nbsp;\\end{array} \\)</p>\n\n<p><strong>Codes:</strong></p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | September 2013 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59513/ugc-net-cse-september-2013-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/59513/ugc-net-cse-september-2013-part-3-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Discrete Mathematics - Mathematical Logic - Propositional Logic",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Propositional Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336422\"></a><div itemprop=\"text\"><p>Which of the following statements is false?</p>\n\n</div><br><br><b>Mathematical Logic: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (P\\land&nbsp;Q)\\lor(\\sim P\\land&nbsp;Q)\\lor(P \\land \\sim Q) \\) is equal to \\( \\sim Q\\land \\sim P \\)</p>",
+            "<p>\\( (P\\land&nbsp;Q)\\lor(\\sim P\\land&nbsp;Q)\\lor(P \\wedge \\sim Q) \\) is equal to \\( Q\\lor&nbsp;P \\)</p>",
+            "<p>\\( (P\\wedge&nbsp;Q)\\lor&nbsp;(\\sim&nbsp;P\\land&nbsp;Q)\\lor(P \\wedge \\sim Q) \\) is equal to \\( Q\\lor&nbsp;(P\\wedge \\sim Q) \\)</p>",
+            "<p>\\( (P\\land&nbsp;Q)\\lor(\\sim P\\land&nbsp;Q)\\lor&nbsp;(P \\land \\sim Q) \\) is equal to \\( P\\lor&nbsp;(Q\\land \\sim P) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (P\\land&nbsp;Q)\\lor(\\sim P\\land&nbsp;Q)\\lor(P \\land \\sim Q) \\) is equal to \\( \\sim Q\\land \\sim P \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336422/nielit-2017-july-scientist-b-it-section-b-13\" target=\"_blank\">https://gateoverflow.in/336422/nielit-2017-july-scientist-b-it-section-b-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351598\"></a><div itemprop=\"text\"><p>Given the truth table of a Binary Operation \\$ as follows:</p>\n\n<p>$$\\begin{array}{|l|l|l|l|} \\hline {} &nbsp; \\text{X} &nbsp;&amp;&nbsp; \\text{Y&nbsp;}&amp;&nbsp; \\text{X\\$Y&nbsp;}\\\\&nbsp;\\hline&nbsp; \\text{1} &nbsp;&amp;&nbsp; \\text{0&nbsp;}&amp;&nbsp; \\text{1&nbsp;}\\\\&nbsp;\\hline&nbsp; \\text{1} &nbsp;&amp;&nbsp; \\text{1}&amp;&nbsp; \\text{1&nbsp;}\\\\&nbsp;\\hline&nbsp; \\text{0} &nbsp;&amp;&nbsp; \\text{1&nbsp;}&amp;&nbsp; \\text{0&nbsp;}\\\\&nbsp;\\hline&nbsp; \\text{0} &nbsp;&amp;&nbsp; \\text{0&nbsp;}&amp;&nbsp; \\text{1&nbsp;}\\\\&nbsp;\\hline&nbsp;&nbsp;\\end{array}$$</p>\n\n<p>Identify the matching Boolean Expression.</p>\n\n</div><br><br><b>Mathematical Logic: NIELIT Scientist B 2020 November: 84</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X \\ \\) \\neg&nbsp;Y$</p>",
+            "<p>\\( \\neg X \\ \\) Y$</p>",
+            "<p>\\( \\neg&nbsp;X \\ \\) \\neg&nbsp;Y$</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>none of the options</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351598/nielit-scientist-b-2020-november-84\" target=\"_blank\">https://gateoverflow.in/351598/nielit-scientist-b-2020-november-84</a></p>"
+        }
+      ]
+    }
+  ]
+}

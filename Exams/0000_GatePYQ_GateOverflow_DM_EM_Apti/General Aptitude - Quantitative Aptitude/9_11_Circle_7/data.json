@@ -1,0 +1,116 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Circle",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Circle",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"204064\"></a><div itemprop=\"text\"><p>The area of a square is \\( d \\). What is the area of the circle which has the diagonal of the square as its diameter?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\large{\\pi} d \\)</p>",
+            "<p>\\( \\large{\\pi} d^2 \\)</p>",
+            "<p>\\( \\dfrac{1}{4}\\large{\\pi} d^2 \\)</p>",
+            "<p>\\( \\dfrac{1}{2}\\large{\\pi} d \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{1}{2}\\large{\\pi} d \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204064/gate-cse-2018-question-ga-3\" target=\"_blank\">https://gateoverflow.in/204064/gate-cse-2018-question-ga-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"333233\"></a><div itemprop=\"text\"><p>The figure below shows an annular ring with outer and inner as \\( b \\) and \\( a \\), respectively. The annular space has been painted in the form of blue colour circles touching the outer and inner periphery of annular space. If maximum \\( n \\) number of circles can be painted, then the unpainted area available in annular space is _____.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"265\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___circle/d954eb41172f470fdb8af6a8a96fd7c6.png\" width=\"265\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}] \\)</p>",
+            "<p>\\( \\pi [(b^{2}-a^{2})-n(b-a)^{2}] \\)</p>",
+            "<p>\\( \\pi [(b^{2}-a^{2})+\\frac{n}{4}(b-a)^{2}] \\)</p>",
+            "<p>\\( \\pi [(b^{2}-a^{2})+n(b-a)^{2}] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\pi [(b^{2}-a^{2})-\\frac{n}{4}(b-a)^{2}] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333233/gate-cse-2020-question-ga-8\" target=\"_blank\">https://gateoverflow.in/333233/gate-cse-2020-question-ga-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359893\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" height=\"406\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___circle/efbf9683878f2bb93069355bf572aae8.png\" width=\"412\"></p>\n\n<p>In the figure shown above, \\( \\text{PQRS} \\) is a square. The shaded portion is formed by the intersection of sectors of circles with&nbsp;radius equal to the side of the square and centers at \\( S \\) and \\( Q \\).</p>\n\n<p>The probability that any point picked randomly within the square falls in the shaded area is ____________</p>\n\n</div><br><br><b>GATE Civil 2021 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4-\\frac{\\pi }{2} \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( \\frac{\\pi }{2}-1 \\)</p>",
+            "<p>\\( \\frac{\\pi }{4} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{\\pi }{2}-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359893/gate-civil-2021-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359893/gate-civil-2021-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411895\"></a><div itemprop=\"text\"><p>A square of side length \\( 4 \\mathrm{~cm} \\) is given. The boundary of the shaded region is defined by one semi-circle on the top and two circular arcs at the bottom, each of radius&nbsp;\\( 2 \\mathrm{~cm} \\), as shown.&nbsp;</p>\n\n<p>The area of the shaded region is__________\\( \\text{cm}^{2}. \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___circle/e9d411d62756fd67ad8518e5fffcd4b8.png\" width=\"300\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE Civil 2023 Set 1 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411895/gate-civil-2023-set-1-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411895/gate-civil-2023-set-1-ga-question-10</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359764\"></a><div itemprop=\"text\"><p>A circle with centre&nbsp;\\( \\text{O} \\) is shown in the figure. A rectangle \\( \\text{PQRS} \\) of maximum possible area is inscribed in the circle. If the radius of the circle is \\( a \\), then the area of the shaded portion is _______.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"204\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___circle/583559f6b2328b749abf50cdccd1b4ab.png\" width=\"208\"></p>\n\n</div><br><br><b>GATE ECE 2020 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\pi a^{2}-a^{2} \\)</p>",
+            "<p>\\( \\pi a^{2}-\\sqrt{2}a^{2} \\)</p>",
+            "<p>\\( \\pi a^{2}-2a^{2} \\)</p>",
+            "<p>\\( \\pi a^{2}-3a^{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\pi a^{2}-2a^{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359764/gate-ece-2020-ga-question-8\" target=\"_blank\">https://gateoverflow.in/359764/gate-ece-2020-ga-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359713\"></a><div itemprop=\"text\"><p>Given a semicircle with \\( \\text{O} \\) as the centre, as shown in the figure, the ratio \\( \\dfrac{\\overline{AC}+\\overline{CB}}{\\overline{AB}} \\) is _______,&nbsp;where&nbsp;\\( \\overline{AC} \\),&nbsp;\\( \\overline{CB} \\) and&nbsp;\\( \\overline{AB} \\) are chords.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"185\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___circle/1cf8f284d93c461d65e085b55de5973e.png\" width=\"275\"></p>\n\n</div><br><br><b>GATE Electrical 2020 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>\\( \\sqrt{3} \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\sqrt{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359713/gate-electrical-2020-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359713/gate-electrical-2020-ga-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411827\"></a><div itemprop=\"text\"><p>&nbsp;A square with sides of length \\( 6 \\mathrm{~cm}  \\) is given. The boundary of the shaded region is&nbsp;defined by two semi-circles whose diameters are the sides of the square, as shown.&nbsp;</p>\n\n<p>The area of the shaded region is_______ \\( \\mathrm{cm}^2. \\)</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___circle/893f70caf84299eee812e272e38fd832.png\" width=\"250\"></p>\n\n</div><br><br><b>GATE Electrical 2023 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6&nbsp;\\pi \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 9&nbsp;\\pi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411827/gate-electrical-2023-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411827/gate-electrical-2023-ga-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

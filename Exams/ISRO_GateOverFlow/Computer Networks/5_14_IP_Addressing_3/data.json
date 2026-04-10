@@ -1,0 +1,56 @@
+{
+  "title": "Computer Networks - IP Addressing",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "IP Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49913\"></a><div itemprop=\"text\"><p>The network \\( 198.78.41.0 \\) is a</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2008 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class A network</p>",
+            "<p>Class B network</p>",
+            "<p>Class C&nbsp;network</p>",
+            "<p>Class D&nbsp;network</p>"
+          ],
+          "correct_answer": "<p>Class C&nbsp;network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49913/isro-cse-2008-question-32\" target=\"_blank\">https://gateoverflow.in/49913/isro-cse-2008-question-32</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"54140\"></a><div itemprop=\"text\"><p>The process of modifying IP address information in IP packet headers while in transit across a traffic routing device is called</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2014 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Port address translation (PAT)</p>",
+            "<p>Network address translation (NAT)</p>",
+            "<p>Address mapping</p>",
+            "<p>Port mapping</p>"
+          ],
+          "correct_answer": "<p>Network address translation (NAT)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54140/isro-cse-2014-question-6\" target=\"_blank\">https://gateoverflow.in/54140/isro-cse-2014-question-6</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"182081\"></a><div itemprop=\"text\"><p>In the IPv4&nbsp;addressing format, the number of networks allowed under Class C addresses is</p>\n\n</div><br><br><b>Computer Networks: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{20} \\)</p>",
+            "<p>\\( 2^{24} \\)</p>",
+            "<p>\\( 2^{14} \\)</p>",
+            "<p>\\( 2^{21} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{21} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182081/isro-dec2017-31\" target=\"_blank\">https://gateoverflow.in/182081/isro-dec2017-31</a></p>"
+        }
+      ]
+    }
+  ]
+}

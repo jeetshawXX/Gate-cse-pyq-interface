@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Runtime Environment",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Runtime Environment",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49623\"></a><div itemprop=\"text\"><p>Which of the following programming language(s) provides garbage collection automatically</p>\n\n</div><br><br><b>Programming in C: ISRO CSE 2007 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Lisp</p>",
+            "<p>C++</p>",
+            "<p>Fortan</p>",
+            "<p>C</p>"
+          ],
+          "correct_answer": "<p>Lisp</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49623/isro-cse-2007-question-57\" target=\"_blank\">https://gateoverflow.in/49623/isro-cse-2007-question-57</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"15033\"></a><div itemprop=\"text\"><p>If only one memory location is to be reserved for a class variable, no matter how many objects are instantiated, then the variable should be declared as</p>\n\n</div><br><br><b>Programming in C: ISRO CSE 2014 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>extern</p>",
+            "<p>static</p>",
+            "<p>volatile</p>",
+            "<p>const</p>"
+          ],
+          "correct_answer": "<p>static</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/15033/isro-cse-2014-question-39\" target=\"_blank\">https://gateoverflow.in/15033/isro-cse-2014-question-39</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"128772\"></a><div itemprop=\"text\"><p>We use malloc and calloc for:</p>\n\n</div><br><br><b>Programming in C: ISRO CSE 2017 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Dynamic memory allocation</p>",
+            "<p>Static memory allocation</p>",
+            "<p>Both dynamic memory allocation and static memory allocation</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128772/isro-cse-2017-question-70\" target=\"_blank\">https://gateoverflow.in/128772/isro-cse-2017-question-70</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Digital Signal Processing - Discrete Memoryless Channel",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Discrete Memoryless Channel",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64112\"></a><div itemprop=\"text\"><p>Consider a discrete memoryless channel and assume that H(x) is the amount of information per symbol at the input of the channel;&nbsp;H(y) is the amount of information per symbol at the output of the channel. H(x \\( \\mid \\) y) is the amount of uncertainty remaining on x knowing y; and I(x;y)is the information transmission. Which of the following does not define the channel capacity of a descrete memoryless channel?</p>\n\n</div><br><br><b>Digital Signal Processing: UGC NET CSE | July 2016 | Part 3 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>max I(x;y); p(x)</p>",
+            "<p>max [H(y)-H(y \\( \\mid \\) x)]; p(x)</p>",
+            "<p>max [H(x)-H(x \\( \\mid \\) y)]; p(x)</p>",
+            "<p>max H(x \\( \\mid \\)y); p(x)</p>"
+          ],
+          "correct_answer": "<p>max H(x \\( \\mid \\)y); p(x)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64112/ugc-net-cse-july-2016-part-3-question-58\" target=\"_blank\">https://gateoverflow.in/64112/ugc-net-cse-july-2016-part-3-question-58</a></p>"
+        }
+      ]
+    }
+  ]
+}

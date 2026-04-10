@@ -1,0 +1,29 @@
+{
+  "title": "Operating System - System Calls",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "System Calls",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"357438\"></a><div itemprop=\"text\"><p>Which of the&nbsp;following standard \\( C \\) library functions will <em>always</em> invoke a system call when executed from a single-threaded process in a \\( \\text{UNIX/Linux} \\) operating system?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 14</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\textsf{exit} \\)</p>",
+            "<p>\\( \\textsf{malloc} \\)</p>",
+            "<p>\\( \\textsf{sleep} \\)</p>",
+            "<p>\\( \\textsf{strlen} \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\textsf{exit} \\)</p>",
+            "<p>\\( \\textsf{sleep} \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357438/gate-cse-2021-set-1-question-14\" target=\"_blank\">https://gateoverflow.in/357438/gate-cse-2021-set-1-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+}

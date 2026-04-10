@@ -1,0 +1,41 @@
+{
+  "title": "Digital Logic - CO and Architecture",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "CO and Architecture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435371\"></a><div itemprop=\"text\"><p>The operation executed on data stored in registers is called</p></div><br><br><b>Digital Logic: ISRO CSE 2023 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Macro-operation</p>",
+            "<p>Micro-operation</p>",
+            "<p>Bit-operation</p>",
+            "<p>Byte-operation<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Micro-operation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435371/isro-cse-2023-question-25\" target=\"_blank\">https://gateoverflow.in/435371/isro-cse-2023-question-25</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435388\"></a><div itemprop=\"text\"><p>A full adder circuit requires</p></div><br><br><b>Digital Logic: ISRO CSE 2023 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>two inputs and two outputs</p>",
+            "<p>two inputs and three outputs</p>",
+            "<p>three inputs and two outputs</p>",
+            "<p>three inputs and one output<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>three inputs and two outputs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435388/isro-cse-2023-question-8\" target=\"_blank\">https://gateoverflow.in/435388/isro-cse-2023-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

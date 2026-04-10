@@ -1,0 +1,236 @@
+{
+  "title": "Digital_Logic - Digital_Logic - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The addition of 4-bit, two's complement, binary numbers 1101 and 0100 results in <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0001 and an overflow</p>",
+            "<b>B.</b> <p>1001 and no overflow</p>",
+            "<b>C.</b> <p>0001 and no overflow</p>",
+            "<b>D.</b> <p>1001 and an overflow</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0001 and no overflow</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3546/gate2006-it-7-isro2009-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The two numbers given below are multiplied using the Booth's algorithm <br>\nMultiplicand: 0101 1010 1110 1110<br>\nMultiplier: 0111 0111 1011 1101<br>\nHow many additions/subtractions are required for the multiplication of the above two numbers? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48065/isro2009-40-gate2008-it_42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following boolean function of four variables \\(f(w,x,y,z) = \\Sigma(1,3,4,6,9,11,12,14)\\), the function is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Independent of one variable</p>",
+            "<b>B.</b> <p>Independent of two variables</p>",
+            "<b>C.</b> <p>Independent of three variables</p>",
+            "<b>D.</b> <p>Dependent on all variables</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Independent of two variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50345/isro2009-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The switching expression corresponding to \\(f(A, B, C, D) = \\Sigma(1, 4, 5, 9, 11, 12)\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+            "<b>B.</b> <p>ABC' + ACD + B'C'D</p>",
+            "<b>C.</b> <p>ACD' + A'BC' + AC'D'</p>",
+            "<b>D.</b> <p>A'BD + ACD' + BCD'</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>BC'D' + A'C'D + AB'D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48039/isro2009-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The range of integers that can be represented by an n bit 2's complement number system is: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-2^{n-1} \\text{ to } (2^{n-1} -1)\\)</p>",
+            "<b>B.</b> <p>\\(-(2^{n-1} -1) \\text{ to } (2^{n-1} -1)\\)</p>",
+            "<b>C.</b> <p>\\(-2^{n-1} \\text{ to } 2^{n-1}\\)</p>",
+            "<b>D.</b> <p>\\(-(2^{n-1} +1) \\text{ to } (2^{n-1} -1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(-2^{n-1} \\text{ to } (2^{n-1} -1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1352/gate2005-16-isro2009-18-isro2015-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Repeated execution of simple computation may cause compounding of <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>round-off errors</p>",
+            "<b>B.</b> <p>syntax errors</p>",
+            "<b>C.</b> <p>run-time errors</p>",
+            "<b>D.</b> <p>logic errors</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>round-off errors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50147/isro2008-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following is termed as minimum error code ? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Binary code</p>",
+            "<b>B.</b> <p>Gray code</p>",
+            "<b>C.</b> <p>Excess-3 code</p>",
+            "<b>D.</b> <p>Octal code</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Gray code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17266/isro2008-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following is not a valid rule of XOR? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 XOR 0=0</p>",
+            "<b>B.</b> <p>1 XOR 1=1</p>",
+            "<b>C.</b> <p>1 XOR 0=1</p>",
+            "<b>D.</b> <p>B XOR B=0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 XOR 1=1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49907/isro2008-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The output Y of the given circuit<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q27_a307e416.jpg\"><br> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>X</p>",
+            "<b>D.</b> <p>X'</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49905/isro2008-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The logic operations of two combinational circuits in Figure-I and Figure -II are<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q26_7e078718.jpg\"><br> <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>entirely different</p>",
+            "<b>B.</b> <p>identical</p>",
+            "<b>C.</b> <p>complementary</p>",
+            "<b>D.</b> <p>dual</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>entirely different</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49903/isro2008-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In the expression \\(\\bar{A}(\\bar{A}+\\bar{B})\\)by writing the first term A as A+0, the expression is best simplified as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A+AB</p>",
+            "<b>B.</b> <p>AB</p>",
+            "<b>C.</b> <p>A</p>",
+            "<b>D.</b> <p>A+B</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49899/isro2008-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The Boolean expression \\((A+\\bar{C})(\\bar{B} + \\bar{C})\\) simplifies to <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{C} + A \\bar{B}\\)</p>",
+            "<b>B.</b> <p>\\(\\bar{C} (\\bar{A} +B)\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{B}\\bar{C} + A\\bar{B}\\)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\bar{C} + A \\bar{B}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49896/isro2008-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A computer uses 8 digit mantissa and 2 digit exponent. If a=0.052 and b=28E+11 then b+a-b will : <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>result in an overflow error</p>",
+            "<b>B.</b> <p>result in an underflow error</p>",
+            "<b>C.</b> <p>be 0</p>",
+            "<b>D.</b> <p>be 5.28E+11</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>be 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45540/isro2008-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>How many 2-input multiplexers are required to construct a \\(2^{10}\\)-input multiplexer? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1023</p>",
+            "<b>B.</b> <p>31</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>127</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1023</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49891/isro2008-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>If \\((12x)_3 = (123)_x\\), then the value of x is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>3 or 4</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49888/isro2008-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

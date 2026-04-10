@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The process of modifying IP address information in IP packet headers while in transit across a traffic routing device is called <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port address translation (PAT)</p>",
+            "<b>B.</b> <p>Network address translation (NAT)</p>",
+            "<b>C.</b> <p>Address mapping</p>",
+            "<b>D.</b> <p>Port mapping</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Network address translation (NAT)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54140/isro2014-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The protocol data unit for the transport layer in the internet stack is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Segment</p>",
+            "<b>B.</b> <p>Message</p>",
+            "<b>C.</b> <p>Datagram</p>",
+            "<b>D.</b> <p>Frame</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Segment</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44154/isro-2013-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following encryption algorithms is based on the Feistal structure? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Advanced Encryption Standard</p>",
+            "<b>B.</b> <p>RSA public key cryptographic algorithm</p>",
+            "<b>C.</b> <p>Data Encryption standard</p>",
+            "<b>D.</b> <p>RC4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Data Encryption standard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44152/isro-2013-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A packet filtering firewall can <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deny certain users from accessing a service</p>",
+            "<b>B.</b> <p>Block worms and viruses from entering the network</p>",
+            "<b>C.</b> <p>Disallow some files from being accessed through FTP</p>",
+            "<b>D.</b> <p>Block some hosts from accessing the network</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Block some hosts from accessing the network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43986/isro-2013-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which algorithm is used to shape the bursty traffic into a fixed rate traffic by averaging the data rate? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Solid bucket algorithm</p>",
+            "<b>B.</b> <p>Spanning tree algorithm</p>",
+            "<b>C.</b> <p>Hocken helm algorithm</p>",
+            "<b>D.</b> <p>Leaky bucket algorithm</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Leaky bucket algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43985/isro-2013-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is IP class and number of sub-networks if the subnet mask is 255.224.0.0? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A, 3</p>",
+            "<b>B.</b> <p>Class A, 8</p>",
+            "<b>C.</b> <p>Class B, 3</p>",
+            "<b>D.</b> <p>Class B, 32</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Class A, 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43984/isro-2013-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>IPv6 does not support which of the following addressing modes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unicast addressing</p>",
+            "<b>B.</b> <p>Multicast addressing</p>",
+            "<b>C.</b> <p>Broadcast addressing</p>",
+            "<b>D.</b> <p>Anycast addressing</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Broadcast addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43982/isro-2013-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What will be the efficiency of a Stop and Wait protocol, if the transmission time for a frame is 20ns and the propagation time is 30ns? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20%</p>",
+            "<b>B.</b> <p>25%</p>",
+            "<b>C.</b> <p>40%</p>",
+            "<b>D.</b> <p>66%</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43981/isro-2013-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If the frame to be transmitted is 1101011011 and the CRC polynomial to be used for generating checksum is \\(x^{4}+x+1\\), than what is the transmitted frame? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11010110111011</p>",
+            "<b>B.</b> <p>11010110111101</p>",
+            "<b>C.</b> <p>11010110111110</p>",
+            "<b>D.</b> <p>11010110111001</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11010110111110</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43979/isro-2013-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Ethernet layer-2 switch is a network element type which gives. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Different collision domain and same broadcast domain.</p>",
+            "<b>B.</b> <p>Different collision domain and different broadcast domain.</p>",
+            "<b>C.</b> <p>Same collision domain and same broadcast domain.</p>",
+            "<b>D.</b> <p>Same collision domain and different broadcast domain.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Different collision domain and same broadcast domain.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43978/isro-2013-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In the Ethernet, which field is actually added at the physical layer and is not part of the frame. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preamble</p>",
+            "<b>B.</b> <p>CRC</p>",
+            "<b>C.</b> <p>Address</p>",
+            "<b>D.</b> <p>Location</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Preamble</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43976/isro-2013-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The voltage ranges for a logic high and a logic low in RS-232 C standard is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Low is 0.0 V to 1.8 V,  High is 2.0 V to 5.0 V</p>",
+            "<b>B.</b> <p>Low is -15.0 V to -3.0 V,  High is 3.0 V to 15.0 V</p>",
+            "<b>C.</b> <p>Low is 3.0 V to 15.0 V,  High is -3.0 V to -15.0 V</p>",
+            "<b>D.</b> <p>Low is 2.0 V to 5.0 V,  High is 0.0 V to 1.8 V</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Low is 3.0 V to 15.0 V,  High is -3.0 V to -15.0 V</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43973/isro-2013-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>What will be the cipher text produced by the following cipher function for the plain text ISRO with key k=7. [ Consider \\('A'=0, 'B'=1,....'Z'=25\\)]<br>\n\\(C_{k} (M) = (kM + 13) \\mod 26\\) <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RJCH</p>",
+            "<b>B.</b> <p>QIBG</p>",
+            "<b>C.</b> <p>GQPM</p>",
+            "<b>D.</b> <p>XPIN</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RJCH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43843/isro-2013-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>IEEE 1394 is related to <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RS?232</p>",
+            "<b>B.</b> <p>USB</p>",
+            "<b>C.</b> <p>Firewire</p>",
+            "<b>D.</b> <p>PCI</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Firewire</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43819/isro-2013-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>What is the maximum number of characters (7 bits + parity) that can be transmitted in a second on a 19.2 Kbps line. This asynchronous transmission requires 1 start bit and 1 stop bit. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192</p>",
+            "<b>B.</b> <p>240</p>",
+            "<b>C.</b> <p>1920</p>",
+            "<b>D.</b> <p>1966</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1920</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43817/isro-2013-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

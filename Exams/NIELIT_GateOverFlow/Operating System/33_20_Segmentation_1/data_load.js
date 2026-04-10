@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Segmentation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Segmentation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336829\"></a><div itemprop=\"text\"><p>Non-contiguous memory allocation splits program into blocks of memory called ________ that can be loaded in non-adjacent holes in main memory.</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Pages</p>",
+            "<p>Frames</p>",
+            "<p>Partition</p>",
+            "<p>Segments</p>"
+          ],
+          "correct_answer": "<p>Segments</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336829/nielit-2017-dec-scientific-assistant-a-section-b-17\" target=\"_blank\">https://gateoverflow.in/336829/nielit-2017-dec-scientific-assistant-a-section-b-17</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Others - Debugger",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Debugger",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59639\"></a><div itemprop=\"text\"><p>Debugger is a program that</p>\n\n</div><br><br><b>Others: UGC NET CSE | December 2014 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Allows to examine and modify the contents of registers</p>",
+            "<p>Does not allow execution of a segment of program</p>",
+            "<p>Allows to set breakpoints, execute a segment of program and display contents of register</p>",
+            "<p>All of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Allows to set breakpoints, execute a segment of program and display contents of register</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59639/ugc-net-cse-december-2014-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/59639/ugc-net-cse-december-2014-part-2-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

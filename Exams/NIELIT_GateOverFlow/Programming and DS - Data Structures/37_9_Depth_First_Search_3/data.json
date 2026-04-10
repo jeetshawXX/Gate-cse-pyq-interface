@@ -1,0 +1,56 @@
+{
+  "title": "Programming and DS - Data Structures - Depth First Search",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Depth First Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336639\"></a><div itemprop=\"text\"><p>What data structures is used for depth first traversal of a graph?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Queue</p>",
+            "<p>Stack</p>",
+            "<p>List</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336639/nielit-2016-dec-scientist-b-it-section-b-30\" target=\"_blank\">https://gateoverflow.in/336639/nielit-2016-dec-scientist-b-it-section-b-30</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336627\"></a><div itemprop=\"text\"><p>In the&nbsp;________&nbsp;traversal we process all of a vertex's descendants before we move to an adjacent vertex.</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Depth First</p>",
+            "<p>Breadth First</p>",
+            "<p>Width First</p>",
+            "<p>Depth Limited</p>"
+          ],
+          "correct_answer": "<p>Depth First</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336627/nielit-2016-dec-scientist-b-it-section-b-42\" target=\"_blank\">https://gateoverflow.in/336627/nielit-2016-dec-scientist-b-it-section-b-42</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336431\"></a><div itemprop=\"text\"><p>What are the appropriate data structures for graph traversal using Breadth First Search(BFS) and Depth First Search(DFS) algorithms?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack for BFS and Queue for DFS</p>",
+            "<p>Queue for BFS and Stack for DFS</p>",
+            "<p>Stack for BFS and Stack for DFS</p>",
+            "<p>Queue for BFS and Queue for DFS</p>"
+          ],
+          "correct_answer": "<p>Queue for BFS and Stack for DFS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336431/nielit-2017-july-scientist-b-it-section-b-4\" target=\"_blank\">https://gateoverflow.in/336431/nielit-2017-july-scientist-b-it-section-b-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

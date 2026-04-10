@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Functions",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"333133\"></a><div itemprop=\"text\"><p>Given the pseudocode below for the function \\( \\textbf{remains()} \\), which of the following statements is true about the output, if we pass it a positive integer \\( n&gt;2 \\)?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int remains(int n)\n{&nbsp;&nbsp;\n&nbsp; &nbsp; &nbsp;int x = n;\n&nbsp; &nbsp;  for (i=(n-1);i&gt;1;i--)&nbsp; {\n&nbsp; &nbsp; &nbsp; &nbsp; x = x % i ;\n&nbsp; &nbsp;}\n&nbsp;   &nbsp;return x;\n}\n</pre>\n\n</div><br><br><b>Programming in C: TIFR CSE 2020 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Output is always \\( 0 \\)</p>",
+            "<p>Output is always \\( 1 \\)</p>",
+            "<p>Output is \\( 0 \\) only if \\( n \\) is NOT a prime number</p>",
+            "<p>Output is \\( 1 \\) only if \\( n \\) is a prime number</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Output is always \\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333133/tifr-cse-2020-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/333133/tifr-cse-2020-part-b-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

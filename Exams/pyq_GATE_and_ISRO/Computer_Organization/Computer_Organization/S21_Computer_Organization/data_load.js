@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Computer_Organization - Computer_Organization - Slot 21",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What are the states of the Auxiliary Carry (AC) and Carry Flag (CY) after\nexecuting the following 8085 program ? <br><br>\nMIV H, 5DH <br>\nMIV L, 6BH <br>\nMOV A, H <br>\nADD L <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AC = 0 and CY = 0</p>",
+            "<b>B.</b> <p>AC = 1 and CY = 1</p>",
+            "<b>C.</b> <p>AC = 1 and CY = 0</p>",
+            "<b>D.</b> <p>AC = 0 and CY = 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>AC = 1 and CY = 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/834/gate2002-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In the absolute the Addressing Modes : <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The operand is inside the instruction</p>",
+            "<b>B.</b> <p>The address of the operand is inside the instruction</p>",
+            "<b>C.</b> <p>The register containing the address of the operand is specified inside the\ninstruction</p>",
+            "<b>D.</b> <p>The location of the operand is implicit</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The address of the operand is inside the instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/829/gate2002-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is not a form of memory ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Instruction cache</p>",
+            "<b>B.</b> <p>Instruction register</p>",
+            "<b>C.</b> <p>Instruction opcode</p>",
+            "<b>D.</b> <p>Translation-a-side buffer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Instruction opcode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/817/gate2002-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In 8085 which of the following modifies the program counter ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only PCHL instruction</p>",
+            "<b>B.</b> <p>Only ADD instructions</p>",
+            "<b>C.</b> <p>Only JMP and CALL instructions</p>",
+            "<b>D.</b> <p>All instructions</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/814/gate2002-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A device employing INTR line for device interrupt puts the CALL instruction on\nthe data bus while <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{INTA}\\) is active</p>",
+            "<b>B.</b> <p>HOLD is active</p>",
+            "<b>C.</b> <p>READY is active</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\overline{INTA}\\) is active</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/813/gate2002-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The most appropriate matching for the following pairs is: <br><br>\\(\\begin{array}{ll} \\text{X: Indirect addressing} &amp; \\text{1: Loops } \\\\ \\text{Y: Immediate addressing } &amp; \\text{2: Pointers} \\\\ \\text{Z: Auto decrement addressing } &amp; \\text{3: Constants } \\\\ \\end{array}\\) <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X-3, Y-2, Z-1</p>",
+            "<b>B.</b> <p>X-1, Y-3, Z-2</p>",
+            "<b>C.</b> <p>X-2, Y-3, Z-1</p>",
+            "<b>D.</b> <p>X-3, Y-1, Z-2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X-2, Y-3, Z-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/633/gate2000-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The 8085 microprocessor responds to the presence of an interrupt <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>as soon as the TRAP pin becomes 'high'</p>",
+            "<b>B.</b> <p>by checking the TRAP pin for 'high' status at the end of each instruction</p>",
+            "<b>C.</b> <p>by checking the TRAP pin for 'high' status at the end of the execution of each instruction.</p>",
+            "<b>D.</b> <p>by checking the TRAP pin for 'high' status at regular intervals.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>by checking the TRAP pin for 'high' status at the end of the execution of each instruction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/632/gate2000-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Comparing the time T1 taken for a single instruction on a pipelined CPU with time T2 taken on a non-pipelined but identical CPU, we can say that <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T1 \\(\\leq\\) T2</p>",
+            "<b>B.</b> <p>T1 \\(\\geq\\) T2</p>",
+            "<b>C.</b> <p>T1 &lt; T2</p>",
+            "<b>D.</b> <p>T1 and T2 plus the time taken for one instruction fetch cycle</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>T1 \\(\\geq\\) T2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/631/gate2000-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>To put the 8085 microprocessor in the wait state <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower the HOLD input</p>",
+            "<b>B.</b> <p>lower the READY input</p>",
+            "<b>C.</b> <p>raise the HOLD input</p>",
+            "<b>D.</b> <p>raise the READY input</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>lower the READY input</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/630/gate2000-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A certain processor supports only the immediate and the direct addressing modes. Which of the following programming language features cannot be implemented on this processor?<br>\na) Pointers<br>\nb) Arrays<br>\nc) Records<br>\nd) Recursive procedures with local variables <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only a</p>",
+            "<b>B.</b> <p>a and b</p>",
+            "<b>C.</b> <p>c and d</p>",
+            "<b>D.</b> <p>a, b, c and d</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c and d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1500/gate1999-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically:<br>\na) has fewer instructions<br>\nb) has fewer addressing modes<br>\nc) has more registers<br>\nd) is easier to implement using hardwired control logic <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a and b</p>",
+            "<b>B.</b> <p>b and c</p>",
+            "<b>C.</b> <p>a and d</p>",
+            "<b>D.</b> <p>a, b, c and d</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c and d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1499/gate1999-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Arrange the following configuration for CPU in decreasing order of operating speeds:<br>\nHard wired control, Vertical microprogramming, Horizontal microprogramming. <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hard wired control, Vertical microprogramming, Horizontal microprogramming.</p>",
+            "<b>B.</b> <p>Hard wired control, Horizontal microprogramming, Vertical microprogramming.</p>",
+            "<b>C.</b> <p>Horizontal microprogramming, Vertical microprogramming, Hard wired control.</p>",
+            "<b>D.</b> <p>Vertical microprogramming, Horizontal microprogramming, Hard wired control.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Hard wired control, Horizontal microprogramming, Vertical microprogramming.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1497/gate1999-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Raid configurations of the disks are used to provide <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fault-tolerance</p>",
+            "<b>B.</b> <p>High speed</p>",
+            "<b>C.</b> <p>High data density</p>",
+            "<b>D.</b> <p>(A) &amp; (B)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(A) &amp; (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1496/gate1999-2-18-isro2008-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The main memory of a computer has 2 cm blocks while the cache has 2c blocks. If the cache uses the set associative mapping scheme with 2 blocks per set, then block k of the main memory maps to the set: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(k mod m) of the cache</p>",
+            "<b>B.</b> <p>(k mod c) of the cache</p>",
+            "<b>C.</b> <p>(k mod 2c) of the cache</p>",
+            "<b>D.</b> <p>(k mod 2 cm) of the cache</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(k mod c) of the cache</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1475/gate-cse-1999-question-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The address space of 8086 CPU is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>one Megabyte</p>",
+            "<b>B.</b> <p>256 Kilobytes</p>",
+            "<b>C.</b> <p>1 K Megabytes</p>",
+            "<b>D.</b> <p>64 Kilobytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>one Megabyte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1682/gate1998-2-10-isro2008-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

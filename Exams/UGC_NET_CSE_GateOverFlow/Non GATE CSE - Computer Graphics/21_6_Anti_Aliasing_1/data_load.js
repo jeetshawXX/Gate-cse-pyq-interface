@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Anti Aliasing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Anti Aliasing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59932\"></a><div itemprop=\"text\">\n<p>Which of the following is/are fundamental method(s) of antialiasing?</p>\n\n<ol style=\"list-style-type: upper-roman;\"><li>Increase of sample rate</li>\n\t<li>Treating a pixel as a finite area rather than as a point</li>\n\t<li>Decrease of sample rate\n\t</li>\n</ol>\n</div><br><br><b>Computer Graphics: UGC NET CSE | September 2013 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II</p>",
+            "<p>II and III</p>",
+            "<p>I only</p>",
+            "<p>II only</p>"
+          ],
+          "correct_answer": "<p>I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59932/ugc-net-cse-september-2013-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/59932/ugc-net-cse-september-2013-part-3-question-61</a></p>"
+        }
+      ]
+    }
+  ]
+});

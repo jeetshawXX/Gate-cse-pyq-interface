@@ -1,0 +1,27 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Convex Sets Functions",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Convex Sets Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"26386\"></a><div itemprop=\"text\"><p>Let \\( f(x)= 2^{x} \\). Consider the following inequality for real numbers \\( a, b \\) and \\( 0 &lt; \\lambda &lt; 1 \\):</p>\n\n<p>\\( f(\\lambda a + b) \\leq \\lambda f(a) + (1 - \\lambda) f (\\frac{b}{1 - \\lambda}) \\).</p>\n\n<p>Consider the following 3 conditions:</p>\n\n<ol>\n\t<li>\\( \\lambda= 0.5 \\)</li>\n\t<li>\\( 0 &lt; a \\leq&nbsp;2, b &gt; 0 \\)</li>\n\t<li>\\( a/\\lambda &gt; 2, 0 &lt; b ≤ 1 − \\lambda \\)</li>\n</ol>\n\n<p>Which of the following statements is TRUE?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2014 | Part A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The above inequality holds under conditions \\( (1) \\) and \\( (2) \\) but not under condition \\( (3) \\).</p>",
+            "<p>The above inequality holds under conditions \\( (2) \\) and \\( (3) \\) but not under condition \\( (1) \\).</p>",
+            "<p>The above inequality holds under conditions \\( (1) \\) and \\( (3) \\) but not under condition \\( (2) \\).</p>",
+            "<p>The above inequality holds under all the three conditions.</p>",
+            "<p>The above inequality holds under none of the three conditions.</p>"
+          ],
+          "correct_answer": "<p>The above inequality holds under all the three conditions.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/26386/tifr-cse-2014-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/26386/tifr-cse-2014-part-a-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

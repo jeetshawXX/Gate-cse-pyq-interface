@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - Data Structures",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Structures",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275523\"></a><div itemprop=\"text\"><p>____ is used to convert from recursive to iterative implementation of an algorithm</p>\n\n</div><br><br><b>Programming in C: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Array</p>",
+            "<p>Tree</p>",
+            "<p>Stack</p>",
+            "<p>Queue</p>"
+          ],
+          "correct_answer": "<p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275523/nielit-2018-41\" target=\"_blank\">https://gateoverflow.in/275523/nielit-2018-41</a></p>"
+        }
+      ]
+    }
+  ]
+}

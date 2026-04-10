@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Issoftware Engineering",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Issoftware Engineering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373725\"></a><div itemprop=\"text\"><p>A company needs to develop a strategy for software product development for which it has a choice of two programming languages \\( \\text{L1} \\) and \\( \\text{L2} \\). The number lines of code \\( \\text{(LOC)} \\)&nbsp;developed using \\( \\text{L2} \\) is estimated to be twice of the \\( \\text{LOC} \\) developed with \\( \\text{L1} \\). The product will have to be maintained for five years. Various parameters for the company are given in the table below.</p>\n\n<table border=\"1\" cellpadding=\"1\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Parameter</strong></td>\n\t\t\t<td><strong>Language L1</strong></td>\n\t\t\t<td><strong>Language L2</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Man years needed for development</td>\n\t\t\t<td>LOC/10000</td>\n\t\t\t<td>LOC/10000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Development Cost per man year</td>\n\t\t\t<td>र&nbsp;10, 00, 000</td>\n\t\t\t<td>र&nbsp;7, 50, 000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Maintenance Time</td>\n\t\t\t<td>5 years</td>\n\t\t\t<td>5 years</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Cost of maintenance per year</td>\n\t\t\t<td>र&nbsp;1,00,000</td>\n\t\t\t<td>र&nbsp;50, 000</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Total cost of the project includes cost of development and maintenance. What is the \\( \\text{(LOC)} \\) for \\( \\text{L1} \\) for which of the cost of the project using \\( \\text{L1} \\) is equal to the cost of the project using \\( \\text{L2} \\)?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section B | Question: 113</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4000 \\)</p>",
+            "<p>\\( 5000 \\)</p>",
+            "<p>\\( 4333 \\)</p>",
+            "<p>\\( 4667 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373725/nielit-2022-april-scientist-b-section-b-question-113\" target=\"_blank\">https://gateoverflow.in/373725/nielit-2022-april-scientist-b-section-b-question-113</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"412008\"></a><div itemprop=\"text\"><p>A satisfied employee will be a :</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 147</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Motivator to others</p>",
+            "<p>Manager</p>",
+            "<p>High performer</p>",
+            "<p>Team Leader\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>High performer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412008/nielit-2023-feb-scientist-c-section-e-question-147\" target=\"_blank\">https://gateoverflow.in/412008/nielit-2023-feb-scientist-c-section-e-question-147</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410995\"></a><div itemprop=\"text\"><p>Participation, recognition and power are some of the example of ___________.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 130</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Extrinsic motivation</p>",
+            "<p>Intrinsic motivation</p>",
+            "<p>Non-financial motivation</p>",
+            "<p>Financial motivation\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Non-financial motivation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410995/nielit-2023-feb-scientist-d-section-e-question-130\" target=\"_blank\">https://gateoverflow.in/410995/nielit-2023-feb-scientist-d-section-e-question-130</a></p>"
+        }
+      ]
+    }
+  ]
+});

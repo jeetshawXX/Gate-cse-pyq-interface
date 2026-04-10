@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Java",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Java",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56095\"></a><div itemprop=\"text\"><p>Which of the following is scheme to deal with deadlock?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2012 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Time out</p>",
+            "<p>Time in</p>",
+            "<p>Both A and B</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Time out</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56095/ugc-net-cse-june-2012-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/56095/ugc-net-cse-june-2012-part-3-question-13</a></p>"
+        }
+      ]
+    }
+  ]
+}

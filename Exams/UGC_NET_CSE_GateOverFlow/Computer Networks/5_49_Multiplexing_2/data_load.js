@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Multiplexing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Multiplexing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155359\"></a><div itemprop=\"text\"><p>A high performance switching and multiplexing technology that utilizes fixed length packets to carry different types of traffic is:</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2008 | Part 2 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ATM&nbsp;&nbsp;</p>",
+            "<p>ADSL</p>",
+            "<p>SONET</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155359/ugc-net-cse-december-2008-part-2-question-35\" target=\"_blank\">https://gateoverflow.in/155359/ugc-net-cse-december-2008-part-2-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"66903\"></a><div itemprop=\"text\"><p>The threshold effect in demodulator is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2010 | Part 2 | Question: 30</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Exhibited by all demodulator, when the input signal to noise ratio is low.</p>",
+            "<p>The rapid fall on output signal to noise ratio when the input signal to noise ratio fall below a particular value.</p>",
+            "<p>The property exhibited by all A.M. suppressed carrier coherent demodulator.</p>",
+            "<p>The property exhibited by correlation receiver.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66903/ugc-net-cse-december-2010-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/66903/ugc-net-cse-december-2010-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

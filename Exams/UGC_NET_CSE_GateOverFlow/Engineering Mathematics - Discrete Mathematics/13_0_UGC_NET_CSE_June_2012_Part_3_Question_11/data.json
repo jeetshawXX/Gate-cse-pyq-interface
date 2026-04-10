@@ -1,0 +1,176 @@
+{
+  "title": "Engineering Mathematics - Discrete Mathematics - UGC NET CSE  June 2012  Part 3  Question",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "UGC NET CSE  June 2012  Part 3  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56099\"></a><div itemprop=\"text\"><p>Let \\( Q(x,y) \\) denote “x+y=0” and let there be two quantifications given as</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\\( \\exists y \\forall x Q(x,y) \\)</li>\n\t<li>\\( \\forall&nbsp;x \\exists&nbsp;y Q(x,y) \\)</li>\n</ol>\n\n<p>where \\( x \\) and \\( y \\) are real numbers. Then which of the following is valid?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | June 2012 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I is true and II is false</p>",
+            "<p>I is false and II is true</p>",
+            "<p>I is false and II is also false</p>",
+            "<p>both I and II are true</p>"
+          ],
+          "correct_answer": "<p>I is false and II is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56099/ugc-net-cse-june-2012-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/56099/ugc-net-cse-june-2012-part-3-question-17</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"56301\"></a><div itemprop=\"text\"><p>How many relations are there on a set with n elements that are symmetric and a set with n elements that are reflexive and symmetric?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | June 2012 | Part 3 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{n(n+1)/2} \\text{ and } 2^n.3^{n(n-1)/2} \\)</p>",
+            "<p>\\( 3^{n(n-1)/2} \\text{ and } 2^{n(n-1)} \\)</p>",
+            "<p>\\( 2^{n(n+1)/2} \\text{ and } 3^{n(n-1)/2} \\)</p>",
+            "<p>\\( 2^{n(n+1)/2} \\text{ and } 2^{n(n-1)/2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{n(n+1)/2} \\text{ and } 2^{n(n-1)/2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56301/ugc-net-cse-june-2012-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/56301/ugc-net-cse-june-2012-part-3-question-50</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"58202\"></a><div itemprop=\"text\"><p>Consider a set \\( A = \\left\\{1, 2, 3, …….., 1000\\right\\} \\).</p>\n\n<p>How many members of A shall be divisible by \\( 3 \\) or by \\( 5 \\) or by both \\( 3 \\) and \\( 5 \\)?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | December 2014 | Part 2 | Question: 01</b></p>",
+          "type": "single",
+          "options": [
+            "<p>533&nbsp;</p>",
+            "<p>599</p>",
+            "<p>467&nbsp;</p>",
+            "<p>66</p>"
+          ],
+          "correct_answer": "<p>467&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58202/ugc-net-cse-december-2014-part-2-question-01\" target=\"_blank\">https://gateoverflow.in/58202/ugc-net-cse-december-2014-part-2-question-01</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"60442\"></a><div itemprop=\"text\">\n<p>The objective of ____ procedure is to discover at least one ____ that causes two literals to match.</p>\n\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | December 2013 | Part 3 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>unification, validation</p>",
+            "<p><span style=\"line-height: 20.8px;\">unification,&nbsp;</span>substituion</p>",
+            "<p>substitution,&nbsp;<span style=\"line-height: 20.8px;\">unification</span></p>",
+            "<p>minimax, maximum</p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 20.8px;\">unification,&nbsp;</span>substituion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60442/ugc-net-cse-december-2013-part-3-question-24\" target=\"_blank\">https://gateoverflow.in/60442/ugc-net-cse-december-2013-part-3-question-24</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"61237\"></a><div itemprop=\"text\">\n<p>Which one of the following is true?</p>\n\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | Junet 2015 | Part 3 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The resolvent of two Horn clauses is not a Horn clause</p>",
+            "<p>The resolvent of two Horn clauses is a Horn clause</p>",
+            "<p>If we resolve a negated goal G against a fact or rule A to get clause C then C has positive literal or non-null goal</p>",
+            "<p>If we resolve a negated goal G against a fact or rule A to get clause C then C has positive literal or null goal</p>"
+          ],
+          "correct_answer": "<p>The resolvent of two Horn clauses is a Horn clause</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61237/ugc-net-cse-junet-2015-part-3-question-24\" target=\"_blank\">https://gateoverflow.in/61237/ugc-net-cse-junet-2015-part-3-question-24</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"225800\"></a><div itemprop=\"text\"><p>If \\( A_i = \\{-i, \\dots , -2, -1, 0, 1, 2, \\dots , i \\} \\) then \\( \\cup_{i=1}^\\infty&nbsp;A_i \\) is</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | July 2018 | Part 2 | Question: 86</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Z</p>",
+            "<p>Q</p>",
+            "<p>R</p>",
+            "<p>C</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225800/ugc-net-cse-july-2018-part-2-question-86\" target=\"_blank\">https://gateoverflow.in/225800/ugc-net-cse-july-2018-part-2-question-86</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"349587\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Let \\( G \\) be a simple undirected graph, \\( T_D \\) be a DFS tree on \\( G \\), and \\( T_B \\) be the BFS tree on \\( G \\). Consider the following statements.</p>\n\n<p>Statement \\( I \\): No edge of \\( G \\) is a cross with respect to \\( T_D \\)</p>\n\n<p>Statement \\( II \\): For every edge \\( (u,v) \\) of \\( G \\), if \\( u \\) is at depth \\( i \\) and \\( v \\) is at depth \\( j \\) in \\( T_B \\) then \\( \\mid i-j \\mid =1 \\)</p>\n\n<p>In&nbsp;the light of the above statements, choose the correct answer from the options given below</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | October 2020 | Part 2 | Question: 86</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349587/ugc-net-cse-october-2020-part-2-question-86\" target=\"_blank\">https://gateoverflow.in/349587/ugc-net-cse-october-2020-part-2-question-86</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"349635\"></a><div itemprop=\"text\"><p>What kind of clauses are available in conjunctive normal form?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | October 2020 | Part 2 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Disjunction of literals</p>",
+            "<p>Disjunction of variables</p>",
+            "<p>Conjunction of literals</p>",
+            "<p>Conjunction of variables</p>"
+          ],
+          "correct_answer": "<p>Disjunction of literals</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349635/ugc-net-cse-october-2020-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/349635/ugc-net-cse-october-2020-part-2-question-38</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"349636\"></a><div itemprop=\"text\"><p>If \\( f(x)=x \\) is my friend, and \\( p(x) =x \\) is perfect, then correct logical translation of the statement “some of my friends are not perfect” is ______</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | October 2020 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\forall _x (f(x) \\wedge \\neg p(x)) \\)</p>",
+            "<p>\\( \\exists&nbsp;_x (f(x) \\wedge \\neg p(x)) \\)</p>",
+            "<p>\\( \\neg&nbsp;(f(x) \\wedge \\neg p(x)) \\)</p>",
+            "<p>\\( \\exists _x (\\neg f(x) \\wedge \\neg p(x)) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\exists&nbsp;_x (f(x) \\wedge \\neg p(x)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349636/ugc-net-cse-october-2020-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/349636/ugc-net-cse-october-2020-part-2-question-37</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"349647\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a directed graph whose vertex set is the set of numbers from \\( 1 \\) to \\( 100 \\). There is an edge from a vertex \\( i \\) to a vertex \\( j \\) if and only if either \\( j=i+1 \\) or \\( j=3i \\). The minimum number of edges in a path in \\( G \\) from vertex \\( 1 \\) to vertex \\( 100 \\) is ______</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | October 2020 | Part 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 99 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349647/ugc-net-cse-october-2020-part-2-question-26\" target=\"_blank\">https://gateoverflow.in/349647/ugc-net-cse-october-2020-part-2-question-26</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"349670\"></a><div itemprop=\"text\"><p>Which of the following pairs of propositions are not logically equivalent?</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | October 2020 | Part 2 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ((p \\rightarrow r) \\wedge (q \\rightarrow r)) \\) and \\( ((p \\vee q) \\rightarrow r) \\)</p>",
+            "<p>\\( p \\leftrightarrow q \\) and \\( (\\neg&nbsp;p \\leftrightarrow&nbsp;\\neg q) \\)</p>",
+            "<p>\\( ((p \\wedge q) \\vee (\\neg p \\wedge \\neg q)) \\) and \\( p \\leftrightarrow q \\)</p>",
+            "<p>\\( ((p \\wedge q) \\rightarrow r) \\) and \\( ((p \\rightarrow r) \\wedge (q \\rightarrow r)) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ((p \\wedge q) \\rightarrow r) \\) and \\( ((p \\rightarrow r) \\wedge (q \\rightarrow r)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349670/ugc-net-cse-october-2020-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/349670/ugc-net-cse-october-2020-part-2-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

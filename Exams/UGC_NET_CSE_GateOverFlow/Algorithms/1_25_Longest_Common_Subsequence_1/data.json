@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Longest Common Subsequence",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Longest Common Subsequence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62469\"></a><div itemprop=\"text\"><p>Given two sequences \\( X \\) and \\( Y \\):</p>\n\n<p>\\( X=\\langle a, b, c, b, d, a, b \\rangle \\)</p>\n\n<p>\\( Y=\\langle&nbsp;b, d, c, a, b, a \\rangle \\)</p>\n\n<p>The longest common subsequence of X and Y is:</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | December 2015 | Part 3 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\langle b, c, a \\rangle \\)</p>",
+            "<p>\\( \\langle c, a, b \\rangle \\)</p>",
+            "<p>\\( \\langle b, c, a, a \\rangle \\)</p>",
+            "<p>\\( \\langle b, c, b, a \\rangle \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\langle c, a, b \\rangle \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62469/ugc-net-cse-december-2015-part-3-question-17\" target=\"_blank\">https://gateoverflow.in/62469/ugc-net-cse-december-2015-part-3-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Work Time",
+  "duration": 136,
+  "sections": [
+    {
+      "name": "Work Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3970\"></a><div itemprop=\"text\">20 men can do a work in c/2 days &amp; 30 women can do the same work in c/3 days then how many days will take to complete the work when 20 men &amp;30wmen work together<br>\n<br>\na)5c/6<br>\n<br>\nb)c/6<br>\n<br>\nc) 6c/5</div><br><br><b>Quantitative Aptitude: 20 men can do a work in c/2 days & 30 women can do the same work in c/3 days then how many days will take to complete the work when 20 men &30wmen work together</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3970/women-same-work-days-then-many-take-complete-&30wmen-together\" target=\"_blank\">https://aptitude.gateoverflow.in/3970/women-same-work-days-then-many-take-complete-&30wmen-together</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3983\"></a><div itemprop=\"text\"><p>\\( \\text{A} \\) alone can do a piece of work in \\( 6 \\)&nbsp;days and \\( \\text{B} \\) alone in \\( 8 \\) days. \\( \\text{A} \\) and \\( \\text{B} \\) undertook to do it for Rs. \\( 3200. \\) With the help of \\( \\text{C}, \\) they completed the work in \\( 3 \\) days. How much is to be paid to \\( \\text{C}? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: Work and Time</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 375 \\)</p>",
+            "<p>Rs. \\( 400 \\)</p>",
+            "<p>Rs. \\( 600 \\)</p>",
+            "<p>Rs. \\( 800 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3983/alone-piece-alone-days-undertook-with-help-they-completed-work\" target=\"_blank\">https://aptitude.gateoverflow.in/3983/alone-piece-alone-days-undertook-with-help-they-completed-work</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4283\"></a><div itemprop=\"text\"><p>Choose the best alternative:</p>\n\n<p>One man can do as much work in one day as a woman can do in 2 days A child does one-third the work in a day as a woman. If an estate-owner hires 39 pairs of hands, men, woman and children in the ratio 6 : 5 :2 and pays them in all Rs 1113 at the end of the day’s work. What must the daily wages of a child be, if the wages are proportional to the amount of work done?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. 14&nbsp;</p>",
+            "<p>Rs. 5</p>",
+            "<p>Rs. 20&nbsp;</p>",
+            "<p>Rs. 7</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4283/cat-1994-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/4283/cat-1994-question-58</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4205\"></a><div itemprop=\"text\"><p>Machine M1 as well as Machine M2 can independently produce either Product P or Product Q. The times taken by machines M1 and M2 (in minutes) to produce one unit of product P and Q are given in the table below: (Each machine works 8 hours per day).</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>PRODUCT</td>\n\t\t\t<td>M1</td>\n\t\t\t<td>M2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P</td>\n\t\t\t<td>10</td>\n\t\t\t<td>8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Q</td>\n\t\t\t<td>6</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What is the maximum number of units that can be manufactured in one day?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 176</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>140&nbsp;</p>",
+            "<p>160</p>",
+            "<p>120&nbsp;</p>",
+            "<p>180</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4205/cat-1995-question-176\" target=\"_blank\">https://aptitude.gateoverflow.in/4205/cat-1995-question-176</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4206\"></a><div itemprop=\"text\"><p>Machine M1 as well as Machine M2 can independently produce either Product P or Product Q. The times taken by machines M1 and M2 (in minutes) to produce one unit of product P and Q are given in the table below: (Each machine works 8 hours per day).</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>PRODUCT</td>\n\t\t\t<td>M1</td>\n\t\t\t<td>M2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P</td>\n\t\t\t<td>10</td>\n\t\t\t<td>8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Q</td>\n\t\t\t<td>6</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>If the number of units of P is to be 3 times that of Q, what is the minimum idle time for maximum total units manufactured?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 177</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>0 minutes&nbsp;</p>",
+            "<p>24 minutes</p>",
+            "<p>1 hour&nbsp;</p>",
+            "<p>2 hours</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4206/cat-1995-question-177\" target=\"_blank\">https://aptitude.gateoverflow.in/4206/cat-1995-question-177</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4207\"></a><div itemprop=\"text\"><p>Machine M1 as well as Machine M2 can independently produce either Product P or Product Q. The times taken by machines M1 and M2 (in minutes) to produce one unit of product P and Q are given in the table below: (Each machine works 8 hours per day).</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>PRODUCT</td>\n\t\t\t<td>M1</td>\n\t\t\t<td>M2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P</td>\n\t\t\t<td>10</td>\n\t\t\t<td>8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Q</td>\n\t\t\t<td>6</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>If equal quantities of both are to be produced, then out of the four choices given below, the least efficient way would be:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 178</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>48 of each with 3 minutes idle</p>",
+            "<p>64 of each with 12 minutes idle</p>",
+            "<p>53 of each with 10 minutes idle</p>",
+            "<p>71 of each with 9 minutes idle</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4207/cat-1995-question-178\" target=\"_blank\">https://aptitude.gateoverflow.in/4207/cat-1995-question-178</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"4208\"></a><div itemprop=\"text\"><p>Machine M1 as well as Machine M2 can independently produce either Product P or Product Q. The times taken by machines M1 and M2 (in minutes) to produce one unit of product P and Q are given in the table below: (Each machine works 8 hours per day).</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>PRODUCT</td>\n\t\t\t<td>M1</td>\n\t\t\t<td>M2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P</td>\n\t\t\t<td>10</td>\n\t\t\t<td>8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Q</td>\n\t\t\t<td>6</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>If M1 works at half its normal efficiency, what is the maximum number of units produced, if at least one unit of each must be produced?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 179</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>96&nbsp;</p>",
+            "<p>89&nbsp;</p>",
+            "<p>100</p>",
+            "<p>119</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4208/cat-1995-question-179\" target=\"_blank\">https://aptitude.gateoverflow.in/4208/cat-1995-question-179</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"4209\"></a><div itemprop=\"text\"><p>Machine M1 as well as Machine M2 can independently produce either Product P or Product Q. The times taken by machines M1 and M2 (in minutes) to produce one unit of product P and Q are given in the table below: (Each machine works 8 hours per day).</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>PRODUCT</td>\n\t\t\t<td>M1</td>\n\t\t\t<td>M2</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P</td>\n\t\t\t<td>10</td>\n\t\t\t<td>8</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Q</td>\n\t\t\t<td>6</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What is the least number of machine hours required to produce 30 pieces of P and 25 pieces of Q?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 180</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>6 hours 30 minutes&nbsp;</p>",
+            "<p>7 hours 24 minutes&nbsp;</p>",
+            "<p>5 hours 48 minutes&nbsp;</p>",
+            "<p>4 hours 6 minutes</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4209/cat-1995-question-180\" target=\"_blank\">https://aptitude.gateoverflow.in/4209/cat-1995-question-180</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1296\"></a><div itemprop=\"text\"><p>There's a lot of work in preparing a birthday dinner. Even after the turkey is in oven, there are still the potatoes and gravy, yams, salad, and cranberries, not to mention setting the table. Three friends, Asit, Arnold, and Afzal, work&nbsp;together to get all of these chores done. The time &nbsp;it takes them to do the work together is six hours less than Asit would have taken working alone, one hour less than Arnold would have taken, and half the time Afzal would have taken working alone.<br>\nHow long did it take them to do these chores working together?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\) minutes</p>",
+            "<p>\\( 30 \\) minutes</p>",
+            "<p>\\( 40 \\) minutes</p>",
+            "<p>\\( 50 \\) minutes</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1296/cat-2001-question-28\" target=\"_blank\">https://aptitude.gateoverflow.in/1296/cat-2001-question-28</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1276\"></a><div itemprop=\"text\"><p>\\( \\text{A} \\) can complete a piece of work in \\( 4 \\) days. \\( \\text{B} \\) takes double the time taken by \\( \\text{A, C} \\) takes double that of \\( \\text{B}, \\) and \\( \\text{D} \\) takes double that of \\( \\text{C} \\) to complete the same task. They are paired in groups of two each. One pair takes two-thirds the time needed by the second pair to complete the work. Which is the first pair?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{A, B} \\)</p>",
+            "<p>\\( \\text{A, C} \\)</p>",
+            "<p>\\( \\text{B, C} \\)</p>",
+            "<p>\\( \\text{A, D} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1276/cat-2001-question-9\" target=\"_blank\">https://aptitude.gateoverflow.in/1276/cat-2001-question-9</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1105\"></a><div itemprop=\"text\"><div>It takes \\( 6 \\) technicians a total of \\( 10 \\) hours to build a new server from Direct Computer, with each working at the same rate. If six technicians start to build the server at \\( 11 \\) am and one technician per hour is added beginning at \\( 5 \\)&nbsp;pm, at what time will be the server be complete?</div>\n\n<div>\n\n</div></div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 93</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6:40 \\) pm</p>",
+            "<p>\\( 7:00 \\) pm</p>",
+            "<p>\\( 7:20 \\) pm</p>",
+            "<p>\\( 8:00 \\) pm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1105/cat-2002-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/1105/cat-2002-question-93</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1002\"></a><div itemprop=\"text\"><p>New Age Consultants have three consultants Gyani, Medha and Buddhi. The sum of the number of projects handled by Gyani and Buddhi individually is equal to the number of projects in which Medha is involved. All three consultants are involved in \\( 6 \\) projects. Gyani works with Medha in \\( 14 \\) projects. Buddhi has \\( 2 \\) projects with Medha but without Gyani, and \\( 3 \\) projects with Gyani but without Medha. The total number of projects for New Age consultants is one less than the number of projects in which more than one consultant is involved.</p>\n\n<p>What is the number of projects in which Gyani alone is involved?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Uniquely equal to zero.</p>",
+            "<p>Uniquely equal to one</p>",
+            "<p>Uniquely equal to four</p>",
+            "<p>cannot be determined uniquely</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1002/cat-2003-question-1-103\" target=\"_blank\">https://aptitude.gateoverflow.in/1002/cat-2003-question-1-103</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1848\"></a><div itemprop=\"text\"><p>New Age Consultants have three consultants Gyani, Medha and Buddhi. The sum of the number of projects handled by Gyani and Buddhi individually is equal to the number of projects in which Medha is involved. All three consultants are involved in \\( 6 \\) projects. Gyani works with Medha in \\( 14 \\) projects. Buddhi has \\( 2 \\) projects with Medha but without Gyani, and \\( 3 \\) projects with Gyani but without Medha. The total number of projects for New Age consultants is one less than the number of projects in which more than one consultant is involved.</p>\n\n<p>What is the number of projects in which Medha alone is invlolved?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2003 | Question: 1</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Uniquely equal to zero.</p>",
+            "<p>Uniquely equal to one</p>",
+            "<p>Uniquely equal to four</p>",
+            "<p>cannot be determined uniquely</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1848/cat-2003-question-1-104\" target=\"_blank\">https://aptitude.gateoverflow.in/1848/cat-2003-question-1-104</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"863\"></a><div itemprop=\"text\"><p>In Nuts and Bolts factory, one machine produces only nuts at the rate of \\( 100 \\) nuts per minute and needs to be cleaned for five minutes after production of every \\( 1000 \\) nuts. Another machine produces only bolts at the rate of \\( 75 \\) bolts per minute and needs to be cleaned for \\( 10 \\) minutes after production of every \\( 1500 \\) bolts. If both the machines start the production at the same time, what is the minimum duration required for producing \\( 9000 \\) pairs of nuts and bolts?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 130 \\) minutes</p>",
+            "<p>\\( 135 \\) minutes</p>",
+            "<p>\\( 170 \\) minutes</p>",
+            "<p>\\( 180 \\) minutes</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/863/cat-2004-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/863/cat-2004-question-54</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"748\"></a><div itemprop=\"text\"><p>A chemical plant has four tanks \\( \\text{(A, B, C and D),} \\) each containing \\( 1000 \\)&nbsp;litres of a chemical. The chemical is being pumped from one tank to another as follows:</p>\n\n<p>From \\( \\text{A to B}\\;&nbsp;@20 \\) litres/minute</p>\n\n<p>From \\( \\text{C to A}\\; @ 90 \\)&nbsp;litres / minute</p>\n\n<p>From \\( \\text{A to D}\\; @ 10 \\)&nbsp;litres / minute</p>\n\n<p>From \\( \\text{C to D}\\; @ 50 \\)&nbsp;litres / minute</p>\n\n<p>From \\( \\text{B to C}\\; @ 100 \\)&nbsp;litres /minute</p>\n\n<p>From \\( \\text{D to B}\\; @ 100 \\)&nbsp;litres / minute</p>\n\n<p>Which tank gets emptied first and how long does it take (in minutes) to get empty after pumping starts?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2005 | Question: 02</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{A} 16.66 \\)</p>",
+            "<p>\\( \\text{C}, 20 \\)</p>",
+            "<p>\\( \\text{D}, 20 \\)</p>",
+            "<p>\\( \\text{D}, 25 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/748/cat-2005-question-02\" target=\"_blank\">https://aptitude.gateoverflow.in/748/cat-2005-question-02</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"742\"></a><div itemprop=\"text\"><p>There are \\( 6 \\) tasks and \\( 6 \\) persons. Task \\( 1 \\) cannot be assigned either to person \\( 1 \\) or to person \\( 2. \\) Task \\( 2 \\) must be assigned either to person \\( 3 \\) or person \\( 4. \\) Every person is to be assigned one task. In how many ways can the task assignment be done?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2006 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 144 \\)</p>",
+            "<p>\\( 180 \\)</p>",
+            "<p>\\( 192 \\)</p>",
+            "<p>\\( 360 \\)</p>",
+            "<p>\\( 716 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/742/cat-2006-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/742/cat-2006-question-72</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"794\"></a><div itemprop=\"text\"><p>It takes \\( 6 \\) technicians a total of \\( 10 \\) hours to build a new server from direct computer, with each working at the same rate. If six technicians start to build the server at \\( 11:00 \\) am, and one technician per hour is added beginning at \\( 5:00 \\) pm, at what time will the server be completed?</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 6:40 \\) pm</li>\n\t<li>\\( 7:00 \\) pm</li>\n\t<li>\\( 7:20 \\) pm</li>\n\t<li>\\( 8:00 \\) pm</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2009 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/794/cat-2009-question-12\" target=\"_blank\">https://aptitude.gateoverflow.in/794/cat-2009-question-12</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"795\"></a><div itemprop=\"text\"><p>A ship \\( 55 \\) kms, from the shore springs a leak which admits \\( 2 \\) tonnes of water in \\( 6 \\) min; \\( 80 \\) tonnes would suffer to sink her, but the pumps can throw out \\( 12 \\) tonnes an hour. Find the average rate of sailing that she may just reach the shore as she begins to sink.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 5.5 \\) km/h</li>\n\t<li>\\( 6.5 \\) km/h</li>\n\t<li>\\( 7.5 \\) km/h</li>\n\t<li>\\( 8.5 \\) km/h</li>\n</ol></div><br><br><b>Quantitative Aptitude: CAT 2009 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/795/cat-2009-question-13\" target=\"_blank\">https://aptitude.gateoverflow.in/795/cat-2009-question-13</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"5564\"></a><div itemprop=\"text\"><p>One man can do as much work in one day as a woman can do in \\( 2 \\) days. A child does one third the work in a day as a woman. If an estate-owner hires \\( 39 \\) pairs of hands, men, women and children in the ratio \\( 6: 5: 2 \\) and pays them in all Rs. \\( 1113 \\) at the end of the days work. What must the daily wages of a child be, if the wages are proportional to the amount of work done?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2015 | Question: 88</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 14 \\)</p>",
+            "<p>Rs. \\( 5 \\)</p>",
+            "<p>Rs. \\( 20 \\)</p>",
+            "<p>Rs. \\( 7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5564/cat-2015-question-88\" target=\"_blank\">https://aptitude.gateoverflow.in/5564/cat-2015-question-88</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"5786\"></a><div itemprop=\"text\"><p>A person can complete a job in \\( 120 \\) days. He works alone on Day \\( 1 \\). On Day \\( 2 \\), he is joined by another person who also can complete the job in exactly \\( 120 \\) days. On Day&nbsp;\\( 3 \\), they are joined by another person of equal efficiency. Like this, everyday a new person with the same efficiency joins the work. How many days are required to complete the job?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5786/cat-2017-set-1-question-68\" target=\"_blank\">https://aptitude.gateoverflow.in/5786/cat-2017-set-1-question-68</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"5862\"></a><div itemprop=\"text\"><p>Amal can complete a job in \\( 10 \\) days and Bimal can complete it in \\( 8 \\) days. Amal, Bimal and Kamal together complete the job in \\( 4 \\) days and are paid a total amount of Rs \\( 1000 \\) as remuneration. If this amount is shared by them in proportion to their work, then Kamal's share, in rupees, is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 300 \\)</p>",
+            "<p>\\( 400 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 100 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5862/cat-2017-set-2-question-79\" target=\"_blank\">https://aptitude.gateoverflow.in/5862/cat-2017-set-2-question-79</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"6011\"></a><div itemprop=\"text\"><p>When they work alone, \\( \\text{B} \\) needs \\( 25\\% \\) more time to finish a job than \\( \\text{A} \\) does. They two finish the job in \\( 13 \\) days in the following manner: \\( \\text{A} \\) works alone till half the job is done, then \\( \\text{A} \\) and \\( \\text{B} \\) work together for four days, and finally \\( \\text{B} \\) works alone to complete the remaining \\( 5\\% \\) of the job. In how many days can \\( \\text{B} \\) alone finish the entire job?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6011/cat-2018-set-1-question-100\" target=\"_blank\">https://aptitude.gateoverflow.in/6011/cat-2018-set-1-question-100</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"6012\"></a><div itemprop=\"text\"><p>Humans and robots can both perform a job but at different efficiencies. Fifteen humans and five robots working together take thirty days to finish the job, whereas five humans and fifteen robots working together take sixty days to finish it. How many days will fifteen humans working together (without any robot) take to finish it?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 32 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6012/cat-2018-set-1-question-99\" target=\"_blank\">https://aptitude.gateoverflow.in/6012/cat-2018-set-1-question-99</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"6135\"></a><div itemprop=\"text\"><p>Ramesh and Ganesh can together complete a work in \\( 16 \\) days. After seven days of working together, Ramesh got sick and his efficiency fell by \\( 30\\% \\). As a result, they completed the work in \\( 17 \\) days instead of \\( 16 \\) days. If Ganesh had worked alone after Ramesh got sick, in how many days would he have completed the remaining work?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2018 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13.5 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 14.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6135/cat-2018-set-2-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/6135/cat-2018-set-2-question-82</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"5437\"></a><div itemprop=\"text\"><p>At their usual efficiency levels, A and B together finish a task in \\( 12 \\) days. If A had worked half as efficiency as she usually does, and B had worked thrice as efficiency as he usually does, the task would have been completed in \\( 9 \\) days. How many days would A take to finish the task if she works alone at her usual&nbsp;efficiency?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 36 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5437/cat-2019-set-1-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/5437/cat-2019-set-1-question-74</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"5430\"></a><div itemprop=\"text\">Three men and eight machines can finish a job in half the time taken by three machines and eight men to finish the same job. If two machines can finish the job in \\( 13 \\) days, then how many men can finish the job in \\( 13 \\) days?______</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5430/cat-2019-set-1-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/5430/cat-2019-set-1-question-81</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"6181\"></a><div itemprop=\"text\"><p>Anil alone can do a job in \\( 20 \\) days while Sunil alone can do it in \\( 40 \\) days. Anil starts the job, and after \\( 3 \\) days, Sunil joins him. Again, after a few more days, Bimal joins them and they together finish the job. If Bimal has done \\( 10\\% \\) of the job, then in how many days was the job done?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2019 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6181/cat-2019-set-2-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/6181/cat-2019-set-2-question-71</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"8046\"></a><div itemprop=\"text\">John takes twice as much time as Jack to finish a job. Jack and Jim together take one-thirds of the time to finish the job than John takes working alone. Moreover, in order to finish the job, John takes three days more than that taken by three of them working together. In how many days will Jim finish the job working alone \\( ? \\)</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8046/cat-2020-set-2-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/8046/cat-2020-set-2-question-54</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"8118\"></a><div itemprop=\"text\">A contractor agreed to construct a \\( 6 \\; \\text{km} \\) road in \\( 200 \\; \\text{days}. \\) He employed \\( 140 \\) persons for the work. After \\( 60 \\; \\text{days}, \\) he realized that only \\( 1.5 \\; \\text{km} \\) road has been completed. How many additional people would he need to employ in order to finish the work exactly on time \\( ? \\)</div><br><br><b>Quantitative Aptitude: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "40",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8118/cat-2020-set-3-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/8118/cat-2020-set-3-question-60</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"8377\"></a><div itemprop=\"text\">Amar, Akbar and Anthony are working on a project. Working together Amar and Akbar can complete the project in \\( 1 \\; \\text{year}, \\) Akbar and Anthony can complete in \\( 16 \\) months, Anthony and Amar can complete in \\( 2 \\; \\text{years}. \\) If the person who is neither the faster nor the slowest works alone, the time in months he will take to complete the project is</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8377/cat-2021-set-1-quantitative-aptitude-question-4\" target=\"_blank\">https://aptitude.gateoverflow.in/8377/cat-2021-set-1-quantitative-aptitude-question-4</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"8376\"></a><div itemprop=\"text\"><p>Anu, Vinu and Manu can complete a work alone in \\( 15 \\; \\text{days}, 12 \\; \\text{days} \\) and \\( 20 \\; \\text{days}, \\) respectively. Vinu works everyday. Anu works only on alternate days starting from the first day while Manu works only on alternate days starting from the second day. Then, the number of days needed to complete the work is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8376/cat-2021-set-1-quantitative-aptitude-question-5\" target=\"_blank\">https://aptitude.gateoverflow.in/8376/cat-2021-set-1-quantitative-aptitude-question-5</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"8504\"></a><div itemprop=\"text\"><p>One day, Rahul started a work at \\( 9 \\; \\text{AM} \\) and Gautam joined him two hours later. They then worked together and completed the work at&nbsp;\\( 5&nbsp;\\; \\text{PM} \\) the same day. If both had started at&nbsp;\\( 9 \\; \\text{AM} \\) and worked together, the work would have been completed \\( 30 \\; \\text{minutes} \\) earlier. Working alone, the time Rahul would have taken, in hours, to complete the work is&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 12.5 \\)</p>",
+            "<p>\\( 11.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8504/cat-2021-set-3-quantitative-aptitude-question-15\" target=\"_blank\">https://aptitude.gateoverflow.in/8504/cat-2021-set-3-quantitative-aptitude-question-15</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"307\"></a><div itemprop=\"text\"><p>In a section of a timber mill, cylindrical logs of wood, all of uniform dimensions, arrive as the input and are cut into smaller cylindrical pieces of the same radius using manual and mechanical saws. To operate a manual saw four workers are needed and to operate a mechanized saw two workers are needed. The team of four workers takes two hours to cut a log into two cylindrical pieces using a manual saw, whereas just two workers are needed to do the same work in one hour using a mechanized saw. The time required to make a cut is proportional to the area across which the cut is made. How long will it take for 12 workers to cut 60 logs into four equal pieces each, if they have two mechanized saws and two manual saws?</p><ol><li>40 hours</li><li>80 hours</li><li>120 hours</li><li>60 hours</li></ol></div><br><br><b>Quantitative Aptitude: In a section of a timber mill, cylindrical logs of wood, all of uniform dimensions, arrive as the input and are cut into smaller cylindrical pieces of the same radius using manual and mechanical saws.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/307/cylindrical-uniform-dimensions-smaller-cylindrical-mechanical\" target=\"_blank\">https://aptitude.gateoverflow.in/307/cylindrical-uniform-dimensions-smaller-cylindrical-mechanical</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"6374\"></a><div itemprop=\"text\"><p>In a camp, there are meals for \\( 120 \\) men or \\( 200 \\) children. If \\( 150 \\) children have taken their meals, how many men will be catered to with the remaining meal ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6374/nielit-2016-dec-scientist-b-section-a-58\" target=\"_blank\">https://aptitude.gateoverflow.in/6374/nielit-2016-dec-scientist-b-section-a-58</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"6373\"></a><div itemprop=\"text\"><p>\\( 56 \\) men can complete a piece of work in \\( 24 \\) days. In how many days can \\( 42 \\) men complete the same piece of work ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 32 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6373/nielit-2016-dec-scientist-b-section-a-59\" target=\"_blank\">https://aptitude.gateoverflow.in/6373/nielit-2016-dec-scientist-b-section-a-59</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"6721\"></a><div itemprop=\"text\"><p>If \\( 34 \\) men completed \\( 2/5 \\)th&nbsp;of a work in \\( 8 \\) days working \\( 9 \\) hours a day. How many more man should be engaged to finish the rest of the work in \\( 6 \\) days working \\( 9 \\) hours a day?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 189 \\)</p>",
+            "<p>\\( 198 \\)</p>",
+            "<p>\\( 102 \\)</p>",
+            "<p>\\( 142 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6721/nielit-2016-mar-scientist-c-section-a-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6721/nielit-2016-mar-scientist-c-section-a-10</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"6720\"></a><div itemprop=\"text\"><p>Worker \\( A \\) takes \\( 8 \\) hours to do a job. Worker \\( B \\) takes \\( 10 \\) hours to do the same job. How long it take both \\( \\text{A&amp;B} \\), working together but independently, to do the same job?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 40/9 \\) days</p>",
+            "<p>\\( 40/7 \\) days</p>",
+            "<p>\\( 7.5 \\) days</p>",
+            "<p>\\( 8.5 \\) days</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6720/nielit-2016-mar-scientist-c-section-a-11\" target=\"_blank\">https://aptitude.gateoverflow.in/6720/nielit-2016-mar-scientist-c-section-a-11</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"4381\"></a><div itemprop=\"text\">aamir and birju can cut 5000 g of wood in 20 min.birju and charles can cut 5000 g of wood in 40 min.charles and aamir can cut 5 kg of wood in 30 min.how much time charles will take to cut 5 kg wood alone??</div><br><br><b>Quantitative Aptitude: NIELIT 2017</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4381/nielit-2017\" target=\"_blank\">https://aptitude.gateoverflow.in/4381/nielit-2017</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"6471\"></a><div itemprop=\"text\"><p>Ali is thrice as good as workman as Birju&nbsp;and therefore is able to finish a job in \\( 60 \\) days less than Birju. If both Ali and Birju, work together, they can do it in:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\) days</p>",
+            "<p>\\( 22.5 \\) days</p>",
+            "<p>\\( 25 \\) days</p>",
+            "<p>\\( 30 \\) days</p>"
+          ],
+          "correct_answer": "<p>\\( 22.5 \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6471/nielit-2017-dec-scientific-assistant-a-section-a-34\" target=\"_blank\">https://aptitude.gateoverflow.in/6471/nielit-2017-dec-scientific-assistant-a-section-a-34</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"6263\"></a><div itemprop=\"text\"><p>Arun and Barun are both athletes. However, Arun runs \\( 25\\% \\) faster than Barun. He is able to allow Barun a lead of \\( 7 \\) meters to end a race in scorching heat. What is the length of the race ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\) meters</p>",
+            "<p>\\( 25 \\) meters</p>",
+            "<p>\\( 15 \\) meters</p>",
+            "<p>\\( 35 \\) meters</p>"
+          ],
+          "correct_answer": "<p>\\( 35 \\) meters</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6263/nielit-2017-dec-scientist-b-section-a-49\" target=\"_blank\">https://aptitude.gateoverflow.in/6263/nielit-2017-dec-scientist-b-section-a-49</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"6252\"></a><div itemprop=\"text\"><p>A task can be completed in \\( 20 \\) days, if Rose and Ryan work together. However, if Rose worked alone and completed half the task and then Ryan takes over and completes the second half, the task will be completed in \\( 45 \\) days. How long will Rose take to complete the task if she worked alone ? Assume that Ryan is more efficient than Rose.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25 \\) days</p>",
+            "<p>\\( 30 \\) days</p>",
+            "<p>\\( 60 \\) days</p>",
+            "<p>\\( 65 \\) days</p>"
+          ],
+          "correct_answer": "<p>\\( 60 \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6252/nielit-2017-dec-scientist-b-section-a-60\" target=\"_blank\">https://aptitude.gateoverflow.in/6252/nielit-2017-dec-scientist-b-section-a-60</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"6563\"></a><div itemprop=\"text\"><p>Aamir and Birju&nbsp;can cut \\( 5000\\;\\text{g} \\) of wood in \\( 20 \\) min. Birju and Charles can cut \\( 5000\\;\\text{g} \\) of wood in \\( 40 \\) min. Charles and Aamir cut \\( 5\\;\\text{kg} \\) of wood in \\( 30 \\) min. How much time Charles will take to cut \\( 5\\;\\text{kg} \\) wood alone?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 120 \\) min</p>",
+            "<p>\\( 48 \\) min</p>",
+            "<p>\\( 240 \\) min</p>",
+            "<p>\\( 120/7 \\) min</p>"
+          ],
+          "correct_answer": "<p>\\( 240 \\) min</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6563/nielit-2017-oct-scientific-assistant-a-section-a-2\" target=\"_blank\">https://aptitude.gateoverflow.in/6563/nielit-2017-oct-scientific-assistant-a-section-a-2</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"6643\"></a><div itemprop=\"text\"><p>\\( A \\) and \\( B \\) can complete a task in \\( 30 \\) days when working together. After \\( A \\) and \\( B \\) have been working together for \\( 11 \\) days, \\( B \\) is called away and \\( A \\), himself completes the task in the next \\( 28 \\) days. Had \\( A \\) been working alone, the number of days taken by him to complete the task would have been:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{379}{9} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{840}{19} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{520}{11} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{590}{11} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6643/nielit-2019-feb-scientist-c-section-c-13\" target=\"_blank\">https://aptitude.gateoverflow.in/6643/nielit-2019-feb-scientist-c-section-c-13</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"6635\"></a><div itemprop=\"text\"><p>\\( A \\) can finish a work in \\( 12 \\) days and \\( B \\) can do it in \\( 15 \\) days. After \\( A \\) had worked for \\( 3 \\) days, \\( B \\) also joined \\( A \\) to finish the remaining work. In how many days, the remaining work will be finished?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5\\dfrac{1}{2} \\\\ \\)</p>",
+            "<p>\\( 4\\dfrac{1}{2} \\\\ \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6635/nielit-2019-feb-scientist-c-section-c-21\" target=\"_blank\">https://aptitude.gateoverflow.in/6635/nielit-2019-feb-scientist-c-section-c-21</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"6627\"></a><div itemprop=\"text\"><p>If \\( 20 \\) men working \\( 7 \\) hours a day can do a piece of work in \\( 10 \\) days, in how many days&nbsp;will \\( 15 \\) men working for \\( 8 \\) hours a day do the same piece of work?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\dfrac{320}{21} \\text{&nbsp;days} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{35}{3} \\text{&nbsp;days} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{105}{16} \\text{&nbsp;days} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{21}{5}\\text{&nbsp;days} \\\\ \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6627/nielit-2019-feb-scientist-c-section-c-29\" target=\"_blank\">https://aptitude.gateoverflow.in/6627/nielit-2019-feb-scientist-c-section-c-29</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"6813\"></a><div itemprop=\"text\"><p>If \\( 9 \\) men working \\( 7\\frac{1}{2} \\) hours a day can finish a work in \\( 20 \\) days, then how many days will be taken by \\( 12 \\) men working \\( 6 \\) hours a day to finish the work, it being given that \\( 3 \\) men of former type work as much as \\( 2 \\) men of the latter type in the same time ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12\\frac{1}{2} \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 9\\frac{1}{2} \\)</p>",
+            "<p>\\( 11 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12\\frac{1}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6813/nielit-2019-feb-scientist-d-section-c-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6813/nielit-2019-feb-scientist-d-section-c-10</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"6815\"></a><div itemprop=\"text\"><p>\\( A \\) can do a piece of work in \\( 14 \\) days which \\( B \\) can do in \\( 21 \\) days. They begin together but \\( 3 \\) days before the completion of the work, \\( A \\) leaves off. The total number of days to complete the work is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{33}{5} \\)</p>",
+            "<p>\\( 8\\frac{1}{2} \\)</p>",
+            "<p>\\( \\frac{51}{5} \\)</p>",
+            "<p>\\( 13\\frac{1}{2} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6815/nielit-2019-feb-scientist-d-section-c-8\" target=\"_blank\">https://aptitude.gateoverflow.in/6815/nielit-2019-feb-scientist-d-section-c-8</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"4345\"></a><div itemprop=\"text\">Q1)Srinu is 50% more efficient than Murali.If Srinu takes 20 days to finish a job then Murali will take how much time?</div><br><br><b>Quantitative Aptitude: Time and Work</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4345/time-and-work\" target=\"_blank\">https://aptitude.gateoverflow.in/4345/time-and-work</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"4724\"></a><div itemprop=\"text\">\\( A \\) can complete half work in \\( 7 \\) days \\( B \\) can do \\( \\dfrac{1}{3} \\) of work in \\( 14 \\) days .while \\( C \\) can complete the \\( 20\\% \\) of the remaining work in \\( \\dfrac{28}{5} \\) days. In how many days \\( A,B,C \\) will complete the work together ?</div><br><br><b>Quantitative Aptitude: self doubt</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4724/self-doubt\" target=\"_blank\">https://aptitude.gateoverflow.in/4724/self-doubt</a></p>"
+        }
+      ]
+    }
+  ]
+});

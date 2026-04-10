@@ -1,0 +1,46 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Operator Precedence",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Operator Precedence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"668\"></a><div itemprop=\"text\"><p>Given the following expression grammar:</p><p>\\[ \\begin{align}<br>E &amp;\\to E * F \\mid F + E \\mid F \\\\[1em]<br>F &amp;\\to F - F \\mid id<br>\\end{align} \\]</p><p>Which of the following is true?</p></div><br><br><b>GATE CSE 2000 | Question: 2.21, ISRO2015-24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( * \\) has higher precedence than \\( + \\)</p>",
+            "<p>\\( - \\) has higher precedence than \\( * \\)</p>",
+            "<p>\\( + \\) and \\( - \\) have same precedence</p>",
+            "<p>\\( + \\) has higher precedence than \\( * \\)</p>"
+          ],
+          "correct_answer": "<p>\\( - \\) has higher precedence than \\( * \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/668/gate-cse-2000-question-2-21-isro2015-24\" target=\"_blank\">https://gateoverflow.in/668/gate-cse-2000-question-2-21-isro2015-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39697\"></a><div itemprop=\"text\">The attribute of three arithmetic operators in some programming language are given below.<br>\n\\[ \\begin{array}{|c|l|}\\hline \\textbf{OPERATOR} &nbsp;&amp; &nbsp;\\textbf{PRECEDENCE} &amp; \\textbf{ASSOCIATIVITY} &amp; \\textbf{ARITY} \\\\\\hline &nbsp;\\text{\\( + \\)} &amp; \\text{High} &amp; \\text{Left} &amp; \\text{Binary} \\\\\\hline &nbsp;\\text{\\( - \\)} &amp; \\text{Medium} &amp; \\text{Right} &amp; \\text{Binary} \\\\\\hline &nbsp;\\text{\\( * \\)} &amp; \\text{Low} &amp; \\text{Left} &amp; \\text{Binary} \\\\\\hline \\end{array} \\]<br>\nThe value of the expression \\( 2-5+1-7*3 \\) in this language is ________.</div><br><br><b>GATE CSE 2016 Set 1 | Question: 45</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39697/gate-cse-2016-set-1-question-45\" target=\"_blank\">https://gateoverflow.in/39697/gate-cse-2016-set-1-question-45</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"422819\"></a><div itemprop=\"text\"><p>Consider the operator precedence and associativity rules for the <em>integer </em>arithmetic operators given in the table below.&nbsp;\\[ \\begin{array}{|c|l|}\\hline \\textbf{Operator} &nbsp;&amp; &nbsp;\\textbf{Precedence} &amp; \\textbf{Associativity} \\\\\\hline &nbsp;\\text{\\( + \\)} &amp; \\text{Highest} &amp; \\text{Left} \\\\\\hline &nbsp;\\text{\\( - \\)} &amp; \\text{High} &amp; \\text{Right} \\\\\\hline &nbsp;\\text{\\( * \\)} &amp; \\text{Medium} &amp; \\text{Right}&nbsp; \\\\\\hline&nbsp;\\text{\\( / \\)} &amp; \\text{Low} &amp; \\text{Right}&nbsp; \\\\\\hline \\end{array} \\]</p><p>The value of the expression \\( 3+1+5 * 2 / 7+2-4-7-6 / 2 \\) as per the above rules is ________.</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 23</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422819/gate-cse-2024-set-1-question-23\" target=\"_blank\">https://gateoverflow.in/422819/gate-cse-2024-set-1-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+});

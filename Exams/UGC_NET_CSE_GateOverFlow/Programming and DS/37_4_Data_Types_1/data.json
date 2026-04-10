@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Data Types",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Types",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63900\"></a><div itemprop=\"text\"><p>If an integer needs two bytes of storage, then the maximum value of unsigned integer is</p>\n\n</div><br><br><b>Programming and DS: UGC NET CSE | December 2011 | Part 2 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{16}&nbsp;– 1 \\)</p>",
+            "<p>\\( 2^{15}&nbsp;– 1 \\)</p>",
+            "<p>\\( 2^{16} \\)&nbsp;</p>",
+            "<p>\\( 2^{15} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{16}&nbsp;– 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63900/ugc-net-cse-december-2011-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/63900/ugc-net-cse-december-2011-part-2-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+}

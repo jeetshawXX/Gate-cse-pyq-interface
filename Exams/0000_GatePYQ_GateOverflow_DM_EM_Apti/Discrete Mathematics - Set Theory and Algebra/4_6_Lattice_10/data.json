@@ -1,0 +1,136 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Lattice",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Lattice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"91351\"></a><div itemprop=\"text\"><p>The complement(s) of the element \\( 'a' \\) in the lattice shown in below figure is (are) ____</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"257\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/9168b3d99f3dece5834a05c0126be190.png\" width=\"346\"></p></div><br><br><b>GATE CSE 1988 | Question: 1vii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/91351/gate-cse-1988-question-1vii\" target=\"_blank\">https://gateoverflow.in/91351/gate-cse-1988-question-1vii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"86884\"></a><div itemprop=\"text\">Show that the elements of the lattice \\( (N, \\leq) \\), where \\( N \\) is the set of positive intergers and \\( a \\leq b \\) if and only if \\( a \\) divides \\( b \\), satisfy the distributive property.</div><br><br><b>GATE CSE 1990 | Question: 17c</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/86884/gate-cse-1990-question-17c\" target=\"_blank\">https://gateoverflow.in/86884/gate-cse-1990-question-17c</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"43580\"></a><div itemprop=\"text\"><p>Consider the set of integers \\( \\{1,2,3,4,6,8,12,24\\} \\) together with the two binary&nbsp;operations LCM (lowest common multiple) and GCD (greatest common&nbsp;divisor). Which of the following algebraic structures does this represent?</p>\n\n</div><br><br><b>GATE CSE 1992 | Question: 14b</b></p>",
+          "type": "single",
+          "options": [
+            "<p>group</p>",
+            "<p>ring</p>",
+            "<p>field</p>",
+            "<p>lattice</p>"
+          ],
+          "correct_answer": "<p>lattice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43580/gate-cse-1992-question-14b\" target=\"_blank\">https://gateoverflow.in/43580/gate-cse-1992-question-14b</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2476\"></a><div itemprop=\"text\">The Hasse diagrams of all the lattices with up to four elements are ________ (write all the relevant Hasse diagrams)</div><br><br><b>GATE CSE 1994 | Question: 2.9</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2476/gate-cse-1994-question-2-9\" target=\"_blank\">https://gateoverflow.in/2476/gate-cse-1994-question-2-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2234\"></a><div itemprop=\"text\"><p>In the lattice defined by the Hasse diagram given in following figure, how many complements does the element ‘\\( e \\)’ have?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"326\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/d4c2863cc682d05c90a7e0e7286a6588.png\" width=\"206\"></p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 3.3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2234/gate-cse-1997-question-3-3\" target=\"_blank\">https://gateoverflow.in/2234/gate-cse-1997-question-3-3</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"857\"></a><div itemprop=\"text\">\\( S=\\{(1,2), (2,1)\\} \\) is binary relation on set \\( A = \\{1,2,3\\} \\). Is it irreflexive? Add the minimum number of ordered pairs to S to make it an equivalence relation. Give the modified \\( S \\).<br>\n<br>\nLet \\( S=\\{a,b\\} \\) and let \\( \\square(S) \\) be the powerset of \\( S \\). Consider the binary relation '\\( \\subseteq \\) (set inclusion)' on \\( \\square(S) \\). Draw the Hasse diagram corresponding to the lattice (\\( \\square(S), \\subseteq \\))</div><br><br><b>GATE CSE 2002 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/857/gate-cse-2002-question-4\" target=\"_blank\">https://gateoverflow.in/857/gate-cse-2002-question-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1158\"></a><div itemprop=\"text\"><p>The following is the Hasse diagram of the poset&nbsp;\\( \\left[\\{a,b,c,d,e\\},≺\\right] \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"245\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/f385735af0ca147b11355b959f96ce85.png\" width=\"253\"></p>\n\n<p>The poset is :</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>not a lattice</p>",
+            "<p>a lattice but not a distributive lattice</p>",
+            "<p>a distributive lattice but not a Boolean algebra</p>",
+            "<p>a Boolean algebra</p>"
+          ],
+          "correct_answer": "<p>a lattice but not a distributive lattice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1158/gate-cse-2005-question-9\" target=\"_blank\">https://gateoverflow.in/1158/gate-cse-2005-question-9</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"8281\"></a><div itemprop=\"text\"><p>Suppose \\( L = \\left\\{ p, q, r, s, t\\right\\} \\) is a lattice represented by the following Hasse diagram:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/3a4d856a629d88a89a83efe233aeabc1.png\"></p>\n\n<p>For any \\( x, y \\in L \\), not necessarily distinct , \\( x \\vee y \\) and \\( x \\wedge y \\) are join and meet of \\( x, y \\), respectively. Let \\( L^3&nbsp;= \\left\\{\\left(x, y, z\\right): x, y, z \\in L\\right\\} \\) be the set of all ordered triplets of the elements of \\( L \\). Let \\( p_{r} \\) be the probability that an element \\( \\left(x, y,z\\right) \\in L^3 \\)&nbsp;chosen equiprobably satisfies \\( x \\vee (y \\wedge z) = (x \\vee &nbsp;y) \\wedge (x \\vee &nbsp;z) \\). Then</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p_r = 0 \\)</p>",
+            "<p>\\( p_r = 1 \\)</p>",
+            "<p>\\( 0 &lt; p_r&nbsp;≤ \\frac{1}{5} \\)</p>",
+            "<p>\\( \\frac{1}{5} &lt; p_r &lt; 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{5} &lt; p_r &lt; 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8281/gate-cse-2015-set-1-question-34\" target=\"_blank\">https://gateoverflow.in/8281/gate-cse-2015-set-1-question-34</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"118278\"></a><div itemprop=\"text\"><p>Consider the set &nbsp;\\( X=\\{a, b, c, d, e\\} \\) &nbsp;under partial ordering &nbsp;\\( R=\\{(a,a), (a, b), (a, c), (a, d), (a, e), (b, b), (b, c), (b, e), (c, c), (c, e), (d, d), (d, e), (e, e) \\} \\)</p>\n\n<p>The Hasse diagram of the partial order \\( (X, R) \\) is shown below.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"301\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/22f6703014a8b2bd443a6ffa09c5c982.png\" width=\"208\"></p>\n\n<p>The minimum number of ordered pairs that need to be added to \\( R \\) to make \\( (X, R) \\) a lattice is ______</p></div><br><br><b>GATE CSE 2017 Set 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118278/gate-cse-2017-set-2-question-21\" target=\"_blank\">https://gateoverflow.in/118278/gate-cse-2017-set-2-question-21</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3318\"></a><div itemprop=\"text\"><p>Consider the following Hasse diagrams.</p>\n\n<ol class=\"shrink-inline-options\" start=\"1\" style=\"list-style-type:lower-roman\">\n<li><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/85c04a0a5e7313706753a91747be5047.png\"></li>\n<li><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/cc9d52fc18b6349f16f3151620e7e7da.png\"></li>\n<li><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/11f2d92446ea5c496850f61b7bc7be07.png\"></li>\n<li><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___lattice/7b5df0e87751ac547b2e1522b00b0e89.png\"></li>\n</ol>\n\n<p>&nbsp;</p>\n<p style=\"clear:both\">Which all of the above represent a lattice?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (iv) only</p>",
+            "<p>(ii) and (iii) only</p>",
+            "<p>(iii) only</p>",
+            "<p>(i), (ii) and (iv) only</p>"
+          ],
+          "correct_answer": "<p>(i) and (iv) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3318/gate-it-2008-question-28\" target=\"_blank\">https://gateoverflow.in/3318/gate-it-2008-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+}

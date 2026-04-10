@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Realtime Systems",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Realtime Systems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128776\"></a><div itemprop=\"text\"><p>Which of the following statement is true?</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2017 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Hard real time OS has less jitter than soft real time OS</p>",
+            "<p>Hard real time OS has more jitter than soft real time OS</p>",
+            "<p>Hard real time OS has equal jitter as soft real time OS</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Hard real time OS has less jitter than soft real time OS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128776/isro-cse-2017-question-73\" target=\"_blank\">https://gateoverflow.in/128776/isro-cse-2017-question-73</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Data Transmission",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Transmission",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60504\"></a><div itemprop=\"text\">\n<p>How many characters per second (\\( 7 \\) bits + \\( 1 \\) parity) can be transmitted over a \\( 3200 \\) bps line if the transfer is asynchronous ? (Assuming \\( 1 \\) start bit and \\( 1 \\) stop bit)</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2014 | Part 3 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 300 \\)</p>",
+            "<p>\\( 320 \\)</p>",
+            "<p>\\( 360 \\)</p>",
+            "<p>\\( 400 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 320 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60504/ugc-net-cse-december-2014-part-3-question-26\" target=\"_blank\">https://gateoverflow.in/60504/ugc-net-cse-december-2014-part-3-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

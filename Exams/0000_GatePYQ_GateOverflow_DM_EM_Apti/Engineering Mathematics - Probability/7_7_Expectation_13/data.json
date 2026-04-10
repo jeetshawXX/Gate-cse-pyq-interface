@@ -1,0 +1,196 @@
+{
+  "title": "Engineering Mathematics - Probability - Expectation",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Expectation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1455\"></a><div itemprop=\"text\"><p>Suppose that the expectation of a random variable \\( X \\) is \\( 5 \\). Which of the following statements is true?</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There is a sample point at which \\( X \\) has the value \\( 5 \\).</p>",
+            "<p>There is a sample point at which \\( X \\) has value greater than \\( 5 \\).</p>",
+            "<p>There is a sample point at which \\( X \\) has a value greater than equal to \\( 5 \\).</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>There is a sample point at which \\( X \\) has a value greater than equal to \\( 5 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1455/gate-cse-1999-question-1-1\" target=\"_blank\">https://gateoverflow.in/1455/gate-cse-1999-question-1-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1068\"></a><div itemprop=\"text\"><p>An examination paper has \\( 150 \\) multiple choice questions of one mark each, with each question having four choices. Each incorrect answer fetches \\( -0.25 \\) marks. Suppose \\( 1000 \\) students choose all their answers randomly with uniform probability. The sum total of the expected marks obtained by all these students is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 74</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 2550 \\)</p>",
+            "<p>\\( 7525 \\)</p>",
+            "<p>\\( 9375 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9375 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1068/gate-cse-2004-question-74\" target=\"_blank\">https://gateoverflow.in/1068/gate-cse-2004-question-74</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"979\"></a><div itemprop=\"text\"><p>We are given a set \\( X = \\{X_1,\\ldots,X_n\\} \\)&nbsp;where \\( X_i=2^i \\).&nbsp;&nbsp;A sample &nbsp;\\( S\\subseteq X \\)&nbsp;is drawn by&nbsp;&nbsp;selecting each \\( X_i \\)<sub>&nbsp;&nbsp;</sub>independently with probability \\( P_i = \\frac{1}{2} \\)&nbsp;.&nbsp;The expected value of the smallest number in sample \\( S \\) is:</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\frac{1}{n}\\right) \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\sqrt n \\)</p>",
+            "<p>\\( n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/979/gate-cse-2006-question-18\" target=\"_blank\">https://gateoverflow.in/979/gate-cse-2006-question-18</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2120\"></a><div itemprop=\"text\"><p>If the difference between the expectation of the square of a random variable \\( \\left(E\\left[X^2\\right]\\right) \\) and the square of the expectation of the random variable \\( \\left(E\\left[X\\right]\\right)^2 \\) is denoted by \\( R \\), then</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R=0 \\)</p>",
+            "<p>\\( R&lt;0 \\)</p>",
+            "<p>\\( R\\geq 0 \\)</p>",
+            "<p>\\( R &gt; 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( R\\geq 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2120/gate-cse-2011-question-18\" target=\"_blank\">https://gateoverflow.in/2120/gate-cse-2011-question-18</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1535\"></a><div itemprop=\"text\"><p>Consider an undirected random graph of eight vertices. The probability that there is an edge between a pair of vertices is \\( \\dfrac{1}{2}. \\) What is the expected number of unordered cycles of length three?</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac {1}{8} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1535/gate-cse-2013-question-24\" target=\"_blank\">https://gateoverflow.in/1535/gate-cse-2013-question-24</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1954\"></a><div itemprop=\"text\">Each of the nine words in the sentence \\( \\text{\"The quick brown fox jumps over the lazy dog”} \\) is written on a separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random from the box. The \\( \\text{expected} \\) length of the word drawn is _____________. (The answer should be rounded to one decimal place.)</div><br><br><b>GATE CSE 2014 Set 2 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3.8:3.9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1954/gate-cse-2014-set-2-question-2\" target=\"_blank\">https://gateoverflow.in/1954/gate-cse-2014-set-2-question-2</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"118373\"></a><div itemprop=\"text\"><p>For any discrete random variable \\( X \\), with probability mass function \\( P(X=j)=p_j, p_j \\geq 0, j \\in \\{0, \\dots , N \\} \\), and \\( \\Sigma_{j=0}^N \\: p_j =1 \\), define the polynomial function \\( g_x(z) = \\Sigma_{j=0}^N \\: p_j \\: z^j \\). For a certain discrete random variable \\( Y \\), there exists a scalar \\( \\beta \\in [0,1] \\) such that \\( g_y(z) =(1- \\beta+\\beta z)^N \\). The expectation of \\( Y \\) is</p></div><br><br><b>GATE CSE 2017 Set 2 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( N \\beta(1-\\beta) \\)</p>",
+            "<p>\\( N \\beta \\)</p>",
+            "<p>\\( N (1-\\beta) \\)</p>",
+            "<p>Not expressible in terms of \\( N \\) and \\( \\beta \\) alone</p>"
+          ],
+          "correct_answer": "<p>\\( N \\beta \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31\" target=\"_blank\">https://gateoverflow.in/118373/gate-cse-2017-set-2-question-31</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"357416\"></a><div itemprop=\"text\"><p>Consider the two statements.</p><ul><li>\\( S_1:\\quad \\)&nbsp;There exist random variables \\( X \\) and \\( Y \\) such that \\(  &nbsp;\\left(\\mathbb E[(X-\\mathbb&nbsp;E(X))(Y-\\mathbb&nbsp;E(Y))]\\right)^2&gt;\\textsf{Var}[X]\\textsf{Var}[Y] \\)</li><li>\\( S_2:\\quad \\)&nbsp;For all random variables \\( X \\) and \\( Y,&nbsp;\\textsf{Cov}[X,Y]=\\mathbb E &nbsp;\\left[|X-\\mathbb E[X]|\\;|Y-\\mathbb E[Y]|\\right ] \\)</li></ul><p>Which one of the following choices is correct?</p></div><br><br><b>GATE CSE 2021 Set 1 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are true</p>",
+            "<p>\\( S_1 \\) is true, but \\( S_2 \\) is false</p>",
+            "<p>\\( S_1 \\) is false, but \\( S_2 \\) is true</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are false</p>"
+          ],
+          "correct_answer": "<p>Both \\( S_1 \\) and \\( S_2 \\) are false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357416/gate-cse-2021-set-1-question-35\" target=\"_blank\">https://gateoverflow.in/357416/gate-cse-2021-set-1-question-35</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"357511\"></a><div itemprop=\"text\"><p>In an examination, a student can choose the order in which two questions (\\( \\textsf{QuesA} \\) and \\( \\textsf{QuesB} \\)) must be attempted.</p>\n\n<ul>\n\t<li>If the first question is answered wrong, the student gets zero marks.</li>\n\t<li>If the first question is answered correctly and the second question is not answered correctly, the student gets the marks only for the first question.</li>\n\t<li>If both the questions are answered correctly, the student gets the sum of the marks of the two questions.</li>\n</ul>\n\n<p>The following table shows the probability of correctly answering a question and the marks of the question respectively.</p>\n\n<p>\\[ \\begin{array}{c|c|c} \\text{question} &amp; \\text{probabilty of answering correctly} &amp; \\text{marks} \\\\ \\hline \\textsf{QuesA} &amp; 0.8 &amp; 10 \\\\ \\textsf{QuesB} &amp; 0.5 &amp; 20 \\end{array} \\]</p>\n\n<p>Assuming that the student always wants to maximize her expected marks in the examination, in which order should she attempt&nbsp; the questions and what is the expected marks for that order (assume that the questions are independent)?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First \\( \\textsf{QuesA} \\) and then \\( \\textsf{QuesB} \\). Expected marks \\( 14 \\).</p>",
+            "<p>First \\( \\textsf{QuesB} \\) and then \\( \\textsf{QuesA} \\).&nbsp;Expected marks \\( 14 \\).</p>",
+            "<p>First \\( \\textsf{QuesB} \\) and then \\( \\textsf{QuesA} \\). Expected marks \\( 22 \\).</p>",
+            "<p>First \\( \\textsf{QuesA} \\) and then \\( \\textsf{QuesB} \\). Expected marks \\( 16 \\).</p>"
+          ],
+          "correct_answer": "<p>First \\( \\textsf{QuesA} \\) and then \\( \\textsf{QuesB} \\). Expected marks \\( 16 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29\" target=\"_blank\">https://gateoverflow.in/357511/gate-cse-2021-set-2-question-29</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"461021\"></a><div itemprop=\"text\"><p>​​​​​​Suppose \\( X \\) and \\( Y \\) are random variables. The conditional expectation of \\( X \\) given \\( Y \\) is denoted by \\( E[X \\mid Y] \\). Then \\( E[E[X \\mid Y]] \\) equals</p></div><br><br><b>GATE DA 2025 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( E[X \\mid Y] \\)</p>",
+            "<p>\\( \\frac{E[X]}{E[Y]} \\)</p>",
+            "<p>\\( E[X] \\)</p>",
+            "<p>\\( E[Y] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( E[X] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461021/gate-da-2025-question-1\" target=\"_blank\">https://gateoverflow.in/461021/gate-da-2025-question-1</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"461012\"></a><div itemprop=\"text\"><p>​​​​​Let \\( X=a Z+b \\), where \\( Z \\) is a standard normal random variable, and \\( a, b \\) are two unknown constants. It is given that<br>\\[<br>E[X]=1, \\quad E[(X-E[X]) Z]=-2, \\quad E\\left[(X-E[X])^{2}\\right]=4<br>\\]<br>where \\( E[X] \\) denotes the expectation of random variable \\( X \\). The values of \\( a, b \\) are:</p></div><br><br><b>GATE DA 2025 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a=-2, b=1 \\)</p>",
+            "<p>\\( a=2, b=-1 \\)</p>",
+            "<p>\\( a=-2, b=-1 \\)</p>",
+            "<p>\\( a=1, b=1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( a=-2, b=1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461012/gate-da-2025-question-10\" target=\"_blank\">https://gateoverflow.in/461012/gate-da-2025-question-10</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"460971\"></a><div itemprop=\"text\">A bag contains \\( 5 \\) white balls and \\( 10 \\) black balls. In a random experiment, \\( n \\) balls are drawn from the bag one at a time with replacement. Let \\( S_{n} \\) denote the total number of black balls drawn in the experiment.<br>\n<br>\nThe expectation of \\( S_{100} \\) denoted by \\( E\\left[S_{100}\\right]= \\) ____________. (Round off to one decimal place)</div><br><br><b>GATE DA 2025 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "66.6:66.7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460971/gate-da-2025-question-51\" target=\"_blank\">https://gateoverflow.in/460971/gate-da-2025-question-51</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"422936\"></a><div itemprop=\"text\"><p>​​​​​A fair six-sided die (with faces numbered \\( 1,2,3,4,5,6 \\) ) is repeatedly thrown independently.</p><p>What is the expected number of times the die is thrown until two consecutive throws of even numbers are seen?</p><p></p></div><br><br><b>GATE DS&AI 2024 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422936/gate-ds&ai-2024-question-26\" target=\"_blank\">https://gateoverflow.in/422936/gate-ds&ai-2024-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+}

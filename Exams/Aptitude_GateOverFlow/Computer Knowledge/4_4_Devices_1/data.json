@@ -1,0 +1,21 @@
+{
+  "title": "Computer Knowledge - Devices",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Devices",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"165\"></a><div itemprop=\"text\"><p>Keyboards, scanner and microphones are examples of</p><p>&nbsp;</p><ol><li>software programs</li><li>input devices</li><li>output devices</li><li>utilities</li><li>none of these</li></ol><p>&nbsp;</p></div><br><br><b>Computer Knowledge: Keyboards, scanner and microphones are examples of</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/165/keyboards-scanner-and-microphones-are-examples-of\" target=\"_blank\">https://aptitude.gateoverflow.in/165/keyboards-scanner-and-microphones-are-examples-of</a></p>"
+        }
+      ]
+    }
+  ]
+}

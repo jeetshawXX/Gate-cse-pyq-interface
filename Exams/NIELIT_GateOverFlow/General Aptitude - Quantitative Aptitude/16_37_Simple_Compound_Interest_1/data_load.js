@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Simple Compound Interest",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Simple Compound Interest",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351429\"></a><div itemprop=\"text\"><p>₹ \\( 1000 \\) doubled in \\( 10 \\)&nbsp;years when compounded annually. How many more years will it take to get another&nbsp;₹ \\( 2000 \\) compound interest?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientific Assistant A 2020 November: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\) years</p>",
+            "<p>\\( 10 \\) years</p>",
+            "<p>\\( 3 \\) years</p>",
+            "<p>\\( 4 \\) years</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\) years</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351429/nielit-scientific-assistant-a-2020-november-32\" target=\"_blank\">https://gateoverflow.in/351429/nielit-scientific-assistant-a-2020-november-32</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+{
+  "title": "Compiler_Design - Compiler_Design - Slot 8",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the grammar:<br><br>\nE \\(\\rightarrow\\) E + n | E * n | n <br><br>\nFor a sentence n + n *  n, the handles in the right-sentential form of the reduction are: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n, E + n and E + n * n</p>",
+            "<b>B.</b> <p>n, E + n and E + E * n</p>",
+            "<b>C.</b> <p>n, n + n and n + n * n</p>",
+            "<b>D.</b> <p>n, E + n and E * n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n, E + n and E * n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1382/gate2005-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The grammar \\(A\\rightarrow AA|(A)|\\varepsilon\\) is not suitable for predictive-parsing because the grammar is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ambiguous</p>",
+            "<b>B.</b> <p>left-recursive</p>",
+            "<b>C.</b> <p>right-recursive</p>",
+            "<b>D.</b> <p>operator-grammar</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>ambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1350/gate2005-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the grammar with the following translation rules and E as the start symbol.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q45_57f67ac9.jpg\"><br>\nCompute E.value for the root of the parse tree for the expression:2 # 3 &amp; 5 # 6 &amp; 4. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>200</p>",
+            "<b>B.</b> <p>180</p>",
+            "<b>C.</b> <p>160</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>160</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1042/gate2004-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the grammar rule  \\(E \\rightarrow E1 - E2 \\) for arithmetic expressions. The code generated is targeted to a CPU having a single user register. The subtraction operation requires the first operand to be in the register. If E1 and E2 do not have nay-common sub-expression, in order to get the shortest possible code <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>E1 should be evaluated first</p>",
+            "<b>B.</b> <p>E2 should be evaluated first</p>",
+            "<b>C.</b> <p>Evaluation of E1 and E2 should necessarily be interleaved</p>",
+            "<b>D.</b> <p>Order to evaluation of E1 and E2 is of no consequence</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>E2 should be evaluated first</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/4069/gate2004-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a program P that consists of two source modules M1 and M2 contained in two different files. If M1 contains a reference to a function defined in M2 the reference will be resolved at <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Edit time</p>",
+            "<b>B.</b> <p>Compile time</p>",
+            "<b>C.</b> <p>Link time</p>",
+            "<b>D.</b> <p>Load time</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Link time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1006/gate2004-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following is NOT an advantage of using shared, dynamically linked\nlibraries as opposed to using statically linked libraries? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Smaller sizes of executable</p>",
+            "<b>B.</b> <p>Lesser overall page fault rate in the system</p>",
+            "<b>C.</b> <p>Faster program startup</p>",
+            "<b>D.</b> <p>Existing programs need not be re-linked to take advantage of newer\nversions of libraries</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Lesser overall page fault rate in the system</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/962/gate2003-76#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the syntax directed definition shown below <br><br>\\(\\begin{array}{ll}\nS \\rightarrow \\mathbf{ id :=} E&amp;\\qquad \\{gen(\\mathbf{ id}.place = E.place;);\\}\\\\\nE \\rightarrow E_1 + E_2 &amp;\\qquad \\{t = newtemp();\\\\\n&amp;\\qquad gen(t = E_1.place + E_2.place;);\\\\\n&amp;\\qquad E.place = t;\\}\\\\\nE \\rightarrow id&amp;\\qquad \\{E.place = \\mathbf{id}.place;\\}\n\\end{array}\n\\)<br><br>\nHere, gen is a function that generates the output code, and newtemp is a function\nthat returns the name of a new temporary variable on every call. Assume that ti's are the temporary variable names generated by newtemp.\nFor the statement 'X:= Y + Z', the 3-address code sequence generated by this\ndefinition is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X = Y + Z</p>",
+            "<b>B.</b> <p>t1 = Y + Z;  X=t1</p>",
+            "<b>C.</b> <p>t1 = Y; t2 = t1+ Z;  X = t2</p>",
+            "<b>D.</b> <p>t1 = Y; t2 = Z; t3=t1+t2; X = t3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>t1 = Y + Z;  X=t1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/947/gate2003-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the translation scheme shown below <br>\nS \\(\\rightarrow\\) TR <br>\nR \\(\\rightarrow\\)+ T {print ('+');}R | \\(\\epsilon \\) <br>\nT \\(\\rightarrow\\) num {print (num.val);}<br>\nHere num is a token that represents an integer and num. val represents the corresponding integer value. For an input string '9 + 5+ 2', this translation scheme will print <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9+5+2</p>",
+            "<b>B.</b> <p>95+2+</p>",
+            "<b>C.</b> <p>952++</p>",
+            "<b>D.</b> <p>++ 9 5 2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>95+2+</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/946/gate2003-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the grammar shown below  <br>\\(S\\rightarrow iEtSS'|a \\) <br>\\(S'\\rightarrow eS|\\epsilon \\) <br>\\( E\\rightarrow b\\) <br> In the predictive parse table. M, of this grammar, the entries M[S',e] and M[S',$] respectively are <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(S'\\rightarrow eS\\)} and {\\(S'\\rightarrow \\varepsilon \\)}</p>",
+            "<b>B.</b> <p>{\\(S'\\rightarrow eS\\)} and {}</p>",
+            "<b>C.</b> <p>{\\(S' \\rightarrow   \\varepsilon \\)} and {\\(S'\\rightarrow \\varepsilon \\)}</p>",
+            "<b>D.</b> <p>{\\(S'\\rightarrow eS,S'\\rightarrow \\varepsilon \\)} and {\\(S'\\rightarrow \\varepsilon \\)}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>{\\(S'\\rightarrow eS,S'\\rightarrow \\varepsilon \\)} and {\\(S'\\rightarrow \\varepsilon \\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/944/gate2003-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following statements is FALSE? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In statically typed language, each variable in a program has a fixed type</p>",
+            "<b>B.</b> <p>In un-typed languages, values do not have any types</p>",
+            "<b>C.</b> <p>In dynamically typed languages, variables have no types</p>",
+            "<b>D.</b> <p>In all statically typed languages, each variable in a program is associated\nwith values of only a single type during the execution of the program</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>In dynamically typed languages, variables have no types</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/914/gate2003-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a bottom-up evaluation of a syntax directed definition, inherited attributes can <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always be evaluated</p>",
+            "<b>B.</b> <p>be evaluated if the definition is L-attributed</p>",
+            "<b>C.</b> <p>be evaluated only if the definition has synthesized attributes</p>",
+            "<b>D.</b> <p>never be evaluated</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>be evaluated if the definition is L-attributed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/908/gate2003-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Assume that the SLR parser for a grammar G has n1 states and the LALR parser\nfor G has n2 states. The relationship between n1 and n2 is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n1 is necessarily less than n2</p>",
+            "<b>B.</b> <p>n1 is necessarily equal to n2</p>",
+            "<b>C.</b> <p>n1 is necessarily greater than n2</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n1 is necessarily equal to n2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/907/gate2003-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Dynamic linking can cause security concerns because <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Security is dynamic</p>",
+            "<b>B.</b> <p>The path for searching dynamic libraries is not known till run time.</p>",
+            "<b>C.</b> <p>Linking is insecure</p>",
+            "<b>D.</b> <p>Cryptographic procedures are not available for dynamic linking</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The path for searching dynamic libraries is not known till run time.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/850/gate2002-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In the C language <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At most one activation record exists between the current activation record\nand the activation record for the main.</p>",
+            "<b>B.</b> <p>The number of activation records between the current activation record and\nthe activation record for the main depends on the actual function calling\nsequence.</p>",
+            "<b>C.</b> <p>The visibility of global variables depends on the actual function calling\nsequence.</p>",
+            "<b>D.</b> <p>Recursion requires the activation record for the recursive function to be\nsaved on a different stack before the recursive fraction can be called.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The number of activation records between the current activation record and\nthe activation record for the main depends on the actual function calling\nsequence.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/822/gate2002-1-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Given the following expression grammar:<br><br>\n\\(\\begin{array}{l} E \\to E * F \\mid F + E \\mid F \\\\ F \\to F - F \\mid id \\end{array}\\)<br><br>Which of the following is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>* has higher precedence than +</p>",
+            "<b>B.</b> <p>- has higher precedence than *</p>",
+            "<b>C.</b> <p>\\(+\\) and - have same precedence</p>",
+            "<b>D.</b> <p>+ has higher precedence than *</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>- has higher precedence than *</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/668/gate2000-2-21-isro2015-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

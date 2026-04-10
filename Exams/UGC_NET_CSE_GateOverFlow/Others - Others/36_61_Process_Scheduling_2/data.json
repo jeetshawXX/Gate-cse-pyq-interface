@@ -1,0 +1,41 @@
+{
+  "title": "Others - Others - Process Scheduling",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Process Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65527\"></a><div itemprop=\"text\"><p>A relationship between processes such that each has some part (critical section) which must not be executed while the critical section of another is being executed, is known as</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2011 | Part 2 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Semaphore</p>",
+            "<p>Mutual exclusion</p>",
+            "<p>Multiprogramming</p>",
+            "<p>Message passing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65527/ugc-net-cse-june-2011-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/65527/ugc-net-cse-june-2011-part-2-question-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"65528\"></a><div itemprop=\"text\"><p>How many states can a process be in ?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2011 | Part 2 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65528/ugc-net-cse-june-2011-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/65528/ugc-net-cse-june-2011-part-2-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

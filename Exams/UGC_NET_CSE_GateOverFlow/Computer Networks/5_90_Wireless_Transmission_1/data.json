@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Wireless Transmission",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Wireless Transmission",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56421\"></a><div itemprop=\"text\"><p>If the period of a signal is 1000 ms, then what is its frequency in kiliohertz?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 3 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10^{-3} \\) KHz</p>",
+            "<p>\\( 10^{-2} \\) KHz</p>",
+            "<p>\\( 10^{-1} \\) KHz</p>",
+            "<p>1 KHz</p>"
+          ],
+          "correct_answer": "<p>\\( 10^{-3} \\) KHz</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56421/ugc-net-cse-june-2012-part-3-question-66\" target=\"_blank\">https://gateoverflow.in/56421/ugc-net-cse-june-2012-part-3-question-66</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Blood Relation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Blood Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351148\"></a><div itemprop=\"text\"><p>A is the father of B and C is the son of D. E is the brother of A. B is the sister of C. How is D related to E?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Daughter</p>",
+            "<p>Brother</p>",
+            "<p>Brother in Law</p>",
+            "<p>Sister in Law</p>"
+          ],
+          "correct_answer": "<p>Sister in Law</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351148/nielit-scientific-assistant-a-2020-november-3\" target=\"_blank\">https://gateoverflow.in/351148/nielit-scientific-assistant-a-2020-november-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351147\"></a><div itemprop=\"text\"><p>Pointing towards a picture, Ramesh said, “That picture is of sister of grandson of father of my maternal uncle.” How is that lady in the picture related to Ramesh?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mother’s sister</p>",
+            "<p>Cousin (maternal brother)</p>",
+            "<p>Cousin (maternal sister)</p>",
+            "<p>Father’s sister</p>"
+          ],
+          "correct_answer": "<p>Cousin (maternal sister)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351147/nielit-scientific-assistant-a-2020-november-4\" target=\"_blank\">https://gateoverflow.in/351147/nielit-scientific-assistant-a-2020-november-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

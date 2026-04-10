@@ -1,0 +1,181 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Lcm Hcf",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Lcm Hcf",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4000\"></a><div itemprop=\"text\"><p>Three bells chime at an interval of 18, 24 and 32 minutes respectively. At a certain time they begin to chime together. What length of time will elapse before they chime together again?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 61</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2 hours 24 minutes</p>",
+            "<p>4 hours 48 minutes</p>",
+            "<p>1 hour 36 minutes</p>",
+            "<p>5 hours</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4000/cat-1995-question-61\" target=\"_blank\">https://aptitude.gateoverflow.in/4000/cat-1995-question-61</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1272\"></a><div itemprop=\"text\"><p>A red light flashes \\( 3 \\) times per minute and a green light flashes \\( 5 \\) times in two minutes at regular intervals. If both lights start flashing at the same time, how many times do they flash together in each hour?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 60 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1272/cat-2001-question-5\" target=\"_blank\">https://aptitude.gateoverflow.in/1272/cat-2001-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1110\"></a><div itemprop=\"text\"><p>In a book store, each of the word of the glowsign board “MODERN BOOK STORES” is visible after \\( 5/2, 17/4 \\) and \\( 41/8 \\)&nbsp;seconds respectively. Each of them is put off for&nbsp;\\( 1 \\) second. Find the time after which one person can see a completely visible glowsign board.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2002 | Question: 98</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 73.5 \\) seconds</p>",
+            "<p>\\( 79.4 \\) seconds</p>",
+            "<p>\\( 68.2 \\) seconds</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1110/cat-2002-question-98\" target=\"_blank\">https://aptitude.gateoverflow.in/1110/cat-2002-question-98</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"5320\"></a><div itemprop=\"text\"><p>Outside a sweet shop, its name \"Madhu Sweet House\" is displayed using blinking lights. Each word flashes at a regular interval and remains lit for \\( 1 \\) second. After remaining lit for \\( 1 \\) second, \"Madhu\" remains unlit for&nbsp;&nbsp;\\( 3 \\dfrac{1}{2} \\)&nbsp;seconds, \"Sweet\" remains unlit for \\( 5 \\dfrac{3}{4} \\)&nbsp;seconds and \"House\" remains until \\( 9\\frac{1}{8} \\)&nbsp;seconds. If all the words flash together at \\( 8:00 \\) p.m. sharp, find the time interval between the next time the first two words flash together and the next time the last two words flash together</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2013 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 45 \\) seconds</p>",
+            "<p>\\( 22.5 \\) seconds</p>",
+            "<p>\\( 112 \\) seconds</p>",
+            "<p>\\( 6.75 \\) seconds</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5320/cat-2013-question-22\" target=\"_blank\">https://aptitude.gateoverflow.in/5320/cat-2013-question-22</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"846\"></a><div itemprop=\"text\">Calculate number of pairs Whose LCM is 800 and HCF is 20</div><br><br><b>Quantitative Aptitude: HCF and LCM</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/846/hcf-and-lcm\" target=\"_blank\">https://aptitude.gateoverflow.in/846/hcf-and-lcm</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4672\"></a><div itemprop=\"text\">Which of the following represents the largest 4 digit number which can be added to 7249 in order to make the derived number divisible by each of 12, 14, 21, 33, and 54.<br>\n<br>\n(a) 9123<br>\n<br>\n(b) 9383<br>\n<br>\n(c) 8727<br>\n<br>\n(d) None of these</div><br><br><b>Quantitative Aptitude: How to Prepare for Quantitatve Aptitude, Chapter: Number System, Topic: HCF & LCM</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4672/prepare-quantitatve-aptitude-chapter-number-system-topic\" target=\"_blank\">https://aptitude.gateoverflow.in/4672/prepare-quantitatve-aptitude-chapter-number-system-topic</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"4084\"></a><div itemprop=\"text\">What is the LCM of \\( 147/64 \\) and \\( 30/44? \\)</div><br><br><b>Quantitative Aptitude: LCM and HCF</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4084/lcm-and-hcf\" target=\"_blank\">https://aptitude.gateoverflow.in/4084/lcm-and-hcf</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"6389\"></a><div itemprop=\"text\"><p>The \\( LCM \\) of two numbers is \\( 45 \\) times their \\( HCF \\). If the sum of the \\( LCM \\) and the \\( HCF \\) of these two numbers is \\( 1150 \\) and one of the numbers is \\( 125 \\), then the other number is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 256 \\)</p>",
+            "<p>\\( 225 \\)</p>",
+            "<p>\\( 250 \\)</p>",
+            "<p>\\( 255 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 225 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6389/nielit-2016-dec-scientist-b-section-a-43\" target=\"_blank\">https://aptitude.gateoverflow.in/6389/nielit-2016-dec-scientist-b-section-a-43</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"6644\"></a><div itemprop=\"text\"><p>About the number of pairs which have \\( 16 \\) as their H.C.F. and \\( 136 \\) as their L.C.M., we can definitely say that:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only one such pair exists</p>",
+            "<p>Only two such pairs exist</p>",
+            "<p>Many such pairs exist</p>",
+            "<p>No such pair exists</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6644/nielit-2019-feb-scientist-c-section-c-12\" target=\"_blank\">https://aptitude.gateoverflow.in/6644/nielit-2019-feb-scientist-c-section-c-12</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"6628\"></a><div itemprop=\"text\"><p>The H.C.F. of&nbsp;\\( (4x^{3}+3x^{2}y-9xy^{2}+2y^{3}) \\) and \\( (x^{2}+xy-2y^{2}) \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (x-2y) \\)</p>",
+            "<p>\\( (x-y) \\)</p>",
+            "<p>\\( (x+2y)(x-y) \\)</p>",
+            "<p>\\( (x-2y)(x-y) \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6628/nielit-2019-feb-scientist-c-section-c-28\" target=\"_blank\">https://aptitude.gateoverflow.in/6628/nielit-2019-feb-scientist-c-section-c-28</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"6822\"></a><div itemprop=\"text\"><p>The \\( L.C.M \\) of \\( \\left (x^{3}-x^{2}-2x \\right) \\) and \\( \\left (x^{3}+x^{2} \\right) \\) is :&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\left (x^{3}-x^{2}-2x \\right) \\)</p>",
+            "<p>\\( \\left (x^{2}+x \\right) \\)</p>",
+            "<p>\\( \\left (x^{4}-x^{3}-2x^{2} \\right) \\)</p>",
+            "<p>\\( x-2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6822/nielit-2019-feb-scientist-d-section-c-1\" target=\"_blank\">https://aptitude.gateoverflow.in/6822/nielit-2019-feb-scientist-d-section-c-1</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"3333\"></a><div itemprop=\"text\">i tried to solve this question but ans did.come .so how can be sove this question</div><br><br><b>Quantitative Aptitude: What is the LCM of 147/64 and 30/44?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3333/what-is-the-lcm-of-147-64-and-30-44\" target=\"_blank\">https://aptitude.gateoverflow.in/3333/what-is-the-lcm-of-147-64-and-30-44</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"4349\"></a><div itemprop=\"text\"><p>Find the minimum number of square tiles required to pave the floor of a room of 3m 25cm long and 2m 50cm broad?</p>\n\n<ol>\n\t<li>&nbsp;&nbsp;144</li>\n\t<li>&nbsp;&nbsp;130<br>\n\t&nbsp;</li>\n\t<li>&nbsp;&nbsp;156</li>\n\t<li>&nbsp;&nbsp;168</li>\n</ol></div><br><br><b>Quantitative Aptitude: areas and squares</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4349/areas-and-squares\" target=\"_blank\">https://aptitude.gateoverflow.in/4349/areas-and-squares</a></p>"
+        }
+      ]
+    }
+  ]
+});

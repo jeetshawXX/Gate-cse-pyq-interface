@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Linux",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linux",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"65530\"></a><div itemprop=\"text\"><p>Which command allows you to view your file \\( 24 \\) lines at a time ?</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2011 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>More</p>",
+            "<p>Cat</p>",
+            "<p>Pg</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/65530/ugc-net-cse-june-2011-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/65530/ugc-net-cse-june-2011-part-2-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+}

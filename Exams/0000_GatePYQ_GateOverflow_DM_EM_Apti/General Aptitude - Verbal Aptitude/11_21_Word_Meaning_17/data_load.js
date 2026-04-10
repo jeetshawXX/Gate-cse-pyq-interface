@@ -1,0 +1,266 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Word Meaning",
+  "duration": 47,
+  "sections": [
+    {
+      "name": "Word Meaning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1940\"></a><div itemprop=\"text\"><p>Match the columns.</p><p>\\[ \\begin{array}{ll|ll}\\hline &amp;\\textbf{Column 1}&nbsp; &amp; &amp; \\textbf{Column 2 } \\\\\\hline 1.&amp; \\text{eradicate} &amp;P. &amp;\\text{misrepresent}\\\\\\hline 2.&amp;\\text{distort} &amp;Q.&amp; \\text{soak completely}\\\\\\hline 3.&amp;\\text{saturate} &amp;R.&amp; \\text{use}\\\\\\hline 4.&amp;\\text{utilize} &amp;S.&amp; \\text{destroy utterly}\\\\\\hline&nbsp; \\end{array} \\]</p></div><br><br><b>GATE CSE 2014 Set 2 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{1:S, 2:P, 3:Q, 4:R} \\)</p>",
+            "<p>\\( \\text{1:P, 2:Q, 3:R, 4:S} \\)</p>",
+            "<p>\\( \\text{1:Q, 2:R, 3:S, 4:P} \\)</p>",
+            "<p>\\( \\text{1:S, 2:P, 3:R, 4:Q} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1:S, 2:P, 3:Q, 4:R} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1940/gate-cse-2014-set-2-question-ga-3\" target=\"_blank\">https://gateoverflow.in/1940/gate-cse-2014-set-2-question-ga-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8029\"></a><div itemprop=\"text\">\n<p>Choose the statement where underlined word is used correctly.</p>\n\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The industrialist had a <span style=\"text-decoration: underline;\">personnel</span> jet.</p>",
+            "<p>I write my experience in my <span style=\"text-decoration: underline;\">personnel</span> diary.</p>",
+            "<p>All <span style=\"text-decoration: underline;\">personnel</span> are being given the day off.</p>",
+            "<p>Being religious is a <span style=\"text-decoration: underline;\">personnel</span> aspect.</p>"
+          ],
+          "correct_answer": "<p>All <span style=\"text-decoration: underline;\">personnel</span> are being given the day off.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2\" target=\"_blank\">https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"39607\"></a><div itemprop=\"text\">\n<p>A rewording of something written or spoken is a __________.</p>\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: GA02</b></p>",
+          "type": "single",
+          "options": [
+            "<p>paraphrase</p>",
+            "<p>paradox</p>",
+            "<p>paradigm</p>",
+            "<p>paraffin</p>"
+          ],
+          "correct_answer": "<p>paraphrase</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02\" target=\"_blank\">https://gateoverflow.in/39607/gate-cse-2016-set-1-question-ga02</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"39530\"></a><div itemprop=\"text\"><p>Find the odd one in the following group of words.</p>\n\n<p>mock, deride, praise, jeer</p>\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: GA-03</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mock</p>",
+            "<p>Deride</p>",
+            "<p>Praise</p>",
+            "<p>Jeer</p>"
+          ],
+          "correct_answer": "<p>Praise</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39530/gate-cse-2016-set-2-question-ga-03\" target=\"_blank\">https://gateoverflow.in/39530/gate-cse-2016-set-2-question-ga-03</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"333239\"></a><div itemprop=\"text\"><p>His knowledge of the subject was excellent but his classroom performance was_______.</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>extremely poor</p>",
+            "<p>good</p>",
+            "<p>desirable</p>",
+            "<p>praiseworthy</p>"
+          ],
+          "correct_answer": "<p>extremely poor</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333239/gate-cse-2020-question-ga-2\" target=\"_blank\">https://gateoverflow.in/333239/gate-cse-2020-question-ga-2</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"41464\"></a><div itemprop=\"text\">\n<p>After the discussion, Tom said to me, 'Please revert!'. He expects me to __________.</p>\n\n\n</div><br><br><b>GATE2014 EC-4: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Retract</p>",
+            "<p>Get back to him</p>",
+            "<p>Move in reverse&nbsp;</p>",
+            "<p>Retreat</p>"
+          ],
+          "correct_answer": "<p>Get back to him</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41464/gate2014-ec-4-ga-2\" target=\"_blank\">https://gateoverflow.in/41464/gate2014-ec-4-ga-2</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"40177\"></a><div itemprop=\"text\"><p>Choose the statement where underlined word is used correctly.</p>\n\n</div><br><br><b>GATE2015 CE-2: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The minister <ins>insured</ins> the victims that everything would be all right.</p>",
+            "<p>He <ins>ensured</ins> that the company will not have to bear any loss.</p>",
+            "<p>The actor got himself <ins>ensured</ins> against any accident.</p>",
+            "<p>The teacher <ins>insured</ins> students of good results.<br>\n&nbsp;</p>"
+          ],
+          "correct_answer": "<p>He <ins>ensured</ins> that the company will not have to bear any loss.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40177/gate2015-ce-2-ga-2\" target=\"_blank\">https://gateoverflow.in/40177/gate2015-ce-2-ga-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40168\"></a><div itemprop=\"text\"><p>Choose the statement where underlined word is used correctly.</p>\n\n</div><br><br><b>GATE2015 ME-3: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>When the teacher eludes to different authors, he is being <ins>elusive</ins>.</p>",
+            "<p>When the thief keeps eluding the police, he is being <ins>elusive</ins>.</p>",
+            "<p>Matters that are difficult to understand, identify or remember are <ins>allusive</ins>.</p>",
+            "<p>Mirages can be <ins>allusive</ins>, but a better way to express them is illusory.</p>"
+          ],
+          "correct_answer": "<p>When the thief keeps eluding the police, he is being <ins>elusive</ins>.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40168/gate2015-me-3-ga-3\" target=\"_blank\">https://gateoverflow.in/40168/gate2015-me-3-ga-3</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"108064\"></a><div itemprop=\"text\"><p>The policeman asked the victim of a theft, \"What did you ___ ?\"</p>\n\n</div><br><br><b>GATE2016 EC-1: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Loose</p>",
+            "<p>Lose</p>",
+            "<p>Loss</p>",
+            "<p>Louse</p>"
+          ],
+          "correct_answer": "<p>Lose</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108064/gate2016-ec-1-ga-2\" target=\"_blank\">https://gateoverflow.in/108064/gate2016-ec-1-ga-2</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"110821\"></a><div itemprop=\"text\"><p>The Buddha said, \"Holding on to anger is like <ins>grasping</ins> a hot coal with the intent of throwing it at someone else; you are the one who gets burnt.\" Select the word below which is closest in meaning to the word underlined above.</p>\n\n</div><br><br><b>GATE2016 EC-3: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Burning</p>",
+            "<p>Igniting</p>",
+            "<p>Clutching</p>",
+            "<p>Flinging</p>"
+          ],
+          "correct_answer": "<p>Clutching</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110821/gate2016-ec-3-ga-2\" target=\"_blank\">https://gateoverflow.in/110821/gate2016-ec-3-ga-2</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"108259\"></a><div itemprop=\"text\"><p>Choose the statement(s) where the underlined word is used correctly:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>A<ins> prone</ins> is a dried plum.</li>\n\t<li>He was lying <ins>prone</ins> on the floor.</li>\n\t<li>People who eat a lot of fat are <ins>prone</ins> to heart disease.</li>\n</ol>\n\n</div><br><br><b>GATE2016 ME-2: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (iii) only</p>",
+            "<p>(iii) only</p>",
+            "<p>(i) and (ii) only</p>",
+            "<p>(ii) and (iii) only</p>"
+          ],
+          "correct_answer": "<p>(ii) and (iii) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108259/gate2016-me-2-ga-3\" target=\"_blank\">https://gateoverflow.in/108259/gate2016-me-2-ga-3</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"313524\"></a><div itemprop=\"text\"><p>She has a sharp tongue and it can occasionally turn__________________</p>\n\n</div><br><br><b>GATE2017 EC-1: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Hurtful</p>",
+            "<p>Left</p>",
+            "<p>Methodical</p>",
+            "<p>Vital</p>"
+          ],
+          "correct_answer": "<p>Hurtful</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313524/gate2017-ec-1-ga-1\" target=\"_blank\">https://gateoverflow.in/313524/gate2017-ec-1-ga-1</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"313526\"></a><div itemprop=\"text\"><p>“If you are looking for a history of India, or for an account of the rise and fall of the British Raj, or for all reason of the cleaving of the subcontinent into two mutually antagonistic parts and the effects this mutilation will have in the respective sections, and ultimately on Asia, you will not find it in these pages; for though I have spent a lifetime in the country, I lived too near the seat of events, and was too intimately associated with the actors, to get the perspective needed for impartial recording of these matters”.</p>\n\n<p>Here, the word ‘antagonistic’ is closest in meaning to,</p>\n\n</div><br><br><b>GATE2017 EC-1: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Impartial</p>",
+            "<p>Argumentative</p>",
+            "<p>Separated</p>",
+            "<p>Hostile</p>"
+          ],
+          "correct_answer": "<p>Hostile</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313526/gate2017-ec-1-ga-6\" target=\"_blank\">https://gateoverflow.in/313526/gate2017-ec-1-ga-6</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"313514\"></a><div itemprop=\"text\"><p>The ninth and the tenth of this month are Monday and Tuesday________.</p>\n\n</div><br><br><b>GATE2017 EC-2: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>figuratively</p>",
+            "<p>retrospectively</p>",
+            "<p>respectively</p>",
+            "<p>rightfully</p>"
+          ],
+          "correct_answer": "<p>respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313514/gate2017-ec-2-ga-1\" target=\"_blank\">https://gateoverflow.in/313514/gate2017-ec-2-ga-1</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"313664\"></a><div itemprop=\"text\"><p>As the two speakers become increasingly agitated, the debate became _________.</p>\n\n</div><br><br><b>GATE2017 ME-1: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>lukewarm</p>",
+            "<p>poetic</p>",
+            "<p>forgiving</p>",
+            "<p>heated</p>"
+          ],
+          "correct_answer": "<p>heated</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313664/gate2017-me-1-ga-2\" target=\"_blank\">https://gateoverflow.in/313664/gate2017-me-1-ga-2</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"313676\"></a><div itemprop=\"text\"><p>If you choose plan \\( P \\), you will have to _________ plan \\( Q \\), as these two are mutually ________.</p>\n\n</div><br><br><b>GATE2017 ME-2: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>forgo, exclusive</p>",
+            "<p>forget, inclusive</p>",
+            "<p>accept, exhaustive</p>",
+            "<p>adopt, intrusive</p>"
+          ],
+          "correct_answer": "<p>forgo, exclusive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313676/gate2017-me-2-ga-2\" target=\"_blank\">https://gateoverflow.in/313676/gate2017-me-2-ga-2</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"313447\"></a><div itemprop=\"text\"><p>\"The increasing interest in tribal characters might be a mere coincidence, but the timing is of interest. None of this, though, is to say that the tribal hero has arrived in Hindi cinema,&nbsp;or that the new crop of characters represents the acceptance of the tribal character in the industry. The films and characters are too few to be described as a pattern.\"</p>\n\n<p>What does the word 'arrived' mean in the paragraph above?</p>\n\n</div><br><br><b>GATE2019 CE-1: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>reached a terminus</p>",
+            "<p>came to a conclusion</p>",
+            "<p>attained a status</p>",
+            "<p>went to a place</p>"
+          ],
+          "correct_answer": "<p>attained a status</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313447/gate2019-ce-1-ga-8\" target=\"_blank\">https://gateoverflow.in/313447/gate2019-ce-1-ga-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

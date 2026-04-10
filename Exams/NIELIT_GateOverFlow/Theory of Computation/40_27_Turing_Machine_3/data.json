@@ -1,0 +1,56 @@
+{
+  "title": "Theory of Computation - Turing Machine",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Turing Machine",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336532\"></a><div itemprop=\"text\"><p>Which of the following is wrong?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Turing machine is a simple mathematical model of general purpose computer</p>",
+            "<p>Turing machine is more powerful than finite automata</p>",
+            "<p>Turing Machine can be simulated by a general purpose computer</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336532/nielit-2016-dec-scientist-b-cs-section-b-6\" target=\"_blank\">https://gateoverflow.in/336532/nielit-2016-dec-scientist-b-cs-section-b-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336276\"></a><div itemprop=\"text\"><p>Which of the following statement is true?</p>\n\n<p>\\( S1 \\): The power of a multi-tape Turing machine is greater than the power of a single tape Turing machine.</p>\n\n<p>\\( S2 \\): Every non-deterministic Turing machine has an equivalent deterministic Turing machine.</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S1 \\)</p>",
+            "<p>\\( S2 \\)</p>",
+            "<p>Both \\( S1 \\) and \\( S2 \\)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>\\( S2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336276/nielit-2017-dec-scientist-b-section-b-37\" target=\"_blank\">https://gateoverflow.in/336276/nielit-2017-dec-scientist-b-section-b-37</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369322\"></a><div itemprop=\"text\"><p>If \\( \\text{T1} \\) and \\( \\text{T2} \\) are two Turing machines. The composite can be represented using the expression :</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{T1T2} \\)</p>",
+            "<p>\\( \\text{T1} \\cup \\text{T2} \\)</p>",
+            "<p>\\( \\text{T1} \\times \\text{T2} \\)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{T1T2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369322/nielit-2021-dec-scientist-a-section-b-91\" target=\"_blank\">https://gateoverflow.in/369322/nielit-2021-dec-scientist-a-section-b-91</a></p>"
+        }
+      ]
+    }
+  ]
+}

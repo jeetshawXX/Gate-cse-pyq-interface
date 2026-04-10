@@ -1,0 +1,424 @@
+{
+  "title": "Data Structures - Binary Heap",
+  "duration": 80,
+  "sections": [
+    {
+      "name": "Binary Heap",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"83993\"></a><div itemprop=\"text\">Match the pairs in the following questions:\\[ \\begin{array}{|ll|ll|} \\hline &nbsp;(a) &amp; \\text{A heap construction} &amp; (p) &amp; \\ \\Omega(n\\log_{10}n) &nbsp;\\\\\\hline (b) &amp; \\text{Constructing Hashtable with linear probing} &amp; (q) &amp; \\ O(n) \\\\\\hline (c) &amp; \\text{AVL tree construction} &amp; &nbsp;(r) &amp; \\ O(n^{2}) &nbsp;\\\\\\hline (d) &amp; \\text{Digital trie construction} &amp; (s) &amp; \\ O(n\\log_{2}n) \\\\\\hline \\end{array} \\]</div><br><br><b>GATE CSE 1990 | Question: 2-viii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/83993/gate-cse-1990-question-2-viii\" target=\"_blank\">https://gateoverflow.in/83993/gate-cse-1990-question-2-viii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2740\"></a><div itemprop=\"text\"><p>The minimum number of interchanges needed to convert the array into a max-heap is<br>\n<br>\n\\( 89, 19, 40, 17, 12, 10, 2, 5, 7, 11, 6, 9, 70 \\)</p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 2.11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2740/gate-cse-1996-question-2-11\" target=\"_blank\">https://gateoverflow.in/2740/gate-cse-1996-question-2-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1511\"></a><div itemprop=\"text\"></div><br><br><b>GATE CSE 1999 | Question: 12</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>In binary tree, a full node is defined to be a node with \\( 2 \\) children. Use induction on the height of the binary tree to prove that the number of full nodes plus one is equal to the number of leaves.</p>",
+            "<p>Draw the min-heap that results from insertion of the following elements in order into an initially empty min-heap: \\( 7, 6, 5, 4, 3, 2, 1 \\). Show the result after the deletion of the root of this heap.</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1511/gate-cse-1999-question-12\" target=\"_blank\">https://gateoverflow.in/1511/gate-cse-1999-question-12</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"708\"></a><div itemprop=\"text\"><p>Consider any array representation of an \\( n \\) element binary heap where the elements are stored from index \\( 1 \\) to index \\( n \\) of the array. For the element stored at index \\( i \\) of the array \\( (i \\leq n) \\), the index of the parent is</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 1.15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( i-1 \\)</p>",
+            "<p>\\( \\lfloor \\frac{i}{2} \\rfloor \\)</p>",
+            "<p>\\( \\lceil \\frac{i}{2} \\rceil \\)</p>",
+            "<p>\\( \\frac{(i+1)}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\lfloor \\frac{i}{2} \\rfloor \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/708/gate-cse-2001-question-1-15\" target=\"_blank\">https://gateoverflow.in/708/gate-cse-2001-question-1-15</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1110\"></a><div itemprop=\"text\"><p>In a min-heap with \\( n \\) elements with the smallest element at the root, the \\( 7^{th} \\)&nbsp;smallest element can be found in time</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta (n \\log n) \\)</p>",
+            "<p>\\( \\Theta (n) \\)</p>",
+            "<p>\\( \\Theta(\\log n) \\)</p>",
+            "<p>\\( \\Theta(1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1110/gate-cse-2003-question-23\" target=\"_blank\">https://gateoverflow.in/1110/gate-cse-2003-question-23</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1034\"></a><div itemprop=\"text\"><p>The elements \\( 32, 15, 20, 30, 12, 25, 16, \\) are inserted one by one in the given order into a maxHeap. The resultant maxHeap is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;<img alt=\"\" height=\"169\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/2a21f1cc7d9d8ae85a0f3a00bb0bd8a4.png\" width=\"259\"></p>",
+            "<p><img alt=\"\" height=\"191\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/108c1ab919ffb901a7f030d1f7c83e92.png\" width=\"292\"></p>",
+            "<p><img alt=\"\" height=\"196\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/2211ad7f7dd73e0cec1317b0e7f55d42.png\" width=\"300\"></p>",
+            "<p><img alt=\"\" height=\"198\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/820f1c4a0ca18d94d57d0f820be6485b.png\" width=\"303\"></p>"
+          ],
+          "correct_answer": "<p>&nbsp;<img alt=\"\" height=\"169\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/2a21f1cc7d9d8ae85a0f3a00bb0bd8a4.png\" width=\"259\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1034/gate-cse-2004-question-37\" target=\"_blank\">https://gateoverflow.in/1034/gate-cse-2004-question-37</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1370\"></a><div itemprop=\"text\"><p>A priority queue is implemented as a Max-Heap. Initially, it has \\( 5 \\) elements. The level-order traversal of the heap is: \\( 10, 8, 5, 3, 2 \\). Two new elements \\( 1 \\) and \\( 7 \\) are inserted into the heap in that order. The level-order traversal of the heap after the insertion of the elements is:&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10, 8, 7, 5, 3, 2, 1 \\)</p>",
+            "<p>\\( 10, 8, 7, 2, 3, 1, 5 \\)</p>",
+            "<p>\\( 10, 8, 7, 1, 2, 3, 5 \\)</p>",
+            "<p>\\( 10, 8, 7, 3, 2, 1, 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10, 8, 7, 3, 2, 1, 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1370/gate-cse-2005-question-34\" target=\"_blank\">https://gateoverflow.in/1370/gate-cse-2005-question-34</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"889\"></a><div itemprop=\"text\"><p>In a binary max heap containing \\( n \\) numbers, the smallest element can be found&nbsp;in time&nbsp;</p>\n\n\n\n</div><br><br><b>GATE CSE 2006 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( O(n) \\)</p>",
+            "<p>&nbsp;\\( O(\\log n) \\)</p>",
+            "<p>&nbsp;\\( O(\\log \\log n) \\)</p>",
+            "<p>&nbsp;\\( O(1) \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/889/gate-cse-2006-question-10\" target=\"_blank\">https://gateoverflow.in/889/gate-cse-2006-question-10</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1852\"></a><div itemprop=\"text\"><p>Statement for Linked Answer Questions 76 &amp; 77:<br>\n<br>\nA \\( 3 \\)-ary max heap is like a binary max heap, but instead of \\( 2 \\) children, nodes have \\( 3 \\) children. A \\( 3 \\)-ary heap can be represented by an array as follows: The root is stored in the first location, \\( a[0] \\), nodes in the next level, from left to right, is stored from \\( a[1] \\) to \\( a[3] \\). The nodes from the second level of the tree from left to right are stored from \\( a[4] \\) location onward. An item \\( x \\) can be inserted into a \\( 3 \\)-ary heap containing \\( n \\) items by placing \\( x \\) in the location \\( a[n] \\) and pushing it up the tree to satisfy the heap property.<br>\n<br>\n76. Which one of the following is a valid sequence of elements in an array representing \\( 3 \\)-ary max heap?</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 76</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1, 3, 5, 6, 8, 9 \\)</p>",
+            "<p>\\( 9, 6, 3, 1, 8, 5 \\)</p>",
+            "<p>\\( 9, 3, 6, 8, 5, 1 \\)</p>",
+            "<p>\\( 9, 5, 6, 8, 3, 1 \\)<br>\n\t&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 9, 5, 6, 8, 3, 1 \\)<br>\n\t&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1852/gate-cse-2006-question-76\" target=\"_blank\">https://gateoverflow.in/1852/gate-cse-2006-question-76</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"87191\"></a><div itemprop=\"text\"><p>Statement for Linked Answer Questions 76 &amp; 77:<br>\n<br>\nA \\( 3 \\)-ary max heap is like a binary max heap, but instead of \\( 2 \\) children, nodes have \\( 3 \\) children. A \\( 3 \\)-ary heap can be represented by an array as follows: The root is stored in the first location, \\( a[0] \\), nodes in the next level, from left to right, is stored from \\( a[1] \\) to \\( a[3] \\). The nodes from the second level of the tree from left to right are stored from \\( a[4] \\) location onward. An item \\( x \\) can be inserted into a \\( 3 \\)-ary heap containing \\( n \\) items by placing \\( x \\) in the location \\( a[n] \\) and pushing it up the tree to satisfy the heap property.</p>\n\n<p>76. Which one of the following is a valid sequence of elements in an array representing \\( 3- \\)ary max heap?</p>\n\n\n\n<p><br>\n77. Suppose the elements \\( 7, 2, 10 \\) and \\( 4 \\) are inserted, in that order, into the valid \\( 3 \\)-ary max heap found in the previous question, Q.76. Which one of the following is the sequence of items in the array representing the resultant heap?</p>\n\n<ol style=\"list-style-type:upper-alpha\">\n\t<li>\\( 10, 7, 9, 8, 3, 1, 5, 2, 6, 4 \\)</li>\n\t<li>\\( 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 \\)</li>\n\t<li>\\( 10, 9, 4, 5, 7, 6, 8, 2, 1, 3 \\)</li>\n\t<li>\\( 10, 8, 6, 9, 7, 2, 3, 4, 1, 5 \\)</li>\n</ol></div><br><br><b>GATE CSE 2006 | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,3,5,6,8,9 \\)</p>",
+            "<p>\\( 9,6,3,1,8,5 \\)</p>",
+            "<p>\\( 9,3,6,8,5,1 \\)</p>",
+            "<p>\\( 9,5,6,8,3,1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1,3,5,6,8,9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/87191/gate-cse-2006-question-77\" target=\"_blank\">https://gateoverflow.in/87191/gate-cse-2006-question-77</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"1245\"></a><div itemprop=\"text\"><p>Consider the process of inserting an element into a \\( \\text{Max Heap} \\), where the \\( \\text{Max&nbsp; Heap} \\) is represented by an array. Suppose we perform a binary search on the path from the new leaf to the root to find the position for the newly inserted element, the number of comparisons performed is:</p></div><br><br><b>GATE CSE 2007 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(\\log_2n) \\)</p>",
+            "<p>\\( \\Theta(\\log_2\\log_2n) \\)</p>",
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n\\log_2n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(\\log_2\\log_2n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1245/gate-cse-2007-question-47\" target=\"_blank\">https://gateoverflow.in/1245/gate-cse-2007-question-47</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1341\"></a><div itemprop=\"text\"><p>Consider a binary max-heap implemented using an array.<br>\nWhich one of the following array represents a binary max-heap?</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left\\{25,12,16,13,10,8,14\\right\\} \\) &nbsp; &nbsp;</p>",
+            "<p>\\( \\left\\{25,14,13,16,10,8,12\\right\\} \\)</p>",
+            "<p>\\( \\left\\{25,14,16,13,10,8,12\\right\\} \\)</p>",
+            "<p>\\( \\left\\{25,14,12,13,10,8,16\\right\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left\\{25,14,16,13,10,8,12\\right\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1341/gate-cse-2009-question-59\" target=\"_blank\">https://gateoverflow.in/1341/gate-cse-2009-question-59</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"43466\"></a><div itemprop=\"text\"><p>Consider a binary max-heap implemented using an array.<br>\nWhat is the content of the array after two delete operations on&nbsp;\\( \\left\\{25,14,16,13,10,8,12\\right\\} \\)</p>\n\n\n\n\n\n</div><br><br><b>GATE CSE 2009 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left\\{14,13,12,10, 8\\right\\} \\)</p>",
+            "<p>\\( \\left\\{14,12,13,8,10\\right\\} \\)</p>",
+            "<p>\\( \\left\\{14,13,8,12,10\\right\\} \\)</p>",
+            "<p>\\( \\left\\{14,13,12,8,10\\right\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left\\{14,13,12,8,10\\right\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43466/gate-cse-2009-question-60\" target=\"_blank\">https://gateoverflow.in/43466/gate-cse-2009-question-60</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"2125\"></a><div itemprop=\"text\"><p>A max-heap is a heap where the value of each parent is greater than or equal to the value of its children. Which of the following is a max-heap?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp; &nbsp; &nbsp; &nbsp;<img alt=\"\" height=\"228\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/181fcff70f521f64d1cf7b29c30282ee.png\" width=\"242\"></p>",
+            "<p><img alt=\"\" height=\"182\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/6bcea7a9c08802498f124219fdaf9dbd.png\" width=\"275\"></p>",
+            "<p>&nbsp;&nbsp;<img alt=\"\" height=\"176\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/d28d6944b61e2978fd5a41b518b9bf2c.png\" width=\"267\"></p>",
+            "<p><img alt=\"\" height=\"176\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/d985ce32fca8d69de1f79ea2c0be3c7b.png\" width=\"272\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"182\" src=\"images/gateOverflow_pyq_images/data_structures___binary_heap/6bcea7a9c08802498f124219fdaf9dbd.png\" width=\"275\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2125/gate-cse-2011-question-23\" target=\"_blank\">https://gateoverflow.in/2125/gate-cse-2011-question-23</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"1967\"></a><div itemprop=\"text\"><p>A priority queue is implemented as a Max-Heap. Initially, it has \\( 5 \\) elements. The level-order traversal of the heap is: \\( 10, 8, 5, 3, 2 \\). Two new elements \\( 1 \\) and \\( 7 \\) are inserted into the heap in that order. The level-order traversal of the heap after the insertion of the elements is:&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10, 8, 7, 3, 2, 1, 5 \\)</p>",
+            "<p>\\( 10, 8, 7, 2, 3, 1, 5 \\)</p>",
+            "<p>\\( 10, 8, 7, 1, 2, 3, 5 \\)</p>",
+            "<p>\\( 10, 8, 7, 5, 3, 2, 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10, 8, 7, 3, 2, 1, 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1967/gate-cse-2014-set-2-question-12\" target=\"_blank\">https://gateoverflow.in/1967/gate-cse-2014-set-2-question-12</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"8273\"></a><div itemprop=\"text\"><p>Consider a max heap, represented by the array: \\( 40, 30, 20, 10, 15, 16, 17, 8, 4 \\).</p>\n\n<p>\\[ \\begin{array}{|l|l|}\\hline \\text{Array index}&nbsp; &amp;&nbsp; \\text{1} &amp;&nbsp;\\text{2}&nbsp; &amp;&nbsp; \\text{3} &amp; \\text{4} &amp;&nbsp;\\text{5}&nbsp; &amp;&nbsp; \\text{6} &amp;&nbsp;\\text{7}&nbsp; &amp;&nbsp; \\text{8} &amp; \\text{9} \\\\\\hline \\text{Value}&nbsp; &amp;&nbsp; \\text{40} &amp;&nbsp;\\text{30}&nbsp; &amp;&nbsp; \\text{20} &amp; \\text{10} &amp;\\text{15}&nbsp; &amp;&nbsp; \\text{16} &amp;&nbsp;\\text{17}&nbsp; &amp;&nbsp; \\text{8} &amp; \\text{4} \\\\\\hline \\end{array} \\]</p>\n\n<p>Now consider that a value \\( 35 \\) is inserted into this heap. After insertion, the new heap is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 40, 30, 20, 10, 15, 16, 17, 8, 4, 35 \\)</p>",
+            "<p>\\( 40, 35, 20, 10, 30, 16, 17, 8, 4, 15 \\)</p>",
+            "<p>\\( 40, 30, 20, 10, 35, 16, 17, 8, 4, 15 \\)</p>",
+            "<p>\\( 40, 35, 20, 10, 15, 16, 17, 8, 4, 30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 40, 35, 20, 10, 30, 16, 17, 8, 4, 15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32\" target=\"_blank\">https://gateoverflow.in/8273/gate-cse-2015-set-1-question-32</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"8091\"></a><div itemprop=\"text\"><p>Consider a complete binary tree where the left and right subtrees of the root are max-heaps. The lower bound for the number of operations to convert the tree to a heap is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Omega(\\log n) \\)</p>",
+            "<p>\\( \\Omega(n) \\)</p>",
+            "<p>\\( \\Omega(n \\log n) \\)</p>",
+            "<p>\\( \\Omega(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Omega(\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8091/gate-cse-2015-set-2-question-17\" target=\"_blank\">https://gateoverflow.in/8091/gate-cse-2015-set-2-question-17</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"8418\"></a><div itemprop=\"text\"><p>Consider the following array of elements.</p>\n\n<p>\\( \\langle 89, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 9, 100 \\rangle \\)</p>\n\n<p>The minimum number of interchanges needed to convert it into a max-heap is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8418/gate-cse-2015-set-3-question-19\" target=\"_blank\">https://gateoverflow.in/8418/gate-cse-2015-set-3-question-19</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"39706\"></a><div itemprop=\"text\"><p>An operator delete\\( (i) \\) for a binary heap data structure is to be designed to delete the item in the \\( i \\)-th&nbsp; node. Assume that the heap is implemented in an array and \\( i \\) refers to the \\( i \\)-th index of the array. If the heap tree has depth \\( d \\) (number of edges on the path from the root to the farthest leaf ), then what is the time complexity to re-fix the heap efficiently after the removal of the element?</p></div><br><br><b>GATE CSE 2016 Set 1 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( O(1) \\)&nbsp;</p>",
+            "<p>&nbsp;\\( O(d) \\) but not \\( O(1) \\)&nbsp;</p>",
+            "<p>&nbsp;\\( O(2^d) \\)&nbsp;but not \\( O(d) \\)&nbsp;</p>",
+            "<p>&nbsp;\\( O(d \\ 2^d) \\)&nbsp;but not \\( O(2^d) \\)</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( O(d) \\) but not \\( O(1) \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39706/gate-cse-2016-set-1-question-37\" target=\"_blank\">https://gateoverflow.in/39706/gate-cse-2016-set-1-question-37</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"39585\"></a><div itemprop=\"text\">A complete binary min-heap is made by including each integer in \\( [1, 1023] \\) exactly once. The depth of a node in the heap is the length of the path from the root of the heap to that node. Thus, the root is at depth \\( 0 \\). The maximum depth at which integer \\( 9 \\) can appear is _________.</div><br><br><b>GATE CSE 2016 Set 2 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39585/gate-cse-2016-set-2-question-34\" target=\"_blank\">https://gateoverflow.in/39585/gate-cse-2016-set-2-question-34</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"204121\"></a><div itemprop=\"text\">The number of possible min-heaps containing each value from \\( \\{1,2,3,4,5,6,7\\} \\) exactly once is _______</div><br><br><b>GATE CSE 2018 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "80",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204121/gate-cse-2018-question-46\" target=\"_blank\">https://gateoverflow.in/204121/gate-cse-2018-question-46</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"302808\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>The smallest element in a max-heap is always at a leaf node</li>\n\t<li>The second largest element in a max-heap is always a child of a root node</li>\n\t<li>A max-heap can be constructed from a binary search tree in \\( \\Theta(n) \\) time</li>\n\t<li>A binary search tree&nbsp;can be constructed from a max-heap in \\( \\Theta(n) \\) time</li>\n</ol>\n\n<p>Which of the above statements are TRUE?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I, II and III</p>",
+            "<p>I, II and IV</p>",
+            "<p>I, III and IV</p>",
+            "<p>II, III and IV</p>"
+          ],
+          "correct_answer": "<p>I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302808/gate-cse-2019-question-40\" target=\"_blank\">https://gateoverflow.in/302808/gate-cse-2019-question-40</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"333184\"></a><div itemprop=\"text\">Consider the array representation of a binary min-heap containing \\( 1023 \\) elements. The minimum number of comparisons required to find the maximum in the heap is ___________.</div><br><br><b>GATE CSE 2020 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "511",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333184/gate-cse-2020-question-47\" target=\"_blank\">https://gateoverflow.in/333184/gate-cse-2020-question-47</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"357538\"></a><div itemprop=\"text\"><p>​​​​​Let \\( H \\) be a binary min-heap consisting of \\( n \\) elements implemented as an array. What is the worst case time complexity of an optimal algorithm to find the maximum element in \\( H \\)?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta (1) \\)</p>",
+            "<p>\\( \\Theta (\\log n) \\)</p>",
+            "<p>\\( \\Theta (n) \\)</p>",
+            "<p>\\( \\Theta (n \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta (n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357538/gate-cse-2021-set-2-question-2\" target=\"_blank\">https://gateoverflow.in/357538/gate-cse-2021-set-2-question-2</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"399310\"></a><div itemprop=\"text\"><p>Which one of the following sequences when stored in an array at locations \\( A[1], \\ldots, A[10] \\) forms a max-heap?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23,17,10,6,13,14,1,5,7,12 \\)</p>",
+            "<p>\\( 23,17,14,7,13,10,1,5,6,12 \\)</p>",
+            "<p>\\( 23,17,14,6,13,10,1,5,7,15 \\)</p>",
+            "<p>\\( 23,14,17,1,10,13,16,12,7,5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 23,17,14,7,13,10,1,5,6,12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399310/gate-cse-2023-question-2\" target=\"_blank\">https://gateoverflow.in/399310/gate-cse-2023-question-2</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"422809\"></a><div itemprop=\"text\"><p>Consider a binary min-heap containing \\( 105 \\) distinct elements. Let \\( k \\) be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of \\( k \\) is</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 53 \\)</p>",
+            "<p>\\( 52 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 1 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 53 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422809/gate-cse-2024-set-1-question-33\" target=\"_blank\">https://gateoverflow.in/422809/gate-cse-2024-set-1-question-33</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"3696\"></a><div itemprop=\"text\"><p>An array of integers of size \\( n \\) can be converted into a heap by adjusting the heaps rooted at each internal node of the complete binary tree starting at the node \\( \\left \\lfloor&nbsp;(n - 1) /2 \\right \\rfloor \\), and doing this adjustment up to the root node (root node is at index \\( 0 \\)) in the order \\( \\left \\lfloor&nbsp;(n - 1) /2 \\right \\rfloor \\), \\( \\left \\lfloor&nbsp;(n - 3) /2 \\right \\rfloor \\), ....., \\( 0 \\). The time required to construct a heap in this manner is</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O (n \\log \\log n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3696/gate-it-2004-question-53\" target=\"_blank\">https://gateoverflow.in/3696/gate-it-2004-question-53</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"3587\"></a><div itemprop=\"text\"><p>Which of the following sequences of array elements forms a heap?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{23, 17, 14, 6, 13, 10, 1, 12, 7, 5\\} \\)</p>",
+            "<p>\\( \\{23, 17, 14, 6, 13, 10, 1, 5, 7, 12\\} \\)</p>",
+            "<p>\\( \\{23, 17, 14, 7, 13, 10, 1, 5, 6, 12\\} \\)</p>",
+            "<p>\\( \\{23, 17, 14, 7, 13, 10, 1, 12, 5, 7\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{23, 17, 14, 7, 13, 10, 1, 5, 6, 12\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3587/gate-it-2006-question-44\" target=\"_blank\">https://gateoverflow.in/3587/gate-it-2006-question-44</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"3616\"></a><div itemprop=\"text\"><p>An array \\( X \\) of \\( n \\) distinct integers is interpreted as a complete binary tree. The index of the first element of the array is \\( 0 \\).&nbsp;If only the root node does not satisfy the heap property, the algorithm to convert the complete binary tree into a heap has the best asymptotic time complexity of</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (n) \\)</p>",
+            "<p>\\( O (\\log n) \\)</p>",
+            "<p>\\( O (n \\log n) \\)</p>",
+            "<p>\\( O (n \\log \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O (\\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3616/gate-it-2006-question-72\" target=\"_blank\">https://gateoverflow.in/3616/gate-it-2006-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+}

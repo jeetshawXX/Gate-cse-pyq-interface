@@ -1,0 +1,231 @@
+{
+  "title": "General_Aptitude-_CSE - General_Aptitude-_CSE - Slot 12",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "General_Aptitude-_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Based on the given statements, select the most appropriate option to solve the given question.\n<br>\nWhat will be the total weight of 10 poles each of same weight?\n<br><br>\nStatements:<br>\nI.  One fourth of the weight of the pole is 5 Kg.\n<br>II. The total weight of these poles is 160 Kg more than the total weight of two poles. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statement I alone is not sufficient.</p>",
+            "<b>B.</b> <p>Statement II alone is not sufficient.</p>",
+            "<b>C.</b> <p>Either I or II alone is sufficient.</p>",
+            "<b>D.</b> <p>Both statements I and II together are not sufficient.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Either I or II alone is sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"#a_list\" target=\"_blank&quot;\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A generic term that includes various items of clothing such as a skirt, a pair of trousers and a shirt is <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>fabric</p>",
+            "<b>B.</b> <p>textile</p>",
+            "<b>C.</b> <p>fiber</p>",
+            "<b>D.</b> <p>apparel</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>apparel</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8032/gate-cse-2015-set-2-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a function \\(f(x) = 1- |x| \\text{ on } -1 \\leq x \\leq 1\\). The value of \\(x\\) at which the function attains a maximum, and the maximum value of the function are: <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, -1</p>",
+            "<b>B.</b> <p>-1, 0</p>",
+            "<b>C.</b> <p>0, 1</p>",
+            "<b>D.</b> <p>-1, 2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8030/gate-cse-2015-set-2-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Choose the statement where underlined word is used correctly. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The industrialist had a \\(\\underline{ \\text{personnel }}\\) jet.</p>",
+            "<b>B.</b> <p>I write my experience in my \\(\\underline{ \\text{personnel }}\\) diary.</p>",
+            "<b>C.</b> <p>All \\(\\underline{ \\text{personnel} }\\) are being given the day off.</p>",
+            "<b>D.</b> <p>Being religious is a  \\(\\underline{ \\text{personnel} }\\) aspect.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>All \\(\\underline{ \\text{personnel} }\\) are being given the day off.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8029/gate-cse-2015-set-2-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>We __________ our friends's birthday and we _________ how to make it up to him. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>completely forgot --- don't just know</p>",
+            "<b>B.</b> <p>forgot completely ---don't just know</p>",
+            "<b>C.</b> <p>completely forgot --- just don't know</p>",
+            "<b>D.</b> <p>forgot completely --- just don't know</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>completely forgot --- just don't know</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8028/gate-cse-2015-set-2-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The probabilities that a student passes in mathematics, physics and chemistry are m,p and c respectively. Of these subjects, the student has 75% chance of passing in at least one, a 50% chance of passing in at least two and a 40% chance of passing in exactly two. Following relations are drawn in m,p,c:\n<br><br>\nI.   p+m+c=27/20\n<br>II.  p+m+c=13/20\n<br>III. (p)x(m)x(c)=1/10 <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only relation I is true.</p>",
+            "<b>B.</b> <p>Only relation II is true.</p>",
+            "<b>C.</b> <p>Relations II and III are true.</p>",
+            "<b>D.</b> <p>Relations I and III are true.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Relations I and III are true.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8014/gate-cse-2015-set-1-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The pie chart below has the breakup of the number of students from different departments in an engineering college for the year 2012. The proportion of male to female students in each department is 5:4. There are 40 males in Electrical Engineering. What is the difference between the numbers of female students in the civil department and the female students in the Mechanical department?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q64_b5c8fce9.jpg\"><br> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8013/gate-cse-2015-set-1-question-ga-9#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The given statement is followed by some courses of action. Assuming the statement to be true, decide the correct option.\n<br><br>\nStatement:\n<br>\nThere has been a significant drop in the water level in the lakes supplying water to the city.\n<br><br>\nCourse of action:\n<br>\nI.   The water supply authority should impose a partial cut in supply to tackle the situation.\n<br>II.  The government should appeal to all the residents through mass media for minimal use of water.\n<br>III. The government should ban the water supply in lower areas. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statements I and II follow.</p>",
+            "<b>B.</b> <p>Statements I and III follow.</p>",
+            "<b>C.</b> <p>Statements II and III follow.</p>",
+            "<b>D.</b> <p>All the statements follow.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Statements I and II follow.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8012/gate-cse-2015-set-1-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Select the alternative meaning of the underlined part of the sentence.\n<br>\nThe chain snatchers \\(\\underline{\\text{took to their heels}}\\) when the police party arrived. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Took shelter in a thick jungle</p>",
+            "<b>B.</b> <p>Open indiscriminate fire</p>",
+            "<b>C.</b> <p>Took to flight</p>",
+            "<b>D.</b> <p>Unconditionally surrendered</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Took to flight</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The number of students in a class who have answered correctly, wrongly, or not attempted each question in an exam, are listed in the table below. The marks for each question are also listed. There is no negative or partial marking.<br><br> \\(\\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} &amp; \\textbf{Marks} &amp;\\textbf{Answered}&amp;\\textbf{Answered}&amp;\\textbf{Not}\\\\&amp;&amp;\\textbf{ Correctly} &amp;\\textbf{Wrongly} &amp; \\textbf{Attempted} \\\\\\hline \\text{1} &amp; \\text{2} &amp;\\text{21} &amp;\\text{17} &amp;\\text{6}\\\\\\hline \\text{2} &amp; \\text{3} &amp;\\text{15} &amp; \\text{27}&amp; \\text{2}\\\\\\hline \\text{3} &amp; \\text{1} &amp;\\text{11} &amp; \\text{29} &amp; \\text{4}\\\\\\hline \\text{4} &amp; \\text{2} &amp;\\text{23} &amp; \\text{18} &amp; \\text{3}\\\\\\hline \\text{5} &amp; \\text{5} &amp;\\text{31} &amp; \\text{12} &amp; \\text{1} \\\\\\hline \\end{array}\\)  <br><br>  What is the average of the marks obtained by the class in the examination? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.29</p>",
+            "<b>B.</b> <p>2.97</p>",
+            "<b>C.</b> <p>6.795</p>",
+            "<b>D.</b> <p>8.795</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6.795</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which one of the following combinations is incorrect? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Acquiescence - Submission</p>",
+            "<b>B.</b> <p>Wheedle - Roundabout</p>",
+            "<b>C.</b> <p>Flippancy - Lightness</p>",
+            "<b>D.</b> <p>Profligate - Extravagant</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Wheedle - Roundabout</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8008/gate-cse-2015-set-1-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Based on the given statements, select the most appropriate option to solve the given question.\n<br><br>\nIf two floors in a certain building are 9 feet apart, how many steps are there in a set of stairs that extends from the first floor to the second floor of the building?\n<br><br>\nStatements:\n<br><br>\nI.  Each step is 3/4 foot high.<br>\nII. Each step is 1 foot wide. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statements I alone is sufficient, but statement II alone is not sufficient.</p>",
+            "<b>B.</b> <p>Statements II alone is sufficient, but statement I alone is not sufficient.</p>",
+            "<b>C.</b> <p>Both statements together are sufficient, but neither statement alone is sufficient.</p>",
+            "<b>D.</b> <p>Statements I and II together are not sufficient.?</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Statements I alone is sufficient, but statement II alone is not sufficient.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8006/gate-cse-2015-set-1-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Given Set A=2,3,4,5 and Set B=11,12,13,14,15, two numbers are randomly selected, one from each set. What is the probability that the sum of the two numbers equals 16? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.2</p>",
+            "<b>B.</b> <p>0.25</p>",
+            "<b>C.</b> <p>0.3</p>",
+            "<b>D.</b> <p>0.33</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8004/gate-cse-2015-set-1-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following options is the closest in meaning of the sentence below?\n<br><br>\nShe enjoyed herself immensely at the party. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>She had a terrible time at the party</p>",
+            "<b>B.</b> <p>She had a horrible time at the party</p>",
+            "<b>C.</b> <p>She had a terrific time at the party</p>",
+            "<b>D.</b> <p>She had a terrifying time at the party</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>She had a terrific time at the party</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Didn't you buy ____ when you went shopping? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>any paper</p>",
+            "<b>B.</b> <p>much paper</p>",
+            "<b>C.</b> <p>no paper</p>",
+            "<b>D.</b> <p>a few paper</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>any paper</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/7995/gate-cse-2015-set-1-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

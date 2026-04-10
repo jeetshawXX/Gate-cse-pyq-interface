@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Effective Memory Access",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Effective Memory Access",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351597\"></a><div itemprop=\"text\"><p>If main memory access time is \\( 400\\;\\mu s \\), \\( TLB \\) access time \\( 50\\;\\mu s \\), considering \\( TLB \\) hit \\( 90\\% \\), what wil be the overall access time?</p>\n\n</div><br><br><b>Operating System: NIELIT Scientist B 2020 November: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 800\\;\\mu s \\)</p>",
+            "<p>\\( 490 \\;\\mu s \\)</p>",
+            "<p>\\( 485\\;\\mu s \\)</p>",
+            "<p>\\( 450\\;\\mu s \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 490 \\;\\mu s \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351597/nielit-scientist-b-2020-november-85\" target=\"_blank\">https://gateoverflow.in/351597/nielit-scientist-b-2020-november-85</a></p>"
+        }
+      ]
+    }
+  ]
+}

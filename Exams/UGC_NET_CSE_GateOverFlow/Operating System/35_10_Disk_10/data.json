@@ -1,0 +1,161 @@
+{
+  "title": "Operating System - Disk",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Disk",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"12059\"></a><div itemprop=\"text\">\n<p style=\"line-height: 20.8px;\">How much space will be required to store the bit map of a 1.3 GB disk with 512 bytes block size?</p>\n\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2013 | Part 2 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>332.8 KB</p>",
+            "<p>83.6 KB</p>",
+            "<p>266.2 KB</p>",
+            "<p>256.6 KB</p>"
+          ],
+          "correct_answer": "<p>332.8 KB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/12059/ugc-net-cse-december-2013-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/12059/ugc-net-cse-december-2013-part-2-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"62271\"></a><div itemprop=\"text\"><p>Consider a disk with 16384 bytes per track having a rotation time of 16 msec and average seek time of 40 msec. What is the time in msec to read a block of 1024 bytes from this disk?</p></div><br><br><b>Operating System: UGC NET CSE | December 2015 | Part 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>57 msec</p>",
+            "<p>49&nbsp;msec</p>",
+            "<p>48&nbsp;msec</p>",
+            "<p>17&nbsp;msec</p>"
+          ],
+          "correct_answer": "<p>49&nbsp;msec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62271/ugc-net-cse-december-2015-part-2-question-28\" target=\"_blank\">https://gateoverflow.in/62271/ugc-net-cse-december-2015-part-2-question-28</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"288359\"></a><div itemprop=\"text\"><p>Consider a disk pack with \\( 32 \\) surfaces, \\( 64 \\) tracks and \\( 512 \\) sectors per pack. \\( 256 \\) bytes of data are stored in a bit serial manner in a sector. The number of bits required to specify a particular sector in the disk is</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2018 | Part 2 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288359/ugc-net-cse-december-2018-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/288359/ugc-net-cse-december-2018-part-2-question-18</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"47427\"></a><div itemprop=\"text\"><p>A UNIX file system has 1 KB block size and 4-byte disk addresses. What is the maximum file size if the inode contains ten direct block entries, one single indirect block entry, one double indirect block entry and one triple indirect block entry?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2013 | Part 3 | Question: 64, UGCNET</b></p>",
+          "type": "single",
+          "options": [
+            "<p>30 GB</p>",
+            "<p>64 GB</p>",
+            "<p>16 GB</p>",
+            "<p>1 GB</p>"
+          ],
+          "correct_answer": "<p>16 GB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47427/ugc-net-cse-june-2013-part-3-question-64-ugcnet-dec2015-ii-49\" target=\"_blank\">https://gateoverflow.in/47427/ugc-net-cse-june-2013-part-3-question-64-ugcnet-dec2015-ii-49</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"349656\"></a><div itemprop=\"text\"><p>Suppose you have a Linux file system where the block size is \\( 2K \\) bytes, a disk address is \\( 32 \\) bits, and an \\( i- \\)node contains the disk addresses of the first \\( 12 \\) direct blocks of file, a single indirect block and a double indirect block. Approximately, what is the largest file that can be represented by an \\( i- \\)node?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2020 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 513 \\) Kbytes</p>",
+            "<p>\\( 513 \\) MBytes</p>",
+            "<p>\\( 537 \\) Mbytes</p>",
+            "<p>\\( 537 \\) KBytes</p>"
+          ],
+          "correct_answer": "<p>\\( 513 \\) MBytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349656/ugc-net-cse-october-2020-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/349656/ugc-net-cse-october-2020-part-2-question-17</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"349582\"></a><div itemprop=\"text\"><p>The question given below: concern a disk with a sector size of \\( 512 \\) bytes, \\( 2000 \\) tracks per surface, \\( 50 \\) sectors per track, five double-sided platters, and average seek time of \\( 10 \\) milliseconds.</p>\n\n<p>If \\( T \\) is the capacity of a track in bytes, and \\( S \\) is the capacity of each surface in bytes, then \\( (T,S)= \\) _______</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2020 | Part 2 | Question: 91</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (50 K, 50000 K) \\)</p>",
+            "<p>\\( (25 K, 25000 K) \\)</p>",
+            "<p>\\( (25 K, 50000 K) \\)</p>",
+            "<p>\\( (40 K, 36000 K) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (25 K, 50000 K) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349582/ugc-net-cse-october-2020-part-2-question-91\" target=\"_blank\">https://gateoverflow.in/349582/ugc-net-cse-october-2020-part-2-question-91</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"349581\"></a><div itemprop=\"text\"><p>The question given below: concern a disk with a sector size of \\( 512 \\) bytes, \\( 2000 \\) tracks per surface, \\( 50 \\) sectors per track, five double-sided platters, and average seek time of \\( 10 \\) milliseconds.</p>\n\n<p>What is the capacity of the disk, in bytes?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2020 | Part 2 | Question: 92</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25,000 K \\)</p>",
+            "<p>\\( 500,000 K \\)</p>",
+            "<p>\\( 250,000 K \\)</p>",
+            "<p>\\( 50,000 K \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 500,000 K \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349581/ugc-net-cse-october-2020-part-2-question-92\" target=\"_blank\">https://gateoverflow.in/349581/ugc-net-cse-october-2020-part-2-question-92</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"349580\"></a><div itemprop=\"text\"><p>The question given below: concern a disk with a sector size of \\( 512 \\) bytes, \\( 2000 \\) tracks per surface, \\( 50 \\) sectors per track, five double-sided platters, and average seek time of \\( 10 \\) milliseconds.</p>\n\n<p>Given below are two statements:</p>\n\n<p>Statement \\( I \\): The disk has a total number of \\( 2000 \\) cylinders.</p>\n\n<p>Statement \\( II \\): \\( 51200 \\) bytes is not a valid block size for the disk.</p>\n\n<p>In the light of the above statements, choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2020 | Part 2 | Question: 93</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349580/ugc-net-cse-october-2020-part-2-question-93\" target=\"_blank\">https://gateoverflow.in/349580/ugc-net-cse-october-2020-part-2-question-93</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"349579\"></a><div itemprop=\"text\"><p>The question given below&nbsp;concern a disk with a sector size of \\( 512 \\) bytes, \\( 2000 \\) tracks per surface, \\( 50 \\) sectors per track, five double-sided platters, and average seek time of \\( 10 \\) milliseconds.</p>\n\n<p>If the disk platters rotate at \\( 5400 \\) rpm (revolutions per minute), then approximately what is the maximum rotational delay?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2020 | Part 2 | Question: 94</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.011 \\) seconds</p>",
+            "<p>\\( 0.11 \\) seconds</p>",
+            "<p>\\( 0.0011 \\) seconds</p>",
+            "<p>\\( 1.1 \\) seconds</p>"
+          ],
+          "correct_answer": "<p>\\( 0.011 \\) seconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349579/ugc-net-cse-october-2020-part-2-question-94\" target=\"_blank\">https://gateoverflow.in/349579/ugc-net-cse-october-2020-part-2-question-94</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"349578\"></a><div itemprop=\"text\"><p>The question given below&nbsp;concern a disk with a sector size of \\( 512 \\) bytes, \\( 2000 \\) tracks per surface, \\( 50 \\) sectors per track, five double-sided platters, and average seek time of \\( 10 \\) milliseconds.</p>\n\n<p>If one track of data can be transferred per revolution, then what is the data transfer rate?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | October 2020 | Part 2 | Question: 95</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2,850 \\) KBytes/second</p>",
+            "<p>\\( 4,500 \\) KBytes/second</p>",
+            "<p>\\( 5,700 \\) KBytes/second</p>",
+            "<p>\\( 2,250 \\) KBytes/second</p>"
+          ],
+          "correct_answer": "<p>\\( 2,250 \\) KBytes/second</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349578/ugc-net-cse-october-2020-part-2-question-95\" target=\"_blank\">https://gateoverflow.in/349578/ugc-net-cse-october-2020-part-2-question-95</a></p>"
+        }
+      ]
+    }
+  ]
+}

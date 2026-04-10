@@ -1,0 +1,231 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G = (V, E) be a simple undirected graph, and s be a particular vertex in it called the source. For \\(x \\in V\\), let d(x) denote the shortest distance in G from s to x. A breadth first search (BFS) is performed starting at s. Let T be the resultant BFS tree. If (u,v) is an edge of G that is not in T, then which one of the following CANNOT be the value of d(u)-d(v)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-1</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8321/gate2015-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(a_{n}\\) represent the number of bit strings of length n containing two consecutive 1s. What is the recurrence relation for \\(a_{n}\\)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(a_{n-2}+a_{n-1}+2^{n-2}\\)</p>",
+            "<b>B.</b> <p>\\(a_{n-2}+2a_{n-1}+2^{n-2}\\)</p>",
+            "<b>C.</b> <p>\\(2a_{n-2}+a_{n-1}+2^{n-2}\\)</p>",
+            "<b>D.</b> <p>\\(2a_{n-2}+2a_{n-1}+2^{n-2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(a_{n-2}+a_{n-1}+2^{n-2}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8355/gate-cse-2015-set-1-question-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let G be a connected planar graph with 10 vertices. If the number of edges on each face is three, then the number of edges in G is ___________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "24",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8364/gate2015-1-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose L={p,q,r,s,t} is a lattice represented by the following Hasse diagram:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q32_4f2be226.jpg\"><br> For any \\(x,y\\in L\\) not necessarily distinct, \\(x\\vee y\\) and \\(x\\wedge y\\) are join and meet of x,y respectively. Let \\(L^{3}=\\{(x,y,z):x,y,z\\in L\\}\\) be the set of all ordered triplets of the elements of L. Let \\(P_{r} \\) be the probability that an element \\((x,y,z)\\in L^{3}\\) chosen equiprobably satisfies \\(x\\vee (y \\wedge z)=(x\\vee y)\\wedge (x\\vee z)\\) . Then <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P_{r} \\)=0</p>",
+            "<b>B.</b> <p>\\(P_{r} \\)=1</p>",
+            "<b>C.</b> <p>\\(0 \\lt P_{r} \\leq \\frac{1}{5}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{5} \\lt P_{r} \\lt 1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{1}{5} \\lt P_{r} \\lt 1\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8281/gate2015-1-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The binary operator \\(\\neq\\) is defined by the following truth table. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q30_38aeed9e.jpg\"><br> Which one of the following is true about the binary operator \\(\\neq\\)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both commutative and associative</p>",
+            "<b>B.</b> <p>Commutative but not associative</p>",
+            "<b>C.</b> <p>Not commutative but associative</p>",
+            "<b>D.</b> <p>Neither commutative nor associative</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both commutative and associative</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8226/gate2015-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For a set A, the power set of A is denoted by \\(2^{A}\\). If A={5,{6},{7}}, which of the following options are TRUE? <br>\nI. \\(\\phi \\in 2^{A}\\) <br>\nII. \\(\\phi \\subseteq 2^{A}\\) <br>\nIII. {5,{6}} \\(\\in 2^{A}\\) <br>\nIV. {5,{6}}\\(\\subseteq 2^{A}\\) <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and III only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I, II and III only</p>",
+            "<b>D.</b> <p>I, II and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I, II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8238/gate2015-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following is NOT equivalent to \\(p\\leftrightarrow q\\)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\neg p\\vee q)\\wedge (p\\vee \\neg q)\\)</p>",
+            "<b>B.</b> <p>\\((\\neg p\\vee q)\\wedge (q \\rightarrow p)\\)</p>",
+            "<b>C.</b> <p>\\((\\neg p \\wedge  q)\\vee (p \\wedge \\neg q)\\)</p>",
+            "<b>D.</b> <p>\\((\\neg p \\wedge \\neg q)\\vee (p \\wedge  q)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((\\neg p \\wedge  q)\\vee (p \\wedge \\neg q)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8209/gate2015-1-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If \\(g(x)=1-x\\) and \\(h(x)=\\frac{x}{x-1}\\), then \\(\\frac{g(h(x))}{h(g(x))}\\) is: <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{h(x)}{g(x)}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{-1}{x}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{g(x)}{h(x)}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{x}{(1-x)^{2}}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{h(x)}{g(x)}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8025/gate2015-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A cube of side 1 unit is placed in such a way that the origin coincides with one of its top vertices and the three axes along three of its edges. What are the co-ordinates of the vertex which is diagonally opposite to the vertex whose co-ordinates are (1, 0, 1)? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0, 0, 0)</p>",
+            "<b>B.</b> <p>(0, -1, 0)</p>",
+            "<b>C.</b> <p>(0, 1, 0)</p>",
+            "<b>D.</b> <p>(1, 1, 1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(0, -1, 0)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55078/isro2014-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The conic section that is obtained when a right circular cone is cut through a plane that is parallel to the side of the cone is called _____ <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>parabola</p>",
+            "<b>B.</b> <p>hyperpola</p>",
+            "<b>C.</b> <p>circle</p>",
+            "<b>D.</b> <p>ellipse</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>parabola</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55004/isro2014-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let A be a finite set having \\(x\\) elements and let B be a finite set having \\(y\\) elements. What is the number of distinct functions mapping B into A. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x^{y}\\)</p>",
+            "<b>B.</b> <p>\\(2^{(x+y)}\\)</p>",
+            "<b>C.</b> <p>\\(y^{x}\\)</p>",
+            "<b>D.</b> <p>\\(y ! /(y-x) !\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(x^{y}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54987/isro2014-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The probability that two friends are born in the same month is ____ ? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/6\\)</p>",
+            "<b>B.</b> <p>\\(1/12\\)</p>",
+            "<b>C.</b> <p>1/144</p>",
+            "<b>D.</b> <p>\\(1/24\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(1/12\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15032/isro2014-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The number of bit strings of length 8 that will either start with 1 or end with 00 is? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32</p>",
+            "<b>B.</b> <p>128</p>",
+            "<b>C.</b> <p>160</p>",
+            "<b>D.</b> <p>192</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>160</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15898/isro2014-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The CORECT formula for the sentence, \"not all rainy days are cold\" is <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall d(Rainy(d)\\wedge \\sim Cold(d))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall d(\\sim Rainy(d)\\rightarrow  Cold(d))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists d(\\sim Rainy(d) \\rightarrow  Cold(d))\\)</p>",
+            "<b>D.</b> <p>\\(\\exists d(Rainy(d)\\wedge \\sim Cold(d))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\exists d(Rainy(d)\\wedge \\sim Cold(d))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2087/gate2014-3-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\(\\delta\\) denote the minimum degree of a vertex in a graph. For all planar graphs on n vertices with \\(\\delta \\geq 3\\), which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In any planar embedding, the number of faces is at least \\(\\frac{n}{2}+2\\)</p>",
+            "<b>B.</b> <p>In any planar embedding, the number of faces is less than \\(\\frac{n}{2}+2\\)</p>",
+            "<b>C.</b> <p>There is a planar embedding in which the number of faces is less than \\(\\frac{n}{2}+2\\)</p>",
+            "<b>D.</b> <p>There is a planar embedding in which the number of faces is at most \\(\\frac{n}{\\delta +1}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>In any planar embedding, the number of faces is at least \\(\\frac{n}{2}+2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2086/gate2014-3-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Independent Events",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Independent Events",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369334\"></a><div itemprop=\"text\"><p>Let \\( \\text{X} \\) be uniform random variable on \\( [0, 4] \\) and \\( \\text{Y} \\) be uniform random variable on \\( [0, 1]. \\) If \\( \\text{X} \\) and \\( \\text{Y} \\) are independent, then \\( \\text{P (max \\{ X, Y \\}} &gt;3) \\) is equal to :</p>\n\n</div><br><br><b>Probability: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 1/8 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1/4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369334/nielit-2021-dec-scientist-a-section-b-79\" target=\"_blank\">https://gateoverflow.in/369334/nielit-2021-dec-scientist-a-section-b-79</a></p>"
+        }
+      ]
+    }
+  ]
+});

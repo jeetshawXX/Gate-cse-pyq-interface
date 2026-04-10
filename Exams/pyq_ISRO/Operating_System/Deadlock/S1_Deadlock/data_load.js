@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Deadlock - Deadlock - Slot 1",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "Deadlock",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>An aid to determine the deadlock occurrence is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>resource allocation graph</p>",
+            "<b>B.</b> <p>starvation graph</p>",
+            "<b>C.</b> <p>inversion graph</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>resource allocation graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331251/isro2020-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Raymonds tree based algorithm ensures <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no starvation, but deadlock may occur in rare cases</p>",
+            "<b>B.</b> <p>no deadlock, but starvation may occur</p>",
+            "<b>C.</b> <p>neither deadlock nor starvation can occur</p>",
+            "<b>D.</b> <p>deadlock may occur in cases where the process is already starved</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>no deadlock, but starvation may occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331328/isro2020-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a system having m resources of the same type. These resources are shared by 3 processes A,B,C, which have peak time demands of 3,4,6 respectively. The minimum value of m that ensures that deadlock will never occur is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213567/isro2018-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What problem is solved by Dijikstra banker' algorithm? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion</p>",
+            "<b>B.</b> <p>Deadlock recovery</p>",
+            "<b>C.</b> <p>Deadlock avoidance</p>",
+            "<b>D.</b> <p>Cache coherence</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Deadlock avoidance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128692/isro2017-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A system has 3 processes sharing 4 resources. If each process needs a maximum of 2 units, then <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deadlock can never occur</p>",
+            "<b>B.</b> <p>Deadlock may occur</p>",
+            "<b>C.</b> <p>Deadlock has to occur</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Deadlock can never occur</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55698/isro2016-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>With single resource, deadlock occurs <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>if there are more than two processes competing for that resources</p>",
+            "<b>B.</b> <p>if there are only two processes competing for that resources</p>",
+            "<b>C.</b> <p>if there is a single process competing for that resources</p>",
+            "<b>D.</b> <p>none of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>none of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55705/isro2016-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the minimum number of resources required to ensure that deadlock will never occur, if there are currently three processes \\(P_{1}\\),\\(P_{2}\\) and \\(P_{3}\\) running in a system whose maximum demand for the resources of same type are 3, 4, and 5 respectively. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55085/isro2014-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following process and resource requirement of each process.<br>\\(\\begin{array}{|c|c|c|c|c|} \\hline  {\\text { Process }} &amp;  {\\text { Type 1 }} &amp; {\\text { Type 1 }} &amp;  {\\text { Type 2 }}&amp;  {\\text { Type 2 }} \\\\ \\hline  &amp; \\text { Used } &amp; \\text { Max } &amp; \\text { Used } &amp; \\text { Max } \\\\ \\hline \\text { P1 } &amp; 1 &amp; 2 &amp; 1 &amp; 3 \\\\ \\hline \\text { P2 } &amp; 1 &amp; 3 &amp; 1 &amp; 2 \\\\ \\hline \\text { P3 } &amp; 2 &amp; 4 &amp; 1 &amp; 4 \\\\ \\hline \\end{array}\\)<br>Predict the state of this system, assuming that there are a total of 5 instances of resource type 1 and 4 instances of resource type 2. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Can go to safe or unsafe state based on sequence</p>",
+            "<b>B.</b> <p>Safe state</p>",
+            "<b>C.</b> <p>Unsafe state</p>",
+            "<b>D.</b> <p>Deadlock state</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Unsafe state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44404/isro-2013-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following is not a necessary condition for deadlock? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion</p>",
+            "<b>B.</b> <p>Reentrancy</p>",
+            "<b>C.</b> <p>Hold and wait</p>",
+            "<b>D.</b> <p>No pre-emption</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Reentrancy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44403/isro-2013-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A total of 9 units of a resource type available, and given the safe state shown below, which of the following sequence will be a safe state?<br><br>\\(\\begin{array}{lll} \\text {Process } &amp; \\text {Used } &amp; \\text {Max } \\\\ P_{1} &amp; 2 &amp; 7 \\\\ P_{2} &amp; 1 &amp; 6 \\\\ P_{3} &amp; 2 &amp; 5 \\\\ P_{4} &amp; 1 &amp; 4 \\end{array}\\) <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\langle P_4, P_1, P_3, P_2\\rangle\\)</p>",
+            "<b>B.</b> <p>\\(\\langle P_4, P_2, P_1, P_3\\rangle\\)</p>",
+            "<b>C.</b> <p>\\(\\langle P_4, P_2, P_3, P_1\\rangle\\)</p>",
+            "<b>D.</b> <p>\\(\\langle P_3, P_1, P_2, P_4 \\rangle\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\langle P_3, P_1, P_2, P_4 \\rangle\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52836/isro2011-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>When a process is rolled back as a result of deadlock the difficulty which arises is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Starvation</p>",
+            "<b>B.</b> <p>System throughput</p>",
+            "<b>C.</b> <p>Low device utilization</p>",
+            "<b>D.</b> <p>Cycle stealing</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Starvation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18583/isro2009-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a system having \"n\" resources of same type. These resources are shared by 3 processes, A, B, C. These have peak demands of 3, 4, and 6 respectively. For what value of \"n\" deadlock won't occur <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48037/isro2009-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In which of the following four necessary conditions for deadlock processes claim exclusive control of the resources they require? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no preemption</p>",
+            "<b>B.</b> <p>mutual exclusion</p>",
+            "<b>C.</b> <p>circular wait</p>",
+            "<b>D.</b> <p>hold and wait</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mutual exclusion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17254/isro2008-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a system having 'm' resources of the same type. The resources are shared by 3 processes A, B, C, which have peak time demands of 3, 4, 6 respectively. The minimum value of 'm' that ensures that deadlock will never occur is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>14</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49515/isro2007-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

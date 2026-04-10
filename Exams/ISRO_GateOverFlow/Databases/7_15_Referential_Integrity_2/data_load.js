@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Databases - Referential Integrity",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Referential Integrity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2266\"></a><div itemprop=\"text\">\n<p>Let \\( R (a, b, c) \\) and \\( S(d, e, f) \\) be two relations in which \\( d \\) is the foreign key of \\( S \\) that refers to the primary key of \\( R \\). Consider the following four operations \\( R \\) and \\( S \\)</p>\n\n<ol style=\"list-style-type: upper-roman;\"><li>\n\t<p>Insert into \\( R \\)</p>\n\t</li>\n\t<li>\n\t<p>Insert into \\( S \\)</p>\n\t</li>\n\t<li>\n\t<p>Delete from \\( R \\)</p>\n\t</li>\n\t<li>\n\t<p>Delete from \\( S \\)</p>\n\t</li>\n</ol><p>Which of the following can cause violation of the referential integrity constraint above?</p>\n\n\n</div><br><br><b>Databases: GATE CSE 1997 | Question: 6.10,  ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both I and IV</p>",
+            "<p>Both II and III</p>",
+            "<p>All of these</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Both II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2266/gate-cse-1997-question-6-10-isro2016-54\" target=\"_blank\">https://gateoverflow.in/2266/gate-cse-1997-question-6-10-isro2016-54</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"47321\"></a><div itemprop=\"text\">\n<p>Purpose of 'Foreign Key' in a table is to ensure</p>\n\n\n</div><br><br><b>Databases: ISRO CSE 2009 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Null Integrity</p>",
+            "<p>Referential Integrity</p>",
+            "<p>Domain Integrity</p>",
+            "<p>Null and Domain Integrity</p>"
+          ],
+          "correct_answer": "<p>Referential Integrity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47321/isro-cse-2009-question-72\" target=\"_blank\">https://gateoverflow.in/47321/isro-cse-2009-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+});

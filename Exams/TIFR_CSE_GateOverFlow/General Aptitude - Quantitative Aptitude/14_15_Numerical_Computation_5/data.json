@@ -1,0 +1,91 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Numerical Computation",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Numerical Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18393\"></a><div itemprop=\"text\"><p>A marine biologist wanted to estimate the number of fish in a large lake. He threw a net and found \\( 30 \\) fish in the net. He marked all these fish and released them into the lake. The next morning he again threw the net and this time caught \\( 40 \\) fish, of which two were found to be marked. The (approximate) number of fish in the lake is:</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2010 | Part A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 600 \\)</p>",
+            "<p>\\( 1200 \\)</p>",
+            "<p>\\( 68 \\)</p>",
+            "<p>\\( 800 \\)</p>",
+            "<p>\\( 120 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 600 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18393/tifr-cse-2010-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/18393/tifr-cse-2010-part-a-question-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25979\"></a><div itemprop=\"text\"><p>Consider the reactions \\[ X + 2Y&nbsp;\\rightarrow&nbsp;3Z \\]\\[ 2X + Z \\rightarrow&nbsp;Y. \\] Let \\( n_{X} \\), \\( n_{Y} \\), \\( n_{Z} \\) denote the numbers of molecules of chemicals \\( X, Y, Z \\) in the reaction chamber. Then&nbsp;which of the following is conserved by both reactions?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2014 | Part A | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n_{X} + n_{Y} + n_{Z} \\).</p>",
+            "<p>\\( n_{X}+ 7n_{Y} + 5n_{Z} \\).</p>",
+            "<p>\\( 2n_{X} + 9n_{Y} − 3n_{Z} \\).</p>",
+            "<p>\\( 3n_{X} − 3n_{Y} + 13n_{Z} \\).</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( n_{X}+ 7n_{Y} + 5n_{Z} \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25979/tifr-cse-2014-part-a-question-1\" target=\"_blank\">https://gateoverflow.in/25979/tifr-cse-2014-part-a-question-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"25989\"></a><div itemprop=\"text\"><p>Consider numbers greater than one that satisfy the following properties:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>They have no repeated prime factors;</li>\n\t<li>For all primes \\( p \\geq 2 \\), \\( p \\) divides the number if and only if \\( p − 1 \\) divides the number.</li>\n</ol>\n\n<p>The number of such numbers is</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2014 | Part A | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>Infinite</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25989/tifr-cse-2014-part-a-question-4\" target=\"_blank\">https://gateoverflow.in/25989/tifr-cse-2014-part-a-question-4</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"29159\"></a><div itemprop=\"text\"><p>Let \\( |z| &lt; 1 \\). Define \\( M_{n}(z)= \\sum_{i=1}^{10} z^{10^{n}(i - 1)}? \\) what is</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\( \\prod\\limits_{i=0}^{\\infty} M_{i}(z)= M_{0}(z)\\times M_{1}(z) \\times M_{2}(z) \\times ...? \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2015 | Part A | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Can't be determined</p>",
+            "<p>\\( 1/ (1 - z) \\)</p>",
+            "<p>\\( 1/ (1 + z) \\)</p>",
+            "<p>\\( 1 -&nbsp;z^{9} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 1/ (1 - z) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29159/tifr-cse-2015-part-a-question-3\" target=\"_blank\">https://gateoverflow.in/29159/tifr-cse-2015-part-a-question-3</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"30046\"></a><div itemprop=\"text\"><p>Let \\( t_{n} \\) be the sum of the first \\( n \\) natural numbers, for \\( n &gt; 0 \\). A number is called triangular if it is equal to \\( t_{n} \\) for some \\( n \\). Which of the following statements are true:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>There exists three successive triangular numbers whose product is a perfect square.</li>\n\t<li>If the triangular number \\( t_{n} \\) is a perfect square, then so is \\( t_{4n(n+1)} \\).</li>\n\t<li>The sum of the reciprocals of the first \\( n \\) triangular numbers is less than \\( 2 \\), i.e.</li>\n</ol>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \\( \\frac{1}{1}+\\frac{1}{3}+\\frac{1}{6}+....+\\frac{1}{t_{n}}&lt;2 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2015 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i)} \\) only</p>",
+            "<p>\\( \\text{(ii)} \\) only</p>",
+            "<p>\\( \\text{(iii)} \\) only</p>",
+            "<p>All of the above</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/30046/tifr-cse-2015-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/30046/tifr-cse-2015-part-b-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

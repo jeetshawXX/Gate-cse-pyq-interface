@@ -1,0 +1,247 @@
+window.__examLoadCallback({
+  "title": "Operating_System - Operating_System - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following threads, \\(T_1, T_2,  \\text{ and }T_3\\) executing on a single processor, synchronized using three binary semaphore variables, \\(S_1, S_2,  \\text{ and }S_3\\), operated upon using standard \\(wait()\\) and \\(signal()\\). The threads can be context switched in any order and at any time.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q9_47befa18.jpg\"><br>Which initialization of the semaphores would print the sequence BCABCABCA ...? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S_1 = 1; S_2 = 1; S_3 = 1\\)</p>",
+            "<b>B.</b> <p>\\(S_1 = 1; S_2 = 1; S_3 = 0\\)</p>",
+            "<b>C.</b> <p>\\(S_1 = 1; S_2 = 0; S_3 = 0\\)</p>",
+            "<b>D.</b> <p>\\(S_1 = 0; S_2 = 1; S_3 = 1\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(S_1 = 1; S_2 = 0; S_3 = 0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371927/Gate-cse-2022-question-9#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a three-level page table to translate a 39-bit virtual address to a physical address as shown below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q48_18e02a9f.jpg\"><br>\nThe page size is 4 KB = (1KB =\\(2^{10}\\) bytes) and page table entry size at every level is 8 bytes. A process P is currently using 2 GB (1 GB =\\(2^{30}\\) bytes) virtual memory which os mapped to 2 GB of physical memory. The minimum amount of memory required for the page table of P across all levels is _________ KB <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4108",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357489/gate-cse-2021-set-2-question-48#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a computer system with multiple shared resource types, with one instance per resource type. Each instance can be owned by only one process at a time. Owning and freeing of resources are done by holding a global lock (L). The following scheme is used to own a resource instance:<pre><code> function OWNRESOURCE(Resource R) \n    Acquire lock L // a global lock \n    if R is available then \n        Acquire R        \n        Release lock L \n    else\n        if R is owned by another process P then        \n        Terminate P, after releasing all resources owned by P        \n        Acquire R        \n        Restart P        \n        Release lock L        \n        end if\n    end if    \nend function</code></pre>Which of the following choice(s) about the above scheme is/are correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The scheme ensures that deadlocks will not occur</p>",
+            "<b>B.</b> <p>The scheme may lead to live-lock</p>",
+            "<b>C.</b> <p>The scheme may lead to starvation</p>",
+            "<b>D.</b> <p>The scheme violates the mutual exclusion property</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The scheme ensures that deadlocks will not occur</p>",
+            "<b>B.</b> <p>The scheme may lead to live-lock</p>",
+            "<b>C.</b> <p>The scheme may lead to starvation</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357497/gate-cse-2021-set-2-question-43#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following multi-threaded code segment (in a mix of C and pseudo-code), invoked by two processes P1 and P2, and each of the processes spawns two threads T1 and T2:<pre><code>int x = 0;  // global\nLock L1;    // global\nmain () { \n    create a thread to execute foo( ); // Thread T1\n    create a thread to execute foo( ); // Thread T2\n    wait for the two threads to finish execution;\n    print(x);}\n    \n    \nfoo() {\n    int y = 0;\n    Acquire L1;\n    x = x + 1;\n    y = y + 1;\n    Release L1;\n    print (y);} </code></pre>Which of the following statement(s) is/are correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Both P1 and P2 will print the value of x as 2.</p>",
+            "<b>B.</b> <p>At least of P1 and P2 will print the value of x as 4.</p>",
+            "<b>C.</b> <p>At least one of the threads will print the value of y as 2.</p>",
+            "<b>D.</b> <p>Both T1 and T2, in both the processes, will print the value of y as 1.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Both P1 and P2 will print the value of x as 2.</p>",
+            "<b>D.</b> <p>Both T1 and T2, in both the processes, will print the value of y as 1.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357498/gate-cse-2021-set-2-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following statement(s) is/are correct in the context of CPU scheduling? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Turnaround time includes waiting time</p>",
+            "<b>B.</b> <p>The goal is to only maximize CPU utilization and minimize throughput</p>",
+            "<b>C.</b> <p>Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori</p>",
+            "<b>D.</b> <p>Implementing preemptive scheduling needs hardware support</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Turnaround time includes waiting time</p>",
+            "<b>C.</b> <p>Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori</p>",
+            "<b>D.</b> <p>Implementing preemptive scheduling needs hardware support</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357526/gate-cse-2021-set-2-question-14#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following pseudocode, where Sis a semaphore initialized to 5 in line #2 and counter is a shared variable initialized to 0 in line #1. Assume that the increment operation in line #7 is not atomic.<pre><code>1.  int counter =0;\n2.  Semaphore S= init(5);\n3.  void parop(void)\n4.  {\n5.         wait(S);\n6.         wait(S);\n7.         counter++;\n8.         signal(S);\n9.          signal(S);\n10.  } </code></pre> If five threads execute the function \\(parop\\) concurrently, which of the following program behavior(s) is/are possible? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The value of countercounter is 5 after all the threads successfully complete the execution of parop.</p>",
+            "<b>B.</b> <p>The value of countercounter is 1 after all the threads successfully complete the execution of parop.</p>",
+            "<b>C.</b> <p>The value of countercounter is 0 after all the threads successfully complete the execution of parop.</p>",
+            "<b>D.</b> <p>There is a deadlock involving all the threads.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The value of countercounter is 5 after all the threads successfully complete the execution of parop.</p>",
+            "<b>B.</b> <p>The value of countercounter is 1 after all the threads successfully complete the execution of parop.</p>",
+            "<b>D.</b> <p>There is a deadlock involving all the threads.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357405/gate-cse-2021-set-1-question-46#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Three processes arrive at time zero with CPU bursts of 16, 20 and 10 milliseconds. If the scheduler has prior knowledge about the length of the CPU bursts, the minimum achievable average waiting time for these three processes in a non-preemptive scheduler (rounded to nearest integer) is _____________ milliseconds. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357426/gate-cse-2021-set-1-question-25#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following standard C library functions will always invoke a system call when executed from a single-threaded process in a UNIX/Linux operating system? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>exit</p>",
+            "<b>B.</b> <p>malloc</p>",
+            "<b>C.</b> <p>sleep</p>",
+            "<b>D.</b> <p>strlen</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>exit</p>",
+            "<b>C.</b> <p>sleep</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357438/gate-cse-2021-set-1-question-14#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>In the context of operating systems, which of the following statements is/are correct with respect to paging? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Paging helps solve the issue of external fragmentation</p>",
+            "<b>B.</b> <p>Page size has no impact on internal fragmentation</p>",
+            "<b>C.</b> <p>Paging incurs memory overheads</p>",
+            "<b>D.</b> <p>Multi-level paging is necessary to support pages of different sizes</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Paging helps solve the issue of external fragmentation</p>",
+            "<b>C.</b> <p>Paging incurs memory overheads</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357441/gate-cse-2021-set-1-question-11#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The hardware implementation which provides mutual exclusion is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Semaphores</p>",
+            "<b>B.</b> <p>Test and set instructions</p>",
+            "<b>C.</b> <p>Both options</p>",
+            "<b>D.</b> <p>None of the options</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Test and set instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331484/isro2020-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Three CPU-bound tasks, with execution times of 15, 12 and 5 time units respectively arrive at times 0, t and 8, respectively. If the operating system implements a shortest remaining time first scheduling algorithm, what should be the value of t to have 4 context switches? Ignore the context switches at time 0 and at the end. <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 &lt; t &lt; 3</p>",
+            "<b>B.</b> <p>t=0</p>",
+            "<b>C.</b> <p>t &lt;= 3</p>",
+            "<b>D.</b> <p>3 &lt; t &lt; 8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0 &lt; t &lt; 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331255/isro2020-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following page reference string.<br>1 2 3 4 2 1 5 6 2 1 2 3 7 6 3 2 1 2 3 6 <br>What are the minimum number of frames required to get a single page fault for the above sequence assuming LRU replacement strategy? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331254/isro2020-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>An aid to determine the deadlock occurrence is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>resource allocation graph</p>",
+            "<b>B.</b> <p>starvation graph</p>",
+            "<b>C.</b> <p>inversion graph</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>resource allocation graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331251/isro2020-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Dispatch latency is defined as <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the speed of dispatching a process from running to the ready state</p>",
+            "<b>B.</b> <p>the time of dispatching a process from running to ready state and keeping the CPU idle</p>",
+            "<b>C.</b> <p>the time to stop one process and start running another one</p>",
+            "<b>D.</b> <p>none of these</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the time to stop one process and start running another one</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331250/isro2020-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following algorithms defines time quantum? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>shortest job scheduling algorithm</p>",
+            "<b>B.</b> <p>round robin scheduling algorithm</p>",
+            "<b>C.</b> <p>priority scheduling algorithm</p>",
+            "<b>D.</b> <p>multilevel queue scheduling algorithm</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>round robin scheduling algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331249/isro2020-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - Double Integration",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Double Integration",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275549\"></a><div itemprop=\"text\"><p>The value of \\( \\int_1^2 \\int_0^{x^2} x \\: dy \\: dx \\) is:</p>\n\n</div><br><br><b>Others: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{15}{4} \\)</p>",
+            "<p>\\( \\frac{5}{4} \\)</p>",
+            "<p>\\( \\frac{3}{4} \\)</p>",
+            "<p>\\( \\frac{2}{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{15}{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275549/nielit-2018-15\" target=\"_blank\">https://gateoverflow.in/275549/nielit-2018-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

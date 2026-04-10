@@ -1,0 +1,71 @@
+{
+  "title": "Non GATE CSE - Digital Image Processing - Image Compression",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Image Compression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"64114\"></a><div itemprop=\"text\"><p>Which of the following is used for the boundary representation of an image object?</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | July 2016 | Part 3 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Quad Tree</p>",
+            "<p>Projections</p>",
+            "<p>Run length coding</p>",
+            "<p>Chain codes</p>"
+          ],
+          "correct_answer": "<p>Chain codes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64114/ugc-net-cse-july-2016-part-3-question-60\" target=\"_blank\">https://gateoverflow.in/64114/ugc-net-cse-july-2016-part-3-question-60</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"56091\"></a><div itemprop=\"text\"><p>In an image compression system 16384 bits are used to represent 256 \\( \\times \\) 256 image with 256 gray levels. What is the compression ratio for this system?</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | June 2012 | Part 3 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1</p>",
+            "<p>2</p>",
+            "<p>4</p>",
+            "<p>8</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56091/ugc-net-cse-june-2012-part-3-question-10\" target=\"_blank\">https://gateoverflow.in/56091/ugc-net-cse-june-2012-part-3-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"56103\"></a><div itemprop=\"text\"><p>The quantiser in an image-compression system is a</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | June 2012 | Part 3 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>lossy element which exploits the psychovisual redundancy</p>",
+            "<p>lossless element which exploits the psychovisual redundancy</p>",
+            "<p>lossy element which exploits the statistical redundancy</p>",
+            "<p>lossless element which exploits the statistical redundancy</p>"
+          ],
+          "correct_answer": "<p>lossy element which exploits the psychovisual redundancy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56103/ugc-net-cse-june-2012-part-3-question-19\" target=\"_blank\">https://gateoverflow.in/56103/ugc-net-cse-june-2012-part-3-question-19</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"57204\"></a><div itemprop=\"text\"><p>Given an image of size \\( 1024 \\times 1024 \\) pixels in which intensity of each pixel is an \\( 8 \\)-bit quality. It requires _______ of storage space if the image is not compressed.</p>\n\n</div><br><br><b>Digital Image Processing: UGC NET CSE | June 2014 | Part 3 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One Terabyte</p>",
+            "<p>One Megabyte</p>",
+            "<p>\\( 8 \\) Megabytes&nbsp;</p>",
+            "<p>\\( 8 \\) Terabytes&nbsp;</p>"
+          ],
+          "correct_answer": "<p>One Megabyte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57204/ugc-net-cse-june-2014-part-3-question-55\" target=\"_blank\">https://gateoverflow.in/57204/ugc-net-cse-june-2014-part-3-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

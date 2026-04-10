@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Tree Traversal",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Tree Traversal",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60975\"></a><div itemprop=\"text\"><p>Level order Traversal of a rooted Tree can be done by starting from root and performing:</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | Junet 2015 | Part 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Breadth First Search</p>",
+            "<p>Depth First Search</p>",
+            "<p>Root Search</p>",
+            "<p>Deep Search</p>"
+          ],
+          "correct_answer": "<p>Breadth First Search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60975/ugc-net-cse-junet-2015-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/60975/ugc-net-cse-junet-2015-part-2-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+});

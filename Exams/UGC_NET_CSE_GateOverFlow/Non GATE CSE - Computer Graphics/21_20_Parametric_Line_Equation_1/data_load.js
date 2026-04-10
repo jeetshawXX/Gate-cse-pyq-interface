@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Computer Graphics - Parametric Line Equation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Parametric Line Equation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"59934\"></a><div itemprop=\"text\"><p>The parametric representation of the line segment between the position vectors \\( P_1(2,3) \\) and \\( P_2(5,4) \\) is given as</p>\n\n</div><br><br><b>Computer Graphics: UGC NET CSE | September 2013 | Part 3 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x(t) = 2+ 7t, y(t)=0 \\leq t \\leq \\infty \\quad 3+7t \\)</p>",
+            "<p>\\( x(t) = 2+ 10t, y(t)=0 \\leq t \\leq 1 \\quad 3+7t \\)</p>",
+            "<p>\\( x(t) = 2+ 3t, y(t)=0 \\leq t \\leq 1 \\quad y(t)=3+t \\)</p>",
+            "<p>\\( t(x,y)=14t \\quad 0 \\leq t \\leq 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x(t) = 2+ 3t, y(t)=0 \\leq t \\leq 1 \\quad y(t)=3+t \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59934/ugc-net-cse-september-2013-part-3-question-63\" target=\"_blank\">https://gateoverflow.in/59934/ugc-net-cse-september-2013-part-3-question-63</a></p>"
+        }
+      ]
+    }
+  ]
+});

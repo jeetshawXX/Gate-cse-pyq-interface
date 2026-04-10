@@ -1,0 +1,116 @@
+{
+  "title": "Numerical_Method - Numerical_Method - Slot 1",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Numerical_Method",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Using Newton-Raphson method, a root correct to 3 decimal places of  \\(x^{3}-3 x-5=0\\) <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.222</p>",
+            "<b>B.</b> <p>2.275</p>",
+            "<b>C.</b> <p>2.279</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2.279</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128599/isro2017-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the sum to infinity of the series,<br>\\(3+6 x^{2}+9 x^{4}+12 x^{6}+\\ldots \\text { given }|x| \\lt 1\\) <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{3}{(1+x^{2})}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3}{(1+x^{2})^{2}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{3}{(1-x^{2})^{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{3}{(1-x^{2})}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{3}{(1-x^{2})^{2}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55594/isro2016-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The Guass-Seidal iterative method can be used to solve which of the following sets? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Linear algebraic equations</p>",
+            "<b>B.</b> <p>Linear and non-linear algebraic equations</p>",
+            "<b>C.</b> <p>Linear differential equations</p>",
+            "<b>D.</b> <p>Linear and non-linear differential equations</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Linear algebraic equations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44158/isro-2013-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Given <br>\nX:\t0\t10\t16<br>\nY:\t6\t16\t28<br>\nThe interpolated value X=4 using piecewise linear interpolation is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>22</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52809/isro2011-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the polynomial \\(p(x) = a_0 + a_1x + a_2x^2 + a_3x^3\\) , where \\(a_i \\neq 0, \\forall i\\). The minimum number of multiplications needed to evaluate p on an input x is: <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/792/gate2006-1-isro2009-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The formula \\(P_k = y_0 + k \\triangledown y_0+ \\frac{k(k+1)}{2} \\triangledown ^2 y_0 + \\dots + \\frac{k \\dots (k+n-1)}{n!} \\triangledown ^n y_0\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Newton's backward formula</p>",
+            "<b>B.</b> <p>Gauss forward formula</p>",
+            "<b>C.</b> <p>Gauss backward formula</p>",
+            "<b>D.</b> <p>Stirling's formula</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Newton's backward formula</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50482/isro2009-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A root \\(\\alpha\\) of equation \\(f(x)=0\\) can be computed to any degree of accuracy if a 'good' initial approximation \\(x_0\\) is chosen for which <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(x_0) \\gt 0\\)</p>",
+            "<b>B.</b> <p>\\(f (x_0) f''(x_0) \\gt 0\\)</p>",
+            "<b>C.</b> <p>\\(f(x_0) f'' (x_0) \\lt 0\\)</p>",
+            "<b>D.</b> <p>\\(f''(x_0) \\gt 0\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(x_0) \\gt 0\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48069/isro2009-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

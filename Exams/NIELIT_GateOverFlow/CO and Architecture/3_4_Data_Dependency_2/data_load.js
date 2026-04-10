@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Data Dependency",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Data Dependency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336927\"></a><div itemprop=\"text\"><p>Which of the following is a desirable property of module?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Independency</p>",
+            "<p>Low cohesiveness</p>",
+            "<p>High Coupling</p>",
+            "<p>Multifunctional</p>"
+          ],
+          "correct_answer": "<p>Independency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336927/nielit-2017-oct-scientific-assistant-a-cs-section-c-5\" target=\"_blank\">https://gateoverflow.in/336927/nielit-2017-oct-scientific-assistant-a-cs-section-c-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336975\"></a><div itemprop=\"text\"><p>Which of the following is a desirable property of module?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Independency</p>",
+            "<p>Low cohesiveness</p>",
+            "<p>High Coupling</p>",
+            "<p>Multifunctional</p>"
+          ],
+          "correct_answer": "<p>Independency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336975/nielit-2017-oct-scientific-assistant-a-it-section-b-10\" target=\"_blank\">https://gateoverflow.in/336975/nielit-2017-oct-scientific-assistant-a-it-section-b-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

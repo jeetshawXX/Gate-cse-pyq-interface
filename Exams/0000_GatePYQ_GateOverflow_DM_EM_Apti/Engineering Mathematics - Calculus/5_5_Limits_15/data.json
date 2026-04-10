@@ -1,0 +1,196 @@
+{
+  "title": "Engineering Mathematics - Calculus - Limits",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Limits",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"605\"></a><div itemprop=\"text\">\\( \\displaystyle \\lim_{x \\to 0} \\frac{x(e^x - 1) + 2(\\cos x -1)}{x(1 - \\cos x)} \\) is __________</div><br><br><b>GATE CSE 1993 | Question: 02.1</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/605/gate-cse-1993-question-02-1\" target=\"_blank\">https://gateoverflow.in/605/gate-cse-1993-question-02-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"359942\"></a><div itemprop=\"text\">Compute without using power series expansion \\( \\displaystyle \\lim_{x \\to 0} \\frac{\\sin x}{x}. \\)</div><br><br><b>GATE CSE 1995 | Question: 7(B)</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359942/gate-cse-1995-question-7-b\" target=\"_blank\">https://gateoverflow.in/359942/gate-cse-1995-question-7-b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"399\"></a><div itemprop=\"text\"><p>\\( \\displaystyle \\lim_{x \\to \\infty}\\frac{x-\\sin x}{x+\\cos x} \\) equals</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( \\infty \\)</p>",
+            "<p>\\( -\\infty \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399/gate-cse-2008-question-1\" target=\"_blank\">https://gateoverflow.in/399/gate-cse-2008-question-1</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1151\"></a><div itemprop=\"text\"><p>What is the value of \\(  \\displaystyle\\lim_{n \\to \\infty}\\left(1 - \\frac{1}{n}\\right)^{2n} \\) ?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( e^{-2} \\)</p>",
+            "<p>\\( e^{-1/2} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( e^{-2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1151/gate-cse-2010-question-5\" target=\"_blank\">https://gateoverflow.in/1151/gate-cse-2010-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"8021\"></a><div itemprop=\"text\"><p>\\( \\displaystyle \\lim_{x\\rightarrow \\infty } x^{ \\tfrac{1}{x}} \\) is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\infty&nbsp; \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>Not defined</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8021/gate-cse-2015-set-1-question-4\" target=\"_blank\">https://gateoverflow.in/8021/gate-cse-2015-set-1-question-4</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"8403\"></a><div itemprop=\"text\"><p>The value of \\( \\displaystyle \\lim_{x \\rightarrow \\infty} (1+x^2)^{e^{-x}} \\) is</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\infty \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8403/gate-cse-2015-set-3-question-9\" target=\"_blank\">https://gateoverflow.in/8403/gate-cse-2015-set-3-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"39630\"></a><div itemprop=\"text\">\\[ \\lim _{x\\rightarrow 4}\\frac{\\sin(x-4)}{x-4}=\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ \\]</div><br><br><b>GATE CSE 2016 Set 1 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39630/gate-cse-2016-set-1-question-3\" target=\"_blank\">https://gateoverflow.in/39630/gate-cse-2016-set-1-question-3</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"118309\"></a><div itemprop=\"text\"><p>The value of \\( \\displaystyle \\lim_{x\\rightarrow 1} \\frac{x^{7}-2x^{5}+1}{x^{3}-3x^{2}+2} \\)</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is \\( 0 \\)</p>",
+            "<p>is \\( -1 \\)</p>",
+            "<p>is \\( 1 \\)</p>",
+            "<p>does not exist</p>"
+          ],
+          "correct_answer": "<p>is \\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118309/gate-cse-2017-set-1-question-28\" target=\"_blank\">https://gateoverflow.in/118309/gate-cse-2017-set-1-question-28</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"302835\"></a><div itemprop=\"text\"><p>Compute \\( \\displaystyle \\lim_{x \\rightarrow 3} \\frac{x^4-81}{2x^2-5x-3} \\)</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 53/12 \\)</p>",
+            "<p>\\( 108/7 \\)</p>",
+            "<p>Limit does not exist</p>"
+          ],
+          "correct_answer": "<p>\\( 108/7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302835/gate-cse-2019-question-13\" target=\"_blank\">https://gateoverflow.in/302835/gate-cse-2019-question-13</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"357431\"></a><div itemprop=\"text\">Consider the following expression.\\[ \\displaystyle \\lim_{x\\rightarrow-3}\\frac{\\sqrt{2x+22}-4}{x+3} \\]The value of the above expression (rounded to 2 decimal places) is ___________.</div><br><br><b>GATE CSE 2021 Set 1 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.25:0.25",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20\" target=\"_blank\">https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"371912\"></a><div itemprop=\"text\">The value of the following limit is ________________.<br>\n<br>\n\\[ \\lim_{x \\rightarrow 0^{+}} \\frac{\\sqrt{x}}{1-e^{2\\sqrt{x}}} \\]</div><br><br><b>GATE CSE 2022 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371912/gate-cse-2022-question-24\" target=\"_blank\">https://gateoverflow.in/371912/gate-cse-2022-question-24</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"461000\"></a><div itemprop=\"text\">\\[ <br>\n\\lim _{t \\rightarrow+\\infty} \\sqrt{t^2+t}-t=<br>\n \\]<br>\n\\( \\qquad \\)<br>\n(Round off to one decimal place)<br>\n&nbsp;</div><br><br><b>GATE DA 2025 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5:0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461000/gate-da-2025-question-22\" target=\"_blank\">https://gateoverflow.in/461000/gate-da-2025-question-22</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"460973\"></a><div itemprop=\"text\">Let \\( f: \\mathbb{R} \\rightarrow \\mathbb{R} \\) be such that \\( |f(x)-f(y)| \\leq(x-y)^{2} \\) for all \\( x, y \\in \\mathbb{R} \\). Then \\( f(1)-f(0)= \\) __________ (Answer in integer)</div><br><br><b>GATE DA 2025 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0:0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460973/gate-da-2025-question-49\" target=\"_blank\">https://gateoverflow.in/460973/gate-da-2025-question-49</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"422912\"></a><div itemprop=\"text\">Evaluate the following limit:<br>\n\\[<br>\n\\lim _{x \\rightarrow 0} \\frac{\\ln \\left(\\left(x^{2}+1\\right) \\cos x\\right)}{x^{2}}=<br>\n\\]</div><br><br><b>GATE DS&AI 2024 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422912/gate-ds&ai-2024-question-50\" target=\"_blank\">https://gateoverflow.in/422912/gate-ds&ai-2024-question-50</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"413622\"></a><div itemprop=\"text\"><p>\\( \\lim _{x \\rightarrow 2} \\frac{\\sqrt{x}-\\sqrt{2}}{x-2} \\)</p></div><br><br><b>GATE Data Science and Artificial Intelligence  2024 | Sample Paper | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>\\( \\frac{1}{2 \\sqrt{2}} \\)</p>",
+            "<p>\\( \\frac{1}{\\sqrt{2}} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{2 \\sqrt{2}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/413622/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-5\" target=\"_blank\">https://gateoverflow.in/413622/gate-data-science-and-artificial-intelligence-2024-sample-paper-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

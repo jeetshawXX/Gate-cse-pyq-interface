@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Eigen Vector",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Eigen Vector",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337191\"></a><div itemprop=\"text\"><p>Consider three vectors \\( x=\\begin{bmatrix}1\\\\2&nbsp;\\end{bmatrix}, y=\\begin{bmatrix}4\\\\8&nbsp;\\end{bmatrix},z=\\begin{bmatrix}3\\\\1&nbsp;\\end{bmatrix} \\). Which of the folowing statements is true</p>\n\n</div><br><br><b>Linear Algebra: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x \\) and \\( y \\) are linearly independent</p>",
+            "<p>&nbsp;\\( x \\) and \\( y \\) are linearly dependent</p>",
+            "<p>&nbsp;\\( x \\) and \\( z \\) are linearly dependent</p>",
+            "<p>\\( y \\) and \\( z \\)&nbsp;are linearly dependent</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( x \\) and \\( y \\) are linearly dependent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337191/nielit-2016-mar-scientist-c-section-b-9\" target=\"_blank\">https://gateoverflow.in/337191/nielit-2016-mar-scientist-c-section-b-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

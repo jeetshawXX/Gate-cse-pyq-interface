@@ -1,0 +1,131 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Verbal Reasoning",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366848\"></a><div itemprop=\"text\"><p>Directions \\( (7-8) : \\) In the given questions below, a statement is given followed by two conclusions numbered&nbsp;\\( \\text{I} \\) and&nbsp;\\( \\text{II} \\). You have to take the statement to be true. Read both the conclusions and decide which of the two or both follow from the given statement. Given answer \\( : \\)</p><p>The top management has asked the four managers either to resign by tomorrow or face the order of service termination. Three of them have resigned till this very evening.</p><ol start=\"1\" style=\"list-style-type:upper-roman\"><li>The manager who did not resign yesterday will resign tomorrow.&nbsp;</li><li>The management will terminate the service of one manager.</li></ol></div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If only conclusion&nbsp;\\( \\text{I} \\) follows.</p>",
+            "<p>If only conclusion&nbsp;\\( \\text{II} \\)&nbsp;follows.</p>",
+            "<p>If either&nbsp;\\( \\text{I} \\) or&nbsp;\\( \\text{II} \\) follows.</p>",
+            "<p>If neither&nbsp;\\( \\text{I} \\) nor&nbsp;\\( \\text{II} \\) follows.</p>"
+          ],
+          "correct_answer": "<p>If either&nbsp;\\( \\text{I} \\) or&nbsp;\\( \\text{II} \\) follows.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366848/nielit-2021-dec-scientist-b-section-a-7\" target=\"_blank\">https://gateoverflow.in/366848/nielit-2021-dec-scientist-b-section-a-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366846\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Directions \\( (9-13) : \\) Read the information given below and on the basis of the information, select the correct alternative for each question given after the information.</p>\n\n<p>There are five persons \\( \\text{P, Q, R, S} \\) and \\( \\text{T}. \\) One is football player, one is chess player, one is hockey player. \\( \\text{P} \\) and \\( \\text{S} \\) are unmarried ladies and do not participate in any game. None of the ladies plays chess or football. There is a married couple in which \\( \\text{T} \\) is the husband. \\( \\text{Q} \\) is the brother of \\( \\text{R} \\) and is neither a chess player nor a hockey player.</p>\n\n<p>&nbsp;</p>\n\n<p>Which of the following is the correct group of ladies \\( ? \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P, Q} \\) and \\( \\text{R} \\)</p>",
+            "<p>\\( \\text{Q, R} \\) and \\( \\text{S} \\)</p>",
+            "<p>\\( \\text{P, Q} \\) and \\( \\text{S} \\)</p>",
+            "<p>\\( \\text{P, R} \\) and \\( \\text{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{P, R} \\) and \\( \\text{S} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366846/nielit-2021-dec-scientist-b-section-a-9\" target=\"_blank\">https://gateoverflow.in/366846/nielit-2021-dec-scientist-b-section-a-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373708\"></a><div itemprop=\"text\"><p>Which of the following will be changed form of the word \\( \\text{“OBLIQUE”} \\) when the word is written again by substituting each vowel by the second letter following it in the English alphabet and substituting each consonant by the third letter following it in the English alphabet?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{MEDGTSD} \\)</p>",
+            "<p>\\( \\text{QEOKTXG} \\)</p>",
+            "<p>\\( \\text{QEOKTWG} \\)</p>",
+            "<p>\\( \\text{RDNLSXH} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{QEOKTWG} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373708/nielit-2022-april-scientist-b-section-a-question-10\" target=\"_blank\">https://gateoverflow.in/373708/nielit-2022-april-scientist-b-section-a-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411377\"></a><div itemprop=\"text\"><p>If in a certain language, \\( \\text{MADRAS} \\) is coded as \\( \\text{NBESBT} \\), how is \\( \\text{BOMBAY} \\) coded in that code?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{CPNCBX} \\)</p>",
+            "<p>\\( \\mathrm{CPNCBZ} \\)</p>",
+            "<p>\\( \\mathrm{CPOCBZ} \\)</p>",
+            "<p>\\( \\mathrm{CQOCBZ} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{CPNCBZ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411377/nielit-2023-feb-scientist-c-section-a-question-22\" target=\"_blank\">https://gateoverflow.in/411377/nielit-2023-feb-scientist-c-section-a-question-22</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411371\"></a><div itemprop=\"text\"><p>Directions: \\( (28-29) \\) In each of the following letter series, some of the letters are missing which are given in that order as one of the alternatives below it. Choose the correct alternative.</p>\n\n<p>\\( \\text{_zy_zxy_yxzx_zyx_xy} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{yxzyz} \\)</p>",
+            "<p>\\( \\text{zxyzy} \\)</p>",
+            "<p>\\( \\text{yzxyx} \\)</p>",
+            "<p>\\( \\text{xyzzy} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{yxzyz} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411371/nielit-2023-feb-scientist-c-section-a-question-28\" target=\"_blank\">https://gateoverflow.in/411371/nielit-2023-feb-scientist-c-section-a-question-28</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"410574\"></a><div itemprop=\"text\"><p>Directions <strong>(29-30)</strong>: In each question below is given a statement followed by two course of action numbered \\( \\text{(I)} \\) and \\( \\text{(II)} \\). You have to assume everything in the statement to be true and on the basis of the information given in the statement, decide which of the suggested course of action logically follow (s) for pursuing. Give answer as:</p>\n\n<p>(A) if only&nbsp;\\( \\text{(I)} \\)&nbsp;follows</p>\n\n<p>(B) if only \\( \\text{(I)} \\)&nbsp;follows</p>\n\n<p>(C) neither \\( \\text{(I)} \\)&nbsp;nor \\( \\text{(II)} \\)&nbsp;follows</p>\n\n<p>(D) if both \\( \\text{(I)} \\)&nbsp;&amp; \\( \\text{(II)} \\)&nbsp;follows</p>\n\n<p>Statement: There has been large number of cases of Internet hacking in the recent months creating panic among the internet users.<br>\nCourse of action :</p>\n\n<p>\\( \\text{(I)} \\): The government machinery should make an all out effort to nab those who are responsible and put them behind the bars.</p>\n\n<p>\\( \\text{(II)} \\): The internet users should be advised to stay away from using internet till the culprits are caught.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only \\( \\text{(I)} \\)&nbsp;follows</p>",
+            "<p>only \\( \\text{(II)} \\)&nbsp;follows</p>",
+            "<p>neither \\( \\text{(I)} \\)&nbsp;nor \\( \\text{(II)} \\)&nbsp;follows</p>",
+            "<p>both \\( \\text{(I)} \\)&nbsp;and \\( \\text{(II)} \\)&nbsp;follows\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>only \\( \\text{(I)} \\)&nbsp;follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410574/nielit-2023-feb-scientist-d-section-a-question-29\" target=\"_blank\">https://gateoverflow.in/410574/nielit-2023-feb-scientist-d-section-a-question-29</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"410573\"></a><div itemprop=\"text\"><p>Directions <strong>(29-30)</strong>: In each question below is given a statement followed by two course of action numbered \\( \\text{(I)} \\) and \\( \\text{(II)} \\). You have to assume everything in the statement to be true and on the basis of the information given in the statement, decide which of the suggested course of action logically follow (s) for pursuing. Give answer as:</p>\n\n<p>(A) if only&nbsp;\\( \\text{(I)} \\)&nbsp;follows</p>\n\n<p>(B) if only \\( \\text{(I)} \\)&nbsp;follows</p>\n\n<p>(C) neither \\( \\text{(I)} \\)&nbsp;nor \\( \\text{(II)} \\)&nbsp;follows</p>\n\n<p>(D) if both \\( \\text{(I)} \\)&nbsp;&amp; \\( \\text{(II)} \\)&nbsp;follows</p>\n\n<p>Statement: The cinema halls are incurring heavy losses these days as people prefer to watch movies in home on TV than to visit cinema hall.<br>\nCourse of action :</p>\n\n<p>\\( \\text{(I)} \\): The cinema halls should be demolished and residential multistory buildings should be constructed there.</p>\n\n<p>\\( \\text{(II)} \\): The cinema halls should be converted into shopping malls.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only \\( \\text{(I)} \\) follows</p>",
+            "<p>only \\( \\text{(II)} \\) follows</p>",
+            "<p>neither \\( \\text{(I)} \\) nor \\( \\text{(II)} \\) follows</p>",
+            "<p>both \\( \\text{(I)} \\) and \\( \\text{(II)} \\) follows\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>neither \\( \\text{(I)} \\) nor \\( \\text{(II)} \\) follows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410573/nielit-2023-feb-scientist-d-section-a-question-30\" target=\"_blank\">https://gateoverflow.in/410573/nielit-2023-feb-scientist-d-section-a-question-30</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"351660\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Number of letter repeated in the given word \\( ’MEASUREMENTS’ \\) are indicated in front of each alternative. Identify the correct alternative.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientist B 2020 November: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( M_2E_2A_2S_2U_1R_1N_1T_1 \\)</p>",
+            "<p>\\( M_2E_3A_1S_1U_2R_1N_2T_1 \\)</p>",
+            "<p>\\( M_2E_2A_1S_2U_1R_1N_1T_1 \\)</p>",
+            "<p>\\( M_2E_3A_1S_2U_1R_1N_1T_1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( M_2E_3A_1S_2U_1R_1N_1T_1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351660/nielit-scientist-b-2020-november-22\" target=\"_blank\">https://gateoverflow.in/351660/nielit-scientist-b-2020-november-22</a></p>"
+        }
+      ]
+    }
+  ]
+}

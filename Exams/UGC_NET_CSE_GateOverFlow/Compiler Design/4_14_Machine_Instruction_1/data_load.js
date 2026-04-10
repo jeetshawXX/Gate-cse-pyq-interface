@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Machine Instruction",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Machine Instruction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62320\"></a><div itemprop=\"text\"><p>What will be the hexadecimal value in the register \\( ax \\) (32-bit) after executing the following instructions?</p>\n\n<p>mov al, 15</p>\n\n<p>mov ah, 15</p>\n\n<p>xor al, al</p>\n\n<p>mov cl, 3</p>\n\n<p>shr ax, cl</p>\n\n\n\n</div><br><br><b>Compiler Design: UGC NET CSE | December 2015 | Part 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0F00 h</p>",
+            "<p>0F0F h</p>",
+            "<p>01E0 h</p>",
+            "<p>FFFF h</p>"
+          ],
+          "correct_answer": "<p>01E0 h</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62320/ugc-net-cse-december-2015-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/62320/ugc-net-cse-december-2015-part-2-question-42</a></p>"
+        }
+      ]
+    }
+  ]
+});

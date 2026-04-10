@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Group Theory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Group Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336648\"></a><div itemprop=\"text\"><p>Consider the set \\( S=\\{1,\\omega,\\omega&nbsp;^2​\\} \\), where \\( \\omega \\)&nbsp;and \\( \\omega^2​ \\) are cube roots of unity. If \\( * \\) denotes the multiplication operation, the structure \\( (S,*) \\) forms:</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A group</p>",
+            "<p>A ring</p>",
+            "<p>An integral domain</p>",
+            "<p>A field</p>"
+          ],
+          "correct_answer": "<p>A group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336648/nielit-2016-dec-scientist-b-it-section-b-21\" target=\"_blank\">https://gateoverflow.in/336648/nielit-2016-dec-scientist-b-it-section-b-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

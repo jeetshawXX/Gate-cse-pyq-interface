@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Numerical_Ability_–_CSE - Numerical_Ability_–_CSE - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Numerical_Ability_–_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In the given figure, PQRS is a square of side 2 cm and PLMN is a rectangle. The corner L of the rectangle is on the side QR. Side MN of the rectangle passes through the corner S of the square.<br> <br>What is the area (in \\(cm^{2} \\)) of the rectangle PLMN?<br><br>Note: The figure shown is representative. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q64_c1510185.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2 \\sqrt{2} \\)</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460442/gate-cse-2025-set-2-ga-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following options is correct for the given data in the table?\n<br>\n\\( \\begin{array}{|c|c|c|c|c|}\n\\hline\n\\text{Iteration} (i) &amp; 0 &amp; 1 &amp; 2 &amp; 3 \\\\\n\\hline\n\\text{Input} (I) &amp; 20 &amp; -4 &amp; 10 &amp; 15 \\\\\n\\hline\n\\text{Output} (X) &amp; 20 &amp; 16 &amp; 26 &amp; 41 \\\\\n\\hline\n\\text{Output} (Y) &amp; 20 &amp; -80 &amp; -800 &amp; -12000 \\\\\n\\hline\n\\end{array} \\) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X(i) = X(i - 1) + I(i);  \\quad Y(i) = Y(i - 1) I(i);   \\quad i &gt; 0 \\)</p>",
+            "<b>B.</b> <p>\\(X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) + I(i); \\quad i &gt; 0 \\)</p>",
+            "<b>C.</b> <p>\\(X(i) = X(i - 1) I(i); \\quad Y(i) = Y(i - 1) I(i); \\quad i &gt; 0 \\)</p>",
+            "<b>D.</b> <p>\\(X(i) = X(i - 1) + I(i); \\quad Y(i) = Y(i - 1) I(i ? 1); \\quad i &gt; 0 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X(i) = X(i - 1) + I(i);  \\quad Y(i) = Y(i - 1) I(i);   \\quad i &gt; 0 \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460443/gate-cse-2025-set-2-ga-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>If IMAGE and FIELD are coded as FHBNJ and EMFJG respectively then, which one among the given options is the most appropriate code for BEACH? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CEADP</p>",
+            "<b>B.</b> <p>IDBFC</p>",
+            "<b>C.</b> <p>JGIBC</p>",
+            "<b>D.</b> <p>IBCEC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IDBFC</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460444/gate-cse-2025-set-2-ga-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\(p_1 \\) and \\(p_2 \\) denote two arbitrary prime numbers. Which one of the following statements is correct for all values of \\(p_1 \\) and \\(p_2 \\)? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(p_1 + p_2 \\) is not a prime number.</p>",
+            "<b>B.</b> <p>\\(p_1 p_2 \\) is not a prime number.</p>",
+            "<b>C.</b> <p>\\(p_1 + p_2 + 1 \\) is a prime number.</p>",
+            "<b>D.</b> <p>\\(p_1 p_2 + 1 \\) is a prime number.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(p_1 p_2 \\) is not a prime number.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460446/gate-cse-2025-set-2-ga-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>If \\(Pe^{x} = Q e^{-x} \\) for all real values of \\(x \\), which one of the following statements is true? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P = Q = 0 \\)</p>",
+            "<b>B.</b> <p>\\(P = Q = 1 \\)</p>",
+            "<b>C.</b> <p>\\(P = 1 \\);  \\(Q = -1 \\)</p>",
+            "<b>D.</b> <p>\\(\\frac{P}{Q} = 0 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(P = Q = 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460448/gate-cse-2025-set-2-ga-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A shop has 4 distinct flavors of ice-cream. One can purchase any number of scoops of any flavor. The order in which the scoops are purchased is inconsequential.\nIf one wants to purchase 3 scoops of ice-cream, in how many ways can one make that purchase? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>48</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460091/gate-cse-2025-set-1-ga-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A fair six-faced dice, with the faces labelled '1', '2', '3', '4', '5', and '6', is rolled thrice. What is the probability of rolling '6' exactly once? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{75}{216}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{18}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{25}{216}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{75}{216}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460093/gate-cse-2025-set-1-ga-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the triangle PST to the area of the trapezium SQRT?\n<br>Note: The figure shown is representative.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q62_858ed1aa.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{3}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{4}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{2}{5}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{3}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460094/gate-cse-2025-set-1-ga-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The average marks obtained by a class in an examination were calculated as 30.8. However, while checking the marks entered, the teacher found that the marks of one student were entered incorrectly as 24 instead of 42. After correcting the marks, the average becomes 31.4. How many students does the class have? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25</p>",
+            "<b>B.</b> <p>28</p>",
+            "<b>C.</b> <p>30</p>",
+            "<b>D.</b> <p>32</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>30</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460098/gate-cse-2025-set-1-ga-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In the 4 x 4 array shown below, each cell of the first three rows has either a\ncross (X) or a number.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q65_f95e0861.webp\"><br>\nThe number in a cell represents the count of the immediate neighboring cells\n(left, right, top, bottom, diagonals) NOT having a cross (X). Given that the last row\nhas no crosses (X), the sum of the four numbers to be filled in the last row is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422897/gate-cse-2024-set-2-ga-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A cube is to be cut into 8 pieces of equal size and shape. Here, each cut should be\nstraight and it should not stop till it reaches the other end of the cube.<br>\nThe minimum number of such cuts required is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422898/gate-cse-2024-set-2-ga-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The pie charts depict the shares of various power generation technologies in the\ntotal electricity generation of a country for the years 2007 and 2023.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Numerical_Ability_–_CSE\\q63_e902d47d.webp\"><br>\nThe renewable sources of electricity generation consist of Hydro, Solar and Wind.\nAssuming that the total electricity generated remains the same from 2007 to 2023,\nwhat is the percentage increase in the share of the renewable sources of electricity\ngeneration over this period? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25%</p>",
+            "<b>B.</b> <p>50%</p>",
+            "<b>C.</b> <p>77.50%</p>",
+            "<b>D.</b> <p>62.50%</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>62.50%</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422899/gate-cse-2024-set-2-ga-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A person sold two different items at the same price. He made 10% profit in one\nitem, and 10% loss in the other item. In selling these two items, the person made a\ntotal of <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1% profit</p>",
+            "<b>B.</b> <p>2% profit</p>",
+            "<b>C.</b> <p>1% loss</p>",
+            "<b>D.</b> <p>2% loss</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1% loss</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422900/gate-cse-2024-set-2-ga-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In the sequence 6, 9, 14, x, 30, 41, a possible value of x is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25</p>",
+            "<b>B.</b> <p>21</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>21</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422902/gate-cse-2024-set-2-ga-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>For positive non-zero real variables \\(x \\) and  \\(y \\), if\n<br><br> \\(\n\\ln \\left(\\frac{x+y}{2}\\right)=\\frac{1}{2}[\\ln (x)+\\ln (y)]\n\\) <br><br>\nthen, the value of  \\(\\frac{x}{y}+\\frac{y}{x} \\) is <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>1/2</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422903/gate-cse-2024-set-2-ga-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

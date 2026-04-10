@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 13",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let f(A,B) = A' + B. Simplified expression for function f(f(x+y,y),z) is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x' + z</p>",
+            "<b>B.</b> <p>xyz</p>",
+            "<b>C.</b> <p>xy' + z</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>xy' + z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/833/gate2002-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following multiplexor where I0,I1,I2,I3 are four data input lines\nselected by two address line combinations A1A0 = 00,01,10,11 respectively and\nf is the output of the multiplexor. EN is the Enable input. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q27_4b0295b7.jpg\"> <br>The function f (x,y,z) implemented by the above circuit is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>xyz'</p>",
+            "<b>B.</b> <p>xy + z</p>",
+            "<b>C.</b> <p>x + y</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>xyz'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/832/gate2002-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following logic circuit whose inputs are functions f1, f2, f3 and output\nis f <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q26_d435cff8.jpg\"> <br> Given that\n<br><br>\nf1(x, y, z) = \\(\\Sigma\\)(0, 1, 3, 5), <br>\nf2(x, y, z) = \\(\\Sigma\\)(6, 7) and <br>\nf(x, y, z) = \\(\\Sigma\\)(1, 4, 5),<br>\n<br><br>\nf3 is : <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Sigma\\) (1,4,5)</p>",
+            "<b>B.</b> <p>\\(\\Sigma\\) (6,7)</p>",
+            "<b>C.</b> <p>\\(\\Sigma\\) (0,1,3,5)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Sigma\\) (1,4,5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/831/gate2002-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In 2's complement addition, overflow <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is flagged whenever there is carry from sign bit addition</p>",
+            "<b>B.</b> <p>cannot occur when a positive value is added to a negative value</p>",
+            "<b>C.</b> <p>is flagged when the carries from sign bit and previous bit match</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>cannot occur when a positive value is added to a negative value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/826/gate2002-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Sign extension is a step in <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>floating point multiplication</p>",
+            "<b>B.</b> <p>signed 16 bit integer addition</p>",
+            "<b>C.</b> <p>arithmetic left shift</p>",
+            "<b>D.</b> <p>converting a signed integer from one size to another.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>converting a signed integer from one size to another.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/821/gate2002-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The 2's complement represent representation of the decimal value -15 is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111</p>",
+            "<b>B.</b> <p>11111</p>",
+            "<b>C.</b> <p>111111</p>",
+            "<b>D.</b> <p>10001</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10001</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/819/gate2002-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The decimal value of 0.25 <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is equivalent to the binary value 0.1</p>",
+            "<b>B.</b> <p>is equivalent to the binary value 0.01</p>",
+            "<b>C.</b> <p>is equivalent to the binary value 0.00111.....</p>",
+            "<b>D.</b> <p>cannot be represented precisely in binary.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>is equivalent to the binary value 0.01</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/818/gate2002-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Minimum sum of product expression for f (w,x,y,z) shown in Karnaugh-map\nbelow is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q12_63e58d40.jpg\"> <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>xz + y'z</p>",
+            "<b>B.</b> <p>xz'+zx'</p>",
+            "<b>C.</b> <p>x'y+zx'</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>xz'+zx'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/816/gate2002-1-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the values of \\(A = 2.0 \\times 10^{30}, B = -2.0 \\times 10^{30}, C = 1.0\\), and the sequence <br><pre><code> X:= A + B          Y:= A + C   \n X:= X + C          Y:= Y + B</code></pre> <br>\nexecuted on a computer where floating point numbers are represented with 32 bits. The values for X and Y will be <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X = 1.0, Y = 1.0</p>",
+            "<b>B.</b> <p>X = 1.0, Y = 0.0</p>",
+            "<b>C.</b> <p>X = 0.0, Y = 1.0</p>",
+            "<b>D.</b> <p>X = 0.0, Y = 0.0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X = 1.0, Y = 0.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/661/gate2000-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The following arrangement of master-slave flip flops<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q2.12_fdfc937b.jpg\"><br> has the initial state of P, Q as 0, 1 (respectively). After three clock cycles the output state P, Q is (respectively), <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 0</p>",
+            "<b>B.</b> <p>1, 1</p>",
+            "<b>C.</b> <p>0, 0</p>",
+            "<b>D.</b> <p>0, 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/659/gate2000-2-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which functions does NOT implement the Karnaugh map given below?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q2.11_00e62539.jpg\"><br> <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(w + x) y</p>",
+            "<b>B.</b> <p>xy + yw</p>",
+            "<b>C.</b> <p>\\((w + x) (\\bar{w} + y) (\\bar{x} + y)\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/658/gate2000-2-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The simultaneous equations on the Boolean variables x, y, z and w,<br>\nx + y + z = 1<br>\nxy = 0<br>\nxz + w = 1<br>\n\\(xy + \\bar{z}\\bar{w} = 0\\)<br>\nhave the following solution for x, y, z and w, respectively: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 1 0 0</p>",
+            "<b>B.</b> <p>1 1 0 1</p>",
+            "<b>C.</b> <p>1 0 1 1</p>",
+            "<b>D.</b> <p>1 0 0 0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 0 1 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/657/gate2000-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The number 43 in 2's complement representation is <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(01010101\\)</p>",
+            "<b>B.</b> <p>11010101</p>",
+            "<b>C.</b> <p>\\(00101011\\)</p>",
+            "<b>D.</b> <p>10101011</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(00101011\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/629/gate2000-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Zero has two representations in: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sign-magnitude</p>",
+            "<b>B.</b> <p>2's  complement</p>",
+            "<b>C.</b> <p>1's  complement</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sign-magnitude</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1495/gate1999-2-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number of full and half-adders required to add 16-bit numbers is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 half-adders, 8 full-adders</p>",
+            "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+            "<b>C.</b> <p>16 half-adders, 0 full-adders</p>",
+            "<b>D.</b> <p>4 half-adders, 12 full-adders</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1494/gate1999-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

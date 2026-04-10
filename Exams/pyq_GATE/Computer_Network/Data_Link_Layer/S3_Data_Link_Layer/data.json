@@ -1,0 +1,226 @@
+{
+  "title": "Data_Link_Layer - Data_Link_Layer - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Link_Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a selective repeat sliding window protocol that uses a frame size of 1 KB to send\ndata on a 1.5 Mbps link with a one-way latency of 50 msec. To achieve a link utilization of\n60%, the minimum number of bits required to represent the sequence number field is ________. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1795/gate2014-1-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a token ring network with a length of 2km having 10 stations including a monitoring station. The propagation speed of the signal is 2x\\(10^{8}\\) m/s and the token transmission time is ignored. If each station is allowed to hold the token for 2 \\(\\mu\\)sec, the minimum time for which the monitoring station should wait (in \\(\\mu\\)sec) before assuming that the token is lost is _______. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "28",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1793/gate2014-1-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Determine the maximum length of the cable (in km) for transmitting data at a rate of 500 Mbps in\nan Ethernet LAN with frames of size 10,000 bits. Assume the signal speed in the cable to be\n2,00,000 km/s. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>2.5</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1547/gate2013-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider a source computer (S) transmitting a file of size \\(10^{6}\\) bits to a destination computer (D)\nover a network of two routers (R1 and R2) and three links (L1, L2, and L3). L1 connects S to R1; L2\nconnects R1 to R2; and L3 connects R2 to D. Let each link be of length 100 km. Assume signals\ntravel over each link at a speed of \\(10^{8}\\) meters per second. Assume that the link bandwidth on each\nlink is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total\nsum of transmission and propagation delays in transmitting the file from S to D? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1005 ms</p>",
+            "<b>B.</b> <p>1010 ms</p>",
+            "<b>C.</b> <p>3000 ms</p>",
+            "<b>D.</b> <p>3003 ms</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1005 ms</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2153/gate2012-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^{6}\\) bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br> Suppose that the sliding window protocol is used with the sender window size of\n\\(2^{I}\\), where l is the number of bits identified in the earlier part and\nacknowledgements are always piggy backed. After sending \\(2^{I}\\) frames, what is the\nminimum time the sender will have to wait before starting transmission of the\nnext frame? (Identify the closest choice ignoring the frame processing time.) <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16ms</p>",
+            "<b>B.</b> <p>18ms</p>",
+            "<b>C.</b> <p>20ms</p>",
+            "<b>D.</b> <p>22ms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>20ms</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43470/gate2009-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^{6}\\) bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br>  What is the minimum number of bits (l) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames. <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>l=2</p>",
+            "<b>B.</b> <p>l=3</p>",
+            "<b>C.</b> <p>l=4</p>",
+            "<b>D.</b> <p>l=5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>l=5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1340/gate2009-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let G(x) be the generator polynomial used for CRC checking. What is the\ncondition that should be satisfied by G(x) to detect odd number of bits in error? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G(x) contains more than two terms</p>",
+            "<b>B.</b> <p>G(x) does not divide \\(1+x^{k}\\), for any k not exceeding the frame length</p>",
+            "<b>C.</b> <p>1+x is a factor of G(x)</p>",
+            "<b>D.</b> <p>G(x) has an odd number of terms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1+x is a factor of G(x)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1334/gate2009-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Data transmitted on a link uses the following 2D parity scheme for error detection:\nEach sequence of 28 bits is arranged in a \\(4\\times 7\\) matrix (rows \\(r_{0}\\) through \\(r_{3}\\), and columns \\(d_{7}\\)  through \\(d_{1}\\)) and is padded with a column \\(d_{0}\\) and row \\(r_{4}\\) of parity bits computed using the Even parity scheme. Each bit of column \\(d_{0}\\) (respectively, row \\(r_{4}\\)) gives the parity of the corresponding row (respectively, column). These 40 bits are transmitted over the data link.<br><br>\\(\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline &amp; \\mathbf{d}_{\\mathbf{7}} &amp; \\mathbf{d}_{\\mathbf{6}} &amp; \\mathbf{d}_{\\mathbf{5}} &amp; \\mathbf{d}_{\\mathbf{4}} &amp; \\mathbf{d}_{\\mathbf{3}} &amp; \\mathbf{d}_{\\mathbf{2}} &amp; \\mathbf{d}_{\\mathbf{1}} &amp; \\mathbf{d}_{\\mathbf{0}} \\\\ \\hline \\mathbf{r}_{\\mathbf{0}} &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; \\mathbf{1} \\\\ \\hline \\mathbf{r}_{\\mathbf{1}} &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{2}} &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{3}} &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{4}} &amp; \\mathbf{1} &amp; \\mathbf{1} &amp; \\mathbf{0} &amp; \\mathbf{0} &amp; \\mathbf{0} &amp; \\mathbf{1} &amp; \\mathbf{1} &amp; \\mathbf{0} \\\\ \\hline \\end{array}\\)<br><br>The table shows data received by a receiver and has n corrupted bits. What is the minimum possible value of n? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3380/gate2008-it-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The minimum frame size required for a CSMA/CD based computer network running at 1Gbps on a 200m cable with a link speed of \\(2\\times 10^{8} m / sec\\) is: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125bytes</p>",
+            "<b>B.</b> <p>250bytes</p>",
+            "<b>C.</b> <p>500bytes</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>250bytes</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3376/gate2008-it-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A 1 Mbps satellite link connects two ground stations. The altitude of the satellite is 36,504 km and speed of the signal is \\(3 \\times 10^8\\)m/s. What should be the packet size for a channel utilization of 25% for a satellite link using go-back-127 sliding window protocol?<br> Assume that the acknowledgment packets are negligible in size and that there are no errors during communication. <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>120 bytes</p>",
+            "<b>B.</b> <p>60 bytes</p>",
+            "<b>C.</b> <p>240 bytes</p>",
+            "<b>D.</b> <p>90 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>120 bytes</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3375/gate2008-it-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A computer on a 10Mbps network is regulated by a token bucket. The token\nbucket is filled at a rate of 2Mbps. It is initially filled to capacity with 16Megabits.\nWhat is the maximum duration for which the computer can transmit at the full 10Mbps? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.6 seconds</p>",
+            "<b>B.</b> <p>2 seconds</p>",
+            "<b>C.</b> <p>5 seconds</p>",
+            "<b>D.</b> <p>8 seconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 seconds</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/481/gate2008-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a token ring topology with N stations (numbered 1 to N) running token ring protocol where the stations are equally spaced. When a station gets the token it is allowed to send one frame of fixed size. Ring latency is \\(t_{p}\\), while the transmission time of a frame is \\(t_{t}\\). All other latencies can be neglected. <br>The maximum utilization of the token ring when \\(t_{t}\\) = 5 ms, \\(t_{p}\\) = 3 ms, N = 15 is: <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.545</p>",
+            "<b>B.</b> <p>0.655</p>",
+            "<b>C.</b> <p>0.9375</p>",
+            "<b>D.</b> <p>0.961</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0.961</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3527/gate2007-it-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a token ring topology with N stations (numbered 1 to N) running token ring protocol where the stations are equally spaced. When a station gets the token it is allowed to send one frame of fixed size. Ring latency is \\(t_{p}\\), while the transmission time of a frame is \\(t_{t}\\). All other latencies can be neglected. <br>The maximum utilization of the token ring when \\(t_{t}\\) = 3 ms, \\(t_{p}\\) = 5 ms, N = 10 is: <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.545</p>",
+            "<b>B.</b> <p>0.6</p>",
+            "<b>C.</b> <p>0.857</p>",
+            "<b>D.</b> <p>0.961</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.857</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3526/gate2007-it-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A broadcast channel has 10 nodes and total capacity of 10 Mbps. It uses polling for medium access. Once a node finishes transmission, there is a polling delay of 80 \\(\\mu s\\) to poll the next node. Whenever a node is polled, it is allowed to transmit a maximum of 1000 bytes. The maximum throughput of the broadcast channel is: <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 Mbps</p>",
+            "<b>B.</b> <p>100/11 Mbps</p>",
+            "<b>C.</b> <p>10 Mbps</p>",
+            "<b>D.</b> <p>100 Mbps</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>100/11 Mbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3509/gate2007-it-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An error correcting code has the following code words: 00000000, 00001111, 01010101, 10101010, 11110000. What is the maximum number of bit errors that can be corrected? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3478/gate2007-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

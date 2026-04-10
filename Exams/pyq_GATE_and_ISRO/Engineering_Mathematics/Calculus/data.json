@@ -1,0 +1,957 @@
+{
+  "title": "Engineering_Mathematics - Calculus",
+  "duration": 186,
+  "sections": [
+    {
+      "name": "Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The value of \\(x \\) such that \\(x &gt; 1 \\), satisfying the equation\n\\(  \\int_{1}^{x}t \\ln t \\, dt = \\frac{1}{4} \\) is <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sqrt{e} \\)</p>",
+            "<b>B.</b> <p>\\(e \\)</p>",
+            "<b>C.</b> <p>\\(e^2 \\)</p>",
+            "<b>D.</b> <p>\\(e - 1 \\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\sqrt{e} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460833/gate-cse-2025-set-2-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the given function \\(f(x)\\).\n<br><br>\n\\(f(x) =\n\\begin{cases}\nax + b &amp; \\text{for } x &lt; 1 \\\\\nx^3 + x^2 + 1 &amp; \\text{for } x \\geq 1\n\\end{cases}\\)\n<br><br>\nIf the function is differentiable everywhere, the value of \\(b\\) must be ________. (rounded off to one decimal place) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-2.1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460059/gate-cse-2025-set-1-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the given system of linear equations for variables \\(x\\) and \\(y\\), where \\(k\\) is a real-valued constant. Which of the following option(s) is/are CORRECT?\n<br><br>\n\\(x + k y = 1\\)<br>\n\\(k x + y = -1\\) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>There is exactly one value of \\(k\\) for which the above system of equations has no solution.</p>",
+            "<b>B.</b> <p>There exist an infinite number of values of \\(k\\) for which the system of equations has no solution.</p>",
+            "<b>C.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has exactly one solution.</p>",
+            "<b>D.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has an infinite number of solutions.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>There is exactly one value of \\(k\\) for which the above system of equations has no solution.</p>",
+            "<b>D.</b> <p>There exists exactly one value of \\(k\\) for which the system of equations has an infinite number of solutions.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460067/gate-cse-2025-set-1-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let \\( f(x) \\) be a continuous function from \\( \\mathbb{R} \\) to \\( \\mathbb{R} \\) such that\n<br> \\(\nf(x)=1-f(2-x)\n\\) <br>\nWhich one of the following options is the CORRECT value of \\( \\int_0^2 f(x) d x \\) ? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( 0  \\)</p>",
+            "<b>B.</b> <p>\\( 1  \\)</p>",
+            "<b>C.</b> <p>\\( 2  \\)</p>",
+            "<b>D.</b> <p>\\( -1  \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\( 1  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422891/gate-cse-2024-set-2-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The value of the definite integral \\( \\int_{-3}^{3}  \\int_{-2}^{2}  \\int_{-1}^{1} (4x^2y-z^3)dzdydx\\) is _____. (Rounded off to the nearest integer) <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399290/gate-cse-2023-question-21#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(f(x)=x^3+15x^2-33x-36 \\) be a real-valued function.<br>\nWhich of the following statements is/are TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(f(x)\\) does not have a local maximum.</p>",
+            "<b>B.</b> <p>\\(f(x)\\)  has a local maximum.</p>",
+            "<b>C.</b> <p>\\(f(x)\\) does not have a local minimum.</p>",
+            "<b>D.</b> <p>\\(f(x)\\)  has a local minimum.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>\\(f(x)\\)  has a local maximum.</p>",
+            "<b>D.</b> <p>\\(f(x)\\)  has a local minimum.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399293/gate-cse-2023-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The value of the following limit is _____<br>\\( \\lim_{x  \\to 0+} \\frac{ \\sqrt{x}}{1-e^{2 \\sqrt{x}}}\\) <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-0.5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371912/Gate-cse-2022-question-24#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>For two n-dimensional real vectors \\(P\\) and \\(Q\\), the operation \\(s(P,Q)\\) is defined as follows:\n<br><br>\n\\(s(P,Q) = \\displaystyle \\sum_{i=1}^n (P[i] \\cdot Q[i])\\)\n<br><br>Let \\(\\mathcal{L}\\) be a set of 10-dimensional non-zero real vectors such that for every pair of distinct vectors \\(P,Q \\in \\mathcal{L}, s(P,Q)=0\\). What is the maximum cardinality possible for the set \\(\\mathcal{L}\\)? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>100</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357503/gate-cse-2021-set-2-question-37#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Suppose that \\(f: \\mathbb{R} \\rightarrow \\mathbb{R}\\) is a continuous function on the interval [-3,3] and a differentiable function in the interval (-3,3) such that for every \\(x\\) in the interval, \\(f'(x) \\leq 2\\). If \\(f(-3) =7\\), then \\(f(3) \\) is at most __________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357515/gate-cse-2021-set-2-question-25#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following expression.<br>\\(\\lim_{x\\rightarrow-3}\\frac{\\sqrt{2x+22}-4}{x+3}\\)\n<br>\nThe value of the above expression (rounded to 2 decimal places) is ___________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.25",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357431/gate-cse-2021-set-1-question-20#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the functions <br><br>I. \\(e^{-x}\\) <br>II. \\(x^2-\\sin x\\) <br>III. \\(\\sqrt{x^3+1}\\) <br> <br>\nWhich of the above functions is/are increasing everywhere in  [0,1] ? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>III only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I and III only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333230/gate2020-cs-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Compute \\(\\lim_{x \\to 3}\\frac{x^4-81}{2x^2-5x-3}\\) <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>53/12</p>",
+            "<b>C.</b> <p>108/7</p>",
+            "<b>D.</b> <p>Limit does not exist</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>108/7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302835/gate2019-cs-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The domain of the function \\(\\log (\\log \\sin (x))\\) is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0\\lt x \\lt \\pi\\)</p>",
+            "<b>B.</b> <p>\\(2 n \\pi \\lt x \\lt (2 n+1) \\pi\\), for n in N</p>",
+            "<b>C.</b> <p>Empty set</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Empty set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213573/isro2018-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The value of \\(\\int_{0}^{\\frac{\\pi }{4}}x\\cos (x^{2})dx\\) correct to three decimal places\n(assuming that \\(\\pi\\)  = 3.14 ) is <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.27",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204090/gate2018-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following is a closed form expression for the generating function of the sequence \\(\\left \\{ a_{n} \\right \\}\\), where \\(a_{n}=2n+3\\) for all n = 0, 1, 2,...? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{3}{(1-x)^{2}}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3x}{(1-x)^{2}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{2-x}{(1-x)^{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{3-x}{(1-x)^{2}}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{3-x}{(1-x)^{2}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204075/gate2018-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>If a random variable X has a Poisson distribution with mean 5, then the expectation \\(E[(X+2)^{2}]\\) equals ______________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "54",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118513/gate2017-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>If \\(f(x)=R sin(\\frac{\\pi x}{2})+S,f'(\\frac{1}{2})=\\sqrt{2}\\) and \\( \\int_{0}^{1}f(x)dx=\\frac{2R}{\\pi }\\), then the constants R and S are, respectively <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{2}{\\pi}\\) and \\( \\frac{16}{\\pi}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{2}{\\pi}\\) and 0</p>",
+            "<b>C.</b> <p>\\(\\frac{4}{\\pi}\\) and 0</p>",
+            "<b>D.</b> <p>\\(\\frac{4}{\\pi}\\) and \\( \\frac{16}{\\pi}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{4}{\\pi}\\) and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118262/gate2017-2-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Let u and v be two vectors in \\(R^{2}\\) whose Euclidean norms satisfy ||u||=2|| v|| . What is the value of \\(\\alpha\\) such that w=u+\\(\\alpha\\)v bisects the angle between u and v ? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>\\(1/2\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(-1/2\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118311/gate2017-1-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow 1}\\frac{x^{7}-2x^{5}+1}{x^{3}-3x^{2}+2}\\) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is 0</p>",
+            "<b>B.</b> <p>is -1</p>",
+            "<b>C.</b> <p>is 1</p>",
+            "<b>D.</b> <p>does not exist</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>is 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118309/gate2017-1-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>\\(\\lim_{x\\rightarrow 0}\\frac{\\sqrt{1+x}-\\sqrt{1-x}}{x}\\)  is given by <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>-1</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55595/isro2016-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Which one of the following well-formed formulae in predicate calculus is NOT valid? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\forall x p(x)\\Rightarrow \\forall xq(x))\\Rightarrow (\\exists x\\neg p(x) \\vee \\forall xq(x))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists xp(x)\\vee \\exists xq(x))\\Rightarrow \\exists x(p(x)\\vee  q(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x (p(x)\\wedge q(x)) \\Rightarrow (\\exists xp(x)\\wedge \\exists xq(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x (p(x)\\vee q(x))\\Rightarrow (\\forall x p(x) \\vee \\forall x q(x)) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39618/gate2016-2-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Let f(x) be a polynomial and g(x) = f'(x) be its derivative. If the degree of (f(x)+ f(-x)) is 10, then the degree of (g(x)-g(-x)) is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39571/gate2016-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>\\(\\lim_{x\\rightarrow 4}\\frac{sin(x-4)}{x-4}\\)=_________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39630/gate2016-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>If for non-zero  \\(x,af(x)+bf\\left ( \\frac{1}{x} \\right )=\\frac{1}{x}-25\\) where \\( a\\neq b\\)  then \\( \\int_{1}^{2}f(x)dx\\) is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)-\\frac{47b}{2}]\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)-\\frac{47b}{2}]\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8554/gate2015-3-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow \\infty }(1+x^{2})^{e^{-x}}\\) is <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\infty\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8403/gate2015-3-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Let \\(f(x)=x^{-(1/3)}\\) and A denote the area of the region bounded by f(x) and the x-axis, when x varies from -1 to 1. Which of the following statements is/are TRUE?<br>\nI) f is continuous in [-1,1] <br>\nII) f is not bounded in [-1,1] <br>\nIII) A is nonzero and finite <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I, II and III</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8124/gate2015-2-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>\\(\\int_{1/ \\pi }^{2/ \\pi}\\frac{cos(1/x)}{x^{2}}dx=\\)_________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8314/gate2015-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>\\(\\sum_{x=1}^{99}\\frac{1}{x(x+1)}\\)=__________ . <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.99",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8248/gate2015-1-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>\\(\\lim_{x\\rightarrow \\infty }x^{1/x}\\) is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\infty\\)</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>Not defined</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8021/gate2015-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>What is the median of data if its mode is 15 and the mean is 30? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>22.5</p>",
+            "<b>D.</b> <p>27.5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53902/isro2014-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>The value of the integral given below is <br> \\(\\int_{0}^{\\pi }x^{2}cosxdx\\) <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-2\\pi\\)</p>",
+            "<b>B.</b> <p>\\(\\pi\\)</p>",
+            "<b>C.</b> <p>\\(-\\pi\\)</p>",
+            "<b>D.</b> <p>\\(2\\pi\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(-2\\pi\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2081/gate2014-3-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>If \\(\\int_{0}^{2\\pi}|x sinx| dx=k \\pi\\), then the value of k is equal to _______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2040/gate2014-3-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>The function \\(f(x)=x sin x\\) satisfies the following equation: \\(f''(x)+f(x)+tcos x=0\\). The value of t is______. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-2",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1924/gate2014-1-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Let the function <br> \\(f(\\theta)=\\begin{vmatrix} sin\\theta &amp; cos\\theta &amp; tan\\theta \\\\ sin(\\frac{\\pi}{6}) &amp; cos(\\frac{\\pi}{6}) &amp; tan(\\frac{\\pi}{6})\\\\ sin(\\frac{\\pi}{3})&amp; cos(\\frac{\\pi}{3}) &amp; tan(\\frac{\\pi}{3}) \\end{vmatrix}\\) <br>  where \\(\\theta \\in [\\frac{\\pi}{6},\\frac{\\pi}{3}]\\) and \\(f'(\\theta )\\) denote the derivative of  f with respect to \\(\\theta\\) . Which of the following\nstatements is/are TRUE? <br>(I) There existrs \\(\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})\\) such that \\(f'(\\theta )=0\\) <br> (I) There existrs \\(\\theta \\in (\\frac{\\pi}{6},\\frac{\\pi}{3})\\) such that \\(f'(\\theta )\\neq 0\\) <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both I and II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1763/gate2014-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>What is the least value of the function \\(f(x) = 2x^{2}-8x-3\\) in the interval [0, 5]? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-15</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>-11</p>",
+            "<b>D.</b> <p>-3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>-11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44161/isro-2013-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Which one of the following functions is continuous at x = 3? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 2, &amp; if \\; x=3\\\\ x-1,&amp; if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&amp;if \\; x \\lt 3 \\end{matrix}\\right.\\)</p>",
+            "<b>B.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 4, &amp; if \\; x=3\\\\ 8-x&amp;if \\;  x\\neq 3 \\end{matrix}\\right.\\)</p>",
+            "<b>C.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} x+3, &amp; if  \\; x\\leq 3\\\\ x-4&amp;if \\; x \\gt  3 \\end{matrix}\\right.\\)</p>",
+            "<b>D.</b> <p>\\(f(x)=\\frac{1}{x^{3}-27}, if \\; x\\neq 3\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 2, &amp; if \\; x=3\\\\ x-1,&amp; if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&amp;if \\; x \\lt 3 \\end{matrix}\\right.\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1533/gate2013-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the function f(x)=sin(x) in the interval x \\(\\in [\\pi/4, 7\\pi/4]\\). The number and location(s) of the local minima of this function are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One, at \\(\\pi\\)/2</p>",
+            "<b>B.</b> <p>One, at 3\\(\\pi\\)/2</p>",
+            "<b>C.</b> <p>Two, at \\(\\pi\\)/2 and 3\\(\\pi\\)/2</p>",
+            "<b>D.</b> <p>Two, at \\(\\pi\\)/4 and 3\\(\\pi\\)/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Two, at \\(\\pi\\)/4 and 3\\(\\pi\\)/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/41/gate2012-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>n-th derivative of \\(x^n\\) is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(nx^{n-1}\\)</p>",
+            "<b>B.</b> <p>\\(n^n.n!\\)</p>",
+            "<b>C.</b> <p>\\(nx^n!\\)</p>",
+            "<b>D.</b> <p>n!</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n!</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52827/isro2011-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Given \\(i=\\sqrt{-1}\\), what will be the evaluation of the definite integral \\(\\int_{0}^{\\pi /2}\\frac{cosx + i sinx}{cosx -i sinx} dx\\)? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>i</p>",
+            "<b>D.</b> <p>\\(-i\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>i</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2133/gate2011-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>The weight of a sequence \\(a_{0},a_{1},...,a_{n-1}\\) of real numbers is defined as \\(a_{0}+a_{1}/2+...+a_{n-1}/2^{n-1}\\) A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements\nthe same. Let X denote the maximum possible weight of a subsequence of\n\\(a_{0},a_{1},...,a_{n-1}\\) and Y the maximum possible weight of a subsequence of \\(a_{0},a_{1},...,a_{n-1}\\). Then X is equal to <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(Y,\\(a_{0}\\)+Y)</p>",
+            "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+            "<b>C.</b> <p>max(Y,\\(a_{0}\\)+2Y)</p>",
+            "<b>D.</b> <p>\\(a_{0}\\)+Y/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2208/gate2010-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>What is the value of \\(\\lim_{n\\rightarrow \\infty }(1-\\frac{1}{n})^{2n}\\)? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(e^{-2}\\)</p>",
+            "<b>C.</b> <p>\\(e^{-1/2}\\)</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(e^{-2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1151/gate2010-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>The value of x at which y is minimum for \\(y=x^2 -3x +1\\) is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-3/2</p>",
+            "<b>B.</b> <p>3/2</p>",
+            "<b>C.</b> <p>0</p>",
+            "<b>D.</b> <p>-5/4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50479/isro2009-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>\\(x=a \\cos(t), y=b \\sin(t)\\) is the parametric form of <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ellipse</p>",
+            "<b>B.</b> <p>Hyperbola</p>",
+            "<b>C.</b> <p>Circle</p>",
+            "<b>D.</b> <p>Parabola</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Ellipse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50478/isro2009-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>The formula \\(\\int\\limits_{x0}^{xa} y(n) dx \\simeq h/2 (y_0 + 2y_1 + \\dots +2y_{n-1} + y_n) - h/12 (\\triangledown y_n - \\triangle y_0)\\)<br>\n\\(- h/24 (\\triangledown ^2 y_n + \\triangle ^2 y_0) -19h/720 (\\triangledown ^3 y_n - \\triangle ^3 y_0) \\dots\\) is called <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Simpson rule</p>",
+            "<b>B.</b> <p>Trapezoidal rule</p>",
+            "<b>C.</b> <p>Romberg's rule</p>",
+            "<b>D.</b> <p>Gregory's formula</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Trapezoidal rule</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50474/isro2009-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Which of the following statement is correct <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\triangle (U_k V_k) = U_k \\triangle V_k + V_k \\triangle U_k\\)</p>",
+            "<b>B.</b> <p>\\(\\triangle (U_k V_k) = U_{k+1} \\triangle V_k + V_{k+1} \\triangle U_k\\)</p>",
+            "<b>C.</b> <p>\\(\\triangle (U_k V_k) = V_{k+1} \\triangle U_k + U_k \\triangle V_k\\)</p>",
+            "<b>D.</b> <p>\\(\\triangle (U_k V_k) = U_{k+1} \\triangle V_k + V_k \\triangle U_k\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\triangle (U_k V_k) = U_{k+1} \\triangle V_k + V_{k+1} \\triangle U_k\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48070/isro2009-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>\\(\\int_{0}^{\\pi /4}(1-tanx)/(1+tanx)dx\\) evaluates to <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>ln 2</p>",
+            "<b>D.</b> <p>1/2ln2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1/2ln2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/802/gate2009-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>If \\(f(x)\\) is defined as follows, what is the minimum value of \\(f(x)\\) for \\(x \\in (0, 2]\\) ?<br>\n\\(f(x) = \\begin{cases} \\frac{25}{8x} \\text{ when } x \\leq \\frac{3}{2} \\\\ x+ \\frac{1}{x} \\text { otherwise}\\end{cases}\\) <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>\\(2 \\frac{1}{12}\\)</p>",
+            "<b>C.</b> <p>\\(2\\frac{1}{6}\\)</p>",
+            "<b>D.</b> <p>\\(2\\frac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2 \\frac{1}{12}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3341/gate2008-it-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Let x be a random variable following normal distribution with mean +1 and\nvariance 4. Let Y be another normal variable with mean -1 and variance\nunknown. If P (x \\(\\leq\\) -1) = P (Y \\(\\geq\\)2) , the standard deviation of Y is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>\\(\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/427/gate2008-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>A point on a curve is said to be an extremum if it is a local minimum or a local\nmaximum. The number of distinct extrema for the curve \\(3x^{4}-16x^{3}+24x^{2}+37\\) is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/423/gate2008-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Calculus\\q24_3e91ed26.jpg\"> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P = Q - K</p>",
+            "<b>B.</b> <p>P = Q + K</p>",
+            "<b>C.</b> <p>P = Q</p>",
+            "<b>D.</b> <p>P = Q + 2K</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P = Q - K</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422/gate2008-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>The minimum number of equal length subintervals needed to approximate \\(\\int_{1}^{2}xe^{x}dx\\) to an accuracy of at least \\(\\frac{1}{3}*10^{-6}\\) using the trapezoidal rule is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1000e</p>",
+            "<b>B.</b> <p>1000</p>",
+            "<b>C.</b> <p>100e</p>",
+            "<b>D.</b> <p>100</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1000e</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/419/gate2008-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>\\(\\lim_{x\\rightarrow \\infty }\\frac{x-sin x}{x+cos x}\\) equals <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>-1</p>",
+            "<b>C.</b> <p>\\(\\infty\\)</p>",
+            "<b>D.</b> <p>\\(-\\infty\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399/gate2008-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider the set of (column) vectors defined by <br> \\(X=\\{x\\in R^{3}|x_{1}+x_{2}+x_{3}=0, \\; where \\; x^{T}=[x_{1},x_{2},x_{3}]^{T}\\}.\\)<br> Which of the following is TRUE? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{[1,-1,0]^{T},[1,0,-1]^{T}\\}\\) is a basis for the subspace X.</p>",
+            "<b>B.</b> <p>\\(\\{[1,-1,0]^{T},[1,0,-1]^{T}\\}\\) is a linearly independent set, but it does not span X and therefore is not a basis of X.</p>",
+            "<b>C.</b> <p>X is not a subspace of \\(R^{3}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{[1,-1,0]^{T},[1,0,-1]^{T}\\}\\) is a basis for the subspace X.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1225/gate2007-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Consider the following two statements about the function f(x)=|x|:<br><br>\nP.  f(x) is continuous for all real values of x <br>\nQ. f(x) is differentiable for all real values of x <br><br>\nWhich of the following is TRUE? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P is true and Q is false.</p>",
+            "<b>B.</b> <p>P is false and Q is true.</p>",
+            "<b>C.</b> <p>Both P and Q are true.</p>",
+            "<b>D.</b> <p>Both P and Q are false.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P is true and Q is false.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1200/gate2007-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>The following definite integral evaluates to <br>\\(\\int_{-\\infty}^{0} e^ {-\\left(\\frac{x^2}{20} \\right )}dx\\) <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\pi \\sqrt{10}\\)</p>",
+            "<b>C.</b> <p>\\(\\sqrt{10}\\)</p>",
+            "<b>D.</b> <p>\\(\\pi\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3567/gate2006-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>What is the value of \\(\\int_{0}^{2\\pi}(x-\\pi)^2 (\\sin x) dx\\) <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-1</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\pi\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3782/gate2005-it-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Let \\(G(x)=\\frac{1}{(1-x)^{2}}=\\sum_{i=0}^{\\infty }g(i)x^{i}\\), where \\(|x| \\lt 1\\). What is g(i)? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i</p>",
+            "<b>B.</b> <p>i+1</p>",
+            "<b>C.</b> <p>2i</p>",
+            "<b>D.</b> <p>\\(2^{i}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>i+1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1175/gate2005-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>A point is randomly selected with uniform probability in the X-Y plane within the rectangle with corners at (0,0), (1,0), (1,2) and (0,2). If p is the length of the position vector of the point, the expected value of \\(p^{2}\\) is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2/3</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>4/3</p>",
+            "<b>D.</b> <p>5/3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5/3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1074/gate2004-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Let \\(S = \\sum_{i=3}^{100} i \\log_{2} i\\), and \\(T = \\int_{2}^{100} x \\log_{2}x dx.\\)<br>\nWhich of the following statements is true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S \\gt T \\)</p>",
+            "<b>B.</b> <p>\\(S = T \\)</p>",
+            "<b>C.</b> <p>\\(S \\lt T \\) and  \\(2S \\gt T \\)</p>",
+            "<b>D.</b> <p>\\(2S \\leq T\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(S \\gt T \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/650/gate2000-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>What is the maximum value of the function \\(f(x) = 2x^2 - 2x + 6\\) in the interval \\(\\left[0,2 \\right]\\)? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>5.5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2242/gate1997-4-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>The formula used to compute an approximation for the second derivative of a function \\(f\\) at a point \\(x_0\\) is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\dfrac{f(x_0 +h) + f(x_0 - h)}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\dfrac{f(x_0 +h) - f(x_0 - h)}{2h}\\)</p>",
+            "<b>C.</b> <p>\\(\\dfrac{f(x_0 +h) + 2f(x_0) + f(x_0 - h)}{h^2}\\)</p>",
+            "<b>D.</b> <p>\\(\\dfrac{f(x_0 +h) - 2f(x_0) + f(x_0 - h)}{h^2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\dfrac{f(x_0 +h) - 2f(x_0) + f(x_0 - h)}{h^2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2710/gate1996-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>The solution of differential equation \\(y''+3y'+2y=0\\) is of the form <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(C_1e^x+C_2e^{2x}\\)</p>",
+            "<b>B.</b> <p>\\(C_1e^{-x}+C_2e^{3x}\\)</p>",
+            "<b>C.</b> <p>\\(C_1e^{-x}+C_2e^{-2x}\\)</p>",
+            "<b>D.</b> <p>\\(C_1e^{-2x}+C_2e^{-x}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(C_1e^{-x}+C_2e^{-2x}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2630/gate1995-2-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>In the interval \\([0, \\pi]\\) the equation \\(x=\\cos x\\) has <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>No solution</p>",
+            "<b>B.</b> <p>Exactly one solution</p>",
+            "<b>C.</b> <p>Exactly two solutions</p>",
+            "<b>D.</b> <p>An infinite number of solutions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Exactly one solution</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2608/gate1995-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Backward Euler method for solving the differential equation \\(\\frac{dy}{dx}=f(x, y)\\) is specified by, (choose one of the following). <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(y_{n+1}=y_n+hf(x_n, y_n)\\)</p>",
+            "<b>B.</b> <p>\\(y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})\\)</p>",
+            "<b>C.</b> <p>\\(y_{n+1}=y_{n-1}+2hf(x_n, y_n)\\)</p>",
+            "<b>D.</b> <p>\\(y_{n+1}= (1+h)f(x_{n+1}, y_{n+1})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2439/gate1994-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>The function \\(f\\left(x,y\\right) = x^2y - 3xy + 2y +x\\) has <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no local extremum</p>",
+            "<b>B.</b> <p>one local minimum but no local maximum</p>",
+            "<b>C.</b> <p>one local maximum but no local minimum</p>",
+            "<b>D.</b> <p>one local minimum and one local maximum</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>no local extremum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/602/gate1993-01-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>Which of the following improper integrals is (are) convergent? <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx\\)</p>",
+            "<b>B.</b> <p>\\(\\int ^{\\infty} _{0} \\frac{\\cos x}{1+x} dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int ^{\\infty} _{0} \\frac{x}{1+x^2} dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int ^{1} _{0} \\frac{1-\\cos x}{\\frac{x^5}{2}} dx\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/601/gate1993-01-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>The differential equation <br>\\(\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>linear</p>",
+            "<b>B.</b> <p>non- linear</p>",
+            "<b>C.</b> <p>homogeneous</p>",
+            "<b>D.</b> <p>of degree two</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>linear</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/597/gate1993-01-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - GATE CSE 2025  Set 1  Question",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "GATE CSE 2025  Set 1  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460076\"></a><div itemprop=\"text\"><p>Consider a demand paging memory management system with \\( 32 \\)-bit logical address, \\( 20 \\)-bit physical address, and page size of \\( 2048 \\) bytes. Assuming that the memory is byte addressable, what is the maximum number of entries in the page table?</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{21} \\)</p>",
+            "<p>\\( 2^{20} \\)</p>",
+            "<p>\\( 2^{22} \\)</p>",
+            "<p>\\( 2^{24} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{21} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460076/gate-cse-2025-set-1-question-4\" target=\"_blank\">https://gateoverflow.in/460076/gate-cse-2025-set-1-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

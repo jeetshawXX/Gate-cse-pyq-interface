@@ -1,0 +1,41 @@
+{
+  "title": "CO & Architecture - Data Dependency",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Data Dependency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8556\"></a><div itemprop=\"text\">\n<p>Consider the following code sequence having five instructions from \\( I_1 \\text{ to } I_5 \\). Each of these instructions has the following format.&nbsp;</p>\n\n<p>OP Ri, Rj, Rk</p>\n\n<p>Where operation OP is performed on contents of registers Rj and Rk and the result is stored in register Ri.</p>\n\n<p>\\( I_1 \\): ADD R1, R2, R3</p>\n\n<p>\\( I_2 \\): MUL R7, R1, R3</p>\n\n<p>\\( I_3 \\): SUB R4, R1, R5</p>\n\n<p>\\( I_4 \\): ADD R3, R2, R4</p>\n\n<p>\\( I_5 \\): MUL R7, R8, R9</p>\n\n<p>Consider the following three statements.</p>\n\n<p>S1: There is an anti-dependence between instructions \\( I_2 \\text{ and } I_5 \\)</p>\n\n<p>S2: There is an anti-dependence between instructions \\( I_2 \\text{ and } I_4 \\)</p>\n\n<p>S3: Within an instruction pipeline an anti-dependence always creates one or more stalls</p>\n\n<p>Which one of the above statements is/are correct?</p>\n\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only S1 is true</p>",
+            "<p>Only S2 is true</p>",
+            "<p>Only S1 and S3 are true</p>",
+            "<p>Only S2 and S3 are true</p>"
+          ],
+          "correct_answer": "<p>Only S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8556/gate-cse-2015-set-3-question-47\" target=\"_blank\">https://gateoverflow.in/8556/gate-cse-2015-set-3-question-47</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3472\"></a><div itemprop=\"text\"><p>Data forwarding techniques can be used to speed up the operation in presence of data dependencies. Consider the following replacements of LHS with RHS.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>&nbsp;\\( R1→ Loc, Loc→ R2 \\quad&nbsp;≡&nbsp;&nbsp;R1→ R2, R1 → Loc \\)</li>\n\t<li>&nbsp;\\( R1→ Loc, Loc→ R2&nbsp;\\quad&nbsp;≡&nbsp;R1→ R2 \\)</li>\n\t<li>&nbsp;\\( R1→ Loc, R2 → Loc&nbsp;\\quad&nbsp;≡&nbsp;R1→ Loc \\)</li>\n\t<li>&nbsp;\\( R1→ Loc, R2 → Loc&nbsp;\\quad&nbsp;≡&nbsp;&nbsp;R2→ Loc \\)</li>\n</ol>\n\n<p>In which of the following options, will the result of executing the RHS be the same as executing the LHS irrespective of the instructions that follow ?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i&nbsp;and iii</p>",
+            "<p>i&nbsp;and iv</p>",
+            "<p>ii&nbsp;and iii</p>",
+            "<p>ii&nbsp;and iv</p>"
+          ],
+          "correct_answer": "<p>i&nbsp;and iv</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3472/gate-it-2007-question-39\" target=\"_blank\">https://gateoverflow.in/3472/gate-it-2007-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

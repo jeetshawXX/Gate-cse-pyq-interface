@@ -1,0 +1,114 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Degree of Graph",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Degree of Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336683\"></a><div itemprop=\"text\"><p>Maximum degree of any node in a simple graph with \\( n \\) vertices is</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>\\( n/2 \\)</p>",
+            "<p>\\( n-2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336683/nielit-2016-mar-scientist-b-section-b-3\" target=\"_blank\">https://gateoverflow.in/336683/nielit-2016-mar-scientist-b-section-b-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336373\"></a><div itemprop=\"text\"><p>Which of the following statements is/are TRUE for an undirected graph?</p>\n\n\n\n<ol start=\"1\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>P only</li>\n\t<li>Q only</li>\n\t<li>Both P and Q</li>\n\t<li>Neither P nor Q</li>\n</ol></div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Number of odd degree vertices is even</p>",
+            "<p>Sum of degrees of all vertices is even</p>"
+          ],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336373/nielit-2017-july-scientist-b-cs-section-b-2\" target=\"_blank\">https://gateoverflow.in/336373/nielit-2017-july-scientist-b-cs-section-b-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336434\"></a><div itemprop=\"text\"><p>Given an undirected graph \\( G \\) with \\( V \\) vertices and \\( E \\) edges, the sum of the degrees of all vertices is</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( E \\)</p>",
+            "<p>\\( 2E \\)</p>",
+            "<p>\\( V \\)</p>",
+            "<p>\\( 2V \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2E \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336434/nielit-2017-july-scientist-b-it-section-b-1\" target=\"_blank\">https://gateoverflow.in/336434/nielit-2017-july-scientist-b-it-section-b-1</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336913\"></a><div itemprop=\"text\"><p>The number of the edges in a regular graph of degree \\( ’d’ \\) and \\( ’n’ \\) vertices is&nbsp;</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Maximum of \\( n,d \\)</p>",
+            "<p>\\( n+d \\)</p>",
+            "<p>\\( nd \\)</p>",
+            "<p>\\( nd/2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( nd/2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336913/nielit-2017-oct-scientific-assistant-a-cs-section-b-7\" target=\"_blank\">https://gateoverflow.in/336913/nielit-2017-oct-scientific-assistant-a-cs-section-b-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"378750\"></a><div itemprop=\"text\"><p>For which one of the following sequences \\( \\text{CAN NOT} \\) be a degree sequence of a graph of order \\( 5? \\)</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3, 3, 2, 2, 2 \\)</p>",
+            "<p>\\( 3, 3, 3, 3, 2 \\)</p>",
+            "<p>\\( 3, 3, 3, 2, 2 \\)</p>",
+            "<p>\\( 4, 3, 3, 2, 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3, 3, 3, 2, 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378750/nielit-2021-dec-scientist-b-section-b-13\" target=\"_blank\">https://gateoverflow.in/378750/nielit-2021-dec-scientist-b-section-b-13</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"366921\"></a><div itemprop=\"text\"><p>For which one of the following sequences&nbsp;\\( \\text{CAN NO} \\)T be a degree sequence if a graph of order \\( 5 \\; ? \\)</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3,3,2,2,2 \\)</p>",
+            "<p>\\( 3,3,3,3,2 \\)</p>",
+            "<p>\\( 3,3,3,2,2 \\)</p>",
+            "<p>\\( 4,3,3,2,2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3,3,3,2,2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366921/nielit-2021-dec-scientist-b-section-b-96\" target=\"_blank\">https://gateoverflow.in/366921/nielit-2021-dec-scientist-b-section-b-96</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351364\"></a><div itemprop=\"text\"><p>In an undirected graph, if we add the degrees of all vertices, it is:</p>\n\n</div><br><br><b>Graph Theory: NIELIT Scientific Assistant A 2020 November: 96</b></p>",
+          "type": "single",
+          "options": [
+            "<p>odd</p>",
+            "<p>even</p>",
+            "<p>cannot be determined</p>",
+            "<p>always \\( n+1, \\) where \\( n \\) is number of nodes</p>"
+          ],
+          "correct_answer": "<p>even</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351364/nielit-scientific-assistant-a-2020-november-96\" target=\"_blank\">https://gateoverflow.in/351364/nielit-scientific-assistant-a-2020-november-96</a></p>"
+        }
+      ]
+    }
+  ]
+}

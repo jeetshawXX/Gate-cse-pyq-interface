@@ -1,0 +1,26 @@
+{
+  "title": "CO & Architecture - Instruction Set Architecture",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Instruction Set Architecture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460817\"></a><div itemprop=\"text\"><p>​​​​Which of the following is/are part of an Instruction Set Architecture of a processor?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The size of the cache memory</p>",
+            "<p>The clock frequency of the processor</p>",
+            "<p>The number of cache memory levels</p>",
+            "<p>The total number of registers</p>"
+          ],
+          "correct_answer": "<p>The total number of registers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18\" target=\"_blank\">https://gateoverflow.in/460817/gate-cse-2025-set-2-question-18</a></p>"
+        }
+      ]
+    }
+  ]
+}

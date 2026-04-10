@@ -1,0 +1,27 @@
+{
+  "title": "Theory of Computation - Set Theory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Set Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"419134\"></a><div itemprop=\"text\"><p>A subset \\( \\text{S} \\) of the rational numbers is said to be \"nice\" if for every infinite sequence of \\( x_1, x_2, \\ldots \\) of elements from \\( \\text{S} \\), there is always two indices \\( i&lt;j \\) such that \\( x_i \\leq x_j \\). Consider the following statements.</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>The set of natural numbers \\( \\mathbb{N} \\) is \"nice\".</li>\n\t<li>The set of integers \\( \\mathbb{Z} \\) is \"nice\".</li>\n\t<li>The set of positive rational numbers is \"nice\".</li>\n</ol>\n\n<p>Which of the above statements is/are true?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2024 | Part A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( \\text{(i)} \\).</p>",
+            "<p>Only \\( \\text{(i)} \\) and \\( \\text{(ii)} \\).</p>",
+            "<p>Only \\( \\text{(i)} \\) and \\( \\text{(iii)} \\).</p>",
+            "<p>All three statements are true.</p>",
+            "<p>None of the three statements is true.</p>"
+          ],
+          "correct_answer": "<p>Only \\( \\text{(i)} \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/419134/tifr-cse-2024-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/419134/tifr-cse-2024-part-a-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+}

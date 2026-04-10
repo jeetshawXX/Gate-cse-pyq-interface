@@ -1,0 +1,276 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Functions",
+  "duration": 50,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8040\"></a><div itemprop=\"text\">If \\( p, q, r, s \\) are distinct integers such that:<br>\n<br>\n\\( f (p, q, r, s) = \\text{ max } (p, q, r, s) \\)<br>\n<br>\n\\( g (p, q, r, s) = \\text{ min } (p, q, r, s) \\)<br>\n<br>\n\\( h (p, q, r, s) = \\text {remainder of } \\frac{(p \\times q)} {(r \\times s)} \\text{ if } (p \\times q) &gt; (r \\times s) \\)<br>\n\\( \\text{ or remainder of } \\frac {(r \\times s)}{(p \\times q)} \\text{ if } (r \\times s) &gt; (p \\times q) \\)<br>\n<br>\nAlso a function \\( fgh (p, q, r, s) = f(p, q, r, s) \\times g(p, q, r, s) \\times h (p, q, r, s) \\)<br>\nAlso the same operations are valid with two variable functions of the form \\( f(p, q) \\)<br>\nWhat is the value of \\( fg \\left(h \\left(2, 5, 7, 3\\right), 4, 6, 8\\right) \\)?</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-9</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9\" target=\"_blank\">https://gateoverflow.in/8040/gate-cse-2015-set-2-question-ga-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"8303\"></a><div itemprop=\"text\"><p>A function \\( f(x) \\) is linear and has a value of \\( 29 \\) at \\( x=-2 \\) and \\( 39 \\) at \\( x=3 \\). Find its value at \\( x=5 \\).</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 59 \\)</p>",
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 43 \\)</p>",
+            "<p>\\( 35 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 43 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5\" target=\"_blank\">https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8385\"></a><div itemprop=\"text\"><p>Choose the most appropriate equation for the function drawn as thick line, in the plot below.</p>\n\n<p><img alt=\"\" height=\"216\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/466efac58b414794528865323a76d62a.png\" width=\"346\"></p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x=y-|y| \\)</p>",
+            "<p>\\( x=-(y-|y|) \\)</p>",
+            "<p>\\( x=y+|y| \\)</p>",
+            "<p>\\( x=-(y+|y|) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x=-(y-|y|) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8\" target=\"_blank\">https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"399249\"></a><div itemprop=\"text\"><p>Consider two functions of time \\( (t), \\)<br>\n\\[ <br>\n\\begin{gathered}<br>\nf(t)=0.01 t^2 \\\\<br>\ng(t)=4 t<br>\n\\end{gathered}<br>\n \\]<br>\nwhere \\( 0&lt;t&lt;\\infty. \\)</p>\n\n<p>Now consider the following two statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>For some \\( t&gt;0, g(t)&gt;f(t) \\).</li>\n\t<li>There exists a \\( T, \\)&nbsp;such that \\( f(t)&gt;g(t) \\) for all \\( t&gt;T \\).</li>\n</ol>\n\n<p>Which one of the following options is \\( \\text{TRUE}? \\)</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only (i) is correct</p>",
+            "<p>only (ii) is correct</p>",
+            "<p>both (i) and (ii) are correct</p>",
+            "<p>neither (i) nor (ii) is correct</p>"
+          ],
+          "correct_answer": "<p>both (i) and (ii) are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399249/gate-cse-2023-ga-question-7\" target=\"_blank\">https://gateoverflow.in/399249/gate-cse-2023-ga-question-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"399247\"></a><div itemprop=\"text\"><p>\\( f(x) \\) and \\( g(y) \\) are functions of \\( x \\) and \\( y \\), respectively, and \\( f(x)=g(y) \\) for all&nbsp;values of \\( x \\) and \\( y \\). Which one of the following options is necessarily \\( \\text{TRUE} \\) for a \\( x \\) and \\( y? \\)&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  f(x)=0 \\) and \\( g(y)=0 \\)</p>",
+            "<p>\\( &nbsp;f(x)=g(y)= \\) constant</p>",
+            "<p>\\( &nbsp;f(x) \\neq \\) constant and \\( g(y) \\neq \\) constant</p>",
+            "<p>\\(  f(x)+g(y)=f(x)-g(y) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( &nbsp;f(x)=g(y)= \\) constant</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399247/gate-cse-2023-ga-question-9\" target=\"_blank\">https://gateoverflow.in/399247/gate-cse-2023-ga-question-9</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359838\"></a><div itemprop=\"text\"><p>If \\( f(x) = x^2 \\) for each \\( x\\in (-\\infty,\\infty) \\), then \\( \\large&nbsp;\\dfrac{f\\left(f\\left(f(x)\\right)\\right)}{f(x)} \\) is equal to&nbsp;_______.</p>\n\n</div><br><br><b>GATE Civil 2020 Set 2 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f(x) \\)</p>",
+            "<p>\\( (f(x))^2 \\)</p>",
+            "<p>\\( (f(x))^3 \\)</p>",
+            "<p>\\( (f(x))^4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (f(x))^3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359838/gate-civil-2020-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/359838/gate-civil-2020-set-2-ga-question-5</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359873\"></a><div itemprop=\"text\"><p>A function, \\( \\lambda \\), is defined by</p>\n\n<p>\\( \\lambda \\left ( p,q \\right )=\\left\\{\\begin{matrix} \\left ( p-q \\right )^{2}, &amp; \\text{if} \\:p\\geq q, \\\\ p+q,&nbsp;&amp;\\text{if} \\: p&lt; q.\\end{matrix}\\right. \\)</p>\n\n<p>The value of the expression&nbsp;\\( \\dfrac{\\lambda \\left ( -\\left (- 3+2 \\right ),\\left ( -2+3 \\right ) \\right )}{\\left ( -\\left ( -2+1 \\right ) \\right )} \\) is:</p>\n\n</div><br><br><b>GATE Civil 2021 Set 1 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\frac{16}{3} \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359873/gate-civil-2021-set-1-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359873/gate-civil-2021-set-1-ga-question-9</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"359771\"></a><div itemprop=\"text\"><p>A superadditive function \\( f(\\cdot) \\) satisfies the following property&nbsp;\\[ f\\left ( x_{1} +x_{2}\\right )\\geq f\\left ( x_{1} \\right ) + f\\left ( x_{2} \\right ) \\]</p>\n\n<p>Which of the following functions is a superadditive function for \\( x &gt; 1 \\)?</p>\n\n</div><br><br><b>GATE ECE 2020 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( e^{x} \\)</p>",
+            "<p>\\( \\sqrt{x} \\)</p>",
+            "<p>\\( 1/x \\)</p>",
+            "<p>\\( e^{-x} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( e^{x} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359771/gate-ece-2020-ga-question-5\" target=\"_blank\">https://gateoverflow.in/359771/gate-ece-2020-ga-question-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"411851\"></a><div itemprop=\"text\"><p>Which one of the following options represents the given graph?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/a7004f6b2431cfc3a1a6530f2609b56d.png\" width=\"450\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE ECE 2023 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f(x)=x^{2} 2^{-|x|} \\)</p>",
+            "<p>\\( f(x)=x 2^{-|x|} \\)</p>",
+            "<p>\\( f(x)=|x| 2^{-x} \\)</p>",
+            "<p>\\( f(x)=x 2^{-x} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f(x)=x^{2} 2^{-|x|} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411851/gate-ece-2023-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411851/gate-ece-2023-ga-question-7</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"411832\"></a><div itemprop=\"text\"><p>&nbsp;Which one of the following options represents the given graph?</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/6a40b2635c9a08cb11e40056d5cdde3c.png\" width=\"360\"></p>\n\n</div><br><br><b>GATE Electrical 2023 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f(x)=x^{2} 2^{-|x|} \\)</p>",
+            "<p>\\( f(x)=x 2^{-|x|} \\)</p>",
+            "<p>\\( f(x)=|x| 2^{-x} \\)</p>",
+            "<p>\\( f(x)=x&nbsp;2^{-x} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f(x)=x 2^{-|x|} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411832/gate-electrical-2023-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411832/gate-electrical-2023-ga-question-7</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"411868\"></a><div itemprop=\"text\"><p>Ankita has to climb \\( 5 \\) stairs starting at the ground, while respecting the following rules:</p>\n\n<ol>\n\t<li>At any stage, Ankita can move either one or two stairs up.</li>\n\t<li>At any stage, Ankita cannot move to a lower step.</li>\n</ol>\n\n<p>Let \\( F(N) \\) denote the number of possible ways in which Ankita can reach the \\( N^{\\text {th}} \\) stair. For example, \\( F(1)=1, F(2)=2, F(3)=3 \\).</p>\n\n<p>The value of \\( F(5) \\) is__________.</p>\n\n</div><br><br><b>GATE IN 2023 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411868/gate-in-2023-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411868/gate-in-2023-ga-question-7</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"359528\"></a><div itemprop=\"text\"><p>Define \\( [x] \\) as the greatest integer less than or equal to \\( x \\), for each&nbsp;\\( x\\in \\left (- \\infty, \\infty \\right ). \\) If \\( y = [x] \\), then area under \\( y \\) for&nbsp;\\( x\\in \\left [ 1,4 \\right ] \\) is _______.</p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 1 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359528/gate-mechanical-2020-set-1-ga-question-5\" target=\"_blank\">https://gateoverflow.in/359528/gate-mechanical-2020-set-1-ga-question-5</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"411789\"></a><div itemprop=\"text\"><p>Consider the following for non-zero positive integers, \\( p \\) and \\( q \\).</p>\n\n<p>\\( f\\left ( p, q \\right ) = \\frac{p\\times p\\times p\\times \\cdots\\: \\cdots\\: \\cdots \\times p \\:= \\:p^{q}}{q\\:{terms}}; f\\left ( p, 1 \\right )=p \\)</p>\n\n<p>\\( g\\left ( p, q \\right ) = p^{p^{p^{p^{p^\\text{( up to q terms)}}}}} \\);&nbsp;\\( g\\left ( p, 1 \\right ) = p \\)</p>\n\n<p>Which one of the following options is correct based on the above?</p>\n\n</div><br><br><b>GATE Mechanical 2022 Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f\\left ( 2,2 \\right ) = g\\left ( 2,2 \\right ) \\)</p>",
+            "<p>\\( f\\left ( g\\left ( 2,2 \\right ) ,2\\right ) &lt; f\\left ( 2,g\\left ( 2,2 \\right ) \\right ) \\)</p>",
+            "<p>\\( g\\left ( 2,1 \\right ) \\neq f\\left ( 2,1 \\right ) \\)</p>",
+            "<p>\\( f\\left ( 3,2 \\right )&gt; g\\left ( 3,2 \\right ) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f\\left ( 2,2 \\right ) = g\\left ( 2,2 \\right ) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411789/gate-mechanical-2022-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411789/gate-mechanical-2022-set-2-ga-question-8</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"312019\"></a><div itemprop=\"text\"><p>Given the following four functions \\( f_{1}(n)=n^{100}, \\)&nbsp; \\( f_{2}(n)=(1.2)^{n}, \\)&nbsp;&nbsp;\\( f_{3}(n)=2^{n/2}, \\)&nbsp;\\( f_{4}(n)=3^{n/3} \\) which function will have the largest value for sufficiently large values of n&nbsp;\\( (i.e. \\) \\( n\\rightarrow\\infty)? \\)</p>\n\n</div><br><br><b>GATE2010 MN: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f_{4} \\)</p>",
+            "<p>\\( f_{3} \\)</p>",
+            "<p>\\( f_{2} \\)</p>",
+            "<p>\\( f_{1} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f_{4} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312019/gate2010-mn-ga-10\" target=\"_blank\">https://gateoverflow.in/312019/gate2010-mn-ga-10</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"40228\"></a><div itemprop=\"text\"><p>Let \\( f(x) = x – [x], \\) where \\( x\\geq 0 \\) and \\( [x] \\) is the greatest integer not larger than \\( x. \\) Then \\( f(x) \\) is a</p>\n\n</div><br><br><b>GATE2012 AR: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;monotonically increasing function</p>",
+            "<p>&nbsp;monotonically decreasing function</p>",
+            "<p>linearly increasing function between two integers</p>",
+            "<p>linearly decreasing function between two integers</p>"
+          ],
+          "correct_answer": "<p>linearly increasing function between two integers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40228/gate2012-ar-ga-7\" target=\"_blank\">https://gateoverflow.in/40228/gate2012-ar-ga-7</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"39518\"></a><div itemprop=\"text\"><p>If \\( x &gt; y &gt; 1, \\) which of the following must be true\\( ? \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( \\ln x &gt; \\ln y \\)</li>\n\t<li>\\( e^{x} &gt; e^{y}  \\)</li>\n\t<li>\\( y^x &gt; x^y  \\)</li>\n\t<li>\\( \\cos x &gt; \\cos y \\)</li>\n</ol>\n\n</div><br><br><b>GATE2015 EC-3: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (ii)</p>",
+            "<p>(i) and (iii)</p>",
+            "<p>(iii) and (iv)</p>",
+            "<p>(ii) and (iv)</p>"
+          ],
+          "correct_answer": "<p>(i) and (ii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39518/gate2015-ec-3-ga-5\" target=\"_blank\">https://gateoverflow.in/39518/gate2015-ec-3-ga-5</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"108309\"></a><div itemprop=\"text\"><p>Which of the following curves represents the function \\( y=\\ln \\left( \\mid e^{\\left[\\mid \\sin \\left( \\mid x \\mid \\right) \\mid \\right]} \\right) \\) for \\( \\mid x \\mid &lt; 2\\pi \\)?&nbsp;Here, \\( x \\) represents the abscissa and \\( y \\) represents the ordinate.</p>\n\n</div><br><br><b>GATE2016 ME-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/47728e60188a636abe9e2ce0f4250603.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/377784d672c118248ce9e3458faa42de.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/c59c232ec8cf83082157a36fe3945764.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/188ad461973cc1dbdd08fedfa8f36fc1.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___functions/c59c232ec8cf83082157a36fe3945764.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108309/gate2016-me-2-ga-10\" target=\"_blank\">https://gateoverflow.in/108309/gate2016-me-2-ga-10</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"205182\"></a><div itemprop=\"text\"><p>Functions \\( F(a, b) \\) and \\( G(a, b) \\) are defined as follows:<br>\n\\( F(a, b) = (a − b)^2 \\) and \\( G(a, b) = \\mid a − b\\mid \\), where \\( \\mid x \\mid \\) represents the absolute value of \\( x \\).<br>\n<br>\nWhat would be the value of \\( G(F(1, 3), G(1, 3)) \\)?</p>\n\n</div><br><br><b>GATE2018 EE: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 36 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205182/gate2018-ee-ga-5\" target=\"_blank\">https://gateoverflow.in/205182/gate2018-ee-ga-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

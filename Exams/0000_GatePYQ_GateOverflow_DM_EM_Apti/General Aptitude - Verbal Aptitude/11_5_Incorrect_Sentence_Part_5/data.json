@@ -1,0 +1,86 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - Incorrect Sentence Part",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Incorrect Sentence Part",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2024\"></a><div itemprop=\"text\"><p>\\( \\underset{\\text{I}}{\\underline{\\text{While trying to collect}}} \\)&nbsp;an envelope \\( \\underset{\\text{II}}{\\underline{\\text{from under the table,}}} \\) \\( \\underset{\\text{III}}{\\underline{\\text{Mr. X fell down}}} \\) and \\( \\underset{\\text{IV}}{\\underline{\\text{was losing consciousness.}}} \\)</p><p>Which one of the above underlined parts of the sentence is NOT appropriate?</p></div><br><br><b>GATE CSE 2014 Set 3 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I</p>",
+            "<p>II</p>",
+            "<p>III</p>",
+            "<p>IV</p>"
+          ],
+          "correct_answer": "<p>IV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2024/gate-cse-2014-set-3-question-ga-1\" target=\"_blank\">https://gateoverflow.in/2024/gate-cse-2014-set-3-question-ga-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"40225\"></a><div itemprop=\"text\"><p>Which one of the parts (A, B, C, D) in the sentence contains an <strong>ERROR</strong>?</p><p><strong>No sooner had the doctor seen the results of the blood test, than he suggested the patient to&nbsp;see the specialist.</strong></p></div><br><br><b>GATE2012 AR: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>no sooner had</p>",
+            "<p>results of the blood test</p>",
+            "<p>suggested the patient</p>",
+            "<p>see the specialist</p>"
+          ],
+          "correct_answer": "<p>see the specialist</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40225/gate2012-ar-ga-4\" target=\"_blank\">https://gateoverflow.in/40225/gate2012-ar-ga-4</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"40233\"></a><div itemprop=\"text\"><p>One of the parts \\( (A, B, C, D) \\) in the sentence given below contains an ERROR. Which one of the following is <strong>INCORRECT</strong>?</p><p><strong>I requested that he should be given the driving test today instead of tomorrow</strong>.</p></div><br><br><b>GATE2012 CY: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>requested that</p>",
+            "<p>should be given</p>",
+            "<p>the driving test</p>",
+            "<p>instead of tomorrow</p>"
+          ],
+          "correct_answer": "<p>should be given</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40233/gate2012-cy-ga-2\" target=\"_blank\">https://gateoverflow.in/40233/gate2012-cy-ga-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"40245\"></a><div itemprop=\"text\"><p>All engineering students should learn mechanics, mathematics and how to do computation.</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; II &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;III &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; IV</p><p>Which of the above underlined parts of the sentence is not appropriate?</p></div><br><br><b>GATE2013 AE: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I</p>",
+            "<p>II</p>",
+            "<p>III</p>",
+            "<p>IV</p>"
+          ],
+          "correct_answer": "<p>IV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40245/gate2013-ae-ga-4\" target=\"_blank\">https://gateoverflow.in/40245/gate2013-ae-ga-4</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"40269\"></a><div itemprop=\"text\"><p>\\( \\underset{\\text{I}}{\\underline{\\text{The professor}}} \\) \\( \\underset{\\text{II}}{\\underline{\\text{ordered to}}} \\) \\( \\underset{\\text{III}}{\\underline{\\text{the students to go}}} \\) \\( \\underset{\\text{IV}}{\\underline{\\text{out of the class.}}} \\)</p><p>Which of the above underlined parts of the sentence is grammatically incorrect?</p></div><br><br><b>GATE2013 CE: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I</p>",
+            "<p>II</p>",
+            "<p>III</p>",
+            "<p>IV</p>"
+          ],
+          "correct_answer": "<p>II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40269/gate2013-ce-ga-2\" target=\"_blank\">https://gateoverflow.in/40269/gate2013-ce-ga-2</a></p>"
+        }
+      ]
+    }
+  ]
+}

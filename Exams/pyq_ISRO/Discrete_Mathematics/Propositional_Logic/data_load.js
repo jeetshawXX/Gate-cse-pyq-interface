@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Propositional_Logic",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Propositional_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Given that<br>B(a)  means \"a is a bear\"<br>F(a)  means \"a is a fish\" and<br>E(a,b)  means \"a eats b\"<br>Then what is the best meaning of<br>\\(\\forall x[F(x) \\rightarrow \\forall y(E(y, x) \\rightarrow b(y))]\\) <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every fish is eaten by some bear</p>",
+            "<b>B.</b> <p>Bears eat only fish</p>",
+            "<b>C.</b> <p>Every bear eats fish</p>",
+            "<b>D.</b> <p>Only bears eat fish</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only bears eat fish</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331314/isro2020-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a \\rightarrow b) \\wedge(b \\rightarrow c)) \\rightarrow(a \\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a \\wedge b \\wedge c) \\rightarrow(c \\vee a)\\)</p>",
+            "<b>D.</b> <p>\\(a \\rightarrow(b \\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128691/isro2017-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Identify the correct translation into logical notation of the following assertion.<br>\nSome boys in the class are taller than all the girls<br>\nNote: taller (x, y) is true if x is taller than y. <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>B.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\land \\text{taller}(x, y)))\\)</p>",
+            "<b>C.</b> <p>\\((\\exists x) (\\text{boy}(x) \\rightarrow (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+            "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((\\exists x) (\\text{boy}(x) \\land (\\forall y) (\\text{girl}(y) \\rightarrow \\text{taller}(x, y)))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1020/gate2004-23-isro2007-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

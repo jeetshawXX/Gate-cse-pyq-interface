@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Identify Function",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Identify Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460041\"></a><div itemprop=\"text\"><p>\\( A=\\{0,1,2,3, \\ldots\\} \\) is the set of non-negative integers. Let \\( F \\) be the set of functions from \\( A \\) to itself. For any two functions, \\( f_{1}, f_{2} \\in \\mathrm{~F} \\), we define</p><p>\\[ \\left(f_{1} \\odot f_{2}\\right)(n)=f_{1}(n)+f_{2}(n)  \\]</p><p>for every number \\( n \\) in \\( A \\). Which of the following is/are CORRECT about the mathematical structure \\( (\\mathrm{F}, \\odot) \\) ?</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (\\mathrm{F}, \\odot) \\) is an Abelian group.</p>",
+            "<p>\\( (\\mathrm{F}, \\odot) \\) is an Abelian monoid.</p>",
+            "<p>\\( (F, \\odot) \\) is a non-Abelian group.</p>",
+            "<p>\\( (\\mathrm{F}, \\odot) \\) is a non-Abelian monoid.</p>"
+          ],
+          "correct_answer": "<p>\\( (\\mathrm{F}, \\odot) \\) is an Abelian monoid.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460041/gate-cse-2025-set-1-question-39\" target=\"_blank\">https://gateoverflow.in/460041/gate-cse-2025-set-1-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

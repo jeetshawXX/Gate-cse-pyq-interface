@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Static Hazard",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Static Hazard",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1814\"></a><div itemprop=\"text\"><p>Consider a Boolean function&nbsp;\\(  f(w,x,y,z) \\). Suppose that exactly one of its inputs is&nbsp;allowed to change at a time. If the function happens to be true for two input&nbsp;vectors \\(  i_{1}=\\left \\langle w_{1}, x_{1}, y_{1},z_{1}\\right \\rangle  \\)&nbsp;and&nbsp;\\(  i_{2}=\\left \\langle w_{2}, x_{2}, y_{2},z_{2}\\right \\rangle  \\)&nbsp;, we would like the function to&nbsp;remain true as the input changes from&nbsp;\\(  i_{1} \\)&nbsp;to&nbsp;\\(  i_{2} \\)&nbsp;(\\(  i_{1} \\)&nbsp;and&nbsp;\\(  i_{2} \\)&nbsp;differ in exactly one bit position) without becoming false&nbsp;momentarily. Let&nbsp;\\(  f(w,x,y,z)=\\sum (5,7,11,12,13,15) \\)&nbsp;.&nbsp;Which of the following cube&nbsp;covers of \\( f \\) will ensure that the required property is satisfied?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\overline{w}xz,wx\\overline{y},x\\overline{y}z,xyz,wyz \\)</p>",
+            "<p>\\(  wxy, \\overline{w}xz,wyz \\)</p>",
+            "<p>\\(  wx\\overline{y} \\overline{z}, xz, w\\overline{x}yz \\)</p>",
+            "<p>\\(  wx\\overline{y}, wyz, wxz, \\overline{w}xz, x\\overline{y}z, xyz \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  wx\\overline{y}, wyz, wxz, \\overline{w}xz, x\\overline{y}z, xyz \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1814/gate-cse-2006-question-38\" target=\"_blank\">https://gateoverflow.in/1814/gate-cse-2006-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+}

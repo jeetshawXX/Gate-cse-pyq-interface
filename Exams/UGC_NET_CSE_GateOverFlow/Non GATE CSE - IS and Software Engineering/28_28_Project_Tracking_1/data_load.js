@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Project Tracking",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Project Tracking",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316220\"></a><div itemprop=\"text\"><p>Which of the following are the primary objectives of risk monitoring in software project tracking?</p><p>P: To assess whether predicted risks do, in fact, occur</p><p>Q: To ensure that risk aversion steps defined for the risk are being properly applied</p><p>R: To collect information that can be used for future risk analysis</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2019 | Part 2 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only P and Q</p>",
+            "<p>Only P and R</p>",
+            "<p>Only Q and R</p>",
+            "<p>All of P, Q, R</p>"
+          ],
+          "correct_answer": "<p>All of P, Q, R</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316220/ugc-net-cse-june-2019-part-2-question-59\" target=\"_blank\">https://gateoverflow.in/316220/ugc-net-cse-june-2019-part-2-question-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

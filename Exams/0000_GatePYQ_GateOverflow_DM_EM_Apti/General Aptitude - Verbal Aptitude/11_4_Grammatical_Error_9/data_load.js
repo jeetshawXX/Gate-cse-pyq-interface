@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Grammatical Error",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Grammatical Error",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2198\"></a><div itemprop=\"text\"><p>Choose the grammatically <strong> INCORRECT</strong> sentence:</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>They gave us the money back less the service charges of Three Hundred rupees.</p>",
+            "<p>This country’s expenditure is not less than that of Bangladesh.</p>",
+            "<p>The committee initially asked for a funding of Fifty Lakh rupees, but later settled for a lesser sum.</p>",
+            "<p>This country’s expenditure on educational reforms is very less.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>This country’s expenditure on educational reforms is very less.\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2198/gate-cse-2012-question-59\" target=\"_blank\">https://gateoverflow.in/2198/gate-cse-2012-question-59</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1564\"></a><div itemprop=\"text\"><p>Choose the grammatically <strong>INCORRECT</strong> sentence:</p>\n\n<p></p></div><br><br><b>GATE CSE 2013 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>He is of Asian origin.<br></p>",
+            "<p>They belonged to Africa.<br></p>",
+            "<p>She is an European.<br></p>",
+            "<p>They migrated from India to Australia.</p>"
+          ],
+          "correct_answer": "<p>She is an European.<br></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1564/gate-cse-2013-question-60\" target=\"_blank\">https://gateoverflow.in/1564/gate-cse-2013-question-60</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8041\"></a><div itemprop=\"text\"><p>Out of the following \\( 4 \\) sentences, select the most suitable sentence with respect to grammar and usage:</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Since the report lacked needed information, it was of no use to them.</p>",
+            "<p>The report was useless to them because there were no needed information in it.</p>",
+            "<p>Since the report did not contain the needed information, it was not real useful to them.</p>",
+            "<p>Since the report lacked needed information, it would not had been useful to them.</p>"
+          ],
+          "correct_answer": "<p>Since the report lacked needed information, it was of no use to them.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10\" target=\"_blank\">https://gateoverflow.in/8041/gate-cse-2015-set-2-question-ga-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"39608\"></a><div itemprop=\"text\"><p>Out of the following four sentences, select the most suitable sentence with respect to grammar and usage.</p>\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: GA01</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I will not leave the place until the minister does not meet me.</p>",
+            "<p>I will not leave the place until the minister doesn't meet me.</p>",
+            "<p>I will not leave the place until the minister meet me.</p>",
+            "<p>I will not leave the place until the minister meets me.</p>"
+          ],
+          "correct_answer": "<p>I will not leave the place until the minister meets me.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01\" target=\"_blank\">https://gateoverflow.in/39608/gate-cse-2016-set-1-question-ga01</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359909\"></a><div itemprop=\"text\"><ol style=\"list-style-type:lower-roman\"><li>Arun and Aparna are here.</li><li>Arun and Aparna is here.</li><li>Arun’s families is here.</li><li>Arun’s family is here.</li></ol><p>Which of the above sentences are grammatically \\( \\text{CORRECT} \\)?</p></div><br><br><b>GATE Civil 2021 Set 2 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i) and (ii)} \\)</p>",
+            "<p>\\( \\text{(i) and (iv)} \\)</p>",
+            "<p>\\( \\text{(ii) and (iv)} \\)</p>",
+            "<p>\\( \\text{(iii) and (iv)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i) and (iv)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359909/gate-civil-2021-set-2-ga-question-1\" target=\"_blank\">https://gateoverflow.in/359909/gate-civil-2021-set-2-ga-question-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359488\"></a><div itemprop=\"text\"><p>Consider the following sentences:</p><ol start=\"1\" style=\"list-style-type:lower-roman\"><li>After&nbsp;his surgery, Raja hardly could walk.</li><li>After&nbsp;his surgery, Raja could barely walk.</li><li>After&nbsp;his surgery, Raja barely could walk.</li><li>After&nbsp;his surgery, Raja could hardly walk.</li></ol><p>Which of the above sentences are grammatically \\( \\text{CORRECT} \\)?</p></div><br><br><b>GATE Mechanical 2021 Set 1 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i)&nbsp;and (ii)} \\)</p>",
+            "<p>\\( \\text{(i) and (iii)} \\)</p>",
+            "<p>\\( \\text{(iii) and (iv)} \\)</p>",
+            "<p>\\( \\text{(ii) and (iv)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(ii) and (iv)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359488/gate-mechanical-2021-set-1-ga-question-1\" target=\"_blank\">https://gateoverflow.in/359488/gate-mechanical-2021-set-1-ga-question-1</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359509\"></a><div itemprop=\"text\"><p>Consider the following sentences:</p><ol style=\"list-style-type:lower-roman\"><li>The number of candidates who appear for the \\( \\text{GATE} \\) examination is staggering.</li><li>A number of candidates from my class are appearing for the \\( \\text{GATE} \\) examination.</li><li>The number of candidates who appear for the \\( \\text{GATE} \\) examination are staggering.</li><li>A number of candidates from my class is appearing for the \\( \\text{GATE} \\) examination.</li></ol><p>Which of the above sentences are grammatically \\( \\text{CORRECT} \\)?</p></div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(i) and (ii)} \\)</p>",
+            "<p>\\( \\text{(i) and (iii)} \\)</p>",
+            "<p>\\( \\text{(ii) and (iii)} \\)</p>",
+            "<p>\\( \\text{(ii) and (iv)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(i) and (ii)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359509/gate-mechanical-2021-set-2-ga-question-2\" target=\"_blank\">https://gateoverflow.in/359509/gate-mechanical-2021-set-2-ga-question-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40224\"></a><div itemprop=\"text\"><p>Choose the grammatically CORRECT sentence:</p>\n\n</div><br><br><b>GATE2012 AR: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>He laid in bed till \\( 8 \\) o’clock in the morning.</p>",
+            "<p>He layed in bed till \\( 8 \\) o’clock in the morning.</p>",
+            "<p>He lain in bed till \\( 8 \\) o’clock in the morning.</p>",
+            "<p>He lay in bed till \\( 8 \\) o’clock in the morning.</p>"
+          ],
+          "correct_answer": "<p>He lay in bed till \\( 8 \\) o’clock in the morning.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40224/gate2012-ar-ga-3\" target=\"_blank\">https://gateoverflow.in/40224/gate2012-ar-ga-3</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"40291\"></a><div itemprop=\"text\"><p>Choose the grammatically <strong>CORRECT </strong>sentence:</p>\n\n</div><br><br><b>GATE2013 EE: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Two and two add four.</p>",
+            "<p>Two and two become four.</p>",
+            "<p>Two and two are four.</p>",
+            "<p>Two and two make four.</p>"
+          ],
+          "correct_answer": "<p>Two and two make four.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40291/gate2013-ee-ga-4\" target=\"_blank\">https://gateoverflow.in/40291/gate2013-ee-ga-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Binary Search Tree",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Binary Search Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337215\"></a><div itemprop=\"text\"><p>You are given the postorder traversal, \\( P \\), of a binary search tree on the \\( n \\) elements \\( 1,2,\\dots,n. \\) You have to determine the unique binary search tree that has \\( P \\) as its postorder traversal. What is the time complexity of the most efficient algorithm for doing this?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(\\log n) \\)</p>",
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n \\log n) \\)</p>",
+            "<p>None of the above, as the tree cannot be uniquely determined.</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337215/nielit-2016-mar-scientist-c-section-c-50\" target=\"_blank\">https://gateoverflow.in/337215/nielit-2016-mar-scientist-c-section-c-50</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275497\"></a><div itemprop=\"text\"><p>____ is the worst-case time complexity for all operations (i.e.,) search, update and delete) in a general Binary Search tree</p>\n\n</div><br><br><b>Data Structures: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>",
+            "<p>\\( O( \\log n) \\) for search and insert, and \\( O(n) \\) for delete</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275497/nielit-2018-67\" target=\"_blank\">https://gateoverflow.in/275497/nielit-2018-67</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351367\"></a><div itemprop=\"text\"><p>When we perform in order traversal on a binary tree, we get the ascending order array. The tree is:</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientific Assistant A 2020 November: 93</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Heap tree</p>",
+            "<p>almost complete binary tree</p>",
+            "<p>Binary search tree</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<p>Binary search tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351367/nielit-scientific-assistant-a-2020-november-93\" target=\"_blank\">https://gateoverflow.in/351367/nielit-scientific-assistant-a-2020-november-93</a></p>"
+        }
+      ]
+    }
+  ]
+});

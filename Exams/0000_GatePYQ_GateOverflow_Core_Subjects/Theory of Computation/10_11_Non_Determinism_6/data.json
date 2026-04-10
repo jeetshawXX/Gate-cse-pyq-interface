@@ -1,0 +1,104 @@
+{
+  "title": "Theory of Computation - Non Determinism",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Non Determinism",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"577\"></a><div itemprop=\"text\"><p>In which of the cases stated below is the following statement true?<br>\n\"For every non-deterministic machine \\( M_{1} \\) there exists an equivalent deterministic machine \\( M_{2} \\) recognizing the same language\". &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>\n\n</div><br><br><b>GATE CSE 1992 | Question: 02,xx</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( M_{1} \\) is non-deterministic finite automaton.</p>",
+            "<p>\\( M_{1} \\) is non-deterministic PDA.</p>",
+            "<p>\\( M_{1} \\) is a non-deterministic Turing machine.</p>",
+            "<p>For no machines \\( M_{1} \\) and \\( M_2 \\), &nbsp;the above statement true.</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( M_{1} \\) is non-deterministic finite automaton.</p>",
+            "<p>\\( M_{1} \\) is a non-deterministic Turing machine.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/577/gate-cse-1992-question-02-xx\" target=\"_blank\">https://gateoverflow.in/577/gate-cse-1992-question-02-xx</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2459\"></a><div itemprop=\"text\"><p>Which of the following conversions is not possible (algorithmically)?</p></div><br><br><b>GATE CSE 1994 | Question: 1.16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regular grammar to context free grammar</p>",
+            "<p>Non-deterministic FSA to deterministic FSA</p>",
+            "<p>Non-deterministic PDA to deterministic PDA</p>",
+            "<p>Non-deterministic Turing machine to deterministic Turing machine</p>"
+          ],
+          "correct_answer": "<p>Non-deterministic PDA to deterministic PDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2459/gate-cse-1994-question-1-16\" target=\"_blank\">https://gateoverflow.in/2459/gate-cse-1994-question-1-16</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1648\"></a><div itemprop=\"text\"><p>Regarding the power of recognition of languages, which of the following statements is false?</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The non-deterministic finite-state automata are equivalent to deterministic finite-state automata.</p>",
+            "<p>Non-deterministic Push-down automata are equivalent to deterministic Push-down automata.</p>",
+            "<p>Non-deterministic Turing machines are equivalent to deterministic Turing machines.</p>",
+            "<p>Multi-tape Turing machines are available are equivalent to Single-tape Turing machines.</p>"
+          ],
+          "correct_answer": "<p>Non-deterministic Push-down automata are equivalent to deterministic Push-down automata.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1648/gate-cse-1998-question-1-11\" target=\"_blank\">https://gateoverflow.in/1648/gate-cse-1998-question-1-11</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1377\"></a><div itemprop=\"text\"><p>Let \\( N_f \\) and \\( N_p \\) denote the classes of languages accepted by non-deterministic finite automata and non-deterministic push-down automata, respectively. Let \\( D_f \\) and \\( D_p \\) denote the classes of languages accepted by deterministic finite automata and deterministic push-down automata respectively. Which one of the following is TRUE?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( D_f \\subset N_f \\text{ and } D_p \\subset N_p \\)</p>",
+            "<p>\\( D_f \\subset N_f \\text{ and } D_p = N_p \\)</p>",
+            "<p>\\( D_f = N_f \\text{ and } D_p = N_p \\)</p>",
+            "<p>\\( D_f =N_f \\text{ and } D_p \\subset N_p \\)</p>"
+          ],
+          "correct_answer": "<p>\\( D_f =N_f \\text{ and } D_p \\subset N_p \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1377/gate-cse-2005-question-54\" target=\"_blank\">https://gateoverflow.in/1377/gate-cse-2005-question-54</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2110\"></a><div itemprop=\"text\"><p>Which of the following pairs have&nbsp;<strong>DIFFERENT&nbsp;</strong>expressive power?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Deterministic finite automata (DFA) and Non-deterministic finite automata (NFA)</p>",
+            "<p>Deterministic push down automata (DPDA) and Non-deterministic push down automata (NPDA)</p>",
+            "<p>Deterministic single tape Turing machine and Non-deterministic single tape Turing machine</p>",
+            "<p>Single tape Turing machine and multi-tape Turing machine</p>"
+          ],
+          "correct_answer": "<p>Deterministic push down automata (DPDA) and Non-deterministic push down automata (NPDA)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2110/gate-cse-2011-question-8\" target=\"_blank\">https://gateoverflow.in/2110/gate-cse-2011-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3650\"></a><div itemprop=\"text\"><p>Which one of the following statements is FALSE?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There exist context-free languages such that all the context-free grammars generating them are ambiguous</p>",
+            "<p>An unambiguous context-free grammar always has a unique parse tree for each string of the language generated by it</p>",
+            "<p>Both deterministic and non-deterministic pushdown automata always accept the same set of languages</p>",
+            "<p>A finite set of string from some alphabet is always a regular language</p>"
+          ],
+          "correct_answer": "<p>Both deterministic and non-deterministic pushdown automata always accept the same set of languages</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3650/gate-it-2004-question-9\" target=\"_blank\">https://gateoverflow.in/3650/gate-it-2004-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

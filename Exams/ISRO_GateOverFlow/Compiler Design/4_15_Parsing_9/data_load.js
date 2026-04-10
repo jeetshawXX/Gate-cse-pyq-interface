@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Parsing",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Parsing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"51695\"></a><div itemprop=\"text\"><p>Which variable does not drive a terminal string in grammar?</p>\n\n<ul>\n\t<li>\\( S \\rightarrow AB \\)</li>\n\t<li>\\( A \\rightarrow a \\)</li>\n\t<li>\\( B \\rightarrow b \\)</li>\n\t<li>\\( B \\rightarrow C \\)</li>\n</ul>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2011 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A</p>",
+            "<p>B</p>",
+            "<p>C</p>",
+            "<p>S</p>"
+          ],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51695/isro-cse-2011-question-43\" target=\"_blank\">https://gateoverflow.in/51695/isro-cse-2011-question-43</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"17222\"></a><div itemprop=\"text\"><p>What is the number of steps required to derive the string&nbsp;\\( ((()\\; ())\\; ()) \\) for the following grammar?</p>\n\n<ul>\n\t<li>\\( S \\to SS \\)</li>\n\t<li>\\( S \\to (S) \\)</li>\n\t<li>\\( S \\to \\varepsilon \\)</li>\n</ul>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2014 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( 12 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 15 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17222/isro-cse-2014-question-5\" target=\"_blank\">https://gateoverflow.in/17222/isro-cse-2014-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"56036\"></a><div itemprop=\"text\">\n<p>Recursive descent parsing is an example of</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2016 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Top-down parsers</p>",
+            "<p>Bottom-up parsers</p>",
+            "<p>Predictive parsers</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Top-down parsers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56036/isro-cse-2016-question-40\" target=\"_blank\">https://gateoverflow.in/56036/isro-cse-2016-question-40</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55922\"></a><div itemprop=\"text\">\n<p>A top-down parser generates</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2016 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rightmost Derivation</p>",
+            "<p>Rightmost derivation in reverse</p>",
+            "<p>Leftmost derivation</p>",
+            "<p>Leftmost derivation in reverse</p>"
+          ],
+          "correct_answer": "<p>Leftmost derivation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55922/isro-cse-2016-question-41\" target=\"_blank\">https://gateoverflow.in/55922/isro-cse-2016-question-41</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"435374\"></a><div itemprop=\"text\"><p>In the context of parsing techniques, LL\\( (1) \\) refers to:</p></div><br><br><b>Compiler Design: ISRO CSE 2023 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Grammars that parse the input from left to right, produce a rightmost derivation, with a lookahead of \\( 1 \\) symbol.</p>",
+            "<p>Grammars that parse the input from left to right, produce a leftmost derivation, with a lookahead of \\( 1 \\) symbol.</p>",
+            "<p>Grammars that parse the input from left to right, and backtrack at most once.</p>",
+            "<p>Grammars that parse the input from right to left, produce a leftmost derivation, and backtrack at most once.<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Grammars that parse the input from left to right, produce a leftmost derivation, with a lookahead of \\( 1 \\) symbol.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435374/isro-cse-2023-question-22\" target=\"_blank\">https://gateoverflow.in/435374/isro-cse-2023-question-22</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"43755\"></a><div itemprop=\"text\">\n<p>Shift reduce parsing belongs to a class of</p>\n\n\n</div><br><br><b>Compiler Design: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bottom up parsing.</p>",
+            "<p>Top down parsing.</p>",
+            "<p>Recursive parsing.</p>",
+            "<p>Predictive parsing.</p>"
+          ],
+          "correct_answer": "<p>Bottom up parsing.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43755/isro-2013-5\" target=\"_blank\">https://gateoverflow.in/43755/isro-2013-5</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"51207\"></a><div itemprop=\"text\"><p>Which one of the following is a top-down parser?</p>\n\n</div><br><br><b>Compiler Design: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Recursive descent parser</p>",
+            "<p>Shift left associative parser</p>",
+            "<p>\\( \\text{SLR}(k) \\) parser</p>",
+            "<p>\\( \\text{LR}(k) \\) parser</p>"
+          ],
+          "correct_answer": "<p>Recursive descent parser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51207/isro2015-27\" target=\"_blank\">https://gateoverflow.in/51207/isro2015-27</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"51209\"></a><div itemprop=\"text\"><p>Yacc stands for</p>\n\n</div><br><br><b>Compiler Design: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>yet accept compiler constructs</p>",
+            "<p>yet accept compiler compiler</p>",
+            "<p>yet another compiler constructs</p>",
+            "<p>yet another compiler compiler</p>"
+          ],
+          "correct_answer": "<p>yet another compiler compiler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51209/isro2015-28\" target=\"_blank\">https://gateoverflow.in/51209/isro2015-28</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"51210\"></a><div itemprop=\"text\"><p>Which statement is true?</p>\n\n</div><br><br><b>Compiler Design: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>LALR parser is more powerful and costly as compare to other parsers</p>",
+            "<p>All CFG's are LP and not all grammars are uniquely defined</p>",
+            "<p>Every SLR grammar is unambiguous but not every unambiguous grammar is SLR</p>",
+            "<p>\\( \\text{LR(K)} \\) is the most general back tracking shift reduce parsing method</p>"
+          ],
+          "correct_answer": "<p>Every SLR grammar is unambiguous but not every unambiguous grammar is SLR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51210/isro2015-29\" target=\"_blank\">https://gateoverflow.in/51210/isro2015-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

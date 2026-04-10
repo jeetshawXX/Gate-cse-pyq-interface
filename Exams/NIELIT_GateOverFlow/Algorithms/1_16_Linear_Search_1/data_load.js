@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Linear Search",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Linear Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369296\"></a><div itemprop=\"text\"><p>Worst case scenario in case of linear search algorithm is ______________ .</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Item is somewhere in the middle of the array.</p>",
+            "<p>Item is not in the array at all.</p>",
+            "<p>Item is the last element in the array.</p>",
+            "<p>Item is the last element in the array or is not there at all.</p>"
+          ],
+          "correct_answer": "<p>Item is the last element in the array or is not there at all.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369296/nielit-2021-dec-scientist-a-section-b-117\" target=\"_blank\">https://gateoverflow.in/369296/nielit-2021-dec-scientist-a-section-b-117</a></p>"
+        }
+      ]
+    }
+  ]
+});

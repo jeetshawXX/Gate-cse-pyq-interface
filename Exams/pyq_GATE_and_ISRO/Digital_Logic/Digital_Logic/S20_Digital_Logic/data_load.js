@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 20",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of full and half-adders required to add 16-bit numbers is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 half-adders, 8 full-adders</p>",
+            "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+            "<b>C.</b> <p>16 half-adders, 0 full-adders</p>",
+            "<b>D.</b> <p>4 half-adders, 12 full-adders</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1494/gate1999-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following sets of component(s) is/are sufficient to implement any arbitrary Boolean function? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>XOR gates, NOT gates</p>",
+            "<b>B.</b> <p>2 to 1 multiplexers</p>",
+            "<b>C.</b> <p>AND gates, XOR gates</p>",
+            "<b>D.</b> <p>Three-input gates that output (A.B)+C for the inputs A,B and C.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 to 1 multiplexers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1487/gate1999-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the circuit shown below. In a certain steady state, the line Y is at '1'. What are the possible values of A, B and C in this state?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q2.12_bf1b9247.jpg\"><br> <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A=0,B=0,C=1</p>",
+            "<b>B.</b> <p>A=0,B=1,C=1</p>",
+            "<b>C.</b> <p>A=1,B=0,C=1</p>",
+            "<b>D.</b> <p>A=1,B=1,C=1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A=0,B=1,C=1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1486/gate1999-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The maximum gate delay for any output to appear in an array multiplier for multiplying two n bit numbers is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n^2)\\)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>D.</b> <p>O(1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1475/gate1999-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Booth's coding in 8 bits for the decimal number -57 is: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0-100+1000</p>",
+            "<b>B.</b> <p>0-100+100-1</p>",
+            "<b>C.</b> <p>0-1+100-10+1</p>",
+            "<b>D.</b> <p>00-10+100-1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0-100+100-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1473/gate1999-1-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following functions implements the Karnaugh map shown below?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q1.8_cc87bfe1.jpg\"><br> <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{A}B + CD\\)</p>",
+            "<b>B.</b> <p>\\(D(C+A)\\)</p>",
+            "<b>C.</b> <p>\\(AD+\\bar{A}B\\)</p>",
+            "<b>D.</b> <p>\\((C+D) (\\bar{C}+D) + (A+B)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(D(C+A)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1461/gate1999-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following expressions is not equivalent to \\(\\bar{x}\\)? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x NAND x</p>",
+            "<b>B.</b> <p>x NOR x</p>",
+            "<b>C.</b> <p>x NAND 1</p>",
+            "<b>D.</b> <p>x NOR 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x NOR 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1460/gate1999-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose the domain set of an attribute consists of signed four digit numbers. What is the percentage of reduction in storage space of this attribute if it is stored as an integer rather than in character form? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>80%</p>",
+            "<b>B.</b> <p>20%</p>",
+            "<b>C.</b> <p>60%</p>",
+            "<b>D.</b> <p>40%</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>60%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1693/gate1998-2-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following operations is commutative but not associative? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>AND</p>",
+            "<b>B.</b> <p>OR</p>",
+            "<b>C.</b> <p>NAND</p>",
+            "<b>D.</b> <p>EXOR</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>NAND</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1680/gate1998-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The function represented by the Karnaugh map given below is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q2.7_38c7ce3d.jpg\"><br> <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A \\cdot B\\)</p>",
+            "<b>B.</b> <p>\\(AB+BC+CA\\)</p>",
+            "<b>C.</b> <p>\\(\\overline{B \\oplus C}\\)</p>",
+            "<b>D.</b> <p>\\(A \\cdot BC\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\overline{B \\oplus C}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1679/gate1998-2-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The octal representation of an integer is \\((342)_8\\). If this were to be treated as an eight-bit integer in an 8085 based computer, its decimal equivalent is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>226</p>",
+            "<b>B.</b> <p>-98</p>",
+            "<b>C.</b> <p>76</p>",
+            "<b>D.</b> <p>-30</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>-30</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1654/gate1998-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The threshold level for logic 1 in the TTL family is <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>any voltage above 2.5 V</p>",
+            "<b>B.</b> <p>any voltage between 0.8 V and 5.0 V</p>",
+            "<b>C.</b> <p>any voltage below 5.0 V</p>",
+            "<b>D.</b> <p>any voltage below \\(V_{cc}\\) but above 2.8 V</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>any voltage below \\(V_{cc}\\) but above 2.8 V</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1652/gate1998-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A multiplexer with a 4-bit data select input is a <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4:1 multiplexer</p>",
+            "<b>B.</b> <p>2:1 multiplexer</p>",
+            "<b>C.</b> <p>16:1 multiplexer</p>",
+            "<b>D.</b> <p>8:1 multiplexer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16:1 multiplexer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1651/gate1998-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>What happens when a bit-string is XORed with itself n-times as shown:<br>\n\\(\\left[B \\oplus (B \\oplus ( B \\oplus (B \\dots n \\text{ times}\\right]\\) <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>complements when n is even</p>",
+            "<b>B.</b> <p>complements when n is odd</p>",
+            "<b>C.</b> <p>divides by \\(2^n\\) always</p>",
+            "<b>D.</b> <p>remains unchanged when n is even</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>remains unchanged when n is even</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1650/gate1998-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a logic circuit shown in figure below. The functions \\(f_1, f_2 \\text{ and }f\\)  (in canonical sum of products form in decimal notation) are :<br>\n\\(f_1 (w, x, y, z) = \\sum 8, 9, 10\\)<br>\n\\(f_2 (w, x, y, z) = \\sum 7, 8, 12, 13, 14, 15\\)<br>\n\\(f (w, x, y, z) = \\sum 8, 9\\)<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q5.5_1aa1e9e8.jpg\"><br>The function \\(f_3\\) is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sum 9, 10\\)</p>",
+            "<b>B.</b> <p>\\(\\sum 9\\)</p>",
+            "<b>C.</b> <p>\\(\\sum 1, 8, 9\\)</p>",
+            "<b>D.</b> <p>\\(\\sum 8, 10, 15\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\sum 9\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2256/gate1997-5-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

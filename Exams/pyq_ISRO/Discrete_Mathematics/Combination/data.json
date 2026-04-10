@@ -1,0 +1,26 @@
+{
+  "title": "Discrete_Mathematics - Combination",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Combination",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of bit strings of length 8 that will either start with 1 or end with 00 is? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32</p>",
+            "<b>B.</b> <p>128</p>",
+            "<b>C.</b> <p>160</p>",
+            "<b>D.</b> <p>192</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>160</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15898/isro2014-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

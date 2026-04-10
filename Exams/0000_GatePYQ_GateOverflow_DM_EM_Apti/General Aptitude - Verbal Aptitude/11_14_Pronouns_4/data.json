@@ -1,0 +1,71 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - Pronouns",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Pronouns",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411893\"></a><div itemprop=\"text\"><p>&nbsp;\"You are delaying the completion of the task. Send _________ contributions at the earliest.\"</p></div><br><br><b>GATE CH 2023 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>you are</p>",
+            "<p>your&nbsp;</p>",
+            "<p>you're&nbsp;</p>",
+            "<p>yore</p>"
+          ],
+          "correct_answer": "<p>your&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411893/gate-ch-2023-ga-question-1\" target=\"_blank\">https://gateoverflow.in/411893/gate-ch-2023-ga-question-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"359757\"></a><div itemprop=\"text\"><p>The people _______________ were at the demonstration were from all sections of society.</p></div><br><br><b>GATE Electrical 2021 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>whose</p>",
+            "<p>which</p>",
+            "<p>who</p>",
+            "<p>whom</p>"
+          ],
+          "correct_answer": "<p>who</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359757/gate-electrical-2021-ga-question-1\" target=\"_blank\">https://gateoverflow.in/359757/gate-electrical-2021-ga-question-1</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"313444\"></a><div itemprop=\"text\"><p>The CEO’s decision to quit was as shocking to the Board as it was to ______.</p></div><br><br><b>GATE2019 CE-1: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I</p>",
+            "<p>me</p>",
+            "<p>my</p>",
+            "<p>myself&nbsp;</p>"
+          ],
+          "correct_answer": "<p>me</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313444/gate2019-ce-1-ga-5\" target=\"_blank\">https://gateoverflow.in/313444/gate2019-ce-1-ga-5</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"313550\"></a><div itemprop=\"text\"><p>The fisherman, ________ the flood victims owed their lives, were rewarded by the government.</p></div><br><br><b>GATE2019 IN: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>whom</p>",
+            "<p>to which</p>",
+            "<p>to whom</p>",
+            "<p>that</p>"
+          ],
+          "correct_answer": "<p>to whom</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313550/gate2019-in-ga-1\" target=\"_blank\">https://gateoverflow.in/313550/gate2019-in-ga-1</a></p>"
+        }
+      ]
+    }
+  ]
+}

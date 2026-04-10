@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Functions",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"54987\"></a><div itemprop=\"text\"><p>Let \\( \\text{A} \\) be a finite set having \\( x \\) elements and let \\( \\text{B} \\) be a finite set having \\( y \\) elements. What is the number of distinct functions mapping \\( \\text{B} \\) into \\( \\text{A} \\).</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO CSE 2014 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x^y \\)</p>",
+            "<p>\\( 2^{(x+y)} \\)</p>",
+            "<p>\\( y^x \\)</p>",
+            "<p>\\( y! / (y-x)! \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x^y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54987/isro-cse-2014-question-50\" target=\"_blank\">https://gateoverflow.in/54987/isro-cse-2014-question-50</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182055\"></a><div itemprop=\"text\"><p>Let \\( f(x)=\\log|x| \\) and&nbsp;\\( g(x) =\\sin x \\). If \\( A \\) is the range of&nbsp;\\( f(g(x)) \\) and \\( B \\) is the range of \\( g(f(x)) \\)&nbsp;then&nbsp;\\( A\\cap B \\) is</p>\n\n</div><br><br><b>Set Theory & Algebra: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( [-1,0] \\)</p>",
+            "<p>\\( [-1,0) \\)</p>",
+            "<p>\\( [-\\infty ,0] \\)</p>",
+            "<p>\\( [-\\infty ,1] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( [-1,0] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182055/isro-dec2017-5\" target=\"_blank\">https://gateoverflow.in/182055/isro-dec2017-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

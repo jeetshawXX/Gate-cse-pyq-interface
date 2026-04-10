@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Verbal Reasoning",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435303\"></a><div itemprop=\"text\"><p>Fact 1: Pictures can tell a story.<br><br>Fact 2: All storybooks have pictures.</p><p>Fact 3: Some storybooks have words.</p><p>If the first three statements are facts, which of the following statements must also be a fact?</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>Pictures can tell a story better than words can.</li><li>The stories in storybooks are very simple.</li><li>Some storybooks have both words and pictures.</li></ol><p>&nbsp;</p></div><br><br><b>Analytical Aptitude: ISRO CSE 2023 | Question: 92</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>III only</p>",
+            "<p>None of the statements is a known fact<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435303/isro-cse-2023-question-92\" target=\"_blank\">https://gateoverflow.in/435303/isro-cse-2023-question-92</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Compiler_Design - Compiler_Design - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following derivations does a top-down parser use while parsing an input string? The input is scanned from left to right. <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Leftmost derivation</p>",
+            "<b>B.</b> <p>Leftmost derivation traced out in reverse</p>",
+            "<b>C.</b> <p>Rightmost derivation</p>",
+            "<b>D.</b> <p>Rightmost derivation traced out in reverse</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Leftmost derivation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/642/gate2000-1-19-ugcnet-dec2013-ii-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The number of tokens in the following C statement is<br><pre><code> printf(\"i=%d, &amp;i=%x\", i, &amp;i);</code></pre> <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>26</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>21</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/641/gate2000-1-18-isro2015-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A grammar that is both left and right recursive for a non-terminal, is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ambiguous</p>",
+            "<b>B.</b> <p>Unambiguous</p>",
+            "<b>C.</b> <p>Information is not sufficient to decide whether it is ambiguous or unambiguous</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Information is not sufficient to decide whether it is ambiguous or unambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1493/gate1999-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The number of tokens in the FORTRAN statement DO 10 I = 1.25 is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1492/gate1999-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following is the most powerful parsing method? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LL (1)</p>",
+            "<b>B.</b> <p>Canonical LR</p>",
+            "<b>C.</b> <p>SLR</p>",
+            "<b>D.</b> <p>LALR</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Canonical LR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1470/gate1999-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The overlay tree for a program is as shown below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q2.16_85b2e6fd.jpg\"><br>What will be the size of the partition (in physical memory) required to load (and run) this program? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12 KB</p>",
+            "<b>B.</b> <p>14 KB</p>",
+            "<b>C.</b> <p>10 KB</p>",
+            "<b>D.</b> <p>8 KB</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>14 KB</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1689/gate1998-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Faster access to non-local variables is achieved using an array of pointers to activation records called a <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>stack</p>",
+            "<b>B.</b> <p>heap</p>",
+            "<b>C.</b> <p>display</p>",
+            "<b>D.</b> <p>activation tree</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>display</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1687/gate1998-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A linker reads four modules whose lengths are 200, 800, 600 and 500 words, respectively. If they are loaded in that order, what are the relocation constants? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(0, 200, 500, 600\\)</p>",
+            "<b>B.</b> <p>\\(0, 200, 1000, 1600\\)</p>",
+            "<b>C.</b> <p>\\(200, 500, 600, 800\\)</p>",
+            "<b>D.</b> <p>\\(200, 700, 1300, 2100\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(0, 200, 1000, 1600\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1665/gate1998-1-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Type checking is normally done during <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lexical analysis</p>",
+            "<b>B.</b> <p>syntax analysis</p>",
+            "<b>C.</b> <p>syntax directed translation</p>",
+            "<b>D.</b> <p>code optimization</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>syntax directed translation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1664/gate1998-1-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following statements is true? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SLR parser is more powerful than LALR</p>",
+            "<b>B.</b> <p>LALR parser is more powerful than Canonical LR parser</p>",
+            "<b>C.</b> <p>Canonical LR parser is more powerful than LALR parser</p>",
+            "<b>D.</b> <p>The parsers SLR, Canonical CR, and LALR have the same power</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Canonical LR parser is more powerful than LALR parser</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1663/gate1998-1-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a resident-OS computer, which of the following systems must reside in the main memory under all situations? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Assembler</p>",
+            "<b>B.</b> <p>Linker</p>",
+            "<b>C.</b> <p>Loader</p>",
+            "<b>D.</b> <p>Compiler</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1662/gate1998-1-25-isro2008-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The expression \\(( a * b) * c \\; op \\dots\\)<br>\nwhere 'op' is one of '+', '*' and '\\(\\uparrow\\)' (exponentiation) can be evaluated on a CPU with single register without  storing the value of (a * b) if <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>op' is '+' or '*'</p>",
+            "<b>B.</b> <p>op' is '\\(\\uparrow\\)' or '*'</p>",
+            "<b>C.</b> <p>op' is '\\(\\uparrow\\)' or '+'</p>",
+            "<b>D.</b> <p>not possible to evaluate without storing</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>op' is '+' or '*'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2250/gate1997-4-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Heap allocation is required for languages. <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>that support recursion</p>",
+            "<b>B.</b> <p>that support dynamic data structure</p>",
+            "<b>C.</b> <p>that use dynamic scope rules</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>that support dynamic data structure</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2226/gate1997-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A language L allows declaration of arrays whose sizes are not known during compilation. It is required to make efficient use of memory. Which one of the following is true? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A compiler using static memory allocation can be written for L</p>",
+            "<b>B.</b> <p>A compiler cannot be written for L; an interpreter must be used</p>",
+            "<b>C.</b> <p>A compiler using dynamic memory allocation can be written for L</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A compiler using dynamic memory allocation can be written for L</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2224/gate1997-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>In the following grammar<br>\n\\(\\begin{aligned} X &amp;::= X \\oplus Y \\mid Y \\\\ Y&amp;::= Z * Y \\mid Z\\\\ Z&amp;::= id \\end{aligned}\\)<br>\nWhich of the following is true? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>'\\(\\oplus\\)' is left associative while '*' is right associative</p>",
+            "<b>B.</b> <p>Both '\\(\\oplus\\)' and '*' are left associative</p>",
+            "<b>C.</b> <p>'\\(\\oplus\\)' is right associative while '*' is left associative</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>'\\(\\oplus\\)' is left associative while '*' is right associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2222/gate1997-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

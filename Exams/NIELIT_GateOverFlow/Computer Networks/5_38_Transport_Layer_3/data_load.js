@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Transport Layer",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Transport Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336813\"></a><div itemprop=\"text\"><p>Which layer connects the network support layers and user support layers ?</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>transport layer</p>",
+            "<p>network layer</p>",
+            "<p>data link layer</p>",
+            "<p>session layer</p>"
+          ],
+          "correct_answer": "<p>transport layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336813/nielit-2017-dec-scientific-assistant-a-section-b-33\" target=\"_blank\">https://gateoverflow.in/336813/nielit-2017-dec-scientific-assistant-a-section-b-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"275519\"></a><div itemprop=\"text\"><p>______ transport layer protocol is used to support electronic mail</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SNMP</p>",
+            "<p>IP</p>",
+            "<p>SMTP</p>",
+            "<p>TCP</p>"
+          ],
+          "correct_answer": "<p>TCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275519/nielit-2018-45\" target=\"_blank\">https://gateoverflow.in/275519/nielit-2018-45</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"366925\"></a><div itemprop=\"text\"><p>Which address is used to identify a process on a host by the transport layer \\( ? \\)</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>physical address</p>",
+            "<p>logical address</p>",
+            "<p>port address</p>",
+            "<p>specific address</p>"
+          ],
+          "correct_answer": "<p>port address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366925/nielit-2021-dec-scientist-b-section-b-92\" target=\"_blank\">https://gateoverflow.in/366925/nielit-2021-dec-scientist-b-section-b-92</a></p>"
+        }
+      ]
+    }
+  ]
+});

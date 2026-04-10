@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Artificial Intelligence - UGC NET CSE  July 2016  Part 3  Question",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "UGC NET CSE  July 2016  Part 3  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"360639\"></a><div itemprop=\"text\"><p>A software program that infers and manipulates existing knowledge in order to generate new knowledge is known as:</p></div><br><br><b>Artificial Intelligence: UGC NET CSE | July 2016 | Part 3 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Data dictionary</p>",
+            "<p>Reference mechanism</p>",
+            "<p>Inference engine</p>",
+            "<p>Control strategy</p>"
+          ],
+          "correct_answer": "<p>Inference engine</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/360639/ugc-net-cse-july-2016-part-3-question-75\" target=\"_blank\">https://gateoverflow.in/360639/ugc-net-cse-july-2016-part-3-question-75</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"360640\"></a><div itemprop=\"text\"><p>A perceptron has input weights \\( W_1=-3.9 \\) and \\( W_2=1.1 \\) with threshold value \\( T=0.3. \\)&nbsp;What output does it give for the input \\( x_1=1.3 \\) and \\( x_2=2.2? \\)</p></div><br><br><b>Artificial Intelligence: UGC NET CSE | July 2016 | Part 3 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -2.65 \\)</p>",
+            "<p>\\( -2.30 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/360640/ugc-net-cse-july-2016-part-3-question-66\" target=\"_blank\">https://gateoverflow.in/360640/ugc-net-cse-july-2016-part-3-question-66</a></p>"
+        }
+      ]
+    }
+  ]
+});

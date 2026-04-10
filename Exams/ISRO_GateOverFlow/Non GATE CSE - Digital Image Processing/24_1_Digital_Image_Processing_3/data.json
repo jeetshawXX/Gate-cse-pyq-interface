@@ -1,0 +1,56 @@
+{
+  "title": "Non GATE CSE - Digital Image Processing - Digital Image Processing",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Digital Image Processing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49433\"></a><div itemprop=\"text\"><p>What does a pixel mask mean?</p>\n\n</div><br><br><b>Digital Image Processing: ISRO CSE 2014 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>string containing only \\( 1\\text{'s} \\)</p>",
+            "<p>string containing only \\( 0\\text{'s} \\)</p>",
+            "<p>string containing two \\( 0\\text{'s} \\)</p>",
+            "<p>string containing \\( 1\\text{'s} \\) and \\( 0\\text{’s} \\)</p>"
+          ],
+          "correct_answer": "<p>string containing \\( 1\\text{'s} \\) and \\( 0\\text{’s} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49433/isro-cse-2014-question-7\" target=\"_blank\">https://gateoverflow.in/49433/isro-cse-2014-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"43768\"></a><div itemprop=\"text\">\n<p>If the frame buffer has 8 bits per pixel and 8 bits are allocated for each of the \\( R, G, B \\) components, what would be the size of the lookup table?</p>\n\n\n</div><br><br><b>Digital Image Processing: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 24 \\) bytes</p>",
+            "<p>\\( 1024 \\) bytes</p>",
+            "<p>\\( 768 \\) bytes</p>",
+            "<p>\\( 256 \\) bytes&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 768 \\) bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43768/isro-2013-10\" target=\"_blank\">https://gateoverflow.in/43768/isro-2013-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"52128\"></a><div itemprop=\"text\"><p>Which of the following is not an image type used in \\( \\text{MPEG}? \\)</p>\n\n</div><br><br><b>Digital Image Processing: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A} \\) frame</p>",
+            "<p>\\( \\text{B} \\) frame</p>",
+            "<p>\\( \\text{D} \\) frame</p>",
+            "<p>\\( \\text{P} \\) frame</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A} \\) frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52128/isro2015-65\" target=\"_blank\">https://gateoverflow.in/52128/isro2015-65</a></p>"
+        }
+      ]
+    }
+  ]
+}

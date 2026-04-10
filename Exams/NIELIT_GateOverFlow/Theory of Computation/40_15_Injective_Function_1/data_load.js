@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Injective Function",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Injective Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373756\"></a><div itemprop=\"text\"><p>Consider the following two statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>A hash function (these are often used for computing digital signatures) is an injective function.</li>\n\t<li>encryption technique such as \\( \\text{DES} \\) performs a permutation on the elements of its input alphabet.</li>\n</ol>\n\n<p>Which one of the following options is valid for the above two statements?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2022 April Scientist B | Section B | Question: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both are false</p>",
+            "<p>Statement \\( (i) \\) is true and the other is false</p>",
+            "<p>Statement \\( (ii) \\) is true and the other is false</p>",
+            "<p>Both are true</p>"
+          ],
+          "correct_answer": "<p>Statement \\( (ii) \\) is true and the other is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373756/nielit-2022-april-scientist-b-section-b-question-82\" target=\"_blank\">https://gateoverflow.in/373756/nielit-2022-april-scientist-b-section-b-question-82</a></p>"
+        }
+      ]
+    }
+  ]
+});

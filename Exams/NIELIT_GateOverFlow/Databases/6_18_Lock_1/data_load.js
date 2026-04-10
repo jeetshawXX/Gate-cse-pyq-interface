@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Lock",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Lock",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336707\"></a><div itemprop=\"text\"><p>Global locks</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>synchronize access to local resources.</p>",
+            "<p>synchronize access to global resources.</p>",
+            "<p>are used to avoid local locks.</p>",
+            "<p>prevent access to global resources.</p>"
+          ],
+          "correct_answer": "<p>synchronize access to global resources.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336707/nielit-2016-mar-scientist-b-section-c-34\" target=\"_blank\">https://gateoverflow.in/336707/nielit-2016-mar-scientist-b-section-c-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

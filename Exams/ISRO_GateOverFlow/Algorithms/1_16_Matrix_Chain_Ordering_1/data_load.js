@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Matrix Chain Ordering",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Matrix Chain Ordering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"331382\"></a><div itemprop=\"text\"><p>Consider product of three matrices \\( M_1,M_2 \\) and \\( M_3 \\) having \\( w \\) rows and \\( x \\) columns, \\( x \\) rows and \\( y \\) columns, and \\( y \\) rows and \\( z \\) columns. Under what condition will it take less time to compute the product as \\( (M_1M_2)M_3 \\) than to compute \\( M_1(M_2M_3) \\) ?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2020 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Always take&nbsp;the same time</p>",
+            "<p>\\( (1/x +1/z)&lt;(1/w+1/y) \\)</p>",
+            "<p>\\( x&gt;y \\)</p>",
+            "<p>\\( (w+x)&gt;(y+z) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (1/x +1/z)&lt;(1/w+1/y) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331382/isro-cse-2020-question-79\" target=\"_blank\">https://gateoverflow.in/331382/isro-cse-2020-question-79</a></p>"
+        }
+      ]
+    }
+  ]
+});

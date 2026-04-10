@@ -1,0 +1,41 @@
+{
+  "title": "Non GATE CSE - Others - Shell Script",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Shell Script",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"54588\"></a><div itemprop=\"text\">\n<p>Which of the following commands will output “onetwothree” ?</p>\n\n\n</div><br><br><b>Others: UGC NET CSE | June 2014 | Part 2 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>for val; do echo-n $val; done &lt; one two three</p>",
+            "<p>for one two three; do echo-n-; done</p>",
+            "<p>for n in one two three; do echo-n $n; done</p>",
+            "<p>for n in one two three {echo –n $ n}&nbsp;</p>"
+          ],
+          "correct_answer": "<p>for n in one two three; do echo-n $n; done</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54588/ugc-net-cse-june-2014-part-2-question-35\" target=\"_blank\">https://gateoverflow.in/54588/ugc-net-cse-june-2014-part-2-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"57015\"></a><div itemprop=\"text\"><p>Match the following with reference to Unix shell scripts \\( : \\)</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;&amp; \\textbf{List – I} &amp; &amp; \\textbf{List – II}&nbsp; \\\\&nbsp;\\text{a.} &amp; \\text{\\ \\)?}&nbsp;&amp; \\text{i.} &amp; \\text{File name of the current script} \\\\&nbsp;\\text{b.} &amp; \\text{\\\\( # } &amp; \\text{ii.} &amp; \\text{List of arguments} \\\\&nbsp;\\text{c.} &amp; \\text{\\ \\)0} &amp; \\text{iii.} &amp; \\text{The number of arguments} \\\\ \\text{d.} &amp; \\text{\\\\( *} &amp; \\text{iv.} &amp; \\text{Exit status of last command} \\\\&nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2014 | Part 3 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iii,&nbsp;b-ii,&nbsp;c-i,&nbsp;d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii,&nbsp;b-iii, c-i,&nbsp;d-iv} \\)</p>",
+            "<p>\\( \\text{a-iv,&nbsp;b-iii,&nbsp;c-i,&nbsp;d-ii} \\)</p>",
+            "<p>\\( \\text{a-i,&nbsp;b-iii, c-i,&nbsp;d-iv} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iv,&nbsp;b-iii,&nbsp;c-i,&nbsp;d-ii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57015/ugc-net-cse-june-2014-part-3-question-39\" target=\"_blank\">https://gateoverflow.in/57015/ugc-net-cse-june-2014-part-3-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

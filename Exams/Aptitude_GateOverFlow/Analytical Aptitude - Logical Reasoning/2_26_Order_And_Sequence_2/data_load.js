@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Order And Sequence",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Order And Sequence",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6552\"></a><div itemprop=\"text\"><p>There is a queue in a ticketing office. Amanda is \\( 10^{th} \\) from the front while Murthy is \\( 25^{th} \\) from behind and Marta is just in the middle of the two. If there be \\( 50 \\) persons in the queue. What position does Marta occupy from the front?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 17 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 18 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6552/nielit-2017-oct-scientific-assistant-a-section-a-13\" target=\"_blank\">https://aptitude.gateoverflow.in/6552/nielit-2017-oct-scientific-assistant-a-section-a-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6551\"></a><div itemprop=\"text\"><p>There are five janitors. Pali, Qureshi, Rohan, Sant and Timber. They all have a different height, Qureshi is shorter than only Timber and Sant is shorter than Pali and Qureshi. Who among them is the shortest?</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rohan</p>",
+            "<p>Sant</p>",
+            "<p>Pali</p>",
+            "<p>Data inadequate</p>"
+          ],
+          "correct_answer": "<p>Data inadequate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6551/nielit-2017-oct-scientific-assistant-a-section-a-14\" target=\"_blank\">https://aptitude.gateoverflow.in/6551/nielit-2017-oct-scientific-assistant-a-section-a-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

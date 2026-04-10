@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Number_System - Number_System - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Number_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The range of integers that can be represented by an n bit 2's complement number system is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-2^{n-1}\\) to \\((2^{n-1}-1)\\)</p>",
+            "<b>B.</b> <p>\\(-(2^{n-1}-1)\\) to \\((2^{n-1}-1)\\)</p>",
+            "<b>C.</b> <p>\\(-2^{n-1}\\) to \\(2^{n-1}\\)</p>",
+            "<b>D.</b> <p>\\(-(2^{n-1}+1)\\) to \\((2^{n-1}-1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(-2^{n-1}\\) to \\((2^{n-1}-1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1352/gate2005-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The number \\((123456)_8\\) is equivalent to<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((A72E)_{16}\\) and \\((22130232)_4\\)</p>",
+            "<b>B.</b> <p>\\((A72E)_{16}\\) and \\((22131122)_4\\)</p>",
+            "<b>C.</b> <p>\\((A73E)_{16}\\) and \\((22130232)_4\\)</p>",
+            "<b>D.</b> <p>\\((A62E)_{16}\\) and \\((22120232)_4\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((A72E)_{16}\\) and \\((22130232)_4\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3686/gate2004-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Using a 4-bit 2's complement arithmetic, which of the following additions will result in an overflow?<br>\nI.   1100 + 1100<br>\nII.  0011 + 0111<br>\nIII. 1111 + 0111<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i only</p>",
+            "<b>B.</b> <p>ii only</p>",
+            "<b>C.</b> <p>iii only</p>",
+            "<b>D.</b> <p>i and iii only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ii only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3685/gate2004-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let A = 1111 1010 and B = 0000 1010 be two 8-bit 2's complement numbers.\nTheir product in 2's complement is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1100 0100</p>",
+            "<b>B.</b> <p>1001 1100</p>",
+            "<b>C.</b> <p>1000 0101</p>",
+            "<b>D.</b> <p>1101 0101</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1100 0100</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1060/gate2004-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is the result of evaluating the following two expressions using three-digit floating point\narithmetic with rounding? <br><br>\n(113. + - 111.) + 7.51 <br>\n113. + (- 111. + 7.51) <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9.51 and 10.0 respectively</p>",
+            "<b>B.</b> <p>10.0 and 9.51 respectively</p>",
+            "<b>C.</b> <p>9.51 and 9.51 respectively</p>",
+            "<b>D.</b> <p>10.0 and 10.0 respectively</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>9.51 and 10.0 respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1025/gate2004-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>If \\(73_{x}\\) (in base-x number system) is equal to \\(54_{y}\\) (in base y-number system), the possible values of x\nand y are <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8,16</p>",
+            "<b>B.</b> <p>10,12</p>",
+            "<b>C.</b> <p>9,13</p>",
+            "<b>D.</b> <p>8,11</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>8,11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1016/gate2004-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The following is a scheme for floating point Number System using 16 bits. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Number_System\\q43_dbca8292.jpg\"> <br> Let s,c and m be the number represented in binary in the sign, exponent, and\nmantissa fields respectively. Then the flouting point number represented id \\(\\left\\{\\begin{matrix} (-1)^{s}(1+m*2^{-9})2^{e-31}, &amp; if \\; the \\; exponent \\neq 111111 \\\\ 0&amp; otherwise \\end{matrix}\\right.\\)<br> What is the maximum difference between two successive real numbers representable in this system? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{-40}\\)</p>",
+            "<b>B.</b> <p>\\(2^{-9}\\)</p>",
+            "<b>C.</b> <p>\\(2^{22}\\)</p>",
+            "<b>D.</b> <p>\\(2^{31}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{22}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/934/gate2003-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the set {a, b, c} with binary operators + and x defined as follows :  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Number_System\\q38_3260c26a.jpg\">  <br> For example, a + c = c, c + a = a, c x b = c and b x c = a. Given the following set of equations :<pre><code>\n(a x x) + (a x y) = c\n(b x x) + (c x y) = c</code></pre>\nThe number of solution(s) (i.e., pair(s) (x, y)) that satisfy the equations is : <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/929/gate2003-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Assuming all numbers are in 2's complement representation, which of the following\nnumber is divisible by 11111011? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11100111</p>",
+            "<b>B.</b> <p>11100100</p>",
+            "<b>C.</b> <p>11010111</p>",
+            "<b>D.</b> <p>11011011</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>11100111</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/900/gate2003-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In 2's complement addition, overflow <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is flagged whenever there is carry from sign bit addition</p>",
+            "<b>B.</b> <p>cannot occur when a positive value is added to a negative value</p>",
+            "<b>C.</b> <p>is flagged when the carries from sign bit and previous bit match</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>cannot occur when a positive value is added to a negative value</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/826/gate2002-1-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Sign extension is a step in <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>floating point multiplication</p>",
+            "<b>B.</b> <p>signed 16 bit integer addition</p>",
+            "<b>C.</b> <p>arithmetic left shift</p>",
+            "<b>D.</b> <p>converting a signed integer from one size to another.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>converting a signed integer from one size to another.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/821/gate2002-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The 2's complement represent representation of the decimal value -15 is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111</p>",
+            "<b>B.</b> <p>11111</p>",
+            "<b>C.</b> <p>111111</p>",
+            "<b>D.</b> <p>10001</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10001</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/819/gate2002-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The decimal value of 0.25 <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is equivalent to the binary value 0.1</p>",
+            "<b>B.</b> <p>is equivalent to the binary value 0.01</p>",
+            "<b>C.</b> <p>is equivalent to the binary value 0.00111.....</p>",
+            "<b>D.</b> <p>cannot be represented precisely in binary.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>is equivalent to the binary value 0.01</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/818/gate2002-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the values of \\(A = 2.0 \\times 10^{30}, B = -2.0 \\times 10^{30}, C = 1.0\\), and the sequence <br><pre><code> X:= A + B          Y:= A + C   \n X:= X + C          Y:= Y + B</code></pre> <br>\nexecuted on a computer where floating point numbers are represented with 32 bits. The values for X and Y will be <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X = 1.0, Y = 1.0</p>",
+            "<b>B.</b> <p>X = 1.0, Y = 0.0</p>",
+            "<b>C.</b> <p>X = 0.0, Y = 1.0</p>",
+            "<b>D.</b> <p>X = 0.0, Y = 0.0</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X = 1.0, Y = 0.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/661/gate2000-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number 43 in 2's complement representation is <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(01010101\\)</p>",
+            "<b>B.</b> <p>11010101</p>",
+            "<b>C.</b> <p>\\(00101011\\)</p>",
+            "<b>D.</b> <p>10101011</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(00101011\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/629/gate2000-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

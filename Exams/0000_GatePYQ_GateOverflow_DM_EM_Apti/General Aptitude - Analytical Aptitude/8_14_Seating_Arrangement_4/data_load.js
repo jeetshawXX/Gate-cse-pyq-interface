@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Seating Arrangement",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Seating Arrangement",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"118406\"></a><div itemprop=\"text\"><p>Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali. Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other?</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rahul and Murali</p>",
+            "<p>Srinivas and Arul</p>",
+            "<p>Srinvas and Murali</p>",
+            "<p>Srinivas and Rahul</p>"
+          ],
+          "correct_answer": "<p>Srinvas and Murali</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3\" target=\"_blank\">https://gateoverflow.in/118406/gate-cse-2017-set-1-question-ga-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"359854\"></a><div itemprop=\"text\"><p>Five friends \\( P,Q,R,S \\) and \\( T \\) went camping. At night, they had to sleep in a row inside the tent. \\( P,Q, \\) and \\( T \\) refused to sleep next to \\( R \\) since he snored loudly. \\( P \\) and \\( S \\) wanted to avoid \\( Q \\) as he usually hugged people in sleep.&nbsp;</p>\n\n<p>Assuming everyone was satisfied with the sleeping arrangements, what is the order in which they slept?</p>\n\n</div><br><br><b>GATE Civil 2020 Set 1 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( RSPTQ \\)</p>",
+            "<p>\\( SPRTQ \\)</p>",
+            "<p>\\( QRSPT \\)</p>",
+            "<p>\\( QTSPR \\)</p>"
+          ],
+          "correct_answer": "<p>\\( RSPTQ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359854/gate-civil-2020-set-1-ga-question-7\" target=\"_blank\">https://gateoverflow.in/359854/gate-civil-2020-set-1-ga-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"359737\"></a><div itemprop=\"text\"><p>Seven cars \\( \\text{P, Q, R, S, T, U&nbsp;and V} \\) are parked in a row not necessarily in that order. The cars \\( T \\) and \\( U \\) should be parked next to each other. The cars \\( S \\) and \\( V \\) also should be parked next to each other, whereas \\( P \\) and \\( Q \\) cannot be parked next to each other. \\( Q \\) and \\( S \\) must be parked next to each other. \\( R \\) is parked to the immediate right of \\( V \\). \\( T \\) is parked to the left of \\( U \\).</p><p>Based on the above statements, the only \\( \\text{INCORRECT} \\) option given below is:</p></div><br><br><b>GATE Electrical 2021 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There are two cars parked in between \\( Q \\) and \\( V \\).</p>",
+            "<p>\\( Q \\) and \\( R \\) are not parked together.</p>",
+            "<p>\\( V \\) is the only car parked in between \\( S \\) and \\( R \\).</p>",
+            "<p>Car \\( P \\) is parked at the extreme end.</p>"
+          ],
+          "correct_answer": "<p>There are two cars parked in between \\( Q \\) and \\( V \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359737/gate-electrical-2021-ga-question-10\" target=\"_blank\">https://gateoverflow.in/359737/gate-electrical-2021-ga-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"313529\"></a><div itemprop=\"text\"><p>Four people are standing in a line facing you. They are Rahul, Mathew, Seema and Lohit. One is&nbsp;an engineer, one is a doctor, one a teacher and another a dancer. You are told that:</p><ol><li>Mathew is not standing next to Seema</li><li>There are two people standing between Lohit and the engineer</li><li>Rahul is not a doctor</li><li>The teacher and the dancer are standing next to each other</li><li>Seema is turning to her right to speak to the doctor standing next to her</li></ol><p>Who among them is an engineer?</p></div><br><br><b>GATE2019 EC: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Seema</p>",
+            "<p>Lohit</p>",
+            "<p>Rahul</p>",
+            "<p>Mathew&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Mathew&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313529/gate2019-ec-ga-6\" target=\"_blank\">https://gateoverflow.in/313529/gate2019-ec-ga-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

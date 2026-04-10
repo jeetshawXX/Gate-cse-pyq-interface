@@ -1,0 +1,27 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Vertex Cover",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Vertex Cover",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"98003\"></a><div itemprop=\"text\"><p>A \\( vertex \\: cover \\) in an undirected graph \\( G \\) is a subset \\(  C \\subseteq V(G) \\) such that every edge of \\( G \\) has an endpoint in \\( C \\). An independent set in \\( G \\) is a subset \\( I \\subseteq V(G) \\) such that no edge has both its endpoints in \\( I \\). Which of the following is TRUE of every graph \\( G \\) and every vertex cover \\( C \\) of \\( G \\)?</p>\n\n</div><br><br><b>Graph Theory: TIFR CSE 2016 | Part B | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There exists an independent set of size \\( \\mid C \\mid \\)</p>",
+            "<p>\\( V(G) -C \\) is an independent set</p>",
+            "<p>\\( \\mid C \\mid \\: \\: \\geq \\: \\: \\mid E(G)\\mid /2 \\)</p>",
+            "<p>\\( \\mid C \\mid \\: \\: &nbsp;\\geq \\: \\: \\mid V(G)\\mid /2 \\)</p>",
+            "<p>\\( C \\) intersects every independent set</p>"
+          ],
+          "correct_answer": "<p>\\( V(G) -C \\) is an independent set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/98003/tifr-cse-2016-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/98003/tifr-cse-2016-part-b-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "title": "Array_and_Pointer - Array_and_Pointer - Slot 3",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Array_and_Pointer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the C program given below : <br><pre><code> #include &lt; stdio.h &gt;\n\nint main ()    {\n    int sum = 0, maxsum = 0,  i,  n = 6;\n    int a [] = {2, -2, -1, 3, 4, 2};\n    for (i = 0; i &lt; n; i++)    {\n            if (i == 0 || a [i]  &lt; 0  || a [i] &lt; a [i - 1])  {\n                     if (sum &gt; maxsum) maxsum = sum;\n                     sum = (a [i] &gt; 0) ? a [i] : 0;\n            }\n            else sum += a [i];\n    }\n    if (sum &gt; maxsum) maxsum = sum ;\n    printf (\"%d\\n\", maxsum);\n\n}</code></pre> <br>What is the value printed out when this program is executed? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3464/gate2007-it-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the choices given below would be printed when the following program is executed?<br><pre><code> #include &lt; stdio.h &gt;\nint a1[] = {6, 7, 8, 18, 34, 67};\nint a2[] = {23, 56, 28, 29};\nint a3[] = {-12, 27, -31};\nint *x[] = {a1, a2, a3};\nvoid print(int *a[])\n{\n    printf(\"%d,\", a[0][2]);\n    printf(\"%d,\", *a[2]);\n    printf(\"%d,\", *++a[0]);\n    printf(\"%d,\", *(++a)[0]);\n    printf(\"%d\\n\", a[-1][+1]);\n}\nmain()\n{\n     print(x);\n}</code></pre> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, -12, 7, 23, 8</p>",
+            "<b>B.</b> <p>8, 8, 7, 23, 7</p>",
+            "<b>C.</b> <p>-12, -12, 27, -31, 23</p>",
+            "<b>D.</b> <p>-12, -12, 27, -31, 56</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8, -12, 7, 23, 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3594/gate2006-it-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the choices given below would be printed when the following program is executed ?<br><pre><code> #include &lt; stdio.h &gt;\nstruct test {\n               int i;\n               char *c;\n}st[] = {5, \"become\", 4, \"better\", 6, \"jungle\", 8, \"ancestor\", 7, \"brother\"};\nmain ()\n{ \n    struct test *p = st;\n    p += 1;\n    ++p -&gt; c;\n    printf(\"%s,\", p++ -&gt; c);\n    printf(\"%c,\", *++p -&gt; c);\n    printf(\"%d,\", p[0].i);\n    printf(\"%s \\n\", p -&gt; c);\n}</code></pre> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>jungle, n, 8, nclastor</p>",
+            "<b>B.</b> <p>etter, u, 6, ungle</p>",
+            "<b>C.</b> <p>cetter, k, 6, jungle</p>",
+            "<b>D.</b> <p>etter, u, 8, ncestor</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>etter, u, 6, ungle</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3592/gate2006-it-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let a be an array containing n integers in increasing order. The following algorithm determines whether there are two distinct numbers in the array whose difference is a specified number S &gt; 0.<br><pre><code> i = 0; j = 1;\nwhile (j &lt; n ){\n         if (E) j++;\n         else if (a[j] - a[i] == S) break;\n         else i++;\n}\nif (j &lt; n) printf(\"yes\") else printf (\"no\");</code></pre> <br>Choose the correct expression for E. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a[j] - a[i] &gt; S</p>",
+            "<b>B.</b> <p>a[j] - a[i] &lt; S</p>",
+            "<b>C.</b> <p>a[i] - a[j] &lt; S</p>",
+            "<b>D.</b> <p>a[i] - a[j] &gt; S</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>a[j] - a[i] &lt; S</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3819/gate2005-it-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The following C function takes two ASCII strings and determines whether one is an anagram of the other. An anagram of a string s is a string obtained by permuting the letters in s.<br><pre><code>int anagram (char *a, char *b) {\n    int count [128], j;\n    for (j = 0;  j &lt; 128; j++) count[j] = 0;\n    j = 0;\n    while (a[j] &amp;&amp; b[j]) {\n        A;\n        B;\n    }\n    for (j = 0; j &lt; 128; j++) if (count [j]) return 0;\n    return 1;\n} </code></pre> <br>\nChoose the correct alternative for statements A and B. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A : count [a[j]]++  and  B : count[b[j]]--</p>",
+            "<b>B.</b> <p>A : count [a[j]]++  and  B : count[b[j]]++</p>",
+            "<b>C.</b> <p>A : count [a[j++]]++  and  B : count[b[j]]--</p>",
+            "<b>D.</b> <p>A : count [a[j]]++  and  B : count[b[j++]]--</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A : count [a[j]]++  and  B : count[b[j++]]--</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3814/gate2005-it-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following C program which is supposed to compute the transpose of a given \\(4 \\times 4\\) matrix M. Note that, there is an X in the program which indicates some missing statements. Choose the correct option to replace X in the program.<br><pre><code> #include &lt; stdio.h &gt;\n#define ROW 4\n#define COL 4\nint M[ROW][COL] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};\nmain()\n{\n    int i, j, t;\n    for (i = 0; i &lt; 4; ++i)\n    {\n        X\n    }\n    for (i = 0; i &lt; 4; ++i)\n        for (j = 0; j &lt; 4; ++j)\n            printf (\"%d\", M[i][j]);\n}</code></pre> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p><pre><code> for(j = 0; j &lt; 4; ++j){\n     t = M[i][j];\n     M[i][j] = M[j][i];\n     M[j][i] = t;\n}</code></pre></p>",
+            "<b>B.</b> <p><pre><code> for(j = 0; j &lt; 4; ++j){\n     M[i][j] = t;\n     t = M[j][i];\n     M[j][i] = M[i][j];\n}</code></pre></p>",
+            "<b>C.</b> <p><pre><code>for(j = i; j &lt; 4; ++j){\n     t = M[i][j];\n     M[i][j] = M[j][i];\n     M[j][i] = t;\n} </code></pre></p>",
+            "<b>D.</b> <p><pre><code>for(j = i; j &lt; 4; ++j){\n     M[i][j] = t;\n     t = M[j][i];\n     M[j][i] = M[i][j];\n} </code></pre></p>"
+          ],
+          "correct_answer": "<b>C.</b> <p><pre><code>for(j = i; j &lt; 4; ++j){\n     t = M[i][j];\n     M[i][j] = M[j][i];\n     M[j][i] = t;\n} </code></pre></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3701/gate2004-it-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C program segment:<pre><code>char p[20];\nchar *s = \"string\";\nint length = strlen(s);\nint i;\nfor (i = 0; i &lt; length; i++)\n     p[i] = s[length - i];\nprintf(\"%s\",p); </code></pre>\nThe output of the program is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>gnirts</p>",
+            "<b>B.</b> <p>string</p>",
+            "<b>C.</b> <p>gnirts</p>",
+            "<b>D.</b> <p>no output is printed</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>no output is printed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1030/gate2004-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In the following C program fragment, j, k, n and TwoLog_n are integer\nvariables, and A is an array of integers. The variable n is initialized to an integer\n\\(\\geq\\) 3, and TwoLog_n is initialized to the value of \\(2*\\left \\lceil log_{2}n \\right \\rceil\\)<pre><code> for (k = 3; k &lt; = n; k++)\n    A[k] = 0;\nfor (k = 2; k &lt; = TwoLog_n; k++)\n    for (j = k + 1; j &lt; = n; j++)\n        A[j] = A[j] || (j % k);\nfor (j = 3; j &lt; = n; j++)\n    if (!A[j]) printf(\"%d\", j);</code></pre>\nThe set of number printed by this program fragment is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{m | m \\(\\leq\\)n, (\\(\\exists\\) i) [m = i!]} Here i! mean factorial of i</p>",
+            "<b>B.</b> <p>{m | m \\(\\leq\\) n, \\((\\exists  i) [m = i^{2}]\\)}</p>",
+            "<b>C.</b> <p>{m | m \\(\\leq\\) n, m is prime}</p>",
+            "<b>D.</b> <p>{}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>{}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/971/gate2003-88#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Assume the following C variable declaration <br>\nint *A [10], B[10][10];   <br>\nOf the following expressions  <br> I A[2]   <br>  II A[2][3]  <br>  III B[1]   <br>  IV B[2][3] <br> which will not give compile-time errors if used as left hand sides of assignment statements in a C program? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II, and IV only</p>",
+            "<b>B.</b> <p>II, III, and IV only</p>",
+            "<b>C.</b> <p>II and IV only</p>",
+            "<b>D.</b> <p>IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I, II, and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/893/gate2003-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C declaration:<br><pre><code> struct ( \n    short x[5];  \n    union { \n        float y; \n        long z; \n    } u;\n )t;</code></pre> <br>\nAssume that the objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment consideration, is: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22 bytes</p>",
+            "<b>B.</b> <p>14 bytes</p>",
+            "<b>C.</b> <p>18 bytes</p>",
+            "<b>D.</b> <p>10 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>18 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/640/gate2000-1-17-isro2015-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Aliasing in the context of programming languages refers to <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>multiple variables having the same memory location</p>",
+            "<b>B.</b> <p>multiple variables having the same value</p>",
+            "<b>C.</b> <p>multiple variables having the same identifier</p>",
+            "<b>D.</b> <p>multiple uses of the same variable</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>multiple variables having the same memory location</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/639/gate2000-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The most appropriate matching for the following pairs is: <br><br>\\(\\begin{array}{|ll|ll|}\\hline X: &amp; \\text{m = malloc(5); m = NULL;} &amp; 1: &amp; \\text{using dangling pointers} \\\\\\hline Y: &amp; \\text{free(n); n -&gt; value = 5;} &amp; 2: &amp; \\text{using uninitialized pointers} \\\\\\hline Z: &amp; \\text{char *p , *p = 'a' ; } &amp; 3: &amp; \\text{lost memory} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X-1  Y-3  Z-2</p>",
+            "<b>B.</b> <p>X-2  Y-1  Z-3</p>",
+            "<b>C.</b> <p>X-3  Y-2  Z-1</p>",
+            "<b>D.</b> <p>X-3  Y-1  Z-2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>X-3  Y-1  Z-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/635/gate2000-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The following C declarations:<br><pre><code> struct node { \n    int i:\n    float j;\n };\n struct node *s[10];</code></pre> define s to be: <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An array, each element of which is a pointer to a structure of type node</p>",
+            "<b>B.</b> <p>A structure of 2 fields, each field being a pointer to an array of 10 elements</p>",
+            "<b>C.</b> <p>A structure of 3 fields: an integer, a float, and an array of 10 elements</p>",
+            "<b>D.</b> <p>An array, each element of which is a structure of type node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>An array, each element of which is a pointer to a structure of type node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/634/gate2000-1-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

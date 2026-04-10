@@ -1,0 +1,96 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Cost Market Price",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Cost Market Price",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426520\"></a><div itemprop=\"text\"><p>​​​​A shopkeeper buys shirts from a producer and sells them at \\( 20 \\% \\) profit. A customer has to pay ₹ \\( 3,186.00 \\) including \\( 18 \\% \\) taxes, per shirt. At what price did the shopkeeper buy each shirt from the producer?</p>\n\n</div><br><br><b>GATE 2024 Electrical | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>₹ \\( 2,500.00 \\)</p>",
+            "<p>₹ \\( 1,975.40 \\)</p>",
+            "<p>₹ \\( 2,250.00 \\)</p>",
+            "<p>₹ \\( 2,548.80 \\)</p>"
+          ],
+          "correct_answer": "<p>₹ \\( 2,250.00 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426520/gate-2024-electrical-ga-question-4\" target=\"_blank\">https://gateoverflow.in/426520/gate-2024-electrical-ga-question-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2173\"></a><div itemprop=\"text\"><p>The variable cost \\( (V) \\) of manufacturing a product varies according to the equation \\( V=4q \\), where \\( q \\) is the quantity produced. The fixed cost \\( (F) \\) of production of same product reduces with \\( q \\) according to the equation \\( F=\\dfrac{100}{q} \\). How many units should be produced to minimize the total cost \\( (V+F) \\)?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2173/gate-cse-2011-question-63\" target=\"_blank\">https://gateoverflow.in/2173/gate-cse-2011-question-63</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2193\"></a><div itemprop=\"text\"><p>The cost function for a product in a firm is given by \\( 5q^{2} \\), where \\( q \\) is the amount of production. The firm can sell the product at a market price of \\( \\text₹ 50 \\) per unit. The number of units to be produced by the firm such that the profit is maximized is</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2193/gate-cse-2012-question-56\" target=\"_blank\">https://gateoverflow.in/2193/gate-cse-2012-question-56</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"302869\"></a><div itemprop=\"text\"><p>Ten friends planned to share equally the cost of buying a gift&nbsp;for their teacher. When two of them decided not to contribute, each of the other friends had to pay Rs. \\( 150 \\) more. The cost of the gift was Rs. ____</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 666 \\)</p>",
+            "<p>\\( 3000 \\)</p>",
+            "<p>\\( 6000 \\)</p>",
+            "<p>\\( 12000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302869/gate-cse-2019-question-ga-4\" target=\"_blank\">https://gateoverflow.in/302869/gate-cse-2019-question-ga-4</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411667\"></a><div itemprop=\"text\"><p>The price of an item is \\( 10\\% \\) cheaper in an online store \\( \\text{S} \\) compared to the price at another online store \\( \\text{M} \\). Store \\( \\text{S} \\) charges &nbsp;\\( \\text{₹ }150 \\) for delivery. There are no delivery charges for orders from the store \\( \\text{M} \\). A person bought the items from the store \\( \\text{S} \\) and saved &nbsp;\\( \\text{₹ } 100 \\).</p>\n\n<p>What is the price of the item at the online store \\( \\text{S} \\) (in \\( \\text{₹} \\)) if there are no other charges than what is described above?</p>\n\n</div><br><br><b>GATE Electrical 2022 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2500 \\)</p>",
+            "<p>\\( 2250 \\)</p>",
+            "<p>\\( 1750 \\)</p>",
+            "<p>\\( 1500 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2250 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411667/gate-electrical-2022-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411667/gate-electrical-2022-ga-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"40304\"></a><div itemprop=\"text\">A foundry has a fixed daily cost of \\( \\text{Rs} \\ 50,000 \\) whenever it operates and a variable cost of \\( \\text{RS} \\ 800 Q \\),where \\( Q \\) is the daily production in tonnes. What is the cost of production in \\( \\text{Rs} \\) per tonne for a daily production of \\( 100 \\) tonnes.</div><br><br><b>GATE2014 AE: GA-5</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1300",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40304/gate2014-ae-ga-5\" target=\"_blank\">https://gateoverflow.in/40304/gate2014-ae-ga-5</a></p>"
+        }
+      ]
+    }
+  ]
+});

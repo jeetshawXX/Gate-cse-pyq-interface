@@ -1,0 +1,201 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The values of parameters for the Stop-and-Wait ARQ protocol are as given below:<br><br>\nBit rate of the transmission channel = 1Mbps <br>\nPropagation delay from sender to receiver = 0.75 ms <br>\nTime to process a frame = 0.25ms <br>\nNumber of bytes in the information frame =1980 <br>\nNumber of bytes in the acknowledge frame = 20          <br>                               Number of overhead bytes in the information frame = 20 <br><br>\nAssume that there are no transmission errors. Then the transmission efficiency ( expressed in\npercentage) of the Stop-and - Wait ARQ protocol for the above parameters is _________(\ncorrect to 2 decimal places) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "86.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118328/gate2017-1-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a RSA cryptosystem a participant A uses two prime numbers p=13 and q=17 to generate\nher public and private keys. If the public key of A is 35. Then the private key of A is\n__________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118327/gate2017-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A computer network uses polynomials over GF(2) for error checking with 8 bits as\ninformation bits and uses \\(x^{3}+x+1\\) as the generator polynomial to generate the check bits. In\nthis network, the message 01011011 is transmitted as <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>01011011010</p>",
+            "<b>B.</b> <p>01011011011</p>",
+            "<b>C.</b> <p>01011011101</p>",
+            "<b>D.</b> <p>01011011100</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>01011011101</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118313/gate2017-1-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A sender S sends a message m to receiver R, which is digitally signed by S with its\nprivate key. In this scenario, one or more of the following security violations can take place. <br><br>\nI. S can launch a birthday attack to replace m with a fraudulent message.<br>\nII. A third party attacker can launch a birthday attack to replace m with a fraudulent message  <br>  III. R can launch a birthday attack to replace m with a fraudulent message.<br><br>\nWhich of the following are possible security violations? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118295/gate2017-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a TCP client and a TCP server running on two different machines. After completing\ndata transfer, the TCP client calls close to terminate the connectional and a FIN segment is\nsent to the TCP server. Server-side TCP responds by sending an ACK which is received by\nthe client-side TCP. As per the TCP connections state diagram (RFC 793), in which state does\nthe client-side TCP connection wait for the FIN from the sever-side TCP? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LAST-ACK</p>",
+            "<b>B.</b> <p>TIME-WAIT</p>",
+            "<b>C.</b> <p>FIN-WAIT-1</p>",
+            "<b>D.</b> <p>FIN-WAIT-2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>FIN-WAIT-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118194/gate2017-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a \\(128 \\times 10^{3}\\) bits/second satellite communication link with one way propagation delay of 150 milliseconds. Selective retransmission(repeat) protocol is used on this link to send data with a frame size of 1 kilobyte. Neglect the transmission time of acknowledgement. The minimum number of bits required for the sequence number field to achieve 100% utilization is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39577/gate2016-2-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>For the IEEE802.11 MAC protocol for wireless communication,which of the following\nstatements is/are TRUE?<br>\nI. At least three non-overlapping channels are available for transmissions.<br>\nII. The RTS-CTS mechan is misused for collision detection.<br>\nIII. Unicast frames are ACKed. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All I,II,andIII</p>",
+            "<b>B.</b> <p>I andIIIonly</p>",
+            "<b>C.</b> <p>II andIIIonly</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I andIIIonly</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39593/gate2016-2-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A network has a data transmission bandwidth of \\(20 \\times 10^{6}\\) bits per second. It uses CSMA/CD in the MAClayer. The maximum signal propagation time from one node to another node is 40 microseconds. The minimum size of a frame in the network is  ______ bytes. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "200",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39589/gate2016-2-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server,assuming that the host has just been restarted. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP GET request, DNS query, TCP SYN</p>",
+            "<b>B.</b> <p>DNS query, HTTP GET request, TCP SYN</p>",
+            "<b>C.</b> <p>DNS query,TCP SYN, HTTP GET request</p>",
+            "<b>D.</b> <p>TCP SYN, DNS query, HTTP GET request</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS query,TCP SYN, HTTP GET request</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39572/gate2016-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In an Ethernet local area network,which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A station stops to sense the channel once it starts transmitting a frame.</p>",
+            "<b>B.</b> <p>The purpose of the jamming signal is to pad the frames that are smaller than the minimum framesize.</p>",
+            "<b>C.</b> <p>A station continues to transmit the packet even after the collision is detected.</p>",
+            "<b>D.</b> <p>The exponential backoff mechanism reduces the probability of collisionon\nretransmissions.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The exponential backoff mechanism reduces the probability of collisionon\nretransmissions.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39543/gate2016-2-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Anarkali digitally signs a message and sends it to Salim. Verification of the signature by Salim requires <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Anarkali's public key</p>",
+            "<b>B.</b> <p>Salim's public key.</p>",
+            "<b>C.</b> <p>Salim's private key</p>",
+            "<b>D.</b> <p>Anarkali's private key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Anarkali's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39555/gate2016-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A sender uses the Stop-and Wait ARQ protocol for reliable transmission of frames. Frames are of size 1000bytes and the transmission rate at the sender is 80Kbps(1Kbps=1000 bits/second). Size of anacknowledgement is 100bytes and the transmission rate at the receiver is 8Kbps. The one-way propagation delay is 100milliseconds. <br>Assuming no frame is lost, the sender throughput is _____bytes/second. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2500",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39696/gate2016-1-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of 1 megabyte and the maximum output rate is 20 megabytes per second. Tokens arrive at a rate to sustain output at a rate of 10megabytes per second. The  token bucket is currently full and the machine needs to send 12megabytes of data. The minimum time required to transmit the data is _____seconds. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39720/gate2016-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>An IP datagram of size 1000 bytes arrives at a router. The router has to forward this packet on a link whose MTU (maximum transmission unit)is 100bytes. Assume that the size of the IP header is 20bytes. <br> The number of fragments that the IP datagram will be divided into for transmission is _________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39712/gate2016-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider that B wants to send a message m that is digitally signed to A. Let the pair of private and public keys for A and B be denoted by \\(K_{x}^{-}\\)\nand \\(K_{x}^{+}\\) for x = A,B, respectively. Let  \\(K_{x}(m)\\)\nrepresent the operation of encrypting m with a key \\(K_{x}\\) and H(m) represent the message digest. Which one of the following indicates the CORRECT way of sending the message m along with the digital signature to A? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(m,K^{+}_{B}(H(m))\\)}</p>",
+            "<b>B.</b> <p>{\\({m,K^{-}_{B}(H(m))}\\)}</p>",
+            "<b>C.</b> <p>{\\({m,K^{-}_{A}(H(m))}\\)}</p>",
+            "<b>D.</b> <p>{\\({m,K^{+}_{A}(H(m))}\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\({m,K^{-}_{B}(H(m))}\\)}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39694/gate2016-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

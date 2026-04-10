@@ -1,0 +1,236 @@
+{
+  "title": "Process_Synchronization - Process_Synchronization - Slot 3",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Process_Synchronization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The enter_CS() and leave_CS() functions to implement critical section of a\nprocess are realized using test-and-set instruction as follows:<pre><code> void enter_CS(x)\n{\n                while test-and-set(x) ;\n}\nvoid leave_CS(x)\n{\n              x=0;\n} </code></pre>\nIn the above solution, x is a memory location associated with the CS and is nitialized to 0.<br> Now consider the following statements: <br><br>\nI. The above solution to CS problem is deadlock-free <br>\nII. The solution is starvation free.       <br>                                                                    III. The processes enter CS in FIFO order.<br>\nIV More than one process can enter CS at the same time.<br><br>\nWhich of the above statements is TRUE? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and II</p>",
+            "<b>C.</b> <p>II and III</p>",
+            "<b>D.</b> <p>IV only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1319/gate2009-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A critical section is a program segment <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>which should run in a certain amount of time</p>",
+            "<b>B.</b> <p>which avoids deadlocks</p>",
+            "<b>C.</b> <p>where shared resources are accessed</p>",
+            "<b>D.</b> <p>which must be enclosed by a pair of semaphore operations, P and V</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>where shared resources are accessed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2723/gate1996-1-19-isro2008-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The following is a code with two threads, producer and consumer, that can run in parallel. Further, S and Q are binary semaphores quipped with the standard P and V operations.<br><pre><code> semaphore S = 1, Q = 0; \ninteger x;\n\nproducer:                   consumer:\nwhile (true) do             while (true) do\n    P(S);                       P(Q);\n    x = produce ();             consume (x);\n    V(Q);                       V(S);\ndone                        done</code></pre> <br>Which of the following is TRUE about the program above? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The process can deadlock</p>",
+            "<b>B.</b> <p>One of the threads can starve</p>",
+            "<b>C.</b> <p>Some of the items produced by the producer may be lost</p>",
+            "<b>D.</b> <p>Values generated and stored in 'x' by the producer will always be consumed before the producer can generate a new value</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Values generated and stored in 'x' by the producer will always be consumed before the producer can generate a new value</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3363/gate2008-it-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The P and V operations on counting semaphores, where s is a counting\nsemaphore, are defined as follows:<pre><code>P(s) : s =  s - 1;\n     if (s  &lt; 0) then wait;\nV(s) : s = s + 1;\n     if (s &lt;= 0) then wakeup a process waiting on s; </code></pre>\nAssume that \\(P_{b}\\) and \\(V_{b}\\) the wait and signal operations on binary semaphores are\nprovided. Two binary semaphores \\(x_{b}\\) and \\(y_{b}\\) are used to implement the\nsemaphore operations P(s) and V(s) as follows:<pre><code>P(s) : Pb(xb);\n  s = s - 1;\n  if (s &lt; 0) {\n   Vb(xb) ;\n   Pb(Yb) ;\n  }\n  else Vb(xb); \n\nV(s) : Pb(xb) ;\n  s = s + 1;\n  if (s &lt;= 0) Vb(Yb) ;\n  Vb(xb) ;</code></pre>\nThe initial values of xb and yb are respectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 and 0</p>",
+            "<b>B.</b> <p>0 and 1</p>",
+            "<b>C.</b> <p>1 and 0</p>",
+            "<b>D.</b> <p>1 and 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 and 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/486/gate2008-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Semaphores <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>synchronize critical resources to prevent deadlock</p>",
+            "<b>B.</b> <p>synchronize critical resources to prevent contention</p>",
+            "<b>C.</b> <p>are used to do I/O</p>",
+            "<b>D.</b> <p>are used for memory management</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>synchronize critical resources to prevent contention</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49517/isro2007-42-ugcnet-june2010-ii-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Synchronization in the classical readers and writers problem can be achieved through use of semaphores. In the following incomplete code for readers-writers problem, two binary semaphores mutex and wrt are used to obtain synchronization <br><pre><code>wait (wrt)\nwriting is performed\nsignal (wrt)\nwait (mutex)  \nreadcount = readcount + 1\nif readcount = 1 then S1\nS2\nreading is performed\nS3\nreadcount = readcount - 1\nif readcount = 0 then S4 \nsignal (mutex) </code></pre> <br>The values of S1, S2, S3, S4, (in that order) are <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>signal (mutex), wait (wrt), signal (wrt), wait (mutex)</p>",
+            "<b>B.</b> <p>signal (wrt), signal (mutex), wait (mutex), wait (wrt)</p>",
+            "<b>C.</b> <p>wait (wrt), signal (mutex), wait (mutex), signal (wrt)</p>",
+            "<b>D.</b> <p>signal (mutex), wait (mutex), signal (mutex), wait (mutex)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>wait (wrt), signal (mutex), wait (mutex), signal (wrt)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3498/gate2007-it-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Processes P1 and P2 use critical_flag in the following routine to achieve mutual exclusion. Assume that critical_flag is initialized to FALSE in the main program.<br><pre><code> get_exclusive_access ( )\n{\n    if (critical _flag == FALSE) {\n        critical_flag = TRUE ;\n        critical_region () ;\n        critical_flag = FALSE;\n    }\n}</code></pre> <br>\nConsider the following statements.<br><br>\ni.It is possible for both P1 and P2 to access critical_region concurrently.<br>\nii.This may lead to a deadlock.<br><br>\nWhich of the following holds? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) is false (ii) is true</p>",
+            "<b>B.</b> <p>Both (i) and (ii) are false</p>",
+            "<b>C.</b> <p>(i) is true (ii) is false</p>",
+            "<b>D.</b> <p>Both (i) and (ii) are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(i) is true (ii) is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3443/gate2007-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Two processes, P1 and P2, need to access a critical section of code. Consider the\nfollowing synchronization construct used by the processes: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q58_1fce4bcb.jpg\"><br> Here, wants1 and wants2 are shared variables, which are initialized to false. Which one of the following statements is TRUE about the above construct? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It does not ensure mutual exclusion.</p>",
+            "<b>B.</b> <p>It does not ensure bounded waiting.</p>",
+            "<b>C.</b> <p>It requires that processes enter the critical section in strict alternation.</p>",
+            "<b>D.</b> <p>It does not prevent deadlocks, but ensures mutual exclusion.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It does not prevent deadlocks, but ensures mutual exclusion.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1256/gate2007-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The wait and signal operations of a monitor are implemented using semaphores as follows. In the following,<br>\nx is a condition variable,<br>\nmutex is a semaphore initialized to 1,<br>\nx_sem is a semaphore initialized to 0,<br>\nx_count is the number of processes waiting on semaphore x_sem, initially 0,<br>\nnext is a semaphore initialized to 0,<br>\nnext_count is the number of processes waiting on semaphore next, initially 0.<br>\nThe body of each procedure that is visible outside the monitor is replaced with the following:<br><pre><code> P(mutex);\n...\nbody of procedure\n...\nif (next_count &gt; 0)\n    V(next);\nelse\n    V(mutex);</code></pre> <br>\nEach occurrence of x.wait is replaced with the following:<br><pre><code> x_count = x_count + 1;\nif (next_count &gt; 0)\n    V(next);\nelse\n    V(mutex);\n------------------------------------------------------------ E1;\nx_count = x_count - 1;\n</code></pre> <br>Each occurrence of x.signal is replaced with the following:<br><pre><code>if (x_count &gt; 0)\n{\n    next_count = next_count + 1;\n    ------------------- E2;\n    P(next);\n    next_count = next_count - 1;\n} </code></pre> <br>\nFor correct implementation of the monitor, statements E1 and E2 are, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P(x\\_sem), V(next)\\)</p>",
+            "<b>B.</b> <p>\\(V(next), P(x\\_sem)\\)</p>",
+            "<b>C.</b> <p>\\(P(next), V(x\\_sem)\\)</p>",
+            "<b>D.</b> <p>\\(P(x\\_sem), V(x\\_sem)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P(x\\_sem), V(x\\_sem)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3601/gate2006-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the solution to the bounded buffer producer/consumer problem by using general semaphores S, F, and E. The semaphore S is the mutual exclusion semaphore initialized to 1. The semaphore F corresponds to the number of free slots in the buffer and is initialized to N. The semaphore E corresponds to the number of elements in the buffer and is initialized to 0. <br>\n\\(\\begin{array}{|l|l|}\\hline \\textbf{Producer Process} &amp; \\textbf{Consumer Process} \\\\\\hline \\text{Produce an item;} &amp; \\text{Wait(E);} \\\\ \\text{Wait(F);} &amp; \\text{Wait(S);} \\\\ \\text{Wait(S);} &amp; \\text{Remove an item from the buffer;} \\\\\\text{Append the item to the buffer;} &amp; \\text{Signal(S);} \\\\ \\text{Signal(S);} &amp; \\text{Signal(F);} \\\\ \\text{Signal(E);} &amp; \\text{Consume the item;} \\\\\\hline \\end{array}\\)<br><br>\nWhich of the following interchange operations may result in a deadlock?<br><br>\nI.  Interchanging Wait (F) and Wait (S) in the Producer process <br>\nII. Interchanging Signal (S) and Signal (F) in the Consumer process <br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) only</p>",
+            "<b>B.</b> <p>(II) only</p>",
+            "<b>C.</b> <p>Neither (I) nor (II)</p>",
+            "<b>D.</b> <p>Both (I) and (II)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(I) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3598/gate2006-it-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left.<pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</code></pre>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br>Which one of the following rectifies the problem in the implementation? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lines 6 to 10 are simply replaced by process_arrived</p>",
+            "<b>B.</b> <p>At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)</p>",
+            "<b>C.</b> <p>Context switch is disabled at the beginning of the barrier and re-enabled at\nthe end.</p>",
+            "<b>D.</b> <p>The variable process_left is made private instead of shared</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43564/gate2006-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left.<pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</code></pre>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br> The above implementation of barrier is incorrect. Which one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The barrier implementation is wrong due to the use of binary semaphore S</p>",
+            "<b>B.</b> <p>The barrier implementation may lead to a deadlock if two barrier\ninvocations are used in immediate succession</p>",
+            "<b>C.</b> <p>Lines 6 to 10 need not be inside a critical section</p>",
+            "<b>D.</b> <p>The barrier implementation is correct if there are only two processes\ninstead of three</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The barrier implementation may lead to a deadlock if two barrier\ninvocations are used in immediate succession</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1853/gate2006-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The atomic feth-and-set x,y instruction unconditionally sets the memory location\nx to 1 and fetches the old value of x in y without allowing any intervening access\nto the memory location x . Consider the following implementation of P and V\nfunctions on a binary semaphore S.<pre><code>void P(binary_semaphore*S){\n   unsigned y;\n   unsigned*x =&amp; (S-&gt;value);\n   do {\n          fetch-and-set x,y;\n         } while(y);\n }\nvoid V (binary_semphore*S){\n      S_&gt;value = 0;\n}</code></pre>\nWhich one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The implementation may not work if context switching is disabled in P</p>",
+            "<b>B.</b> <p>Instead of using fetch-and-set, a pair of normal load/store can be used</p>",
+            "<b>C.</b> <p>The implementation of V is wrong</p>",
+            "<b>D.</b> <p>The code does not implement a binary semaphore</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The implementation may not work if context switching is disabled in P</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1839/gate2006-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Two concurrent processes P1 and P2 use four shared resources R1, R2, R3 and R4, as shown below. <br>\n\\(\\begin{array}{|l|l|}\\hline \\textbf{P1} &amp; \\textbf{P2} \\\\ \\text{Compute: } &amp; \\text{Compute;} \\\\ \\text{Use $R1;$ } &amp; \\text{Use $R1;$} \\\\ \\text{Use $R2;$ } &amp; \\text{Use $R2;$}\\\\ \\text{Use $R3;$ } &amp; \\text{Use $R3;$} \\\\ \\text{Use $R4;$ } &amp; \\text{Use $R4;$} \\\\\\hline \\end{array}\\)<br>\nBoth processes are started at the same time, and each resource can be accessed by only one process at a time The following scheduling constraints exist between the access of resources by the processes:<br>\nP2 must complete use of R1 before P1 gets access to R1.<br>\nP1 must complete use of R2 before P2 gets access to R2.<br>\nP2 must complete use of R3 before P1 gets access to R3.<br>\nP1 must complete use of R4 before P2 gets access to R4.<br>\nThere are no other scheduling constraints between the processes. If only binary semaphores are used to enforce the above scheduling constraints, what is the minimum number of binary semaphores needed? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3789/gate2005-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Given below is a program which when executed spawns two concurrent processes :<br>\nsemaphore X : = 0 ;<br>\n/* Process now forks into concurrent processes P1 &amp; P2 */<br>\\(\\begin{array}{|l|l|}\\hline \\text{$P1$} &amp; \\text{$P2$} \\\\\\hline \\text{repeat forever } &amp; \\text{repeat forever} \\\\ \\text{$V (X) ;$ } &amp; \\text{$ P(X) ;$} \\\\ \\text{Compute; } &amp; \\text{Compute;}\\\\ \\text{$P(X) ;$ } &amp; \\text{$V(X) ;$} \\\\\\hline \\end{array}\\)<br>\nConsider the following statements about processes P1 and P2:<br>\nI.It is possible for process P1 to starve.<br>\nII.It is possible for process P2 to starve.<br>\nWhich of the following holds? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both (I) and (II) are true.</p>",
+            "<b>B.</b> <p>(I) is true but (II) is false.</p>",
+            "<b>C.</b> <p>(II) is true but (I) is false</p>",
+            "<b>D.</b> <p>Both (I) and (II) are false</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both (I) and (II) are true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3788/gate2005-it-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

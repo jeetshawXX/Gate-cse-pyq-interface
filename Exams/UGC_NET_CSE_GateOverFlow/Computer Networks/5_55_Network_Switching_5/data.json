@@ -1,0 +1,86 @@
+{
+  "title": "Computer Networks - Network Switching",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Network Switching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70929\"></a><div itemprop=\"text\"><p>Suppose transmission rate of a channel is \\( 32 \\) kbps. If there are \\( ‘8’ \\) routes from source to destination and each packet \\( p \\) contains \\( 8000 \\) bits. Total end to end delay in sending packet \\( P \\) is _____.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | August 2016 | Part 3 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) sec</p>",
+            "<p>\\( 3 \\) sec</p>",
+            "<p>\\( 4 \\) se</p>",
+            "<p>\\( 1 \\) sec</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70929/ugc-net-cse-august-2016-part-3-question-25\" target=\"_blank\">https://gateoverflow.in/70929/ugc-net-cse-august-2016-part-3-question-25</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"63073\"></a><div itemprop=\"text\"><p>Which of the following network access standard disassembler is used for connection station to a packet switched network ?</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2011 | Part 2 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( X.3 \\)</p>",
+            "<p>\\( X.21 \\)</p>",
+            "<p>\\( X.25 \\)</p>",
+            "<p>\\( X.75 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63073/ugc-net-cse-december-2011-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/63073/ugc-net-cse-december-2011-part-2-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"113810\"></a><div itemprop=\"text\"><p>In a packet switching network, if the message size is 48 bytes and each packet contains a header of 3 bytes. If 24 packets are required to transmit the message, the packet size is</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | January 2017 | Part 3 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2 bytes</p>",
+            "<p>1 byte</p>",
+            "<p>4 bytes</p>",
+            "<p>5 bytes</p>"
+          ],
+          "correct_answer": "<p>5 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/113810/ugc-net-cse-january-2017-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/113810/ugc-net-cse-january-2017-part-3-question-28</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"225840\"></a><div itemprop=\"text\"><p>Which of the following statements are true?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Three broad categories of Networks are\n\t<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t\t<li>Circuit Switched Networks</li>\n\t\t<li>Packet Switched&nbsp;Networks</li>\n\t\t<li>Message Switched&nbsp;Networks</li>\n\t</ol>\n\t</li>\n\t<li>Circuit Switched Network resources need not be reserved during the set up phase</li>\n\t<li>In packet switching there is no resource allocation for packets</li>\n</ol>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | July 2018 | Part 2 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{i and ii} \\)&nbsp;only</p>",
+            "<p>\\( \\text{ii and iii} \\)&nbsp;only</p>",
+            "<p>\\( \\text{i and iii} \\)&nbsp;only</p>",
+            "<p>\\( \\text{i, ii&nbsp;and iii} \\) only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225840/ugc-net-cse-july-2018-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/225840/ugc-net-cse-july-2018-part-2-question-46</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"55835\"></a><div itemprop=\"text\">\n<p>In which circuit switching, delivery of data is delayed because data must be stored and retrieved from RAM?</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2012 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Space division</p>",
+            "<p>Time division</p>",
+            "<p>Virtual</p>",
+            "<p>Packet</p>"
+          ],
+          "correct_answer": "<p>Time division</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55835/ugc-net-cse-june-2012-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/55835/ugc-net-cse-june-2012-part-2-question-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

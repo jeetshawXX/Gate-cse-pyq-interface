@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Volume",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Volume",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411720\"></a><div itemprop=\"text\"><p>A sphere of radius \\( r \\) \\( \\text{cm} \\) is packed in a box of cubical shape.</p>\n\n<p>What should be the minimum volume (in \\( \\text{cm}^{3} \\)) of the box that can enclose the sphere?</p>\n\n</div><br><br><b>GATE CH 2022 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{r^{3}}{8} \\)</p>",
+            "<p>\\( r^{3} \\)</p>",
+            "<p>\\( 2r^{3} \\)</p>",
+            "<p>\\( 8r^{3} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8r^{3} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411720/gate-ch-2022-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411720/gate-ch-2022-ga-question-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"357471\"></a><div itemprop=\"text\"><p>We have \\( 2 \\) rectangular sheets of paper, \\( \\text{M} \\) and \\( \\text{N} \\), of dimensions \\( \\text{6 cm  \\)\\times\\(  1 cm} \\)&nbsp;each. Sheet \\( \\text{M} \\) is rolled to form an open cylinder by bringing the short edges of the&nbsp;sheet together. Sheet \\( \\text{N} \\) is cut into&nbsp;equal square patches and assembled to form the largest possible closed cube. Assuming the ends of the cylinder are closed, the&nbsp;ratio of the volume of the cylinder to that of the cube is _________.</p></div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{\\pi}{2} \\)</p>",
+            "<p>\\( \\dfrac{3}{\\pi} \\)</p>",
+            "<p>\\( \\dfrac{9}{\\pi} \\)</p>",
+            "<p>\\( 3\\pi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{9}{\\pi} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357471/gate-cse-2021-set-1-ga-question-6\" target=\"_blank\">https://gateoverflow.in/357471/gate-cse-2021-set-1-ga-question-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

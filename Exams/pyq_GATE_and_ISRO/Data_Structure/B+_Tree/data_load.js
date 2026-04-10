@@ -1,0 +1,154 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - B+_Tree",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "B+_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In a \\(B^+\\) -tree where each node can hold at most four key values, a root to leaf path consists of the following nodes: <br><br>\n\\( A = (49, 77, 83, -), \\, B = (7, 19, 33, 44), \\, C = (20*, 22*, 25*, 26*) \\)<br><br>\nThe *-marked keys signify that these are data entries in a leaf. <br><br>Assume that a pointer between keys \\(k_1\\) and \\(k_2\\) points to a subtree containing keys in \\([k_1, k_2)\\), and that when a leaf is created, the smallest key in it is copied up into its parent. <br><br>A record with key value 23 is inserted into the \\(B^+\\) -tree. <br><br>The smallest key value in the parent of the leaf that contains 25* is __________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "33",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460846/gate-cse-2025-set-2-question-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following \\(B^+\\) tree with 5 nodes, in which a node can store at most 3 key values. The value 23 is now inserted in the \\(B^+\\) tree. Which of the following options(s) is/are CORRECT? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B+_Tree\\q11_d7479bce.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>None of the nodes will split.</p>",
+            "<b>B.</b> <p>At least one node will split and redistribute.</p>",
+            "<b>C.</b> <p>The total number of nodes will remain same.</p>",
+            "<b>D.</b> <p>The height of the tree will increase.</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>At least one node will split and redistribute.</p>",
+            "<b>D.</b> <p>The height of the tree will increase.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460069/gate-cse-2025-set-1-question-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed\nfor which one of the following cases? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only the root node</p>",
+            "<b>B.</b> <p>All leaf nodes</p>",
+            "<b>C.</b> <p>All internal nodes</p>",
+            "<b>D.</b> <p>Only the leftmost leaf node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only the root node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422831/gate-cse-2024-set-1-question-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>B+ Trees are considered BALANCED because <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the lengths of the paths from the root to all leaf nodes are all equal.</p>",
+            "<b>B.</b> <p>the lengths of the paths from the root to all leaf nodes differ from each other by at most 1.</p>",
+            "<b>C.</b> <p>the number of children of any two non-leaf sibling nodes differ by at most 1</p>",
+            "<b>D.</b> <p>the number of records in any two leaf nodes differ by at most 1.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>the lengths of the paths from the root to all leaf nodes are all equal.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39569/gate2016-2-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>With reference to the B+ tree index of order 1 shown below, the minimum number of nodes (including the Root node) that must be fetched in order to satisfy the following query: <br>\"Get all records with a search key greater than or equal to 7 and less than 15\"<br> is ____________. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B+_Tree\\q22_adb7a2d5.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8052/gate2015-2-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a B+-tree in which the maximum number of keys in a node is 5. What is\nthe minimum number of keys in any non-root node? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2191/gate2010-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The following key values are inserted into a B+  tree in which order of the internal nodes is 3, and that of the leaf nodes is 2, in the sequence given below. The order of internal nodes is the maximum number of tree pointers in each node, and the order of leaf nodes is the maximum number of data items that can be stored in it. The B+ - tree is initially empty. <br><br>\n10, 3, 6, 8, 4, 2, 1 <br><br>\nThe maximum number of times leaf nodes would get split up as a result of these insertions is <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1330/gate2009-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the \\(B^{+}\\) tree in the adjoining figure, where each node has at most two keys and three links.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B+_Tree\\q85a_a2b5c766.jpg\"><br>\nKeys K15 and then K25 are inserted into this tree in that order. Now the key K50 is deleted from the \\(B^{+}\\) tree resulting after the two insertions made earlier. Consider the following statements about the \\(B^{+}\\) tree resulting after this deletion.<br>\ni.The height of the tree remains the same.<br>\nii.The node\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B+_Tree\\q85b_b15f9ed2.jpg\"><br>\n(disregarding the links) is present in the tree.<br>\niii.The root node remains unchanged (disregarding the links)1<br>\nWhich one of the following options is true ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Statements (i) and (ii) are true</p>",
+            "<b>B.</b> <p>Statements (ii) and (iii) are true</p>",
+            "<b>C.</b> <p>Statements (iii) and (i) are true</p>",
+            "<b>D.</b> <p>All the statements are false</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Statements (i) and (ii) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3537/gate2007-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the \\(B^+\\) tree in the adjoining figure, where each node has at most two keys and three links.<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B+_Tree\\q84a_d9f1f82d.jpg\"><br>Keys K15 and then K25 are inserted into this tree in that order. Exactly how many of the following nodes (disregarding the links) will be present in the tree after the two insertions?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\B+_Tree\\q84b_037c52a6.jpg\"><br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3536/gate2007-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following is correct? <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B-trees are for storing data on disk and \\(B^+\\) trees are for main memory.</p>",
+            "<b>B.</b> <p>Range queries are faster on \\(B^+\\) trees.</p>",
+            "<b>C.</b> <p>B-trees are for primary indexes and \\(B^+\\) trees are for secondary indexes.</p>",
+            "<b>D.</b> <p>The height of a \\(B^+\\) tree is independent of the number of records.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Range queries are faster on \\(B^+\\) trees.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1478/gate1999-1-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

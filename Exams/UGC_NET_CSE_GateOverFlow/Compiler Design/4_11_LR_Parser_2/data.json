@@ -1,0 +1,41 @@
+{
+  "title": "Compiler Design - LR Parser",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "LR Parser",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335637\"></a><div itemprop=\"text\"><p>The ‘K’ in LR (K) cannot be :</p></div><br><br><b>Compiler Design: UGC NET CSE | December 2006 | Part 2 | Question: 34</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335637/ugc-net-cse-december-2006-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/335637/ugc-net-cse-december-2006-part-2-question-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"59637\"></a><div itemprop=\"text\"><p>Which of the following is true ?</p>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | December 2014 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Canonical \\( LR \\) parser is \\( LR (1) \\) parser with single look ahead terminal</p>",
+            "<p>All \\( LR(K) \\) parsers with \\( K &gt; 1 \\) can be transformed into \\( LR(1) \\) parsers.&nbsp;</p>",
+            "<p>Both \\( (A) \\) and \\( (B) \\)</p>",
+            "<p>None of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Both \\( (A) \\) and \\( (B) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59637/ugc-net-cse-december-2014-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/59637/ugc-net-cse-december-2014-part-2-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Data Structures - Infix Prefix",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Infix Prefix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336369\"></a><div itemprop=\"text\"><p>Assume that the operators \\( +,-,\\times \\)&nbsp;are left associative and \\( \\wedge \\) is right associative. The order of precedence(from highest to lowest) is \\( \\wedge,\\times, +,- \\). The postfix expression corresponding to the infix expression&nbsp;\\( a+b\\times&nbsp;c-d\\wedge&nbsp;e\\wedge&nbsp;f \\)&nbsp;is</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( abc\\times+def\\wedge\\wedge- \\)</p>",
+            "<p>\\( abc\\times+de\\wedge&nbsp;f\\wedge- \\)</p>",
+            "<p>\\( ab+c\\times&nbsp;d-e\\wedge&nbsp;f\\wedge&nbsp; \\)</p>",
+            "<p>\\( -+a\\times&nbsp;bc\\wedge\\wedge&nbsp;def \\)</p>"
+          ],
+          "correct_answer": "<p>\\( abc\\times+def\\wedge\\wedge- \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336369/nielit-2017-july-scientist-b-cs-section-b-6\" target=\"_blank\">https://gateoverflow.in/336369/nielit-2017-july-scientist-b-cs-section-b-6</a></p>"
+        }
+      ]
+    }
+  ]
+}

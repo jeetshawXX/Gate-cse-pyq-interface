@@ -1,0 +1,41 @@
+{
+  "title": "Quantitative Aptitude - Error Spotting",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Error Spotting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"887\"></a><div itemprop=\"text\"><p>Identify the incorrect sentence or sentences</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 85</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Last Sunday, Archana had nothing to do.</p>",
+            "<p>After waking up, she lay on bed thinking what to do.</p>",
+            "<p>At \\( 11 \\)'o clock she took shower and got ready.</p>",
+            "<p>She spent most of the day shopping\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>B and C</li>\n\t\t<li>C</li>\n\t\t<li>A and B</li>\n\t\t<li>B, C, and D</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/887/cat-2004-question-85\" target=\"_blank\">https://aptitude.gateoverflow.in/887/cat-2004-question-85</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"888\"></a><div itemprop=\"text\"><p>Identify the incorrect sentence or sentences</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2004 | Question: 86</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>It was a tough situation and Manasi was taking pains to make it better.</p>",
+            "<p>Slowly her efforts gave fruits and things started improving</p>",
+            "<p>Everyone complemented her for her good work</p>",
+            "<p>She was very happy and thanked everyone for their help.\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>A</li>\n\t\t<li>D</li>\n\t\t<li>B and C</li>\n\t\t<li>A and C</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/888/cat-2004-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/888/cat-2004-question-86</a></p>"
+        }
+      ]
+    }
+  ]
+}

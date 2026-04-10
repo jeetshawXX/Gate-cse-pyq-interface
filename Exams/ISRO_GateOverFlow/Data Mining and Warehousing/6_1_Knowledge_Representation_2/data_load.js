@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Data Mining and Warehousing - Knowledge Representation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Knowledge Representation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"43753\"></a><div itemprop=\"text\">\n<p>Opportunistic reasoning is addressed by which of the following knowledge representation?</p>\n\n\n</div><br><br><b>Data Mining and Warehousing: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Script</p>",
+            "<p>Blackboard</p>",
+            "<p>Production Rules</p>",
+            "<p>Fuzzy Logic</p>"
+          ],
+          "correct_answer": "<p>Blackboard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43753/isro-2013-3\" target=\"_blank\">https://gateoverflow.in/43753/isro-2013-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182128\"></a><div itemprop=\"text\"><p>Consider the results of a medical experiment that aims to predict whether someone is going to develop myopia based on some physical measurements and heredity. In this case, the input dataset consists of the person's medical characteristics and the target variable is binary: \\( 1 \\) for those who are likely to develop myopia and \\( 0 \\) for those who aren't. This can be best classified as</p>\n\n</div><br><br><b>Data Mining and Warehousing: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Regression&nbsp;</p>",
+            "<p>Decision Tree</p>",
+            "<p>Clustering</p>",
+            "<p>Association Rules</p>"
+          ],
+          "correct_answer": "<p>Decision Tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182128/isro-dec2017-78\" target=\"_blank\">https://gateoverflow.in/182128/isro-dec2017-78</a></p>"
+        }
+      ]
+    }
+  ]
+});

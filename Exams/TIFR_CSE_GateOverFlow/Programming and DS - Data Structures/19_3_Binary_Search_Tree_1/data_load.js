@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Binary Search Tree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Search Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18749\"></a><div itemprop=\"text\"><p>Suppose there is a balanced binary search tree with \\( n \\) nodes, where at each node, in addition to the key, we store the number of elements in the sub tree rooted at that node.</p>\n\n<p>Now, given two elements \\( a \\) and \\( b \\), such that \\( a &lt; b \\), we want to find the number of elements \\( x \\) in the tree that lie between \\( a \\) and \\( b \\), that is, \\( a \\leq x \\leq b \\). This can be done with (choose the best solution).</p>\n\n</div><br><br><b>Data Structures: TIFR CSE 2010 | Part B | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(\\log n) \\) &nbsp;comparisons and \\( O(\\log n) \\) additions.</p>",
+            "<p>\\( O(\\log n) \\) comparisons but no further additions.</p>",
+            "<p>\\( O \\left (\\sqrt{n} \\right ) \\) comparisons but \\( O(\\log &nbsp;n) \\) additions.</p>",
+            "<p>\\( O(\\log &nbsp;n) \\) comparisons but a constant number of additions.</p>",
+            "<p>\\( O(n) \\) comparisons and \\( O(n) \\) additions, using depth-first- search.</p>"
+          ],
+          "correct_answer": "<p>\\( O(\\log n) \\) &nbsp;comparisons and \\( O(\\log n) \\) additions.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18749/tifr-cse-2010-part-b-question-26\" target=\"_blank\">https://gateoverflow.in/18749/tifr-cse-2010-part-b-question-26</a></p>"
+        }
+      ]
+    }
+  ]
+});

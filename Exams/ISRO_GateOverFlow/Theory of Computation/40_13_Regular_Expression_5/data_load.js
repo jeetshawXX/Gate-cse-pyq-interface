@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Regular Expression",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Regular Expression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2596\"></a><div itemprop=\"text\"><p>In some programming language, an identifier is permitted to be a letter followed by any number of letters or digits. If \\( L \\) and \\( D \\) denote the sets of letters and digits respectively, which of the following expressions defines an identifier?</p>\n\n</div><br><br><b>Theory of Computation: GATE CSE 1995 | Question: 1.9 , ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (L + D)^+ \\)</p>",
+            "<p>\\( (L.D)^* \\)</p>",
+            "<p>\\( L(L + D)^* \\)</p>",
+            "<p>\\( L(L.D)^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( L(L + D)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2596/gate-cse-1995-question-1-9-isro2017-13\" target=\"_blank\">https://gateoverflow.in/2596/gate-cse-1995-question-1-9-isro2017-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"55547\"></a><div itemprop=\"text\">\n<p>Let \\( L=\\{w \\in (0+1)^* \\mid w \\text{ has even number of 1's}\\} \\), i.e. \\( L \\) is the set of all bit strings with even number of 1's. Which one of the regular expression below represents \\( L \\)?</p>\n\n\n</div><br><br><b>Theory of Computation: ISRO CSE 2016 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (0^*10^*1)^* \\)</p>",
+            "<p>\\( 0^*(10^*10^*)^* \\)</p>",
+            "<p>\\( 0^*(10^*1^*)^*0^* \\)</p>",
+            "<p>\\( 0^*1(10^*1)^*10^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0^*(10^*10^*)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55547/isro-cse-2016-question-33\" target=\"_blank\">https://gateoverflow.in/55547/isro-cse-2016-question-33</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"435383\"></a><div itemprop=\"text\"><p>Consider the deterministic finite-state automaton (DFA) below. The alphabet is \\( \\{a, b\\} \\). The state with a small incoming arrow is the initial state, while the double circle state denotes a final state.</p><p style=\"text-align:center\"><img alt=\"DFA diagram\" width=\"450\" height=\"365\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=14097929086124071602\"></p><p>Which of the following regular expressions defines the language accepted by the DFA?</p></div><br><br><b>Theory of Computation: ISRO CSE 2023 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a b^{*} \\)</p>",
+            "<p>\\( a^{*} b^{*} \\)</p>",
+            "<p>\\( (a b)^{*} \\)</p>",
+            "<p>\\( a^{\\star} b \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( a b^{*} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435383/isro-cse-2023-question-13\" target=\"_blank\">https://gateoverflow.in/435383/isro-cse-2023-question-13</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"435331\"></a><div itemprop=\"text\"><p>Consider the NFA with epsilon-transitions below, which is meant to accept strings corresponding to a lexical token id. Here the token digit corresponds to the extended regular expression [0-9] and letter corresponds to \\( [\\mathrm{a}-\\mathrm{z} A-Z] \\). In the diagram, a small incoming edge indicates a start state while a double circle indicates a final state.<br>Which of the following extended regular expressions corresponds to the token id?</p><p style=\"text-align:center\"><img alt=\"DFA\" width=\"600\" height=\"400\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=1954946394537862348\"></p></div><br><br><b>Theory of Computation: ISRO CSE 2023 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>letter (letter | digit)*</p>",
+            "<p>(letter I digit)* letter</p>",
+            "<p>(letter | digit)*</p>",
+            "<p>letter (letter* | digit*)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>letter (letter | digit)*</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435331/isro-cse-2023-question-64\" target=\"_blank\">https://gateoverflow.in/435331/isro-cse-2023-question-64</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"182071\"></a><div itemprop=\"text\"><p>For \\( \\Sigma =\\{a,b\\} \\) the regular expression \\( r=(aa)^{*}(bb)^{*}b \\) denotes</p>\n\n</div><br><br><b>Theory of Computation: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Set of strings with&nbsp;\\( 2\\,{a}'s \\) and&nbsp;\\( 2\\,{b}'s \\)</p>",
+            "<p>Set of strings with&nbsp;\\( 2\\,{a}'s \\)&nbsp;\\( 2\\,{b}'s \\) followed by \\( b \\)</p>",
+            "<p>Set of strings with&nbsp;\\( 2\\,{a}'s \\) followed by&nbsp;\\( {b}'s \\) which is a multiple of \\( 3 \\)</p>",
+            "<p>Set of strings with even number of&nbsp;\\( {a}'s \\) followed by odd number of&nbsp;\\( {b}'s \\)</p>"
+          ],
+          "correct_answer": "<p>Set of strings with even number of&nbsp;\\( {a}'s \\) followed by odd number of&nbsp;\\( {b}'s \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182071/isro-dec2017-21\" target=\"_blank\">https://gateoverflow.in/182071/isro-dec2017-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

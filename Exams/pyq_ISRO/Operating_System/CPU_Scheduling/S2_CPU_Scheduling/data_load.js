@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "CPU_Scheduling - CPU_Scheduling - Slot 2",
+  "duration": 39,
+  "sections": [
+    {
+      "name": "CPU_Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The following table shows the processes in the ready queue and time required for each process for completing its job.<br><br>\\(\\begin{array}{ll} \\text { Process } &amp; \\text { Time } \\\\ P_{1} &amp; 10 \\\\ P_{2} &amp; 5 \\\\ P_{3} &amp; 20 \\\\ P_{4} &amp; 8 \\\\ P_{5} &amp; 15 \\end{array}\\)<br><br>If round-robin scheduling with 5 ms is used what is the average waiting time of the processes in the queue? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>27 ms</p>",
+            "<b>B.</b> <p>26.2 ms</p>",
+            "<b>C.</b> <p>27.5 ms</p>",
+            "<b>D.</b> <p>27.2 ms</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>26.2 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51328/isro2011-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a set of 5 processes whose arrival time, CPU time needed and the priority are given below:<br>\\(\\begin{array}{llll} \\text { Process Priority } &amp; \\text { Arrival Time (in ms) } &amp; \\text { CPU Time Needed } &amp; \\text { Priority } \\\\ \\text { P1 } &amp; 0 &amp; 10 &amp; 5 \\\\ \\text { P2 } &amp; 0 &amp; 5 &amp; 2 \\\\ \\text { P3 } &amp; 2 &amp; 3 &amp; 1 \\\\ \\text { P4 } &amp; 5 &amp; 20 &amp; 4 \\\\ \\text { P5 } &amp; 10 &amp; 2 &amp; 3 \\end{array}\\)<br>(smaller the number, higher the priority)<br>\nIf the CPU scheduling policy is priority scheduling without pre-emption, the average waiting time will be <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12.8 ms</p>",
+            "<b>B.</b> <p>11.8 ms</p>",
+            "<b>C.</b> <p>10.8 ms</p>",
+            "<b>D.</b> <p>09,8 ms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10.8 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50342/isro2009-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The performance of Round Robin algorithm depends heavily on <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>size of the process</p>",
+            "<b>B.</b> <p>the I/O bursts of the process</p>",
+            "<b>C.</b> <p>the CPU bursts of the process</p>",
+            "<b>D.</b> <p>the size of the time quantum</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the size of the time quantum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50132/isro2008-66-isro2009-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider three CPU-intensive processes, which require 10, 20 and 30 time units and arrive at times 0, 2 and 6, respectively. How many context switches are needed if the operating system implements a shortest remaining time first scheduling algorithm? Do not count the context switches at time zero and at the end. <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/885/gate2006-06-isro2009-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The correct matching of the following pairs is<br>\\(\\begin{array}{|l|l|l|l|} \\hline \\text{A.} &amp; \\text{Disk check} &amp; \\text{i.} &amp; \\text{Round robin} \\\\\\hline \\text{B.}&amp; \\text{Batch processing} &amp; \\text{ii.} &amp; \\text{Scan} \\\\\\hline \\text{C.} &amp; \\text{Time sharing} &amp; \\text{iii.} &amp; \\text{LIFO} \\\\\\hline \\text{D.} &amp; \\text{Stack operation} &amp; \\text{iv.} &amp; \\text{FIFO} \\\\\\hline \\end{array}\\) <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A-iii, B-iv, C-ii, D-i</p>",
+            "<b>B.</b> <p>A-iv, B-iii, C-ii, D-i</p>",
+            "<b>C.</b> <p>A-iii, B-iv, C-i, D-ii</p>",
+            "<b>D.</b> <p>A-ii, B-iv, C-i, D-iii</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A-ii, B-iv, C-i, D-iii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50327/isro2009-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The performance of Round Robin algorithm depends heavily on <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>size of the process</p>",
+            "<b>B.</b> <p>the I/O bursts of the process</p>",
+            "<b>C.</b> <p>the CPU bursts of the process</p>",
+            "<b>D.</b> <p>the size of the time quantum</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the size of the time quantum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50132/isro2008-66-isro2009-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>With Round-Robin CPU scheduling in a time shared system <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>using very large time slices (quantas) degenerates into First-Come First served (FCFS) algorithm.</p>",
+            "<b>B.</b> <p>using extremely small time slices improves performance</p>",
+            "<b>C.</b> <p>using very small time slices degenerates into Last-In First-Out (LIFO) algorithm.</p>",
+            "<b>D.</b> <p>using medium sized times slices leads to shortest Request time First (SRTF) algorithm</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>using very large time slices (quantas) degenerates into First-Come First served (FCFS) algorithm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49983/isro2008-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Feedback queues <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>are very simple to implement</p>",
+            "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+            "<b>C.</b> <p>are used to favour real time tasks</p>",
+            "<b>D.</b> <p>require manual intervention to implement properly</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49632/isro2007-64-isro2008-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Four jobs to be executed on a single processor system arrive at time 0 in the order A,B,C,D. Their burst CPU time requirements are 4,1,8,1 time units respectively. The completion time of A under round robin scheduling with time slice of one time unit is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2749/gate1996-2-20-isro2008-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Feedback queues <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>are very simple to implement</p>",
+            "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+            "<b>C.</b> <p>are used to favour real time tasks</p>",
+            "<b>D.</b> <p>require manual intervention to implement properly</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49632/isro2007-64-isro2008-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>On a system using non-preemptive scheduling, processes with expected run times of 5, 18, 9 and 12 are in the ready queue. In what order should they be run to minimize wait time? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5, 12, 9, 18</p>",
+            "<b>B.</b> <p>5, 9, 12, 18</p>",
+            "<b>C.</b> <p>12, 18, 9, 5</p>",
+            "<b>D.</b> <p>9, 12, 18, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5, 9, 12, 18</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49520/isro2007-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Round Robin schedule is essentially the pre-emptive version of <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FIFO</p>",
+            "<b>B.</b> <p>Shortest job first</p>",
+            "<b>C.</b> <p>Shortest remaining time</p>",
+            "<b>D.</b> <p>Longest remaining time</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>FIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49488/isro2007-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a set of n tasks with known runtimes \\(r_1, r_2, \\dots r_n\\) to be run on a uniprocessor machine. Which of the following processor scheduling algorithms will result in the maximum throughput? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Round Robin</p>",
+            "<b>B.</b> <p>Shortest job first</p>",
+            "<b>C.</b> <p>Highest response ratio next</p>",
+            "<b>D.</b> <p>first come first served</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Shortest job first</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49481/isro2007-11-gate2001-1-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The term 'aging' refers to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>booting up the priority of the process in multi-level of queue without feedback.</p>",
+            "<b>B.</b> <p>gradually increasing the priority of jobs that wait in the system for a long time to remedy infinite blocking</p>",
+            "<b>C.</b> <p>keeping track of the following a page has been in memory for the purpose of LRU replacement</p>",
+            "<b>D.</b> <p>letting job reside in memory for a certain amount of time so that the number of pages required can be estimated accurately.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>gradually increasing the priority of jobs that wait in the system for a long time to remedy infinite blocking</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49480/isro2007-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

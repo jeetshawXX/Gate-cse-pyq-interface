@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Complexity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Complexity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"419335\"></a><div itemprop=\"text\"><p>In the \\( n \\)-queens completion problem, the input is an \\( n \\times n \\) chess board with queens on some squares, and the goal is to determine if there is a way to place more queens so that the total number of queens is \\( n \\) and no two queens attack each other (two queens are said to attack each other if they are on the same row, or they are on the same column, or they are on the same diagonal).</p>\n\n<p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>The \\( n \\)-queens completion problem is decidable.</li>\n\t<li>The \\( n \\)-queens completion problem is decidable in time \\( O\\left(n^{n^{n}}\\right) \\).</li>\n\t<li>The problem of \"checking whether a given program solves the \\( n \\)-queens completion problem\" is decidable.</li>\n\t<li>The problem of \"checking whether a given program solves the \\( n \\)-queens completion problem in time \\( O\\left(n^{n^{n}}\\right) \\) \" is decidable.</li>\n\t<li>The problem of \"checking whether a given program solves the \\( n \\)-queens completion problem\" is decidable in time \\( O\\left(n^{n^{n}}\\right) \\).</li>\n</ol>\n\n<p>Which of the above is true?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2024 | Part B | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( \\text{(i) and (ii)} \\).</p>",
+            "<p>Only \\( \\text{(i) and (iii)} \\).</p>",
+            "<p>Only \\( \\text{(i), (ii) and (iv)} \\).</p>",
+            "<p>Only \\( \\text{(iii),(iv) and (v)} \\).</p>",
+            "<p>Only \\( \\text{(i), (iii) and (iv)} \\).\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Only \\( \\text{(i), (ii) and (iv)} \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/419335/tifr-cse-2024-part-b-question-12\" target=\"_blank\">https://gateoverflow.in/419335/tifr-cse-2024-part-b-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

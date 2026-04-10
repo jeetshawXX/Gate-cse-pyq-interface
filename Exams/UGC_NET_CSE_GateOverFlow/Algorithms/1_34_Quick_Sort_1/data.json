@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Quick Sort",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Quick Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57582\"></a><div itemprop=\"text\"><p>Suppose that the splits at every level of quicksort are in the proportion \\( (1 – \\alpha) \\) to \\( \\alpha \\), where \\( 0&lt;\\alpha\\leq\\frac{1}{2} \\) is a constant. The minimum depth of a leaf in the recursion tree is approximately given by</p>\n\n</div><br><br><b>Algorithms: UGC NET CSE | June 2014 | Part 3 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -\\frac{lgn}{lg(1-\\alpha)} \\)</p>",
+            "<p>\\( -\\frac{lg(1-\\alpha)}{lgn} \\)</p>",
+            "<p>\\( -\\frac{lgn}{lg\\alpha} \\)</p>",
+            "<p>\\( -\\frac{lg\\alpha}{lgn} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -\\frac{lgn}{lg\\alpha} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57582/ugc-net-cse-june-2014-part-3-question-66\" target=\"_blank\">https://gateoverflow.in/57582/ugc-net-cse-june-2014-part-3-question-66</a></p>"
+        }
+      ]
+    }
+  ]
+}

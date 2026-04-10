@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "Binary_Tree - Binary_Tree - Slot 1",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Binary_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The post-order traversal of binary tree is ACEDBHIGF. The pre-order traversal is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A B C D E F G H I</p>",
+            "<b>B.</b> <p>F B A D C E G I H</p>",
+            "<b>C.</b> <p>F A B C D E G H I</p>",
+            "<b>D.</b> <p>A B D C E F G I H</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>F B A D C E G I H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331270/isro2020-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Binary_Tree\\q80_ad0455a8.jpg\"><br>Which traversals of Tree-1 and Tree-2, respectively, will produce the same sequence? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Preorder, postorder</p>",
+            "<b>B.</b> <p>Postorder, inorder</p>",
+            "<b>C.</b> <p>Postorder, preorder</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213508/isro2018-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Binary_Tree\\q50_0b35423d.jpg\"><br>If the post order traversal gives ab -cd * + then the label of the nodes 1,2,3.. will be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>+ , -, *, a,b,c,d</p>",
+            "<b>B.</b> <p>a, -,b,+,c,*,d</p>",
+            "<b>C.</b> <p>a,b,c,d,-,*,+</p>",
+            "<b>D.</b> <p>-,a,b,+,*,c,d</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>+ , -, *, a,b,c,d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128696/isro2017-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A complete binary tree with n non-leaf nodes contains <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\log_{2}n\\) nodes</p>",
+            "<b>B.</b> <p>n+1  nodes</p>",
+            "<b>C.</b> <p>2n nodes</p>",
+            "<b>D.</b> <p>2n+1 nodes</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2n+1 nodes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55672/isro2016-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>How many different trees are there with four nodes A,B,C and D? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30</p>",
+            "<b>B.</b> <p>60</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>120</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17447/isro2014-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following number of nodes can form a full binary tree? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>15</p>",
+            "<b>C.</b> <p>14</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43967/isro-2013-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The in-order traversal of a tree resulted in FBGADCE. Then the pre-order traversal of that tree would result in <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>FGBDECA</p>",
+            "<b>B.</b> <p>ABFGCDE</p>",
+            "<b>C.</b> <p>BFGCDEA</p>",
+            "<b>D.</b> <p>AFGBDEC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ABFGCDE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50619/isro2011-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A full binary tree with n leaves contains <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n nodes</p>",
+            "<b>B.</b> <p>\\(\\log_2\\) n nodes</p>",
+            "<b>C.</b> <p>2n-1</p>",
+            "<b>D.</b> <p>\\(2^n\\) nodes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50383/isro2009-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A complete binary tree with the property that the value at each node is at least as large as the values at its children is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>binary search tree</p>",
+            "<b>B.</b> <p>AVL tree</p>",
+            "<b>C.</b> <p>completely balanced tree</p>",
+            "<b>D.</b> <p>Heap</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50145/isro2008-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

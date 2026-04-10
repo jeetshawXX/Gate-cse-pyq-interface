@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the Boolean operator with the following properties:<br>\n\\(x \\# 0=x, x \\# 1=\\bar{x}\\), \\(x \\# x=0\\) and \\(x \\# \\bar{x}=1\\). Then \\(x \\# y\\) is equivalent to <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x\\bar{y}+\\bar{x}y\\)</p>",
+            "<b>B.</b> <p>\\(x\\bar{y}+\\bar{x}\\bar{y}\\)</p>",
+            "<b>C.</b> <p>\\(\\bar{x}y+xy\\)</p>",
+            "<b>D.</b> <p>\\(xy+\\bar{x}\\bar{y}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(x\\bar{y}+\\bar{x}y\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39629/gate2016-1-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The decimal number has 64 digits. The number of bits needed for its equivalent binary representation is? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>200</p>",
+            "<b>B.</b> <p>213</p>",
+            "<b>C.</b> <p>246</p>",
+            "<b>D.</b> <p>277</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>213</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50363/isro2015-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The boolean expression \\(A B+A B^{\\prime}+A^{\\prime} C+A C\\) is independent of the boolean variable <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51074/isro2015-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The number of 1's in the binary representation of \\((3*4096 + 15*256 + 5*16 + 3)\\) are: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2624/gate1995-2-12-isro2015-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Minimum number of 2x1 multiplexers required to realize the following function, \\(f=\\bar{A} \\bar{B} C+\\bar{A} \\bar{B} \\bar{C}\\)<br>Assume that inputs are available only in true form and Boolean a constant 1 and 0 are available. <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50782/isro2015-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>If half adders and full adders are implements using gates, then for the addition of two 17 bit numbers (using minimum gates) the number of half adders and full adders required will be <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0,17</p>",
+            "<b>B.</b> <p>16,1</p>",
+            "<b>C.</b> <p>1,16</p>",
+            "<b>D.</b> <p>8,8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1,16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19462/isro2015-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The code which uses 7 bits to represent a character is : <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ASCII</p>",
+            "<b>B.</b> <p>BCD</p>",
+            "<b>C.</b> <p>EBCDIC</p>",
+            "<b>D.</b> <p>Gray</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>ASCII</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46690/isro2015-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The complement of the Boolean expression \\(A B(\\bar{B} C+A C)\\) is <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\bar{A}+\\bar{B})+(B+\\bar{C}) \\cdot(\\bar{A}+\\bar{C})\\)</p>",
+            "<b>B.</b> <p>\\((\\bar{A} \\cdot \\bar{B})+(B \\bar{C}+\\bar{A} \\bar{C})\\)</p>",
+            "<b>C.</b> <p>\\((\\bar{A}+\\bar{B}) \\cdot(B+\\bar{C})+(A+\\bar{C})\\)</p>",
+            "<b>D.</b> <p>\\((A+B) \\cdot(\\bar{B}+C)(A+C)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((\\bar{A}+\\bar{B})+(B+\\bar{C}) \\cdot(\\bar{A}+\\bar{C})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50778/isro2015-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A modulus -12 ring counter requires a minimum of <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10  flip-flops</p>",
+            "<b>B.</b> <p>12 flip-flops</p>",
+            "<b>C.</b> <p>8 flip-flops</p>",
+            "<b>D.</b> <p>6 flip-flops</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12 flip-flops</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19487/isro2015-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The range of integers that can be represented by an n bit 2's complement number system is: <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(-2^{n-1} \\text { to }\\left(2^{n-1}-1\\right)\\)</p>",
+            "<b>B.</b> <p>\\(-\\left(2^{n-1}-1\\right) \\text { to }\\left(2^{n-1}-1\\right)\\)</p>",
+            "<b>C.</b> <p>\\(-2^{n-1} \\text { to } 2^{n-1}\\)</p>",
+            "<b>D.</b> <p>\\(-\\left(2^{n-1}+1\\right) \\text { to }\\left(2^{n-1}-1\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(-2^{n-1} \\text { to }\\left(2^{n-1}-1\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1352/gate2005-16-isro2009-18-isro2015-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the given number has its IEEE-754 32-bit floating point representation as (0 10000000 110 0000 0000 0000 0000 0000) <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.5</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>3.5</p>",
+            "<b>D.</b> <p>4.5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3.5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50581/isro2015-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The total number of prime implicants of the function f(w,x,y,z)=\\(\\Sigma\\)(0,2,4,5,6,10) is _______. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8503/gate2015-3-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the equation \\((43)_{x}=(y3)_{8}\\) where x and y are unknown. The number of possible solutions is ______________ <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8494/gate2015-3-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Given the function F=P'+QR , where F is a function in three Boolean variables P,Q and R and P'=!P, consider the following statements.<br>\n(S1)  F=\\(\\Sigma\\)(4,5,6) <br>\n(S2)  F=\\(\\Sigma\\)(0,1,2,3,7) <br>\n(S3)  F=\\(\\Pi\\)(4,5,6) <br>\n(S4)  F=\\(\\Pi\\)(0,1,2,3,7) <br> Which of the following is true? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(S1)- False, (S2)- True, (S3)- True, (S4)- False</p>",
+            "<b>B.</b> <p>(S1)- True, (S2)- False, (S3)- False, (S4)- True</p>",
+            "<b>C.</b> <p>(S1)- False, (S2)- False, (S3)- True, (S4)- True</p>",
+            "<b>D.</b> <p>(S1)- True, (S2)- True, (S3)- False, (S4)- False</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(S1)- False, (S2)- True, (S3)- True, (S4)- False</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8504/gate2015-3-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let # be a binary operator defined as <br>\nX#Y=X'+Y' where X and Y are Boolean variables.<br> Consider the following two statements.<br><br>\n(S1) (P # Q) # R  =  P # (Q # R) <br>\n(S2) Q # R  =  R # Q<br><br>\nWhich of the following is/are true for the Boolean variables P,  Q and R? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Both S1 and S2 are true</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 are true</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8393/gate2015-3-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

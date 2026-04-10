@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Mean",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Mean",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6727\"></a><div itemprop=\"text\"><p>A grocer has a sale of \\( Rs.6435,Rs.6927,Rs.6855,Rs.7230 \\) and \\( Rs.6562 \\) for \\( 5 \\) consecutive months. How much sale must he have in the sixth month so that he gets an average sale of \\( Rs.6500 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{Rs.4991} \\)</p>",
+            "<p>\\( \\text{Rs.5991} \\)</p>",
+            "<p>\\( \\text{Rs.6001} \\)</p>",
+            "<p>\\( \\text{Rs.6991} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6727/nielit-2016-mar-scientist-c-section-a-4\" target=\"_blank\">https://aptitude.gateoverflow.in/6727/nielit-2016-mar-scientist-c-section-a-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6844\"></a><div itemprop=\"text\"><p>Find the mode of the following data :</p>\n\n<p>\\( \\begin{array}{|cl|cI|}\\hline<br>\n&amp;\\text{Age} &amp; \\text{0-6} &amp; \\text{6-12} &amp; \\text{12-18} &amp; \\text{18-24} &amp; \\text{24-30} &amp; \\text{30-36} &amp; \\text{36-42} \\\\ \\hline &amp;\\text{Frequency} &amp; \\text{6} &amp; \\text{11} &amp; \\text{25} &amp; \\text{35}&nbsp;&amp; \\text{18} &amp; \\text{12} &amp; \\text{6} \\\\ \\hline \\end{array} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20.22 \\)</p>",
+            "<p>\\( 19.47 \\)</p>",
+            "<p>\\( 21.12 \\)</p>",
+            "<p>\\( 20.14 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6844/nielit-2019-feb-scientist-d-section-d-9\" target=\"_blank\">https://aptitude.gateoverflow.in/6844/nielit-2019-feb-scientist-d-section-d-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

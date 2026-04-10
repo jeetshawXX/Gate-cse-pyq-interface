@@ -1,0 +1,289 @@
+{
+  "title": "Digital Logic - K Map",
+  "duration": 55,
+  "sections": [
+    {
+      "name": "K Map",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"82698\"></a><div itemprop=\"text\"><p>A Boolean function \\( f \\) is to be realized only by \\( \\text{NOR} \\) gates. Its \\( K \\)-map&nbsp;is given below:</p><p style=\"text-align:center\"><img alt=\"\" height=\"179\" width=\"271\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/c4dab843784291225620ade3d7cd6063.png\"></p><p>The realization is</p></div><br><br><b>GATE CSE 1987 | Question: 16-a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/2495f671b467a1b9601ab1669a8c7115.png\"></p></p>",
+            "<p>&nbsp;<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/db34735f540ce4a33bc6cc13acad8f37.png\"></p></p>",
+            "<p>&nbsp;<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/052f0c13318249e00eb2fb5331a6ddc9.png\"></p></p>",
+            "<p>&nbsp;<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/13784a6684a5e1838910958803b4fcf9.png\"></p></p>"
+          ],
+          "correct_answer": "<p>&nbsp;<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/13784a6684a5e1838910958803b4fcf9.png\"></p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82698/gate-cse-1987-question-16-a\" target=\"_blank\">https://gateoverflow.in/82698/gate-cse-1987-question-16-a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"94358\"></a><div itemprop=\"text\"><p><img alt=\"\" height=\"218\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/f0654e927d600c7b0e5910a52d93acd5.png\" style=\"float:left\" width=\"319\">&nbsp; &nbsp;<img alt=\"\" height=\"226\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/af6a1a26bd71d7fa8a0692c273c45f5e.png\" width=\"226\"></p>\n\n<p>The Karnaugh map of a function of \\( (A, B, C) \\) is shown on the left hand side of the above figure.</p>\n\n<p>The reduced form of the same map is shown on the right hand side, in which the variable \\( C \\) is entered in the map itself. Discuss,</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>The methodology by which the reduced map has been derived and</li>\n\t<li>the rules (or steps) by which the boolean function can be derived from the entries in the reduced map.</li>\n</ol></div><br><br><b>GATE CSE 1988 | Question: 3a-b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/94358/gate-cse-1988-question-3a-b\" target=\"_blank\">https://gateoverflow.in/94358/gate-cse-1988-question-3a-b</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"545\"></a><div itemprop=\"text\"><p>The Boolean function in sum of products form where K-map is given below (figure) is _______</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"174\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/240485dcc43ef714fc8a1c54d04c5213.png\" width=\"173\"></p></div><br><br><b>GATE CSE 1992 | Question: 01-i</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/545/gate-cse-1992-question-01-i\" target=\"_blank\">https://gateoverflow.in/545/gate-cse-1992-question-01-i</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2651\"></a><div itemprop=\"text\">Implement a circuit having the following output expression using an inverter and a nand gate \\[ Z=\\overline{A} + \\overline{B} +C \\]</div><br><br><b>GATE CSE 1995 | Question: 15-a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2651/gate-cse-1995-question-15-a\" target=\"_blank\">https://gateoverflow.in/2651/gate-cse-1995-question-15-a</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"203837\"></a><div itemprop=\"text\"><p>What is the equivalent minimal Boolean expression (in sum of products form) for the Karnaugh map given below?</p>\n\n<p>&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"211\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/b30d3a5dd42f82750ed6e8eb700d08b6.png\" width=\"219\"></p></div><br><br><b>GATE CSE 1995 | Question: 15-b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/203837/gate-cse-1995-question-15-b\" target=\"_blank\">https://gateoverflow.in/203837/gate-cse-1995-question-15-b</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2753\"></a><div itemprop=\"text\"><p>What is the equivalent Boolean expression in product-of-sums form for the Karnaugh map given in Fig</p>\n\n<p>&nbsp;</p>\n<p style=\"text-align:center\"><img alt=\"\" height=\"204\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/1f3ea0c9e0cd0b822acc3b03571fb7e6.png\" width=\"212\"></p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 2.24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B\\overline{D} + \\overline{B}D \\)</p>",
+            "<p>\\( (B + \\overline{C} +D) (\\overline{B} + C + \\overline{D}) \\)</p>",
+            "<p>\\( (B + {D})(\\overline{B} +\\overline{ D}) \\)</p>",
+            "<p>\\( (B + \\overline{D})(\\overline{B} + {D}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (B + {D})(\\overline{B} +\\overline{ D}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2753/gate-cse-1996-question-2-24\" target=\"_blank\">https://gateoverflow.in/2753/gate-cse-1996-question-2-24</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1679\"></a><div itemprop=\"text\"><p>The function represented by the Karnaugh map given below is</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"130\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/926a1b8501c21c7fa7eea5c32ce11dc0.png\" width=\"208\"></p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 2.7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A.B \\)</p>",
+            "<p>\\( AB+BC+CA \\)</p>",
+            "<p>\\( \\overline{B \\oplus C} \\)</p>",
+            "<p>\\( A.BC \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\overline{B \\oplus C} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1679/gate-cse-1998-question-2-7\" target=\"_blank\">https://gateoverflow.in/1679/gate-cse-1998-question-2-7</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1461\"></a><div itemprop=\"text\"><p>Which of the following functions implements the Karnaugh map shown below?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"213\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/304d9bb8807e9e5f60c9d09c13d2e0cf.png\" width=\"220\"></p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bar{A}B + CD \\)</p>",
+            "<p>\\( D(C+A) \\)</p>",
+            "<p>\\( AD+\\bar{A}B \\)</p>",
+            "<p>\\( (C+D) (\\bar{C}+D) + (A+B) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( D(C+A) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1461/gate-cse-1999-question-1-8\" target=\"_blank\">https://gateoverflow.in/1461/gate-cse-1999-question-1-8</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"658\"></a><div itemprop=\"text\"><p>Which functions does NOT implement the Karnaugh map given below?</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"227\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/f3c1b02b68df24b5686b51e585d7987f.png\" width=\"229\"></p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (w + x) y \\)</p>",
+            "<p>\\( xy + yw \\)</p>",
+            "<p>\\( (w + x) (\\bar{w} + y) (\\bar{x} + y) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/658/gate-cse-2000-question-2-11\" target=\"_blank\">https://gateoverflow.in/658/gate-cse-2000-question-2-11</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"704\"></a><div itemprop=\"text\"><p>Given the following karnaugh map, which one of the following represents the minimal Sum-Of-Products of the map?</p><p style=\"text-align:center\"><img alt=\"\" height=\"245\" width=\"248\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/1b9bf46134040226fe0b551118c6e33e.png\"></p></div><br><br><b>GATE CSE 2001 | Question: 1.11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( XY+Y'Z \\)</p>",
+            "<p>\\( WX'Y' + XY +XZ \\)</p>",
+            "<p>\\( W'X+Y'Z+XY \\)</p>",
+            "<p>\\( XZ+Y \\)</p>"
+          ],
+          "correct_answer": "<p>\\( XY+Y'Z \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/704/gate-cse-2001-question-1-11\" target=\"_blank\">https://gateoverflow.in/704/gate-cse-2001-question-1-11</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"816\"></a><div itemprop=\"text\"><p>Minimum sum of product expression for \\( f(w,x,y,z) \\) shown in Karnaugh-map below</p>\n\n<p>&nbsp;</p>\n<p style=\"text-align:center\"><img alt=\"\" height=\"237\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/4dff9c5d56286df2d4e34d61210f06cd.png\" width=\"239\"></p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 1.12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( xz + y'z \\)</p>",
+            "<p>\\( xz' + zx' \\)</p>",
+            "<p>\\( x'y + zx' \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( xz' + zx' \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/816/gate-cse-2002-question-1-12\" target=\"_blank\">https://gateoverflow.in/816/gate-cse-2002-question-1-12</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"936\"></a><div itemprop=\"text\"><p>The literal count of a Boolean expression is the sum of the number of times each literal appears in the expression. For example, the literal count of \\( \\left(xy+xz'\\right) \\) is \\( 4. \\) What are the minimum possible literal counts of the product-of-sum and sum-of-product representations respectively of the function given by the following Karnaugh map? Here, \\( X \\) denotes&nbsp;\"don't care\"</p><p style=\"text-align:center\"><img alt=\"\" height=\"238\" width=\"241\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/302c3578c03bf7f652a0d5d7ac8100e2.png\"></p></div><br><br><b>GATE CSE 2003 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (11, 9) \\)</p>",
+            "<p>\\( (9, 13) \\)</p>",
+            "<p>\\( (9, 10) \\)</p>",
+            "<p>\\( (11,11) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (9, 10) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/936/gate-cse-2003-question-45\" target=\"_blank\">https://gateoverflow.in/936/gate-cse-2003-question-45</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"403\"></a><div itemprop=\"text\"><p>In the Karnaugh map shown below, \\( X \\) denotes a don’t care term. What is the minimal form of the function represented by the Karnaugh map?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"220\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/c68d57bd526a2f81ab4aa152e3c6aee2.png\" width=\"222\"></p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bar{b}.\\bar{d} + \\bar{a}.\\bar{d} \\)</p>",
+            "<p>\\( \\bar{a}.\\bar{b} + \\bar{b}.\\bar{d} + \\bar{a}.b.\\bar{d} \\)</p>",
+            "<p>\\( \\bar{b}.\\bar{d} + \\bar{a}.b.\\bar{d} \\)</p>",
+            "<p>\\( \\bar{a}.\\bar{b} + \\bar{b}.\\bar{d} + \\bar{a}.\\bar{d} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\bar{b}.\\bar{d} + \\bar{a}.\\bar{d} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/403/gate-cse-2008-question-5\" target=\"_blank\">https://gateoverflow.in/403/gate-cse-2008-question-5</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1615\"></a><div itemprop=\"text\"><p>What is the minimal form of the Karnaugh map shown below? Assume that \\( X \\) denotes a don’t care term</p><p style=\"text-align:center\"><img alt=\"\" height=\"232\" width=\"234\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/c1e144cdf7036a6b1b441cf233aeb276.png\"></p></div><br><br><b>GATE CSE 2012 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bar{b} \\bar{d} \\)</p>",
+            "<p>\\(  \\bar { b } \\bar { d } + \\bar{b} \\bar{c}  \\)</p>",
+            "<p>\\(  \\bar{b} \\bar{d} + {a} \\bar{b} \\bar{c} {d} \\)</p>",
+            "<p>\\(  \\bar{b} \\bar{d} + \\bar{b} \\bar{c} + \\bar{c} \\bar{d}  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  \\bar { b } \\bar { d } + \\bar{b} \\bar{c}  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1615/gate-cse-2012-question-30\" target=\"_blank\">https://gateoverflow.in/1615/gate-cse-2012-question-30</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"118301\"></a><div itemprop=\"text\"><p>Consider the Karnaugh map given below, where \\( X \\) represents <em>\"don't care\" </em>and blank represents \\( 0 \\).</p><p style=\"text-align:center\"><img alt=\"\" height=\"269\" width=\"272\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/8e54e0d7c8a43f231a03ba2944f9c754.png\"></p><p>Assume for all inputs&nbsp;\\( \\left ( a,b,c,d \\right ) \\), the respective complements&nbsp;\\( \\left ( \\bar{a}, \\bar{b}, \\bar{c}, \\bar{d} \\right ) \\) are also available. The above logic is implemented using \\( 2 \\)-input \\( \\text{NOR} \\) gates only. The minimum number of gates required is ____________ .</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118301/gate-cse-2017-set-1-question-21\" target=\"_blank\">https://gateoverflow.in/118301/gate-cse-2017-set-1-question-21</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"302818\"></a><div itemprop=\"text\"><p>Consider three \\( 4 \\)-variable functions \\( f_1, f_2 \\), and \\( f_3 \\), which are expressed in sum-of-minterms as</p><p>\\( f_1=\\Sigma(0,2,5,8,14), \\)</p><p>\\( f_2=\\Sigma(2,3,6,8,14,15), \\)</p><p>\\( f_3=\\Sigma (2,7,11,14) \\)</p><p>For the following circuit with one AND gate and one XOR gate the output function \\( f \\) can be expressed as:</p><p style=\"text-align:center\"><img alt=\"\" height=\"170\" width=\"363\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/a10833e21c200e47898d49118cf01158.png\"></p></div><br><br><b>GATE CSE 2019 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Sigma(7,8,11) \\)</p>",
+            "<p>\\( \\Sigma (2,7,8,11,14) \\)</p>",
+            "<p>\\( \\Sigma (2,14) \\)</p>",
+            "<p>\\( \\Sigma (0,2,3,5,6,7,8,11,14,15) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Sigma(7,8,11) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302818/gate-cse-2019-question-30\" target=\"_blank\">https://gateoverflow.in/302818/gate-cse-2019-question-30</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"460802\"></a><div itemprop=\"text\"><p>​​​​Given the following Karnaugh Map for a Boolean function \\( F(w, x, y, z) \\) :</p><p style=\"text-align:center\"><img alt=\"K Map\" width=\"400\" height=\"396\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/e9b368dfaec03662f53f051a88af5b3f.png\"></p><p><br>Which one or more of the following Boolean expression(s) represent(s) \\( F \\) ?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 33</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\bar{w} \\bar{x} \\bar{y} \\bar{z}+w \\bar{x} \\bar{y} \\bar{z}+\\bar{w} \\bar{x} y \\bar{z}+w \\bar{x} y \\bar{z}+x z \\)</p>",
+            "<p>\\( \\bar{w} \\bar{x} \\bar{y} \\bar{z}+\\bar{w} \\bar{x} y \\bar{z}+w \\bar{x} y z+x z \\)</p>",
+            "<p>\\( \\bar{w} \\bar{x} \\bar{y} \\bar{z}+w \\bar{x} \\bar{y} \\bar{z}+w \\bar{x} \\bar{y} z+x z \\)</p>",
+            "<p>\\( \\bar{x} \\bar{z}+x z \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\bar{w} \\bar{x} \\bar{y} \\bar{z}+w \\bar{x} \\bar{y} \\bar{z}+\\bar{w} \\bar{x} y \\bar{z}+w \\bar{x} y \\bar{z}+x z \\)</p>",
+            "<p>\\( \\bar{x} \\bar{z}+x z \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460802/gate-cse-2025-set-2-question-33\" target=\"_blank\">https://gateoverflow.in/460802/gate-cse-2025-set-2-question-33</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"3574\"></a><div itemprop=\"text\"><p>The boolean function for a combinational circuit with four inputs is represented by the following Karnaugh map.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"218\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/17a590ef2923cdfadd16806c55a7c353.png\" width=\"224\"></p>\n\n<p>Which of the product terms given below is an essential prime implicant of the function?</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{QRS} \\)</p>",
+            "<p>\\( \\text{PQS} \\)</p>",
+            "<p>\\( \\text{PQ'S'} \\)</p>",
+            "<p>\\( \\text{Q'S'} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Q'S'} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3574/gate-it-2006-question-35\" target=\"_blank\">https://gateoverflow.in/3574/gate-it-2006-question-35</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"3530\"></a><div itemprop=\"text\"><p>Consider the following expression</p>\n\n<p>\\( a\\bar d + \\bar a\\bar c + b\\bar cd \\)</p>\n\n<p>Which of the following Karnaugh Maps correctly represents the expression?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p><br>\n<img alt=\"\" height=\"256\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/f2128edb31f110392187946c749c48cd.png\" width=\"258\"></p>",
+            "<p><br>\n&nbsp;<img alt=\"\" height=\"260\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/df5a105e0311ab14fc47ae3c8ededc0c.png\" width=\"262\"></p>",
+            "<p><br>\n&nbsp;<img alt=\"\" height=\"265\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/94ac6c37d2a1514af1928e7b405f0625.png\" width=\"268\"></p>",
+            "<p><br>\n<img alt=\"\" height=\"272\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/4ebac90c0ad4fc8cefac1bbb0f96125c.png\" width=\"275\"></p>"
+          ],
+          "correct_answer": "<p><br>\n<img alt=\"\" height=\"256\" src=\"images/gateOverflow_pyq_images/digital_logic___k_map/f2128edb31f110392187946c749c48cd.png\" width=\"258\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3530/gate-it-2007-question-78\" target=\"_blank\">https://gateoverflow.in/3530/gate-it-2007-question-78</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"3531\"></a><div itemprop=\"text\"><p>Consider the following expression</p>\n\n<p>\\( a\\bar d + \\bar a \\bar c + b\\bar cd \\)</p>\n\n<p>Which of the following expressions does not correspond to the Karnaugh Map obtained for the given expression?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\bar c \\bar d+ a\\bar d + ab\\bar c + \\bar a \\bar cd \\)</p>",
+            "<p>\\( \\bar a\\bar c + \\bar c\\bar d + a\\bar d + ab\\bar cd \\)</p>",
+            "<p>\\( \\bar a\\bar c + a\\bar d + ab\\bar c + \\bar cd \\)</p>",
+            "<p>\\( \\bar b\\bar c \\bar d + ac\\bar d + \\bar a \\bar c + ab\\bar c \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\bar a\\bar c + a\\bar d + ab\\bar c + \\bar cd \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3531/gate-it-2007-question-79\" target=\"_blank\">https://gateoverflow.in/3531/gate-it-2007-question-79</a></p>"
+        }
+      ]
+    }
+  ]
+}

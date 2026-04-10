@@ -1,0 +1,236 @@
+{
+  "title": "Operating_System - Operating_System - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In a 64- bit machine, with 2 GB RAM, and 8 KB page size, how many entries will be there in the page table if its is inverted? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{18}\\)</p>",
+            "<b>B.</b> <p>\\(2^{20}\\)</p>",
+            "<b>C.</b> <p>\\(2^{33}\\)</p>",
+            "<b>D.</b> <p>\\(2^{51}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2^{18}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44402/isro-2013-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a logical address space of 8 pages of 1024 words each, mapped onto a physical memory of 32 frames. How many bits are there in the physical address and logical address respectively? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5,3</p>",
+            "<b>B.</b> <p>10,10</p>",
+            "<b>C.</b> <p>15,13</p>",
+            "<b>D.</b> <p>15,15</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15,13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44401/isro2013-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following are the likely causes of thrashing? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Page size was very small.</p>",
+            "<b>B.</b> <p>There are too many users connected to the system.</p>",
+            "<b>C.</b> <p>Least recently used policy is used for page replacement.</p>",
+            "<b>D.</b> <p>First in First out policy is used for page replacement.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Page size was very small.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44400/isro-2013-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A CPU scheduling algorithm determines an order for the execution of its scheduled processes. Given \\('n'\\) processes to be scheduled on one processor, how many possible different schedules are there? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n\\)</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n!\\)</p>",
+            "<b>D.</b> <p>\\(2^{n}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(n!\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44399/isro-2013-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Suppose we have variable logical records of lengths of 5 bytes, 10 bytes and 25 bytes while the physical block size in disk is 15 bytes. What is the maximum and minimum fragmentation seen in bytes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25 and 5</p>",
+            "<b>B.</b> <p>15 and 5</p>",
+            "<b>C.</b> <p>15 and 0</p>",
+            "<b>D.</b> <p>10 and 5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10 and 5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44398/isro-2013-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the following set of processes, with arrival times and the required CPU-burst times given in milliseconds.<br>\n\\(\\begin{array}{|l|l|l|l|} \\hline \\textbf{Process} &amp; \\textbf{Arrival time} &amp; \\textbf{Burst Time} \\\\\\hline \\text{$P_1$} &amp; \\text{0} &amp; \\text{4} \\\\\\hline \\text{$P_2$} &amp; \\text{2} &amp; \\text{2} \\\\\\hline \\text{$P_3$}&amp; \\text{3} &amp; \\text{1} \\\\\\hline \\end{array}\\)<br>\nWhat is the sequence in which the processes are completed? Assume round robin scheduling with a time quantum of 2 milliseconds? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P1, P2, P3</p>",
+            "<b>B.</b> <p>P2, P1, P3</p>",
+            "<b>C.</b> <p>P3, P2, P1</p>",
+            "<b>D.</b> <p>P2, P3, P1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P2, P1, P3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44166/isro-2013-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In a system using single processor, a new process arrives at the rate of six processes per minute and each such process requires seven seconds of service time. What is the CPU utilization? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>70%</p>",
+            "<b>B.</b> <p>30%</p>",
+            "<b>C.</b> <p>60%</p>",
+            "<b>D.</b> <p>64%</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>70%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53151/isro2011-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Belady's anomaly means <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Page fault rate is constant even on increasing the number of allocated frames</p>",
+            "<b>B.</b> <p>Page fault rate may increase on increasing the number of allocated frames</p>",
+            "<b>C.</b> <p>Page fault rate may increase on decreasing the number of allocated frames</p>",
+            "<b>D.</b> <p>Page fault rate may decrease on increasing the number of allocated frames</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Page fault rate may increase on increasing the number of allocated frames</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52871/isro2011-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A total of 9 units of a resource type available, and given the safe state shown below, which of the following sequence will be a safe state?<br><br>\\(\\begin{array}{lll} \\text {Process } &amp; \\text {Used } &amp; \\text {Max } \\\\ P_{1} &amp; 2 &amp; 7 \\\\ P_{2} &amp; 1 &amp; 6 \\\\ P_{3} &amp; 2 &amp; 5 \\\\ P_{4} &amp; 1 &amp; 4 \\end{array}\\) <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\langle P_4, P_1, P_3, P_2\\rangle\\)</p>",
+            "<b>B.</b> <p>\\(\\langle P_4, P_2, P_1, P_3\\rangle\\)</p>",
+            "<b>C.</b> <p>\\(\\langle P_4, P_2, P_3, P_1\\rangle\\)</p>",
+            "<b>D.</b> <p>\\(\\langle P_3, P_1, P_2, P_4 \\rangle\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\langle P_3, P_1, P_2, P_4 \\rangle\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52836/isro2011-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following UNIX command allows scheduling a program to be executed at the specifies time? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cron</p>",
+            "<b>B.</b> <p>nice</p>",
+            "<b>C.</b> <p>date and time</p>",
+            "<b>D.</b> <p>schedule</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>cron</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52822/isro2011-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>There are three processes in the ready queue. When the currently running process requests for I/O how many process switches take place? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51339/isro2011-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a 32-bit machine where four-level paging scheme is used. If the hit ratio to TLB is 98%, and it takes 20 nanosecond to search the TLB and 100 nanoseconds to access the main memory what is effective memory access time in nanoseconds? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>126</p>",
+            "<b>B.</b> <p>128</p>",
+            "<b>C.</b> <p>122</p>",
+            "<b>D.</b> <p>120</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>128</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52592/isro2011-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>If the page size in a 32-bit machine is 4K bytes then the size of page table is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 M bytes</p>",
+            "<b>B.</b> <p>2 M bytes</p>",
+            "<b>C.</b> <p>4 M bytes</p>",
+            "<b>D.</b> <p>4 K bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 M bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47001/isro2011-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Below is the precedence graph for a set of tasks to be executed on a parallel processing system S.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Operating_System\\q10_01cb7317.jpg\"><br>  What is the efficiency of this precedence graph on S if each of the tasks \\(T_1, \\dots, T_8\\) takes the same time and the system S has five processors? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25%</p>",
+            "<b>B.</b> <p>40%</p>",
+            "<b>C.</b> <p>50%</p>",
+            "<b>D.</b> <p>90%</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>40%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52258/isro2011-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The following table shows the processes in the ready queue and time required for each process for completing its job.<br><br>\\(\\begin{array}{ll} \\text { Process } &amp; \\text { Time } \\\\ P_{1} &amp; 10 \\\\ P_{2} &amp; 5 \\\\ P_{3} &amp; 20 \\\\ P_{4} &amp; 8 \\\\ P_{5} &amp; 15 \\end{array}\\)<br><br>If round-robin scheduling with 5 ms is used what is the average waiting time of the processes in the queue? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>27 ms</p>",
+            "<b>B.</b> <p>26.2 ms</p>",
+            "<b>C.</b> <p>27.5 ms</p>",
+            "<b>D.</b> <p>27.2 ms</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>26.2 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51328/isro2011-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

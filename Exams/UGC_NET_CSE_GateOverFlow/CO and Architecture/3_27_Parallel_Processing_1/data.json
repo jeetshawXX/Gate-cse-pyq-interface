@@ -1,0 +1,26 @@
+{
+  "title": "CO and Architecture - Parallel Processing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Parallel Processing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61088\"></a><div itemprop=\"text\"><p>In the case of parallelization, Amdahl's law states that if \\( P \\) is the proportion of a program that can be made parallel and \\( (1-P) \\) is the proportion that cannot be parallelized, then the maximum speed-up that can be achieved by using \\( N \\) processors is:</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | Junet 2015 | Part 2 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{1}{(1-P)+N.P} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{1}{(N-1)P+P} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{1}{(1-P)+\\frac{P}{N}} \\\\ \\)</p>",
+            "<p>\\( \\dfrac{1}{P+\\frac{(1-P)}{N}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{1}{(1-P)+\\frac{P}{N}} \\\\ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61088/ugc-net-cse-junet-2015-part-2-question-46\" target=\"_blank\">https://gateoverflow.in/61088/ugc-net-cse-junet-2015-part-2-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+}

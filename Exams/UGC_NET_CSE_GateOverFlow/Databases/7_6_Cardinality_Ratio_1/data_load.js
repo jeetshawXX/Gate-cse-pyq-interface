@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Cardinality Ratio",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Cardinality Ratio",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60046\"></a><div itemprop=\"text\"><p>Based on the cardinality ratio and participation ______ associated with a relationship type, choose either the Foreign Key Design, the Cross Referencing Design or Mutual Referencing Design.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2013 | Part 2 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Entity</p>",
+            "<p>Constraints</p>",
+            "<p>Rules</p>",
+            "<p>Keys</p>"
+          ],
+          "correct_answer": "<p>Constraints</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60046/ugc-net-cse-december-2013-part-2-question-14\" target=\"_blank\">https://gateoverflow.in/60046/ugc-net-cse-december-2013-part-2-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

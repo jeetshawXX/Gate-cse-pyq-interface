@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Verbal Aptitude - Phrase Meaning",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Phrase Meaning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning to the phrase in bold in the sentence below?<br><br>It is fascinating to see life forms <strong>cope with</strong> varied environmental conditions.</p></div><br><br><b>GATE CSE 2014 Set 1 | Question: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Adopt to</p>",
+            "<p>Adapt to</p>",
+            "<p>Adept in</p>",
+            "<p>Accept with</p>"
+          ],
+          "correct_answer": "<p>Adapt to</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56/gate-cse-2014-set-1-question-ga-1\" target=\"_blank\">https://gateoverflow.in/56/gate-cse-2014-set-1-question-ga-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"772\"></a><div itemprop=\"text\"><p>In a press meet on the recent scam, the minister said, \"The buck stops here\". What did the minister convey by the statement?</p></div><br><br><b>GATE CSE 2014 Set 1 | Question: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>He wants all the money</p>",
+            "<p>He will return the money</p>",
+            "<p>He will assume final responsibility</p>",
+            "<p>He will resist all enquiries</p>"
+          ],
+          "correct_answer": "<p>He will assume final responsibility</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/772/gate-cse-2014-set-1-question-ga-3\" target=\"_blank\">https://gateoverflow.in/772/gate-cse-2014-set-1-question-ga-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8003\"></a><div itemprop=\"text\"><p>Which of the following options is the closest in meaning of the sentence below?</p><p>She enjoyed herself immensely at the party.</p></div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>She had a terrible time at the party</p>",
+            "<p>She had a horrible time at the party</p>",
+            "<p>She had a terrific time at the party</p>",
+            "<p>She had a terrifying time at the party</p>"
+          ],
+          "correct_answer": "<p>She had a terrific time at the party</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2\" target=\"_blank\">https://gateoverflow.in/8003/gate-cse-2015-set-1-question-ga-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"8011\"></a><div itemprop=\"text\"><p>Select the alternative meaning of the underlined part of the sentence.</p><p>The chain snatchers \\( \\underline{\\text{took to their heels}} \\) when the police party arrived.</p></div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Took shelter in a thick jungle</p>",
+            "<p>Open indiscriminate fire</p>",
+            "<p>Took to flight</p>",
+            "<p>Unconditionally surrendered</p>"
+          ],
+          "correct_answer": "<p>Took to flight</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7\" target=\"_blank\">https://gateoverflow.in/8011/gate-cse-2015-set-1-question-ga-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"39531\"></a><div itemprop=\"text\"><p>Nobody knows how the Indian cricket team is going to <strong><u>cope with</u></strong> the difficult and seamer-friendly wickets in Australia.</p><p>Choose the option which is closest in meaning to the underlined phrase in the above sentence.</p></div><br><br><b>GATE CSE 2016 Set 2 | Question: GA-02</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Put up with.</p>",
+            "<p>Put in with.</p>",
+            "<p>Put down to.</p>",
+            "<p>Put up against.</p>"
+          ],
+          "correct_answer": "<p>Put up with.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02\" target=\"_blank\">https://gateoverflow.in/39531/gate-cse-2016-set-2-question-ga-02</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359530\"></a><div itemprop=\"text\"><p>I do not think you know the case well enough to have opinions. Having said that, I agree with your other point.</p>\n\n<p>What does the phrase “having said that” mean in the given text?</p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 1 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>as opposed to what I have said</p>",
+            "<p>despite what I have said</p>",
+            "<p>in addition to what I have said</p>",
+            "<p>contrary to what I have said</p>"
+          ],
+          "correct_answer": "<p>despite what I have said</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359530/gate-mechanical-2020-set-1-ga-question-4\" target=\"_blank\">https://gateoverflow.in/359530/gate-mechanical-2020-set-1-ga-question-4</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"39515\"></a><div itemprop=\"text\"><p>Choose the most suitable one word substitute for the following expression:</p><p>Connotation of a road or way</p></div><br><br><b>GATE2015 EC-3: GA- 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Pertinacious</p>",
+            "<p>Viaticum</p>",
+            "<p>Clandestine</p>",
+            "<p>Ravenous</p>"
+          ],
+          "correct_answer": "<p>Viaticum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39515/gate2015-ec-3-ga-2\" target=\"_blank\">https://gateoverflow.in/39515/gate2015-ec-3-ga-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40171\"></a><div itemprop=\"text\"><p>Select the appropriate option in place of underlined part of the sentence.<br><br>Increased productivity necessary reflects greater efforts made by the employees.</p></div><br><br><b>GATE2015 ME-3: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Increase in productivity necessary</p>",
+            "<p>Increase productivity is necessary</p>",
+            "<p>Increase in productivity necessarily</p>",
+            "<p>No improvement required</p>"
+          ],
+          "correct_answer": "<p>Increase in productivity necessarily</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40171/gate2015-me-3-ga-6\" target=\"_blank\">https://gateoverflow.in/40171/gate2015-me-3-ga-6</a></p>"
+        }
+      ]
+    }
+  ]
+});

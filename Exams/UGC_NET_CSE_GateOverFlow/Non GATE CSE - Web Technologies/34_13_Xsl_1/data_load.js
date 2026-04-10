@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Xsl",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Xsl",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57735\"></a><div itemprop=\"text\"><p>Which one is a collection of templates and rules?</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | December 2012 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>XML</p>",
+            "<p>CSS</p>",
+            "<p>DHTML</p>",
+            "<p>XSL</p>"
+          ],
+          "correct_answer": "<p>XSL</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57735/ugc-net-cse-december-2012-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/57735/ugc-net-cse-december-2012-part-3-question-61</a></p>"
+        }
+      ]
+    }
+  ]
+});

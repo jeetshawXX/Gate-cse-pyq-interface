@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Database_Management_System - Database_Management_System - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following three schedules of transactions T1, T2 and T3. <br>[Notation: In the following NYO represents the action Y (R for read, W for write) performed by transaction N on object O.]<br><br>\\(\\begin{array}{lllllllllll} \\hline(S 1) &amp; 2 R A &amp; 2 W A &amp; 3 R C &amp; 2 W B &amp; 3 W A &amp; 3 W C &amp; 1 R A &amp; 1 R B &amp; 1 W A &amp; 1 W B \\\\ \\hline(S 2) &amp; 3 R C &amp; 2 R A &amp; 2 W A &amp; 2 W B &amp; 3 W A &amp; 1 R A &amp; 1 R B &amp; 1 W A &amp; 1 W B &amp; 3 W C \\\\ \\hline(S 3) &amp; 2 R A &amp; 3 R C &amp; 3 W A &amp; 2 W A &amp; 2 W B &amp; 3 W C &amp; 1 R A &amp; 1 R B &amp; 1 W A &amp; 1 W B \\\\ \\hline \\end{array}\\)<br><br>Which of the following statements is TRUE? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S3 are all conflict equivalent to each other</p>",
+            "<b>B.</b> <p>No two of S1, S2 and S3 are conflict equivalent to each other</p>",
+            "<b>C.</b> <p>S2 is conflict equivalent to S3, but not to S1</p>",
+            "<b>D.</b> <p>S1 is conflict equivalent to S2, but not to S3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 is conflict equivalent to S2, but not to S3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3374/gate2008-it-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let R (A, B, C, D, E, P, G) be a relational schema in which the following functional dependencies are known to hold: <br>\\(AB \\to CD, DE \\to P, C \\to E, P \\to C\\) and \\(B \\to G\\). <br> The relational schema R is <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>in BCNF</p>",
+            "<b>B.</b> <p>in 3NF, but not in BCNF</p>",
+            "<b>C.</b> <p>in 2NF, but not in 3NF</p>",
+            "<b>D.</b> <p>not in 2NF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>not in 2NF</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3372/gate2008-it-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\(R (A, B, C, D)\\) be a relational schema in which the following functional dependencies are known to hold: <br>\\(A \\to B, \\;  B \\to C, \\; C \\to D \\) and \\(D \\to B\\). <br>The decomposition of \\(R\\) into \\((A,B), (B,C), (B,D)\\) <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>gives a lossless join, and is dependency preserving</p>",
+            "<b>B.</b> <p>gives a lossless join, but is not dependency preserving</p>",
+            "<b>C.</b> <p>does not give a lossless join, but is dependency preserving</p>",
+            "<b>D.</b> <p>does not give a lossless join and is not dependency preserving</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>gives a lossless join, and is dependency preserving</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3371/gate2008-it-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following ER diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q82_a2c9ca9e.jpg\">  <br>Which of the following is a correct attribute set for one of the tables for the minimum number of tables needed to represent M, N, P, R1, R2? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{M1,M2,M3,P1}</p>",
+            "<b>B.</b> <p>{M1,P1,N1,N2}</p>",
+            "<b>C.</b> <p>{M1,P1,N1}</p>",
+            "<b>D.</b> <p>{M1,P1}</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>{M1,M2,M3,P1}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/87025/gate2008-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following ER diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q82_a2c9ca9e.jpg\">  <br> The minimum number of tables needed to represent M, N, P, R1, R2 is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/390/gate2008-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a file of 16384 records. Each record is 32 bytes long and its key field is\nof size 6 bytes. The file is ordered on a non-key field, and the file organization is\nunspanned. The file is stored in a file system with block size 1024 bytes, and the\nsize of a block pointer is 10 bytes. If the secondary index is built on the key field\nof the file, and a multi-level index scheme is used to store the secondary index,\nthe number of first-level and second-level blocks in the multi-level index are respectively <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 and 0</p>",
+            "<b>B.</b> <p>128 and 6</p>",
+            "<b>C.</b> <p>256 and 4</p>",
+            "<b>D.</b> <p>512 and 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>256 and 4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/259/gate2008-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following relational schemes for a library database:<br><br>\nBook (Title, Author, Catalog_ no, Publisher, Year, Price) <br>\nCollection (Title,Author, Catalog_ no) <br><br>\nwith in the following functional dependencies: <br><br>\nI. Title Author \\(\\rightarrow\\) Catalog_no <br>\nII. Catalog_no \\(\\rightarrow\\) Title Author Publisher Year <br>\nIII. Publisher Title Year \\(\\rightarrow\\) Price <br><br>\nAssume {Author, Title} is the key for both schemes. Which of the following\nstatements is true? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both Book and Collection are in BCNF</p>",
+            "<b>B.</b> <p>Both Book and Collection are in 3NF only</p>",
+            "<b>C.</b> <p>Book is in 2NF and Collection is in 3NF</p>",
+            "<b>D.</b> <p>Both Book and Collection are in 2NF only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Book is in 2NF and Collection is in 3NF</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/492/gate2008-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let R and S be two relations with the following schema<br><br>\nR (\\(\\underline{P},\\underline{Q}\\),R1,R2,R3)<br><br>\nS (\\(\\underline{P},\\underline{Q}\\),S1,S2)<br><br>\nWhere {P, Q} is the key for both schemas. Which of the following queries are\nequivalent? <br><br> I. \\( \\Pi _{P}(R\\Join S)\\) <br> II. \\(\\Pi _{p}(R)\\Join \\Pi _{P}(S)\\)<br> III. \\(\\Pi _{P}(\\Pi _{P,Q}(R)\\cap \\Pi _{P,Q}(S))\\)<br> IV. \\(\\Pi _{P}(\\Pi _{P,Q}(R)-(\\Pi _{P,Q}(R)-\\Pi _{P,Q}(S)))\\) <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I and II</p>",
+            "<b>B.</b> <p>Only I and III</p>",
+            "<b>C.</b> <p>Only I, II and III</p>",
+            "<b>D.</b> <p>Only I, III and IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only I, III and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/491/gate2008-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A clustering index is defined on the fields which are of type <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-key and ordering</p>",
+            "<b>B.</b> <p>non-key and non-ordering</p>",
+            "<b>C.</b> <p>key and ordering</p>",
+            "<b>D.</b> <p>key and non-ordering</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>non-key and ordering</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/414/gate2008-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following tuple relational calculus expression(s) is/are equivalent to\n\\(\\forall t \\in r(P(t))\\)? <br>I. \\(\\neg \\exists t \\in r(P(t)) \\)<br> II. \\( \\neg t \\notin r(P(t)) \\)<br> III. \\( \\neg \\exists t \\in  r(\\neg P(t)) \\)<br>  IV. \\(\\exists t \\in r(\\neg P(t))\\) <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>III only</p>",
+            "<b>D.</b> <p>III and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/413/gate2008-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following relation schemas :<br>\nb-Schema = (b-name, b-city, assets)<br>\na-Schema = (a-num, b-name, bal)<br>\nd-Schema = (c-name, a-number)<br>\nLet branch, account and depositor be respectively instances of the above schemas. Assume that account and depositor relations are much bigger than the branch relation.<br>Consider the following query:<br>\\(\\Pi _{c-name}(\\sigma _{b-city=\"Agra\" \\wedge bal \\lt 0} (branch \\Join (account \\Join depositor)))\\)\n<br>Which one of the following queries is the most efficient version of the above query ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Pi _{c-name} (\\sigma_{bal \\lt 0} (\\sigma_{b-city=\"Agra\"} branch \\Join account) \\Join depositor)\\)</p>",
+            "<b>B.</b> <p>\\(\\Pi _{c-name} (\\sigma_{b-city=\"Agra\"} branch \\Join (\\sigma_{bal \\lt 0} account \\Join depositor)\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi _{c-name} ((\\sigma_{b-city=\"Agra\"} branch \\Join \\sigma_{b-city=\"Agra\" \\wedge bal \\lt 0} account) \\Join depositor)\\)</p>",
+            "<b>D.</b> <p>\\(\\Pi _{c-name} (\\sigma_{b-city=\"Agra\"} branch \\Join( \\sigma_{b-city=\"Agra\" \\wedge bal \\lt 0} account \\Join depositor))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Pi _{c-name} (\\sigma_{bal \\lt 0} (\\sigma_{b-city=\"Agra\"} branch \\Join account) \\Join depositor)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3513/gate2007-it-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following implications relating to functional and multivalued dependencies given below, which may or may not be correct.<br><br>\ni. if \\(A \\rightarrow \\rightarrow B\\) and \\(A \\rightarrow \\rightarrow C\\) then \\(A \\rightarrow  BC\\)<br>\nii. if \\(A \\rightarrow B\\) and \\(A \\rightarrow C\\) then \\(A \\rightarrow \\rightarrow BC\\)<br>\niii. if \\(A \\rightarrow \\rightarrow BC\\) and \\(A \\rightarrow B\\) then \\(A \\rightarrow C\\)<br>\niv. if \\(A \\rightarrow BC\\) and \\(A \\rightarrow B\\) then \\(A \\rightarrow \\rightarrow C\\)<br><br>\nExactly how many of the above implications are valid? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3512/gate2007-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following two transactions : T1 and T2. <br>\nT1:read (A);<br>\nread (B);<br>\nif A = 0 then B \\(\\leftarrow \\) B + 1;<br>\nwrite (B);<br><br>\nT2 :\tread (B);<br>\nread (A);<br>\nif B \\(\\neq\\) 0 then A \\(\\leftarrow \\) A - 1;<br>\nwrite (A);<br><br>\nWhich of the following schemes, using shared and exclusive locks, satisfy the requirements for strict two phase locking for the above transactions?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q66_94480cd3.jpg\"><br> <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3511/gate2007-it-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a selection of the form \\(\\sigma_{A\\leq 100} (r)\\), where r is a relation with 1000 tuples. Assume that the attribute values for A among the tuples are uniformly distributed in the interval [0, 500]. Which one of the following options is the best estimate of the number of tuples returned by the given selection query ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>50</p>",
+            "<b>B.</b> <p>100</p>",
+            "<b>C.</b> <p>150</p>",
+            "<b>D.</b> <p>200</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>200</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3510/gate2007-it-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following schedules involving two transactions. Which one of the\nfollowing statements is TRUE? <br> \\(S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)\\) <br> \\(S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)\\) <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are conflict serializable.</p>",
+            "<b>B.</b> <p>S1 is conflict serializable and S2 is not conflict serializable.</p>",
+            "<b>C.</b> <p>S1 is not conflict serializable and S2 is conflict serializable.</p>",
+            "<b>D.</b> <p>Both S1 and S2 are not conflict serializable.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S1 is not conflict serializable and S2 is conflict serializable.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1262/gate2007-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

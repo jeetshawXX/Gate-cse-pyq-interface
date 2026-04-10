@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Age Relation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Age Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275563\"></a><div itemprop=\"text\"><p>A Professor passed one sixth of his life in childhood, one twelfth&nbsp;in youth, and one seventh more as a bachelor, five years after his marriage a son was born who died four years before his father at half his final age, then what is the age of Professor?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 84 \\) years</p>",
+            "<p>\\( 74 \\) years</p>",
+            "<p>\\( 64 \\) years</p>",
+            "<p>\\( 54 \\) years</p>"
+          ],
+          "correct_answer": "<p>\\( 84 \\) years</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275563/nielit-2018-1\" target=\"_blank\">https://gateoverflow.in/275563/nielit-2018-1</a></p>"
+        }
+      ]
+    }
+  ]
+}

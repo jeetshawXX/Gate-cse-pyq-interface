@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Regular Expression",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Regular Expression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336717\"></a><div itemprop=\"text\"><p>Which of the following regular expressions denotes a language comprising all possible strings over the alphabet \\( \\{a,b\\} \\)?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a^*b^* \\)</p>",
+            "<p>\\( (a\\mid&nbsp;b)^* \\)</p>",
+            "<p>\\( (ab)^+ \\)</p>",
+            "<p>\\( (a\\mid&nbsp;b^*) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (a\\mid&nbsp;b)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336717/nielit-2016-mar-scientist-b-section-c-24\" target=\"_blank\">https://gateoverflow.in/336717/nielit-2016-mar-scientist-b-section-c-24</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337248\"></a><div itemprop=\"text\"><p>Regular expression \\( (a \\mid b)(a \\mid b) \\) denotes the set</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{a,b,ab,aa\\} \\)</p>",
+            "<p>\\( \\{a,b,ba,bb\\} \\)</p>",
+            "<p>\\( \\{a,b\\} \\)</p>",
+            "<p>\\( \\{aa,ab,ba,bb\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{aa,ab,ba,bb\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337248/nielit-2016-mar-scientist-c-section-c-17\" target=\"_blank\">https://gateoverflow.in/337248/nielit-2016-mar-scientist-c-section-c-17</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336827\"></a><div itemprop=\"text\"><p>Let \\( P, Q, R \\) be a regular expression over \\( \\Sigma \\). If \\( P \\) does not contain null string, then \\( R=Q+RP \\) has a unique solution ___________ .</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( Q^{*}P \\)</p>",
+            "<p>\\( QP^{*} \\)</p>",
+            "<p>\\( Q^{*}P^{*} \\)</p>",
+            "<p>\\( \\left (&nbsp;P^{*}O^{*} \\right)^{*} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( QP^{*} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336827/nielit-2017-dec-scientific-assistant-a-section-b-19\" target=\"_blank\">https://gateoverflow.in/336827/nielit-2017-dec-scientific-assistant-a-section-b-19</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336811\"></a><div itemprop=\"text\"><p>\\( \\left (0+ \\varepsilon \\right) \\left (1+ \\varepsilon \\right) \\) represents :</p>\n\n\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n</ol></div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left \\{0,1,01,\\varepsilon &nbsp;\\right \\} \\)</p>",
+            "<p>\\( \\left \\{0,1,\\varepsilon &nbsp;\\right \\} \\)</p>",
+            "<p>\\( \\left \\{0,1,01, 11, 00 ,10,\\varepsilon &nbsp;\\right \\} \\)</p>",
+            "<p>\\( \\left \\{0,1,&nbsp; \\right \\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left \\{0,1,01,\\varepsilon &nbsp;\\right \\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336811/nielit-2017-dec-scientific-assistant-a-section-b-35\" target=\"_blank\">https://gateoverflow.in/336811/nielit-2017-dec-scientific-assistant-a-section-b-35</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336792\"></a><div itemprop=\"text\"><p>Complement of \\( \\left (a+b \\right)^{*} \\) will be :&nbsp;</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( Phi\\left ( \\Phi &nbsp;\\right ) \\)</p>",
+            "<p>Null</p>",
+            "<p>\\( a \\)</p>",
+            "<p>\\( b \\)</p>"
+          ],
+          "correct_answer": "<p>\\( Phi\\left ( \\Phi &nbsp;\\right ) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336792/nielit-2017-dec-scientific-assistant-a-section-b-54\" target=\"_blank\">https://gateoverflow.in/336792/nielit-2017-dec-scientific-assistant-a-section-b-54</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336303\"></a><div itemprop=\"text\"><p>A regular expression is \\( (a+b^{\\ast}c) \\) is equivalent to</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>set of strings with either \\( a \\) or one or more occurrence of \\( b \\) followed by \\( c \\).</p>",
+            "<p>\\( (b^{\\ast}c+a) \\)</p>",
+            "<p>set of strings with either \\( a \\) or zero or more occurrence of \\( b \\) followed by \\( c \\).</p>",
+            "<p>Both (B) and (C)</p>"
+          ],
+          "correct_answer": "<p>Both (B) and (C)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336303/nielit-2017-dec-scientist-b-section-b-10\" target=\"_blank\">https://gateoverflow.in/336303/nielit-2017-dec-scientist-b-section-b-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336311\"></a><div itemprop=\"text\"><p>According to the given language, which among the following expressions does it correspond to ?</p>\n\n<p>Language \\( L=\\{x\\in\\{0,1\\}\\mid x\\text{&nbsp;is of length 4 or less}\\} \\).</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (0+1+0+1+0+1+0+1)^4 \\)</p>",
+            "<p>\\( (0+1)^4 \\)</p>",
+            "<p>\\( (01)^4 \\)</p>",
+            "<p>\\( (0+1+\\varepsilon)^4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (0+1+\\varepsilon)^4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336311/nielit-2017-dec-scientist-b-section-b-2\" target=\"_blank\">https://gateoverflow.in/336311/nielit-2017-dec-scientist-b-section-b-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"336291\"></a><div itemprop=\"text\"><p>What is the meaning of regular expression \\( \\Sigma^*001\\Sigma^* \\)?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Any string containing ‘\\( 1 \\)’ as substring</p>",
+            "<p>Any&nbsp;string containing ‘\\( 01 \\)’ as substring</p>",
+            "<p>Any string containing ‘\\( 011 \\)’ as substring</p>",
+            "<p>All string containing ‘\\( 001 \\)’ as substring</p>"
+          ],
+          "correct_answer": "<p>All string containing ‘\\( 001 \\)’ as substring</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336291/nielit-2017-dec-scientist-b-section-b-22\" target=\"_blank\">https://gateoverflow.in/336291/nielit-2017-dec-scientist-b-section-b-22</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"336278\"></a><div itemprop=\"text\"><p>Which of the following regular expression is equal to \\( (r_1+r_2)^* \\)?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( r_1^*r_2^* \\)</p>",
+            "<p>\\( (r_1r_2)^* \\)</p>",
+            "<p>\\( r_1^*r_2^*+r_1r_2 \\)</p>",
+            "<p>\\( (r_1^*r_2^*)^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (r_1^*r_2^*)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336278/nielit-2017-dec-scientist-b-section-b-35\" target=\"_blank\">https://gateoverflow.in/336278/nielit-2017-dec-scientist-b-section-b-35</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"336272\"></a><div itemprop=\"text\"><p>Which of the following is equivalent regular expressions?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( ((01)^*(10)^*)^* \\)</li>\n\t<li>\\( (10+01)^* \\)</li>\n\t<li>\\( (01)^*+(11)^* \\)</li>\n\t<li>\\( (0^*+(11)^*+0^*)^*) \\)</li>\n</ol>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (ii)</p>",
+            "<p>(ii) and (iii)</p>",
+            "<p>(iii) and (iv)</p>",
+            "<p>(iv) and (i)</p>"
+          ],
+          "correct_answer": "<p>(i) and (ii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336272/nielit-2017-dec-scientist-b-section-b-41\" target=\"_blank\">https://gateoverflow.in/336272/nielit-2017-dec-scientist-b-section-b-41</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"336268\"></a><div itemprop=\"text\"><p>The string \\( 1101 \\) does not belong to the set represented by</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (00+(11)^*0) \\)</p>",
+            "<p>\\( 1(0+1)^*101 \\)</p>",
+            "<p>\\( (10)^*(01)^*(00+11)^* \\)</p>",
+            "<p>\\( 110^*(0+1) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (10)^*(01)^*(00+11)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336268/nielit-2017-dec-scientist-b-section-b-45\" target=\"_blank\">https://gateoverflow.in/336268/nielit-2017-dec-scientist-b-section-b-45</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"275521\"></a><div itemprop=\"text\"><p>Which of the following languages over the alphabet&nbsp;\\( [0,1] \\) is described by the given regular expression: \\( (0+1)^*1(0+1)^*1 \\)?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2018</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The set of all strings containing the substring \\( 11 \\)</p>",
+            "<p>The set of all strings containing at most two \\( 1 \\)’s</p>",
+            "<p>The set of all strings containing at least two \\( 1 \\)’s</p>",
+            "<p>The set of all strings that begins and ends with only \\( 0 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275521/nielit-2018-43\" target=\"_blank\">https://gateoverflow.in/275521/nielit-2018-43</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"369310\"></a><div itemprop=\"text\"><p>Consider the finite automata given below</p><p style=\"text-align:center\"><img alt=\"DFA\" width=\"650\" height=\"204\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=15807317264292190769\"></p><p>The language \\( \\text{b} \\) accepted by this automata is a given by the regular expression :</p></div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{b* ab * a b * a b *} \\)</p>",
+            "<p>\\( \\text{(a+b)*} \\)</p>",
+            "<p>\\( \\text{b*a (a+b)*} \\)</p>",
+            "<p>\\( \\text{b* ab* ab*} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{b*a (a+b)*} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369310/nielit-2021-dec-scientist-a-section-b-103\" target=\"_blank\">https://gateoverflow.in/369310/nielit-2021-dec-scientist-a-section-b-103</a></p>"
+        }
+      ]
+    }
+  ]
+});

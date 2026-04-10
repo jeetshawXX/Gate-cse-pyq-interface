@@ -1,0 +1,186 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 10",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following statements:<br>\nP: Good mobile phones are not cheap <br>\nQ: Cheap mobile phones are not good <br> <br>\nL: P implies Q <br>\nM: Q implies P <br>\nN: P is equivalent to Q <br>\nWhich one of the following about L, M, and N is CORRECT? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only L is TRUE.</p>",
+            "<b>B.</b> <p>Only M is TRUE.</p>",
+            "<b>C.</b> <p>Only N is TRUE.</p>",
+            "<b>D.</b> <p>L, M and N are TRUE.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>L, M and N are TRUE.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2035/gate2014-3-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a\\rightarrow b)\\wedge (b\\rightarrow c))\\rightarrow (a\\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a\\wedge b\\wedge c)\\rightarrow (c\\wedge a)\\)</p>",
+            "<b>D.</b> <p>\\(a\\rightarrow (b\\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a\\rightarrow c)\\rightarrow (\\sim b\\rightarrow (a\\wedge c))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2020/gate2014-2-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A cycle on n vertices is isomorphic to its complement. The value of n is _____. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2018/gate2014-2-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following relation on subsets of the set S of integers between 1 and 2014. For\ntwo distinct subsets U and V of S we say U\\(\\lt\\)V if the minimum element in the symmetric\ndifference of the two sets is in U. <br>\nConsider the following two statements: <br>\nS1: There is a subset of S that is larger than every other subset. <br>\nS2: There is a subset of S that is smaller than every other subset. <br>\nWhich one of the following is CORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both S1 and S2 are true</p>",
+            "<b>B.</b> <p>S1 is true and S2 is false</p>",
+            "<b>C.</b> <p>S2 is true and S1 is false</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 is true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both S1 and S2 are true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2016/gate2014-2-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The number of distinct positive integral factors of 2014 is ____ <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2015/gate2014-2-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The probability that a given positive integer lying between 1 and 100 (both inclusive) is NOT\ndivisible by 2, 3 or 5 is ______ . <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.259",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2014/gate2014-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The maximum number of edges in a bipartite graph on 12 vertices is _____. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "36",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1955/gate2014-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Each of the nine words in the sentence \"The quick brown fox jumps over the lazy dog\" is\nwritten on a separate piece of paper. These nine pieces of paper are kept in a box. One of the pieces is drawn at random from the box. The expected length of the word drawn is\n_____________. (The answer should be rounded to one decimal place) <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3.8",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1954/gate2014-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The security system at an IT office is composed of 10 computers of which exactly four are\nworking. To check whether the system is functional, the officials inspect four of the\ncomputers picked at random (without replacement). The system is deemed functional if at\nleast three of the four computers inspected are working. Let the probability that the system is deemed functional be denoted by p.  Then 100p= _____________. <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11.85",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1953/gate2014-2-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following propositional logic formulas is TRUE when exactly two of p, q,\nand r are TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((p\\leftrightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>B.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>C.</b> <p>\\(((p\\rightarrow q)\\wedge r) \\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+            "<b>D.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\wedge (p\\wedge q\\wedge \\sim r)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\sim (p\\leftrightarrow q)\\wedge r)\\vee (p\\wedge q\\wedge \\sim r)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1933/gate2014-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>An ordered n-tuple (\\(d_{1}, d_{2} ,... , d_{n}\\)) with \\(d_{1}\\geq d_{2} \\geq ... \\geq d_{n}\\) is called graphic if there exists a simple undirected graph with n vertices having degrees \\(d_{1}, d_{2} ,... , d_{n}\\) respectively. Which of the following 6-tuples is NOT graphic? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(1, 1, 1, 1, 1, 1)</p>",
+            "<b>B.</b> <p>(2, 2, 2, 2, 2, 2)</p>",
+            "<b>C.</b> <p>(3, 3, 3, 1, 0, 0)</p>",
+            "<b>D.</b> <p>(3, 2, 1, 1, 1, 0)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(3, 3, 3, 1, 0, 0)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1932/gate2014-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider an undirected graph G where self-loops are not allowed. The vertex set of G is {(i,f):1\\(\\leq\\)i\\(\\leq\\)12, 1\\(\\leq\\)j\\(\\leq\\)12}. There is an edge between (a,b) and (c,d) if |a-c|\\(\\leq\\)1 and |b-d| \\(\\leq\\)1. The number of edges in the graph is ____. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "506",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1931/gate2014-1-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let S denote the set of all functions f:\\({\\{0,1\\}}^{4} \\rightarrow \\{0,1\\}\\). Denote by N the number of functions from S to the set {0,1}. The value of  \\(log_{2} log_{2}N\\) is______. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1930/gate2014-1-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A pennant is a sequence of numbers, each number being 1 or 2. An n-pennant is a sequence of numbers with sum equal to n. For example, (1,1,2) is a 4-pennant. The set of all possible 1- pennants is {(1)}, the set of all possible 2-pennants is {(2), (1,1)}and the set of all 3-pennants is {(2,1), (1,1,1), (1,2)}. Note that the pennant (1,2) is not the same as the pennant (2,1). The number of 10- pennants is _____. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "88.9",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1929/gate2014-1-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Four fair six-sided dice are rolled. The probability that the sum of the results being 22 is \\(\\frac{X}{1296}\\). The value of X is _________ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1927/gate2014-1-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

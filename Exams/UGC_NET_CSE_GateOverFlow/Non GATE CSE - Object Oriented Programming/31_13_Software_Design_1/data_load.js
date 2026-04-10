@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Software Design",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57724\"></a><div itemprop=\"text\"><p>The Object Modelling Technique (OMT) uses the following three kinds of model to describe a system</p>\n\n</div><br><br><b>Object Oriented Programming: UGC NET CSE | December 2012 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Class Model , Object Model and Analysis Model</p>",
+            "<p>Object Model, Dynamic Model and Functional Model</p>",
+            "<p>Class Model, Dynamic Model and Functional Model</p>",
+            "<p>Object Model, Analysis Model and Dynamic Model</p>"
+          ],
+          "correct_answer": "<p>Object Model, Dynamic Model and Functional Model</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57724/ugc-net-cse-december-2012-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/57724/ugc-net-cse-december-2012-part-3-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

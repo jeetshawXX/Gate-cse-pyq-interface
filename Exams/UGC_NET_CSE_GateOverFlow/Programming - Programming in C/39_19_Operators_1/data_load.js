@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Operators",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operators",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335493\"></a><div itemprop=\"text\"><p>What will be the value of \\( i \\) for the following expression:</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int f=11, i=3&nbsp;;\ni + =&nbsp;(f&gt;3) ? i &amp; 2:5&nbsp;;</pre>\n\n</div><br><br><b>Programming in C: UGC NET CSE | December 2005 | Part 2 | Question: 15</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335493/ugc-net-cse-december-2005-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/335493/ugc-net-cse-december-2005-part-2-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+});

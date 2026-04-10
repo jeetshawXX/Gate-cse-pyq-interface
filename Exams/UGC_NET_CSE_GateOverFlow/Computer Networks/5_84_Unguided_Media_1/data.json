@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Unguided Media",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Unguided Media",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60029\"></a><div itemprop=\"text\">\n<p>The VLF and LF bauds use _____ propagation for communication</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2013 | Part 2 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Ground</p>",
+            "<p>Sky</p>",
+            "<p>Line of sight</p>",
+            "<p>Space</p>"
+          ],
+          "correct_answer": "<p>Ground</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60029/ugc-net-cse-december-2013-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/60029/ugc-net-cse-december-2013-part-2-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

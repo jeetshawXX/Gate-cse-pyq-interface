@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Unknown Category - Disk Scheduling",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Disk Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166271\"></a><div itemprop=\"text\"><p>In ________ disk scheduling algorithm, the disk head moves from one end to other end of the disk, serving the requests along the way. When the head reaches the other end, it immediately returns to the beginning of the disk without serving any requests on the return trip.</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | November 2017 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>LOOK</p>",
+            "<p>SCAN</p>",
+            "<p>C-LOOK</p>",
+            "<p>C-SCAN</p>"
+          ],
+          "correct_answer": "<p>C-SCAN</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166271/ugc-net-cse-november-2017-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/166271/ugc-net-cse-november-2017-part-2-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+});

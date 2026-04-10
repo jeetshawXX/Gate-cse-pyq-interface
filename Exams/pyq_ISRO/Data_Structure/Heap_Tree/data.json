@@ -1,0 +1,41 @@
+{
+  "title": "Data_Structure - Heap_Tree",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Heap_Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Given a binary-max heap. The elements are stored in an arrays as 25,14,16,13,10,8,12. What is the content of the array after two delete operations? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14,13,8,12,10</p>",
+            "<b>B.</b> <p>14,12,13,10,8</p>",
+            "<b>C.</b> <p>14,13,12,8,10</p>",
+            "<b>D.</b> <p>14,13,12,10,8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>14,13,12,8,10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213531/isro2018-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A data structure is required for storing a set of integers such that each of the following operations can be done in \\(O(\\log n)\\) time, where n is the number of elements in the set.<br><br>\n1. Deletion of the smallest element<br>\n2. Insertion of an element if it is not already present in the set<br><br>\nWhich of the following data structures can be used for this purpose? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A heap can be used but not a balanced binary search tree</p>",
+            "<b>B.</b> <p>A balanced binary search tree can be used but not a heap</p>",
+            "<b>C.</b> <p>Both balanced binary search tree and heap can be used</p>",
+            "<b>D.</b> <p>Neither balanced search tree nor heap can be used</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A balanced binary search tree can be used but not a heap</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/950/gate2003-63-isro2009-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

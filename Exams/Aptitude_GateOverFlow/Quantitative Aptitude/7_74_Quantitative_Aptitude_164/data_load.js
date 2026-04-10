@@ -1,0 +1,2363 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Quantitative Aptitude",
+  "duration": 454,
+  "sections": [
+    {
+      "name": "Quantitative Aptitude",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"217\"></a><div itemprop=\"text\"><p>83 - 17 = 56 + ?</p><ol><li>6</li><li>10</li><li>16</li><li>20</li><li>30</li></ol></div><br><br><b>Quantitative Aptitude: 83</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/217/83-17-56\" target=\"_blank\">https://aptitude.gateoverflow.in/217/83-17-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"225\"></a><div itemprop=\"text\"><p>A car left Canterbury at 7:12 am and arrived in Birmingham, 180 miles distant at 10:57 am. What is the average speed in miles per hour?</p><ol><li>42</li><li>44</li><li>46</li><li>48</li><li>50</li></ol></div><br><br><b>Quantitative Aptitude: A car left Canterbury at 7.12 am and arrived in Birmingham, 180 miles distant at 10.57 am.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/225/car-left-canterbury-and-arrived-birmingham-180-miles-distant\" target=\"_blank\">https://aptitude.gateoverflow.in/225/car-left-canterbury-and-arrived-birmingham-180-miles-distant</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"280\"></a><div itemprop=\"text\"><p>A is a non-empty set having n elements. P and Q are two subsets of A, such that P is a subset of Q. Find the number of ways of choosing the subsets P and Q.</p><ol><li>4&nbsp;<sup>n</sup></li><li>3&nbsp;<sup>n</sup></li><li>2&nbsp;<sup>n</sup></li><li>n&nbsp;<sup>2</sup></li>&nbsp;</ol></div><br><br><b>Quantitative Aptitude: A is a non</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/280/empty-set-having-elements-and-are-two-subsets-such-that-subset\" target=\"_blank\">https://aptitude.gateoverflow.in/280/empty-set-having-elements-and-are-two-subsets-such-that-subset</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"278\"></a><div itemprop=\"text\"><p>A rectangle MNOQ is drawn and length 'NO' is extended to a point R and a triangle QPR is drawn, with Angle ORP = 45º and side S and T are the midpoints of sides QR and PR respectively. If ST = 6 units, the area ( in sq.cm) of the rectangle is</p><ol><li>112</li><li>144</li><li>288</li><li>256</li></ol></div><br><br><b>Quantitative Aptitude: A rectangle MNOQ is drawn and length 'NO' is extended to a point R and a triangle QPR is drawn, with . Angle ORP = 45° and side .</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/278/rectangle-drawn-length-extended-point-triangle-drawn-angle\" target=\"_blank\">https://aptitude.gateoverflow.in/278/rectangle-drawn-length-extended-point-triangle-drawn-angle</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"286\"></a><div itemprop=\"text\"><p>A rectangle of the largest possible area is cut out from a semi-circle of perimeter 72 cm. What is the area of the rectangle cut out? ( Take n = 22 / 7 )</p><ol><li>196&nbsp;cm&nbsp;<sup>2</sup></li><li>156.8 cm&nbsp;<sup>2</sup></li><li>210 cm&nbsp;<sup>2</sup></li><li>528 cm&nbsp;<sup>2</sup></li></ol></div><br><br><b>Quantitative Aptitude: A rectangle of the largest possible area is cut out from a semi</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/286/rectangle-largest-possible-area-from-semi-circle-perimeter\" target=\"_blank\">https://aptitude.gateoverflow.in/286/rectangle-largest-possible-area-from-semi-circle-perimeter</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4369\"></a><div itemprop=\"text\">A!*B!*C!=D!, A,B,C are all odd natural numbers and D=10,what is A*B*C?<br>\n<br>\n189<br>\n<br>\n105<br>\n<br>\n315<br>\n<br>\n27<br>\n<br>\nPlease share approach too,</div><br><br><b>Quantitative Aptitude: A!*B!*C!=D!, A,B,C are all odd natural numbers and D=10,what is A*B*C?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4369/a-b-c-d-a-b-c-are-all-odd-natural-numbers-and-d-10-what-is-a-b-c\" target=\"_blank\">https://aptitude.gateoverflow.in/4369/a-b-c-d-a-b-c-are-all-odd-natural-numbers-and-d-10-what-is-a-b-c</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"226\"></a><div itemprop=\"text\"><p>An aircraft files 930 miles in 75 minutes. How many miles does it fly in 4 hours 45 minutes assuming a constant speed?</p><ol><li>3112</li><li>3477</li><li>3512</li><li>3522</li><li>3534</li></ol></div><br><br><b>Quantitative Aptitude: An aircraft flies 930 miles in 75 minutes.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/226/an-aircraft-flies-930-miles-in-75-minutes\" target=\"_blank\">https://aptitude.gateoverflow.in/226/an-aircraft-flies-930-miles-in-75-minutes</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"4296\"></a><div itemprop=\"text\"><p>If a&nbsp; + b + c = 0, where \\( a \\neq b \\neq c \\), then what is the value of:</p>\n\n<p>\\( \\frac{a^{2}}{2a^{2}+bc}+\\frac{b^2}{2b^{2}+ac}+\\frac{c^{2}}{2c^{2}+ab} \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>zero</p>",
+            "<p>1</p>",
+            "<p>-1</p>",
+            "<p>abc</p>"
+          ],
+          "correct_answer": "<p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4296/cat-1994-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/4296/cat-1994-question-60</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"4301\"></a><div itemprop=\"text\"><p>A water tank has three taps A, B, and C. A fills four buckets in 24 mm, B fills 8 buckets in 1 hour and C fills 2 buckets in 20 minutes. If all the taps are opened together a full tank is emptied in 2 hours. If a bucket can hold 5 litres of water, what is the capacity of the tank?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>120 litres&nbsp;</p>",
+            "<p>240 litres</p>",
+            "<p>180 litres&nbsp;</p>",
+            "<p>60 litres</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4301/cat-1994-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/4301/cat-1994-question-65</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"4305\"></a><div itemprop=\"text\"><p>Along a road lie an odd number of stones placed at intervals of 10 m. These stones have to be assembled around the middle stone. A person can carry only one stone at a time. A man carried out the job starting with the stone in the middle, carrying stones in succession, thereby covering a distance of 4.8 km. Then the number of stones is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1994 | Question: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>35</p>",
+            "<p>15</p>",
+            "<p>29</p>",
+            "<p>31</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4305/cat-1994-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/4305/cat-1994-question-69</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"4007\"></a><div itemprop=\"text\"><p>Ram purchased a flat at Rs. 1 lakh and Prem purchased a plot of land worth Rs. 1.1 lakh. The respective annual rates at which the prices of the flat and the plot increased were 10% and 5%. After two years they exchanged their belongings and one paid the other the difference. Then:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 68</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ram paid Rs. 275 to Prem</p>",
+            "<p>Ram paid Rs. 475 to Prem</p>",
+            "<p>Ram paid Rs. 2750 to Prem</p>",
+            "<p>Prem paid Rs. 475 to Ram</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4007/cat-1995-question-68\" target=\"_blank\">https://aptitude.gateoverflow.in/4007/cat-1995-question-68</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"4019\"></a><div itemprop=\"text\"><p>Choose the correct option:</p>\n\n<p>72 hens cost Rs._96.7_. What does each hen cost, where numbers at “_” are not visible or are written in illegible hand?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 77</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. 3.23</p>",
+            "<p>Rs. 5.11</p>",
+            "<p>Rs. 5.51</p>",
+            "<p>Rs.7.22</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4019/cat-1995-question-77\" target=\"_blank\">https://aptitude.gateoverflow.in/4019/cat-1995-question-77</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"4031\"></a><div itemprop=\"text\"><p>Three consecutive positive even numbers are such that thrice the first number exceeds double the third by 2; then the third number is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 87</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)&nbsp;</p>",
+            "<p>\\( 14 \\)&nbsp;</p>",
+            "<p>\\( 16 \\)&nbsp;</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4031/cat-1995-question-87\" target=\"_blank\">https://aptitude.gateoverflow.in/4031/cat-1995-question-87</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"3776\"></a><div itemprop=\"text\"><p>From a circular sheet of paper with a radius of 20 cm, four circles of radius 5cm each are cut out. What is the ratio of the paper left to the area of the circles?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 106</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:3 \\)&nbsp;</p>",
+            "<p>\\( 4:1 \\)&nbsp;</p>",
+            "<p>\\( 3:1 \\)</p>",
+            "<p>\\( 4:3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3776/cat-1996-question-106\" target=\"_blank\">https://aptitude.gateoverflow.in/3776/cat-1996-question-106</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"3778\"></a><div itemprop=\"text\"><p>Out of two-thirds of the total number of basket-ball matches, a team has won \\( 17 \\) matches and lost \\( 3 \\) of them. What is the maximum number of matches that the team can lose and still win three-fourths of the total number of matches, if it is true that no match can end in a tie?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 108</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)&nbsp;</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3778/cat-1996-question-108\" target=\"_blank\">https://aptitude.gateoverflow.in/3778/cat-1996-question-108</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"3780\"></a><div itemprop=\"text\"><p>If a number \\( 774958A96B \\) is to be divisible by \\( 8 \\) and \\( 9 \\), the values of A and B. respectively, will be:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 110</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7,8 \\)</p>",
+            "<p>\\( 8,0 \\)&nbsp;</p>",
+            "<p>\\( 5,8 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3780/cat-1996-question-110\" target=\"_blank\">https://aptitude.gateoverflow.in/3780/cat-1996-question-110</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"3781\"></a><div itemprop=\"text\"><p>Once I had been to the post-office to buy stamps of five rupees, two rupees and one rupee. I paid the clerk Rs \\( 20 \\), and since he did not have change, he gave me three more stamps of one rupee. If the number of stamps of each type that I had ordered initially was more than one, what was the total number of stamps that I bought?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 111</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 9 \\)&nbsp;</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3781/cat-1996-question-111\" target=\"_blank\">https://aptitude.gateoverflow.in/3781/cat-1996-question-111</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"3785\"></a><div itemprop=\"text\"><p>In triangle ABC, angle B is a right angle. If AC is 6 cm, and D is the mid-point of side AC, the length of BD is:</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17641912751337053158\" width=\"200\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 115</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\) cm</p>",
+            "<p>\\( 6 \\) cm</p>",
+            "<p>\\( 3 \\) cm</p>",
+            "<p>\\( 3.5 \\) cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3785/cat-1996-question-115\" target=\"_blank\">https://aptitude.gateoverflow.in/3785/cat-1996-question-115</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"3786\"></a><div itemprop=\"text\"><p>A, S, M and Dare functions of x and y, and they are defined as follows:</p>\n\n<p>\\( A(x, y) + x + y \\)&nbsp;</p>\n\n<p>\\( S(x, y) = x - y \\)</p>\n\n<p>\\( M(x, y) = xy \\)&nbsp;</p>\n\n<p>\\( D(x, y) = x/y \\),</p>\n\n<p>where \\( y \\neq 0 \\).</p>\n\n<p>What is the value of \\( M(M(A(M(x, y),S(y,x)), x),A(y, x)) \\) for \\( x = 2, y = 3 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 116</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 50 \\)&nbsp;</p>",
+            "<p>\\( 140 \\)&nbsp;</p>",
+            "<p>\\( 25 \\)&nbsp;</p>",
+            "<p>\\( 70 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3786/cat-1996-question-116\" target=\"_blank\">https://aptitude.gateoverflow.in/3786/cat-1996-question-116</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"3787\"></a><div itemprop=\"text\"><p>A, S, M and Dare functions of x and y, and they are defined as follows:</p>\n\n<p>\\( A(x, y) + x + y \\)&nbsp;</p>\n\n<p>\\( S(x, y) = x - y \\)</p>\n\n<p>\\( M(x, y) = xy \\)&nbsp;</p>\n\n<p>\\( D(x, y) = x/y \\),</p>\n\n<p>where \\( y \\neq 0 \\).</p>\n\n<p>What is the value of S(M(D(A(a, b), 2), D(A(a, b),2)), M(D(S(a, b), 2), D(S(a, b),2)))</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 117</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( a^{2} b^{2} \\)&nbsp;</p>",
+            "<p>\\( ab \\)&nbsp;</p>",
+            "<p>\\( a^{2} –b^{2} \\)&nbsp;</p>",
+            "<p>\\( a/b \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3787/cat-1996-question-117\" target=\"_blank\">https://aptitude.gateoverflow.in/3787/cat-1996-question-117</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"3788\"></a><div itemprop=\"text\"><p>A, S, M and Dare functions of x and y, and they are defined as follows:</p>\n\n<p>\\( A(x, y) + x + y \\)&nbsp;</p>\n\n<p>\\( S(x, y) = x - y \\)</p>\n\n<p>\\( M(x, y) = xy \\)&nbsp;</p>\n\n<p>\\( D(x, y) = x/y \\),</p>\n\n<p>where \\( y \\neq 0 \\).</p>\n\n<p>The figure shows a rectangle ABCD with a semi-circle and circle inscribed inside it as&nbsp;shown. What is the ratio of the area of the circle to that the semi-circle?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=12380326855813351839\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 118</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (\\sqrt{2}-1)^{2} \\)</p>",
+            "<p>\\( 2(\\sqrt{2}-1)^{2} \\)</p>",
+            "<p>\\( (\\sqrt{2}-1)^{2}/2 \\)</p>",
+            "<p>None of these.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3788/cat-1996-question-118\" target=\"_blank\">https://aptitude.gateoverflow.in/3788/cat-1996-question-118</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"3789\"></a><div itemprop=\"text\"><p>A, S, M and Dare functions of x and y, and they are defined as follows:</p>\n\n<p>\\( A(x, y) + x + y \\)&nbsp;</p>\n\n<p>\\( S(x, y) = x - y \\)</p>\n\n<p>\\( M(x, y) = xy \\)&nbsp;</p>\n\n<p>\\( D(x, y) = x/y \\),</p>\n\n<p>where \\( y \\neq 0 \\).</p>\n\n<p>Which of the following value of x do not satisfy the inequality \\( x^{2}-3x+2&gt;0 \\) at all?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 119</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1\\leq x \\leq 2 \\)</p>",
+            "<p>\\( -1&nbsp;\\geq&nbsp;x&nbsp;\\geq&nbsp;-2 \\)</p>",
+            "<p>\\( 0 \\leq x \\leq 2 \\)</p>",
+            "<p>\\( 0 \\geq x \\geq -2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3789/cat-1996-question-119\" target=\"_blank\">https://aptitude.gateoverflow.in/3789/cat-1996-question-119</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"3793\"></a><div itemprop=\"text\"><p>In a locality, there are five small towns, \\( A, B, C, D \\) and \\( E \\). The distances of these towns from each other are as follows:</p>\n\n<p>\\( AB=2km AC=2km AD&gt;2km AE&gt;3km BC=2km \\)&nbsp;</p>\n\n<p>\\( BD=4km BE=3km CD=2km CE=3km DE&gt;3km \\).</p>\n\n<p>If a ration shop is to be set up within \\( 2 \\) km of each city, how many ration shops will be required?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 123</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3793/cat-1996-question-123\" target=\"_blank\">https://aptitude.gateoverflow.in/3793/cat-1996-question-123</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"3794\"></a><div itemprop=\"text\"><p>In a locality, there are five small towns, \\( A, B, C, D \\) and \\( E \\). The distances of these towns from each other are as follows:</p>\n\n<p>\\( AB=2km AC=2km AD&gt;2km AE&gt;3km BC=2km \\)&nbsp;</p>\n\n<p>\\( BD=4km BE=3km CD=2km CE=3km DE&gt;3km \\).</p>\n\n<p>If a ration shop is to be set up within \\( 3 \\) km of each city, how many ratio shops will be required?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 124</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3794/cat-1996-question-124\" target=\"_blank\">https://aptitude.gateoverflow.in/3794/cat-1996-question-124</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"3796\"></a><div itemprop=\"text\"><p>A cube of side \\( 12 \\) cm is painted red on all the faces and then cut into smaller cubes, each of side \\( 3 \\) cm. What is the total number of smaller cubes having none of their faces painted?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 126</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 8 \\)&nbsp;</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 24 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3796/cat-1996-question-126\" target=\"_blank\">https://aptitude.gateoverflow.in/3796/cat-1996-question-126</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"3797\"></a><div itemprop=\"text\"><p>The points of intersection of three lines, \\( 2X + 3Y - 5 = 0, 5X - 7Y + 2 = 0 \\), and \\( 9X-5Y-4 =0 \\):</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 127</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>form a triangle.</p>",
+            "<p>are on lines perpendicular to each other.</p>",
+            "<p>are on lines parallel to each other.</p>",
+            "<p>are coincident.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3797/cat-1996-question-127\" target=\"_blank\">https://aptitude.gateoverflow.in/3797/cat-1996-question-127</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"3804\"></a><div itemprop=\"text\"><p>The figures shows a circle of diameter AB and radius \\( 6.5 \\) cm. If chord CA is \\( 5 \\) cm long, find the area of triangle ABC.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13348295827012177341\" width=\"300\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 134</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60 \\) sq.cm.</p>",
+            "<p>\\( 30 \\) sq.cm</p>",
+            "<p>\\( 40 \\) sq.cm.</p>",
+            "<p>\\( 52 \\) sq.cm.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3804/cat-1996-question-134\" target=\"_blank\">https://aptitude.gateoverflow.in/3804/cat-1996-question-134</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"3805\"></a><div itemprop=\"text\"><p>In a locality, two-thirds of the people have cable-TV, one-fifth have VCR, and one-tenth have both, what is the fraction of people having either cable TV or VCR?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 135</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 19/30 \\)&nbsp;</p>",
+            "<p>\\( 3/5 \\)</p>",
+            "<p>\\( 17/30 \\)&nbsp;</p>",
+            "<p>\\( 23/30 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3805/cat-1996-question-135\" target=\"_blank\">https://aptitude.gateoverflow.in/3805/cat-1996-question-135</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"3806\"></a><div itemprop=\"text\"><p>If ABCD is a square and BCE is an equilateral triangle, what is the measure of the angle DEC?</p><p style=\"text-align:center\"><img alt=\"\" width=\"400\" height=\"260\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16044511320522741458\"></p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 136</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15&nbsp;^{\\circ} \\)</p>",
+            "<p>\\( 30&nbsp;^{\\circ} \\)</p>",
+            "<p>\\( 0&nbsp;^{\\circ} \\)&nbsp;</p>",
+            "<p>\\( 45&nbsp;^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3806/cat-1996-question-136\" target=\"_blank\">https://aptitude.gateoverflow.in/3806/cat-1996-question-136</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"3807\"></a><div itemprop=\"text\"><p>I bought \\( 5 \\) pens, \\( 7 \\) pencils and \\( 4 \\) erasers. Rajan bought \\( 6 \\) pens, \\( 8 \\) erasers and \\( 14 \\) pencils for an amount which was half more than what I had paid. What percent of the total amount paid by me was paid for the pens?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 137</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 37.5 \\)%</p>",
+            "<p>\\( 625 \\)%</p>",
+            "<p>\\( 50 \\)%</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3807/cat-1996-question-137\" target=\"_blank\">https://aptitude.gateoverflow.in/3807/cat-1996-question-137</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"3808\"></a><div itemprop=\"text\"><p>If x is a positive integer such that. \\( 2x + 12 \\) is perfectly divisibly by \\( x \\),&nbsp;then the number of possible values of \\( x \\) is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 138</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3808/cat-1996-question-138\" target=\"_blank\">https://aptitude.gateoverflow.in/3808/cat-1996-question-138</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"3810\"></a><div itemprop=\"text\"><p>A watch dealer incurs an expense of Rs \\( 150 \\) for producing every watch. He also incurs an additional expenditure of Rs. \\( 30,000 \\), which is independent of the number of watches produced. If he is able to sell a watch during the season, he sells it for Rs. \\( 250 \\). If he fails to do so, he has to sell each watch for Rs. \\( 100 \\).</p>\n\n<p>If he produces \\( 1500 \\) watches, what is the number of watches that he must sell during the season in order to break even, given that he is able to sell all the watches produced?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 140</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 500 \\)&nbsp;</p>",
+            "<p>\\( 700 \\)&nbsp;</p>",
+            "<p>\\( 800 \\)&nbsp;</p>",
+            "<p>\\( 1,000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3810/cat-1996-question-140\" target=\"_blank\">https://aptitude.gateoverflow.in/3810/cat-1996-question-140</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"3814\"></a><div itemprop=\"text\"><p>In a watch, the minute hand crosses the hour hand for the third time exactly after every 3 hrs 18 mm 15 seconds of watch time. What is the time gained or lost by this watch in one day?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 144</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>14 mm 10 seconds lost</p>",
+            "<p>13 mm 50 seconds lost</p>",
+            "<p>13 min 20 second gained</p>",
+            "<p>14 mm 40 second gained.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3814/cat-1996-question-144\" target=\"_blank\">https://aptitude.gateoverflow.in/3814/cat-1996-question-144</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"3491\"></a><div itemprop=\"text\"><p>A race consists of three stretches \\( A, B \\) and \\( C \\) of \\( 2 \\)kms length each. The mode of coverage, and maximum and minimum of speeds possible in each stretch are:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Stretch</td>\n\t\t\t<td>Mode</td>\n\t\t\t<td>Minimum Speed (Km/h)</td>\n\t\t\t<td>Maximum Speed (Km/h)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>Car</td>\n\t\t\t<td>40</td>\n\t\t\t<td>60</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>Motorcycle</td>\n\t\t\t<td>30</td>\n\t\t\t<td>50</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Bicycle</td>\n\t\t\t<td>10</td>\n\t\t\t<td>20</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Speed in a given stretch remains constant. The previous record was ten minutes to complete the race.</p>\n\n<p>Anshuman travelled at the minimum speed by car and at maximum speed over the stretch \\( B \\). What should be his minimum speed over stretch \\( C \\) to beat the previous record?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 101</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15 \\) kmph</p>",
+            "<p>Not possible to beat the previous record</p>",
+            "<p>\\( 20 \\)&nbsp;kmph</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3491/cat-1997-question-101\" target=\"_blank\">https://aptitude.gateoverflow.in/3491/cat-1997-question-101</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"3492\"></a><div itemprop=\"text\"><p>A race consists of three stretches \\( A, B \\) and \\( C \\) of \\( 2 \\)kms length each. The mode of coverage, and maximum and minimum of speeds possible in each stretch are:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Stretch</td>\n\t\t\t<td>Mode</td>\n\t\t\t<td>Minimum Speed (Km/h)</td>\n\t\t\t<td>Maximum Speed (Km/h)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>Car</td>\n\t\t\t<td>40</td>\n\t\t\t<td>60</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>Motorcycle</td>\n\t\t\t<td>30</td>\n\t\t\t<td>50</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Bicycle</td>\n\t\t\t<td>10</td>\n\t\t\t<td>20</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Speed in a given stretch remains constant. The previous record was ten minutes to complete the race.</p>\n\n<p>Mr. Hare travelled at the slowest speed in stretch \\( A \\) and took the same amount of time to travel in stretch \\( B \\) as he took in stretch \\( A \\). If he took fifty percent more time than the previous record to complete the race, what was his speed in the stretch \\( C \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 102</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)&nbsp;kmph</p>",
+            "<p>\\( 15 \\) km/h</p>",
+            "<p>\\( 20 \\)&nbsp;kmph</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3492/cat-1997-question-102\" target=\"_blank\">https://aptitude.gateoverflow.in/3492/cat-1997-question-102</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"3493\"></a><div itemprop=\"text\"><p>A race consists of three stretches \\( A, B \\) and \\( C \\) of \\( 2 \\)kms length each. The mode of coverage, and maximum and minimum of speeds possible in each stretch are:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Stretch</td>\n\t\t\t<td>Mode</td>\n\t\t\t<td>Minimum Speed (Km/h)</td>\n\t\t\t<td>Maximum Speed (Km/h)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>Car</td>\n\t\t\t<td>40</td>\n\t\t\t<td>60</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>Motorcycle</td>\n\t\t\t<td>30</td>\n\t\t\t<td>50</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>Bicycle</td>\n\t\t\t<td>10</td>\n\t\t\t<td>20</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Speed in a given stretch remains constant. The previous record was ten minutes to complete the race.</p>\n\n<p>Mr. Tortoise travelled in the overall race at an average speed of \\( 20 \\) km/h. However, his average speed over the first two stretches combined was four times that over the last stretch. What was his speed over the last stretch?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 103</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 15 \\) km/h</p>",
+            "<p>\\( 10 \\) km/h</p>",
+            "<p>\\( 20 \\) km/h</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3493/cat-1997-question-103\" target=\"_blank\">https://aptitude.gateoverflow.in/3493/cat-1997-question-103</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"3494\"></a><div itemprop=\"text\"><p>There are \\( 60 \\) students in a class. These students are divided into three groups \\( A, B \\) and \\( C \\) of \\( 15, 20 \\) and \\( 25 \\) students each. The groups \\( A \\) and \\( C \\) are combined to form group \\( D \\).</p>\n\n<p>What is the average weight of the students in group D?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 104</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>More than the average weight of A</p>",
+            "<p>More than the average weight of C</p>",
+            "<p>Less than the average weight of C</p>",
+            "<p>Cannot be determined.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3494/cat-1997-question-104\" target=\"_blank\">https://aptitude.gateoverflow.in/3494/cat-1997-question-104</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"3496\"></a><div itemprop=\"text\"><p>There are \\( 60 \\) students in a class. These students are divided into three groups \\( A, B \\) and \\( C \\) of \\( 15, 20 \\) and \\( 25 \\) students each. The groups \\( A \\) and \\( C \\) are combined to form group \\( D \\).</p>\n\n<p>If one students from Group A is shifted to group B, which of the following will be true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 105</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The average weight of both groups increases.</p>",
+            "<p>The average weight of both the groups decreases.</p>",
+            "<p>The average weight of the class remains the same.</p>",
+            "<p>Cannot be determined.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3496/cat-1997-question-105\" target=\"_blank\">https://aptitude.gateoverflow.in/3496/cat-1997-question-105</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"3497\"></a><div itemprop=\"text\"><p>There are \\( 60 \\) students in a class. These students are divided into three groups \\( A, B \\) and \\( C \\) of \\( 15, 20 \\) and \\( 25 \\) students each. The groups \\( A \\) and \\( C \\) are combined to form group \\( D \\).</p>\n\n<p>If all the students of the class have the same weight, then which of the following is false?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 106</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The average weight of all the four groups is the same.</p>",
+            "<p>The total weight of A and C is twice the total weight of \\( B \\).</p>",
+            "<p>The average weight of D is greater than the average weight of \\( A \\).</p>",
+            "<p>The average weight of all the groups remains the same even if a number of students are shifted from one group to another.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3497/cat-1997-question-106\" target=\"_blank\">https://aptitude.gateoverflow.in/3497/cat-1997-question-106</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"3499\"></a><div itemprop=\"text\"><p>In how many ways can the eight directors, the Vice chairman and the Chairman of a firm be seated at around- table, if the Chairman has to sit between the Vice- chairman and a director?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 108</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 9! \\times 2 \\)</p>",
+            "<p>\\( 2 \\times 8! \\)&nbsp;</p>",
+            "<p>\\( 2 \\times 7! \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3499/cat-1997-question-108\" target=\"_blank\">https://aptitude.gateoverflow.in/3499/cat-1997-question-108</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"3500\"></a><div itemprop=\"text\"><p>If \\( \\log_{2}[ \\log_{7} (x^{2}-x+37)]=1 \\)&nbsp;then what could be the value of \\( x \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 109</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>None of these</p>",
+            "<p>\\( c \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3500/cat-1997-question-109\" target=\"_blank\">https://aptitude.gateoverflow.in/3500/cat-1997-question-109</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"3505\"></a><div itemprop=\"text\"><p>How many values of the natural number \\( n \\) are possible so that the expression \\( (16n^{2}+7n+6)/n \\) is also a natural number?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 111</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Infinitely many</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>None of these</p>",
+            "<p>d &amp; c</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3505/cat-1997-question-111\" target=\"_blank\">https://aptitude.gateoverflow.in/3505/cat-1997-question-111</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"3506\"></a><div itemprop=\"text\"><p>A dry fruit seller purchased 3 kinds of nuts at the rate of Rs. \\( 100 \\)/kg, Rs. \\( 80 \\)/kg and Rs. \\( 60 \\)/kg. He then mixed them, respectively, in the ratio \\( 3:4:5 \\) by weight and sold the same to a customer at \\( 50 \\)% profit. The price at which he sold to the customer is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 112</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 110 \\)&nbsp;</p>",
+            "<p>Rs. \\( 90 \\)&nbsp;</p>",
+            "<p>Rs. \\( 70 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3506/cat-1997-question-112\" target=\"_blank\">https://aptitude.gateoverflow.in/3506/cat-1997-question-112</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"3507\"></a><div itemprop=\"text\"><p>Fresh grapes contain \\( 90 \\)% water by weight while dried grapes contain \\( 20 \\)% water by weight. The weight of dry grapes available from \\( 20 \\) kg of fresh grapes will be.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 113</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) kg</p>",
+            "<p>\\( 2.4 \\) kg</p>",
+            "<p>\\( 2.5 \\) kg</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3507/cat-1997-question-113\" target=\"_blank\">https://aptitude.gateoverflow.in/3507/cat-1997-question-113</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"3509\"></a><div itemprop=\"text\"><p>A candidate was asked to find \\( 7/8 \\)th of a positive number; he found \\( 7/18 \\)th of the same by mistake. If his answer was \\( 770 \\) less than the correct one, then the original given number was</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 115</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1260 \\)</p>",
+            "<p>\\( 6160 \\)</p>",
+            "<p>\\( 1584 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3509/cat-1997-question-115\" target=\"_blank\">https://aptitude.gateoverflow.in/3509/cat-1997-question-115</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"3510\"></a><div itemprop=\"text\"><p>\\( P \\) and \\( Q \\) are two integers such that \\( P \\times Q = 64 \\). Which of the following cannot be the value of \\( P+Q \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 116</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 65 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 35 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3510/cat-1997-question-116\" target=\"_blank\">https://aptitude.gateoverflow.in/3510/cat-1997-question-116</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"3511\"></a><div itemprop=\"text\"><p>The average marks of a student in ten papers are \\( 80 \\). If the highest and the lowest scores are&nbsp;not considered, the average is \\( 81 \\). If his highest score is \\( 92 \\), find the lowest.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 117</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 55 \\)&nbsp;</p>",
+            "<p>\\( 60 \\)&nbsp;</p>",
+            "<p>\\( 62 \\)</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3511/cat-1997-question-117\" target=\"_blank\">https://aptitude.gateoverflow.in/3511/cat-1997-question-117</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"3512\"></a><div itemprop=\"text\"><p>If the roots, \\( x_{1} \\) and \\( x_{2} \\)&nbsp;of the quadratic equation \\( x^{2}-2x+c=0 \\)&nbsp;also satisfy the equation \\( 7x_{2}-4x_{1}=47 \\),&nbsp;then which of the following is true?&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 118</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( c=-15 \\)</p>",
+            "<p>\\( x_{1}=-5, x_{2}=3 \\)</p>",
+            "<p>\\( x_{1}=4.5, x_{2}=-2.5 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3512/cat-1997-question-118\" target=\"_blank\">https://aptitude.gateoverflow.in/3512/cat-1997-question-118</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"3513\"></a><div itemprop=\"text\"><p>The sum of the areas of two circles which touch each other externally is \\( 153\\pi \\). If the sum of their radii is \\( 15 \\), find the ratio of the larger to the smaller radius.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 119</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3513/cat-1997-question-119\" target=\"_blank\">https://aptitude.gateoverflow.in/3513/cat-1997-question-119</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"3514\"></a><div itemprop=\"text\"><p>If \\( m \\) and \\( n \\) are integers divisible by \\( 5 \\), which of the following is not necessarily true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 120</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( m–n \\) is divisible&nbsp;\\( 5 \\).</p>",
+            "<p>\\( m^{2}-n^{2} \\) is divisible by \\( 25 \\).</p>",
+            "<p>\\( m+n \\) is divisible by \\( 10 \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3514/cat-1997-question-120\" target=\"_blank\">https://aptitude.gateoverflow.in/3514/cat-1997-question-120</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"3515\"></a><div itemprop=\"text\"><p>Which of the following is true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 121</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( _{7}^{3^{2}}&nbsp;= (7^{3})^{2} \\)</p>",
+            "<p>\\( _{7}^{3^{2}}&nbsp;&gt; (7^{3})^{2} \\)</p>",
+            "<p>\\( _{7}^{3^{2}}&nbsp;&lt; (7^{3})^{2} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3515/cat-1997-question-121\" target=\"_blank\">https://aptitude.gateoverflow.in/3515/cat-1997-question-121</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"3516\"></a><div itemprop=\"text\"><p>A survey of 200 people in a community who watched at least one of the three channels – BBC, CNN and DD showed that \\( 80 \\)% of the people watched DD, \\( 22 \\)% watched BBC, and \\( 15 \\)% watched CNN.</p>\n\n<p>What is the maximum percent of people who can watch all the three channels?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 122</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12.5 \\)&nbsp;</p>",
+            "<p>\\( 8.5 \\)&nbsp;</p>",
+            "<p>\\( 17 \\)&nbsp;</p>",
+            "<p>Insufficient data</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3516/cat-1997-question-122\" target=\"_blank\">https://aptitude.gateoverflow.in/3516/cat-1997-question-122</a></p>"
+        },
+        {
+          "id": 53,
+          "question": "<p><a name=\"3517\"></a><div itemprop=\"text\"><p>A survey of \\( 200 \\) people in a community who watched at least one of the three channels – BBC, CNN and DD showed that \\( 80 \\)% of the people watched DD, \\( 22 \\)% watched BBC, and \\( 15 \\)% watched CNN.</p>\n\n<p>If \\( 5 \\)% of the people watched DD and CNN, \\( 10 \\)% watched DD and BBC, then what percent of the people watched BBC and CNN only?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 123</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)%</p>",
+            "<p>\\( 5 \\)%</p>",
+            "<p>\\( 8.5 \\)%</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3517/cat-1997-question-123\" target=\"_blank\">https://aptitude.gateoverflow.in/3517/cat-1997-question-123</a></p>"
+        },
+        {
+          "id": 54,
+          "question": "<p><a name=\"3518\"></a><div itemprop=\"text\"><p>A survey of \\( 200 \\) people in a community who watched at least one of the three channels – BBC, CNN and DD showed that \\( 80 \\)% of the people watched DD, \\( 22 \\)% watched BBC, and \\( 15 \\)% watched CNN.</p>\n\n<p>Referring to the previous question, how many percents of the people watched all the three channels?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 124</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3.5 \\)%</p>",
+            "<p>\\( 0 \\)%</p>",
+            "<p>\\( 8.5 \\)%</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3518/cat-1997-question-124\" target=\"_blank\">https://aptitude.gateoverflow.in/3518/cat-1997-question-124</a></p>"
+        },
+        {
+          "id": 55,
+          "question": "<p><a name=\"3519\"></a><div itemprop=\"text\"><p>A man earns \\( x \\)% on the first \\( 2000 \\) rupees and \\( y \\)% on the rest of his income. If he earns Rs \\( 700 \\) from Rs \\( 4000 \\) and Rs \\( 900 \\) from Rs \\( 5000 \\) of income, find \\( x \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 125</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 15 \\)&nbsp;</p>",
+            "<p>\\( 35 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3519/cat-1997-question-125\" target=\"_blank\">https://aptitude.gateoverflow.in/3519/cat-1997-question-125</a></p>"
+        },
+        {
+          "id": 56,
+          "question": "<p><a name=\"3520\"></a><div itemprop=\"text\"><p>AB is the diameter of the given circle, while points C and D lie on the circumference as shown. If AB is \\( 15 \\) cm, AC is \\( 12 \\) cm and BD is \\( 9 \\) cm, find the area of the quadrilateral ACBD.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=12373718733030910789\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 126</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 54 \\pi \\)</p>",
+            "<p>\\( 216\\pi \\)</p>",
+            "<p>\\( 162\\pi \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3520/cat-1997-question-126\" target=\"_blank\">https://aptitude.gateoverflow.in/3520/cat-1997-question-126</a></p>"
+        },
+        {
+          "id": 57,
+          "question": "<p><a name=\"3521\"></a><div itemprop=\"text\"><p>P, Q and R are three consecutive odd numbers in ascending order. If the value of three times P is three less than two times R, find the value of R.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 127</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 11 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3521/cat-1997-question-127\" target=\"_blank\">https://aptitude.gateoverflow.in/3521/cat-1997-question-127</a></p>"
+        },
+        {
+          "id": 58,
+          "question": "<p><a name=\"3523\"></a><div itemprop=\"text\"><p>For these questions, the following functions have been defined:</p>\n\n<p>\\( la(x,y,z) = min(x+y, y+z) \\)</p>\n\n<p>\\( le (x,y,z) = max(x–y, y–z) \\)</p>\n\n<p>\\( ma(x,y,z)=(1/2) [le(x,y,z)+la(x,y,z)] \\)</p>\n\n<p>Given that \\( x &gt; y &gt; z &gt; 0 \\), which of the following is necessarily true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 128</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( la(x,y,z) &lt; le(x,y,z) \\)&nbsp;</p>",
+            "<p>\\( ma(x,y,z) &lt; la(x,y,z) \\)&nbsp;</p>",
+            "<p>\\( ma(x,y,z) &lt; le(x,y,z) \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3523/cat-1997-question-128\" target=\"_blank\">https://aptitude.gateoverflow.in/3523/cat-1997-question-128</a></p>"
+        },
+        {
+          "id": 59,
+          "question": "<p><a name=\"3524\"></a><div itemprop=\"text\"><p>For these questions, the following functions have been defined:</p>\n\n<p>\\( la(x,y,z) = min(x+y, y+z) \\)</p>\n\n<p>\\( le (x,y,z) = max(x–y, y–z) \\)</p>\n\n<p>\\( ma(x,y,z)=(1/2) [le(x,y,z)+la(x,y,z)] \\)</p>\n\n<p>What is the value of \\( ma(10, 4, le(la(10, 5, 3), 5,3)) \\)&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 129</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7.0 \\)</p>",
+            "<p>\\( 6.5 \\)</p>",
+            "<p>\\( 8.0 \\)</p>",
+            "<p>\\( 7.5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3524/cat-1997-question-129\" target=\"_blank\">https://aptitude.gateoverflow.in/3524/cat-1997-question-129</a></p>"
+        },
+        {
+          "id": 60,
+          "question": "<p><a name=\"3525\"></a><div itemprop=\"text\"><p>For these questions, the following functions have been defined:</p>\n\n<p>\\( la(x,y,z) = min(x+y, y+z) \\)&nbsp;</p>\n\n<p>\\( le (x,y,z) = max(x–y, y–z) \\)&nbsp;</p>\n\n<p>\\( ma(x,y,z)=(1/2) [le(x,y,z)+la(x,y,z)] \\)</p>\n\n<p>For \\( x = 15, y = 10 \\) and \\( z = 9 \\), find the value of: \\( le (x, \\min(y, x–z), le(9, 8, ma(x,y,z)) \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 130</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3525/cat-1997-question-130\" target=\"_blank\">https://aptitude.gateoverflow.in/3525/cat-1997-question-130</a></p>"
+        },
+        {
+          "id": 61,
+          "question": "<p><a name=\"3526\"></a><div itemprop=\"text\"><p>\\( ABC \\) is a three-digit number in which \\( A&gt;O \\). The value of \\( ABC \\) is equal to the sum of the factorials of its three digits. What is the value of \\( B \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 131</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 7 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3526/cat-1997-question-131\" target=\"_blank\">https://aptitude.gateoverflow.in/3526/cat-1997-question-131</a></p>"
+        },
+        {
+          "id": 62,
+          "question": "<p><a name=\"3527\"></a><div itemprop=\"text\"><p>The adjoining figure shows a set of concentric squares.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15288883519518433497\" width=\"200\"></p>\n\n<p>If the diagonal of the innermost square is \\( 2 \\) units, and if the distance between the corresponding corners of any two successive squares is \\( 1 \\) unit, find the difference between the areas of the eighth and the seventh square, counting from the innermost square.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 132</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10^{2} \\)&nbsp;</p>",
+            "<p>\\( 30 \\)&nbsp;</p>",
+            "<p>\\( 35^{2} \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3527/cat-1997-question-132\" target=\"_blank\">https://aptitude.gateoverflow.in/3527/cat-1997-question-132</a></p>"
+        },
+        {
+          "id": 63,
+          "question": "<p><a name=\"3528\"></a><div itemprop=\"text\"><p>\\( A, B \\) and \\( C \\) are defined as follows:</p>\n\n<p>\\( A=(2.000004)\\div [(2.000004)^{2}+(4.000008)] \\)</p>\n\n<p>\\( B=(3.000003)\\div [(3.000003)^{2}+(9.000009)] \\)</p>\n\n<p>\\( C=(4.000002)\\div [(4.000002)^{2}+(8.000004)] \\)</p>\n\n<p>Which of the following is true about the value of the above three expressions?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 133</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>All of them lie between \\( 0.18 \\) and \\( 0.20 \\).</p>",
+            "<p>\\( A \\) is twice \\( C \\).</p>",
+            "<p>\\( C \\) is the smallest.</p>",
+            "<p>\\( B \\) is the smallest</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3528/cat-1997-question-133\" target=\"_blank\">https://aptitude.gateoverflow.in/3528/cat-1997-question-133</a></p>"
+        },
+        {
+          "id": 64,
+          "question": "<p><a name=\"3530\"></a><div itemprop=\"text\"><p>In a triangle \\( ABC \\), points \\( P, Q \\) and \\( R \\) are the mid-points of the sides \\( AB, BC \\) and \\( CA \\) respectively. If the area of the triangle \\( ABC \\) is \\( 20 \\) sq units, find the area of the triangle \\( PQR \\)&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 135</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\) sq. units</p>",
+            "<p>\\( 15 \\) sq. units</p>",
+            "<p>\\( 5 \\) sq. units</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3530/cat-1997-question-135\" target=\"_blank\">https://aptitude.gateoverflow.in/3530/cat-1997-question-135</a></p>"
+        },
+        {
+          "id": 65,
+          "question": "<p><a name=\"3531\"></a><div itemprop=\"text\"><p>In a rectangle, the difference between the sum of the adjacent sides and the diagonal is half the length of the longer side. What is the ratio of the shorter to the longer side?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 136</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3:2 \\)</p>",
+            "<p>\\( 1:3 \\)&nbsp;</p>",
+            "<p>\\( 2:5 \\)&nbsp;</p>",
+            "<p>\\( 3:4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3531/cat-1997-question-136\" target=\"_blank\">https://aptitude.gateoverflow.in/3531/cat-1997-question-136</a></p>"
+        },
+        {
+          "id": 66,
+          "question": "<p><a name=\"3573\"></a><div itemprop=\"text\"><p>Boston is \\( 4 \\) hours ahead of Frankfurt and two hours behind India. X leaves Frankfurt at \\( 06:00 \\) p.m. on Friday and reaches Boston the next day. After waiting there for two hours, he leaves exactly at noon and reaches India at \\( 01:00 \\) a.m. On his return journey, he takes the same route as before, but halts at Boston for one hour less than his previous halt there. He then proceeds to Frankfurt.</p>\n\n<p>If his journey, including stoppages, was covered at an average speed of \\( 180 \\) miles per&nbsp;hour, what was the distance between Frankfurt and India?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 139</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3600 \\) miles</p>",
+            "<p>\\( 4500 \\) miles</p>",
+            "<p>\\( 5580 \\) miles</p>",
+            "<p>Insufficient data.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3573/cat-1997-question-139\" target=\"_blank\">https://aptitude.gateoverflow.in/3573/cat-1997-question-139</a></p>"
+        },
+        {
+          "id": 67,
+          "question": "<p><a name=\"3574\"></a><div itemprop=\"text\"><p>Boston is \\( 4 \\) hours ahead of Frankfurt and two hours behind India. X leaves Frankfurt at \\( 06:00 \\) p.m. on Friday and reaches Boston the next day. After waiting there for two hours, he leaves exactly at noon and reaches India at \\( 01:00 \\) a.m. On his return journey, he takes the same route as before, but halts at Boston for one hour less than his previous halt there. He then proceeds to Frankfurt.</p>\n\n<p>If \\( X \\) had started his return journey from India at \\( 02:55 \\) a.m. on the same day that he reached there, after how much time would he reach Frankfurt?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 140</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 24 \\) hrs</p>",
+            "<p>\\( 25 \\) hrs</p>",
+            "<p>\\( 26 \\) hrs</p>",
+            "<p>Insufficient data.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3574/cat-1997-question-140\" target=\"_blank\">https://aptitude.gateoverflow.in/3574/cat-1997-question-140</a></p>"
+        },
+        {
+          "id": 68,
+          "question": "<p><a name=\"3575\"></a><div itemprop=\"text\"><p>Boston is \\( 4 \\) hours ahead of Frankfurt and two hours behind India. X leaves Frankfurt at \\( 06:00 \\) p.m. on Friday and reaches Boston the next day. After waiting there for two hours, he leaves exactly at noon and reaches India at \\( 01:00 \\) a.m. On his return journey, he takes the same route as before, but halts at Boston for one hour less than his previous halt there. He then proceeds to Frankfurt.</p>\n\n<p>What was X’s average speed for the entire journey?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 141</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 170 \\) mph</p>",
+            "<p>\\( 180 \\) mph</p>",
+            "<p>\\( 165 \\) mph</p>",
+            "<p>Insufficient data</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3575/cat-1997-question-141\" target=\"_blank\">https://aptitude.gateoverflow.in/3575/cat-1997-question-141</a></p>"
+        },
+        {
+          "id": 69,
+          "question": "<p><a name=\"3576\"></a><div itemprop=\"text\"><p>In the adjoining figure, points \\( A, B, C \\) and \\( D \\) lie on the circle. \\( AD = 24 \\) and \\( BC =12 \\). What is the ratio of the area of the triangle \\( CBE \\) to that of the triangle \\( ADE \\)?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=565972355439993720\" width=\"200\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 142</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1:4 \\)&nbsp;</p>",
+            "<p>\\( 1:2 \\)&nbsp;</p>",
+            "<p>\\( 1:3 \\)</p>",
+            "<p>Insufficient data</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3576/cat-1997-question-142\" target=\"_blank\">https://aptitude.gateoverflow.in/3576/cat-1997-question-142</a></p>"
+        },
+        {
+          "id": 70,
+          "question": "<p><a name=\"3577\"></a><div itemprop=\"text\"><p>In the given figure, \\( EADF \\) is a rectangle and \\( ABC \\) is a triangle whose vertices lie on the sides of \\( EADF \\). \\( AE = 22,BE = 6,CF = l6 \\) and \\( BF = 2 \\). Find the length of the line joining the midpoints of the sides \\( AB \\) and \\( BC \\).</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7755359169014179689\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 143</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4\\sqrt{2} \\)</p>",
+            "<p>\\( 5 \\)&nbsp;</p>",
+            "<p>\\( 3.5 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3577/cat-1997-question-143\" target=\"_blank\">https://aptitude.gateoverflow.in/3577/cat-1997-question-143</a></p>"
+        },
+        {
+          "id": 71,
+          "question": "<p><a name=\"3578\"></a><div itemprop=\"text\"><p>These questions&nbsp;are based on the following data:</p>\n\n<p>A thief flees City \\( A \\) in a car towards City \\( B \\) on a stretch of straight road, \\( 300 \\) kilometres&nbsp;long, at the&nbsp;speed of \\( 60 \\) km/hr. In \\( 15 \\) minutes a police party (X) leaves city \\( A \\) to chase the thief at \\( 65 \\) km/hr.</p>\n\n<p>After leaving how long does it take for the police party \\( X \\) to catch the thief’?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 144</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) hrs \\( 45 \\) min</p>",
+            "<p>\\( 3 \\)hrs ​​​​​​​</p>",
+            "<p>\\( 3 \\) hrs \\( 15 \\) mm</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3578/cat-1997-question-144\" target=\"_blank\">https://aptitude.gateoverflow.in/3578/cat-1997-question-144</a></p>"
+        },
+        {
+          "id": 72,
+          "question": "<p><a name=\"3579\"></a><div itemprop=\"text\"><p>These questions&nbsp;are based on the following data:</p>\n\n<p>A thief flees City \\( A \\) in a car towards City \\( B \\) on a stretch of straight road, \\( 300 \\) kilometres&nbsp;long, at the&nbsp;speed of \\( 60 \\) km/hr. In \\( 15 \\) minutes a police party (X) leaves city \\( A \\) to chase the thief at \\( 65 \\) km/hr.</p>\n\n<p>If a police party \\( (Y) \\) were to leave City \\( B \\) at the same time as police party \\( X \\) leaving City \\( A \\) to catch the thief at 60km/hr., then which of the following statements is true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 145</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Party \\( X \\) reaches \\( 37.5 \\) minutes after Party \\( Y \\) has caught the thief.</p>",
+            "<p>Party \\( Y \\) reaches \\( 37.5 \\) minutes after Party \\( X \\) has caught the thief</p>",
+            "<p>Party \\( X \\) and Party \\( Y \\) has caught the thief together.</p>",
+            "<p>Party \\( X \\) was \\( 20 \\) km away when the thief caught.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3579/cat-1997-question-145\" target=\"_blank\">https://aptitude.gateoverflow.in/3579/cat-1997-question-145</a></p>"
+        },
+        {
+          "id": 73,
+          "question": "<p><a name=\"3291\"></a><div itemprop=\"text\"><p>The following table gives the quantity of Apples (in tonnes) arriving in the Agricultural Produce Market Committee (APMC), New Delhi in the year 1990-91. In the months in which demand was more than supply, the additional demand was met by the stock from cold storage.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Month</td>\n\t\t\t<td>HP</td>\n\t\t\t<td>UP</td>\n\t\t\t<td>J&amp;K</td>\n\t\t\t<td>Cold</td>\n\t\t\t<td>Total</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>April</td>\n\t\t\t<td>7</td>\n\t\t\t<td>0</td>\n\t\t\t<td>7</td>\n\t\t\t<td>59</td>\n\t\t\t<td>73</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>May</td>\n\t\t\t<td>12</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>13</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>June</td>\n\t\t\t<td>9741</td>\n\t\t\t<td>257</td>\n\t\t\t<td>8017</td>\n\t\t\t<td>0</td>\n\t\t\t<td>18015</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>July</td>\n\t\t\t<td>71497</td>\n\t\t\t<td>10</td>\n\t\t\t<td>18750</td>\n\t\t\t<td>0</td>\n\t\t\t<td>90257</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Aug</td>\n\t\t\t<td>77675</td>\n\t\t\t<td>0</td>\n\t\t\t<td>20286</td>\n\t\t\t<td>0</td>\n\t\t\t<td>97961</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sep.</td>\n\t\t\t<td>53912</td>\n\t\t\t<td>0</td>\n\t\t\t<td>5660</td>\n\t\t\t<td>0</td>\n\t\t\t<td>110514</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Oct.</td>\n\t\t\t<td>12604</td>\n\t\t\t<td>0</td>\n\t\t\t<td>79591</td>\n\t\t\t<td>24</td>\n\t\t\t<td>92219</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Nov.</td>\n\t\t\t<td>3499</td>\n\t\t\t<td>0</td>\n\t\t\t<td>41872</td>\n\t\t\t<td>42</td>\n\t\t\t<td>45413</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Dec.</td>\n\t\t\t<td>1741</td>\n\t\t\t<td>0</td>\n\t\t\t<td>14822</td>\n\t\t\t<td>15</td>\n\t\t\t<td>16578</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Jan</td>\n\t\t\t<td>315</td>\n\t\t\t<td>0</td>\n\t\t\t<td>10922</td>\n\t\t\t<td>201</td>\n\t\t\t<td>11438</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Feb.</td>\n\t\t\t<td>25</td>\n\t\t\t<td>0</td>\n\t\t\t<td>11183</td>\n\t\t\t<td>77</td>\n\t\t\t<td>11285</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>March</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>683</td>\n\t\t\t<td>86</td>\n\t\t\t<td>760</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What was the maximum percentage of Apples supplied by any state in any of the months?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 146</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>99%</p>",
+            "<p>95%</p>",
+            "<p>88%</p>",
+            "<p>100%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3291/cat-1998-question-146\" target=\"_blank\">https://aptitude.gateoverflow.in/3291/cat-1998-question-146</a></p>"
+        },
+        {
+          "id": 74,
+          "question": "<p><a name=\"3292\"></a><div itemprop=\"text\"><p>The following table gives the quantity of Apples (in tonnes) arriving in the Agricultural Produce Market Committee (APMC), New Delhi in the year 1990-91. In the months in which demand was more than supply, the additional demand was met by the stock from cold storage.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Month</td>\n\t\t\t<td>HP</td>\n\t\t\t<td>UP</td>\n\t\t\t<td>J&amp;K</td>\n\t\t\t<td>Cold</td>\n\t\t\t<td>Total</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>April</td>\n\t\t\t<td>7</td>\n\t\t\t<td>0</td>\n\t\t\t<td>7</td>\n\t\t\t<td>59</td>\n\t\t\t<td>73</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>May</td>\n\t\t\t<td>12</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>13</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>June</td>\n\t\t\t<td>9741</td>\n\t\t\t<td>257</td>\n\t\t\t<td>8017</td>\n\t\t\t<td>0</td>\n\t\t\t<td>18015</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>July</td>\n\t\t\t<td>71497</td>\n\t\t\t<td>10</td>\n\t\t\t<td>18750</td>\n\t\t\t<td>0</td>\n\t\t\t<td>90257</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Aug</td>\n\t\t\t<td>77675</td>\n\t\t\t<td>0</td>\n\t\t\t<td>20286</td>\n\t\t\t<td>0</td>\n\t\t\t<td>97961</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sep.</td>\n\t\t\t<td>53912</td>\n\t\t\t<td>0</td>\n\t\t\t<td>5660</td>\n\t\t\t<td>0</td>\n\t\t\t<td>110514</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Oct.</td>\n\t\t\t<td>12604</td>\n\t\t\t<td>0</td>\n\t\t\t<td>79591</td>\n\t\t\t<td>24</td>\n\t\t\t<td>92219</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Nov.</td>\n\t\t\t<td>3499</td>\n\t\t\t<td>0</td>\n\t\t\t<td>41872</td>\n\t\t\t<td>42</td>\n\t\t\t<td>45413</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Dec.</td>\n\t\t\t<td>1741</td>\n\t\t\t<td>0</td>\n\t\t\t<td>14822</td>\n\t\t\t<td>15</td>\n\t\t\t<td>16578</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Jan</td>\n\t\t\t<td>315</td>\n\t\t\t<td>0</td>\n\t\t\t<td>10922</td>\n\t\t\t<td>201</td>\n\t\t\t<td>11438</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Feb.</td>\n\t\t\t<td>25</td>\n\t\t\t<td>0</td>\n\t\t\t<td>11183</td>\n\t\t\t<td>77</td>\n\t\t\t<td>11285</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>March</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>683</td>\n\t\t\t<td>86</td>\n\t\t\t<td>760</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Who supplied the maximum Apples?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 147</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>UP</p>",
+            "<p>HP</p>",
+            "<p>J&amp;K</p>",
+            "<p>Cold Storage</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3292/cat-1998-question-147\" target=\"_blank\">https://aptitude.gateoverflow.in/3292/cat-1998-question-147</a></p>"
+        },
+        {
+          "id": 75,
+          "question": "<p><a name=\"3293\"></a><div itemprop=\"text\"><p>The following table gives the quantity of Apples (in tonnes) arriving in the Agricultural Produce Market Committee (APMC), New Delhi in the year 1990-91. In the months in which demand was more than supply, the additional demand was met by the stock from cold storage.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Month</td>\n\t\t\t<td>HP</td>\n\t\t\t<td>UP</td>\n\t\t\t<td>J&amp;K</td>\n\t\t\t<td>Cold</td>\n\t\t\t<td>Total</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>April</td>\n\t\t\t<td>7</td>\n\t\t\t<td>0</td>\n\t\t\t<td>7</td>\n\t\t\t<td>59</td>\n\t\t\t<td>73</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>May</td>\n\t\t\t<td>12</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>13</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>June</td>\n\t\t\t<td>9741</td>\n\t\t\t<td>257</td>\n\t\t\t<td>8017</td>\n\t\t\t<td>0</td>\n\t\t\t<td>18015</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>July</td>\n\t\t\t<td>71497</td>\n\t\t\t<td>10</td>\n\t\t\t<td>18750</td>\n\t\t\t<td>0</td>\n\t\t\t<td>90257</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Aug</td>\n\t\t\t<td>77675</td>\n\t\t\t<td>0</td>\n\t\t\t<td>20286</td>\n\t\t\t<td>0</td>\n\t\t\t<td>97961</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sep.</td>\n\t\t\t<td>53912</td>\n\t\t\t<td>0</td>\n\t\t\t<td>5660</td>\n\t\t\t<td>0</td>\n\t\t\t<td>110514</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Oct.</td>\n\t\t\t<td>12604</td>\n\t\t\t<td>0</td>\n\t\t\t<td>79591</td>\n\t\t\t<td>24</td>\n\t\t\t<td>92219</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Nov.</td>\n\t\t\t<td>3499</td>\n\t\t\t<td>0</td>\n\t\t\t<td>41872</td>\n\t\t\t<td>42</td>\n\t\t\t<td>45413</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Dec.</td>\n\t\t\t<td>1741</td>\n\t\t\t<td>0</td>\n\t\t\t<td>14822</td>\n\t\t\t<td>15</td>\n\t\t\t<td>16578</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Jan</td>\n\t\t\t<td>315</td>\n\t\t\t<td>0</td>\n\t\t\t<td>10922</td>\n\t\t\t<td>201</td>\n\t\t\t<td>11438</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Feb.</td>\n\t\t\t<td>25</td>\n\t\t\t<td>0</td>\n\t\t\t<td>11183</td>\n\t\t\t<td>77</td>\n\t\t\t<td>11285</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>March</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>683</td>\n\t\t\t<td>86</td>\n\t\t\t<td>760</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Which state supplied the highest percentage of Apples from the total Apples supplied?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 148</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>HP</p>",
+            "<p>UP</p>",
+            "<p>J &amp; K</p>",
+            "<p>Cannot be determined.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3293/cat-1998-question-148\" target=\"_blank\">https://aptitude.gateoverflow.in/3293/cat-1998-question-148</a></p>"
+        },
+        {
+          "id": 76,
+          "question": "<p><a name=\"3294\"></a><div itemprop=\"text\"><p>The following table gives the quantity of Apples (in tonnes) arriving in the Agricultural Produce Market Committee (APMC), New Delhi in the year 1990-91. In the months in which demand was more than supply, the additional demand was met by the stock from cold storage.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Month</td>\n\t\t\t<td>HP</td>\n\t\t\t<td>UP</td>\n\t\t\t<td>J&amp;K</td>\n\t\t\t<td>Cold</td>\n\t\t\t<td>Total</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>April</td>\n\t\t\t<td>7</td>\n\t\t\t<td>0</td>\n\t\t\t<td>7</td>\n\t\t\t<td>59</td>\n\t\t\t<td>73</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>May</td>\n\t\t\t<td>12</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>13</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>June</td>\n\t\t\t<td>9741</td>\n\t\t\t<td>257</td>\n\t\t\t<td>8017</td>\n\t\t\t<td>0</td>\n\t\t\t<td>18015</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>July</td>\n\t\t\t<td>71497</td>\n\t\t\t<td>10</td>\n\t\t\t<td>18750</td>\n\t\t\t<td>0</td>\n\t\t\t<td>90257</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Aug</td>\n\t\t\t<td>77675</td>\n\t\t\t<td>0</td>\n\t\t\t<td>20286</td>\n\t\t\t<td>0</td>\n\t\t\t<td>97961</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sep.</td>\n\t\t\t<td>53912</td>\n\t\t\t<td>0</td>\n\t\t\t<td>5660</td>\n\t\t\t<td>0</td>\n\t\t\t<td>110514</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Oct.</td>\n\t\t\t<td>12604</td>\n\t\t\t<td>0</td>\n\t\t\t<td>79591</td>\n\t\t\t<td>24</td>\n\t\t\t<td>92219</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Nov.</td>\n\t\t\t<td>3499</td>\n\t\t\t<td>0</td>\n\t\t\t<td>41872</td>\n\t\t\t<td>42</td>\n\t\t\t<td>45413</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Dec.</td>\n\t\t\t<td>1741</td>\n\t\t\t<td>0</td>\n\t\t\t<td>14822</td>\n\t\t\t<td>15</td>\n\t\t\t<td>16578</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Jan</td>\n\t\t\t<td>315</td>\n\t\t\t<td>0</td>\n\t\t\t<td>10922</td>\n\t\t\t<td>201</td>\n\t\t\t<td>11438</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Feb.</td>\n\t\t\t<td>25</td>\n\t\t\t<td>0</td>\n\t\t\t<td>11183</td>\n\t\t\t<td>77</td>\n\t\t\t<td>11285</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>March</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>683</td>\n\t\t\t<td>86</td>\n\t\t\t<td>760</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>In which of the following periods was the supply greater than the demand?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 149</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Aug-Mar</p>",
+            "<p>June-Oct</p>",
+            "<p>May-Sep</p>",
+            "<p>Nov-April</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3294/cat-1998-question-149\" target=\"_blank\">https://aptitude.gateoverflow.in/3294/cat-1998-question-149</a></p>"
+        },
+        {
+          "id": 77,
+          "question": "<p><a name=\"3296\"></a><div itemprop=\"text\"><p>The following table gives the quantity of Apples (in tonnes) arriving in the Agricultural Produce Market Committee (APMC), New Delhi in the year 1990-91. In the months in which demand was more than supply, the additional demand was met by the stock from cold storage.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Month</td>\n\t\t\t<td>HP</td>\n\t\t\t<td>UP</td>\n\t\t\t<td>J&amp;K</td>\n\t\t\t<td>Cold</td>\n\t\t\t<td>Total</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>April</td>\n\t\t\t<td>7</td>\n\t\t\t<td>0</td>\n\t\t\t<td>7</td>\n\t\t\t<td>59</td>\n\t\t\t<td>73</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>May</td>\n\t\t\t<td>12</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>13</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>June</td>\n\t\t\t<td>9741</td>\n\t\t\t<td>257</td>\n\t\t\t<td>8017</td>\n\t\t\t<td>0</td>\n\t\t\t<td>18015</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>July</td>\n\t\t\t<td>71497</td>\n\t\t\t<td>10</td>\n\t\t\t<td>18750</td>\n\t\t\t<td>0</td>\n\t\t\t<td>90257</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Aug</td>\n\t\t\t<td>77675</td>\n\t\t\t<td>0</td>\n\t\t\t<td>20286</td>\n\t\t\t<td>0</td>\n\t\t\t<td>97961</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sep.</td>\n\t\t\t<td>53912</td>\n\t\t\t<td>0</td>\n\t\t\t<td>5660</td>\n\t\t\t<td>0</td>\n\t\t\t<td>110514</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Oct.</td>\n\t\t\t<td>12604</td>\n\t\t\t<td>0</td>\n\t\t\t<td>79591</td>\n\t\t\t<td>24</td>\n\t\t\t<td>92219</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Nov.</td>\n\t\t\t<td>3499</td>\n\t\t\t<td>0</td>\n\t\t\t<td>41872</td>\n\t\t\t<td>42</td>\n\t\t\t<td>45413</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Dec.</td>\n\t\t\t<td>1741</td>\n\t\t\t<td>0</td>\n\t\t\t<td>14822</td>\n\t\t\t<td>15</td>\n\t\t\t<td>16578</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Jan</td>\n\t\t\t<td>315</td>\n\t\t\t<td>0</td>\n\t\t\t<td>10922</td>\n\t\t\t<td>201</td>\n\t\t\t<td>11438</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Feb.</td>\n\t\t\t<td>25</td>\n\t\t\t<td>0</td>\n\t\t\t<td>11183</td>\n\t\t\t<td>77</td>\n\t\t\t<td>11285</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>March</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>683</td>\n\t\t\t<td>86</td>\n\t\t\t<td>760</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Using data in Q.150, if there were 250 trees per hectare then how many hectares of land was used?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 151</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>9400</p>",
+            "<p>49900</p>",
+            "<p>50000</p>",
+            "<p>49453</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3296/cat-1998-question-151\" target=\"_blank\">https://aptitude.gateoverflow.in/3296/cat-1998-question-151</a></p>"
+        },
+        {
+          "id": 78,
+          "question": "<p><a name=\"3301\"></a><div itemprop=\"text\"><p>If the same data as above can be used, with the additional information that the numbers of households in each category were equally distributed in all the regions then answer Q 156.</p>\n\n<p>The ratio of total income for the high-income category to the upper middle class increased by how much percentage in the given period?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 156</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 18.7 \\)&nbsp;</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>cannot be determined.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3301/cat-1998-question-156\" target=\"_blank\">https://aptitude.gateoverflow.in/3301/cat-1998-question-156</a></p>"
+        },
+        {
+          "id": 79,
+          "question": "<p><a name=\"3302\"></a><div itemprop=\"text\"><p>If the same data as above can be used, with the additional information that the numbers of households in each category were equally distributed in all the regions then answer \\( \\text{Q 157.} \\)</p>\n\n<p>The average income for the northern region in \\( 87-88, \\) was</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 157</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 37727 \\)</p>",
+            "<p>\\( 37277 \\)</p>",
+            "<p>\\( 35000 \\)&nbsp;</p>",
+            "<p>cannot be determined.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3302/cat-1998-question-157\" target=\"_blank\">https://aptitude.gateoverflow.in/3302/cat-1998-question-157</a></p>"
+        },
+        {
+          "id": 80,
+          "question": "<p><a name=\"3303\"></a><div itemprop=\"text\"><p>Krishna distributed \\( 10 \\) acres of land to Gopal and Ram who paid him the total amount in the ratio \\( 2:3 \\). Gopal invested a further Rs. \\( 2 \\)&nbsp;lakh in the land and planted coconut and lemon trees in the ratio \\( 5:1 \\) on equal area of land. There were a total of 100 lemon trees. The cost of one coconut was Rs. \\( 5 \\). The crop took \\( 7 \\) years to mature and when the crop was reaped in \\( 1997 \\), the total revenue generated was 25% of the total amount put in by Gopal and Ram together. The revenue generated from the coconut and lemon trees was in the ratio \\( 3:2 \\) and it was shared equally by Gopal and Ram as the initial amount spent by them were equal.</p>\n\n<p>What was the total output of coconuts?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 158</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 24000 \\)</p>",
+            "<p>\\( 36000 \\)</p>",
+            "<p>\\( 18000 \\)</p>",
+            "<p>\\( 48000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3303/cat-1998-question-158\" target=\"_blank\">https://aptitude.gateoverflow.in/3303/cat-1998-question-158</a></p>"
+        },
+        {
+          "id": 81,
+          "question": "<p><a name=\"3304\"></a><div itemprop=\"text\"><p>Krishna distributed \\( 10 \\) acres of land to Gopal and Ram who paid him the total amount in the ratio \\( 2:3 \\). Gopal invested a further Rs. \\( 2 \\)&nbsp;lakh in the land and planted coconut and lemon trees in the ratio \\( 5:1 \\) on equal area of land. There were a total of 100 lemon trees. The cost of one coconut was Rs. \\( 5 \\). The crop took \\( 7 \\) years to mature and when the crop was reaped in \\( 1997 \\), the total revenue generated was 25% of the total amount put in by Gopal and Ram together. The revenue generated from the coconut and lemon trees was in the ratio \\( 3:2 \\) and it was shared equally by Gopal and Ram as the initial amount spent by them were equal.</p>\n\n<p>What was the value of output per acre of lemon tress planted (in lakh/acre)</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 159</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0.24 \\)</p>",
+            "<p>\\( 2.4 \\)&nbsp;</p>",
+            "<p>\\( 24 \\)&nbsp;</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3304/cat-1998-question-159\" target=\"_blank\">https://aptitude.gateoverflow.in/3304/cat-1998-question-159</a></p>"
+        },
+        {
+          "id": 82,
+          "question": "<p><a name=\"3305\"></a><div itemprop=\"text\"><p>Krishna distributed \\( 10 \\) acres of land to Gopal and Ram who paid him the total amount in the ratio \\( 2:3 \\). Gopal invested a further Rs. \\( 2 \\)&nbsp;lakh in the land and planted coconut and lemon trees in the ratio \\( 5:1 \\) on equal area of land. There were a total of 100 lemon trees. The cost of one coconut was Rs. \\( 5 \\). The crop took \\( 7 \\) years to mature and when the crop was reaped in \\( 1997 \\), the total revenue generated was 25% of the total amount put in by Gopal and Ram together. The revenue generated from the coconut and lemon trees was in the ratio \\( 3:2 \\) and it was shared equally by Gopal and Ram as the initial amount spent by them were equal.</p>\n\n<p>What was the amount received by Gopal in \\( 1997 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 160</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs.\\( 1.5 \\)&nbsp;lakh</p>",
+            "<p>Rs.\\( 3.0 \\)&nbsp;lakh</p>",
+            "<p>Rs.\\( 6 \\)&nbsp;lakh</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3305/cat-1998-question-160\" target=\"_blank\">https://aptitude.gateoverflow.in/3305/cat-1998-question-160</a></p>"
+        },
+        {
+          "id": 83,
+          "question": "<p><a name=\"3306\"></a><div itemprop=\"text\"><p>Krishna distributed \\( 10 \\) acres of land to Gopal and Ram who paid him the total amount in the ratio \\( 2:3 \\). Gopal invested a further Rs. \\( 2 \\)&nbsp;lakh in the land and planted coconut and lemon trees in the ratio \\( 5:1 \\) on equal area of land. There were a total of \\( 100 \\) lemon trees. The cost of one coconut was Rs.\\( 5 \\). The crop took \\( 7 \\) years to mature and when the crop was reaped in \\( 1997 \\), the total revenue generated was \\( 25 \\)% of the total amount put in by Gopal and Ram together. The revenue generated from the coconut and lemon trees was in the ratio \\( 3:2 \\) and it was shared equally by Gopal and Ram as the initial amount spent by them were equal.</p>\n\n<p>What was the value of output per tree for coconuts?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 161</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 36 \\)</p>",
+            "<p>\\( 360 \\)</p>",
+            "<p>\\( 3600 \\)</p>",
+            "<p>\\( 240 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3306/cat-1998-question-161\" target=\"_blank\">https://aptitude.gateoverflow.in/3306/cat-1998-question-161</a></p>"
+        },
+        {
+          "id": 84,
+          "question": "<p><a name=\"3309\"></a><div itemprop=\"text\"><p>Ghosh Babu has a manufacturing unit. The following graph gives the cost for a various number of units. Profit Revenue - Variable Cost - Fixed Cost. The fixed cost remains constant up to&nbsp;\\( 34 \\) units after which additional investment is to be done in fixed assets. In any case, production can not exceed \\( 50 \\) units.</p><p><img alt=\"Graph showing revenue, variable cost, fixed cost\" width=\"650\" height=\"476\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8052736118326305682\"></p><p>What is the minimum number of units that need to be produced to make sure that there was no loss?</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 163</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>indeterminable.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3309/cat-1998-question-163\" target=\"_blank\">https://aptitude.gateoverflow.in/3309/cat-1998-question-163</a></p>"
+        },
+        {
+          "id": 85,
+          "question": "<p><a name=\"3310\"></a><div itemprop=\"text\"><p>Ghosh Babu has a manufacturing unit. The following graph gives the cost for a various number of units. Profit Revenue - Variable Cost - Fixed Cost. The fixed cost remains constant up to \\( 34 \\) units after which additional investment is to be done in fixed assets. In any case, production can not exceed \\( 50 \\) units.</p><p><img alt=\"\" width=\"600\" height=\"440\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8052736118326305682\"></p><p>How many units should be manufactured such that profit was at least Rs.\\( 50 \\)?</p></div><br><br><b>Data Interpretation: CAT 1998 | Question: 164</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 25 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3310/cat-1998-question-164\" target=\"_blank\">https://aptitude.gateoverflow.in/3310/cat-1998-question-164</a></p>"
+        },
+        {
+          "id": 86,
+          "question": "<p><a name=\"3311\"></a><div itemprop=\"text\"><p>Ghosh Babu has a manufacturing unit. The following graph gives the cost for a various number of units. Profit Revenue - Variable Cost - Fixed Cost. The fixed cost remains constant up to \\( 34 \\) units after which additional investment is to be done in fixed assets. In any case, production can not exceed \\( 50 \\) units.</p><p><img alt=\"\" width=\"600\" height=\"440\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8052736118326305682\"></p><p>If at the most 40 units can be manufactured then what is the number of units that can be manufactured to maximise profit?</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 165</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 35 \\)&nbsp;</p>",
+            "<p>\\( 25 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3311/cat-1998-question-165\" target=\"_blank\">https://aptitude.gateoverflow.in/3311/cat-1998-question-165</a></p>"
+        },
+        {
+          "id": 87,
+          "question": "<p><a name=\"3312\"></a><div itemprop=\"text\"><p>Ghosh Babu has a manufacturing unit. The following graph gives the cost for a various number of units. Profit Revenue - Variable Cost - Fixed Cost. The fixed cost remains constant up to \\( 34 \\) units after which additional investment is to be done in fixed assets. In any case, production can not exceed \\( 50 \\) units.</p><p><img alt=\"\" width=\"600\" height=\"440\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8052736118326305682\"></p><p>If the production cannot exceed 45 units then what is the number of units than can maximise profit?</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 166</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 40 \\)&nbsp;</p>",
+            "<p>\\( 34 \\)&nbsp;</p>",
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 35 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3312/cat-1998-question-166\" target=\"_blank\">https://aptitude.gateoverflow.in/3312/cat-1998-question-166</a></p>"
+        },
+        {
+          "id": 88,
+          "question": "<p><a name=\"3313\"></a><div itemprop=\"text\"><p>Ghosh Babu has a manufacturing unit. The following graph gives the cost for a various number of units. Profit Revenue - Variable Cost - Fixed Cost. The fixed cost remains constant up to \\( 34 \\) units after which additional investment is to be done in fixed assets. In any case, production can not exceed \\( 50 \\) units.</p><p><img alt=\"\" width=\"600\" height=\"440\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8052736118326305682\"></p><p>If the fixed cost of production goes up by Rs. 40 then what is the minimum number of units that need to be manufactured to make sure that there is no loss?</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 167</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)&nbsp;</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3313/cat-1998-question-167\" target=\"_blank\">https://aptitude.gateoverflow.in/3313/cat-1998-question-167</a></p>"
+        },
+        {
+          "id": 89,
+          "question": "<p><a name=\"3232\"></a><div itemprop=\"text\"><p>You have reached Utopia where you find tow kinds of precious stones, rubies and emeralds. The worth of a ruby and that of an emerald are Rs. \\( 4 \\)&nbsp;crores and Rs. \\( 5 \\)&nbsp;crores respectively while their weights are \\( 0.3 \\) kg and \\( 0.4 \\) kg respectively. You have a bag that can carry a maximum of \\( 12 \\) kgs. How many rubies and emeralds would you carry such that their total value is maximised?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20 \\) rubies and \\( 15 \\) emeralds</p>",
+            "<p>\\( 8 \\) rubies and \\( 24 \\) emeralds</p>",
+            "<p>\\( 0 \\) rubies and \\( 30 \\) emeralds</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3232/cat-1998-question-51\" target=\"_blank\">https://aptitude.gateoverflow.in/3232/cat-1998-question-51</a></p>"
+        },
+        {
+          "id": 90,
+          "question": "<p><a name=\"3233\"></a><div itemprop=\"text\"><p>A colony of bacteria is a container grows by each bacterium splitting into eight next generation bacteria. However, because of environmental conditions, only \\( 50 \\)% of the bacteria in a generation can split as above. A colony of first generation bacteria was put in the container and it was found that the number of seventh generation bacteria was \\( 4096 \\) million. What was the size of the first generation population initially put in the container?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 52</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) million</p>",
+            "<p>\\( 8 \\) million</p>",
+            "<p>\\( 1 \\) million</p>",
+            "<p>\\( 4 \\) million</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3233/cat-1998-question-52\" target=\"_blank\">https://aptitude.gateoverflow.in/3233/cat-1998-question-52</a></p>"
+        },
+        {
+          "id": 91,
+          "question": "<p><a name=\"3234\"></a><div itemprop=\"text\"><p>A factory produces a product (measured in cubic feet) over seven days as per the following schedule:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Day 1</td>\n\t\t\t<td>Day 2</td>\n\t\t\t<td>Day 3</td>\n\t\t\t<td>Day 4</td>\n\t\t\t<td>Day 5</td>\n\t\t\t<td>Day 6</td>\n\t\t\t<td>Day 7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150</td>\n\t\t\t<td>180</td>\n\t\t\t<td>120</td>\n\t\t\t<td>250</td>\n\t\t\t<td>160</td>\n\t\t\t<td>120</td>\n\t\t\t<td>150</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The finished goods are to be transported to the market by a truck having a capacity of 200 cubic feet. Any finished goods (ready at the end of the day) retained overnight at the factory will incur a storage cost of Rs. 5 per cubic foot for each night of storage. The hiring cost for the truck is Rs. 100 per day.</p>\n\n<p>If the total cost of transportation and storage is to be minimised, the truck should operate on</p>\n\n\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2nd, 4th, 6th and 7th days.</p>",
+            "<p>only the 7th day</p>",
+            "<p>2nd, 4th, 5th and 7th days</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3234/cat-1998-question-53\" target=\"_blank\">https://aptitude.gateoverflow.in/3234/cat-1998-question-53</a></p>"
+        },
+        {
+          "id": 92,
+          "question": "<p><a name=\"3235\"></a><div itemprop=\"text\"><p>A factory produces a product (measured in cubic feet) over seven days as per the following schedule:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Day 1</td>\n\t\t\t<td>Day 2</td>\n\t\t\t<td>Day 3</td>\n\t\t\t<td>Day 4</td>\n\t\t\t<td>Day 5</td>\n\t\t\t<td>Day 6</td>\n\t\t\t<td>Day 7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>150</td>\n\t\t\t<td>180</td>\n\t\t\t<td>120</td>\n\t\t\t<td>250</td>\n\t\t\t<td>160</td>\n\t\t\t<td>120</td>\n\t\t\t<td>150</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The finished goods are to be transported to the market by a truck having a capacity of 200 cubic feet. Any finished goods (ready at the end of the day) retained overnight at the factory will incur a storage cost of Rs. 5 per cubic foot for each night of storage. The hiring cost for the truck is Rs. 100 per day.</p>\n\n<p>If the storage cost reduces to Rs. 0.80 per cubic foot per night, the truck should operate on</p>\n\n\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 54</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2nd, 4th, 6th and 7th days</p>",
+            "<p>only the 7th day</p>",
+            "<p>2nd, 4th, 5th and 7th days</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3235/cat-1998-question-54\" target=\"_blank\">https://aptitude.gateoverflow.in/3235/cat-1998-question-54</a></p>"
+        },
+        {
+          "id": 93,
+          "question": "<p><a name=\"3236\"></a><div itemprop=\"text\"><p>A company has a job to prepare certain number of cans and there are three machines A, B, C for this job. A can complete the job in 3 days, B can complete the job in 4 days and C can complete the job in 6 days. How many days the company will take to complete the job if all the machines are used simultaneously?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 55</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\) days</p>",
+            "<p>\\( 4/3 \\) days</p>",
+            "<p>\\( 3 \\) days</p>",
+            "<p>\\( 12 \\) days.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3236/cat-1998-question-55\" target=\"_blank\">https://aptitude.gateoverflow.in/3236/cat-1998-question-55</a></p>"
+        },
+        {
+          "id": 94,
+          "question": "<p><a name=\"3237\"></a><div itemprop=\"text\"><p>\\( n^{3} \\) is odd. Which of the following statement(s) is/are true.</p>\n\n<p>A.\\( n \\) is odd</p>\n\n<p>B.\\( n^{2} \\) is odd</p>\n\n<p>C.\\( n^{2} \\) is even</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( A \\) only</p>",
+            "<p>\\( B \\) only</p>",
+            "<p>\\( A \\) and \\( B \\) only</p>",
+            "<p>\\( A \\) and \\( C \\) only.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3237/cat-1998-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/3237/cat-1998-question-56</a></p>"
+        },
+        {
+          "id": 95,
+          "question": "<p><a name=\"3238\"></a><div itemprop=\"text\"><p>Three circles, each of radius \\( 20 \\) and centres at \\( P, Q, R \\). Further, \\( AB=5, CD=10 \\) and \\( EF=12 \\). What is the perimeter of the triangle \\( PQR \\)?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=5607327505267840499\" width=\"200\"></p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60 \\) cm</p>",
+            "<p>\\( 81 \\) cm</p>",
+            "<p>\\( 93 \\) cm</p>",
+            "<p>\\( 87 \\) cm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3238/cat-1998-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/3238/cat-1998-question-57</a></p>"
+        },
+        {
+          "id": 96,
+          "question": "<p><a name=\"3239\"></a><div itemprop=\"text\"><p>The following operations are defined for real numbers:</p>\n\n<p>\\( a \\neq&nbsp;&nbsp;b = a + b \\) if \\( a \\) and \\( b \\) both are positive</p>\n\n<p>else \\( a \\neq&nbsp;b = 1 \\).</p>\n\n<p>\\( a \\bigtriangledown&nbsp;b = (ab)^{a+b} \\) if \\( ab \\) is positive</p>\n\n<p>else \\( a \\bigtriangledown&nbsp;b = 1 \\).</p>\n\n<p>The value of \\( \\frac{(2\\neq3)\\neq ((-1)\\Delta 5)}{(1\\Delta 2) \\neq((-1)\\neq5)} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2/3 \\)&nbsp;</p>",
+            "<p>\\( 1/2 \\)&nbsp;</p>",
+            "<p>\\( 1/3 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3239/cat-1998-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/3239/cat-1998-question-58</a></p>"
+        },
+        {
+          "id": 97,
+          "question": "<p><a name=\"3240\"></a><div itemprop=\"text\"><p>The following operations are defined for real numbers:</p>\n\n<p>\\( a \\neq&nbsp;&nbsp;b = a + b \\) if \\( a \\) and \\( b \\) both are positive</p>\n\n<p>else \\( a \\neq&nbsp;b = 1 \\)</p>\n\n<p>The value of \\( \\frac{((1 \\neq 1)\\neq2)-(-10^{1.3} \\neq \\log_{10} 0.1)}{2 \\Delta 1} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (4–10^{1.3})/2 \\)&nbsp;</p>",
+            "<p>\\( 1/8 \\)&nbsp;</p>",
+            "<p>\\( 3/8 \\)&nbsp;</p>",
+            "<p>\\( 15/8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3240/cat-1998-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/3240/cat-1998-question-59</a></p>"
+        },
+        {
+          "id": 98,
+          "question": "<p><a name=\"3241\"></a><div itemprop=\"text\"><p>The following operations are defined for real numbers:</p>\n\n<p>\\( a \\neq&nbsp;&nbsp;b = a + b \\) if \\( a \\) and \\( b \\) both are positive</p>\n\n<p>else \\( a \\neq&nbsp;b = 1 \\)</p>\n\n<p>Given that \\( \\frac{(x\\neq (-y))}{(-x\\Delta y)} \\) is equal to \\( 3/8 \\), for two integers \\( x \\) and \\( y \\), which of the following statements is true:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 60</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both \\( x \\) and \\( y \\) are negative</p>",
+            "<p>\\( x = 1 \\) and \\( y =2 \\)&nbsp;</p>",
+            "<p>\\( x &lt; 0, y &gt; 0 \\)</p>",
+            "<p>\\( x &gt; 0, y &lt; 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3241/cat-1998-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/3241/cat-1998-question-60</a></p>"
+        },
+        {
+          "id": 99,
+          "question": "<p><a name=\"3242\"></a><div itemprop=\"text\"><p>\\( (BE)^{2} = MPB \\), where \\( B, E, M \\) &amp; \\( P \\) are distinct integers, then \\( M \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 61</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3242/cat-1998-question-61\" target=\"_blank\">https://aptitude.gateoverflow.in/3242/cat-1998-question-61</a></p>"
+        },
+        {
+          "id": 100,
+          "question": "<p><a name=\"3243\"></a><div itemprop=\"text\"><p>Five digit numbers are formed using only \\( 0, 1, 2, 3, 4 \\) exactly once. What is the difference between the maximum and minimum number that can be formed?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 62</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 19800 \\)</p>",
+            "<p>\\( 41976 \\)</p>",
+            "<p>\\( 32976 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3243/cat-1998-question-62\" target=\"_blank\">https://aptitude.gateoverflow.in/3243/cat-1998-question-62</a></p>"
+        },
+        {
+          "id": 101,
+          "question": "<p><a name=\"3244\"></a><div itemprop=\"text\"><p>How many numbers can be formed from \\( 1, 2, 3, 4, 5 \\) (without repetition), when the digit at the units place must be greater than that in the tenth places?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 54 \\)</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 5!/3 \\)</p>",
+            "<p>\\( 2 \\times 4! \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3244/cat-1998-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/3244/cat-1998-question-63</a></p>"
+        },
+        {
+          "id": 102,
+          "question": "<p><a name=\"3245\"></a><div itemprop=\"text\"><p>Distance between \\( A \\) and \\( B \\) is \\( 72 \\) km. Two men started walking from \\( A \\) and \\( B \\) at the same time towards each other. The person who started from A travelled uniformly with average speed \\( 4 \\)&nbsp;kmph. While the other man travelled with varying speeds as follows: In first hour his speed was \\( 2 \\)&nbsp;kmph. in the second hour it was \\( 2.5 \\)&nbsp;kmph, in the third hour it was \\( 3 \\)&nbsp;kmph, and so on. When will they meet each other?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 7 \\) hours</p>",
+            "<p>\\( 10 \\) hours</p>",
+            "<p>\\( 35 \\) km from \\( A \\)</p>",
+            "<p>midway between \\( A &amp; B \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3245/cat-1998-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/3245/cat-1998-question-64</a></p>"
+        },
+        {
+          "id": 103,
+          "question": "<p><a name=\"3247\"></a><div itemprop=\"text\"><p>A cow is tethered at A by a rope. Neither the rope nor the cow is allowed to enter the triangle ABC.</p>\n\n<p>\\( m\\angle A=30^{\\circ} \\)<br>\n\\( 1(AB)=1(AC)=10m. \\)<br>\n\\( 1(BC)=6m \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6330726696969746481\" width=\"200\"></p>\n\n<p>What is the area that can be grazed by the cow if the length of the rope is \\( 8 \\) m?</p>\n\n\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 133 1/6 \\pi \\) sq.m&nbsp;</p>",
+            "<p>\\( 121 \\pi \\)&nbsp;sq.m</p>",
+            "<p>\\( 132 \\pi \\)&nbsp;sq.m</p>",
+            "<p>\\( 176/3 \\) p sq.m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3247/cat-1998-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/3247/cat-1998-question-66</a></p>"
+        },
+        {
+          "id": 104,
+          "question": "<p><a name=\"3248\"></a><div itemprop=\"text\"><p>A cow is tethered at A by a rope. Neither the rope nor the cow is allowed to enter the triangle \\( ABC \\).</p>\n\n<p>\\( m\\angle A=30^{\\circ} \\)<br>\n\\( 1(AB)=1(AC)=10m. \\)<br>\n\\( 1(BC)=6m \\)</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=18258576522096646204\"></p>\n\n<p>What is the area that can be grazed by the cow if the length of the rope is 12 m?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 67</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 133 1/6 \\) p sq.m</p>",
+            "<p>\\( 121 \\) p sq.m</p>",
+            "<p>\\( 132 \\) p sq.m</p>",
+            "<p>\\( 176/3 \\) p sq.m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3248/cat-1998-question-67\" target=\"_blank\">https://aptitude.gateoverflow.in/3248/cat-1998-question-67</a></p>"
+        },
+        {
+          "id": 105,
+          "question": "<p><a name=\"3252\"></a><div itemprop=\"text\"><p>A man engaged a servant on the condition that he would pay him Rs. \\( 90 \\) and also give him a turban after service of one year. He served only for nine months and received a turban and Rs. \\( 65 \\). Find the value of the turban in rupees.</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 9 \\)&nbsp;</p>",
+            "<p>\\( 0 \\)&nbsp;</p>",
+            "<p>\\( 2.50 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3252/cat-1998-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/3252/cat-1998-question-71</a></p>"
+        },
+        {
+          "id": 106,
+          "question": "<p><a name=\"3253\"></a><div itemprop=\"text\"><p>Four identical circular coins are placed inside the square \\( ABCD \\) as in the following diagram:</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=254588568701152425\" width=\"150\"></p>\n\n<p>If for each coin, (area/circumference) = (circumference/ area) then the area not occupied by the corns in \\( ABCD \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8(4-\\pi) \\)</p>",
+            "<p>\\( 16(8-\\pi) \\)</p>",
+            "<p>\\( 16(4-\\pi) \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3253/cat-1998-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/3253/cat-1998-question-72</a></p>"
+        },
+        {
+          "id": 107,
+          "question": "<p><a name=\"3254\"></a><div itemprop=\"text\"><p>Three wheels can complete respectively \\( 60, 36, 24 \\) revolutions per minute. There is a red spot on each wheel that touches the ground at time zero. After how much time all these spots will simultaneously touch the ground again?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5/2 \\) seconds</p>",
+            "<p>\\( 5/3 \\) seconds</p>",
+            "<p>\\( 5 \\) seconds</p>",
+            "<p>\\( 7.5 \\) seconds</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3254/cat-1998-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/3254/cat-1998-question-73</a></p>"
+        },
+        {
+          "id": 108,
+          "question": "<p><a name=\"3255\"></a><div itemprop=\"text\"><p>A certain number when divided by \\( 899 \\) leaves the remainder \\( 63 \\). Find the remainder when the same number is divided by \\( 29 \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 1 \\)&nbsp;</p>",
+            "<p>Cannot be determined.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3255/cat-1998-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/3255/cat-1998-question-74</a></p>"
+        },
+        {
+          "id": 109,
+          "question": "<p><a name=\"3256\"></a><div itemprop=\"text\"><p>A is the set of positive integers such that when divided by \\( 2,3,4,5,6 \\) leaves the remainders \\( 1,2,3,4,5 \\) respectively. How many integers between \\( 0 \\) and \\( 100 \\) belong to set \\( A \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 75</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3256/cat-1998-question-75\" target=\"_blank\">https://aptitude.gateoverflow.in/3256/cat-1998-question-75</a></p>"
+        },
+        {
+          "id": 110,
+          "question": "<p><a name=\"3262\"></a><div itemprop=\"text\"><p>The number of students who have opted the subjects \\( A, B, C \\) are \\( 60, 84, 108 \\) respectively. The examination is to be conducted for these students such that only the students of the same subject are allowed in one room. Also the number of students in each room must be same. What is the minimum number of rooms that should be arranged to meet all these conditions?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 81</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 28 \\)&nbsp;</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 12 \\)&nbsp;</p>",
+            "<p>\\( 21 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3262/cat-1998-question-81\" target=\"_blank\">https://aptitude.gateoverflow.in/3262/cat-1998-question-81</a></p>"
+        },
+        {
+          "id": 111,
+          "question": "<p><a name=\"3263\"></a><div itemprop=\"text\"><p>How many five digit numbers can be formed using \\( 2, 3, 8, 7, 5 \\) exactly once such that the number is divisible by \\( 125 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 82</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3263/cat-1998-question-82\" target=\"_blank\">https://aptitude.gateoverflow.in/3263/cat-1998-question-82</a></p>"
+        },
+        {
+          "id": 112,
+          "question": "<p><a name=\"3264\"></a><div itemprop=\"text\"><p>I have one rupee coins, fifty paise coins and twenty five paise coins. The number of coins are in the ratio \\( 2.5 : 3: 4 \\). If the total amount with me is Rs. \\( 210 \\), find the number of one rupee coins:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 83</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 90 \\)&nbsp;</p>",
+            "<p>\\( 85 \\)</p>",
+            "<p>\\( 100 \\)&nbsp;</p>",
+            "<p>\\( 105 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3264/cat-1998-question-83\" target=\"_blank\">https://aptitude.gateoverflow.in/3264/cat-1998-question-83</a></p>"
+        },
+        {
+          "id": 113,
+          "question": "<p><a name=\"3265\"></a><div itemprop=\"text\"><p>My ten year old nephew Debu adores chocolates, likes biscuits, and hates apples. One evening I took him to a super market and told him that he could buy as many chocolates as he wanted, but then he should have twice that number of biscuits and finally buy more apples than the total number of chocolates and biscuits. The chocolates cost Re. \\( 1 \\) per piece and apples are twice as expensive; the price of four biscuits matches the price of one apple. Which of the following can possibly be the amount spent by me on Debu’s evening snacks?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 84</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs.\\( 34 \\)</p>",
+            "<p>Rs.\\( 16 \\)&nbsp;</p>",
+            "<p>Rs.\\( 25 \\)&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3265/cat-1998-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/3265/cat-1998-question-84</a></p>"
+        },
+        {
+          "id": 114,
+          "question": "<p><a name=\"3266\"></a><div itemprop=\"text\"><p>A company imports component \\( A \\) from Germany and component \\( B \\) from USA. If then assembles them along with other components to produce a machine used in a chemical process. Component \\( A \\) contributes \\( 30 \\)% to the production cost and component \\( B \\) contributes \\( 50 \\)% to the production cost. The current practice is to sell the machine at a price that is \\( 20 \\)% over the production cost. Due to foreign exchange fluctuations the German Mark has become costlier by 30% and the US Dollar by \\( 22 \\)%. But the company is unable to increase the selling price by more than \\( 10 \\)%.</p>\n\n<p>The current margin of profit is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 85</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>10%</p>",
+            "<p>15%</p>",
+            "<p>12%</p>",
+            "<p>8%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3266/cat-1998-question-85\" target=\"_blank\">https://aptitude.gateoverflow.in/3266/cat-1998-question-85</a></p>"
+        },
+        {
+          "id": 115,
+          "question": "<p><a name=\"3267\"></a><div itemprop=\"text\"><p>A company imports component \\( A \\) from Germany and component \\( B \\) from USA. If then assembles them along with other components to produce a machine used in a chemical process. Component \\( A \\) contributes \\( 30 \\)% to the production cost and component \\( B \\) contributes \\( 50 \\)% to the production cost. The current practice is to sell the machine at a price that is \\( 20 \\)% over the production cost. Due to foreign exchange fluctuations the German Mark has become costlier by 30% and the US Dollar by \\( 22 \\)%. But the company is unable to increase the selling price by more than \\( 10 \\)%.</p>\n\n<p>Suppose the US dollar becomes cheaper by 12% of its original value, and the German Mark becomes costlier by 20% of its original value. To achieve a profit margin of 10%, the selling price must exceed the production cost by</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 86</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 10 \\)%</p>",
+            "<p>\\( 20 \\)%</p>",
+            "<p>\\( 12 \\)%</p>",
+            "<p>\\( 15 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3267/cat-1998-question-86\" target=\"_blank\">https://aptitude.gateoverflow.in/3267/cat-1998-question-86</a></p>"
+        },
+        {
+          "id": 116,
+          "question": "<p><a name=\"3273\"></a><div itemprop=\"text\"><p>What is the digit in the unit place of \\( 2^{51} \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 92</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3273/cat-1998-question-92\" target=\"_blank\">https://aptitude.gateoverflow.in/3273/cat-1998-question-92</a></p>"
+        },
+        {
+          "id": 117,
+          "question": "<p><a name=\"3274\"></a><div itemprop=\"text\"><p>From a barrel containing \\( 500 \\)ml of alcohol, \\( 3 \\) cups of alcohol are poured into a barrel containing \\( 500 \\)ml of water. After mixing the contests well, \\( 3 \\) cups of the mixture are poured into the barrel of alcohol. The percentage of water into the barrel of alcohol. The percentage of water in tie barrel of alcohol and the percentage of alcohol in the barrel of water are then compared. Which one of the following is true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 93</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The former is greater than the latter</p>",
+            "<p>The two are equal</p>",
+            "<p>The latter is greater than the former</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3274/cat-1998-question-93\" target=\"_blank\">https://aptitude.gateoverflow.in/3274/cat-1998-question-93</a></p>"
+        },
+        {
+          "id": 118,
+          "question": "<p><a name=\"3275\"></a><div itemprop=\"text\"><p>Consider a 99 digit number created by writing side by side the first fifty four natural number as follows:</p>\n\n<p>\\( 12345678910111213…….5354 \\)</p>\n\n<p>The above number when divided by \\( 8 \\) will leave a remainder of</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1998 | Question: 94</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)&nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3275/cat-1998-question-94\" target=\"_blank\">https://aptitude.gateoverflow.in/3275/cat-1998-question-94</a></p>"
+        },
+        {
+          "id": 119,
+          "question": "<p><a name=\"2201\"></a><div itemprop=\"text\"><p>The number of positive integer valued pairs (x, y) satisfying \\( 4x – 17y = 1 \\) and \\( x \\leq 1000 \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>59</p>",
+            "<p>57</p>",
+            "<p>55</p>",
+            "<p>58</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2201/cat-1999-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/2201/cat-1999-question-56</a></p>"
+        },
+        {
+          "id": 120,
+          "question": "<p><a name=\"2202\"></a><div itemprop=\"text\"><p>Let a, b, c be distinct digits. Consider a two-digit number ‘ab’ and a three-digit number ‘ccb’, both defined under the usual decimal number system, if \\( (ab)^2= ccb &gt; 300 \\) then the value of b is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1</p>",
+            "<p>0</p>",
+            "<p>5</p>",
+            "<p>6</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2202/cat-1999-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/2202/cat-1999-question-57</a></p>"
+        },
+        {
+          "id": 121,
+          "question": "<p><a name=\"2203\"></a><div itemprop=\"text\"><p>The remainder when 7\\( ^{84} \\) is divided by 342 is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 58</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>0</p>",
+            "<p>1</p>",
+            "<p>49</p>",
+            "<p>341</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2203/cat-1999-question-58\" target=\"_blank\">https://aptitude.gateoverflow.in/2203/cat-1999-question-58</a></p>"
+        },
+        {
+          "id": 122,
+          "question": "<p><a name=\"2204\"></a><div itemprop=\"text\"><p>Ten points are marked on a straight-line and 11 points are marked on another straight-line. How many triangles can be constructed with vertices from among the above points?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 59</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>495</p>",
+            "<p>550</p>",
+            "<p>1045</p>",
+            "<p>2475</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2204/cat-1999-question-59\" target=\"_blank\">https://aptitude.gateoverflow.in/2204/cat-1999-question-59</a></p>"
+        },
+        {
+          "id": 123,
+          "question": "<p><a name=\"2205\"></a><div itemprop=\"text\"><p>For a scholarship, at the most n candidates out of 2n + 1 can be selected. If the number of different ways of selection of at least one candidate is 63, the maximum number of candidates that can be selected for the scholarship is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 60</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>3</p>",
+            "<p>4</p>",
+            "<p>6</p>",
+            "<p>5</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2205/cat-1999-question-60\" target=\"_blank\">https://aptitude.gateoverflow.in/2205/cat-1999-question-60</a></p>"
+        },
+        {
+          "id": 124,
+          "question": "<p><a name=\"2206\"></a><div itemprop=\"text\"><p>The speed of a railway engine is 42 kmph when no compartment is attached, and the reduction in speed is directly proportional to the square root of the number of compartments attached. If the speed of the train carried by this engine is 24 kmph when 9 compartments are attached, the maximum number of compartments that can be carried by the engine is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 61</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>49</p>",
+            "<p>48</p>",
+            "<p>46</p>",
+            "<p>47</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2206/cat-1999-question-61\" target=\"_blank\">https://aptitude.gateoverflow.in/2206/cat-1999-question-61</a></p>"
+        },
+        {
+          "id": 125,
+          "question": "<p><a name=\"2207\"></a><div itemprop=\"text\"><p>Total expenses of a boarding house are partly fixed and partly varying linearly with the number of boarders. The average expense per boarder is Rs. 700 when there are 25 boarders and Rs. 600 when there are 50 boarders. What is the average expense per boarder when there are 100 boarders?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 62</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>550</p>",
+            "<p>580</p>",
+            "<p>540</p>",
+            "<p>570</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2207/cat-1999-question-62\" target=\"_blank\">https://aptitude.gateoverflow.in/2207/cat-1999-question-62</a></p>"
+        },
+        {
+          "id": 126,
+          "question": "<p><a name=\"2208\"></a><div itemprop=\"text\"><p>Forty per cent of the employees of a certain company are men, and 75% of the men earn more than Rs. 25,000 per year. If 45% of the company’s employees earn more than Rs. 25,000 per year, what fraction of the women employed by the company earn less than or equal to Rs. 25,000 per year?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{2}{11} \\)</p>",
+            "<p>\\( \\frac{1}{4} \\)</p>",
+            "<p>\\( \\frac{1}{3} \\)</p>",
+            "<p>\\( \\frac{3}{4} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2208/cat-1999-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/2208/cat-1999-question-63</a></p>"
+        },
+        {
+          "id": 127,
+          "question": "<p><a name=\"2209\"></a><div itemprop=\"text\"><p>If \\( |r − 6| = 11 \\) and \\( |2q − 12| = 8 \\), what is the minimum possible value of \\( \\frac{q}{r} \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( - \\frac{2}{5} \\)</p>",
+            "<p>\\( \\frac{2}{17} \\)</p>",
+            "<p>\\( \\frac{10}{17} \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2209/cat-1999-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/2209/cat-1999-question-64</a></p>"
+        },
+        {
+          "id": 128,
+          "question": "<p><a name=\"2210\"></a><div itemprop=\"text\"><p>If \\( n = 1+ x \\) where \\( x \\) is the product of four consecutive positive integers, then which of the following is/are true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>n is odd</p>",
+            "<p>n is prime</p>",
+            "<p>n is a perfect square\n\t<ol style=\"list-style-type: lower-alpha;\">\n\t\t<li>A and C only</li>\n\t\t<li>A and B only</li>\n\t\t<li>A only</li>\n\t\t<li>None of these</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2210/cat-1999-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/2210/cat-1999-question-65</a></p>"
+        },
+        {
+          "id": 129,
+          "question": "<p><a name=\"2211\"></a><div itemprop=\"text\"><p>In a survey of political preferences, 78% of those asked were in favour of at least one of the proposals: I, II and III. 50% of those asked favoured proposal I, 30% favoured proposal II and 20% favoured proposal III. If 5% of those asked favoured all three of the proposals, what percentage of those asked favoured more than one of the three proposals?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 66</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>10</p>",
+            "<p>12</p>",
+            "<p>17</p>",
+            "<p>22</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2211/cat-1999-question-66\" target=\"_blank\">https://aptitude.gateoverflow.in/2211/cat-1999-question-66</a></p>"
+        },
+        {
+          "id": 130,
+          "question": "<p><a name=\"2212\"></a><div itemprop=\"text\"><p>For two positive integers a and b define the function h(a,b) as the greatest common factor (G.C.F) of a, b. Let A be a set of n positive integers. G(A), the G.C.F of the elements of set A is computed by repeatedly using the function h. The minimum number of times h is required to be used to compute G is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 67</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{2} \\: n \\)</p>",
+            "<p>\\( (n-1) \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2212/cat-1999-question-67\" target=\"_blank\">https://aptitude.gateoverflow.in/2212/cat-1999-question-67</a></p>"
+        },
+        {
+          "id": 131,
+          "question": "<p><a name=\"2213\"></a><div itemprop=\"text\"><p>The figure below shows two concentric circles with centre O. PQRS is a square inscribed in the outer circle. It also circumscribes the inner circle, touching it at points B, C, D and A. What is the ratio of the perimeter of the outer circle to that of polygon ABCD?</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=10353718247034773366\" width=\"250\"></p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 68</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{\\pi}{4} \\)</p>",
+            "<p>\\( \\frac{3\\pi}{2} \\)</p>",
+            "<p>\\( \\frac{\\pi}{2} \\)</p>",
+            "<p>\\( {\\pi} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2213/cat-1999-question-68\" target=\"_blank\">https://aptitude.gateoverflow.in/2213/cat-1999-question-68</a></p>"
+        },
+        {
+          "id": 132,
+          "question": "<p><a name=\"2214\"></a><div itemprop=\"text\"><p>Three labelled boxes containing red and white cricket balls are all mislabelled. It is known that one of the boxes contains only white balls and another one contains only red balls. The third contains a mixture of red and white balls. You are required to correctly label the boxes with the labels red, white and red and white by picking a sample of one ball from only one box. What is the label on the box you should sample?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 69</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>white</p>",
+            "<p>red</p>",
+            "<p>red and white</p>",
+            "<p>Not possible to determine from a sample of one ball</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2214/cat-1999-question-69\" target=\"_blank\">https://aptitude.gateoverflow.in/2214/cat-1999-question-69</a></p>"
+        },
+        {
+          "id": 133,
+          "question": "<p><a name=\"2215\"></a><div itemprop=\"text\"><p>If \\( n^2= 12345678987654321 \\), what is n?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>12344321</p>",
+            "<p>1235789</p>",
+            "<p>111111111</p>",
+            "<p>11111111</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2215/cat-1999-question-70\" target=\"_blank\">https://aptitude.gateoverflow.in/2215/cat-1999-question-70</a></p>"
+        },
+        {
+          "id": 134,
+          "question": "<p><a name=\"2216\"></a><div itemprop=\"text\"><p>Abraham, Border, Charlie, Dennis and Elmer, and their respective wives recently dined together and were seated at a circular table. The seats were so arranged that men and women alternated and each woman was three places away from her husband. Mrs Charlie sat to the left of Mr Abraham. Mrs Elmer sat two places to the right of Mrs Border. Who sat to the right of Mr Abraham?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 71</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Mrs Dennis</p>",
+            "<p>Mrs Elmer</p>",
+            "<p>Mrs Border</p>",
+            "<p>Mrs Border or Mrs Dennis</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2216/cat-1999-question-71\" target=\"_blank\">https://aptitude.gateoverflow.in/2216/cat-1999-question-71</a></p>"
+        },
+        {
+          "id": 135,
+          "question": "<p><a name=\"2230\"></a><div itemprop=\"text\"><p>Navjivan Express from Ahmedabad to Chennai leaves Ahmedabad at 6.30 a.m. and travels at 50 kmph towards Baroda situated 100 km away. At 7.00 a.m. Howrah-Ahmedabad Express leaves Baroda towards Ahmedabad and travels at 40 kmph. At 7.30 a.m. Mr Shah, the traffic controller at Baroda realizes that both the trains are running on the same track. How much time does he have to avert a head-on collision between the two trains?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>15 min</p>",
+            "<p>20 min</p>",
+            "<p>25 min</p>",
+            "<p>30 min</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2230/cat-1999-question-72\" target=\"_blank\">https://aptitude.gateoverflow.in/2230/cat-1999-question-72</a></p>"
+        },
+        {
+          "id": 136,
+          "question": "<p><a name=\"2231\"></a><div itemprop=\"text\"><p>There is a circle of radius 1 cm. Each member of a sequence of regular polygons S1(n), n = 4, 5, 6, ..., where n is the number of sides of the polygon, is circumscribing the circle: and each member of the sequence of regular polygons S2(n), n = 4, 5, 6, ... where n is the number of sides of the polygon, is inscribed in the circle. Let L1(n) and L2(n) denote the perimeters of the corresponding polygons of S1(n) and S2(n), then \\( \\frac{ \\{L1(13) + 2 \\pi\\} }{L2(17)} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 73</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>greater than \\( \\frac{\\pi}{4} \\)</p>",
+            "<p>greater than 1 less than 2</p>",
+            "<p>greater than 2</p>",
+            "<p>less than \\( \\frac{\\pi}{4} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2231/cat-1999-question-73\" target=\"_blank\">https://aptitude.gateoverflow.in/2231/cat-1999-question-73</a></p>"
+        },
+        {
+          "id": 137,
+          "question": "<p><a name=\"2232\"></a><div itemprop=\"text\"><p>There is a square field of side 500 m long each. It has a compound wall along its perimeter. At one of its corners, a triangular area of the field is to be cordoned off by erecting a straight-line fence. The compound wall and the fence will form its borders. If the length of the fence is 100 m, what is the maximum area that can be cordoned off?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1999 | Question: 74</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2,500 sq m</p>",
+            "<p>10,000 sq m</p>",
+            "<p>5,000 sq m</p>",
+            "<p>20,000 sq m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2232/cat-1999-question-74\" target=\"_blank\">https://aptitude.gateoverflow.in/2232/cat-1999-question-74</a></p>"
+        },
+        {
+          "id": 138,
+          "question": "<p><a name=\"2405\"></a><div itemprop=\"text\"><p>We need to choose a team of 11 from a pool of 15 players and also select a captain. The number of different ways this can be done is</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CMI2010</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\(  \\begin{pmatrix} 15 \\\\ 11 \\end{pmatrix} \\)</p>",
+            "<p>11 .&nbsp;\\(  \\begin{pmatrix} 15 \\\\ 11 \\end{pmatrix} \\)</p>",
+            "<p>15 . 14 . 13 . 12 . 11 .10 . 9 . 8 . 7 . 6 . 5</p>",
+            "<p>(15 . 14 . 13 . 12 . 11 .10 . 9 . 8 . 7 . 6 . 5) . 11</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2405/cmi2010-a-02\" target=\"_blank\">https://aptitude.gateoverflow.in/2405/cmi2010-a-02</a></p>"
+        },
+        {
+          "id": 139,
+          "question": "<p><a name=\"2406\"></a><div itemprop=\"text\"><p>The area of the largest square that can be drawn inside a circle with unit radius is</p>\n\n</div><br><br><b>Quantitative Aptitude: CMI2010</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>2</p>",
+            "<p>1</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2406/cmi2010-a-03\" target=\"_blank\">https://aptitude.gateoverflow.in/2406/cmi2010-a-03</a></p>"
+        },
+        {
+          "id": 140,
+          "question": "<p><a name=\"2410\"></a><div itemprop=\"text\"><p>For integer values of \\( n \\), the expression \\( \\frac{n(5n + 1)(10n + 1)}{6} \\)</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CMI2010</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Is always divisible by 5.</p>",
+            "<p>Is always divisible by 3.</p>",
+            "<p>Is always an integer.</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2410/cmi2010-a-07\" target=\"_blank\">https://aptitude.gateoverflow.in/2410/cmi2010-a-07</a></p>"
+        },
+        {
+          "id": 141,
+          "question": "<p><a name=\"4900\"></a><div itemprop=\"text\"><p>A number when divided by a divisor leaves a remainder of \\( 24 \\). When twice the original number is divided by the same divisor, the remainder is \\( 11 \\). What is the value of the divisor?</p>\n\n</div><br><br><b>Quantitative Aptitude: Finding the divisor</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 37 \\)</p>",
+            "<p>\\( 59 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4900/finding-the-divisor\" target=\"_blank\">https://aptitude.gateoverflow.in/4900/finding-the-divisor</a></p>"
+        },
+        {
+          "id": 142,
+          "question": "<p><a name=\"283\"></a><div itemprop=\"text\"><p>Ganesh and Sarath were given a quadratic equation in x to solve. Ganesh made a mistake in copying the constant term of the equation and got a root as 12. Sarath made a mistake in copying the coefficient of x as well as the constant term and got a root as 2. Later they realized that the mistakes they committed were only in copying the signs. The difference between the roots of the original equation is</p><ol><li>2</li><li>10</li><li>4</li><li>Cannot be determined.</li></ol></div><br><br><b>Quantitative Aptitude: Ganesh and Sarath were given a quadratic equation in x to solve.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/283/ganesh-and-sarath-were-given-quadratic-equation-in-to-solve\" target=\"_blank\">https://aptitude.gateoverflow.in/283/ganesh-and-sarath-were-given-quadratic-equation-in-to-solve</a></p>"
+        },
+        {
+          "id": 143,
+          "question": "<p><a name=\"279\"></a><div itemprop=\"text\">Had a trader bought an item at 10% less and sold it at 10% more, he would have doubled his profit percentage. What was the original profit percentage?</div><br><br><b>Quantitative Aptitude: Had a trader bought an item at 10% less and sold it at 10% more, he would have doubled his profit percentage.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/279/trader-bought-item-less-more-would-doubled-profit-percentage\" target=\"_blank\">https://aptitude.gateoverflow.in/279/trader-bought-item-less-more-would-doubled-profit-percentage</a></p>"
+        },
+        {
+          "id": 144,
+          "question": "<p><a name=\"276\"></a><div itemprop=\"text\"><p>If x and y are positive integers less than 8, how many distinct values can the expression ( 3x + 7y ) take?</p><ol><li>49</li><li>28</li><li>21</li><li>36&nbsp;</li></ol></div><br><br><b>Quantitative Aptitude: If x and y are positive integers less than 8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/276/if-x-and-y-are-positive-integers-less-than-8\" target=\"_blank\">https://aptitude.gateoverflow.in/276/if-x-and-y-are-positive-integers-less-than-8</a></p>"
+        },
+        {
+          "id": 145,
+          "question": "<p><a name=\"303\"></a><div itemprop=\"text\"><p>If x<sup>1/5 &nbsp;</sup>&gt; x<sup>1/3&nbsp;</sup>, then how many of the following statements are definitely true about x?</p><p>x<sup>2&nbsp;</sup>&gt; x<sup>3</sup></p><p>x<sup>1/3&nbsp;</sup>&gt; x<sup>4</sup></p><p>1 &gt; x<sup>1/3&nbsp;</sup>&gt; x<sup>-3</sup></p><p>x<sup>-1/3&nbsp;</sup>&gt; x<sup>3</sup></p><ol><li>1</li><li>2</li><li>3</li><li>4</li></ol></div><br><br><b>Quantitative Aptitude: If x1/5 > x1/3, then how many of the following statements are definitely true about x?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/303/then-how-many-following-statements-are-definitely-true-about\" target=\"_blank\">https://aptitude.gateoverflow.in/303/then-how-many-following-statements-are-definitely-true-about</a></p>"
+        },
+        {
+          "id": 146,
+          "question": "<p><a name=\"277\"></a><div itemprop=\"text\"><p>In a casino, there were three different coloured tokens - Red, Green, and Blue - with face values of Rs.20, Rs.50 and Rs.100 respectively. The total worth of all the tokens in the casino was Rs.18,500. On a busy day, when the tokens were not sufficient, all the Red tokens were given a new face value of Rs.200 ( while there was no change in the value of the Green and Blue tokens). The Net worth of all the tokens after the change was Rs.27,500. If the average number of tokens per colour is equal to the number of Green tokens, then find the total number of tokens in the casino.</p><ol><li>150</li><li>180</li><li>270</li><li>288</li></ol></div><br><br><b>Quantitative Aptitude: In a casino, there were three different coloured tokens</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/277/casino-there-different-coloured-tokens-values-respectively\" target=\"_blank\">https://aptitude.gateoverflow.in/277/casino-there-different-coloured-tokens-values-respectively</a></p>"
+        },
+        {
+          "id": 147,
+          "question": "<p><a name=\"287\"></a><div itemprop=\"text\"><p>Let M be the set of all even numbers from 1 to 25 and all the odd numbers between 26 and 200. If all the elements of M are multiplied, find the number of zeroes at the end of this product.</p><ol><li>22</li><li>18</li><li>23</li><li>21</li></ol></div><br><br><b>Quantitative Aptitude: Let M be the set of all even numbers from 1 to 25 and all the odd numbers between 26 and 200.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/287/let-even-numbers-from-and-all-the-odd-numbers-between-and-200\" target=\"_blank\">https://aptitude.gateoverflow.in/287/let-even-numbers-from-and-all-the-odd-numbers-between-and-200</a></p>"
+        },
+        {
+          "id": 148,
+          "question": "<p><a name=\"2975\"></a><div itemprop=\"text\">What annual installment will discharge a debt of rs 1092 due in 3 years?</div><br><br><b>Quantitative Aptitude: Simple Interest</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2975/simple-interest\" target=\"_blank\">https://aptitude.gateoverflow.in/2975/simple-interest</a></p>"
+        },
+        {
+          "id": 149,
+          "question": "<p><a name=\"3099\"></a><div itemprop=\"text\"><p>The square of two digit number(ab) divided by half of itself resultant added by 18 then divided by 2 then we get reverse of original number(ba). how many combination of ab exist</p>\n\n</div><br><br><b>Quantitative Aptitude: The square of two digit number(ab) divided by half of itself resultant added by 18 then divided by 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>9</p>",
+            "<p>8</p>",
+            "<p>7</p>",
+            "<p>6</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3099/square-digit-number-divided-itself-resultant-added-divided\" target=\"_blank\">https://aptitude.gateoverflow.in/3099/square-digit-number-divided-itself-resultant-added-divided</a></p>"
+        },
+        {
+          "id": 150,
+          "question": "<p><a name=\"281\"></a><div itemprop=\"text\"><p>Three friends - A, B and C - go boating in a stream and decide to play a game. B and C are at a point X at time t =0 seconds. B is on a boat which is floating with the&nbsp;stream and C is on a boat which is anchored at X. Both B and C release paper boats at intervals of 5 seconds, beginning at t = 0 seconds. A start from a point Y, downstream of X, at t = 0 seconds and starts collecting all the paper boats he encounters as he rows upstream towards X. The speed of A's boat in still water is thrice the speed of the stream. Find the total number of paper boats collected by A, if B reaches Y at t = 132 seconds.</p><ol><li>26</li><li>23</li><li>24</li><li>21</li></ol></div><br><br><b>Quantitative Aptitude: Three friends</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/281/three-friends-and-go-boating-in-stream-and-decide-to-play-game\" target=\"_blank\">https://aptitude.gateoverflow.in/281/three-friends-and-go-boating-in-stream-and-decide-to-play-game</a></p>"
+        },
+        {
+          "id": 151,
+          "question": "<p><a name=\"284\"></a><div itemprop=\"text\"><p>What is the least number of cuts required to cut a cube into 84 identical pieces, assuming all cuts are made parallel to the&nbsp;faces of the cube?</p><ol><li>11</li><li>12</li><li>13</li><li>10</li></ol></div><br><br><b>Quantitative Aptitude: What is the least number of cuts required to cut a cube into 84 identical pieces,</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/284/what-least-number-cuts-required-cube-into-identical-pieces\" target=\"_blank\">https://aptitude.gateoverflow.in/284/what-least-number-cuts-required-cube-into-identical-pieces</a></p>"
+        },
+        {
+          "id": 152,
+          "question": "<p><a name=\"220\"></a><div itemprop=\"text\"><p>What is the missing number?<br><br>56 / 7 = ? - 5</p><ol><li>11</li><li>13</li><li>14</li><li>15</li><li>16</li></ol></div><br><br><b>Quantitative Aptitude: What is the missing number?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/220/what-is-the-missing-number\" target=\"_blank\">https://aptitude.gateoverflow.in/220/what-is-the-missing-number</a></p>"
+        },
+        {
+          "id": 153,
+          "question": "<p><a name=\"248\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15864451035892027970\" style=\"width: 600px; height: 252px;\"></p>\n\n<p>What was the percentage increase in the price of oil between 1998 and 2006?</p>\n\n<ol>\n\t<li>4.83%</li>\n\t<li>48.3%</li>\n\t<li>51.3%</li>\n\t<li>4.13%</li>\n\t<li>5.13%</li>\n</ol>\n\n<div>If the total oil supply had grown at the same rate as the former USSR oil supply between 2000 and 2006 how much would this have exceeded the demand in 2006?</div>\n\n<ol>\n\t<li>14.3</li>\n\t<li>19.3</li>\n\t<li>24.3</li>\n\t<li>29.3</li>\n\t<li>34.3</li>\n</ol>\n\n<div>In which year was the largest combined change in supply from the previous year for OPEC, the former USSR and other Non-OECD countries?</div>\n\n<ol>\n\t<li>2000</li>\n\t<li>2003</li>\n\t<li>2004</li>\n\t<li>2005</li>\n\t<li>2006</li>\n</ol>\n\n<div>&nbsp;</div></div><br><br><b>Quantitative Aptitude: What was the percentage increase in the price of oil between 1998 and 2006?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/248/what-was-the-percentage-increase-the-price-between-1998-2006\" target=\"_blank\">https://aptitude.gateoverflow.in/248/what-was-the-percentage-increase-the-price-between-1998-2006</a></p>"
+        },
+        {
+          "id": 154,
+          "question": "<p><a name=\"227\"></a><div itemprop=\"text\"><p>You get a wage increase of 4% plus an extra five pounds per week. Your present wages are 250 pounds per week. What will your new wage be in pounds?</p>\n\n<ol>\n\t<li>260</li>\n\t<li>265</li>\n\t<li>270</li>\n\t<li>275</li>\n\t<li>280</li>\n</ol></div><br><br><b>Quantitative Aptitude: You get a wage increase of 4% plus an extra five pounds per week.</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/227/you-get-wage-increase-of-4%25-plus-an-extra-five-pounds-per-week\" target=\"_blank\">https://aptitude.gateoverflow.in/227/you-get-wage-increase-of-4%25-plus-an-extra-five-pounds-per-week</a></p>"
+        },
+        {
+          "id": 155,
+          "question": "<p><a name=\"2790\"></a><div itemprop=\"text\">Two merchants sell, each an article for Rs.1000. If Merchant A computes his profit on cost price, while Merchant B computes his profit on selling price, they end up making profits of 25% respectively. By how much is the profit made by Merchant B greater than that of Merchant A?<br>\nA) Rs.66.67<br>\nB) Rs. 50 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nC) Rs.125 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nD) Rs.200</div><br><br><b>Quantitative Aptitude: profit</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2790/profit\" target=\"_blank\">https://aptitude.gateoverflow.in/2790/profit</a></p>"
+        },
+        {
+          "id": 156,
+          "question": "<p><a name=\"668\"></a><div itemprop=\"text\">A sells B a diamond at a profit of 30%. B sells it to C at a loss of 20%. What profit did A earn if C paid Rs.1040 for the diamond?<br>\n<br>\n(a) Rs.410 &nbsp;(b) Rs.200<br>\n<br>\n(c) Rs.400 &nbsp;(d) Rs.140</div><br><br><b>Quantitative Aptitude: profit and loss</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/668/profit-and-loss\" target=\"_blank\">https://aptitude.gateoverflow.in/668/profit-and-loss</a></p>"
+        },
+        {
+          "id": 157,
+          "question": "<p><a name=\"2785\"></a><div itemprop=\"text\"><p>At &nbsp;what &nbsp;percentage &nbsp;above &nbsp;the &nbsp;C.P &nbsp;must &nbsp;an &nbsp;article &nbsp;be &nbsp;marked &nbsp;&nbsp;so &nbsp;as &nbsp;to &nbsp;gain &nbsp;33% &nbsp;after &nbsp;allowing &nbsp;a &nbsp;customer &nbsp;a &nbsp;discount &nbsp;of &nbsp;5%?</p>\n\n</div><br><br><b>Quantitative Aptitude: profit and loss</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>38%</p>",
+            "<p>40%</p>",
+            "<p>43%</p>",
+            "<p>48%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2785/profit-and-loss\" target=\"_blank\">https://aptitude.gateoverflow.in/2785/profit-and-loss</a></p>"
+        },
+        {
+          "id": 158,
+          "question": "<p><a name=\"2788\"></a><div itemprop=\"text\">A trader professes to sell his goods at a loss of 8% but weights 900 grams in place of a kg weight. Find his real loss or gain per cent.<br>\nA) 2% loss &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nB) 2.22% gain &nbsp;&nbsp;&nbsp;<br>\nC) 2% gain &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>\nD)None of these</div><br><br><b>Quantitative Aptitude: profit and loss false weight</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2788/profit-and-loss-false-weight\" target=\"_blank\">https://aptitude.gateoverflow.in/2788/profit-and-loss-false-weight</a></p>"
+        },
+        {
+          "id": 159,
+          "question": "<p><a name=\"4558\"></a><div itemprop=\"text\"><p>How many four-digit numbers, with distinct digits are there such that the sum of the digits of each of these numbers is an odd natural number?</p>\n\n</div><br><br><b>Quantitative Aptitude: self doubt</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2160 \\)</p>",
+            "<p>\\( 2090 \\)&nbsp;</p>",
+            "<p>\\( 1880 \\)&nbsp;</p>",
+            "<p>\\( 2376 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4558/self-doubt\" target=\"_blank\">https://aptitude.gateoverflow.in/4558/self-doubt</a></p>"
+        },
+        {
+          "id": 160,
+          "question": "<p><a name=\"2835\"></a><div itemprop=\"text\"><p>B moves by taking 3 steps forward and 1 step backward (each step in one second )&nbsp;<br>\nHe walks up a stationary escalator in 118 sec.&nbsp;<br>\nHowever on moving escalator he takes 40 sec to reach top . Find speed of escalator. &nbsp;&nbsp;( 2 Marks )</p>\n\n</div><br><br><b>Quantitative Aptitude: tcs apti</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1 step/sec</p>",
+            "<p>2 step/sec</p>",
+            "<p>3 step/sec</p>",
+            "<p>4 step/sec</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2835/tcs-apti\" target=\"_blank\">https://aptitude.gateoverflow.in/2835/tcs-apti</a></p>"
+        },
+        {
+          "id": 161,
+          "question": "<p><a name=\"2841\"></a><div itemprop=\"text\"><p>College T has 1000 students. Of the 200 students majoring in one or more of the sciences,130 are majoring in Chemistry and 150 are majoring in Biology. If at least 30 of the students are not majoring in either Chemistry or Biology, then the number of students majoring in both Chemistry and Biology could be any number from?</p>\n\n</div><br><br><b>Quantitative Aptitude: tcs aptitude</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>110 to 130</p>",
+            "<p>110 to 120</p>",
+            "<p>120 to 130</p>",
+            "<p>120 to 170</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2841/tcs-aptitude\" target=\"_blank\">https://aptitude.gateoverflow.in/2841/tcs-aptitude</a></p>"
+        },
+        {
+          "id": 162,
+          "question": "<p><a name=\"2838\"></a><div itemprop=\"text\"><p>What is the remainder of (16937^30)/31 ? &nbsp;&nbsp;( 1 Marks )</p>\n\n</div><br><br><b>Quantitative Aptitude: tcs aptitude</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1</p>",
+            "<p>2</p>",
+            "<p>3</p>",
+            "<p>4</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2838/tcs-aptitude\" target=\"_blank\">https://aptitude.gateoverflow.in/2838/tcs-aptitude</a></p>"
+        },
+        {
+          "id": 163,
+          "question": "<p><a name=\"2836\"></a><div itemprop=\"text\"><p>If given equation is 137+276=435,how much is 731+672=.... find the result.&nbsp;&nbsp;( 2 Marks )</p>\n\n</div><br><br><b>Quantitative Aptitude: tcs aptitude</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>435</p>",
+            "<p>537</p>",
+            "<p>3261</p>",
+            "<p>1623</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2836/tcs-aptitude\" target=\"_blank\">https://aptitude.gateoverflow.in/2836/tcs-aptitude</a></p>"
+        },
+        {
+          "id": 164,
+          "question": "<p><a name=\"3368\"></a><div itemprop=\"text\"><p>x, y and z are the positive integers such that x &gt; y &gt; z. Which of the following is closest to the product xyz?</p>\n\n\n\n<p>Please describe the solution in detail.</p></div><br><br><b>Quantitative Aptitude: x, y and z are the positive integers such that x > y > z. Which of the following is closest to the product xyz?</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>xy(z-1)</p>",
+            "<p>(x-1)yz</p>",
+            "<p>(x-y)xy</p>",
+            "<p>x(y+1)z</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3368/positive-integers-such-that-which-following-closest-product\" target=\"_blank\">https://aptitude.gateoverflow.in/3368/positive-integers-such-that-which-following-closest-product</a></p>"
+        }
+      ]
+    }
+  ]
+});

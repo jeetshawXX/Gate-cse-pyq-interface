@@ -1,0 +1,191 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Flip Flop",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Flip Flop",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336634\"></a><div itemprop=\"text\"><p>What will be the final output of D flip-Flop if the input string is \\( 0010011100 \\)?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>Don’t Care</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336634/nielit-2016-dec-scientist-b-it-section-b-35\" target=\"_blank\">https://gateoverflow.in/336634/nielit-2016-dec-scientist-b-it-section-b-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336737\"></a><div itemprop=\"text\"><p>In a ripple counter using edge triggered \\( JK \\) flip-flops, the pulse input is applied to the</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>clock input of all flip-flops</p>",
+            "<p>clock input of one flip-flop</p>",
+            "<p>\\( J \\) and \\( K \\) inputs of all flip-flops</p>",
+            "<p>\\( J \\) and \\( K \\) inputs of one flip flop</p>"
+          ],
+          "correct_answer": "<p>clock input of one flip-flop</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336737/nielit-2016-mar-scientist-b-section-c-4\" target=\"_blank\">https://gateoverflow.in/336737/nielit-2016-mar-scientist-b-section-c-4</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337225\"></a><div itemprop=\"text\"><p>If the input \\( \\text{J} \\) is connected through \\( \\text{K} \\) input of \\( \\text{J-K} \\), then flip-flop will behave as a&nbsp;</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>D type flip-flop</p>",
+            "<p>T&nbsp;type flip-flop</p>",
+            "<p>S-R&nbsp;flip-flop</p>",
+            "<p>Toggle switch</p>"
+          ],
+          "correct_answer": "<p>T&nbsp;type flip-flop</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337225/nielit-2016-mar-scientist-c-section-c-40\" target=\"_blank\">https://gateoverflow.in/337225/nielit-2016-mar-scientist-c-section-c-40</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"337224\"></a><div itemprop=\"text\"><p>To build a mod-\\( 19 \\) counter the number of flip-flop required is</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337224/nielit-2016-mar-scientist-c-section-c-41\" target=\"_blank\">https://gateoverflow.in/337224/nielit-2016-mar-scientist-c-section-c-41</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"337221\"></a><div itemprop=\"text\"><p>Which of the following conditions must be met to avoid race around problem?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Delta t&lt; t_{p}&lt; T \\)</p>",
+            "<p>\\( T&gt;\\Delta t&gt; t_{p} \\)</p>",
+            "<p>\\( 2t_{p}&lt; \\Delta t&lt; T \\)</p>",
+            "<p>none of these</p>"
+          ],
+          "correct_answer": "<p>\\( T&gt;\\Delta t&gt; t_{p} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337221/nielit-2016-mar-scientist-c-section-c-44\" target=\"_blank\">https://gateoverflow.in/337221/nielit-2016-mar-scientist-c-section-c-44</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"337201\"></a><div itemprop=\"text\"><p>How many flip-flop are needed to divide the input frequency by \\( 64 \\)?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337201/nielit-2016-mar-scientist-c-section-c-64\" target=\"_blank\">https://gateoverflow.in/337201/nielit-2016-mar-scientist-c-section-c-64</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336924\"></a><div itemprop=\"text\"><p>In a ripple counter using edge-triggered \\( JK \\) flip-flops, the pulse input is applied to</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Clock input of all flip-flops</p>",
+            "<p>\\( J \\) and \\( K \\) input of one flip-flop</p>",
+            "<p>\\( J \\) and \\( K \\) input of all flip flops</p>",
+            "<p>Clock input of one flip-flop</p>"
+          ],
+          "correct_answer": "<p>\\( J \\) and \\( K \\) input of all flip flops</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336924/nielit-2017-oct-scientific-assistant-a-cs-section-c-8\" target=\"_blank\">https://gateoverflow.in/336924/nielit-2017-oct-scientific-assistant-a-cs-section-c-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"344430\"></a><div itemprop=\"text\"><p>A sequential circuit using D flip-flop and logic gates is shown in Figure, where \\( X \\) and \\( Y \\) are the inputs and \\( Z \\) is the output. The circuit is</p><p><img alt=\"\" width=\"400\" height=\"250\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=11853774888762199519\"></p></div><br><br><b>Digital Logic: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{S-R} \\) Flip-flop with inputs \\( X = R \\) and \\( Y=S \\)</p>",
+            "<p>\\( \\text{S-R} \\) Flip-flop with inputs \\( X = S \\) and \\( Y=R \\)</p>",
+            "<p>\\( \\text{J-K} \\)&nbsp;Flip-flop with inputs \\( X = J \\) and \\( Y=K \\)</p>",
+            "<p>\\( \\text{J-K} \\)&nbsp;Flip-flop with inputs \\( X = K \\) and \\( Y=J \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{J-K} \\)&nbsp;Flip-flop with inputs \\( X = K \\) and \\( Y=J \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/344430/nielit-2017-oct-scientific-assistant-a-cs-section-d-9\" target=\"_blank\">https://gateoverflow.in/344430/nielit-2017-oct-scientific-assistant-a-cs-section-d-9</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"336966\"></a><div itemprop=\"text\"><p>In a ripple counter using edge-triggered \\( JK \\) flip-flops, the pulse input is applied to</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Clock input of all flip-flops</p>",
+            "<p>\\( J \\) and \\( K \\) input of one flip-flop</p>",
+            "<p>\\( J \\) and \\( K \\) input of all flip-flops</p>",
+            "<p>Clock input of one flip-flop</p>"
+          ],
+          "correct_answer": "<p>Clock input of one flip-flop</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336966/nielit-2017-oct-scientific-assistant-a-it-section-b-19\" target=\"_blank\">https://gateoverflow.in/336966/nielit-2017-oct-scientific-assistant-a-it-section-b-19</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"336952\"></a><div itemprop=\"text\"><p>The number of columns in a state table for a sequential circuit with \\( ’m’ \\) flip flops and \\( ’n’ \\) input is</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m+n \\)</p>",
+            "<p>\\( m+2n \\)</p>",
+            "<p>\\( 2m+n \\)</p>",
+            "<p>\\( 2m+2n \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2m+n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336952/nielit-2017-oct-scientific-assistant-a-it-section-b-33\" target=\"_blank\">https://gateoverflow.in/336952/nielit-2017-oct-scientific-assistant-a-it-section-b-33</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"373744\"></a><div itemprop=\"text\"><p>Consider a combination of \\( \\text{T} \\) and \\( \\text{D} \\) flip-flops connected as shown below. The output of the \\( \\text{D} \\) flipflop is connected to the input of the \\( \\text{T} \\) flip-flop&nbsp;and the output of the \\( \\text{T} \\) flip-flop is connected to the input of the \\( \\text{D} \\) flip-flop.</p>\n\n<p><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3886956125177836916\" width=\"500\"></p>\n\n<p>Initially, both&nbsp;\\( \\text{Q}_{0} \\) and&nbsp;\\( \\text{Q}_{1} \\) are set to \\( 1 \\) (before the \\( 1{\\text{st}} \\) clock cycle). The outputs ________</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2022 April Scientist B | Section B | Question: 94</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Q}_{1}\\text{Q}_{0} \\) after the \\( 3^{\\text{rd}} \\)&nbsp;cycle are \\( 11 \\) and after the \\( 4^{\\text{th}} \\)&nbsp;cycle are \\( 00 \\) respectively</p>",
+            "<p>\\( \\text{Q}_{1}\\text{Q}_{0} \\) after the \\( 3^{\\text{rd}} \\)&nbsp;cycle are \\( 11 \\) and after the \\( 4^{\\text{th}} \\)&nbsp;cycle are \\( 01 \\) respectively</p>",
+            "<p>\\( \\text{Q}_{1}\\text{Q}_{0} \\) after the \\( 3^{\\text{rd}} \\)&nbsp;cycle are \\( 00 \\) and after the \\( 4^{\\text{th}} \\)&nbsp;cycle are \\( 11 \\) respectively</p>",
+            "<p>\\( \\text{Q}_{1}\\text{Q}_{0} \\) after the \\( 3^{\\text{rd}} \\)&nbsp;cycle are \\( 01 \\) and after the \\( 4^{\\text{th}} \\)&nbsp;cycle are \\( 01 \\) respectively</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Q}_{1}\\text{Q}_{0} \\) after the \\( 3^{\\text{rd}} \\)&nbsp;cycle are \\( 11 \\) and after the \\( 4^{\\text{th}} \\)&nbsp;cycle are \\( 01 \\) respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373744/nielit-2022-april-scientist-b-section-b-question-94\" target=\"_blank\">https://gateoverflow.in/373744/nielit-2022-april-scientist-b-section-b-question-94</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"351375\"></a><div itemprop=\"text\"><p>Which flip-flop is used to make all types of shift registers?</p>\n\n</div><br><br><b>Digital Logic: NIELIT Scientific Assistant A 2020 November: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>JK flip-flop</p>",
+            "<p>D flip-flop</p>",
+            "<p>T flip-flop</p>",
+            "<p>All the options</p>"
+          ],
+          "correct_answer": "<p>JK flip-flop</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351375/nielit-scientific-assistant-a-2020-november-85\" target=\"_blank\">https://gateoverflow.in/351375/nielit-scientific-assistant-a-2020-november-85</a></p>"
+        }
+      ]
+    }
+  ]
+});

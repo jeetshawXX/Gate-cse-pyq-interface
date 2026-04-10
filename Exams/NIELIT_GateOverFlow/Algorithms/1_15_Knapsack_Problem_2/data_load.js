@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Knapsack Problem",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Knapsack Problem",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336375\"></a><div itemprop=\"text\"><p>\\( 0/1 \\)-Knapsack is a well known problem where, it is desired to get the maximum total profit by placing \\( n \\) items (each item is having some weight and associated profit) into a knapsack of capacity \\( W \\). The table given below shows the weights and associated profits for \\( 5 \\) items, where one unit of each item is available to you. It is also given that the knapsack capacity \\( W \\) is \\( 8 \\). If the given \\( 0/1 \\) knapsack problem is solved using Dynamic Programming, which one of the following will be maximum earned profit by placing the items into the knapsack of capacity \\( 8 \\).&nbsp;\\[ \\begin{array}{|c|c|c|}\\hline \\textbf{Item#}&amp;\\textbf{Weight}&amp;\\textbf{Associated Profit} \\\\\\hline \\text{1}&amp;\\text{1}&amp;\\text{3}\\\\\\hline\\text{2}&amp;\\text{2}&amp;\\text{5}\\\\\\hline\\text{3}&amp;\\text{4}&amp;\\text{9}\\\\\\hline\\text{4}&amp;\\text{5}&amp;\\text{11}\\\\\\hline\\text{5}&amp;\\text{8}&amp;\\text{18} \\\\\\hline\\end{array} \\]</p>\n\n</div><br><br><b>Algorithms: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 19 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336375/nielit-2017-july-scientist-b-it-section-b-60\" target=\"_blank\">https://gateoverflow.in/336375/nielit-2017-july-scientist-b-it-section-b-60</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351396\"></a><div itemprop=\"text\"><p>Which of the following is a correct time complexity to solve the \\( 0/1 \\) knapsack problem&nbsp;where \\( n \\) and \\( w \\) represents the number of items and capacity of knapsack respectively?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(w) \\)</p>",
+            "<p>\\( O(nw) \\)</p>",
+            "<p>\\( O(n+w) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(nw) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351396/nielit-scientific-assistant-a-2020-november-64\" target=\"_blank\">https://gateoverflow.in/351396/nielit-scientific-assistant-a-2020-november-64</a></p>"
+        }
+      ]
+    }
+  ]
+});

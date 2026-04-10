@@ -1,0 +1,490 @@
+{
+  "title": "Databases - SQL",
+  "duration": 91,
+  "sections": [
+    {
+      "name": "SQL",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"69558\"></a><div itemprop=\"text\"><p>Consider a database table \\( R \\) with attributes \\( A \\) and \\( B \\). Which of the following \\( SQL \\) queries is illegal ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | August 2016 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SELECT A FROM R;</p>",
+            "<p>SELECT A, COUNT(*) FROM R;</p>",
+            "<p>SELECT A, COUNT(*) FROM R GROUP BY A;</p>",
+            "<p>SELECT A, B, COUNT(*) FROM R GROUP BY A, B;</p>"
+          ],
+          "correct_answer": "<p>SELECT A, COUNT(*) FROM R;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/69558/ugc-net-cse-august-2016-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/69558/ugc-net-cse-august-2016-part-2-question-20</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"70775\"></a><div itemprop=\"text\"><p>Consider the following ORACLE relations :</p><p>One \\( (x, y) = \\{&lt;2, 5&gt;, &lt;1, 6&gt;, &lt;1, 6&gt;, &lt;1, 6&gt;, &lt;4, 8&gt;, &lt;4, 8&gt; \\} \\)&nbsp;</p><p>Two \\( (x, y) = \\{&lt;2, 55&gt;, &lt;1, 1&gt;, &lt;4, 4&gt;, &lt;1, 6&gt;, &lt;4, 8&gt;, &lt;4, 8&gt;, &lt;9, 9&gt;, &lt;1, 6&gt; \\} \\)</p><p>Consider the following two \\( SQL \\) queries \\( SQ1 \\) and \\( SQ2 \\) :</p><p>SQ1 :</p><p>&nbsp; &nbsp; &nbsp; SELECT * FROM One)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EXCEPT</p><p>&nbsp; &nbsp; &nbsp;(SELECT * FROM Two);</p><p>SQ2 :</p><p>&nbsp; &nbsp; &nbsp; &nbsp; SELECT * FROM One)</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;EXCEPT ALL</p><p>&nbsp; &nbsp; &nbsp; &nbsp; (SELECT * FROM Two);</p><p>For each of the SQL queries, what is the cardinality (number of rows) of the result obtained when applied to the instances above ?</p></div><br><br><b>Databases: UGC NET CSE | August 2016 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>2 and 1 respectively</p>",
+            "<p>1 and 2 respectively</p>",
+            "<p>2 and 2 respectively</p>",
+            "<p>1 and 1 respectively</p>"
+          ],
+          "correct_answer": "<p>1 and 2 respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70775/ugc-net-cse-august-2016-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/70775/ugc-net-cse-august-2016-part-3-question-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"63664\"></a><div itemprop=\"text\"><p>What deletes the entire file except the file structure ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2011 | Part 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ERASE</p>",
+            "<p>DELETE</p>",
+            "<p>ZAP</p>",
+            "<p>PACK</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63664/ugc-net-cse-december-2011-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/63664/ugc-net-cse-december-2011-part-2-question-21</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"63668\"></a><div itemprop=\"text\"><p>Which command classes text file, which has been created using \"SET ALTERNATIVE\"&nbsp;\"Command\"&nbsp;?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2011 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>SET ALTERNATE OFF</p>",
+            "<p>CLOSE DATABASE</p>",
+            "<p>CLOSE ALTERNATE</p>",
+            "<p>CLEAR ALL</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63668/ugc-net-cse-december-2011-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/63668/ugc-net-cse-december-2011-part-2-question-22</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"63672\"></a><div itemprop=\"text\"><p>Which of the following statements is true, when structure of database file with 20 records is modified ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2011 | Part 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>? EOF ( ) Prints. T</p>",
+            "<p>? BOF ( ) Prints F</p>",
+            "<p>? BOF ( ) Prints T</p>",
+            "<p>? EOF ( ) Prints F</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63672/ugc-net-cse-december-2011-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/63672/ugc-net-cse-december-2011-part-2-question-24</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"63675\"></a><div itemprop=\"text\"><p>The \\( SQL \\) Expression Select distinct \\( T \\). branch name from branch \\( T \\), branch \\( S \\) where \\( T \\). assets \\( &gt; S \\). assets and \\( S \\). branch-city = DELHI, finds the name of</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2011 | Part 2 | Question: 25</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>All branches that have greater asset than any branch located in DELHI.</p>",
+            "<p>All branches that have greater assets than allocated in DELHI.</p>",
+            "<p>The branch that has the greatest asset in DELHI.</p>",
+            "<p>Any branch that has greater asset than any branch located in DELHI.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63675/ugc-net-cse-december-2011-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/63675/ugc-net-cse-december-2011-part-2-question-25</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"57213\"></a><div itemprop=\"text\"><p>Given a Relation POSITION (Posting-No, Skill), then the query to retrieve all distinct pairs of posting-nos. requiring skill is</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2012 | Part 2 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Select p.posting-No, p.posting-No from position p where p.skill=p.skill and p.posting-No &lt; p.posting-No</p>",
+            "<p>Select p\\( _1 \\).posting-No, p\\( _2 \\).posting-No from position p\\( _1 \\), position p\\( _2 \\)&nbsp; where p\\( _1 \\).skill=p\\( _2 \\).skill</p>",
+            "<p>Select p\\( _1 \\).posting-No, p\\( _2 \\).posting-No from position p\\( _1 \\), position p\\( _2 \\)&nbsp; where p\\( _1 \\).skill=p\\( _2 \\).skill and p\\( _1 \\).posting.No &lt; p\\( _2 \\).posting-No</p>",
+            "<p>Select p\\( _1 \\).posting-No, p\\( _2 \\).posting-No from position p\\( _1 \\), position p\\( _2 \\)&nbsp; where p\\( _1 \\).skill=p\\( _2 \\).skill and p\\( _1 \\).posting.No = p\\( _2 \\).posting-No</p>"
+          ],
+          "correct_answer": "<p>Select p\\( _1 \\).posting-No, p\\( _2 \\).posting-No from position p\\( _1 \\), position p\\( _2 \\)&nbsp; where p\\( _1 \\).skill=p\\( _2 \\).skill and p\\( _1 \\).posting.No &lt; p\\( _2 \\).posting-No</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57213/ugc-net-cse-december-2012-part-2-question-50\" target=\"_blank\">https://gateoverflow.in/57213/ugc-net-cse-december-2012-part-2-question-50</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"60751\"></a><div itemprop=\"text\"><p>Consider the table student (stuid, name, course, marks). Which one of the following two queries is correct to find the highest marks student in course 5?</p>\n\n<p>Q.1. Select S.stuid from student S where not exist (select * from student e where e course ='5' and e marks \\( \\geq \\) s marks)</p>\n\n<p>Q.2. select s.stu.id From student S where s.marks &gt; any (select distinct marks from student S where s.course =5)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2013 | Part 3 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Q.1</p>",
+            "<p>Q.2</p>",
+            "<p>Both Q.1 and Q.2</p>",
+            "<p>Neither Q.1 nor Q.2</p>"
+          ],
+          "correct_answer": "<p>Q.2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60751/ugc-net-cse-december-2013-part-3-question-58\" target=\"_blank\">https://gateoverflow.in/60751/ugc-net-cse-december-2013-part-3-question-58</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"59139\"></a><div itemprop=\"text\"><p>Division operation is ideally suited to handle queries of the type :&nbsp;</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Customers who have no account in any of the branches in Delhi.&nbsp;</p>",
+            "<p>Customers who have an account at all branches in Delhi.&nbsp;</p>",
+            "<p>Customers who have an account in atleast one branch in Delhi.&nbsp;</p>",
+            "<p>Customers who have only joint account in any one branch in Delhi&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Customers who have an account at all branches in Delhi.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59139/ugc-net-cse-december-2014-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/59139/ugc-net-cse-december-2014-part-2-question-16</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"59140\"></a><div itemprop=\"text\"><p>Which of the following is true ?</p>\n\n<p>I. Implementation of self-join is possible in SQL with table alias.</p>\n\n<p>II. Outer-join operation is basic operation in relational algebra.</p>\n\n<p>III. Natural join and outer join operations are equivalent.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( I \\) and \\( II \\) are correct.</p>",
+            "<p>\\( II \\) and \\( III \\) are correct.&nbsp;</p>",
+            "<p>Only \\( III \\) is correct.</p>",
+            "<p>Only \\( I \\) is correct.</p>"
+          ],
+          "correct_answer": "<p>Only \\( I \\) is correct.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59140/ugc-net-cse-december-2014-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/59140/ugc-net-cse-december-2014-part-2-question-17</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"62239\"></a><div itemprop=\"text\"><p>Consider a \"CUSTOMERS\" database table having a column \"CITY\" filled with all the names of Indian cities (in capital letters). The SQL statement that finds all cities that have \"GAR\" somewhere in its name, is:</p>\n\n<pre class=\"prettyprint linenums lang-sql\">A. select * from customers where city='%GAR%';\n</pre>\n\n<pre class=\"prettyprint linenums lang-sql\">B. select * from customers where city='\\( GAR \\)';\n</pre>\n\n<pre class=\"prettyprint linenums lang-c_cpp\">C. select * from customers where city like '%GAR%';</pre>\n\n<pre class=\"prettyprint linenums lang-c_cpp\">D. select * from customers where city as'%GAR';\n</pre></div><br><br><b>Databases: UGC NET CSE | December 2015 | Part 2 | Question: 13</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62239/ugc-net-cse-december-2015-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/62239/ugc-net-cse-december-2015-part-2-question-13</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"33100\"></a><div itemprop=\"text\"><p>Consider the following database table:</p>\n\n<pre>Create table test(\n    one integer,\n    two integer,\n    primary key(one),\n    unique(two),\n    check(one&gt;=1 and &lt;=10),\n    check (two&gt;=1 and &lt;=5)\n    );</pre>\n\n<p>How many data records/tuples atmost can this table contain?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2015 | Part 3 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/33100/ugc-net-cse-december-2015-part-3-question-59\" target=\"_blank\">https://gateoverflow.in/33100/ugc-net-cse-december-2015-part-3-question-59</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"62728\"></a><div itemprop=\"text\"><p>Suppose ORACLE relation \\( R(A,B) \\) currently has tuples \\( \\{(1,2), (1,3), (3,4)\\} \\) and relation \\( S(B,C) \\) currently has \\( \\{(2,5), (4,6), (7,8)\\} \\).Consider the following two SQL queries SQ1 and SQ2:</p>\n\n<pre class=\"prettyprint linenums lang-sql\">SQ1:    Select * From R Full Join S On R.B=S.B;\nSQ2:    Select * From R Inner Join S On R.B=S.B;</pre>\n\n<p>The numbers of tuples in the result of the SQL query SQ1 and the SQL query SQ2 are given by:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2015 | Part 3 | Question: 60</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) and \\( 6 \\) respectively</p>",
+            "<p>\\( 6 \\) and \\( 2 \\) respectively</p>",
+            "<p>\\( 2 \\) and \\( 4 \\) respectively</p>",
+            "<p>\\( 4 \\) and \\( 2 \\) respectively</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\) and \\( 2 \\) respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62728/ugc-net-cse-december-2015-part-3-question-60\" target=\"_blank\">https://gateoverflow.in/62728/ugc-net-cse-december-2015-part-3-question-60</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"62731\"></a><div itemprop=\"text\"><p>Consider the following three SQL queries (Assume the data in the people table):</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Select Name from people where \\( \\text{Age}&gt;21 \\);</li>\n\t<li>Select Name from people where \\( \\text{Height}&gt;180 \\);</li>\n\t<li>Select Name from people where \\( (\\text{Age}&gt;21) \\) or \\( (\\text{Height}&gt;180) \\);</li>\n</ol>\n\n<p>If the SQL queries \\( a \\) and \\( b \\) above, return \\( 10 \\) rows and \\( 7 \\) rows in the result set respectively, then what is one possible number of rows returned by the SQL query \\( c \\)?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2015 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 21 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62731/ugc-net-cse-december-2015-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/62731/ugc-net-cse-december-2015-part-3-question-61</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"360811\"></a><div itemprop=\"text\"><p>Given two tables</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">EMPLOYEE (<u>EID</u>, ENAME, DEPTNO)\nDEPARTMENT (<u>DEPTNO</u>, DEPTNAME)</pre>\n\n<p>Find the most appropriate statement of the given query:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">Select count (*) ‘total’\nfrom EMPLOYEE\nwhere DEPTNO IN (D1,D2)\ngroup by DEPTNO\nhaving count (*) &gt;5</pre>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2019 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Total number of employees in each department \\( D1 \\) and \\( D2 \\)</p>",
+            "<p>Total number of employees of department \\( D1 \\) and \\( D2 \\) if their total is \\( &gt;5 \\)</p>",
+            "<p>Display total number of employees in both departments \\( D1 \\) and \\( D2 \\)</p>",
+            "<p>The output of the query must have at least two rows</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/360811/ugc-net-cse-december-2019-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/360811/ugc-net-cse-december-2019-part-2-question-22</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"335146\"></a><div itemprop=\"text\"><p>Integrity constraints ensure that changes made to the database by authorized users do not result into loss of data consistency. Which of the following statement(s) is (are) true w.r.t.the examples of integrity constraints?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>An instructor Id. No. cannot be null, provided Instructor&nbsp; Id No. being primary key.</li>\n\t<li>No two citizens have same Adhar-ld.</li>\n\t<li>Budget of a company must be zero.</li>\n</ol>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a, b and c are true.</p>",
+            "<p>a false, b and c are true.</p>",
+            "<p>a and b are true;&nbsp;c false.</p>",
+            "<p>a,b and c are false.</p>"
+          ],
+          "correct_answer": "<p>a and b are true;&nbsp;c false.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335146/ugc-net-cse-january-2017-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/335146/ugc-net-cse-january-2017-part-2-question-17</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"335227\"></a><div itemprop=\"text\"><p>Consider the following relation:</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">Works(emp_name, company_name,salary)</pre>\n\n<p>Here,emp name is primary key.</p>\n\n<p>Consider the following SQL query</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">Select emp name\nFrom works T\nwhere salary &gt; (select avg(salary)\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;from works S\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where&nbsp; T. company name =\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S. company name)</pre>\n\n<p>The above query is for&nbsp;following:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Find the highest paid employee who earns more&nbsp; than the average salary of all employees of his company.</p>",
+            "<p>Find the highest paid employee who earns more&nbsp; than the average salary of all&nbsp; the employees of all the&nbsp;companies.</p>",
+            "<p>Find all employees who earn more than the average salary of all employees all the companies.</p>",
+            "<p>Find all employees who earn more than the&nbsp;average salary of all employees of their company.</p>"
+          ],
+          "correct_answer": "<p>Find all employees who earn more than the&nbsp;average salary of all employees of their company.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335227/ugc-net-cse-january-2017-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/335227/ugc-net-cse-january-2017-part-3-question-11</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"63129\"></a><div itemprop=\"text\"><p>Consider the following two comments C1 and C2 on the relation R from an SQL database:&nbsp;</p>\n\n<p>C1 : drop table R;</p>\n\n<p>C2 : delete from R</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Both C1 and C2 delete the schema R</li>\n\t<li>C2 retains relation &nbsp;R, but delets all tuples in R</li>\n\t<li>C1 deletes not only all tuples, but also the schema for R\n\t\n\t</li>\n</ol></div><br><br><b>Databases: UGC NET CSE | July 2016 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>I and II only</p>",
+            "<p>II and III only</p>",
+            "<p>I, II and III only</p>"
+          ],
+          "correct_answer": "<p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63129/ugc-net-cse-july-2016-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/63129/ugc-net-cse-july-2016-part-2-question-19</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"63620\"></a><div itemprop=\"text\"><p>Consider the following ORACLE relations:</p>\n\n<p>R(A, B, C)={&lt;1, 2, 3&gt;, &lt;1, 2, 0&gt;, &lt;1, 3, 1&gt;, &lt;6, 2, 3&gt;, &lt;1, 4, 2&gt;, &lt;3, 1, 4&gt;}</p>\n\n<p>S(B, C, D)={&lt;2, 3, 7&gt;, &lt;1, 4, 5&gt;, &lt;1, 2, 3&gt;, &lt;2, 3, 4&gt;, &lt;3, 1, 4&gt;}</p>\n\n<p>Consider teh following two SQL queries:</p>\n\n<p>SQ\\( _1 \\); SELECT R.B, AVG(S.B) FROM R, S WHERE R.A=S.C AND S.D&lt;7 GROUP BY R.B</p>\n\n<p>SQ\\( _2 \\): SELECT DISTINCT S.B, MIN(S-C) FROM S GROUP BY S.B HAVING COUNT (DISTINCT S.D)&gt;1;</p>\n\n<p>If M is the number of tuples returned by SQ\\( _1 \\) and&nbsp;If N&nbsp;is the number of tuples returned by SQ\\( _2 \\) then</p>\n\n</div><br><br><b>Databases: UGC NET CSE | July 2016 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>M=4, N=2</p>",
+            "<p>M=5, N=3</p>",
+            "<p>M=2, N=2</p>",
+            "<p>M=3, N=3</p>"
+          ],
+          "correct_answer": "<p>M=4, N=2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63620/ugc-net-cse-july-2016-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/63620/ugc-net-cse-july-2016-part-3-question-11</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"67849\"></a><div itemprop=\"text\"><p>Which data management language component enabled the DBA to define the schema components ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2010 | Part 2 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>DML</p>",
+            "<p>Sub-schema DLL</p>",
+            "<p>Schema DLL</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67849/ugc-net-cse-june-2010-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/67849/ugc-net-cse-june-2010-part-2-question-19</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"67851\"></a><div itemprop=\"text\"><p>The PROJECT Command will create new table that has</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2010 | Part 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>More fields than the original table</p>",
+            "<p>More rows than original table</p>",
+            "<p>Both (A) &amp; (B)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67851/ugc-net-cse-june-2010-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/67851/ugc-net-cse-june-2010-part-2-question-20</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"58261\"></a><div itemprop=\"text\">\n<p>The employee information of an organization is stored in a relation: Employee (name, sex, salary, deptname). Consider the following SQL query:</p>\n\n<pre class=\"prettyprint lang-sql\">Select deptname from Employee where sex=’M’ group by dept name having \navg (salary) &gt; {select avg (salary) from Employee}</pre>\n\n<p>Output of the given query corresponds to</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | June 2013 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Average salary of employee more than average salary of the organization</p>",
+            "<p>Average salary of employee less than average salary of the organization</p>",
+            "<p>Average salary of employee equal to average salary of the organization</p>",
+            "<p>Average salary of male employees in a department is more than average salary of the organization</p>"
+          ],
+          "correct_answer": "<p>Average salary of male employees in a department is more than average salary of the organization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58261/ugc-net-cse-june-2013-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/58261/ugc-net-cse-june-2013-part-3-question-8</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"316242\"></a><div itemprop=\"text\"><p>Which of the following statements are DML statements?</p>\n\n\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>&nbsp;a and b</li>\n\t<li>a and d</li>\n\t<li>a, b and c</li>\n\t<li>b and c</li>\n</ol></div><br><br><b>Databases: UGC NET CSE | June 2019 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Update [tablename]</p>\n\n\t<p>Set [columnname]=VALUE</p>",
+            "<p>Delete [tablename]</p>",
+            "<p>Select * from [tablename]</p>"
+          ],
+          "correct_answer": "<p>Select * from [tablename]</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316242/ugc-net-cse-june-2019-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/316242/ugc-net-cse-june-2019-part-2-question-37</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"60961\"></a><div itemprop=\"text\"><p>An Assertion is predicate expressing a condition we wish database to always satisfy. The correct syntax for Assertion is:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | Junet 2015 | Part 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>CREATE ASSERTION 'ASSERTION Name' CHECK 'Predicate'</p>",
+            "<p>CREATE ASSERTION 'ASSERTION Name'</p>",
+            "<p>CREATE ASSERTION, CHECK 'Predicate'</p>",
+            "<p>SELECT ASSERTION</p>"
+          ],
+          "correct_answer": "<p>CREATE ASSERTION 'ASSERTION Name' CHECK 'Predicate'</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60961/ugc-net-cse-junet-2015-part-2-question-16\" target=\"_blank\">https://gateoverflow.in/60961/ugc-net-cse-junet-2015-part-2-question-16</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"60963\"></a><div itemprop=\"text\"><p>Drop Table cannot be used to drop a Table referenced by _______ constraint</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>Primary key</li>\n\t<li>Sub key</li>\n\t<li>Super key</li>\n\t<li>Foreign key</li>\n</ol>\n\n</div><br><br><b>Databases: UGC NET CSE | Junet 2015 | Part 2 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a</p>",
+            "<p>a, b and c</p>",
+            "<p>d</p>",
+            "<p>a and d</p>"
+          ],
+          "correct_answer": "<p>d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60963/ugc-net-cse-junet-2015-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/60963/ugc-net-cse-junet-2015-part-2-question-18</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"61150\"></a><div itemprop=\"text\"><p>The STUDENT information in a university stored in the relation STUDENT (Name, SEX, Marks, DEPT_Name). COnsider the following SQL Query:</p>\n\n<pre class=\"prettyprint lang-sql\">SELECT DEPT_Name from STUDENT where SEX='M'\ngroup by DEPT_Name having avg(Marks)&gt;SELECT avg(Marks) from STUDENT</pre>\n\n<p>It returns the name of the department for which</p>\n\n</div><br><br><b>Databases: UGC NET CSE | Junet 2015 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The average marks of Male students is more than the average marks of students in the department</p>",
+            "<p>The average marks of Male students is more than the average marks of students in the university</p>",
+            "<p>The average marks of students is more than the average marks of male students in the university</p>",
+            "<p>The average marks of Male students is more than the average marks of male students in the university</p>"
+          ],
+          "correct_answer": "<p>The average marks of Male students is more than the average marks of students in the university</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61150/ugc-net-cse-junet-2015-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/61150/ugc-net-cse-junet-2015-part-3-question-8</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"166387\"></a><div itemprop=\"text\"><p>Given two relations \\( R_1(A,B) \\) and \\( R_2(C,D) \\), the result of following query</p>\n\n<pre class=\"prettyprint lang-sql\">Select distinct A, B  \nFrom R1, R2</pre>\n\n<p>Is guaranteed to be same as R<sub>1</sub> provided one of the following condition is satisfied.</p>\n\n</div><br><br><b>Databases: UGC NET CSE | November 2017 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R_1 \\) has no duplicates and \\( R_2 \\) is empty.</p>",
+            "<p>\\( R_1 \\) has no duplicates and \\( R_2 \\) is non-empty.</p>",
+            "<p>Both \\( R_1 \\) and \\( R_2 \\) have no duplicates.</p>",
+            "<p>\\( R_2 \\) has no duplicates and \\( R_1 \\) is non – empty.</p>"
+          ],
+          "correct_answer": "<p>\\( R_1 \\) has no duplicates and \\( R_2 \\) is non-empty.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166387/ugc-net-cse-november-2017-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/166387/ugc-net-cse-november-2017-part-3-question-11</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"349573\"></a><div itemprop=\"text\">\n\n<p>Consider the following table structures related to a university for the below question.</p>\n\n<p><u><strong>EMPLOYEE</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    NAME VARCHAR (30) NOT NULL,\n    EID VARCHAR (10) NOT NULL,\n    DEPTNO INT (5) NOT NULL,\n    HODEID VARCHAR (10),\n    SALARY INT (10),\nPRIMARY KEY (EID),\nFOREIGN KEY (HODEID) REFERENCES EMPLOYEE (EID),\nFOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT (DID);</pre>\n\n<p><strong><u>DEPARTMENT</u></strong></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    DID INT (5) NOT NULL,\n    DNAME VARCHAR(30) NOT NULL,\n    HODID VARCHAR (10) NOT NULL,\n&nbsp;   HODNAME VARCHAR (30),\nPRIMARY KEY (DID),\nUNIQUE (DNAME),\nFOREIGN KEY (HODID) REFERENCES EMPLOYEE (EID)</pre>\n\n<p><u><strong>PROJECT WORK:</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    EMPID VARCHAR (10) NOTNULL,\n    PROJNO INT(5) NOT NULL,\n    PROJECTLOC VARCHAR (30) NOT NULL,\nPRIMARY KEY (EMPID, PROJNO),\nFOREIGN KEY (EMPID) REFERENCES EMPLOYEE (EID),</pre>\n\n<p>Refer table, structures given above, University decided to give all employees in the ‘SCIENCE’ department a \\( 20\\% \\) rise in salary. Which of the following query/queries will compute the above results?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">UPDATE EMPLOYEE\nSET SALARY = SALARY*1.20\nWHERE DEPT NO. IN (SELECT DID FROM DEPARTMENT WHERE DNAME = ‘SCIENCE’);\n</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">UPDATE TABLE EMPLOYEE \nSET SALARY = SALARY*1.20 WHERE DNAME=’SCIENCE’;&nbsp;</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">ALTER TABLE EMPLOYEE\nSET SALARY=SALARY*1.20 \nWHERE DEPTNO. IN (SELECT DNAME FROM DEPARTMENT WHERE DNAME = ‘SCEINCE’)\n</pre>\n\t</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( a \\) and \\( b \\) only</li>\n\t<li>\\( a \\) only</li>\n\t<li>\\( b \\) and \\( c \\) only</li>\n\t<li>\\( c \\) only</li>\n</ol></div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 100</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349573/ugc-net-cse-october-2020-part-2-question-100\" target=\"_blank\">https://gateoverflow.in/349573/ugc-net-cse-october-2020-part-2-question-100</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"349577\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Consider the following table structures related to a university for the below question.</p>\n\n<p><u><strong>EMPLOYEE</strong></u></p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    NAME VARCHAR (30) NOT NULL,\n    EID VARCHAR (10) NOT NULL,\n    DEPTNO INT (5) NOT NULL,\n    HODEID VARCHAR (10),\n    SALARY INT (10),\nPRIMARY KEY (EID),\nFOREIGN KEY (HODEID) REFERENCES EMPLOYEE (EID),\nFOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT (DID);</pre>\n\n<p><strong><u>DEPARTMENT</u></strong></p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    DID INT (5) NOT NULL,\n    DNAME VARCHAR(30) NOT NULL,\n    HODID VARCHAR (10) NOT NULL,\n&nbsp;   HODNAME VARCHAR (30),\nPRIMARY KEY (DID),\nUNIQUE (DNAME),\nFOREIGN KEY (HODID) REFERENCES EMPLOYEE (EID)</pre>\n\n<p><u><strong>PROJECT WORK:</strong></u></p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    EMPID VARCHAR (10) NOTNULL,\n    PROJNO INT(5) NOT NULL,\n    PROJECTLOC VARCHAR (30) NOT NULL,\nPRIMARY KEY (EMPID, PROJNO),\nFOREIGN KEY (EMPID) REFERENCES EMPLOYEE (EID),</pre>\n\n<p>On the basis of above given table structures, retrieve the distinct employee ID (EMPID) of all employees of university who are working on project. No. \\( 20, 30 \\) and \\( 40 \\)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 96</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT EMPID FROM PROJECTWORK WHERE PROJNO=(20,30,40);</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT EMPID FROM PROJECTWORK WHERE PROJNO IN (20,30,40);\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT EMPID&nbsp;FROM PROJECTWORK WHERE PROJNO IN(20,30,40);\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT EMPID&nbsp;FROM PROJECTWORK WHERE PROJNO=20,30,40;\n</pre></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT DISTINCT EMPID&nbsp;FROM PROJECTWORK WHERE PROJNO IN(20,30,40);\n</pre></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349577/ugc-net-cse-october-2020-part-2-question-96\" target=\"_blank\">https://gateoverflow.in/349577/ugc-net-cse-october-2020-part-2-question-96</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"349576\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Consider the following table structures related to a university for the below question.</p>\n\n<p><u><strong>EMPLOYEE</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    NAME VARCHAR (30) NOT NULL,\n    EID VARCHAR (10) NOT NULL,\n    DEPTNO INT (5) NOT NULL,\n    HODEID VARCHAR (10),\n    SALARY INT (10),\nPRIMARY KEY (EID),\nFOREIGN KEY (HODEID) REFERENCES EMPLOYEE (EID),\nFOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT (DID);</pre>\n\n<p><strong><u>DEPARTMENT</u></strong></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    DID INT (5) NOT NULL,\n    DNAME VARCHAR(30) NOT NULL,\n    HODID VARCHAR (10) NOT NULL,\n&nbsp;   HODNAME VARCHAR (30),\nPRIMARY KEY (DID),\nUNIQUE (DNAME),\nFOREIGN KEY (HODID) REFERENCES EMPLOYEE (EID)</pre>\n\n<p><u><strong>PROJECT WORK:</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    EMPID VARCHAR (10) NOTNULL,\n    PROJNO INT(5) NOT NULL,\n    PROJECTLOC VARCHAR (30) NOT NULL,\nPRIMARY KEY (EMPID, PROJNO),\nFOREIGN KEY (EMPID) REFERENCES EMPLOYEE (EID),</pre>\n\n<p>&nbsp;</p>\n\n<p>Given below are two statements to find the sum of salaries of all employees of the English department as well as the maximum, minimum and average salary in English department</p>\n\n<p>STATEMENT \\( I \\):</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT SUM (SALARY) MAX(SALARY) MIN(SALARY),\nAVG (SALARY) FROM EMPLOYEE, DEPARTMENT\nWHERE DEPTNO=DID AND DNAME=’ENGLISH’</pre>\n\n<p>STATEMENT \\( II \\):</p>\n\n<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT SUM (SALARY), MAX(SALARY), MIN (SALARY),\nAVG (SALARY), FROM EMPLOYEE, DEPARTMENT\nWHERE DNAME=’ENGLISH’</pre>\n\n<p>In the light of the above statements, choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 97</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are true</p>",
+            "<p>Both Statement \\( I \\) and Statement \\( II \\) are false</p>",
+            "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+            "<p>Statement \\( I \\) is incorrect but Statement \\( II \\) is true</p>"
+          ],
+          "correct_answer": "<p>Statement \\( I \\) is correct but Statement \\( II \\) is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349576/ugc-net-cse-october-2020-part-2-question-97\" target=\"_blank\">https://gateoverflow.in/349576/ugc-net-cse-october-2020-part-2-question-97</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"349575\"></a><div itemprop=\"text\"><p>Consider the following table structures related to a university for the below question.</p>\n\n<p><u><strong>EMPLOYEE</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    NAME VARCHAR (30) NOT NULL,\n    EID VARCHAR (10) NOT NULL,\n    DEPTNO INT (5) NOT NULL,\n    HODEID VARCHAR (10),\n    SALARY INT (10),\nPRIMARY KEY (EID),\nFOREIGN KEY (HODEID) REFERENCES EMPLOYEE (EID),\nFOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT (DID);</pre>\n\n<p><strong><u>DEPARTMENT</u></strong></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    DID INT (5) NOT NULL,\n    DNAME VARCHAR(30) NOT NULL,\n    HODID VARCHAR (10) NOT NULL,\n&nbsp;   HODNAME VARCHAR (30),\nPRIMARY KEY (DID),\nUNIQUE (DNAME),\nFOREIGN KEY (HODID) REFERENCES EMPLOYEE (EID)</pre>\n\n<p><u><strong>PROJECT WORK:</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    EMPID VARCHAR (10) NOTNULL,\n    PROJNO INT(5) NOT NULL,\n    PROJECTLOC VARCHAR (30) NOT NULL,\nPRIMARY KEY (EMPID, PROJNO),\nFOREIGN KEY (EMPID) REFERENCES EMPLOYEE (EID),</pre>\n\n<p>Which of the following query/queries return the employee ID and name of employees whose salary is greater than the salary of all employees in department number \\( 20 \\) of university. Order result by employee ID (refer table structures given above).</p>\n\n<ol style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT EID, NAME \nFROM EMPLOYEE \nWHERE SALARY&gt;(SELECT SALARY FROM EMPLOYEE WHERE DEPTNO=20)\nORDER BY EID\n</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT EID, NAME\nFROM EMPLOYEE\nWHERE SALARY&gt;(SELECT SALARY FROM EMPLOYEE WHERE DEPTNO=20);\n</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">SELECT EID, NAME\nFROM EMPLOYEE\nWHERE SALARY &gt; ALL(SELECT SALARY FROM EMPLOYEE WHERE DEPTNO=20)\nORDER BY EID</pre>\n\n\t<p>&nbsp;</p>\n\t</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 98</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( i \\) and \\( ii \\) only</p>",
+            "<p>\\( i \\) and \\( iii \\) only</p>",
+            "<p>\\( ii \\) only</p>",
+            "<p>\\( iii \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( iii \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349575/ugc-net-cse-october-2020-part-2-question-98\" target=\"_blank\">https://gateoverflow.in/349575/ugc-net-cse-october-2020-part-2-question-98</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"349574\"></a><div itemprop=\"text\">\n\n<p>Consider the following table structures related to a university for the below question.</p>\n\n<p><u><strong>EMPLOYEE</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    NAME VARCHAR (30) NOT NULL,\n    EID VARCHAR (10) NOT NULL,\n    DEPTNO INT (5) NOT NULL,\n    HODEID VARCHAR (10),\n    SALARY INT (10),\nPRIMARY KEY (EID),\nFOREIGN KEY (HODEID) REFERENCES EMPLOYEE (EID),\nFOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT (DID);</pre>\n\n<p><strong><u>DEPARTMENT</u></strong></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    DID INT (5) NOT NULL,\n    DNAME VARCHAR(30) NOT NULL,\n    HODID VARCHAR (10) NOT NULL,\n&nbsp;   HODNAME VARCHAR (30),\nPRIMARY KEY (DID),\nUNIQUE (DNAME),\nFOREIGN KEY (HODID) REFERENCES EMPLOYEE (EID)</pre>\n\n<p><u><strong>PROJECT WORK:</strong></u></p>\n\n<pre data-pbcklang=\"sql\" data-pbcktabsize=\"4\">    EMPID VARCHAR (10) NOTNULL,\n    PROJNO INT(5) NOT NULL,\n    PROJECTLOC VARCHAR (30) NOT NULL,\nPRIMARY KEY (EMPID, PROJNO),\nFOREIGN KEY (EMPID) REFERENCES EMPLOYEE (EID),</pre>\n\n<p>In reference to the above given table structures, which of the following query/queries will drop the ‘SALARY’ column from ‘EMPLOYEE’ table?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">ALTER TABLE EMPLOYEE DROP SALARY CASCADE\n</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">ALTER TABLE EMPLOYEE DROP SALARY RESTRICT\n</pre>\n\t</li>\n\t<li>\n\t<pre class=\"prettyprint linenums lang-sql\" data-pbcklang=\"sql\" data-pbcktabsize=\"4\">ALTER EMPLOYEE DROP SALARY\n</pre>\n\t</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( a \\) and \\( b \\) only</li>\n\t<li>\\( a \\) and \\( c \\) only</li>\n\t<li>\\( b \\) and \\( c \\) only</li>\n\t<li>\\( a \\) only</li>\n</ol></div><br><br><b>Databases: UGC NET CSE | October 2020 | Part 2 | Question: 99</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349574/ugc-net-cse-october-2020-part-2-question-99\" target=\"_blank\">https://gateoverflow.in/349574/ugc-net-cse-october-2020-part-2-question-99</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"59697\"></a><div itemprop=\"text\"><p>The SQL expression</p>\n\n<pre class=\"prettyprint lang-sql\">Select distinct T.branch_name from branch T, branch S \nwhere T.assets&gt;S.assets and S.branch_city = “Mumbai”</pre>\n\n<p>finds the names of</p>\n\n</div><br><br><b>Databases: UGC NET CSE | September 2013 | Part 3 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>All branches that have greater assets than some branch located in Mumbai</p>",
+            "<p>All branches that have greater assets than all branches in Mumbai</p>",
+            "<p>The branch that has greatest asset in Mumbai</p>",
+            "<p>Any branch that has greater assets than any branch in Mumbai</p>"
+          ],
+          "correct_answer": "<p>All branches that have greater assets than some branch located in Mumbai</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59697/ugc-net-cse-september-2013-part-3-question-25\" target=\"_blank\">https://gateoverflow.in/59697/ugc-net-cse-september-2013-part-3-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Engineering Mathematics - Probability - Poisson Distribution",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Poisson Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50563\"></a><div itemprop=\"text\"><p>If the pdf of a Poisson distribution is given by \\( f(x) = \\dfrac{e^{-2} 2^x}{x!} \\) then its mean is</p>\n\n</div><br><br><b>Probability: ISRO CSE 2009 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^x \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( -2 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50563/isro-cse-2009-question-66\" target=\"_blank\">https://gateoverflow.in/50563/isro-cse-2009-question-66</a></p>"
+        }
+      ]
+    }
+  ]
+}

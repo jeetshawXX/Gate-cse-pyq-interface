@@ -1,0 +1,232 @@
+{
+  "title": "Deadlock - Deadlock - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Deadlock",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>\\(P = \\{P_1, P_2, P_3, P_4\\} \\) consists of all active processes in an operating system.\n\\(R = \\{R_1, R_2, R_3, R_4\\} \\) consists of single instances of distinct types of resources in the system.  <br>\nThe resource allocation graph has the following assignment and claim edges.<br><br>\n\\(\n\\text{Assignment edges: } R_1 \\to P_1,  R_2 \\to P_2,  R_3 \\to P_3,  R_4 \\to P_4\n\\) (the assignment edge \\(R_1 \\to P_1\\) means resource \\(R_1\\) is assigned to process \\(P_1\\), and so on for others) <br><br>\n\\(\n\\text{Claim edges: } P_1 \\to R_2, P_2 \\to R_3, P_3 \\to R_1, P_2 \\to R_4, P_4 \\to R_2\n\\) (the claim edge \\(P_1 \\to R_2\\) means process \\(P_1\\) is waiting for resource \\(R_2\\), and so on for others)  <br><br>\nWhich of the following statement(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Aborting \\(P_1 \\) makes the system deadlock free.</p>",
+            "<b>B.</b> <p>Aborting \\(P_3 \\) makes the system deadlock free.</p>",
+            "<b>C.</b> <p>Aborting \\(P_2 \\) makes the system deadlock free.</p>",
+            "<b>D.</b> <p>Aborting \\(P_1 \\) and \\(P_4 \\) makes the system deadlock free.</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>Aborting \\(P_2 \\) makes the system deadlock free.</p>",
+            "<b>D.</b> <p>Aborting \\(P_1 \\) and \\(P_4 \\) makes the system deadlock free.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460797/gate-cse-2025-set-2-question-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following statements is/are TRUE with respect to deadlocks? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Circular wait is a necessary condition for the formation of deadlock.</p>",
+            "<b>B.</b> <p>In a system where each resource has more than one instance, a cycle in its wait-for graph indicates the presence of a deadlock.</p>",
+            "<b>C.</b> <p>If the current allocation of resources to processes leads the system to unsafe state, then deadlock will necessarily occur.</p>",
+            "<b>D.</b> <p>In the resource-allocation graph of a system, if every edge is an assignment edge, then the system is not in deadlock state.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Circular wait is a necessary condition for the formation of deadlock.</p>",
+            "<b>D.</b> <p>In the resource-allocation graph of a system, if every edge is an assignment edge, then the system is not in deadlock state.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371920/Gate-cse-2022-question-16#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following snapshot of a system running n concurrent processes. Process \\(i\\) is holding \\(X_i\\) instances of a resource R, \\( 1\\leq i\\leq n\\). Assume that all instances of R are currently in use. Further, for all \\(i\\), process \\(i\\) can place a request for at most \\(Y_i\\) additional instances of R while holding the \\(X_i\\) instances it already has. Of the n processes, there are exactly two processes p and q such that \\(Y_p=Y_q=0\\). Which one of the following conditions guarantees that no other process apart from p and q can complete execution? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X_p+X_q \\lt Min \\{Y_k|1\\leq k\\leq n,k\\neq p,k\\neq q\\}\\)</p>",
+            "<b>B.</b> <p>\\(X_p+X_q \\lt Max \\{Y_k|1\\leq k\\leq n,k\\neq p,k\\neq q\\}\\)</p>",
+            "<b>C.</b> <p>\\(Min(X_p,X_q)\\geq Min \\{Y_k|1\\leq k\\leq n,k\\neq p,k\\neq q\\}\\)</p>",
+            "<b>D.</b> <p>\\(Min(X_p,X_q)\\leq Max \\{Y_k|1\\leq k\\leq n,k\\neq p,k\\neq q\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(X_p+X_q \\lt Min \\{Y_k|1\\leq k\\leq n,k\\neq p,k\\neq q\\}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302809/gate2019-cs-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a system, there are three types of resources: E, F and G. Four processes \\(P_0,P_1,P_2 \\; and \\; P_3\\) execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. For example, Max[\\(P_2\\),F] is the maximum number of instances of F that \\(P_2\\) would require. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation. <br>\nConsider a state of the system with the Allocation matrix as shown below, and in which 3 instances of E and 3 instances of F are the only resources available. <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Deadlock\\q39_f1f4e800.jpg\"> <br> From the perspective of deadlock avoidance, which one of the following is true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The system is in safe state.</p>",
+            "<b>B.</b> <p>The system is not in safe state, but would be safe if one more instance of E were available</p>",
+            "<b>C.</b> <p>The system is not in safe state, but would be safe if one more instance of F were available</p>",
+            "<b>D.</b> <p>The system is not in safe state, but would be safe if one more instance of G were available</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The system is in safe state.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204113/gate2018-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a system with 3 processes that share 4 instances of the same resource type. Each process can request a maximum of K instances. Resource instances can be requested and released only one at a time. The largest value of K that will always avoid deadlock is ____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204098/gate2018-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A system shares 9 tape drives. The current allocation and maximum requirement of tape\ndrives for three processes are shown below: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Deadlock\\q27_9ea2c7ce.jpg\"><br> Which of the following best describes current state of the system ? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Safe, Deadlocked</p>",
+            "<b>B.</b> <p>Safe, Not Deadlocked</p>",
+            "<b>C.</b> <p>Not Safe, Deadlocked</p>",
+            "<b>D.</b> <p>Not Safe, Not deadlocked</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Safe, Not Deadlocked</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118375/gate2017-2-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A multithreaded program P executes with x number of threads and uses y number of locks for\nensuring mutual exclusion while operating on shared memory locations. All locks in the\nprogram are non-reentrant, i.e., if a thread holds a lock l, then it cannot re-acquire lock l\nwithout releasing it. If a thread is unable to acquire a lock, it blocks until the lock becomes\navailable. The minimum value of x and the minimum value of y together for which execution\nof P can result in a deadlock are: <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x = 1, y = 2</p>",
+            "<b>B.</b> <p>x =2, y=1</p>",
+            "<b>C.</b> <p>x = 2,y=2</p>",
+            "<b>D.</b> <p>x = 1, y = 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x = 1, y = 1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118307/gate2017-1-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following policies for preventing deadlock in a system with mutually exclusive resources. <br>\nI. Processes should acquire all their resources at the beginning of execution. If any resource is not available, all resources acquired so far are released <br>\nII. The resources are numbered uniquely, and processes are allowed to request for resources only in increasing resource numbers <br>\nIII. The resources are numbered uniquely, and processes are allowed to request for resources only in decreasing resource numbers <br>\nIV. The resources are numbered uniquely. A process is allowed to request only for a resource with resource number larger than its currently held resources <br>\nWhich of the above policies can be used for preventing deadlock? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any one of I and III but not II or IV</p>",
+            "<b>B.</b> <p>Any one of I, III, and IV but not II</p>",
+            "<b>C.</b> <p>Any one of II and III but not I or IV</p>",
+            "<b>D.</b> <p>Any one of I, II, III, and IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Any one of I, II, III, and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8561/gate2015-3-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A system has 6 identical resources and N processes competing for them. Each process can request atmost 2 resources. Which one of the following values of N could lead to a deadlock? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8114/gate2015-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A system contains three programs and each requires three tape units for its operation. The minimum number of tape units which the system must have such that deadlocks never arise is _________. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2065/gate2014-3-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>An operating system uses the Banker's algorithm for deadlock avoidance when managing the\nallocation of three resource types X, Y, and Z to three processes P0, P1, and P2. The table\ngiven below presents the current system state. Here, the Allocation matrix shows the current\nnumber of resources of each type allocated to each process and the Max matrix shows the\nmaximum number of resources of each type required by each process during its execution. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Deadlock\\q31_dc5dbfd2.jpg\"><br>  There are 3 units of type X, 2 units of type Y and 2 units of type Z still available. The system\nis currently in a safe state. Consider the following independent requests for additional\nresources in the current state: <br>\nREQ1: P0 requests 0 units of X, 0 units of Y and 2 units of Z <br>\nREQ2: P1 requests 2 units of x, 0 units of Y and 0 units of Z  <br> Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only REQ1 can be permitted.</p>",
+            "<b>B.</b> <p>Only REQ2 can be permitted</p>",
+            "<b>C.</b> <p>Both REQ1 and REQ2 can be permitted</p>",
+            "<b>D.</b> <p>Neither REQ1 nor REQ2 can be permitted</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only REQ2 can be permitted</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1800/gate2014-1-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A system has n resources \\(R_{0},...R_{n-1}\\), and k processes \\(P_{0},...P_{k-1}\\). The\nimplementation of the resource request logic of each process \\(P_{i}\\) is as follows:<pre><code> \nif (i%2= = 0) {\n        if (i\\(\\lt\\)n) request \\(R_{i}\\) ;\n        if (i+2\\(\\lt\\)n)request \\(R_{i+2}\\);\n}\nelse {\n         if (i\\(\\lt\\)n) request \\(R_{n-i}\\);\n         if (i+2\\(\\lt\\)n)request \\(R_{n-i-2}\\) ;\n} </code></pre>\nIn which one of the following situations is a deadlock possible? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n = 40,k = 26</p>",
+            "<b>B.</b> <p>n = 21,k = 12</p>",
+            "<b>C.</b> <p>n = 20,k = 10</p>",
+            "<b>D.</b> <p>n = 41,k = 19</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n = 21,k = 12</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2348/gate2010-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a system with 4 types of resources R1 (3 units), R2 (2 units), R3 (3 units), R4 (2 units). A non-preemptive resource allocation policy is used. At any given instance, a request is not entertained if it cannot be completely satisfied. Three processes P1, P2, P3 request the sources as follows if executed\nindependently. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Deadlock\\q30_5bca0566.jpg\"> <br> Which one of the following statements is TRUE if all three processes run concurrently starting at time t=0? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All processes will finish without any deadlock</p>",
+            "<b>B.</b> <p>Only P1 and P2 will be in deadlock</p>",
+            "<b>C.</b> <p>Only P1 and P3 will be in a deadlock</p>",
+            "<b>D.</b> <p>All three processes will be in deadlock</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>All processes will finish without any deadlock</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1316/gate2009-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>An operating system implements a policy that requires a process to release all resources before making a request for another resource. Select the TRUE statement from the following: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both starvation and deadlock can occur</p>",
+            "<b>B.</b> <p>Starvation can occur but deadlock cannot occur</p>",
+            "<b>C.</b> <p>Starvation cannot occur but deadlock can occur</p>",
+            "<b>D.</b> <p>Neither starvation nor deadlock can occur</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Starvation can occur but deadlock cannot occur</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3364/gate2008-it-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following is NOT true of deadlock prevention and deadlock\navoidance schemes? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In deadlock prevention, the request for resources is always granted if the\nresulting state is safe</p>",
+            "<b>B.</b> <p>In deadlock avoidance, the request for resources is always granted if the\nresult state is safe</p>",
+            "<b>C.</b> <p>Deadlock avoidance is less restrictive than deadlock prevention</p>",
+            "<b>D.</b> <p>Deadlock avoidance requires knowledge of resource requirements a priori</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>In deadlock prevention, the request for resources is always granted if the\nresulting state is safe</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/488/gate2008-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

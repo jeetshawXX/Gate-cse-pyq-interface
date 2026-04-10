@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Operating System - Applications In Windows",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Applications In Windows",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57669\"></a><div itemprop=\"text\"><p>In Win32, which function is used to create Windows Applications?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | December 2012 | Part 3 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Win APP</p>",
+            "<p>Win API</p>",
+            "<p>Win Main</p>",
+            "<p>Win Void</p>"
+          ],
+          "correct_answer": "<p>Win Main</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57669/ugc-net-cse-december-2012-part-3-question-35\" target=\"_blank\">https://gateoverflow.in/57669/ugc-net-cse-december-2012-part-3-question-35</a></p>"
+        }
+      ]
+    }
+  ]
+});

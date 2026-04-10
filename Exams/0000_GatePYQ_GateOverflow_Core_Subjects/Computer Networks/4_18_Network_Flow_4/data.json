@@ -1,0 +1,66 @@
+{
+  "title": "Computer Networks - Network Flow",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Network Flow",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"550\"></a><div itemprop=\"text\">A simple and reliable data transfer can be accomplished by using the 'handshake protocol'. It accomplishes reliable data transfer because for every data item sent by the transmitter _______.</div><br><br><b>GATE CSE 1992 | Question: 01,v</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/550/gate-cse-1992-question-01-v\" target=\"_blank\">https://gateoverflow.in/550/gate-cse-1992-question-01-v</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"118537\"></a><div itemprop=\"text\"><p>Consider two hosts \\( X \\) and \\( Y \\), connected by a single direct link of rate \\( 10^6\\; \\text{bits/sec} \\). The distance between the two hosts is \\( 10,000\\;\\text{km} \\) and the propagation speed along the link is \\( 2 \\times 10^8 \\;\\text{m/sec} \\). Host \\( X \\) sends a file of \\( 50,000\\;\\text{bytes} \\) as one large message to host \\( Y \\) continuously. Let the transmission and propagation delays be \\( p\\;&nbsp;\\text{milliseconds} \\) and \\( q&nbsp;\\;&nbsp;\\text{milliseconds} \\) respectively. Then the value of \\( p \\) and \\( q \\) are</p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p=50 \\) and \\( q=100 \\)</p>",
+            "<p>\\( p=50 \\) and \\( q=400 \\)</p>",
+            "<p>\\( p=100 \\) and \\( q=50 \\)</p>",
+            "<p>\\( p=400 \\) and \\( q=50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( p=400 \\) and \\( q=50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118537/gate-cse-2017-set-2-question-35\" target=\"_blank\">https://gateoverflow.in/118537/gate-cse-2017-set-2-question-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3731\"></a><div itemprop=\"text\"><p>A TCP message consisting of \\( 2100 \\)&nbsp; \\( bytes \\) is passed to IP for delivery across two networks. The first network can carry a maximum payload of \\( 1200 \\) \\( bytes \\) per frame and the second network can carry a maximum payload of \\( 400 \\) \\( bytes \\) per frame, excluding network overhead. Assume that IP overhead per packet is \\( 20 \\) \\( bytes \\). What is the total IP overhead in the second network for this transmission?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{40 bytes} \\)</p>",
+            "<p>\\( \\text{80 bytes} \\)</p>",
+            "<p>\\( \\text{120 bytes} \\)</p>",
+            "<p>\\( \\text{160 bytes} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{120 bytes} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3731/gate-it-2004-question-87\" target=\"_blank\">https://gateoverflow.in/3731/gate-it-2004-question-87</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3611\"></a><div itemprop=\"text\"><p>A link of capacity \\( 100 \\) \\( \\text{Mbps} \\) is carrying traffic from a number of sources. Each source generates an on-off traffic stream; when the source is on, the rate of traffic is \\( 10 \\) \\( \\text{Mbps} \\), and when the source is off, the rate of traffic is zero. The duty cycle, which is the ratio of on-time to off-time, is \\( 1: 2 \\). When there is no buffer at the link, the minimum number of sources that can be multiplexed on the link so that link capacity is not wasted and no data loss occurs is \\( S1 \\). Assuming that all sources are synchronized and that the link is provided with a large buffer, the maximum number of sources that can be multiplexed so that no data loss occurs is \\( S2 \\). The values of \\( S1 \\) and \\( S2 \\) are, respectively,</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\) \\( \\text{and} \\) \\( 30 \\)</p>",
+            "<p>\\( 12 \\) \\( \\text{and} \\) \\( 25 \\)</p>",
+            "<p>\\( 5 \\) \\( \\text{and} \\) \\( 33 \\)</p>",
+            "<p>\\( 15 \\) \\( \\text{and} \\) \\( 22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\) \\( \\text{and} \\) \\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3611/gate-it-2006-question-67\" target=\"_blank\">https://gateoverflow.in/3611/gate-it-2006-question-67</a></p>"
+        }
+      ]
+    }
+  ]
+}

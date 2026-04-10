@@ -1,0 +1,156 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Sequence Series",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Sequence Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2213\"></a><div itemprop=\"text\"><p>Given the sequence of terms, \\( \\text{AD CG FK JP} \\), the next term is</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{OV} \\)</p>",
+            "<p>\\( \\text{OW} \\)</p>",
+            "<p>\\( \\text{PV} \\)</p>",
+            "<p>\\( \\text{PW} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{OV} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2213/gate-cse-2012-question-65\" target=\"_blank\">https://gateoverflow.in/2213/gate-cse-2012-question-65</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"204066\"></a><div itemprop=\"text\"><p>\\( \\text{ What is the missing number in the following sequence?} \\)</p>\n\n<p>\\[ 2,\\,12,\\,60,\\,240,\\,720,\\,1440,\\,\\underline{\\;\\;\\;\\;\\;\\;\\;\\;},0 \\]</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2880 \\)</p>",
+            "<p>\\( 1440 \\)</p>",
+            "<p>\\( 720 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1440 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204066/gate-cse-2018-question-ga-5\" target=\"_blank\">https://gateoverflow.in/204066/gate-cse-2018-question-ga-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"399253\"></a><div itemprop=\"text\"><p>A series of natural numbers \\( F_1, F_2, F_3, F_4, F_5, F_6, F_7, \\ldots \\) obeys \\( F_{n+1}=F_n+F_{n-1} \\) for all integers \\( n \\geq 2 \\).</p>\n\n<p>If \\( F_6=37, \\)&nbsp;and \\( F_7=60, \\)&nbsp;then what is \\( F_1 ? \\)</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399253/gate-cse-2023-ga-question-3\" target=\"_blank\">https://gateoverflow.in/399253/gate-cse-2023-ga-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"422968\"></a><div itemprop=\"text\"><p>​​​​​​The sum of the following infinite series is</p><p>\\[<br>2+\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{9}+\\frac{1}{16}+\\frac{1}{27}+\\cdots<br>\\]</p><p></p></div><br><br><b>GATE DS&AI 2024 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 / 3 \\)</p>",
+            "<p>\\( 7 / 2 \\)</p>",
+            "<p>\\( 13 / 4 \\)</p>",
+            "<p>\\( 9 / 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 / 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422968/gate-ds&ai-2024-ga-question-4\" target=\"_blank\">https://gateoverflow.in/422968/gate-ds&ai-2024-ga-question-4</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"426513\"></a><div itemprop=\"text\"><p>​​​​​In the following series, identify the number that needs to be changed to form the Fibonacci series.</p>\n\n<p><br>\n\\( 1,1,2,3,6,8,13,21, \\ldots \\)</p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426513/gate-mechanical-2024-ga-question-3\" target=\"_blank\">https://gateoverflow.in/426513/gate-mechanical-2024-ga-question-3</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"41467\"></a><div itemprop=\"text\">In a sequence of \\( 12 \\) consecutive odd numbers, the sum of the first \\( 5 \\) numbers is \\( 425 \\). What is the sum of the last \\( 5 \\) numbers in the sequence?</div><br><br><b>GATE2014 EC-4: GA-5</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "495",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41467/gate2014-ec-4-ga-5\" target=\"_blank\">https://gateoverflow.in/41467/gate2014-ec-4-ga-5</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"41468\"></a><div itemprop=\"text\">\n<p>Find the next term in the sequence: 13M, 17Q, 19S,_______.</p>\n\n\n</div><br><br><b>GATE2014 EC-4: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>21W&nbsp;</p>",
+            "<p>21V&nbsp;</p>",
+            "<p>23W&nbsp;</p>",
+            "<p>23V</p>"
+          ],
+          "correct_answer": "<p>23W&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41468/gate2014-ec-4-ga-6\" target=\"_blank\">https://gateoverflow.in/41468/gate2014-ec-4-ga-6</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"108300\"></a><div itemprop=\"text\"><p>Find the missing sequence in the letter series. \\( B, FH, LNP \\), _______.</p>\n\n</div><br><br><b>GATE2016 ME-2: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( SUWY \\)</p>",
+            "<p>\\( TUVW \\)</p>",
+            "<p>\\( TVXZ \\)</p>",
+            "<p>\\( TWXZ \\)</p>"
+          ],
+          "correct_answer": "<p>\\( TVXZ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108300/gate2016-me-2-ga-8\" target=\"_blank\">https://gateoverflow.in/108300/gate2016-me-2-ga-8</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"313558\"></a><div itemprop=\"text\"><p>The missing number in the given sequence \\( 343,1331, \\)_____\\( ,4913 \\) is</p>\n\n</div><br><br><b>GATE2019 EE: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3375 \\)</p>",
+            "<p>\\( 2744 \\)</p>",
+            "<p>\\( 2197 \\)</p>",
+            "<p>\\( 4096 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 2197 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313558/gate2019-ee-ga-3\" target=\"_blank\">https://gateoverflow.in/313558/gate2019-ee-ga-3</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"313588\"></a><div itemprop=\"text\"><p>If IMHO=JNIP; IDK=JEL; and SO=TP, then IDC=______</p>\n\n</div><br><br><b>GATE2019 ME-2: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>JDE</p>",
+            "<p>JED</p>",
+            "<p>JDC</p>",
+            "<p>JCD</p>"
+          ],
+          "correct_answer": "<p>JED</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313588/gate2019-me-2-ga-3\" target=\"_blank\">https://gateoverflow.in/313588/gate2019-me-2-ga-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

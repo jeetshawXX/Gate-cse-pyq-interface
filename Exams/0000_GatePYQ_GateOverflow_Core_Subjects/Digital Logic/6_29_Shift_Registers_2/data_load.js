@@ -1,0 +1,36 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Shift Registers",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Shift Registers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"82607\"></a><div itemprop=\"text\"><p>The below figure shows four \\( \\text{D} \\)-type flip-flops connected as a shift register using a \\( \\text{XOR} \\) gate. The initial state and three subsequent states for three clock pulses are also given.</p><p><img alt=\"\" width=\"760\" src=\"images/gateOverflow_pyq_images/digital_logic___shift_registers/77c2cb3800d46ee81e7161756c15cfd4.png\"></p><p>\\[ \\begin{array}{|l|c|c|c|c|} \\hline \\text{State} &amp; Q_{A} &amp; Q_{B} &amp; Q_{C} &amp; Q_{D} \\\\\\hline \\text{Initial} &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\\\&nbsp;\\text{After the first clock} &amp; 0&nbsp;&amp; 1 &amp; 1 &amp; 1 \\\\&nbsp;\\text{After the second clock} &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\\\&nbsp;\\text{After the third clock} &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\\\\\hline&nbsp; \\end{array} \\]The state \\( Q_{A} Q_{B} Q_{C} Q_{D} \\) after the fourth clock pulse is</p></div><br><br><b>GATE CSE 1987 | Question: 13-a</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0000 \\)</p>",
+            "<p>\\( 1111 \\)</p>",
+            "<p>\\( 1001 \\)</p>",
+            "<p>\\( 1000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82607/gate-cse-1987-question-13-a\" target=\"_blank\">https://gateoverflow.in/82607/gate-cse-1987-question-13-a</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"532\"></a><div itemprop=\"text\"><p>Using \\( \\text{D} \\) flip-flop gates, design a parallel-in/serial-out shift register that shifts data from left to right with the following input lines:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\n\t<p>Clock \\( \\text{CLK} \\)</p>\n\t</li>\n\t<li>\n\t<p>Three parallel data inputs \\( A, B, C \\)</p>\n\t</li>\n\t<li>\n\t<p>Serial input \\( S \\)</p>\n\t</li>\n\t<li>\n\t<p>Control input \\( \\text{LOAD} / \\overline{\\text{SHIFT}} \\).</p>\n\t</li>\n</ol></div><br><br><b>GATE CSE 1991 | Question: 06,a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/532/gate-cse-1991-question-06-a\" target=\"_blank\">https://gateoverflow.in/532/gate-cse-1991-question-06-a</a></p>"
+        }
+      ]
+    }
+  ]
+});

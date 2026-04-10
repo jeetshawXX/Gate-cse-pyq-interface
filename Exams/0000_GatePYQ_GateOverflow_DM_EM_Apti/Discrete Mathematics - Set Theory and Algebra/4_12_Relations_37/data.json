@@ -1,0 +1,506 @@
+{
+  "title": "Discrete Mathematics - Set Theory and Algebra - Relations",
+  "duration": 102,
+  "sections": [
+    {
+      "name": "Relations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80583\"></a><div itemprop=\"text\">State whether the following statements are TRUE or FALSE:<br>\n<br>\nThe union of two equivalence relations is also an equivalence relation.</div><br><br><b>GATE CSE 1987 | Question: 2d</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "False",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80583/gate-cse-1987-question-2d\" target=\"_blank\">https://gateoverflow.in/80583/gate-cse-1987-question-2d</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"82436\"></a><div itemprop=\"text\">How many binary relations are there on a set \\( A \\) with \\( n \\) elements?</div><br><br><b>GATE CSE 1987 | Question: 9a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82436/gate-cse-1987-question-9a\" target=\"_blank\">https://gateoverflow.in/82436/gate-cse-1987-question-9a</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"82446\"></a><div itemprop=\"text\">How many true inclusion relations are there of the form \\( A \\subseteq B \\), where \\( A \\) and \\( B \\) are subsets of a set \\( S \\) with \\( n \\) elements?</div><br><br><b>GATE CSE 1987 | Question: 9e</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/82446/gate-cse-1987-question-9e\" target=\"_blank\">https://gateoverflow.in/82446/gate-cse-1987-question-9e</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"87048\"></a><div itemprop=\"text\">The transitive closure of the relation \\( \\left\\{(1, 2), (2, 3), (3, 4), (5, 4)\\right\\} \\) on the set \\( \\left\\{1, 2, 3, 4, 5\\right\\} \\) is ___________.</div><br><br><b>GATE CSE 1989 | Question: 1-iv</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/87048/gate-cse-1989-question-1-iv\" target=\"_blank\">https://gateoverflow.in/87048/gate-cse-1989-question-1-iv</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"43579\"></a><div itemprop=\"text\">Let \\( S \\) be the set of all integers and let \\( n &gt; 1 \\) be a fixed integer. Define for \\( a,b \\in &nbsp;S, a R b \\) iff \\( a-b \\) is a multiple of \\( n \\). Show that \\( R \\) is an equivalence relation and find its equivalence classes for \\( n = 5 \\).</div><br><br><b>GATE CSE 1992 | Question: 15.b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43579/gate-cse-1992-question-15-b\" target=\"_blank\">https://gateoverflow.in/43579/gate-cse-1992-question-15-b</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2470\"></a><div itemprop=\"text\">Amongst the properties \\( \\left\\{\\text{reflexivity, symmetry, anti-symmetry, transitivity}\\right\\} \\) the relation \\( R=\\{(x, y) \\in N^2|x \\neq y\\} \\) satisfies _________</div><br><br><b>GATE CSE 1994 | Question: 2.3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2470/gate-cse-1994-question-2-3\" target=\"_blank\">https://gateoverflow.in/2470/gate-cse-1994-question-2-3</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2606\"></a><div itemprop=\"text\"><p>Let \\( R \\) be a symmetric and transitive relation on a set \\( A \\). Then</p>\n\n\n\n</div><br><br><b>GATE CSE 1995 | Question: 1.19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R \\) is reflexive and hence an equivalence relation</p>",
+            "<p>\\( R \\) is reflexive and hence a partial order</p>",
+            "<p>\\( R \\) is reflexive and hence not an equivalence relation</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2606/gate-cse-1995-question-1-19\" target=\"_blank\">https://gateoverflow.in/2606/gate-cse-1995-question-1-19</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2731\"></a><div itemprop=\"text\"><p>Let \\( R \\) be a non-empty relation on a collection of sets defined by \\( _{A}R_ B \\) if and only if \\( A \\cap B = \\phi \\). Then, (pick the true statement)</p>\n\n\n\n</div><br><br><b>GATE CSE 1996 | Question: 2.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\) is reflexive and transitive</p>",
+            "<p>\\( R \\) is symmetric and not transitive</p>",
+            "<p>\\( R \\) is an equivalence relation</p>",
+            "<p>\\( R \\) is not reflexive and not symmetric</p>"
+          ],
+          "correct_answer": "<p>\\( R \\) is symmetric and not transitive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2731/gate-cse-1996-question-2-2\" target=\"_blank\">https://gateoverflow.in/2731/gate-cse-1996-question-2-2</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"2760\"></a><div itemprop=\"text\"><p>Let \\( F \\) be the collection of all functions \\( f: \\{1, 2, 3\\} \\to \\{1, 2, 3\\} \\). If \\( f \\) and \\( g \\in F \\), define an equivalence relation \\( \\sim \\) by \\( f\\sim g \\) if and only if \\( f(3) = g(3) \\).&nbsp;</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>Find the number of equivalence classes defined by \\( \\sim \\).&nbsp;</li>\n\t<li>Find the number of elements in each equivalence class.&nbsp;</li>\n</ol></div><br><br><b>GATE CSE 1996 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2760/gate-cse-1996-question-8\" target=\"_blank\">https://gateoverflow.in/2760/gate-cse-1996-question-8</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"2274\"></a><div itemprop=\"text\">Let \\( R \\) be a reflexive and transitive relation on a set \\( A \\). Define a new relation \\( E \\) on \\( A \\) as<br>\n<br>\n\\( E=\\{(a, b) \\mid (a, b) \\in R \\text{ and } (b, a) \\in R \\} \\)<br>\n<br>\nProve that \\( E \\) is an equivalence relation on \\( A \\).<br>\n<br>\nDefine a relation \\( \\leq \\) on the equivalence classes of \\( E \\) as \\( E_1 \\leq E_2 \\) if \\( \\exists a, b \\) such that \\( a \\in E_1, b \\in E_2 \\text{ and } (a, b) \\in R \\). Prove that \\( \\leq \\) is a partial order.</div><br><br><b>GATE CSE 1997 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2274/gate-cse-1997-question-14\" target=\"_blank\">https://gateoverflow.in/2274/gate-cse-1997-question-14</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"2259\"></a><div itemprop=\"text\"><p>The number of equivalence relations of the set \\( \\{1,2,3,4\\} \\) is</p></div><br><br><b>GATE CSE 1997 | Question: 6.3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2259/gate-cse-1997-question-6-3\" target=\"_blank\">https://gateoverflow.in/2259/gate-cse-1997-question-6-3</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"1643\"></a><div itemprop=\"text\"><p>Suppose \\( A \\) is a finite set with \\( n \\) elements. The number of elements in the largest equivalence relation of A is</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\)</p>",
+            "<p>\\( n^2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( n+1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n^2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1643/gate-cse-1998-question-1-6\" target=\"_blank\">https://gateoverflow.in/1643/gate-cse-1998-question-1-6</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"1644\"></a><div itemprop=\"text\"><p>Let \\( R_1 \\) and \\( R_2 \\) be two equivalence relations on a set. Consider the following assertions:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( R_1 \\cup R_2 \\) is an equivalence relation</li>\n\t<li>\\( R_1 \\cap R_2 \\) is an equivalence relation</li>\n</ol>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both assertions are true</p>",
+            "<p>Assertions (i) is true but assertions (ii) is not true</p>",
+            "<p>Assertions (ii) is true but assertions (i) is not true</p>",
+            "<p>Neither (i) nor (ii) is true</p>"
+          ],
+          "correct_answer": "<p>Assertions (ii) is true but assertions (i) is not true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1644/gate-cse-1998-question-1-7\" target=\"_blank\">https://gateoverflow.in/1644/gate-cse-1998-question-1-7</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"1724\"></a><div itemprop=\"text\">Prove by induction that the expression for the number of diagonals in a polygon of \\( n \\) sides is \\( \\frac{n(n-3)}{2} \\)</div><br><br><b>GATE CSE 1998 | Question: 10a</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1724/gate-cse-1998-question-10a\" target=\"_blank\">https://gateoverflow.in/1724/gate-cse-1998-question-10a</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"232729\"></a><div itemprop=\"text\"><p>Let \\( R \\) be a binary relation on \\( A = \\{a, b, c, d, e, f, g, h\\} \\) represented by the following two component digraph. Find the smallest integers \\( m \\) and \\( n \\) such that \\( m &lt; n \\) and \\( R^m = R^n \\).</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"159\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___relations/0b1f944f5d741ded6652b6b7861597ba.png\" width=\"321\"></p></div><br><br><b>GATE CSE 1998 | Question: 10b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/232729/gate-cse-1998-question-10b\" target=\"_blank\">https://gateoverflow.in/232729/gate-cse-1998-question-10b</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1675\"></a><div itemprop=\"text\"><p>The binary relation \\( R = \\{(1, 1), (2, 1), (2, 2), (2, 3), (2, 4), (3, 1), (3, 2), (3, 3), (3, 4)\\} \\) on the set \\( A=\\{1, 2, 3, 4\\} \\) is</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 2.3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>reflexive, symmetric and transitive</p>",
+            "<p>neither reflexive, nor irreflexive but transitive</p>",
+            "<p>irreflexive, symmetric and transitive</p>",
+            "<p>irreflexive and antisymmetric</p>"
+          ],
+          "correct_answer": "<p>neither reflexive, nor irreflexive but transitive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1675/gate-cse-1998-question-2-3\" target=\"_blank\">https://gateoverflow.in/1675/gate-cse-1998-question-2-3</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"1456\"></a><div itemprop=\"text\">\n<p>The number of binary relations on a set with \\( n \\) elements is:</p>\n\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n^2 \\)</p>",
+            "<p>\\( 2^n \\)</p>",
+            "<p>\\( 2^{n^2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{n^2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1456/gate-cse-1999-question-1-2\" target=\"_blank\">https://gateoverflow.in/1456/gate-cse-1999-question-1-2</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1481\"></a><div itemprop=\"text\"><p>Let \\( L \\) be a set with a relation \\( R \\) which is transitive, anti-symmetric and reflexive and for any two elements \\( a, b \\in &nbsp;L \\), let the least upper bound \\( lub (a, b) \\) and the greatest lower bound \\( glb (a, b) \\) exist. Which of the following is/are true?</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 2.3</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( L \\) is a poset</p>",
+            "<p>\\( L \\) is a Boolean algebra</p>",
+            "<p>\\( L \\) is a lattice</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( L \\) is a poset</p>",
+            "<p>\\( L \\) is a lattice</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1481/gate-cse-1999-question-2-3\" target=\"_blank\">https://gateoverflow.in/1481/gate-cse-1999-question-2-3</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"1522\"></a><div itemprop=\"text\">\n<ol style=\"list-style-type:lower-alpha\"><li>Mr. X claims the following:&nbsp;\n\t<p>If a relation R is both symmetric and transitive, then R is reflexive. For this, Mr. X offers the following proof:</p>\n\n\t<p>“From xRy, using symmetry we get yRx. Now because R is transitive xRy and yRx together imply xRx. Therefore, R is reflexive”.</p>\n\t</li>\n\t<li>Give an example of a relation R which is symmetric and transitive but not reflexive.</li>\n</ol>\n</div><br><br><b>GATE CSE 1999 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1522/gate-cse-1999-question-3\" target=\"_blank\">https://gateoverflow.in/1522/gate-cse-1999-question-3</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"652\"></a><div itemprop=\"text\"><p>A relation \\( R \\) is defined on the set of integers as \\( xRy \\) iff \\( (x + y) \\) is even. Which of the following statements is true?</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R \\) is not an equivalence relation</p>",
+            "<p>\\( R \\) is an equivalence relation having \\( 1 \\) equivalence class</p>",
+            "<p>\\( R \\) is an equivalence relation having \\( 2 \\) equivalence classes</p>",
+            "<p>\\( R \\) is an equivalence relation having \\( 3 \\) equivalence classes</p>"
+          ],
+          "correct_answer": "<p>\\( R \\) is an equivalence relation having \\( 2 \\) equivalence classes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/652/gate-cse-2000-question-2-5\" target=\"_blank\">https://gateoverflow.in/652/gate-cse-2000-question-2-5</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"695\"></a><div itemprop=\"text\"><p>Consider the following relations:</p>\n\n<ul>\n\t<li>\\( R_1\\:(a,b) \\) iff \\( (a+b) \\) is even over the set of integers</li>\n\t<li>\\( R_2 \\:(a,b) \\) iff \\( (a+b) \\) is odd over the set of integers</li>\n\t<li>\\( R_3 \\:(a,b) \\) iff \\( a.b &gt; 0 \\) over the set of non-zero rational numbers</li>\n\t<li>\\( R_4\\:(a,b) \\) iff \\( |a-b| \\leq 2 \\) over the set of natural numbers</li>\n</ul>\n\n<p>Which of the following statements is correct?</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 1.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R_1 \\) and \\( R_2 \\) are equivalence relations, \\( R_3 \\) and \\( R_4 \\) are not</p>",
+            "<p>\\( R_1 \\) and \\( R_3 \\) are equivalence relations, \\( R_2 \\)&nbsp;and \\( R_4 \\) are not</p>",
+            "<p>\\( R_1 \\) and \\( R_4 \\) are equivalence relations, \\( R_2 \\) and \\( R_3 \\) are not</p>",
+            "<p>\\( R_1, R_2, R_3 \\) and \\( R_4 \\) all are equivalence relations</p>"
+          ],
+          "correct_answer": "<p>\\( R_1 \\) and \\( R_3 \\) are equivalence relations, \\( R_2 \\)&nbsp;and \\( R_4 \\) are not</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/695/gate-cse-2001-question-1-2\" target=\"_blank\">https://gateoverflow.in/695/gate-cse-2001-question-1-2</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"847\"></a><div itemprop=\"text\"><p>The binary relation \\( S= \\phi&nbsp;\\text{(empty set)} \\) on a set \\( A = \\left \\{ 1,2,3 \\right \\} \\)&nbsp;is&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Neither reflexive nor symmetric</p>",
+            "<p>Symmetric and reflexive</p>",
+            "<p>Transitive and reflexive</p>",
+            "<p>Transitive and symmetric</p>"
+          ],
+          "correct_answer": "<p>Transitive and symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/847/gate-cse-2002-question-2-17\" target=\"_blank\">https://gateoverflow.in/847/gate-cse-2002-question-2-17</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"856\"></a><div itemprop=\"text\"><p>Let \\( A \\) be a set of \\( n(&gt;0) \\) elements. Let \\( N_r \\) be the number of binary relations on \\( A \\) and let \\( N_f \\) be the number of functions from \\( A \\) to \\( A \\)</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Give the expression for \\( N_r, \\)&nbsp;in terms of \\( n. \\)</p>",
+            "<p>Give the expression for \\( N_f, \\)&nbsp;terms of \\( n. \\)</p>",
+            "<p>Which is larger for all possible \\( n,N_r \\) or \\( N_f \\)</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/856/gate-cse-2002-question-3\" target=\"_blank\">https://gateoverflow.in/856/gate-cse-2002-question-3</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"1021\"></a><div itemprop=\"text\"><p>Consider the binary relation:</p>\n\n<p>\\( S= \\left\\{\\left(x, y\\right) \\mid&nbsp;y=x+1 \\text{ and } x, y \\in \\left\\{0, 1, 2\\right\\} \\right\\} \\)</p>\n\n<p>The reflexive transitive closure is \\( S \\) is</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left\\{\\left(x, y\\right) \\mid&nbsp;y &gt;x \\text{ and } x, y \\in \\left\\{0, 1, 2\\right\\} \\right\\} \\)&nbsp;</p>",
+            "<p>\\( \\left\\{\\left(x, y\\right) \\mid&nbsp;y \\geq x \\text{ and } x, y \\in \\left\\{0, 1, 2\\right\\} \\right\\} \\)&nbsp;</p>",
+            "<p>\\( \\left\\{\\left(x, y\\right) \\mid&nbsp;y &lt; x \\text{ and } x, y \\in \\left\\{0, 1, 2\\right\\} \\right\\} \\)&nbsp;</p>",
+            "<p>\\( \\left\\{\\left(x, y\\right) \\mid&nbsp;y \\leq&nbsp;x \\text{ and } x, y \\in \\left\\{0, 1, 2\\right\\} \\right\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left\\{\\left(x, y\\right) \\mid&nbsp;y \\geq x \\text{ and } x, y \\in \\left\\{0, 1, 2\\right\\} \\right\\} \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1021/gate-cse-2004-question-24\" target=\"_blank\">https://gateoverflow.in/1021/gate-cse-2004-question-24</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"1167\"></a><div itemprop=\"text\"><p>Let \\( R \\) and \\( S \\) be any two equivalence relations on a non-empty set \\( A \\). Which one of the following statements is TRUE?</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R \\) \\( ∪ \\) \\( S \\), \\( R \\) \\( ∩ \\) \\( S \\) are both equivalence relations</p>",
+            "<p>\\( R \\) \\( ∪ \\) \\( S \\) is an equivalence relation</p>",
+            "<p>\\( R \\) \\( ∩ \\) \\( S \\) is an equivalence relation</p>",
+            "<p>Neither \\( R \\) \\( ∪ \\) \\( S \\) nor \\( R \\) \\( ∩ \\) \\( S \\) are equivalence relations</p>"
+          ],
+          "correct_answer": "<p>\\( R \\) \\( ∩ \\) \\( S \\) is an equivalence relation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1167/gate-cse-2005-question-42\" target=\"_blank\">https://gateoverflow.in/1167/gate-cse-2005-question-42</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"1349\"></a><div itemprop=\"text\"><p>The time complexity of computing the transitive closure of a binary relation on a set of \\( n \\) elements is known to be:</p>\n\n</div><br><br><b>GATE CSE 2005 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\log &nbsp;n) \\)</p>",
+            "<p>\\( O \\left(&nbsp;n^{\\frac{3}{2}} \\right) \\)</p>",
+            "<p>\\( O\\left(n^3\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O\\left(n^3\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1349/gate-cse-2005-question-7\" target=\"_blank\">https://gateoverflow.in/1349/gate-cse-2005-question-7</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"883\"></a><div itemprop=\"text\"><p>A relation \\( R \\) is defined on ordered pairs of integers as follows: \\[ (x,y)R(u,v) \\text{ if } x&lt;u \\text{ and } y&gt;v \\] Then \\( R \\) is:</p>\n\n</div><br><br><b>GATE CSE 2006 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp; &nbsp;Neither a Partial Order nor an Equivalence Relation</p>",
+            "<p>&nbsp; &nbsp;A Partial Order but not a Total Order</p>",
+            "<p>&nbsp; &nbsp;A total Order</p>",
+            "<p>&nbsp; &nbsp;An Equivalence Relation</p>"
+          ],
+          "correct_answer": "<p>&nbsp; &nbsp;Neither a Partial Order nor an Equivalence Relation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/883/gate-cse-2006-question-4\" target=\"_blank\">https://gateoverflow.in/883/gate-cse-2006-question-4</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"1201\"></a><div itemprop=\"text\"><p>Let \\( S \\) be a set of \\( n \\) elements. The number of ordered pairs in the largest and the smallest equivalence relations on \\( S \\) are:</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\) and \\( n \\)</p>",
+            "<p>\\( n^2 \\) and \\( n \\)</p>",
+            "<p>\\( n^2 \\) and \\( 0 \\)</p>",
+            "<p>\\( n \\) and \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n^2 \\) and \\( n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1201/gate-cse-2007-question-2\" target=\"_blank\">https://gateoverflow.in/1201/gate-cse-2007-question-2</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"797\"></a><div itemprop=\"text\"><p>Consider the binary relation \\( R = \\left\\{(x,y), (x,z), (z,x), (z,y)\\right\\} \\) on the set \\( \\{x,y,z\\} \\).&nbsp;Which one of the following is <strong>TRUE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2009 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R \\) is symmetric but NOT antisymmetric</p>",
+            "<p>\\( R \\) is NOT symmetric but antisymmetric</p>",
+            "<p>\\( R \\) is both symmetric and antisymmetric</p>",
+            "<p>\\( R \\) is neither symmetric nor antisymmetric</p>"
+          ],
+          "correct_answer": "<p>\\( R \\) is neither symmetric nor antisymmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/797/gate-cse-2009-question-4\" target=\"_blank\">https://gateoverflow.in/797/gate-cse-2009-question-4</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"1149\"></a><div itemprop=\"text\"><p>What is the possible number of reflexive relations on a set of \\( 5 \\) elements?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{10} \\)</p>",
+            "<p>\\( 2^{15} \\)</p>",
+            "<p>\\( 2^{20} \\)</p>",
+            "<p>\\( 2^{25} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{20} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1149/gate-cse-2010-question-3\" target=\"_blank\">https://gateoverflow.in/1149/gate-cse-2010-question-3</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"8089\"></a><div itemprop=\"text\"><p>Let \\( R \\) be the relation on the set of positive integers such that \\( aRb \\) and only if \\( a \\) and \\( b \\) are distinct and let have a common divisor other than \\( 1. \\) Which one of the following statements about \\( R \\) is true?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R \\) is symmetric and reflexive but not transitive</p>",
+            "<p>\\( R \\) is reflexive but not symmetric not transitive</p>",
+            "<p>\\( R \\) is transitive but not reflexive and not symmetric</p>",
+            "<p>\\( R \\) is symmetric but not reflexive and not transitive</p>"
+          ],
+          "correct_answer": "<p>\\( R \\) is symmetric but not reflexive and not transitive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8089/gate-cse-2015-set-2-question-16\" target=\"_blank\">https://gateoverflow.in/8089/gate-cse-2015-set-2-question-16</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"8500\"></a><div itemprop=\"text\"><p>Let \\( R \\) be a relation on the set of ordered pairs of positive integers such that \\( ((p,q),(r,s)) \\in R \\) if and only if \\( p-s=q-r \\). Which one of the following is true about \\( R \\)?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both reflexive and symmetric</p>",
+            "<p>Reflexive but not symmetric</p>",
+            "<p>Not reflexive but symmetric</p>",
+            "<p>Neither reflexive nor symmetric</p>"
+          ],
+          "correct_answer": "<p>Not reflexive but symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8500/gate-cse-2015-set-3-question-41\" target=\"_blank\">https://gateoverflow.in/8500/gate-cse-2015-set-3-question-41</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"39603\"></a><div itemprop=\"text\"><p>A binary relation \\( R \\) on \\( \\mathbb{N} \\times&nbsp;\\mathbb{N} \\) is defined as follows: \\( (a, b) R(c, d) \\) if \\( a&nbsp;\\leq c \\) or \\( b&nbsp;\\leq d \\). Consider the following propositions:</p><ul><li>\\( P: \\) \\( R \\) is reflexive.</li><li>\\( Q: \\) \\( R \\) is transitive.</li></ul><p>Which one of the following statements is <strong>TRUE</strong>?</p></div><br><br><b>GATE CSE 2016 Set 2 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( P \\) and \\( Q \\) are true.</p>",
+            "<p>\\( P \\) is true and \\( Q \\) is false.</p>",
+            "<p>\\( P \\) is false and \\( Q \\) is true.</p>",
+            "<p>Both \\( P \\) and \\( Q \\) are false.</p>"
+          ],
+          "correct_answer": "<p>\\( P \\) is true and \\( Q \\) is false.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39603/gate-cse-2016-set-2-question-26\" target=\"_blank\">https://gateoverflow.in/39603/gate-cse-2016-set-2-question-26</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"333214\"></a><div itemprop=\"text\">Let \\( \\mathcal{R} \\) be the set of all binary relations on the set \\( \\{1,2,3\\} \\). Suppose a relation is chosen from \\( \\mathcal{R} \\) at random. The probability that the chosen relation is reflexive (round off to \\( 3 \\) decimal places) is ______.</div><br><br><b>GATE CSE 2020 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.1249:0.1259",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333214/gate-cse-2020-question-17\" target=\"_blank\">https://gateoverflow.in/333214/gate-cse-2020-question-17</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"357408\"></a><div itemprop=\"text\"><p>A relation \\( R \\) is said to be circular if \\( a\\text{R}b \\) and \\( b\\text{R}c \\) together imply \\( c\\text{R}a \\).</p>\n\n<p>Which of the following options is/are correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>If a relation \\( S \\) is reflexive and symmetric, then \\( S \\) is an equivalence relation.</p>",
+            "<p>If a relation \\( S \\) is circular&nbsp;and symmetric, then \\( S \\) is an equivalence relation.</p>",
+            "<p>If a relation \\( S \\) is reflexive and circular, then \\( S \\) is an equivalence relation.</p>",
+            "<p>If a relation \\( S \\) is transitive&nbsp;and circular, then \\( S \\) is an equivalence relation.</p>"
+          ],
+          "correct_answer": "<p>If a relation \\( S \\) is reflexive and circular, then \\( S \\) is an equivalence relation.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357408/gate-cse-2021-set-1-question-43\" target=\"_blank\">https://gateoverflow.in/357408/gate-cse-2021-set-1-question-43</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"460803\"></a><div itemprop=\"text\"><p>​​Let \\( \\mathcal{F} \\) be the set of all functions from \\( \\{1, \\ldots, n\\} \\) to \\( \\{0,1\\} \\). Define the binary relation \\( \\leqslant \\) on \\( \\mathcal{F} \\) as follows:</p><p>\\( \\forall f, g \\in \\mathcal{F}, f \\preccurlyeq g \\) if and only if \\( \\forall x \\in\\{1, \\ldots, n\\}, f(x) \\leq g(x) \\), where \\( 0 \\leq 1 \\).<br>Which of the following statement(s) is/are TRUE?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 32</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\preccurlyeq \\) is a symmetric relation</p>",
+            "<p>\\( (\\mathcal{F}, \\preccurlyeq) \\) is a partial order</p>",
+            "<p>\\( (\\mathcal{F}, \\preccurlyeq) \\) is a lattice</p>",
+            "<p>\\( \\preccurlyeq \\) is an equivalence relation</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( (\\mathcal{F}, \\preccurlyeq) \\) is a partial order</p>",
+            "<p>\\( (\\mathcal{F}, \\preccurlyeq) \\) is a lattice</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460803/gate-cse-2025-set-2-question-32\" target=\"_blank\">https://gateoverflow.in/460803/gate-cse-2025-set-2-question-32</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"3645\"></a><div itemprop=\"text\">Let \\( R_{1} \\) be a relation from \\( A = \\left \\{ 1,3,5,7 \\right \\} \\) to \\( B = \\left \\{ 2,4,6,8 \\right \\} \\) and \\( R_{2} \\) be another relation from \\( B \\) to \\( C = \\{1, 2, 3, 4\\} \\) as defined below:<br>\n<br>\nAn element \\( x \\) in \\( A \\) is related to an element \\( y \\) in \\( B \\) (under \\( R_{1} \\)) if \\( x + y \\) is divisible by \\( 3. \\)<br>\n<br>\nAn element \\( x \\) in \\( B \\) is related to an element \\( y \\) in \\( C \\) (under \\( R_{2} \\)) if \\( x + y \\) is even but not divisible by \\( 3. \\)<br>\n<br>\nWhich is the composite relation \\( R_{1}R_{2} \\) from \\( A \\) to \\( C \\)?<br>\n<br>\n\\( R_{1}R_{2} &nbsp;= &nbsp;\\{(1, 2), (1, 4), (3, 3), (5, 4), (7, 3)\\}  \\)<br>\n<br>\n\\( R_{1}R_{2} = &nbsp;\\{(1, 2), (1, 3), (3, 2), (5, 2), (7, 3)\\}  \\)<br>\n<br>\n\\( R_{1}R_{2} = &nbsp;\\{(1, 2), (3, 2), (3, 4), (5, 4), (7, 2)\\}  \\)<br>\n<br>\n\\( R_{1}R_{2} &nbsp;= &nbsp;\\{(3, 2), (3, 4), (5, 1), (5, 3), (7, 1)\\}  \\)</div><br><br><b>GATE IT 2004 | Question: 4</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3645/gate-it-2004-question-4\" target=\"_blank\">https://gateoverflow.in/3645/gate-it-2004-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

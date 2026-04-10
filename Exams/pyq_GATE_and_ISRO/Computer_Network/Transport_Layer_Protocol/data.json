@@ -1,0 +1,793 @@
+{
+  "title": "Computer_Network - Transport_Layer_Protocol",
+  "duration": 147,
+  "sections": [
+    {
+      "name": "Transport_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following statements:\n<br><br>\n(i) Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address.\n<br>\n(ii) A single TCP segment from a sender S to a receiver R cannot carry both data from S to R and acknowledgement for a segment from R to S.\n<br><br>\nWhich ONE of the following is CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both (i) and (ii) are TRUE</p>",
+            "<b>B.</b> <p>(i) is TRUE and (ii) is FALSE</p>",
+            "<b>C.</b> <p>(i) is FALSE and (ii) is TRUE</p>",
+            "<b>D.</b> <p>Both (i) and (ii) are FALSE</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(i) is TRUE and (ii) is FALSE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460829/gate-cse-2025-set-2-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the 3-way handshaking protocol for TCP connection establishment. Let the three packets exchanged during the connection establishment be denoted as P1, P2, and P3, in order. Which of the following option(s) is/are TRUE with respect to TCP header flags that are set in the packets? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>P3: SYN = 1, ACK = 1</p>",
+            "<b>B.</b> <p>P2: SYN = 1, ACK = 1</p>",
+            "<b>C.</b> <p>P2: SYN = 0, ACK = 1</p>",
+            "<b>D.</b> <p>P1: SYN = 1</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>P2: SYN = 1, ACK = 1</p>",
+            "<b>D.</b> <p>P1: SYN = 1</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460068/gate-cse-2025-set-1-question-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a TCP connection operating at a point of time with the congestion window\nof size 12 MSS (Maximum Segment Size), when a timeout occurs due to packet\nloss. Assuming that all the segments transmitted in the next two RTTs (Round Trip\nTime) are acknowledged correctly, the congestion window size (in MSS) during the\nthird RTT will be _________ <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422853/gate-cse-2024-set-2-question-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statements about IPv4 fragmentation is/are TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The fragmentation of an IP datagram is performed only at the source of the datagram</p>",
+            "<b>B.</b> <p>The fragmentation of an IP datagram is performed at any IP router which finds that the size of the datagram to be transmitted exceeds the MTU</p>",
+            "<b>C.</b> <p>The reassembly of fragments is performed only at the destination of the datagram</p>",
+            "<b>D.</b> <p>The reassembly of fragments is performed at all intermediate routers along the path from the source to the destination</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The fragmentation of an IP datagram is performed at any IP router which finds that the size of the datagram to be transmitted exceeds the MTU</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422879/gate-cse-2024-set-2-question-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>TCP client P successfully establishes a connection to TCP server \\(\\mathrm{Q} \\). Let \\(N_P \\) denote the sequence number in the SYN sent from \\(\\mathrm{P} \\) to \\(\\mathrm{Q} \\). Let \\(N_Q \\) denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The sequence number \\(N_P \\) is chosen randomly by \\(\\mathrm{P} \\)</p>",
+            "<b>B.</b> <p>The sequence number \\(N_P \\) is always 0 for a new connection</p>",
+            "<b>C.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P \\)</p>",
+            "<b>D.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P+1 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The sequence number \\(N_P \\) is chosen randomly by \\(\\mathrm{P} \\)</p>",
+            "<b>D.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P+1 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422823/gate-cse-2024-set-1-question-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Suppose you are asked to design a new reliable byte-stream transport protocol\nlike TCP. This protocol, named myTCP, runs over a 100 Mbps network with Round\nTrip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes.<br>\nWhich of the following is/are valid lengths of the Sequence Number field in the\nmyTCP header? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>30 bits</p>",
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>34 bits</p>",
+            "<b>D.</b> <p>36 bits</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>34 bits</p>",
+            "<b>D.</b> <p>36 bits</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399271/gate-cse-2023-question-40#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the data transfer using TCP over a 1 Gbps link. Assuming that the maximum segment lifetime (MSL) is set to 60 seconds, the minimum number of bits required for the sequence number field of the TCP header, to prevent the sequence number space from wrapping around during the MSL is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "33",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371886/Gate-cse-2022-question-50#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the three-way handshake mechanism followed during TCP connection establishment between hosts P and Q. Let X and Y be two random 32-bit starting sequence numbers chosen by P and Q respectively. Suppose P sends a TCP connection request message to Q with a TCP segment having SYN bit =1, SEQ number =X, and ACK bit =0. Suppose Q accepts the connection request. Which one of the following choices represents the information present in the TCP segment header that is sent by Q to P? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SYN  bit =1, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =0</p>",
+            "<b>B.</b> <p>SYN  bit =0, SEQ number =X+1, ACK bit =0, ACK number =Y, FIN bit =1</p>",
+            "<b>C.</b> <p>SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0</p>",
+            "<b>D.</b> <p>SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X, FIN bit =0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>SYN  bit =1, SEQ number =Y, ACK bit =1, ACK number =X+1, FIN bit =0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357533/gate-cse-2021-set-2-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider two hosts P and Q connected through a router R. The maximum transfer unit (MTU) value of the link between P and R is 1500 bytes, and between R and Q is 820 bytes.\n<br>\nA TCP segment of size 1400 bytes was transferred from P to Q through R, with IP identification value as 0x1234. Assume that the IP header size is 20 bytes. Further, the packet is allowed to be fragmented, i.e., Don't Fragment (DF) flag in the IP header is not set by P.\n<br>\nWhich of the following statements is/are correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.</p>",
+            "<b>B.</b> <p>If the second fragment is lost, R will resend the fragment with the IP identification value 0x1234.</p>",
+            "<b>C.</b> <p>If the second fragment is lost, P is required to resend the whole TCP segment.</p>",
+            "<b>D.</b> <p>TCP destination port can be determined by analysing only the second fragment.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Two fragments are created at R and the IP datagram size carrying the second fragment is 620 bytes.</p>",
+            "<b>C.</b> <p>If the second fragment is lost, P is required to resend the whole TCP segment.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357406/gate-cse-2021-set-1-question-45#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A TCP server application is programmed to listen on port number P on host S. A TCP client is connected to the TCP server over the network.\n<br>\nConsider that while the TCP connection was active, the server machine S crashed and rebooted. Assume that the client does not use the TCP keepalive timer. Which of the following behaviors is/are possible? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>If the client was waiting to receive a packet, it may wait indefinitely.</p>",
+            "<b>B.</b> <p>The TCP server application on S can listen on P after reboot.</p>",
+            "<b>C.</b> <p>If the client sends a packet after the server reboot, it will receive a RST segment.</p>",
+            "<b>D.</b> <p>If the client sends a packet after the server reboot, it will receive a FIN segment.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>If the client was waiting to receive a packet, it may wait indefinitely.</p>",
+            "<b>B.</b> <p>The TCP server application on S can listen on P after reboot.</p>",
+            "<b>C.</b> <p>If the client sends a packet after the server reboot, it will receive a RST segment.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357407/gate-cse-2021-set-1-question-44#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Checksum field in TCP header is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ones complement of sum of header and data in bytes</p>",
+            "<b>B.</b> <p>ones complement of sum of header, data and pseudo header in?16?bit words</p>",
+            "<b>C.</b> <p>dropped from IPv6 header format</p>",
+            "<b>D.</b> <p>better than md5 or sh1 methods</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ones complement of sum of header, data and pseudo header in?16?bit words</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331478/isro2020-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The persist timer is used in TCP to <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>To detect crashes from the other end of the connection</p>",
+            "<b>B.</b> <p>To enable retransmission</p>",
+            "<b>C.</b> <p>To avoid deadlock condition</p>",
+            "<b>D.</b> <p>To timeout FIN_Wait1 condition</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>To avoid deadlock condition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331405/isro2020-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a TCP connection between a client and a server with the following specifications; the round trip time is 6 ms, the size of the receiver advertised window is 50 KB, slow-start threshold at the client is 32 KB, and the maximum segment size is 2 KB. The connection is established at time t=0. Assume that there are no timeouts and errors during transmission. Then the size of the congestion window (in KB) at time t+60 ms after all acknowledgements are processed is _______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "44",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333176/gate2020-cs-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Assuming that for a given network layer implementation, connection establishment overhead is 100 bytes and disconnection overhead is 28 bytes. What would be the minimum size of the packet the transport layer needs to keep up, if it wishes to implement a datagram service above the network layer and needs to keep its overhead to a minimum of 12.5%. (ignore transport layer overhead) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>512 bytes</p>",
+            "<b>B.</b> <p>768 bytes</p>",
+            "<b>C.</b> <p>1152 bytes</p>",
+            "<b>D.</b> <p>1024 bytes</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1024 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213543/isro2018-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider a long-lived TCP session with an end-to-end bandwidth of 1 Gbps (= \\(10^{9} \\) bits-per-second). The session starts with a sequence number of 1234. The minimum time (in seconds, rounded to the closest integer) before this sequence number can be used again is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204099/gate2018-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Consider the following statements regarding the slow start phase of the TCP congestion control algorithm. Note that \\(cwnd\\) stands for the TCP congestion window and MSS denotes the Maximum Segment Size. <br><br> (i) The cwnd increases by 2 MSS on every successful acknowledgment. <br>\n(ii) The cwnd approximately doubles on every successful acknowledgement.  <br>\n(iii) The cwnd increases by 1 MSS every round trip time. <br>\n(iv) The cwnd approximately doubles every round trip time. <br><br>\nWhich one of the following is correct? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (ii) and (iii) are true</p>",
+            "<b>B.</b> <p>Only (i) and (iii) are true</p>",
+            "<b>C.</b> <p>Only (iv) is true</p>",
+            "<b>D.</b> <p>Only (i) and (iv) are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only (iv) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204088/gate2018-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Match the following: <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transport_Layer_Protocol\\q13_4a5b162b.jpg\"> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-III, Q-IV, R-II, S-I</p>",
+            "<b>B.</b> <p>P-II, Q-I, R-IV, S-III</p>",
+            "<b>C.</b> <p>P-IV, Q-I, R-II, S-III</p>",
+            "<b>D.</b> <p>P-IV, Q-I, R-III, S-II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-IV, Q-I, R-II, S-III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204087/gate2018-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider socket API on a Linux machine that supports connected UDP sockets. A connected\nUDP socket is a UDP socket on which connect function has already been called. Which of the\nfollowing statements is/are CORRECT ?<br>\nI. A connected UDP socket can be used to communicate with multiple peers\nsimultaneously.<br>\nII. A process can successfully call connect function again for an already connected UDP\nsocket. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118209/gate2017-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Consider a TCP client and a TCP server running on two different machines. After completing\ndata transfer, the TCP client calls close to terminate the connectional and a FIN segment is\nsent to the TCP server. Server-side TCP responds by sending an ACK which is received by\nthe client-side TCP. As per the TCP connections state diagram (RFC 793), in which state does\nthe client-side TCP connection wait for the FIN from the sever-side TCP? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LAST-ACK</p>",
+            "<b>B.</b> <p>TIME-WAIT</p>",
+            "<b>C.</b> <p>FIN-WAIT-1</p>",
+            "<b>D.</b> <p>FIN-WAIT-2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>FIN-WAIT-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118194/gate2017-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>What is the maximum size of data that the application layer can pass on to the TCP layer below? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any size</p>",
+            "<b>B.</b> <p>\\(2^{16} \\text { bytes - size of TCP header }\\)</p>",
+            "<b>C.</b> <p>\\(2^{16} \\text { bytes }\\)</p>",
+            "<b>D.</b> <p>1500 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Any size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/412/gate2008-14-isro2016-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of 1 megabyte and the maximum output rate is 20 megabytes per second. Tokens arrive at a rate to sustain output at a rate of 10megabytes per second. The  token bucket is currently full and the machine needs to send 12megabytes of data. The minimum time required to transmit the data is _____seconds. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1.1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39720/gate2016-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>An ACK number of 1000 in TCP always means that <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>999 bytes have been successfully received</p>",
+            "<b>B.</b> <p>1000 bytes have been successfully received</p>",
+            "<b>C.</b> <p>1001 bytes have been successfully received</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19790/isro2015-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider the following statements.<br>\nI. TCP connections are full duplex <br>\nII. TCP has no option for selective acknowledgement <br>\nIII. TCP connections are message streams <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I is correct</p>",
+            "<b>B.</b> <p>Only I and III are correct</p>",
+            "<b>C.</b> <p>Only II and III are correct</p>",
+            "<b>D.</b> <p>All of I, II and III are correct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only I is correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8425/gate2015-3-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Assume that the bandwidth for a TCP connection is 1048560 bits/sec. Let \\(\\alpha\\) be the value of RTT in milliseconds (rounded off to the nearest integer) after which the TCP window scale option is needed. Let \\(\\beta\\) be the maximum possible window size with window scale option. Then the values of \\(\\alpha\\) and \\(\\beta\\) are <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>63 milliseconds, 65535 x \\(2^{14}\\)</p>",
+            "<b>B.</b> <p>63 milliseconds, 65535 x \\(2^{16}\\)</p>",
+            "<b>C.</b> <p>500 milliseconds, 65535 x \\(2^{14}\\)</p>",
+            "<b>D.</b> <p>500 milliseconds, 65535 x \\(2^{16}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>500 milliseconds, 65535 x \\(2^{14}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8154/gate2015-2-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Host A sends a UDP datagram containing 8880 bytes of user data to host B over an Ethernet LAN. Ethernet frames may carry data up to 1500 bytes (i.e. MTU=1500 bytes). Size of UDP header is 8 bytes and size of IP header is 20 bytes. There is no option field in IP header. How many total number of IP fragments will be transmitted and what will be the contents of offset field in the last fragment? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 925</p>",
+            "<b>B.</b> <p>6 and 7400</p>",
+            "<b>C.</b> <p>7 and 1110</p>",
+            "<b>D.</b> <p>7 and 8880</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7 and 1110</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8255/gate2015-2-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Suppose two hosts use a TCP connection to transfer a large file. Which of the following statements is/are FALSE with respect to the TCP connection?<br>\nI. If the sequence number of a segment is m, then the sequence number of the subsequent segment is always m+1.<br>\nII. If the estimated round trip time at any given point of time is t sec, the value of the retransmission timeout is always set to greater than or equal to t sec. <br>\nIII. The size of the advertised window never changes during the course of the TCP connection.<br>\nIV. The number of unacknowledged bytes at the sender is always less than or equal to the advertised window. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>III only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>I and IV only</p>",
+            "<b>D.</b> <p>II and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8217/gate2015-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Which one of the following socket API functions converts an unconnected active TCP socket\ninto a passive socket? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>connect</p>",
+            "<b>B.</b> <p>bind</p>",
+            "<b>C.</b> <p>listen</p>",
+            "<b>D.</b> <p>accept</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>listen</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1982/gate2014-2-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Let the size of congestion window of a TCP connection be 32 KB when a timeout occurs. The round trip time of the connection is 100 msec and the maximum segment size used is 2kB. The time taken (in msec) by the TCP connection to get back to 32KB congestion window is ______ <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1100",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1794/gate2014-1-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>The protocol data unit for the transport layer in the internet stack is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Segment</p>",
+            "<b>B.</b> <p>Message</p>",
+            "<b>C.</b> <p>Datagram</p>",
+            "<b>D.</b> <p>Frame</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Segment</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44154/isro-2013-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Which algorithm is used to shape the bursty traffic into a fixed rate traffic by averaging the data rate? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Solid bucket algorithm</p>",
+            "<b>B.</b> <p>Spanning tree algorithm</p>",
+            "<b>C.</b> <p>Hocken helm algorithm</p>",
+            "<b>D.</b> <p>Leaky bucket algorithm</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Leaky bucket algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43985/isro-2013-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>The transport layer protocols used for real time multimedia, file transfer, DNS and email,\nrespectively are <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP, UDP, UDP and TCP</p>",
+            "<b>B.</b> <p>UDP, TCP, TCP and UDP</p>",
+            "<b>C.</b> <p>UDP, TCP, UDP and TCP</p>",
+            "<b>D.</b> <p>TCP, UDP, TCP and UDP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>UDP, TCP, UDP and TCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1421/gate2013-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider an instance of TCP's Additive Increase Multiplicative Decrease (AIMD) algorithm where\nthe window size at the start of the slow start phase is 2 MSS and the threshold at the start of the first\ntransmission is 8 MSS. Assume that a timeout occurs during the fifth transmission. Find the\ncongestion window size at the end of the tenth transmission. <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 MSS</p>",
+            "<b>B.</b> <p>14 MSS</p>",
+            "<b>C.</b> <p>7 MSS</p>",
+            "<b>D.</b> <p>12 MSS</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7 MSS</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2156/gate2012-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Which of the following transport layer protocols is used to support electronic mail? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SMTP</p>",
+            "<b>B.</b> <p>IP</p>",
+            "<b>C.</b> <p>TCP</p>",
+            "<b>D.</b> <p>UDP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>TCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1605/gate2012-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>A layer-4 firewall (a device that can look at all protocol headers up to the\ntransport layer) CANNOT <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>block entire HTTP traffic during 9:00PM and 5:00AM</p>",
+            "<b>B.</b> <p>block all ICMP traffic</p>",
+            "<b>C.</b> <p>stop incoming traffic from a specific IP address but allow outgoing traffic to\nthe same IP address</p>",
+            "<b>D.</b> <p>block TCP traffic from a specific user on a multi-user system during 9:00PM\nand 5:00AM</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>block TCP traffic from a specific user on a multi-user system during 9:00PM\nand 5:00AM</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2104/gate2011-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>In networking, UTP stands for <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unshielded T-connector port</p>",
+            "<b>B.</b> <p>Unshielded twisted pair</p>",
+            "<b>C.</b> <p>Unshielded terminating pair</p>",
+            "<b>D.</b> <p>Unshielded transmission process</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Unshielded twisted pair</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50319/isro2009-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>While opening a TCP connection, the initial sequence number is to be derived using a time-of-day (ToD) clock that keeps running even when the host is down. The low order 32 bits of the counter of the ToD clock is to be used for the initial sequence numbers. The clock counter increments once per millisecond. The maximum packet lifetime is given to be 64s. <br>\nWhich one of the choices given below is closest to the minimum permissible rate\nat which sequence numbers used for packets of a connection can increase? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.015/s</p>",
+            "<b>B.</b> <p>0.064/s</p>",
+            "<b>C.</b> <p>0.135/s</p>",
+            "<b>D.</b> <p>0.327/s</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.015/s</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1333/gate2009-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>The TCP sliding window <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>can be used to control the flow of information</p>",
+            "<b>B.</b> <p>always occurs when the field value is 0</p>",
+            "<b>C.</b> <p>always occurs when the field value is 1</p>",
+            "<b>D.</b> <p>occurs horizontally</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>can be used to control the flow of information</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49669/isro2008-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>The three way handshake for TCP connection establishment is shown below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Transport_Layer_Protocol\\q69_d0b045bf.jpg\"><br>\nWhich of the following statements are TRUE?<br>\nS1:  Loss of SYN + ACK from the server will not establish a connection <br>\nS2:  Loss of ACK from the client cannot establish the connection<br>\nS3: The server moves \\(LISTEN \\to SYN\\_RCVD \\to SYN\\_SENT \\to ESTABLISHED\\) in the state machine on no packet loss <br>\nS4: The server moves \\(LISTEN \\to SYN\\_RCVD \\to ESTABLISHED\\) in the state machine on no packet loss <br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S2 and S3 only</p>",
+            "<b>B.</b> <p>S1 and S4 only</p>",
+            "<b>C.</b> <p>S1 and S3 only</p>",
+            "<b>D.</b> <p>S2 and S4 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3383/gate2008-it-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Which of the following statements are TRUE? <br>S1:  TCP handles both congestion and flow control<br>\nS2:  UDP handles congestion but not flow control<br>\nS3:  Fast retransmit deals with congestion but not flow control<br>\nS4:  Slow start mechanism deals with both congestion and flow control<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S3 only</p>",
+            "<b>B.</b> <p>S1 and S3 only</p>",
+            "<b>C.</b> <p>S3 and S4 only</p>",
+            "<b>D.</b> <p>S1, S3 and S4 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3382/gate2008-it-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>In the slow start phase of the TCP congestion control algorithm, the size of the\ncongestion window <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>does not increase</p>",
+            "<b>B.</b> <p>increases linearly</p>",
+            "<b>C.</b> <p>increases quadratically</p>",
+            "<b>D.</b> <p>increases exponentially</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>increases exponentially</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/479/gate2008-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>What is the maximum size of data that the application layer can pass on to the\nTCP layer below? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any size</p>",
+            "<b>B.</b> <p>\\(2^{16}\\) bytes-size of TCP header</p>",
+            "<b>C.</b> <p>\\(2^{16}\\) bytes</p>",
+            "<b>D.</b> <p>1500 bytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Any size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/412/gate2008-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Silly Window Syndrome is related to <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Error during transmission</p>",
+            "<b>B.</b> <p>File transfer protocol</p>",
+            "<b>C.</b> <p>Degrade in TCP performance</p>",
+            "<b>D.</b> <p>Interface problem</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Degrade in TCP performance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49634/isro2007-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider a TCP connection in a state where there are no outstanding ACKs. The sender sends two segments back to back. The sequence numbers of the first and second segments are 230 and 290 respectively. The first segment was lost, but the second segment was received correctly by the receiver. Let X be the amount of data carried in the first segment (in bytes), and Y be the ACK number sent by the receiver.\nThe values of X and Y (in that order) are <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>60 and 290</p>",
+            "<b>B.</b> <p>230 and 291</p>",
+            "<b>C.</b> <p>60 and 231</p>",
+            "<b>D.</b> <p>60 and 230</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>60 and 230</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3447/gate2007-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Consider the following statements about the timeout value used in TCP. <br>\ni.The timeout value is set to the RTT (Round Trip Time) measured during TCP connection establishment for the entire duration of the connection.<br>\nii.Appropriate RTT estimation algorithm is used to set the timeout value of a TCP connection.<br>\niii.Timeout value is set to twice the propagation delay from the sender to the receiver.<br>\nWhich of the following choices hold? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) is false, but (ii) and (iii) are true</p>",
+            "<b>B.</b> <p>(i) and (iii) are false, but (ii) is true</p>",
+            "<b>C.</b> <p>(i) and (ii) are false, but (iii) is true</p>",
+            "<b>D.</b> <p>(i), (ii) and (iii) are false</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(i) and (iii) are false, but (ii) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3446/gate2007-it-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Which one of the following uses UDP as the transport protocol? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>HTTP</p>",
+            "<b>B.</b> <p>Telnet</p>",
+            "<b>C.</b> <p>DNS</p>",
+            "<b>D.</b> <p>SMTP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1218/gate2007-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>A program on machine X attempts to open a UDP connection to port 5376 on a machine Y, and a TCP connection to port 8632 on machine Z. However, there are no applications listening at the corresponding ports on Y and Z. An ICMP Port Unreachable error will be generated by <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Y but not Z</p>",
+            "<b>B.</b> <p>Z but not Y</p>",
+            "<b>C.</b> <p>Neither Y nor Z</p>",
+            "<b>D.</b> <p>Both Y and Z</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both Y and Z</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3613/gate2006-it-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>On a TCP connection, current congestion window size is Congestion Window = 4 KB. The window size advertised by the receiver is Advertise Window = 6 KB. The last byte sent by the sender is LastByteSent = 10240 and the last byte acknowledged by the receiver is LastByteAcked = 8192. The current window size at the sender is: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2048 bytes</p>",
+            "<b>B.</b> <p>4096 bytes</p>",
+            "<b>C.</b> <p>6144 bytes</p>",
+            "<b>D.</b> <p>8192 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4096 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3836/gate2005-it-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Packets of the same session may be routed through different paths in: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP, but not UDP</p>",
+            "<b>B.</b> <p>TCP and UDP</p>",
+            "<b>C.</b> <p>UDP, but not TCP</p>",
+            "<b>D.</b> <p>Neither TCP nor UDP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP and UDP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1359/gate2005-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Suppose that the maximum transmit window size for a TCP connection is 12000 bytes. Each packet consists of 2000 bytes. At some point in time, the connection is in slow-start phase with a current transmit window of 4000 bytes. Subsequently, the transmitter receives two acknowledgments. Assume that no packets are lost and there are no time-outs. What is the maximum possible value of the current transmit window? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4000 bytes</p>",
+            "<b>B.</b> <p>8000 bytes</p>",
+            "<b>C.</b> <p>10000 bytes</p>",
+            "<b>D.</b> <p>12000 bytes</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8000 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3732/gate2004-it-88\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>A TCP message consisting of 2100  bytes is passed to IP for delivery across two networks. The first network can carry a maximum payload of 1200 bytes per frame and the second network can carry a maximum payload of 400 bytes per frame, excluding network overhead. Assume that IP overhead per packet is 20 bytes. What is the total IP overhead in the second network for this transmission? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>40 bytes</p>",
+            "<b>B.</b> <p>80 bytes</p>",
+            "<b>C.</b> <p>120 bytes</p>",
+            "<b>D.</b> <p>160 bytes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>120 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3731/gate2004-it-87\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>In TCP, a unique sequence number is assigned to each <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>byte</p>",
+            "<b>B.</b> <p>word</p>",
+            "<b>C.</b> <p>segment</p>",
+            "<b>D.</b> <p>message</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>byte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3669/gate2004-it-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Which one of the following statements is FALSE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TCP guarantees a minimum communication rate</p>",
+            "<b>B.</b> <p>TCP ensures in-order delivery</p>",
+            "<b>C.</b> <p>TCP reacts to congestion by reducing sender window size</p>",
+            "<b>D.</b> <p>TCP employs retransmission to compensate for packet loss</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>TCP guarantees a minimum communication rate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3664/gate2004-it-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Which of the following functionalities must be implemented by a transport\nprotocol over and above the network protocol ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recovery from packet losses</p>",
+            "<b>B.</b> <p>Detection of duplicate packets</p>",
+            "<b>C.</b> <p>Packet delivery in the correct order</p>",
+            "<b>D.</b> <p>End to end connectivity</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>End to end connectivity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/918/gate2003-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

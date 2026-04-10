@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "General Awareness - Mortgage",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Mortgage",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"111\"></a><div itemprop=\"text\"><p>Which of the&nbsp;following assets can be mortgaged?</p>\n\n<ol>\n\t<li>Stock</li>\n\t<li>Book Debts</li>\n\t<li>National Savings Certificate</li>\n\t<li>Shares</li>\n\t<li>Land and Building</li>\n</ol></div><br><br><b>General Awareness: Which of the following assets can be mortgaged</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/111/which-of-the-following-assets-can-be-mortgaged\" target=\"_blank\">https://aptitude.gateoverflow.in/111/which-of-the-following-assets-can-be-mortgaged</a></p>"
+        }
+      ]
+    }
+  ]
+});

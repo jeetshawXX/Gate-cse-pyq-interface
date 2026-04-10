@@ -1,0 +1,236 @@
+{
+  "title": "Graph_Theory - Graph_Theory - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Graph_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let G be a simple graph with 20 vertices and 100 edges. The size of the minimum vertex cover of G is 8. then, the size of the maximum independent set of G is: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>Less than 8</p>",
+            "<b>D.</b> <p>More than 12</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>12</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1161/gate2005-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the number of vertices in an undirected connected graph with 27 edges, 6 vertices of degree 2, 3 vertices of degree 4 and remaining of degree 3? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>11</p>",
+            "<b>C.</b> <p>18</p>",
+            "<b>D.</b> <p>19</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>19</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3680/gate2004-it-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the maximum number of edges in an acyclic undirected graph with n vertices? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>2n-1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3646/gate2004-it-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let G1=(V, E1) and G2=(V, E2) be connected graphs on the same vertex set V with more than two vertices. If G1\\(\\cap\\)G2 = (V, E1\\(\\cap\\)E2) is not a connected graph, then the graph G1\\(\\cup\\)G2 = (V, E1\\(\\cup\\)E2) <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>cannot have a cut vertex</p>",
+            "<b>B.</b> <p>must have a cycle</p>",
+            "<b>C.</b> <p>must have a cut-edge (bridge)</p>",
+            "<b>D.</b> <p>has chromatic number strictly greater than those of G1 and G2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>must have a cycle</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1075/gate2004-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>How many graphs on n labeled vertices exist which have at least \\(\\frac{(n^{2}-3n)}{2}\\) edges ? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(^{(n^{2}-n)/2}C_{(n^{2}-3n)/2}\\)</p>",
+            "<b>B.</b> <p>\\(\\sum_{k=0}^{(n^{2}-3n)/2}(n^{2}-3n)/2\\)</p>",
+            "<b>C.</b> <p>\\(^{(n^{2}-n)/2}C_{n}\\)</p>",
+            "<b>D.</b> <p>\\(\\sum_{k=0}^{n} {^{(n^{2}-n)/2}C_{k}}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\sum_{k=0}^{n} {^{(n^{2}-n)/2}C_{k}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1073/gate2004-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The minimum number of colours required to colour the following graph, such that no two adjacent\nvertices are assigned the same colour, is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q77_b1b417fc.jpg\"> <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1071/gate2004-77#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let G = (V,E) be a direction graph with n vertices. A path from \\(v_{i}\\)\nto \\(v_{i}\\) in G is\nsequence of vertices (\\(v_{i}\\),\\(v_{i+1}\\),....., \\(v_{j}\\)) such that (\\(v_{k}\\),\\(v_{k+1}\\))\\(\\in\\)E for all k in i through\nj - 1. A simple path is a path in which no vertex appears more than once. <br>\nLet A be an n x n array initialized as follows. <br> \\(A[j,k]=\\left\\{\\begin{matrix} 1 &amp; if (j,k) \\in E \\\\ 0&amp;  otherwise \\end{matrix}\\right.\\)<br> Consider the following algorithm<pre><code> for i = 1 to n\n   for j = 1 to n\n      for k = 1 to n\n         A [j , k] = max (A[j, k] (A[j, i] + A [i, k]); </code></pre>\nWhich of the following statements is necessarily true for all j and k after terminal\nof the above algorithm? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A[j,k]\\leq n\\)</p>",
+            "<b>B.</b> <p>If \\(A[j,k]\\geq n- 1\\), then G has a Haniltonian cycle</p>",
+            "<b>C.</b> <p>If there exists a path from j to k,A[j,k] contains the longest path lens from\nj to k</p>",
+            "<b>D.</b> <p>If there exists a path from j to k , every simple path from j to k contain\nmost A[j,k] edges</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>If there exists a path from j to k , every simple path from j to k contain\nmost A[j,k] edges</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/957/gate2003-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A graph G = (V, E) satisfies |E| \\(\\leq\\)3|V|-6. The min-degree of G is defined as \\(\\underset{v \\in V}{min}\\{degree(v)\\}\\).<br> Therefore, min-degree of G cannot be <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/931/gate2003-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>How many perfect matching are there in a complete graph of 6 vertices? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>24</p>",
+            "<b>C.</b> <p>30</p>",
+            "<b>D.</b> <p>60</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/926/gate2003-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following graph <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q21_0bd25948.jpg\"> <br> Among the following sequences <br> (I) a b e g h f <br>\n(II) a b f e h g <br>\n(III) a b f h g e  <br>\n(IV) a f g h b e  <br>\nWhich are depth first traversals of the above graph? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and IV only</p>",
+            "<b>B.</b> <p>I and IV only</p>",
+            "<b>C.</b> <p>II, III and IV only</p>",
+            "<b>D.</b> <p>I, III and IV only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, III and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/911/gate2003-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let G be an arbitrary graph with n nodes and k components. If a vertex is\nremoved from G, the number of components in the resultant graph must necessarily\nlie between. <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k and n</p>",
+            "<b>B.</b> <p>k-1 and k+1</p>",
+            "<b>C.</b> <p>k-1 and n-1</p>",
+            "<b>D.</b> <p>k+1 and n-k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-1 and n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\({n}^{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>(n-1)</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The minimum number of colours required to colour the vertices of a cycle with n\nnodes in such a way that no two adjacent nodes have same colour is. <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>\\(n-2[\\frac{n}{2}]+2\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(n-2[\\frac{n}{2}]+2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/808/gate2002-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let G be an undirected graph. Consider a depth-first traversal of G, and let T be the resulting depth-first search tree. Let u be a vertex in G and let v be the first new (unvisited) vertex visited after visiting u in the traversal. Which of the following statement is always true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>u, v must be an edge in G, and u is a descendant of v in T</p>",
+            "<b>B.</b> <p>u, v must be an edge in G, and v is a descendant of u in T</p>",
+            "<b>C.</b> <p>If u, v is not an edge in G then u is a leaf in T</p>",
+            "<b>D.</b> <p>If u, v is not an edge in G then u and v must have the same parent in T</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>If u, v is not an edge in G then u is a leaf in T</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/4208/gate2000-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The most appropriate matching for the following pairs is: <br>\\(\\begin{array}{|l|l|}\\hline \\text{X: depth first search} &amp; \\text{1: heap } \\\\\\hline \\text{Y: breadth first search} &amp; \\text{2: queue} \\\\\\hline \\text{Z: sorting} &amp; \\text{3: stack} \\\\\\hline \\end{array}\\) <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X - 1,  Y - 2,  Z - 3</p>",
+            "<b>B.</b> <p>X - 3,  Y - 1,  Z - 2</p>",
+            "<b>C.</b> <p>X - 3,  Y - 2,  Z - 1</p>",
+            "<b>D.</b> <p>X - 2,  Y - 3,  Z - 1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X - 3,  Y - 2,  Z - 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/636/gate2000-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

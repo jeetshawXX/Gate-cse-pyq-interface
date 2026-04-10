@@ -1,0 +1,59 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Sequence Series",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Sequence Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25500\"></a><div itemprop=\"text\"><p>Consider a sequence of numbers \\( \\large (\\epsilon _{n}: n= 1, 2,...) \\), such that \\( \\epsilon _{1}=10 \\) and</p>\n\n<p>\\( \\large \\epsilon _{n+1}=\\dfrac{20\\epsilon _{n}}{20+\\epsilon _{n}} \\)</p>\n\n<p>for \\( n\\geq 1 \\). Which of the following statements is true?</p>\n\n<p>Hint: Consider the sequence of reciprocals.</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2013 | Part A | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The sequence \\( \\large (\\epsilon _{n}: n= 1, 2,...) \\) converges to zero.</p>",
+            "<p>\\( \\large \\epsilon _{n}\\geq 1 \\) for all \\( n \\)</p>",
+            "<p>The sequence \\( \\large (\\epsilon _{n}: n= 1, 2,...) \\) is decreasing and converges to \\( 1. \\)</p>",
+            "<p>The sequence \\( \\large (\\epsilon _{n}: n= 1, 2,...) \\) is decreasing and then increasing. Finally it converges to \\( 1. \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>The sequence \\( \\large (\\epsilon _{n}: n= 1, 2,...) \\) converges to zero.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25500/tifr-cse-2013-part-a-question-19\" target=\"_blank\">https://gateoverflow.in/25500/tifr-cse-2013-part-a-question-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"97370\"></a><div itemprop=\"text\"><p>Consider the sequence \\( \\langle s_n : n \\geq 0 \\rangle \\) defined as follows: \\( s_0=0, s_1=1, s_2=1 \\), and \\( s_n = s_{n-1} +s_{n-2}+s_{n-3} \\), for \\( n \\geq 3 \\). Which of the following statements is FALSE?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2016 | Part A | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( s_{4k} \\) is even, for any \\(  k \\geq 0 \\)</p>",
+            "<p>\\( s_{4k+1} \\) is odd, for any \\(  k \\geq 0 \\)</p>",
+            "<p>\\( s_{4k+2} \\) is odd, for any \\(  k \\geq 0 \\)</p>",
+            "<p>\\( s_n \\) is a multople of 3, for only finitely many values of \\( n \\)</p>",
+            "<p>\\( s_{4k+3} \\) is even, for any \\(  k \\geq 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( s_n \\) is a multople of 3, for only finitely many values of \\( n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/97370/tifr-cse-2016-part-a-question-10\" target=\"_blank\">https://gateoverflow.in/97370/tifr-cse-2016-part-a-question-10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"400134\"></a><div itemprop=\"text\"><p>Let \\( S \\) be the value of following infinite series:<br>\n\\[<br>\n\\sum_{n=1}^{\\infty} \\frac{1}{n^{4}} .<br>\n\\]<br>\nIn which of the following intervals must \\( S \\) lie?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2023 | Part A | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left[\\frac{\\pi^{4}}{900}, \\frac{\\pi^{4}}{450}\\right] \\)</p>",
+            "<p>\\( [0.95,1.05] \\)</p>",
+            "<p>\\( \\left[\\frac{\\pi^{4}}{100}, \\frac{\\pi^{4}}{80}\\right] \\)</p>",
+            "<p>\\( \\left[\\frac{\\pi^{4}}{2}, \\pi^{4}\\right] \\)</p>",
+            "<p>The series diverges, so \\( S \\) must be infinity.</p>"
+          ],
+          "correct_answer": "<p>\\( \\left[\\frac{\\pi^{4}}{100}, \\frac{\\pi^{4}}{80}\\right] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400134/tifr-cse-2023-part-a-question-9\" target=\"_blank\">https://gateoverflow.in/400134/tifr-cse-2023-part-a-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

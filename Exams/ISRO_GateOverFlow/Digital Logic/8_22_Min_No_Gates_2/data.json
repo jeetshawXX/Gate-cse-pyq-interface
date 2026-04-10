@@ -1,0 +1,41 @@
+{
+  "title": "Digital Logic - Min No Gates",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Min No Gates",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"41842\"></a><div itemprop=\"text\"><p>The minimum number of \\( \\text{NAND} \\) gates required to implement the Boolean function \\( A + A\\overline{B} + A\\overline{B}C \\) is equal to</p>\n\n</div><br><br><b>Digital Logic: ISRO CSE 2016 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\) (Zero)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\) (Zero)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41842/isro-cse-2016-question-7\" target=\"_blank\">https://gateoverflow.in/41842/isro-cse-2016-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"129118\"></a><div itemprop=\"text\"><p>What is the minimum number of two-input \\( \\text{NAND} \\) gates used to perform the function of two-input \\( \\text{OR} \\) gate?</p>\n\n</div><br><br><b>Digital Logic: ISRO CSE 2017 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One</p>",
+            "<p>Two</p>",
+            "<p>Three</p>",
+            "<p>Four</p>"
+          ],
+          "correct_answer": "<p>Three</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/129118/isro-cse-2017-question-23\" target=\"_blank\">https://gateoverflow.in/129118/isro-cse-2017-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+}

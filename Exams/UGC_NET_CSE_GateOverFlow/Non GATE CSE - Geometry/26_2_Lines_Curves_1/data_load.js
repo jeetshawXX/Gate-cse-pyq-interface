@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Geometry - Lines Curves",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Lines Curves",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62591\"></a><div itemprop=\"text\"><p>The end points of a given line are \\( (0,0) \\) and \\( (6,18) \\). Compute each value of y&nbsp;as x&nbsp;steps from \\( 0 \\) to \\( 3 \\), by using equation of straight line:</p>\n\n</div><br><br><b>Geometry: UGC NET CSE | December 2015 | Part 3 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>For \\( x=0, y=0; x=1, y=3; x=2, y=6; x=3, y=9 \\)</p>",
+            "<p>For \\( x=0, y=1; x=1, y=3; x=2, y=4; x=3, y=9 \\)</p>",
+            "<p>For \\( x=0, y=2; x=1, y=3; x=2, y=6; x=3, y=9 \\)</p>",
+            "<p>For \\( x=0, y=0; x=1, y=3; x=2, y=4; x=3, y=6 \\)</p>"
+          ],
+          "correct_answer": "<p>For \\( x=0, y=2; x=1, y=3; x=2, y=6; x=3, y=9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62591/ugc-net-cse-december-2015-part-3-question-32\" target=\"_blank\">https://gateoverflow.in/62591/ugc-net-cse-december-2015-part-3-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+});

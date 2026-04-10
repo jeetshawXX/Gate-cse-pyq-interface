@@ -1,0 +1,226 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 11",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>There are 5 bags labelled 1 to 5. All the coins in a given bag have the same weight. Some\nbags have coins of weight 10 gm, others have coins of weight 11 gm. I pick 1, 2, 4, 8, 16\ncoins respectively from bags 1 to 5. Their total weight comes out to 323 gm. Then the product\nof the labels of the bags having 11 gm coins is ___. <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "12",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1915/gate2014-1-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the directed graph given below. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q13_d927c255.jpg\"><br> Which one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The graph does not have any topological ordering</p>",
+            "<b>B.</b> <p>Both PQRS and SRQP are topological orderings</p>",
+            "<b>C.</b> <p>Both PSRQ and SPRQ are topological orderings.</p>",
+            "<b>D.</b> <p>PSRQ is the only topological ordering</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both PSRQ and SPRQ are topological orderings.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1779/gate2014-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let G be a graph with n vertices and m edges. What is the tightest upper bound on the\nrunning time of Depth First Search on G, when G is represented as an adjacency matrix? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n+m)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (m^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\Theta (n^{2})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1771/gate2014-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let G=(V,E) be a directed graph where V is the set of vertices and E the set of edges. Then which one of the following graphs has the same strongly connected components as G ? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(G_{1}=(V,E_{1})\\) where \\(E_{1}\\equiv \\{(u,v)|(u,v)\\notin E\\}\\)</p>",
+            "<b>B.</b> <p>\\(G_{2}=(V,E_{2})\\) where \\(E_{2}\\equiv \\{(u,v)|(v,u)\\in E\\}\\)</p>",
+            "<b>C.</b> <p>\\(G_{3}=(V,E_{3})\\) where \\(E_{3}\\equiv \\{(u,v)|\\) there is a path of lenth \\(\\leq\\) 2 from u to v in E}</p>",
+            "<b>D.</b> <p>\\(G_{4}=(V_{4},E)\\) where \\(V_{4}\\)  is the set of vertices in G which are not isolated</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(G_{2}=(V,E_{2})\\) where \\(E_{2}\\equiv \\{(u,v)|(v,u)\\in E\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1754/gate2014-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Suppose you break a stick of unit length at a point chosen uniformly at random. Then the expected length of the shorter stick is <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.24",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1717/gate2014-1-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the statement <br> \"Not all that glitters is gold\"<br> Predicate glitters(x)  is true if x glitters  and predicate gold(x) is true if x is gold. Which one of the following logical formulae represents the above statement? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x:glitters(x)\\Rightarrow \\neg gold(x)\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x:gold(x)\\Rightarrow glitters(x)\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x:gold(x)\\wedge \\neg glitters(x)\\)</p>",
+            "<b>D.</b> <p>\\(\\exists x:glitters(x)\\wedge \\neg gold(x)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\exists x:glitters(x)\\wedge \\neg gold(x)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/769/gate2014-1-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which one of the following is NOT logically equivalent to \\(\\neg \\exists x(\\forall y(\\alpha )\\wedge \\forall z(\\beta ))\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x(\\exists z(\\neg \\beta )\\rightarrow \\forall y(\\alpha ))\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x(\\forall z(\\beta )\\rightarrow \\exists z(\\neg \\alpha ))\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x(\\forall y(\\alpha )\\rightarrow \\exists z(\\neg \\beta ))\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x (\\exists y(\\neg \\alpha )\\rightarrow \\exists z(\\neg \\beta ))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\forall x(\\exists z(\\neg \\beta )\\rightarrow \\forall y(\\alpha ))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "In GATE 2013 marks were given to all for this question<br><a href=\"https://gateoverflow.in/80/gate2013-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What is the logical translation of the following statement? <br>\n\"None of my friends are perfect.\" <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\exists x(F(x)\\wedge \\neg P(x))\\)</p>",
+            "<b>B.</b> <p>\\(\\exists x(\\neg F(x)\\wedge P(x))\\)</p>",
+            "<b>C.</b> <p>\\(\\exists x(\\neg F(x)\\wedge \\neg P(x))\\)</p>",
+            "<b>D.</b> <p>\\(\\neg \\exists x( F(x) \\wedge P(x))\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\neg \\exists x( F(x) \\wedge P(x))\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1538/gate2013-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The line graph L(G) of a simple graph G is defined as follows: <br>\nThere is exactly one vertex v(e) in L(G) for each edge e in G. <br>\nFor any two edges e and e' in G, L(G) has an edge between v(e) and v(e'), if and only if e and e'  are incident with the same vertex in G. <br>\nWhich of the following statements is/are TRUE? <br>\n(P) The line graph of a cycle is a cycle.<br>\n(Q) The line graph of a clique is a clique.<br>\n(R) The line graph of a planar graph is planar.<br>\n(S) The line graph of a tree is a tree. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P only</p>",
+            "<b>B.</b> <p>P and R only</p>",
+            "<b>C.</b> <p>R only</p>",
+            "<b>D.</b> <p>P, Q and S only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>P only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1537/gate2013-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following statements is/are TRUE for undirected graphs?<br>\nP: Number of odd degree vertices is even. <br>\nQ: Sum of degrees of all vertices is even. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P only</p>",
+            "<b>B.</b> <p>Q only</p>",
+            "<b>C.</b> <p>Both P and Q</p>",
+            "<b>D.</b> <p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both P and Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1536/gate2013-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider an undirected random graph of eight vertices. The probability that there is an edge\nbetween a pair of vertices is 1/2. What is the expected number of unordered cycles of length three? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/8\\)</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1535/gate2013-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose p is the number of cars per minute passing through a certain road junction between 5 PM\nand 6 PM, and p has a Poisson distribution with mean 3. What is the probability of observing fewer\nthan 3 cars during any given minute in this interval? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(8/(2e^{3})\\)</p>",
+            "<b>B.</b> <p>\\(9/(2e^{3})\\)</p>",
+            "<b>C.</b> <p>\\(17/(2e^{3})\\)</p>",
+            "<b>D.</b> <p>\\(26/(2e^{3})\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(17/(2e^{3})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/62/gate2013-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A binary operation \\(\\oplus\\) on a set of integers is defined as \\( x \\oplus y= x^{2}+y^{2}\\). Which one of the following statements is TRUE about \\(\\oplus\\) ? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Commutative but not associative</p>",
+            "<b>B.</b> <p>Both commutative and associative</p>",
+            "<b>C.</b> <p>Associative but not commutative</p>",
+            "<b>D.</b> <p>Neither commutative nor associative</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Commutative but not associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/59/gate2013-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let G be a complete undirected graph on 6 vertices. If vertices of G are labeled, then the number of\ndistinct cycles of length 4 in G is equal to <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>45</p>",
+            "<b>C.</b> <p>90</p>",
+            "<b>D.</b> <p>360</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>45</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/473/gate2012-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>How many onto (or surjective) functions are there from an n-element ( \\(n \\geq 2\\) ) set to a 2-element set? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n}-1\\)</p>",
+            "<b>C.</b> <p>\\(2^{n}-2\\)</p>",
+            "<b>D.</b> <p>\\(2(2^{n}-2)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{n}-2\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1759/gate2012-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

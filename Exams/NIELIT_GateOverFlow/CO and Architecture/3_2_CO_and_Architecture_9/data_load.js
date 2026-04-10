@@ -1,0 +1,146 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - CO and Architecture",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "CO and Architecture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336483\"></a><div itemprop=\"text\"><p>Process that periodically checks status of an I/O devices, is known as</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cold swapping</p>",
+            "<p>I/O instructions</p>",
+            "<p>Polling</p>",
+            "<p>Dealing</p>"
+          ],
+          "correct_answer": "<p>Polling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336483/nielit-2016-dec-scientist-b-cs-section-b-55\" target=\"_blank\">https://gateoverflow.in/336483/nielit-2016-dec-scientist-b-cs-section-b-55</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337246\"></a><div itemprop=\"text\"><p>When a subroutine is called, then&nbsp;address of the instruction following&nbsp;the CAL&nbsp; instruction is stored in/on the</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack pointer</p>",
+            "<p>Accumulator</p>",
+            "<p>Program counter</p>",
+            "<p>Stack</p>"
+          ],
+          "correct_answer": "<p>Program counter</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337246/nielit-2016-mar-scientist-c-section-c-19\" target=\"_blank\">https://gateoverflow.in/337246/nielit-2016-mar-scientist-c-section-c-19</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337238\"></a><div itemprop=\"text\"><p>The process of entering data into a storage location</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>causes variation in its address number</p>",
+            "<p>adds to the contents of the location</p>",
+            "<p>is called a readout operation</p>",
+            "<p>is destructive of previous contents</p>"
+          ],
+          "correct_answer": "<p>is destructive of previous contents</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337238/nielit-2016-mar-scientist-c-section-c-27\" target=\"_blank\">https://gateoverflow.in/337238/nielit-2016-mar-scientist-c-section-c-27</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"337237\"></a><div itemprop=\"text\"><p>Serial access memories are useful in applications where</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>data consists of numbers</p>",
+            "<p>short access time is required</p>",
+            "<p>each stored word is processed differently</p>",
+            "<p>data naturally needs to flow in and out in serial form</p>"
+          ],
+          "correct_answer": "<p>data naturally needs to flow in and out in serial form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337237/nielit-2016-mar-scientist-c-section-c-28\" target=\"_blank\">https://gateoverflow.in/337237/nielit-2016-mar-scientist-c-section-c-28</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"337218\"></a><div itemprop=\"text\"><p>If a processor does not have any stack pointer register, then</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>it cannot have subroutine call instruction</p>",
+            "<p>it can have subroutine call instruction, but no nested subroutine calls</p>",
+            "<p>nested subroutine calls are possible, but interrupts are not</p>",
+            "<p>all sequences of subroutine calls and also interrupts are possible</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337218/nielit-2016-mar-scientist-c-section-c-47\" target=\"_blank\">https://gateoverflow.in/337218/nielit-2016-mar-scientist-c-section-c-47</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336275\"></a><div itemprop=\"text\"><p>Which of the following is <strong>false</strong>?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The smallest and fastest computer imitating brain working is called quantum computer.</p>",
+            "<p>A computer with a speed of around \\( 100 \\) million instructions per second with the word length of around \\( 64 \\) bits is known as super computer.</p>",
+            "<p>The term Exa-byte \\( = 1024 \\) Tera Bytes.</p>",
+            "<p>None of the options.</p>"
+          ],
+          "correct_answer": "<p>The term Exa-byte \\( = 1024 \\) Tera Bytes.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336275/nielit-2017-dec-scientist-b-section-b-38\" target=\"_blank\">https://gateoverflow.in/336275/nielit-2017-dec-scientist-b-section-b-38</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336319\"></a><div itemprop=\"text\"><p>The part of machine level instruction, which tells the central processor what has to be done, is</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Operation code</p>",
+            "<p>Address</p>",
+            "<p>Locator</p>",
+            "<p>Flip-Flop</p>"
+          ],
+          "correct_answer": "<p>Operation code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336319/nielit-2017-july-scientist-b-cs-section-b-56\" target=\"_blank\">https://gateoverflow.in/336319/nielit-2017-july-scientist-b-cs-section-b-56</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"275504\"></a><div itemprop=\"text\"><p>If the period of a signal is \\( 100 \\) ms. Then its frequency in Hertz is ______</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 1000 \\)</p>",
+            "<p>\\( 10000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275504/nielit-2018-60\" target=\"_blank\">https://gateoverflow.in/275504/nielit-2018-60</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"275503\"></a><div itemprop=\"text\"><p>The ALU uses _____ to store intermediate result</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cache</p>",
+            "<p>Registers</p>",
+            "<p>Accumulators</p>",
+            "<p>Stack</p>"
+          ],
+          "correct_answer": "<p>Accumulators</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275503/nielit-2018-61\" target=\"_blank\">https://gateoverflow.in/275503/nielit-2018-61</a></p>"
+        }
+      ]
+    }
+  ]
+});

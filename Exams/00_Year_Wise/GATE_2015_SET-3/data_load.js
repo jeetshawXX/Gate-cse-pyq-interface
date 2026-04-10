@@ -1,0 +1,886 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2015_SET-3",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "General Aptitude",
+      "questions": [
+        {
+          "id": 56,
+          "question": "<p>If ROAD is written as URDG, then SWANshould be written as:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>VXDQ</p>",
+            "<b>B.</b> <p>VZDQ</p>",
+            "<b>C.</b> <p>VZDP</p>",
+            "<b>D.</b> <p>UXDQ</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>VZDQ</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8298/gate-cse-2015-set-3-question-ga-1#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>The Tamil version of __________ John Abraham-starrer Madras Cafe __________ cleared by the Censor Board with no cuts last week, but the film's distributor _______ no takers among the exhibitors for a release in Tamilnadu _______ this Friday.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mr., was, found, on</p>",
+            "<b>B.</b> <p>a, was, found, at</p>",
+            "<b>C.</b> <p>the, was, found, on</p>",
+            "<b>D.</b> <p>a, being, find at</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the, was, found, on</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8300/gate-cse-2015-set-3-question-ga-2#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Extreme focus on syllabus and studying for tests has become such a dominant concern of Indian student that they close their minds to anything ___________ to the requirements of the exam.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>related</p>",
+            "<b>B.</b> <p>extraneous</p>",
+            "<b>C.</b> <p>outside</p>",
+            "<b>D.</b> <p>useful</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>extraneous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8301/gate-cse-2015-set-3-question-ga-3#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Select the pair of best expresses a relationship similar to that expressed in the pair:\n<br><br>\nChildren : Pediatrician</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Adult : Orthopaedist</p>",
+            "<b>B.</b> <p>Females : Gynaecologist</p>",
+            "<b>C.</b> <p>Kidney : Nephrologist</p>",
+            "<b>D.</b> <p>Skin : Dermatologist</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Females : Gynaecologist</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8302/gate-cse-2015-set-3-question-ga-4#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>A function f(x) is linear and has a value of 29 at x= -2 and 39 at x=3. Find its value at x=5.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>59</p>",
+            "<b>B.</b> <p>45</p>",
+            "<b>C.</b> <p>43</p>",
+            "<b>D.</b> <p>35</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>43</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8303/gate-cse-2015-set-3-question-ga-5#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>Alexander turned his attention towards India, since he had conquered Persia.\n<br><br>\nWhich one of the statements below is logically valid and can be inferred from the above sentence?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Alexander would not have turned his attention towards India had he not conquered Persia.</p>",
+            "<b>B.</b> <p>Alexander was not ready to rest on his laurels, and wanted to march to India.</p>",
+            "<b>C.</b> <p>Alexander was not completely in control of his army and could command it to move towards India.</p>",
+            "<b>D.</b> <p>Since Alexander's kingdom extended to Indian borders after the conquest of Persia, he was keen to move further.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Alexander would not have turned his attention towards India had he not conquered Persia.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8306/gate-cse-2015-set-3-question-ga-6#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>The head of newly formed government desires to appoint five of the six selected members P, Q, R, S, T and U to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if S gets one of the five. R wants either Home or Finance or no portfolio. Q says that if S gets Power or Telecom, then she must get the other one. T insists on a portfolio if P gets one.\n<br><br>\nWhich is the valid distribution of portfolios?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-Home, Q-Power, R-Defense, S-Telecom, T-Finance</p>",
+            "<b>B.</b> <p>R-Home, S-Power, P-Defense, Q-Telecom, T-Finance</p>",
+            "<b>C.</b> <p>P-Home, Q-Power, T-Defense, S-Telecom, U-Finance</p>",
+            "<b>D.</b> <p>Q-Home, U-Power, T-Defense, R-Telecom, P-Finance</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R-Home, S-Power, P-Defense, Q-Telecom, T-Finance</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>Choose the most appropriate equation for the function drawn as thick line, in the plot below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q63_b888cfee.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x=y - |y|</p>",
+            "<b>B.</b> <p>x= -(y -|y|)</p>",
+            "<b>C.</b> <p>x=y + |y|</p>",
+            "<b>D.</b> <p>x= -(y + |y|)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>x= -(y -|y|)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8385/gate-cse-2015-set-3-question-ga-8#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Most experts feel that in spite of possessing all the technical skills required to be a batsman of the highest order, he is unlikely to be so due to lack of requisite temperament. He was guilty of throwing away his wicket several time after working hard to lay a strong foundation. His critics pointed out that until he addressed his problem, success at the highest level will continue to elude him. <br>Which of the statement(s) below is/are logically valid and can be inferred from the above passage?\n<br><br>i.   He was already a successful batsman at the highest level.\n<br>ii.  He was to improve his temperament in order to become a great batsman.\n<br>iii. He failed to make many of his good starts count.\n<br>iv.  Improving his technical skills will guarantee success.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>iii and iv</p>",
+            "<b>B.</b> <p>ii and iii</p>",
+            "<b>C.</b> <p>i, ii and iii</p>",
+            "<b>D.</b> <p>ii only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ii and iii</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"#a_list\" target=\"_blank&quot;\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>The exports and imports (in crores of Rs.) of a country from the year 2000 to 2007 are given in the following bar chart. In which year is the combined percentage increase in imports and exports the highest?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q65_44ca4c19.jpg\"><br></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2006",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8389/gate-cse-2015-set-3-question-ga-10#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    },
+    {
+      "name": "Computer Science Engineer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C program segment.<pre><code> #include &lt; stdio.h &gt;\nint main()\n{\nchar s1[7] = \"1234\", *p;\np = s1 + 2;\n*p = '0';\nprintf(\"%s\", s1);\n} </code></pre>  What will be printed by the program?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>120400</p>",
+            "<b>C.</b> <p>1204</p>",
+            "<b>D.</b> <p>1034</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1204</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8401/gate2015-3-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Suppose U is the power set of the set S={1,2,3,4,5,6}. For any T\\(\\in\\)U, let |T| denote the number of elements in T and T' denote the complement of T. For any T,R\\(\\in\\)U, let T\\R be the set of all elements in T which are not in R. Which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall X\\in U \\; (|X|=|X'|)\\)</p>",
+            "<b>B.</b> <p>\\(\\exists X\\in U \\; \\exists Y\\in U \\; \\) \\((|X|=5,\\; |Y|=5 \\; and \\;  X \\cap  Y=\\phi )\\)</p>",
+            "<b>C.</b> <p>\\(\\forall X\\in U \\; \\forall Y\\in U \\;\\) \\( (|X|=2,\\; |Y|=3 \\; and \\; X \\setminus  Y=\\phi )\\)</p>",
+            "<b>D.</b> <p>\\(\\forall X \\in U \\; \\forall Y\\in U\\; (X \\setminus  Y=Y' \\setminus  X')\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall X \\in U \\; \\forall Y\\in U\\; (X \\setminus  Y=Y' \\setminus  X')\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8426/gate2015-3-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the relation X(P,Q,R,S,T,U) with the following set of functional  dependencies <br> F= {{P,R}\\(\\rightarrow\\){S,T}, {P,S,U}\\(\\rightarrow\\){Q,R} } <br>\nWhich of the following is the trivial functional dependency in \\(F^{+}\\), where \\(F^{+}\\) is closure of F ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{P,R}\\(\\rightarrow\\){S,T}</p>",
+            "<b>B.</b> <p>{P,R}\\(\\rightarrow\\){R,T}</p>",
+            "<b>C.</b> <p>{P,S}\\(\\rightarrow\\){S}</p>",
+            "<b>D.</b> <p>{P,S,U}\\(\\rightarrow\\){Q}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>{P,S}\\(\\rightarrow\\){S}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8420/gate2015-3-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The maximum number of processes that can be in Ready state for a computer system with n CPUs is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(2^{n}\\)</p>",
+            "<b>D.</b> <p>Independent of  n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Independent of  n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8390/gate2015-3-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Among simple LR (SLR) , canonical LR, and look-ahead LR (LALR), which of the following pairs identify the method that is very easy to implement and the method that is the most powerful , in that order?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SLR, LALR</p>",
+            "<b>B.</b> <p>Canonical LR, LALR</p>",
+            "<b>C.</b> <p>SLR, canonical LR</p>",
+            "<b>D.</b> <p>LALR, canonical LR</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>SLR, canonical LR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8413/gate2015-3-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let # be a binary operator defined as <br>\nX#Y=X'+Y' where X and Y are Boolean variables.<br> Consider the following two statements.<br><br>\n(S1) (P # Q) # R  =  P # (Q # R) <br>\n(S2) Q # R  =  R # Q<br><br>\nWhich of the following is/are true for the Boolean variables P,  Q and R?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Both S1 and S2 are true</p>",
+            "<b>D.</b> <p>Neither S1 nor S2 are true</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8393/gate2015-3-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a software project with the following information domain characteristics for calculation of function point metric. <br> Number of external inputs (I) = 30 <br> Number of external outputs (O) = 60 <br> Number of external inquiries (E) = 23 <br> Number of files (F) = 08 <br> Number of external interfaces (N) = 02 <br><br> It is given that the complexity weighting factors for I, O, E, F and N are 4, 5, 4, 10 and 7, respectively. It is also given that, out of fourteen value adjustment factors that influence the development effort, four factors are not applicable, each of the other four factors have value 3, and each of the remaining factors have value 4. The computed value of function point metric is _____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "612",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8423/gate2015-3-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In a web server, ten WebPages are stored with the URLs of the form http://www.yourname.com/var.html; where, var is a different number from 1 to 10 for each Webpage. Suppose, the client stores the Webpage with var =1 (say W1) in local machine, edits and then tests. Rest of the WebPages remains on the web server. W1 contains several relative URLs of the form \"var.html\" referring to the other WebPages. Which one of the following statements needs to be added in W1, so that all the relative URLs in W1 refer to the appropriate WebPages on the web server?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\lt\\) a href: \"http://www.yourname.com/\", href: \"...var.html\" \\(\\gt \\)</p>",
+            "<b>B.</b> <p>\\( \\lt \\) base href: \"http://www.yourname.com/\" \\( \\gt \\)</p>",
+            "<b>C.</b> <p>\\( \\lt \\) a href: \"http://www.yourname.com/\"  \\( \\gt \\)</p>",
+            "<b>D.</b> <p>\\( \\lt \\) base href: \"http://www.yourname.com/\", range:\"…var.html\" \\( \\gt \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\( \\lt \\) base href: \"http://www.yourname.com/\" \\( \\gt \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8402/gate2015-3-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following statements.<br>\nI. TCP connections are full duplex <br>\nII. TCP has no option for selective acknowledgement <br>\nIII. TCP connections are message streams</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I is correct</p>",
+            "<b>B.</b> <p>Only I and III are correct</p>",
+            "<b>C.</b> <p>Only II and III are correct</p>",
+            "<b>D.</b> <p>All of I, II and III are correct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only I is correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8425/gate2015-3-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the equality \\(\\sum_{i=0}^{n}i^{3}=X\\) and the following choices for X  <br>  I.\\( \\Theta (n^{4}) \\)<br>II. \\( \\Theta (n^{5})  \\)<br> III. \\(O (n^{5})  \\)<br> IV. \\( \\Omega (n^{3})\\)  <br>The equality above remains correct if X is replaced by</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>I or III or IV but not II</p>",
+            "<b>D.</b> <p>II or III or IV but not I</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I or III or IV but not II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8398/gate2015-3-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a binary tree T that has 200 leaf nodes. Then, the number of nodes in T that have exactly two children are ________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "199",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8428/gate2015-3-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Given a hash table T with 25 slots that stores 2000 elements, the load factor \\(\\alpha\\) for T is ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "80",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8414/gate2015-3-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the given matrix \\(\\begin{bmatrix} 1 &amp; -1&amp;2 \\\\ 0&amp; 1 &amp; 0\\\\ 1&amp;2 &amp; 1 \\end{bmatrix}\\), one of the eigenvalues is 1. The eigenvectors corresponding to the eigenvalue 1 are</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(\\alpha (4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>B.</b> <p>{\\(\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>C.</b> <p>{\\(\\alpha (\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+            "<b>D.</b> <p>{\\(\\alpha (-\\sqrt{2},0,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\(\\alpha (-4,2,1)|\\alpha \\neq 0,\\alpha \\in \\mathbb{R}\\)}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8411/gate2015-3-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The value of \\(\\lim_{x\\rightarrow \\infty }(1+x^{2})^{e^{-x}}\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>\\(\\infty\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8403/gate2015-3-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number of 4 digit numbers having their digits in non-decreasing order (from left to right) constructed by using the digits belonging to the set {1, 2, 3} is____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8399/gate2015-3-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>In a room there are only two types of people, namely Type 1 and Type 2. Type 1 people always tell the truth and Type 2 people always lie. You give a fair coin to a person in that room, without knowing which type he is from and tell him to toss it and hide the result from you till you ask for it. Upon asking, the person replies the following <br><br> \"The result of the toss is head if and only if I am telling the truth.\" <br><br> Which of the following options is correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The result is head</p>",
+            "<b>B.</b> <p>The result is tail</p>",
+            "<b>C.</b> <p>If the person is of Type 2, then the result is tail</p>",
+            "<b>D.</b> <p>If the person is of Type 1, then the result is tail</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The result is head</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8427/gate2015-3-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>While inserting the elements 71, 65, 84, 69, 67, 83 in an empty binary search tree (BST) in the sequence shown, the element in the lowest level is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>65</p>",
+            "<b>B.</b> <p>67</p>",
+            "<b>C.</b> <p>69</p>",
+            "<b>D.</b> <p>83</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>67</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8409/gate2015-3-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>The result evaluating the postfix expression 10    5  +  60     6   /  *  8 -   is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>284</p>",
+            "<b>B.</b> <p>213</p>",
+            "<b>C.</b> <p>142</p>",
+            "<b>D.</b> <p>71</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>142</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8408/gate2015-3-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Consider the following relation <br><br>   Cinema(theater, address, capacity) <br><br>Which of the following options will be needed at the end of the SQL query <br><br> SELECT P1.address FROM Cinema P1 <br><br> such that it always finds the addresses of theaters with maximum capacity?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>WHERE P1.capacity \\(\\geq\\) All (select P2.capacity from Cinema P2)</p>",
+            "<b>B.</b> <p>WHERE P1.capacity \\(\\geq\\) Any (select P2.capacity from Cinema P2)</p>",
+            "<b>C.</b> <p>WHERE P1.capacity \\(\\gt\\) All (select max(P2.capacity) from Cinema P2)</p>",
+            "<b>D.</b> <p>WHERE P1.capacity \\(\\gt\\) Any (select max(P2.capacity) from Cinema P2)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>WHERE P1.capacity \\(\\geq\\) All (select P2.capacity from Cinema P2)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8396/gate2015-3-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider the following array of elements. <br>\n(89,19,50,17,12,15,2,5,7,11,6,9,100) <br>The minimum number of interchanges needed to convert it into a max-heap is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8418/gate2015-3-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Two processes X and Y need to access a critical section. Consider the following synchronization construct used by both the processes <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q21_3ddcb876.jpg\"> <br> Here, varP and varQ are shared variables and both are initialized to false. Which one of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The proposed solution prevents deadlock but fails to guarantee mutual exclusion</p>",
+            "<b>B.</b> <p>The proposed solution guarantees mutual exclusion but fails to prevent deadlock</p>",
+            "<b>C.</b> <p>The proposed solution guarantees mutual exclusion and prevents deadlock</p>",
+            "<b>D.</b> <p>The proposed solution fails to prevent deadlock and fails to guarantee mutual exclusion</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The proposed solution prevents deadlock but fails to guarantee mutual exclusion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8405/gate2015-3-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Let L be the language represented by the regular expression \\(\\Sigma ^{*}0011\\Sigma ^{*}\\) where \\(\\Sigma\\)={0,1}. What is the minimum number of states in a DFA that recognizes \\(\\bar{L}\\) (complement of L)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8415/gate2015-3-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider a software program that is artificially seeded with 100 faults. While testing this program, 159 faults are detected, out of which 75 faults are from those artificially seeded faults. Assuming that both real and seeded faults are of same nature and have same distribution, the estimated number of undetected real faults is ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "28",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8407/gate2015-3-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider a machine with a byte addressable main memory of \\(2^{20}\\)  bytes, block size of 16 bytes and a direct mapped cache having \\(2^{12}\\) cache lines. Let the addresses of two consecutive bytes in main memory be \\((E201F)_{16}\\) and \\((E2020)_{16}\\). What are the tag and cache line address (in hex) for main memory address \\((E201F)_{16}\\)?</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8410/gate2015-3-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Consider a CSMA/CD network that transmits data at a rate of 100 Mbps (\\(10^{8}\\) bits per second) over a 1 km (kilometer) cable with no repeaters. If the minimum frame size required for this network is 1250 bytes, what is the signal speed (km/sec) in the cable?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8000</p>",
+            "<b>B.</b> <p>10000</p>",
+            "<b>C.</b> <p>16000</p>",
+            "<b>D.</b> <p>20000</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>20000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8400/gate2015-3-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>The velocity v (in kilometer/minute) of a motorbike which starts from rest, is given at fixed intervals of time t (in minutes) as follows: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q26_5ff1a22d.jpg\"> <br> The approximate distance (in kilometers) rounded to two places of decimals covered in 20 minutes using Simpson's \\(1/3^{rd}\\) rule is _______________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "308",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8559/gate2015-3-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Assume that a mergesort algorithm in the worst case takes 30 seconds for an input of size 64. Which of the following most closely approximates the maximum input size of a problem that can be solved in 6 minutes?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>256</p>",
+            "<b>B.</b> <p>512</p>",
+            "<b>C.</b> <p>1024</p>",
+            "<b>D.</b> <p>2048</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>512</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8480/gate2015-3-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Consider the following recursive C function.<pre><code> void get(int n)\n{\nif (n&lt;1) return;\nget(n-1);\nget(n-3);\nprintf(\"%d\", n);\n}</code></pre> If get(6) function is being called in main()then how many times will the get()function be invoked before returning to the main()?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>25</p>",
+            "<b>C.</b> <p>35</p>",
+            "<b>D.</b> <p>45</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>25</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8498/gate2015-3-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Consider a B+ tree in which the search key is 12 bytes long, block size is 1024 bytes, record pointer is 10 bytes long and block pointer is 8 bytes long. The maximum number of keys that can be accommodated in each non-leaf node of the tree is ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8555/gate2015-3-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Given the function F=P'+QR , where F is a function in three Boolean variables P,Q and R and P'=!P, consider the following statements.<br>\n(S1)  F=\\(\\Sigma\\)(4,5,6) <br>\n(S2)  F=\\(\\Sigma\\)(0,1,2,3,7) <br>\n(S3)  F=\\(\\Pi\\)(4,5,6) <br>\n(S4)  F=\\(\\Pi\\)(0,1,2,3,7) <br> Which of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(S1)- False, (S2)- True, (S3)- True, (S4)- False</p>",
+            "<b>B.</b> <p>(S1)- True, (S2)- False, (S3)- False, (S4)- True</p>",
+            "<b>C.</b> <p>(S1)- False, (S2)- False, (S3)- True, (S4)- True</p>",
+            "<b>D.</b> <p>(S1)- True, (S2)- True, (S3)- False, (S4)- False</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(S1)- False, (S2)- True, (S3)- True, (S4)- False</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8504/gate2015-3-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Language \\(L_{1}\\) is polynomial time reducible to language \\(L_{2}\\). Language \\(L_{3}\\) is polynomial time reducible to \\(L_{2}\\), which in turn is polynomial time reducible to language \\(L_{4}\\). Which of the following is/are true?<br> I. if \\(L_{4} \\in P\\), then \\(L_{2} \\in P\\)<br>\nII. if \\(L_{1} \\in P\\) or \\(L_{3} \\in P\\), then \\(L_{2} \\in P\\) <br>     III. \\(L_{1} \\in P\\), if and only if \\(L_{3} \\in P\\)<br>   IV. if \\(L_{4} \\in P\\), then \\(L_{1} \\in P\\) and \\(L_{3} \\in P\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>I and IV only</p>",
+            "<b>D.</b> <p>I only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and IV only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8562/gate2015-3-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\nint f1(void);\nint f2(void);\nint f3(void);\nint x = 10;\nint main( )\n{\n   int x = 1;\n   x += f1( ) + f2( ) + f3( ) + f2( );\n   printf(\"%d\", x);\n   return 0;\n}\nint f1() { int x = 25; x++; return x;}\nint f2() { static int x = 50; x++; return x;}\nint f3() { x *= 10; return x};</code></pre> The output of the program is ________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "230",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8563/gate2015-3-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the following C program.<pre><code> #include &lt; stdio.h &gt;\nint main( )\n{\nstatic int a[ ] = {10, 20, 30, 40, 50};\nstatic int *p[ ] = {a, a+3, a+4, a+1, a+2};\nint **ptr = p;\nptr++;\nprintf(\"%d%d\", ptr-p,**ptr);\n}</code></pre>The output of the program is ______________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "140",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8478/gate2015-3-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Which of the following languages are context-free? <br>\\(L_{1}=\\{a^{m}b^{n}a^{n}b^{m}|m,n\\geq 1\\}\\) <br>   \\(L_{2}=\\{a^{m}b^{n}a^{m}b^{n}|m,n\\geq 1\\}\\) <br>  \\(L_{3}=\\{a^{m}b^{n}|m=2n+1\\}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 and L2 only</p>",
+            "<b>B.</b> <p>L1 and L3 only</p>",
+            "<b>C.</b> <p>L2 and L3 only</p>",
+            "<b>D.</b> <p>L3 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L1 and L3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8489/gate2015-3-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Consider the following policies for preventing deadlock in a system with mutually exclusive resources. <br>\nI. Processes should acquire all their resources at the beginning of execution. If any resource is not available, all resources acquired so far are released <br>\nII. The resources are numbered uniquely, and processes are allowed to request for resources only in increasing resource numbers <br>\nIII. The resources are numbered uniquely, and processes are allowed to request for resources only in decreasing resource numbers <br>\nIV. The resources are numbered uniquely. A process is allowed to request only for a resource with resource number larger than its currently held resources <br>\nWhich of the above policies can be used for preventing deadlock?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Any one of I and III but not II or IV</p>",
+            "<b>B.</b> <p>Any one of I, III, and IV but not II</p>",
+            "<b>C.</b> <p>Any one of II and III but not I or IV</p>",
+            "<b>D.</b> <p>Any one of I, II, III, and IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Any one of I, II, III, and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8561/gate2015-3-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>In the network 200.10.11.144/27, the fourth octet (in decimal) of the last IP address of the network which can be assigned to a host is ____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "158",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8497/gate2015-3-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider a network connecting two systems located 8000 kilometers apart. The bandwidth of the network is 500x\\(10^{6}\\) bits per second. The propagation speed of the media is 4x\\(10^{6}\\) meters per second. It is needed to design a Go-Back-N sliding window protocol for this network. The average packet size is \\(10^{7}\\) bits. The network is to be used to its full capacity. Assume that processing delays at nodes are negligible. Then, the minimum size in bits of the sequence number field has to be ___________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8481/gate2015-3-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the following reservation table for a pipeline having three stages S1,S2 and S3.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q38_2b8ca31a.jpg\"><br> The minimum average latency (MAL) is ________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8560/gate2015-3-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>Consider the following code sequence having five instructions I1 to I5. Each of these instructions has the following format. <br><br>OP Ri, Rj, Rk <br><br>where operation OP is performed on contents of registers Rj and Rk and the result is stored in register Ri. <br><br>\nI1: ADD R1, R2, R3  <br>\nI2: MUL R7, R1, R3 <br>\nI3: SUB R4, R1, R5 <br>\nI4: ADD R3, R2, R4 <br>\nI5: MUL R7, R8, R9 <br><br> Consider the following three statements. <br>\nS1: There is an anti-dependence between instructions l2 and l5 <br>\nS2: There is an anti-dependence between instructions l2 and l4  <br>                              S3: Within an instruction pipeline an anti-dependence always creates one or more stalls <br><br> Which one of above statements is/are correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is true</p>",
+            "<b>B.</b> <p>Only S2 is true</p>",
+            "<b>C.</b> <p>Only S1 and S3 are true</p>",
+            "<b>D.</b> <p>Only S2 and S3 are true</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only S2 is true</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8556/gate2015-3-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Consider the following two C code segments. Y and X are one and two dimensional arrays of size n and nxn respectively, where \\(2\\leq n\\leq 10\\). Assume that in both code segments, elements of Y are initialized to 0 and each element X[i][j] of array X is initialized to i+j. Further assume that when stored in main memory all elements of X are in same main memory page frame.   <br> Code segment 1:<pre><code>//initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i &lt; n; i++)\nY[i] += X[0][i]; </code></pre>  Code Segment 2:<pre><code>//initialize elements of Y to 0\n//initialize elements X[i][j] of X to i+j\nfor(i = 0; i &lt; n; i++)\nY[i] += X[i][0];</code></pre> Which of the following statements is/are correct?  <br>S1: Final contents of array Y will be same in both code segments <br> S2: Elements of array X accessed inside the for loop shown in code segment 1 are contiguous in main memory <br> S3: Elements of array X accessed inside the for loop shown in code segment 2 are contiguous in main memory</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S2 is correct</p>",
+            "<b>B.</b> <p>Only S3 is correct</p>",
+            "<b>C.</b> <p>Only S1 and S2 are correct</p>",
+            "<b>D.</b> <p>Only S1 and S3 are correct</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only S1 and S2 are correct</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8486/gate2015-3-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>Consider the following partial Schedule S involving two transactions T1 and T2. Only the read and the write operations have been shown. The read operation on data item P is denoted by read(P) and the write operation on data item P is denoted by write(P). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q41_17720076.jpg\"> <br> Suppose that the transaction T1 fails immediately after time instance 9. Which one of the following statements is correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T2 must be aborted and then both T1 and T2 must be re-started to ensure transaction atomicity</p>",
+            "<b>B.</b> <p>Schedule S is non-recoverable and cannot ensure transaction atomicity</p>",
+            "<b>C.</b> <p>Only T2 must be aborted and then re-started to ensure transaction atomicity</p>",
+            "<b>D.</b> <p>Schedule S is recoverable and can ensure atomicity and nothing else needs to be done</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Schedule S is non-recoverable and cannot ensure transaction atomicity</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8482/gate2015-3-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>If the following system has non-trivial solution,<br> px+qy+rz=0 <br> qx+ry+pz=0 <br> rx+py+qz=0,<br> then which one of the following options is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p-q+r=0 or p=q=-r</p>",
+            "<b>B.</b> <p>p+q-r=0 or p=-q=r</p>",
+            "<b>C.</b> <p>p+q+r=0 or p=q=r</p>",
+            "<b>D.</b> <p>p-q+r=0 or p=-q=-r</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>p+q+r=0 or p=q=r</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8490/gate2015-3-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider the following C program: <br><pre><code>#include &lt; stdio.h &gt;\nint main( )\n{\n    int i, j, k = 0;\n    j = 2 * 3 / 4 + 2.0 / 5 + 8 / 5;\n    k -=  --j;\n    for(i = 0; i &lt; 5; i++)\n    {\n         switch(i + k)\n        {\n          case 1:\n          case 2: printf(\"\\n%d\", i+k);\n          case 3: printf(\"\\n%d\", i+k);\n          default: printf(\"\\n%d\", i+k);\n        }\n   }\nreturn 0;\n}</code></pre> The number of times printf statement is executed is ________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8557/gate2015-3-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>If for non-zero  \\(x,af(x)+bf\\left ( \\frac{1}{x} \\right )=\\frac{1}{x}-25\\) where \\( a\\neq b\\)  then \\( \\int_{1}^{2}f(x)dx\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)-\\frac{47b}{2}]\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(2ln2-25)+\\frac{47b}{2}]\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)-\\frac{47b}{2}]\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{1}{a^{2}-b^{2}}[a(ln2-25)+\\frac{47b}{2}]\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8554/gate2015-3-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of G is 500. When the weight of each edge of G is increased by five, the weight of a minimum spanning tree becomes ________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "995",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8499/gate2015-3-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Two hosts are connected via a packet switch with \\(10^{7}\\) bits per second links. Each link has a propagation delay of 20 microseconds. The switch begins forwarding a packet 35 microseconds after it receives the same. If 10000 bits of data are to be transmitted between the two hosts using a packet size of 5000 bits, the time elapsed between the transmission of the first bit of data and the reception of the last bit of the data in microseconds is____________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1575",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8495/gate2015-3-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>For the processes listed in the following table, which of the following scheduling schemes will give the lowest average turnaround time? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q47_eabb2659.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Come First Serve</p>",
+            "<b>B.</b> <p>Non-preemptive Shortest Job First</p>",
+            "<b>C.</b> <p>Shortest Remaining Time</p>",
+            "<b>D.</b> <p>Round Robin with Quantum value two</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Shortest Remaining Time</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8492/gate2015-3-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Consider three software items: Program-X, Control Flow Diagram of Program-Y and Control Flow Diagram of Program-Z as shown below <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q48_b0814d52.jpg\"> <br> The values of McCabe's Cyclomatic complexity of Program-X, Program-Y, and Program-Z respectively are</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4, 4, 7</p>",
+            "<b>B.</b> <p>3, 4, 7</p>",
+            "<b>C.</b> <p>4, 4, 8</p>",
+            "<b>D.</b> <p>4, 3, 8</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>4, 4, 7</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8564/gate2015-3-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Consider the equation \\((43)_{x}=(y3)_{8}\\) where x and y are unknown. The number of possible solutions is ______________</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8494/gate2015-3-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Let R be a relation on the set of ordered pairs of positive integers such that \\(((p,q),(r,s)) \\in R\\) if and only if \\(p-s=q-r\\). Which one of the following is true about R?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both reflexive and symmetric</p>",
+            "<b>B.</b> <p>Reflexive but not symmetric</p>",
+            "<b>C.</b> <p>Not reflexive but symmetric</p>",
+            "<b>D.</b> <p>Neither reflexive nor symmetric</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Not reflexive but symmetric</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8500/gate2015-3-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Suppose \\(X_{i}\\) for i =1,2,3 are independent and identically distributed random variables whose probability mass functions are \\(Pr[X_{i}=0]=Pr[X_{i}=1]=1/2\\) for i=1,2,3. Define another random variable \\(Y=X_{1}X_{2}\\oplus X_{3}, \\; where \\; \\oplus\\) denotes XOR. Then<br>\n\\(Pr[Y=0|X_{3}=0]=\\)_______________.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.75",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8496/gate2015-3-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>The total number of prime implicants of the function f(w,x,y,z)=\\(\\Sigma\\)(0,2,4,5,6,10) is _______.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8503/gate2015-3-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Suppose c=(c[0],...,c[k-1]) is an array of length k, where all the entries are from the set {0,1}. For any positive integers a and n, consider the following pseudocode.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2015_SET-3\\q53_ddb61680.jpg\"> <br>  If k=4, c=(1,0,1,1), a=2 and n=8, then the output of DOSOMETHING(c,a,n) is _____.</p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8558/gate2015-3-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Let \\(f(n)=n\\) and \\(g(n)=n^{1+sin \\; n}\\) where n is a positive integer. Which of the following statements is/are correct? <br>I.   \\(f(n)=O(g(n)) \\)<br> II.   \\(f(n)= \\Omega (g(n))\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither I nor II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8501/gate2015-3-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider the following grammar<br>\nS \\( \\rightarrow\\) F|H <br>\nF \\( \\rightarrow\\)  p|c <br>\nH \\( \\rightarrow\\)  d|c <br>\nwhere S,F, and H are non-terminal symbols, p,d, and c are terminal symbols. Which of the following statement(s) is/are correct? <br>\nS1. LL(1) can parse all strings that are generated using grammar G <br>\nS2. LR(1) can parse all strings that are generated using grammar G</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1</p>",
+            "<b>B.</b> <p>Only S2</p>",
+            "<b>C.</b> <p>Both S1 and S2</p>",
+            "<b>D.</b> <p>Neither S1 nor S2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither S1 nor S2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8488/gate2015-3-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Data Structures - Prefix",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Prefix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435350\"></a><div itemprop=\"text\"><p>The prefix expression is \\( -+a b c+d^{*} \\) ef. Evaluate the expression for \\( a=10, b=2 \\), \\( c=5, d=3, e=4, f=1 \\)</p></div><br><br><b>Data Structures: ISRO CSE 2023 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 6 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435350/isro-cse-2023-question-46\" target=\"_blank\">https://gateoverflow.in/435350/isro-cse-2023-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1508 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Network_Layer_Protocol",
+  "duration": 285,
+  "sections": [
+    {
+      "name": "Network_Layer_Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a network that uses Ethernet and IPv4. Assume that IPv4 headers do not use any options field. Each Ethernet frame can carry a maximum of 1500 bytes in its data field. A UDP segment is transmitted. The payload (data) in the UDP segment is 7488 bytes.\n<br>\nWhich ONE of the following choices has the CORRECT total number of fragments transmitted and the size of the last fragment including IPv4 header? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5 fragments, 1488 bytes</p>",
+            "<b>B.</b> <p>6 fragments, 88 bytes</p>",
+            "<b>C.</b> <p>6 fragments, 108 bytes</p>",
+            "<b>D.</b> <p>6 fragments, 116 bytes</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>6 fragments, 116 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460822/gate-cse-2025-set-2-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A machine receives an IPv4 datagram. The protocol field of the IPv4 header has the protocol number of a protocol X.  <br>\nWhich ONE of the following is NOT a possible candidate for X? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Internet Control Message Protocol (ICMP)</p>",
+            "<b>B.</b> <p>Internet Group Management Protocol (IGMP)</p>",
+            "<b>C.</b> <p>Open Shortest Path First (OSPF)</p>",
+            "<b>D.</b> <p>Routing Information Protocol (RIP)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Routing Information Protocol (RIP)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460827/gate-cse-2025-set-2-question-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the routing protocols given in List I and the names given in List II:\n<br><br>\n\\(\\begin{array}{|c l|c l|}\n\\hline\n\\textbf{List I} &amp; &amp; \\textbf{List II} &amp; \\\\\n\\hline\n\\text{(i)} &amp; \\text{Distance vector routing} &amp; \\text{(a)} &amp; \\text{Bellman-Ford} \\\\\n\\hline\n\\text{(ii)} &amp; \\text{Link state routing} &amp; \\text{(b)} &amp; \\text{Dijkstra} \\\\\n\\hline\n\\end{array}\n\\)<br><br>\nFor matching of items in List I with those in List II, which ONE of the following options is CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) - (a) and (ii) - (b)</p>",
+            "<b>B.</b> <p>(i) - (a) and (ii) - (a)</p>",
+            "<b>C.</b> <p>(i) - (b) and (ii) - (a)</p>",
+            "<b>D.</b> <p>(i) - (b) and (ii) - (b)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(i) - (a) and (ii) - (b)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460828/gate-cse-2025-set-2-question-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose a message of size 15000 bytes is transmitted from a source to a destination using IPv4 protocol via two routers as shown in the figure. Each router has a defined maximum transmission unit (MTU) as shown in the figure, including IP header. The number of fragments that will be delivered to the destination is _________. (Answer in integer)\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q47_cddf7a5f.webp\"><br> <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460033/gate-cse-2025-set-1-question-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A packet with the destination IP address 145.36.109.70 arrives at a router whose routing table is shown. Which interface will the packet be forwarded to?\n<br>    \\(\\begin{array}{|c|c|c|}\n\\hline\n\\textbf{Subnet Address} &amp; \\textbf{Subnet Mask (in CIDR notation)} &amp; \\textbf{Interface} \\\\\n\\hline\n145.36.0.0 &amp; /16 &amp; E1 \\\\\n\\hline\n145.36.128.0 &amp; /17 &amp; E2 \\\\\n\\hline\n145.36.64.0 &amp; /18 &amp; E3 \\\\\n\\hline\n145.36.255.0 &amp; /24 &amp; E4 \\\\\n\\hline\n\\text{Default} &amp; -- &amp; E5 \\\\\n\\hline\n\\end{array}\\) <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(E3\\)</p>",
+            "<b>B.</b> <p>\\(E1\\)</p>",
+            "<b>C.</b> <p>\\(E2\\)</p>",
+            "<b>D.</b> <p>\\(E5\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(E3\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/460050/gate-cse-2025-set-1-question-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which  one  of  the  following  CIDR  prefixes  exactly  represents  the  range  of IP addresses 10.12.2.0 to 10.12.3.255? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10.12.2.0/23</p>",
+            "<b>B.</b> <p>10.12.2.0/24</p>",
+            "<b>C.</b> <p>10.12.0.0/22</p>",
+            "<b>D.</b> <p>10.12.2.0/22</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10.12.2.0/23</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422869/gate-cse-2024-set-2-question-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Source IP Address</p>",
+            "<b>B.</b> <p>Protocol</p>",
+            "<b>C.</b> <p>Time to Live (TTL)</p>",
+            "<b>D.</b> <p>Header Checksum</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Time to Live (TTL)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422875/gate-cse-2024-set-2-question-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Node X has a TCP connection open to node Y. The packets from X to Y go through\nan intermediate IP router R. Ethernet switch S is the first switch on the network path\nbetween X and R. Consider a packet sent from X to Y over this connection.<br>\nWhich of the following statements is/are TRUE about the destination IP and MAC\naddresses on this packet at the time it leaves X? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The destination IP address is the IP address of R</p>",
+            "<b>B.</b> <p>The destination IP address is the IP address of Y</p>",
+            "<b>C.</b> <p>The destination MAC address is the MAC address of S</p>",
+            "<b>D.</b> <p>The destination MAC address is the MAC address of Y</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The destination IP address is the IP address of Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422884/gate-cse-2024-set-2-question-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the entries shown below in the forwarding table of an \\( \\mathbb{P} \\) router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \"\\( \\mathrm{/N} \\)\" in a prefix indicates a subnet mask with the most significant \\( \\mathrm{N} \\) bits set to 1. <br><br> \\(\n\\begin{array}{|l|c|}\n\\hline Prefix &amp; Next\\;  hop \\; router \\\\\n\\hline  10.1 .1 .0 / 24  &amp; R1 \\\\\n\\hline 10.1 .1 .128 / 25  &amp; R2 \\\\\n\\hline  10.1 .1 .64 / 26 &amp; R3 \\\\\n\\hline 10.1 .1 .192 / 26  &amp; R4 \\\\\n\\hline\n\\end{array}\\)\n<br><br>\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router \\( R 2 \\) is <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "40",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following fields is/are modified in the IP header of a packet going out\nof a network address translation (NAT) device from an internal network to an\nexternal network? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Source IP</p>",
+            "<b>B.</b> <p>Destination IP</p>",
+            "<b>C.</b> <p>Header Checksum</p>",
+            "<b>D.</b> <p>Total Length</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Source IP</p>",
+            "<b>C.</b> <p>Header Checksum</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422821/gate-cse-2024-set-1-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The forwarding table of a router is shown below.<br>\\(\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nSubnet \\; Number&amp;Subnet \\;Mask&amp;Interface ID \\\\ \\hline\n200.150.0.0 &amp;255.255.0.0&amp; 1\\\\ \\hline\n200.150.64.0 &amp;255.255.224.0 &amp;2\\\\ \\hline\n200.150.68.0 &amp;255.255.255.0 &amp;3\\\\ \\hline\n200.150.68.64 &amp;255.255.255.224 &amp;4 \\\\ \\hline\nDefault &amp; &amp;0\\\\ \\hline\n\\end{array} \\)  <br>A packet addressed to a destination address 200.150.68.118 arrives at the router.\nIt will be forwarded to the interface with ID _____. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399256/gate-cse-2023-question-55#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following statements is/are INCORRECT about\nthe OSPF (Open Shortest Path First) routing protocol used in the Internet? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>OSPF implements Bellman-Ford algorithm to find shortest paths.</p>",
+            "<b>B.</b> <p>OSPF uses Dijkstra's shortest path algorithm to implement least-cost path routing</p>",
+            "<b>C.</b> <p>OSPF is used as an inter-domain routing protocol</p>",
+            "<b>D.</b> <p>OSPF implements hierarchical routing.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>OSPF implements Bellman-Ford algorithm to find shortest paths.</p>",
+            "<b>C.</b> <p>OSPF is used as an inter-domain routing protocol</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399297/gate-cse-2023-question-15#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a network with three routers P, Q, R shown in the figure below. All the links have cost of unity.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q47_7e9a46a2.jpg\"><br>The routers exchange distance vector routing information and have converged on the routing tables, after which the link Q-R fails. Assume that P and Q send out routing updates at random times, each at the same average rate. The probability of a routing loop formation (rounded off to one decimal place) between P and Q, leading to count-to-infinity problem, is ____ <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371889/Gate-cse-2022-question-47#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider routing table of an organization's router shown below:<br>\\(\n\\begin{array}{|l|l|l|}\nSubnet Number          &amp; Subnet Mask              &amp; Next Hop                 \\\\\n12.20.164.0 &amp;  255.255.252.0 &amp;  R1            \\\\\n12.20.170.0 &amp;  255.255.254.0 &amp;  R2            \\\\\n12.20.168.0 &amp;  255.255.254.0 &amp;  Interface 0   \\\\\n12.20.166.0 &amp;  255.255.254.0 &amp;  Interface 1   \\\\\ndefault     &amp; ~                        &amp;  R3      \\\\  \\hline\n\\end{array}\n\\)<br>Which of the following prefixes in CIDR notation can be collectively used to correctly aggregate all of the subnets in the routing table? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>12.20.164.0/20</p>",
+            "<b>B.</b> <p>12.20.164.0/22</p>",
+            "<b>C.</b> <p>12.20.164.0/21</p>",
+            "<b>D.</b> <p>12.20.168.0/22</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>12.20.164.0/22</p>",
+            "<b>D.</b> <p>12.20.168.0/22</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371891/Gate-cse-2022-question-45#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Consider an enterprise network with two Ethernet segments, a web server and a firewall, connected via three routers as shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q12_fbd5cfe3.jpg\"><br>What is the number of subnets inside the enterprise network? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371924/Gate-cse-2022-question-12#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Consider a computer network using the distance vector routing algorithm in its network layer. The partial topology of the network is shown below.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q45_3824beb8.jpg\"><br>\nThe objective is to find the shortest-cost path from the router R to routers P and Q. Assume that R does not initially know the shortest routes to P and Q. Assume that R has three neighboring routers denoted as X, Y and Z. During one iteration, R measures its distance to its neighbors X, Y, and Z as 3, 2 and 5, respectively. Router R gets routing vectors from its neighbors that indicate that the distance to router P from routers X, Y and Z are 7, 6 and 5, respectively. The routing vector also indicates that the distance to router Q from routers X, Y and Z are 4, 6 and 8 respectively. Which of the following statement(s) is/are correct with respect to the new routing table o R, after updation during this iteration? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The distance from R to P will be stored as 10</p>",
+            "<b>B.</b> <p>The distance from R to Q will be stored as 7</p>",
+            "<b>C.</b> <p>The next hop router for a packet from R to P is Y</p>",
+            "<b>D.</b> <p>The next hop router for a packet from R to Q is Z</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>The distance from R to Q will be stored as 7</p>",
+            "<b>C.</b> <p>The next hop router for a packet from R to P is Y</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357495/gate-cse-2021-set-2-question-45#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which of the following classes of languages can validate an IPv4 address in dotted decimal format?<br> It is to be ensured that the decimal values lie between 0 and 255. <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RE and higher</p>",
+            "<b>B.</b> <p>CFG and higher</p>",
+            "<b>C.</b> <p>CSG and higher</p>",
+            "<b>D.</b> <p>Recursively enumerable language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RE and higher</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331449/isro2020-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization? <br><br>I.  202.61.84.0/21<br>II.  202.61.104.0/21<br>III. 202.61.64.0/21<br>IV.  202.61.144.0/21 <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>III and IV only</p>",
+            "<b>D.</b> <p>I and IV only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333193/gate2020-cs-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider the following statements about the functionality of an IP based router.<br><br>\nI.    A router does not modify the IP packets during forwarding.<br>\nII.   It is not necessary for a router to implement any routing protocol.<br>\nIII.  A router should reassemble IP fragments if the MTU of the outgoing link is larger than the size of the incoming IP packet.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333216/gate2020-cs-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Consider three machines M, N and P with IP addresses 100.10.5.2, 100.10.5.5 and 100.10.5.6 respectively. The subnet mask is set to 255.255.255.252 for all the three machines. Which one of the following is true? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>M, N and P all belong to the same subnet</p>",
+            "<b>B.</b> <p>Only M and N belong to the same subnet</p>",
+            "<b>C.</b> <p>Only N and P belong to the same subnet</p>",
+            "<b>D.</b> <p>M, N, and P belong to three different subnets</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only N and P belong to the same subnet</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302820/gate2019-cs-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0. <br>\nThe fragmentation offset value stored in the third fragment is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "144",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204129/gate2018-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Match with the suitable one:<br>\\(\\begin{array}{|l|l|l|l|} \\hline &amp; \\text { List-1 } &amp; &amp; \\text { List-2 } \\\\ \\hline \\text { (a) } &amp; \\text { Multicast group membership } &amp; \\text { i. } &amp; \\text { Distance Vector routing } \\\\ \\hline \\text { (b) } &amp; \\text { Interior gateway protocol } &amp; ii . &amp; \\text { IGMP } \\\\ \\hline \\text { (c) } &amp; \\text { Exterior gateway protocol } &amp; iii . &amp; \\text { OSPF } \\\\ \\hline \\text { (d) } &amp; \\text { RIP } &amp; iv . &amp; \\text { BGP } \\\\ \\hline \\end{array}\\) <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a-ii, b-iii, c-iv, d-i</p>",
+            "<b>B.</b> <p>a-ii, b-iv, c-iii, d-i</p>",
+            "<b>C.</b> <p>a-iii, b-iv, c-i, d-ii</p>",
+            "<b>D.</b> <p>a-iii, b-i, c-iv, d-ii</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a-ii, b-iii, c-iv, d-i</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128665/isro2017-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>The default subnet mask for a class B network can be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.255.0</p>",
+            "<b>B.</b> <p>255.0.0.0</p>",
+            "<b>C.</b> <p>255.255.192.0</p>",
+            "<b>D.</b> <p>255.255.0.0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.0.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128648/isro2017-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>The maximum number of IPv4 router addresses that can be listed in the record route (RR)\noption field of an IPv4 header is _________. <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "9",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118427/gate2017-2-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider the following statements about the routing protocols, Routing Information Protocol\n(RIP) and Open Shortest Path First (OSPF) in an IPv4 network. <br><br>\nI. RIP uses distance vector routing  <br>\nII. RIP packets are sent using UDP  <br>\nIII. OSPF packets are sent using TCP <br>\nIV. OSPF operation is based on link-state routing <br><br>\nWhich of the statements above are CORRECT? <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and IV only</p>",
+            "<b>B.</b> <p>I, II and III only</p>",
+            "<b>C.</b> <p>I, II and IV only</p>",
+            "<b>D.</b> <p>II, III and IV only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I, II and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118338/gate2017-2-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>62 subnets and 262142 hosts.</p>",
+            "<b>B.</b> <p>64 subnets and 262142 hosts.</p>",
+            "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+            "<b>D.</b> <p>64 subnets and 1024 hosts.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1265/gate2007-67-isro2016-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Which network protocol allows hosts to dynamically get a unique IP number on each bootup <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DHCP</p>",
+            "<b>B.</b> <p>BOOTP</p>",
+            "<b>C.</b> <p>RARP</p>",
+            "<b>D.</b> <p>ARP</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>DHCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55521/isro2016-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Dynamic routing protocol enable routers to <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamically discover and maintain routes</p>",
+            "<b>B.</b> <p>Distribute routing updates to other routers</p>",
+            "<b>C.</b> <p>Reach agreement with other routers about the network topology</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55518/isro2016-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>An IP datagram of size 1000 bytes arrives at a router. The router has to forward this packet on a link whose MTU (maximum transmission unit)is 100bytes. Assume that the size of the IP header is 20bytes. <br> The number of fragments that the IP datagram will be divided into for transmission is _________. <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39712/gate2016-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Which one of the following protocols is NOT used to resolve one form of address to another one? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DNS</p>",
+            "<b>B.</b> <p>ARP</p>",
+            "<b>C.</b> <p>DHCP</p>",
+            "<b>D.</b> <p>RARP</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DHCP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39639/gate2016-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Which layers of the OSI reference model are host-to-host layers? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Transport, session, presentation, application</p>",
+            "<b>B.</b> <p>Session, presentation, application</p>",
+            "<b>C.</b> <p>Datalink, transport, presentation, application</p>",
+            "<b>D.</b> <p>Physical, datalink, network, transport</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Transport, session, presentation, application</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51988/isro2015-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>A router uses the following routing table:<br>\\(\\begin{array}{|l|l|l|} \\hline \\text { Destination } &amp; \\text { Mask } &amp; \\text { Interface } \\\\ \\hline 144.16 .0 .0 &amp; 255.255 .0 .0 &amp; \\text { eth0 } \\\\ \\hline 144.16 .64 .0 &amp; 255.255 .224 .0 &amp; \\text { eth1 } \\\\ \\hline 144.16 .68 .0 &amp; 255.255 .255 .0 &amp; \\text { eth2 } \\\\ \\hline 144.16 .68 .64 &amp; 255.255 .255 .224 &amp; \\text { eth3 } \\\\ \\hline \\end{array}\\)<br>Packet bearing a destination address 144.16.68.117 arrives at the router. On which interface will it be forwarded? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>eth0</p>",
+            "<b>B.</b> <p>eth1</p>",
+            "<b>C.</b> <p>eth2</p>",
+            "<b>D.</b> <p>eth3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>eth2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3607/gate2006-it-63-isro2015-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>In a class B subnet, we know the IP address of one host and the mask as given below:<br>IP address: 125.134.112.66<br>Mask: 255.255.224.0<br>What is the first address(Network address)? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125.134.96.0</p>",
+            "<b>B.</b> <p>125.134.112.0</p>",
+            "<b>C.</b> <p>125.134.112.66</p>",
+            "<b>D.</b> <p>125.134.0.0</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>125.134.96.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51717/isro2015-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communication with the host? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16 bits</p>",
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>48 bits</p>",
+            "<b>D.</b> <p>64 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>32 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51712/isro2015-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>In the network 200.10.11.144/27, the fourth octet (in decimal) of the last IP address of the network which can be assigned to a host is ____________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "158",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8497/gate2015-3-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the following routing table at an IP router: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q26_96507893.jpg\"><br> For each IP address in Group I identify the correct choice of the next hop from Group II using the entries from the routing table above.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q26a_e40289ea.jpg\"> <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i-a, ii-c, iii-e, iv-d</p>",
+            "<b>B.</b> <p>i-a, ii-d, iii-b, iv-e</p>",
+            "<b>C.</b> <p>i-b, ii-c, iii-d, iv-e</p>",
+            "<b>D.</b> <p>i-b, ii-c, iii-e, iv-d</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>i-a, ii-c, iii-e, iv-d</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8213/gate2015-2-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Which one of the following fields of an IP header is NOT modified by a typical IP router? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Checksum</p>",
+            "<b>B.</b> <p>Source address</p>",
+            "<b>C.</b> <p>Time to Live (TTL)</p>",
+            "<b>D.</b> <p>Length</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Source address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8220/gate2015-1-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>An organization is granted the block 130.34.12.64/26. It needs to have 4 subnets. Which of the following is not an address of this organization? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>130.34.12.124</p>",
+            "<b>B.</b> <p>130.34.12.89</p>",
+            "<b>C.</b> <p>130.34.12.70</p>",
+            "<b>D.</b> <p>130.34.12.132</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>130.34.12.132</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17446/isro2014-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Assume the following information.<br>Original timestamp value = 46<br>Receive  timestamp value = 59<br>Transmit timestamp value = 60<br>Timestamp at arrival of packet = 69<br>Which of the following statements is correct? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Receive clock should go back by 3 milliseconds</p>",
+            "<b>B.</b> <p>Transmit and Receive clocks are synchronized</p>",
+            "<b>C.</b> <p>Transmit clock should go back by 3 milliseconds</p>",
+            "<b>D.</b> <p>Receive clock should go ahead by 1 milliseconds</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Receive clock should go back by 3 milliseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17439/isro2014-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>A supernet has a first address of 205.16.32.0 and a supernet mask of 255.255.248.0. A router receives 4 packets with the following destination addresses.which packet belongs to this supernet? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>205.16.42.56</p>",
+            "<b>B.</b> <p>205.17.32.76</p>",
+            "<b>C.</b> <p>205.16.31.10</p>",
+            "<b>D.</b> <p>205.16.39.44</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>205.16.39.44</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17443/isro2014-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>An IP packet has arrived with the first 8 bits as 0100 0010. Which of the following is correct? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The number of hops this packet can travel is 2.</p>",
+            "<b>B.</b> <p>The total number of bytes in header is 16 bytes</p>",
+            "<b>C.</b> <p>The upper layer protocol is ICMP</p>",
+            "<b>D.</b> <p>The receiver rejects the packet</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The receiver rejects the packet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54125/isro2014-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>A IP packet has arrived in which the fragmentation offset value is 100,the value of HLEN is 5 and the value of total length field is 200. What is the number of the last byte? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>194</p>",
+            "<b>B.</b> <p>394</p>",
+            "<b>C.</b> <p>979</p>",
+            "<b>D.</b> <p>1179</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>979</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17422/isro2014-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>What is routing algorithm used by OSPF routing protocol? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Distance vector</p>",
+            "<b>B.</b> <p>Flooding</p>",
+            "<b>C.</b> <p>Path vector</p>",
+            "<b>D.</b> <p>Link state</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Link state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53136/isro2014-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The process of modifying IP address information in IP packet headers while in transit across a traffic routing device is called <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port address translation (PAT)</p>",
+            "<b>B.</b> <p>Network address translation (NAT)</p>",
+            "<b>C.</b> <p>Address mapping</p>",
+            "<b>D.</b> <p>Port mapping</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Network address translation (NAT)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54140/isro2014-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>An IP router with a Maximum Transmission Unit (MTU) of 1500 bytes has received an IP packet of size 4404 bytes with an IP header of length 20 bytes. The values of the relevant fields in the header of the third IP fragment generated by the router for this packet are <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>MF bit: 0, Datagram Length: 1444; Offset: 370</p>",
+            "<b>B.</b> <p>MF bit: 1, Datagram Length: 1424; Offset: 185</p>",
+            "<b>C.</b> <p>MF bit: 1, Datagram Length: 1500; Offset: 370</p>",
+            "<b>D.</b> <p>MF bit: 0, Datagram Length: 1424; Offset: 2960</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>MF bit: 0, Datagram Length: 1444; Offset: 370</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2062/gate2014-3-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Every host in an IPv4 network has a 1-second resolution real-time clock with battery backup. Each host needs to generate up to 1000 unique identifiers per second. Assume that each host has a globally unique IPv4 address. Design a 50-bit globally unique ID for this purpose. After what period (in seconds) will the identifiers generated by a host wrap around? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "256",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2061/gate2014-3-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>An IP router implementing Classless Inter-domain routing (CIDR) receives a packet with address 131.23.151.76. The router's routing table has the following entries:  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q26_07b51d41.jpg\">  <br> The identifier of the output interface on which this packet will be forwarded is _____. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2060/gate2014-3-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Host A (on TCP/IP v4 network A) sends an IP datagram D to host B (also on TCP/IP V4\nnetwork B). Assume that no error occurred during the transmission of D. When D reaches B, which of the following IP header field(s) may be different from that of the original datagram D?<br>\n(i) TTL <br>(ii) Checksum <br> (iii) Fragment Offset <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) only</p>",
+            "<b>B.</b> <p>(i) and (ii) only</p>",
+            "<b>C.</b> <p>(ii) and (iii) only</p>",
+            "<b>D.</b> <p>(i), (ii) and (iii)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(i), (ii) and (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2059/gate2014-3-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>In the diagram shown below, L1 is an Ethernet LAN and L2 is a Token-Ring LAN. An IP\npacket originates from sender S and traverses to R, as shown. The links within each ISP and\nacross the two ISPs, are all point-to-point' optical links. The initial value of the TTL field is\n32. The maximum possible value of the TTL field when R receives the datagram is\n____________. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q25_4b42d41a.jpg\"> <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "26",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/1983/gate2014-2-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Which one of the following is TRUE about the interior gateway routing protocols - Routing\nInformation Protocol (RIP) and Open Shortest Path First (OSPF)? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RIP uses distance vector routing and OSPF uses link state routing</p>",
+            "<b>B.</b> <p>OSPF uses distance vector routing and RIP uses link state routing</p>",
+            "<b>C.</b> <p>Both RIP and OSPF use link state routing</p>",
+            "<b>D.</b> <p>Both RIP and OSPF use distance vector routing</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RIP uses distance vector routing and OSPF uses link state routing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1981/gate2014-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>Consider the following three statements about link state and distance vector routing protocols,\nfor a large network with 500 network nodes and 4000 links <br>\n[S1] The computational overhead in link state protocols is higher than in distance vector\nprotocols. <br>\n[S2] A distance vector protocol (with split horizon) avoids persistent routing loops, but not\na link state protocol. <br>\n[S3] After a topology change, a link state protocol will converge faster than a distance\nvector protocol. <br>\nWhich one of the following is correct about S1, S2, and S3? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2, and S3 are all true</p>",
+            "<b>B.</b> <p>S1, S2, and S3 are all false.</p>",
+            "<b>C.</b> <p>S1 and S2 are true, but S3 is false</p>",
+            "<b>D.</b> <p>S1 and S3 are true, but S2 is false.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 and S3 are true, but S2 is false.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1790/gate2014-1-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>What is IP class and number of sub-networks if the subnet mask is 255.224.0.0? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A, 3</p>",
+            "<b>B.</b> <p>Class A, 8</p>",
+            "<b>C.</b> <p>Class B, 3</p>",
+            "<b>D.</b> <p>Class B, 32</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Class A, 8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43984/isro-2013-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>IPv6 does not support which of the following addressing modes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Unicast addressing</p>",
+            "<b>B.</b> <p>Multicast addressing</p>",
+            "<b>C.</b> <p>Broadcast addressing</p>",
+            "<b>D.</b> <p>Anycast addressing</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Broadcast addressing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43982/isro-2013-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>In an IPv4 datagram, the M bit is 0, the value of HLEN is 10, the value of total length is 400 and\nthe fragment offset value is 300. The position of the datagram, the sequence numbers of the first\nand the last bytes of the payload, respectively are <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Last fragment, 2400 and 2789</p>",
+            "<b>B.</b> <p>First fragment, 2400 and 2759</p>",
+            "<b>C.</b> <p>Last fragment, 2400 and 2759</p>",
+            "<b>D.</b> <p>Middle fragment, 300 and 689</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Last fragment, 2400 and 2759</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1548/gate2013-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Assume that source S and destination D are connected through two intermediate routers labeled R.\nDetermine how many times each packet has to visit the network layer and the data link layer during\na transmission from S to D. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q14_d877ec30.jpg\"> <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Network layer - 4 times and Data link layer - 4 times</p>",
+            "<b>B.</b> <p>Network layer - 4 times and Data link layer - 3 times</p>",
+            "<b>C.</b> <p>Network layer - 4 times and Data link layer - 6 times</p>",
+            "<b>D.</b> <p>Network layer - 2 times and Data link layer - 6 times</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Network layer - 4 times and Data link layer - 6 times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1436/gate2013-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available\nwith it: 245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A,\nand a quarter to Organization B, while retaining the remaining with itself. Which of the following is\na valid allocation of addresses to A and B? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>245.248.136.0/21 and 245.248.128.0/22</p>",
+            "<b>B.</b> <p>245.248.128.0/21 and 245.248.128.0/22</p>",
+            "<b>C.</b> <p>245.248.132.0/22 and 245.248.132.0/21</p>",
+            "<b>D.</b> <p>245.248.136.0/24 and 245.248.132.0/21</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>245.248.136.0/21 and 245.248.128.0/22</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1752/gate2012-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>In the IPv4 addressing format, the number of networks allowed under Class C addresses is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{14}\\)</p>",
+            "<b>B.</b> <p>\\(2^{7}\\)</p>",
+            "<b>C.</b> <p>\\(2^{21}\\)</p>",
+            "<b>D.</b> <p>\\(2^{24}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{21}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1606/gate2012-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Lightweight Directory Access protocol is used for <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Routing the packets</p>",
+            "<b>B.</b> <p>Authentication</p>",
+            "<b>C.</b> <p>obtaining IP address</p>",
+            "<b>D.</b> <p>domain name resolving</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Authentication</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18149/isro2011-69\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>The broadcast address for IP network 172.16.0.0 with subnet mask 255.255.0.0 is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.16.0.255</p>",
+            "<b>B.</b> <p>172.16.255.255</p>",
+            "<b>C.</b> <p>255.255.255.255</p>",
+            "<b>D.</b> <p>172.255.255.255</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>172.16.255.255</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51337/isro2011-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>Consider a network with five nodes, N1 to N5, as shown below  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_6942b936.jpg\"> <br> The network uses a Distance Vector Routing protocol. Once the routes have stabilized, the distance vectors at different nodes are as following. N1: (0, 1, 7, 8, 4) N2: (1, 0, 6, 7, 3) N3: (7, 6, 0, 2, 6) N4: (8, 7, 2, 0, 4) N5: (4, 3, 6, 4, 0) Each distance vector is the distance of the best known path at the instance to nodes, N1 to N5, where the distance to itself is 0. Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors. <br><br>After the update in the previous question, the link N1-N2 goes down. N2 will\nreflect this change immediately in its distance vector cost as, \\(\\infty\\). After the NEXT\nROUND of update, what will be the cost to N1 in the distance vector of N3? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>0</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43317/gate2011-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>Consider a network with five nodes, N1 to N5, as shown below  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_6942b936.jpg\"> <br> The network uses a Distance Vector Routing protocol. Once the routes have stabilized, the distance vectors at different nodes are as following. N1: (0, 1, 7, 8, 4) N2: (1, 0, 6, 7, 3) N3: (7, 6, 0, 2, 6) N4: (8, 7, 2, 0, 4) N5: (4, 3, 6, 4, 0) Each distance vector is the distance of the best known path at the instance to nodes, N1 to N5, where the distance to itself is 0. Also, all links are symmetric and the cost is identical in both directions. In each round, all nodes exchange their distance vectors with their respective neighbors. Then all nodes update their distance vectors. In between two rounds, any change in cost of a link will cause the two incident nodes to change only that entry in their distance vectors. <br><br> The cost of link N2-N3 reduces to 2(in both directions). After the next round of updates, what will be the new distance vector at node, N3? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(3. 2, 0, 2, 5)</p>",
+            "<b>B.</b> <p>(3, 2, 0, 2, 6)</p>",
+            "<b>C.</b> <p>(7, 2, 0, 2, 5)</p>",
+            "<b>D.</b> <p>(7, 2, 0, 2, 6)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(3. 2, 0, 2, 5)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2160/gate2011-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_50b0764c.jpg\"><br>Suppose the weights of all unused links in the previous question are changed\nto 2 and the distance vector algorithm is used again until all routing tables\nstabilize. How many links will now remain unused? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43326/gate2010-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Consider a network with 6 routers R1 to R6 connected with links having\nweights as shown in the following diagram <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q54_50b0764c.jpg\"><br>  All the routers use the distance vector based routing algorithm to update their\nrouting tables. Each router starts with its routing table initialized to contain an\nentry for each neighbour with the weight of the respective connecting link.\nAfter all the routing tables stabilize, how many links in the network will never\nbe used for carrying any data? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2362/gate2010-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>Suppose computers A and B have IP addresses 10.105.1.113 and 10.105.1.91\nrespectively and they both use the same net mask N. Which of the values of N\ngiven below should not be used if A and B should belong to the same network? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.255.0</p>",
+            "<b>B.</b> <p>255.255.255.128</p>",
+            "<b>C.</b> <p>255.255.255.192</p>",
+            "<b>D.</b> <p>255.255.255.224</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.255.224</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2349/gate2010-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>One of the header fields in an IP datagram is the Time to Live (TTL) field. Which\nof the following statements best explains the need for this field? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It can be used to prioritize packets</p>",
+            "<b>B.</b> <p>It can be used to reduce delays</p>",
+            "<b>C.</b> <p>It can be used to optimize throughput</p>",
+            "<b>D.</b> <p>It can be used to prevent packet looping</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It can be used to prevent packet looping</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2188/gate2010-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>What is the primary purpose of a VLAN? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Demonstrating the proper layout for a network</p>",
+            "<b>B.</b> <p>Simulating a network</p>",
+            "<b>C.</b> <p>To create a virtual private network</p>",
+            "<b>D.</b> <p>Segmenting a network inside a switch or device</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Segmenting a network inside a switch or device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48029/isro2009-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 68,
+          "question": "<p>The address resolution protocol (ARP) is used for <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding the IP address from the DNS</p>",
+            "<b>B.</b> <p>Finding the IP address of the default gateway</p>",
+            "<b>C.</b> <p>Finding the IP address that corresponds to a MAC address</p>",
+            "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48027/isro2009-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 69,
+          "question": "<p>The subnet mask for a particular network is 255.255.31.0. Which of the following pairs of IP addresses could belong to this network? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.57.88.62 and 172.56.87.23</p>",
+            "<b>B.</b> <p>10.35.28.2 and 10.35.29.4</p>",
+            "<b>C.</b> <p>191.203.31.87 and 191.234.31.88</p>",
+            "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/965/gate2003-82-isro2009-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 70,
+          "question": "<p>The network 198.78.41.0 is a <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Class A network</p>",
+            "<b>B.</b> <p>Class B network</p>",
+            "<b>C.</b> <p>Class C network</p>",
+            "<b>D.</b> <p>Class D network</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Class C network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49913/isro2008-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 71,
+          "question": "<p>On a LAN ,where are IP datagrams transported? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>In the LAN header</p>",
+            "<b>B.</b> <p>In the application field</p>",
+            "<b>C.</b> <p>In the information field of the LAN frame</p>",
+            "<b>D.</b> <p>After the TCP header</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>In the information field of the LAN frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17270/isro2008-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 72,
+          "question": "<p>The subnet mask 255.255.255.192 <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>extends the network portion to 16 bits</p>",
+            "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+            "<b>C.</b> <p>extends the network portion to 36 bits</p>",
+            "<b>D.</b> <p>has no effect on the network portion of an IP address</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>extends the network portion to 26 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49665/isro2008-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 73,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nWhich IP address should X configure its gateway as? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192.168.1.67</p>",
+            "<b>B.</b> <p>192.168.1.110</p>",
+            "<b>C.</b> <p>192.168.1.135</p>",
+            "<b>D.</b> <p>192.168.1.155</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>192.168.1.110</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3409/gate2008-it-85\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 74,
+          "question": "<p>Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The netmask used in the network is 255.255.255.224.<br>\nGiven the information above, how many distinct subnets are guaranteed to already exist in the network? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3408/gate2008-it-84\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 75,
+          "question": "<p>Two popular routing algorithms are Distance Vector(DV) and Link State (LS) routing. Which of the following are true?<br>\n(S1):  Count to infinity is a problem only with DV and not LS routing<br>\n(S2):  In LS, the shortest path algorithm is run only at one node<br>\n(S3):  In DV, the shortest path algorithm is run only at one node<br>\n(S4):  DV requires lesser number of network messages than LS<br> <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1, S2 and S4 only</p>",
+            "<b>B.</b> <p>S1, S3 and S4 only</p>",
+            "<b>C.</b> <p>S2 and S3 only</p>",
+            "<b>D.</b> <p>S1 and S4 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>S1 and S4 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3381/gate2008-it-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 76,
+          "question": "<p>If a class B network on the Internet has a subnet mask of 255.255.248.0, what is\nthe maximum number of hosts per subnet? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1022</p>",
+            "<b>B.</b> <p>1023</p>",
+            "<b>C.</b> <p>2046</p>",
+            "<b>D.</b> <p>2047</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2046</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/480/gate2008-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 77,
+          "question": "<p>When a host on network A sends a message to a host on network B, which address does the router look at? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Port</p>",
+            "<b>B.</b> <p>IP</p>",
+            "<b>C.</b> <p>Physical</p>",
+            "<b>D.</b> <p>Subnet mask</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49646/isro2007-75\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 78,
+          "question": "<p>IEEE 802.11 is standard for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ethernet</p>",
+            "<b>B.</b> <p>Bluetooth</p>",
+            "<b>C.</b> <p>Broadband Wireless</p>",
+            "<b>D.</b> <p>Wireless LANs</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Wireless LANs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49645/isro2007-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 79,
+          "question": "<p>Range of IP Address from 224.0.0.0 to 239.255.255.255 are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reserved for loopback</p>",
+            "<b>B.</b> <p>Reserved for broadcast</p>",
+            "<b>C.</b> <p>Used for multicast packets</p>",
+            "<b>D.</b> <p>Reserved for future addressing</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Used for multicast packets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49643/isro2007-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 80,
+          "question": "<p>If there are five routers and six networks in intranet using link state routing, how many routing tables are there? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>11</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49499/isro2007-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 81,
+          "question": "<p>A group of 15 routers is interconnected in a centralized complete binary tree with a router at each tree node. Router i communicates with router j by sending a message to the root of the tree. The root then sends the message back down to router j. The mean number of hops per message, assuming all possible router pairs are equally likely is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4.26</p>",
+            "<b>C.</b> <p>4.53</p>",
+            "<b>D.</b> <p>5.26</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4.53</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3508/gate2007-it-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 82,
+          "question": "<p>For the network given in the figure below, the routing tables of the four nodes A, E, D and G are shown. Suppose that F has estimated its delay to its neighbors, A, E, D and G as 8, 10, 12 and 6 msecs respectively and updates its routing table using distance vector routing technique.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q60_1d5695fa.jpg\"><br>\\(\\overset{\\textbf{Routing Table of A}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;0\\\\ \\hline \\text{B}&amp;40\\\\ \\hline \\text{C}&amp;14\\\\ \\hline \\text{D}&amp;17\\\\ \\hline \\text{E}&amp;21\\\\ \\hline \\text{F}&amp;9\\\\ \\hline \\text{G}&amp;24\\\\ \\hline \\end{array}}\\qquad \\overset{\\textbf{Routing Table of D}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;20\\\\ \\hline \\text{B}&amp;8\\\\ \\hline \\text{C}&amp;30\\\\ \\hline \\text{D}&amp;0\\\\ \\hline \\text{E}&amp;14\\\\ \\hline \\text{F}&amp;7\\\\ \\hline \\text{G}&amp;22\\\\ \\hline \\end{array}} \\qquad \\overset{\\textbf{Routing Table of E}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;24\\\\ \\hline \\text{B}&amp;27\\\\ \\hline \\text{C}&amp;7\\\\ \\hline \\text{D}&amp;20\\\\ \\hline \\text{E}&amp;0\\\\ \\hline \\text{F}&amp;11\\\\ \\hline \\text{G}&amp;22\\\\ \\hline \\end{array}}\\qquad \\overset{\\textbf{Routing Table of G}}{\\begin{array}{|c|r|}\\hline \\text{A}&amp;21\\\\ \\hline \\text{B}&amp;24\\\\ \\hline \\text{C}&amp;22\\\\ \\hline \\text{D}&amp;19\\\\ \\hline \\text{E}&amp;22\\\\ \\hline \\text{F}&amp;10\\\\ \\hline \\text{G}&amp;0\\\\ \\hline \\end{array}}\\)<br>Which one of the following option represents the updated routing table of F? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{20} \\\\\\hline \\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{0} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{21} \\\\\\hline \\text {B} &amp; \\text{8} \\\\\\hline \\text{C} &amp; \\text{7} \\\\\\hline \\text{D} &amp; \\text{19} \\\\\\hline \\text {E} &amp; \\text{14} \\\\\\hline \\text {F} &amp; \\text{0 } \\\\\\hline \\text{G} &amp; \\text{22} \\\\\\hline \\end{array}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{20} \\\\\\hline \\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{16} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{8} \\\\\\hline \\text{C} &amp; \\text{7} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{0} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{array}{|c|r|} \\hline \\text {A} &amp; \\text{8} \\\\\\hline \\text {B} &amp; \\text{20} \\\\\\hline \\text{C} &amp; \\text{17} \\\\\\hline \\text{D} &amp; \\text{12} \\\\\\hline \\text {E} &amp; \\text{10} \\\\\\hline \\text {F} &amp; \\text{0} \\\\\\hline \\text{G} &amp; \\text{6} \\\\\\hline \\end{array}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3504/gate2007-it-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 83,
+          "question": "<p>The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>62 subnets and 262142 hosts</p>",
+            "<b>B.</b> <p>64 subnets and 262142 hosts</p>",
+            "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+            "<b>D.</b> <p>64 subnets and 1024 hosts.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62 subnets and 1022 hosts.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1265/gate2007-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 84,
+          "question": "<p>A subnetted Class B network has the following broadcast address: 144.16.95.255 <br>\nIts subnet mask <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is necessarily 255.255.224.0</p>",
+            "<b>B.</b> <p>is necessarily 255.255.240.0</p>",
+            "<b>C.</b> <p>is necessarily 255.255.248.0</p>",
+            "<b>D.</b> <p>could be any one of 255.255.224.0, 255.255.240.0,255.255.248.0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>could be any one of 255.255.224.0, 255.255.240.0,255.255.248.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3614/gate2006-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 85,
+          "question": "<p>A router uses the following routing table:<br>\n\\(\\begin{array}{|l|l|l|} \\hline \\textbf {Destination} &amp; \\textbf { Mask} &amp; \\textbf{Interface} \\\\\\hline \\text {144.16.0.0} &amp; \\text{255.255.0.0} &amp; \\text{eth$0$} \\\\\\hline\\text {144.16.64.0} &amp; \\text{255.255.224.0} &amp; \\text{eth$1$} \\\\\\hline\\text {144.16.68.0} &amp; \\text{255.255.255.0} &amp; \\text{eth$2$}\\\\\\hline \\text {144.16.68.64} &amp; \\text{255.255.255.224} &amp; \\text{eth$3$}\\\\\\hline\\end{array}\\)<br>\nPacket bearing a destination address 144.16.68.117 arrives at the router. On which interface will it be forwarded? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>eth0</p>",
+            "<b>B.</b> <p>eth1</p>",
+            "<b>C.</b> <p>eth2</p>",
+            "<b>D.</b> <p>eth3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>eth2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3607/gate2006-it-63-isro2015-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 86,
+          "question": "<p>Two computers C1 and C2 are configured as follows. C1 has IP address 203.\n197.2.53 and netmask 255.255. 128.0. C2 has IP address 203.197.75.201 and\nnetmask 255.255.192.0. Which one of the following statements is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>C1 and C2 both assume they are on the same network</p>",
+            "<b>B.</b> <p>C2 assumes C1 is on same network, but C1 assumes C2 is on a different\nnetwork</p>",
+            "<b>C.</b> <p>C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork</p>",
+            "<b>D.</b> <p>C1 and C2 both assume they are on different networks</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1821/gate2006-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 87,
+          "question": "<p>For which one of the following reason does Internet Protocol (IP) use the timeto-live (TTL) field in the IP datagram header? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ensure packets reach destination within that time</p>",
+            "<b>B.</b> <p>Discard packets that reach later than that time</p>",
+            "<b>C.</b> <p>Prevent packets from looping indefinitely</p>",
+            "<b>D.</b> <p>Limit the time for which a packet gets queued in intermediate routers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Prevent packets from looping indefinitely</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/884/gate2006-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 88,
+          "question": "<p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated interval, three tasks are performed.<br><br>\ni. A node determines whether its neighbors in the graph are accessible. If so, it sets the tentative cost to each accessible neighbor as 1. Otherwise, the cost is set to \\(\\infty\\).<br>\nii. From each accessible neighbor, it gets the costs to relay to other nodes via that neighbor (as the next hop).<br>\niii. Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost. <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q85a_667c0628.jpg\"><br>\nContinuing from the earlier problem, suppose at some time t, when the costs have stabilized, node A goes down. The cost from node F to node A at time (t+100) is : <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>&gt;100 but finite</p>",
+            "<b>B.</b> <p>\\(\\infty\\)</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>&gt;3 and \\(\\leq 100\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>&gt;100 but finite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3859/gate2005-it-85b\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 89,
+          "question": "<p>Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated interval, three tasks are performed.<br><br>\ni. A node determines whether its neighbors in the graph are accessible. If so, it sets the tentative cost to each accessible neighbor as 1. Otherwise, the cost is set to \\(\\infty\\).<br>\nii. From each accessible neighbor, it gets the costs to relay to other nodes via that neighbor (as the next hop).<br>\niii. Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost. <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q85a_667c0628.jpg\"><br>\nFor the graph given above, possible routing tables for various nodes after they have stabilized, are shown in the following options. Identify the correct table. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overset{\\text{Table for node A}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{-} &amp;\\text{-} \\\\\\hline \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{B} &amp; \\text{3} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{3} \\\\\\hline \\text{F}&amp; \\text{C} &amp; \\text{4} \\\\\\hline \\end{array}}\\)</p>",
+            "<b>B.</b> <p>\\(\\overset{\\text{Table for node C}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{E} &amp; \\text{1} \\\\\\hline \\text{F}&amp; \\text{E} &amp; \\text{3} \\\\\\hline \\end{array}}\\)</p>",
+            "<b>C.</b> <p>\\(\\overset{\\text{Table for node B}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline \\text{B}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{2} \\\\\\hline \\text{F}&amp; \\text{D} &amp; \\text{2} \\\\\\hline \\end{array}}\\)</p>",
+            "<b>D.</b> <p>\\(\\overset{\\text{Table for node D}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{B} &amp;\\text{3} \\\\\\hline \\text{B}&amp; \\text{B} &amp; \\text{1} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{E}&amp; \\text{E} &amp; \\text{1} \\\\\\hline \\text{F}&amp; \\text{F} &amp; \\text{1} \\\\\\hline \\end{array}}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\overset{\\text{Table for node B}}{\\begin{array}{|c|c|c|} \\hline \\text {A} &amp; \\text{A} &amp;\\text{1} \\\\\\hline \\text{B}&amp; \\text{-} &amp; \\text{-} \\\\\\hline \\text{C}&amp; \\text{C} &amp; \\text{1} \\\\\\hline \\text{D}&amp; \\text{D} &amp; \\text{1} \\\\\\hline \\text{E}&amp; \\text{C} &amp; \\text{2} \\\\\\hline \\text{F}&amp; \\text{D} &amp; \\text{2} \\\\\\hline \\end{array}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3858/gate2005-it-85a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 90,
+          "question": "<p>Assume that \"host1.mydomain.dom\" has an IP address of 145.128.16.8. Which of the following options would be most appropriate as a subsequence of steps in performing the reverse lookup of 145.128.16.8 ? In the following options \"NS\" is an abbreviation of \"nameserver\". <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Query a NS for the root domain and then NS for the \"dom\" domains</p>",
+            "<b>B.</b> <p>Directly query a NS for \"dom\" and then a NS for \"mydomain.dom\" domains</p>",
+            "<b>C.</b> <p>Query a NS for in-addr.arpa and then a NS for 128.145.in-addr.arpa domains</p>",
+            "<b>D.</b> <p>Directly query a NS for 145.in-addr.arpa and then a NS for 128.145.in-addr.arpa domains</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Query a NS for in-addr.arpa and then a NS for 128.145.in-addr.arpa domains</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3840/gate2005-it-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 91,
+          "question": "<p>A company has a class C network address of 204.204.204.0. It wishes to have three subnets, one with 100 hosts and two with 50 hosts each. Which one of the following options represents a feasible set of subnet address/subnet mask pairs? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>204.204.204.128/255.255.255.192<br>\n204.204.204.0/255.255.255.128<br>\n204.204.204.64/255.255.255.128</p>",
+            "<b>B.</b> <p>204.204.204.0/255.255.255.192 <br>\n204.204.204.192/255.255.255.128<br>\n204.204.204.64/255.255.255.128</p>",
+            "<b>C.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.192/255.255.255.192<br>\n204.204.204.224/255.255.255.192</p>",
+            "<b>D.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.64/255.255.255.192<br>\n204.204.204.0/255.255.255.192</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>204.204.204.128/255.255.255.128 <br>\n204.204.204.64/255.255.255.192<br>\n204.204.204.0/255.255.255.192</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3839/gate2005-it-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 92,
+          "question": "<p>Count to infinity is a problem associated with: <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>link state routing protocol.</p>",
+            "<b>B.</b> <p>distance vector routing protocol</p>",
+            "<b>C.</b> <p>DNS while resolving host name</p>",
+            "<b>D.</b> <p>TCP for congestion control</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>distance vector routing protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3775/gate2005-it-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 93,
+          "question": "<p>An organization has a class B network and wishes to form subnets for 64 departments. The subnet\nmask would be: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>255.255.0.0</p>",
+            "<b>B.</b> <p>255.255.64.0</p>",
+            "<b>C.</b> <p>255.255.128.0</p>",
+            "<b>D.</b> <p>255.255.252.0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>255.255.252.0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1363/gate2005-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 94,
+          "question": "<p>In a network of LANs connected by bridges, packets are sent from one LAN to another through\nintermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>For shortest path routing between LANs</p>",
+            "<b>B.</b> <p>For avoiding loops in the routing paths</p>",
+            "<b>C.</b> <p>For fault tolerance</p>",
+            "<b>D.</b> <p>For minimizing collisions</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>For avoiding loops in the routing paths</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1362/gate2005-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 95,
+          "question": "<p>The address resolution protocol (ARP) is used for: <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding the IP address from the DNS</p>",
+            "<b>B.</b> <p>Finding the IP address of the default gateway</p>",
+            "<b>C.</b> <p>Finding the IP address that corresponds to a MAC address</p>",
+            "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Finding the MAC address that corresponds to an IP address</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1360/gate2005-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 96,
+          "question": "<p>In the TCP/IP protocol suite, which one of the following is NOT part of the IP header? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fragment Offset</p>",
+            "<b>B.</b> <p>Source IP address</p>",
+            "<b>C.</b> <p>Destination IP address</p>",
+            "<b>D.</b> <p>Destination port number</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Destination port number</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3730/gate2004-it-86\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 97,
+          "question": "<p>A host is connected to a Department network which is part of a University network. The University network, in turn, is part of the Internet. The largest network in which the Ethernet address of the host is unique is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the subnet to which the host belongs</p>",
+            "<b>B.</b> <p>the Department network</p>",
+            "<b>C.</b> <p>the University network</p>",
+            "<b>D.</b> <p>the Internet</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the Internet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3668/gate2004-it-27\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 98,
+          "question": "<p>A subnet has been assigned a subnet mask of 255.255.255.192. What is the maximum number of hosts that can belong to this subnet? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>30</p>",
+            "<b>C.</b> <p>62</p>",
+            "<b>D.</b> <p>126</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>62</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3667/gate2004-it-26\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 99,
+          "question": "<p>Consider three IP networks A, B and C. Host HA in network A sends messages each containing 180 bytes of application data to a host HC in network C. The TCP layer prefixes a 20 byte header to the message. This passes through an intermediate net?work B. The maximum packet size, including 20 byte IP header, in each network is  <br><br> A : 1000 bytes <br> B : 100 bytes <br> C : 1000 bytes <br><br> The network A and B are connected through a 1 Mbps link, while B and C are connected by a 512 Kbps link (bps = bits per second).  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q56_23530050.jpg\"> <br>  Assuming that the packets are correctly delivered, how many bytes, including headers, are delivered to the IP layer at the destination for one application message, in the best case ? Consider only data packets. <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>200</p>",
+            "<b>B.</b> <p>220</p>",
+            "<b>C.</b> <p>240</p>",
+            "<b>D.</b> <p>260</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>260</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1052/gate2004-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 100,
+          "question": "<p>The routing table of a router is shown below: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Network_Layer_Protocol\\q55_6714c69d.jpg\"><br> On which interface will the router forward packets addressed to destinations 128.75.43.16 and 192.12.17.10 respectively? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Eth1 and Eth2</p>",
+            "<b>B.</b> <p>Eth0 and Eth2</p>",
+            "<b>C.</b> <p>Eth0 and Eth3</p>",
+            "<b>D.</b> <p>Eth1 and Eth3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Eth1 and Eth2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1051/gate2004-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 101,
+          "question": "<p>Which of the following is NOT true with respect to a transparent bridge and a router? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both bridge and router selectively forward data packets</p>",
+            "<b>B.</b> <p>A bridge uses IP addresses while a router uses MAC addresses</p>",
+            "<b>C.</b> <p>A bridge builds up its routing table by inspecting incoming packets</p>",
+            "<b>D.</b> <p>A router can connect between a LAN and a WAN</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A bridge uses IP addresses while a router uses MAC addresses</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1013/gate2004-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 102,
+          "question": "<p>The subnet mask for a particular network is 255.255.31.0 Which of the following\npairs of IP addresses could belong to this network ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>172.57.88.62 and 172.56.87.233</p>",
+            "<b>B.</b> <p>191.203.31.87 and 191.234.31.88</p>",
+            "<b>C.</b> <p>10.35.28.2 and 10.35.29.4</p>",
+            "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>128.8.129.43 and 128.8.161.55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/965/gate2003-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 103,
+          "question": "<p>Which of the following assertions is false about the internet Protocol (IP) ? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is possible for a computer to have multiple IP addresses</p>",
+            "<b>B.</b> <p>IP packets from the same source to the same destination can take different\nroutes in the network</p>",
+            "<b>C.</b> <p>IP ensures that a packet is discarded if it is unable to reach its destination\nwithin a given number of hopes</p>",
+            "<b>D.</b> <p>The packet source cannot set the route of an outgoing packets; the route is\ndetermined only by the routing tables in the routers on the way.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The packet source cannot set the route of an outgoing packets; the route is\ndetermined only by the routing tables in the routers on the way.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/917/gate2003-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

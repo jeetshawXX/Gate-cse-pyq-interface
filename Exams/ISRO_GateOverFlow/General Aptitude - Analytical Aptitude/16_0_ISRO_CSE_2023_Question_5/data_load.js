@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - ISRO CSE 2023  Question",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "ISRO CSE 2023  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435301\"></a><div itemprop=\"text\"><p>Eight friends \\( \\text{P, Q, R, S, T, V, W} \\) and \\( \\text{Y} \\) are sitting around a square table.</p><ol><li>Out of eight, four persons are sitting at the corners of the table and the other four are sitting at the mid. points of each side of the table.</li><li>Persons at the corners are facing the centre while the persons at the mid points of side are facing outside.</li><li>\\( \\text{S} \\) is third to the right of \\( \\mathrm{P} . \\mathrm{P} \\) is facing the centre.</li><li>\\( \\text{Y} \\) is not sitting beside \\( \\text{P} \\) or \\( \\text{S} \\).</li><li>\\( \\text{T} \\) is third to the right of \\( \\text{R} \\).</li><li>\\( \\text{R} \\) is not sitting at the mid - point of any side of the table.</li><li>\\( \\text{R} \\) is also not beside \\( \\text{Y} \\).</li><li>There is only one person between P and V.</li><li>Q is not sitting beside V .</li></ol><p><br>How many people are there between \\( \\text{T} \\) and \\( \\text{Q} \\) ?</p></div><br><br><b>Analytical Aptitude: ISRO CSE 2023 | Question: 94</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>None<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435301/isro-cse-2023-question-94\" target=\"_blank\">https://gateoverflow.in/435301/isro-cse-2023-question-94</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435305\"></a><div itemprop=\"text\"><p>Which one will replace the question mark?</p><p style=\"text-align:center\"><img alt=\"Pattern\" width=\"500\" height=\"149\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=5973740733132724054\"></p></div><br><br><b>Analytical Aptitude: ISRO CSE 2023 | Question: 90</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 38 \\)</p>",
+            "<p>\\( 48 \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 38 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435305/isro-cse-2023-question-90\" target=\"_blank\">https://gateoverflow.in/435305/isro-cse-2023-question-90</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"435306\"></a><div itemprop=\"text\"><p>Which option replaces the question mark?</p><p><img alt=\"\" width=\"700\" height=\"466\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6567155761292521899\"></p></div><br><br><b>Analytical Aptitude: ISRO CSE 2023 | Question: 89</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"option A\" width=\"180\" height=\"169\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=746559623175530027\"></p>",
+            "<p><img alt=\"option B\" width=\"180\" height=\"140\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=15180091616083664475\"></p>",
+            "<p><img alt=\"option c\" width=\"180\" height=\"180\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4595450741275817452\"></p>",
+            "<p><img alt=\"option D\" width=\"180\" height=\"181\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10566258675394706835\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"option D\" width=\"180\" height=\"181\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10566258675394706835\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435306/isro-cse-2023-question-89\" target=\"_blank\">https://gateoverflow.in/435306/isro-cse-2023-question-89</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"435307\"></a><div itemprop=\"text\"><p>Which option replaces the question mark?</p><p>&nbsp;</p><p style=\"text-align:center\"><img alt=\"Pattern Image\" width=\"700\" height=\"240\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=8883644908457392215\"></p><p style=\"text-align:center\"><img alt=\"Pattern Question\" width=\"400\" height=\"67\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10417363807093317597\"></p></div><br><br><b>Analytical Aptitude: ISRO CSE 2023 | Question: 88</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" width=\"200\" height=\"100\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6251990516829594891\"></p>",
+            "<p><img alt=\"\" width=\"200\" height=\"100\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6663797719250508249\"></p>",
+            "<p><img alt=\"\" width=\"200\" height=\"100\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=13200111080867809728\"></p>",
+            "<p><img alt=\"\" width=\"200\" height=\"91\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=15544072027418497909\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" width=\"200\" height=\"100\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6663797719250508249\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435307/isro-cse-2023-question-88\" target=\"_blank\">https://gateoverflow.in/435307/isro-cse-2023-question-88</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"435308\"></a><div itemprop=\"text\"><p>Which option replaces the question mark?</p><p style=\"text-align:center\"><img alt=\"Pattern\" width=\"500\" height=\"355\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=16907785393071648216\"></p><p><br>&nbsp;</p></div><br><br><b>Analytical Aptitude: ISRO CSE 2023 | Question: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" width=\"200\" height=\"165\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3102538041037006855\"></p>",
+            "<p><img alt=\"Option B\" width=\"200\" height=\"165\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3818174882754158714\"></p>",
+            "<p><img alt=\"\" width=\"200\" height=\"165\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7524309093682273220\"></p>",
+            "<p><img alt=\"\" width=\"200\" height=\"165\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=12921652384548785249\"><p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p><img alt=\"Option B\" width=\"200\" height=\"165\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3818174882754158714\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435308/isro-cse-2023-question-87\" target=\"_blank\">https://gateoverflow.in/435308/isro-cse-2023-question-87</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Spatial Aptitude - Patterns In Three Dimensions",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Patterns In Three Dimensions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411880\"></a><div itemprop=\"text\"><p>Which one of the following shapes can be used to tile (completely cover by repeating) a flat plane, extending to infinity in all directions, without leaving any empty spaces in between them? The copies of the shape used to tile are identical and are not allowed to overlap.</p></div><br><br><b>GATE CH 2023 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>circle&nbsp;</p>",
+            "<p>regular octagon&nbsp;</p>",
+            "<p>regular pentagon&nbsp;</p>",
+            "<p>rhombus&nbsp;</p>"
+          ],
+          "correct_answer": "<p>rhombus&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411880/gate-ch-2023-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411880/gate-ch-2023-ga-question-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"399251\"></a><div itemprop=\"text\"><p>&nbsp;Looking at the surface of a smooth \\( 3 \\)-dimensional object from the outside, which one of the following options is \\( \\text{TRUE}? \\)</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The surface of the object must be concave everywhere.</p>",
+            "<p>The surface of the object must be convex everywhere.</p>",
+            "<p>The surface of the object may be concave in some places and convex in other places.</p>",
+            "<p>The object can have edges, but no corners.</p>"
+          ],
+          "correct_answer": "<p>The surface of the object may be concave in some places and convex in other places.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399251/gate-cse-2023-ga-question-5\" target=\"_blank\">https://gateoverflow.in/399251/gate-cse-2023-ga-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"422898\"></a><div itemprop=\"text\"><p>​​​​A cube is to be cut into \\( 8 \\) pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube.<br><br>The minimum number of such cuts required is</p></div><br><br><b>GATE CSE 2024 | Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422898/gate-cse-2024-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/422898/gate-cse-2024-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"426502\"></a><div itemprop=\"text\"><p>Five cubes of identical size and another smaller cube are assembled as shown in Figure \\( \\text{A} \\). If viewed from direction \\( \\text{X} \\), the planar image of the assembly appears as Figure \\( \\text{B} \\).<br><img alt=\"\" width=\"500\" height=\"321\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/904031e0afd09f0d4a7f75af044fee96.png\"><br><br>If viewed from direction \\( \\text{Y} \\), the planar image of the assembly (Figure \\( \\text{A} \\)) will appear as</p><p>&nbsp;</p></div><br><br><b>GATE Civil 2024 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"GATE Civil 2024 Set 2 | GA Question-45\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/44d9b8b0a381b00e2b7d3a66188ddb54.png\"></p>",
+            "<p><img alt=\"GATE Civil 2024 Set 2 | GA Question-45\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/82a0c3c9040cab3ac688dcbcc9b4ed79.png\"></p>",
+            "<p><img alt=\"GATE Civil 2024 Set 2 | GA Question-45\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/9cf16d4a5cad9db66fe7d8e68f706246.png\"></p>",
+            "<p><img alt=\"GATE Civil 2024 Set 2 | GA Question-45\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/f3b326108590c7adf43ce5840a284846.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"GATE Civil 2024 Set 2 | GA Question-45\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/44d9b8b0a381b00e2b7d3a66188ddb54.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426502/gate-civil-2024-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/426502/gate-civil-2024-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"422962\"></a><div itemprop=\"text\"><p>​​​​​Visualize two identical right circular cones such that one is inverted over the other and they share a common circular base. If a cutting plane passes through the vertices of the assembled cones, what shape does the outer boundary of the resulting cross-section make?</p><p>&nbsp;</p></div><br><br><b>GATE DS&AI 2024 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A rhombus</p>",
+            "<p>A triangle</p>",
+            "<p>An ellipse</p>",
+            "<p>A hexagon</p>"
+          ],
+          "correct_answer": "<p>A rhombus</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422962/gate-ds&ai-2024-ga-question-10\" target=\"_blank\">https://gateoverflow.in/422962/gate-ds&ai-2024-ga-question-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411865\"></a><div itemprop=\"text\"><p>An opaque cylinder (shown below) is suspended in the path of a parallel beam of light, such that its shadow is cast on a screen oriented perpendicular to the direction of the light beam. The cylinder can be reoriented in any direction within the light beam. Under these conditions, which one of the shadows \\( \\mathbf{P}, \\mathbf{Q}, \\mathbf{R} \\), and \\( \\mathbf{S} \\) is NOT possible?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/f52c66824ef1140cb47f392b3756361e.png\" width=\"350\"></p>\n\n</div><br><br><b>GATE IN 2023 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{P} \\)</p>",
+            "<p>\\( \\mathrm{Q} \\)</p>",
+            "<p>\\( \\mathrm{R} \\)</p>",
+            "<p>\\( \\mathrm{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{S} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411865/gate-in-2023-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411865/gate-in-2023-ga-question-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411807\"></a><div itemprop=\"text\"><p>An opaque pyramid (shown below), with a square base and isosceles faces, is suspended in the path of a parallel beam of light, such that its shadow is cast on a screen oriented perpendicular to the direction of the light beam. The pyramid can be reoriented in any direction within the light beam. Under these conditions, which one of the shadows \\( \\mathbf{P}, \\mathbf{Q}, \\mathbf{R} \\), and \\( \\mathbf{S} \\) is NOT possible?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___patterns_in_three_dimensions/15ec8668005295633f30b2842294ca8c.png\" width=\"400\"></p>\n\n</div><br><br><b>GATE Mechanical 2023 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathbf{P} \\)</p>",
+            "<p>\\( \\mathbf{Q} \\)</p>",
+            "<p>\\( \\mathbf{R} \\)</p>",
+            "<p>\\( \\mathbf{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathbf{Q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411807/gate-mechanical-2023-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411807/gate-mechanical-2023-ga-question-10</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"426503\"></a><div itemprop=\"text\"><p>​​​Four equilateral triangles are used to form a regular closed three-dimensional object by joining along the edges. The angle between any two faces is</p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 30^{\\circ} \\)</p>",
+            "<p>\\( 60^{\\circ} \\)</p>",
+            "<p>\\( 45^{\\circ} \\)</p>",
+            "<p>\\( 90^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426503/gate-mechanical-2024-ga-question-10\" target=\"_blank\">https://gateoverflow.in/426503/gate-mechanical-2024-ga-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

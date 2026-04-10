@@ -1,0 +1,71 @@
+{
+  "title": "Quantitative Aptitude - System Of Equation",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "System Of Equation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6467\"></a><div itemprop=\"text\"><p>The equation&nbsp;\\( ax-(a+b)y=1 \\) and&nbsp;\\( (a-b)x+ay=5 \\) have a unique solution:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>for all values of \\( a \\) and \\( b \\)</p>",
+            "<p>only when \\( a=b \\)</p>",
+            "<p>only when&nbsp;\\( a^{2}:b^{2}=1:2 \\)</p>",
+            "<p>only when \\( a=0 \\) and \\( b=0 \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6467/nielit-2017-dec-scientific-assistant-a-section-a-38\" target=\"_blank\">https://aptitude.gateoverflow.in/6467/nielit-2017-dec-scientific-assistant-a-section-a-38</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6261\"></a><div itemprop=\"text\"><p>For what values of \\( ‘k’ \\) will the pair of equations \\( 3x + 4y =12 \\) and \\( kx + 12y = 30 \\) \\( NOT \\) have a unique solution ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 7.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6261/nielit-2017-dec-scientist-b-section-a-51\" target=\"_blank\">https://aptitude.gateoverflow.in/6261/nielit-2017-dec-scientist-b-section-a-51</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6684\"></a><div itemprop=\"text\"><p>Determine \\( a+b \\) such that the following system of equations:</p>\n\n<p>\\( 2x-(a-4)y=2b+1 \\text{ and }4x-(a-1)y=5b-1 \\) infinite solutions.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6684/nielit-2019-feb-scientist-c-section-d-2\" target=\"_blank\">https://aptitude.gateoverflow.in/6684/nielit-2019-feb-scientist-c-section-d-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6828\"></a><div itemprop=\"text\"><p>In the following system of equations&nbsp;\\( 2^{y-x} \\left(x+y \\right)=1 \\)&nbsp; &amp;&nbsp; \\( \\left(x+y \\right)^{x-y}=2 \\) the value of \\( xy \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( \\frac{3}{4} \\)</p>",
+            "<p>\\( \\frac{1}{4} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6828/nielit-2019-feb-scientist-d-section-d-25\" target=\"_blank\">https://aptitude.gateoverflow.in/6828/nielit-2019-feb-scientist-d-section-d-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

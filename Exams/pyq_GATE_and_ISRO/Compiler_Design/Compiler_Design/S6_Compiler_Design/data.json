@@ -1,0 +1,231 @@
+{
+  "title": "Compiler_Design - Compiler_Design - Slot 6",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A variable x is said to be live at a statement \\(S_{i}\\) in a program if the following three conditions hold simultaneously: <br>\ni. There exists a statement \\(S_{j}\\) that uses x <br>\nii. There is a path from \\(S_{i}\\) to \\(S_{j}\\) in the flow graph corresponding to the program <br>\niii. The path has no intervening assignment to x including at \\(S_{i}\\) and \\(S_{j}\\) <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q36_5e8cdf73.jpg\"><br> The variables which are live both at the statement in basic block 2 and at the statement in basic block 3 of the above control flow graph are <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>p, s, u</p>",
+            "<b>B.</b> <p>r, s, u</p>",
+            "<b>C.</b> <p>r,u</p>",
+            "<b>D.</b> <p>q,v</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>r,u</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8356/gate2015-1-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which one of the following is TRUE at any valid state in shift-reduce parsing? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Viable prefixes appear only at the bottom of the stack and not inside</p>",
+            "<b>B.</b> <p>Viable prefixes appear only at the top of the stack and not inside</p>",
+            "<b>C.</b> <p>The stack contains only a set of viable prefixes</p>",
+            "<b>D.</b> <p>The stack never contains viable prefixes</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The stack contains only a set of viable prefixes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8187/gate2015-1-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following grammar.<br>\\(\\mathrm{S} \\rightarrow \\mathrm{AB}\\)<br>\\(\\mathrm{A} \\rightarrow \\mathrm{a}\\)<br>\\(\\mathrm{A} \\rightarrow \\mathrm{BaB}\\)<br>\\(\\mathrm{B} \\rightarrow \\mathrm{bbA}\\)<br>Which of the following statements is FALSE? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The length of every string produced by this grammar is even</p>",
+            "<b>B.</b> <p>No string produced by this grammar has three consecutive a's</p>",
+            "<b>C.</b> <p>The length of substring produced by B is always odd</p>",
+            "<b>D.</b> <p>No string produced by this grammar has four consecutive b's</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>No string produced by this grammar has four consecutive b's</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54994/isro2014-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following is NOT represented in a subroutine's activation record frame for a stack-based programming language? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Values of local variables</p>",
+            "<b>B.</b> <p>Return address</p>",
+            "<b>C.</b> <p>Heap area</p>",
+            "<b>D.</b> <p>Information needed to access non local variables</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Heap area</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17221/isro2014-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following Java code fragment:<br><pre><code> public class While\n{\n    public void loop()\n    {\n        int x = 0;\n        while(1)\n        {\n            System.out.println(\"x plus one is\" +(x+1));\n        }\n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is syntax error in line no. 1</p>",
+            "<b>B.</b> <p>There is syntax errors in line nos. 1 &amp; 6</p>",
+            "<b>C.</b> <p>There is syntax error in line no. 8</p>",
+            "<b>D.</b> <p>There is syntax error in line no. 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There is syntax error in line no. 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54121/isro2014-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the number of steps required to derive the string ((() ()) ()) for the following grammar?\n<br>\\(S \\rightarrow S S\\)<br>\\(S \\rightarrow(S)\\)<br>\\(S \\rightarrow \\varepsilon\\) <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17222/isro2014-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the basic block given below.<br>\na= b + c <br>\nc =a + d <br>\nd =b + c <br>\ne =d - b <br>\na =e + b <br>\nThe minimum number of nodes and edges present in the DAG representation of the above basic block respectively are <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6 and 6</p>",
+            "<b>B.</b> <p>8 and 10</p>",
+            "<b>C.</b> <p>9 and 12</p>",
+            "<b>D.</b> <p>4 and 4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>6 and 6</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2068/gate2014-3-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following statements are CORRECT?  <br> 1) Static allocation of all data areas by a compiler makes it impossible to implement recursion. <br>\n2) Automatic garbage collection is essential to implement recursion. <br>\n3) Dynamic allocation of activation records is essential to implement recursion. <br>\n4) Both heap and stack are essential to implement recursion. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 2 only</p>",
+            "<b>B.</b> <p>2 and 3 only</p>",
+            "<b>C.</b> <p>3 and 4 only</p>",
+            "<b>D.</b> <p>1 and 3 only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1 and 3 only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2052/gate2014-3-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>One of the purposes of using intermediate code in compilers is to <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>make parsing and semantic analysis simpler</p>",
+            "<b>B.</b> <p>improve error recovery and error reporting</p>",
+            "<b>C.</b> <p>increase the chances of reusing the machine-independent code optimizer in other compliers.</p>",
+            "<b>D.</b> <p>improve the register allocation</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>increase the chances of reusing the machine-independent code optimizer in other compliers.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2051/gate2014-3-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>The minimum number of arithmetic operations required to evaluate the polynomial\n\\(P(x)=x^{5}+4x^{3}+6x+5\\) for a given value of x, using only one temporary variable is _____. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2045/gate2014-3-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>For a C program accessing x[i][j][k], the following intermediate code is generated by a\ncompiler. Assume that the size of an integer is 32 bits and the size of a character is 8 bits. <br>\nt0 = i * 1024 <br>\nt1 = j * 32 <br>\nt2 = k * 4 <br>\nt3 = t1 + t0 <br>\nt4 = t3 + t2 <br>\nt5 = x[t4]<br>\nWhich one of the following statements about the source code for the C program is\nCORRECT? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x is declared as \"int x[32] [32] [8]\".</p>",
+            "<b>B.</b> <p>x is declared as \"int x[4] [1024] [32]\".</p>",
+            "<b>C.</b> <p>x is declared as \"char x[4] [32] [8]\".</p>",
+            "<b>D.</b> <p>x is declared as \"char x[32] [16] [2]\".</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>x is declared as \"int x[32] [32] [8]\".</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1993/gate2014-2-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following is NOT performed during compilation? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic memory allocation</p>",
+            "<b>B.</b> <p>Type checking</p>",
+            "<b>C.</b> <p>Symbol table management</p>",
+            "<b>D.</b> <p>Inline expansion</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Dynamic memory allocation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1975/gate2014-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the grammar defined by the following production rules, with two operators * and + <br>\nS \\(\\rightarrow\\)T *P <br>\nT \\(\\rightarrow\\)U| T*U <br>\nP \\(\\rightarrow\\) Q +P |Q <br>\nQ \\(\\rightarrow\\) Id <br>\nU \\(\\rightarrow\\) Id <br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(+\\) is left associative, while * is right associative</p>",
+            "<b>B.</b> <p>\\(+\\) is right associative, while * is left associative</p>",
+            "<b>C.</b> <p>Both + and * are right associative</p>",
+            "<b>D.</b> <p>Both + and * are left associative</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(+\\) is right associative, while * is left associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1973/gate2014-2-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A canonical set of items is given below <br>\nS\\(\\rightarrow L.  \\gt R\\) <br>\nQ\\(\\rightarrow\\)R. <br>\nOn input symbol \\(\\lt \\) the set has <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a shift-reduce conflict and a reduce-reduce conflict.</p>",
+            "<b>B.</b> <p>a shift-reduce conflict but not a reduce-reduce conflict</p>",
+            "<b>C.</b> <p>a reduce-reduce conflict but not a shift-reduce conflict.</p>",
+            "<b>D.</b> <p>neither a shift-reduce nor a reduce-reduce conflict</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>neither a shift-reduce nor a reduce-reduce conflict</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1807/gate2014-1-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following is FALSE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A basic block is a sequence of instructions where control enters the sequence at the\nbeginning and exits at the end.</p>",
+            "<b>B.</b> <p>Available expression analysis can be used for common subexpression elimination.</p>",
+            "<b>C.</b> <p>Live variable analysis can be used for dead code elimination</p>",
+            "<b>D.</b> <p>x=4*5 \\(\\Rightarrow\\)x=20 is an example of common subexpression elimination</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x=4*5 \\(\\Rightarrow\\)x=20 is an example of common subexpression elimination</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1784/gate2014-1-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

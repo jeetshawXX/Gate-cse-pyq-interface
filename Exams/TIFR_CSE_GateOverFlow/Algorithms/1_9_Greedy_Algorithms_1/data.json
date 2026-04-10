@@ -1,0 +1,27 @@
+{
+  "title": "Algorithms - Greedy Algorithms",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Greedy Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"400155\"></a><div itemprop=\"text\"><p>Given a set \\( \\mathcal{F} \\) of intervals \\( \\left(s_{i}, t_{i}\\right)_{i=1}^{n} \\) on the integer line (assume all \\( s_{i}, t_{i} \\) are distinct), a subset \\( S \\) of \\( \\mathcal{F} \\) is said to be <em>independent</em> if no two intervals in \\( S \\) have a non-empty intersection.</p>\n\n<p>Consider greedy algorithms of the following type:</p>\n\n<p><br>\n<img alt=\"\" height=\"136\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=12617472555866731460\" width=\"618\"><br>\nHere are three possible choices for the ordering \\( \\sigma \\) :</p>\n\n<p>\\( \\text{(C1)} \\) \\( \\sigma \\) arranges the intervals in \\( \\mathcal{F} \\) in increasing order of \\( s_{i} \\).<br>\n\\( \\text{(C2)} \\)&nbsp;\\( \\sigma \\) arranges the intervals in \\( \\mathcal{F} \\) in increasing order of \\( t_{i} \\).<br>\n\\( \\text{(C3)} \\) \\( \\sigma \\) arranges the intervals in \\( \\mathcal{F} \\) in increasing order of \\( \\left|s_{i}-t_{i}\\right| \\).</p>\n\n<p>For which of these choices of the ordering \\( \\sigma \\) does the algorithm always produce an independent set of \\( \\mathcal{F} \\) of maximum size?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2023 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Choice \\( \\text{(C1)} \\) only</p>",
+            "<p>Choice \\( \\text{(C2)} \\)&nbsp;only</p>",
+            "<p>Choice \\( \\text{(C3)} \\) only</p>",
+            "<p>Choices \\( \\text{(C2)} \\) and \\( \\text{(C3)} \\), but not choice \\( \\text{(C1)} \\)</p>",
+            "<p>Choices \\( \\text{(C1)} \\) and \\( \\text{(C2)}, \\)&nbsp;but not choice \\( \\text{(C3)} \\)</p>"
+          ],
+          "correct_answer": "<p>Choice \\( \\text{(C2)} \\)&nbsp;only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400155/tifr-cse-2023-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/400155/tifr-cse-2023-part-b-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

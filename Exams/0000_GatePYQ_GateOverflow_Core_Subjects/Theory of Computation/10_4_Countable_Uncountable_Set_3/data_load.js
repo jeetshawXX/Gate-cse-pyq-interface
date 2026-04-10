@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Countable Uncountable Set",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Countable Uncountable Set",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2235\"></a><div itemprop=\"text\"><p>Given \\( \\Sigma=\\{a,b\\} \\), which one of the following sets is not countable?</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 3.4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Set of all strings over \\( \\Sigma \\)</p>",
+            "<p>Set of all languages over \\( \\Sigma \\)</p>",
+            "<p>Set of all regular languages over \\( \\Sigma \\)</p>",
+            "<p>Set of all languages over \\( \\Sigma \\) accepted by Turing machines</p>"
+          ],
+          "correct_answer": "<p>Set of all languages over \\( \\Sigma \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2235/gate-cse-1997-question-3-4\" target=\"_blank\">https://gateoverflow.in/2235/gate-cse-1997-question-3-4</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2050\"></a><div itemprop=\"text\"><p>Let \\( \\Sigma \\) be a finite non-empty alphabet and let \\( 2^{\\Sigma^*} \\) be the power set of \\( \\Sigma^* \\). Which one of the following is&nbsp;<strong>TRUE</strong>?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( 2^{\\Sigma^*} \\) and \\( \\Sigma^* \\) are countable</p>",
+            "<p>\\( 2^{\\Sigma^*} \\) is countable and \\( \\Sigma^* \\) is uncountable</p>",
+            "<p>\\( 2^{\\Sigma^*} \\) is uncountable and \\( \\Sigma^* \\) is countable</p>",
+            "<p>Both \\( 2^{\\Sigma^*} \\) and \\( \\Sigma^* \\) are uncountable</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{\\Sigma^*} \\) is uncountable and \\( \\Sigma^* \\) is countable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2050/gate-cse-2014-set-3-question-16\" target=\"_blank\">https://gateoverflow.in/2050/gate-cse-2014-set-3-question-16</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"302814\"></a><div itemprop=\"text\"><p>Consider the following sets:</p>\n\n<p>S1: Set of all recursively enumerable languages over the alphabet \\( \\{0, 1\\} \\)</p>\n\n<p>S2:&nbsp;Set of all syntactically valid C programs</p>\n\n<p>S3:&nbsp;Set of all languages over the alphabet \\( \\{0,1\\} \\)</p>\n\n<p>S4:&nbsp;Set of all non-regular languages over the alphabet \\( \\{ 0,1 \\} \\)</p>\n\n<p>Which of the above sets are uncountable?</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>S1 and S2</p>",
+            "<p>S3 and S4</p>",
+            "<p>S2&nbsp;and S3</p>",
+            "<p>S1 and S4</p>"
+          ],
+          "correct_answer": "<p>S3 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302814/gate-cse-2019-question-34\" target=\"_blank\">https://gateoverflow.in/302814/gate-cse-2019-question-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

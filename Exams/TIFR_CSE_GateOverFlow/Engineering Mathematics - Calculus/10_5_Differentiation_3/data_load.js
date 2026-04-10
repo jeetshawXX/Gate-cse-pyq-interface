@@ -1,0 +1,59 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Calculus - Differentiation",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Differentiation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"179274\"></a><div itemprop=\"text\"><p>Which of the following is&nbsp;the derivative of \\( f(x)=x^{x} \\) when \\( x&gt;0 \\) ?</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2018 | Part A | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x^{x} \\)</p>",
+            "<p>\\( x^{x} \\ln \\;x \\)</p>",
+            "<p>\\( x^{x}+x^{x}\\ln\\;x \\)</p>",
+            "<p>\\( (x^{x}) (x^{x}\\ln\\;x) \\)</p>",
+            "<p>\\( \\text{None of the above; function is not differentiable for }x&gt;0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x^{x}+x^{x}\\ln\\;x \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179274/tifr-cse-2018-part-a-question-5\" target=\"_blank\">https://gateoverflow.in/179274/tifr-cse-2018-part-a-question-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"381938\"></a><div itemprop=\"text\"><p>Suppose \\( w(t)=4 e^{i t}, x(t)=3 e^{i(t+\\pi / 3)}, y(t)=3 e^{i(t-\\pi / 3)} \\) and \\( z(t)=3 e^{i(t+\\pi)} \\) are points that move in the complex plane as the time \\( t \\) varies in \\( (-\\infty, \\infty) \\). Let \\( c(t) \\) be the point in the complex plane such that \\( |w(t)-c(t)|^2+|x(t)-c(t)|^2+|y(t)-c(t)|^2+|z(t)-c(t)|^2 \\) is minimum. For each value of \\( t \\), the point \\( c(t) \\) is unique, but \\( c(t) \\) moves at constant speed as \\( t \\) varies. At what speed? That is, what is \\( \\left|\\frac{\\mathrm{d}}{\\mathrm{d} t} c(t)\\right|? \\)&nbsp;</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2022 | Part A | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\frac{1}{2 \\pi} \\)</p>",
+            "<p>\\( 2 \\pi \\)</p>",
+            "<p>\\( \\sqrt{3} \\pi \\)</p>",
+            "<p>\\( \\frac{1}{\\sqrt{3} \\pi} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381938/tifr-cse-2022-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/381938/tifr-cse-2022-part-a-question-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"400129\"></a><div itemprop=\"text\"><p>Let \\( f(x)=a x^{3}+b x^{2}+c x+d \\) be a polynomial, where \\( a, b, c, d \\) are unknown real numbers. It is further given that \\( f(1)=1, f(2)=2, f(3)=9 \\), and \\( f^{\\prime}(1)=0 \\). Then, the value of \\( f^{\\prime}(2) \\) must be</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2023 | Part A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( f^{\\prime}(2) \\) cannot be determined uniquely from the information given in the question.</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400129/tifr-cse-2023-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/400129/tifr-cse-2023-part-a-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

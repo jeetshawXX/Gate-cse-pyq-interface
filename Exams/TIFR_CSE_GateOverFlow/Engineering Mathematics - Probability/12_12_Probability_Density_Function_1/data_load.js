@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Probability Density Function",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Probability Density Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"400135\"></a><div itemprop=\"text\"><p>Let \\( \\mu \\) be a probability distribution on the interval \\( [0,1] \\) with probability density function \\( p(x)=c \\cdot x^{2} \\) where \\( c \\) is an undetermined constant. Consider an interval \\( A=[a, b] \\), with \\( 0 \\leq a&lt;b\\leq1 \\) such that</p>\n\n<p>\\[ \\text{Pr}_{X \\sim \\mu}^{}[X \\in A]=\\int_{a}^{b} p(x) d x=\\frac{1}{2} . \\]<br>\nThen, the smallest possible value of \\( b-a \\) is</p>\n\n</div><br><br><b>Probability: TIFR CSE 2023 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1-\\frac{1}{2^{1 / 3}} \\)</p>",
+            "<p>\\( \\frac{1}{2^{1 / 3}} \\)</p>",
+            "<p>\\( 1-\\frac{1}{2^{1 / 2}} \\)</p>",
+            "<p>\\( \\frac{1}{2^{1 / 2}} \\)</p>",
+            "<p>The smallest possible value of \\( b-a \\) cannot be determined uniquely from the information given in the question.</p>"
+          ],
+          "correct_answer": "<p>\\( 1-\\frac{1}{2^{1 / 3}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400135/tifr-cse-2023-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/400135/tifr-cse-2023-part-a-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

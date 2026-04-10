@@ -1,0 +1,236 @@
+{
+  "title": "Engineering_Mathematics - Engineering_Mathematics - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Engineering_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The Guass-Seidal iterative method can be used to solve which of the following sets? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Linear algebraic equations</p>",
+            "<b>B.</b> <p>Linear and non-linear algebraic equations</p>",
+            "<b>C.</b> <p>Linear differential equations</p>",
+            "<b>D.</b> <p>Linear and non-linear differential equations</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Linear algebraic equations</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44158/isro-2013-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the matrix transformation which takes the independent vectors \\(\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}\\text{ and }\\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}\\) and transforms them to \\(\\begin{pmatrix} 1\\\\ 1 \\end{pmatrix} \\text{ and }\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}\\) respectively? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{pmatrix} 1&amp;-1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{pmatrix} 0&amp;0 \\\\ 0.5&amp; 0.5 \\end{pmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{pmatrix} -1&amp;0 \\\\ 1&amp; 1 \\end{pmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{pmatrix} -1&amp;1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\begin{pmatrix} -1&amp;1 \\\\ 1&amp; 0 \\end{pmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43968/isro-2013-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Function f is known at the following points: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Engineering_Mathematics\\q23_ec5c245a.jpg\"> <br> The value of \\(\\int_{0}^{3}f(x)dx\\) computed using the trapezoidal rule is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8.983</p>",
+            "<b>B.</b> <p>9.003</p>",
+            "<b>C.</b> <p>9.017</p>",
+            "<b>D.</b> <p>9.045</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9.045</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1534/gate2013-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following functions is continuous at x = 3? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 2, &amp; if \\; x=3\\\\ x-1,&amp; if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&amp;if \\; x \\lt 3 \\end{matrix}\\right.\\)</p>",
+            "<b>B.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 4, &amp; if \\; x=3\\\\ 8-x&amp;if \\;  x\\neq 3 \\end{matrix}\\right.\\)</p>",
+            "<b>C.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} x+3, &amp; if  \\; x\\leq 3\\\\ x-4&amp;if \\; x \\gt  3 \\end{matrix}\\right.\\)</p>",
+            "<b>D.</b> <p>\\(f(x)=\\frac{1}{x^{3}-27}, if \\; x\\neq 3\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(f(x)=\\left\\{\\begin{matrix} 2, &amp; if \\; x=3\\\\ x-1,&amp; if \\;  x \\gt 3\\\\ \\frac{x+3}{3},&amp;if \\; x \\lt 3 \\end{matrix}\\right.\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1533/gate2013-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which one of the following does NOT equal  <br> \\(\\begin{bmatrix} 1 &amp; x&amp;x^{2} \\\\ 1&amp; y &amp; y^{2}\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+            "<b>B.</b> <p>\\(\\begin{bmatrix} 1 &amp; (x+1)&amp;x^{2}+1 \\\\ 1&amp; (y+1) &amp; y^{2}+1\\\\ 1&amp; (z+1) &amp; z^{2}+1 \\end{bmatrix}\\)</p>",
+            "<b>C.</b> <p>\\(\\begin{bmatrix} 0&amp; x-y &amp; x^{2}-y^2 \\\\ 0&amp; y-z &amp; y^{2}- z^2 \\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>",
+            "<b>D.</b> <p>\\(\\begin{bmatrix} 2&amp; x+y &amp;x^{2}+y^2 \\\\ 2&amp; y+z &amp; y^{2}+z^2\\\\ 1&amp;z &amp; z^{2} \\end{bmatrix}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\begin{bmatrix} 1 &amp; x(x+1)&amp;x+1 \\\\ 1&amp; y(y+1) &amp; y+1\\\\ 1&amp;z(z+1) &amp; z+1 \\end{bmatrix}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1412/gate2013-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The bisection method is applied to compute a zero of the function  \\(f(x) = x^{4}-x^{3}-x^{2}-4\\) in the interval [1,9]. The method converges to a solution after _____iterations. <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1614/gate2012-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let A be the 2x2 matrix with elements \\(a_{11}=a_{12}=a_{21}=+1\\) and \\(a_{22}=-1\\). Then the eigenvalues of\nthe matrix \\(A^{19}\\) are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1024 and -1024</p>",
+            "<b>B.</b> <p>1024\\(\\sqrt{2}\\) and -1024\\(\\sqrt{2}\\)</p>",
+            "<b>C.</b> <p>4\\(\\sqrt{2}\\) and -4\\(\\sqrt{2}\\)</p>",
+            "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>512\\(\\sqrt{2}\\) and -512\\(\\sqrt{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43/gate2012-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the function f(x)=sin(x) in the interval x \\(\\in [\\pi/4, 7\\pi/4]\\). The number and location(s) of the local minima of this function are <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>One, at \\(\\pi\\)/2</p>",
+            "<b>B.</b> <p>One, at 3\\(\\pi\\)/2</p>",
+            "<b>C.</b> <p>Two, at \\(\\pi\\)/2 and 3\\(\\pi\\)/2</p>",
+            "<b>D.</b> <p>Two, at \\(\\pi\\)/4 and 3\\(\\pi\\)/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Two, at \\(\\pi\\)/4 and 3\\(\\pi\\)/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/41/gate2012-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What is the matrix that represents rotation of an object by \\(\\theta^0\\) about the origin in 2D? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\cos \\theta \\;\\; -\\sin \\theta\\\\ \\sin \\theta \\;\\;  \\cos \\theta\\)</p>",
+            "<b>B.</b> <p>\\(\\sin \\theta \\;\\; - \\cos \\theta\\\\ \\cos \\theta \\;\\; \\sin \\theta\\)</p>",
+            "<b>C.</b> <p>\\(\\cos \\theta \\;\\; - \\sin \\theta \\\\ \\cos \\theta \\;\\; \\sin \\theta\\)</p>",
+            "<b>D.</b> <p>\\(\\sin \\theta \\;\\; - \\cos \\theta \\\\ \\cos \\theta \\;\\;  \\sin \\theta\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\cos \\theta \\;\\; -\\sin \\theta\\\\ \\sin \\theta \\;\\;  \\cos \\theta\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51518/isro2011-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>n-th derivative of \\(x^n\\) is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(nx^{n-1}\\)</p>",
+            "<b>B.</b> <p>\\(n^n.n!\\)</p>",
+            "<b>C.</b> <p>\\(nx^n!\\)</p>",
+            "<b>D.</b> <p>n!</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n!</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52827/isro2011-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Given <br>\nX:\t0\t10\t16<br>\nY:\t6\t16\t28<br>\nThe interpolated value X=4 using piecewise linear interpolation is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>22</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52809/isro2011-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If \\(A\\) and \\(B\\) are square matrices with same order and \\(A\\) is symmetric, then \\(B^TAB\\) is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Skew symmetric</p>",
+            "<b>B.</b> <p>Symmetric</p>",
+            "<b>C.</b> <p>Orthogonal</p>",
+            "<b>D.</b> <p>Idempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52483/isro2011-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the matrix as given below. <br>\\(\\begin{bmatrix} 1 &amp; 2&amp;3 \\\\ 0&amp; 4 &amp; 7\\\\ 0&amp;0 &amp; 3 \\end{bmatrix}\\) <br> Which one of the following provides the CORRECT values of eigenvalues of the matrix? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1,4,3</p>",
+            "<b>B.</b> <p>3,7,3</p>",
+            "<b>C.</b> <p>7,3,2</p>",
+            "<b>D.</b> <p>1,2,3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1,4,3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2142/gate2011-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Given \\(i=\\sqrt{-1}\\), what will be the evaluation of the definite integral \\(\\int_{0}^{\\pi /2}\\frac{cosx + i sinx}{cosx -i sinx} dx\\)? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>i</p>",
+            "<b>D.</b> <p>\\(-i\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>i</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2133/gate2011-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The weight of a sequence \\(a_{0},a_{1},...,a_{n-1}\\) of real numbers is defined as \\(a_{0}+a_{1}/2+...+a_{n-1}/2^{n-1}\\) A subsequence of a sequence is obtained by deleting some elements from the sequence, keeping the order of the remaining elements\nthe same. Let X denote the maximum possible weight of a subsequence of\n\\(a_{0},a_{1},...,a_{n-1}\\) and Y the maximum possible weight of a subsequence of \\(a_{0},a_{1},...,a_{n-1}\\). Then X is equal to <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(Y,\\(a_{0}\\)+Y)</p>",
+            "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+            "<b>C.</b> <p>max(Y,\\(a_{0}\\)+2Y)</p>",
+            "<b>D.</b> <p>\\(a_{0}\\)+Y/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>max(Y,\\(a_{0}\\)+Y/2)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2208/gate2010-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

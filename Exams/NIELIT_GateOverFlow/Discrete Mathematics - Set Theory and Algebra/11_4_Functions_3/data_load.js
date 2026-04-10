@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Functions",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Functions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336504\"></a><div itemprop=\"text\"><p>How many onto (or surjective) functions are there from an \\( n \\)-element \\( (n&gt;=2) \\) set to a \\( 2 \\)-element set?</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^n \\)</p>",
+            "<p>\\( 2^n-1 \\)</p>",
+            "<p>\\( 2^n-2 \\)</p>",
+            "<p>\\( 2(2^n-2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^n-2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336504/nielit-2016-dec-scientist-b-cs-section-b-34\" target=\"_blank\">https://gateoverflow.in/336504/nielit-2016-dec-scientist-b-cs-section-b-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336678\"></a><div itemprop=\"text\"><p>If \\( \\Delta f(x)= f(x+h)-f(x) \\), then a constant \\( k,\\Delta k \\)</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( f(k)-f(0) \\)</p>",
+            "<p>\\( f(x+k)-f(x) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336678/nielit-2016-mar-scientist-b-section-b-8\" target=\"_blank\">https://gateoverflow.in/336678/nielit-2016-mar-scientist-b-section-b-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337249\"></a><div itemprop=\"text\"><p>If&nbsp;\\( f:\\{a,b\\}^{\\ast}\\rightarrow \\{a,b\\}^{\\ast } \\) be given by \\( f(n)=ax \\) for every value of \\( n\\in \\{a,b\\} \\), then \\( f \\) is</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>one to one not onto</p>",
+            "<p>one to one and onto</p>",
+            "<p>not one to one and not onto</p>",
+            "<p>not one to one and onto</p>"
+          ],
+          "correct_answer": "<p>one to one not onto</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337249/nielit-2016-mar-scientist-c-section-c-16\" target=\"_blank\">https://gateoverflow.in/337249/nielit-2016-mar-scientist-c-section-c-16</a></p>"
+        }
+      ]
+    }
+  ]
+});

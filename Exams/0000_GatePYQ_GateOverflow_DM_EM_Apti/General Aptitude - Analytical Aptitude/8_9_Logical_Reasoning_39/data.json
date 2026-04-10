@@ -1,0 +1,591 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Logical Reasoning",
+  "duration": 108,
+  "sections": [
+    {
+      "name": "Logical Reasoning",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426524\"></a><div itemprop=\"text\"><p>​​​​​\\( \\text{P} \\) and \\( \\text{Q} \\) have been allotted a hostel room with two beds, a study table, and an almirah. \\( \\mathrm{P} \\) is an avid bird-watcher and wants to sit at the table and watch birds outside the window. \\( \\text{Q} \\) does not mind that as long as his bed is close to the ceiling fan.<br>\n<br>\nWhich one of the following arrangements suits them the most?</p>\n\n</div><br><br><b>GATE 2024 Electrical | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/03c079a7e1e0ad70034638035050877a.png\" width=\"350\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/4257e09d16920c0cf22552429ce47fa5.png\" width=\"350\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/014524dbf0541b8209b261bc3335d076.png\" width=\"350\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/0267dbf19b80b270636119aadade9cdc.png\" width=\"350\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/03c079a7e1e0ad70034638035050877a.png\" width=\"350\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426524/gate-2024-electrical-ga-question-2\" target=\"_blank\">https://gateoverflow.in/426524/gate-2024-electrical-ga-question-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411714\"></a><div itemprop=\"text\"><p>A building has several rooms and doors as shown in the top view of the building given below. The doors are closed initially.</p>\n\n<p>What is the minimum number of doors that need to be opened in order to go from the point \\( \\text{P} \\) to the point \\( \\text{Q}? \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"264\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/6fcc9d7e77c86b0a8c75656030bbb50e.png\" width=\"264\"></p>\n\n</div><br><br><b>GATE CH 2022 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411714/gate-ch-2022-ga-question-5\" target=\"_blank\">https://gateoverflow.in/411714/gate-ch-2022-ga-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2369\"></a><div itemprop=\"text\"><p>If \\( 137 + 276 = 435 \\) how much is \\( 731+672? \\)</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 534 \\)</p>",
+            "<p>\\( 1403 \\)</p>",
+            "<p>\\( 1623 \\)</p>",
+            "<p>\\( 1513 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1623 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2369/gate-cse-2010-question-61\" target=\"_blank\">https://gateoverflow.in/2369/gate-cse-2010-question-61</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"8308\"></a><div itemprop=\"text\"><p>The head of newly formed government desires to appoint five of the six selected members \\( P, Q, R, S, T \\) and \\( U \\) to portfolios of Home, Power, Defense, Telecom, and Finance. U does not want any portfolio if \\( S \\) gets one of the five. \\( R \\) wants either Home or Finance or no portfolio. \\( Q \\) says that if \\( S \\) gets Power or Telecom, then she must get the other one. T insists on a portfolio if \\( P \\) gets one.</p>\n\n<p>Which is the valid distribution of portfolios?</p>\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\)-Home, \\( Q \\)-Power, \\( R \\)-Defense, \\( S \\)-Telecom, \\( T \\)-Finance</p>",
+            "<p>\\( R \\)-Home, \\( S \\)-Power, \\( P \\)-Defense, \\( Q \\)-Telecom, \\( T \\)-Finance</p>",
+            "<p>\\( P \\)-Home, \\( Q \\)-Power, \\( T \\)-Defense, \\( S \\)-Telecom, \\( U \\)-Finance</p>",
+            "<p>\\( Q \\)-Home, \\( U \\)-Power, \\( T \\)-Defense, \\( R \\)-Telecom, \\( P \\)-Finance</p>"
+          ],
+          "correct_answer": "<p>\\( R \\)-Home, \\( S \\)-Power, \\( P \\)-Defense, \\( Q \\)-Telecom, \\( T \\)-Finance</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7\" target=\"_blank\">https://gateoverflow.in/8308/gate-cse-2015-set-3-question-ga-7</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"118421\"></a><div itemprop=\"text\"><p>There are three boxes. One contains apples, another contains oranges and the last one contains both apples and oranges. All three are known to be incorrectly labeled. If you are permitted to open just one box and then pull out and inspect only one fruit, which box would you open to determine the contents of all three boxes?</p>\n\n\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The box labeled ‘Apples’</p>",
+            "<p>The box labeled ‘Apples and Oranges’</p>",
+            "<p>The box labeled ‘Oranges’</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "<p>The box labeled ‘Apples and Oranges’</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118421/gate-cse-2017-set-2-question-ga-7\" target=\"_blank\">https://gateoverflow.in/118421/gate-cse-2017-set-2-question-ga-7</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"357540\"></a><div itemprop=\"text\"><p>Six students \\( \\text{P, Q, R, S, T and U} \\), with distinct heights, compare their heights and make the following observations.</p>\n\n<ul>\n\t<li>\\( \\text{Observation I} \\): \\( \\text{S} \\) is taller than \\( \\text{R} \\).</li>\n\t<li>\\( \\text{Observation II} \\): \\( \\text{Q} \\) is the shortest of all.</li>\n\t<li>\\( \\text{Observation III} \\): \\( \\text{U} \\) is taller than only one student.</li>\n\t<li>\\( \\text{Observation IV} \\): \\( \\text{T} \\) is taller than \\( \\text{S} \\) but is not the tallest</li>\n</ul>\n\n<p>The number of students that are taller than \\( \\text{R} \\) is the same as the number of students shorter than ____________.</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{T} \\)</p>",
+            "<p>\\( \\text{R} \\)</p>",
+            "<p>\\( \\text{S} \\)</p>",
+            "<p>\\( \\text{P} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{S} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10\" target=\"_blank\">https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"399252\"></a><div itemprop=\"text\"><p>A survey for a certain year found that \\( 90\\% \\) of pregnant women received medical care at least once before giving birth. Of these women, \\( 60\\% \\) received medical care from doctors, while \\( 40\\% \\) received medical care from other healthcare providers.</p>\n\n<p>Given this information, which one of the following statements can be inferred with<em> certainty</em>?</p>\n\n</div><br><br><b>GATE CSE 2023 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>More than half of the pregnant women received medical care at least once from a doctor.</p>",
+            "<p>Less than half of the pregnant women received medical care at least once from a doctor.</p>",
+            "<p>More than half of the pregnant women received medical care at most once from a doctor.</p>",
+            "<p>Less than half of the pregnant women received medical care at most once from a doctor.</p>"
+          ],
+          "correct_answer": "<p>More than half of the pregnant women received medical care at least once from a doctor.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399252/gate-cse-2023-ga-question-4\" target=\"_blank\">https://gateoverflow.in/399252/gate-cse-2023-ga-question-4</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"359840\"></a><div itemprop=\"text\"><p>After the inauguration of the new building, the Head of the Department (HoD) collated faculty preferences for office space. \\( P \\) wanted a room adjacent to the lab. \\( Q \\) wanted to be close to the lift. \\( R \\) wanted a view of the playground and \\( S \\) wanted a corner office.</p>\n\n<p>Assuming that everyone was satisfied, which among the following shows a possible&nbsp;allocation?</p>\n\n</div><br><br><b>GATE Civil 2020 Set 2 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" height=\"247\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/77d3f3cb46dc2bf55fc6b62e65e768a3.png\" width=\"268\"></p>",
+            "<p><img alt=\"\" height=\"247\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/ce7fa518b87e63c8aa6e14c78af24787.png\" width=\"269\"></p>",
+            "<p><img alt=\"\" height=\"248\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/fbd3170d23c07c649ddb0a1ed858a164.png\" width=\"270\"></p>",
+            "<p><img alt=\"\" height=\"248\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/603b6f86f1e3752d96b7a4ef3164be5a.png\" width=\"270\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" height=\"248\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/fbd3170d23c07c649ddb0a1ed858a164.png\" width=\"270\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359840/gate-civil-2020-set-2-ga-question-4\" target=\"_blank\">https://gateoverflow.in/359840/gate-civil-2020-set-2-ga-question-4</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"411726\"></a><div itemprop=\"text\"><p>In the square grid shown on the left, a person standing at \\( \\text{P2} \\) position is required to move to \\( \\text{P5} \\) position.</p>\n\n<p>The only movement allowed for a step involves, “two moves along one direction followed by one move in a perpendicular direction”. The permissible directions for movement are shown as dotted arrows in the right.</p>\n\n<p>For example, a person at a given position \\( \\text{Y} \\) can move only to the positions marked \\( \\text{X} \\) on the right.</p>\n\n<p>Without occupying any of the shaded squares at the end of each step, the minimum number of steps required to go from \\( \\text{P2} \\) to \\( \\text{P5} \\) is</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/93da728496d863128da72b7833767dbb.png\" width=\"600\"></p>\n\n</div><br><br><b>GATE Civil 2022 Set 1 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411726/gate-civil-2022-set-1-ga-question-9\" target=\"_blank\">https://gateoverflow.in/411726/gate-civil-2022-set-1-ga-question-9</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"411915\"></a><div itemprop=\"text\"><p>Elvesland is a country that has peculiar beliefs and practices. They express almost all their emotions by gifting flowers. For instance, if anyone gifts a white flower to someone, then it is always taken to be a declaration of one's love for that person. In a similar manner, the gifting of a yellow flower to someone often means that one is angry with that person.</p>\n\n<p>Based only on the information provided above, which one of the following sets of statement(s) can be logically inferred with <em>certainty</em>?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>&nbsp;In Elvesland, one always declares one's love by gifting a white flower.</li>\n\t<li>In Elvesland, all emotions are declared by gifting flowers.</li>\n\t<li>In Elvesland, sometimes one expresses one's anger by gifting a flower that is not yellow.</li>\n\t<li>In Elvesland, sometimes one expresses one's love by gifting a white flower</li>\n</ol>\n\n</div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only (ii)</p>",
+            "<p>(i), (ii) and (iii)</p>",
+            "<p>(i), (iii) and (iv)</p>",
+            "<p>only (iv)</p>"
+          ],
+          "correct_answer": "<p>only (iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411915/gate-civil-2023-set-2-ga-question-6\" target=\"_blank\">https://gateoverflow.in/411915/gate-civil-2023-set-2-ga-question-6</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"411847\"></a><div itemprop=\"text\"><p>Out of \\( 1000 \\) individuals in a town, \\( 100 \\) unidentified individuals are covid positive. Due to lack of adequate covid-testing kits, the health authorities of the town devised a strategy to identify these covid-positive individuals. The strategy is to:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Collect saliva samples from all \\( 1000 \\) individuals and randomly group them into sets of \\( 5 \\).</li>\n\t<li>Mix the samples within each set and test the mixed sample for covid.</li>\n\t<li>If the test done in (ii) gives a negative result, then declare all the \\( 5 \\) individuals to be covid negative.</li>\n\t<li>If the test done in (ii) gives a positive result, then all the \\( 5 \\) individuals are separately tested for covid.</li>\n</ol>\n\n<p>Given this strategy, no more than _______ testing kits will be required to identify all the \\( 100 \\)&nbsp;covid positive individuals irrespective of how they are grouped.</p>\n\n</div><br><br><b>GATE ECE 2023 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 700 \\)</p>",
+            "<p>\\( 600 \\)</p>",
+            "<p>\\( 800 \\)</p>",
+            "<p>\\( 1000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 700 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411847/gate-ece-2023-ga-question-9\" target=\"_blank\">https://gateoverflow.in/411847/gate-ece-2023-ga-question-9</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"426528\"></a><div itemprop=\"text\"><p>​​​​\\( \\text{P, Q, R, S} \\), and \\( \\text{T} \\) have launched a new startup. Two of them are siblings. The office of the startup has just three rooms. All of them agree that the siblings should not share the same room.<br>\n<br>\nIf \\( \\text{S} \\) and \\( \\text{Q} \\) are single children, and the room allocations shown below are acceptable to all.<br>\n\\[ \\begin{array}{|l|l|l|}<br>\n\\hline \\text{PR} &amp; \\text{TS} &amp; \\text{Q} \\\\<br>\n\\hline<br>\n\\end{array} \\]\\[ \\begin{array}{|l|l|l|}<br>\n\\hline \\text{PQ} &amp; \\text{RT} &amp; \\text{S} \\\\<br>\n\\hline<br>\n\\end{array} \\]</p>\n\n<p>then, which one of the given options is the siblings?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>GATE ECE 2024 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{P} \\) and \\( \\mathrm{T} \\)</p>",
+            "<p>\\( \\mathrm{P} \\)&nbsp;and&nbsp;\\( \\mathrm{S} \\)</p>",
+            "<p>\\( \\mathrm{T} \\) and \\( \\mathrm{Q} \\)</p>",
+            "<p>\\( \\mathrm{T} \\) and \\( \\mathrm{R} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{P} \\) and \\( \\mathrm{T} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426528/gate-ece-2024-ga-question-2\" target=\"_blank\">https://gateoverflow.in/426528/gate-ece-2024-ga-question-2</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"411837\"></a><div itemprop=\"text\"><p>A recent survey shows that &nbsp;\\( 65 \\% \\)&nbsp;of tobacco users were advised to stop consuming&nbsp;tobacco. The survey also shows that \\( 3 \\) out of \\( 10 \\) tobacco users attempted to stop using tobacco.&nbsp;</p><p>Based only on the information in the above passage, which one of the following options can be logically inferred with <em>certainty</em>?&nbsp;</p></div><br><br><b>GATE Electrical 2023 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A majority of tobacco users who were advised to stop consuming tobacco made an attempt to do so.&nbsp;</p>",
+            "<p>A majority of tobacco users who were advised to stop consuming tobacco did not attempt to do so.</p>",
+            "<p>Approximately \\( 30 \\% \\) of tobacco users successfully stopped consuming tobacco.</p>",
+            "<p>Approximately \\( 65 \\% \\) of tobacco users successfully stopped consuming tobacco.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>A majority of tobacco users who were advised to stop consuming tobacco did not attempt to do so.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411837/gate-electrical-2023-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411837/gate-electrical-2023-ga-question-4</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"411833\"></a><div itemprop=\"text\"><p>Students of all the departments of a college who have successfully completed the registration process are eligible to vote in the upcoming college elections. However, by the time the due date for registration was over, it was found that suprisingly none&nbsp;of the students from the Department of Human Sciences had completed the registration process.</p>\n\n<p>Based only on the information provided above, which one of the following sets of statement(s) can be logically inferred with <em>certainty</em>?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>All those students who would not be eligible to vote in the college elections would certainly belong to the Department of Human Sciences.</li>\n\t<li>None of the students from departments other than&nbsp;Human Sciences failed to&nbsp;complete the registration process within the due time.</li>\n\t<li>All the eligible voters would certainly be students who are not from the&nbsp;Department of Human Sciences.&nbsp;</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE Electrical 2023 | GA Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (ii)&nbsp;</p>",
+            "<p>(i) and (iii)</p>",
+            "<p>only (i)&nbsp;</p>",
+            "<p>only (iii)</p>"
+          ],
+          "correct_answer": "<p>only (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411833/gate-electrical-2023-ga-question-6\" target=\"_blank\">https://gateoverflow.in/411833/gate-electrical-2023-ga-question-6</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"411870\"></a><div itemprop=\"text\"><p>Residency is a famous housing complex with many well-established individuals among its residents. A recent survey conducted among the residents of the complex revealed that all of those residents who are well established in their respective fields happen to be academicians. The survey also revealed that most of these academicians are authors of some best-selling books.</p>\n\n<p>Based only on the information provided above, which one of the following statements can be logically inferred with <em>certainty?</em></p>\n\n</div><br><br><b>GATE IN 2023 | GA Question: 6</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Some residents of the complex who are well established in their fields are also authors of some best-selling books.</p>",
+            "<p>All academicians residing in the complex are well established in their fields.</p>",
+            "<p>Some authors of best-selling books are residents of the complex who are well established in their fields.</p>",
+            "<p>Some academicians residing in the complex are well established in their fields.</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411870/gate-in-2023-ga-question-6\" target=\"_blank\">https://gateoverflow.in/411870/gate-in-2023-ga-question-6</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"411867\"></a><div itemprop=\"text\"><p>The information contained in DNA is used to synthesize proteins that are necessary for the functioning of life. DNA is composed of four nucleotides: Adenine (A), Thymine (T), Cytosine (C), and Guanine (G). The information contained in DNA can then be thought of as a sequence of these four nucleotides: A, T, C, and G. DNA has coding and non-coding regions. Coding regions-where the sequence of these nucleotides are read in groups of three to produce individual amino acids - constitute only about \\( 2 \\% \\) of human DNA. For example, the triplet of nucleotides CCG codes for the amino acid glycine, while the triplet GGA codes for the amino acid proline. Multiple amino acids are then assembled to form a protein.</p>\n\n<p>Based only on the information provided above, which of the following statements can be logically inferred with certainty?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>The majority of human DNA has no role in the synthesis of proteins.</li>\n\t<li>The function of about \\( 98 \\% \\) of human DNA is not understood.</li>\n</ol>\n\n</div><br><br><b>GATE IN 2023 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only (i)</p>",
+            "<p>only (ii)</p>",
+            "<p>both (i) and (ii)</p>",
+            "<p>neither (i) nor (ii)</p>"
+          ],
+          "correct_answer": "<p>neither (i) nor (ii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411867/gate-in-2023-ga-question-8\" target=\"_blank\">https://gateoverflow.in/411867/gate-in-2023-ga-question-8</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"359482\"></a><div itemprop=\"text\"><p>If&nbsp;\\( \\left\\{\\begin{matrix} \\text{“} \\oplus\\text{”} \\; \\text{means}\\; \\text{“}-\\text{”}&nbsp;\\\\&nbsp; \\text{“} \\otimes\\text{”} \\; \\text{means}\\; \\text{“}\\div\\text{”} &nbsp;\\\\&nbsp; \\text{“} \\triangle\\text{”} \\; \\text{means}\\; \\text{“}+\\text{”}&nbsp; \\\\&nbsp; \\text{“} \\triangledown\\text{”} \\; \\text{means}\\; \\text{“}\\times\\text{”}&nbsp;&nbsp;\\end{matrix}\\right. \\)</p>\n\n<p>then, the value of the expression \\( \\triangle 2 \\oplus 3 \\triangle \\left((4 \\otimes 2) \\triangledown 4) \\right) =  \\)</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 1 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( -0.5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359482/gate-mechanical-2021-set-1-ga-question-4\" target=\"_blank\">https://gateoverflow.in/359482/gate-mechanical-2021-set-1-ga-question-4</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"359505\"></a><div itemprop=\"text\"><p>If&nbsp;\\( \\bigoplus \\div \\bigodot =2;\\:&nbsp;\\bigoplus \\div\\Delta =3;\\:\\bigodot +\\Delta =5; \\:\\Delta \\times \\bigotimes =10 \\),</p>\n\n<p>Then, the value of \\( \\left ( \\bigotimes - \\bigoplus \\right )^{2} \\), is :</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 2 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359505/gate-mechanical-2021-set-2-ga-question-4\" target=\"_blank\">https://gateoverflow.in/359505/gate-mechanical-2021-set-2-ga-question-4</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"411777\"></a><div itemprop=\"text\"><p>Four girls \\( \\text{P, Q, R and S} \\) are studying languages in a University. \\( \\text{P} \\) is learning French and Dutch. \\( \\text{Q} \\) is learning Chinese and Japanese. \\( \\text{R} \\) is learning Spanish and French. \\( \\text{S} \\) is learning Dutch and Japanese.</p>\n\n<p>Given that: French is easier than Dutch; Chinese is harder than Japanese; Dutch is easier than Japanese, and Spanish is easier than French.</p>\n\n<p>Based on the above information, which girl is learning the most difficult pair of languages?</p>\n\n</div><br><br><b>GATE Mechanical 2022 Set 1 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{P} \\)</p>",
+            "<p>\\( \\text{Q} \\)</p>",
+            "<p>\\( \\text{R} \\)</p>",
+            "<p>\\( \\text{S} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411777/gate-mechanical-2022-set-1-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411777/gate-mechanical-2022-set-1-ga-question-4</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"411787\"></a><div itemprop=\"text\"><p>Four cities \\( \\text{P, Q, R} \\) and \\( \\text{S} \\) are connected through one-way routes as shown in the figure. The travel time between any two connected cities is one hour. The boxes beside each city name describe the starting time of first train of the day and their frequency of operation. For example, from city \\( \\text{P} \\), the first trains of the day start at \\( 8\\;\\text{AM} \\) with a frequency of \\( 90 \\) minutes to each of \\( \\text{R} \\) and \\( \\text{S} \\). A person does not spend additional time at any city other than the waiting time for the next connecting train.</p>\n\n<p>If the person starts from \\( \\text{R} \\) at \\( 7\\;\\text{AM} \\) and is required to visit \\( \\text{S} \\) and return to \\( \\text{R} \\), what is the minimum time required?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___logical_reasoning/4c7075940d32bdad8a72c2f73db978c1.png\" width=\"300\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE Mechanical 2022 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\) hours \\( 30 \\) minutes</p>",
+            "<p>\\( 3 \\) hours \\( 45 \\) minutes</p>",
+            "<p>\\( 4 \\) hours \\( 30 \\) minutes</p>",
+            "<p>\\( 5 \\) hours \\( 15 \\) minutes</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\) hours \\( 30 \\) minutes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411787/gate-mechanical-2022-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/411787/gate-mechanical-2022-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"40209\"></a><div itemprop=\"text\"><p>Three sisters \\( (R, S, \\) and \\( T) \\) received a total of \\( 24 \\) toys during Christmas. The toys were initially divided among them in a certain proportion. Subsequently, \\( R \\) gave some toys to \\( S \\) which doubled the share of \\( S \\). Then \\( S \\) in turn gave some of her toys to \\( T \\), which doubled \\( T’ \\)s share. Next, some of \\( T’ \\)s toys were given to \\( R \\), which doubled the number of toys that \\( R \\) currently had. As a result of all such exchanges, the three sisters were left with equal number of toys. How many toys did \\( R \\) have originally?</p>\n\n</div><br><br><b>GATE2011 GG: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40209/gate2011-gg-ga-8\" target=\"_blank\">https://gateoverflow.in/40209/gate2011-gg-ga-8</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"31543\"></a><div itemprop=\"text\"><p>\\( L, M \\) and \\( N \\) are waiting in a queue meant for children to enter the zoo. There are \\( 5 \\) children between \\( L \\) and \\( M \\), and \\( 8 \\) children between \\( M \\) and \\( N \\). If there are \\( 3 \\) children ahead of \\( N \\) and \\( 21 \\) children behind \\( L \\), then what is the minimum number of children in the queue?</p>\n\n</div><br><br><b>GATE2011 MN: GA-63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 41 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 28 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/31543/gate2011-mn-ga-63\" target=\"_blank\">https://gateoverflow.in/31543/gate2011-mn-ga-63</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"40229\"></a><div itemprop=\"text\"><p>Ravi is taller than Arun but shorter than Iqbal. Sam is shorter than Ravi. Mohan is shorter than Arun. Balu is taller than Mohan and Sam. The tallest person can be</p>\n\n</div><br><br><b>GATE2012 AR: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Mohan</p>",
+            "<p>Ravi</p>",
+            "<p>Balu</p>",
+            "<p>Arun</p>"
+          ],
+          "correct_answer": "<p>Balu</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40229/gate2012-ar-ga-8\" target=\"_blank\">https://gateoverflow.in/40229/gate2012-ar-ga-8</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"40240\"></a><div itemprop=\"text\"><p>There are eight bags of rice looking alike, seven of which have equal weight and one is slightly heavier. The weighing balance is of unlimited capacity. Using this balance, the minimum number of weighings required to identify the heavier bag is</p>\n\n</div><br><br><b>GATE2012 CY: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40240/gate2012-cy-ga-9\" target=\"_blank\">https://gateoverflow.in/40240/gate2012-cy-ga-9</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"40307\"></a><div itemprop=\"text\">Anuj, Bhola, Chandan, Dilip, Eswar and Faisal live on different floors in a six-storeyed building (the ground floor is numbered \\( 1 \\), the floor above it \\( 2 \\), and so on) Anuj lives on an even-numbered floor, Bhola does not live on an odd numbered floor. Chandan does not live on any of the floors below Faisal's floor. Dilip does not live on floor number \\( 2 \\). Eswar does not live on a floor immediately above or immediately below Bhola. Faisal lives three floors above Dilip. Which of the following floor-person combinations is correct?<br>\n<br>\n\\[ \\begin{array}{|c|c|c|c|c|c|c|} \\hline \\text{} &amp; \\text{Anuj} &amp; \\text{Bhola} &amp;\\text{Chandan} &amp;\\text{Dilip} &amp; \\text{Eswar} &amp; \\text{Faisal} \\\\\\hline \\text{(A)} &amp; \\text{6} &amp;\\text{2} &amp;\\text{5} &amp;\\text{1} &amp;\\text{3} &amp;\\text{4} \\\\\\hline \\text{(B)} &amp; \\text{2} &amp;\\text{6} &amp; \\text{5}&amp; \\text{1} &amp;\\text{3} &amp;\\text{4}\\\\\\hline \\text{(C)} &amp; \\text{4} &amp;\\text{2} &amp; \\text{6} &amp; \\text{3} &amp;\\text{1} &amp;\\text{5}\\\\\\hline \\text{(D)} &amp; \\text{2} &amp;\\text{4} &amp; \\text{6} &amp; \\text{1} &amp;\\text{3} &amp;\\text{5}\\\\\\hline \\end{array} \\]</div><br><br><b>GATE2014 AE: GA-7</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40307/gate2014-ae-ga-7\" target=\"_blank\">https://gateoverflow.in/40307/gate2014-ae-ga-7</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"41515\"></a><div itemprop=\"text\">\n<p>Lights of four colors (red, blue, green, yellow) are hung on a ladder. On every step of the ladder there are two lights. If one of the lights is red, the other light on that step will always be blue. If one of the lights on a step is green, the other light on that step will always be yellow. Which of the following statements is not necessarily correct?&nbsp;</p>\n\n\n</div><br><br><b>GATE2014 EC-2: GA-7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The number of red lights is equal to the number of blue lights&nbsp;</p>",
+            "<p>The number of green lights is equal to the number of yellow lights&nbsp;</p>",
+            "<p>The sum of the red and green lights is equal to the sum of the yellow and blue lights&nbsp;</p>",
+            "<p>The sum of the red and blue lights is equal to the sum of the green and yellow lights</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/41515/gate2014-ec-2-ga-7\" target=\"_blank\">https://gateoverflow.in/41515/gate2014-ec-2-ga-7</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"39492\"></a><div itemprop=\"text\"><p>Operators&nbsp;\\( \\square,\\Diamond \\) and \\( \\rightarrow \\) are defined by: \\( a\\,\\square\\,b=\\frac{a-b}{a+b};\\,&nbsp;a\\,\\Diamond\\;&nbsp;b=\\frac{a+b}{a-b}; \\) \\( a\\,\\rightarrow\\,&nbsp;b=ab. \\)</p>\n\n<p>Find the value of \\( (66\\,\\square\\, 6)\\rightarrow(66\\,\\Diamond\\;&nbsp;6). \\)</p>\n\n</div><br><br><b>GATE2015 EC-1: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -2 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39492/gate2015-ec-1-ga-4\" target=\"_blank\">https://gateoverflow.in/39492/gate2015-ec-1-ga-4</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"108077\"></a><div itemprop=\"text\"><p>Michael lives \\( 10 \\) km away from where I live. Ahmed lives \\( 5 \\) km away and Susan lives \\( 7 \\) km away from where I live. Arun is farther away than Ahmed but closer than Susan from where I live. From the information provided here, what is one possible distance (in km) at which I live from Arun’s place?</p>\n\n</div><br><br><b>GATE2016 EC-1: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3.00 \\)</p>",
+            "<p>\\( 4.99 \\)</p>",
+            "<p>\\( 6.02 \\)</p>",
+            "<p>\\( 7.01 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6.02 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108077/gate2016-ec-1-ga-5\" target=\"_blank\">https://gateoverflow.in/108077/gate2016-ec-1-ga-5</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"110849\"></a><div itemprop=\"text\"><p>A flat is shared by four first year undergraduate students. They agreed to allow the oldest of them to enjoy some extra space in the flat. Manu is two months older than Sravan, who is three months younger than Trideep. Pavan is one month older than Sravan. Who should occupy the extra space in the flat?</p>\n\n</div><br><br><b>GATE2016 EC-3: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Manu</p>",
+            "<p>Sravan</p>",
+            "<p>Trideep</p>",
+            "<p>Pavan</p>"
+          ],
+          "correct_answer": "<p>Trideep</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110849/gate2016-ec-3-ga-8\" target=\"_blank\">https://gateoverflow.in/110849/gate2016-ec-3-ga-8</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"313485\"></a><div itemprop=\"text\"><p>Students applying for hostel rooms are allotted rooms in order of seniority. Students already staying in a room will move if they get a room in their preferred list. Preferences of lower ranked applicants are ignored during allocation.</p>\n\n<p>Given the data below, which room will Ajit stay in ?</p>\n\n<p>\\[ \\begin{array}{|l|c|l|l|}\\hline \\textbf{Names} &amp; \\textbf{Student seniority} &amp; \\textbf{Current room} &amp; \\textbf{Room preference list} \\\\\\hline \\text{Amar} &amp; \\text{1}&amp; \\text{P} &amp; \\text{R, S, Q}\\\\\\hline \\text{Akbar} &amp; \\text{2}&amp; \\text{None} &amp; \\text{R, S}\\\\\\hline \\text{Anthony} &amp; \\text{3}&amp; \\text{Q} &amp; \\text{P}\\\\\\hline \\text{Ajit} &amp; \\text{4}&amp; \\text{S} &amp; \\text{Q, P, R}\\\\\\hline&nbsp; \\end{array} \\]</p>\n\n</div><br><br><b>GATE2017 CE-1: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\)</p>",
+            "<p>\\( Q \\)</p>",
+            "<p>\\( R \\)</p>",
+            "<p>\\( S \\)</p>"
+          ],
+          "correct_answer": "<p>\\( Q \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313485/gate2017-ce-1-ga-7\" target=\"_blank\">https://gateoverflow.in/313485/gate2017-ce-1-ga-7</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"313414\"></a><div itemprop=\"text\"><p>Four cards lie on table. Each card has a number printed on one side and a colour on the other. The faces visible on the cards are \\( 2,3, \\) red, and blue.</p>\n\n<p>Proposition: If a card has an even value on one side, then its opposite face is red.</p>\n\n<p>The card which MUST be turned over to verify the above proposition are</p>\n\n</div><br><br><b>GATE2017 CE-2: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2, \\) red</p>",
+            "<p>\\( 2,3, \\) red</p>",
+            "<p>\\( 2, \\) blue</p>",
+            "<p>\\( 2, \\) red, blue</p>"
+          ],
+          "correct_answer": "<p>\\( 2, \\) blue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313414/gate2017-ce-2-ga-3\" target=\"_blank\">https://gateoverflow.in/313414/gate2017-ce-2-ga-3</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"313507\"></a><div itemprop=\"text\"><p>A rule states that in order to drink beer, one must be over \\( 18 \\) years old. In a bar, there are \\( 4 \\) people. \\( P \\) is \\( 16 \\) years old. \\( Q \\) is \\( 25 \\) years old. \\( R \\) is drinking milkshake and \\( S \\) is drinking a beer. What must be checked to ensure that the rule is being followed?</p>\n\n</div><br><br><b>GATE2017 EC-2: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( \\text{P’s} \\)&nbsp; drink</p>",
+            "<p>Only \\( \\text{P’s} \\)&nbsp; drink and \\( \\text{S’s} \\) age</p>",
+            "<p>Only \\( \\text{S’s} \\) age</p>",
+            "<p>Only \\( \\text{P’s} \\)&nbsp; drink, \\( \\text{Q’s} \\) drink and \\( \\text{S’s} \\) age</p>"
+          ],
+          "correct_answer": "<p>Only \\( \\text{P’s} \\)&nbsp; drink and \\( \\text{S’s} \\) age</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313507/gate2017-ec-2-ga-3\" target=\"_blank\">https://gateoverflow.in/313507/gate2017-ec-2-ga-3</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"313666\"></a><div itemprop=\"text\"><p>\\( P \\), \\( Q \\) and \\( R \\) talk about \\( S's \\) car collection. \\( P \\) states that \\( S \\) has at least \\( 3 \\) cars. \\( Q \\) believes that \\( S \\) has less than \\( 3 \\) cars. \\( R \\) indicates that to his knowledge, \\( S \\) has at least one car. Only one of \\( P, Q \\) and \\( R \\) is right. The number of cars owned by \\( S \\) is.</p>\n\n</div><br><br><b>GATE2017 ME-1: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>Cannot be determined.</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313666/gate2017-me-1-ga-5\" target=\"_blank\">https://gateoverflow.in/313666/gate2017-me-1-ga-5</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"313677\"></a><div itemprop=\"text\"><p>\\( P \\) looks at \\( Q \\) while \\( Q \\) looks at \\( R \\). \\( P \\) is married, \\( R \\) is not. The number of pairs of people in which a married person is looking at an unmarried person is&nbsp;</p>\n\n</div><br><br><b>GATE2017 ME-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>Cannot be determined.</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313677/gate2017-me-2-ga-5\" target=\"_blank\">https://gateoverflow.in/313677/gate2017-me-2-ga-5</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"313273\"></a><div itemprop=\"text\"><p>Each of the letters arranged as below represents a unique integer from \\( 1 \\) to \\( 9. \\) The letters are positioned in the figure such that \\( (A \\times B \\times C), (B \\times G \\times E) \\) and \\( (D \\times E \\times F) \\) are equal. Which integer among the following choices cannot be represented by the letters \\( A, B, C, D, E, F&nbsp; \\ or \\ G? \\)</p><p>\\[ \\begin{array}{|c|c|} \\hline \\text{A} &amp; \\text{} &amp; \\text{D} &nbsp;\\\\&nbsp; \\hline<br>\\text{B}&nbsp;&amp; \\text{G}&nbsp;&amp; \\text{E} &nbsp;\\\\&nbsp; \\hline<br>\\text{C}&nbsp;&amp; \\text{}&nbsp;&amp; \\text{F} &nbsp;\\\\&nbsp; \\hline<br>\\end{array} \\]</p></div><br><br><b>GATE2018 CE-1: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313273/gate2018-ce-1-ga-10\" target=\"_blank\">https://gateoverflow.in/313273/gate2018-ce-1-ga-10</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"205190\"></a><div itemprop=\"text\"><p>\\( P, Q, R, \\text{and } S \\) crossed a lake in a boat that can hold a maximum of two persons, with only one set of oars. The following additional facts are available.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>The boat held two persons on each of the three forward trips across the lake and one person on each of the two return trips.</li>\n\t<li>\\( P \\) is unable to row when someone else is in the boat.</li>\n\t<li>\\( Q \\) is unable to row with anyone else except \\( R \\).</li>\n\t<li>Each person rowed for at least one trip.</li>\n\t<li>Only one person can row during a trip.</li>\n</ol>\n\n<p>Who rowed twice?</p>\n\n</div><br><br><b>GATE2018 EE: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\)</p>",
+            "<p>\\( Q \\)</p>",
+            "<p>\\( R \\)</p>",
+            "<p>\\( S \\)</p>"
+          ],
+          "correct_answer": "<p>\\( R \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205190/gate2018-ee-ga-10\" target=\"_blank\">https://gateoverflow.in/205190/gate2018-ee-ga-10</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"313380\"></a><div itemprop=\"text\"><p>Mohan, the manager, wants his four workers to work in pairs. No pair should work for more than \\( 5 \\) hours. Ram and John have worked together for \\( 5 \\) hours. Krishna and Amir have worked as a team for \\( 2 \\) hours. Krishna does not want to work with Ram. Whom should Mohan allot to work with John, if he wants all the workers to continue working?</p>\n\n</div><br><br><b>GATE2019 CE-2: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Amir</p>",
+            "<p>Krishna&nbsp;</p>",
+            "<p>Ram</p>",
+            "<p>None of three</p>"
+          ],
+          "correct_answer": "<p>Krishna&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313380/gate2019-ce-2-ga-6\" target=\"_blank\">https://gateoverflow.in/313380/gate2019-ce-2-ga-6</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"313749\"></a><div itemprop=\"text\"><p>Consider five people- Mita, Ganga,&nbsp;Rekha, Lakshmi, and Sana. Ganga is taller than both Rekha and Lakshmi.&nbsp;Lakshmi is taller than Sana. Mita is taller than Ganga.</p><p>Which of the following conclusions are true?</p><ol><li>Lakshmi is taller than Rekha</li><li>Rekha is shorter than Mita</li><li>Rekha is taller than Sana</li><li>Sana is shorter than Ganga</li></ol></div><br><br><b>GATE2019 EE: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) and \\( 3 \\)</p>",
+            "<p>\\( 3 \\) only</p>",
+            "<p>\\( 2 \\) and \\( 4 \\)</p>",
+            "<p>\\( 1 \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) and \\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313749/gate2019-ee-ga-10\" target=\"_blank\">https://gateoverflow.in/313749/gate2019-ee-ga-10</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"313547\"></a><div itemprop=\"text\"><p>Five numbers \\( 10,7,5,4 \\) and \\( 2 \\) are to be arranged in a sequence from left to right following the directions given below:</p>\n\n<ol>\n<li>No two odd or even numbers are next to each other.</li>\n<li>The second number from the left is exactly half of the left-most number.</li>\n<li>The middle number is exactly twice the right-most number.</li>\n</ol>\n\n<p>Which is the second number from the right?</p>\n\n</div><br><br><b>GATE2019 IN: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313547/gate2019-in-ga-4\" target=\"_blank\">https://gateoverflow.in/313547/gate2019-in-ga-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

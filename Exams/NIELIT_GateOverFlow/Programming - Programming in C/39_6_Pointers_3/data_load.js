@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Pointers",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Pointers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336727\"></a><div itemprop=\"text\"><p>Prior to using a pointer variable it should be</p>\n\n</div><br><br><b>Programming in C: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>declared.</p>",
+            "<p>initialized.</p>",
+            "<p>both declared and initialized.</p>",
+            "<p>none of these.</p>"
+          ],
+          "correct_answer": "<p>both declared and initialized.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336727/nielit-2016-mar-scientist-b-section-c-14\" target=\"_blank\">https://gateoverflow.in/336727/nielit-2016-mar-scientist-b-section-c-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336401\"></a><div itemprop=\"text\"><p>Output of following program?&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint main() \n{ \nint *ptr; \nint x; \nptr=&amp;x; \n*ptr=0; \nprintf(\"x=%d\\n\",x); \nprintf(\"*ptr=%d\\n\",*ptr); \n*ptr+=5; \nprintf(\"x=%d\\n\",x); \nprintf(\"*ptr=%d\\n\",*ptr); \n(*ptr)++; \nprintf(“x=%d\\n\",x); \nprintf(\"*ptr=%d\\n\",*ptr); \nreturn 0; \n} </pre>\n\n</div><br><br><b>Programming in C: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x=0 \\)&nbsp;<br>\n\t\\( ^*ptr=0 \\)<br>\n\t\\( x=5 \\)&nbsp;<br>\n\t\\( ^*ptr=5 \\)&nbsp;<br>\n\t\\( x=6 \\)&nbsp;<br>\n\t\\( ^*ptr=6 \\)</p>",
+            "<p>\\( x= \\)garbage value&nbsp;<br>\n\t\\( ^*ptr=0 \\)&nbsp;<br>\n\t\\( x= \\)garbage value&nbsp;<br>\n\t\\( ^*ptr=5 \\)&nbsp;<br>\n\t\\( x= \\)garbage value&nbsp;<br>\n\t\\( ^*ptr=6 \\)</p>",
+            "<p>\\( x=0 \\)&nbsp;<br>\n\t\\( ^*ptr=0 \\)&nbsp;<br>\n\t\\( x=5 \\)&nbsp;<br>\n\t\\( ^*ptr=5 \\)&nbsp;<br>\n\t\\( x= \\)garbage value&nbsp;<br>\n\t\\( ^*ptr= \\)garbage value</p>",
+            "<p>\\( x=0 \\)&nbsp;<br>\n\t\\( ^*ptr=0 \\)&nbsp;<br>\n\t\\( x=0 \\)&nbsp;<br>\n\t\\( ^*ptr=0 \\)&nbsp;<br>\n\t\\( x=0 \\)&nbsp;<br>\n\t\\( ^*ptr=0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x=0 \\)&nbsp;<br>\n\t\\( ^*ptr=0 \\)<br>\n\t\\( x=5 \\)&nbsp;<br>\n\t\\( ^*ptr=5 \\)&nbsp;<br>\n\t\\( x=6 \\)&nbsp;<br>\n\t\\( ^*ptr=6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336401/nielit-2017-july-scientist-b-it-section-b-34\" target=\"_blank\">https://gateoverflow.in/336401/nielit-2017-july-scientist-b-it-section-b-34</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336956\"></a><div itemprop=\"text\"><p>Consider the following declaration.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int a, *b = &amp;a, **c = &amp;b;\n\na = 4;\n\n**c = 5;</pre>\n\n<p>If the statement</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">b = (int *)**c</pre>\n\n<p>Is appended to the above program fragment then</p>\n\n</div><br><br><b>Programming in C: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Value of \\( b \\) becomes \\( 5 \\)</p>",
+            "<p>Value of \\( b \\) will be the address of \\( c \\)</p>",
+            "<p>Value of \\( b \\) is unaffected</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Value of \\( b \\) becomes \\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336956/nielit-2017-oct-scientific-assistant-a-it-section-b-29\" target=\"_blank\">https://gateoverflow.in/336956/nielit-2017-oct-scientific-assistant-a-it-section-b-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

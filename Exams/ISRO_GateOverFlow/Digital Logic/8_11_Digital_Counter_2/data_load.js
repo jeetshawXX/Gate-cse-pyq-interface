@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Digital Counter",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Digital Counter",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49508\"></a><div itemprop=\"text\"><p>Ring counter is analogous to</p>\n\n</div><br><br><b>Digital Logic: ISRO CSE 2007 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Toggle Switch</p>",
+            "<p>Latch</p>",
+            "<p>Stepping Switch</p>",
+            "<p>S-R flip flop</p>"
+          ],
+          "correct_answer": "<p>Stepping Switch</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49508/isro-cse-2007-question-34\" target=\"_blank\">https://gateoverflow.in/49508/isro-cse-2007-question-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"19487\"></a><div itemprop=\"text\"><p>A modulus -\\( 12 \\)&nbsp;ring counter requires a minimum of</p>\n\n</div><br><br><b>Digital Logic: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\) flip-flops</p>",
+            "<p>\\( 12 \\) flip-flops</p>",
+            "<p>\\( 8 \\) flip-flops</p>",
+            "<p>\\( 6 \\) flip-flops</p>"
+          ],
+          "correct_answer": "<p>\\( 12 \\) flip-flops</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19487/isro2015-4\" target=\"_blank\">https://gateoverflow.in/19487/isro2015-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

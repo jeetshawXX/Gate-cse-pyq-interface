@@ -1,0 +1,164 @@
+window.__examLoadCallback({
+  "title": "Operating System - Threads",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Threads",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1008\"></a><div itemprop=\"text\"><p>Consider the following statements with respect to user-level threads and kernel-supported threads</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\n\t<p>context switch is faster with kernel-supported threads</p>\n\t</li>\n\t<li>\n\t<p>for user-level threads, a system call can block the entire process</p>\n\t</li>\n\t<li>\n\t<p>Kernel supported threads can be scheduled independently</p>\n\t</li>\n\t<li>\n\t<p>User level threads are transparent to the kernel</p>\n\t</li>\n</ol>\n\n<p>Which of the above statements are true?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(II), (III) and (IV) only</p>",
+            "<p>(II) and (III) only</p>",
+            "<p>(I) and (III) only</p>",
+            "<p>(I) and (II) only</p>"
+          ],
+          "correct_answer": "<p>(II), (III) and (IV) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1008/gate-cse-2004-question-11\" target=\"_blank\">https://gateoverflow.in/1008/gate-cse-2004-question-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1215\"></a><div itemprop=\"text\"><p>Consider the following statements about user level threads and kernel level threads. Which one of the following statements is FALSE?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Context switch time is longer for kernel level threads than for user level threads.</p>",
+            "<p>User level threads do not need any hardware support.</p>",
+            "<p>Related kernel level threads can be scheduled on different processors in a multi-processor system.</p>",
+            "<p>Blocking one kernel level thread blocks all related threads.</p>"
+          ],
+          "correct_answer": "<p>Blocking one kernel level thread blocks all related threads.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1215/gate-cse-2007-question-17\" target=\"_blank\">https://gateoverflow.in/1215/gate-cse-2007-question-17</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2118\"></a><div itemprop=\"text\"><p>A thread is usually defined as a \"light weight process\" because an Operating System (OS) maintains smaller data structure for a thread than for a process. In relation to this, which of the following statement is TRUE?</p></div><br><br><b>GATE CSE 2011 | Question: 16, UGCNET-June2013-III: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>On per- thread basis , the OS maintains only CPU register state .&nbsp;</p>",
+            "<p>The OS does not maintain a separate stack for each thread .</p>",
+            "<p>On per- thread basis , the OS does not maintain virtual memory state .</p>",
+            "<p>On per- thread basis , the OS maintains only scheduling and accounting information .</p>"
+          ],
+          "correct_answer": "<p>On per- thread basis , the OS does not maintain virtual memory state .</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2118/gate-cse-2011-question-16-ugcnet-june2013-iii-65\" target=\"_blank\">https://gateoverflow.in/2118/gate-cse-2011-question-16-ugcnet-june2013-iii-65</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1787\"></a><div itemprop=\"text\"><p>Which one of the following is&nbsp;<strong>FALSE</strong>?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>User level threads are not scheduled by the kernel.</p>",
+            "<p>When a user level thread is blocked, all other threads of its process are blocked.</p>",
+            "<p>Context switching between user level threads is faster than context switching between kernel level threads.</p>",
+            "<p>Kernel level threads cannot share the code segment.</p>"
+          ],
+          "correct_answer": "<p>Kernel level threads cannot share the code segment.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1787/gate-cse-2014-set-1-question-20\" target=\"_blank\">https://gateoverflow.in/1787/gate-cse-2014-set-1-question-20</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"118298\"></a><div itemprop=\"text\"><p>Threads of a process share</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>global variables but not heap</p>",
+            "<p>heap but not global variables</p>",
+            "<p>neither global variables nor heap</p>",
+            "<p>both heap and global variables</p>"
+          ],
+          "correct_answer": "<p>both heap and global variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118298/gate-cse-2017-set-1-question-18\" target=\"_blank\">https://gateoverflow.in/118298/gate-cse-2017-set-1-question-18</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"118240\"></a><div itemprop=\"text\"><p>Which of the following is/are shared by all the threads in a process?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Program counter</li>\n\t<li>Stack</li>\n\t<li>Address space</li>\n\t<li>Registers</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 07</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(I) and (II) only</p>",
+            "<p>(III) only</p>",
+            "<p>(IV) only</p>",
+            "<p>(III) and (IV) only</p>"
+          ],
+          "correct_answer": "<p>(III) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118240/gate-cse-2017-set-2-question-07\" target=\"_blank\">https://gateoverflow.in/118240/gate-cse-2017-set-2-question-07</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"357498\"></a><div itemprop=\"text\"><p>​​​​​​Consider the following multi-threaded code segment (in a mix of C and pseudo-code), invoked by two processes \\( P_1 \\) and \\( P_2 \\), and each of the processes spawns two threads \\( T_1 \\) and \\( T_2 \\):</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int x = 0;  // global\nLock L1;    // global\nmain () { \n    create a thread to execute foo(); // Thread T1\n    create a thread to execute foo(); // Thread T2\n    wait for the two threads to finish execution;\n    print(x);}\n    \n    \nfoo() {\n    int y = 0;\n    Acquire L1;\n    x = x + 1;\n    y = y + 1;\n    Release L1;\n    print (y);}</pre>\n\n<p>Which of the following statement(s) is/are correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 42</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Both \\( P_1 \\) and \\( P_2 \\) will print the value of \\( x \\) as \\( 2. \\)</p>",
+            "<p>At least of \\( P_1 \\) and \\( P_2 \\) will print the value of \\( x \\) as \\( 4. \\)</p>",
+            "<p>At least one of the threads will print the value of \\( y \\) as \\( 2. \\)</p>",
+            "<p>Both \\( T_1 \\) and \\( T_2 \\), in both the processes, will print the value of \\( y \\) as \\( 1. \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>Both \\( P_1 \\) and \\( P_2 \\) will print the value of \\( x \\) as \\( 2. \\)</p>",
+            "<p>Both \\( T_1 \\) and \\( T_2 \\), in both the processes, will print the value of \\( y \\) as \\( 1. \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357498/gate-cse-2021-set-2-question-42\" target=\"_blank\">https://gateoverflow.in/357498/gate-cse-2021-set-2-question-42</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"422828\"></a><div itemprop=\"text\"><p>Which of the following statements about threads is/are TRUE?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Threads can only be implemented in kernel space</p>",
+            "<p>Each thread has its own file descriptor table for open files</p>",
+            "<p>All the threads belonging to a process share a common stack</p>",
+            "<p>Threads belonging to a process are by default not protected from each other</p>"
+          ],
+          "correct_answer": "<p>Threads belonging to a process are by default not protected from each other</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422828/gate-cse-2024-set-1-question-14\" target=\"_blank\">https://gateoverflow.in/422828/gate-cse-2024-set-1-question-14</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"422812\"></a><div itemprop=\"text\"><p>​​​Consider the following two threads \\( \\mathrm{T} 1 \\) and \\( \\mathrm{T} 2 \\) that update two shared variables \\( \\mathrm{a} \\) and \\( \\mathrm{b} \\). Assume that initially \\( \\mathrm{a}=\\mathrm{b}=1 \\). Though context switching between threads can happen at any time, each statement of&nbsp;&nbsp;\\( \\mathrm{T} 1 \\)&nbsp;or&nbsp;&nbsp;\\( \\mathrm{T} 2 \\)&nbsp;is executed atomically without interruption.</p><p>\\( \\begin{gathered}\\mathrm{T} 1 \\\\ \\mathrm{a}=\\mathrm{a}+1; \\\\ \\mathrm{~b}=\\mathrm{b}+1;\\end{gathered} \\) \\( \\quad \\) \\( \\begin{gathered}\\mathrm{T} 2 \\\\ \\mathrm{b}=\\mathrm {2 * b};&nbsp; \\\\ \\mathrm{a}=\\mathrm 2 * {a}; \\end{gathered} \\)</p><p>Which one of the following options lists all the possible combinations of values of a and b after both T1 and T2 finish execution?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (\\mathrm{a}=4, \\mathrm{~b}=4) ;(\\mathrm{a}=3, \\mathrm{~b}=3) ;(\\mathrm{a}=4, \\mathrm{~b}=3) \\)</p>",
+            "<p>\\( (\\mathrm{a}=3, \\mathrm{~b}=4) ;(\\mathrm{a}=4, \\mathrm{~b}=3) ;(\\mathrm{a}=3, \\mathrm{~b}=3) \\)</p>",
+            "<p>\\( (\\mathrm{a}=4, \\mathrm{~b}=4) ;(\\mathrm{a}=4, \\mathrm{~b}=3) ;(\\mathrm{a}=3, \\mathrm{~b}=4) \\)</p>",
+            "<p>\\( (\\mathrm{a}=2, \\mathrm{~b}=2) ;(\\mathrm{a}=2, \\mathrm{~b}=3) ;(\\mathrm{a}=3, \\mathrm{~b}=4) \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( (\\mathrm{a}=4, \\mathrm{~b}=4) ;(\\mathrm{a}=3, \\mathrm{~b}=3) ;(\\mathrm{a}=4, \\mathrm{~b}=3) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422812/gate-cse-2024-set-1-question-30\" target=\"_blank\">https://gateoverflow.in/422812/gate-cse-2024-set-1-question-30</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3655\"></a><div itemprop=\"text\"><p>Which one of the following is NOT shared by the threads of the same process ?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stack</p>",
+            "<p>Address Space</p>",
+            "<p>File Descriptor Table</p>",
+            "<p>Message Queue</p>"
+          ],
+          "correct_answer": "<p>Stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3655/gate-it-2004-question-14\" target=\"_blank\">https://gateoverflow.in/3655/gate-it-2004-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

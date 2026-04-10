@@ -1,0 +1,225 @@
+{
+  "title": "Computer_Network - Computer_Network - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the entries shown below in the forwarding table of an \\( \\mathbb{P} \\) router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \"\\( \\mathrm{/N} \\)\" in a prefix indicates a subnet mask with the most significant \\( \\mathrm{N} \\) bits set to 1. <br><br> \\(\n\\begin{array}{|l|c|}\n\\hline Prefix &amp; Next\\;  hop \\; router \\\\\n\\hline  10.1 .1 .0 / 24  &amp; R1 \\\\\n\\hline 10.1 .1 .128 / 25  &amp; R2 \\\\\n\\hline  10.1 .1 .64 / 26 &amp; R3 \\\\\n\\hline 10.1 .1 .192 / 26  &amp; R4 \\\\\n\\hline\n\\end{array}\\)\n<br><br>\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router \\( R 2 \\) is <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "40",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a network path \\(\\mathrm{P}-\\mathrm{Q}-\\mathrm{R} \\) between nodes \\(\\mathrm{P} \\) and \\(\\mathrm{R} \\) via router \\(\\mathrm{Q} \\). Node \\(\\mathrm{P} \\) sends a file of size \\(10^6 \\) bytes to \\(R \\) via this path by splitting the file into chunks of \\(10^3 \\) bytes each. Node \\(P \\) sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n<br>\nEach of the links \\(\\mathrm{P}-\\mathrm{Q} \\) and \\(\\mathrm{Q}-\\mathrm{R} \\) has a bandwidth of \\(10^6 \\mathrm{bits} / \\mathrm{sec} \\), and negligible propagation latency. Router \\(Q \\) immediately transmits every packet it receives from \\(P \\) to \\(R \\), with negligible processing and queueing delays. Router \\(Q \\) can simultaneously receive on link \\(P-Q \\) and transmit on \\(\\operatorname{link} Q-R \\).\n<br>\nAssume P starts transmitting the chunks at time \\(t=0 \\).\nWhich one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which \\(\\mathrm{R} \\) receives all the chunks of the file? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8</p>",
+            "<b>B.</b> <p>8.008</p>",
+            "<b>C.</b> <p>15.992</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8.008</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following fields is/are modified in the IP header of a packet going out\nof a network address translation (NAT) device from an internal network to an\nexternal network? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Source IP</p>",
+            "<b>B.</b> <p>Destination IP</p>",
+            "<b>C.</b> <p>Header Checksum</p>",
+            "<b>D.</b> <p>Total Length</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>Source IP</p>",
+            "<b>C.</b> <p>Header Checksum</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422821/gate-cse-2024-set-1-question-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>TCP client P successfully establishes a connection to TCP server \\(\\mathrm{Q} \\). Let \\(N_P \\) denote the sequence number in the SYN sent from \\(\\mathrm{P} \\) to \\(\\mathrm{Q} \\). Let \\(N_Q \\) denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>The sequence number \\(N_P \\) is chosen randomly by \\(\\mathrm{P} \\)</p>",
+            "<b>B.</b> <p>The sequence number \\(N_P \\) is always 0 for a new connection</p>",
+            "<b>C.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P \\)</p>",
+            "<b>D.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P+1 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>The sequence number \\(N_P \\) is chosen randomly by \\(\\mathrm{P} \\)</p>",
+            "<b>D.</b> <p>The acknowledgement number \\(N_Q \\) is equal to \\(N_P+1 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422823/gate-cse-2024-set-1-question-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A user starts browsing a webpage hosted at a remote server. The browser opens a\nsingle TCP connection to fetch the entire webpage from the server. The webpage\nconsists of a top-level index page with multiple embedded image objects. Assume\nthat all caches (e.g., DNS cache, browser cache) are all initially empty. The\nfollowing packets leave the user's computer in some order.<br><br>\n(i) HTTP GET request for the index page<br>\n(ii) DNS request to resolve the web server's name to its IP address<br>\n(iii) HTTP GET request for an image object<br>\n(iv) TCP SYN to open a connection to the web server<br><br>\nWhich one of the following is the CORRECT chronological order (earliest in time\nto latest) of the packets leaving the computer ? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(iv), (ii), (iii), (i)</p>",
+            "<b>B.</b> <p>(ii), (iv), (iii), (i)</p>",
+            "<b>C.</b> <p>(ii), (iv), (i), (iii)</p>",
+            "<b>D.</b> <p>(iv), (ii), (i), (iii)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(ii), (iv), (i), (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422836/gate-cse-2024-set-1-question-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The forwarding table of a router is shown below.<br>\\(\\begin{array}{|c|c|c|c|}\n\\hline \\\\\nSubnet \\; Number&amp;Subnet \\;Mask&amp;Interface ID \\\\ \\hline\n200.150.0.0 &amp;255.255.0.0&amp; 1\\\\ \\hline\n200.150.64.0 &amp;255.255.224.0 &amp;2\\\\ \\hline\n200.150.68.0 &amp;255.255.255.0 &amp;3\\\\ \\hline\n200.150.68.64 &amp;255.255.255.224 &amp;4 \\\\ \\hline\nDefault &amp; &amp;0\\\\ \\hline\n\\end{array} \\)  <br>A packet addressed to a destination address 200.150.68.118 arrives at the router.\nIt will be forwarded to the interface with ID _____. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399256/gate-cse-2023-question-55#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose in a web browser, you click on the www.gate-2023.in URL. The browser\ncache is empty. The IP address for this URL is not cached in your local host, so\na DNS lookup is triggered (by the local DNS server deployed on your local host)\nover the 3-tier DNS hierarchy in an iterative mode. No resource records are cached\nanywhere across all DNS servers.<br>\nLet RTT denote the round trip time between your local host and DNS servers\nin the DNS hierarchy. The round trip time between the local host and the web\nserver hosting www.gate-2023.in is also equal to RTT. The HTML file associated\nwith the URL is small enough to have negligible transmission time and negligible\nrendering time by your web browser, which references 10 equally small objects on\nthe same web server.<br>\nWhich of the following statements is/are CORRECT about the minimum elapsed\ntime between clicking on the URL and your browser fully rendering it? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>7 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.</p>",
+            "<b>B.</b> <p>5 RTTs, in case of persistent HTTP with pipelining.</p>",
+            "<b>C.</b> <p>9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.</p>",
+            "<b>D.</b> <p>6 RTTs, in case of persistent HTTP with pipelining.</p>"
+          ],
+          "correct_answer": [
+            "<b>C.</b> <p>9 RTTs, in case of non-persistent HTTP with 5 parallel TCP connections.</p>",
+            "<b>D.</b> <p>6 RTTs, in case of persistent HTTP with pipelining.</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399269/gate-cse-2023-question-42#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Suppose you are asked to design a new reliable byte-stream transport protocol\nlike TCP. This protocol, named myTCP, runs over a 100 Mbps network with Round\nTrip Time of 150 milliseconds and the maximum segment lifetime of 2 minutes.<br>\nWhich of the following is/are valid lengths of the Sequence Number field in the\nmyTCP header? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>30 bits</p>",
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>34 bits</p>",
+            "<b>D.</b> <p>36 bits</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>32 bits</p>",
+            "<b>C.</b> <p>34 bits</p>",
+            "<b>D.</b> <p>36 bits</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399271/gate-cse-2023-question-40#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following statements is/are INCORRECT about\nthe OSPF (Open Shortest Path First) routing protocol used in the Internet? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>OSPF implements Bellman-Ford algorithm to find shortest paths.</p>",
+            "<b>B.</b> <p>OSPF uses Dijkstra's shortest path algorithm to implement least-cost path routing</p>",
+            "<b>C.</b> <p>OSPF is used as an inter-domain routing protocol</p>",
+            "<b>D.</b> <p>OSPF implements hierarchical routing.</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>OSPF implements Bellman-Ford algorithm to find shortest paths.</p>",
+            "<b>C.</b> <p>OSPF is used as an inter-domain routing protocol</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399297/gate-cse-2023-question-15#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Suppose two hosts are connected by a point-to-point link and they are configured\nto use Stop-and-Wait protocol for reliable data transfer. Identify in which one of\nthe following scenarios, the utilization of the link is the lowest. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Longer link length and lower transmission rate</p>",
+            "<b>B.</b> <p>Longer link length and higher transmission rate</p>",
+            "<b>C.</b> <p>Shorter link length and lower transmission rate</p>",
+            "<b>D.</b> <p>Shorter link length and higher transmission rate</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Longer link length and higher transmission rate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399305/gate-cse-2023-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the data transfer using TCP over a 1 Gbps link. Assuming that the maximum segment lifetime (MSL) is set to 60 seconds, the minimum number of bits required for the sequence number field of the TCP header, to prevent the sequence number space from wrapping around during the MSL is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "33",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371886/Gate-cse-2022-question-50#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a 100 Mbps link between an earth station (sender) and a satellite (receiver) at an altitude of 2100 km. The signal propagates at a speed of \\(3  \\times 10^8\\) m/s. The time taken (in milliseconds, rounded off to two decimal places) for the receiver to completely receive a packet of 1000 bytes transmitted by the sender is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7.07",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371887/Gate-cse-2022-question-49#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a network with three routers P, Q, R shown in the figure below. All the links have cost of unity.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q47_7e9a46a2.jpg\"><br>The routers exchange distance vector routing information and have converged on the routing tables, after which the link Q-R fails. Assume that P and Q send out routing updates at random times, each at the same average rate. The probability of a routing loop formation (rounded off to one decimal place) between P and Q, leading to count-to-infinity problem, is ____ <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371889/Gate-cse-2022-question-47#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider routing table of an organization's router shown below:<br>\\(\n\\begin{array}{|l|l|l|}\nSubnet Number          &amp; Subnet Mask              &amp; Next Hop                 \\\\\n12.20.164.0 &amp;  255.255.252.0 &amp;  R1            \\\\\n12.20.170.0 &amp;  255.255.254.0 &amp;  R2            \\\\\n12.20.168.0 &amp;  255.255.254.0 &amp;  Interface 0   \\\\\n12.20.166.0 &amp;  255.255.254.0 &amp;  Interface 1   \\\\\ndefault     &amp; ~                        &amp;  R3      \\\\  \\hline\n\\end{array}\n\\)<br>Which of the following prefixes in CIDR notation can be collectively used to correctly aggregate all of the subnets in the routing table? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>12.20.164.0/20</p>",
+            "<b>B.</b> <p>12.20.164.0/22</p>",
+            "<b>C.</b> <p>12.20.164.0/21</p>",
+            "<b>D.</b> <p>12.20.168.0/22</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>12.20.164.0/22</p>",
+            "<b>D.</b> <p>12.20.168.0/22</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371891/Gate-cse-2022-question-45#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

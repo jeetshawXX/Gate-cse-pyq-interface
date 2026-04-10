@@ -1,0 +1,36 @@
+{
+  "title": "Programming and DS - DS - Minimum Spanning Tree",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Minimum Spanning Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70948\"></a><div itemprop=\"text\"><p>Consider a weighted complete graph \\( G \\) on the vertex set \\( \\left\\{ν_{1} , ν_{2},....&nbsp;ν_{n} \\right\\} \\)&nbsp;such that the weight of the edge \\( (ν_{i} , ν_{j}) \\) is \\( 4 | i – j| \\). The weight of minimum cost spanning tree of \\( G \\) is :</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | August 2016 | Part 3 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4n^{2} \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>\\( 4n – 4 \\)&nbsp;</p>",
+            "<p>\\( 2n – 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70948/ugc-net-cse-august-2016-part-3-question-33\" target=\"_blank\">https://gateoverflow.in/70948/ugc-net-cse-august-2016-part-3-question-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"155027\"></a><div itemprop=\"text\"><p>The total number of spanning trees that can be drawn using five labeled vertices is:</p>\n\n<ol>\n\t<li>125&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>64&nbsp; &nbsp;</li>\n\t<li>36&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>\n\t<li>16</li>\n</ol></div><br><br><b>Data Structures: UGC NET CSE | December 2008 | Part 2 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155027/ugc-net-cse-december-2008-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/155027/ugc-net-cse-december-2008-part-2-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

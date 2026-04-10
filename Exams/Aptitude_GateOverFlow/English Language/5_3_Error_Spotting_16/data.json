@@ -1,0 +1,221 @@
+{
+  "title": "English Language - Error Spotting",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Error Spotting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"886\"></a><div itemprop=\"text\"><p>Identify the incorrect sentence or sentences.</p>\n\n</div><br><br><b>English Language: CAT 2004 | Question: 84</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Harish told Raj to plead guilty</p>",
+            "<p>Raj pleaded guilty of stealing money from the shop.</p>",
+            "<p>The court found Raj guilty of all crimes he was charged with.</p>",
+            "<p>He was sentenced for three years in jail\n\t<ol start=\"1\" style=\"list-style-type:upper-alpha\">\n\t\t<li>A and C</li>\n\t\t<li>B and D</li>\n\t\t<li>A, C, and D</li>\n\t\t<li>B, C and D</li>\n\t</ol></p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/886/cat-2004-question-84\" target=\"_blank\">https://aptitude.gateoverflow.in/886/cat-2004-question-84</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"5369\"></a><div itemprop=\"text\"><p>The question given below consists of a sentence which is divided into four parts, numbered (A) through (D). Only one part in the sentence is not acceptable in standard written English. Identify that part in the sentences which contains the error.</p>\n\n</div><br><br><b>English Language: CAT 2011 | Question: 35</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Her acceptance of speech</p>",
+            "<p>Was well received</p>",
+            "<p>Eliciting thunderous&nbsp;applause</p>",
+            "<p>At several points</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5369/cat-2011-question-35\" target=\"_blank\">https://aptitude.gateoverflow.in/5369/cat-2011-question-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"5368\"></a><div itemprop=\"text\"><p>In the following question, four different sentences are given. Choose the option that contains the grammatically incorrect sentence/s.</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>He is feeling that this relocation is nothing but the kick upstairs.</li>\n\t<li>Consensus is now emerging at our state and national levels.</li>\n\t<li>A more and more rigorous circle is formed from which one is more and more unlikely to escape.</li>\n\t<li>It happened up on a&nbsp;system that worked.</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2011 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I, IV</p>",
+            "<p>I, II, III</p>",
+            "<p>I, III, IV</p>",
+            "<p>I, III</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5368/cat-2011-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/5368/cat-2011-question-36</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"5367\"></a><div itemprop=\"text\"><p>Given below are sentences, each using the question word different ways. Identify the sentence which uses the question word in a grammatically incorrect manner.</p>\n\n<p><strong>Happen</strong></p>\n\n</div><br><br><b>English Language: CAT 2011 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Accept it, mistakes will happen</p>",
+            "<p>It happened on a system that worked</p>",
+            "<p>I promise nothing will happen to you</p>",
+            "<p>If so happens&nbsp;I’m going your way</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5367/cat-2011-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/5367/cat-2011-question-37</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"5366\"></a><div itemprop=\"text\"><p>Given below are sentences, each using the question word different ways. Identify the sentence which uses the question word in a grammatically incorrect manner.&nbsp;</p>\n\n<p><strong>Gut</strong></p>\n\n</div><br><br><b>English Language: CAT 2011 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The fire gutted the building</p>",
+            "<p>The prisoner’s letters were gutted by heavy cencorship</p>",
+            "<p>The famous stars spills his guts in his autobiography</p>",
+            "<p>Climbing that cliff takes a lot of guts</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5366/cat-2011-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/5366/cat-2011-question-38</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"5111\"></a><div itemprop=\"text\"><p>Each question&nbsp;gives a sentence with a part of the sentence underlined that may contain an error. Four alternative substitutes are given for the underlined portion. Identify the choice that replaces the underlined part to form a logically and grammatically correct statement and mark its number as your answer.</p>\n\n<p>Feminism is not simply a movement to ensure that women will have equal rights with men <u>but that a commitment for eradicating the ideology of domination</u> that permeates Indian culture at various levels</p>\n\n</div><br><br><b>English Language: CAT 2012 | Question: 56</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>that is a commitment to&nbsp;eradicate&nbsp;the ideology to&nbsp;dominate that</p>",
+            "<p>it is a commitment to&nbsp;eradicating&nbsp;the ideology of&nbsp;domination&nbsp;that</p>",
+            "<p>whose commitment to&nbsp;eradicating&nbsp;the ideology of&nbsp;domination which</p>",
+            "<p>but that a commitment for&nbsp;eradicating&nbsp;the ideology of&nbsp;domination&nbsp;that</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5111/cat-2012-question-56\" target=\"_blank\">https://aptitude.gateoverflow.in/5111/cat-2012-question-56</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"5112\"></a><div itemprop=\"text\"><p>Each question&nbsp;gives a sentence with a part of the sentence underlined that may contain an error.Four alternative substitutes are given for the underlined portion. Identify the choice that replaces the underlined part to form a logically and grammatically correct statement and mark its number as your answer.</p>\n\n<p>It is unfortunate that the lure of visiting foreign countries still draws a very large number of our people, <u>who do not seem to be realizing what their own country is and how much can be seen and learnt from it?</u></p>\n\n</div><br><br><b>English Language: CAT 2012 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Who do not seem to realize their country and see and learn from it</p>",
+            "<p>Who are not realizing what their own country is and how much there is in it to see and learn from</p>",
+            "<p>Who do not seem to realize what their own country is and how much there is in it to see and learn from it</p>",
+            "<p>Who do not seem to realize what their own country is and how much there is in it to see and learn from</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5112/cat-2012-question-57\" target=\"_blank\">https://aptitude.gateoverflow.in/5112/cat-2012-question-57</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"6625\"></a><div itemprop=\"text\"><p><strong>Some of the sentences have errors and some have none. Find out which part of a sentence has an error, and the appropriate letter (A),(B),(C) is your answer. If there is no error, (D) is the answer.</strong></p>\n\n<p>\\( \\underset{(A)}{\\underline{\\text{The&nbsp;accelerating pace&nbsp;of&nbsp;life&nbsp;in&nbsp;our&nbsp;metropolitan&nbsp;city /}}} \\)</p>\n\n<p>\\( \\underset{(B)}{\\underline{\\text{has&nbsp;had&nbsp;the&nbsp;tremendous&nbsp;effect/}}} \\)</p>\n\n<p>\\( \\underset{(C)}{\\underline{\\text{on&nbsp;the&nbsp;culture&nbsp;and&nbsp;life-style&nbsp;of&nbsp;the&nbsp;people./}}} \\)</p>\n\n<p>\\( \\underset{(D)}{\\underline{\\text{No error}}} \\)</p></div><br><br><b>English Language: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6625/nielit-2019-feb-scientist-c-section-b-1\" target=\"_blank\">https://aptitude.gateoverflow.in/6625/nielit-2019-feb-scientist-c-section-b-1</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"6624\"></a><div itemprop=\"text\"><p><strong>Some of the sentences have errors and some have none. Find out which part of a sentence has an error, and the appropriate letter (A),(B),(C) is your answer. If there is no error, (D) is the answer.</strong></p>\n\n<p>\\( \\underset{(A)}{\\underline{\\text{Frozen&nbsp;foods&nbsp;are&nbsp;so&nbsp;popular&nbsp;today /}}} \\)</p>\n\n<p>\\( \\underset{(B)}{\\underline{\\text{that many people wonder /}}} \\)</p>\n\n<p>\\( \\underset{(C)}{\\underline{\\text{how&nbsp;they&nbsp;ever&nbsp;lived&nbsp;without them./}}} \\)</p>\n\n<p>\\( \\underset{(D)}{\\underline{\\text{No error}}} \\)</p></div><br><br><b>English Language: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6624/nielit-2019-feb-scientist-c-section-b-2\" target=\"_blank\">https://aptitude.gateoverflow.in/6624/nielit-2019-feb-scientist-c-section-b-2</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"6623\"></a><div itemprop=\"text\"><p><strong>Some of the sentences have errors and some have none. Find out which part of a sentence has an error, and the appropriate letter (A),(B),(C) is your answer. If there is no error, (D) is the answer.</strong></p>\n\n<p>\\( \\underset{(A)}{\\underline{\\text{I’ve&nbsp;been&nbsp; to a few of his lectures,/}}} \\)</p>\n\n<p>\\( \\underset{(B)}{\\underline{\\text{but&nbsp;understood&nbsp;little&nbsp;of/}}} \\)</p>\n\n<p>\\( \\underset{(C)}{\\underline{\\text{what he has said./}}} \\)</p>\n\n<p>\\( \\underset{(D)}{\\underline{\\text{No error}}} \\)</p></div><br><br><b>English Language: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6623/nielit-2019-feb-scientist-c-section-b-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6623/nielit-2019-feb-scientist-c-section-b-3</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"6622\"></a><div itemprop=\"text\"><p><strong>Some of the sentences have errors and some have none. Find out which part of a sentence has an error, and the appropriate letter (A),(B),(C) is your answer. If there is no error, (D) is the answer.</strong></p>\n\n<p>\\( \\underset{(A)}{\\underline{\\text{The&nbsp;old&nbsp;woman&nbsp;has&nbsp;had&nbsp;the&nbsp;best&nbsp;medical&nbsp;facilities&nbsp;available/}}} \\)</p>\n\n<p>\\( \\underset{(B)}{\\underline{\\text{but&nbsp;she&nbsp;will&nbsp;not&nbsp;be&nbsp;cured/}}} \\)</p>\n\n<p>\\( \\underset{(C)}{\\underline{\\text{Unless&nbsp;she&nbsp;does&nbsp;not&nbsp;have&nbsp;a&nbsp;strong&nbsp;desire&nbsp;to&nbsp;live./}}} \\)</p>\n\n<p>\\( \\underset{(D)}{\\underline{\\text{No error}}} \\)</p></div><br><br><b>English Language: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6622/nielit-2019-feb-scientist-c-section-b-4\" target=\"_blank\">https://aptitude.gateoverflow.in/6622/nielit-2019-feb-scientist-c-section-b-4</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"6621\"></a><div itemprop=\"text\"><p><strong>Some of the sentences have errors and some have none. Find out which part of a sentence has an error, and the appropriate letter (A),(B),(C) is your answer. If there is no error, (D) is the answer.</strong></p>\n\n<p>\\( \\underset{(A)}{\\underline{\\text{Not&nbsp;only&nbsp;the&nbsp;bandits&nbsp;robbed/}}} \\)</p>\n\n<p>\\( \\underset{(B)}{\\underline{\\text{the&nbsp;traveller of&nbsp;his&nbsp;purse/}}} \\)</p>\n\n<p>\\( \\underset{(C)}{\\underline{\\text{but&nbsp;also&nbsp;wounded&nbsp;him&nbsp;grievously./}}} \\)</p>\n\n<p>\\( \\underset{(D)}{\\underline{\\text{No error}}} \\)</p></div><br><br><b>English Language: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6621/nielit-2019-feb-scientist-c-section-b-5\" target=\"_blank\">https://aptitude.gateoverflow.in/6621/nielit-2019-feb-scientist-c-section-b-5</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"6790\"></a><div itemprop=\"text\">Choose the most appropriate option.<br>\n<br>\nEach sentence has been divided into three parts, indicated by \\( A \\), \\( B \\) and \\( C \\). Read each sentence to find out, if there is an error. If you find an error in any of the parts \\( (A, B \\) or \\( C) \\), indicate your response. If a sentence has no error, mark your answer as \\( D \\).<br>\n<br>\n\\( \\underset{(A)}{\\underline{\\text{I wonder /}}} \\)<br>\n<br>\n\\( \\underset{(B)}{\\underline{\\text{how am I/}}} \\)<br>\n<br>\n\\( \\underset{(C)}{\\underline{\\text{to do it/}}} \\)<br>\n<br>\n\\( \\underset{(D)}{\\underline{\\text{No error/}}} \\)</div><br><br><b>English Language: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6790/nielit-2019-feb-scientist-d-section-b-1\" target=\"_blank\">https://aptitude.gateoverflow.in/6790/nielit-2019-feb-scientist-d-section-b-1</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"6789\"></a><div itemprop=\"text\"><p>Choose the most appropriate option.</p>\n\n<p>Each sentence has been divided into three parts, indicated by \\( A \\), \\( B \\) and \\( C \\). Read each sentence to find out, if there is an error. If you find an error in any of the parts \\( (A, B \\) or \\( C) \\), indicate your response. If a sentence has no error, mark your answer as \\( D \\).</p>\n\n</div><br><br><b>English Language: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\underset{(A)}{\\underline{\\text{The students were /}}} \\)</p>",
+            "<p>\\( \\underset{(B)}{\\underline{\\text{awaiting for /}}} \\)</p>",
+            "<p>\\( \\underset{(C)}{\\underline{\\text{the arrival of the chief guest. /}}} \\)</p>",
+            "<p>\\( \\underset{(D)}{\\underline{\\text{No error. /}}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\underset{(B)}{\\underline{\\text{awaiting for /}}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6789/nielit-2019-feb-scientist-d-section-b-2\" target=\"_blank\">https://aptitude.gateoverflow.in/6789/nielit-2019-feb-scientist-d-section-b-2</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"6788\"></a><div itemprop=\"text\"><p>Choose the most appropriate option.</p>\n\n<p>Each sentence has been divided into three parts, indicated by \\( A \\), \\( B \\) and \\( C \\). Read each sentence to find out, if there is an error. If you find an error in any of the parts \\( (A, B \\) or \\( C) \\), indicate your response. If a sentence has no error, mark your answer as \\( D \\).</p>\n\n</div><br><br><b>English Language: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\underset{(A)}{\\underline{\\text{If I am you ?}}} \\)</p>",
+            "<p>\\( \\underset{(B)}{\\underline{\\text{I would have seen to it}}} \\)</p>",
+            "<p>\\( \\underset{(C)}{\\underline{\\text{that I won prize.}}} \\)</p>",
+            "<p>\\( \\underset{(D)}{\\underline{\\text{No error.}}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\underset{(A)}{\\underline{\\text{If I am you ?}}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6788/nielit-2019-feb-scientist-d-section-b-3\" target=\"_blank\">https://aptitude.gateoverflow.in/6788/nielit-2019-feb-scientist-d-section-b-3</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"6787\"></a><div itemprop=\"text\"><p>Choose the most appropriate option.</p>\n\n<p>Each sentence has been divided into three parts, indicated by \\( A \\), \\( B \\) and \\( C \\). Read each sentence to find out, if there is an error. If you find an error in any of the parts \\( (A, B \\) or \\( C) \\), indicate your response. If a sentence has no error, mark your answer as \\( D \\).</p>\n\n</div><br><br><b>English Language: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\underset{(A)}{\\underline{\\text{They were off to a&nbsp;}}} \\)</p>",
+            "<p>\\( \\underset{(B)}{\\underline{\\text{flying start but cannot}}} \\)</p>",
+            "<p>\\( \\underset{(C)}{\\underline{\\text{keep up their pace.}}} \\)</p>",
+            "<p>\\( \\underset{(D)}{\\underline{\\text{No error.}}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\underset{(B)}{\\underline{\\text{flying start but cannot}}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6787/nielit-2019-feb-scientist-d-section-b-4\" target=\"_blank\">https://aptitude.gateoverflow.in/6787/nielit-2019-feb-scientist-d-section-b-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

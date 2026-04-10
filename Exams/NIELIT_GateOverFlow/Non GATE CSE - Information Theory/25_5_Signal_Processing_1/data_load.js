@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Information Theory - Signal Processing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Signal Processing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373745\"></a><div itemprop=\"text\"><p>A bandlimited signal is sampled at the Nyquist rate. The signal can be recovered by passing the samples through :</p>\n\n</div><br><br><b>Information Theory: NIELIT 2022 April Scientist B | Section B | Question: 93</b></p>",
+          "type": "single",
+          "options": [
+            "<p>an \\( \\text{RC} \\) filter</p>",
+            "<p>an envelope detector</p>",
+            "<p>a \\( \\text{PLL} \\)</p>",
+            "<p>an ideal low-pass filter with the appropriate bandwidth</p>"
+          ],
+          "correct_answer": "<p>an ideal low-pass filter with the appropriate bandwidth</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373745/nielit-2022-april-scientist-b-section-b-question-93\" target=\"_blank\">https://gateoverflow.in/373745/nielit-2022-april-scientist-b-section-b-question-93</a></p>"
+        }
+      ]
+    }
+  ]
+});

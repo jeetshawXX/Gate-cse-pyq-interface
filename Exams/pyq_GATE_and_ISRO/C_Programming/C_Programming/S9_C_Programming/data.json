@@ -1,0 +1,236 @@
+{
+  "title": "C_Programming - C_Programming - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "C_Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C function in which size is the number of elements in the array E:<pre><code> int MyX(int *E, unsigned int size)\n{\n  int Y = 0;\n  int Z;\n  int i, j, k; \n    for(i = 0; i &lt; size; i++)\n    Y = Y + E[i];\n  for(i = 0; i &lt; size; i++)\n    for(j = i; j &lt; size; j++)\n    {\n       Z = 0;\n       for(k = i; k &lt;= j; k++)\n           Z= Z + E[k];\n       if (Z &gt; Y)\n            Y = Z;\n   }\nreturn Y;\n}</code></pre>\nThe value returned by the function MyX is the <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>maximum possible sum of elements in any sub-array of array E.</p>",
+            "<b>B.</b> <p>maximum element in any sub-array of array E.</p>",
+            "<b>C.</b> <p>sum of the maximum elements in all possible sub-arrays of array E.</p>",
+            "<b>D.</b> <p>the sum of all the elements in the array E.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>maximum possible sum of elements in any sub-array of array E.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1919/gate2014-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following program in C language:<pre><code># include &lt; stdio.h &gt;\nmain()\n{\n  int i;\n  int * pi=&amp;i;\n  scanf( \"%d\", pi) ;\n  printf (\"%d \\ n\", i+5) ;\n}</code></pre>\nWhich one of the following statements is TRUE? <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Compilation fails.</p>",
+            "<b>B.</b> <p>Execution results in a run-time error.</p>",
+            "<b>C.</b> <p>On execution, the value printed is 5 more than the address of variable i.</p>",
+            "<b>D.</b> <p>On execution, the value printed is 5 more than the integer value entered</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>On execution, the value printed is 5 more than the integer value entered</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1770/gate2014-1-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>What is the output of the following program?<br><pre><code> Class Test\n{ \n    public static void main (String [] args) \n    {  \n        int x = 0; \n        int y = 0 \n        for (int z = 0; z &lt; 5; z++)\n        { \n            if((++x &gt;2)||(++y  &gt; 2)) \n            {\n                x++;\n            }\n        }\n    System.out.printIn (x+ \"\" + y); \n    }\n}</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 2</p>",
+            "<b>B.</b> <p>8 5</p>",
+            "<b>C.</b> <p>8 3</p>",
+            "<b>D.</b> <p>5 3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>8 2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44842/isro-2013-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following C code.<br><pre><code> #include &lt; stdio.h &gt; \n#include &lt; math.h &gt; \nvoid main ()  \n{  \n      double pi = 3.1415926535;   \n      int a = 1;  \n      int i;    \n      for (i=0; i &lt; 3; i++) \n            if (a = cos(pi * i/2)) \n                  printf(\"% d\", 1);  \n            else printf(\"%d\", 0); \n}</code></pre> <br>\nWhat would the program print? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>000</p>",
+            "<b>B.</b> <p>010</p>",
+            "<b>C.</b> <p>101</p>",
+            "<b>D.</b> <p>111</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>101</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44833/isro-2013-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following psuedocode:<br><pre><code>x: integer := 1  \ny: integer := 2   \nprocedure add  \n    x:= x + y    \nprocedure second (P: Procedure)  \n    x: integer := 2      \n    p()   \nprocedure first  \n    y: integer := 3\n    second (add) \nfirst () \nwrite_integer(x) </code></pre> What does it print if the language uses dynamic scoping with deep binding? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43764/isro-2013-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>What is the return value of f(p,p), if the value of p is initialized to 5 before the call? Note that\nthe first parameter is passed by reference, whereas the second parameter is passed by value.<pre><code> int f (int &amp;x, int c) {\n  c = c - 1;\n  if (c==0) return 1;\n   x = x + 1;\nreturn f(x,c) * x;\n} </code></pre> <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3024</p>",
+            "<b>B.</b> <p>6561</p>",
+            "<b>C.</b> <p>55440</p>",
+            "<b>D.</b> <p>161051</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6561</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/60/gate2013-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following C code segment.<pre><code>\nint a, b, c = 0;\nvoid prtFun(void);\nmain( )\n{ static int a = 1; /* Line 1 */\n   prtFun( );\n   a += 1;\n   prtFun( );\n   printf(\" \\n %d %d \", a, b);\n}\nvoid prtFun(void)\n{ static int a = 2; /* Line 2 */\n   int b = 1;\n   a += ++b;\n   printf(\" \\n %d %d \", a, b);\n}</code></pre>What output will be generated by the given code segment if: <br><br>\nLine 1 is replaced by auto int a = 1; <br>\nLine 2 is replaced by register int a = 2; <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 1 <br>\n4 1 <br>\n4 2</p>",
+            "<b>B.</b> <p>4 2 <br>\n6 1<br>\n6 1</p>",
+            "<b>C.</b> <p>4 2<br>\n6 2<br>\n2 0</p>",
+            "<b>D.</b> <p>4 2<br>\n4 2<br>\n2 0</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4 2<br>\n4 2<br>\n2 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43314/gate2012-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following C code segment.<pre><code>\nint a, b, c = 0;\nvoid prtFun(void);\nmain( )\n{ static int a = 1; /* Line 1 */\n   prtFun( );\n   a += 1;\n   prtFun( );\n   printf(\" \\n %d %d \", a, b);\n}\nvoid prtFun(void)\n{ static int a = 2; /* Line 2 */\n   int b = 1;\n   a += ++b;\n   printf(\" \\n %d %d \", a, b);\n}</code></pre>What output will be generated by the given code segment? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 1<br>\n4 1 <br>\n4 2</p>",
+            "<b>B.</b> <p>4 2<br>\n6 1 <br>\n6 1</p>",
+            "<b>C.</b> <p>4 2 <br>\n6 2 <br>\n2 0</p>",
+            "<b>D.</b> <p>3 1 <br>\n5 2 <br>\n5 2</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4 2 <br>\n6 2 <br>\n2 0</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2176/gate2012-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>What will be the output of the following C program segment?<pre><code> char inChar = 'A' ;\nswitch ( inChar ) {\ncase 'A' : printf (\"Choice A\\ n\") ;\ncase 'B' :\ncase 'C' : printf (\"Choice B\") ;\ncase 'D' :\ncase 'E' :\ndefault : printf ( \" No Choice\" ) ; } </code></pre> <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>No Choice</p>",
+            "<b>B.</b> <p>Choice A</p>",
+            "<b>C.</b> <p>Choice A <br>\nChoice B  No Choice</p>",
+            "<b>D.</b> <p>Program gives no output as it is erroneous</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Choice A <br>\nChoice B  No Choice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/35/gate2012-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Find the output of the following Java code line <br><pre><code>System.out.printIn(math.floor(-7.4)) </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-7</p>",
+            "<b>B.</b> <p>-8</p>",
+            "<b>C.</b> <p>-7.4</p>",
+            "<b>D.</b> <p>-7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>-8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52870/isro2011-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>What is the output of the following C code?<br><pre><code>#include &lt; stdio.h &gt;\nint main()\n{\n    int index;\n    for(index=1; index&lt;=5; index++)\n    {\n        printf(\"%d\", index);\n        if (index==3)\n            continue;\n    }\n}\n </code></pre> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1245</p>",
+            "<b>B.</b> <p>12345</p>",
+            "<b>C.</b> <p>12245</p>",
+            "<b>D.</b> <p>12354</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12345</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52841/isro2011-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In Java, after executing the following code what are the values of x, y and z?<br>\nint x, y=10; z=12;<br>\nx=y++ + z++;<br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x=22, y=10, z=12</p>",
+            "<b>B.</b> <p>x=24, y=10, z=12</p>",
+            "<b>C.</b> <p>x=24, y=11, z=13</p>",
+            "<b>D.</b> <p>x=22, y=11, z=13</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x=22, y=11, z=13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52501/isro2011-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following pseudocode<br><pre><code>x:=1;\ni:=1;\nwhile (x \\leq 500)\nbegin\nx:=2^x;\ni:=i+1;\nend\n</code></pre> <br>What is the value of i at the end of the pseudocode? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52489/isro2011-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following recursive C function that takes two arguments<pre><code> unsigned int foo(unsigned int n, unsigned int r) {\n  if (n  &gt; 0) return (n%r +  foo (n/r, r ));\n  else return 0;\n}</code></pre>What is the return value of the function foo when it is called as foo (513, 2)? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43324/gate2011-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following recursive C function that takes two arguments<pre><code> unsigned int foo(unsigned int n, unsigned int r) {\n  if (n  &gt; 0) return (n%r +  foo (n/r, r ));\n  else return 0;\n}</code></pre>   <br>What is the return value of the function foo when it is called as foo (345, 10) ? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>345</p>",
+            "<b>B.</b> <p>12</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>12</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2154/gate2011-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

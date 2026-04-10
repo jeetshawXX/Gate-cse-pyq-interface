@@ -1,0 +1,236 @@
+{
+  "title": "Context_Free_Language - Context_Free_Language - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Context_Free_Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following languages over the alphabet \\(\\Sigma = \\{a, b,c\\}\\). <br>Let \\(L_{1}=\\{a^{n}b^{n}c^{m}|m,n\\geq 0\\}\\) and \\(L_{2}=\\{a^{m}b^{n}c^{n}|m,n\\geq 0\\}\\)<br><br> Which of the following are context-free languages ?  <br>   I. \\(L_{1}\\cup L_{2}\\)  <br>       II. \\(L_{1}\\cap L_{2}\\) <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II only</p>",
+            "<b>C.</b> <p>I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>I only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118321/gate2017-1-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the context-free grammars over the alphabet {a,b,c} given below. S and T are non-terminals <br><br>\\(G_{1}:S\\rightarrow aSb|T, T\\rightarrow cT|\\epsilon\\) \\(G_{2}:S\\rightarrow bSa|T,T\\rightarrow cT|\\epsilon\\) <br><br>The language \\(L(G_{1})\\cap L(G_{2})\\) is <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finite.</p>",
+            "<b>B.</b> <p>Not finite but regular.</p>",
+            "<b>C.</b> <p>Context-free but not regular.</p>",
+            "<b>D.</b> <p>Recursive but not context-free.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Not finite but regular.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118320/gate2017-1-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following languages: <br>\\(L_{1}=\\{a^{n}b^{m}c^{n+m}:m,n\\geq 1\\}\\)<br> \\(L_{2}=\\{a^{n}b^{n}c^{2n}:n\\geq 1\\}\\) <br>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both L1 and L2 are context-free.</p>",
+            "<b>B.</b> <p>L1 is context-free while L2 is not context-free.</p>",
+            "<b>C.</b> <p>L2 is context-free while L1 is not context-free.</p>",
+            "<b>D.</b> <p>Neither L1 nor L2 is context-free.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L1 is context-free while L2 is not context-free.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39605/gate2016-2-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following types of languages: \\(L_{1}\\):Regular, \\(L_{2}\\):Context-free, \\(L_{3}\\):Recursive, \\(L_{4}\\):Recursively enumerable. <br>Which of the following is/are TRUE? <br>\nI. \\(\\bar{L}_{3}\\cup L_{4}\\) is recursivelyenumerable<br>\nII. \\(\\bar{L}_{2}\\cup L_{3}\\) is recursive <br>\nIII. \\(L_{1}^{*}\\cup L_{2}\\) is context-free <br>\nIV. \\(L_{1}\\cup \\bar{L}_{2}\\) is context-free <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>I and IV only</p>",
+            "<b>D.</b> <p>I, II and III only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I, II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39574/gate2016-2-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which of the following languages are context-free? <br>\\(L_{1}=\\{a^{m}b^{n}a^{n}b^{m}|m,n\\geq 1\\}\\) <br>   \\(L_{2}=\\{a^{m}b^{n}a^{m}b^{n}|m,n\\geq 1\\}\\) <br>  \\(L_{3}=\\{a^{m}b^{n}|m=2n+1\\}\\) <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 and L2 only</p>",
+            "<b>B.</b> <p>L1 and L3 only</p>",
+            "<b>C.</b> <p>L2 and L3 only</p>",
+            "<b>D.</b> <p>L3 only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>L1 and L3 only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8489/gate2015-3-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For any two languages L1 and L2 such that L1 is context-free and L2 is recursively enumerable but not recursive, which of the following is/are necessarily true?<br>\nI. \\(\\bar{L_{1}}\\) (complement of L1) is recursive <br>\nII. \\( \\bar{L_{2}}\\) (complement of L2) is recursive <br>\nIII. \\(\\bar{L_{1}}\\) is context-free <br>\nIV. \\(\\bar{L_{1}} \\cup L_{2}\\) is recursively enumerable <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>III and IV only</p>",
+            "<b>D.</b> <p>I and IV only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8019/gate2015-1-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following languages over the alphabet \\(\\sum =\\{0,1,c\\}:  \\)<br> \\(L_{1}=\\{0^{n}|1^{n}|n\\geq 0\\}\\)<br> \\(L_{2}=\\{wcw^{r}|w\\in \\{0,1\\}^{*}\\}\\) <br> \\(  L_{3}=\\{ww^{r}|w\\in \\{0,1\\}^{*}\\}\\) <br>Here \\(w^{r}\\) is the reverse of the string w. Which of these languages are deterministic Contextfree languages? <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>None of the languages</p>",
+            "<b>B.</b> <p>Only L1</p>",
+            "<b>C.</b> <p>Only L1 and L2</p>",
+            "<b>D.</b> <p>All the three languages</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only L1 and L2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2070/gate2014-3-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following languages. \\(L_{1}=\\{0^{p}1^{q}0^{r}|p,q,r\\geq 0\\}\\) <br> \\( L_{2}=\\{0^{p}1^{q}0^{r} | p,q,r \\geq  0, p \\neq  r \\}\\)<br> Which one of the following statements is FALSE? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L2 is context-free</p>",
+            "<b>B.</b> <p>L1 \\(\\cap\\) L2 is context-free</p>",
+            "<b>C.</b> <p>Complement of L2 is recursive.</p>",
+            "<b>D.</b> <p>Complement of L1 is context-free but not regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Complement of L1 is context-free but not regular</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1543/gate2013-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the languages L1, L2 and L3 as given below <br>\n\\(L1=\\{0^{p}1^{q}|p,q\\in N\\}\\) <br> \\( L2=\\{0^{p}1^{q}|p,q\\in N and p=q\\} \\) and<br> \\(L3=\\{0^{p}1^{q}0^{r}|p,q,r\\in N \\; and \\; p=q=r\\}\\) <br>Which of the following statements is NOT TRUE? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Push Down Automata (PDA) can be used to recognize L1 and L2</p>",
+            "<b>B.</b> <p>L1 is a regular language</p>",
+            "<b>C.</b> <p>All the three languages are context free</p>",
+            "<b>D.</b> <p>Turing machines can be used to recognize all the languages</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>All the three languages are context free</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2128/gate2011-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the languages <br>\\(L1=\\{0^{i}1^{j}\\;| \\; i\\neq j\\}\\). <br>\\(L2=\\{0^{i}1^{j}\\;| \\; i=j\\}\\). <br>\\(L3=\\{0^{i}1^{j}\\;| \\; i=2j+1\\}\\).<br> \\(L4=\\{0^{i}1^{j}\\;| \\; i \\neq 2j\\}\\)<br> Which one of the following statements is true? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only L2 is context free</p>",
+            "<b>B.</b> <p>Only L2 and L3 are context free</p>",
+            "<b>C.</b> <p>Only L1 and L3 are context free</p>",
+            "<b>D.</b> <p>All are context free</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All are context free</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2341/gate2010-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let \\(L=L_{1}\\cap L_{2}\\) , where \\(L_{1}\\) and \\(L_{2}\\) are languages as defined below: <br> \\(L_{1}= \\{a^{m}b^{m} c a^{n} b^{n}|m,n\\geq 0 \\}\\) <br> \\(L_{2}=\\{a^{i}b^{j}c^{k}|i,j,k\\geq 0 \\}\\)  <br><br> Then L is <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Not recursive</p>",
+            "<b>B.</b> <p>Regular</p>",
+            "<b>C.</b> <p>Context free but not regular</p>",
+            "<b>D.</b> <p>Recursively enumerable but not context free</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Context free but not regular</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1326/gate2009-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following languages.<br>\n\\(L_1 = \\{a^i b^j c^k \\mid i = j, k \\geq 1\\}\\)<br>\n\\(L_2 = \\{a^i b^j \\mid j = 2i, i \\geq 0\\}\\)<br>\nWhich of the following is true? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1\\) is not a CFL but \\(L_2\\) is</p>",
+            "<b>B.</b> <p>\\(L_1 \\cap L_2 = \\varnothing\\) and \\(L_1\\) is non-regular</p>",
+            "<b>C.</b> <p>\\(L_1 \\cup L_2\\) is not a CFL but \\(L_2\\) is</p>",
+            "<b>D.</b> <p>There is a 4-state PDA that accepts \\(L_1\\), but there is no DPDA that accepts \\(L_2\\).</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(L_1 \\cap L_2 = \\varnothing\\) and \\(L_1\\) is non-regular</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3343/gate2008-it-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following is true for the language{ \\(a^{p}\\)|p is a prime} ? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is not accepted by a Turing Machine</p>",
+            "<b>B.</b> <p>It is regular but not context-free</p>",
+            "<b>C.</b> <p>It is context-free but not regular</p>",
+            "<b>D.</b> <p>It is neither regular nor context-free, but accepted by a Turing machine</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It is neither regular nor context-free, but accepted by a Turing machine</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/407/gate2008-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The two grammars given below generate a language over the alphabet \\(\\{x, y, z\\}\\)<br>\nG1 :         \\(S \\rightarrow x \\mid z \\mid x \\ S \\mid z \\ S \\mid y \\ B\\) <br>\n\\(B \\rightarrow y \\mid z \\mid y \\ B \\mid z \\ B\\)<br>\nG2 :         \\(S \\rightarrow y \\mid z \\mid y \\ S \\mid z \\ S \\mid x \\ B\\)<br>\n\\(B \\rightarrow y \\mid y \\ S\\)<br>\nWhich one of the following choices describes the properties satisfied by the strings in these languages? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G1 : No y appears before any x<br>\nG2 : Every x is followed by at least one y</p>",
+            "<b>B.</b> <p>G1 : No y appears before any x<br>\nG2 : No x appears before any y</p>",
+            "<b>C.</b> <p>G1 : No y appears after any x<br>\nG2 : Every x is followed by at least one y</p>",
+            "<b>D.</b> <p>G1 : No y appears after any x<br>\nG2 : Every y is followed by at least one x</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>G1 : No y appears before any x<br>\nG2 : Every x is followed by at least one y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3481/gate2007-it-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The language \\(L=\\{0^{i}21^{i}|i\\geq 0\\}\\) over the alphabet {0,1,2} is: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>not recursive</p>",
+            "<b>B.</b> <p>is recursive and is a deterministic CFL.</p>",
+            "<b>C.</b> <p>is a regular language.</p>",
+            "<b>D.</b> <p>is not a deterministic CFL but a CFL.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>is recursive and is a deterministic CFL.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1228/gate2007-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

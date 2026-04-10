@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - K Mean Clustering",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "K Mean Clustering",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316239\"></a><div itemprop=\"text\"><p>K-mean clustering algorithm has clustered the given \\( 8 \\) observations into \\( 3 \\) clusters after \\( 1 \\)st iteration as follows:</p>\n\n<p>\\( C1: \\: \\{(3,3), (5,5), (7,7) \\} \\)</p>\n\n<p>\\( C2: \\: \\{(0,6), (6,0), (3,0) \\} \\)</p>\n\n<p>\\( C3: \\: \\{(8,8), (4,4)\\} \\)</p>\n\n<p>What will be the Manhattan distance for observation \\( (4,4) \\) from cluster centroid \\( C1 \\) in the second iteration?</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2019 | Part 2 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 18 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316239/ugc-net-cse-june-2019-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/316239/ugc-net-cse-june-2019-part-2-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Exponential Distribution",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Exponential Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"357433\"></a><div itemprop=\"text\">The lifetime of a component of a certain type is a random variable whose probability density function is exponentially distributed with parameter \\( 2 \\). For a randomly picked component of this type, the probability that its lifetime exceeds the expected lifetime (rounded to \\( 2 \\) decimal places) is ____________.</div><br><br><b>GATE CSE 2021 Set 1 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.35:0.39",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18\" target=\"_blank\">https://gateoverflow.in/357433/gate-cse-2021-set-1-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"461011\"></a><div itemprop=\"text\"><p>​​​​​​It is given that \\( P(X \\geq 2)=0.25 \\) for an exponentially distributed random variable \\( X \\) with \\( E[X]=\\dfrac{1}{\\lambda} \\), where \\( E[X] \\) denotes the expectation of \\( X \\). What is the value of \\( \\lambda \\) ? (ln denotes natural logarithm)</p></div><br><br><b>GATE DA 2025 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\ln 2 \\)</p>",
+            "<p>\\( \\ln 4 \\)</p>",
+            "<p>\\( \\ln 3 \\)</p>",
+            "<p>\\( \\ln 0.25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\ln 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461011/gate-da-2025-question-11\" target=\"_blank\">https://gateoverflow.in/461011/gate-da-2025-question-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"460991\"></a><div itemprop=\"text\"><p>​​​​For \\( x \\in \\mathbb{R} \\), the floor function is denoted by \\( f(x)=\\lfloor x\\rfloor \\) and defined as follows<br>\\[\\lfloor x\\rfloor=k, \\quad k \\leq x&nbsp; &lt;&nbsp; k + 1,\\]<br>where \\( k \\) is an integer. Let \\( Y=\\lfloor X\\rfloor \\), where \\( X \\) is an exponentially distributed random variable with mean \\( \\dfrac{1}{\\ln 10} \\), where \\( \\ln \\) denotes natural logarithm. For any positive integer \\( \\ell \\), one can write the probability of the event \\( Y=\\ell \\) as follows<br>\\[<br>P(Y=\\ell)=q^{\\ell}(1-q)<br>\\]<br>The value of \\( q \\) is</p></div><br><br><b>GATE DA 2025 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.1 \\)</p>",
+            "<p>\\( 0.01 \\)</p>",
+            "<p>\\( 0.5 \\)</p>",
+            "<p>\\( 0.434 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460991/gate-da-2025-question-31\" target=\"_blank\">https://gateoverflow.in/460991/gate-da-2025-question-31</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"422915\"></a><div itemprop=\"text\">Let \\( X \\) be a random variable exponentially distributed with parameter \\( \\lambda&gt;0 \\). The probability density function of \\( X \\) is given by:<br>\n\\[<br>\nf_{X}(x)=\\left\\{\\begin{array}{ll}<br>\n\\lambda e^{-\\lambda x}, \\quad x \\geq 0 \\\\<br>\n0, &amp; \\text { otherwise }<br>\n\\end{array}\\right.<br>\n\\]<br>\n<br>\nIf \\( 5 E(X)=\\operatorname{Var}(X) \\), where \\( E(X) \\) and \\( \\operatorname{Var}(X) \\) indicate the expectation and variance of \\( X \\), respectively, the value of \\( \\lambda \\) is \\( \\_\\_\\_\\_\\_\\_\\_\\_ \\) (rounded off to one decimal place).</div><br><br><b>GATE DS&AI 2024 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0.2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422915/gate-ds&ai-2024-question-47\" target=\"_blank\">https://gateoverflow.in/422915/gate-ds&ai-2024-question-47</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3676\"></a><div itemprop=\"text\"><p>Let \\( X \\) and \\( Y \\) be two exponentially distributed and independent random variables with mean \\( α \\) and \\( β \\), respectively. If \\( Z \\) = min \\( (X, Y) \\), then the mean of \\( Z \\) is given by</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{1}{\\alpha + \\beta}\\right) \\)</p>",
+            "<p>\\( \\min (\\alpha, \\beta) \\)</p>",
+            "<p>\\( \\left(\\dfrac{\\alpha\\beta}{\\alpha + \\beta}\\right) \\)</p>",
+            "<p>\\( \\alpha + \\beta \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{\\alpha\\beta}{\\alpha + \\beta}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3676/gate-it-2004-question-33\" target=\"_blank\">https://gateoverflow.in/3676/gate-it-2004-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+});

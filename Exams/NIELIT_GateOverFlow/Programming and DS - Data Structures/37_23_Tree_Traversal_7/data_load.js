@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Programming and DS - Data Structures - Tree Traversal",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Tree Traversal",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336723\"></a><div itemprop=\"text\"><p>Traversing a binary tree first root and then left and right subtrees called ______ traversal.</p>\n\n</div><br><br><b>Data Structures: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>postorder.</p>",
+            "<p>preorder.</p>",
+            "<p>inorder.</p>",
+            "<p>none of these.</p>"
+          ],
+          "correct_answer": "<p>preorder.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336723/nielit-2016-mar-scientist-b-section-c-18\" target=\"_blank\">https://gateoverflow.in/336723/nielit-2016-mar-scientist-b-section-c-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336844\"></a><div itemprop=\"text\"><p>In binary search tree which traversal is used for getting ascending order values ?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inorder</p>",
+            "<p>Preorder</p>",
+            "<p>Postorder</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Inorder</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336844/nielit-2017-dec-scientific-assistant-a-section-b-2\" target=\"_blank\">https://gateoverflow.in/336844/nielit-2017-dec-scientific-assistant-a-section-b-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336283\"></a><div itemprop=\"text\"><p>If for a given Binary Search Tree (BST) the pre-order traversal is \\( 41,23,11,31,62,50,73 \\). Then which of the following is its post-order traversal?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11,31,23,50,73,62,41 \\)</p>",
+            "<p>\\( 31,11,23,50,41,62,73 \\)</p>",
+            "<p>\\( 11,31,50,23,73,62,41 \\)</p>",
+            "<p>\\( 11,31,23,50,62,73,41 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11,31,23,50,73,62,41 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336283/nielit-2017-dec-scientist-b-section-b-30\" target=\"_blank\">https://gateoverflow.in/336283/nielit-2017-dec-scientist-b-section-b-30</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336915\"></a><div itemprop=\"text\"><p>A binary search tree contains the values-\\( 1,2,3,4,5,6,7 \\) and \\( 8. \\) The tree is traversed&nbsp;in preorder and the values are printed out. Which of the following sequences is a valid output?</p>\n\n</div><br><br><b>Data Structures: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5\\;\\;3\\;\\;1\\;\\;2\\;\\;4\\;\\;7\\;\\;8\\;\\;6\\;\\; \\)</p>",
+            "<p>\\( 5\\;\\;3\\;\\;1\\;\\;2\\;\\;6\\;\\;4\\;\\;9\\;\\;7 \\)</p>",
+            "<p>\\( 5\\;\\;3\\;\\;2\\;\\;4\\;\\;1\\;\\;6\\;\\;7\\;\\;8 \\)</p>",
+            "<p>\\( 5\\;\\;3\\;\\;1\\;\\;2\\;\\;4\\;\\;7\\;\\;6\\;\\;8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5\\;\\;3\\;\\;1\\;\\;2\\;\\;4\\;\\;7\\;\\;6\\;\\;8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336915/nielit-2017-oct-scientific-assistant-a-cs-section-b-5\" target=\"_blank\">https://gateoverflow.in/336915/nielit-2017-oct-scientific-assistant-a-cs-section-b-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"275484\"></a><div itemprop=\"text\"><p>_____ &nbsp;traversals are&nbsp;not sufficient to build a binary tree.</p>\n\n</div><br><br><b>Data Structures: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Preorder and Inorder</p>",
+            "<p>Postorder and Inorder</p>",
+            "<p>Postorder and Preorder</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>Postorder and Preorder</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275484/nielit-2018-80\" target=\"_blank\">https://gateoverflow.in/275484/nielit-2018-80</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"378689\"></a><div itemprop=\"text\"><p>The preorder traversal of a binary search tree is given by \\( 12, 8, 6, 2, 7, 9, 10, 16, 15, 19, 17, 20 \\).</p>\n\n<p>Then postorder traversal will be:</p>\n\n</div><br><br><b>Data Structures: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20 \\)</p>",
+            "<p>\\( 2, 7, 6, 10, 9, 8,15, 17, 20, 19, 16, 12 \\)</p>",
+            "<p>\\( 7, 2, 6, 8, 9, 10, 20, 17, 19, 15, 16, 12 \\)</p>",
+            "<p>\\( 7, 6, 2, 10, 9, 8, 15, 16, 17, 20, 19, 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2, 7, 6, 10, 9, 8,15, 17, 20, 19, 16, 12 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378689/nielit-2021-dec-scientist-b-section-b-74\" target=\"_blank\">https://gateoverflow.in/378689/nielit-2021-dec-scientist-b-section-b-74</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"351637\"></a><div itemprop=\"text\"><p>The Preorder traversal of a tree given below is:</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7971880073380013573\" width=\"400\"></p>\n\n</div><br><br><b>Data Structures: NIELIT Scientist B 2020 November: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A B D F E C G I H J K L} \\)</p>",
+            "<p>\\( \\text{A B C D E G H F I J K L} \\)</p>",
+            "<p>\\( \\text{A B E D F C G H I J K L} \\)</p>",
+            "<p>\\( \\text{A B D F E C G I J H K L} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A B D F E C G I H J K L} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351637/nielit-scientist-b-2020-november-45\" target=\"_blank\">https://gateoverflow.in/351637/nielit-scientist-b-2020-november-45</a></p>"
+        }
+      ]
+    }
+  ]
+});

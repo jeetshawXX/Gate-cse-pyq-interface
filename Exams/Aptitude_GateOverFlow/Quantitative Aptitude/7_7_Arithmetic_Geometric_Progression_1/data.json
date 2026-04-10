@@ -1,0 +1,26 @@
+{
+  "title": "Quantitative Aptitude - Arithmetic Geometric Progression",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Arithmetic Geometric Progression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"5841\"></a><div itemprop=\"text\"><p>If&nbsp;\\( a_1=1/\\left ( 2^{*}5 \\right ),a_2=1/\\left ( 5^{*}8 \\right ),a_3=1/\\left ( 8^{*}11 \\right ),\\dots\\dots, \\) then \\( a_1+a_2+\\dots\\dots+a_{100} \\) is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2017 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25/151 \\)</p>",
+            "<p>\\( 1/2 \\)</p>",
+            "<p>\\( 1/4 \\)</p>",
+            "<p>\\( 111/55 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 25/151 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5841/cat-2017-set-2-question-100\" target=\"_blank\">https://aptitude.gateoverflow.in/5841/cat-2017-set-2-question-100</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "title": "Network_Security - Network_Security - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Network_Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Avalanche effect in cryptography refers <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Large changes in cipher text when the keyword is changed minimally</p>",
+            "<b>B.</b> <p>Large changes in cipher text when the plain text is changed</p>",
+            "<b>C.</b> <p>Large Impact of keyword change to length of the cipher text</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Large changes in cipher text when the keyword is changed minimally</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331416/isro2020-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a columnar transportation cipher, the plain text is \"the tomato is a plant in the night shade family\", keyword is \"TOMATO\". The cipher text is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>",
+            "<b>B.</b> <p>\"TINESAX / EOAHTFX / MAIIAIX / HTLTHEY / TAPNGDL / OSTNHMX\"</p>",
+            "<b>C.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / OSTNHMX / TAPNGDL\"</p>",
+            "<b>D.</b> <p>\"EOAHTFX / TINESAX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331415/isro2020-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which one of the following algorithm is not used in asymmetric key cryptography? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RSA Algorithm</p>",
+            "<b>B.</b> <p>Gillie-Hellman Algorithm</p>",
+            "<b>C.</b> <p>Electronic Code Book Algorithm</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Electronic Code Book Algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213510/isro2018-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is one advantage of setting up a DMZ (Demilitarized Zone) with two firewalls? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>You can control where traffic goes in the three networks</p>",
+            "<b>B.</b> <p>You can do statefull packet filtering</p>",
+            "<b>C.</b> <p>You can do load balancing</p>",
+            "<b>D.</b> <p>Improve network performance</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>You can control where traffic goes in the three networks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213511/isro2018-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Avalanche effect in cryptography <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is desirable property of cryptographic algorithm</p>",
+            "<b>B.</b> <p>Is undesirable property of cryptographic algorithm</p>",
+            "<b>C.</b> <p>Has no effect on encryption algorithm</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Is desirable property of cryptographic algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213514/isro2018-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>In cryptography, the following uses transposition ciphers and the keyword is LAYER. Encrypt the following message. (Spaces are omitted during encrypton)<br>WELCOME TO NETWORK SECURITY! <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>WMEKREETSILTWETCOOCYONRU!</p>",
+            "<b>B.</b> <p>EETSICOOCYWMEKRONRU!LTWET</p>",
+            "<b>C.</b> <p>LTWETONRU!WMEKRCOOCYEETSI</p>",
+            "<b>D.</b> <p>ONRU!COOCYLTWETEETSIWMEKR</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EETSICOOCYWMEKRONRU!LTWET</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213542/isro2018-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Pretty Good Privacy (PGP) is used in: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Browser security</p>",
+            "<b>B.</b> <p>FTP security</p>",
+            "<b>C.</b> <p>Email security</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Email security</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128669/isro2017-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>MD5 is a widely used hash function for producing hash value of <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 bits</p>",
+            "<b>B.</b> <p>128 bits</p>",
+            "<b>C.</b> <p>512 bits</p>",
+            "<b>D.</b> <p>1024 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>128 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128663/isro2017-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>If a class C is derived from class B, which is derived form class A, all through public inheritance, then a class C member function can access <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only protected and public data of C and B</p>",
+            "<b>B.</b> <p>Only protected and public data of C</p>",
+            "<b>C.</b> <p>all data of C and private data of A and B</p>",
+            "<b>D.</b> <p>public and protected data of A and B and all data of C</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>public and protected data of A and B and all data of C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55530/isro2016-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a system an RSA algorithm with p=5 and q=11, is implemented for data security. What is the value of the decryption key if the value of the encryption key is 27? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>27</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17421/isro2014-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which of the following encryption algorithms is based on the Feistal structure? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Advanced Encryption Standard</p>",
+            "<b>B.</b> <p>RSA public key cryptographic algorithm</p>",
+            "<b>C.</b> <p>Data Encryption standard</p>",
+            "<b>D.</b> <p>RC4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Data Encryption standard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44152/isro-2013-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What will be the cipher text produced by the following cipher function for the plain text ISRO with key k=7. [ Consider \\('A'=0, 'B'=1,....'Z'=25\\)]<br>\n\\(C_{k} (M) = (kM + 13) \\mod 26\\) <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RJCH</p>",
+            "<b>B.</b> <p>QIBG</p>",
+            "<b>C.</b> <p>GQPM</p>",
+            "<b>D.</b> <p>XPIN</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RJCH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43843/isro-2013-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In which layer of  network architecture, the secured socket layer (SSL) is used? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>physical layer</p>",
+            "<b>B.</b> <p>session layer</p>",
+            "<b>C.</b> <p>application layer</p>",
+            "<b>D.</b> <p>presentation layer</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>presentation layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18114/isro2011-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>An example of poly-alphabetic substitution  is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-box</p>",
+            "<b>B.</b> <p>S-box</p>",
+            "<b>C.</b> <p>Caesar cipher</p>",
+            "<b>D.</b> <p>Vigenere cipher</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Vigenere cipher</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52452/isro2011-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Use of IPSEC in tunnel mode results in <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IP packet with same header</p>",
+            "<b>B.</b> <p>IP packet with new header</p>",
+            "<b>C.</b> <p>IP packet without header</p>",
+            "<b>D.</b> <p>No changes in IP packet</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IP packet with new header</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47319/isro2009-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

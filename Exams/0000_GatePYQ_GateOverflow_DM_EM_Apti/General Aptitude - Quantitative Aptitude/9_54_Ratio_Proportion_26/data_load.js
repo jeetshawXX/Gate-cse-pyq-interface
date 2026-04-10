@@ -1,0 +1,396 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Ratio Proportion",
+  "duration": 72,
+  "sections": [
+    {
+      "name": "Ratio Proportion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426518\"></a><div itemprop=\"text\"><p>​​If, for non-zero real variables \\( x, y \\), and real parameter \\( a&gt;1 \\),<br>\n\\[<br>\nx: y=(a+1):(a-1) \\text {, }<br>\n\\]<br>\nthen, the ratio \\( \\left(x^{2}-y^{2}\\right):\\left(x^{2}+y^{2}\\right) \\) is</p>\n\n</div><br><br><b>GATE 2024 Electrical | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 a:\\left(a^{2}+1\\right) \\)</p>",
+            "<p>\\( a:\\left(a^{2}+1\\right) \\)</p>",
+            "<p>\\( 2 a:\\left(a^{2}-1\\right) \\)</p>",
+            "<p>\\( a:\\left(a^{2}-1\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 a:\\left(a^{2}+1\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426518/gate-2024-electrical-ga-question-5\" target=\"_blank\">https://gateoverflow.in/426518/gate-2024-electrical-ga-question-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39612\"></a><div itemprop=\"text\"><p><span style=\"line-height: 1.6;\">In a process, the number of cycles to failure decreases exponentially with an increase in load. At a load of \\( 80 \\) units, it takes \\( 100 \\) cycles for failure. When the load is halved, it takes \\( 10000 \\ \\text{cycles} \\) for failure.The load for which the failure will happen in \\( 5000 \\ \\text{cycles} \\) is _____________.</span></p></div><br><br><b>GATE CSE 2016 Set 1 | Question: GA10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 40.00 \\)</p>",
+            "<p>\\( 46.02 \\)</p>",
+            "<p>\\( 60.01 \\)</p>",
+            "<p>\\( 92.02 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 46.02 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10\" target=\"_blank\">https://gateoverflow.in/39612/gate-cse-2016-set-1-question-ga10</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"204069\"></a><div itemprop=\"text\"><p>In a party, \\( 60\\% \\) of the invited guests are male and \\( 40\\% \\) are female.If \\( 80\\% \\) of the invited guests attended the party and if all the invited female guests attended, what would be the&nbsp;ratio of males to females among the attendees in the party?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2\\colon 3 \\)</p>",
+            "<p>\\( 1\\colon 1 \\)</p>",
+            "<p>\\( 3\\colon 2 \\)</p>",
+            "<p>\\( 2\\colon 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1\\colon 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204069/gate-cse-2018-question-ga-8\" target=\"_blank\">https://gateoverflow.in/204069/gate-cse-2018-question-ga-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"357476\"></a><div itemprop=\"text\"><p>​​​​​​The ratio of boys to girls in a class is \\( 7 \\) to \\( 3 \\).</p>\n\n<p>Among the options below, an acceptable value for the total number of students in the class is:</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 21 \\)</p>",
+            "<p>\\( 37 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 73 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1\" target=\"_blank\">https://gateoverflow.in/357476/gate-cse-2021-set-1-ga-question-1</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"357542\"></a><div itemprop=\"text\"><p>The number of students in three classes is in the ratio \\( 3:13:6 \\). If \\( 18 \\) students are added to each class, the ratio changes to \\( 15:35:21 \\).</p>\n\n<p>The total number of students in all the three classes in the beginning was:</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 22 \\)</p>",
+            "<p>\\( 66 \\)</p>",
+            "<p>\\( 88 \\)</p>",
+            "<p>\\( 110 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 88 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"422785\"></a><div itemprop=\"text\"><p>​​​If two distinct non-zero real variables \\( x \\) and \\( y \\) are such that \\( (x+y) \\) is proportional to \\( (x-y) \\) then the value of \\( \\frac{x}{y} \\)</p></div><br><br><b>GATE CSE 2024 | Set 1 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>depends on \\( x y \\)</p>",
+            "<p>depends only on \\( x \\) and not on \\( y \\)</p>",
+            "<p>depends only on \\( y \\) and not on \\( x \\)</p>",
+            "<p>is a constant</p>"
+          ],
+          "correct_answer": "<p>is a constant</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422785/gate-cse-2024-set-1-ga-question-2\" target=\"_blank\">https://gateoverflow.in/422785/gate-cse-2024-set-1-ga-question-2</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359832\"></a><div itemprop=\"text\"><p>The ratio of ‘the sum of the odd positive integers from \\( 1 \\) to \\( 100 \\)’ to ‘the sum of the even positive integers from \\( 150 \\) to \\( 200 \\)’ is&nbsp;________.</p>\n\n</div><br><br><b>GATE Civil 2020 Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 45:95 \\)</p>",
+            "<p>\\( 1:2 \\)</p>",
+            "<p>\\( 50:91 \\)</p>",
+            "<p>\\( 1:1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 50:91 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359832/gate-civil-2020-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/359832/gate-civil-2020-set-2-ga-question-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"411739\"></a><div itemprop=\"text\"><p>If</p>\n\n<p>\\( p : q = 1:2 \\)</p>\n\n<p>\\( q : r = 4 : 3 \\)</p>\n\n<p>\\( r : s = 4 : 5 \\)</p>\n\n<p>and \\( u \\)&nbsp; is \\( 50\\% \\) more than \\( s \\), what is the ratio \\( p : u \\)?</p>\n\n</div><br><br><b>GATE Civil 2022 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 : 15 \\)</p>",
+            "<p>\\( 16 : 15 \\)</p>",
+            "<p>\\( 1 : 5 \\)</p>",
+            "<p>\\( 16 : 45 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 : 45 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411739/gate-civil-2022-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411739/gate-civil-2022-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"411761\"></a><div itemprop=\"text\"><p>\\( x:y:z = \\frac{1}{2} : \\frac{1}{3} : \\frac{1}{4}. \\)</p>\n\n<p>What is the value of \\( \\frac{x+z-y}{y} ? \\)</p>\n\n</div><br><br><b>GATE Civil 2022 Set 2 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.75 \\)</p>",
+            "<p>\\( 1.25 \\)</p>",
+            "<p>\\( 2.25 \\)</p>",
+            "<p>\\( 3.25 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1.25 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411761/gate-civil-2022-set-2-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411761/gate-civil-2022-set-2-ga-question-2</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"411751\"></a><div itemprop=\"text\"><p>In a partnership business, the monthly investment by three friends for the first six months is in the ratio \\( 3:4:5. \\) After six months, they had to increase their monthly investments by \\( 10 \\%, 15&nbsp;\\%, \\; \\text{and}&nbsp;\\; 20&nbsp;\\%, \\) respectively, of their initial monthly investment. The new investment ratio was kept constant for the next six months.</p>\n\n<p>What is the ratio of their shares in the total profit (in the same order) at the end of the year such that the share is proportional to their individual total investment over the year?</p>\n\n</div><br><br><b>GATE Civil 2022 Set 2 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 22:23:24 \\)</p>",
+            "<p>\\( 22:33:50 \\)</p>",
+            "<p>\\( 33:46:60 \\)</p>",
+            "<p>\\( 63:86:110 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 63:86:110 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411751/gate-civil-2022-set-2-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411751/gate-civil-2022-set-2-ga-question-7</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"426490\"></a><div itemprop=\"text\"><p>The ratio of the number of girls to boys in class \\( \\text{VIII} \\) is the same as the ratio of the number of boys to girls in class \\( \\text{IX} \\). The total number of students (boys and girls) in classes \\( \\text{VIII} \\) and \\( \\text{IX} \\) is \\( 450 \\) and \\( 360 \\), respectively. If the number of girls in classes \\( \\text{VIII} \\) and \\( \\text{IX} \\) is the same, then the number of girls in each class is</p><p></p></div><br><br><b>GATE Civil 2024 Set 2 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 150 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 250 \\)</p>",
+            "<p>\\( 175 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 200 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426490/gate-civil-2024-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/426490/gate-civil-2024-set-2-ga-question-5</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"411700\"></a><div itemprop=\"text\"><p>A sum of money is to be distributed among \\( \\text{P, Q, R,} \\) and \\( \\text{S} \\) in the proportion \\( 5:2:4:3, \\) respectively.</p>\n\n<p>If \\( \\text{R} \\) gets&nbsp; ₹ \\(  1000 \\) more than \\( \\text{S}, \\) what is the share of \\( \\text{Q (in ₹)}? \\)</p>\n\n</div><br><br><b>GATE ECE 2022 | GA Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 500 \\)</p>",
+            "<p>\\( 1000 \\)</p>",
+            "<p>\\( 1500 \\)</p>",
+            "<p>\\( 2000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411700/gate-ece-2022-ga-question-2\" target=\"_blank\">https://gateoverflow.in/411700/gate-ece-2022-ga-question-2</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"426537\"></a><div itemprop=\"text\"><p>​​​​Five years ago, the ratio of Aman's age to his father's age was \\( 1: 4 \\), and five years from now, the ratio will be \\( 2:5 \\). What was his father's age when Aman was born?</p>\n\n</div><br><br><b>GATE ECE 2024 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 28 \\) years</p>",
+            "<p>\\( 30 \\) years</p>",
+            "<p>\\( 35 \\) years</p>",
+            "<p>\\( 32 \\) years</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\) years</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426537/gate-ece-2024-ga-question-3\" target=\"_blank\">https://gateoverflow.in/426537/gate-ece-2024-ga-question-3</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"359540\"></a><div itemprop=\"text\"><p>An engineer measures THREE quantities, \\( X, Y \\) and \\( Z \\) in an experiment. She finds that they follow a relationship that is represented in the figure below\\( : ( \\)the product of \\( X \\) and \\( Y \\) linearly varies with \\( Z) \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"163\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___ratio_proportion/fde852af6fd53e355c475a880a2fd6f4.png\" width=\"171\"></p>\n\n<p>Then, which of the following statements is FALSE?</p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>For fixed \\( Z \\); \\( X \\) is proportional to \\( Y \\)</p>",
+            "<p>For fixed \\( Y \\); \\( X \\) is proportional to \\( Z \\)</p>",
+            "<p>For fixed \\( X \\); \\( Z \\) is proportional to \\( Y \\)</p>",
+            "<p>\\( XY/Z \\) is constant</p>"
+          ],
+          "correct_answer": "<p>For fixed \\( Z \\); \\( X \\) is proportional to \\( Y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359540/gate-mechanical-2020-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359540/gate-mechanical-2020-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"359474\"></a><div itemprop=\"text\"><p>The number of hens, ducks and goats in farm \\( P \\) are \\( 65,91 \\) and \\( 169, \\) respectively. The total number of hens, ducks and goats in a nearby farm \\( Q \\) is \\( 416. \\) The ratio of hens : ducks : goats in farm \\( Q \\) is \\( 5:14:13. \\) All the hens, ducks and goats are sent from farm \\( Q \\) to farm \\( P. \\)</p>\n\n<p>The new ratio of hens : ducks : goats in farm \\( P \\) is ________</p>\n\n</div><br><br><b>GATE Mechanical 2021 Set 1 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5:7:13 \\)</p>",
+            "<p>\\( 5:14:13 \\)</p>",
+            "<p>\\( 10:21:26 \\)</p>",
+            "<p>\\( 21:10:26 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10:21:26 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359474/gate-mechanical-2021-set-1-ga-question-8\" target=\"_blank\">https://gateoverflow.in/359474/gate-mechanical-2021-set-1-ga-question-8</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"426512\"></a><div itemprop=\"text\"><p>​​The real variables \\( x, y, z \\), and the real constants \\( p, q, r \\) satisfy</p>\n\n<p>\\[<br>\n\\frac{x}{p q-r^{2}}=\\frac{y}{q r-p^{2}}=\\frac{z}{r p-q^{2}}<br>\n\\]<br>\n<br>\nGiven that the denominators are non-zero, the value of \\( p x+q y+r z \\) is</p>\n\n</div><br><br><b>GATE Mechanical 2024 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( p q r \\)</p>",
+            "<p>\\( p^{2}+q^{2}+r^{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426512/gate-mechanical-2024-ga-question-4\" target=\"_blank\">https://gateoverflow.in/426512/gate-mechanical-2024-ga-question-4</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"312128\"></a><div itemprop=\"text\"><p>Three friends, \\( R, S \\) and \\( T \\) shared toffee from a&nbsp;bowl.&nbsp;\\( R \\) took \\( \\frac{1}{3}^{\\text{rd}} \\) of the toffees,&nbsp;but returned four to the bowl.&nbsp;\\( S \\) took \\( \\frac{1}{4}^{\\text{th}} \\) of what was left but returned three toffees to the bowl.&nbsp;\\( T \\) took half of the remainder but returned two back into the bowl.&nbsp;If the bowl had \\( 17 \\) toffees left,&nbsp;how may toffees were originally there in the bowl?</p>\n\n</div><br><br><b>GATE2011 AG: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 38 \\)</p>",
+            "<p>\\( 31 \\)</p>",
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 41 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 48 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312128/gate2011-ag-ga-8\" target=\"_blank\">https://gateoverflow.in/312128/gate2011-ag-ga-8</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"40205\"></a><div itemprop=\"text\"><p>If \\( m \\) students require a total of \\( m \\) pages of stationery in \\( m \\) days, then \\( 100 \\) students will require \\( 100 \\) pages of stationery in</p>\n\n</div><br><br><b>GATE2011 GG: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 100 \\) days</p>",
+            "<p>\\( m /100 \\) days</p>",
+            "<p>\\( 100/m \\) days</p>",
+            "<p>\\( m \\) days</p>"
+          ],
+          "correct_answer": "<p>\\( m \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40205/gate2011-gg-ga-4\" target=\"_blank\">https://gateoverflow.in/40205/gate2011-gg-ga-4</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"40242\"></a><div itemprop=\"text\"><p>If \\( 3 \\leq X \\leq 5 \\) and \\( 8 \\leq Y \\leq 11 \\) then which of the following options is TRUE?</p>\n\n</div><br><br><b>GATE2013 AE: GA-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\dfrac{3}{5} \\leq \\dfrac{X}{Y} \\leq \\dfrac{8}{5}\\right) \\)&nbsp;</p>",
+            "<p>\\( \\left(\\dfrac{3}{11} \\leq \\dfrac{X}{Y} \\leq \\dfrac{5}{8}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{3}{11} \\leq \\dfrac{X}{Y} \\leq \\dfrac{8}{5}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{3}{5} \\leq \\dfrac{X}{Y} \\leq \\dfrac{8}{11}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{3}{11} \\leq \\dfrac{X}{Y} \\leq \\dfrac{5}{8}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40242/gate2013-ae-ga-1\" target=\"_blank\">https://gateoverflow.in/40242/gate2013-ae-ga-1</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"40308\"></a><div itemprop=\"text\">The smallest angle of a triangle is equal to two thirds of the smallest angle of a quadrilateral. The ratio between the angles of the quadrilateral is \\( 3:4:5:6. \\) The largest angle of the triangle is twice its smallest angle. What is the sum, in degrees, of the second largest angle of the triangle and the largest angle of the quadrilateral?</div><br><br><b>GATE2014 AE: GA-8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "180",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40308/gate2014-ae-ga-8\" target=\"_blank\">https://gateoverflow.in/40308/gate2014-ae-ga-8</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"39496\"></a><div itemprop=\"text\"><p>A cube of side \\( 3 \\) units is formed using a set of smaller cubes of side \\( 1 \\) unit. Find the proportion of the number of faces of the smaller cubes visible to those which are NOT visible.</p>\n\n</div><br><br><b>GATE2015 EC-1: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  1: 4 \\)</p>",
+            "<p>\\(  1: 3 \\)</p>",
+            "<p>\\(  1: 2 \\)</p>",
+            "<p>\\(  2: 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  1: 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39496/gate2015-ec-1-ga-9\" target=\"_blank\">https://gateoverflow.in/39496/gate2015-ec-1-ga-9</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"313415\"></a><div itemprop=\"text\"><p>What is the value of \\( x \\) when \\( 81\\times\\left (\\frac{16}{25} \\right )^{x+2}\\div\\left (\\frac{3}{5} \\right )^{2x+4}=144? \\)</p>\n\n</div><br><br><b>GATE2017 CE-2: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( -2 \\)</p>",
+            "<p>\\( \\text{Can not be determined} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313415/gate2017-ce-2-ga-4\" target=\"_blank\">https://gateoverflow.in/313415/gate2017-ce-2-ga-4</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"313254\"></a><div itemprop=\"text\"><p>The price of a wire made of a super alloy&nbsp;material is proportional to the square of its length. The price of \\( 10 m \\) length of the wire is Rs. \\( 1600 \\). What would be the total price (in Rs.) of two wires of length \\( 4m \\) and \\( 6m \\) ?</p>\n\n</div><br><br><b>GATE2018 CE-1: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 768 \\)</p>",
+            "<p>\\( 832 \\)</p>",
+            "<p>\\( 1440 \\)</p>",
+            "<p>\\( 1600 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 832 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313254/gate2018-ce-1-ga-7\" target=\"_blank\">https://gateoverflow.in/313254/gate2018-ce-1-ga-7</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"313385\"></a><div itemprop=\"text\"><p>In manufacturing industries, loss is usually taken to be proportional to the square of the deviation from a target. If the loss is Rs. \\( 4900 \\) for a deviation of \\( 7 \\) units, what would be the loss in Rupees for a deviation of \\( 4 \\) units from the target?</p>\n\n</div><br><br><b>GATE2018 CE-2: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 400 \\)</p>",
+            "<p>\\( 1200 \\)</p>",
+            "<p>\\( 1600 \\)</p>",
+            "<p>\\( 2800 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1600 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313385/gate2018-ce-2-ga-6\" target=\"_blank\">https://gateoverflow.in/313385/gate2018-ce-2-ga-6</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"205211\"></a><div itemprop=\"text\"><p>Two alloys \\( A \\) and \\( B \\) contain gold and copper in the ratios of \\( 2:3 \\) and \\( 3:7 \\) by mass, respectively. Equal masses of alloys \\( A \\) and \\( B \\) are melted to make an alloy \\( C \\). The ratio of gold to copper in alloy \\( C \\) is ______.</p>\n\n</div><br><br><b>GATE2018 EC: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  5:10 \\)</p>",
+            "<p>\\( 7:13 \\)</p>",
+            "<p>\\( 6:11 \\)</p>",
+            "<p>\\( 9:13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7:13 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/205211/gate2018-ec-ga-7\" target=\"_blank\">https://gateoverflow.in/205211/gate2018-ec-ga-7</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"313564\"></a><div itemprop=\"text\"><p>The ratio&nbsp;of the number of boys and girls who participated in an examination is \\( 4:3. \\) The total percentage of candidates who passed the examination is \\( 80 \\) and the percentage of girls who passed the exam is \\( 90. \\) The percentage of boys who passed is _______.</p>\n\n</div><br><br><b>GATE2019 EE: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 55.50 \\)</p>",
+            "<p>\\( 72.50 \\)</p>",
+            "<p>\\( 80.50 \\)</p>",
+            "<p>\\( 90.00 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 72.50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313564/gate2019-ee-ga-7\" target=\"_blank\">https://gateoverflow.in/313564/gate2019-ee-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

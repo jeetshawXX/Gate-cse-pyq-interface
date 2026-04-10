@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - LR Parser",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "LR Parser",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25215\"></a><div itemprop=\"text\"><p>Which of the following correctly describes \\( \\text{LR}(k) \\) parsing?</p></div><br><br><b>Compiler Design: TIFR CSE 2012 | Part B | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The input string is alternately scanned left to right and right to left with \\( k \\) reversals.</p>",
+            "<p>Input string is scanned once left to right with rightmost derivation and \\( k \\) symbol look-ahead.</p>",
+            "<p>\\( \\text{LR}(k) \\) grammers are expressively as powerful as context-free grammers.</p>",
+            "<p>Parser makes \\( k \\) left-to-right passes over input string.</p>",
+            "<p>Input string is scanned from left to right once with \\( k \\) symbol to the right as look-ahead to give left-most derivation.</p>"
+          ],
+          "correct_answer": "<p>Input string is scanned once left to right with rightmost derivation and \\( k \\) symbol look-ahead.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25215/tifr-cse-2012-part-b-question-17\" target=\"_blank\">https://gateoverflow.in/25215/tifr-cse-2012-part-b-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+});

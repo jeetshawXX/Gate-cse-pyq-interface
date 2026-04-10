@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Digital_Logic - Digital_Logic - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Digital_Logic",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the minimum number of 2-input NOR gates required to implement 4-variable function expressed in sum-of-minterms from as \\(f = \\Sigma (0, 2, 5, 7, 8, 10, 13, 15)\\)? Assume that all the inputs and their complements are available. Answer ________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302798/gate2019-cs-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider three 4-variable functions \\(f_1,f_2 \\; and \\; f_3\\), which are expressed in sum-of-minterms<br><br>\n\\(f_1=\\Sigma (0,2,5,8,14)\\)<br>\n\\(f_2=\\Sigma (2,3,6,8,14,15)\\)<br>\n\\(f_3=\\Sigma (2,7,11,14)\\) <br><br>\nFor the following circuit with one AND gate and one XOR gate, the output function f can be expressed as: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q30_614af789.jpg\"> <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Sigma (7,8,11)\\)</p>",
+            "<b>B.</b> <p>\\(\\Sigma (2,7,8,11,14)\\)</p>",
+            "<b>C.</b> <p>\\(\\Sigma (2,14)\\)</p>",
+            "<b>D.</b> <p>\\(\\Sigma (0,2,3,5,6,7,8,11,14,15)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Sigma (7,8,11)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302818/gate2019-cs-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider Z = X - Y where X, Y and Z are all in sign-magnitude form. X and Y are each represented in n bits. To avoid overflow, the representation of Z would require a minimum of: <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n bits</p>",
+            "<b>B.</b> <p>n-1 bits</p>",
+            "<b>C.</b> <p>n+1 bits</p>",
+            "<b>D.</b> <p>n+2 bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>n+1 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302840/gate2019-cs-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following is NOT a valid identity? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((x\\oplus y)\\oplus z=x\\oplus (y\\oplus z)\\)</p>",
+            "<b>B.</b> <p>\\((x+ y)\\oplus z=x\\oplus (y+z)\\)</p>",
+            "<b>C.</b> <p>\\(x\\oplus y=x+y, \\; if \\; xy=0\\)</p>",
+            "<b>D.</b> <p>\\(x\\oplus y=(xy+x'y')'\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((x+ y)\\oplus z=x\\oplus (y+z)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302842/gate2019-cs-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In 16-bit 2's complement representation, the decimal number -28 is: <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1111 1111 0001 1100</p>",
+            "<b>B.</b> <p>0000 0000 1110 0100</p>",
+            "<b>C.</b> <p>1111 1111 1110 0100</p>",
+            "<b>D.</b> <p>1000 0000 1110 0100</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1111 1111 1110 0100</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/302844/gate2019-cs-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Any set of Boolean operation that is sufficient to represent all Boolean expression is said to be complete. Which of the following is not complete ? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{AND, OR}</p>",
+            "<b>B.</b> <p>{AND, NOT}</p>",
+            "<b>C.</b> <p>{NOT, OR}</p>",
+            "<b>D.</b> <p>{NOR}</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>{AND, OR}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213526/isro2018-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A computer uses ternary system instead of the traditional systen, An n bit string in the binary system will occupy <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3+n ternary digits</p>",
+            "<b>B.</b> <p>2n/3 ternary digits</p>",
+            "<b>C.</b> <p>\\(n \\log _{2} 3\\) ternary digits</p>",
+            "<b>D.</b> <p>\\(n \\log _{3} 2\\) ternary digits</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(n \\log _{3} 2\\) ternary digits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213556/isro2018-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Given \\(\\sqrt{224_{r}}=13_{r}\\) the value of radix r is <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213569/isro2018-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q9_7cd2ae9c.jpg\"><br>  In the diagram above, the inverter (NOT gate) and the AND-gates labeled 1 and 2 have delays of 9, 10 and 12 nanoseconds (ns), respectively. Wire delays are negligible. For certain values a and c, together with certain transition of b, a glitch (spurious output) is generated for a short time, after which the output assumes its correct value. The duration of glitch is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7 ns</p>",
+            "<b>B.</b> <p>9 ns</p>",
+            "<b>C.</b> <p>11 ns</p>",
+            "<b>D.</b> <p>13 ns</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>7 ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213579/isro2018-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>If a variable can take only integral values from 0 to n, where n is an integer, then the variable can be represented as a bit-field whose width is (the log in the answer are to the base 2, and \\(\\lceil\\log n\\rceil\\) means the floor of \\(\\log_{}{n}\\) ) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\lceil \\log (n) \\right \\rceil + 1 \\text{ bits}\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\lceil \\log (n-1) \\right \\rceil + 1 \\text{ bits}\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\lceil \\log (n+1) \\right \\rceil + 1\\text{ bits}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213585/isro2018-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the minterm list form of a Boolean function F given below. <br>\\(F(P,Q,R,S)=\\sum m(0,2,5,7,9,11)+d(3,8,10,12,14)\\) <br> Here, m denotes a minterm and d denotes a don't care term. The number of essential prime\nimplicants of the function F  is ______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204124/gate2018-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the unsigned 8-bit fixed point binary Number System below, <br><br>\n\\(b_7  b_6  b_5  b_4  b_3 .  b_2  b_1  b_0\\) <br><br>\nwhere the position of the binary point is between \\(b_3 \\; and \\; b_2\\). Assume \\(b_7\\) is the most significant bit. Some of the decimal numbers listed below cannot be represented exactly in the above representation: <br><br>\n(i) 31.500 (ii) 0.875 (iii) 12.100 (iv) 3.001 <br><br>\nWhich one of the following statements is true? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>None of (i), (ii), (iii), (iv) can be exactly represented</p>",
+            "<b>B.</b> <p>Only (ii) cannot be exactly represented</p>",
+            "<b>C.</b> <p>Only (iii) and (iv) cannot be exactly represented</p>",
+            "<b>D.</b> <p>Only (i) and (ii) cannot be exactly represented</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only (iii) and (iv) cannot be exactly represented</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204107/gate2018-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the sequential circuit shown in the figure, where both flip-flops used are positive edge-triggered D flip-flops.  <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Digital_Logic\\q22_8ce44ae4.jpg\"> <br>  The number of states in the state transition diagram of this circuit that have a transition back to the same state on some value of \"in\" is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204096/gate2018-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let \\(\\bigoplus\\) and \\(\\bigodot\\) denote the Exclusive OR and Exclusive NOR operations, respectively. Which one of the following is NOT CORRECT? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{P \\bigoplus Q}=P\\bigodot Q\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{P} \\bigoplus Q=P\\bigodot Q\\)</p>",
+            "<b>C.</b> <p>\\(\\overline{P} \\bigoplus \\overline{Q}=P\\bigoplus Q\\)</p>",
+            "<b>D.</b> <p>\\((P \\bigoplus \\overline{P})\\bigoplus  Q=(P\\bigodot\\overline{P})\\bigodot  \\overline{Q}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((P \\bigoplus \\overline{P})\\bigoplus  Q=(P\\bigodot\\overline{P})\\bigodot  \\overline{Q}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204078/gate2018-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>\\((1217)_{8}\\) is equivalent to <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((1217)_{16}\\)</p>",
+            "<b>B.</b> <p>\\((028F)_{16}\\)</p>",
+            "<b>C.</b> <p>\\((2297)_{10}\\)</p>",
+            "<b>D.</b> <p>\\((0B17)_{16}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((028F)_{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1297/gate2009-5-isro2017-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Operating System - Process and Threads",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Process and Threads",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336962\"></a><div itemprop=\"text\"><p>Which two are valid constructions for Thread?</p>\n\n<ol>\n\t<li>Thread(Runnable r, String name)</li>\n\t<li>Thread()</li>\n\t<li>Thread(int priority)</li>\n\t<li>Thread(Runnable r, ThreadGroup g)</li>\n\t<li>Thread(Runnable r, int priority)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 OCT Scientific Assistant A (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) and \\( 3 \\)</p>",
+            "<p>\\( 2 \\) and \\( 4 \\)</p>",
+            "<p>\\( 1 \\) and \\( 2 \\)</p>",
+            "<p>\\( 2 \\) and \\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) and \\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336962/nielit-2017-oct-scientific-assistant-a-it-section-b-23\" target=\"_blank\">https://gateoverflow.in/336962/nielit-2017-oct-scientific-assistant-a-it-section-b-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369293\"></a><div itemprop=\"text\"><p>Which one of the following cannot be scheduled by the kernel ?</p>\n\n</div><br><br><b>Operating System: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Kernel level thread</p>",
+            "<p>User level thread</p>",
+            "<p>Process</p>",
+            "<p>None of the option</p>"
+          ],
+          "correct_answer": "<p>User level thread</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369293/nielit-2021-dec-scientist-a-section-b-120\" target=\"_blank\">https://gateoverflow.in/369293/nielit-2021-dec-scientist-a-section-b-120</a></p>"
+        }
+      ]
+    }
+  ]
+});

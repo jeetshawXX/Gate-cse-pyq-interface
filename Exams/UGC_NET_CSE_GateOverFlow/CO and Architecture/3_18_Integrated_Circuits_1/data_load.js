@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Integrated Circuits",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Integrated Circuits",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"63899\"></a><div itemprop=\"text\"><p>A chip having \\( 150 \\) gates will be classified as</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2011 | Part 2 | Question: 32</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>SSI</p>",
+            "<p>MSI</p>",
+            "<p>LSI</p>",
+            "<p>VLSI</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63899/ugc-net-cse-december-2011-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/63899/ugc-net-cse-december-2011-part-2-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+});

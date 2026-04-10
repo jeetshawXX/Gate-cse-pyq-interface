@@ -1,0 +1,116 @@
+{
+  "title": "Quantitative Aptitude - Divisibility",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Divisibility",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"6638\"></a><div itemprop=\"text\"><p>On dividing \\( 50 \\) into two parts such that the sum of their reciprocals is \\( \\dfrac{1}{12} \\), we get the parts as:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 20,30 \\)</p>",
+            "<p>\\( 24,26 \\)</p>",
+            "<p>\\( 28,22 \\)</p>",
+            "<p>\\( 36,14 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6638/nielit-2019-feb-scientist-c-section-c-18\" target=\"_blank\">https://aptitude.gateoverflow.in/6638/nielit-2019-feb-scientist-c-section-c-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"6634\"></a><div itemprop=\"text\"><p>A general wishing to draw his \\( 17429 \\) men in the form of a solid square found that he had \\( 5 \\) men over. The number of men in the front row was:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 174 \\)</p>",
+            "<p>\\( 424 \\)</p>",
+            "<p>\\( 132 \\)</p>",
+            "<p>\\( 742 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6634/nielit-2019-feb-scientist-c-section-c-22\" target=\"_blank\">https://aptitude.gateoverflow.in/6634/nielit-2019-feb-scientist-c-section-c-22</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"6651\"></a><div itemprop=\"text\"><p>By which one of the following should we multiply \\( 152207 \\) so that the product is \\( 11111111 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 53 \\)</p>",
+            "<p>\\( 63 \\)</p>",
+            "<p>\\( 73 \\)</p>",
+            "<p>\\( 83 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6651/nielit-2019-feb-scientist-c-section-c-5\" target=\"_blank\">https://aptitude.gateoverflow.in/6651/nielit-2019-feb-scientist-c-section-c-5</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"6665\"></a><div itemprop=\"text\"><p>Find the number of numbers between \\( 300 \\) to \\( 400 \\) (both included) that are not divisible by \\( 2,3,4 \\) and \\( 5 \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist C</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 33 \\)</p>",
+            "<p>\\( 26 \\)</p>",
+            "<p>\\( 17 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6665/nielit-2019-feb-scientist-c-section-d-21\" target=\"_blank\">https://aptitude.gateoverflow.in/6665/nielit-2019-feb-scientist-c-section-d-21</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"6811\"></a><div itemprop=\"text\"><p>₹ \\( 49 \\) were divided among \\( 150 \\) children. Each girl got \\( 50 \\) paise and a boy \\( 25 \\) paise. How many boys were there ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 102 \\)</p>",
+            "<p>\\( 104 \\)</p>",
+            "<p>\\( 105 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6811/nielit-2019-feb-scientist-d-section-c-12\" target=\"_blank\">https://aptitude.gateoverflow.in/6811/nielit-2019-feb-scientist-d-section-c-12</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"6808\"></a><div itemprop=\"text\"><p>\\( 21 \\) mango trees, \\( 42 \\) apple trees and \\( 56 \\) orange trees have to be planted in rows such that each row contains the same number of trees of one variety only. Minimum number of rows in which the above trees may be planted is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 20 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6808/nielit-2019-feb-scientist-d-section-c-15\" target=\"_blank\">https://aptitude.gateoverflow.in/6808/nielit-2019-feb-scientist-d-section-c-15</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"6793\"></a><div itemprop=\"text\"><p>\\( \\left (x^{n}+a^{n} \\right) \\) is divisible by \\( (x+a) \\) :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2019 Feb Scientist D</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>For all values of \\( n \\)</p>",
+            "<p>Only for even values of \\( n \\)</p>",
+            "<p>Only for odd values of \\( n \\)</p>",
+            "<p>Only for prime values of \\( n \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6793/nielit-2019-feb-scientist-d-section-c-30\" target=\"_blank\">https://aptitude.gateoverflow.in/6793/nielit-2019-feb-scientist-d-section-c-30</a></p>"
+        }
+      ]
+    }
+  ]
+}

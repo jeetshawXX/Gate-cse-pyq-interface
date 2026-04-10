@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Java - Method Overriding",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Method Overriding",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70966\"></a><div itemprop=\"text\"><p>Method over-riding can be prevented by using final as a modifier at ______.</p>\n\n</div><br><br><b>Java: UGC NET CSE | August 2016 | Part 3 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The start of the class.</p>",
+            "<p>The start of method declaration.</p>",
+            "<p>The start of derived class.</p>",
+            "<p>The start of the method declaration in the derived class.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70966/ugc-net-cse-august-2016-part-3-question-38\" target=\"_blank\">https://gateoverflow.in/70966/ugc-net-cse-august-2016-part-3-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+});

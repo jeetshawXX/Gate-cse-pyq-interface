@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Transaction and Concurrency",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Transaction and Concurrency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61075\"></a><div itemprop=\"text\"><p>Let \\( P-i \\) and \\( P_j \\) two processes, R be the set of variables read from memory, and W be the set of variables written to memory. For the concurrent execution of two processes \\( p_i \\) and \\( P_j \\) which of the conditions are not true?</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | Junet 2015 | Part 2 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( R(P_i) \\cap W(P_j) = \\Phi \\)</p>",
+            "<p>\\( W(P_i) \\cap R(P_j) = \\Phi \\)</p>",
+            "<p>\\( R(P_i) \\cap R(P_j) = \\Phi \\)</p>",
+            "<p>\\( W(P_i) \\cap W(P_j) = \\Phi \\)</p>"
+          ],
+          "correct_answer": "<p>\\( R(P_i) \\cap R(P_j) = \\Phi \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61075/ugc-net-cse-junet-2015-part-2-question-37\" target=\"_blank\">https://gateoverflow.in/61075/ugc-net-cse-junet-2015-part-2-question-37</a></p>"
+        }
+      ]
+    }
+  ]
+}

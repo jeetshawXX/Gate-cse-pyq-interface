@@ -1,0 +1,86 @@
+{
+  "title": "Non GATE CSE - Geometry - Geometry",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Geometry",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366829\"></a><div itemprop=\"text\"><p>In a parallelogram \\( \\text{ABCD, AP} \\) and \\( \\text{BP} \\) are the angle bisectors of \\( \\angle \\text{DAB} \\) and \\( \\angle \\text{ABC}. \\)Find \\( \\angle \\text{APB} : \\)</p>\n\n</div><br><br><b>Geometry: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 85^{\\circ} \\)</p>",
+            "<p>\\( 90^{\\circ} \\)</p>",
+            "<p>\\( 94^{\\circ} \\)</p>",
+            "<p>\\( 86^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 90^{\\circ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366829/nielit-2021-dec-scientist-b-section-a-26\" target=\"_blank\">https://gateoverflow.in/366829/nielit-2021-dec-scientist-b-section-a-26</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411963\"></a><div itemprop=\"text\"><p>The size of a rhombus is increased by itself, How many times will its perimeter increase?</p>\n\n</div><br><br><b>Geometry: NIELIT 2023 Feb Scientist C | Section C | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Three times</p>",
+            "<p>Four times</p>",
+            "<p>Two times</p>",
+            "<p>None of the options\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Two times</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411963/nielit-2023-feb-scientist-c-section-c-question-72\" target=\"_blank\">https://gateoverflow.in/411963/nielit-2023-feb-scientist-c-section-c-question-72</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410916\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{ABC}, 2&nbsp; \\text{ac} \\sin \\left[\\frac{1}{2}\\text{(A-B+C)}\\right] \\) is equal to :</p>\n\n</div><br><br><b>Geometry: NIELIT 2023 Feb Scientist D | Section D | Question: 108</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a^{2}+b^{2}-c^{2} \\)</p>",
+            "<p>\\( c^{2}+a^{2}-b^{2} \\)</p>",
+            "<p>\\( b^{2}-c^{2}-a^{2} \\)</p>",
+            "<p>\\( c^{2}-a^{2}-b^{2} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( c^{2}+a^{2}-b^{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410916/nielit-2023-feb-scientist-d-section-d-question-108\" target=\"_blank\">https://gateoverflow.in/410916/nielit-2023-feb-scientist-d-section-d-question-108</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"410915\"></a><div itemprop=\"text\"><p>The vertices of a triangle \\( \\text{ABC} \\) are \\( \\text{A}(4,6), \\text{B}(1,5) \\) and \\( \\text{C}(7,2) \\). A line is drawn to intersect sides \\( \\text{AB} \\) and \\( \\mathrm{AC} \\) at \\( \\mathrm{D} \\) and \\( \\mathrm{E} \\) respectively such that \\( \\mathrm{AD}: \\mathrm{AB}=\\mathrm{AE}: \\mathrm{AC}=: 4 \\). Calculate the ratio of area of triangle \\( \\mathrm{ADE} \\) and area of triangle \\( \\mathrm{ABC} \\).</p>\n\n</div><br><br><b>Geometry: NIELIT 2023 Feb Scientist D | Section D | Question: 109</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1: 16 \\)</p>",
+            "<p>\\( 16: 1 \\)</p>",
+            "<p>\\( 15: 16 \\)</p>",
+            "<p>\\( 1: 1 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 1: 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410915/nielit-2023-feb-scientist-d-section-d-question-109\" target=\"_blank\">https://gateoverflow.in/410915/nielit-2023-feb-scientist-d-section-d-question-109</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"410914\"></a><div itemprop=\"text\"><p>In a triangle \\( \\text{XYZ} \\),&nbsp;\\( \\text{P} \\) and \\( \\text{Q} \\) are points on \\( \\text{XY, XZ} \\) respectively such that \\( \\text{X P=2 P Y, X Q=2 Q Z} \\), then the ratio, of area of \\( \\triangle \\mathrm{XPQ} \\) and area of \\( \\triangle \\mathrm{XYZ} \\) is :</p>\n\n</div><br><br><b>Geometry: NIELIT 2023 Feb Scientist D | Section D | Question: 110</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4: 9 \\)</p>",
+            "<p>\\( 2: 3 \\)</p>",
+            "<p>\\( 3: 2 \\)</p>",
+            "<p>\\( 9: 4 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 4: 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410914/nielit-2023-feb-scientist-d-section-d-question-110\" target=\"_blank\">https://gateoverflow.in/410914/nielit-2023-feb-scientist-d-section-d-question-110</a></p>"
+        }
+      ]
+    }
+  ]
+}

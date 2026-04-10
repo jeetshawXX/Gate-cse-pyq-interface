@@ -1,0 +1,116 @@
+{
+  "title": "Programming and DS - DS - Binary Heap",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Binary Heap",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155357\"></a><div itemprop=\"text\"><p>In a heap, every element is ___________ of all the elements in the subtree.</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | December 2008 | Part 2 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>maximum&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>minimum&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>sum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>product</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155357/ugc-net-cse-december-2008-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/155357/ugc-net-cse-december-2008-part-2-question-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335140\"></a><div itemprop=\"text\"><p>Which of the following is a valid heap?</p><ol start=\"1\" style=\"list-style-type:lower-alpha\"><li><img alt=\"\" width=\"200\" height=\"193\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=7828186602065247311\"></li><li><img alt=\"\" width=\"200\" height=\"193\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6294526736845332623\"></li><li><img alt=\"\" width=\"200\" height=\"193\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=10333664900203391139\"></li><li><img alt=\"\" width=\"200\" height=\"190\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=16318978558024358010\"></li></ol><p>&nbsp;</p></div><br><br><b>Data Structures: UGC NET CSE | January 2017 | Part 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( a \\)</p>",
+            "<p>\\( b \\)</p>",
+            "<p>\\( c \\)</p>",
+            "<p>\\( d \\)</p>"
+          ],
+          "correct_answer": "<p>\\( b \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335140/ugc-net-cse-january-2017-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/335140/ugc-net-cse-january-2017-part-2-question-23</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"225864\"></a><div itemprop=\"text\"><p>Consider the array A=&lt;4, 1, 3, 2, 16, 9, 10, 14, 8, 7&gt;. After building heap from the array A, the depth of the heap and the right child of max-heap are ______ and _____ respectively (Root is at level 0).</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | July 2018 | Part 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>3, 14</p>",
+            "<p>3, 10</p>",
+            "<p>4, 14</p>",
+            "<p>4, 10</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225864/ugc-net-cse-july-2018-part-2-question-22\" target=\"_blank\">https://gateoverflow.in/225864/ugc-net-cse-july-2018-part-2-question-22</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"58278\"></a><div itemprop=\"text\"><p>In any n-element heap, the number of nodes of height h is,</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2013 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>less than equal to \\( \\biggl[ \\frac{n}{2^h} \\biggr] \\)</p>",
+            "<p>greater than \\( \\biggl[ \\frac{n}{2^h} \\biggl] \\)</p>",
+            "<p>greater than \\( \\biggl[ \\frac{n}{2^h+1} \\biggr] \\)</p>",
+            "<p>less than equal to \\( \\biggl [ \\frac{n}{2^h+1} \\biggr] \\)</p>"
+          ],
+          "correct_answer": "<p>less than equal to \\( \\biggl [ \\frac{n}{2^h+1} \\biggr] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58278/ugc-net-cse-june-2013-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/58278/ugc-net-cse-june-2013-part-3-question-13</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"61266\"></a><div itemprop=\"text\"><p>The number of nodes in height h in any n-element heap is</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | Junet 2015 | Part 3 | Question: 36</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( h \\)</p>",
+            "<p>\\( z^h \\)</p>",
+            "<p>ceil \\( \\biggl(\\frac{n}{z^h} \\biggr) \\)</p>",
+            "<p>ceil \\( \\biggl(\\frac{n}{z^{h+1}} \\biggr) \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61266/ugc-net-cse-junet-2015-part-3-question-36\" target=\"_blank\">https://gateoverflow.in/61266/ugc-net-cse-junet-2015-part-3-question-36</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"166396\"></a><div itemprop=\"text\"><p>Heap allocation is required for languages that</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | November 2017 | Part 3 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Use dynamic scope rules</p>",
+            "<p>Support dynamic data structures</p>",
+            "<p>Support recursion</p>",
+            "<p>Support recursion and dynamic data structures</p>"
+          ],
+          "correct_answer": "<p>Support dynamic data structures</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166396/ugc-net-cse-november-2017-part-3-question-20\" target=\"_blank\">https://gateoverflow.in/166396/ugc-net-cse-november-2017-part-3-question-20</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"349649\"></a><div itemprop=\"text\"><p>In a binary max heap containing \\( n \\) numbers, the smallest element can be found in ______</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2020 | Part 2 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(\\log _2 n) \\)</p>",
+            "<p>\\( O(1) \\)</p>",
+            "<p>\\( O(\\log_2 \\log_2 n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349649/ugc-net-cse-october-2020-part-2-question-24\" target=\"_blank\">https://gateoverflow.in/349649/ugc-net-cse-october-2020-part-2-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

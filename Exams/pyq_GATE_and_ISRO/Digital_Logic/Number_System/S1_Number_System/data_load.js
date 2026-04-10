@@ -1,0 +1,226 @@
+window.__examLoadCallback({
+  "title": "Number_System - Number_System - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Number_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Three floating point numbers \\(X, Y, Z \\) are stored in three registers \\(RX, RY, RZ \\), respectively in IEEE 754 single precision format as given below in hexadecimal:  <br><br>\n\\( RX = 0\\times C1100000, \\quad RY = 0\\times 40C00000, \\quad RZ = 0 \\times 41400000 \\)<br><br>\nWhich of the following option(s) is/are CORRECT? <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>\\(4(X + Y) + Z = 0 \\)</p>",
+            "<b>B.</b> <p>\\(2Y - Z = 0 \\)</p>",
+            "<b>C.</b> <p>\\(4X + 3Z = 0 \\)</p>",
+            "<b>D.</b> <p>\\(X + Y + Z = 0 \\)</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>\\(4(X + Y) + Z = 0 \\)</p>",
+            "<b>B.</b> <p>\\(2Y - Z = 0 \\)</p>",
+            "<b>C.</b> <p>\\(4X + 3Z = 0 \\)</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460796/gate-cse-2025-set-2-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The following two signed 2's complement numbers (multiplicand \\(M \\) and multiplier \\(Q \\)) are being multiplied using Booth's algorithm:\n<br><br>\\(\nM: 1100 \\, 1101 \\, 1110 \\, 1101 \\quad \\text{and} \\quad Q: 1010 \\, 0100 \\, 1010 \\, 1010\n\\)<br><br>\nThe total number of addition and subtraction operations to be performed is ________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460813/gate-cse-2025-set-2-question-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number \\(-6\\) can be represented as 1010 in 4-bit 2's complement representation. Which of the following is/are CORRECT 2's complement representation(s) of \\(-6\\)? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>1000 1010 in 8-bits</p>",
+            "<b>B.</b> <p>1111 1010 in 8-bits</p>",
+            "<b>C.</b> <p>1000 0000 0000 1010 in 16-bits</p>",
+            "<b>D.</b> <p>1111 1111 1111 1010 in 16-bits</p>"
+          ],
+          "correct_answer": [
+            "<b>B.</b> <p>1111 1010 in 8-bits</p>",
+            "<b>D.</b> <p>1111 1111 1111 1010 in 16-bits</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460065/gate-cse-2025-set-1-question-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following is/are EQUAL to 224 in radix-5 (i.e., base-5) notation? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 in radix-10</p>",
+            "<b>B.</b> <p>100 in radix-8</p>",
+            "<b>C.</b> <p>50 in radix-16</p>",
+            "<b>D.</b> <p>121 in radix-7</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>64 in radix-10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422858/gate-cse-2024-set-2-question-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The format of a single-precision floating-point number as per the\nIEEE 754 standard is:    <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Number_System\\q4_f68c322e.webp\"><br>Choose the largest floating-point number among the following options.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Number_System\\q4a_b11456d2.webp\"><br> <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422893/gate-cse-2024-set-2-question-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a system that uses 5 bits for representing signed integers in 2's complement format. In this system, two integers \\(A \\) and \\(B \\) are represented as \\(A=01010 \\) and \\(B=11010 \\). Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A+B \\)</p>",
+            "<b>B.</b> <p>\\(A-B \\)</p>",
+            "<b>C.</b> <p>\\(B-A \\)</p>",
+            "<b>D.</b> <p>\\(2 * B \\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(A-B \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422839/gate-cse-2024-set-1-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the IEEE-754 single precision floating point numbers\nP=0xC1800000 and Q=0x3F5C2EF4.<br>\nWhich one of the following corresponds to the product of these numbers\n(i.e., P x Q), represented in the IEEE-754 single precision format? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0x404C2EF4</p>",
+            "<b>B.</b> <p>0x405C2EF4</p>",
+            "<b>C.</b> <p>0xC15C2EF4</p>",
+            "<b>D.</b> <p>0xC14C2EF4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0xC15C2EF4</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399276/gate-cse-2023-question-35#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A particular number is written as 132 in radix-4 representation. The same number\nin radix-5 representation is _____. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "110",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399289/gate-cse-2023-question-22#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider three floating point numbers A, B and C stored in registers  \\(R_A\\),  \\(R_B\\) and  \\(R_C\\), respectively as per IEEE-754 single precision floating point format. The 32-bit content stored in these registers (in hexadecimal form) are as follows.<br> <br> \\(R_A=0xC1400000\\)<br>\\(R_B=0x42100000\\)<br>\\(R_C=0x41400000\\)<br><br> Which one of the following is FALSE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A+C=0\\)</p>",
+            "<b>B.</b> <p>\\(C=A+B\\)</p>",
+            "<b>C.</b> <p>\\(B=3C\\)</p>",
+            "<b>D.</b> <p>\\((B-C) \\gt 0\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(C=A+B\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/371905/Gate-cse-2022-question-31#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let R1 and R2 be two 4-bit registers that store numbers in 2's complement form. For the operation R1+R2, which one of the following values of R1 and R2 gives an arithmetic overflow? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R1 = 1011 and R2 = 1110</p>",
+            "<b>B.</b> <p>R1 = 1100 and R2 = 1010</p>",
+            "<b>C.</b> <p>R1 = 0011 and R2 = 0100</p>",
+            "<b>D.</b> <p>R1 = 1001 and R2 = 1111</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R1 = 1100 and R2 = 1010</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371928/Gate-cse-2022-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>If the numerical value of a 2-byte unsigned integer on a little endian computer is 255 more than that on a big endian computer, which of the following choices represent(s) the unsigned integer on a little endian computer? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>0x6665</p>",
+            "<b>B.</b> <p>0x0001</p>",
+            "<b>C.</b> <p>0x4243</p>",
+            "<b>D.</b> <p>0x0100</p>"
+          ],
+          "correct_answer": [
+            "<b>A.</b> <p>0x6665</p>",
+            "<b>D.</b> <p>0x0100</p>"
+          ],
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357496/gate-cse-2021-set-2-question-44#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If \\(x\\) and \\(y\\) are two decimal digits and \\((0.1101)_2 = (0.8xy5)_{10}\\), the decimal value of \\(x+y\\) is ___________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357522/gate-cse-2021-set-2-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The format of the single-precision floating point representation of a real number as per the IEEE 754 standard is as follows:<br><br>\n\\(\\begin{array}{|c|c|c|} \\hline \\text{sign} &amp; \\text{exponent} &amp; \\text{mantissa} \\\\ \\hline \\end{array}\\)<br><br>\nWhich one of the following choices is correct with respect to the smallest normalized positive number represented using the standard? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>exponent = 00000000 and mantissa = 0000000000000000000000000</p>",
+            "<b>B.</b> <p>exponent = 00000000 and mantissa = 0000000000000000000000001</p>",
+            "<b>C.</b> <p>exponent = 00000001 and mantissa = 0000000000000000000000000</p>",
+            "<b>D.</b> <p>exponent = 00000001 and mantissa = 0000000000000000000000001</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>exponent = 00000001 and mantissa = 0000000000000000000000000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357536/gate-cse-2021-set-2-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following representation of a number in IEEE 754 single-precision floating point format with a bias of 127.<br><br>\nS:1<br>E:10000001<br>F:11110000000000000000000<br><br>\nHere, S,E and F denote the sign, exponent, and fraction components of the floating point representation.<br><br>\nThe decimal value corresponding to the above representation (rounded to 2 decimal places) is ____________. <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "-7.75",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357427/gate-cse-2021-set-1-question-24#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let the representation of a number in base 3 be 210. What is the hexadecimal representation of the number? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>21</p>",
+            "<b>C.</b> <p>D2</p>",
+            "<b>D.</b> <p>528</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>15</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357446/gate-cse-2021-set-1-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

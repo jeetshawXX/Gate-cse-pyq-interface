@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Syllogism",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Syllogism",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4273\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three.</p>\n\n<p>Choose the set in which the combinations are logically related.</p>\n\n<p>A. Some building are not sky-scrapers.</p>\n\n<p>B. Some sky-scrapers are not buildings.</p>\n\n<p>C. No structure is a sky-scraper.</p>\n\n<p>D. All sky-scrapers are structures.</p>\n\n<p>E. All sky-scrapers are buildings.</p>\n\n<p>F. Some structures are not buildings.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ACE</p>",
+            "<p>BDF</p>",
+            "<p>CDE</p>",
+            "<p>ACF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4273/cat-1994-question-49\" target=\"_blank\">https://aptitude.gateoverflow.in/4273/cat-1994-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4274\"></a><div itemprop=\"text\"><p>Each question contains six statements followed by four sets of combinations of three. Choose the set in which the combinations are logically related.</p>\n\n<p>A. All bins are buckets.</p>\n\n<p>B. No bucket is a basket.</p>\n\n<p>C. No bin is a basket.</p>\n\n<p>D. Some baskets are buckets.</p>\n\n<p>E. Some bins are baskets.</p>\n\n<p>F. No basket is a bin.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1994 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>BDE</p>",
+            "<p>ACB</p>",
+            "<p>CDF</p>",
+            "<p>ABF</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4274/cat-1994-question-50\" target=\"_blank\">https://aptitude.gateoverflow.in/4274/cat-1994-question-50</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3700\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. An ostrich lays eggs.</p>\n\n<p>2. All birds lay eggs.</p>\n\n<p>3. Some birds can fly</p>\n\n<p>4. An ostrich cannot fly.</p>\n\n<p>5. An ostrich is a bird.</p>\n\n<p>6. An ostrich cannot swim.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>251</p>",
+            "<p>125</p>",
+            "<p>453</p>",
+            "<p>532</p>"
+          ],
+          "correct_answer": "<p>251</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3700/cat-1996-question-36\" target=\"_blank\">https://aptitude.gateoverflow.in/3700/cat-1996-question-36</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3703\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. All prime ministers were politicians.</p>\n\n<p>2. All members of parliament were politicians.</p>\n\n<p>3. All prime ministers were members of parliament.</p>\n\n<p>4. Pandit Nehru was a politician.</p>\n\n<p>5. Pandit Nehru was the prime minister.</p>\n\n<p>6. Pandit Nehru was a member of parliament.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 37</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>145</p>",
+            "<p>236</p>",
+            "<p>532</p>",
+            "<p>635</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3703/cat-1996-question-37\" target=\"_blank\">https://aptitude.gateoverflow.in/3703/cat-1996-question-37</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3704\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. Some pins are made of tin.</p>\n\n<p>2. All tin is made of copper.</p>\n\n<p>3. All copper is used for pins.</p>\n\n<p>4. Some tin is copper.</p>\n\n<p>5. Some pins are used for tin.</p>\n\n<p>6. Some copper is used for tin.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>123</p>",
+            "<p>356</p>",
+            "<p>345</p>",
+            "<p>125</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3704/cat-1996-question-38\" target=\"_blank\">https://aptitude.gateoverflow.in/3704/cat-1996-question-38</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3705\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. All bricks are tricks.</p>\n\n<p>2. Some tricks are shrieks.</p>\n\n<p>3. Some that are shrieks are bricks.</p>\n\n<p>4. Some tricks are not bricks.</p>\n\n<p>5. All tricks are shrieks.</p>\n\n<p>6. No tricks are shrieks.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>513</p>",
+            "<p>234</p>",
+            "<p>123</p>",
+            "<p>543</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3705/cat-1996-question-39\" target=\"_blank\">https://aptitude.gateoverflow.in/3705/cat-1996-question-39</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3706\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. Some sand is band</p>\n\n<p>2. All sandal is sand.</p>\n\n<p>3. All band is sandal</p>\n\n<p>4. No sand is sandal.</p>\n\n<p>5. No band is sand.</p>\n\n<p>6. Some band is sandal.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>231</p>",
+            "<p>165</p>",
+            "<p>453</p>",
+            "<p>354</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3706/cat-1996-question-40\" target=\"_blank\">https://aptitude.gateoverflow.in/3706/cat-1996-question-40</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"3707\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. Now wife is a life.</p>\n\n<p>2. All life is strife.</p>\n\n<p>3. Some wife is strife.</p>\n\n<p>4. All that is wife is life.</p>\n\n<p>5. All wife is strife.</p>\n\n<p>6. No wife is strife.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 41</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>256</p>",
+            "<p>632</p>",
+            "<p>126</p>",
+            "<p>245</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3707/cat-1996-question-41\" target=\"_blank\">https://aptitude.gateoverflow.in/3707/cat-1996-question-41</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"3708\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. Poor girls want to marry rich boys.</p>\n\n<p>2. Rich girls want to marry rich boys.</p>\n\n<p>3. Poor girls want to marry rich girls.</p>\n\n<p>4. Rich boys want to marry rich girls.</p>\n\n<p>5. Poor girls want to marry rich girls.</p>\n\n<p>6. Rich boys want to marry poor girls.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>145</p>",
+            "<p>123</p>",
+            "<p>234</p>",
+            "<p>456</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3708/cat-1996-question-42\" target=\"_blank\">https://aptitude.gateoverflow.in/3708/cat-1996-question-42</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3709\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. Six is five.</p>\n\n<p>2. Five is not four.</p>\n\n<p>3. Some five is ten.</p>\n\n<p>4. Some six is twelve.</p>\n\n<p>5. Some twelve is five.</p>\n\n<p>6. Some ten is four.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>145</p>",
+            "<p>123</p>",
+            "<p>156</p>",
+            "<p>543</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3709/cat-1996-question-43\" target=\"_blank\">https://aptitude.gateoverflow.in/3709/cat-1996-question-43</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"3710\"></a><div itemprop=\"text\"><p>Given below are six statements followed by sets of three. You are to mark that option in which the statements are most logically related.</p>\n\n<p>1. Some crows are flies.</p>\n\n<p>2. Some flies are mosquitoes.</p>\n\n<p>3. All mosquitoes are flies.</p>\n\n<p>4. Some owls are flies.</p>\n\n<p>5. All owls are mosquitoes.</p>\n\n<p>6. Some mosquitoes are not owls.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 1996 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>123</p>",
+            "<p>356</p>",
+            "<p>145</p>",
+            "<p>542</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3710/cat-1996-question-44\" target=\"_blank\">https://aptitude.gateoverflow.in/3710/cat-1996-question-44</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"6279\"></a><div itemprop=\"text\"><ol start=\"1\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>All the office spaces on the \\( 8 \\)th floor have wall-to-wall carpeting.</li>\n\t<li>No wall-to-wall carpeting is maroon.&nbsp;</li>\n\t<li>None of the offices on the \\( 8 \\)th floor has maroon wall-to-wall carpeting.</li>\n</ol>\n\n<p>If the first two statements are \\( \\text{true} \\), the third statement is :</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>true</p>",
+            "<p>false</p>",
+            "<p>uncertain</p>",
+            "<p>none</p>"
+          ],
+          "correct_answer": "<p>true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6279/nielit-2017-dec-scientist-b-section-a-33\" target=\"_blank\">https://aptitude.gateoverflow.in/6279/nielit-2017-dec-scientist-b-section-a-33</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"6526\"></a><div itemprop=\"text\"><p>Fact \\( 1: \\) All chickens are birds.</p>\n\n<p>Fact \\( 2: \\) Some chickens are hens.</p>\n\n<p>Fact \\( 3: \\) Female birds lay eggs.</p>\n\n<p>If the first three statements are facts, which of the following statements must also be a fact?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>All birds lay eggs.</li>\n\t<li>Hens are birds.</li>\n\t<li>Some chickens are not hens.</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 OCT Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>II only</p>",
+            "<p>II and III only</p>",
+            "<p>I,II and III</p>",
+            "<p>None of the statements is a known fact</p>"
+          ],
+          "correct_answer": "<p>None of the statements is a known fact</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6526/nielit-2017-oct-scientific-assistant-a-section-a-39\" target=\"_blank\">https://aptitude.gateoverflow.in/6526/nielit-2017-oct-scientific-assistant-a-section-a-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

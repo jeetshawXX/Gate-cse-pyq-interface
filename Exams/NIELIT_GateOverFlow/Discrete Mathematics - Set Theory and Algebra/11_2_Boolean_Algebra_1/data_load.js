@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Boolean Algebra",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Boolean Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336417\"></a><div itemprop=\"text\"><p>If \\( B \\) is a Boolean algebra, then which of the following is true?</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B \\) is a finite but not complemented lattice</p>",
+            "<p>\\( B \\) is a finite, complemented and distributive lattice</p>",
+            "<p>\\( B \\) is a finite,distributive but not complemented lattice</p>",
+            "<p>\\( B \\) is not distributive lattice</p>"
+          ],
+          "correct_answer": "<p>\\( B \\) is a finite, complemented and distributive lattice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336417/nielit-2017-july-scientist-b-it-section-b-18\" target=\"_blank\">https://gateoverflow.in/336417/nielit-2017-july-scientist-b-it-section-b-18</a></p>"
+        }
+      ]
+    }
+  ]
+});

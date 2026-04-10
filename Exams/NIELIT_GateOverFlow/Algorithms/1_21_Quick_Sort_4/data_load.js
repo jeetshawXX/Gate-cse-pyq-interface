@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Quick Sort",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Quick Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336526\"></a><div itemprop=\"text\"><p>The running time of Quick sort algorithm depends heavily on the selection of:</p>\n\n</div><br><br><b>Algorithms: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>No. of inputs</p>",
+            "<p>Arrangement of elements in an array</p>",
+            "<p>Size of elements</p>",
+            "<p>Pivot Element</p>"
+          ],
+          "correct_answer": "<p>Pivot Element</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336526/nielit-2016-dec-scientist-b-cs-section-b-12\" target=\"_blank\">https://gateoverflow.in/336526/nielit-2016-dec-scientist-b-cs-section-b-12</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366974\"></a><div itemprop=\"text\"><p>Write Recurrence of Quick Sort in worst case.</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\text{T(n)} = \\text{T (n-1)} + 1  \\)</p>",
+            "<p>\\(  \\text{T(n)} = \\text{T (n-1) + n}&nbsp; \\)</p>",
+            "<p>\\(  \\text{T(n)} = 2 \\text{T (n-1) + n}  \\)</p>",
+            "<p>\\(  \\text{T(n)} =&nbsp;\\text{ T (n/3) + T (2n/2) + n}  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  \\text{T(n)} = \\text{T (n-1) + n}&nbsp; \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366974/nielit-2021-dec-scientist-b-section-b-43\" target=\"_blank\">https://gateoverflow.in/366974/nielit-2021-dec-scientist-b-section-b-43</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351377\"></a><div itemprop=\"text\"><p>Which of the following is correct recurrence for worst case of QuickSort?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 83</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( T(n)=T(n-4)+T(n-2)+O(1) \\)</p>",
+            "<p>\\( T(n)=T(n-1)+T(0)+O(n) \\)</p>",
+            "<p>\\( T(n)=2T(n/2)+O(n) \\)</p>",
+            "<p>\\( T(n)=4T(n/2)+O(n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( T(n)=T(n-1)+T(0)+O(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351377/nielit-scientific-assistant-a-2020-november-83\" target=\"_blank\">https://gateoverflow.in/351377/nielit-scientific-assistant-a-2020-november-83</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351623\"></a><div itemprop=\"text\"><p>What is the best case complexity of QuickSort?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(nlogn) \\)</p>",
+            "<p>\\( O(logn) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(nlogn) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351623/nielit-scientist-b-2020-november-59\" target=\"_blank\">https://gateoverflow.in/351623/nielit-scientist-b-2020-november-59</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Abelian Group",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Abelian Group",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336510\"></a><div itemprop=\"text\"><p>Which one of the following is NOT necessarily a property of a Group?</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Commutativity</p>",
+            "<p>Associativity</p>",
+            "<p>Existence of inverse for every element</p>",
+            "<p>Existence of identity</p>"
+          ],
+          "correct_answer": "<p>Commutativity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336510/nielit-2016-dec-scientist-b-cs-section-b-28\" target=\"_blank\">https://gateoverflow.in/336510/nielit-2016-dec-scientist-b-cs-section-b-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336265\"></a><div itemprop=\"text\"><p>On a set \\( A = \\{a,b,c,d\\} \\) a binary operation \\( * \\) is defined as given in the following table.</p>\n\n<p>\\[ \\begin{array}{|c|cccc|}\\hline\\text{*}&amp;a&amp;b&amp;c&amp;d\\\\\\hline \\text{a}&amp;a&amp;c&amp;b&amp;d\\\\\\text{b}&amp;c&amp;b&amp;d&amp;a\\\\\\text{c}&amp;b&amp;d&amp;a&amp;c\\\\\\text{d}&amp;d&amp;a&amp;c&amp;b\\\\\\hline &nbsp; \\end{array} \\]</p>\n\n<p>The relation is</p>\n\n</div><br><br><b>Set Theory & Algebra: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Commutative but not associative</p>",
+            "<p>Neither commutative nor&nbsp;associative</p>",
+            "<p>Both commutative and&nbsp;associative</p>",
+            "<p>Associative but not commutative</p>"
+          ],
+          "correct_answer": "<p>Commutative but not associative</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336265/nielit-2017-dec-scientist-b-section-b-48\" target=\"_blank\">https://gateoverflow.in/336265/nielit-2017-dec-scientist-b-section-b-48</a></p>"
+        }
+      ]
+    }
+  ]
+});

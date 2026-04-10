@@ -1,0 +1,56 @@
+{
+  "title": "Operating System - Bankers Algorithm",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Bankers Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335568\"></a><div itemprop=\"text\"><p>Banker's algorithm is used for __________ purpose :</p></div><br><br><b>Operating System: UGC NET CSE | December 2005 | Part 2 | Question: 40</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Deadlock avoidance</p>",
+            "<p>Deadlock removal</p>",
+            "<p>Deadlock prevention</p>",
+            "<p>Deadlock continuations</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335568/ugc-net-cse-december-2005-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/335568/ugc-net-cse-december-2005-part-2-question-40</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"335425\"></a><div itemprop=\"text\"><p>Banker's algorithm is for</p>\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2005 | Part 2 | Question: 38</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Dead lock Prevention</p>",
+            "<p>Dead lock Avoidance</p>",
+            "<p>Dead lock Detection</p>",
+            "<p>Dead lock creation</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335425/ugc-net-cse-june-2005-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/335425/ugc-net-cse-june-2005-part-2-question-38</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"58888\"></a><div itemprop=\"text\">\n<p>An operating system using banker’s algorithm for deadlock avoidance has ten dedicated devices (of same type) and has three processes P1, P2 and P3 with maximum resource requirements of 4, 5 and 8 respectively. There are two states of allocation of devices as follows:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\"><tbody><tr><td><strong>State 1</strong></td>\n\t\t\t<td>Processes</td>\n\t\t\t<td>P1</td>\n\t\t\t<td>P2</td>\n\t\t\t<td>P3</td>\n\t\t</tr><tr><td>&nbsp;</td>\n\t\t\t<td>Devices allocated</td>\n\t\t\t<td>2</td>\n\t\t\t<td>3</td>\n\t\t\t<td>4</td>\n\t\t</tr><tr><td><strong>State 2</strong></td>\n\t\t\t<td>Processes</td>\n\t\t\t<td>P1</td>\n\t\t\t<td>P2</td>\n\t\t\t<td>P3</td>\n\t\t</tr><tr><td>&nbsp;</td>\n\t\t\t<td>Devices allocated</td>\n\t\t\t<td>0</td>\n\t\t\t<td>2</td>\n\t\t\t<td>4</td>\n\t\t</tr></tbody></table><p>Which of the following is correct?</p>\n\n\n\n\n</div><br><br><b>Operating System: UGC NET CSE | June 2013 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>State 1 is unsafe and State 2 is safe</p>",
+            "<p>State 1 is safe and State 2 is unsafe</p>",
+            "<p>Both State 1 and State 2 are safe</p>",
+            "<p>Both State 1 and State 2 are unsafe</p>"
+          ],
+          "correct_answer": "<p>State 1 is unsafe and State 2 is safe</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58888/ugc-net-cse-june-2013-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/58888/ugc-net-cse-june-2013-part-3-question-61</a></p>"
+        }
+      ]
+    }
+  ]
+}

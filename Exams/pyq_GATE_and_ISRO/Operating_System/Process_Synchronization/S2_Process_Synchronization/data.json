@@ -1,0 +1,226 @@
+{
+  "title": "Process_Synchronization - Process_Synchronization - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Process_Synchronization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>At a particular time of computation the value of a counting semaphore is 7. Then 20 P operations and x V operations were completed on this semaphore. If the new value of semaphore is 5, x will be <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>18</p>",
+            "<b>B.</b> <p>22</p>",
+            "<b>C.</b> <p>15</p>",
+            "<b>D.</b> <p>13</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>18</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/56082/isro2016-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider a non-negative counting semaphore S. The operation P(S) decrements S, and V(S) increments S. During an execution, 20 P(S) operations and 12V(S) operations are issued in some order. The largest initial value of S for which at least one P(S) operation will remain blocked is ________. <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39576/gate2016-2-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following two-process synchronization solution. <br>\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q48_7f562996.jpg\"><br>\nThe shared variable turn is initialized to zero.Which one of the following is TRUE? <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>This is a correct two-process synchronization solution.</p>",
+            "<b>B.</b> <p>This solution violates mutual exclusion requirement</p>",
+            "<b>C.</b> <p>This solution violates progress requirement</p>",
+            "<b>D.</b> <p>This solution violates bounded wait requirement</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>This solution violates progress requirement</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39600/gate2016-2-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following proposed solution for the critical section problem. There are n processes: \\(P_{0}...P_{n-1}\\) . In the code,function \\(pmax\\) returns an integer not smaller than any of its arguments. For all i, t[i] is initialized to zero.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q50_17a8780c.jpg\"> <br>\nWhich one of the following is TRUE about the above solution? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At most one process can be in the critical section at any time</p>",
+            "<b>B.</b> <p>The bounded wait condition is satisfied</p>",
+            "<b>C.</b> <p>The progress condition is satisfied</p>",
+            "<b>D.</b> <p>It cannot cause a deadlock</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>At most one process can be in the critical section at any time</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39719/gate2016-1-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>At a particular time of computation, the value of a counting semaphore is 7. Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is : <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>42</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>12</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/564/gate1992-02-x-isro2015-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Semaphores are used to solve the problem of<br>I.  Race Condition<br>II.  Process Synchronization<br>III. Mutual Exclusion<br>IV.  None of the above <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>II and III</p>",
+            "<b>C.</b> <p>All of the above</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/19489/isro2015-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Two processes X and Y need to access a critical section. Consider the following synchronization construct used by both the processes <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q21_3ddcb876.jpg\"> <br> Here, varP and varQ are shared variables and both are initialized to false. Which one of the following statements is true? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The proposed solution prevents deadlock but fails to guarantee mutual exclusion</p>",
+            "<b>B.</b> <p>The proposed solution guarantees mutual exclusion but fails to prevent deadlock</p>",
+            "<b>C.</b> <p>The proposed solution guarantees mutual exclusion and prevents deadlock</p>",
+            "<b>D.</b> <p>The proposed solution fails to prevent deadlock and fails to guarantee mutual exclusion</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The proposed solution prevents deadlock but fails to guarantee mutual exclusion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8405/gate2015-3-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The following two functions P1 and P2 that share a variable B with an initial value of 2 execute concurrently. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q20_e8cf7316.jpg\"> <br> The number of distinct values that B can possibly take after the execution is______________. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8121/gate2015-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the procedure below for the Producer-Consumer problem which uses semaphores:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q31_5009409f.jpg\"><br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The producer will be able to add an item to the buffer, but the consumer can never consume it.</p>",
+            "<b>B.</b> <p>The consumer will remove no more than one item from the buffer.</p>",
+            "<b>C.</b> <p>Deadlock occurs if the consumer succeeds in acquiring semaphore s when the buffer is empty</p>",
+            "<b>D.</b> <p>The starting value for the semaphore n must be 1 and not 0 for deadlock-free operation.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Deadlock occurs if the consumer succeeds in acquiring semaphore s when the buffer is empty</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1990/gate2014-2-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A certain computation generates two arrays a and b such that a[i]=f(i)for \\(o\\leq i \\lt n\\)  and b[i] = g (a[i] )for \\(o\\leq i \\lt n\\). Suppose this computation is decomposed into two concurrent processes\nX and Y such that X computes the array a and Y computes the array b. The processes employ two\nbinary semaphores R and S, both initialized to zero. The array a is shared by the two processes. The\nstructures of the processes are shown below.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q39_4478bc8b.jpg\">  <br>\nWhich one of the following represents the CORRECT implementations of ExitX and EntryY? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ExitX(R, S) {\nP(R);\nV(S);\n}\nEntryY(R, S) {\nP(S);\nV(R);\n}</p>",
+            "<b>B.</b> <p>ExitX(R, S) {\nV(R);\nV(S);\n}\nEntryY(R, S) {\nP(R);\nP(S);\n}</p>",
+            "<b>C.</b> <p>ExitX(R, S) {\nP(S);\nV(R);\n}\nEntryY(R, S) {\nV(S);\nP(R);\n}</p>",
+            "<b>D.</b> <p>ExitX(R, S) {\nV(R);\nP(S);\n}\nEntryY(R, S) {\nV(S);\nP(R);\n}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>ExitX(R, S) {\nP(S);\nV(R);\n}\nEntryY(R, S) {\nV(S);\nP(R);\n}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1550/gate2013-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A shared variable x, initialized to zero, is operated on by four concurrent processes W, X, Y, Z as\nfollows. Each of the processes W and X reads x from memory, increments by one, stores it to\nmemory, and then terminates. Each of the processes Y and Z reads x from memory, decrements by\ntwo, stores it to memory, and then terminates. Each process before reading x invokes the P\noperation (i.e., wait) on a counting semaphore S and invokes the V operation (i.e., signal) on the\nsemaphore S after storing x to memory. Semaphore S is initialized to two. What is the maximum\npossible value of x after all processes complete execution? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-2</p>",
+            "<b>B.</b> <p>-1</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1545/gate2013-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Three concurrent processes X, Y, and Z execute three different code segments that access and\nupdate certain shared variables. Process X executes the P operation (i.e., wait) on semaphores\na, b and c; process Y executes the P operation on semaphores b, c and d; process Z executes the\nP operation on semaphores c, d, and a before entering the respective code segments. After\ncompleting the execution of its code segment, each process invokes the V operation (i.e., signal) on\nits three semaphores. All semaphores are binary semaphores initialized to one. Which one of the\nfollowing represents a deadlock-free order of invoking the P operations by the processes? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X: P(a)P(b)P(c) Y: P(b)P(c)P(d) Z: P(c)P(d)P(a)</p>",
+            "<b>B.</b> <p>X: P(b)P(a)P(c) Y: P(b)P(c)P(d) Z: P(a)P(c)P(d)</p>",
+            "<b>C.</b> <p>X: P(b)P(a)P(c) Y: P(c)P(b)P(d) Z: P(a)P(c)P(d)</p>",
+            "<b>D.</b> <p>X: P(a)P(b)P(c) Y: P(c)P(b)P(d) Z: P(c)P(d)P(a)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>X: P(b)P(a)P(c) Y: P(b)P(c)P(d) Z: P(a)P(c)P(d)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1438/gate2013-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Fetch_And_Add(X,i) is an atomic Read-Modify-Write instruction that reads the value of\nmemory location X, increments it by the value i, and returns the old value of X. It is used in the\npseudocode shown below to implement a busy-wait lock. L is an unsigned integer shared variable\ninitialized to 0. The value of 0 corresponds to lock being available, while any non-zero value\ncorresponds to the lock being not available.<pre><code> AcquireLock(L){\n   while (Fetch_And_Add(L,1))\n        L = 1;\n}\nReleaseLock(L){\n     L = 0;\n} </code></pre>\nThis implementation <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>fails as L can overflow</p>",
+            "<b>B.</b> <p>fails as L can take on a non-zero value when the lock is actually available</p>",
+            "<b>C.</b> <p>works correctly but may starve some processes</p>",
+            "<b>D.</b> <p>works correctly without starvation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>fails as L can take on a non-zero value when the lock is actually available</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1750/gate2012-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The following program consists of 3 concurrent processes and 3 binary\nsemaphores. The semaphores are initialized as S0=1, S1=0, S2=0. How many times will process P0 print '0'? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q45_03507a62.jpg\"><br> How many times will process P0 print '0'? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>At least twice</p>",
+            "<b>B.</b> <p>Exactly twice</p>",
+            "<b>C.</b> <p>Exactly thrice</p>",
+            "<b>D.</b> <p>Exactly once</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>At least twice</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2347/gate2010-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the methods used by processes P1 and P2 for accessing their critical\nsections whenever needed, as given below. The initial values of shared boolean\nvariables S1 and S2 are randomly assigned. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Process_Synchronization\\q23_0dd65df2.jpg\"> <br> Which one of the following statements describes the properties achieved? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion but not progress</p>",
+            "<b>B.</b> <p>Progress but not mutual exclusion</p>",
+            "<b>C.</b> <p>Neither mutual exclusion nor progress</p>",
+            "<b>D.</b> <p>Both mutual exclusion and progress</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Mutual exclusion but not progress</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2202/gate2010-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

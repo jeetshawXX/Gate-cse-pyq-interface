@@ -1,0 +1,41 @@
+{
+  "title": "Databases - Query",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Query",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435368\"></a><div itemprop=\"text\"><p>Which of the following SQL query deletes all tuples in the teacher relation for those teachers associated with a department located in the building with name CSE and which is in department relation:</p></div><br><br><b>Databases: ISRO CSE 2023 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p><code>DELETE FROM teacher<br>WHERE dept_name IN ‘CSE’;</code></p>",
+            "<p><code>DELETE FROM department<br>WHERE building&nbsp;=&nbsp;‘CSE’;</code></p>",
+            "<p><code>DELETE FROM teacher<br>WHERE dept_name IN (<br>&nbsp; &nbsp;SELECT dept_name<br>&nbsp; &nbsp;FROM department<br>&nbsp; &nbsp;WHERE building = ‘CSE);</code></p>",
+            "<p><code>DELETE FROM teacher<br>WHERE dept_name IN ‘CSE’;</code></p>"
+          ],
+          "correct_answer": "<p><code>DELETE FROM teacher<br>WHERE dept_name IN (<br>&nbsp; &nbsp;SELECT dept_name<br>&nbsp; &nbsp;FROM department<br>&nbsp; &nbsp;WHERE building = ‘CSE);</code></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435368/isro-cse-2023-question-28\" target=\"_blank\">https://gateoverflow.in/435368/isro-cse-2023-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"182066\"></a><div itemprop=\"text\"><p>Consider the following query :</p>\n\n<p>\\( SELECT \\) E.eno, \\( COUNT(*) \\)<br>\n\\( FROM \\) Employees E<br>\n\\( GROUP\\, BY \\) E.eno</p>\n\n<p>If an index on \\( eno \\) is available, the query can be answered by scanning only the index if</p>\n\n</div><br><br><b>Databases: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the index is only hash and clustered&nbsp;</p>",
+            "<p>the index is only \\( B+ \\) tree and clustered&nbsp;</p>",
+            "<p>index can be hash or \\( B+ \\) tree and clustered or non-clustered&nbsp;</p>",
+            "<p>index can be hash or \\( B+ \\) tree and clustered</p>"
+          ],
+          "correct_answer": "<p>index can be hash or \\( B+ \\) tree and clustered or non-clustered&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182066/isro-dec2017-16\" target=\"_blank\">https://gateoverflow.in/182066/isro-dec2017-16</a></p>"
+        }
+      ]
+    }
+  ]
+}

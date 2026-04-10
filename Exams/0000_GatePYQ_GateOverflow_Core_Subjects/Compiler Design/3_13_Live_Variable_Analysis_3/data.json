@@ -1,0 +1,56 @@
+{
+  "title": "Compiler Design - Live Variable Analysis",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Live Variable Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"8356\"></a><div itemprop=\"text\"><p>A variable \\( x \\) is said to be live at a statement \\( s_{i} \\) in a program if the following three conditions hold simultaneously:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>There exists a statement \\( S_{j} \\) that uses \\( x \\)</li>\n\t<li>There is a path from \\( S_{i} \\) to \\( S_{j} \\) in the flow graph corresponding to the program</li>\n\t<li>The path has no intervening assignment to \\( x \\) including at \\( S_{i} \\) and \\( S_{j} \\)\n\t<p style=\"text-align:center\"><img alt=\"\" height=\"217\" src=\"images/gateOverflow_pyq_images/compiler_design___live_variable_analysis/8e69ed101a5ba7d0cb136809e6b63474.png\" width=\"402\"></p>\n\t</li>\n</ol>\n\n<p>The variables which are live both at the statement in basic block \\( 2 \\) and at the statement in basic block \\( 3 \\) of the above control flow graph are</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{p, s, u} \\)</p>",
+            "<p>\\( \\text{r, s, u} \\)</p>",
+            "<p>\\( \\text{r, u} \\)</p>",
+            "<p>\\( \\text{q, v} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{r, u} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8356/gate-cse-2015-set-1-question-50\" target=\"_blank\">https://gateoverflow.in/8356/gate-cse-2015-set-1-question-50</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"357502\"></a><div itemprop=\"text\"><p>For a statement \\( S \\) in a program, in the context of liveness analysis, the following sets are defined:</p>\n\n<p>\\( \\text{USE}(S) \\) : the set of variables used in \\( S \\)</p>\n\n<p>\\( \\text{IN}(S) \\) : the set of variables that are live at the entry of \\( S \\)</p>\n\n<p>\\( \\text{OUT}(S) \\) : the set of variables that are live at the exit of \\( S \\)</p>\n\n<p>Consider a basic block that consists of two statements, \\( S_1 \\) followed by \\( S_2 \\). Which one of the following statements is correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{OUT( \\)S_1\\( )}&nbsp;= \\text{IN ( \\)S_2\\( )} \\)</p>",
+            "<p>\\( \\text{OUT ( \\)S_1\\( )}&nbsp;= \\text{IN ( \\)S_1\\( )} \\cup \\text{&nbsp;USE ( \\)S_1\\( )} \\)</p>",
+            "<p>\\( \\text{OUT ( \\)S_1\\( )}&nbsp;= \\text{IN ( \\)S_2\\( ) }\\cup \\text{&nbsp;OUT ( \\)S_2\\( )} \\)</p>",
+            "<p>\\( \\text{OUT ( \\)S_1\\( )}&nbsp;= \\text{USE ( \\)S_1\\( )} \\cup&nbsp;\\text{IN ( \\)S_2\\( )} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{OUT( \\)S_1\\( )}&nbsp;= \\text{IN ( \\)S_2\\( )} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357502/gate-cse-2021-set-2-question-38\" target=\"_blank\">https://gateoverflow.in/357502/gate-cse-2021-set-2-question-38</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"399284\"></a><div itemprop=\"text\"><p>Consider the control flow graph shown.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"390\" src=\"images/gateOverflow_pyq_images/compiler_design___live_variable_analysis/fb445d0d9426799192ac933a79b207c8.png\" width=\"317\"></p>\n\n<p>Which one of the following choices correctly lists the set of <em>live</em> variables at the exit point of each basic block?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{B1: { }, B2: {a}, B3: {a}, B4: {a}} \\)</p>",
+            "<p>\\( \\text{B1: {i, j}, B2: {a}, B3: {a}, B4: {i}} \\)</p>",
+            "<p>\\( \\text{B1: {a, i, j}, B2: {a, i, j}, B3: {a, i}, B4: {a}} \\)</p>",
+            "<p>\\( \\text{B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{B1: {a, i, j}, B2: {a, j}, B3: {a, j}, B4: {a, i, j}} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399284/gate-cse-2023-question-27\" target=\"_blank\">https://gateoverflow.in/399284/gate-cse-2023-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+}

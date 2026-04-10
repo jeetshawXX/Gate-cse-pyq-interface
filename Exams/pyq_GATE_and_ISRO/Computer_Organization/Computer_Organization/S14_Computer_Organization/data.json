@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Organization - Computer_Organization - Slot 14",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The TRAP is one of the interrupts available in INTEL 8085. Which one of the following statements is true of TRAP ? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it is level triggered</p>",
+            "<b>B.</b> <p>it is negative edge triggered</p>",
+            "<b>C.</b> <p>it is +ve edge triggered</p>",
+            "<b>D.</b> <p>it is both +ve and -ve edges triggered</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>it is both +ve and -ve edges triggered</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47657/isro2008-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The device which is used to connect a peripheral to bus is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>control register</p>",
+            "<b>B.</b> <p>interface</p>",
+            "<b>C.</b> <p>communication protocol</p>",
+            "<b>D.</b> <p>none of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>interface</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49974/isro2008-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following architecture is/are not suitable for realising SIMD? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Vector processor</p>",
+            "<b>B.</b> <p>Array processor</p>",
+            "<b>C.</b> <p>Von Neumann</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Von Neumann</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49969/isro2008-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following Assembly language program<br>\nMVIA\t30 H<br>\nACI\t30 H<br>\nXRA\tA<br>\nPOP\tH<br>\nAfter the execution of the above program, the contents of the accumulator will be <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>30 H</p>",
+            "<b>B.</b> <p>60 H</p>",
+            "<b>C.</b> <p>00 H</p>",
+            "<b>D.</b> <p>contents of stack</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>00 H</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49921/isro2008-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The ability to temporarily halt the CPU and use this time to send information on buses is called <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>direct memory access</p>",
+            "<b>B.</b> <p>vectoring the interrupt</p>",
+            "<b>C.</b> <p>polling</p>",
+            "<b>D.</b> <p>cycle stealing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>cycle stealing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49919/isro2008-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>An interrupt in which the external device supplies its address as well as the interrupt requests is known as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>vectored interrupt</p>",
+            "<b>B.</b> <p>maskable interrupt</p>",
+            "<b>C.</b> <p>non maskable interrupt</p>",
+            "<b>D.</b> <p>designated interrupt</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>vectored interrupt</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49917/isro2008-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The performance of a pipelined processor suffers if: <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the pipeline stages have different delays</p>",
+            "<b>B.</b> <p>consecutive instructions are dependent on each other</p>",
+            "<b>C.</b> <p>the pipeline stages share hardware resources</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/836/gate2002-2-6-isro2008-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>More than one word are put in one cache block to: <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>exploit the temporal locality of reference in a program</p>",
+            "<b>B.</b> <p>exploit the spatial locality of reference in a program</p>",
+            "<b>C.</b> <p>reduce the miss penalty</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>exploit the spatial locality of reference in a program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/700/gate2001-1-7-isro2008-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The address space of 8086 CPU is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>one Megabyte</p>",
+            "<b>B.</b> <p>256 Kilobytes</p>",
+            "<b>C.</b> <p>1 K Megabytes</p>",
+            "<b>D.</b> <p>64 Kilobytes</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>one Megabyte</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1682/gate1998-2-10-isro2008-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a computer with a 4-ways set-associative mapped cache of the following characteristics: a total of 1 MB of main memory, a word size of 1 byte, a block size of 128 words and a cache size of 8 KB.<br>\nWhile accessing the memory location 0C795H by the CPU, the contents of the TAG field of the corresponding cache line is: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>000011000</p>",
+            "<b>B.</b> <p>110001111</p>",
+            "<b>C.</b> <p>00011000</p>",
+            "<b>D.</b> <p>110010101</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>000011000</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3405/gate2008-it-81\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a computer with a 4-ways set-associative mapped cache of the following characteristics: a total of 1 MB of main memory, a word size of 1 byte, a block size of 128 words and a cache size of 8 KB.<br>\nThe number of bits in the TAG, SET and WORD fields, respectively are: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7,6,7</p>",
+            "<b>B.</b> <p>8,5,7</p>",
+            "<b>C.</b> <p>8,6,6</p>",
+            "<b>D.</b> <p>9,4,7</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9,4,7</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3403/gate2008-it-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A non pipelined single cycle processor operating at 100 MHz is converted into a synchronous pipelined processor with five stages requiring 2.5 nsec, 1.5 nsec, 2 nsec, 1.5 nsec and 2.5 nsec, respectively. The delay of the latches is 0.5 nsec. The speedup of the pipeline processor for a large number of instructions is: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4.5</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>3.33</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3.33</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3350/gate2008-it-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a CPU where all the instructions require 7 clock cycles to complete execution. There are 140 instructions in the instruction set. It is found that 125 control signals are needed to be generated by the control unit. While designing the horizontal microprogrammed control unit, single address field format is used for branch control logic. What is the minimum size of the control word and control address register? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125, 7</p>",
+            "<b>B.</b> <p>125, 10</p>",
+            "<b>C.</b> <p>135, 9</p>",
+            "<b>D.</b> <p>135, 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>135, 10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3349/gate2008-it-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Assume that EA = (X)+ is the effective address equal to the contents of location X, with X incremented by one word length after the effective address is calculated; EA = -(X) is the effective address equal to the contents of location X, with X decremented by one word length before the effective address is calculated; EA = (X)- is the effective address equal to the contents of location X, with X decremented by one word length after the effective address is calculated. The format of the instruction is (opcode, source, destination), which means (destination \\(\\longleftarrow\\) source op destination). Using X as a stack pointer, which of the following instructions can pop the top two elements from the stack, perform the addition operation and push the result back to the stack. <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ADD (X)-, (X)</p>",
+            "<b>B.</b> <p>ADD (X), (X)-</p>",
+            "<b>C.</b> <p>ADD -(X), (X)+</p>",
+            "<b>D.</b> <p>ADD -(X), (X)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>ADD (X)-, (X)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3348/gate2008-it-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A processor that has the carry, overflow and sign flag bits as part of its program status word (PSW) performs addition of the following two 2's complement numbers 01001101 and 11101001. After the execution of this addition operation, the status of the carry, overflow and sign flags, respectively will be: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 1, 0</p>",
+            "<b>B.</b> <p>1, 0, 0</p>",
+            "<b>C.</b> <p>0, 1, 0</p>",
+            "<b>D.</b> <p>1, 0, 1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1, 0, 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3275/gate2008-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

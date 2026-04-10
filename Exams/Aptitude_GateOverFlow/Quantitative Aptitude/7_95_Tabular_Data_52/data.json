@@ -1,0 +1,787 @@
+{
+  "title": "Quantitative Aptitude - Tabular Data",
+  "duration": 144,
+  "sections": [
+    {
+      "name": "Tabular Data",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4169\"></a><div itemprop=\"text\"><p>The following table gives data of some students. However, some data has been spoilt and cannot be read on the computer floppy</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9247013122549970555\"></p>\n\n<p>It is also known that:</p>\n\n<p>1. Half the students were either excellent or good.</p>\n\n<p>2. 40% of the students were females</p>\n\n<p>3. One-third of the male students were average. Based on the above answer the following questions.</p>\n\n<p>How many students are both female and excellent?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 151</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 32 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4169/cat-1995-question-151\" target=\"_blank\">https://aptitude.gateoverflow.in/4169/cat-1995-question-151</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4171\"></a><div itemprop=\"text\"><p>The following table gives data of some students. However, some data has been spoilt and cannot be read on the computer floppy</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9247013122549970555\"></p>\n\n<p>It is also known that:</p>\n\n<p>1. Half the students were either excellent or good.</p>\n\n<p>2. \\( 40\\% \\) of the students were females</p>\n\n<p>3. One-third of the male students were average. Based on the above answer the following questions.</p>\n\n<p>What proportion of good students are male?</p>\n\n</div><br><br><b>Data Interpretation: CAT 1995 | Question: 152</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 0.73 \\)</p>",
+            "<p>\\( 0.4 \\)</p>",
+            "<p>\\( 1.0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4171/cat-1995-question-152\" target=\"_blank\">https://aptitude.gateoverflow.in/4171/cat-1995-question-152</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4181\"></a><div itemprop=\"text\"><p>The following table gives data of some students. However, some data has been spoilt and cannot be read on the computer floppy</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9247013122549970555\"></p>\n\n<p>It is also known that:</p>\n\n<p>1. Half the students were either excellent or good.</p>\n\n<p>2. 40% of the students were females</p>\n\n<p>3. One-third of the male students were average. Based on the above answer the following questions.</p>\n\n<p>What proportions of female students are good?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 153</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 0.25 \\)</p>",
+            "<p>\\( 0.5 \\)&nbsp;</p>",
+            "<p>\\( 1.0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4181/cat-1995-question-153\" target=\"_blank\">https://aptitude.gateoverflow.in/4181/cat-1995-question-153</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"4182\"></a><div itemprop=\"text\"><p>The following table gives data of some students. However, some data has been spoilt and cannot be read on the computer floppy</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9247013122549970555\"></p>\n\n<p>It is also known that:</p>\n\n<p>1. Half the students were either excellent or good.</p>\n\n<p>2. 40% of the students were females</p>\n\n<p>3. One-third of the male students were average. Based on the above answer the following questions.</p>\n\n<p>How many students are both male and good?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 154</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>10&nbsp;</p>",
+            "<p>16</p>",
+            "<p>22&nbsp;</p>",
+            "<p>48</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4182/cat-1995-question-154\" target=\"_blank\">https://aptitude.gateoverflow.in/4182/cat-1995-question-154</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"4183\"></a><div itemprop=\"text\"><p>The following table gives data of some students. However, some data has been spoilt and cannot be read on the computer floppy</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=9247013122549970555\"></p>\n\n<p>It is also known that:</p>\n\n<p>1. Half the students were either excellent or good.</p>\n\n<p>2. 40% of the students were females</p>\n\n<p>3. One-third of the male students were average. Based on the above answer the following questions.</p>\n\n<p>Among average students, what is the ratio of male to female?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 155</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1:2&nbsp;</p>",
+            "<p>2: 1</p>",
+            "<p>3:2&nbsp;</p>",
+            "<p>2:3</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4183/cat-1995-question-155\" target=\"_blank\">https://aptitude.gateoverflow.in/4183/cat-1995-question-155</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"4184\"></a><div itemprop=\"text\"><p>Market shares in four Metropolitan cities.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Period/ Products</td>\n\t\t\t<td>Bombay 1993-94</td>\n\t\t\t<td>Calcutta 1993-94</td>\n\t\t\t<td>Delhi 1993-94</td>\n\t\t\t<td>Madras 1993-94</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HD</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>35-30</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>20-30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CO</td>\n\t\t\t<td>20-25</td>\n\t\t\t<td>30-15</td>\n\t\t\t<td>15-10</td>\n\t\t\t<td>20-15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BN</td>\n\t\t\t<td>45-40</td>\n\t\t\t<td>25-35</td>\n\t\t\t<td>35-35</td>\n\t\t\t<td>\n\t\t\t<p>10-10</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MT</td>\n\t\t\t<td>15-20</td>\n\t\t\t<td>10-20</td>\n\t\t\t<td>10-10</td>\n\t\t\t<td>50-45</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The market shares of which products did not decrease between 1993-94 in any city?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 156</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>HD&nbsp;</p>",
+            "<p>CO</p>",
+            "<p>BN&nbsp;</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4184/cat-1995-question-156\" target=\"_blank\">https://aptitude.gateoverflow.in/4184/cat-1995-question-156</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"4185\"></a><div itemprop=\"text\"><p>Market shares in four Metropolitan cities.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Period/ Products</td>\n\t\t\t<td>Bombay 1993-94</td>\n\t\t\t<td>Calcutta 1993-94</td>\n\t\t\t<td>Delhi 1993-94</td>\n\t\t\t<td>madras 1993-94</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HD</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>35-30</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>20-30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CO</td>\n\t\t\t<td>20-25</td>\n\t\t\t<td>30-15</td>\n\t\t\t<td>15-10</td>\n\t\t\t<td>20-15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BN</td>\n\t\t\t<td>45-40</td>\n\t\t\t<td>25-35</td>\n\t\t\t<td>35-35</td>\n\t\t\t<td>\n\t\t\t<p>10-10</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MT</td>\n\t\t\t<td>15-20</td>\n\t\t\t<td>10-20</td>\n\t\t\t<td>10-10</td>\n\t\t\t<td>50-45</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The number of products which doubled their market shares in one or more cities is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 157</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>0&nbsp;</p>",
+            "<p>1</p>",
+            "<p>2</p>",
+            "<p>3</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4185/cat-1995-question-157\" target=\"_blank\">https://aptitude.gateoverflow.in/4185/cat-1995-question-157</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"4186\"></a><div itemprop=\"text\"><p>Market shares in four Metropolitan cities.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Period/ Products</td>\n\t\t\t<td>Bombay 1993-94</td>\n\t\t\t<td>Calcutta 1993-94</td>\n\t\t\t<td>Delhi 1993-94</td>\n\t\t\t<td>madras 1993-94</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HD</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>35-30</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>20-30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CO</td>\n\t\t\t<td>20-25</td>\n\t\t\t<td>30-15</td>\n\t\t\t<td>15-10</td>\n\t\t\t<td>20-15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BN</td>\n\t\t\t<td>45-40</td>\n\t\t\t<td>25-35</td>\n\t\t\t<td>35-35</td>\n\t\t\t<td>\n\t\t\t<p>10-10</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MT</td>\n\t\t\t<td>15-20</td>\n\t\t\t<td>10-20</td>\n\t\t\t<td>10-10</td>\n\t\t\t<td>50-45</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The largest percentage drop in market shares is</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 158</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>60%&nbsp;</p>",
+            "<p>50%</p>",
+            "<p>53.3%&nbsp;</p>",
+            "<p>20%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4186/cat-1995-question-158\" target=\"_blank\">https://aptitude.gateoverflow.in/4186/cat-1995-question-158</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"4187\"></a><div itemprop=\"text\"><p>Market shares in four Metropolitan cities.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Period/ Products</td>\n\t\t\t<td>Bombay 1993-94</td>\n\t\t\t<td>Calcutta 1993-94</td>\n\t\t\t<td>Delhi 1993-94</td>\n\t\t\t<td>Madras 1993-94</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HD</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>35-30</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>20-30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CO</td>\n\t\t\t<td>20-25</td>\n\t\t\t<td>30-15</td>\n\t\t\t<td>15-10</td>\n\t\t\t<td>20-15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BN</td>\n\t\t\t<td>45-40</td>\n\t\t\t<td>25-35</td>\n\t\t\t<td>35-35</td>\n\t\t\t<td>\n\t\t\t<p>10-10</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MT</td>\n\t\t\t<td>15-20</td>\n\t\t\t<td>10-20</td>\n\t\t\t<td>10-10</td>\n\t\t\t<td>50-45</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The number of products which had 100% market share in four metropolitan cities is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 159</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>0</p>",
+            "<p>1</p>",
+            "<p>2</p>",
+            "<p>3</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4187/cat-1995-question-159\" target=\"_blank\">https://aptitude.gateoverflow.in/4187/cat-1995-question-159</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"4188\"></a><div itemprop=\"text\"><p>Market shares in four Metropolitan cities.</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Period/ Products</td>\n\t\t\t<td>Bombay 1993-94</td>\n\t\t\t<td>Calcutta 1993-94</td>\n\t\t\t<td>Delhi 1993-94</td>\n\t\t\t<td>madras 1993-94</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>HD</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>35-30</td>\n\t\t\t<td>20-15</td>\n\t\t\t<td>20-30</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CO</td>\n\t\t\t<td>20-25</td>\n\t\t\t<td>30-15</td>\n\t\t\t<td>15-10</td>\n\t\t\t<td>20-15</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BN</td>\n\t\t\t<td>45-40</td>\n\t\t\t<td>25-35</td>\n\t\t\t<td>35-35</td>\n\t\t\t<td>\n\t\t\t<p>10-10</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>MT</td>\n\t\t\t<td>15-20</td>\n\t\t\t<td>10-20</td>\n\t\t\t<td>10-10</td>\n\t\t\t<td>50-45</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The city in which the minimum number of products increased their market shares in 1993-94 was:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 160</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Bombay&nbsp;</p>",
+            "<p>Delhi</p>",
+            "<p>Calcutta&nbsp;</p>",
+            "<p>Madras</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4188/cat-1995-question-160\" target=\"_blank\">https://aptitude.gateoverflow.in/4188/cat-1995-question-160</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"4210\"></a><div itemprop=\"text\"><p>A company produces five types of shirts - A, B, C, D, E - using cloth of three qualities - High, Medium and Low - using dyes of three qualities - High, Medium, and Low. The following tables give, respectively: 1.&nbsp; The number of shirts (of each category) produced, in thousands. 2. The percentage distribution of cloth quality in each type of shirt, and 3. The percentage distribution of dye quality in each type of shirt.<br>\n&nbsp;<br>\nNote: Each shirt requires 1.5 metres of cloth.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6393753647853422611\"></p>\n\n<p>What is the total requirement of cloth?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 181</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>150,000 m&nbsp;</p>",
+            "<p>200,000 m</p>",
+            "<p>225,000 m&nbsp;</p>",
+            "<p>250,000 m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4210/cat-1995-question-181\" target=\"_blank\">https://aptitude.gateoverflow.in/4210/cat-1995-question-181</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"4211\"></a><div itemprop=\"text\"><p>A company produces five types of shirts - A, B, C, D, E - using cloth of three qualities - High, Medium and Low - using dyes of three qualities - High, Medium, and Low. The following tables give, respectively: 1.&nbsp; The number of shirts (of each category) produced, in thousands. 2. The percentage distribution of cloth quality in each type of shirt, and 3. The percentage distribution of dye quality in each type of shirt.<br>\n&nbsp;<br>\nNote: Each shirt requires 1.5 metres of cloth</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6393753647853422611\"></p>\n\n<p>How many metres of high quality cloth is consumed by A-shirts?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 182</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>8,000 m</p>",
+            "<p>112,000m</p>",
+            "<p>24,000 m</p>",
+            "<p>30,000m</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4211/cat-1995-question-182\" target=\"_blank\">https://aptitude.gateoverflow.in/4211/cat-1995-question-182</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"4212\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>A company produces five types of shirts - A, B, C, D, E - using cloth of three qualities - High, Medium and Low - using dyes of three qualities - High, Medium, and Low. The following tables give, respectively: 1.&nbsp; The number of shirts (of each category) produced, in thousands. 2. The percentage distribution of cloth quality in each type of shirt, and 3. The percentage distribution of dye quality in each type of shirt.<br>\n&nbsp;<br>\nNote: Each shirt requires 1.5 metres of cloth</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6393753647853422611\"></p>\n\n<p>What is the ratio of low-quality dye used for C-shirts to that used for D-shirts?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 183</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>3:2&nbsp;</p>",
+            "<p>2:1</p>",
+            "<p>1:2</p>",
+            "<p>2:3</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4212/cat-1995-question-183\" target=\"_blank\">https://aptitude.gateoverflow.in/4212/cat-1995-question-183</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"4213\"></a><div itemprop=\"text\"><p>A company produces five types of shirts - A, B, C, D, E - using cloth of three qualities - High, Medium and Low - using dyes of three qualities - High, Medium, and Low. The following tables give, respectively: 1.&nbsp; The number of shirts (of each category) produced, in thousands. 2. The percentage distribution of cloth quality in each type of shirt, and 3. The percentage distribution of dye quality in each type of shirt.<br>\n&nbsp;<br>\nNote: Each shirt requires 1.5 metres of cloth</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6393753647853422611\"></p>\n\n<p>How many metres of low-quality cloth is consumed?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 184</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>22,500&nbsp;</p>",
+            "<p>46,500</p>",
+            "<p>60,000&nbsp;</p>",
+            "<p>40,000</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4213/cat-1995-question-184\" target=\"_blank\">https://aptitude.gateoverflow.in/4213/cat-1995-question-184</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"4214\"></a><div itemprop=\"text\"><p>A company produces five types of shirts - A, B, C, D, E - using cloth of three qualities - High, Medium and Low - using dyes of three qualities - High, Medium, and Low. The following tables give, respectively: 1.&nbsp; The number of shirts (of each category) produced, in thousands. 2. The percentage distribution of cloth quality in each type of shirt, and 3. The percentage distribution of dye quality in each type of shirt.<br>\n&nbsp;<br>\nNote: Each shirt requires 1.5 metres of cloth</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6393753647853422611\"></p>\n\n<p>What is the ratio of the three qualities of dyes in high-quality cloth?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 185</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2:3:5&nbsp;</p>",
+            "<p>1:2:5</p>",
+            "<p>7:9:10&nbsp;</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4214/cat-1995-question-185\" target=\"_blank\">https://aptitude.gateoverflow.in/4214/cat-1995-question-185</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"3822\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=3428904020208635189\"></p>\n\n<p>What is the maximum production capacity (in ‘000 tonnes) of Lipton for coffee?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 151</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2.53 \\)</p>",
+            "<p>\\( 2.85 \\)</p>",
+            "<p>\\( 2.24 \\)</p>",
+            "<p>\\( 2.07 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3822/cat-1996-question-151\" target=\"_blank\">https://aptitude.gateoverflow.in/3822/cat-1996-question-151</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"3823\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4571117004029117633\"></p>\n\n<p>The highest price of coffee per kg is for</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 152</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Nestle</p>",
+            "<p>MAC</p>",
+            "<p>Lipton</p>",
+            "<p>Insufficient data</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3823/cat-1996-question-152\" target=\"_blank\">https://aptitude.gateoverflow.in/3823/cat-1996-question-152</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"3824\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4242562129559881344\"></p>\n\n<p>What percent of the total market share (by Sales Value) is controlled by “Others”?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 153</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 60 \\)%</p>",
+            "<p>\\( 32 \\)%</p>",
+            "<p>\\( 67 \\)%</p>",
+            "<p>Insufficient data.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3824/cat-1996-question-153\" target=\"_blank\">https://aptitude.gateoverflow.in/3824/cat-1996-question-153</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"3825\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7096668500893072422\"></p>\n\n<p>What approximately is the total production capacity (in tonnes) for coffee in India?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 154</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 18, 100 \\)</p>",
+            "<p>\\( 20,300 \\)&nbsp;</p>",
+            "<p>\\( 18,900 \\)&nbsp;</p>",
+            "<p>Insufficient data.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3825/cat-1996-question-154\" target=\"_blank\">https://aptitude.gateoverflow.in/3825/cat-1996-question-154</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"3826\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11360464804160573519\"></p>\n\n<p>Which company out of the four companies mentioned above has the maximum unutilised capacity (in ‘\\( 000 \\) tonnes)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 155</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Lipton</p>",
+            "<p>Nestle</p>",
+            "<p>Brooke Bond</p>",
+            "<p>MAC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3826/cat-1996-question-155\" target=\"_blank\">https://aptitude.gateoverflow.in/3826/cat-1996-question-155</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"3827\"></a><div itemprop=\"text\"><table border=\"1\" cellpadding=\"1\" style=\"width:90%; margin: auto; border-spacing: 1px;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">Month</th>\n\t\t\t<th scope=\"col\">Stage</th>\n\t\t\t<th scope=\"col\">Cost(Rs. '000 per man-month)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\\( 1-2 \\)</td>\n\t\t\t<td>Specification</td>\n\t\t\t<td>\\( 40 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 3-4 \\)</td>\n\t\t\t<td>Design</td>\n\t\t\t<td>\n\t\t\t<p>\\( 20 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 5-8 \\)</td>\n\t\t\t<td>Coding</td>\n\t\t\t<td>\n\t\t\t<p>\\( 10 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 9-10 \\)</td>\n\t\t\t<td>Testing</td>\n\t\t\t<td>\n\t\t\t<p>\\( 15 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 11-15 \\)</td>\n\t\t\t<td>Maintenance</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The number of people employed in each month is:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; margin: auto; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">Month</th>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 6 \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t\t<td>\\( 8 \\)</td>\n\t\t\t<td>\\( 9 \\)</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 11 \\)</td>\n\t\t\t<td>\\( 12 \\)</td>\n\t\t\t<td>\\( 13 \\)</td>\n\t\t\t<td>\\( 14 \\)</td>\n\t\t\t<td>\\( 15 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">No. of people employed</th>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<p>Due to an overrun, the Design stage took three months, i.e. months \\( 3, 4 \\) and \\( 5 \\). The number of people working on Design in the fifth month was \\( 5 \\). Calculate the percentage change in the cost incurred in the fifth month. (due to improvement in “Coding” technique, the stage was completed in months \\( 6-8 \\) only).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 156</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 225 \\)%</p>",
+            "<p>\\( 150 \\)%</p>",
+            "<p>\\( 275 \\)%</p>",
+            "<p>\\( 240 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3827/cat-1996-question-156\" target=\"_blank\">https://aptitude.gateoverflow.in/3827/cat-1996-question-156</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"3828\"></a><div itemprop=\"text\"><table border=\"1\" cellpadding=\"1\" style=\"width:90%; margin: auto; border-spacing: 1px;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">Month</th>\n\t\t\t<th scope=\"col\">Stage</th>\n\t\t\t<th scope=\"col\">Cost(Rs. '000 per man-month)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 1-2 \\)</td>\n\t\t\t<td>Specification</td>\n\t\t\t<td>\\( 40 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 3-4 \\)</td>\n\t\t\t<td>Design</td>\n\t\t\t<td>\n\t\t\t<p>\\( 20 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 5-8 \\)</td>\n\t\t\t<td>Coding</td>\n\t\t\t<td>\n\t\t\t<p>\\( 10 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 9-10 \\)</td>\n\t\t\t<td>Testing</td>\n\t\t\t<td>\n\t\t\t<p>\\( 15 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 11-15 \\)</td>\n\t\t\t<td>Maintenance</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t</tr>\n\t</thead>\n</table>\n\n<p>The number of people employed in each month is:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; margin: auto; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">Month</th>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 6 \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t\t<td>\\( 8 \\)</td>\n\t\t\t<td>\\( 9 \\)</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 11 \\)</td>\n\t\t\t<td>\\( 12 \\)</td>\n\t\t\t<td>\\( 13 \\)</td>\n\t\t\t<td>\\( 14 \\)</td>\n\t\t\t<td>\\( 15 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">No. of people employed</th>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>With reference to the above question, what is the cost incurred in the new “Coding” stage? (Under the new technique, \\( 4 \\) people work in the sixth month and \\( 5 \\) in the eighth).</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 157</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 1,40,000 \\)&nbsp;</p>",
+            "<p>Rs. \\( 1,50,000 \\)&nbsp;</p>",
+            "<p>Rs. \\( 1,60,000 \\)&nbsp;</p>",
+            "<p>Rs. \\( 1,70,000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3828/cat-1996-question-157\" target=\"_blank\">https://aptitude.gateoverflow.in/3828/cat-1996-question-157</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"3829\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"height:290px; width:755px; margin: auto; border-spacing: 1px;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">Month</th>\n\t\t\t<th scope=\"col\">Stage</th>\n\t\t\t<th scope=\"col\">Cost(Rs. '000 per man-month)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 1-2 \\)</td>\n\t\t\t<td>Specification</td>\n\t\t\t<td>\\( 40 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 3-4 \\)</td>\n\t\t\t<td>Design</td>\n\t\t\t<td>\n\t\t\t<p>\\( 20 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 5-8 \\)</td>\n\t\t\t<td>Coding</td>\n\t\t\t<td>\n\t\t\t<p>\\( 10 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 9-10 \\)</td>\n\t\t\t<td>Testing</td>\n\t\t\t<td>\n\t\t\t<p>\\( 15 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 11-15 \\)</td>\n\t\t\t<td>Maintenance</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t</tr>\n\t</thead>\n</table>\n\n<p>The number of people employed in each month is:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; margin: auto; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">Month</th>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 6 \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t\t<td>\\( 8 \\)</td>\n\t\t\t<td>\\( 9 \\)</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 11 \\)</td>\n\t\t\t<td>\\( 12 \\)</td>\n\t\t\t<td>\\( 13 \\)</td>\n\t\t\t<td>\\( 14 \\)</td>\n\t\t\t<td>\\( 15 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">No. of people employed</th>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Under the new technique, which stage of Software Development is most expensive for \\( XYZ \\) Software company?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 158</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Testing</p>",
+            "<p>Specification</p>",
+            "<p>Coding</p>",
+            "<p>Design</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3829/cat-1996-question-158\" target=\"_blank\">https://aptitude.gateoverflow.in/3829/cat-1996-question-158</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"3830\"></a><div itemprop=\"text\"><table border=\"1\" cellpadding=\"1\" style=\"width:90%; margin: auto; border-spacing: 1px;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">Month</th>\n\t\t\t<th scope=\"col\">Stage</th>\n\t\t\t<th scope=\"col\">Cost(Rs. '000 per man-month)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 1-2 \\)</td>\n\t\t\t<td>Specification</td>\n\t\t\t<td>\\( 40 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 3-4 \\)</td>\n\t\t\t<td>Design</td>\n\t\t\t<td>\n\t\t\t<p>\\( 20 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 5-8 \\)</td>\n\t\t\t<td>Coding</td>\n\t\t\t<td>\n\t\t\t<p>\\( 10 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 9-10 \\)</td>\n\t\t\t<td>Testing</td>\n\t\t\t<td>\n\t\t\t<p>\\( 15 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 11-15 \\)</td>\n\t\t\t<td>Maintenance</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t</tr>\n\t</thead>\n</table>\n\n<p>The number of people employed in each month is:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; margin: auto; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">Month</th>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 6 \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t\t<td>\\( 8 \\)</td>\n\t\t\t<td>\\( 9 \\)</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 11 \\)</td>\n\t\t\t<td>\\( 12 \\)</td>\n\t\t\t<td>\\( 13 \\)</td>\n\t\t\t<td>\\( 14 \\)</td>\n\t\t\t<td>\\( 15 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">No. of people employed</th>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Which five consecutive months have the lowest average cost per man-month under the new technique?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 159</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1-5 \\)&nbsp;</p>",
+            "<p>\\( 9-13 \\)</p>",
+            "<p>\\( 11-15 \\)&nbsp;</p>",
+            "<p>None of the these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3830/cat-1996-question-159\" target=\"_blank\">https://aptitude.gateoverflow.in/3830/cat-1996-question-159</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"3831\"></a><div itemprop=\"text\"><table border=\"1\" cellpadding=\"1\" style=\"width:90%; margin: auto; border-spacing: 1px;\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th scope=\"col\">Month</th>\n\t\t\t<th scope=\"col\">Stage</th>\n\t\t\t<th scope=\"col\">Cost(Rs. '000 per man-month)</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 1-2 \\)</td>\n\t\t\t<td>Specification</td>\n\t\t\t<td>\\( 40 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 3-4 \\)</td>\n\t\t\t<td>Design</td>\n\t\t\t<td>\n\t\t\t<p>\\( 20 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 5-8 \\)</td>\n\t\t\t<td>Coding</td>\n\t\t\t<td>\n\t\t\t<p>\\( 10 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 9-10 \\)</td>\n\t\t\t<td>Testing</td>\n\t\t\t<td>\n\t\t\t<p>\\( 15 \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( 11-15 \\)</td>\n\t\t\t<td>Maintenance</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t</tr>\n\t</thead>\n</table>\n\n<p>The number of people employed in each month is:</p>\n\n<table border=\"1\" cellpadding=\"1\" style=\"width:500px; margin: auto; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">Month</th>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 6 \\)</td>\n\t\t\t<td>\\( 7 \\)</td>\n\t\t\t<td>\\( 8 \\)</td>\n\t\t\t<td>\\( 9 \\)</td>\n\t\t\t<td>\\( 10 \\)</td>\n\t\t\t<td>\\( 11 \\)</td>\n\t\t\t<td>\\( 12 \\)</td>\n\t\t\t<td>\\( 13 \\)</td>\n\t\t\t<td>\\( 14 \\)</td>\n\t\t\t<td>\\( 15 \\)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">No. of people employed</th>\n\t\t\t<td>\\( 2 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 5 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 4 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 3 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t\t<td>\\( 1 \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>What is the difference in the cost between the old and the new techniques?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 160</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs. \\( 30,000 \\)&nbsp;</p>",
+            "<p>Rs. \\( 60,000 \\)&nbsp;</p>",
+            "<p>Rs. \\( 70,000 \\)&nbsp;</p>",
+            "<p>Rs. \\( 40,000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3831/cat-1996-question-160\" target=\"_blank\">https://aptitude.gateoverflow.in/3831/cat-1996-question-160</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"3832\"></a><div itemprop=\"text\"><p>The amount of money invested (in rupees crore) in the core infrastructure areas of two districts, Chittoor and Khammam, Andhra Pradesh as follows:</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15571915134099987272\"></p>\n\n<p>By what percent was the total investment in the two districts more in 1996 as compared to that in 1995?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 161</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 14 \\)%</p>",
+            "<p>\\( 21 \\)%</p>",
+            "<p>\\( 24 \\)%</p>",
+            "<p>\\( 18 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3832/cat-1996-question-161\" target=\"_blank\">https://aptitude.gateoverflow.in/3832/cat-1996-question-161</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"3833\"></a><div itemprop=\"text\"><p>The amount of money invested (in rupees crore) in the core infrastructure areas of two districts, Chittoor and Khammam, Andhra Pradesh as follows:</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=11095944727969982591\"></p>\n\n<p>Approximately how many times the total investment in Chittoor was the total investment in Khammam in the given two years?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 162</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2.8 \\)&nbsp;</p>",
+            "<p>\\( 2.0 \\)&nbsp;</p>",
+            "<p>\\( 2.4 \\)</p>",
+            "<p>\\( 1.7 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3833/cat-1996-question-162\" target=\"_blank\">https://aptitude.gateoverflow.in/3833/cat-1996-question-162</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"3835\"></a><div itemprop=\"text\"><p>The amount of money invested (in rupees crore) in the core infrastructure areas of two districts, Chittoor and Khammam, Andhra Pradesh as follows:</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2475893291054606979\"></p>\n\n<p>In Khammam district the investment in which area in \\( 1996 \\) showed the least percent increase over the investment in that area in \\( 1995 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 164</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Electricity</p>",
+            "<p>Chemical</p>",
+            "<p>Solar</p>",
+            "<p>Nuclear</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3835/cat-1996-question-164\" target=\"_blank\">https://aptitude.gateoverflow.in/3835/cat-1996-question-164</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"3836\"></a><div itemprop=\"text\"><p>The amount of money invested (in rupees crore) in the core infrastructure areas of two districts, Chittoor and Khammam, Andhra Pradesh as follows:</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6294518540711274103\"></p>\n\n<p>If the total investment in Khammam shows the same rate of increase in 1997, as it had shown from 1995 to 1996, what appropriately would be the total investment in Khammam in 1997 (in Rs. crore)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1996 | Question: 165</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 9,850 \\)&nbsp;</p>",
+            "<p>\\( 10,000 \\)</p>",
+            "<p>\\( 9,170 \\)&nbsp;</p>",
+            "<p>\\( 8,540 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3836/cat-1996-question-165\" target=\"_blank\">https://aptitude.gateoverflow.in/3836/cat-1996-question-165</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"3594\"></a><div itemprop=\"text\"><p>Answer these questions with the help of the following table.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7427923409509592626\"></p>\n\n<p>Note: Date of start of all projects is \\( 1997 \\).</p>\n\n<p>Which of the following had the least cost per room?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 156</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Lokhandwala</p>",
+            "<p>Raheja</p>",
+            "<p>IHCL​​​​​​​</p>",
+            "<p>ITC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3594/cat-1997-question-156\" target=\"_blank\">https://aptitude.gateoverflow.in/3594/cat-1997-question-156</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"3595\"></a><div itemprop=\"text\"><p>Answer these questions with the help of the following table.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=13184153990376220454\"></p>\n\n<p>Note: Date of start of all projects is \\( 1997 \\).</p>\n\n<p>Which of the following has the maximum number of rooms per crore of rupees?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 157</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>THCL​​​​​​​</p>",
+            "<p>Raheja​​​​​​​</p>",
+            "<p>Lokhandwala ​​​​​​​</p>",
+            "<p>ITC</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3595/cat-1997-question-157\" target=\"_blank\">https://aptitude.gateoverflow.in/3595/cat-1997-question-157</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"3596\"></a><div itemprop=\"text\"><p>Answer these questions with the help of the following table.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7584703794538233618\"></p>\n\n<p>assume that the cost of the project is incurred in the year of completion. Interest is charged @ \\( 10 \\)% per annum.</p>\n\n<p>What is the cost incurred (in Rs. crore) for projects completed in 1998?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 158</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>255</p>",
+            "<p>475</p>",
+            "<p>522.5</p>",
+            "<p>502.5</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3596/cat-1997-question-158\" target=\"_blank\">https://aptitude.gateoverflow.in/3596/cat-1997-question-158</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"3597\"></a><div itemprop=\"text\"><p>Answer these questions with the help of the following table.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14823972076258186172\"></p>\n\n<p>assume that the cost of the project is incurred in the year of completion. Interest is charged @ \\( 10 \\)% per annum</p>\n\n<p>What is the cost incurred (in Rs cr) for projects completed in \\( 1999 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 159</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1282.6 \\)&nbsp;</p>",
+            "<p>\\( 1270.0 \\)&nbsp;</p>",
+            "<p>\\( 1475 \\)&nbsp;</p>",
+            "<p>\\( 1535.0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3597/cat-1997-question-159\" target=\"_blank\">https://aptitude.gateoverflow.in/3597/cat-1997-question-159</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"3598\"></a><div itemprop=\"text\"><p>Answer these questions with the help of the following table.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4581576236766187628\"></p>\n\n<p>assume that the cost of the project is incurred in the year of completion. Interest is charged @ \\( 10 \\)% per annum.</p>\n\n<p>What approximately is the cost incurred (in Re. crore) for projects completed by \\( 2000 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 160</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1785</p>",
+            "<p>2140</p>",
+            "<p>2320</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3598/cat-1997-question-160\" target=\"_blank\">https://aptitude.gateoverflow.in/3598/cat-1997-question-160</a></p>"
+        },
+        {
+          "id": 35,
+          "question": "<p><a name=\"3613\"></a><div itemprop=\"text\"><p>The following table gives the tariff (in paise per kilo-watt-hour) levied by the UPSEB in \\( 1994–95 \\), in the four sectors and the regions within them. The table also gives the percentage change in the tariff as compared to \\( 1991–92 \\).</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=662193328632016975\"></p>\n\n<p>If the amount of power consumed by the various regions in Sector \\( 1 \\) is the same, then,&nbsp;as compared to \\( 1991-92 \\), the net tariff in \\( 1994- 95 \\):</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 173</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Increases by \\( 6.5 \\)%</p>",
+            "<p>Decreases by \\( 3.5 \\)%</p>",
+            "<p>Increases by \\( 10.2 \\)%</p>",
+            "<p>Decreases by \\( 7.3 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3613/cat-1997-question-173\" target=\"_blank\">https://aptitude.gateoverflow.in/3613/cat-1997-question-173</a></p>"
+        },
+        {
+          "id": 36,
+          "question": "<p><a name=\"3614\"></a><div itemprop=\"text\"><p>The following table gives the tariff (in paise per kilo-watt-hour) levied by the UPSEB in \\( 1994–95 \\), in the four sectors and the regions within them. The table also gives the percentage change in the tariff as compared to \\( 1991–92 \\).</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=8887755831681947924\"></p>\n\n<p>What approximately was the average tariff in Region 3 in 1991–92?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 174</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 407 \\)</p>",
+            "<p>\\( 420 \\)</p>",
+            "<p>\\( 429 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3614/cat-1997-question-174\" target=\"_blank\">https://aptitude.gateoverflow.in/3614/cat-1997-question-174</a></p>"
+        },
+        {
+          "id": 37,
+          "question": "<p><a name=\"3615\"></a><div itemprop=\"text\"><p>The following table gives the tariff (in paise per kilo-watt-hour) levied by the UPSEB in \\( 1994–95 \\), in the four sectors and the regions within them. The table also gives the percentage change in the tariff as compared to \\( 1991–92 \\).</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1547070204089273770\"></p>\n\n<p>The UPSEB supplies power under four categories, Urban (\\( 25 \\)%), Domestic (\\( 20 \\)%) Industrial (\\( 40 \\)%) and Rural (\\( 15 \\)%). In \\( 1994–95 \\), the total power produced by the UPSEB was \\( 7875 \\) Megawatts.</p>\n\n<p>If in \\( 1994–95 \\), there was a \\( 10 \\)% decrease in the domestic consumption of power as compared to that in \\( 1991–92 \\), what was the consumption of power in the rural sector in \\( 1991–92 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 175</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1312 \\)</p>",
+            "<p>\\( 1422 \\)</p>",
+            "<p>\\( 1750 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3615/cat-1997-question-175\" target=\"_blank\">https://aptitude.gateoverflow.in/3615/cat-1997-question-175</a></p>"
+        },
+        {
+          "id": 38,
+          "question": "<p><a name=\"3616\"></a><div itemprop=\"text\"><p>The following table gives the tariff (in paise per kilo-watt-hour) levied by the UPSEB in \\( 1994–95 \\), in the four sectors and the regions within them. The table also gives the percentage change in the tariff as compared to \\( 1991–92 \\).</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1547070204089273770\"></p>\n\n<p>The UPSEB supplies power under four categories, Urban (\\( 25 \\)%), Domestic (\\( 20 \\)%) Industrial (\\( 40 \\)%) and Rural (\\( 15 \\)%). In \\( 1994–95 \\), the total power produced by the UPSEB was \\( 7875 \\) Megawatts.</p>\n\n<p>In the given two years, what is the total tariff paid by the Urban sector (in Rs. lakh)?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 176</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>22.4</p>",
+            "<p>21.6</p>",
+            "<p>27.2</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3616/cat-1997-question-176\" target=\"_blank\">https://aptitude.gateoverflow.in/3616/cat-1997-question-176</a></p>"
+        },
+        {
+          "id": 39,
+          "question": "<p><a name=\"3617\"></a><div itemprop=\"text\"><p>The following table gives the tariff (in paise per kilo-watt-hour) levied by the UPSEB in \\( 1994–95 \\), in the four sectors and the regions within them. The table also gives the percentage change in the tariff as compared to \\( 1991–92 \\).</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1351099101000687373\"></p>\n\n<p>The UPSEB supplies power under four categories, Urban (\\( 25 \\)%), Domestic (\\( 20 \\)%) Industrial (\\( 40 \\)%) and Rural (\\( 15 \\)%). In \\( 1994–95 \\), the total power produced by the UPSEB was \\( 7875 \\) Megawatts.</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 177</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The average tariff in Region \\( 4 \\) is \\( 437.5 \\) p/khw.</p>",
+            "<p>The average tariff in Region \\( 2 \\) is greater than the average tariff in Region 5.</p>",
+            "<p>In \\( 1991-92 \\), the industrial sector contributed to about 42% of the total revenue from power.</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3617/cat-1997-question-177\" target=\"_blank\">https://aptitude.gateoverflow.in/3617/cat-1997-question-177</a></p>"
+        },
+        {
+          "id": 40,
+          "question": "<p><a name=\"3629\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14036700464492427954\"></p>\n\n<p>In \\( 1974 \\), agricultural loans formed what percent of the total loans?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 178</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 88 \\)%</p>",
+            "<p>\\( 71 \\)%</p>",
+            "<p>\\( 77 \\)%</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3629/cat-1997-question-178\" target=\"_blank\">https://aptitude.gateoverflow.in/3629/cat-1997-question-178</a></p>"
+        },
+        {
+          "id": 41,
+          "question": "<p><a name=\"3630\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=6148514530614434795\"></p>\n\n<p>From the given data, the number of rural loans up to 1980 formed approximately what percent of those in 1983?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 179</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>112%</p>",
+            "<p>80%</p>",
+            "<p>97%</p>",
+            "<p>Cannot be determined</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3630/cat-1997-question-179\" target=\"_blank\">https://aptitude.gateoverflow.in/3630/cat-1997-question-179</a></p>"
+        },
+        {
+          "id": 42,
+          "question": "<p><a name=\"3631\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=17277387759602013119\"></p>\n\n<p>Which of the following pairs of years showed the maximum increase in the number of loans?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 180</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>1971–72</p>",
+            "<p>1974–75</p>",
+            "<p>1970–71</p>",
+            "<p>1980–81</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3631/cat-1997-question-180\" target=\"_blank\">https://aptitude.gateoverflow.in/3631/cat-1997-question-180</a></p>"
+        },
+        {
+          "id": 43,
+          "question": "<p><a name=\"3638\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1753154424790899171\"></p>\n\n<p>What is the value of Agricultural loans in 1983 at 1970 prices?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 181</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>3265</p>",
+            "<p>3175</p>",
+            "<p>3085</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3638/cat-1997-question-181\" target=\"_blank\">https://aptitude.gateoverflow.in/3638/cat-1997-question-181</a></p>"
+        },
+        {
+          "id": 44,
+          "question": "<p><a name=\"3639\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15342709639770417911\"></p>\n\n<p>In which year was the number of loans per rural bank the least?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 182</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1974 \\)</p>",
+            "<p>\\( 1971 \\)</p>",
+            "<p>\\( 1970 \\)&nbsp;</p>",
+            "<p>\\( 1975 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3639/cat-1997-question-182\" target=\"_blank\">https://aptitude.gateoverflow.in/3639/cat-1997-question-182</a></p>"
+        },
+        {
+          "id": 45,
+          "question": "<p><a name=\"3640\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16107374168598766047\"></p>\n\n<p>What is the simple annual rate of increase in the number of Agricultural loans from \\( 1970 \\) to \\( 1983 \\)?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 183</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 132 \\)%</p>",
+            "<p>\\( 81 \\)%</p>",
+            "<p>\\( 75 \\)%</p>",
+            "<p>\\( 1056 \\)%</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3640/cat-1997-question-183\" target=\"_blank\">https://aptitude.gateoverflow.in/3640/cat-1997-question-183</a></p>"
+        },
+        {
+          "id": 46,
+          "question": "<p><a name=\"3641\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=16618026957803819930\"></p>\n\n<p>The Consumer Price Index for \\( 1970 \\) is to be taken as \\( 105 \\) and the Indices for the subsequent years are to be corrected accordingly.</p>\n\n<p>By roughly how many points do the Indices for the years 1983 and 1975 differ?</p>\n\n\n\n<p>&nbsp;</p></div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 184</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>175</p>",
+            "<p>180</p>",
+            "<p>188</p>",
+            "<p>195</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3641/cat-1997-question-184\" target=\"_blank\">https://aptitude.gateoverflow.in/3641/cat-1997-question-184</a></p>"
+        },
+        {
+          "id": 47,
+          "question": "<p><a name=\"3642\"></a><div itemprop=\"text\"><p>The questions are based on the following information.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=14689502589372032798\"></p>\n\n<p>The Consumer Price Index for \\( 1970 \\) is to be taken as \\( 105 \\) and the Indices for the subsequent years are to be corrected accordingly.</p>\n\n<p>What is the value of the loans in 1980 at 1983 prices?</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1997 | Question: 185</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 570 \\)&nbsp;</p>",
+            "<p>\\( 675 \\)&nbsp;</p>",
+            "<p>\\( 535 \\)&nbsp;</p>",
+            "<p>\\( 440 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3642/cat-1997-question-185\" target=\"_blank\">https://aptitude.gateoverflow.in/3642/cat-1997-question-185</a></p>"
+        },
+        {
+          "id": 48,
+          "question": "<p><a name=\"247\"></a><div itemprop=\"text\"><p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1544956232235572839\" style=\"height:143px; width:600px\"></p>\n\n<p>How many Dollars was one Euro worth in may?</p>\n\n<ol>\n\t<li>1.15</li>\n\t<li>1.20</li>\n\t<li>1.25</li>\n\t<li>1.30</li>\n\t<li>1.35</li>\n</ol>\n\n<div>What was the percentage drop in the value of the pound compared to the Euro over the year?</div>\n\n<ol>\n\t<li>6</li>\n\t<li>8</li>\n\t<li>10</li>\n\t<li>12</li>\n\t<li>14</li>\n</ol>\n\n<div>If u converted 67 Euros to pounds in February, how many Dollars (to the nearest Dollar) would this be worth in November?</div>\n\n<ol>\n\t<li>87</li>\n\t<li>89</li>\n\t<li>91</li>\n\t<li>93</li>\n\t<li>95</li>\n</ol>\n\n<div>&nbsp;</div></div><br><br><b>Quantitative Aptitude: How many Dollars was one Euro worth in May?</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/247/how-many-dollars-was-one-euro-worth-in-may\" target=\"_blank\">https://aptitude.gateoverflow.in/247/how-many-dollars-was-one-euro-worth-in-may</a></p>"
+        },
+        {
+          "id": 49,
+          "question": "<p><a name=\"6422\"></a><div itemprop=\"text\"><p>The table given here shows production of five types of cars by a company in the year \\( 2010 \\) to \\( 2015 \\). Study the table and answer the question.&nbsp;</p>\n\n<p>\\( \\textbf{Production of Cars by a Company} \\)</p>\n\n<p>\\( \\begin{array}{|cl|cI|cI|cI|cI|cI|}\\hline<br>\n&amp;\\text{Year/Type} &amp; \\text{2010} &amp; \\text{2011} &amp; \\text{2012} &amp; \\text{2013} &amp; \\text{2014} &amp; \\text{2015} &amp; \\text{Total} \\\\ \\hline &amp;\\text{P} &amp; \\text{8} &amp; \\text{20} &amp; \\text{16} &amp; \\text{17}&nbsp;&amp; \\text{21} &amp; \\text{6} &amp; \\text{88} \\\\ \\hline &amp;\\text{Q} &amp; \\text{16} &amp; \\text{10} &amp; \\text{14} &amp; \\text{12} &amp; \\text{12} &amp; \\text{14} &amp; \\text{78}\\\\ \\hline<br>\n&amp;\\text{R} &amp; \\text{21} &amp; \\text{17} &amp; \\text{16} &amp; \\text{15}&nbsp;&amp; \\text{13} &amp; \\text{8} &amp; \\text{90} \\\\ \\hline<br>\n&amp;\\text{S} &amp; \\text{4} &amp; \\text{6} &amp; \\text{10} &amp; \\text{16}&nbsp;&amp; \\text{20} &amp; \\text{31} &amp; \\text{87} \\\\ \\hline<br>\n&amp;\\text{T} &amp; \\text{25} &amp; \\text{18} &amp; \\text{19} &amp; \\text{30}&nbsp;&amp; \\text{14} &amp; \\text{27} &amp; \\text{133} \\\\ \\hline&nbsp;<br>\n&amp;\\text{Total} &amp; \\text{74} &amp; \\text{71} &amp; \\text{75} &amp; \\text{90}&nbsp;&amp; \\text{80} &amp; \\text{86} &amp; \\text{476} \\\\ \\hline \\end{array} \\)</p>\n\n<p>In which year the production of cars of all types taken together was approximately equal to average during the period ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2010 \\)</p>",
+            "<p>\\( 2012 \\)</p>",
+            "<p>\\( 2014 \\)</p>",
+            "<p>\\( 2015 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2014 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6422/nielit-2016-dec-scientist-b-section-a-10\" target=\"_blank\">https://aptitude.gateoverflow.in/6422/nielit-2016-dec-scientist-b-section-a-10</a></p>"
+        },
+        {
+          "id": 50,
+          "question": "<p><a name=\"6421\"></a><div itemprop=\"text\"><p>The table given here shows production of five types of cars by a company in the year \\( 2010 \\) to \\( 2015 \\). Study the table and answer the question.&nbsp;</p>\n\n<p>\\( \\textbf{Production of Cars by a Company} \\)</p>\n\n<p>\\( \\begin{array}{|cl|cI|cI|cI|cI|cI|}\\hline<br>\n&amp;\\text{Year/Type} &amp; \\text{2010} &amp; \\text{2011} &amp; \\text{2012} &amp; \\text{2013} &amp; \\text{2014} &amp; \\text{2015} &amp; \\text{Total} \\\\ \\hline &amp;\\text{P} &amp; \\text{8} &amp; \\text{20} &amp; \\text{16} &amp; \\text{17}&nbsp;&amp; \\text{21} &amp; \\text{6} &amp; \\text{88} \\\\ \\hline &amp;\\text{Q} &amp; \\text{16} &amp; \\text{10} &amp; \\text{14} &amp; \\text{12} &amp; \\text{12} &amp; \\text{14} &amp; \\text{78}\\\\ \\hline<br>\n&amp;\\text{R} &amp; \\text{21} &amp; \\text{17} &amp; \\text{16} &amp; \\text{15}&nbsp;&amp; \\text{13} &amp; \\text{8} &amp; \\text{90} \\\\ \\hline<br>\n&amp;\\text{S} &amp; \\text{4} &amp; \\text{6} &amp; \\text{10} &amp; \\text{16}&nbsp;&amp; \\text{20} &amp; \\text{31} &amp; \\text{87} \\\\ \\hline<br>\n&amp;\\text{T} &amp; \\text{25} &amp; \\text{18} &amp; \\text{19} &amp; \\text{30}&nbsp;&amp; \\text{14} &amp; \\text{27} &amp; \\text{133} \\\\ \\hline&nbsp;<br>\n&amp;\\text{Total} &amp; \\text{74} &amp; \\text{71} &amp; \\text{75} &amp; \\text{90}&nbsp;&amp; \\text{80} &amp; \\text{86} &amp; \\text{476} \\\\ \\hline \\end{array} \\)</p>\n\n<p>The production of which type of cars was \\( 25\\% \\) of the total production of all types of cars during \\( 2014 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S \\)</p>",
+            "<p>\\( R \\)</p>",
+            "<p>\\( Q \\)</p>",
+            "<p>\\( P \\)</p>"
+          ],
+          "correct_answer": "<p>\\( S \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6421/nielit-2016-dec-scientist-b-section-a-11\" target=\"_blank\">https://aptitude.gateoverflow.in/6421/nielit-2016-dec-scientist-b-section-a-11</a></p>"
+        },
+        {
+          "id": 51,
+          "question": "<p><a name=\"6423\"></a><div itemprop=\"text\"><p>The table given here shows production of five types of cars by a company in the year \\( 2010 \\) to \\( 2015 \\). Study the table and answer the question.&nbsp;</p>\n\n<p>\\( \\textbf{Production of Cars by a Company} \\)</p>\n\n<p>\\( \\begin{array}{|cl|cI|cI|cI|cI|cI|}\\hline<br>\n&amp;\\text{Year/Type} &amp; \\text{2010} &amp; \\text{2011} &amp; \\text{2012} &amp; \\text{2013} &amp; \\text{2014} &amp; \\text{2015} &amp; \\text{Total} \\\\ \\hline &amp;\\text{P} &amp; \\text{8} &amp; \\text{20} &amp; \\text{16} &amp; \\text{17}&nbsp;&amp; \\text{21} &amp; \\text{6} &amp; \\text{88} \\\\ \\hline &amp;\\text{Q} &amp; \\text{16} &amp; \\text{10} &amp; \\text{14} &amp; \\text{12} &amp; \\text{12} &amp; \\text{14} &amp; \\text{78}\\\\ \\hline<br>\n&amp;\\text{R} &amp; \\text{21} &amp; \\text{17} &amp; \\text{16} &amp; \\text{15}&nbsp;&amp; \\text{13} &amp; \\text{8} &amp; \\text{90} \\\\ \\hline<br>\n&amp;\\text{S} &amp; \\text{4} &amp; \\text{6} &amp; \\text{10} &amp; \\text{16}&nbsp;&amp; \\text{20} &amp; \\text{31} &amp; \\text{87} \\\\ \\hline<br>\n&amp;\\text{T} &amp; \\text{25} &amp; \\text{18} &amp; \\text{19} &amp; \\text{30}&nbsp;&amp; \\text{14} &amp; \\text{27} &amp; \\text{133} \\\\ \\hline&nbsp;<br>\n&amp;\\text{Total} &amp; \\text{74} &amp; \\text{71} &amp; \\text{75} &amp; \\text{90}&nbsp;&amp; \\text{80} &amp; \\text{86} &amp; \\text{476} \\\\ \\hline \\end{array} \\)</p>\n\n<p>In which year the total production of car of types \\( P \\) and \\( Q \\) together was equal to the total production of cars of types \\( R \\) and \\( S \\) together ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2011 \\)</p>",
+            "<p>\\( 2012 \\)</p>",
+            "<p>\\( 2015 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6423/nielit-2016-dec-scientist-b-section-a-9\" target=\"_blank\">https://aptitude.gateoverflow.in/6423/nielit-2016-dec-scientist-b-section-a-9</a></p>"
+        },
+        {
+          "id": 52,
+          "question": "<p><a name=\"250\"></a><div itemprop=\"text\"><p><img alt=\"\" height=\"256\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15978508606823941455\" width=\"743\"></p>\n\n<p>&nbsp;</p>\n\n<p>What was the approximate range in CPI values in \\( 2001 \\)?</p>\n\n</div><br><br><b>Data Interpretation: What was the approximate range in CPI values in 2001?</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/250/what-was-the-approximate-range-in-cpi-values-in-2001\" target=\"_blank\">https://aptitude.gateoverflow.in/250/what-was-the-approximate-range-in-cpi-values-in-2001</a></p>"
+        }
+      ]
+    }
+  ]
+}

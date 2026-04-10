@@ -1,0 +1,59 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Graph Algorithms",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Graph Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"25798\"></a><div itemprop=\"text\"><p>Let \\( G \\) be an undirected graph with \\( n \\) vertices. For any subset \\( S \\) of vertices, the set of neighbours&nbsp;of \\( S \\) consists of the union of \\( S \\) and the set of vertices \\( S' \\) that are connected to some vertex in \\( S \\) by an edge&nbsp;of \\( G \\). The graph \\( G \\) has the nice property that every subset of vertices \\( S \\) of size at most \\( n/2 \\) has at least \\( 1.5 |S| \\)-many neighbours. What is the length of a longest path in \\( G \\)?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (1) \\)</p>",
+            "<p>\\( O (\\log \\log n) \\) but not \\( O (1) \\)</p>",
+            "<p>\\( O (\\log n) \\) but not \\( O (\\log \\log n) \\)</p>",
+            "<p>\\( O&nbsp;\\left(\\sqrt{n}\\right) \\) but not \\( O (\\log n) \\)</p>",
+            "<p>\\( O (n) \\) but not \\( O&nbsp;\\left(\\sqrt{n}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O (\\log n) \\) but not \\( O (\\log \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25798/tifr-cse-2013-part-b-question-15\" target=\"_blank\">https://gateoverflow.in/25798/tifr-cse-2013-part-b-question-15</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25666\"></a><div itemprop=\"text\"><p>Given a weighted directed graph with \\( n \\) vertices where edge weights are integers (positive, zero, or&nbsp;negative), determining whether&nbsp;there are paths of arbitrarily large weight can be performed in time</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n . \\log(n)) \\) but not \\( O (n) \\)</p>",
+            "<p>\\( O(n^{1.5}) \\) but not \\( O (n \\log n) \\)</p>",
+            "<p>\\( O(n^{3}) \\) but not \\( O(n^{1.5}) \\)</p>",
+            "<p>\\( O(2^{n}) \\) but not \\( O(n^{3}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n^{3}) \\) but not \\( O(n^{1.5}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25666/tifr-cse-2013-part-b-question-5\" target=\"_blank\">https://gateoverflow.in/25666/tifr-cse-2013-part-b-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27137\"></a><div itemprop=\"text\"><p>Consider the following directed graph.</p>\n\n<p><img alt=\"\" height=\"146\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=4801305001671841822\" width=\"253\"></p>\n\n<p>Suppose a depth-first traversal of this graph is performed, assuming that whenever there is a choice, the&nbsp;vertex earlier in the alphabetical order is to be chosen. Suppose the number of tree edges is \\( T \\), the number&nbsp;of back edges is \\( B \\) and the number of cross edges is \\( C \\). Then</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( B = 1 \\), \\( C = 1 \\), and \\( T = 4 \\).</p>",
+            "<p>\\( B = 0 \\), \\( C = 2 \\), and \\( T = 4 \\).</p>",
+            "<p>\\( B = 2 \\), \\( C = 1 \\), and \\( T = 3 \\).</p>",
+            "<p>\\( B = 1 \\), \\( C = 2 \\), and \\( T = 3 \\).</p>",
+            "<p>\\( B = 2 \\), \\( C = 2 \\), and \\( T = 1 \\).</p>"
+          ],
+          "correct_answer": "<p>\\( B = 1 \\), \\( C = 2 \\), and \\( T = 3 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27137/tifr-cse-2014-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/27137/tifr-cse-2014-part-b-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

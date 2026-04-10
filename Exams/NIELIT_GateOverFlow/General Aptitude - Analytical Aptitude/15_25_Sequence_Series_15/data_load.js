@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Sequence Series",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Sequence Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369285\"></a><div itemprop=\"text\"><p>What value should come in place of the question mark \\( (?) \\) in the series given below ?</p>\n\n<p>\\( 128, 61, Y, 64, 63, S, 32, 65, N, 16, 67, J, 8, 69, G, ?, ?, ? : \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2, 70, J \\)</p>",
+            "<p>\\( 3, 70, E \\)</p>",
+            "<p>\\( 4, 70, E \\)</p>",
+            "<p>\\( 4, 71, E \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4, 71, E \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369285/nielit-2021-dec-scientist-a-section-a-8\" target=\"_blank\">https://gateoverflow.in/369285/nielit-2021-dec-scientist-a-section-a-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369284\"></a><div itemprop=\"text\"><p>Read the information given below and on the basis of the information, select the correct alternative for each question&nbsp;given after the information.</p>\n\n<p>A training college has to conduct a refresher course for teachers of seven different subjects – Mechanics, Psychology, Philosophy, Sociology, Economics, Science and Engineering from November \\( 22 \\) to November \\( 29. \\)</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>Course should start with Psychology.</li>\n\t<li>November \\( 23, \\) being Sunday, should be a holiday.</li>\n\t<li>Science subject should be on the previous day of the Engineering subject.</li>\n\t<li>Course should end with Mechanics subject.</li>\n\t<li>Philosophy should be immediately after holiday.</li>\n\t<li>There should be a gap of one day between Economics and Engineering.</li>\n\t<li>There should be a gap of two days between Sociology and Economics.</li>\n</ol>\n\n<p>Which subject precedes Mechanics?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Psychology</p>",
+            "<p>Mechanics</p>",
+            "<p>Economics</p>",
+            "<p>Sociology</p>"
+          ],
+          "correct_answer": "<p>Sociology</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369284/nielit-2021-dec-scientist-a-section-a-9\" target=\"_blank\">https://gateoverflow.in/369284/nielit-2021-dec-scientist-a-section-a-9</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373685\"></a><div itemprop=\"text\"><p>Find the wrong term in the series \\( 5, 11, 29, 83, 245, 765, 2189, 6563 \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 245 \\)</p>",
+            "<p>\\( 765 \\)</p>",
+            "<p>\\( 2189 \\)</p>",
+            "<p>\\( 6563 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 765 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373685/nielit-2022-april-scientist-b-section-a-question-33\" target=\"_blank\">https://gateoverflow.in/373685/nielit-2022-april-scientist-b-section-a-question-33</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411386\"></a><div itemprop=\"text\"><p>Which of the following will come in place of the question mark (?) in the following sequence: \\( \\text{16D7, 18G10, 21KI4, 25P19,?} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\mathrm{~V} 20 \\)</p>",
+            "<p>\\( 30 \\mathrm{~V} 25 \\)</p>",
+            "<p>\\( 30 \\mathrm{~V} 24 \\)</p>",
+            "<p>\\( 29 \\mathrm{~V} 25 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 29 \\mathrm{~V} 25 \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411386/nielit-2023-feb-scientist-c-section-a-question-13\" target=\"_blank\">https://gateoverflow.in/411386/nielit-2023-feb-scientist-c-section-a-question-13</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"411385\"></a><div itemprop=\"text\"><p>Find the next number in the sequence: \\( 16,30,54,88,132 \\ldots \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 186 \\)</p>",
+            "<p>\\( 188 \\)</p>",
+            "<p>\\( 190 \\)</p>",
+            "<p>\\( 206 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 186 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411385/nielit-2023-feb-scientist-c-section-a-question-14\" target=\"_blank\">https://gateoverflow.in/411385/nielit-2023-feb-scientist-c-section-a-question-14</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"411375\"></a><div itemprop=\"text\"><p>\\( \\text{DNN, FPP, HRR, , LVV.} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{GRR} \\)</p>",
+            "<p>\\( \\text{GSS} \\)</p>",
+            "<p>\\( \\text{JTT} \\)</p>",
+            "<p>\\( \\text{ITT} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{JTT} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411375/nielit-2023-feb-scientist-c-section-a-question-24\" target=\"_blank\">https://gateoverflow.in/411375/nielit-2023-feb-scientist-c-section-a-question-24</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411374\"></a><div itemprop=\"text\"><p>Look at this series : \\( \\text{F2, D8, C16, B32} \\). What should fill the blank?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A16} \\)</p>",
+            "<p>\\( \\text{G4} \\)</p>",
+            "<p>\\( \\mathrm{E} 4 \\)</p>",
+            "<p>\\( \\text{E3} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{E} 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411374/nielit-2023-feb-scientist-c-section-a-question-25\" target=\"_blank\">https://gateoverflow.in/411374/nielit-2023-feb-scientist-c-section-a-question-25</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"411393\"></a><div itemprop=\"text\"><p>Complete the series \\( \\text{E-5, G-7, I-9, K-11} \\),... ?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section A | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{L-13, N-14} \\)</p>",
+            "<p>\\( \\mathrm{M}-13, \\mathrm{O}-15 \\)</p>",
+            "<p>\\( \\text{L-12, M-14} \\)</p>",
+            "<p>\\( \\mathrm{K}-12, \\mathrm{M}-14 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{M}-13, \\mathrm{O}-15 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411393/nielit-2023-feb-scientist-c-section-a-question-6\" target=\"_blank\">https://gateoverflow.in/411393/nielit-2023-feb-scientist-c-section-a-question-6</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"410588\"></a><div itemprop=\"text\"><p>In the following Question, replace the ? with suitable options: \\( 7,12,22,42,82 \\),?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 143 \\)</p>",
+            "<p>\\( 173 \\)</p>",
+            "<p>\\( 183 \\)</p>",
+            "<p>\\( 162 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 162 \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410588/nielit-2023-feb-scientist-d-section-a-question-15\" target=\"_blank\">https://gateoverflow.in/410588/nielit-2023-feb-scientist-d-section-a-question-15</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"410581\"></a><div itemprop=\"text\"><p>Select the number that will come next in the following series \\( 7, 14, 33, 70, 131 \\), __________.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 256 \\)</p>",
+            "<p>\\( 222 \\)</p>",
+            "<p>\\( 262 \\)</p>",
+            "<p>\\( 216 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 222 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410581/nielit-2023-feb-scientist-d-section-a-question-22\" target=\"_blank\">https://gateoverflow.in/410581/nielit-2023-feb-scientist-d-section-a-question-22</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"351140\"></a><div itemprop=\"text\"><p>\\( \\text{5 16 49 104 181} \\) __________</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 271 \\)</p>",
+            "<p>\\( 298 \\)</p>",
+            "<p>\\( 280 \\)</p>",
+            "<p>\\( 281 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 280 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351140/nielit-scientific-assistant-a-2020-november-11\" target=\"_blank\">https://gateoverflow.in/351140/nielit-scientific-assistant-a-2020-november-11</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"351139\"></a><div itemprop=\"text\"><p>\\( \\text{14, 28, 20, 40, 32, 64, _________} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 52 \\)</p>",
+            "<p>\\( 56 \\)</p>",
+            "<p>\\( 96 \\)</p>",
+            "<p>\\( 128 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 56 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351139/nielit-scientific-assistant-a-2020-november-12\" target=\"_blank\">https://gateoverflow.in/351139/nielit-scientific-assistant-a-2020-november-12</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"351131\"></a><div itemprop=\"text\"><p>Complete the following series.</p>\n\n<p>\\( \\text{4, 27, 256, 3125, ______} \\)</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 46656 \\)</p>",
+            "<p>\\( 6250 \\)</p>",
+            "<p>\\( 800000 \\)</p>",
+            "<p>\\( 1024 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 46656 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351131/nielit-scientific-assistant-a-2020-november-20\" target=\"_blank\">https://gateoverflow.in/351131/nielit-scientific-assistant-a-2020-november-20</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"351438\"></a><div itemprop=\"text\"><p>Find the missing number.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"221\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6670557785686505747\" width=\"221\"></p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351438/nielit-scientific-assistant-a-2020-november-23\" target=\"_blank\">https://gateoverflow.in/351438/nielit-scientific-assistant-a-2020-november-23</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"351431\"></a><div itemprop=\"text\"><p>Considering \\( 5 \\) as the \\( 1^{\\text{st}} \\)&nbsp; element in the sequence \\( \\text{5, 11, 23, 47} \\). What is the \\( 6^{\\text{th}} \\)&nbsp;&nbsp;element in the sequence?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT Scientific Assistant A 2020 November: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 191 \\)</p>",
+            "<p>\\( 172 \\)</p>",
+            "<p>\\( 342 \\)</p>",
+            "<p>\\( 106 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 191 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351431/nielit-scientific-assistant-a-2020-november-30\" target=\"_blank\">https://gateoverflow.in/351431/nielit-scientific-assistant-a-2020-november-30</a></p>"
+        }
+      ]
+    }
+  ]
+});

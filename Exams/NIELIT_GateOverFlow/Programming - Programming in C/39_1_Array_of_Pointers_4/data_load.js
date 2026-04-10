@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Array of Pointers",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Array of Pointers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336658\"></a><div itemprop=\"text\"><p>What is the meaning of following declaration?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int(*p[7])();</pre>\n\n</div><br><br><b>Programming in C: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p \\) is pointer to function</p>",
+            "<p>\\( p \\) is pointer to such function which return type is array</p>",
+            "<p>\\( p \\) is array of pointer to function</p>",
+            "<p>\\( p \\) is pointer to array of function</p>"
+          ],
+          "correct_answer": "<p>\\( p \\) is array of pointer to function</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336658/nielit-2016-dec-scientist-b-it-section-b-11\" target=\"_blank\">https://gateoverflow.in/336658/nielit-2016-dec-scientist-b-it-section-b-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336804\"></a><div itemprop=\"text\"><p>Which of the following is&nbsp;illegal declaration in \\( C \\) language?</p>\n\n</div><br><br><b>Programming in C: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char*str =\"Raj is a Research scholar\";\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char str[25] =\"Raj is a Research scholar\";\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char str[40] =\"Raj is a Research scholar\";\n</pre></p>",
+            "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char[]str =\"Raj is a Research scholar\";</pre>\n\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">char[]str =\"Raj is a Research scholar\";</pre>\n\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336804/nielit-2017-dec-scientific-assistant-a-section-b-42\" target=\"_blank\">https://gateoverflow.in/336804/nielit-2017-dec-scientific-assistant-a-section-b-42</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336269\"></a><div itemprop=\"text\"><p>If \\( x \\) is a one dimensional array, then</p>\n\n</div><br><br><b>Programming in C: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ^*(x+i) \\) is same as \\( ^*(\\&amp;x[i]) \\)</p>",
+            "<p>\\( \\&amp;x[i] \\) is same as \\( x+i-1 \\)</p>",
+            "<p>\\( ^*(x+i) \\) is same as \\( ^*x[i] \\)</p>",
+            "<p>\\( ^*(x+i) \\) is same as \\( ^*x+i \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ^*(x+i) \\) is same as \\( ^*(\\&amp;x[i]) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336269/nielit-2017-dec-scientist-b-section-b-44\" target=\"_blank\">https://gateoverflow.in/336269/nielit-2017-dec-scientist-b-section-b-44</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336400\"></a><div itemprop=\"text\"><p>Assume that float takes \\( 4 \\) bytes, predict the output of following program.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\nint main() \n{ \nfloat arr[5]={12.5,10.0,13.5,90.5,0.5}; \nfloat *ptr1=&amp;arr[0]; \nfloat *ptr2=ptr1+3; \nprintf(\"%f\",*ptr2); \nprintf(\"%d\",ptr2-ptr1); \nreturn 0; \n} </pre>\n\n</div><br><br><b>Programming in C: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 90.500000\\:\\:3 \\)</p>",
+            "<p>\\( 90.500000\\:\\:12 \\)</p>",
+            "<p>\\( 10.000000\\:\\:12 \\)</p>",
+            "<p>\\( 0.500000\\:\\:3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 90.500000\\:\\:3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336400/nielit-2017-july-scientist-b-it-section-b-35\" target=\"_blank\">https://gateoverflow.in/336400/nielit-2017-july-scientist-b-it-section-b-35</a></p>"
+        }
+      ]
+    }
+  ]
+});

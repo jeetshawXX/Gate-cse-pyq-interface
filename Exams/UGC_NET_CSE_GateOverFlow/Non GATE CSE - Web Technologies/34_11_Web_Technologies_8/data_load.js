@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Web Technologies - Web Technologies",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Web Technologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60395\"></a><div itemprop=\"text\">\n<p>The document that is used by XSLT to indicate, how to transform the elements of the XML document to another format is&nbsp;</p>\n\n\n</div><br><br><b>Web Technologies: UGC NET CSE | December 2013 | Part 3 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>HTML page</p>",
+            "<p>DOC type procedure</p>",
+            "<p>Style sheet</p>",
+            "<p>Stored procedure</p>"
+          ],
+          "correct_answer": "<p>Style sheet</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60395/ugc-net-cse-december-2013-part-3-question-13\" target=\"_blank\">https://gateoverflow.in/60395/ugc-net-cse-december-2013-part-3-question-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"61452\"></a><div itemprop=\"text\"><p>__________ tag is an extension to HTML that can enclose any number of Javascript statements.</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | December 2015 | Part 3 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&lt;SCRIPT&gt;</p>",
+            "<p>&lt;BODY&gt;</p>",
+            "<p>&lt;HEAD&gt;</p>",
+            "<p>&lt;TITLE&gt;</p>"
+          ],
+          "correct_answer": "<p>&lt;BODY&gt;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61452/ugc-net-cse-december-2015-part-3-question-75\" target=\"_blank\">https://gateoverflow.in/61452/ugc-net-cse-december-2015-part-3-question-75</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335196\"></a><div itemprop=\"text\"><p>What can you say about the following statements?</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>XML tags are case-insensitive</li>\n\t<li>In JavaScript, identifier names are case-sensitive</li>\n\t<li>Cascading Style Sheets (CSS) cannot be used with XML</li>\n\t<li>All well formed XML documents must contain a document type definition</li>\n</ol>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | January 2017 | Part 3 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>only I&nbsp;and II are false</p>",
+            "<p>only III and IV&nbsp;are false</p>",
+            "<p>only I and III&nbsp;are false</p>",
+            "<p>only II and IV are false</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335196/ugc-net-cse-january-2017-part-3-question-42\" target=\"_blank\">https://gateoverflow.in/335196/ugc-net-cse-january-2017-part-3-question-42</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55887\"></a><div itemprop=\"text\"><p>Identify the incorrect statement:</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | June 2012 | Part 2 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The overall strategy drives the E-Commerce data warehousing strategy</p>",
+            "<p>Data warehousing in an E-Commerce environment should be done in classical manner</p>",
+            "<p>E-Commerce opens up and entirely new world web server</p>",
+            "<p>E-Commerce security threats can be grouped into three major categories</p>"
+          ],
+          "correct_answer": "<p>E-Commerce security threats can be grouped into three major categories</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55887/ugc-net-cse-june-2012-part-2-question-42\" target=\"_blank\">https://gateoverflow.in/55887/ugc-net-cse-june-2012-part-2-question-42</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"55889\"></a><div itemprop=\"text\">\n<p>&nbsp;_______ is not an E-Commerce application</p>\n\n\n</div><br><br><b>Web Technologies: UGC NET CSE | June 2012 | Part 2 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>House banking</p>",
+            "<p><span style=\"line-height: 1.6;\">Buying stocks</span></p>",
+            "<p><span style=\"line-height: 1.6;\">Conducting an auction</span></p>",
+            "<p><span style=\"line-height: 1.6;\">Evaluating an employee</span></p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 1.6;\">Evaluating an employee</span></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55889/ugc-net-cse-june-2012-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/55889/ugc-net-cse-june-2012-part-2-question-44</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"57202\"></a><div itemprop=\"text\">\n<p>Linking to another place in the same or another webpage require two A (Anchor) tags, the first with the _______ attribute and the second with the _______ attribute.&nbsp;</p>\n\n\n</div><br><br><b>Web Technologies: UGC NET CSE | June 2014 | Part 3 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>NAME &amp; LINK</p>",
+            "<p>LINK &amp; HREF</p>",
+            "<p>HREF &amp; NAME&nbsp;</p>",
+            "<p>TARGET &amp; VALUE&nbsp;</p>"
+          ],
+          "correct_answer": "<p>HREF &amp; NAME&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57202/ugc-net-cse-june-2014-part-3-question-54\" target=\"_blank\">https://gateoverflow.in/57202/ugc-net-cse-june-2014-part-3-question-54</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"316254\"></a><div itemprop=\"text\"><p>Which of the following statements is/are true?</p>\n\n<p>P : In a scripting language like JacaScript, types are typically associated with values, not variables.</p>\n\n<p>Q : It is not possible to show images on a web page without the &lt;img&gt; tag of HTML.</p>\n\n<p>Select the correct answer from the options given below:</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | June 2019 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P only</p>",
+            "<p>Q only</p>",
+            "<p>Both P and Q</p>",
+            "<p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "<p>P only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316254/ugc-net-cse-june-2019-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/316254/ugc-net-cse-june-2019-part-2-question-25</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"349663\"></a><div itemprop=\"text\"><p>In HTML, \\( &lt;\\text{map}&gt; \\) tag is used for</p>\n\n</div><br><br><b>Web Technologies: UGC NET CSE | October 2020 | Part 2 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>defining a path between two nodes in an image</p>",
+            "<p>defining clickable region in an image</p>",
+            "<p>highlighting an area in an image</p>",
+            "<p>defining the site-map of a web-site</p>"
+          ],
+          "correct_answer": "<p>defining clickable region in an image</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349663/ugc-net-cse-october-2020-part-2-question-10\" target=\"_blank\">https://gateoverflow.in/349663/ugc-net-cse-october-2020-part-2-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

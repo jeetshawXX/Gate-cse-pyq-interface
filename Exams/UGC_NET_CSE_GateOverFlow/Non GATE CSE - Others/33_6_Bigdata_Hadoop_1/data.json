@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - Others - Bigdata Hadoop",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bigdata Hadoop",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316241\"></a><div itemprop=\"text\"><p>Hadoop&nbsp;(a big data tool) works with number of related tools. Choose from the following, the common tools included into Hadoop:</p>\n\n</div><br><br><b>Others: UGC NET CSE | June 2019 | Part 2 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>MySQL, Google API and Map reduce</p>",
+            "<p>Map reduce, Scala and Hummer</p>",
+            "<p>Map reduce, H Base and Hive</p>",
+            "<p>Map reduce, Hummer and Heron</p>"
+          ],
+          "correct_answer": "<p>Map reduce, H Base and Hive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316241/ugc-net-cse-june-2019-part-2-question-38\" target=\"_blank\">https://gateoverflow.in/316241/ugc-net-cse-june-2019-part-2-question-38</a></p>"
+        }
+      ]
+    }
+  ]
+}

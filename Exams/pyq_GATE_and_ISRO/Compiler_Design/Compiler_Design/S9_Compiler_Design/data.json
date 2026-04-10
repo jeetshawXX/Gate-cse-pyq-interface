@@ -1,0 +1,236 @@
+{
+  "title": "Compiler_Design - Compiler_Design - Slot 9",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following are true? <br><br>\nI. A programming language which does not permit global variables of any kind\nand has no nesting of procedures/functions, but permits recursion can be\nimplemented with static storage allocation <br><br>\nII. Multi-level access link (or display) arrangement is needed to arrange\nactivation records only if the programming language being implemented has\nnesting of procedures/functions <br><br>\nIII. Recursion in programming languages cannot be implemented with dynamic\nstorage allocation <br><br>\nIV. Nesting procedures/functions and recursion require a dynamic heap\nallocation scheme and cannot be implemented with a stack-based allocation\nscheme for activation records <br><br>\nV. Programming languages which permit a function to return a function as its\nresult cannot be implemented with a stack-based storage allocation scheme\nfor activation records <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II and V only</p>",
+            "<b>B.</b> <p>I, III and IV only</p>",
+            "<b>C.</b> <p>I, II and V only</p>",
+            "<b>D.</b> <p>II, III and V only</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>II and V only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/477/gate2008-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Match the following: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q51_b2e86863.jpg\"> <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>E - P, F - R, G - Q, H - S</p>",
+            "<b>B.</b> <p>E - R, F - P, G - S, H - Q</p>",
+            "<b>C.</b> <p>E - R, F - P, G - Q, H - S</p>",
+            "<b>D.</b> <p>E - P, F - R, G - S, H - Q</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>E - R, F - P, G - Q, H - S</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/463/gate2008-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Some code optimizations are carried out on the intermediate code because <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>They enhance the portability of the compiler to other target processors</p>",
+            "<b>B.</b> <p>Program analysis is more accurate on intermediate code than on machine code</p>",
+            "<b>C.</b> <p>The information from dataflow analysis cannot otherwise be used for optimization</p>",
+            "<b>D.</b> <p>The information from the front end cannot otherwise be used for optimization</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>They enhance the portability of the compiler to other target processors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/410/gate2008-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following describes a handle (as applicable to LR-parsing) appropriately? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is the position in a sentential form where the next shift or reduce operation\nwill occur</p>",
+            "<b>B.</b> <p>It is non-terminal whose production will be used for reduction in the next step</p>",
+            "<b>C.</b> <p>It is a production that may be used for reduction in a future step along with a\nposition in the sentential form where the next shift or reduce operation will occur</p>",
+            "<b>D.</b> <p>It is the production p that will be used for reduction in the next step along with a position in the sentential form where the right hand side of the production may be found</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It is the production p that will be used for reduction in the next step along with a position in the sentential form where the right hand side of the production may be found</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/409/gate2008-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following grammars. Names representing terminals have been specified in capital letters.<br>\\(\\begin{array}{llll}\\hline \\text{$G1$ :} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{WHILE (expr) stmnt} \\\\ \\text{} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{OTHER} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{ID} \\\\\\hline \\text{ $G2$ :} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{WHILE (expr) stmnt} \\\\ \\text{} &amp; \\text{stmnt} &amp; \\text{$\\rightarrow$} &amp; \\text{OTHER} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{expr $+$ expr} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{expr $*$ expr} \\\\ \\text{} &amp; \\text{expr} &amp; \\text{$\\rightarrow$} &amp; \\text{ID} \\\\\\hline \\end{array}\\)<br>Which one of the following statements is true? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(G_1\\) is context-free but not regular and \\(G_2\\) is regular</p>",
+            "<b>B.</b> <p>\\(G_2\\) is context-free but not regular and \\(G_1\\) is regular</p>",
+            "<b>C.</b> <p>Both \\(G_1\\) and \\(G_2\\) are regular</p>",
+            "<b>D.</b> <p>Both \\(G_1\\) and \\(G_2\\) are context-free but neither of them is regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both \\(G_1\\) and \\(G_2\\) are context-free but neither of them is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3491/gate2007-it-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the grammar given below:<br>\\(S \\rightarrow x \\ B \\mid y \\ A\\)<br>\n\\(A \\rightarrow x \\mid x \\ S \\mid y \\ A \\ A\\)<br>\n\\(B \\rightarrow y \\mid y \\ S \\mid x \\ B \\ B\\)<br><br>\nConsider the following strings.<br>\ni.   xxyyx<br>\nii.  xxyyxy<br>\niii. xyxy<br>\niv.  yxxy<br>\nv.   yxx<br>\nvi.  xyx<br>\nWhich of the above strings are generated by the grammar ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>i, ii and iii</p>",
+            "<b>B.</b> <p>ii, v and vi</p>",
+            "<b>C.</b> <p>ii, iii and iv</p>",
+            "<b>D.</b> <p>i, iii and iv</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>ii, iii and iv</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3490/gate2007-it-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Early binding refers to a binding performed at compile time and late binding refers to a binding performed at execution time. Consider the following statements:<br>\ni.   Static scope facilitates w1 bindings.<br>\nii.  Dynamic scope requires w2 bindings.<br>\niii. Early bindings w3 execution efficiency.<br>\niv.  Late bindings w4 execution efficiency.<br>\nThe right choices of wl, w2, w3 and w4 (in that order) are <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Early, late, decrease, increase</p>",
+            "<b>B.</b> <p>Late, early, increase, decrease</p>",
+            "<b>C.</b> <p>Late, early, decrease, increase</p>",
+            "<b>D.</b> <p>Early, late, increase, decrease</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Early, late, increase, decrease</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3468/gate2007-it-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider an ambiguous grammar G and its disambiguated version D. Let the language recognized by the two grammars be denoted by L(G) and L(D) respectively. Which one of the following is true? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L (D) \\subset L (G)\\)</p>",
+            "<b>B.</b> <p>\\(L (D) \\supset L (G)\\)</p>",
+            "<b>C.</b> <p>L (D) = L (G)</p>",
+            "<b>D.</b> <p>L (D) is empty</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>L (D) = L (G)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3442/gate2007-it-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the CFG with {S, A,B} as the non-terminal alphabet, {a,b} as the terminal\nalphabet, S as the start symbol and the following set of production rules:  <br> S\\(\\rightarrow\\) aB S\\(\\rightarrow\\)bA <br>\nB\\(\\rightarrow\\) b A \\(\\rightarrow\\)a <br>\nB\\(\\rightarrow\\) bS A \\(\\rightarrow\\)aS <br>\nB\\(\\rightarrow\\) aBB S \\(\\rightarrow\\)bAA    <br> <br>  For the string \"aabbab\", how many derivation trees are there? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43512/gate2007-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the CFG with {S, A,B} as the non-terminal alphabet, {a,b} as the terminal\nalphabet, S as the start symbol and the following set of production rules:  <br> S\\(\\rightarrow\\) aB S\\(\\rightarrow\\)bA <br>\nB\\(\\rightarrow\\) b A \\(\\rightarrow\\)a <br>\nB\\(\\rightarrow\\) bS A \\(\\rightarrow\\)aS <br>\nB\\(\\rightarrow\\) aBB S \\(\\rightarrow\\)bAA    <br> <br>    Which of the following strings is generated by the grammar? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>aaaabb</p>",
+            "<b>B.</b> <p>aabbbb</p>",
+            "<b>C.</b> <p>aabbab</p>",
+            "<b>D.</b> <p>abbbba</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>aabbab</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1272/gate2007-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a simplified computer the instructions are:\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q54a_496f1284.jpg\"> <br>\nThe computer has only two registers, and OP is either ADD or SUB. Consider the\nfollowing basic block:   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q54b_a712a573.jpg\"> <br>\nAssume that all operands are initially in memory. The final value of the\ncomputation should be in memory. What is the minimum number of MOV\ninstructions in the code generated for this basic block? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1252/gate2007-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the grammar with non-terminals N={\\(S,C,S_1\\)}, terminals\nT={a,b,i,t,e}, with S as the start symbol, and the following set of rules: <br><br>\n\\(S\\rightarrow iCtSS_{1}|a \\) <br> \\(S_{1}\\rightarrow eS|\\epsilon  \\)<br> \\(C \\rightarrow b\\)<br><br>\nThe grammar is NOT LL(1) because: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it is left recursive</p>",
+            "<b>B.</b> <p>it is right recursive</p>",
+            "<b>C.</b> <p>it is ambiguous</p>",
+            "<b>D.</b> <p>it is not context-free.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>it is ambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1250/gate2007-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which one of the following is a top-down parser? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Recursive descent parser.</p>",
+            "<b>B.</b> <p>Operator precedence parser</p>",
+            "<b>C.</b> <p>An LR(k) parser</p>",
+            "<b>D.</b> <p>An LALR(k) parser</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Recursive descent parser.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1216/gate2007-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The grammar <br><br> S\\(\\rightarrow\\)AC|CB <br> C\\(\\rightarrow\\)aCb|\\(\\varepsilon\\)        <br>A\\(\\rightarrow\\)aA|a      <br>B\\(\\rightarrow\\)Bb|b <br><br> generates the language \\(L=\\{a^{i}b^{j}|i\\neq j\\}\\) , what is the length of the derivation (number of steps starting from S) to generate the string \\(a^{l}b^{m} \\) with \\(l \\neq m\\)? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(l,m)+2</p>",
+            "<b>B.</b> <p>l+m+2</p>",
+            "<b>C.</b> <p>l+m+3</p>",
+            "<b>D.</b> <p>max(l,m)+3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>max(l,m)+2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/79801/gate2006-85#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following grammars generates the language <br> \\(L=\\{a^{i}b^{j}|i\\neq j\\}\\) <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Compiler_Design\\q84_2026e286.jpg\"> <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1856/gate2006-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

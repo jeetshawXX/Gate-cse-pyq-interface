@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Mathematical Logic - Relations",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Relations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349634\"></a><div itemprop=\"text\"><p>Consider the following properties:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Reflexive</li>\n\t<li>Antisymmetric</li>\n\t<li>Symmetric</li>\n</ol>\n\n<p>Let \\( A=\\{a,b,c,d,e,f,g\\} \\) and \\( R=\\{(a,a), (b,b), (c,d), (c,g), (d,g), (e,e), (f,f), (g,g)\\} \\) be a relation on \\( A \\). Which of the following property (properties) is (are) satisfied by the relation \\( R \\)?</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | October 2020 | Part 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( i \\)</p>",
+            "<p>Only \\( iii \\)</p>",
+            "<p>Both \\( i \\) and \\( ii \\)</p>",
+            "<p>\\( ii \\) and not \\( i \\)</p>"
+          ],
+          "correct_answer": "<p>\\( ii \\) and not \\( i \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349634/ugc-net-cse-october-2020-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/349634/ugc-net-cse-october-2020-part-2-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

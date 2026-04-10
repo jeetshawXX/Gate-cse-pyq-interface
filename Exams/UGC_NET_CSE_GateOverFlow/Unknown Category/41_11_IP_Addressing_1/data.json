@@ -1,0 +1,26 @@
+{
+  "title": "Unknown Category - IP Addressing",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "IP Addressing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166264\"></a><div itemprop=\"text\"><p>The IP address _________ is used by hosts when they are being booted.</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | November 2017 | Part 2 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.0.0.0 \\)</p>",
+            "<p>\\( 1.0.0.0 \\)</p>",
+            "<p>\\( 1.1.1.1 \\)</p>",
+            "<p>\\( 255.255.255.255 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.0.0.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166264/ugc-net-cse-november-2017-part-2-question-30\" target=\"_blank\">https://gateoverflow.in/166264/ugc-net-cse-november-2017-part-2-question-30</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Graph Planarity",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Graph Planarity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336533\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a simple undirected planar graph on \\( 10 \\) vertices with \\( 15 \\) edges. If \\( G \\) is a connected graph, then the number of bounded faces in any embedding of \\( G \\) on the plane is equal to:</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336533/nielit-2016-dec-scientist-b-cs-section-b-5\" target=\"_blank\">https://gateoverflow.in/336533/nielit-2016-dec-scientist-b-cs-section-b-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336808\"></a><div itemprop=\"text\"><p>If a planner graph, having \\( 25 \\) vertices divides the plane into \\( 17 \\) different regions. Then how many edges are used to connect the vertices in this graph.</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 40 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336808/nielit-2017-dec-scientific-assistant-a-section-b-38\" target=\"_blank\">https://gateoverflow.in/336808/nielit-2017-dec-scientific-assistant-a-section-b-38</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336361\"></a><div itemprop=\"text\"><p>If \\( G \\) is an undirected planar graph on \\( n \\) vertices with \\( e \\) edges then</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( e\\leq n \\)</p>",
+            "<p>\\( e\\leq 2n \\)</p>",
+            "<p>\\( e\\leq 3n \\)</p>",
+            "<p>None of the option</p>"
+          ],
+          "correct_answer": "<p>\\( e\\leq 2n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336361/nielit-2017-july-scientist-b-cs-section-b-14\" target=\"_blank\">https://gateoverflow.in/336361/nielit-2017-july-scientist-b-cs-section-b-14</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336360\"></a><div itemprop=\"text\"><p>Choose the most appropriate definition of plane graph.</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A simple graph which is isomorphic to hamiltonian graph.</p>",
+            "<p>A graph drawn in a plane in such a way that if the vertex set of graph can be partitioned into two non-empty&nbsp;disjoint subset \\( X \\) and \\( Y \\) in such a way that each edge of \\( G \\) has one end in \\( X \\) and one end in \\( Y \\).</p>",
+            "<p>A graph drawn in a plane in such a way that any pair of edges meet only at their end vertices.</p>",
+            "<p>None of the option.</p>"
+          ],
+          "correct_answer": "<p>A graph drawn in a plane in such a way that any pair of edges meet only at their end vertices.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336360/nielit-2017-july-scientist-b-cs-section-b-15\" target=\"_blank\">https://gateoverflow.in/336360/nielit-2017-july-scientist-b-cs-section-b-15</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336423\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a simple connected planar graph with \\( 13 \\) vertices and \\( 19 \\) edges. Then, the number of faces in the planar embedding of the graph is</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336423/nielit-2017-july-scientist-b-it-section-b-12\" target=\"_blank\">https://gateoverflow.in/336423/nielit-2017-july-scientist-b-it-section-b-12</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336427\"></a><div itemprop=\"text\"><p>A connected planar graph divides the plane into a number of regions. If the graph has eight vertices and these are linked by \\( 13 \\) edges, then the number of regions is:</p>\n\n</div><br><br><b>Graph Theory: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336427/nielit-2017-july-scientist-b-it-section-b-8\" target=\"_blank\">https://gateoverflow.in/336427/nielit-2017-july-scientist-b-it-section-b-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

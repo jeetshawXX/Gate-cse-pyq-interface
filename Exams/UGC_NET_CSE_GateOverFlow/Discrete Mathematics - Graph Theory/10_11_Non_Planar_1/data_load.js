@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Non Planar",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Non Planar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60240\"></a><div itemprop=\"text\"><p>A graph is non-planar if and only if it contains a subgraph homomorphic to</p>\n\n</div><br><br><b>Graph Theory: UGC NET CSE | December 2013 | Part 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( K_{3,2} \\text{ or } K_5 \\)</p>",
+            "<p>\\( K_{3,3} \\text{ or } K_6 \\)</p>",
+            "<p>\\( K_{3,3} \\text{ or } K_5 \\)</p>",
+            "<p>\\( K_{2,3} \\text{ or } K_5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( K_{3,3} \\text{ or } K_5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60240/ugc-net-cse-december-2013-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/60240/ugc-net-cse-december-2013-part-2-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

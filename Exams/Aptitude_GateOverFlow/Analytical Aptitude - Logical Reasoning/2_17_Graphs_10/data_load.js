@@ -1,0 +1,166 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Graphs",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Graphs",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1356\"></a><div itemprop=\"text\"><p>The following sketch shows the pipelines carrying material from one location to another. Each location has a demand for material. The demand at Vaishali is \\( 400, \\) at Jyotishmati is \\( 400, \\) at Panchal is \\( 700, \\) and at Vidisha is \\( 200. \\) Each arrow indicates the direction of material flow through the pipeline. The flow from Vaishali to Jyotishmati is \\( 300. \\) The quantity of material flow is such that the demands at all these locations are exactly met. The capacity of each pipeline is \\( 1000. \\)</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2729904692124642108\" width=\"400\"></p>\n\n<p>The quantity moved from Avanti to Vidisha is</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2001 | Question: 115</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 800 \\)</p>",
+            "<p>\\( 700 \\)</p>",
+            "<p>\\( 1000 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1356/cat-2001-question-115\" target=\"_blank\">https://aptitude.gateoverflow.in/1356/cat-2001-question-115</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1440\"></a><div itemprop=\"text\"><p>The following sketch shows the pipelines carrying material from one location to another. Each location has a demand for material. The demand at Vaishali is \\( 400, \\) at Jyotishmati is \\( 400, \\) at Panchal is \\( 700, \\) and at Vidisha is \\( 200. \\) Each arrow indicates the direction of material flow through the pipeline. The flow from Vaishali to Jyotishmati is \\( 300. \\) The quantity of material flow is such that the demands at all these locations are exactly met. The capacity of each pipeline is \\( 1000. \\)</p><p><img alt=\"\" width=\"300\" height=\"198\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2729904692124642108\"></p><p>The free capacity available at the Avanti-Vaishali pipeline is</p></div><br><br><b>Logical Reasoning: CAT 2001 | Question: 116</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 300 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1440/cat-2001-question-116\" target=\"_blank\">https://aptitude.gateoverflow.in/1440/cat-2001-question-116</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1441\"></a><div itemprop=\"text\"><p>The following sketch shows the pipelines carrying material from one location to another. Each location has a demand for material. The demand at Vaishali is \\( 400, \\) at Jyotishmati is \\( 400, \\) at Panchal is \\( 700, \\) and at Vidisha is \\( 200. \\) Each arrow indicates the direction of material flow through the pipeline. The flow from Vaishali to Jyotishmati is \\( 300. \\) The quantity of material flow is such that the demands at all these locations are exactly met. The capacity of each pipeline is \\( 1000. \\)</p><p><img alt=\"\" width=\"300\" height=\"198\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=2729904692124642108\"></p><p>What is the free capacity available in the Avanti-Vidisha pipeline?</p></div><br><br><b>Logical Reasoning: CAT 2001 | Question: 117</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 300 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1441/cat-2001-question-117\" target=\"_blank\">https://aptitude.gateoverflow.in/1441/cat-2001-question-117</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2070\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of following information.</strong></p>\n\n<p>Shown below is a layout of major streets in a city.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=15573261703871789674\" width=\"300\"></p>\n\n<p><strong>Two days (Thursday and Friday) are left for campaigning before a major election, and the city administration has received requests from five political parties for taking out their processions along the following routes.</strong></p>\n\n<p><strong>Congress: A-C-D-E</strong></p>\n\n<p><strong>BJP: A-B-D-E</strong></p>\n\n<p><strong>SP: A-B-C-E</strong></p>\n\n<p><strong>BSP: B-C-E</strong></p>\n\n<p><strong>CPM: A-C-D</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Street B-D cannot be used for a political procession on Thursday due to a religious procession. The district administration has a policy of not allowing more than one procession to pass along the same street on the same day. However, the administration must allow all parties to take out their procession during these two days.</strong></p>\n\n<p>&nbsp;</p>\n\n<p>Congress procession can be allowed</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>only on Thursday.</p>",
+            "<p>only on Friday.</p>",
+            "<p>on either day.</p>",
+            "<p>only if the religious procession is cancelled.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2070/cat-2003-question-2-123\" target=\"_blank\">https://aptitude.gateoverflow.in/2070/cat-2003-question-2-123</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"2071\"></a><div itemprop=\"text\"><p><strong>Answer the question on the basis of following information.</strong></p>\n\n<p>Shown below is a layout of major streets in a city.</p>\n\n<p><img alt=\"\" src=\"http://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=7002326634945568712\"></p>\n\n<p><strong>Two days (Thursday and Friday) are left for campaigning before a major election, and the city administration has received requests from five political parties for taking out their processions along the following routes.</strong></p>\n\n<p><strong>Congress: A-C-D-E</strong></p>\n\n<p><strong>BJP: A-B-D-E</strong></p>\n\n<p><strong>SP: A-B-C-E</strong></p>\n\n<p><strong>BSP: B-C-E</strong></p>\n\n<p><strong>CPM: A-C-D</strong></p>\n\n<p>&nbsp;</p>\n\n<p><strong>Street B-D cannot be used for a political procession on Thursday due to a religious procession. The district administration has a policy of not allowing more than one procession to pass along the same street on the same day. However, the administration must allow all parties to take out their procession during these two days.</strong></p>\n\n<p>Which of the following is not true?</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2003 | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Congress and SP can take out their processions on the same day.</p>",
+            "<p>The CPM procession cannot be allowed on Thursday.</p>",
+            "<p>The BJP procession can only take place on Friday.</p>",
+            "<p>Congress and BSP can take out their processions on the same day.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/2071/cat-2003-question-2-124\" target=\"_blank\">https://aptitude.gateoverflow.in/2071/cat-2003-question-2-124</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"707\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the information given below:</strong></p>\n\n<p>A significant amount of traffic flows from point S to point T in the one-way street network shown below. Points A, B, C and D are junctions in the network, and the arrows mark the direction of traffic flow. The fuel cost in rupees for travelling along a street is indicated by the number of adjacent to the arrow representing the street.</p>\n\n<p><img alt=\"\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1916875805582332736\" width=\"500\"></p>\n\n<p>Motorists travelling from point S to point T would obviously take the route for which the total cost of travelling is the minimum. If two or more routes have the same least travel cost, then motorists are indifferent between them. hence the traffic gets evenly distributed among all the least cost routes.</p>\n\n<p>The government can control the flow of traffic only by levying appropriate toll at each junction. For example, if a motorist takes a route S-A-T (using junction A alone), then the total cost of travel would be Rs \\( 14 \\) (ie., Rs \\( 9 + \\) Rs \\( 5) \\) plus the toll charged at junction A.</p>\n\n<p>If the government wants to ensure that all motorists travelling from S to T pay the same amount (fuel costs and toll combined) regardless of the route they choose and the street from B to C under repairs (and hence unusable), then a feasible set of toll charged (in rupees) at junction A, B, C and D are respectively to achieve this goal is</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2006 | Question: 16</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2, 5, 3, 2 \\)</p>",
+            "<p>\\( 0, 5, 3, 1 \\)</p>",
+            "<p>\\( 1, 5, 3, 2 \\)</p>",
+            "<p>\\( 2, 3, 5, 1 \\)</p>",
+            "<p>\\( 1, 3, 5, 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/707/cat-2006-question-16\" target=\"_blank\">https://aptitude.gateoverflow.in/707/cat-2006-question-16</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1609\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the information given below:</strong></p><p>A significant amount of traffic flows from point S to point T in the one-way street network shown below. Points A, B, C and D are junctions in the network, and the arrows mark the direction of traffic flow. The fuel cost in rupees for travelling along a street is indicated by the number of adjacent to the arrow representing the street.</p><p><img alt=\"\" width=\"500\" height=\"328\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1916875805582332736\"></p><p>Motorists travelling from point S to point T would obviously take the route for which the total cost of travelling is the minimum. If two or more routes have the same least travel cost, then motorists are indifferent between them. hence the traffic gets evenly distributed among all the least cost routes.</p><p>The government can control the flow of traffic only by levying appropriate toll at each junction. For example, if a motorist takes a route S-A-T (using junction A alone), then the total cost of travel would be Rs \\( 14 \\) (ie., Rs \\( 9 + \\) Rs \\( 5) \\) plus the toll charged at junction A.</p><p>If the government wants to ensure that no traffic flows on the street from D to T, while equal amount of traffic flows through junction A and C, than a feasible set of toll charged (in rupees) at junctions A, B, C and D respectively to achieve this goal is</p></div><br><br><b>Logical Reasoning: CAT 2006 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 1, 5, 3, 3 \\)</p>",
+            "<p>\\( 1, 4, 4, 3 \\)</p>",
+            "<p>\\( 1, 5, 4, 2 \\)</p>",
+            "<p>\\( 0, 5, 2, 3 \\)</p>",
+            "<p>\\( 0, 5, 2, 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1609/cat-2006-question-17\" target=\"_blank\">https://aptitude.gateoverflow.in/1609/cat-2006-question-17</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1610\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the information given below:</strong></p><p>A significant amount of traffic flows from point S to point T in the one-way street network shown below. Points A, B, C and D are junctions in the network, and the arrows mark the direction of traffic flow. The fuel cost in rupees for travelling along a street is indicated by the number of adjacent to the arrow representing the street.</p><p><img alt=\"\" width=\"500\" height=\"328\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1916875805582332736\"></p><p>Motorists travelling from point S to point T would obviously take the route for which the total cost of travelling is the minimum. If two or more routes have the same least travel cost, then motorists are indifferent between them. hence the traffic gets evenly distributed among all the least cost routes.</p><p>The government can control the flow of traffic only by levying appropriate toll at each junction. For example, if a motorist takes a route S-A-T (using junction A alone), then the total cost of travel would be Rs \\( 14 \\) (ie., Rs \\( 9 + \\) Rs \\( 5) \\) plus the toll charged at junction A.</p><p>If the government wants to ensure that all routed from S to T get the same amount of traffic, then a feasible set of toll charged (in rupees) at junctions A, B, C and D are respectively to achieve this goal is</p></div><br><br><b>Logical Reasoning: CAT 2006 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0, 5, 2, 2 \\)</p>",
+            "<p>\\( 0, 5, 4, 1 \\)</p>",
+            "<p>\\( 1, 5, 3, 3 \\)</p>",
+            "<p>\\( 1, 5, 3, 2 \\)</p>",
+            "<p>\\( 0, 4, 3, 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1610/cat-2006-question-18\" target=\"_blank\">https://aptitude.gateoverflow.in/1610/cat-2006-question-18</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1611\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the information given below:</strong></p><p>A significant amount of traffic flows from point S to point T in the one-way street network shown below. Points A, B, C and D are junctions in the network, and the arrows mark the direction of traffic flow. The fuel cost in rupees for travelling along a street is indicated by the number of adjacent to the arrow representing the street.</p><p><img alt=\"\" width=\"500\" height=\"328\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1916875805582332736\"></p><p>Motorists travelling from point S to point T would obviously take the route for which the total cost of travelling is the minimum. If two or more routes have the same least travel cost, then motorists are indifferent between them. hence the traffic gets evenly distributed among all the least cost routes.</p><p>The government can control the flow of traffic only by levying appropriate toll at each junction. For example, if a motorist takes a route S-A-T (using junction A alone), then the total cost of travel would be Rs \\( 14 \\) (ie., Rs \\( 9 + \\) Rs \\( 5) \\) plus the toll charged at junction A.</p><p>If the government wants to ensure that the traffic at S gets evenly distributed along streets from S to A, from S to B, and from S to D, then a feasible set of toll charged (in rupees) at junctions A, B, C and D are respectively to achieve this goal is</p></div><br><br><b>Logical Reasoning: CAT 2006 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 0, 5, 4, 1 \\)</p>",
+            "<p>\\( 0, 5, 2, 2 \\)</p>",
+            "<p>\\( 1, 5, 3, 3 \\)</p>",
+            "<p>\\( 1, 5, 3, 2 \\)</p>",
+            "<p>\\( 0, 4, 3, 2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1611/cat-2006-question-19\" target=\"_blank\">https://aptitude.gateoverflow.in/1611/cat-2006-question-19</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"1612\"></a><div itemprop=\"text\"><p><strong>Answer the question based on the information given below:</strong></p><p>A significant amount of traffic flows from point S to point T in the one-way street network shown below. Points A, B, C and D are junctions in the network, and the arrows mark the direction of traffic flow. The fuel cost in rupees for travelling along a street is indicated by the number of adjacent to the arrow representing the street.</p><p><img alt=\"\" width=\"500\" height=\"328\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=1916875805582332736\"></p><p>Motorists travelling from point S to point T would obviously take the route for which the total cost of travelling is the minimum. If two or more routes have the same least travel cost, then motorists are indifferent between them. hence the traffic gets evenly distributed among all the least cost routes.</p><p>The government can control the flow of traffic only by levying appropriate toll at each junction. For example, if a motorist takes a route S-A-T (using junction A alone), then the total cost of travel would be Rs \\( 14 \\) (ie., Rs \\( 9 + \\) Rs \\( 5) \\) plus the toll charged at junction A.</p><p>The government wants to devise a toll policy such that the total cost to the commuters per trip is minimized. The policy should also ensure that not more than \\( 70 \\) per cent of the total traffic passes through junction B. The cost incurred by the commuter travelling from point S to point T under this policy will be</p></div><br><br><b>Logical Reasoning: CAT 2006 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Rs \\( 7 \\)</p>",
+            "<p>Rs \\( 9 \\)</p>",
+            "<p>Rs \\( 10 \\)</p>",
+            "<p>Rs \\( 13 \\)</p>",
+            "<p>Rs \\( 14 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1612/cat-2006-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/1612/cat-2006-question-20</a></p>"
+        }
+      ]
+    }
+  ]
+});

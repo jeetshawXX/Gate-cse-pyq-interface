@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "English Language - Two Blank Word",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Two Blank Word",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"42\"></a><div itemprop=\"text\"><p>I. It helps to rinse one's mouth early morning with a _______ of salt and water.<br>II. You can always refer to this reference material to find the _________ to these problems.</p><p>&nbsp;</p><ol><li>mixture</li><li>answers</li><li>liquid</li><li>fix</li><li>solution</li></ol><p>&nbsp;</p></div><br><br><b>English Language: English Language</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/42/english-language-fill-in-the-blanks-with-appropriate-word\" target=\"_blank\">https://aptitude.gateoverflow.in/42/english-language-fill-in-the-blanks-with-appropriate-word</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"40\"></a><div itemprop=\"text\"><p>I. This course teaches you not to _______ to temptations.<br>II. We hope to increase our ________ of rice this year</p><ol><li>succumb</li><li>produce</li><li>yield</li><li>share</li><li>submit</li></ol><p>&nbsp;</p></div><br><br><b>English Language: Fill in two blanks with one appropriate word</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/40/fill-in-two-blanks-with-one-appropriate-word\" target=\"_blank\">https://aptitude.gateoverflow.in/40/fill-in-two-blanks-with-one-appropriate-word</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"38\"></a><div itemprop=\"text\"><p>I. Boats take more time going against the ________ of the river.<br>II. She keeps herself abreast of ________ events.</p><p>&nbsp;</p><ol><li>flow</li><li>latest</li><li>water</li><li>all</li><li>current</li></ol><p>&nbsp;</p></div><br><br><b>English Language: Fill in two blanks with one word</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/38/fill-in-two-blanks-with-one-word\" target=\"_blank\">https://aptitude.gateoverflow.in/38/fill-in-two-blanks-with-one-word</a></p>"
+        }
+      ]
+    }
+  ]
+});

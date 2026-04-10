@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Backpatching",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Backpatching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460824\"></a><div itemprop=\"text\"><p>​​​​Consider the following statements about the use of backpatching in a compiler for intermediate code generation:</p><ol start=\"1\" style=\"list-style-type: upper-roman;\"><li>Backpatching can be used to generate code for Boolean expression in one pass.</li><li>Backpatching can be used to generate code for flow-of-control statements in one pass.</li></ol><div>Which ONE of the folloeing options is CORRECT?</div></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only I is correct</p>",
+            "<p>Only II is correct</p>",
+            "<p>Both I and II are correct</p>",
+            "<p>Neither I nor&nbsp;II is correct&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Both I and II are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460824/gate-cse-2025-set-2-question-11\" target=\"_blank\">https://gateoverflow.in/460824/gate-cse-2025-set-2-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+});

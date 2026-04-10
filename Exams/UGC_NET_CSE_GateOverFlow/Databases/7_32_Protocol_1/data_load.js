@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Protocol",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Protocol",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56776\"></a><div itemprop=\"text\"><p>Which of the following concurrency protocol ensues both conflict serializability and freedom from deadlock:</p>\n\n<ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>\\( 2 \\)-phase locking</li>\n\t<li>Time phase ordering</li>\n</ol>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2014 | Part 3 | Question: 27, UGCNET</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both I &amp; II</p>",
+            "<p>II only</p>",
+            "<p>I only</p>",
+            "<p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<p>II only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56776/ugc-net-cse-june-2014-part-3-question-27-ugcnet-june2015-ii-17\" target=\"_blank\">https://gateoverflow.in/56776/ugc-net-cse-june-2014-part-3-question-27-ugcnet-june2015-ii-17</a></p>"
+        }
+      ]
+    }
+  ]
+});

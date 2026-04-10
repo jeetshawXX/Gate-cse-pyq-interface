@@ -1,0 +1,41 @@
+{
+  "title": "Algorithms - Bellman Ford",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Bellman Ford",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1305\"></a><div itemprop=\"text\"><p>Which of the following statement(s) is/are correct regarding Bellman-Ford shortest path algorithm?</p><p><strong>P:</strong>&nbsp;Always finds a negative weighted cycle, if one exists.</p><p><strong>Q:</strong>&nbsp;Finds whether any negative weighted cycle is reachable from the source.</p></div><br><br><b>GATE CSE 2009 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P \\) only</p>",
+            "<p>\\( Q \\) only</p>",
+            "<p>Both \\( P \\) and \\( Q \\)</p>",
+            "<p>Neither \\( P \\) nor \\( Q \\)</p>"
+          ],
+          "correct_answer": "<p>\\( Q \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1305/gate-cse-2009-question-13\" target=\"_blank\">https://gateoverflow.in/1305/gate-cse-2009-question-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1441\"></a><div itemprop=\"text\"><p>What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete graph of n vertices?</p></div><br><br><b>GATE CSE 2013 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\theta(n^2) \\) &nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( \\theta(n^2\\log n) \\) &nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( \\theta(n^3) \\) &nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>\\( \\theta(n^3\\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\theta(n^3) \\) &nbsp;&nbsp;&nbsp;&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1441/gate-cse-2013-question-19\" target=\"_blank\">https://gateoverflow.in/1441/gate-cse-2013-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

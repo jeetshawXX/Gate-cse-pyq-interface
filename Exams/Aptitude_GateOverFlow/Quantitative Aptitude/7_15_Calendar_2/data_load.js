@@ -1,0 +1,36 @@
+window.__examLoadCallback({
+  "title": "Quantitative Aptitude - Calendar",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Calendar",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1285\"></a><div itemprop=\"text\"><p>If \\( 09/12/2001 \\) happens to be Sunday, then \\( 09/12/1971 \\) would have been a</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 2001 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Wednesday&nbsp;</p>",
+            "<p>Tuesday</p>",
+            "<p>Saturday&nbsp;</p>",
+            "<p>Thursday</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1285/cat-2001-question-18\" target=\"_blank\">https://aptitude.gateoverflow.in/1285/cat-2001-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"4360\"></a><div itemprop=\"text\">The calendar for the year 2007 will be the same for the year. (a) 2012 (b) 2018</div><br><br><b>Quantitative Aptitude: Calendar</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4360/calendar\" target=\"_blank\">https://aptitude.gateoverflow.in/4360/calendar</a></p>"
+        }
+      ]
+    }
+  ]
+});

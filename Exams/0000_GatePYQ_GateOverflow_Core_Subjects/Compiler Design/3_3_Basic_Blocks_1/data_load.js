@@ -1,0 +1,21 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Basic Blocks",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Basic Blocks",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460038\"></a><div itemprop=\"text\"><p>Refer to the given \\( 3 \\)-address code sequence. This code sequence is split into basic blocks. The number of basic blocks is ________. (Answer in integer)</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">1001: i = 1\n1002: j = 1\n1003: t1 = 10*i\n1004: t2 = t1+j\n1005: t3 = 8*t2\n1006: t4 = t3-88\n1007: a[t4] = 0.0\n1008: j = j+1\n1009: if j &lt;= 10 goto 1003\n1010: i = i+1\n1011: if i &lt;= 10 goto 1002\n1012: i = 1\n1013: t5 = i-1\n1014: t6 = 88*t5\n1015: a[t6] = 1.0\n1016: i = i+1\n1017: if i &lt;= 10 goto 1013</pre><p>&nbsp;</p></div><br><br><b>GATE CSE 2025 | Set 1 | Question: 42</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6:6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460038/gate-cse-2025-set-1-question-42\" target=\"_blank\">https://gateoverflow.in/460038/gate-cse-2025-set-1-question-42</a></p>"
+        }
+      ]
+    }
+  ]
+});

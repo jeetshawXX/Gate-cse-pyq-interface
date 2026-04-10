@@ -1,0 +1,116 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Object Oriented Programming - Object Oriented Programming",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Object Oriented Programming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50468\"></a><div itemprop=\"text\"><p>The feature in object-oriented programming that allows the same operation to be carried out differently, depending on the object, is</p>\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2009 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Inheritance</p>",
+            "<p>Polymorphism</p>",
+            "<p>Overfunctioning</p>",
+            "<p>Overriding</p>"
+          ],
+          "correct_answer": "<p>Polymorphism</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50468/isro-cse-2009-question-33\" target=\"_blank\">https://gateoverflow.in/50468/isro-cse-2009-question-33</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"55530\"></a><div itemprop=\"text\">\n<p>If a class \\( C \\) is derived from class \\( B \\), which is derived form class \\( A \\), all through public inheritance, then a class \\( C \\) member function can access</p>\n\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2016 | Question: 78</b></p>",
+          "type": "single",
+          "options": [
+            "<p>only protected and public data of \\( C \\) and \\( B \\)</p>",
+            "<p>Only protected and public data of \\( C \\)</p>",
+            "<p>all data of \\( C \\) and private data of \\( A \\) and \\( B \\)</p>",
+            "<p>public and protected data of \\( A \\) and \\( B \\) and all data of \\( C \\)</p>"
+          ],
+          "correct_answer": "<p>public and protected data of \\( A \\) and \\( B \\) and all data of \\( C \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55530/isro-cse-2016-question-78\" target=\"_blank\">https://gateoverflow.in/55530/isro-cse-2016-question-78</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"128615\"></a><div itemprop=\"text\"><p>What is the output of the C++ program?<br>\n&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include &lt;iostream&gt;\nusing namespace std;\n\nvoid square(int *x){\n    *x = (*x)++ * (*x);\n}\n\nvoid square(int *x, int *y){\n    *x = (*x) * --(*y);\n}\n\nint main()\n{\n  int number = 30;\n  square(&amp;number, &amp;number);\n  cout&lt;&lt;number;\n  return 0;\n}</pre>\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2017 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>910</p>",
+            "<p>920</p>",
+            "<p>870</p>",
+            "<p>900</p>"
+          ],
+          "correct_answer": "<p>870</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128615/isro-cse-2017-question-41\" target=\"_blank\">https://gateoverflow.in/128615/isro-cse-2017-question-41</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"128685\"></a><div itemprop=\"text\"><p>Which of the following UML 2.0 diagrams capture behavioral aspects of a system?</p>\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2017 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Use case diagram, Object diagram, Activity diagram and state machine diagram</p>",
+            "<p>Use case diagram, Activity diagram and state machine diagram</p>",
+            "<p>Object diagram, Communication Diagram, Timing diagram and Interaction diagram</p>",
+            "<p>Object diagram, Composite structure diagram, package diagram and Deployment diagram</p>"
+          ],
+          "correct_answer": "<p>Use case diagram, Activity diagram and state machine diagram</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128685/isro-cse-2017-question-43\" target=\"_blank\">https://gateoverflow.in/128685/isro-cse-2017-question-43</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"128686\"></a><div itemprop=\"text\"><p>Which of the following is associated with objects?</p>\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2017 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>State</p>",
+            "<p>Behavior</p>",
+            "<p>Identity</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128686/isro-cse-2017-question-44\" target=\"_blank\">https://gateoverflow.in/128686/isro-cse-2017-question-44</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"213545\"></a><div itemprop=\"text\"><p>Consider the following C++ program</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int a (int m)\n{return ++m;}\nint b(int&amp;m)\n{return ++m;}\nint{char &amp;m}\n{return ++m;}\nvoid main()\n{             \n       int p = 0, q=0, r = 0;\n       p += a(b(p)) ;\n       q+= b(a(q);)\n       r+=a(c(r));\n       cout&lt;&lt;p&lt;&lt;q &lt;&lt; r;\n}\n\n</pre>\n\n<p>Assuming the required header first are already included, the above program</p>\n\n</div><br><br><b>Object Oriented Programming: ISRO CSE 2018 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>results in compilation error</p>",
+            "<p>print \\( 123 \\)</p>",
+            "<p>print \\( 111 \\)</p>",
+            "<p>print \\( 322 \\)</p>"
+          ],
+          "correct_answer": "<p>results in compilation error</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213545/isro-cse-2018-question-43\" target=\"_blank\">https://gateoverflow.in/213545/isro-cse-2018-question-43</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"182115\"></a><div itemprop=\"text\"><p>Which one of the following are essential features of object-oriented language?<br>\n&nbsp;</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:500px; border-spacing: 1px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<th scope=\"row\">A.</th>\n\t\t\t<td>Abstraction and encapsulation&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">B.</th>\n\t\t\t<td>Strictly-typed&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">C.</th>\n\t\t\t<td>Type-safe property coupled with sub-type rule</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<th scope=\"row\">D.</th>\n\t\t\t<td>Polymorphism in the presence of &nbsp;inheritance</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n</div><br><br><b>Object Oriented Programming: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( A \\) and \\( B \\) only&nbsp;</p>",
+            "<p>&nbsp;\\( A,D \\) and \\( B \\) only&nbsp;</p>",
+            "<p>&nbsp;\\( A \\) and \\( D \\) only&nbsp;</p>",
+            "<p>&nbsp;\\( A,C \\) and \\( D \\) only</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( A \\) and \\( D \\) only&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182115/isro-dec2017-65\" target=\"_blank\">https://gateoverflow.in/182115/isro-dec2017-65</a></p>"
+        }
+      ]
+    }
+  ]
+});

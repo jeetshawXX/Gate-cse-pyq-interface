@@ -1,0 +1,66 @@
+{
+  "title": "Computer Networks - Communication",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Communication",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2153\"></a><div itemprop=\"text\"><p>Consider a source computer \\( (S) \\) transmitting a file of size \\( 10^{6} \\) bits to a destination computer \\( (D) \\) over a network of two routers \\( (R_{1}\\text{ and }R_{2}) \\) and three links \\( (L_{1},L_{2},\\text{ and } L_{3}) \\). \\( L_{1} \\) connects \\( S \\) to \\( R_{1} \\); \\( L_{2} \\) connects \\( R_{1} \\) to \\( R_{2} \\); and \\( L_{3} \\) connects \\( R_{2} \\) to \\( D \\). Let each link be of length \\( \\text{100 km} \\). Assume signals travel over each link at a speed of \\( 10^{8} \\) meters per second. Assume that the link bandwidth on each link is \\( \\text{1 Mbps} \\). Let the file be broken down into \\( 1000 \\) packets each of size \\( 1000 \\) bits. Find the total sum of transmission and propagation delays in transmitting the file from \\( S \\) to \\( D \\)?</p>\n\n</div><br><br><b>GATE CSE 2012 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{1005 ms} \\)</p>",
+            "<p>\\( \\text{1010 ms} \\)</p>",
+            "<p>\\( \\text{3000 ms} \\)</p>",
+            "<p>\\( \\text{3003 ms} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1005 ms} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2153/gate-cse-2012-question-44\" target=\"_blank\">https://gateoverflow.in/2153/gate-cse-2012-question-44</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"371887\"></a><div itemprop=\"text\">Consider a \\( 100 \\; \\text{Mbps} \\) link between an earth station (sender) and a satellite (receiver) at an altitude of \\( 2100 \\; \\text{km}. \\) The signal propagates at a speed of \\( 3 \\times 10^{8} \\; \\text{m/s.} \\) The time taken \\( \\text{(in milliseconds,} \\; &nbsp;\\textit{rounded off to two decimal places}) \\) for the receiver to completely receive a packet of \\( 1000 \\; \\text{bytes} \\) transmitted by the sender is _______________.</div><br><br><b>GATE CSE 2022 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7.07:7.09",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371887/gate-cse-2022-question-49\" target=\"_blank\">https://gateoverflow.in/371887/gate-cse-2022-question-49</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3506\"></a><div itemprop=\"text\"><p>Let us consider a statistical time division multiplexing of packets. The number of sources is \\( 10 \\). In a time unit, a source transmits a packet of \\( 1000 \\) bits. The number of sources sending data for the first \\( 20 \\) time units is \\( 6, 9, 3, 7, 2, 2, 2, 3, 4, 6, 1, 10, 7, 5, 8, 3, 6, 2, 9, 5 \\)&nbsp;respectively. The output capacity of multiplexer is \\( 5000 \\) bits per time unit. Then the average number of backlogged of packets per time unit during the given period is</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 4.45 \\)</p>",
+            "<p>\\( 3.45 \\)</p>",
+            "<p>\\( 0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4.45 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3506/gate-it-2007-question-62\" target=\"_blank\">https://gateoverflow.in/3506/gate-it-2007-question-62</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3509\"></a><div itemprop=\"text\"><p>A broadcast channel has \\( 10 \\) nodes and total capacity of \\( 10 \\) Mbps. It uses polling for medium access. Once a node finishes transmission, there is a polling delay of \\( 80 \\) μs to poll the next node. Whenever a node is polled, it is allowed to transmit a maximum of \\( 1000 \\) bytes. The maximum throughput of the broadcast channel is:</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) Mbps</p>",
+            "<p>\\( 100/11 \\) Mbps</p>",
+            "<p>\\( 10 \\) Mbps</p>",
+            "<p>\\( 100 \\) Mbps</p>"
+          ],
+          "correct_answer": "<p>\\( 100/11 \\) Mbps</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3509/gate-it-2007-question-64\" target=\"_blank\">https://gateoverflow.in/3509/gate-it-2007-question-64</a></p>"
+        }
+      ]
+    }
+  ]
+}

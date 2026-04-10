@@ -1,0 +1,41 @@
+{
+  "title": "Compiler Design - Parameter Passing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Parameter Passing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"70917\"></a><div itemprop=\"text\"><p>Assume that the program \\( ‘P’ \\) is implementing parameter passing with ‘call by reference’. What will be printed by following print statements in \\( P \\)?</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">Program P\n{\n    x=10;\n    y=3;\n    funb(y,x,x)\n    print x;\n    print y;\n}\nfunb (x,y,z)\n{\n    y=y+4;\n    z=x+y+z;\n}</pre>\n\n</div><br><br><b>Compiler Design: UGC NET CSE | August 2016 | Part 3 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>10, 7</p>",
+            "<p>31, 3</p>",
+            "<p>10, 3</p>",
+            "<p>31, 7</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/70917/ugc-net-cse-august-2016-part-3-question-21\" target=\"_blank\">https://gateoverflow.in/70917/ugc-net-cse-august-2016-part-3-question-21</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"60180\"></a><div itemprop=\"text\"><p>Consider the following statements \\( S1, S2 \\) and \\( S3 \\):</p><p>\\( S1 \\): In call-by-value, anything that is passed into a function call is unchanged in the caller’s scope when the function returns.</p><p>\\( S2 \\): In call-by-reference, a function receives implicit reference to a variable used as argument.</p><p>\\( S3 \\): In call-by-reference, caller is unable to see the modified variable used as argument.&nbsp;</p></div><br><br><b>Compiler Design: UGC NET CSE | December 2014 | Part 3 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S3 \\) and \\( S2 \\) are true.&nbsp;</p>",
+            "<p>\\( S3 \\) and \\( S1 \\) are true.</p>",
+            "<p>\\( S2 \\) and \\( S1 \\) are true.&nbsp;</p>",
+            "<p>\\( S1, S2, S3 \\) are true.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( S2 \\) and \\( S1 \\) are true.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60180/ugc-net-cse-december-2014-part-3-question-19\" target=\"_blank\">https://gateoverflow.in/60180/ugc-net-cse-december-2014-part-3-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

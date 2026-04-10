@@ -1,0 +1,71 @@
+{
+  "title": "CO and Architecture - Microprogramming",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Microprogramming",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"337219\"></a><div itemprop=\"text\"><p>Micro program is&nbsp;</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the name of source program in micro computers</p>",
+            "<p>the set of instructions indicating the primitive operations in a system</p>",
+            "<p>primitive form of macros used in assembly language programming&nbsp;</p>",
+            "<p>program of very small size</p>"
+          ],
+          "correct_answer": "<p>the set of instructions indicating the primitive operations in a system</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337219/nielit-2016-mar-scientist-c-section-c-46\" target=\"_blank\">https://gateoverflow.in/337219/nielit-2016-mar-scientist-c-section-c-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336895\"></a><div itemprop=\"text\"><p>A micro programmed control unit</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Is faster than a hardwired unit</p>",
+            "<p>Facilitates easy implementation of a new instruction</p>",
+            "<p>Is useful when small programs are to be run</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>Facilitates easy implementation of a new instruction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336895/nielit-2017-oct-scientific-assistant-a-cs-section-b-25\" target=\"_blank\">https://gateoverflow.in/336895/nielit-2017-oct-scientific-assistant-a-cs-section-b-25</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"369363\"></a><div itemprop=\"text\"><p>A microprogrammed control unit :</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is faster than hardwired control unit</p>",
+            "<p>allows easy implementation of new instructions</p>",
+            "<p>is useful when small programs are to be run</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>allows easy implementation of new instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369363/nielit-2021-dec-scientist-a-section-b-50\" target=\"_blank\">https://gateoverflow.in/369363/nielit-2021-dec-scientist-a-section-b-50</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351628\"></a><div itemprop=\"text\"><p>Consider a control unit generating the control signals. These control signals are divided into five mutually exclusive groups as shown below:</p>\n\n<p>\\( \\begin{array}{|l|l||l|l|} \\hline &nbsp;\\text{Groups} &amp;&nbsp; G1 &amp; &nbsp;&nbsp;\\text{ \\)G1\\( }&nbsp; &amp; G1 &amp;&nbsp; G1 &amp; G1&nbsp; \\\\\\hline \\text{Control Signals} &amp; 3 &amp; 7 &amp; 10 &amp; 12 &amp; 2 \\\\ \\hline \\end{array} \\)</p>\n\n<p>How many bits are saved using the Vertical Micro-programmed instead of Horizontal Micro-programmed control unit?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT Scientist B 2020 November: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 34 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>None</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351628/nielit-scientist-b-2020-november-54\" target=\"_blank\">https://gateoverflow.in/351628/nielit-scientist-b-2020-november-54</a></p>"
+        }
+      ]
+    }
+  ]
+}

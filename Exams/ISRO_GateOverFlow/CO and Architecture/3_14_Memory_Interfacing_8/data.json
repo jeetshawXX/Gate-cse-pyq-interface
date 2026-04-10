@@ -1,0 +1,131 @@
+{
+  "title": "CO and Architecture - Memory Interfacing",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Memory Interfacing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49512\"></a><div itemprop=\"text\">\n<p>In comparison with static RAM memory, the dynamic Ram memory has</p>\n\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2007 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>lower bit density and higher power consumption</p>",
+            "<p>higher bit density and higher power consumption</p>",
+            "<p>lower bit density and lower power consumption</p>",
+            "<p>higher bit density and lower power consumption</p>"
+          ],
+          "correct_answer": "<p>higher bit density and higher power consumption</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49512/isro-cse-2007-question-37\" target=\"_blank\">https://gateoverflow.in/49512/isro-cse-2007-question-37</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"48046\"></a><div itemprop=\"text\"><p>The process of organizing the memory into two banks to allow \\( 8 \\)-and \\( 16 \\)-bit data operation is called</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2009 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Bank switching</p>",
+            "<p>Indexed mapping</p>",
+            "<p>Two-way memory interleaving</p>",
+            "<p>Memory segmentation</p>"
+          ],
+          "correct_answer": "<p>Two-way memory interleaving</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48046/isro-cse-2009-question-23\" target=\"_blank\">https://gateoverflow.in/48046/isro-cse-2009-question-23</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"52817\"></a><div itemprop=\"text\"><p>Number of chips \\( (128 \\times&nbsp;8 \\;\\text{RAM}) \\) needed to provide a memory capacity of \\( 2048 \\) bytes</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2011 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52817/isro-cse-2011-question-54\" target=\"_blank\">https://gateoverflow.in/52817/isro-cse-2011-question-54</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"16309\"></a><div itemprop=\"text\"><p>Consider a \\( 33 \\) MHz cpu based system. What is the number of wait states required if it is interfaced with a \\( 60 \\) ns memory? Assume a maximum of \\( 10 \\) ns delay for additional circuitry like buffering and decoding.</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2014 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 1 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/16309/isro-cse-2014-question-1\" target=\"_blank\">https://gateoverflow.in/16309/isro-cse-2014-question-1</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"15027\"></a><div itemprop=\"text\"><p>If each address space represents one byte of storage space, how many address lines are needed to access RAM chips arranged in a \\( 4 \\times&nbsp;6 \\) array, where each chip is \\( 8\\;\\text{K} \\times&nbsp;4 \\) bits?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2014 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 17 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 17 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/15027/isro-cse-2014-question-17\" target=\"_blank\">https://gateoverflow.in/15027/isro-cse-2014-question-17</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"52438\"></a><div itemprop=\"text\"><p>Assume that \\( 16 \\)-bit CPU is trying to access a double word stating at an odd address. How many memory operations are required to access the data?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2014 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52438/isro-cse-2014-question-40\" target=\"_blank\">https://gateoverflow.in/52438/isro-cse-2014-question-40</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"128487\"></a><div itemprop=\"text\"><p>How many \\( 128\\times 8 \\) bit RAMs are required to design \\( 32\\;\\text{K}\\times 32 \\) bit RAM?</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2017 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 512 \\)</p>",
+            "<p>\\( 1024 \\)</p>",
+            "<p>\\( 128 \\)</p>",
+            "<p>\\( 32 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1024 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128487/isro-cse-2017-question-18\" target=\"_blank\">https://gateoverflow.in/128487/isro-cse-2017-question-18</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"37956\"></a><div itemprop=\"text\"><p>In \\( \\text{X = (M + N }\\times \\text{O)/(P} \\times \\text{Q}) \\), how many one-address instructions are required to evaluate it?</p>\n\n</div><br><br><b>CO & Architecture: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/37956/isro2015-77\" target=\"_blank\">https://gateoverflow.in/37956/isro2015-77</a></p>"
+        }
+      ]
+    }
+  ]
+}

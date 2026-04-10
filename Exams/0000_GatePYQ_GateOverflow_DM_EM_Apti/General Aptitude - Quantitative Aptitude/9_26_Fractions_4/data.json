@@ -1,0 +1,71 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Fractions",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Fractions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"204067\"></a><div itemprop=\"text\"><p>In appreciation of the social improvements completed in a town, a wealthy philanthropist&nbsp;decided to gift \\( Rs\\; 750 \\) to&nbsp;each male senior citizen in the town and \\( Rs\\; 1000 \\) to each female senior citizen. Altogether, there were 300 senior citizens eligible for this gift. However, only \\( \\dfrac{8}{9}^{\\text{th}} \\) of the eligible men and \\( \\dfrac{2}{3}^{\\text{rd}} \\) of the eligible women claimed the gift.How much money (in Rupees) did the philanthropist give away in total?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,50,000 \\)</p>",
+            "<p>\\( 2,00,000 \\)</p>",
+            "<p>\\( 1,75,000 \\)</p>",
+            "<p>\\( 1,51,000 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2,00,000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204067/gate-cse-2018-question-ga-6\" target=\"_blank\">https://gateoverflow.in/204067/gate-cse-2018-question-ga-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411759\"></a><div itemprop=\"text\"><p>Both the numerator and the denominator of \\( \\dfrac{3}{4} \\) are increased by a positive integer, \\( x, \\) and those of \\( \\dfrac{15}{17} \\) are decreased by the same integer. This operation results in the same value for both the fractions.</p>\n\n<p>What is the value of \\( x ? \\)</p>\n\n</div><br><br><b>GATE Civil 2022 Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411759/gate-civil-2022-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411759/gate-civil-2022-set-2-ga-question-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"426486\"></a><div itemprop=\"text\"><p>For positive integers \\( p \\) and \\( q \\), with \\( \\frac{p}{q} \\neq 1,\\left(\\frac{p}{q}\\right)^{\\frac{p}{q}}=p^{\\left(\\frac{p}{q}-1\\right)} \\). Then,</p>\n\n</div><br><br><b>GATE Civil 2024 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( q^{p}=p^{q} \\)</p>",
+            "<p>\\( q^{p}=p^{2 q} \\)</p>",
+            "<p>\\( \\sqrt{q}=\\sqrt{p} \\)</p>",
+            "<p>\\( \\sqrt[p]{q}=\\sqrt[q]{p} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( q^{p}=p^{q} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426486/gate-civil-2024-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/426486/gate-civil-2024-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"108093\"></a><div itemprop=\"text\"><p>If \\( \\large q^{-a} = \\dfrac{1}{r} \\) and \\( \\large r^{-b} = \\dfrac{1}{s} \\) and \\( \\large s^{-c} = \\dfrac{1}{q} \\), the value of \\( abc \\) is ________.</p>\n\n</div><br><br><b>GATE2016 EC-1: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(rqs\\right)^{-1} \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( r+q+s \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108093/gate2016-ec-1-ga-9\" target=\"_blank\">https://gateoverflow.in/108093/gate2016-ec-1-ga-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

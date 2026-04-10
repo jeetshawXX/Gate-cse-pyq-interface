@@ -1,0 +1,26 @@
+{
+  "title": "Programming in C - Strings",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Strings",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460826\"></a><div itemprop=\"text\"><p>​​​​​Consider the following C program:</p><div><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">#include &lt;stdio.h&gt;\nvoid stringcopy (char *, char *);\nint main() {\n    char a[30] = \"@#Hello World!\";\n    stringcopy(a, a+2);\n    printf(\"%s\\n\",a);\n    return 0;\n}\nvoid stringcopy(char *s, char *t) {\nwhile (*t)\n    *s++=*t++;\n}</pre><p>Which one of the following will be the output of the program?</p></div></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>@#Hello World!</p>",
+            "<p>Hello World!</p>",
+            "<p>ello World!</p>",
+            "<p>Hello World!d!</p>"
+          ],
+          "correct_answer": "<p>Hello World!d!</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460826/gate-cse-2025-set-2-question-9\" target=\"_blank\">https://gateoverflow.in/460826/gate-cse-2025-set-2-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

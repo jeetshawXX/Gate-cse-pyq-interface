@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "CO and Architecture - Flags",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Flags",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57461\"></a><div itemprop=\"text\"><p>Which of the following flags are set when ‘JMP’ instruction is executed?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2012 | Part 3 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>SF and CF</p>",
+            "<p>AF and CF</p>",
+            "<p>All flags</p>",
+            "<p>No flag is set</p>"
+          ],
+          "correct_answer": "<p>No flag is set</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57461/ugc-net-cse-december-2012-part-3-question-31\" target=\"_blank\">https://gateoverflow.in/57461/ugc-net-cse-december-2012-part-3-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+});

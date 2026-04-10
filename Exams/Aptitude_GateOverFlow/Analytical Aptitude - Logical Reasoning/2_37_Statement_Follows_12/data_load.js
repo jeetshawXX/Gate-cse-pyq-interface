@@ -1,0 +1,186 @@
+window.__examLoadCallback({
+  "title": "Analytical Aptitude - Logical Reasoning - Statement Follows",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Statement Follows",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1128\"></a><div itemprop=\"text\"><p><strong>Each question given below is followed by five statements numbered I, II, III, IV and V. The answer choice given below each question consists of one or more statements. You have to choose the choice which gives more relevant / useful information in answering the question correctly. Read all the statements together with the question and choose your answer.</strong></p>\n\n<p>For what reason Purohit did not get the offer of employment?</p>\n\n<p><strong>Statements:</strong></p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Purohit passed in the interview.</li>\n\t<li>Purohit’s friend passed the medical test who passed the interview along with Purohit.</li>\n\t<li>Purohit’s father did not want him to take the job.</li>\n\t<li>Purohit has another employment offer from another company.</li>\n\t<li>Purohit did not clear the mandatory medical test.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2002 | Question: 145</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>III and IV only</p>",
+            "<p>III, IV and V only</p>",
+            "<p>I, III and IV only</p>",
+            "<p>V only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1128/cat-2002-question-145\" target=\"_blank\">https://aptitude.gateoverflow.in/1128/cat-2002-question-145</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1129\"></a><div itemprop=\"text\"><p><strong>Each question given below is followed by five statements numbered I, II, III, IV and V. The answer choice given below each question consists of one or more statements. You have to choose the choice which gives more relevant / useful information in answering the question correctly. Read all the statements together with the question and choose your answer.</strong></p>\n\n<p>What were the possible reasons for incurring losses by DESCO for the last two years?</p>\n\n<p><strong>Statements:</strong></p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>The company’s shares are not registered in the stock exchange.</li>\n\t<li>The company does not export its products.</li>\n\t<li>The company has inefficient labour force.</li>\n\t<li>The price of its product has fallen in the last two years due to competitive market.</li>\n\t<li>Entry of similar foreign goods at a cheaper rate.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2002 | Question: 146</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only III, IV and V</p>",
+            "<p>Only II, III and IV</p>",
+            "<p>Only IV and V</p>",
+            "<p>Only I and II</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1129/cat-2002-question-146\" target=\"_blank\">https://aptitude.gateoverflow.in/1129/cat-2002-question-146</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1130\"></a><div itemprop=\"text\"><p><strong>Each question given below is followed by five statements numbered I, II, III, IV and V. The answer choice given below each question consists of one or more statements. You have to choose the choice which gives more relevant / useful information in answering the question correctly. Read all the statements together with the question and choose your answer.</strong></p>\n\n<p>On which day of the week did Sunil get his letter of promotion?</p>\n\n<p><strong>Statements:</strong></p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Sunil purchased a new shirt on Friday</li>\n\t<li>Sunil was given a party that Saturday.</li>\n\t<li>Sunil was given the letter of promotion on the day before he purchased the shirt.</li>\n\t<li>Tuesday being his birthday, Sunil gave a party to all his friends.</li>\n\t<li>Sunil’s friend was promoted on Friday.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2002 | Question: 147</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I and II only</p>",
+            "<p>II, III and IV only</p>",
+            "<p>I and III only</p>",
+            "<p>II, III and V only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1130/cat-2002-question-147\" target=\"_blank\">https://aptitude.gateoverflow.in/1130/cat-2002-question-147</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1131\"></a><div itemprop=\"text\"><p><strong>Each question given below is followed by five statements numbered I, II, III, IV and V. The answer choice given below each question consists of one or more statements. You have to choose the choice which gives more relevant / useful information in answering the question correctly. Read all the statements together with the question and choose your answer.</strong></p>\n\n<p>Who among A, B, C, D and E is the heaviest?</p>\n\n<p><strong>Statements:</strong></p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>B and C are heavier than A and D</li>\n\t<li>C is heavier than D</li>\n\t<li>C is heavier than A and lighter than B</li>\n\t<li>E is heavier than B</li>\n\t<li>D is lighter than E.\n\t\n\t</li>\n</ol></div><br><br><b>Logical Reasoning: CAT 2002 | Question: 148</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>I, III and IV only</p>",
+            "<p>II, III and V only</p>",
+            "<p>III and IV only</p>",
+            "<p>I, III and V only</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/1131/cat-2002-question-148\" target=\"_blank\">https://aptitude.gateoverflow.in/1131/cat-2002-question-148</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"5014\"></a><div itemprop=\"text\">Geetanjali Express, which is \\( 250 \\) metre long when moving from Howrah to Tatanagar crosses Subarnarekha bridge in \\( 30 \\) seconds. What is the speed of Geetanjali Express?<br>\n<br>\nStatement I: Bombay Mail, which runs at \\( 60 \\) km/hour crosses the Subranarekha bridge in \\( 30 \\) seconds.<br>\n<br>\nStatements II: Bombay Mail when running at \\( 90 \\) km/hour crosses a lamp post in \\( 10 \\) seconds.</div><br><br><b>Logical Reasoning: CAT 2010 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5014/cat-2010-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/5014/cat-2010-question-20</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"5705\"></a><div itemprop=\"text\"><p>The table below presents the revenue (in million rupees) of four firms in three states. These firms, Honest Ltd., Aggressive Ltd., Truthful Ltd. and Profitable Ltd. are disguised in the table as A, B, C and D, in no particular order.</p>\n\n<p>\\[ \\begin{array}{||l|c|c|c|c|}\\hline \\text{States}&amp;\\text{Firm A}&amp;\\text{Firm B}&amp;\\text{Firm C}&amp;\\text{Firm D}\\\\\\hline \\text{UP}&amp;49&amp;82&amp;80&amp;55\\\\\\hline &nbsp;\\text{Bihar}&amp;69&amp;72&amp;70&amp;65\\\\\\hline&nbsp;\\text{MP}&amp;72&amp;63&amp;72&amp;65\\\\\\hline\\end{array} \\]</p>\n\n<p>Further, it is known that: In the state of MP, Truthful Ltd. has the highest market share. Aggressive Ltd.’s aggregate revenue differs from Honest Ltd.’s by Rs. \\( 5 \\) million.</p>\n\n<p>What can be said regarding the following two statements?</p>\n\n<p>Statement \\( 1 \\): Profitable Ltd. has the lowest share in MP market.</p>\n\n<p>Statement \\( 2 \\): Honest Ltd.’s total revenue is more than Profitable Ltd.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2016 | Question: 63</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>If Statement \\( 1 \\) is true then Statement \\( 2 \\) is necessarily true.</p>",
+            "<p>If Statement \\( 1 \\) is true then Statement \\( 2 \\) is necessarily false.</p>",
+            "<p>Both Statement \\( 1 \\) and Statement \\( 2 \\) are true.</p>",
+            "<p>Neither Statement \\( 1 \\) nor Statement \\( 2 \\) is true.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5705/cat-2016-question-63\" target=\"_blank\">https://aptitude.gateoverflow.in/5705/cat-2016-question-63</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"5704\"></a><div itemprop=\"text\"><p>The table below presents the revenue (in million rupees) of four firms in three states. These firms, Honest Ltd., Aggressive Ltd., Truthful Ltd. and Profitable Ltd. are disguised in the table as A, B, C and D, in no particular order.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|}\\hline \\text{States}&amp;\\text{Firm A}&amp;\\text{Firm B}&amp;\\text{Firm C}&amp;\\text{Firm D}\\\\\\hline \\text{UP}&amp;49&amp;82&amp;80&amp;55\\\\\\hline &nbsp;\\text{Bihar}&amp;69&amp;72&amp;70&amp;65\\\\\\hline&nbsp;\\text{MP}&amp;72&amp;63&amp;72&amp;65\\\\\\hline\\end{array} \\]</p>\n\n<p>Further, it is known that: In the state of MP, Truthful Ltd. has the highest market share. Aggressive Ltd.’s aggregate revenue differs from Honest Ltd.’s by Rs. \\( 5 \\) million.</p>\n\n<p>What can be said regarding the following two statements?</p>\n\n<p>Statement \\( 1 \\): Aggressive Ltd.’s lowest revenues are from MP.</p>\n\n<p>Statement \\( 2 \\): Honest Ltd.’s lowest revenues are from Bihar.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2016 | Question: 64</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>If Statement \\( 2 \\) is true then Statement \\( 1 \\) is necessarily false.</p>",
+            "<p>If Statement \\( 1 \\) is false then Statement \\( 2 \\) is necessarily true.</p>",
+            "<p>If Statement \\( 1 \\) is true then Statement \\( 2 \\) is necessarily true.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5704/cat-2016-question-64\" target=\"_blank\">https://aptitude.gateoverflow.in/5704/cat-2016-question-64</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"5703\"></a><div itemprop=\"text\"><p>The table below presents the revenue (in million rupees) of four firms in three states. These firms, Honest Ltd., Aggressive Ltd., Truthful Ltd. and Profitable Ltd. are disguised in the table as A, B, C and D, in no particular order.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|}\\hline \\text{States}&amp;\\text{Firm A}&amp;\\text{Firm B}&amp;\\text{Firm C}&amp;\\text{Firm D}\\\\\\hline \\text{UP}&amp;49&amp;82&amp;80&amp;55\\\\\\hline &nbsp;\\text{Bihar}&amp;69&amp;72&amp;70&amp;65\\\\\\hline&nbsp;\\text{MP}&amp;72&amp;63&amp;72&amp;65\\\\\\hline\\end{array} \\]</p>\n\n<p>Further, it is known that: In the state of MP, Truthful Ltd. has the highest market share. Aggressive Ltd.’s aggregate revenue differs from Honest Ltd.’s by Rs. \\( 5 \\) million.</p>\n\n<p>What can be said regarding the following two statements?</p>\n\n<p>Statement \\( 1 \\): Honest Ltd. has the highest share in the UP market.</p>\n\n<p>Statement \\( 2 \\): Aggressive Ltd. has the highest share in the Bihar market.</p>\n\n</div><br><br><b>Logical Reasoning: CAT 2016 | Question: 65</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Both statements could be true.</p>",
+            "<p>At least one of the statements must be true.</p>",
+            "<p>At most one of the statements is true.</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5703/cat-2016-question-65\" target=\"_blank\">https://aptitude.gateoverflow.in/5703/cat-2016-question-65</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"6433\"></a><div itemprop=\"text\"><p>Statement: A large number of people in ward \\( X \\) of the city are diagnosed to be suffering from a fatal malaria type.</p>\n\n<p>Courses of Action:&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>The city municipal authority should take immediate steps to carry out extensive fumigation in ward \\( X \\).</li>\n\t<li>The people in the area should be advised to take steps to avoid mosquito bites.</li>\n</ol>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only I&nbsp;follows.</p>",
+            "<p>Only II&nbsp;follows.</p>",
+            "<p>Either I&nbsp;or II&nbsp;follows.</p>",
+            "<p>Both I&nbsp;and II&nbsp;follows.</p>"
+          ],
+          "correct_answer": "<p>Both I&nbsp;and II&nbsp;follows.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6433/nielit-2016-mar-scientist-b-section-a-12\" target=\"_blank\">https://aptitude.gateoverflow.in/6433/nielit-2016-mar-scientist-b-section-a-12</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"6432\"></a><div itemprop=\"text\"><p>Statement: Severe drought is reported to have set in several parts of the country.</p>\n\n<p>Courses of Action:&nbsp;</p>\n\n<ol start=\"1\" style=\"list-style-type:upper-roman\">\n\t<li>Government should immediately make arrangement for providing financial assistance to those affected.</li>\n\t<li>Food, water and fodder should immediately be sent to all these areas to save the people and cattle.</li>\n</ol>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only I&nbsp;follows.</p>",
+            "<p>Only II&nbsp;follows.</p>",
+            "<p>Either I&nbsp;or II&nbsp;follows.</p>",
+            "<p>Neither I nor&nbsp;II&nbsp;follows.</p>"
+          ],
+          "correct_answer": "<p>Only II&nbsp;follows.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6432/nielit-2016-mar-scientist-b-section-a-13\" target=\"_blank\">https://aptitude.gateoverflow.in/6432/nielit-2016-mar-scientist-b-section-a-13</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"6277\"></a><div itemprop=\"text\"><ol style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>During the past year, Jim saw more movies than Sam.</li>\n\t<li>Sam saw fewer movies than Dan.</li>\n\t<li>Dan saw more movies than Jim.</li>\n</ol>\n\n<p>If the first two statements are \\( \\text{true} \\), the third statement is :</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>true</p>",
+            "<p>false</p>",
+            "<p>uncertain</p>",
+            "<p>none</p>"
+          ],
+          "correct_answer": "<p>uncertain</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6277/nielit-2017-dec-scientist-b-section-a-35\" target=\"_blank\">https://aptitude.gateoverflow.in/6277/nielit-2017-dec-scientist-b-section-a-35</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"6341\"></a><div itemprop=\"text\"><ol>\n\t<li>The hotel is two blocks east of the drugstore.</li>\n\t<li>The market is one block west of the hotel.</li>\n\t<li>The drugstore is west of the market.</li>\n</ol>\n\n<p>If the first two statements are true, the third statement is</p>\n\n</div><br><br><b>Logical Reasoning: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>True</p>",
+            "<p>False</p>",
+            "<p>Uncertain</p>",
+            "<p>Insufficient data</p>"
+          ],
+          "correct_answer": "<p>True</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6341/nielit-2017-july-scientist-b-section-a-31\" target=\"_blank\">https://aptitude.gateoverflow.in/6341/nielit-2017-july-scientist-b-section-a-31</a></p>"
+        }
+      ]
+    }
+  ]
+});

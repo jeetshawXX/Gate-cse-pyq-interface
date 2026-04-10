@@ -1,0 +1,26 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - CRC Polynomial",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "CRC Polynomial",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62589\"></a><div itemprop=\"text\"><p>In&nbsp;CRC based design, a CRC Team consists of</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>one or two users representatives</li>\n\t<li>several programmers</li>\n\t<li>project co-ordinators</li>\n\t<li>one or two system analysts\n\t\n\t</li>\n</ol></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2015 | Part 3 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{i&nbsp;and iii} \\)</p>",
+            "<p>\\( \\text{i, ii, iii&nbsp;and iv} \\)</p>",
+            "<p>\\( \\text{i, iii, and iv} \\)</p>",
+            "<p>\\( \\text{i, ii, and iv} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{i, iii, and iv} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62589/ugc-net-cse-december-2015-part-3-question-31\" target=\"_blank\">https://gateoverflow.in/62589/ugc-net-cse-december-2015-part-3-question-31</a></p>"
+        }
+      ]
+    }
+  ]
+}

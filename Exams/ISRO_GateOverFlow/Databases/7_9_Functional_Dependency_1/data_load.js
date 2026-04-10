@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Functional Dependency",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Functional Dependency",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"51174\"></a><div itemprop=\"text\"><p>Let \\( \\text{R = (A, B, C, D, E, F)} \\) be a relation scheme with the following dependencies \\( \\text{C} \\rightarrow&nbsp;\\text{F, E} \\rightarrow&nbsp;\\text{A}, \\text{EC} \\rightarrow&nbsp;\\text{D, A} \\rightarrow&nbsp;\\text{B} \\). Which of the following is a key of \\( \\text{R}? \\)</p>\n\n</div><br><br><b>Databases: ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{CD} \\)</p>",
+            "<p>\\( \\text{EC} \\)</p>",
+            "<p>\\( \\text{AE} \\)</p>",
+            "<p>\\( \\text{AC} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{EC} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/51174/isro2015-20\" target=\"_blank\">https://gateoverflow.in/51174/isro2015-20</a></p>"
+        }
+      ]
+    }
+  ]
+});

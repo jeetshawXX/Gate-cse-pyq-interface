@@ -1,0 +1,356 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Graph_Theory",
+  "duration": 64,
+  "sections": [
+    {
+      "name": "Graph_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>G  is an undirected graph with vertex set {v1, v2, v3, v4, v5, v6, v7} and edge set {v1v2, v1v3, v1v4 ,v2v4, v2v5, v3v4, v4v5, v4v6, v5v6, v6v7 }. A breadth first search of the graph is performed with v1 as the root node. Which of the following is a tree edge? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>v2v4</p>",
+            "<b>B.</b> <p>v1v4</p>",
+            "<b>C.</b> <p>v4v5</p>",
+            "<b>D.</b> <p>v3v4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>v1v4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331350/isro2020-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The number of edges in a regular graph of degree: d and n vertices is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>maximum of n and d</p>",
+            "<b>B.</b> <p>n+d</p>",
+            "<b>C.</b> <p>nd</p>",
+            "<b>D.</b> <p>nd/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>nd/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213550/isro2018-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is application of Breath First Search on the graph? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding diameter of the graph</p>",
+            "<b>B.</b> <p>Finding bipartite graph</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213555/isro2018-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25-isro2008-30-isro2016-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A given connected graph G is a Euler Graph if and only if all vertices of G are of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>same degree</p>",
+            "<b>B.</b> <p>even degree</p>",
+            "<b>C.</b> <p>odd degree</p>",
+            "<b>D.</b> <p>different  degree</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>even degree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55688/isro2016-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A cube of side 1 unit is placed in such a way that the origin coincides with one of its top vertices and the three axes along three of its edges. What are the co-ordinates of the vertex which is diagonally opposite to the vertex whose co-ordinates are (1, 0, 1)? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0, 0, 0)</p>",
+            "<b>B.</b> <p>(0, -1, 0)</p>",
+            "<b>C.</b> <p>(0, 1, 0)</p>",
+            "<b>D.</b> <p>(1, 1, 1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(0, -1, 0)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55078/isro2014-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The conic section that is obtained when a right circular cone is cut through a plane that is parallel to the side of the cone is called _____ <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>parabola</p>",
+            "<b>B.</b> <p>hyperpola</p>",
+            "<b>C.</b> <p>circle</p>",
+            "<b>D.</b> <p>ellipse</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>parabola</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55004/isro2014-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The number of edges in a 'n' vertex complete graph is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n ^{*} (n - 1) / 2\\)</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n ^{*} (n + 1) / 2\\)</p>",
+            "<b>D.</b> <p>\\(n ^{*} (n + 1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(n ^{*} (n - 1) / 2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45671/isro-2013-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>How many diagonals can be drawn by joining the angular points of an octagon? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>21</p>",
+            "<b>D.</b> <p>28</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45661/isro-2013-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>What is the cyclomatic complexity of a module which has seventeen edges and thirteen nodes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45560/isro-2013-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>How many edges are there in a forest with v vertices and k components? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(v+1)-k</p>",
+            "<b>B.</b> <p>(v+1)/2-k</p>",
+            "<b>C.</b> <p>v-k</p>",
+            "<b>D.</b> <p>v+k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>v-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18112/isro2011-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If node A has three siblings and B is parent of A, what is the degree of A? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50582/isro2011-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A simple graph ( a graph without parallel edge or loops) with n vertices and k components can have at most <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n edges</p>",
+            "<b>B.</b> <p>n-k edges</p>",
+            "<b>C.</b> <p>(n-k) (n-k+1) edges</p>",
+            "<b>D.</b> <p>(n-k) (n-k+1)/2 edges</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(n-k) (n-k+1)/2 edges</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50494/isro2009-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In a graph G there is one and only one path between every pair of vertices then G is a <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Path</p>",
+            "<b>B.</b> <p>Walk</p>",
+            "<b>C.</b> <p>Tree</p>",
+            "<b>D.</b> <p>Circuit</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50490/isro2009-55\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A graph in which all nodes are of equal degree, is known as <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Multigraph</p>",
+            "<b>B.</b> <p>Non regular graph</p>",
+            "<b>C.</b> <p>Regular graph</p>",
+            "<b>D.</b> <p>Complete graph</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Regular graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50488/isro2009-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Let G be an arbitrary graph with n nodes and k components. If a vertex is removed from G, the number of components in the resultant graph must necessarily lie down between <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>k and n</p>",
+            "<b>B.</b> <p>k-1 and k+1</p>",
+            "<b>C.</b> <p>k-1 and n-1</p>",
+            "<b>D.</b> <p>k+1 and n-k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>k-1 and n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/899/gate2003-8-isro2009-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>If G is a graph with e edges and n vertices the sum of the degrees of all vertices in G is <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>e</p>",
+            "<b>B.</b> <p>\\(e/2\\)</p>",
+            "<b>C.</b> <p>\\(e^2\\)</p>",
+            "<b>D.</b> <p>2 e</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2 e</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50485/isro2009-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider the graph shown in the figure below:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Graph_Theory\\q78_b62ea598.jpg\"><br>  Which of the following is a valid strong component? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a, c, d</p>",
+            "<b>B.</b> <p>a, b, d</p>",
+            "<b>C.</b> <p>b, c, d</p>",
+            "<b>D.</b> <p>a, b, c</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50146/isro2008-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>The maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25-isro2008-30-isro2016-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>The number of distinct simple graphs with up to three nodes is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Let X be the adjacency matrix of a graph G with no self loops. The entries along the principal diagonal of X are <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>all zeros</p>",
+            "<b>B.</b> <p>all ones</p>",
+            "<b>C.</b> <p>both zeros and ones</p>",
+            "<b>D.</b> <p>different</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>all zeros</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49630/isro2007-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>If a graph requires k different colours for its proper colouring, then the chromatic number of the graph is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>k</p>",
+            "<b>C.</b> <p>k-1</p>",
+            "<b>D.</b> <p>k/2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49477/isro2007-07\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>A graph with n vertices and n-1 edges that is not a tree, is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Connected</p>",
+            "<b>B.</b> <p>Disconnected</p>",
+            "<b>C.</b> <p>Euler</p>",
+            "<b>D.</b> <p>A circuit</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Disconnected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49476/isro2007-06\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

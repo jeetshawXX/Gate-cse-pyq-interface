@@ -1,0 +1,236 @@
+{
+  "title": "General_Aptitude-_CSE - General_Aptitude-_CSE - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "General_Aptitude-_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Six students P, Q, R, S, T and U, with distinct heights, compare their heights and make the following observations.<br><br>\nObservation I: S is taller than R.<br>\nObservation II: Q is the shortest of all.<br>\nObservation III: U is taller than only one student.<br>\nObservation IV: T is taller than S but is not the tallest<br><br>\nThe number of students that are taller than R is the same as the number of students shorter than ____________. <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T</p>",
+            "<b>B.</b> <p>R</p>",
+            "<b>C.</b> <p>S</p>",
+            "<b>D.</b> <p>P</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357540/gate-cse-2021-set-2-ga-question-10#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q64_c2f9b9c0.jpg\"><br>The number of units of a product sold in three different years and the respective net profits are presented in the figure above. The cost/unit in Year 3 was Re. 1, which was half the cost/unit in Year 2. The cost/unit in Year 3 was one-third of the cost/unit in Year 1. Taxes were paid on the selling price at 10%, 13%, and 15% respectively for the three years. Net profit is calculated as the difference between the selling price and teh sum of cost and taxes paid in that year.<br><br>\nThe ratio of the selling price in Year 2 to the selling price in Year 3 is _________. <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>04:03</p>",
+            "<b>B.</b> <p>01:01</p>",
+            "<b>C.</b> <p>03:04</p>",
+            "<b>D.</b> <p>01:02</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>04:03</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357541/gate-cse-2021-set-2-ga-question-9#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number of students in three classes is in the ratio 3:13:6. If 18 students are added to each class, the ratio changes to 15:35:21.\n<br><br>\nThe total number of students in all the three classes in the beginning was: <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>22</p>",
+            "<b>B.</b> <p>66</p>",
+            "<b>C.</b> <p>88</p>",
+            "<b>D.</b> <p>110</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>88</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357542/gate-cse-2021-set-2-ga-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q62a_aa0eca0b.jpg\"><br>A jigsaw puzzle has 2 pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble with the above piece.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q62b_25ea02dd.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357543/gate-cse-2021-set-2-ga-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Listening to music during exercise improves performance and reduces discomfort. Scientists researched whether listening to music while studying can help students learn better and the results were inconclusive. Students who needed external stimulation for studying fared worse while students who did not need any external stimulation benefited from music.<br><br>\nWhich one of the following statements is the CORRECT inference of the above passage? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Listening to music has no effect on learning and a positive effect on physical exercise</p>",
+            "<b>B.</b> <p>Listening to music has a clear positive effect both in physical exercise and on learning</p>",
+            "<b>C.</b> <p>Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students</p>",
+            "<b>D.</b> <p>Listening to music has a clear positive effect on learning in all students. Music has a positive effect only in some students who exercise</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Listening to music has a clear positive effect on physical exercise. Music has a positive effect on learning only in some students</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357544/gate-cse-2021-set-2-ga-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Pen : Write :: Knife :  _______<br><br>\nWhich one of the following options maintains a similar logical relation in the above? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Vegetables</p>",
+            "<b>B.</b> <p>Sharp</p>",
+            "<b>C.</b> <p>Cut</p>",
+            "<b>D.</b> <p>Blunt</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Cut</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357545/gate-cse-2021-set-2-ga-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>If \\(\\left( x - \\dfrac{1}{2} \\right)^2 - \\left( x- \\dfrac{3}{2} \\right) ^2 = x+2\\), then the value of \\(x\\) is: <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357546/gate-cse-2021-set-2-ga-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>If \\(\\theta\\) is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, \\(\\cos \\theta =\\) <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{\\sqrt{3}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{\\sqrt{2}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{\\sqrt{3}}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{\\sqrt{3}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357547/gate-cse-2021-set-2-ga-question-3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q57a_be9e410a.jpg\"><br>A transparent square sheet shown above is folded along the dotted line. The folded sheet will look like ___________<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\General_Aptitude-_CSE\\q57b_4636edfb.jpg\"><br> <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357548/gate-cse-2021-set-2-ga-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Gauri said that she can play the keyboard __________ her sister. <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>as well as</p>",
+            "<b>B.</b> <p>as better as</p>",
+            "<b>C.</b> <p>as nicest as</p>",
+            "<b>D.</b> <p>as worse as</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>as well as</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357549/gate-cse-2021-set-2-ga-question-1#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Some people suggest anti-obesity measures (AOM) such as displaying calorie information in restaurant menus. Such measures sidestep addressing the core problems that cause obesity: poverty and income inequality.<br><br>Which one of the following statements summarizes the passage? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The proposed AOM addresses the core problems that cause obesity</p>",
+            "<b>B.</b> <p>If obesity reduces, poverty will naturally reduce, since obesity causes poverty</p>",
+            "<b>C.</b> <p>AOM are addressing the core problems and are likely to succeed</p>",
+            "<b>D.</b> <p>AOM are addressing the problem superficially</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>AOM are addressing the problem superficially</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357467/gate-cse-2021-set-1-ga-question-10#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Given below are two statements 1 and 2, and two conclusions I and II<br><br>\nStatement 1: All bacteria are microorganisms.<br>\nStatement 2: All pathogens are microorganisms.<br><br>\nConclusion I: Some pathogens are bacteria.<br>\nConclusion II: All pathogens are not bacteria.<br><br>\nBased on the above statements and conclusions, which one of the following options is logically CORRECT? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only conclusion I is correct</p>",
+            "<b>B.</b> <p>Only conclusion II is correct</p>",
+            "<b>C.</b> <p>Either conclusion I or II is correct</p>",
+            "<b>D.</b> <p>Neither conclusion I nor II is correct</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither conclusion I nor II is correct</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357468/gate-cse-2021-set-1-ga-question-9#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>There are five bags each containing identical sets of ten distinct chocolates. One chocolate is picked from each bag.\n<br>\nThe probability that at least two chocolates are identical is _________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.3024</p>",
+            "<b>B.</b> <p>0.4235</p>",
+            "<b>C.</b> <p>0.6976</p>",
+            "<b>D.</b> <p>0.8125</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.6976</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357469/gate-cse-2021-set-1-ga-question-8#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>\\(\\begin{array}{|c|c|c|c|} \\hline \\textbf{Items} &amp; \\textbf{Cost} &amp; \\textbf{Profit \\%} &amp; \\textbf{Marked Price} \\\\ &amp; (Rs.) &amp; &amp; (Rs.) \\\\ \\hline P &amp;5,400 &amp;---&amp;5,860\\\\ \\hline Q&amp;---&amp;25&amp;10,000\\\\ \\hline \\end{array}\\) <br><br>Details of prices of two items P and Q are presented in the above table. The ratio of cost of item P to cost of item Q is 3:4. Discount is calculated as the difference between the marked price and the selling price. The profit percentage is calculated as the ratio of the difference between selling price and cost, to the cost <br>\\((\\text{Profit} \\%=\\dfrac{\\text{Selling price - Cost}}{\\text{Cost}} \\times 100)\\)\n<br>The discount on item Q, as a percentage of its marked price, is _______ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25</p>",
+            "<b>B.</b> <p>12.5</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>We have 2 rectangular sheets of paper, M and N, of dimensions 6 cm x 1 cm each. Sheet M is rolled to form an open cylinder by bringing the short edges of the sheet together. Sheet N is cut into equal square patches and assembled to form the largest possible closed cube. Assuming the ends of the cylinder are closed, the ratio of the volume of the cylinder to that of the cube is _________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{\\pi}{2}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3}{\\pi}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{9}{\\pi}\\)</p>",
+            "<b>D.</b> <p>\\(3 \\pi \\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{9}{\\pi}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357471/gate-cse-2021-set-1-ga-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

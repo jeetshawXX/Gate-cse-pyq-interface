@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Runtime Environment",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Runtime Environment",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1662\"></a><div itemprop=\"text\">\n<p>In a resident – OS computer, which of the following systems must reside in the main memory under all situations?</p>\n\n\n</div><br><br><b>Compiler Design: GATE CSE 1998 | Question: 1.25, ISRO2008</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Assembler</p>",
+            "<p>Linker</p>",
+            "<p>Loader</p>",
+            "<p>Compiler</p>"
+          ],
+          "correct_answer": "<p>Loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1662/gate-cse-1998-question-1-25-isro2008-41\" target=\"_blank\">https://gateoverflow.in/1662/gate-cse-1998-question-1-25-isro2008-41</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,312 @@
+{
+  "title": "Compiler_Design - Lexical_Analysis",
+  "duration": 55,
+  "sections": [
+    {
+      "name": "Lexical_Analysis",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which ONE of the following statements is FALSE regarding the symbol table? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Symbol table is responsible for keeping track of the scope of variables.</p>",
+            "<b>B.</b> <p>Symbol table can be implemented using a binary search tree.</p>",
+            "<b>C.</b> <p>Symbol table is not required after the parsing phase.</p>",
+            "<b>D.</b> <p>Symbol table is created during the lexical analysis phase.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Symbol table is not required after the parsing phase.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460079/gate-cse-2025-set-1-question-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a two-pass assembler, resolution of subroutine calls and inclusion of labels in the symbol table is done during <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Second pass</p>",
+            "<b>B.</b> <p>first pass and second pass respectively</p>",
+            "<b>C.</b> <p>second pass and first pass respectively</p>",
+            "<b>D.</b> <p>first pass</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>first pass</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331377/isro2020-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number of tokens in the following C code segment is<br><pre><code> switch(inputvalue)\n{\n    case 1 : b =c*d; break;\n    default : b =b++; break;\n}</code></pre> <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>27</p>",
+            "<b>B.</b> <p>29</p>",
+            "<b>C.</b> <p>26</p>",
+            "<b>D.</b> <p>24</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>26</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331374/isro2020-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following statements.<br><br>\nI. Symbol table is accessed only during lexical analysis and syntax analysis.<br>\nII. Compilers for programming languages that support recursion necessarily need heap storage for memory allocation in the run-time environment.<br>\nIII. Errors violating the condition 'any variable must be declared before its use' are detected during syntax analysis.<br><br>\nWhich of the above statements is/are TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>None of I, II and III</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of I, II and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333222/gate2020-cs-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A particular BNF definition for a \"word is given by the following rules.<br>&lt; word &gt;      :: =&lt; letter &gt; I &lt; letter &gt; &lt; charpair &gt; I &lt; letter &gt;&lt; intpair &gt;<br>&lt; charpair &gt; :: =&lt; letter &gt;&lt; letter &gt; I &lt; charpair &gt;&lt; letter &gt;&lt; letter &gt;<br>&lt; intpair &gt;    :: = &lt; integer &gt;&lt; integer &gt; I &lt; intpair &gt;&lt; integer &gt;&lt; integer &gt;<br>&lt; letter &gt;      :: = a I b I c I ......I Y I Z<br>&lt; integer &gt;   :: = 0 I 1 I 2 I ......I 9<br>Which of the following lexical entries can be derived from &lt; word &gt;?<br>I.   pick<br>\nII.  picks<br>\nIII. c44<br> <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I, II and III</p>",
+            "<b>B.</b> <p>I and II only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213524/isro2018-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A lexical analyzer uses the following patterns to recognize three tokens  \\(T_{1}, T_{2}, \\; and \\; T_{3} \\) over the alphabet {a,b,c}. <br><br>  \\(T_{1}:a?(b|c)^* a \\) <br> \\(T_{2}:b?(a|c)^* b \\) <br> \\( T_{3}:c?(b|a)^* c\\) <br> <br>Note that 'x?' means 0 or 1 occurrence of the symbol x. Note also that the analyzer outputs the token that matches the longest possible prefix.<br><br>\nIf the string <i>bbaacabc</i> is processed by the analyzer, which one of the following is the\nsequence of tokens it outputs? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T_{1}T_{2}T_{3}\\)</p>",
+            "<b>B.</b> <p>\\(T_{1}T_{1}T_{3}\\)</p>",
+            "<b>C.</b> <p>\\(T_{2}T_{1}T_{3}\\)</p>",
+            "<b>D.</b> <p>\\(T_{3}T_{3}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(T_{3}T_{3}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/204111/gate2018-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The output of  a lexical analyzer is <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A parse tree</p>",
+            "<b>B.</b> <p>Intermediate code</p>",
+            "<b>C.</b> <p>Machine code</p>",
+            "<b>D.</b> <p>A stream of tokens</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A stream of tokens</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128493/isro-2017-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Yacc stands for <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>yet accept compiler constructs</p>",
+            "<b>B.</b> <p>yet accept compiler compiler</p>",
+            "<b>C.</b> <p>yet another compiler constructs</p>",
+            "<b>D.</b> <p>yet another compiler compiler</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>yet another compiler compiler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51209/isro2015-28\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The number of tokens in the following C statement is<br><pre><code> printf(\"i=%d, &amp;i=%x\", i, &amp;i);</code></pre> <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>26</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>21</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/641/gate2000-1-18-isro2015-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A symbol table of length 152 is processing 25 entries at any instant. What is occupation density? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.164</p>",
+            "<b>B.</b> <p>127</p>",
+            "<b>C.</b> <p>8.06</p>",
+            "<b>D.</b> <p>6.08</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>0.164</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/53152/isro2011-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Number of comparisons required for an unsuccessful search of an element in a sequential search organized, fixed length, symbol table of length L is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L</p>",
+            "<b>B.</b> <p>L/2</p>",
+            "<b>C.</b> <p>(L+1)/2</p>",
+            "<b>D.</b> <p>2L</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18148/isro2011-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The lexical analysis for a modern computer language such as Java needs the\npower of which one of the following machine models in a necessary and sufficient\nsense? <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finite state automata</p>",
+            "<b>B.</b> <p>Deterministic pushdown automata</p>",
+            "<b>C.</b> <p>Non-Deterministic pushdown automata</p>",
+            "<b>D.</b> <p>Turing machine</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Finite state automata</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2121/gate2011-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In a compiler, keywords of a language are recognized during <br><br><strong>(GATE CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>parsing of the program</p>",
+            "<b>B.</b> <p>the code generation</p>",
+            "<b>C.</b> <p>the lexical analysis of the program</p>",
+            "<b>D.</b> <p>dataflow analysis</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>the lexical analysis of the program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2103/gate2011-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which data structure in a compiler is used for managing information about\nvariables and their attributes? <br><br><strong>(GATE CSE 2010)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Abstract syntax tree</p>",
+            "<b>B.</b> <p>Symbol table</p>",
+            "<b>C.</b> <p>Semantic stack</p>",
+            "<b>D.</b> <p>Parse table</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symbol table</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2186/gate2010-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number of tokens in the following C statement is<br><pre><code> printf(\"i=%d, &amp;i=%x\", i, &amp;i);</code></pre> <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>26</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>21</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/641/gate2000-1-18-isro2015-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The number of tokens in the FORTRAN statement DO 10 I = 1.25 is <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1492/gate1999-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>The pass numbers for each of the following activities<br>\ni.   object code generation<br>\nii.  literals added to literal table<br>\niii. listing printed<br>\niv.  address resolution of local symbols that occur in a two pass assembler<br>\nrespectively are <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 2, 1, 2</p>",
+            "<b>B.</b> <p>2, 1, 2, 1</p>",
+            "<b>C.</b> <p>2, 1, 1, 2</p>",
+            "<b>D.</b> <p>1, 2, 2, 2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2, 1, 2, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2721/gate1996-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>A simple two-pass assembler does the following in the first pass: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It allocates space for the literals.</p>",
+            "<b>B.</b> <p>It computes the total length of the program.</p>",
+            "<b>C.</b> <p>It builds the symbol table for the symbols and their values.</p>",
+            "<b>D.</b> <p>It generates code for all the load and store register instructions.</p>",
+            "<b>E.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It allocates space for the literals.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2294/gate1993-7-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>In a compiler the module that checks every character of the source text is called: <br><br><strong>(GATE CSE 1988)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The code generator.</p>",
+            "<b>B.</b> <p>The code optimiser.</p>",
+            "<b>C.</b> <p>The lexical analyser.</p>",
+            "<b>D.</b> <p>The syntax analyser.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The lexical analyser.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>In a compiler the module that checks every character of the source text is called: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The code generator.</p>",
+            "<b>B.</b> <p>The code optimiser.</p>",
+            "<b>C.</b> <p>The lexical analyser.</p>",
+            "<b>D.</b> <p>The syntax analyser.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The lexical analyser.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

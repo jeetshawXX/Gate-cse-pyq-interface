@@ -1,0 +1,1948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNJNZQZHLV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RNJNZQZHLV');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo_iit_madras_without_background.png" type="image/x-icon">
+    <title>GATE EXAM </title>
+    <link rel="stylesheet" href="css/exam_style.css?v=2">
+    <link rel="stylesheet" href="css/auth.css?v=1">
+    <link rel="stylesheet" href="css/exam_library_style.css?v=2">
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+            options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'], enableMenu: false },
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Upload Section -->
+    <div id="uploadSection" class="upload-section">
+        <!-- Unified Toolbar -->
+        <div class="home-toolbar">
+            <nav class="home-nav">
+                <a href="analytics.html" class="nav-analytics">📊 Analytics</a>
+                <a href="bookmarks.html" class="nav-bookmarks">📌 Bookmarks</a>
+                <a href="silly_mistakes.html" class="nav-mistakes">🤦 Mistakes</a>
+                <!-- <a href="support.html" class="nav-support">☕ Support</a> -->
+            </nav>
+            <nav class="home-nav">
+                <a href="support.html" class="nav-support">☕ Support</a>
+            </nav>
+            <div class="auth-box" style="
+                margin-left: auto;
+                background: rgba(0,0,0,0.2);
+                padding: 6px 12px;
+                border-radius: 6px;
+                color: white;
+                font-size: 14px;
+                ">
+                    <button onclick="signInWithGoogle()" style="
+                    background: #4285F4;
+                    color: white;
+                    border: none;
+                    padding: 6px 10px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    ">
+                        Login
+                    </button>
+                </div>
+        </div>
+
+        <button class="dark-mode-toggle standalone" id="uploadDarkToggle" title="Toggle Dark Mode">
+            <span class="icon-moon">🌙</span>
+            <span class="icon-sun">☀️</span>
+        </button>
+
+        <div class="home-layout-container">
+            <!-- Left Sidebar -->
+            <div class="home-sidebar">
+                <div class="streak-tracker stat-card">
+                    <div class="stat-card-label">🔥 Daily Streak</div>
+                    <div class="stat-card-value" style="color: #1abc9c;" id="streakCountDisplay">0 Days</div>
+                    <div id="streakCalendarContainer"></div>
+                </div>
+
+                <!-- Daily Notes Panel -->
+                <div class="todo-tracker stat-card"
+                    style="background: rgba(155, 89, 182, 0.1); border: 1px solid rgba(155, 89, 182, 0.3); height: 255px; display: flex; flex-direction: column;">
+                    <div id="todoHeaderLabel" class="stat-card-label"
+                        style="margin-bottom: 12px; letter-spacing: 0.8px; flex-shrink: 0;">
+                        📝 DAILY NOTES
+                    </div>
+                    <!-- Tab Switcher -->
+                    <div class="dn-tab-bar" style="flex-shrink: 0;">
+                        <button class="dn-tab active" id="dnTabTodo" data-tab="todo">☑️ To-Do</button>
+                        <button class="dn-tab" id="dnTabNotes" data-tab="notes">📒 Notes</button>
+                    </div>
+                    <div class="todo-input-group" style="flex-shrink: 0;">
+                        <input type="text" id="todoInput" placeholder="Add a to-do..." autocomplete="off">
+                        <button id="addTodoBtn" title="Add Item">+</button>
+                    </div>
+                    <ul id="todoList" class="todo-list" style="flex-grow: 1; overflow-y: auto;">
+                        <!-- Items will be loaded here -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="home-main-content">
+                <div class="upload-card">
+                    <h1 class="upload-title" style="margin-bottom: 5px;">GATE Exam Interface</h1>
+                    <p class="upload-subtitle">Browse and start any exam from the library below</p>
+
+                    <!-- Exam Library Controls -->
+                    <div class="lib-controls">
+                        <input type="text" id="libSearch" class="lib-search" placeholder="Search exams by name...">
+                        <button class="lib-filter-btn" id="multiSelectToggle" onclick="toggleMultiSelect()"
+                            style="margin-left: auto; background-color: rgba(155, 89, 182, 0.2); border-color: #9b59b6; color: #fff;">✨
+                            Multi-Select Exam</button>
+                        <span class="lib-stats" id="libStats">Loading...</span>
+                        <span class="lib-index-ts" id="indexTimestamp"></span>
+                    </div>
+
+                    <!-- Exam Library Main Content -->
+                    <div class="lib-content" id="libContent"
+                        style="max-height: 400px; overflow-y: auto; margin-bottom: 20px;">
+                        <div class="lib-loading">
+                            <div class="spinner"></div><br>
+                            Loading exam library...
+                        </div>
+                    </div>
+
+                    <!-- Floating Action Bar for Multi-Select -->
+                    <div class="lib-fab" id="multiSelectFab"
+                        style="display: none; position: relative; bottom: auto; left: auto; transform: none; width: 100%; margin-bottom: 20px;">
+                        <div class="fab-info">
+                            <span id="fabSelectedCount">0 exams selected</span>
+                        </div>
+                        <div class="fab-controls">
+                            <label for="fabTotalQuestions"
+                                style="font-size: 14px; font-weight: bold; margin-right: 8px;">Total
+                                Questions:</label>
+                            <input type="number" id="fabTotalQuestions" min="1" max="200" value="30" class="fab-input">
+                            <small id="fabAvailableCount"
+                                style="margin-left: 8px; color: var(--text-secondary); font-size: 12px; display: none;">(Max:
+                                0)</small>
+                        </div>
+                        <button class="fab-generate-btn" id="fabGenerateBtn" onclick="generateCustomExam()">Generate &
+                            Start ▶</button>
+                    </div>
+
+                    <!-- Custom Exam Builder -->
+                    <div class="custom-exam-builder">
+                        <h3>🛠️ Custom Practice Exam</h3>
+                        <p>Generate a mixed exam from your saved questions.</p>
+
+                        <div style="margin-bottom: 12px;">
+                            <label class="custom-input-label" style="margin-bottom: 6px; display: block;">Filter by
+                                Subject 📚</label>
+                            <select id="customSubjectFilter" class="subject-filter-select"
+                                onchange="filterCustomExamBySubject()">
+                                <option value="all">All Subjects</option>
+                            </select>
+                        </div>
+
+                        <div class="custom-inputs-row">
+                            <div class="custom-input-col">
+                                <label class="custom-input-label">From Bookmarks 📌</label>
+                                <input type="number" id="customBkqInput" min="0" max="50" value="5"
+                                    class="custom-num-input">
+                                <small class="avail-text" id="availBkq">Avail: 0</small>
+                            </div>
+                            <div class="custom-input-col">
+                                <label class="custom-input-label">From Mistakes 🤦</label>
+                                <input type="number" id="customSmInput" min="0" max="50" value="5"
+                                    class="custom-num-input">
+                                <small class="avail-text" id="availSm">Avail: 0</small>
+                            </div>
+                        </div>
+
+                        <div style="display: flex; gap: 10px;">
+                            <button id="startCustomExamBtn" class="btn-start custom-exam-btn" style="flex: 1;">
+                                Start Custom Exam ✨
+                            </button>
+                            <!-- <button id="exportCustomExamBtn" class="btn-start custom-exam-btn"
+                                style="flex: 1; background: #34495e;">
+                                Export JSON 📥
+                            </button> -->
+                        </div>
+                    </div>
+
+                    <div id="unfinishedExamActions" class="unfinished-actions" style="display:none;">
+                        <p class="unfinished-text">You have an unfinished exam in progress.</p>
+                        <div class="unfinished-btns">
+                            <button id="resumeExam" class="btn-resume">Resume Exam</button>
+                            <button id="discardExam" class="btn-discard">Discard & Start New</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Sidebar -->
+            <div class="home-sidebar">
+                <div class="gate-countdown stat-card">
+                    <div class="stat-card-label">⏳ GATE 2027 In</div>
+                    <div class="stat-card-value" style="color: #3498db; font-size: 20px;" id="gateCountdownDisplay">
+                        Loading...</div>
+                    <div id="gateCalendarContainer"></div>
+                </div>
+
+                <!-- Subject Accuracy Card -->
+                <div class="subject-accuracy-card stat-card"
+                    style="background: rgba(243, 156, 18, 0.08); border: 1px solid rgba(243, 156, 18, 0.2);">
+                    <div class="stat-card-label" style="margin-bottom: 12px; letter-spacing: 0.8px;">
+                        📈 Subject Accuracy
+                    </div>
+
+                    <div style="position: relative; height: 140px; width: 100%; margin-bottom: 10px;">
+                        <canvas id="subjectAccuracyChartCanvas"></canvas>
+                        <div id="accuracyChartEmptyState"
+                            style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; align-items: center; justify-content: center; text-align: center; color: #888; font-size: 13px; font-weight: 500; padding: 10px;">
+                            Take exams to see your subject-wise accuracy here!
+                        </div>
+                    </div>
+
+                    <div id="accuracyMotivationalMsg"
+                        style="text-align: center; font-size: 12px; font-weight: 600; line-height: 1.4; padding: 8px 6px; border-radius: 6px; background: rgba(0,0,0,0.03);">
+                        Loading insights...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Test History Section (Moved out of layout container for full width) -->
+        <div id="historySection" class="history-section"
+            style="display: none; width: 100%; max-width: 1200px; margin: 30px auto 0;">
+            <h2 class="history-title">📋 Test History</h2>
+
+            <!-- Progress Over Time Chart -->
+            <div
+                style="margin-bottom: 25px; padding: 15px; background: var(--card-bg); border-radius: 8px; border: 1px solid var(--border-color);">
+                <canvas id="historyProgressChart" style="height: 250px; width: 100%;"></canvas>
+            </div>
+
+            <div class="history-controls">
+                <input type="text" id="historySearch" placeholder="Search exams by title..." class="history-search"
+                    oninput="renderHistoryTable()">
+                <select id="historySubjectFilter" class="subject-filter-select history-sort"
+                    onchange="renderHistoryTable()">
+                    <option value="all">All Subjects</option>
+                </select>
+                <select id="historySort" class="history-sort" onchange="renderHistoryTable()">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="score_high">Highest Score</option>
+                    <option value="score_low">Lowest Score</option>
+                </select>
+            </div>
+            <div class="history-table-wrapper">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Exam Title</th>
+                            <th>Date</th>
+                            <th>Percentage</th>
+                            <th>Marks</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyBody">
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination Controls -->
+            <div id="historyPagination" class="history-pagination"
+                style="display: none; justify-content: center; align-items: center; margin-top: 15px; gap: 15px;">
+                <button id="prevHistoryPage" class="btn-cancel" onclick="changeHistoryPage(-1)"
+                    style="padding: 5px 15px; cursor: pointer;">Previous</button>
+                <span id="historyPageInfo" style="font-weight: bold;">Page 1 of 1</span>
+                <button id="nextHistoryPage" class="btn-confirm" onclick="changeHistoryPage(1)"
+                    style="padding: 5px 15px; cursor: pointer;">Next</button>
+            </div>
+        </div>
+    </div> <!-- End of uploadSection -->
+
+    <!-- Exam Section -->
+    <div id="examSection" class="gate-exam-root" style="display: none;">
+
+        <!-- 1. Top Header - GATE Branding -->
+        <div class="gate-top">
+            <div class="gate-iit-org-logo">
+                <img src="images/logo_iit_madras_without_background.png" alt="IIT Madras Logo">
+            </div>
+            <div class="gate-iit-org-name">
+                <h1>GRADUATE APTITUDE TEST IN ENGINEERING (GATE 2027)</h1>
+                <p>Organizing Institute: INDIAN INSTITUTE OF TECHNOLOGY MADRAS</p>
+            </div>
+            <div class="gate-iit-goal">
+                <img src="images/bombayTheGoal.png" alt="The Goal">
+            </div>
+        </div>
+
+        <!-- 2. Instructions / Question Paper Bar -->
+        <div class="gate-ins-ques">
+            <div class="gate-test-name">
+                <p id="examTitle">GATE Exam</p>
+            </div>
+            <div class="gate-ins-ques-btn">
+                <a href="#">
+                    <div class="gate-info-icon-sprite"></div>
+                    Instructions
+                </a>
+                <a href="#" id="viewQuestionPaperBtn">
+                    <div class="gate-question-icon-sprite"></div>
+                    Question Paper
+                </a>
+            </div>
+        </div>
+
+        <!-- 3. Workspace -->
+        <div class="gate-workspace">
+            <div class="gate-workspace-top">
+                <div class="gate-top-left">
+                    <div class="gate-calc-section">
+                        <div class="gate-exam-name-con">
+                            <div class="gate-left-arrow-sprite"></div>
+                            <div class="gate-exam-name-pill">
+                                <p id="currentSectionPill">Section</p>
+                                <div class="gate-info-icon-wrapper">
+                                    <div class="gate-info-icon-sprite gate-tab-icon"></div>
+                                    <div class="gate-info-dropdown" id="gateExamInfoDropdown">
+                                        <div class="gate-info-title" id="gateInfoDropdownTitle">Overall</div>
+                                        <div class="gate-info-row">
+                                            <div class="gate-sprite-shape gate-status-answered-small"
+                                                id="legendAnswered">0</div> Answered
+                                        </div>
+                                        <div class="gate-info-row">
+                                            <div class="gate-sprite-shape gate-status-not-answered-small"
+                                                id="legendNotAnswered">0</div> Not Answered
+                                        </div>
+                                        <div class="gate-info-row">
+                                            <div class="gate-sprite-shape gate-status-not-visited-small"
+                                                id="legendNotVisited">0</div> Not Visited
+                                        </div>
+                                        <div class="gate-info-row">
+                                            <div class="gate-sprite-shape gate-status-review-small" id="legendMarked">0
+                                            </div> Marked for Review
+                                        </div>
+                                        <div class="gate-info-row">
+                                            <div class="gate-sprite-shape gate-status-answered-review-small"
+                                                id="legendMarkedAnswered">0</div> Answered & Marked for Review
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gate-calc-icon-con">
+                            <div class="gate-right-arrow-sprite"></div>
+                            <a href="javascript:void(0)" class="gate-calc-tooltip-trigger" data-tooltip="Calculator"
+                                id="calculatorBtn">
+                                <div class="gate-calc-icon"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="gate-time-left-sec">
+                        <p>Sections</p>
+                        <p>Time Left : <span id="timeDisplay" style="font-weight: bold;">00:00:00</span></p>
+                    </div>
+
+                    <div class="gate-section-tabs-container">
+                        <div class="gate-section-nav-arrow">
+                            <div class="gate-left-arrow-sprite"></div>
+                        </div>
+                        <div class="gate-tabs-left" id="sectionTabs">
+                            <!-- Section tabs dynamically loaded here -->
+                        </div>
+                        <div class="gate-section-nav-arrow">
+                            <div class="gate-right-arrow-sprite"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gate-top-right">
+                    <div class="gate-prof-can-name-con">
+                        <div class="gate-profile-pic">
+                            <img src="images/NewCandidateImage.jpg" alt="Candidate" width="60">
+                        </div>
+                        <div class="gate-candidate-name" id="candidateNameSidebar">
+                            AIR 1
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gate-workspace-bottom">
+
+                <div class="gate-ques-section">
+                    <div class="gate-question-header">
+                        <span class="gate-q-type">Question Type: <strong id="questionType">MCQ</strong></span>
+                        <span class="gate-q-marks">Marks for correct answer: <span class="gate-pos-marks"
+                                id="questionMarks">1</span> | Negative Marks: <span class="gate-neg-marks"
+                                id="questionNegMarks">0.33</span></span>
+                    </div>
+
+                    <div class="gate-question-area-wrapper">
+                        <div class="gate-question-content-box">
+                            <div class="gate-question-number-header">
+                                <b>Question No. <span id="questionNumber">1</span></b>
+                                <img src="images/Down.png" class="gate-scroll-btn gate-scroll-down-btn"
+                                    id="gate-scroll-down" onclick="gateScrollToBottom()" alt="Down">
+                            </div>
+
+                            <div class="gate-question-scroll-body" id="gate-question-container"
+                                onscroll="gateCheckScroll()">
+                                <div class="gate-question-text" id="questionText">
+                                    Loading question...
+                                </div>
+
+                                <div class="gate-options" id="optionsContainer">
+                                    <!-- Options loaded here -->
+                                </div>
+                            </div>
+
+                            <img src="images/Up.png" class="gate-scroll-btn gate-scroll-up-btn" id="gate-scroll-up"
+                                onclick="gateScrollToTop()" alt="Up">
+                        </div>
+
+                        <div class="gate-sidebar-toggle close" onclick="gateToggleSidebar()">
+                        </div>
+                    </div>
+
+                    <div class="gate-question-footer">
+                        <div class="gate-footer-left">
+                            <button class="gate-footer-btn" id="markReview">Mark for Review & Next</button>
+                            <button class="gate-footer-btn" id="clearResponse">Clear Response</button>
+                        </div>
+                        <div class="gate-footer-right">
+                            <button class="gate-footer-btn" id="previousBtn">Previous</button>
+                            <button class="gate-footer-btn gate-btn-primary" id="saveNext">Save & Next</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gate-right-panel" id="gate-right-panel">
+                    <div class="gate-status-legend">
+                        <div class="gate-legend-row">
+                            <div class="gate-legend-item">
+                                <div class="gate-sprite-shape gate-status-answered-small" id="legendAnsweredPanel">0
+                                </div>
+                                <span>Answered</span>
+                            </div>
+                            <div class="gate-legend-item">
+                                <div class="gate-sprite-shape gate-status-not-answered-small"
+                                    id="legendNotAnsweredPanel">0</div>
+                                <span>Not Answered</span>
+                            </div>
+                        </div>
+                        <div class="gate-legend-row">
+                            <div class="gate-legend-item">
+                                <div class="gate-sprite-shape gate-status-not-visited-small" id="legendNotVisitedPanel">
+                                    0</div>
+                                <span>Not Visited</span>
+                            </div>
+                            <div class="gate-legend-item">
+                                <div class="gate-sprite-shape gate-status-review-small" id="legendMarkedPanel">0</div>
+                                <span>Marked for Review</span>
+                            </div>
+                        </div>
+                        <div class="gate-legend-row">
+                            <div class="gate-legend-item gate-full-width">
+                                <div class="gate-sprite-shape gate-status-answered-review-small"
+                                    id="legendMarkedAnsweredPanel">0</div>
+                                <span>Answered & Marked for Review (will also be evaluated)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gate-palette-header" id="paletteHeader">
+                        Section
+                    </div>
+
+                    <div class="gate-palette-container">
+                        <p class="gate-choose-q-text">Choose a Question</p>
+                        <div class="gate-question-grid" id="questionPalette">
+                            <!-- Question palette loaded here -->
+                        </div>
+                    </div>
+
+                    <div class="gate-submit-container">
+                        <button class="gate-submit-btn" id="submitBtn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gate-version-bar">Version : 17.07.00</div>
+
+        <!-- Calculator Modal (Draggable) -->
+        <div id="calculator-modal" class="gate-calc-modal">
+            <div class="gate-calc-header" id="calc-header">
+                <span class="gate-calc-title">Scientific Calculator</span>
+                <div class="gate-calc-controls">
+                    <button class="gate-calc-help-btn" id="calcHelpBtn">Help</button>
+                    <button class="gate-calc-window-btn" id="calcMinimizeBtn" title="minimize">—</button>
+                    <button class="gate-calc-window-btn" id="calcCloseBtn" title="close">×</button>
+                </div>
+            </div>
+            <div class="gate-calc-body" id="calcBody">
+                <iframe src="Calculator/Calculator.html" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submit Confirmation Modal -->
+    <div id="submitModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">Submit Confirmation</div>
+            <p>Are you sure you want to submit the test?</p>
+
+            <div class="summary-grid" id="summaryGrid">
+            </div>
+
+            <div class="modal-buttons">
+                <button class="btn btn-cancel" id="cancelSubmit">Cancel</button>
+                <button class="btn btn-confirm" id="confirmSubmit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        function copyPromptText(btn) {
+            const pre = btn.closest('.pre-wrapper').querySelector('pre');
+            const text = pre.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const span = btn.querySelector('span');
+                const originalText = span.textContent;
+                span.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    span.textContent = originalText;
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+    </script>
+
+    <!-- Exam Library Dependencies -->
+    <script src="js/subject_detector.js"></script>
+    <script src="js/db.js"></script>
+    
+    <script src="js/gate_auth.js"></script>
+
+    <script src="exam_index.js"></script>
+    <script src="js/exam_library_script.js"></script>
+
+    <!-- GATE Interface JS: Calculator, Sidebar Toggle, Scroll Arrows -->
+    <script>
+        // Calculator Toggle & Drag
+        function gateToggleCalculator() {
+            const calcModal = document.getElementById('calculator-modal');
+            if (calcModal.style.display === 'none' || calcModal.style.display === '') {
+                calcModal.style.display = 'block';
+            } else {
+                calcModal.style.display = 'none';
+            }
+        }
+
+        // Make calculator modal draggable
+        document.addEventListener('DOMContentLoaded', function () {
+            const elmnt = document.getElementById('calculator-modal');
+            const header = document.getElementById('calc-header');
+            if (!elmnt || !header) return;
+
+            var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+            header.onmousedown = function (e) {
+                e = e || window.event;
+                e.preventDefault();
+                pos3 = e.clientX;
+                pos4 = e.clientY;
+                document.onmouseup = function () {
+                    document.onmouseup = null;
+                    document.onmousemove = null;
+                };
+                document.onmousemove = function (e) {
+                    e = e || window.event;
+                    e.preventDefault();
+                    pos1 = pos3 - e.clientX;
+                    pos2 = pos4 - e.clientY;
+                    pos3 = e.clientX;
+                    pos4 = e.clientY;
+                    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+                    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+                    elmnt.style.right = 'auto';
+                };
+            };
+        });
+
+        // Sidebar Toggle
+        function gateToggleSidebar() {
+            const rightPanel = document.getElementById('gate-right-panel');
+            const sidebarToggle = document.querySelector('.gate-sidebar-toggle');
+
+            if (rightPanel.style.display !== 'none') {
+                rightPanel.style.display = 'none';
+                sidebarToggle.classList.remove('close');
+                sidebarToggle.classList.add('open');
+            } else {
+                rightPanel.style.display = 'flex';
+                sidebarToggle.classList.remove('open');
+                sidebarToggle.classList.add('close');
+            }
+            setTimeout(gateCheckScroll, 50);
+        }
+
+        // Scroll Arrow Logic
+        function gateCheckScroll() {
+            const container = document.getElementById('gate-question-container');
+            const upBtn = document.getElementById('gate-scroll-up');
+            const downBtn = document.getElementById('gate-scroll-down');
+
+            if (!container) return;
+
+            const isScrollable = container.scrollHeight > container.clientHeight + 2;
+
+            if (isScrollable) {
+                const isAtTop = container.scrollTop === 0;
+                const isAtBottom = Math.ceil(container.scrollTop + container.clientHeight) >= container.scrollHeight - 2;
+
+                if (isAtTop) {
+                    downBtn.style.display = 'block';
+                    upBtn.style.display = 'none';
+                } else if (isAtBottom) {
+                    downBtn.style.display = 'none';
+                    upBtn.style.display = 'block';
+                } else {
+                    downBtn.style.display = 'block';
+                    upBtn.style.display = 'block';
+                }
+            } else {
+                downBtn.style.display = 'none';
+                upBtn.style.display = 'none';
+            }
+        }
+
+        function gateScrollToBottom() {
+            const container = document.getElementById('gate-question-container');
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function gateScrollToTop() {
+            const container = document.getElementById('gate-question-container');
+            container.scrollTop = 0;
+        }
+    </script>
+
+    <script src="js/exam_script.js"></script>
+    <script>
+        // Load test history on page load
+        (async function () {
+            try {
+                await initDB();
+                await loadHistory();
+                initHomeFeatures();
+
+                initTodos();
+                // loadStorageUsage();
+
+                if (typeof loadSubjectAccuracyChart === 'function') {
+                    loadSubjectAccuracyChart(allExams);
+                }
+            } catch (e) {
+                console.warn('Could not load history:', e);
+            }
+        })();
+
+        // // Load and display storage usage
+        // async function loadStorageUsage() {
+        //     try {
+        //         const usage = await getStorageUsage();
+        //         const el = document.getElementById('storageUsageValue');
+        //         if (el) {
+        //             el.textContent = formatStorageSize(usage.used) + ' used';
+        //             // Color code based on size
+        //             const parent = el.parentElement;
+        //             if (usage.used > 500 * 1024 * 1024) parent.style.color = '#e74c3c'; // > 500MB: red
+        //             else if (usage.used > 100 * 1024 * 1024) parent.style.color = '#e67e22'; // > 100MB: orange
+        //             else parent.style.color = '#27ae60'; // green
+        //         }
+        //     } catch (e) {
+        //         console.warn('Could not load storage usage:', e);
+        //     }
+        // }
+        // Load and display storage usage
+        async function loadStorageUsage() {
+            try {
+                const usage = await getStorageUsage();
+                const el = document.getElementById('storageUsageValue');
+                if (el) {
+                    el.textContent = formatStorageSize(usage.used) + ' used';
+                    // Color code based on size
+                    const parent = el.parentElement;
+                    if (usage.used > 500 * 1024 * 1024) parent.style.color = '#e74c3c'; // > 500MB: red
+                    else if (usage.used > 100 * 1024 * 1024) parent.style.color = '#e67e22'; // > 100MB: orange
+                    else parent.style.color = '#27ae60'; // green
+                }
+            } catch (e) {
+                console.warn('Could not load storage usage:', e);
+            }
+        }
+
+        let allExams = [];
+
+        // Populate subject filter dropdowns using GATE_SUBJECTS from subject_detector.js
+        function populateSubjectDropdowns() {
+            if (typeof GATE_SUBJECTS === 'undefined') return;
+            const dropdowns = [document.getElementById('customSubjectFilter'), document.getElementById('historySubjectFilter')];
+            dropdowns.forEach(sel => {
+                if (!sel) return;
+                GATE_SUBJECTS.forEach(s => {
+                    const opt = document.createElement('option');
+                    opt.value = s.id;
+                    opt.textContent = `${s.icon} ${s.name}`;
+                    sel.appendChild(opt);
+                });
+                // Add "Mixed / Other" option
+                const mixedOpt = document.createElement('option');
+                mixedOpt.value = 'mixed';
+                mixedOpt.textContent = '🎲 Mixed / Other';
+                sel.appendChild(mixedOpt);
+            });
+        }
+        populateSubjectDropdowns();
+
+        async function loadHistory() {
+            allExams = await getExamHistory();
+            renderHistoryTable();
+        }
+
+        // Global variable to track the currently selected date for the To-Do list
+        // Defaults to today's date in YYYY-MM-DD format
+        let currentTodoDate = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}-${String(new Date().getDate()).padStart(2, '0')}`;
+        let currentDnTab = 'todo'; // 'todo' or 'notes'
+
+        // Initialize To-Dos
+        async function initTodos() {
+            try {
+                await initDB();
+                await renderTodoList();
+
+                document.getElementById('addTodoBtn').addEventListener('click', handleAddTodo);
+                document.getElementById('todoInput').addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') handleAddTodo();
+                });
+
+                // Tab switching
+                document.querySelectorAll('.dn-tab').forEach(tab => {
+                    tab.addEventListener('click', () => {
+                        document.querySelectorAll('.dn-tab').forEach(t => t.classList.remove('active'));
+                        tab.classList.add('active');
+                        currentDnTab = tab.getAttribute('data-tab');
+
+                        // Update placeholder
+                        const input = document.getElementById('todoInput');
+                        input.placeholder = currentDnTab === 'todo' ? 'Add a to-do...' : 'Add a note...';
+                        input.focus();
+
+                        renderTodoList();
+                    });
+                });
+            } catch (e) {
+                console.warn('Could not load To-Dos:', e);
+            }
+        }
+
+        // Expose function for the Streak Calendar to call when a date is clicked
+        window.selectTodoDate = async function (dateStr) {
+            currentTodoDate = dateStr;
+
+            // Format for display
+            const d = new Date(dateStr);
+            const displayTitle = d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+
+            // If today, label it "Daily Notes", else specific date
+            const todayStr = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}-${String(new Date().getDate()).padStart(2, '0')}`;
+            const headerLabel = document.getElementById('todoHeaderLabel');
+            if (dateStr === todayStr) {
+                headerLabel.textContent = "📝 DAILY NOTES";
+            } else {
+                headerLabel.textContent = `📝 Notes: ${displayTitle}`;
+            }
+
+            // Animate refresh
+            const listEl = document.getElementById('todoList');
+            if (listEl) {
+                listEl.style.opacity = '0.5';
+                await renderTodoList();
+                listEl.style.opacity = '1';
+            }
+        };
+
+        async function renderTodoList() {
+            const listEl = document.getElementById('todoList');
+            if (!listEl) return;
+
+            try {
+                // Fetch all items for this date then filter by current tab type
+                const allItems = await getTodosByDate(currentTodoDate);
+                const filterType = currentDnTab === 'notes' ? 'note' : 'todo';
+                const items = allItems.filter(item => {
+                    const itemType = item.type || 'todo'; // backward compat: old items default to 'todo'
+                    return itemType === filterType;
+                });
+
+                if (items.length === 0) {
+                    const emptyMsg = currentDnTab === 'todo'
+                        ? 'No to-dos for today. Add one above!'
+                        : 'No notes for today. Add one above!';
+                    listEl.innerHTML = `<div class="todo-empty-state">${emptyMsg}</div>`;
+                    return;
+                }
+
+                items.sort((a, b) => new Date(a.dateCreated) - new Date(b.dateCreated));
+
+                if (currentDnTab === 'todo') {
+                    // To-Do mode: checkboxes + edit + delete
+                    listEl.innerHTML = items.map(todo => `
+                        <li class="todo-item ${todo.completed ? 'completed' : ''}" data-id="${todo.id}">
+                            <div class="todo-content">
+                                <input type="checkbox" class="todo-checkbox" ${todo.completed ? 'checked' : ''} onchange="handleToggleTodo(${todo.id}, this.checked)">
+                                <span class="todo-text">${escapeHtml(todo.text)}</span>
+                            </div>
+                            <div class="todo-actions">
+                                <button class="todo-edit-btn" onclick="handleEditTodo(${todo.id})" title="Edit">✏️</button>
+                                <button class="todo-delete-btn" onclick="handleDeleteTodo(${todo.id})" title="Delete">&#10005;</button>
+                            </div>
+                        </li>
+                    `).join('');
+                } else {
+                    // Notes mode: bullet points + edit + delete
+                    listEl.innerHTML = items.map(note => `
+                        <li class="todo-item" data-id="${note.id}">
+                            <div class="todo-content">
+                                <span class="note-bullet"></span>
+                                <span class="todo-text">${escapeHtml(note.text)}</span>
+                            </div>
+                            <div class="todo-actions">
+                                <button class="todo-edit-btn" onclick="handleEditTodo(${note.id})" title="Edit">✏️</button>
+                                <button class="todo-delete-btn" onclick="handleDeleteTodo(${note.id})" title="Delete">&#10005;</button>
+                            </div>
+                        </li>
+                    `).join('');
+                }
+
+            } catch (e) {
+                console.error("Error rendering todos:", e);
+                listEl.innerHTML = '<div class="todo-empty-state" style="color:#e74c3c;">Failed to load items.</div>';
+            }
+        }
+
+        // Inline edit: replaces text with an input field
+        window.handleEditTodo = function (id) {
+            const li = document.querySelector(`.todo-item[data-id="${id}"]`);
+            if (!li) return;
+            const textSpan = li.querySelector('.todo-text');
+            const oldText = textSpan.textContent;
+
+            // Create inline input
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = oldText;
+            input.className = 'todo-edit-input';
+
+            // Replace span with input
+            textSpan.replaceWith(input);
+            input.focus();
+            input.select();
+
+            // Hide edit button while editing
+            const editBtn = li.querySelector('.todo-edit-btn');
+            if (editBtn) editBtn.style.display = 'none';
+
+            const save = async () => {
+                const newText = input.value.trim();
+                if (newText && newText !== oldText) {
+                    try {
+                        await updateTodoTextInDB(id, newText);
+                    } catch (e) {
+                        console.error("Error updating todo:", e);
+                    }
+                }
+                await renderTodoList();
+            };
+
+            input.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') { e.preventDefault(); save(); }
+                if (e.key === 'Escape') { renderTodoList(); }
+            });
+            input.addEventListener('blur', save);
+        };
+
+        async function handleAddTodo() {
+            const input = document.getElementById('todoInput');
+            const text = input.value.trim();
+            if (!text) return;
+
+            try {
+                input.value = '';
+                await saveTodoToDB(text, currentTodoDate, currentDnTab === 'notes' ? 'note' : 'todo');
+                await renderTodoList();
+                // Refresh calendar to show the dot marker if this was the first task
+                if (typeof loadCalendar === 'function') loadCalendar();
+            } catch (e) {
+                console.error("Error adding todo:", e);
+            }
+        }
+
+        window.handleToggleTodo = async function (id, completed) {
+            try {
+                await toggleTodoInDB(id, completed);
+                await renderTodoList();
+            } catch (e) {
+                console.error("Error toggling todo:", e);
+            }
+        };
+
+        window.handleDeleteTodo = async function (id) {
+            try {
+                await removeTodoFromDB(id);
+                await renderTodoList();
+                // Refresh calendar to potentially remove the dot marker
+                if (typeof loadCalendar === 'function') loadCalendar();
+            } catch (e) {
+                console.error("Error deleting todo:", e);
+            }
+        };
+
+        function escapeHtml(unsafe) {
+            return (unsafe || '').toString()
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        let currentHistoryPage = 1;
+        const historyItemsPerPage = 10;
+
+        function changeHistoryPage(direction) {
+            currentHistoryPage += direction;
+            renderHistoryTable(false);
+
+            // Optionally scroll to top of history section
+            const section = document.getElementById('historySection');
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        function renderHistoryTable(resetPage = true) {
+            if (resetPage) {
+                currentHistoryPage = 1;
+            }
+
+            const section = document.getElementById('historySection');
+            const tbody = document.getElementById('historyBody');
+
+            if (allExams.length === 0) {
+                section.style.display = 'none';
+                return;
+            }
+
+            section.style.display = 'block';
+
+            const searchInput = document.getElementById('historySearch');
+            const sortSelect = document.getElementById('historySort');
+
+            const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+            const sortBy = sortSelect ? sortSelect.value : 'newest';
+
+            // Subject filter
+            const subjectFilterEl = document.getElementById('historySubjectFilter');
+            const subjectFilter = subjectFilterEl ? subjectFilterEl.value : 'all';
+
+            let filtered = allExams.filter(exam => {
+                // Text search filter
+                if (!exam.title.toLowerCase().includes(searchTerm)) return false;
+                // Subject filter
+                if (subjectFilter !== 'all') {
+                    const detected = (typeof detectSubject === 'function') ? detectSubject(exam.title) : null;
+                    if (subjectFilter === 'mixed') {
+                        if (detected !== null) return false; // "mixed" means undetected subject
+                    } else {
+                        if (!detected || detected.id !== subjectFilter) return false;
+                    }
+                }
+                return true;
+            });
+
+            filtered.sort((a, b) => {
+                if (sortBy === 'newest') return new Date(b.date) - new Date(a.date);
+                if (sortBy === 'oldest') return new Date(a.date) - new Date(b.date);
+
+                // Use the exact same percentage formula as the display table
+                const scoreA = parseFloat(a.max_marks) > 0 ? (parseFloat(a.total_marks) / parseFloat(a.max_marks)) * 100 : 0;
+                const scoreB = parseFloat(b.max_marks) > 0 ? (parseFloat(b.total_marks) / parseFloat(b.max_marks)) * 100 : 0;
+
+                if (sortBy === 'score_high') return scoreB - scoreA;
+                if (sortBy === 'score_low') return scoreA - scoreB;
+
+                return 0;
+            });
+
+            const paginationDiv = document.getElementById('historyPagination');
+
+            if (filtered.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding: 20px;">No matching exams found.</td></tr>';
+                if (paginationDiv) paginationDiv.style.display = 'none';
+                return;
+            }
+
+            const totalPages = Math.ceil(filtered.length / historyItemsPerPage);
+            if (currentHistoryPage > totalPages) currentHistoryPage = totalPages;
+            if (currentHistoryPage < 1) currentHistoryPage = 1;
+
+            const startIndex = (currentHistoryPage - 1) * historyItemsPerPage;
+            const endIndex = startIndex + historyItemsPerPage;
+            const paginatedExams = filtered.slice(startIndex, endIndex);
+
+            tbody.innerHTML = paginatedExams.map((exam, i) => {
+                const actualIndex = startIndex + i + 1;
+                const date = new Date(exam.date).toLocaleDateString('en-IN', {
+                    day: '2-digit', month: 'short', year: 'numeric',
+                    hour: '2-digit', minute: '2-digit'
+                });
+                const percentage = parseFloat(exam.max_marks) > 0
+                    ? ((parseFloat(exam.total_marks) / parseFloat(exam.max_marks)) * 100).toFixed(2)
+                    : '0.00';
+
+                let scoreText = `${percentage}%`;
+                if (isNaN(percentage)) scoreText = '0.00%';
+
+                const marks = `${parseFloat(exam.total_marks).toFixed(2)}/${exam.max_marks}`;
+                return `
+                    <tr>
+                        <td>${actualIndex}</td>
+                        <td class="hist-title">${exam.title}</td>
+                        <td>${date}</td>
+                        <td><span class="hist-score">${scoreText}</span></td>
+                        <td><span class="hist-marks">${marks}</span></td>
+                        <td class="hist-actions">
+                            <button class="btn-hist btn-view" onclick="viewExam(${exam.id})">View</button>
+                            <button class="btn-hist btn-delete" onclick="deleteExamEntry(${exam.id})">Delete</button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+
+            // Update Pagination Controls
+            if (paginationDiv) {
+                if (totalPages > 1) {
+                    paginationDiv.style.display = 'flex';
+                    document.getElementById('historyPageInfo').textContent = `Page ${currentHistoryPage} of ${totalPages}`;
+
+                    const prevBtn = document.getElementById('prevHistoryPage');
+                    const nextBtn = document.getElementById('nextHistoryPage');
+
+                    prevBtn.disabled = currentHistoryPage === 1;
+                    prevBtn.style.opacity = currentHistoryPage === 1 ? '0.5' : '1';
+                    prevBtn.style.cursor = currentHistoryPage === 1 ? 'not-allowed' : 'pointer';
+
+                    nextBtn.disabled = currentHistoryPage === totalPages;
+                    nextBtn.style.opacity = currentHistoryPage === totalPages ? '0.5' : '1';
+                    nextBtn.style.cursor = currentHistoryPage === totalPages ? 'not-allowed' : 'pointer';
+                } else {
+                    paginationDiv.style.display = 'none';
+                }
+            }
+
+            // Render Chart
+            renderHistoryChart(filtered);
+        }
+
+        function renderHistoryChart(exams) {
+            const ctx = document.getElementById('historyProgressChart');
+            if (!ctx || exams.length === 0) return;
+
+            if (window.historyChart) {
+                window.historyChart.destroy();
+            }
+
+            // We need to sort chronologically for the chart, even if the table is sorted differently
+            const chronologicalExams = [...exams].sort((a, b) => new Date(a.date) - new Date(b.date));
+            const recentExams = chronologicalExams; // Show all for readability
+
+            const labels = recentExams.map(e => {
+                const d = new Date(e.date);
+                return `${d.getDate()}/${d.getMonth() + 1}`;
+            });
+
+            const dataPoints = recentExams.map(e =>
+                parseFloat(e.max_marks) > 0 ? ((parseFloat(e.total_marks) / parseFloat(e.max_marks)) * 100).toFixed(1) : 0
+            );
+
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            const textColor = isDark ? '#d8d8e4' : '#333';
+            const gridColor = isDark ? '#333' : '#ddd';
+
+            window.historyChart = new Chart(ctx.getContext('2d'), {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Score %',
+                        data: dataPoints,
+                        borderColor: '#95a5a6',
+                        backgroundColor: 'rgba(149, 165, 166, 0.2)',
+                        borderWidth: 2,
+                        tension: 0.3,
+                        fill: true,
+                        pointBackgroundColor: '#7f8c8d',
+                        pointRadius: 5,
+                        pointHoverRadius: 8,
+                        pointHoverBackgroundColor: '#3498db',
+                        pointHoverBorderColor: '#fff',
+                        pointHoverBorderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    onHover: (event, elements) => {
+                        ctx.style.cursor = elements.length > 0 ? 'pointer' : 'default';
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const exam = recentExams[index];
+                            if (exam && exam.id) {
+                                viewExam(exam.id);
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            min: 0,
+                            max: 100,
+                            grid: { color: gridColor },
+                            ticks: { color: textColor }
+                        },
+                        x: {
+                            grid: { color: gridColor },
+                            ticks: { color: textColor }
+                        }
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                title: (tooltipItems) => {
+                                    const idx = tooltipItems[0].dataIndex;
+                                    const exam = recentExams[idx];
+                                    return exam ? exam.title : '';
+                                },
+                                label: (ctx) => `Score: ${ctx.parsed.y}%`,
+                                afterLabel: () => '(Click to view details)'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // ============================================
+        // Subject-Wise Accuracy Radar Chart
+        // ============================================
+        async function loadSubjectAccuracyChart(examsData = null) {
+            try {
+                const exams = examsData || await getExamHistory();
+                const ctx = document.getElementById('subjectAccuracyChartCanvas');
+                const emptyState = document.getElementById('accuracyChartEmptyState');
+                const motivationalMsg = document.getElementById('accuracyMotivationalMsg');
+
+                if (!ctx) return;
+
+                if (!exams || exams.length === 0) {
+                    ctx.style.display = 'none';
+                    if (emptyState) emptyState.style.display = 'flex';
+                    if (motivationalMsg) motivationalMsg.textContent = 'Ready to start your preparation?';
+                    return;
+                }
+
+                if (emptyState) emptyState.style.display = 'none';
+                ctx.style.display = 'block';
+
+                // Aggregate data by subject
+                const subjectStats = {};
+
+                // Initialize all known subjects to ensure they appear on the radar
+                if (typeof GATE_SUBJECTS !== 'undefined') {
+                    GATE_SUBJECTS.forEach(sub => {
+                        subjectStats[sub.id] = {
+                            name: sub.name,
+                            shortName: sub.name.split(' ').map(w => w[0]).join('').toUpperCase().substring(0, 4), // like DBMS, TOC
+                            icon: sub.icon,
+                            color: sub.color,
+                            totalMarksEarned: 0,
+                            totalMaxMarks: 0,
+                            examCount: 0
+                        };
+                    });
+                }
+
+                // Process exams
+                exams.forEach(exam => {
+                    const subject = (typeof detectSubject === 'function') ? detectSubject(exam.title) : null;
+                    if (subject && subjectStats[subject.id]) {
+                        const earned = parseFloat(exam.total_marks);
+                        const max = parseFloat(exam.max_marks);
+
+                        if (!isNaN(earned) && !isNaN(max) && max > 0) {
+                            subjectStats[subject.id].totalMarksEarned += earned;
+                            subjectStats[subject.id].totalMaxMarks += max;
+                            subjectStats[subject.id].examCount += 1;
+                        }
+                    }
+                });
+
+                // Prepare Chart Data
+                const labels = [];
+                const dataPoints = [];
+                const bgColors = [];
+                const borderColors = [];
+
+                let weakestSubject = null;
+                let lowestAcc = 101; // higher than max possible 100
+
+                // Filter out subjects with 0 exams to keep the chart clean, 
+                // but if we have fewer than 3 subjects with data, we might need a simple bar chart or keep them
+                Object.values(subjectStats).forEach(stat => {
+                    if (stat.examCount > 0) {
+                        // We use the short name to save space on the radar chart
+                        labels.push(stat.shortName || stat.name);
+
+                        // Calculate average accuracy
+                        let acc = 0;
+                        if (stat.totalMaxMarks > 0) {
+                            acc = (stat.totalMarksEarned / stat.totalMaxMarks) * 100;
+                            // Clamp to 0 in case of negative marks overriding
+                            if (acc < 0) acc = 0;
+                        }
+                        dataPoints.push(acc.toFixed(1));
+                        bgColors.push(stat.color + '40'); // 40 is hex for 25% opacity
+                        borderColors.push(stat.color);
+
+                        if (acc < lowestAcc) {
+                            lowestAcc = acc;
+                            weakestSubject = stat;
+                        }
+                    }
+                });
+
+                // Use a clean horizontal bar chart for the sidebar space
+                const chartType = 'bar';
+
+                // Set motivational text
+                if (motivationalMsg) {
+                    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+                    if (weakestSubject && labels.length > 0) {
+                        motivationalMsg.innerHTML = `💪 Focus on <span style="color: ${weakestSubject.color}; font-weight: bold;">${weakestSubject.name}</span> — you can improve!`;
+                        motivationalMsg.style.background = isDark ? `${weakestSubject.color}15` : `${weakestSubject.color}15`;
+                    } else if (labels.length > 0) {
+                        motivationalMsg.textContent = "Keep up the great work! 🌟";
+                    } else {
+                        ctx.style.display = 'none';
+                        if (emptyState) {
+                            emptyState.style.display = 'flex';
+                            emptyState.innerHTML = 'Take some subject-specific exams to see your accuracy!';
+                        }
+                        motivationalMsg.textContent = 'No subject data yet.';
+                        return;
+                    }
+                }
+
+                if (window.subjectAccuracyChart) {
+                    window.subjectAccuracyChart.destroy();
+                }
+
+                const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+                const gridColor = isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+                const textColor = isDark ? '#d8d8e4' : '#666';
+
+                // Configure chart options based on type
+                const chartOptions = {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: (ctx) => ` Accuracy: ${ctx.raw}%`
+                            }
+                        }
+                    }
+                };
+
+                chartOptions.indexAxis = 'y';
+                chartOptions.scales = {
+                    x: {
+                        min: 0,
+                        max: 100,
+                        grid: { color: gridColor },
+                        ticks: { color: textColor, font: { size: 10 } }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: textColor, font: { size: 10, weight: 'bold' } }
+                    }
+                };
+
+                window.subjectAccuracyChart = new Chart(ctx.getContext('2d'), {
+                    type: chartType,
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Accuracy %',
+                            data: dataPoints,
+                            backgroundColor: bgColors,
+                            borderColor: borderColors,
+                            borderWidth: 1,
+                            borderRadius: 4
+                        }]
+                    },
+                    options: chartOptions
+                });
+
+            } catch (e) {
+                console.error('Error loading subject accuracy chart:', e);
+            }
+        }
+
+        // ============================================
+        // Daily Streak & GATE Countdown Logic
+        // ============================================
+        function initHomeFeatures() {
+            // 1. GATE 2027 Countdown (Target: Feb 1, 2027)
+            const targetDate = new Date("2027-02-01T00:00:00").getTime();
+            const countdownEl = document.getElementById('gateCountdownDisplay');
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const diff = targetDate - now;
+
+                if (diff <= 0) {
+                    countdownEl.textContent = "It's Exam Day!";
+                    return;
+                }
+
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                countdownEl.textContent = `${days}d ${hours}h`;
+            }
+
+            updateCountdown();
+            setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour is enough for "days + hours"
+
+            // 2. GATE 2027 Calendar Logic
+            function loadGateCalendar() {
+                const container = document.getElementById('gateCalendarContainer');
+                if (!container) return;
+
+                // Set to the 1st of the month immediately to prevent the 31st-to-30th rollover bug
+                let currentGateCalDate = new Date();
+                currentGateCalDate.setDate(1);
+
+                // Use Event Delegation: Attach ONE event listener to the container
+                container.addEventListener('click', (e) => {
+                    if (e.target.id === 'gateCalPrevBtn') {
+                        currentGateCalDate.setMonth(currentGateCalDate.getMonth() - 1);
+                        renderGateCalendar(currentGateCalDate);
+                    } else if (e.target.id === 'gateCalNextBtn') {
+                        currentGateCalDate.setMonth(currentGateCalDate.getMonth() + 1);
+                        renderGateCalendar(currentGateCalDate);
+                    }
+                });
+
+                function renderGateCalendar(dateObj) {
+                    const year = dateObj.getFullYear();
+                    const month = dateObj.getMonth();
+
+                    const firstDay = new Date(year, month, 1).getDay();
+                    const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+                    // Calculate "today" variables ONCE outside the loop
+                    const today = new Date();
+                    const todayYear = today.getFullYear();
+                    const todayMonth = today.getMonth();
+                    const todayDate = today.getDate();
+
+                    // Midnight today for easy past/future comparison
+                    const todayMidnightTime = new Date(todayYear, todayMonth, todayDate).getTime();
+
+                    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+                    let html = `
+            <div class="calendar-nav">
+                <button class="cal-nav-btn" id="gateCalPrevBtn">&lt;</button>
+                <span style="font-size: 14px;">${monthNames[month]} ${year}</span>
+                <button class="cal-nav-btn" id="gateCalNextBtn">&gt;</button>
+            </div>
+            <div class="streak-calendar">
+                <div class="calendar-header-day">S</div>
+                <div class="calendar-header-day">M</div>
+                <div class="calendar-header-day">T</div>
+                <div class="calendar-header-day">W</div>
+                <div class="calendar-header-day">T</div>
+                <div class="calendar-header-day">F</div>
+                <div class="calendar-header-day">S</div>
+        `;
+
+                    // Empty slots
+                    for (let i = 0; i < firstDay; i++) {
+                        html += `<div></div>`;
+                    }
+
+                    // Days loop
+                    for (let day = 1; day <= daysInMonth; day++) {
+                        const currentIterTime = new Date(year, month, day).getTime();
+
+                        // Simple integer comparison is faster than string building
+                        const isToday = (year === todayYear && month === todayMonth && day === todayDate);
+                        const isPast = currentIterTime < todayMidnightTime;
+
+                        let classes = 'calendar-day';
+                        if (isToday) classes += ' today';
+                        if (isPast) classes += ' crossed-out';
+
+                        html += `<div class="${classes}">${day}</div>`;
+                    }
+
+                    html += `</div>`;
+                    container.innerHTML = html;
+                }
+
+                renderGateCalendar(currentGateCalDate);
+            }
+
+            loadGateCalendar();
+
+            // // 2. GATE 2027 Calendar Logic
+            // function loadGateCalendar() {
+            //     let currentGateCalDate = new Date(); // Start with current month
+
+            //     function renderGateCalendar(dateObj) {
+            //         const container = document.getElementById('gateCalendarContainer');
+            //         if (!container) return;
+
+            //         const year = dateObj.getFullYear();
+            //         const month = dateObj.getMonth();
+
+            //         const firstDay = new Date(year, month, 1).getDay();
+            //         const daysInMonth = new Date(year, month + 1, 0).getDate();
+            //         const today = new Date();
+            //         const todayDateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+
+            //         const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+            //         let html = `
+            //                 <div class="calendar-nav">
+            //                     <button class="cal-nav-btn" id="gateCalPrevBtn">&lt;</button>
+            //                     <span style="font-size: 14px;">${monthNames[month]} ${year}</span>
+            //                     <button class="cal-nav-btn" id="gateCalNextBtn">&gt;</button>
+            //                 </div>
+            //                 <div class="streak-calendar">
+            //                     <div class="calendar-header-day">S</div>
+            //                     <div class="calendar-header-day">M</div>
+            //                     <div class="calendar-header-day">T</div>
+            //                     <div class="calendar-header-day">W</div>
+            //                     <div class="calendar-header-day">T</div>
+            //                     <div class="calendar-header-day">F</div>
+            //                     <div class="calendar-header-day">S</div>
+            //             `;
+
+            //         // Empty slots
+            //         for (let i = 0; i < firstDay; i++) {
+            //             html += `<div></div>`;
+            //         }
+
+            //         for (let day = 1; day <= daysInMonth; day++) {
+            //             const currentIterDate = new Date(year, month, day);
+            //             const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+            //             const isToday = (dateStr === todayDateStr);
+
+            //             // Check if the day has passed (ignoring time)
+            //             const isPast = currentIterDate < new Date(today.getFullYear(), today.getMonth(), today.getDate());
+
+            //             let classes = 'calendar-day';
+            //             if (isToday) classes += ' today';
+            //             if (isPast) classes += ' crossed-out';
+
+            //             html += `<div class="${classes}">${day}</div>`;
+            //         }
+
+            //         html += `</div>`;
+            //         container.innerHTML = html;
+
+            //         document.getElementById('gateCalPrevBtn').addEventListener('click', () => {
+            //             currentGateCalDate.setMonth(currentGateCalDate.getMonth() - 1);
+            //             renderGateCalendar(currentGateCalDate);
+            //         });
+
+            //         document.getElementById('gateCalNextBtn').addEventListener('click', () => {
+            //             currentGateCalDate.setMonth(currentGateCalDate.getMonth() + 1);
+            //             renderGateCalendar(currentGateCalDate);
+            //         });
+            //     }
+
+            //     renderGateCalendar(currentGateCalDate);
+            // }
+
+            // loadGateCalendar();
+
+            // 3. Daily Streak Logic
+            const streakEl = document.getElementById('streakCountDisplay');
+
+            // Calendar Rendering & Streak logic
+            async function loadCalendar() {
+                try {
+                    await initDB();
+                    const history = await getExamHistory();
+
+                    // Collect all unique dates in YYYY-MM-DD local format for active streak days
+                    const activeDates = new Set();
+                    history.forEach(ex => {
+                        if (ex.date) {
+                            const d = new Date(ex.date);
+                            const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+                            activeDates.add(dateStr);
+                        }
+                    });
+
+                    // Collect all unique dates that have To-Dos
+                    const allTodos = await getAllTodos();
+                    const todoDates = new Set();
+                    allTodos.forEach(todo => {
+                        if (todo.targetDate) {
+                            todoDates.add(todo.targetDate);
+                        }
+                    });
+
+                    // Calculate Current Streak
+                    let calculatedStreak = 0;
+                    const today = new Date();
+
+                    // Start checking from today backwards
+                    let checkDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+
+                    while (true) {
+                        const dateStr = `${checkDate.getFullYear()}-${String(checkDate.getMonth() + 1).padStart(2, '0')}-${String(checkDate.getDate()).padStart(2, '0')}`;
+
+                        // If today is not in activeDates, but yesterday is, streak still counts (haven't played today yet)
+                        if (calculatedStreak === 0 && !activeDates.has(dateStr)) {
+                            // It's today, we check yesterday
+                            checkDate.setDate(checkDate.getDate() - 1);
+                            const yesterdayStr = `${checkDate.getFullYear()}-${String(checkDate.getMonth() + 1).padStart(2, '0')}-${String(checkDate.getDate()).padStart(2, '0')}`;
+                            if (!activeDates.has(yesterdayStr)) {
+                                break; // No streak
+                            }
+                            // If yesterday has activity, we start streak from yesterday
+                        } else if (activeDates.has(dateStr)) {
+                            calculatedStreak++;
+                            checkDate.setDate(checkDate.getDate() - 1);
+                        } else {
+                            break; // Streak broken
+                        }
+                    }
+
+                    streakEl.textContent = `${calculatedStreak} Day${calculatedStreak !== 1 ? 's' : ''}`;
+
+                    // Save it for reference if needed elsewhere
+                    localStorage.setItem('dailyStreakCount', calculatedStreak.toString());
+                    window.GateCloudSync?.scheduleSync('streak-update');
+
+                    let currentCalDate = new Date(); // Start with current month
+
+                    function renderCalendar(dateObj) {
+                        const container = document.getElementById('streakCalendarContainer');
+                        if (!container) return;
+
+                        const year = dateObj.getFullYear();
+                        const month = dateObj.getMonth();
+
+                        const firstDay = new Date(year, month, 1).getDay();
+                        const daysInMonth = new Date(year, month + 1, 0).getDate();
+                        const todayDateStr = `${new Date().getFullYear()}-${String(new Date().getMonth() + 1).padStart(2, '0')}-${String(new Date().getDate()).padStart(2, '0')}`;
+
+                        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+                        let html = `
+                            <div class="calendar-nav">
+                                <button class="cal-nav-btn" id="calPrevBtn">&lt;</button>
+                                <span>${monthNames[month]} ${year}</span>
+                                <button class="cal-nav-btn" id="calNextBtn">&gt;</button>
+                            </div>
+                            <div class="streak-calendar">
+                                <div class="calendar-header-day">S</div>
+                                <div class="calendar-header-day">M</div>
+                                <div class="calendar-header-day">T</div>
+                                <div class="calendar-header-day">W</div>
+                                <div class="calendar-header-day">T</div>
+                                <div class="calendar-header-day">F</div>
+                                <div class="calendar-header-day">S</div>
+                        `;
+
+                        // Empty slots before 1st of month
+                        for (let i = 0; i < firstDay; i++) {
+                            html += `<div></div>`;
+                        }
+
+                        for (let day = 1; day <= daysInMonth; day++) {
+                            const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                            const isActive = activeDates.has(dateStr);
+                            const hasTodos = todoDates.has(dateStr);
+                            const isToday = (dateStr === todayDateStr);
+
+                            let classes = 'calendar-day';
+                            if (isActive) classes += ' active-day';
+                            if (isToday) classes += ' today';
+                            if (hasTodos) classes += ' has-todos';
+                            if (dateStr === currentTodoDate) classes += ' selected-date'; // highlight selection
+
+                            html += `<div class="${classes}" style="cursor: pointer;" onclick="selectTodoDate('${dateStr}')">${day}</div>`;
+                        }
+
+                        html += `</div>`;
+                        container.innerHTML = html;
+
+                        document.getElementById('calPrevBtn').addEventListener('click', () => {
+                            currentCalDate.setMonth(currentCalDate.getMonth() - 1);
+                            renderCalendar(currentCalDate);
+                        });
+
+                        document.getElementById('calNextBtn').addEventListener('click', () => {
+                            // Don't allow navigating past current month if we don't want to, but it's fine
+                            currentCalDate.setMonth(currentCalDate.getMonth() + 1);
+                            renderCalendar(currentCalDate);
+                        });
+                    }
+
+                    renderCalendar(currentCalDate);
+
+                } catch (e) {
+                    console.warn("Could not load calendar data", e);
+                }
+            }
+            loadCalendar();
+
+            // 3. Custom Exam Builder logic
+            let allBkqs = [];  // Master unfiltered lists
+            let allSms = [];
+            let availBkqs = [];  // Currently filtered lists
+            let availSms = [];
+
+            function updateCustomExamCounts() {
+                document.getElementById('availBkq').textContent = `Avail: ${availBkqs.length}`;
+                document.getElementById('availSm').textContent = `Avail: ${availSms.length}`;
+                document.getElementById('customBkqInput').max = availBkqs.length;
+                document.getElementById('customSmInput').max = availSms.length;
+                // Clamp current values to not exceed available
+                const bkqInput = document.getElementById('customBkqInput');
+                const smInput = document.getElementById('customSmInput');
+                if (parseInt(bkqInput.value) > availBkqs.length) bkqInput.value = availBkqs.length;
+                if (parseInt(smInput.value) > availSms.length) smInput.value = availSms.length;
+            }
+
+            // Global function called by the subject filter dropdown
+            window.filterCustomExamBySubject = function () {
+                const subjectFilter = document.getElementById('customSubjectFilter').value;
+                if (subjectFilter === 'all') {
+                    availBkqs = [...allBkqs];
+                    availSms = [...allSms];
+                } else {
+                    const filterFn = (q) => {
+                        const detected = (typeof detectSubject === 'function') ? detectSubject(q.examTitle) : null;
+                        if (subjectFilter === 'mixed') return detected === null;
+                        return detected && detected.id === subjectFilter;
+                    };
+                    availBkqs = allBkqs.filter(filterFn);
+                    availSms = allSms.filter(filterFn);
+                }
+                updateCustomExamCounts();
+            };
+
+            async function loadAvailableQuestions() {
+                try {
+                    await initDB();
+                    allBkqs = (await getAllBookmarks()) || [];
+                    allSms = (await getAllSillyMistakes()) || [];
+                    availBkqs = [...allBkqs];
+                    availSms = [...allSms];
+                    updateCustomExamCounts();
+                } catch (e) {
+                    console.warn("Could not load custom exam sources", e);
+                }
+            }
+
+            loadAvailableQuestions();
+
+            async function generateCustomExamData() {
+                const numBkq = Math.min(parseInt(document.getElementById('customBkqInput').value) || 0, availBkqs.length);
+                const numSm = Math.min(parseInt(document.getElementById('customSmInput').value) || 0, availSms.length);
+
+                if (numBkq === 0 && numSm === 0) {
+                    alert("Please select at least 1 question to build a custom exam.");
+                    return null;
+                }
+
+                // Optimal selection prioritizing unseen questions using IndexedDB tracking
+                const getSelection = async (pool, count, trackerType) => {
+                    if (count === 0 || pool.length === 0) return [];
+
+                    let usedHashes = await getUsedCustomExamHashes(trackerType);
+                    let unused = pool.filter(q => !usedHashes.has(q.questionHash));
+
+                    // If we need more questions than what's unused, we reset history and pick from full pool
+                    if (unused.length < count) {
+                        await clearCustomExamTracker(trackerType);
+                        usedHashes.clear();
+                        unused = [...pool];
+                    }
+
+                    // Fisher-Yates shuffle for optimal unbiased randomness
+                    const shuffleArr = (arr) => {
+                        for (let i = arr.length - 1; i > 0; i--) {
+                            const j = Math.floor(Math.random() * (i + 1));
+                            [arr[i], arr[j]] = [arr[j], arr[i]];
+                        }
+                        return arr;
+                    };
+
+                    shuffleArr(unused);
+                    const selected = unused.slice(0, count);
+
+                    // Update history in IndexedDB
+                    await saveUsedCustomExamHashes(selected.map(q => q.questionHash), trackerType);
+
+                    return selected;
+                };
+
+                const selectedBkqs = await getSelection(availBkqs, numBkq, 'bkq');
+                const selectedSms = await getSelection(availSms, numSm, 'sm');
+
+                // Combine and deduplicate (in case same question is in both)
+                const allSelected = [...selectedBkqs, ...selectedSms];
+                const uniqueQuestions = [];
+                const hashes = new Set();
+
+                allSelected.forEach(q => {
+                    if (!hashes.has(q.questionHash)) {
+                        hashes.add(q.questionHash);
+                        uniqueQuestions.push(q);
+                    }
+                });
+
+                // Final shuffle using Fisher-Yates
+                const shuffleFinal = (arr) => {
+                    for (let i = arr.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [arr[i], arr[j]] = [arr[j], arr[i]];
+                    }
+                    return arr;
+                };
+                shuffleFinal(uniqueQuestions);
+
+                const subjectSelect = document.getElementById('customSubjectFilter');
+                const selectedSubjectText = subjectSelect.options[subjectSelect.selectedIndex].text.replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, '').trim(); // Remove emojis
+
+                let examTitlePrefix = selectedSubjectText === 'All Subjects' ? 'Custom Mixed' : `Custom ${selectedSubjectText}`;
+
+                return {
+                    title: `${examTitlePrefix} Exam (${uniqueQuestions.length} Qs)`,
+                    duration: Math.max(10, Math.ceil(uniqueQuestions.length * 3)), // 3 mins per question avg
+                    sections: [{
+                        name: "Mixed Revision",
+                        questions: uniqueQuestions.map((q, idx) => ({
+                            id: idx + 1,
+                            question: q.questionText,
+                            type: q.type || 'single',
+                            options: q.options || [],
+                            correct_answer: q.correctAnswer,
+                            marks: q.maxMarks || 1,
+                            negative_marks: q.negativeMarks || 0,
+                            explanation: q.explanation || ''
+                        }))
+                    }]
+                };
+            }
+
+            document.getElementById('startCustomExamBtn').addEventListener('click', async () => {
+                const numBkq = parseInt(document.getElementById('customBkqInput').value) || 0;
+                const numSm = parseInt(document.getElementById('customSmInput').value) || 0;
+                if (numBkq === 0 && numSm === 0) {
+                    alert("Please select at least 1 question to build a custom exam.");
+                    return;
+                }
+
+                if (window.enterFullScreen) window.enterFullScreen();
+
+                const customExamData = await generateCustomExamData();
+                if (!customExamData) return;
+
+                // Assign to global examData and initialize directly
+                examData = customExamData;
+                shuffleExamData();
+                initializeQuestionStates();
+
+                toggleHomeView(false);
+                document.getElementById('examSection').style.display = 'flex';
+
+                startExam();
+            });
+
+            const exportBtn = document.getElementById('exportCustomExamBtn');
+            if (exportBtn) {
+                exportBtn.addEventListener('click', async () => {
+                const customExamData = await generateCustomExamData();
+                if (!customExamData) return;
+
+                // Create a filename based on the custom exam title
+                // Sanitize the title to remove characters not suitable for filenames
+                let safeTitle = customExamData.title.replace(/[^a-z0-9_-]/gi, '_').replace(/_+/g, '_').toLowerCase();
+                const filename = `${safeTitle}.json`;
+
+                const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(customExamData, null, 2));
+                const downloadAnchorNode = document.createElement('a');
+                downloadAnchorNode.setAttribute("href", dataStr);
+                downloadAnchorNode.setAttribute("download", filename);
+                document.body.appendChild(downloadAnchorNode); // required for firefox
+                downloadAnchorNode.click();
+                downloadAnchorNode.remove();
+                });
+            }
+        }
+
+        // Expose function to update streak when exam is submitted (called from exam_script.js or result_script.js if needed)
+        // But better to update it right when the exam finishes and saves to DB. 
+        // We can just rely on localStorage being updated from result_script.js
+        window.addEventListener('storage', (e) => {
+            if (e.key === 'dailyStreakCount') {
+                const currentStreak = parseInt(e.newValue || '0');
+                document.getElementById('streakCountDisplay').textContent = `${currentStreak} Day${currentStreak !== 1 ? 's' : ''}`;
+            }
+        });
+
+        async function viewExam(examId) {
+            const details = await getExamDetails(examId);
+            const exam = allExams.find(e => e.id === examId); // Use cached data (fix #12)
+            if (!exam || details.length === 0) return;
+
+            // Build result data in the same format as live exam results
+            const summary = {
+                correct: exam.correct,
+                incorrect: exam.incorrect,
+                unanswered: exam.unanswered,
+                totalMarks: exam.total_marks.toFixed(2),
+                maxTotalMarks: exam.max_marks.toFixed(2),
+                totalQuestions: exam.total_questions,
+                timestamp: exam.date,
+                title: exam.title
+            };
+            const detailsFormatted = details.map(d => ({
+                questionId: d.question_id,
+                questionText: d.question_text,
+                userAnswer: d.user_answer,
+                userAnswerDisplay: (function () {
+                    if (d.type === 'nat' || d.type === 'numerical' || d.type === 'numeric') return d.user_answer || 'Not Attempted';
+                    if (d.user_answer === null || d.user_answer === undefined || d.user_answer === '') return 'Not Attempted';
+                    const arr = Array.isArray(d.user_answer) ? d.user_answer : [d.user_answer];
+                    return arr.length > 0 ? arr.map(idx => (d.options && d.options[idx] !== undefined) ? d.options[idx] : idx).join(', ') : 'Not Attempted';
+                })(),
+                correctAnswer: d.correct_answer,
+                correctAnswerDisplay: Array.isArray(d.correct_answer) ? d.correct_answer.join(', ') : d.correct_answer,
+                status: d.status,
+                options: d.options,
+                type: d.type,
+                explanation: d.explanation,
+                timeSpent: d.time_spent,
+                marksObtained: d.marks_obtained || 0,
+                maxMarks: d.max_marks || 0,
+                negativeMarks: d.negative_marks || 0,
+                markedForReview: d.marked_for_review || false
+            }));
+
+            // Store and navigate — mark as history view so result page won't re-save
+            sessionStorage.setItem('gateExamResults', JSON.stringify({
+                summary,
+                details: detailsFormatted,
+                fromHistory: true
+            }));
+            window.location.href = 'result.html';
+        }
+
+        async function deleteExamEntry(examId) {
+            if (!confirm('Delete this exam from history?')) return;
+            await deleteExam(examId);
+            await loadHistory();
+        }
+    </script>
+
+    <script src="js/dark_mode.js"></script>
+
+    <!-- Floating Calculator Overlay -->
+    <div id="calculatorOverlay" class="calculator-overlay" style="display: none;">
+        <div class="calculator-header" id="calculatorHeader">
+            <span class="calc-title">Scientific Calculator</span>
+            <button class="calc-close-btn" id="closeCalculatorBtn">&times;</button>
+        </div>
+        <iframe src="Calculator/Calculator.html" class="calculator-iframe" id="calculatorIframe"></iframe>
+    </div>
+
+    <!-- Question Paper Modal -->
+    <div id="questionPaperModal" class="question-paper-modal" style="display: none;">
+        <div class="question-paper-container">
+            <div class="question-paper-header">
+                <h2>Question Paper</h2>
+                <button class="qp-close-btn" id="closeQuestionPaperBtn">Close <span>&times;</span></button>
+            </div>
+            <div class="qp-warning-bar">
+                Note that the timer is ticking while you read this question paper. Close this page to return to
+                answering the questions.
+            </div>
+            <div class="question-paper-content" id="questionPaperContent">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Duplicate modal removed -->
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top" title="Go to top">
+        &#8679;
+    </button>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <script src="js/firebase_config.js"></script>
+</body>
+
+</html>

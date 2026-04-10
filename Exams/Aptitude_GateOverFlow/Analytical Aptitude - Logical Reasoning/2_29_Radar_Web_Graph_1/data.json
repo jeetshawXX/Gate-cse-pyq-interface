@@ -1,0 +1,26 @@
+{
+  "title": "Analytical Aptitude - Logical Reasoning - Radar Web Graph",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Radar Web Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"5467\"></a><div itemprop=\"text\"><p>Five vendors are being considered for a service. The evaluation committee evaluated each vendor on six aspects-Cost, Customer Service, Features, Quality, Reach, and Reliability. Each of these evaluations are on a scale of \\( 0 \\)(worst) to \\( 100 \\)(perfect). The evaluation scores on these aspects are shown in that radar chart. For example, Vendor \\( 1 \\) obtains a score of \\( 52 \\) on Reliability, Vendor \\( 2 \\) obtains a score of \\( 45 \\) on Features and Vendor \\( 3 \\) obtains a score of \\( 90 \\) on Cost.</p><p style=\"text-align:center\"><img alt=\"Kiviat chart\" width=\"600\" height=\"629\" src=\"https://aptitude.gateoverflow.in/?qa=blob&amp;qa_blobid=4583896320669188587\"></p><p>A vendor’s final score&nbsp;is the average of their scores on all six aspects. Which vendor has the highest final score?</p></div><br><br><b>Logical Reasoning: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Vendor \\( 1 \\)</p>",
+            "<p>Vendor \\( 2 \\)</p>",
+            "<p>Vendor \\( 3 \\)</p>",
+            "<p>Vendor \\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5467/cat-2019-set-1-question-44\" target=\"_blank\">https://aptitude.gateoverflow.in/5467/cat-2019-set-1-question-44</a></p>"
+        }
+      ]
+    }
+  ]
+}

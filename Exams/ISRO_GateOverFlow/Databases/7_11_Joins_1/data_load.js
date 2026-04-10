@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Databases - Joins",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Joins",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435369\"></a><div itemprop=\"text\"><p>In SQL the statement select \\( ^{*} \\) from \\( \\text{R, S} \\) is equivalent to</p></div><br><br><b>Databases: ISRO CSE 2023 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Select \\( ^{*} \\) from \\( \\text{R} \\)&nbsp;natural join \\( \\text{S} \\)</p>",
+            "<p>Select \\( ^{*} \\)&nbsp;from \\( \\text{R} \\)&nbsp;cross join&nbsp; \\( \\text{S} \\)</p>",
+            "<p>Select \\( ^{*} \\)&nbsp;from \\( \\text{R} \\)&nbsp;outer join&nbsp; \\( \\text{S} \\)</p>",
+            "<p>Select \\( ^{*} \\)&nbsp;from \\( \\text{R} \\)&nbsp;inner join&nbsp; \\( \\text{S} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Select \\( ^{*} \\)&nbsp;from \\( \\text{R} \\)&nbsp;cross join&nbsp; \\( \\text{S} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435369/isro-cse-2023-question-27\" target=\"_blank\">https://gateoverflow.in/435369/isro-cse-2023-question-27</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Others - Others - Software Design",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Software Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373759\"></a><div itemprop=\"text\"><p>In a data flow diagram, the segment shown below is identified as having transaction flow characteristics, with \\( p2 \\) identified as the transaction center</p><p><img alt=\"\" width=\"300\" height=\"188\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6465744680520734546\"></p><p>A first level architectural design of this segment will result in a set of process modules with an associated invocation sequence. The most appropriate architecture is</p></div><br><br><b>Others: NIELIT 2022 April Scientist B | Section B | Question: 79</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( p1 \\) invokes \\( p2, p2 \\) invokes either \\( p3, \\) or \\( p4, \\) or \\( p5 \\)</p>",
+            "<p>\\( p2 \\) invokes \\( p1 \\) and then invokes \\( p3, \\) or \\( p4, \\) or \\( p5 \\)</p>",
+            "<p>A new module \\( Tc \\) is defined to control the transaction flow. This module \\( Tc \\) first invokes \\( p1 \\)&nbsp;and then invokes \\( p2. \\) \\( p2 \\) then invokes \\( p3, \\) or \\( p4, \\) or \\( p5 \\)</p>",
+            "<p>A new module \\( Tc \\) is defined to control the transaction flow. This module \\( Tc \\) invokes \\( p2. \\) \\( p2 \\) invokes \\( p1, \\) and then invokes \\( p3, \\) or \\( p4, \\) or \\( p5 \\)</p>"
+          ],
+          "correct_answer": "<p>A new module \\( Tc \\) is defined to control the transaction flow. This module \\( Tc \\) first invokes \\( p1 \\)&nbsp;and then invokes \\( p2. \\) \\( p2 \\) then invokes \\( p3, \\) or \\( p4, \\) or \\( p5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373759/nielit-2022-april-scientist-b-section-b-question-79\" target=\"_blank\">https://gateoverflow.in/373759/nielit-2022-april-scientist-b-section-b-question-79</a></p>"
+        }
+      ]
+    }
+  ]
+});

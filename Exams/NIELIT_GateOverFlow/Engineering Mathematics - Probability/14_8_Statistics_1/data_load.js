@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Statistics",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Statistics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336669\"></a><div itemprop=\"text\"><p>Following marks are obtained by the students in a test:</p>\n\n<p>\\( 81,72,90,90,86,85,92,70,71,83,89,95,85,79,62 \\). Range of the marks is</p>\n\n</div><br><br><b>Probability: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 27 \\)</p>",
+            "<p>\\( 33 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 33 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336669/nielit-2016-mar-scientist-b-section-b-17\" target=\"_blank\">https://gateoverflow.in/336669/nielit-2016-mar-scientist-b-section-b-17</a></p>"
+        }
+      ]
+    }
+  ]
+});

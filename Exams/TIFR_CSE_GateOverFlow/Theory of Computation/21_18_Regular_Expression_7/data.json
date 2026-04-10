@@ -1,0 +1,123 @@
+{
+  "title": "Theory of Computation - Regular Expression",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Regular Expression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"19047\"></a><div itemprop=\"text\"><p>Let \\( r, s, t \\) be regular expressions. Which of the following identities is correct?</p></div><br><br><b>Theory of Computation: TIFR CSE 2010 | Part B | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (r + s)^* = r^*s^* \\)</p>",
+            "<p>\\( r(s + t) = rs + t \\)</p>",
+            "<p>\\( (r + s)^* = r^* + s^* \\)</p>",
+            "<p>\\( (rs + r)^* r = r (sr + r)^* \\)</p>",
+            "<p>\\( (r^*s)^* = (rs)^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (rs + r)^* r = r (sr + r)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/19047/tifr-cse-2010-part-b-question-34\" target=\"_blank\">https://gateoverflow.in/19047/tifr-cse-2010-part-b-question-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"29861\"></a><div itemprop=\"text\"><p>Let \\( a, b, c \\) be regular expressions. Which of the following identities is correct?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2015 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (a + b)^{*} = a^{*}b^{*} \\)</p>",
+            "<p>\\( a(b + c) = ab + c \\)</p>",
+            "<p>\\( (a + b)^{*} = a^{*} + b^{*} \\)</p>",
+            "<p>\\( (ab + a)^{*}a = a(ba + a)^{*} \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( (ab + a)^{*}a = a(ba + a)^{*} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29861/tifr-cse-2015-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/29861/tifr-cse-2015-part-b-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"95705\"></a><div itemprop=\"text\"><p>Which of the following regular expressions correctly accepts the set of all \\( 0/1 \\)-strings with an even (possibly zero) number of \\( 1 \\)s?</p></div><br><br><b>Theory of Computation: TIFR CSE 2017 | Part B | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( (10^*10^*)^* \\)</p>",
+            "<p>\\( (0^*10^*1)^* \\)</p>",
+            "<p>\\( 0^*1(10^*1)^*10^* \\)</p>",
+            "<p>\\( 0^*1(0^*10^*10^*)^*10^* \\)</p>",
+            "<p>\\( (0^*10^*1)^*0^* \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/95705/tifr-cse-2017-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/95705/tifr-cse-2017-part-b-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"179286\"></a><div itemprop=\"text\"><p>Consider the following non-deterministic automation, where \\( \\large s_{1} \\) is the start state and \\( \\large s_{4} \\) is the final (accepting) state. The alphabet is \\( \\{a,b\\}. \\) A transition with label \\( \\large\\epsilon \\) can be taken without consuming any symbol from the input.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"335\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=6935175188175525167\" width=\"310\"></p>\n\n<p>Which of the following regular expressions corresponds to the language accepted by this automation ?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2018 | Part B | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (a+b)^{*}aba \\)</p>",
+            "<p>\\( aba(a+b)^{*}aba \\)</p>",
+            "<p>\\( (a+b)aba(b+a)^{*} \\)</p>",
+            "<p>\\( aba(a+b)^{*} \\)</p>",
+            "<p>\\( (ab)^{*}aba \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (a+b)^{*}aba \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179286/tifr-cse-2018-part-b-question-2\" target=\"_blank\">https://gateoverflow.in/179286/tifr-cse-2018-part-b-question-2</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"280484\"></a><div itemprop=\"text\"><p>Consider the following non-deterministic automaton,where \\( s_1 \\) is the start state and \\( s_4 \\) is the final (accepting) state. The alphabet is \\( \\{a,b\\} \\). A transition with label \\( \\epsilon \\) can be taken without consuming any symbol from the input.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"360\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=3279311095238799727\" width=\"324\"></p>\n\n<p>Which of the following regular expressions correspond to the language accepted by this automaton ?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2019 | Part B | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (a+b)^*aba \\)</p>",
+            "<p>\\( (a+b)^*ba^* \\)</p>",
+            "<p>\\( (a+b)^*ba(aa)^* \\)</p>",
+            "<p>\\( (a+b)^* \\)</p>",
+            "<p>\\( (a+b)^*baa^* \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (a+b)^*ba(aa)^* \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280484/tifr-cse-2019-part-b-question-11\" target=\"_blank\">https://gateoverflow.in/280484/tifr-cse-2019-part-b-question-11</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"358946\"></a><div itemprop=\"text\"><p>Which of the following regular expressions defines a language that is different from the other choices?</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2021 | Part B | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( b^{\\ast }\\left ( a+b \\right )^\\ast a\\left ( a+b \\right )^ \\ast ab^\\ast \\left ( a+b \\right )^{\\ast } \\)</p>",
+            "<p>\\( a^{\\ast }\\left ( a+b \\right )^{\\ast }ab^{\\ast }\\left ( a+b \\right )^{\\ast }a\\left ( a+b \\right )^{\\ast } \\)</p>",
+            "<p>\\( \\left ( a+b \\right )^{\\ast }ab^{\\ast }\\left ( a+b\\right )^{\\ast }a\\left ( a+b \\right )^{\\ast }b^{\\ast } \\)</p>",
+            "<p>\\( \\left ( a+b \\right )^{\\ast }a\\left ( a+b\\right )^{\\ast }b^{\\ast }a\\left ( a+b \\right )^{\\ast }a^{\\ast } \\)</p>",
+            "<p>\\( \\left ( a+b \\right )^{\\ast }b^{\\ast }a \\left ( a+b\\right )^{\\ast }b^{\\ast }\\left ( a+b \\right )^{\\ast } \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358946/tifr-cse-2021-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/358946/tifr-cse-2021-part-b-question-7</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"382001\"></a><div itemprop=\"text\"><p>Let \\( r_1 \\) and \\( r_2 \\) be two regular expressions. They symbol \\( \\equiv \\) stands for equivalence of two regular expressions in the sense that if \\( r_1 \\equiv r_2 \\), then both regular expressions describe the same language. Which of the following is/are \\( \\text{FALSE} \\)?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( \\left(r_1 r_2\\right)^* r_1 \\equiv r_1\\left(r_2 r_1\\right)^* \\)</li>\n\t<li>\\( \\left(r_1^* r_2\\right)^* r_1^* \\equiv\\left(r_1+r_2\\right)^* \\)</li>\n\t<li>\\( \\left(r_1^* r_2^*\\right)^* \\equiv\\left(r_1+r_2\\right)^* \\)</li>\n</ol>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>Theory of Computation: TIFR CSE 2022 | Part B | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only (i)&nbsp;is false</p>",
+            "<p>Only (ii)&nbsp;is false</p>",
+            "<p>Only (iii)&nbsp;is false</p>",
+            "<p>Both (i)&nbsp;and (iii)&nbsp;are false</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/382001/tifr-cse-2022-part-b-question-8\" target=\"_blank\">https://gateoverflow.in/382001/tifr-cse-2022-part-b-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

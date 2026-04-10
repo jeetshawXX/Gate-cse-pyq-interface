@@ -1,0 +1,206 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Algorithm Design",
+  "duration": 36,
+  "sections": [
+    {
+      "name": "Algorithm Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369342\"></a><div itemprop=\"text\"><p>The Highest Lower Bound on the number of Comparisons in the worst case for comparison-based sorting order of :</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{n} \\)</p>",
+            "<p>\\( \\text{n}^{2} \\)</p>",
+            "<p>\\( \\text{n} \\log \\text{n} \\)</p>",
+            "<p>\\( \\text{n} \\log 2 \\text{n} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{n} \\log \\text{n} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369342/nielit-2021-dec-scientist-a-section-b-71\" target=\"_blank\">https://gateoverflow.in/369342/nielit-2021-dec-scientist-a-section-b-71</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"366901\"></a><div itemprop=\"text\"><p>Which notation gives the lower bound of a function \\( ? \\)</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta \\)&nbsp; – &nbsp;notation</p>",
+            "<p>\\(  \\text{O} \\)&nbsp; – &nbsp;notation</p>",
+            "<p>\\( \\Omega \\)&nbsp; – &nbsp;notation</p>",
+            "<p>None of the these</p>"
+          ],
+          "correct_answer": "<p>\\( \\Omega \\)&nbsp; – &nbsp;notation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366901/nielit-2021-dec-scientist-b-section-b-116\" target=\"_blank\">https://gateoverflow.in/366901/nielit-2021-dec-scientist-b-section-b-116</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"366962\"></a><div itemprop=\"text\"><p>\\( 100 \\) elements can be sorted in \\( 100 \\; \\text{sec} \\) using bubble sort. In \\( 400 \\; \\text{sec}, \\) approximately ____________ elements can be sorted.</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 300 \\)</p>",
+            "<p>\\( 400 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 200 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366962/nielit-2021-dec-scientist-b-section-b-55\" target=\"_blank\">https://gateoverflow.in/366962/nielit-2021-dec-scientist-b-section-b-55</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"378757\"></a><div itemprop=\"text\"><p>A sorting algorithm which passes through a list to exchange the first element with smallest element in the remaining elements is known as____________.</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort</p>",
+            "<p>Selection sort</p>",
+            "<p>Heap sort&nbsp;</p>",
+            "<p>Bubble sort</p>"
+          ],
+          "correct_answer": "<p>Selection sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378757/nielit-2021-dec-scientist-b-section-b-6\" target=\"_blank\">https://gateoverflow.in/378757/nielit-2021-dec-scientist-b-section-b-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"378702\"></a><div itemprop=\"text\"><p>The number of swaps required to sort the array</p>\n\n<p>\\( 8, 22, 7,9, 31, 19, 5, 13 \\)</p>\n\n<p>In ascending order using bubble sort is :</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378702/nielit-2021-dec-scientist-b-section-b-61\" target=\"_blank\">https://gateoverflow.in/378702/nielit-2021-dec-scientist-b-section-b-61</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"378688\"></a><div itemprop=\"text\"><p>The time complexity of heap sort in worst case is :</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O (\\log n) \\)</p>",
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(n \\log n) \\)</p>",
+            "<p>\\( O(n^{2}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378688/nielit-2021-dec-scientist-b-section-b-75\" target=\"_blank\">https://gateoverflow.in/378688/nielit-2021-dec-scientist-b-section-b-75</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"366939\"></a><div itemprop=\"text\"><p>Which of the following sorting algorithms has the lowest worst-case complexity \\( ? \\)</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Merge sort</p>",
+            "<p>Bubble sort&nbsp;</p>",
+            "<p>Quick sort</p>",
+            "<p>Insertion sort</p>"
+          ],
+          "correct_answer": "<p>Merge sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366939/nielit-2021-dec-scientist-b-section-b-78\" target=\"_blank\">https://gateoverflow.in/366939/nielit-2021-dec-scientist-b-section-b-78</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"373733\"></a><div itemprop=\"text\"><p>What is the time complexity of the following recursive function?</p>\n\n<pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int ComputFun(int n)\n{\n    if(n&lt;=2)\n       return 1;\n    else\n        return (DoSomething(floor(sqrt(n)))+n);\n}</pre>\n\n</div><br><br><b>Algorithms: NIELIT 2022 April Scientist B | Section B | Question: 105</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(\\log n) \\)</p>",
+            "<p>\\( \\Theta(n\\log n) \\)</p>",
+            "<p>\\( \\Theta(\\log \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(\\log \\log n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373733/nielit-2022-april-scientist-b-section-b-question-105\" target=\"_blank\">https://gateoverflow.in/373733/nielit-2022-april-scientist-b-section-b-question-105</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"351582\"></a><div itemprop=\"text\"><p>Consider the algorithm that solves problems of size \\( n \\) by recursively solving two sub problems of size \\( n-1 \\) and then combining the solutions in constant time. Then the running time of the algorithm would be:</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 100</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(\\log n) \\)</p>",
+            "<p>\\( O(n\\log n) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351582/nielit-scientist-b-2020-november-100\" target=\"_blank\">https://gateoverflow.in/351582/nielit-scientist-b-2020-november-100</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"351638\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Which sorting algorithm sorts by moving the current data element past the already sorted values and repeatedly interchanges it with the preceding value until it is in its correct place?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Insertion sort</p>",
+            "<p>Internal sort</p>",
+            "<p>External sort</p>",
+            "<p>Radix sort</p>"
+          ],
+          "correct_answer": "<p>Insertion sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351638/nielit-scientist-b-2020-november-44\" target=\"_blank\">https://gateoverflow.in/351638/nielit-scientist-b-2020-november-44</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"351630\"></a><div itemprop=\"text\"><p>The best running time is defined as/obtained as/by:</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the least or smallest of all the running times the algorithm takes, on inputs of a particular size</p>",
+            "<p>an input that requires maximum computations or resources</p>",
+            "<p>averaging the different running times for all inputs of a particular kind</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>the least or smallest of all the running times the algorithm takes, on inputs of a particular size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351630/nielit-scientist-b-2020-november-52\" target=\"_blank\">https://gateoverflow.in/351630/nielit-scientist-b-2020-november-52</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"351605\"></a><div itemprop=\"text\"><p>The recurrence relation \\( T(n)=7T(n/7)+n \\) has the solution:</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( O(n) \\)</p>",
+            "<p>\\( O(logn) \\)</p>",
+            "<p>\\( O(nlog(n)) \\)</p>",
+            "<p>\\( O(n^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( O(nlog(n)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351605/nielit-scientist-b-2020-november-77\" target=\"_blank\">https://gateoverflow.in/351605/nielit-scientist-b-2020-november-77</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"351591\"></a><div itemprop=\"text\"><p>What is the advantage of bubble sort over other sorting techniques?</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientist B 2020 November: 91</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is faster</p>",
+            "<p>Consumes less memory</p>",
+            "<p>Detects whether the input is already sorted</p>",
+            "<p>All of the options</p>"
+          ],
+          "correct_answer": "<p>Detects whether the input is already sorted</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351591/nielit-scientist-b-2020-november-91\" target=\"_blank\">https://gateoverflow.in/351591/nielit-scientist-b-2020-november-91</a></p>"
+        }
+      ]
+    }
+  ]
+});

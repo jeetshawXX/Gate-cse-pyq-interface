@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Countable Uncountable Set",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Countable Uncountable Set",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"473094\"></a><div itemprop=\"text\"><p>Consider the following sets.</p><ol start=\"1\" style=\"list-style-type: lower-roman;\"><li>The set of all natural numbers \\( \\mathbb{N} \\).</li><li>The set of all rational numbers \\( \\mathbb{Q} \\).</li><li>The set of all functions from \\( \\mathbb{N} \\) to \\( \\{1,2,3,4,5\\} \\).</li><li>The set of all functions from \\( \\{1,2,3,4,5\\} \\) to \\( \\mathbb{N} \\).</li></ol><p>Which of the above sets are countable?</p></div><br><br><b>Set Theory & Algebra: TIFR CSE 2025 | Part B | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( \\text{(i)} \\)</p>",
+            "<p>Only \\( \\text{(i)} \\) and \\( \\text{(ii)} \\)</p>",
+            "<p>Only \\( \\text{(i)} \\)&nbsp;and&nbsp;\\( \\text{(iv)} \\)</p>",
+            "<p>Only \\( \\text{(i)},\\text{(ii)} \\)&nbsp;and&nbsp;\\( \\text{(iii)} \\)</p>",
+            "<p>Only \\( \\text{(i)}, \\text{(ii)} \\)&nbsp;and&nbsp;\\( \\text{(iv)} \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473094/tifr-cse-2025-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/473094/tifr-cse-2025-part-b-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

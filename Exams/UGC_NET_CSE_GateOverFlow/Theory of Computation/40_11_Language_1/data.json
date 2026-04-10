@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Language",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166400\"></a><div itemprop=\"text\"><p>The language \\( L =\\{a^i \\: b \\: c^i \\mid i \\geq 0\\} \\) over the alphabet \\( \\{a, b, c\\} \\) is</p></div><br><br><b>Theory of Computation: UGC NET CSE | November 2017 | Part 3 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>regular language<br>&nbsp;</p>",
+            "<p>Not a deterministic context free language but a context free language<br>&nbsp;</p>",
+            "<p>Recursive and is a deterministic context free language<br>&nbsp;</p>",
+            "<p>Not recursive</p>"
+          ],
+          "correct_answer": "<p>Recursive and is a deterministic context free language<br>&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166400/ugc-net-cse-november-2017-part-3-question-24\" target=\"_blank\">https://gateoverflow.in/166400/ugc-net-cse-november-2017-part-3-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+}

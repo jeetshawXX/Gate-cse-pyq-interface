@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Age Relation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Age Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"313272\"></a><div itemprop=\"text\"><p>Hema's age is \\( 5 \\) years more than twice Hari's age. Suresh's age is \\( 13 \\) years less than 10 times Hari's&nbsp;age. If Suresh is \\( 3 \\) times as old as Hema,&nbsp;how old is Hema?</p>\n\n</div><br><br><b>GATE2018 CE-1: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 19 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 19 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313272/gate2018-ce-1-ga-3\" target=\"_blank\">https://gateoverflow.in/313272/gate2018-ce-1-ga-3</a></p>"
+        }
+      ]
+    }
+  ]
+}

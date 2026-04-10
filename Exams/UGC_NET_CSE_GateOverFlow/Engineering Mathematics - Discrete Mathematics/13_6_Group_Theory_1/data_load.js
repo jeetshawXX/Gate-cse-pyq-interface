@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Discrete Mathematics - Group Theory",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Group Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56422\"></a><div itemprop=\"text\"><p>Let a*H and b*H be two cosets of H.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Either a*H and b*H are disjoint</li>\n\t<li>a*H and b*H are identical</li>\n</ol>\n\n<p>Then,</p>\n\n</div><br><br><b>Discrete Mathematics: UGC NET CSE | June 2012 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only I is true</p>",
+            "<p>Only II is true</p>",
+            "<p>I or II is true</p>",
+            "<p>I and II is false</p>"
+          ],
+          "correct_answer": "<p>I or II is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56422/ugc-net-cse-june-2012-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/56422/ugc-net-cse-june-2012-part-3-question-67</a></p>"
+        }
+      ]
+    }
+  ]
+});

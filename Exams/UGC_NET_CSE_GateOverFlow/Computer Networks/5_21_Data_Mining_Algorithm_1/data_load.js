@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - Data Mining Algorithm",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Mining Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"155373\"></a><div itemprop=\"text\"><p>An example of a data mining algorithm which uses squared error score function is :</p>\n\n</div><br><br><b>Computer Networks: UGC NET CSE | December 2008 | Part 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>CART algorithm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>back propagation algorithm&nbsp; &nbsp;</p>",
+            "<p>a priori&nbsp;algorithm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>vector space algorithm</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155373/ugc-net-cse-december-2008-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/155373/ugc-net-cse-december-2008-part-2-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

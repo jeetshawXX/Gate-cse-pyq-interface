@@ -1,0 +1,56 @@
+{
+  "title": "Operating System - Disk Scheduling",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Disk Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"16939\"></a><div itemprop=\"text\">\n<p>There are 200 tracks on a disc platter and the pending requests have come in the order - 36, 69, 167, 76, 42, 51, 126, 12 and 199. Assume the arm is located at the 100<sup>th</sup>&nbsp;track and moving towards track 200. If sequence of disc access is 126, 167, 199, 12, 36, 42, 51, 69 and 76 then which disc access scheduling policy is used?</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2014 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Elevator</p>",
+            "<p>Shortest seek-time first</p>",
+            "<p>C-SCAN</p>",
+            "<p>First Come First Served</p>"
+          ],
+          "correct_answer": "<p>C-SCAN</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/16939/isro-cse-2014-question-14\" target=\"_blank\">https://gateoverflow.in/16939/isro-cse-2014-question-14</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128760\"></a><div itemprop=\"text\"><p>Consider the disk system with 100 cylinders. The request to access the cylinders occur in the following sequence.</p><p><strong>4, 37, 10,7,19,73,2,15,6,20</strong></p><p>Assuming the head is currently at cylinder 50 what is the time taken to satisfy all requests if it takes 1 ms to move from one cylinder to adjacent one and shortest seek time first algorithm is used.</p></div><br><br><b>Operating System: ISRO CSE 2017 | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>95 ms</p>",
+            "<p>119 ms</p>",
+            "<p>233 ms</p>",
+            "<p>276 ms</p>"
+          ],
+          "correct_answer": "<p>119 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128760/isro-cse-2017-question-66\" target=\"_blank\">https://gateoverflow.in/128760/isro-cse-2017-question-66</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"182119\"></a><div itemprop=\"text\"><p>Consider a disk sequence with \\( 100 \\) cylinders. The request to access the cylinder occur&nbsp;in the following sequence :</p>\n\n<p>\\( 4,34,10,7,19,73,2,15,6,20 \\)</p>\n\n<p>Assuming that the head is currently at cylinder \\( 50 \\), what is the time taken to satisfy all requests if it<br>\ntakes \\( 2\\,ms \\) to move from one cylinder to adjacent one and shortest seek time first policy is used?</p>\n\n</div><br><br><b>Operating System: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 190 \\)</p>",
+            "<p>\\( 238 \\)</p>",
+            "<p>\\( 233 \\)</p>",
+            "<p>\\( 276 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 238 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182119/isro-dec2017-69\" target=\"_blank\">https://gateoverflow.in/182119/isro-dec2017-69</a></p>"
+        }
+      ]
+    }
+  ]
+}

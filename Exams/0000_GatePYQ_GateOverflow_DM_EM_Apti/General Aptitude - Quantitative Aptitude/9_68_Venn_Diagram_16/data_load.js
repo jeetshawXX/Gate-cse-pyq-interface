@@ -1,0 +1,251 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Venn Diagram",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Venn Diagram",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2367\"></a><div itemprop=\"text\"><p>\\( 25 \\) persons are in a room. \\( 15 \\) of them play hockey, \\( 17 \\) of them play football and \\( 10 \\) of them play both hockey and football. Then the&nbsp;number of persons playing neither hockey nor football is:</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 17 \\)</p>",
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2367/gate-cse-2010-question-59\" target=\"_blank\">https://gateoverflow.in/2367/gate-cse-2010-question-59</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"39536\"></a><div itemprop=\"text\"><p>Among \\( 150 \\) faculty members in an institute, \\( 55 \\) are connected with each other through Facebook and \\( 85 \\) are connected through Whatsapp. \\( 30 \\) faculty members do not have Facebook or Whatsapp accounts. The numbers of faculty members connected only through Facebook accounts is _______.</p>\n\n</div><br><br><b>GATE CSE 2016 Set 2 | Question: GA-06</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 45 \\)</p>",
+            "<p>\\( 65 \\)</p>",
+            "<p>\\( 90 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 35 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06\" target=\"_blank\">https://gateoverflow.in/39536/gate-cse-2016-set-2-question-ga-06</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"302866\"></a><div itemprop=\"text\"><p>In the given diagram, teachers are represented in the triangle, researchers in the circle and administrators in the rectangle. Out of the total number of the people, the percentage of administrators shall be in the range of _______</p>\n\n<p><img alt=\"\" height=\"280\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___venn_diagram/aec3d55b93cc81fb6b8ba27b7d19e5c5.png\" width=\"364\"></p>\n\n</div><br><br><b>GATE CSE 2019 | Question: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\) to \\( 15 \\)</p>",
+            "<p>\\( 16 \\) to \\( 30 \\)</p>",
+            "<p>\\( 31 \\) to \\( 45 \\)</p>",
+            "<p>\\( 46 \\) to \\( 60 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 31 \\) to \\( 45 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302866/gate-cse-2019-question-ga-7\" target=\"_blank\">https://gateoverflow.in/302866/gate-cse-2019-question-ga-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"302864\"></a><div itemprop=\"text\"><p>In a college, there are three student clubs, \\( 60 \\) students are only in the Drama club, \\( 80 \\) students are only in the Dance club, \\( 30 \\) students are only in Maths club, \\( 40 \\) students are in both Drama and Dance clubs, \\( 12 \\) students are in both Dance and Maths clubs, \\( 7 \\) students are in both Drama and Maths clubs, and \\( 2 \\) students are in all clubs. If \\( 75 \\% \\) of the students in the college are not in any of these clubs, then the total number of students in the college is _____.</p>\n\n</div><br><br><b>GATE CSE 2019 | Question: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1000 \\)</p>",
+            "<p>\\( 975 \\)</p>",
+            "<p>\\( 900 \\)</p>",
+            "<p>\\( 225 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 900 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302864/gate-cse-2019-question-ga-9\" target=\"_blank\">https://gateoverflow.in/302864/gate-cse-2019-question-ga-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"422904\"></a><div itemprop=\"text\"><p>​​​​In an engineering college of \\( 10,000 \\) students, \\( 1,500 \\) like neither their core branches nor other branches. The number of students who like their core branches is \\( 1 / 4^{\\text {th }} \\) of the number of students who like other branches. The number of students who like both their core and other branches is \\( 500 \\).</p><p>The number of students who like their core branches is</p></div><br><br><b>GATE CSE 2024 | Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1,800 \\)</p>",
+            "<p>\\( 3,500 \\)</p>",
+            "<p>\\( 1,600 \\)</p>",
+            "<p>\\( 1,500 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1,800 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422904/gate-cse-2024-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/422904/gate-cse-2024-set-2-ga-question-3</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"359830\"></a><div itemprop=\"text\"><p>In a school of \\( 1000 \\) students, \\( 300 \\) students play chess and \\( 600 \\) students play football. If \\( 50 \\) students play both chess and football, the number of students who play neither is&nbsp;________.</p>\n\n</div><br><br><b>GATE Civil 2020 Set 2 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 200 \\)</p>",
+            "<p>\\( 150 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 150 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359830/gate-civil-2020-set-2-ga-question-9\" target=\"_blank\">https://gateoverflow.in/359830/gate-civil-2020-set-2-ga-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"359885\"></a><div itemprop=\"text\"><p>In a company, \\( 35\\% \\) of the employees drink coffee, \\( 40\\% \\) of the employees drink tea and \\( 10\\% \\) of the employees drink both tea and coffee. What \\( \\% \\) of employees drink neither tea nor coffee?</p>\n\n</div><br><br><b>GATE Civil 2021 Set 1 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 40 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 35 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359885/gate-civil-2021-set-1-ga-question-3\" target=\"_blank\">https://gateoverflow.in/359885/gate-civil-2021-set-1-ga-question-3</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"411757\"></a><div itemprop=\"text\"><p>A survey of \\( 450 \\) students about their subjects of interest resulted in the following outcome.</p>\n\n<ul>\n\t<li>\\( 150 \\) students are interested in Mathematics.</li>\n\t<li>\\( 200 \\) students are interested in Physics.</li>\n\t<li>\\( 175 \\) students are interested in Chemistry.</li>\n\t<li>\\( 50 \\) students are interested in Mathematics and Physics.</li>\n\t<li>\\( 60 \\) students are interested in Physics and Chemistry.</li>\n\t<li>\\( 40 \\) students are interested in Mathematics and Chemistry.</li>\n\t<li>\\( 30 \\) students are interested in Mathematics,&nbsp;Physics,&nbsp;and Chemistry.</li>\n\t<li>Remaining students are interested in Humanities.</li>\n</ul>\n\n<p>Based on the above information, the number of students interested in Humanities is</p>\n\n</div><br><br><b>GATE Civil 2022 Set 2 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 45 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 45 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411757/gate-civil-2022-set-2-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411757/gate-civil-2022-set-2-ga-question-4</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"411857\"></a><div itemprop=\"text\"><p>In a class of \\( 100 \\) students,</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>there are \\( 30 \\) students who neither like romantic movies nor comedy movies,</li>\n\t<li>the number of students who like romantic movies is twice the number of students who like comedy movies, and</li>\n\t<li>the number of students who like both romantic movies and comedy movies is \\( 20 \\).</li>\n</ol>\n\n<p>How many students in the class like romantic movies?</p>\n\n</div><br><br><b>GATE ECE 2023 | GA Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 60 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411857/gate-ece-2023-ga-question-4\" target=\"_blank\">https://gateoverflow.in/411857/gate-ece-2023-ga-question-4</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"312027\"></a><div itemprop=\"text\"><p>A gathering&nbsp;of \\( 50 \\) linguists&nbsp;discovered that \\( 4 \\) knew Kannada\\( , \\) Telugu and Tamil\\( , \\) \\( 7 \\) knew only Telugu and Tamil \\( , \\) \\( 5 \\) knew only Kannada and Tamil \\( , \\) \\( 6 \\) knew only Telugu and Kannada\\( . \\) If the number of linguists who knew Tamil is \\( 24 \\) and those who knew Kannada is also \\( 24, \\) how many linguists knew only Telugu\\( ? \\)</p>\n\n</div><br><br><b>GATE2010 TF: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 8 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312027/gate2010-tf-ga-8\" target=\"_blank\">https://gateoverflow.in/312027/gate2010-tf-ga-8</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"40208\"></a><div itemprop=\"text\"><p>In a class of&nbsp;\\( 300 \\) students in an M.Tech programme, each student is required to take at least one&nbsp;subject from the following three:</p>\n\n<ul>\n\t<li>M600: Advanced Engineering Mathematics</li>\n\t<li>C600: Computational Methods for Engineers</li>\n\t<li>E600: Experimental Techniques for Engineers</li>\n</ul>\n\n<p>The registration data for the M.Tech class shows that \\( 100 \\) students have taken M600, \\( 200 \\) students&nbsp;have taken C600, and \\( 60 \\) students have taken E600. What is the maximum possible number of&nbsp;students in the class who have taken all the above three subjects?</p>\n\n</div><br><br><b>GATE2011 GG: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40208/gate2011-gg-ga-7\" target=\"_blank\">https://gateoverflow.in/40208/gate2011-gg-ga-7</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"40184\"></a><div itemprop=\"text\"><p>There are \\( 16 \\) teachers who can teach Thermodynamics \\( \\text{(TD)} \\), \\( 11 \\) who can teach Electrical Sciences \\( \\text{(ES)} \\), and \\( 5 \\) who can teach both \\( \\text{TD} \\) and Engineering Mechanics \\( \\text{(EM)} \\). There are a total of \\( 40 \\) teachers. \\( 6 \\) cannot teach any of the three subjects, i.e. \\( \\text{EM, ES} \\) or \\( \\text{TD} \\). \\( 6 \\) can teach only \\( \\text{ES} \\). \\( 4 \\) can teach all three subjects, i.e. \\( \\text{EM, ES} \\) and \\( \\text{TD} \\). \\( 4 \\) can teach \\( \\text{ES} \\) and \\( \\text{TD} \\). How many can teach both \\( \\text{ES} \\) and \\( \\text{EM} \\) but not \\( \\text{TD} \\)?</p>\n\n</div><br><br><b>GATE2015 CE-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40184/gate2015-ce-2-ga-10\" target=\"_blank\">https://gateoverflow.in/40184/gate2015-ce-2-ga-10</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"108484\"></a><div itemprop=\"text\"><p>The Venn diagram shows the preference of the student population for leisure activities.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"219\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___venn_diagram/34ff104af4027828ee7eea9264ff0cdb.png\" width=\"411\"></p>\n\n<p>From the data given, the number of students who like to read books or play sports is _______.</p>\n\n</div><br><br><b>GATE2016 EC-2: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 44 \\)</p>",
+            "<p>\\( 51 \\)</p>",
+            "<p>\\( 79 \\)</p>",
+            "<p>\\( 108 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 108 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108484/gate2016-ec-2-ga-6\" target=\"_blank\">https://gateoverflow.in/108484/gate2016-ec-2-ga-6</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"313509\"></a><div itemprop=\"text\"><p>\\( 500 \\) students are taking one or more course out of Chemistry, Physics, and Mathematics. Registration records indicate course enrollment as follows: Chemistry \\( (329) \\), Physics \\( (186) \\), and Mathematics \\( (295) \\). Chemistry and Physics \\( (83) \\), Chemistry and Mathematics \\( (217) \\), and Physics and Mathematics (63). How many students are taking all \\( 3 \\) subjects?</p>\n\n</div><br><br><b>GATE2017 EC-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 37 \\)</p>",
+            "<p>\\( 43 \\)</p>",
+            "<p>\\( 47 \\)</p>",
+            "<p>\\( 53 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 53 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313509/gate2017-ec-2-ga-5\" target=\"_blank\">https://gateoverflow.in/313509/gate2017-ec-2-ga-5</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"313609\"></a><div itemprop=\"text\"><p>Forty students watched films A, B and C over a week. Each student watched either only one film or all three. Thirteen students watched film A, sixteen students watched film B and nineteen students watched film C. How many students watched all three films?</p>\n\n</div><br><br><b>GATE2018 ME-2: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0</p>",
+            "<p>2</p>",
+            "<p>4</p>",
+            "<p>8</p>"
+          ],
+          "correct_answer": "<p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313609/gate2018-me-2-ga-6\" target=\"_blank\">https://gateoverflow.in/313609/gate2018-me-2-ga-6</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"313440\"></a><div itemprop=\"text\"><p>In a sports academy of \\( 300 \\) peoples, \\( 105 \\) play only cricket, \\( 70 \\) play only hockey,&nbsp;\\( 50 \\) play only football, \\( 25 \\) play both cricket and hockey, \\( 15 \\) play both hockey and football and \\( 30 \\) play both cricket and football. The rest of them play all three sports. What is the percentage of people who play at least two sports?</p>\n\n</div><br><br><b>GATE2019 CE-1: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23.30 \\)</p>",
+            "<p>\\( 25.00 \\)</p>",
+            "<p>\\( 28.00 \\)</p>",
+            "<p>\\( 50.00 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 25.00 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313440/gate2019-ce-1-ga-7\" target=\"_blank\">https://gateoverflow.in/313440/gate2019-ce-1-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

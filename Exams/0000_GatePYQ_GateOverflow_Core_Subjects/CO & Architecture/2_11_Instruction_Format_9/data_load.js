@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "CO & Architecture - Instruction Format",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Instruction Format",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"91676\"></a><div itemprop=\"text\">Using an expanding opcode encoding for instructions, is it possible to encode all of the following in an instruction format shown in the below figure. Justify your answer.<br>\n\\[ \\begin{array}{ll} \\text{14} &amp; \\text{double address instructions} \\\\ &nbsp;\\text{127} &amp; \\text{single address instructions} \\\\ &nbsp;&nbsp;\\text{60} &amp; \\text{no address (zero address) instructions} \\\\ \\end{array} \\] \\[ \\begin{array}{|c|c|c|} \\leftarrow4\\text{ bits}\\rightarrow&amp; \\leftarrow6\\text{ bits}\\rightarrow &amp; \\leftarrow6\\text{ bits}\\rightarrow &nbsp;\\\\ \\hline \\text{Opcode}&amp; \\underset{\\text{Address}}{\\text{Operand 1}}&amp; \\underset{\\text{Address}}{\\text{Operand 2}} \\\\\\hline \\end{array} \\]</div><br><br><b>GATE CSE 1988 | Question: 2-ii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/91676/gate-cse-1988-question-2-ii\" target=\"_blank\">https://gateoverflow.in/91676/gate-cse-1988-question-2-ii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"551\"></a><div itemprop=\"text\">In an \\( 11 \\)-bit computer instruction format, the size of address field is \\( 4 \\)-bits. The computer uses expanding OP code technique and has \\( 5 \\) two-address instructions and \\( 32 \\) one-address instructions. The number of zero-address instructions it can support is ________</div><br><br><b>GATE CSE 1992 | Question: 01-vi</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "256",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/551/gate-cse-1992-question-01-vi\" target=\"_blank\">https://gateoverflow.in/551/gate-cse-1992-question-01-vi</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2479\"></a><div itemprop=\"text\">State True or False with one line explanation<br>\n<br>\nExpanding opcode instruction formats are commonly employed in RISC. (Reduced Instruction Set Computers) machines.</div><br><br><b>GATE CSE 1994 | Question: 3.2</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "True",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2479/gate-cse-1994-question-3-2\" target=\"_blank\">https://gateoverflow.in/2479/gate-cse-1994-question-3-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1767\"></a><div itemprop=\"text\">A machine has a \\( 32\\text{-bit} \\) architecture, with \\( 1\\text{-word} \\) long instructions. It has \\( 64 \\) registers, each of which is \\( 32 \\) bits long. It needs to support \\( 45 \\) instructions, which have an immediate operand in addition to two register operands. Assuming that the immediate operand is an unsigned integer, the maximum value of the immediate operand is ____________</div><br><br><b>GATE CSE 2014 Set 1 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "16383",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1767/gate-cse-2014-set-1-question-9\" target=\"_blank\">https://gateoverflow.in/1767/gate-cse-2014-set-1-question-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"39601\"></a><div itemprop=\"text\">Consider a processor with \\( 64 \\) registers and an instruction set of size twelve. Each instruction has five distinct fields, namely, opcode, two source register identifiers, one destination register identifier, and twelve-bit immediate value. Each instruction must be stored in memory in a byte-aligned fashion. If a program has \\( 100 \\) instructions, the amount of memory (in bytes) consumed by the program text is _________.</div><br><br><b>GATE CSE 2016 Set 2 | Question: 31</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "500",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39601/gate-cse-2016-set-2-question-31\" target=\"_blank\">https://gateoverflow.in/39601/gate-cse-2016-set-2-question-31</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"204126\"></a><div itemprop=\"text\">A processor has \\( 16 \\) integer registers \\( \\text{(R0, R1}, \\ldots ,\\text{ R15)} \\) and \\( 64 \\) floating point registers \\( \\text{(F0, F1}, \\ldots , \\text{F63)}. \\) It uses a \\( 2\\text{- byte} \\) instruction format. There are four categories of instructions: \\( \\text{Type-1, Type-2, Type-3}, \\) and \\( \\text{Type-4. Type-1} \\) category consists of four instructions, each with \\( 3 \\) integer register operands \\( \\text{(3Rs). Type-2} \\) category consists of eight instructions, each with \\( 2 \\) floating point register operands \\( \\text{(2Fs). Type-3} \\) category consists of fourteen instructions, each with one integer register operand and one floating point register operand \\( \\text{(1R+1F). Type-4} \\) category consists of \\( \\text{N} \\) instructions, each with a floating point register operand \\( \\text{(1F)}. \\)<br>\n<br>\nThe maximum value of \\( \\text{N} \\) is _________.</div><br><br><b>GATE CSE 2018 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204126/gate-cse-2018-question-51\" target=\"_blank\">https://gateoverflow.in/204126/gate-cse-2018-question-51</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"333187\"></a><div itemprop=\"text\">A processor has \\( 64 \\) registers and uses \\( 16 \\)-bit instruction format. It has two types of instructions: I-type and R-type. Each I-type instruction contains an opcode, a register name, and a \\( 4 \\)-bit immediate value. Each R-type instruction contains an opcode and two register names. If there are \\( 8 \\) distinct I-type opcodes, then the maximum number of distinct R-type opcodes is _______.</div><br><br><b>GATE CSE 2020 | Question: 44</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "14",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333187/gate-cse-2020-question-44\" target=\"_blank\">https://gateoverflow.in/333187/gate-cse-2020-question-44</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"422850\"></a><div itemprop=\"text\">A processor with \\( 16 \\) general purpose registers uses a \\( 32 \\)-bit instruction format. The instruction format consists of an opcode field, an addressing mode field, two register operand fields, and a \\( 16 \\)-bit scalar field. If \\( 8 \\) addressing modes are to be supported, the maximum number of unique opcodes possible for every addressing mode is ___________.</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 47</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "32",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47\" target=\"_blank\">https://gateoverflow.in/422850/gate-cse-2024-set-2-question-47</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"422846\"></a><div itemprop=\"text\">A processor uses a \\( 32 \\)-bit instruction format and supports byte-addressable memory access. The \\( \\text{ISA} \\) of the processor has \\( 150 \\) distinct instructions. The instructions are equally divided into two types, namely \\( \\text{R} \\)-type and \\( \\text{I} \\)-type, whose formats are shown below.<br>\n<br>\nR - type Instruction Format:<br>\n\\begin{array}{|l|l|l|l|l|}<br>\n\\hline OPCODE &amp; UNUSED &amp; DST Register &amp; SRC Register1 &amp; SRC Register 2 \\\\<br>\n\\hline<br>\n\\end{array}<br>\n<br>\nI - type Instruction Format:<br>\n\\begin{array}{|l|l|l|l|}<br>\n\\hline OPCODE &amp; DST Register &amp; SRC Register &amp; \\# Immediate value/address \\\\<br>\n\\hline<br>\n\\end{array}<br>\n<br>\nIn the \\( \\text{OPCODE} \\), \\( 1 \\) bit is used to distinguish between \\( \\text{I} \\)-type and \\( \\text{R} \\)-type instructions and the remaining bits indicate the operation. The processor has \\( 50 \\) architectural registers, and all register fields in the instructions are of equal size.<br>\n<br>\nLet \\( \\text{X} \\) be the number of bits used to encode the \\( \\text{UNUSED} \\) field, \\( \\text{Y} \\) be the number of bits used to encode the \\( \\text{OPCODE} \\) field, and \\( \\text{Z} \\) be the number of bits used to encode the immediate value/address field. The value of \\( \\text{X+2Y+Z} \\) is __________.</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 51</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422846/gate-cse-2024-set-2-question-51\" target=\"_blank\">https://gateoverflow.in/422846/gate-cse-2024-set-2-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+});

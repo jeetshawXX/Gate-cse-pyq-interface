@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Quantifiers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Quantifiers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369370\"></a><div itemprop=\"text\"><p>Let the predicates \\( D(x,y) \\) mean “team \\( x \\) defeated team \\( y \\)” and \\( P(x,y) \\) mean “team \\( x \\) has played team \\( y \\)”. The quantified formula for the statement that there is a team that has beaten every team it has played is:</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\exists x \\forall y (P(x,y) \\rightarrow D(x,y)) \\)</p>",
+            "<p>\\(  \\forall x&nbsp; \\exists y (P(x,y) \\rightarrow D(x,y)) \\)</p>",
+            "<p>\\(  \\forall y&nbsp; \\exists x (P(x,y) \\rightarrow D(x,y)) \\)</p>",
+            "<p>\\( \\exists x \\forall y (D(x,y) \\rightarrow P(x,y)) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\exists x \\forall y (P(x,y) \\rightarrow D(x,y)) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369370/nielit-2021-dec-scientist-a-section-b-43\" target=\"_blank\">https://gateoverflow.in/369370/nielit-2021-dec-scientist-a-section-b-43</a></p>"
+        }
+      ]
+    }
+  ]
+}

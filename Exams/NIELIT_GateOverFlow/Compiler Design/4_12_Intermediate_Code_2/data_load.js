@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Intermediate Code",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Intermediate Code",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275488\"></a><div itemprop=\"text\"><p>Identify the correct nodes and edges in the given intermediate code</p>\n\n<ol>\n\t<li>\\( i=1 \\)</li>\n\t<li>\\( t1=5*i \\)</li>\n\t<li>\\( t2=4*t1 \\)</li>\n\t<li>\\( t3=t2 \\)</li>\n\t<li>\\( a[t3]=0 \\)</li>\n\t<li>\\( i=i+1 \\)</li>\n\t<li>if \\( i&lt;15 \\) goto(2)</li>\n</ol>\n\n</div><br><br><b>Compiler Design: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 33 \\)</p>",
+            "<p>\\( 44 \\)</p>",
+            "<p>\\( 43 \\)</p>",
+            "<p>\\( 34 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 33 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275488/nielit-2018-76\" target=\"_blank\">https://gateoverflow.in/275488/nielit-2018-76</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369359\"></a><div itemprop=\"text\"><p>One of the purposes of using intermediate code in compilers is to:</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>make parsing and semantic analysis simpler</p>",
+            "<p>improve error recovery and error reporting</p>",
+            "<p>increase the chances of reusing the machine – independent code optimizer in other compilers</p>",
+            "<p>improve the register allocation</p>"
+          ],
+          "correct_answer": "<p>increase the chances of reusing the machine – independent code optimizer in other compilers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369359/nielit-2021-dec-scientist-a-section-b-54\" target=\"_blank\">https://gateoverflow.in/369359/nielit-2021-dec-scientist-a-section-b-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

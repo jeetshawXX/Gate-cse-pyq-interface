@@ -1,0 +1,316 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Graph Search",
+  "duration": 61,
+  "sections": [
+    {
+      "name": "Graph Search",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"88152\"></a><div itemprop=\"text\"><p style=\"text-align:center\"><img alt=\"\" width=\"400\" src=\"images/gateOverflow_pyq_images/algorithms___graph_search/119c47634aabeede8539c288c8624054.png\"></p><p>In the graph shown above, the depth-first spanning tree edges are marked with a \\( ’ T’ \\). Identify the forward, backward, and cross edges.</p></div><br><br><b>GATE CSE 1989 | Question: 4-vii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/88152/gate-cse-1989-question-4-vii\" target=\"_blank\">https://gateoverflow.in/88152/gate-cse-1989-question-4-vii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"636\"></a><div itemprop=\"text\"><p>The most appropriate matching for the following pairs</p>\n\n<p>\\[ \\begin{array}{|l|l|}\\hline \\text{X: depth first search}&nbsp; &amp;&nbsp; \\text{1: heap } \\\\\\hline&nbsp; \\text{Y: breadth first search} &amp; \\text{2: queue} \\\\\\hline&nbsp; \\text{Z: sorting} &amp; \\text{3: stack} \\\\\\hline \\end{array} \\]</p>\n\n<p>is:</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 1.13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{X - 1,&nbsp; Y - 2,&nbsp; Z - 3} \\)</p>",
+            "<p>\\( \\text{X - 3,&nbsp; Y - 1,&nbsp; Z - 2} \\)</p>",
+            "<p>\\( \\text{X - 3,&nbsp; Y - 2,&nbsp; Z - 1} \\)</p>",
+            "<p>\\( \\text{X - 2,&nbsp; Y - 3,&nbsp; Z - 1} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{X - 3,&nbsp; Y - 2,&nbsp; Z - 1} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/636/gate-cse-2000-question-1-13\" target=\"_blank\">https://gateoverflow.in/636/gate-cse-2000-question-1-13</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"4208\"></a><div itemprop=\"text\"><p>Let \\( G \\) be an undirected graph. Consider a depth-first traversal of \\( G \\), and let \\( T \\) be the resulting depth-first search tree. Let \\( u \\) be a vertex in \\( G \\) and let \\( v \\) be the first new (unvisited) vertex visited after visiting \\( u \\) in the traversal. Which of the following statement is always true?</p></div><br><br><b>GATE CSE 2000 | Question: 2.19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{u, v\\} \\) must be an edge in \\( G \\), and \\( u \\) is a descendant of \\( v \\)&nbsp;in \\( T \\)</p>",
+            "<p>\\( \\{u, v\\} \\) must be an edge in \\( G \\), and \\( v \\)&nbsp;is a descendant of \\( u \\) in \\( T \\)</p>",
+            "<p>If \\( \\{u, v\\} \\) is not an edge in \\( G \\) then \\( u \\) is a leaf in \\( T \\)</p>",
+            "<p>If \\( \\{u, v\\} \\) is not an edge in \\( G \\) then \\( u \\) and \\( v \\) must have the same parent in \\( T \\)</p>"
+          ],
+          "correct_answer": "<p>If \\( \\{u, v\\} \\) is not an edge in \\( G \\) then \\( u \\) is a leaf in \\( T \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/4208/gate-cse-2000-question-2-19\" target=\"_blank\">https://gateoverflow.in/4208/gate-cse-2000-question-2-19</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"732\"></a><div itemprop=\"text\"><p>Consider an undirected, unweighted graph \\( G \\). Let a breadth-first traversal of \\( G \\) be done starting from a node \\( r \\). Let \\( d(r,u) \\) and \\( d(r,v) \\) be the lengths of the shortest paths from \\( r \\) to \\( u \\) and \\( v \\) respectively in \\( G \\). If \\( u \\) is visited before \\( v \\) during the breadth-first traversal, which of the following statements is correct?</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 2.14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( d(r,u) &lt; d(r,v) \\)</p>",
+            "<p>\\( d(r,u) &gt; d(r,v) \\)</p>",
+            "<p>\\( d(r,u) \\leq d(r,v) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( d(r,u) \\leq d(r,v) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/732/gate-cse-2001-question-2-14\" target=\"_blank\">https://gateoverflow.in/732/gate-cse-2001-question-2-14</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"911\"></a><div itemprop=\"text\"><p>Consider the following graph:&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"262\" src=\"images/gateOverflow_pyq_images/algorithms___graph_search/1d6bdd4e18fe4764f1bf50f4e2b09e26.png\" width=\"314\"></p>\n\n<p>Among the following sequences:</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>abeghf</li>\n\t<li>abfehg</li>\n\t<li>abfhge</li>\n\t<li>afghbe</li>\n</ol>\n\n<p>Which are the depth-first traversals of the above graph?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I, II and IV only</p>",
+            "<p>I and IV only</p>",
+            "<p>II, III and IV only</p>",
+            "<p>I, III and IV only</p>"
+          ],
+          "correct_answer": "<p>I, III and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/911/gate-cse-2003-question-21\" target=\"_blank\">https://gateoverflow.in/911/gate-cse-2003-question-21</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"1824\"></a><div itemprop=\"text\"><p>Let \\( T \\) be a depth first search tree in an undirected graph \\( G \\). Vertices \\( u \\) and \\( ν \\) are leaves of this tree \\( T \\). The degrees of both \\( u \\) and \\( ν \\)&nbsp;in \\( G \\) are at least \\( 2 \\). which one of the following statements is true?</p></div><br><br><b>GATE CSE 2006 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There must exist a vertex \\( w \\) adjacent to both \\( u \\) and \\( ν \\) in \\( G \\)</p>",
+            "<p>There must exist a vertex \\( w \\) whose removal disconnects \\( u \\) and \\( ν \\) in \\( G \\)</p>",
+            "<p>There must exist a cycle in \\( G \\) containing \\( u \\) and \\( ν \\)</p>",
+            "<p>There must exist a cycle in \\( G \\) containing \\( u \\) and all its neighbours in \\( G \\)</p>"
+          ],
+          "correct_answer": "<p>There must exist a cycle in \\( G \\) containing \\( u \\) and all its neighbours in \\( G \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1824/gate-cse-2006-question-48\" target=\"_blank\">https://gateoverflow.in/1824/gate-cse-2006-question-48</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"417\"></a><div itemprop=\"text\"><p>The Breadth First Search algorithm has been implemented using the queue data structure. One possible order of visiting the nodes of the following graph is:</p>\n\n<p><img alt=\"\" height=\"176\" src=\"images/gateOverflow_pyq_images/algorithms___graph_search/62874ae308cc5c02ab35ce6ddb1ed771.png\" width=\"375\"></p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{MNOPQR} \\)</p>",
+            "<p>\\( \\text{NQMPOR} \\)</p>",
+            "<p>\\( \\text{QMNPRO} \\)</p>",
+            "<p>\\( \\text{QMNPOR} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{QMNPRO} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/417/gate-cse-2008-question-19\" target=\"_blank\">https://gateoverflow.in/417/gate-cse-2008-question-19</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1771\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a graph with \\( n \\) vertices and \\( m \\) edges. What is the tightest upper bound on the running time of Depth First Search on \\( G \\), when \\( G \\) is represented as an adjacency matrix?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 1 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n) \\)</p>",
+            "<p>\\( \\Theta(n+m) \\)</p>",
+            "<p>\\( \\Theta(n^2) \\)</p>",
+            "<p>\\( \\Theta(m^2) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11\" target=\"_blank\">https://gateoverflow.in/1771/gate-cse-2014-set-1-question-11</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1969\"></a><div itemprop=\"text\"><p>Consider the tree arcs of a BFS traversal from a source node \\( W \\) in an unweighted, connected, undirected graph. The tree \\( T \\) formed by the tree arcs is a data structure for computing</p>\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the shortest path between every pair of vertices.</p>",
+            "<p>the shortest path from \\( W \\) to every vertex in the graph.</p>",
+            "<p>the shortest paths from \\( W \\) to only those nodes that are leaves of \\( T \\).</p>",
+            "<p>the longest path in the graph.</p>"
+          ],
+          "correct_answer": "<p>the shortest path from \\( W \\) to every vertex in the graph.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1969/gate-cse-2014-set-2-question-14\" target=\"_blank\">https://gateoverflow.in/1969/gate-cse-2014-set-2-question-14</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"2047\"></a><div itemprop=\"text\"><p>Suppose depth first search is executed on the graph below starting at some unknown vertex. Assume that a recursive call to visit a vertex is made only after first checking that the vertex has not been visited earlier. Then the maximum possible recursion depth (including the initial call) is _________.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"176\" src=\"images/gateOverflow_pyq_images/algorithms___graph_search/753b4239cd68200065bd8deebe32ac0a.png\" width=\"526\"></p></div><br><br><b>GATE CSE 2014 Set 3 | Question: 13</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "19",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2047/gate-cse-2014-set-3-question-13\" target=\"_blank\">https://gateoverflow.in/2047/gate-cse-2014-set-3-question-13</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"8321\"></a><div itemprop=\"text\"><p>Let \\( G = (V, E) \\) be a simple undirected graph, and \\( s \\) be a particular vertex in it called the source. For \\( x \\in V \\), let \\( d(x) \\) denote the shortest distance in \\( G \\) from \\( s \\) to \\( x \\). A breadth first search (BFS) is performed starting at \\( s \\). Let \\( T \\) be the resultant BFS tree. If \\( (u, v) \\) is an edge of \\( G \\) that is not in \\( T \\), then which one of the following CANNOT be the value of \\( d(u) - d(v) \\)?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8321/gate-cse-2015-set-1-question-45\" target=\"_blank\">https://gateoverflow.in/8321/gate-cse-2015-set-1-question-45</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"39563\"></a><div itemprop=\"text\">Breadth First Search (BFS) is started on a binary tree beginning from the root vertex. There is a vertex \\( t \\) at a distance four from the root. If \\( t \\) is the \\( n^{\\text{th}} \\) vertex in this BFS traversal, then the maximum possible value of \\( n \\) is __________</div><br><br><b>GATE CSE 2016 Set 2 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "31",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39563/gate-cse-2016-set-2-question-11\" target=\"_blank\">https://gateoverflow.in/39563/gate-cse-2016-set-2-question-11</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"118196\"></a><div itemprop=\"text\"><p>The Breadth First Search (BFS) algorithm has been implemented using the queue data structure. Which one of the following is a possible order of visiting the nodes in the graph below?</p>\n\n<p><img alt=\"\" height=\"143\" src=\"images/gateOverflow_pyq_images/algorithms___graph_search/1369e985a5bbaba7e3de4a89963d2d27.png\" width=\"235\"></p>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{MNOPQR} \\)</p>",
+            "<p>\\( \\text{NQMPOR} \\)</p>",
+            "<p>\\( \\text{QMNROP} \\)</p>",
+            "<p>\\( \\text{POQNMR} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{POQNMR} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118196/gate-cse-2017-set-2-question-15\" target=\"_blank\">https://gateoverflow.in/118196/gate-cse-2017-set-2-question-15</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"204104\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a simple undirected graph. Let \\( T_D \\) be a depth first search tree of \\( G \\). Let \\( T_B \\) be a breadth first search tree of \\( G \\). Consider the following statements.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>No edge of \\( G \\) is a cross edge with respect to \\( T_D \\). (A cross edge in \\( G \\) is between two nodes neither of which is an ancestor of the other in \\( T_D \\)).</li>\n\t<li>For every edge \\( (u, v) \\) of \\( G \\), if \\( u \\) is at depth \\( i \\) and \\( v \\) is at depth \\( j \\) in \\( T_B \\), then \\( \\mid i-j \\mid =1 \\).</li>\n</ol>\n\n<p>Which of the statements above must necessarily be true?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I only</p>",
+            "<p>II only</p>",
+            "<p>Both I and II</p>",
+            "<p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204104/gate-cse-2018-question-30\" target=\"_blank\">https://gateoverflow.in/204104/gate-cse-2018-question-30</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"399265\"></a><div itemprop=\"text\">Let \\( U=\\{1,2,3\\} \\). Let \\( 2^{U} \\) denote the powerset of \\( U \\). Consider an undirected graph \\( G \\) whose vertex set is \\( 2^{U} \\). For any \\( A, B \\in 2^{U},(A, B) \\) is an edge in \\( G \\) if and only if (i) \\( A \\neq B \\), and (ii) either \\( A \\subsetneq B \\) or \\( B \\subsetneq A \\). For any vertex \\( A \\) in \\( G \\), the set of all possible orderings in which the vertices of \\( G \\) can be visited in a Breadth First Search \\( \\text{(BFS)} \\) starting from \\( A \\) is denoted by \\( \\mathcal{B}(A) \\).<br>\n<br>\nIf \\( \\emptyset \\) denotes the empty set, then the cardinality of \\( \\mathcal{B}(\\emptyset) \\) is ______________.</div><br><br><b>GATE CSE 2023 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5040",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399265/gate-cse-2023-question-46\" target=\"_blank\">https://gateoverflow.in/399265/gate-cse-2023-question-46</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"422807\"></a><div itemprop=\"text\"><p>​​​​Let \\( G \\) be a directed graph and \\( T \\) a depth first search \\( \\text{(DFS)} \\) spanning tree in \\( G \\) that is rooted at a vertex \\( v \\). Suppose \\( T \\) is also a breadth first search \\( \\text{(BFS)} \\) tree in \\( G \\), rooted at \\( v \\). Which of the following statements is/are TRUE for <em>every </em>such graph \\( G \\) and tree \\( T \\)?</p></div><br><br><b>GATE CSE 2024 | Set 1 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There are no back-edges in \\( G \\) with respect to the tree \\( T \\)</p>",
+            "<p>There are no cross-edges in \\( G \\) with respect to the tree \\( T \\)</p>",
+            "<p>There are no forward-edge in \\( G \\) with respect to the tree \\( T \\)</p>",
+            "<p>The only edges in \\( G \\) are the edges in \\( T \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>There are no forward-edge in \\( G \\) with respect to the tree \\( T \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422807/gate-cse-2024-set-1-question-35\" target=\"_blank\">https://gateoverflow.in/422807/gate-cse-2024-set-1-question-35</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"422792\"></a><div itemprop=\"text\">The number of edges present in the forest generated by the \\( \\text{DFS} \\) traversal of an undirected graph \\( G \\) with \\( 100 \\) vertices is \\( 40 \\). The number of connected components in \\( G \\) is __________.</div><br><br><b>GATE CSE 2024 | Set 1 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "60",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422792/gate-cse-2024-set-1-question-50\" target=\"_blank\">https://gateoverflow.in/422792/gate-cse-2024-set-1-question-50</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"422958\"></a><div itemprop=\"text\"><p>​​​​Consider performing depth-first search (DFS) on an undirected and unweighted graph \\( G \\) starting at vertex \\( s \\). For any vertex \\( u \\) in \\( G, d[u] \\) is the length of the shortest path from \\( s \\) to \\( u \\). Let \\( (u, v) \\) be an edge in \\( G \\) such that \\( d[u]&lt;d[v] \\). If the edge \\( (u, v) \\) is explored first in the direction from \\( u \\) to \\( v \\) during the above DFS, then \\( (u, v) \\) becomes a \\( \\_\\_\\_\\_\\_\\_\\_\\_ \\) edge.</p><p></p></div><br><br><b>GATE DS&AI 2024 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>tree</p>",
+            "<p>cross</p>",
+            "<p>back</p>",
+            "<p>gray</p>"
+          ],
+          "correct_answer": "<p>tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422958/gate-ds&ai-2024-question-4\" target=\"_blank\">https://gateoverflow.in/422958/gate-ds&ai-2024-question-4</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"3759\"></a><div itemprop=\"text\"><p>In a depth-first traversal of a graph \\( G \\) with \\( n \\) vertices, \\( k \\) edges are marked as tree edges. The number of connected components in \\( G \\) is</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( k \\)</p>",
+            "<p>\\( k+1 \\)</p>",
+            "<p>\\( n-k-1 \\)</p>",
+            "<p>\\( n-k \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n-k \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3759/gate-it-2005-question-14\" target=\"_blank\">https://gateoverflow.in/3759/gate-it-2005-question-14</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"3590\"></a><div itemprop=\"text\"><p>Consider the depth-first-search of an undirected graph with \\( 3 \\) vertices \\( P \\), \\( Q \\), and \\( R \\). Let discovery time \\( d(u) \\)<em> </em>represent the time instant when the vertex \\( u \\) is first visited, and finish time \\( f(u) \\) represent the time instant when the vertex \\( u \\)<em> </em>is last visited. Given that</p><p>\\[ \\begin{array}{|ll|ll|}\\hline &amp; \\text{\\( d(P) = 5 \\) units&nbsp;}&nbsp; &amp;&nbsp; \\text{&nbsp;\\( f(P) = 12 \\) units&nbsp; } \\\\\\hline &amp;&nbsp; \\text{\\( d(Q) = 6 \\) units} &amp; \\text{&nbsp;\\( f(Q) = 10 \\) units} \\\\\\hline &amp; \\text{\\( d(R) = 14 \\) unit} &amp; \\text{ \\( f(R) = 18 \\) units}&nbsp; \\\\\\hline \\end{array} \\]<br>Which one of the following statements is TRUE about the graph?</p></div><br><br><b>GATE IT 2006 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>There is only one connected component</p>",
+            "<p>There are two connected components, and \\( P \\) and \\( R \\) are connected</p>",
+            "<p>There are two connected components, and \\( Q \\) and \\( R \\) are connected</p>",
+            "<p>There are two connected components, and \\( P \\) and \\( Q \\) are connected</p>"
+          ],
+          "correct_answer": "<p>There are two connected components, and \\( P \\) and \\( Q \\) are connected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3590/gate-it-2006-question-47\" target=\"_blank\">https://gateoverflow.in/3590/gate-it-2006-question-47</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"3457\"></a><div itemprop=\"text\"><p>A depth-first search is performed on a directed acyclic graph. Let \\( d[u] \\) denote the time at which vertex \\( u \\) is visited for the first time and \\( f[u] \\) the time at which the DFS&nbsp;call to the vertex \\( u \\) terminates. Which of the following statements is always TRUE for all edges \\( (u, v) \\) in the graph ?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( d[u] &lt; d[v] \\)</p>",
+            "<p>\\( d[u] &lt; f[v] \\)</p>",
+            "<p>\\( f[u] &lt; f[v] \\)</p>",
+            "<p>\\( f[u] &gt; f[v] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f[u] &gt; f[v] \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3457/gate-it-2007-question-24\" target=\"_blank\">https://gateoverflow.in/3457/gate-it-2007-question-24</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"3357\"></a><div itemprop=\"text\"><p>Consider the following sequence of nodes for the undirected graph given below:</p>\n\n<ol>\n\t<li>\\( a \\) \\( b \\) \\( e \\) \\( f \\) \\( d \\) \\( g \\) \\( c \\)</li>\n\t<li>\\( a \\) \\( b \\) \\( e \\) \\( f \\) \\( c \\) \\( g \\) \\( d \\)</li>\n\t<li>\\( a \\) \\( d \\) \\( g \\) \\( e \\) \\( b \\) \\( c \\) \\( f \\)</li>\n\t<li>\\( a \\) \\( d \\) \\( b \\) \\( c \\) \\( g \\) \\( e \\) \\( f \\)</li>\n</ol>\n\n<p>A Depth First Search (DFS) is started at node \\( a \\). The nodes are listed in the order they are first visited. Which&nbsp;of the above is/are&nbsp;possible output(s)?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"298\" src=\"images/gateOverflow_pyq_images/algorithms___graph_search/5634840ed6683f6f17d36c897046048e.png\" width=\"298\"></p>\n\n</div><br><br><b>GATE IT 2008 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\) and \\( 3 \\) only</p>",
+            "<p>\\( 2 \\) and \\( 3 \\) only</p>",
+            "<p>\\( 2, 3 \\) and \\( 4 \\) only</p>",
+            "<p>\\( 1, 2 \\) and \\( 3 \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) and \\( 3 \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3357/gate-it-2008-question-47\" target=\"_blank\">https://gateoverflow.in/3357/gate-it-2008-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+});

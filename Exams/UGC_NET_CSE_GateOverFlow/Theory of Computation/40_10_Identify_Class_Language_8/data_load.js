@@ -1,0 +1,131 @@
+window.__examLoadCallback({
+  "title": "Theory of Computation - Identify Class Language",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Identify Class Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48404\"></a><div itemprop=\"text\"><p>Given the following two languages:</p>\n\n<ul>\n\t<li>\\( L_1=\\{a^nba^n\\;|\\;n&gt;0\\} \\)</li>\n\t<li>\\( L_2=\\{a^nba^nb^{n+1}\\;|\\;n&gt;0\\} \\)</li>\n</ul>\n\n<p>Which of the following is correct?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | December 2015 | Part 3 | Question: 28</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>&nbsp;\\( L_1 \\) is context free language and \\( L_2 \\) is not context free language</p>",
+            "<p>&nbsp;\\( L_1 \\) is not context free language and \\( L_2 \\) is context free language</p>",
+            "<p>&nbsp;Both \\( L_1 \\) and \\( L_2 \\) are context free languages</p>",
+            "<p>&nbsp;Both \\( L_1 \\) and \\( L_2 \\) are not context free languages</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48404/ugc-net-cse-december-2015-part-3-question-28\" target=\"_blank\">https://gateoverflow.in/48404/ugc-net-cse-december-2015-part-3-question-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"360785\"></a><div itemprop=\"text\"><p>Consider the following languages:</p>\n\n<p>\\( L_1 = \\{ a^nb^nc^m \\} \\cup \\{a^nb^mc^m\\}, n, m \\geq 0 \\)</p>\n\n<p>\\( L_2 =\\{ww^R \\mid w \\in\\{ a, b \\}^*\\} \\) Where \\( R \\) represents reversible operation.</p>\n\n<p>Which one of the following is (are) inherently ambiguous languages(s)?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | December 2019 | Part 2 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Only \\( L_1 \\)</p>",
+            "<p>Only \\( L_2 \\)</p>",
+            "<p>both \\( L_1 \\) and \\( L_2 \\)</p>",
+            "<p>neither \\( L_1 \\) nor \\( L_2 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/360785/ugc-net-cse-december-2019-part-2-question-48\" target=\"_blank\">https://gateoverflow.in/360785/ugc-net-cse-december-2019-part-2-question-48</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"335177\"></a><div itemprop=\"text\"><p>Given the following two statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( L=\\{w\\mid n_{a}(w)=n_{b}(w)\\} \\) is deterministic context free language, but not linear.</li>\n\t<li>\\( L=\\{a^{n}b^{n}\\} \\cup \\{a^{n}b^{2n} \\} \\) is linear, but not deterministic context free language.</li>\n</ol>\n\n<p>Which of the following options is correct?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | January 2017 | Part 3 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both (i) and (ii) are false.</p>",
+            "<p>Both (i) and (ii) are true.</p>",
+            "<p>(i) is true, (ii) is false.</p>",
+            "<p>(i) is false, (ii) is true.</p>"
+          ],
+          "correct_answer": "<p>Both (i) and (ii) are true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335177/ugc-net-cse-january-2017-part-3-question-61\" target=\"_blank\">https://gateoverflow.in/335177/ugc-net-cse-january-2017-part-3-question-61</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"58199\"></a><div itemprop=\"text\"><p>Given the following two languages :&nbsp;</p>\n\n<p>\\( L_{1}=\\left\\{a^{n}b^{n}|n\\geq 1\\right\\} \\cup \\left\\{a\\right\\} \\)</p>\n\n<p>\\( L_{2}=\\left\\{w C w^{R}|w \\in \\left\\{a, b\\right\\}^{*}\\right\\} \\)</p>\n\n<p>Which statement is correct ?</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | June 2014 | Part 3 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( L_{1} \\) and \\( L_{2} \\) are not deterministic.</p>",
+            "<p>\\( L_{1} \\) is not deterministic and \\( L_{2} \\) is deterministic.</p>",
+            "<p>\\( L_{1} \\) is deterministic and \\( L_{2} \\) is not deterministic.</p>",
+            "<p>Both \\( L_{1} \\) and \\( L_{2} \\) are deterministic.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Both \\( L_{1} \\) and \\( L_{2} \\) are deterministic.&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58199/ugc-net-cse-june-2014-part-3-question-75\" target=\"_blank\">https://gateoverflow.in/58199/ugc-net-cse-june-2014-part-3-question-75</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"349602\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Match \\( \\text{List I} \\) with \\( \\text{List II} \\)</p>\n\n<p>\\( L_R: \\) Regular language, \\( LCF \\): Context free language</p>\n\n<p>\\( L_{REC}: \\) Recursive langauge, \\( L_{RE} \\): Recursively enumerable language.</p>\n\n<p>\\( \\begin{array}{llll} &amp; \\text{List I} &amp; &amp; \\text{List II} \\\\ (A) &amp; \\text{Recursively Enumerable language} &amp; (I) &amp; \\overline{L}_{REC} \\cup L_{RE} \\\\ (B) &amp; \\text{Recursive language} &amp; (II) &amp; \\overline{L}_{CF} \\cup L_{REC} \\\\ (C) &amp; \\text{Context Free language} &amp; (III) &amp; L_R^* \\cap L_{CF} \\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | October 2020 | Part 2 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A-II, B-III, C-I \\)</p>",
+            "<p>\\( A-III, B-I, C-II \\)</p>",
+            "<p>\\( A-I, B-II, C-III \\)</p>",
+            "<p>\\( A-II, B-I, C-III \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A-I, B-II, C-III \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349602/ugc-net-cse-october-2020-part-2-question-71\" target=\"_blank\">https://gateoverflow.in/349602/ugc-net-cse-october-2020-part-2-question-71</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"59522\"></a><div itemprop=\"text\"><p>The language accepted by the non-deterministic pushdown automaton</p><p>\\( M=( \\{ q_0, q_1, q_2\\}, \\{a, b\\}, \\{ a, b, z\\}, \\delta, q_0, z, \\{q_2\\}) \\) with transitions</p><p>\\( \\delta (q_0 a, z) = \\{ (q_1 a), (q_2 \\lambda) \\} \\);</p><p>\\( \\delta (q_1, b, a) = \\{ (q_1, b) \\} \\)</p><p>\\( \\delta (q_1, b, b) = \\{ (q_1 b) \\}, \\delta (q_1, a, b) = \\{ (q_2, \\lambda ) \\} \\) is</p></div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 3 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L(abb^*a) \\)</p>",
+            "<p>\\( \\{a\\} U L(abb^*a) \\)</p>",
+            "<p>\\( L(ab^*a) \\)</p>",
+            "<p>\\( \\{a\\} U L(ab^*a) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{a\\} U L(abb^*a) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59522/ugc-net-cse-september-2013-part-3-question-19\" target=\"_blank\">https://gateoverflow.in/59522/ugc-net-cse-september-2013-part-3-question-19</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"59523\"></a><div itemprop=\"text\"><p>The language \\( L=\\{a^n b^n a^m b^m \\mid n \\geq 0, m \\geq 0 \\} \\) is</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 3 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Context free but not linear</p>",
+            "<p>Context free and linear</p>",
+            "<p>Not context free and not linear</p>",
+            "<p>Not context free but linear</p>"
+          ],
+          "correct_answer": "<p>Context free but not linear</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59523/ugc-net-cse-september-2013-part-3-question-20\" target=\"_blank\">https://gateoverflow.in/59523/ugc-net-cse-september-2013-part-3-question-20</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"59525\"></a><div itemprop=\"text\"><p>Assume statements \\( S_1 \\) and \\( S_2 \\) defined as:</p><p>\\( S_1 \\): \\( L_2 – L_1 \\) is recursive enumerable where \\( L_1 \\) and \\( L_2 \\) are recursive and recursive enumerable respectively.</p><p>\\( S_2 \\): The set of all Turing machines is countable.</p><p>Which of the following is true?</p></div><br><br><b>Theory of Computation: UGC NET CSE | September 2013 | Part 3 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( S_1 \\) is correct and \\( S_2 \\) is not correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are not correct</p>",
+            "<p>\\( S_1 \\) is not correct and \\( S_2 \\) is correct</p>"
+          ],
+          "correct_answer": "<p>Both \\( S_1 \\) and \\( S_2 \\) are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59525/ugc-net-cse-september-2013-part-3-question-21\" target=\"_blank\">https://gateoverflow.in/59525/ugc-net-cse-september-2013-part-3-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+});

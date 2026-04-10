@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Revision",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Revision",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378756\"></a><div itemprop=\"text\"><p>Arrange the following in increasing orders of asymptotic complexity.</p>\n\n<p>\\( f1(n)=2^{n}, f2(n)=n^{\\frac{3}{2}}, f3(n)=n\\log n,f4(n)=n^{\\log n} \\)</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f3, f2, f4, f1 \\)</p>",
+            "<p>\\( f3, f2, f1, f4 \\)</p>",
+            "<p>\\( f2, f3, f1, f4 \\)</p>",
+            "<p>\\( f2, f3, f4, f1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( f3, f2, f4, f1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378756/nielit-2021-dec-scientist-b-section-b-7\" target=\"_blank\">https://gateoverflow.in/378756/nielit-2021-dec-scientist-b-section-b-7</a></p>"
+        }
+      ]
+    }
+  ]
+}

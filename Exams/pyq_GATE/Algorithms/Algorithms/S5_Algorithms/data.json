@@ -1,0 +1,216 @@
+{
+  "title": "Algorithms - Algorithms - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Algorithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The worst case running times of Insertion sort, Mergesort and Quicksort, respectively, are: <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta\\)(n logn), \\(\\Theta\\)(n logn), and \\(\\Theta(n^{2})\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (n^{2}),\\Theta(n^{2}), and \\Theta (n logn)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n logn)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\Theta (n^{2}),\\Theta(n logn), and \\Theta (n^{2})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39660/gate2016-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following directed graph: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q11_81240da5.jpg\"> <br>\nThe number of different topological orderings of the vertices of the graph is <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/39669/gate2016-1-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let \\(f(n)=n\\) and \\(g(n)=n^{1+sin \\; n}\\) where n is a positive integer. Which of the following statements is/are correct? <br>I.   \\(f(n)=O(g(n)) \\)<br> II.   \\(f(n)= \\Omega (g(n))\\) <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>Both I and II</p>",
+            "<b>D.</b> <p>Neither I nor II</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Neither I nor II</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8501/gate2015-3-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let G be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of G is 500. When the weight of each edge of G is increased by five, the weight of a minimum spanning tree becomes ________. <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "995",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8499/gate2015-3-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Language \\(L_{1}\\) is polynomial time reducible to language \\(L_{2}\\). Language \\(L_{3}\\) is polynomial time reducible to \\(L_{2}\\), which in turn is polynomial time reducible to language \\(L_{4}\\). Which of the following is/are true?<br> I. if \\(L_{4} \\in P\\), then \\(L_{2} \\in P\\)<br>\nII. if \\(L_{1} \\in P\\) or \\(L_{3} \\in P\\), then \\(L_{2} \\in P\\) <br>     III. \\(L_{1} \\in P\\), if and only if \\(L_{3} \\in P\\)<br>   IV. if \\(L_{4} \\in P\\), then \\(L_{1} \\in P\\) and \\(L_{3} \\in P\\) <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II only</p>",
+            "<b>B.</b> <p>III only</p>",
+            "<b>C.</b> <p>I and IV only</p>",
+            "<b>D.</b> <p>I only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and IV only</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8562/gate2015-3-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Assume that a mergesort algorithm in the worst case takes 30 seconds for an input of size 64. Which of the following most closely approximates the maximum input size of a problem that can be solved in 6 minutes? <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>256</p>",
+            "<b>B.</b> <p>512</p>",
+            "<b>C.</b> <p>1024</p>",
+            "<b>D.</b> <p>2048</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>512</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8480/gate2015-3-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the equality \\(\\sum_{i=0}^{n}i^{3}=X\\) and the following choices for X  <br>  I.\\( \\Theta (n^{4}) \\)<br>II. \\( \\Theta (n^{5})  \\)<br> III. \\(O (n^{5})  \\)<br> IV. \\( \\Omega (n^{3})\\)  <br>The equality above remains correct if X is replaced by <br><br><strong>(GATE CSE 2015 SET-3)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I</p>",
+            "<b>B.</b> <p>Only II</p>",
+            "<b>C.</b> <p>I or III or IV but not II</p>",
+            "<b>D.</b> <p>II or III or IV but not I</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I or III or IV but not II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8398/gate2015-3-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose you are provided with the following function declaration in the C programming language.<br><br> int partition(int a[ ], int n); <br><br> The function treats the first element of a[] as a pivot, and rearranges the array so that all elements less than or equal to the pivot is in the left part of the array, and all elements greater than the pivot is in the right part. In addition, it moves the pivot so that the pivot is the last element of the left part. The return value is the number of elements in the left part. <br>\nThe following partially given function in the C programming language is used to find the \\( k^{th}\\) smallest element in an array a[ ] of size n using the partition function. We assume \\( k \\leq n\\)<pre><code>  int kth_smallest(int a[], int n, int k)\n{\n    int left_end = partition(a,n);\n    if ( left_end+1 == k ){\n         return a[left_end];\n    }\n    if ( left_end+1 &gt; k ){\n         return kth_smallest( ________ );\n    } else {\n         return kth_smallest( ________ );\n    }\n} </code></pre><br> The missing argument lists are respectively <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(a, left_end, k) and (a+left_end+1, n-left_end-1, k-left_end-1)</p>",
+            "<b>B.</b> <p>(a, left_end, k) and (a, n-left_end-1, k-left_end-1)</p>",
+            "<b>C.</b> <p>(a+left_end+1, n-left_end-1, k-left_end-1) and (a, left_end, k)</p>",
+            "<b>D.</b> <p>(a, n-left_end-1, k-left_end-1) and (a, left_end, k)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>(a, left_end, k) and (a+left_end+1, n-left_end-1, k-left_end-1)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8243/gate2015-2-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A Young tableau is a 2D array of integers increasing from left to right and from top to bottom. Any unfilled entries are marked with \\(\\infty\\), and hence there cannot be any entry to the right of, or below a \\(\\infty\\). The following Young tableau consists of unique entries.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q38_a55a5118.jpg\"><br> When an element is removed from a Young tableau, other elements should be moved into its place so that the resulting table is still a Young tableau (unfilled entries may be filled in with a \\(\\infty\\)). The minimum number of entries (other than 1) to be shifted, to remove 1 from the given Young tableau is _______. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8148/gate2015-2-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Given below are some algorithms, and some algorithm design paradigms.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q37_6178654c.jpg\"><br>\nMatch the above algorithms on the left to the corresponding design paradigm they follow. <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1-i, 2-iii, 3-i, 4-v.</p>",
+            "<b>B.</b> <p>1-iii, 2-iii, 3-i, 4-v</p>",
+            "<b>C.</b> <p>1-iii, 2-ii, 3-i, 4-iv</p>",
+            "<b>D.</b> <p>1-iii, 2-ii, 3-i, 4-v.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1-iii, 2-ii, 3-i, 4-iv</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8161/gate2015-2-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider two decision problems Q1,Q2 such that Q1 reduces in polynomial time to 3-SAT and 3-SAT reduces in polynomial time to Q2. Then which one of the following is consistent with the above statement? <br><br><strong>(GATE CSE 2015 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Q1 is in NP, Q2 is NP hard.</p>",
+            "<b>B.</b> <p>Q2 is in NP, Q1 is NP hard</p>",
+            "<b>C.</b> <p>Both Q1 and Q2 are in NP .</p>",
+            "<b>D.</b> <p>Both Q1 and Q2 are NP hard</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Q1 is in NP, Q2 is NP hard.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8048/gate2015-2-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following C function.<pre><code>int fun1(int n){\n    int i,j,k,p,q=0;\n    for (i=1; i &lt; n; ++i) {\n        p=0;\n        for (j=n; j &gt; 1; j=j/2)\n              ++p;\n        for (k=1; k &lt; p; k=k*2) \n             ++q;\n        }\n    return q;\n} </code></pre> Which one of the following most closely approximates the return value of the function fun1? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^{3}\\)</p>",
+            "<b>B.</b> <p>\\(n(log n)^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n log n\\)</p>",
+            "<b>D.</b> <p>\\(n log(log n)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(n log(log n)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8263/gate2015-1-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The graph shown below has 8 edges with distinct integer edge weights. The minimum spanning tree (MST) is of weight 36 and contains the edges: {(A, C), (B, C), (B, E), (E, F), (D, F)}. The edge weights of only those edges which are in the MST are given in the figure shown below. The minimum possible sum of weights of all 8 edges of this graph is ___________. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Algorithms\\q53_b563227e.jpg\"> <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "69",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/8313/gate2015-1-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let G = (V, E) be a simple undirected graph, and s be a particular vertex in it called the source. For \\(x \\in V\\), let d(x) denote the shortest distance in G from s to x. A breadth first search (BFS) is performed starting at s. Let T be the resultant BFS tree. If (u,v) is an edge of G that is not in T, then which one of the following CANNOT be the value of d(u)-d(v)? <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>-1</p>",
+            "<b>B.</b> <p>0</p>",
+            "<b>C.</b> <p>1</p>",
+            "<b>D.</b> <p>2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/8321/gate2015-1-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which one of the following is the recurrence equation for the worst case time complexity of the Quicksort algorithm for sorting n ( \\(\\geq\\)2) numbers? In the recurrence equations given in the options below, c is a constant. <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=2T(n/2)+cn</p>",
+            "<b>B.</b> <p>T(n)=T(n-1)+T(1)+cn</p>",
+            "<b>C.</b> <p>T(n)=2T(n-1)+cn</p>",
+            "<b>D.</b> <p>T(n)=T(n/2)+cn</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>T(n)=T(n-1)+T(1)+cn</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8017/gate2015-1-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

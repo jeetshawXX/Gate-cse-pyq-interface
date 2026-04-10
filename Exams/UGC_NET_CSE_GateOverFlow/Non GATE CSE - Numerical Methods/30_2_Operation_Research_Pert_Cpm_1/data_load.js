@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Numerical Methods - Operation Research Pert Cpm",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Operation Research Pert Cpm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"288369\"></a><div itemprop=\"text\"><p>In PERT/CPM, the merge event represents _____ of two or more events.</p>\n\n</div><br><br><b>Numerical Methods: UGC NET CSE | December 2018 | Part 2 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>completion</p>",
+            "<p>beginning</p>",
+            "<p>splitting</p>",
+            "<p>joining</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288369/ugc-net-cse-december-2018-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/288369/ugc-net-cse-december-2018-part-2-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,41 @@
+{
+  "title": "Discrete_Mathematics - Relation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The time complexity of computing the transitive closure of binary relation on a set of n elements is known to be <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(n * \\log (n))\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{\\frac{3}{2}}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213532/isro2018-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The time complexity of computing the transitive closure of a binary relation on a set of \\(n\\) elements is known to be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>B.</b> <p>\\(O\\left(n^{3 / 2}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(O(n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128781/isro2017-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Wireless Lan",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Wireless Lan",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366913\"></a><div itemprop=\"text\"><p>What is the access point \\( \\text{(AP)} \\) in a wireless \\( \\text{LAN} \\; ? \\)</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>device that allows wireless devices to connect to a wired network</p>",
+            "<p>wireless devices itself</p>",
+            "<p>both device that allows wireless devices to connect to a wired network and wireless devices itself</p>",
+            "<p>all the nodes in the network</p>"
+          ],
+          "correct_answer": "<p>device that allows wireless devices to connect to a wired network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366913/nielit-2021-dec-scientist-b-section-b-104\" target=\"_blank\">https://gateoverflow.in/366913/nielit-2021-dec-scientist-b-section-b-104</a></p>"
+        }
+      ]
+    }
+  ]
+}

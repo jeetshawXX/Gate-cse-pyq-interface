@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Binary Search Tree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Search Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335138\"></a><div itemprop=\"text\"><p>Which of the following statements is false?</p></div><br><br><b>Algorithms: UGC NET CSE | January 2017 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Optimal binary search tree construction can be performed efficiently using dynamic programming.</p>",
+            "<p>Breadth-first search cannot be used to find connected components of a graph.</p>",
+            "<p>Given the prefix and postfix walks of a binary tree, the tree cannot be reconstructed uniquely.</p>",
+            "<p>Depth-first-search can be used to find the connected components of a graph.&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Breadth-first search cannot be used to find connected components of a graph.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335138/ugc-net-cse-january-2017-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/335138/ugc-net-cse-january-2017-part-2-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+});

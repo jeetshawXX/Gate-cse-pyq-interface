@@ -1,0 +1,41 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - Articles",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Articles",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"39529\"></a><div itemprop=\"text\"><p>The man who is now Municipal Commissioner worked as ________________.</p></div><br><br><b>GATE CSE 2016 Set 2 | Question: GA-01</b></p>",
+          "type": "single",
+          "options": [
+            "<p>the security guard at a university</p>",
+            "<p>a security guard at the university</p>",
+            "<p>a security guard at university</p>",
+            "<p>the security guard at the university</p>"
+          ],
+          "correct_answer": "<p>a security guard at the university</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39529/gate-cse-2016-set-2-question-ga-01\" target=\"_blank\">https://gateoverflow.in/39529/gate-cse-2016-set-2-question-ga-01</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"460100\"></a><div itemprop=\"text\"><p>Ravi had _______ younger brother who taught at _________ university. He was widely regarded as ________ honorable man.</p><div><p>Select the option with the correct sequence of articles to fill in the blanks.</p></div></div><br><br><b>GATE CSE 2025 | Set 1 | GA Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{a; a; an} \\)</p>",
+            "<p>\\( \\mathrm{the; an; a} \\)</p>",
+            "<p>\\( \\mathrm{a ; an ; a} \\)</p>",
+            "<p>\\( \\mathrm{an; an; a} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{a; a; an} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1\" target=\"_blank\">https://gateoverflow.in/460100/gate-cse-2025-set-1-ga-question-1</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - NIELIT 2017 Scientist B CS - Section A",
+  "duration": 69,
+  "sections": [
+    {
+      "name": "NIELIT 2017 Scientist B CS - Section A",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336120\"></a><div itemprop=\"text\"><p>The present ages of three persons in proportions \\( 4:7:9 \\). Eight years ago, the sum of their ages was \\( 56 \\). Find their present ages (in years).</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8,20,28 \\)</p>",
+            "<p>\\( 16,28,36 \\)</p>",
+            "<p>\\( 20,35,45 \\)</p>",
+            "<p>None of the above options</p>"
+          ],
+          "correct_answer": "<p>\\( 16,28,36 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336120/nielit-2017-scientist-b-cs-section-a-5\" target=\"_blank\">https://gateoverflow.in/336120/nielit-2017-scientist-b-cs-section-a-5</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336122\"></a><div itemprop=\"text\"><p>The percentage profit earned by selling an article for \\( \\text{Rs.}1,920 \\) is equal to the percentage loss incurred by selling the same article for \\( \\text{Rs.}1,280 \\). At what price should the article be sold to make \\( 25\\% \\) profit?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Rs.}2,000 \\)</p>",
+            "<p>\\( \\text{Rs.}2,200 \\)</p>",
+            "<p>\\( \\text{Rs.}2,400 \\)</p>",
+            "<p>Data inadequate</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Rs.}2,000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336122/nielit-2017-scientist-b-cs-section-a-3\" target=\"_blank\">https://gateoverflow.in/336122/nielit-2017-scientist-b-cs-section-a-3</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336124\"></a><div itemprop=\"text\"><p>What is the maximum number of distinct handshakes that can happen in the room with \\( 5 \\) people in it?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336124/nielit-2017-scientist-b-cs-section-a-1\" target=\"_blank\">https://gateoverflow.in/336124/nielit-2017-scientist-b-cs-section-a-1</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336903\"></a><div itemprop=\"text\"><p>A can is filled with \\( 5 \\) paise coins. Another can is filled with \\( 10 \\) paise coins. Another can is filled with \\( 25 \\) paise coins. All the cans are given wrong labels. If the can labeled \\( 25 \\) paise is not having the \\( 10 \\) paise coins, what will the can, labeled \\( 10 \\) paise have?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25 \\) paise</p>",
+            "<p>\\( 5 \\) paise</p>",
+            "<p>\\( 10 \\)&nbsp;paise</p>",
+            "<p>cannot be determined</p>"
+          ],
+          "correct_answer": "<p>\\( 25 \\) paise</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336903/nielit-2017-oct-scientific-assistant-a-cs-section-b-17\" target=\"_blank\">https://gateoverflow.in/336903/nielit-2017-oct-scientific-assistant-a-cs-section-b-17</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"351654\"></a><div itemprop=\"text\"><p>&nbsp;</p>\n\n<p>Gopal went to a fruit market with certain amount of money. With this money he can buy either \\( 50 \\) oranges or \\( 40 \\) mangoes. He retains \\( 10\\% \\) of the money for taxi fare. If he buys \\( 20 \\) mangoes, then the number of oranges he can buy with balance amount is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT Scientist B 2020 November: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351654/nielit-scientist-b-2020-november-28\" target=\"_blank\">https://gateoverflow.in/351654/nielit-scientist-b-2020-november-28</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"366828\"></a><div itemprop=\"text\"><p>In a fraction, numerator is increased by \\( 25 \\% \\) and the denominator is diminished by \\( 10 \\%. \\) The new fraction obtained is \\( 5/9. \\) The original fraction is \\( : \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2/5 \\)</p>",
+            "<p>\\( 5/9 \\)</p>",
+            "<p>\\( 3/5 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 2/5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366828/nielit-2021-dec-scientist-b-section-a-27\" target=\"_blank\">https://gateoverflow.in/366828/nielit-2021-dec-scientist-b-section-a-27</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"366896\"></a><div itemprop=\"text\"><p>\\( \\text{A, B} \\) and \\( \\text{C} \\) rented a pasture by paying <strong>₹&nbsp;</strong>\\( 2160&nbsp;\\; \\text{per month}. \\) They put \\( 60,40 \\) and \\( 20 \\) sheep respectively. \\( \\text{A} \\) sells \\( 1/3 \\) of his sheep to \\( \\text{B} \\) after \\( 6 \\) months and after \\( 3 \\) months more \\( \\text{C} \\) sells \\( 2/5 \\) of his sheep to \\( \\text{A}. \\) Find the rent paid by \\( \\text{C} \\) at the end of the year \\( : \\)&nbsp;</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p><strong>₹&nbsp;</strong>\\( 4355 \\)</p>",
+            "<p><strong>₹</strong>&nbsp;\\( 3888 \\)</p>",
+            "<p><strong>₹</strong>&nbsp;\\( 2464 \\)</p>",
+            "<p><strong>₹</strong>&nbsp;\\( 6224 \\)</p>"
+          ],
+          "correct_answer": "<p><strong>₹</strong>&nbsp;\\( 3888 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366896/nielit-2021-dec-scientist-b-section-a-31\" target=\"_blank\">https://gateoverflow.in/366896/nielit-2021-dec-scientist-b-section-a-31</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"373698\"></a><div itemprop=\"text\"><p>Today it is Thursday. After \\( 132 \\) days, it will be :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Monday</p>",
+            "<p>Sunday</p>",
+            "<p>Wednesday</p>",
+            "<p>Thursday</p>"
+          ],
+          "correct_answer": "<p>Wednesday</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373698/nielit-2022-april-scientist-b-section-a-question-20\" target=\"_blank\">https://gateoverflow.in/373698/nielit-2022-april-scientist-b-section-a-question-20</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"373703\"></a><div itemprop=\"text\"><p>Which largest number of five digits is divisible by \\( 99 \\)?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 99999 \\)</p>",
+            "<p>\\( 99981 \\)</p>",
+            "<p>\\( 99909 \\)</p>",
+            "<p>\\( 99990 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 99990 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373703/nielit-2022-april-scientist-b-section-a-question-15\" target=\"_blank\">https://gateoverflow.in/373703/nielit-2022-april-scientist-b-section-a-question-15</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"410887\"></a><div itemprop=\"text\"><p>Find the smallest number that must be subtracted from \\( 9100 \\) to make it perfect square?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 77</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 50 \\)</p>",
+            "<p>\\( 75 \\)</p>",
+            "<p>\\( 100 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 75 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410887/nielit-2023-feb-scientist-d-section-c-question-77\" target=\"_blank\">https://gateoverflow.in/410887/nielit-2023-feb-scientist-d-section-c-question-77</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"410892\"></a><div itemprop=\"text\"><p>Find the least number that must be added to \\( 7900 \\) to obtain a perfect square.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 72</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 67 \\)</p>",
+            "<p>\\( 87 \\)</p>",
+            "<p>\\( 97 \\)</p>",
+            "<p>\\( 77 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "TBA",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410892/nielit-2023-feb-scientist-d-section-c-question-72\" target=\"_blank\">https://gateoverflow.in/410892/nielit-2023-feb-scientist-d-section-c-question-72</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"410895\"></a><div itemprop=\"text\"><p>In a business, \\( \\text{B} \\) is a sleeping partner and \\( \\text{A} \\) is a working partner. A invests \\( 5000 \\) and \\( \\text{B} \\) invests \\( 6000 \\). A receives \\( 12.5 \\% \\) of profit for managing the business and the remaining amount is divided in proportion to their capitals. A's share of profit in a profit of Rs. \\( 880 \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 350 \\)</p>",
+            "<p>\\( 400 \\)</p>",
+            "<p>\\( 420 \\)</p>",
+            "<p>\\( 460 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 420 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410895/nielit-2023-feb-scientist-d-section-c-question-69\" target=\"_blank\">https://gateoverflow.in/410895/nielit-2023-feb-scientist-d-section-c-question-69</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"410898\"></a><div itemprop=\"text\"><p>In a \\( \\mathrm{Km} \\) race \\( \\mathrm{A} \\) can beat \\( \\mathrm{B} \\) by \\( 80 \\mathrm{~m} \\) and \\( \\mathrm{B} \\) can beat \\( \\mathrm{C} \\) by \\( 60 \\mathrm{~m} \\). In the same race, \\( \\mathrm{A} \\) can beat \\( \\mathrm{C} \\) by ________.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section C | Question: 66</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 135.2 \\mathrm{~m} \\)</p>",
+            "<p>\\( 130.5 \\mathrm{~m} \\)</p>",
+            "<p>\\( 142 \\mathrm{~m} \\)</p>",
+            "<p>\\( 132.5 \\mathrm{~m} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 135.2 \\mathrm{~m} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410898/nielit-2023-feb-scientist-d-section-c-question-66\" target=\"_blank\">https://gateoverflow.in/410898/nielit-2023-feb-scientist-d-section-c-question-66</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"410905\"></a><div itemprop=\"text\"><p>Ram visits recreation club after every five days, Harish visits after every \\( 24 \\) days, while Rajesh goes there after every \\( 9 \\) days. If all three of them met at the club on a Sunday. The days of the week will all three meet again is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 119</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Sunday</p>",
+            "<p>Thursday</p>",
+            "<p>Wednesday</p>",
+            "<p>Monday\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Wednesday</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410905/nielit-2023-feb-scientist-d-section-d-question-119\" target=\"_blank\">https://gateoverflow.in/410905/nielit-2023-feb-scientist-d-section-d-question-119</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"410906\"></a><div itemprop=\"text\"><p>From a rope of length \\( 38 \\frac{3}{5} \\mathrm{~m} \\), a piece of length \\( 5 \\frac{3}{38} \\mathrm{~m} \\) is cut off. The length of remaining rope is:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist D | Section D | Question: 118</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 190 \\frac{99}{33} \\)</p>",
+            "<p>\\( 33 \\frac{90}{190} \\)</p>",
+            "<p>\\( 33 \\frac{99}{190} \\)</p>",
+            "<p>\\( 1 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 33 \\frac{99}{190} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410906/nielit-2023-feb-scientist-d-section-d-question-118\" target=\"_blank\">https://gateoverflow.in/410906/nielit-2023-feb-scientist-d-section-d-question-118</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"411946\"></a><div itemprop=\"text\"><p>Find the least number that when divided by \\( 16,18 \\) and \\( 20 \\) leaves a remainder \\( 4 \\) in each case, but is completely divisible by \\( 7 \\).</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 89</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 364 \\)</p>",
+            "<p>\\( 2254 \\)</p>",
+            "<p>\\( 2964 \\)</p>",
+            "<p>\\( 2884 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 2884 \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411946/nielit-2023-feb-scientist-c-section-c-question-89\" target=\"_blank\">https://gateoverflow.in/411946/nielit-2023-feb-scientist-c-section-c-question-89</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"411948\"></a><div itemprop=\"text\"><p>Ramesh has total of Rs \\( 56000 \\) in four denominations of currency notes namely Rs \\( 100 \\), &nbsp;Rs \\( 200 \\), Rs \\( 500 \\), and Rs \\( 2,000 \\). How many total currency notes he has, if equal number of currency notes in each denomination are held by him.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 24 \\)</p>",
+            "<p>\\( 20 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\)\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411948/nielit-2023-feb-scientist-c-section-c-question-87\" target=\"_blank\">https://gateoverflow.in/411948/nielit-2023-feb-scientist-c-section-c-question-87</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"411964\"></a><div itemprop=\"text\"><p>Which is the largest of the following fraction?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section C | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 / 5 \\)</p>",
+            "<p>\\( 2 / 3 \\)</p>",
+            "<p>\\( 8 / 11 \\)</p>",
+            "<p>\\( 11 / 17 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 8 / 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411964/nielit-2023-feb-scientist-c-section-c-question-71\" target=\"_blank\">https://gateoverflow.in/411964/nielit-2023-feb-scientist-c-section-c-question-71</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"411975\"></a><div itemprop=\"text\"><p>A man invested \\( \\frac{1}{3} \\mathrm{rd} \\) of his capital at \\( 7 \\%, \\frac{1}{4} \\) th at \\( 8 \\% \\) and remainder at \\( 10 \\% \\). If his annual income is Rs. \\( 561 \\). Find the capital.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 120</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rs. \\( 5000 \\)</p>",
+            "<p>Rs. \\( 6000 \\)</p>",
+            "<p>Rs. \\( 6600 \\)</p>",
+            "<p>Rs. \\( 5600 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Rs. \\( 6600 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411975/nielit-2023-feb-scientist-c-section-d-question-120\" target=\"_blank\">https://gateoverflow.in/411975/nielit-2023-feb-scientist-c-section-d-question-120</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"411978\"></a><div itemprop=\"text\"><p>Ram and shyam are two different persons, but when they worked together, they completed a job in&nbsp;\\( 10 \\) days. Had Ram worked at half of his efficiency and shyam at five times of his efficiency, they would have finished the job in \\( 50 \\% \\) of the scheduled time. Shyam can complete the job working alone in \\( \\mathrm{y} \\) days. Then \\( \\mathrm{y} \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 117</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\) days</p>",
+            "<p>\\( 30 \\) days</p>",
+            "<p>\\( 40 \\) days</p>",
+            "<p>\\( 35 \\) days\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411978/nielit-2023-feb-scientist-c-section-d-question-117\" target=\"_blank\">https://gateoverflow.in/411978/nielit-2023-feb-scientist-c-section-d-question-117</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"411979\"></a><div itemprop=\"text\"><p>The number of integral pair \\( \\text{(x, y)} \\) satisfying the equation: \\( (x-y)^{2}+2 y^{2}=27 \\) is :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 116</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411979/nielit-2023-feb-scientist-c-section-d-question-116\" target=\"_blank\">https://gateoverflow.in/411979/nielit-2023-feb-scientist-c-section-d-question-116</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"411980\"></a><div itemprop=\"text\"><p>A sum of money was invested at simple interest at a certain rate for \\( 3 \\) years. Had it been invested at a \\( 4 \\% \\) higher rate it would have fetched Rs.\\( 480 \\) more. Find the principal.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 115</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rs. \\( 4000 \\)</p>",
+            "<p>Rs. \\( 5000 \\)</p>",
+            "<p>Rs. \\( 6000 \\)</p>",
+            "<p>Rs. \\( 3000 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Rs. \\( 4000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411980/nielit-2023-feb-scientist-c-section-d-question-115\" target=\"_blank\">https://gateoverflow.in/411980/nielit-2023-feb-scientist-c-section-d-question-115</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"411981\"></a><div itemprop=\"text\"><p>A shopkeeper advertises for selling cloth at \\( 4 \\% \\) loss. However, by using a false meter scale he actually gains \\( 25 \\% \\). What is the actual length of the scale?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 114</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 76.8 \\mathrm{~cm} \\)</p>",
+            "<p>\\( 77.8 \\mathrm{~cm} \\)</p>",
+            "<p>\\( 74.8 \\mathrm{~cm} \\)</p>",
+            "<p>\\( 75.8 \\mathrm{~cm} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 76.8 \\mathrm{~cm} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411981/nielit-2023-feb-scientist-c-section-d-question-114\" target=\"_blank\">https://gateoverflow.in/411981/nielit-2023-feb-scientist-c-section-d-question-114</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"411993\"></a><div itemprop=\"text\"><p>\\( \\text{P, Q, R} \\) are three typist who working simultaneously can type \\( 216 \\) pages in \\( 4 \\) hours. In one hour, \\( \\text{R} \\) can type as many pages more than \\( \\text{Q} \\) as \\( \\text{Q} \\) can type more than \\( \\text{P} \\). During a period of \\( 5 \\) hours, \\( \\text{R} \\) can type as many pages as \\( \\mathrm{P} \\) can during \\( 7 \\) hours. How many pages does each of them type per hour.</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 102</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14,17,20 \\)</p>",
+            "<p>\\( 15,17,22 \\)</p>",
+            "<p>\\( 15,18,21 \\)</p>",
+            "<p>\\( 16,18,22 \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 15,18,21 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411993/nielit-2023-feb-scientist-c-section-d-question-102\" target=\"_blank\">https://gateoverflow.in/411993/nielit-2023-feb-scientist-c-section-d-question-102</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"411994\"></a><div itemprop=\"text\"><p>\\( x, y, z \\) are three positive integers such that \\( x \\) is greater than \\( y \\)&nbsp;\\( \\&amp; \\)&nbsp;\\( y \\) is greater than \\( z \\) then which of the following is always true:</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2023 Feb Scientist C | Section D | Question: 101</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( y \\% \\) of \\( z \\) is less than \\( x \\% \\) of \\( y \\).</p>",
+            "<p>\\( y \\% \\) of \\( x \\) is less than \\( z \\% \\) of \\( y \\).</p>",
+            "<p>\\( z \\% \\) of \\( x \\) is less than \\( y \\% \\) of \\( z \\).</p>",
+            "<p>All of the above.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( y \\% \\) of \\( z \\) is less than \\( x \\% \\) of \\( y \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411994/nielit-2023-feb-scientist-c-section-d-question-101\" target=\"_blank\">https://gateoverflow.in/411994/nielit-2023-feb-scientist-c-section-d-question-101</a></p>"
+        }
+      ]
+    }
+  ]
+}

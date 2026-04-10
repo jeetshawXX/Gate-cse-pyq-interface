@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Access Control",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Access Control",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"366953\"></a><div itemprop=\"text\"><p>The operating system stores an ____________ in order to decide to which user to grant which access rights to which file \\( ? \\)</p>\n\n</div><br><br><b>Operating System: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>File allocation table&nbsp;</p>",
+            "<p>Process control block&nbsp;</p>",
+            "<p>Access control matrix</p>",
+            "<p>File control matrix</p>"
+          ],
+          "correct_answer": "<p>Access control matrix</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366953/nielit-2021-dec-scientist-b-section-b-64\" target=\"_blank\">https://gateoverflow.in/366953/nielit-2021-dec-scientist-b-section-b-64</a></p>"
+        }
+      ]
+    }
+  ]
+}

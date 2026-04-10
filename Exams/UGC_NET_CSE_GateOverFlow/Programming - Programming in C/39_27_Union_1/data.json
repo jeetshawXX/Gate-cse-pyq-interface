@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - Union",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Union",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225882\"></a><div itemprop=\"text\"><p>What is the output of the following ‘C’ program? (Assuming little – endian representation of multi-byte data in which Least Significant Byte (LSB) is stored at the lowest memory address.)</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include&lt;stdio.h&gt;\n#include&lt;stdlib.h&gt;\n/* Assume short int occupies two bytes of storage */\nint main ()\n{\n    union saving\n    {\n        short int one;\n        char two[2];\n    };\n    union saving m;\n    m.two [0] =5;\n    m.two [1] =2;\n    printf(“%d, %d, %d\\n”, m.two[0], m.two[1], m.one);\n}/* end of main */</pre>\n\n</div><br><br><b>Programming in C: UGC NET CSE | July 2018 | Part 2 | Question: 4</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>5, 2, 1282</p>",
+            "<p>5, 2, 52</p>",
+            "<p>5, 2, 25</p>",
+            "<p>5, 2, 517</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225882/ugc-net-cse-july-2018-part-2-question-4\" target=\"_blank\">https://gateoverflow.in/225882/ugc-net-cse-july-2018-part-2-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+}

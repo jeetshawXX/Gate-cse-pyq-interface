@@ -1,0 +1,139 @@
+{
+  "title": "Engineering Mathematics - Calculus - Limits",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Limits",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18234\"></a><div itemprop=\"text\"><p>The limit of \\( \\dfrac{10^{n}}{n!} \\) as \\( n \\to \\infty \\) is.</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2010 | Part A | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( e \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( \\infty \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18234/tifr-cse-2010-part-a-question-7\" target=\"_blank\">https://gateoverflow.in/18234/tifr-cse-2010-part-a-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"20224\"></a><div itemprop=\"text\"><p>The limit \\[ \\lim_{x \\to 0} \\frac{d}{dx}\\,\\frac{\\sin^2 x}{x} \\] is</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2011 | Part A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20224/tifr-cse-2011-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/20224/tifr-cse-2011-part-a-question-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"20254\"></a><div itemprop=\"text\"><p>What is&nbsp;\\[ \\lim_{x \\to 0} \\frac{2^x-1}{x} \\]</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2011 | Part A | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( \\log_2(e) \\)</p>",
+            "<p>\\( \\log_e(2) \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\log_e(2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20254/tifr-cse-2011-part-a-question-17\" target=\"_blank\">https://gateoverflow.in/20254/tifr-cse-2011-part-a-question-17</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"25037\"></a><div itemprop=\"text\"><p>The limit \\( \\displaystyle \\lim_{n \\rightarrow \\infty} \\left(\\sqrt{n^{2}+n}-n\\right) \\) equals.</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2012 | Part A | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\infty \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 1 / 2 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 1 / 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25037/tifr-cse-2012-part-a-question-14\" target=\"_blank\">https://gateoverflow.in/25037/tifr-cse-2012-part-a-question-14</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"27107\"></a><div itemprop=\"text\"><p>Let \\( x_{0}=1 \\) and</p>\n\n<p>\\( x_{n+1}= \\frac{3+2x_{n}}{3+x_{n}}, n\\geq 0 \\).</p>\n\n<p>\\( x_{\\infty}=\\displaystyle \\lim_{n\\rightarrow \\infty}x_{n} \\) is</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2014 | Part A | Question: 16</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(\\sqrt{5}-1\\right) / 2 \\)</p>",
+            "<p>\\( \\left(\\sqrt{5}+1\\right) / 2 \\)</p>",
+            "<p>\\( \\left(\\sqrt{13}-1\\right) / 2 \\)</p>",
+            "<p>\\( \\left(-\\sqrt{13}-1\\right) / 2 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\sqrt{13}-1\\right) / 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27107/tifr-cse-2014-part-a-question-16\" target=\"_blank\">https://gateoverflow.in/27107/tifr-cse-2014-part-a-question-16</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"27128\"></a><div itemprop=\"text\"><p>We are given a collection of real numbers where a real number \\( a_{i}\\neq 0 \\)&nbsp;occurs \\( n_{i} \\) times. Let the&nbsp;collection be enumerated as \\( \\left\\{x_{1}, x_{2},...x_{n}\\right\\} \\)&nbsp;so that \\( x_{1}=x_{2}=...=x_{n_{1}}=a_{1} \\) and so on, and \\( n=\\sum _{i}n_{i} \\)&nbsp;is finite. What is&nbsp;</p>\n\n<p>\\( \\displaystyle \\lim_{k\\rightarrow \\infty}\\left(\\sum\\limits_{i=1}^{n}\\frac{1}{|x_{i}|^{k}}\\right)^{-1/k} ? \\)</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2014 | Part A | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\max_{i}\\left(n_{i}|a_{i}|\\right) \\)</p>",
+            "<p>\\( \\min_{i} |a_{i}| \\)</p>",
+            "<p>\\( \\min_{i} \\left(n_{i}|a_{i}|\\right) \\)</p>",
+            "<p>\\( \\max_{i} |a_{i}| \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\min_{i} |a_{i}| \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27128/tifr-cse-2014-part-a-question-18\" target=\"_blank\">https://gateoverflow.in/27128/tifr-cse-2014-part-a-question-18</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"280495\"></a><div itemprop=\"text\"><p>Consider the matrix</p>\n\n<p>\\[ A = \\begin{bmatrix} \\frac{1}{2} &amp;\\frac{1}{2} &amp; 0\\\\ 0&amp; \\frac{3}{4} &amp; \\frac{1}{4}\\\\ 0&amp; \\frac{1}{4} &amp; \\frac{3}{4} \\end{bmatrix} \\]</p>\n\n<p>What is $\\displaystyle \\lim_{n→\\infty}$$A^n$ ?</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2019 | Part A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\begin{bmatrix} \\ 0&nbsp;&amp; 0&nbsp;&amp; 0\\\\ 0&amp; 0 &amp; 0\\\\ 0 &amp; 0 &amp; 0 \\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} \\frac{1}{4} &amp;\\frac{1}{2} &amp; \\frac{1}{2}\\\\ \\frac{1}{4}&amp; \\frac{1}{2} &amp; \\frac{1}{2}\\\\ \\frac{1}{4}&amp; \\frac{1}{2} &amp; \\frac{1}{2}\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} \\frac{1}{2} &amp;\\frac{1}{4} &amp; \\frac{1}{4}\\\\ \\frac{1}{2}&amp; \\frac{1}{4} &amp; \\frac{1}{4}\\\\ \\frac{1}{2}&amp; \\frac{1}{4} &amp; \\frac{1}{4}\\end{bmatrix} \\)</p>",
+            "<p>\\( \\begin{bmatrix} 0 &amp;\\frac{1}{2} &amp; \\frac{1}{2}\\\\ 0 &amp; \\frac{1}{2} &amp; \\frac{1}{2}\\\\ 0 &amp; \\frac{1}{2} &amp; \\frac{1}{2}\\end{bmatrix} \\)</p>",
+            "<p>\\( \\text{The limit exists, but it is none of the above} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\begin{bmatrix} 0 &amp;\\frac{1}{2} &amp; \\frac{1}{2}\\\\ 0 &amp; \\frac{1}{2} &amp; \\frac{1}{2}\\\\ 0 &amp; \\frac{1}{2} &amp; \\frac{1}{2}\\end{bmatrix} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280495/tifr-cse-2019-part-a-question-15\" target=\"_blank\">https://gateoverflow.in/280495/tifr-cse-2019-part-a-question-15</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"358960\"></a><div itemprop=\"text\"><p>Consider the sequence</p>\n\n<p>\\[ y_{n}=\\frac{1}{\\int_{1}^{n}\\frac{1}{\\left ( 1+x/n \\right )^{3}}dx} \\]</p>\n\n<p>for \\( \\text{n} = 2,3,4, \\dots \\) Which of the following is \\( \\text{TRUE} \\)?</p>\n\n</div><br><br><b>Calculus: TIFR CSE 2021 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The sequence \\( \\{y_{n}\\} \\) does not have a limit as \\( n\\rightarrow \\infty \\).</p>",
+            "<p>\\( y_{n}\\leq 1 \\) for all \\( \\text{n} = 2,3,4, \\dots \\)</p>",
+            "<p>\\( \\lim_{n\\rightarrow \\infty }y_{n} \\) exists and is equal to \\( 6/\\pi ^{2} \\).</p>",
+            "<p>\\( \\lim_{n\\rightarrow \\infty } y_{n} \\) exists and is equal to \\( 0 \\).</p>",
+            "<p>The sequence \\( \\{y_{n}\\} \\) first increases and then decreases as \\( \\text{n} \\) takes values \\( 2, 3, 4, \\dots \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\lim_{n\\rightarrow \\infty } y_{n} \\) exists and is equal to \\( 0 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358960/tifr-cse-2021-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/358960/tifr-cse-2021-part-a-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

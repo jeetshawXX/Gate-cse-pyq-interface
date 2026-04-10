@@ -1,0 +1,106 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Booths Algorithm",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Booths Algorithm",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"85671\"></a><div itemprop=\"text\">State the Booth's algorithm for multiplication of two numbers. Draw a block diagram for the implementation of the Booth's algorithm for determining the product of two \\( 8 \\)-bit signed numbers.</div><br><br><b>GATE CSE 1990 | Question: 8b</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/85671/gate-cse-1990-question-8b\" target=\"_blank\">https://gateoverflow.in/85671/gate-cse-1990-question-8b</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2727\"></a><div itemprop=\"text\"><p>Booth’s algorithm for integer multiplication gives worst performance when the multiplier pattern is</p>\n\n</div><br><br><b>GATE CSE 1996 | Question: 1.23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 101010\\ldots1010 \\)</p>",
+            "<p>\\( 100000\\ldots 0001 \\)</p>",
+            "<p>\\( 111111\\ldots 1111 \\)</p>",
+            "<p>\\( 011111\\ldots1110 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 101010\\ldots1010 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2727/gate-cse-1996-question-1-23\" target=\"_blank\">https://gateoverflow.in/2727/gate-cse-1996-question-1-23</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1473\"></a><div itemprop=\"text\"><p>Booth's coding in \\( 8 \\) bits for the decimal number \\( -57 \\) is:</p>\n\n</div><br><br><b>GATE CSE 1999 | Question: 1.20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0-100+1000 \\)</p>",
+            "<p>\\( 0-100+100-1 \\)</p>",
+            "<p>\\( 0-1+100-10+1 \\)</p>",
+            "<p>\\( 00-10+100-1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0-100+100-1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1473/gate-cse-1999-question-1-20\" target=\"_blank\">https://gateoverflow.in/1473/gate-cse-1999-question-1-20</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"460813\"></a><div itemprop=\"text\">&nbsp;<br>\n<br>\nThe following two signed \\( 2 \\) 's complement numbers (multiplicand M and multiplier Q) are being multiplied using Booth's algorithm:<br>\n<br>\nM: \\( 1100110111101101 \\) and Q: \\( 1010010010101010 \\)<br>\n<br>\nThe total number of addition and subtraction operations to be performed is_____________. (Answer in integer)</div><br><br><b>GATE CSE 2025 | Set 2 | Question: 22</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "13:13",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460813/gate-cse-2025-set-2-question-22\" target=\"_blank\">https://gateoverflow.in/460813/gate-cse-2025-set-2-question-22</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3753\"></a><div itemprop=\"text\"><p>Using Booth's Algorithm for multiplication, the multiplier \\( -57 \\) will be recoded as</p>\n\n</div><br><br><b>GATE IT 2005 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\) -\\( 1 \\) $0$$0\\(   \\)1\\(   \\)0\\(   \\)0\\(  - \\)1$</p>",
+            "<p>\\( 1 \\) \\( 1 \\) \\( 0 \\) \\( 0 \\) \\( 0 \\) \\( 1 \\) \\( 1 \\) \\( 1 \\)</p>",
+            "<p>\\( 0 \\) -\\( 1 \\) \\( 0 \\) \\( 0 \\) $1$$0\\(   \\)0\\(   \\)0$</p>",
+            "<p>\\( 0 \\) \\( 1 \\) \\( 0 \\) \\( 0 \\) -\\( 1 \\) \\( 0 \\) \\( 0 \\) \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0 \\) -\\( 1 \\) $0$$0\\(   \\)1\\(   \\)0\\(   \\)0\\(  - \\)1$</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3753/gate-it-2005-question-8\" target=\"_blank\">https://gateoverflow.in/3753/gate-it-2005-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"3577\"></a><div itemprop=\"text\"><p>When multiplicand \\( Y \\) is multiplied by multiplier \\( X = x_{n - 1}x_{n-2} \\dots x_0 \\) using bit-pair recoding in Booth's algorithm, partial products are generated according to the following table.</p><p>\\[ {\\begin{array}{|c|ccc|c|}\\hline<br>\\textbf{Row}&amp;&nbsp; \\bf{&nbsp; x_{i+1}}&amp;\\bf&nbsp;{ x_i}&amp;\\bf{ x_{i-1}}&amp;&nbsp; \\textbf{Partial Product}&nbsp;\\\\\\hline<br>1&amp;0&amp;0&amp;0&amp;0 \\\\&nbsp;2&amp;0&amp;0&amp;1&amp;&nbsp;\\text{Y}&nbsp;\\\\ &nbsp; &nbsp; 3&amp;0&amp;1&amp;0&amp; \\text{Y}&nbsp;\\\\ &nbsp; 4&amp;0&amp;1&amp;1&amp; \\text{2Y}&nbsp;\\\\ &nbsp; &nbsp;5&amp;1&amp;0&amp;0&amp;&nbsp;\\text{?}&nbsp;\\\\ &nbsp; &nbsp;6&amp;1&amp;0&amp;1&amp;&nbsp;\\text{-Y}&nbsp; \\\\ &nbsp; &nbsp;7&amp;1&amp;1&amp;0&amp;&nbsp;\\text{-Y}&nbsp;\\\\ &nbsp; &nbsp;8&amp;1&amp;1&amp;1&amp; \\text{?} \\\\ \\hline&nbsp; &nbsp;<br>&nbsp;\\end{array}} \\]</p><p>The partial products for rows \\( 5 \\) and \\( 8 \\) are</p></div><br><br><b>GATE IT 2006 | Question: 38</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2Y \\) and \\( Y \\)</p>",
+            "<p>\\( -2Y \\) and \\( 2Y \\)</p>",
+            "<p>\\( -2Y \\) and \\( 0 \\)</p>",
+            "<p>\\( 0 \\) and \\( Y \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -2Y \\) and \\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3577/gate-it-2006-question-38\" target=\"_blank\">https://gateoverflow.in/3577/gate-it-2006-question-38</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"3352\"></a><div itemprop=\"text\"><p>The two numbers given below are multiplied using the Booth's algorithm.</p>\n\n<p>Multiplicand :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub>&nbsp;</sub> \\( 0101 \\) \\( 1010 \\) \\( 1110 \\) \\( 1110 \\)<br>\nMultiplier:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \\( 0111 \\) \\( 0111 \\) \\( 1011 \\) \\( 1101 \\)</p>\n\n<p>How many additions/Subtractions are required for the multiplication of the above two numbers?</p>\n\n</div><br><br><b>GATE IT 2008 | Question: 42</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3352/gate-it-2008-question-42\" target=\"_blank\">https://gateoverflow.in/3352/gate-it-2008-question-42</a></p>"
+        }
+      ]
+    }
+  ]
+});

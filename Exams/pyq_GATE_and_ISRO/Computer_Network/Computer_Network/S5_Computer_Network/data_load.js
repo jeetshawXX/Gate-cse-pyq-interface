@@ -1,0 +1,221 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Computer_Network - Slot 5",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Network",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>In cryptography, the following uses transposition ciphers and the keyword is LAYER. Encrypt the following message. (Spaces are omitted during encrypton)<br>WELCOME TO NETWORK SECURITY! <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>WMEKREETSILTWETCOOCYONRU!</p>",
+            "<b>B.</b> <p>EETSICOOCYWMEKRONRU!LTWET</p>",
+            "<b>C.</b> <p>LTWETONRU!WMEKRCOOCYEETSI</p>",
+            "<b>D.</b> <p>ONRU!COOCYLTWETEETSIWMEKR</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EETSICOOCYWMEKRONRU!LTWET</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213542/isro2018-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Assuming that for a given network layer implementation, connection establishment overhead is 100 bytes and disconnection overhead is 28 bytes. What would be the minimum size of the packet the transport layer needs to keep up, if it wishes to implement a datagram service above the network layer and needs to keep its overhead to a minimum of 12.5%. (ignore transport layer overhead) <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>512 bytes</p>",
+            "<b>B.</b> <p>768 bytes</p>",
+            "<b>C.</b> <p>1152 bytes</p>",
+            "<b>D.</b> <p>1024 bytes</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1024 bytes</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213543/isro2018-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>StationA uses 32 byte packets to transmit messages to Station B using a sliding window protocol. The round trip delay between A and B is 80 ms and the bottleneck bandwidth on the path between A and B is 128 kbps. What is the optimal window size that A should use? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20</p>",
+            "<b>B.</b> <p>40</p>",
+            "<b>C.</b> <p>160</p>",
+            "<b>D.</b> <p>320</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>40</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213544/isro2018-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>________ can detect burst error of length less than or equal to degree of the polynomial and detects burst errors that affect odd number of bits. <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hamming Code</p>",
+            "<b>B.</b> <p>CRC</p>",
+            "<b>C.</b> <p>VRC</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>CRC</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213577/isro2018-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for 5 units of time. If the node does not detect any other transmission in this duration, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters per unit time in the medium. <br>Assume that the system has two nodes P and Q, located at a distance d meters from each other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium. <br>The maximum distance d (in meters, rounded to the closest integer) that allows Q to\nsuccessfully avoid a collision between its proposed transmission and P's ongoing\ntransmission is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "50",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204130/gate2018-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0. <br>\nThe fragmentation offset value stored in the third fragment is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "144",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204129/gate2018-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider a long-lived TCP session with an end-to-end bandwidth of 1 Gbps (= \\(10^{9} \\) bits-per-second). The session starts with a sequence number of 1234. The minimum time (in seconds, rounded to the closest integer) before this sequence number can be used again is _______. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "34",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204099/gate2018-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following statements regarding the slow start phase of the TCP congestion control algorithm. Note that \\(cwnd\\) stands for the TCP congestion window and MSS denotes the Maximum Segment Size. <br><br> (i) The cwnd increases by 2 MSS on every successful acknowledgment. <br>\n(ii) The cwnd approximately doubles on every successful acknowledgement.  <br>\n(iii) The cwnd increases by 1 MSS every round trip time. <br>\n(iv) The cwnd approximately doubles every round trip time. <br><br>\nWhich one of the following is correct? <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only (ii) and (iii) are true</p>",
+            "<b>B.</b> <p>Only (i) and (iii) are true</p>",
+            "<b>C.</b> <p>Only (iv) is true</p>",
+            "<b>D.</b> <p>Only (i) and (iv) are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Only (iv) is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204088/gate2018-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Match the following: <br> <img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Network\\q13_4a5b162b.jpg\"> <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-III, Q-IV, R-II, S-I</p>",
+            "<b>B.</b> <p>P-II, Q-I, R-IV, S-III</p>",
+            "<b>C.</b> <p>P-IV, Q-I, R-II, S-III</p>",
+            "<b>D.</b> <p>P-IV, Q-I, R-III, S-II</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P-IV, Q-I, R-II, S-III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/204087/gate2018-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>What is WPA? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>wired protected access</p>",
+            "<b>B.</b> <p>wi-fi protected access</p>",
+            "<b>C.</b> <p>wired process access</p>",
+            "<b>D.</b> <p>wi-fi process access</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>wi-fi protected access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128670/isro2017-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Pretty Good Privacy (PGP) is used in: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Browser security</p>",
+            "<b>B.</b> <p>FTP security</p>",
+            "<b>C.</b> <p>Email security</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Email security</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128669/isro2017-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which protocol suite designed by IETF to provide security for a packet at the Internet layer? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IPSec</p>",
+            "<b>B.</b> <p>NetSec</p>",
+            "<b>C.</b> <p>PacketSec</p>",
+            "<b>D.</b> <p>SSL</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>IPSec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128668/isro2017-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>MD5 is a widely used hash function for producing hash value of <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 bits</p>",
+            "<b>B.</b> <p>128 bits</p>",
+            "<b>C.</b> <p>512 bits</p>",
+            "<b>D.</b> <p>1024 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>128 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128663/isro2017-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Match with the suitable one:<br>\\(\\begin{array}{|l|l|l|l|} \\hline &amp; \\text { List-1 } &amp; &amp; \\text { List-2 } \\\\ \\hline \\text { (a) } &amp; \\text { Multicast group membership } &amp; \\text { i. } &amp; \\text { Distance Vector routing } \\\\ \\hline \\text { (b) } &amp; \\text { Interior gateway protocol } &amp; ii . &amp; \\text { IGMP } \\\\ \\hline \\text { (c) } &amp; \\text { Exterior gateway protocol } &amp; iii . &amp; \\text { OSPF } \\\\ \\hline \\text { (d) } &amp; \\text { RIP } &amp; iv . &amp; \\text { BGP } \\\\ \\hline \\end{array}\\) <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a-ii, b-iii, c-iv, d-i</p>",
+            "<b>B.</b> <p>a-ii, b-iv, c-iii, d-i</p>",
+            "<b>C.</b> <p>a-iii, b-iv, c-i, d-ii</p>",
+            "<b>D.</b> <p>a-iii, b-i, c-iv, d-ii</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a-ii, b-iii, c-iv, d-i</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128665/isro2017-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>An Ethernet frame that is  less than the IEEE 802.3 minimum length of 64 octets is called <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Short frame</p>",
+            "<b>B.</b> <p>Small frame</p>",
+            "<b>C.</b> <p>Mini frame</p>",
+            "<b>D.</b> <p>Runt frame</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Runt frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128662/isro2017-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

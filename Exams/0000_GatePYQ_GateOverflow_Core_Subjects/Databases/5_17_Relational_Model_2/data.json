@@ -1,0 +1,44 @@
+{
+  "title": "Databases - Relational Model",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Relational Model",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"399306\"></a><div itemprop=\"text\"><p>Which one of the options given below refers to the degree (or arity) of a relation in relational database systems?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Number of attributes of its relation schema.</p>",
+            "<p>Number of tuples stored in the relation.</p>",
+            "<p>Number of entries in the relation.</p>",
+            "<p>Number of distinct domains of its relation schema.</p>"
+          ],
+          "correct_answer": "<p>Number of attributes of its relation schema.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399306/gate-cse-2023-question-6\" target=\"_blank\">https://gateoverflow.in/399306/gate-cse-2023-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"460976\"></a><div itemprop=\"text\"><p>Consider the following two relations, named \\( \\text{Customer} \\) and \\( \\text{Person}, \\) in a database:</p><pre data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\" class=\"prettyprint linenums lang-c_cpp\">Person (\naadhaar CHAR(12) PRIMARY KEY,\nname VARCHAR(32));\n\nCustomer (\nname VARCHAR (32),\nemail VARCHAR(32) PRIMARY KEY,\nphone CHAR(10),\naadhaar CHAR(12),\n   FOREIGN KEY (aadhaar) REFERENCES Person(aadhaar));</pre><p>Which of the following statements is/are correct?</p></div><br><br><b>GATE DA 2025 | Question: 46</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\text{aadhaar} \\) is a candidate key in the \\( \\text{Customer} \\) relation</p>",
+            "<p>\\( \\text{phone} \\) can be \\( \\text{NULL} \\) in the \\( \\text{Customer} \\) relation</p>",
+            "<p>\\( \\text{aadhaar} \\) is a candidate key in the \\( \\text{Person} \\) relation</p>",
+            "<p>\\( \\text{aadhaar} \\) can be \\( \\text{NULL} \\) in the \\( \\text{Person} \\) relation</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\text{phone} \\) can be \\( \\text{NULL} \\) in the \\( \\text{Customer} \\) relation</p>",
+            "<p>\\( \\text{aadhaar} \\) is a candidate key in the \\( \\text{Person} \\) relation</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460976/gate-da-2025-question-46\" target=\"_blank\">https://gateoverflow.in/460976/gate-da-2025-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+}

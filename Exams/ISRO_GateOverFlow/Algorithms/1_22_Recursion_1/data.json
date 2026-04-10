@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Recursion",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Recursion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182123\"></a><div itemprop=\"text\"><p>Consider the function</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int fun(x: integer)\n{\n    If x&gt;100 then fun=x-10;\n    else\n    fun=fun(fun(x+11));\n}\n</pre>\n\n<p>For the input \\( x=95 \\), the function will return</p>\n\n</div><br><br><b>Algorithms: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 89 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 91 \\)</p>",
+            "<p>\\( 92 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 91 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182123/isro-dec2017-73\" target=\"_blank\">https://gateoverflow.in/182123/isro-dec2017-73</a></p>"
+        }
+      ]
+    }
+  ]
+}

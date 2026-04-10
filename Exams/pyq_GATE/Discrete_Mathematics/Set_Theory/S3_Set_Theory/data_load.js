@@ -1,0 +1,253 @@
+window.__examLoadCallback({
+  "title": "Set_Theory - Set_Theory - Slot 3",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Set_Theory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let X, Y, Z be sets of sizes x, y and z respectively. Let W=X\\(\\times\\)Y and E be the\nset of all subsets of W. The number of functions from Z to E is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Z^{2xy}\\)</p>",
+            "<b>B.</b> <p>\\(Z*2^{xy}\\)</p>",
+            "<b>C.</b> <p>\\(Z^{2x+y}\\)</p>",
+            "<b>D.</b> <p>\\(2^{xyz}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{xyz}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/881/gate2006-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\(n = p^{2}q\\), where p and q are distinct prime numbers. How many numbers m satisfy \\(1 \\leq m \\leq n\\) and gcd(m,n)=1? <br>Note that gcd(m,n) is the greatest common divisor of m and n. <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(p(q - 1)\\)</p>",
+            "<b>B.</b> <p>\\(pq\\)</p>",
+            "<b>C.</b> <p>\\(\\left ( p^{2}-1 \\right ) (q - 1)\\)</p>",
+            "<b>D.</b> <p>\\(p(p - 1) (q - 1)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(p(p - 1) (q - 1)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3780/gate2005-it-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let A be a set with n elements. Let C be a collection of distinct subsets of A such that for any two subsets \\(S_1\\) and \\(S_2\\) in C, either \\(S_1 \\subset S_2\\) or \\(S_2\\subset S_1\\). What is the maximum cardinality of C? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>n+1</p>",
+            "<b>C.</b> <p>\\(2^{n-1} + 1\\)</p>",
+            "<b>D.</b> <p>n!</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3779/gate2005-it-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let A, B and C be non-empty sets and let<br>\nX = (A - B) - C and Y = (A - C) - (B - C) <br>\nWhich one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X=Y</p>",
+            "<b>B.</b> <p>X\\(\\subset\\)Y</p>",
+            "<b>C.</b> <p>Y\\(\\subset\\)X</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>X=Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1157/gate2005-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In a class of 200 students, 125 students have taken Programming Language course, 85 students have taken Data Structures course, 65 students have taken Computer Organization course; 50 students have taken both Programming Language and Data Structures, 35 students have taken both Programming Language and Computer Organization; 30 students have taken both Data Structures and Computer Organization, 15 students have taken all the three courses.How many students have not taken any of the three courses? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>25</p>",
+            "<b>D.</b> <p>30</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>25</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3643/gate2004-it-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let P(S) denotes the power set of set S. Which of the following is always true? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P(P(S)) = P(S)\\)</p>",
+            "<b>B.</b> <p>\\(P(S) \\cap P(P(S)) = \\{ \\emptyset \\}\\)</p>",
+            "<b>C.</b> <p>\\(P(S) \\cap S = P(S)\\)</p>",
+            "<b>D.</b> <p>\\(S \\notin P(S)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(P(S) \\cap P(P(S)) = \\{ \\emptyset \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/653/gate2000-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>A partial order \\(\\leq\\) is defined on the set \\(S=\\left \\{ x, a_1, a_2, \\ldots, a_n, y \\right \\} \\text{ as }x \\leq _{i} a_{i}\\) for all \\(i\\) and \\(a_{i}\\leq y\\) for all i, where \\(n \\geq 1\\). The number of total orders on the set S which contain the partial order \\(\\leq\\) is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n!</p>",
+            "<b>B.</b> <p>n+2</p>",
+            "<b>C.</b> <p>n</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>n!</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2257/gate1997-6-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Given \\(\\Sigma=\\{a,b\\}\\), which one of the following sets is not countable? <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Set of all strings over \\(\\Sigma\\)</p>",
+            "<b>B.</b> <p>Set of all languages over \\(\\Sigma\\)</p>",
+            "<b>C.</b> <p>Set of all regular languages over \\(\\Sigma\\)</p>",
+            "<b>D.</b> <p>Set of all languages over \\(\\Sigma\\) accepted by Turing machines</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Set of all languages over \\(\\Sigma\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2235/gate1997-3-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let \\(X = \\{2, 3, 6, 12, 24\\}\\), Let \\(\\leq\\) be the partial order defined by \\(X \\leq Y\\) if x divides y. Number of edges in the Hasse diagram of \\((X, \\leq)\\) is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2706/gate1996-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Let A and B be sets and let \\(A^c\\) and \\(B^c\\) denote the complements of the sets A and B. The set \\((A-B) \\cup (B-A) \\cup (A \\cap B)\\) is equal to <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(A \\cup B\\)</p>",
+            "<b>B.</b> <p>\\(A^c \\cup B^c\\)</p>",
+            "<b>C.</b> <p>\\(A \\cap B\\)</p>",
+            "<b>D.</b> <p>\\(A^c \\cap B^c\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(A \\cup B\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2705/gate1996-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The number of elements in the power set P(S) of the set \\(S=\\{\\{\\emptyset\\}, 1, \\{2, 3\\}\\}\\) is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2607/gate1995-1-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Let A be a finite set of size n. The number of elements in the power set of \\(A\\times A\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{2^n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n^2}\\)</p>",
+            "<b>C.</b> <p>\\((2^n)^2\\)</p>",
+            "<b>D.</b> <p>\\((2^2)^n\\)</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2^{n^2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2302/gate1993-8-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Let S be an infinite set and \\(S_1 \\dots , S_n\\) be sets such that \\(S_1 \\cup S_2 \\cup \\dots \\cup S_n = S\\). Then <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>at least one of the set \\(S_i\\) is a finite set</p>",
+            "<b>B.</b> <p>not more than one of the set \\(S_i\\) can be finite</p>",
+            "<b>C.</b> <p>at least one of the sets \\(S_i\\) is an infinite</p>",
+            "<b>D.</b> <p>not more than one of the sets \\(S_i\\) can be infinite</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>at least one of the sets \\(S_i\\) is an infinite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2301/gate1993-8-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let \\(f:A\\rightarrow B\\)  be a function, and let E and F be subsets of A. Consider the following statements about images. <br> \\(S1: f (E \\cup F) = f (E) \\cup f (F)\\)\n<br> \\(S2: f (E \\cap F) = f (E) \\cap f (F)\\)\n<br> Which of the following is true about S1 and S2? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+            "<b>D.</b> <p>None of S1 and S2 is correct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only S1 is correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/721/gate2001-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following statements:<pre><code>S1: There exists infinite sets A, B, C such that \n    \\(A\\cap(B\\cup C)\\)  is finite.\nS2: There exists two irrational numbers x and y such\n    that (x+y) is rational. </code></pre>  Which of the following is true about S1 and S2? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+            "<b>D.</b> <p>None of S1 and S2 is correct</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/720/gate2001-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Consider the set of integers {1,2,3,4,6,8,12,24} together with the two binary operations LCM (lowest common multiple) and GCD (greatest common divisor). Which of the following algebraic structures does this represent? <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>group</p>",
+            "<b>B.</b> <p>ring</p>",
+            "<b>C.</b> <p>field</p>",
+            "<b>D.</b> <p>lattice</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>lattice</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43580/gate1992-14b\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

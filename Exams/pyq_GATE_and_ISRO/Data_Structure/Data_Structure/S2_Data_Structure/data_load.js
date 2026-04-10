@@ -1,0 +1,216 @@
+window.__examLoadCallback({
+  "title": "Data_Structure - Data_Structure - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a binary min-heap containing 105 distinct elements. Let \\(k\\)  be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of \\(k\\) is <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>53</p>",
+            "<b>B.</b> <p>52</p>",
+            "<b>C.</b> <p>27</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>53</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422809/gate-cse-2024-set-1-question-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>An array \\([82,101,90,11,111,75,33,131,44,93] \\) is heapified. Which one of the following options represents the first three elements in the heapified array? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(82,90,101 \\)</p>",
+            "<b>B.</b> <p>\\(82,11,93 \\)</p>",
+            "<b>C.</b> <p>\\(131,11,93 \\)</p>",
+            "<b>D.</b> <p>\\(131,111,90 \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(131,111,90 \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422811/gate-cse-2024-set-1-question-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below.<br>\n\\(\\begin{array}{|c|l|l|}\n\\hline Operator &amp; Precedence &amp; Associativity \\\\\n\\hline+ &amp; Highest &amp; Left \\\\\n\\hline- &amp; High &amp; Right \\\\\n\\hline* &amp; Medium &amp; Right \\\\\n\\hline  /  &amp; Low &amp; Right \\\\\n\\hline\n\\end{array}\n\\)<br>\nThe value of the expression \\(3+1+5 * 2 / 7+2-4-7-6 / 2 \\) as per the above rules is _____ <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/422819/gate-cse-2024-set-1-question-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed\nfor which one of the following cases? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only the root node</p>",
+            "<b>B.</b> <p>All leaf nodes</p>",
+            "<b>C.</b> <p>All internal nodes</p>",
+            "<b>D.</b> <p>Only the leftmost leaf node</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only the root node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422831/gate-cse-2024-set-1-question-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a sequence \\(a\\) of elements \\(a_0 = 1, a_1 = 5, a_2 = 7, a_3 = 8, a_4 = 9, \\; and \\;\na_5 = 2\\). The following operations are performed on a stack \\(S\\) and a queue \\(Q\\), both\nof which are initially empty.<br><br>\nI: push the elements of a from \\(a_0\\) to \\(a_5\\) in that order into \\(S\\).<br>\nII: enqueue the elements of a from \\(a_0\\) to \\(a_5\\) in that order into \\(Q\\).\n<br>III: pop an element from \\(S\\).\n<br>IV: dequeue an element from \\(Q\\).\n<br>V: pop an element from \\(S\\).\n<br>VI: dequeue an element from \\(Q\\).\n<br>VII: dequeue an element from \\(Q\\) and push the same element into \\(S\\).\n<br>VIII: Repeat operation VII three times.\n<br>IX: pop an element from \\(S\\).\n<br>X: pop an element from \\(S\\).\n<br><br>The top element of \\(S\\) after executing the above operations is ___. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399262/gate-cse-2023-question-49#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the C function foo and the binary tree shown.<br><pre><code>\ntypedef struct node {\n   int val;\n   struct node *left, *right;\n} node;\n\nint foo(node *p) {\n   int retval;\n   if (p == NULL)\n       return 0;\nelse {\n     retval = p-&gt;val + foo(p-&gt;left) + foo(p-&gt;right);\n     printf(\"%d \", retval);\n     return retval;\n     }\n}\n</code></pre><br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q37_50aef616.jpg\"><br>When foo is called with a pointer to the root node of the given binary tree, what\nwill it print? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3 8 5 13 11 10</p>",
+            "<b>B.</b> <p>3 5 8 10 11 13</p>",
+            "<b>C.</b> <p>3 8 16 13 24 50</p>",
+            "<b>D.</b> <p>3 16 8 50 24 13</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3 8 16 13 24 50</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399274/gate-cse-2023-question-37#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let A be a priority queue for maintaining a set of elements. Suppose A is\nimplemented using a max-heap data structure. The operation Extract-Max(A)\nextracts and deletes the maximum element from A. The operation Insert(A,key)\ninserts a new element key in A. The properties of a max-heap are preserved at the\nend of each of these operations.<br>\nWhen A contains n elements, which one of the following statements about the worst\ncase running time of these two operations is TRUE? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both Extract-Max(A) and Insert(A,key) run in O(1).</p>",
+            "<b>B.</b> <p>Both Extract-Max(A) and Insert(A,key) run in O(log(n)).</p>",
+            "<b>C.</b> <p>Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(n).</p>",
+            "<b>D.</b> <p>Extract-Max(A) runs in O(1) whereas Insert(A,key) runs in O(log(n)).</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Both Extract-Max(A) and Insert(A,key) run in O(log(n)).</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399275/gate-cse-2023-question-36#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>An algorithm has to store several keys generated by an adversary in a hash\ntable. The adversary is malicious who tries to maximize the number of collisions.\nLet \\( k\\) be the number of keys, \\( m\\) be the number of slots in the hash table, and \\( k \\gt m\\).<br>\nWhich one of the following is the best hashing strategy to counteract the adversary? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Division method, i.e., use the hash function \\(h(k) = k\\;  mod \\; m\\)</p>",
+            "<b>B.</b> <p>Multiplication method, i.e., use the hash function \\( h(k) =  \\left \\lfloor m(kA -\\left \\lfloor kA \\right \\rfloor ) \\right \\rfloor\\), where\n\\(A\\) is a carefully chosen constant.</p>",
+            "<b>C.</b> <p>Universal hashing method.</p>",
+            "<b>D.</b> <p>If \\(k\\) is a prime number, use Division method. Otherwise, use Multiplication method</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Universal hashing method.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399302/gate-cse-2023-question-10#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Let SLLdel be a function that deletes a node in a singly-linked list given a pointer\nto the node and a pointer to the head of the list. Similarly, let DLLdel be another\nfunction that deletes a node in a doubly-linked list given a pointer to the node and\na pointer to the head of the list.<br>\nLet n denote the number of nodes in each of the linked lists. Which one of the\nfollowing choices is TRUE about the worst-case time complexity of SLLdel and\nDLLdel? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SLLdel is O(1) and DLLdel is O(n)</p>",
+            "<b>B.</b> <p>Both SLLdel and DLLdel are O(log(n))</p>",
+            "<b>C.</b> <p>Both SLLdel and DLLdel are O(1)</p>",
+            "<b>D.</b> <p>SLLdel is O(n) and DLLdel is O(1)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>SLLdel is O(n) and DLLdel is O(1)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399309/gate-cse-2023-question-3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following sequences when stored in an array at locations\nA[1], . . . , A[10] forms a max-heap? <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>23, 17, 10, 6, 13, 14, 1, 5, 7, 12</p>",
+            "<b>B.</b> <p>23, 17, 14, 7, 13, 10, 1, 5, 6, 12</p>",
+            "<b>C.</b> <p>23, 17, 14, 6, 13, 10, 1, 5, 7, 15</p>",
+            "<b>D.</b> <p>23, 14, 17, 1, 10, 13, 16, 12, 7, 5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>23, 17, 14, 7, 13, 10, 1, 5, 6, 12</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399310/gate-cse-2023-question-2#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the queues Q1 containing four elements and Q2 containing none (shown\nas the Initial State in the figure). The only operations allowed on these two queues are  \\(Enqueue(Q,element)\\)   and  \\(Dequeue(Q)\\).   The  minimum  number  of \\(Enqueue \\) operations on Q1 required to place the elements of Q1 in Q2 in reverse\norder (shown as the Final State in the figure) without using any additional storage is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q52_05348840.jpg\"><br> <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371884/Gate-cse-2022-question-52#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose a binary search tree with 1000 distinct elements is also a complete binary tree. The tree is stored using the array representation of binary heap trees. Assuming that the array indices start with 0, the 3rd largest element of the tree is stored at index _______. <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "509",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371918/Gate-cse-2022-question-18#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Suppose we are given \\(n\\) keys, \\(m\\) hash table slots, and two simple uniform hash functions \\(h_1\\) and \\(h_2\\). Further suppose our hashing scheme uses \\(h_1\\) for the odd keys\nand \\(h_2\\) for the even keys. What is the expected number of keys in a slot? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{m}{n}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n}{m}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{2n}{m}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{n}{2m}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n}{m}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371930/Gate-cse-2022-question-6#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the problem of reversing a singly linked list. To take an example, given the linked list below,<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q5a_ceb02b72.jpg\"><br>the reversed linked list should look like   <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Data_Structure\\q5b_221e4ca2.jpg\"><br>   Which one of the following statements is TRUE about the time complexity of algorithms that solve the above problem in O(1) space? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The best algorithm for the problem takes \\(\\theta(n)\\) time in the worst case.</p>",
+            "<b>B.</b> <p>The best algorithm for the problem takes \\(\\theta(n \\log n)\\) time in the worst case.</p>",
+            "<b>C.</b> <p>The best algorithm for the problem takes \\(\\theta(n^2)\\) time in the worst case.</p>",
+            "<b>D.</b> <p>It is not possible to reverse a singly linked list in O(1) space.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The best algorithm for the problem takes \\(\\theta(n)\\) time in the worst case.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371931/Gate-cse-2022-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following ANSI C program:<pre><code>#include &lt; stdio.h &gt;\n\n#include &lt; stdlib.h &gt;\n\nstruct Node{\n        int value;\n        struct Node *next;};\nint main( ) {\n    struct Node *boxE, *head, *boxN; int index=0;\n    boxE=head= (struct Node *) malloc(sizeof(struct Node));\n    head -&gt; value = index;\n    for (index =1; index &lt; = 3; index++){\n        boxN = (struct Node *) malloc (sizeof(struct Node));\n        boxE -&gt; next = boxN;\n        boxN -&gt; value = index;\n        boxE = boxN; }\nfor (index=0; index &lt; = 3; index++) {\n    printf(\"Value at index %d is %d\\n\", index, head -&gt; value);\n    head = head -&gt; next;\n    printf(\"Value at index %d is %d\\n\", index+1, head -&gt; value); } } </code></pre>Which one of the following statements below is correct about the program? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Upon execution, the program creates a linked-list of five nodes</p>",
+            "<b>B.</b> <p>Upon execution, the program goes into an infinite loop</p>",
+            "<b>C.</b> <p>It has a missing returnreturn which will be reported as an error by the compiler</p>",
+            "<b>D.</b> <p>It dereferences an uninitialized pointer that may result in a run-time error</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It dereferences an uninitialized pointer that may result in a run-time error</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357505/gate-cse-2021-set-2-question-35#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

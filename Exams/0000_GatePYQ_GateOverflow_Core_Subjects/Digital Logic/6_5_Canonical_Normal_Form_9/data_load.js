@@ -1,0 +1,139 @@
+window.__examLoadCallback({
+  "title": "Digital Logic - Canonical Normal Form",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Canonical Normal Form",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"831\"></a><div itemprop=\"text\"><p>Consider the following logic circuit whose inputs are functions \\( f_1, f_2, f_3 \\) and output is \\( f \\)</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"140\" src=\"images/gateOverflow_pyq_images/digital_logic___canonical_normal_form/12ee68cb7811a80848747af5b14aaaf9.png\" width=\"494\"></p>\n\n<p>Given that</p>\n\n<ul>\n<li>\\( f_1(x,y,z) = \\Sigma (0,1,3,5) \\)</li>\n<li>\\( f_2(x,y,z) = \\Sigma (6,7), \\) and</li>\n<li>\\( f(x,y,z) = \\Sigma (1,4,5). \\)</li>\n</ul>\n\n<p>\\( f_3 \\) is&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2-1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Sigma (1,4,5) \\)</p>",
+            "<p>\\( \\Sigma (6,7) \\)</p>",
+            "<p>\\( \\Sigma (0,1,3,5) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\Sigma (1,4,5) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/831/gate-cse-2002-question-2-1\" target=\"_blank\">https://gateoverflow.in/831/gate-cse-2002-question-2-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1246\"></a><div itemprop=\"text\"><p>Which of the following is TRUE about formulae in Conjunctive Normal Form?</p></div><br><br><b>GATE CSE 2007 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>For any formula, there is a truth assignment for which at least half the clauses evaluate to true.</p>",
+            "<p>For any formula, there is a truth assignment for which all the clauses evaluate to true.</p>",
+            "<p>There is a formula such that for each truth assignment, at most one-fourth of the clauses evaluate to true.</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>For any formula, there is a truth assignment for which at least half the clauses evaluate to true.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1246/gate-cse-2007-question-48\" target=\"_blank\">https://gateoverflow.in/1246/gate-cse-2007-question-48</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"406\"></a><div itemprop=\"text\"><p>Given \\( f_1 \\), \\( f_3 \\) and \\( f \\) in canonical sum of products form (in decimal) for the circuit</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"110\" src=\"images/gateOverflow_pyq_images/digital_logic___canonical_normal_form/ee1072c1adbd5041aa8ebefd7b1da66b.png\" width=\"388\"></p>\n\n<p>\\( f_1 = \\Sigma m(4, 5, 6, 7, 8) \\)</p>\n\n<p>\\( f_3 = \\Sigma m(1, 6, 15) \\)</p>\n\n<p>\\( f = \\Sigma m(1, 6, 8, 15) \\)</p>\n\n<p>then \\( f_2 \\) is</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Sigma m(4, 6) \\)</p>",
+            "<p>\\( \\Sigma m(4, 8) \\)</p>",
+            "<p>\\( \\Sigma m(6, 8) \\)</p>",
+            "<p>\\( \\Sigma m(4, 6, 8) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Sigma m(6, 8) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/406/gate-cse-2008-question-8\" target=\"_blank\">https://gateoverflow.in/406/gate-cse-2008-question-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2177\"></a><div itemprop=\"text\"><p>The minterm expansion of \\( f(P,Q,R) = PQ +Q \\bar{R}+P\\bar{R} \\) is</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m_2+m_4+m_6+m_7 \\)</p>",
+            "<p>\\( m_0+m_1+m_3+m_5 \\)</p>",
+            "<p>\\( m_0+m_1+m_6+m_7 \\)</p>",
+            "<p>\\( m_2+m_3+m_4+m_5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( m_2+m_4+m_6+m_7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2177/gate-cse-2010-question-6\" target=\"_blank\">https://gateoverflow.in/2177/gate-cse-2010-question-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"8503\"></a><div itemprop=\"text\">The total number of prime implicants of the function \\( f(w, x, y, z) = \\sum (0, 2, 4, 5, 6, 10) \\) is __________</div><br><br><b>GATE CSE 2015 Set 3 | Question: 43</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8503/gate-cse-2015-set-3-question-43\" target=\"_blank\">https://gateoverflow.in/8503/gate-cse-2015-set-3-question-43</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"8504\"></a><div itemprop=\"text\"><p>Given the function \\( F = P' +QR \\), where \\( F \\) is a function in three Boolean variables \\( P, Q \\) and \\( R \\) and \\( P'=!P \\), consider the following statements.</p>\n\n<p>\\( (S1) F = \\sum(4, 5, 6) \\)</p>\n\n<p>\\( (S2) F = \\sum(0, 1, 2, 3, 7) \\)</p>\n\n<p>\\( (S3) F = \\Pi (4, 5, 6) \\)</p>\n\n<p>\\( (S4) F = \\Pi (0, 1, 2, 3, 7) \\)</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(S1)-False, (S2)-True, (S3)-True, (S4)-False</p>",
+            "<p>(S1)-True, (S2)-False, (S3)-False, (S4)-True</p>",
+            "<p>(S1)-False, (S2)-False, (S3)-True, (S4)-True</p>",
+            "<p>(S1)-True, (S2)-True, (S3)-False, (S4)-False</p>"
+          ],
+          "correct_answer": "<p>(S1)-False, (S2)-True, (S3)-True, (S4)-False</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8504/gate-cse-2015-set-3-question-44\" target=\"_blank\">https://gateoverflow.in/8504/gate-cse-2015-set-3-question-44</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"302798\"></a><div itemprop=\"text\">What is the minimum number of \\( 2 \\)-input NOR gates required to implement a \\( 4 \\) -variable function expressed in sum-of-minterms form as \\( f=\\Sigma(0,2,5,7, 8, 10, 13, 15)? \\) Assume that all the inputs and their complements are available. Answer: _______</div><br><br><b>GATE CSE 2019 | Question: 50</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/302798/gate-cse-2019-question-50\" target=\"_blank\">https://gateoverflow.in/302798/gate-cse-2019-question-50</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"333203\"></a><div itemprop=\"text\"><p>Consider the Boolean function \\( z(a,b,c) \\).</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___canonical_normal_form/9eee280595f42e55af858ecee1085dac.png\" width=\"600\"></p>\n\n<p>&nbsp;Which one of the following minterm lists represents the circuit given above?</p>\n\n</div><br><br><b>GATE CSE 2020 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( z=\\sum (0,1,3,7) \\)</p>",
+            "<p>\\( z=\\sum (1,4,5,6,7) \\)</p>",
+            "<p>\\( z=\\sum (2,4,5,6,7) \\)</p>",
+            "<p>\\( z=\\sum (2,3,5) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( z=\\sum (1,4,5,6,7) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333203/gate-cse-2020-question-28\" target=\"_blank\">https://gateoverflow.in/333203/gate-cse-2020-question-28</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"422857\"></a><div itemprop=\"text\"><p>Consider \\( 4 \\)-variable functions \\( f 1, f 2, f 3, f 4 \\) expressed in sum-of-minterms form as given below.<br>\n\\[ <br>\n\\begin{array}{l}<br>\nf 1=\\sum(0,2,3,5,7,8,11,13) \\\\<br>\nf 2=\\sum(1,3,5,7,11,13,15) \\\\<br>\nf 3=\\sum(0,1,4,11) \\\\<br>\nf 4=\\sum(0,2,6,13)<br>\n\\end{array}<br>\n \\]</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/digital_logic___canonical_normal_form/5f110f0a7cb254090141c812ea649930.png\" width=\"450\"><br>\n<br>\nWith respect to the circuit given above, which of the following options is/are CORRECT?</p>\n\n</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 40</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( \\boldsymbol{Y}=\\sum(0,1,2,11,13) \\)</p>",
+            "<p>\\( \\boldsymbol{Y}=\\Pi(3,4,5,6,7,8,9,10,12,14,15) \\)</p>",
+            "<p>\\( \\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7) \\)</p>",
+            "<p>\\( \\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15) \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( \\boldsymbol{Y}=\\sum(0,1,2,3,4,5,6,7) \\)</p>",
+            "<p>\\( \\boldsymbol{Y}=\\Pi(8,9,10,11,12,13,14,15) \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422857/gate-cse-2024-set-2-question-40\" target=\"_blank\">https://gateoverflow.in/422857/gate-cse-2024-set-2-question-40</a></p>"
+        }
+      ]
+    }
+  ]
+});

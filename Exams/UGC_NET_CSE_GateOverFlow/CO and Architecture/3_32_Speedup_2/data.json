@@ -1,0 +1,41 @@
+{
+  "title": "CO and Architecture - Speedup",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Speedup",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57719\"></a><div itemprop=\"text\"><p>Let \\( f \\) be the fraction of the computation (in terms of time) that is parallelizabl\\( e \\). \\( P \\) the number of processors in the system, and \\( s_p \\) the speed up achievable in comparison with sequential&nbsp; execution – then the \\( s_p \\) can be calculated using the relation:</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | December 2012 | Part 3 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{1-f-f/P} \\)</p>",
+            "<p>\\( \\frac{P}{P-f(P+1)} \\)</p>",
+            "<p>\\( \\frac{1}{1-f+f/P} \\)</p>",
+            "<p>\\( \\frac{P}{P+f(P-1)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{1-f+f/P} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57719/ugc-net-cse-december-2012-part-3-question-49\" target=\"_blank\">https://gateoverflow.in/57719/ugc-net-cse-december-2012-part-3-question-49</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"316259\"></a><div itemprop=\"text\"><p>Suppose that a computer program takes \\( 100 \\) seconds of execution time on a computer with multiplication operation responsible for \\( 80 \\) seconds of this time. How much do you have to improve the speed of the multiplication operation if you are asked to&nbsp;execute this program four&nbsp;times faster?</p>\n\n</div><br><br><b>CO & Architecture: UGC NET CSE | June 2019 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 14 \\) times faster</p>",
+            "<p>\\( 15 \\) times faster</p>",
+            "<p>\\( 16 \\) times faster</p>",
+            "<p>\\( 17 \\) times faster</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\) times faster</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316259/ugc-net-cse-june-2019-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/316259/ugc-net-cse-june-2019-part-2-question-20</a></p>"
+        }
+      ]
+    }
+  ]
+}

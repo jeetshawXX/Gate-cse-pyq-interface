@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Identify Function",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Identify Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"44833\"></a><div itemprop=\"text\"><p>Consider the following \\( C \\) code.</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include &lt;stdio.h&gt; \n#include &lt;math.h&gt; \nvoid main ()  \n{  \n      double pi = 3.1415926535;   \n      int a = 1;  \n      int i;    \n      for (i=0; i &lt; 3; i++) \n            if (a = cos(pi * i/2)) \n                  printf(\"% d\", 1);  \n            else printf(\"%d\", 0); \n}</pre>\n\n<p>What would the program print?</p>\n\n</div><br><br><b>Programming in C: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 000 \\)</p>",
+            "<p>\\( 010 \\)</p>",
+            "<p>\\( 101 \\)</p>",
+            "<p>\\( 111 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 101 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/44833/isro-2013-63\" target=\"_blank\">https://gateoverflow.in/44833/isro-2013-63</a></p>"
+        }
+      ]
+    }
+  ]
+});

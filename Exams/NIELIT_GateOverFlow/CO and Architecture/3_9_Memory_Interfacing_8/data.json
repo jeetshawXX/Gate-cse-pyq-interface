@@ -1,0 +1,131 @@
+{
+  "title": "CO and Architecture - Memory Interfacing",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Memory Interfacing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336480\"></a><div itemprop=\"text\"><p>CPU consists of&nbsp;_______.</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ALU and Control Unit</p>",
+            "<p>ALU, Control Unit and Monitor</p>",
+            "<p>ALU, Control Unit and Hard disk</p>",
+            "<p>ALU, Control Unit and Register</p>"
+          ],
+          "correct_answer": "<p>ALU, Control Unit and Register</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336480/nielit-2016-dec-scientist-b-cs-section-b-58\" target=\"_blank\">https://gateoverflow.in/336480/nielit-2016-dec-scientist-b-cs-section-b-58</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336632\"></a><div itemprop=\"text\"><p>How many address lines are needed to address each memory location in a \\( 2048\\times4 \\) memory chip?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2016 DEC Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336632/nielit-2016-dec-scientist-b-it-section-b-37\" target=\"_blank\">https://gateoverflow.in/336632/nielit-2016-dec-scientist-b-it-section-b-37</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336285\"></a><div itemprop=\"text\"><p>A RAM chip has \\( 7 \\) address lines, \\( 8 \\) data lines and \\( 2 \\) chips select lines. Then the number of memory locations is&nbsp;__________</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{12} \\)</p>",
+            "<p>\\( 2^{10} \\)</p>",
+            "<p>\\( 2^{19} \\)</p>",
+            "<p>\\( 2^{13} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2^{12} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336285/nielit-2017-dec-scientist-b-section-b-28\" target=\"_blank\">https://gateoverflow.in/336285/nielit-2017-dec-scientist-b-section-b-28</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336348\"></a><div itemprop=\"text\"><p>Which memory is difficult to interface with processor?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Static memory</p>",
+            "<p>Dynamic memory</p>",
+            "<p>ROM</p>",
+            "<p>None of the option</p>"
+          ],
+          "correct_answer": "<p>Dynamic memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336348/nielit-2017-july-scientist-b-cs-section-b-27\" target=\"_blank\">https://gateoverflow.in/336348/nielit-2017-july-scientist-b-cs-section-b-27</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336347\"></a><div itemprop=\"text\"><p>For a memory system, the cycle time is</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Same&nbsp;as the access time.</p>",
+            "<p>Longer than the access time.</p>",
+            "<p>Shorter than the access time.</p>",
+            "<p>Multiple of the access time.</p>"
+          ],
+          "correct_answer": "<p>Longer than the access time.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336347/nielit-2017-july-scientist-b-cs-section-b-28\" target=\"_blank\">https://gateoverflow.in/336347/nielit-2017-july-scientist-b-cs-section-b-28</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336346\"></a><div itemprop=\"text\"><p>In comparison with static RAM memory, the dynamic RAM memory has</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Lower bit density and higher power consumption</p>",
+            "<p>Higher bit density and lower power consumption</p>",
+            "<p>Lower bit density and lower power consumption</p>",
+            "<p>None of the option</p>"
+          ],
+          "correct_answer": "<p>Higher bit density and lower power consumption</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336346/nielit-2017-july-scientist-b-cs-section-b-29\" target=\"_blank\">https://gateoverflow.in/336346/nielit-2017-july-scientist-b-cs-section-b-29</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"336345\"></a><div itemprop=\"text\"><p>If each address space represents one byte of storage space, how many address lines are needed to access RAM chips arranged in a \\( 4\\times 6 \\) array, where each chip is \\( 8K\\times 4 \\) bits?</p>\n\n</div><br><br><b>CO & Architecture: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 17 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 17 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336345/nielit-2017-july-scientist-b-cs-section-b-30\" target=\"_blank\">https://gateoverflow.in/336345/nielit-2017-july-scientist-b-cs-section-b-30</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"351406\"></a><div itemprop=\"text\"><p>A \\( 26- \\)bit address bus has maximum accessible memory capacity of ________</p>\n\n</div><br><br><b>CO & Architecture: NIELIT Scientific Assistant A 2020 November: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{64 MB} \\)</p>",
+            "<p>\\( \\text{16 MB} \\)</p>",
+            "<p>\\( \\text{1 GB} \\)</p>",
+            "<p>\\( \\text{4 GB} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{64 MB} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351406/nielit-scientific-assistant-a-2020-november-55\" target=\"_blank\">https://gateoverflow.in/351406/nielit-scientific-assistant-a-2020-november-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

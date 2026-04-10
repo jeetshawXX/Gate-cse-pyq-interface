@@ -1,0 +1,86 @@
+window.__examLoadCallback({
+  "title": "Programming in C - Structure",
+  "duration": 14,
+  "sections": [
+    {
+      "name": "Structure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"634\"></a><div itemprop=\"text\"><p>The following C declarations:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">struct node { \n    int i:\n    float j;\n };\n struct node *s[10];</pre>\n\n<p>define s to be:</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 1.11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>An array, each element of which is a pointer to a structure of type node</p>",
+            "<p>A structure of \\( 2 \\) fields, each field being a pointer to an array of \\( 10 \\) elements</p>",
+            "<p>A structure of \\( 3 \\) fields: an integer, a float, and an array of \\( 10 \\) elements</p>",
+            "<p>An array, each element of which is a structure of type node</p>"
+          ],
+          "correct_answer": "<p>An array, each element of which is a pointer to a structure of type node</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/634/gate-cse-2000-question-1-11\" target=\"_blank\">https://gateoverflow.in/634/gate-cse-2000-question-1-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"204076\"></a><div itemprop=\"text\"><p>Consider the following C program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include&lt;stdio.h&gt;\nstruct Ournode{\n    char x, y, z;\n};\nint main() {\n    struct Ournode p={'1', '0', 'a'+2};\n    struct Ournode *q=&amp;p;\n    printf(\"%c, %c\", *((char*)q+1), *((char*)q+2));\n    return 0;\n}</pre>\n\n<p>The output of this program is:</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>0, c</p>",
+            "<p>0, a+2</p>",
+            "<p>'0', 'a+2'</p>",
+            "<p>'0', 'c'</p>"
+          ],
+          "correct_answer": "<p>0, c</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204076/gate-cse-2018-question-2\" target=\"_blank\">https://gateoverflow.in/204076/gate-cse-2018-question-2</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"357505\"></a><div itemprop=\"text\"><div>Consider the following \\( \\text{ANSI C} \\) program:</div>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">#include &lt;stdio.h&gt;\n#include &lt;stdlib.h&gt;\nstruct Node{\n        int value;\n        struct Node *next;};\nint main( ) {\n    struct Node *boxE, *head, *boxN; int index=0;\n    boxE=head= (struct Node *) malloc(sizeof(struct Node));\n    head →&nbsp;value = index;\n    for (index =1; index&lt;=3; index++){\n        boxN = (struct Node *) malloc (sizeof(struct Node));\n        boxE →&nbsp;next = boxN;\n        boxN →&nbsp;value = index;\n        boxE&nbsp;= boxN; }\nfor (index=0; index&lt;=3; index++) {\n    printf(“Value at index %d is %d\\n”, index, head →&nbsp;value);\n    head = head →&nbsp;next;\n    printf(“Value at index %d is %d\\n”, index+1, head →&nbsp;value); } }</pre>\n\n<p>Which one of the following statements below is correct about the program?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Upon execution, the program creates a linked-list of five nodes</p>",
+            "<p>Upon execution, the program goes into an infinite loop</p>",
+            "<p>It has a missing \\( \\textsf{return} \\) which will be reported as an error by the compiler</p>",
+            "<p>It dereferences an uninitialized pointer that may result in a run-time error</p>"
+          ],
+          "correct_answer": "<p>It dereferences an uninitialized pointer that may result in a run-time error</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357505/gate-cse-2021-set-2-question-35\" target=\"_blank\">https://gateoverflow.in/357505/gate-cse-2021-set-2-question-35</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"3704\"></a><div itemprop=\"text\"><p>Consider the following C program:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include &lt;stdio.h&gt;\ntypedef struct {\n    char *a;\n    char *b;\n    } t;\nvoid f1 (t s);\nvoid f2 (t *p);\nmain()\n{\n    static t s = {\"A\", \"B\"};\n    printf (\"%s %s\\n\", s.a, s.b);\n    f1(s);\n    printf (\"%s %s\\n\", s.a, s.b);\n    f2(&amp;s);\n}\nvoid f1 (t s)\n{\n    s.a = \"U\";\n    s.b = \"V\";\n    printf (\"%s %s\\n\", s.a, s.b);\n    return;\n}\nvoid f2(t *p)\n{\n    p -&gt; a  = \"V\";\n    p -&gt; b = \"W\";\n    printf(\"%s %s\\n\", p -&gt; a, p -&gt; b);\n    return;\n}</pre>\n\n<p>What is the output generated by the program ?</p>\n\n</div><br><br><b>GATE IT 2004 | Question: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\ B \\)<br>\n\t\\( U \\ V \\)<br>\n\t\\( V \\ W \\)<br>\n\t\\( V \\ W \\)</p>",
+            "<p>\\( A \\ B \\)<br>\n\t\\( U \\ V \\)<br>\n\t\\( A \\ B \\)<br>\n\t\\( V \\ W \\)</p>",
+            "<p>\\( A \\ B \\)<br>\n\t\\( U \\ V \\)<br>\n\t\\( U \\ V \\)<br>\n\t\\( V \\ W \\)</p>",
+            "<p>\\( A \\ B \\)<br>\n\t\\( U \\ V \\)<br>\n\t\\( V \\ W \\)<br>\n\t\\( U \\ V \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A \\ B \\)<br>\n\t\\( U \\ V \\)<br>\n\t\\( A \\ B \\)<br>\n\t\\( V \\ W \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3704/gate-it-2004-question-61\" target=\"_blank\">https://gateoverflow.in/3704/gate-it-2004-question-61</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"3592\"></a><div itemprop=\"text\"><p>Which one of the choices given below would be printed when the following program is executed ?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">#include &lt;stdio.h&gt;\nstruct test {\n               int i;\n               char *c;\n}st[] = {5, \"become\", 4, \"better\", 6, \"jungle\", 8, \"ancestor\", 7, \"brother\"};\nmain ()\n{ \n    struct test *p = st;\n    p += 1;\n    ++p -&gt; c;\n    printf(\"%s,\", p++ -&gt; c);\n    printf(\"%c,\", *++p -&gt; c);\n    printf(\"%d,\", p[0].i);\n    printf(\"%s \\n\", p -&gt; c);\n}</pre>\n\n</div><br><br><b>GATE IT 2006 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{jungle, n, 8, nclastor} \\)</p>",
+            "<p>\\( \\text{etter, u, 6, ungle} \\)</p>",
+            "<p>\\( \\text{cetter, k, 6, jungle} \\)</p>",
+            "<p>\\( \\text{etter, u, 8, ncestor} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{etter, u, 6, ungle} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3592/gate-it-2006-question-49\" target=\"_blank\">https://gateoverflow.in/3592/gate-it-2006-question-49</a></p>"
+        }
+      ]
+    }
+  ]
+});

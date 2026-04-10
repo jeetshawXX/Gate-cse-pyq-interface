@@ -1,0 +1,102 @@
+{
+  "title": "Memory_Chip_Design - Memory_Chip_Design - Slot 2",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Memory_Chip_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the minimum size of ROM required to store the complete truth table of an 8-bit \\(\\times\\) 8-bit multiplier? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32 K \\(\\times\\) 16 bits</p>",
+            "<b>B.</b> <p>64 K \\(\\times\\) 16 bits</p>",
+            "<b>C.</b> <p>16 K \\(\\times\\) 32 bits</p>",
+            "<b>D.</b> <p>64 K \\(\\times\\) 32 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>64 K \\(\\times\\) 16 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3651/gate2004-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A ROM is used to store the table for multiplication of two 8-bit unsigned integers. The size of ROM required is <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(256 \\times 16\\)</p>",
+            "<b>B.</b> <p>\\(64 K \\times 8\\)</p>",
+            "<b>C.</b> <p>\\(4 K \\times 16\\)</p>",
+            "<b>D.</b> <p>\\(64 K \\times 16\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(64 K \\times 16\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2725/gate1996-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The capacity of a memory unit is defined by the number of words multiplied by the number of bits/word. How many separate address and data lines are needed for a memory of \\(4K \\times 16\\)? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10 address, 16 data lines</p>",
+            "<b>B.</b> <p>11 address, 8 data lines</p>",
+            "<b>C.</b> <p>12 address, 16 data lines</p>",
+            "<b>D.</b> <p>12 address, 12 data lines</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>12 address, 16 data lines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2614/gate1995-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following statements is true? <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ROM is a Read/Write memory</p>",
+            "<b>B.</b> <p>PC points to the last instruction that was executed</p>",
+            "<b>C.</b> <p>Stack works on the principle of LIFO</p>",
+            "<b>D.</b> <p>All instructions affect the flags</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Stack works on the principle of LIFO</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2589/gate1995-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The advantages of CMOS technology over a MOS is: <br><br><strong>(GATE CSE 1991)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lower power dissipation</p>",
+            "<b>B.</b> <p>greater speed</p>",
+            "<b>C.</b> <p>smaller chip size</p>",
+            "<b>D.</b> <p>fewer masks for fabrication</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>greater speed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/515/gate1991-03-i\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The refreshing rate of dynamic RAMs is in the range of <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 microseconds</p>",
+            "<b>B.</b> <p>2 milliseconds.</p>",
+            "<b>C.</b> <p>50 milli seconds</p>",
+            "<b>D.</b> <p>500 milliseconds</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 milliseconds.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80278/gate1987-1-ix\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Tower of Hanoi",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Tower of Hanoi",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"20576\"></a><div itemprop=\"text\"><p>You are given ten rings numbered from \\( 1 \\) to \\( 10 \\), and three pegs labeled \\( A \\), \\( B \\), and \\( C \\). Initially all the rings are on peg \\( A \\), arranged from top to bottom in ascending order of their numbers. The goal is to move all the rings to peg \\( B \\) in the minimum number of moves obeying the following constraints:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>In one move, only one ring can be moved.</li>\n\t<li>A ring can only be moved from the top of its peg to the top of a new peg.</li>\n\t<li>At no point can a ring be placed on top of another ring with a lower number.</li>\n</ol>\n\n<p>How many moves are required?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2011 | Part B | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 501 \\)</p>",
+            "<p>\\( 1023 \\)</p>",
+            "<p>\\( 2011 \\)</p>",
+            "<p>\\( 10079 \\)</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": "<p>\\( 1023 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20576/tifr-cse-2011-part-b-question-29\" target=\"_blank\">https://gateoverflow.in/20576/tifr-cse-2011-part-b-question-29</a></p>"
+        }
+      ]
+    }
+  ]
+});

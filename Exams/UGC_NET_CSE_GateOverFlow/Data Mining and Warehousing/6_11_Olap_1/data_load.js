@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Data Mining and Warehousing - Olap",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Olap",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62279\"></a><div itemprop=\"text\"><p>____ system is market oriented and is used for data analysis by knowledge workers including Managers, Executives adn Analysts.</p>\n\n</div><br><br><b>Data Mining and Warehousing: UGC NET CSE | December 2015 | Part 2 | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>OLTP</p>",
+            "<p>OLAP</p>",
+            "<p>Data System</p>",
+            "<p>Market System</p>"
+          ],
+          "correct_answer": "<p>OLAP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62279/ugc-net-cse-december-2015-part-2-question-33\" target=\"_blank\">https://gateoverflow.in/62279/ugc-net-cse-december-2015-part-2-question-33</a></p>"
+        }
+      ]
+    }
+  ]
+});

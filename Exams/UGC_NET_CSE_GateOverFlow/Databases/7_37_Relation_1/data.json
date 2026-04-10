@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Relation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"225817\"></a><div itemprop=\"text\"><p>Let \\( R_1(a, b, c) \\) and \\( R_2(x, y, z) \\) be two relations in which a is the foreign key of \\( R_1 \\) that refers to the primary key of \\( R_2 \\). Consider the following four options.</p>\n\n<ol start=\"1\" style=\"list-style-type: lower-alpha;\">\n\t<li>Insert into \\( R_1 \\)</li>\n\t<li>Insert into \\( R_2 \\)</li>\n\t<li>Delete from \\( R_1 \\)</li>\n\t<li>Delete from \\( R_2 \\)</li>\n</ol>\n\n<p>Which of the following is correct about the referential integrity constraint with respect to&nbsp;above?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | July 2018 | Part 2 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Operations a and b will cause violation</p>",
+            "<p>Operations b and c will cause violation</p>",
+            "<p>Operations c and d will cause violation</p>",
+            "<p>Operations d&nbsp;and a will cause violation</p>"
+          ],
+          "correct_answer": "<p>Operations d&nbsp;and a will cause violation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/225817/ugc-net-cse-july-2018-part-2-question-69\" target=\"_blank\">https://gateoverflow.in/225817/ugc-net-cse-july-2018-part-2-question-69</a></p>"
+        }
+      ]
+    }
+  ]
+}

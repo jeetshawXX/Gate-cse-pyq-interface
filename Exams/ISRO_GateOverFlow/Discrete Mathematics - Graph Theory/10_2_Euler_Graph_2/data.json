@@ -1,0 +1,41 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Euler Graph",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Euler Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49476\"></a><div itemprop=\"text\"><p>A graph with \\( n \\) vertices and \\( n-1 \\) edges that is not a tree, is</p>\n\n</div><br><br><b>Graph Theory: ISRO CSE 2007 | Question: 06</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Connected</p>",
+            "<p>Disconnected</p>",
+            "<p>Euler</p>",
+            "<p>A circuit</p>"
+          ],
+          "correct_answer": "<p>Disconnected</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49476/isro-cse-2007-question-06\" target=\"_blank\">https://gateoverflow.in/49476/isro-cse-2007-question-06</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"55688\"></a><div itemprop=\"text\"><p>A given connected graph \\( \\text{G} \\) is a Euler Graph if and only if all vertices of \\( \\text{G} \\) are of</p>\n\n</div><br><br><b>Graph Theory: ISRO CSE 2016 | Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>same degree &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>even degree</p>",
+            "<p>odd degree &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+            "<p>different &nbsp;degree</p>"
+          ],
+          "correct_answer": "<p>even degree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55688/isro-cse-2016-question-5\" target=\"_blank\">https://gateoverflow.in/55688/isro-cse-2016-question-5</a></p>"
+        }
+      ]
+    }
+  ]
+}

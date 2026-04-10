@@ -1,0 +1,236 @@
+{
+  "title": "Data_Link_Layer - Data_Link_Layer - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Data_Link_Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If the frame to be transmitted is 1101011011 and the CRC polynomial to be used for generating checksum is \\(x^{4}+x+1\\), than what is the transmitted frame? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11010110111011</p>",
+            "<b>B.</b> <p>11010110111101</p>",
+            "<b>C.</b> <p>11010110111110</p>",
+            "<b>D.</b> <p>11010110111001</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11010110111110</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43979/isro-2013-40\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Ethernet layer-2 switch is a network element type which gives. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Different collision domain and same broadcast domain.</p>",
+            "<b>B.</b> <p>Different collision domain and different broadcast domain.</p>",
+            "<b>C.</b> <p>Same collision domain and same broadcast domain.</p>",
+            "<b>D.</b> <p>Same collision domain and different broadcast domain.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Different collision domain and same broadcast domain.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43978/isro-2013-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>How many check bits are required for 16 bit data word to detect 2 bit errors and single bit correction using hamming code? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>6</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43816/isro-2013-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Determine the maximum length of the cable (in km) for transmitting data at a rate of 500 Mbps in\nan Ethernet LAN with frames of size 10,000 bits. Assume the signal speed in the cable to be\n2,00,000 km/s. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>2.5</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1547/gate2013-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider a source computer (S) transmitting a file of size \\(10^{6}\\) bits to a destination computer (D)\nover a network of two routers (R1 and R2) and three links (L1, L2, and L3). L1 connects S to R1; L2\nconnects R1 to R2; and L3 connects R2 to D. Let each link be of length 100 km. Assume signals\ntravel over each link at a speed of \\(10^{8}\\) meters per second. Assume that the link bandwidth on each\nlink is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total\nsum of transmission and propagation delays in transmitting the file from S to D? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1005 ms</p>",
+            "<b>B.</b> <p>1010 ms</p>",
+            "<b>C.</b> <p>3000 ms</p>",
+            "<b>D.</b> <p>3003 ms</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1005 ms</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2153/gate2012-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The hamming distance between the octets of  0xAA and 0x55 is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50634/isro2011-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The network protocol which is used to get MAC address of a node by providing IP address is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>SMTP</p>",
+            "<b>B.</b> <p>ARP</p>",
+            "<b>C.</b> <p>RIP</p>",
+            "<b>D.</b> <p>BOOTP</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>ARP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52262/isro2011-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following is a MAC address? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>192.166.200.50</p>",
+            "<b>B.</b> <p>00056A:01A01A5CCA7FF60</p>",
+            "<b>C.</b> <p>568, Airport Road</p>",
+            "<b>D.</b> <p>01:A5:BB:A7:FF:60</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>01:A5:BB:A7:FF:60</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50321/isro2009-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^{6}\\) bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br> Suppose that the sliding window protocol is used with the sender window size of\n\\(2^{I}\\), where l is the number of bits identified in the earlier part and\nacknowledgements are always piggy backed. After sending \\(2^{I}\\) frames, what is the\nminimum time the sender will have to wait before starting transmission of the\nnext frame? (Identify the closest choice ignoring the frame processing time.) <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16ms</p>",
+            "<b>B.</b> <p>18ms</p>",
+            "<b>C.</b> <p>20ms</p>",
+            "<b>D.</b> <p>22ms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>20ms</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43470/gate2009-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Frames of 1000 bits are sent over a \\(10^{6}\\) bps duplex link between two hosts. The propagation time is 25ms. Frames are to be transmitted into this link to\nmaximally pack them in transit (within the link). <br><br>  What is the minimum number of bits (l) that will be required to represent the sequence numbers distinctly? Assume that no time gap needs to be given between transmission of two frames. <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>l=2</p>",
+            "<b>B.</b> <p>l=3</p>",
+            "<b>C.</b> <p>l=4</p>",
+            "<b>D.</b> <p>l=5</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>l=5</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1340/gate2009-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let G(x) be the generator polynomial used for CRC checking. What is the\ncondition that should be satisfied by G(x) to detect odd number of bits in error? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G(x) contains more than two terms</p>",
+            "<b>B.</b> <p>G(x) does not divide \\(1+x^{k}\\), for any k not exceeding the frame length</p>",
+            "<b>C.</b> <p>1+x is a factor of G(x)</p>",
+            "<b>D.</b> <p>G(x) has an odd number of terms</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1+x is a factor of G(x)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1334/gate2009-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which Project 802 standard provides for a collision-free protocol? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>802.2</p>",
+            "<b>B.</b> <p>802.3</p>",
+            "<b>C.</b> <p>802.5</p>",
+            "<b>D.</b> <p>802.6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>802.5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49672/isro2008-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following transmission media is not readily suitable to CSMA operation? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Radio</p>",
+            "<b>B.</b> <p>Optical fibers</p>",
+            "<b>C.</b> <p>Coaxial cable</p>",
+            "<b>D.</b> <p>Twisted pair</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Radio</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17272/isro2008-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>In Ethernet, the source address field in the MAC frame is the _______ address. <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>original sender's physical</p>",
+            "<b>B.</b> <p>previous station's physical</p>",
+            "<b>C.</b> <p>next destination's physical</p>",
+            "<b>D.</b> <p>original sender's service port</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>previous station's physical</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49666/isro2008-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Data transmitted on a link uses the following 2D parity scheme for error detection:\nEach sequence of 28 bits is arranged in a \\(4\\times 7\\) matrix (rows \\(r_{0}\\) through \\(r_{3}\\), and columns \\(d_{7}\\)  through \\(d_{1}\\)) and is padded with a column \\(d_{0}\\) and row \\(r_{4}\\) of parity bits computed using the Even parity scheme. Each bit of column \\(d_{0}\\) (respectively, row \\(r_{4}\\)) gives the parity of the corresponding row (respectively, column). These 40 bits are transmitted over the data link.<br><br>\\(\\begin{array}{|c|c|c|c|c|c|c|c|c|} \\hline &amp; \\mathbf{d}_{\\mathbf{7}} &amp; \\mathbf{d}_{\\mathbf{6}} &amp; \\mathbf{d}_{\\mathbf{5}} &amp; \\mathbf{d}_{\\mathbf{4}} &amp; \\mathbf{d}_{\\mathbf{3}} &amp; \\mathbf{d}_{\\mathbf{2}} &amp; \\mathbf{d}_{\\mathbf{1}} &amp; \\mathbf{d}_{\\mathbf{0}} \\\\ \\hline \\mathbf{r}_{\\mathbf{0}} &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; \\mathbf{1} \\\\ \\hline \\mathbf{r}_{\\mathbf{1}} &amp; 1 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{2}} &amp; 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{3}} &amp; 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; 1 &amp; \\mathbf{0} \\\\ \\hline \\mathbf{r}_{\\mathbf{4}} &amp; \\mathbf{1} &amp; \\mathbf{1} &amp; \\mathbf{0} &amp; \\mathbf{0} &amp; \\mathbf{0} &amp; \\mathbf{1} &amp; \\mathbf{1} &amp; \\mathbf{0} \\\\ \\hline \\end{array}\\)<br><br>The table shows data received by a receiver and has n corrupted bits. What is the minimum possible value of n? <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3380/gate2008-it-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

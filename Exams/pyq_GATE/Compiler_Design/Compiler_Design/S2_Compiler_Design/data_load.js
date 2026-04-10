@@ -1,0 +1,213 @@
+window.__examLoadCallback({
+  "title": "Compiler_Design - Compiler_Design - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Compiler_Design",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following statements regarding the front-end and back-end of a compiler.\n<br><br>\nS1: The front-end includes phases that are independent of the target hardware.\n<br>S2: The back-end includes phases that are specific to the target hardware.<br>\nS3: The back-end includes phases that are specific to the programming language used in the source code.\n<br><br>\nIdentify the CORRECT option. <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is TRUE.</p>",
+            "<b>B.</b> <p>Only S1 and S2 are TRUE.</p>",
+            "<b>C.</b> <p>S1, S2, and S3 are all TRUE.</p>",
+            "<b>D.</b> <p>Only S1 and S3 are TRUE.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only S1 and S2 are TRUE.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/399311/gate-cse-2023-question-1#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following grammar along with translation rules.<br>\\( \\begin{aligned}\n&amp;S \\rightarrow S_1  \\# T &amp; &amp; \\{S._{val}=S_{1.val}*T._{val} \\} \\\\\n&amp;S \\rightarrow T &amp; &amp; \\{S._{val}=T._{val} \\} \\\\\n&amp;T \\rightarrow T_1  \\% R &amp; &amp; \\{T._{val}=T_{1.val}  \\div R._{val} \\} \\\\\n&amp;T \\rightarrow R &amp; &amp; \\{T._{val}=R._{val} \\} \\\\\n&amp;R \\rightarrow id &amp; &amp; \\{R._{val}=id._{val} \\} \\\\\n\\end{aligned}\\)<br>Here \\( \\#\\) and \\( \\%\\) are operators and \\(id\\) is a token that represents an integer and \\(id_{.val}\\) represents the corresponding integer value. The set of non-terminals is \\( \\{S,T,R,P \\}\\) and a subscripted non-terminal indicates an instance of the non-terminal.\n<br>Using this translation scheme, the computed value of \\(S_{.val}\\) for root of the parse tree for the expression \\(20  \\# 10  \\% 5  \\# 8 \\% 2  \\% 2\\) is <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "80",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371881/Gate-cse-2022-question-55#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the augmented grammar with \\( \\{+, *, (, ), id  \\}\\) as the set of terminals.\n<br>\n\\( \\begin{aligned}&amp;S' \\rightarrow S  \\\\ &amp;S \\rightarrow S+R|R  \\\\ &amp;R \\rightarrow R*P|P \\\\ &amp;P \\rightarrow (S)|id \\end{aligned}\\)<br>If \\(I_0\\) is the set of two \\(LR(0)\\) items \\( \\{ [S' \\rightarrow S.], [S \\rightarrow S.+R]  \\}\\), then \\(goto(closure(I_0 ),+)\\) contains exactly ______ items. <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/371917/Gate-cse-2022-question-19#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2022)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The LALR(1) parser for a grammar G cannot have reduce-reduce conflict if the\nLR(1) parser for G does not have reduce-reduce conflict.</p>",
+            "<b>B.</b> <p>Symbol table is accessed only during the lexical analysis phase.</p>",
+            "<b>C.</b> <p>Data flow analysis is necessary for run-time memory management.</p>",
+            "<b>D.</b> <p>LR(1) parsing is sufficient for deterministic context-free languages.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>LR(1) parsing is sufficient for deterministic context-free languages.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/371933/Gate-cse-2022-question-3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following augmented grammar with \\(\\{ \\#, @, &lt;, &gt;, a, b, c \\}\\) as the set of terminals.<br><br>\n\\(\\begin{array}{l} S' \\rightarrow S \\\\ S \\rightarrow S \\# cS \\\\ S \\rightarrow SS \\\\ S \\rightarrow S @ \\\\ S \\rightarrow &lt; S &gt; \\\\ S \\rightarrow a \\\\ S \\rightarrow b \\\\ S \\rightarrow c \\end{array}\\)<br><br>\nLet \\(I_0 = \\text{CLOSURE}(\\{S' \\rightarrow \\bullet S\\})\\). The number of items in the set \\(\\text{GOTO(GOTO}(I_0 \\lt ), \\lt )\\) is ___________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "8",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357486/gate-cse-2021-set-2-question-51#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For a statement S in a program, in the context of liveness analysis, the following sets are defined:<br><br>USE(S) : the set of variables used in S<br>\nIN(S) : the set of variables that are live at the entry of S<br>\nOUT(S) : the set of variables that are live at the exit of S<br><br>\nConsider a basic block that consists of two statements, S1 followed by S2. Which one of the following statements is correct? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>OUT(S1) = IN (S2)</p>",
+            "<b>B.</b> <p>OUT (S1) = IN (S1) \\(\\cup\\) USE (S1)</p>",
+            "<b>C.</b> <p>OUT (S1) =IN (S2) \\(\\cup\\) OUT (S2)</p>",
+            "<b>D.</b> <p>OUT (S1) = USE (S1)\\(\\cup\\) IN (S2)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>OUT(S1) = IN (S2)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357502/gate-cse-2021-set-2-question-38#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following ANSI C code segment:<pre><code> z=x + 3 + y-&gt; f1 + y-&gt; f2;\nfor (i = 0; i &lt; 200; i = i + 2) \n{\n    if (z &gt; i) \n    {\n        p = p + x + 3;\n        q = q + y-&gt; f1;\n    } else \n    {\n        p = p + y-&gt; f2;\n        q = q + x + 3;\n    }\n}</code></pre>Assume that the variable y points to a struct (allocated on the heap) containing two fields f1 and f2, and the local variables x, y, z, p, q, and i are allotted registers. Common sub-expression elimination (CSE) optimization is applied on the code. The number of addition and the dereference operations (of the form  y -&gt; f1 or y -&gt; f2) in the optimized code, respectively, are: <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>403  and 102</p>",
+            "<b>B.</b> <p>203  and 2</p>",
+            "<b>C.</b> <p>303  and 102</p>",
+            "<b>D.</b> <p>303  and 2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>303  and 2</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357510/gate-cse-2021-set-2-question-30#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>In the context of compilers, which of the following is/are NOT an intermediate representation of the source program? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "multiple",
+          "options": [
+            "<b>A.</b> <p>Three address code</p>",
+            "<b>B.</b> <p>Abstract Syntax Tree (AST)</p>",
+            "<b>C.</b> <p>Control Flow Graph (CFG)</p>",
+            "<b>D.</b> <p>Symbol table</p>"
+          ],
+          "correct_answer": [
+            "<b>D.</b> <p>Symbol table</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357527/gate-cse-2021-set-2-question-13#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following ANSI C program:<pre><code>int main () {\n    Integer x;\n    return 0;\n} </code></pre>  Which one of the following phases in a seven-phase C compiler will throw an error? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Lexical analyzer</p>",
+            "<b>B.</b> <p>Syntax analyzer</p>",
+            "<b>C.</b> <p>Semantic analyzer</p>",
+            "<b>D.</b> <p>Machine dependent optimizer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Semantic analyzer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357537/gate-cse-2021-set-2-question-3#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C code segment:<br><br>a = b + c;<br>\ne = a + 1;\n<br>\nd = b + c;\n<br>\nf = d + 1;\n<br>\ng = e + f;<br><br>In a compiler, this code segment is represented internally as a directed acyclic graph (DAG). The number of nodes in the DAG is  _____________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357401/gate-cse-2021-set-1-question-50#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following grammar (that admits a series of declarations, followed by expressions) and the associated syntax directed translation (SDT) actions, given as pseudo-code<br><br>\\(\\begin{array}{lll} P &amp; \\rightarrow &amp; D^* E^* \\\\ D &amp; \\rightarrow &amp; \\textsf{int ID} \\{ \\text{record that } \\textsf{ID.} \\text{lexeme is of type} \\textsf{ int\\}} \\\\ D &amp; \\rightarrow &amp; \\textsf{bool ID} \\{ \\text{record that } \\textsf{ID.} \\text{lexeme is of type} \\textsf{ bool\\}} \\\\ E&amp; \\rightarrow &amp; E_1 +E_2 \\{ \\text{check that } E_1. \\text{type}=E_2. \\text{type} = \\textsf{int}; \\text{set } E.\\text{type }:= \\textsf{int} \\} \\\\ E &amp; \\rightarrow &amp; !E_1 \\{ \\text{check that } E_1. \\text{type} = \\textsf{bool}; \\text{ set } E.\\text{type} := \\textsf{bool} \\} \\\\ E &amp; \\rightarrow &amp; \\textsf{ID} \\{ \\text{set } E. \\text{type } := \\textsf{int} \\} \\end{array}\\)\n<br><br>\nWith respect to the above grammar, which one of the following choices is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The actions can be used to correctly type-check any syntactically correct program</p>",
+            "<b>B.</b> <p>The actions can be used to type-check syntactically correct integer variable declarations and integer expressions</p>",
+            "<b>C.</b> <p>The actions can be used to type-check syntactically correct boolean variable declarations and boolean expressions.</p>",
+            "<b>D.</b> <p>The actions will lead to an infinite loop</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The actions can be used to type-check syntactically correct integer variable declarations and integer expressions</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357425/gate-cse-2021-set-1-question-26#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following statements.<br><br>S1: Every SLR(1) grammar is unambiguous but there are certain unambiguous grammars that are not SLR(1).<br>\nS2: For any context-free grammar, there is a parser that takes at most \\(O(n^3)\\) time to parse a string of length n.<br><br>\nWhich one of the following options is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is true and S2 is false</p>",
+            "<b>B.</b> <p>S1 is false and S2 is true</p>",
+            "<b>C.</b> <p>S1 is true and S2 is true</p>",
+            "<b>D.</b> <p>S1 is false and S2 is false</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S1 is true and S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357447/gate-cse-2021-set-1-question-5#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following statements.<br>\n<br>\nS1: The sequence of procedure calls corresponds to a preorder traversal of the activation tree.\n<br>S2: The sequence of procedure returns corresponds to a postorder traversal of the activation tree.<br><br>Which one of the following options is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is true and S2 is false</p>",
+            "<b>B.</b> <p>S1 is false and S2 is true</p>",
+            "<b>C.</b> <p>S1 is true and S2 is true</p>",
+            "<b>D.</b> <p>S1 is false and S2 is false</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S1 is true and S2 is true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/357448/gate-cse-2021-set-1-question-4#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the productions \\(A\\rightarrow PQ\\) and \\(A\\rightarrow XY\\). Each of the five non-terminals A,P,Q,X, and Y has two attributes: s is a synthesized attribute, and i is an inherited attribute. Consider the following rules.<br><br>Rule 1: P.i=A.i+2, Q.i=P.i+A.i, and A.s=P.s+Q.s<br>Rule 2: X.i=A.i+Y.s and Y.i=X.s+A.i<br><br>Which one of the following is TRUE? <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both Rule 1 and Rule 2 are L-attributed.</p>",
+            "<b>B.</b> <p>Only Rule 1 is L-attributed.</p>",
+            "<b>C.</b> <p>Only Rule 2 is L-attributed.</p>",
+            "<b>D.</b> <p>Neither Rule 1 nor Rule 2 is L-attributed.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only Rule 1 is L-attributed.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/333198/gate2020-cs-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following  grammar. <br><br>\\(S\\rightarrow aSB|d\\) <br> \\(B\\rightarrow b\\)<br><br> The number of reduction steps taken by a bottom-up parser while accepting the string \\(aaadbbb\\) is___________. <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333207/gate2020-cs-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

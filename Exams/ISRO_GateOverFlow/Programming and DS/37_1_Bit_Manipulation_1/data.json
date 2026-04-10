@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Bit Manipulation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bit Manipulation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"182124\"></a><div itemprop=\"text\"><p>Consider the function</p>\n\n<pre class=\"prettyprint lang-c_cpp\">int func(int num)\n{\n    int count=0;\n    while(num)\n    {\n        count++;\n        num&gt;&gt;=1;\n    }\n    return(count);\n}\n</pre>\n\n<p>For \\( func(435) \\) the value&nbsp;returned is</p>\n\n</div><br><br><b>Programming and DS: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 10 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182124/isro-dec2017-74\" target=\"_blank\">https://gateoverflow.in/182124/isro-dec2017-74</a></p>"
+        }
+      ]
+    }
+  ]
+}

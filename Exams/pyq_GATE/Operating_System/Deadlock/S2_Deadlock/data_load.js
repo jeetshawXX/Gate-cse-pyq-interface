@@ -1,0 +1,192 @@
+window.__examLoadCallback({
+  "title": "Deadlock - Deadlock - Slot 2",
+  "duration": 33,
+  "sections": [
+    {
+      "name": "Deadlock",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A single processor system has three resource types X, Y and Z, which are shared by three processes. There are 5 units of each resource type. Consider the following scenario, where the column alloc denotes the number of units of each resource type allocated to each process, and the column request denotes the number of units of each resource type requested by a process in order to\ncomplete execution. Which of these processes will finish LAST? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Deadlock\\q57_d0cca1a4.jpg\"> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P0</p>",
+            "<b>B.</b> <p>P1</p>",
+            "<b>C.</b> <p>P2</p>",
+            "<b>D.</b> <p>None of the above, since the system is in a deadlock.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1255/gate2007-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following snapshot of a system running n processes. Process i is\nholding \\(x_{i}\\)  instances of a resource R, for \\(1\\leq i\\leq n\\). Currently, all instances of R are occupied. Further, for all i , process i has placed a request for an additional \\(y_{i}\\), instances while holding the \\(x_{i}\\) instances it already has, There are exactly two processes p and q such that \\(y_{p}\\)=\\(y_{q}\\)=0. Which one of the following can serve as\na necessary condition to guarantee that the system is not approaching a deadlock? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(min(x_{p},x_{q}) \\lt max_{k\\neq p,q}(y_{k})\\)</p>",
+            "<b>B.</b> <p>\\(x_{p}+x_{q}\\geq min_{k\\neq p,q}(y_{k})\\)</p>",
+            "<b>C.</b> <p>\\(max(x_{p},x_{q})\\gt 1\\)</p>",
+            "<b>D.</b> <p>\\(min(x_{p},x_{q})\\gt 1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x_{p}+x_{q}\\geq min_{k\\neq p,q}(y_{k})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1844/gate2006-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Two shared resources \\(R_1\\) and \\(R_2\\) are used by processes \\(P_1\\) and \\(P_2\\). Each process has a certain priority for accessing each resource. Let \\(T_{ij}\\) denote the priority of \\(P_i\\) for accessing  \\(R_j\\). A process \\(P_i\\) can snatch a resource \\(R_k\\) from process \\(P_j\\) if \\(T_{ik}\\) is greater than \\(T_{jk}\\).<br>\nGiven the following :<br><br>\n(I). \\(T_{11} \\gt T_{21}\\)<br>\n(II). \\(T_{12} \\gt T_{22}\\)<br>\n(III). \\(T_{11} \\lt T_{21}\\)<br>\n(IV). \\(T_{12} \\lt T_{22}\\)<br><br>\nWhich of the following conditions ensures that \\(P_1\\) and \\(P_2\\) can never deadlock? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(I) and (IV)</p>",
+            "<b>B.</b> <p>(II) and (III)</p>",
+            "<b>C.</b> <p>(I) and (II)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(I) and (II)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3823/gate2005-it-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Suppose n processes, \\(P_1,..., P_n\\) share m identical resource units, which can be reserved and released one at a time. The maximum resource requirement of process \\(P_i\\) is \\(s_i\\), where \\(s_i \\gt 0\\). Which one of the following is a sufficient condition for ensuring that deadlock does not occur?  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Deadlock\\q71_66b23f1e.jpg\"> <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1394/gate2005-71#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In a certain operating system, deadlock prevention is attemped using the following scheme. Each process is assigned a unique timestamp, and is restarted with the same timestamp if killed. Let \\(P_h\\) be the process holding a resource R, \\(P_r\\) be a process requesting for the same resource R, and T(\\(P_h\\)) and T(\\(P_r\\)) be their timestamps respectively. The decision to wait or preempt one of the processes is based on the following algorithm.<br><pre><code> if T(Pr) &lt; T(Ph) then \n    kill Pr \nelse wait</code></pre> Which one of the following is TRUE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The scheme is deadlock-free, but not starvation-free</p>",
+            "<b>B.</b> <p>The scheme is not deadlock-free, but starvation-free</p>",
+            "<b>C.</b> <p>The scheme is neither deadlock-free nor starvation-free</p>",
+            "<b>D.</b> <p>The scheme is both deadlock-free and starvation-free</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The scheme is deadlock-free, but not starvation-free</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3706/gate2004-it-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The following are the starting and ending times of activities A,B,C,D,E,F,G and\nH respectively in chronological order:  \\( a_{s}\\; b_{s} \\; c_{s}\\;a_{e}\\;d_{s}\\;c_{e}\\;e_{s}\\;f_{s}\\;b_{e}\\;d_{e}\\;g_{s}\\;e_{e}\\;f_{e}\\;h_{s}\\;g_{e}\\;h_{e} \\). Here, \\(x_{s}\\) denotes the starting time and \\(x_{e}\\)\ndenotes the ending time of activity X. W need\nto schedule the activities in a set of rooms available to us. An activity can be\nscheduled in a room only if the room is reserved for the activity for its entire\nduration. What is the minimum number of rooms required? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/956/gate2003-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following is not a valid deadlock prevention scheme? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Release all resources before requesting a new resource.</p>",
+            "<b>B.</b> <p>Number the resources uniquely and never request a lower numbered resource than the last one requested.</p>",
+            "<b>C.</b> <p>Never request a resource after releasing any resource.</p>",
+            "<b>D.</b> <p>Request and all required resources be allocated before execution.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Never request a resource after releasing any resource.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/670/gate2000-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A computer has six tape drives, with n processes competing for them. Each process may need two drives. What is the maximum value of n for the system to be deadlock free? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>6</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1669/gate1998-1-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>An operating system contains 3 user processes each requiring 2 units of resource R. The minimum number of units of R such that no deadlocks will ever arise is <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2263/gate1997-6-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A solution to the Dining Philosophers Problem which avoids deadlock is to <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ensure that all philosophers pick up the left fork before the right fork</p>",
+            "<b>B.</b> <p>ensure that all philosophers pick up the right fork before the left fork</p>",
+            "<b>C.</b> <p>ensure that one particular philosopher picks up the left fork before the right fork, and that all other philosophers pick up the right fork before the left fork</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>ensure that one particular philosopher picks up the left fork before the right fork, and that all other philosophers pick up the right fork before the left fork</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2748/gate1996-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a system having m resources of the same type. These resources are shared by 3 processes A,B, and C which have peak demands of 3, 4 and 6 respectively.  For what value of m deadlock will not occur? <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>13</p>",
+            "<b>E.</b> <p>15</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2297/gate1993-7-9-ugcnet-dec2012-iii-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nA computer system has 6 tape devices, with n processes competing for them. Each process may need 3 tape drives. The maximum value of n for which the system is guaranteed to be deadlock-free is: <br><br><strong>(GATE CSE 1992)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/568/gate1992-02-xi\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

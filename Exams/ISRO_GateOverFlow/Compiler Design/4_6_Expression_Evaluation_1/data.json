@@ -1,0 +1,26 @@
+{
+  "title": "Compiler Design - Expression Evaluation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Expression Evaluation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"48052\"></a><div itemprop=\"text\"><p>The expression \\( 1 * 2 \\wedge 3 * 4 \\wedge 5 * 6 \\) will be evaluated as</p>\n\n\n\n<p>In original quetion <strong>5 </strong>is not given.</p></div><br><br><b>Compiler Design: ISRO CSE 2009 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 32^{30} \\)</p>",
+            "<p>\\( 162^{30} \\)</p>",
+            "<p>49152</p>",
+            "<p>173458</p>"
+          ],
+          "correct_answer": "<p>49152</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48052/isro-cse-2009-question-32\" target=\"_blank\">https://gateoverflow.in/48052/isro-cse-2009-question-32</a></p>"
+        }
+      ]
+    }
+  ]
+}

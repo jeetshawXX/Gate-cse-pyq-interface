@@ -1,0 +1,26 @@
+{
+  "title": "Theory of Computation - Minimal State Automata",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Minimal State Automata",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316204\"></a><div itemprop=\"text\"><p>How many states are there in a minimum state automata equivalent to regular expression given below?</p>\n\n<p>Regular expression is \\( a^*b(a+b) \\)</p>\n\n</div><br><br><b>Theory of Computation: UGC NET CSE | June 2019 | Part 2 | Question: 75</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316204/ugc-net-cse-june-2019-part-2-question-75\" target=\"_blank\">https://gateoverflow.in/316204/ugc-net-cse-june-2019-part-2-question-75</a></p>"
+        }
+      ]
+    }
+  ]
+}

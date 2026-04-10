@@ -1,0 +1,59 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Insertion Sort",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Insertion Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"912\"></a><div itemprop=\"text\"><p>The usual \\( \\Theta(n^2) \\) implementation of Insertion Sort to sort an array uses linear search to identify the position where an&nbsp;element is to be inserted into the already sorted part of the array. If, instead, we use binary search to identify the position, the worst case running time will</p></div><br><br><b>GATE CSE 2003 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>remain \\( \\Theta(n^2) \\)</p>",
+            "<p>become \\( \\Theta(n &nbsp;(\\log n)^2) \\)</p>",
+            "<p>become \\( \\Theta(n \\log n) \\)</p>",
+            "<p>become \\( \\Theta(n) \\)</p>"
+          ],
+          "correct_answer": "<p>remain \\( \\Theta(n^2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/912/gate-cse-2003-question-22\" target=\"_blank\">https://gateoverflow.in/912/gate-cse-2003-question-22</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"43576\"></a><div itemprop=\"text\"><p>In a permutation \\( a_1\\ldots a_n \\), of \\( n \\) distinct integers, an inversion is a pair \\( (a_i, a_j) \\) such that \\( i &lt; j \\) and \\( a_i &gt; a_j. \\)</p>\n\n<p>What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of \\( 1. . . n \\) with at most \\( n \\) inversions?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\Theta(n^2) \\)</p>",
+            "<p>\\( \\Theta(n\\log n) \\)</p>",
+            "<p>\\( \\Theta(n^{1.5}) \\)</p>",
+            "<p>\\( \\Theta(n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43576/gate-cse-2003-question-62\" target=\"_blank\">https://gateoverflow.in/43576/gate-cse-2003-question-62</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"461003\"></a><div itemprop=\"text\"><p>Suppose that insertion sort is applied to the array \\( [1,3,5,7,9,11, x, 15,13] \\) and it takes exactly two swaps to sort the array. Select all possible values of \\( x \\).</p></div><br><br><b>GATE DA 2025 | Question: 19</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 14 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 14 \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/461003/gate-da-2025-question-19\" target=\"_blank\">https://gateoverflow.in/461003/gate-da-2025-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

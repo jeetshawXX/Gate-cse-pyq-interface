@@ -1,0 +1,147 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Set Theory and Algebra - Partial Order",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Partial Order",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"509\"></a><div itemprop=\"text\">If the longest chain in a partial order is of length \\( n \\), then the partial order can be written as a _____ of \\( n \\) antichains.</div><br><br><b>GATE CSE 1991 | Question: 01,xiv</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/509/gate-cse-1991-question-01-xiv\" target=\"_blank\">https://gateoverflow.in/509/gate-cse-1991-question-01-xiv</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2303\"></a><div itemprop=\"text\"><p>The less-than relation, \\( &lt;, \\) on real number is</p></div><br><br><b>GATE CSE 1993 | Question: 8.5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>a partial ordering since it is asymmetric and reflexive</p>",
+            "<p>a partial ordering since it is antisymmetric and reflexive</p>",
+            "<p>not a partial ordering because it is not asymmetric and not reflexive</p>",
+            "<p>not a partial ordering because it is not antisymmetric and reflexive</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2303/gate-cse-1993-question-8-5\" target=\"_blank\">https://gateoverflow.in/2303/gate-cse-1993-question-8-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2706\"></a><div itemprop=\"text\"><p>Let \\( X = \\{2, 3, 6, 12, 24\\} \\), Let \\( \\leq \\) be the partial order defined by \\( X \\leq Y \\) if \\( x \\) divides \\( y \\). Number of edges in the Hasse diagram of \\( (X, \\leq) \\) is</p>\n\n\n\n</div><br><br><b>GATE CSE 1996 | Question: 1.2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2706/gate-cse-1996-question-1-2\" target=\"_blank\">https://gateoverflow.in/2706/gate-cse-1996-question-1-2</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"2257\"></a><div itemprop=\"text\"><p>A partial order \\( ≤ \\) is defined on the set \\( S=\\left \\{ x, a_1, a_2, \\ldots,&nbsp;a_n, y \\right \\} \\)&nbsp;as \\( x \\) \\( \\leq _{i} \\)&nbsp;\\( a_{i} \\)&nbsp;for all \\( i \\) and \\( a_{i}\\leq y \\)&nbsp;for all \\( i \\), where \\( n&nbsp;≥ 1 \\). The number of total orders on the set S which contain the partial order \\( ≤ \\) is</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 6.1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n! \\)</p>",
+            "<p>\\( n+2 \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n! \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2257/gate-cse-1997-question-6-1\" target=\"_blank\">https://gateoverflow.in/2257/gate-cse-1997-question-6-1</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"1725\"></a><div itemprop=\"text\"><p>Suppose \\( A = \\{a, b, c, d\\} \\) and \\( \\Pi_1 \\) is the following partition of A</p>\n\n<p>\\( \\Pi_1 = \\left\\{\\left\\{a, b, c\\right\\}\\left\\{d\\right\\}\\right\\} \\)</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n<li>\n<p>List the ordered pairs of the equivalence relations induced by \\( \\Pi_1 \\).</p>\n</li>\n<li>\n<p>Draw the graph of the above equivalence relation.</p>\n</li>\n<li>\n<p>Let \\( \\Pi_2 = \\left\\{\\left\\{a\\right\\}, \\left\\{b\\right\\}, \\left\\{c\\right\\}, \\left\\{d\\right\\}\\right\\} \\)</p>\n\n<p>&nbsp;\\( \\Pi_3 = \\left\\{\\left\\{a, b, c, d\\right\\}\\right\\} \\)</p>\n\n<p>and \\( \\Pi_4 = \\left\\{\\left\\{a, b\\right\\}, \\left\\{c,d\\right\\}\\right\\} \\)</p>\n\n<p>Draw a Poset diagram of the poset, \\( \\left\\langle\\left\\{\\Pi_1, \\Pi_2, \\Pi_3, \\Pi_4\\right\\}, \\text{ refines } \\right\\rangle \\).</p>\n</li>\n</ol></div><br><br><b>GATE CSE 1998 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1725/gate-cse-1998-question-11\" target=\"_blank\">https://gateoverflow.in/1725/gate-cse-1998-question-11</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"921\"></a><div itemprop=\"text\"><p>Let \\( (S, \\leq) \\) be a partial order with two minimal elements a and b, and a maximum element c. Let P: S \\(\\to\\) {<strong>True, False</strong>} be a predicate defined on S. Suppose that P(a) = <strong>True</strong>, P(b) = <strong>False</strong> and P(x) \\(\\implies\\) P(y) for all \\( x, y \\in S \\) satisfying \\( x \\leq y \\), where \\( \\implies \\) stands for logical implication. Which of the following statements CANNOT be true?</p></div><br><br><b>GATE CSE 2003 | Question: 31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P(x) = <strong>True</strong> for all x \\(\\in\\) S such that x ≠ b</p>",
+            "<p>P(x) = <strong>False</strong> for all x \\(\\in\\) S such that x ≠ a and x ≠ c</p>",
+            "<p>P(x) = <strong>False</strong> for all x \\(\\in\\) S such that b ≤ x and x ≠ c</p>",
+            "<p>P(x) = <strong>False</strong> for all x \\(\\in\\) S such that a ≤ x and b ≤ x</p>"
+          ],
+          "correct_answer": "<p>P(x) = <strong>False</strong> for all x \\(\\in\\) S such that a ≤ x and b ≤ x</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/921/gate-cse-2003-question-31\" target=\"_blank\">https://gateoverflow.in/921/gate-cse-2003-question-31</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"1067\"></a><div itemprop=\"text\"><p>The inclusion of which of the following sets into</p>\n\n<p>\\( S = \\left\\{ \\left\\{1, 2\\right\\}, \\left\\{1, 2, 3\\right\\}, \\left\\{1, 3, 5\\right\\}, \\left\\{1, 2, 4\\right\\}, \\left\\{1, 2, 3, 4, 5\\right\\} \\right\\}  \\)</p>\n\n<p>is necessary and sufficient to make \\( S \\) a complete lattice under the partial order defined by set containment?</p>\n\n</div><br><br><b>GATE CSE 2004 | Question: 73</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\{1\\} \\)</p>",
+            "<p>\\( \\{1\\}, \\{2, 3\\} \\)</p>",
+            "<p>\\( \\{1\\}, \\{1, 3\\} \\)</p>",
+            "<p>\\( \\{1\\}, \\{1, 3\\}, \\{1, 2, 3, 4\\}, \\{1, 2, 3, 5\\} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\{1\\} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1067/gate-cse-2004-question-73\" target=\"_blank\">https://gateoverflow.in/1067/gate-cse-2004-question-73</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"1224\"></a><div itemprop=\"text\"><p>Consider the set \\( S =\\{ a , b , c , d\\}. \\) Consider the following \\( 4 \\) partitions \\( π_1,π_2,π_3,π_4 \\) on<br>\n\\( S : π_1 =\\{\\overline{abcd}\\},\\quad π_2 =\\{\\overline{ab}, \\overline{cd}\\}, \\) \\( \\quad π_3 = \\{\\overline{abc}, \\overline{d}\\},\\quad π_4 =\\{\\bar{a}, \\bar{b}, \\bar{c}, \\bar{d}\\} \\).<br>\nLet \\( \\prec \\) be the partial order on the set of partitions \\( S' = \\{π_1,π_2,π_3,π_4\\} \\) defined as follows: \\( π_i \\prec π_j \\) if and only if \\( π_i \\) refines \\( π_j \\). The poset diagram for \\( (S',\\prec) \\) is:</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___partial_order/daa02b981e75e8bba2c4789645176926.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___partial_order/a8eb7ce8296bab03897012b560386fa7.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___partial_order/a89ecdd01f0f4ecbf6e8767530329313.png\"></p>",
+            "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___partial_order/8fad86e400b4247ce2ac0951cb0ddc0c.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/discrete_mathematics___set_theory_and_algebra___partial_order/a89ecdd01f0f4ecbf6e8767530329313.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1224/gate-cse-2007-question-26\" target=\"_blank\">https://gateoverflow.in/1224/gate-cse-2007-question-26</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"422873\"></a><div itemprop=\"text\">Let \\( \\text{P} \\) be the partial order defined on the set \\( \\{1,2,3,4\\} \\) as follows<br>\n\\[<br>\nP=\\{(x, x) \\mid x \\in\\{1,2,3,4\\}\\} \\cup\\{(1,2),(3,2),(3,4)\\}<br>\n\\]<br>\n<br>\nThe number of total orders on \\( \\{1,2,3,4\\} \\) that contain \\( \\text{P} \\) is __________.</div><br><br><b>GATE CSE 2024 | Set 2 | Question: 24</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422873/gate-cse-2024-set-2-question-24\" target=\"_blank\">https://gateoverflow.in/422873/gate-cse-2024-set-2-question-24</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3456\"></a><div itemprop=\"text\"><p>A partial order \\( P \\) is defined on the set of natural numbers as follows. Here \\( \\frac{x}{y} \\) denotes integer division.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( (0, 0) \\in P. \\)</li>\n\t<li>\\( (a, b) \\in P \\) if and only if \\( (a \\% 10) \\leq (b \\% 10 \\)) and \\( (\\frac{a}{10},\\frac{b}{10})\\in&nbsp; P. \\)</li>\n</ol>\n\n<p>Consider the following ordered pairs:</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\\( (101, 22) \\)</li>\n\t<li>\\( (22, 101) \\)</li>\n\t<li>\\( (145, 265) \\)</li>\n\t<li>\\( (0, 153) \\)</li>\n</ol>\n\n<p>Which of these ordered pairs of natural numbers are contained in \\( P \\)?</p>\n\n</div><br><br><b>GATE IT 2007 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i) and (iii)</p>",
+            "<p>(ii) and (iv)</p>",
+            "<p>(i) and (iv)</p>",
+            "<p>(iii)&nbsp;and (iv)</p>"
+          ],
+          "correct_answer": "<p>(iii)&nbsp;and (iv)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3456/gate-it-2007-question-23\" target=\"_blank\">https://gateoverflow.in/3456/gate-it-2007-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,111 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Spatial Aptitude - Image Rotation",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Image Rotation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"426525\"></a><div itemprop=\"text\"><p>​​​​The assembly shown below has three teethed circular objects (Pinions) and two teethed flat objects (Racks), which are perfectly mating with each other. Pinions can only rotate clockwise or anti-clockwise staying at its own center. Racks can translate towards the left \\( (\\leftarrow) \\) or the right \\( (\\rightarrow) \\) direction.</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/8fdcbc92ffb4fc2a0715b54b1b879088.png\" width=\"400\"></p>\n\n<p><br>\n<br>\nIf the object \\( \\text{A} \\) (Rack) is translating towards the right \\( (\\rightarrow) \\) direction, the correct statement among the following is</p>\n\n</div><br><br><b>GATE 2024 Electrical | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Object \\( \\text{B} \\) translates towards the right direction.</p>",
+            "<p>Object \\( \\text{B} \\) translates towards the left direction.</p>",
+            "<p>Object \\( \\mathrm{R} \\) rotates in the anticlockwise direction.</p>",
+            "<p>Object \\( \\mathrm{Q} \\) rotates in the clockwise direction.</p>"
+          ],
+          "correct_answer": "<p>Object \\( \\text{B} \\) translates towards the left direction.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426525/gate-2024-electrical-ga-question-9\" target=\"_blank\">https://gateoverflow.in/426525/gate-2024-electrical-ga-question-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"371501\"></a><div itemprop=\"text\"><p>A palindrome is a word that reads the same forwards and backwards. In a game of words, a player has the following two plates painted with letters.</p>\n\n<p>&nbsp; &nbsp;&nbsp; &nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/9fc165a6acefbc138dfd237cd0727173.png\" width=\"175\"></p>\n\n<p>From the additional plates given in the options, which one of the combinations of additional plates would allow the player to construct a five-letter palindrome. The player should use all the five plates exactly once. The plates can be rotated in their plane.</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp;A.&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/5aca1502cd55fde04a082fd6630ebd38.png\" width=\"200\"></p>\n\n<p>&nbsp; &nbsp; &nbsp; B.&nbsp;&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/f1c2b3f52c11721301a8bd2bec732a6f.png\" width=\"200\"></p>\n\n<p>&nbsp; &nbsp; &nbsp;&nbsp;C.&nbsp;&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/9f8e3ff09d8bfd11fdb8b7998efcd800.png\" width=\"200\">&nbsp;</p>\n\n<p>&nbsp; &nbsp; &nbsp; D.&nbsp;&nbsp;<img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/026f2fd6e03fddfbd151a064f00c48a1.png\" width=\"200\"></p></div><br><br><b>GATE CSE 2022 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371501/gate-cse-2022-ga-question-5\" target=\"_blank\">https://gateoverflow.in/371501/gate-cse-2022-ga-question-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"399246\"></a><div itemprop=\"text\"><p>Which one of the options best describes the transformation of the \\( 2 \\)-dimensional figure \\( \\mathbf{P} \\) to \\( \\mathbf{Q} \\), and then to \\( \\mathbf{R} \\), as shown?</p><p style=\"text-align:center\"><img alt=\"\" height=\"156\" width=\"526\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/0bffafd3b0650fef1d2c9982c027d8fc.png\"></p></div><br><br><b>GATE CSE 2023 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{Operation 1:} \\) A clockwise rotation by \\( 90^{\\circ} \\) about an axis perpendicular to the plane of the figure<br>\\( \\text{Operation 2:} \\) A reflection along a horizontal line</p>",
+            "<p>\\( \\text{Operation 1:} \\) A counter clockwise rotation by \\( 90^{\\circ} \\) about an axis perpendicular to the plane of the figure<br>\\( \\text{Operation 2:} \\) A reflection along a horizontal line</p>",
+            "<p>\\( \\text{Operation 1:} \\) A clockwise rotation by \\( 90^{\\circ} \\) about an axis perpendicular to the plane of the figure<br>\\( \\text{Operation 2:} \\) A reflection along a vertical line</p>",
+            "<p>\\( \\text{Operation 1:} \\) A counter clockwise rotation by \\( 180^{\\circ} \\) about an axis perpendicular to the plane of the figure<br>\\( \\text{Operation 2:} \\) A reflection along a vertical line</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{Operation 1:} \\) A clockwise rotation by \\( 90^{\\circ} \\) about an axis perpendicular to the plane of the figure<br>\\( \\text{Operation 2:} \\) A reflection along a horizontal line</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399246/gate-cse-2023-ga-question-10\" target=\"_blank\">https://gateoverflow.in/399246/gate-cse-2023-ga-question-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"411917\"></a><div itemprop=\"text\"><p>Consider a circle with its centre at the origin \\( (\\mathrm{O}) \\), as shown. Two operations are allowed on the circle.</p><p><em>Operation \\( 1: \\)</em> Scale independently along the \\( \\mathrm{x} \\) and \\( \\mathrm{y} \\) axes.<br><em>Operation \\( 2: \\)</em> Rotation in any direction about the origin.</p><p>Which figure among the options can be achieved through a combination of these two operations on the given circle?</p><p style=\"text-align:center\"><img alt=\"\" width=\"250\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/7a58e7893a1e0ed424f56087e7ed9dce.png\"></p></div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 5</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"\" width=\"250\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/434a0ff6f9db3ddaf26bf8bd7889266d.png\"></p>",
+            "<p><img alt=\"\" width=\"250\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/eb23aafae59410a36d21b6acfbe4299a.png\"></p>",
+            "<p><img alt=\"\" width=\"250\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/30be31e77d48444c9a7c86a8f0c43ffb.png\"></p>",
+            "<p><img alt=\"\" width=\"250\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/80d103ae8efac1a181653f3f43308a82.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"\" width=\"250\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/434a0ff6f9db3ddaf26bf8bd7889266d.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411917/gate-civil-2023-set-2-ga-question-5\" target=\"_blank\">https://gateoverflow.in/411917/gate-civil-2023-set-2-ga-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"426501\"></a><div itemprop=\"text\"><p>​​​​Visualize a cube that is held with one of the four body diagonals aligned to the vertical axis. Rotate the cube about this axis such that its view remains unchanged. The magnitude of the minimum angle of rotation is</p></div><br><br><b>GATE Civil 2024 Set 2 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 120^{\\circ} \\)</p>",
+            "<p>\\( 60^{\\circ} \\)</p>",
+            "<p>\\( 90^{\\circ} \\)</p>",
+            "<p>\\( 180^{\\circ} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 120^{\\circ} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/426501/gate-civil-2024-set-2-ga-question-10\" target=\"_blank\">https://gateoverflow.in/426501/gate-civil-2024-set-2-ga-question-10</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"422963\"></a><div itemprop=\"text\"><p>Three different views of a dice are shown in the figure below.</p><p><img alt=\"\" width=\"480\" height=\"136\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/42668c08f29718278cbf54c03a204288.png\"><br><br>The piece of paper that can be folded to make this dice is</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div><br><br><b>GATE DS&AI 2024 | GA Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p><img alt=\"GATE DS&amp;AI 2024 | GA Question-45\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/00537153c48f79959cd7e613c97ce299.png\"></p>",
+            "<p><img alt=\"GATE DS&amp;AI 2024 | GA Question-45\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/d3b003d099f9352f7a89cd04799d6134.png\"></p>",
+            "<p><img alt=\"GATE DS&amp;AI 2024 | GA Question-45\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/79b11578e57cab03e29ee0469a353254.png\"></p>",
+            "<p><img alt=\"GATE DS&amp;AI 2024 | GA Question-45\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/0f53623592f4122c169e660131b97f28.png\"></p>"
+          ],
+          "correct_answer": "<p><img alt=\"GATE DS&amp;AI 2024 | GA Question-45\" width=\"200\" height=\"200\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/00537153c48f79959cd7e613c97ce299.png\"></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422963/gate-ds&ai-2024-ga-question-9\" target=\"_blank\">https://gateoverflow.in/422963/gate-ds&ai-2024-ga-question-9</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"411684\"></a><div itemprop=\"text\"><p>Consider the following square with the four corners and the center marked as \\( \\text{P, Q, R, S} \\) and \\( \\text{T} \\) respectively.</p>\n\n<p><img alt=\"\" height=\"197\" src=\"images/gateOverflow_pyq_images/general_aptitude___spatial_aptitude___image_rotation/306b39e842b355eca4a854f0cd721cd5.png\" width=\"230\"></p>\n\n<p>Let \\( \\text{X, Y} \\) and \\( \\text{Z} \\) represent the following operations:</p>\n\n<p>\\( \\text{X:} \\) rotation of the square by \\( 180 \\) degree with respect to the \\( \\text{S – Q} \\) axis.</p>\n\n<p>\\( \\text{Y:} \\) rotation of the square by \\( 180 \\) degree with respect to the \\( \\text{P – R} \\) axis.</p>\n\n<p>\\( \\text{Z:} \\) rotation of the square by \\( 90 \\) degree clockwise with respect to the axis&nbsp;perpendicular, going into the screen and passing through the point \\( \\text{T}. \\)</p>\n\n<p>Consider the following three distinct sequences of operation (which are applied in the left to right order).</p>\n\n<ol>\n\t<li>\\( \\text{XYZZ} \\)</li>\n\t<li>\\( \\text{XY} \\)</li>\n\t<li>\\( \\text{ZZZZ} \\)</li>\n</ol>\n\n<p>Which one of the following statements is correct as per the information provided above?</p>\n\n</div><br><br><b>GATE ECE 2022 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The sequence of operations \\( (1) \\) and \\( (2) \\) are equivalent</p>",
+            "<p>The sequence of operations \\( (1) \\) and \\( (3) \\) are equivalent</p>",
+            "<p>The sequence of operations \\( (2) \\) and \\( (3) \\) are equivalent</p>",
+            "<p>The sequence of operations \\( (1), (2) \\) and \\( (3) \\) are equivalent</p>"
+          ],
+          "correct_answer": "<p>The sequence of operations \\( (1) \\) and \\( (3) \\) are equivalent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411684/gate-ece-2022-ga-question-10\" target=\"_blank\">https://gateoverflow.in/411684/gate-ece-2022-ga-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

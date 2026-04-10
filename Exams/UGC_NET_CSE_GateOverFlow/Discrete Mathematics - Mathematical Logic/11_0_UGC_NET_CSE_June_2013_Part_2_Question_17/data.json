@@ -1,0 +1,264 @@
+{
+  "title": "Discrete Mathematics - Mathematical Logic - UGC NET CSE  June 2013  Part 2  Question",
+  "duration": 47,
+  "sections": [
+    {
+      "name": "UGC NET CSE  June 2013  Part 2  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"12017\"></a><div itemprop=\"text\">\n<p>Which of the following shall be a compound proposition involving the propositions p, q and r, that is true when exactly two of the p, q and r are true and is false otherwise?</p>\n\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | June 2013 | Part 2 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (p \\vee q \\wedge \\rceil r) \\vee (p \\wedge q \\wedge r) \\wedge (\\rceil p \\wedge q \\vee r) \\)</p>",
+            "<p>\\( (p \\wedge q \\vee r) \\wedge (p \\wedge q \\wedge r) \\vee (\\rceil q \\wedge \\rceil q \\wedge \\rceil r) \\)</p>",
+            "<p>\\( (p \\wedge q \\wedge \\rceil r) \\vee (p \\wedge \\rceil q \\wedge r) \\vee (\\rceil p \\wedge q \\wedge r) \\)</p>",
+            "<p>\\( (p \\vee r \\wedge q) \\vee (p \\wedge q \\wedge r) \\vee (\\rceil p \\wedge q \\wedge r) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (p \\wedge q \\wedge \\rceil r) \\vee (p \\wedge \\rceil q \\wedge r) \\vee (\\rceil p \\wedge q \\wedge r) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/12017/ugc-net-cse-june-2013-part-2-question-39\" target=\"_blank\">https://gateoverflow.in/12017/ugc-net-cse-june-2013-part-2-question-39</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"47607\"></a><div itemprop=\"text\"><p>The truth value of the statements:<br>\n<br>\n\\( \\exists ! xP(x) \\rightarrow \\exists xP(x) \\text{ and } \\exists ! x \\rceil P(x) \\rightarrow \\rceil \\forall xP(x) \\), (where the notation \\( \\exists ! x P(x) \\) denotes the proposition “There exists a unique \\( x \\) such that \\( P(x) \\) is true”) are:</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | June 2013 | Part 2 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>True and False</p>",
+            "<p>False and True</p>",
+            "<p>False and False</p>",
+            "<p>True and True</p>"
+          ],
+          "correct_answer": "<p>True and True</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47607/ugc-net-cse-june-2013-part-2-question-40\" target=\"_blank\">https://gateoverflow.in/47607/ugc-net-cse-june-2013-part-2-question-40</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"47609\"></a><div itemprop=\"text\"><p>The tracing model in Prolog describes program execution in terms of certain events. These events are</p></div><br><br><b>Mathematical Logic: UGC NET CSE | September 2013 | Part 3 | Question: 67</b></p>",
+          "type": "single",
+          "options": [
+            "<p>call and exit</p>",
+            "<p>call and fail</p>",
+            "<p>call, exit and redo</p>",
+            "<p>call, exit, redo and fail</p>"
+          ],
+          "correct_answer": "<p>call, exit, redo and fail</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/47609/ugc-net-cse-september-2013-part-3-question-67\" target=\"_blank\">https://gateoverflow.in/47609/ugc-net-cse-september-2013-part-3-question-67</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55853\"></a><div itemprop=\"text\"><p>Which of the following arguments are not valid?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\"If Gora gets the job and works hard, then he will be promoted. if Gora gets promotion, then he will be happy. He will not be happy, therefore, either he will not get the job or he will not work hard.\"&nbsp;</li>\n\t<li>\"Either Puneet is not guilty or Pankaj is telling the truth. Pankaj is not telling the truth, therefore, Puneet is not guilty.\"</li>\n\t<li>If \\( n \\) is a real number such that \\( n&gt;1 \\), then \\( n^2 &gt; 1 \\). Suppose that \\( n^2 &gt; 1 \\), then \\( n&gt;1 \\).\n\t\n\t</li>\n</ol></div><br><br><b>Mathematical Logic: UGC NET CSE | December 2015 | Part 2 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i and iii</p>",
+            "<p>ii and iii</p>",
+            "<p>i,ii, and iii</p>",
+            "<p>i and ii</p>"
+          ],
+          "correct_answer": "<p>ii and iii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55853/ugc-net-cse-december-2015-part-2-question-6\" target=\"_blank\">https://gateoverflow.in/55853/ugc-net-cse-december-2015-part-2-question-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"56792\"></a><div itemprop=\"text\"><p>________ predicate calculus allows quantified variables to refer to objects in the domain of discourse and not to predicates or functions.</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | June 2014 | Part 3 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Zero-order&nbsp;</p>",
+            "<p>First-order</p>",
+            "<p>Second-order&nbsp;</p>",
+            "<p>High-order</p>"
+          ],
+          "correct_answer": "<p>First-order</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56792/ugc-net-cse-june-2014-part-3-question-32\" target=\"_blank\">https://gateoverflow.in/56792/ugc-net-cse-june-2014-part-3-question-32</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"60946\"></a><div itemprop=\"text\"><p>\"If my computations are correct and I pay the electric bill, then I will run out of money. If I don't pay the electric bill, the power will be turned off. Therefore, If I don't run out of money and the power is still on then my computations are incorrect.\"</p>\n\n<p>Convert this argument into logical notations using the variables \\( c, b, r, p \\) for propositions of computations, electric bills, out of money and the power respectively. (Where \\( \\neg \\) means NOT).</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | Junet 2015 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{if } (c \\wedge b) \\rightarrow r \\text{ and } \\neg b \\rightarrow \\neg p,&nbsp;\\text{&nbsp;then } (\\neg r \\wedge p) \\rightarrow \\neg c \\)</p>",
+            "<p>\\( \\text{if } (c \\vee b) \\rightarrow r&nbsp;\\text{and } \\neg b \\rightarrow \\neg p,&nbsp;\\text{&nbsp;then } (r \\wedge p) \\rightarrow c \\)</p>",
+            "<p>\\( \\text{if } (c \\wedge b) \\rightarrow r&nbsp;\\text{&nbsp;and } \\neg p \\rightarrow \\neg b,&nbsp;\\text{&nbsp;then } (\\neg r \\vee p) \\rightarrow \\neg c \\)</p>",
+            "<p>\\( \\text{if } (c \\vee b) \\rightarrow r&nbsp;\\text{&nbsp;and } \\neg b \\rightarrow \\neg p,&nbsp;\\text{&nbsp;then } (\\neg r \\wedge p) \\rightarrow \\neg c \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{if } (c \\wedge b) \\rightarrow r \\text{ and } \\neg b \\rightarrow \\neg p,&nbsp;\\text{&nbsp;then } (\\neg r \\wedge p) \\rightarrow \\neg c \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60946/ugc-net-cse-junet-2015-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/60946/ugc-net-cse-junet-2015-part-2-question-8</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"61010\"></a><div itemprop=\"text\"><p>Equivalent logical expression for the Well Formed Formula \\( (WFF) \\),</p><p>\\( \\sim(\\forall x) F\\left[x\\right] \\)</p><p>is</p></div><br><br><b>Mathematical Logic: UGC NET CSE | December 2014 | Part 3 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\forall x (\\sim F\\left[x\\right]) \\)</p>",
+            "<p>\\( \\sim (\\exists x) F\\left[x\\right] \\)</p>",
+            "<p>\\( \\exists x (\\sim F\\left[x\\right])​ \\)&nbsp;</p>",
+            "<p>\\( \\forall x F\\left[x\\right] \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\exists x (\\sim F\\left[x\\right])​ \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61010/ugc-net-cse-december-2014-part-3-question-55\" target=\"_blank\">https://gateoverflow.in/61010/ugc-net-cse-december-2014-part-3-question-55</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"61013\"></a><div itemprop=\"text\">\n<p>The resolvent of the set of clauses \\( (A \\vee&nbsp;B, \\sim A \\vee&nbsp;D, C \\vee \\sim B) \\) is&nbsp;</p>\n\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | December 2014 | Part 3 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\vee​&nbsp;B \\)</p>",
+            "<p>\\( C \\vee​&nbsp;D \\)</p>",
+            "<p>\\( A \\vee​&nbsp;C \\)</p>",
+            "<p>\\( A \\vee​&nbsp;D \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( C \\vee​&nbsp;D \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61013/ugc-net-cse-december-2014-part-3-question-57\" target=\"_blank\">https://gateoverflow.in/61013/ugc-net-cse-december-2014-part-3-question-57</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"61234\"></a><div itemprop=\"text\">\n<p>The casual form of the disjunctive normal form \\( \\neg A \\vee \\neg B \\vee \\neg C \\vee D \\) is:</p>\n\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | Junet 2015 | Part 3 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\wedge B \\wedge C \\Rightarrow D \\)</p>",
+            "<p>\\( A \\vee B \\vee C \\vee D \\Rightarrow true \\)</p>",
+            "<p>\\( A \\wedge B \\wedge C \\wedge D \\Rightarrow true \\)</p>",
+            "<p>\\( A \\wedge B \\wedge C \\wedge D \\Rightarrow false \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A \\wedge B \\wedge C \\Rightarrow D \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61234/ugc-net-cse-junet-2015-part-3-question-22\" target=\"_blank\">https://gateoverflow.in/61234/ugc-net-cse-junet-2015-part-3-question-22</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"62224\"></a><div itemprop=\"text\"><p>Let P(m,n) be the statement \"m divides n\" where the universe of discourse for both the variable is the set of positive integers. Determine the truth values of each of the following propositions:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( \\forall m \\forall n P(m, n) \\),</li>\n\t<li>\\( \\forall n P(1,n) \\)</li>\n\t<li>\\( \\exists m \\forall n P(m,n) \\)\n\t\n\t</li>\n</ol></div><br><br><b>Mathematical Logic: UGC NET CSE | December 2015 | Part 2 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a-True, b-True, c-False</p>",
+            "<p>a-True, b-False, c-False</p>",
+            "<p>a-False, b-False, c-False</p>",
+            "<p>a-True, b-True, c-True</p>"
+          ],
+          "correct_answer": "<p>a-True, b-True, c-False</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62224/ugc-net-cse-december-2015-part-2-question-7\" target=\"_blank\">https://gateoverflow.in/62224/ugc-net-cse-december-2015-part-2-question-7</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"62228\"></a><div itemprop=\"text\"><p>Consider the compund propositions given below as:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>\\( p \\vee \\sim (p \\wedge q) \\)</li>\n\t<li>\\( (p \\wedge \\sim q) \\vee \\sim (p \\wedge q) \\)</li>\n\t<li>\\( p \\wedge (q \\vee r) \\)</li>\n</ol>\n\n<p>Which of the above propositions are tautologies</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | December 2015 | Part 2 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>i and iii</p>",
+            "<p>ii and iii</p>",
+            "<p>i and ii</p>",
+            "<p>i, ii, and iii</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62228/ugc-net-cse-december-2015-part-2-question-9\" target=\"_blank\">https://gateoverflow.in/62228/ugc-net-cse-december-2015-part-2-question-9</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"64333\"></a><div itemprop=\"text\"><p>The proposition \\( \\sim p \\vee q \\) is equivalent to</p></div><br><br><b>Mathematical Logic: UGC NET CSE | June 2011 | Part 2 | Question: 3</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( p \\rightarrow&nbsp;q \\)&nbsp;</p>",
+            "<p>\\( q \\rightarrow&nbsp;p \\)</p>",
+            "<p>\\( p \\leftrightarrow&nbsp;q \\)&nbsp;</p>",
+            "<p>\\( p \\vee&nbsp;q \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/64333/ugc-net-cse-june-2011-part-2-question-3\" target=\"_blank\">https://gateoverflow.in/64333/ugc-net-cse-june-2011-part-2-question-3</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"166242\"></a><div itemprop=\"text\"><p>Let \\( P \\) and \\( Q \\) be two propositions \\( \\neg (P \\leftrightarrow Q) \\) is equivalent to</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | November 2017 | Part 2 | Question: 8</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( P\\leftrightarrow \\neg Q \\)</p>",
+            "<p>\\( \\neg P\\leftrightarrow Q \\)</p>",
+            "<p>\\( \\neg P \\leftrightarrow \\neg&nbsp;Q \\)</p>",
+            "<p>\\( Q\\rightarrow P \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( P\\leftrightarrow \\neg Q \\)</p>",
+            "<p>\\( \\neg P\\leftrightarrow Q \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166242/ugc-net-cse-november-2017-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/166242/ugc-net-cse-november-2017-part-2-question-8</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"288375\"></a><div itemprop=\"text\"><p>​​​​​Match&nbsp;List-I with List-II and choose the correct answer from the code given below :</p><p>\\( \\begin{array}{|c|c|c|c|} \\hline &amp; \\textbf{List I} &amp; &amp; \\textbf{List II} \\\\ \\hline (a) &amp; \\text{Equivalence} &amp; (i) &amp; p \\Rightarrow q \\\\ \\hline (b) &amp; \\text{Contrapositive} &amp; (ii) &amp;&nbsp;p \\Rightarrow q; q \\Rightarrow p \\\\ \\hline (c )&nbsp;&amp; \\text{Converse} &amp; (iii) &amp;&nbsp;p \\Rightarrow q: \\sim&nbsp;q&nbsp;\\Rightarrow \\sim&nbsp;p \\\\ \\hline (d) &amp; \\text{Implication} &amp; (iv) &amp; p \\Leftrightarrow q \\\\ \\hline \\end{array} \\)</p></div><br><br><b>Mathematical Logic: UGC NET CSE | December 2018 | Part 2 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)} \\)</p>",
+            "<p>\\( \\text{(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)} \\)</p>",
+            "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288375/ugc-net-cse-december-2018-part-2-question-2\" target=\"_blank\">https://gateoverflow.in/288375/ugc-net-cse-december-2018-part-2-question-2</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"288376\"></a><div itemprop=\"text\"><p>​​​​​​In mathematical logic, which of the following are statements?</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\">\n\t<li>There will be snow in January.</li>\n\t<li>What is the time now?</li>\n\t<li>Today is Sunday.</li>\n\t<li>You must study Discrete mathematics</li>\n</ol>\n\n<p>Choose the correct answer from the code given below:</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | December 2018 | Part 2 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>i and iii</p>",
+            "<p>i and ii</p>",
+            "<p>ii and iv</p>",
+            "<p>iii and iv</p>"
+          ],
+          "correct_answer": "<p>i and iii</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/288376/ugc-net-cse-december-2018-part-2-question-1\" target=\"_blank\">https://gateoverflow.in/288376/ugc-net-cse-december-2018-part-2-question-1</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"335161\"></a><div itemprop=\"text\">Match the following :<br>\n<br>\n\\( \\begin{array}{llll} &amp; \\textbf{List – I} &nbsp;&amp; {} &amp; \\textbf{List – II} \\\\ \\text{a.} &amp; \\text{Absurd} &amp; \\text{i.} &amp; \\text{Clearly impossible being contrary to some evident truth.} \\\\ \\text{b.} &amp; \\text{Ambiguous} &amp; \\text{ii.} &amp; \\text{Capable of more than one interpretation or meaning.} \\\\ \\text{c.} &amp; \\text{Axiom} &amp; \\text{iii.} &amp; &nbsp;\\text{An assertion that is accepted and used without a proof.} \\\\ \\text{d.} &amp; \\text{Conjecture} &amp; \\text{iv.}&amp; \\text{An opinion preferably based on some experience or wisdom.} \\end{array} \\)<br>\n<br>\nCodes:<br>\n<br>\n\\( \\begin{array}{ccccc} &nbsp;&amp; a &amp; b &amp; c &amp; d \\\\ A. &amp; i &amp; ii &amp; iii &amp; iv \\\\ B. &amp; i &amp; iii &amp; iv &amp; ii \\\\ C. &amp; ii &amp; iii &amp; iv &amp; i \\\\ D. &amp; ii &amp; i &amp; iii &amp; iv \\end{array} \\)</div><br><br><b>Mathematical Logic: UGC NET CSE | January 2017 | Part 2 | Question: 2</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335161/ugc-net-cse-january-2017-part-2-question-2\" target=\"_blank\">https://gateoverflow.in/335161/ugc-net-cse-january-2017-part-2-question-2</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"349620\"></a><div itemprop=\"text\"><p>Consider the following statements:</p>\n\n<ol start=\"1\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>Any tree is \\( 2 \\)-colorable</li>\n\t<li>A graph \\( G \\) has no cycles of even length if it is bipartite</li>\n\t<li>A graph \\( G \\) is \\( 2 \\)-colorable if is bipartite</li>\n\t<li>A graph \\( G \\) can be colored with \\( d+1 \\) colors if \\( d \\) is the maximum degree of any vertex in the graph \\( G \\)</li>\n\t<li>A graph \\( G \\) can be colored with \\( O(\\log \\mid v \\mid ) \\) colors if it has \\( O(\\mid v \\mid ) \\) edges.</li>\n</ol>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | October 2020 | Part 2 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (iii) \\) and \\( (v) \\) are incorrect</p>",
+            "<p>\\( (ii) \\) and \\( (iii) \\) are incorrect</p>",
+            "<p>\\( (ii) \\) and \\( (v) \\) are incorrect</p>",
+            "<p>\\( (i) \\) and \\( (iv) \\) are incorrect</p>"
+          ],
+          "correct_answer": "<p>\\( (ii) \\) and \\( (v) \\) are incorrect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349620/ugc-net-cse-october-2020-part-2-question-53\" target=\"_blank\">https://gateoverflow.in/349620/ugc-net-cse-october-2020-part-2-question-53</a></p>"
+        }
+      ]
+    }
+  ]
+}

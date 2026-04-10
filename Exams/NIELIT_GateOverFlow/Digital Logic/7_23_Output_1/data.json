@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Output",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Output",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373718\"></a><div itemprop=\"text\"><p>Given the function \\( \\text{F = P’ + QR,} \\)&nbsp;where \\( \\text{F} \\) is a function in three Boolean variables \\( \\text{P, Q} \\) and \\( \\text{R} \\) and \\( \\text{P'=!P} \\), consider the following statements.</p>\n\n<p>\\( \\text{S1: F} = \\sum(4, 5, 6) \\)</p>\n\n<p>\\( \\text{S2: F} = \\sum(0, 1, 2, 3, 7) \\)</p>\n\n<p>\\( \\text{S3: F} = \\Pi (4, 5, 6) \\)</p>\n\n<p>\\( \\text{S4: F} = \\Pi (0, 1, 2, 3, 7) \\)</p>\n\n<p>Which of the following is true?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2022 April Scientist B | Section B | Question: 120</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(S1)} \\)-False, \\( \\text{(S2)} \\)-True, \\( \\text{(S3)} \\)-True, \\( \\text{(S4)} \\)-False</p>",
+            "<p>\\( \\text{(S1)} \\)-True, \\( \\text{(S2)} \\)-False, \\( \\text{(S3)} \\)-False, \\( \\text{(S4)} \\)-True</p>",
+            "<p>\\( \\text{(S1)} \\)-False, \\( \\text{(S2)} \\)-False, \\( \\text{(S3)} \\)-True, \\( \\text{(S4)} \\)-True</p>",
+            "<p>\\( \\text{(S1)} \\)-True, \\( \\text{(S2)} \\)-True, \\( \\text{(S3)} \\)-False, \\( \\text{(S4)} \\)-False</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(S1)} \\)-False, \\( \\text{(S2)} \\)-True, \\( \\text{(S3)} \\)-True, \\( \\text{(S4)} \\)-False</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373718/nielit-2022-april-scientist-b-section-b-question-120\" target=\"_blank\">https://gateoverflow.in/373718/nielit-2022-april-scientist-b-section-b-question-120</a></p>"
+        }
+      ]
+    }
+  ]
+}

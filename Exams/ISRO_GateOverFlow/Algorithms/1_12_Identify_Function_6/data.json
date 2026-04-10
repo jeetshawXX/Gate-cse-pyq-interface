@@ -1,0 +1,96 @@
+{
+  "title": "Algorithms - Identify Function",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Identify Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49496\"></a><div itemprop=\"text\"><p>Study the following program</p>\n\n<pre class=\"prettyprint lang-java\">//precondition: x&gt;=0\npublic void demo(int x)\n{\n    System.out.print(x % 10); \n    if (x % 10 != 0)\n    {\n        demo(x/10);\n    }\n    System.out.print(x%10);\n}</pre>\n\n<p>Which of the following is printed as a result of the call demo \\( (1234) \\)?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2007 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1441 \\)</p>",
+            "<p>\\( 3443 \\)</p>",
+            "<p>\\( 12344321 \\)</p>",
+            "<p>\\( 43211234 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 43211234 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49496/isro-cse-2007-question-23\" target=\"_blank\">https://gateoverflow.in/49496/isro-cse-2007-question-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50136\"></a><div itemprop=\"text\"><p>What is the value of \\( F(4) \\) using the following procedure:</p>\n\n<pre class=\"prettyprint lang-c_cpp\">function F(K : integer)\ninteger;\nbegin\nif (k&lt;3) then F:=k else F:=F(k-1)*F(k-2)+F(k-3)\nend;</pre>\n\n</div><br><br><b>Algorithms: ISRO CSE 2008 | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50136/isro-cse-2008-question-69\" target=\"_blank\">https://gateoverflow.in/50136/isro-cse-2008-question-69</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"52489\"></a><div itemprop=\"text\"><p>Consider the following pseudocode</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">x:=1;\ni:=1;\nwhile ( x &lt;= 500)\nbegin\nx:=2^x;\ni:=i+1;\nend</pre>\n\n<p>What is the value of \\( \\textsf{i} \\) at the end of the pseudocode?</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2011 | Question: 40</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52489/isro-cse-2011-question-40\" target=\"_blank\">https://gateoverflow.in/52489/isro-cse-2011-question-40</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"213576\"></a><div itemprop=\"text\"><p>An array \\( A \\) consists of \\( n \\) integers in locations \\( A[0], A[1], \\ldots&nbsp;A[n-1] \\). It is required to shift the elements of the array cyclically&nbsp;to the left by \\( k \\) places, where \\( 1&lt;=k&lt;=(n-1) \\). An incomplete algorithm for doing this in linear time, without using another array is given bellow. Complete the algorithm by filling in the blanks.</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">min=n; i=0;\nwhile(_________) {\n    temp= A[i]; j=i;\n    while(_________) {\n        A[j]= _______;\n        j=(j+k) mod n;\n        if(j&lt;min) then\n        min = j;\n    }\n    A[(n+i-k) mod n]=_______;\n    i=________;\n    \n}</pre>\n\n<p>\\( \\begin{array}{lllll}<br>\n\\text{a.}&amp;i&gt;\\min;&amp;&nbsp; j !=(n+1) \\mod n;&amp; A[j+k]&amp; \\text{temp};&amp;&nbsp;i+1; \\\\&nbsp; &nbsp; &nbsp;<br>\n\\text{b.}&amp;i&lt;\\min; &amp;&nbsp; j !=(n+i)\\mod n;&amp; A[j+k]&amp; \\text{temp};&amp;&nbsp; i+1; \\\\<br>\n\\text{c.}&amp;i&gt;\\min;&amp;&nbsp;j !=(n+i+k) \\mod n; &amp; A[j+k] &amp; \\text{temp};&amp;&nbsp;i+1; \\\\&nbsp; &nbsp; &nbsp;&nbsp;<br>\n\\text{d.}&amp;i&lt;\\min; &amp;&nbsp;j !=(n+i-k) \\mod n;&amp; A[(j+k) \\mod n]&amp; \\text{temp};&amp;&nbsp;i+1;<br>\n\\end{array} \\)</p></div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 12</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213576/isro-cse-2018-question-12\" target=\"_blank\">https://gateoverflow.in/213576/isro-cse-2018-question-12</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"213581\"></a><div itemprop=\"text\">\n\n<p>Assume \\( A \\) and \\( B \\) are non-zero positive integers. The following code segment:</p>\n\n<pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">while(A!=B){\n    if*(A&gt; B)\n    A -= B;\n    else\n    B -= A;\n}\ncout&lt;&lt;A; // printing the value of A</pre>\n\n\n\n</div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Computes the \\( LCM \\) of two numbers</p>",
+            "<p>Divides the larger number by the smaller number</p>",
+            "<p>Computes the \\( GCD \\) of two numbers</p>",
+            "<p>Finds&nbsp;the smaller of two numbers</p>"
+          ],
+          "correct_answer": "<p>Computes the \\( GCD \\) of two numbers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213581/isro-cse-2018-question-7\" target=\"_blank\">https://gateoverflow.in/213581/isro-cse-2018-question-7</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"213516\"></a><div itemprop=\"text\"><p>Consider the following C code segment</p><pre class=\"prettyprint lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">int f(int x)\n{\n    if(x&lt;1) return 1;\n    else return (f(x-1)+g(x));\n}\nint g(int x)\n{\n    if(x&lt;2) return 2;\n    else return (f(x-1)+g(x/2));\n}</pre><p>Of the following, which best describes the growth of \\( f(x) \\) as a function of \\( x \\) ?</p></div><br><br><b>Algorithms: ISRO CSE 2018 | Question: 72</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Linear</p>",
+            "<p>Exponential</p>",
+            "<p>Quadratic</p>",
+            "<p>Cubic</p>"
+          ],
+          "correct_answer": "<p>Exponential</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213516/isro-cse-2018-question-72\" target=\"_blank\">https://gateoverflow.in/213516/isro-cse-2018-question-72</a></p>"
+        }
+      ]
+    }
+  ]
+}

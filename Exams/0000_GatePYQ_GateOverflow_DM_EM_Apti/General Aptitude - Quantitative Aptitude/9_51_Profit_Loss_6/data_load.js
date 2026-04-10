@@ -1,0 +1,101 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Profit Loss",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Profit Loss",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"357470\"></a><div itemprop=\"text\"><p>\\[ \\begin{array}{|c|c|c|c|} \\hline \\textbf{Items}&nbsp;&amp; \\textbf{Cost} &amp; \\textbf{Profit %}&nbsp;&amp; \\textbf{Marked Price} \\\\ &amp; \\text{(₹)} &amp; &amp; \\text{(₹)} \\\\\\hline P &amp;5,400 &amp;---&amp;5,860\\\\\\hline Q&amp;---&amp;25&amp;10,000\\\\\\hline\\end{array} \\]</p>\n\n<p>Details of prices of two items \\( P \\) and \\( Q \\) are presented in the above table. The ratio of cost of item \\( P \\) to cost of item \\( Q \\) is \\( 3:4 \\). Discount is calculated as the difference between the marked price and the selling price. The profit percentage is calculated as the ratio of the difference between selling price and cost, to the cost&nbsp;</p>\n\n<p>\\( (\\text{Profit} \\%=\\dfrac{\\text{Selling price –&nbsp;Cost}}{\\text{Cost}} \\times 100) \\)</p>\n\n<p>The discount on item \\( Q \\), as a percentage of its marked price, is _______</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( 25 \\)</p>",
+            "<p>\\( 12.5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 10 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7\" target=\"_blank\">https://gateoverflow.in/357470/gate-cse-2021-set-1-ga-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"422900\"></a><div itemprop=\"text\"><p>​​​​​​A person sold two different items at the same price. He made \\( 10 \\% \\) profit in one item, and \\( 10 \\% \\) loss in the other item. In selling these two items, the person made a total of</p></div><br><br><b>GATE CSE 2024 | Set 2 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\% \\) profit</p>",
+            "<p>\\( 2 \\% \\) profit</p>",
+            "<p>\\( 1 \\% \\) loss</p>",
+            "<p>\\( 2 \\% \\) loss</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\% \\) loss</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422900/gate-cse-2024-set-2-ga-question-7\" target=\"_blank\">https://gateoverflow.in/422900/gate-cse-2024-set-2-ga-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"411731\"></a><div itemprop=\"text\"><p>\\( \\text{P} \\)&nbsp; invested ₹\\( 5000 \\) per month for \\( 6 \\) months of a year and \\( \\text{Q} \\) invested ₹\\( x \\) per month for \\( 8 \\) months of the year in a partnership business. The profit is shared in proportion to the total investment made in that year.</p>\n\n<p>If at the end of that investment year, \\( \\text{Q} \\) receives \\( \\dfrac{4}{9} \\) of the total profit, what is the value of \\( x \\) (in ₹)?</p>\n\n</div><br><br><b>GATE Civil 2022 Set 1 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2500 \\)</p>",
+            "<p>\\( 3000 \\)</p>",
+            "<p>\\( 4687 \\)</p>",
+            "<p>\\( 8437 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3000 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411731/gate-civil-2022-set-1-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411731/gate-civil-2022-set-1-ga-question-7</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"40278\"></a><div itemprop=\"text\"><p>A firm is selling its product at Rs. \\( 60 \\) per unit. The total cost of production is Rs. \\( 100 \\) and firm is earning total profit of Rs. \\( 500 \\). Later, the total cost increased by \\( 30\\%. \\) By what percentage the price should be increased to maintained the same profit level.</p>\n\n</div><br><br><b>GATE2013 CE: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 15 \\)</p>",
+            "<p>\\( 30 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40278/gate2013-ce-ga-9\" target=\"_blank\">https://gateoverflow.in/40278/gate2013-ce-ga-9</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"313249\"></a><div itemprop=\"text\"><p>A fruit seller sold a basket of fruits at \\( \\text{12.5%} \\) loss. Had he sold it for Rs. \\( 108 \\) more, he would have made a \\( \\text{10%} \\) gain. What is the loss in Rupees incurred by the fruit seller?</p>\n\n</div><br><br><b>GATE2018 CE-1: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 48 \\)</p>",
+            "<p>\\( 52 \\)</p>",
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 108 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 60 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313249/gate2018-ce-1-ga-6\" target=\"_blank\">https://gateoverflow.in/313249/gate2018-ce-1-ga-6</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"313599\"></a><div itemprop=\"text\"><p>A person divided an amount of Rs. \\( 100,000 \\) into two parts and invested in two different schemes. In one he got \\( 10 \\% \\) profit and in the other he got \\( 12 \\% \\). If the profit percentages are interchanged with these investments he would have got Rs. \\( 120 \\) less. Find the ratio between his investments in the two schemes.</p>\n\n</div><br><br><b>GATE2019 ME-1: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9:16 \\)</p>",
+            "<p>\\( 11:14 \\)</p>",
+            "<p>\\( 37:63 \\)</p>",
+            "<p>\\( 47:53 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 47:53 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313599/gate2019-me-1-ga-7\" target=\"_blank\">https://gateoverflow.in/313599/gate2019-me-1-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

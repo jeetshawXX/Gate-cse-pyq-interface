@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Error Detection Correction",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Error Detection Correction",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"57214\"></a><div itemprop=\"text\">\n<p>Consider a code with five valid code words of length ten :</p>\n\n<p>\\( 0000000000, 0000011111, 1111100000, 1110000011, 1111111111 \\)</p>\n\n<p>Hamming distance of the code is</p>\n\n\n</div><br><br><b>Computer Networks: UGC NET CSE | June 2014 | Part 3 | Question: 57</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57214/ugc-net-cse-june-2014-part-3-question-57\" target=\"_blank\">https://gateoverflow.in/57214/ugc-net-cse-june-2014-part-3-question-57</a></p>"
+        }
+      ]
+    }
+  ]
+}

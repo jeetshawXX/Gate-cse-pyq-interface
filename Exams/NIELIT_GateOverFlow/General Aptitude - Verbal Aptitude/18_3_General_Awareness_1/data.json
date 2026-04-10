@@ -1,0 +1,26 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - General Awareness",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "General Awareness",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"412021\"></a><div itemprop=\"text\"><p>Which of the following is not a result of Positive attitude of employee?</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 134</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Improved productivity</p>",
+            "<p>Successful Organisation</p>",
+            "<p>Higher performance</p>",
+            "<p>None of the options\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>None of the options\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412021/nielit-2023-feb-scientist-c-section-e-question-134\" target=\"_blank\">https://gateoverflow.in/412021/nielit-2023-feb-scientist-c-section-e-question-134</a></p>"
+        }
+      ]
+    }
+  ]
+}

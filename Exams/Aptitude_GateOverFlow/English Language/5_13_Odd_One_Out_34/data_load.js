@@ -1,0 +1,498 @@
+window.__examLoadCallback({
+  "title": "English Language - Odd One Out",
+  "duration": 94,
+  "sections": [
+    {
+      "name": "Odd One Out",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"3867\"></a><div itemprop=\"text\"><p>Pick the odd man out.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>taciturn&nbsp;</p>",
+            "<p>reserved</p>",
+            "<p>clamorous</p>",
+            "<p>silent</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3867/cat-1995-question-10\" target=\"_blank\">https://aptitude.gateoverflow.in/3867/cat-1995-question-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"3865\"></a><div itemprop=\"text\"><p>Pick the odd man out.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>fanatic</p>",
+            "<p>zealot</p>",
+            "<p>maniac</p>",
+            "<p>rational</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3865/cat-1995-question-8\" target=\"_blank\">https://aptitude.gateoverflow.in/3865/cat-1995-question-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"3866\"></a><div itemprop=\"text\"><p>Pick the odd man out.</p>\n\n</div><br><br><b>English Language: CAT 1995 | Question: 9</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>sporadic</p>",
+            "<p>frequent</p>",
+            "<p>intermittent</p>",
+            "<p>scarce</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/3866/cat-1995-question-9\" target=\"_blank\">https://aptitude.gateoverflow.in/3866/cat-1995-question-9</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"5371\"></a><div itemprop=\"text\"><p>In the given question, all the sentences except one sentence,when properly sequenced form a coherent paragraph. Each sentence is labeled with a letter. Choose the sentence which does not form a part of the paragraph&nbsp;from among the four given choices.</p>\n\n\n\n<ol start=\"2\" style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>Gradually, men felt themselves swallowed by a vast, impersonal machine, which rubbed away their self-respect and in a way their identities .</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>In anger against betrayal of the human spirit by the Industrial Revolution, million of workers listened to the false promises of Marx’s philosophy.&nbsp;</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:upper-roman\" type=\"I\">\n\t<li>The Industrial Revolution, replaced the tools of the independent workmen with machines, had transformed handicraftsmen who were their own bosses into hired hands subject to the orders of managers.</li>\n</ol>\n\n<ol style=\"list-style-type:lower-alpha\" type=\"a\">\n\t<li>\\( \\text{A} \\)</li>\n</ol>\n\n<ol style=\"list-style-type:lower-alpha\" type=\"a\">\n</ol>\n\n<ol start=\"2\" style=\"list-style-type:lower-alpha\" type=\"a\">\n\t<li>\\( \\text{B} \\)</li>\n</ol>\n\n<ol start=\"100\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\\( \\text{C} \\)</li>\n</ol>\n\n<ol start=\"500\" style=\"list-style-type:lower-roman\" type=\"i\">\n\t<li>\\( \\text{D} \\)</li>\n</ol></div><br><br><b>English Language: CAT 2011 | Question: 33</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The revolution called Human Relations is quieter but more profound and is sweeping through U.S industry.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5371/cat-2011-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/5371/cat-2011-question-33</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"5822\"></a><div itemprop=\"text\"><p>Find the odd sentence out from the given sentences:</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>People who study children's language spend a lot of time watching how babies react to speech they hear around them.</li>\n\t<li>They make films of adults and babies interacting, and examine them very carefully to see whether the babies show any signs of understanding what the adults say.</li>\n\t<li>They believe that babies begin to react to language from the very moment they are born.</li>\n\t<li>Sometimes the signs are very subtle – slight movements of the baby's eyes or the head or the hands.</li>\n\t<li>You'd never notice them if you were just sitting with the child, but by watching a recording over and over, you can spot them.</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5822/cat-2017-set-1-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/5822/cat-2017-set-1-question-32</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"5821\"></a><div itemprop=\"text\"><p>Find the odd sentence out of the below given sentences:</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>Neuroscientists have just begun studying exercise's &nbsp;impact within brain cells-on the genes themselves.</li>\n\t<li>Even there, in the roots of our biology, they’ve found signs of the body's influence on the mind.</li>\n\t<li>It turns out that moving our muscles produces proteins that travel through the bloodstream and into the brain, where they play pivotal roles in the mechanisms of our highest thought processes.</li>\n\t<li>In today's technology-driven, plasma-screened-in world, it's easy to forget that we are born movers – animals, in fact – because we've engineered movement right out of our lives.</li>\n\t<li>It's only in the past few years that neuroscientists have begun to describe these factors and how they work, and each new discovery adds awe-inspiring depth to the picture</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5821/cat-2017-set-1-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/5821/cat-2017-set-1-question-33</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"5820\"></a><div itemprop=\"text\"><p>Find the odd sentence out from the below sentences:</p>\n\n<ol style=\"list-style-type:decimal\" type=\"1\">\n\t<li>The water that made up ancient lakes and perhaps an ocean was lost.</li>\n\t<li>Particles from the Sun collided with molecules in the atmosphere, knocking them into space or giving them an electric charge that caused them to be swept away by the solar wind.</li>\n\t<li>Most of the planet's remaining water is now frozen or buried, but clues over the past decade suggested that some liquid water, a presumed necessity for life, might survive in underground aquifers.</li>\n\t<li>Data from NASA'S&nbsp;MAVEN&nbsp;orbiter show that solar storms stripped away most of Mars's once-thick atmosphere.</li>\n\t<li>A recent study reveals how Mars lost much of its early water, while another indicates that some liquid water remains</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5820/cat-2017-set-1-question-34\" target=\"_blank\">https://aptitude.gateoverflow.in/5820/cat-2017-set-1-question-34</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"5909\"></a><div itemprop=\"text\"><p>Odd One Out:</p>\n\n<ol>\n\t<li>Although we are born with the gift of language, research shows that we are surprisingly unskilled when it comes to communicating with others.</li>\n\t<li>We must carefully orchestrate our speech if we want to achieve our goals and bring our dreams to fruition.</li>\n\t<li>We often choose our words without thought, oblivious of the emotional effects they can have on others.</li>\n\t<li>We talk more than we need to, ignoring the effect we are having on those listening to us.</li>\n\t<li>We listen poorly, without realizing it, and we often fail to pay attention to the subtle meanings conveyed by facial expressions, body gestures, and the tone and cadence of our voice.</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5909/cat-2017-set-2-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/5909/cat-2017-set-2-question-32</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"5908\"></a><div itemprop=\"text\"><p>Find the odd one out:</p>\n\n<ol>\n\t<li>Over the past fortnight, one of its finest champions managed to pull off a similar impression.</li>\n\t<li>Wimbledon's greatest illusion is the sense of timelessness it evokes.</li>\n\t<li>At \\( 35 \\) years and \\( 342 \\) days, Roger Federer became the oldest man to win the singles title in the Open Era – a full \\( 14 \\) years after he first claimed the title as a scruffy, pony-tailed upstart.</li>\n\t<li>Once he had survived the opening week, the second week witnessed the range of a rested Federer's genius.</li>\n\t<li>Given that his method isn't reliant on explosive athleticism or muscular ball-striking, both vulnerable to decay, there is cause to believe that Federer will continue to enchant for a while longer.</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5908/cat-2017-set-2-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/5908/cat-2017-set-2-question-33</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"5907\"></a><div itemprop=\"text\"><p><strong>Find the odd one out:</strong></p>\n\n<ol>\n\t<li>Those geometric symbols and aerodynamic swooshes are more than just skin deep.</li>\n\t<li>The Commonwealth Bank logo – a yellow diamond, with a black chunk sliced out in one corner – is so recognisable that the bank doesn't even use its full name in its advertising.</li>\n\t<li>It's not just logos with hidden shapes; sometimes brands will have meanings or stories within them that are deliberately vague or lost in time, urging you to delve deeper to solve the riddle.</li>\n\t<li>Graphic designers embed cryptic references because it adds a story to the brand; they want people to spend more time with a brand and have that idea that they are an insider if they can understand the hidden message.</li>\n\t<li>But the CommBank logo has more to it than meets the eye, as squirrelled away in that diamond is the Southern Cross constellation.&nbsp;&nbsp;</li>\n</ol>\n\n</div><br><br><b>English Language: CAT 2017 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5907/cat-2017-set-2-question-34\" target=\"_blank\">https://aptitude.gateoverflow.in/5907/cat-2017-set-2-question-34</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"5985\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.</p>\n\n<ol>\n\t<li>In many cases time inconsistency is what prevents our going from intention to action.</li>\n\t<li>For people to continuously postpone getting their children immunized, they would need to be constantly fooled by themselves.</li>\n\t<li>In the specific case of immunization, however, it is hard to believe that time inconsistency by itself would be sufficient to make people permanently postpone the decision if they were fully cognizant of its benefits.</li>\n\t<li>In most cases, even a small cost of immunization was large enough to discourage most people.</li>\n\t<li>Not only do they have to think that they prefer to spend time going to the camp next month rather than today, they also have to believe that they will indeed go next month.</li>\n</ol></div><br><br><b>English Language: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5985/cat-2018-set-1-question-32\" target=\"_blank\">https://aptitude.gateoverflow.in/5985/cat-2018-set-1-question-32</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"5984\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.</p>\n\n<ol>\n\t<li>Displacement in Bengal is thus not very significant in view of its magnitude.</li>\n\t<li>A factor of displacement in Bengal is the shifting course of the Ganges leading to erosion of river banks.</li>\n\t<li>The nature of displacement in Bengal makes it an interesting case study.</li>\n\t<li>Since displacement due to erosion is well spread over a long period of time, it remains invisible.</li>\n\t<li>Rapid displacement would have helped senitize the public to its human costs.</li>\n</ol></div><br><br><b>English Language: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/5984/cat-2018-set-1-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/5984/cat-2018-set-1-question-33</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"6056\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.</p>\n\n</div><br><br><b>English Language: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Much has been recently discovered about the development of songs in birds</p>",
+            "<p>Some species are restricted to a single song learned by all individuals, others have a range of songs</p>",
+            "<p>The most important auditory stimuli for the birds are the sounds of other birds</p>",
+            "<p>For all bird species there is a prescribed path to development of the final song</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6056/cat-2018-set-2-question-25\" target=\"_blank\">https://aptitude.gateoverflow.in/6056/cat-2018-set-2-question-25</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"6083\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out.</p>\n\n</div><br><br><b>English Language: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>As India looks to increase the number of cities, our urban planning must factor in potential natural disasters and work out contingencies in advance</p>",
+            "<p>Authorities must revise data and upgrade infrastructure and mitigation plans even if their local area hasn't been visited by a natural calamity yet</p>",
+            "<p>Extreme temperatures, droughts, and forest fires have more than doubled since \\( 1980 \\)</p>",
+            "<p>There is no denying the fact that our baseline normal weather is changing</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6083/cat-2018-set-2-question-29\" target=\"_blank\">https://aptitude.gateoverflow.in/6083/cat-2018-set-2-question-29</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"6079\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. ldentify the odd one out. Choose its number as your answer and key the number in:</p>\n\n</div><br><br><b>English Language: CAT 2018 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Our smartphones can now track our diets, our biological cycles, even our digestive systems and sleep-patterns</p>",
+            "<p>Researchers have even coined a new term, \"orthosomnia\", to describe the insomnia brought on by paying too much attention to smartphones and sleep-tracking apps</p>",
+            "<p>Sleep, nature's soft nurse, is a blissful, untroubled state all too easily disturbed by earthly worries or a guilty conscience</p>",
+            "<p>The existence of a market for such apps is unsurprising: shift work, a long-hours culture and blue light from screens have conspired to rob many of us of sufficient rest</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6079/cat-2018-set-2-question-33\" target=\"_blank\">https://aptitude.gateoverflow.in/6079/cat-2018-set-2-question-33</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"6226\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below in a jumbled order. Four of them form a coherent and unified paragraph. Identify the odd sentence that does not go with the four. Key in the number of the option that you choose.</p>\n\n</div><br><br><b>English Language: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Socrates told us that ‘the unexamined life is not worth living’ and that to ‘know thyself’ is the path to true wisdom</p>",
+            "<p>It suggests that you should adopt an ancient rhetorical method favored by the likes of Julius Caesar and known as ‘illeism’ – or speaking about yourself in the third person</p>",
+            "<p>Research has shown that people who are prone to rumination also often suffer from impaired decision making under pressure and are at a substantially increased risk of depression</p>",
+            "<p>Simple rumination – the process of churning your concerns around in your head – is not the way to achieve self-realization</p>",
+            "<p>The idea is that this small change in perspective can clear your emotional fog, allowing you to see past your biases</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6226/cat-2019-set-2-question-26\" target=\"_blank\">https://aptitude.gateoverflow.in/6226/cat-2019-set-2-question-26</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"6222\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.</p>\n\n</div><br><br><b>English Language: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>A particularly interesting example of inference occurs in many single panel comics</p>",
+            "<p>It’s the creator’s participation and imagination that makes the single-panel comic so engaging and so rewarding</p>",
+            "<p>Often, the humor requires you to imagine what happened in the instant immediately before or immediately after the panel you’re being shown</p>",
+            "<p>To get the joke, you actually have to figure out what some of these missing panels must be</p>",
+            "<p>It is as though the cartoonist devised a series of panels to tell the story and has chosen to show you only one – and typically not even the funniest</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6222/cat-2019-set-2-question-30\" target=\"_blank\">https://aptitude.gateoverflow.in/6222/cat-2019-set-2-question-30</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"6221\"></a><div itemprop=\"text\"><p>Five sentences related to a topic are given below. Four of them can be put together to form a meaningful and coherent short paragraph. Identify the odd one out. Choose its number as your answer and key it in.</p>\n\n</div><br><br><b>English Language: CAT 2019 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Ocean plastic is problematic for a number of reasons, but primarily because marine animals eat it</p>",
+            "<p>The largest numerical proportion of ocean plastic falls in small size fractions</p>",
+            "<p>Aside from clogging up the digestive tracts of marine life, plastic also tends to adsorb pollutants from the water column</p>",
+            "<p>Plastic in the oceans is arguably one of the most important and pervasive environmental problems today</p>",
+            "<p>Eating plastic has a number of negative consequences such as the retention of plastic particles in the gut for longer periods than normal food particles</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6221/cat-2019-set-2-question-31\" target=\"_blank\">https://aptitude.gateoverflow.in/6221/cat-2019-set-2-question-31</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"8001\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence&nbsp;as your answer:</p>\n\n</div><br><br><b>English Language: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Talk was the most common way for enslaved men and women to subvert the rules of their bondage, to gain more agency than they were supposed to have.&nbsp;</p>",
+            "<p>Even in conditions of extreme violence and unfreedom, their words remained ubiquitous, ephemeral, irrepressible, and potentially transgressive.</p>",
+            "<p>Slaves came from societies in which oaths, orations, and invocations carried great potency, both between people and as a connection to the all-powerful spirit world.</p>",
+            "<p>Freedom of speech and the power to silence may have been preeminent markers of white liberty in Colonies, but at the same time, slavery depended on dialogue: slaves could never be completely muted.</p>",
+            "<p>Slave\\( - \\)owners obsessed over slave talk, though they could never control it, yet feared its power to bind and inspire\\( - \\)for, as everyone knew, oaths, whispers, and secret conversations bred conspiracy and revolt.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8001/cat-2020-set-1-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/8001/cat-2020-set-1-question-20</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"8081\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:</p>\n\n<ol>\n\t<li>The victim’s trauma after assault rarely gets the attention that we lavish on the moment of damage that divided&nbsp;the survivor from a less encumbered past.</li>\n\t<li>One thing we often do with narratives of sexual assault is sort their respective parties into different temporalities: it seems we are interested in perpetrators’ futures and victims’ pasts.</li>\n\t<li>One result is that we don’t have much of a vocabulary for what happens in a victim’s life after the painful past has been excavated, even when our shared language gestures toward the future, as the term “survivor” does.</li>\n\t<li>Even the most charitable questions asked about the victims seem to focus on the past, in pursuit of understanding or of corroboration of painful details.</li>\n\t<li>As more and more stories of sexual assault have been made public in the last two years, the genre of their telling has exploded \\( \\dots \\) crimes have a tendency to become not just stories but genres.</li>\n</ol></div><br><br><b>English Language: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8081/cat-2020-set-2-question-19\" target=\"_blank\">https://aptitude.gateoverflow.in/8081/cat-2020-set-2-question-19</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"8079\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentences as your answer:</p>\n\n<ol>\n\t<li>You can observe the truth of this in every e-business model ever constructed: monopolise and protect data.</li>\n\t<li>Economists and technologists believe that a new kind of capitalism is being created-different from industrial capitalism as was merchant capitalism.</li>\n\t<li>In \\( 1962, \\) Kenneth Arrow,&nbsp;the guru of mainstream economics, said that in a free market economy the purpose of inventing things is to create intellectual property rights.</li>\n\t<li>There is, alongside the world of monopolised information and surveillance, a different dynamic growing up: information as a social good, incapable of being owned or exploited or priced.</li>\n\t<li>Yet information is abundant. Information goods are freely replicable. Once a thing is made, it can be copied and pasted infinitely.</li>\n</ol></div><br><br><b>English Language: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8079/cat-2020-set-2-question-21\" target=\"_blank\">https://aptitude.gateoverflow.in/8079/cat-2020-set-2-question-21</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"8158\"></a><div itemprop=\"text\"><p>Although one of the most contested concepts in political philosophy, human nature is something on which most people seem to agree. By and large, according to Rutger Bregman in his new book Humankind, we have a rather pessimistic view –&nbsp;not of ourselves exactly, but of everyone else. We see other people as selfish, untrustworthy and dangerous and therefore we behave towards them with defensiveness and suspicion. This was how the \\( 17 \\text{th} –&nbsp;\\text{century} \\) philosopher Thomas Hobbes conceived our natural state to be, believing that all that stood between us and violent anarchy was a strong state and firm leadership.</p>\n\n<p>But in following Hobbes, argues Bregman, we ensure that the negative view we have of human nature is reflected back at us. He instead puts his faith in Jean –&nbsp;Jacques Rousseau, the \\( 18 \\text{th} –&nbsp;\\text{century} \\) French thinker, who famously declared that man was born free and it was civilisation –&nbsp;with its coercive powers, social classes and restrictive laws –&nbsp;that put him in chains.&nbsp;</p>\n\n<p>Hobbes and Rousseau are seen as the two poles of the human nature argument and it’s no surprise that Bregman strongly sides with the Frenchman. He takes Rousseau’s intuition and paints a picture of a prelapsarian&nbsp;idyll in which, for the better part of \\( 300,000 \\; \\text{years}, \\) Homo sapiens lived a fulfilling life in harmony with nature \\( \\dots \\) Then we discovered agriculture and for the next \\( 10,000 \\;&nbsp;\\text{years} \\) it was all property, war, greed and injustice\\( \\dots \\)</p>\n\n<p>It was abandoning our nomadic lifestyle and then domesticating animals, says Bregman, that brought about infectious diseases such as measles, smallpox, tuberculosis, syphilis, malaria, cholera and plague. This may be true, but what Bregman never really seems to get to grips with is that pathogens were not the only things that grew with agriculture –&nbsp;so did the number of humans. It’s one thing to maintain friendly relations and a property-less mode of living when you’re \\( 30 \\) or \\( 40 \\) hunter-gatherers following the food. But life becomes a great deal more complex and knowledge far more extensive when there are settlements of many thousands.</p>\n\n<p>“Civilisation&nbsp;has become synonymous with peace and progress and wilderness with war and decline,” writes Bregman. “In reality, for most of human existence, it was the other way around.” Whereas traditional history depicts the collapse of civilisations as “dark ages” in which everything gets worse, modern scholars, he claims, see them more as a reprieve, in which the enslaved gain their freedom and culture flourishes. Like much else in this book, the truth is probably somewhere between the two stated positions.</p>\n\n<p>In any case, the fear of civilisational collapse, Bregman believes, is unfounded. It’s the result of what the Dutch biologist Frans de Waal calls “veneer theory” –&nbsp;the idea&nbsp;that just below the surface, our bestial nature is waiting to break out\\( \\dots \\)&nbsp;There’s a great deal of reassuring human decency to be taken from this bold and though-provoking book and a wealth of evidence&nbsp;in support of the contention that the sense of who we are as a species has been deleteriously distorted. But it seems equally misleading to offer the false choice of Rousseau and Hobbes when, clearly, humanity encompasses both.</p>\n\n<p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:</p>\n\n</div><br><br><b>English Language: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The logic of displaying one’s inner qualities through outward appearance&nbsp;was based on a distinction between being a woman and being feminine.</p>",
+            "<p>‘Appearance’ became a signifier of conduct –&nbsp;to look was to be and conformity to the feminine ideal was measured by how well women could use the tools of the fashion and beauty industries.</p>",
+            "<p>The makeover-centric media sets out subtly and not-so-subtly, ‘good’ and ‘bad’ ways to be a woman, layering these over inequalities of race and class.</p>",
+            "<p>The denigration of working-class women and women of colour often centres on their perceived failure to embody feminine beauty.</p>",
+            "<p>‘Woman’ was considered a biological category, but femininity was a ‘process’ by which women became specific kinds of women.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8158/cat-2020-set-3-question-20\" target=\"_blank\">https://aptitude.gateoverflow.in/8158/cat-2020-set-3-question-20</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"8152\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:</p>\n\n</div><br><br><b>English Language: CAT 2020 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Machine learning models are prone to learning human-like biases from the training data that feeds these algorithms.</p>",
+            "<p>Hate speech detection is part of the on-going effort against oppressive and abusive language on social media.</p>",
+            "<p>The current automatic detection models miss out on something vital: context.</p>",
+            "<p>It uses complex algorithms to flag racist or violent speech faster and better than human beings alone.</p>",
+            "<p>For instance, algorithms struggle to determine if group identifiers like “gay” or “black” are used in offensive or prejudiced ways because they’re trained on imbalanced datasets with unusually high rates of hate speech.</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8152/cat-2020-set-3-question-26\" target=\"_blank\">https://aptitude.gateoverflow.in/8152/cat-2020-set-3-question-26</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"8408\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out&nbsp; and key in the number of the sentence as your answer:</p>\n\n<ol>\n\t<li>There is a dark side to academic research, especially in India, and at its centre is the phenomenon of predatory journals.</li>\n\t<li>But in truth, as long as you pay, you can get anything published.</li>\n\t<li>In look and feel thus, they are exactly like any reputed journal.</li>\n\t<li>They claim to be indexed in the most influential databases, say they possess editorial boards that comprise top scientists and researchers, and claim to have a rigorous peer-review structure.</li>\n\t<li>But a large section of researchers and scientists across the world are at the receiving end of nothing short of an academic publishing scam.</li>\n</ol></div><br><br><b>English Language: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8408/cat-2021-set-verbal-ability-reading-comprehension-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8408/cat-2021-set-verbal-ability-reading-comprehension-question</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"8402\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out and key in the number of the sentence as your answer:</p>\n\n<ol>\n\t<li>The legal status of resources mined in space remains ambiguous; and while the market for asteroid minerals is currently nonexistent, this is likely to change as technical hurdles diminish.</li>\n\t<li>Outer space is a commons, and all of it is open for exploration, however, space law developed in the \\( 1950 \\text{s} \\) and&nbsp;\\( 60 \\text{s} \\) is state-centric and arguably ill-suited to a commercial future.</li>\n\t<li>Laws adopted by the \\( \\text{US} \\) and Luxembourg are first steps, but they only protect firms from competing claims by their compatriots; a Chinese company will not be bound by \\( \\text{US} \\) law.</li>\n\t<li>Critics say the \\( \\text{US} \\) is conferring rights that it has no authority to confer; Russia in particular has condemned this, citing this \\( \\text{US’} \\) disrespect for international law.</li>\n\t<li>At issue now is commercial activity, as private firms–rather than nation states–look to space for profit.</li>\n</ol></div><br><br><b>English Language: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "4",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8402/cat-2021-set-verbal-ability-reading-comprehension-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8402/cat-2021-set-verbal-ability-reading-comprehension-question</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"8475\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out&nbsp;and key in the number of the sentence as your answer:</p>\n\n</div><br><br><b>English Language: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The care with which philosophers examine arguments for and against forms of biotechnology makes this an excellent primer on formulating and assessing moral arguments.</p>",
+            "<p>Although most people find at least some forms of genetic engineering disquieting, it is not easy to articulate why: what is wrong with re-engineering our nature?</p>",
+            "<p>Breakthroughs in genetics present us with the promise that we will soon be able to prevent a host of debilitating diseases, and the predicament that our newfound genetic knowledge may enable us to enhance our genetic traits.</p>",
+            "<p>To grapple with the ethics of enhancement, we need to confront questions that verge on theology, which is why modern philosophers and political theorists tend to shrink from them.</p>",
+            "<p>One argument is that the drive for human perfection through genetics is objectionable as it represents a bid for mastery that fails to appreciate the gifts of human powers and achievements.</p>"
+          ],
+          "correct_answer": "<p>The care with which philosophers examine arguments for and against forms of biotechnology makes this an excellent primer on formulating and assessing moral arguments.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8475/cat-2021-set-verbal-ability-reading-comprehension-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8475/cat-2021-set-verbal-ability-reading-comprehension-question</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"8473\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out&nbsp; and key in the number of the sentence as your answer:</p>\n\n</div><br><br><b>English Language: CAT 2021 Set</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>It has taken on a warm, fuzzy glow in the advertising world, where its potential is being widely discussed, and it is being claimed as the undeniable wave of the future.</p>",
+            "<p>There is little enthusiasm for this in the scientific arena; for them marketing is not a science, and only a handful of studies have been published in scientific journals.</p>",
+            "<p>The new, growing field of neuromarketing attempts to reveal the inner workings of consumer behaviour and is an extension of the study of how choices and decisions are made.</p>",
+            "<p>Some see neuromarketing as an attempt to make the “art” of advertising into a science, being used by marketing experts to back up their proposals with some form of real data.</p>",
+            "<p>The marketing gurus have already started drawing on psychology in developing tests and theories, and advertising people have borrowed the idea of the focus group from social scientists.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8473/cat-2021-set-verbal-ability-reading-comprehension-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8473/cat-2021-set-verbal-ability-reading-comprehension-question</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"8543\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out&nbsp; and key in the number of the sentence as your answer:</p>\n\n<ol>\n</ol>\n\n</div><br><br><b>English Language: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>They often include a foundation course on navigating capitalism with Chinese characteristics and have replaced typical cases from \\( \\text{US} \\) corporates with a focus on how Western theories apply to China’s buzzing local firms.</p>",
+            "<p>The best Chinese business schools look like their Western rivals but are now growing distinct in terms of what they teach and the career boost they offer.</p>",
+            "<p>Western schools have enhanced their offerings with double degrees, popular with domestic and overseas students alike –&nbsp;and boosted the prestige of their Chinese partners.</p>",
+            "<p>For students, a big draw is the chance to rub shoulders with captains of China’s private sector.</p>",
+            "<p>Their business courses now largely cater to the growing demand from China Inc which has become more global, richer and ready to recruit from this sinocentric student body.</p>"
+          ],
+          "correct_answer": "<p>Western schools have enhanced their offerings with double degrees, popular with domestic and overseas students alike –&nbsp;and boosted the prestige of their Chinese partners.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8543/cat-2021-set-verbal-ability-reading-comprehension-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8543/cat-2021-set-verbal-ability-reading-comprehension-question</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"8542\"></a><div itemprop=\"text\"><p>Five jumbled up sentences, related to a topic, are given below. Four of them can be put together to form a coherent paragraph. Identify the odd one out&nbsp; and key in the number of the sentence as your answer:</p>\n\n</div><br><br><b>English Language: CAT 2021 Set</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A typical example is Wikipedia, where the overwhelming majority of contributors are male and so the available content is skewed to reflect their interests.</p>",
+            "<p>Without diversity of thought and representation, society is left with a distorted picture of future options, which are likely to result in augmenting existing inequalities.</p>",
+            "<p>Gross gender inequality in the technology sector is problematic, not only for the industry-wide marginalisation of women, but because technology designs embody the values of their makers.</p>",
+            "<p>While redressing unequal representation in the workplace is a step in the right direction, broader social change is needed to address the structural inequalities embedded within the current organisation of work and employment.</p>",
+            "<p>If technology merely reflects the perspectives of the male stereotype, then new technologies are unlikely to accommodate the diverse social contexts within which they operate.</p>"
+          ],
+          "correct_answer": "<p>While redressing unequal representation in the workplace is a step in the right direction, broader social change is needed to address the structural inequalities embedded within the current organisation of work and employment.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/8542/cat-2021-set-verbal-ability-reading-comprehension-question\" target=\"_blank\">https://aptitude.gateoverflow.in/8542/cat-2021-set-verbal-ability-reading-comprehension-question</a></p>"
+        },
+        {
+          "id": 30,
+          "question": "<p><a name=\"6417\"></a><div itemprop=\"text\"><p>Three of the words will be in the same classification, the remaining one will not be. Your answer will be the one word that does \\( \\text{NOT} \\) belong in the same classification as the others.</p>\n\n<p>Which word does \\( \\text{NOT} \\) belong to the others?</p>\n\n</div><br><br><b>English Language: NIELIT 2016 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Tape</p>",
+            "<p>Twine</p>",
+            "<p>Cord</p>",
+            "<p>Yarn</p>"
+          ],
+          "correct_answer": "<p>Tape</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6417/nielit-2016-dec-scientist-b-section-a-15\" target=\"_blank\">https://aptitude.gateoverflow.in/6417/nielit-2016-dec-scientist-b-section-a-15</a></p>"
+        },
+        {
+          "id": 31,
+          "question": "<p><a name=\"6982\"></a><div itemprop=\"text\"><p>Find the odd-man out:</p>\n\n</div><br><br><b>English Language: NIELIT 2016 MAR Scientist D: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>ring</p>",
+            "<p>bangle</p>",
+            "<p>tyre</p>",
+            "<p>plate</p>"
+          ],
+          "correct_answer": "<p>plate</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6982/nielit-2016-mar-scientist-d-1\" target=\"_blank\">https://aptitude.gateoverflow.in/6982/nielit-2016-mar-scientist-d-1</a></p>"
+        },
+        {
+          "id": 32,
+          "question": "<p><a name=\"6981\"></a><div itemprop=\"text\"><p>Find the odd-man out:</p>\n\n</div><br><br><b>English Language: NIELIT 2016 MAR Scientist D: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>nails</p>",
+            "<p>hair</p>",
+            "<p>grass</p>",
+            "<p>fingers</p>"
+          ],
+          "correct_answer": "<p>grass</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6981/nielit-2016-mar-scientist-d-2\" target=\"_blank\">https://aptitude.gateoverflow.in/6981/nielit-2016-mar-scientist-d-2</a></p>"
+        },
+        {
+          "id": 33,
+          "question": "<p><a name=\"6948\"></a><div itemprop=\"text\"><p>Find the odd word/ letters/ number/ figure form the given responses.</p>\n\n</div><br><br><b>English Language: NIELIT 2016 MAR Scientist D: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Newspaper</p>",
+            "<p>Press</p>",
+            "<p>Edition</p>",
+            "<p>Audition</p>"
+          ],
+          "correct_answer": "<p>Audition</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6948/nielit-2016-mar-scientist-d-35\" target=\"_blank\">https://aptitude.gateoverflow.in/6948/nielit-2016-mar-scientist-d-35</a></p>"
+        },
+        {
+          "id": 34,
+          "question": "<p><a name=\"6338\"></a><div itemprop=\"text\"><p>Which word does not belong with the others?</p>\n\n</div><br><br><b>English Language: NIELIT 2017 July Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cornea</p>",
+            "<p>Retina</p>",
+            "<p>Vision</p>",
+            "<p>Pupil</p>"
+          ],
+          "correct_answer": "<p>Vision</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/6338/nielit-2017-july-scientist-b-section-a-34\" target=\"_blank\">https://aptitude.gateoverflow.in/6338/nielit-2017-july-scientist-b-section-a-34</a></p>"
+        }
+      ]
+    }
+  ]
+});

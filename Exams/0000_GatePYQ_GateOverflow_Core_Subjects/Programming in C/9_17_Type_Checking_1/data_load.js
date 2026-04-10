@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming in C - Type Checking",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Type Checking",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"914\"></a><div itemprop=\"text\"><p>Which of the following statements is FALSE?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In statically typed languages, each variable in a program has a fixed type</p>",
+            "<p>In un-typed languages, values do not have any types</p>",
+            "<p>In dynamically typed languages, variables have no types</p>",
+            "<p>In all statically typed languages, each variable in a program is associated with values of only a single type during the execution of the program</p>"
+          ],
+          "correct_answer": "<p>In dynamically typed languages, variables have no types</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/914/gate-cse-2003-question-24\" target=\"_blank\">https://gateoverflow.in/914/gate-cse-2003-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

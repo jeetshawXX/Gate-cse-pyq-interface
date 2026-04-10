@@ -1,0 +1,56 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Alligation Mixture",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Alligation Mixture",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411884\"></a><div itemprop=\"text\"><p>To construct a wall, sand and cement are mixed in the ratio of \\( 3: 1 \\). The cost of sand and that of cement are in the ratio of \\( 1:2. \\)</p><p>If the total cost of sand and cement to construct the wall is \\( 1000 \\) rupees, then what is the cost (in rupees) of cement used?</p></div><br><br><b>GATE CH 2023 | GA Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 400 \\)</p>",
+            "<p>\\( 600 \\)</p>",
+            "<p>\\( 800 \\)</p>",
+            "<p>\\( 200 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 400 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411884/gate-ch-2023-ga-question-7\" target=\"_blank\">https://gateoverflow.in/411884/gate-ch-2023-ga-question-7</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2175\"></a><div itemprop=\"text\"><p>A container originally contains \\( 10 \\)&nbsp;litres of pure spirit. From this container, \\( 1 \\)&nbsp;litre of spirit replaced with \\( 1 \\)&nbsp;litre of water. Subsequently, \\( 1 \\)&nbsp;litre of the mixture is again replaced with \\( 1 \\)&nbsp;litre of water and this process is repeated one more time. How much spirit is now left in the container?</p></div><br><br><b>GATE CSE 2011 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7.58 \\)&nbsp;litres</p>",
+            "<p>\\( 7.84 \\)&nbsp;litres</p>",
+            "<p>\\( 7 \\)&nbsp;litres</p>",
+            "<p>\\( 7.29 \\)&nbsp;litres</p>"
+          ],
+          "correct_answer": "<p>\\( 7.29 \\)&nbsp;litres</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2175/gate-cse-2011-question-65\" target=\"_blank\">https://gateoverflow.in/2175/gate-cse-2011-question-65</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"312028\"></a><div itemprop=\"text\"><p>A tank has \\( 100 \\) liters of water\\( . \\) At the end of every hour, the following two operations are performed in sequence\\( : \\) \\( i) \\) water equal to \\( m\\% \\) of the current contents of the tank is added to the tank \\( , ii) \\) water equal to \\( n\\% \\) of the current&nbsp;contents of the tank is removed from the tank\\( . \\) At the end of \\( 5 \\) hours, the tank contains exactly \\( 100 \\) liters of water \\( . \\) The relation between \\( m \\) and \\( n \\) is \\( : \\)</p></div><br><br><b>GATE2010 TF: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m=n \\)</p>",
+            "<p>\\( m&gt;n \\)</p>",
+            "<p>\\( m&lt;n \\)</p>",
+            "<p>None of the previous</p>"
+          ],
+          "correct_answer": "<p>\\( m&gt;n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/312028/gate2010-tf-ga-9\" target=\"_blank\">https://gateoverflow.in/312028/gate2010-tf-ga-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "CO and Architecture - Cpu",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Cpu",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"18090\"></a><div itemprop=\"text\"><p>If a microcomputer operates at \\( 5 \\) MHz with an \\( 8 \\)-bit bus and a newer version operates at&nbsp;\\( 20 \\) MHz with a \\( 32 \\)-bit bus, the maximum speed-up possible approximately will be</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2011 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18090/isro-cse-2011-question-41\" target=\"_blank\">https://gateoverflow.in/18090/isro-cse-2011-question-41</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"16310\"></a><div itemprop=\"text\"><p>The number of logical CPUs in a computer having two physical quad-core chips with hyper threading enabled is ______</p>\n\n</div><br><br><b>CO & Architecture: ISRO CSE 2014 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/16310/isro-cse-2014-question-10\" target=\"_blank\">https://gateoverflow.in/16310/isro-cse-2014-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+}

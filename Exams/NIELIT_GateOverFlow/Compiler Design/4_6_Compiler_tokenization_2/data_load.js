@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Compiler tokenization",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Compiler tokenization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"275508\"></a><div itemprop=\"text\"><p>Identify the total number of tokens in the given statement</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"A%B=\",&amp;i);</pre></div><br><br><b>Compiler Design: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 13 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275508/nielit-2018-56\" target=\"_blank\">https://gateoverflow.in/275508/nielit-2018-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"351360\"></a><div itemprop=\"text\"><p>The number of tokens in the following C/C++ statement is :</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">printf(\"i=%d, &amp;i=%xx\", i&amp;i);</pre></div><br><br><b>Compiler Design: NIELIT Scientific Assistant A 2020 November: 100</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 9 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351360/nielit-scientific-assistant-a-2020-november-100\" target=\"_blank\">https://gateoverflow.in/351360/nielit-scientific-assistant-a-2020-november-100</a></p>"
+        }
+      ]
+    }
+  ]
+});

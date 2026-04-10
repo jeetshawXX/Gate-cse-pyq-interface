@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Big Data Systems - Big Data Systems",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Big Data Systems",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351621\"></a><div itemprop=\"text\"><p>Which of the following is component of Hadoop?</p>\n\n</div><br><br><b>Big Data Systems: NIELIT Scientist B 2020 November: 61</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( YARN \\)</p>",
+            "<p>\\( HDFS \\)</p>",
+            "<p>Map reduce</p>",
+            "<p>All of the options</p>"
+          ],
+          "correct_answer": "<p>All of the options</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351621/nielit-scientist-b-2020-november-61\" target=\"_blank\">https://gateoverflow.in/351621/nielit-scientist-b-2020-november-61</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,161 @@
+{
+  "title": "Operating System - ISRO CSE 2008  Question",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "ISRO CSE 2008  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"17260\"></a><div itemprop=\"text\"><p>Thrashing</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2008 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>always occurs on large computers</p>",
+            "<p>is a natural consequence of virtual memory systems</p>",
+            "<p>can always be avoided by swapping</p>",
+            "<p>can be caused by poor paging algorithms</p>"
+          ],
+          "correct_answer": "<p>can be caused by poor paging algorithms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17260/isro-cse-2008-question-53\" target=\"_blank\">https://gateoverflow.in/17260/isro-cse-2008-question-53</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"17262\"></a><div itemprop=\"text\"><p>Dynamic address translation</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2008 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>is part of the operating system paging algorithm</p>",
+            "<p>is useless when swapping is used</p>",
+            "<p>is the hardware necessary to implement paging</p>",
+            "<p>storage pages at a specific location on disk</p>"
+          ],
+          "correct_answer": "<p>is the hardware necessary to implement paging</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17262/isro-cse-2008-question-52\" target=\"_blank\">https://gateoverflow.in/17262/isro-cse-2008-question-52</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"48017\"></a><div itemprop=\"text\"><p>The primary purpose of an operating system is</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2009 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>To make most efficient use of the computer hardware</p>",
+            "<p>To allow people to use the computer</p>",
+            "<p>To keep systems programmers employed</p>",
+            "<p>To make computers easier to use</p>"
+          ],
+          "correct_answer": "<p>To make computers easier to use</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48017/isro-cse-2009-question-8\" target=\"_blank\">https://gateoverflow.in/48017/isro-cse-2009-question-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"49498\"></a><div itemprop=\"text\"><p>What is the name of the technique in which the operating system of a computer executes several programs concurrently by switching back and forth between them?</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2007 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Partitioning</p>",
+            "<p>Multi-tasking</p>",
+            "<p>Windowing</p>",
+            "<p>Paging</p>"
+          ],
+          "correct_answer": "<p>Multi-tasking</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49498/isro-cse-2007-question-25\" target=\"_blank\">https://gateoverflow.in/49498/isro-cse-2007-question-25</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"49997\"></a><div itemprop=\"text\">\n<p>What is the name of the operating system that reads and reacts in terms of operating system?</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2008 | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Batch system</p>",
+            "<p>Quick response time</p>",
+            "<p>real time system</p>",
+            "<p>Time sharing system</p>"
+          ],
+          "correct_answer": "<p>real time system</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49997/isro-cse-2008-question-54\" target=\"_blank\">https://gateoverflow.in/49997/isro-cse-2008-question-54</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"50000\"></a><div itemprop=\"text\">\n<p>Checkpointing a job</p>\n\n\n</div><br><br><b>Operating System: ISRO CSE 2008 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>allows it to be completed successfully</p>",
+            "<p>allows it to continue executing later</p>",
+            "<p>prepares it for finishing</p>",
+            "<p>occurs only when there is an error in it</p>"
+          ],
+          "correct_answer": "<p>allows it to continue executing later</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50000/isro-cse-2008-question-58\" target=\"_blank\">https://gateoverflow.in/50000/isro-cse-2008-question-58</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"50331\"></a><div itemprop=\"text\"><p>A page fault</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2009 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Occurs when a program accesses an available page on memory</p>",
+            "<p>is an error in a specific page</p>",
+            "<p>is a reference to a page belonging to another program</p>",
+            "<p>occurs when a program accesses a page not currently in memory</p>"
+          ],
+          "correct_answer": "<p>occurs when a program accesses a page not currently in memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50331/isro-cse-2009-question-11\" target=\"_blank\">https://gateoverflow.in/50331/isro-cse-2009-question-11</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"128704\"></a><div itemprop=\"text\"><p>Given reference to the following pages by a program</p>\n\n<p><strong>0,9,0,1,8,1,8,7,8,7,1,2,8,2,7,8,2,3,8,3</strong></p>\n\n<p>How many page faults will occur if the program has three page frames available to it and uses an optimal replacement?</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2017 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>7</p>",
+            "<p>8</p>",
+            "<p>9</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128704/isro-cse-2017-question-52\" target=\"_blank\">https://gateoverflow.in/128704/isro-cse-2017-question-52</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"213568\"></a><div itemprop=\"text\"><p>Determine the number of page faults when references to pages occur in the order - \\( 1, 2, 4, 5, 2, 1, 2, 4 \\). Assume that the main memory can accommodate \\( 3 \\) pages and the main memory already has the pages \\( 1 \\) and \\( 2 \\), with page \\( 1 \\) having brought earlier than page \\( 2 \\). (assume LRU i.e. Least-Recently-Used algorithm is applied)</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2018 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/213568/isro-cse-2018-question-20\" target=\"_blank\">https://gateoverflow.in/213568/isro-cse-2018-question-20</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"435337\"></a><div itemprop=\"text\"><p>In which of the virtualization techniques, hypervisor modifies the guest OS?</p></div><br><br><b>Operating System: ISRO CSE 2023 | Question: 58</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Full virtualization</p>",
+            "<p>Para virtualization</p>",
+            "<p>Both (a) and (b)</p>",
+            "<p>None of the above<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Para virtualization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435337/isro-cse-2023-question-58\" target=\"_blank\">https://gateoverflow.in/435337/isro-cse-2023-question-58</a></p>"
+        }
+      ]
+    }
+  ]
+}

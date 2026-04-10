@@ -1,0 +1,36 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Normal Distribution",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Normal Distribution",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"427\"></a><div itemprop=\"text\"><p>Let \\( X \\) be a random variable following normal distribution with mean \\( +1 \\) and variance \\( 4 \\). Let \\( Y \\) be another normal variable with mean \\( -1 \\) and variance unknown. If \\( P (X \\leq&nbsp;-1) = P (Y \\geq&nbsp;2) \\) , the standard deviation of \\( Y \\) is</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 29</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\sqrt{2} \\)</p>",
+            "<p>\\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/427/gate-cse-2008-question-29\" target=\"_blank\">https://gateoverflow.in/427/gate-cse-2008-question-29</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"118299\"></a><div itemprop=\"text\">Let \\( X \\) be a Gaussian random variable with mean 0 and variance \\( \\sigma ^{2} \\). Let \\( Y \\) = \\( \\max\\left ( X,0 \\right ) \\) where \\( \\max\\left ( a,b \\right ) \\) is the maximum of \\( a \\) and \\( b \\). The median of \\( Y \\) is ______________ .</div><br><br><b>GATE CSE 2017 Set 1 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "0",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19\" target=\"_blank\">https://gateoverflow.in/118299/gate-cse-2017-set-1-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

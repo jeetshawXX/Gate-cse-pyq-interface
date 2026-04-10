@@ -1,0 +1,41 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - ISRO CSE 2023  Question",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "ISRO CSE 2023  Question",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435332\"></a><div itemprop=\"text\"><p>Maximum number of Simple graphs possible with \\( n \\) vertices</p></div><br><br><b>Graph Theory: ISRO CSE 2023 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2^{n(n-1) / 2} \\)</p>",
+            "<p>\\( 2^{(n-1) / 2} \\)</p>",
+            "<p>\\( 2^{(n(n+1) / 2)} \\)</p>",
+            "<p>\\( 2^{n(n+1)} \\)<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( 2^{n(n-1) / 2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435332/isro-cse-2023-question-63\" target=\"_blank\">https://gateoverflow.in/435332/isro-cse-2023-question-63</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435345\"></a><div itemprop=\"text\"><p>Which of the following are true​​​​​​?</p><ol type=\"i\"><li>In a graph G with ‘n’ vertices and ‘e’ edges, sum of degrees of vertices = 2*e.</li><li>Eccentricity of a connected graph can never be equal to radius of the graph</li><li>Girth of a graph is the shortest cycle of the graph</li><li>Graph with equal degree for all vertices is multigraph</li></ol></div><br><br><b>Graph Theory: ISRO CSE 2023 | Question: 51</b></p>",
+          "type": "single",
+          "options": [
+            "<p>(i), (ii), (iii)</p>",
+            "<p>(ii), (iii), (iv)</p>",
+            "<p>(i), (iii), (iv)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435345/isro-cse-2023-question-51\" target=\"_blank\">https://gateoverflow.in/435345/isro-cse-2023-question-51</a></p>"
+        }
+      ]
+    }
+  ]
+}

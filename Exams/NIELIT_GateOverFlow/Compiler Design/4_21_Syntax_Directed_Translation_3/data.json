@@ -1,0 +1,56 @@
+{
+  "title": "Compiler Design - Syntax Directed Translation",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Syntax Directed Translation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336495\"></a><div itemprop=\"text\"><p>Syntax directed translation scheme is desirable because</p></div><br><br><b>Compiler Design: NIELIT 2016 DEC Scientist B (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It is based on the syntax</p>",
+            "<p>It is easy to modify</p>",
+            "<p>Its description is independent of any implementation</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336495/nielit-2016-dec-scientist-b-cs-section-b-43\" target=\"_blank\">https://gateoverflow.in/336495/nielit-2016-dec-scientist-b-cs-section-b-43</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336909\"></a><div itemprop=\"text\"><p>Synthesized attribute can easily be simulated by an</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>LL grammar</p>",
+            "<p>ambiguous grammar</p>",
+            "<p>LR grammar</p>",
+            "<p>none of the above</p>"
+          ],
+          "correct_answer": "<p>LR grammar</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336909/nielit-2017-oct-scientific-assistant-a-cs-section-b-11\" target=\"_blank\">https://gateoverflow.in/336909/nielit-2017-oct-scientific-assistant-a-cs-section-b-11</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"373769\"></a><div itemprop=\"text\"><p>Consider the following Syntax Directed Translation Scheme \\( \\text{(SDTS)} \\), with non-terminals \\( \\{ \\text{S,A} \\} \\) and terminals \\( \\{ \\text{a,b} \\} \\).</p>\n\n<ul>\n\t<li>\\( \\text{S} \\rightarrow \\text{aA}&nbsp; \\quad \\{\\text{print }1\\} \\)</li>\n\t<li>\\(  \\text{S} \\rightarrow \\text{a}&nbsp;&nbsp; \\quad &nbsp; \\{\\text{print }2\\} \\)</li>\n\t<li>\\( \\text{A} \\rightarrow \\text{Sb}&nbsp; \\quad \\{\\text{print }3\\} \\)</li>\n</ul>\n\n<p>Using the above \\( \\text{SDTS} \\), the output printed by a bottom-up parser, for the input \\( \\text{aab} \\) is:</p>\n\n</div><br><br><b>Compiler Design: NIELIT 2022 April Scientist B | Section B | Question: 69</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;\\( 1 \\; 3 \\; 2  \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 2 \\; 2 \\; 3 &nbsp; \\)&nbsp;</p>",
+            "<p>&nbsp;\\( 2 \\; 3 \\; 1  \\)&nbsp;</p>",
+            "<p>&nbsp;Syntax Error</p>"
+          ],
+          "correct_answer": "<p>&nbsp;\\( 2 \\; 3 \\; 1  \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373769/nielit-2022-april-scientist-b-section-b-question-69\" target=\"_blank\">https://gateoverflow.in/373769/nielit-2022-april-scientist-b-section-b-question-69</a></p>"
+        }
+      ]
+    }
+  ]
+}

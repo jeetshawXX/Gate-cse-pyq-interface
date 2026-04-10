@@ -1,0 +1,133 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Probability - Expectation",
+  "duration": 22,
+  "sections": [
+    {
+      "name": "Expectation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"20011\"></a><div itemprop=\"text\"><p>Assume that you are flipping a fair coin, i.e. probability of heads or tails is equal. Then the expected number of coin flips required to obtain two consecutive heads for the first time is.</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\\( 4 \\)</li>\n\t<li>\\( 3 \\)</li>\n\t<li>\\( 6 \\)</li>\n\t<li>\\( 10 \\)</li>\n\t<li>\\( 5 \\)</li>\n</ol></div><br><br><b>Probability: TIFR CSE 2011 | Part A | Question: 6</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20011/tifr-cse-2011-part-a-question-6\" target=\"_blank\">https://gateoverflow.in/20011/tifr-cse-2011-part-a-question-6</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25107\"></a><div itemprop=\"text\"><p>A bag contains \\( 16 \\) balls of the following colors: 8 red, 4 blue, 2 green, 1 black, and 1 white. Anisha picks a ball randomly from the bag, and messages Babu its color using a string of zeros and ones. She replaces the ball in the bag, and repeats this experiment, many times. What is the minimum expected length of the message she has to convey to Babu per experiment?</p></div><br><br><b>Probability: TIFR CSE 2012 | Part B | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{3}{2} \\)</p>",
+            "<p>\\( {\\log 5} \\)</p>",
+            "<p>\\( \\dfrac{15}{8} \\)</p>",
+            "<p>\\( \\dfrac{31}{16} \\)</p>",
+            "<p>\\( 2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{15}{8} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25107/tifr-cse-2012-part-b-question-7\" target=\"_blank\">https://gateoverflow.in/25107/tifr-cse-2012-part-b-question-7</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27111\"></a><div itemprop=\"text\">\n<p>A fair dice (with faces numbered \\( 1, . . . , 6 \\)) is independently rolled repeatedly. Let \\( X \\) denote the&nbsp;number of rolls till an even number is seen and let \\( Y \\) denote the number of rolls till \\( 3 \\) is seen. Evaluate \\( E(Y |X = 2) \\).</p>\n\n\n</div><br><br><b>Probability: TIFR CSE 2014 | Part A | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 6\\frac{5}{6} \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 5\\frac{1}{2} \\)</p>",
+            "<p>\\( 6\\frac{1}{3} \\)</p>",
+            "<p>\\( 5\\frac{2}{3} \\)</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27111/tifr-cse-2014-part-a-question-17\" target=\"_blank\">https://gateoverflow.in/27111/tifr-cse-2014-part-a-question-17</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"29567\"></a><div itemprop=\"text\"><p>Ram has a fair coin, i.e., a toss of the coin results in either head or tail and each event happens with probability exactly half \\( (1/2) \\). He repeatedly tosses the coin until he gets heads in two consecutive tosses. The expected number of coin tosses that Ram does is.</p>\n\n</div><br><br><b>Probability: TIFR CSE 2015 | Part A | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29567/tifr-cse-2015-part-a-question-6\" target=\"_blank\">https://gateoverflow.in/29567/tifr-cse-2015-part-a-question-6</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"333101\"></a><div itemprop=\"text\"><p>Two balls are drawn uniformly at random without replacement from a set of five balls numbered \\( 1,2,3,4,5. \\) What is the expected value of the larger number on the balls drawn?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2020 | Part A | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2.5 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 3.5 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333101/tifr-cse-2020-part-a-question-1\" target=\"_blank\">https://gateoverflow.in/333101/tifr-cse-2020-part-a-question-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"358942\"></a><div itemprop=\"text\"><p>Suppose we toss a fair coin (i.e., both beads and tails have equal probability of appearing) repeatedly until the first time by which at least \\( \\textit{two} \\) heads and at least \\( \\textit{two} \\)&nbsp;tails have appeared in the sequence of tosses made. What is the expected number of coin tosses that we would have to make?</p>\n\n</div><br><br><b>Probability: TIFR CSE 2021 | Part B | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5.5 \\)</p>",
+            "<p>\\( 7.5 \\)</p>",
+            "<p>\\( 4.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5.5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358942/tifr-cse-2021-part-b-question-11\" target=\"_blank\">https://gateoverflow.in/358942/tifr-cse-2021-part-b-question-11</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"381950\"></a><div itemprop=\"text\"><p>We would like to invite a minimum number \\( n \\) of people (their birthdays are independent of each other) to a party such that the expected number of pairs of people that share the same birthday is at least \\( 1. \\) What should \\( n \\) be?</p>\n\n<p>(Ignore leap years, so there are only \\( 365 \\) possible birthdays. Assume that birthdays fall with equal probability on each of the \\( 365 \\) days of the year.)</p>\n\n</div><br><br><b>Probability: TIFR CSE 2022 | Part A | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 23 \\)</p>",
+            "<p>\\( 28 \\)</p>",
+            "<p>\\( 92 \\)</p>",
+            "<p>\\( 183 \\)</p>",
+            "<p>\\( 366 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 28 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/381950/tifr-cse-2022-part-a-question-2\" target=\"_blank\">https://gateoverflow.in/381950/tifr-cse-2022-part-a-question-2</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"473101\"></a><div itemprop=\"text\"><p>Consider a coin which has probability \\( p \\) of coming up heads when tossed. Assume that \\( 0&lt;p&lt;10 &lt; p &lt; 10&lt;p&lt;1 \\). A trial is performed by repeatedly tossing the coin until the first time it shows a head: the number of tosses made is then called the <em data-start=\"295\" data-end=\"302\">value</em> of the trial. (Thus, if a trial results in tosses “tails”, “tails”, “heads”, then its value is \\( 3 \\)) An <em data-start=\"405\" data-end=\"417\">experiment</em> is a sequence of \\( n \\) independent trials.</p><p>Akhil and Bela each perform an experiment, as defined above, with the coin. Akhil defines the value \\( A \\) of his experiment to be the maximum of the values of the \\( n \\) trials in his experiment, while Bela defines the value \\( B \\) of her experiment to be the average of the value of the \\( n \\) trials in her experiment. Which of the following is correct? (Here, for any random variable \\( X, E[X] \\) denotes the expectation of \\( X \\).)</p></div><br><br><b>Probability: TIFR CSE 2025 | Part A | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( E[A] \\) is a strictly increasing function of \\( n \\) while \\( E[B] \\) does not depend upon \\( n \\).</p>",
+            "<p>\\( E[A] \\) is a non-constant function of \\( n \\), but it is not strictly increasing, while \\( E[B] \\) does not depend upon \\( n \\).</p>",
+            "<p>\\( E[A] \\) and \\( E[B] \\) are both strictly increasing functions of \\( n \\).</p>",
+            "<p>\\( E[A] \\) is a non-decreasing function of \\( n \\) while \\( E[B] \\) is a strictly decreasing function of \\( n \\).</p>",
+            "<p>Neither \\( E[A] \\) nor \\( E[B] \\) depends upon \\( n \\).<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( E[A] \\) is a strictly increasing function of \\( n \\) while \\( E[B] \\) does not depend upon \\( n \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/473101/tifr-cse-2025-part-a-question-12\" target=\"_blank\">https://gateoverflow.in/473101/tifr-cse-2025-part-a-question-12</a></p>"
+        }
+      ]
+    }
+  ]
+});

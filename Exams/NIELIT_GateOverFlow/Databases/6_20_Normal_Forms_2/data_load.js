@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Databases - Normal Forms",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Normal Forms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"378754\"></a><div itemprop=\"text\"><p>Specify, which of the following is preferred method for enforcing data integrity?</p>\n\n</div><br><br><b>Databases: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Constraints</p>",
+            "<p>Stored procedure</p>",
+            "<p>Triggers</p>",
+            "<p>Cursors</p>"
+          ],
+          "correct_answer": "<p>Constraints</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378754/nielit-2021-dec-scientist-b-section-b-9\" target=\"_blank\">https://gateoverflow.in/378754/nielit-2021-dec-scientist-b-section-b-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"373784\"></a><div itemprop=\"text\"><p>The relation scheme \\( \\text{Student Performance (name, courseNo, rollNo, grade)} \\) has the following functional dependencies:</p>\n\n<ul>\n\t<li>name, courseNo, \\( \\rightarrow \\) grade</li>\n\t<li>rollNo, courseNo \\( \\rightarrow \\) grade</li>\n\t<li>name \\( \\rightarrow \\) rollNo</li>\n\t<li>rollNo \\( \\rightarrow \\) name</li>\n</ul>\n\n<p>The highest normal form of this relation scheme is</p>\n\n</div><br><br><b>Databases: NIELIT 2022 April Scientist B | Section B | Question: 54</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{2NF} \\)</p>",
+            "<p>\\( \\text{3NF} \\)</p>",
+            "<p>\\( \\text{BCNF} \\)</p>",
+            "<p>\\( \\text{4NF} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{3NF} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373784/nielit-2022-april-scientist-b-section-b-question-54\" target=\"_blank\">https://gateoverflow.in/373784/nielit-2022-april-scientist-b-section-b-question-54</a></p>"
+        }
+      ]
+    }
+  ]
+});

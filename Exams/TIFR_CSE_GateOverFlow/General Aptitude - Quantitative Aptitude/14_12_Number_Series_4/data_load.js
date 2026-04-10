@@ -1,0 +1,75 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Number Series",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Number Series",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"20014\"></a><div itemprop=\"text\"><p>The sum of the first \\( n \\) terms of the series \\( 1, 11, 111, 1111,\\dots, \\) is.</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2011 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{81}\\left ( 10^{n+1}-9n-10 \\right ) \\)</p>",
+            "<p>\\( \\frac{1}{81}\\left ( 10^{n}-9n \\right ) \\)</p>",
+            "<p>\\( \\frac{1}{9}\\left ( 10^{n+1}-1\\right ) \\)</p>",
+            "<p>\\( \\frac{1}{9}\\left ( 10^{n+1}-n10^{n}\\right ) \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{81}\\left ( 10^{n+1}-9n-10 \\right ) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20014/tifr-cse-2011-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/20014/tifr-cse-2011-part-a-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25438\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( \\DeclareMathOperator{S}{sgn}<br>\n\\S (x)= \\begin{cases}<br>\n+1 &amp; \\text{if } x \\geq 0 \\\\<br>\n-1 &amp; \\text{if } x &lt; 0<br>\n\\end{cases} \\)</p>\n\n<p>What is the value of the following summation?</p>\n\n<p>\\[ \\sum_{i=0}^{50} \\S \\left&nbsp;( (2i - 1) (2i - 3) \\dots (2i - 99) &nbsp;\\right) \\]</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2013 | Part A | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( -1 \\)</p>",
+            "<p>\\( +1 \\)</p>",
+            "<p>\\( 25 \\)</p>",
+            "<p>\\( 50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( +1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25438/tifr-cse-2013-part-a-question-15\" target=\"_blank\">https://gateoverflow.in/25438/tifr-cse-2013-part-a-question-15</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"25430\"></a><div itemprop=\"text\"><p>Find the sum of the infinite series</p>\n\n<p>&nbsp; \\( \\dfrac{1}{1\\times 3 \\times 5} + \\dfrac{1}{3\\times 5\\times 7} +&nbsp;\\dfrac{1}{5\\times 7 \\times 9} +&nbsp;\\dfrac{1}{7\\times 9 \\times 11} + ...... \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2013 | Part A | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\;\\;\\infty  \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{2}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{6}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{12}\\right) \\)</p>",
+            "<p>\\( \\left(\\dfrac{1}{14}\\right) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\left(\\dfrac{1}{12}\\right) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25430/tifr-cse-2013-part-a-question-8\" target=\"_blank\">https://gateoverflow.in/25430/tifr-cse-2013-part-a-question-8</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"25992\"></a><div itemprop=\"text\"><p>Consider a sequence of non-negative numbers \\( {x_{n} : n = 1, 2, . . .} \\). Which of the following statements&nbsp;cannot be true?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2014 | Part A | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\sum ^{\\infty }_{n=1} x_{n}= \\infty  \\) and \\( \\sum ^{\\infty }_{n=1} x_{n}^{2}= \\infty \\).</p>",
+            "<p>\\( \\sum ^{\\infty }_{n=1} x_{n}= \\infty  \\) and \\( \\sum ^{\\infty }_{n=1} x_{n}^{2}&lt; \\infty \\).</p>",
+            "<p>\\( \\sum ^{\\infty }_{n=1} x_{n}&lt; \\infty  \\) and \\( \\sum ^{\\infty }_{n=1} x_{n}^{2}&lt; \\infty \\).</p>",
+            "<p>\\( \\sum ^{\\infty }_{n=1} x_{n}\\leq 5 \\) and \\( \\sum ^{\\infty }_{n=1} x_{n}^{2}\\geq 25 \\).</p>",
+            "<p>\\( \\sum ^{\\infty }_{n=1} x_{n} &lt; \\infty  \\) and \\( \\sum ^{\\infty }_{n=1} x_{n}^{2}= \\infty \\).</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25992/tifr-cse-2014-part-a-question-7\" target=\"_blank\">https://gateoverflow.in/25992/tifr-cse-2014-part-a-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

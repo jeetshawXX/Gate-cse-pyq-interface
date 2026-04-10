@@ -1,0 +1,261 @@
+{
+  "title": "Digital Logic - Boolean Algebra",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Boolean Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336740\"></a><div itemprop=\"text\"><p>Which of the following logic expression is incorrect?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1\\oplus0=1 \\)</p>",
+            "<p>\\( 1\\oplus1\\oplus0=1 \\)</p>",
+            "<p>\\( 1\\oplus1\\oplus1=1 \\)</p>",
+            "<p>\\( 1\\oplus1=0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1\\oplus1\\oplus0=1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336740/nielit-2016-mar-scientist-b-section-c-1\" target=\"_blank\">https://gateoverflow.in/336740/nielit-2016-mar-scientist-b-section-c-1</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336791\"></a><div itemprop=\"text\"><p>In Boolean algebra \\( 1+1+1+1\\dots\\dots 800 \\) times ones \\( = \\) ______ .</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 800 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336791/nielit-2017-dec-scientific-assistant-a-section-b-55\" target=\"_blank\">https://gateoverflow.in/336791/nielit-2017-dec-scientific-assistant-a-section-b-55</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336357\"></a><div itemprop=\"text\"><p>If \\( A\\oplus&nbsp;B=C \\), then which one of the following is true?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 July Scientist B (CS)</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( A\\oplus C=B \\)</p>",
+            "<p>\\( B\\oplus C=A \\)</p>",
+            "<p>\\( A\\oplus&nbsp;B\\oplus&nbsp;C=0 \\)</p>",
+            "<p>Both (A) and (B)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( A\\oplus C=B \\)</p>",
+            "<p>\\( B\\oplus C=A \\)</p>",
+            "<p>\\( A\\oplus&nbsp;B\\oplus&nbsp;C=0 \\)</p>",
+            "<p>Both (A) and (B)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336357/nielit-2017-july-scientist-b-cs-section-b-18\" target=\"_blank\">https://gateoverflow.in/336357/nielit-2017-july-scientist-b-cs-section-b-18</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336384\"></a><div itemprop=\"text\"><p>In digital logic, if \\( A\\oplus&nbsp;B=C \\), then which one of the following is true?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>\\( A\\oplus&nbsp;C=B \\)</p>",
+            "<p>\\( B\\oplus&nbsp;C=A \\)</p>",
+            "<p>\\( A\\oplus B\\oplus C=0 \\)</p>",
+            "<p>Both (A) and (B)</p>"
+          ],
+          "correct_answer": [
+            "<p>\\( A\\oplus&nbsp;C=B \\)</p>",
+            "<p>\\( B\\oplus&nbsp;C=A \\)</p>",
+            "<p>\\( A\\oplus B\\oplus C=0 \\)</p>",
+            "<p>Both (A) and (B)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336384/nielit-2017-july-scientist-b-it-section-b-51\" target=\"_blank\">https://gateoverflow.in/336384/nielit-2017-july-scientist-b-it-section-b-51</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336900\"></a><div itemprop=\"text\"><p>The possible number of Boolean function of \\( 3 \\) variables \\( X,Y \\) and \\( Z \\) such that \\( f(X,Y,Z) = f(X’,Y’,Z’) \\)</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2017 OCT Scientific Assistant A (CS)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 32 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336900/nielit-2017-oct-scientific-assistant-a-cs-section-b-20\" target=\"_blank\">https://gateoverflow.in/336900/nielit-2017-oct-scientific-assistant-a-cs-section-b-20</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"275505\"></a><div itemprop=\"text\"><p>\\( (A+C’)(B’+C’) \\) simplifies to</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( AC’+B’ \\)</p>",
+            "<p>\\( C(A’+B’) \\)</p>",
+            "<p>\\( BC’+A \\)</p>",
+            "<p>\\( AB’+C’ \\)</p>"
+          ],
+          "correct_answer": "<p>\\( AB’+C’ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275505/nielit-2018-59\" target=\"_blank\">https://gateoverflow.in/275505/nielit-2018-59</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"275498\"></a><div itemprop=\"text\"><p>____ number of gates are required to implement the Boolean function \\( (AB+C) \\) with using only \\( 2 \\)-input NOR gates.</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275498/nielit-2018-66\" target=\"_blank\">https://gateoverflow.in/275498/nielit-2018-66</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"275493\"></a><div itemprop=\"text\"><p>In the given truth table, \\( f(x,y) \\) represent the Boolean function.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|} \\hline x &amp; y &amp; f(x,y) \\\\ \\hline 0 &amp; 0 &amp; 1 \\\\ \\hline 0 &amp; 1 &amp; 0 \\\\ \\hline 1 &amp; 0 &amp; 0 \\\\ \\hline 1 &amp; 1 &amp; 1 \\\\ \\hline \\end{array} \\]</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2018</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x \\leftrightarrow y \\)</p>",
+            "<p>\\(  x \\wedge y \\)</p>",
+            "<p>\\( x \\vee y \\)</p>",
+            "<p>\\( x \\rightarrow y \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x \\leftrightarrow y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/275493/nielit-2018-71\" target=\"_blank\">https://gateoverflow.in/275493/nielit-2018-71</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"369307\"></a><div itemprop=\"text\"><p>Let \\( \\text{f(A, B)} = \\overline {\\rm A} + \\text{B}, \\) Simplified expression for function \\( \\text{f(f(x+y, y), z)} \\) is :</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\overline{\\rm x} + \\text{z} \\)</p>",
+            "<p>\\( \\text{xyz} \\)</p>",
+            "<p>\\( \\text{x}\\overline{\\rm y} + \\text{z} \\)</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{x}\\overline{\\rm y} + \\text{z} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369307/nielit-2021-dec-scientist-a-section-b-106\" target=\"_blank\">https://gateoverflow.in/369307/nielit-2021-dec-scientist-a-section-b-106</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"369361\"></a><div itemprop=\"text\"><p>Which of the following Boolean algebra rules is correct ?</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  A. \\overline{\\rm A} = 1 \\)</p>",
+            "<p>\\(  A + AB = A + B  \\)</p>",
+            "<p>\\(  A(A+B) = B  \\)</p>",
+            "<p>\\(  A+ \\overline{\\rm A}B = A + B  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  A+ \\overline{\\rm A}B = A + B  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369361/nielit-2021-dec-scientist-a-section-b-52\" target=\"_blank\">https://gateoverflow.in/369361/nielit-2021-dec-scientist-a-section-b-52</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"366916\"></a><div itemprop=\"text\"><p>Which of the following Boolean expressions is not logically equivalent to all of the rest \\( ? \\)</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\text{ab + (cd)’ + cd + bd’}  \\)</p>",
+            "<p>\\(  \\text{a (b+c) + cd}  \\)</p>",
+            "<p>\\(  \\text{ab + ac + (cd)’}  \\)</p>",
+            "<p>\\(  \\text{bd’ + c’ d’ + ab + cd}  \\)</p>"
+          ],
+          "correct_answer": "<p>\\(  \\text{ab + (cd)’ + cd + bd’}  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366916/nielit-2021-dec-scientist-b-section-b-101\" target=\"_blank\">https://gateoverflow.in/366916/nielit-2021-dec-scientist-b-section-b-101</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"366903\"></a><div itemprop=\"text\"><p>If data stored in \\( \\text{AC = 5F h} \\) and \\( \\text{DR = C2 h} \\) what is value of \\( \\text{AC} \\) after \\( \\text{AC \\)\\wedge\\( DR} \\) operation \\( ? \\)</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 9\\text{D} \\)</p>",
+            "<p>\\( 42 \\)</p>",
+            "<p>\\( \\text{DF} \\)</p>",
+            "<p>\\( \\text{DE} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 42 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366903/nielit-2021-dec-scientist-b-section-b-114\" target=\"_blank\">https://gateoverflow.in/366903/nielit-2021-dec-scientist-b-section-b-114</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"366967\"></a><div itemprop=\"text\"><p>When factorizing the Boolean equation \\(  \\text{Y} = \\text{A} \\overline {\\rm B} + \\text{AB}, \\) the result will be :</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{A} \\overline {\\rm B} \\)</p>",
+            "<p>\\( \\text{AB} \\)</p>",
+            "<p>\\( \\text{A} \\)</p>",
+            "<p>\\( \\text{B} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{A} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366967/nielit-2021-dec-scientist-b-section-b-50\" target=\"_blank\">https://gateoverflow.in/366967/nielit-2021-dec-scientist-b-section-b-50</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"378706\"></a><div itemprop=\"text\"><p>The complement of the expression \\( Y = \\rm ABC + \\rm AB \\overline{\\rm C} + \\overline{\\rm A}\\; \\overline {\\rm B} \\rm C&nbsp;+ \\overline{\\rm A} \\rm BC \\) is \\( : \\)</p>\n\n</div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (\\overline{\\rm A} + \\overline{\\rm B})(&nbsp; \\rm A&nbsp;+ \\overline{\\rm C}) \\)</p>",
+            "<p>\\( (\\overline{\\rm A} + \\rm B) (\\rm A + \\rm C) \\)</p>",
+            "<p>\\( (\\rm A + \\overline {\\rm B}) ( \\overline{\\rm A} + \\rm C) \\)</p>",
+            "<p>\\( (\\rm A + \\overline {\\rm B}) ( \\rm A + \\overline{\\rm C}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (\\overline{\\rm A} + \\overline{\\rm B})(&nbsp; \\rm A&nbsp;+ \\overline{\\rm C}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378706/nielit-2021-dec-scientist-b-section-b-57\" target=\"_blank\">https://gateoverflow.in/378706/nielit-2021-dec-scientist-b-section-b-57</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"366923\"></a><div itemprop=\"text\"><p>The complement of the expression \\( \\text{Y} = \\text{ABC} + \\text{AB} \\overline{\\rm C} + \\overline{\\rm A}\\; \\overline {\\rm B} \\text{C} + \\overline{\\rm A} \\text{BC} \\) is \\( : \\)</p></div><br><br><b>Digital Logic: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (\\overline{\\rm A} + \\overline{\\rm B})(&nbsp; \\text{A} + \\overline{\\rm C}) \\)</p>",
+            "<p>\\( (\\overline{\\rm A} + \\text{B}) (\\text{A + C}) \\)</p>",
+            "<p>\\( (\\text{A} + \\overline {\\rm B}) ( \\overline{\\rm A} + \\text{C}) \\)</p>",
+            "<p>\\( (\\text{A} + \\overline {\\rm B}) ( \\text{A} + \\overline{\\rm C}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (\\overline{\\rm A} + \\overline{\\rm B})(&nbsp; \\text{A} + \\overline{\\rm C}) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366923/nielit-2021-dec-scientist-b-section-b-94\" target=\"_blank\">https://gateoverflow.in/366923/nielit-2021-dec-scientist-b-section-b-94</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"351585\"></a><div itemprop=\"text\"><p>If \\( x, y, z \\) are Boolean variable then \\( (x+\\overline y)(x \\cdot \\overline y+x\\cdot z)(\\overline x\\cdot \\overline z+\\overline y) \\) is equal to :</p>\n\n</div><br><br><b>Digital Logic: NIELIT Scientist B 2020 November: 97</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x\\cdot\\overline y \\)</p>",
+            "<p>\\( x\\cdot\\overline y+z \\)</p>",
+            "<p>\\( x\\cdot \\overline z \\)</p>",
+            "<p>none of the options</p>"
+          ],
+          "correct_answer": "<p>\\( x\\cdot\\overline y \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351585/nielit-scientist-b-2020-november-97\" target=\"_blank\">https://gateoverflow.in/351585/nielit-scientist-b-2020-november-97</a></p>"
+        }
+      ]
+    }
+  ]
+}

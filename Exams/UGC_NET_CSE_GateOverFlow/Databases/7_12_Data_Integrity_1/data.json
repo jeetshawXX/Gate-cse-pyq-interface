@@ -1,0 +1,26 @@
+{
+  "title": "Databases - Data Integrity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Integrity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60048\"></a><div itemprop=\"text\"><p>Data Integrity control uses</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2013 | Part 2 | Question: 15</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Upper and lower limits on numeric data</p>",
+            "<p>Passwords to prohibit unauthorized access to files</p>",
+            "<p>Data dictionary to keep the data</p>",
+            "<p>Data dictionary to find last access data</p>"
+          ],
+          "correct_answer": "<p>Passwords to prohibit unauthorized access to files</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60048/ugc-net-cse-december-2013-part-2-question-15\" target=\"_blank\">https://gateoverflow.in/60048/ugc-net-cse-december-2013-part-2-question-15</a></p>"
+        }
+      ]
+    }
+  ]
+}

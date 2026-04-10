@@ -1,0 +1,26 @@
+{
+  "title": "Programming - Programming in C - Binary Search Tree",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Binary Search Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60633\"></a><div itemprop=\"text\"><p>Suppose that we have numbers between \\( 1 \\) and \\( 1000 \\) in a binary search tree and we want to search for the number \\( 365 \\). Which of the following sequences could not be the sequence of nodes examined ?</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | December 2014 | Part 3 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4, 254, 403, 400, 332, 346, 399, 365 \\)</p>",
+            "<p>\\( 926, 222, 913, 246, 900, 260, 364, 365 \\)</p>",
+            "<p>\\( 927, 204,913, 242, 914, 247, 365 \\)</p>",
+            "<p>\\( 4, 401, 389, 221, 268, 384, 383, 280, 365 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 927, 204,913, 242, 914, 247, 365 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60633/ugc-net-cse-december-2014-part-3-question-36\" target=\"_blank\">https://gateoverflow.in/60633/ugc-net-cse-december-2014-part-3-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

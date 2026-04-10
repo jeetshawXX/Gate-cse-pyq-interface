@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Logarithms",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Logarithms",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369258\"></a><div itemprop=\"text\"><p>Which of the following is true ?</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\(  \\log_{17} 275 = \\log_{19} 375 \\)</p>",
+            "<p>\\(  \\log_{17} 275 &gt;&nbsp; \\log_{19} 375 \\)</p>",
+            "<p>\\(  \\log_{17} 275 &lt; \\log_{19} 375 \\)</p>",
+            "<p>None of the these</p>"
+          ],
+          "correct_answer": "<p>\\(  \\log_{17} 275 &lt; \\log_{19} 375 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369258/nielit-2021-dec-scientist-a-section-a-35\" target=\"_blank\">https://gateoverflow.in/369258/nielit-2021-dec-scientist-a-section-a-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"369257\"></a><div itemprop=\"text\"><p>\\( \\log (x+3) + \\log (x+5) = \\log 35, \\) solve for \\( x \\) :</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369257/nielit-2021-dec-scientist-a-section-a-36\" target=\"_blank\">https://gateoverflow.in/369257/nielit-2021-dec-scientist-a-section-a-36</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"366827\"></a><div itemprop=\"text\"><p>\\(  \\dfrac{1}{2}\\;&nbsp;&nbsp;\\log_{10}25 –&nbsp;2 \\log_{10}3 + \\log_{10}18 \\) equals \\( : \\)</p>\n\n</div><br><br><b>Quantitative Aptitude: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 18 \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\log_{10}3 \\)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/366827/nielit-2021-dec-scientist-b-section-a-28\" target=\"_blank\">https://gateoverflow.in/366827/nielit-2021-dec-scientist-b-section-a-28</a></p>"
+        }
+      ]
+    }
+  ]
+});

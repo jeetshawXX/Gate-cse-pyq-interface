@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Others - General Awareness",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "General Awareness",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373695\"></a><div itemprop=\"text\"><p>\\( \\textbf{Assertion (A):} \\) Increase in carbon dioxide would melt polar ice.&nbsp;</p>\n\n<p>\\( \\textbf{Reason&nbsp;(R):} \\) Global temperature would rise.</p>\n\n</div><br><br><b>Others: NIELIT 2022 April Scientist B | Section A | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{(A)} \\) and&nbsp;\\( \\text{(R)} \\) are true but&nbsp;\\( \\text{(R)} \\) is not the correct explanation of&nbsp;\\( \\text{(A)} \\)</p>",
+            "<p>Both \\( \\text{(A)} \\) and&nbsp;\\( \\text{(R)} \\) are true and&nbsp;\\( \\text{(R)} \\) is&nbsp;the correct explanation of&nbsp;\\( \\text{(A)} \\)</p>",
+            "<p>\\( \\text{(A)} \\) is true but&nbsp;\\( \\text{(R)} \\) is false.</p>",
+            "<p>\\( \\text{(A)} \\) is false&nbsp;but&nbsp;\\( \\text{(R)} \\) is true.</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{(A)} \\) and&nbsp;\\( \\text{(R)} \\) are true but&nbsp;\\( \\text{(R)} \\) is not the correct explanation of&nbsp;\\( \\text{(A)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373695/nielit-2022-april-scientist-b-section-a-question-23\" target=\"_blank\">https://gateoverflow.in/373695/nielit-2022-april-scientist-b-section-a-question-23</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"412020\"></a><div itemprop=\"text\"><p>The Ohio State Leadership Studies revealed _________ and initiating structure as two major dimensions of leadership behaviour:</p>\n\n</div><br><br><b>Others: NIELIT 2023 Feb Scientist C | Section E | Question: 135</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Control</p>",
+            "<p>Communication</p>",
+            "<p>Collaboration</p>",
+            "<p>Consideration\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Consideration\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412020/nielit-2023-feb-scientist-c-section-e-question-135\" target=\"_blank\">https://gateoverflow.in/412020/nielit-2023-feb-scientist-c-section-e-question-135</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"412011\"></a><div itemprop=\"text\"><p>Which style of leadership focuses on goals, standards, and organization?</p>\n\n</div><br><br><b>Others: NIELIT 2023 Feb Scientist C | Section E | Question: 144</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Task leadership</p>",
+            "<p>Social leadership</p>",
+            "<p>Semantic leadership</p>",
+            "<p>Transformational leadership\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Task leadership</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412011/nielit-2023-feb-scientist-c-section-e-question-144\" target=\"_blank\">https://gateoverflow.in/412011/nielit-2023-feb-scientist-c-section-e-question-144</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"410579\"></a><div itemprop=\"text\"><p>Directions: Answer questions <strong>(24-25)</strong> on the basis of following instructions :</p>\n\n<p>Instructions: For the Assertions \\( \\text{(A)} \\)&nbsp;and Reason \\( \\text{(R)} \\)&nbsp;below, choose the correct alternative from the following :</p>\n\n<p>(I) Both \\( \\text{(A)} \\)&nbsp;and \\( \\text{(R)} \\)&nbsp;are true and \\( \\text{(R)} \\)&nbsp;is the correct explanation of \\( \\text{(A)} \\).</p>\n\n<p>(II) Both \\( \\text{(A)} \\)&nbsp;and \\( \\text{(R)} \\)&nbsp;are true and \\( \\text{(R)} \\)&nbsp;is not the correct explanation of \\( \\text{(A)} \\).</p>\n\n<p>(III) \\( \\text{(A)} \\)&nbsp;is true but \\( \\text{(R)} \\)&nbsp;is false.</p>\n\n<p>(IV) \\( \\text{(A)} \\)&nbsp;is false but \\( \\text{(R)} \\)&nbsp;is true.</p>\n\n<p>Assertion \\( \\text{(A)} \\): The filament in an electric bulb does not burn up although its temperature is about \\( 2700^{\\circ} \\mathrm{C} \\) when it glows.</p>\n\n<p>Reason \\( \\text{(R)} \\): Bulb filament is made of tungsten.</p>\n\n</div><br><br><b>Others: NIELIT 2023 Feb Scientist D | Section A | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(I)} \\)</p>",
+            "<p>\\( \\text{(II)} \\)</p>",
+            "<p>\\( \\text{(III)} \\)</p>",
+            "<p>\\( \\text{(IV)} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(I)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410579/nielit-2023-feb-scientist-d-section-a-question-24\" target=\"_blank\">https://gateoverflow.in/410579/nielit-2023-feb-scientist-d-section-a-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

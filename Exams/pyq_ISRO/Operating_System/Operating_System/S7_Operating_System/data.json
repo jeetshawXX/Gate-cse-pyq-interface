@@ -1,0 +1,236 @@
+{
+  "title": "Operating_System - Operating_System - Slot 7",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following need not necessarily be saved on a Context Switch between processes? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>Stack pointer</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50003/isro2008-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Fork is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the creation of a new job</p>",
+            "<b>B.</b> <p>the dispatching of a task</p>",
+            "<b>C.</b> <p>increasing the priority of a task</p>",
+            "<b>D.</b> <p>the creation of a new process</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>the creation of a new process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50002/isro2008-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In which of the following four necessary conditions for deadlock processes claim exclusive control of the resources they require? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no preemption</p>",
+            "<b>B.</b> <p>mutual exclusion</p>",
+            "<b>C.</b> <p>circular wait</p>",
+            "<b>D.</b> <p>hold and wait</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mutual exclusion</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17254/isro2008-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A critical section is a program segment <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>which should run in a certain amount of time</p>",
+            "<b>B.</b> <p>which avoids deadlocks</p>",
+            "<b>C.</b> <p>where shared resources are accessed</p>",
+            "<b>D.</b> <p>which must be enclosed by a pair of semaphore operations, P and V</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>where shared resources are accessed</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2723/gate1996-1-19-isro2008-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Overlaying <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>requires use of a loader</p>",
+            "<b>B.</b> <p>allows larger programs, but requires more effort</p>",
+            "<b>C.</b> <p>is most used on large computers</p>",
+            "<b>D.</b> <p>is transparent to the user</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>allows larger programs, but requires more effort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47809/isro2008-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Checkpointing a job <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>allows it to be completed successfully</p>",
+            "<b>B.</b> <p>allows it to continue executing later</p>",
+            "<b>C.</b> <p>prepares it for finishing</p>",
+            "<b>D.</b> <p>occurs only when there is an error in it</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>allows it to continue executing later</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50000/isro2008-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Dirty bit for a page in a page table <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+            "<b>B.</b> <p>helps maintain LRU information</p>",
+            "<b>C.</b> <p>allows only read on a page</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>helps avoid unnecessary writes on a paging device</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2241/gate1997-3-10-isro2008-57-isro2015-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What is the name of the operating system that reads and reacts in terms of operating system? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Batch system</p>",
+            "<b>B.</b> <p>Quick response time</p>",
+            "<b>C.</b> <p>real time system</p>",
+            "<b>D.</b> <p>Time sharing system</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>real time system</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49997/isro2008-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Thrashing <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always occurs on large computers</p>",
+            "<b>B.</b> <p>is a natural consequence of virtual memory systems</p>",
+            "<b>C.</b> <p>can always be avoided by swapping</p>",
+            "<b>D.</b> <p>can be caused by poor paging algorithms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>can be caused by poor paging algorithms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17260/isro2008-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Dynamic address translation <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>is part of the operating system paging algorithm</p>",
+            "<b>B.</b> <p>is useless when swapping is used</p>",
+            "<b>C.</b> <p>is the hardware necessary to implement paging</p>",
+            "<b>D.</b> <p>storage pages at a specific location on disk</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>is the hardware necessary to implement paging</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17262/isro2008-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>With Round-Robin CPU scheduling in a time shared system <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>using very large time slices (quantas) degenerates into First-Come First served (FCFS) algorithm.</p>",
+            "<b>B.</b> <p>using extremely small time slices improves performance</p>",
+            "<b>C.</b> <p>using very small time slices degenerates into Last-In First-Out (LIFO) algorithm.</p>",
+            "<b>D.</b> <p>using medium sized times slices leads to shortest Request time First (SRTF) algorithm</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>using very large time slices (quantas) degenerates into First-Come First served (FCFS) algorithm.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49983/isro2008-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Feedback queues <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>are very simple to implement</p>",
+            "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+            "<b>C.</b> <p>are used to favour real time tasks</p>",
+            "<b>D.</b> <p>require manual intervention to implement properly</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49632/isro2007-64-isro2008-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which of the following need not necessarily be saved on a context switch between processes? <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>General purpose registers</p>",
+            "<b>B.</b> <p>Translation look-aside buffer</p>",
+            "<b>C.</b> <p>Program counter</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Translation look-aside buffer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/644/gate2000-1-20-isro2008-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Four jobs to be executed on a single processor system arrive at time 0 in the order A,B,C,D. Their burst CPU time requirements are 4,1,8,1 time units respectively. The completion time of A under round robin scheduling with time slice of one time unit is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2749/gate1996-2-20-isro2008-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Feedback queues <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>are very simple to implement</p>",
+            "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+            "<b>C.</b> <p>are used to favour real time tasks</p>",
+            "<b>D.</b> <p>require manual intervention to implement properly</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>dispatch tasks according to execution characteristics</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49632/isro2007-64-isro2008-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

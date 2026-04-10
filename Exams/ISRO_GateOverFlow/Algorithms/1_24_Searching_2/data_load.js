@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Searching",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Searching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2742\"></a><div itemprop=\"text\"><p>The average number of key comparisons required for a successful search for sequential search on \\( n \\) items is</p></div><br><br><b>Algorithms: GATE CSE 1996 | Question: 2.13,  ISRO2016</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{n}{2} \\)</p>",
+            "<p>\\( \\dfrac{n-1}{2} \\)</p>",
+            "<p>\\( \\dfrac{n+1}{2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{n+1}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2742/gate-cse-1996-question-2-13-isro2016-28\" target=\"_blank\">https://gateoverflow.in/2742/gate-cse-1996-question-2-13-isro2016-28</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"18148\"></a><div itemprop=\"text\"><p>Number of comparisons required for an unsuccessful search of an element in a sequential search organized, fixed length, symbol table of length L is</p>\n\n</div><br><br><b>Algorithms: ISRO CSE 2011 | Question: 70</b></p>",
+          "type": "single",
+          "options": [
+            "<p>L</p>",
+            "<p>L/2</p>",
+            "<p>(L+1)/2</p>",
+            "<p>2L</p>"
+          ],
+          "correct_answer": "<p>L</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/18148/isro-cse-2011-question-70\" target=\"_blank\">https://gateoverflow.in/18148/isro-cse-2011-question-70</a></p>"
+        }
+      ]
+    }
+  ]
+});

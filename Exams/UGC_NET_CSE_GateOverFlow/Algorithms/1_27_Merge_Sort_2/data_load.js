@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Merge Sort",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Merge Sort",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60115\"></a><div itemprop=\"text\"><p>Given two sorted list of size 'm' and 'n' respectively. The number of comparisons needed in the worst case by the&nbsp;merge sort&nbsp;algorithm will be</p></div><br><br><b>Algorithms: UGC NET CSE | December 2013 | Part 2 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>m \\( \\times \\) n</p>",
+            "<p>max(m, n)</p>",
+            "<p>min(m, n)</p>",
+            "<p>m+n-1</p>"
+          ],
+          "correct_answer": "<p>m+n-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60115/ugc-net-cse-december-2013-part-2-question-25\" target=\"_blank\">https://gateoverflow.in/60115/ugc-net-cse-december-2013-part-2-question-25</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"54597\"></a><div itemprop=\"text\">\n<p>Mergesort makes two recursive calls. Which statement is true after these two recursive calls finish, but before the merge step ?</p>\n\n\n</div><br><br><b>Algorithms: UGC NET CSE | June 2014 | Part 2 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The array elements form a heap.</p>",
+            "<p>Elements in each half of the array are sorted amongst themselves.</p>",
+            "<p>Elements in the first half of the array are less than or equal to elements in second half of the array.</p>",
+            "<p>All of the above&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Elements in each half of the array are sorted amongst themselves.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54597/ugc-net-cse-june-2014-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/54597/ugc-net-cse-june-2014-part-2-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+});

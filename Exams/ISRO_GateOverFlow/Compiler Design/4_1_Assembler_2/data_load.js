@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Compiler Design - Assembler",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Assembler",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56088\"></a><div itemprop=\"text\">\n<p>A simple two-pass assembler does which of the following in the first pass:</p>\n\n\n</div><br><br><b>Compiler Design: ISRO CSE 2016 | Question: 43</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Checks to see if the instructions are legal in the current assembly mode</p>",
+            "<p>It allocates space for the literals.</p>",
+            "<p>It builds the symbol table for the symbols and their values.</p>",
+            "<p>All of these</p>"
+          ],
+          "correct_answer": "<p>All of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56088/isro-cse-2016-question-43\" target=\"_blank\">https://gateoverflow.in/56088/isro-cse-2016-question-43</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"331377\"></a><div itemprop=\"text\"><p>In a two-pass assembler, resolution of subroutine calls and inclusion of labels in the symbol table is done during</p>\n\n</div><br><br><b>Compiler Design: ISRO CSE 2020 | Question: 14</b></p>",
+          "type": "single",
+          "options": [
+            "<p>second pass</p>",
+            "<p>first pass and second pass respectively</p>",
+            "<p>second pass and first pass respectively</p>",
+            "<p>first pass</p>"
+          ],
+          "correct_answer": "<p>second pass and first pass respectively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331377/isro-cse-2020-question-14\" target=\"_blank\">https://gateoverflow.in/331377/isro-cse-2020-question-14</a></p>"
+        }
+      ]
+    }
+  ]
+});

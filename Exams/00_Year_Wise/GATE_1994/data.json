@@ -1,0 +1,371 @@
+{
+  "title": "Year_Wise - GATE_1994",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_1994",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>FORTRAN implementation do not permit recursion because</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>they use static allocation for variables</p>",
+            "<b>B.</b> <p>they use dynamic allocation for variables</p>",
+            "<b>C.</b> <p>stacks are not available on all machines</p>",
+            "<b>D.</b> <p>it is not possible to implement recursion on all machines</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>they use static allocation for variables</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2437/gate1994-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let A and B be real symmetric matrices of size \\(n \\times n\\). Then which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(AA'=I\\)</p>",
+            "<b>B.</b> <p>\\(A=A^{-1}\\)</p>",
+            "<b>C.</b> <p>\\(AB=BA\\)</p>",
+            "<b>D.</b> <p>\\((AB)'=BA\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((AB)'=BA\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2438/gate1994-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Backward Euler method for solving the differential equation \\(\\frac{dy}{dx}=f(x, y)\\) is specified by, (choose one of the following).</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(y_{n+1}=y_n+hf(x_n, y_n)\\)</p>",
+            "<b>B.</b> <p>\\(y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})\\)</p>",
+            "<b>C.</b> <p>\\(y_{n+1}=y_{n-1}+2hf(x_n, y_n)\\)</p>",
+            "<b>D.</b> <p>\\(y_{n+1}= (1+h)f(x_{n+1}, y_{n+1})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2439/gate1994-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let A and B be any two arbitrary events, then, which one of the following is TRUE?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P (A \\cap B) = P(A)P(B)\\)</p>",
+            "<b>B.</b> <p>\\(P (A \\cup B) = P(A)+P(B)\\)</p>",
+            "<b>C.</b> <p>\\(P (A \\mid B) = P(A \\cap B)P(B)\\)</p>",
+            "<b>D.</b> <p>\\(P (A \\cup B) \\leq P(A) + P(B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P (A \\cup B) \\leq P(A) + P(B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>An unrestricted use of the \"goto\" statement is harmful because</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it makes it more difficult to verify programs</p>",
+            "<b>B.</b> <p>it increases the running time of the programs</p>",
+            "<b>C.</b> <p>it increases the memory required for the programs</p>",
+            "<b>D.</b> <p>it results in the compiler generating longer machine code</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>it makes it more difficult to verify programs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2442/gate1994-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The number of distinct simple graphs with up to three nodes is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The recurrence relation that arises in relation with the complexity of binary search is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n) = 2T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }\\)</p>",
+            "<b>B.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }\\)</p>",
+            "<b>C.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+\\log n\\)</p>",
+            "<b>D.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2444/gate1994-1-7-isro2017-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The logic expression for the output of the circuit shown in figure below is:<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1994\\q1.8_4e7f60ef.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\overline{AC} + \\overline{BC} +CD\\)</p>",
+            "<b>B.</b> <p>\\(\\overline{A}C + \\overline{B}C + CD\\)</p>",
+            "<b>C.</b> <p>\\(ABC +\\overline {C}\\; \\overline{D}\\)</p>",
+            "<b>D.</b> <p>\\(\\overline{A}\\; \\overline{B} + \\overline{B}\\; \\overline{C} +CD\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\overline{A}C + \\overline{B}C + CD\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2445/gate1994-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The rank of matrix \\(\\begin{bmatrix} 0 &amp; 0 &amp; -3 \\\\ 9 &amp; 3 &amp; 5 \\\\ 3 &amp; 1 &amp; 1 \\end{bmatrix}\\)is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2446/gate1994-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Some group (G, o) is known to be abelian. Then, which one of the following is true for G?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g=g^{-1} \\text{ for every } g \\in G\\)</p>",
+            "<b>B.</b> <p>\\(g=g^2 \\text{ for every }g \\in G\\)</p>",
+            "<b>C.</b> <p>\\((goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G\\)</p>",
+            "<b>D.</b> <p>G is of finite order</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2451/gate1994-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>In a compact single dimensional array representation for lower triangular matrices (i.e all the elements above the diagonal are zero) of size \\(n \\times n\\), non-zero elements, (i.e elements of lower triangle) of each row are stored one after another, starting from the first row, the index of the \\((i, j)^{th}\\) element of the lower triangular matrix in this new representation is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(i+j\\)</p>",
+            "<b>B.</b> <p>\\(i+j-1\\)</p>",
+            "<b>C.</b> <p>\\((j-1)+\\frac{i(i-1)}{2}\\)</p>",
+            "<b>D.</b> <p>\\(i+\\frac{j(j-1)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((j-1)+\\frac{i(i-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2452/gate1994-1-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Generation of intermediate code based on an abstract machine model is useful in compilers because</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it makes implementation of lexical analysis and syntax analysis easier</p>",
+            "<b>B.</b> <p>syntax-directed translations can be written for intermediate code generation</p>",
+            "<b>C.</b> <p>it enhances the portability of the front end of the compiler</p>",
+            "<b>D.</b> <p>it is not possible to generate code for real machines directly from high level language programs</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>it enhances the portability of the front end of the compiler</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2453/gate1994-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A memory page containing a heavily used variable that was initialized very early and is in constant use is removed then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LRU page replacement algorithm is used</p>",
+            "<b>B.</b> <p>FIFO page replacement algorithm is used</p>",
+            "<b>C.</b> <p>LFU page replacement algorithm is used</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>FIFO page replacement algorithm is used</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2454/gate1994-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following permutations can be obtained in the output (in the same order) using a stack assuming that the input is the sequence 1, 2, 3, 4, 5 in that order?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3, 4, 5, 1, 2</p>",
+            "<b>B.</b> <p>3, 4, 5, 2, 1</p>",
+            "<b>C.</b> <p>1, 5, 2, 3, 4</p>",
+            "<b>D.</b> <p>5, 4, 3, 1, 2</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3, 4, 5, 2, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2457/gate1994-1-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number of substrings (of all lengths inclusive) that can be formed from a character string of length n is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n\\)</p>",
+            "<b>B.</b> <p>\\(n^2\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{n(n+1)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{n(n+1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2458/gate1994-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Which of the following conversions is not possible (algorithmically)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Regular grammar to context free grammar</p>",
+            "<b>B.</b> <p>Non-deterministic FSA to deterministic FSA</p>",
+            "<b>C.</b> <p>Non-deterministic PDA to deterministic PDA</p>",
+            "<b>D.</b> <p>Non-deterministic Turing machine to deterministic Turing machine</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Non-deterministic PDA to deterministic PDA</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2459/gate1994-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Linked lists are not suitable data structures for which one of the following problems?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Insertion sort</p>",
+            "<b>B.</b> <p>Binary search</p>",
+            "<b>C.</b> <p>Radix sort</p>",
+            "<b>D.</b> <p>Polynomial manipulation</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Binary search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2460/gate1994-1-17-ugcnet-sep2013-ii-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which of the following features cannot be captured by context-free grammars?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Syntax of if-then-else statements</p>",
+            "<b>B.</b> <p>Syntax of recursive procedures</p>",
+            "<b>C.</b> <p>Whether a variable has been declared before its use</p>",
+            "<b>D.</b> <p>Variable names of arbitrary length</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Whether a variable has been declared before its use</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2461/gate1994-1-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Algorithm design technique used in quicksort algorithm is?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Dynamic programming</p>",
+            "<b>B.</b> <p>Backtracking</p>",
+            "<b>C.</b> <p>Divide and conquer</p>",
+            "<b>D.</b> <p>Greedy method</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Divide and conquer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2462/gate1994-1-19-isro2016-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>In which of the following cases is it possible to obtain different results for call-by-reference and call-by-name parameter passing methods?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Passing a constant value as a parameter</p>",
+            "<b>B.</b> <p>Passing the address of an array as a parameter</p>",
+            "<b>C.</b> <p>Passing an array element as a parameter</p>",
+            "<b>D.</b> <p>Passing an array</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Passing an array element as a parameter</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/305/gate1994-1-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Which one of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Macro definitions cannot appear within other macro definitions in assembly language programs</p>",
+            "<b>B.</b> <p>Overlaying is used to run a program which is longer than the address space of a computer</p>",
+            "<b>C.</b> <p>Virtual memory can be used to accommodate a program which is longer than the address space of a computer</p>",
+            "<b>D.</b> <p>It is not possible to write interrupt service routines in a high level language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Macro definitions cannot appear within other macro definitions in assembly language programs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2464/gate1994-1-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Which of the following statements is false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Optimal binary search tree construction can be performed efficiently using dynamic programming</p>",
+            "<b>B.</b> <p>Breadth-first search cannot be used to find connected components of a graph</p>",
+            "<b>C.</b> <p>Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.</p>",
+            "<b>D.</b> <p>Depth-first search can be used to find connected components of a graph</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Breadth-first search cannot be used to find connected components of a graph</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2465/gate1994-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider the following two functions: <br>\\(g_1(n) = \\begin{cases} n^3 \\text{ for } 0 \\leq n \\leq 10,000 \\\\ n^2 \\text{ for } n \\geq 10,000 \\end{cases}\\)<br>\\(g_2(n) = \\begin{cases} n \\text{ for } 0 \\leq n \\leq 100 \\\\ n^3 \\text{ for } n &gt; 100 \\end{cases}\\)<br>Which of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g_1(n) \\text{ is } O(g_2(n))\\)</p>",
+            "<b>B.</b> <p>\\(g_1(n) \\text{ is } O(n^3)\\)</p>",
+            "<b>C.</b> <p>\\(g_2(n) \\text{ is } O(g_1(n))\\)</p>",
+            "<b>D.</b> <p>\\(g_2(n) \\text{ is } O(n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(g_1(n) \\text{ is } O(g_2(n))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2466/gate1994-1-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Consider the following heap (figure) in which blank regions are not in use and hatched region are in use.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1994\\q1.24_c629eb08.jpg\"><br>The sequence of requests for blocks of sizes 300, 25, 125, 50 can be satisfied if we use</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>either first fit or best fit policy (any one)</p>",
+            "<b>B.</b> <p>first fit but not best fit policy</p>",
+            "<b>C.</b> <p>best fit but not first fit policy</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>first fit but not best fit policy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2467/gate1994-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

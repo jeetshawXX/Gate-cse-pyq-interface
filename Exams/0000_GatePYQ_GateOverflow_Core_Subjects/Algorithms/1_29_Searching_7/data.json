@@ -1,0 +1,110 @@
+{
+  "title": "Algorithms - Searching",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Searching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2770\"></a><div itemprop=\"text\"><p>Consider the following program that attempts to locate an element \\( x \\) in an array \\( a[ ] \\) using binary search. Assume \\( N &gt; 1 \\). The program is erroneous. Under what conditions does the program fail?</p>\n\n<pre class=\"prettyprint lang-c_cpp\">var i,j,k: integer; x: integer;\n    a: array; [1..N] of integer;\nbegin\ti:= 1; j:= n;\nrepeat\t\n    k:(i+j) div 2;\n    if a[k] &lt; x then i:= k\n    else j:= k\nuntil (a[k] = x) or (i &gt;= j);\n    \nif (a[k] = x) then\n    writeln ('x is in the array')\nelse\n    writeln ('x is not in the array')\nend;\n</pre></div><br><br><b>GATE CSE 1996 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2770/gate-cse-1996-question-18\" target=\"_blank\">https://gateoverflow.in/2770/gate-cse-1996-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2742\"></a><div itemprop=\"text\"><p>The average number of key comparisons required for a successful search for sequential search on \\( n \\) items is</p></div><br><br><b>GATE CSE 1996 | Question: 2.13,  ISRO2016-28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\dfrac{n}{2} \\)</p>",
+            "<p>\\( \\dfrac{n-1}{2} \\)</p>",
+            "<p>\\( \\dfrac{n+1}{2} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\dfrac{n+1}{2} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2742/gate-cse-1996-question-2-13-isro2016-28\" target=\"_blank\">https://gateoverflow.in/2742/gate-cse-1996-question-2-13-isro2016-28</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"840\"></a><div itemprop=\"text\"><p>Consider the following algorithm for searching for a given number \\( x \\) in an unsorted array \\( A[1..n] \\) having \\( n \\) distinct values:</p>\n\n<ol>\n\t<li>Choose an \\( i \\) at random from \\( 1..n \\)</li>\n\t<li>If \\( A[i] = x \\), then Stop else Goto 1;</li>\n</ol>\n\n<p>Assuming that \\( x \\) is present in \\( A \\), what is the expected number of comparisons made by the algorithm before it terminates?</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( n \\)</p>",
+            "<p>\\( n-1 \\)</p>",
+            "<p>\\( 2n \\)</p>",
+            "<p>\\( \\frac{n}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( n \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/840/gate-cse-2002-question-2-10\" target=\"_blank\">https://gateoverflow.in/840/gate-cse-2002-question-2-10</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"394\"></a><div itemprop=\"text\"><p>Consider the following C program that attempts to locate an element \\( x \\) in an&nbsp;array \\( Y[ \\ ] \\) using binary search. The program is erroneous.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp linenums\"> f (int Y[10] , int x) {\n    int i, j, k;\n    i= 0; j = 9;\n    do {\n        k = (i+ j) / 2;\n        if( Y[k] &lt; x) i = k;else j = k;\n        } while (Y[k] != x) &amp;&amp; (i &lt; j)) ;\n    if(Y[k] == x) printf(\" x is in the array \") ;\n    else printf(\" x is not in the array \") ;\n }</pre>\n\n<p>On which of the following contents of \\( Y \\) and \\( x \\) does the program fail?&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 84</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( Y \\) is \\( [1 \\ 2 \\ 3 \\ 4 \\ 5 \\ 6 \\ 7 \\ 8 \\ 9 \\ 10] \\) and \\( x &lt; 10  \\)&nbsp;&nbsp;</p>",
+            "<p>\\( Y \\) is \\( [1 \\ 3 \\ 5 \\ 7 \\&nbsp;9&nbsp;\\ 11&nbsp; &nbsp;\\ 13 \\ 15 \\ 17 \\ 19] \\) and \\( x &lt; 1  \\)&nbsp;</p>",
+            "<p>\\( Y \\) is \\( [2 \\&nbsp; 2 \\ 2 \\&nbsp;2 \\&nbsp; 2 \\&nbsp; 2 \\&nbsp; 2 \\ 2 \\ 2 \\ 2] \\) and \\( x &gt; 2 \\)&nbsp;</p>",
+            "<p>\\( Y \\) is \\( [2 \\ 4 \\ 6 \\ 8 \\ 10 \\ 12 \\ 14 \\ 16 \\ 18 \\ 20] \\) and \\(  2 &lt; x &lt; 20 \\) and \\( x \\) is even</p>"
+          ],
+          "correct_answer": "<p>\\( Y \\) is \\( [2 \\&nbsp; 2 \\ 2 \\&nbsp;2 \\&nbsp; 2 \\&nbsp; 2 \\&nbsp; 2 \\ 2 \\ 2 \\ 2] \\) and \\( x &gt; 2 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/394/gate-cse-2008-question-84\" target=\"_blank\">https://gateoverflow.in/394/gate-cse-2008-question-84</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"43508\"></a><div itemprop=\"text\"><p>Consider the following C program that attempts to locate an element \\( x \\)&nbsp;in an array \\( Y[ \\ ] \\)&nbsp;using binary search. The program is erroneous.&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\"> f (int Y[10] , int x) {\n    int i, j, k;\n    i= 0; j = 9;\n    do {\n        k = (i + j) / 2;\n        if( Y[k] &lt; x) i = k;else j = k;\n        } while (Y[k] != x) &amp;&amp; (i &lt; j)) ;\n    if(Y[k] == x) printf(\" x is in the array \") ;\n    else printf(\" x is not in the array \") ;\n }</pre>\n\n<p>The correction needed in the program to make it work properly is&nbsp;</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 85</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Change line 6 to:&nbsp;if \\( (Y[k] &lt; x) i = k + 1 \\); else \\( j = k-1 \\);&nbsp;</p>",
+            "<p>Change line 6 to:&nbsp;if \\( (Y[k] &lt; x) i = k - 1 \\); else \\(  j = k +1 \\);&nbsp;</p>",
+            "<p>Change line 6 to:&nbsp;if \\( (Y[k] &lt; x) i = k \\); else \\( j = k \\);</p>",
+            "<p>Change line 7 to:&nbsp;} while \\( ((Y[k] == x) \\&amp;\\&amp; (i &lt; j)) \\) ;</p>"
+          ],
+          "correct_answer": "<p>Change line 6 to:&nbsp;if \\( (Y[k] &lt; x) i = k + 1 \\); else \\( j = k-1 \\);&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/43508/gate-cse-2008-question-85\" target=\"_blank\">https://gateoverflow.in/43508/gate-cse-2008-question-85</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"118331\"></a><div itemprop=\"text\"><p>Let&nbsp;\\( A \\) be an array of \\( 31 \\) numbers consisting of a sequence of \\( 0 \\)'s followed by a sequence of \\( 1 \\)'s. The problem is to find the smallest index&nbsp;\\( i \\) such that&nbsp;\\( A\\left [i \\right ] \\) is \\( 1 \\) by probing the minimum number of locations in&nbsp;\\( A \\). The&nbsp;<em>worst case&nbsp;</em>number of probes performed by an&nbsp;<em>optimal&nbsp;</em>algorithm is ____________.</p></div><br><br><b>GATE CSE 2017 Set 1 | Question: 48</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118331/gate-cse-2017-set-1-question-48\" target=\"_blank\">https://gateoverflow.in/118331/gate-cse-2017-set-1-question-48</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"460816\"></a><div itemprop=\"text\"><p>​​​​Which of the following statements regarding Breadth First Search (BFS) and Depth First Search (DFS) on an undirected simple graph \\( G \\) is/are TRUE?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 19</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>A DFS tree of \\( G \\) is a Shortest Path tree of \\( G \\).</p>",
+            "<p>Every non-tree edge of \\( G \\) with respect to a DFS tree is a forward/back edge.</p>",
+            "<p>If \\( (u, v) \\) is a non-tree edge of \\( G \\) with respect to a BFS tree, then the distances from the source vertex \\( s \\) to \\( u \\) and \\( v \\) in the BFS tree are within \\( \\pm 1 \\) of each other.</p>",
+            "<p>Both BFS and DFS can be used to find the connected components of \\( G \\).</p>"
+          ],
+          "correct_answer": [
+            "<p>Every non-tree edge of \\( G \\) with respect to a DFS tree is a forward/back edge.</p>",
+            "<p>If \\( (u, v) \\) is a non-tree edge of \\( G \\) with respect to a BFS tree, then the distances from the source vertex \\( s \\) to \\( u \\) and \\( v \\) in the BFS tree are within \\( \\pm 1 \\) of each other.</p>",
+            "<p>Both BFS and DFS can be used to find the connected components of \\( G \\).</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460816/gate-cse-2025-set-2-question-19\" target=\"_blank\">https://gateoverflow.in/460816/gate-cse-2025-set-2-question-19</a></p>"
+        }
+      ]
+    }
+  ]
+}

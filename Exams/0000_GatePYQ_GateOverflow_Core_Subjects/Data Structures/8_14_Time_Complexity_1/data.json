@@ -1,0 +1,26 @@
+{
+  "title": "Data Structures - Time Complexity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Time Complexity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"460807\"></a><div itemprop=\"text\"><p>​A meld operation on two instances of a data structure combines them into one single instance of the same data structure. Consider the following data structures:</p><p>P. Unsorted doubly linked list with pointers to the head node and tail node of the list.</p><p>Q. Min-heap implemented using an array.</p><p>R. Binary Search Tree.</p><p>Which ONE of the following options gives the worst-case time complexities for meld operation on instances of size \\( n \\) of these data structures?</p></div><br><br><b>GATE CSE 2025 | Set 2 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{P}: \\Theta(1), \\mathrm{Q}: \\Theta(n), \\mathrm{R}: \\Theta(n) \\)</p>",
+            "<p>\\( \\text{P} \\): \\( \\Theta(1), \\mathrm{Q}: \\Theta(n \\log n), \\mathrm{R}: \\Theta(n) \\)</p>",
+            "<p>\\( \\text{P} \\): \\( \\Theta(n), \\mathrm{Q}: \\Theta(n \\log n), \\mathrm{R}: \\Theta\\left(n^{2}\\right) \\)</p>",
+            "<p>\\( \\text{P} \\): \\( \\Theta(1), \\mathrm{Q}: \\Theta(n), \\mathrm{R}: \\Theta(n \\log n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{P}: \\Theta(1), \\mathrm{Q}: \\Theta(n), \\mathrm{R}: \\Theta(n) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460807/gate-cse-2025-set-2-question-28\" target=\"_blank\">https://gateoverflow.in/460807/gate-cse-2025-set-2-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+}

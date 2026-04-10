@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Quadratic Equations",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Quadratic Equations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"58274\"></a><div itemprop=\"text\">\n<p>The golden ratio \\( \\varphi \\) and its conjugate \\( \\bar{\\varphi} \\) both satisfy the equation</p>\n\n\n</div><br><br><b>Others: UGC NET CSE | June 2013 | Part 3 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( x^3 –x-1=0 \\)</p>",
+            "<p>\\( x^3 +x-1=0 \\)</p>",
+            "<p>\\( x^2 –x-1=0 \\)</p>",
+            "<p>\\( x^2 +x-1=0 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( x^2 –x-1=0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58274/ugc-net-cse-june-2013-part-3-question-11\" target=\"_blank\">https://gateoverflow.in/58274/ugc-net-cse-june-2013-part-3-question-11</a></p>"
+        }
+      ]
+    }
+  ]
+}

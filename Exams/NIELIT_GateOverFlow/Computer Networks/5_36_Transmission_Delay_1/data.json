@@ -1,0 +1,26 @@
+{
+  "title": "Computer Networks - Transmission Delay",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Transmission Delay",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373737\"></a><div itemprop=\"text\"><p>Consider two hosts \\( \\text{X} \\) and \\( \\text{Y} \\), connected by a single direct link of rate \\( 10^6\\; \\text{bits/sec} \\). The distance between the two hosts is \\( 10,000\\;\\text{km} \\) and the propagation speed along the link is \\( 2 \\times 10^8 \\;\\text{m/sec} \\). Host \\( \\text{X} \\) send a file of \\( 50,000\\;\\text{bytes} \\) as one large message to host \\( \\text{Y} \\) continuously. Let the transmission and propagation delays be \\(  \\text{p milliseconds} \\) and \\(  \\text{q milliseconds}, \\) respectively. Then the value of \\( \\text{p} \\) and \\( \\text{q} \\) are</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2022 April Scientist B | Section B | Question: 101</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{p}=50 \\) and \\( \\text{q}=100 \\)</p>",
+            "<p>\\( \\text{p}=50 \\) and \\( \\text{q}=400 \\)</p>",
+            "<p>\\( \\text{p}=100 \\) and \\( \\text{q}=50 \\)</p>",
+            "<p>\\( \\text{p}=400 \\) and \\( \\text{q}=50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{p}=400 \\) and \\( \\text{q}=50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373737/nielit-2022-april-scientist-b-section-b-question-101\" target=\"_blank\">https://gateoverflow.in/373737/nielit-2022-april-scientist-b-section-b-question-101</a></p>"
+        }
+      ]
+    }
+  ]
+}

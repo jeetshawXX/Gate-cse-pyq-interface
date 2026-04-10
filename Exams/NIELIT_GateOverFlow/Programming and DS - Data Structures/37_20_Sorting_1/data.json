@@ -1,0 +1,26 @@
+{
+  "title": "Programming and DS - Data Structures - Sorting",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Sorting",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351600\"></a><div itemprop=\"text\"><p>Which of the following techniques deals with sorting the data stored in the computer’s memory?</p>\n\n</div><br><br><b>Data Structures: NIELIT Scientist B 2020 November: 82</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Distribution sort</p>",
+            "<p>Internal sort</p>",
+            "<p>External sort</p>",
+            "<p>Radix sort</p>"
+          ],
+          "correct_answer": "<p>Internal sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351600/nielit-scientist-b-2020-november-82\" target=\"_blank\">https://gateoverflow.in/351600/nielit-scientist-b-2020-november-82</a></p>"
+        }
+      ]
+    }
+  ]
+}

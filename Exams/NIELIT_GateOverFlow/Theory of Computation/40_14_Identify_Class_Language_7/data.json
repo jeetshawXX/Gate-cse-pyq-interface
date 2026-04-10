@@ -1,0 +1,116 @@
+{
+  "title": "Theory of Computation - Identify Class Language",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Identify Class Language",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336716\"></a><div itemprop=\"text\"><p>Regarding power of recognition of language, which of the following statements is false?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Non deterministic finite-state automata are equivalent to deterministic finite-state automata.</p>",
+            "<p>Non-deterministic push-down automata&nbsp;are equivalent to deterministic push-down automata.</p>",
+            "<p>Non-deterministic&nbsp;Turing Machines are equivalent to deterministic push-down automata.</p>",
+            "<p>Multi-tape Turing Machines are equivalent to Single-tape Turing Machines.</p>"
+          ],
+          "correct_answer": "<p>Non-deterministic push-down automata&nbsp;are equivalent to deterministic push-down automata.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336716/nielit-2016-mar-scientist-b-section-c-25\" target=\"_blank\">https://gateoverflow.in/336716/nielit-2016-mar-scientist-b-section-c-25</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"337251\"></a><div itemprop=\"text\"><p>If every string of a language can be determined, whether it is legal or illegal in finite time, the language is called</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>decidable</p>",
+            "<p>undecidable</p>",
+            "<p>interpretive</p>",
+            "<p>non-deterministic</p>"
+          ],
+          "correct_answer": "<p>decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337251/nielit-2016-mar-scientist-c-section-c-14\" target=\"_blank\">https://gateoverflow.in/337251/nielit-2016-mar-scientist-c-section-c-14</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"337250\"></a><div itemprop=\"text\"><p>The defining language for developing a formalism in which language definitions can be stated, is called</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2016 MAR Scientist C</b></p>",
+          "type": "single",
+          "options": [
+            "<p>syntactic meta language</p>",
+            "<p>decidable language</p>",
+            "<p>intermediate language</p>",
+            "<p>high level language</p>"
+          ],
+          "correct_answer": "<p>syntactic meta language</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/337250/nielit-2016-mar-scientist-c-section-c-15\" target=\"_blank\">https://gateoverflow.in/337250/nielit-2016-mar-scientist-c-section-c-15</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"336815\"></a><div itemprop=\"text\"><p>A finite automaton accepts which type of language :&nbsp;</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Type \\( 0 \\)</p>",
+            "<p>Type \\( 1 \\)</p>",
+            "<p>Type \\( 2 \\)</p>",
+            "<p>Type \\( 3 \\)</p>"
+          ],
+          "correct_answer": "<p>Type \\( 3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336815/nielit-2017-dec-scientific-assistant-a-section-b-31\" target=\"_blank\">https://gateoverflow.in/336815/nielit-2017-dec-scientific-assistant-a-section-b-31</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"336257\"></a><div itemprop=\"text\"><p>Which of the following statement is <strong>true</strong>?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Deterministic context free language are closed under complement.</p>",
+            "<p>Deterministic context free language are not closed under Union.</p>",
+            "<p>Deterministic context free language are closed under intersection with regular set.</p>",
+            "<p>All of the options</p>"
+          ],
+          "correct_answer": "<p>All of the options</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336257/nielit-2017-dec-scientist-b-section-b-56\" target=\"_blank\">https://gateoverflow.in/336257/nielit-2017-dec-scientist-b-section-b-56</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"336255\"></a><div itemprop=\"text\"><p>Which of the following is a correct hierarchical relationships of the following where</p>\n\n<p>\\( L_1 \\): set of languages accepted by NFA</p>\n\n<p>\\( L_2 \\):&nbsp;set of languages accepted by DFA</p>\n\n<p>\\( L_3 \\):&nbsp;set of languages accepted by DPDA</p>\n\n<p>\\( L_4 \\):&nbsp;set of languages accepted by NPDA</p>\n\n<p>\\( L_5 \\):&nbsp;set of recursive&nbsp;language</p>\n\n<p>\\( L_6 \\):&nbsp;set of recursive enumerable languages?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_1,L_2\\subset&nbsp;L_3\\subset&nbsp;L_4\\subset&nbsp;L_5\\subset&nbsp;L_6 \\)</p>",
+            "<p>\\( L_1\\subset&nbsp;L_2\\subset&nbsp;L_3\\subset&nbsp;L_4\\subset&nbsp;L_5\\subset&nbsp;L_6 \\)</p>",
+            "<p>\\( L_2\\subset&nbsp;L_1\\subset&nbsp;L_3\\subset&nbsp;L_4\\subset&nbsp;L_5\\subset&nbsp;L_6 \\)</p>",
+            "<p>\\( L_1\\subset&nbsp;L_2\\subset&nbsp;L_3\\subset&nbsp;L_4\\subset&nbsp;L_6\\subset&nbsp;L_5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( L_1,L_2\\subset&nbsp;L_3\\subset&nbsp;L_4\\subset&nbsp;L_5\\subset&nbsp;L_6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336255/nielit-2017-dec-scientist-b-section-b-58\" target=\"_blank\">https://gateoverflow.in/336255/nielit-2017-dec-scientist-b-section-b-58</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"373746\"></a><div itemprop=\"text\"><p>\\( \\text{L1} \\) is a recursively enumerable language over \\( \\Sigma \\). An algorithm \\( A \\) effectively enumerates its words as \\( w_1, w_2, w_3, \\dots \\)&nbsp;Define another language \\( \\text{L2} \\) over \\( \\Sigma \\) Union \\( \\left\\{\\text{#}\\right\\} \\) as \\( \\left\\{wi \\text{#} wj : wi,&nbsp;wj \\in \\text{L1}, i &lt; j \\right\\} \\). Here # is new symbol. Consider the following assertions.</p>\n\n<ul>\n\t<li>\\( \\text{S1 : L1} \\) is recursive implies \\( \\text{L2} \\) is recursive</li>\n\t<li>\\( \\text{S2 : L2} \\) is recursive implies \\( \\text{L1} \\) is recursive</li>\n</ul>\n\n<p>Which of the following statements is true?</p>\n\n</div><br><br><b>Theory of Computation: NIELIT 2022 April Scientist B | Section B | Question: 92</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both \\( \\text{S1} \\) and \\( \\text{S2} \\) are true</p>",
+            "<p>\\( \\text{S1} \\) is true but \\( \\text{S2} \\) is not necessarily true</p>",
+            "<p>\\( \\text{S2} \\) is true but \\( \\text{S1} \\) is not necessarily true</p>",
+            "<p>Neither is necessarily true</p>"
+          ],
+          "correct_answer": "<p>Both \\( \\text{S1} \\) and \\( \\text{S2} \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373746/nielit-2022-april-scientist-b-section-b-question-92\" target=\"_blank\">https://gateoverflow.in/373746/nielit-2022-april-scientist-b-section-b-question-92</a></p>"
+        }
+      ]
+    }
+  ]
+}

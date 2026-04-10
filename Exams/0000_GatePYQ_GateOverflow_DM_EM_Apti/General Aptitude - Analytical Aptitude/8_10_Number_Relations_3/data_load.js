@@ -1,0 +1,51 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Number Relations",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Number Relations",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"422897\"></a><div itemprop=\"text\"><p>In the \\( 4 \\times 4 \\) array shown below, each cell of the first three rows has either a cross \\( (X) \\) or a number.</p><p><img alt=\"\" width=\"300\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___number_relations/aecfb1e9870fea4b6d3524ff0ed979ae.png\"><br>The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross ( \\( X \\) ). Given that the last row has no crosses \\( (X) \\), the sum of the four numbers to be filled in the last row is</p></div><br><br><b>GATE CSE 2024 | Set 2 | GA Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 11 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 9 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 11 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422897/gate-cse-2024-set-2-ga-question-10\" target=\"_blank\">https://gateoverflow.in/422897/gate-cse-2024-set-2-ga-question-10</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"313226\"></a><div itemprop=\"text\"><p>Fill in the missing value</p>\n\n<p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___number_relations/aa2c09e31b6b83ec6dbfe41b3e6e2608.png\"></p></div><br><br><b>GATE2015 EC-1: GA-8</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "3",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313226/gate2015-ec-1-ga-8\" target=\"_blank\">https://gateoverflow.in/313226/gate2015-ec-1-ga-8</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"313382\"></a><div itemprop=\"text\"><p>Each of the letters in the figure below represents a unique integer from \\( 1 \\) to \\( 9 \\). The letters are positioned in the figure such that each of \\( (A+B+C), (C+D+E), (E+F+G) \\) and \\( (G+H+K) \\) is equal to \\( 13 \\). Which integer does \\( E \\) represent?</p><p><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___number_relations/dc7af07d61e7504c12bf8b2b330c578e.png\"></p></div><br><br><b>GATE2018 CE-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313382/gate2018-ce-2-ga-10\" target=\"_blank\">https://gateoverflow.in/313382/gate2018-ce-2-ga-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,100 @@
+window.__examLoadCallback({
+  "title": "Engineering Mathematics - Linear Algebra - Vector Space",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Vector Space",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2625\"></a><div itemprop=\"text\"><p>A unit vector perpendicular to both the vectors \\( a=2i-3j+k \\) and \\( b=i+j-2k \\) is:</p>\n\n</div><br><br><b>GATE CSE 1995 | Question: 2.13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\frac{1}{\\sqrt{3}} (i+j+k) \\)</p>",
+            "<p>\\( \\frac{1}{3} (i+j-k) \\)</p>",
+            "<p>\\( \\frac{1}{3} (i-j-k) \\)</p>",
+            "<p>\\( \\frac{1}{\\sqrt{3}} (i+j-k) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{1}{\\sqrt{3}} (i+j+k) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2625/gate-cse-1995-question-2-13\" target=\"_blank\">https://gateoverflow.in/2625/gate-cse-1995-question-2-13</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1225\"></a><div itemprop=\"text\"><p>Consider the set of (column) vectors defined by\\[ X = \\left \\{x \\in R^3 \\mid x_1 + x_2 + x_3 = 0, \\text{ where } x^T = \\left[x_1,x_2,x_3\\right]^T\\right \\} \\].Which of the following is TRUE?</p>\n\n</div><br><br><b>GATE CSE 2007 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left\\{\\left[1,-1,0\\right]^T,\\left[1,0,-1\\right]^T\\right\\} \\) is a basis for the subspace \\( X \\).</p>",
+            "<p>\\( \\left\\{\\left[1,-1,0\\right]^T,\\left[1,0,-1\\right]^T\\right\\} \\) is a linearly independent set, but it does not span \\( X \\) and therefore is not a basis of \\( X \\).</p>",
+            "<p>\\( X \\) is not a subspace of \\( R^3 \\).</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\left\\{\\left[1,-1,0\\right]^T,\\left[1,0,-1\\right]^T\\right\\} \\) is a basis for the subspace \\( X \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1225/gate-cse-2007-question-27\" target=\"_blank\">https://gateoverflow.in/1225/gate-cse-2007-question-27</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2039\"></a><div itemprop=\"text\">If \\( V_1 \\) and \\( V_2 \\) are \\( 4 \\)-dimensional subspaces of a \\( 6 \\)-dimensional vector space \\( V \\), then the smallest possible dimension of \\( V_1 \\cap V_2 \\) is _____.</div><br><br><b>GATE CSE 2014 Set 3 | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "2",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2039/gate-cse-2014-set-3-question-5\" target=\"_blank\">https://gateoverflow.in/2039/gate-cse-2014-set-3-question-5</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"118311\"></a><div itemprop=\"text\"><p>Let \\( u \\) and \\( v \\) be two vectors in \\( \\mathbf{R}^{2} \\) whose Euclidean norms satisfy \\( \\left \\| u \\right \\| = 2\\left \\| v \\right \\| \\). What is the value of \\( \\alpha \\) such that \\( w = u + \\alpha v \\) bisects the angle between \\( u \\) and \\( v \\)?</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 30</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( \\frac{1}{2} \\)</p>",
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( \\frac{ -1}{2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118311/gate-cse-2017-set-1-question-30\" target=\"_blank\">https://gateoverflow.in/118311/gate-cse-2017-set-1-question-30</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"460994\"></a><div itemprop=\"text\"><p>Let \\( \\left\\{x_{1}, x_{2}, \\ldots, x_{n}\\right\\} \\) be a set of linearly independent vectors in \\( \\mathbb{R}^{n} \\). Let the \\( (i, j) \\)-th element of matrix \\( A \\in \\mathbb{R}^{n \\times n} \\) be given by \\( A_{i j}=x_{i}^{\\top} x_{j}, 1 \\leq i, j \\leq n \\). Which one of the following statements is correct?</p></div><br><br><b>GATE DA 2025 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\) is invertible</p>",
+            "<p>\\( 0 \\) is a singular value of \\( A \\)</p>",
+            "<p>Determinant of \\( A \\) is \\( 0 \\)</p>",
+            "<p>\\( z^{\\top} A z=0 \\) for some non-zero \\( z \\in \\mathbb{R}^{n} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( A \\) is invertible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/460994/gate-da-2025-question-28\" target=\"_blank\">https://gateoverflow.in/460994/gate-da-2025-question-28</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"422923\"></a><div itemprop=\"text\"><p>​​​​​Let \\( \\mathbb{R} \\) be the set of real numbers, \\( U \\) be a subspace of \\( \\mathbb{R}^{3} \\) and \\( \\text{M} \\in \\mathbb{R}^{3 \\times 3} \\) be the matrix corresponding to the projection on to the subspace \\( U \\).</p><p>Which of the following statements is/are TRUE?</p><p>&nbsp;</p></div><br><br><b>GATE DS&AI 2024 | Question: 39</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>If \\( U \\) is a \\( 1 \\)-dimensional subspace of \\( \\mathbb{R}^{3} \\), then the null space of \\( \\text{M} \\) is a \\( 1 \\)-dimensional subspace.</p>",
+            "<p>If \\( U \\) is a \\( 2 \\)-dimensional subspace of \\( \\mathbb{R}^{3} \\), then the null space of \\( \\text{M} \\) is a \\( 1 \\)-dimensional subspace.</p>",
+            "<p>\\( M^{2}=M \\)</p>",
+            "<p>\\( M^{3}=M \\)</p>"
+          ],
+          "correct_answer": [
+            "<p>If \\( U \\) is a \\( 2 \\)-dimensional subspace of \\( \\mathbb{R}^{3} \\), then the null space of \\( \\text{M} \\) is a \\( 1 \\)-dimensional subspace.</p>",
+            "<p>\\( M^{2}=M \\)</p>",
+            "<p>\\( M^{3}=M \\)</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/422923/gate-ds&ai-2024-question-39\" target=\"_blank\">https://gateoverflow.in/422923/gate-ds&ai-2024-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+});

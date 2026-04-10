@@ -1,0 +1,71 @@
+{
+  "title": "Computer Networks - Congestion Control",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Congestion Control",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336835\"></a><div itemprop=\"text\"><p>Closed - Loop control mechanism try to :</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Remove congestion after it occurs</p>",
+            "<p>Remove congestion after sometime</p>",
+            "<p>Prevent congestion before it occurs</p>",
+            "<p>Prevent congestion before sending packets</p>"
+          ],
+          "correct_answer": "<p>Remove congestion after it occurs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336835/nielit-2017-dec-scientific-assistant-a-section-b-11\" target=\"_blank\">https://gateoverflow.in/336835/nielit-2017-dec-scientific-assistant-a-section-b-11</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336803\"></a><div itemprop=\"text\"><p>When we use slow-start algorithm, the size of the congestion window increases _______ until it reaches a threshold.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Additively</p>",
+            "<p>Multiplicatively</p>",
+            "<p>Exponentially</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Exponentially</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336803/nielit-2017-dec-scientific-assistant-a-section-b-43\" target=\"_blank\">https://gateoverflow.in/336803/nielit-2017-dec-scientific-assistant-a-section-b-43</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351373\"></a><div itemprop=\"text\"><p>Why does congestion occur?</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientific Assistant A 2020 November: 87</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Because the routers and switches have tables</p>",
+            "<p>Because the routers and switches have queues</p>",
+            "<p>Because the routers and switches have cross-points</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>None of the options</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351373/nielit-scientific-assistant-a-2020-november-87\" target=\"_blank\">https://gateoverflow.in/351373/nielit-scientific-assistant-a-2020-november-87</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"351584\"></a><div itemprop=\"text\"><p>In the congestion avoidance algorithm, the size of the congestion window increases _________ until congestion is detected.</p>\n\n</div><br><br><b>Computer Networks: NIELIT Scientist B 2020 November: 98</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Exponentially</p>",
+            "<p>Additively</p>",
+            "<p>Multiplicatively</p>",
+            "<p>Suddenly</p>"
+          ],
+          "correct_answer": "<p>Additively</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351584/nielit-scientist-b-2020-november-98\" target=\"_blank\">https://gateoverflow.in/351584/nielit-scientist-b-2020-november-98</a></p>"
+        }
+      ]
+    }
+  ]
+}

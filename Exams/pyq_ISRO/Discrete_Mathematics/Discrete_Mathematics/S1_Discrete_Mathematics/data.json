@@ -1,0 +1,236 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>If \\(A=\\{x, y, z\\}\\) and \\(B=\\{u, v, w, x\\}\\), and the universe is \\(\\{s, t, u, v, w, x, y, z\\}\\). Then \\((A \\cup \\bar{B}) \\cap(A \\cap B)\\) is equal to <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{u,v,w,x\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{x\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{u,v,w,x,y,z\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{u,v,w\\}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{x\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: This question is Excluded\nfor\nevaluation. Originally all Options are wrong. We have modified one option.<br>\n<br><a href=\"https://gateoverflow.in/331305/isro2020-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Given that<br>B(a)  means \"a is a bear\"<br>F(a)  means \"a is a fish\" and<br>E(a,b)  means \"a eats b\"<br>Then what is the best meaning of<br>\\(\\forall x[F(x) \\rightarrow \\forall y(E(y, x) \\rightarrow b(y))]\\) <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every fish is eaten by some bear</p>",
+            "<b>B.</b> <p>Bears eat only fish</p>",
+            "<b>C.</b> <p>Every bear eats fish</p>",
+            "<b>D.</b> <p>Only bears eat fish</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only bears eat fish</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331314/isro2020-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>For the distributions given below :<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Discrete_Mathematics\\q56_52f2f910.jpg\"><br>Which of the following is correct for the above distributions? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Standard deviation of A is significantly lower than standard deviation of B</p>",
+            "<b>B.</b> <p>Standard deviation of A is slightly lower than standard deviation of B</p>",
+            "<b>C.</b> <p>Standard deviation of A is same as standard deviation of B</p>",
+            "<b>D.</b> <p>Standard deviation of A is significantly higher than standard deviation of B</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Standard deviation of A is same as standard deviation of B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331489/isro2020-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>G  is an undirected graph with vertex set {v1, v2, v3, v4, v5, v6, v7} and edge set {v1v2, v1v3, v1v4 ,v2v4, v2v5, v3v4, v4v5, v4v6, v5v6, v6v7 }. A breadth first search of the graph is performed with v1 as the root node. Which of the following is a tree edge? <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>v2v4</p>",
+            "<b>B.</b> <p>v1v4</p>",
+            "<b>C.</b> <p>v4v5</p>",
+            "<b>D.</b> <p>v3v4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>v1v4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331350/isro2020-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The time complexity of computing the transitive closure of binary relation on a set of n elements is known to be <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(n * \\log (n))\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{\\frac{3}{2}}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213532/isro2018-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The number of edges in a regular graph of degree: d and n vertices is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>maximum of n and d</p>",
+            "<b>B.</b> <p>n+d</p>",
+            "<b>C.</b> <p>nd</p>",
+            "<b>D.</b> <p>nd/2</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>nd/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213550/isro2018-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following is application of Breath First Search on the graph? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finding diameter of the graph</p>",
+            "<b>B.</b> <p>Finding bipartite graph</p>",
+            "<b>C.</b> <p>Both (A) and (B)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both (A) and (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213555/isro2018-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>(G,*)  is an abelian group. Then <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x=x^{-1}\\) for any x belonging to G</p>",
+            "<b>B.</b> <p>\\(x=x^{2}\\) for any x belonging to G</p>",
+            "<b>C.</b> <p>\\((x * y)^{2}=x^{2} * y^{2}\\) , for any x,y belonging to G</p>",
+            "<b>D.</b> <p>G is of finite order</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((x * y)^{2}=x^{2} * y^{2}\\) , for any x,y belonging to G</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213571/isro2018-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The following paradigm can be used to find the solution of the problem in minimum time:<br>Given a set of non-negative integer and a value K, determine if there is a subset of the given set with sum equal to K: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Divide and Conquer</p>",
+            "<b>B.</b> <p>Dynamic Programming</p>",
+            "<b>C.</b> <p>Greedy Algorithm</p>",
+            "<b>D.</b> <p>Branch and Bound</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Dynamic Programming</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213572/isro2018-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A class of 30 students occupy a classroom containing 5 rows of seats, with 8 seats in each row. If the students seat themselves at random, the probability that sixth seat in the fifth row will be empty is: <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/5\\)</p>",
+            "<b>B.</b> <p>\\(1/3\\)</p>",
+            "<b>C.</b> <p>\\(1/4\\)</p>",
+            "<b>D.</b> <p>\\(2/5\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(1/4\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213574/isro2018-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>The time complexity of computing the transitive closure of a binary relation on a set of \\(n\\) elements is known to be <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>B.</b> <p>\\(O\\left(n^{3 / 2}\\right)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+            "<b>D.</b> <p>\\(O(n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O\\left(n^{3}\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128781/isro2017-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which one of the following Boolean expressions is NOT a tautology? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a \\rightarrow b) \\wedge(b \\rightarrow c)) \\rightarrow(a \\rightarrow c)\\)</p>",
+            "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+            "<b>C.</b> <p>\\((a \\wedge b \\wedge c) \\rightarrow(c \\vee a)\\)</p>",
+            "<b>D.</b> <p>\\(a \\rightarrow(b \\rightarrow a)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((a \\leftrightarrow c) \\rightarrow(\\sim b \\rightarrow(a \\wedge c))\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128691/isro2017-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The symmetric difference of sets A={1,2,3,4,5,6,7,8} and B={1,3,5,6,7,8,9} is: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{1,3,5,6,7,8}</p>",
+            "<b>B.</b> <p>{2,4,9}</p>",
+            "<b>C.</b> <p>{2,4}</p>",
+            "<b>D.</b> <p>{1,2,3,4,5,6,7,8,9}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{2,4,9}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128555/isro2017-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let \\(A\\) and \\(B\\) be any two arbitrary events, then, which one of the following is TRUE? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P(A \\cap B)=P(A) P(B)\\)</p>",
+            "<b>B.</b> <p>\\(P(A \\cup B)=P(A)+P(B)\\)</p>",
+            "<b>C.</b> <p>\\(P(A \\mid B)=P(A \\cap B) P(B)\\)</p>",
+            "<b>D.</b> <p>\\(P(A \\cup B) \\leq P(A)+P(B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P(A \\cup B) \\leq P(A)+P(B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The maximum number of edges in a n-node undirected graph without self loops is <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>\\(\\frac{(n+1)(n)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/830/gate2002-1-25-isro2008-30-isro2016-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

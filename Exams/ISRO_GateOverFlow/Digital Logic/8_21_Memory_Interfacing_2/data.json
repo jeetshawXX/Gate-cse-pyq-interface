@@ -1,0 +1,41 @@
+{
+  "title": "Digital Logic - Memory Interfacing",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Memory Interfacing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"1299\"></a><div itemprop=\"text\"><p>How many \\( 32K \\times&nbsp;1 \\) RAM chips are needed to provide a memory capacity of \\(  256K \\) bytes?</p>\n\n</div><br><br><b>Digital Logic: GATE CSE 2009 | Question: 7, ISRO2015</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>\\( 128 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 64 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1299/gate-cse-2009-question-7-isro2015-3\" target=\"_blank\">https://gateoverflow.in/1299/gate-cse-2009-question-7-isro2015-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"15028\"></a><div itemprop=\"text\"><p>Suppose you want to build a memory with \\( 4 \\) byte words and a capacity of \\( 2^{21} \\) bits. What is type of decoder required if the memory is built using \\( 2K \\times \\) \\( 8 \\) \\( \\text{RAM} \\) chips?</p>\n\n</div><br><br><b>Digital Logic: ISRO CSE 2014 | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{5 to 32} \\)</p>",
+            "<p>\\( \\text{6 to 64} \\)</p>",
+            "<p>\\( \\text{4 to 16} \\)</p>",
+            "<p>\\( \\text{7 to 128} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{5 to 32} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/15028/isro-cse-2014-question-25\" target=\"_blank\">https://gateoverflow.in/15028/isro-cse-2014-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+}

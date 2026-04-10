@@ -1,0 +1,111 @@
+{
+  "title": "Programming and DS - DS - Binary Tree",
+  "duration": 19,
+  "sections": [
+    {
+      "name": "Binary Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"152857\"></a><div itemprop=\"text\">If the number of leaves in a strictly binary tree is an odd number, then what can you say with full conviction about total number of nodes in the tree ?<br>\n(A) It is an odd number.<br>\n(B) It is an even number.<br>\n(C) It cannot be equal to the number of leaves.<br>\n(D) It is always greater than twice the number of leaves.</div><br><br><b>Data Structures: UGC NET CSE | December 2009 | Part 2 | Question: 21</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152857/ugc-net-cse-december-2009-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/152857/ugc-net-cse-december-2009-part-2-question-21</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"154370\"></a><div itemprop=\"text\"><p>In a full binary tree of height k, there are ______ internal nodes .</p></div><br><br><b>Data Structures: UGC NET CSE | June 2009 | Part 2 | Question: 27</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>2k-1&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>2k-1&nbsp; &nbsp; &nbsp;</p>",
+            "<p>2k&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+            "<p>2k+1</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/154370/ugc-net-cse-june-2009-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/154370/ugc-net-cse-june-2009-part-2-question-27</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"55849\"></a><div itemprop=\"text\"><p>The Inorder traversal of the tree will yield a sorted listing of elements of tree in</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2012 | Part 2 | Question: 27</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Binary tree</p>",
+            "<p>Binary search tree</p>",
+            "<p>Heaps</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>Binary search tree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55849/ugc-net-cse-june-2012-part-2-question-27\" target=\"_blank\">https://gateoverflow.in/55849/ugc-net-cse-june-2012-part-2-question-27</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"55613\"></a><div itemprop=\"text\">\n<p>A binary search tree is a binary tree in which</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | June 2012 | Part 2 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>All items in the left subtree are less than root</p>",
+            "<p>All items in the right subtree are greater than or equal to root</p>",
+            "<p>Each subtree is itself a binary search tree</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55613/ugc-net-cse-june-2012-part-2-question-8\" target=\"_blank\">https://gateoverflow.in/55613/ugc-net-cse-june-2012-part-2-question-8</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"349650\"></a><div itemprop=\"text\"><p>A complete \\( n \\)-ary tree is a tree in which each node has \\( n \\) children or no children. Let \\( I \\) be the number of internal nodes and \\( L \\) be the number of leaves in a complete \\( n \\)-ary tree. If \\( L=41 \\), and \\( I=10 \\), what is the value of \\( n \\)?</p>\n\n</div><br><br><b>Data Structures: UGC NET CSE | October 2020 | Part 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349650/ugc-net-cse-october-2020-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/349650/ugc-net-cse-october-2020-part-2-question-23</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"49356\"></a><div itemprop=\"text\">\n<p>The min. number of nodes in a binary tree of depth d (root at level 0) is</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | September 2013 | Part 2 | Question: 11</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( (2^d + 1) \\)</p>",
+            "<p>\\( (2^{(d+1)} - 1) \\)</p>",
+            "<p>\\( d \\)</p>",
+            "<p>\\( d + 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( d \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49356/ugc-net-cse-september-2013-part-2-question-11\" target=\"_blank\">https://gateoverflow.in/49356/ugc-net-cse-september-2013-part-2-question-11</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"59073\"></a><div itemprop=\"text\">\n<p>Consider the In-order and Post-order traversals of a tree as given below:</p>\n\n<p>In-order: j e n k o p b f a c l g m d h i</p>\n\n<p>Post-order: j n o p k e f b c l m g h I d a</p>\n\n<p>The Pre-order traversal of the tree shall be</p>\n\n\n</div><br><br><b>Data Structures: UGC NET CSE | September 2013 | Part 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a b f e j k n o p c d g l m h i</p>",
+            "<p>a b c d e f j k n o p g l m h i</p>",
+            "<p>a b e j k n o p f c d g l m h i</p>",
+            "<p>j e n o p k f b c l m g h I d a</p>"
+          ],
+          "correct_answer": "<p>a b e j k n o p f c d g l m h i</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59073/ugc-net-cse-september-2013-part-2-question-21\" target=\"_blank\">https://gateoverflow.in/59073/ugc-net-cse-september-2013-part-2-question-21</a></p>"
+        }
+      ]
+    }
+  ]
+}

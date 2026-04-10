@@ -1,0 +1,242 @@
+{
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 26",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The number of substrings (of all lengths inclusive) that can be formed from a character string of length n is <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n\\)</p>",
+            "<b>B.</b> <p>\\(n^2\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{n(n+1)}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\frac{n(n+1)}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2458/gate1994-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Some group (G, o) is known to be abelian. Then, which one of the following is true for G? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g=g^{-1} \\text{ for every } g \\in G\\)</p>",
+            "<b>B.</b> <p>\\(g=g^2 \\text{ for every }g \\in G\\)</p>",
+            "<b>C.</b> <p>\\((goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G\\)</p>",
+            "<b>D.</b> <p>G is of finite order</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\((goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2451/gate1994-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number of distinct simple graphs with up to three nodes is <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Let A and B be any two arbitrary events, then, which one of the following is TRUE? <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P (A \\cap B) = P(A)P(B)\\)</p>",
+            "<b>B.</b> <p>\\(P (A \\cup B) = P(A)+P(B)\\)</p>",
+            "<b>C.</b> <p>\\(P (A \\mid B) = P(A \\cap B)P(B)\\)</p>",
+            "<b>D.</b> <p>\\(P (A \\cup B) \\leq P(A) + P(B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(P (A \\cup B) \\leq P(A) + P(B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let A and B be sets with cardinalities m and n respectively. The number of one-one mappings from A to B, when \\(m \\lt n\\), is <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m^n\\)</p>",
+            "<b>B.</b> <p>\\(^nP_m\\)</p>",
+            "<b>C.</b> <p>\\(^mC_n\\)</p>",
+            "<b>D.</b> <p>\\(^nC_m\\)</p>",
+            "<b>E.</b> <p>\\(^mP_n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(^nP_m\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2304/gate1993-8-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The less-than relation, \\(\\lt\\), on reals is <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a partial ordering since it is asymmetric and reflexive</p>",
+            "<b>B.</b> <p>a partial ordering since it is antisymmetric and reflexive</p>",
+            "<b>C.</b> <p>not a partial ordering because it is not asymmetric and not reflexive</p>",
+            "<b>D.</b> <p>not a partial ordering because it is not antisymmetric and reflexive</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>E.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2303/gate1993-8-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let A be a finite set of size n. The number of elements in the power set of \\(A\\times A\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{2^n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n^2}\\)</p>",
+            "<b>C.</b> <p>\\((2^n)^2\\)</p>",
+            "<b>D.</b> <p>\\((2^2)^n\\)</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2^{n^2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2302/gate1993-8-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let S be an infinite set and \\(S_1 \\dots , S_n\\) be sets such that \\(S_1 \\cup S_2 \\cup \\dots \\cup S_n = S\\). Then <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>at least one of the set \\(S_i\\) is a finite set</p>",
+            "<b>B.</b> <p>not more than one of the set \\(S_i\\) can be finite</p>",
+            "<b>C.</b> <p>at least one of the sets \\(S_i\\) is an infinite</p>",
+            "<b>D.</b> <p>not more than one of the sets \\(S_i\\) can be infinite</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>at least one of the sets \\(S_i\\) is an infinite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2301/gate1993-8-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The proposition \\(p \\wedge (\\sim p \\vee q)\\) is: <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a tautology</p>",
+            "<b>B.</b> <p>logically equivalent to \\(p \\wedge q\\)</p>",
+            "<b>C.</b> <p>logically equivalent to \\(p \\vee q\\)</p>",
+            "<b>D.</b> <p>a contradiction</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>logically equivalent to \\(p \\wedge q\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2300/gate1993-8-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a simple connected graph G with n vertices and n edges (n &gt; 2). Then, which of the following statements are true? <br><br><strong>(GATE CSE 1993)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G has no cycles</p>",
+            "<b>B.</b> <p>The graph obtained by removing any edge from G is not connected</p>",
+            "<b>C.</b> <p>G has at least one cycle</p>",
+            "<b>D.</b> <p>The graph obtained by removing any two edges from G is not connected</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>G has at least one cycle</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2299/gate1993-8-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>How many undirected graphs (not necessarily connected) can be constructed out\nof a given set V={\\(V_{1},V_{2},.....,V_{n}\\)} of n vertices ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{n(n-1)}{2}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n}\\)</p>",
+            "<b>C.</b> <p>n!</p>",
+            "<b>D.</b> <p>\\(2^{\\frac{n(n-1)}{2}}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{\\frac{n(n-1)}{2}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/733/gate2001-2-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the undirected unweighted graph G. Let a breadth-first traversal of\nG be done starting from a node r . Let d(r,u) and d(r,v) be the lengths of the\nshortest paths form r to u and v respectively in G. If u is visited before v during\nthe breadth-first traversal, which of the following statements is correct ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>d(r,u) \\(\\lt\\) d(r,v)</p>",
+            "<b>B.</b> <p>d(r,u) \\(\\leq\\) d(r,v)</p>",
+            "<b>C.</b> <p>d(r,u) \\(\\gt\\)d(r,v)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>d(r,u) \\(\\leq\\) d(r,v)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/732/gate2001-2-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Seven (distinct) car accidents occurred in a week. What is the probability that they all occurred on the same day? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{1}{7^{7}}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{7^{6}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{2^{7}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{7}{2^{7}}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{7^{6}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/722/gate2001-2-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let \\(f:A\\rightarrow B\\)  be a function, and let E and F be subsets of A. Consider the following statements about images. <br> \\(S1: f (E \\cup F) = f (E) \\cup f (F)\\)\n<br> \\(S2: f (E \\cap F) = f (E) \\cap f (F)\\)\n<br> Which of the following is true about S1 and S2? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+            "<b>D.</b> <p>None of S1 and S2 is correct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Only S1 is correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/721/gate2001-2-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following statements:<pre><code>S1: There exists infinite sets A, B, C such that \n    \\(A\\cap(B\\cup C)\\)  is finite.\nS2: There exists two irrational numbers x and y such\n    that (x+y) is rational. </code></pre>  Which of the following is true about S1 and S2? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only S1 is correct</p>",
+            "<b>B.</b> <p>Only S2 is correct</p>",
+            "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+            "<b>D.</b> <p>None of S1 and S2 is correct</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Both S1 and S2 are correct</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/720/gate2001-2-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

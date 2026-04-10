@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Graph Theory - Graph Connectivity",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Graph Connectivity",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"351132\"></a><div itemprop=\"text\"><p>What is the total number of ways to reach from \\( A \\) to \\( B \\) in the network given?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=13579643337311265386\" width=\"437\"></p>\n\n</div><br><br><b>Graph Theory: NIELIT Scientific Assistant A 2020 November: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 12 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 20 \\)</p>",
+            "<p>\\( 22 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 16 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351132/nielit-scientific-assistant-a-2020-november-19\" target=\"_blank\">https://gateoverflow.in/351132/nielit-scientific-assistant-a-2020-november-19</a></p>"
+        }
+      ]
+    }
+  ]
+});

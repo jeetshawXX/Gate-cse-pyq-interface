@@ -1,0 +1,41 @@
+{
+  "title": "Operating System - File Organization",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "File Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336706\"></a><div itemprop=\"text\"><p>The file structure that redefines its first record at a base of zero uses the term</p>\n\n</div><br><br><b>Operating System: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>relative organization.</p>",
+            "<p>key fielding.</p>",
+            "<p>dynamic reallocation.</p>",
+            "<p>all of these.</p>"
+          ],
+          "correct_answer": "<p>relative organization.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336706/nielit-2016-mar-scientist-b-section-c-35\" target=\"_blank\">https://gateoverflow.in/336706/nielit-2016-mar-scientist-b-section-c-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336799\"></a><div itemprop=\"text\"><p>The open file table has a/an&nbsp;__________ associated with each file.</p>\n\n</div><br><br><b>Operating System: NIELIT 2017 DEC Scientific Assistant A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>file content</p>",
+            "<p>file permission</p>",
+            "<p>open count</p>",
+            "<p>close count</p>"
+          ],
+          "correct_answer": "<p>open count</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336799/nielit-2017-dec-scientific-assistant-a-section-b-47\" target=\"_blank\">https://gateoverflow.in/336799/nielit-2017-dec-scientific-assistant-a-section-b-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

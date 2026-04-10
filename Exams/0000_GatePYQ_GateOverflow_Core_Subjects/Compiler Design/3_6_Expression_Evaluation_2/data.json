@@ -1,0 +1,36 @@
+{
+  "title": "Compiler Design - Expression Evaluation",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Expression Evaluation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"849\"></a><div itemprop=\"text\"><p>To evaluate an expression without any embedded function calls</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 2.19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>One stack is enough</p>",
+            "<p>Two stacks are needed</p>",
+            "<p>As many stacks as the height of the expression tree are needed</p>",
+            "<p>A Turing machine is needed in the general case</p>"
+          ],
+          "correct_answer": "<p>One stack is enough</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/849/gate-cse-2002-question-2-19\" target=\"_blank\">https://gateoverflow.in/849/gate-cse-2002-question-2-19</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"1999\"></a><div itemprop=\"text\"><p>Consider the expression tree shown. Each leaf represents a numerical value, which can either be \\( 0 \\) or \\( 1 \\). Over all possible choices of the values at the leaves, the maximum possible value of the expression represented by the tree is ___.&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/compiler_design___expression_evaluation/599b01a7f1459427e3c739e3cb2633ab.png\"></p>\n\n\n</div><br><br><b>GATE CSE 2014 Set 2 | Question: 39</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "6",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1999/gate-cse-2014-set-2-question-39\" target=\"_blank\">https://gateoverflow.in/1999/gate-cse-2014-set-2-question-39</a></p>"
+        }
+      ]
+    }
+  ]
+}

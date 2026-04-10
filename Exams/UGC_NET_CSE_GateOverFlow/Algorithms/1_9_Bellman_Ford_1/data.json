@@ -1,0 +1,26 @@
+{
+  "title": "Algorithms - Bellman Ford",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Bellman Ford",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"349603\"></a><div itemprop=\"text\"><p>Match \\( \\text{list I} \\) with \\( \\text{List II} \\)</p><p>\\( \\begin{array}{llll} &amp; \\text{List I} &amp;&amp; \\text{List II} \\\\ (A) &amp; \\text{Topological sort of DAG} &amp; (I) &amp; O(V+E) \\\\ (B) &amp; \\text{Kruskal’s MST algorithm} &amp; (II) &amp; O(VE) \\\\ (C) &amp; \\text{Bellman-Ford’s single-source shortest} &amp; (III) &amp; \\theta (V+E)&nbsp;\\\\ &amp; \\text{path algorithm}&nbsp;\\\\ (D) &amp; \\text{Floyd-Warshall’s all pair shortest}&nbsp; &amp; (IV) &amp; \\theta (V^3) \\\\ &amp; \\text{path algorithm}&nbsp;&nbsp;\\end{array} \\)</p><p>Choose the correct answer from the options given below:</p><p>&nbsp;</p></div><br><br><b>Algorithms: UGC NET CSE | October 2020 | Part 2 | Question: 70</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{A-I, B-III, C-IV, D-II} \\)</p>",
+            "<p>\\( \\text{A-III, B-I, C-IV, D-II} \\)</p>",
+            "<p>\\( \\text{A-III, B-I, C-II, D-IV} \\)</p>",
+            "<p>\\( \\text{A-I, B-III, C-II, D-IV} \\)</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/349603/ugc-net-cse-october-2020-part-2-question-70\" target=\"_blank\">https://gateoverflow.in/349603/ugc-net-cse-october-2020-part-2-question-70</a></p>"
+        }
+      ]
+    }
+  ]
+}

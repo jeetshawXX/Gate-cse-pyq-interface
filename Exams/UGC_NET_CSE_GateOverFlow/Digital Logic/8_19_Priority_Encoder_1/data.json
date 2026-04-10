@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Priority Encoder",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Priority Encoder",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"316262\"></a><div itemprop=\"text\"><p>The parallel bus arbitration technique uses an external priority encoder and a decoder. Suppose, a parallel arbiter has \\( 5 \\) bus arbiters.&nbsp;What will be the size of priority encoder and decoder respectively?</p>\n\n</div><br><br><b>Digital Logic: UGC NET CSE | June 2019 | Part 2 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\times 2 , \\: 2 \\times 4 \\)</p>",
+            "<p>\\( 2&nbsp;\\times 4&nbsp;, \\: 4&nbsp;\\times 2 \\)</p>",
+            "<p>\\( 3&nbsp;\\times 8&nbsp;, \\: 8&nbsp;\\times 3 \\)</p>",
+            "<p>\\( 8&nbsp;\\times 3&nbsp;, \\: 3&nbsp;\\times 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8&nbsp;\\times 3&nbsp;, \\: 3&nbsp;\\times 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316262/ugc-net-cse-june-2019-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/316262/ugc-net-cse-june-2019-part-2-question-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

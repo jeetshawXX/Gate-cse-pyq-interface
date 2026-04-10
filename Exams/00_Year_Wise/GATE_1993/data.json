@@ -1,0 +1,419 @@
+{
+  "title": "Year_Wise - GATE_1993",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_1993",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>For the below question, one or more OPTIONS are correct<br>\nThe eigen vector(s) of the matrix <br>\n\\(\\begin{bmatrix} 0 &amp;0 &amp;\\alpha\\\\ 0 &amp;0 &amp;0\\\\ 0 &amp;0 &amp;0 \\end{bmatrix},\\alpha \\neq 0\\)<br>is (are)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((0,0,\\alpha)\\)</p>",
+            "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+            "<b>C.</b> <p>(0,0,1)</p>",
+            "<b>D.</b> <p>\\((0,\\alpha,0)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\((\\alpha,0,0)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/596/gate1993-01-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The differential equation <br>\\(\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0\\) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>linear</p>",
+            "<b>B.</b> <p>non- linear</p>",
+            "<b>C.</b> <p>homogeneous</p>",
+            "<b>D.</b> <p>of degree two</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>linear</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/597/gate1993-01-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Simpson's rule for integration gives exact result when f(x) is a polynomial of degree</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/598/gate1993-01-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following is (are) valid FORTRAN 77 statement(s)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DO 13 I = 1</p>",
+            "<b>B.</b> <p>A = DIM ***7</p>",
+            "<b>C.</b> <p>READ = 15.0</p>",
+            "<b>D.</b> <p>GO TO 3 = 10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>GO TO 3 = 10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/599/gate1993-01-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Fourier series of the periodic function (period \\(2 \\pi \\)) defined by <br>\n\\(f(x) = \\begin{cases} 0, -p \\lt x \\lt 0\\\\x, 0 \\lt x \\lt p \\end{cases} \\text { is }\\\\ \\frac{\\pi}{4} + \\Sigma \\left [ \\frac{1}{\\pi n^2} \\left(\\cos n\\pi - 1 \\right) \\cos nx - \\frac{1}{n} \\cos n\\pi \\sin nx \\right ]\\) <br>\nBut putting \\(x = \\pi\\), we get the sum of the series <br>\n\\(1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\frac{1}{7^2} + \\cdots \\text { is }\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{{\\pi }^2 }{4}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{{\\pi }^2 }{6}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{{\\pi }^2 }{8}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{{\\pi }^2 }{12}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{{\\pi }^2 }{8}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/262/gate1993-01-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which of the following improper integrals is (are) convergent?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx\\)</p>",
+            "<b>B.</b> <p>\\(\\int ^{\\infty} _{0} \\frac{\\cos x}{1+x} dx\\)</p>",
+            "<b>C.</b> <p>\\(\\int ^{\\infty} _{0} \\frac{x}{1+x^2} dx\\)</p>",
+            "<b>D.</b> <p>\\(\\int ^{1} _{0} \\frac{1-\\cos x}{\\frac{x^5}{2}} dx\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/601/gate1993-01-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The function \\(f\\left(x,y\\right) = x^2y - 3xy + 2y +x\\) has</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>no local extremum</p>",
+            "<b>B.</b> <p>one local minimum but no local maximum</p>",
+            "<b>C.</b> <p>one local maximum but no local minimum</p>",
+            "<b>D.</b> <p>one local minimum and one local maximum</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>no local extremum</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/602/gate1993-01-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an asynchronous serial line at 2400 baud rate, and with two stop bits is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>109</p>",
+            "<b>B.</b> <p>216</p>",
+            "<b>C.</b> <p>218</p>",
+            "<b>D.</b> <p>219</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>218</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2287/gate1993-6-4-isro2008-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Identify the logic function performed by the circuit shown in figure.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1993\\q6.1_1f0bee2f.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>exclusive OR</p>",
+            "<b>B.</b> <p>exclusive NOR</p>",
+            "<b>C.</b> <p>NAND</p>",
+            "<b>D.</b> <p>NOR</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>exclusive NOR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2290/gate1993-6-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Refer to the PASCAL program shown below.<br><pre><code> Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var, x, y : integer);\nvar m : integer;\nbegin\nm : = 1;\nx : = y + 1\nend;\nprocedure Q (x:integer; vary : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</code></pre> <br>The value of m, output by the program PARAM is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, because m is a local variable in P</p>",
+            "<b>B.</b> <p>0, because m is the actual parameter that corresponds to the formal parameter in p</p>",
+            "<b>C.</b> <p>0, because both x and y are just reference to m, and y has the value 0</p>",
+            "<b>D.</b> <p>1, because both x and y are just references to m which gets modified in procedure P</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0, because m is the actual parameter that corresponds to the formal parameter in p</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2291/gate1993-7-1-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Refer to the PASCAL program shown below.<br><pre><code>Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var, x, y : integer);\nvar m : integer;\nbegin\nm : = 1;\nx : = y + 1\nend;\nprocedure Q (x:integer; vary : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</code></pre> <br>The value of n, output by the program PARAM is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0, because n is the actual parameter corresponding to x in procedure Q.</p>",
+            "<b>B.</b> <p>0, because n is the actual parameter to y in procedure Q.</p>",
+            "<b>C.</b> <p>1, because n is the actual parameter corresponding to x in procedure Q.</p>",
+            "<b>D.</b> <p>1, because n is the actual parameter corresponding to y in procedure Q.</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>E.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://drive.google.com/file/d/0B2D2Vl5_6vK1V0p0NnMydFMxWjQ/view\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Refer to the PASCAL program shown below.<br><pre><code>Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var, x, y : integer);\nvar m : integer;\nbegin\nm : = 1;\nx : = y + 1\nend;\nprocedure Q (x:integer; vary : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</code></pre> <br>What is the scope of m declared in the main program?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>PARAM, P, Q</p>",
+            "<b>B.</b> <p>PARAM, P</p>",
+            "<b>C.</b> <p>PARAM, Q</p>",
+            "<b>D.</b> <p>P, Q (e)</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>PARAM, P, Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://drive.google.com/file/d/0B2D2Vl5_6vK1V0p0NnMydFMxWjQ/view\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>What does the following code do?<br><pre><code> var a, b: integer;\nbegin\n    a:=a+b;\n    b:=a-b;\n    a:=a-b;\nend;</code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>exchanges a and b</p>",
+            "<b>B.</b> <p>doubles a and stores in b</p>",
+            "<b>C.</b> <p>doubles b and stores in a</p>",
+            "<b>D.</b> <p>leaves a and b unchanged</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>exchanges a and b</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2292/gate1993-7-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>For the program segment given below, which of the following are true?<br><pre><code> program main (output);\ntype link = ^data;\ndata = record\nd : real;\nn : link\nend;\nvar ptr : link;\nbegin\nnew (ptr);\nptr:=nil;\n.ptr^.d:=5.2;\nwrite ln(ptr)\nend.\n</code></pre></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The program leads to compile time error</p>",
+            "<b>B.</b> <p>The program leads to run time error</p>",
+            "<b>C.</b> <p>The program outputs 5.2</p>",
+            "<b>D.</b> <p>The program produces error relating to nil pointer dereferencing</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The program produces error relating to nil pointer dereferencing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2293/gate1993-7-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>A simple two-pass assembler does the following in the first pass:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It allocates space for the literals.</p>",
+            "<b>B.</b> <p>It computes the total length of the program.</p>",
+            "<b>C.</b> <p>It builds the symbol table for the symbols and their values.</p>",
+            "<b>D.</b> <p>It generates code for all the load and store register instructions.</p>",
+            "<b>E.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>It allocates space for the literals.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2294/gate1993-7-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>A part of the system software which under all circumstances must reside in the main memory is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>text editor</p>",
+            "<b>B.</b> <p>assembler</p>",
+            "<b>C.</b> <p>linker</p>",
+            "<b>D.</b> <p>loader</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>loader</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2295/gate1993-7-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>The root directory of a disk should be placed</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>at a fixed address in main memory</p>",
+            "<b>B.</b> <p>at a fixed location on the disk</p>",
+            "<b>C.</b> <p>anywhere on the disk</p>",
+            "<b>D.</b> <p>at a fixed location on the system disk</p>",
+            "<b>E.</b> <p>anywhere on the system disk</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>at a fixed location on the disk</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2296/gate1993-7-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider a system having m resources of the same type. These resources are shared by 3 processes A,B, and C which have peak demands of 3, 4 and 6 respectively.  For what value of m deadlock will not occur?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>9</p>",
+            "<b>C.</b> <p>10</p>",
+            "<b>D.</b> <p>13</p>",
+            "<b>E.</b> <p>15</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>13</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2297/gate1993-7-9-ugcnet-dec2012-iii-41\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Assume that  the following jobs are to be executed on a single processor system <br>\\(\\begin{array}{|c|c|} \\hline \\textbf{Job Id} &amp; \\textbf{CPU Burst Time} \\\\\\hline \\text{p} &amp; 4 \\\\\\hline \\text{q} &amp; 1 \\\\\\hline \\text{r} &amp; 8 \\\\\\hline \\text{s} &amp; 1 \\\\\\hline \\text{t} &amp; 2 \\\\\\hline \\end{array}\\)<br>\nThe jobs are assumed to have arrived at time \\(0^+\\) and in the order p,q,r,s,t. Calculate the departure time (completion time) for job p if scheduling is round robin with time slice 1</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>10</p>",
+            "<b>C.</b> <p>11</p>",
+            "<b>D.</b> <p>12</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>11</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2298/gate1993-7-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider a simple connected graph G with n vertices and n edges (n &gt; 2). Then, which of the following statements are true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>G has no cycles</p>",
+            "<b>B.</b> <p>The graph obtained by removing any edge from G is not connected</p>",
+            "<b>C.</b> <p>G has at least one cycle</p>",
+            "<b>D.</b> <p>The graph obtained by removing any two edges from G is not connected</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>G has at least one cycle</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2299/gate1993-8-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The proposition \\(p \\wedge (\\sim p \\vee q)\\) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a tautology</p>",
+            "<b>B.</b> <p>logically equivalent to \\(p \\wedge q\\)</p>",
+            "<b>C.</b> <p>logically equivalent to \\(p \\vee q\\)</p>",
+            "<b>D.</b> <p>a contradiction</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>logically equivalent to \\(p \\wedge q\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2300/gate1993-8-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Let S be an infinite set and \\(S_1 \\dots , S_n\\) be sets such that \\(S_1 \\cup S_2 \\cup \\dots \\cup S_n = S\\). Then</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>at least one of the set \\(S_i\\) is a finite set</p>",
+            "<b>B.</b> <p>not more than one of the set \\(S_i\\) can be finite</p>",
+            "<b>C.</b> <p>at least one of the sets \\(S_i\\) is an infinite</p>",
+            "<b>D.</b> <p>not more than one of the sets \\(S_i\\) can be infinite</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>at least one of the sets \\(S_i\\) is an infinite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2301/gate1993-8-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Let A be a finite set of size n. The number of elements in the power set of \\(A\\times A\\) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{2^n}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n^2}\\)</p>",
+            "<b>C.</b> <p>\\((2^n)^2\\)</p>",
+            "<b>D.</b> <p>\\((2^2)^n\\)</p>",
+            "<b>E.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(2^{n^2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2302/gate1993-8-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>The less-than relation, \\(\\lt\\), on reals is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a partial ordering since it is asymmetric and reflexive</p>",
+            "<b>B.</b> <p>a partial ordering since it is antisymmetric and reflexive</p>",
+            "<b>C.</b> <p>not a partial ordering because it is not asymmetric and not reflexive</p>",
+            "<b>D.</b> <p>not a partial ordering because it is not antisymmetric and reflexive</p>",
+            "<b>E.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>E.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2303/gate1993-8-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Let A and B be sets with cardinalities m and n respectively. The number of one-one mappings from A to B, when \\(m \\lt n\\), is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m^n\\)</p>",
+            "<b>B.</b> <p>\\(^nP_m\\)</p>",
+            "<b>C.</b> <p>\\(^mC_n\\)</p>",
+            "<b>D.</b> <p>\\(^nC_m\\)</p>",
+            "<b>E.</b> <p>\\(^mP_n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(^nP_m\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2304/gate1993-8-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>\\( \\sum_{1\\leq k\\leq n} O(n)\\),  where \\(O(n)\\) stands for order \\(n\\) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>\\(O(n^2)\\)</p>",
+            "<b>C.</b> <p>\\(O(n^3)\\)</p>",
+            "<b>D.</b> <p>\\(O(3n^2)\\)</p>",
+            "<b>E.</b> <p>\\(O(1.5n^2)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(O(n^2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2305/gate1993-8-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "title": "Computer_Organization - Computer_Organization - Slot 20",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Computer_Organization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>What is the bit rate of a video terminal unit with 80 characters/line, 8 bits/character and horizontal sweep time of 100 \\(\\mu s\\) (including 20 \\(\\mu s\\) of retrace time)? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(8 \\text{Mbps}\\)</p>",
+            "<b>B.</b> <p>\\(6.4 \\text{Mbps}\\)</p>",
+            "<b>C.</b> <p>\\(0.8 \\text{Mbps}\\)</p>",
+            "<b>D.</b> <p>\\(0.64 \\text{Mbps}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(6.4 \\text{Mbps}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3652/gate2004-it-11-isro2011-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the minimum size of ROM required to store the complete truth table of an 8-bit \\(\\times\\) 8-bit multiplier? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32 K \\(\\times\\) 16 bits</p>",
+            "<b>B.</b> <p>64 K \\(\\times\\) 16 bits</p>",
+            "<b>C.</b> <p>16 K \\(\\times\\) 32 bits</p>",
+            "<b>D.</b> <p>64 K \\(\\times\\) 32 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>64 K \\(\\times\\) 16 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3651/gate2004-it-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A 4-stage pipeline has the stage delays as 150, 120, 160 and 140 nanoseconds respectively. Registers\nthat are used between the stages have a delay of 5 nanoseconds each. Assuming constant clocking\nrate, the total time taken to process 1000 data items on this pipeline will be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>120.4 microseconds</p>",
+            "<b>B.</b> <p>160.5 microseconds</p>",
+            "<b>C.</b> <p>165.5 microseconds</p>",
+            "<b>D.</b> <p>590 microseconds</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>165.5 microseconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1063/gate2004-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A hard disk with a transfer rate of 10 Mbytes/second is constantly transferring data to memory using\nDMA. The processor runs at 600 MHz, and takes 300 and 900 clock cycles to initiate and complete\nDMA transfer respectively. If the size of the transfer is 20 Kbytes, what is the percentage of processor\ntime consumed for the transfer operation? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5%</p>",
+            "<b>B.</b> <p>1%</p>",
+            "<b>C.</b> <p>0.50%</p>",
+            "<b>D.</b> <p>0.10%</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>0.10%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1062/gate2004-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The microinstructions stored in the control memory of a processor have a width of 26 bits. Each microinstruction is divided into three fields: a micro-operation field of 13 bits, a next address field (X), and a MUX select field (Y). There are 8 status bits in the inputs of the MUX. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q67_759b6f1e.jpg\"> <br>\nHow many bits are there in the X and Y fields, and what\nis the size of the control memory in number of words? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10,3,1024</p>",
+            "<b>B.</b> <p>8,5,256</p>",
+            "<b>C.</b> <p>5,8,2048</p>",
+            "<b>D.</b> <p>10,3,512</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10,3,1024</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1061/gate2004-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider a small two-way set-associative cache memory, consisting of four blocks. For choosing the\nblock to be replaced, use the least recently used (LRU) scheme. The number of cache misses for the\nfollowing sequence of block addresses is 8, 12, 0, 12,8 <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1059/gate2004-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers R1, R2 and R3.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q63_df1a4f4b.jpg\"> <br>  Let the clock cycles required fro various operations be as follows:<br><br>\nRegister to/from memory transfer : 3 clock cycles<br>\nADD with both operands in register : 1 clock cycle<br>\nInstruction fetch and decode : 2 clock cycles per word<br><br>\nThe total number of clock cycles required to execute the program is <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>29</p>",
+            "<b>B.</b> <p>24</p>",
+            "<b>C.</b> <p>23</p>",
+            "<b>D.</b> <p>20</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>24</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43570/gate2004-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following program segment for a hypothetical CPU having three user registers R1, R2 and R3. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q63_df1a4f4b.jpg\"> <br> Consider that the memory is byte addressable with size 32 bits, and the program has been loaded starting from memory location 1000 (decimal). If an interrupt occurs while the CPU has been halted after executing the HALT instruction, the return address (in decimal) saved in the stack will be <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1007</p>",
+            "<b>B.</b> <p>1020</p>",
+            "<b>C.</b> <p>1024</p>",
+            "<b>D.</b> <p>1028</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1028</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1058/gate2004-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following Addressing Modess are suitable for program relocation at run time? <br><br>\n(i) Absolute addressing <br> (ii) Based addressing <br>\n(iii) Relative addressing <br> (iv) Indirect addressing <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (iv)</p>",
+            "<b>B.</b> <p>(i) and (ii)</p>",
+            "<b>C.</b> <p>(ii) and (iii)</p>",
+            "<b>D.</b> <p>(i), (ii) and (iv)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(ii) and (iii)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1017/gate2004-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q48_464367e7.jpg\"> <br> Which of the following instructions when inserted at location X will ensure that\nthe value of register A after program execution is the same as its initial value? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RRC A,# 1</p>",
+            "<b>B.</b> <p>NOP ; no operation</p>",
+            "<b>C.</b> <p>LRC A, # 1 ; left rotate A through carry flag by one bit</p>",
+            "<b>D.</b> <p>ADD A, # 1</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RRC A,# 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43577/gate2003-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following assembly language program for a hypothetical processor. A, B, and C are 8 bit registers. The meanings of various instructions are shown as comments. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Computer_Organization\\q48_464367e7.jpg\"> <br> If the initial value of register A is A0 the value of register B after the program\nexecution will be <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>the number of 0 bits in A0</p>",
+            "<b>B.</b> <p>the number of 1 bits in A0</p>",
+            "<b>C.</b> <p>A0</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>the number of 1 bits in A0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/938/gate2003-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Using a larger block size in a fixed block size file system leads to <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>better disk throughput but poorer disk space utilization</p>",
+            "<b>B.</b> <p>better disk throughput and better disk space utilization</p>",
+            "<b>C.</b> <p>poorer disk throughput but better disk space utilization</p>",
+            "<b>D.</b> <p>poorer disk throughput and poorer disk space utilization</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>better disk throughput but poorer disk space utilization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/915/gate2003-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>For a pipelined CPU with a single ALU, consider the following situations <br>\n1. The (j + 1)-th instruction uses the result of j-th instruction as an operand <br>\n2. The execution of a conditional jump instruction <br>\n3. The j - th and j + 1 - st instructions require the ALU at the same time <br>\nWhich of the above can cause a hazard? <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 and 2 only</p>",
+            "<b>B.</b> <p>2 and 3 only</p>",
+            "<b>C.</b> <p>3 only</p>",
+            "<b>D.</b> <p>All the three</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All the three</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/901/gate2003-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Horizontal microprogramming <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Does not require use of signal decoders</p>",
+            "<b>B.</b> <p>Results in larger sized microinstructions than vertical microprogramming</p>",
+            "<b>C.</b> <p>Uses one bit for each control signal</p>",
+            "<b>D.</b> <p>All of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/837/gate2002-2-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The performance of a pipelined processor suffers if <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The pipelined stages have different delays</p>",
+            "<b>B.</b> <p>Consecutive instructions are dependent on each other</p>",
+            "<b>C.</b> <p>The pipeline stages share hardware resources</p>",
+            "<b>D.</b> <p>All the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>All the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/836/gate2002-2-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

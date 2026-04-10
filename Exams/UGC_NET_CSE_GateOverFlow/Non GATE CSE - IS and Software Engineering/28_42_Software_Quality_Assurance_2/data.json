@@ -1,0 +1,41 @@
+{
+  "title": "Non GATE CSE - IS and Software Engineering - Software Quality Assurance",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Software Quality Assurance",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"71567\"></a><div itemprop=\"text\"><p>The ISO quality assurance standard that applies to software Engineering is</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | August 2016 | Part 3 | Question: 46</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>ISO 9000 : 2004</p>",
+            "<p>ISO 9001 : 2000</p>",
+            "<p>ISO 9002 : 2001</p>",
+            "<p>ISO 9003 : 2004</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/71567/ugc-net-cse-august-2016-part-3-question-46\" target=\"_blank\">https://gateoverflow.in/71567/ugc-net-cse-august-2016-part-3-question-46</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"57730\"></a><div itemprop=\"text\"><p>The factors that determine the quality of a software system are</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2012 | Part 3 | Question: 55</b></p>",
+          "type": "single",
+          "options": [
+            "<p>correctness, reliability</p>",
+            "<p>efficiency, usability, maintainability</p>",
+            "<p>testability, portability, accuracy, error tolerances, expandability, access control, audit</p>",
+            "<p>All of the above</p>"
+          ],
+          "correct_answer": "<p>All of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57730/ugc-net-cse-december-2012-part-3-question-55\" target=\"_blank\">https://gateoverflow.in/57730/ugc-net-cse-december-2012-part-3-question-55</a></p>"
+        }
+      ]
+    }
+  ]
+}

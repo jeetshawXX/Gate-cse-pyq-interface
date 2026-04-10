@@ -1,0 +1,56 @@
+{
+  "title": "Algorithms - Searching",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Searching",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336305\"></a><div itemprop=\"text\"><p>Let \\( A \\) be an array of \\( 31 \\) numbers consisting of a sequence of \\( 0 \\)’s followed by a sequence of \\( 1 \\)’s. The problem is to find the smallest index \\( i \\) such that \\( A[i] \\) is \\( 1 \\) by probing the minimum number of locations in \\( A \\). The worst case number of probes performed by an optimal algorithm is</p>\n\n</div><br><br><b>Algorithms: NIELIT 2017 DEC Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 5 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336305/nielit-2017-dec-scientist-b-section-b-8\" target=\"_blank\">https://gateoverflow.in/336305/nielit-2017-dec-scientist-b-section-b-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"378704\"></a><div itemprop=\"text\"><p>Which of the following type of search is easiest to implement?</p>\n\n</div><br><br><b>Algorithms: NIELIT 2021 Dec Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Linear search</p>",
+            "<p>Non-linear search</p>",
+            "<p>Multidimensional search</p>",
+            "<p>Bidirectional search</p>"
+          ],
+          "correct_answer": "<p>Linear search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/378704/nielit-2021-dec-scientist-b-section-b-59\" target=\"_blank\">https://gateoverflow.in/378704/nielit-2021-dec-scientist-b-section-b-59</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"351395\"></a><div itemprop=\"text\"><p>Finding the location of the element with a given value is :</p>\n\n</div><br><br><b>Algorithms: NIELIT Scientific Assistant A 2020 November: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Traversal</p>",
+            "<p>Search</p>",
+            "<p>Sort</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Search</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/351395/nielit-scientific-assistant-a-2020-november-65\" target=\"_blank\">https://gateoverflow.in/351395/nielit-scientific-assistant-a-2020-november-65</a></p>"
+        }
+      ]
+    }
+  ]
+}

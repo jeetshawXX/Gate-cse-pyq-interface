@@ -1,0 +1,156 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Tabular Data",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Tabular Data",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"777\"></a><div itemprop=\"text\">In a survey, \\( 300 \\) respondents were asked whether they own a vehicle or not. If yes, they were further asked to mention whether they own a car or scooter or both. Their responses are tabulated below. What percent of respondents do not own a scooter?\\[ \\begin{array}{|l|l|l|l|} \\hline &amp; &amp; \\text{Men} &nbsp;&amp; \\text{Women} \\\\\\hline &nbsp;\\text{Own vehicle} &amp; \\text{Car} &amp; 40 &amp; &nbsp;34 \\\\\\hline \\text{Own vehicle} &amp; \\text{Scooter} &amp; 30 &amp; 20 \\\\\\hline \\text{Own vehicle} &amp; \\text{Both} &amp; 60 &amp; 46 \\\\\\hline \\text{Do not own vehicle} &amp; &nbsp;&amp; 20 &amp; 50 \\\\\\hline \\end{array} \\]</div><br><br><b>GATE CSE 2014 Set 1 | Question: GA-9</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "48",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/777/gate-cse-2014-set-1-question-ga-9\" target=\"_blank\">https://gateoverflow.in/777/gate-cse-2014-set-1-question-ga-9</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2028\"></a><div itemprop=\"text\"><p>The table below has question-wise data on the performance of students in an examination. The marks for each question are also listed. There is no negative or partial marking in the examination.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} &amp; \\textbf{Marks} &amp;\\textbf{Answered}&amp;\\textbf{Answered}&amp;\\textbf{Not}\\\\&amp;&amp;\\textbf{ Correctly} &amp;\\textbf{Wrongly} &amp; \\textbf{Attempted} \\\\\\hline \\text{1} &amp; \\text{2} &amp;\\text{21} &amp;\\text{17} &amp;\\text{6}\\\\\\hline \\text{2} &amp; \\text{3} &amp;\\text{15} &amp; \\text{27}&amp; \\text{2}\\\\\\hline \\text{3} &amp; \\text{2} &amp;\\text{23} &amp; \\text{18} &amp; \\text{3}\\\\\\hline \\end{array} \\]</p>\n\n<p>What is the average of the marks obtained by the class in the examination?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1.34 \\)</p>",
+            "<p>\\( 1.74 \\)</p>",
+            "<p>\\( 3.02 \\)</p>",
+            "<p>\\( 3.91 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3.02 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2028/gate-cse-2014-set-3-question-ga-5\" target=\"_blank\">https://gateoverflow.in/2028/gate-cse-2014-set-3-question-ga-5</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"8010\"></a><div itemprop=\"text\"><p>The number of students in a class who have answered correctly, wrongly, or not attempted each question in an exam, are listed in the table below. The marks for each question are also listed. There is no negative or partial marking.\\[ \\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Q No.} &amp; \\textbf{Marks} &amp;\\textbf{Answered}&amp;\\textbf{Answered}&amp;\\textbf{Not}\\\\&amp;&amp;\\textbf{ Correctly} &amp;\\textbf{Wrongly} &amp; \\textbf{Attempted} \\\\\\hline \\text{1} &amp; \\text{2} &amp;\\text{21} &amp;\\text{17} &amp;\\text{6}\\\\\\hline \\text{2} &amp; \\text{3} &amp;\\text{15} &amp; \\text{27}&amp; \\text{2}\\\\\\hline \\text{3} &amp; \\text{1} &amp;\\text{11} &amp; \\text{29} &amp; \\text{4}\\\\\\hline&nbsp;\\text{4} &amp; \\text{2} &amp;\\text{23} &amp; \\text{18} &amp; \\text{3}\\\\\\hline&nbsp;\\text{5} &amp; \\text{5} &amp;\\text{31} &amp; \\text{12} &amp; \\text{1}&nbsp;\\\\\\hline \\end{array} \\]What is the average of the marks obtained by the class in the examination?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 1 | Question: GA-6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2.290 \\)</p>",
+            "<p>\\( 2.970 \\)</p>",
+            "<p>\\( 6.795 \\)</p>",
+            "<p>\\( 8.795 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6.795 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6\" target=\"_blank\">https://gateoverflow.in/8010/gate-cse-2015-set-1-question-ga-6</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"39616\"></a><div itemprop=\"text\"><p>A shaving set company sells \\( 4 \\) different types of razors- Elegance, Smooth, Soft and Executive.</p><p>Elegance sells at \\( \\text{Rs.} \\ 48 \\), Smooth at \\( \\text{Rs.} \\ 63 \\), Soft at&nbsp;\\( \\text{Rs.} \\ 78 \\) and Executive at&nbsp;\\( \\text{Rs.} \\ 173 \\) per piece. The table below shows the numbers of each razor sold in each quarter of a year.</p><p>\\[ \\begin{array}{|c|r|r|r|r|} \\hline \\textbf{Quarter/Product} &amp; \\textbf{Elegance} &amp;\\textbf{Smooth} &amp;\\textbf{Soft} &amp; \\textbf{Executive}\\\\\\hline \\text{Q1} &amp; \\text{27300} &amp;\\text{20009} &amp;\\text{17602} &amp;\\text{9999}\\\\\\hline \\text{Q2} &amp; \\text{25222} &amp;\\text{19392} &amp; \\text{18445}&amp; \\text{8942}\\\\\\hline \\text{Q3} &amp; \\text{28976} &amp;\\text{22429} &amp; \\text{19544} &amp; \\text{10234}\\\\\\hline&nbsp;\\text{Q4} &amp;\\text{21012} &amp; \\text{18229} &amp; \\text{16595} &amp; \\text{10109}\\\\\\hline \\end{array} \\]</p><p>Which product contributes the greatest fraction to the revenue of the company in that year?</p></div><br><br><b>GATE CSE 2016 Set 1 | Question: GA06</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Elegance</p>",
+            "<p>Executive</p>",
+            "<p>Smooth</p>",
+            "<p>Soft</p>"
+          ],
+          "correct_answer": "<p>Executive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06\" target=\"_blank\">https://gateoverflow.in/39616/gate-cse-2016-set-1-question-ga06</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"313211\"></a><div itemprop=\"text\"><p>Four archers P, Q, R, and S try to hit a bull’s eye during a tournament consisting of seven rounds. As illustrated in the figure below, a player receives \\( 10 \\) points for hitting the bull's eye, \\( 5 \\) points for hitting within the inner circle and \\( 1 \\) point for hitting within the outer circle.</p>\n\n<p><img alt=\"\" height=\"305\" src=\"images/gateOverflow_pyq_images/general_aptitude___quantitative_aptitude___tabular_data/03e74dd3835beee4be024b07d875ed6a.png\" width=\"372\"></p>\n\n<p>The final scores received by the players during the tournament are listed in the table below.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|c|c|} \\hline \\textbf{Round} &amp; \\textbf{P} &amp;&nbsp;\\textbf{Q} &amp;&nbsp;\\textbf{R} &amp;&nbsp;\\textbf{S} \\\\&nbsp; \\hline \\textbf{1} &amp; 1 &amp; 5 &amp; 1 &amp; 10 \\\\ \\hline \\textbf{2} &amp; 5 &amp; 10 &amp; 10 &amp; 1 \\\\ \\hline &nbsp;\\textbf{3} &amp; 1 &amp; 1 &amp; 1 &amp; 5 \\\\ \\hline &nbsp;&nbsp;\\textbf{4} &amp;&nbsp; 10 &amp; 10 &amp; 1 &amp; 1&nbsp; \\\\ \\hline \\textbf{5} &amp; 1 &amp; 5 &amp; 5 &amp; 10 \\\\&nbsp; \\hline \\textbf{6} &amp;10 &amp; 5 &amp; 1 &amp; 1 \\\\ \\hline \\textbf{7} &amp; 5 &amp; 10 &amp; 1 &amp; 1&nbsp; \\\\ \\hline \\end{array} \\]</p>\n\n<p>The most accurate and the most consistent players during the tournament are respectively</p>\n\n</div><br><br><b>GATE2011 MN: GA-64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>&nbsp;P and S</p>",
+            "<p>Q and R</p>",
+            "<p>Q and Q</p>",
+            "<p>R and Q</p>"
+          ],
+          "correct_answer": "<p>Q and R</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313211/gate2011-mn-ga-64\" target=\"_blank\">https://gateoverflow.in/313211/gate2011-mn-ga-64</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"40248\"></a><div itemprop=\"text\"><p>Following table gives data on tourist from different countries visiting India in the year \\( 2011 \\)</p>\n\n<p>\\[ \\begin{array}{|l|c|} \\hline \\textbf{Country} &amp; \\textbf{Number of tourists}\\\\\\hline \\text{USA} &amp; \\text{2000}\\\\\\hline \\text{England} &amp; \\text{3500}\\\\\\hline \\text{Germany} &amp; \\text{1200}\\\\\\hline&nbsp;\\text{Italy} &amp; \\text{1100} \\\\\\hline&nbsp;\\text{Japan} &amp; \\text{2400}\\\\\\hline \\text{Australia} &amp; \\text{2300}\\\\\\hline&nbsp;\\text{France} &amp; \\text{1000}\\\\\\hline \\end{array} \\]</p>\n\n<p>Which two countries contributed to the one third of the total number of tourists who visited India in \\( 2011 \\)?</p>\n\n</div><br><br><b>GATE2013 AE: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>USA and Japan</p>",
+            "<p>USA and Australia</p>",
+            "<p>England and France</p>",
+            "<p>Japan and Australia</p>"
+          ],
+          "correct_answer": "<p>England and France</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40248/gate2013-ae-ga-7\" target=\"_blank\">https://gateoverflow.in/40248/gate2013-ae-ga-7</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"40276\"></a><div itemprop=\"text\"><p>Following table provides figures(in rupees) on annual expenditure of a firm for two years -\\( 2010 \\) and \\( 2011 \\).</p>\n\n<p>\\[ \\begin{array}{|l|r|r|} \\hline \\textbf{Category} &amp; \\textbf{2010} &amp;\\textbf{2011 }\\\\\\hline \\text{Raw material} &amp; \\text{5200} &amp;\\text{6240}\\\\\\hline \\text{Power &amp; fuel} &amp; \\text{7000} &amp;\\text{9450}\\\\\\hline \\text{Salary &amp; wages} &amp; \\text{9000} &amp;\\text{12600}\\\\\\hline&nbsp;\\text{Plant &amp; machinery} &amp; \\text{20000} &amp;\\text{25000}\\\\\\hline&nbsp;\\text{Advertising} &amp; \\text{15000} &amp;\\text{19500}\\\\\\hline \\text{Research &amp; Development} &amp; \\text{22000} &amp;\\text{26400}\\\\\\hline \\end{array} \\]</p>\n\n<p>In \\( 2011 \\), which of the two categories have registered increase by same percentage?</p>\n\n</div><br><br><b>GATE2013 CE: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Raw material and Salary &amp; wages.</p>",
+            "<p>Salary &amp; wages and Advertising.</p>",
+            "<p>Power &amp; fuel and Advertising.</p>",
+            "<p>Raw material and research &amp; Development.</p>"
+          ],
+          "correct_answer": "<p>Raw material and research &amp; Development.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40276/gate2013-ce-ga-8\" target=\"_blank\">https://gateoverflow.in/40276/gate2013-ce-ga-8</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"40185\"></a><div itemprop=\"text\"><p>Read the following table giving sales data of five types of batteries for years \\( 2006 \\) to \\( 2012 \\):</p>\n\n<p>\\[ \\begin{array}{|c|c|c|c|c|c|c|}\\hline \\textbf{Year} &amp; \\textbf{Type I} &amp; \\textbf{Type II} &amp; \\textbf{Type III} &amp; \\textbf{Type IV} &amp; \\textbf{Type V}\\\\\\hline \\text{2006} &amp; \\text{75}&amp; \\text{144} &amp; \\text{114}&amp; \\text{102} &amp; \\text{108}\\\\\\hline&nbsp;\\text{2007} &amp; \\text{90}&amp; \\text{126} &amp; \\text{102}&amp; \\text{84} &amp; \\text{126}\\\\\\hline&nbsp;\\text{2008} &amp; \\text{96}&amp; \\text{114} &amp; \\text{75}&amp; \\text{105} &amp; \\text{135}\\\\\\hline&nbsp;\\text{2009} &amp; \\text{105}&amp; \\text{90} &amp; \\text{150}&amp; \\text{90} &amp; \\text{75}\\\\\\hline&nbsp;\\text{2010} &amp; \\text{90}&amp; \\text{75} &amp; \\text{135}&amp; \\text{75} &amp; \\text{90}\\\\\\hline&nbsp;\\text{2011} &amp; \\text{105}&amp; \\text{60} &amp; \\text{165}&amp; \\text{45} &amp; \\text{120}\\\\\\hline&nbsp;\\text{2012} &amp; \\text{115}&amp; \\text{85} &amp; \\text{160}&amp; \\text{100} &amp; \\text{145}\\\\\\hline&nbsp; \\end{array} \\]</p>\n\n<p>Out of the following , which type of battery achieved highest growth between the years \\( 2006 \\) and \\( 2012 \\)?</p>\n\n</div><br><br><b>GATE2015 CE-2: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Type V</p>",
+            "<p>Type III</p>",
+            "<p>Type II</p>",
+            "<p>Type I</p>"
+          ],
+          "correct_answer": "<p>Type I</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/40185/gate2015-ce-2-ga-9\" target=\"_blank\">https://gateoverflow.in/40185/gate2015-ce-2-ga-9</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"39505\"></a><div itemprop=\"text\"><p>An electric bus has onboard instruments that report the total electricity consumed since the start of the trip, as well as the total distance, covered. During a single day of operation, the bus travels on stretches M, N, O, and P, in that order. The<u> cumulative</u> distances travelled and the corresponding electricity consumption are shown in the Table below:\\[ \\begin{array}{|l|l|}\\hline \\textbf{Stretch} &amp; \\textbf{Cumulative distance (km)} &amp; \\textbf{Electricity used (kWh)} \\\\\\hline M&nbsp;&amp; 20 &amp; 12 \\\\\\hline N &amp; 45 &amp; 25 \\\\\\hline O &amp; 75&nbsp; &amp; 45&nbsp;\\\\\\hline P &amp; 100 &amp; 57&nbsp;\\\\\\hline \\end{array} \\]</p>\n\n<p>The stretch where the electricity consumption per km is minimum is</p>\n\n</div><br><br><b>GATE2015 EC-2: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( M \\)</p>",
+            "<p>\\( N \\)</p>",
+            "<p>\\( O \\)</p>",
+            "<p>\\( P \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( P \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39505/gate2015-ec-2-ga-4\" target=\"_blank\">https://gateoverflow.in/39505/gate2015-ec-2-ga-4</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"313581\"></a><div itemprop=\"text\"><p>Mola is a digital platform for taxis in a city. It offers three types of rides –&nbsp;Pool, Mini and Prime. The table below presents the number of rides for the past four months. The platform earns one US dollar per ride. What is the percentage share of the revenue contributed by Prime to the total revenues of Mola, for the entire duration?</p><p>\\[ \\begin{array}{|l|llll|}\\hline \\textbf{Type}&nbsp; &amp;&nbsp; \\textbf{Month}\\\\ &amp; \\textbf{January} &amp; \\textbf{February}&nbsp; &amp; \\textbf{March} &amp; \\textbf{April}\\\\\\hline \\textbf{Pool} &amp; \\text{170}&amp; \\text{320} &amp; \\text{215} &amp; \\text{190} \\\\\\hline \\textbf{Mini} &amp; \\text{110}&amp; \\text{220} &amp; \\text{180} &amp; \\text{70} \\\\\\hline \\textbf{Prime} &amp; \\text{75}&amp; \\text{180} &amp; \\text{120} &amp; \\text{90} \\\\\\hline&nbsp; \\end{array} \\]</p></div><br><br><b>GATE2019 ME-2: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16.24 \\)</p>",
+            "<p>\\( 23.97 \\)</p>",
+            "<p>\\( 25.86 \\)</p>",
+            "<p>\\( 38.74 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 23.97 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313581/gate2019-me-2-ga-9\" target=\"_blank\">https://gateoverflow.in/313581/gate2019-me-2-ga-9</a></p>"
+        }
+      ]
+    }
+  ]
+}

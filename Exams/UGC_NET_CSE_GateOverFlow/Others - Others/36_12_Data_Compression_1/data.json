@@ -1,0 +1,26 @@
+{
+  "title": "Others - Others - Data Compression",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Data Compression",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"61457\"></a><div itemprop=\"text\">\n<p>The redundancy in images stems from</p>\n\n\n</div><br><br><b>Others: UGC NET CSE | Junet 2015 | Part 3 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>pixel decolleration</p>",
+            "<p><span style=\"line-height: 20.8px;\">pixel&nbsp;</span>colleration</p>",
+            "<p><span style=\"line-height: 20.8px;\">pixel&nbsp;</span>quantization</p>",
+            "<p>image size</p>"
+          ],
+          "correct_answer": "<p><span style=\"line-height: 20.8px;\">pixel&nbsp;</span>colleration</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61457/ugc-net-cse-junet-2015-part-3-question-65\" target=\"_blank\">https://gateoverflow.in/61457/ugc-net-cse-junet-2015-part-3-question-65</a></p>"
+        }
+      ]
+    }
+  ]
+}

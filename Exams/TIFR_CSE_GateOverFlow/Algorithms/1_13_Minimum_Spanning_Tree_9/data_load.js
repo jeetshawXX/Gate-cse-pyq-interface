@@ -1,0 +1,155 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Minimum Spanning Tree",
+  "duration": 25,
+  "sections": [
+    {
+      "name": "Minimum Spanning Tree",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"20842\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a connected simple graph (no self-loops or parallel edges) on \\( n\\geq 3 \\) vertices, with distinct edge weights. Let \\( e_{1}, e_{2},...,e_{m} \\) be an ordering of the edges in decreasing order of weight. Which of the following statements is FALSE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2011 | Part B | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The edge \\( e_{1} \\) has to be present in every maximum weight spanning tree.</p>",
+            "<p>Both \\( e_{1} \\) and \\( e_{2} \\) have to be present in every maximum weight spanning tree.</p>",
+            "<p>The edge \\( e_{m} \\) has to be present in every minimum weight spanning tree.</p>",
+            "<p>The edge \\( e_{m} \\) is never present in any maximum weight spanning tree.</p>",
+            "<p>\\( G \\) has a unique maximum weight spanning tree.</p>"
+          ],
+          "correct_answer": "<p>The edge \\( e_{m} \\) is never present in any maximum weight spanning tree.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/20842/tifr-cse-2011-part-b-question-35\" target=\"_blank\">https://gateoverflow.in/20842/tifr-cse-2011-part-b-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"25860\"></a><div itemprop=\"text\"><p>In a connected weighted graph with \\( n \\) vertices, all the edges have distinct positive integer weights.&nbsp;Then, the maximum number of minimum weight spanning trees in the graph is</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2013 | Part B | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( n \\)</p>",
+            "<p>equal to number of edges in the graph.</p>",
+            "<p>equal to maximum weight of an edge of the graph.</p>",
+            "<p>\\( n^{n-2} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/25860/tifr-cse-2013-part-b-question-17\" target=\"_blank\">https://gateoverflow.in/25860/tifr-cse-2013-part-b-question-17</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"27174\"></a><div itemprop=\"text\"><p>Consider the following undirected graph with some edge costs missing.</p>\n\n<p><img alt=\"\" height=\"239\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=1182466128001444477\" width=\"525\"></p>\n\n<p>Suppose the wavy edges form a Minimum Cost Spanning Tree for \\( G \\). Then, which of the following inequalities&nbsp;NEED NOT hold?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>cost\\( (a, b)&nbsp;\\geq&nbsp;6 \\).</p>",
+            "<p>cost\\( (b, e) \\geq&nbsp;5 \\).</p>",
+            "<p>cost\\( (e, f) \\geq&nbsp;5 \\).</p>",
+            "<p>cost\\( (a, d) \\geq&nbsp;4 \\).</p>",
+            "<p>cost\\( (b, c) \\geq&nbsp;4 \\).</p>"
+          ],
+          "correct_answer": "<p>cost\\( (a, b)&nbsp;\\geq&nbsp;6 \\).</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27174/tifr-cse-2014-part-b-question-4\" target=\"_blank\">https://gateoverflow.in/27174/tifr-cse-2014-part-b-question-4</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"27180\"></a><div itemprop=\"text\"><p>Let \\( G = (V,E) \\) be an undirected connected simple (i.e., no parallel edges or self-loops) graph&nbsp;with the weight function \\( w: E \\rightarrow \\mathbb{R} \\) on its edge set. Let \\( w(e_{1}) &lt; w(e_{2}) &lt; · · · &lt; w(e_{m}) \\), where \\( E = \\left\\{e_{1}, e_{2}, . . . , e_{m}\\right\\} \\). Suppose \\( T \\) is a minimum spanning tree of \\( G \\). Which of the following statements is&nbsp;FALSE?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2014 | Part B | Question: 5</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>The tree \\( T \\) has to contain the edge \\( e_{1} \\).</p>",
+            "<p>The tree \\( T \\) has to contain the edge \\( e_{2} \\).</p>",
+            "<p>The minimum weight edge incident on each vertex has to be present in \\( T \\).</p>",
+            "<p>\\( T \\) is the unique minimum spanning tree in \\( G \\).</p>",
+            "<p>If we replace each edge weight \\( w_{i} = w(e_{i}) \\) by its square \\( w^{2}_{i} \\)&nbsp;, then \\( T \\) must still be a minimum spanning&nbsp;tree of this new instance.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/27180/tifr-cse-2014-part-b-question-5\" target=\"_blank\">https://gateoverflow.in/27180/tifr-cse-2014-part-b-question-5</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"29844\"></a><div itemprop=\"text\"><p>Consider the following undirected connected graph \\( G \\) with weights on its edges as given in the figure below. A minimum spanning tree is a spanning tree of least weight and a maximum spanning tree is one with largest weight. A second best minimum spanning tree whose weight is the smallest among all spanning trees that are not minimum spanning trees in \\( G \\).</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"272\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=13776503170886143123\" width=\"453\"></p>\n\n<p>Which of the following statements is TRUE in the above graph? (Note that all the edge weights are distinct in the above graph)</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2015 | Part B | Question: 2</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>There is more than one minimum spanning tree and similarly, there is more than one maximum spanning tree here.</p>",
+            "<p>There is a unique minimum spanning tree, however there is more than one maximum spanning tree here.</p>",
+            "<p>There is more than one minimum spanning tree, however there is a unique maximum spanning tree here.</p>",
+            "<p>There is more than one minimum spanning tree and similarly, there is more than one second-best minimum spanning tree here.</p>",
+            "<p>There is unique minimum spanning tree, however there is more than one second-best minimum spanning tree here.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/29844/tifr-cse-2015-part-b-question-2\" target=\"_blank\">https://gateoverflow.in/29844/tifr-cse-2015-part-b-question-2</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"179297\"></a><div itemprop=\"text\"><p>Let \\( n\\geq 3, \\)&nbsp;and let \\( G \\) be a simple, connected, undirected graph with the same number \\( n \\) of vertices and edges. Each edge of&nbsp; \\( G \\) has a distinct real weight associated with it. Let \\( T \\) be the minimum weight spanning tree of \\( G. \\) Which of the following statements is NOT ALWAYS TRUE ?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2018 | Part B | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The minimum weight edge of \\( G \\) is in \\( T. \\)</p>",
+            "<p>The maximum weight edge of \\( G \\) is not in \\( T. \\)</p>",
+            "<p>\\( G \\) has a unique cycle \\( C \\) and the minimum weight edge of \\( C \\) is also in \\( T. \\)</p>",
+            "<p>\\( G \\) has a unique cycle \\( C \\) and the maximum weight edge of \\( C \\) is not in \\( T. \\)</p>",
+            "<p>\\( T \\) can be found in \\( O(n) \\) time from the adjacency list representation of \\( G. \\)</p>"
+          ],
+          "correct_answer": "<p>The maximum weight edge of \\( G \\) is not in \\( T. \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179297/tifr-cse-2018-part-b-question-13\" target=\"_blank\">https://gateoverflow.in/179297/tifr-cse-2018-part-b-question-13</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"179287\"></a><div itemprop=\"text\"><p>How many distinct minimum weight spanning trees does the following undirected, weighted graph have ?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"247\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=5151535273202239888\" width=\"244\"></p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2018 | Part B | Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/179287/tifr-cse-2018-part-b-question-3\" target=\"_blank\">https://gateoverflow.in/179287/tifr-cse-2018-part-b-question-3</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"280493\"></a><div itemprop=\"text\"><p>How many distinct minimum weight spanning trees does the following undirected, weighted graph have ?</p>\n\n<p style=\"text-align:center\"><img alt=\"\" height=\"274\" src=\"https://gateoverflow.in/?qa=blob&amp;qa_blobid=8700882534748085867\" width=\"312\"></p>\n\n\n\n\n</div><br><br><b>Algorithms: TIFR CSE 2019 | Part B | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 16 \\)</p>",
+            "<p>\\( 32 \\)</p>",
+            "<p>\\( 64 \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( 64 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/280493/tifr-cse-2019-part-b-question-2\" target=\"_blank\">https://gateoverflow.in/280493/tifr-cse-2019-part-b-question-2</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"358943\"></a><div itemprop=\"text\"><p>Let \\( G \\) be a connected bipartite simple graph (i.e., no parallel edges) with distinct edge weights. Which of the following statements on \\( \\text{MST} \\) (minimum spanning tree) need \\( \\text{NOT} \\) be true?</p>\n\n</div><br><br><b>Algorithms: TIFR CSE 2021 | Part B | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( G \\) has a unique \\( \\text{MST} \\).</p>",
+            "<p>Every&nbsp;\\( \\text{MST} \\) in&nbsp;\\( G \\) contains the lightest edge.</p>",
+            "<p>Every \\( \\text{MST} \\) in&nbsp;\\( G \\) contains the second lightest edge.</p>",
+            "<p>Every \\( \\text{MST} \\) in \\( G \\) contains the third lightest edge.</p>",
+            "<p>No&nbsp;\\( \\text{MST} \\) in&nbsp;\\( G \\) contains the heaviest edge.</p>"
+          ],
+          "correct_answer": "E",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/358943/tifr-cse-2021-part-b-question-10\" target=\"_blank\">https://gateoverflow.in/358943/tifr-cse-2021-part-b-question-10</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Cloud Computing - Cloud Computing",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Cloud Computing",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"435360\"></a><div itemprop=\"text\"><p>The cloud infrastructure solely for a single organisation within its premises is</p></div><br><br><b>Cloud Computing: ISRO CSE 2023 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>public cloud</p>",
+            "<p>private cloud</p>",
+            "<p>common cloud</p>",
+            "<p>hybrid cloud<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>private cloud</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435360/isro-cse-2023-question-36\" target=\"_blank\">https://gateoverflow.in/435360/isro-cse-2023-question-36</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"435359\"></a><div itemprop=\"text\"><p>Temporarily renting the capacity to handle spikes in load is called</p></div><br><br><b>Cloud Computing: ISRO CSE 2023 | Question: 37</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cloud sharing</p>",
+            "<p>Cloud computing</p>",
+            "<p>Cloud bursting</p>",
+            "<p>Cloud loading<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Cloud bursting</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/435359/isro-cse-2023-question-37\" target=\"_blank\">https://gateoverflow.in/435359/isro-cse-2023-question-37</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"48587\"></a><div itemprop=\"text\">\n<p>Which of the following is not provided as a service in cloud computing?</p>\n\n\n</div><br><br><b>Cloud Computing: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Infrastructure as a service</p>",
+            "<p>Architecture as a service</p>",
+            "<p>Software as a service</p>",
+            "<p>Platform as a service</p>"
+          ],
+          "correct_answer": "<p>Architecture as a service</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/48587/isro-2013-78\" target=\"_blank\">https://gateoverflow.in/48587/isro-2013-78</a></p>"
+        }
+      ]
+    }
+  ]
+});

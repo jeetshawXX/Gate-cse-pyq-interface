@@ -1,0 +1,71 @@
+{
+  "title": "Databases - Candidate Key",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Candidate Key",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335230\"></a><div itemprop=\"text\"><p>Which one is correct w.r.t. RDBMS?</p></div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>primary key&nbsp;\\( \\subseteq \\) super key \\( \\subseteq \\)&nbsp;candidate key</p>",
+            "<p>primary key&nbsp;\\( \\subseteq \\) candidate key&nbsp;\\( \\subseteq \\) super key&nbsp;</p>",
+            "<p>super key&nbsp;\\( \\subseteq \\) candidate key \\( \\subseteq \\)&nbsp;primary key&nbsp;&nbsp;</p>",
+            "<p>super key&nbsp;\\( \\subseteq \\) primary key \\( \\subseteq \\) candidate key</p>"
+          ],
+          "correct_answer": "<p>primary key&nbsp;\\( \\subseteq \\) candidate key&nbsp;\\( \\subseteq \\) super key&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335230/ugc-net-cse-january-2017-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/335230/ugc-net-cse-january-2017-part-3-question-8</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"63426\"></a><div itemprop=\"text\"><p>Consider the following database table having \\( \\text{A, B, C} \\) and \\( \\text{D} \\) as its four attributes and four possible candidate keys \\( \\text{(I, II, III and IV)} \\) for this table :</p>\n\n<p>\\( \\begin{array}{|l|l|l|l|} \\hline \\text{A} &amp; \\text{B} &amp; \\text{C} &amp; \\text{D} \\\\ \\hline&nbsp;\\text{ \\)a_1\\( } &amp; \\text{ \\)b_1\\( } &amp;&nbsp;\\text{ \\)c_1\\( } &amp; \\text{ \\)d_1\\( }&nbsp; \\\\ \\hline&nbsp;\\text{ \\)a_2\\( } &amp; \\text{ \\)b_3\\( } &amp;&nbsp;\\text{ \\)c_3\\( } &amp; \\text{ \\)d_1\\( }&nbsp; \\\\ \\hline&nbsp; \\text{ \\)a_1\\( } &amp; \\text{ \\)b_2\\( } &amp;&nbsp;\\text{ \\)c_1\\( } &amp; \\text{ \\)d_2\\( }&nbsp; \\\\ \\hline \\end{array} \\)</p>\n\n<p>\\( \\begin{array}{} \\text{I : {B}} &amp; \\text{II : {B, C}} &amp; \\text{III : {A, D}} &amp; \\text{IV : {C, D}} \\end{array} \\)</p>\n\n<p>If different symbols stand for different values in the table \\( (\\text{e.g.,}\\; d_1 \\) is definitely not equal to \\( d_2), \\) then which of the above could <u>not</u> be the candidate key for the database table?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | July 2016 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{I} \\) and \\( \\text{III} \\) only</p>",
+            "<p>\\( \\text{III} \\) and \\( \\text{IV} \\) only</p>",
+            "<p>\\( \\text{II} \\) only</p>",
+            "<p>\\( \\text{I} \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{II} \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/63426/ugc-net-cse-july-2016-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/63426/ugc-net-cse-july-2016-part-2-question-20</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"316244\"></a><div itemprop=\"text\"><p>Which of the following key constraints is required for functioning of foreign key in the context relational databases?</p></div><br><br><b>Databases: UGC NET CSE | June 2019 | Part 2 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unique key</p>",
+            "<p>Primary key</p>",
+            "<p>Candidate key</p>",
+            "<p>Check key</p>"
+          ],
+          "correct_answer": "<p>Primary key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316244/ugc-net-cse-june-2019-part-2-question-35\" target=\"_blank\">https://gateoverflow.in/316244/ugc-net-cse-june-2019-part-2-question-35</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"316243\"></a><div itemprop=\"text\"><p>In relational database management, which of the following is/are property/properties of candidate key?</p>\n\n<p>P: Uniqueness</p>\n\n<p>Q: Irreducibility</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2019 | Part 2 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>P only</p>",
+            "<p>Q only</p>",
+            "<p>Both P and Q</p>",
+            "<p>Neither P nor Q</p>"
+          ],
+          "correct_answer": "<p>Both P and Q</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316243/ugc-net-cse-june-2019-part-2-question-36\" target=\"_blank\">https://gateoverflow.in/316243/ugc-net-cse-june-2019-part-2-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

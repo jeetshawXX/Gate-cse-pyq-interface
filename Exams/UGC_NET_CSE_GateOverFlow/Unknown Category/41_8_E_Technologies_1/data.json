@@ -1,0 +1,26 @@
+{
+  "title": "Unknown Category - E Technologies",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "E Technologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"166281\"></a><div itemprop=\"text\"><p>Which of the following statements about ERP systems is <strong>true</strong>?</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | November 2017 | Part 2 | Question: 47</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Most ERP software implementations fully achieve seamless integration</p>",
+            "<p>ERP software packages are themselves combinations of separate applications for manufacturing, materials, resource planning, general ledger, human resources, procurement and order entry</p>",
+            "<p>Integration of ERP systems can be achieved in only one way</p>",
+            "<p>An ERP package implemented uniformly throughout an enterprise is likely to contain very flexible connections to allow charges and software variations</p>"
+          ],
+          "correct_answer": "<p>ERP software packages are themselves combinations of separate applications for manufacturing, materials, resource planning, general ledger, human resources, procurement and order entry</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166281/ugc-net-cse-november-2017-part-2-question-47\" target=\"_blank\">https://gateoverflow.in/166281/ugc-net-cse-november-2017-part-2-question-47</a></p>"
+        }
+      ]
+    }
+  ]
+}

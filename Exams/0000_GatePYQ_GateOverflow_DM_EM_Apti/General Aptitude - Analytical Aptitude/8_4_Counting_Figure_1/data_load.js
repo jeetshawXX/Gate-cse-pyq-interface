@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - Counting Figure",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Counting Figure",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411920\"></a><div itemprop=\"text\"><p>In how many ways can cells in a \\( 3 \\times 3  \\) grid be shaded, such that each row and each column have exactly one shaded cell? An example of one valid shading is shown.&nbsp;</p>\n\n<p style=\"text-align:center\"><img alt=\"\" src=\"images/gateOverflow_pyq_images/general_aptitude___analytical_aptitude___counting_figure/245911d0eb439d457bf99eabee71bbb9.png\" width=\"200\"></p>\n\n<p>&nbsp;</p>\n\n</div><br><br><b>GATE Civil 2023 Set 2 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 9 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 6 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411920/gate-civil-2023-set-2-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411920/gate-civil-2023-set-2-ga-question-3</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Discrete_Mathematics - Discrete_Mathematics - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Discrete_Mathematics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A given connected graph G is a Euler Graph if and only if all vertices of G are of <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>same degree</p>",
+            "<b>B.</b> <p>even degree</p>",
+            "<b>C.</b> <p>odd degree</p>",
+            "<b>D.</b> <p>different  degree</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>even degree</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55688/isro2016-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>\\(f (G,.)\\) is a group such that \\((ab)^{-1}=a^{-1}b^{-1},\\forall a,b \\in G\\), then \\(G\\) is a/an <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Commutative semi group</p>",
+            "<b>B.</b> <p>Abelian group</p>",
+            "<b>C.</b> <p>Non-abelian group</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Abelian group</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55597/isro2016-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A cube of side 1 unit is placed in such a way that the origin coincides with one of its top vertices and the three axes along three of its edges. What are the co-ordinates of the vertex which is diagonally opposite to the vertex whose co-ordinates are (1, 0, 1)? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0, 0, 0)</p>",
+            "<b>B.</b> <p>(0, -1, 0)</p>",
+            "<b>C.</b> <p>(0, 1, 0)</p>",
+            "<b>D.</b> <p>(1, 1, 1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(0, -1, 0)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55078/isro2014-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The conic section that is obtained when a right circular cone is cut through a plane that is parallel to the side of the cone is called _____ <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>parabola</p>",
+            "<b>B.</b> <p>hyperpola</p>",
+            "<b>C.</b> <p>circle</p>",
+            "<b>D.</b> <p>ellipse</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>parabola</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55004/isro2014-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Let A be a finite set having \\(x\\) elements and let B be a finite set having \\(y\\) elements. What is the number of distinct functions mapping B into A. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x^{y}\\)</p>",
+            "<b>B.</b> <p>\\(2^{(x+y)}\\)</p>",
+            "<b>C.</b> <p>\\(y^{x}\\)</p>",
+            "<b>D.</b> <p>\\(y ! /(y-x) !\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(x^{y}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54987/isro2014-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The probability that two friends are born in the same month is ____ ? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(1/6\\)</p>",
+            "<b>B.</b> <p>\\(1/12\\)</p>",
+            "<b>C.</b> <p>1/144</p>",
+            "<b>D.</b> <p>\\(1/24\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(1/12\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15032/isro2014-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The number of bit strings of length 8 that will either start with 1 or end with 00 is? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32</p>",
+            "<b>B.</b> <p>128</p>",
+            "<b>C.</b> <p>160</p>",
+            "<b>D.</b> <p>192</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>160</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/15898/isro2014-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The number of edges in a 'n' vertex complete graph is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n ^{*} (n - 1) / 2\\)</p>",
+            "<b>B.</b> <p>\\(n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n ^{*} (n + 1) / 2\\)</p>",
+            "<b>D.</b> <p>\\(n ^{*} (n + 1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(n ^{*} (n - 1) / 2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45671/isro-2013-76\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The number of elements in the power set of the set {{A, B}, C} is <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45666/isro-2013-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>How many diagonals can be drawn by joining the angular points of an octagon? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>14</p>",
+            "<b>B.</b> <p>20</p>",
+            "<b>C.</b> <p>21</p>",
+            "<b>D.</b> <p>28</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>20</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45661/isro-2013-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Let P(E) denote the probability of the occurrence of event E. If P(A)= 0.5 and P(B)=1 then the values of P(A|B) and P(B|A) respectively are <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.5, 0.25</p>",
+            "<b>B.</b> <p>0.25, 0.5</p>",
+            "<b>C.</b> <p>0.5, 1</p>",
+            "<b>D.</b> <p>1, 0.5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.5, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45660/isro-2013-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>What is the cyclomatic complexity of a module which has seventeen edges and thirteen nodes? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45560/isro-2013-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The arithmetic mean of attendance of 49 students of class A is 40% and that of 53 students of class B is 35%. Then the percentage of arithmetic mean of attendance of class A and B is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>27.20%</p>",
+            "<b>B.</b> <p>50.25%</p>",
+            "<b>C.</b> <p>51.13%</p>",
+            "<b>D.</b> <p>37.40%</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>37.40%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52863/isro2011-67\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Three coins are tossed simultaneously. The probability that they will fall two heads and one tail is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5/8</p>",
+            "<b>B.</b> <p>1/8</p>",
+            "<b>C.</b> <p>2/3</p>",
+            "<b>D.</b> <p>3/8</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3/8</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52837/isro2011-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>How many edges are there in a forest with v vertices and k components? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(v+1)-k</p>",
+            "<b>B.</b> <p>(v+1)/2-k</p>",
+            "<b>C.</b> <p>v-k</p>",
+            "<b>D.</b> <p>v+k</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>v-k</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18112/isro2011-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

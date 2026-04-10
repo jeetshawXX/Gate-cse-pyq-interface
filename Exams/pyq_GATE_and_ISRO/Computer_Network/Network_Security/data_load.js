@@ -1,0 +1,571 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Network_Security",
+  "duration": 105,
+  "sections": [
+    {
+      "name": "Network_Security",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Avalanche effect in cryptography refers <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Large changes in cipher text when the keyword is changed minimally</p>",
+            "<b>B.</b> <p>Large changes in cipher text when the plain text is changed</p>",
+            "<b>C.</b> <p>Large Impact of keyword change to length of the cipher text</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Large changes in cipher text when the keyword is changed minimally</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331416/isro2020-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>In a columnar transportation cipher, the plain text is \"the tomato is a plant in the night shade family\", keyword is \"TOMATO\". The cipher text is <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>",
+            "<b>B.</b> <p>\"TINESAX / EOAHTFX / MAIIAIX / HTLTHEY / TAPNGDL / OSTNHMX\"</p>",
+            "<b>C.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / OSTNHMX / TAPNGDL\"</p>",
+            "<b>D.</b> <p>\"EOAHTFX / TINESAX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\"TINESAX / EOAHTFX / HTLTHEY / MAIIAIX / TAPNGDL / OSTNHMX\"</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331415/isro2020-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>In an RSA cryptosystem, the value of the public modulus parameter n is 3007. If it is also is known that \\(\\phi(n)=2880\\), where \\(\\phi()\\) denotes Euler's Totient Function, then the prime factors of n which is greater than 50 is _________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "97",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302794/gate2019-cs-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which one of the following algorithm is not used in asymmetric key cryptography? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RSA Algorithm</p>",
+            "<b>B.</b> <p>Gillie-Hellman Algorithm</p>",
+            "<b>C.</b> <p>Electronic Code Book Algorithm</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Electronic Code Book Algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213510/isro2018-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>What is one advantage of setting up a DMZ (Demilitarized Zone) with two firewalls? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>You can control where traffic goes in the three networks</p>",
+            "<b>B.</b> <p>You can do statefull packet filtering</p>",
+            "<b>C.</b> <p>You can do load balancing</p>",
+            "<b>D.</b> <p>Improve network performance</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>You can control where traffic goes in the three networks</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213511/isro2018-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Avalanche effect in cryptography <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Is desirable property of cryptographic algorithm</p>",
+            "<b>B.</b> <p>Is undesirable property of cryptographic algorithm</p>",
+            "<b>C.</b> <p>Has no effect on encryption algorithm</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Is desirable property of cryptographic algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213514/isro2018-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>In cryptography, the following uses transposition ciphers and the keyword is LAYER. Encrypt the following message. (Spaces are omitted during encrypton)<br>WELCOME TO NETWORK SECURITY! <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>WMEKREETSILTWETCOOCYONRU!</p>",
+            "<b>B.</b> <p>EETSICOOCYWMEKRONRU!LTWET</p>",
+            "<b>C.</b> <p>LTWETONRU!WMEKRCOOCYEETSI</p>",
+            "<b>D.</b> <p>ONRU!COOCYLTWETEETSIWMEKR</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EETSICOOCYWMEKRONRU!LTWET</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213542/isro2018-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Pretty Good Privacy (PGP) is used in: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Browser security</p>",
+            "<b>B.</b> <p>FTP security</p>",
+            "<b>C.</b> <p>Email security</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Email security</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128669/isro2017-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>MD5 is a widely used hash function for producing hash value of <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>64 bits</p>",
+            "<b>B.</b> <p>128 bits</p>",
+            "<b>C.</b> <p>512 bits</p>",
+            "<b>D.</b> <p>1024 bits</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>128 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128663/isro2017-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a RSA cryptosystem a participant A uses two prime numbers p=13 and q=17 to generate\nher public and private keys. If the public key of A is 35. Then the private key of A is\n__________. <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "11",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/118327/gate2017-1-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A sender S sends a message m to receiver R, which is digitally signed by S with its\nprivate key. In this scenario, one or more of the following security violations can take place. <br><br>\nI. S can launch a birthday attack to replace m with a fraudulent message.<br>\nII. A third party attacker can launch a birthday attack to replace m with a fraudulent message  <br>  III. R can launch a birthday attack to replace m with a fraudulent message.<br><br>\nWhich of the following are possible security violations? <br><br><strong>(GATE CSE 2017 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>I only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>II and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/118295/gate2017-1-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>If a class C is derived from class B, which is derived form class A, all through public inheritance, then a class C member function can access <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only protected and public data of C and B</p>",
+            "<b>B.</b> <p>Only protected and public data of C</p>",
+            "<b>C.</b> <p>all data of C and private data of A and B</p>",
+            "<b>D.</b> <p>public and protected data of A and B and all data of C</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>public and protected data of A and B and all data of C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55530/isro2016-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Anarkali digitally signs a message and sends it to Salim. Verification of the signature by Salim requires <br><br><strong>(GATE CSE 2016 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Anarkali's public key</p>",
+            "<b>B.</b> <p>Salim's public key.</p>",
+            "<b>C.</b> <p>Salim's private key</p>",
+            "<b>D.</b> <p>Anarkali's private key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Anarkali's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/39555/gate2016-2-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider that B wants to send a message m that is digitally signed to A. Let the pair of private and public keys for A and B be denoted by \\(K_{x}^{-}\\)\nand \\(K_{x}^{+}\\) for x = A,B, respectively. Let  \\(K_{x}(m)\\)\nrepresent the operation of encrypting m with a key \\(K_{x}\\) and H(m) represent the message digest. Which one of the following indicates the CORRECT way of sending the message m along with the digital signature to A? <br><br><strong>(GATE CSE 2016 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{\\(m,K^{+}_{B}(H(m))\\)}</p>",
+            "<b>B.</b> <p>{\\({m,K^{-}_{B}(H(m))}\\)}</p>",
+            "<b>C.</b> <p>{\\({m,K^{-}_{A}(H(m))}\\)}</p>",
+            "<b>D.</b> <p>{\\({m,K^{+}_{A}(H(m))}\\)}</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>{\\({m,K^{-}_{B}(H(m))}\\)}</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/39694/gate2016-1-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose that everyone in a group of N people wants to communicate secretly with the N-1 others using symmetric key cryptographic system. The communication between any two persons should not be decodable by the others in the group. The number of keys required in the system as a whole to satisfy the confidentiality requirement is <br><br><strong>(GATE CSE 2015 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2N</p>",
+            "<b>B.</b> <p>N(N-1)</p>",
+            "<b>C.</b> <p>N(N-1)/2</p>",
+            "<b>D.</b> <p>\\((N-1)^{2}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>N(N-1)/2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/8244/gate2015-1-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>In a system an RSA algorithm with p=5 and q=11, is implemented for data security. What is the value of the decryption key if the value of the encryption key is 27? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>27</p>",
+            "<b>D.</b> <p>40</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17421/isro2014-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Which one of the following are used to generate a message digest by the network security\nprotocols? <br>(P) RSA <br>(Q) SHA-1 <br>(R) DES <br>(S) MD5 <br><br><strong>(GATE CSE 2014 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P and R only</p>",
+            "<b>B.</b> <p>Q and R only</p>",
+            "<b>C.</b> <p>Q and S only</p>",
+            "<b>D.</b> <p>R and S only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Q and S only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1791/gate2014-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Which of the following encryption algorithms is based on the Feistal structure? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Advanced Encryption Standard</p>",
+            "<b>B.</b> <p>RSA public key cryptographic algorithm</p>",
+            "<b>C.</b> <p>Data Encryption standard</p>",
+            "<b>D.</b> <p>RC4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Data Encryption standard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44152/isro-2013-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>What will be the cipher text produced by the following cipher function for the plain text ISRO with key k=7. [ Consider \\('A'=0, 'B'=1,....'Z'=25\\)]<br>\n\\(C_{k} (M) = (kM + 13) \\mod 26\\) <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RJCH</p>",
+            "<b>B.</b> <p>QIBG</p>",
+            "<b>C.</b> <p>GQPM</p>",
+            "<b>D.</b> <p>XPIN</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RJCH</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43843/isro-2013-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Using public key cryptography, X adds a digital signature \\(\\sigma\\)  to message M, encrypts \\(\\lt M, \\sigma \\gt\\), and\nsends it to Y, where it is decrypted. Which one of the following sequences of keys is used for the\noperations? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Encryption: X's private key followed by Y's private key; Decryption: X's public key followed\nby Y's public key</p>",
+            "<b>B.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: X's public key followed\nby Y's private key</p>",
+            "<b>C.</b> <p>Encryption: X's public key followed by Y's private key; Decryption: Y's public key followed\nby X's private key</p>",
+            "<b>D.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\nby X's public key</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Encryption: X's private key followed by Y's public key; Decryption: Y's private key followed\nby X's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1435/gate2013-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>In which layer of  network architecture, the secured socket layer (SSL) is used? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>physical layer</p>",
+            "<b>B.</b> <p>session layer</p>",
+            "<b>C.</b> <p>application layer</p>",
+            "<b>D.</b> <p>presentation layer</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>presentation layer</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18114/isro2011-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>An example of poly-alphabetic substitution  is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-box</p>",
+            "<b>B.</b> <p>S-box</p>",
+            "<b>C.</b> <p>Caesar cipher</p>",
+            "<b>D.</b> <p>Vigenere cipher</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Vigenere cipher</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52452/isro2011-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Use of IPSEC in tunnel mode results in <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IP packet with same header</p>",
+            "<b>B.</b> <p>IP packet with new header</p>",
+            "<b>C.</b> <p>IP packet without header</p>",
+            "<b>D.</b> <p>No changes in IP packet</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>IP packet with new header</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47319/isro2009-74\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Advanced Encryption Standard (AES) is based on <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Asymmetric key algorithm</p>",
+            "<b>B.</b> <p>Symmetric key algorithm</p>",
+            "<b>C.</b> <p>Public key algorithm</p>",
+            "<b>D.</b> <p>Key exchange</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Symmetric key algorithm</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47820/isro2009-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>SHA-1 is a <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>encryption algorithm</p>",
+            "<b>B.</b> <p>decryption algorithm</p>",
+            "<b>C.</b> <p>key exchange algorithm</p>",
+            "<b>D.</b> <p>message digest function</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>message digest function</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45659/isro2009-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>In the RSA public key cryptosystem, the private and public keys are (e,n) and\n(d,n) respectively, where n=p*q and p and q are large primes. Besides, n is\npublic and p and q are private. Let M be an integer such that \\(0 \\lt M \\lt n\\) and\n\\(\\phi (n)= (p-1)(q-1)\\). Now consider the following equations. <br><br>  I.   \\( M'=M^{e} mod \\; n\\) <br> \\(M=(M')^{d}mod  \\;  n \\) <br><br> II. ed=1 mod n  <br><br> III. ed=1 mod \\(\\phi (n)\\) <br> <br>IV. \\(M'=M^{e}mod  \\;  \\phi (n)\\)<br> \\(M=(M')^{d}mod  \\;  \\phi (n)\\) <br><br>Which of the above equations correctly represent RSA cryptosystem? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II</p>",
+            "<b>B.</b> <p>I and III</p>",
+            "<b>C.</b> <p>II and IV</p>",
+            "<b>D.</b> <p>III and IV</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1332/gate2009-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>A public key encryption system <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>allows anyone to decode the transmissions</p>",
+            "<b>B.</b> <p>allows only the correct sender to decode the data</p>",
+            "<b>C.</b> <p>allows only the correct receiver to decode the data</p>",
+            "<b>D.</b> <p>does not encode the data before transmitting it</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>allows only the correct receiver to decode the data</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50001/isro2008-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>The total number of keys required for a set of n individuals to be able to communicate with each other using secret key and public key cryptosystems, respectively are: <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n(n-1) \\text { and } 2 n\\)</p>",
+            "<b>B.</b> <p>\\(2 n \\text { and } \\frac{n(n-1)}{2}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } 2 n\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } n\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\frac{n(n-1)}{2} \\text { and } 2 n\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3384/gate2008-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>Hashed message is signed by a sender using his <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>his public key</p>",
+            "<b>B.</b> <p>his private key</p>",
+            "<b>C.</b> <p>receiver's public key</p>",
+            "<b>D.</b> <p>receiver's private key</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>his private key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49641/isro2007-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>The standard for certificates used on internet is <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>X.25</p>",
+            "<b>B.</b> <p>X.301</p>",
+            "<b>C.</b> <p>X.409</p>",
+            "<b>D.</b> <p>X.509</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>X.509</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49640/isro2007-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>SSL is not responsible for <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual authentication of client &amp; server</p>",
+            "<b>B.</b> <p>Secret communication</p>",
+            "<b>C.</b> <p>Data Integrity protection</p>",
+            "<b>D.</b> <p>Error detection and correction</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Error detection and correction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49638/isro2007-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>You are given the following four bytes :<br>\n\\(\\begin{array}{|l|l|l|l|l|l|l|l|l|l|} \\hline 10100011 &amp; 00110111 &amp; 11101001 &amp; 10101011 \\\\ \\hline \\end{array}\\)<br>\nWhich of the following are substrings of the base 64 encoding of the above four bytes? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>zdp</p>",
+            "<b>B.</b> <p>fpq</p>",
+            "<b>C.</b> <p>qwA</p>",
+            "<b>D.</b> <p>oze</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>fpq</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3515/gate2007-it-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>A firewall is to be configured to allow hosts in a private network to freely open TCP connections and send packets on open connections. However, it will only allow external hosts to send packets on existing open TCP connections or connections that are being opened (by internal hosts) but not allow them to open TCP connections to hosts in the private network. To achieve this the minimum capability of the firewall should be that of <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A combinational circuit</p>",
+            "<b>B.</b> <p>A finite automaton</p>",
+            "<b>C.</b> <p>A pushdown automaton with one stack</p>",
+            "<b>D.</b> <p>A pushdown automaton with two stack</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A pushdown automaton with two stack</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3451/gate2007-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>The minimum positive integer p such that  \\(3^{p} \\pmod {17} = 1\\) is <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>12</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3449/gate2007-it-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Consider the following two statements:<br>\ni.A hash function (these are often used for computing digital signatures) is an injective function.<br>\nii.A. encryption technique such as DES performs a permutation on the elements of its input alphabet.<br>\nWhich one of the following options is valid for the above two statements? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both are false</p>",
+            "<b>B.</b> <p>Statement (i) is true and the other is false</p>",
+            "<b>C.</b> <p>Statement (ii) is true and the other is false</p>",
+            "<b>D.</b> <p>Both are true</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Statement (ii) is true and the other is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3448/gate2007-it-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Which of the following statement(s) is TRUE?<br><br>\nI.  A hash function takes a message of arbitrary length and generates a fixed length code.<br>\nII. A hash function takes a message of fixed length and generates a code of variable length.<br>\nIII. A hash function may give the same hash value for distinct messages. <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>I and III only</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3559/gate2006-it-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Suppose that two parties A and B wish to setup a common secret key (D-H key) between themselves using the Diffie-Hellman key exchange technique. They agree on 7 as the modulus and 3 as the primitive root. Party A chooses 2 and party B chooses 5 as their respective secrets. Their D-H key is <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>6</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3843/gate2005-it-79\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>A sender is employing public key cryptography to send a secret message to a receiver. Which one of the following statements is TRUE? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sender encrypts using receiver's public key</p>",
+            "<b>B.</b> <p>Sender encrypts using his own public key</p>",
+            "<b>C.</b> <p>Receiver decrypts using sender's public key</p>",
+            "<b>D.</b> <p>Receiver decrypts using his own public key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sender encrypts using receiver's public key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3666/gate2004-it-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

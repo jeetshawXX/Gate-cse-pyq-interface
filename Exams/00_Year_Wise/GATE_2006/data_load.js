@@ -1,0 +1,1286 @@
+window.__examLoadCallback({
+  "title": "Year_Wise - GATE_2006",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_2006",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the polynomial \\(p(x)=a_{0}+a_{1}x+a_{2}x^{2} + a_{3}x^{3}\\), where \\(a_{i}\\neq 0,\\forall i\\). The minimum number of multiplications needed to evaluate p on an input x is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/792/gate2006-1#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let X, Y, Z be sets of sizes x, y and z respectively. Let W=X\\(\\times\\)Y and E be the\nset of all subsets of W. The number of functions from Z to E is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(Z^{2xy}\\)</p>",
+            "<b>B.</b> <p>\\(Z*2^{xy}\\)</p>",
+            "<b>C.</b> <p>\\(Z^{2x+y}\\)</p>",
+            "<b>D.</b> <p>\\(2^{xyz}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{xyz}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/881/gate2006-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The set {1, 2, 3, 5, 7, 8, 9} under multiplication modulo 10 is not a group. Given\nbelow are four plausible reasons. Which one of them is false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It is not closed</p>",
+            "<b>B.</b> <p>2 does not have an inverse</p>",
+            "<b>C.</b> <p>3 does not have an inverse</p>",
+            "<b>D.</b> <p>8 does not have an inverse</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>3 does not have an inverse</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/882/gate2006-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A relation R is defined on ordered pairs of integers as follows:<br>\n(x,y)R(u,v) if x\\(\\lt\\)u and y\\(\\gt\\)v. Then R is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Neither a Partial Order nor an Equivalence Relation</p>",
+            "<b>B.</b> <p>A Partial Order but not a Total Order</p>",
+            "<b>C.</b> <p>A Total Order</p>",
+            "<b>D.</b> <p>An Equivalence Relation</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Neither a Partial Order nor an Equivalence Relation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/883/gate2006-4#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>For which one of the following reason does Internet Protocol (IP) use the timeto-live (TTL) field in the IP datagram header?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ensure packets reach destination within that time</p>",
+            "<b>B.</b> <p>Discard packets that reach later than that time</p>",
+            "<b>C.</b> <p>Prevent packets from looping indefinitely</p>",
+            "<b>D.</b> <p>Limit the time for which a packet gets queued in intermediate routers</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Prevent packets from looping indefinitely</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/884/gate2006-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider three CPU-intensive processes, which require 10,20 and 30 time units\nand arrive at times 0,2, and 6, respectively. How many context switches are needed\nif the operating system implements a shortes remaining time first scheduling\nalgorithm? Do not count the context switches at time zero and at the end</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>3</p>",
+            "<b>D.</b> <p>4</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/885/gate2006-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following grammar. <br>\nS \\(\\rightarrow\\) S * E <br>\nS \\(\\rightarrow\\) E <br>\nE \\(\\rightarrow\\) F + E <br>\nE \\(\\rightarrow\\) F   <br>                                                                                                F F \\(\\rightarrow\\) id <br>\nConsider the following LR(0) items corresponding to the grammar above. <br>\n(i) S \\(\\rightarrow\\) S * .E<br>\n(ii) E \\(\\rightarrow\\) F. + E<br>\n(iii) E \\(\\rightarrow\\) F + .E<br>\nGiven the items above, which two of them will appear in the same set in the\ncanonical sets-of-items for the grammar?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(i) and (ii)</p>",
+            "<b>B.</b> <p>(ii) and (iii)</p>",
+            "<b>C.</b> <p>(i) and (iii)</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/886/gate2006-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>You are given a free running clock with a duty cycle of 50% and a digital waveform\nf which changes only at the negative edge of the clock. Which one of the following\ncircuits (using clocked D flip flops) will delay the phase of f by \\(180^{\\circ}\\) ?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q8_ab7840a0.jpg\"> <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q8b_f9d0bfca.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/887/gate2006-8#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A CPU has 24-bit instructions. A program starts at address 300 (in decimal). Which one of the following is a legal program counter (all values in decimal)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>400</p>",
+            "<b>B.</b> <p>500</p>",
+            "<b>C.</b> <p>600</p>",
+            "<b>D.</b> <p>700</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>600</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/888/gate2006-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>In a binary max heap containing n numbers, the smallest element can be found in time</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (logn)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (log logn)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (1)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/889/gate2006-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a weighted complete graph G on the vertex set {\\(v_{1},v_{2},...,v_{n}\\)} such that the weight of the edge (\\(v_{i},v_{j}\\)) is 2|i-j|. The weight of a minimum spanning tree</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>2n-2</p>",
+            "<b>C.</b> <p>\\(\\binom{n}{2}\\)</p>",
+            "<b>D.</b> <p>\\(n^{2}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2n-2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/890/gate2006-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>To implement Dijkstra's shortest path algorithm on unweighted graphs so that it\nruns in linear time, then data structure to be used is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Queue</p>",
+            "<b>B.</b> <p>Stack</p>",
+            "<b>C.</b> <p>Heap</p>",
+            "<b>D.</b> <p>B-Tree</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Queue</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/891/gate2006-12#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A scheme for storing binary trees in an array X is as follows. Indexing of X starts\nat 1 instead of 0. The roots is stored at X[1]. For a node stored at X[i], the left\nchild, if any, is stored in X[2i] and the right child, if any, in X[2i + 1]. To be able\nto store any binary tree on n vertices, the minimum size of X should be</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>log n</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>2n+1</p>",
+            "<b>D.</b> <p>\\(2^{n}-1\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(2^{n}-1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/974/gate2006-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which one the following in place sorting algorithms needs the minimum number\nof swaps?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Quick-sort</p>",
+            "<b>B.</b> <p>Insertion sort</p>",
+            "<b>C.</b> <p>Selection sort</p>",
+            "<b>D.</b> <p>Heap sort</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Selection sort</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/975/gate2006-14#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following C-program fragment in which i, j,and n are integer variables.<pre><code>for (i = n, j = 0; i &gt; 0; i/=2, j += i);</code></pre>\nLet Val(j) denote the value stored in the variable j after termination of the for\nloop. Which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>val(j)=\\(\\Theta\\)(logn)</p>",
+            "<b>B.</b> <p>val(j)=\\(\\Theta\\)(sqrt(n))</p>",
+            "<b>C.</b> <p>val(j)=\\(\\Theta\\)(n)</p>",
+            "<b>D.</b> <p>val(j)=\\(\\Theta\\)(nlogn)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>val(j)=\\(\\Theta\\)(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/976/gate2006-15#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Let S be an NP-complete problem Q and R be two other problems not known to\nbe in NP. Q is polynomial-time reducible to S and S is polynomial-time reducible\nto R. Which one of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>R is NP-complete</p>",
+            "<b>B.</b> <p>R is NP-hard</p>",
+            "<b>C.</b> <p>Q is NP-complete</p>",
+            "<b>D.</b> <p>Q is NP-hard</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>R is NP-hard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/977/gate2006-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>An element in an array X is called a leader if it is grater than all elements to the\nright of it in X. The best algorithm to find all leaders in an array.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Solves it in linear time using a left to right pass of the array</p>",
+            "<b>B.</b> <p>Solves in linear time using a right to left pass of the array</p>",
+            "<b>C.</b> <p>Solves it is using divide and conquer in time \\(\\Theta\\)(nlogn)</p>",
+            "<b>D.</b> <p>Solves it in time \\(\\Theta (n^{2})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Solves in linear time using a right to left pass of the array</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/978/gate2006-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>We are given a set \\(X=\\{x_{1},...,x_{n}\\}\\) where \\(x_{i}=2^{i}\\). A sample \\(S\\subseteq X\\)  is drawn by selecting each   \\(x_{i}\\) independently with probability \\(p_{i}=\\frac{1}{2}\\). The expected value of the smallest number in sample S is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1/n</p>",
+            "<b>B.</b> <p>2</p>",
+            "<b>C.</b> <p>\\(\\sqrt{n}\\)</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/979/gate2006-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Let  \\(L_{1}=\\{0^{n+m}1^{n}0^{m}|n,m\\geq 0\\}\\) <br> \\(L_{2}=\\{0^{n+m}1^{n+m}0^{m}|n,m\\geq 0\\}\\) <br> \\(L_{3}=\\{0^{n+m}1^{n+m}0^{n+m}|n,m\\geq 0\\}\\)<br> <br>Which of these languages are NOT context free?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1 only</p>",
+            "<b>B.</b> <p>L3 only</p>",
+            "<b>C.</b> <p>L1 and L2</p>",
+            "<b>D.</b> <p>L2 and L3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>L2 and L3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/980/gate2006-19#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider the following log sequence of two transactions on a bank account, with\ninitial balance 12000,that transfer 2000 to a mortgage payment and, then apply\na 5% interest. <br><br>\n1. T1 start <br>\n2. T1 B old = 12000 new = 10000 <br>\n3. T1 M old = 0 ne = 2000<br>\n4. T1 commit <br>\n5. T2 start<br>\n6. T2 B old = 10000 new = 10500 <br>\n7. T2 commit<br><br>\nSuppose the database system crashed just before log record 7 is written. When\nthe system is restarted, which one statement is true of the recovery procedure?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>We must redo log record 6 to set B to 10500</p>",
+            "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2 and 3</p>",
+            "<b>C.</b> <p>We need not redo log records 2 and 3 because transaction T1 has committed</p>",
+            "<b>D.</b> <p>We can apply redo and undo operations in arbitrary order because they are\nidempotent</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>We must undo log record 6 to set B to 10000 and then redo log records 2 and 3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/981/gate2006-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>For each element in set of size 2n, an unbiased coin is tossed. The 2n coin tossed\nare independent. An element is chosen if the corresponding coin toss were head.\nThe probability that exactly n elements are chosen is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\frac{\\binom{2n}{n}}{4^{n}}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{\\binom{2n}{n}}{2^{n}}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{\\binom{2n}{n}}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{1}{2}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\frac{\\binom{2n}{n}}{4^{n}}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/982/gate2006-21#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Let E,F and G be finite sets.<br>\nLet X=(E \\(\\cap\\)F) - (F\\(\\cap\\)G) and Y = (E - (E\\(\\cap\\)G)) - (E - F).  <br> Which one of the\nfollowing is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(X\\subset Y\\)</p>",
+            "<b>B.</b> <p>\\(X\\supset Y\\)</p>",
+            "<b>C.</b> <p>X=Y</p>",
+            "<b>D.</b> <p>\\(X-Y\\neq \\phi\\) and \\(Y-X\\neq \\phi\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>X=Y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/983/gate2006-22#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>F is an nxn real matrix. b is an nx1 real vector. Suppose there are two nx1\nvectors, u and v such that u\\(\\neq\\)v , and Fu=b, Fv=b.\nWhich one of the following statements is false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Determinant of F is zero</p>",
+            "<b>B.</b> <p>There are an infinite number of solutions to Fx = b</p>",
+            "<b>C.</b> <p>There is an x\\(\\neq\\)0 such that Fx = 0</p>",
+            "<b>D.</b> <p>F must have two identical rows</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>F must have two identical rows</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/984/gate2006-23#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Given a set of elements N = {1,2,...,n} and two arbitrary subsets A\\(\\subseteq\\)N and\nB\\(\\subseteq\\)N , how many of the n! permutations p from N to N satisfy min[p(A)]=min[p(B)], where min(S) is the smallest integer in the set of integers S and\np(S) is the set of integers obtained by applying permutation p to each element of S ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((n-|A\\cup B|)|A||B|\\)</p>",
+            "<b>B.</b> <p>\\((|A|^{2}+|B|^{2})n^{2}\\)</p>",
+            "<b>C.</b> <p>\\(n!(|A\\cap B|/|A\\cup B|)\\)</p>",
+            "<b>D.</b> <p>\\(|A\\cap B|^{2}/\\binom{n}{|A\\cup B|^{2}}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(n!(|A\\cap B|/|A\\cup B|)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/987/gate2006-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Let S={1,2,3....,m},m \\(\\gt \\) 3. Let \\(X_{1},...,X_{n}\\) be subsets of S each of size 3.\nDefine a function f from S to the set of natural numbers as, f(i) is the number of sets \\(X_{j}\\) that contain the element i. That is \\(f(i)=|\\{j|i\\in X_{j}\\}|\\). Then \\(\\sum_{i=1}^{m}f(i)\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3m</p>",
+            "<b>B.</b> <p>3n</p>",
+            "<b>C.</b> <p>2m+1</p>",
+            "<b>D.</b> <p>2n+1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>3n</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/988/gate2006-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Which one of the first order predicate calculus statements given below correctly\nexpresses the following English statement? <br><br>Tigers and lions attack if they are hungry or threatened.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\wedge lion(x))\\rightarrow \\) \\(\\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}]\\)</p>",
+            "<b>B.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\(\\{(hungry(x)\\vee theatened(x))\\wedge attacks(x)\\}]\\)</p>",
+            "<b>C.</b> <p>\\(\\forall x\\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\( \\{attacks (x)\\rightarrow (hungry(x)\\wedge theatened(x))\\}]\\)</p>",
+            "<b>D.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\( \\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}]\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\forall x \\) \\([(tiger(x)\\vee lion(x))\\rightarrow \\) \\( \\{(hungry(x)\\vee theatened(x))\\rightarrow attacks(x)\\}]\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/989/gate2006-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Consider the following propositional statements: <br> \\(P1:((A\\wedge B)\\rightarrow C)\\equiv (A\\rightarrow C)\\wedge (B\\rightarrow C)\\) <br> \\( P2:((A\\vee B)\\rightarrow C)\\equiv (A\\rightarrow C)\\vee (B\\rightarrow C) \\)<br> Which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P1 is a tautology, but not P2</p>",
+            "<b>B.</b> <p>P2 is a tautology, but not P1</p>",
+            "<b>C.</b> <p>P1 and P2 are both tautologies</p>",
+            "<b>D.</b> <p>Both P1 and P2 are not tautologies</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Both P1 and P2 are not tautologies</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/990/gate2006-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>A logical binary relation \\(\\square\\) , is defined as follows <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q28_44ec0537.jpg\"> Let \\(\\neg\\) be the unary negation (NOT) operator, with higher precedence, than \\(\\square\\).\nWhich one of the following is equivalent to A\\(\\wedge\\)B?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((\\neg A\\square B)\\)</p>",
+            "<b>B.</b> <p>\\(\\neg (A\\square \\neg B)\\)</p>",
+            "<b>C.</b> <p>\\(\\neg (\\neg A\\square \\neg B)\\)</p>",
+            "<b>D.</b> <p>\\(\\neg (\\neg A\\square B)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\neg (\\neg A\\square B)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/991/gate2006-28#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>If s is a string over (0+1)*, then let \\(n_0 (s)\\) denote the number of 0's in s and \\(n_1 (s)\\)\nthe number of 1's in s. Which one of the following languages is not regular?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L = {s \\(\\in\\) (0+1)* | \\(n_0 (s)\\) is a 3-digit prime}</p>",
+            "<b>B.</b> <p>L = {s \\(\\in\\) (0+1)* | for every prefix s' of s,  |\\(n_0 (s') - n_1 (s')\\)| \\(\\leq\\) 2}</p>",
+            "<b>C.</b> <p>L = {s \\(\\in\\) (0+1)* |\\(n_0 (s) - n_1 (s)\\)| \\(\\leq\\) 4}</p>",
+            "<b>D.</b> <p>L = {s \\(\\in\\) (0+1)* | \\(n_0(s)\\) mod 7 = \\(n_1(s)\\) mod 5 = 0}</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>L = {s \\(\\in\\) (0+1)* |\\(n_0 (s) - n_1 (s)\\)| \\(\\leq\\) 4}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/992/gate2006-29#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>For \\(S \\in (0+1)^{*}\\),  let d(s) denote the decimal value of s (e.g.   d(101)=5).<br>   Let L={s \\(\\in\\) (0+1)*| d(s) mod 5=2 and d(s) mod 7\\(\\neq\\)4}<br> Which one of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is recursively enumerable, but not recursive</p>",
+            "<b>B.</b> <p>L is recursive, but not context-free</p>",
+            "<b>C.</b> <p>L is context-free, but not regular</p>",
+            "<b>D.</b> <p>Lis regular</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Lis regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/993/gate2006-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>Let SHAM3 be the problem of finding a Hamiltonian cycle in a graph G=(V,E) with |V| divisible by 3 and DHAM3 be the problem of determining if a Hamltonian cycle exists in such graphs. Which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both DHAM3 and SHAM3 are NP-hard</p>",
+            "<b>B.</b> <p>SHAM3 is NP-hard, but DHAM3 is not</p>",
+            "<b>C.</b> <p>DHAM3 is NP-hard, but SHAM3 is not</p>",
+            "<b>D.</b> <p>Neither DHAM3 nor SHAM3 is NP-hard</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Both DHAM3 and SHAM3 are NP-hard</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/994/gate2006-31#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider the following statements about the context-free grammer <br> \\(G=\\{S\\rightarrow SS, S\\rightarrow ab, S\\rightarrow ba, S\\rightarrow \\varepsilon  \\}\\) <br> 1. G is ambiguous <br>\n2. G produces all strings with equal number of a's  and b's <br> 3.\nG can be accepted by a deterministic PDA. <br>\nWhich combination below expresses all the true statements about G?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I Only</p>",
+            "<b>B.</b> <p>I and III only</p>",
+            "<b>C.</b> <p>II and III only</p>",
+            "<b>D.</b> <p>I,II and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>I and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/995/gate2006-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Let L1 be regular language, L2 be a deterministic context-free language and L3 a\nrecursively enumerable, but not recursive, language. Which one of the following\nstatements is false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_{1}\\cap L_{2}\\) is a deterministic CFL</p>",
+            "<b>B.</b> <p>\\(L_{3}\\cap L_{1}\\) is recursive</p>",
+            "<b>C.</b> <p>\\(L_{1}\\cup L_{2}\\) is context-free</p>",
+            "<b>D.</b> <p>\\(L_{1}\\cap L_{2}\\cap L_{3}\\) is recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(L_{3}\\cap L_{1}\\) is recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/996/gate2006-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Consider the regular language L = (111 + 11111)* . The minimum number of\nstates in any DFA accepting this languages is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1291/gate2006-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>Consider the circuit below. Which one of the following options correctly represents\nf (x,y,z)? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q35_e2a87eab.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x\\bar{z}+xy+\\bar{y}z\\)</p>",
+            "<b>B.</b> <p>\\(x\\bar{z}+xy+\\overline{yz}\\)</p>",
+            "<b>C.</b> <p>\\(xz+xy+\\overline{yz}\\)</p>",
+            "<b>D.</b> <p>\\(xz+x\\bar{y}+\\bar{y}z\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(x\\bar{z}+xy+\\bar{y}z\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1292/gate2006-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Given two three bit numbers \\(a_{2}a_{1}a_{0}\\) and \\(b_{2}b_{1}b_{0}\\) and c, the carry in, the function\nthat represents the carry generate function when these two numbers are added is <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q36_671104cb.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1294/gate2006-36#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Consider the circuit in the diagram. The \\(\\oplus\\) operator represents Ex-OR. The D flip-flops are initialized to zeroes (cleared). <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q37_0fb4170a.jpg\"><br>  The following data : 100110000 is supplied to the \"data\" terminal in nine clock cycles. After that the values of \\(q_{2}q_{1}q_{0}\\) are</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(000\\)</p>",
+            "<b>B.</b> <p>\\(001\\)</p>",
+            "<b>C.</b> <p>\\(010\\)</p>",
+            "<b>D.</b> <p>\\(101\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(010\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1295/gate2006-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider a boolean function f (w,x,y,z). Suppose that exactly one of its inputs is allowed to change at a time. If the function happens to be true for two input vectors i1=(w1,x1,y1,z1) and i2=(w2,x2,y2,z2), we would like the function to remain true as the input changes from i1 to i2(i1 and i2 differ in exactly one bit position), without becoming false momentarily. Let f(w,x,y,z)=\\(\\Sigma\\)(5,7,11,12,13,15).  Which of the following cube covers of f will ensure that the required property\nis satisfied?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{w}xz,wx\\bar{y},x\\bar{y}z,xyz,wyz\\)</p>",
+            "<b>B.</b> <p>\\(wxy,\\bar{w}xz,wyz\\)</p>",
+            "<b>C.</b> <p>\\(wx\\bar{yz},xz,w\\bar{x}yz\\)</p>",
+            "<b>D.</b> <p>\\(wx\\bar{y},wyz,wxz,\\bar{w}xz,x\\bar{y}z,xyz\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(wx\\bar{y},wyz,wxz,\\bar{w}xz,x\\bar{y}z,xyz\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1814/gate2006-38#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>We consider addition of two 2's complement numbers \\(b_{n-1}b_{n-2}...b_{0}\\) and\n\\(a_{n-1}a_{n-2}...a_{0}\\). A binary Combinational Circuit for adding unsigned binary numbers is used to add\nthe two numbers. The sum is denoted by \\(c_{n-1}c_{n-2}...c_{0}\\) and the carryout by \\(c_{out}\\) .\nWhich one of the following options correctly identifies the overflow condition? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q39_05a110d1.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1815/gate2006-39#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>Consider number represented in 4-bit gray code. Let \\(h_3h_2h_1h_0\\) be the gray code\nrepresentation of a number n and let \\(g_3g_2g_1g_0\\)  be the gray code of (n+1) (modulo 16) value of the number. Which one of the following functions is correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(g_0(h_3h_2h_1h_0)\\) = \\(\\sum\\) (1,2,3,6,10,13,14,15)</p>",
+            "<b>B.</b> <p>\\(g_1(h_3h_2h_1h_0)\\) = \\(\\sum\\) (4,9,10,11,12,,13,14,15)</p>",
+            "<b>C.</b> <p>\\(g_2(h_3h_2h_1h_0)\\) = \\(\\sum\\) (2,4, 5,6,7,12,,13,15)</p>",
+            "<b>D.</b> <p>\\(g_3(h_3h_2h_1h_0)\\) = \\(\\sum\\) (0,1,6,7, 10,11,12,,13,)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(g_2(h_3h_2h_1h_0)\\) = \\(\\sum\\) (2,4, 5,6,7,12,,13,15)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1816/gate2006-40#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>A CPU has a cache with block size 64 bytes. The main memory has k banks, each\nbank being c bytes wide. Consecutive c-byte chunks are mapped on consecutive\nbanks with warp-around. All the k banks can be accessed in parallel, but two\naccesses to the same bank must be serialized. A cache block access may involve\nmultiple iterations of parallel bank accesses depending on the amount of data\nobtained by accessing all the k banks in parallel. Each iteration requires decoding\nthe bank numbers to be accessed in parallel and this takes k/2 ns . The latency of\none bank access is 80 ns . If c = 2 and k=24, then latency of retrieving a cache\nblock starting at address zero from main memory is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>92ns</p>",
+            "<b>B.</b> <p>104ns</p>",
+            "<b>C.</b> <p>172ns</p>",
+            "<b>D.</b> <p>184ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>184ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1817/gate2006-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>A CPU has five-stages pipeline and runs at 1GHz frequency. Instruction fetch\nhappens in the first stage of the pipeline. A conditional branch instruction\ncomputes the target address and evaluates the condition in the third stage of the\npipeline. The processor stops fetching new instructions following a conditional\nbranch until the branch outcome is known. A program executes \\(10^{9}\\) instructions\nout of which 20% are conditional branches. If each instruction takes one cycle to\ncomplete on average, then total execution time of the program is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1.0 second</p>",
+            "<b>B.</b> <p>1.2 seconds</p>",
+            "<b>C.</b> <p>1.4 seconds</p>",
+            "<b>D.</b> <p>1.6 seconds</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1.4 seconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1818/gate2006-42#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Consider a new instruction named branch-on-bit-set (mnemonic bbs). The\ninstruction \"bbs reg, pos, labbel\" jumps to label if bit in position pos of register\noperand reg is one. a register is 32 bits wide and the bits are numbered 0 to 31,\nbit in position 0 being the least significant. Consider the following emulation of\nthis instruction on a processor that does not have bbs implemented. <br><br>\ntemp\\(\\leftarrow \\)reg &amp; mask <br>\nBranch to label if temp is non-zero<br><br>\nThe variable temp is a temporary register. For correct emulation the variable\nmask must be generated by</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>mask \\(\\leftarrow 0 \\times 1 \\lt \\lt pos\\)</p>",
+            "<b>B.</b> <p>musk \\(\\leftarrow 0 \\times ffffffff \\gt \\gt  pos\\)</p>",
+            "<b>C.</b> <p>mask \\(\\leftarrow\\) pos</p>",
+            "<b>D.</b> <p>msdk \\(\\leftarrow 0 \\times f\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>mask \\(\\leftarrow 0 \\times 1 \\lt \\lt pos\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1819/gate2006-43#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Station A uses 32 byte packets to transmit messages to Station B using a sliding\nwindow protocol. The round trip delay between A and B is 80 milliseconds and\nthe bottleneck bankwidth on the path between A and B is 128 kbps. What is the\noptimal window size that A should use ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20</p>",
+            "<b>B.</b> <p>40</p>",
+            "<b>C.</b> <p>160</p>",
+            "<b>D.</b> <p>320</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>40</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1820/gate2006-44#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>Two computers C1 and C2 are configured as follows. C1 has IP address 203.\n197.2.53 and netmask 255.255. 128.0. C2 has IP address 203.197.75.201 and\nnetmask 255.255.192.0. Which one of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>C1 and C2 both assume they are on the same network</p>",
+            "<b>B.</b> <p>C2 assumes C1 is on same network, but C1 assumes C2 is on a different\nnetwork</p>",
+            "<b>C.</b> <p>C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork</p>",
+            "<b>D.</b> <p>C1 and C2 both assume they are on different networks</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C1 assumes C2 is on same network, but C2 assumes C1 is on a different\nnetwork</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1821/gate2006-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>Station A needs to send a message consisting of 9 packets to Station B using a\nsiding window (window size 3) and go-back-n error control strategy. All packets\nare ready and immediately available for transmission. If every 5th packet that A\ntransmits gets lost (but no acks from B ever get lost), then what is the number\nof packets that A will transmit for sending the message to B ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>12</p>",
+            "<b>B.</b> <p>14</p>",
+            "<b>C.</b> <p>16</p>",
+            "<b>D.</b> <p>18</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1822/gate2006-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>Consider the following graph: <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q47_564dc013.jpg\"><br> Which one of the following cannot be the sequence of edges added, in that order, to a minimum spanning tree using Kruskal's algorithm?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(a - b),(d - f),(b - f).( d - c),(d - e)</p>",
+            "<b>B.</b> <p>(a - b),(d - f),(d - c),(b - f),(d - e)</p>",
+            "<b>C.</b> <p>(d - f),(a - b),(d - c),(b - f),(d - e)</p>",
+            "<b>D.</b> <p>(d - f),(a - b),(b - f),(d - e),(d - c)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(d - f),(a - b),(b - f),(d - e),(d - c)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1823/gate2006-47#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>Let T be a depth first search tree in a undirected graph G Vertices u and v are\nleaves of this tree T. The degrees of both u and v in G are at least 2. Which one\nof the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There must exist a vertex w adjacent to both u and v in G</p>",
+            "<b>B.</b> <p>There must exist a vertex w whose removal disconnects u and v in G</p>",
+            "<b>C.</b> <p>There must be exist a cycle in G containing u and v</p>",
+            "<b>D.</b> <p>There must exist a cycle in G containing u and all its neighbours in G</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There must exist a cycle in G containing u and all its neighbours in G</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1824/gate2006-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>An implementation of a queue Q, using two stacks S1 and S2, is given below:<pre><code>\nvoid insert(Q,x){\n    push (S1,x);\n}\nvoid delete(Q){\n   if (stack-empty (S2))then\n         if (stack-empty (S1))then{\n               print(\"Q is empty\");\n               return;\n           }\n         else while (! (stack-empty)(S1)){\n                x=pop(S1);\n                push(S2,x);\n            }\n       x=pop(S2);\n}</code></pre> Let n insert and m(\\(\\leq\\)n) delete operations be performed in an arbitrary on an\nempty queue Q, Let x and y be the number of push and pop operations performed\nrespectively in the processes. Which one of the following is true for all m and n ?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(m+n \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq n+m\\)</p>",
+            "<b>B.</b> <p>\\(m+n \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq 2n\\)</p>",
+            "<b>C.</b> <p>\\(2m\\leq x\\leq 2n\\) and \\(2m \\leq y \\leq n+m\\)</p>",
+            "<b>D.</b> <p>\\(2m \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq 2n\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(m+n \\leq x\\leq 2n\\) and \\(2m \\leq y \\leq n+m\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1826/gate2006-49#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>A set X can be represented by an array x[n] as follows <br> \\(x[i]=\\left\\{\\begin{matrix} 1 &amp;if  i\\in X \\\\ 0&amp;  otherwise \\end{matrix}\\right.\\) <br> Consider the following algorithm in which x,y and z are boolean arrays of size n;<pre><code>algorithm zzz(x[] , y[], z [])\n{\n   int i;\n   for (i=O; i &lt; n; ++i)\n         z[i] = (x[i] ^ ~y[i]) V (~x[i] ^ y[i])\n}</code></pre>\nThe set Z computed by the algorithm is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((X\\cap Y)\\)</p>",
+            "<b>B.</b> <p>\\((X\\cup Y)\\)</p>",
+            "<b>C.</b> <p>\\((X-Y)\\cap(Y-X)\\)</p>",
+            "<b>D.</b> <p>\\((X-Y)\\cup(Y-X)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\((X-Y)\\cup(Y-X)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1828/gate2006-50#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 51,
+          "question": "<p>Consider the following recurrence: <br>\nT(n)=2T(\\(\\left \\lceil \\sqrt{n} \\right \\rceil\\))+ 1,  T(1) = 1 <br>\nWhich one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=\\(\\Theta\\)(loglogn)</p>",
+            "<b>B.</b> <p>T(n)=\\(\\Theta\\)(logn)</p>",
+            "<b>C.</b> <p>T(n)=\\(\\Theta (\\sqrt{n})\\)</p>",
+            "<b>D.</b> <p>T(n)=\\(\\Theta\\)(n)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>T(n)=\\(\\Theta\\)(logn)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1829/gate2006-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 52,
+          "question": "<p>The median of n elements can be found in O(n) time. Which one of the following\nis correct about the complexity of quick sort, in which median is selected as pivot?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\theta\\)(n)</p>",
+            "<b>B.</b> <p>\\(\\theta\\)(nlogn)</p>",
+            "<b>C.</b> <p>\\(\\theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\theta (n^{3})\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\theta\\)(nlogn)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1830/gate2006-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 53,
+          "question": "<p>Consider the following C-function in which a[n] and b[m] are two sorted\ninteger arrays and c[n+m] be another integer array.<pre><code>\nvoid xyz (int a[],int b[],int c[]){\n   int i, j, k;\n   i=j=k=0;\n   while((i &lt; n) &amp;&amp; (j &lt; m))\n            if (a[i] &lt; b[j]) c[k++]=a[i++];\n            else c[k++]=b[j++];\n}</code></pre>\nWhich of the following condition(s) hold(s) after the termination of the while loop ?<br><br>\nI.  j\\(\\lt\\)m, k=n+j-1, and a [n-1]\\(\\lt\\)b[j] if i=n <br>\nII.  i\\(\\lt\\)n, k=m+i-1, and b[m-1]\\(\\leq\\)a[i] if j=m</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>only (I)</p>",
+            "<b>B.</b> <p>only (II)</p>",
+            "<b>C.</b> <p>either (I) or (II) but not both</p>",
+            "<b>D.</b> <p>neither (I) nor (II)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>neither (I) nor (II)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1831/gate2006-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 54,
+          "question": "<p>Given two arrays of numbers \\(a_{1},...,a_{n}\\) and \\(b_{1},...,b_{n}\\) where each number is 0 or 1,\nthe fastest algorithm to find the largest span(i,j) such that \\(a_{i}+a_{i+1}+...+a_{j}=b_{i}+b_{i+1}+.....+b_{j}\\) , or report that there is no such span,</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Takes \\(O(3^{n})\\) and \\(\\Omega (2^{n})\\) time if hashing is permitted</p>",
+            "<b>B.</b> <p>Takes \\(O(n^{3})\\) and \\(\\Omega (n^{2.5})\\) time in the key comparison model</p>",
+            "<b>C.</b> <p>Takes \\(\\Theta (n)\\) time and space</p>",
+            "<b>D.</b> <p>Takes \\(O(\\sqrt{n})\\) time only if the sum of the 2n elements is an even number</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Takes \\(\\Theta (n)\\) time and space</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1832/gate2006-54#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 55,
+          "question": "<p>Consider these two functions and two statements S1 and S2 about them. <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q55_f6311440.jpg\"><br>  S1 : The transformation from work 1 to work 2 is valid, i.e., for any program state\nand input arguments, work 2 will compute the same output and have the same\neffect on program state as work 1 <br>\nS2 : All the transformations applied to work 1 to get work 2 will always improve\nthe performance (i.e. reduce CPU time) of work 2 compared to work 1</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 is false and S2 is false</p>",
+            "<b>B.</b> <p>S1 is false and S2 is true</p>",
+            "<b>C.</b> <p>S1 is true and S2 is false</p>",
+            "<b>D.</b> <p>S1 is true and S2 is true</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>S1 is false and S2 is false</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1833/gate2006-55#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 56,
+          "question": "<p>Consider the following code written in a pass-by reference language like FORTAN\nand these statements about the code.<pre><code>subroutine swap(ix,iy)\n     it = ix\nL1 : ix = iy\nL2 : iy = it\nend\n  ia = 3\n  ib = 8\n  call swap (ia, 1b+5)\n  print *, ia, ib\nend </code></pre>\nS1: The complier will generate code to allocate a temporary nameless cell,\ninitialize it to 13, and pass the address of the cell to swap <br>\nS2: On execution the code will generate a runtime error on line L1 <br>\nS3: On execution the code will generate a runtime error on line L2  <br> S4: The program will print 13 and 8 <br>\nS5: The program will print 13 and -2 <br>\nExactly the following set of statement (s) is correct:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1 and S2</p>",
+            "<b>B.</b> <p>S1 and S4</p>",
+            "<b>C.</b> <p>S3</p>",
+            "<b>D.</b> <p>S1 and S5</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>S1 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1834/gate2006-56#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 57,
+          "question": "<p>Consider the C code to swap two integers and these five statements: the code<pre><code> void swap(int *px,int *py){\n*px=*px-*py;\n*py=*px+*py;\n*px=*py-*px;\n}</code></pre> S1 : will generate a compilation error <br>\nS2 : may generate a segmentation fault at runtime depending on the arguments passed <br>\nS3 : correctly implements the swap procedure for all input pointers referreing to integers stored in memory locations accessible tot he process <br>\nS4 : implements the swap procedure correctly for some but not all valid input pointers <br>\nS5 : may add or subtract integers and pointers</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>S1</p>",
+            "<b>B.</b> <p>S2 and S3</p>",
+            "<b>C.</b> <p>S2 and S4</p>",
+            "<b>D.</b> <p>S2 and S5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>S2 and S4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1835/gate2006-57#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 58,
+          "question": "<p>Consider the following grammar <br>\nS \\(\\rightarrow\\) FR <br>\nR \\(\\rightarrow\\)* S | \\(\\varepsilon\\) <br>\nF \\(\\rightarrow\\) id <br>\nIn the predictive parser table, M, of the grammar the entries M[S, id] and M[R,$]\nrespectively</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{S \\(\\rightarrow\\) FR} and {R \\(\\rightarrow \\varepsilon\\) }</p>",
+            "<b>B.</b> <p>{S \\(\\rightarrow\\) FR} and {}</p>",
+            "<b>C.</b> <p>{S \\(\\rightarrow\\) FR} and {R \\(\\rightarrow\\) * S}</p>",
+            "<b>D.</b> <p>{F \\(\\rightarrow\\) id} and {R \\(\\rightarrow \\varepsilon\\) }</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>{S \\(\\rightarrow\\) FR} and {R \\(\\rightarrow \\varepsilon\\) }</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1836/gate2006-58#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 59,
+          "question": "<p>Consider the following translation scheme. <br>\nS \\(\\rightarrow\\) ER <br>\nR  \\(\\rightarrow\\)* E{print('*');}R|\\(\\varepsilon\\) <br>\nE\\(\\rightarrow\\)F+E{print('+');}|F <br>\nF\\(\\rightarrow\\)(S)|id{print(id.value);} <br>\nHere id is a taken that represents an integer and id.value represents the\ncorresponding integer value. For an input '2*3+4', this translation scheme prints</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2*3+4</p>",
+            "<b>B.</b> <p>2*+34</p>",
+            "<b>C.</b> <p>23*4+</p>",
+            "<b>D.</b> <p>234+*</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>234+*</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1837/gate2006-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 60,
+          "question": "<p>Consider the following C code segment.<pre><code>\nfor (i = 0, &lt; i  n; i++) \n{ \n    for (j=0; j&lt; n; j++) \n    { \n        if (i%2) \n        { \n            x += (4*j + 5*i); \n            y += (7 + 4*j); \n        } \n    } \n} \n</code></pre>\nWhich one to the following false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The code contains loop-in variant computation</p>",
+            "<b>B.</b> <p>There is scope of common sub-expression elimination in this code</p>",
+            "<b>C.</b> <p>There is scope strength reduction in this code</p>",
+            "<b>D.</b> <p>There is scope of dead code elimination in this code</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>There is scope of dead code elimination in this code</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1838/gate2006-60#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 61,
+          "question": "<p>The atomic feth-and-set x,y instruction unconditionally sets the memory location\nx to 1 and fetches the old value of x in y without allowing any intervening access\nto the memory location x . Consider the following implementation of P and V\nfunctions on a binary semaphore S.<pre><code>void P(binary_semaphore*S){\n   unsigned y;\n   unsigned*x =&amp; (S-&gt;value);\n   do {\n          fetch-and-set x,y;\n         } while(y);\n }\nvoid V (binary_semphore*S){\n      S_&gt;value = 0;\n}</code></pre>\nWhich one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The implementation may not work if context switching is disabled in P</p>",
+            "<b>B.</b> <p>Instead of using fetch-and-set, a pair of normal load/store can be used</p>",
+            "<b>C.</b> <p>The implementation of V is wrong</p>",
+            "<b>D.</b> <p>The code does not implement a binary semaphore</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>The implementation may not work if context switching is disabled in P</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1839/gate2006-61#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 62,
+          "question": "<p>A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor\nhas a translation look-aside buffer (TLB) which can hold a total of 128 page table\nentries and is 4-way set associative. The minimum size of the TLB tag is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11bits</p>",
+            "<b>B.</b> <p>13bits</p>",
+            "<b>C.</b> <p>15bits</p>",
+            "<b>D.</b> <p>20bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1840/gate2006-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 63,
+          "question": "<p>A computer system supports 32-bit virtual addresses as well as 32-bit physical\naddresses, Since the virtual address space is of the same size as the physical\naddress space, the operating system designers decide to get rid of the virtual\nentirely. Which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Efficient implementation of multi-user support is no longer possible</p>",
+            "<b>B.</b> <p>The processor cache organization can be made more efficient now</p>",
+            "<b>C.</b> <p>Hardware support for memory management is no longer needed</p>",
+            "<b>D.</b> <p>CPU scheduling can be made more efficient now</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Efficient implementation of multi-user support is no longer possible</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1841/gate2006-63#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 64,
+          "question": "<p>Consider three processes (process id 0,1,2, respectively) with compute time bursts\n2,4, and 8 time units. All processes arrive at time zero. Consider the longest remaining time first (LRTF) scheduling algorithm. In LRTF ties are broken by giving priority to the process with the lowest process id . The average turn around time is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13units</p>",
+            "<b>B.</b> <p>14units</p>",
+            "<b>C.</b> <p>15units</p>",
+            "<b>D.</b> <p>16units</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>13units</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1842/gate2006-64#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 65,
+          "question": "<p>Consider three processes, all arriving at time zero, with total execution time of\n10, 20 and 30 units, respectively. Each process spends the first 20% of execution\ntime doing I/O, the next 70% of time doing computation, and the last 10% of\ntime doing I/O again. The operating system uses a shortest remaining compute\ntime first scheduling algorithm and schedules a new process either when the\nrunning process get blocked on I/O or when the running process finishes its\ncompute burst. Assume that all I/O operations can be overlapped as much as\npossible. For what percentage of time does the CPU remain idle?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0%</p>",
+            "<b>B.</b> <p>10.60%</p>",
+            "<b>C.</b> <p>30%</p>",
+            "<b>D.</b> <p>89.40%</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10.60%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1843/gate2006-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 66,
+          "question": "<p>Consider the following snapshot of a system running n processes. Process i is\nholding \\(x_{i}\\)  instances of a resource R, for \\(1\\leq i\\leq n\\). Currently, all instances of R are occupied. Further, for all i , process i has placed a request for an additional \\(y_{i}\\), instances while holding the \\(x_{i}\\) instances it already has, There are exactly two processes p and q such that \\(y_{p}\\)=\\(y_{q}\\)=0. Which one of the following can serve as\na necessary condition to guarantee that the system is not approaching a deadlock?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(min(x_{p},x_{q}) \\lt max_{k\\neq p,q}(y_{k})\\)</p>",
+            "<b>B.</b> <p>\\(x_{p}+x_{q}\\geq min_{k\\neq p,q}(y_{k})\\)</p>",
+            "<b>C.</b> <p>\\(max(x_{p},x_{q})\\gt 1\\)</p>",
+            "<b>D.</b> <p>\\(min(x_{p},x_{q})\\gt 1\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(x_{p}+x_{q}\\geq min_{k\\neq p,q}(y_{k})\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1844/gate2006-66#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 67,
+          "question": "<p>Consider the relation account (customer, balance) where customer is a primary\nkey and there are no mall values. We would like to rank customers according\nto decreasing balance. The customer with the largest balance gets rank 1. Ties\nare not broken but ranks are skipped: if exactly two customers have the largest\nbalance they each get rank 1 and rank 2 is not assigned.\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q67_9153671d.jpg\"><br>\nConsider these statements about Query 1 and Query 2. <br>\n1. Query 1will produce the same row set as Query 2 for some but not all\ndatabases <br>\n2. Both Query 1 Query 2 are correct implementations of the specification <br>\n3. Query 1 is a correct implementation of the specification but Query 2 is not <br>\n4. Neither query 1 nor Query 2 is a correct implementation of the specification <br>\n5. Assigning rank with a pure relational Query takes less time than scanning\nin decreasing balance order the assigning ranks using ODBC <br><br>\nWhich two of the above statements are correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2 and 5</p>",
+            "<b>B.</b> <p>1 and 3</p>",
+            "<b>C.</b> <p>1 and 4</p>",
+            "<b>D.</b> <p>3 and 5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>1 and 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1845/gate2006-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 68,
+          "question": "<p>Consider the relation enrolled (student, course) in which student, course) is the\nprimary key, and the relation paid (student, amount) where student is the primary\nkey . Assume no null values and no foreign keys or integrity constraints. Given\nthe following four queries: <br><br>\nQuery 1: Select from enrolled where student in (select student form paid) <br>\nQuery 2: Select student from paid where student in (select student from\nenrolled) <br>\nQuery 3: Select E. student from enrolled E, paid P where E. student= P student <br>\nQuery 4: Select student from paid where exists <br>(select*from enrolled where\nenrolled student=paid.student) <br><br>\nWhich one of the following statements is correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>All queries return identical row sets for any database</p>",
+            "<b>B.</b> <p>Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets</p>",
+            "<b>C.</b> <p>There exist databases for which Query 3 returns strictly fewer rows than Query 2</p>",
+            "<b>D.</b> <p>There exist databases for which Query 4 will encounter an intergrity\nviolation at runtime</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Query 2 and Query 4 return identical row sets for all databases but there\nexist database for which Query 1 and Query 2 retrun different row sets</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1846/gate2006-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 69,
+          "question": "<p>Consider the relation enrolled (student, course) in which (student, course) is\nthe primary key, and the relation paid (student, amount) where student is the\nprimary key. Assume no null values and no foreign keys or integrity constraints.\nAssume that amounts 6000, 7000,8000,9000 and 10000 were each paid by 20% of\nthe students. Consider these query plans (Plan 1 on left, Plan 2 on right) to \"list\nall courses taken by students who have paid more than x.\" <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q69_12cbe10b.jpg\"><br> A disk seek takes 4 ms. disk data transfer bank width is 300 MB/s and checking a tuple to see if amount is greater x takes 10\\(\\mu\\)s . Which of the following statements is correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Plan 1 and Plan 2 will not output identical row sets for all databases</p>",
+            "<b>B.</b> <p>A course may be listed more than once int the output of Plan 1 for some databases</p>",
+            "<b>C.</b> <p>For x = 5000, Plan 1 executes faster than Plan 2 for all databases</p>",
+            "<b>D.</b> <p>For x = 9000, Plan 1 executes slower than Plan 2 for all databases</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>For x = 5000, Plan 1 executes faster than Plan 2 for all databases</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1847/gate2006-69#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 70,
+          "question": "<p>The following functional dependencies are given:<br><br>\n\\(AB\\rightarrow CD,AF\\rightarrow D,DE\\rightarrow F,C\\rightarrow G,F\\rightarrow E,G\\rightarrow A\\)\n<br><br>\nWhich one of the following options is false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\left \\{ CF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+            "<b>B.</b> <p>\\(\\left \\{ BG \\right \\}^{*}=\\left \\{ ABCDG \\right \\}\\)</p>",
+            "<b>C.</b> <p>\\(\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+            "<b>D.</b> <p>\\(\\left \\{ AB \\right \\}^{*}=\\left \\{ ABCDG \\right \\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\left \\{ AF \\right \\}^{*}=\\left \\{ ACDEFG \\right \\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1848/gate2006-70#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 71,
+          "question": "<p>The \\(2^{n}\\) vertices of graph G correspond to all subsets of a set of size n, for \\(n\\geq 6\\). Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br> <br> The number of vertices of degree zero in G is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>\\(2^{n}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>n+1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1850/gate2006-71#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 72,
+          "question": "<p>The \\(2^{n}\\) vertices of graph G correspond to all subsets of a set of size n, for \\(n\\geq 6\\). Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>  The maximum degree of a vertex in G is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\binom{n/2}{2}2^{n/2}\\)</p>",
+            "<b>B.</b> <p>\\(2^{n-2}\\)</p>",
+            "<b>C.</b> <p>\\(2^{n-3}\\)x3</p>",
+            "<b>D.</b> <p>\\(2^{n-1}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{n-3}\\)x3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43566/gate2006-72#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 73,
+          "question": "<p>The \\(2^{n}\\) vertices of graph G correspond to all subsets of a set of size n, for \\(n\\geq 6\\). Two vertices of G are adjacent if and only if the corresponding sets intersect in exactly two elements. <br><br>   The number of connected components in G is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>n+2</p>",
+            "<b>C.</b> <p>\\(2^{n/2}\\)</p>",
+            "<b>D.</b> <p>\\(\\frac{2^{n}}{n}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43567/gate2006-73#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 74,
+          "question": "<p>Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h1 is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.4ns</p>",
+            "<b>B.</b> <p>2.3ns</p>",
+            "<b>C.</b> <p>1.8ns</p>",
+            "<b>D.</b> <p>1.7ns</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2.4ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1851/gate2006-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 75,
+          "question": "<p>Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h2 is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.4ns</p>",
+            "<b>B.</b> <p>2.3ns</p>",
+            "<b>C.</b> <p>1.8ns</p>",
+            "<b>D.</b> <p>1.7ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.7ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43565/gate2006-75#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 76,
+          "question": "<p>A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. <br><br> Which one of the following is a valid sequence of elements in an array representing 3-ary max heap?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1, 3, 5, 6, 8, 9</p>",
+            "<b>B.</b> <p>9, 6, 3, 1, 8, 5</p>",
+            "<b>C.</b> <p>9, 3, 6, 8, 5, 1</p>",
+            "<b>D.</b> <p>9, 5, 6, 8, 3, 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9, 5, 6, 8, 3, 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1852/gate2006-76#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 77,
+          "question": "<p>A 3-ary max heap is like a binary max heap, but instead of 2 children, nodes have 3 children. A 3-ary heap can be represented by an array as follows: The root is stored in the first location, a[0], nodes in the next level, from left to right, is stored from a[1] to a[3]. The nodes from the second level of the tree from left to right are stored from a[4] location onward. An item x can be inserted into a 3-ary heap containing n items by placing x in the location a[n] and pushing it up the tree to satisfy the heap property. <br><br>Suppose the elements 7, 2, 10 and 4 are inserted, in that order, into the valid 3-ary max heap found in the above question, Which one of the following is the sequence of items in the array representing the resultant heap?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10, 7, 9, 8, 3, 1, 5, 2, 6, 4</p>",
+            "<b>B.</b> <p>10, 9, 8, 7, 6, 5, 4, 3, 2, 1</p>",
+            "<b>C.</b> <p>10, 9, 4, 5, 7, 6, 8, 2, 1, 3</p>",
+            "<b>D.</b> <p>10, 8, 6, 9, 7, 2, 3, 4, 1, 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10, 7, 9, 8, 3, 1, 5, 2, 6, 4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/87191/gate2006-77#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 78,
+          "question": "<p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left.<pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</code></pre>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br> The above implementation of barrier is incorrect. Which one of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The barrier implementation is wrong due to the use of binary semaphore S</p>",
+            "<b>B.</b> <p>The barrier implementation may lead to a deadlock if two barrier\ninvocations are used in immediate succession</p>",
+            "<b>C.</b> <p>Lines 6 to 10 need not be inside a critical section</p>",
+            "<b>D.</b> <p>The barrier implementation is correct if there are only two processes\ninstead of three</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>The barrier implementation may lead to a deadlock if two barrier\ninvocations are used in immediate succession</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1853/gate2006-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 79,
+          "question": "<p>Barrier is a synchronization construct where a set of processes synchronizes globally i.e. each process in the set arrives at the barrier and waits for all others to arrive and then all processes leave the barrier. Let the number of processes in the set be three and S be a binary semaphore with the usual P and V functions. Consider the following C implementation of a barrier with line numbers shown on left.<pre><code> void barrier (void) {\n1:   P(S);\n2:   process_arrived++;\n3.   V(S);\n4:   while (process_arrived !=3);\n5:   P(S);\n6:   process_left++;\n7:   if (process_left==3) {\n8:      process_arrived = 0;\n9:      process_left = 0;\n10:  }\n11:  V(S);\n}</code></pre>The variables process_arrived and process_left are shared among all processes and are initialized to zero. In a concurrent program all the three processes call the barrier function when they need to synchronize globally.<br><br>Which one of the following rectifies the problem in the implementation?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>lines 6 to 10 are simply replaced by process_arrived</p>",
+            "<b>B.</b> <p>At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)</p>",
+            "<b>C.</b> <p>Context switch is disabled at the beginning of the barrier and re-enabled at\nthe end.</p>",
+            "<b>D.</b> <p>The variable process_left is made private instead of shared</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>At the beginning of the barrier the first process to enter the barrier waits\nuntil process_arrived becomes zero before proceeding to execute P(S)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43564/gate2006-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 80,
+          "question": "<p>A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2.<pre><code> P1:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[j][i];\n   }\n}</code></pre> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of M1 is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2048</p>",
+            "<b>C.</b> <p>16384</p>",
+            "<b>D.</b> <p>262144</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16384</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1854/gate2006-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 81,
+          "question": "<p>A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2.<pre><code> P1:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[j][i];\n   }\n}</code></pre> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of ratio \\(\\frac{M1}{M2}\\) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{16}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{8}\\)</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43517/gate2006-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 82,
+          "question": "<p>Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. <br><br> Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q82_4a10130c.jpg\"><br> For the given connection of LANs by bridges, which one of the following choices represents the depth first traversal of the spanning tree of bridges?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B1, B5, B3, B4, B2</p>",
+            "<b>B.</b> <p>B1, B3, B5, B2, B4</p>",
+            "<b>C.</b> <p>B1, B5, B2, B3, B4</p>",
+            "<b>D.</b> <p>B1, B3, B4, B5, B2</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>B1, B5, B3, B4, B2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1855/gate2006-82#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 83,
+          "question": "<p>Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. <br><br> Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q82_4a10130c.jpg\"><br>Let host H1 send\nout a broadcast ping packet. Which of the following options represents the correct for forwarding table on B3? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q83_f09ad486.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/79790/gate2006-83#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 84,
+          "question": "<p>Which one of the following grammars generates the language <br> \\(L=\\{a^{i}b^{j}|i\\neq j\\}\\) <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_2006\\q84_2026e286.jpg\"></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>D</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1856/gate2006-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 85,
+          "question": "<p>The grammar <br><br> S\\(\\rightarrow\\)AC|CB <br> C\\(\\rightarrow\\)aCb|\\(\\varepsilon\\)        <br>A\\(\\rightarrow\\)aA|a      <br>B\\(\\rightarrow\\)Bb|b <br><br> generates the language \\(L=\\{a^{i}b^{j}|i\\neq j\\}\\) , what is the length of the derivation (number of steps starting from S) to generate the string \\(a^{l}b^{m} \\) with \\(l \\neq m\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>max(l,m)+2</p>",
+            "<b>B.</b> <p>l+m+2</p>",
+            "<b>C.</b> <p>l+m+3</p>",
+            "<b>D.</b> <p>max(l,m)+3</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>max(l,m)+2</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/79801/gate2006-85#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

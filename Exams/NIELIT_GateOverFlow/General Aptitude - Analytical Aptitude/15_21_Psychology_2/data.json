@@ -1,0 +1,41 @@
+{
+  "title": "General Aptitude - Analytical Aptitude - Psychology",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Psychology",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"412010\"></a><div itemprop=\"text\"><p>Which of the following terms are used to describe the fact that attitudes must be inferred from an individual's overt response to a stimulus?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 145</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Cognitive consistency</p>",
+            "<p>Hypothetical mediating variable</p>",
+            "<p>Selective perception</p>",
+            "<p>Selective interpretation\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Hypothetical mediating variable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412010/nielit-2023-feb-scientist-c-section-e-question-145\" target=\"_blank\">https://gateoverflow.in/412010/nielit-2023-feb-scientist-c-section-e-question-145</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"410988\"></a><div itemprop=\"text\"><p>Which of the following best describes cognitive dissonance?</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section E | Question: 137</b></p>",
+          "type": "single",
+          "options": [
+            "<p>An emotional attachment to the organization and a belief in its values.</p>",
+            "<p>Dissatisfaction expressed through behaviour directed toward leaving the organization.</p>",
+            "<p>Attitudes used after the fact to make sense out of behaviour.</p>",
+            "<p>Any incompatibility between two or more attitudes or between behaviour and attitudes.\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Any incompatibility between two or more attitudes or between behaviour and attitudes.\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410988/nielit-2023-feb-scientist-d-section-e-question-137\" target=\"_blank\">https://gateoverflow.in/410988/nielit-2023-feb-scientist-d-section-e-question-137</a></p>"
+        }
+      ]
+    }
+  ]
+}

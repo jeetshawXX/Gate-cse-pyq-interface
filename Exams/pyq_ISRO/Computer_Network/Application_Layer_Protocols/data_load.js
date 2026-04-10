@@ -1,0 +1,161 @@
+window.__examLoadCallback({
+  "title": "Computer_Network - Application_Layer_Protocols",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Application_Layer_Protocols",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Remote Procedure Calls are used for <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>communication between two processes remotely different from each other on the same system</p>",
+            "<b>B.</b> <p>communication between two processes on the same system</p>",
+            "<b>C.</b> <p>communication between two processes on the separate systems</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "NOTE: Question is excluded from the evaluation due to ambiguity.<br> <a href=\"https://gateoverflow.in/331457/isro2020-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is WPA? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>wired protected access</p>",
+            "<b>B.</b> <p>wi-fi protected access</p>",
+            "<b>C.</b> <p>wired process access</p>",
+            "<b>D.</b> <p>wi-fi process access</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>wi-fi protected access</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128670/isro2017-38\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which protocol suite designed by IETF to provide security for a packet at the Internet layer? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>IPSec</p>",
+            "<b>B.</b> <p>NetSec</p>",
+            "<b>C.</b> <p>PacketSec</p>",
+            "<b>D.</b> <p>SSL</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>IPSec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128668/isro2017-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Which of the following protocol is used for transferring electronic mail messages from one machine to another? <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>TELNET</p>",
+            "<b>B.</b> <p>FTP</p>",
+            "<b>C.</b> <p>SNMP</p>",
+            "<b>D.</b> <p>SMTP</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>SMTP</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128659/isro2017-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>When a DNS server accepts and uses incorrect information from a host that has no authority giving that information, then it is called <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>DNS lookup</p>",
+            "<b>B.</b> <p>DNS hijacking</p>",
+            "<b>C.</b> <p>DNS spoofing</p>",
+            "<b>D.</b> <p>None of the mentioned</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>DNS spoofing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55536/isro2016-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which statement is false? <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>PING is a TCP/IP application that sends datagrams once every second in the hope of an echo response from the machine being PINGED</p>",
+            "<b>B.</b> <p>If the machine is connected and running a TCP/IP protocol stack, it should respond to the PING datagram with a datagram of its own</p>",
+            "<b>C.</b> <p>If PING encounters an error condition, an ICMP message is not returned</p>",
+            "<b>D.</b> <p>PING display the time of the return response in milliseconds or one of several error message</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>If PING encounters an error condition, an ICMP message is not returned</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/51980/isro2015-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>The DNS maps the IP address to <br><br><strong>(ISRO CSE 2015)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A binary address as strings</p>",
+            "<b>B.</b> <p>A n alphanumeric address</p>",
+            "<b>C.</b> <p>A hierarchy of domain names</p>",
+            "<b>D.</b> <p>A hexadecimal address</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A hierarchy of domain names</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46736/isro2015-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Suppose you are browsing the world wide web using a web browser and trying to access the web servers. What is the underlying protocol and port number that are being used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>UDP, 80</p>",
+            "<b>B.</b> <p>TCP, 80</p>",
+            "<b>C.</b> <p>TCP, 25</p>",
+            "<b>D.</b> <p>UDP, 25</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>TCP, 80</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55009/isro2014-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A packet filtering firewall can <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Deny certain users from accessing a service</p>",
+            "<b>B.</b> <p>Block worms and viruses from entering the network</p>",
+            "<b>C.</b> <p>Disallow some files from being accessed through FTP</p>",
+            "<b>D.</b> <p>Block some hosts from accessing the network</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Block some hosts from accessing the network</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43986/isro-2013-45\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of these is not a feature of WAP 2.0 <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Push and Pull Model</p>",
+            "<b>B.</b> <p>Interface to a storage device</p>",
+            "<b>C.</b> <p>Multimedia messaging</p>",
+            "<b>D.</b> <p>Hashing</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Hashing</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49631/isro2007-63\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

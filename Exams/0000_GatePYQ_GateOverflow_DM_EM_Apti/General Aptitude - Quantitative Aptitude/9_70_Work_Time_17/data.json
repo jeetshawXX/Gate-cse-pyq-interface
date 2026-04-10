@@ -1,0 +1,266 @@
+{
+  "title": "General Aptitude - Quantitative Aptitude - Work Time",
+  "duration": 47,
+  "sections": [
+    {
+      "name": "Work Time",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"411718\"></a><div itemprop=\"text\"><p>Pipes \\( \\text{P} \\) and \\( \\text{Q} \\) can fill a storage tank in full with water in \\( 10 \\) and \\( 6 \\) minutes, respectively. Pipe \\( \\text{R} \\) draws the water out from the storage tank at a rate of \\( 34 \\) litres per minute. \\( \\text{P, Q and R} \\) operate at a constant rate.</p>\n\n<p>If it takes one hour to completely empty a full storage tank with all the pipes operating simultaneously, what is the capacity of the storage tank (in litres)?</p>\n\n</div><br><br><b>GATE CH 2022 | GA Question: 3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 26.8 \\)</p>",
+            "<p>\\( 60.0 \\)</p>",
+            "<p>\\( 120.0 \\)</p>",
+            "<p>\\( 127.5 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 120.0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411718/gate-ch-2022-ga-question-3\" target=\"_blank\">https://gateoverflow.in/411718/gate-ch-2022-ga-question-3</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"2372\"></a><div itemprop=\"text\"><p>\\( 5 \\) skilled workers can build a wall in \\( 20 \\) days; \\( 8 \\) semi-skilled workers can build a wall in \\( 25 \\) days; \\( 10 \\) unskilled workers can build a&nbsp;wall in \\( 30 \\) days. If a team has \\( 2 \\) skilled, \\( 6 \\) semi-skilled and \\( 5 \\) unskilled workers, how long it will take to build the wall?</p>\n\n</div><br><br><b>GATE CSE 2010 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\) days</p>",
+            "<p>\\( 18 \\) days</p>",
+            "<p>\\( 16 \\) days</p>",
+            "<p>\\( 15 \\) days</p>"
+          ],
+          "correct_answer": "<p>\\( 15 \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2372/gate-cse-2010-question-64\" target=\"_blank\">https://gateoverflow.in/2372/gate-cse-2010-question-64</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"2174\"></a><div itemprop=\"text\"><p>A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses \\( 7 \\) trucks, then at the end of the \\( 4^{th} \\) day he can clear all the orders. Alternatively, if he uses only \\( 3 \\) trucks, then all the orders are cleared at the end of the \\( 10^{th} \\) day. What is the minimum number of trucks required so that there will be no pending order at the end of \\( 5^{th} \\) day?</p>\n\n</div><br><br><b>GATE CSE 2011 | Question: 64</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 4 \\)</p>",
+            "<p>\\( 5 \\)</p>",
+            "<p>\\( 6 \\)</p>",
+            "<p>\\( 7 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 6 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2174/gate-cse-2011-question-64\" target=\"_blank\">https://gateoverflow.in/2174/gate-cse-2011-question-64</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"1569\"></a><div itemprop=\"text\"><p>The current erection cost of a structure is Rs. \\( 13,200. \\) If the labour wages per day increase by \\( 1/5 \\) of the current wages and the working hours decrease by \\( 1/24 \\) of the current period, then the new cost of erection in Rs. is</p>\n\n</div><br><br><b>GATE CSE 2013 | Question: 65</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 16,500 \\)</p>",
+            "<p>\\( 15,180 \\)</p>",
+            "<p>\\( 11,000 \\)</p>",
+            "<p>\\( 10,120 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 15,180 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1569/gate-cse-2013-question-65\" target=\"_blank\">https://gateoverflow.in/1569/gate-cse-2013-question-65</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"359542\"></a><div itemprop=\"text\"><p>IT was estimated that \\( 52 \\) men can complete a strip in a newly constructed highway connecting cities \\( P \\) and \\( Q \\) in \\( 10 \\) days, Due to an emergency, \\( 12 \\) men were sent to another project. How many number of days, more than the original estimate, will be required to complete the strip?</p>\n\n</div><br><br><b>GATE Mechanical 2020 Set 2 | GA Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\) days</p>",
+            "<p>\\( 5 \\)&nbsp;days</p>",
+            "<p>\\( 10 \\) days</p>",
+            "<p>\\( 13 \\) days</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\) days</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/359542/gate-mechanical-2020-set-2-ga-question-8\" target=\"_blank\">https://gateoverflow.in/359542/gate-mechanical-2020-set-2-ga-question-8</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"110924\"></a><div itemprop=\"text\"><p>Ananth takes \\( 6 \\) hours and Bharath takes \\( 4 \\) hours to read a book. Both started reading copies of the book at the same time. After how many hours is the number of pages to be read by Ananth, twice that to be read by Bharath? Assume Ananth and Bharath read all the pages with constant pace.</p>\n\n</div><br><br><b>GATE2016 CE-2: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)&nbsp;</p>",
+            "<p>\\( 3 \\)&nbsp;</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3 \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/110924/gate2016-ce-2-ga-10\" target=\"_blank\">https://gateoverflow.in/110924/gate2016-ce-2-ga-10</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"108094\"></a><div itemprop=\"text\"><p><strong>P, Q, R</strong> and <strong>S</strong> are working on a project. <strong>Q</strong> can finish the task in \\( 25 \\) days, working alone for \\( 12 \\) hours a day. <strong>R</strong> can finish the task in \\( 50 \\) days, working alone for \\( 12 \\) hours per day. <strong>Q</strong> worked \\( 12 \\) hours a day but took sick leave in the beginning for two days. <strong>R</strong> worked \\( 18 \\) hours a day on all days. What is the ratio of work done by <strong>Q</strong> and <strong>R</strong> after \\( 7 \\) days from the start of the project?</p>\n\n</div><br><br><b>GATE2016 EC-1: GA-10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 10:11 \\)&nbsp;</p>",
+            "<p>\\( 11:10 \\)&nbsp;</p>",
+            "<p>\\( 20:21 \\)</p>",
+            "<p>\\( 21:20 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20:21 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108094/gate2016-ec-1-ga-10\" target=\"_blank\">https://gateoverflow.in/108094/gate2016-ec-1-ga-10</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"108483\"></a><div itemprop=\"text\"><p><strong>S, M, E</strong> and<strong> F</strong> are working in shifts in a team to finish a project. <strong>M</strong> works with twice the efficiency of others but for half as many days as <strong>E</strong> worked. <strong>S</strong> and <strong>M</strong> have \\( 6 \\) hour shifts in a day, whereas <strong>E</strong> and <strong>F</strong> have \\( 12 \\) hours shifts. What is the ratio of contribution of <strong>M</strong> to contribution of <strong>E</strong> in the project?</p>\n\n</div><br><br><b>GATE2016 EC-2: GA-5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1:1 \\)</p>",
+            "<p>\\( 1:2 \\)</p>",
+            "<p>\\( 1:4 \\)</p>",
+            "<p>\\( 2:1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1:2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/108483/gate2016-ec-2-ga-5\" target=\"_blank\">https://gateoverflow.in/108483/gate2016-ec-2-ga-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"313481\"></a><div itemprop=\"text\"><p>Two machine \\( M1 \\) and \\( M2 \\)&nbsp; are able to execute any of four jobs \\( P,Q,R \\) and \\( S \\). The machines can perform one job on one object at a time. Jobs \\( P,Q,R \\) and \\( S \\) take \\( 30 \\) minutes, \\( 20 \\) minutes, \\( 60 \\) minutes and \\( 15 \\) minutes each respectively. There are \\( 10 \\) objects each requiring exactly \\( 1 \\) job. Job \\( P \\) is to be performed on \\( 2 \\) objects. Job \\( Q \\) on \\( 3 \\) objects, Job \\( R \\) on \\( 1 \\) object and Job \\( S \\) on \\( 4 \\) objects. What is the minimum time needed to complete all the jobs?</p>\n\n</div><br><br><b>GATE2017 CE-1: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2 \\) hours</p>",
+            "<p>\\( 2.5 \\) hours</p>",
+            "<p>\\( 3 \\) hours</p>",
+            "<p>\\( 3.5 \\) hours</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\) hours</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313481/gate2017-ce-1-ga-9\" target=\"_blank\">https://gateoverflow.in/313481/gate2017-ce-1-ga-9</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"313511\"></a><div itemprop=\"text\"><p>\\( 1200 \\) men and \\( 500 \\) women can build a bridge in \\( 2 \\) weeks. \\( 900 \\) men and \\( 250 \\) women will take \\( 3 \\) weeks to build the same bridge. How many men will be needed to build the bridge in one week?</p>\n\n</div><br><br><b>GATE2017 EC-2: GA-8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3000 \\)</p>",
+            "<p>\\( 3300 \\)</p>",
+            "<p>\\( 3600 \\)</p>",
+            "<p>\\( 3900 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3600 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313511/gate2017-ec-2-ga-8\" target=\"_blank\">https://gateoverflow.in/313511/gate2017-ec-2-ga-8</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"313672\"></a><div itemprop=\"text\"><p>\\( X \\) bullocks and \\( Y \\) tractors take \\( 8 \\) days to plough a field. If we have half the number of bullocks and double the number of tractors, it takes \\( 5 \\) days to plough the same field. How many days will it take \\( X \\) bullocks alone to plough&nbsp;the field?</p>\n\n</div><br><br><b>GATE2017 ME-2: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 30 \\)</p>",
+            "<p>\\( 35 \\)</p>",
+            "<p>\\( 40 \\)</p>",
+            "<p>\\( 45 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 30 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313672/gate2017-me-2-ga-7\" target=\"_blank\">https://gateoverflow.in/313672/gate2017-me-2-ga-7</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"313643\"></a><div itemprop=\"text\"><p>Seven machines take \\( 7 \\) minutes to make \\( 7 \\) identical toys. At the same rate, how many minutes would it take for \\( 100 \\) machine to make \\( 100 \\) toys?</p>\n\n</div><br><br><b>GATE2018 ME-1: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 100 \\)</p>",
+            "<p>\\( 700 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313643/gate2018-me-1-ga-3\" target=\"_blank\">https://gateoverflow.in/313643/gate2018-me-1-ga-3</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"313615\"></a><div itemprop=\"text\"><p>A contract is to be completed in 52 days and 125 identical robots were employed, each operational for 7 hours a day. After 39 days, five-seventh of the work was completed. How many additional robots would be required to complete the work on time, if each robot is now operational for 8 hours a day?</p>\n\n</div><br><br><b>GATE2018 ME-2: GA-8</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>50</p>",
+            "<p>89</p>",
+            "<p>146</p>",
+            "<p>175</p>"
+          ],
+          "correct_answer": "X",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313615/gate2018-me-2-ga-8\" target=\"_blank\">https://gateoverflow.in/313615/gate2018-me-2-ga-8</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"313374\"></a><div itemprop=\"text\"><p>An oil tank can be filled by pipe \\( X \\) in \\( 5 \\) hours and pipe \\( Y \\) in \\( 4 \\) hours, each pump working on its&nbsp;own. When the oil tank is full and the drainage hole is open, the oil is&nbsp;drained in \\( 20 \\) hours. If initially the tank was empty and someone started the two pipes together but left the drainage hole open, how many hours will it take for the tank to be filled? (Assume that the rate of drainage is independent of the Head)</p></div><br><br><b>GATE2019 CE-2: GA-9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1.50 \\)</p>",
+            "<p>\\( 2.00 \\)</p>",
+            "<p>\\( 2.50 \\)</p>",
+            "<p>\\( 4.00 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2.50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313374/gate2019-ce-2-ga-9\" target=\"_blank\">https://gateoverflow.in/313374/gate2019-ce-2-ga-9</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"313531\"></a><div itemprop=\"text\"><p>It would take one machine \\( 4 \\) hours to complete a production order and another machine \\( 2 \\) hours to complete the same order. If both machines work simultaneously at their respective constant rates, the time taken to complete the same order is ________ hours.</p>\n\n</div><br><br><b>GATE2019 EC: GA-3</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 2/3 \\)</p>",
+            "<p>\\( 3/4 \\)</p>",
+            "<p>\\( 4/3 \\)</p>",
+            "<p>\\( 7/3 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 4/3 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313531/gate2019-ec-ga-3\" target=\"_blank\">https://gateoverflow.in/313531/gate2019-ec-ga-3</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"313560\"></a><div itemprop=\"text\"><p>It takes two hours for a person \\( X \\) to mow the lawn. \\( Y \\) can mow the same lawn in four hours. How long (in minutes) will it take \\( X \\) and \\( Y, \\) if they work together to mow the lawn\\( ? \\)</p>\n\n</div><br><br><b>GATE2019 EE: GA-4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 60 \\)</p>",
+            "<p>\\( 80 \\)</p>",
+            "<p>\\( 90 \\)</p>",
+            "<p>\\( 120 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( 80 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313560/gate2019-ee-ga-4\" target=\"_blank\">https://gateoverflow.in/313560/gate2019-ee-ga-4</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"313579\"></a><div itemprop=\"text\"><p>Two pipes \\( P \\) and \\( Q \\) can fill a tank in \\( 6 \\) hours and \\( 9 \\) hours respectively, while a third pipe \\( R \\) can empty the tank in \\( 12 \\) hours.&nbsp; Initially, \\( P \\) and \\( R \\) are open for \\( 4 \\) hours, Then \\( P \\) is closed and \\( Q \\) is opened. After \\( 6 \\) more hours \\( R \\) is closed. The total time taken to fill the tank (in hours) is&nbsp; ____</p>\n\n</div><br><br><b>GATE2019 ME-2: GA-7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 13.50 \\)</p>",
+            "<p>\\( 14.50 \\)</p>",
+            "<p>\\( 15.50 \\)</p>",
+            "<p>\\( 16.50 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 14.50 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/313579/gate2019-me-2-ga-7\" target=\"_blank\">https://gateoverflow.in/313579/gate2019-me-2-ga-7</a></p>"
+        }
+      ]
+    }
+  ]
+}

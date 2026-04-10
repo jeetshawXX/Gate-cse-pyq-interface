@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Relational_Algebra - Relational_Algebra - Slot 2",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Relational_Algebra",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Let R and S be two relations with the following schema<br><br>\nR (\\(\\underline{P},\\underline{Q}\\),R1,R2,R3)<br><br>\nS (\\(\\underline{P},\\underline{Q}\\),S1,S2)<br><br>\nWhere {P, Q} is the key for both schemas. Which of the following queries are\nequivalent? <br><br> I. \\( \\Pi _{P}(R\\Join S)\\) <br> II. \\(\\Pi _{p}(R)\\Join \\Pi _{P}(S)\\)<br> III. \\(\\Pi _{P}(\\Pi _{P,Q}(R)\\cap \\Pi _{P,Q}(S))\\)<br> IV. \\(\\Pi _{P}(\\Pi _{P,Q}(R)-(\\Pi _{P,Q}(R)-\\Pi _{P,Q}(S)))\\) <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only I and II</p>",
+            "<b>B.</b> <p>Only I and III</p>",
+            "<b>C.</b> <p>Only I, II and III</p>",
+            "<b>D.</b> <p>Only I, III and IV</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Only I, III and IV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/491/gate2008-68#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following relation schemas :<br>\nb-Schema = (b-name, b-city, assets)<br>\na-Schema = (a-num, b-name, bal)<br>\nd-Schema = (c-name, a-number)<br>\nLet branch, account and depositor be respectively instances of the above schemas. Assume that account and depositor relations are much bigger than the branch relation.<br>Consider the following query:<br>\\(\\Pi _{c-name}(\\sigma _{b-city=\"Agra\" \\wedge bal \\lt 0} (branch \\Join (account \\Join depositor)))\\)\n<br>Which one of the following queries is the most efficient version of the above query ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Pi _{c-name} (\\sigma_{bal \\lt 0} (\\sigma_{b-city=\"Agra\"} branch \\Join account) \\Join depositor)\\)</p>",
+            "<b>B.</b> <p>\\(\\Pi _{c-name} (\\sigma_{b-city=\"Agra\"} branch \\Join (\\sigma_{bal \\lt 0} account \\Join depositor)\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi _{c-name} ((\\sigma_{b-city=\"Agra\"} branch \\Join \\sigma_{b-city=\"Agra\" \\wedge bal \\lt 0} account) \\Join depositor)\\)</p>",
+            "<b>D.</b> <p>\\(\\Pi _{c-name} (\\sigma_{b-city=\"Agra\"} branch \\Join( \\sigma_{b-city=\"Agra\" \\wedge bal \\lt 0} account \\Join depositor))\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Pi _{c-name} (\\sigma_{bal \\lt 0} (\\sigma_{b-city=\"Agra\"} branch \\Join account) \\Join depositor)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3513/gate2007-it-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider a selection of the form \\(\\sigma_{A\\leq 100} (r)\\), where r is a relation with 1000 tuples. Assume that the attribute values for A among the tuples are uniformly distributed in the interval [0, 500]. Which one of the following options is the best estimate of the number of tuples returned by the given selection query ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>50</p>",
+            "<b>B.</b> <p>100</p>",
+            "<b>C.</b> <p>150</p>",
+            "<b>D.</b> <p>200</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>200</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3510/gate2007-it-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Information about a collection of students is given by the relation studinfo(\\(\\underline{studId}\\), name, sex). The relation enroll(studId, courseId) gives which student has enrolled for (or taken) what course(s). Assume that every course is taken by at least one male and at least one female student. What does the following relational algebra expression represent?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q59_39d5133d.jpg\"><br> <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Courses in which all the female students are enrolled.</p>",
+            "<b>B.</b> <p>Courses in which a proper subset of female students are enrolled.</p>",
+            "<b>C.</b> <p>Courses in which only male students are enrolled.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Courses in which a proper subset of female students are enrolled.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2428/gate2007-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the relations r1(P, Q, R) and r2(R, S, T) with primary keys P and R respectively. The relation \\(r_{1}\\) contains 2000 tuples and \\(r_{2}\\) contains 2500 tuples. The maximum size of the join \\(r_{1} \\Join r_{2}\\) is : <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2000</p>",
+            "<b>B.</b> <p>2500</p>",
+            "<b>C.</b> <p>4500</p>",
+            "<b>D.</b> <p>5000</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2000</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3553/gate2006-it-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let r be a relation instance with schema R = (A, B, C, D). We define \\(r_{1}=\\Pi _{A,B,C}(R)\\) and \\(r_{2}=\\Pi _{A,D}(R)\\). Let \\(s=r_1*r_2\\) where * denotes natural join. Given that the decomposition of r into \\(r_1\\) and \\(r_2\\) is lossy, which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S\\subset r\\)</p>",
+            "<b>B.</b> <p>\\(r\\cup S=r\\)</p>",
+            "<b>C.</b> <p>\\(r\\subset S\\)</p>",
+            "<b>D.</b> <p>\\(r*S=S\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(r\\subset S\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1366/gate2005-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the relation Student (\\(\\underline{name}\\), sex, marks), where the primary key is shown underlined,\npertaining to students in a class that has at least one boy and one girl. What does the following\nrelational algebra expression produce)\n(Note: \\(\\rho\\) is the rename operator).  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Relational_Algebra\\q51_5155e252.jpg\"><br>  The condition in join is \"\\((sex=female ^\\wedge x=male ^\\wedge marks\\leq m)\\)\" <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>names of girl students with the highest marks</p>",
+            "<b>B.</b> <p>names of girl students with more marks than some boy student</p>",
+            "<b>C.</b> <p>names of girl students with marks not less than some boy student</p>",
+            "<b>D.</b> <p>names of girl students with more marks than all the boy students</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>names of girl students with more marks than all the boy students</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1047/gate2004-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Let R1(\\(\\underline{A}\\),B,(C)) and R2(\\(\\underline{D}\\),E) be two relation schema, where the primary keys are shown\nunderlined, and let C be a foreign key in R1 referring to R2 . Suppose there is no violation of the\nabove referential integrity constraint in the corresponding relation instances r1 and r2 . Which one of\nthe following relational algebra expressions would necessarily produce an empty relation? <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Pi _{D}(r2)-\\Pi _{C}(r1)\\)</p>",
+            "<b>B.</b> <p>\\(\\Pi _{C}(r1)-\\Pi _{D}(r2)\\)</p>",
+            "<b>C.</b> <p>\\(\\Pi _{D}(r1\\Join _{C\\neq D}r2 )\\)</p>",
+            "<b>D.</b> <p>\\(\\Pi _{C}(r1\\Join _{C=D}r2 )\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\Pi _{C}(r1)-\\Pi _{D}(r2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1010/gate2004-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>With regard to the expressive power of the formal relational query languages,\nwhich of the following statements is true ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Relational algebra is more powerful than relational calculus.</p>",
+            "<b>B.</b> <p>Relational algebra has the same power as relational calculus.</p>",
+            "<b>C.</b> <p>Relational algebra has the same power as safe relational calculus.</p>",
+            "<b>D.</b> <p>None of the above.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Relational algebra has the same power as safe relational calculus.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/825/gate2002-1-20#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Given the relations <br>\nemployee (name, salary, dept-no), and<br>\ndepartment (dept-no, dept-name,address),<br>\nWhich of the following queries cannot be expressed using the basic relational algebra operations \\(\\left(\\sigma, \\pi,\\times ,\\Join, \\cup, \\cap,-\\right)\\)? <br><br><strong>(GATE CSE 2000)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Department address of every employee</p>",
+            "<b>B.</b> <p>Employees whose name is the same as their department name</p>",
+            "<b>C.</b> <p>The sum of all employees' salaries</p>",
+            "<b>D.</b> <p>All employees of a given department</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The sum of all employees' salaries</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/647/gate2000-1-23-isro2016-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the join of a relation R with a relation S. If R has m tuples and S has n tuples then the maximum and minimum sizes of the join respectively are <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m+n and 0</p>",
+            "<b>B.</b> <p>mn and 0</p>",
+            "<b>C.</b> <p>m+n and |m-n|</p>",
+            "<b>D.</b> <p>mn and m+n</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mn and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1471/gate1999-1-18-isro2016-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following query transformations (i.e., replacing the l.h.s. expression by the r.h.s expression) is incorrect? \\(R_1\\) and \\(R_2\\) are relations, \\(C_1\\) and \\(C_2\\) are selection conditions and \\(A_1\\) and \\(A_1\\) are attributes of \\(R_1\\). <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sigma_{C_1} \\left(\\sigma_{C_2}\\left(R_1\\right)\\right) \\to \\sigma_{C_2} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right)\\)</p>",
+            "<b>B.</b> <p>\\(\\sigma_{C_1} \\left(\\pi_{A_1}\\left(R_1\\right)\\right) \\to \\pi_{A_1} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right)\\)</p>",
+            "<b>C.</b> <p>\\(\\sigma_{C_1} \\left(R_1 \\cup R_2\\right) \\to \\sigma_{C_1}\\left(R_1\\right) \\cup \\sigma_{C_1} \\left(R_2\\right)\\)</p>",
+            "<b>D.</b> <p>\\(\\pi_{A_1} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right) \\to \\sigma_{C_1} \\left(\\pi_{A_1}\\left(R_1\\right)\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\pi_{A_1} \\left(\\sigma_{C_1}\\left(R_1\\right)\\right) \\to \\sigma_{C_1} \\left(\\pi_{A_1}\\left(R_1\\right)\\right)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1692/gate1998-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Given two union compatible relations \\(R_1(A, B)\\) and \\(R_2 (C, D)\\), what is the result of the operation \\(R_1 \\Join_{ A = C \\wedge B = D} R_2\\)? <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(R_1 \\cup R_2\\)</p>",
+            "<b>B.</b> <p>\\(R_1 \\times R_2\\)</p>",
+            "<b>C.</b> <p>\\(R_1- R_2\\)</p>",
+            "<b>D.</b> <p>\\(R_1 \\cap R_2\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(R_1 \\cap R_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1670/gate1998-1-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Let r and s be two relations over the relation schemes R and S respectively, and\nlet A be an attribute in R. Then the relational algebra expression \\(\\sigma _{A=a}(r\\Join s)\\) is always equal to : <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sigma _{A=a}(r)\\)</p>",
+            "<b>B.</b> <p>r</p>",
+            "<b>C.</b> <p>\\(\\sigma _{A=a}(r)\\Join s\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\sigma _{A=a}(r)\\Join s\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/718/gate2001-1-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Suppose the adjacency relation of vertices in a graph is represented in a table Adj(X,Y).  Which of the following queries cannot be expressed by a relational algebra\nexpression of constant length ? <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>List all vertices adjacent to a given vertex.</p>",
+            "<b>B.</b> <p>List all vertices which have self loops</p>",
+            "<b>C.</b> <p>List all vertices which belong to cycles of less than three vertices</p>",
+            "<b>D.</b> <p>List all vertices reachable from a given vertex</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>List all vertices reachable from a given vertex</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/717/gate2001-1-24#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,351 @@
+window.__examLoadCallback({
+  "title": "Databases - Database Normalization",
+  "duration": 64,
+  "sections": [
+    {
+      "name": "Database Normalization",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"335377\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{ll}\\text{(i) &nbsp;2NF}&nbsp; &amp;\\text{(a) &nbsp;Transitive dependencies eliminated} &nbsp;\\\\ \\text{(ii) &nbsp;3NF}&nbsp; &amp;\\text{(b) &nbsp;Multivalued&nbsp;attribute&nbsp;removed} \\\\\\text{(iii) &nbsp;3NF}&nbsp; &amp;\\text{(c) &nbsp;Contains no partial functional&nbsp;dependencies} \\\\\\text{(iv) &nbsp;5NF}&nbsp; &amp;\\text{(d) &nbsp;Contains no join&nbsp;dependency} &nbsp;\\end{array} \\)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2004 | Part 2 | Question: 20</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>i-a, ii-c, iii-b, iv-d</p>",
+            "<p>i-d, ii-c, iii-a, iv-b</p>",
+            "<p>i-d, ii-c, iii-b, iv-a</p>",
+            "<p>i-a, ii-b, iii-c, iv-d</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335377/ugc-net-cse-december-2004-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/335377/ugc-net-cse-december-2004-part-2-question-20</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"155356\"></a><div itemprop=\"text\"><p>Suppose R is a relation schema and F is a set of functional dependencies on R. Further, suppose R1&nbsp;and R2&nbsp;form a decomposition of R. Then the decomposition is a lossless join decomposition of R provided that:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2008 | Part 2 | Question: 32</b></p>",
+          "type": "single",
+          "options": [
+            "<p>R1∩R2→R1&nbsp;is in F+</p>",
+            "<p>R1∩R2→R2&nbsp;is in F+</p>",
+            "<p>both R1∩R2→R1&nbsp;and R1∩R2→R2&nbsp;functional dependencies are in F+</p>",
+            "<p>at least one from R1∩R2→R1&nbsp;and R1∩R2→R2&nbsp;is in F+</p>"
+          ],
+          "correct_answer": "<p>at least one from R1∩R2→R1&nbsp;and R1∩R2→R2&nbsp;is in F+</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/155356/ugc-net-cse-december-2008-part-2-question-32\" target=\"_blank\">https://gateoverflow.in/155356/ugc-net-cse-december-2008-part-2-question-32</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"152836\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clcl} &nbsp;\\text{(1)} &amp; \\text{Determinants} &nbsp;&amp; \\text{(a)}\\ &amp; \\text{No attribute can be added} \\\\ &nbsp; \\text{(2)} &amp; \\text{Candidate key} &nbsp;&amp; \\text{(b)}\\ &amp; \\text{Uniquely identified a row} \\\\&nbsp; \\text{(3)} &amp; \\text{Non-redundancy} &nbsp;&amp; \\text{(c)}\\ &amp; \\text{A constraint between two attribute} \\\\ &nbsp; \\text{(4)} &amp; \\text{Functional Dependency} &nbsp;&amp; \\text{(d)}\\ &amp; \\text{Group of attributes on the left hand} \\\\ &amp;&amp;&amp; &nbsp;\\text{side of arrow of function dependency.} \\\\ &nbsp;\\end{array} \\)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2009 | Part 2 | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{1-d, 2-b, 3-a, 4-c} \\)</p>",
+            "<p>\\( \\text{2-d, 3-a, 1-b, 4-c} \\)</p>",
+            "<p>\\( \\text{4-a, 3-b, 2-c, 1-d} \\)</p>",
+            "<p>\\( \\text{3-a, 4-b, 1-c, 2-d} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{1-d, 2-b, 3-a, 4-c} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152836/ugc-net-cse-december-2009-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/152836/ugc-net-cse-december-2009-part-2-question-18</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"152837\"></a><div itemprop=\"text\">A function that has no partial functional dependencies is in __________ form.<br>\n(A) 3 NF<br>\n<br>\n(B) 2 NF<br>\n<br>\n(C) 4 NF<br>\n<br>\n(D) BCNF</div><br><br><b>Databases: UGC NET CSE | December 2009 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [],
+          "correct_answer": "<p>B</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/152837/ugc-net-cse-december-2009-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/152837/ugc-net-cse-december-2009-part-2-question-19</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"66814\"></a><div itemprop=\"text\"><p>The dependency preservation decomposition is a property to decompose database schema D, in which each functional dependency \\( X&nbsp;\\rightarrow&nbsp;Y \\) specified in \\( F \\),</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2010 | Part 2 | Question: 17</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Appeared directly in one of the relation schemas \\( Ri \\) in the decomposed D.</p>",
+            "<p>Could be inferred from dependencies that appear in some \\( Ri \\).</p>",
+            "<p>Both (A) and (B)</p>",
+            "<p>None of these</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/66814/ugc-net-cse-december-2010-part-2-question-17\" target=\"_blank\">https://gateoverflow.in/66814/ugc-net-cse-december-2010-part-2-question-17</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"50863\"></a><div itemprop=\"text\"><p>Which of the following is true?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2012 | Part 2 | Question: 13</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A relation in BCNF is always in 3NF</p>",
+            "<p>A relation in 3NF is always in BCNF</p>",
+            "<p>BCNF and 3NF are same</p>",
+            "<p>A relation in BCNF is not in 3NF</p>"
+          ],
+          "correct_answer": "<p>A relation in BCNF is always in 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50863/ugc-net-cse-december-2012-part-2-question-13\" target=\"_blank\">https://gateoverflow.in/50863/ugc-net-cse-december-2012-part-2-question-13</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"57736\"></a><div itemprop=\"text\"><p>The third normal form is based on the concept of_____</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2012 | Part 3 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Closure Dependency</p>",
+            "<p>Transitive Dependency</p>",
+            "<p>Normal Dependency</p>",
+            "<p>Functional Dependency</p>"
+          ],
+          "correct_answer": "<p>Transitive Dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/57736/ugc-net-cse-december-2012-part-3-question-63\" target=\"_blank\">https://gateoverflow.in/57736/ugc-net-cse-december-2012-part-3-question-63</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"60752\"></a><div itemprop=\"text\"><p>Armstrong \\( (1974) \\) proposed systematic approach to derive functional dependencies. Match the following w.r.t functional dependencies:</p>\n\n<p>\\( \\begin{array}{}&nbsp;&nbsp;&amp; \\textbf{List-I}&nbsp; &amp;&amp; \\textbf{List -II} \\\\ &nbsp;\\text{a.} &amp;&nbsp; \\text{Decomposition Rule} &amp; \\text{i.} &amp; \\text{If  \\)X \\rightarrow Y\\(  and  \\)Z \\rightarrow W\\(  then  \\)\\{X,Z\\} \\rightarrow \\{Y, W\\}\\( }&nbsp;\\\\ &nbsp;\\text{b.} &amp;&nbsp; \\text{Union rule} &amp; \\text{ii.} &amp; \\text{If  \\)X \\rightarrow Y\\(  and  \\)\\{Y, W\\} \\rightarrow Z\\(  then  \\)\\{X, W\\} \\rightarrow Z\\( }&nbsp;\\\\ &nbsp;\\text{c.} &amp;&nbsp; \\text{Composition rule} &amp; \\text{iii.} &amp; \\text{If  \\)X \\rightarrow Y\\(  and  \\)X \\rightarrow Z\\(  then  \\)X \\rightarrow \\{Y, Z\\}\\( }&nbsp;\\\\ &nbsp;\\text{d.} &amp;&nbsp; \\text{Psedudo transitivity rule} &amp; \\text{iv.} &amp; \\text{ If  \\)X \\rightarrow \\{Y, Z\\}\\(  then  \\)X \\rightarrow Y\\(  and  \\)X \\rightarrow Z\\( }&nbsp;\\\\ &nbsp;\\end{array} \\)</p>\n\n<p><strong>Codes:</strong></p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2013 | Part 3 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{a-iii, b-ii, c-iv, d-i} \\)</p>",
+            "<p>\\( \\text{a-i, b-iii, c-iv, d-ii} \\)</p>",
+            "<p>\\( \\text{a-ii, b-i, c-iii, d-iv} \\)</p>",
+            "<p>\\( \\text{a-iv, b-iii, c-i, d-ii} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{a-iv, b-iii, c-i, d-ii} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60752/ugc-net-cse-december-2013-part-3-question-59\" target=\"_blank\">https://gateoverflow.in/60752/ugc-net-cse-december-2013-part-3-question-59</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"59142\"></a><div itemprop=\"text\"><p>The best normal form of relation scheme \\( R(A, B, C, D) \\) along with the set of functional dependencies \\( F = \\left\\{AB \\rightarrow C, AB \\rightarrow D, C \\rightarrow A, D \\rightarrow B\\right\\} \\) is</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 2 | Question: 19</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Boyce-Codd Normal form</p>",
+            "<p>Third Normal form</p>",
+            "<p>Second Normal form</p>",
+            "<p>First Normal form&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Third Normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59142/ugc-net-cse-december-2014-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/59142/ugc-net-cse-december-2014-part-2-question-19</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"59143\"></a><div itemprop=\"text\"><p>Identify the minimal key for relational scheme \\( R(A, B, C, D, E) \\) with functional dependencies \\( F = \\left\\{A \\rightarrow B, B \\rightarrow C, AC \\rightarrow D\\right\\} \\)&nbsp;</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( A \\)&nbsp;</p>",
+            "<p>\\( AE \\)</p>",
+            "<p>\\( BE \\)</p>",
+            "<p>\\( CE \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( AE \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59143/ugc-net-cse-december-2014-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/59143/ugc-net-cse-december-2014-part-2-question-20</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"60109\"></a><div itemprop=\"text\"><p>Let \\( R = ABCDE \\) is a relational scheme with functional dependency set \\( F = \\left\\{A \\rightarrow B, B \\rightarrow C, AC \\rightarrow D\\right\\} \\). The attribute closures of \\( A \\) and \\( E \\) are&nbsp;</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 3 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( ABCD,&nbsp;\\phi \\)</p>",
+            "<p>\\( ABCD, E \\)&nbsp;</p>",
+            "<p>\\( \\Phi,&nbsp;\\phi \\)&nbsp;</p>",
+            "<p>\\( ABC, E \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( ABCD, E \\)&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60109/ugc-net-cse-december-2014-part-3-question-10\" target=\"_blank\">https://gateoverflow.in/60109/ugc-net-cse-december-2014-part-3-question-10</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"60112\"></a><div itemprop=\"text\">\n<p>Which of the following is false ?&nbsp;</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | December 2014 | Part 3 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Every binary relation is never be in \\( BCNF \\).&nbsp;</p>",
+            "<p>Every \\( BCNF \\) relation is in \\( 3NF \\).&nbsp;</p>",
+            "<p>\\( 1 NF, 2 NF, 3 NF \\) and \\( BCNF \\) are based on functional dependencies.&nbsp;</p>",
+            "<p>Multivalued Dependency \\( (MVD) \\) is a special case of Join Dependency \\( (JD) \\)</p>"
+          ],
+          "correct_answer": "<p>Every binary relation is never be in \\( BCNF \\).&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60112/ugc-net-cse-december-2014-part-3-question-12\" target=\"_blank\">https://gateoverflow.in/60112/ugc-net-cse-december-2014-part-3-question-12</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"46878\"></a><div itemprop=\"text\"><p>A relation R={A,B,C,D,E,F,G} is given with following set of functional dependencies:&nbsp;F={AD→E, BE→F, B→C, AF→G}.&nbsp;Which of the following is a candidate key?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | December 2015 | Part 2 | Question: 20</b></p>",
+          "type": "single",
+          "options": [
+            "<p>A</p>",
+            "<p>AB</p>",
+            "<p>ABC</p>",
+            "<p>ABD</p>"
+          ],
+          "correct_answer": "<p>ABD</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/46878/ugc-net-cse-december-2015-part-2-question-20\" target=\"_blank\">https://gateoverflow.in/46878/ugc-net-cse-december-2015-part-2-question-20</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"335228\"></a><div itemprop=\"text\"><p>For database relation \\( R(A,B,C,D) \\) where the domains of \\( A,B,C \\) and \\( D \\) include only atomic values, only&nbsp;the following functional dependencies and those that can be inferred from them are:</p>\n\n<p>\\( A \\rightarrow C \\)</p>\n\n<p>\\( B \\rightarrow D \\)</p>\n\n<p>The relation \\( R \\) is in</p>\n\n</div><br><br><b>Databases: UGC NET CSE | January 2017 | Part 3 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First normal form but not in second normal form</p>",
+            "<p>Both in first normal form as well as in second normal form</p>",
+            "<p>Second normal form but not in third normal form.</p>",
+            "<p>Both in second normal form as well as in third normal form.</p>"
+          ],
+          "correct_answer": "<p>First normal form but not in second normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335228/ugc-net-cse-january-2017-part-3-question-10\" target=\"_blank\">https://gateoverflow.in/335228/ugc-net-cse-january-2017-part-3-question-10</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"335444\"></a><div itemprop=\"text\"><p>Multi-valued dependency among attribute is checked at which level ?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2005 | Part 2 | Question: 19</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( 2 \\) \\( NF \\)</p>",
+            "<p>\\( 3 \\) \\( NF \\)</p>",
+            "<p>\\( 4 \\) \\( NF \\)</p>",
+            "<p>\\( 5 \\) \\( NF \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/335444/ugc-net-cse-june-2005-part-2-question-19\" target=\"_blank\">https://gateoverflow.in/335444/ugc-net-cse-june-2005-part-2-question-19</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"67844\"></a><div itemprop=\"text\"><p>Match the following :</p>\n\n<p>\\( \\begin{array}{clccl} &nbsp;&nbsp;\\text{a.} &amp; \\text{2 NF} &amp; &amp; \\text{i.} &amp; \\text{Transitive dependencies eliminated} \\\\ &nbsp;\\text{b.} &amp; \\text{3&nbsp;NF} &amp; &amp; \\text{ii.} &amp; \\text{Multivalued attribute removed} \\\\ \\text{c.} &amp; \\text{4&nbsp;NF} &amp; &amp; \\text{iii.} &amp; \\text{Contain no partial Functional dependencies} \\\\&nbsp;\\text{d.} &amp; \\text{5&nbsp;NF} &amp;&nbsp; &amp; \\text{iv.} &amp; \\text{Contains no join dependencies}&nbsp; \\\\ &nbsp; &nbsp;\\end{array} \\)</p>\n\n<p>\\( \\textbf{Codes :} \\)</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2010 | Part 2 | Question: 18</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{a-i, b-iii, c-ii, d-iv} \\)</p>",
+            "<p>\\( \\text{a-ii, b-iii, c-iv, d-i} \\)</p>",
+            "<p>\\( \\text{a-iii, b-iv, c-i, d-ii} \\)</p>",
+            "<p>\\( \\text{a-iii, b-ii, c-iv, d-i} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/67844/ugc-net-cse-june-2010-part-2-question-18\" target=\"_blank\">https://gateoverflow.in/67844/ugc-net-cse-june-2010-part-2-question-18</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"58264\"></a><div itemprop=\"text\">\n<p>For a database relation R(a, b, c, d) where the domains of a, b, c, d include only the atomic values. The functional dependency a \\( \\rightarrow \\) c, b \\( \\rightarrow \\) d holds in the following relation.</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | June 2013 | Part 3 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In 1NF not in 2NF</p>",
+            "<p>In 2NF not in 3NF</p>",
+            "<p>In 3NF</p>",
+            "<p>in 1 NF</p>"
+          ],
+          "correct_answer": "<p>In 1NF not in 2NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/58264/ugc-net-cse-june-2013-part-3-question-9\" target=\"_blank\">https://gateoverflow.in/58264/ugc-net-cse-june-2013-part-3-question-9</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"55201\"></a><div itemprop=\"text\">\n<p>Let \\( R =\\{A, B, C, D, E, F\\} \\) be a relation schema with the following dependencies \\( C \\rightarrow F \\), \\( E \\rightarrow A \\), \\( EC \\rightarrow D \\), \\( A \\rightarrow B \\). Which of the following is a key for \\( R \\) ?&nbsp;</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | June 2014 | Part 2 | Question: 49</b></p>",
+          "type": "single",
+          "options": [
+            "<p>CD&nbsp;</p>",
+            "<p>EC&nbsp;</p>",
+            "<p>AE&nbsp;</p>",
+            "<p>AC&nbsp;</p>"
+          ],
+          "correct_answer": "<p>EC&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/55201/ugc-net-cse-june-2014-part-2-question-49\" target=\"_blank\">https://gateoverflow.in/55201/ugc-net-cse-june-2014-part-2-question-49</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"56753\"></a><div itemprop=\"text\">\n<p>Consider the following relational schemas for a library database :</p>\n\n<p>Book (Title, Author, Catalog_no, Publisher, Year, Price) Collection(Title, Author, Catalog_no) with the following functional dependencies :</p>\n\n<p>I. Title, Author \\( \\rightarrow \\) Catalog_no</p>\n\n<p>II. Catalog_no \\( \\rightarrow \\) Title, Author, Publisher, Year</p>\n\n<p>III. Publisher, Title, Year \\( \\rightarrow \\) Price Assume (Author, Title) is the key for both schemas. Which one of the following is true ?</p>\n\n\n</div><br><br><b>Databases: UGC NET CSE | June 2014 | Part 3 | Question: 22</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both Book and Collection are in BCNF.</p>",
+            "<p>Both Book and Collection are in \\( 3 \\)NF.&nbsp;</p>",
+            "<p>Book is in \\( 2 \\)NF and Collection in \\( 3 \\)NF.</p>",
+            "<p>Both Book and Collection are in \\( 2 \\)NF.&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Book is in \\( 2 \\)NF and Collection in \\( 3 \\)NF.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56753/ugc-net-cse-june-2014-part-3-question-22\" target=\"_blank\">https://gateoverflow.in/56753/ugc-net-cse-june-2014-part-3-question-22</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"316245\"></a><div itemprop=\"text\"><p>In relational databases, if relation R is in BCNF, then which of the following is true about relation R?</p>\n\n</div><br><br><b>Databases: UGC NET CSE | June 2019 | Part 2 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>R is in 4NF</p>",
+            "<p>R is not in 1NF</p>",
+            "<p>R is in 2NF and not in 3NF</p>",
+            "<p>R is in 2NF and 3NF</p>"
+          ],
+          "correct_answer": "<p>R is in 2NF and 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/316245/ugc-net-cse-june-2019-part-2-question-34\" target=\"_blank\">https://gateoverflow.in/316245/ugc-net-cse-june-2019-part-2-question-34</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"61151\"></a><div itemprop=\"text\"><p>The Relation</p>\n\n<p>Vendor Order (V_no, V_ord_no, V_name, Qty_sup, unit_price) is in 2NF because</p>\n\n</div><br><br><b>Databases: UGC NET CSE | Junet 2015 | Part 3 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Non_key attribute V_name is dependent on V_no which is part of composite key</p>",
+            "<p>Non_key attribute V_name is dependent on Qty_sup</p>",
+            "<p>Key attribute Qty_sup is dependent on primary key unit_price</p>",
+            "<p>Key attribute V_ord_no is dependent on primary key unit_price</p>"
+          ],
+          "correct_answer": "<p>Non_key attribute V_name is dependent on V_no which is part of composite key</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61151/ugc-net-cse-junet-2015-part-3-question-10\" target=\"_blank\">https://gateoverflow.in/61151/ugc-net-cse-junet-2015-part-3-question-10</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"166385\"></a><div itemprop=\"text\"><p>If every non-key attribute is functionally dependent on the primary key, then the relation is in ________</p>\n\n</div><br><br><b>Databases: UGC NET CSE | November 2017 | Part 3 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First normal form</p>",
+            "<p>Second normal form</p>",
+            "<p>Third normal form</p>",
+            "<p>Fourth normal form</p>"
+          ],
+          "correct_answer": "<p>Third normal form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/166385/ugc-net-cse-november-2017-part-3-question-9\" target=\"_blank\">https://gateoverflow.in/166385/ugc-net-cse-november-2017-part-3-question-9</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"386104\"></a><div itemprop=\"text\"><p>Match <strong>List I</strong> with<strong> List II</strong> :</p>\n\n<p>\\( \\begin{array}{ll}&nbsp;<br>\n\\text{List I} &amp; \\text{List II} \\\\ \\\\<br>\n\\text {(A) BCNF } &amp; \\text { (I) It removes multivalued dependency } \\\\<br>\n\\text {(B) 3}&nbsp;\\mathrm{NF}&nbsp;&nbsp;&amp; \\text { (II) It is not always dependency preserving } \\\\<br>\n\\text {(C) 2} \\mathrm{NF} &nbsp;&amp; \\text{&nbsp;(III) It removes transitive dependency} \\\\<br>\n\\text {(D) 4} \\mathrm{NF} &amp; \\text { (IV) It removes partial functional dependency }\\end{array} \\)</p>\n\n<p>Choose the correct answer from the options given below:</p>\n\n</div><br><br><b>Databases: UGC NET CSE | October 2022 | Part 1 | Question: 53</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>\\( \\text{(A)-(III), (B)-(II), (C)-(IV), (D)-(I)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(IV), (C)-(I), (D)-(III)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(III), (C)-(IV), (D)-(I)} \\)</p>",
+            "<p>\\( \\text{(A)-(II), (B)-(I), (C)-(IV), (D)-(III)} \\)</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/386104/ugc-net-cse-october-2022-part-1-question-53\" target=\"_blank\">https://gateoverflow.in/386104/ugc-net-cse-october-2022-part-1-question-53</a></p>"
+        }
+      ]
+    }
+  ]
+});

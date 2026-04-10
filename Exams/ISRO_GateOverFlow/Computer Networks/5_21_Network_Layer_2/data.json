@@ -1,0 +1,41 @@
+{
+  "title": "Computer Networks - Network Layer",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Network Layer",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"50319\"></a><div itemprop=\"text\"><p>In networking, UTP stands for</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2009 | Question: 2</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Unshielded T-connector port</p>",
+            "<p>Unshielded twisted pair</p>",
+            "<p>Unshielded terminating pair</p>",
+            "<p>Unshielded transmission process</p>"
+          ],
+          "correct_answer": "<p>Unshielded twisted pair</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50319/isro-cse-2009-question-2\" target=\"_blank\">https://gateoverflow.in/50319/isro-cse-2009-question-2</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"128646\"></a><div itemprop=\"text\"><p>In networking terminology UTP means</p>\n\n</div><br><br><b>Computer Networks: ISRO CSE 2017 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Uniquitous teflon port</p>",
+            "<p>Uniformly terminating port</p>",
+            "<p>Unshielded twisted pair</p>",
+            "<p>Unshielded T-connector port</p>"
+          ],
+          "correct_answer": "<p>Unshielded twisted pair</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128646/isro-cse-2017-question-28\" target=\"_blank\">https://gateoverflow.in/128646/isro-cse-2017-question-28</a></p>"
+        }
+      ]
+    }
+  ]
+}

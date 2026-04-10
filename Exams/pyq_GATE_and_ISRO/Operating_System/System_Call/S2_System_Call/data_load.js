@@ -1,0 +1,176 @@
+window.__examLoadCallback({
+  "title": "System_Call - System_Call - Slot 2",
+  "duration": 30,
+  "sections": [
+    {
+      "name": "System_Call",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>A client process P needs to make a TCP connection to a server process S. Consider the following situation: the server process S executes a socket(), a bind() and a listen() system call in that order, following which it is preempted. Subsequently, the client process P executes a socket() system call followed by connect() system call to connect to the server process S. The server process has not executed any accept() system call. Which one of the following events could take place? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>connect() system call returns successfully</p>",
+            "<b>B.</b> <p>connect() system call blocks</p>",
+            "<b>C.</b> <p>connect() system call returns an error</p>",
+            "<b>D.</b> <p>connect() system call results in a core dump</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>connect() system call returns an error</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/482/gate2008-59#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Which of the following system calls results in the sending of SYN packets? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>socket</p>",
+            "<b>B.</b> <p>bind</p>",
+            "<b>C.</b> <p>listen</p>",
+            "<b>D.</b> <p>connect</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>connect</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/415/gate2008-17#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The contents of the text file t1 txt containing four lines are as follows :<br>\na1        b1<br>\na2        b2<br>\na3        b2<br>\na4        b1<br>\nThe contents of the text file t2 txt containing five lines are as follows :<br>\na1        c1<br>\na2        c2<br>\na3        c3<br>\na4        c3<br>\na5        c4<br>\nConsider the following Bourne shell script :<br><pre><code>awk - F '  '  ' {Print $1, $2} ' t1.txt |\nwhile read a b ; do\n            awk -v aV = $ a - v by = $b  - F ' '\n            aV = = $1 (print aV, bV, $2 ) ' t2.txt\ndone </code></pre> <br>Which one of the following strings will NOT be present in the output generated when the above script in run? (Note that the given strings may be substrings of a printed line.) <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\"b1 c1\"</p>",
+            "<b>B.</b> <p>\"b2 c3\"</p>",
+            "<b>C.</b> <p>\"b1 c2\"</p>",
+            "<b>D.</b> <p>\"b1 c3\"</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\"b1 c2\"</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3501/gate2007-it-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A user level process in Unix traps the signal sent on a Ctrl-C input, and has a signal handling routine that saves appropriate files before terminating the process. When a Ctrl-C input is given to this process, what is the mode in which the signal handling routine executes? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>User mode</p>",
+            "<b>B.</b> <p>Kernel mode</p>",
+            "<b>C.</b> <p>Superuser mode</p>",
+            "<b>D.</b> <p>Privileged mode</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>User mode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3764/gate2005-it-19-ugcnet-june2012-iii-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>The shell command<br><pre><code> find -name passwd -print</code></pre> <br>\nis executed in /etc directory of a computer system running Unix. Which of the following shell commands will give the same information as the above command when executed in the same directory? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ls passwd</p>",
+            "<b>B.</b> <p>cat passwd</p>",
+            "<b>C.</b> <p>grep name passwd</p>",
+            "<b>D.</b> <p>grep print passwd</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>grep name passwd</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3763/gate2005-it-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>A student wishes to create symbolic links in a computer system running Unix. Three text files named \"file 1\", \"file 2\" and \"file 3\" exist in her current working directory, and the student has read and write permissions for all three files. Assume that file 1 contains information about her hobbies, file 2 contains information about her friends and file 3 contains information about her courses. The student executes the following sequence of commands from her current working directory. <br><pre><code> ln -s file 1 file 2\nln -s file 2 file 3</code></pre> <br>\nWhich of the following types of information would be lost from her file system?<br>\nI.Hobbies<br>\nII.Friends<br>\nIII.Courses<br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>I and II only</p>",
+            "<b>B.</b> <p>II and III only</p>",
+            "<b>C.</b> <p>II only</p>",
+            "<b>D.</b> <p>I and III only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and III only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3762/gate2005-it-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following code fragment:<pre><code>  if (fork() == 0)\n  { a = a + 5; printf(\"%d,%dn\", a, &amp;a); }\n  else { a = a - 5; printf(\"%d, %dn\", a, &amp;a); }  </code></pre> Let u, v be the values printed by the parent process, and x, y be the values printed by the child process. Which one of the following is TRUE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>u = x + 10 and v = y</p>",
+            "<b>B.</b> <p>u = x + 10 and v != y</p>",
+            "<b>C.</b> <p>u + 10 = x and v = y</p>",
+            "<b>D.</b> <p>u + 10 = x and v != y</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>u + 10 = x and v = y</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/765/gate2005-72#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A process executes the following segment of code :<br><pre><code> for(i = 1; i &lt;= n; i++)\n    fork ();</code></pre>\nThe number of new processes created is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n</p>",
+            "<b>B.</b> <p>((n(n + 1))/2)</p>",
+            "<b>C.</b> <p>\\(2^n - 1\\)</p>",
+            "<b>D.</b> <p>\\(3^n - 1\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^n - 1\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3707/gate2004-it-64\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following commands or sequences of commands will rename a file x to file y in a Unix system ?<br>\nI. mv y, x<br>\nII. mv x, y<br>\nIII. cp y, x (rm x)<br>\nIV. cp x, y (rm x)<br> <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>II and III</p>",
+            "<b>B.</b> <p>II and IV</p>",
+            "<b>C.</b> <p>I and III</p>",
+            "<b>D.</b> <p>II only</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>II and IV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3657/gate2004-it-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>System calls are usually invoked by using <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a software interrupt</p>",
+            "<b>B.</b> <p>polling</p>",
+            "<b>C.</b> <p>an indirect jump</p>",
+            "<b>D.</b> <p>a privileged instruction</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a software interrupt</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1464/gate1999-1-11-ugcnet-dec2015-ii-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>When an interrupt occurs, an operating system <br><br><strong>(GATE CSE 1997)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>ignores the interrupt</p>",
+            "<b>B.</b> <p>always changes state of interrupted process after processing the interrupt</p>",
+            "<b>C.</b> <p>always resumes execution of interrupted process after processing the interrupt</p>",
+            "<b>D.</b> <p>may change state of interrupted process to 'blocked' and schedule another process.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>may change state of interrupted process to 'blocked' and schedule another process.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2239/gate1997-3-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

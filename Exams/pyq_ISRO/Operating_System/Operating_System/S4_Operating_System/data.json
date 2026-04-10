@@ -1,0 +1,236 @@
+{
+  "title": "Operating_System - Operating_System - Slot 4",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Operating_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following is not an optimization criterion in the design of a CPU scheduling algorithm? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Minimum CPU utilization</p>",
+            "<b>B.</b> <p>Maximum throughput</p>",
+            "<b>C.</b> <p>Minimum turnaround time</p>",
+            "<b>D.</b> <p>Minimum waiting time</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Minimum CPU utilization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55094/isro2014-78\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>What is the size of the physical address space in a paging system which has a page table containing 64 entries of 11 bit each (including valid and invalid bit) and a page size of 512 bytes? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{11}\\)</p>",
+            "<b>B.</b> <p>\\(2^{15}\\)</p>",
+            "<b>C.</b> <p>\\(2^{19}\\)</p>",
+            "<b>D.</b> <p>\\(2^{20}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{19}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52224/isro2014-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Dirty bit is used to indicate which of the following? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A page fault has occurred</p>",
+            "<b>B.</b> <p>A page has corrupted data</p>",
+            "<b>C.</b> <p>A page has been modified after being loaded into cache</p>",
+            "<b>D.</b> <p>An illegal access of page</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>A page has been modified after being loaded into cache</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55089/isro2014-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>What is the minimum number of resources required to ensure that deadlock will never occur, if there are currently three processes \\(P_{1}\\),\\(P_{2}\\) and \\(P_{3}\\) running in a system whose maximum demand for the resources of same type are 3, 4, and 5 respectively. <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>10</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/55085/isro2014-68\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A computer has 16 pages of virtual address space but the size of main memory is only four frames. Initially the memory is empty. A program references the virtual pages in the order 0, 2, 4, 5, 2, 4, 3, 11, 2, 10. How many page faults occur if LRU page replacement algorithm is used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>7</p>",
+            "<b>D.</b> <p>8</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>7</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/54972/isro2014-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Using the page table shown below, translate the physical address 25 to virtual address. The address length is 16 bits and page size is 2048 words while the size of the physical memory is four frames.<br>\\(\\begin{array}{lcc} \\text { Page } &amp; \\text { Present }(1-In , 0-Out) &amp; \\text { Frame } \\\\ 0 &amp; 1 &amp; 3 \\\\ 1 &amp; 1 &amp; 2 \\\\ 2 &amp; 1 &amp; 0 \\\\ 3 &amp; 0 &amp; - \\end{array}\\) <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>25</p>",
+            "<b>B.</b> <p>6169</p>",
+            "<b>C.</b> <p>2073</p>",
+            "<b>D.</b> <p>4121</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4121</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/46107/isro2014-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following segment table in segmentation scheme :<br>\\(\\begin{array}{|l|l|l|} \\hline \\text { Segment ID } &amp; \\text { Base } &amp; \\text { Limit } \\\\ \\hline 0 &amp; 200 &amp; 200 \\\\ \\hline 1 &amp; 5000 &amp; 1210 \\\\ \\hline 2 &amp; 1527 &amp; 498 \\\\ \\hline 3 &amp; 2500 &amp; 50 \\\\ \\hline \\end{array}\\)<br>What happens if the logical address requested is - Segment Id 2 and offset 1000? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fetches the entry at the physical address 2527 for segment Id 2</p>",
+            "<b>B.</b> <p>A trap is generated</p>",
+            "<b>C.</b> <p>Deadlock</p>",
+            "<b>D.</b> <p>Fetches the entry at offset 27 in Segment Id 3</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A trap is generated</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16942/isro2014-18\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>There are 200 tracks on a disc platter and the pending requests have come in the order - 36, 69, 167, 76, 42, 51, 126, 12 and 199. Assume the arm is located at the 100th track and moving towards track 200. If sequence of disc access is 126, 167, 199, 12, 36, 42, 51, 69 and 76 then which disc access scheduling policy is used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Elevator</p>",
+            "<b>B.</b> <p>Shortest seek-time first</p>",
+            "<b>C.</b> <p>C-SCAN</p>",
+            "<b>D.</b> <p>First Come First Served</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C-SCAN</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16939/isro2014-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following strategy is employed for overcoming the priority inversion problem? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Temporarily raise the priority of lower priority level process</p>",
+            "<b>B.</b> <p>Have a fixed priority level scheme.</p>",
+            "<b>C.</b> <p>Implement Kernel pre-emption scheme.</p>",
+            "<b>D.</b> <p>Allow lower priority process to complete its job.</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Temporarily raise the priority of lower priority level process</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45658/isro-2013-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the list of page references in the time line as below:<br>\n9  6  2  3  4  4  4  4  3  4  4  2  5  8  6  8  5  5  3  2  3  3  9  6  2  7<br>What is the working set at the penultimate page reference if \\(\\Delta\\) is 5? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>{8, 5, 3, 2, 9, 6}</p>",
+            "<b>B.</b> <p>{4, 3, 6, 2, 5}</p>",
+            "<b>C.</b> <p>{3, 9, 6, 2, 7}</p>",
+            "<b>D.</b> <p>{3, 9, 6, 2}</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>{3, 9, 6, 2}</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/45557/isro-2013-65\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A particular parallel program computation requires 100 seconds when executed on a single CPU. If 20% of this computation is strictly sequential, then theoretically the best possible elapsed times for this program running on 2 CPUs and 4 CPUs respectively are <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>55 and 45 seconds</p>",
+            "<b>B.</b> <p>80 and 20 seconds</p>",
+            "<b>C.</b> <p>75 and 25 seconds</p>",
+            "<b>D.</b> <p>60 and 40 seconds</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>60 and 40 seconds</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44830/isro-2013-62\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The state of a process after it encounters an I/O instruction is? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ready</p>",
+            "<b>B.</b> <p>Blocked</p>",
+            "<b>C.</b> <p>Idle</p>",
+            "<b>D.</b> <p>Running</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Blocked</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44406/isro-2013-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>A starvation free job scheduling policy guarantees that no job indefinitely waits for a service. Which of the following job scheduling policies is starvation free? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Priority queing</p>",
+            "<b>B.</b> <p>Shortest job first</p>",
+            "<b>C.</b> <p>Youngest job first</p>",
+            "<b>D.</b> <p>Round robin</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Round robin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44405/isro-2013-59\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following process and resource requirement of each process.<br>\\(\\begin{array}{|c|c|c|c|c|} \\hline  {\\text { Process }} &amp;  {\\text { Type 1 }} &amp; {\\text { Type 1 }} &amp;  {\\text { Type 2 }}&amp;  {\\text { Type 2 }} \\\\ \\hline  &amp; \\text { Used } &amp; \\text { Max } &amp; \\text { Used } &amp; \\text { Max } \\\\ \\hline \\text { P1 } &amp; 1 &amp; 2 &amp; 1 &amp; 3 \\\\ \\hline \\text { P2 } &amp; 1 &amp; 3 &amp; 1 &amp; 2 \\\\ \\hline \\text { P3 } &amp; 2 &amp; 4 &amp; 1 &amp; 4 \\\\ \\hline \\end{array}\\)<br>Predict the state of this system, assuming that there are a total of 5 instances of resource type 1 and 4 instances of resource type 2. <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Can go to safe or unsafe state based on sequence</p>",
+            "<b>B.</b> <p>Safe state</p>",
+            "<b>C.</b> <p>Unsafe state</p>",
+            "<b>D.</b> <p>Deadlock state</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Unsafe state</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44404/isro-2013-58\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following is not a necessary condition for deadlock? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Mutual exclusion</p>",
+            "<b>B.</b> <p>Reentrancy</p>",
+            "<b>C.</b> <p>Hold and wait</p>",
+            "<b>D.</b> <p>No pre-emption</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Reentrancy</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44403/isro-2013-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

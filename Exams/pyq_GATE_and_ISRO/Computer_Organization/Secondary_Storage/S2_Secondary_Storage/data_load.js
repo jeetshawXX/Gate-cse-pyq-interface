@@ -1,0 +1,251 @@
+window.__examLoadCallback({
+  "title": "Secondary_Storage - Secondary_Storage - Slot 2",
+  "duration": 44,
+  "sections": [
+    {
+      "name": "Secondary_Storage",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stores in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+            "<b>B.</b> <p>256 Mbute, 28 bits</p>",
+            "<b>C.</b> <p>512 Mbyte, 20 bits</p>",
+            "<b>D.</b> <p>64 Gbyte, 28 bits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48058/isro2009-36\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A hard disk has 63 sectors per track, 10 platters each with 2 recording surfaces\nand 1000 cylinders. The address of a sector is given as a triple (c,h,s), where c is the cylinder number, h is the surface number and s is the sector number. Thus, the \\(0^{th}\\) sector is addressed as (0,0,0), the \\(1^{st}\\) sector as (0,0,1), and so on <br><br>The address of the \\(1039^{th}\\) sector is <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(0,15,31)</p>",
+            "<b>B.</b> <p>(0,16,30)</p>",
+            "<b>C.</b> <p>(0,16,31)</p>",
+            "<b>D.</b> <p>(0,17,31)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(0,16,31)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43477/gate2009-52#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A hard disk has 63 sectors per track, 10 platters each with 2 recording surfaces\nand 1000 cylinders. The address of a sector is given as a triple (c,h,s), where c is the cylinder number, h is the surface number and s is the sector number. Thus, the \\(0^{th}\\) sector is addressed as (0,0,0), the \\(1^{st}\\) sector as (0,0,1), and so on <br><br> The address (400, 16, 29) corresponds to sector number: <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>505035</p>",
+            "<b>B.</b> <p>505036</p>",
+            "<b>C.</b> <p>505037</p>",
+            "<b>D.</b> <p>505038</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>505037</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1337/gate2009-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>The total time to prepare a disk drive mechanism for a block of data to be read from it is <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>seek time</p>",
+            "<b>B.</b> <p>latency</p>",
+            "<b>C.</b> <p>latency plus seek time</p>",
+            "<b>D.</b> <p>transmission time</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>latency plus seek time</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/17263/isro2008-49\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Raid configurations of the disks are used to provide <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fault-tolerance</p>",
+            "<b>B.</b> <p>High speed</p>",
+            "<b>C.</b> <p>High data density</p>",
+            "<b>D.</b> <p>(A) &amp; (B)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(A) &amp; (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1496/gate1999-2-18-isro2008-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>For a magnetic disk with concentric circular tracks, the seek latency is not linearly\nproportional to the seek distance due to <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>non-uniform distribution of requests</p>",
+            "<b>B.</b> <p>arm starting and stopping inertia</p>",
+            "<b>C.</b> <p>higher capacity of tracks on the periphery of the platter</p>",
+            "<b>D.</b> <p>use of unfair arm scheduling policies</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>arm starting and stopping inertia</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/443/gate2008-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following RAID level provides the highest Data Transfer Rate (Read/Write) <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>RAID 1</p>",
+            "<b>B.</b> <p>RAID 3</p>",
+            "<b>C.</b> <p>RAID 4</p>",
+            "<b>D.</b> <p>RAID 5</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>RAID 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49539/isro2007-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A hard disk system has the following parameters :<br>Number of tracks = 500<br>\nNumber of sectors/track = 100<br>\nNumber of bytes /sector = 500<br>\nTime taken by the head to move from one track to adjacent track = 1 ms<br>\nRotation speed = 600 rpm.<br>\nWhat is the average time taken for transferring 250 bytes from the disk ? <br><br><strong>(GATE IT 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>300.5  ms</p>",
+            "<b>B.</b> <p>255.5  ms</p>",
+            "<b>C.</b> <p>255 ms</p>",
+            "<b>D.</b> <p>300  ms</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>300  ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3479/gate2007-it-44-isro2015-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+            "<b>B.</b> <p>256 Mbyte, 28 bits</p>",
+            "<b>C.</b> <p>512 Mbyte, 20 bits</p>",
+            "<b>D.</b> <p>64 Gbyte, 28 bits</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>256 Mbyte, 19 bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1209/gate2007-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>A disk has 8 equidistant tracks. The diameters of the innermost and outermost tracks are 1 cm and 8 cm respectively. The innermost track has a storage capacity of 10 MB.<br>If the disk has 20 sectors per track and is currently at the end of the \\(5^{th}\\) sector of the inner-most track and the head can move at a speed of 10 meters/sec and it is rotating at constant angular velocity of 6000 RPM, how much time will it take to read 1 MB contiguous data starting from the sector 4 of the outer-most track? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13.5 ms</p>",
+            "<b>B.</b> <p>10  ms</p>",
+            "<b>C.</b> <p>9.5 ms</p>",
+            "<b>D.</b> <p>20 ms</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10  ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3846/gate2005-it-81-b\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A disk has 8 equidistant tracks. The diameters of the innermost and outermost tracks are 1 cm and 8 cm respectively. The innermost track has a storage capacity of 10 MB.<br>\nWhat is the total amount of data that can be stored on the disk if it is used with a drive that rotates it with<br>\nI.Constant Linear Velocity<br>\nII.Constant Angular Velocity?<br> <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(I. 80 \\ \\text{MB}; \\;  II. 2040 \\ \\text{MB}\\)</p>",
+            "<b>B.</b> <p>\\(I. 2040 \\ \\text{MB}; \\;  II 80 \\ \\text{MB}\\)</p>",
+            "<b>C.</b> <p>\\(I. 80 \\ \\text{MB}; \\; II. 360 \\ \\text{MB}\\)</p>",
+            "<b>D.</b> <p>\\(I. 360 \\ \\text{MB};  \\; II. 80 \\ \\text{MB}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(I. 360 \\ \\text{MB};  \\; II. 80 \\ \\text{MB}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3845/gate2005-it-81-a\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>The storage area of a disk has the innermost diameter of 10 cm and outermost diameter of 20 cm. The maximum storage density of the disk is 1400 bits/cm. The disk rotates at a speed of 4200 RPM. The main memory of a computer has 64-bit word length and 1\\(\\mu s\\) cycle time. If cycle stealing is used for data transfer from the disk, the percentage of memory cycles stolen for transferring one word is <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.50%</p>",
+            "<b>B.</b> <p>1%</p>",
+            "<b>C.</b> <p>5%</p>",
+            "<b>D.</b> <p>10%</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>5%</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3694/gate2004-it-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Using a larger block size in a fixed block size file system leads to <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>better disk throughput but poorer disk space utilization</p>",
+            "<b>B.</b> <p>better disk throughput and better disk space utilization</p>",
+            "<b>C.</b> <p>poorer disk throughput but better disk space utilization</p>",
+            "<b>D.</b> <p>poorer disk throughput and poorer disk space utilization</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>better disk throughput but poorer disk space utilization</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/915/gate2003-25#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Raid configurations of the disks are used to provide <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fault-tolerance</p>",
+            "<b>B.</b> <p>High speed</p>",
+            "<b>C.</b> <p>High data density</p>",
+            "<b>D.</b> <p>(A) &amp; (B)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(A) &amp; (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1496/gate1999-2-18-isro2008-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Formatting for a floppy disk refers to <br><br><strong>(GATE CSE 1998)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>arranging the data on the disk in contiguous fashion</p>",
+            "<b>B.</b> <p>writing the directory</p>",
+            "<b>C.</b> <p>erasing the system data</p>",
+            "<b>D.</b> <p>writing identification information on all tracks and sectors</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>writing identification information on all tracks and sectors</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1681/gate1998-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The data transfer rate of a double-density floppy disk system is about: <br><br><strong>(GATE CSE 1987)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5K bits/sec</p>",
+            "<b>B.</b> <p>50K bits/sec</p>",
+            "<b>C.</b> <p>500K bits/sec</p>",
+            "<b>D.</b> <p>5000K bits/sec</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>500K bits/sec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/80281/gate1987-1-x\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,71 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - Integrated Circuits - Integrated Circuits",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Integrated Circuits",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49510\"></a><div itemprop=\"text\"><p>The output \\( 0 \\) and \\( 1 \\) level for TTL Logic family is approximately</p>\n\n</div><br><br><b>Integrated Circuits: ISRO CSE 2007 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0.1 \\) and \\( 5&nbsp;\\text{ V} \\)</p>",
+            "<p>\\( 0.6 \\) and \\( 3.5&nbsp;\\text{ V} \\)</p>",
+            "<p>\\( 0.9 \\) and \\( 1.75&nbsp;\\text{ V} \\)</p>",
+            "<p>\\( -1.75 \\) and \\( 0.9&nbsp;\\text{ V} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 0.6 \\) and \\( 3.5&nbsp;\\text{ V} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49510/isro-cse-2007-question-35\" target=\"_blank\">https://gateoverflow.in/49510/isro-cse-2007-question-35</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"49890\"></a><div itemprop=\"text\">\n<p>The advantage of MOS devices over bipolar devices is that</p>\n\n\n</div><br><br><b>Integrated Circuits: ISRO CSE 2008 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>it allows higher bit densities and also cost effective</p>",
+            "<p>it is easy to fabricate</p>",
+            "<p>it is higher-impedance and operational speed</p>",
+            "<p>all of these</p>"
+          ],
+          "correct_answer": "<p>all of these</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49890/isro-cse-2008-question-21\" target=\"_blank\">https://gateoverflow.in/49890/isro-cse-2008-question-21</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"53157\"></a><div itemprop=\"text\">\n<p>Logic family popular for low power dissipation</p>\n\n\n</div><br><br><b>Integrated Circuits: ISRO CSE 2011 | Question: 80</b></p>",
+          "type": "single",
+          "options": [
+            "<p>CMOS</p>",
+            "<p>ECL</p>",
+            "<p>TTL</p>",
+            "<p>DTL</p>"
+          ],
+          "correct_answer": "<p>CMOS</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53157/isro-cse-2011-question-80\" target=\"_blank\">https://gateoverflow.in/53157/isro-cse-2011-question-80</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"54976\"></a><div itemprop=\"text\"><p>If the maximum output voltage of a DAC is \\( V \\) volts and if the resolution is \\( R \\) bits then the weight of the most significant bit is ________</p>\n\n</div><br><br><b>Integrated Circuits: ISRO CSE 2014 | Question: 46</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( V/(2^R -1) \\)</p>",
+            "<p>\\( (2^{R-1}).V/(2^R-1) \\)</p>",
+            "<p>\\( (2^{R-1}).V \\)</p>",
+            "<p>\\( V/(2^{R-1}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( (2^{R-1}).V/(2^R-1) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54976/isro-cse-2014-question-46\" target=\"_blank\">https://gateoverflow.in/54976/isro-cse-2014-question-46</a></p>"
+        }
+      ]
+    }
+  ]
+});

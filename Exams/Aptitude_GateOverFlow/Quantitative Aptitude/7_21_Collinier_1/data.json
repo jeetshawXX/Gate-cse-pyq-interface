@@ -1,0 +1,26 @@
+{
+  "title": "Quantitative Aptitude - Collinier",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Collinier",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"4001\"></a><div itemprop=\"text\"><p>A, B, C and Dare four towns, any three of which are non-collinear. The number of ways to construct three roads each joining a pair of towns so that the roads do not form a triangle is:</p>\n\n</div><br><br><b>Quantitative Aptitude: CAT 1995 | Question: 62</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>7</p>",
+            "<p>8</p>",
+            "<p>9</p>",
+            "<p>more than 9</p>"
+          ],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/4001/cat-1995-question-62\" target=\"_blank\">https://aptitude.gateoverflow.in/4001/cat-1995-question-62</a></p>"
+        }
+      ]
+    }
+  ]
+}

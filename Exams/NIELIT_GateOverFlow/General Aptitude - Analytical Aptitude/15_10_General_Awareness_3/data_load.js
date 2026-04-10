@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Analytical Aptitude - General Awareness",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "General Awareness",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"412022\"></a><div itemprop=\"text\"><p>\\( \\text{LBDQ} \\) stands for:</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 133</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Leader Behavior Description Questionnaire</p>",
+            "<p>Leader Behavior Defining Questionnaire</p>",
+            "<p>Leader Behavior Dominance Questionnaire</p>",
+            "<p>None of these\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Leader Behavior Description Questionnaire</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412022/nielit-2023-feb-scientist-c-section-e-question-133\" target=\"_blank\">https://gateoverflow.in/412022/nielit-2023-feb-scientist-c-section-e-question-133</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"412009\"></a><div itemprop=\"text\"><p>The two types of attitudes in a workplace can be termed as ___________.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist C | Section E | Question: 146</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Favorable and unfavorable</p>",
+            "<p>Optimistic and Pessimistic</p>",
+            "<p>Individual and group</p>",
+            "<p>Satisfied and dissatisfied\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Favorable and unfavorable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/412009/nielit-2023-feb-scientist-c-section-e-question-146\" target=\"_blank\">https://gateoverflow.in/412009/nielit-2023-feb-scientist-c-section-e-question-146</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410578\"></a><div itemprop=\"text\"><p>Directions: Answer questions <strong>(24-25)</strong> on the basis of following instructions :</p>\n\n<p>Instructions: For the Assertions \\( \\text{(A)} \\)&nbsp;and Reason \\( \\text{(R)} \\)&nbsp;below, choose the correct alternative from the following :</p>\n\n<p>(I) Both \\( \\text{(A)} \\)&nbsp;and \\( \\text{(R)} \\)&nbsp;are true and \\( \\text{(R)} \\)&nbsp;is the correct explanation of \\( \\text{(A)} \\).</p>\n\n<p>(II) Both \\( \\text{(A)} \\)&nbsp;and \\( \\text{(R)} \\)&nbsp;are true and \\( \\text{(R)} \\)&nbsp;is not the correct explanation of \\( \\text{(A)} \\).</p>\n\n<p>(III) \\( \\text{(A)} \\)&nbsp;is true but \\( \\text{(R)} \\)&nbsp;is false.</p>\n\n<p>(IV) \\( \\text{(A)} \\)&nbsp;is false but \\( \\text{(R)} \\)&nbsp;is true.</p>\n\n<p>Assertion \\( \\text{(A)} \\): Salt is added to cook food at higher altitudes.</p>\n\n<p>Reason \\( \\text{(R)} \\): Temperature is lower at higher altitudes.</p>\n\n</div><br><br><b>Analytical Aptitude: NIELIT 2023 Feb Scientist D | Section A | Question: 25</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{(I)} \\)</p>",
+            "<p>\\( \\text{(II)} \\)</p>",
+            "<p>\\( \\text{(III)} \\)</p>",
+            "<p>\\( \\text{(IV)} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(II)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410578/nielit-2023-feb-scientist-d-section-a-question-25\" target=\"_blank\">https://gateoverflow.in/410578/nielit-2023-feb-scientist-d-section-a-question-25</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Out of Gatecse Syllabus",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Out of Gatecse Syllabus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"2053\"></a><div itemprop=\"text\"><p>In the context of modular software design, which one of the following combinations is desirable?</p>\n\n</div><br><br><b>IS&Software Engineering: GATE CSE 2014 Set 3 | Question: 19, ISRO2017</b></p>",
+          "type": "single",
+          "options": [
+            "<p>High cohesion and high coupling</p>",
+            "<p>High cohesion and low coupling</p>",
+            "<p>Low cohesion and high coupling</p>",
+            "<p>Low cohesion and low coupling</p>"
+          ],
+          "correct_answer": "<p>High cohesion and low coupling</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2053/gate-cse-2014-set-3-question-19-isro2017-78\" target=\"_blank\">https://gateoverflow.in/2053/gate-cse-2014-set-3-question-19-isro2017-78</a></p>"
+        }
+      ]
+    }
+  ]
+});

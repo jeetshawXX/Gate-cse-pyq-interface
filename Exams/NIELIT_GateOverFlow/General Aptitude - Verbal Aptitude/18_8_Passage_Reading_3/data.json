@@ -1,0 +1,58 @@
+{
+  "title": "General Aptitude - Verbal Aptitude - Passage Reading",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Passage Reading",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"373700\"></a><div itemprop=\"text\"><p>The first line&nbsp;\\( \\text{(P)} \\) and last line&nbsp;\\( \\text{(U)} \\) of the question are fixed. Arrange the other four lines in a logical sequence.</p>\n\n\n\n<ol style=\"list-style-type:upper-alpha\" type=\"A\">\n\t<li>\\( \\text{RQTS} \\)</li>\n\t<li>\\( \\text{RSTQ} \\)</li>\n\t<li>\\( \\text{TQSR} \\)</li>\n\t<li>\\( \\text{STQR} \\)</li>\n</ol></div><br><br><b>Verbal Aptitude: NIELIT 2022 April Scientist B | Section A | Question: 18</b></p>",
+          "type": "single",
+          "options": [
+            "<p>First, take five minutes to meditate for peace.</p>",
+            "<p>Allow them to radiate from your stillness out into your body.</p>",
+            "<p>Bring into your mind anyone against whom you have a grievance and let it go.</p>",
+            "<p>Close your eyes.</p>",
+            "<p>Put your attention on your heart and inwardly repeat the words: Peace, harmony, laughter, love.</p>",
+            "<p>Then introduce the intention of peace in your thoughts. After a few moments of silence, repeat this prayer; let me be loved, happy and peaceful; let my friends, my perceived enemies, all beings in the world be happy, loved and peaceful too.</p>"
+          ],
+          "correct_answer": "<p>Close your eyes.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/373700/nielit-2022-april-scientist-b-section-a-question-18\" target=\"_blank\">https://gateoverflow.in/373700/nielit-2022-april-scientist-b-section-a-question-18</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"411428\"></a><div itemprop=\"text\"><p><strong>Direction:</strong>&nbsp;\\( (31-34) \\) In the following questions find the appropriate explanation for idioms/phrases mentioned in bold letters.</p>\n\n<p><strong>I am beat</strong> generally by the time I reach home.</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist C | Section B | Question: 33</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Late</p>",
+            "<p>Drunk</p>",
+            "<p>Upbeat and energetic</p>",
+            "<p>Thoroughly fatigued\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>Thoroughly fatigued\n\t<p>&nbsp;</p></p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/411428/nielit-2023-feb-scientist-c-section-b-question-33\" target=\"_blank\">https://gateoverflow.in/411428/nielit-2023-feb-scientist-c-section-b-question-33</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"410852\"></a><div itemprop=\"text\"><p>Directions: In questions <strong>(43-46)</strong>, rearrange the following five sentences \\( \\mathrm{P}, \\mathrm{Q}, \\mathrm{R}, \\mathrm{S} \\) and \\( \\mathrm{T} \\) in the proper sequence to form a meaningful paragraph; then answer the questions given below them.<br>\n<br>\n\\( \\mathrm{P} \\).&nbsp;With the death of Queen Anne in August \\( 1714 \\) and the accession of George I, the Tories were a ruined party, and Swift's career in England was at an end.<br>\n<br>\n\\( \\mathrm{Q} \\).&nbsp;A Tory ministry headed by Robert Harley (later earl of Oxford) and Henry St. John (later Viscount Bolingbroke) was replacing that of the Whigs.</p>\n\n<p>\\( \\mathrm{R} \\). The astute Harley made overtures to Swift and won him over to the Tories.</p>\n\n<p>\\( \\mathrm{S} \\).&nbsp;Swift quickly became the Tories' chief pamphleteer and political writer and, by the end of October \\( 1710 \\), had taken over the Tory journal, The Examiner, which he continued to edit until June \\( 14, 1711 \\).</p>\n\n<p>\\( \\mathrm{T} \\). A momentous period began for Swift when in \\( 1710 \\) he once again found himself in London.</p>\n\n<p>Which of the sentences should come first in the sequence?</p>\n\n</div><br><br><b>Verbal Aptitude: NIELIT 2023 Feb Scientist D | Section B | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\mathrm{S} \\)</p>",
+            "<p>\\( \\mathrm{T} \\)</p>",
+            "<p>\\( \\mathrm{P} \\)</p>",
+            "<p>\\( \\mathrm{R} \\)\n\t<p>&nbsp;</p></p>"
+          ],
+          "correct_answer": "<p>\\( \\mathrm{T} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/410852/nielit-2023-feb-scientist-d-section-b-question-45\" target=\"_blank\">https://gateoverflow.in/410852/nielit-2023-feb-scientist-d-section-b-question-45</a></p>"
+        }
+      ]
+    }
+  ]
+}

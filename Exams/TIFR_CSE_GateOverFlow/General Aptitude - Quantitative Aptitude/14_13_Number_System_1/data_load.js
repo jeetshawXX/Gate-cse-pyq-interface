@@ -1,0 +1,27 @@
+window.__examLoadCallback({
+  "title": "General Aptitude - Quantitative Aptitude - Number System",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Number System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"400149\"></a><div itemprop=\"text\"><p>Fix a positive integer \\( n \\), and let \\( n=p_{1}^{e_{1}} p_{2}^{e_{2}} \\cdots p_{k}^{e_{k}} \\) be the prime factorization of \\( n \\). Here, \\( p_{1}, \\ldots, p_{k} \\) are prime numbers and \\( e_{i} \\geq 1 \\) for all \\( 1 \\leq i \\leq k \\). Call a sequence \\( \\left(n_{0}, n_{1}, \\ldots, n_{t}\\right) \\) where \\( n_{0}=n \\) and \\( n_{t}=1 \\) <em>relevant</em> if for every \\( 0 \\leq i \\leq t-1, \\)&nbsp;the number \\( n_{i} / n_{i+1} \\) is a prime number. What is the total number of relevant sequences?</p>\n\n</div><br><br><b>Quantitative Aptitude: TIFR CSE 2023 | Part B | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\left(p_{1}+1\\right) \\times\\left(p_{2}+1\\right) \\times \\cdots \\times\\left(p_{k}+1\\right) \\)</p>",
+            "<p>\\( \\left(p_{1}+1\\right)^{e_{1}} \\times\\left(p_{2}+1\\right)^{e_{2}} \\times \\cdots \\times\\left(p_{k}+1\\right)^{e_{k}} \\)</p>",
+            "<p>\\( \\left(e_{1}+e_{2}+\\cdots+e_{k}\\right) \\) !</p>",
+            "<p>\\( \\frac{\\left(e_{1}+e_{2}+\\cdots+e_{k}\\right) !}{\\left(e_{1} !\\right) \\times\\left(e_{2} !\\right) \\times \\cdots \\times\\left(e_{k} !\\right)} \\)</p>",
+            "<p>None of the above</p>"
+          ],
+          "correct_answer": "<p>\\( \\frac{\\left(e_{1}+e_{2}+\\cdots+e_{k}\\right) !}{\\left(e_{1} !\\right) \\times\\left(e_{2} !\\right) \\times \\cdots \\times\\left(e_{k} !\\right)} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/400149/tifr-cse-2023-part-b-question-9\" target=\"_blank\">https://gateoverflow.in/400149/tifr-cse-2023-part-b-question-9</a></p>"
+        }
+      ]
+    }
+  ]
+});

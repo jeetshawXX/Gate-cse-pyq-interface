@@ -1,0 +1,441 @@
+window.__examLoadCallback({
+  "title": "Algorithms - Recurrence_Relation",
+  "duration": 80,
+  "sections": [
+    {
+      "name": "Recurrence_Relation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following recurrence relation:\n<br><br>\n\\(T(n) = 2T(n-1) + n2^n \\quad \\text{for} \\quad n &gt; 0, \\quad T(0) = 1\\)\n<br><br>\nWhich ONE of the following options is CORRECT? <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n) = \\Theta(n^2 2^n)\\)</p>",
+            "<b>B.</b> <p>\\(T(n) = \\Theta(n 2^n)\\)</p>",
+            "<b>C.</b> <p>\\(T(n) = \\Theta((\\log n)^2 2^n)\\)</p>",
+            "<b>D.</b> <p>\\(T(n) = \\Theta(4^n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(T(n) = \\Theta(n^2 2^n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/460070/gate-cse-2025-set-1-question-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let \\( T(n) \\) be the recurrence relation defined as follows:\n<br> \\(\n\\begin{aligned}\n&amp; T(0)=1, \\\\\n&amp; T(1)=2, \\text { and } \\\\\n&amp; T(n)=5 T(n-1)-6 T(n-2) \\text { for } n \\geq 2\n\\end{aligned}\n\\) <br>Which one of the following statements is TRUE? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( T(n)=\\Theta\\left(2^n\\right)  \\)</p>",
+            "<b>B.</b> <p>\\( T(n)=\\Theta\\left(n 2^n\\right)  \\)</p>",
+            "<b>C.</b> <p>\\( T(n)=\\Theta\\left(3^n\\right)  \\)</p>",
+            "<b>D.</b> <p>\\( T(n)=\\Theta\\left(n 3^n\\right)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\( T(n)=\\Theta\\left(2^n\\right)  \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422892/gate-cse-2024-set-2-question-5#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following recurrence relation:\n<br> \\(\nT(n)=\\left\\{\\begin{array}{c}\n\\sqrt{n} T(\\sqrt{n})+n \\text { for } n \\geq 1, \\\\\n1 \\quad \\text { for } n=1 .\n\\end{array}\\right.\n\\) <br>Which one of the following options is CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=\\Theta(n \\log \\log n)</p>",
+            "<b>B.</b> <p>T(n)=\\Theta(n \\log n)</p>",
+            "<b>C.</b> <p>T(n)=\\Theta\\left(n^2 \\log n\\right)</p>",
+            "<b>D.</b> <p>T(n)=\\Theta\\left(n^2 \\log \\log n\\right)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T(n)=\\Theta(n \\log \\log n)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/422810/gate-cse-2024-set-1-question-32#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>For constants \\(a\\geq 1\\) and \\(b \\gt 1\\), consider the following recurrence defined on the non-negative integers:\n<br><br>\n\\(T(n) = a \\cdot T \\left(\\dfrac{n}{b} \\right) + f(n)\\)\n<br><br>Which one of the following options is correct about the recurrence \\(T(n)\\)? <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>if \\(f(n)\\) is \\(n \\log_2(n)\\), then \\(T(n)\\) is \\(\\Theta(n \\log_2(n))\\).</p>",
+            "<b>B.</b> <p>if \\(f(n)\\) is \\(\\dfrac{n}{\\log_2(n)}\\), then \\(T(n)\\) is \\(\\Theta(\\log_2(n))\\).</p>",
+            "<b>C.</b> <p>if \\(f(n)\\) is \\(O(n^{\\log_b(a)-\\epsilon})\\) for some \\(\\epsilon \\gt 0\\), then \\(T(n)\\) is \\(\\Theta(n ^{\\log_b(a)})\\).</p>",
+            "<b>D.</b> <p>if \\(f(n)\\) is \\(\\Theta(n ^{\\log_b(a)})\\), then \\(T(n)\\) is \\(\\Theta(n ^{\\log_b(a)})\\).</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>if \\(f(n)\\) is \\(O(n^{\\log_b(a)-\\epsilon})\\) for some \\(\\epsilon \\gt 0\\), then \\(T(n)\\) is \\(\\Theta(n ^{\\log_b(a)})\\).</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357501/gate-cse-2021-set-2-question-39#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following recurrence relation.<br>\n\\(T\\left ( n \\right )=\\left\\{\\begin{array} {lcl} T(n/2)+T(2n/5)+7n &amp; \\text{if} \\; n &gt; 0\\\\1 &amp; \\text{if}\\; n=0 \\end{array}\\right.\\)<br>\nWhich one of the following options is correct? <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n)=\\Theta (n^{5/2})\\)</p>",
+            "<b>B.</b> <p>\\(T(n)=\\Theta (n \\log n)\\)</p>",
+            "<b>C.</b> <p>\\(T(n)=\\Theta (n)\\)</p>",
+            "<b>D.</b> <p>\\(T(n)=\\Theta ((\\log n)^{5/2})\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(T(n)=\\Theta (n)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/357421/gate-cse-2021-set-1-question-30#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The master theorem <br><br><strong>(ISRO CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>assumes the subproblems are unequal sizes</p>",
+            "<b>B.</b> <p>can be used if the subproblems are of equal size</p>",
+            "<b>C.</b> <p>cannot be used for divide and conquer algorithms</p>",
+            "<b>D.</b> <p>cannot be used for asymptotic complexity analysis</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>can be used if the subproblems are of equal size</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/331325/isro2020-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>For parameters a and b, both of which are \\(\\omega(1) , T(n)=T(n^{1/a})+1\\), and \\(T(b)=1\\). Then \\(T(n)\\) is <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\Theta (\\log _a \\log_b n)\\)</p>",
+            "<b>B.</b> <p>\\(\\Theta (\\log _{ab} n)\\)</p>",
+            "<b>C.</b> <p>\\(\\Theta (\\log _b \\log_a n)\\)</p>",
+            "<b>D.</b> <p>\\(\\Theta (\\log _2 \\log_2 n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\Theta (\\log _a \\log_b n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/333229/gate2020-cs-2#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>The running time of an algorithm is given by:<br>\\(T(n)=\\left\\{\\begin{matrix} T(n-1)+T(n-2)-T(n-3), &amp;\\text {  if } n&gt;3\\\\  n, &amp;\\text{  otherwise}\\end{matrix}\\right.\\)<br>Then what should be the relation between \\(T(1),T(2),T(3)\\), so that the order of the algorithm is constant? <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(1) = T(2) = T(3)</p>",
+            "<b>B.</b> <p>T(1) + T(3) = 2T(2)</p>",
+            "<b>C.</b> <p>T(1) - T(3) = T(2)</p>",
+            "<b>D.</b> <p>T(1) + T(2) = T(3)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>T(1) = T(2) = T(3)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213551/isro2018-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>The recurrence relation that arises in relation with the complexity of binary search is: <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n)=2 T\\left(\\frac{n}{2}\\right)+k, \\mathrm{k} \\text { is a constant }\\)</p>",
+            "<b>B.</b> <p>\\(T(n)=T\\left(\\frac{n}{2}\\right)+k, \\mathrm{k} \\text { is a constant }\\)</p>",
+            "<b>C.</b> <p>\\(T(n)=T\\left(\\frac{n}{2}\\right)+\\log n\\)</p>",
+            "<b>D.</b> <p>\\(T(n)=T\\left(\\frac{n}{2}\\right)+n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T(n)=T\\left(\\frac{n}{2}\\right)+k, \\mathrm{k} \\text { is a constant }\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2444/gate1994-1-7-isro2017-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the recurrence function <br> \\(T(n)=\\left\\{\\begin{matrix} 2T(\\sqrt{n})+1, &amp; n \\gt 2\\\\ 2,&amp; 0 \\lt n\\leq 2 \\end{matrix}\\right.\\) <br>Then T(n) in terms of   \\(\\theta\\)   notation is <br><br><strong>(GATE CSE 2017 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\theta (log log n)\\)</p>",
+            "<b>B.</b> <p>\\(\\theta  (logn)\\)</p>",
+            "<b>C.</b> <p>\\(\\theta (\\sqrt{n})\\)</p>",
+            "<b>D.</b> <p>\\(\\theta  (n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\theta  (logn)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/118623/gate2017-2-30#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following recurrence:<br>\\(T(n)=2T\\left ( \\sqrt{n}\\right )+1, T(1)=1\\)<br>Which one of the following is true? <br><br><strong>(ISRO CSE 2016)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n)=\\Theta (\\log\\log n)\\)</p>",
+            "<b>B.</b> <p>\\(T(n)=\\Theta (\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(T(n)=\\Theta (\\sqrt{n})\\)</p>",
+            "<b>D.</b> <p>\\(T(n)=\\Theta (n)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T(n)=\\Theta (\\log n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1829/gate2006-51-isro2016-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Suppose you want to move from 0 to 100 on the number line. In each step, you either move right by a unit distance or you take a shortcut. A shortcut is simply a pre-specified pair of integers i,j with \\(i \\lt j\\). Given a shortcut i, j if you are at position i on the number line, you may directly move to j. Suppose T(k) denotes the smallest number of steps needed to move from k to 100. suppose further that there is at most 1 shortcut involving any number, and in particular from 9 there is a shortcut to 15. Let y and z be such that T(9) = 1 + min(T(y), T(z)). Then the value of the product yz is_______. <br><br><strong>(GATE CSE 2014 SET-3)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "150",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/2071/gate2014-3-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Which one of the following correctly determines the solution of the recurrence relation with\nT(1) = 1? <br> \\(T(n)=2T(\\frac{n}{2})+logn\\) <br><br><strong>(GATE CSE 2014 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\theta (n)\\)</p>",
+            "<b>B.</b> <p>\\(\\theta (n logn)\\)</p>",
+            "<b>C.</b> <p>\\(\\theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\theta (log n)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\theta (n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1968/gate2014-2-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>The recurrence relation capturing the optimal execution time of the Towers of Hanoi problem with n discs is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n) = 2T(n - 2) + 2</p>",
+            "<b>B.</b> <p>T(n) = 2T(n - 1) + n</p>",
+            "<b>C.</b> <p>T(n) = 2T(n/2) + 1</p>",
+            "<b>D.</b> <p>T(n) = 2T(n - 1) + 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>T(n) = 2T(n - 1) + 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48/gate2012-16#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let \\(T(n)\\) be defined by \\(T(1)=10\\) and \\(T(n+1)=2n+T(n)\\) for all integers \\(n \\geq 1\\). Which of the following  represents the order of growth of \\(T(n)\\) as a function of n? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n)\\)</p>",
+            "<b>B.</b> <p>\\(O(n \\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O(n^2)\\)</p>",
+            "<b>D.</b> <p>\\(O(n^3)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(O(n^2)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47492/isro2011-56\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The running time of an algorithm is represented by the following recurrence relation:<br> \\(T(n)=\\left\\{\\begin{matrix} n &amp; n\\leq 3\\\\ T(\\frac{n}{3})+cn&amp; otherwise \\end{matrix}\\right.\\) <br> Which one of the following represents the time complexity of the algorithm? <br><br><strong>(GATE CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\theta\\)(n)</p>",
+            "<b>B.</b> <p>\\(\\theta\\)(n log n)</p>",
+            "<b>C.</b> <p>\\(\\theta (n^{2})\\)</p>",
+            "<b>D.</b> <p>\\(\\theta (n^{2} logn)\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\theta\\)(n)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1321/gate2009-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>When \\(n=2^{2 k}\\) for some \\(k \\geqslant 0\\), the recurrence relation \\(T(n)=\\sqrt{(} 2) T(n / 2)+\\sqrt{n}, T(1)=1\\)<br> evaluates to : <br><br><strong>(GATE IT 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sqrt{(} n)(\\log n+1)\\)</p>",
+            "<b>B.</b> <p>\\(\\sqrt{(} n) \\log n\\)</p>",
+            "<b>C.</b> <p>\\(\\sqrt{(} n) \\log \\sqrt{(} n)\\)</p>",
+            "<b>D.</b> <p>\\(n \\log \\sqrt{n}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\sqrt{(} n)(\\log n+1)\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/3354/gate2008-it-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Let \\(x_{n}\\) denote the number of binary strings of length n that contain no consecutive 0s. <br> <br>The value of \\(x_{5}\\) is <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>5</p>",
+            "<b>B.</b> <p>7</p>",
+            "<b>C.</b> <p>13</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>13</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/43485/gate2008-79#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Let \\(x_{n}\\) denote the number of binary strings of length n that contain no consecutive 0s. <br> <br>Which of the following recurrences does \\(x_{n}\\) satisfy? <br><br><strong>(GATE CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(x_{n}=2x_{n-1}\\)</p>",
+            "<b>B.</b> <p>\\(x_{n}=x_{\\left \\lfloor n/2 \\right \\rfloor}+1\\)</p>",
+            "<b>C.</b> <p>\\(x_{n}=x_{\\left \\lfloor n/2 \\right \\rfloor}+n\\)</p>",
+            "<b>D.</b> <p>\\(x_{n}=x_{n-1}+x_{n-2}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(x_{n}=x_{n-1}+x_{n-2}\\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/497/gate2008-78#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Consider the following recurrence: <br>\nT(n)=2T(\\(\\left \\lceil \\sqrt{n} \\right \\rceil\\))+ 1,  T(1) = 1 <br>\nWhich one of the following is true? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=\\(\\Theta\\)(loglogn)</p>",
+            "<b>B.</b> <p>T(n)=\\(\\Theta\\)(logn)</p>",
+            "<b>C.</b> <p>T(n)=\\(\\Theta (\\sqrt{n})\\)</p>",
+            "<b>D.</b> <p>T(n)=\\(\\Theta\\)(n)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>T(n)=\\(\\Theta\\)(logn)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1829/gate2006-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>Let T(n) be a function defined by the recurrence <br>\n\\(T(n) = 2T(n/2) + \\sqrt n \\text{   for }n \\geq 2\\) and <br>\n\\(T(1) = 1\\)<br>\nWhich of the following statements is TRUE? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n) = \\Theta(\\log n)\\)</p>",
+            "<b>B.</b> <p>\\(T(n) = \\Theta(\\sqrt n)\\)</p>",
+            "<b>C.</b> <p>\\(T(n) = \\Theta(n)\\)</p>",
+            "<b>D.</b> <p>\\(T(n) = \\Theta(n \\log n)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(T(n) = \\Theta(n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3812/gate2005-it-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>Suppose \\(T (n) = 2T(n/2) + n, \\) T(0)=T(1)=1  <br>\nWhich one of the following is FALSE? <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>T(n)=O(\\(n^{2}\\))</p>",
+            "<b>B.</b> <p>T(n)=\\(\\Theta\\)(n log n)</p>",
+            "<b>C.</b> <p>T(n)=\\(\\Omega (n^{2}\\))</p>",
+            "<b>D.</b> <p>T(n)=O(n log n)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>T(n)=\\(\\Omega (n^{2}\\))</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1373/gate2005-37#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>Consider a list of recursive algorithms and a list of recurrence relations as shown below. Each recurrence relation corresponds to exactly one algorithm and is used to derive the time complexity of the algorithm.<br><br>\n\\(\\begin{array}{|l|l|l|l|}\\hline \\text{} &amp; \\textbf{Recursive Algorithm } &amp; \\text{} &amp; \\textbf{Recurrence Relation} \\\\\\hline \\text{P} &amp; \\text{Binary search} &amp; \\text{l.} &amp; \\text{$T(n) = T(n-k) +T(k) +cn$} \\\\\\hline \\text{Q.} &amp; \\text{Merge sort} &amp;\\text{ll.} &amp; \\text{$T(n) = 2T(n-1) + 1$ }\\\\\\hline\\text{R.} &amp; \\text{Quick sort}&amp; \\text{lll.} &amp; \\text{$T(n) = 2T(n/2) + cn$}\\\\\\hline \\text{S.} &amp; \\text{Tower of Hanoi} &amp; \\text{lV.} &amp; \\text{$T(n) = T(n/2) + 1$} \\\\\\hline \\end{array}\\)<br><br>Which of the following is the correct match between the algorithms and their recurrence relations? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P-II, Q-III, R-IV, S-I</p>",
+            "<b>B.</b> <p>P-IV, Q-III, R-I, S-II</p>",
+            "<b>C.</b> <p>P-III, Q-II, R-IV, S-I</p>",
+            "<b>D.</b> <p>P-IV, Q-II, R-I, S-III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>P-IV, Q-III, R-I, S-II</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3700/gate2004-it-57\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>The recurrence equation <br><br> T(1) = 1 <br> T(n) = 2T(n - 1) + n, n \\(\\geq\\) 2 <br><br> evaluates to <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{n+1}-n-2\\)</p>",
+            "<b>B.</b> <p>\\(2^{n}-n\\)</p>",
+            "<b>C.</b> <p>\\(2^{n+1}-2n-2\\)</p>",
+            "<b>D.</b> <p>\\(2^{n}+n\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(2^{n+1}-n-2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1078/gate2004-84#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Consider the following recurrence relation <br>T(1)=1 <br> T(n+1)=T(n)+\\(\\left \\lfloor \\sqrt{n+1} \\right \\rfloor\\)\nfor all n \\(\\geq\\) 1<br> The value of T(\\(m^{2}\\)\n) for m \\(\\geq\\) 1 is <br><br><strong>(GATE CSE 2003)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(m/6) (21m - 39) + 4</p>",
+            "<b>B.</b> <p>(m/6) (4\\(m^{2}\\) - 3m + 5)</p>",
+            "<b>C.</b> <p>(m/2) (\\(m^{2.5}\\) - 11m + 20) - 5</p>",
+            "<b>D.</b> <p>(m/6) (5\\(m^{3}\\) - 34\\(m^{2}\\) + 137m - 104) + (5/6)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(m/6) (4\\(m^{2}\\) - 3m + 5)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/925/gate2003-35#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>The running time of the following algorithm <br><br>\nProcedure A(n)<br>\nIf n \\(\\leq\\) 2 return (1) else return (A(\\(\\sqrt{n}\\))); <br><br> is best discribed by <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>O(n)</p>",
+            "<b>B.</b> <p>O(log n)</p>",
+            "<b>C.</b> <p>O(loglogn)</p>",
+            "<b>D.</b> <p>O(1)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>O(loglogn)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/841/gate2002-2-11#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>The solution to the recurrence equation \\(T(2^{k})=3T(2^{k-1})+1,T(1)=1\\) is <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(2^{k}\\)</p>",
+            "<b>B.</b> <p>\\(\\frac{3^{k+1}-1}{2}\\)</p>",
+            "<b>C.</b> <p>\\(3^{log_{2}^{k}}\\)</p>",
+            "<b>D.</b> <p>\\(2^{log_{3}^{k}}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{3^{k+1}-1}{2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/807/gate2002-1-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>The recurrence relation <br>\n\\(T(1) = 2\\)<br>\n\\(T(n) = 3T (\\frac{n}{4}) +n\\)<br>\nhas the solution \\(T(n)\\) equal to <br><br><strong>(GATE CSE 1996)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n)\\)</p>",
+            "<b>B.</b> <p>\\(O (\\log n)\\)</p>",
+            "<b>C.</b> <p>\\(O\\left(n^\\frac{3}{4}\\right)\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(O(n)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2741/gate1996-2-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>The recurrence relation that arises in relation with the complexity of binary search is: <br><br><strong>(GATE CSE 1994)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T(n) = 2T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }\\)</p>",
+            "<b>B.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }\\)</p>",
+            "<b>C.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+\\log n\\)</p>",
+            "<b>D.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+n\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2444/gate1994-1-7-isro2017-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

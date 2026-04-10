@@ -1,0 +1,26 @@
+{
+  "title": "Discrete Mathematics - Graph Theory - Hamiltonian Graph",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Hamiltonian Graph",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"54046\"></a><div itemprop=\"text\">\n<p>Consider a complete bipartite graph \\( k_{m,n} \\). For which values of \\( m \\) and \\( n \\) does this, complete graph have a Hamilton circuit&nbsp;</p>\n\n\n</div><br><br><b>Graph Theory: UGC NET CSE | June 2014 | Part 2 | Question: 23</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( m = 3, n = 2 \\)</p>",
+            "<p>\\( m = 2, n = 3 \\)&nbsp;</p>",
+            "<p>\\( m = n &gt; 2 \\)</p>",
+            "<p>\\( m = n &gt; 3 \\)&nbsp;</p>"
+          ],
+          "correct_answer": "<p>\\( m = n &gt; 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/54046/ugc-net-cse-june-2014-part-2-question-23\" target=\"_blank\">https://gateoverflow.in/54046/ugc-net-cse-june-2014-part-2-question-23</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+window.__examLoadCallback({
+  "title": "Function - Function - Slot 1",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Function",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\n\nint g(int n) {\n    return (n+10);\n}\n\nint f(int n) {\n    return g(n*2);\n}\n\nint main() {\n    int sum, n;\n    sum=0;\n    for (n=1; n&lt;3; n++)\n        sum += g(f(n));\n    printf (\"%d\", sum);\n    return 0;\n}\n</code></pre>\nThe output of the given C program is ________. (Answer in integer) <br><br><strong>(GATE CSE 2025 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "46",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460840/gate-cse-2025-set-2-question-53#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p><pre><code>#include &lt; stdio.h &gt;  \nint foo(int S[],int size){  \n    if(size == 0) return 0;  \n    if(size == 1) return 1;  \n    if(S[0] != S[1]) return 1+foo(S+1,size-1);  \n    return foo(S+1,size-1);  \n}  \nint main(){  \n    int A[]={0,1,2,2,2,0,0,1,1};  \n    printf(\"%d\",foo(A,9));  \n    return 0;  \n}  \n</code></pre>The value printed by the given C program is _________. (Answer in integer). <br><br><strong>(GATE CSE 2025 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "5",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/460029/gate-cse-2025-set-1-question-51#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Consider the following C program. Assume parameters to a function are evaluated\nfrom right to left.<pre><code>\n#include &lt; stdio.h &gt;\nint g(int p) { printf(\"%d\", p); return p; }\nint h(int q) { printf(\"%d\", q); return q; }\nvoid f(int x, int y) {\ng(x);\nh(y);\n}\nint main() {\nf(g(10),h(20));\n}</code></pre>\nWhich one of the following options is the CORRECT output of the above\nC program? <br><br><strong>(GATE CSE 2024 SET-2)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>20101020</p>",
+            "<b>B.</b> <p>10202010</p>",
+            "<b>C.</b> <p>20102010</p>",
+            "<b>D.</b> <p>10201020</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>20101020</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422894/gate-cse-2024-set-2-question-3#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nvoid fX();\nint main(){\nfX();\nreturn 0;}\n\nvoid fX(){\nchar a;\nif((a=getchar()) != '\\n')\nfX();\nif(a != '\\n')\nputchar(a);}</code></pre>\nAssume that the input to the program from the command line is 1234 followed by\na newline character. Which one of the following statements is CORRECT? <br><br><strong>(GATE CSE 2024 SET-1)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The program will not terminate</p>",
+            "<b>B.</b> <p>The program will terminate with no outpu</p>",
+            "<b>C.</b> <p>The program will terminate with 4321 as output</p>",
+            "<b>D.</b> <p>The program will terminate with 1234 as output</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>The program will terminate with 4321 as output</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/422833/gate-cse-2024-set-1-question-9#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Consider the following program:<br><pre><code>\nint main()\n{\n  f1();\n  f2(2);\n  f3();\n  return(0);\n}\n\nint f1()\n{\n  return(1);\n}\n\nint f2(int X)\n{\n  f3();\n  if (X==1)\n     return f1();\n  else\n     return (X*f2(X-1));\n}\n\nint f3()\n{\n  return(5);\n}\n\n</code></pre><br>Which one of the following options represents the activation tree corresponding to\nthe main function?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Function\\q26_acb7b40e.jpg\"><br> <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A</p>",
+            "<b>B.</b> <p>B</p>",
+            "<b>C.</b> <p>C</p>",
+            "<b>D.</b> <p>D</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/399285/gate-cse-2023-question-26#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>The integer value printed by the ANSI-C program given below is ______.<br><pre><code>#include &lt; stdio.h &gt;\nint funcp(){\n   static int x = 1;\n   x++;\n   return x;\n}\nint main(){\n   int x,y;\n   x = funcp();\n   y = funcp()+x;\n   printf(\"%d\\n\", (x+y));\n   return 0;\n}\n</code></pre> <br><br><strong>(GATE CSE 2023)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/399286/gate-cse-2023-question-25#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider the following ANSI C program<pre><code> #include &lt; stdio.h &gt;\nint foo(int x, int y, int q) \n    {\n        if ((x &lt; = 0) &amp;&amp; (y &lt; = 0))\n        return q;\n        if (x &lt; = 0)\n        return foo(x, y-q, q);\n        if (y &lt; = 0)\n        return foo(x-q, y, q);\n        return foo(x, y-q, q) + foo(x-q, y, q);\n    }\nint main( )\n{\n    int r = foo(15, 15, 10);\n    printf(\"%d\", r);\n    return 0;\n}</code></pre>  The output of the program upon execution is ____ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "60",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357488/gate-cse-2021-set-2-question-49#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Consider the following ANSI C function:<pre><code>int SomeFunction (int x, int y)\n{\n    if ((x==1) || (y==1)) return 1;\n    if (x==y) return x;\n    if (x &gt; y) return SomeFunction(x-y, y);\n    if (y &gt; x) return SomeFunction (x, y-x);\n \n} </code></pre>The value returned by SomeFunction(15, 255) is __________ <br><br><strong>(GATE CSE 2021 SET-2)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "15",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357517/gate-cse-2021-set-2-question-23#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Consider the following ANSI C function:<pre><code> int SimpleFunction(int Y[], int n, int x)\n{\nint total = Y[0], loopIndex;\nfor (loopIndex=1; loopIndex&lt;=n-1; loopIndex++)\n    total=x*total +Y[loopIndex];\nreturn total;\n}</code></pre> Let Z be an array of 10 elements with Z[i]=1, for all i such that \\(0\\leq i \\leq 9\\). The value returned by SimpleFunction(Z,10,2) is __________ <br><br><strong>(GATE CSE 2021 SET-1)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "1023",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/357403/gate-cse-2021-set-1-question-48#a_list_title\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the following C functions.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Function\\q48_1495b619.jpg\"><br>The value returned by pp(3,4) is _____ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "81",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333183/gate2020-cs-48#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider the following C functions.  <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Function\\q46_8e3cceff.jpg\"><br>The return value of fun2(5) is ______ <br><br><strong>(GATE CSE 2020)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "55",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/333185/gate2020-cs-46#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider the following C program:<pre><code>\n#include &lt; stdio.h &gt;\nint r(){\n int static num=7;\n return num--;\n}\nint main() {\n for(r();r();r()) {\n  printf(\"%d \",r());\n  };\n return 0;\n}</code></pre>\nWhich one of the following values will be displayed on execution of the programs? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>41</p>",
+            "<b>B.</b> <p>52</p>",
+            "<b>C.</b> <p>63</p>",
+            "<b>D.</b> <p>630</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>52</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302821/gate2019-cs-27#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider the following C program:<pre><code>\nvoid convert(int n) {\n  if (n&lt;0)\n    printf(\"%d\",n);\n  else {\n    convert(n/2);\n    printf(\"%d\",n%2);\n  }\n}</code></pre>\nWhich one of the following will happen when the function convert is called with any positive integer n as argument? <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>It will print the binary representation of n and terminate.</p>",
+            "<b>B.</b> <p>It will print the binary representation of n in the reverse order and terminate.</p>",
+            "<b>C.</b> <p>It will print the binary representation of n but will not terminate.</p>",
+            "<b>D.</b> <p>It will not print anything and will not terminate.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>It will not print anything and will not terminate.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/302822/gate2019-cs-26#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the following C program:<pre><code> \n#include <stdio.h>\n  int jumble(int x, int y) {\n    x = 2 * x + y;\n    return x;\n  }\nint main() {\n  int x = 2, y = 5;\n  y = jumble(y, x);\n  x = jumble(y, x);\n  printf(\"%dn\", x);\n  return 0;\n}</stdio.h></code></pre>\nThe value printed by program is __________ . <br><br><strong>(GATE CSE 2019)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "26",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/302830/gate2019-cs-18#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Consider the following program written in pseudo-code. Assume that x and y are integers.<pre><code>\nCount(x,y) {\n     if (y != 1){\n        if (x != 1) {\n                  print(\"*\");\n                  Count(x/2, y);\n                  }\n            else {\n                     y = y-1;\n                    Count(1024, y);\n                  }\n      }\n} </code></pre>\nThe number of times that the print statement is executed by the call\nCount(1024,1024) is _____. <br><br><strong>(GATE CSE 2018)</strong></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "10230",
+          "marks": 2,
+          "negative_marks": 0,
+          "explanation": "<a href=\"https://gateoverflow.in/204120/gate2018-45#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

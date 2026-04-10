@@ -1,0 +1,26 @@
+{
+  "title": "Artificial Intelligence - Chaining",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Chaining",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62438\"></a><div itemprop=\"text\"><p>Forward chaining systems are ____ where as backward chaining systems are ____</p>\n\n</div><br><br><b>Artificial Intelligence: UGC NET CSE | December 2015 | Part 3 | Question: 8</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Data driven,&nbsp;Data driven</p>",
+            "<p>Goal&nbsp;driven, Data&nbsp;driven</p>",
+            "<p>Data&nbsp;driven, Goal&nbsp;driven</p>",
+            "<p>Goal&nbsp;driven,&nbsp;Goal&nbsp;driven</p>"
+          ],
+          "correct_answer": "<p>Goal&nbsp;driven,&nbsp;Goal&nbsp;driven</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62438/ugc-net-cse-december-2015-part-3-question-8\" target=\"_blank\">https://gateoverflow.in/62438/ugc-net-cse-december-2015-part-3-question-8</a></p>"
+        }
+      ]
+    }
+  ]
+}

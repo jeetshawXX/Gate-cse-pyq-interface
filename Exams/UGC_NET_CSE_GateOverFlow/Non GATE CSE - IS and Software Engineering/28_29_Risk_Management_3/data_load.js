@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Risk Management",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Risk Management",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60790\"></a><div itemprop=\"text\"><p>Assume that the software team defines a project risk with \\( 80 \\)% probability of occurrence of risk in the following manner: Only \\( 70 \\) percent of the software components scheduled for reuse will be integrated into the application and the remaining functionality will have to be custom developed. If \\( 60 \\) reusable components were planned with average component size as \\( 100 \\) LOC and software engineering cost for each LOC as $14, then the risk exposure would be</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2014 | Part 3 | Question: 45</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 25,200 \\)</p>",
+            "<p>\\( 20,160 \\)</p>",
+            "<p>\\( 17,640 \\)</p>",
+            "<p>\\( 15,120 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 20,160 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60790/ugc-net-cse-december-2014-part-3-question-45\" target=\"_blank\">https://gateoverflow.in/60790/ugc-net-cse-december-2014-part-3-question-45</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"53478\"></a><div itemprop=\"text\"><p>Which one of the following is not a risk management technique for managing the risk due to unrealistic schedules and budgets ?</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | June 2014 | Part 2 | Question: 12</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Detailed multi source cost and schedule estimation.</p>",
+            "<p>Design cost</p>",
+            "<p>Incremental development</p>",
+            "<p>Information hiding &nbsp;</p>"
+          ],
+          "correct_answer": "<p>Information hiding &nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/53478/ugc-net-cse-june-2014-part-2-question-12\" target=\"_blank\">https://gateoverflow.in/53478/ugc-net-cse-june-2014-part-2-question-12</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"59871\"></a><div itemprop=\"text\"><p>Sixty reusable components were available for an application. If only 70% of these components can be used, rest 30% would have to be developed from scratch. If average component is 100 LOC and cost of each LOC is Rs. 14, what will be risk of exposure if risk probability is 80%?</p></div><br><br><b>IS&Software Engineering: UGC NET CSE | September 2013 | Part 3 | Question: 50</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Rs. 25, 200</p>",
+            "<p>Rs. 20, 160</p>",
+            "<p>Rs. 25, 160</p>",
+            "<p>Rs. 20, 400</p>"
+          ],
+          "correct_answer": "<p>Rs. 20, 160</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/59871/ugc-net-cse-september-2013-part-3-question-50\" target=\"_blank\">https://gateoverflow.in/59871/ugc-net-cse-september-2013-part-3-question-50</a></p>"
+        }
+      ]
+    }
+  ]
+});

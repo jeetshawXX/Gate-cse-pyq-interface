@@ -1,0 +1,428 @@
+{
+  "title": "Theory of Computation - Decidability",
+  "duration": 80,
+  "sections": [
+    {
+      "name": "Decidability",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"80603\"></a><div itemprop=\"text\">State whether the following statement are TRUE or FALSE.<br>\n<br>\n\\( A \\) is recursive if both \\( A \\) and its complement are accepted by Turing machines.</div><br><br><b>GATE CSE 1987 | Question: 2l</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "True",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80603/gate-cse-1987-question-2l\" target=\"_blank\">https://gateoverflow.in/80603/gate-cse-1987-question-2l</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"80606\"></a><div itemprop=\"text\">State whether the following statements are TRUE or FALSE:<br>\n<br>\nThe problem as to whether a Turing machine \\( M \\) accepts input \\( w \\) is undecidable.</div><br><br><b>GATE CSE 1987 | Question: 2m</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "True",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/80606/gate-cse-1987-question-2m\" target=\"_blank\">https://gateoverflow.in/80606/gate-cse-1987-question-2m</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"93948\"></a><div itemprop=\"text\">State the halting problem of the Turing machine.</div><br><br><b>GATE CSE 1988 | Question: 2viii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/93948/gate-cse-1988-question-2viii\" target=\"_blank\">https://gateoverflow.in/93948/gate-cse-1988-question-2viii</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"87123\"></a><div itemprop=\"text\"><p>Which of the following problems are undecidable?</p>\n\n</div><br><br><b>GATE CSE 1989 | Question: 3-iii</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Membership problem in context-free languages.</p>",
+            "<p>Whether a given context-free language is regular.</p>",
+            "<p>Whether a finite state automation halts on all inputs.</p>",
+            "<p>Membership problem for type \\( 0 \\) languages.</p>"
+          ],
+          "correct_answer": [
+            "<p>Whether a given context-free language is regular.</p>",
+            "<p>Membership problem for type \\( 0 \\) languages.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/87123/gate-cse-1989-question-3-iii\" target=\"_blank\">https://gateoverflow.in/87123/gate-cse-1989-question-3-iii</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"84835\"></a><div itemprop=\"text\"><p>It is undecidable whether:</p>\n\n</div><br><br><b>GATE CSE 1990 | Question: 3-vii</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>An arbitrary Turing machine halts after \\( 100 \\) steps.</p>",
+            "<p>A Turing machine prints a specific letter.</p>",
+            "<p>A Turing machine computes the products of two numbers</p>",
+            "<p>None of the above.</p>"
+          ],
+          "correct_answer": [
+            "<p>A Turing machine prints a specific letter.</p>",
+            "<p>A Turing machine computes the products of two numbers</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/84835/gate-cse-1990-question-3-vii\" target=\"_blank\">https://gateoverflow.in/84835/gate-cse-1990-question-3-vii</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"2647\"></a><div itemprop=\"text\"><p>Let \\( L \\) be a language over \\( \\Sigma \\) i.e., \\( L\\subseteq \\Sigma^* \\). Suppose \\( L \\) satisfies the two conditions given below.</p>\n\n<ol style=\"list-style-type:lower-roman\">\n\t<li>\n\t<p>\\( L \\) is in NP and</p>\n\t</li>\n\t<li>\n\t<p>For every \\( n \\), there is exactly one string of length \\( n \\) that belongs to \\( L \\).</p>\n\t</li>\n</ol>\n\n<p>&nbsp; &nbsp; &nbsp; Let \\( L^c \\)&nbsp;be the complement of \\( L \\) over \\( \\Sigma^* \\). Show that \\( L^c \\)&nbsp;is also in NP.</p></div><br><br><b>GATE CSE 1995 | Question: 11</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2647/gate-cse-1995-question-11\" target=\"_blank\">https://gateoverflow.in/2647/gate-cse-1995-question-11</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"2713\"></a><div itemprop=\"text\"><p>Which of the following statements is false?</p>\n\n\n\n</div><br><br><b>GATE CSE 1996 | Question: 1.9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>The Halting Problem of Turing machines is undecidable</p>",
+            "<p>Determining whether a context-free grammar is ambiguous is undecidable</p>",
+            "<p>Given two arbitrary context-free grammars \\( G_1 \\) and \\( G_2 \\) it is undecidable whether \\( L(G_1) = L(G_2) \\)</p>",
+            "<p>Given two regular grammars \\( G_1 \\) and \\( G_2 \\) it is undecidable whether \\( L(G_1) = L(G_2) \\)</p>"
+          ],
+          "correct_answer": "<p>Given two regular grammars \\( G_1 \\) and \\( G_2 \\) it is undecidable whether \\( L(G_1) = L(G_2) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2713/gate-cse-1996-question-1-9\" target=\"_blank\">https://gateoverflow.in/2713/gate-cse-1996-question-1-9</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"2261\"></a><div itemprop=\"text\"><p>Which one of the following is not decidable?</p>\n\n</div><br><br><b>GATE CSE 1997 | Question: 6.5</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Given a Turing machine \\( M \\), a string \\( s \\) and an integer \\( k \\), \\( M \\) accepts \\( s \\) within \\( k \\) steps</p>",
+            "<p>Equivalence of two given Turing machines</p>",
+            "<p>Language accepted by a given finite state machine is not empty</p>",
+            "<p>Language generated by a context free grammar is non-empty</p>"
+          ],
+          "correct_answer": "<p>Equivalence of two given Turing machines</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2261/gate-cse-1997-question-6-5\" target=\"_blank\">https://gateoverflow.in/2261/gate-cse-1997-question-6-5</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"1509\"></a><div itemprop=\"text\"><p>Suppose we have a function HALTS which when applied to any arbitrary function \\( f \\) and its arguments will say TRUE if function \\( f \\) terminates for those arguments and FALSE otherwise. Example: Given the following function definition.</p>\n\n<p>FACTORIAL (N) = IF (N=0) THEN 1 ELSE N*FACTORIAL (N-1)</p>\n\n<p>Then HALTS&nbsp;(FACTORIAL, 4) = TRUE and HALTS (FACTORIAL, -5) = FALSE</p>\n\n<p>Let us define the function&nbsp;FUNNY (f) = IF HALTS (f) THEN not (f) ELSE TRUE</p>\n\n<ol style=\"list-style-type:lower-alpha\">\n\t<li>\n\t<p>Show that FUNNY terminates for all functions \\( f \\).</p>\n\t</li>\n\t<li>\n\t<p>use (a) to prove (by contradiction) that it is not possible to have a function like HALTS which for arbitrary functions and inputs says whether it will terminate on that input or not.</p>\n\t</li>\n</ol></div><br><br><b>GATE CSE 1999 | Question: 10</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1509/gate-cse-1999-question-10\" target=\"_blank\">https://gateoverflow.in/1509/gate-cse-1999-question-10</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"656\"></a><div itemprop=\"text\"><p>Consider the following decision problems:</p>\n\n<p>\\( (P1): \\) Does a given finite state machine accept a given string?</p>\n\n<p>\\( (P2): \\) Does a given context free grammar generate an infinite number of strings?</p>\n\n<p>Which of the following statements is true?</p>\n\n</div><br><br><b>GATE CSE 2000 | Question: 2.9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Both\\( (P1) \\) and \\( (P2) \\) are decidable</p>",
+            "<p>Neither \\( (P1) \\) nor \\( (P2) \\) is decidable</p>",
+            "<p>Only \\( (P1) \\) is decidable</p>",
+            "<p>Only \\( (P2) \\) is decidable</p>"
+          ],
+          "correct_answer": "<p>Both\\( (P1) \\) and \\( (P2) \\) are decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/656/gate-cse-2000-question-2-9\" target=\"_blank\">https://gateoverflow.in/656/gate-cse-2000-question-2-9</a></p>"
+        },
+        {
+          "id": 11,
+          "question": "<p><a name=\"725\"></a><div itemprop=\"text\"><p>Consider the following problem \\( X \\).<br>\n<br>\nGiven a Turing machine \\( M \\) over the input alphabet \\( \\Sigma \\), any state \\( q \\) of \\( M \\) and a word \\( w \\in \\Sigma^* \\), does the computation of \\( M \\) on \\( w \\)&nbsp;visit the state of \\( q \\)?<br>\n<br>\nWhich of the following statements about \\( X \\) is correct?</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 2.7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( X \\) is decidable</p>",
+            "<p>\\( X \\) is undecidable but partially decidable</p>",
+            "<p>\\( X \\) is undecidable and not even &nbsp;partially decidable</p>",
+            "<p>\\( X \\) is not a decision problem</p>"
+          ],
+          "correct_answer": "<p>\\( X \\) is undecidable but partially decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/725/gate-cse-2001-question-2-7\" target=\"_blank\">https://gateoverflow.in/725/gate-cse-2001-question-2-7</a></p>"
+        },
+        {
+          "id": 12,
+          "question": "<p><a name=\"748\"></a><div itemprop=\"text\"><p>Let a decision problem \\( X \\) be defined as follows:<br>\n<br>\n\\( X \\): Given a Turing machine \\( M \\) over \\( \\Sigma \\) and any word \\( w \\in \\Sigma \\), does \\( M \\) loop forever on \\( w \\)?<br>\n<br>\nYou may assume that the halting problem of Turing machine is undecidable but partially decidable.</p>\n\n</div><br><br><b>GATE CSE 2001 | Question: 7</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>Show that \\( X \\) is undecidable</p>",
+            "<p>Show that \\( X \\) is not even partially decidable</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/748/gate-cse-2001-question-7\" target=\"_blank\">https://gateoverflow.in/748/gate-cse-2001-question-7</a></p>"
+        },
+        {
+          "id": 13,
+          "question": "<p><a name=\"867\"></a><div itemprop=\"text\"><p>The aim of the following question is to prove that the language \\( \\{M \\mid&nbsp;M \\) \\( \\text {is the code of the Turing Machine which, irrespective of the input, halts and outputs a} \\) \\( 1\\} \\), is undecidable. This is to be done by reducing from the language \\( \\{M', x \\mid&nbsp;M' \\) \\( \\text{ halts on } \\) \\( x\\} \\), which is known to be undecidable. In parts (a) and (b) describe the \\( 2 \\) main steps in the construction of \\( M \\). In part (c) describe the key property which relates the behaviour of \\( M \\) on its input w to the behaviour of \\( M' \\) on \\( x \\).</p>\n\n</div><br><br><b>GATE CSE 2002 | Question: 14</b></p>",
+          "type": "numeric",
+          "options": [
+            "<p>On input \\( w \\), what is the first step that \\( M \\) must make?</p>",
+            "<p>On input \\( w \\), based on the outcome of the first step, what is the second step \\( M \\) must make?</p>",
+            "<p>What key property relates the behaviour of \\( M \\) on \\( w \\) to the behaviour of \\( M' \\) on \\( x \\)?</p>"
+          ],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/867/gate-cse-2002-question-14\" target=\"_blank\">https://gateoverflow.in/867/gate-cse-2002-question-14</a></p>"
+        },
+        {
+          "id": 14,
+          "question": "<p><a name=\"356\"></a><div itemprop=\"text\"><p>Consider two languages \\( L_1 \\) and \\( L_2 \\) each on the alphabet \\( \\Sigma \\). Let \\( f : \\Sigma^* \\to \\Sigma^* \\) be a polynomial time computable bijection such that \\( (\\forall x) [ x\\in L_1 \\) iff \\( f(x) \\in L_2] \\). Further, let \\( f^{-1} \\) be also polynomial time computable.</p>\n\n<p>Which of the following <strong>CANNOT</strong> be true?</p>\n\n</div><br><br><b>GATE CSE 2003 | Question: 52</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_1 \\) \\( \\in P \\) and \\( L_2 \\) is finite</p>",
+            "<p>\\( L_1 \\) \\( \\in NP \\) and \\( L_2 \\) \\( \\in P \\)</p>",
+            "<p>\\( L_1 \\) is undecidable and \\( L_2 \\) is decidable</p>",
+            "<p>\\( L_1 \\) is recursively enumerable and \\( L_2 \\) is recursive</p>"
+          ],
+          "correct_answer": "<p>\\( L_1 \\) is undecidable and \\( L_2 \\) is decidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/356/gate-cse-2003-question-52\" target=\"_blank\">https://gateoverflow.in/356/gate-cse-2003-question-52</a></p>"
+        },
+        {
+          "id": 15,
+          "question": "<p><a name=\"941\"></a><div itemprop=\"text\"><p>A single tape Turing Machine \\( M \\) has two states \\( q0 \\) and \\( q1 \\), of which \\( q0 \\) is the starting state. The tape alphabet of \\( M \\) is \\( \\{0, 1, B\\} \\) and its input alphabet is \\( \\{0, 1\\} \\). The symbol \\( B \\) is the blank symbol used to indicate end of an input string. The transition function of \\( M \\) is described in the following table.</p><p>\\[ \\begin{array}{|l|l|l|l|}\\hline \\text{}&nbsp; &amp;&nbsp; \\text{\\( 0 \\)} &amp; \\text{\\( 1 \\)} &amp; \\text{\\( B \\)} \\\\\\hline&nbsp;\\text{\\( q0 \\)}&nbsp; &amp;&nbsp; \\text{\\( q1, 1, R \\)} &amp; \\text{\\( q1, 1, R \\)} &amp; \\text{\\( Halt \\)} \\\\\\hline&nbsp;\\text{\\( q1 \\)}&nbsp; &amp;&nbsp; \\text{\\( q1, 1, R \\)} &amp; \\text{\\( q0, 1, L \\)} &amp; \\text{\\( q0, B, L \\)} \\\\\\hline&nbsp; \\end{array} \\]</p><p>The table is interpreted as illustrated below.</p><p>The entry \\( (q1, 1, R) \\) in row \\( q0 \\) and column \\( 1 \\) signifies that if \\( M \\) is in state \\( q0 \\) and reads \\( 1 \\) on the current page square, then it writes \\( 1 \\) on the same tape square, moves its tape head one position to the right and transitions to state \\( q1 \\).</p><p>Which of the following statements is true about \\( M \\)?</p></div><br><br><b>GATE CSE 2003 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( M \\) does not halt on any string in \\( (0+1)^+ \\)</p>",
+            "<p>\\( M \\) does not halt on any string in \\( (00+1)^* \\)</p>",
+            "<p>\\( M \\) halts on all strings ending in a \\( 0 \\)</p>",
+            "<p>\\( M \\) halts on all strings ending in a \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( M \\) does not halt on any string in \\( (0+1)^+ \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/941/gate-cse-2003-question-53\" target=\"_blank\">https://gateoverflow.in/941/gate-cse-2003-question-53</a></p>"
+        },
+        {
+          "id": 16,
+          "question": "<p><a name=\"1204\"></a><div itemprop=\"text\"><p>Which of the following problems is undecidable?</p>\n\n\n\n</div><br><br><b>GATE CSE 2007 | Question: 6</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Membership problem for CFGs</p>",
+            "<p>Ambiguity problem for CFGs</p>",
+            "<p>Finiteness problem for FSAs</p>",
+            "<p>Equivalence problem for FSAs</p>"
+          ],
+          "correct_answer": "<p>Ambiguity problem for CFGs</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1204/gate-cse-2007-question-6\" target=\"_blank\">https://gateoverflow.in/1204/gate-cse-2007-question-6</a></p>"
+        },
+        {
+          "id": 17,
+          "question": "<p><a name=\"408\"></a><div itemprop=\"text\"><p>Which of the following&nbsp;are decidable?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Whether the intersection of two regular languages is infinite</li>\n\t<li>Whether a given context-free language is regular</li>\n\t<li>Whether two push-down automata accept the same language</li>\n\t<li>Whether a given grammar is context-free</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2008 | Question: 10</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and II</p>",
+            "<p>I and IV</p>",
+            "<p>II and III</p>",
+            "<p>II and IV</p>"
+          ],
+          "correct_answer": "<p>I and IV</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/408/gate-cse-2008-question-10\" target=\"_blank\">https://gateoverflow.in/408/gate-cse-2008-question-10</a></p>"
+        },
+        {
+          "id": 18,
+          "question": "<p><a name=\"1608\"></a><div itemprop=\"text\"><p>Which of the following problems are decidable?</p>\n\n<ol>\n\t<li>Does a given program ever produce an output?</li>\n\t<li>If \\( L \\) is a context-free language, then, is \\( \\bar{L} \\) also context-free?</li>\n\t<li>If \\( L \\) is a regular language, then, is \\( \\bar{L} \\) also regular?</li>\n\t<li>If \\( L \\) is a recursive language, then, is \\( \\bar{L} \\) also recursive?</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2012 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1, 2, 3, 4 \\)</p>",
+            "<p>\\( 1, 2 \\)</p>",
+            "<p>\\( 2, 3, 4 \\)</p>",
+            "<p>\\( 3, 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 3, 4 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1608/gate-cse-2012-question-24\" target=\"_blank\">https://gateoverflow.in/1608/gate-cse-2012-question-24</a></p>"
+        },
+        {
+          "id": 19,
+          "question": "<p><a name=\"1553\"></a><div itemprop=\"text\"><p>Which of the following is/are undecidable?</p>\n\n<ol>\n\t<li>\\( G \\) is a CFG. Is \\( L(G) = \\phi \\)?</li>\n\t<li>\\( G \\) is a CFG. Is \\( L(G) = \\Sigma^* \\)?</li>\n\t<li>\\( M \\) is a Turing machine. Is \\( L(M) \\) regular?</li>\n\t<li>\\( A \\) is a DFA and \\( N \\) is an NFA. Is \\( L(A) = L(N) \\)?</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2013 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 3 \\) only &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 3 \\) and \\( 4 \\) only &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 1, 2 \\) and \\( 3 \\) only &nbsp; &nbsp; &nbsp;</p>",
+            "<p>\\( 2 \\)&nbsp;and \\( 3 \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)&nbsp;and \\( 3 \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1553/gate-cse-2013-question-41\" target=\"_blank\">https://gateoverflow.in/1553/gate-cse-2013-question-41</a></p>"
+        },
+        {
+          "id": 20,
+          "question": "<p><a name=\"2069\"></a><div itemprop=\"text\"><p>Which one of the following problems is undecidable?</p>\n\n</div><br><br><b>GATE CSE 2014 Set 3 | Question: 35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Deciding if a given context-free grammar is ambiguous.</p>",
+            "<p>Deciding if a given string is generated by a given context-free grammar.</p>",
+            "<p>Deciding if the language generated by a given context-free grammar is empty.</p>",
+            "<p>Deciding if the language generated by a given context-free grammar is finite.</p>"
+          ],
+          "correct_answer": "<p>Deciding if a given context-free grammar is ambiguous.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/2069/gate-cse-2014-set-3-question-35\" target=\"_blank\">https://gateoverflow.in/2069/gate-cse-2014-set-3-question-35</a></p>"
+        },
+        {
+          "id": 21,
+          "question": "<p><a name=\"8111\"></a><div itemprop=\"text\"><p>Consider the following statements.</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>The complement of every Turing decidable language is Turing decidable</li>\n\t<li>There exists some language which is in NP but is not Turing decidable</li>\n\t<li>If L is a language in NP, L is Turing decidable</li>\n</ol>\n\n<p>Which of the above statements is/are true?</p>\n\n</div><br><br><b>GATE CSE 2015 Set 2 | Question: 21</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only II</p>",
+            "<p>Only III</p>",
+            "<p>Only I and II</p>",
+            "<p>Only I and III</p>"
+          ],
+          "correct_answer": "<p>Only I and III</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8111/gate-cse-2015-set-2-question-21\" target=\"_blank\">https://gateoverflow.in/8111/gate-cse-2015-set-2-question-21</a></p>"
+        },
+        {
+          "id": 22,
+          "question": "<p><a name=\"8562\"></a><div itemprop=\"text\"><p>Language \\( L_1 \\) is polynomial time reducible to language \\( L_2 \\).&nbsp;Language \\( L_3 \\) is polynomial time reducible to language \\( L_2 \\), which in turn polynomial time reducible to language \\( L_4 \\). Which of the following is/are true?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>\\( \\text{ if } L_4 \\in P, \\text{ then } L_2 \\in P \\)</li>\n\t<li>\\( \\text{ if } L_1 \\in P\\text{ or } L_3 \\in P, \\text{ then } L_2 \\in P \\)</li>\n\t<li>\\( L_1 \\in P, \\text{ if and only if } L_3 \\in P \\)</li>\n\t<li>\\( \\text{ if } L_4 \\in P, \\text{ then } L_3 \\in P \\)</li>\n</ol>\n\n\n\n</div><br><br><b>GATE CSE 2015 Set 3 | Question: 53</b></p>",
+          "type": "single",
+          "options": [
+            "<p>II only</p>",
+            "<p>III only</p>",
+            "<p>I and IV only</p>",
+            "<p>I only</p>"
+          ],
+          "correct_answer": "<p>I and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/8562/gate-cse-2015-set-3-question-53\" target=\"_blank\">https://gateoverflow.in/8562/gate-cse-2015-set-3-question-53</a></p>"
+        },
+        {
+          "id": 23,
+          "question": "<p><a name=\"39651\"></a><div itemprop=\"text\"><p>Which of the following decision problems are undecidable?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Given NFAs \\( N_1 \\) and \\( N_2 \\) , is \\( L(N_1) \\cap L(N_2) = \\Phi \\)</li>\n\t<li>Given a CFG \\( G = (N,\\Sigma,P,S) \\) and a string &nbsp;\\( x \\in \\Sigma^{*} \\), does &nbsp;\\( x \\in L(G) \\)} ?</li>\n\t<li>Given CFGs &nbsp;\\( G_1 \\) and \\( G_2 \\), is \\( L (G_1) = L(G_2) \\)?</li>\n\t<li>Given a TM \\( M \\), is \\( L(M)=\\Phi \\) ?</li>\n</ol>\n\n\n\n</div><br><br><b>GATE CSE 2016 Set 1 | Question: 17</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and IV only</p>",
+            "<p>II and III only&nbsp;</p>",
+            "<p>III and IV only</p>",
+            "<p>II and IV only</p>"
+          ],
+          "correct_answer": "<p>III and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39651/gate-cse-2016-set-1-question-17\" target=\"_blank\">https://gateoverflow.in/39651/gate-cse-2016-set-1-question-17</a></p>"
+        },
+        {
+          "id": 24,
+          "question": "<p><a name=\"118322\"></a><div itemprop=\"text\"><p>Let \\( A \\) and \\( B \\) be finite alphabets and let \\( \\# \\) be a symbol outside both \\( A \\) and \\( B \\). Let \\( f \\) be a total function from&nbsp;\\( A^{*} \\)&nbsp;to&nbsp;\\( B^{*} \\). We say \\( f \\) is&nbsp;<em>computable&nbsp;</em>if there exists a Turing machine \\( M \\) which given an input \\( x \\in A^{*} \\), always halts with&nbsp;\\( f(x) \\)&nbsp;on its tape. Let&nbsp;\\( L_{f} \\)&nbsp;denote the language \\( \\Bigl \\{x\\# f(x) \\mid x\\in A^{*} \\Bigr \\} \\). Which of the following statements is true:</p>\n\n</div><br><br><b>GATE CSE 2017 Set 1 | Question: 39</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( f \\) is computable if and only if \\( L_{f} \\) is recursive.</p>",
+            "<p>\\( f \\) is computable if and only if \\( L_{f} \\) is recursively enumerable.</p>",
+            "<p>If \\( f \\) is computable then \\( L_{f} \\) is recursive, but not conversely.</p>",
+            "<p>If \\( f \\) is computable then \\( L_{f} \\) is recursively enumerable, but not conversely.</p>"
+          ],
+          "correct_answer": "<p>\\( f \\) is computable if and only if \\( L_{f} \\) is recursive.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118322/gate-cse-2017-set-1-question-39\" target=\"_blank\">https://gateoverflow.in/118322/gate-cse-2017-set-1-question-39</a></p>"
+        },
+        {
+          "id": 25,
+          "question": "<p><a name=\"118605\"></a><div itemprop=\"text\"><p>Let \\( L(R) \\) be the language represented by regular expression \\( R \\). Let \\( L(G) \\) be the language generated by a context free grammar \\( G \\). Let \\( L(M) \\) be the language accepted by a Turing machine \\( M \\). Which of the following decision problems are undecidable?</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>Given a regular expression \\( R \\) and a string \\( w \\), is \\( w \\in L(R) \\)?</li>\n\t<li>Given a context-free grammar \\( G \\), is \\( L(G)&nbsp; = \\emptyset \\)</li>\n\t<li>Given a context-free grammar \\( G \\), is \\( L(G)&nbsp; = \\Sigma^* \\) for some alphabet \\( \\Sigma \\)?</li>\n\t<li>Given a Turing machine \\( M \\) and a string \\( w \\), is \\( w \\in L(M) \\)?</li>\n</ol>\n\n</div><br><br><b>GATE CSE 2017 Set 2 | Question: 41</b></p>",
+          "type": "single",
+          "options": [
+            "<p>I and IV only</p>",
+            "<p>II and III only</p>",
+            "<p>II, III and IV only</p>",
+            "<p>III and IV only</p>"
+          ],
+          "correct_answer": "<p>III and IV only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/118605/gate-cse-2017-set-2-question-41\" target=\"_blank\">https://gateoverflow.in/118605/gate-cse-2017-set-2-question-41</a></p>"
+        },
+        {
+          "id": 26,
+          "question": "<p><a name=\"204110\"></a><div itemprop=\"text\"><p>Consider the following problems. \\( L(G) \\) denotes the language generated by a grammar \\( G \\). L(M) denotes the language accepted by a machine \\( M \\).</p>\n\n<ol style=\"list-style-type:upper-roman\">\n\t<li>For an unrestricted grammar \\( G \\) and a string \\( w \\), whether \\( w&nbsp; \\in&nbsp; L(G) \\)</li>\n\t<li>Given a Turing machine \\( M \\), whether \\( L(M) \\) is regular</li>\n\t<li>Given two grammar\\( G_1 \\) and \\( G_2 \\), whether \\( L(G_1) = L(G_2) \\)</li>\n\t<li>Given an NFA \\( N \\), whether there is a deterministic PDA \\( P \\) such that \\( N \\) and \\( P \\) accept the same language</li>\n</ol>\n\n<p>Which one of the&nbsp;following statement is correct?</p>\n\n</div><br><br><b>GATE CSE 2018 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only I and II are undecidable</p>",
+            "<p>Only II is undecidable</p>",
+            "<p>Only II and IV are undecidable</p>",
+            "<p>Only I, II and III are undecidable</p>"
+          ],
+          "correct_answer": "<p>Only I, II and III are undecidable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/204110/gate-cse-2018-question-36\" target=\"_blank\">https://gateoverflow.in/204110/gate-cse-2018-question-36</a></p>"
+        },
+        {
+          "id": 27,
+          "question": "<p><a name=\"333205\"></a><div itemprop=\"text\"><p>Which of the following languages are undecidable? Note that&nbsp;\\( \\left \\langle M \\right \\rangle \\) indicates encoding of the Turing machine M.</p>\n\n<ul>\n\t<li>\\( L_1&nbsp;= \\{\\left \\langle M \\right \\rangle \\mid&nbsp; L(M) =&nbsp;\\varnothing \\} \\)</li>\n\t<li>\\( L_2= \\{\\left \\langle M,w,q \\right \\rangle \\mid&nbsp; M \\text{ on input } w \\text{ reaches state } q \\text{ in exactly } 100 \\text{ steps}\\} \\)</li>\n\t<li>\\( L_3=&nbsp;\\{\\left \\langle M \\right \\rangle \\mid L&nbsp;(M) \\text{ is not recursive}\\} \\)</li>\n\t<li>\\( L_4= \\{\\left \\langle M \\right \\rangle \\mid L(M) \\text{contains at least  \\)21\\(  members}\\} \\)</li>\n</ul>\n\n</div><br><br><b>GATE CSE 2020 | Question: 26</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( L_1 \\), \\( L_3 \\), and \\( L_4 \\) only</p>",
+            "<p>\\( L_1 \\) and \\( L_3 \\) only</p>",
+            "<p>\\( L_2 \\) and \\( L_3 \\) only</p>",
+            "<p>\\( L_2 \\), \\( L_3 \\), and \\( L_4 \\) only</p>"
+          ],
+          "correct_answer": "<p>\\( L_1 \\), \\( L_3 \\), and \\( L_4 \\) only</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333205/gate-cse-2020-question-26\" target=\"_blank\">https://gateoverflow.in/333205/gate-cse-2020-question-26</a></p>"
+        },
+        {
+          "id": 28,
+          "question": "<p><a name=\"357504\"></a><div itemprop=\"text\"><p>​​​​​​Consider the following two statements about regular languages:</p>\n\n<ul>\n\t<li>\\( S_1 \\): Every infinite regular language contains an undecidable language as a subset.</li>\n\t<li>\\( S_2 \\): Every finite language is regular.</li>\n</ul>\n\n<p>Which one of the following choices is correct?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 2 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Only \\( S_1 \\) is true</p>",
+            "<p>Only \\( S_2 \\) is true</p>",
+            "<p>Both \\( S_1 \\) and \\( S_2 \\) are true</p>",
+            "<p>Neither \\( S_1 \\) nor \\( S_2 \\) is true</p>"
+          ],
+          "correct_answer": "<p>Both \\( S_1 \\) and \\( S_2 \\) are true</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357504/gate-cse-2021-set-2-question-36\" target=\"_blank\">https://gateoverflow.in/357504/gate-cse-2021-set-2-question-36</a></p>"
+        },
+        {
+          "id": 29,
+          "question": "<p><a name=\"371900\"></a><div itemprop=\"text\"><p>Which of the following is/are undecidable?</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 36</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>Given two Turing machines \\( \\textit{M}_{1} \\) and \\( \\textit{M}_{2}, \\) decide if \\( \\textit{L(M}_{1}) = \\textit{L(M}_{2}). \\)</p>",
+            "<p>Given a Turing machine \\( \\textit{M}, \\) decide if \\( \\textit{L(M)} \\) is regular.</p>",
+            "<p>Given a Turing machine \\( \\textit{M}, \\) decide if \\( \\textit{M} \\) accepts all strings.</p>",
+            "<p>Given a Turing machine \\( \\textit{M}, \\) decide if \\( \\textit{M} \\) takes more than \\( 1073 \\) steps on every string.</p>"
+          ],
+          "correct_answer": [
+            "<p>Given two Turing machines \\( \\textit{M}_{1} \\) and \\( \\textit{M}_{2}, \\) decide if \\( \\textit{L(M}_{1}) = \\textit{L(M}_{2}). \\)</p>",
+            "<p>Given a Turing machine \\( \\textit{M}, \\) decide if \\( \\textit{L(M)} \\) is regular.</p>",
+            "<p>Given a Turing machine \\( \\textit{M}, \\) decide if \\( \\textit{M} \\) accepts all strings.</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371900/gate-cse-2022-question-36\" target=\"_blank\">https://gateoverflow.in/371900/gate-cse-2022-question-36</a></p>"
+        }
+      ]
+    }
+  ]
+}

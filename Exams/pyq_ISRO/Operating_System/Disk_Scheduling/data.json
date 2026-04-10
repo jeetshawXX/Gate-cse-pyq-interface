@@ -1,0 +1,71 @@
+{
+  "title": "Operating_System - Disk_Scheduling",
+  "duration": 11,
+  "sections": [
+    {
+      "name": "Disk_Scheduling",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Disk requests come to a disk driver for cylinders in the order 10, 22, 20, 2, 40, 6 and 38 at a time when the disk drive is reading from cylinder 20. The seek time is 6 ms/cylinder. The total seek time, if the disk arm scheduling algorithms is first-come-first-served is <br><br><strong>(ISRO CSE 2018)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>360</p>",
+            "<b>B.</b> <p>850</p>",
+            "<b>C.</b> <p>900</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/213565/isro2018-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the disk system with 100 cylinders. The request to access the cylinders occur in the following sequence.<br>4, 37, 10,7,19,73,2,15,6,20<br>Assuming the head is currently at cylinder 50 what is the time taken to satisfy all requests if it takes 1 ms to move from one cylinder to adjacent one and shortest seek ime first algorithm is used. <br><br><strong>(ISRO CSE 2017)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>95 ms</p>",
+            "<b>B.</b> <p>119 ms</p>",
+            "<b>C.</b> <p>233 ms</p>",
+            "<b>D.</b> <p>276 ms</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>119 ms</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/128760/isro2017-66\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>There are 200 tracks on a disc platter and the pending requests have come in the order - 36, 69, 167, 76, 42, 51, 126, 12 and 199. Assume the arm is located at the 100th track and moving towards track 200. If sequence of disc access is 126, 167, 199, 12, 36, 42, 51, 69 and 76 then which disc access scheduling policy is used? <br><br><strong>(ISRO CSE 2014)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Elevator</p>",
+            "<b>B.</b> <p>Shortest seek-time first</p>",
+            "<b>C.</b> <p>C-SCAN</p>",
+            "<b>D.</b> <p>First Come First Served</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>C-SCAN</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/16939/isro2014-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Disk requests are received by a disk drive for cylinder 5, 25, 18, 3, 39, 8 and 35 in that order. A seek takes 5 msec per cylinder moved. How much seek time is needed to serve these requests for a Shortest Seek First (SSF) algorithm? Assume that the arm is at cylinder 20 when the last of these requests is made with none of the requests yet served <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>125 msec</p>",
+            "<b>B.</b> <p>295 msec</p>",
+            "<b>C.</b> <p>575 msec</p>",
+            "<b>D.</b> <p>750 msec</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>295 msec</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49514/isro2007-39\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

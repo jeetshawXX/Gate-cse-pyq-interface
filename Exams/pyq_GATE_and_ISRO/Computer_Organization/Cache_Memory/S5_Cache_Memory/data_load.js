@@ -1,0 +1,296 @@
+window.__examLoadCallback({
+  "title": "Cache_Memory - Cache_Memory - Slot 5",
+  "duration": 53,
+  "sections": [
+    {
+      "name": "Cache_Memory",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider a 4-way set associative cache consisting of 128 lines with a line size of\n64 words. The CPU generates a 20-bit address of a word in main memory. The\nnumber of bits in the TAG, LINE and WORD fields are respectively: <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>9, 6, 5</p>",
+            "<b>B.</b> <p>7, 7, 6</p>",
+            "<b>C.</b> <p>7, 5, 8</p>",
+            "<b>D.</b> <p>9, 5, 6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9, 5, 6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1208/gate2007-10#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A computer system has a level-1 instruction cache (1-cache), a level-1 data cache (D-cache) and a level-2 cache (L2-cache) with the following specifications: <br>\\(\\begin{array}{|l|c|c|c|} \\hline \\text {} &amp; \\textbf{Capacity }&amp; \\textbf{Mapping Method} &amp; \\textbf{Block Size}\\\\\\hline \\text{$I$-Cache} &amp; \\text{$4K$ words}&amp; \\text{Direct mapping} &amp; \\text{$4$ words} \\\\\\hline \\text{$D$-Cache} &amp; \\text{$4K$ words}&amp; \\text{$2$ -way set associative mapping} &amp; \\text{$4$ words}\\\\\\hline \\text{$L2$-Cache} &amp; \\text{$64K$ words}&amp; \\text{$4$-way set associative mapping} &amp; \\text{$16$ words} \\\\\\hline \\end{array}\\)\n<br>\nThe length of the physical address of a word in the main memory is 30 bits. The capacity of the tag memory in the I-cache, D-cache and L2-cache is, respectively, <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1 K x 18-bit, 1 K x 19-bit, 4 K x 16-bit</p>",
+            "<b>B.</b> <p>1 K x 16-bit, 1 K x 19-bit, 4 K x 18-bit</p>",
+            "<b>C.</b> <p>1 K x 16-bit, 512 x 18-bit, 1 K x 16-bit</p>",
+            "<b>D.</b> <p>1 K x 18-bit, 512 x 18-bit, 1 K x 18-bit</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>1 K x 18-bit, 1 K x 19-bit, 4 K x 16-bit</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3586/gate2006-it-43\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>A cache line is 64 bytes. The main memory has latency 32 ns and bandwidth 1 GBytes/s. The time required to fetch the entire cache line from the main memory is: <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>32 ns</p>",
+            "<b>B.</b> <p>64 ns</p>",
+            "<b>C.</b> <p>96 ns</p>",
+            "<b>D.</b> <p>128 ns</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>96 ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3585/gate2006-it-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2.<pre><code> P1:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[j][i];\n   }\n}</code></pre> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of ratio \\(\\frac{M1}{M2}\\) is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>\\(\\frac{1}{16}\\)</p>",
+            "<b>C.</b> <p>\\(\\frac{1}{8}\\)</p>",
+            "<b>D.</b> <p>16</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\frac{1}{16}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43517/gate2006-81#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>A CPU has a 32 KB direct mapped cache with 128-byte block size. Suppose A is a twodimensional array of size 512x512 with elements that occupy 8-bytes each. Consider the following two C code segments, P1 and P2.<pre><code> P1:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[i][j];\n   }\n}\nP2:\nfor (i=0; i&lt;512; i++) {\n   for (j=0; j&lt;512; j++) {\n      x += A[j][i];\n   }\n}</code></pre> P1 and P2 are executed independently with the same initial state, namely, the array A is not in the cache and i, j, x are in registers. Let the number of cache misses experienced by P1 be M1 and that for P2 be M2 . <br><br>The value of M1 is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>2048</p>",
+            "<b>C.</b> <p>16384</p>",
+            "<b>D.</b> <p>262144</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>16384</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1854/gate2006-80#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h2 is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.4ns</p>",
+            "<b>B.</b> <p>2.3ns</p>",
+            "<b>C.</b> <p>1.8ns</p>",
+            "<b>D.</b> <p>1.7ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>1.7ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43565/gate2006-75#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Consider two cache organizations: The first one is 32 KB 2-way set associative with 32-byte block size. The second one is of the same size but direct mapped. The size of an address is 32 bits in both cases. A 2-to-1 multiplexer has a latency of 0.6 ns while a kbit comparator has a latency of k/10 ns. The hit latency of the set associative organization is h1 while that of the direct mapped one is h2. <br><br>The value of h1 is: <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2.4ns</p>",
+            "<b>B.</b> <p>2.3ns</p>",
+            "<b>C.</b> <p>1.8ns</p>",
+            "<b>D.</b> <p>1.7ns</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>2.4ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1851/gate2006-74#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor\nhas a translation look-aside buffer (TLB) which can hold a total of 128 page table\nentries and is 4-way set associative. The minimum size of the TLB tag is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>11bits</p>",
+            "<b>B.</b> <p>13bits</p>",
+            "<b>C.</b> <p>15bits</p>",
+            "<b>D.</b> <p>20bits</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>15bits</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1840/gate2006-62#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>A CPU has a cache with block size 64 bytes. The main memory has k banks, each\nbank being c bytes wide. Consecutive c-byte chunks are mapped on consecutive\nbanks with warp-around. All the k banks can be accessed in parallel, but two\naccesses to the same bank must be serialized. A cache block access may involve\nmultiple iterations of parallel bank accesses depending on the amount of data\nobtained by accessing all the k banks in parallel. Each iteration requires decoding\nthe bank numbers to be accessed in parallel and this takes k/2 ns . The latency of\none bank access is 80 ns . If c = 2 and k=24, then latency of retrieving a cache\nblock starting at address zero from main memory is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>92ns</p>",
+            "<b>B.</b> <p>104ns</p>",
+            "<b>C.</b> <p>172ns</p>",
+            "<b>D.</b> <p>184ns</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>184ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1817/gate2006-41#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider a 2-way set associative cache memory with 4 sets and total 8 cache blocks (0-7) and a main memory with 128 blocks (0-127). What memory blocks will be present in the cache after the following sequence of memory block references if LRU policy is used for cache block replacement?<br><br> 0 5 3 9 7 0 16 55\n<br>Assuming that initially the cache did not have any memory block from the current job? <br><br><strong>(GATE IT 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0 3 5 7 16 55</p>",
+            "<b>B.</b> <p>0 3 5 7 9 16 55</p>",
+            "<b>C.</b> <p>0 5 7 9 16 55</p>",
+            "<b>D.</b> <p>3 5 7 9 16 55</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0 5 7 9 16 55</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3822/gate2005-it-61\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Consider a direct mapped cache of size 32 KB with block size 32 bytes. The CPU generates 32 bit\naddresses. The number of bits needed for cache indexing and the number of tag bits are respectively. <br><br><strong>(GATE CSE 2005)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>10,17</p>",
+            "<b>B.</b> <p>10,22</p>",
+            "<b>C.</b> <p>15,17</p>",
+            "<b>D.</b> <p>5,17</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>10,17</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1390/gate2005-67#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Consider a fully associative cache with 8 cache blocks (numbered 0-7) and the following sequence of memory block requests:<br>\n4,3,25,8,19,6,25,8,16,35,45,22,8,3,16,25,7<br>\nIf LRU replacement policy is used, which cache block will have memory block 7? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>4</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>6</p>",
+            "<b>D.</b> <p>7</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>5</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3691/gate2004-it-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Consider a system with 2 level cache. Access times of Level 1 cache, Level 2 cache and main memory are 1 ns, 10 ns, and 500 ns respectively. The hit rates of Level 1 and Level 2 caches are 0.8 and 0.9, respectively. What is the average access time of the system ignoring the search time within the cache? <br><br><strong>(GATE IT 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>13</p>",
+            "<b>B.</b> <p>12.8</p>",
+            "<b>C.</b> <p>12.6</p>",
+            "<b>D.</b> <p>12.4</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>12.6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3653/gate2004-it-12-isro2016-77\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider a small two-way set-associative cache memory, consisting of four blocks. For choosing the\nblock to be replaced, use the least recently used (LRU) scheme. The number of cache misses for the\nfollowing sequence of block addresses is 8, 12, 0, 12,8 <br><br><strong>(GATE CSE 2004)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>2</p>",
+            "<b>B.</b> <p>3</p>",
+            "<b>C.</b> <p>4</p>",
+            "<b>D.</b> <p>5</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>4</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1059/gate2004-65#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Which of the following is not a form of memory ? <br><br><strong>(GATE CSE 2002)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Instruction cache</p>",
+            "<b>B.</b> <p>Instruction register</p>",
+            "<b>C.</b> <p>Instruction opcode</p>",
+            "<b>D.</b> <p>Translation-a-side buffer</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Instruction opcode</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/817/gate2002-1-13#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>The main memory of a computer has 2 cm blocks while the cache has 2c blocks. If the cache uses the set associative mapping scheme with 2 blocks per set, then block k of the main memory maps to the set: <br><br><strong>(GATE CSE 1999)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(k mod m) of the cache</p>",
+            "<b>B.</b> <p>(k mod c) of the cache</p>",
+            "<b>C.</b> <p>(k mod 2c) of the cache</p>",
+            "<b>D.</b> <p>(k mod 2 cm) of the cache</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(k mod c) of the cache</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1475/gate-cse-1999-question-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>A computer system has a 4 K word cache organized in block-set-associative manner with 4 blocks per set, 64 words per block. The number of bits in the SET and WORD fields of the main memory address format is: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>15,40</p>",
+            "<b>B.</b> <p>6,4</p>",
+            "<b>C.</b> <p>7,2</p>",
+            "<b>D.</b> <p>4,6</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>4,6</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2638/gate1995-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>The principle of locality justifies the use of: <br><br><strong>(GATE CSE 1995)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Interrupts</p>",
+            "<b>B.</b> <p>DMA</p>",
+            "<b>C.</b> <p>Polling</p>",
+            "<b>D.</b> <p>Cache Memory</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Cache Memory</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/2593/gate1995-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>More than one word are put in one cache block to <br><br><strong>(GATE CSE 2001)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Exploit the temporal locality of reference in a program</p>",
+            "<b>B.</b> <p>Exploit the spatial locality of reference in a program</p>",
+            "<b>C.</b> <p>Reduce the miss penalty</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Exploit the spatial locality of reference in a program</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/700/gate2001-1-7#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Programming - Programming in C - Dynamic Memory Allocation",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Dynamic Memory Allocation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"56221\"></a><div itemprop=\"text\"><p>The ____________ memory allocation function modifies the previous allocated space.</p>\n\n</div><br><br><b>Programming in C: UGC NET CSE | June 2012 | Part 3 | Question: 24</b></p>",
+          "type": "single",
+          "options": [
+            "<p>calloc()</p>",
+            "<p>free()</p>",
+            "<p>malloc()</p>",
+            "<p>realloc()</p>"
+          ],
+          "correct_answer": "<p>realloc()</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/56221/ugc-net-cse-june-2012-part-3-question-24\" target=\"_blank\">https://gateoverflow.in/56221/ugc-net-cse-june-2012-part-3-question-24</a></p>"
+        }
+      ]
+    }
+  ]
+});

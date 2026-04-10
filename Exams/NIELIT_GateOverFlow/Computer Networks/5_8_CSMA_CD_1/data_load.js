@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - CSMA CD",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "CSMA CD",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"369340\"></a><div itemprop=\"text\"><p>In \\( \\text{CSMA/CD} \\) after detecting the collision, station immediately stops transmission by sending the ______________.</p>\n\n</div><br><br><b>Computer Networks: NIELIT 2021 Dec Scientist A</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Stop pattern</p>",
+            "<p>Preamble pattern</p>",
+            "<p>Jam signal</p>",
+            "<p>Block signal</p>"
+          ],
+          "correct_answer": "<p>Jam signal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/369340/nielit-2021-dec-scientist-a-section-b-73\" target=\"_blank\">https://gateoverflow.in/369340/nielit-2021-dec-scientist-a-section-b-73</a></p>"
+        }
+      ]
+    }
+  ]
+});

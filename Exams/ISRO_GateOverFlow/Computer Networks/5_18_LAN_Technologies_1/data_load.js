@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Computer Networks - LAN Technologies",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "LAN Technologies",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"17270\"></a><div itemprop=\"text\">\n<p>On a LAN ,where are IP datagrams transported?</p>\n\n\n</div><br><br><b>Computer Networks: ISRO CSE 2008 | Question: 4</b></p>",
+          "type": "single",
+          "options": [
+            "<p>In the LAN header</p>",
+            "<p>In the application field</p>",
+            "<p>In the information field of the LAN frame</p>",
+            "<p>After the TCP header</p>"
+          ],
+          "correct_answer": "<p>In the information field of the LAN frame</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/17270/isro-cse-2008-question-4\" target=\"_blank\">https://gateoverflow.in/17270/isro-cse-2008-question-4</a></p>"
+        }
+      ]
+    }
+  ]
+});

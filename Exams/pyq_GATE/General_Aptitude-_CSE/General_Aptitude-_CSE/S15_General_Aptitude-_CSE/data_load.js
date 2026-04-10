@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "General_Aptitude-_CSE - General_Aptitude-_CSE - Slot 15",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "General_Aptitude-_CSE",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>The current erection cost of a structure is Rs. 13,200. If the labour wages per day increase by 1/5 of the current wages and the working hours decrease by 1/24 of the current period, then the new cost of erection in Rs. Is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>16500</p>",
+            "<b>B.</b> <p>15180</p>",
+            "<b>C.</b> <p>11000</p>",
+            "<b>D.</b> <p>10120</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>15180</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1569/gate-cse-2013-question-65#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>A tourist covers half of his journey by train at 60 km/h, half of the remainder by bus at 30 km/h and the rest by cycle at 10 km/h. The average speed of the tourist in km/h during his entire journey is <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>36</p>",
+            "<b>B.</b> <p>30</p>",
+            "<b>C.</b> <p>24</p>",
+            "<b>D.</b> <p>18</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>24</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1568/gate-cse-2013-question-64#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>After several defeats in wars, Robert Bruce went in exile and wanted to commit suicide. Just before committing suicide, he came across a spider attempting tirelessly to have its net. Time and again, the spider failed but that did not deter it to refrain from making attempts. Such attempts by the spider made Bruce curious. Thus, Bruce started observing the near-impossible goal of the spider to have the net. Ultimately, the spider succeeded in having its net despite several failures. Such act of the spider encouraged Bruce not to commit suicide. And then, Bruce went back again and won many a battle, and the rest is history.\n<br><br>\nWhich one of the following assertions is best supported by the above information? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Failure is the pillar of success.</p>",
+            "<b>B.</b> <p>Honesty is the best policy.</p>",
+            "<b>C.</b> <p>Life begins and ends with adventures.</p>",
+            "<b>D.</b> <p>No adversity justifies giving up hope.</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>No adversity justifies giving up hope.</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1567/gate-cse-2013-question-63#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Out of all the 2-digit integers between 1 and 100, a 2-digit number has to be selected at random. What is the probability that the selected number is not divisible by 7 ? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\( \\left(\\dfrac{13}{90}\\right) \\)</p>",
+            "<b>B.</b> <p>\\( \\left(\\dfrac{12}{90}\\right) \\)</p>",
+            "<b>C.</b> <p>\\( \\left(\\dfrac{78}{90}\\right) \\)</p>",
+            "<b>D.</b> <p>\\( \\left(\\dfrac{77}{90}\\right) \\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\( \\left(\\dfrac{77}{90}\\right) \\)</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1566/gate-cse-2013-question-62#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Find the sum of the expression<br><br>\\(   \\frac{1}{\\sqrt{1}+\\sqrt{2}}+\\frac{1}{\\sqrt{2}+\\sqrt{3}}+\\frac{1}{\\sqrt{3}+\\sqrt{4}}+............+\\frac{1}{\\sqrt{80}+\\sqrt{81}} \\) <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>7</p>",
+            "<b>B.</b> <p>8</p>",
+            "<b>C.</b> <p>9</p>",
+            "<b>D.</b> <p>10</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/1565/gate-cse-2013-question-61#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Choose the grammatically INCORRECT sentence: <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>He is of Asian origin.</p>",
+            "<b>B.</b> <p>They belonged to Africa.</p>",
+            "<b>C.</b> <p>She is an European.</p>",
+            "<b>D.</b> <p>They migrated from India to Australia.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>She is an European.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1564/gate-cse-2013-question-60#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Were you a bird, you ______ in the sky. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>would fly</p>",
+            "<b>B.</b> <p>shall fly</p>",
+            "<b>C.</b> <p>should fly</p>",
+            "<b>D.</b> <p>shall have flown</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>would fly</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1563/gate-cse-2013-question-59#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>What will be the maximum sum of 44, 42, 40, ... ? <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>502</p>",
+            "<b>B.</b> <p>504</p>",
+            "<b>C.</b> <p>506</p>",
+            "<b>D.</b> <p>500</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>506</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1562/gate-cse-2013-question-58#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Complete the sentence:\n<br><br>\nUniversalism is to particularism as diffuseness is to ________. <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>specificity</p>",
+            "<b>B.</b> <p>neutrality</p>",
+            "<b>C.</b> <p>generality</p>",
+            "<b>D.</b> <p>adaptation</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>specificity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1560/gate-cse-2013-question-57#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which one of the following options is the closest in meaning to the word given below?<br><br>\nNadir <br><br><strong>(GATE CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Highest</p>",
+            "<b>B.</b> <p>Lowest</p>",
+            "<b>C.</b> <p>Medium</p>",
+            "<b>D.</b> <p>Integration</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Lowest</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1559/gate-cse-2013-question-56#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Given the sequence of terms, AD CG FK JP, the next term is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>OV</p>",
+            "<b>B.</b> <p>OW</p>",
+            "<b>C.</b> <p>PV</p>",
+            "<b>D.</b> <p>PW</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>OV</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2213/gate-cse-2012-question-65#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Which of the following assertions are CORRECT?\n<br><br>\nP: Adding 7 to each entry in a list adds 7 to the mean of the list <br>\nQ: Adding 7 to each entry in a list adds 7 to the standard deviation of the list <br>\nR: Doubling each entry in a list doubles the mean of the list<br>\nS: Doubling each entry in a list leaves the standard deviation of the list unchanged <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>P, Q</p>",
+            "<b>B.</b> <p>Q, R</p>",
+            "<b>C.</b> <p>P, R</p>",
+            "<b>D.</b> <p>R, S</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>P, R</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2212/gate-cse-2012-question-64#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>An automobile plant contracted to buy shock absorbers from two suppliers X and Y. X supplies 60% and Y supplies 40% of the shock absorbers. All shock absorbers are subjected to a quality test. The ones that pass the quality test are considered reliable. Of X's shock absorbers, 96% are reliable. Of Y's shock absorbers, 72% are reliable.\n<br><br>\nThe probability that a randomly chosen shock absorber, which is found to be reliable, is made by Y is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.288</p>",
+            "<b>B.</b> <p>0.334</p>",
+            "<b>C.</b> <p>0.667</p>",
+            "<b>D.</b> <p>0.72</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0.334</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2211/gate-cse-2012-question-63#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>A political party orders an arch for the entrance to the ground in which the annual convention is being held. The profile of the arch follows the equation  \\( y=2x-0.1x^2 \\)where \\(y\\) is the height of the arch in meters. The maximum possible height of the arch is <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 meters</p>",
+            "<b>B.</b> <p>10 meters</p>",
+            "<b>C.</b> <p>12 meters</p>",
+            "<b>D.</b> <p>14 meters</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>10 meters</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2210/gate-cse-2012-question-62#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Wanted Temporary, Part-time persons for the post of Field Interviewer to conduct personal interviews to collect and collate economic data. Requirements: High School-pass, must be available for Day, Evening and Saturday work. Transportation paid, expenses reimbursed.\n<br><br>\nWhich one of the following is the best inference from the above advertisement? <br><br><strong>(GATE CSE 2012)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Gender-discriminatory</p>",
+            "<b>B.</b> <p>Xenophobic</p>",
+            "<b>C.</b> <p>Not designed to make the post attractive</p>",
+            "<b>D.</b> <p>Not gender-discriminatory</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Not gender-discriminatory</p>",
+          "marks": 2,
+          "negative_marks": 0.67,
+          "explanation": "<a href=\"https://gateoverflow.in/2209/gate-cse-2012-question-61#a_list\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

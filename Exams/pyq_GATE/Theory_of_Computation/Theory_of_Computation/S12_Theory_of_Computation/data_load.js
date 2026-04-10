@@ -1,0 +1,236 @@
+window.__examLoadCallback({
+  "title": "Theory_of_Computation - Theory_of_Computation - Slot 12",
+  "duration": 42,
+  "sections": [
+    {
+      "name": "Theory_of_Computation",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Which of the following problems is undecidable? <br><br><strong>(GATE CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Membership problem for CFGs.</p>",
+            "<b>B.</b> <p>Ambiguity problem for CFGs.</p>",
+            "<b>C.</b> <p>Finiteness problem for FSAs.</p>",
+            "<b>D.</b> <p>Equivalence problem for FSAs.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Ambiguity problem for CFGs.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1204/gate2007-6#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Let L be a regular language. Consider the constructions on L below:<br>\nI. \\(\\text{repeat} (L) = \\{ww \\mid w \\in L\\}\\)<br>\nII. \\(\\text{prefix} (L) = \\{u \\mid \\exists v : uv \\in L\\}\\)<br>\nIII. \\(\\text{suffix} (L) = \\{v \\mid \\exists u: uv \\in L\\}\\)<br>\nIV. \\(\\text{half} (L) = \\{u \\mid \\exists v: | v | = | u | \\text{ and } uv \\in L\\}\\)<br>Which choice of L is best suited to support your answer above? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((a + b)^*\\)</p>",
+            "<b>B.</b> <p>\\(\\{\\epsilon, a, ab, bab\\}\\)</p>",
+            "<b>C.</b> <p>\\((ab)^*\\)</p>",
+            "<b>D.</b> <p>\\(\\{a^nb^n \\mid n \\geq 0\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((a + b)^*\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3637/gate2006-it-81\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Let L be a regular language. Consider the constructions on L below:<br>\nI. \\(\\text{repeat} (L) = \\{ww \\mid w \\in L\\}\\)<br>\nII. \\(\\text{prefix} (L) = \\{u \\mid \\exists v : uv \\in L\\}\\)<br>\nIII. \\(\\text{suffix} (L) = \\{v \\mid \\exists u: uv \\in L\\}\\)<br>\nIV. \\(\\text{half} (L) = \\{u \\mid \\exists v: | v | = | u | \\text{ and } uv \\in L\\}\\)<br>Which of the constructions could lead to a non-regular language?<br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Both I and IV</p>",
+            "<b>B.</b> <p>Only 1</p>",
+            "<b>C.</b> <p>Only IV</p>",
+            "<b>D.</b> <p>Both II and III</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Only 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3624/gate2006-it-80\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>For a state machine with the following state diagram the expression for the next state \\(S^+\\) in terms of the current state S and the input variables x and y is <br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q37_9146a2c1.jpg\"><br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(S^+ = S' . y' + S . x\\)</p>",
+            "<b>B.</b> <p>\\(S^+ = S. x . y' + S' . y . x'\\)</p>",
+            "<b>C.</b> <p>\\(S^+ = x . y'\\)</p>",
+            "<b>D.</b> <p>\\(S^+ = S' . y + S . x'\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(S^+ = S' . y' + S . x\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3576/gate2006-it-37\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>In the context-free grammar below, S is the start symbol, a and b are terminals, and \\(\\epsilon\\) denotes the empty string.<br>\n\\(S \\to aSAb \\mid \\epsilon\\)<br>\n\\(A \\to bA \\mid \\epsilon\\)<br>\nThe grammar generates the language <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(((a + b)^* b)\\)</p>",
+            "<b>B.</b> <p>\\(\\{a^mb^n \\mid m \\leq n\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{a^mb^n \\mid m = n)\\)</p>",
+            "<b>D.</b> <p>\\(a^* b^*\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{a^mb^n \\mid m \\leq n\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3573/gate2006-it-34\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Consider the pushdown automaton (PDA) below which runs over the input alphabet (a, b, c). It has the stack alphabet \\(\\{Z_0, X\\}\\) where \\(Z_0\\) is the bottom-of-stack marker. The set of states of the PDA is (s, t, u, f} where s is the start state and f is the final state. The PDA accepts by final state. The transitions of the PDA given below are depicted in a standard manner. For example, the transition \\((s, b, X) \\rightarrow (t, XZ_0)\\) means that if the PDA is in state s and the symbol on the top of the stack is X, then it can read b from the input and move to state t after popping the top of stack and pushing the symbols \\(Z_0\\) and X (in that order) on the stack. <br>\n\\((s, a, Z_0) \\rightarrow (s, XXZ_0)\\)<br>\n\\((s, \\epsilon, Z_0) \\rightarrow (f, \\epsilon)\\)<br>\n\\((s, a, X) \\rightarrow (s, XXX)\\)<br>\n\\((s, b, X) \\rightarrow (t, \\epsilon)\\)<br>\n\\((t, b, X) \\rightarrow (t,\\epsilon)\\)<br>\n\\((t, c, X) \\rightarrow (u, \\epsilon)\\)<br>\n\\((u, c, X) \\rightarrow (u, \\epsilon)\\)<br>\n\\((u, \\epsilon, Z_0) \\rightarrow (f, \\epsilon)\\)<br>\nThe language accepted by the PDA is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{a^lb^mc^n \\mid l = m = n\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{a^l b^m c^n \\mid l = m\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{a^lb^mc^n \\mid 2l = m + n\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{a^lb^mc^n \\mid m = n\\}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\{a^lb^mc^n \\mid 2l = m + n\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3572/gate2006-it-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Let L be a context-free language and M a regular language. Then the language \\(L \\cap M\\) is <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always regular</p>",
+            "<b>B.</b> <p>never regular</p>",
+            "<b>C.</b> <p>always a deterministic context-free language</p>",
+            "<b>D.</b> <p>always a context-free language</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>always a context-free language</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3571/gate2006-it-32\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following languages is accepted by a non-deterministic pushdown automaton (PDA) but NOT by a deterministic PDA? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{a^nb^nc^n \\mid n \\geq 0\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{a^lb^mc^n \\mid l \\neq m \\text{ or } m \\neq n\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{a^nb^n \\mid n \\geq 0\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{a^mb^n \\mid m, n \\geq 0\\}\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(\\{a^lb^mc^n \\mid l \\neq m \\text{ or } m \\neq n\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3570/gate2006-it-31\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Which of the following statements about regular languages is NOT true ? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Every language has a regular superset</p>",
+            "<b>B.</b> <p>Every language has a regular subset</p>",
+            "<b>C.</b> <p>Every subset of a regular language is regular</p>",
+            "<b>D.</b> <p>Every subset of a finite language is regular</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Every subset of a regular language is regular</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3569/gate2006-it-30\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Consider the regular grammar below <br>\n\\(S \\rightarrow bS \\mid aA \\mid \\epsilon\\)<br>\n\\(A \\rightarrow aS \\mid bA\\)<br>\nThe Myhill-Nerode equivalence classes for the language generated by the grammar are <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\{w \\in (a + b)^* \\mid \\#a(w) \\text{ is even) and} \\{w \\in (a + b)^* \\mid \\#a(w) \\text{ is odd}\\}\\)</p>",
+            "<b>B.</b> <p>\\(\\{w \\in (a + b)^* \\mid \\#a(w) \\text{ is even) and} \\{w \\in (a + b)^* \\mid \\#b(w) \\text{ is odd}\\}\\)</p>",
+            "<b>C.</b> <p>\\(\\{w \\in (a + b)^* \\mid \\#a(w) = \\#b(w) \\text{and }\\{w \\in (a + b)^* \\mid \\#a(w) \\neq \\#b(w)\\}\\)</p>",
+            "<b>D.</b> <p>\\(\\{\\epsilon\\},\\{wa \\mid w \\in (a + b)^* \\text{and} \\{wb \\mid w \\in (a + b)^*\\}\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\{w \\in (a + b)^* \\mid \\#a(w) \\text{ is even) and} \\{w \\in (a + b)^* \\mid \\#a(w) \\text{ is odd}\\}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3568/gate2006-it-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>Which regular expression best describes the language accepted by the non-deterministic automaton below?\n<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q5_1a0e53b1.jpg\"><br> <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\((a + b)^* \\ a(a + b)b\\)</p>",
+            "<b>B.</b> <p>\\((abb)^*\\)</p>",
+            "<b>C.</b> <p>\\((a + b)^* \\ a(a + b)^* \\ b(a + b)^*\\)</p>",
+            "<b>D.</b> <p>\\((a + b)^*\\)</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\((a + b)^* \\ a(a + b)b\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3544/gate2006-it-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>In the context-free grammar below, S is the start symbol, a and b are terminals, and\\(\\epsilon\\) denotes the empty string <br>\n\\(S \\rightarrow aSa \\mid bSb \\mid a \\mid b \\mid \\epsilon\\)<br>\nWhich of the following strings is NOT generated by the grammar? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>aaaa</p>",
+            "<b>B.</b> <p>baba</p>",
+            "<b>C.</b> <p>abba</p>",
+            "<b>D.</b> <p>babaaabab</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>baba</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3543/gate2006-it-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>In the automaton below, s is the start state and t is the only final state.<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Theory_of_Computation\\q3_da00c87d.jpg\"><br>\nConsider the strings \\(u = abbaba, v = bab, \\text{ and } w = aabb\\). Which of the following statements is true? <br><br><strong>(GATE IT 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>The automaton accepts u and v but not w</p>",
+            "<b>B.</b> <p>The automaton accepts each of u, v, and w</p>",
+            "<b>C.</b> <p>The automaton rejects each of u, v, and w</p>",
+            "<b>D.</b> <p>The automaton accepts u but rejects v and w</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>The automaton accepts u but rejects v and w</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/3542/gate2006-it-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Consider the regular language L = (111 + 11111)* . The minimum number of\nstates in any DFA accepting this languages is <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>5</p>",
+            "<b>C.</b> <p>8</p>",
+            "<b>D.</b> <p>9</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>9</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1291/gate2006-34#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>Let L1 be regular language, L2 be a deterministic context-free language and L3 a\nrecursively enumerable, but not recursive, language. Which one of the following\nstatements is false? <br><br><strong>(GATE CSE 2006)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_{1}\\cap L_{2}\\) is a deterministic CFL</p>",
+            "<b>B.</b> <p>\\(L_{3}\\cap L_{1}\\) is recursive</p>",
+            "<b>C.</b> <p>\\(L_{1}\\cup L_{2}\\) is context-free</p>",
+            "<b>D.</b> <p>\\(L_{1}\\cap L_{2}\\cap L_{3}\\) is recursively enumerable</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(L_{3}\\cap L_{1}\\) is recursive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/996/gate2006-33#a_list\" targer=\"_blank\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+});

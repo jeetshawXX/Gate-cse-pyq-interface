@@ -1,0 +1,101 @@
+{
+  "title": "Engineering Mathematics - Linear Algebra - Matrix",
+  "duration": 17,
+  "sections": [
+    {
+      "name": "Matrix",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"49916\"></a><div itemprop=\"text\">\n<p>If a square matrix A satisfies \\( A^TA=I \\), then the matrix \\( A \\) is</p>\n\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2008 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Idempotent</p>",
+            "<p>Symmetric</p>",
+            "<p>Orthogonal</p>",
+            "<p>Hermitian</p>"
+          ],
+          "correct_answer": "<p>Orthogonal</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/49916/isro-cse-2008-question-34\" target=\"_blank\">https://gateoverflow.in/49916/isro-cse-2008-question-34</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"50498\"></a><div itemprop=\"text\"><p>A square matrix \\( \\text{A} \\) is called orthogonal if \\( \\text{A}'\\text{A}= \\)</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2009 | Question: 59</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{I} \\)</p>",
+            "<p>\\( \\text{A} \\)</p>",
+            "<p>\\( -\\text{A} \\)</p>",
+            "<p>\\( -\\text{I} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{I} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50498/isro-cse-2009-question-59\" target=\"_blank\">https://gateoverflow.in/50498/isro-cse-2009-question-59</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"50512\"></a><div itemprop=\"text\"><p>If \\( \\text{A, B, C} \\) are any three matrices, then \\( \\text{A}'+\\text{B}'+\\text{C}'  \\) is equal to</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2009 | Question: 62</b></p>",
+          "type": "single",
+          "options": [
+            "<p>a null matrix</p>",
+            "<p>\\( \\text{A + B + C} \\)</p>",
+            "<p>\\( \\text{(A + B + C)}' \\)</p>",
+            "<p>\\( \\text{-(A + B + C}) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{(A + B + C)}' \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/50512/isro-cse-2009-question-62\" target=\"_blank\">https://gateoverflow.in/50512/isro-cse-2009-question-62</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"52483\"></a><div itemprop=\"text\"><p>If \\( \\text{A} \\) and \\( \\text{B} \\) are square matrices with same order and \\( \\text{A} \\) is symmetric, then \\( \\text{B}^{\\text{T}}\\text{AB} \\) is</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2011 | Question: 36</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Skew symmetric</p>",
+            "<p>Symmetric</p>",
+            "<p>Orthogonal</p>",
+            "<p>Idempotent</p>"
+          ],
+          "correct_answer": "<p>Symmetric</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/52483/isro-cse-2011-question-36\" target=\"_blank\">https://gateoverflow.in/52483/isro-cse-2011-question-36</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"128505\"></a><div itemprop=\"text\"><p>If \\( \\text{A} \\) is a skew symmetric matrix then \\( \\text{A}^t \\)&nbsp;&nbsp;is</p>\n\n</div><br><br><b>Linear Algebra: ISRO CSE 2017 | Question: 1</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Diagonal matrix&nbsp;</p>",
+            "<p>\\( \\text{A} \\)</p>",
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( -\\text{A} \\)</p>"
+          ],
+          "correct_answer": "<p>\\( -\\text{A} \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128505/isro-cse-2017-question-1\" target=\"_blank\">https://gateoverflow.in/128505/isro-cse-2017-question-1</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"182067\"></a><div itemprop=\"text\"><p>If \\( C \\) is a skew-symmetric matrix of order \\( n \\) and \\( X \\) is \\( n\\times 1 \\) column matrix, then \\( X{^T} CX \\) is a</p>\n\n</div><br><br><b>Linear Algebra: ISRO</b></p>",
+          "type": "single",
+          "options": [
+            "<p>scalar matrix</p>",
+            "<p>null matrix</p>",
+            "<p>unit matrix</p>",
+            "<p>matrix will all elements \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>null matrix</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/182067/isro-dec2017-17\" target=\"_blank\">https://gateoverflow.in/182067/isro-dec2017-17</a></p>"
+        }
+      ]
+    }
+  ]
+}

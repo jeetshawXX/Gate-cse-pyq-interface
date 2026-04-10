@@ -1,0 +1,26 @@
+{
+  "title": "Digital Logic - Shift Registers",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Shift Registers",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"436664\"></a><div itemprop=\"text\"><p>The time delay obtained through an \\( 8 \\)-bit serial register with \\( 400 \\) MHz clock is:</p></div><br><br><b>Digital Logic: ISRO CSE 2023 | Question: 71</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 20 \\) ns</p>",
+            "<p>\\( 2.5 \\) µs</p>",
+            "<p>\\( 20 \\) µs</p>",
+            "<p>\\( 2.5 \\) µs</p>"
+          ],
+          "correct_answer": "<p>\\( 20 \\) ns</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/436664/isro-cse-2023-question-71\" target=\"_blank\">https://gateoverflow.in/436664/isro-cse-2023-question-71</a></p>"
+        }
+      ]
+    }
+  ]
+}

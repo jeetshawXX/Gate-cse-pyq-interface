@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Non GATE CSE - IS and Software Engineering - Cohesion",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Cohesion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"60804\"></a><div itemprop=\"text\"><p>Temporal cohesion means</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | December 2014 | Part 3 | Question: 48</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Coincidental cohesion</p>",
+            "<p>Cohesion between temporary variables</p>",
+            "<p>Cohesion between local variables&nbsp;</p>",
+            "<p>Cohesion with respect to time&nbsp;</p>"
+          ],
+          "correct_answer": "<p>Cohesion with respect to time&nbsp;</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/60804/ugc-net-cse-december-2014-part-3-question-48\" target=\"_blank\">https://gateoverflow.in/60804/ugc-net-cse-december-2014-part-3-question-48</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"61086\"></a><div itemprop=\"text\"><p>Cohesion is an extension of:</p>\n\n</div><br><br><b>IS&Software Engineering: UGC NET CSE | Junet 2015 | Part 2 | Question: 44</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Abstraction concept</p>",
+            "<p>Refinment&nbsp;concept</p>",
+            "<p>Information hiding&nbsp;concept</p>",
+            "<p>Modularity</p>"
+          ],
+          "correct_answer": "<p>Information hiding&nbsp;concept</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/61086/ugc-net-cse-junet-2015-part-2-question-44\" target=\"_blank\">https://gateoverflow.in/61086/ugc-net-cse-junet-2015-part-2-question-44</a></p>"
+        }
+      ]
+    }
+  ]
+});

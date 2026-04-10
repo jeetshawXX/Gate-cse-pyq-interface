@@ -1,0 +1,26 @@
+window.__examLoadCallback({
+  "title": "Discrete Mathematics - Mathematical Logic - Prolog",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Prolog",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"62437\"></a><div itemprop=\"text\"><p>Given the following set of prolog clauses:</p>\n\n<pre class=\"prettyprint linenums lang-text\" data-pbcklang=\"text\" data-pbcktabsize=\"4\">father(X,Y) :\nparent(X,Y),\nmale(X),\nparent(Sally, Bob),\nparent(Jim, Bob),\nparent(Alice, Jane),\nmale(Bob),\nmale(Jim),\nfemale(Salley),\nfemale(Alice)</pre>\n\n<p>How many atoms are matched to the variable 'X' before the query father(X, Jane) reports a Result?</p>\n\n</div><br><br><b>Mathematical Logic: UGC NET CSE | December 2015 | Part 3 | Question: 7</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 1 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 3 \\)</p>",
+            "<p>\\( 4 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/62437/ugc-net-cse-december-2015-part-3-question-7\" target=\"_blank\">https://gateoverflow.in/62437/ugc-net-cse-december-2015-part-3-question-7</a></p>"
+        }
+      ]
+    }
+  ]
+});

@@ -1,0 +1,21 @@
+{
+  "title": "General Awareness - India",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "India",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"131\"></a><div itemprop=\"text\"><p>Which of the following welfare schemes is launched by the Govt. of India</p><p>&nbsp;</p><ol><li>Jeevan Aadhar</li><li>Komal Jeevan</li><li>Mid Day Meal Yojana</li><li>Jevan Amrit</li><li>Jeevan Mitra</li></ol><p>&nbsp;</p></div><br><br><b>General Awareness: Which of the following welfare schemes is launched by the Govt. of India</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "Q-Q",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://aptitude.gateoverflow.in/131/which-the-following-welfare-schemes-launched-the-govt-india\" target=\"_blank\">https://aptitude.gateoverflow.in/131/which-the-following-welfare-schemes-launched-the-govt-india</a></p>"
+        }
+      ]
+    }
+  ]
+}

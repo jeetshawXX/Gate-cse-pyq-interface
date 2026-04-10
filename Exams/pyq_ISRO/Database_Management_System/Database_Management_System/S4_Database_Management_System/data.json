@@ -1,0 +1,311 @@
+{
+  "title": "Database_Management_System - Database_Management_System - Slot 4",
+  "duration": 55,
+  "sections": [
+    {
+      "name": "Database_Management_System",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Consider the following dependencies and the BOOK table in a relational database design. Determine the normal form of the given relation.<br>\nISBN \\(\\rightarrow\\) Title<br>\nISBN \\(\\rightarrow\\) Publisher<br>\nPublisher \\(\\rightarrow\\) Address<br> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Normal Form</p>",
+            "<b>B.</b> <p>Second Normal Form</p>",
+            "<b>C.</b> <p>Third Normal Form</p>",
+            "<b>D.</b> <p>BCNF</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Second Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43861/isro-2013-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>Consider the following relational schema:<br>\nSuppliers (sid:integer, sname:string, saddress:string)<br>\nParts (pid:integer, pname:string, pcolor:string)<br>\nCatalog (sid:integer, pid:integer, pcost:real)<br>\nWhat is the result of the following query?<br><pre><code> (SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sid = Catalog.sid)\nMINUS\n(SELECT Catalog.pid from Suppliers, Catalog\nWHERE Suppliers.sname &lt;&gt; 'Sachin' and Suppliers.sid = Catalog.sid)</code></pre> <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Pid of parts supplied by all except Sachin</p>",
+            "<b>B.</b> <p>Pid of parts supplied only by Sachin</p>",
+            "<b>C.</b> <p>Pid of parts available in catalog supplied by Sachin</p>",
+            "<b>D.</b> <p>Pid of parts available in catalog supplied by all except Sachin</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Pid of parts supplied only by Sachin</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43857/isro-2013-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>Which of the following is the highest isolation level in transaction management? <br><br><strong>(ISRO CSE 2013)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Serializable</p>",
+            "<b>B.</b> <p>Repeated Read</p>",
+            "<b>C.</b> <p>Committed Read</p>",
+            "<b>D.</b> <p>Uncommitted Read</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Serializable</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/43855/isro-2013-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>In functional dependency Armstrong inference rules refers to <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reflexive, Augmentation and Decomposition</p>",
+            "<b>B.</b> <p>Transitive, Augmentation and Reflexive</p>",
+            "<b>C.</b> <p>Augmentation, Transitive, Reflexive and Decomposition</p>",
+            "<b>D.</b> <p>Reflexive, Transitive and Decomposition</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Transitive, Augmentation and Reflexive</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50639/isro2011-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Which normal form is based on the concept of 'full functional dependency' is <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>First Normal Form</p>",
+            "<b>B.</b> <p>Second  Normal Form</p>",
+            "<b>C.</b> <p>Third Normal Form</p>",
+            "<b>D.</b> <p>Fourth Normal Form</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Second  Normal Form</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/18117/isro2011-29\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Which type of DBMS provides support for maintaining several versions of the same entity? <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Relational Database Management System</p>",
+            "<b>B.</b> <p>Hierarchical</p>",
+            "<b>C.</b> <p>Object Oriented Database Management System</p>",
+            "<b>D.</b> <p>Network</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Object Oriented Database Management System</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50618/isro2011-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>What is the equivalent serial schedule for the following transactions? <br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\gatePYQ\\Database_Management_System\\q15_d25b3ef5.jpg\"><br> <br><br><strong>(ISRO CSE 2011)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(T_1 - T_2 - T_3\\)</p>",
+            "<b>B.</b> <p>\\(T_3 - T_1 - T_2\\)</p>",
+            "<b>C.</b> <p>\\(T_2 - T_1 - T_3\\)</p>",
+            "<b>D.</b> <p>\\(T_1 - T_3 - T_2\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(T_3 - T_1 - T_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/52269/isro2011-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following scenarios may lead to an irrecoverable error in a database system? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A transaction writes a data item after it is read by an uncommitted transaction</p>",
+            "<b>B.</b> <p>A transaction reads a data item after it is read by an uncommitted transaction</p>",
+            "<b>C.</b> <p>A transaction reads a data item after it is written by a committed transaction</p>",
+            "<b>D.</b> <p>A transaction reads a data item after it is written by an uncommitted transaction</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>A transaction reads a data item after it is written by an uncommitted transaction</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/919/gate2003-29-isro2009-73\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Purpose of 'Foreign Key' in a table is to ensure <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Null Integrity</p>",
+            "<b>B.</b> <p>Referential Integrity</p>",
+            "<b>C.</b> <p>Domain Integrity</p>",
+            "<b>D.</b> <p>Null and Domain Integrity</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Referential Integrity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/47321/isro2009-72\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following contains complete record of all activity that affected the contents of a database during a certain period of time? <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Transaction log</p>",
+            "<b>B.</b> <p>Query language</p>",
+            "<b>C.</b> <p>Report writer</p>",
+            "<b>D.</b> <p>Data manipulation language</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Transaction log</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/50569/isro2009-71\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>A locked database file can be <br><br><strong>(ISRO CSE 2009)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Accessed by only one user</p>",
+            "<b>B.</b> <p>Modified by users with the correct password</p>",
+            "<b>C.</b> <p>Used to hide sensitive information</p>",
+            "<b>D.</b> <p>Updated by more than one user</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Accessed by only one user</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/48081/isro2009-70\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>Embedded pointer provides <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A secondary access path</p>",
+            "<b>B.</b> <p>A physical record key</p>",
+            "<b>C.</b> <p>An inverted index</p>",
+            "<b>D.</b> <p>A primary key</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>A secondary access path</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/44407/isro-2013-61-isro2008-35\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>The join operation can be defined as <br><br><strong>(ISRO CSE 2008)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a cartesian product of two relations followed by a selection</p>",
+            "<b>B.</b> <p>a cartesian product of two relations</p>",
+            "<b>C.</b> <p>a union of two relations followed by cartesian product of the two relations</p>",
+            "<b>D.</b> <p>a union of two relations</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a cartesian product of two relations followed by a selection</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49914/isro2008-33\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>Which of the following is correct with respect to Two phase commit protocol? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ensures serializability</p>",
+            "<b>B.</b> <p>Prevents Deadlock</p>",
+            "<b>C.</b> <p>Detects Deadlock</p>",
+            "<b>D.</b> <p>Recover from Deadlock</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Ensures serializability</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49627/isro2007-60\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>BCNF is not used for cases where a relation has <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Two (or more) candidate keys</p>",
+            "<b>B.</b> <p>Two candidate keys and composite</p>",
+            "<b>C.</b> <p>The candidate key overlap</p>",
+            "<b>D.</b> <p>Two mutually exclusive foreign keys</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Two candidate keys and composite</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49536/isro2007-54\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>Which operation is used to extract specified columns from a table? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Project</p>",
+            "<b>B.</b> <p>Join</p>",
+            "<b>C.</b> <p>Extract</p>",
+            "<b>D.</b> <p>Substitute</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Project</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49532/isro2007-52\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Armstrong's inference rule doesnot determine <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Reflexivity</p>",
+            "<b>B.</b> <p>Augmentation</p>",
+            "<b>C.</b> <p>Transitivity</p>",
+            "<b>D.</b> <p>Mutual dependency</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>Mutual dependency</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49531/isro2007-51\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>A view of database that appears to an application program is known as <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Schema</p>",
+            "<b>B.</b> <p>Subschema</p>",
+            "<b>C.</b> <p>Virtual table</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Subschema</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49530/isro2007-50\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>Which of the following is aggregate function in SQL? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Avg</p>",
+            "<b>B.</b> <p>Select</p>",
+            "<b>C.</b> <p>Ordered by</p>",
+            "<b>D.</b> <p>distinct</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Avg</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49527/isro2007-48\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Which commands are used to control access over objects in relational database? <br><br><strong>(ISRO CSE 2007)</strong></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CASCADE &amp; MVD</p>",
+            "<b>B.</b> <p>GRANT &amp; REVOKE</p>",
+            "<b>C.</b> <p>QUE &amp; QUIST</p>",
+            "<b>D.</b> <p>None of these</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>GRANT &amp; REVOKE</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/49526/isro2007-47\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}

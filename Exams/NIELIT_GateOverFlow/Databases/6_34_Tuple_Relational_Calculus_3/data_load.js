@@ -1,0 +1,56 @@
+window.__examLoadCallback({
+  "title": "Databases - Tuple Relational Calculus",
+  "duration": 8,
+  "sections": [
+    {
+      "name": "Tuple Relational Calculus",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336701\"></a><div itemprop=\"text\"><p>In a relational Schema, each tuple is divided into fields called</p>\n\n</div><br><br><b>Databases: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>relations</p>",
+            "<p>domains</p>",
+            "<p>queries</p>",
+            "<p>none of these</p>"
+          ],
+          "correct_answer": "<p>domains</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336701/nielit-2016-mar-scientist-b-section-c-40\" target=\"_blank\">https://gateoverflow.in/336701/nielit-2016-mar-scientist-b-section-c-40</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"336379\"></a><div itemprop=\"text\"><p>Consider the join of a relation \\( R \\) with relation \\( S \\). If \\( R \\) has \\( m \\) tuples and \\( S \\) has \\( n \\) tuples, then the maximum size of join is</p>\n\n</div><br><br><b>Databases: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( mn \\)</p>",
+            "<p>\\( m+n \\)</p>",
+            "<p>\\( (m+n)/2 \\)</p>",
+            "<p>\\( 2(m+n) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( mn \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336379/nielit-2017-july-scientist-b-it-section-b-56\" target=\"_blank\">https://gateoverflow.in/336379/nielit-2017-july-scientist-b-it-section-b-56</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"336377\"></a><div itemprop=\"text\"><p>In tuple relational calculus \\( P1\\to&nbsp;P2 \\)&nbsp;is equivalent to</p>\n\n</div><br><br><b>Databases: NIELIT 2017 July Scientist B (IT)</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\lnot&nbsp;P1&nbsp;\\lor&nbsp;P2 \\)</p>",
+            "<p>\\( P1 \\lor&nbsp;P2 \\)</p>",
+            "<p>\\( P1 \\land&nbsp;P2 \\)</p>",
+            "<p>\\( P1 \\land&nbsp;\\lnot&nbsp;P2 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\lnot&nbsp;P1&nbsp;\\lor&nbsp;P2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336377/nielit-2017-july-scientist-b-it-section-b-58\" target=\"_blank\">https://gateoverflow.in/336377/nielit-2017-july-scientist-b-it-section-b-58</a></p>"
+        }
+      ]
+    }
+  ]
+});

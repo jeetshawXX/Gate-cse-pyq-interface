@@ -1,0 +1,155 @@
+{
+  "title": "Operating System - Semaphore",
+  "duration": 28,
+  "sections": [
+    {
+      "name": "Semaphore",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"83851\"></a><div itemprop=\"text\">Semaphore operations are atomic because they are implemented within the OS _________.</div><br><br><b>GATE CSE 1990 | Question: 1-vii</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "N/A",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/83851/gate-cse-1990-question-1-vii\" target=\"_blank\">https://gateoverflow.in/83851/gate-cse-1990-question-1-vii</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"564\"></a><div itemprop=\"text\"><p>At a particular time of computation, the value of a counting semaphore is \\( 7 \\).&nbsp;Then \\( 20 \\) \\( P \\) operations and \\( 15 \\) \\( V \\) operations were completed on this semaphore.&nbsp;The resulting value of the semaphore is :</p>\n\n</div><br><br><b>GATE CSE 1992 | Question: 02,x, ISRO2015-35</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 42 \\)</p>",
+            "<p>\\( 2 \\)</p>",
+            "<p>\\( 7 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 2 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/564/gate-cse-1992-question-02-x-isro2015-35\" target=\"_blank\">https://gateoverflow.in/564/gate-cse-1992-question-02-x-isro2015-35</a></p>"
+        },
+        {
+          "id": 3,
+          "question": "<p><a name=\"1668\"></a><div itemprop=\"text\"><p>A counting semaphore was initialized to \\( 10 \\). Then \\( 6 P \\) (wait) operations and \\( 4V \\) (signal) operations were completed on this semaphore. The resulting value of the semaphore is</p>\n\n</div><br><br><b>GATE CSE 1998 | Question: 1.31</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\)</p>",
+            "<p>\\( 8 \\)</p>",
+            "<p>\\( 10 \\)</p>",
+            "<p>\\( 12 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 8 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/1668/gate-cse-1998-question-1-31\" target=\"_blank\">https://gateoverflow.in/1668/gate-cse-1998-question-1-31</a></p>"
+        },
+        {
+          "id": 4,
+          "question": "<p><a name=\"486\"></a><div itemprop=\"text\"><p>The \\( P \\) and \\( V \\) operations on counting semaphores, where s is a counting semaphore, are defined as follows:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:600px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\\( P(s): \\)</td>\n\t\t\t<td>\n\t\t\t<p>\\( s=s-1; \\)<br>\n\t\t\tIf \\( s &lt; 0 \\) then wait;</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\( V(s): \\)</td>\n\t\t\t<td>\n\t\t\t<p>\\( s=s+1; \\)<br>\n\t\t\tIf \\( s \\leq0 \\) then wake up process waiting on s;</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Assume that \\( P_b \\) and \\( V_b \\) the wait and signal operations on binary semaphores are provided. Two binary semaphores \\( x_b \\) and \\( y_b \\) are used to implement the semaphore operations \\( P(s) \\) and \\( V(s) \\) as follows:</p>\n\n<table border=\"0\" cellpadding=\"1\" style=\"width:600px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\\( P(s): \\)&nbsp;</td>\n\t\t\t<td>\n\t\t\t<p>\\( \\quad P_b(x_b); \\)<br>\n\t\t\t\\( \\quad&nbsp;s = s-1; \\)<br>\n\t\t\t\\( \\quad \\text{if } (s&lt;0) \\)<br>\n\t\t\t\\( \\quad \\{ \\)<br>\n\t\t\t\\( \\qquad&nbsp;V_b(x_b); \\)<br>\n\t\t\t\\( \\qquad&nbsp;&nbsp;P_b(y_b);  \\)<br>\n\t\t\t\\( \\quad&nbsp;\\} \\)<br>\n\t\t\t\\( \\quad \\text{ else } V_b(x_b);  \\)</p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>\\(  V(s): \\)</td>\n\t\t\t<td>\\( \\quad P_b(x_b); \\)<br>\n\t\t\t\\( \\quad&nbsp;s= s+1; \\)<br>\n\t\t\t\\( \\quad \\text{if } (s\\leq0) V_b(y_b) ; \\)<br>\n\t\t\t\\( \\quad&nbsp;V_b(x_b); \\)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The initial values of \\( x_b \\) and \\( y_b \\) are respectively</p>\n\n</div><br><br><b>GATE CSE 2008 | Question: 63</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 0 \\) and \\( 0 \\)</p>",
+            "<p>\\( 0 \\) and \\( 1 \\)</p>",
+            "<p>\\( 1 \\) and \\( 0 \\)</p>",
+            "<p>\\( 1 \\) and \\( 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 1 \\) and \\( 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/486/gate-cse-2008-question-63\" target=\"_blank\">https://gateoverflow.in/486/gate-cse-2008-question-63</a></p>"
+        },
+        {
+          "id": 5,
+          "question": "<p><a name=\"39576\"></a><div itemprop=\"text\">Consider a non-negative counting semaphore \\( S \\). The operation \\( P(S) \\) decrements \\( S \\), and \\( V(S) \\) increments \\( S \\). During an execution, \\( 20 \\) \\( P(S) \\) operations and \\( 12 \\) \\( V(S) \\) operations are issued in some order. The largest initial value of \\( S \\) for which at least one \\( P(S) \\) operation will remain blocked is _______</div><br><br><b>GATE CSE 2016 Set 2 | Question: 49</b></p>",
+          "type": "numeric",
+          "options": [],
+          "correct_answer": "7",
+          "marks": 1,
+          "negative_marks": 0,
+          "explanation": "<p><a href=\"https://gateoverflow.in/39576/gate-cse-2016-set-2-question-49\" target=\"_blank\">https://gateoverflow.in/39576/gate-cse-2016-set-2-question-49</a></p>"
+        },
+        {
+          "id": 6,
+          "question": "<p><a name=\"333197\"></a><div itemprop=\"text\"><p>Each of a set of \\( n \\) processes executes the following code using two semaphores \\( a \\) and \\( b \\) initialized to \\( 1 \\) and \\( 0 \\), respectively. Assume that \\( \\text{count} \\) is a shared variable initialized to \\( 0 \\) and not used in CODE SECTION P.</p><p>\\( \\begin{array}{|c|} \\hline \\textbf{CODE SECTION P} \\\\ \\hline \\end{array} \\)</p><pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">wait(a); count=count+1;\nif (count==n) signal (b);\nsignal (a); wait (b) ; signal (b);</pre><p>\\( \\begin{array}{|c|} \\hline \\textbf{CODE SECTION Q} \\\\ \\hline \\end{array} \\)</p><p>What does the code achieve?</p></div><br><br><b>GATE CSE 2020 | Question: 34</b></p>",
+          "type": "single",
+          "options": [
+            "<p>It ensures that no process executes CODE SECTION Q before every process has finished CODE SECTION P.</p>",
+            "<p>It ensures that atmost two processes are in&nbsp;CODE SECTION Q at any time.</p>",
+            "<p>It ensures that all processes execute CODE&nbsp;SECTION P mutually exclusively.</p>",
+            "<p>It ensures that at most \\( n-1 \\) processes are in&nbsp;CODE&nbsp;SECTION P at any time.</p>"
+          ],
+          "correct_answer": "<p>It ensures that no process executes CODE SECTION Q before every process has finished CODE SECTION P.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/333197/gate-cse-2020-question-34\" target=\"_blank\">https://gateoverflow.in/333197/gate-cse-2020-question-34</a></p>"
+        },
+        {
+          "id": 7,
+          "question": "<p><a name=\"357405\"></a><div itemprop=\"text\"><p>Consider the following pseudocode, where \\( \\textsf{S} \\) is a semaphore initialized to \\( 5 \\) in line \\( \\#2 \\) and \\( \\textsf{counter} \\) is a shared variable initialized to \\( 0 \\) in line \\( \\#1 \\). Assume that the increment operation in line \\( \\#7 \\) is \\( \\textit{not} \\) atomic.</p>\n\n<pre class=\"prettyprint linenums:1 lang-c_cpp linenum\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">1.  int counter = 0;\n2.  Semaphore S = init(5);\n3.  void parop(void)\n4.  {\n5.         wait(S);\n6.         wait(S);\n7.         counter++;\n8.         signal(S);\n9.         signal(S);\n10.  }\n</pre>\n\n<p>If five threads execute the function \\( \\textsf{parop} \\) concurrently, which of the following program behavior(s) is/are possible?</p>\n\n</div><br><br><b>GATE CSE 2021 Set 1 | Question: 46</b></p>",
+          "type": "multiple",
+          "options": [
+            "<p>The value of \\( \\textsf{counter} \\) is \\( 5 \\) after all the threads successfully complete the execution of \\( \\textsf{parop} \\)</p>",
+            "<p>The value of \\( \\textsf{counter} \\) is \\( 1 \\) after all the threads successfully complete the execution of \\( \\textsf{parop} \\)</p>",
+            "<p>The value of \\( \\textsf{counter} \\) is \\( 0 \\) after all the threads successfully complete the execution of \\( \\textsf{parop} \\)</p>",
+            "<p>There is a deadlock involving all the threads</p>"
+          ],
+          "correct_answer": [
+            "<p>The value of \\( \\textsf{counter} \\) is \\( 5 \\) after all the threads successfully complete the execution of \\( \\textsf{parop} \\)</p>",
+            "<p>The value of \\( \\textsf{counter} \\) is \\( 1 \\) after all the threads successfully complete the execution of \\( \\textsf{parop} \\)</p>",
+            "<p>There is a deadlock involving all the threads</p>"
+          ],
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/357405/gate-cse-2021-set-1-question-46\" target=\"_blank\">https://gateoverflow.in/357405/gate-cse-2021-set-1-question-46</a></p>"
+        },
+        {
+          "id": 8,
+          "question": "<p><a name=\"371927\"></a><div itemprop=\"text\"><p>Consider the following threads, \\( \\text{T}_{1}, \\text{T}_{2}, \\) and \\( \\text{T}_{3} \\) executing on a single processor, synchronized using three binary semaphore variables, \\( \\text{S}_{1}, \\text{S}_{2}, \\) and \\( \\text{S}_{3}, \\) operated upon using standard \\( \\textsf{wait}() \\) and \\( \\textsf{signal}(). \\) The threads can be context switched in any order and at any time.</p>\n\n<p>\\[ \\begin{array}{|c|c|c|} \\hline \\text{T}_{1} &amp; \\text{T}_{2} &amp; \\text{T}_{3} \\\\\\hline \\text{while(true)} \\{&nbsp; &amp; &nbsp;\\text{while(true)} \\{&amp; \\text{while(true)} \\{ \\\\ \\text{wait(S}_{3}); &amp; \\text{wait(S}_{1}); &amp; \\text{wait(S}_{2}); \\\\&nbsp;&nbsp; \\text{print(“C”)}; &amp;&nbsp;\\text{print(“B”)}; &amp;&nbsp;\\text{print(“A”)}; \\\\ &nbsp;\\text{signal(S}_{2}); \\} &amp; \\text{signal(S}_{3}); \\} &amp; \\text{signal(S}_{1}); \\} \\\\\\hline&nbsp; \\end{array} \\]</p>\n\n<p>Which initialization of the semaphores would print the sequence \\( \\text{BCABCABCA} \\dots ? \\)</p>\n\n</div><br><br><b>GATE CSE 2022 | Question: 9</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( \\text{S}_{1} = 1; \\text{S}_{2} = 1; \\text{S}_{3} = 1 \\)</p>",
+            "<p>\\( \\text{S}_{1} = 1; \\text{S}_{2} = 1; \\text{S}_{3} = 0 \\)</p>",
+            "<p>\\( \\text{S}_{1} = 1; \\text{S}_{2} = 0; \\text{S}_{3} = 0 \\)</p>",
+            "<p>\\( \\text{S}_{1} = 0; \\text{S}_{2} = 1; \\text{S}_{3} = 1 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( \\text{S}_{1} = 1; \\text{S}_{2} = 0; \\text{S}_{3} = 0 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/371927/gate-cse-2022-question-9\" target=\"_blank\">https://gateoverflow.in/371927/gate-cse-2022-question-9</a></p>"
+        },
+        {
+          "id": 9,
+          "question": "<p><a name=\"399283\"></a><div itemprop=\"text\"><p>Consider the two functions \\( \\textsf{incr} \\) and \\( \\textsf{decr} \\) shown below.&nbsp;</p>\n\n<pre class=\"prettyprint linenums lang-c_cpp\" data-pbcklang=\"c_cpp\" data-pbcktabsize=\"4\">incr(){             decr(){\n    wait(s);            wait(s);\n    X = X+1;            X = X-1;\n    signal(s);          signal(s);\n}                   }    </pre>\n\n<p>There are \\( 5 \\) threads each invoking \\( \\textsf{incr} \\) once, and \\( 3 \\) threads each invoking \\( \\textsf{decr} \\) once, on the same shared variable \\( \\mathrm{X} \\). The initial value of \\( \\mathrm{X} \\) is&nbsp;\\( 10. \\)</p>\n\n<p>Suppose there are two implementations of the semaphore \\( \\text{s}, \\) as follows:</p>\n\n<p>\\( \\textbf{I-1:}&nbsp;\\;\\mathrm{s} \\) is a binary semaphore initialized to \\( 1. \\)<br>\n\\( \\textbf{I-2:}\\; \\mathrm{s} \\) is a counting semaphore initialized to \\( 2. \\)</p>\n\n<p>Let \\( \\text{V1, V2} \\) be the values of \\( \\text{X} \\) at the end of execution of all the threads with implementations \\( \\textbf{I-1, I-2}, \\) respectively.<br>\n<br>\nWhich one of the following choices corresponds to the minimum possible values of \\( \\text{V1, V2}, \\) respectively?</p>\n\n</div><br><br><b>GATE CSE 2023 | Question: 28</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( 15,7 \\)</p>",
+            "<p>\\( 7,7 \\)</p>",
+            "<p>\\( 12,7 \\)</p>",
+            "<p>\\( 12,8 \\)</p>"
+          ],
+          "correct_answer": "<p>\\( 12,7 \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/399283/gate-cse-2023-question-28\" target=\"_blank\">https://gateoverflow.in/399283/gate-cse-2023-question-28</a></p>"
+        },
+        {
+          "id": 10,
+          "question": "<p><a name=\"3601\"></a><div itemprop=\"text\"><p>The wait and signal operations of a monitor are implemented using semaphores as follows. In the following,</p>\n\n<ul>\n\t<li>\\( x \\) is a condition variable,</li>\n\t<li>mutex is a semaphore initialized to \\( 1 \\),</li>\n\t<li>\\( x \\)_sem is a semaphore initialized to \\( 0 \\),</li>\n\t<li>\\( x \\)_count is the number of processes waiting on semaphore \\( x \\)_sem, initially \\( 0 \\),</li>\n\t<li>next is a semaphore initialized to \\( 0 \\),</li>\n\t<li>next_count is the number of processes waiting on semaphore next, initially \\( 0 \\).</li>\n</ul>\n\n<p>The body of each procedure that is visible outside the monitor is replaced with the following:<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">P(mutex);\n...\nbody of procedure\n...\nif (next_count &gt; 0)\n    V(next);\nelse\n    V(mutex);</pre>\n\n<p><br>\nEach occurrence of \\( x \\).wait is replaced with the following:<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">x_count = x_count + 1;\nif (next_count &gt; 0)\n    V(next);\nelse\n    V(mutex);\n------------------------------------------------------------ E1;\nx_count = x_count - 1;</pre>\n\n<p><br>\nEach occurrence of \\( x \\).signal is replaced with the following:<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\n<pre class=\"prettyprint lang-c_cpp\">if (x_count &gt; 0)\n{\n    next_count = next_count + 1;\n    ------------------- E2;\n    P(next);\n    next_count = next_count - 1;\n}</pre>\n\n<p><br>\nFor correct implementation of the monitor, statements \\( E1 \\) and \\( E2 \\) are, respectively,</p>\n\n</div><br><br><b>GATE IT 2006 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>\\( P(x\\_sem), V(next) \\)</p>",
+            "<p>\\( V(next), P(x\\_sem) \\)</p>",
+            "<p>\\( P(next), V(x\\_sem) \\)</p>",
+            "<p>\\( P(x\\_sem), V(x\\_sem) \\)</p>"
+          ],
+          "correct_answer": "<p>\\( P(x\\_sem), V(x\\_sem) \\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/3601/gate-it-2006-question-57\" target=\"_blank\">https://gateoverflow.in/3601/gate-it-2006-question-57</a></p>"
+        }
+      ]
+    }
+  ]
+}

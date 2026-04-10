@@ -1,0 +1,41 @@
+window.__examLoadCallback({
+  "title": "Operating System - Mutual Exclusion",
+  "duration": 6,
+  "sections": [
+    {
+      "name": "Mutual Exclusion",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"128711\"></a><div itemprop=\"text\"><p>Mutual exclusion problem occurs</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2017 | Question: 56</b></p>",
+          "type": "single",
+          "options": [
+            "<p>between two disjoint processes that do not interact</p>",
+            "<p>among processes that share resources</p>",
+            "<p>among processes that do not use the same resource</p>",
+            "<p>between two processes that uses different resources of different machine</p>"
+          ],
+          "correct_answer": "<p>among processes that share resources</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/128711/isro-cse-2017-question-56\" target=\"_blank\">https://gateoverflow.in/128711/isro-cse-2017-question-56</a></p>"
+        },
+        {
+          "id": 2,
+          "question": "<p><a name=\"331484\"></a><div itemprop=\"text\"><p>The hardware implementation which provides mutual exclusion is</p>\n\n</div><br><br><b>Operating System: ISRO CSE 2020 | Question: 57</b></p>",
+          "type": "single",
+          "options": [
+            "<p>Semaphores</p>",
+            "<p>Test and set instructions</p>",
+            "<p>Both options</p>",
+            "<p>None of the options</p>"
+          ],
+          "correct_answer": "<p>Test and set instructions</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/331484/isro-cse-2020-question-57\" target=\"_blank\">https://gateoverflow.in/331484/isro-cse-2020-question-57</a></p>"
+        }
+      ]
+    }
+  ]
+});

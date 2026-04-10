@@ -1,0 +1,26 @@
+{
+  "title": "Operating System - Monitors",
+  "duration": 3,
+  "sections": [
+    {
+      "name": "Monitors",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p><a name=\"336704\"></a><div itemprop=\"text\"><p>A long-term monitor</p>\n\n</div><br><br><b>Operating System: NIELIT 2016 MAR Scientist B</b></p>",
+          "type": "single",
+          "options": [
+            "<p>should show any immediate performance problems</p>",
+            "<p>should show I/O, paging and processor activity</p>",
+            "<p>need show only the I/O and processor activity</p>",
+            "<p>usually reports only on terminal displays</p>"
+          ],
+          "correct_answer": "<p>should show I/O, paging and processor activity</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<p><a href=\"https://gateoverflow.in/336704/nielit-2016-mar-scientist-b-section-c-37\" target=\"_blank\">https://gateoverflow.in/336704/nielit-2016-mar-scientist-b-section-c-37</a></p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,761 @@
+{
+  "title": "Year_Wise - GATE_1999",
+  "duration": 180,
+  "sections": [
+    {
+      "name": "GATE_1999",
+      "questions": [
+        {
+          "id": 1,
+          "question": "<p>Suppose that the expectation of a random variable X is 5. Which of the following statements is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>There is a sample point at which X has the value 5.</p>",
+            "<b>B.</b> <p>There is a sample point at which X has value greater than 5.</p>",
+            "<b>C.</b> <p>There is a sample point at which X has a value greater than equal to 5.</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>There is a sample point at which X has a value greater than equal to 5.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1455/gate1999-1-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 2,
+          "question": "<p>The number of binary relations on a set with n elements is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(n^2\\)</p>",
+            "<b>B.</b> <p>\\(2^n\\)</p>",
+            "<b>C.</b> <p>\\(2^{n^2}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(2^{n^2}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1456/gate1999-1-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 3,
+          "question": "<p>The number of binary strings of n zeros and k ones in which no two ones are adjacent is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(^{n-1}C_k\\)</p>",
+            "<b>B.</b> <p>\\(^nC_k\\)</p>",
+            "<b>C.</b> <p>\\(^nC_{k+1}\\)</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1457/gate1999-1-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 4,
+          "question": "<p>Consider the regular expression (0 + 1) (0+1) ... n times. The minimum state finite automaton that recognizes the language represented by this regular expression contains</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n states</p>",
+            "<b>B.</b> <p>n+1 states</p>",
+            "<b>C.</b> <p>n+2 states</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>n+1 states</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1458/gate1999-1-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 5,
+          "question": "<p>Context-free languages are closed under:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Union, intersection</p>",
+            "<b>B.</b> <p>Union, Kleene closure</p>",
+            "<b>C.</b> <p>Intersection, complement</p>",
+            "<b>D.</b> <p>Complement, Kleene closure</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Union, Kleene closure</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1459/gate1999-1-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 6,
+          "question": "<p>Let \\(L_1\\) be the set of all languages accepted by a PDA by final state and \\(L_2\\) the set of all languages accepted by empty stack. Which of the following is true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(L_1 = L_2\\)</p>",
+            "<b>B.</b> <p>\\(L_1 \\supset L_2\\)</p>",
+            "<b>C.</b> <p>\\(L_1 \\subset L_2\\)</p>",
+            "<b>D.</b> <p>None</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(L_1 = L_2\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/377/gate1999-1-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 7,
+          "question": "<p>Which of the following expressions is not equivalent to \\(\\bar{x}\\)?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>x NAND x</p>",
+            "<b>B.</b> <p>x NOR x</p>",
+            "<b>C.</b> <p>x NAND 1</p>",
+            "<b>D.</b> <p>x NOR 1</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>x NOR 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1460/gate1999-1-7\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 8,
+          "question": "<p>Which of the following functions implements the Karnaugh map shown below?<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1999\\q1.8_cc87bfe1.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\bar{A}B + CD\\)</p>",
+            "<b>B.</b> <p>\\(D(C+A)\\)</p>",
+            "<b>C.</b> <p>\\(AD+\\bar{A}B\\)</p>",
+            "<b>D.</b> <p>\\((C+D) (\\bar{C}+D) + (A+B)\\)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>\\(D(C+A)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1461/gate1999-1-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 9,
+          "question": "<p>Listed below are some operating system abstractions (in the left column) and the hardware components (in the right column)<br>\\(\\small \\begin{array}{cl|cl}\\hline \\text{(A)}&amp; \\text{Thread} &amp; \\text{1.}&amp; \\text{Interrupt} \\\\\\hline \\text{(B)}&amp; \\text{Virtual address space} &amp; \\text{2.}&amp; \\text{Memory} \\\\\\hline \\text{(C)} &amp;\\text{File system} &amp; \\text{3.} &amp;\\text{CPU} \\\\\\hline \\text{(D)} &amp;\\text{Signal} &amp; \\text{4.}&amp; \\text{Disk} \\\\\\hline \\end{array}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(A) - 2 (B) - 4 (C) - 3 (D) - 1</p>",
+            "<b>B.</b> <p>(A) - 1 (B) - 2 (C) - 3 (D) - 4</p>",
+            "<b>C.</b> <p>(A) - 3 (B) - 2 (C) - 4 (D) - 1</p>",
+            "<b>D.</b> <p>(A) - 4 (B) - 1 (C) - 2 (D) - 3</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>(A) - 3 (B) - 2 (C) - 4 (D) - 1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1462/gate1999-1-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 10,
+          "question": "<p>Which of the following disk scheduling strategies is likely to give the best throughput?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Farthest cylinder next</p>",
+            "<b>B.</b> <p>Nearest cylinder next</p>",
+            "<b>C.</b> <p>First come first served</p>",
+            "<b>D.</b> <p>Elevator algorithm</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Nearest cylinder next</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1463/gate1999-1-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 11,
+          "question": "<p>System calls are usually invoked by using</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a software interrupt</p>",
+            "<b>B.</b> <p>polling</p>",
+            "<b>C.</b> <p>an indirect jump</p>",
+            "<b>D.</b> <p>a privileged instruction</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>a software interrupt</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1464/gate1999-1-11-ugcnet-dec2015-ii-44\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 12,
+          "question": "<p>A sorting technique is called stable if</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>it takes \\(O (n \\log n)\\) time</p>",
+            "<b>B.</b> <p>it maintains the relative order of occurrence of non-distinct elements</p>",
+            "<b>C.</b> <p>it uses divide and conquer paradigm</p>",
+            "<b>D.</b> <p>it takes O(n) space</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>it maintains the relative order of occurrence of non-distinct elements</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1465/gate1999-1-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 13,
+          "question": "<p>Suppose we want to arrange the n numbers stored in any array such that all negative values occur before all positive ones. Minimum number of exchanges required in the worst case is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>n-1</p>",
+            "<b>B.</b> <p>n</p>",
+            "<b>C.</b> <p>n+1</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1466/gate1999-1-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 14,
+          "question": "<p>If one uses straight two-way merge sort algorithm to sort the following elements in ascending order:<br>\n20, 47, 15, 8, 9, 4, 40, 30, 12, 17<br>\nthen the order of these elements after second pass of the algorithm is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8, 9, 15, 20, 47, 4, 12, 17, 30, 40</p>",
+            "<b>B.</b> <p>8, 15, 20, 47, 4, 9, 30, 40, 12, 17</p>",
+            "<b>C.</b> <p>15, 20, 47, 4, 8, 9, 12, 30, 40, 17</p>",
+            "<b>D.</b> <p>4, 8, 9, 15, 20, 47, 12, 17, 30, 40</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>8, 15, 20, 47, 4, 9, 30, 40, 12, 17</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1467/gate1999-1-14-isro2015-42\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 15,
+          "question": "<p>The number of articulation points of the following graph is<br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1999\\q1.15_7ee16da4.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0</p>",
+            "<b>B.</b> <p>1</p>",
+            "<b>C.</b> <p>2</p>",
+            "<b>D.</b> <p>3</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1468/gate1999-1-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 16,
+          "question": "<p>If n is a power of 2, then the minimum number of multiplications needed to compute \\(a^n\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\log_2 n\\)</p>",
+            "<b>B.</b> <p>\\(\\sqrt n\\)</p>",
+            "<b>C.</b> <p>n-1</p>",
+            "<b>D.</b> <p>n</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>\\(\\log_2 n\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1469/gate1999-1-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 17,
+          "question": "<p>Which of the following is the most powerful parsing method?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>LL (1)</p>",
+            "<b>B.</b> <p>Canonical LR</p>",
+            "<b>C.</b> <p>SLR</p>",
+            "<b>D.</b> <p>LALR</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Canonical LR</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1470/gate1999-1-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 18,
+          "question": "<p>Consider the join of a relation R with a relation S. If R has m tuples and S has n tuples then the maximum and minimum sizes of the join respectively are</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>m+n and 0</p>",
+            "<b>B.</b> <p>mn and 0</p>",
+            "<b>C.</b> <p>m+n and |m-n|</p>",
+            "<b>D.</b> <p>mn and m+n</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>mn and 0</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1471/gate1999-1-18-isro2016-53\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 19,
+          "question": "<p>The relational algebra expression equivalent to the following tuple calculus expression: <br>\n\\(\\left\\{t \\mid t \\in r \\land \\left(t[A] = 10 \\land t[B]=20\\right)\\right\\}\\) is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\sigma_{(A=10 \\lor B=20)} (r)\\)</p>",
+            "<b>B.</b> <p>\\(\\sigma_{(A=10)} (r) \\cup \\sigma_{(B=20)} (r)\\)</p>",
+            "<b>C.</b> <p>\\(\\sigma_{(A=10)} (r) \\cap \\sigma_{(B=20)} (r)\\)</p>",
+            "<b>D.</b> <p>\\(\\sigma_{(A=10)} (r) - \\sigma_{(B=20)} (r)\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>\\(\\sigma_{(A=10)} (r) \\cap \\sigma_{(B=20)} (r)\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1472/gate1999-1-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 20,
+          "question": "<p>Booth's coding in 8 bits for the decimal number -57 is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0-100+1000</p>",
+            "<b>B.</b> <p>0-100+100-1</p>",
+            "<b>C.</b> <p>0-1+100-10+1</p>",
+            "<b>D.</b> <p>00-10+100-1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>0-100+100-1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1473/gate1999-1-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 21,
+          "question": "<p>The main memory of a computer has 2 cm blocks while the cache has 2c blocks. If the cache uses the set associative mapping scheme with 2 blocks per set, then block k of the main memory maps to the set:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(k mod m) of the cache</p>",
+            "<b>B.</b> <p>(k mod c) of the cache</p>",
+            "<b>C.</b> <p>(k mod 2c) of the cache</p>",
+            "<b>D.</b> <p>(k mod 2 cm) of the cache</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(k mod c) of the cache</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1475/gate-cse-1999-question-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 22,
+          "question": "<p>The maximum gate delay for any output to appear in an array multiplier for multiplying two n bit numbers is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(O(n^2)\\)</p>",
+            "<b>B.</b> <p>O(n)</p>",
+            "<b>C.</b> <p>\\(O(\\log n)\\)</p>",
+            "<b>D.</b> <p>O(1)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>O(n)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1475/gate1999-1-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 23,
+          "question": "<p>The Newton-Raphson method is to be used to find the root of the equation \\(f(x)=0\\) where \\(x_o\\) is the initial approximation and \\(f'\\) is the derivative of \\(f\\). The method converges</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>always</p>",
+            "<b>B.</b> <p>only if \\(f\\) is a polynomial</p>",
+            "<b>C.</b> <p>only if \\(f(x_o) \\lt 0\\)</p>",
+            "<b>D.</b> <p>none of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>none of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1476/gate1999-1-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 24,
+          "question": "<p>Let R = (A, B, C, D, E, F) be a relation scheme with the following dependencies \\(C \\rightarrow F, E \\rightarrow A, EC \\rightarrow D, A \\rightarrow B\\). Which one of the following is a key for R?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>CD</p>",
+            "<b>B.</b> <p>EC</p>",
+            "<b>C.</b> <p>AE</p>",
+            "<b>D.</b> <p>AC</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>EC</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1477/gate1999-1-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 25,
+          "question": "<p>Which of the following is correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>B-trees are for storing data on disk and \\(B^+\\) trees are for main memory.</p>",
+            "<b>B.</b> <p>Range queries are faster on \\(B^+\\) trees.</p>",
+            "<b>C.</b> <p>B-trees are for primary indexes and \\(B^+\\) trees are for secondary indexes.</p>",
+            "<b>D.</b> <p>The height of a \\(B^+\\) tree is independent of the number of records.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Range queries are faster on \\(B^+\\) trees.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1478/gate1999-1-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 26,
+          "question": "<p>Consider two events \\(E_1\\) and \\(E_0\\) such that probability of \\(E_1, P_r[E_1]=\\frac{1}{2}\\), probability of \\(E_2, P_r[E_{2}]=\\frac{1}{3}\\), and probability of \\(E_1\\), and \\(E_2, P_r[E_1 \\:\\text{and}\\: E_2] = \\frac{1}{5}\\). Which of the following statements is/are true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(P_r[E_1\\: \\text{or} \\:E_2] \\text{ is } \\frac{2}{3}\\)</p>",
+            "<b>B.</b> <p>Events \\(E_1\\) and \\(E_2\\) are independent</p>",
+            "<b>C.</b> <p>Events \\(E_1\\) and \\(E_2\\) are not independent</p>",
+            "<b>D.</b> <p>\\(P_r \\left[{E_1}\\mid{E_2} \\right] = \\frac{4}{5}\\)</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Events \\(E_1\\) and \\(E_2\\) are not independent</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1479/gate1999-2-1\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 27,
+          "question": "<p>Two girls have picked 10 roses, 15 sunflowers and 15 daffodils. What is the number of ways they can divide the flowers among themselves?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>1638</p>",
+            "<b>B.</b> <p>2100</p>",
+            "<b>C.</b> <p>2640</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1480/gate1999-2-2\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 28,
+          "question": "<p>Let L be a set with a relation R which is transitive, anti-symmetric and reflexive and for any two elements  \\(a, b \\in L\\), let the least upper bound \\(lub (a, b)\\) and the greatest lower bound \\(glb (a, b)\\) exist. Which of the following is/are true?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L is a poset</p>",
+            "<b>B.</b> <p>L is a Boolean algebra</p>",
+            "<b>C.</b> <p>L is a lattice</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L is a poset</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1481/gate1999-2-3\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 29,
+          "question": "<p>If L1 is context free language and L2 is a regular language which of the following is/are false?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>L1-L2 is not context free</p>",
+            "<b>B.</b> <p>\\(L1 \\cap L2\\) is context free</p>",
+            "<b>C.</b> <p>\\(\\sim L1\\) is context free</p>",
+            "<b>D.</b> <p>\\(\\sim L2\\) is regular</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>L1-L2 is not context free</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1482/gate1999-2-4\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 30,
+          "question": "<p>Given the programming constructs<br>\nI. assignment<br>\nII. for loops where the loop parameter cannot be changed within the loop<br>\nIII. if-then-else<br>\nIV. forward go to<br>\nV. arbitrary go to<br>\nVI. non-recursive procedure call<br>\nVII. recursive procedure/function call<br>\nVIII. repeat loop,<br>\nwhich constructs will you not include in a programming language such that it should be possible to program the terminates (i.e., halting) function in the same programming language</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>(II), (III), (IV)</p>",
+            "<b>B.</b> <p>(V), (VII), (VIII)</p>",
+            "<b>C.</b> <p>(VI), (VII), (VIII)</p>",
+            "<b>D.</b> <p>(III), (VII), (VIII)</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>(V), (VII), (VIII)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1483/gate1999-2-5\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 31,
+          "question": "<p>For the schedule given below, which of the following is correct:<br>\\(\\begin{array}{lll} \\text{1} &amp; \\text{Read A} &amp; \\text{} \\\\ \\text{2} &amp; \\text{} &amp; \\text{Read B} \\\\ \\text{3} &amp; \\text{Write A} &amp; \\text{} \\\\ \\text{4} &amp; \\text{} &amp; \\text{Read A} \\\\ \\text{5} &amp; \\text{} &amp; \\text{Write A} \\\\ \\text{6} &amp; \\text{} &amp; \\text{Write B} \\\\ \\text{7} &amp; \\text{Read B} &amp; \\text{} \\\\ \\text{8} &amp; \\text{Write B} &amp; \\text{} \\\\\\end{array}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>This schedule is serializable and can occur in a scheme using 2PL protocol</p>",
+            "<b>B.</b> <p>This schedule is serializable but cannot occur in a scheme using 2PL protocol</p>",
+            "<b>C.</b> <p>This schedule is not serializable but can occur in a scheme using 2PL protocol</p>",
+            "<b>D.</b> <p>This schedule is not serializable and cannot occur in a scheme using 2PL protocol</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>This schedule is not serializable and cannot occur in a scheme using 2PL protocol</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1484/gate1999-2-6\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 32,
+          "question": "<p>Consider the schema \\(R=(S,T, U, V)\\) and the dependencies \\(S \\rightarrow T, T \\rightarrow U, U \\rightarrow V\\) and \\(V \\rightarrow S\\). Let \\(R = (R1\\text{ and } R2)\\) be a decomposition such that \\(R1 \\cap R2 \\neq \\phi\\). The decomposition is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>not in 2NF</p>",
+            "<b>B.</b> <p>in 2NF but not 3NF</p>",
+            "<b>C.</b> <p>in 3NF but not in 2NF</p>",
+            "<b>D.</b> <p>in both 2NF and 3NF</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>in both 2NF and 3NF</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1485/gate1999-2-7-ugcnet-june2014-iii-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 33,
+          "question": "<p>Consider the circuit shown below. In a certain steady state, the line Y is at '1'. What are the possible values of A, B and C in this state?<br><br><img style=\"max-width:50%;height:auto;border-radius:8px;\" data-lazyloaded=\"1\" decoding=\"async\" src=\"images\\yearWiseImages\\GATE_1999\\q2.12_bf1b9247.jpg\"><br></p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>A=0,B=0,C=1</p>",
+            "<b>B.</b> <p>A=0,B=1,C=1</p>",
+            "<b>C.</b> <p>A=1,B=0,C=1</p>",
+            "<b>D.</b> <p>A=1,B=1,C=1</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>A=0,B=1,C=1</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1486/gate1999-2-8\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 34,
+          "question": "<p>Which of the following sets of component(s) is/are sufficient to implement any arbitrary Boolean function?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>XOR gates, NOT gates</p>",
+            "<b>B.</b> <p>2 to 1 multiplexers</p>",
+            "<b>C.</b> <p>AND gates, XOR gates</p>",
+            "<b>D.</b> <p>Three-input gates that output (A.B)+C for the inputs A,B and C.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>2 to 1 multiplexers</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1487/gate1999-2-9\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 35,
+          "question": "<p>A multi-user, multi-processing operating system cannot be implemented on hardware that does not support</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Address translation</p>",
+            "<b>B.</b> <p>DMA for disk transfer</p>",
+            "<b>C.</b> <p>At least two modes of CPU execution (privileged and non-privileged)</p>",
+            "<b>D.</b> <p>Demand paging</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Address translation</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1488/gate1999-2-10\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 36,
+          "question": "<p>Which of the following is/are advantage(s) of virtual memory?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Faster access to memory on an average.</p>",
+            "<b>B.</b> <p>Processes can be given protected address spaces.</p>",
+            "<b>C.</b> <p>Linker can assign addresses independent of where the program will be loaded in physical memory.</p>",
+            "<b>D.</b> <p>Program larger than the physical memory size can be run.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Processes can be given protected address spaces.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1489/gate1999-2-11\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 37,
+          "question": "<p>Which of the following actions is/are typically not performed by the operating system when switching context from process A to process B?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Saving current register values and restoring saved register values for process B.</p>",
+            "<b>B.</b> <p>Changing address translation tables.</p>",
+            "<b>C.</b> <p>Swapping out the memory image of process A to the disk.</p>",
+            "<b>D.</b> <p>Invalidating the translation look-aside buffer.</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Swapping out the memory image of process A to the disk.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1490/gate1999-2-12\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 38,
+          "question": "<p>Consider the following program in a language that has dynamic scooping:<br><pre><code>var x: real;\nprocedure show:\n    begin print(x);end;\nprocedure small;\n    var x: real;\n        begin x: = 0.125; show; end;\nbegin x:=0.25\n    show; small\n    end. </code></pre>\nThen the output of the program is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>0.125 0.125</p>",
+            "<b>B.</b> <p>0.25 0.25</p>",
+            "<b>C.</b> <p>0.25 0.125</p>",
+            "<b>D.</b> <p>0.125 0.25</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>0.25 0.125</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1491/gate1999-2-13\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 39,
+          "question": "<p>The number of tokens in the FORTRAN statement DO 10 I = 1.25 is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>3</p>",
+            "<b>B.</b> <p>4</p>",
+            "<b>C.</b> <p>5</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>3</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1492/gate1999-2-14\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 40,
+          "question": "<p>A grammar that is both left and right recursive for a non-terminal, is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Ambiguous</p>",
+            "<b>B.</b> <p>Unambiguous</p>",
+            "<b>C.</b> <p>Information is not sufficient to decide whether it is ambiguous or unambiguous</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>C.</b> <p>Information is not sufficient to decide whether it is ambiguous or unambiguous</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1493/gate1999-2-15\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 41,
+          "question": "<p>The number of full and half-adders required to add 16-bit numbers is</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>8 half-adders, 8 full-adders</p>",
+            "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+            "<b>C.</b> <p>16 half-adders, 0 full-adders</p>",
+            "<b>D.</b> <p>4 half-adders, 12 full-adders</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>1 half-adder, 15 full-adders</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1494/gate1999-2-16\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 42,
+          "question": "<p>Zero has two representations in:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Sign-magnitude</p>",
+            "<b>B.</b> <p>2's  complement</p>",
+            "<b>C.</b> <p>1's  complement</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>Sign-magnitude</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1495/gate1999-2-17\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 43,
+          "question": "<p>Raid configurations of the disks are used to provide</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Fault-tolerance</p>",
+            "<b>B.</b> <p>High speed</p>",
+            "<b>C.</b> <p>High data density</p>",
+            "<b>D.</b> <p>(A) &amp; (B)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>(A) &amp; (B)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1496/gate1999-2-18-isro2008-46\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 44,
+          "question": "<p>Arrange the following configuration for CPU in decreasing order of operating speeds:<br>\nHard wired control, Vertical microprogramming, Horizontal microprogramming.</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Hard wired control, Vertical microprogramming, Horizontal microprogramming.</p>",
+            "<b>B.</b> <p>Hard wired control, Horizontal microprogramming, Vertical microprogramming.</p>",
+            "<b>C.</b> <p>Horizontal microprogramming, Vertical microprogramming, Hard wired control.</p>",
+            "<b>D.</b> <p>Vertical microprogramming, Horizontal microprogramming, Hard wired control.</p>"
+          ],
+          "correct_answer": "<b>B.</b> <p>Hard wired control, Horizontal microprogramming, Vertical microprogramming.</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1497/gate1999-2-19\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 45,
+          "question": "<p>The minimum number of record movements required to merge five files A (with 10 records), B (with 20 records), C (with 15 records), D (with 5 records) and E (with 25 records) is:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>165</p>",
+            "<b>B.</b> <p>90</p>",
+            "<b>C.</b> <p>75</p>",
+            "<b>D.</b> <p>65</p>"
+          ],
+          "correct_answer": "<b>A.</b> <p>165</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/466/gate1999-2-20\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 46,
+          "question": "<p>If \\(T_1 = O(1)\\), give the correct matching for the following pairs:<br>\n\\(\\begin{array}{l|l}\\hline \\text{(M) $T_n = T_{n-1} + n$} &amp; \\text{(U) $T_n = O(n)$} \\\\\\hline \\text{(N) $T_n = T_{n/2} + n$} &amp; \\text{(V) $T_n = O(n \\log n)$} \\\\\\hline \\text{(O) $T_n = T_{n/2} + n \\log n$} &amp; \\text{(W) $T_n = O(n^2)$} \\\\\\hline \\text{(P) $T_n = T_{n-1} + \\log n$} &amp; \\text{(X) $T_n = O(\\log^2 n)$} \\\\\\hline \\end{array}\\)</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>\\(\\text{M-W, N-V, O-U, P-X}\\)</p>",
+            "<b>B.</b> <p>\\(\\text{M-W, N-U, O-X, P-V}\\)</p>",
+            "<b>C.</b> <p>\\(\\text{M-V, N-W, O-X, P-U}\\)</p>",
+            "<b>D.</b> <p>\\(\\text{M-W, N-U, O-V, P-V}\\)</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>\\(\\text{M-W, N-U, O-V, P-V}\\)</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1498/gate1999-2-21\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 47,
+          "question": "<p>The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically:<br>\na) has fewer instructions<br>\nb) has fewer addressing modes<br>\nc) has more registers<br>\nd) is easier to implement using hardwired control logic</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>a and b</p>",
+            "<b>B.</b> <p>b and c</p>",
+            "<b>C.</b> <p>a and d</p>",
+            "<b>D.</b> <p>a, b, c and d</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c and d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1499/gate1999-2-22\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 48,
+          "question": "<p>A certain processor supports only the immediate and the direct addressing modes. Which of the following programming language features cannot be implemented on this processor?<br>\na) Pointers<br>\nb) Arrays<br>\nc) Records<br>\nd) Recursive procedures with local variables</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Only a</p>",
+            "<b>B.</b> <p>a and b</p>",
+            "<b>C.</b> <p>c and d</p>",
+            "<b>D.</b> <p>a, b, c and d</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>a, b, c and d</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1500/gate1999-2-23\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 49,
+          "question": "<p>Consider the following C function definition<br><pre><code>int Trial (int a, int b, int c)\n{\n    if ((a&gt;=b) &amp;&amp; (c &lt; b)) return b;\n    else if (a &gt;= b) return Trial(a, c, b);\n    else return Trial(b, a, c);\n} </code></pre>The functional Trial:</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>Finds the maximum of a, b, and c</p>",
+            "<b>B.</b> <p>Finds the minimum of a, b, and c</p>",
+            "<b>C.</b> <p>Finds the middle number of a, b, c</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1501/gate1999-2-24\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        },
+        {
+          "id": 50,
+          "question": "<p>Which of the following is/are correct?</p>",
+          "type": "single",
+          "options": [
+            "<b>A.</b> <p>An SQL query automatically eliminates duplicates</p>",
+            "<b>B.</b> <p>An SQL query will not work if there are no indexes on the relations</p>",
+            "<b>C.</b> <p>SQL permits attribute names to be repeated in the same relation</p>",
+            "<b>D.</b> <p>None of the above</p>"
+          ],
+          "correct_answer": "<b>D.</b> <p>None of the above</p>",
+          "marks": 1,
+          "negative_marks": 0.33,
+          "explanation": "<a href=\"https://gateoverflow.in/1502/gate1999-2-25\" target=\"_blank\" rel=\"noopener\">Click here for detail solution by gateoverflow</a>"
+        }
+      ]
+    }
+  ]
+}
